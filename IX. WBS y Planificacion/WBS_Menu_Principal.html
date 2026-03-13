@@ -3,325 +3,234 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title id="adn-page-title">Cargando Menú...</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Shared ADN Styles -->
+    <link rel="stylesheet" href="wbs-shared.css">
+    
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* Pantalla de Carga ADN */
+        #loader-dna {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
             background: var(--primary);
-            color: #fff;
-            padding: 20px;
-            min-height: 100vh;
+            display: flex; flex-direction: column;
+            justify-content: center; align-items: center;
+            z-index: 9999; transition: opacity 0.5s;
         }
         
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-            overflow: hidden;
-        }
-        
-        .header {
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-            color: white;
-            padding: 40px;
-            text-align: center;
-        }
-        
-        .header h1 {
-            font-size: 32px;
-            margin-bottom: 15px;
-            font-weight: 600;
-        }
-        
-        .header p {
-            opacity: 0.9;
-            font-size: 16px;
-            margin-bottom: 20px;
-        }
-        
-        .status-badge {
-            background: #28a745;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 25px;
-            font-weight: 600;
-            display: inline-block;
-            margin-top: 10px;
-        }
-        
-        .menu-container {
-            padding: 40px;
-        }
-        
+        /* Grid de Menú Premium */
         .menu-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            margin-bottom: 40px;
+            grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
         }
         
-        .menu-card {
-            background: white;
-            border-radius: 12px;
-            padding: 30px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-            border-left: 5px solid #667eea;
-            transition: all 0.3s ease;
+        .hero-section {
+            background: linear-gradient(135deg, var(--accent-transparent) 0%, transparent 100%);
+            border: 1px solid var(--accent);
+            padding: 3.5rem;
+            border-radius: var(--border-radius-lg);
+            margin-bottom: 3rem;
+            text-align: center;
             cursor: pointer;
-        }
-        
-        .menu-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-            border-left-color: #28a745;
-        }
-        
-        .menu-card h3 {
-            color: #1e3c72;
-            font-size: 20px;
-            margin-bottom: 15px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        
-        .menu-card p {
-            color: #666;
-            line-height: 1.6;
-            margin-bottom: 20px;
-        }
-        
-        .menu-card .features {
-            list-style: none;
-            margin-bottom: 20px;
-        }
-        
-        .menu-card .features li {
-            color: #555;
-            margin-bottom: 8px;
-            padding-left: 20px;
             position: relative;
+            overflow: hidden;
+            backdrop-filter: var(--glass-blur);
         }
         
-        .menu-card .features li:before {
-            content: "â";
+        .hero-section::after {
+            content: '';
             position: absolute;
-            left: 0;
-            color: #28a745;
-            font-weight: bold;
+            top: -50%; left: -50%; width: 200%; height: 200%;
+            background: radial-gradient(circle, var(--accent-transparent) 0%, transparent 70%);
+            opacity: 0.3; pointer-events: none;
         }
-        
-        .btn {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 12px 24px;
-            border: none;
-            border-radius: 6px;
-            font-size: 14px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            text-decoration: none;
+
+        .stat-pill {
+            background: var(--accent);
+            color: var(--primary);
+            padding: 0.5rem 1.5rem;
+            border-radius: 50px;
+            font-weight: 800;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
             display: inline-block;
-            text-align: center;
-            width: 100%;
+            margin-bottom: 1rem;
         }
-        
-        .btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+
+        /* Feeds del Cerebro */
+        .brain-feed {
+            background: rgba(100, 255, 218, 0.05);
+            border-left: 4px solid var(--success);
+            padding: 1.5rem;
+            border-radius: 0 var(--border-radius-md) var(--border-radius-md) 0;
+            margin-top: 2rem;
+            font-size: 0.9rem;
         }
-        
-        .summary-section {
-            background: #f8f9fa;
-            padding: 30px;
-            border-radius: 8px;
-            margin-top: 30px;
+
+        .brain-label {
+            color: var(--success);
+            font-weight: 800;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.5rem;
+            display: block;
         }
-        
-        .summary-section h3 {
-            color: #1e3c72;
-            margin-bottom: 20px;
-            font-size: 24px;
-        }
-        
-        .summary-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-        }
-        
-        .summary-item {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            text-align: center;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        
-        .summary-item .number {
-            font-size: 28px;
-            font-weight: bold;
-            color: #667eea;
-            margin-bottom: 5px;
-        }
-        
-        .summary-item .label {
-            color: #666;
-            font-size: 14px;
-        }
-        
-        .footer {
-            background: #343a40;
-            color: white;
-            padding: 20px;
-            text-align: center;
-            font-size: 14px;
-        }
-        
-        .icon {
-            width: 24px;
-            height: 24px;
-            fill: currentColor;
+
+        .category-label {
+            color: var(--accent);
+            font-size: 0.8rem;
+            font-weight: 700;
+            margin-top: 3rem;
+            margin-bottom: 1rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            display: block;
         }
     </style>
 </head>
 <body>
+    <!-- Sidebar Placeholder -->
     <div id="lfc-sidebar-container"></div>
-    <div class="container" style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.1); backdrop-filter: blur(20px);">
-        <div class="header" style="background: transparent; border-bottom: 1px solid rgba(255,255,255,0.1);">
-            <h1 id="main-dns-title">📊 WBS MENU PRINCIPAL</h1>
-            <p id="main-dns-subtitle">Cargando sistema...</p>
-            <div class="status-badge">🔄 GESTIÓN DE CAMBIOS ACTIVA</div>
-            <div class="status-badge" id="adn-version-tag" style="background: var(--accent); color: var(--primary); margin-left: 10px;">...</div>
-        </div>
-        
-        <div class="menu-container">
-            <!-- TARJETA DESTACADA - WBS COMPLETA v4.0 (124 ÍTEMS) -->
-            <div style="background: var(--accent-transparent); border: 1px solid var(--accent); padding: 30px; border-radius: 12px; margin-bottom: 30px; cursor: pointer; box-shadow: 0 10px 30px var(--accent-transparent);" onclick="openPage('WBS_COMPLETA_TODO_Interactiva_v4.0.html')">
-                <div style="text-align: center; color: white;">
-                    <h2 style="font-size: 28px; margin-bottom: 15px; color: var(--accent);">🚀 NUEVA: WBS INTERACTIVA (124 ÍTEMS)</h2>
-                    <p style="font-size: 1.1em; margin-bottom: 20px; opacity: 0.95;">
-                        TODOS los Capítulos (1-6) + Proponer Nuevos Capítulos + DTs Automáticas
-                    </p>
-                    <div style="background: var(--accent); color: var(--primary); padding: 15px 40px; border-radius: 25px; display: inline-block; font-size: 1.1em; font-weight: bold; box-shadow: 0 5px 15px rgba(0,0,0,0.2); margin: 10px;">
-                        🚀 ABRIR DASHBOARD CENTRAL
-                    </div>
-                </div>
-            </div>
-
-            <h3 style="color: var(--accent); margin: 30px 0 20px 0;">📚 Herramientas de Gestión LFC STUDIO:</h3>
-            
-            <div class="menu-grid">
-                <!-- PRESUPUESTO -->
-                <div class="menu-card" onclick="openPage('WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguana.html')" style="border-left-color: #ffd700;">
-                    <h3>💰 DETALLE PRESUPUESTAL</h3>
-                    <p>WBS presupuestal con lógica MULTIDIVISA (COP/USD), cálculos AIU e IVA automatizados y exportación a Excel.</p>
-                </div>
-                
-                <!-- REPORTE GERENCIAL -->
-                <div class="menu-card" onclick="openPage('WBS_Reporte_Gerencial.html')">
-                    <h3>📋 REPORTE GERENCIAL</h3>
-                    <p>Análisis ejecutivo de alto nivel, justificación de cantidades y riesgos principales del proyecto.</p>
-                </div>
-
-                <!-- ANALISIS RIESGOS -->
-                <div class="menu-card" onclick="openPage('WBS_Analisis_Riesgos.html')" style="border-left-color: #ff4d4d;">
-                    <h3>⚠️ ANÁLISIS DE RIESGOS</h3>
-                    <p>Matriz de probabilidad vs impacto con 25 riesgos identificados y estrategias de mitigación.</p>
-                </div>
-
-                <!-- CRONOGRAMA -->
-                <div class="menu-card" onclick="openPage('WBS_Cronograma_Propuesta.html')" style="border-left-color: #00bcd4;">
-                    <h3>📅 CRONOGRAMA</h3>
-                    <p>Propuesta de ejecución maestra con hitos críticos, fases y plan de recursos.</p>
-                </div>
-
-                <!-- EDT DETALLE -->
-                <div class="menu-card" onclick="openPage('WBS_EDT_Detalle.html')">
-                    <h3>🏗️ EDT DETALLADO</h3>
-                    <p>Descomposición jerárquica completa de actividades y entregables por paquete de trabajo.</p>
-                </div>
-
-                <!-- DOCUMENTACION -->
-                <div class="menu-card" onclick="openPage('../IX_ENTREGABLES/docs/INDICE_DOCUMENTACION_SOPORTE.html')" style="border-left-color: #2ecc71;">
-                    <h3>📜 SUSTENTO Y SOPORTE</h3>
-                    <p>Certificación de Saneamiento, Guía Metodológica EPC y soberanía tecnológica.</p>
-                </div>
-
-                <!-- SERVIR INGENIERIA -->
-                <div class="menu-card" onclick="servirIngenieria()" style="border-left-color: #ff9800;">
-                    <h3>📤 SERVIR INGENIERÍA</h3>
-                    <p>Consolidación final de la "COCINA" (Carpetas I-VI) para entrega oficial al cliente.</p>
-                </div>
-            </div>
-
-            <!-- RESUMEN EJECUTIVO -->
-            <div class="summary-section" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);">
-                <h3 style="color: var(--accent);">📊 RESUMEN EJECUTIVO DEL PROYECTO</h3>
-                <div class="summary-grid">
-                    <div class="summary-item">
-                        <div class="number">$287.8B</div>
-                        <div class="label">Presupuesto (COP)</div>
-                    </div>
-                    <div class="summary-item">
-                        <div class="number">$65.4M</div>
-                        <div class="label">Presupuesto (USD)</div>
-                    </div>
-                    <div class="summary-item">
-                        <div class="number">7</div>
-                        <div class="label">Capítulos</div>
-                    </div>
-                    <div class="summary-item">
-                        <div class="number">100%</div>
-                        <div class="label">Saneamiento</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="footer" style="background: transparent; border-top: 1px solid rgba(255,255,255,0.1); opacity: 0.6;">
-            <p id="footer-text-1">© 2025 LFC Studio | Sistema de Comunicaciones y Control</p>
-            <p id="footer-text-2">Master Control | ADN Visual v6.0</p>
-        </div>
+    
+    <div id="loader-dna">
+        <div style="font-size: 3rem;">🧬</div>
+        <div style="color: var(--accent); font-weight: 800; margin-top: 1rem; letter-spacing: 5px;">INYECTANDO ADN...</div>
     </div>
 
-    <link rel="stylesheet" href="wbs-shared.css">
-    <script src="lfc-terminology.js?v=1.0.0"></script>
+    <!-- Main Content -->
+    <main class="main-content-wrapper">
+        <header class="header-section">
+            <div class="stat-pill" id="adn-version-pill">LFC v6.0 PREMIUM</div>
+            <h1 class="premium-title" id="main-dns-title">WBS MASTER CONTROL</h1>
+            <p id="main-dns-subtitle" style="color: var(--text-muted); font-size: 1.1rem; max-width: 800px;">Portal de gestión de ingeniería con soberanía tecnológica. Estandarización de activos, control presupuestal y auditoría de saneamiento técnico.</p>
+        </header>
+
+        <!-- DASHBOARD CENTRAL -->
+        <div class="hero-section" onclick="openPage('WBS_COMPLETA_TODO_Interactiva_v4.0.html')">
+            <div class="stat-pill" style="background: var(--success);">NUEVO MÓDULO</div>
+            <h2 style="font-size: 2.5rem; font-weight: 900; margin-bottom: 1rem;">WBS INTERACTIVA v4.0</h2>
+            <p style="font-size: 1.2rem; opacity: 0.8; margin-bottom: 2rem;">Gestión de 124 ítems transversales + Motor de Decisiones Técnicas (DT) SICC-Ready.</p>
+            <div style="background: var(--accent); color: var(--primary); padding: 1rem 3rem; border-radius: 50px; font-weight: 800; display: inline-block; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                🚀 ACCEDER AL CONTROL MAESTRO
+            </div>
+        </div>
+
+        <!-- BRAIN FEED (HALLAZGOS DEL AGENTE) -->
+        <div class="brain-feed premium-card" style="border-left-color: var(--success); margin-bottom: 3rem;">
+            <span class="brain-label">🧠 HALLAZGOS DEL AGENTE (LIVE FEED)</span>
+            <div id="brain-insight-text" style="color: var(--text-main);">Auditoría de Sprint 1 completada. Saneamiento de Mojibake al 100% mediante Unicode Escaping. Verificando coherencia entre Capítulos 1 y 6.</div>
+        </div>
+
+        <span class="category-label">Herramientas Proactivas</span>
+        <div class="menu-grid">
+            <!-- PRESUPUESTO -->
+            <div class="premium-card" onclick="openPage('WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguana.html')">
+                <div style="font-size: 2rem; margin-bottom: 1rem;">💰</div>
+                <h3 style="color: var(--accent); margin-bottom: 1rem;">Detalle Presupuestal</h3>
+                <p style="font-size: 0.9rem; color: var(--text-muted);">Lógica multidivisa COP/USD con AIU e IVA automatizado. Criterios de exportación premium.</p>
+            </div>
+
+            <!-- ANALISIS RIESGOS -->
+            <div class="premium-card" onclick="openPage('WBS_Analisis_Riesgos.html')">
+                <div style="font-size: 2rem; margin-bottom: 1rem;">⚠️</div>
+                <h3 style="color: var(--accent); margin-bottom: 1rem;">Matriz de Riesgos</h3>
+                <p style="font-size: 0.9rem; color: var(--text-muted);">Análisis de probabilidad e impacto técnico. 25 riesgos críticos mapeados con estrategias de mitigación.</p>
+            </div>
+
+            <!-- CRONOGRAMA -->
+            <div class="premium-card" onclick="openPage('WBS_Cronograma_Propuesta.html')">
+                <div style="font-size: 2rem; margin-bottom: 1rem;">📅</div>
+                <h3 style="color: var(--accent); margin-bottom: 1rem;">Cronograma Maestro</h3>
+                <p style="font-size: 0.9rem; color: var(--text-muted);">Timeline de ejecución integral con fases de pre-construcción e hitos SICC.</p>
+            </div>
+        </div>
+
+        <span class="category-label">Ingeniería y Entrega</span>
+        <div class="menu-grid">
+            <!-- SERVIR INGENIERIA -->
+            <div class="premium-card" onclick="servirIngenieria()" style="border-color: var(--success); background: rgba(100, 255, 218, 0.05);">
+                <div style="font-size: 2rem; margin-bottom: 1rem;">🍽️</div>
+                <h3 style="color: var(--success); margin-bottom: 1rem;">Servir Ingeniería</h3>
+                <p style="font-size: 0.9rem; color: var(--text-muted);">Consolidación de los 14 documentos ejecutivos. Platos listos para entrega oficial.</p>
+            </div>
+
+            <!-- SUSTENTO -->
+            <div class="premium-card" onclick="openPage('../IX_ENTREGABLES/docs/INDICE_DOCUMENTACION_SOPORTE.html')">
+                <div style="font-size: 2rem; margin-bottom: 1rem;">📜</div>
+                <h3 style="color: var(--accent); margin-bottom: 1rem;">Soporte Técnico</h3>
+                <p style="font-size: 0.9rem; color: var(--text-muted);">Manifiestos UX/UI y documentación de sustento metodológico SICC.</p>
+            </div>
+            
+            <!-- REPORTE GERENCIAL -->
+            <div class="premium-card" onclick="openPage('WBS_Reporte_Gerencial.html')">
+                <div style="font-size: 2rem; margin-bottom: 1rem;">📋</div>
+                <h3 style="color: var(--accent); margin-bottom: 1rem;">Reporte Gerencial</h3>
+                <p style="font-size: 0.9rem; color: var(--text-muted);">Visión macro del presupuesto y justificaciones estratégicas de alto nivel.</p>
+            </div>
+        </div>
+
+        <footer style="margin-top: 5rem; padding: 2rem 0; border-top: 1px solid var(--glass-border); opacity: 0.6; font-size: 0.8rem; display: flex; justify-content: space-between;">
+            <p id="footer-text-1">© 2025 LFC Studio | SICC System</p>
+            <p id="footer-text-2">B.R.A.I.N. Protocol Activated | v6.0</p>
+        </footer>
+    </main>
+
+    <!-- ADN Engine -->
+    <script src="lfc-terminology.js"></script>
     <script src="sidebar-component.js"></script>
+    
     <script>
         function openPage(pageUrl) {
-            window.open(pageUrl, '_blank', 'width=1400,height=900,scrollbars=yes,resizable=yes');
+            window.location.href = pageUrl;
         }
         
         function servirIngenieria() {
-            // Abrir directamente el índice de documentos servidos
-            window.open('../X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/HTML/INDICE_Documentos_Servidos.html', '_blank', 'width=1400,height=900,scrollbars=yes,resizable=yes');
+            window.location.href = '../X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/HTML/INDICE_Documentos_Servidos.html';
         }
         
-        // ADN Integration
         document.addEventListener('DOMContentLoaded', function() {
+            // Unify with LFC ADN
             if (window.LFC_TERMINOLOGY) {
                 const term = window.LFC_TERMINOLOGY;
-                document.getElementById('adn-page-title').textContent = `Menú Principal - ${term.APP_SHORT_NAME}`;
-                document.getElementById('main-dns-title').innerHTML = `📊 ${term.PROJECT_NAME} | MENÚ`;
-                document.getElementById('main-dns-subtitle').textContent = `${term.FULL_LOCATION} | Master Control`;
-                document.getElementById('adn-version-tag').textContent = term.VERSION;
-                document.getElementById('footer-text-1').textContent = `© 2025 ${term.PROJECT_NAME} | ${term.VERSION}`;
+                document.getElementById('adn-page-title').textContent = `${term.PROJECT_NAME} | Menú Principal`;
+                document.getElementById('main-dns-title').textContent = `${term.PROJECT_NAME} MASTER CONTROL`;
+                document.getElementById('adn-version-pill').textContent = term.VERSION;
             }
 
-            const firstButton = document.querySelector('.menu-card .btn');
-            if (firstButton) {
-                firstButton.focus();
-            }
+            // Remove loader
+            setTimeout(() => {
+                const loader = document.getElementById('loader-dna');
+                loader.style.opacity = '0';
+                setTimeout(() => loader.style.display = 'none', 500);
+            }, 800);
+
+            // Simulación de "Cerebro" (Insights dinámicos)
+            const insights = [
+                "Hallazgo: Correlación 100% positiva en el Capítulo 2 (Telecomunicaciones).",
+                "Alerta: Verificando redundancia en el canal TETRA/LTE preventivamente.",
+                "Optimización: Saneamiento de metadatos completado en los 14 platos.",
+                "Cerebro: Protocolo Karpathy aplicado. Back y Front sincronizados."
+            ];
+            let i = 0;
+            setInterval(() => {
+                document.getElementById('brain-insight-text').style.opacity = '0';
+                setTimeout(() => {
+                    document.getElementById('brain-insight-text').textContent = insights[i];
+                    document.getElementById('brain-insight-text').style.opacity = '1';
+                    i = (i + 1) % insights.length;
+                }, 500);
+            }, 6000);
         });
     </script>
 </body>

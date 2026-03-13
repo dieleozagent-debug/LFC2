@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LFC Dashboard - Portal de Gestión Documental Premium</title>
+    <title id="adn-page-title">LFC Control Tower - SICC System</title>
+    
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
     <style>
         :root {
             --primary: #0a192f;
+            --primary-light: #112240;
             --accent: #ffd700;
             --accent-soft: rgba(255, 215, 0, 0.1);
             --success: #64ffda;
@@ -20,14 +24,9 @@
             --sidebar-width: 280px;
         }
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
 
         body {
-            font-family: 'Inter', sans-serif;
             background: radial-gradient(circle at 0% 0%, #112240 0%, #0a192f 100%);
             color: var(--text-main);
             min-height: 100vh;
@@ -38,51 +37,51 @@
         /* Sidebar Navigation */
         .sidebar {
             width: var(--sidebar-width);
-            background: rgba(10, 25, 47, 0.8);
-            backdrop-filter: blur(20px);
+            background: rgba(10, 25, 47, 0.85);
+            backdrop-filter: blur(25px);
             border-right: 1px solid var(--glass-border);
             height: 100vh;
             position: fixed;
-            padding: 2rem 1.5rem;
+            padding: 2.5rem 1.5rem;
             display: flex;
             flex-direction: column;
-            z-index: 100;
+            z-index: 1000;
         }
 
         .logo {
-            font-size: 1.5rem;
-            font-weight: 700;
+            font-size: 1.4rem;
+            font-weight: 800;
             color: var(--accent);
-            margin-bottom: 3rem;
+            margin-bottom: 3.5rem;
             display: flex;
             align-items: center;
-            gap: 10px;
-        }
-
-        .nav-group {
-            margin-bottom: 2rem;
-        }
-
-        .nav-label {
-            font-size: 0.75rem;
-            text-transform: uppercase;
+            gap: 12px;
             letter-spacing: 2px;
+        }
+
+        .nav-group { margin-bottom: 2.5rem; }
+        .nav-label {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
             color: var(--text-muted);
-            margin-bottom: 1rem;
-            padding-left: 0.5rem;
+            margin-bottom: 1.2rem;
+            padding-left: 0.8rem;
+            font-weight: 700;
         }
 
         .nav-item {
             display: flex;
             align-items: center;
             gap: 12px;
-            padding: 0.8rem 1rem;
+            padding: 0.9rem 1.2rem;
             color: var(--text-main);
             text-decoration: none;
             border-radius: 12px;
-            transition: all 0.3s;
-            margin-bottom: 0.5rem;
-            font-size: 0.9rem;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            margin-bottom: 0.6rem;
+            font-size: 0.85rem;
+            font-weight: 500;
             border: 1px solid transparent;
         }
 
@@ -90,30 +89,29 @@
             background: var(--glass);
             color: var(--accent);
             border-color: var(--glass-border);
-            transform: translateX(5px);
+            transform: translateX(8px);
         }
 
         .nav-item.active {
             background: var(--accent-soft);
             color: var(--accent);
             border-color: var(--accent);
+            font-weight: 700;
         }
 
-        /* Main Content */
+        /* Control Tower Content */
         .main-content {
             margin-left: var(--sidebar-width);
             flex: 1;
-            padding: 3rem;
-            max-width: 1400px;
+            padding: 4rem;
+            max-width: 1500px;
+            width: 100%;
         }
 
-        .header {
-            margin-bottom: 4rem;
-        }
-
+        .header { margin-bottom: 5rem; }
         .header h1 {
-            font-size: 3rem;
-            font-weight: 700;
+            font-size: 3.5rem;
+            font-weight: 800;
             letter-spacing: -2px;
             background: linear-gradient(to right, #fff, var(--accent));
             -webkit-background-clip: text;
@@ -123,127 +121,111 @@
 
         .header p {
             color: var(--text-muted);
-            font-size: 1.1rem;
-            max-width: 600px;
+            font-size: 1.2rem;
+            max-width: 800px;
+            line-height: 1.6;
         }
 
-        /* Stats Grid */
-        .stats-grid {
+        /* Metrics Tower */
+        .metrics-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-            gap: 1.5rem;
-            margin-bottom: 4rem;
-        }
-
-        .stat-card {
-            background: var(--glass);
-            border: 1px solid var(--glass-border);
-            padding: 2rem;
-            border-radius: 24px;
-            transition: all 0.4s;
-        }
-
-        .stat-card:hover {
-            transform: translateY(-10px);
-            background: rgba(255, 255, 255, 0.05);
-            border-color: var(--accent);
-        }
-
-        .stat-value {
-            font-size: 2.5rem;
-            font-weight: 700;
-            color: var(--accent);
-            margin-bottom: 0.5rem;
-        }
-
-        .stat-label {
-            font-size: 0.85rem;
-            color: var(--text-muted);
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-        }
-
-        /* Tools Grid */
-        .tools-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
             gap: 2rem;
-            margin-top: 2rem;
+            margin-bottom: 5rem;
         }
 
-        .tool-card {
+        .metric-card {
             background: var(--glass);
             border: 1px solid var(--glass-border);
-            border-radius: 24px;
             padding: 2.5rem;
-            transition: all 0.4s;
+            border-radius: 30px;
+            transition: all 0.5s;
+            backdrop-filter: blur(10px);
             position: relative;
             overflow: hidden;
+        }
+
+        .metric-card:hover {
+            transform: translateY(-10px);
+            background: rgba(255, 255, 255, 0.06);
+            border-color: var(--accent);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+        }
+
+        .metric-value {
+            font-size: 3rem;
+            font-weight: 900;
+            color: var(--accent);
+            margin-bottom: 0.5rem;
+            letter-spacing: -1px;
+        }
+
+        .metric-label {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 700;
+        }
+
+        .metric-icon {
+            position: absolute;
+            top: 1rem; right: 1.5rem;
+            font-size: 1.5rem;
+            opacity: 0.3;
+        }
+
+        /* Access Panels */
+        .access-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+            gap: 2.5rem;
+        }
+
+        .access-card {
+            background: var(--glass);
+            border: 1px solid var(--glass-border);
+            border-radius: 32px;
+            padding: 3rem;
+            transition: all 0.4s;
             text-decoration: none;
             color: inherit;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
         }
 
-        .tool-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 4px;
-            background: linear-gradient(to right, var(--accent), transparent);
-            opacity: 0;
-            transition: opacity 0.3s;
-        }
-
-        .tool-card:hover {
+        .access-card:hover {
             background: rgba(255, 255, 255, 0.05);
-            border-color: var(--glass-border);
+            border-color: var(--accent);
             transform: scale(1.02);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.3);
         }
 
-        .tool-card:hover::before {
-            opacity: 1;
-        }
-
-        .tool-icon {
-            font-size: 2rem;
-            margin-bottom: 1.5rem;
-        }
-
-        .tool-title {
-            font-size: 1.5rem;
-            font-weight: 600;
-            color: #fff;
-            margin-bottom: 1rem;
-        }
-
-        .tool-desc {
-            color: var(--text-muted);
-            font-size: 0.95rem;
-            line-height: 1.6;
-            margin-bottom: 2rem;
-        }
-
-        .btn {
-            display: inline-block;
-            padding: 0.8rem 1.5rem;
+        .access-title { font-size: 1.8rem; font-weight: 700; color: #fff; }
+        .access-desc { color: var(--text-muted); font-size: 1rem; line-height: 1.7; }
+        
+        .btn-premium {
+            align-self: flex-start;
+            padding: 0.9rem 2rem;
             background: var(--accent-soft);
             color: var(--accent);
             border: 1px solid var(--accent);
             border-radius: 50px;
-            font-weight: 600;
-            text-decoration: none;
-            transition: all 0.3s;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            letter-spacing: 1.5px;
+            transition: 0.3s;
         }
 
-        .tool-card:hover .btn {
+        .access-card:hover .btn-premium {
             background: var(--accent);
             color: var(--primary);
         }
 
-        /* Mobile nav toggle (simplified) */
         @media (max-width: 1024px) {
-            .sidebar { transform: translateX(-100%); }
+            .sidebar { transform: translateX(-100%); transition: transform 0.3s; }
             .main-content { margin-left: 0; padding: 2rem; }
         }
     </style>
@@ -251,97 +233,94 @@
 <body>
     <nav class="sidebar">
         <div class="logo">
-            <span>📊</span> LFC DASHBOARD
+            <span>📡</span> LFC TOWER
         </div>
 
         <div class="nav-group">
-            <div class="nav-label">Core Project</div>
-            <a href="index.html" class="nav-item active">🏠 Dashboard Principal</a>
-            <a href="README.md" class="nav-item">📖 Navegación README</a>
-            <a href="Indice_Maestro_Consolidado_v1.0.md" class="nav-item">🗂️ Índice Maestro</a>
+            <div class="nav-label">Core System</div>
+            <a href="index.html" class="nav-item active">🏠 SICC Control Tower</a>
+            <a href="README.md" class="nav-item">📖 Architecture Guide</a>
+            <a href="Indice_Maestro_Consolidado_v1.0.md" class="nav-item">🗂️ Master Index</a>
         </div>
 
         <div class="nav-group">
-            <div class="nav-label">Fases de Ingeniería</div>
-            <a href="I. Contrato General/" class="nav-item">📜 Fase 0: Contrato</a>
-            <a href="III. Ingenieria conceptual/" class="nav-item">💡 Fase B: Conceptual</a>
-            <a href="IV. Ingenieria básica/" class="nav-item">🏗️ Fase C: Básica</a>
-            <a href="V. Ingenieria de detalle/" class="nav-item">🔍 Fase D: Detalle</a>
+            <div class="nav-label">Engineering Phases</div>
+            <a href="IV. Ingenieria básica/" class="nav-item">🏗️ Phase C: Basic</a>
+            <a href="V. Ingenieria de detalle/" class="nav-item">🔍 Phase D: Detail</a>
         </div>
 
         <div class="nav-group">
-            <div class="nav-label">Herramientas</div>
-            <a href="IX. WBS y Planificacion/WBS_Menu_Principal.html" class="nav-item">🎯 Menú WBS</a>
-            <a href="Reportes/" class="nav-item">📈 Reportes Generales</a>
-            <a href="scripts/README_SCRIPTS.md" class="nav-item">⚙️ Automatización</a>
+            <div class="nav-label">Mission Control</div>
+            <a href="IX. WBS y Planificacion/WBS_Menu_Principal.html" class="nav-item">🎯 WBS Dashboard</a>
+            <a href="X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/HTML/INDICE_Documentos_Servidos.html" class="nav-item">🍽️ Platos Servidos</a>
         </div>
     </nav>
 
     <main class="main-content">
         <header class="header">
-            <h1>Ecosistema Documental LFC</h1>
-            <p>Portal ejecutivo centralizado para la APP La Dorada-Chiriguaná. Gestión de ingeniería, cumplimiento contractual y control presupuestal v5.0.</p>
+            <div style="color: var(--accent); font-weight: 800; font-size: 0.8rem; letter-spacing: 5px; margin-bottom: 1rem;">SICC INTEGRATED ECOSYSTEM</div>
+            <h1 id="tower-title">LFC Control Tower</h1>
+            <p>Unidad Central de Procesamiento y Supervisión Técnica para la APP La Dorada-Chiriguaná. Soberanía tecnológica v6.0 mediante arquitectura de datos distribuida.</p>
         </header>
 
-        <section class="stats-grid">
-            <div class="stat-card">
-                <div class="stat-value" id="count-items">124</div>
-                <div class="stat-label">Ítems WBS</div>
+        <section class="metrics-grid">
+            <div class="metric-card">
+                <span class="metric-icon">📦</span>
+                <div class="metric-value" id="count-items">--</div>
+                <div class="metric-label">Items WBS Saneados</div>
             </div>
-            <div class="stat-card">
-                <div class="stat-value">181</div>
-                <div class="stat-label">Documentos Totales</div>
+            <div class="metric-card">
+                <span class="metric-icon">📑</span>
+                <div class="metric-value">14</div>
+                <div class="metric-label">Platos Servidos</div>
             </div>
-            <div class="stat-card">
-                <div class="stat-value">$287.8B</div>
-                <div class="stat-label">Presupuesto (COP)</div>
+            <div class="metric-card">
+                <span class="metric-icon">💎</span>
+                <div class="metric-value">100%</div>
+                <div class="metric-label">UTF-8 Purity</div>
             </div>
-            <div class="stat-card">
-                <div class="stat-value">100%</div>
-                <div class="stat-label">Coherencia Técnica</div>
+            <div class="metric-card">
+                <span class="metric-icon">📡</span>
+                <div class="metric-value">v6.0</div>
+                <div class="metric-label">SICC Kernel Ver</div>
             </div>
         </section>
 
-        <h2 style="margin-bottom: 2rem;">Acceso Rápido a Herramientas WBS</h2>
-        <div class="tools-grid">
-            <a href="IX. WBS y Planificacion/WBS_COMPLETA_TODO_Interactiva_v4.0.html" class="tool-card">
-                <div class="tool-icon">🚀</div>
-                <div class="tool-title">WBS Interactiva v4.0</div>
-                <div class="tool-desc">Gestión dinámica de todos los capítulos presupuestales. Permite proponer cambios técnicos y ver impactos en tiempo real.</div>
-                <span class="btn">Abrir WBS</span>
+        <h2 style="margin-bottom: 3rem; font-weight: 800; color: #fff;">Operational Entry Points</h2>
+        <div class="access-grid">
+            <a href="IX. WBS y Planificacion/WBS_Menu_Principal.html" class="access-card">
+                <div class="access-title">WBS Mission Control</div>
+                <div class="access-desc">Acceso a la gestión presupuestal interactiva COP/USD, análisis de riesgos y matriz de decisión técnica (DT). El núcleo de la operación financiera.</div>
+                <span class="btn-premium">Launch Module</span>
             </a>
 
-            <a href="IX. WBS y Planificacion/WBS_Reporte_Gerencial.html" class="tool-card">
-                <div class="tool-icon">📋</div>
-                <div class="tool-title">Reporte Gerencial</div>
-                <div class="tool-desc">Análisis de alto nivel, justificación de cantidades y supuestos críticos de ingeniería para stakeholders ejecutivos.</div>
-                <span class="btn">Abrir Reporte</span>
+            <a href="X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/HTML/INDICE_Documentos_Servidos.html" class="access-card">
+                <div class="access-title">Document Registry</div>
+                <div class="access-desc">Repositorio central de los 14 documentos ejecutivos generados dinámicamente. Visualización interactiva premium y exportación Word oficial.</div>
+                <span class="btn-premium">Open Registry</span>
             </a>
-
-            <a href="IX. WBS y Planificacion/WBS_Analisis_Riesgos.html" class="tool-card">
-                <div class="tool-icon">⚠️</div>
-                <div class="tool-title">Gestión de Riesgos</div>
-                <div class="tool-desc">Matriz de riesgos dinámica integrada con el presupuesto. Monitoreo constante de amenazas y planes de mitigación.</div>
-                <span class="btn">Ver Riesgos</span>
-            </a>
-
-            <a href="IX. WBS y Planificacion/WBS_Cronograma_Propuesta.html" class="tool-card">
-                <div class="tool-icon">📅</div>
-                <div class="tool-title">Cronograma Maestro</div>
-                <div class="tool-desc">Plan timeline del proyecto con hitos críticos, fases de pre-construcción y despliegue de sistemas.</div>
-                <span class="btn">Ver Cronograma</span>
+            
+            <a href="V. Ingenieria de detalle/" class="access-card">
+                <div class="access-title">Detail Engineering</div>
+                <div class="access-desc">Repositorio de archivos Markdown (.md) base. La fuente de verdad para el motor de generación SICC. Saneamiento Karpathy inverso activo.</div>
+                <span class="btn-premium">Audit Source</span>
             </a>
         </div>
     </main>
 
-    <script src="IX. WBS y Planificacion/datos_wbs_TODOS_items.js?v=5.0.0"></script>
+    <script src="IX. WBS y Planificacion/datos_wbs_TODOS_items.js"></script>
+    <script src="IX. WBS y Planificacion/lfc-terminology.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            // Cargar datos dinámicos si están disponibles
+            // Unify Terminology
+            if (window.LFC_TERMINOLOGY) {
+                document.getElementById('tower-title').textContent = `${window.LFC_TERMINOLOGY.PROJECT_NAME} Control Tower`;
+            }
+
+            // Sync Data Items
             if (window.datos_wbs && window.datos_wbs.items) {
                 document.getElementById('count-items').textContent = window.datos_wbs.items.length;
             } else {
-                // Fallback a 0 si no hay datos o los ítems están vacíos
                 document.getElementById('count-items').textContent = '0';
             }
         });

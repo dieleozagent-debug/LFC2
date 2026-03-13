@@ -25,9 +25,9 @@
 
         <div class="nav-group" style="margin-bottom: 2rem;">
             <div class="nav-label" style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 2px; color: var(--text-muted); margin-bottom: 1rem; font-weight: 700;">Soporte y Docs</div>
-            <a href="../IX_ENTREGABLES/README_ENTREGABLES_SANEADOS.md" class="nav-item">📚 Índice de Entregables</a>
-            <a href="../IX_ENTREGABLES/docs/CERTIFICACION_SANEAMIENTO.md" class="nav-item">📜 Certificación SICC</a>
-            <a href="WBS_COMPLETA_TODO_Interactiva_v4.0.html" class="nav-item">📖 Guía Metodológica</a>
+            <a href="SICC_Audit_Dashboard.html" class="nav-item" id="nav-audit">🛡️ Auditoría SICC</a>
+            <a href="../X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/HTML/INDICE_Documentos_Servidos.html" class="nav-item">📊 Platos Servidos</a>
+            <a href="../IX_ENTREGABLES/docs/INDICE_DOCUMENTACION_SOPORTE.html" class="nav-item">📚 Soporte Técnico</a>
         </div>
         
         <style>
