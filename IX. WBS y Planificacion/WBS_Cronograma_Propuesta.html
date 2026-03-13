@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cronograma de Trabajo - WBS APP La Dorada-ChiriguanÃÂ¡</title>
+    <title id="adn-page-title">Cargando...</title>
     <link rel="stylesheet" href="wbs-shared.css">
     <link rel="stylesheet" href="wbs-shared.css">
     <style>
@@ -115,13 +115,13 @@
 <body>
     <div id="lfc-sidebar-container"></div>
     <div class="main-content-wrapper">
-        <div class="premium-card" style="margin-bottom: 2rem;">
-            <div style="display: flex; justify-content: space-between; align-items: center;">
+        <div class="premium-card" style="margin-bottom: 2rem; position: relative;">
+            <div id="adn-version-tag" style="position: absolute; top: 10px; right: 20px; font-size: 0.6rem; letter-spacing: 2px; opacity: 0.5;">CARGANDO...</div>
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
                 <div>
-                    <h1 class="premium-title">📅 CRONOGRAMA MAESTRO</h1>
-                    <p style="opacity: 0.7;">Propuesta de Ejecución | APP La Dorada-Chiriguaná</p>
+                    <h1 class="premium-title" id="main-dns-title">📅 CRONOGRAMA MAESTRO</h1>
+                    <p id="main-dns-subtitle" style="opacity: 0.7; font-weight: 300;">Cargando propuesta de ejecución...</p>
                 </div>
-                <div class="premium-tag tag-high">VERSIÓN 2.5 PREMIUM</div>
             </div>
         </div>
 
@@ -140,29 +140,38 @@
             </div>
             <div class="premium-card" style="padding: 1rem; text-align: center;">
                 <div style="font-size: 2rem; font-weight: 800; color: #fff;">133</div>
-                <div style="font-size: 0.7rem; letter-spacing: 2px; opacity: 0.6;">ÃÂTEMS WBS</div>
+                <div style="font-size: 0.7rem; letter-spacing: 2px; opacity: 0.6;">ÍTEMS WBS</div>
             </div>
         </div>
 
         <div class="premium-card" style="margin-bottom: 2rem;">
-            <h2 style="color: var(--accent); margin-bottom: 1.5rem; display: flex; align-items: center; gap: 10px;">Ã°ÂÂÂ DIAGRAMA DE GANTT</h2>
+            <h2 style="color: var(--accent); margin-bottom: 1.5rem; display: flex; align-items: center; gap: 10px;">📊 DIAGRAMA DE GANTT</h2>
             <div class="gantt-chart-container" id="ganttChart">
                 <!-- Se genera dinamicamente -->
             </div>
         </div>
 
         <div class="premium-card">
-            <h2 style="color: var(--accent); margin-bottom: 1.5rem;">Ã°ÂÂÂ ESTRATEGIA POR FASES</h2>
+            <h2 style="color: var(--accent); margin-bottom: 1.5rem;">🚀 ESTRATEGIA POR FASES</h2>
             <div id="timelineContainer">
                 <!-- Se carga dinamicamente -->
             </div>
         </div>
     </div>
 
+    <script src="lfc-terminology.js?v=1.0.0"></script>
     <script src="sidebar-component.js"></script>
     <script src="cronograma_datos.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
+            // Inyectar ADN
+            if (window.LFC_TERMINOLOGY) {
+                const term = window.LFC_TERMINOLOGY;
+                document.getElementById('adn-page-title').textContent = `${term.SYSTEMS.GANTT} - ${term.APP_SHORT_NAME}`;
+                document.getElementById('main-dns-title').innerHTML = `📅 ${term.SYSTEMS.GANTT.toUpperCase()}`;
+                document.getElementById('main-dns-subtitle').textContent = `${term.FULL_LOCATION} | ${term.VERSION}`;
+                document.getElementById('adn-version-tag').textContent = term.VERSION;
+            }
             if (typeof window.cronogramaData === 'undefined') {
                 console.error("No se cargaron los datos del cronograma.");
                 return;
@@ -185,10 +194,10 @@
                         </span>
                     </div>
                     <p style="font-size: 0.9rem; opacity: 0.8; margin-bottom: 1rem;">${fase.descripcion}</p>
-                    <div style="display: flex; gap: 2rem; font-size: 0.8rem; font-weight: 700;">
-                        <span>Ã°ÂÂÂ MES ${fase.mes_inicio} - ${fase.mes_fin}</span>
-                        <span>Ã¢ÂÂ±Ã¯Â¸Â DURACIÃÂN: ${fase.duracion_meses} MESES</span>
-                        ${fase.avance_pct > 0 ? `<span style="color: var(--success);">Ã¢ÂÂ¡ AVANCE: ${fase.avance_pct}%</span>` : ''}
+                    <div style="display: flex; gap: 2rem; font-size: 0.8rem; font-weight: 700; flex-wrap: wrap;">
+                        <span>📅 MES ${fase.mes_inicio} - ${fase.mes_fin}</span>
+                        <span>⏳ DURACIÓN: ${fase.duracion_meses} MESES</span>
+                        ${fase.avance_pct > 0 ? `<span style="color: var(--success);">⚡ AVANCE: ${fase.avance_pct}%</span>` : ''}
                     </div>
                 `;
                 container.appendChild(card);

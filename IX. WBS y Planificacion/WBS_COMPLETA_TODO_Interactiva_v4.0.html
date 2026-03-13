@@ -12,9 +12,10 @@
 <body>
     <div id="lfc-sidebar-container"></div>
     <div class="main-content-wrapper">
-        <div class="premium-card" style="margin-bottom: 3rem;">
-            <h1 class="premium-title">📊 WBS PRESUPUESTAL COMPLETA v5.0</h1>
-            <p style="opacity: 0.7; font-weight: 300;">APP La Dorada-Chiriguaná | Gestión Ejecutiva Premium</p>
+        <div class="premium-card" style="margin-bottom: 3rem; position: relative; overflow: hidden;">
+            <div id="adn-version-tag" style="position: absolute; top: 10px; right: 20px; font-size: 0.6rem; letter-spacing: 2px; opacity: 0.5;">CARGANDO ADN...</div>
+            <h1 class="premium-title" id="main-dns-title">DASHBOARD LFC</h1>
+            <p id="main-dns-subtitle" style="opacity: 0.7; font-weight: 300;">Cargando configuración...</p>
         </div>
 
         <div class="stats-bar" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
@@ -352,11 +353,21 @@
         </div>
     </div>
 
-    <!-- Cargar datos desde archivos JS -->
+    <!-- Cargar ADN Visual y Terminología -->
+    <script src="lfc-terminology.js?v=1.0.0"></script>
     <script src="datos_wbs_TODOS_items.js?v=2.0.0"></script>
     
     <script>
-        // Lógica de filtrado y carga dinámica (Simplificada para v5.0)
+        // Inyectar ADN en el DOM
+        if (window.LFC_TERMINOLOGY) {
+            const term = window.LFC_TERMINOLOGY;
+            document.title = term.METADATA.TITLE;
+            document.getElementById('main-dns-title').innerHTML = `📊 ${term.PROJECT_NAME} COMPLETA`;
+            document.getElementById('main-dns-subtitle').textContent = `${term.FULL_LOCATION} | ${term.TECHNICAL_CRITERIA}`;
+            document.getElementById('adn-version-tag').textContent = term.VERSION;
+        }
+
+        // Lógica de filtrado y carga dinámica
         let wbsData = window.datos_wbs || { items: [] };
         
         function cargarWBS() {
@@ -482,11 +493,12 @@
                 return;
             }
 
+            const term = window.LFC_TERMINOLOGY || { PROJECT_NAME: "LFC STUDIO", VERSION: "v6.0" };
             const modalBody = document.getElementById('modal-dt-body');
             modalBody.innerHTML = `
                 <div class="dt-report">
                     <div class="dt-header">
-                        <div style="font-size: 1.5rem; font-weight: 900;">LFC STUDIO | DECISIÓN TÉCNICA</div>
+                        <div style="font-size: 1.5rem; font-weight: 900;">${term.PROJECT_NAME} | DECISIÓN TÉCNICA</div>
                         <div style="text-align: right; font-size: 0.8rem;">Ref: DT-WBS-${codigo}<br>Fecha: ${new Date().toLocaleDateString()}</div>
                     </div>
                     
@@ -508,7 +520,7 @@
                     </div>
 
                     <div style="margin-top: 3rem; border-top: 1px solid #ddd; padding-top: 1rem; font-size: 0.7rem; opacity: 0.6;">
-                        Este documento es una propuesta de cambio generada desde el Dashboard de Control LFC v5.0.
+                        Este documento es una propuesta de cambio generada desde el Dashboard de Control ${term.PROJECT_NAME} ${term.VERSION}.
                     </div>
                     <button class="filtro-btn activo" style="margin-top: 2rem; width: 100%;" onclick="cerrarModal('modalDT')">Cerrar y Volver</button>
                 </div>
@@ -527,11 +539,12 @@
                 return;
             }
 
+            const term = window.LFC_TERMINOLOGY || { PROJECT_NAME: "LFC STUDIO" };
             const modalBody = document.querySelector('#modalNuevoCapitulo .modal-body');
             modalBody.innerHTML = `
                 <div class="dt-report">
                     <div class="dt-header">
-                        <div style="font-size: 1.5rem; font-weight: 900;">LFC STUDIO | PROPUESTA NUEVO CAPÍTULO</div>
+                        <div style="font-size: 1.5rem; font-weight: 900;">${term.PROJECT_NAME} | PROPUESTA NUEVO CAPÍTULO</div>
                         <div style="text-align: right; font-size: 0.8rem;">Ref: DT-NEW-CAP-${num}<br>Fecha: ${new Date().toLocaleDateString()}</div>
                     </div>
                     

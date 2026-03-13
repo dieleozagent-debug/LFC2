@@ -1,0 +1,38 @@
+/**
+ * LFC TERMINOLOGY - Single Source of Truth
+ * Ciclo 7.5: ADN del Proyecto
+ */
+
+const LFC_TERMINOLOGY = {
+    PROJECT_NAME: "LFC STUDIO",
+    APP_SHORT_NAME: "LFC Studio",
+    FULL_LOCATION: "APP La Dorada-Chiriguaná",
+    VERSION: "v6.0 Premium",
+    TECHNICAL_CRITERIA: "PTC Nativo / SICC",
+    
+    // Términos Maestros (Soberanía Tecnológica)
+    SYSTEMS: {
+        CONTROL: "Control y Señalización (SICC)",
+        SIGNALING: "SICC (Sistema de Intervención y Control Centralizado)",
+        PTC: "PTC Nativo (Positive Train Control)",
+        COMMS: "Telecomunicaciones (TETRA/LTE)",
+        VITAL_IP: "Red IP Vital / Vital IP",
+        SECURITY: "ITS y Seguridad+",
+        POWER: "Sistemas de Energía Soberanos",
+        GANTT: "Cronograma Maestro de Ejecución"
+    },
+    
+    // Metadatos y SEO
+    METADATA: {
+        TITLE: "LFC Dashboard - Control Maestro",
+        DESCRIPTION: "Gestión Ejecutiva y Saneamiento Técnico Ferroviario",
+        AUTHOR: "LFC Studio Elite"
+    }
+};
+
+// Exportar para uso en otros scripts
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = LFC_TERMINOLOGY;
+} else {
+    window.LFC_TERMINOLOGY = LFC_TERMINOLOGY;
+}

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reporte Gerencial - WBS APP La Dorada-Chiriguaná</title>
+    <title id="adn-page-title">Cargando...</title>
     <link rel="stylesheet" href="wbs-shared.css">
     <style>
         .metric-card {
@@ -58,13 +58,14 @@
 <body>
     <div id="lfc-sidebar-container"></div>
     <div class="main-content-wrapper">
-        <div class="premium-card" style="margin-bottom: 3rem;">
-            <div style="display: flex; justify-content: space-between; align-items: center;">
+        <div class="premium-card" style="margin-bottom: 3rem; position: relative;">
+            <div id="adn-version-tag" style="position: absolute; top: 10px; right: 20px; font-size: 0.6rem; letter-spacing: 2px; opacity: 0.5;">CARGANDO...</div>
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
                 <div>
-                    <h1 class="premium-title">📋 REPORTE GERENCIAL EJECUTIVO</h1>
-                    <p style="opacity: 0.7; font-weight: 300;">APP La Dorada-Chiriguaná | Presupuesto Saneado v6.0 (Soberanía Tecnológica)</p>
+                    <h1 class="premium-title" id="main-dns-title">📋 REPORTE GERENCIAL</h1>
+                    <p id="main-dns-subtitle" style="opacity: 0.7; font-weight: 300;">Cargando base técnica...</p>
                 </div>
-                <button onclick="window.print()" class="btn-print" style="padding: 1rem 2rem; background: var(--accent); color: var(--primary); border: none; border-radius: 50px; cursor: pointer; font-weight: 700; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">📄 EXPORTAR PDF</button>
+                <button onclick="window.print()" class="btn-dt" style="padding: 1rem 2rem;">📄 EXPORTAR PDF</button>
             </div>
         </div>
 
@@ -93,56 +94,56 @@
                         <tr>
                             <th>Sistema</th>
                             <th>Cantidad</th>
-                            <th>JustificaciÃÂ³n TÃÂ©cnica</th>
+                            <th>Justificación Técnica</th>
                             <th>Impacto Presupuestal</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr><td><strong>Fibra ÃÂptica</strong></td><td>594 km</td><td>Corredor principal + redundancias + 10% repuesto</td><td>Base de comunicaciones</td></tr>
-                        <tr><td><strong>TETRA / LTE</strong></td><td>37 estaciones</td><td>Cobertura completa con 15-20% solapamiento (MisiÃÂ³n CrÃÂ­tica)</td><td>+$8.0B COP</td></tr>
+                        <tr><td><strong>Fibra Óptica</strong></td><td>594 km</td><td>Corredor principal + redundancias + 10% repuesto</td><td>Base de comunicaciones</td></tr>
+                        <tr><td><strong>TETRA / LTE</strong></td><td>37 estaciones</td><td>Cobertura completa con 15-20% solapamiento (Misión Crítica)</td><td>+$8.0B COP</td></tr>
                         <tr><td><strong>Red IP Propia</strong></td><td>37 estaciones</td><td>Redundancia operacional para Vital IP / GNSS Fusion</td><td>+$3.5B COP</td></tr>
                         <tr><td><strong>Locomotoras</strong></td><td>15 unidades</td><td>Flota operacional del proyecto</td><td>Base para ATP</td></tr>
-                        <tr><td><strong>ENCE</strong></td><td>5 estaciones</td><td>Zapatosa, GarcÃÂ­a Cadena, Barrancabermeja, Puerto BerrÃÂ­o, La Dorada</td><td>+$6.0B COP</td></tr>
-                        <tr><td><strong>DesvÃÂ­os</strong></td><td>120 unidades</td><td>25 motorizados + 95 manuales</td><td>+$3.8B COP</td></tr>
-                        <tr><td><strong>CCTV</strong></td><td>73 cÃÂ¡maras</td><td>Cobertura estratÃÂ©gica del corredor</td><td>+$1.2B COP</td></tr>
+                        <tr><td><strong>ENCE</strong></td><td>5 estaciones</td><td>Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío, La Dorada</td><td>+$6.0B COP</td></tr>
+                        <tr><td><strong>Desvíos</strong></td><td>120 unidades</td><td>25 motorizados + 95 manuales</td><td>+$3.8B COP</td></tr>
+                        <tr><td><strong>CCTV</strong></td><td>73 cámaras</td><td>Cobertura estratégica del corredor</td><td>+$1.2B COP</td></tr>
                     </tbody>
                 </table>
             </div>
             <div style="background: rgba(255, 71, 87, 0.1); border: 1px solid #ff4757; border-radius: 12px; padding: 1.5rem; margin-top: 2rem;">
-                <h3 style="color: #ff4757; margin-bottom: 1rem;">Ã¢ÂÂ Ã¯Â¸Â ELIMINACIONES CRÃÂTICAS (SANEAMIENTO)</h3>
+                <h3 style="color: #ff4757; margin-bottom: 1rem;">⚠️ ELIMINACIONES CRÍTICAS (SANEAMIENTO)</h3>
                 <ul style="opacity: 0.9;">
-                    <li><strong>Eurobalises:</strong> 1,080 Ã¢ÂÂ 0 unidades (Sustituido por GNSS/PTC)</li>
-                    <li><strong>SeÃÂ±ales LED:</strong> 270 Ã¢ÂÂ 0 unidades (Bloqueo Virtual)</li>
-                    <li><strong>RBC Legacy:</strong> 2 Ã¢ÂÂ 0 unidades (Vital IP Servers)</li>
-                    <li><strong>LEU Interfacing:</strong> 1,080 Ã¢ÂÂ 0 unidades (Red IP Unificada)</li>
+                    <li><strong>Eurobalises:</strong> 1,080 → 0 unidades (Sustituido por GNSS/PTC)</li>
+                    <li><strong>Señales LED:</strong> 270 → 0 unidades (Bloqueo Virtual)</li>
+                    <li><strong>RBC Legacy:</strong> 2 → 0 unidades (Vital IP Servers)</li>
+                    <li><strong>LEU Interfacing:</strong> 1,080 → 0 unidades (Red IP Unificada)</li>
                 </ul>
-                <p style="margin-top: 1rem; font-size: 0.85rem;"><strong>JustificaciÃÂ³n:</strong> La migraciÃÂ³n a SoberanÃÂ­a TecnolÃÂ³gica LFC elimina la dependencia de hardware importado y minimiza el mantenimiento en vÃÂ­a.</p>
+                <p style="margin-top: 1rem; font-size: 0.85rem;"><strong>Justificación:</strong> La migración a Soberanía Tecnológica LFC elimina la dependencia de hardware importado y minimiza el mantenimiento en vía.</p>
             </div>
         </div>
             
         <div class="premium-card section-premium">
             <h2 style="color: var(--accent); display: flex; align-items: center; gap: 15px;">
-                <span style="font-size: 1.5rem;">Ã°ÂÂÂ</span> SUPUESTOS TÃÂCNICOS Y COMERCIALES
+                <span style="font-size: 1.5rem;">📊</span> SUPUESTOS TÉCNICOS Y COMERCIALES
             </h2>
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
                 <div>
-                    <h3 style="color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 0.5rem; margin-bottom: 1rem;">Ã°ÂÂÂ§ TÃÂ©cnicos</h3>
+                    <h3 style="color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 0.5rem; margin-bottom: 1rem;">🔧 Técnicos</h3>
                     <ul style="opacity: 0.8; line-height: 2;">
-                        <li><strong>SeÃÂ±alizaciÃÂ³n Virtual:</strong> CTC + ATP embarcado</li>
-                        <li><strong>ColocalizaciÃÂ³n:</strong> Infraestructura compartida (37 torres)</li>
+                        <li><strong>Señalización Virtual:</strong> CTC + ATP embarcado</li>
+                        <li><strong>Colocalización:</strong> Infraestructura compartida (37 torres)</li>
                         <li><strong>FENOCO:</strong> Interoperabilidad total garantizada</li>
-                        <li><strong>Fibra ÃÂptica:</strong> Redundancia N+1 (594 km)</li>
-                        <li><strong>EnergÃÂ­a:</strong> Doble respaldo (UPS + Generador)</li>
+                        <li><strong>Fibra Óptica:</strong> Redundancia N+1 (594 km)</li>
+                        <li><strong>Energía:</strong> Doble respaldo (UPS + Generador)</li>
                     </ul>
                 </div>
                 <div>
-                    <h3 style="color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 0.5rem; margin-bottom: 1rem;">Ã°ÂÂÂ° Comerciales</h3>
+                    <h3 style="color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 0.5rem; margin-bottom: 1rem;">💰 Comerciales</h3>
                     <ul style="opacity: 0.8; line-height: 2;">
                         <li><strong>AIU:</strong> 33% (23% A + 5% I + 5% U)</li>
                         <li><strong>IVA:</strong> 19% (Servicios) + 2.28% (Utilidad)</li>
                         <li><strong>TRM:</strong> 4,400 COP/USD</li>
-                        <li><strong>EscalaciÃÂ³n:</strong> Integrada en CAPEX</li>
-                        <li><strong>Contingencias:</strong> 5% (Reserva de gestiÃÂ³n)</li>
+                        <li><strong>Escalación:</strong> Integrada en CAPEX</li>
+                        <li><strong>Contingencias:</strong> 5% (Reserva de gestión)</li>
                     </ul>
                 </div>
             </div>
@@ -150,59 +151,59 @@
             
         <div class="premium-card section-premium">
             <h2 style="color: var(--accent); display: flex; align-items: center; gap: 15px;">
-                <span style="font-size: 1.5rem;">Ã°ÂÂÂ¨</span> ANÃÂLISIS DE RIESGOS PRINCIPALES
+                <span style="font-size: 1.5rem;">🚨</span> ANÁLISIS DE RIESGOS PRINCIPALES
             </h2>
             
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
                 <div style="background: rgba(255, 71, 87, 0.1); border-left: 4px solid #ff4757; padding: 1.5rem; border-radius: 12px; border: 1px solid rgba(255, 71, 87, 0.2);">
-                    <h3 style="color: #ff4757; margin-bottom: 0.5rem; font-size: 1rem;">Ã°ÂÂÂ´ RIESGO ALTO</h3>
+                    <h3 style="color: #ff4757; margin-bottom: 0.5rem; font-size: 1rem;">🔴 RIESGO ALTO</h3>
                     <p style="font-size: 0.85rem; font-weight: 700; margin-bottom: 0.5rem;">Complejidad Interoperabilidad FENOCO</p>
-                    <p style="font-size: 0.8rem; opacity: 0.8; margin-bottom: 0.5rem;">IntegraciÃÂ³n de sistemas CTC propios con ITCS FENOCO requiere coordinaciÃÂ³n tÃÂ©cnica compleja.</p>
+                    <p style="font-size: 0.8rem; opacity: 0.8; margin-bottom: 0.5rem;">Integración de sistemas CTC propios con ITCS FENOCO requiere coordinación técnica compleja.</p>
                     <div style="font-size: 0.75rem; color: #ffbcbc;">Impacto: +$24B COP en equipamiento adicional.</div>
                 </div>
                 
                 <div style="background: rgba(255, 165, 2, 0.1); border-left: 4px solid #ffa502; padding: 1.5rem; border-radius: 12px; border: 1px solid rgba(255, 165, 2, 0.2);">
-                    <h3 style="color: #ffa502; margin-bottom: 0.5rem; font-size: 1rem;">Ã°ÂÂÂ¡ RIESGO MEDIO</h3>
-                    <p style="font-size: 0.85rem; font-weight: 700; margin-bottom: 0.5rem;">Disponibilidad de Fibra ÃÂptica</p>
-                    <p style="font-size: 0.8rem; opacity: 0.8; margin-bottom: 0.5rem;">Dependencia de 594 km de fibra ÃÂ³ptica en corredor con restricciones geogrÃÂ¡ficas.</p>
-                    <div style="font-size: 0.75rem; color: #ffe0a3;">MitigaciÃÂ³n: 10% repuesto incluido, rutas alternativas.</div>
+                    <h3 style="color: #ffa502; margin-bottom: 0.5rem; font-size: 1rem;">🟡 RIESGO MEDIO</h3>
+                    <p style="font-size: 0.85rem; font-weight: 700; margin-bottom: 0.5rem;">Disponibilidad de Fibra Óptica</p>
+                    <p style="font-size: 0.8rem; opacity: 0.8; margin-bottom: 0.5rem;">Dependencia de 594 km de fibra óptica en corredor con restricciones geográficas.</p>
+                    <div style="font-size: 0.75rem; color: #ffe0a3;">Mitigación: 10% repuesto incluido, rutas alternativas.</div>
                 </div>
 
                 <div style="background: rgba(255, 165, 2, 0.1); border-left: 4px solid #ffa502; padding: 1.5rem; border-radius: 12px; border: 1px solid rgba(255, 165, 2, 0.2);">
-                    <h3 style="color: #ffa502; margin-bottom: 0.5rem; font-size: 1rem;">Ã°ÂÂÂ¡ RIESGO MEDIO</h3>
-                    <p style="font-size: 0.85rem; font-weight: 700; margin-bottom: 0.5rem;">IntegraciÃÂ³n TETRA-GSM-R</p>
-                    <p style="font-size: 0.8rem; opacity: 0.8; margin-bottom: 0.5rem;">ColocalizaciÃÂ³n de sistemas requiere coordinaciÃÂ³n de frecuencias y protocolos.</p>
-                    <div style="font-size: 0.75rem; color: #ffe0a3;">Ventaja: OptimizaciÃÂ³n por infraestructura compartida.</div>
+                    <h3 style="color: #ffa502; margin-bottom: 0.5rem; font-size: 1rem;">🟡 RIESGO MEDIO</h3>
+                    <p style="font-size: 0.85rem; font-weight: 700; margin-bottom: 0.5rem;">Integración TETRA-PTC</p>
+                    <p style="font-size: 0.8rem; opacity: 0.8; margin-bottom: 0.5rem;">Colocalización de sistemas requiere coordinación de frecuencias y protocolos.</p>
+                    <div style="font-size: 0.75rem; color: #ffe0a3;">Ventaja: Optimización por infraestructura compartida.</div>
                 </div>
 
                 <div style="background: rgba(46, 213, 115, 0.1); border-left: 4px solid #2ed573; padding: 1.5rem; border-radius: 12px; border: 1px solid rgba(46, 213, 115, 0.2);">
-                    <h3 style="color: #2ed573; margin-bottom: 0.5rem; font-size: 1rem;">Ã°ÂÂÂ¢ RIESGO BAJO</h3>
+                    <h3 style="color: #2ed573; margin-bottom: 0.5rem; font-size: 1rem;">🟢 RIESGO BAJO</h3>
                     <p style="font-size: 0.85rem; font-weight: 700; margin-bottom: 0.5rem;">Disponibilidad de Locomotoras</p>
                     <p style="font-size: 0.8rem; opacity: 0.8; margin-bottom: 0.5rem;">Equipamiento de 15 locomotoras existentes con sistemas ATP.</p>
-                    <div style="font-size: 0.75rem; color: #b8ffd4;">Estado: Cronograma de instalaciÃÂ³n bien definido.</div>
+                    <div style="font-size: 0.75rem; color: #b8ffd4;">Estado: Cronograma de instalación bien definido.</div>
                 </div>
             </div>
         </div>
             
         <div class="premium-card section-premium">
             <h2 style="color: var(--accent); display: flex; align-items: center; gap: 15px;">
-                <span style="font-size: 1.5rem;">Ã°ÂÂÂ¯</span> RECOMENDACIONES Y VENTAJAS
+                <span style="font-size: 1.5rem;">🎯</span> RECOMENDACIONES Y VENTAJAS
             </h2>
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
                 <div style="background: rgba(255,255,255,0.05); padding: 1.5rem; border-radius: 12px; border-left: 4px solid var(--accent);">
-                    <h3 style="color: var(--accent); margin-bottom: 1rem;">Ã°ÂÂÂ PrÃÂ³ximos Pasos</h3>
+                    <h3 style="color: var(--accent); margin-bottom: 1rem;">🚀 Próximos Pasos</h3>
                     <ul style="opacity: 0.9; font-size: 0.9rem;">
                         <li>Acuerdos operativos FENOCO</li>
-                        <li>GestiÃÂ³n de licencias de espectro</li>
-                        <li>Contratos de suministro crÃÂ­tico</li>
+                        <li>Gestión de licencias de espectro</li>
+                        <li>Contratos de suministro crítico</li>
                         <li>Plan de pruebas virtuales</li>
                     </ul>
                 </div>
                 <div style="background: rgba(46, 213, 115, 0.1); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #2ed573;">
-                    <h3 style="color: #2ed573; margin-bottom: 1rem;">Ã°ÂÂÂ Ventajas</h3>
+                    <h3 style="color: #2ed573; margin-bottom: 1rem;">👑 Ventajas</h3>
                     <ul style="opacity: 0.9; font-size: 0.9rem;">
                         <li>Ahorro neto: -$50.2B COP</li>
-                        <li>Menor mantenimiento fÃÂ­sico</li>
+                        <li>Menor mantenimiento físico</li>
                         <li>Escalabilidad total (5G Ready)</li>
                         <li>Interoperabilidad garantizada</li>
                     </ul>
@@ -211,28 +212,28 @@
         </div>
     </div>
     </div>
+    <script src="lfc-terminology.js?v=1.0.0"></script>
     <script src="sidebar-component.js"></script>
 
-    <!-- Carga de datos dinÃÂ¡micos de reporte gerencial -->
+    <!-- Carga de datos dinámicos de reporte gerencial -->
     <script src="reporte_gerencial_data.js?v=638956959295587343"></script>
     <script>
-        // Verificar que los datos se cargaron correctamente
+        // Inyectar ADN
+        if (window.LFC_TERMINOLOGY) {
+            const term = window.LFC_TERMINOLOGY;
+            document.getElementById('adn-page-title').textContent = `Reporte Gerencial - ${term.APP_SHORT_NAME}`;
+            document.getElementById('main-dns-title').innerHTML = `📋 REPORTE GERENCIAL EJECUTIVO`;
+            document.getElementById('main-dns-subtitle').textContent = `${term.FULL_LOCATION} | ${term.TECHNICAL_CRITERIA}`;
+            document.getElementById('adn-version-tag').textContent = term.VERSION;
+        }
+
+        // Verificar carga de datos
         if (typeof window.reporteGerencialData !== 'undefined') {
-            console.log('Ã¢ÂÂ Reporte Gerencial cargado:', window.reporteGerencialData.total_items, 'items');
-            console.log('Ã°ÂÂÂ Items con justificaciÃÂ³n:', window.reporteGerencialData.items_con_justificacion);
-            console.log('Ã°ÂÂÂ Items Pareto 80%:', window.reporteGerencialData.items_pareto_80.length, 'items');
-            console.log('Ã°ÂÂÂ¯ Datos disponibles en window.reporteGerencialData.items');
-            
-            // Datos disponibles para renderizado dinÃÂ¡mico
-            // Por ahora, se pueden filtrar por: items_pareto_80, items con justificacion, etc.
-        } else {
-            console.error('Ã¢ÂÂ Error: reporte_gerencial_data.js no se cargÃÂ³ correctamente');
+            console.log('✅ Reporte Gerencial cargado');
         }
     </script>
 </body>
 </html>
-
-
 
 
 

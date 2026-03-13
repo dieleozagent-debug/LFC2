@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Análisis de Riesgos - WBS APP La Dorada-Chiriguaná</title>
+    <title id="adn-page-title">Cargando...</title>
     <link rel="stylesheet" href="wbs-shared.css">
     <style>
         .risk-metric {
@@ -122,58 +122,69 @@
 <body>
     <div id="lfc-sidebar-container"></div>
     <div class="main-content-wrapper">
-        <div class="premium-card" style="margin-bottom: 3rem;">
-            <div style="display: flex; justify-content: space-between; align-items: center;">
+        <div class="premium-card" style="margin-bottom: 3rem; position: relative;">
+            <div id="adn-version-tag" style="position: absolute; top: 10px; right: 20px; font-size: 0.6rem; letter-spacing: 2px; opacity: 0.5;">CARGANDO...</div>
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
                 <div>
-                    <h1 class="premium-title">Ã¢ÂÂ Ã¯Â¸Â ANÃÂLISIS DE RIESGOS</h1>
-                    <p style="opacity: 0.7; font-weight: 300;">EvaluaciÃÂ³n Integral de Riesgos | APP La Dorada-ChiriguanÃÂ¡</p>
+                    <h1 class="premium-title" id="main-dns-title">⚠️ ANÁLISIS DE RIESGOS</h1>
+                    <p id="main-dns-subtitle" style="opacity: 0.7; font-weight: 300;">Cargando evaluación integral...</p>
                 </div>
-                <button onclick="window.print()" style="padding: 1rem 2rem; background: var(--accent); color: var(--primary); border: none; border-radius: 50px; cursor: pointer; font-weight: 700;">Ã°ÂÂÂ EXPORTAR PDF</button>
+                <button onclick="window.print()" class="btn-dt" style="padding: 1rem 2rem;">📊 EXPORTAR PDF</button>
             </div>
         </div>
 
         <div class="risk-summary" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1.5rem; margin-bottom: 3rem;">
-            <div class="premium-card risk-metric"><div class="metric-value">8</div><div class="metric-label">Riesgos Altos</div></div>
-            <div class="premium-card risk-metric"><div class="metric-value">12</div><div class="metric-label">Riesgos Medios</div></div>
-            <div class="premium-card risk-metric"><div class="metric-value">5</div><div class="metric-label">Riesgos Bajos</div></div>
-            <div class="premium-card risk-metric"><div class="metric-value">$15.2B</div><div class="metric-label">Impacto MÃÂ¡x</div></div>
+            <div class="premium-card risk-metric"><div class="metric-value">0</div><div class="metric-label">Riesgos Altos</div></div>
+            <div class="premium-card risk-metric"><div class="metric-value">0</div><div class="metric-label">Riesgos Medios</div></div>
+            <div class="premium-card risk-metric"><div class="metric-value">0</div><div class="metric-label">Riesgos Bajos</div></div>
+            <div class="premium-card risk-metric"><div class="metric-value" id="impacto-max">...</div><div class="metric-label">Impacto Máx</div></div>
         </div>
 
         <div class="premium-card" style="margin-bottom: 3rem;">
             <div style="display: flex; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap;">
-                <button class="filter-btn active" onclick="filterRisks('all')">ð Todos</button>
-                <button class="filter-btn" onclick="filterRisks('high')">ð´ Alto Impacto</button>
-                <button class="filter-btn" onclick="filterRisks('medium')">ð¡ Medio Impacto</button>
-                <button class="filter-btn" onclick="filterRisks('low')">ð¢ Bajo Impacto</button>
+                <button class="filter-btn active" onclick="filterRisks('all')">📋 Todos</button>
+                <button class="filter-btn" onclick="filterRisks('high')">🔴 Alto Impacto</button>
+                <button class="filter-btn" onclick="filterRisks('medium')">🟡 Medio Impacto</button>
+                <button class="filter-btn" onclick="filterRisks('low')">🟢 Bajo Impacto</button>
             </div>
             <div style="position: relative;">
-                <input type="text" class="search-box" placeholder="ð Buscar riesgos, categorÃ­as o responsables..." onkeyup="searchRisks(this.value)">
+                <input type="text" class="search-box" placeholder="🔍 Buscar riesgos, categorías o responsables..." onkeyup="searchRisks(this.value)">
                 <div style="position: absolute; right: 2rem; top: 1.2rem; opacity: 0.3; font-size: 0.8rem;" id="results-count">Mostrando todos los riesgos</div>
             </div>
             
             <div id="riskMatrix" style="min-height: 400px; position: relative;">
-                <p style="text-align: center; opacity: 0.5; padding: 5rem;" id="loading-spinner">â³ Sincronizando matriz de riesgos soberana...</p>
+                <p style="text-align: center; opacity: 0.5; padding: 5rem;" id="loading-spinner">â³ Sincronizando matriz</p>
             </div>
         </div>
         <div class="premium-card trend-section">
-            <h3 style="color: var(--accent); margin-bottom: 1.5rem;">Ã°ÂÂÂ Tendencias y Monitoreo</h3>
+            <h3 style="color: var(--accent); margin-bottom: 1.5rem;">📈 Tendencias y Monitoreo</h3>
             <div class="trend-item" style="padding: 1rem 0; border-bottom: 1px solid var(--glass-border); display: flex; justify-content: space-between;">
                 <span>Estado General del Proyecto</span>
-                <span><span style="color: var(--success);">Ã¢ÂÃ¯Â¸Â Mejorando</span></span>
+                <span><span style="color: var(--success);">⬆️ Mejorando</span></span>
             </div>
             <div class="trend-item" style="padding: 1rem 0; border-bottom: 1px solid var(--glass-border); display: flex; justify-content: space-between;">
                 <span>Riesgos Nuevos Identificados</span>
-                <span style="opacity: 0.6;">Ã¢ÂÂ Estable</span>
+                <span style="opacity: 0.6;">→ Estable</span>
             </div>
             <div class="trend-item" style="padding: 1rem 0; display: flex; justify-content: space-between;">
-                <span>Efectividad de MitigaciÃÂ³n</span>
-                <span><span style="color: var(--success);">Ã¢ÂÂÃ¯Â¸Â Mejorando</span></span>
+                <span>Efectividad de Mitigación</span>
+                <span><span style="color: var(--success);">↗️ Mejorando</span></span>
             </div>
         </div>
     </div>
+    <script src="lfc-terminology.js?v=1.0.0"></script>
     <script src="sidebar-component.js"></script>
 
     <script>
+        // Inyectar ADN
+        if (window.LFC_TERMINOLOGY) {
+            const term = window.LFC_TERMINOLOGY;
+            document.getElementById('adn-page-title').textContent = `Matriz de Riesgos - ${term.APP_SHORT_NAME}`;
+            document.getElementById('main-dns-title').innerHTML = `⚠️ ANÁLISIS DE RIESGOS`;
+            document.getElementById('main-dns-subtitle').textContent = `${term.FULL_LOCATION} | Master Risk Audit`;
+            document.getElementById('adn-version-tag').textContent = term.VERSION;
+        }
+
         function filterRisks(level) {
             const cards = document.querySelectorAll('.risk-card');
             const buttons = document.querySelectorAll('.filter-btn');
@@ -210,35 +221,35 @@
         }
     </script>
 
-    <!-- Carga de datos dinÃÂ¡micos de riesgos -->
+    <!-- Carga de datos dinámicos de riesgos -->
     <script src="riesgos_wbs.js?v=638956959267187565"></script>
     <script>
         // Verificar que los datos se cargaron correctamente
         if (typeof window.riesgosWbs !== 'undefined') {
-            console.log('Ã¢ÂÂ Riesgos WBS cargados:', window.riesgosWbs.total_riesgos, 'riesgos');
-            console.log('Ã°ÂÂÂ Vinculados a WBS:', window.riesgosWbs.riesgos_vinculados);
-            console.log('Ã°ÂÂÂ EstadÃÂ­sticas:', window.riesgosWbs.estadisticas);
-            console.log('Ã°ÂÂÂ¯ Riesgos disponibles en window.riesgosWbs.riesgos');
+            console.log('✅ Riesgos WBS cargados:', window.riesgosWbs.total_riesgos, 'riesgos');
+            console.log('📊 Vinculados a WBS:', window.riesgosWbs.riesgos_vinculados);
+            console.log('📊 Estadísticas:', window.riesgosWbs.estadisticas);
+            console.log('🎯 Riesgos disponibles en window.riesgosWbs.riesgos');
             
-            // Actualizar estadÃÂ­sticas dinÃÂ¡micamente
+            // Actualizar estadísticas dinámicamente
             const stats = window.riesgosWbs.estadisticas;
             const riesgos = window.riesgosWbs.riesgos;
             
-            // Contar riesgos por exposiciÃÂ³n (sin tilde para compatibilidad encoding)
+            // Contar riesgos por exposición (sin tilde para compatibilidad encoding)
             const alta = riesgos.filter(r => r.nivel_exposicion === 'ALTA').length;
             const media = riesgos.filter(r => r.nivel_exposicion === 'MEDIA').length;
             const baja = riesgos.filter(r => r.nivel_exposicion === 'BAJA').length;
-            const critica = riesgos.filter(r => r.nivel_exposicion === 'CRITICA' || r.nivel_exposicion === 'CRÃÂTICA').length;
+            const critica = riesgos.filter(r => r.nivel_exposicion === 'CRITICA' || r.nivel_exposicion === 'CRÍTICA').length;
             
             // Actualizar valores en el HTML
-            document.querySelectorAll('.metric-value')[0].textContent = alta + critica; // Altos + CrÃÂ­ticos
+            document.querySelectorAll('.metric-value')[0].textContent = alta + critica; // Altos + Críticos
             document.querySelectorAll('.metric-value')[1].textContent = media;
             document.querySelectorAll('.metric-value')[2].textContent = baja;
             
-            console.log(`Ã°ÂÂÂ EstadÃÂ­sticas actualizadas: ${alta + critica} altos, ${media} medios, ${baja} bajos`);
+            console.log(`📊 Estadísticas actualizadas: ${alta + critica} altos, ${media} medios, ${baja} bajos`);
             
             // ============================================================
-            // RENDERIZADO DINÃÂMICO DE RIESGOS (v2.0 - Con Plan de AcciÃÂ³n)
+            // RENDERIZADO DINÁMICO DE RIESGOS (v2.0 - Con Plan de Acción)
             // ============================================================
             
             const riskMatrixContainer = document.getElementById('riskMatrix');
@@ -247,10 +258,10 @@
                 // Limpiar tarjetas hardcodeadas
                 riskMatrixContainer.innerHTML = '';
                 
-                // Generar tarjetas dinÃÂ¡micamente
+                // Generar tarjetas dinámicamente
                 riesgos.forEach((r, index) => {
-                    // Determinar clase de categorÃÂ­a
-                    const categoryClass = r.nivel_exposicion === 'CRÃÂTICA' || r.nivel_exposicion === 'CRITICA' || r.nivel_exposicion === 'ALTA' ? 'high' :
+                    // Determinar clase de categoría
+                    const categoryClass = r.nivel_exposicion === 'CRÍTICA' || r.nivel_exposicion === 'CRITICA' || r.nivel_exposicion === 'ALTA' ? 'high' :
                                          r.nivel_exposicion === 'MEDIA' ? 'medium' : 'low';
                     
                     // Crear tarjeta
@@ -264,7 +275,7 @@
                     // Header
                     const header = document.createElement('div');
                     header.className = 'risk-header';
-                    const tagClass = r.nivel_exposicion.includes('CRITICA') || r.nivel_exposicion.includes('CRÃÂTICA') ? 'tag-critical' : 
+                    const tagClass = r.nivel_exposicion.includes('CRITICA') || r.nivel_exposicion.includes('CRÍTICA') ? 'tag-critical' : 
                                    r.nivel_exposicion === 'ALTA' ? 'tag-high' : 
                                    r.nivel_exposicion === 'MEDIA' ? 'tag-medium' : 'tag-low';
                     
@@ -274,19 +285,19 @@
                     `;
                     card.appendChild(header);
                     
-                    // DescripciÃÂ³n completa
+                    // Descripción completa
                     const description = document.createElement('div');
                     description.className = 'risk-description';
                     description.textContent = r.descripcion;
                     card.appendChild(description);
                     
-                    // Plan de AcciÃÂ³n Ã¢Â­Â NUEVO
+                    // Plan de Acción ★ NUEVO
                     if (r.plan_accion && r.plan_accion !== 'No definido') {
                         const planAccionDiv = document.createElement('div');
                         planAccionDiv.className = 'risk-plan-accion';
                         planAccionDiv.innerHTML = `
                             <h5 style="margin: 0 0 8px 0; color: #1e90ff; font-size: 14px; font-weight: 600;">
-                                Ã°ÂÂÂ Plan de AcciÃÂ³n Inmediato
+                                📋 Plan de Acción Inmediato
                             </h5>
                             <p style="margin: 0; font-size: 13px; line-height: 1.6; color: #333;">
                                 ${r.plan_accion}
@@ -309,7 +320,7 @@
                     const impactSection = document.createElement('div');
                     impactSection.className = 'impact-section';
                     impactSection.innerHTML = `
-                        <div class="impact-title">Ã°ÂÂÂ AnÃÂ¡lisis de Impacto</div>
+                        <div class="impact-title">📊 Análisis de Impacto</div>
                         <div class="impact-item">
                             <span class="impact-label">Probabilidad</span>
                             <span class="impact-value">${r.probabilidad}</span>
@@ -319,7 +330,7 @@
                             <span class="impact-value">${r.impacto}</span>
                         </div>
                         <div class="impact-item">
-                            <span class="impact-label">ExposiciÃÂ³n</span>
+                            <span class="impact-label">Exposición</span>
                             <span class="impact-value">${r.exposicion.toFixed(2)}</span>
                         </div>
                         <div class="impact-item">
@@ -338,13 +349,13 @@
                         ` : ''}
                         ${r.hito_verificacion !== 'N/A' ? `
                         <div class="impact-item">
-                            <span class="impact-label">Hito VerificaciÃÂ³n</span>
+                            <span class="impact-label">Hito Verificación</span>
                             <span class="impact-value">${r.hito_verificacion}</span>
                         </div>
                         ` : ''}
                         ${r.items_wbs.length > 0 ? `
                         <div class="impact-item">
-                            <span class="impact-label">ÃÂtems WBS Afectados</span>
+                            <span class="impact-label">Ítems WBS Afectados</span>
                             <span class="impact-value">${r.items_wbs.join(', ')}</span>
                         </div>
                         ` : ''}
@@ -354,7 +365,7 @@
                     // Agregar al container
                     riskMatrixContainer.appendChild(card);
                     
-                    // AnimaciÃÂ³n de entrada
+                    // Animación de entrada
                     setTimeout(() => {
                         card.style.transition = 'all 0.5s ease';
                         card.style.opacity = '1';
@@ -362,20 +373,17 @@
                     }, index * 100);
                 });
                 
-                console.log(`Ã¢ÂÂ ${riesgos.length} tarjetas de riesgos generadas dinÃÂ¡micamente con planes de acciÃÂ³n`);
+                console.log(`✅ ${riesgos.length} tarjetas de riesgos generadas dinámicamente con planes de acción`);
             }
             
-            // Los datos estÃÂ¡n disponibles para renderizado dinÃÂ¡mico
-            // Se pueden filtrar por ÃÂ­tem WBS usando:
+            // Los datos están disponibles para renderizado dinámico
+            // Se pueden filtrar por ítem WBS usando:
             // window.riesgosWbs.riesgos.filter(r => r.items_wbs.includes('codigo_item'))
         } else {
-            console.error('Ã¢ÂÂ Error: riesgos_wbs.js no se cargÃÂ³ correctamente');
+            console.error('❌ Error: riesgos_wbs.js no se cargó correctamente');
         }
     </script>
 </body>
-</html>
-
-
 
 
 

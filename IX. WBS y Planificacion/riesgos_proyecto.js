@@ -1,10 +1,10 @@
-ï»¿// Riesgos del Proyecto - Generado automÃÂ¡ticamente desde MATRIZ_RIESGOS_PMO_AMPLIADA
-// Fecha: 2025-10-07 11:01:43
+// Riesgos del Proyecto - Generado automáticamente
+// Fecha: 2026-03-13
 // Total: 0 riesgos
 
-const riesgosProyecto = ;
+const riesgosProyecto = [];
 
-// EstadÃÂ­sticas
+// Estadísticas
 const estadisticasRiesgos = {
     total: 0,
     criticos: 0,
@@ -15,5 +15,5 @@ const estadisticasRiesgos = {
     mitigados: 0,
     aceptados: 0,
     asumidos: 0,
-    fecha_actualizacion: "2025-10-07 11:01:43"
+    fecha_actualizacion: "2026-03-13"
 };
