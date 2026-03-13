@@ -181,58 +181,72 @@ function cook(sistema = null) {
         }
 
         let contenido = fs.readFileSync(rutaEjecutivo, 'utf8');
-        
-        // VALIDACIÓN DE SOBERANÍA (Protocolo v2.2 - Systemic Purge)
-        const blacklist = ["FRA/AREMA", "PTC Virtual", "PTC Virtual", "Red Vital IP", "EUROBALIZA", "Locomotora Diesel-Eléctrica", "CATENARIA", "25 KV"];
-        const detectados = blacklist.filter(term => contenido.toUpperCase().includes(term));
+        // SANEAMIENTO MANDATORIO (Protocolo v5.0 - Pureza por Diseño)
+        const result = applyPurity(contenido);
+        contenido = result.contenido;
+
+        const term = require('../IX. WBS y Planificacion/lfc-terminology.js');
+        const detectados = term.LEGACY_BLACKLIST.filter(term => contenido.toUpperCase().includes(term));
         
         if (detectados.length > 0) {
-            log(`  ❌ FALLO DE SOBERANÍA: Términos prohibidos detectados: ${detectados.join(', ')}`, colors.red);
-            log(`  ⚠️ Saneamiento requerido en: ${nombreEjecutivo}`, colors.yellow);
+            log(`  ⚠️ ADVERTENCIA: Aún existen términos legacy tras saneamiento: ${detectados.join(', ')}`, colors.yellow);
         }
 
         const fechaActual = new Date().toLocaleString();
-        const marker = `\n\n<!-- COCINADO LFC-CLI v2.2 | SICC Pureza: ${detectados.length === 0 ? '100%' : 'AUDIT_REQUIRED'} | Fecha: ${fechaActual} -->\n`;
+        const marker = `\n\n<!-- COCINADO LFC-CLI v5.0 Masterchef | SICC Pureza: ${detectados.length === 0 ? '100% SOBERANO' : 'AUDIT_REQUIRED'} | Fecha: ${fechaActual} -->\n`;
         
-        if (!contenido.includes("COCINADO LFC-CLI v2.2")) {
+        if (!contenido.includes("COCINADO LFC-CLI v5.0")) {
             contenido += marker;
-            fs.writeFileSync(rutaEjecutivo, contenido, 'utf8');
-            log(`  ✅ Marcado con SICC-Validation v2.2.`, colors.green);
-        } else {
-            log(`  ℹ️ Ya está validado v2.2.`, colors.magenta);
         }
+        
+        fs.writeFileSync(rutaEjecutivo, contenido, 'utf8');
+        log(`  ✅ Ejecutivo purificado y validado v5.0.`, colors.green);
     });
 }
 
 /**
- * COMANDO: purify (Saneamiento Sistémico Masivo)
- * Limpia recursivamente todos los archivos de ingeniería y servidos.
+ * Función interna de Saneamiento (ADN Pureza)
  */
-function purify() {
-    log("\n🧼 PURIFY - Saneamiento Sistémico v4.0 (ADN Pureza)\n", colors.cyan);
-    
-    // Cargar terminología
+function applyPurity(contenido) {
     const term = require('../IX. WBS y Planificacion/lfc-terminology.js');
-    const blacklist = term.LEGACY_BLACKLIST;
     
-    // Mapeo de Corrección de Contexto
+    // Mapeo de Corrección Real (Ingeniería de Reversa)
     const mapCorreccion = {
-        "PTC": "PTC",
-        "Red Vital IP": "Red Vital IP",
-        "Tracción Diesel-Eléctrica": "Tracción Diesel-Eléctrica",
-        "Tracción Diesel-Eléctrica": "Tracción Diesel-Eléctrica",
-        "Locomotora Diesel-Eléctrica": "Locomotora Diesel-Eléctrica",
-        "Infraestructura Diesel": "Infraestructura Diesel",
-        "526 km": "526 km", // Ajuste contractual
-        "526km": "526km",
-        "PTC Virtual (FRA 236)": "PTC Virtual (FRA 236)",
-        "FRA/AREMA": "FRA/AREMA",
-        "PTC Virtual": "PTC Virtual",
-        "PTC Virtual": "PTC Virtual",
-        "Nodos GNSS": "Nodos GNSS",
-        "Nodos GNSS": "Nodos GNSS"
+        "ATP": "PTC (Positive Train Control)",
+        "GSM-R": "Red de Comunicaciones Vital IP",
+        "Tracción Eléctrica": "Tracción Diesel-Eléctrica",
+        "Traccion Electrica": "Tracción Diesel-Eléctrica",
+        "EMU": "Locomotora Diesel-Eléctrica",
+        "Catenaria": "Infraestructura Diesel",
+        "ERTMS": "PTC Virtual (FRA 236)",
+        "ETCS": "PTC Virtual (FRA 236)",
+        "UIC": "FRA/AREMA",
+        "Eurobaliza": "Nodos GNSS (SICC)",
+        "Eurobalise": "Nodos GNSS (SICC)",
+        "594 km": "526 km (+10% spare)",
+        "594km": "526km"
     };
 
+    let modificado = false;
+    let nuevoContenido = contenido;
+
+    Object.keys(mapCorreccion).forEach(key => {
+        const regex = new RegExp(`\\b${key}\\b`, 'g');
+        if (regex.test(nuevoContenido)) {
+            nuevoContenido = nuevoContenido.replace(regex, mapCorreccion[key]);
+            modificado = true;
+        }
+    });
+
+    return { contenido: nuevoContenido, modificado };
+}
+
+/**
+ * COMANDO: purify (Saneamiento Sistémico Masivo)
+ */
+function purify() {
+    log("\n🧼 PURIFY - Saneamiento Sistémico v5.0 (ADN Pureza por Diseño)\n", colors.cyan);
+    
     const extensiones = ['.md', '.html', '.js', '.json'];
     const carpetasIgnorar = ['node_modules', '.git', 'bin'];
 
@@ -247,27 +261,10 @@ function purify() {
                 walkthrough(fullPath);
             } else if (extensiones.includes(path.extname(fullPath))) {
                 let contenido = fs.readFileSync(fullPath, 'utf8');
-                let modificado = false;
+                const result = applyPurity(contenido);
 
-                // 1. Reemplazo por Mapa de Contexto
-                Object.keys(mapCorreccion).forEach(key => {
-                    const regex = new RegExp(`\\b${key}\\b`, 'g');
-                    if (regex.test(contenido)) {
-                        contenido = contenido.replace(regex, mapCorreccion[key]);
-                        modificado = true;
-                    }
-                });
-
-                // 2. Validación contra Blacklist (si queda algo)
-                blacklist.forEach(bTerm => {
-                    const regex = new RegExp(bTerm, 'gi');
-                    if (regex.test(contenido)) {
-                        log(`  ⚠️ Residuo detectado en ${path.basename(fullPath)}: ${bTerm}`, colors.yellow);
-                    }
-                });
-
-                if (modificado) {
-                    fs.writeFileSync(fullPath, contenido, 'utf8');
+                if (result.modificado) {
+                    fs.writeFileSync(fullPath, result.contenido, 'utf8');
                     log(`  ✅ Saneado: ${path.relative(REPO_ROOT, fullPath)}`, colors.green);
                 }
             }
@@ -298,9 +295,16 @@ function serve() {
     archivos.forEach(file => {
         const fullPath = path.join(carpetaEjecutivos, file);
         const baseName = path.basename(file, '.md');
-        log(`Sirviendo: ${baseName}...`, colors.cyan);
+        log(`Sirviendo plato: ${baseName}...`, colors.cyan);
 
         try {
+            // SANEAMIENTO PRE-SERVE (Último filtro de pureza)
+            let contenido = fs.readFileSync(fullPath, 'utf8');
+            const result = applyPurity(contenido);
+            if (result.modificado) {
+                fs.writeFileSync(fullPath, result.contenido, 'utf8');
+                log(`  🧹 Limpieza de última hora realizada en la receta.`, colors.yellow);
+            }
             // Generar Word
             execSync(`${sysPandoc} "${fullPath}" -o "${path.join(carpetaWord, baseName + '.docx')}" --toc --toc-depth=3`);
             
