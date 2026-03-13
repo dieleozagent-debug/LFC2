@@ -127,8 +127,8 @@ function getCategoria(codigo) {
     return map[cap] || "otros";
 }
 
-const PANDOC_PATH = fs.existsSync('/home/administrador/docker/LFC2/bin/pandoc') 
-    ? '/home/administrador/docker/LFC2/bin/pandoc' 
+const PANDOC_PATH = fs.existsSync('/home/administrador/docker/LFC2/bin/bin/pandoc') 
+    ? '/home/administrador/docker/LFC2/bin/bin/pandoc' 
     : 'pandoc';
 
 // ... (getCategoria stays the same)
