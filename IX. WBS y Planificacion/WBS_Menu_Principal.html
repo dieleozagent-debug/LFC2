@@ -215,190 +215,82 @@
                     <div style="background: var(--accent); color: var(--primary); padding: 15px 40px; border-radius: 25px; display: inline-block; font-size: 1.1em; font-weight: bold; box-shadow: 0 5px 15px rgba(0,0,0,0.2); margin: 10px;">
                         🚀 ABRIR DASHBOARD CENTRAL
                     </div>
-                    <div style="margin-top: 20px; font-size: 0.95em; opacity: 0.9;">
-                        ✅ Analiza TODO: Criterios + Impactos + Riesgos + Archivos + Alternativas
-                    </div>
-                    <div style="margin-top: 10px; font-size: 0.95em; opacity: 0.9;">
-                        ✅ Proponer cambios técnicos | ✅ Ver riesgos en tiempo real | ✅ Sistema bidireccional
-                    </div>
                 </div>
             </div>
 
-            <h3 style="color: var(--accent); margin: 30px 0 20px 0;">📚 Otras Vistas Disponibles:</h3>
+            <h3 style="color: var(--accent); margin: 30px 0 20px 0;">📚 Herramientas de Gestión LFC STUDIO:</h3>
             
             <div class="menu-grid">
+                <!-- PRESUPUESTO -->
+                <div class="menu-card" onclick="openPage('WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguana.html')" style="border-left-color: #ffd700;">
+                    <h3>💰 DETALLE PRESUPUESTAL</h3>
+                    <p>WBS presupuestal con lógica MULTIDIVISA (COP/USD), cálculos AIU e IVA automatizados y exportación a Excel.</p>
+                </div>
+                
+                <!-- REPORTE GERENCIAL -->
                 <div class="menu-card" onclick="openPage('WBS_Reporte_Gerencial.html')">
-                    <h3>
-                        <svg class="icon" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                        </svg>
-                        📋 REPORTE GERENCIAL
-                    </h3>
-                    <p>Análisis ejecutivo de alto nivel con justificación de cantidades, supuestos técnicos y riesgos principales del proyecto.</p>
-                    <ul class="features">
-                        <li>Justificación de cantidades por sistema</li>
-                        <li>Supuestos técnicos y comerciales</li>
-                        <li>Análisis de riesgos principales</li>
-                        <li>Impacto presupuestal detallado</li>
-                        <li>Recomendaciones estratégicas</li>
-                    </ul>
-                    <button class="btn">Abrir Reporte Gerencial</button>
+                    <h3>📋 REPORTE GERENCIAL</h3>
+                    <p>Análisis ejecutivo de alto nivel, justificación de cantidades y riesgos principales del proyecto.</p>
                 </div>
-                
-                <div class="menu-card" onclick="openPage('WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguana.html')">
-                    <h3>
-                        <svg class="icon" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
-                        </svg>
-                        💰 DETALLE PRESUPUESTAL
-                    </h3>
-                    <p>WBS presupuestal completo con cálculos detallados, exportación a Excel y análisis financiero automatizado.</p>
-                    <ul class="features">
-                        <li>WBS detallado por capítulos</li>
-                        <li>Cálculos AIU e IVA automáticos</li>
-                        <li>Exportación a Excel (.xlsx)</li>
-                        <li>Filtros por tipo de ítem</li>
-                        <li>Validación de cálculos integrada</li>
-                    </ul>
-                    <button class="btn">Abrir WBS Presupuestal</button>
+
+                <!-- ANALISIS RIESGOS -->
+                <div class="menu-card" onclick="openPage('WBS_Analisis_Riesgos.html')" style="border-left-color: #ff4d4d;">
+                    <h3>⚠️ ANÁLISIS DE RIESGOS</h3>
+                    <p>Matriz de probabilidad vs impacto con 25 riesgos identificados y estrategias de mitigación.</p>
                 </div>
-                
+
+                <!-- CRONOGRAMA -->
+                <div class="menu-card" onclick="openPage('WBS_Cronograma_Propuesta.html')" style="border-left-color: #00bcd4;">
+                    <h3>📅 CRONOGRAMA</h3>
+                    <p>Propuesta de ejecución maestra con hitos críticos, fases y plan de recursos.</p>
+                </div>
+
+                <!-- EDT DETALLE -->
                 <div class="menu-card" onclick="openPage('WBS_EDT_Detalle.html')">
-                    <h3>
-                        <svg class="icon" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
-                        </svg>
-                        🏗️ EDT DETALLADO
-                    </h3>
-                    <p>Estructura de Desglose de Trabajo (EDT) completa con descomposición jerárquica de actividades y entregables.</p>
-                    <ul class="features">
-                        <li>Descomposición jerárquica completa</li>
-                        <li>Actividades y entregables definidos</li>
-                        <li>Responsabilidades por paquete de trabajo</li>
-                        <li>Dependencias entre actividades</li>
-                        <li>Estructura de gestión de proyecto</li>
-                    </ul>
-                    <button class="btn">Abrir EDT Detallado</button>
+                    <h3>🏗️ EDT DETALLADO</h3>
+                    <p>Descomposición jerárquica completa de actividades y entregables por paquete de trabajo.</p>
                 </div>
-                
-                <div class="menu-card" onclick="openPage('WBS_Cronograma_Propuesta.html')">
-                    <h3>
-                        <svg class="icon" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zM4 7h12v9a1 1 0 01-1 1H5a1 1 0 01-1-1V7z"/>
-                        </svg>
-                        📅 CRONOGRAMA DE TRABAJO
-                    </h3>
-                    <p>Propuesta de cronograma maestro con fases de ejecución, hitos críticos y plan de recursos del proyecto.</p>
-                    <ul class="features">
-                        <li>Cronograma maestro del proyecto</li>
-                        <li>Fases de ejecución definidas</li>
-                        <li>Hitos críticos y entregables</li>
-                        <li>Plan de recursos y capacidades</li>
-                        <li>Análisis de rutas críticas</li>
-                    </ul>
-                    <button class="btn">Abrir Cronograma</button>
-                </div>
-                
-                <div class="menu-card" onclick="openPage('WBS_Analisis_Riesgos.html')">
-                    <h3>
-                        <svg class="icon" fill="currentColor" viewBox="0 0 20 20">
-                            <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"/>
-                        </svg>
-                        ⚠️ ANÁLISIS DE RIESGOS
-                    </h3>
-                    <p>Evaluación integral de riesgos del proyecto con análisis de impacto, probabilidad y estrategias de mitigación.</p>
-                    <ul class="features">
-                        <li>25 riesgos identificados y categorizados</li>
-                        <li>Análisis de impacto detallado</li>
-                        <li>Estrategias de mitigación específicas</li>
-                        <li>Matriz probabilidad vs impacto</li>
-                        <li>Tendencias y monitoreo continuo</li>
-                    </ul>
-                    <button class="btn">Abrir Análisis de Riesgos</button>
-                </div>
-                
-                <div class="menu-card" onclick="servirIngenieria()" style="border-left-color: #ff9800;">
-                    <h3>
-                        <svg class="icon" fill="currentColor" viewBox="0 0 20 20" style="color: #ff9800;">
-                            <path d="M8 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM15 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"/>
-                            <path d="M3 4a1 1 0 00-1 1v10a1 1 0 001 1h1.05a2.5 2.5 0 014.9 0H10a1 1 0 001-1V5a1 1 0 00-1-1H3zM14 7a1 1 0 00-1 1v6.05A2.5 2.5 0 0115.95 16H17a1 1 0 001-1v-5a1 1 0 00-.293-.707l-2-2A1 1 0 0015 7h-1z"/>
-                        </svg>
-                        📤 SERVIR INGENIERÍA
-                    </h3>
-                    <p>🍽️ Consolida la COCINA (I-VI) y sirve documentos finales en X/8_DOCUMENTOS_SERVIDOS/ para cliente. Genera Word/HTML con todas las DTs aplicadas.</p>
-                    <ul class="features">
-                        <li>Consolida cambios de carpetas I-VI</li>
-                        <li>Genera Word (.docx) para cliente</li>
-                        <li>Genera HTML visualización/impresión</li>
-                        <li>Índice interactivo con todas las DTs</li>
-                        <li>Listo para entregar a stakeholders</li>
-                    </ul>
-                    <button class="btn" style="background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);">🍯 SERVIR DOCUMENTOS</button>
-                </div>
+
+                <!-- DOCUMENTACION -->
                 <div class="menu-card" onclick="openPage('../IX_ENTREGABLES/docs/INDICE_DOCUMENTACION_SOPORTE.html')" style="border-left-color: #2ecc71;">
-                    <h3>
-                        <svg class="icon" fill="currentColor" viewBox="0 0 20 20" style="color: #2ecc71;">
-                            <path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.435.29-3.484.805a.5.5 0 00-.266.44v10a.5.5 0 00.75.432A5.968 5.968 0 015.5 15c1.45 0 2.766.516 3.793 1.376a.75.75 0 00.914 0c1.027-.86 2.343-1.376 3.793-1.376a5.968 5.968 0 013.5 1.237.5.5 0 00.75-.432v-10a.5.5 0 00-.266-.44A7.968 7.968 0 0014.5 4c-1.255 0-2.435.29-3.483.804z"/>
-                        </svg>
-                        📜 DOCUMENTACIÓN Y SOPORTE
-                    </h3>
-                    <p>Sustento legal y técnico del saneamiento. Metodología aplicada, certificación de soberanía tecnológica y guías de uso del sistema.</p>
-                    <ul class="features">
-                        <li>Certificación de Saneamiento SICC</li>
-                        <li>Guía Metodológica EPC v2.0 (Saneada)</li>
-                        <li>Manual de Gestión de Cambios / ADN</li>
-                        <li>Índice Maestro de Entregables</li>
-                    </ul>
-                    <button class="btn" style="background: var(--accent); color: var(--primary);">ABRIR SUSTENTO TÉCNICO</button>
+                    <h3>📜 SUSTENTO Y SOPORTE</h3>
+                    <p>Certificación de Saneamiento, Guía Metodológica EPC y soberanía tecnológica.</p>
+                </div>
+
+                <!-- SERVIR INGENIERIA -->
+                <div class="menu-card" onclick="servirIngenieria()" style="border-left-color: #ff9800;">
+                    <h3>📤 SERVIR INGENIERÍA</h3>
+                    <p>Consolidación final de la "COCINA" (Carpetas I-VI) para entrega oficial al cliente.</p>
                 </div>
             </div>
 
+            <!-- RESUMEN EJECUTIVO -->
             <div class="summary-section" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);">
                 <h3 style="color: var(--accent);">📊 RESUMEN EJECUTIVO DEL PROYECTO</h3>
                 <div class="summary-grid">
                     <div class="summary-item">
                         <div class="number">$287.8B</div>
-                        <div class="label">Presupuesto Total (COP)</div>
+                        <div class="label">Presupuesto (COP)</div>
                     </div>
                     <div class="summary-item">
                         <div class="number">$65.4M</div>
-                        <div class="label">Presupuesto Total (USD)</div>
+                        <div class="label">Presupuesto (USD)</div>
                     </div>
                     <div class="summary-item">
                         <div class="number">7</div>
-                        <div class="label">Capítulos Principales</div>
-                    </div>
-                    <div class="summary-item">
-                        <div class="number">594</div>
-                        <div class="label">Kilómetros Fibra Ãptica</div>
-                    </div>
-                    <div class="summary-item">
-                        <div class="number">37</div>
-                        <div class="label">Estaciones TETRA</div>
-                    </div>
-                    <div class="summary-item">
-                        <div class="number">15</div>
-                        <div class="label">Locomotoras</div>
+                        <div class="label">Capítulos</div>
                     </div>
                     <div class="summary-item">
                         <div class="number">100%</div>
-                        <div class="label">Coherencia Documental</div>
+                        <div class="label">Saneamiento</div>
                     </div>
-                <div class="summary-item">
-                    <div class="number">25</div>
-                    <div class="label">Riesgos Analizados</div>
-                </div>
-                <div class="summary-item">
-                    <div class="number">â</div>
-                    <div class="label">Estado: Completado</div>
-                </div>
                 </div>
             </div>
         </div>
         
         <div class="footer" style="background: transparent; border-top: 1px solid rgba(255,255,255,0.1); opacity: 0.6;">
             <p id="footer-text-1">© 2025 LFC Studio | Sistema de Comunicaciones y Control</p>
-            <p id="footer-text-2">Documento unificado bajo ADN v6.0 | Ecosistema Documental 100% Coherente</p>
+            <p id="footer-text-2">Master Control | ADN Visual v6.0</p>
         </div>
     </div>
 

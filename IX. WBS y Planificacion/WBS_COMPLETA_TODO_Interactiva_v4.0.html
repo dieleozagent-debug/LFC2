@@ -289,7 +289,15 @@
             <button class="filtro-btn" onclick="filtrarItems('capitulo-4')">Cap 4</button>
             <button class="filtro-btn" onclick="filtrarItems('capitulo-5')">Cap 5</button>
             <button class="filtro-btn" onclick="filtrarItems('capitulo-6')">Cap 6</button>
-            <button class="filtro-btn" onclick="abrirModalNuevoCapitulo()" style="border: 1px dashed var(--accent); color: var(--accent); margin-left: auto;">➕ Nuevo Capítulo</button>
+            
+            <div style="margin-left: auto; display: flex; gap: 1rem; align-items: center;">
+                <label style="font-size: 0.7rem; color: var(--accent); font-weight: 800;">MONEDA:</label>
+                <select id="currencySwitch" onchange="toggleCurrency()" style="background: var(--accent); color: var(--primary); border: none; border-radius: 20px; padding: 0.4rem 1rem; font-weight: 800; cursor: pointer;">
+                    <option value="COP">PESOS (COP)</option>
+                    <option value="USD">DÓLARES (USD)</option>
+                </select>
+                <button class="filtro-btn" onclick="abrirModalNuevoCapitulo()" style="border: 1px dashed var(--accent); color: var(--accent);">➕ Nuevo Capítulo</button>
+            </div>
         </div>
 
         <div id="wbs-container">
@@ -369,6 +377,20 @@
 
         // Lógica de filtrado y carga dinámica
         let wbsData = window.datos_wbs || { items: [] };
+        let viewCurrency = 'COP';
+        const TRM = 4400;
+
+        function toggleCurrency() {
+            viewCurrency = document.getElementById('currencySwitch').value;
+            cargarWBS();
+        }
+
+        function formatVal(val) {
+            if (viewCurrency === 'USD') {
+                return '$' + (val / TRM).toLocaleString('en-US', {maximumFractionDigits: 0}) + ' USD';
+            }
+            return '$' + val.toLocaleString('es-CO', {maximumFractionDigits: 0}) + ' COP';
+        }
         
         function cargarWBS() {
             const container = document.getElementById('wbs-container');
@@ -418,7 +440,7 @@
                             <div class="item-descripcion">${item.descripcion}</div>
                             <div class="item-valores" style="display: flex; gap: 1rem;">
                                 <div style="opacity: 0.6; font-size: 0.8rem;">${item.cantidad} ${item.unidad}</div>
-                                <div style="font-weight: 700; color: var(--accent);">$${item.total_cop.toLocaleString()}</div>
+                                <div style="font-weight: 700; color: var(--accent);">${formatVal(item.total_cop)}</div>
                             </div>
                             <div class="botones-accion">
                                 <button class="filtro-btn" style="padding: 0.4rem 0.8rem; font-size: 0.7rem;" onclick="abrirModalDT('${item.codigo}')">PROPONER</button>
