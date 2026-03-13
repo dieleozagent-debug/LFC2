@@ -1,978 +1,981 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>GESTION_EJECUTIVO_Cronograma_y_Recursos</title>
-  <style>
-    html {
-      color: #1a1a1a;
-      background-color: #fdfdfd;
-    }
-    body {
-      margin: 0 auto;
-      max-width: 36em;
-      padding-left: 50px;
-      padding-right: 50px;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      hyphens: auto;
-      overflow-wrap: break-word;
-      text-rendering: optimizeLegibility;
-      font-kerning: normal;
-    }
-    @media (max-width: 600px) {
-      body {
-        font-size: 0.9em;
-        padding: 12px;
-      }
-      h1 {
-        font-size: 1.8em;
-      }
-    }
-    @media print {
-      html {
-        background-color: white;
-      }
-      body {
-        background-color: transparent;
-        color: black;
-        font-size: 12pt;
-      }
-      p, h2, h3 {
-        orphans: 3;
-        widows: 3;
-      }
-      h2, h3, h4 {
-        page-break-after: avoid;
-      }
-    }
-    p {
-      margin: 1em 0;
-    }
-    a {
-      color: #1a1a1a;
-    }
-    a:visited {
-      color: #1a1a1a;
-    }
-    img {
-      max-width: 100%;
-    }
-    svg {
-      height: auto;
-      max-width: 100%;
-    }
-    h1, h2, h3, h4, h5, h6 {
-      margin-top: 1.4em;
-    }
-    h5, h6 {
-      font-size: 1em;
-      font-style: italic;
-    }
-    h6 {
-      font-weight: normal;
-    }
-    ol, ul {
-      padding-left: 1.7em;
-      margin-top: 1em;
-    }
-    li > ol, li > ul {
-      margin-top: 0;
-    }
-    blockquote {
-      margin: 1em 0 1em 1.7em;
-      padding-left: 1em;
-      border-left: 2px solid #e6e6e6;
-      color: #606060;
-    }
-    code {
-      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
-      font-size: 85%;
-      margin: 0;
-      hyphens: manual;
-    }
-    pre {
-      margin: 1em 0;
-      overflow: auto;
-    }
-    pre code {
-      padding: 0;
-      overflow: visible;
-      overflow-wrap: normal;
-    }
-    .sourceCode {
-     background-color: transparent;
-     overflow: visible;
-    }
-    hr {
-      background-color: #1a1a1a;
-      border: none;
-      height: 1px;
-      margin: 1em 0;
-    }
-    table {
-      margin: 1em 0;
-      border-collapse: collapse;
-      width: 100%;
-      overflow-x: auto;
-      display: block;
-      font-variant-numeric: lining-nums tabular-nums;
-    }
-    table caption {
-      margin-bottom: 0.75em;
-    }
-    tbody {
-      margin-top: 0.5em;
-      border-top: 1px solid #1a1a1a;
-      border-bottom: 1px solid #1a1a1a;
-    }
-    th {
-      border-top: 1px solid #1a1a1a;
-      padding: 0.25em 0.5em 0.25em 0.5em;
-    }
-    td {
-      padding: 0.125em 0.5em 0.25em 0.5em;
-    }
-    header {
-      margin-bottom: 4em;
-      text-align: center;
-    }
-    #TOC li {
-      list-style: none;
-    }
-    #TOC ul {
-      padding-left: 1.3em;
-    }
-    #TOC > ul {
-      padding-left: 0;
-    }
-    #TOC a:not(:hover) {
-      text-decoration: none;
-    }
-    code{white-space: pre-wrap;}
-    span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    /* The extra [class] is a hack that increases specificity enough to
-       override a similar rule in reveal.js */
-    ul.task-list[class]{list-style: none;}
-    ul.task-list li input[type="checkbox"] {
-      font-size: inherit;
-      width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
-      vertical-align: middle;
-    }
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GESTION EJECUTIVO Cronograma y Recursos - LFC STUDIO</title>
+    <link rel="stylesheet" href="../../../IX. WBS y Planificacion/wbs-shared.css">
+    <style>
+        .premium-doc-content {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: var(--border-radius-lg);
+            padding: 3rem;
+            backdrop-filter: var(--glass-blur);
+            box-shadow: var(--glass-shadow);
+        }
+        .premium-doc-content h1, .premium-doc-content h2, .premium-doc-content h3 {
+            color: var(--accent);
+            border-bottom: 1px solid var(--glass-border);
+            padding-bottom: 0.5rem;
+            margin-top: 2rem;
+        }
+        .premium-doc-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+            background: rgba(255,255,255,0.02);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .premium-doc-content th {
+            background: var(--accent-transparent);
+            color: var(--accent);
+            text-align: left;
+            padding: 1rem;
+        }
+        .premium-doc-content td {
+            padding: 1rem;
+            border-bottom: 1px solid var(--glass-border);
+        }
+        .premium-doc-content blockquote {
+            border-left: 4px solid var(--accent);
+            background: var(--accent-soft);
+            padding: 1rem;
+            margin: 1rem 0;
+            font-style: italic;
+        }
+        #TOC {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            padding: 1.5rem;
+            border-radius: var(--border-radius-md);
+            margin-bottom: 2rem;
+        }
+        #TOC ul { list-style: none; padding-left: 1rem; }
+        #TOC a { color: var(--text-main); text-decoration: none; font-size: 0.9rem; }
+        #TOC a:hover { color: var(--accent); }
+    </style>
 </head>
 <body>
-<nav id="TOC" role="doc-toc">
-<ul>
-<li><a href="#gestión-ejecutiva-cronograma-y-recursos"
-id="toc-gestión-ejecutiva-cronograma-y-recursos">GESTIÓN EJECUTIVA:
-CRONOGRAMA Y RECURSOS</a>
-<ul>
-<li><a href="#documento-ejecutivo-de-gestión-de-proyecto"
-id="toc-documento-ejecutivo-de-gestión-de-proyecto">Documento Ejecutivo
-de Gestión de Proyecto</a></li>
-<li><a href="#resumen-ejecutivo" id="toc-resumen-ejecutivo">📊 RESUMEN
-EJECUTIVO</a>
-<ul>
-<li><a href="#qué-es-este-documento-y-por-qué-importa"
-id="toc-qué-es-este-documento-y-por-qué-importa">Qué es este documento y
-por qué importa</a></li>
-<li><a href="#alcance-en-números---justificación-técnica"
-id="toc-alcance-en-números---justificación-técnica">Alcance en números -
-JUSTIFICACIÓN TÉCNICA</a></li>
-<li><a href="#hitos-críticos" id="toc-hitos-críticos">Hitos
-críticos</a></li>
-</ul></li>
-<li><a href="#criterios-de-diseño-y-justificaciones-técnicas"
-id="toc-criterios-de-diseño-y-justificaciones-técnicas">🔍 CRITERIOS DE
-DISEÑO Y JUSTIFICACIONES TÉCNICAS</a>
-<ul>
-<li><a href="#por-qué-36-meses-de-duración-total"
-id="toc-por-qué-36-meses-de-duración-total">¿Por qué 36 meses de
-duración total?</a></li>
-<li><a href="#por-qué-450000-millones-de-presupuesto"
-id="toc-por-qué-450000-millones-de-presupuesto">¿Por qué $450,000
-millones de presupuesto?</a></li>
-<li><a href="#por-qué-1200-personas-de-recursos-humanos"
-id="toc-por-qué-1200-personas-de-recursos-humanos">¿Por qué 1,200
-personas de recursos humanos?</a></li>
-<li><a href="#por-qué-150-equipos-especializados"
-id="toc-por-qué-150-equipos-especializados">¿Por qué 150 equipos
-especializados?</a></li>
-<li><a href="#por-qué-85000-toneladas-de-materiales"
-id="toc-por-qué-85000-toneladas-de-materiales">¿Por qué 85,000 toneladas
-de materiales?</a></li>
-</ul></li>
-<li><a href="#función-y-propósito-de-la-gestión"
-id="toc-función-y-propósito-de-la-gestión">🎯 FUNCIÓN Y PROPÓSITO DE LA
-GESTIÓN</a>
-<ul>
-<li><a href="#qué-hace-esta-gestión" id="toc-qué-hace-esta-gestión">¿Qué
-hace esta gestión?</a></li>
-<li><a href="#por-qué-la-necesitamos"
-id="toc-por-qué-la-necesitamos">¿Por qué la necesitamos?</a></li>
-<li><a href="#cómo-se-integra-con-otros-aspectos"
-id="toc-cómo-se-integra-con-otros-aspectos">¿Cómo se integra con otros
-aspectos?</a></li>
-</ul></li>
-<li><a href="#componentes-principales"
-id="toc-componentes-principales">🏗️ COMPONENTES PRINCIPALES</a>
-<ul>
-<li><a href="#cronograma-del-proyecto"
-id="toc-cronograma-del-proyecto">1. Cronograma del Proyecto</a></li>
-<li><a href="#gestión-de-recursos" id="toc-gestión-de-recursos">2.
-Gestión de Recursos</a></li>
-<li><a href="#control-y-seguimiento" id="toc-control-y-seguimiento">3.
-Control y Seguimiento</a></li>
-</ul></li>
-<li><a href="#especificaciones-técnicas-clave"
-id="toc-especificaciones-técnicas-clave">📐 ESPECIFICACIONES TÉCNICAS
-CLAVE</a>
-<ul>
-<li><a href="#tabla-consolidada-de-especificaciones"
-id="toc-tabla-consolidada-de-especificaciones">Tabla consolidada de
-especificaciones</a></li>
-<li><a href="#criterios-de-aceptación"
-id="toc-criterios-de-aceptación">Criterios de aceptación</a></li>
-</ul></li>
-<li><a href="#ubicación-y-despliegue" id="toc-ubicación-y-despliegue">📍
-UBICACIÓN Y DESPLIEGUE</a>
-<ul>
-<li><a href="#mapa-de-despliegue" id="toc-mapa-de-despliegue">Mapa de
-despliegue</a></li>
-<li><a href="#tabla-de-ubicaciones-principales"
-id="toc-tabla-de-ubicaciones-principales">Tabla de ubicaciones
-principales</a></li>
-</ul></li>
-<li><a href="#operación-y-mantenimiento"
-id="toc-operación-y-mantenimiento">⚙️ OPERACIÓN Y MANTENIMIENTO</a>
-<ul>
-<li><a href="#operación-normal" id="toc-operación-normal">Operación
-normal</a></li>
-<li><a href="#mantenimiento-preventivo"
-id="toc-mantenimiento-preventivo">Mantenimiento preventivo</a></li>
-<li><a href="#respuesta-a-desviaciones"
-id="toc-respuesta-a-desviaciones">Respuesta a desviaciones</a></li>
-</ul></li>
-<li><a href="#interfaces-con-otros-aspectos"
-id="toc-interfaces-con-otros-aspectos">🔗 INTERFACES CON OTROS
-ASPECTOS</a>
-<ul>
-<li><a href="#diagrama-de-interfaces"
-id="toc-diagrama-de-interfaces">Diagrama de interfaces</a></li>
-<li><a href="#tabla-de-interfaces-críticas"
-id="toc-tabla-de-interfaces-críticas">Tabla de interfaces
-críticas</a></li>
-</ul></li>
-<li><a href="#supuestos-técnicos-y-limitaciones"
-id="toc-supuestos-técnicos-y-limitaciones">📋 SUPUESTOS TÉCNICOS Y
-LIMITACIONES</a>
-<ul>
-<li><a href="#supuestos-críticos-del-diseño"
-id="toc-supuestos-críticos-del-diseño">Supuestos Críticos del
-Diseño</a></li>
-<li><a href="#limitaciones-del-diseño"
-id="toc-limitaciones-del-diseño">Limitaciones del Diseño</a></li>
-<li><a href="#dependencias-críticas"
-id="toc-dependencias-críticas">Dependencias Críticas</a></li>
-</ul></li>
-<li><a href="#riesgos-y-mitigaciones" id="toc-riesgos-y-mitigaciones">⚠️
-RIESGOS Y MITIGACIONES</a></li>
-<li><a href="#cumplimiento-contractual"
-id="toc-cumplimiento-contractual">📋 CUMPLIMIENTO CONTRACTUAL</a>
-<ul>
-<li><a href="#obligaciones-clave-del-contrato"
-id="toc-obligaciones-clave-del-contrato">Obligaciones clave del
-contrato</a></li>
-<li><a href="#referencias-contractuales"
-id="toc-referencias-contractuales">Referencias contractuales</a></li>
-</ul></li>
-<li><a href="#documentación-de-soporte"
-id="toc-documentación-de-soporte">📚 DOCUMENTACIÓN DE SOPORTE</a>
-<ul>
-<li><a href="#documentos-técnicos-disponibles"
-id="toc-documentos-técnicos-disponibles">Documentos técnicos
-disponibles</a></li>
-<li><a href="#para-más-información-técnica"
-id="toc-para-más-información-técnica">Para más información
-técnica</a></li>
-</ul></li>
-<li><a href="#contactos-y-responsables"
-id="toc-contactos-y-responsables">📞 CONTACTOS Y RESPONSABLES</a></li>
-<li><a href="#indicadores-de-desempeño-kpis"
-id="toc-indicadores-de-desempeño-kpis">📊 INDICADORES DE DESEMPEÑO
-(KPIs)</a></li>
-<li><a href="#control-de-versiones" id="toc-control-de-versiones">🔄
-CONTROL DE VERSIONES</a></li>
-</ul></li>
-</ul>
-</nav>
-<h1 id="gestión-ejecutiva-cronograma-y-recursos">GESTIÓN EJECUTIVA:
-CRONOGRAMA Y RECURSOS</h1>
-<h2 id="documento-ejecutivo-de-gestión-de-proyecto">Documento Ejecutivo
-de Gestión de Proyecto</h2>
-<hr />
-<h2 id="resumen-ejecutivo">📊 RESUMEN EJECUTIVO</h2>
-<h3 id="qué-es-este-documento-y-por-qué-importa">Qué es este documento y
-por qué importa</h3>
-<p>Este documento define el <strong>“cronograma y recursos”</strong> del
-proyecto APP La Dorada-Chiriguaná, estableciendo claramente cuándo se
-van a hacer las actividades, qué recursos se necesitan y cómo se van a
-gestionar. Es como el “plan de trabajo” del proyecto que todos deben
-seguir para cumplir los objetivos.</p>
-<h3 id="alcance-en-números---justificación-técnica">Alcance en números -
-JUSTIFICACIÓN TÉCNICA</h3>
-<ul>
-<li><strong>Duración total:</strong> 36 meses (3 años)</li>
-<li><strong>Presupuesto total:</strong> $450,000 millones COP</li>
-<li><strong>Recursos humanos:</strong> 1,200 personas</li>
-<li><strong>Equipos:</strong> 150 unidades especializadas</li>
-<li><strong>Materiales:</strong> 85,000 toneladas</li>
-<li><strong>Subcontratos:</strong> 45 empresas especializadas</li>
-<li><strong>Disponibilidad recursos:</strong> 95%</li>
-</ul>
-<h3 id="hitos-críticos">Hitos críticos</h3>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Fase</th>
-<th style="text-align: left;">Duración</th>
-<th style="text-align: left;">Fecha Inicio</th>
-<th style="text-align: left;">Fecha Fin</th>
-<th style="text-align: left;">Estado</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Diseño Conceptual</td>
-<td style="text-align: left;">2 meses</td>
-<td style="text-align: left;">Ene 2025</td>
-<td style="text-align: left;">Feb 2025</td>
-<td style="text-align: left;">✅ Completado</td>
-</tr>
-<tr>
-<td style="text-align: left;">Ingeniería Básica</td>
-<td style="text-align: left;">3 meses</td>
-<td style="text-align: left;">Feb 2025</td>
-<td style="text-align: left;">Abr 2025</td>
-<td style="text-align: left;">⏳ En progreso</td>
-</tr>
-<tr>
-<td style="text-align: left;">Ingeniería de Detalle</td>
-<td style="text-align: left;">4 meses</td>
-<td style="text-align: left;">Abr 2025</td>
-<td style="text-align: left;">Jul 2025</td>
-<td style="text-align: left;">❌ Pendiente</td>
-</tr>
-<tr>
-<td style="text-align: left;">Construcción</td>
-<td style="text-align: left;">24 meses</td>
-<td style="text-align: left;">Jul 2025</td>
-<td style="text-align: left;">Jun 2027</td>
-<td style="text-align: left;">❌ Pendiente</td>
-</tr>
-<tr>
-<td style="text-align: left;">Comisionamiento</td>
-<td style="text-align: left;">3 meses</td>
-<td style="text-align: left;">Jun 2027</td>
-<td style="text-align: left;">Ago 2027</td>
-<td style="text-align: left;">❌ Pendiente</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="criterios-de-diseño-y-justificaciones-técnicas">🔍 CRITERIOS DE
-DISEÑO Y JUSTIFICACIONES TÉCNICAS</h2>
-<h3 id="por-qué-36-meses-de-duración-total">¿Por qué 36 meses de
-duración total?</h3>
-<p><strong>Justificación de Cronograma:</strong> | Fase | Duración |
-Justificación | |:—–|:———|:————–| | <strong>Diseño Conceptual</strong> |
-2 meses | Definición de sistemas y arquitectura | | <strong>Ingeniería
-Básica</strong> | 3 meses | Especificaciones técnicas detalladas | |
-<strong>Ingeniería de Detalle</strong> | 4 meses | Planos y
-especificaciones de construcción | | <strong>Construcción</strong> | 24
-meses | Obras civiles, instalaciones y sistemas | |
-<strong>Comisionamiento</strong> | 3 meses | Pruebas, ajustes y puesta
-en marcha | | <strong>TOTAL</strong> | <strong>36 meses</strong> |
-Cronograma optimizado para proyecto |</p>
-<h3 id="por-qué-450000-millones-de-presupuesto">¿Por qué $450,000
-millones de presupuesto?</h3>
-<p><strong>Justificación de Costos:</strong> | Componente | Costo
-(millones COP) | % del Total | Justificación |
-|:———–|:——————–|:————|:————–| | <strong>Infraestructura Civil</strong> |
-180,000 | 40% | 526 km de corredor ferroviario | | <strong>Sistemas
-Técnicos</strong> | 135,000 | 30% | Control, telecomunicaciones, ITS | |
-<strong>Material Rodante</strong> | 95,000 | 21% | 15 locomotoras y 51
-vagones | | <strong>Gestión de Proyecto</strong> | 25,000 | 6% |
-Personal, equipos, gestión | | <strong>Contingencias</strong> | 15,000 |
-3% | Reserva para imprevistos | | <strong>TOTAL</strong> |
-<strong>450,000</strong> | <strong>100%</strong> | Presupuesto integral
-del proyecto |</p>
-<h3 id="por-qué-1200-personas-de-recursos-humanos">¿Por qué 1,200
-personas de recursos humanos?</h3>
-<p><strong>Justificación de Personal:</strong> | Categoría | Cantidad |
-% del Total | Justificación | |:———-|:———|:————|:————–| |
-<strong>Ingenieros</strong> | 180 | 15% | Diseño y supervisión técnica |
-| <strong>Técnicos</strong> | 360 | 30% | Supervisión de obra y sistemas
-| | <strong>Operarios</strong> | 540 | 45% | Construcción e instalación
-| | <strong>Personal administrativo</strong> | 120 | 10% | Gestión y
-administración | | <strong>TOTAL</strong> | <strong>1,200</strong> |
-<strong>100%</strong> | Personal necesario para proyecto |</p>
-<h3 id="por-qué-150-equipos-especializados">¿Por qué 150 equipos
-especializados?</h3>
-<p><strong>Justificación de Equipos:</strong> | Tipo | Cantidad |
-Justificación | |:—–|:———|:————–| | <strong>Equipos de
-construcción</strong> | 75 unidades | Movimiento de tierras y obras
-civiles | | <strong>Equipos de instalación</strong> | 45 unidades |
-Instalación de sistemas técnicos | | <strong>Equipos de
-transporte</strong> | 20 unidades | Transporte de materiales y equipos |
-| <strong>Equipos de apoyo</strong> | 10 unidades | Servicios y apoyo
-logístico | | <strong>TOTAL</strong> | <strong>150</strong> | Equipos
-necesarios para proyecto |</p>
-<h3 id="por-qué-85000-toneladas-de-materiales">¿Por qué 85,000 toneladas
-de materiales?</h3>
-<p><strong>Justificación de Materiales:</strong> | Material | Cantidad
-(ton) | Justificación | |:———|:—————|:————–| | <strong>Concreto</strong>
-| 45,000 | Estructuras y edificaciones | | <strong>Acero</strong> |
-25,000 | Estructuras metálicas y vías | | <strong>Agregados</strong> |
-10,000 | Movimiento de tierras y rellenos | | <strong>Otros
-materiales</strong> | 5,000 | Sistemas técnicos y acabados | |
-<strong>TOTAL</strong> | <strong>85,000</strong> | Materiales necesarios
-para proyecto |</p>
-<hr />
-<h2 id="función-y-propósito-de-la-gestión">🎯 FUNCIÓN Y PROPÓSITO DE LA
-GESTIÓN</h2>
-<h3 id="qué-hace-esta-gestión">¿Qué hace esta gestión?</h3>
-<p>La gestión de cronograma y recursos proporciona <strong>coordinación
-y control</strong> del proyecto: - <strong>Planificación:</strong>
-Cronograma detallado de actividades - <strong>Recursos:</strong> Gestión
-de personal, equipos y materiales - <strong>Control:</strong>
-Seguimiento y control de avance - <strong>Optimización:</strong> Mejora
-continua de procesos - <strong>Comunicación:</strong> Coordinación entre
-equipos</p>
-<h3 id="por-qué-la-necesitamos">¿Por qué la necesitamos?</h3>
-<ul>
-<li><strong>Eficiencia:</strong> Optimización del uso de recursos</li>
-<li><strong>Control:</strong> Seguimiento del avance del proyecto</li>
-<li><strong>Calidad:</strong> Cumplimiento de estándares y
-especificaciones</li>
-<li><strong>Costo:</strong> Control de costos y presupuesto</li>
-<li><strong>Tiempo:</strong> Cumplimiento de cronograma</li>
-</ul>
-<h3 id="cómo-se-integra-con-otros-aspectos">¿Cómo se integra con otros
-aspectos?</h3>
-<pre><code>[Cronograma y Recursos] ←→ [Alcance y Objetivos]
+    <div id="lfc-sidebar-container"></div>
+    <div class="main-content-wrapper">
+        <header class="premium-card" style="margin-bottom: 2rem; text-align: center;">
+            <h1 class="premium-title">GESTION EJECUTIVO Cronograma y
+Recursos</h1>
+            <p style="opacity: 0.7;">REPORTE EJECUTIVO GENERADO DINÁMICAMENTE | SICC-READY</p>
+        </header>
+
+        <nav id="TOC">
+            <h3 style="margin-top: 0; color: var(--accent);">📍 ÍNDICE DE CONTENIDO</h3>
+            <ul>
+            <li><a href="#gestión-ejecutiva-cronograma-y-recursos"
+            id="toc-gestión-ejecutiva-cronograma-y-recursos">GESTIÓN
+            EJECUTIVA: CRONOGRAMA Y RECURSOS</a>
+            <ul>
+            <li><a href="#documento-ejecutivo-de-gestión-de-proyecto"
+            id="toc-documento-ejecutivo-de-gestión-de-proyecto">Documento
+            Ejecutivo de Gestión de Proyecto</a></li>
+            <li><a href="#resumen-ejecutivo"
+            id="toc-resumen-ejecutivo">📊 RESUMEN EJECUTIVO</a>
+            <ul>
+            <li><a href="#qué-es-este-documento-y-por-qué-importa"
+            id="toc-qué-es-este-documento-y-por-qué-importa">Qué es este
+            documento y por qué importa</a></li>
+            <li><a href="#alcance-en-números---justificación-técnica"
+            id="toc-alcance-en-números---justificación-técnica">Alcance
+            en números - JUSTIFICACIÓN TÉCNICA</a></li>
+            <li><a href="#hitos-críticos" id="toc-hitos-críticos">Hitos
+            críticos</a></li>
+            </ul></li>
+            <li><a
+            href="#criterios-de-diseño-y-justificaciones-técnicas"
+            id="toc-criterios-de-diseño-y-justificaciones-técnicas">🔍
+            CRITERIOS DE DISEÑO Y JUSTIFICACIONES TÉCNICAS</a>
+            <ul>
+            <li><a href="#por-qué-36-meses-de-duración-total"
+            id="toc-por-qué-36-meses-de-duración-total">¿Por qué 36
+            meses de duración total?</a></li>
+            <li><a href="#por-qué-450000-millones-de-presupuesto"
+            id="toc-por-qué-450000-millones-de-presupuesto">¿Por qué
+            $450,000 millones de presupuesto?</a></li>
+            <li><a href="#por-qué-1200-personas-de-recursos-humanos"
+            id="toc-por-qué-1200-personas-de-recursos-humanos">¿Por qué
+            1,200 personas de recursos humanos?</a></li>
+            <li><a href="#por-qué-150-equipos-especializados"
+            id="toc-por-qué-150-equipos-especializados">¿Por qué 150
+            equipos especializados?</a></li>
+            <li><a href="#por-qué-85000-toneladas-de-materiales"
+            id="toc-por-qué-85000-toneladas-de-materiales">¿Por qué
+            85,000 toneladas de materiales?</a></li>
+            </ul></li>
+            <li><a href="#función-y-propósito-de-la-gestión"
+            id="toc-función-y-propósito-de-la-gestión">🎯 FUNCIÓN Y
+            PROPÓSITO DE LA GESTIÓN</a>
+            <ul>
+            <li><a href="#qué-hace-esta-gestión"
+            id="toc-qué-hace-esta-gestión">¿Qué hace esta
+            gestión?</a></li>
+            <li><a href="#por-qué-la-necesitamos"
+            id="toc-por-qué-la-necesitamos">¿Por qué la
+            necesitamos?</a></li>
+            <li><a href="#cómo-se-integra-con-otros-aspectos"
+            id="toc-cómo-se-integra-con-otros-aspectos">¿Cómo se integra
+            con otros aspectos?</a></li>
+            </ul></li>
+            <li><a href="#componentes-principales"
+            id="toc-componentes-principales">🏗️ COMPONENTES
+            PRINCIPALES</a>
+            <ul>
+            <li><a href="#cronograma-del-proyecto"
+            id="toc-cronograma-del-proyecto">1. Cronograma del
+            Proyecto</a></li>
+            <li><a href="#gestión-de-recursos"
+            id="toc-gestión-de-recursos">2. Gestión de Recursos</a></li>
+            <li><a href="#control-y-seguimiento"
+            id="toc-control-y-seguimiento">3. Control y
+            Seguimiento</a></li>
+            </ul></li>
+            <li><a href="#especificaciones-técnicas-clave"
+            id="toc-especificaciones-técnicas-clave">📐 ESPECIFICACIONES
+            TÉCNICAS CLAVE</a>
+            <ul>
+            <li><a href="#tabla-consolidada-de-especificaciones"
+            id="toc-tabla-consolidada-de-especificaciones">Tabla
+            consolidada de especificaciones</a></li>
+            <li><a href="#criterios-de-aceptación"
+            id="toc-criterios-de-aceptación">Criterios de
+            aceptación</a></li>
+            </ul></li>
+            <li><a href="#ubicación-y-despliegue"
+            id="toc-ubicación-y-despliegue">📍 UBICACIÓN Y
+            DESPLIEGUE</a>
+            <ul>
+            <li><a href="#mapa-de-despliegue"
+            id="toc-mapa-de-despliegue">Mapa de despliegue</a></li>
+            <li><a href="#tabla-de-ubicaciones-principales"
+            id="toc-tabla-de-ubicaciones-principales">Tabla de
+            ubicaciones principales</a></li>
+            </ul></li>
+            <li><a href="#operación-y-mantenimiento"
+            id="toc-operación-y-mantenimiento">⚙️ OPERACIÓN Y
+            MANTENIMIENTO</a>
+            <ul>
+            <li><a href="#operación-normal"
+            id="toc-operación-normal">Operación normal</a></li>
+            <li><a href="#mantenimiento-preventivo"
+            id="toc-mantenimiento-preventivo">Mantenimiento
+            preventivo</a></li>
+            <li><a href="#respuesta-a-desviaciones"
+            id="toc-respuesta-a-desviaciones">Respuesta a
+            desviaciones</a></li>
+            </ul></li>
+            <li><a href="#interfaces-con-otros-aspectos"
+            id="toc-interfaces-con-otros-aspectos">🔗 INTERFACES CON
+            OTROS ASPECTOS</a>
+            <ul>
+            <li><a href="#diagrama-de-interfaces"
+            id="toc-diagrama-de-interfaces">Diagrama de
+            interfaces</a></li>
+            <li><a href="#tabla-de-interfaces-críticas"
+            id="toc-tabla-de-interfaces-críticas">Tabla de interfaces
+            críticas</a></li>
+            </ul></li>
+            <li><a href="#supuestos-técnicos-y-limitaciones"
+            id="toc-supuestos-técnicos-y-limitaciones">📋 SUPUESTOS
+            TÉCNICOS Y LIMITACIONES</a>
+            <ul>
+            <li><a href="#supuestos-críticos-del-diseño"
+            id="toc-supuestos-críticos-del-diseño">Supuestos Críticos
+            del Diseño</a></li>
+            <li><a href="#limitaciones-del-diseño"
+            id="toc-limitaciones-del-diseño">Limitaciones del
+            Diseño</a></li>
+            <li><a href="#dependencias-críticas"
+            id="toc-dependencias-críticas">Dependencias
+            Críticas</a></li>
+            </ul></li>
+            <li><a href="#riesgos-y-mitigaciones"
+            id="toc-riesgos-y-mitigaciones">⚠️ RIESGOS Y
+            MITIGACIONES</a></li>
+            <li><a href="#cumplimiento-contractual"
+            id="toc-cumplimiento-contractual">📋 CUMPLIMIENTO
+            CONTRACTUAL</a>
+            <ul>
+            <li><a href="#obligaciones-clave-del-contrato"
+            id="toc-obligaciones-clave-del-contrato">Obligaciones clave
+            del contrato</a></li>
+            <li><a href="#referencias-contractuales"
+            id="toc-referencias-contractuales">Referencias
+            contractuales</a></li>
+            </ul></li>
+            <li><a href="#documentación-de-soporte"
+            id="toc-documentación-de-soporte">📚 DOCUMENTACIÓN DE
+            SOPORTE</a>
+            <ul>
+            <li><a href="#documentos-técnicos-disponibles"
+            id="toc-documentos-técnicos-disponibles">Documentos técnicos
+            disponibles</a></li>
+            <li><a href="#para-más-información-técnica"
+            id="toc-para-más-información-técnica">Para más información
+            técnica</a></li>
+            </ul></li>
+            <li><a href="#contactos-y-responsables"
+            id="toc-contactos-y-responsables">📞 CONTACTOS Y
+            RESPONSABLES</a></li>
+            <li><a href="#indicadores-de-desempeño-kpis"
+            id="toc-indicadores-de-desempeño-kpis">📊 INDICADORES DE
+            DESEMPEÑO (KPIs)</a></li>
+            <li><a href="#control-de-versiones"
+            id="toc-control-de-versiones">🔄 CONTROL DE
+            VERSIONES</a></li>
+            </ul></li>
+            </ul>
+        </nav>
+
+        <article class="premium-doc-content">
+            <h1 id="gestión-ejecutiva-cronograma-y-recursos">GESTIÓN
+            EJECUTIVA: CRONOGRAMA Y RECURSOS</h1>
+            <h2
+            id="documento-ejecutivo-de-gestión-de-proyecto">Documento
+            Ejecutivo de Gestión de Proyecto</h2>
+            <hr />
+            <h2 id="resumen-ejecutivo">📊 RESUMEN EJECUTIVO</h2>
+            <h3 id="qué-es-este-documento-y-por-qué-importa">Qué es este
+            documento y por qué importa</h3>
+            <p>Este documento define el <strong>“cronograma y
+            recursos”</strong> del proyecto APP La Dorada-Chiriguaná,
+            estableciendo claramente cuándo se van a hacer las
+            actividades, qué recursos se necesitan y cómo se van a
+            gestionar. Es como el “plan de trabajo” del proyecto que
+            todos deben seguir para cumplir los objetivos.</p>
+            <h3 id="alcance-en-números---justificación-técnica">Alcance
+            en números - JUSTIFICACIÓN TÉCNICA</h3>
+            <ul>
+            <li><strong>Duración total:</strong> 36 meses (3 años)</li>
+            <li><strong>Presupuesto total:</strong> $450,000 millones
+            COP</li>
+            <li><strong>Recursos humanos:</strong> 1,200 personas</li>
+            <li><strong>Equipos:</strong> 150 unidades
+            especializadas</li>
+            <li><strong>Materiales:</strong> 85,000 toneladas</li>
+            <li><strong>Subcontratos:</strong> 45 empresas
+            especializadas</li>
+            <li><strong>Disponibilidad recursos:</strong> 95%</li>
+            </ul>
+            <h3 id="hitos-críticos">Hitos críticos</h3>
+            <table>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Fase</th>
+            <th style="text-align: left;">Duración</th>
+            <th style="text-align: left;">Fecha Inicio</th>
+            <th style="text-align: left;">Fecha Fin</th>
+            <th style="text-align: left;">Estado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">Diseño Conceptual</td>
+            <td style="text-align: left;">2 meses</td>
+            <td style="text-align: left;">Ene 2025</td>
+            <td style="text-align: left;">Feb 2025</td>
+            <td style="text-align: left;">✅ Completado</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Ingeniería Básica</td>
+            <td style="text-align: left;">3 meses</td>
+            <td style="text-align: left;">Feb 2025</td>
+            <td style="text-align: left;">Abr 2025</td>
+            <td style="text-align: left;">⏳ En progreso</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Ingeniería de Detalle</td>
+            <td style="text-align: left;">4 meses</td>
+            <td style="text-align: left;">Abr 2025</td>
+            <td style="text-align: left;">Jul 2025</td>
+            <td style="text-align: left;">❌ Pendiente</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Construcción</td>
+            <td style="text-align: left;">24 meses</td>
+            <td style="text-align: left;">Jul 2025</td>
+            <td style="text-align: left;">Jun 2027</td>
+            <td style="text-align: left;">❌ Pendiente</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Comisionamiento</td>
+            <td style="text-align: left;">3 meses</td>
+            <td style="text-align: left;">Jun 2027</td>
+            <td style="text-align: left;">Ago 2027</td>
+            <td style="text-align: left;">❌ Pendiente</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="criterios-de-diseño-y-justificaciones-técnicas">🔍
+            CRITERIOS DE DISEÑO Y JUSTIFICACIONES TÉCNICAS</h2>
+            <h3 id="por-qué-36-meses-de-duración-total">¿Por qué 36
+            meses de duración total?</h3>
+            <p><strong>Justificación de Cronograma:</strong> | Fase |
+            Duración | Justificación | |:—–|:———|:————–| |
+            <strong>Diseño Conceptual</strong> | 2 meses | Definición de
+            sistemas y arquitectura | | <strong>Ingeniería
+            Básica</strong> | 3 meses | Especificaciones técnicas
+            detalladas | | <strong>Ingeniería de Detalle</strong> | 4
+            meses | Planos y especificaciones de construcción | |
+            <strong>Construcción</strong> | 24 meses | Obras civiles,
+            instalaciones y sistemas | |
+            <strong>Comisionamiento</strong> | 3 meses | Pruebas,
+            ajustes y puesta en marcha | | <strong>TOTAL</strong> |
+            <strong>36 meses</strong> | Cronograma optimizado para
+            proyecto |</p>
+            <h3 id="por-qué-450000-millones-de-presupuesto">¿Por qué
+            $450,000 millones de presupuesto?</h3>
+            <p><strong>Justificación de Costos:</strong> | Componente |
+            Costo (millones COP) | % del Total | Justificación |
+            |:———–|:——————–|:————|:————–| | <strong>Infraestructura
+            Civil</strong> | 180,000 | 40% | 526 km de corredor
+            ferroviario | | <strong>Sistemas Técnicos</strong> | 135,000
+            | 30% | Control, telecomunicaciones, ITS | |
+            <strong>Material Rodante</strong> | 95,000 | 21% | 15
+            locomotoras y 51 vagones | | <strong>Gestión de
+            Proyecto</strong> | 25,000 | 6% | Personal, equipos, gestión
+            | | <strong>Contingencias</strong> | 15,000 | 3% | Reserva
+            para imprevistos | | <strong>TOTAL</strong> |
+            <strong>450,000</strong> | <strong>100%</strong> |
+            Presupuesto integral del proyecto |</p>
+            <h3 id="por-qué-1200-personas-de-recursos-humanos">¿Por qué
+            1,200 personas de recursos humanos?</h3>
+            <p><strong>Justificación de Personal:</strong> | Categoría |
+            Cantidad | % del Total | Justificación |
+            |:———-|:———|:————|:————–| | <strong>Ingenieros</strong> |
+            180 | 15% | Diseño y supervisión técnica | |
+            <strong>Técnicos</strong> | 360 | 30% | Supervisión de obra
+            y sistemas | | <strong>Operarios</strong> | 540 | 45% |
+            Construcción e instalación | | <strong>Personal
+            administrativo</strong> | 120 | 10% | Gestión y
+            administración | | <strong>TOTAL</strong> |
+            <strong>1,200</strong> | <strong>100%</strong> | Personal
+            necesario para proyecto |</p>
+            <h3 id="por-qué-150-equipos-especializados">¿Por qué 150
+            equipos especializados?</h3>
+            <p><strong>Justificación de Equipos:</strong> | Tipo |
+            Cantidad | Justificación | |:—–|:———|:————–| |
+            <strong>Equipos de construcción</strong> | 75 unidades |
+            Movimiento de tierras y obras civiles | | <strong>Equipos de
+            instalación</strong> | 45 unidades | Instalación de sistemas
+            técnicos | | <strong>Equipos de transporte</strong> | 20
+            unidades | Transporte de materiales y equipos | |
+            <strong>Equipos de apoyo</strong> | 10 unidades | Servicios
+            y apoyo logístico | | <strong>TOTAL</strong> |
+            <strong>150</strong> | Equipos necesarios para proyecto
+            |</p>
+            <h3 id="por-qué-85000-toneladas-de-materiales">¿Por qué
+            85,000 toneladas de materiales?</h3>
+            <p><strong>Justificación de Materiales:</strong> | Material
+            | Cantidad (ton) | Justificación | |:———|:—————|:————–| |
+            <strong>Concreto</strong> | 45,000 | Estructuras y
+            edificaciones | | <strong>Acero</strong> | 25,000 |
+            Estructuras metálicas y vías | | <strong>Agregados</strong>
+            | 10,000 | Movimiento de tierras y rellenos | |
+            <strong>Otros materiales</strong> | 5,000 | Sistemas
+            técnicos y acabados | | <strong>TOTAL</strong> |
+            <strong>85,000</strong> | Materiales necesarios para
+            proyecto |</p>
+            <hr />
+            <h2 id="función-y-propósito-de-la-gestión">🎯 FUNCIÓN Y
+            PROPÓSITO DE LA GESTIÓN</h2>
+            <h3 id="qué-hace-esta-gestión">¿Qué hace esta gestión?</h3>
+            <p>La gestión de cronograma y recursos proporciona
+            <strong>coordinación y control</strong> del proyecto: -
+            <strong>Planificación:</strong> Cronograma detallado de
+            actividades - <strong>Recursos:</strong> Gestión de
+            personal, equipos y materiales - <strong>Control:</strong>
+            Seguimiento y control de avance -
+            <strong>Optimización:</strong> Mejora continua de procesos -
+            <strong>Comunicación:</strong> Coordinación entre
+            equipos</p>
+            <h3 id="por-qué-la-necesitamos">¿Por qué la
+            necesitamos?</h3>
+            <ul>
+            <li><strong>Eficiencia:</strong> Optimización del uso de
+            recursos</li>
+            <li><strong>Control:</strong> Seguimiento del avance del
+            proyecto</li>
+            <li><strong>Calidad:</strong> Cumplimiento de estándares y
+            especificaciones</li>
+            <li><strong>Costo:</strong> Control de costos y
+            presupuesto</li>
+            <li><strong>Tiempo:</strong> Cumplimiento de cronograma</li>
+            </ul>
+            <h3 id="cómo-se-integra-con-otros-aspectos">¿Cómo se integra
+            con otros aspectos?</h3>
+            <pre><code>[Cronograma y Recursos] ←→ [Alcance y Objetivos]
          ↓
 [Control y Seguimiento] ←→ [Calidad y Cumplimiento]
          ↓
 [Optimización] ←→ [Mejora Continua]</code></pre>
-<hr />
-<h2 id="componentes-principales">🏗️ COMPONENTES PRINCIPALES</h2>
-<h3 id="cronograma-del-proyecto">1. Cronograma del Proyecto</h3>
-<p><strong>Propósito:</strong> Planificación temporal de todas las
-actividades</p>
-<p><strong>Especificaciones técnicas:</strong> | Parámetro | Valor |
-Justificación | |:———-|:——|:————–| | <strong>Duración total</strong> |
-36 meses | Cronograma optimizado | | <strong>Fases principales</strong>
-| 5 fases | Estructura del proyecto | | <strong>Actividades
-críticas</strong> | 25 actividades | Ruta crítica del proyecto | |
-<strong>Hitos principales</strong> | 15 hitos | Control de avance |</p>
-<h3 id="gestión-de-recursos">2. Gestión de Recursos</h3>
-<p><strong>Propósito:</strong> Gestión eficiente de todos los
-recursos</p>
-<p><strong>Componentes instalados:</strong> | Componente | Cantidad |
-Función | Estado | |:———–|:———|:——–|:——-| | <strong>Personal</strong> |
-1,200 personas | Recursos humanos | ⏳ En contratación | |
-<strong>Equipos</strong> | 150 unidades | Equipos especializados | ⏳ En
-adquisición | | <strong>Materiales</strong> | 85,000 ton | Materiales de
-construcción | ⏳ En suministro | | <strong>Subcontratos</strong> | 45
-empresas | Servicios especializados | ⏳ En contratación |</p>
-<h3 id="control-y-seguimiento">3. Control y Seguimiento</h3>
-<p><strong>Propósito:</strong> Control del avance y cumplimiento</p>
-<p><strong>Componentes instalados:</strong> | Componente | Cantidad |
-Función | Estado | |:———–|:———|:——–|:——-| | <strong>Sistema de
-control</strong> | 1 unidad | Control de avance | ⏳ En desarrollo | |
-<strong>Reportes</strong> | Diarios | Seguimiento de avance | ⏳ En
-implementación | | <strong>Indicadores</strong> | 25 KPIs | Medición de
-desempeño | ⏳ En desarrollo |</p>
-<hr />
-<h2 id="especificaciones-técnicas-clave">📐 ESPECIFICACIONES TÉCNICAS
-CLAVE</h2>
-<h3 id="tabla-consolidada-de-especificaciones">Tabla consolidada de
-especificaciones</h3>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Parámetro</th>
-<th style="text-align: left;">Valor</th>
-<th style="text-align: left;">Estándar Aplicable</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Duración total</td>
-<td style="text-align: left;">36 meses</td>
-<td style="text-align: left;">PMI PMBOK</td>
-</tr>
-<tr>
-<td style="text-align: left;">Presupuesto total</td>
-<td style="text-align: left;">$450,000 millones</td>
-<td style="text-align: left;">Especificaciones proyecto</td>
-</tr>
-<tr>
-<td style="text-align: left;">Recursos humanos</td>
-<td style="text-align: left;">1,200 personas</td>
-<td style="text-align: left;">Especificaciones proyecto</td>
-</tr>
-<tr>
-<td style="text-align: left;">Equipos</td>
-<td style="text-align: left;">150 unidades</td>
-<td style="text-align: left;">Especificaciones proyecto</td>
-</tr>
-<tr>
-<td style="text-align: left;">Materiales</td>
-<td style="text-align: left;">85,000 ton</td>
-<td style="text-align: left;">Especificaciones proyecto</td>
-</tr>
-</tbody>
-</table>
-<h3 id="criterios-de-aceptación">Criterios de aceptación</h3>
-<ul>
-<li>✅ Cronograma 36 meses cumplido</li>
-<li>✅ Presupuesto $450,000 millones controlado</li>
-<li>✅ Recursos humanos 1,200 personas disponibles</li>
-<li>✅ Equipos 150 unidades operativos</li>
-<li>✅ Materiales 85,000 ton suministrados</li>
-</ul>
-<hr />
-<h2 id="ubicación-y-despliegue">📍 UBICACIÓN Y DESPLIEGUE</h2>
-<h3 id="mapa-de-despliegue">Mapa de despliegue</h3>
-<p>Los recursos se despliegan a lo largo de los 526 km del corredor, con
-centros de operación en La Dorada y Chiriguaná.</p>
-<h3 id="tabla-de-ubicaciones-principales">Tabla de ubicaciones
-principales</h3>
-<table>
-<colgroup>
-<col style="width: 26%" />
-<col style="width: 31%" />
-<col style="width: 21%" />
-<col style="width: 19%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Ubicación</th>
-<th style="text-align: left;">Componentes</th>
-<th style="text-align: left;">Función</th>
-<th style="text-align: left;">Estado</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><strong>La Dorada</strong></td>
-<td style="text-align: left;">Centro de operación principal</td>
-<td style="text-align: left;">Coordinación centralizada</td>
-<td style="text-align: left;">⏳ En construcción</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Chiriguaná</strong></td>
-<td style="text-align: left;">Centro de operación secundario</td>
-<td style="text-align: left;">Coordinación regional</td>
-<td style="text-align: left;">⏳ En construcción</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Corredor</strong></td>
-<td style="text-align: left;">Recursos distribuidos</td>
-<td style="text-align: left;">Operación distribuida</td>
-<td style="text-align: left;">⏳ En despliegue</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="operación-y-mantenimiento">⚙️ OPERACIÓN Y MANTENIMIENTO</h2>
-<h3 id="operación-normal">Operación normal</h3>
-<p>La gestión de cronograma y recursos opera 24/7 coordinando todas las
-actividades del proyecto, con control continuo y optimización de
-procesos.</p>
-<h3 id="mantenimiento-preventivo">Mantenimiento preventivo</h3>
-<ul>
-<li><strong>Diario:</strong> Verificación de recursos y avance</li>
-<li><strong>Semanal:</strong> Análisis de desviaciones y
-correcciones</li>
-<li><strong>Mensual:</strong> Revisión de cronograma y recursos</li>
-<li><strong>Trimestral:</strong> Evaluación de desempeño y mejoras</li>
-<li><strong>Anual:</strong> Revisión completa y planificación</li>
-</ul>
-<h3 id="respuesta-a-desviaciones">Respuesta a desviaciones</h3>
-<ol type="1">
-<li><strong>Detección</strong> de desviaciones en cronograma o
-recursos</li>
-<li><strong>Evaluación</strong> de impacto y criticidad</li>
-<li><strong>Implementación</strong> de medidas correctivas</li>
-<li><strong>Monitoreo</strong> de efectividad de medidas</li>
-<li><strong>Documentación</strong> de desviaciones y acciones</li>
-</ol>
-<hr />
-<h2 id="interfaces-con-otros-aspectos">🔗 INTERFACES CON OTROS
-ASPECTOS</h2>
-<h3 id="diagrama-de-interfaces">Diagrama de interfaces</h3>
-<pre><code>[Cronograma y Recursos] ←→ [Alcance y Objetivos]
+            <hr />
+            <h2 id="componentes-principales">🏗️ COMPONENTES
+            PRINCIPALES</h2>
+            <h3 id="cronograma-del-proyecto">1. Cronograma del
+            Proyecto</h3>
+            <p><strong>Propósito:</strong> Planificación temporal de
+            todas las actividades</p>
+            <p><strong>Especificaciones técnicas:</strong> | Parámetro |
+            Valor | Justificación | |:———-|:——|:————–| |
+            <strong>Duración total</strong> | 36 meses | Cronograma
+            optimizado | | <strong>Fases principales</strong> | 5 fases
+            | Estructura del proyecto | | <strong>Actividades
+            críticas</strong> | 25 actividades | Ruta crítica del
+            proyecto | | <strong>Hitos principales</strong> | 15 hitos |
+            Control de avance |</p>
+            <h3 id="gestión-de-recursos">2. Gestión de Recursos</h3>
+            <p><strong>Propósito:</strong> Gestión eficiente de todos
+            los recursos</p>
+            <p><strong>Componentes instalados:</strong> | Componente |
+            Cantidad | Función | Estado | |:———–|:———|:——–|:——-| |
+            <strong>Personal</strong> | 1,200 personas | Recursos
+            humanos | ⏳ En contratación | | <strong>Equipos</strong> |
+            150 unidades | Equipos especializados | ⏳ En adquisición |
+            | <strong>Materiales</strong> | 85,000 ton | Materiales de
+            construcción | ⏳ En suministro | |
+            <strong>Subcontratos</strong> | 45 empresas | Servicios
+            especializados | ⏳ En contratación |</p>
+            <h3 id="control-y-seguimiento">3. Control y Seguimiento</h3>
+            <p><strong>Propósito:</strong> Control del avance y
+            cumplimiento</p>
+            <p><strong>Componentes instalados:</strong> | Componente |
+            Cantidad | Función | Estado | |:———–|:———|:——–|:——-| |
+            <strong>Sistema de control</strong> | 1 unidad | Control de
+            avance | ⏳ En desarrollo | | <strong>Reportes</strong> |
+            Diarios | Seguimiento de avance | ⏳ En implementación | |
+            <strong>Indicadores</strong> | 25 KPIs | Medición de
+            desempeño | ⏳ En desarrollo |</p>
+            <hr />
+            <h2 id="especificaciones-técnicas-clave">📐 ESPECIFICACIONES
+            TÉCNICAS CLAVE</h2>
+            <h3 id="tabla-consolidada-de-especificaciones">Tabla
+            consolidada de especificaciones</h3>
+            <table>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Parámetro</th>
+            <th style="text-align: left;">Valor</th>
+            <th style="text-align: left;">Estándar Aplicable</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">Duración total</td>
+            <td style="text-align: left;">36 meses</td>
+            <td style="text-align: left;">PMI PMBOK</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Presupuesto total</td>
+            <td style="text-align: left;">$450,000 millones</td>
+            <td style="text-align: left;">Especificaciones proyecto</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Recursos humanos</td>
+            <td style="text-align: left;">1,200 personas</td>
+            <td style="text-align: left;">Especificaciones proyecto</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Equipos</td>
+            <td style="text-align: left;">150 unidades</td>
+            <td style="text-align: left;">Especificaciones proyecto</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Materiales</td>
+            <td style="text-align: left;">85,000 ton</td>
+            <td style="text-align: left;">Especificaciones proyecto</td>
+            </tr>
+            </tbody>
+            </table>
+            <h3 id="criterios-de-aceptación">Criterios de
+            aceptación</h3>
+            <ul>
+            <li>✅ Cronograma 36 meses cumplido</li>
+            <li>✅ Presupuesto $450,000 millones controlado</li>
+            <li>✅ Recursos humanos 1,200 personas disponibles</li>
+            <li>✅ Equipos 150 unidades operativos</li>
+            <li>✅ Materiales 85,000 ton suministrados</li>
+            </ul>
+            <hr />
+            <h2 id="ubicación-y-despliegue">📍 UBICACIÓN Y
+            DESPLIEGUE</h2>
+            <h3 id="mapa-de-despliegue">Mapa de despliegue</h3>
+            <p>Los recursos se despliegan a lo largo de los 526 km del
+            corredor, con centros de operación en La Dorada y
+            Chiriguaná.</p>
+            <h3 id="tabla-de-ubicaciones-principales">Tabla de
+            ubicaciones principales</h3>
+            <table>
+            <colgroup>
+            <col style="width: 26%" />
+            <col style="width: 31%" />
+            <col style="width: 21%" />
+            <col style="width: 19%" />
+            </colgroup>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Ubicación</th>
+            <th style="text-align: left;">Componentes</th>
+            <th style="text-align: left;">Función</th>
+            <th style="text-align: left;">Estado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;"><strong>La
+            Dorada</strong></td>
+            <td style="text-align: left;">Centro de operación
+            principal</td>
+            <td style="text-align: left;">Coordinación centralizada</td>
+            <td style="text-align: left;">⏳ En construcción</td>
+            </tr>
+            <tr>
+            <td
+            style="text-align: left;"><strong>Chiriguaná</strong></td>
+            <td style="text-align: left;">Centro de operación
+            secundario</td>
+            <td style="text-align: left;">Coordinación regional</td>
+            <td style="text-align: left;">⏳ En construcción</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;"><strong>Corredor</strong></td>
+            <td style="text-align: left;">Recursos distribuidos</td>
+            <td style="text-align: left;">Operación distribuida</td>
+            <td style="text-align: left;">⏳ En despliegue</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="operación-y-mantenimiento">⚙️ OPERACIÓN Y
+            MANTENIMIENTO</h2>
+            <h3 id="operación-normal">Operación normal</h3>
+            <p>La gestión de cronograma y recursos opera 24/7
+            coordinando todas las actividades del proyecto, con control
+            continuo y optimización de procesos.</p>
+            <h3 id="mantenimiento-preventivo">Mantenimiento
+            preventivo</h3>
+            <ul>
+            <li><strong>Diario:</strong> Verificación de recursos y
+            avance</li>
+            <li><strong>Semanal:</strong> Análisis de desviaciones y
+            correcciones</li>
+            <li><strong>Mensual:</strong> Revisión de cronograma y
+            recursos</li>
+            <li><strong>Trimestral:</strong> Evaluación de desempeño y
+            mejoras</li>
+            <li><strong>Anual:</strong> Revisión completa y
+            planificación</li>
+            </ul>
+            <h3 id="respuesta-a-desviaciones">Respuesta a
+            desviaciones</h3>
+            <ol type="1">
+            <li><strong>Detección</strong> de desviaciones en cronograma
+            o recursos</li>
+            <li><strong>Evaluación</strong> de impacto y criticidad</li>
+            <li><strong>Implementación</strong> de medidas
+            correctivas</li>
+            <li><strong>Monitoreo</strong> de efectividad de
+            medidas</li>
+            <li><strong>Documentación</strong> de desviaciones y
+            acciones</li>
+            </ol>
+            <hr />
+            <h2 id="interfaces-con-otros-aspectos">🔗 INTERFACES CON
+            OTROS ASPECTOS</h2>
+            <h3 id="diagrama-de-interfaces">Diagrama de interfaces</h3>
+            <pre><code>[Cronograma y Recursos] ←→ [Alcance y Objetivos]
          ↓
 [Control y Seguimiento] ←→ [Calidad y Cumplimiento]
          ↓
 [Optimización] ←→ [Mejora Continua]</code></pre>
-<h3 id="tabla-de-interfaces-críticas">Tabla de interfaces críticas</h3>
-<table>
-<colgroup>
-<col style="width: 17%" />
-<col style="width: 34%" />
-<col style="width: 23%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Aspecto</th>
-<th style="text-align: left;">Tipo de Interfaz</th>
-<th style="text-align: left;">Criticidad</th>
-<th style="text-align: left;">Responsable</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><strong>Alcance y Objetivos</strong></td>
-<td style="text-align: left;">Definición de actividades</td>
-<td style="text-align: left;">Alta</td>
-<td style="text-align: left;">EPC Proyecto</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Calidad y
-Cumplimiento</strong></td>
-<td style="text-align: left;">Estándares y especificaciones</td>
-<td style="text-align: left;">Alta</td>
-<td style="text-align: left;">EPC Proyecto</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Financiero</strong></td>
-<td style="text-align: left;">Presupuesto y costos</td>
-<td style="text-align: left;">Alta</td>
-<td style="text-align: left;">EPC Proyecto</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Ambiental</strong></td>
-<td style="text-align: left;">Licencias y permisos</td>
-<td style="text-align: left;">Media</td>
-<td style="text-align: left;">EPC Proyecto</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="supuestos-técnicos-y-limitaciones">📋 SUPUESTOS TÉCNICOS Y
-LIMITACIONES</h2>
-<h3 id="supuestos-críticos-del-diseño">Supuestos Críticos del
-Diseño</h3>
-<table>
-<colgroup>
-<col style="width: 17%" />
-<col style="width: 26%" />
-<col style="width: 33%" />
-<col style="width: 21%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Supuesto</th>
-<th style="text-align: left;">Valor Asumido</th>
-<th style="text-align: left;">Impacto si Cambia</th>
-<th style="text-align: left;">Mitigación</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><strong>Disponibilidad de
-recursos</strong></td>
-<td style="text-align: left;">95%</td>
-<td style="text-align: left;">Retrasos si reduce</td>
-<td style="text-align: left;">Plan de contingencia</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Condiciones
-climáticas</strong></td>
-<td style="text-align: left;">Estables</td>
-<td style="text-align: left;">Retrasos si cambian</td>
-<td style="text-align: left;">Programación estacional</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Suministro de
-materiales</strong></td>
-<td style="text-align: left;">Continuo</td>
-<td style="text-align: left;">Retrasos si interrumpe</td>
-<td style="text-align: left;">Proveedores alternativos</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Personal
-especializado</strong></td>
-<td style="text-align: left;">Disponible</td>
-<td style="text-align: left;">Limitaciones si no disponible</td>
-<td style="text-align: left;">Capacitación continua</td>
-</tr>
-</tbody>
-</table>
-<h3 id="limitaciones-del-diseño">Limitaciones del Diseño</h3>
-<ul>
-<li><strong>Recursos:</strong> Limitaciones de personal
-especializado</li>
-<li><strong>Equipos:</strong> Limitaciones de equipos
-especializados</li>
-<li><strong>Materiales:</strong> Limitaciones de suministro</li>
-<li><strong>Clima:</strong> Limitaciones por condiciones climáticas</li>
-<li><strong>Financiero:</strong> Limitaciones de presupuesto</li>
-</ul>
-<h3 id="dependencias-críticas">Dependencias Críticas</h3>
-<ul>
-<li><strong>Personal técnico:</strong> Ingenieros y técnicos
-especializados</li>
-<li><strong>Equipos especializados:</strong> Equipos de construcción e
-instalación</li>
-<li><strong>Materiales:</strong> Suministro de materiales de
-construcción</li>
-<li><strong>Subcontratos:</strong> Empresas especializadas</li>
-<li><strong>Licencias:</strong> Permisos y autorizaciones</li>
-</ul>
-<hr />
-<h2 id="riesgos-y-mitigaciones">⚠️ RIESGOS Y MITIGACIONES</h2>
-<table>
-<colgroup>
-<col style="width: 15%" />
-<col style="width: 26%" />
-<col style="width: 19%" />
-<col style="width: 23%" />
-<col style="width: 15%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Riesgo</th>
-<th style="text-align: left;">Probabilidad</th>
-<th style="text-align: left;">Impacto</th>
-<th style="text-align: left;">Mitigación</th>
-<th style="text-align: left;">Estado</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Retraso en cronograma</td>
-<td style="text-align: left;">Media</td>
-<td style="text-align: left;">Alto</td>
-<td style="text-align: left;">Plan de contingencia</td>
-<td style="text-align: left;">✅ Mitigado</td>
-</tr>
-<tr>
-<td style="text-align: left;">Sobrecosto</td>
-<td style="text-align: left;">Media</td>
-<td style="text-align: left;">Alto</td>
-<td style="text-align: left;">Control de costos</td>
-<td style="text-align: left;">✅ Mitigado</td>
-</tr>
-<tr>
-<td style="text-align: left;">Falta de recursos</td>
-<td style="text-align: left;">Baja</td>
-<td style="text-align: left;">Alto</td>
-<td style="text-align: left;">Plan de respaldo</td>
-<td style="text-align: left;">✅ Mitigado</td>
-</tr>
-<tr>
-<td style="text-align: left;">Condiciones climáticas</td>
-<td style="text-align: left;">Media</td>
-<td style="text-align: left;">Medio</td>
-<td style="text-align: left;">Programación estacional</td>
-<td style="text-align: left;">✅ Mitigado</td>
-</tr>
-<tr>
-<td style="text-align: left;">Cambios de alcance</td>
-<td style="text-align: left;">Baja</td>
-<td style="text-align: left;">Alto</td>
-<td style="text-align: left;">Control de cambios</td>
-<td style="text-align: left;">✅ Mitigado</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="cumplimiento-contractual">📋 CUMPLIMIENTO CONTRACTUAL</h2>
-<h3 id="obligaciones-clave-del-contrato">Obligaciones clave del
-contrato</h3>
-<ul>
-<li>✅ <strong>AT1 - Alcance:</strong> Proyecto integral - Cumplida</li>
-<li>✅ <strong>AT2 - Operación:</strong> Operación y mantenimiento -
-Cumplida</li>
-<li>⏳ <strong>AT9 - Cronograma:</strong> Plan de implementación por
-fases - En progreso</li>
-<li>⏳ <strong>Presupuesto:</strong> Control de costos y presupuesto -
-En progreso</li>
-<li>⏳ <strong>Recursos:</strong> Gestión de recursos humanos y
-materiales - En progreso</li>
-</ul>
-<h3 id="referencias-contractuales">Referencias contractuales</h3>
-<ul>
-<li><strong>Contrato General:</strong> Marco legal del proyecto</li>
-<li><strong>Apéndice Técnico 1:</strong> Alcance del proyecto</li>
-<li><strong>Apéndice Técnico 2:</strong> Operación y mantenimiento</li>
-<li><strong>Apéndice Técnico 9:</strong> Cronograma y fases</li>
-</ul>
-<hr />
-<h2 id="documentación-de-soporte">📚 DOCUMENTACIÓN DE SOPORTE</h2>
-<h3 id="documentos-técnicos-disponibles">Documentos técnicos
-disponibles</h3>
-<table>
-<colgroup>
-<col style="width: 29%" />
-<col style="width: 16%" />
-<col style="width: 24%" />
-<col style="width: 29%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Documento</th>
-<th style="text-align: left;">Fase</th>
-<th style="text-align: left;">Versión</th>
-<th style="text-align: left;">Ubicación</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td
-style="text-align: left;">GESTION_MASTER_Cronograma_y_Recursos_v1.0.md</td>
-<td style="text-align: left;">Consolidado</td>
-<td style="text-align: left;">v1.0</td>
-<td style="text-align: left;">Carpeta X</td>
-</tr>
-<tr>
-<td style="text-align: left;">WBS_Cronograma_Propuesta.html</td>
-<td style="text-align: left;">WBS</td>
-<td style="text-align: left;">v2.0</td>
-<td style="text-align: left;">Directorio raíz</td>
-</tr>
-<tr>
-<td style="text-align: left;">WBS_Presupuestal_v2.0.md</td>
-<td style="text-align: left;">Presupuesto</td>
-<td style="text-align: left;">v2.0</td>
-<td style="text-align: left;">Directorio raíz</td>
-</tr>
-</tbody>
-</table>
-<h3 id="para-más-información-técnica">Para más información técnica</h3>
-<p>Los documentos técnicos detallados están disponibles en la Carpeta X
-del proyecto. Para información específica sobre implementación,
-contactar al equipo de EPC Proyecto.</p>
-<hr />
-<h2 id="contactos-y-responsables">📞 CONTACTOS Y RESPONSABLES</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Rol</th>
-<th style="text-align: left;">Responsable</th>
-<th style="text-align: left;">Contacto</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Director de Proyecto</td>
-<td style="text-align: left;">[Nombre]</td>
-<td style="text-align: left;">[Email/Tel]</td>
-</tr>
-<tr>
-<td style="text-align: left;">Coordinador EPC</td>
-<td style="text-align: left;">Administrador Contractual EPC</td>
-<td style="text-align: left;">[Email/Tel]</td>
-</tr>
-<tr>
-<td style="text-align: left;">Gerente de Construcción</td>
-<td style="text-align: left;">[Nombre]</td>
-<td style="text-align: left;">[Email/Tel]</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="indicadores-de-desempeño-kpis">📊 INDICADORES DE DESEMPEÑO
-(KPIs)</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Indicador</th>
-<th style="text-align: left;">Meta</th>
-<th style="text-align: left;">Actual</th>
-<th style="text-align: left;">Estado</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Cumplimiento cronograma</td>
-<td style="text-align: left;">100%</td>
-<td style="text-align: left;">95%</td>
-<td style="text-align: left;">🟡 En progreso</td>
-</tr>
-<tr>
-<td style="text-align: left;">Cumplimiento presupuesto</td>
-<td style="text-align: left;">100%</td>
-<td style="text-align: left;">98%</td>
-<td style="text-align: left;">🟢 Excelente</td>
-</tr>
-<tr>
-<td style="text-align: left;">Disponibilidad recursos</td>
-<td style="text-align: left;">95%</td>
-<td style="text-align: left;">97%</td>
-<td style="text-align: left;">🟢 Excelente</td>
-</tr>
-<tr>
-<td style="text-align: left;">Calidad de ejecución</td>
-<td style="text-align: left;">100%</td>
-<td style="text-align: left;">96%</td>
-<td style="text-align: left;">🟢 Excelente</td>
-</tr>
-<tr>
-<td style="text-align: left;">Seguridad en obra</td>
-<td style="text-align: left;">0 accidentes</td>
-<td style="text-align: left;">0 accidentes</td>
-<td style="text-align: left;">🟢 Excelente</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="control-de-versiones">🔄 CONTROL DE VERSIONES</h2>
-<table>
-<colgroup>
-<col style="width: 18%" />
-<col style="width: 14%" />
-<col style="width: 42%" />
-<col style="width: 26%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Versión</th>
-<th style="text-align: left;">Fecha</th>
-<th style="text-align: left;">Cambios Principales</th>
-<th style="text-align: left;">Responsable</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">1.0</td>
-<td style="text-align: left;">Enero 2025</td>
-<td style="text-align: left;">Versión inicial ejecutiva</td>
-<td style="text-align: left;">Administrador Contractual EPC</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<p><strong>Documento preparado por:</strong> Administrador Contractual
-EPC<br />
-<strong>Última actualización:</strong> Enero 2025<br />
-<strong>Próxima revisión:</strong> Febrero 2025<br />
-<strong>Basado en:</strong>
-GESTION_MASTER_Cronograma_y_Recursos_v1.0.md</p>
-<!-- COCINADO LFC-CLI v1.0 | Fecha: 3/13/2026, 7:41:58 PM | SSOT: DBCD_CRITERIA.md -->
+            <h3 id="tabla-de-interfaces-críticas">Tabla de interfaces
+            críticas</h3>
+            <table>
+            <colgroup>
+            <col style="width: 17%" />
+            <col style="width: 34%" />
+            <col style="width: 23%" />
+            <col style="width: 25%" />
+            </colgroup>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Aspecto</th>
+            <th style="text-align: left;">Tipo de Interfaz</th>
+            <th style="text-align: left;">Criticidad</th>
+            <th style="text-align: left;">Responsable</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;"><strong>Alcance y
+            Objetivos</strong></td>
+            <td style="text-align: left;">Definición de actividades</td>
+            <td style="text-align: left;">Alta</td>
+            <td style="text-align: left;">EPC Proyecto</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;"><strong>Calidad y
+            Cumplimiento</strong></td>
+            <td style="text-align: left;">Estándares y
+            especificaciones</td>
+            <td style="text-align: left;">Alta</td>
+            <td style="text-align: left;">EPC Proyecto</td>
+            </tr>
+            <tr>
+            <td
+            style="text-align: left;"><strong>Financiero</strong></td>
+            <td style="text-align: left;">Presupuesto y costos</td>
+            <td style="text-align: left;">Alta</td>
+            <td style="text-align: left;">EPC Proyecto</td>
+            </tr>
+            <tr>
+            <td
+            style="text-align: left;"><strong>Ambiental</strong></td>
+            <td style="text-align: left;">Licencias y permisos</td>
+            <td style="text-align: left;">Media</td>
+            <td style="text-align: left;">EPC Proyecto</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="supuestos-técnicos-y-limitaciones">📋 SUPUESTOS
+            TÉCNICOS Y LIMITACIONES</h2>
+            <h3 id="supuestos-críticos-del-diseño">Supuestos Críticos
+            del Diseño</h3>
+            <table>
+            <colgroup>
+            <col style="width: 17%" />
+            <col style="width: 26%" />
+            <col style="width: 33%" />
+            <col style="width: 21%" />
+            </colgroup>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Supuesto</th>
+            <th style="text-align: left;">Valor Asumido</th>
+            <th style="text-align: left;">Impacto si Cambia</th>
+            <th style="text-align: left;">Mitigación</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;"><strong>Disponibilidad de
+            recursos</strong></td>
+            <td style="text-align: left;">95%</td>
+            <td style="text-align: left;">Retrasos si reduce</td>
+            <td style="text-align: left;">Plan de contingencia</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;"><strong>Condiciones
+            climáticas</strong></td>
+            <td style="text-align: left;">Estables</td>
+            <td style="text-align: left;">Retrasos si cambian</td>
+            <td style="text-align: left;">Programación estacional</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;"><strong>Suministro de
+            materiales</strong></td>
+            <td style="text-align: left;">Continuo</td>
+            <td style="text-align: left;">Retrasos si interrumpe</td>
+            <td style="text-align: left;">Proveedores alternativos</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;"><strong>Personal
+            especializado</strong></td>
+            <td style="text-align: left;">Disponible</td>
+            <td style="text-align: left;">Limitaciones si no
+            disponible</td>
+            <td style="text-align: left;">Capacitación continua</td>
+            </tr>
+            </tbody>
+            </table>
+            <h3 id="limitaciones-del-diseño">Limitaciones del
+            Diseño</h3>
+            <ul>
+            <li><strong>Recursos:</strong> Limitaciones de personal
+            especializado</li>
+            <li><strong>Equipos:</strong> Limitaciones de equipos
+            especializados</li>
+            <li><strong>Materiales:</strong> Limitaciones de
+            suministro</li>
+            <li><strong>Clima:</strong> Limitaciones por condiciones
+            climáticas</li>
+            <li><strong>Financiero:</strong> Limitaciones de
+            presupuesto</li>
+            </ul>
+            <h3 id="dependencias-críticas">Dependencias Críticas</h3>
+            <ul>
+            <li><strong>Personal técnico:</strong> Ingenieros y técnicos
+            especializados</li>
+            <li><strong>Equipos especializados:</strong> Equipos de
+            construcción e instalación</li>
+            <li><strong>Materiales:</strong> Suministro de materiales de
+            construcción</li>
+            <li><strong>Subcontratos:</strong> Empresas
+            especializadas</li>
+            <li><strong>Licencias:</strong> Permisos y
+            autorizaciones</li>
+            </ul>
+            <hr />
+            <h2 id="riesgos-y-mitigaciones">⚠️ RIESGOS Y
+            MITIGACIONES</h2>
+            <table>
+            <colgroup>
+            <col style="width: 15%" />
+            <col style="width: 26%" />
+            <col style="width: 19%" />
+            <col style="width: 23%" />
+            <col style="width: 15%" />
+            </colgroup>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Riesgo</th>
+            <th style="text-align: left;">Probabilidad</th>
+            <th style="text-align: left;">Impacto</th>
+            <th style="text-align: left;">Mitigación</th>
+            <th style="text-align: left;">Estado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">Retraso en cronograma</td>
+            <td style="text-align: left;">Media</td>
+            <td style="text-align: left;">Alto</td>
+            <td style="text-align: left;">Plan de contingencia</td>
+            <td style="text-align: left;">✅ Mitigado</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Sobrecosto</td>
+            <td style="text-align: left;">Media</td>
+            <td style="text-align: left;">Alto</td>
+            <td style="text-align: left;">Control de costos</td>
+            <td style="text-align: left;">✅ Mitigado</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Falta de recursos</td>
+            <td style="text-align: left;">Baja</td>
+            <td style="text-align: left;">Alto</td>
+            <td style="text-align: left;">Plan de respaldo</td>
+            <td style="text-align: left;">✅ Mitigado</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Condiciones climáticas</td>
+            <td style="text-align: left;">Media</td>
+            <td style="text-align: left;">Medio</td>
+            <td style="text-align: left;">Programación estacional</td>
+            <td style="text-align: left;">✅ Mitigado</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Cambios de alcance</td>
+            <td style="text-align: left;">Baja</td>
+            <td style="text-align: left;">Alto</td>
+            <td style="text-align: left;">Control de cambios</td>
+            <td style="text-align: left;">✅ Mitigado</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="cumplimiento-contractual">📋 CUMPLIMIENTO
+            CONTRACTUAL</h2>
+            <h3 id="obligaciones-clave-del-contrato">Obligaciones clave
+            del contrato</h3>
+            <ul>
+            <li>✅ <strong>AT1 - Alcance:</strong> Proyecto integral -
+            Cumplida</li>
+            <li>✅ <strong>AT2 - Operación:</strong> Operación y
+            mantenimiento - Cumplida</li>
+            <li>⏳ <strong>AT9 - Cronograma:</strong> Plan de
+            implementación por fases - En progreso</li>
+            <li>⏳ <strong>Presupuesto:</strong> Control de costos y
+            presupuesto - En progreso</li>
+            <li>⏳ <strong>Recursos:</strong> Gestión de recursos
+            humanos y materiales - En progreso</li>
+            </ul>
+            <h3 id="referencias-contractuales">Referencias
+            contractuales</h3>
+            <ul>
+            <li><strong>Contrato General:</strong> Marco legal del
+            proyecto</li>
+            <li><strong>Apéndice Técnico 1:</strong> Alcance del
+            proyecto</li>
+            <li><strong>Apéndice Técnico 2:</strong> Operación y
+            mantenimiento</li>
+            <li><strong>Apéndice Técnico 9:</strong> Cronograma y
+            fases</li>
+            </ul>
+            <hr />
+            <h2 id="documentación-de-soporte">📚 DOCUMENTACIÓN DE
+            SOPORTE</h2>
+            <h3 id="documentos-técnicos-disponibles">Documentos técnicos
+            disponibles</h3>
+            <table>
+            <colgroup>
+            <col style="width: 29%" />
+            <col style="width: 16%" />
+            <col style="width: 24%" />
+            <col style="width: 29%" />
+            </colgroup>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Documento</th>
+            <th style="text-align: left;">Fase</th>
+            <th style="text-align: left;">Versión</th>
+            <th style="text-align: left;">Ubicación</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td
+            style="text-align: left;">GESTION_MASTER_Cronograma_y_Recursos_v1.0.md</td>
+            <td style="text-align: left;">Consolidado</td>
+            <td style="text-align: left;">v1.0</td>
+            <td style="text-align: left;">Carpeta X</td>
+            </tr>
+            <tr>
+            <td
+            style="text-align: left;">WBS_Cronograma_Propuesta.html</td>
+            <td style="text-align: left;">WBS</td>
+            <td style="text-align: left;">v2.0</td>
+            <td style="text-align: left;">Directorio raíz</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">WBS_Presupuestal_v2.0.md</td>
+            <td style="text-align: left;">Presupuesto</td>
+            <td style="text-align: left;">v2.0</td>
+            <td style="text-align: left;">Directorio raíz</td>
+            </tr>
+            </tbody>
+            </table>
+            <h3 id="para-más-información-técnica">Para más información
+            técnica</h3>
+            <p>Los documentos técnicos detallados están disponibles en
+            la Carpeta X del proyecto. Para información específica sobre
+            implementación, contactar al equipo de EPC Proyecto.</p>
+            <hr />
+            <h2 id="contactos-y-responsables">📞 CONTACTOS Y
+            RESPONSABLES</h2>
+            <table>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Rol</th>
+            <th style="text-align: left;">Responsable</th>
+            <th style="text-align: left;">Contacto</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">Director de Proyecto</td>
+            <td style="text-align: left;">[Nombre]</td>
+            <td style="text-align: left;">[Email/Tel]</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Coordinador EPC</td>
+            <td style="text-align: left;">Administrador Contractual
+            EPC</td>
+            <td style="text-align: left;">[Email/Tel]</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Gerente de Construcción</td>
+            <td style="text-align: left;">[Nombre]</td>
+            <td style="text-align: left;">[Email/Tel]</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="indicadores-de-desempeño-kpis">📊 INDICADORES DE
+            DESEMPEÑO (KPIs)</h2>
+            <table>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Indicador</th>
+            <th style="text-align: left;">Meta</th>
+            <th style="text-align: left;">Actual</th>
+            <th style="text-align: left;">Estado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">Cumplimiento cronograma</td>
+            <td style="text-align: left;">100%</td>
+            <td style="text-align: left;">95%</td>
+            <td style="text-align: left;">🟡 En progreso</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Cumplimiento presupuesto</td>
+            <td style="text-align: left;">100%</td>
+            <td style="text-align: left;">98%</td>
+            <td style="text-align: left;">🟢 Excelente</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Disponibilidad recursos</td>
+            <td style="text-align: left;">95%</td>
+            <td style="text-align: left;">97%</td>
+            <td style="text-align: left;">🟢 Excelente</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Calidad de ejecución</td>
+            <td style="text-align: left;">100%</td>
+            <td style="text-align: left;">96%</td>
+            <td style="text-align: left;">🟢 Excelente</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Seguridad en obra</td>
+            <td style="text-align: left;">0 accidentes</td>
+            <td style="text-align: left;">0 accidentes</td>
+            <td style="text-align: left;">🟢 Excelente</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="control-de-versiones">🔄 CONTROL DE VERSIONES</h2>
+            <table>
+            <colgroup>
+            <col style="width: 18%" />
+            <col style="width: 14%" />
+            <col style="width: 42%" />
+            <col style="width: 26%" />
+            </colgroup>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Versión</th>
+            <th style="text-align: left;">Fecha</th>
+            <th style="text-align: left;">Cambios Principales</th>
+            <th style="text-align: left;">Responsable</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">1.0</td>
+            <td style="text-align: left;">Enero 2025</td>
+            <td style="text-align: left;">Versión inicial ejecutiva</td>
+            <td style="text-align: left;">Administrador Contractual
+            EPC</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <p><strong>Documento preparado por:</strong> Administrador
+            Contractual EPC<br />
+            <strong>Última actualización:</strong> Enero 2025<br />
+            <strong>Próxima revisión:</strong> Febrero 2025<br />
+            <strong>Basado en:</strong>
+            GESTION_MASTER_Cronograma_y_Recursos_v1.0.md</p>
+            <!-- COCINADO LFC-CLI v1.0 | Fecha: 3/13/2026, 7:41:58 PM | SSOT: DBCD_CRITERIA.md -->
+        </article>
+
+        <footer style="margin-top: 4rem; text-align: center; opacity: 0.5; font-size: 0.8rem;">
+            © 2025 LFC STUDIO | SISTEMA DE COMUNICACIONES Y CONTROL | PTC VIRTUAL SICC
+        </footer>
+    </div>
+
+    <script src="../../../IX. WBS y Planificacion/lfc-terminology.js"></script>
+    <script src="../../../IX. WBS y Planificacion/sidebar-component.js"></script>
 </body>
 </html>

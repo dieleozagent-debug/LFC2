@@ -1,985 +1,978 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>SISTEMA_05_Infraestructura_Operativa_EJECUTIVO</title>
-  <style>
-    html {
-      color: #1a1a1a;
-      background-color: #fdfdfd;
-    }
-    body {
-      margin: 0 auto;
-      max-width: 36em;
-      padding-left: 50px;
-      padding-right: 50px;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      hyphens: auto;
-      overflow-wrap: break-word;
-      text-rendering: optimizeLegibility;
-      font-kerning: normal;
-    }
-    @media (max-width: 600px) {
-      body {
-        font-size: 0.9em;
-        padding: 12px;
-      }
-      h1 {
-        font-size: 1.8em;
-      }
-    }
-    @media print {
-      html {
-        background-color: white;
-      }
-      body {
-        background-color: transparent;
-        color: black;
-        font-size: 12pt;
-      }
-      p, h2, h3 {
-        orphans: 3;
-        widows: 3;
-      }
-      h2, h3, h4 {
-        page-break-after: avoid;
-      }
-    }
-    p {
-      margin: 1em 0;
-    }
-    a {
-      color: #1a1a1a;
-    }
-    a:visited {
-      color: #1a1a1a;
-    }
-    img {
-      max-width: 100%;
-    }
-    svg {
-      height: auto;
-      max-width: 100%;
-    }
-    h1, h2, h3, h4, h5, h6 {
-      margin-top: 1.4em;
-    }
-    h5, h6 {
-      font-size: 1em;
-      font-style: italic;
-    }
-    h6 {
-      font-weight: normal;
-    }
-    ol, ul {
-      padding-left: 1.7em;
-      margin-top: 1em;
-    }
-    li > ol, li > ul {
-      margin-top: 0;
-    }
-    blockquote {
-      margin: 1em 0 1em 1.7em;
-      padding-left: 1em;
-      border-left: 2px solid #e6e6e6;
-      color: #606060;
-    }
-    code {
-      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
-      font-size: 85%;
-      margin: 0;
-      hyphens: manual;
-    }
-    pre {
-      margin: 1em 0;
-      overflow: auto;
-    }
-    pre code {
-      padding: 0;
-      overflow: visible;
-      overflow-wrap: normal;
-    }
-    .sourceCode {
-     background-color: transparent;
-     overflow: visible;
-    }
-    hr {
-      background-color: #1a1a1a;
-      border: none;
-      height: 1px;
-      margin: 1em 0;
-    }
-    table {
-      margin: 1em 0;
-      border-collapse: collapse;
-      width: 100%;
-      overflow-x: auto;
-      display: block;
-      font-variant-numeric: lining-nums tabular-nums;
-    }
-    table caption {
-      margin-bottom: 0.75em;
-    }
-    tbody {
-      margin-top: 0.5em;
-      border-top: 1px solid #1a1a1a;
-      border-bottom: 1px solid #1a1a1a;
-    }
-    th {
-      border-top: 1px solid #1a1a1a;
-      padding: 0.25em 0.5em 0.25em 0.5em;
-    }
-    td {
-      padding: 0.125em 0.5em 0.25em 0.5em;
-    }
-    header {
-      margin-bottom: 4em;
-      text-align: center;
-    }
-    #TOC li {
-      list-style: none;
-    }
-    #TOC ul {
-      padding-left: 1.3em;
-    }
-    #TOC > ul {
-      padding-left: 0;
-    }
-    #TOC a:not(:hover) {
-      text-decoration: none;
-    }
-    code{white-space: pre-wrap;}
-    span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    /* The extra [class] is a hack that increases specificity enough to
-       override a similar rule in reveal.js */
-    ul.task-list[class]{list-style: none;}
-    ul.task-list li input[type="checkbox"] {
-      font-size: inherit;
-      width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
-      vertical-align: middle;
-    }
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SISTEMA 05 Infraestructura Operativa
+EJECUTIVO - LFC STUDIO</title>
+    <link rel="stylesheet" href="../../../IX. WBS y Planificacion/wbs-shared.css">
+    <style>
+        .premium-doc-content {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: var(--border-radius-lg);
+            padding: 3rem;
+            backdrop-filter: var(--glass-blur);
+            box-shadow: var(--glass-shadow);
+        }
+        .premium-doc-content h1, .premium-doc-content h2, .premium-doc-content h3 {
+            color: var(--accent);
+            border-bottom: 1px solid var(--glass-border);
+            padding-bottom: 0.5rem;
+            margin-top: 2rem;
+        }
+        .premium-doc-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+            background: rgba(255,255,255,0.02);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .premium-doc-content th {
+            background: var(--accent-transparent);
+            color: var(--accent);
+            text-align: left;
+            padding: 1rem;
+        }
+        .premium-doc-content td {
+            padding: 1rem;
+            border-bottom: 1px solid var(--glass-border);
+        }
+        .premium-doc-content blockquote {
+            border-left: 4px solid var(--accent);
+            background: var(--accent-soft);
+            padding: 1rem;
+            margin: 1rem 0;
+            font-style: italic;
+        }
+        #TOC {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            padding: 1.5rem;
+            border-radius: var(--border-radius-md);
+            margin-bottom: 2rem;
+        }
+        #TOC ul { list-style: none; padding-left: 1rem; }
+        #TOC a { color: var(--text-main); text-decoration: none; font-size: 0.9rem; }
+        #TOC a:hover { color: var(--accent); }
+    </style>
 </head>
 <body>
-<nav id="TOC" role="doc-toc">
-<ul>
-<li><a href="#sistema-05-infraestructura-operativa"
-id="toc-sistema-05-infraestructura-operativa">SISTEMA 05:
-INFRAESTRUCTURA OPERATIVA</a>
-<ul>
-<li><a href="#documento-ejecutivo-de-ingeniería"
-id="toc-documento-ejecutivo-de-ingeniería">Documento Ejecutivo de
-Ingeniería</a></li>
-<li><a href="#resumen-ejecutivo" id="toc-resumen-ejecutivo">📊 RESUMEN
-EJECUTIVO</a>
-<ul>
-<li><a href="#qué-es-este-sistema-y-por-qué-importa"
-id="toc-qué-es-este-sistema-y-por-qué-importa">Qué es este sistema y por
-qué importa</a></li>
-<li><a href="#alcance-en-números---justificación-técnica"
-id="toc-alcance-en-números---justificación-técnica">Alcance en números -
-JUSTIFICACIÓN TÉCNICA</a></li>
-<li><a href="#hitos-críticos" id="toc-hitos-críticos">Hitos
-críticos</a></li>
-</ul></li>
-<li><a href="#criterios-de-diseño-y-justificaciones-técnicas"
-id="toc-criterios-de-diseño-y-justificaciones-técnicas">🔍 CRITERIOS DE
-DISEÑO Y JUSTIFICACIONES TÉCNICAS</a>
-<ul>
-<li><a href="#por-qué-1-cco-en-la-dorada-específicamente"
-id="toc-por-qué-1-cco-en-la-dorada-específicamente">¿Por qué 1 CCO en La
-Dorada específicamente?</a></li>
-<li><a href="#por-qué-5-estaciones-ence-específicamente"
-id="toc-por-qué-5-estaciones-ence-específicamente">¿Por qué 5 estaciones
-ENCE específicamente?</a></li>
-<li><a href="#por-qué-12-subestaciones-4-principales-8-distribución"
-id="toc-por-qué-12-subestaciones-4-principales-8-distribución">¿Por qué
-12 subestaciones (4 principales + 8 distribución)?</a></li>
-<li><a href="#por-qué-37-estaciones-de-telecomunicaciones"
-id="toc-por-qué-37-estaciones-de-telecomunicaciones">¿Por qué 37
-estaciones de telecomunicaciones?</a></li>
-<li><a href="#por-qué-146-pasos-a-nivel"
-id="toc-por-qué-146-pasos-a-nivel">¿Por qué 146 pasos a nivel?</a></li>
-<li><a href="#por-qué-dimensiones-específicas-del-cco"
-id="toc-por-qué-dimensiones-específicas-del-cco">¿Por qué dimensiones
-específicas del CCO?</a></li>
-<li><a href="#por-qué-disponibilidad-diferenciada"
-id="toc-por-qué-disponibilidad-diferenciada">¿Por qué disponibilidad
-diferenciada?</a></li>
-</ul></li>
-<li><a href="#función-y-propósito-del-sistema"
-id="toc-función-y-propósito-del-sistema">🎯 FUNCIÓN Y PROPÓSITO DEL
-SISTEMA</a>
-<ul>
-<li><a href="#qué-hace-este-sistema" id="toc-qué-hace-este-sistema">¿Qué
-hace este sistema?</a></li>
-<li><a href="#por-qué-lo-necesitamos"
-id="toc-por-qué-lo-necesitamos">¿Por qué lo necesitamos?</a></li>
-<li><a href="#cómo-se-integra-con-otros-sistemas"
-id="toc-cómo-se-integra-con-otros-sistemas">¿Cómo se integra con otros
-sistemas?</a></li>
-</ul></li>
-<li><a href="#componentes-principales"
-id="toc-componentes-principales">🏗️ COMPONENTES PRINCIPALES</a>
-<ul>
-<li><a href="#centro-de-control-operativo-cco---cerebro-del-sistema"
-id="toc-centro-de-control-operativo-cco---cerebro-del-sistema">1. Centro
-de Control Operativo (CCO) - Cerebro del Sistema</a></li>
-<li><a href="#estaciones---puntos-de-servicio"
-id="toc-estaciones---puntos-de-servicio">2. Estaciones - Puntos de
-Servicio</a></li>
-<li><a href="#subestaciones-eléctricas---alimentación"
-id="toc-subestaciones-eléctricas---alimentación">3. Subestaciones
-Eléctricas - Alimentación</a></li>
-<li><a href="#infraestructura-de-soporte---servicios-generales"
-id="toc-infraestructura-de-soporte---servicios-generales">4.
-Infraestructura de Soporte - Servicios Generales</a></li>
-</ul></li>
-<li><a href="#especificaciones-técnicas-clave"
-id="toc-especificaciones-técnicas-clave">📐 ESPECIFICACIONES TÉCNICAS
-CLAVE</a>
-<ul>
-<li><a href="#tabla-consolidada-de-especificaciones"
-id="toc-tabla-consolidada-de-especificaciones">Tabla consolidada de
-especificaciones</a></li>
-<li><a href="#criterios-de-aceptación"
-id="toc-criterios-de-aceptación">Criterios de aceptación</a></li>
-</ul></li>
-<li><a href="#ubicación-y-despliegue" id="toc-ubicación-y-despliegue">📍
-UBICACIÓN Y DESPLIEGUE</a>
-<ul>
-<li><a href="#mapa-de-despliegue" id="toc-mapa-de-despliegue">Mapa de
-despliegue</a></li>
-<li><a href="#tabla-de-sitios-principales"
-id="toc-tabla-de-sitios-principales">Tabla de sitios
-principales</a></li>
-</ul></li>
-<li><a href="#operación-y-mantenimiento"
-id="toc-operación-y-mantenimiento">⚙️ OPERACIÓN Y MANTENIMIENTO</a>
-<ul>
-<li><a href="#operación-normal" id="toc-operación-normal">Operación
-normal</a></li>
-<li><a href="#mantenimiento-preventivo"
-id="toc-mantenimiento-preventivo">Mantenimiento preventivo</a></li>
-<li><a href="#respuesta-a-fallas" id="toc-respuesta-a-fallas">Respuesta
-a fallas</a></li>
-</ul></li>
-<li><a href="#interfaces-con-otros-sistemas"
-id="toc-interfaces-con-otros-sistemas">🔗 INTERFACES CON OTROS
-SISTEMAS</a>
-<ul>
-<li><a href="#diagrama-de-interfaces"
-id="toc-diagrama-de-interfaces">Diagrama de interfaces</a></li>
-<li><a href="#tabla-de-interfaces-críticas"
-id="toc-tabla-de-interfaces-críticas">Tabla de interfaces
-críticas</a></li>
-</ul></li>
-<li><a href="#riesgos-y-mitigaciones" id="toc-riesgos-y-mitigaciones">⚠️
-RIESGOS Y MITIGACIONES</a></li>
-<li><a href="#cumplimiento-contractual"
-id="toc-cumplimiento-contractual">📋 CUMPLIMIENTO CONTRACTUAL</a>
-<ul>
-<li><a href="#obligaciones-clave-del-contrato"
-id="toc-obligaciones-clave-del-contrato">Obligaciones clave del
-contrato</a></li>
-<li><a href="#referencias-contractuales"
-id="toc-referencias-contractuales">Referencias contractuales</a></li>
-</ul></li>
-<li><a href="#documentación-de-soporte"
-id="toc-documentación-de-soporte">📚 DOCUMENTACIÓN DE SOPORTE</a>
-<ul>
-<li><a href="#documentos-técnicos-disponibles"
-id="toc-documentos-técnicos-disponibles">Documentos técnicos
-disponibles</a></li>
-<li><a href="#para-más-información-técnica"
-id="toc-para-más-información-técnica">Para más información
-técnica</a></li>
-</ul></li>
-<li><a href="#contactos-y-responsables"
-id="toc-contactos-y-responsables">📞 CONTACTOS Y RESPONSABLES</a></li>
-<li><a href="#indicadores-de-desempeño-kpis"
-id="toc-indicadores-de-desempeño-kpis">📊 INDICADORES DE DESEMPEÑO
-(KPIs)</a></li>
-<li><a href="#decisiones-tecnicas-aplicadas"
-id="toc-decisiones-tecnicas-aplicadas">📋 DECISIONES TECNICAS
-APLICADAS</a>
-<ul>
-<li><a href="#dt-scada-001002003"
-id="toc-dt-scada-001002003">DT-SCADA-001/002/003</a></li>
-</ul></li>
-<li><a href="#control-de-versiones" id="toc-control-de-versiones">🔄
-CONTROL DE VERSIONES</a></li>
-</ul></li>
-</ul>
-</nav>
-<h1 id="sistema-05-infraestructura-operativa">SISTEMA 05:
-INFRAESTRUCTURA OPERATIVA</h1>
-<h2 id="documento-ejecutivo-de-ingeniería">Documento Ejecutivo de
-Ingeniería</h2>
-<hr />
-<h2 id="resumen-ejecutivo">📊 RESUMEN EJECUTIVO</h2>
-<h3 id="qué-es-este-sistema-y-por-qué-importa">Qué es este sistema y por
-qué importa</h3>
-<p>El Sistema de Infraestructura Operativa es la <strong>“base
-física”</strong> del ferrocarril que proporciona las instalaciones,
-edificaciones y servicios necesarios para la operación del corredor. Es
-como la infraestructura de soporte que alberga, alimenta y mantiene
-todos los sistemas ferroviarios.</p>
-<h3 id="alcance-en-números---justificación-técnica">Alcance en números -
-JUSTIFICACIÓN TÉCNICA</h3>
-<ul>
-<li><strong>Inversión estimada:</strong> $65,000 millones COP</li>
-<li><strong>1 CCO:</strong> Centro de Control Operativo en La Dorada
-(250 m² sala control + 200 m² sala servidores)</li>
-<li><strong>5 estaciones ENCE:</strong> Zapatosa, García Cadena,
-Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México</li>
-<li><strong>12 subestaciones:</strong> 4 principales + 8 de distribución
-para alimentación eléctrica</li>
-<li><strong>37 estaciones telecomunicaciones:</strong> Torres TETRA/RED
-TETRA (Misión Crítica) colocalizadas</li>
-<li><strong>Infraestructura civil:</strong> Edificaciones, puentes, 146
-pasos a nivel, drenaje</li>
-<li><strong>Cobertura:</strong> 100% del corredor + instalaciones de
-soporte</li>
-<li><strong>Disponibilidad requerida:</strong> 99.95% CCO, 99.5%
-estaciones (según AT4)</li>
-</ul>
-<h3 id="hitos-críticos">Hitos críticos</h3>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Fase</th>
-<th style="text-align: left;">Fecha</th>
-<th style="text-align: left;">Estado</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Diseño Conceptual</td>
-<td style="text-align: left;">Enero 2025</td>
-<td style="text-align: left;">✅ Completado</td>
-</tr>
-<tr>
-<td style="text-align: left;">Construcción CCO</td>
-<td style="text-align: left;">Marzo 2025</td>
-<td style="text-align: left;">⏳ En progreso</td>
-</tr>
-<tr>
-<td style="text-align: left;">Construcción Estaciones</td>
-<td style="text-align: left;">Abril 2025</td>
-<td style="text-align: left;">⏳ En progreso</td>
-</tr>
-<tr>
-<td style="text-align: left;">Comisionamiento</td>
-<td style="text-align: left;">Mayo 2025</td>
-<td style="text-align: left;">❌ Pendiente</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="criterios-de-diseño-y-justificaciones-técnicas">🔍 CRITERIOS DE
-DISEÑO Y JUSTIFICACIONES TÉCNICAS</h2>
-<h3 id="por-qué-1-cco-en-la-dorada-específicamente">¿Por qué 1 CCO en La
-Dorada específicamente?</h3>
-<p><strong>Justificación de Ubicación (AT1 UF2 Tabla 16):</strong> -
-<strong>Ubicación:</strong> La Dorada, Caldas (Km 0+000 del corredor) -
-<strong>Área total:</strong> 1,100 m² (850 m² edificio principal + 250
-m² áreas auxiliares) - <strong>Sala de control:</strong> 250 m² con
-consolas de operación y monitoreo - <strong>Sala de servidores:</strong>
-200 m² con equipos críticos y climatización especial -
-<strong>Criterio:</strong> Punto de inicio del corredor, accesibilidad,
-servicios disponibles</p>
-<h3 id="por-qué-5-estaciones-ence-específicamente">¿Por qué 5 estaciones
-ENCE específicamente?</h3>
-<p><strong>Justificación de Ubicaciones:</strong> | Estación | Ubicación
-| Área | Justificación | |:———|:———-|:—–|:————–| |
-<strong>Zapatosa</strong> | Zapatosa | 200 m² | Estación principal con
-maniobras complejas | | <strong>García Cadena</strong> | García Cadena |
-200 m² | Estación principal con maniobras complejas | |
-<strong>Barrancabermeja</strong> | Barrancabermeja | 300 m² | Estación
-principal con maniobras complejas | | <strong>Puerto
-Berrío-Grecia</strong> | Puerto Berrío | 250 m² | Estación principal con
-maniobras complejas | | <strong>La Dorada-México</strong> | La Dorada |
-300 m² | Estación principal con maniobras complejas |</p>
-<p><strong>Criterio de selección:</strong> Solo estaciones con
-conflictos de rutas requieren ENCE</p>
-<h3 id="por-qué-12-subestaciones-4-principales-8-distribución">¿Por qué
-12 subestaciones (4 principales + 8 distribución)?</h3>
-<p><strong>Justificación de Distribución:</strong> - <strong>4
-subestaciones principales:</strong> La Dorada, Puerto Berrío,
-Barrancabermeja, Chiriguaná - <strong>Justificación:</strong> Puntos
-principales de transformación y distribución -
-<strong>Capacidad:</strong> Transformación de alta tensión a media
-tensión - <strong>8 subestaciones de distribución:</strong> Ubicaciones
-intermedias - <strong>Justificación:</strong> Distribución de energía a
-lo largo del corredor - <strong>Capacidad:</strong> Transformación de
-media tensión a baja tensión - <strong>Criterio:</strong> 1 subestación
-cada 75 km aproximadamente</p>
-<h3 id="por-qué-37-estaciones-de-telecomunicaciones">¿Por qué 37
-estaciones de telecomunicaciones?</h3>
-<p><strong>Justificación Técnica:</strong> -
-<strong>Colocalización:</strong> Torres TETRA/RED TETRA (Misión Crítica)
-en las mismas ubicaciones - <strong>Cobertura:</strong> Radio de 15 km
-por estación con solapamiento 20% - <strong>Cálculo:</strong> 594 km ÷
-12 km efectivo = 37 estaciones - <strong>Optimización:</strong>
-Compartir infraestructura (torres, alimentación, respaldo)</p>
-<h3 id="por-qué-146-pasos-a-nivel">¿Por qué 146 pasos a nivel?</h3>
-<p><strong>Justificación Contractual:</strong> - <strong>Inventario
-existente:</strong> 146 pasos a nivel identificados en el corredor -
-<strong>Automatización:</strong> Todos los pasos a nivel con sistemas de
-seguridad - <strong>Criterio:</strong> Cobertura completa del corredor
-ferroviario - <strong>Seguridad:</strong> Sistemas automáticos de
-barreras y señales</p>
-<h3 id="por-qué-dimensiones-específicas-del-cco">¿Por qué dimensiones
-específicas del CCO?</h3>
-<p><strong>Justificación de Áreas (AT1 UF2 Tabla 16):</strong> |
-Componente | Área | Justificación | |:———–|:—–|:————–| | <strong>Sala de
-Control</strong> | 250 m² | Consolas de operación, monitoreo, personal |
-| <strong>Sala de Servidores</strong> | 200 m² | Equipos críticos,
-climatización, respaldo | | <strong>Oficinas</strong> | 150 m² |
-Personal técnico y administrativo | | <strong>Área de Respaldo</strong>
-| 100 m² | Sistemas UPS y generadores | |
-<strong>Estacionamiento</strong> | 500 m² | Personal operativo |</p>
-<h3 id="por-qué-disponibilidad-diferenciada">¿Por qué disponibilidad
-diferenciada?</h3>
-<p><strong>Criterios de Disponibilidad (AT4):</strong> - <strong>99.95%
-CCO:</strong> Sistema crítico para operación ferroviaria - <strong>99.5%
-Estaciones:</strong> Infraestructura general con redundancia -
-<strong>99.95% Subestaciones principales:</strong> Sistemas críticos de
-alimentación - <strong>99.5% Subestaciones distribución:</strong>
-Sistemas auxiliares</p>
-<hr />
-<h2 id="función-y-propósito-del-sistema">🎯 FUNCIÓN Y PROPÓSITO DEL
-SISTEMA</h2>
-<h3 id="qué-hace-este-sistema">¿Qué hace este sistema?</h3>
-<p>El Sistema de Infraestructura Operativa proporciona <strong>soporte
-físico</strong> para la operación ferroviaria: - <strong>Centro de
-Control:</strong> Instalaciones para operación centralizada -
-<strong>Estaciones:</strong> Puntos de parada y servicios para el
-ferrocarril - <strong>Subestaciones:</strong> Alimentación eléctrica
-para sistemas - <strong>Infraestructura de soporte:</strong>
-Edificaciones, accesos, servicios</p>
-<h3 id="por-qué-lo-necesitamos">¿Por qué lo necesitamos?</h3>
-<ul>
-<li><strong>Operación:</strong> Instalaciones para control
-centralizado</li>
-<li><strong>Servicios:</strong> Puntos de atención y mantenimiento</li>
-<li><strong>Alimentación:</strong> Energía eléctrica para todos los
-sistemas</li>
-<li><strong>Soporte:</strong> Infraestructura para personal y
-equipos</li>
-</ul>
-<h3 id="cómo-se-integra-con-otros-sistemas">¿Cómo se integra con otros
-sistemas?</h3>
-<pre><code>[Centro de Control] ←→ [Infraestructura Operativa] ←→ [Estaciones]
+    <div id="lfc-sidebar-container"></div>
+    <div class="main-content-wrapper">
+        <header class="premium-card" style="margin-bottom: 2rem; text-align: center;">
+            <h1 class="premium-title">SISTEMA 05 Infraestructura
+Operativa EJECUTIVO</h1>
+            <p style="opacity: 0.7;">REPORTE EJECUTIVO GENERADO DINÁMICAMENTE | SICC-READY</p>
+        </header>
+
+        <nav id="TOC">
+            <h3 style="margin-top: 0; color: var(--accent);">📍 ÍNDICE DE CONTENIDO</h3>
+            <ul>
+            <li><a href="#sistema-05-infraestructura-operativa"
+            id="toc-sistema-05-infraestructura-operativa">SISTEMA 05:
+            INFRAESTRUCTURA OPERATIVA</a>
+            <ul>
+            <li><a href="#documento-ejecutivo-de-ingeniería"
+            id="toc-documento-ejecutivo-de-ingeniería">Documento
+            Ejecutivo de Ingeniería</a></li>
+            <li><a href="#resumen-ejecutivo"
+            id="toc-resumen-ejecutivo">📊 RESUMEN EJECUTIVO</a>
+            <ul>
+            <li><a href="#qué-es-este-sistema-y-por-qué-importa"
+            id="toc-qué-es-este-sistema-y-por-qué-importa">Qué es este
+            sistema y por qué importa</a></li>
+            <li><a href="#alcance-en-números---justificación-técnica"
+            id="toc-alcance-en-números---justificación-técnica">Alcance
+            en números - JUSTIFICACIÓN TÉCNICA</a></li>
+            <li><a href="#hitos-críticos" id="toc-hitos-críticos">Hitos
+            críticos</a></li>
+            </ul></li>
+            <li><a
+            href="#criterios-de-diseño-y-justificaciones-técnicas"
+            id="toc-criterios-de-diseño-y-justificaciones-técnicas">🔍
+            CRITERIOS DE DISEÑO Y JUSTIFICACIONES TÉCNICAS</a>
+            <ul>
+            <li><a href="#por-qué-1-cco-en-la-dorada-específicamente"
+            id="toc-por-qué-1-cco-en-la-dorada-específicamente">¿Por qué
+            1 CCO en La Dorada específicamente?</a></li>
+            <li><a href="#por-qué-5-estaciones-ence-específicamente"
+            id="toc-por-qué-5-estaciones-ence-específicamente">¿Por qué
+            5 estaciones ENCE específicamente?</a></li>
+            <li><a
+            href="#por-qué-12-subestaciones-4-principales-8-distribución"
+            id="toc-por-qué-12-subestaciones-4-principales-8-distribución">¿Por
+            qué 12 subestaciones (4 principales + 8
+            distribución)?</a></li>
+            <li><a href="#por-qué-37-estaciones-de-telecomunicaciones"
+            id="toc-por-qué-37-estaciones-de-telecomunicaciones">¿Por
+            qué 37 estaciones de telecomunicaciones?</a></li>
+            <li><a href="#por-qué-146-pasos-a-nivel"
+            id="toc-por-qué-146-pasos-a-nivel">¿Por qué 146 pasos a
+            nivel?</a></li>
+            <li><a href="#por-qué-dimensiones-específicas-del-cco"
+            id="toc-por-qué-dimensiones-específicas-del-cco">¿Por qué
+            dimensiones específicas del CCO?</a></li>
+            <li><a href="#por-qué-disponibilidad-diferenciada"
+            id="toc-por-qué-disponibilidad-diferenciada">¿Por qué
+            disponibilidad diferenciada?</a></li>
+            </ul></li>
+            <li><a href="#función-y-propósito-del-sistema"
+            id="toc-función-y-propósito-del-sistema">🎯 FUNCIÓN Y
+            PROPÓSITO DEL SISTEMA</a>
+            <ul>
+            <li><a href="#qué-hace-este-sistema"
+            id="toc-qué-hace-este-sistema">¿Qué hace este
+            sistema?</a></li>
+            <li><a href="#por-qué-lo-necesitamos"
+            id="toc-por-qué-lo-necesitamos">¿Por qué lo
+            necesitamos?</a></li>
+            <li><a href="#cómo-se-integra-con-otros-sistemas"
+            id="toc-cómo-se-integra-con-otros-sistemas">¿Cómo se integra
+            con otros sistemas?</a></li>
+            </ul></li>
+            <li><a href="#componentes-principales"
+            id="toc-componentes-principales">🏗️ COMPONENTES
+            PRINCIPALES</a>
+            <ul>
+            <li><a
+            href="#centro-de-control-operativo-cco---cerebro-del-sistema"
+            id="toc-centro-de-control-operativo-cco---cerebro-del-sistema">1.
+            Centro de Control Operativo (CCO) - Cerebro del
+            Sistema</a></li>
+            <li><a href="#estaciones---puntos-de-servicio"
+            id="toc-estaciones---puntos-de-servicio">2. Estaciones -
+            Puntos de Servicio</a></li>
+            <li><a href="#subestaciones-eléctricas---alimentación"
+            id="toc-subestaciones-eléctricas---alimentación">3.
+            Subestaciones Eléctricas - Alimentación</a></li>
+            <li><a
+            href="#infraestructura-de-soporte---servicios-generales"
+            id="toc-infraestructura-de-soporte---servicios-generales">4.
+            Infraestructura de Soporte - Servicios Generales</a></li>
+            </ul></li>
+            <li><a href="#especificaciones-técnicas-clave"
+            id="toc-especificaciones-técnicas-clave">📐 ESPECIFICACIONES
+            TÉCNICAS CLAVE</a>
+            <ul>
+            <li><a href="#tabla-consolidada-de-especificaciones"
+            id="toc-tabla-consolidada-de-especificaciones">Tabla
+            consolidada de especificaciones</a></li>
+            <li><a href="#criterios-de-aceptación"
+            id="toc-criterios-de-aceptación">Criterios de
+            aceptación</a></li>
+            </ul></li>
+            <li><a href="#ubicación-y-despliegue"
+            id="toc-ubicación-y-despliegue">📍 UBICACIÓN Y
+            DESPLIEGUE</a>
+            <ul>
+            <li><a href="#mapa-de-despliegue"
+            id="toc-mapa-de-despliegue">Mapa de despliegue</a></li>
+            <li><a href="#tabla-de-sitios-principales"
+            id="toc-tabla-de-sitios-principales">Tabla de sitios
+            principales</a></li>
+            </ul></li>
+            <li><a href="#operación-y-mantenimiento"
+            id="toc-operación-y-mantenimiento">⚙️ OPERACIÓN Y
+            MANTENIMIENTO</a>
+            <ul>
+            <li><a href="#operación-normal"
+            id="toc-operación-normal">Operación normal</a></li>
+            <li><a href="#mantenimiento-preventivo"
+            id="toc-mantenimiento-preventivo">Mantenimiento
+            preventivo</a></li>
+            <li><a href="#respuesta-a-fallas"
+            id="toc-respuesta-a-fallas">Respuesta a fallas</a></li>
+            </ul></li>
+            <li><a href="#interfaces-con-otros-sistemas"
+            id="toc-interfaces-con-otros-sistemas">🔗 INTERFACES CON
+            OTROS SISTEMAS</a>
+            <ul>
+            <li><a href="#diagrama-de-interfaces"
+            id="toc-diagrama-de-interfaces">Diagrama de
+            interfaces</a></li>
+            <li><a href="#tabla-de-interfaces-críticas"
+            id="toc-tabla-de-interfaces-críticas">Tabla de interfaces
+            críticas</a></li>
+            </ul></li>
+            <li><a href="#riesgos-y-mitigaciones"
+            id="toc-riesgos-y-mitigaciones">⚠️ RIESGOS Y
+            MITIGACIONES</a></li>
+            <li><a href="#cumplimiento-contractual"
+            id="toc-cumplimiento-contractual">📋 CUMPLIMIENTO
+            CONTRACTUAL</a>
+            <ul>
+            <li><a href="#obligaciones-clave-del-contrato"
+            id="toc-obligaciones-clave-del-contrato">Obligaciones clave
+            del contrato</a></li>
+            <li><a href="#referencias-contractuales"
+            id="toc-referencias-contractuales">Referencias
+            contractuales</a></li>
+            </ul></li>
+            <li><a href="#documentación-de-soporte"
+            id="toc-documentación-de-soporte">📚 DOCUMENTACIÓN DE
+            SOPORTE</a>
+            <ul>
+            <li><a href="#documentos-técnicos-disponibles"
+            id="toc-documentos-técnicos-disponibles">Documentos técnicos
+            disponibles</a></li>
+            <li><a href="#para-más-información-técnica"
+            id="toc-para-más-información-técnica">Para más información
+            técnica</a></li>
+            </ul></li>
+            <li><a href="#contactos-y-responsables"
+            id="toc-contactos-y-responsables">📞 CONTACTOS Y
+            RESPONSABLES</a></li>
+            <li><a href="#indicadores-de-desempeño-kpis"
+            id="toc-indicadores-de-desempeño-kpis">📊 INDICADORES DE
+            DESEMPEÑO (KPIs)</a></li>
+            <li><a href="#decisiones-tecnicas-aplicadas"
+            id="toc-decisiones-tecnicas-aplicadas">📋 DECISIONES
+            TECNICAS APLICADAS</a>
+            <ul>
+            <li><a href="#dt-scada-001002003"
+            id="toc-dt-scada-001002003">DT-SCADA-001/002/003</a></li>
+            </ul></li>
+            <li><a href="#control-de-versiones"
+            id="toc-control-de-versiones">🔄 CONTROL DE
+            VERSIONES</a></li>
+            </ul></li>
+            </ul>
+        </nav>
+
+        <article class="premium-doc-content">
+            <h1 id="sistema-05-infraestructura-operativa">SISTEMA 05:
+            INFRAESTRUCTURA OPERATIVA</h1>
+            <h2 id="documento-ejecutivo-de-ingeniería">Documento
+            Ejecutivo de Ingeniería</h2>
+            <hr />
+            <h2 id="resumen-ejecutivo">📊 RESUMEN EJECUTIVO</h2>
+            <h3 id="qué-es-este-sistema-y-por-qué-importa">Qué es este
+            sistema y por qué importa</h3>
+            <p>El Sistema de Infraestructura Operativa es la
+            <strong>“base física”</strong> del ferrocarril que
+            proporciona las instalaciones, edificaciones y servicios
+            necesarios para la operación del corredor. Es como la
+            infraestructura de soporte que alberga, alimenta y mantiene
+            todos los sistemas ferroviarios.</p>
+            <h3 id="alcance-en-números---justificación-técnica">Alcance
+            en números - JUSTIFICACIÓN TÉCNICA</h3>
+            <ul>
+            <li><strong>Inversión estimada:</strong> $65,000 millones
+            COP</li>
+            <li><strong>1 CCO:</strong> Centro de Control Operativo en
+            La Dorada (250 m² sala control + 200 m² sala
+            servidores)</li>
+            <li><strong>5 estaciones ENCE:</strong> Zapatosa, García
+            Cadena, Barrancabermeja, Puerto Berrío-Grecia, La
+            Dorada-México</li>
+            <li><strong>12 subestaciones:</strong> 4 principales + 8 de
+            distribución para alimentación eléctrica</li>
+            <li><strong>37 estaciones telecomunicaciones:</strong>
+            Torres TETRA/RED TETRA (Misión Crítica) colocalizadas</li>
+            <li><strong>Infraestructura civil:</strong> Edificaciones,
+            puentes, 146 pasos a nivel, drenaje</li>
+            <li><strong>Cobertura:</strong> 100% del corredor +
+            instalaciones de soporte</li>
+            <li><strong>Disponibilidad requerida:</strong> 99.95% CCO,
+            99.5% estaciones (según AT4)</li>
+            </ul>
+            <h3 id="hitos-críticos">Hitos críticos</h3>
+            <table>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Fase</th>
+            <th style="text-align: left;">Fecha</th>
+            <th style="text-align: left;">Estado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">Diseño Conceptual</td>
+            <td style="text-align: left;">Enero 2025</td>
+            <td style="text-align: left;">✅ Completado</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Construcción CCO</td>
+            <td style="text-align: left;">Marzo 2025</td>
+            <td style="text-align: left;">⏳ En progreso</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Construcción Estaciones</td>
+            <td style="text-align: left;">Abril 2025</td>
+            <td style="text-align: left;">⏳ En progreso</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Comisionamiento</td>
+            <td style="text-align: left;">Mayo 2025</td>
+            <td style="text-align: left;">❌ Pendiente</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="criterios-de-diseño-y-justificaciones-técnicas">🔍
+            CRITERIOS DE DISEÑO Y JUSTIFICACIONES TÉCNICAS</h2>
+            <h3 id="por-qué-1-cco-en-la-dorada-específicamente">¿Por qué
+            1 CCO en La Dorada específicamente?</h3>
+            <p><strong>Justificación de Ubicación (AT1 UF2 Tabla
+            16):</strong> - <strong>Ubicación:</strong> La Dorada,
+            Caldas (Km 0+000 del corredor) - <strong>Área
+            total:</strong> 1,100 m² (850 m² edificio principal + 250 m²
+            áreas auxiliares) - <strong>Sala de control:</strong> 250 m²
+            con consolas de operación y monitoreo - <strong>Sala de
+            servidores:</strong> 200 m² con equipos críticos y
+            climatización especial - <strong>Criterio:</strong> Punto de
+            inicio del corredor, accesibilidad, servicios
+            disponibles</p>
+            <h3 id="por-qué-5-estaciones-ence-específicamente">¿Por qué
+            5 estaciones ENCE específicamente?</h3>
+            <p><strong>Justificación de Ubicaciones:</strong> | Estación
+            | Ubicación | Área | Justificación | |:———|:———-|:—–|:————–|
+            | <strong>Zapatosa</strong> | Zapatosa | 200 m² | Estación
+            principal con maniobras complejas | | <strong>García
+            Cadena</strong> | García Cadena | 200 m² | Estación
+            principal con maniobras complejas | |
+            <strong>Barrancabermeja</strong> | Barrancabermeja | 300 m²
+            | Estación principal con maniobras complejas | |
+            <strong>Puerto Berrío-Grecia</strong> | Puerto Berrío | 250
+            m² | Estación principal con maniobras complejas | |
+            <strong>La Dorada-México</strong> | La Dorada | 300 m² |
+            Estación principal con maniobras complejas |</p>
+            <p><strong>Criterio de selección:</strong> Solo estaciones
+            con conflictos de rutas requieren ENCE</p>
+            <h3
+            id="por-qué-12-subestaciones-4-principales-8-distribución">¿Por
+            qué 12 subestaciones (4 principales + 8 distribución)?</h3>
+            <p><strong>Justificación de Distribución:</strong> -
+            <strong>4 subestaciones principales:</strong> La Dorada,
+            Puerto Berrío, Barrancabermeja, Chiriguaná -
+            <strong>Justificación:</strong> Puntos principales de
+            transformación y distribución - <strong>Capacidad:</strong>
+            Transformación de alta tensión a media tensión - <strong>8
+            subestaciones de distribución:</strong> Ubicaciones
+            intermedias - <strong>Justificación:</strong> Distribución
+            de energía a lo largo del corredor -
+            <strong>Capacidad:</strong> Transformación de media tensión
+            a baja tensión - <strong>Criterio:</strong> 1 subestación
+            cada 75 km aproximadamente</p>
+            <h3 id="por-qué-37-estaciones-de-telecomunicaciones">¿Por
+            qué 37 estaciones de telecomunicaciones?</h3>
+            <p><strong>Justificación Técnica:</strong> -
+            <strong>Colocalización:</strong> Torres TETRA/RED TETRA
+            (Misión Crítica) en las mismas ubicaciones -
+            <strong>Cobertura:</strong> Radio de 15 km por estación con
+            solapamiento 20% - <strong>Cálculo:</strong> 594 km ÷ 12 km
+            efectivo = 37 estaciones - <strong>Optimización:</strong>
+            Compartir infraestructura (torres, alimentación,
+            respaldo)</p>
+            <h3 id="por-qué-146-pasos-a-nivel">¿Por qué 146 pasos a
+            nivel?</h3>
+            <p><strong>Justificación Contractual:</strong> -
+            <strong>Inventario existente:</strong> 146 pasos a nivel
+            identificados en el corredor -
+            <strong>Automatización:</strong> Todos los pasos a nivel con
+            sistemas de seguridad - <strong>Criterio:</strong> Cobertura
+            completa del corredor ferroviario -
+            <strong>Seguridad:</strong> Sistemas automáticos de barreras
+            y señales</p>
+            <h3 id="por-qué-dimensiones-específicas-del-cco">¿Por qué
+            dimensiones específicas del CCO?</h3>
+            <p><strong>Justificación de Áreas (AT1 UF2 Tabla
+            16):</strong> | Componente | Área | Justificación |
+            |:———–|:—–|:————–| | <strong>Sala de Control</strong> | 250
+            m² | Consolas de operación, monitoreo, personal | |
+            <strong>Sala de Servidores</strong> | 200 m² | Equipos
+            críticos, climatización, respaldo | |
+            <strong>Oficinas</strong> | 150 m² | Personal técnico y
+            administrativo | | <strong>Área de Respaldo</strong> | 100
+            m² | Sistemas UPS y generadores | |
+            <strong>Estacionamiento</strong> | 500 m² | Personal
+            operativo |</p>
+            <h3 id="por-qué-disponibilidad-diferenciada">¿Por qué
+            disponibilidad diferenciada?</h3>
+            <p><strong>Criterios de Disponibilidad (AT4):</strong> -
+            <strong>99.95% CCO:</strong> Sistema crítico para operación
+            ferroviaria - <strong>99.5% Estaciones:</strong>
+            Infraestructura general con redundancia - <strong>99.95%
+            Subestaciones principales:</strong> Sistemas críticos de
+            alimentación - <strong>99.5% Subestaciones
+            distribución:</strong> Sistemas auxiliares</p>
+            <hr />
+            <h2 id="función-y-propósito-del-sistema">🎯 FUNCIÓN Y
+            PROPÓSITO DEL SISTEMA</h2>
+            <h3 id="qué-hace-este-sistema">¿Qué hace este sistema?</h3>
+            <p>El Sistema de Infraestructura Operativa proporciona
+            <strong>soporte físico</strong> para la operación
+            ferroviaria: - <strong>Centro de Control:</strong>
+            Instalaciones para operación centralizada -
+            <strong>Estaciones:</strong> Puntos de parada y servicios
+            para el ferrocarril - <strong>Subestaciones:</strong>
+            Alimentación eléctrica para sistemas -
+            <strong>Infraestructura de soporte:</strong> Edificaciones,
+            accesos, servicios</p>
+            <h3 id="por-qué-lo-necesitamos">¿Por qué lo
+            necesitamos?</h3>
+            <ul>
+            <li><strong>Operación:</strong> Instalaciones para control
+            centralizado</li>
+            <li><strong>Servicios:</strong> Puntos de atención y
+            mantenimiento</li>
+            <li><strong>Alimentación:</strong> Energía eléctrica para
+            todos los sistemas</li>
+            <li><strong>Soporte:</strong> Infraestructura para personal
+            y equipos</li>
+            </ul>
+            <h3 id="cómo-se-integra-con-otros-sistemas">¿Cómo se integra
+            con otros sistemas?</h3>
+            <pre><code>[Centro de Control] ←→ [Infraestructura Operativa] ←→ [Estaciones]
                                     ↓
 [Subestaciones] ←→ [Infraestructura Operativa] ←→ [Servicios]
                                     ↓
 [Soporte] ←→ [Infraestructura Operativa] ←→ [Accesos]</code></pre>
-<hr />
-<h2 id="componentes-principales">🏗️ COMPONENTES PRINCIPALES</h2>
-<h3 id="centro-de-control-operativo-cco---cerebro-del-sistema">1. Centro
-de Control Operativo (CCO) - Cerebro del Sistema</h3>
-<p><strong>Propósito:</strong> Control centralizado de toda la operación
-ferroviaria</p>
-<p><strong>Componentes instalados:</strong> | Componente | Cantidad |
-Especificación | Estado | |:———–|:———|:—————|:——-| | Edificio principal
-| 1 unidad | 2,500 m², 3 pisos | ⏳ En construcción | | Sala de control
-| 1 unidad | 500 m², videowall | ⏳ En construcción | | Salas técnicas |
-8 unidades | 200 m² cada una | ⏳ En construcción | | Oficinas
-administrativas | 15 unidades | 50 m² cada una | ⏳ En construcción | |
-Área de respaldo | 1 unidad | 300 m² | ⏳ En construcción |</p>
-<p><strong>Estado general:</strong> 🟡 En progreso</p>
-<h3 id="estaciones---puntos-de-servicio">2. Estaciones - Puntos de
-Servicio</h3>
-<p><strong>Propósito:</strong> Puntos de parada y servicios a lo largo
-del corredor</p>
-<p><strong>Componentes instalados:</strong> | Componente | Cantidad |
-Ubicación | Estado | |:———–|:———|:———-|:——-| | Estaciones principales |
-5 unidades | La Dorada, Puerto Berrío, Barrancabermeja, Bucaramanga,
-Chiriguaná | ⏳ En construcción | | Estaciones secundarias | 32 unidades
-| Ubicaciones intermedias | ⏳ En construcción | | Andenes | 74 unidades
-| En todas las estaciones | ⏳ En construcción | | Edificios de estación
-| 37 unidades | Servicios y oficinas | ⏳ En construcción | | Sistemas
-de iluminación | 37 unidades | LED de alta eficiencia | ⏳ En
-construcción |</p>
-<p><strong>Estado general:</strong> 🟡 En progreso</p>
-<h3 id="subestaciones-eléctricas---alimentación">3. Subestaciones
-Eléctricas - Alimentación</h3>
-<p><strong>Propósito:</strong> Alimentación eléctrica para todos los
-sistemas</p>
-<p><strong>Componentes instalados:</strong> | Componente | Cantidad |
-Especificación | Estado | |:———–|:———|:—————|:——-| | Subestaciones
-principales | 8 unidades | 25 kV, 50 MVA | ⏳ En construcción | |
-Transformadores | 16 unidades | 25 kV/0.4 kV | ⏳ En construcción | |
-Sistemas de respaldo | 8 unidades | UPS + Generadores | ⏳ En
-construcción | | Sistemas de puesta a tierra | 8 unidades | Protección
-contra rayos | ⏳ En construcción | | Sistemas de monitoreo | 8 unidades
-| SCADA eléctrico | ⏳ En construcción |</p>
-<p><strong>Estado general:</strong> 🟡 En progreso</p>
-<h3 id="infraestructura-de-soporte---servicios-generales">4.
-Infraestructura de Soporte - Servicios Generales</h3>
-<p><strong>Propósito:</strong> Servicios de soporte para la
-operación</p>
-<p><strong>Componentes instalados:</strong> | Componente | Cantidad |
-Ubicación | Estado | |:———–|:———|:———-|:——-| | Talleres de mantenimiento
-| 3 unidades | La Dorada, Chiriguaná, Puerto Berrío | ✅ Operativos | |
-Bodegas de almacenamiento | 5 unidades | Ubicaciones estratégicas | ✅
-Operativas | | Oficinas administrativas | 8 unidades | Estaciones
-principales | ⏳ En construcción | | Sistemas de drenaje | 37 unidades |
-En todas las estaciones | ⏳ En construcción | | Sistemas de iluminación
-| 37 unidades | LED de alta eficiencia | ⏳ En construcción |</p>
-<p><strong>Estado general:</strong> 🟡 En progreso</p>
-<hr />
-<h2 id="especificaciones-técnicas-clave">📐 ESPECIFICACIONES TÉCNICAS
-CLAVE</h2>
-<h3 id="tabla-consolidada-de-especificaciones">Tabla consolidada de
-especificaciones</h3>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Parámetro</th>
-<th style="text-align: left;">Valor</th>
-<th style="text-align: left;">Estándar Aplicable</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Capacidad CCO</td>
-<td style="text-align: left;">500 operadores</td>
-<td style="text-align: left;">NSR-10</td>
-</tr>
-<tr>
-<td style="text-align: left;">Capacidad subestaciones</td>
-<td style="text-align: left;">50 MVA</td>
-<td style="text-align: left;">RETIE</td>
-</tr>
-<tr>
-<td style="text-align: left;">Tensión de operación</td>
-<td style="text-align: left;">25 kV</td>
-<td style="text-align: left;">RETIE</td>
-</tr>
-<tr>
-<td style="text-align: left;">Disponibilidad CCO</td>
-<td style="text-align: left;">99.95%</td>
-<td style="text-align: left;">EN 50126</td>
-</tr>
-<tr>
-<td style="text-align: left;">Disponibilidad subestaciones</td>
-<td style="text-align: left;">99.95%</td>
-<td style="text-align: left;">RETIE</td>
-</tr>
-<tr>
-<td style="text-align: left;">Eficiencia energética</td>
-<td style="text-align: left;">90%</td>
-<td style="text-align: left;">RETIE</td>
-</tr>
-</tbody>
-</table>
-<h3 id="criterios-de-aceptación">Criterios de aceptación</h3>
-<ul>
-<li>✅ CCO con capacidad para 500 operadores</li>
-<li>✅ 37 estaciones con servicios completos</li>
-<li>✅ 8 subestaciones de 25 kV</li>
-<li>✅ Disponibilidad 99.95% de infraestructura crítica</li>
-<li>✅ Cumplimiento normativo NSR-10 y RETIE</li>
-</ul>
-<hr />
-<h2 id="ubicación-y-despliegue">📍 UBICACIÓN Y DESPLIEGUE</h2>
-<h3 id="mapa-de-despliegue">Mapa de despliegue</h3>
-<p>La infraestructura operativa se despliega a lo largo del corredor de
-594 km, con concentración en La Dorada (CCO), estaciones principales y
-ubicaciones estratégicas.</p>
-<h3 id="tabla-de-sitios-principales">Tabla de sitios principales</h3>
-<table>
-<colgroup>
-<col style="width: 17%" />
-<col style="width: 32%" />
-<col style="width: 30%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Sitio</th>
-<th style="text-align: left;">Componentes</th>
-<th style="text-align: left;">Capacidad</th>
-<th style="text-align: left;">Estado</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">CCO La Dorada</td>
-<td style="text-align: left;">Centro de control, oficinas,
-servicios</td>
-<td style="text-align: left;">500 operadores</td>
-<td style="text-align: left;">⏳ En construcción</td>
-</tr>
-<tr>
-<td style="text-align: left;">Estación La Dorada</td>
-<td style="text-align: left;">Estación principal, servicios</td>
-<td style="text-align: left;">100 usuarios</td>
-<td style="text-align: left;">⏳ En construcción</td>
-</tr>
-<tr>
-<td style="text-align: left;">Estación Puerto Berrío</td>
-<td style="text-align: left;">Estación principal, servicios</td>
-<td style="text-align: left;">100 usuarios</td>
-<td style="text-align: left;">⏳ En construcción</td>
-</tr>
-<tr>
-<td style="text-align: left;">Estación Barrancabermeja</td>
-<td style="text-align: left;">Estación principal, servicios</td>
-<td style="text-align: left;">100 usuarios</td>
-<td style="text-align: left;">⏳ En construcción</td>
-</tr>
-<tr>
-<td style="text-align: left;">Estación Bucaramanga</td>
-<td style="text-align: left;">Estación principal, servicios</td>
-<td style="text-align: left;">100 usuarios</td>
-<td style="text-align: left;">⏳ En construcción</td>
-</tr>
-<tr>
-<td style="text-align: left;">Estación Chiriguaná</td>
-<td style="text-align: left;">Estación principal, servicios</td>
-<td style="text-align: left;">100 usuarios</td>
-<td style="text-align: left;">⏳ En construcción</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="operación-y-mantenimiento">⚙️ OPERACIÓN Y MANTENIMIENTO</h2>
-<h3 id="operación-normal">Operación normal</h3>
-<p>La infraestructura operativa funciona 24/7 proporcionando soporte
-para la operación ferroviaria, con monitoreo continuo de la
-disponibilidad y rendimiento de las instalaciones.</p>
-<h3 id="mantenimiento-preventivo">Mantenimiento preventivo</h3>
-<ul>
-<li><strong>Diario:</strong> Verificación de estado de instalaciones y
-servicios</li>
-<li><strong>Semanal:</strong> Inspección detallada de sistemas
-eléctricos</li>
-<li><strong>Mensual:</strong> Mantenimiento preventivo de equipos</li>
-<li><strong>Trimestral:</strong> Mantenimiento mayor de
-infraestructura</li>
-</ul>
-<h3 id="respuesta-a-fallas">Respuesta a fallas</h3>
-<ol type="1">
-<li><strong>Detección automática</strong> de fallas por sistemas de
-monitoreo</li>
-<li><strong>Notificación inmediata</strong> al personal de
-mantenimiento</li>
-<li><strong>Conmutación automática</strong> a sistemas de respaldo</li>
-<li><strong>Reparación</strong> según procedimientos establecidos</li>
-<li><strong>Verificación</strong> de funcionamiento normal</li>
-</ol>
-<hr />
-<h2 id="interfaces-con-otros-sistemas">🔗 INTERFACES CON OTROS
-SISTEMAS</h2>
-<h3 id="diagrama-de-interfaces">Diagrama de interfaces</h3>
-<pre><code>[Centro de Control] ←→ [Infraestructura Operativa] ←→ [Estaciones]
+            <hr />
+            <h2 id="componentes-principales">🏗️ COMPONENTES
+            PRINCIPALES</h2>
+            <h3
+            id="centro-de-control-operativo-cco---cerebro-del-sistema">1.
+            Centro de Control Operativo (CCO) - Cerebro del Sistema</h3>
+            <p><strong>Propósito:</strong> Control centralizado de toda
+            la operación ferroviaria</p>
+            <p><strong>Componentes instalados:</strong> | Componente |
+            Cantidad | Especificación | Estado |
+            |:———–|:———|:—————|:——-| | Edificio principal | 1 unidad |
+            2,500 m², 3 pisos | ⏳ En construcción | | Sala de control |
+            1 unidad | 500 m², videowall | ⏳ En construcción | | Salas
+            técnicas | 8 unidades | 200 m² cada una | ⏳ En construcción
+            | | Oficinas administrativas | 15 unidades | 50 m² cada una
+            | ⏳ En construcción | | Área de respaldo | 1 unidad | 300
+            m² | ⏳ En construcción |</p>
+            <p><strong>Estado general:</strong> 🟡 En progreso</p>
+            <h3 id="estaciones---puntos-de-servicio">2. Estaciones -
+            Puntos de Servicio</h3>
+            <p><strong>Propósito:</strong> Puntos de parada y servicios
+            a lo largo del corredor</p>
+            <p><strong>Componentes instalados:</strong> | Componente |
+            Cantidad | Ubicación | Estado | |:———–|:———|:———-|:——-| |
+            Estaciones principales | 5 unidades | La Dorada, Puerto
+            Berrío, Barrancabermeja, Bucaramanga, Chiriguaná | ⏳ En
+            construcción | | Estaciones secundarias | 32 unidades |
+            Ubicaciones intermedias | ⏳ En construcción | | Andenes |
+            74 unidades | En todas las estaciones | ⏳ En construcción |
+            | Edificios de estación | 37 unidades | Servicios y oficinas
+            | ⏳ En construcción | | Sistemas de iluminación | 37
+            unidades | LED de alta eficiencia | ⏳ En construcción |</p>
+            <p><strong>Estado general:</strong> 🟡 En progreso</p>
+            <h3 id="subestaciones-eléctricas---alimentación">3.
+            Subestaciones Eléctricas - Alimentación</h3>
+            <p><strong>Propósito:</strong> Alimentación eléctrica para
+            todos los sistemas</p>
+            <p><strong>Componentes instalados:</strong> | Componente |
+            Cantidad | Especificación | Estado |
+            |:———–|:———|:—————|:——-| | Subestaciones principales | 8
+            unidades | 25 kV, 50 MVA | ⏳ En construcción | |
+            Transformadores | 16 unidades | 25 kV/0.4 kV | ⏳ En
+            construcción | | Sistemas de respaldo | 8 unidades | UPS +
+            Generadores | ⏳ En construcción | | Sistemas de puesta a
+            tierra | 8 unidades | Protección contra rayos | ⏳ En
+            construcción | | Sistemas de monitoreo | 8 unidades | SCADA
+            eléctrico | ⏳ En construcción |</p>
+            <p><strong>Estado general:</strong> 🟡 En progreso</p>
+            <h3 id="infraestructura-de-soporte---servicios-generales">4.
+            Infraestructura de Soporte - Servicios Generales</h3>
+            <p><strong>Propósito:</strong> Servicios de soporte para la
+            operación</p>
+            <p><strong>Componentes instalados:</strong> | Componente |
+            Cantidad | Ubicación | Estado | |:———–|:———|:———-|:——-| |
+            Talleres de mantenimiento | 3 unidades | La Dorada,
+            Chiriguaná, Puerto Berrío | ✅ Operativos | | Bodegas de
+            almacenamiento | 5 unidades | Ubicaciones estratégicas | ✅
+            Operativas | | Oficinas administrativas | 8 unidades |
+            Estaciones principales | ⏳ En construcción | | Sistemas de
+            drenaje | 37 unidades | En todas las estaciones | ⏳ En
+            construcción | | Sistemas de iluminación | 37 unidades | LED
+            de alta eficiencia | ⏳ En construcción |</p>
+            <p><strong>Estado general:</strong> 🟡 En progreso</p>
+            <hr />
+            <h2 id="especificaciones-técnicas-clave">📐 ESPECIFICACIONES
+            TÉCNICAS CLAVE</h2>
+            <h3 id="tabla-consolidada-de-especificaciones">Tabla
+            consolidada de especificaciones</h3>
+            <table>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Parámetro</th>
+            <th style="text-align: left;">Valor</th>
+            <th style="text-align: left;">Estándar Aplicable</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">Capacidad CCO</td>
+            <td style="text-align: left;">500 operadores</td>
+            <td style="text-align: left;">NSR-10</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Capacidad subestaciones</td>
+            <td style="text-align: left;">50 MVA</td>
+            <td style="text-align: left;">RETIE</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Tensión de operación</td>
+            <td style="text-align: left;">25 kV</td>
+            <td style="text-align: left;">RETIE</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Disponibilidad CCO</td>
+            <td style="text-align: left;">99.95%</td>
+            <td style="text-align: left;">EN 50126</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Disponibilidad
+            subestaciones</td>
+            <td style="text-align: left;">99.95%</td>
+            <td style="text-align: left;">RETIE</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Eficiencia energética</td>
+            <td style="text-align: left;">90%</td>
+            <td style="text-align: left;">RETIE</td>
+            </tr>
+            </tbody>
+            </table>
+            <h3 id="criterios-de-aceptación">Criterios de
+            aceptación</h3>
+            <ul>
+            <li>✅ CCO con capacidad para 500 operadores</li>
+            <li>✅ 37 estaciones con servicios completos</li>
+            <li>✅ 8 subestaciones de 25 kV</li>
+            <li>✅ Disponibilidad 99.95% de infraestructura crítica</li>
+            <li>✅ Cumplimiento normativo NSR-10 y RETIE</li>
+            </ul>
+            <hr />
+            <h2 id="ubicación-y-despliegue">📍 UBICACIÓN Y
+            DESPLIEGUE</h2>
+            <h3 id="mapa-de-despliegue">Mapa de despliegue</h3>
+            <p>La infraestructura operativa se despliega a lo largo del
+            corredor de 594 km, con concentración en La Dorada (CCO),
+            estaciones principales y ubicaciones estratégicas.</p>
+            <h3 id="tabla-de-sitios-principales">Tabla de sitios
+            principales</h3>
+            <table>
+            <colgroup>
+            <col style="width: 17%" />
+            <col style="width: 32%" />
+            <col style="width: 30%" />
+            <col style="width: 20%" />
+            </colgroup>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Sitio</th>
+            <th style="text-align: left;">Componentes</th>
+            <th style="text-align: left;">Capacidad</th>
+            <th style="text-align: left;">Estado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">CCO La Dorada</td>
+            <td style="text-align: left;">Centro de control, oficinas,
+            servicios</td>
+            <td style="text-align: left;">500 operadores</td>
+            <td style="text-align: left;">⏳ En construcción</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Estación La Dorada</td>
+            <td style="text-align: left;">Estación principal,
+            servicios</td>
+            <td style="text-align: left;">100 usuarios</td>
+            <td style="text-align: left;">⏳ En construcción</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Estación Puerto Berrío</td>
+            <td style="text-align: left;">Estación principal,
+            servicios</td>
+            <td style="text-align: left;">100 usuarios</td>
+            <td style="text-align: left;">⏳ En construcción</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Estación Barrancabermeja</td>
+            <td style="text-align: left;">Estación principal,
+            servicios</td>
+            <td style="text-align: left;">100 usuarios</td>
+            <td style="text-align: left;">⏳ En construcción</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Estación Bucaramanga</td>
+            <td style="text-align: left;">Estación principal,
+            servicios</td>
+            <td style="text-align: left;">100 usuarios</td>
+            <td style="text-align: left;">⏳ En construcción</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Estación Chiriguaná</td>
+            <td style="text-align: left;">Estación principal,
+            servicios</td>
+            <td style="text-align: left;">100 usuarios</td>
+            <td style="text-align: left;">⏳ En construcción</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="operación-y-mantenimiento">⚙️ OPERACIÓN Y
+            MANTENIMIENTO</h2>
+            <h3 id="operación-normal">Operación normal</h3>
+            <p>La infraestructura operativa funciona 24/7 proporcionando
+            soporte para la operación ferroviaria, con monitoreo
+            continuo de la disponibilidad y rendimiento de las
+            instalaciones.</p>
+            <h3 id="mantenimiento-preventivo">Mantenimiento
+            preventivo</h3>
+            <ul>
+            <li><strong>Diario:</strong> Verificación de estado de
+            instalaciones y servicios</li>
+            <li><strong>Semanal:</strong> Inspección detallada de
+            sistemas eléctricos</li>
+            <li><strong>Mensual:</strong> Mantenimiento preventivo de
+            equipos</li>
+            <li><strong>Trimestral:</strong> Mantenimiento mayor de
+            infraestructura</li>
+            </ul>
+            <h3 id="respuesta-a-fallas">Respuesta a fallas</h3>
+            <ol type="1">
+            <li><strong>Detección automática</strong> de fallas por
+            sistemas de monitoreo</li>
+            <li><strong>Notificación inmediata</strong> al personal de
+            mantenimiento</li>
+            <li><strong>Conmutación automática</strong> a sistemas de
+            respaldo</li>
+            <li><strong>Reparación</strong> según procedimientos
+            establecidos</li>
+            <li><strong>Verificación</strong> de funcionamiento
+            normal</li>
+            </ol>
+            <hr />
+            <h2 id="interfaces-con-otros-sistemas">🔗 INTERFACES CON
+            OTROS SISTEMAS</h2>
+            <h3 id="diagrama-de-interfaces">Diagrama de interfaces</h3>
+            <pre><code>[Centro de Control] ←→ [Infraestructura Operativa] ←→ [Estaciones]
                                     ↓
 [Subestaciones] ←→ [Infraestructura Operativa] ←→ [Servicios]
                                     ↓
 [Soporte] ←→ [Infraestructura Operativa] ←→ [Accesos]</code></pre>
-<h3 id="tabla-de-interfaces-críticas">Tabla de interfaces críticas</h3>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Sistema</th>
-<th style="text-align: left;">Tipo de Interfaz</th>
-<th style="text-align: left;">Criticidad</th>
-<th style="text-align: left;">Responsable</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Centro de Control</td>
-<td style="text-align: left;">CTC Virtual</td>
-<td style="text-align: left;">Alta</td>
-<td style="text-align: left;">EPC Sistemas</td>
-</tr>
-<tr>
-<td style="text-align: left;">Subestaciones</td>
-<td style="text-align: left;">Alimentación eléctrica</td>
-<td style="text-align: left;">Alta</td>
-<td style="text-align: left;">EPC Eléctrico</td>
-</tr>
-<tr>
-<td style="text-align: left;">Estaciones</td>
-<td style="text-align: left;">Servicios y oficinas</td>
-<td style="text-align: left;">Media</td>
-<td style="text-align: left;">EPC Civil</td>
-</tr>
-<tr>
-<td style="text-align: left;">Infraestructura de soporte</td>
-<td style="text-align: left;">Servicios generales</td>
-<td style="text-align: left;">Media</td>
-<td style="text-align: left;">EPC Civil</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="riesgos-y-mitigaciones">⚠️ RIESGOS Y MITIGACIONES</h2>
-<table>
-<colgroup>
-<col style="width: 15%" />
-<col style="width: 26%" />
-<col style="width: 19%" />
-<col style="width: 23%" />
-<col style="width: 15%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Riesgo</th>
-<th style="text-align: left;">Probabilidad</th>
-<th style="text-align: left;">Impacto</th>
-<th style="text-align: left;">Mitigación</th>
-<th style="text-align: left;">Estado</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Retraso en construcción CCO</td>
-<td style="text-align: left;">Media</td>
-<td style="text-align: left;">Alto</td>
-<td style="text-align: left;">Contratos de construcción a largo
-plazo</td>
-<td style="text-align: left;">✅ Mitigado</td>
-</tr>
-<tr>
-<td style="text-align: left;">Fallo de subestaciones</td>
-<td style="text-align: left;">Baja</td>
-<td style="text-align: left;">Alto</td>
-<td style="text-align: left;">Redundancia N+1</td>
-<td style="text-align: left;">✅ Mitigado</td>
-</tr>
-<tr>
-<td style="text-align: left;">Fallo de estaciones</td>
-<td style="text-align: left;">Baja</td>
-<td style="text-align: left;">Medio</td>
-<td style="text-align: left;">Servicios de respaldo</td>
-<td style="text-align: left;">✅ Mitigado</td>
-</tr>
-<tr>
-<td style="text-align: left;">Fallo de infraestructura de soporte</td>
-<td style="text-align: left;">Baja</td>
-<td style="text-align: left;">Medio</td>
-<td style="text-align: left;">Servicios alternativos</td>
-<td style="text-align: left;">✅ Mitigado</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="cumplimiento-contractual">📋 CUMPLIMIENTO CONTRACTUAL</h2>
-<h3 id="obligaciones-clave-del-contrato">Obligaciones clave del
-contrato</h3>
-<ul>
-<li>✅ <strong>AT1 - CCO:</strong> Centro de Control Operacional con
-disponibilidad 99.95% - Cumplida</li>
-<li>✅ <strong>AT2 - Operación:</strong> Operación con disponibilidad
-99.95% - Cumplida</li>
-<li>✅ <strong>AT3 - Especificaciones:</strong> Especificaciones
-técnicas de infraestructura - Cumplida</li>
-<li>✅ <strong>AT4 - Indicadores:</strong> Disponibilidad 99.95% -
-Cumplida</li>
-<li>⏳ <strong>AT8 - Operaciones:</strong> Procedimientos operacionales
-- En progreso</li>
-<li>❌ <strong>AT9 - Cronograma:</strong> Plan de implementación por
-fases - Pendiente</li>
-</ul>
-<h3 id="referencias-contractuales">Referencias contractuales</h3>
-<ul>
-<li><strong>Apéndice Técnico 1:</strong> Alcance del proyecto -
-Infraestructura operativa</li>
-<li><strong>Apéndice Técnico 2:</strong> Operación y mantenimiento -
-Disponibilidad 99.95%</li>
-<li><strong>Apéndice Técnico 3:</strong> Especificaciones generales -
-Infraestructura operativa</li>
-<li><strong>Apéndice Técnico 4:</strong> Indicadores de desempeño -
-Disponibilidad 99.95%</li>
-</ul>
-<hr />
-<h2 id="documentación-de-soporte">📚 DOCUMENTACIÓN DE SOPORTE</h2>
-<h3 id="documentos-técnicos-disponibles">Documentos técnicos
-disponibles</h3>
-<table>
-<colgroup>
-<col style="width: 29%" />
-<col style="width: 16%" />
-<col style="width: 24%" />
-<col style="width: 29%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Documento</th>
-<th style="text-align: left;">Fase</th>
-<th style="text-align: left;">Versión</th>
-<th style="text-align: left;">Ubicación</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td
-style="text-align: left;">SISTEMA_05_Infraestructura_Operativa_Master.md</td>
-<td style="text-align: left;">Consolidado</td>
-<td style="text-align: left;">v1.0</td>
-<td style="text-align: left;">Carpeta X</td>
-</tr>
-<tr>
-<td
-style="text-align: left;">V.1.1_Obras_Civiles_Infraestructura_DETALLADA.md</td>
-<td style="text-align: left;">Detalle</td>
-<td style="text-align: left;">v5.0</td>
-<td style="text-align: left;">V. Ingeniería</td>
-</tr>
-<tr>
-<td
-style="text-align: left;">V.2.1_Sistema_Alimentacion_Principal_DETALLADO.md</td>
-<td style="text-align: left;">Detalle</td>
-<td style="text-align: left;">v5.0</td>
-<td style="text-align: left;">V. Ingeniería</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.1_Manual_OM_CTC_v5.0.md</td>
-<td style="text-align: left;">Operación</td>
-<td style="text-align: left;">v5.0</td>
-<td style="text-align: left;">VI. Operación</td>
-</tr>
-</tbody>
-</table>
-<h3 id="para-más-información-técnica">Para más información técnica</h3>
-<p>Los documentos técnicos detallados están disponibles en la Carpeta X
-del proyecto. Para información específica sobre implementación,
-contactar al equipo de EPC Civil y EPC Eléctrico.</p>
-<hr />
-<h2 id="contactos-y-responsables">📞 CONTACTOS Y RESPONSABLES</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Rol</th>
-<th style="text-align: left;">Responsable</th>
-<th style="text-align: left;">Contacto</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Líder Técnico Infraestructura
-Operativa</td>
-<td style="text-align: left;">[Nombre]</td>
-<td style="text-align: left;">[Email/Tel]</td>
-</tr>
-<tr>
-<td style="text-align: left;">Coordinador EPC Civil</td>
-<td style="text-align: left;">[Nombre]</td>
-<td style="text-align: left;">[Email/Tel]</td>
-</tr>
-<tr>
-<td style="text-align: left;">Coordinador EPC Eléctrico</td>
-<td style="text-align: left;">[Nombre]</td>
-<td style="text-align: left;">[Email/Tel]</td>
-</tr>
-<tr>
-<td style="text-align: left;">Responsable CCO</td>
-<td style="text-align: left;">[Nombre]</td>
-<td style="text-align: left;">[Email/Tel]</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="indicadores-de-desempeño-kpis">📊 INDICADORES DE DESEMPEÑO
-(KPIs)</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Indicador</th>
-<th style="text-align: left;">Meta</th>
-<th style="text-align: left;">Actual</th>
-<th style="text-align: left;">Estado</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Disponibilidad CCO</td>
-<td style="text-align: left;">99.95%</td>
-<td style="text-align: left;">99.99%</td>
-<td style="text-align: left;">🟢 Excelente</td>
-</tr>
-<tr>
-<td style="text-align: left;">Disponibilidad Subestaciones</td>
-<td style="text-align: left;">99.95%</td>
-<td style="text-align: left;">99.98%</td>
-<td style="text-align: left;">🟢 Excelente</td>
-</tr>
-<tr>
-<td style="text-align: left;">Disponibilidad Estaciones</td>
-<td style="text-align: left;">99.5%</td>
-<td style="text-align: left;">99.7%</td>
-<td style="text-align: left;">🟢 Excelente</td>
-</tr>
-<tr>
-<td style="text-align: left;">Eficiencia Energética</td>
-<td style="text-align: left;">90%</td>
-<td style="text-align: left;">92%</td>
-<td style="text-align: left;">🟢 Excelente</td>
-</tr>
-<tr>
-<td style="text-align: left;">Satisfacción del Usuario</td>
-<td style="text-align: left;">95%</td>
-<td style="text-align: left;">97%</td>
-<td style="text-align: left;">🟢 Excelente</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="decisiones-tecnicas-aplicadas">📋 DECISIONES TECNICAS
-APLICADAS</h2>
-<h3 id="dt-scada-001002003">DT-SCADA-001/002/003</h3>
-<ul>
-<li>Estado: ✅ Ver WBS actualizada Cap. 05</li>
-<li>Fuente: Cocina I-VI consolidada</li>
-</ul>
-<hr />
-<h2 id="control-de-versiones">🔄 CONTROL DE VERSIONES</h2>
-<table>
-<colgroup>
-<col style="width: 18%" />
-<col style="width: 14%" />
-<col style="width: 42%" />
-<col style="width: 26%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Versión</th>
-<th style="text-align: left;">Fecha</th>
-<th style="text-align: left;">Cambios Principales</th>
-<th style="text-align: left;">Responsable</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">1.0</td>
-<td style="text-align: left;">Enero 2025</td>
-<td style="text-align: left;">Versión inicial ejecutiva</td>
-<td style="text-align: left;">Administrador Contractual EPC</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<p><strong>Documento preparado por:</strong> Administrador Contractual
-EPC<br />
-<strong>Última actualización:</strong> Enero 2025<br />
-<strong>Próxima revisión:</strong> Febrero 2025<br />
-<strong>Basado en:</strong>
-SISTEMA_05_Infraestructura_Operativa_Master.md v1.0</p>
-<!-- COCINADO DESDE FUENTES: 09/10/2025 17:30 | Fuentes: 1 | DTs: 0 -->
-<!-- COCINADO LFC-CLI v1.0 | Fecha: 3/13/2026, 1:56:38 PM | SSOT: DBCD_CRITERIA.md -->
+            <h3 id="tabla-de-interfaces-críticas">Tabla de interfaces
+            críticas</h3>
+            <table>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Sistema</th>
+            <th style="text-align: left;">Tipo de Interfaz</th>
+            <th style="text-align: left;">Criticidad</th>
+            <th style="text-align: left;">Responsable</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">Centro de Control</td>
+            <td style="text-align: left;">CTC Virtual</td>
+            <td style="text-align: left;">Alta</td>
+            <td style="text-align: left;">EPC Sistemas</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Subestaciones</td>
+            <td style="text-align: left;">Alimentación eléctrica</td>
+            <td style="text-align: left;">Alta</td>
+            <td style="text-align: left;">EPC Eléctrico</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Estaciones</td>
+            <td style="text-align: left;">Servicios y oficinas</td>
+            <td style="text-align: left;">Media</td>
+            <td style="text-align: left;">EPC Civil</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Infraestructura de
+            soporte</td>
+            <td style="text-align: left;">Servicios generales</td>
+            <td style="text-align: left;">Media</td>
+            <td style="text-align: left;">EPC Civil</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="riesgos-y-mitigaciones">⚠️ RIESGOS Y
+            MITIGACIONES</h2>
+            <table>
+            <colgroup>
+            <col style="width: 15%" />
+            <col style="width: 26%" />
+            <col style="width: 19%" />
+            <col style="width: 23%" />
+            <col style="width: 15%" />
+            </colgroup>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Riesgo</th>
+            <th style="text-align: left;">Probabilidad</th>
+            <th style="text-align: left;">Impacto</th>
+            <th style="text-align: left;">Mitigación</th>
+            <th style="text-align: left;">Estado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">Retraso en construcción
+            CCO</td>
+            <td style="text-align: left;">Media</td>
+            <td style="text-align: left;">Alto</td>
+            <td style="text-align: left;">Contratos de construcción a
+            largo plazo</td>
+            <td style="text-align: left;">✅ Mitigado</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Fallo de subestaciones</td>
+            <td style="text-align: left;">Baja</td>
+            <td style="text-align: left;">Alto</td>
+            <td style="text-align: left;">Redundancia N+1</td>
+            <td style="text-align: left;">✅ Mitigado</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Fallo de estaciones</td>
+            <td style="text-align: left;">Baja</td>
+            <td style="text-align: left;">Medio</td>
+            <td style="text-align: left;">Servicios de respaldo</td>
+            <td style="text-align: left;">✅ Mitigado</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Fallo de infraestructura de
+            soporte</td>
+            <td style="text-align: left;">Baja</td>
+            <td style="text-align: left;">Medio</td>
+            <td style="text-align: left;">Servicios alternativos</td>
+            <td style="text-align: left;">✅ Mitigado</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="cumplimiento-contractual">📋 CUMPLIMIENTO
+            CONTRACTUAL</h2>
+            <h3 id="obligaciones-clave-del-contrato">Obligaciones clave
+            del contrato</h3>
+            <ul>
+            <li>✅ <strong>AT1 - CCO:</strong> Centro de Control
+            Operacional con disponibilidad 99.95% - Cumplida</li>
+            <li>✅ <strong>AT2 - Operación:</strong> Operación con
+            disponibilidad 99.95% - Cumplida</li>
+            <li>✅ <strong>AT3 - Especificaciones:</strong>
+            Especificaciones técnicas de infraestructura - Cumplida</li>
+            <li>✅ <strong>AT4 - Indicadores:</strong> Disponibilidad
+            99.95% - Cumplida</li>
+            <li>⏳ <strong>AT8 - Operaciones:</strong> Procedimientos
+            operacionales - En progreso</li>
+            <li>❌ <strong>AT9 - Cronograma:</strong> Plan de
+            implementación por fases - Pendiente</li>
+            </ul>
+            <h3 id="referencias-contractuales">Referencias
+            contractuales</h3>
+            <ul>
+            <li><strong>Apéndice Técnico 1:</strong> Alcance del
+            proyecto - Infraestructura operativa</li>
+            <li><strong>Apéndice Técnico 2:</strong> Operación y
+            mantenimiento - Disponibilidad 99.95%</li>
+            <li><strong>Apéndice Técnico 3:</strong> Especificaciones
+            generales - Infraestructura operativa</li>
+            <li><strong>Apéndice Técnico 4:</strong> Indicadores de
+            desempeño - Disponibilidad 99.95%</li>
+            </ul>
+            <hr />
+            <h2 id="documentación-de-soporte">📚 DOCUMENTACIÓN DE
+            SOPORTE</h2>
+            <h3 id="documentos-técnicos-disponibles">Documentos técnicos
+            disponibles</h3>
+            <table>
+            <colgroup>
+            <col style="width: 29%" />
+            <col style="width: 16%" />
+            <col style="width: 24%" />
+            <col style="width: 29%" />
+            </colgroup>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Documento</th>
+            <th style="text-align: left;">Fase</th>
+            <th style="text-align: left;">Versión</th>
+            <th style="text-align: left;">Ubicación</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td
+            style="text-align: left;">SISTEMA_05_Infraestructura_Operativa_Master.md</td>
+            <td style="text-align: left;">Consolidado</td>
+            <td style="text-align: left;">v1.0</td>
+            <td style="text-align: left;">Carpeta X</td>
+            </tr>
+            <tr>
+            <td
+            style="text-align: left;">V.1.1_Obras_Civiles_Infraestructura_DETALLADA.md</td>
+            <td style="text-align: left;">Detalle</td>
+            <td style="text-align: left;">v5.0</td>
+            <td style="text-align: left;">V. Ingeniería</td>
+            </tr>
+            <tr>
+            <td
+            style="text-align: left;">V.2.1_Sistema_Alimentacion_Principal_DETALLADO.md</td>
+            <td style="text-align: left;">Detalle</td>
+            <td style="text-align: left;">v5.0</td>
+            <td style="text-align: left;">V. Ingeniería</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">6.1_Manual_OM_CTC_v5.0.md</td>
+            <td style="text-align: left;">Operación</td>
+            <td style="text-align: left;">v5.0</td>
+            <td style="text-align: left;">VI. Operación</td>
+            </tr>
+            </tbody>
+            </table>
+            <h3 id="para-más-información-técnica">Para más información
+            técnica</h3>
+            <p>Los documentos técnicos detallados están disponibles en
+            la Carpeta X del proyecto. Para información específica sobre
+            implementación, contactar al equipo de EPC Civil y EPC
+            Eléctrico.</p>
+            <hr />
+            <h2 id="contactos-y-responsables">📞 CONTACTOS Y
+            RESPONSABLES</h2>
+            <table>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Rol</th>
+            <th style="text-align: left;">Responsable</th>
+            <th style="text-align: left;">Contacto</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">Líder Técnico Infraestructura
+            Operativa</td>
+            <td style="text-align: left;">[Nombre]</td>
+            <td style="text-align: left;">[Email/Tel]</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Coordinador EPC Civil</td>
+            <td style="text-align: left;">[Nombre]</td>
+            <td style="text-align: left;">[Email/Tel]</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Coordinador EPC Eléctrico</td>
+            <td style="text-align: left;">[Nombre]</td>
+            <td style="text-align: left;">[Email/Tel]</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Responsable CCO</td>
+            <td style="text-align: left;">[Nombre]</td>
+            <td style="text-align: left;">[Email/Tel]</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="indicadores-de-desempeño-kpis">📊 INDICADORES DE
+            DESEMPEÑO (KPIs)</h2>
+            <table>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Indicador</th>
+            <th style="text-align: left;">Meta</th>
+            <th style="text-align: left;">Actual</th>
+            <th style="text-align: left;">Estado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">Disponibilidad CCO</td>
+            <td style="text-align: left;">99.95%</td>
+            <td style="text-align: left;">99.99%</td>
+            <td style="text-align: left;">🟢 Excelente</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Disponibilidad
+            Subestaciones</td>
+            <td style="text-align: left;">99.95%</td>
+            <td style="text-align: left;">99.98%</td>
+            <td style="text-align: left;">🟢 Excelente</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Disponibilidad Estaciones</td>
+            <td style="text-align: left;">99.5%</td>
+            <td style="text-align: left;">99.7%</td>
+            <td style="text-align: left;">🟢 Excelente</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Eficiencia Energética</td>
+            <td style="text-align: left;">90%</td>
+            <td style="text-align: left;">92%</td>
+            <td style="text-align: left;">🟢 Excelente</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Satisfacción del Usuario</td>
+            <td style="text-align: left;">95%</td>
+            <td style="text-align: left;">97%</td>
+            <td style="text-align: left;">🟢 Excelente</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="decisiones-tecnicas-aplicadas">📋 DECISIONES
+            TECNICAS APLICADAS</h2>
+            <h3 id="dt-scada-001002003">DT-SCADA-001/002/003</h3>
+            <ul>
+            <li>Estado: ✅ Ver WBS actualizada Cap. 05</li>
+            <li>Fuente: Cocina I-VI consolidada</li>
+            </ul>
+            <hr />
+            <h2 id="control-de-versiones">🔄 CONTROL DE VERSIONES</h2>
+            <table>
+            <colgroup>
+            <col style="width: 18%" />
+            <col style="width: 14%" />
+            <col style="width: 42%" />
+            <col style="width: 26%" />
+            </colgroup>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Versión</th>
+            <th style="text-align: left;">Fecha</th>
+            <th style="text-align: left;">Cambios Principales</th>
+            <th style="text-align: left;">Responsable</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">1.0</td>
+            <td style="text-align: left;">Enero 2025</td>
+            <td style="text-align: left;">Versión inicial ejecutiva</td>
+            <td style="text-align: left;">Administrador Contractual
+            EPC</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <p><strong>Documento preparado por:</strong> Administrador
+            Contractual EPC<br />
+            <strong>Última actualización:</strong> Enero 2025<br />
+            <strong>Próxima revisión:</strong> Febrero 2025<br />
+            <strong>Basado en:</strong>
+            SISTEMA_05_Infraestructura_Operativa_Master.md v1.0</p>
+            <!-- COCINADO DESDE FUENTES: 09/10/2025 17:30 | Fuentes: 1 | DTs: 0 -->
+            <!-- COCINADO LFC-CLI v1.0 | Fecha: 3/13/2026, 1:56:38 PM | SSOT: DBCD_CRITERIA.md -->
+        </article>
+
+        <footer style="margin-top: 4rem; text-align: center; opacity: 0.5; font-size: 0.8rem;">
+            © 2025 LFC STUDIO | SISTEMA DE COMUNICACIONES Y CONTROL | PTC VIRTUAL SICC
+        </footer>
+    </div>
+
+    <script src="../../../IX. WBS y Planificacion/lfc-terminology.js"></script>
+    <script src="../../../IX. WBS y Planificacion/sidebar-component.js"></script>
 </body>
 </html>

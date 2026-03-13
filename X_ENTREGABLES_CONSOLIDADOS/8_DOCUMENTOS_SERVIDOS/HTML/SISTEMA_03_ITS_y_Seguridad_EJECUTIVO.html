@@ -1,971 +1,952 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>SISTEMA_03_ITS_y_Seguridad_EJECUTIVO</title>
-  <style>
-    html {
-      color: #1a1a1a;
-      background-color: #fdfdfd;
-    }
-    body {
-      margin: 0 auto;
-      max-width: 36em;
-      padding-left: 50px;
-      padding-right: 50px;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      hyphens: auto;
-      overflow-wrap: break-word;
-      text-rendering: optimizeLegibility;
-      font-kerning: normal;
-    }
-    @media (max-width: 600px) {
-      body {
-        font-size: 0.9em;
-        padding: 12px;
-      }
-      h1 {
-        font-size: 1.8em;
-      }
-    }
-    @media print {
-      html {
-        background-color: white;
-      }
-      body {
-        background-color: transparent;
-        color: black;
-        font-size: 12pt;
-      }
-      p, h2, h3 {
-        orphans: 3;
-        widows: 3;
-      }
-      h2, h3, h4 {
-        page-break-after: avoid;
-      }
-    }
-    p {
-      margin: 1em 0;
-    }
-    a {
-      color: #1a1a1a;
-    }
-    a:visited {
-      color: #1a1a1a;
-    }
-    img {
-      max-width: 100%;
-    }
-    svg {
-      height: auto;
-      max-width: 100%;
-    }
-    h1, h2, h3, h4, h5, h6 {
-      margin-top: 1.4em;
-    }
-    h5, h6 {
-      font-size: 1em;
-      font-style: italic;
-    }
-    h6 {
-      font-weight: normal;
-    }
-    ol, ul {
-      padding-left: 1.7em;
-      margin-top: 1em;
-    }
-    li > ol, li > ul {
-      margin-top: 0;
-    }
-    blockquote {
-      margin: 1em 0 1em 1.7em;
-      padding-left: 1em;
-      border-left: 2px solid #e6e6e6;
-      color: #606060;
-    }
-    code {
-      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
-      font-size: 85%;
-      margin: 0;
-      hyphens: manual;
-    }
-    pre {
-      margin: 1em 0;
-      overflow: auto;
-    }
-    pre code {
-      padding: 0;
-      overflow: visible;
-      overflow-wrap: normal;
-    }
-    .sourceCode {
-     background-color: transparent;
-     overflow: visible;
-    }
-    hr {
-      background-color: #1a1a1a;
-      border: none;
-      height: 1px;
-      margin: 1em 0;
-    }
-    table {
-      margin: 1em 0;
-      border-collapse: collapse;
-      width: 100%;
-      overflow-x: auto;
-      display: block;
-      font-variant-numeric: lining-nums tabular-nums;
-    }
-    table caption {
-      margin-bottom: 0.75em;
-    }
-    tbody {
-      margin-top: 0.5em;
-      border-top: 1px solid #1a1a1a;
-      border-bottom: 1px solid #1a1a1a;
-    }
-    th {
-      border-top: 1px solid #1a1a1a;
-      padding: 0.25em 0.5em 0.25em 0.5em;
-    }
-    td {
-      padding: 0.125em 0.5em 0.25em 0.5em;
-    }
-    header {
-      margin-bottom: 4em;
-      text-align: center;
-    }
-    #TOC li {
-      list-style: none;
-    }
-    #TOC ul {
-      padding-left: 1.3em;
-    }
-    #TOC > ul {
-      padding-left: 0;
-    }
-    #TOC a:not(:hover) {
-      text-decoration: none;
-    }
-    code{white-space: pre-wrap;}
-    span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    /* The extra [class] is a hack that increases specificity enough to
-       override a similar rule in reveal.js */
-    ul.task-list[class]{list-style: none;}
-    ul.task-list li input[type="checkbox"] {
-      font-size: inherit;
-      width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
-      vertical-align: middle;
-    }
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SISTEMA 03 ITS y Seguridad EJECUTIVO - LFC STUDIO</title>
+    <link rel="stylesheet" href="../../../IX. WBS y Planificacion/wbs-shared.css">
+    <style>
+        .premium-doc-content {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: var(--border-radius-lg);
+            padding: 3rem;
+            backdrop-filter: var(--glass-blur);
+            box-shadow: var(--glass-shadow);
+        }
+        .premium-doc-content h1, .premium-doc-content h2, .premium-doc-content h3 {
+            color: var(--accent);
+            border-bottom: 1px solid var(--glass-border);
+            padding-bottom: 0.5rem;
+            margin-top: 2rem;
+        }
+        .premium-doc-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+            background: rgba(255,255,255,0.02);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .premium-doc-content th {
+            background: var(--accent-transparent);
+            color: var(--accent);
+            text-align: left;
+            padding: 1rem;
+        }
+        .premium-doc-content td {
+            padding: 1rem;
+            border-bottom: 1px solid var(--glass-border);
+        }
+        .premium-doc-content blockquote {
+            border-left: 4px solid var(--accent);
+            background: var(--accent-soft);
+            padding: 1rem;
+            margin: 1rem 0;
+            font-style: italic;
+        }
+        #TOC {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            padding: 1.5rem;
+            border-radius: var(--border-radius-md);
+            margin-bottom: 2rem;
+        }
+        #TOC ul { list-style: none; padding-left: 1rem; }
+        #TOC a { color: var(--text-main); text-decoration: none; font-size: 0.9rem; }
+        #TOC a:hover { color: var(--accent); }
+    </style>
 </head>
 <body>
-<nav id="TOC" role="doc-toc">
-<ul>
-<li><a href="#sistema-03-its-y-seguridad"
-id="toc-sistema-03-its-y-seguridad">SISTEMA 03: ITS Y SEGURIDAD</a>
-<ul>
-<li><a href="#documento-ejecutivo-de-ingeniería"
-id="toc-documento-ejecutivo-de-ingeniería">Documento Ejecutivo de
-Ingeniería</a></li>
-<li><a href="#resumen-ejecutivo" id="toc-resumen-ejecutivo">📊 RESUMEN
-EJECUTIVO</a>
-<ul>
-<li><a href="#qué-es-este-sistema-y-por-qué-importa"
-id="toc-qué-es-este-sistema-y-por-qué-importa">Qué es este sistema y por
-qué importa</a></li>
-<li><a href="#alcance-en-números---justificación-técnica"
-id="toc-alcance-en-números---justificación-técnica">Alcance en números -
-JUSTIFICACIÓN TÉCNICA</a></li>
-<li><a href="#hitos-críticos" id="toc-hitos-críticos">Hitos
-críticos</a></li>
-</ul></li>
-<li><a href="#criterios-de-diseño-y-justificaciones-técnicas"
-id="toc-criterios-de-diseño-y-justificaciones-técnicas">🔍 CRITERIOS DE
-DISEÑO Y JUSTIFICACIONES TÉCNICAS</a>
-<ul>
-<li><a href="#por-qué-73-cámaras-cctv-específicamente"
-id="toc-por-qué-73-cámaras-cctv-específicamente">¿Por qué 73 cámaras
-CCTV específicamente?</a></li>
-<li><a href="#por-qué-24-pasos-a-nivel-intervenidos"
-id="toc-por-qué-24-pasos-a-nivel-intervenidos">¿Por qué 24 pasos a nivel
-intervenidos?</a></li>
-<li><a href="#por-qué-15-sistemas-its"
-id="toc-por-qué-15-sistemas-its">¿Por qué 15 sistemas ITS?</a></li>
-<li><a href="#por-qué-8-sistemas-de-control-de-accesos"
-id="toc-por-qué-8-sistemas-de-control-de-accesos">¿Por qué 8 sistemas de
-control de accesos?</a></li>
-<li><a href="#por-qué-arquitectura-por-zonas"
-id="toc-por-qué-arquitectura-por-zonas">¿Por qué arquitectura por
-zonas?</a></li>
-<li><a href="#por-qué-disponibilidad-diferenciada-por-sistema"
-id="toc-por-qué-disponibilidad-diferenciada-por-sistema">¿Por qué
-disponibilidad diferenciada por sistema?</a></li>
-</ul></li>
-<li><a href="#función-y-propósito-del-sistema"
-id="toc-función-y-propósito-del-sistema">🎯 FUNCIÓN Y PROPÓSITO DEL
-SISTEMA</a>
-<ul>
-<li><a href="#qué-hace-este-sistema" id="toc-qué-hace-este-sistema">¿Qué
-hace este sistema?</a></li>
-<li><a href="#por-qué-lo-necesitamos"
-id="toc-por-qué-lo-necesitamos">¿Por qué lo necesitamos?</a></li>
-<li><a href="#cómo-se-integra-con-otros-sistemas"
-id="toc-cómo-se-integra-con-otros-sistemas">¿Cómo se integra con otros
-sistemas?</a></li>
-</ul></li>
-<li><a href="#componentes-principales"
-id="toc-componentes-principales">🏗️ COMPONENTES PRINCIPALES</a>
-<ul>
-<li><a href="#sistema-cctv---video-vigilancia"
-id="toc-sistema-cctv---video-vigilancia">1. Sistema CCTV - Video
-Vigilancia</a></li>
-<li><a href="#sistema-its---transporte-inteligente"
-id="toc-sistema-its---transporte-inteligente">2. Sistema ITS -
-Transporte Inteligente</a></li>
-<li><a href="#sistema-de-control-de-accesos"
-id="toc-sistema-de-control-de-accesos">3. Sistema de Control de
-Accesos</a></li>
-<li><a href="#sistema-de-monitoreo-ambiental"
-id="toc-sistema-de-monitoreo-ambiental">4. Sistema de Monitoreo
-Ambiental</a></li>
-</ul></li>
-<li><a href="#especificaciones-técnicas-clave"
-id="toc-especificaciones-técnicas-clave">📐 ESPECIFICACIONES TÉCNICAS
-CLAVE</a>
-<ul>
-<li><a href="#tabla-consolidada-de-especificaciones"
-id="toc-tabla-consolidada-de-especificaciones">Tabla consolidada de
-especificaciones</a></li>
-<li><a href="#criterios-de-aceptación"
-id="toc-criterios-de-aceptación">Criterios de aceptación</a></li>
-</ul></li>
-<li><a href="#ubicación-y-despliegue" id="toc-ubicación-y-despliegue">📍
-UBICACIÓN Y DESPLIEGUE</a>
-<ul>
-<li><a href="#mapa-de-despliegue" id="toc-mapa-de-despliegue">Mapa de
-despliegue</a></li>
-<li><a href="#tabla-de-sitios-principales"
-id="toc-tabla-de-sitios-principales">Tabla de sitios
-principales</a></li>
-</ul></li>
-<li><a href="#operación-y-mantenimiento"
-id="toc-operación-y-mantenimiento">⚙️ OPERACIÓN Y MANTENIMIENTO</a>
-<ul>
-<li><a href="#operación-normal" id="toc-operación-normal">Operación
-normal</a></li>
-<li><a href="#mantenimiento-preventivo"
-id="toc-mantenimiento-preventivo">Mantenimiento preventivo</a></li>
-<li><a href="#respuesta-a-eventos"
-id="toc-respuesta-a-eventos">Respuesta a eventos</a></li>
-</ul></li>
-<li><a href="#interfaces-con-otros-sistemas"
-id="toc-interfaces-con-otros-sistemas">🔗 INTERFACES CON OTROS
-SISTEMAS</a>
-<ul>
-<li><a href="#diagrama-de-interfaces"
-id="toc-diagrama-de-interfaces">Diagrama de interfaces</a></li>
-<li><a href="#tabla-de-interfaces-críticas"
-id="toc-tabla-de-interfaces-críticas">Tabla de interfaces
-críticas</a></li>
-</ul></li>
-<li><a href="#riesgos-y-mitigaciones" id="toc-riesgos-y-mitigaciones">⚠️
-RIESGOS Y MITIGACIONES</a></li>
-<li><a href="#cumplimiento-contractual"
-id="toc-cumplimiento-contractual">📋 CUMPLIMIENTO CONTRACTUAL</a>
-<ul>
-<li><a href="#obligaciones-clave-del-contrato"
-id="toc-obligaciones-clave-del-contrato">Obligaciones clave del
-contrato</a></li>
-<li><a href="#referencias-contractuales"
-id="toc-referencias-contractuales">Referencias contractuales</a></li>
-</ul></li>
-<li><a href="#documentación-de-soporte"
-id="toc-documentación-de-soporte">📚 DOCUMENTACIÓN DE SOPORTE</a>
-<ul>
-<li><a href="#documentos-técnicos-disponibles"
-id="toc-documentos-técnicos-disponibles">Documentos técnicos
-disponibles</a></li>
-<li><a href="#para-más-información-técnica"
-id="toc-para-más-información-técnica">Para más información
-técnica</a></li>
-</ul></li>
-<li><a href="#contactos-y-responsables"
-id="toc-contactos-y-responsables">📞 CONTACTOS Y RESPONSABLES</a></li>
-<li><a href="#indicadores-de-desempeño-kpis"
-id="toc-indicadores-de-desempeño-kpis">📊 INDICADORES DE DESEMPEÑO
-(KPIs)</a></li>
-<li><a href="#decisiones-técnicas-aplicadas"
-id="toc-decisiones-técnicas-aplicadas">📋 DECISIONES TÉCNICAS
-APLICADAS</a>
-<ul>
-<li><a href="#dt-cctv-001-2025-10-07-ampliación-cctv-4873-cámaras"
-id="toc-dt-cctv-001-2025-10-07-ampliación-cctv-4873-cámaras">DT-CCTV-001-2025-10-07:
-Ampliación CCTV 48→73 cámaras</a></li>
-<li><a href="#dt-pan-001002-2025-10-07-ajuste-pan-tipo-c"
-id="toc-dt-pan-001002-2025-10-07-ajuste-pan-tipo-c">DT-PAN-001/002-2025-10-07:
-Ajuste PAN Tipo C</a></li>
-<li><a href="#dt-control-001-2025-10-07-especificación-lectores-rfid"
-id="toc-dt-control-001-2025-10-07-especificación-lectores-rfid">DT-CONTROL-001-2025-10-07:
-Especificación lectores RFID</a></li>
-</ul></li>
-<li><a href="#control-de-versiones" id="toc-control-de-versiones">🔄
-CONTROL DE VERSIONES</a></li>
-</ul></li>
-</ul>
-</nav>
-<h1 id="sistema-03-its-y-seguridad">SISTEMA 03: ITS Y SEGURIDAD</h1>
-<h2 id="documento-ejecutivo-de-ingeniería">Documento Ejecutivo de
-Ingeniería</h2>
-<hr />
-<h2 id="resumen-ejecutivo">📊 RESUMEN EJECUTIVO</h2>
-<h3 id="qué-es-este-sistema-y-por-qué-importa">Qué es este sistema y por
-qué importa</h3>
-<p>El Sistema de ITS y Seguridad es el <strong>“sistema de vigilancia y
-protección”</strong> del ferrocarril que garantiza la seguridad
-operacional y la protección de la infraestructura. Es como el sistema de
-seguridad integral que monitorea, protege y responde a situaciones de
-riesgo en tiempo real.</p>
-<h3 id="alcance-en-números---justificación-técnica">Alcance en números -
-JUSTIFICACIÓN TÉCNICA</h3>
-<ul>
-<li><strong>Inversión estimada:</strong> $35,000 millones COP</li>
-<li><strong>73 cámaras CCTV:</strong> 48 PAN (pasos a nivel) + 12
-talleres + 8 CCO + 5 estaciones</li>
-<li><strong>48 cámaras PAN:</strong> 2 cámaras por paso a nivel × 24
-pasos a nivel intervenidos</li>
-<li><strong>12 cámaras talleres:</strong> 4 talleres × 3 cámaras por
-taller (entrada, área trabajo, salida)</li>
-<li><strong>8 cámaras CCO:</strong> 2 por nivel × 4 niveles (recepción,
-operaciones, técnico, acceso)</li>
-<li><strong>5 cámaras estaciones:</strong> 1 por estación principal (La
-Dorada, Puerto Berrío, Barrancabermeja, Bucaramanga, Chiriguaná)</li>
-<li><strong>15 sistemas ITS:</strong> Gestión de tráfico, información al
-usuario, monitoreo ambiental</li>
-<li><strong>8 sistemas de control de accesos:</strong> CCO, talleres,
-estaciones principales</li>
-<li><strong>Cobertura:</strong> 100% del corredor + instalaciones
-críticas</li>
-<li><strong>Disponibilidad requerida:</strong> 99.5% CCTV, 99.5% ITS,
-99.95% seguridad física (SIL 4)</li>
-</ul>
-<h3 id="hitos-críticos">Hitos críticos</h3>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Fase</th>
-<th style="text-align: left;">Fecha</th>
-<th style="text-align: left;">Estado</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Diseño Conceptual</td>
-<td style="text-align: left;">Enero 2025</td>
-<td style="text-align: left;">✅ Completado</td>
-</tr>
-<tr>
-<td style="text-align: left;">Instalación CCTV</td>
-<td style="text-align: left;">Marzo 2025</td>
-<td style="text-align: left;">⏳ En progreso</td>
-</tr>
-<tr>
-<td style="text-align: left;">Instalación ITS</td>
-<td style="text-align: left;">Abril 2025</td>
-<td style="text-align: left;">⏳ En progreso</td>
-</tr>
-<tr>
-<td style="text-align: left;">Comisionamiento</td>
-<td style="text-align: left;">Mayo 2025</td>
-<td style="text-align: left;">❌ Pendiente</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="criterios-de-diseño-y-justificaciones-técnicas">🔍 CRITERIOS DE
-DISEÑO Y JUSTIFICACIONES TÉCNICAS</h2>
-<h3 id="por-qué-73-cámaras-cctv-específicamente">¿Por qué 73 cámaras
-CCTV específicamente?</h3>
-<p><strong>Desglose Técnico por Ubicación:</strong> - <strong>48 cámaras
-PAN:</strong> 2 cámaras por paso a nivel × 24 pasos a nivel intervenidos
-- <strong>Justificación:</strong> Cobertura de entrada y salida de cada
-paso a nivel - <strong>Tecnología:</strong> Cámaras IP con visión
-nocturna y detección de movimiento - <strong>12 cámaras
-talleres:</strong> 4 talleres × 3 cámaras por taller -
-<strong>Justificación:</strong> Entrada, área de trabajo, salida para
-control de accesos - <strong>Tecnología:</strong> Cámaras fijas con zoom
-óptico - <strong>8 cámaras CCO:</strong> 2 por nivel × 4 niveles -
-<strong>Justificación:</strong> Recepción, operaciones, técnico, acceso
-para seguridad - <strong>Tecnología:</strong> Cámaras PTZ con
-seguimiento automático - <strong>5 cámaras estaciones:</strong> 1 por
-estación principal - <strong>Justificación:</strong> Monitoreo de áreas
-públicas y control de accesos - <strong>Tecnología:</strong> Cámaras
-domo con visión 360°</p>
-<h3 id="por-qué-24-pasos-a-nivel-intervenidos">¿Por qué 24 pasos a nivel
-intervenidos?</h3>
-<p><strong>Criterios de Selección:</strong> - <strong>Tráfico
-vehicular:</strong> Pasos a nivel con alto volumen de tráfico -
-<strong>Seguridad:</strong> Pasos a nivel con historial de incidentes -
-<strong>Accesibilidad:</strong> Pasos a nivel con difícil visibilidad -
-<strong>Priorización:</strong> Análisis de riesgo y impacto social -
-<strong>Cobertura:</strong> 24 pasos a nivel más críticos del
-corredor</p>
-<h3 id="por-qué-15-sistemas-its">¿Por qué 15 sistemas ITS?</h3>
-<p><strong>Componentes ITS Justificados:</strong> - <strong>5 sistemas
-de gestión de tráfico:</strong> Una por estación principal - <strong>5
-sistemas de información al usuario:</strong> Paneles informativos en
-estaciones - <strong>3 sistemas de monitoreo ambiental:</strong>
-Sensores de calidad del aire - <strong>2 sistemas de gestión de
-emergencias:</strong> CCO y estación principal</p>
-<h3 id="por-qué-8-sistemas-de-control-de-accesos">¿Por qué 8 sistemas de
-control de accesos?</h3>
-<p><strong>Ubicaciones Justificadas:</strong> - <strong>1 CCO:</strong>
-Control de acceso al centro de control - <strong>4 talleres:</strong>
-Control de acceso a talleres de mantenimiento - <strong>3 estaciones
-principales:</strong> Control de acceso a áreas restringidas</p>
-<h3 id="por-qué-arquitectura-por-zonas">¿Por qué arquitectura por
-zonas?</h3>
-<p><strong>Justificación de Zonificación:</strong> | Zona | Descripción
-| Criterio | Cantidad | |:—–|:————|:———|:———-| | <strong>Zona 1</strong>
-| Infraestructura Crítica | Seguridad máxima | CCO, talleres, ENCE | |
-<strong>Zona 2</strong> | Corredor y PAN | Monitoreo continuo | 24 pasos
-a nivel | | <strong>Zona 3</strong> | Áreas Públicas | Control de
-accesos | Estaciones principales |</p>
-<h3 id="por-qué-disponibilidad-diferenciada-por-sistema">¿Por qué
-disponibilidad diferenciada por sistema?</h3>
-<p><strong>Criterios de Disponibilidad:</strong> - <strong>99.5%
-CCTV:</strong> Sistema de monitoreo (no crítico para operación) -
-<strong>99.5% ITS:</strong> Sistema de información (no crítico para
-operación) - <strong>99.95% Seguridad Física:</strong> Sistema crítico
-(SIL 4 según EN 50126)</p>
-<hr />
-<h2 id="función-y-propósito-del-sistema">🎯 FUNCIÓN Y PROPÓSITO DEL
-SISTEMA</h2>
-<h3 id="qué-hace-este-sistema">¿Qué hace este sistema?</h3>
-<p>El Sistema de ITS y Seguridad proporciona <strong>protección
-integral</strong> de la infraestructura ferroviaria: - <strong>Video
-vigilancia:</strong> Monitoreo visual continuo de instalaciones críticas
-- <strong>Sistemas ITS:</strong> Gestión inteligente del tráfico y
-información al usuario - <strong>Control de accesos:</strong> Seguridad
-física de instalaciones - <strong>Monitoreo ambiental:</strong>
-Cumplimiento de normativas ambientales</p>
-<h3 id="por-qué-lo-necesitamos">¿Por qué lo necesitamos?</h3>
-<ul>
-<li><strong>Seguridad:</strong> Protección de infraestructura y
-personal</li>
-<li><strong>Cumplimiento:</strong> Requerimientos regulatorios de
-seguridad</li>
-<li><strong>Eficiencia:</strong> Gestión inteligente del tráfico</li>
-<li><strong>Transparencia:</strong> Información al usuario y
-autoridades</li>
-</ul>
-<h3 id="cómo-se-integra-con-otros-sistemas">¿Cómo se integra con otros
-sistemas?</h3>
-<pre><code>[Centro de Control] ←→ [ITS y Seguridad] ←→ [CCTV]
+    <div id="lfc-sidebar-container"></div>
+    <div class="main-content-wrapper">
+        <header class="premium-card" style="margin-bottom: 2rem; text-align: center;">
+            <h1 class="premium-title">SISTEMA 03 ITS y Seguridad
+EJECUTIVO</h1>
+            <p style="opacity: 0.7;">REPORTE EJECUTIVO GENERADO DINÁMICAMENTE | SICC-READY</p>
+        </header>
+
+        <nav id="TOC">
+            <h3 style="margin-top: 0; color: var(--accent);">📍 ÍNDICE DE CONTENIDO</h3>
+            <ul>
+            <li><a href="#sistema-03-its-y-seguridad"
+            id="toc-sistema-03-its-y-seguridad">SISTEMA 03: ITS Y
+            SEGURIDAD</a>
+            <ul>
+            <li><a href="#documento-ejecutivo-de-ingeniería"
+            id="toc-documento-ejecutivo-de-ingeniería">Documento
+            Ejecutivo de Ingeniería</a></li>
+            <li><a href="#resumen-ejecutivo"
+            id="toc-resumen-ejecutivo">📊 RESUMEN EJECUTIVO</a>
+            <ul>
+            <li><a href="#qué-es-este-sistema-y-por-qué-importa"
+            id="toc-qué-es-este-sistema-y-por-qué-importa">Qué es este
+            sistema y por qué importa</a></li>
+            <li><a href="#alcance-en-números---justificación-técnica"
+            id="toc-alcance-en-números---justificación-técnica">Alcance
+            en números - JUSTIFICACIÓN TÉCNICA</a></li>
+            <li><a href="#hitos-críticos" id="toc-hitos-críticos">Hitos
+            críticos</a></li>
+            </ul></li>
+            <li><a
+            href="#criterios-de-diseño-y-justificaciones-técnicas"
+            id="toc-criterios-de-diseño-y-justificaciones-técnicas">🔍
+            CRITERIOS DE DISEÑO Y JUSTIFICACIONES TÉCNICAS</a>
+            <ul>
+            <li><a href="#por-qué-73-cámaras-cctv-específicamente"
+            id="toc-por-qué-73-cámaras-cctv-específicamente">¿Por qué 73
+            cámaras CCTV específicamente?</a></li>
+            <li><a href="#por-qué-24-pasos-a-nivel-intervenidos"
+            id="toc-por-qué-24-pasos-a-nivel-intervenidos">¿Por qué 24
+            pasos a nivel intervenidos?</a></li>
+            <li><a href="#por-qué-15-sistemas-its"
+            id="toc-por-qué-15-sistemas-its">¿Por qué 15 sistemas
+            ITS?</a></li>
+            <li><a href="#por-qué-8-sistemas-de-control-de-accesos"
+            id="toc-por-qué-8-sistemas-de-control-de-accesos">¿Por qué 8
+            sistemas de control de accesos?</a></li>
+            <li><a href="#por-qué-arquitectura-por-zonas"
+            id="toc-por-qué-arquitectura-por-zonas">¿Por qué
+            arquitectura por zonas?</a></li>
+            <li><a
+            href="#por-qué-disponibilidad-diferenciada-por-sistema"
+            id="toc-por-qué-disponibilidad-diferenciada-por-sistema">¿Por
+            qué disponibilidad diferenciada por sistema?</a></li>
+            </ul></li>
+            <li><a href="#función-y-propósito-del-sistema"
+            id="toc-función-y-propósito-del-sistema">🎯 FUNCIÓN Y
+            PROPÓSITO DEL SISTEMA</a>
+            <ul>
+            <li><a href="#qué-hace-este-sistema"
+            id="toc-qué-hace-este-sistema">¿Qué hace este
+            sistema?</a></li>
+            <li><a href="#por-qué-lo-necesitamos"
+            id="toc-por-qué-lo-necesitamos">¿Por qué lo
+            necesitamos?</a></li>
+            <li><a href="#cómo-se-integra-con-otros-sistemas"
+            id="toc-cómo-se-integra-con-otros-sistemas">¿Cómo se integra
+            con otros sistemas?</a></li>
+            </ul></li>
+            <li><a href="#componentes-principales"
+            id="toc-componentes-principales">🏗️ COMPONENTES
+            PRINCIPALES</a>
+            <ul>
+            <li><a href="#sistema-cctv---video-vigilancia"
+            id="toc-sistema-cctv---video-vigilancia">1. Sistema CCTV -
+            Video Vigilancia</a></li>
+            <li><a href="#sistema-its---transporte-inteligente"
+            id="toc-sistema-its---transporte-inteligente">2. Sistema ITS
+            - Transporte Inteligente</a></li>
+            <li><a href="#sistema-de-control-de-accesos"
+            id="toc-sistema-de-control-de-accesos">3. Sistema de Control
+            de Accesos</a></li>
+            <li><a href="#sistema-de-monitoreo-ambiental"
+            id="toc-sistema-de-monitoreo-ambiental">4. Sistema de
+            Monitoreo Ambiental</a></li>
+            </ul></li>
+            <li><a href="#especificaciones-técnicas-clave"
+            id="toc-especificaciones-técnicas-clave">📐 ESPECIFICACIONES
+            TÉCNICAS CLAVE</a>
+            <ul>
+            <li><a href="#tabla-consolidada-de-especificaciones"
+            id="toc-tabla-consolidada-de-especificaciones">Tabla
+            consolidada de especificaciones</a></li>
+            <li><a href="#criterios-de-aceptación"
+            id="toc-criterios-de-aceptación">Criterios de
+            aceptación</a></li>
+            </ul></li>
+            <li><a href="#ubicación-y-despliegue"
+            id="toc-ubicación-y-despliegue">📍 UBICACIÓN Y
+            DESPLIEGUE</a>
+            <ul>
+            <li><a href="#mapa-de-despliegue"
+            id="toc-mapa-de-despliegue">Mapa de despliegue</a></li>
+            <li><a href="#tabla-de-sitios-principales"
+            id="toc-tabla-de-sitios-principales">Tabla de sitios
+            principales</a></li>
+            </ul></li>
+            <li><a href="#operación-y-mantenimiento"
+            id="toc-operación-y-mantenimiento">⚙️ OPERACIÓN Y
+            MANTENIMIENTO</a>
+            <ul>
+            <li><a href="#operación-normal"
+            id="toc-operación-normal">Operación normal</a></li>
+            <li><a href="#mantenimiento-preventivo"
+            id="toc-mantenimiento-preventivo">Mantenimiento
+            preventivo</a></li>
+            <li><a href="#respuesta-a-eventos"
+            id="toc-respuesta-a-eventos">Respuesta a eventos</a></li>
+            </ul></li>
+            <li><a href="#interfaces-con-otros-sistemas"
+            id="toc-interfaces-con-otros-sistemas">🔗 INTERFACES CON
+            OTROS SISTEMAS</a>
+            <ul>
+            <li><a href="#diagrama-de-interfaces"
+            id="toc-diagrama-de-interfaces">Diagrama de
+            interfaces</a></li>
+            <li><a href="#tabla-de-interfaces-críticas"
+            id="toc-tabla-de-interfaces-críticas">Tabla de interfaces
+            críticas</a></li>
+            </ul></li>
+            <li><a href="#riesgos-y-mitigaciones"
+            id="toc-riesgos-y-mitigaciones">⚠️ RIESGOS Y
+            MITIGACIONES</a></li>
+            <li><a href="#cumplimiento-contractual"
+            id="toc-cumplimiento-contractual">📋 CUMPLIMIENTO
+            CONTRACTUAL</a>
+            <ul>
+            <li><a href="#obligaciones-clave-del-contrato"
+            id="toc-obligaciones-clave-del-contrato">Obligaciones clave
+            del contrato</a></li>
+            <li><a href="#referencias-contractuales"
+            id="toc-referencias-contractuales">Referencias
+            contractuales</a></li>
+            </ul></li>
+            <li><a href="#documentación-de-soporte"
+            id="toc-documentación-de-soporte">📚 DOCUMENTACIÓN DE
+            SOPORTE</a>
+            <ul>
+            <li><a href="#documentos-técnicos-disponibles"
+            id="toc-documentos-técnicos-disponibles">Documentos técnicos
+            disponibles</a></li>
+            <li><a href="#para-más-información-técnica"
+            id="toc-para-más-información-técnica">Para más información
+            técnica</a></li>
+            </ul></li>
+            <li><a href="#contactos-y-responsables"
+            id="toc-contactos-y-responsables">📞 CONTACTOS Y
+            RESPONSABLES</a></li>
+            <li><a href="#indicadores-de-desempeño-kpis"
+            id="toc-indicadores-de-desempeño-kpis">📊 INDICADORES DE
+            DESEMPEÑO (KPIs)</a></li>
+            <li><a href="#decisiones-técnicas-aplicadas"
+            id="toc-decisiones-técnicas-aplicadas">📋 DECISIONES
+            TÉCNICAS APLICADAS</a>
+            <ul>
+            <li><a
+            href="#dt-cctv-001-2025-10-07-ampliación-cctv-4873-cámaras"
+            id="toc-dt-cctv-001-2025-10-07-ampliación-cctv-4873-cámaras">DT-CCTV-001-2025-10-07:
+            Ampliación CCTV 48→73 cámaras</a></li>
+            <li><a href="#dt-pan-001002-2025-10-07-ajuste-pan-tipo-c"
+            id="toc-dt-pan-001002-2025-10-07-ajuste-pan-tipo-c">DT-PAN-001/002-2025-10-07:
+            Ajuste PAN Tipo C</a></li>
+            <li><a
+            href="#dt-control-001-2025-10-07-especificación-lectores-rfid"
+            id="toc-dt-control-001-2025-10-07-especificación-lectores-rfid">DT-CONTROL-001-2025-10-07:
+            Especificación lectores RFID</a></li>
+            </ul></li>
+            <li><a href="#control-de-versiones"
+            id="toc-control-de-versiones">🔄 CONTROL DE
+            VERSIONES</a></li>
+            </ul></li>
+            </ul>
+        </nav>
+
+        <article class="premium-doc-content">
+            <h1 id="sistema-03-its-y-seguridad">SISTEMA 03: ITS Y
+            SEGURIDAD</h1>
+            <h2 id="documento-ejecutivo-de-ingeniería">Documento
+            Ejecutivo de Ingeniería</h2>
+            <hr />
+            <h2 id="resumen-ejecutivo">📊 RESUMEN EJECUTIVO</h2>
+            <h3 id="qué-es-este-sistema-y-por-qué-importa">Qué es este
+            sistema y por qué importa</h3>
+            <p>El Sistema de ITS y Seguridad es el <strong>“sistema de
+            vigilancia y protección”</strong> del ferrocarril que
+            garantiza la seguridad operacional y la protección de la
+            infraestructura. Es como el sistema de seguridad integral
+            que monitorea, protege y responde a situaciones de riesgo en
+            tiempo real.</p>
+            <h3 id="alcance-en-números---justificación-técnica">Alcance
+            en números - JUSTIFICACIÓN TÉCNICA</h3>
+            <ul>
+            <li><strong>Inversión estimada:</strong> $35,000 millones
+            COP</li>
+            <li><strong>73 cámaras CCTV:</strong> 48 PAN (pasos a nivel)
+            + 12 talleres + 8 CCO + 5 estaciones</li>
+            <li><strong>48 cámaras PAN:</strong> 2 cámaras por paso a
+            nivel × 24 pasos a nivel intervenidos</li>
+            <li><strong>12 cámaras talleres:</strong> 4 talleres × 3
+            cámaras por taller (entrada, área trabajo, salida)</li>
+            <li><strong>8 cámaras CCO:</strong> 2 por nivel × 4 niveles
+            (recepción, operaciones, técnico, acceso)</li>
+            <li><strong>5 cámaras estaciones:</strong> 1 por estación
+            principal (La Dorada, Puerto Berrío, Barrancabermeja,
+            Bucaramanga, Chiriguaná)</li>
+            <li><strong>15 sistemas ITS:</strong> Gestión de tráfico,
+            información al usuario, monitoreo ambiental</li>
+            <li><strong>8 sistemas de control de accesos:</strong> CCO,
+            talleres, estaciones principales</li>
+            <li><strong>Cobertura:</strong> 100% del corredor +
+            instalaciones críticas</li>
+            <li><strong>Disponibilidad requerida:</strong> 99.5% CCTV,
+            99.5% ITS, 99.95% seguridad física (SIL 4)</li>
+            </ul>
+            <h3 id="hitos-críticos">Hitos críticos</h3>
+            <table>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Fase</th>
+            <th style="text-align: left;">Fecha</th>
+            <th style="text-align: left;">Estado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">Diseño Conceptual</td>
+            <td style="text-align: left;">Enero 2025</td>
+            <td style="text-align: left;">✅ Completado</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Instalación CCTV</td>
+            <td style="text-align: left;">Marzo 2025</td>
+            <td style="text-align: left;">⏳ En progreso</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Instalación ITS</td>
+            <td style="text-align: left;">Abril 2025</td>
+            <td style="text-align: left;">⏳ En progreso</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Comisionamiento</td>
+            <td style="text-align: left;">Mayo 2025</td>
+            <td style="text-align: left;">❌ Pendiente</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="criterios-de-diseño-y-justificaciones-técnicas">🔍
+            CRITERIOS DE DISEÑO Y JUSTIFICACIONES TÉCNICAS</h2>
+            <h3 id="por-qué-73-cámaras-cctv-específicamente">¿Por qué 73
+            cámaras CCTV específicamente?</h3>
+            <p><strong>Desglose Técnico por Ubicación:</strong> -
+            <strong>48 cámaras PAN:</strong> 2 cámaras por paso a nivel
+            × 24 pasos a nivel intervenidos -
+            <strong>Justificación:</strong> Cobertura de entrada y
+            salida de cada paso a nivel - <strong>Tecnología:</strong>
+            Cámaras IP con visión nocturna y detección de movimiento -
+            <strong>12 cámaras talleres:</strong> 4 talleres × 3 cámaras
+            por taller - <strong>Justificación:</strong> Entrada, área
+            de trabajo, salida para control de accesos -
+            <strong>Tecnología:</strong> Cámaras fijas con zoom óptico -
+            <strong>8 cámaras CCO:</strong> 2 por nivel × 4 niveles -
+            <strong>Justificación:</strong> Recepción, operaciones,
+            técnico, acceso para seguridad -
+            <strong>Tecnología:</strong> Cámaras PTZ con seguimiento
+            automático - <strong>5 cámaras estaciones:</strong> 1 por
+            estación principal - <strong>Justificación:</strong>
+            Monitoreo de áreas públicas y control de accesos -
+            <strong>Tecnología:</strong> Cámaras domo con visión
+            360°</p>
+            <h3 id="por-qué-24-pasos-a-nivel-intervenidos">¿Por qué 24
+            pasos a nivel intervenidos?</h3>
+            <p><strong>Criterios de Selección:</strong> -
+            <strong>Tráfico vehicular:</strong> Pasos a nivel con alto
+            volumen de tráfico - <strong>Seguridad:</strong> Pasos a
+            nivel con historial de incidentes -
+            <strong>Accesibilidad:</strong> Pasos a nivel con difícil
+            visibilidad - <strong>Priorización:</strong> Análisis de
+            riesgo y impacto social - <strong>Cobertura:</strong> 24
+            pasos a nivel más críticos del corredor</p>
+            <h3 id="por-qué-15-sistemas-its">¿Por qué 15 sistemas
+            ITS?</h3>
+            <p><strong>Componentes ITS Justificados:</strong> -
+            <strong>5 sistemas de gestión de tráfico:</strong> Una por
+            estación principal - <strong>5 sistemas de información al
+            usuario:</strong> Paneles informativos en estaciones -
+            <strong>3 sistemas de monitoreo ambiental:</strong> Sensores
+            de calidad del aire - <strong>2 sistemas de gestión de
+            emergencias:</strong> CCO y estación principal</p>
+            <h3 id="por-qué-8-sistemas-de-control-de-accesos">¿Por qué 8
+            sistemas de control de accesos?</h3>
+            <p><strong>Ubicaciones Justificadas:</strong> - <strong>1
+            CCO:</strong> Control de acceso al centro de control -
+            <strong>4 talleres:</strong> Control de acceso a talleres de
+            mantenimiento - <strong>3 estaciones principales:</strong>
+            Control de acceso a áreas restringidas</p>
+            <h3 id="por-qué-arquitectura-por-zonas">¿Por qué
+            arquitectura por zonas?</h3>
+            <p><strong>Justificación de Zonificación:</strong> | Zona |
+            Descripción | Criterio | Cantidad | |:—–|:————|:———|:———-| |
+            <strong>Zona 1</strong> | Infraestructura Crítica |
+            Seguridad máxima | CCO, talleres, ENCE | | <strong>Zona
+            2</strong> | Corredor y PAN | Monitoreo continuo | 24 pasos
+            a nivel | | <strong>Zona 3</strong> | Áreas Públicas |
+            Control de accesos | Estaciones principales |</p>
+            <h3
+            id="por-qué-disponibilidad-diferenciada-por-sistema">¿Por
+            qué disponibilidad diferenciada por sistema?</h3>
+            <p><strong>Criterios de Disponibilidad:</strong> -
+            <strong>99.5% CCTV:</strong> Sistema de monitoreo (no
+            crítico para operación) - <strong>99.5% ITS:</strong>
+            Sistema de información (no crítico para operación) -
+            <strong>99.95% Seguridad Física:</strong> Sistema crítico
+            (SIL 4 según EN 50126)</p>
+            <hr />
+            <h2 id="función-y-propósito-del-sistema">🎯 FUNCIÓN Y
+            PROPÓSITO DEL SISTEMA</h2>
+            <h3 id="qué-hace-este-sistema">¿Qué hace este sistema?</h3>
+            <p>El Sistema de ITS y Seguridad proporciona
+            <strong>protección integral</strong> de la infraestructura
+            ferroviaria: - <strong>Video vigilancia:</strong> Monitoreo
+            visual continuo de instalaciones críticas - <strong>Sistemas
+            ITS:</strong> Gestión inteligente del tráfico y información
+            al usuario - <strong>Control de accesos:</strong> Seguridad
+            física de instalaciones - <strong>Monitoreo
+            ambiental:</strong> Cumplimiento de normativas
+            ambientales</p>
+            <h3 id="por-qué-lo-necesitamos">¿Por qué lo
+            necesitamos?</h3>
+            <ul>
+            <li><strong>Seguridad:</strong> Protección de
+            infraestructura y personal</li>
+            <li><strong>Cumplimiento:</strong> Requerimientos
+            regulatorios de seguridad</li>
+            <li><strong>Eficiencia:</strong> Gestión inteligente del
+            tráfico</li>
+            <li><strong>Transparencia:</strong> Información al usuario y
+            autoridades</li>
+            </ul>
+            <h3 id="cómo-se-integra-con-otros-sistemas">¿Cómo se integra
+            con otros sistemas?</h3>
+            <pre><code>[Centro de Control] ←→ [ITS y Seguridad] ←→ [CCTV]
                                     ↓
 [Telecomunicaciones] ←→ [ITS y Seguridad] ←→ [Sistemas ITS]
                                     ↓
 [Monitoreo] ←→ [ITS y Seguridad] ←→ [Control Accesos]</code></pre>
-<hr />
-<h2 id="componentes-principales">🏗️ COMPONENTES PRINCIPALES</h2>
-<h3 id="sistema-cctv---video-vigilancia">1. Sistema CCTV - Video
-Vigilancia</h3>
-<p><strong>Propósito:</strong> Monitoreo visual continuo de
-instalaciones críticas</p>
-<p><strong>Componentes instalados:</strong> | Componente | Cantidad |
-Ubicación | Estado | |:———–|:———|:———-|:——-| | Cámaras PAN (pasos a
-nivel) | 48 unidades | Pasos a nivel críticos | ✅ Instaladas | |
-Cámaras talleres | 12 unidades | Talleres principales | ✅ Instaladas |
-| Cámaras CCO | 8 unidades | Centro de Control | ✅ Instaladas | |
-Cámaras estaciones | 5 unidades | Estaciones ENCE | ✅ Instaladas | |
-Servidor de video | 2 unidades | CCO La Dorada | ✅ Instalado | |
-Videowall | 12 pantallas | CCO La Dorada | ✅ Instalado |</p>
-<p><strong>Estado general:</strong> 🟢 En cronograma</p>
-<h3 id="sistema-its---transporte-inteligente">2. Sistema ITS -
-Transporte Inteligente</h3>
-<p><strong>Propósito:</strong> Gestión inteligente del tráfico y
-información al usuario</p>
-<p><strong>Componentes instalados:</strong> | Componente | Cantidad |
-Ubicación | Estado | |:———–|:———|:———-|:——-| | Gestión de tráfico | 1
-sistema | CCO La Dorada | ✅ Instalado | | Pantallas información | 10
-unidades | Estaciones principales | ⏳ En instalación | | Sistemas de
-monitoreo | 15 unidades | Ubicaciones críticas | ⏳ En instalación | |
-Apps móviles | 1 aplicación | Usuarios finales | ⏳ En desarrollo |</p>
-<p><strong>Estado general:</strong> 🟡 En progreso</p>
-<h3 id="sistema-de-control-de-accesos">3. Sistema de Control de
-Accesos</h3>
-<p><strong>Propósito:</strong> Seguridad física de instalaciones
-críticas</p>
-<p><strong>Componentes instalados:</strong> | Componente | Cantidad |
-Ubicación | Estado | |:———–|:———|:———-|:——-| | Lectores de tarjetas | 25
-unidades | Accesos principales | ✅ Instalados | | Cámaras de acceso |
-15 unidades | Entradas críticas | ✅ Instaladas | | Sistemas de alarma |
-8 unidades | Instalaciones críticas | ✅ Instalados | | Control central
-| 1 sistema | CCO La Dorada | ✅ Instalado |</p>
-<p><strong>Estado general:</strong> 🟢 En cronograma</p>
-<h3 id="sistema-de-monitoreo-ambiental">4. Sistema de Monitoreo
-Ambiental</h3>
-<p><strong>Propósito:</strong> Cumplimiento de normativas
-ambientales</p>
-<p><strong>Componentes instalados:</strong> | Componente | Cantidad |
-Ubicación | Estado | |:———–|:———|:———-|:——-| | Sensores de calidad aire
-| 5 unidades | Estaciones principales | ✅ Instalados | | Sensores de
-ruido | 5 unidades | Ubicaciones críticas | ✅ Instalados | | Sensores
-de vibración | 5 unidades | Cerca de comunidades | ✅ Instalados | |
-Sistema de reportes | 1 sistema | CCO La Dorada | ✅ Instalado |</p>
-<p><strong>Estado general:</strong> 🟢 En cronograma</p>
-<hr />
-<h2 id="especificaciones-técnicas-clave">📐 ESPECIFICACIONES TÉCNICAS
-CLAVE</h2>
-<h3 id="tabla-consolidada-de-especificaciones">Tabla consolidada de
-especificaciones</h3>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Parámetro</th>
-<th style="text-align: left;">Valor</th>
-<th style="text-align: left;">Estándar Aplicable</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Resolución CCTV</td>
-<td style="text-align: left;">1080p mínimo</td>
-<td style="text-align: left;">EN 50126</td>
-</tr>
-<tr>
-<td style="text-align: left;">Disponibilidad CCTV</td>
-<td style="text-align: left;">99.5%</td>
-<td style="text-align: left;">EN 50126</td>
-</tr>
-<tr>
-<td style="text-align: left;">Disponibilidad ITS</td>
-<td style="text-align: left;">99.5%</td>
-<td style="text-align: left;">EN 50126</td>
-</tr>
-<tr>
-<td style="text-align: left;">Almacenamiento video</td>
-<td style="text-align: left;">30 días mínimo</td>
-<td style="text-align: left;">EN 50126</td>
-</tr>
-<tr>
-<td style="text-align: left;">Tiempo de respuesta</td>
-<td style="text-align: left;">&lt; 1 segundo</td>
-<td style="text-align: left;">EN 50126</td>
-</tr>
-<tr>
-<td style="text-align: left;">Cobertura de monitoreo</td>
-<td style="text-align: left;">100% instalaciones críticas</td>
-<td style="text-align: left;">EN 50126</td>
-</tr>
-</tbody>
-</table>
-<h3 id="criterios-de-aceptación">Criterios de aceptación</h3>
-<ul>
-<li>✅ Resolución mínima 1080p para todas las cámaras</li>
-<li>✅ Almacenamiento 30 días de grabación histórica</li>
-<li>✅ Disponibilidad 99.5% de sistemas críticos</li>
-<li>✅ Integración completa con sistemas de control</li>
-<li>✅ Cumplimiento normativo ambiental</li>
-</ul>
-<hr />
-<h2 id="ubicación-y-despliegue">📍 UBICACIÓN Y DESPLIEGUE</h2>
-<h3 id="mapa-de-despliegue">Mapa de despliegue</h3>
-<p>El sistema se despliega en instalaciones críticas a lo largo del
-corredor, con concentración en pasos a nivel, talleres, estaciones y el
-Centro de Control Operativo.</p>
-<h3 id="tabla-de-sitios-principales">Tabla de sitios principales</h3>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Sitio</th>
-<th style="text-align: left;">Componentes</th>
-<th style="text-align: left;">Cantidad</th>
-<th style="text-align: left;">Estado</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">CCO La Dorada</td>
-<td style="text-align: left;">CCTV, ITS, Control accesos</td>
-<td style="text-align: left;">8+1+1</td>
-<td style="text-align: left;">✅ Operativo</td>
-</tr>
-<tr>
-<td style="text-align: left;">Pasos a nivel</td>
-<td style="text-align: left;">CCTV PAN</td>
-<td style="text-align: left;">48</td>
-<td style="text-align: left;">✅ Operativo</td>
-</tr>
-<tr>
-<td style="text-align: left;">Talleres</td>
-<td style="text-align: left;">CCTV, Control accesos</td>
-<td style="text-align: left;">12+8</td>
-<td style="text-align: left;">✅ Operativo</td>
-</tr>
-<tr>
-<td style="text-align: left;">Estaciones ENCE</td>
-<td style="text-align: left;">CCTV, ITS</td>
-<td style="text-align: left;">5+10</td>
-<td style="text-align: left;">⏳ En instalación</td>
-</tr>
-<tr>
-<td style="text-align: left;">Estaciones principales</td>
-<td style="text-align: left;">ITS, Monitoreo</td>
-<td style="text-align: left;">10+15</td>
-<td style="text-align: left;">⏳ En instalación</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="operación-y-mantenimiento">⚙️ OPERACIÓN Y MANTENIMIENTO</h2>
-<h3 id="operación-normal">Operación normal</h3>
-<p>El sistema opera 24/7 proporcionando monitoreo continuo de
-instalaciones críticas, con detección automática de eventos y
-notificación al personal de seguridad.</p>
-<h3 id="mantenimiento-preventivo">Mantenimiento preventivo</h3>
-<ul>
-<li><strong>Diario:</strong> Verificación de estado de cámaras y
-sistemas</li>
-<li><strong>Semanal:</strong> Pruebas de grabación y almacenamiento</li>
-<li><strong>Mensual:</strong> Limpieza de cámaras y calibración de
-sensores</li>
-<li><strong>Trimestral:</strong> Mantenimiento mayor de equipos y
-actualización de software</li>
-</ul>
-<h3 id="respuesta-a-eventos">Respuesta a eventos</h3>
-<ol type="1">
-<li><strong>Detección automática</strong> de eventos por sistemas de
-monitoreo</li>
-<li><strong>Notificación inmediata</strong> al personal de
-seguridad</li>
-<li><strong>Grabación automática</strong> de eventos críticos</li>
-<li><strong>Respuesta coordinada</strong> según procedimientos
-establecidos</li>
-<li><strong>Documentación</strong> de eventos y acciones tomadas</li>
-</ol>
-<hr />
-<h2 id="interfaces-con-otros-sistemas">🔗 INTERFACES CON OTROS
-SISTEMAS</h2>
-<h3 id="diagrama-de-interfaces">Diagrama de interfaces</h3>
-<pre><code>[Centro de Control] ←→ [ITS y Seguridad] ←→ [Telecomunicaciones]
+            <hr />
+            <h2 id="componentes-principales">🏗️ COMPONENTES
+            PRINCIPALES</h2>
+            <h3 id="sistema-cctv---video-vigilancia">1. Sistema CCTV -
+            Video Vigilancia</h3>
+            <p><strong>Propósito:</strong> Monitoreo visual continuo de
+            instalaciones críticas</p>
+            <p><strong>Componentes instalados:</strong> | Componente |
+            Cantidad | Ubicación | Estado | |:———–|:———|:———-|:——-| |
+            Cámaras PAN (pasos a nivel) | 48 unidades | Pasos a nivel
+            críticos | ✅ Instaladas | | Cámaras talleres | 12 unidades
+            | Talleres principales | ✅ Instaladas | | Cámaras CCO | 8
+            unidades | Centro de Control | ✅ Instaladas | | Cámaras
+            estaciones | 5 unidades | Estaciones ENCE | ✅ Instaladas |
+            | Servidor de video | 2 unidades | CCO La Dorada | ✅
+            Instalado | | Videowall | 12 pantallas | CCO La Dorada | ✅
+            Instalado |</p>
+            <p><strong>Estado general:</strong> 🟢 En cronograma</p>
+            <h3 id="sistema-its---transporte-inteligente">2. Sistema ITS
+            - Transporte Inteligente</h3>
+            <p><strong>Propósito:</strong> Gestión inteligente del
+            tráfico y información al usuario</p>
+            <p><strong>Componentes instalados:</strong> | Componente |
+            Cantidad | Ubicación | Estado | |:———–|:———|:———-|:——-| |
+            Gestión de tráfico | 1 sistema | CCO La Dorada | ✅
+            Instalado | | Pantallas información | 10 unidades |
+            Estaciones principales | ⏳ En instalación | | Sistemas de
+            monitoreo | 15 unidades | Ubicaciones críticas | ⏳ En
+            instalación | | Apps móviles | 1 aplicación | Usuarios
+            finales | ⏳ En desarrollo |</p>
+            <p><strong>Estado general:</strong> 🟡 En progreso</p>
+            <h3 id="sistema-de-control-de-accesos">3. Sistema de Control
+            de Accesos</h3>
+            <p><strong>Propósito:</strong> Seguridad física de
+            instalaciones críticas</p>
+            <p><strong>Componentes instalados:</strong> | Componente |
+            Cantidad | Ubicación | Estado | |:———–|:———|:———-|:——-| |
+            Lectores de tarjetas | 25 unidades | Accesos principales |
+            ✅ Instalados | | Cámaras de acceso | 15 unidades | Entradas
+            críticas | ✅ Instaladas | | Sistemas de alarma | 8 unidades
+            | Instalaciones críticas | ✅ Instalados | | Control central
+            | 1 sistema | CCO La Dorada | ✅ Instalado |</p>
+            <p><strong>Estado general:</strong> 🟢 En cronograma</p>
+            <h3 id="sistema-de-monitoreo-ambiental">4. Sistema de
+            Monitoreo Ambiental</h3>
+            <p><strong>Propósito:</strong> Cumplimiento de normativas
+            ambientales</p>
+            <p><strong>Componentes instalados:</strong> | Componente |
+            Cantidad | Ubicación | Estado | |:———–|:———|:———-|:——-| |
+            Sensores de calidad aire | 5 unidades | Estaciones
+            principales | ✅ Instalados | | Sensores de ruido | 5
+            unidades | Ubicaciones críticas | ✅ Instalados | | Sensores
+            de vibración | 5 unidades | Cerca de comunidades | ✅
+            Instalados | | Sistema de reportes | 1 sistema | CCO La
+            Dorada | ✅ Instalado |</p>
+            <p><strong>Estado general:</strong> 🟢 En cronograma</p>
+            <hr />
+            <h2 id="especificaciones-técnicas-clave">📐 ESPECIFICACIONES
+            TÉCNICAS CLAVE</h2>
+            <h3 id="tabla-consolidada-de-especificaciones">Tabla
+            consolidada de especificaciones</h3>
+            <table>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Parámetro</th>
+            <th style="text-align: left;">Valor</th>
+            <th style="text-align: left;">Estándar Aplicable</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">Resolución CCTV</td>
+            <td style="text-align: left;">1080p mínimo</td>
+            <td style="text-align: left;">EN 50126</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Disponibilidad CCTV</td>
+            <td style="text-align: left;">99.5%</td>
+            <td style="text-align: left;">EN 50126</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Disponibilidad ITS</td>
+            <td style="text-align: left;">99.5%</td>
+            <td style="text-align: left;">EN 50126</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Almacenamiento video</td>
+            <td style="text-align: left;">30 días mínimo</td>
+            <td style="text-align: left;">EN 50126</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Tiempo de respuesta</td>
+            <td style="text-align: left;">&lt; 1 segundo</td>
+            <td style="text-align: left;">EN 50126</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Cobertura de monitoreo</td>
+            <td style="text-align: left;">100% instalaciones
+            críticas</td>
+            <td style="text-align: left;">EN 50126</td>
+            </tr>
+            </tbody>
+            </table>
+            <h3 id="criterios-de-aceptación">Criterios de
+            aceptación</h3>
+            <ul>
+            <li>✅ Resolución mínima 1080p para todas las cámaras</li>
+            <li>✅ Almacenamiento 30 días de grabación histórica</li>
+            <li>✅ Disponibilidad 99.5% de sistemas críticos</li>
+            <li>✅ Integración completa con sistemas de control</li>
+            <li>✅ Cumplimiento normativo ambiental</li>
+            </ul>
+            <hr />
+            <h2 id="ubicación-y-despliegue">📍 UBICACIÓN Y
+            DESPLIEGUE</h2>
+            <h3 id="mapa-de-despliegue">Mapa de despliegue</h3>
+            <p>El sistema se despliega en instalaciones críticas a lo
+            largo del corredor, con concentración en pasos a nivel,
+            talleres, estaciones y el Centro de Control Operativo.</p>
+            <h3 id="tabla-de-sitios-principales">Tabla de sitios
+            principales</h3>
+            <table>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Sitio</th>
+            <th style="text-align: left;">Componentes</th>
+            <th style="text-align: left;">Cantidad</th>
+            <th style="text-align: left;">Estado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">CCO La Dorada</td>
+            <td style="text-align: left;">CCTV, ITS, Control
+            accesos</td>
+            <td style="text-align: left;">8+1+1</td>
+            <td style="text-align: left;">✅ Operativo</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Pasos a nivel</td>
+            <td style="text-align: left;">CCTV PAN</td>
+            <td style="text-align: left;">48</td>
+            <td style="text-align: left;">✅ Operativo</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Talleres</td>
+            <td style="text-align: left;">CCTV, Control accesos</td>
+            <td style="text-align: left;">12+8</td>
+            <td style="text-align: left;">✅ Operativo</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Estaciones ENCE</td>
+            <td style="text-align: left;">CCTV, ITS</td>
+            <td style="text-align: left;">5+10</td>
+            <td style="text-align: left;">⏳ En instalación</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Estaciones principales</td>
+            <td style="text-align: left;">ITS, Monitoreo</td>
+            <td style="text-align: left;">10+15</td>
+            <td style="text-align: left;">⏳ En instalación</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="operación-y-mantenimiento">⚙️ OPERACIÓN Y
+            MANTENIMIENTO</h2>
+            <h3 id="operación-normal">Operación normal</h3>
+            <p>El sistema opera 24/7 proporcionando monitoreo continuo
+            de instalaciones críticas, con detección automática de
+            eventos y notificación al personal de seguridad.</p>
+            <h3 id="mantenimiento-preventivo">Mantenimiento
+            preventivo</h3>
+            <ul>
+            <li><strong>Diario:</strong> Verificación de estado de
+            cámaras y sistemas</li>
+            <li><strong>Semanal:</strong> Pruebas de grabación y
+            almacenamiento</li>
+            <li><strong>Mensual:</strong> Limpieza de cámaras y
+            calibración de sensores</li>
+            <li><strong>Trimestral:</strong> Mantenimiento mayor de
+            equipos y actualización de software</li>
+            </ul>
+            <h3 id="respuesta-a-eventos">Respuesta a eventos</h3>
+            <ol type="1">
+            <li><strong>Detección automática</strong> de eventos por
+            sistemas de monitoreo</li>
+            <li><strong>Notificación inmediata</strong> al personal de
+            seguridad</li>
+            <li><strong>Grabación automática</strong> de eventos
+            críticos</li>
+            <li><strong>Respuesta coordinada</strong> según
+            procedimientos establecidos</li>
+            <li><strong>Documentación</strong> de eventos y acciones
+            tomadas</li>
+            </ol>
+            <hr />
+            <h2 id="interfaces-con-otros-sistemas">🔗 INTERFACES CON
+            OTROS SISTEMAS</h2>
+            <h3 id="diagrama-de-interfaces">Diagrama de interfaces</h3>
+            <pre><code>[Centro de Control] ←→ [ITS y Seguridad] ←→ [Telecomunicaciones]
                                     ↓
 [CCTV] ←→ [ITS y Seguridad] ←→ [Sistemas ITS]
                                     ↓
 [Control Accesos] ←→ [ITS y Seguridad] ←→ [Monitoreo Ambiental]</code></pre>
-<h3 id="tabla-de-interfaces-críticas">Tabla de interfaces críticas</h3>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Sistema</th>
-<th style="text-align: left;">Tipo de Interfaz</th>
-<th style="text-align: left;">Criticidad</th>
-<th style="text-align: left;">Responsable</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Centro de Control</td>
-<td style="text-align: left;">Videowall + Monitoreo</td>
-<td style="text-align: left;">Alta</td>
-<td style="text-align: left;">EPC Sistemas</td>
-</tr>
-<tr>
-<td style="text-align: left;">Telecomunicaciones</td>
-<td style="text-align: left;">Red de datos</td>
-<td style="text-align: left;">Alta</td>
-<td style="text-align: left;">EPC Telecomunicaciones</td>
-</tr>
-<tr>
-<td style="text-align: left;">ITS</td>
-<td style="text-align: left;">Sistemas de información</td>
-<td style="text-align: left;">Media</td>
-<td style="text-align: left;">EPC Sistemas</td>
-</tr>
-<tr>
-<td style="text-align: left;">Control de accesos</td>
-<td style="text-align: left;">Sistemas de seguridad</td>
-<td style="text-align: left;">Alta</td>
-<td style="text-align: left;">EPC Sistemas</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="riesgos-y-mitigaciones">⚠️ RIESGOS Y MITIGACIONES</h2>
-<table>
-<colgroup>
-<col style="width: 15%" />
-<col style="width: 26%" />
-<col style="width: 19%" />
-<col style="width: 23%" />
-<col style="width: 15%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Riesgo</th>
-<th style="text-align: left;">Probabilidad</th>
-<th style="text-align: left;">Impacto</th>
-<th style="text-align: left;">Mitigación</th>
-<th style="text-align: left;">Estado</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Fallo de cámaras CCTV</td>
-<td style="text-align: left;">Media</td>
-<td style="text-align: left;">Medio</td>
-<td style="text-align: left;">Redundancia y respaldo</td>
-<td style="text-align: left;">✅ Mitigado</td>
-</tr>
-<tr>
-<td style="text-align: left;">Fallo de sistemas ITS</td>
-<td style="text-align: left;">Baja</td>
-<td style="text-align: left;">Medio</td>
-<td style="text-align: left;">Sistemas de respaldo</td>
-<td style="text-align: left;">✅ Mitigado</td>
-</tr>
-<tr>
-<td style="text-align: left;">Fallo de control accesos</td>
-<td style="text-align: left;">Baja</td>
-<td style="text-align: left;">Alto</td>
-<td style="text-align: left;">Control manual de respaldo</td>
-<td style="text-align: left;">✅ Mitigado</td>
-</tr>
-<tr>
-<td style="text-align: left;">Fallo de monitoreo ambiental</td>
-<td style="text-align: left;">Baja</td>
-<td style="text-align: left;">Medio</td>
-<td style="text-align: left;">Sensores redundantes</td>
-<td style="text-align: left;">✅ Mitigado</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="cumplimiento-contractual">📋 CUMPLIMIENTO CONTRACTUAL</h2>
-<h3 id="obligaciones-clave-del-contrato">Obligaciones clave del
-contrato</h3>
-<ul>
-<li>✅ <strong>AT1 - Seguridad:</strong> Sistemas de seguridad
-integrales - Cumplida</li>
-<li>✅ <strong>AT3 - Especificaciones:</strong> CCTV 1080p y sistemas
-ITS - Cumplida</li>
-<li>✅ <strong>AT4 - Indicadores:</strong> Disponibilidad 99.5% -
-Cumplida</li>
-<li>✅ <strong>AT6 - Ambiental:</strong> Monitoreo ambiental continuo -
-Cumplida</li>
-<li>⏳ <strong>AT8 - Operaciones:</strong> Procedimientos de seguridad -
-En progreso</li>
-<li>❌ <strong>AT9 - Cronograma:</strong> Plan de implementación por
-fases - Pendiente</li>
-</ul>
-<h3 id="referencias-contractuales">Referencias contractuales</h3>
-<ul>
-<li><strong>Apéndice Técnico 1:</strong> Alcance del proyecto - Sistemas
-de seguridad</li>
-<li><strong>Apéndice Técnico 3:</strong> Especificaciones generales -
-CCTV, ITS, Control accesos</li>
-<li><strong>Apéndice Técnico 4:</strong> Indicadores de desempeño -
-Disponibilidad 99.5%</li>
-<li><strong>Apéndice Técnico 6:</strong> Gestión ambiental - Monitoreo
-ambiental</li>
-</ul>
-<hr />
-<h2 id="documentación-de-soporte">📚 DOCUMENTACIÓN DE SOPORTE</h2>
-<h3 id="documentos-técnicos-disponibles">Documentos técnicos
-disponibles</h3>
-<table>
-<colgroup>
-<col style="width: 29%" />
-<col style="width: 16%" />
-<col style="width: 24%" />
-<col style="width: 29%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Documento</th>
-<th style="text-align: left;">Fase</th>
-<th style="text-align: left;">Versión</th>
-<th style="text-align: left;">Ubicación</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">SISTEMA_03_ITS_y_Seguridad_Master.md</td>
-<td style="text-align: left;">Consolidado</td>
-<td style="text-align: left;">v1.0</td>
-<td style="text-align: left;">Carpeta X</td>
-</tr>
-<tr>
-<td
-style="text-align: left;">V.5_Sistemas_Seguridad_Detalle_v5.0.md</td>
-<td style="text-align: left;">Detalle</td>
-<td style="text-align: left;">v5.0</td>
-<td style="text-align: left;">V. Ingeniería</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.4_Manual_OM_Seguridad_v5.0.md</td>
-<td style="text-align: left;">Operación</td>
-<td style="text-align: left;">v5.0</td>
-<td style="text-align: left;">VI. Operación</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.5_Manual_OM_Integrado_v5.0.md</td>
-<td style="text-align: left;">Operación</td>
-<td style="text-align: left;">v5.0</td>
-<td style="text-align: left;">VI. Operación</td>
-</tr>
-</tbody>
-</table>
-<h3 id="para-más-información-técnica">Para más información técnica</h3>
-<p>Los documentos técnicos detallados están disponibles en la Carpeta X
-del proyecto. Para información específica sobre implementación,
-contactar al equipo de EPC Sistemas.</p>
-<hr />
-<h2 id="contactos-y-responsables">📞 CONTACTOS Y RESPONSABLES</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Rol</th>
-<th style="text-align: left;">Responsable</th>
-<th style="text-align: left;">Contacto</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Líder Técnico ITS y Seguridad</td>
-<td style="text-align: left;">[Nombre]</td>
-<td style="text-align: left;">[Email/Tel]</td>
-</tr>
-<tr>
-<td style="text-align: left;">Coordinador EPC Sistemas</td>
-<td style="text-align: left;">[Nombre]</td>
-<td style="text-align: left;">[Email/Tel]</td>
-</tr>
-<tr>
-<td style="text-align: left;">Responsable CCTV</td>
-<td style="text-align: left;">[Nombre]</td>
-<td style="text-align: left;">[Email/Tel]</td>
-</tr>
-<tr>
-<td style="text-align: left;">Responsable ITS</td>
-<td style="text-align: left;">[Nombre]</td>
-<td style="text-align: left;">[Email/Tel]</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="indicadores-de-desempeño-kpis">📊 INDICADORES DE DESEMPEÑO
-(KPIs)</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Indicador</th>
-<th style="text-align: left;">Meta</th>
-<th style="text-align: left;">Actual</th>
-<th style="text-align: left;">Estado</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Disponibilidad CCTV</td>
-<td style="text-align: left;">99.5%</td>
-<td style="text-align: left;">99.8%</td>
-<td style="text-align: left;">🟢 Excelente</td>
-</tr>
-<tr>
-<td style="text-align: left;">Disponibilidad ITS</td>
-<td style="text-align: left;">99.5%</td>
-<td style="text-align: left;">99.7%</td>
-<td style="text-align: left;">🟢 Excelente</td>
-</tr>
-<tr>
-<td style="text-align: left;">Disponibilidad Control Accesos</td>
-<td style="text-align: left;">99.5%</td>
-<td style="text-align: left;">99.9%</td>
-<td style="text-align: left;">🟢 Excelente</td>
-</tr>
-<tr>
-<td style="text-align: left;">Tiempo de respuesta</td>
-<td style="text-align: left;">&lt; 1 segundo</td>
-<td style="text-align: left;">0.8 segundos</td>
-<td style="text-align: left;">🟢 Excelente</td>
-</tr>
-<tr>
-<td style="text-align: left;">Calidad de video</td>
-<td style="text-align: left;">1080p</td>
-<td style="text-align: left;">1080p</td>
-<td style="text-align: left;">🟢 Excelente</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="decisiones-técnicas-aplicadas">📋 DECISIONES TÉCNICAS
-APLICADAS</h2>
-<h3
-id="dt-cctv-001-2025-10-07-ampliación-cctv-4873-cámaras">DT-CCTV-001-2025-10-07:
-Ampliación CCTV 48→73 cámaras</h3>
-<ul>
-<li>Cambio: Cámaras PAN 48 → 73 PTZ 4MP (+52%)</li>
-<li>Just: Cobertura completa corredor + nodos críticos</li>
-<li>Impacto: +$1,806M (+470%)</li>
-</ul>
-<h3
-id="dt-pan-001002-2025-10-07-ajuste-pan-tipo-c">DT-PAN-001/002-2025-10-07:
-Ajuste PAN Tipo C</h3>
-<ul>
-<li>Cambio: Actualización precios instalación y sistemas detección
-PAN</li>
-<li>Impacto: +$3,366M</li>
-</ul>
-<h3
-id="dt-control-001-2025-10-07-especificación-lectores-rfid">DT-CONTROL-001-2025-10-07:
-Especificación lectores RFID</h3>
-<ul>
-<li>Cambio: Descripción técnica (ISO 14443, IP65/IK10)</li>
-</ul>
-<hr />
-<h2 id="control-de-versiones">🔄 CONTROL DE VERSIONES</h2>
-<table>
-<colgroup>
-<col style="width: 18%" />
-<col style="width: 14%" />
-<col style="width: 42%" />
-<col style="width: 26%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Versión</th>
-<th style="text-align: left;">Fecha</th>
-<th style="text-align: left;">Cambios Principales</th>
-<th style="text-align: left;">Responsable</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">1.0</td>
-<td style="text-align: left;">Enero 2025</td>
-<td style="text-align: left;">Versión inicial ejecutiva</td>
-<td style="text-align: left;">Administrador Contractual EPC</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<p><strong>Documento preparado por:</strong> Administrador Contractual
-EPC<br />
-<strong>Última actualización:</strong> Enero 2025<br />
-<strong>Próxima revisión:</strong> Febrero 2025<br />
-<strong>Basado en:</strong> SISTEMA_03_ITS_y_Seguridad_Master.md
-v1.0</p>
-<!-- COCINADO DESDE FUENTES: 09/10/2025 17:30 | Fuentes: 2 | DTs: 1 -->
-<!-- COCINADO LFC-CLI v1.0 | Fecha: 3/13/2026, 1:56:38 PM | SSOT: DBCD_CRITERIA.md -->
+            <h3 id="tabla-de-interfaces-críticas">Tabla de interfaces
+            críticas</h3>
+            <table>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Sistema</th>
+            <th style="text-align: left;">Tipo de Interfaz</th>
+            <th style="text-align: left;">Criticidad</th>
+            <th style="text-align: left;">Responsable</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">Centro de Control</td>
+            <td style="text-align: left;">Videowall + Monitoreo</td>
+            <td style="text-align: left;">Alta</td>
+            <td style="text-align: left;">EPC Sistemas</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Telecomunicaciones</td>
+            <td style="text-align: left;">Red de datos</td>
+            <td style="text-align: left;">Alta</td>
+            <td style="text-align: left;">EPC Telecomunicaciones</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">ITS</td>
+            <td style="text-align: left;">Sistemas de información</td>
+            <td style="text-align: left;">Media</td>
+            <td style="text-align: left;">EPC Sistemas</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Control de accesos</td>
+            <td style="text-align: left;">Sistemas de seguridad</td>
+            <td style="text-align: left;">Alta</td>
+            <td style="text-align: left;">EPC Sistemas</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="riesgos-y-mitigaciones">⚠️ RIESGOS Y
+            MITIGACIONES</h2>
+            <table>
+            <colgroup>
+            <col style="width: 15%" />
+            <col style="width: 26%" />
+            <col style="width: 19%" />
+            <col style="width: 23%" />
+            <col style="width: 15%" />
+            </colgroup>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Riesgo</th>
+            <th style="text-align: left;">Probabilidad</th>
+            <th style="text-align: left;">Impacto</th>
+            <th style="text-align: left;">Mitigación</th>
+            <th style="text-align: left;">Estado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">Fallo de cámaras CCTV</td>
+            <td style="text-align: left;">Media</td>
+            <td style="text-align: left;">Medio</td>
+            <td style="text-align: left;">Redundancia y respaldo</td>
+            <td style="text-align: left;">✅ Mitigado</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Fallo de sistemas ITS</td>
+            <td style="text-align: left;">Baja</td>
+            <td style="text-align: left;">Medio</td>
+            <td style="text-align: left;">Sistemas de respaldo</td>
+            <td style="text-align: left;">✅ Mitigado</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Fallo de control accesos</td>
+            <td style="text-align: left;">Baja</td>
+            <td style="text-align: left;">Alto</td>
+            <td style="text-align: left;">Control manual de
+            respaldo</td>
+            <td style="text-align: left;">✅ Mitigado</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Fallo de monitoreo
+            ambiental</td>
+            <td style="text-align: left;">Baja</td>
+            <td style="text-align: left;">Medio</td>
+            <td style="text-align: left;">Sensores redundantes</td>
+            <td style="text-align: left;">✅ Mitigado</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="cumplimiento-contractual">📋 CUMPLIMIENTO
+            CONTRACTUAL</h2>
+            <h3 id="obligaciones-clave-del-contrato">Obligaciones clave
+            del contrato</h3>
+            <ul>
+            <li>✅ <strong>AT1 - Seguridad:</strong> Sistemas de
+            seguridad integrales - Cumplida</li>
+            <li>✅ <strong>AT3 - Especificaciones:</strong> CCTV 1080p y
+            sistemas ITS - Cumplida</li>
+            <li>✅ <strong>AT4 - Indicadores:</strong> Disponibilidad
+            99.5% - Cumplida</li>
+            <li>✅ <strong>AT6 - Ambiental:</strong> Monitoreo ambiental
+            continuo - Cumplida</li>
+            <li>⏳ <strong>AT8 - Operaciones:</strong> Procedimientos de
+            seguridad - En progreso</li>
+            <li>❌ <strong>AT9 - Cronograma:</strong> Plan de
+            implementación por fases - Pendiente</li>
+            </ul>
+            <h3 id="referencias-contractuales">Referencias
+            contractuales</h3>
+            <ul>
+            <li><strong>Apéndice Técnico 1:</strong> Alcance del
+            proyecto - Sistemas de seguridad</li>
+            <li><strong>Apéndice Técnico 3:</strong> Especificaciones
+            generales - CCTV, ITS, Control accesos</li>
+            <li><strong>Apéndice Técnico 4:</strong> Indicadores de
+            desempeño - Disponibilidad 99.5%</li>
+            <li><strong>Apéndice Técnico 6:</strong> Gestión ambiental -
+            Monitoreo ambiental</li>
+            </ul>
+            <hr />
+            <h2 id="documentación-de-soporte">📚 DOCUMENTACIÓN DE
+            SOPORTE</h2>
+            <h3 id="documentos-técnicos-disponibles">Documentos técnicos
+            disponibles</h3>
+            <table>
+            <colgroup>
+            <col style="width: 29%" />
+            <col style="width: 16%" />
+            <col style="width: 24%" />
+            <col style="width: 29%" />
+            </colgroup>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Documento</th>
+            <th style="text-align: left;">Fase</th>
+            <th style="text-align: left;">Versión</th>
+            <th style="text-align: left;">Ubicación</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td
+            style="text-align: left;">SISTEMA_03_ITS_y_Seguridad_Master.md</td>
+            <td style="text-align: left;">Consolidado</td>
+            <td style="text-align: left;">v1.0</td>
+            <td style="text-align: left;">Carpeta X</td>
+            </tr>
+            <tr>
+            <td
+            style="text-align: left;">V.5_Sistemas_Seguridad_Detalle_v5.0.md</td>
+            <td style="text-align: left;">Detalle</td>
+            <td style="text-align: left;">v5.0</td>
+            <td style="text-align: left;">V. Ingeniería</td>
+            </tr>
+            <tr>
+            <td
+            style="text-align: left;">6.4_Manual_OM_Seguridad_v5.0.md</td>
+            <td style="text-align: left;">Operación</td>
+            <td style="text-align: left;">v5.0</td>
+            <td style="text-align: left;">VI. Operación</td>
+            </tr>
+            <tr>
+            <td
+            style="text-align: left;">6.5_Manual_OM_Integrado_v5.0.md</td>
+            <td style="text-align: left;">Operación</td>
+            <td style="text-align: left;">v5.0</td>
+            <td style="text-align: left;">VI. Operación</td>
+            </tr>
+            </tbody>
+            </table>
+            <h3 id="para-más-información-técnica">Para más información
+            técnica</h3>
+            <p>Los documentos técnicos detallados están disponibles en
+            la Carpeta X del proyecto. Para información específica sobre
+            implementación, contactar al equipo de EPC Sistemas.</p>
+            <hr />
+            <h2 id="contactos-y-responsables">📞 CONTACTOS Y
+            RESPONSABLES</h2>
+            <table>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Rol</th>
+            <th style="text-align: left;">Responsable</th>
+            <th style="text-align: left;">Contacto</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">Líder Técnico ITS y
+            Seguridad</td>
+            <td style="text-align: left;">[Nombre]</td>
+            <td style="text-align: left;">[Email/Tel]</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Coordinador EPC Sistemas</td>
+            <td style="text-align: left;">[Nombre]</td>
+            <td style="text-align: left;">[Email/Tel]</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Responsable CCTV</td>
+            <td style="text-align: left;">[Nombre]</td>
+            <td style="text-align: left;">[Email/Tel]</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Responsable ITS</td>
+            <td style="text-align: left;">[Nombre]</td>
+            <td style="text-align: left;">[Email/Tel]</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="indicadores-de-desempeño-kpis">📊 INDICADORES DE
+            DESEMPEÑO (KPIs)</h2>
+            <table>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Indicador</th>
+            <th style="text-align: left;">Meta</th>
+            <th style="text-align: left;">Actual</th>
+            <th style="text-align: left;">Estado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">Disponibilidad CCTV</td>
+            <td style="text-align: left;">99.5%</td>
+            <td style="text-align: left;">99.8%</td>
+            <td style="text-align: left;">🟢 Excelente</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Disponibilidad ITS</td>
+            <td style="text-align: left;">99.5%</td>
+            <td style="text-align: left;">99.7%</td>
+            <td style="text-align: left;">🟢 Excelente</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Disponibilidad Control
+            Accesos</td>
+            <td style="text-align: left;">99.5%</td>
+            <td style="text-align: left;">99.9%</td>
+            <td style="text-align: left;">🟢 Excelente</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Tiempo de respuesta</td>
+            <td style="text-align: left;">&lt; 1 segundo</td>
+            <td style="text-align: left;">0.8 segundos</td>
+            <td style="text-align: left;">🟢 Excelente</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Calidad de video</td>
+            <td style="text-align: left;">1080p</td>
+            <td style="text-align: left;">1080p</td>
+            <td style="text-align: left;">🟢 Excelente</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="decisiones-técnicas-aplicadas">📋 DECISIONES
+            TÉCNICAS APLICADAS</h2>
+            <h3
+            id="dt-cctv-001-2025-10-07-ampliación-cctv-4873-cámaras">DT-CCTV-001-2025-10-07:
+            Ampliación CCTV 48→73 cámaras</h3>
+            <ul>
+            <li>Cambio: Cámaras PAN 48 → 73 PTZ 4MP (+52%)</li>
+            <li>Just: Cobertura completa corredor + nodos críticos</li>
+            <li>Impacto: +$1,806M (+470%)</li>
+            </ul>
+            <h3
+            id="dt-pan-001002-2025-10-07-ajuste-pan-tipo-c">DT-PAN-001/002-2025-10-07:
+            Ajuste PAN Tipo C</h3>
+            <ul>
+            <li>Cambio: Actualización precios instalación y sistemas
+            detección PAN</li>
+            <li>Impacto: +$3,366M</li>
+            </ul>
+            <h3
+            id="dt-control-001-2025-10-07-especificación-lectores-rfid">DT-CONTROL-001-2025-10-07:
+            Especificación lectores RFID</h3>
+            <ul>
+            <li>Cambio: Descripción técnica (ISO 14443, IP65/IK10)</li>
+            </ul>
+            <hr />
+            <h2 id="control-de-versiones">🔄 CONTROL DE VERSIONES</h2>
+            <table>
+            <colgroup>
+            <col style="width: 18%" />
+            <col style="width: 14%" />
+            <col style="width: 42%" />
+            <col style="width: 26%" />
+            </colgroup>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Versión</th>
+            <th style="text-align: left;">Fecha</th>
+            <th style="text-align: left;">Cambios Principales</th>
+            <th style="text-align: left;">Responsable</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">1.0</td>
+            <td style="text-align: left;">Enero 2025</td>
+            <td style="text-align: left;">Versión inicial ejecutiva</td>
+            <td style="text-align: left;">Administrador Contractual
+            EPC</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <p><strong>Documento preparado por:</strong> Administrador
+            Contractual EPC<br />
+            <strong>Última actualización:</strong> Enero 2025<br />
+            <strong>Próxima revisión:</strong> Febrero 2025<br />
+            <strong>Basado en:</strong>
+            SISTEMA_03_ITS_y_Seguridad_Master.md v1.0</p>
+            <!-- COCINADO DESDE FUENTES: 09/10/2025 17:30 | Fuentes: 2 | DTs: 1 -->
+            <!-- COCINADO LFC-CLI v1.0 | Fecha: 3/13/2026, 1:56:38 PM | SSOT: DBCD_CRITERIA.md -->
+        </article>
+
+        <footer style="margin-top: 4rem; text-align: center; opacity: 0.5; font-size: 0.8rem;">
+            © 2025 LFC STUDIO | SISTEMA DE COMUNICACIONES Y CONTROL | PTC VIRTUAL SICC
+        </footer>
+    </div>
+
+    <script src="../../../IX. WBS y Planificacion/lfc-terminology.js"></script>
+    <script src="../../../IX. WBS y Planificacion/sidebar-component.js"></script>
 </body>
 </html>

@@ -207,9 +207,16 @@ function serve() {
         try {
             // Generar Word
             execSync(`"${PANDOC_PATH}" "${fullPath}" -o "${path.join(carpetaWord, baseName + '.docx')}" --toc --toc-depth=3`);
-            // Generar HTML
-            execSync(`"${PANDOC_PATH}" "${fullPath}" -o "${path.join(carpetaHTML, baseName + '.html')}" --standalone --toc --toc-depth=3`);
-            log(`  ✅ Word y HTML generados exitosamente`, colors.green);
+            
+            // Generar HTML Premium con Plantilla Centralizada
+            const templatePath = path.join(REPO_ROOT, 'scripts/templates/premium-shell.html');
+            const command = `"${PANDOC_PATH}" "${fullPath}" -o "${path.join(carpetaHTML, baseName + '.html')}" ` +
+                          `--template="${templatePath}" ` +
+                          `--standalone --toc --toc-depth=3 ` +
+                          `--metadata title="${baseName.replace(/_/g, ' ')}"`;
+            
+            execSync(command);
+            log(`  💎 HTML Premium y Word generados exitosamente`, colors.green);
         } catch (e) {
             log(`  ❌ Error en Pandoc para ${file}: ${e.message}`, colors.red);
         }

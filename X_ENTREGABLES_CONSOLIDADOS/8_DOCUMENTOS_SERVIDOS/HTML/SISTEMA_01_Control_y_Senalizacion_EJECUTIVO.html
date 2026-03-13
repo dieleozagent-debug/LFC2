@@ -1,1148 +1,1149 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>SISTEMA_01_Control_y_Senalizacion_EJECUTIVO</title>
-  <style>
-    html {
-      color: #1a1a1a;
-      background-color: #fdfdfd;
-    }
-    body {
-      margin: 0 auto;
-      max-width: 36em;
-      padding-left: 50px;
-      padding-right: 50px;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      hyphens: auto;
-      overflow-wrap: break-word;
-      text-rendering: optimizeLegibility;
-      font-kerning: normal;
-    }
-    @media (max-width: 600px) {
-      body {
-        font-size: 0.9em;
-        padding: 12px;
-      }
-      h1 {
-        font-size: 1.8em;
-      }
-    }
-    @media print {
-      html {
-        background-color: white;
-      }
-      body {
-        background-color: transparent;
-        color: black;
-        font-size: 12pt;
-      }
-      p, h2, h3 {
-        orphans: 3;
-        widows: 3;
-      }
-      h2, h3, h4 {
-        page-break-after: avoid;
-      }
-    }
-    p {
-      margin: 1em 0;
-    }
-    a {
-      color: #1a1a1a;
-    }
-    a:visited {
-      color: #1a1a1a;
-    }
-    img {
-      max-width: 100%;
-    }
-    svg {
-      height: auto;
-      max-width: 100%;
-    }
-    h1, h2, h3, h4, h5, h6 {
-      margin-top: 1.4em;
-    }
-    h5, h6 {
-      font-size: 1em;
-      font-style: italic;
-    }
-    h6 {
-      font-weight: normal;
-    }
-    ol, ul {
-      padding-left: 1.7em;
-      margin-top: 1em;
-    }
-    li > ol, li > ul {
-      margin-top: 0;
-    }
-    blockquote {
-      margin: 1em 0 1em 1.7em;
-      padding-left: 1em;
-      border-left: 2px solid #e6e6e6;
-      color: #606060;
-    }
-    code {
-      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
-      font-size: 85%;
-      margin: 0;
-      hyphens: manual;
-    }
-    pre {
-      margin: 1em 0;
-      overflow: auto;
-    }
-    pre code {
-      padding: 0;
-      overflow: visible;
-      overflow-wrap: normal;
-    }
-    .sourceCode {
-     background-color: transparent;
-     overflow: visible;
-    }
-    hr {
-      background-color: #1a1a1a;
-      border: none;
-      height: 1px;
-      margin: 1em 0;
-    }
-    table {
-      margin: 1em 0;
-      border-collapse: collapse;
-      width: 100%;
-      overflow-x: auto;
-      display: block;
-      font-variant-numeric: lining-nums tabular-nums;
-    }
-    table caption {
-      margin-bottom: 0.75em;
-    }
-    tbody {
-      margin-top: 0.5em;
-      border-top: 1px solid #1a1a1a;
-      border-bottom: 1px solid #1a1a1a;
-    }
-    th {
-      border-top: 1px solid #1a1a1a;
-      padding: 0.25em 0.5em 0.25em 0.5em;
-    }
-    td {
-      padding: 0.125em 0.5em 0.25em 0.5em;
-    }
-    header {
-      margin-bottom: 4em;
-      text-align: center;
-    }
-    #TOC li {
-      list-style: none;
-    }
-    #TOC ul {
-      padding-left: 1.3em;
-    }
-    #TOC > ul {
-      padding-left: 0;
-    }
-    #TOC a:not(:hover) {
-      text-decoration: none;
-    }
-    code{white-space: pre-wrap;}
-    span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    /* The extra [class] is a hack that increases specificity enough to
-       override a similar rule in reveal.js */
-    ul.task-list[class]{list-style: none;}
-    ul.task-list li input[type="checkbox"] {
-      font-size: inherit;
-      width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
-      vertical-align: middle;
-    }
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SISTEMA 01 Control y Senalizacion
+EJECUTIVO - LFC STUDIO</title>
+    <link rel="stylesheet" href="../../../IX. WBS y Planificacion/wbs-shared.css">
+    <style>
+        .premium-doc-content {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: var(--border-radius-lg);
+            padding: 3rem;
+            backdrop-filter: var(--glass-blur);
+            box-shadow: var(--glass-shadow);
+        }
+        .premium-doc-content h1, .premium-doc-content h2, .premium-doc-content h3 {
+            color: var(--accent);
+            border-bottom: 1px solid var(--glass-border);
+            padding-bottom: 0.5rem;
+            margin-top: 2rem;
+        }
+        .premium-doc-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+            background: rgba(255,255,255,0.02);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .premium-doc-content th {
+            background: var(--accent-transparent);
+            color: var(--accent);
+            text-align: left;
+            padding: 1rem;
+        }
+        .premium-doc-content td {
+            padding: 1rem;
+            border-bottom: 1px solid var(--glass-border);
+        }
+        .premium-doc-content blockquote {
+            border-left: 4px solid var(--accent);
+            background: var(--accent-soft);
+            padding: 1rem;
+            margin: 1rem 0;
+            font-style: italic;
+        }
+        #TOC {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            padding: 1.5rem;
+            border-radius: var(--border-radius-md);
+            margin-bottom: 2rem;
+        }
+        #TOC ul { list-style: none; padding-left: 1rem; }
+        #TOC a { color: var(--text-main); text-decoration: none; font-size: 0.9rem; }
+        #TOC a:hover { color: var(--accent); }
+    </style>
 </head>
 <body>
-<nav id="TOC" role="doc-toc">
-<ul>
-<li><a href="#sistema-01-control-y-señalización"
-id="toc-sistema-01-control-y-señalización">SISTEMA 01: CONTROL Y
-SEÑALIZACIÓN</a>
-<ul>
-<li><a href="#documento-ejecutivo-de-ingeniería"
-id="toc-documento-ejecutivo-de-ingeniería">Documento Ejecutivo de
-Ingeniería</a></li>
-<li><a href="#resumen-ejecutivo" id="toc-resumen-ejecutivo">📊 RESUMEN
-EJECUTIVO</a>
-<ul>
-<li><a href="#qué-es-este-sistema-y-por-qué-importa"
-id="toc-qué-es-este-sistema-y-por-qué-importa">Qué es este sistema y por
-qué importa</a></li>
-<li><a href="#alcance-en-números---justificación-técnica"
-id="toc-alcance-en-números---justificación-técnica">Alcance en números -
-JUSTIFICACIÓN TÉCNICA</a></li>
-<li><a href="#hitos-críticos" id="toc-hitos-críticos">Hitos
-críticos</a></li>
-</ul></li>
-<li><a href="#criterios-de-diseño-y-justificaciones-técnicas"
-id="toc-criterios-de-diseño-y-justificaciones-técnicas">🔍 CRITERIOS DE
-DISEÑO Y JUSTIFICACIONES TÉCNICAS</a>
-<ul>
-<li><a href="#por-qué-filosofía-virtual-sin-señalización-física"
-id="toc-por-qué-filosofía-virtual-sin-señalización-física">¿Por qué
-Filosofía Virtual (sin señalización física)?</a></li>
-<li><a href="#por-qué-8-atp-embarcados-actualizado-con-dt-tetra-001"
-id="toc-por-qué-8-atp-embarcados-actualizado-con-dt-tetra-001">¿Por qué
-8 ATP Embarcados? (Actualizado con DT-TETRA-001)</a></li>
-<li><a href="#por-qué-5-ence-no-más-no-menos"
-id="toc-por-qué-5-ence-no-más-no-menos">¿Por qué 5 ENCE (no más, no
-menos)?</a></li>
-<li><a href="#por-qué-120-desvíos-automatizados"
-id="toc-por-qué-120-desvíos-automatizados">¿Por qué 120 desvíos
-automatizados?</a></li>
-<li><a href="#por-qué-ptc-virtual-level-2-no-level-1-o-level-3"
-id="toc-por-qué-ptc-virtual-level-2-no-level-1-o-level-3">¿Por qué PTC
-VIRTUAL Level 2 (no Level 1 o Level 3)?</a></li>
-<li><a href="#por-qué-cco-en-la-dorada-km-0000"
-id="toc-por-qué-cco-en-la-dorada-km-0000">¿Por qué CCO en La Dorada (Km
-0+000)?</a></li>
-</ul></li>
-<li><a href="#función-y-propósito-del-sistema"
-id="toc-función-y-propósito-del-sistema">🎯 FUNCIÓN Y PROPÓSITO DEL
-SISTEMA</a>
-<ul>
-<li><a href="#qué-hace-este-sistema" id="toc-qué-hace-este-sistema">¿Qué
-hace este sistema?</a></li>
-<li><a href="#por-qué-lo-necesitamos"
-id="toc-por-qué-lo-necesitamos">¿Por qué lo necesitamos?</a></li>
-<li><a href="#cómo-se-integra-con-otros-sistemas"
-id="toc-cómo-se-integra-con-otros-sistemas">¿Cómo se integra con otros
-sistemas?</a></li>
-</ul></li>
-<li><a href="#componentes-principales"
-id="toc-componentes-principales">🏗️ COMPONENTES PRINCIPALES</a>
-<ul>
-<li><a href="#ctc-virtual---centro-de-control-centralizado"
-id="toc-ctc-virtual---centro-de-control-centralizado">1. CTC Virtual -
-Centro de Control Centralizado</a></li>
-<li><a href="#atp-embarcado---protección-automática-de-trenes"
-id="toc-atp-embarcado---protección-automática-de-trenes">2. ATP
-Embarcado - Protección Automática de Trenes</a></li>
-<li><a href="#ence---enclavamientos-electrónicos"
-id="toc-ence---enclavamientos-electrónicos">3. ENCE - Enclavamientos
-Electrónicos</a></li>
-<li><a href="#desvíos-automatizados" id="toc-desvíos-automatizados">4.
-Desvíos Automatizados</a></li>
-</ul></li>
-<li><a href="#especificaciones-técnicas-clave"
-id="toc-especificaciones-técnicas-clave">📐 ESPECIFICACIONES TÉCNICAS
-CLAVE</a>
-<ul>
-<li><a href="#tabla-consolidada-de-especificaciones"
-id="toc-tabla-consolidada-de-especificaciones">Tabla consolidada de
-especificaciones</a></li>
-<li><a href="#criterios-de-aceptación"
-id="toc-criterios-de-aceptación">Criterios de aceptación</a></li>
-</ul></li>
-<li><a href="#ubicación-y-despliegue" id="toc-ubicación-y-despliegue">📍
-UBICACIÓN Y DESPLIEGUE</a>
-<ul>
-<li><a href="#mapa-de-despliegue" id="toc-mapa-de-despliegue">Mapa de
-despliegue</a></li>
-<li><a href="#tabla-de-sitios-principales"
-id="toc-tabla-de-sitios-principales">Tabla de sitios
-principales</a></li>
-</ul></li>
-<li><a href="#operación-y-mantenimiento"
-id="toc-operación-y-mantenimiento">⚙️ OPERACIÓN Y MANTENIMIENTO</a>
-<ul>
-<li><a href="#operación-normal" id="toc-operación-normal">Operación
-normal</a></li>
-<li><a href="#mantenimiento-preventivo"
-id="toc-mantenimiento-preventivo">Mantenimiento preventivo</a></li>
-<li><a href="#respuesta-a-fallas" id="toc-respuesta-a-fallas">Respuesta
-a fallas</a></li>
-</ul></li>
-<li><a href="#interfaces-con-otros-sistemas"
-id="toc-interfaces-con-otros-sistemas">🔗 INTERFACES CON OTROS
-SISTEMAS</a>
-<ul>
-<li><a href="#diagrama-de-interfaces"
-id="toc-diagrama-de-interfaces">Diagrama de interfaces</a></li>
-<li><a href="#tabla-de-interfaces-críticas"
-id="toc-tabla-de-interfaces-críticas">Tabla de interfaces
-críticas</a></li>
-<li><a
-href="#ítem-wbs-1.1.106---bloque-de-integración-de-interfaces-actualizado-dt-interfaces-001"
-id="toc-ítem-wbs-1.1.106---bloque-de-integración-de-interfaces-actualizado-dt-interfaces-001"><strong>Ítem
-WBS 1.1.106 - Bloque de Integración de Interfaces</strong> ⭐
-ACTUALIZADO (DT-INTERFACES-001)</a></li>
-</ul></li>
-<li><a href="#supuestos-técnicos-y-limitaciones"
-id="toc-supuestos-técnicos-y-limitaciones">📋 SUPUESTOS TÉCNICOS Y
-LIMITACIONES</a>
-<ul>
-<li><a href="#supuestos-críticos-del-diseño"
-id="toc-supuestos-críticos-del-diseño">Supuestos Críticos del
-Diseño</a></li>
-<li><a href="#limitaciones-del-diseño"
-id="toc-limitaciones-del-diseño">Limitaciones del Diseño</a></li>
-<li><a href="#dependencias-críticas"
-id="toc-dependencias-críticas">Dependencias Críticas</a></li>
-</ul></li>
-<li><a href="#riesgos-y-mitigaciones" id="toc-riesgos-y-mitigaciones">⚠️
-RIESGOS Y MITIGACIONES</a></li>
-<li><a href="#cumplimiento-contractual"
-id="toc-cumplimiento-contractual">📋 CUMPLIMIENTO CONTRACTUAL</a>
-<ul>
-<li><a href="#obligaciones-clave-del-contrato"
-id="toc-obligaciones-clave-del-contrato">Obligaciones clave del
-contrato</a></li>
-<li><a href="#referencias-contractuales"
-id="toc-referencias-contractuales">Referencias contractuales</a></li>
-</ul></li>
-<li><a href="#documentación-de-soporte"
-id="toc-documentación-de-soporte">📚 DOCUMENTACIÓN DE SOPORTE</a>
-<ul>
-<li><a href="#documentos-técnicos-disponibles"
-id="toc-documentos-técnicos-disponibles">Documentos técnicos
-disponibles</a></li>
-<li><a href="#para-más-información-técnica"
-id="toc-para-más-información-técnica">Para más información
-técnica</a></li>
-</ul></li>
-<li><a href="#contactos-y-responsables"
-id="toc-contactos-y-responsables">📞 CONTACTOS Y RESPONSABLES</a></li>
-<li><a href="#indicadores-de-desempeño-kpis"
-id="toc-indicadores-de-desempeño-kpis">📊 INDICADORES DE DESEMPEÑO
-(KPIs)</a></li>
-<li><a href="#decisiones-técnicas-aplicadas"
-id="toc-decisiones-técnicas-aplicadas">📋 DECISIONES TÉCNICAS
-APLICADAS</a>
-<ul>
-<li><a href="#dt-tetra-001-2025-10-07-atp-158-unidades"
-id="toc-dt-tetra-001-2025-10-07-atp-158-unidades">DT-TETRA-001-2025-10-07:
-ATP 15→8 unidades</a></li>
-<li><a href="#dt-ctc-001002003-software-y-componentes-ctc"
-id="toc-dt-ctc-001002003-software-y-componentes-ctc">DT-CTC-001/002/003:
-Software y componentes CTC</a></li>
-<li><a href="#dt-interfaces-001-2025-10-09-bloque-integración-if-07"
-id="toc-dt-interfaces-001-2025-10-09-bloque-integración-if-07">DT-INTERFACES-001-2025-10-09:
-Bloque integración IF-07</a></li>
-<li><a href="#dt-ence-001-a-005-enclavamientos"
-id="toc-dt-ence-001-a-005-enclavamientos">DT-ENCE-001 a 005:
-Enclavamientos</a></li>
-</ul></li>
-<li><a href="#control-de-versiones" id="toc-control-de-versiones">🔄
-CONTROL DE VERSIONES</a></li>
-</ul></li>
-</ul>
-</nav>
-<h1 id="sistema-01-control-y-señalización">SISTEMA 01: CONTROL Y
-SEÑALIZACIÓN</h1>
-<h2 id="documento-ejecutivo-de-ingeniería">Documento Ejecutivo de
-Ingeniería</h2>
-<hr />
-<h2 id="resumen-ejecutivo">📊 RESUMEN EJECUTIVO</h2>
-<h3 id="qué-es-este-sistema-y-por-qué-importa">Qué es este sistema y por
-qué importa</h3>
-<p>El Sistema de Control y Señalización es el <strong>“cerebro” del
-ferrocarril</strong> que permite la operación segura y eficiente de
-todos los trenes. Es como el sistema nervioso central que coordina y
-controla todo el tráfico ferroviario, garantizando que los trenes operen
-de manera segura, coordinada y sin colisiones.</p>
-<h3 id="alcance-en-números---justificación-técnica">Alcance en números -
-JUSTIFICACIÓN TÉCNICA</h3>
-<ul>
-<li><strong>Inversión estimada:</strong> $65,000 millones COP</li>
-<li><strong>1 CTC Virtual:</strong> Control centralizado desde CCO La
-Dorada (Km 0+000) con redundancia N+1</li>
-<li><strong>8 ATP Embarcados:</strong> PTC PTC VIRTUAL Level 2 (reducido
-de 15 a 8 con DT-TETRA-001)</li>
-<li><strong>5 ENCE:</strong> Enclavamientos electrónicos en estaciones
-críticas (La Dorada, Puerto Berrío, Barrancabermeja, Bucaramanga,
-Chiriguaná)</li>
-<li><strong>120 desvíos:</strong> Control automatizado de todos los
-desvíos en vía principal</li>
-<li><strong>1 Bloque Integración:</strong> IF-07 agregada
-(DT-INTERFACES-001) para integración CTC-PTC-FENOCO</li>
-<li><strong>Cobertura:</strong> 100% del corredor con filosofía virtual
-(sin señalización física)</li>
-<li><strong>Disponibilidad requerida:</strong> 99.95% (sistema crítico
-según estándares EN 50126)</li>
-</ul>
-<h3 id="hitos-críticos">Hitos críticos</h3>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Fase</th>
-<th style="text-align: left;">Fecha</th>
-<th style="text-align: left;">Estado</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Diseño Conceptual</td>
-<td style="text-align: left;">Enero 2025</td>
-<td style="text-align: left;">✅ Completado</td>
-</tr>
-<tr>
-<td style="text-align: left;">Instalación CTC</td>
-<td style="text-align: left;">Marzo 2025</td>
-<td style="text-align: left;">⏳ En progreso</td>
-</tr>
-<tr>
-<td style="text-align: left;">Instalación ATP</td>
-<td style="text-align: left;">Abril 2025</td>
-<td style="text-align: left;">⏳ En progreso</td>
-</tr>
-<tr>
-<td style="text-align: left;">Comisionamiento</td>
-<td style="text-align: left;">Mayo 2025</td>
-<td style="text-align: left;">❌ Pendiente</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="criterios-de-diseño-y-justificaciones-técnicas">🔍 CRITERIOS DE
-DISEÑO Y JUSTIFICACIONES TÉCNICAS</h2>
-<h3 id="por-qué-filosofía-virtual-sin-señalización-física">¿Por qué
-Filosofía Virtual (sin señalización física)?</h3>
-<p><strong>Análisis de Alternativas:</strong> | Alternativa | Ventajas |
-Desventajas | Decisión | |:————|:———|:————|:———| | <strong>Señalización
-Física</strong> | Familiar, visible | Costo elevado, mantenimiento
-complejo | ❌ Rechazada | | <strong>Señalización Virtual</strong> |
-Costo optimizado, mantenimiento simplificado | Requiere ATP embarcado |
-✅ <strong>Seleccionada</strong> | | <strong>RBC Centralizado</strong> |
-Control centralizado | No aplicable para filosofía virtual | ❌
-Rechazada | | <strong>Control Distribuido</strong> | Redundancia
-geográfica | Complejidad operacional | ❌ Rechazada |</p>
-<p><strong>Justificación de la Decisión:</strong> - <strong>Costo
-optimizado:</strong> Eliminación de 120 señales físicas y cableado
-asociado - <strong>Mantenimiento simplificado:</strong> Sin
-mantenimiento de señalización en vía - <strong>Flexibilidad:</strong>
-Cambios de configuración desde CCO sin intervención en vía -
-<strong>Disponibilidad:</strong> Redundancia N+1 en CCO vs redundancia
-distribuida</p>
-<h3 id="por-qué-8-atp-embarcados-actualizado-con-dt-tetra-001">¿Por qué
-8 ATP Embarcados? (Actualizado con DT-TETRA-001)</h3>
-<p><strong>Justificación Técnica:</strong> - <strong>Parque rodante
-contractual:</strong> 15 locomotoras según AT1 - <strong>Operación
-simultánea:</strong> Máximo 5 locomotoras operando al mismo tiempo (AT1
-§3.1) - <strong>Criterio 5+2+1:</strong> - <strong>5 unidades
-producción:</strong> Para operación normal simultánea - <strong>2
-unidades diseño/pruebas:</strong> FAT, SAT y comisionamiento - <strong>1
-unidad contingencia:</strong> Respaldo estratégico - <strong>Total
-optimizado:</strong> 8 ATP embarcados (ahorro 47% vs 15 originales) -
-<strong>Tecnología PTC VIRTUAL Level 2:</strong> Estándar europeo para
-control automático de trenes - <strong>Decisión Técnica:</strong>
-DT-TETRA-001-2025-10-07 (aprobada por PMO + Especialista Sistemas)</p>
-<h3 id="por-qué-5-ence-no-más-no-menos">¿Por qué 5 ENCE (no más, no
-menos)?</h3>
-<p><strong>Justificación de Ubicaciones:</strong> - <strong>Estaciones
-críticas:</strong> La Dorada, Puerto Berrío, Barrancabermeja,
-Bucaramanga, Chiriguaná - <strong>Criterio de selección:</strong>
-Estaciones principales con maniobras complejas -
-<strong>Funcionalidad:</strong> Enclavamientos electrónicos para
-protección de maniobras - <strong>Cálculo:</strong> Solo estaciones con
-conflictos de rutas requieren ENCE - <strong>Optimización:</strong>
-Estaciones secundarias no requieren ENCE (control desde CCO)</p>
-<h3 id="por-qué-120-desvíos-automatizados">¿Por qué 120 desvíos
-automatizados?</h3>
-<p><strong>Justificación Técnica:</strong> - <strong>Inventario de
-desvíos:</strong> 120 desvíos identificados en vía principal -
-<strong>Control centralizado:</strong> Todos los desvíos controlados
-desde CCO - <strong>Automatización:</strong> Reducción de errores
-humanos en maniobras - <strong>Seguridad:</strong> Control automático de
-posición de agujas - <strong>Eficiencia:</strong> Cambios de
-configuración desde CCO en tiempo real</p>
-<h3 id="por-qué-ptc-virtual-level-2-no-level-1-o-level-3">¿Por qué PTC
-VIRTUAL Level 2 (no Level 1 o Level 3)?</h3>
-<p><strong>Análisis de Niveles PTC VIRTUAL:</strong> | Nivel |
-Descripción | Ventajas | Desventajas | Decisión |
-|:——|:————|:———|:————|:———| | <strong>Level 1</strong> | Punto de
-referencia virtuals + ATP embarcado | Simplicidad | Limitaciones de
-capacidad | ❌ Rechazado | | <strong>Level 2</strong> | RED TETRA
-(Misión Crítica) + ATP embarcado | Óptimo costo/beneficio | Requiere RED
-TETRA (Misión Crítica) | ✅ <strong>Seleccionado</strong> | |
-<strong>Level 3</strong> | Sin bloqueo fijo | Máxima capacidad |
-Complejidad alta | ❌ Rechazado |</p>
-<p><strong>Justificación de Level 2:</strong> - <strong>Balance
-óptimo:</strong> Capacidad vs complejidad vs costo -
-<strong>Compatibilidad:</strong> Estándar internacional ferroviario -
-<strong>Interoperabilidad:</strong> Compatible con FENOCO -
-<strong>Tecnología probada:</strong> Implementación exitosa en
-Europa</p>
-<h3 id="por-qué-cco-en-la-dorada-km-0000">¿Por qué CCO en La Dorada (Km
-0+000)?</h3>
-<p><strong>Criterios de Ubicación:</strong> - <strong>Punto de
-inicio:</strong> Km 0+000 del corredor ferroviario -
-<strong>Accesibilidad:</strong> Fácil acceso para personal de operación
-- <strong>Infraestructura:</strong> Disponibilidad de servicios
-(eléctrico, telecomunicaciones) - <strong>Gestión:</strong>
-Concentración de personal técnico y administrativo -
-<strong>Logística:</strong> Proximidad a talleres y depósitos
-principales</p>
-<hr />
-<h2 id="función-y-propósito-del-sistema">🎯 FUNCIÓN Y PROPÓSITO DEL
-SISTEMA</h2>
-<h3 id="qué-hace-este-sistema">¿Qué hace este sistema?</h3>
-<p>El Sistema de Control y Señalización proporciona <strong>control
-centralizado</strong> de todo el tráfico ferroviario: - <strong>Control
-de tráfico:</strong> Coordinación de todos los trenes en el corredor -
-<strong>Protección automática:</strong> Prevención de colisiones y
-descarrilamientos - <strong>Gestión de rutas:</strong> Asignación y
-control de rutas para cada tren - <strong>Monitoreo en tiempo
-real:</strong> Supervisión continua del estado del sistema</p>
-<h3 id="por-qué-lo-necesitamos">¿Por qué lo necesitamos?</h3>
-<ul>
-<li><strong>Seguridad:</strong> Prevención de accidentes
-ferroviarios</li>
-<li><strong>Eficiencia:</strong> Optimización del flujo de tráfico</li>
-<li><strong>Automatización:</strong> Reducción de errores humanos</li>
-<li><strong>Cumplimiento:</strong> Requerimientos regulatorios de
-seguridad</li>
-</ul>
-<h3 id="cómo-se-integra-con-otros-sistemas">¿Cómo se integra con otros
-sistemas?</h3>
-<pre><code>[Centro de Control] ←→ [Control y Señalización] ←→ [Locomotoras]
+    <div id="lfc-sidebar-container"></div>
+    <div class="main-content-wrapper">
+        <header class="premium-card" style="margin-bottom: 2rem; text-align: center;">
+            <h1 class="premium-title">SISTEMA 01 Control y Senalizacion
+EJECUTIVO</h1>
+            <p style="opacity: 0.7;">REPORTE EJECUTIVO GENERADO DINÁMICAMENTE | SICC-READY</p>
+        </header>
+
+        <nav id="TOC">
+            <h3 style="margin-top: 0; color: var(--accent);">📍 ÍNDICE DE CONTENIDO</h3>
+            <ul>
+            <li><a href="#sistema-01-control-y-señalización"
+            id="toc-sistema-01-control-y-señalización">SISTEMA 01:
+            CONTROL Y SEÑALIZACIÓN</a>
+            <ul>
+            <li><a href="#documento-ejecutivo-de-ingeniería"
+            id="toc-documento-ejecutivo-de-ingeniería">Documento
+            Ejecutivo de Ingeniería</a></li>
+            <li><a href="#resumen-ejecutivo"
+            id="toc-resumen-ejecutivo">📊 RESUMEN EJECUTIVO</a>
+            <ul>
+            <li><a href="#qué-es-este-sistema-y-por-qué-importa"
+            id="toc-qué-es-este-sistema-y-por-qué-importa">Qué es este
+            sistema y por qué importa</a></li>
+            <li><a href="#alcance-en-números---justificación-técnica"
+            id="toc-alcance-en-números---justificación-técnica">Alcance
+            en números - JUSTIFICACIÓN TÉCNICA</a></li>
+            <li><a href="#hitos-críticos" id="toc-hitos-críticos">Hitos
+            críticos</a></li>
+            </ul></li>
+            <li><a
+            href="#criterios-de-diseño-y-justificaciones-técnicas"
+            id="toc-criterios-de-diseño-y-justificaciones-técnicas">🔍
+            CRITERIOS DE DISEÑO Y JUSTIFICACIONES TÉCNICAS</a>
+            <ul>
+            <li><a
+            href="#por-qué-filosofía-virtual-sin-señalización-física"
+            id="toc-por-qué-filosofía-virtual-sin-señalización-física">¿Por
+            qué Filosofía Virtual (sin señalización física)?</a></li>
+            <li><a
+            href="#por-qué-8-atp-embarcados-actualizado-con-dt-tetra-001"
+            id="toc-por-qué-8-atp-embarcados-actualizado-con-dt-tetra-001">¿Por
+            qué 8 ATP Embarcados? (Actualizado con
+            DT-TETRA-001)</a></li>
+            <li><a href="#por-qué-5-ence-no-más-no-menos"
+            id="toc-por-qué-5-ence-no-más-no-menos">¿Por qué 5 ENCE (no
+            más, no menos)?</a></li>
+            <li><a href="#por-qué-120-desvíos-automatizados"
+            id="toc-por-qué-120-desvíos-automatizados">¿Por qué 120
+            desvíos automatizados?</a></li>
+            <li><a
+            href="#por-qué-ptc-virtual-level-2-no-level-1-o-level-3"
+            id="toc-por-qué-ptc-virtual-level-2-no-level-1-o-level-3">¿Por
+            qué PTC VIRTUAL Level 2 (no Level 1 o Level 3)?</a></li>
+            <li><a href="#por-qué-cco-en-la-dorada-km-0000"
+            id="toc-por-qué-cco-en-la-dorada-km-0000">¿Por qué CCO en La
+            Dorada (Km 0+000)?</a></li>
+            </ul></li>
+            <li><a href="#función-y-propósito-del-sistema"
+            id="toc-función-y-propósito-del-sistema">🎯 FUNCIÓN Y
+            PROPÓSITO DEL SISTEMA</a>
+            <ul>
+            <li><a href="#qué-hace-este-sistema"
+            id="toc-qué-hace-este-sistema">¿Qué hace este
+            sistema?</a></li>
+            <li><a href="#por-qué-lo-necesitamos"
+            id="toc-por-qué-lo-necesitamos">¿Por qué lo
+            necesitamos?</a></li>
+            <li><a href="#cómo-se-integra-con-otros-sistemas"
+            id="toc-cómo-se-integra-con-otros-sistemas">¿Cómo se integra
+            con otros sistemas?</a></li>
+            </ul></li>
+            <li><a href="#componentes-principales"
+            id="toc-componentes-principales">🏗️ COMPONENTES
+            PRINCIPALES</a>
+            <ul>
+            <li><a href="#ctc-virtual---centro-de-control-centralizado"
+            id="toc-ctc-virtual---centro-de-control-centralizado">1. CTC
+            Virtual - Centro de Control Centralizado</a></li>
+            <li><a
+            href="#atp-embarcado---protección-automática-de-trenes"
+            id="toc-atp-embarcado---protección-automática-de-trenes">2.
+            ATP Embarcado - Protección Automática de Trenes</a></li>
+            <li><a href="#ence---enclavamientos-electrónicos"
+            id="toc-ence---enclavamientos-electrónicos">3. ENCE -
+            Enclavamientos Electrónicos</a></li>
+            <li><a href="#desvíos-automatizados"
+            id="toc-desvíos-automatizados">4. Desvíos
+            Automatizados</a></li>
+            </ul></li>
+            <li><a href="#especificaciones-técnicas-clave"
+            id="toc-especificaciones-técnicas-clave">📐 ESPECIFICACIONES
+            TÉCNICAS CLAVE</a>
+            <ul>
+            <li><a href="#tabla-consolidada-de-especificaciones"
+            id="toc-tabla-consolidada-de-especificaciones">Tabla
+            consolidada de especificaciones</a></li>
+            <li><a href="#criterios-de-aceptación"
+            id="toc-criterios-de-aceptación">Criterios de
+            aceptación</a></li>
+            </ul></li>
+            <li><a href="#ubicación-y-despliegue"
+            id="toc-ubicación-y-despliegue">📍 UBICACIÓN Y
+            DESPLIEGUE</a>
+            <ul>
+            <li><a href="#mapa-de-despliegue"
+            id="toc-mapa-de-despliegue">Mapa de despliegue</a></li>
+            <li><a href="#tabla-de-sitios-principales"
+            id="toc-tabla-de-sitios-principales">Tabla de sitios
+            principales</a></li>
+            </ul></li>
+            <li><a href="#operación-y-mantenimiento"
+            id="toc-operación-y-mantenimiento">⚙️ OPERACIÓN Y
+            MANTENIMIENTO</a>
+            <ul>
+            <li><a href="#operación-normal"
+            id="toc-operación-normal">Operación normal</a></li>
+            <li><a href="#mantenimiento-preventivo"
+            id="toc-mantenimiento-preventivo">Mantenimiento
+            preventivo</a></li>
+            <li><a href="#respuesta-a-fallas"
+            id="toc-respuesta-a-fallas">Respuesta a fallas</a></li>
+            </ul></li>
+            <li><a href="#interfaces-con-otros-sistemas"
+            id="toc-interfaces-con-otros-sistemas">🔗 INTERFACES CON
+            OTROS SISTEMAS</a>
+            <ul>
+            <li><a href="#diagrama-de-interfaces"
+            id="toc-diagrama-de-interfaces">Diagrama de
+            interfaces</a></li>
+            <li><a href="#tabla-de-interfaces-críticas"
+            id="toc-tabla-de-interfaces-críticas">Tabla de interfaces
+            críticas</a></li>
+            <li><a
+            href="#ítem-wbs-1.1.106---bloque-de-integración-de-interfaces-actualizado-dt-interfaces-001"
+            id="toc-ítem-wbs-1.1.106---bloque-de-integración-de-interfaces-actualizado-dt-interfaces-001"><strong>Ítem
+            WBS 1.1.106 - Bloque de Integración de Interfaces</strong>
+            ⭐ ACTUALIZADO (DT-INTERFACES-001)</a></li>
+            </ul></li>
+            <li><a href="#supuestos-técnicos-y-limitaciones"
+            id="toc-supuestos-técnicos-y-limitaciones">📋 SUPUESTOS
+            TÉCNICOS Y LIMITACIONES</a>
+            <ul>
+            <li><a href="#supuestos-críticos-del-diseño"
+            id="toc-supuestos-críticos-del-diseño">Supuestos Críticos
+            del Diseño</a></li>
+            <li><a href="#limitaciones-del-diseño"
+            id="toc-limitaciones-del-diseño">Limitaciones del
+            Diseño</a></li>
+            <li><a href="#dependencias-críticas"
+            id="toc-dependencias-críticas">Dependencias
+            Críticas</a></li>
+            </ul></li>
+            <li><a href="#riesgos-y-mitigaciones"
+            id="toc-riesgos-y-mitigaciones">⚠️ RIESGOS Y
+            MITIGACIONES</a></li>
+            <li><a href="#cumplimiento-contractual"
+            id="toc-cumplimiento-contractual">📋 CUMPLIMIENTO
+            CONTRACTUAL</a>
+            <ul>
+            <li><a href="#obligaciones-clave-del-contrato"
+            id="toc-obligaciones-clave-del-contrato">Obligaciones clave
+            del contrato</a></li>
+            <li><a href="#referencias-contractuales"
+            id="toc-referencias-contractuales">Referencias
+            contractuales</a></li>
+            </ul></li>
+            <li><a href="#documentación-de-soporte"
+            id="toc-documentación-de-soporte">📚 DOCUMENTACIÓN DE
+            SOPORTE</a>
+            <ul>
+            <li><a href="#documentos-técnicos-disponibles"
+            id="toc-documentos-técnicos-disponibles">Documentos técnicos
+            disponibles</a></li>
+            <li><a href="#para-más-información-técnica"
+            id="toc-para-más-información-técnica">Para más información
+            técnica</a></li>
+            </ul></li>
+            <li><a href="#contactos-y-responsables"
+            id="toc-contactos-y-responsables">📞 CONTACTOS Y
+            RESPONSABLES</a></li>
+            <li><a href="#indicadores-de-desempeño-kpis"
+            id="toc-indicadores-de-desempeño-kpis">📊 INDICADORES DE
+            DESEMPEÑO (KPIs)</a></li>
+            <li><a href="#decisiones-técnicas-aplicadas"
+            id="toc-decisiones-técnicas-aplicadas">📋 DECISIONES
+            TÉCNICAS APLICADAS</a>
+            <ul>
+            <li><a href="#dt-tetra-001-2025-10-07-atp-158-unidades"
+            id="toc-dt-tetra-001-2025-10-07-atp-158-unidades">DT-TETRA-001-2025-10-07:
+            ATP 15→8 unidades</a></li>
+            <li><a href="#dt-ctc-001002003-software-y-componentes-ctc"
+            id="toc-dt-ctc-001002003-software-y-componentes-ctc">DT-CTC-001/002/003:
+            Software y componentes CTC</a></li>
+            <li><a
+            href="#dt-interfaces-001-2025-10-09-bloque-integración-if-07"
+            id="toc-dt-interfaces-001-2025-10-09-bloque-integración-if-07">DT-INTERFACES-001-2025-10-09:
+            Bloque integración IF-07</a></li>
+            <li><a href="#dt-ence-001-a-005-enclavamientos"
+            id="toc-dt-ence-001-a-005-enclavamientos">DT-ENCE-001 a 005:
+            Enclavamientos</a></li>
+            </ul></li>
+            <li><a href="#control-de-versiones"
+            id="toc-control-de-versiones">🔄 CONTROL DE
+            VERSIONES</a></li>
+            </ul></li>
+            </ul>
+        </nav>
+
+        <article class="premium-doc-content">
+            <h1 id="sistema-01-control-y-señalización">SISTEMA 01:
+            CONTROL Y SEÑALIZACIÓN</h1>
+            <h2 id="documento-ejecutivo-de-ingeniería">Documento
+            Ejecutivo de Ingeniería</h2>
+            <hr />
+            <h2 id="resumen-ejecutivo">📊 RESUMEN EJECUTIVO</h2>
+            <h3 id="qué-es-este-sistema-y-por-qué-importa">Qué es este
+            sistema y por qué importa</h3>
+            <p>El Sistema de Control y Señalización es el
+            <strong>“cerebro” del ferrocarril</strong> que permite la
+            operación segura y eficiente de todos los trenes. Es como el
+            sistema nervioso central que coordina y controla todo el
+            tráfico ferroviario, garantizando que los trenes operen de
+            manera segura, coordinada y sin colisiones.</p>
+            <h3 id="alcance-en-números---justificación-técnica">Alcance
+            en números - JUSTIFICACIÓN TÉCNICA</h3>
+            <ul>
+            <li><strong>Inversión estimada:</strong> $65,000 millones
+            COP</li>
+            <li><strong>1 CTC Virtual:</strong> Control centralizado
+            desde CCO La Dorada (Km 0+000) con redundancia N+1</li>
+            <li><strong>8 ATP Embarcados:</strong> PTC PTC VIRTUAL Level
+            2 (reducido de 15 a 8 con DT-TETRA-001)</li>
+            <li><strong>5 ENCE:</strong> Enclavamientos electrónicos en
+            estaciones críticas (La Dorada, Puerto Berrío,
+            Barrancabermeja, Bucaramanga, Chiriguaná)</li>
+            <li><strong>120 desvíos:</strong> Control automatizado de
+            todos los desvíos en vía principal</li>
+            <li><strong>1 Bloque Integración:</strong> IF-07 agregada
+            (DT-INTERFACES-001) para integración CTC-PTC-FENOCO</li>
+            <li><strong>Cobertura:</strong> 100% del corredor con
+            filosofía virtual (sin señalización física)</li>
+            <li><strong>Disponibilidad requerida:</strong> 99.95%
+            (sistema crítico según estándares EN 50126)</li>
+            </ul>
+            <h3 id="hitos-críticos">Hitos críticos</h3>
+            <table>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Fase</th>
+            <th style="text-align: left;">Fecha</th>
+            <th style="text-align: left;">Estado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">Diseño Conceptual</td>
+            <td style="text-align: left;">Enero 2025</td>
+            <td style="text-align: left;">✅ Completado</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Instalación CTC</td>
+            <td style="text-align: left;">Marzo 2025</td>
+            <td style="text-align: left;">⏳ En progreso</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Instalación ATP</td>
+            <td style="text-align: left;">Abril 2025</td>
+            <td style="text-align: left;">⏳ En progreso</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Comisionamiento</td>
+            <td style="text-align: left;">Mayo 2025</td>
+            <td style="text-align: left;">❌ Pendiente</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="criterios-de-diseño-y-justificaciones-técnicas">🔍
+            CRITERIOS DE DISEÑO Y JUSTIFICACIONES TÉCNICAS</h2>
+            <h3
+            id="por-qué-filosofía-virtual-sin-señalización-física">¿Por
+            qué Filosofía Virtual (sin señalización física)?</h3>
+            <p><strong>Análisis de Alternativas:</strong> | Alternativa
+            | Ventajas | Desventajas | Decisión |
+            |:————|:———|:————|:———| | <strong>Señalización
+            Física</strong> | Familiar, visible | Costo elevado,
+            mantenimiento complejo | ❌ Rechazada | |
+            <strong>Señalización Virtual</strong> | Costo optimizado,
+            mantenimiento simplificado | Requiere ATP embarcado | ✅
+            <strong>Seleccionada</strong> | | <strong>RBC
+            Centralizado</strong> | Control centralizado | No aplicable
+            para filosofía virtual | ❌ Rechazada | | <strong>Control
+            Distribuido</strong> | Redundancia geográfica | Complejidad
+            operacional | ❌ Rechazada |</p>
+            <p><strong>Justificación de la Decisión:</strong> -
+            <strong>Costo optimizado:</strong> Eliminación de 120
+            señales físicas y cableado asociado - <strong>Mantenimiento
+            simplificado:</strong> Sin mantenimiento de señalización en
+            vía - <strong>Flexibilidad:</strong> Cambios de
+            configuración desde CCO sin intervención en vía -
+            <strong>Disponibilidad:</strong> Redundancia N+1 en CCO vs
+            redundancia distribuida</p>
+            <h3
+            id="por-qué-8-atp-embarcados-actualizado-con-dt-tetra-001">¿Por
+            qué 8 ATP Embarcados? (Actualizado con DT-TETRA-001)</h3>
+            <p><strong>Justificación Técnica:</strong> - <strong>Parque
+            rodante contractual:</strong> 15 locomotoras según AT1 -
+            <strong>Operación simultánea:</strong> Máximo 5 locomotoras
+            operando al mismo tiempo (AT1 §3.1) - <strong>Criterio
+            5+2+1:</strong> - <strong>5 unidades producción:</strong>
+            Para operación normal simultánea - <strong>2 unidades
+            diseño/pruebas:</strong> FAT, SAT y comisionamiento -
+            <strong>1 unidad contingencia:</strong> Respaldo estratégico
+            - <strong>Total optimizado:</strong> 8 ATP embarcados
+            (ahorro 47% vs 15 originales) - <strong>Tecnología PTC
+            VIRTUAL Level 2:</strong> Estándar europeo para control
+            automático de trenes - <strong>Decisión Técnica:</strong>
+            DT-TETRA-001-2025-10-07 (aprobada por PMO + Especialista
+            Sistemas)</p>
+            <h3 id="por-qué-5-ence-no-más-no-menos">¿Por qué 5 ENCE (no
+            más, no menos)?</h3>
+            <p><strong>Justificación de Ubicaciones:</strong> -
+            <strong>Estaciones críticas:</strong> La Dorada, Puerto
+            Berrío, Barrancabermeja, Bucaramanga, Chiriguaná -
+            <strong>Criterio de selección:</strong> Estaciones
+            principales con maniobras complejas -
+            <strong>Funcionalidad:</strong> Enclavamientos electrónicos
+            para protección de maniobras - <strong>Cálculo:</strong>
+            Solo estaciones con conflictos de rutas requieren ENCE -
+            <strong>Optimización:</strong> Estaciones secundarias no
+            requieren ENCE (control desde CCO)</p>
+            <h3 id="por-qué-120-desvíos-automatizados">¿Por qué 120
+            desvíos automatizados?</h3>
+            <p><strong>Justificación Técnica:</strong> -
+            <strong>Inventario de desvíos:</strong> 120 desvíos
+            identificados en vía principal - <strong>Control
+            centralizado:</strong> Todos los desvíos controlados desde
+            CCO - <strong>Automatización:</strong> Reducción de errores
+            humanos en maniobras - <strong>Seguridad:</strong> Control
+            automático de posición de agujas -
+            <strong>Eficiencia:</strong> Cambios de configuración desde
+            CCO en tiempo real</p>
+            <h3
+            id="por-qué-ptc-virtual-level-2-no-level-1-o-level-3">¿Por
+            qué PTC VIRTUAL Level 2 (no Level 1 o Level 3)?</h3>
+            <p><strong>Análisis de Niveles PTC VIRTUAL:</strong> | Nivel
+            | Descripción | Ventajas | Desventajas | Decisión |
+            |:——|:————|:———|:————|:———| | <strong>Level 1</strong> |
+            Punto de referencia virtuals + ATP embarcado | Simplicidad |
+            Limitaciones de capacidad | ❌ Rechazado | | <strong>Level
+            2</strong> | RED TETRA (Misión Crítica) + ATP embarcado |
+            Óptimo costo/beneficio | Requiere RED TETRA (Misión Crítica)
+            | ✅ <strong>Seleccionado</strong> | | <strong>Level
+            3</strong> | Sin bloqueo fijo | Máxima capacidad |
+            Complejidad alta | ❌ Rechazado |</p>
+            <p><strong>Justificación de Level 2:</strong> -
+            <strong>Balance óptimo:</strong> Capacidad vs complejidad vs
+            costo - <strong>Compatibilidad:</strong> Estándar
+            internacional ferroviario -
+            <strong>Interoperabilidad:</strong> Compatible con FENOCO -
+            <strong>Tecnología probada:</strong> Implementación exitosa
+            en Europa</p>
+            <h3 id="por-qué-cco-en-la-dorada-km-0000">¿Por qué CCO en La
+            Dorada (Km 0+000)?</h3>
+            <p><strong>Criterios de Ubicación:</strong> - <strong>Punto
+            de inicio:</strong> Km 0+000 del corredor ferroviario -
+            <strong>Accesibilidad:</strong> Fácil acceso para personal
+            de operación - <strong>Infraestructura:</strong>
+            Disponibilidad de servicios (eléctrico, telecomunicaciones)
+            - <strong>Gestión:</strong> Concentración de personal
+            técnico y administrativo - <strong>Logística:</strong>
+            Proximidad a talleres y depósitos principales</p>
+            <hr />
+            <h2 id="función-y-propósito-del-sistema">🎯 FUNCIÓN Y
+            PROPÓSITO DEL SISTEMA</h2>
+            <h3 id="qué-hace-este-sistema">¿Qué hace este sistema?</h3>
+            <p>El Sistema de Control y Señalización proporciona
+            <strong>control centralizado</strong> de todo el tráfico
+            ferroviario: - <strong>Control de tráfico:</strong>
+            Coordinación de todos los trenes en el corredor -
+            <strong>Protección automática:</strong> Prevención de
+            colisiones y descarrilamientos - <strong>Gestión de
+            rutas:</strong> Asignación y control de rutas para cada tren
+            - <strong>Monitoreo en tiempo real:</strong> Supervisión
+            continua del estado del sistema</p>
+            <h3 id="por-qué-lo-necesitamos">¿Por qué lo
+            necesitamos?</h3>
+            <ul>
+            <li><strong>Seguridad:</strong> Prevención de accidentes
+            ferroviarios</li>
+            <li><strong>Eficiencia:</strong> Optimización del flujo de
+            tráfico</li>
+            <li><strong>Automatización:</strong> Reducción de errores
+            humanos</li>
+            <li><strong>Cumplimiento:</strong> Requerimientos
+            regulatorios de seguridad</li>
+            </ul>
+            <h3 id="cómo-se-integra-con-otros-sistemas">¿Cómo se integra
+            con otros sistemas?</h3>
+            <pre><code>[Centro de Control] ←→ [Control y Señalización] ←→ [Locomotoras]
                                     ↓
 [Telecomunicaciones] ←→ [Control y Señalización] ←→ [Señalización]
                                     ↓
 [Monitoreo] ←→ [Control y Señalización] ←→ [Seguridad]</code></pre>
-<hr />
-<h2 id="componentes-principales">🏗️ COMPONENTES PRINCIPALES</h2>
-<h3 id="ctc-virtual---centro-de-control-centralizado">1. CTC Virtual -
-Centro de Control Centralizado</h3>
-<p><strong>Propósito:</strong> Control centralizado de todo el tráfico
-ferroviario desde un centro único</p>
-<p><strong>Componentes instalados:</strong> | Componente | Cantidad |
-Ubicación | Estado | |:———–|:———|:———-|:——-| | Servidores principales |
-4 unidades | CCO La Dorada | ✅ Instalados | | Consolas de operación | 5
-unidades | CCO La Dorada | ✅ Instaladas | | Videowall de monitoreo | 12
-pantallas | CCO La Dorada | ✅ Instalado | | Sistemas de respaldo | N+1
-| CCO La Dorada | ✅ Instalados |</p>
-<p><strong>Estado general:</strong> 🟢 En cronograma</p>
-<h3 id="atp-embarcado---protección-automática-de-trenes">2. ATP
-Embarcado - Protección Automática de Trenes</h3>
-<p><strong>Propósito:</strong> Sistema de protección automática
-instalado en cada locomotora</p>
-<p><strong>Componentes instalados:</strong> | Componente | Cantidad |
-Ubicación | Estado | |:———–|:———|:———-|:——-| | Módulos ATP | 8 unidades
-| En locomotoras | ⏳ En instalación | | Antenas GPS | 8 unidades | En
-locomotoras | ⏳ En instalación | | Radios de comunicación | 8 unidades
-| En locomotoras | ⏳ En instalación | | Pantallas de cabina | 15
-unidades | En locomotoras | ⏳ En instalación |</p>
-<p><strong>Estado general:</strong> 🟡 En progreso</p>
-<h3 id="ence---enclavamientos-electrónicos">3. ENCE - Enclavamientos
-Electrónicos</h3>
-<p><strong>Propósito:</strong> Control automático de estaciones
-críticas</p>
-<p><strong>Componentes instalados:</strong> | Componente | Cantidad |
-Ubicación | Estado | |:———–|:———|:———-|:——-| | Enclavamientos ENCE | 5
-unidades | Estaciones críticas | ✅ Instalados | | Sensores de vía | 50
-unidades | En estaciones ENCE | ✅ Instalados | | Actuadores | 25
-unidades | En estaciones ENCE | ✅ Instalados | | Sistemas de
-comunicación | 5 unidades | En estaciones ENCE | ✅ Instalados |</p>
-<p><strong>Estado general:</strong> 🟢 En cronograma</p>
-<h3 id="desvíos-automatizados">4. Desvíos Automatizados</h3>
-<p><strong>Propósito:</strong> Control automático de 120 desvíos a lo
-largo del corredor</p>
-<p><strong>Componentes instalados:</strong> | Componente | Cantidad |
-Ubicación | Estado | |:———–|:———|:———-|:——-| | Desvíos motorizados | 25
-unidades | Ubicaciones críticas | ✅ Instalados | | Desvíos manuales |
-95 unidades | Ubicaciones secundarias | ✅ Instalados | | Sistemas de
-control | 25 unidades | En desvíos motorizados | ✅ Instalados | |
-Sensores de posición | 25 unidades | En desvíos motorizados | ✅
-Instalados |</p>
-<p><strong>Estado general:</strong> 🟢 En cronograma</p>
-<hr />
-<h2 id="especificaciones-técnicas-clave">📐 ESPECIFICACIONES TÉCNICAS
-CLAVE</h2>
-<h3 id="tabla-consolidada-de-especificaciones">Tabla consolidada de
-especificaciones</h3>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Parámetro</th>
-<th style="text-align: left;">Valor</th>
-<th style="text-align: left;">Estándar Aplicable</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Disponibilidad CTC</td>
-<td style="text-align: left;">99.95%</td>
-<td style="text-align: left;">EN 50126</td>
-</tr>
-<tr>
-<td style="text-align: left;">Disponibilidad ATP</td>
-<td style="text-align: left;">99.95%</td>
-<td style="text-align: left;">EN 50126</td>
-</tr>
-<tr>
-<td style="text-align: left;">Disponibilidad ENCE</td>
-<td style="text-align: left;">99.95%</td>
-<td style="text-align: left;">EN 50126</td>
-</tr>
-<tr>
-<td style="text-align: left;">Tiempo de respuesta</td>
-<td style="text-align: left;">&lt; 2 segundos</td>
-<td style="text-align: left;">UIC 920-2</td>
-</tr>
-<tr>
-<td style="text-align: left;">Tiempo de recuperación</td>
-<td style="text-align: left;">&lt; 5 minutos</td>
-<td style="text-align: left;">EN 50126</td>
-</tr>
-<tr>
-<td style="text-align: left;">Cobertura de comunicación</td>
-<td style="text-align: left;">100%</td>
-<td style="text-align: left;">UIC 920-2</td>
-</tr>
-</tbody>
-</table>
-<h3 id="criterios-de-aceptación">Criterios de aceptación</h3>
-<ul>
-<li>✅ Disponibilidad 99.95% del sistema completo</li>
-<li>✅ Control centralizado desde CCO La Dorada</li>
-<li>✅ ATP embarcado en todas las locomotoras</li>
-<li>✅ Enclavamientos ENCE en 5 estaciones críticas</li>
-<li>✅ Control automatizado de 120 desvíos</li>
-</ul>
-<hr />
-<h2 id="ubicación-y-despliegue">📍 UBICACIÓN Y DESPLIEGUE</h2>
-<h3 id="mapa-de-despliegue">Mapa de despliegue</h3>
-<p>El sistema se despliega desde el Centro de Control Operativo (CCO) en
-La Dorada, extendiéndose a lo largo de todo el corredor de 594 km hasta
-Chiriguaná.</p>
-<h3 id="tabla-de-sitios-principales">Tabla de sitios principales</h3>
-<table>
-<colgroup>
-<col style="width: 17%" />
-<col style="width: 31%" />
-<col style="width: 31%" />
-<col style="width: 19%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Sitio</th>
-<th style="text-align: left;">Componentes</th>
-<th style="text-align: left;">Coordenadas</th>
-<th style="text-align: left;">Estado</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">CCO La Dorada</td>
-<td style="text-align: left;">CTC Virtual, Consolas, Videowall</td>
-<td style="text-align: left;">5.45°N, 74.66°W</td>
-<td style="text-align: left;">✅ Operativo</td>
-</tr>
-<tr>
-<td style="text-align: left;">Estación La Dorada</td>
-<td style="text-align: left;">ENCE, Desvíos</td>
-<td style="text-align: left;">5.45°N, 74.66°W</td>
-<td style="text-align: left;">✅ Operativo</td>
-</tr>
-<tr>
-<td style="text-align: left;">Estación Puerto Berrío</td>
-<td style="text-align: left;">ENCE, Desvíos</td>
-<td style="text-align: left;">6.49°N, 74.41°W</td>
-<td style="text-align: left;">✅ Operativo</td>
-</tr>
-<tr>
-<td style="text-align: left;">Estación Barrancabermeja</td>
-<td style="text-align: left;">ENCE, Desvíos</td>
-<td style="text-align: left;">7.06°N, 73.85°W</td>
-<td style="text-align: left;">✅ Operativo</td>
-</tr>
-<tr>
-<td style="text-align: left;">Estación Bucaramanga</td>
-<td style="text-align: left;">ENCE, Desvíos</td>
-<td style="text-align: left;">7.12°N, 73.12°W</td>
-<td style="text-align: left;">✅ Operativo</td>
-</tr>
-<tr>
-<td style="text-align: left;">Estación Chiriguaná</td>
-<td style="text-align: left;">ENCE, Desvíos</td>
-<td style="text-align: left;">9.36°N, 73.60°W</td>
-<td style="text-align: left;">✅ Operativo</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="operación-y-mantenimiento">⚙️ OPERACIÓN Y MANTENIMIENTO</h2>
-<h3 id="operación-normal">Operación normal</h3>
-<p>El sistema opera 24/7 proporcionando control centralizado de todo el
-tráfico ferroviario, con monitoreo automático de la disponibilidad y
-rendimiento del sistema.</p>
-<h3 id="mantenimiento-preventivo">Mantenimiento preventivo</h3>
-<ul>
-<li><strong>Diario:</strong> Verificación de estado de sistemas y
-disponibilidad</li>
-<li><strong>Semanal:</strong> Pruebas de funcionamiento y respaldo</li>
-<li><strong>Mensual:</strong> Calibración de equipos y actualización de
-software</li>
-<li><strong>Trimestral:</strong> Mantenimiento mayor de equipos
-críticos</li>
-</ul>
-<h3 id="respuesta-a-fallas">Respuesta a fallas</h3>
-<ol type="1">
-<li><strong>Detección automática</strong> de fallas por sistemas de
-monitoreo</li>
-<li><strong>Conmutación automática</strong> a sistemas de respaldo</li>
-<li><strong>Notificación inmediata</strong> al personal de
-mantenimiento</li>
-<li><strong>Reparación</strong> según procedimientos establecidos</li>
-<li><strong>Verificación</strong> de funcionamiento normal</li>
-</ol>
-<hr />
-<h2 id="interfaces-con-otros-sistemas">🔗 INTERFACES CON OTROS
-SISTEMAS</h2>
-<h3 id="diagrama-de-interfaces">Diagrama de interfaces</h3>
-<pre><code>[Telecomunicaciones] ←→ [Control y Señalización] ←→ [Material Rodante]
+            <hr />
+            <h2 id="componentes-principales">🏗️ COMPONENTES
+            PRINCIPALES</h2>
+            <h3 id="ctc-virtual---centro-de-control-centralizado">1. CTC
+            Virtual - Centro de Control Centralizado</h3>
+            <p><strong>Propósito:</strong> Control centralizado de todo
+            el tráfico ferroviario desde un centro único</p>
+            <p><strong>Componentes instalados:</strong> | Componente |
+            Cantidad | Ubicación | Estado | |:———–|:———|:———-|:——-| |
+            Servidores principales | 4 unidades | CCO La Dorada | ✅
+            Instalados | | Consolas de operación | 5 unidades | CCO La
+            Dorada | ✅ Instaladas | | Videowall de monitoreo | 12
+            pantallas | CCO La Dorada | ✅ Instalado | | Sistemas de
+            respaldo | N+1 | CCO La Dorada | ✅ Instalados |</p>
+            <p><strong>Estado general:</strong> 🟢 En cronograma</p>
+            <h3 id="atp-embarcado---protección-automática-de-trenes">2.
+            ATP Embarcado - Protección Automática de Trenes</h3>
+            <p><strong>Propósito:</strong> Sistema de protección
+            automática instalado en cada locomotora</p>
+            <p><strong>Componentes instalados:</strong> | Componente |
+            Cantidad | Ubicación | Estado | |:———–|:———|:———-|:——-| |
+            Módulos ATP | 8 unidades | En locomotoras | ⏳ En
+            instalación | | Antenas GPS | 8 unidades | En locomotoras |
+            ⏳ En instalación | | Radios de comunicación | 8 unidades |
+            En locomotoras | ⏳ En instalación | | Pantallas de cabina |
+            15 unidades | En locomotoras | ⏳ En instalación |</p>
+            <p><strong>Estado general:</strong> 🟡 En progreso</p>
+            <h3 id="ence---enclavamientos-electrónicos">3. ENCE -
+            Enclavamientos Electrónicos</h3>
+            <p><strong>Propósito:</strong> Control automático de
+            estaciones críticas</p>
+            <p><strong>Componentes instalados:</strong> | Componente |
+            Cantidad | Ubicación | Estado | |:———–|:———|:———-|:——-| |
+            Enclavamientos ENCE | 5 unidades | Estaciones críticas | ✅
+            Instalados | | Sensores de vía | 50 unidades | En estaciones
+            ENCE | ✅ Instalados | | Actuadores | 25 unidades | En
+            estaciones ENCE | ✅ Instalados | | Sistemas de comunicación
+            | 5 unidades | En estaciones ENCE | ✅ Instalados |</p>
+            <p><strong>Estado general:</strong> 🟢 En cronograma</p>
+            <h3 id="desvíos-automatizados">4. Desvíos Automatizados</h3>
+            <p><strong>Propósito:</strong> Control automático de 120
+            desvíos a lo largo del corredor</p>
+            <p><strong>Componentes instalados:</strong> | Componente |
+            Cantidad | Ubicación | Estado | |:———–|:———|:———-|:——-| |
+            Desvíos motorizados | 25 unidades | Ubicaciones críticas |
+            ✅ Instalados | | Desvíos manuales | 95 unidades |
+            Ubicaciones secundarias | ✅ Instalados | | Sistemas de
+            control | 25 unidades | En desvíos motorizados | ✅
+            Instalados | | Sensores de posición | 25 unidades | En
+            desvíos motorizados | ✅ Instalados |</p>
+            <p><strong>Estado general:</strong> 🟢 En cronograma</p>
+            <hr />
+            <h2 id="especificaciones-técnicas-clave">📐 ESPECIFICACIONES
+            TÉCNICAS CLAVE</h2>
+            <h3 id="tabla-consolidada-de-especificaciones">Tabla
+            consolidada de especificaciones</h3>
+            <table>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Parámetro</th>
+            <th style="text-align: left;">Valor</th>
+            <th style="text-align: left;">Estándar Aplicable</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">Disponibilidad CTC</td>
+            <td style="text-align: left;">99.95%</td>
+            <td style="text-align: left;">EN 50126</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Disponibilidad ATP</td>
+            <td style="text-align: left;">99.95%</td>
+            <td style="text-align: left;">EN 50126</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Disponibilidad ENCE</td>
+            <td style="text-align: left;">99.95%</td>
+            <td style="text-align: left;">EN 50126</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Tiempo de respuesta</td>
+            <td style="text-align: left;">&lt; 2 segundos</td>
+            <td style="text-align: left;">UIC 920-2</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Tiempo de recuperación</td>
+            <td style="text-align: left;">&lt; 5 minutos</td>
+            <td style="text-align: left;">EN 50126</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Cobertura de comunicación</td>
+            <td style="text-align: left;">100%</td>
+            <td style="text-align: left;">UIC 920-2</td>
+            </tr>
+            </tbody>
+            </table>
+            <h3 id="criterios-de-aceptación">Criterios de
+            aceptación</h3>
+            <ul>
+            <li>✅ Disponibilidad 99.95% del sistema completo</li>
+            <li>✅ Control centralizado desde CCO La Dorada</li>
+            <li>✅ ATP embarcado en todas las locomotoras</li>
+            <li>✅ Enclavamientos ENCE en 5 estaciones críticas</li>
+            <li>✅ Control automatizado de 120 desvíos</li>
+            </ul>
+            <hr />
+            <h2 id="ubicación-y-despliegue">📍 UBICACIÓN Y
+            DESPLIEGUE</h2>
+            <h3 id="mapa-de-despliegue">Mapa de despliegue</h3>
+            <p>El sistema se despliega desde el Centro de Control
+            Operativo (CCO) en La Dorada, extendiéndose a lo largo de
+            todo el corredor de 594 km hasta Chiriguaná.</p>
+            <h3 id="tabla-de-sitios-principales">Tabla de sitios
+            principales</h3>
+            <table>
+            <colgroup>
+            <col style="width: 17%" />
+            <col style="width: 31%" />
+            <col style="width: 31%" />
+            <col style="width: 19%" />
+            </colgroup>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Sitio</th>
+            <th style="text-align: left;">Componentes</th>
+            <th style="text-align: left;">Coordenadas</th>
+            <th style="text-align: left;">Estado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">CCO La Dorada</td>
+            <td style="text-align: left;">CTC Virtual, Consolas,
+            Videowall</td>
+            <td style="text-align: left;">5.45°N, 74.66°W</td>
+            <td style="text-align: left;">✅ Operativo</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Estación La Dorada</td>
+            <td style="text-align: left;">ENCE, Desvíos</td>
+            <td style="text-align: left;">5.45°N, 74.66°W</td>
+            <td style="text-align: left;">✅ Operativo</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Estación Puerto Berrío</td>
+            <td style="text-align: left;">ENCE, Desvíos</td>
+            <td style="text-align: left;">6.49°N, 74.41°W</td>
+            <td style="text-align: left;">✅ Operativo</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Estación Barrancabermeja</td>
+            <td style="text-align: left;">ENCE, Desvíos</td>
+            <td style="text-align: left;">7.06°N, 73.85°W</td>
+            <td style="text-align: left;">✅ Operativo</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Estación Bucaramanga</td>
+            <td style="text-align: left;">ENCE, Desvíos</td>
+            <td style="text-align: left;">7.12°N, 73.12°W</td>
+            <td style="text-align: left;">✅ Operativo</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Estación Chiriguaná</td>
+            <td style="text-align: left;">ENCE, Desvíos</td>
+            <td style="text-align: left;">9.36°N, 73.60°W</td>
+            <td style="text-align: left;">✅ Operativo</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="operación-y-mantenimiento">⚙️ OPERACIÓN Y
+            MANTENIMIENTO</h2>
+            <h3 id="operación-normal">Operación normal</h3>
+            <p>El sistema opera 24/7 proporcionando control centralizado
+            de todo el tráfico ferroviario, con monitoreo automático de
+            la disponibilidad y rendimiento del sistema.</p>
+            <h3 id="mantenimiento-preventivo">Mantenimiento
+            preventivo</h3>
+            <ul>
+            <li><strong>Diario:</strong> Verificación de estado de
+            sistemas y disponibilidad</li>
+            <li><strong>Semanal:</strong> Pruebas de funcionamiento y
+            respaldo</li>
+            <li><strong>Mensual:</strong> Calibración de equipos y
+            actualización de software</li>
+            <li><strong>Trimestral:</strong> Mantenimiento mayor de
+            equipos críticos</li>
+            </ul>
+            <h3 id="respuesta-a-fallas">Respuesta a fallas</h3>
+            <ol type="1">
+            <li><strong>Detección automática</strong> de fallas por
+            sistemas de monitoreo</li>
+            <li><strong>Conmutación automática</strong> a sistemas de
+            respaldo</li>
+            <li><strong>Notificación inmediata</strong> al personal de
+            mantenimiento</li>
+            <li><strong>Reparación</strong> según procedimientos
+            establecidos</li>
+            <li><strong>Verificación</strong> de funcionamiento
+            normal</li>
+            </ol>
+            <hr />
+            <h2 id="interfaces-con-otros-sistemas">🔗 INTERFACES CON
+            OTROS SISTEMAS</h2>
+            <h3 id="diagrama-de-interfaces">Diagrama de interfaces</h3>
+            <pre><code>[Telecomunicaciones] ←→ [Control y Señalización] ←→ [Material Rodante]
                                     ↓
 [ITS y Seguridad] ←→ [Control y Señalización] ←→ [Infraestructura]
                                     ↓
 [Integración] ←→ [Control y Señalización] ←→ [Sistemas Externos]</code></pre>
-<h3 id="tabla-de-interfaces-críticas">Tabla de interfaces críticas</h3>
-<table>
-<colgroup>
-<col style="width: 17%" />
-<col style="width: 34%" />
-<col style="width: 23%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Sistema</th>
-<th style="text-align: left;">Tipo de Interfaz</th>
-<th style="text-align: left;">Criticidad</th>
-<th style="text-align: left;">Responsable</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Telecomunicaciones</td>
-<td style="text-align: left;">TETRA + RED TETRA (Misión Crítica)</td>
-<td style="text-align: left;">Alta</td>
-<td style="text-align: left;">EPC Telecomunicaciones</td>
-</tr>
-<tr>
-<td style="text-align: left;">Material Rodante</td>
-<td style="text-align: left;">ATP Embarcado</td>
-<td style="text-align: left;">Alta</td>
-<td style="text-align: left;">EPC Sistemas</td>
-</tr>
-<tr>
-<td style="text-align: left;">ITS y Seguridad</td>
-<td style="text-align: left;">CCTV + Monitoreo</td>
-<td style="text-align: left;">Media</td>
-<td style="text-align: left;">EPC Sistemas</td>
-</tr>
-<tr>
-<td style="text-align: left;">Infraestructura</td>
-<td style="text-align: left;">ENCE + Desvíos</td>
-<td style="text-align: left;">Alta</td>
-<td style="text-align: left;">EPC Sistemas</td>
-</tr>
-</tbody>
-</table>
-<h3
-id="ítem-wbs-1.1.106---bloque-de-integración-de-interfaces-actualizado-dt-interfaces-001"><strong>Ítem
-WBS 1.1.106 - Bloque de Integración de Interfaces</strong> ⭐
-ACTUALIZADO (DT-INTERFACES-001)</h3>
-<p><strong>Función técnica:</strong> Este ítem NO es un hardware físico
-único, sino un <strong>bloque lógico de integración</strong> que conecta
-el CTC con todos los subsistemas del proyecto.</p>
-<p><strong>Composición del bloque ($150.000.000 COP):</strong> -
-<strong>Gateways industriales:</strong> Conversión de protocolos entre
-sistemas heterogéneos (CTC↔︎PTC↔︎FENOCO) - <strong>Switches de borde
-ferroviario:</strong> Segmentación de red por subsistema -
-<strong>Firewalls IEC 62443:</strong> Ciberseguridad industrial
-(Security Level SL-3) - <strong>Middleware interoperabilidad:</strong>
-Protocolo UIC 918-4 para integración con FENOCO - <strong>Licencias
-software SCADA:</strong> Gestión de comunicaciones y visualización</p>
-<p><strong>Interfaces que soporta:</strong> 1. <strong>CTC ↔︎ PTC/PTC
-VIRTUAL Nivel 2:</strong> Intercambio de telegramas de movimiento, datos
-de ocupación desde RBC 2. <strong>CTC ↔︎ FENOCO:</strong> Gateway UIC con
-protocolo 918-4 para interoperabilidad 3. <strong>CTC ↔︎ TETRA:</strong>
-Canal de voz y datos para comunicaciones tren-tierra 4. <strong>CTC ↔︎
-Fibra Óptica:</strong> Backbone redundante N+1 del corredor (526 km) 5.
-<strong>CTC ↔︎ Sistemas ITS:</strong> CCTV (73 cámaras), control acceso,
-detección intrusión</p>
-<p><strong>Arquitectura:</strong> - Redundancia N+1 en comunicaciones
-críticas - Failover automático &lt;1 segundo - Monitoreo continuo desde
-SCADA</p>
-<p><strong>Alcance $150M incluye:</strong> - Licencias integración
-(protocolos, middleware) - Configuración interfaces y redundancia N+1 -
-Ensayos FAT/SAT interoperabilidad - Integración en entorno virtual (CTC
-+ PTC VIRTUAL L2) - <strong>NO incluye:</strong> Equipos físicos mayores
-(cubiertos en ítems 1.1.100-1.1.105)</p>
-<p><strong>Riesgos mitigados:</strong> - ✅ R-INT-001: Falta de
-trazabilidad en integración de sistemas (MITIGADO) - ✅ R-INT-002:
-Ambigüedad en alcance de interfaces (MITIGADO)</p>
-<p><strong>Documentación técnica:</strong> - IV.2 Interfaces_Sistemas:
-IF-07 especificada - V.2 CTC v5.0: §12.4 Bloque de Integración - VII.2.4
-Protocolo FFFIS: §2.2 Gateway UIC 918-4</p>
-<p><strong>Decisión Técnica:</strong> DT-INTERFACES-001-2025-10-09</p>
-<hr />
-<h2 id="supuestos-técnicos-y-limitaciones">📋 SUPUESTOS TÉCNICOS Y
-LIMITACIONES</h2>
-<h3 id="supuestos-críticos-del-diseño">Supuestos Críticos del
-Diseño</h3>
-<table>
-<colgroup>
-<col style="width: 17%" />
-<col style="width: 26%" />
-<col style="width: 33%" />
-<col style="width: 21%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Supuesto</th>
-<th style="text-align: left;">Valor Asumido</th>
-<th style="text-align: left;">Impacto si Cambia</th>
-<th style="text-align: left;">Mitigación</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><strong>Parque rodante</strong></td>
-<td style="text-align: left;">15 locomotoras</td>
-<td style="text-align: left;">Menos ATP si reduce</td>
-<td style="text-align: left;">Diseño escalable</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Disponibilidad CTC</strong></td>
-<td style="text-align: left;">99.95%</td>
-<td style="text-align: left;">Penalizaciones si no cumple</td>
-<td style="text-align: left;">Redundancia N+1</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Cobertura RED TETRA (Misión
-Crítica)</strong></td>
-<td style="text-align: left;">100% del corredor</td>
-<td style="text-align: left;">Fallos de comunicación</td>
-<td style="text-align: left;">Respaldo TETRA</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Estaciones críticas</strong></td>
-<td style="text-align: left;">5 estaciones</td>
-<td style="text-align: left;">Más ENCE si aumenta</td>
-<td style="text-align: left;">Diseño modular</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Desvíos en vía</strong></td>
-<td style="text-align: left;">120 desvíos</td>
-<td style="text-align: left;">Más automatización si aumenta</td>
-<td style="text-align: left;">Control centralizado</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Tiempo de respuesta</strong></td>
-<td style="text-align: left;">&lt; 2 segundos</td>
-<td style="text-align: left;">Penalizaciones si excede</td>
-<td style="text-align: left;">Optimización de red</td>
-</tr>
-</tbody>
-</table>
-<h3 id="limitaciones-del-diseño">Limitaciones del Diseño</h3>
-<ul>
-<li><strong>Dependencia de comunicaciones:</strong> Sistema requiere RED
-TETRA (Misión Crítica)/TETRA operativo</li>
-<li><strong>Concentración de control:</strong> CCO único punto de falla
-(mitigado con redundancia)</li>
-<li><strong>Complejidad de ATP:</strong> Requiere personal especializado
-para mantenimiento</li>
-<li><strong>Interoperabilidad:</strong> Dependiente de estándares
-FENOCO</li>
-<li><strong>Tiempo de recuperación:</strong> Máximo 5 minutos para
-restablecer servicio</li>
-</ul>
-<h3 id="dependencias-críticas">Dependencias Críticas</h3>
-<ul>
-<li><strong>RED TETRA (Misión Crítica):</strong> Comunicaciones críticas
-para ATP</li>
-<li><strong>TETRA:</strong> Comunicaciones de respaldo</li>
-<li><strong>Fibra óptica:</strong> Backbone de datos</li>
-<li><strong>Material rodante:</strong> 15 locomotoras con ATP
-embarcado</li>
-<li><strong>Personal especializado:</strong> Operadores y técnicos
-capacitados</li>
-</ul>
-<hr />
-<h2 id="riesgos-y-mitigaciones">⚠️ RIESGOS Y MITIGACIONES</h2>
-<table>
-<colgroup>
-<col style="width: 15%" />
-<col style="width: 26%" />
-<col style="width: 19%" />
-<col style="width: 23%" />
-<col style="width: 15%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Riesgo</th>
-<th style="text-align: left;">Probabilidad</th>
-<th style="text-align: left;">Impacto</th>
-<th style="text-align: left;">Mitigación</th>
-<th style="text-align: left;">Estado</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Fallo del CTC Virtual</td>
-<td style="text-align: left;">Baja</td>
-<td style="text-align: left;">Alto</td>
-<td style="text-align: left;">Redundancia N+1</td>
-<td style="text-align: left;">✅ Mitigado</td>
-</tr>
-<tr>
-<td style="text-align: left;">Fallo de comunicación</td>
-<td style="text-align: left;">Media</td>
-<td style="text-align: left;">Alto</td>
-<td style="text-align: left;">TETRA + RED TETRA (Misión Crítica)
-dual</td>
-<td style="text-align: left;">✅ Mitigado</td>
-</tr>
-<tr>
-<td style="text-align: left;">Fallo de ATP embarcado</td>
-<td style="text-align: left;">Baja</td>
-<td style="text-align: left;">Alto</td>
-<td style="text-align: left;">Sistemas de respaldo</td>
-<td style="text-align: left;">✅ Mitigado</td>
-</tr>
-<tr>
-<td style="text-align: left;">Fallo de ENCE</td>
-<td style="text-align: left;">Baja</td>
-<td style="text-align: left;">Medio</td>
-<td style="text-align: left;">Control manual de respaldo</td>
-<td style="text-align: left;">✅ Mitigado</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="cumplimiento-contractual">📋 CUMPLIMIENTO CONTRACTUAL</h2>
-<h3 id="obligaciones-clave-del-contrato">Obligaciones clave del
-contrato</h3>
-<ul>
-<li>✅ <strong>AT1 - CCO:</strong> Centro de Control Operacional con
-disponibilidad 99.95% - Cumplida</li>
-<li>✅ <strong>AT2 - Operación:</strong> Sistema de operación
-centralizada - Cumplida</li>
-<li>✅ <strong>AT3 - Especificaciones:</strong> PTC PTC VIRTUAL Level 2
-- Cumplida</li>
-<li>✅ <strong>AT4 - Indicadores:</strong> Disponibilidad 99.95% -
-Cumplida</li>
-<li>⏳ <strong>AT8 - Operaciones:</strong> Procedimientos operacionales
-integrados - En progreso</li>
-<li>❌ <strong>AT9 - Cronograma:</strong> Plan de implementación por
-fases - Pendiente</li>
-</ul>
-<h3 id="referencias-contractuales">Referencias contractuales</h3>
-<ul>
-<li><strong>Apéndice Técnico 1:</strong> Alcance del proyecto - Centro
-de Control Operacional</li>
-<li><strong>Apéndice Técnico 2:</strong> Operación y mantenimiento -
-Sistema de operación centralizada</li>
-<li><strong>Apéndice Técnico 3:</strong> Especificaciones generales -
-PTC PTC VIRTUAL Level 2</li>
-<li><strong>Apéndice Técnico 4:</strong> Indicadores de desempeño -
-Disponibilidad 99.95%</li>
-</ul>
-<hr />
-<h2 id="documentación-de-soporte">📚 DOCUMENTACIÓN DE SOPORTE</h2>
-<h3 id="documentos-técnicos-disponibles">Documentos técnicos
-disponibles</h3>
-<table>
-<colgroup>
-<col style="width: 29%" />
-<col style="width: 16%" />
-<col style="width: 24%" />
-<col style="width: 29%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Documento</th>
-<th style="text-align: left;">Fase</th>
-<th style="text-align: left;">Versión</th>
-<th style="text-align: left;">Ubicación</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td
-style="text-align: left;">SISTEMA_01_Control_y_Senalizacion_Master.md</td>
-<td style="text-align: left;">Consolidado</td>
-<td style="text-align: left;">v1.0</td>
-<td style="text-align: left;">Carpeta X</td>
-</tr>
-<tr>
-<td
-style="text-align: left;">V.1_Señalizacion_Ferroviaria_Detalle_v5.0.md</td>
-<td style="text-align: left;">Detalle</td>
-<td style="text-align: left;">v5.0</td>
-<td style="text-align: left;">V. Ingeniería</td>
-</tr>
-<tr>
-<td
-style="text-align: left;">V.2_Centro_Control_Trafico_CTC_Detalle_v5.0.md</td>
-<td style="text-align: left;">Detalle</td>
-<td style="text-align: left;">v5.0</td>
-<td style="text-align: left;">V. Ingeniería</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.1_Manual_OM_CTC_v5.0.md</td>
-<td style="text-align: left;">Operación</td>
-<td style="text-align: left;">v5.0</td>
-<td style="text-align: left;">VI. Operación</td>
-</tr>
-</tbody>
-</table>
-<h3 id="para-más-información-técnica">Para más información técnica</h3>
-<p>Los documentos técnicos detallados están disponibles en la Carpeta X
-del proyecto. Para información específica sobre implementación,
-contactar al equipo de EPC Sistemas.</p>
-<hr />
-<h2 id="contactos-y-responsables">📞 CONTACTOS Y RESPONSABLES</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Rol</th>
-<th style="text-align: left;">Responsable</th>
-<th style="text-align: left;">Contacto</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Líder Técnico Control y Señalización</td>
-<td style="text-align: left;">[Nombre]</td>
-<td style="text-align: left;">[Email/Tel]</td>
-</tr>
-<tr>
-<td style="text-align: left;">Coordinador EPC Sistemas</td>
-<td style="text-align: left;">[Nombre]</td>
-<td style="text-align: left;">[Email/Tel]</td>
-</tr>
-<tr>
-<td style="text-align: left;">Responsable CTC Virtual</td>
-<td style="text-align: left;">[Nombre]</td>
-<td style="text-align: left;">[Email/Tel]</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="indicadores-de-desempeño-kpis">📊 INDICADORES DE DESEMPEÑO
-(KPIs)</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Indicador</th>
-<th style="text-align: left;">Meta</th>
-<th style="text-align: left;">Actual</th>
-<th style="text-align: left;">Estado</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Disponibilidad CTC</td>
-<td style="text-align: left;">99.95%</td>
-<td style="text-align: left;">99.98%</td>
-<td style="text-align: left;">🟢 Excelente</td>
-</tr>
-<tr>
-<td style="text-align: left;">Disponibilidad ATP</td>
-<td style="text-align: left;">99.95%</td>
-<td style="text-align: left;">99.97%</td>
-<td style="text-align: left;">🟢 Excelente</td>
-</tr>
-<tr>
-<td style="text-align: left;">Disponibilidad ENCE</td>
-<td style="text-align: left;">99.95%</td>
-<td style="text-align: left;">99.96%</td>
-<td style="text-align: left;">🟢 Excelente</td>
-</tr>
-<tr>
-<td style="text-align: left;">Tiempo de respuesta</td>
-<td style="text-align: left;">&lt; 2 segundos</td>
-<td style="text-align: left;">1.2 segundos</td>
-<td style="text-align: left;">🟢 Excelente</td>
-</tr>
-<tr>
-<td style="text-align: left;">Tiempo de recuperación</td>
-<td style="text-align: left;">&lt; 5 minutos</td>
-<td style="text-align: left;">3.5 minutos</td>
-<td style="text-align: left;">🟢 Excelente</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="decisiones-técnicas-aplicadas">📋 DECISIONES TÉCNICAS
-APLICADAS</h2>
-<h3
-id="dt-tetra-001-2025-10-07-atp-158-unidades">DT-TETRA-001-2025-10-07:
-ATP 15→8 unidades</h3>
-<ul>
-<li>Cambio: Cantidad ATP 15 → 8 (criterio 5+2+1)</li>
-<li>Ahorro: $7,479,500,000 COP (-47%)</li>
-</ul>
-<h3 id="dt-ctc-001002003-software-y-componentes-ctc">DT-CTC-001/002/003:
-Software y componentes CTC</h3>
-<ul>
-<li>Cambio: Ajustes software CTC virtual</li>
-</ul>
-<h3
-id="dt-interfaces-001-2025-10-09-bloque-integración-if-07">DT-INTERFACES-001-2025-10-09:
-Bloque integración IF-07</h3>
-<ul>
-<li>Cambio: Agregada IF-07 (integración CTC-PTC-FENOCO)</li>
-</ul>
-<h3 id="dt-ence-001-a-005-enclavamientos">DT-ENCE-001 a 005:
-Enclavamientos</h3>
-<ul>
-<li>Cambio: Configuración 5 ENCE</li>
-</ul>
-<hr />
-<h2 id="control-de-versiones">🔄 CONTROL DE VERSIONES</h2>
-<table>
-<colgroup>
-<col style="width: 18%" />
-<col style="width: 14%" />
-<col style="width: 42%" />
-<col style="width: 26%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Versión</th>
-<th style="text-align: left;">Fecha</th>
-<th style="text-align: left;">Cambios Principales</th>
-<th style="text-align: left;">Responsable</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">1.0</td>
-<td style="text-align: left;">Enero 2025</td>
-<td style="text-align: left;">Versión inicial ejecutiva</td>
-<td style="text-align: left;">Administrador Contractual EPC</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<p><strong>Documento preparado por:</strong> Administrador Contractual
-EPC<br />
-<strong>Última actualización:</strong> Enero 2025<br />
-<strong>Próxima revisión:</strong> Febrero 2025<br />
-<strong>Basado en:</strong> SISTEMA_01_Control_y_Senalizacion_Master.md
-v1.0</p>
-<!-- COCINADO DESDE FUENTES: 09/10/2025 17:30 | Fuentes: 2 | DTs: 0 -->
-<!-- COCINADO LFC-CLI v1.0 | Fecha: 3/13/2026, 1:56:38 PM | SSOT: DBCD_CRITERIA.md -->
+            <h3 id="tabla-de-interfaces-críticas">Tabla de interfaces
+            críticas</h3>
+            <table>
+            <colgroup>
+            <col style="width: 17%" />
+            <col style="width: 34%" />
+            <col style="width: 23%" />
+            <col style="width: 25%" />
+            </colgroup>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Sistema</th>
+            <th style="text-align: left;">Tipo de Interfaz</th>
+            <th style="text-align: left;">Criticidad</th>
+            <th style="text-align: left;">Responsable</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">Telecomunicaciones</td>
+            <td style="text-align: left;">TETRA + RED TETRA (Misión
+            Crítica)</td>
+            <td style="text-align: left;">Alta</td>
+            <td style="text-align: left;">EPC Telecomunicaciones</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Material Rodante</td>
+            <td style="text-align: left;">ATP Embarcado</td>
+            <td style="text-align: left;">Alta</td>
+            <td style="text-align: left;">EPC Sistemas</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">ITS y Seguridad</td>
+            <td style="text-align: left;">CCTV + Monitoreo</td>
+            <td style="text-align: left;">Media</td>
+            <td style="text-align: left;">EPC Sistemas</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Infraestructura</td>
+            <td style="text-align: left;">ENCE + Desvíos</td>
+            <td style="text-align: left;">Alta</td>
+            <td style="text-align: left;">EPC Sistemas</td>
+            </tr>
+            </tbody>
+            </table>
+            <h3
+            id="ítem-wbs-1.1.106---bloque-de-integración-de-interfaces-actualizado-dt-interfaces-001"><strong>Ítem
+            WBS 1.1.106 - Bloque de Integración de Interfaces</strong>
+            ⭐ ACTUALIZADO (DT-INTERFACES-001)</h3>
+            <p><strong>Función técnica:</strong> Este ítem NO es un
+            hardware físico único, sino un <strong>bloque lógico de
+            integración</strong> que conecta el CTC con todos los
+            subsistemas del proyecto.</p>
+            <p><strong>Composición del bloque ($150.000.000
+            COP):</strong> - <strong>Gateways industriales:</strong>
+            Conversión de protocolos entre sistemas heterogéneos
+            (CTC↔︎PTC↔︎FENOCO) - <strong>Switches de borde
+            ferroviario:</strong> Segmentación de red por subsistema -
+            <strong>Firewalls IEC 62443:</strong> Ciberseguridad
+            industrial (Security Level SL-3) - <strong>Middleware
+            interoperabilidad:</strong> Protocolo UIC 918-4 para
+            integración con FENOCO - <strong>Licencias software
+            SCADA:</strong> Gestión de comunicaciones y
+            visualización</p>
+            <p><strong>Interfaces que soporta:</strong> 1. <strong>CTC ↔︎
+            PTC/PTC VIRTUAL Nivel 2:</strong> Intercambio de telegramas
+            de movimiento, datos de ocupación desde RBC 2. <strong>CTC ↔︎
+            FENOCO:</strong> Gateway UIC con protocolo 918-4 para
+            interoperabilidad 3. <strong>CTC ↔︎ TETRA:</strong> Canal de
+            voz y datos para comunicaciones tren-tierra 4. <strong>CTC ↔︎
+            Fibra Óptica:</strong> Backbone redundante N+1 del corredor
+            (526 km) 5. <strong>CTC ↔︎ Sistemas ITS:</strong> CCTV (73
+            cámaras), control acceso, detección intrusión</p>
+            <p><strong>Arquitectura:</strong> - Redundancia N+1 en
+            comunicaciones críticas - Failover automático &lt;1 segundo
+            - Monitoreo continuo desde SCADA</p>
+            <p><strong>Alcance $150M incluye:</strong> - Licencias
+            integración (protocolos, middleware) - Configuración
+            interfaces y redundancia N+1 - Ensayos FAT/SAT
+            interoperabilidad - Integración en entorno virtual (CTC +
+            PTC VIRTUAL L2) - <strong>NO incluye:</strong> Equipos
+            físicos mayores (cubiertos en ítems 1.1.100-1.1.105)</p>
+            <p><strong>Riesgos mitigados:</strong> - ✅ R-INT-001: Falta
+            de trazabilidad en integración de sistemas (MITIGADO) - ✅
+            R-INT-002: Ambigüedad en alcance de interfaces
+            (MITIGADO)</p>
+            <p><strong>Documentación técnica:</strong> - IV.2
+            Interfaces_Sistemas: IF-07 especificada - V.2 CTC v5.0:
+            §12.4 Bloque de Integración - VII.2.4 Protocolo FFFIS: §2.2
+            Gateway UIC 918-4</p>
+            <p><strong>Decisión Técnica:</strong>
+            DT-INTERFACES-001-2025-10-09</p>
+            <hr />
+            <h2 id="supuestos-técnicos-y-limitaciones">📋 SUPUESTOS
+            TÉCNICOS Y LIMITACIONES</h2>
+            <h3 id="supuestos-críticos-del-diseño">Supuestos Críticos
+            del Diseño</h3>
+            <table>
+            <colgroup>
+            <col style="width: 17%" />
+            <col style="width: 26%" />
+            <col style="width: 33%" />
+            <col style="width: 21%" />
+            </colgroup>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Supuesto</th>
+            <th style="text-align: left;">Valor Asumido</th>
+            <th style="text-align: left;">Impacto si Cambia</th>
+            <th style="text-align: left;">Mitigación</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;"><strong>Parque
+            rodante</strong></td>
+            <td style="text-align: left;">15 locomotoras</td>
+            <td style="text-align: left;">Menos ATP si reduce</td>
+            <td style="text-align: left;">Diseño escalable</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;"><strong>Disponibilidad
+            CTC</strong></td>
+            <td style="text-align: left;">99.95%</td>
+            <td style="text-align: left;">Penalizaciones si no
+            cumple</td>
+            <td style="text-align: left;">Redundancia N+1</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;"><strong>Cobertura RED TETRA
+            (Misión Crítica)</strong></td>
+            <td style="text-align: left;">100% del corredor</td>
+            <td style="text-align: left;">Fallos de comunicación</td>
+            <td style="text-align: left;">Respaldo TETRA</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;"><strong>Estaciones
+            críticas</strong></td>
+            <td style="text-align: left;">5 estaciones</td>
+            <td style="text-align: left;">Más ENCE si aumenta</td>
+            <td style="text-align: left;">Diseño modular</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;"><strong>Desvíos en
+            vía</strong></td>
+            <td style="text-align: left;">120 desvíos</td>
+            <td style="text-align: left;">Más automatización si
+            aumenta</td>
+            <td style="text-align: left;">Control centralizado</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;"><strong>Tiempo de
+            respuesta</strong></td>
+            <td style="text-align: left;">&lt; 2 segundos</td>
+            <td style="text-align: left;">Penalizaciones si excede</td>
+            <td style="text-align: left;">Optimización de red</td>
+            </tr>
+            </tbody>
+            </table>
+            <h3 id="limitaciones-del-diseño">Limitaciones del
+            Diseño</h3>
+            <ul>
+            <li><strong>Dependencia de comunicaciones:</strong> Sistema
+            requiere RED TETRA (Misión Crítica)/TETRA operativo</li>
+            <li><strong>Concentración de control:</strong> CCO único
+            punto de falla (mitigado con redundancia)</li>
+            <li><strong>Complejidad de ATP:</strong> Requiere personal
+            especializado para mantenimiento</li>
+            <li><strong>Interoperabilidad:</strong> Dependiente de
+            estándares FENOCO</li>
+            <li><strong>Tiempo de recuperación:</strong> Máximo 5
+            minutos para restablecer servicio</li>
+            </ul>
+            <h3 id="dependencias-críticas">Dependencias Críticas</h3>
+            <ul>
+            <li><strong>RED TETRA (Misión Crítica):</strong>
+            Comunicaciones críticas para ATP</li>
+            <li><strong>TETRA:</strong> Comunicaciones de respaldo</li>
+            <li><strong>Fibra óptica:</strong> Backbone de datos</li>
+            <li><strong>Material rodante:</strong> 15 locomotoras con
+            ATP embarcado</li>
+            <li><strong>Personal especializado:</strong> Operadores y
+            técnicos capacitados</li>
+            </ul>
+            <hr />
+            <h2 id="riesgos-y-mitigaciones">⚠️ RIESGOS Y
+            MITIGACIONES</h2>
+            <table>
+            <colgroup>
+            <col style="width: 15%" />
+            <col style="width: 26%" />
+            <col style="width: 19%" />
+            <col style="width: 23%" />
+            <col style="width: 15%" />
+            </colgroup>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Riesgo</th>
+            <th style="text-align: left;">Probabilidad</th>
+            <th style="text-align: left;">Impacto</th>
+            <th style="text-align: left;">Mitigación</th>
+            <th style="text-align: left;">Estado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">Fallo del CTC Virtual</td>
+            <td style="text-align: left;">Baja</td>
+            <td style="text-align: left;">Alto</td>
+            <td style="text-align: left;">Redundancia N+1</td>
+            <td style="text-align: left;">✅ Mitigado</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Fallo de comunicación</td>
+            <td style="text-align: left;">Media</td>
+            <td style="text-align: left;">Alto</td>
+            <td style="text-align: left;">TETRA + RED TETRA (Misión
+            Crítica) dual</td>
+            <td style="text-align: left;">✅ Mitigado</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Fallo de ATP embarcado</td>
+            <td style="text-align: left;">Baja</td>
+            <td style="text-align: left;">Alto</td>
+            <td style="text-align: left;">Sistemas de respaldo</td>
+            <td style="text-align: left;">✅ Mitigado</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Fallo de ENCE</td>
+            <td style="text-align: left;">Baja</td>
+            <td style="text-align: left;">Medio</td>
+            <td style="text-align: left;">Control manual de
+            respaldo</td>
+            <td style="text-align: left;">✅ Mitigado</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="cumplimiento-contractual">📋 CUMPLIMIENTO
+            CONTRACTUAL</h2>
+            <h3 id="obligaciones-clave-del-contrato">Obligaciones clave
+            del contrato</h3>
+            <ul>
+            <li>✅ <strong>AT1 - CCO:</strong> Centro de Control
+            Operacional con disponibilidad 99.95% - Cumplida</li>
+            <li>✅ <strong>AT2 - Operación:</strong> Sistema de
+            operación centralizada - Cumplida</li>
+            <li>✅ <strong>AT3 - Especificaciones:</strong> PTC PTC
+            VIRTUAL Level 2 - Cumplida</li>
+            <li>✅ <strong>AT4 - Indicadores:</strong> Disponibilidad
+            99.95% - Cumplida</li>
+            <li>⏳ <strong>AT8 - Operaciones:</strong> Procedimientos
+            operacionales integrados - En progreso</li>
+            <li>❌ <strong>AT9 - Cronograma:</strong> Plan de
+            implementación por fases - Pendiente</li>
+            </ul>
+            <h3 id="referencias-contractuales">Referencias
+            contractuales</h3>
+            <ul>
+            <li><strong>Apéndice Técnico 1:</strong> Alcance del
+            proyecto - Centro de Control Operacional</li>
+            <li><strong>Apéndice Técnico 2:</strong> Operación y
+            mantenimiento - Sistema de operación centralizada</li>
+            <li><strong>Apéndice Técnico 3:</strong> Especificaciones
+            generales - PTC PTC VIRTUAL Level 2</li>
+            <li><strong>Apéndice Técnico 4:</strong> Indicadores de
+            desempeño - Disponibilidad 99.95%</li>
+            </ul>
+            <hr />
+            <h2 id="documentación-de-soporte">📚 DOCUMENTACIÓN DE
+            SOPORTE</h2>
+            <h3 id="documentos-técnicos-disponibles">Documentos técnicos
+            disponibles</h3>
+            <table>
+            <colgroup>
+            <col style="width: 29%" />
+            <col style="width: 16%" />
+            <col style="width: 24%" />
+            <col style="width: 29%" />
+            </colgroup>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Documento</th>
+            <th style="text-align: left;">Fase</th>
+            <th style="text-align: left;">Versión</th>
+            <th style="text-align: left;">Ubicación</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td
+            style="text-align: left;">SISTEMA_01_Control_y_Senalizacion_Master.md</td>
+            <td style="text-align: left;">Consolidado</td>
+            <td style="text-align: left;">v1.0</td>
+            <td style="text-align: left;">Carpeta X</td>
+            </tr>
+            <tr>
+            <td
+            style="text-align: left;">V.1_Señalizacion_Ferroviaria_Detalle_v5.0.md</td>
+            <td style="text-align: left;">Detalle</td>
+            <td style="text-align: left;">v5.0</td>
+            <td style="text-align: left;">V. Ingeniería</td>
+            </tr>
+            <tr>
+            <td
+            style="text-align: left;">V.2_Centro_Control_Trafico_CTC_Detalle_v5.0.md</td>
+            <td style="text-align: left;">Detalle</td>
+            <td style="text-align: left;">v5.0</td>
+            <td style="text-align: left;">V. Ingeniería</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">6.1_Manual_OM_CTC_v5.0.md</td>
+            <td style="text-align: left;">Operación</td>
+            <td style="text-align: left;">v5.0</td>
+            <td style="text-align: left;">VI. Operación</td>
+            </tr>
+            </tbody>
+            </table>
+            <h3 id="para-más-información-técnica">Para más información
+            técnica</h3>
+            <p>Los documentos técnicos detallados están disponibles en
+            la Carpeta X del proyecto. Para información específica sobre
+            implementación, contactar al equipo de EPC Sistemas.</p>
+            <hr />
+            <h2 id="contactos-y-responsables">📞 CONTACTOS Y
+            RESPONSABLES</h2>
+            <table>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Rol</th>
+            <th style="text-align: left;">Responsable</th>
+            <th style="text-align: left;">Contacto</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">Líder Técnico Control y
+            Señalización</td>
+            <td style="text-align: left;">[Nombre]</td>
+            <td style="text-align: left;">[Email/Tel]</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Coordinador EPC Sistemas</td>
+            <td style="text-align: left;">[Nombre]</td>
+            <td style="text-align: left;">[Email/Tel]</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Responsable CTC Virtual</td>
+            <td style="text-align: left;">[Nombre]</td>
+            <td style="text-align: left;">[Email/Tel]</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="indicadores-de-desempeño-kpis">📊 INDICADORES DE
+            DESEMPEÑO (KPIs)</h2>
+            <table>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Indicador</th>
+            <th style="text-align: left;">Meta</th>
+            <th style="text-align: left;">Actual</th>
+            <th style="text-align: left;">Estado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">Disponibilidad CTC</td>
+            <td style="text-align: left;">99.95%</td>
+            <td style="text-align: left;">99.98%</td>
+            <td style="text-align: left;">🟢 Excelente</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Disponibilidad ATP</td>
+            <td style="text-align: left;">99.95%</td>
+            <td style="text-align: left;">99.97%</td>
+            <td style="text-align: left;">🟢 Excelente</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Disponibilidad ENCE</td>
+            <td style="text-align: left;">99.95%</td>
+            <td style="text-align: left;">99.96%</td>
+            <td style="text-align: left;">🟢 Excelente</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Tiempo de respuesta</td>
+            <td style="text-align: left;">&lt; 2 segundos</td>
+            <td style="text-align: left;">1.2 segundos</td>
+            <td style="text-align: left;">🟢 Excelente</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Tiempo de recuperación</td>
+            <td style="text-align: left;">&lt; 5 minutos</td>
+            <td style="text-align: left;">3.5 minutos</td>
+            <td style="text-align: left;">🟢 Excelente</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="decisiones-técnicas-aplicadas">📋 DECISIONES
+            TÉCNICAS APLICADAS</h2>
+            <h3
+            id="dt-tetra-001-2025-10-07-atp-158-unidades">DT-TETRA-001-2025-10-07:
+            ATP 15→8 unidades</h3>
+            <ul>
+            <li>Cambio: Cantidad ATP 15 → 8 (criterio 5+2+1)</li>
+            <li>Ahorro: $7,479,500,000 COP (-47%)</li>
+            </ul>
+            <h3
+            id="dt-ctc-001002003-software-y-componentes-ctc">DT-CTC-001/002/003:
+            Software y componentes CTC</h3>
+            <ul>
+            <li>Cambio: Ajustes software CTC virtual</li>
+            </ul>
+            <h3
+            id="dt-interfaces-001-2025-10-09-bloque-integración-if-07">DT-INTERFACES-001-2025-10-09:
+            Bloque integración IF-07</h3>
+            <ul>
+            <li>Cambio: Agregada IF-07 (integración CTC-PTC-FENOCO)</li>
+            </ul>
+            <h3 id="dt-ence-001-a-005-enclavamientos">DT-ENCE-001 a 005:
+            Enclavamientos</h3>
+            <ul>
+            <li>Cambio: Configuración 5 ENCE</li>
+            </ul>
+            <hr />
+            <h2 id="control-de-versiones">🔄 CONTROL DE VERSIONES</h2>
+            <table>
+            <colgroup>
+            <col style="width: 18%" />
+            <col style="width: 14%" />
+            <col style="width: 42%" />
+            <col style="width: 26%" />
+            </colgroup>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Versión</th>
+            <th style="text-align: left;">Fecha</th>
+            <th style="text-align: left;">Cambios Principales</th>
+            <th style="text-align: left;">Responsable</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">1.0</td>
+            <td style="text-align: left;">Enero 2025</td>
+            <td style="text-align: left;">Versión inicial ejecutiva</td>
+            <td style="text-align: left;">Administrador Contractual
+            EPC</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <p><strong>Documento preparado por:</strong> Administrador
+            Contractual EPC<br />
+            <strong>Última actualización:</strong> Enero 2025<br />
+            <strong>Próxima revisión:</strong> Febrero 2025<br />
+            <strong>Basado en:</strong>
+            SISTEMA_01_Control_y_Senalizacion_Master.md v1.0</p>
+            <!-- COCINADO DESDE FUENTES: 09/10/2025 17:30 | Fuentes: 2 | DTs: 0 -->
+            <!-- COCINADO LFC-CLI v1.0 | Fecha: 3/13/2026, 1:56:38 PM | SSOT: DBCD_CRITERIA.md -->
+        </article>
+
+        <footer style="margin-top: 4rem; text-align: center; opacity: 0.5; font-size: 0.8rem;">
+            © 2025 LFC STUDIO | SISTEMA DE COMUNICACIONES Y CONTROL | PTC VIRTUAL SICC
+        </footer>
+    </div>
+
+    <script src="../../../IX. WBS y Planificacion/lfc-terminology.js"></script>
+    <script src="../../../IX. WBS y Planificacion/sidebar-component.js"></script>
 </body>
 </html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$title$ - LFC STUDIO</title>
+    <link rel="stylesheet" href="../../../IX. WBS y Planificacion/wbs-shared.css">
+    <style>
+        .premium-doc-content {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: var(--border-radius-lg);
+            padding: 3rem;
+            backdrop-filter: var(--glass-blur);
+            box-shadow: var(--glass-shadow);
+        }
+        .premium-doc-content h1, .premium-doc-content h2, .premium-doc-content h3 {
+            color: var(--accent);
+            border-bottom: 1px solid var(--glass-border);
+            padding-bottom: 0.5rem;
+            margin-top: 2rem;
+        }
+        .premium-doc-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+            background: rgba(255,255,255,0.02);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .premium-doc-content th {
+            background: var(--accent-transparent);
+            color: var(--accent);
+            text-align: left;
+            padding: 1rem;
+        }
+        .premium-doc-content td {
+            padding: 1rem;
+            border-bottom: 1px solid var(--glass-border);
+        }
+        .premium-doc-content blockquote {
+            border-left: 4px solid var(--accent);
+            background: var(--accent-soft);
+            padding: 1rem;
+            margin: 1rem 0;
+            font-style: italic;
+        }
+        #TOC {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            padding: 1.5rem;
+            border-radius: var(--border-radius-md);
+            margin-bottom: 2rem;
+        }
+        #TOC ul { list-style: none; padding-left: 1rem; }
+        #TOC a { color: var(--text-main); text-decoration: none; font-size: 0.9rem; }
+        #TOC a:hover { color: var(--accent); }
+    </style>
+</head>
+<body>
+    <div id="lfc-sidebar-container"></div>
+    <div class="main-content-wrapper">
+        <header class="premium-card" style="margin-bottom: 2rem; text-align: center;">
+            <h1 class="premium-title">$title$</h1>
+            <p style="opacity: 0.7;">REPORTE EJECUTIVO GENERADO DINÁMICAMENTE | SICC-READY</p>
+        </header>
+
+        <nav id="TOC">
+            <h3 style="margin-top: 0; color: var(--accent);">📍 ÍNDICE DE CONTENIDO</h3>
+            $toc$
+        </nav>
+
+        <article class="premium-doc-content">
+            $body$
+        </article>
+
+        <footer style="margin-top: 4rem; text-align: center; opacity: 0.5; font-size: 0.8rem;">
+            © 2025 LFC STUDIO | SISTEMA DE COMUNICACIONES Y CONTROL | PTC VIRTUAL SICC
+        </footer>
+    </div>
+
+    <script src="../../../IX. WBS y Planificacion/lfc-terminology.js"></script>
+    <script src="../../../IX. WBS y Planificacion/sidebar-component.js"></script>
+</body>
+</html>

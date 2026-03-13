@@ -1,981 +1,984 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>ESPECIALIDAD_03_Ingenieria_Mecanica_EJECUTIVO</title>
-  <style>
-    html {
-      color: #1a1a1a;
-      background-color: #fdfdfd;
-    }
-    body {
-      margin: 0 auto;
-      max-width: 36em;
-      padding-left: 50px;
-      padding-right: 50px;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      hyphens: auto;
-      overflow-wrap: break-word;
-      text-rendering: optimizeLegibility;
-      font-kerning: normal;
-    }
-    @media (max-width: 600px) {
-      body {
-        font-size: 0.9em;
-        padding: 12px;
-      }
-      h1 {
-        font-size: 1.8em;
-      }
-    }
-    @media print {
-      html {
-        background-color: white;
-      }
-      body {
-        background-color: transparent;
-        color: black;
-        font-size: 12pt;
-      }
-      p, h2, h3 {
-        orphans: 3;
-        widows: 3;
-      }
-      h2, h3, h4 {
-        page-break-after: avoid;
-      }
-    }
-    p {
-      margin: 1em 0;
-    }
-    a {
-      color: #1a1a1a;
-    }
-    a:visited {
-      color: #1a1a1a;
-    }
-    img {
-      max-width: 100%;
-    }
-    svg {
-      height: auto;
-      max-width: 100%;
-    }
-    h1, h2, h3, h4, h5, h6 {
-      margin-top: 1.4em;
-    }
-    h5, h6 {
-      font-size: 1em;
-      font-style: italic;
-    }
-    h6 {
-      font-weight: normal;
-    }
-    ol, ul {
-      padding-left: 1.7em;
-      margin-top: 1em;
-    }
-    li > ol, li > ul {
-      margin-top: 0;
-    }
-    blockquote {
-      margin: 1em 0 1em 1.7em;
-      padding-left: 1em;
-      border-left: 2px solid #e6e6e6;
-      color: #606060;
-    }
-    code {
-      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
-      font-size: 85%;
-      margin: 0;
-      hyphens: manual;
-    }
-    pre {
-      margin: 1em 0;
-      overflow: auto;
-    }
-    pre code {
-      padding: 0;
-      overflow: visible;
-      overflow-wrap: normal;
-    }
-    .sourceCode {
-     background-color: transparent;
-     overflow: visible;
-    }
-    hr {
-      background-color: #1a1a1a;
-      border: none;
-      height: 1px;
-      margin: 1em 0;
-    }
-    table {
-      margin: 1em 0;
-      border-collapse: collapse;
-      width: 100%;
-      overflow-x: auto;
-      display: block;
-      font-variant-numeric: lining-nums tabular-nums;
-    }
-    table caption {
-      margin-bottom: 0.75em;
-    }
-    tbody {
-      margin-top: 0.5em;
-      border-top: 1px solid #1a1a1a;
-      border-bottom: 1px solid #1a1a1a;
-    }
-    th {
-      border-top: 1px solid #1a1a1a;
-      padding: 0.25em 0.5em 0.25em 0.5em;
-    }
-    td {
-      padding: 0.125em 0.5em 0.25em 0.5em;
-    }
-    header {
-      margin-bottom: 4em;
-      text-align: center;
-    }
-    #TOC li {
-      list-style: none;
-    }
-    #TOC ul {
-      padding-left: 1.3em;
-    }
-    #TOC > ul {
-      padding-left: 0;
-    }
-    #TOC a:not(:hover) {
-      text-decoration: none;
-    }
-    code{white-space: pre-wrap;}
-    span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    /* The extra [class] is a hack that increases specificity enough to
-       override a similar rule in reveal.js */
-    ul.task-list[class]{list-style: none;}
-    ul.task-list li input[type="checkbox"] {
-      font-size: inherit;
-      width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
-      vertical-align: middle;
-    }
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESPECIALIDAD 03 Ingenieria Mecanica
+EJECUTIVO - LFC STUDIO</title>
+    <link rel="stylesheet" href="../../../IX. WBS y Planificacion/wbs-shared.css">
+    <style>
+        .premium-doc-content {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: var(--border-radius-lg);
+            padding: 3rem;
+            backdrop-filter: var(--glass-blur);
+            box-shadow: var(--glass-shadow);
+        }
+        .premium-doc-content h1, .premium-doc-content h2, .premium-doc-content h3 {
+            color: var(--accent);
+            border-bottom: 1px solid var(--glass-border);
+            padding-bottom: 0.5rem;
+            margin-top: 2rem;
+        }
+        .premium-doc-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+            background: rgba(255,255,255,0.02);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .premium-doc-content th {
+            background: var(--accent-transparent);
+            color: var(--accent);
+            text-align: left;
+            padding: 1rem;
+        }
+        .premium-doc-content td {
+            padding: 1rem;
+            border-bottom: 1px solid var(--glass-border);
+        }
+        .premium-doc-content blockquote {
+            border-left: 4px solid var(--accent);
+            background: var(--accent-soft);
+            padding: 1rem;
+            margin: 1rem 0;
+            font-style: italic;
+        }
+        #TOC {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            padding: 1.5rem;
+            border-radius: var(--border-radius-md);
+            margin-bottom: 2rem;
+        }
+        #TOC ul { list-style: none; padding-left: 1rem; }
+        #TOC a { color: var(--text-main); text-decoration: none; font-size: 0.9rem; }
+        #TOC a:hover { color: var(--accent); }
+    </style>
 </head>
 <body>
-<nav id="TOC" role="doc-toc">
-<ul>
-<li><a href="#especialidad-03-ingeniería-mecánica"
-id="toc-especialidad-03-ingeniería-mecánica">ESPECIALIDAD 03: INGENIERÍA
-MECÁNICA</a>
-<ul>
-<li><a href="#documento-ejecutivo-de-ingeniería"
-id="toc-documento-ejecutivo-de-ingeniería">Documento Ejecutivo de
-Ingeniería</a></li>
-<li><a href="#resumen-ejecutivo" id="toc-resumen-ejecutivo">📊 RESUMEN
-EJECUTIVO</a>
-<ul>
-<li><a href="#qué-es-esta-especialidad-y-por-qué-importa"
-id="toc-qué-es-esta-especialidad-y-por-qué-importa">Qué es esta
-especialidad y por qué importa</a></li>
-<li><a href="#alcance-en-números---justificación-técnica"
-id="toc-alcance-en-números---justificación-técnica">Alcance en números -
-JUSTIFICACIÓN TÉCNICA</a></li>
-<li><a href="#hitos-críticos" id="toc-hitos-críticos">Hitos
-críticos</a></li>
-</ul></li>
-<li><a href="#criterios-de-diseño-y-justificaciones-técnicas"
-id="toc-criterios-de-diseño-y-justificaciones-técnicas">🔍 CRITERIOS DE
-DISEÑO Y JUSTIFICACIONES TÉCNICAS</a>
-<ul>
-<li><a href="#por-qué-15-locomotoras-específicamente"
-id="toc-por-qué-15-locomotoras-específicamente">¿Por qué 15 locomotoras
-específicamente?</a></li>
-<li><a href="#por-qué-51-vagones-40-operativas-11-no-operativas"
-id="toc-por-qué-51-vagones-40-operativas-11-no-operativas">¿Por qué 51
-vagones (40 operativas + 11 no operativas)?</a></li>
-<li><a href="#por-qué-8-carromotores"
-id="toc-por-qué-8-carromotores">¿Por qué 8 carromotores?</a></li>
-<li><a href="#por-qué-15-dispositivos-eot"
-id="toc-por-qué-15-dispositivos-eot">¿Por qué 15 dispositivos
-EOT?</a></li>
-<li><a href="#por-qué-3-talleres-específicamente"
-id="toc-por-qué-3-talleres-específicamente">¿Por qué 3 talleres
-específicamente?</a></li>
-</ul></li>
-<li><a href="#función-y-propósito-de-la-especialidad"
-id="toc-función-y-propósito-de-la-especialidad">🎯 FUNCIÓN Y PROPÓSITO
-DE LA ESPECIALIDAD</a>
-<ul>
-<li><a href="#qué-hace-esta-especialidad"
-id="toc-qué-hace-esta-especialidad">¿Qué hace esta
-especialidad?</a></li>
-<li><a href="#por-qué-la-necesitamos"
-id="toc-por-qué-la-necesitamos">¿Por qué la necesitamos?</a></li>
-</ul></li>
-<li><a href="#componentes-principales"
-id="toc-componentes-principales">🏗️ COMPONENTES PRINCIPALES</a>
-<ul>
-<li><a href="#material-rodante-principal"
-id="toc-material-rodante-principal">1. Material Rodante
-Principal</a></li>
-<li><a href="#equipos-de-mantenimiento"
-id="toc-equipos-de-mantenimiento">2. Equipos de Mantenimiento</a></li>
-<li><a href="#talleres-de-mantenimiento"
-id="toc-talleres-de-mantenimiento">3. Talleres de Mantenimiento</a></li>
-</ul></li>
-<li><a href="#especificaciones-técnicas-clave"
-id="toc-especificaciones-técnicas-clave">📐 ESPECIFICACIONES TÉCNICAS
-CLAVE</a>
-<ul>
-<li><a href="#tabla-consolidada-de-especificaciones"
-id="toc-tabla-consolidada-de-especificaciones">Tabla consolidada de
-especificaciones</a></li>
-<li><a href="#criterios-de-aceptación"
-id="toc-criterios-de-aceptación">Criterios de aceptación</a></li>
-</ul></li>
-<li><a href="#ubicación-y-despliegue" id="toc-ubicación-y-despliegue">📍
-UBICACIÓN Y DESPLIEGUE</a>
-<ul>
-<li><a href="#mapa-de-despliegue" id="toc-mapa-de-despliegue">Mapa de
-despliegue</a></li>
-<li><a href="#tabla-de-ubicaciones-principales"
-id="toc-tabla-de-ubicaciones-principales">Tabla de ubicaciones
-principales</a></li>
-</ul></li>
-<li><a href="#operación-y-mantenimiento"
-id="toc-operación-y-mantenimiento">⚙️ OPERACIÓN Y MANTENIMIENTO</a>
-<ul>
-<li><a href="#operación-normal" id="toc-operación-normal">Operación
-normal</a></li>
-<li><a href="#mantenimiento-preventivo"
-id="toc-mantenimiento-preventivo">Mantenimiento preventivo</a></li>
-<li><a href="#respuesta-a-fallas" id="toc-respuesta-a-fallas">Respuesta
-a fallas</a></li>
-</ul></li>
-<li><a href="#interfaces-con-otras-especialidades"
-id="toc-interfaces-con-otras-especialidades">🔗 INTERFACES CON OTRAS
-ESPECIALIDADES</a>
-<ul>
-<li><a href="#diagrama-de-interfaces"
-id="toc-diagrama-de-interfaces">Diagrama de interfaces</a></li>
-<li><a href="#tabla-de-interfaces-críticas"
-id="toc-tabla-de-interfaces-críticas">Tabla de interfaces
-críticas</a></li>
-</ul></li>
-<li><a href="#supuestos-técnicos-y-limitaciones"
-id="toc-supuestos-técnicos-y-limitaciones">📋 SUPUESTOS TÉCNICOS Y
-LIMITACIONES</a>
-<ul>
-<li><a href="#supuestos-críticos-del-diseño"
-id="toc-supuestos-críticos-del-diseño">Supuestos Críticos del
-Diseño</a></li>
-<li><a href="#limitaciones-del-diseño"
-id="toc-limitaciones-del-diseño">Limitaciones del Diseño</a></li>
-<li><a href="#dependencias-críticas"
-id="toc-dependencias-críticas">Dependencias Críticas</a></li>
-</ul></li>
-<li><a href="#riesgos-y-mitigaciones" id="toc-riesgos-y-mitigaciones">⚠️
-RIESGOS Y MITIGACIONES</a></li>
-<li><a href="#cumplimiento-contractual"
-id="toc-cumplimiento-contractual">📋 CUMPLIMIENTO CONTRACTUAL</a>
-<ul>
-<li><a href="#obligaciones-clave-del-contrato"
-id="toc-obligaciones-clave-del-contrato">Obligaciones clave del
-contrato</a></li>
-<li><a href="#referencias-contractuales"
-id="toc-referencias-contractuales">Referencias contractuales</a></li>
-</ul></li>
-<li><a href="#documentación-de-soporte"
-id="toc-documentación-de-soporte">📚 DOCUMENTACIÓN DE SOPORTE</a>
-<ul>
-<li><a href="#documentos-técnicos-disponibles"
-id="toc-documentos-técnicos-disponibles">Documentos técnicos
-disponibles</a></li>
-<li><a href="#para-más-información-técnica"
-id="toc-para-más-información-técnica">Para más información
-técnica</a></li>
-</ul></li>
-<li><a href="#contactos-y-responsables"
-id="toc-contactos-y-responsables">📞 CONTACTOS Y RESPONSABLES</a></li>
-<li><a href="#indicadores-de-desempeño-kpis"
-id="toc-indicadores-de-desempeño-kpis">📊 INDICADORES DE DESEMPEÑO
-(KPIs)</a></li>
-<li><a href="#decisiones-tecnicas-aplicadas"
-id="toc-decisiones-tecnicas-aplicadas">📋 DECISIONES TECNICAS
-APLICADAS</a>
-<ul>
-<li><a href="#climatizacion-ventilacion"
-id="toc-climatizacion-ventilacion">Climatizacion, ventilacion</a></li>
-</ul></li>
-<li><a href="#control-de-versiones" id="toc-control-de-versiones">🔄
-CONTROL DE VERSIONES</a></li>
-</ul></li>
-</ul>
-</nav>
-<h1 id="especialidad-03-ingeniería-mecánica">ESPECIALIDAD 03: INGENIERÍA
-MECÁNICA</h1>
-<h2 id="documento-ejecutivo-de-ingeniería">Documento Ejecutivo de
-Ingeniería</h2>
-<hr />
-<h2 id="resumen-ejecutivo">📊 RESUMEN EJECUTIVO</h2>
-<h3 id="qué-es-esta-especialidad-y-por-qué-importa">Qué es esta
-especialidad y por qué importa</h3>
-<p>La Ingeniería Mecánica es el <strong>“sistema locomotor”</strong> del
-ferrocarril que proporciona todo el material rodante y equipos mecánicos
-necesarios para la operación ferroviaria. Es como el parque automotor de
-una empresa, pero especializado en ferrocarriles, donde cada locomotora
-y vagón debe cumplir estrictos estándares de seguridad y eficiencia.</p>
-<h3 id="alcance-en-números---justificación-técnica">Alcance en números -
-JUSTIFICACIÓN TÉCNICA</h3>
-<ul>
-<li><strong>Inversión estimada:</strong> $95,000 millones COP</li>
-<li><strong>15 locomotoras:</strong> 2 GR12 + 2 U10 + 11 adicionales
-(según AT1)</li>
-<li><strong>51 vagones:</strong> 40 plataformas operativas + 11 no
-operativas</li>
-<li><strong>8 carromotores:</strong> Equipos especializados para
-mantenimiento de vía</li>
-<li><strong>3 talleres:</strong> Principal La Dorada + secundario
-Chiriguaná + línea</li>
-<li><strong>15 EOT:</strong> Dispositivos End of Train para seguridad
-crítica</li>
-<li><strong>99.95% disponibilidad:</strong> Material rodante según
-AT4</li>
-</ul>
-<h3 id="hitos-críticos">Hitos críticos</h3>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Fase</th>
-<th style="text-align: left;">Fecha</th>
-<th style="text-align: left;">Estado</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Diseño Conceptual</td>
-<td style="text-align: left;">Enero 2025</td>
-<td style="text-align: left;">✅ Completado</td>
-</tr>
-<tr>
-<td style="text-align: left;">Puesta a Punto</td>
-<td style="text-align: left;">Marzo 2025</td>
-<td style="text-align: left;">⏳ En progreso</td>
-</tr>
-<tr>
-<td style="text-align: left;">Adquisición Nuevos</td>
-<td style="text-align: left;">Abril 2025</td>
-<td style="text-align: left;">❌ Pendiente</td>
-</tr>
-<tr>
-<td style="text-align: left;">Comisionamiento</td>
-<td style="text-align: left;">Mayo 2025</td>
-<td style="text-align: left;">❌ Pendiente</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="criterios-de-diseño-y-justificaciones-técnicas">🔍 CRITERIOS DE
-DISEÑO Y JUSTIFICACIONES TÉCNICAS</h2>
-<h3 id="por-qué-15-locomotoras-específicamente">¿Por qué 15 locomotoras
-específicamente?</h3>
-<p><strong>Desglose del Parque Rodante (AT1):</strong> | Tipo | Cantidad
-| Justificación | |:—–|:———|:————–| | <strong>GR12 existentes</strong> |
-2 unidades | Locomotoras actuales para puesta a punto | | <strong>U10
-existentes</strong> | 2 unidades | Locomotoras actuales para puesta a
-punto | | <strong>Locomotoras nuevas</strong> | 11 unidades | Completar
-flota para operación del corredor | | <strong>TOTAL</strong> |
-<strong>15 locomotoras</strong> | Capacidad de transporte requerida
-|</p>
-<p><strong>Criterio de capacidad:</strong> 1 locomotora por cada 35 km
-de corredor (526 km ÷ 15 = 35 km)</p>
-<h3 id="por-qué-51-vagones-40-operativas-11-no-operativas">¿Por qué 51
-vagones (40 operativas + 11 no operativas)?</h3>
-<p><strong>Justificación Contractual (AT1):</strong> - <strong>40
-plataformas operativas:</strong> Vagones en condiciones de operación
-inmediata - <strong>11 plataformas no operativas:</strong> Vagones para
-puesta a punto y mantenimiento - <strong>Criterio:</strong> Inventario
-existente + requerimientos de capacidad de carga - <strong>Capacidad
-total:</strong> 40 vagones × 60 ton = 2,400 ton de capacidad de
-carga</p>
-<h3 id="por-qué-8-carromotores">¿Por qué 8 carromotores?</h3>
-<p><strong>Justificación de Mantenimiento de Vía:</strong> -
-<strong>Cobertura:</strong> 1 carromotor por cada 66 km (526 km ÷ 8 = 66
-km) - <strong>Especialización:</strong> Diferentes tipos de
-mantenimiento (vía, drenaje, señalización) -
-<strong>Eficiencia:</strong> Equipos especializados para mantenimiento
-preventivo - <strong>Disponibilidad:</strong> Mantenimiento continuo sin
-afectar operación</p>
-<h3 id="por-qué-15-dispositivos-eot">¿Por qué 15 dispositivos EOT?</h3>
-<p><strong>Justificación de Seguridad:</strong> - <strong>1 EOT por
-locomotora:</strong> Cada tren debe tener dispositivo de fin de tren -
-<strong>Seguridad crítica:</strong> Detección de separación de vagones -
-<strong>Regulaciones:</strong> Cumplimiento de normas de seguridad
-ferroviaria - <strong>Cálculo:</strong> 15 locomotoras = 15 dispositivos
-EOT</p>
-<h3 id="por-qué-3-talleres-específicamente">¿Por qué 3 talleres
-específicamente?</h3>
-<p><strong>Justificación de Ubicación:</strong> - <strong>Taller
-Principal La Dorada:</strong> 150m × 30m - mantenimiento mayor y
-reparaciones - <strong>Taller Secundario Chiriguaná:</strong> 100m × 25m
-- mantenimiento básico y preventivo - <strong>Taller de Línea:</strong>
-Mantenimiento menor en ruta y emergencias - <strong>Criterio:</strong>
-Cobertura geográfica para 526 km de corredor</p>
-<hr />
-<h2 id="función-y-propósito-de-la-especialidad">🎯 FUNCIÓN Y PROPÓSITO
-DE LA ESPECIALIDAD</h2>
-<h3 id="qué-hace-esta-especialidad">¿Qué hace esta especialidad?</h3>
-<p>La Ingeniería Mecánica proporciona <strong>material rodante</strong>
-para la operación ferroviaria: - <strong>Locomotoras:</strong>
-Tractación para transporte de carga - <strong>Vagones:</strong>
-Capacidad de carga para mercancías - <strong>Equipos
-especializados:</strong> Mantenimiento de vía y infraestructura -
-<strong>Talleres:</strong> Mantenimiento y reparación de material
-rodante</p>
-<h3 id="por-qué-la-necesitamos">¿Por qué la necesitamos?</h3>
-<ul>
-<li><strong>Transporte:</strong> Sin material rodante no hay operación
-ferroviaria</li>
-<li><strong>Capacidad:</strong> Flota suficiente para demanda de
-transporte</li>
-<li><strong>Mantenimiento:</strong> Talleres para mantener material
-rodante operativo</li>
-<li><strong>Seguridad:</strong> EOT y sistemas de seguridad
-embarcados</li>
-<li><strong>Eficiencia:</strong> Equipos especializados para
-mantenimiento</li>
-</ul>
-<hr />
-<h2 id="componentes-principales">🏗️ COMPONENTES PRINCIPALES</h2>
-<h3 id="material-rodante-principal">1. Material Rodante Principal</h3>
-<p><strong>Propósito:</strong> Transporte de carga a lo largo del
-corredor</p>
-<p><strong>Especificaciones técnicas:</strong> | Parámetro | Valor |
-Justificación | |:———-|:——|:————–| | <strong>Locomotoras</strong> | 15
-unidades | Capacidad de tractación | | <strong>Vagones</strong> | 51
-unidades | Capacidad de carga | | <strong>Velocidad máxima</strong> | 80
-km/h | Especificaciones del corredor | | <strong>Carga por eje</strong>
-| 25 ton | Estándares ferroviarios | | <strong>Potencia
-locomotora</strong> | 3,000 HP | Tractación para trenes pesados |</p>
-<h3 id="equipos-de-mantenimiento">2. Equipos de Mantenimiento</h3>
-<p><strong>Propósito:</strong> Mantenimiento de vía e
-infraestructura</p>
-<p><strong>Componentes instalados:</strong> | Componente | Cantidad |
-Ubicación | Estado | |:———–|:———|:———-|:——-| |
-<strong>Carromotores</strong> | 8 unidades | Distribuidos en el corredor
-| ⏳ En adquisición | | <strong>Bateadoras</strong> | 2 unidades |
-Talleres principales | ⏳ En adquisición | |
-<strong>Retroexcavadoras</strong> | 3 unidades | Talleres y línea | ⏳
-En adquisición |</p>
-<h3 id="talleres-de-mantenimiento">3. Talleres de Mantenimiento</h3>
-<p><strong>Propósito:</strong> Mantenimiento y reparación de material
-rodante</p>
-<p><strong>Componentes instalados:</strong> | Componente | Cantidad |
-Ubicación | Estado | |:———–|:———|:———-|:——-| | <strong>Taller
-Principal</strong> | 1 unidad | La Dorada (150m × 30m) | ⏳ En
-construcción | | <strong>Taller Secundario</strong> | 1 unidad |
-Chiriguaná (100m × 25m) | ⏳ En construcción | | <strong>Taller de
-Línea</strong> | 1 unidad | Ubicación intermedia | ⏳ En construcción
-|</p>
-<hr />
-<h2 id="especificaciones-técnicas-clave">📐 ESPECIFICACIONES TÉCNICAS
-CLAVE</h2>
-<h3 id="tabla-consolidada-de-especificaciones">Tabla consolidada de
-especificaciones</h3>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Parámetro</th>
-<th style="text-align: left;">Valor</th>
-<th style="text-align: left;">Estándar Aplicable</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Potencia locomotora</td>
-<td style="text-align: left;">3,000 HP</td>
-<td style="text-align: left;">UIC 700</td>
-</tr>
-<tr>
-<td style="text-align: left;">Carga por eje</td>
-<td style="text-align: left;">25 ton</td>
-<td style="text-align: left;">UIC 700</td>
-</tr>
-<tr>
-<td style="text-align: left;">Velocidad máxima</td>
-<td style="text-align: left;">80 km/h</td>
-<td style="text-align: left;">Especificaciones proyecto</td>
-</tr>
-<tr>
-<td style="text-align: left;">Disponibilidad</td>
-<td style="text-align: left;">99.95%</td>
-<td style="text-align: left;">AT4</td>
-</tr>
-<tr>
-<td style="text-align: left;">Vida útil</td>
-<td style="text-align: left;">30 años</td>
-<td style="text-align: left;">Especificaciones proyecto</td>
-</tr>
-</tbody>
-</table>
-<h3 id="criterios-de-aceptación">Criterios de aceptación</h3>
-<ul>
-<li>✅ 15 locomotoras operativas</li>
-<li>✅ 51 vagones disponibles</li>
-<li>✅ 8 carromotores funcionando</li>
-<li>✅ 3 talleres operativos</li>
-<li>✅ Disponibilidad 99.95%</li>
-</ul>
-<hr />
-<h2 id="ubicación-y-despliegue">📍 UBICACIÓN Y DESPLIEGUE</h2>
-<h3 id="mapa-de-despliegue">Mapa de despliegue</h3>
-<p>El material rodante opera a lo largo de los 526 km del corredor, con
-talleres estratégicamente ubicados para mantenimiento y reparación.</p>
-<h3 id="tabla-de-ubicaciones-principales">Tabla de ubicaciones
-principales</h3>
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 30%" />
-<col style="width: 25%" />
-<col style="width: 18%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Ubicación</th>
-<th style="text-align: left;">Componentes</th>
-<th style="text-align: left;">Capacidad</th>
-<th style="text-align: left;">Estado</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><strong>La Dorada</strong></td>
-<td style="text-align: left;">Taller principal + material rodante</td>
-<td style="text-align: left;">8 locomotoras</td>
-<td style="text-align: left;">⏳ En construcción</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Chiriguaná</strong></td>
-<td style="text-align: left;">Taller secundario + material rodante</td>
-<td style="text-align: left;">4 locomotoras</td>
-<td style="text-align: left;">⏳ En construcción</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Corredor</strong></td>
-<td style="text-align: left;">Carromotores + EOT</td>
-<td style="text-align: left;">Mantenimiento continuo</td>
-<td style="text-align: left;">⏳ En despliegue</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="operación-y-mantenimiento">⚙️ OPERACIÓN Y MANTENIMIENTO</h2>
-<h3 id="operación-normal">Operación normal</h3>
-<p>El material rodante opera 24/7 transportando carga a lo largo del
-corredor, con mantenimiento preventivo programado y respaldo para
-emergencias.</p>
-<h3 id="mantenimiento-preventivo">Mantenimiento preventivo</h3>
-<ul>
-<li><strong>Diario:</strong> Inspección visual de locomotoras y
-vagones</li>
-<li><strong>Semanal:</strong> Mantenimiento básico de equipos</li>
-<li><strong>Mensual:</strong> Mantenimiento preventivo programado</li>
-<li><strong>Trimestral:</strong> Mantenimiento mayor en talleres</li>
-<li><strong>Anual:</strong> Revisión completa y certificación</li>
-</ul>
-<h3 id="respuesta-a-fallas">Respuesta a fallas</h3>
-<ol type="1">
-<li><strong>Detección</strong> de fallas por inspección o monitoreo</li>
-<li><strong>Evaluación</strong> de criticidad y impacto</li>
-<li><strong>Reparación</strong> en taller o en línea</li>
-<li><strong>Verificación</strong> de funcionamiento normal</li>
-<li><strong>Documentación</strong> de incidentes y reparaciones</li>
-</ol>
-<hr />
-<h2 id="interfaces-con-otras-especialidades">🔗 INTERFACES CON OTRAS
-ESPECIALIDADES</h2>
-<h3 id="diagrama-de-interfaces">Diagrama de interfaces</h3>
-<pre><code>[Ingeniería Mecánica] ←→ [Ingeniería Civil] ←→ [Ingeniería Eléctrica]
+    <div id="lfc-sidebar-container"></div>
+    <div class="main-content-wrapper">
+        <header class="premium-card" style="margin-bottom: 2rem; text-align: center;">
+            <h1 class="premium-title">ESPECIALIDAD 03 Ingenieria
+Mecanica EJECUTIVO</h1>
+            <p style="opacity: 0.7;">REPORTE EJECUTIVO GENERADO DINÁMICAMENTE | SICC-READY</p>
+        </header>
+
+        <nav id="TOC">
+            <h3 style="margin-top: 0; color: var(--accent);">📍 ÍNDICE DE CONTENIDO</h3>
+            <ul>
+            <li><a href="#especialidad-03-ingeniería-mecánica"
+            id="toc-especialidad-03-ingeniería-mecánica">ESPECIALIDAD
+            03: INGENIERÍA MECÁNICA</a>
+            <ul>
+            <li><a href="#documento-ejecutivo-de-ingeniería"
+            id="toc-documento-ejecutivo-de-ingeniería">Documento
+            Ejecutivo de Ingeniería</a></li>
+            <li><a href="#resumen-ejecutivo"
+            id="toc-resumen-ejecutivo">📊 RESUMEN EJECUTIVO</a>
+            <ul>
+            <li><a href="#qué-es-esta-especialidad-y-por-qué-importa"
+            id="toc-qué-es-esta-especialidad-y-por-qué-importa">Qué es
+            esta especialidad y por qué importa</a></li>
+            <li><a href="#alcance-en-números---justificación-técnica"
+            id="toc-alcance-en-números---justificación-técnica">Alcance
+            en números - JUSTIFICACIÓN TÉCNICA</a></li>
+            <li><a href="#hitos-críticos" id="toc-hitos-críticos">Hitos
+            críticos</a></li>
+            </ul></li>
+            <li><a
+            href="#criterios-de-diseño-y-justificaciones-técnicas"
+            id="toc-criterios-de-diseño-y-justificaciones-técnicas">🔍
+            CRITERIOS DE DISEÑO Y JUSTIFICACIONES TÉCNICAS</a>
+            <ul>
+            <li><a href="#por-qué-15-locomotoras-específicamente"
+            id="toc-por-qué-15-locomotoras-específicamente">¿Por qué 15
+            locomotoras específicamente?</a></li>
+            <li><a
+            href="#por-qué-51-vagones-40-operativas-11-no-operativas"
+            id="toc-por-qué-51-vagones-40-operativas-11-no-operativas">¿Por
+            qué 51 vagones (40 operativas + 11 no operativas)?</a></li>
+            <li><a href="#por-qué-8-carromotores"
+            id="toc-por-qué-8-carromotores">¿Por qué 8
+            carromotores?</a></li>
+            <li><a href="#por-qué-15-dispositivos-eot"
+            id="toc-por-qué-15-dispositivos-eot">¿Por qué 15
+            dispositivos EOT?</a></li>
+            <li><a href="#por-qué-3-talleres-específicamente"
+            id="toc-por-qué-3-talleres-específicamente">¿Por qué 3
+            talleres específicamente?</a></li>
+            </ul></li>
+            <li><a href="#función-y-propósito-de-la-especialidad"
+            id="toc-función-y-propósito-de-la-especialidad">🎯 FUNCIÓN Y
+            PROPÓSITO DE LA ESPECIALIDAD</a>
+            <ul>
+            <li><a href="#qué-hace-esta-especialidad"
+            id="toc-qué-hace-esta-especialidad">¿Qué hace esta
+            especialidad?</a></li>
+            <li><a href="#por-qué-la-necesitamos"
+            id="toc-por-qué-la-necesitamos">¿Por qué la
+            necesitamos?</a></li>
+            </ul></li>
+            <li><a href="#componentes-principales"
+            id="toc-componentes-principales">🏗️ COMPONENTES
+            PRINCIPALES</a>
+            <ul>
+            <li><a href="#material-rodante-principal"
+            id="toc-material-rodante-principal">1. Material Rodante
+            Principal</a></li>
+            <li><a href="#equipos-de-mantenimiento"
+            id="toc-equipos-de-mantenimiento">2. Equipos de
+            Mantenimiento</a></li>
+            <li><a href="#talleres-de-mantenimiento"
+            id="toc-talleres-de-mantenimiento">3. Talleres de
+            Mantenimiento</a></li>
+            </ul></li>
+            <li><a href="#especificaciones-técnicas-clave"
+            id="toc-especificaciones-técnicas-clave">📐 ESPECIFICACIONES
+            TÉCNICAS CLAVE</a>
+            <ul>
+            <li><a href="#tabla-consolidada-de-especificaciones"
+            id="toc-tabla-consolidada-de-especificaciones">Tabla
+            consolidada de especificaciones</a></li>
+            <li><a href="#criterios-de-aceptación"
+            id="toc-criterios-de-aceptación">Criterios de
+            aceptación</a></li>
+            </ul></li>
+            <li><a href="#ubicación-y-despliegue"
+            id="toc-ubicación-y-despliegue">📍 UBICACIÓN Y
+            DESPLIEGUE</a>
+            <ul>
+            <li><a href="#mapa-de-despliegue"
+            id="toc-mapa-de-despliegue">Mapa de despliegue</a></li>
+            <li><a href="#tabla-de-ubicaciones-principales"
+            id="toc-tabla-de-ubicaciones-principales">Tabla de
+            ubicaciones principales</a></li>
+            </ul></li>
+            <li><a href="#operación-y-mantenimiento"
+            id="toc-operación-y-mantenimiento">⚙️ OPERACIÓN Y
+            MANTENIMIENTO</a>
+            <ul>
+            <li><a href="#operación-normal"
+            id="toc-operación-normal">Operación normal</a></li>
+            <li><a href="#mantenimiento-preventivo"
+            id="toc-mantenimiento-preventivo">Mantenimiento
+            preventivo</a></li>
+            <li><a href="#respuesta-a-fallas"
+            id="toc-respuesta-a-fallas">Respuesta a fallas</a></li>
+            </ul></li>
+            <li><a href="#interfaces-con-otras-especialidades"
+            id="toc-interfaces-con-otras-especialidades">🔗 INTERFACES
+            CON OTRAS ESPECIALIDADES</a>
+            <ul>
+            <li><a href="#diagrama-de-interfaces"
+            id="toc-diagrama-de-interfaces">Diagrama de
+            interfaces</a></li>
+            <li><a href="#tabla-de-interfaces-críticas"
+            id="toc-tabla-de-interfaces-críticas">Tabla de interfaces
+            críticas</a></li>
+            </ul></li>
+            <li><a href="#supuestos-técnicos-y-limitaciones"
+            id="toc-supuestos-técnicos-y-limitaciones">📋 SUPUESTOS
+            TÉCNICOS Y LIMITACIONES</a>
+            <ul>
+            <li><a href="#supuestos-críticos-del-diseño"
+            id="toc-supuestos-críticos-del-diseño">Supuestos Críticos
+            del Diseño</a></li>
+            <li><a href="#limitaciones-del-diseño"
+            id="toc-limitaciones-del-diseño">Limitaciones del
+            Diseño</a></li>
+            <li><a href="#dependencias-críticas"
+            id="toc-dependencias-críticas">Dependencias
+            Críticas</a></li>
+            </ul></li>
+            <li><a href="#riesgos-y-mitigaciones"
+            id="toc-riesgos-y-mitigaciones">⚠️ RIESGOS Y
+            MITIGACIONES</a></li>
+            <li><a href="#cumplimiento-contractual"
+            id="toc-cumplimiento-contractual">📋 CUMPLIMIENTO
+            CONTRACTUAL</a>
+            <ul>
+            <li><a href="#obligaciones-clave-del-contrato"
+            id="toc-obligaciones-clave-del-contrato">Obligaciones clave
+            del contrato</a></li>
+            <li><a href="#referencias-contractuales"
+            id="toc-referencias-contractuales">Referencias
+            contractuales</a></li>
+            </ul></li>
+            <li><a href="#documentación-de-soporte"
+            id="toc-documentación-de-soporte">📚 DOCUMENTACIÓN DE
+            SOPORTE</a>
+            <ul>
+            <li><a href="#documentos-técnicos-disponibles"
+            id="toc-documentos-técnicos-disponibles">Documentos técnicos
+            disponibles</a></li>
+            <li><a href="#para-más-información-técnica"
+            id="toc-para-más-información-técnica">Para más información
+            técnica</a></li>
+            </ul></li>
+            <li><a href="#contactos-y-responsables"
+            id="toc-contactos-y-responsables">📞 CONTACTOS Y
+            RESPONSABLES</a></li>
+            <li><a href="#indicadores-de-desempeño-kpis"
+            id="toc-indicadores-de-desempeño-kpis">📊 INDICADORES DE
+            DESEMPEÑO (KPIs)</a></li>
+            <li><a href="#decisiones-tecnicas-aplicadas"
+            id="toc-decisiones-tecnicas-aplicadas">📋 DECISIONES
+            TECNICAS APLICADAS</a>
+            <ul>
+            <li><a href="#climatizacion-ventilacion"
+            id="toc-climatizacion-ventilacion">Climatizacion,
+            ventilacion</a></li>
+            </ul></li>
+            <li><a href="#control-de-versiones"
+            id="toc-control-de-versiones">🔄 CONTROL DE
+            VERSIONES</a></li>
+            </ul></li>
+            </ul>
+        </nav>
+
+        <article class="premium-doc-content">
+            <h1 id="especialidad-03-ingeniería-mecánica">ESPECIALIDAD
+            03: INGENIERÍA MECÁNICA</h1>
+            <h2 id="documento-ejecutivo-de-ingeniería">Documento
+            Ejecutivo de Ingeniería</h2>
+            <hr />
+            <h2 id="resumen-ejecutivo">📊 RESUMEN EJECUTIVO</h2>
+            <h3 id="qué-es-esta-especialidad-y-por-qué-importa">Qué es
+            esta especialidad y por qué importa</h3>
+            <p>La Ingeniería Mecánica es el <strong>“sistema
+            locomotor”</strong> del ferrocarril que proporciona todo el
+            material rodante y equipos mecánicos necesarios para la
+            operación ferroviaria. Es como el parque automotor de una
+            empresa, pero especializado en ferrocarriles, donde cada
+            locomotora y vagón debe cumplir estrictos estándares de
+            seguridad y eficiencia.</p>
+            <h3 id="alcance-en-números---justificación-técnica">Alcance
+            en números - JUSTIFICACIÓN TÉCNICA</h3>
+            <ul>
+            <li><strong>Inversión estimada:</strong> $95,000 millones
+            COP</li>
+            <li><strong>15 locomotoras:</strong> 2 GR12 + 2 U10 + 11
+            adicionales (según AT1)</li>
+            <li><strong>51 vagones:</strong> 40 plataformas operativas +
+            11 no operativas</li>
+            <li><strong>8 carromotores:</strong> Equipos especializados
+            para mantenimiento de vía</li>
+            <li><strong>3 talleres:</strong> Principal La Dorada +
+            secundario Chiriguaná + línea</li>
+            <li><strong>15 EOT:</strong> Dispositivos End of Train para
+            seguridad crítica</li>
+            <li><strong>99.95% disponibilidad:</strong> Material rodante
+            según AT4</li>
+            </ul>
+            <h3 id="hitos-críticos">Hitos críticos</h3>
+            <table>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Fase</th>
+            <th style="text-align: left;">Fecha</th>
+            <th style="text-align: left;">Estado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">Diseño Conceptual</td>
+            <td style="text-align: left;">Enero 2025</td>
+            <td style="text-align: left;">✅ Completado</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Puesta a Punto</td>
+            <td style="text-align: left;">Marzo 2025</td>
+            <td style="text-align: left;">⏳ En progreso</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Adquisición Nuevos</td>
+            <td style="text-align: left;">Abril 2025</td>
+            <td style="text-align: left;">❌ Pendiente</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Comisionamiento</td>
+            <td style="text-align: left;">Mayo 2025</td>
+            <td style="text-align: left;">❌ Pendiente</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="criterios-de-diseño-y-justificaciones-técnicas">🔍
+            CRITERIOS DE DISEÑO Y JUSTIFICACIONES TÉCNICAS</h2>
+            <h3 id="por-qué-15-locomotoras-específicamente">¿Por qué 15
+            locomotoras específicamente?</h3>
+            <p><strong>Desglose del Parque Rodante (AT1):</strong> |
+            Tipo | Cantidad | Justificación | |:—–|:———|:————–| |
+            <strong>GR12 existentes</strong> | 2 unidades | Locomotoras
+            actuales para puesta a punto | | <strong>U10
+            existentes</strong> | 2 unidades | Locomotoras actuales para
+            puesta a punto | | <strong>Locomotoras nuevas</strong> | 11
+            unidades | Completar flota para operación del corredor | |
+            <strong>TOTAL</strong> | <strong>15 locomotoras</strong> |
+            Capacidad de transporte requerida |</p>
+            <p><strong>Criterio de capacidad:</strong> 1 locomotora por
+            cada 35 km de corredor (526 km ÷ 15 = 35 km)</p>
+            <h3
+            id="por-qué-51-vagones-40-operativas-11-no-operativas">¿Por
+            qué 51 vagones (40 operativas + 11 no operativas)?</h3>
+            <p><strong>Justificación Contractual (AT1):</strong> -
+            <strong>40 plataformas operativas:</strong> Vagones en
+            condiciones de operación inmediata - <strong>11 plataformas
+            no operativas:</strong> Vagones para puesta a punto y
+            mantenimiento - <strong>Criterio:</strong> Inventario
+            existente + requerimientos de capacidad de carga -
+            <strong>Capacidad total:</strong> 40 vagones × 60 ton =
+            2,400 ton de capacidad de carga</p>
+            <h3 id="por-qué-8-carromotores">¿Por qué 8
+            carromotores?</h3>
+            <p><strong>Justificación de Mantenimiento de Vía:</strong> -
+            <strong>Cobertura:</strong> 1 carromotor por cada 66 km (526
+            km ÷ 8 = 66 km) - <strong>Especialización:</strong>
+            Diferentes tipos de mantenimiento (vía, drenaje,
+            señalización) - <strong>Eficiencia:</strong> Equipos
+            especializados para mantenimiento preventivo -
+            <strong>Disponibilidad:</strong> Mantenimiento continuo sin
+            afectar operación</p>
+            <h3 id="por-qué-15-dispositivos-eot">¿Por qué 15
+            dispositivos EOT?</h3>
+            <p><strong>Justificación de Seguridad:</strong> - <strong>1
+            EOT por locomotora:</strong> Cada tren debe tener
+            dispositivo de fin de tren - <strong>Seguridad
+            crítica:</strong> Detección de separación de vagones -
+            <strong>Regulaciones:</strong> Cumplimiento de normas de
+            seguridad ferroviaria - <strong>Cálculo:</strong> 15
+            locomotoras = 15 dispositivos EOT</p>
+            <h3 id="por-qué-3-talleres-específicamente">¿Por qué 3
+            talleres específicamente?</h3>
+            <p><strong>Justificación de Ubicación:</strong> -
+            <strong>Taller Principal La Dorada:</strong> 150m × 30m -
+            mantenimiento mayor y reparaciones - <strong>Taller
+            Secundario Chiriguaná:</strong> 100m × 25m - mantenimiento
+            básico y preventivo - <strong>Taller de Línea:</strong>
+            Mantenimiento menor en ruta y emergencias -
+            <strong>Criterio:</strong> Cobertura geográfica para 526 km
+            de corredor</p>
+            <hr />
+            <h2 id="función-y-propósito-de-la-especialidad">🎯 FUNCIÓN Y
+            PROPÓSITO DE LA ESPECIALIDAD</h2>
+            <h3 id="qué-hace-esta-especialidad">¿Qué hace esta
+            especialidad?</h3>
+            <p>La Ingeniería Mecánica proporciona <strong>material
+            rodante</strong> para la operación ferroviaria: -
+            <strong>Locomotoras:</strong> Tractación para transporte de
+            carga - <strong>Vagones:</strong> Capacidad de carga para
+            mercancías - <strong>Equipos especializados:</strong>
+            Mantenimiento de vía y infraestructura -
+            <strong>Talleres:</strong> Mantenimiento y reparación de
+            material rodante</p>
+            <h3 id="por-qué-la-necesitamos">¿Por qué la
+            necesitamos?</h3>
+            <ul>
+            <li><strong>Transporte:</strong> Sin material rodante no hay
+            operación ferroviaria</li>
+            <li><strong>Capacidad:</strong> Flota suficiente para
+            demanda de transporte</li>
+            <li><strong>Mantenimiento:</strong> Talleres para mantener
+            material rodante operativo</li>
+            <li><strong>Seguridad:</strong> EOT y sistemas de seguridad
+            embarcados</li>
+            <li><strong>Eficiencia:</strong> Equipos especializados para
+            mantenimiento</li>
+            </ul>
+            <hr />
+            <h2 id="componentes-principales">🏗️ COMPONENTES
+            PRINCIPALES</h2>
+            <h3 id="material-rodante-principal">1. Material Rodante
+            Principal</h3>
+            <p><strong>Propósito:</strong> Transporte de carga a lo
+            largo del corredor</p>
+            <p><strong>Especificaciones técnicas:</strong> | Parámetro |
+            Valor | Justificación | |:———-|:——|:————–| |
+            <strong>Locomotoras</strong> | 15 unidades | Capacidad de
+            tractación | | <strong>Vagones</strong> | 51 unidades |
+            Capacidad de carga | | <strong>Velocidad máxima</strong> |
+            80 km/h | Especificaciones del corredor | | <strong>Carga
+            por eje</strong> | 25 ton | Estándares ferroviarios | |
+            <strong>Potencia locomotora</strong> | 3,000 HP | Tractación
+            para trenes pesados |</p>
+            <h3 id="equipos-de-mantenimiento">2. Equipos de
+            Mantenimiento</h3>
+            <p><strong>Propósito:</strong> Mantenimiento de vía e
+            infraestructura</p>
+            <p><strong>Componentes instalados:</strong> | Componente |
+            Cantidad | Ubicación | Estado | |:———–|:———|:———-|:——-| |
+            <strong>Carromotores</strong> | 8 unidades | Distribuidos en
+            el corredor | ⏳ En adquisición | |
+            <strong>Bateadoras</strong> | 2 unidades | Talleres
+            principales | ⏳ En adquisición | |
+            <strong>Retroexcavadoras</strong> | 3 unidades | Talleres y
+            línea | ⏳ En adquisición |</p>
+            <h3 id="talleres-de-mantenimiento">3. Talleres de
+            Mantenimiento</h3>
+            <p><strong>Propósito:</strong> Mantenimiento y reparación de
+            material rodante</p>
+            <p><strong>Componentes instalados:</strong> | Componente |
+            Cantidad | Ubicación | Estado | |:———–|:———|:———-|:——-| |
+            <strong>Taller Principal</strong> | 1 unidad | La Dorada
+            (150m × 30m) | ⏳ En construcción | | <strong>Taller
+            Secundario</strong> | 1 unidad | Chiriguaná (100m × 25m) |
+            ⏳ En construcción | | <strong>Taller de Línea</strong> | 1
+            unidad | Ubicación intermedia | ⏳ En construcción |</p>
+            <hr />
+            <h2 id="especificaciones-técnicas-clave">📐 ESPECIFICACIONES
+            TÉCNICAS CLAVE</h2>
+            <h3 id="tabla-consolidada-de-especificaciones">Tabla
+            consolidada de especificaciones</h3>
+            <table>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Parámetro</th>
+            <th style="text-align: left;">Valor</th>
+            <th style="text-align: left;">Estándar Aplicable</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">Potencia locomotora</td>
+            <td style="text-align: left;">3,000 HP</td>
+            <td style="text-align: left;">UIC 700</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Carga por eje</td>
+            <td style="text-align: left;">25 ton</td>
+            <td style="text-align: left;">UIC 700</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Velocidad máxima</td>
+            <td style="text-align: left;">80 km/h</td>
+            <td style="text-align: left;">Especificaciones proyecto</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Disponibilidad</td>
+            <td style="text-align: left;">99.95%</td>
+            <td style="text-align: left;">AT4</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Vida útil</td>
+            <td style="text-align: left;">30 años</td>
+            <td style="text-align: left;">Especificaciones proyecto</td>
+            </tr>
+            </tbody>
+            </table>
+            <h3 id="criterios-de-aceptación">Criterios de
+            aceptación</h3>
+            <ul>
+            <li>✅ 15 locomotoras operativas</li>
+            <li>✅ 51 vagones disponibles</li>
+            <li>✅ 8 carromotores funcionando</li>
+            <li>✅ 3 talleres operativos</li>
+            <li>✅ Disponibilidad 99.95%</li>
+            </ul>
+            <hr />
+            <h2 id="ubicación-y-despliegue">📍 UBICACIÓN Y
+            DESPLIEGUE</h2>
+            <h3 id="mapa-de-despliegue">Mapa de despliegue</h3>
+            <p>El material rodante opera a lo largo de los 526 km del
+            corredor, con talleres estratégicamente ubicados para
+            mantenimiento y reparación.</p>
+            <h3 id="tabla-de-ubicaciones-principales">Tabla de
+            ubicaciones principales</h3>
+            <table>
+            <colgroup>
+            <col style="width: 25%" />
+            <col style="width: 30%" />
+            <col style="width: 25%" />
+            <col style="width: 18%" />
+            </colgroup>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Ubicación</th>
+            <th style="text-align: left;">Componentes</th>
+            <th style="text-align: left;">Capacidad</th>
+            <th style="text-align: left;">Estado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;"><strong>La
+            Dorada</strong></td>
+            <td style="text-align: left;">Taller principal + material
+            rodante</td>
+            <td style="text-align: left;">8 locomotoras</td>
+            <td style="text-align: left;">⏳ En construcción</td>
+            </tr>
+            <tr>
+            <td
+            style="text-align: left;"><strong>Chiriguaná</strong></td>
+            <td style="text-align: left;">Taller secundario + material
+            rodante</td>
+            <td style="text-align: left;">4 locomotoras</td>
+            <td style="text-align: left;">⏳ En construcción</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;"><strong>Corredor</strong></td>
+            <td style="text-align: left;">Carromotores + EOT</td>
+            <td style="text-align: left;">Mantenimiento continuo</td>
+            <td style="text-align: left;">⏳ En despliegue</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="operación-y-mantenimiento">⚙️ OPERACIÓN Y
+            MANTENIMIENTO</h2>
+            <h3 id="operación-normal">Operación normal</h3>
+            <p>El material rodante opera 24/7 transportando carga a lo
+            largo del corredor, con mantenimiento preventivo programado
+            y respaldo para emergencias.</p>
+            <h3 id="mantenimiento-preventivo">Mantenimiento
+            preventivo</h3>
+            <ul>
+            <li><strong>Diario:</strong> Inspección visual de
+            locomotoras y vagones</li>
+            <li><strong>Semanal:</strong> Mantenimiento básico de
+            equipos</li>
+            <li><strong>Mensual:</strong> Mantenimiento preventivo
+            programado</li>
+            <li><strong>Trimestral:</strong> Mantenimiento mayor en
+            talleres</li>
+            <li><strong>Anual:</strong> Revisión completa y
+            certificación</li>
+            </ul>
+            <h3 id="respuesta-a-fallas">Respuesta a fallas</h3>
+            <ol type="1">
+            <li><strong>Detección</strong> de fallas por inspección o
+            monitoreo</li>
+            <li><strong>Evaluación</strong> de criticidad y impacto</li>
+            <li><strong>Reparación</strong> en taller o en línea</li>
+            <li><strong>Verificación</strong> de funcionamiento
+            normal</li>
+            <li><strong>Documentación</strong> de incidentes y
+            reparaciones</li>
+            </ol>
+            <hr />
+            <h2 id="interfaces-con-otras-especialidades">🔗 INTERFACES
+            CON OTRAS ESPECIALIDADES</h2>
+            <h3 id="diagrama-de-interfaces">Diagrama de interfaces</h3>
+            <pre><code>[Ingeniería Mecánica] ←→ [Ingeniería Civil] ←→ [Ingeniería Eléctrica]
          ↓                       ↓                       ↓
 [Material Rodante] ←→ [Infraestructura] ←→ [Alimentación Eléctrica]
          ↓                       ↓                       ↓
 [Sistemas Embarcados] ←→ [Sistemas Civiles] ←→ [Sistemas de Control]</code></pre>
-<h3 id="tabla-de-interfaces-críticas">Tabla de interfaces críticas</h3>
-<table>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 31%" />
-<col style="width: 21%" />
-<col style="width: 22%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Especialidad</th>
-<th style="text-align: left;">Tipo de Interfaz</th>
-<th style="text-align: left;">Criticidad</th>
-<th style="text-align: left;">Responsable</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><strong>Ingeniería Civil</strong></td>
-<td style="text-align: left;">Infraestructura de talleres</td>
-<td style="text-align: left;">Alta</td>
-<td style="text-align: left;">EPC Mecánica</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Ingeniería Eléctrica</strong></td>
-<td style="text-align: left;">Alimentación embarcada</td>
-<td style="text-align: left;">Alta</td>
-<td style="text-align: left;">EPC Mecánica</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Ingeniería de
-Sistemas</strong></td>
-<td style="text-align: left;">Sistemas embarcados</td>
-<td style="text-align: left;">Alta</td>
-<td style="text-align: left;">EPC Mecánica</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Ingeniería Ambiental</strong></td>
-<td style="text-align: left;">Gestión ambiental</td>
-<td style="text-align: left;">Media</td>
-<td style="text-align: left;">EPC Mecánica</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="supuestos-técnicos-y-limitaciones">📋 SUPUESTOS TÉCNICOS Y
-LIMITACIONES</h2>
-<h3 id="supuestos-críticos-del-diseño">Supuestos Críticos del
-Diseño</h3>
-<table>
-<colgroup>
-<col style="width: 17%" />
-<col style="width: 26%" />
-<col style="width: 33%" />
-<col style="width: 21%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Supuesto</th>
-<th style="text-align: left;">Valor Asumido</th>
-<th style="text-align: left;">Impacto si Cambia</th>
-<th style="text-align: left;">Mitigación</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><strong>Demanda de
-transporte</strong></td>
-<td style="text-align: left;">2,400 ton/día</td>
-<td style="text-align: left;">Más material rodante si aumenta</td>
-<td style="text-align: left;">Diseño escalable</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Disponibilidad</strong></td>
-<td style="text-align: left;">99.95%</td>
-<td style="text-align: left;">Penalizaciones si no cumple</td>
-<td style="text-align: left;">Mantenimiento preventivo</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Vida útil</strong></td>
-<td style="text-align: left;">30 años</td>
-<td style="text-align: left;">Mayor mantenimiento si reduce</td>
-<td style="text-align: left;">Materiales de calidad</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Velocidad operativa</strong></td>
-<td style="text-align: left;">80 km/h</td>
-<td style="text-align: left;">Menor eficiencia si reduce</td>
-<td style="text-align: left;">Optimización de rutas</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Carga por eje</strong></td>
-<td style="text-align: left;">25 ton</td>
-<td style="text-align: left;">Limitaciones de vía si aumenta</td>
-<td style="text-align: left;">Diseño conservador</td>
-</tr>
-</tbody>
-</table>
-<h3 id="limitaciones-del-diseño">Limitaciones del Diseño</h3>
-<ul>
-<li><strong>Capacidad de carga:</strong> Limitada por especificaciones
-de vía</li>
-<li><strong>Velocidad:</strong> Limitada por geometría del corredor</li>
-<li><strong>Mantenimiento:</strong> Requiere personal especializado</li>
-<li><strong>Repuestos:</strong> Equipos especializados de
-importación</li>
-<li><strong>Ambiental:</strong> Emisiones y ruido de locomotoras</li>
-</ul>
-<h3 id="dependencias-críticas">Dependencias Críticas</h3>
-<ul>
-<li><strong>Infraestructura civil:</strong> Talleres y vías de
-acceso</li>
-<li><strong>Alimentación eléctrica:</strong> Sistemas embarcados</li>
-<li><strong>Sistemas de control:</strong> ATP y comunicaciones</li>
-<li><strong>Personal técnico:</strong> Mantenimiento especializado</li>
-<li><strong>Repuestos:</strong> Suministro de partes especializadas</li>
-</ul>
-<hr />
-<h2 id="riesgos-y-mitigaciones">⚠️ RIESGOS Y MITIGACIONES</h2>
-<table>
-<colgroup>
-<col style="width: 15%" />
-<col style="width: 26%" />
-<col style="width: 19%" />
-<col style="width: 23%" />
-<col style="width: 15%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Riesgo</th>
-<th style="text-align: left;">Probabilidad</th>
-<th style="text-align: left;">Impacto</th>
-<th style="text-align: left;">Mitigación</th>
-<th style="text-align: left;">Estado</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Fallo de locomotoras</td>
-<td style="text-align: left;">Media</td>
-<td style="text-align: left;">Alto</td>
-<td style="text-align: left;">Respaldo de flota</td>
-<td style="text-align: left;">✅ Mitigado</td>
-</tr>
-<tr>
-<td style="text-align: left;">Falta de repuestos</td>
-<td style="text-align: left;">Baja</td>
-<td style="text-align: left;">Alto</td>
-<td style="text-align: left;">Inventario de seguridad</td>
-<td style="text-align: left;">✅ Mitigado</td>
-</tr>
-<tr>
-<td style="text-align: left;">Personal especializado</td>
-<td style="text-align: left;">Media</td>
-<td style="text-align: left;">Medio</td>
-<td style="text-align: left;">Capacitación continua</td>
-<td style="text-align: left;">✅ Mitigado</td>
-</tr>
-<tr>
-<td style="text-align: left;">Condiciones ambientales</td>
-<td style="text-align: left;">Media</td>
-<td style="text-align: left;">Medio</td>
-<td style="text-align: left;">Mantenimiento adaptativo</td>
-<td style="text-align: left;">✅ Mitigado</td>
-</tr>
-<tr>
-<td style="text-align: left;">Sobrecarga de equipos</td>
-<td style="text-align: left;">Baja</td>
-<td style="text-align: left;">Alto</td>
-<td style="text-align: left;">Monitoreo continuo</td>
-<td style="text-align: left;">✅ Mitigado</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="cumplimiento-contractual">📋 CUMPLIMIENTO CONTRACTUAL</h2>
-<h3 id="obligaciones-clave-del-contrato">Obligaciones clave del
-contrato</h3>
-<ul>
-<li>✅ <strong>AT1 - Alcance:</strong> Material rodante integral -
-Cumplida</li>
-<li>✅ <strong>AT2 - Operación:</strong> Mantenimiento con
-disponibilidad 99.95% - Cumplida</li>
-<li>⏳ <strong>AT3 - Especificaciones:</strong> Material rodante según
-estándares - En progreso</li>
-<li>⏳ <strong>AT4 - Indicadores:</strong> Disponibilidad material
-rodante - En progreso</li>
-<li>⏳ <strong>AT10 - Capacidad:</strong> Integración con asignación de
-surcos - En progreso</li>
-</ul>
-<h3 id="referencias-contractuales">Referencias contractuales</h3>
-<ul>
-<li><strong>Apéndice Técnico 1:</strong> Alcance del proyecto - Material
-rodante</li>
-<li><strong>Apéndice Técnico 2:</strong> Operación y mantenimiento -
-Material rodante</li>
-<li><strong>Apéndice Técnico 3:</strong> Especificaciones técnicas -
-Material rodante</li>
-<li><strong>Apéndice Técnico 4:</strong> Indicadores de desempeño -
-Disponibilidad</li>
-<li><strong>Apéndice Técnico 10:</strong> Capacidad y surcos -
-Integración</li>
-</ul>
-<hr />
-<h2 id="documentación-de-soporte">📚 DOCUMENTACIÓN DE SOPORTE</h2>
-<h3 id="documentos-técnicos-disponibles">Documentos técnicos
-disponibles</h3>
-<table>
-<colgroup>
-<col style="width: 29%" />
-<col style="width: 16%" />
-<col style="width: 24%" />
-<col style="width: 29%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Documento</th>
-<th style="text-align: left;">Fase</th>
-<th style="text-align: left;">Versión</th>
-<th style="text-align: left;">Ubicación</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td
-style="text-align: left;">ESPECIALIDAD_03_Ingenieria_Mecanica_Master.md</td>
-<td style="text-align: left;">Consolidado</td>
-<td style="text-align: left;">v1.0</td>
-<td style="text-align: left;">Carpeta X</td>
-</tr>
-<tr>
-<td style="text-align: left;">V.3.1_Material_Rodante_Detallado.md</td>
-<td style="text-align: left;">Detalle</td>
-<td style="text-align: left;">v5.0</td>
-<td style="text-align: left;">V. Ingeniería</td>
-</tr>
-<tr>
-<td style="text-align: left;">V.X_Sistema_EOT_Detalle_v5.0.md</td>
-<td style="text-align: left;">Detalle</td>
-<td style="text-align: left;">v5.0</td>
-<td style="text-align: left;">V. Ingeniería</td>
-</tr>
-</tbody>
-</table>
-<h3 id="para-más-información-técnica">Para más información técnica</h3>
-<p>Los documentos técnicos detallados están disponibles en la Carpeta X
-del proyecto. Para información específica sobre implementación,
-contactar al equipo de EPC Mecánica.</p>
-<hr />
-<h2 id="contactos-y-responsables">📞 CONTACTOS Y RESPONSABLES</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Rol</th>
-<th style="text-align: left;">Responsable</th>
-<th style="text-align: left;">Contacto</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Líder Técnico Mecánico</td>
-<td style="text-align: left;">[Nombre]</td>
-<td style="text-align: left;">[Email/Tel]</td>
-</tr>
-<tr>
-<td style="text-align: left;">Coordinador EPC</td>
-<td style="text-align: left;">Administrador Contractual EPC</td>
-<td style="text-align: left;">[Email/Tel]</td>
-</tr>
-<tr>
-<td style="text-align: left;">Responsable Talleres</td>
-<td style="text-align: left;">Coordinador Mecánico</td>
-<td style="text-align: left;">[Email/Tel]</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="indicadores-de-desempeño-kpis">📊 INDICADORES DE DESEMPEÑO
-(KPIs)</h2>
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 18%" />
-<col style="width: 24%" />
-<col style="width: 24%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Indicador</th>
-<th style="text-align: left;">Meta</th>
-<th style="text-align: left;">Actual</th>
-<th style="text-align: left;">Estado</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Disponibilidad material rodante</td>
-<td style="text-align: left;">99.95%</td>
-<td style="text-align: left;">99.8%</td>
-<td style="text-align: left;">🟡 Mejorable</td>
-</tr>
-<tr>
-<td style="text-align: left;">Capacidad de transporte</td>
-<td style="text-align: left;">2,400 ton/día</td>
-<td style="text-align: left;">2,200 ton/día</td>
-<td style="text-align: left;">🟡 En progreso</td>
-</tr>
-<tr>
-<td style="text-align: left;">Eficiencia de combustible</td>
-<td style="text-align: left;">&gt; 95%</td>
-<td style="text-align: left;">96%</td>
-<td style="text-align: left;">🟢 Excelente</td>
-</tr>
-<tr>
-<td style="text-align: left;">Tiempo de mantenimiento</td>
-<td style="text-align: left;">&lt; 4 horas</td>
-<td style="text-align: left;">3.5 horas</td>
-<td style="text-align: left;">🟢 Excelente</td>
-</tr>
-<tr>
-<td style="text-align: left;">Seguridad operacional</td>
-<td style="text-align: left;">0 accidentes</td>
-<td style="text-align: left;">0 accidentes</td>
-<td style="text-align: left;">🟢 Excelente</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="decisiones-tecnicas-aplicadas">📋 DECISIONES TECNICAS
-APLICADAS</h2>
-<h3 id="climatizacion-ventilacion">Climatizacion, ventilacion</h3>
-<ul>
-<li>Estado: ✅ Ver sistemas relacionados</li>
-<li>Fuente: Cocina I-VI consolidada</li>
-</ul>
-<hr />
-<h2 id="control-de-versiones">🔄 CONTROL DE VERSIONES</h2>
-<table>
-<colgroup>
-<col style="width: 18%" />
-<col style="width: 14%" />
-<col style="width: 42%" />
-<col style="width: 26%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Versión</th>
-<th style="text-align: left;">Fecha</th>
-<th style="text-align: left;">Cambios Principales</th>
-<th style="text-align: left;">Responsable</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">1.0</td>
-<td style="text-align: left;">Enero 2025</td>
-<td style="text-align: left;">Versión inicial ejecutiva</td>
-<td style="text-align: left;">Administrador Contractual EPC</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<p><strong>Documento preparado por:</strong> Administrador Contractual
-EPC<br />
-<strong>Última actualización:</strong> Enero 2025<br />
-<strong>Próxima revisión:</strong> Febrero 2025<br />
-<strong>Basado en:</strong>
-ESPECIALIDAD_03_Ingenieria_Mecanica_Master.md v1.0</p>
-<!-- COCINADO LFC-CLI v1.0 | Fecha: 3/13/2026, 7:41:58 PM | SSOT: DBCD_CRITERIA.md -->
+            <h3 id="tabla-de-interfaces-críticas">Tabla de interfaces
+            críticas</h3>
+            <table>
+            <colgroup>
+            <col style="width: 24%" />
+            <col style="width: 31%" />
+            <col style="width: 21%" />
+            <col style="width: 22%" />
+            </colgroup>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Especialidad</th>
+            <th style="text-align: left;">Tipo de Interfaz</th>
+            <th style="text-align: left;">Criticidad</th>
+            <th style="text-align: left;">Responsable</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;"><strong>Ingeniería
+            Civil</strong></td>
+            <td style="text-align: left;">Infraestructura de
+            talleres</td>
+            <td style="text-align: left;">Alta</td>
+            <td style="text-align: left;">EPC Mecánica</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;"><strong>Ingeniería
+            Eléctrica</strong></td>
+            <td style="text-align: left;">Alimentación embarcada</td>
+            <td style="text-align: left;">Alta</td>
+            <td style="text-align: left;">EPC Mecánica</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;"><strong>Ingeniería de
+            Sistemas</strong></td>
+            <td style="text-align: left;">Sistemas embarcados</td>
+            <td style="text-align: left;">Alta</td>
+            <td style="text-align: left;">EPC Mecánica</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;"><strong>Ingeniería
+            Ambiental</strong></td>
+            <td style="text-align: left;">Gestión ambiental</td>
+            <td style="text-align: left;">Media</td>
+            <td style="text-align: left;">EPC Mecánica</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="supuestos-técnicos-y-limitaciones">📋 SUPUESTOS
+            TÉCNICOS Y LIMITACIONES</h2>
+            <h3 id="supuestos-críticos-del-diseño">Supuestos Críticos
+            del Diseño</h3>
+            <table>
+            <colgroup>
+            <col style="width: 17%" />
+            <col style="width: 26%" />
+            <col style="width: 33%" />
+            <col style="width: 21%" />
+            </colgroup>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Supuesto</th>
+            <th style="text-align: left;">Valor Asumido</th>
+            <th style="text-align: left;">Impacto si Cambia</th>
+            <th style="text-align: left;">Mitigación</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;"><strong>Demanda de
+            transporte</strong></td>
+            <td style="text-align: left;">2,400 ton/día</td>
+            <td style="text-align: left;">Más material rodante si
+            aumenta</td>
+            <td style="text-align: left;">Diseño escalable</td>
+            </tr>
+            <tr>
+            <td
+            style="text-align: left;"><strong>Disponibilidad</strong></td>
+            <td style="text-align: left;">99.95%</td>
+            <td style="text-align: left;">Penalizaciones si no
+            cumple</td>
+            <td style="text-align: left;">Mantenimiento preventivo</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;"><strong>Vida
+            útil</strong></td>
+            <td style="text-align: left;">30 años</td>
+            <td style="text-align: left;">Mayor mantenimiento si
+            reduce</td>
+            <td style="text-align: left;">Materiales de calidad</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;"><strong>Velocidad
+            operativa</strong></td>
+            <td style="text-align: left;">80 km/h</td>
+            <td style="text-align: left;">Menor eficiencia si
+            reduce</td>
+            <td style="text-align: left;">Optimización de rutas</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;"><strong>Carga por
+            eje</strong></td>
+            <td style="text-align: left;">25 ton</td>
+            <td style="text-align: left;">Limitaciones de vía si
+            aumenta</td>
+            <td style="text-align: left;">Diseño conservador</td>
+            </tr>
+            </tbody>
+            </table>
+            <h3 id="limitaciones-del-diseño">Limitaciones del
+            Diseño</h3>
+            <ul>
+            <li><strong>Capacidad de carga:</strong> Limitada por
+            especificaciones de vía</li>
+            <li><strong>Velocidad:</strong> Limitada por geometría del
+            corredor</li>
+            <li><strong>Mantenimiento:</strong> Requiere personal
+            especializado</li>
+            <li><strong>Repuestos:</strong> Equipos especializados de
+            importación</li>
+            <li><strong>Ambiental:</strong> Emisiones y ruido de
+            locomotoras</li>
+            </ul>
+            <h3 id="dependencias-críticas">Dependencias Críticas</h3>
+            <ul>
+            <li><strong>Infraestructura civil:</strong> Talleres y vías
+            de acceso</li>
+            <li><strong>Alimentación eléctrica:</strong> Sistemas
+            embarcados</li>
+            <li><strong>Sistemas de control:</strong> ATP y
+            comunicaciones</li>
+            <li><strong>Personal técnico:</strong> Mantenimiento
+            especializado</li>
+            <li><strong>Repuestos:</strong> Suministro de partes
+            especializadas</li>
+            </ul>
+            <hr />
+            <h2 id="riesgos-y-mitigaciones">⚠️ RIESGOS Y
+            MITIGACIONES</h2>
+            <table>
+            <colgroup>
+            <col style="width: 15%" />
+            <col style="width: 26%" />
+            <col style="width: 19%" />
+            <col style="width: 23%" />
+            <col style="width: 15%" />
+            </colgroup>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Riesgo</th>
+            <th style="text-align: left;">Probabilidad</th>
+            <th style="text-align: left;">Impacto</th>
+            <th style="text-align: left;">Mitigación</th>
+            <th style="text-align: left;">Estado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">Fallo de locomotoras</td>
+            <td style="text-align: left;">Media</td>
+            <td style="text-align: left;">Alto</td>
+            <td style="text-align: left;">Respaldo de flota</td>
+            <td style="text-align: left;">✅ Mitigado</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Falta de repuestos</td>
+            <td style="text-align: left;">Baja</td>
+            <td style="text-align: left;">Alto</td>
+            <td style="text-align: left;">Inventario de seguridad</td>
+            <td style="text-align: left;">✅ Mitigado</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Personal especializado</td>
+            <td style="text-align: left;">Media</td>
+            <td style="text-align: left;">Medio</td>
+            <td style="text-align: left;">Capacitación continua</td>
+            <td style="text-align: left;">✅ Mitigado</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Condiciones ambientales</td>
+            <td style="text-align: left;">Media</td>
+            <td style="text-align: left;">Medio</td>
+            <td style="text-align: left;">Mantenimiento adaptativo</td>
+            <td style="text-align: left;">✅ Mitigado</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Sobrecarga de equipos</td>
+            <td style="text-align: left;">Baja</td>
+            <td style="text-align: left;">Alto</td>
+            <td style="text-align: left;">Monitoreo continuo</td>
+            <td style="text-align: left;">✅ Mitigado</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="cumplimiento-contractual">📋 CUMPLIMIENTO
+            CONTRACTUAL</h2>
+            <h3 id="obligaciones-clave-del-contrato">Obligaciones clave
+            del contrato</h3>
+            <ul>
+            <li>✅ <strong>AT1 - Alcance:</strong> Material rodante
+            integral - Cumplida</li>
+            <li>✅ <strong>AT2 - Operación:</strong> Mantenimiento con
+            disponibilidad 99.95% - Cumplida</li>
+            <li>⏳ <strong>AT3 - Especificaciones:</strong> Material
+            rodante según estándares - En progreso</li>
+            <li>⏳ <strong>AT4 - Indicadores:</strong> Disponibilidad
+            material rodante - En progreso</li>
+            <li>⏳ <strong>AT10 - Capacidad:</strong> Integración con
+            asignación de surcos - En progreso</li>
+            </ul>
+            <h3 id="referencias-contractuales">Referencias
+            contractuales</h3>
+            <ul>
+            <li><strong>Apéndice Técnico 1:</strong> Alcance del
+            proyecto - Material rodante</li>
+            <li><strong>Apéndice Técnico 2:</strong> Operación y
+            mantenimiento - Material rodante</li>
+            <li><strong>Apéndice Técnico 3:</strong> Especificaciones
+            técnicas - Material rodante</li>
+            <li><strong>Apéndice Técnico 4:</strong> Indicadores de
+            desempeño - Disponibilidad</li>
+            <li><strong>Apéndice Técnico 10:</strong> Capacidad y surcos
+            - Integración</li>
+            </ul>
+            <hr />
+            <h2 id="documentación-de-soporte">📚 DOCUMENTACIÓN DE
+            SOPORTE</h2>
+            <h3 id="documentos-técnicos-disponibles">Documentos técnicos
+            disponibles</h3>
+            <table>
+            <colgroup>
+            <col style="width: 29%" />
+            <col style="width: 16%" />
+            <col style="width: 24%" />
+            <col style="width: 29%" />
+            </colgroup>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Documento</th>
+            <th style="text-align: left;">Fase</th>
+            <th style="text-align: left;">Versión</th>
+            <th style="text-align: left;">Ubicación</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td
+            style="text-align: left;">ESPECIALIDAD_03_Ingenieria_Mecanica_Master.md</td>
+            <td style="text-align: left;">Consolidado</td>
+            <td style="text-align: left;">v1.0</td>
+            <td style="text-align: left;">Carpeta X</td>
+            </tr>
+            <tr>
+            <td
+            style="text-align: left;">V.3.1_Material_Rodante_Detallado.md</td>
+            <td style="text-align: left;">Detalle</td>
+            <td style="text-align: left;">v5.0</td>
+            <td style="text-align: left;">V. Ingeniería</td>
+            </tr>
+            <tr>
+            <td
+            style="text-align: left;">V.X_Sistema_EOT_Detalle_v5.0.md</td>
+            <td style="text-align: left;">Detalle</td>
+            <td style="text-align: left;">v5.0</td>
+            <td style="text-align: left;">V. Ingeniería</td>
+            </tr>
+            </tbody>
+            </table>
+            <h3 id="para-más-información-técnica">Para más información
+            técnica</h3>
+            <p>Los documentos técnicos detallados están disponibles en
+            la Carpeta X del proyecto. Para información específica sobre
+            implementación, contactar al equipo de EPC Mecánica.</p>
+            <hr />
+            <h2 id="contactos-y-responsables">📞 CONTACTOS Y
+            RESPONSABLES</h2>
+            <table>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Rol</th>
+            <th style="text-align: left;">Responsable</th>
+            <th style="text-align: left;">Contacto</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">Líder Técnico Mecánico</td>
+            <td style="text-align: left;">[Nombre]</td>
+            <td style="text-align: left;">[Email/Tel]</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Coordinador EPC</td>
+            <td style="text-align: left;">Administrador Contractual
+            EPC</td>
+            <td style="text-align: left;">[Email/Tel]</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Responsable Talleres</td>
+            <td style="text-align: left;">Coordinador Mecánico</td>
+            <td style="text-align: left;">[Email/Tel]</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="indicadores-de-desempeño-kpis">📊 INDICADORES DE
+            DESEMPEÑO (KPIs)</h2>
+            <table>
+            <colgroup>
+            <col style="width: 33%" />
+            <col style="width: 18%" />
+            <col style="width: 24%" />
+            <col style="width: 24%" />
+            </colgroup>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Indicador</th>
+            <th style="text-align: left;">Meta</th>
+            <th style="text-align: left;">Actual</th>
+            <th style="text-align: left;">Estado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">Disponibilidad material
+            rodante</td>
+            <td style="text-align: left;">99.95%</td>
+            <td style="text-align: left;">99.8%</td>
+            <td style="text-align: left;">🟡 Mejorable</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Capacidad de transporte</td>
+            <td style="text-align: left;">2,400 ton/día</td>
+            <td style="text-align: left;">2,200 ton/día</td>
+            <td style="text-align: left;">🟡 En progreso</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Eficiencia de combustible</td>
+            <td style="text-align: left;">&gt; 95%</td>
+            <td style="text-align: left;">96%</td>
+            <td style="text-align: left;">🟢 Excelente</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Tiempo de mantenimiento</td>
+            <td style="text-align: left;">&lt; 4 horas</td>
+            <td style="text-align: left;">3.5 horas</td>
+            <td style="text-align: left;">🟢 Excelente</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Seguridad operacional</td>
+            <td style="text-align: left;">0 accidentes</td>
+            <td style="text-align: left;">0 accidentes</td>
+            <td style="text-align: left;">🟢 Excelente</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="decisiones-tecnicas-aplicadas">📋 DECISIONES
+            TECNICAS APLICADAS</h2>
+            <h3 id="climatizacion-ventilacion">Climatizacion,
+            ventilacion</h3>
+            <ul>
+            <li>Estado: ✅ Ver sistemas relacionados</li>
+            <li>Fuente: Cocina I-VI consolidada</li>
+            </ul>
+            <hr />
+            <h2 id="control-de-versiones">🔄 CONTROL DE VERSIONES</h2>
+            <table>
+            <colgroup>
+            <col style="width: 18%" />
+            <col style="width: 14%" />
+            <col style="width: 42%" />
+            <col style="width: 26%" />
+            </colgroup>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Versión</th>
+            <th style="text-align: left;">Fecha</th>
+            <th style="text-align: left;">Cambios Principales</th>
+            <th style="text-align: left;">Responsable</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">1.0</td>
+            <td style="text-align: left;">Enero 2025</td>
+            <td style="text-align: left;">Versión inicial ejecutiva</td>
+            <td style="text-align: left;">Administrador Contractual
+            EPC</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <p><strong>Documento preparado por:</strong> Administrador
+            Contractual EPC<br />
+            <strong>Última actualización:</strong> Enero 2025<br />
+            <strong>Próxima revisión:</strong> Febrero 2025<br />
+            <strong>Basado en:</strong>
+            ESPECIALIDAD_03_Ingenieria_Mecanica_Master.md v1.0</p>
+            <!-- COCINADO LFC-CLI v1.0 | Fecha: 3/13/2026, 7:41:58 PM | SSOT: DBCD_CRITERIA.md -->
+        </article>
+
+        <footer style="margin-top: 4rem; text-align: center; opacity: 0.5; font-size: 0.8rem;">
+            © 2025 LFC STUDIO | SISTEMA DE COMUNICACIONES Y CONTROL | PTC VIRTUAL SICC
+        </footer>
+    </div>
+
+    <script src="../../../IX. WBS y Planificacion/lfc-terminology.js"></script>
+    <script src="../../../IX. WBS y Planificacion/sidebar-component.js"></script>
 </body>
 </html>

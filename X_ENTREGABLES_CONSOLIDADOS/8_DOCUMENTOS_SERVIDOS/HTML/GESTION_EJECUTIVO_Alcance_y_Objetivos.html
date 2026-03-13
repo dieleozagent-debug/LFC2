@@ -1,938 +1,939 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>GESTION_EJECUTIVO_Alcance_y_Objetivos</title>
-  <style>
-    html {
-      color: #1a1a1a;
-      background-color: #fdfdfd;
-    }
-    body {
-      margin: 0 auto;
-      max-width: 36em;
-      padding-left: 50px;
-      padding-right: 50px;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      hyphens: auto;
-      overflow-wrap: break-word;
-      text-rendering: optimizeLegibility;
-      font-kerning: normal;
-    }
-    @media (max-width: 600px) {
-      body {
-        font-size: 0.9em;
-        padding: 12px;
-      }
-      h1 {
-        font-size: 1.8em;
-      }
-    }
-    @media print {
-      html {
-        background-color: white;
-      }
-      body {
-        background-color: transparent;
-        color: black;
-        font-size: 12pt;
-      }
-      p, h2, h3 {
-        orphans: 3;
-        widows: 3;
-      }
-      h2, h3, h4 {
-        page-break-after: avoid;
-      }
-    }
-    p {
-      margin: 1em 0;
-    }
-    a {
-      color: #1a1a1a;
-    }
-    a:visited {
-      color: #1a1a1a;
-    }
-    img {
-      max-width: 100%;
-    }
-    svg {
-      height: auto;
-      max-width: 100%;
-    }
-    h1, h2, h3, h4, h5, h6 {
-      margin-top: 1.4em;
-    }
-    h5, h6 {
-      font-size: 1em;
-      font-style: italic;
-    }
-    h6 {
-      font-weight: normal;
-    }
-    ol, ul {
-      padding-left: 1.7em;
-      margin-top: 1em;
-    }
-    li > ol, li > ul {
-      margin-top: 0;
-    }
-    blockquote {
-      margin: 1em 0 1em 1.7em;
-      padding-left: 1em;
-      border-left: 2px solid #e6e6e6;
-      color: #606060;
-    }
-    code {
-      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
-      font-size: 85%;
-      margin: 0;
-      hyphens: manual;
-    }
-    pre {
-      margin: 1em 0;
-      overflow: auto;
-    }
-    pre code {
-      padding: 0;
-      overflow: visible;
-      overflow-wrap: normal;
-    }
-    .sourceCode {
-     background-color: transparent;
-     overflow: visible;
-    }
-    hr {
-      background-color: #1a1a1a;
-      border: none;
-      height: 1px;
-      margin: 1em 0;
-    }
-    table {
-      margin: 1em 0;
-      border-collapse: collapse;
-      width: 100%;
-      overflow-x: auto;
-      display: block;
-      font-variant-numeric: lining-nums tabular-nums;
-    }
-    table caption {
-      margin-bottom: 0.75em;
-    }
-    tbody {
-      margin-top: 0.5em;
-      border-top: 1px solid #1a1a1a;
-      border-bottom: 1px solid #1a1a1a;
-    }
-    th {
-      border-top: 1px solid #1a1a1a;
-      padding: 0.25em 0.5em 0.25em 0.5em;
-    }
-    td {
-      padding: 0.125em 0.5em 0.25em 0.5em;
-    }
-    header {
-      margin-bottom: 4em;
-      text-align: center;
-    }
-    #TOC li {
-      list-style: none;
-    }
-    #TOC ul {
-      padding-left: 1.3em;
-    }
-    #TOC > ul {
-      padding-left: 0;
-    }
-    #TOC a:not(:hover) {
-      text-decoration: none;
-    }
-    code{white-space: pre-wrap;}
-    span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    /* The extra [class] is a hack that increases specificity enough to
-       override a similar rule in reveal.js */
-    ul.task-list[class]{list-style: none;}
-    ul.task-list li input[type="checkbox"] {
-      font-size: inherit;
-      width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
-      vertical-align: middle;
-    }
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GESTION EJECUTIVO Alcance y Objetivos - LFC STUDIO</title>
+    <link rel="stylesheet" href="../../../IX. WBS y Planificacion/wbs-shared.css">
+    <style>
+        .premium-doc-content {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: var(--border-radius-lg);
+            padding: 3rem;
+            backdrop-filter: var(--glass-blur);
+            box-shadow: var(--glass-shadow);
+        }
+        .premium-doc-content h1, .premium-doc-content h2, .premium-doc-content h3 {
+            color: var(--accent);
+            border-bottom: 1px solid var(--glass-border);
+            padding-bottom: 0.5rem;
+            margin-top: 2rem;
+        }
+        .premium-doc-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+            background: rgba(255,255,255,0.02);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .premium-doc-content th {
+            background: var(--accent-transparent);
+            color: var(--accent);
+            text-align: left;
+            padding: 1rem;
+        }
+        .premium-doc-content td {
+            padding: 1rem;
+            border-bottom: 1px solid var(--glass-border);
+        }
+        .premium-doc-content blockquote {
+            border-left: 4px solid var(--accent);
+            background: var(--accent-soft);
+            padding: 1rem;
+            margin: 1rem 0;
+            font-style: italic;
+        }
+        #TOC {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            padding: 1.5rem;
+            border-radius: var(--border-radius-md);
+            margin-bottom: 2rem;
+        }
+        #TOC ul { list-style: none; padding-left: 1rem; }
+        #TOC a { color: var(--text-main); text-decoration: none; font-size: 0.9rem; }
+        #TOC a:hover { color: var(--accent); }
+    </style>
 </head>
 <body>
-<nav id="TOC" role="doc-toc">
-<ul>
-<li><a href="#gestión-ejecutiva-alcance-y-objetivos"
-id="toc-gestión-ejecutiva-alcance-y-objetivos">GESTIÓN EJECUTIVA:
-ALCANCE Y OBJETIVOS</a>
-<ul>
-<li><a href="#documento-ejecutivo-de-gestión-de-proyecto"
-id="toc-documento-ejecutivo-de-gestión-de-proyecto">Documento Ejecutivo
-de Gestión de Proyecto</a></li>
-<li><a href="#resumen-ejecutivo" id="toc-resumen-ejecutivo">📊 RESUMEN
-EJECUTIVO</a>
-<ul>
-<li><a href="#qué-es-este-documento-y-por-qué-importa"
-id="toc-qué-es-este-documento-y-por-qué-importa">Qué es este documento y
-por qué importa</a></li>
-<li><a href="#alcance-en-números---justificación-técnica"
-id="toc-alcance-en-números---justificación-técnica">Alcance en números -
-JUSTIFICACIÓN TÉCNICA</a></li>
-<li><a href="#hitos-críticos" id="toc-hitos-críticos">Hitos
-críticos</a></li>
-</ul></li>
-<li><a href="#criterios-de-diseño-y-justificaciones-técnicas"
-id="toc-criterios-de-diseño-y-justificaciones-técnicas">🔍 CRITERIOS DE
-DISEÑO Y JUSTIFICACIONES TÉCNICAS</a>
-<ul>
-<li><a href="#por-qué-526.133-km-de-corredor"
-id="toc-por-qué-526.133-km-de-corredor">¿Por qué 526.133 km de
-corredor?</a></li>
-<li><a href="#por-qué-15-locomotoras"
-id="toc-por-qué-15-locomotoras">¿Por qué 15 locomotoras?</a></li>
-<li><a href="#por-qué-37-estaciones-de-telecomunicaciones"
-id="toc-por-qué-37-estaciones-de-telecomunicaciones">¿Por qué 37
-estaciones de telecomunicaciones?</a></li>
-<li><a href="#por-qué-5-estaciones-ence"
-id="toc-por-qué-5-estaciones-ence">¿Por qué 5 estaciones ENCE?</a></li>
-<li><a href="#por-qué-30-años-de-operación"
-id="toc-por-qué-30-años-de-operación">¿Por qué 30 años de
-operación?</a></li>
-</ul></li>
-<li><a href="#función-y-propósito-del-proyecto"
-id="toc-función-y-propósito-del-proyecto">🎯 FUNCIÓN Y PROPÓSITO DEL
-PROYECTO</a>
-<ul>
-<li><a href="#qué-hace-este-proyecto"
-id="toc-qué-hace-este-proyecto">¿Qué hace este proyecto?</a></li>
-<li><a href="#por-qué-lo-necesitamos"
-id="toc-por-qué-lo-necesitamos">¿Por qué lo necesitamos?</a></li>
-<li><a href="#cómo-se-integra-con-otros-proyectos"
-id="toc-cómo-se-integra-con-otros-proyectos">¿Cómo se integra con otros
-proyectos?</a></li>
-</ul></li>
-<li><a href="#componentes-principales"
-id="toc-componentes-principales">🏗️ COMPONENTES PRINCIPALES</a>
-<ul>
-<li><a href="#infraestructura-ferroviaria"
-id="toc-infraestructura-ferroviaria">1. Infraestructura
-Ferroviaria</a></li>
-<li><a href="#sistemas-técnicos" id="toc-sistemas-técnicos">2. Sistemas
-Técnicos</a></li>
-<li><a href="#gestión-de-proyecto" id="toc-gestión-de-proyecto">3.
-Gestión de Proyecto</a></li>
-</ul></li>
-<li><a href="#especificaciones-técnicas-clave"
-id="toc-especificaciones-técnicas-clave">📐 ESPECIFICACIONES TÉCNICAS
-CLAVE</a>
-<ul>
-<li><a href="#tabla-consolidada-de-especificaciones"
-id="toc-tabla-consolidada-de-especificaciones">Tabla consolidada de
-especificaciones</a></li>
-<li><a href="#criterios-de-aceptación"
-id="toc-criterios-de-aceptación">Criterios de aceptación</a></li>
-</ul></li>
-<li><a href="#ubicación-y-despliegue" id="toc-ubicación-y-despliegue">📍
-UBICACIÓN Y DESPLIEGUE</a>
-<ul>
-<li><a href="#mapa-de-despliegue" id="toc-mapa-de-despliegue">Mapa de
-despliegue</a></li>
-<li><a href="#tabla-de-ubicaciones-principales"
-id="toc-tabla-de-ubicaciones-principales">Tabla de ubicaciones
-principales</a></li>
-</ul></li>
-<li><a href="#operación-y-mantenimiento"
-id="toc-operación-y-mantenimiento">⚙️ OPERACIÓN Y MANTENIMIENTO</a>
-<ul>
-<li><a href="#operación-normal" id="toc-operación-normal">Operación
-normal</a></li>
-<li><a href="#mantenimiento-preventivo"
-id="toc-mantenimiento-preventivo">Mantenimiento preventivo</a></li>
-<li><a href="#respuesta-a-incidentes"
-id="toc-respuesta-a-incidentes">Respuesta a incidentes</a></li>
-</ul></li>
-<li><a href="#interfaces-con-otros-proyectos"
-id="toc-interfaces-con-otros-proyectos">🔗 INTERFACES CON OTROS
-PROYECTOS</a>
-<ul>
-<li><a href="#diagrama-de-interfaces"
-id="toc-diagrama-de-interfaces">Diagrama de interfaces</a></li>
-<li><a href="#tabla-de-interfaces-críticas"
-id="toc-tabla-de-interfaces-críticas">Tabla de interfaces
-críticas</a></li>
-</ul></li>
-<li><a href="#supuestos-técnicos-y-limitaciones"
-id="toc-supuestos-técnicos-y-limitaciones">📋 SUPUESTOS TÉCNICOS Y
-LIMITACIONES</a>
-<ul>
-<li><a href="#supuestos-críticos-del-diseño"
-id="toc-supuestos-críticos-del-diseño">Supuestos Críticos del
-Diseño</a></li>
-<li><a href="#limitaciones-del-diseño"
-id="toc-limitaciones-del-diseño">Limitaciones del Diseño</a></li>
-<li><a href="#dependencias-críticas"
-id="toc-dependencias-críticas">Dependencias Críticas</a></li>
-</ul></li>
-<li><a href="#riesgos-y-mitigaciones" id="toc-riesgos-y-mitigaciones">⚠️
-RIESGOS Y MITIGACIONES</a></li>
-<li><a href="#cumplimiento-contractual"
-id="toc-cumplimiento-contractual">📋 CUMPLIMIENTO CONTRACTUAL</a>
-<ul>
-<li><a href="#obligaciones-clave-del-contrato"
-id="toc-obligaciones-clave-del-contrato">Obligaciones clave del
-contrato</a></li>
-<li><a href="#referencias-contractuales"
-id="toc-referencias-contractuales">Referencias contractuales</a></li>
-</ul></li>
-<li><a href="#documentación-de-soporte"
-id="toc-documentación-de-soporte">📚 DOCUMENTACIÓN DE SOPORTE</a>
-<ul>
-<li><a href="#documentos-técnicos-disponibles"
-id="toc-documentos-técnicos-disponibles">Documentos técnicos
-disponibles</a></li>
-<li><a href="#para-más-información-técnica"
-id="toc-para-más-información-técnica">Para más información
-técnica</a></li>
-</ul></li>
-<li><a href="#contactos-y-responsables"
-id="toc-contactos-y-responsables">📞 CONTACTOS Y RESPONSABLES</a></li>
-<li><a href="#indicadores-de-desempeño-kpis"
-id="toc-indicadores-de-desempeño-kpis">📊 INDICADORES DE DESEMPEÑO
-(KPIs)</a></li>
-<li><a href="#control-de-versiones" id="toc-control-de-versiones">🔄
-CONTROL DE VERSIONES</a></li>
-</ul></li>
-</ul>
-</nav>
-<h1 id="gestión-ejecutiva-alcance-y-objetivos">GESTIÓN EJECUTIVA:
-ALCANCE Y OBJETIVOS</h1>
-<h2 id="documento-ejecutivo-de-gestión-de-proyecto">Documento Ejecutivo
-de Gestión de Proyecto</h2>
-<hr />
-<h2 id="resumen-ejecutivo">📊 RESUMEN EJECUTIVO</h2>
-<h3 id="qué-es-este-documento-y-por-qué-importa">Qué es este documento y
-por qué importa</h3>
-<p>Este documento define el <strong>“alcance y objetivos”</strong> del
-proyecto APP La Dorada-Chiriguaná, estableciendo claramente qué se va a
-hacer, por qué es importante y cuáles son los resultados esperados. Es
-como el “contrato de trabajo” del proyecto que todos deben entender y
-cumplir.</p>
-<h3 id="alcance-en-números---justificación-técnica">Alcance en números -
-JUSTIFICACIÓN TÉCNICA</h3>
-<ul>
-<li><strong>Inversión total:</strong> $450,000 millones COP</li>
-<li><strong>526.133 km corredor:</strong> Longitud total del corredor
-ferroviario</li>
-<li><strong>15 locomotoras:</strong> Parque rodante para operación</li>
-<li><strong>37 estaciones:</strong> Telecomunicaciones TETRA/RED TETRA
-(Misión Crítica)</li>
-<li><strong>5 estaciones ENCE:</strong> Estaciones con
-enclavamientos</li>
-<li><strong>30 años operación:</strong> Vida útil del proyecto</li>
-<li><strong>99.95% disponibilidad:</strong> Sistemas críticos</li>
-</ul>
-<h3 id="hitos-críticos">Hitos críticos</h3>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Fase</th>
-<th style="text-align: left;">Fecha</th>
-<th style="text-align: left;">Estado</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Diseño Conceptual</td>
-<td style="text-align: left;">Enero 2025</td>
-<td style="text-align: left;">✅ Completado</td>
-</tr>
-<tr>
-<td style="text-align: left;">Ingeniería Básica</td>
-<td style="text-align: left;">Febrero 2025</td>
-<td style="text-align: left;">⏳ En progreso</td>
-</tr>
-<tr>
-<td style="text-align: left;">Ingeniería de Detalle</td>
-<td style="text-align: left;">Marzo 2025</td>
-<td style="text-align: left;">❌ Pendiente</td>
-</tr>
-<tr>
-<td style="text-align: left;">Construcción</td>
-<td style="text-align: left;">Abril 2025</td>
-<td style="text-align: left;">❌ Pendiente</td>
-</tr>
-<tr>
-<td style="text-align: left;">Operación</td>
-<td style="text-align: left;">Mayo 2025</td>
-<td style="text-align: left;">❌ Pendiente</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="criterios-de-diseño-y-justificaciones-técnicas">🔍 CRITERIOS DE
-DISEÑO Y JUSTIFICACIONES TÉCNICAS</h2>
-<h3 id="por-qué-526.133-km-de-corredor">¿Por qué 526.133 km de
-corredor?</h3>
-<p><strong>Justificación Técnica:</strong> - <strong>Distancia
-real:</strong> Medición topográfica entre La Dorada y Chiriguaná -
-<strong>Conectividad:</strong> Integración con red ferroviaria nacional
-- <strong>Capacidad:</strong> Transporte de carga entre regiones -
-<strong>Eficiencia:</strong> Reducción de costos de transporte -
-<strong>Desarrollo:</strong> Impulso al desarrollo regional</p>
-<h3 id="por-qué-15-locomotoras">¿Por qué 15 locomotoras?</h3>
-<p><strong>Justificación de Capacidad:</strong> - <strong>Demanda
-proyectada:</strong> 2,400 ton/día de carga - <strong>Capacidad por
-locomotora:</strong> 160 ton/locomotora - <strong>Factor de
-utilización:</strong> 80% de capacidad - <strong>Cálculo:</strong> 2,400
-÷ (160 × 0.8) = 18.75 ≈ <strong>15 locomotoras</strong> -
-<strong>Respaldo:</strong> Factor de seguridad del 20%</p>
-<h3 id="por-qué-37-estaciones-de-telecomunicaciones">¿Por qué 37
-estaciones de telecomunicaciones?</h3>
-<p><strong>Justificación de Cobertura:</strong> - <strong>Radio de
-cobertura:</strong> 15 km por estación - <strong>Solapamiento:</strong>
-20% entre estaciones - <strong>Cobertura efectiva:</strong> 12 km por
-estación - <strong>Cálculo:</strong> 526 km ÷ 12 km = 43.8 ≈ <strong>37
-estaciones</strong> - <strong>Optimización:</strong> Ubicaciones
-estratégicas</p>
-<h3 id="por-qué-5-estaciones-ence">¿Por qué 5 estaciones ENCE?</h3>
-<p><strong>Justificación de Operación:</strong> - <strong>Estaciones
-críticas:</strong> Zapatosa, García Cadena, Barrancabermeja, Puerto
-Berrío-Grecia, La Dorada-México - <strong>Maniobras complejas:</strong>
-Requieren enclavamientos electrónicos - <strong>Seguridad:</strong>
-Control centralizado de maniobras - <strong>Eficiencia:</strong>
-Optimización de operaciones - <strong>Criterio:</strong> Análisis de
-operación ferroviaria</p>
-<h3 id="por-qué-30-años-de-operación">¿Por qué 30 años de
-operación?</h3>
-<p><strong>Justificación de Vida Útil:</strong> -
-<strong>Infraestructura:</strong> Vida útil de 50 años -
-<strong>Sistemas:</strong> Vida útil de 30 años -
-<strong>Contrato:</strong> Plazo de concesión de 30 años -
-<strong>Mantenimiento:</strong> Ciclos de mantenimiento y renovación -
-<strong>Inversión:</strong> Recuperación de inversión</p>
-<hr />
-<h2 id="función-y-propósito-del-proyecto">🎯 FUNCIÓN Y PROPÓSITO DEL
-PROYECTO</h2>
-<h3 id="qué-hace-este-proyecto">¿Qué hace este proyecto?</h3>
-<p>El proyecto APP La Dorada-Chiriguaná proporciona
-<strong>infraestructura ferroviaria</strong> para: - <strong>Transporte
-de carga:</strong> Conexión entre regiones - <strong>Desarrollo
-regional:</strong> Impulso económico y social - <strong>Integración
-nacional:</strong> Conexión con red ferroviaria -
-<strong>Sostenibilidad:</strong> Transporte eficiente y ambiental -
-<strong>Competitividad:</strong> Reducción de costos logísticos</p>
-<h3 id="por-qué-lo-necesitamos">¿Por qué lo necesitamos?</h3>
-<ul>
-<li><strong>Conectividad:</strong> Mejora de conectividad regional</li>
-<li><strong>Eficiencia:</strong> Reducción de costos de transporte</li>
-<li><strong>Desarrollo:</strong> Impulso al desarrollo económico</li>
-<li><strong>Sostenibilidad:</strong> Transporte ambientalmente
-responsable</li>
-<li><strong>Competitividad:</strong> Mejora de competitividad
-regional</li>
-</ul>
-<h3 id="cómo-se-integra-con-otros-proyectos">¿Cómo se integra con otros
-proyectos?</h3>
-<pre><code>[APP La Dorada-Chiriguaná] ←→ [Red Ferroviaria Nacional]
+    <div id="lfc-sidebar-container"></div>
+    <div class="main-content-wrapper">
+        <header class="premium-card" style="margin-bottom: 2rem; text-align: center;">
+            <h1 class="premium-title">GESTION EJECUTIVO Alcance y
+Objetivos</h1>
+            <p style="opacity: 0.7;">REPORTE EJECUTIVO GENERADO DINÁMICAMENTE | SICC-READY</p>
+        </header>
+
+        <nav id="TOC">
+            <h3 style="margin-top: 0; color: var(--accent);">📍 ÍNDICE DE CONTENIDO</h3>
+            <ul>
+            <li><a href="#gestión-ejecutiva-alcance-y-objetivos"
+            id="toc-gestión-ejecutiva-alcance-y-objetivos">GESTIÓN
+            EJECUTIVA: ALCANCE Y OBJETIVOS</a>
+            <ul>
+            <li><a href="#documento-ejecutivo-de-gestión-de-proyecto"
+            id="toc-documento-ejecutivo-de-gestión-de-proyecto">Documento
+            Ejecutivo de Gestión de Proyecto</a></li>
+            <li><a href="#resumen-ejecutivo"
+            id="toc-resumen-ejecutivo">📊 RESUMEN EJECUTIVO</a>
+            <ul>
+            <li><a href="#qué-es-este-documento-y-por-qué-importa"
+            id="toc-qué-es-este-documento-y-por-qué-importa">Qué es este
+            documento y por qué importa</a></li>
+            <li><a href="#alcance-en-números---justificación-técnica"
+            id="toc-alcance-en-números---justificación-técnica">Alcance
+            en números - JUSTIFICACIÓN TÉCNICA</a></li>
+            <li><a href="#hitos-críticos" id="toc-hitos-críticos">Hitos
+            críticos</a></li>
+            </ul></li>
+            <li><a
+            href="#criterios-de-diseño-y-justificaciones-técnicas"
+            id="toc-criterios-de-diseño-y-justificaciones-técnicas">🔍
+            CRITERIOS DE DISEÑO Y JUSTIFICACIONES TÉCNICAS</a>
+            <ul>
+            <li><a href="#por-qué-526.133-km-de-corredor"
+            id="toc-por-qué-526.133-km-de-corredor">¿Por qué 526.133 km
+            de corredor?</a></li>
+            <li><a href="#por-qué-15-locomotoras"
+            id="toc-por-qué-15-locomotoras">¿Por qué 15
+            locomotoras?</a></li>
+            <li><a href="#por-qué-37-estaciones-de-telecomunicaciones"
+            id="toc-por-qué-37-estaciones-de-telecomunicaciones">¿Por
+            qué 37 estaciones de telecomunicaciones?</a></li>
+            <li><a href="#por-qué-5-estaciones-ence"
+            id="toc-por-qué-5-estaciones-ence">¿Por qué 5 estaciones
+            ENCE?</a></li>
+            <li><a href="#por-qué-30-años-de-operación"
+            id="toc-por-qué-30-años-de-operación">¿Por qué 30 años de
+            operación?</a></li>
+            </ul></li>
+            <li><a href="#función-y-propósito-del-proyecto"
+            id="toc-función-y-propósito-del-proyecto">🎯 FUNCIÓN Y
+            PROPÓSITO DEL PROYECTO</a>
+            <ul>
+            <li><a href="#qué-hace-este-proyecto"
+            id="toc-qué-hace-este-proyecto">¿Qué hace este
+            proyecto?</a></li>
+            <li><a href="#por-qué-lo-necesitamos"
+            id="toc-por-qué-lo-necesitamos">¿Por qué lo
+            necesitamos?</a></li>
+            <li><a href="#cómo-se-integra-con-otros-proyectos"
+            id="toc-cómo-se-integra-con-otros-proyectos">¿Cómo se
+            integra con otros proyectos?</a></li>
+            </ul></li>
+            <li><a href="#componentes-principales"
+            id="toc-componentes-principales">🏗️ COMPONENTES
+            PRINCIPALES</a>
+            <ul>
+            <li><a href="#infraestructura-ferroviaria"
+            id="toc-infraestructura-ferroviaria">1. Infraestructura
+            Ferroviaria</a></li>
+            <li><a href="#sistemas-técnicos"
+            id="toc-sistemas-técnicos">2. Sistemas Técnicos</a></li>
+            <li><a href="#gestión-de-proyecto"
+            id="toc-gestión-de-proyecto">3. Gestión de Proyecto</a></li>
+            </ul></li>
+            <li><a href="#especificaciones-técnicas-clave"
+            id="toc-especificaciones-técnicas-clave">📐 ESPECIFICACIONES
+            TÉCNICAS CLAVE</a>
+            <ul>
+            <li><a href="#tabla-consolidada-de-especificaciones"
+            id="toc-tabla-consolidada-de-especificaciones">Tabla
+            consolidada de especificaciones</a></li>
+            <li><a href="#criterios-de-aceptación"
+            id="toc-criterios-de-aceptación">Criterios de
+            aceptación</a></li>
+            </ul></li>
+            <li><a href="#ubicación-y-despliegue"
+            id="toc-ubicación-y-despliegue">📍 UBICACIÓN Y
+            DESPLIEGUE</a>
+            <ul>
+            <li><a href="#mapa-de-despliegue"
+            id="toc-mapa-de-despliegue">Mapa de despliegue</a></li>
+            <li><a href="#tabla-de-ubicaciones-principales"
+            id="toc-tabla-de-ubicaciones-principales">Tabla de
+            ubicaciones principales</a></li>
+            </ul></li>
+            <li><a href="#operación-y-mantenimiento"
+            id="toc-operación-y-mantenimiento">⚙️ OPERACIÓN Y
+            MANTENIMIENTO</a>
+            <ul>
+            <li><a href="#operación-normal"
+            id="toc-operación-normal">Operación normal</a></li>
+            <li><a href="#mantenimiento-preventivo"
+            id="toc-mantenimiento-preventivo">Mantenimiento
+            preventivo</a></li>
+            <li><a href="#respuesta-a-incidentes"
+            id="toc-respuesta-a-incidentes">Respuesta a
+            incidentes</a></li>
+            </ul></li>
+            <li><a href="#interfaces-con-otros-proyectos"
+            id="toc-interfaces-con-otros-proyectos">🔗 INTERFACES CON
+            OTROS PROYECTOS</a>
+            <ul>
+            <li><a href="#diagrama-de-interfaces"
+            id="toc-diagrama-de-interfaces">Diagrama de
+            interfaces</a></li>
+            <li><a href="#tabla-de-interfaces-críticas"
+            id="toc-tabla-de-interfaces-críticas">Tabla de interfaces
+            críticas</a></li>
+            </ul></li>
+            <li><a href="#supuestos-técnicos-y-limitaciones"
+            id="toc-supuestos-técnicos-y-limitaciones">📋 SUPUESTOS
+            TÉCNICOS Y LIMITACIONES</a>
+            <ul>
+            <li><a href="#supuestos-críticos-del-diseño"
+            id="toc-supuestos-críticos-del-diseño">Supuestos Críticos
+            del Diseño</a></li>
+            <li><a href="#limitaciones-del-diseño"
+            id="toc-limitaciones-del-diseño">Limitaciones del
+            Diseño</a></li>
+            <li><a href="#dependencias-críticas"
+            id="toc-dependencias-críticas">Dependencias
+            Críticas</a></li>
+            </ul></li>
+            <li><a href="#riesgos-y-mitigaciones"
+            id="toc-riesgos-y-mitigaciones">⚠️ RIESGOS Y
+            MITIGACIONES</a></li>
+            <li><a href="#cumplimiento-contractual"
+            id="toc-cumplimiento-contractual">📋 CUMPLIMIENTO
+            CONTRACTUAL</a>
+            <ul>
+            <li><a href="#obligaciones-clave-del-contrato"
+            id="toc-obligaciones-clave-del-contrato">Obligaciones clave
+            del contrato</a></li>
+            <li><a href="#referencias-contractuales"
+            id="toc-referencias-contractuales">Referencias
+            contractuales</a></li>
+            </ul></li>
+            <li><a href="#documentación-de-soporte"
+            id="toc-documentación-de-soporte">📚 DOCUMENTACIÓN DE
+            SOPORTE</a>
+            <ul>
+            <li><a href="#documentos-técnicos-disponibles"
+            id="toc-documentos-técnicos-disponibles">Documentos técnicos
+            disponibles</a></li>
+            <li><a href="#para-más-información-técnica"
+            id="toc-para-más-información-técnica">Para más información
+            técnica</a></li>
+            </ul></li>
+            <li><a href="#contactos-y-responsables"
+            id="toc-contactos-y-responsables">📞 CONTACTOS Y
+            RESPONSABLES</a></li>
+            <li><a href="#indicadores-de-desempeño-kpis"
+            id="toc-indicadores-de-desempeño-kpis">📊 INDICADORES DE
+            DESEMPEÑO (KPIs)</a></li>
+            <li><a href="#control-de-versiones"
+            id="toc-control-de-versiones">🔄 CONTROL DE
+            VERSIONES</a></li>
+            </ul></li>
+            </ul>
+        </nav>
+
+        <article class="premium-doc-content">
+            <h1 id="gestión-ejecutiva-alcance-y-objetivos">GESTIÓN
+            EJECUTIVA: ALCANCE Y OBJETIVOS</h1>
+            <h2
+            id="documento-ejecutivo-de-gestión-de-proyecto">Documento
+            Ejecutivo de Gestión de Proyecto</h2>
+            <hr />
+            <h2 id="resumen-ejecutivo">📊 RESUMEN EJECUTIVO</h2>
+            <h3 id="qué-es-este-documento-y-por-qué-importa">Qué es este
+            documento y por qué importa</h3>
+            <p>Este documento define el <strong>“alcance y
+            objetivos”</strong> del proyecto APP La Dorada-Chiriguaná,
+            estableciendo claramente qué se va a hacer, por qué es
+            importante y cuáles son los resultados esperados. Es como el
+            “contrato de trabajo” del proyecto que todos deben entender
+            y cumplir.</p>
+            <h3 id="alcance-en-números---justificación-técnica">Alcance
+            en números - JUSTIFICACIÓN TÉCNICA</h3>
+            <ul>
+            <li><strong>Inversión total:</strong> $450,000 millones
+            COP</li>
+            <li><strong>526.133 km corredor:</strong> Longitud total del
+            corredor ferroviario</li>
+            <li><strong>15 locomotoras:</strong> Parque rodante para
+            operación</li>
+            <li><strong>37 estaciones:</strong> Telecomunicaciones
+            TETRA/RED TETRA (Misión Crítica)</li>
+            <li><strong>5 estaciones ENCE:</strong> Estaciones con
+            enclavamientos</li>
+            <li><strong>30 años operación:</strong> Vida útil del
+            proyecto</li>
+            <li><strong>99.95% disponibilidad:</strong> Sistemas
+            críticos</li>
+            </ul>
+            <h3 id="hitos-críticos">Hitos críticos</h3>
+            <table>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Fase</th>
+            <th style="text-align: left;">Fecha</th>
+            <th style="text-align: left;">Estado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">Diseño Conceptual</td>
+            <td style="text-align: left;">Enero 2025</td>
+            <td style="text-align: left;">✅ Completado</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Ingeniería Básica</td>
+            <td style="text-align: left;">Febrero 2025</td>
+            <td style="text-align: left;">⏳ En progreso</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Ingeniería de Detalle</td>
+            <td style="text-align: left;">Marzo 2025</td>
+            <td style="text-align: left;">❌ Pendiente</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Construcción</td>
+            <td style="text-align: left;">Abril 2025</td>
+            <td style="text-align: left;">❌ Pendiente</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Operación</td>
+            <td style="text-align: left;">Mayo 2025</td>
+            <td style="text-align: left;">❌ Pendiente</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="criterios-de-diseño-y-justificaciones-técnicas">🔍
+            CRITERIOS DE DISEÑO Y JUSTIFICACIONES TÉCNICAS</h2>
+            <h3 id="por-qué-526.133-km-de-corredor">¿Por qué 526.133 km
+            de corredor?</h3>
+            <p><strong>Justificación Técnica:</strong> -
+            <strong>Distancia real:</strong> Medición topográfica entre
+            La Dorada y Chiriguaná - <strong>Conectividad:</strong>
+            Integración con red ferroviaria nacional -
+            <strong>Capacidad:</strong> Transporte de carga entre
+            regiones - <strong>Eficiencia:</strong> Reducción de costos
+            de transporte - <strong>Desarrollo:</strong> Impulso al
+            desarrollo regional</p>
+            <h3 id="por-qué-15-locomotoras">¿Por qué 15
+            locomotoras?</h3>
+            <p><strong>Justificación de Capacidad:</strong> -
+            <strong>Demanda proyectada:</strong> 2,400 ton/día de carga
+            - <strong>Capacidad por locomotora:</strong> 160
+            ton/locomotora - <strong>Factor de utilización:</strong> 80%
+            de capacidad - <strong>Cálculo:</strong> 2,400 ÷ (160 × 0.8)
+            = 18.75 ≈ <strong>15 locomotoras</strong> -
+            <strong>Respaldo:</strong> Factor de seguridad del 20%</p>
+            <h3 id="por-qué-37-estaciones-de-telecomunicaciones">¿Por
+            qué 37 estaciones de telecomunicaciones?</h3>
+            <p><strong>Justificación de Cobertura:</strong> -
+            <strong>Radio de cobertura:</strong> 15 km por estación -
+            <strong>Solapamiento:</strong> 20% entre estaciones -
+            <strong>Cobertura efectiva:</strong> 12 km por estación -
+            <strong>Cálculo:</strong> 526 km ÷ 12 km = 43.8 ≈ <strong>37
+            estaciones</strong> - <strong>Optimización:</strong>
+            Ubicaciones estratégicas</p>
+            <h3 id="por-qué-5-estaciones-ence">¿Por qué 5 estaciones
+            ENCE?</h3>
+            <p><strong>Justificación de Operación:</strong> -
+            <strong>Estaciones críticas:</strong> Zapatosa, García
+            Cadena, Barrancabermeja, Puerto Berrío-Grecia, La
+            Dorada-México - <strong>Maniobras complejas:</strong>
+            Requieren enclavamientos electrónicos -
+            <strong>Seguridad:</strong> Control centralizado de
+            maniobras - <strong>Eficiencia:</strong> Optimización de
+            operaciones - <strong>Criterio:</strong> Análisis de
+            operación ferroviaria</p>
+            <h3 id="por-qué-30-años-de-operación">¿Por qué 30 años de
+            operación?</h3>
+            <p><strong>Justificación de Vida Útil:</strong> -
+            <strong>Infraestructura:</strong> Vida útil de 50 años -
+            <strong>Sistemas:</strong> Vida útil de 30 años -
+            <strong>Contrato:</strong> Plazo de concesión de 30 años -
+            <strong>Mantenimiento:</strong> Ciclos de mantenimiento y
+            renovación - <strong>Inversión:</strong> Recuperación de
+            inversión</p>
+            <hr />
+            <h2 id="función-y-propósito-del-proyecto">🎯 FUNCIÓN Y
+            PROPÓSITO DEL PROYECTO</h2>
+            <h3 id="qué-hace-este-proyecto">¿Qué hace este
+            proyecto?</h3>
+            <p>El proyecto APP La Dorada-Chiriguaná proporciona
+            <strong>infraestructura ferroviaria</strong> para: -
+            <strong>Transporte de carga:</strong> Conexión entre
+            regiones - <strong>Desarrollo regional:</strong> Impulso
+            económico y social - <strong>Integración nacional:</strong>
+            Conexión con red ferroviaria -
+            <strong>Sostenibilidad:</strong> Transporte eficiente y
+            ambiental - <strong>Competitividad:</strong> Reducción de
+            costos logísticos</p>
+            <h3 id="por-qué-lo-necesitamos">¿Por qué lo
+            necesitamos?</h3>
+            <ul>
+            <li><strong>Conectividad:</strong> Mejora de conectividad
+            regional</li>
+            <li><strong>Eficiencia:</strong> Reducción de costos de
+            transporte</li>
+            <li><strong>Desarrollo:</strong> Impulso al desarrollo
+            económico</li>
+            <li><strong>Sostenibilidad:</strong> Transporte
+            ambientalmente responsable</li>
+            <li><strong>Competitividad:</strong> Mejora de
+            competitividad regional</li>
+            </ul>
+            <h3 id="cómo-se-integra-con-otros-proyectos">¿Cómo se
+            integra con otros proyectos?</h3>
+            <pre><code>[APP La Dorada-Chiriguaná] ←→ [Red Ferroviaria Nacional]
          ↓
 [Desarrollo Regional] ←→ [Conectividad Nacional]
          ↓
 [Competitividad] ←→ [Sostenibilidad]</code></pre>
-<hr />
-<h2 id="componentes-principales">🏗️ COMPONENTES PRINCIPALES</h2>
-<h3 id="infraestructura-ferroviaria">1. Infraestructura Ferroviaria</h3>
-<p><strong>Propósito:</strong> Base física para operación
-ferroviaria</p>
-<p><strong>Especificaciones técnicas:</strong> | Parámetro | Valor |
-Justificación | |:———-|:——|:————–| | <strong>Longitud</strong> | 526.133
-km | Distancia La Dorada-Chiriguaná | | <strong>Trocha</strong> | 1,435
-mm | Estándar UIC para interoperabilidad | | <strong>Vías</strong> | 2
-principales | Capacidad bidireccional | | <strong>Velocidad</strong> |
-80 km/h | Especificaciones del corredor |</p>
-<h3 id="sistemas-técnicos">2. Sistemas Técnicos</h3>
-<p><strong>Propósito:</strong> Sistemas para operación ferroviaria</p>
-<p><strong>Componentes instalados:</strong> | Componente | Cantidad |
-Función | Estado | |:———–|:———|:——–|:——-| | <strong>Control y
-Señalización</strong> | 1 sistema | Control centralizado | ⏳ En
-desarrollo | | <strong>Telecomunicaciones</strong> | 37 estaciones |
-Comunicaciones | ⏳ En desarrollo | | <strong>ITS y Seguridad</strong> |
-73 cámaras | Monitoreo y seguridad | ⏳ En desarrollo | |
-<strong>Material Rodante</strong> | 15 locomotoras | Transporte | ⏳ En
-desarrollo |</p>
-<h3 id="gestión-de-proyecto">3. Gestión de Proyecto</h3>
-<p><strong>Propósito:</strong> Coordinación y control del proyecto</p>
-<p><strong>Componentes instalados:</strong> | Componente | Cantidad |
-Función | Estado | |:———–|:———|:——–|:——-| | <strong>Cronograma</strong>
-| 1 programa | Planificación temporal | ⏳ En desarrollo | |
-<strong>Presupuesto</strong> | $450,000 millones | Control de costos |
-⏳ En desarrollo | | <strong>Recursos</strong> | Múltiples | Gestión de
-recursos | ⏳ En desarrollo | | <strong>Calidad</strong> | 1 sistema |
-Control de calidad | ⏳ En desarrollo |</p>
-<hr />
-<h2 id="especificaciones-técnicas-clave">📐 ESPECIFICACIONES TÉCNICAS
-CLAVE</h2>
-<h3 id="tabla-consolidada-de-especificaciones">Tabla consolidada de
-especificaciones</h3>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Parámetro</th>
-<th style="text-align: left;">Valor</th>
-<th style="text-align: left;">Estándar Aplicable</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Longitud del corredor</td>
-<td style="text-align: left;">526.133 km</td>
-<td style="text-align: left;">Especificaciones proyecto</td>
-</tr>
-<tr>
-<td style="text-align: left;">Trocha ferroviaria</td>
-<td style="text-align: left;">1,435 mm</td>
-<td style="text-align: left;">UIC 600</td>
-</tr>
-<tr>
-<td style="text-align: left;">Velocidad máxima</td>
-<td style="text-align: left;">80 km/h</td>
-<td style="text-align: left;">Especificaciones proyecto</td>
-</tr>
-<tr>
-<td style="text-align: left;">Disponibilidad</td>
-<td style="text-align: left;">99.95%</td>
-<td style="text-align: left;">AT4</td>
-</tr>
-<tr>
-<td style="text-align: left;">Vida útil</td>
-<td style="text-align: left;">30 años</td>
-<td style="text-align: left;">Especificaciones proyecto</td>
-</tr>
-</tbody>
-</table>
-<h3 id="criterios-de-aceptación">Criterios de aceptación</h3>
-<ul>
-<li>✅ Corredor 526.133 km operativo</li>
-<li>✅ Sistemas técnicos funcionando</li>
-<li>✅ Material rodante operativo</li>
-<li>✅ Disponibilidad 99.95%</li>
-<li>✅ Cumplimiento contractual</li>
-</ul>
-<hr />
-<h2 id="ubicación-y-despliegue">📍 UBICACIÓN Y DESPLIEGUE</h2>
-<h3 id="mapa-de-despliegue">Mapa de despliegue</h3>
-<p>El proyecto se extiende 526.133 km entre La Dorada (Caldas) y
-Chiriguaná (Cesar), atravesando 5 departamentos.</p>
-<h3 id="tabla-de-ubicaciones-principales">Tabla de ubicaciones
-principales</h3>
-<table>
-<colgroup>
-<col style="width: 26%" />
-<col style="width: 31%" />
-<col style="width: 21%" />
-<col style="width: 19%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Ubicación</th>
-<th style="text-align: left;">Componentes</th>
-<th style="text-align: left;">Función</th>
-<th style="text-align: left;">Estado</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><strong>La Dorada</strong></td>
-<td style="text-align: left;">CCO + Taller principal</td>
-<td style="text-align: left;">Centro de control</td>
-<td style="text-align: left;">⏳ En construcción</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Chiriguaná</strong></td>
-<td style="text-align: left;">Taller secundario</td>
-<td style="text-align: left;">Mantenimiento</td>
-<td style="text-align: left;">⏳ En construcción</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Corredor</strong></td>
-<td style="text-align: left;">Infraestructura + Sistemas</td>
-<td style="text-align: left;">Operación</td>
-<td style="text-align: left;">⏳ En desarrollo</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="operación-y-mantenimiento">⚙️ OPERACIÓN Y MANTENIMIENTO</h2>
-<h3 id="operación-normal">Operación normal</h3>
-<p>El proyecto opera 24/7 proporcionando transporte ferroviario de
-carga, con mantenimiento preventivo y respaldo para emergencias.</p>
-<h3 id="mantenimiento-preventivo">Mantenimiento preventivo</h3>
-<ul>
-<li><strong>Diario:</strong> Inspección de sistemas críticos</li>
-<li><strong>Semanal:</strong> Mantenimiento básico de equipos</li>
-<li><strong>Mensual:</strong> Mantenimiento preventivo programado</li>
-<li><strong>Trimestral:</strong> Mantenimiento mayor de sistemas</li>
-<li><strong>Anual:</strong> Revisión completa y certificación</li>
-</ul>
-<h3 id="respuesta-a-incidentes">Respuesta a incidentes</h3>
-<ol type="1">
-<li><strong>Detección</strong> de incidentes por monitoreo</li>
-<li><strong>Evaluación</strong> de impacto y criticidad</li>
-<li><strong>Implementación</strong> de medidas correctivas</li>
-<li><strong>Monitoreo</strong> de efectividad de medidas</li>
-<li><strong>Documentación</strong> de incidentes y acciones</li>
-</ol>
-<hr />
-<h2 id="interfaces-con-otros-proyectos">🔗 INTERFACES CON OTROS
-PROYECTOS</h2>
-<h3 id="diagrama-de-interfaces">Diagrama de interfaces</h3>
-<pre><code>[APP La Dorada-Chiriguaná] ←→ [Red Ferroviaria Nacional]
+            <hr />
+            <h2 id="componentes-principales">🏗️ COMPONENTES
+            PRINCIPALES</h2>
+            <h3 id="infraestructura-ferroviaria">1. Infraestructura
+            Ferroviaria</h3>
+            <p><strong>Propósito:</strong> Base física para operación
+            ferroviaria</p>
+            <p><strong>Especificaciones técnicas:</strong> | Parámetro |
+            Valor | Justificación | |:———-|:——|:————–| |
+            <strong>Longitud</strong> | 526.133 km | Distancia La
+            Dorada-Chiriguaná | | <strong>Trocha</strong> | 1,435 mm |
+            Estándar UIC para interoperabilidad | |
+            <strong>Vías</strong> | 2 principales | Capacidad
+            bidireccional | | <strong>Velocidad</strong> | 80 km/h |
+            Especificaciones del corredor |</p>
+            <h3 id="sistemas-técnicos">2. Sistemas Técnicos</h3>
+            <p><strong>Propósito:</strong> Sistemas para operación
+            ferroviaria</p>
+            <p><strong>Componentes instalados:</strong> | Componente |
+            Cantidad | Función | Estado | |:———–|:———|:——–|:——-| |
+            <strong>Control y Señalización</strong> | 1 sistema |
+            Control centralizado | ⏳ En desarrollo | |
+            <strong>Telecomunicaciones</strong> | 37 estaciones |
+            Comunicaciones | ⏳ En desarrollo | | <strong>ITS y
+            Seguridad</strong> | 73 cámaras | Monitoreo y seguridad | ⏳
+            En desarrollo | | <strong>Material Rodante</strong> | 15
+            locomotoras | Transporte | ⏳ En desarrollo |</p>
+            <h3 id="gestión-de-proyecto">3. Gestión de Proyecto</h3>
+            <p><strong>Propósito:</strong> Coordinación y control del
+            proyecto</p>
+            <p><strong>Componentes instalados:</strong> | Componente |
+            Cantidad | Función | Estado | |:———–|:———|:——–|:——-| |
+            <strong>Cronograma</strong> | 1 programa | Planificación
+            temporal | ⏳ En desarrollo | | <strong>Presupuesto</strong>
+            | $450,000 millones | Control de costos | ⏳ En desarrollo |
+            | <strong>Recursos</strong> | Múltiples | Gestión de
+            recursos | ⏳ En desarrollo | | <strong>Calidad</strong> | 1
+            sistema | Control de calidad | ⏳ En desarrollo |</p>
+            <hr />
+            <h2 id="especificaciones-técnicas-clave">📐 ESPECIFICACIONES
+            TÉCNICAS CLAVE</h2>
+            <h3 id="tabla-consolidada-de-especificaciones">Tabla
+            consolidada de especificaciones</h3>
+            <table>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Parámetro</th>
+            <th style="text-align: left;">Valor</th>
+            <th style="text-align: left;">Estándar Aplicable</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">Longitud del corredor</td>
+            <td style="text-align: left;">526.133 km</td>
+            <td style="text-align: left;">Especificaciones proyecto</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Trocha ferroviaria</td>
+            <td style="text-align: left;">1,435 mm</td>
+            <td style="text-align: left;">UIC 600</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Velocidad máxima</td>
+            <td style="text-align: left;">80 km/h</td>
+            <td style="text-align: left;">Especificaciones proyecto</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Disponibilidad</td>
+            <td style="text-align: left;">99.95%</td>
+            <td style="text-align: left;">AT4</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Vida útil</td>
+            <td style="text-align: left;">30 años</td>
+            <td style="text-align: left;">Especificaciones proyecto</td>
+            </tr>
+            </tbody>
+            </table>
+            <h3 id="criterios-de-aceptación">Criterios de
+            aceptación</h3>
+            <ul>
+            <li>✅ Corredor 526.133 km operativo</li>
+            <li>✅ Sistemas técnicos funcionando</li>
+            <li>✅ Material rodante operativo</li>
+            <li>✅ Disponibilidad 99.95%</li>
+            <li>✅ Cumplimiento contractual</li>
+            </ul>
+            <hr />
+            <h2 id="ubicación-y-despliegue">📍 UBICACIÓN Y
+            DESPLIEGUE</h2>
+            <h3 id="mapa-de-despliegue">Mapa de despliegue</h3>
+            <p>El proyecto se extiende 526.133 km entre La Dorada
+            (Caldas) y Chiriguaná (Cesar), atravesando 5
+            departamentos.</p>
+            <h3 id="tabla-de-ubicaciones-principales">Tabla de
+            ubicaciones principales</h3>
+            <table>
+            <colgroup>
+            <col style="width: 26%" />
+            <col style="width: 31%" />
+            <col style="width: 21%" />
+            <col style="width: 19%" />
+            </colgroup>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Ubicación</th>
+            <th style="text-align: left;">Componentes</th>
+            <th style="text-align: left;">Función</th>
+            <th style="text-align: left;">Estado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;"><strong>La
+            Dorada</strong></td>
+            <td style="text-align: left;">CCO + Taller principal</td>
+            <td style="text-align: left;">Centro de control</td>
+            <td style="text-align: left;">⏳ En construcción</td>
+            </tr>
+            <tr>
+            <td
+            style="text-align: left;"><strong>Chiriguaná</strong></td>
+            <td style="text-align: left;">Taller secundario</td>
+            <td style="text-align: left;">Mantenimiento</td>
+            <td style="text-align: left;">⏳ En construcción</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;"><strong>Corredor</strong></td>
+            <td style="text-align: left;">Infraestructura +
+            Sistemas</td>
+            <td style="text-align: left;">Operación</td>
+            <td style="text-align: left;">⏳ En desarrollo</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="operación-y-mantenimiento">⚙️ OPERACIÓN Y
+            MANTENIMIENTO</h2>
+            <h3 id="operación-normal">Operación normal</h3>
+            <p>El proyecto opera 24/7 proporcionando transporte
+            ferroviario de carga, con mantenimiento preventivo y
+            respaldo para emergencias.</p>
+            <h3 id="mantenimiento-preventivo">Mantenimiento
+            preventivo</h3>
+            <ul>
+            <li><strong>Diario:</strong> Inspección de sistemas
+            críticos</li>
+            <li><strong>Semanal:</strong> Mantenimiento básico de
+            equipos</li>
+            <li><strong>Mensual:</strong> Mantenimiento preventivo
+            programado</li>
+            <li><strong>Trimestral:</strong> Mantenimiento mayor de
+            sistemas</li>
+            <li><strong>Anual:</strong> Revisión completa y
+            certificación</li>
+            </ul>
+            <h3 id="respuesta-a-incidentes">Respuesta a incidentes</h3>
+            <ol type="1">
+            <li><strong>Detección</strong> de incidentes por
+            monitoreo</li>
+            <li><strong>Evaluación</strong> de impacto y criticidad</li>
+            <li><strong>Implementación</strong> de medidas
+            correctivas</li>
+            <li><strong>Monitoreo</strong> de efectividad de
+            medidas</li>
+            <li><strong>Documentación</strong> de incidentes y
+            acciones</li>
+            </ol>
+            <hr />
+            <h2 id="interfaces-con-otros-proyectos">🔗 INTERFACES CON
+            OTROS PROYECTOS</h2>
+            <h3 id="diagrama-de-interfaces">Diagrama de interfaces</h3>
+            <pre><code>[APP La Dorada-Chiriguaná] ←→ [Red Ferroviaria Nacional]
          ↓
 [Desarrollo Regional] ←→ [Conectividad Nacional]
          ↓
 [Competitividad] ←→ [Sostenibilidad]</code></pre>
-<h3 id="tabla-de-interfaces-críticas">Tabla de interfaces críticas</h3>
-<table>
-<colgroup>
-<col style="width: 18%" />
-<col style="width: 33%" />
-<col style="width: 22%" />
-<col style="width: 24%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Proyecto</th>
-<th style="text-align: left;">Tipo de Interfaz</th>
-<th style="text-align: left;">Criticidad</th>
-<th style="text-align: left;">Responsable</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><strong>Red Ferroviaria
-Nacional</strong></td>
-<td style="text-align: left;">Interoperabilidad</td>
-<td style="text-align: left;">Alta</td>
-<td style="text-align: left;">EPC Proyecto</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Desarrollo Regional</strong></td>
-<td style="text-align: left;">Impacto social</td>
-<td style="text-align: left;">Media</td>
-<td style="text-align: left;">EPC Proyecto</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Conectividad
-Nacional</strong></td>
-<td style="text-align: left;">Integración</td>
-<td style="text-align: left;">Alta</td>
-<td style="text-align: left;">EPC Proyecto</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="supuestos-técnicos-y-limitaciones">📋 SUPUESTOS TÉCNICOS Y
-LIMITACIONES</h2>
-<h3 id="supuestos-críticos-del-diseño">Supuestos Críticos del
-Diseño</h3>
-<table>
-<colgroup>
-<col style="width: 17%" />
-<col style="width: 26%" />
-<col style="width: 33%" />
-<col style="width: 21%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Supuesto</th>
-<th style="text-align: left;">Valor Asumido</th>
-<th style="text-align: left;">Impacto si Cambia</th>
-<th style="text-align: left;">Mitigación</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><strong>Demanda de
-transporte</strong></td>
-<td style="text-align: left;">2,400 ton/día</td>
-<td style="text-align: left;">Menor rentabilidad si reduce</td>
-<td style="text-align: left;">Análisis de sensibilidad</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Disponibilidad</strong></td>
-<td style="text-align: left;">99.95%</td>
-<td style="text-align: left;">Penalizaciones si no cumple</td>
-<td style="text-align: left;">Sistemas redundantes</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Vida útil</strong></td>
-<td style="text-align: left;">30 años</td>
-<td style="text-align: left;">Mayor mantenimiento si reduce</td>
-<td style="text-align: left;">Plan de renovación</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Condiciones
-ambientales</strong></td>
-<td style="text-align: left;">Estables</td>
-<td style="text-align: left;">Mayor impacto si cambian</td>
-<td style="text-align: left;">Monitoreo continuo</td>
-</tr>
-</tbody>
-</table>
-<h3 id="limitaciones-del-diseño">Limitaciones del Diseño</h3>
-<ul>
-<li><strong>Capacidad:</strong> Limitada por especificaciones
-técnicas</li>
-<li><strong>Velocidad:</strong> Limitada por geometría del corredor</li>
-<li><strong>Mantenimiento:</strong> Requiere personal especializado</li>
-<li><strong>Ambiental:</strong> Dependiente de condiciones
-naturales</li>
-<li><strong>Financiero:</strong> Limitado por presupuesto
-disponible</li>
-</ul>
-<h3 id="dependencias-críticas">Dependencias Críticas</h3>
-<ul>
-<li><strong>Infraestructura civil:</strong> Base física del
-proyecto</li>
-<li><strong>Sistemas técnicos:</strong> Funcionamiento de sistemas</li>
-<li><strong>Personal técnico:</strong> Operación y mantenimiento</li>
-<li><strong>Recursos financieros:</strong> Financiación del
-proyecto</li>
-<li><strong>Licencias ambientales:</strong> Autorizaciones para
-operación</li>
-</ul>
-<hr />
-<h2 id="riesgos-y-mitigaciones">⚠️ RIESGOS Y MITIGACIONES</h2>
-<table>
-<colgroup>
-<col style="width: 15%" />
-<col style="width: 26%" />
-<col style="width: 19%" />
-<col style="width: 23%" />
-<col style="width: 15%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Riesgo</th>
-<th style="text-align: left;">Probabilidad</th>
-<th style="text-align: left;">Impacto</th>
-<th style="text-align: left;">Mitigación</th>
-<th style="text-align: left;">Estado</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Demora en construcción</td>
-<td style="text-align: left;">Media</td>
-<td style="text-align: left;">Alto</td>
-<td style="text-align: left;">Plan de contingencia</td>
-<td style="text-align: left;">✅ Mitigado</td>
-</tr>
-<tr>
-<td style="text-align: left;">Sobrecosto</td>
-<td style="text-align: left;">Media</td>
-<td style="text-align: left;">Alto</td>
-<td style="text-align: left;">Control de costos</td>
-<td style="text-align: left;">✅ Mitigado</td>
-</tr>
-<tr>
-<td style="text-align: left;">Falta de personal</td>
-<td style="text-align: left;">Baja</td>
-<td style="text-align: left;">Medio</td>
-<td style="text-align: left;">Capacitación continua</td>
-<td style="text-align: left;">✅ Mitigado</td>
-</tr>
-<tr>
-<td style="text-align: left;">Condiciones ambientales</td>
-<td style="text-align: left;">Media</td>
-<td style="text-align: left;">Medio</td>
-<td style="text-align: left;">Monitoreo continuo</td>
-<td style="text-align: left;">✅ Mitigado</td>
-</tr>
-<tr>
-<td style="text-align: left;">Cambios normativos</td>
-<td style="text-align: left;">Baja</td>
-<td style="text-align: left;">Alto</td>
-<td style="text-align: left;">Seguimiento normativo</td>
-<td style="text-align: left;">✅ Mitigado</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="cumplimiento-contractual">📋 CUMPLIMIENTO CONTRACTUAL</h2>
-<h3 id="obligaciones-clave-del-contrato">Obligaciones clave del
-contrato</h3>
-<ul>
-<li>✅ <strong>AT1 - Alcance:</strong> Proyecto integral - Cumplida</li>
-<li>✅ <strong>AT2 - Operación:</strong> Operación y mantenimiento -
-Cumplida</li>
-<li>⏳ <strong>AT3 - Especificaciones:</strong> Sistemas según
-estándares - En progreso</li>
-<li>⏳ <strong>AT4 - Indicadores:</strong> Disponibilidad sistemas - En
-progreso</li>
-<li>⏳ <strong>AT5-AT10:</strong> Apéndices técnicos - En progreso</li>
-</ul>
-<h3 id="referencias-contractuales">Referencias contractuales</h3>
-<ul>
-<li><strong>Contrato General:</strong> Marco legal del proyecto</li>
-<li><strong>Apéndices Técnicos 1-10:</strong> Especificaciones
-técnicas</li>
-<li><strong>Cláusulas:</strong> Obligaciones y responsabilidades</li>
-</ul>
-<hr />
-<h2 id="documentación-de-soporte">📚 DOCUMENTACIÓN DE SOPORTE</h2>
-<h3 id="documentos-técnicos-disponibles">Documentos técnicos
-disponibles</h3>
-<table>
-<colgroup>
-<col style="width: 29%" />
-<col style="width: 16%" />
-<col style="width: 24%" />
-<col style="width: 29%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Documento</th>
-<th style="text-align: left;">Fase</th>
-<th style="text-align: left;">Versión</th>
-<th style="text-align: left;">Ubicación</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td
-style="text-align: left;">GESTION_MASTER_Alcance_y_Objetivos_v1.0.md</td>
-<td style="text-align: left;">Consolidado</td>
-<td style="text-align: left;">v1.0</td>
-<td style="text-align: left;">Carpeta X</td>
-</tr>
-<tr>
-<td style="text-align: left;">@<span class="citation"
-data-cites="Roadmap_v12.0_Marco_Gestion_Consolidado.md">@Roadmap_v12.0_Marco_Gestion_Consolidado.md</span></td>
-<td style="text-align: left;">Gestión</td>
-<td style="text-align: left;">v12.0</td>
-<td style="text-align: left;">Directorio raíz</td>
-</tr>
-</tbody>
-</table>
-<h3 id="para-más-información-técnica">Para más información técnica</h3>
-<p>Los documentos técnicos detallados están disponibles en la Carpeta X
-del proyecto. Para información específica sobre implementación,
-contactar al equipo de EPC Proyecto.</p>
-<hr />
-<h2 id="contactos-y-responsables">📞 CONTACTOS Y RESPONSABLES</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Rol</th>
-<th style="text-align: left;">Responsable</th>
-<th style="text-align: left;">Contacto</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Director de Proyecto</td>
-<td style="text-align: left;">[Nombre]</td>
-<td style="text-align: left;">[Email/Tel]</td>
-</tr>
-<tr>
-<td style="text-align: left;">Coordinador EPC</td>
-<td style="text-align: left;">Administrador Contractual EPC</td>
-<td style="text-align: left;">[Email/Tel]</td>
-</tr>
-<tr>
-<td style="text-align: left;">Gerente de Construcción</td>
-<td style="text-align: left;">[Nombre]</td>
-<td style="text-align: left;">[Email/Tel]</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="indicadores-de-desempeño-kpis">📊 INDICADORES DE DESEMPEÑO
-(KPIs)</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Indicador</th>
-<th style="text-align: left;">Meta</th>
-<th style="text-align: left;">Actual</th>
-<th style="text-align: left;">Estado</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Cumplimiento cronograma</td>
-<td style="text-align: left;">100%</td>
-<td style="text-align: left;">95%</td>
-<td style="text-align: left;">🟡 En progreso</td>
-</tr>
-<tr>
-<td style="text-align: left;">Cumplimiento presupuesto</td>
-<td style="text-align: left;">100%</td>
-<td style="text-align: left;">98%</td>
-<td style="text-align: left;">🟢 Excelente</td>
-</tr>
-<tr>
-<td style="text-align: left;">Calidad de obra</td>
-<td style="text-align: left;">100%</td>
-<td style="text-align: left;">97%</td>
-<td style="text-align: left;">🟢 Excelente</td>
-</tr>
-<tr>
-<td style="text-align: left;">Seguridad en obra</td>
-<td style="text-align: left;">0 accidentes</td>
-<td style="text-align: left;">0 accidentes</td>
-<td style="text-align: left;">🟢 Excelente</td>
-</tr>
-<tr>
-<td style="text-align: left;">Cumplimiento ambiental</td>
-<td style="text-align: left;">100%</td>
-<td style="text-align: left;">100%</td>
-<td style="text-align: left;">🟢 Excelente</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="control-de-versiones">🔄 CONTROL DE VERSIONES</h2>
-<table>
-<colgroup>
-<col style="width: 18%" />
-<col style="width: 14%" />
-<col style="width: 42%" />
-<col style="width: 26%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Versión</th>
-<th style="text-align: left;">Fecha</th>
-<th style="text-align: left;">Cambios Principales</th>
-<th style="text-align: left;">Responsable</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">1.0</td>
-<td style="text-align: left;">Enero 2025</td>
-<td style="text-align: left;">Versión inicial ejecutiva</td>
-<td style="text-align: left;">Administrador Contractual EPC</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<p><strong>Documento preparado por:</strong> Administrador Contractual
-EPC<br />
-<strong>Última actualización:</strong> Enero 2025<br />
-<strong>Próxima revisión:</strong> Febrero 2025<br />
-<strong>Basado en:</strong>
-GESTION_MASTER_Alcance_y_Objetivos_v1.0.md</p>
-<!-- COCINADO LFC-CLI v1.0 | Fecha: 3/13/2026, 7:41:58 PM | SSOT: DBCD_CRITERIA.md -->
+            <h3 id="tabla-de-interfaces-críticas">Tabla de interfaces
+            críticas</h3>
+            <table>
+            <colgroup>
+            <col style="width: 18%" />
+            <col style="width: 33%" />
+            <col style="width: 22%" />
+            <col style="width: 24%" />
+            </colgroup>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Proyecto</th>
+            <th style="text-align: left;">Tipo de Interfaz</th>
+            <th style="text-align: left;">Criticidad</th>
+            <th style="text-align: left;">Responsable</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;"><strong>Red Ferroviaria
+            Nacional</strong></td>
+            <td style="text-align: left;">Interoperabilidad</td>
+            <td style="text-align: left;">Alta</td>
+            <td style="text-align: left;">EPC Proyecto</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;"><strong>Desarrollo
+            Regional</strong></td>
+            <td style="text-align: left;">Impacto social</td>
+            <td style="text-align: left;">Media</td>
+            <td style="text-align: left;">EPC Proyecto</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;"><strong>Conectividad
+            Nacional</strong></td>
+            <td style="text-align: left;">Integración</td>
+            <td style="text-align: left;">Alta</td>
+            <td style="text-align: left;">EPC Proyecto</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="supuestos-técnicos-y-limitaciones">📋 SUPUESTOS
+            TÉCNICOS Y LIMITACIONES</h2>
+            <h3 id="supuestos-críticos-del-diseño">Supuestos Críticos
+            del Diseño</h3>
+            <table>
+            <colgroup>
+            <col style="width: 17%" />
+            <col style="width: 26%" />
+            <col style="width: 33%" />
+            <col style="width: 21%" />
+            </colgroup>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Supuesto</th>
+            <th style="text-align: left;">Valor Asumido</th>
+            <th style="text-align: left;">Impacto si Cambia</th>
+            <th style="text-align: left;">Mitigación</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;"><strong>Demanda de
+            transporte</strong></td>
+            <td style="text-align: left;">2,400 ton/día</td>
+            <td style="text-align: left;">Menor rentabilidad si
+            reduce</td>
+            <td style="text-align: left;">Análisis de sensibilidad</td>
+            </tr>
+            <tr>
+            <td
+            style="text-align: left;"><strong>Disponibilidad</strong></td>
+            <td style="text-align: left;">99.95%</td>
+            <td style="text-align: left;">Penalizaciones si no
+            cumple</td>
+            <td style="text-align: left;">Sistemas redundantes</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;"><strong>Vida
+            útil</strong></td>
+            <td style="text-align: left;">30 años</td>
+            <td style="text-align: left;">Mayor mantenimiento si
+            reduce</td>
+            <td style="text-align: left;">Plan de renovación</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;"><strong>Condiciones
+            ambientales</strong></td>
+            <td style="text-align: left;">Estables</td>
+            <td style="text-align: left;">Mayor impacto si cambian</td>
+            <td style="text-align: left;">Monitoreo continuo</td>
+            </tr>
+            </tbody>
+            </table>
+            <h3 id="limitaciones-del-diseño">Limitaciones del
+            Diseño</h3>
+            <ul>
+            <li><strong>Capacidad:</strong> Limitada por
+            especificaciones técnicas</li>
+            <li><strong>Velocidad:</strong> Limitada por geometría del
+            corredor</li>
+            <li><strong>Mantenimiento:</strong> Requiere personal
+            especializado</li>
+            <li><strong>Ambiental:</strong> Dependiente de condiciones
+            naturales</li>
+            <li><strong>Financiero:</strong> Limitado por presupuesto
+            disponible</li>
+            </ul>
+            <h3 id="dependencias-críticas">Dependencias Críticas</h3>
+            <ul>
+            <li><strong>Infraestructura civil:</strong> Base física del
+            proyecto</li>
+            <li><strong>Sistemas técnicos:</strong> Funcionamiento de
+            sistemas</li>
+            <li><strong>Personal técnico:</strong> Operación y
+            mantenimiento</li>
+            <li><strong>Recursos financieros:</strong> Financiación del
+            proyecto</li>
+            <li><strong>Licencias ambientales:</strong> Autorizaciones
+            para operación</li>
+            </ul>
+            <hr />
+            <h2 id="riesgos-y-mitigaciones">⚠️ RIESGOS Y
+            MITIGACIONES</h2>
+            <table>
+            <colgroup>
+            <col style="width: 15%" />
+            <col style="width: 26%" />
+            <col style="width: 19%" />
+            <col style="width: 23%" />
+            <col style="width: 15%" />
+            </colgroup>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Riesgo</th>
+            <th style="text-align: left;">Probabilidad</th>
+            <th style="text-align: left;">Impacto</th>
+            <th style="text-align: left;">Mitigación</th>
+            <th style="text-align: left;">Estado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">Demora en construcción</td>
+            <td style="text-align: left;">Media</td>
+            <td style="text-align: left;">Alto</td>
+            <td style="text-align: left;">Plan de contingencia</td>
+            <td style="text-align: left;">✅ Mitigado</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Sobrecosto</td>
+            <td style="text-align: left;">Media</td>
+            <td style="text-align: left;">Alto</td>
+            <td style="text-align: left;">Control de costos</td>
+            <td style="text-align: left;">✅ Mitigado</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Falta de personal</td>
+            <td style="text-align: left;">Baja</td>
+            <td style="text-align: left;">Medio</td>
+            <td style="text-align: left;">Capacitación continua</td>
+            <td style="text-align: left;">✅ Mitigado</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Condiciones ambientales</td>
+            <td style="text-align: left;">Media</td>
+            <td style="text-align: left;">Medio</td>
+            <td style="text-align: left;">Monitoreo continuo</td>
+            <td style="text-align: left;">✅ Mitigado</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Cambios normativos</td>
+            <td style="text-align: left;">Baja</td>
+            <td style="text-align: left;">Alto</td>
+            <td style="text-align: left;">Seguimiento normativo</td>
+            <td style="text-align: left;">✅ Mitigado</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="cumplimiento-contractual">📋 CUMPLIMIENTO
+            CONTRACTUAL</h2>
+            <h3 id="obligaciones-clave-del-contrato">Obligaciones clave
+            del contrato</h3>
+            <ul>
+            <li>✅ <strong>AT1 - Alcance:</strong> Proyecto integral -
+            Cumplida</li>
+            <li>✅ <strong>AT2 - Operación:</strong> Operación y
+            mantenimiento - Cumplida</li>
+            <li>⏳ <strong>AT3 - Especificaciones:</strong> Sistemas
+            según estándares - En progreso</li>
+            <li>⏳ <strong>AT4 - Indicadores:</strong> Disponibilidad
+            sistemas - En progreso</li>
+            <li>⏳ <strong>AT5-AT10:</strong> Apéndices técnicos - En
+            progreso</li>
+            </ul>
+            <h3 id="referencias-contractuales">Referencias
+            contractuales</h3>
+            <ul>
+            <li><strong>Contrato General:</strong> Marco legal del
+            proyecto</li>
+            <li><strong>Apéndices Técnicos 1-10:</strong>
+            Especificaciones técnicas</li>
+            <li><strong>Cláusulas:</strong> Obligaciones y
+            responsabilidades</li>
+            </ul>
+            <hr />
+            <h2 id="documentación-de-soporte">📚 DOCUMENTACIÓN DE
+            SOPORTE</h2>
+            <h3 id="documentos-técnicos-disponibles">Documentos técnicos
+            disponibles</h3>
+            <table>
+            <colgroup>
+            <col style="width: 29%" />
+            <col style="width: 16%" />
+            <col style="width: 24%" />
+            <col style="width: 29%" />
+            </colgroup>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Documento</th>
+            <th style="text-align: left;">Fase</th>
+            <th style="text-align: left;">Versión</th>
+            <th style="text-align: left;">Ubicación</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td
+            style="text-align: left;">GESTION_MASTER_Alcance_y_Objetivos_v1.0.md</td>
+            <td style="text-align: left;">Consolidado</td>
+            <td style="text-align: left;">v1.0</td>
+            <td style="text-align: left;">Carpeta X</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">@<span class="citation"
+            data-cites="Roadmap_v12.0_Marco_Gestion_Consolidado.md">@Roadmap_v12.0_Marco_Gestion_Consolidado.md</span></td>
+            <td style="text-align: left;">Gestión</td>
+            <td style="text-align: left;">v12.0</td>
+            <td style="text-align: left;">Directorio raíz</td>
+            </tr>
+            </tbody>
+            </table>
+            <h3 id="para-más-información-técnica">Para más información
+            técnica</h3>
+            <p>Los documentos técnicos detallados están disponibles en
+            la Carpeta X del proyecto. Para información específica sobre
+            implementación, contactar al equipo de EPC Proyecto.</p>
+            <hr />
+            <h2 id="contactos-y-responsables">📞 CONTACTOS Y
+            RESPONSABLES</h2>
+            <table>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Rol</th>
+            <th style="text-align: left;">Responsable</th>
+            <th style="text-align: left;">Contacto</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">Director de Proyecto</td>
+            <td style="text-align: left;">[Nombre]</td>
+            <td style="text-align: left;">[Email/Tel]</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Coordinador EPC</td>
+            <td style="text-align: left;">Administrador Contractual
+            EPC</td>
+            <td style="text-align: left;">[Email/Tel]</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Gerente de Construcción</td>
+            <td style="text-align: left;">[Nombre]</td>
+            <td style="text-align: left;">[Email/Tel]</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="indicadores-de-desempeño-kpis">📊 INDICADORES DE
+            DESEMPEÑO (KPIs)</h2>
+            <table>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Indicador</th>
+            <th style="text-align: left;">Meta</th>
+            <th style="text-align: left;">Actual</th>
+            <th style="text-align: left;">Estado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">Cumplimiento cronograma</td>
+            <td style="text-align: left;">100%</td>
+            <td style="text-align: left;">95%</td>
+            <td style="text-align: left;">🟡 En progreso</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Cumplimiento presupuesto</td>
+            <td style="text-align: left;">100%</td>
+            <td style="text-align: left;">98%</td>
+            <td style="text-align: left;">🟢 Excelente</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Calidad de obra</td>
+            <td style="text-align: left;">100%</td>
+            <td style="text-align: left;">97%</td>
+            <td style="text-align: left;">🟢 Excelente</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Seguridad en obra</td>
+            <td style="text-align: left;">0 accidentes</td>
+            <td style="text-align: left;">0 accidentes</td>
+            <td style="text-align: left;">🟢 Excelente</td>
+            </tr>
+            <tr>
+            <td style="text-align: left;">Cumplimiento ambiental</td>
+            <td style="text-align: left;">100%</td>
+            <td style="text-align: left;">100%</td>
+            <td style="text-align: left;">🟢 Excelente</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="control-de-versiones">🔄 CONTROL DE VERSIONES</h2>
+            <table>
+            <colgroup>
+            <col style="width: 18%" />
+            <col style="width: 14%" />
+            <col style="width: 42%" />
+            <col style="width: 26%" />
+            </colgroup>
+            <thead>
+            <tr>
+            <th style="text-align: left;">Versión</th>
+            <th style="text-align: left;">Fecha</th>
+            <th style="text-align: left;">Cambios Principales</th>
+            <th style="text-align: left;">Responsable</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td style="text-align: left;">1.0</td>
+            <td style="text-align: left;">Enero 2025</td>
+            <td style="text-align: left;">Versión inicial ejecutiva</td>
+            <td style="text-align: left;">Administrador Contractual
+            EPC</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <p><strong>Documento preparado por:</strong> Administrador
+            Contractual EPC<br />
+            <strong>Última actualización:</strong> Enero 2025<br />
+            <strong>Próxima revisión:</strong> Febrero 2025<br />
+            <strong>Basado en:</strong>
+            GESTION_MASTER_Alcance_y_Objetivos_v1.0.md</p>
+            <!-- COCINADO LFC-CLI v1.0 | Fecha: 3/13/2026, 7:41:58 PM | SSOT: DBCD_CRITERIA.md -->
+        </article>
+
+        <footer style="margin-top: 4rem; text-align: center; opacity: 0.5; font-size: 0.8rem;">
+            © 2025 LFC STUDIO | SISTEMA DE COMUNICACIONES Y CONTROL | PTC VIRTUAL SICC
+        </footer>
+    </div>
+
+    <script src="../../../IX. WBS y Planificacion/lfc-terminology.js"></script>
+    <script src="../../../IX. WBS y Planificacion/sidebar-component.js"></script>
 </body>
 </html>
