@@ -25,15 +25,20 @@
             transform: translateY(-5px);
             border-color: var(--accent);
         }
-        .btn-l4 {
-            width: 100%;
-            padding: 15px;
+        .card-actions {
+            display: flex;
+            gap: 10px;
             margin-top: 15px;
+        }
+        .btn-l4 {
+            flex: 1;
+            padding: 12px 10px;
             border: none;
             border-radius: 8px;
             background: linear-gradient(135deg, var(--accent), #e6b800);
             color: var(--primary);
             font-weight: 700;
+            font-size: 0.85rem;
             cursor: pointer;
             border: 1px solid rgba(255, 255, 255, 0.1);
             transition: all 0.3s;
@@ -43,6 +48,15 @@
             color: white;
             border-color: var(--accent);
             box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
+        }
+        .btn-excel {
+            background: linear-gradient(135deg, #1d6f42, #144d2d);
+            color: white;
+        }
+        .btn-excel:hover {
+            background: var(--primary);
+            border-color: #1d6f42;
+            box-shadow: 0 4px 15px rgba(29, 111, 66, 0.5);
         }
     </style>
 </head>
@@ -59,41 +73,37 @@
             <div class="l4-card">
                 <h3 style="color: var(--accent)">💰 Desglose AIU</h3>
                 <p style="font-size: 0.9rem; opacity: 0.7; margin-top: 10px;">Visualice y desglose en detalle los costos directos vs AIU calculados por Ítem.</p>
-                <button class="btn-l4" onclick="javascript:alert('Funcionalidad L4 (Desglose AIU) no implementada todavía en Cerebro. (Fase Próxima)')">
-                    Ver Desglose AIU
-                </button>
+                <div class="card-actions">
+                    <button class="btn-l4" onclick="javascript:alert('Generando PDF (Desglose AIU) no implementado (Fase Próxima)')">🖨️ PDF</button>
+                    <button class="btn-l4 btn-excel" onclick="javascript:alert('Descargando Excel (Desglose AIU) no implementado (Fase Próxima)')">📊 Excel</button>
+                </div>
             </div>
             
             <div class="l4-card">
                 <h3 style="color: #64ffda">📝 Acta de Obra</h3>
                 <p style="font-size: 0.9rem; opacity: 0.7; margin-top: 10px;">Generador de documentación de acta para los ítems finalizados y reportados.</p>
-                <button class="btn-l4" onclick="javascript:alert('Funcionalidad L4 (Acta Obra) no implementada todavía en Cerebro.')">
-                    Generar Acta
-                </button>
+                <div class="card-actions">
+                    <button class="btn-l4" onclick="javascript:alert('Generando PDF (Acta Obra) no implementado')">🖨️ PDF</button>
+                    <button class="btn-l4 btn-excel" onclick="javascript:alert('Descargando Excel (Acta Obra) no implementado')">📊 Excel</button>
+                </div>
             </div>
 
             <div class="l4-card">
                 <h3 style="color: #ffcf33">⚠️ Validación Cap. 4</h3>
-                <p style="font-size: 0.9rem; opacity: 0.7; margin-top: 10px;">Auditoría matemática independiente del contrato - Capítulo IV (Material Rodante y Nodos).</p>
-                <button class="btn-l4" onclick="javascript:alert('Funcionalidad L4 (Validar Cap. 4) no implementada todavía en Cerebro.')">
-                    Validar Cap 4.
-                </button>
+                <p style="font-size: 0.9rem; opacity: 0.7; margin-top: 10px;">Auditoría matemática independiente del contrato - Capítulo IV.</p>
+                <div class="card-actions">
+                    <button class="btn-l4" onclick="javascript:alert('Generando PDF (Validación Cap. 4) no implementado')">🖨️ PDF</button>
+                    <button class="btn-l4 btn-excel" onclick="javascript:alert('Descargando Excel (Validación Cap. 4) no implementado')">📊 Excel</button>
+                </div>
             </div>
 
             <div class="l4-card">
                 <h3 style="color: #ff4b2b">🧮 Auditoría Zero-Residue</h3>
-                <p style="font-size: 0.9rem; opacity: 0.7; margin-top: 10px;">Comprobar recursivamente que la función Math.round() aplicó en todos los rubros L3.</p>
-                <button class="btn-l4" onclick="javascript:alert('Funcionalidad L4 (Zero-Residue Audit) no implementada todavía en Cerebro.')">
-                    Validar Cálculos
-                </button>
-            </div>
-
-            <div class="l4-card">
-                <h3 style="color: white">🖨️ Motor de Impresión</h3>
-                <p style="font-size: 0.9rem; opacity: 0.7; margin-top: 10px;">Convierte los balances L1/L2/L3 en reporte PDF estructurado oficial EPC.</p>
-                <button class="btn-l4" onclick="window.print();">
-                    Imprimir PDF
-                </button>
+                <p style="font-size: 0.9rem; opacity: 0.7; margin-top: 10px;">Comprobar recursivamente redondeo Math.round() en todos los rubros L3.</p>
+                <div class="card-actions">
+                    <button class="btn-l4" onclick="javascript:alert('Generando PDF (Auditoría de Cálculos) no implementado')">🖨️ PDF</button>
+                    <button class="btn-l4 btn-excel" onclick="javascript:alert('Descargando Excel (Auditoría de Cálculos) no implementado')">📊 Excel</button>
+                </div>
             </div>
         </div>
     </div>
