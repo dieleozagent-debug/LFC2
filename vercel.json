@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "lfc-2",
+  "public": true,
+  "rewrites": [
+    { "source": "/", "destination": "/IX. WBS y Planificacion/WBS_COMPLETA_TODO_Interactiva_v4.0.html" },
+    { "source": "/wbs", "destination": "/IX. WBS y Planificacion/WBS_COMPLETA_TODO_Interactiva_v4.0.html" },
+    { "source": "/entregables", "destination": "/X_ENTREGABLES_CONSOLIDADOS/INDICE_CARPETA_X_ACTUALIZADO.html" },
+    { "source": "/master", "destination": "/X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/HTML/SISTEMA_01_Control_y_Senalizacion_Master.html" }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
+}
