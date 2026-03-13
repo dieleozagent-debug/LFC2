@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="adn-page-title">Herramientas Nivel 4 - LFC</title>
+    <link rel="stylesheet" href="wbs-shared.css">
+    <script src="lfc-terminology.js"></script>
+    <style>
+        .l4-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 2rem;
+        }
+        .l4-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--glass-border);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .l4-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent);
+        }
+        .btn-l4 {
+            width: 100%;
+            padding: 15px;
+            margin-top: 15px;
+            border: none;
+            border-radius: 8px;
+            background: linear-gradient(135deg, var(--primary-light), var(--primary));
+            color: white;
+            font-weight: 700;
+            cursor: pointer;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s;
+        }
+        .btn-l4:hover {
+            background: var(--accent);
+            color: var(--primary);
+        }
+    </style>
+</head>
+<body>
+    <div id="lfc-sidebar-container"></div>
+    <div class="main-content-wrapper">
+        <div class="premium-card">
+            <div id="adn-version-tag" style="position: absolute; top: 10px; right: 20px; font-size: 0.6rem; letter-spacing: 2px; opacity: 0.5;">v1.0</div>
+            <h1 class="premium-title" id="main-dns-title">🛠️ AUDITORÍA Y CONTROL L4</h1>
+            <p id="main-dns-subtitle" style="opacity: 0.7;">Herramientas avanzadas para desglose, impresión y actas de obra fuera de la vista general L3.</p>
+        </div>
+
+        <div class="l4-grid">
+            <div class="l4-card">
+                <h3 style="color: var(--accent)">💰 Desglose AIU</h3>
+                <p style="font-size: 0.9rem; opacity: 0.7; margin-top: 10px;">Visualice y desglose en detalle los costos directos vs AIU calculados por Ítem.</p>
+                <button class="btn-l4" onclick="javascript:alert('Funcionalidad L4 (Desglose AIU) no implementada todavía en Cerebro. (Fase Próxima)')">
+                    Ver Desglose AIU
+                </button>
+            </div>
+            
+            <div class="l4-card">
+                <h3 style="color: #64ffda">📝 Acta de Obra</h3>
+                <p style="font-size: 0.9rem; opacity: 0.7; margin-top: 10px;">Generador de documentación de acta para los ítems finalizados y reportados.</p>
+                <button class="btn-l4" onclick="javascript:alert('Funcionalidad L4 (Acta Obra) no implementada todavía en Cerebro.')">
+                    Generar Acta
+                </button>
+            </div>
+
+            <div class="l4-card">
+                <h3 style="color: #ffcf33">⚠️ Validación Cap. 4</h3>
+                <p style="font-size: 0.9rem; opacity: 0.7; margin-top: 10px;">Auditoría matemática independiente del contrato - Capítulo IV (Material Rodante y Nodos).</p>
+                <button class="btn-l4" onclick="javascript:alert('Funcionalidad L4 (Validar Cap. 4) no implementada todavía en Cerebro.')">
+                    Validar Cap 4.
+                </button>
+            </div>
+
+            <div class="l4-card">
+                <h3 style="color: #ff4b2b">🧮 Auditoría Zero-Residue</h3>
+                <p style="font-size: 0.9rem; opacity: 0.7; margin-top: 10px;">Comprobar recursivamente que la función Math.round() aplicó en todos los rubros L3.</p>
+                <button class="btn-l4" onclick="javascript:alert('Funcionalidad L4 (Zero-Residue Audit) no implementada todavía en Cerebro.')">
+                    Validar Cálculos
+                </button>
+            </div>
+
+            <div class="l4-card">
+                <h3 style="color: white">🖨️ Motor de Impresión</h3>
+                <p style="font-size: 0.9rem; opacity: 0.7; margin-top: 10px;">Convierte los balances L1/L2/L3 en reporte PDF estructurado oficial EPC.</p>
+                <button class="btn-l4" onclick="window.print();">
+                    Imprimir PDF
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="sidebar-component.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            if (window.LFC_TERMINOLOGY) {
+                const term = window.LFC_TERMINOLOGY;
+                document.getElementById('adn-page-title').textContent = `Auditoría L4 - ${term.PROJECT.NAME}`;
+                document.getElementById('main-dns-subtitle').textContent = `${term.PROJECT.FULL_LOCATION} | ${term.PROJECT.VERSION} | Pureza SICC`;
+                document.getElementById('adn-version-tag').textContent = term.PROJECT.VERSION;
+            }
+        });
+    </script>
+</body>
+</html>

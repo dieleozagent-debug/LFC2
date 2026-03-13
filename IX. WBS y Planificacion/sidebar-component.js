@@ -21,6 +21,7 @@
             <a href="WBS_Reporte_Gerencial.html" class="nav-item" id="nav-report">📋 Reporte Gerencial</a>
             <a href="WBS_Analisis_Riesgos.html" class="nav-item" id="nav-risks">⚠️ Gestión Riesgos</a>
             <a href="WBS_Cronograma_Propuesta.html" class="nav-item" id="nav-chrono">📅 ${term.SYSTEMS.GANTT}</a>
+            <a href="WBS_Controles_Operativos_L4.html" class="nav-item" id="nav-l4">🛠️ Controles L4</a>
         </div>
 
         <div class="nav-group" style="margin-bottom: 2rem;">
@@ -110,7 +111,8 @@
                 'WBS_COMPLETA': 'nav-wbs',
                 'Reporte': 'nav-report',
                 'Riesgos': 'nav-risks',
-                'Cronograma': 'nav-chrono'
+                'Cronograma': 'nav-chrono',
+                'Controles_Operativos': 'nav-l4'
             };
             
             for (const [key, id] of Object.entries(navMap)) {
