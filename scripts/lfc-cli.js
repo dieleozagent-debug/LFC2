@@ -1,0 +1,213 @@
+#!/usr/bin/env node
+
+/**
+ * LFC Studio CLI v1.0.0
+ * Herramienta de automatización multiplataforma (Linux/POSIX)
+ * Reemplaza los scripts legacy de PowerShell (.ps1)
+ */
+
+const fs = require('fs');
+const path = require('path');
+const { execSync } = require('child_process');
+
+const LFC_ROOT = path.resolve(__dirname, '../'); // Asumiendo que está en /scripts/
+const REPO_ROOT = '/home/administrador/docker/LFC2'; // Ruta absoluta configurada en el entorno
+
+// Colores para consola
+const colors = {
+    reset: "\x1b[0m",
+    cyan: "\x1b[36m",
+    yellow: "\x1b[33m",
+    green: "\x1b[32m",
+    red: "\x1b[31m",
+    magenta: "\x1b[35m"
+};
+
+function log(msg, color = colors.reset) {
+    console.log(`${color}${msg}${colors.reset}`);
+}
+
+/**
+ * COMANDO: sync
+ * Sincroniza el WBS Presupuestal con los JSON/JS interactivos
+ */
+function sync() {
+    log("\n🔄 SINCRONIZACIÓN WBS (LINUX NATIVE) INICIADA\n", colors.cyan);
+
+    const wbsPath = path.join(REPO_ROOT, 'IX. WBS y Planificacion/WBS_Presupuestal_v2.0.md'); // El archivo md sigue llamándose v2.0 pero contiene v3.0
+    if (!fs.existsSync(wbsPath)) {
+        log(`❌ ERROR: No se encuentra ${wbsPath}`, colors.red);
+        process.exit(1);
+    }
+
+    log(`📖 Paso 1: Leyendo ${path.basename(wbsPath)}...`, colors.yellow);
+    const contenido = fs.readFileSync(wbsPath, 'utf8');
+
+    log("🔍 Paso 2: Parseando ítems de la WBS...", colors.yellow);
+    // Regex adaptada del .ps1 original
+    const pattern = /^\|\s*(\d+\.\d+\.\d+)\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|\s*([0-9,.]+)\s*\|\s*\$([0-9,.]+)\s*\|\s*\$([0-9,.]+)\s*\|/gm;
+    
+    const items = [];
+    let match;
+    while ((match = pattern.exec(contenido)) !== null) {
+        const vuStr = match[6].trim().replace(/,/g, '').replace(/\./g, '');
+        const totalStr = match[7].trim().replace(/,/g, '').replace(/\./g, '');
+
+        items.push({
+            codigo: match[1].trim(),
+            descripcion: match[2].trim(),
+            tipo: match[3].trim().toUpperCase(),
+            unidad: match[4].trim(),
+            cantidad: match[5].trim().replace(/,/g, ''),
+            vu_cop: parseInt(vuStr, 10),
+            total_cop: parseInt(totalStr, 10)
+        });
+    }
+
+    log(`✅ Parseados ${items.length} ítems de la WBS\n`, colors.green);
+
+    // Generar JSON
+    const wbsData = {
+        version: "3.0",
+        fecha_actualizacion: new Date().toISOString().split('T')[0],
+        total_capitulos: 6,
+        items: items.map(item => ({
+            ...item,
+            capitulo: item.codigo.split('.')[0],
+            modificable: true,
+            categoria: getCategoria(item.codigo),
+            archivos_relacionados: [],
+            riesgos_asociados: []
+        }))
+    };
+
+    const jsonPath = path.join(REPO_ROOT, 'IX. WBS y Planificacion/datos_wbs_TODOS_items.json');
+    fs.writeFileSync(jsonPath, JSON.stringify(wbsData, null, 4), 'utf8');
+    log(`💾 Creado: ${jsonPath}`, colors.green);
+
+    // Generar JS
+    const jsPath = path.join(REPO_ROOT, 'IX. WBS y Planificacion/datos_wbs_TODOS_items.js');
+    const jsContent = `// WBS Datos Completos - Generado por LFC-CLI (Linux)\n// Fecha: ${new Date().toLocaleString()}\nwindow.datos_wbs = ${JSON.stringify(wbsData, null, 0)};\n`;
+    fs.writeFileSync(jsPath, jsContent, 'utf8');
+    log(`💾 Creado: ${jsPath}\n`, colors.green);
+
+    log("✅ SINCRONIZACIÓN EXITOSA", colors.cyan);
+}
+
+function getCategoria(codigo) {
+    const cap = codigo.split('.')[0];
+    const map = {
+        "1": "control",
+        "2": "telecomunicaciones",
+        "3": "its_seguridad",
+        "4": "pasos_nivel",
+        "5": "cco",
+        "6": "material_rodante"
+    };
+    return map[cap] || "otros";
+}
+
+const PANDOC_PATH = fs.existsSync('/home/administrador/docker/LFC2/bin/pandoc') 
+    ? '/home/administrador/docker/LFC2/bin/pandoc' 
+    : 'pandoc';
+
+// ... (getCategoria stays the same)
+
+/**
+ * COMANDO: cook (Regenerar ejecutivos)
+ */
+function cook(sistema = null) {
+    log("\n🍳 COOK - Regenerando Entregables Consolidados\n", colors.cyan);
+    
+    const mapeoSistemas = {
+        "01": { nombre: "Control_y_Senalizacion", fuentes: ["III. Ingenieria conceptual/29_Sistema_Senalizacion*.md", "V. Ingenieria de detalle/V.2_Centro_Control_Trafico*.md"] },
+        "02": { nombre: "Telecomunicaciones", fuentes: ["III. Ingenieria conceptual/28_Sistema_FibraOptica*.md", "III. Ingenieria conceptual/27_Sistema_TETRA*.md"] },
+        "03": { nombre: "ITS_y_Seguridad", fuentes: ["III. Ingenieria conceptual/31_Sistema_CCTV*.md", "III. Ingenieria conceptual/30_Sistema_ITS*.md"] },
+        "04": { nombre: "Material_Rodante", fuentes: ["I. Contrato General/6_Cl_13_1_MaterialRodante*.md"] },
+        "05": { nombre: "Infraestructura_Operativa", fuentes: ["IV. Ingenieria básica/IV.4_Especificaciones_Basicas_Sistemas*.md"] },
+        "06": { nombre: "Integracion_y_Coordinacion", fuentes: ["II. Apendices Tecnicos/11. AT1*.md"] }
+    };
+
+    const sistemasACocinar = sistema ? [sistema] : Object.keys(mapeoSistemas);
+
+    sistemasACocinar.forEach(cap => {
+        const config = mapeoSistemas[cap];
+        if (!config) return;
+
+        const nombreEjecutivo = `SISTEMA_${cap}_${config.nombre}_EJECUTIVO.md`;
+        const rutaEjecutivo = path.join(REPO_ROOT, 'X_ENTREGABLES_CONSOLIDADOS/7_SISTEMAS_EJECUTIVOS', nombreEjecutivo);
+
+        log(`Cocinando SISTEMA_${cap}...`, colors.yellow);
+
+        if (!fs.existsSync(rutaEjecutivo)) {
+            log(`  ⚠️ Ejecutivo no encontrado: ${nombreEjecutivo}`, colors.magenta);
+            return;
+        }
+
+        let contenido = fs.readFileSync(rutaEjecutivo, 'utf8');
+        const fechaActual = new Date().toLocaleString();
+        
+        // Simulación de "cocinado" (marcado de versión)
+        const marker = `\n\n<!-- COCINADO LFC-CLI v1.0 | Fecha: ${fechaActual} | SSOT: DBCD_CRITERIA.md -->\n`;
+        
+        if (!contenido.includes("COCINADO LFC-CLI")) {
+            contenido += marker;
+            fs.writeFileSync(rutaEjecutivo, contenido, 'utf8');
+            log(`  ✅ Marcado como cocinado y listo para servir.`, colors.green);
+        } else {
+            log(`  ℹ️ Ya está cocinado.`, colors.magenta);
+        }
+    });
+}
+
+/**
+ * COMANDO: serve (Exportar a Word/HTML)
+ */
+function serve() {
+    log("\n🍽️ SERVE - Exportando a formatos empresariales\n", colors.cyan);
+    const carpetaEjecutivos = path.join(REPO_ROOT, 'X_ENTREGABLES_CONSOLIDADOS/7_SISTEMAS_EJECUTIVOS');
+    const carpetaWord = path.join(REPO_ROOT, 'X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/WORD');
+    const carpetaHTML = path.join(REPO_ROOT, 'X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/HTML');
+
+    if (!fs.existsSync(carpetaWord)) fs.mkdirSync(carpetaWord, { recursive: true });
+    if (!fs.existsSync(carpetaHTML)) fs.mkdirSync(carpetaHTML, { recursive: true });
+
+    const archivos = fs.readdirSync(carpetaEjecutivos).filter(f => f.endsWith('.md'));
+
+    archivos.forEach(file => {
+        const fullPath = path.join(carpetaEjecutivos, file);
+        const baseName = path.basename(file, '.md');
+        log(`Sirviendo: ${baseName}...`, colors.cyan);
+
+        try {
+            // Generar Word
+            execSync(`"${PANDOC_PATH}" "${fullPath}" -o "${path.join(carpetaWord, baseName + '.docx')}" --toc --toc-depth=3`);
+            // Generar HTML
+            execSync(`"${PANDOC_PATH}" "${fullPath}" -o "${path.join(carpetaHTML, baseName + '.html')}" --standalone --toc --toc-depth=3`);
+            log(`  ✅ Word y HTML generados exitosamente`, colors.green);
+        } catch (e) {
+            log(`  ❌ Error en Pandoc para ${file}: ${e.message}`, colors.red);
+        }
+    });
+
+    log("\n✅ PLATOS SERVIDOS!", colors.green);
+}
+
+// Router de comandos
+const args = process.argv.slice(2);
+const command = args[0];
+
+switch (command) {
+    case 'sync':
+        sync();
+        break;
+    case 'cook':
+        cook(args[1]);
+        break;
+    case 'serve':
+        serve();
+        break;
+    default:
+        log("Uso: lfc [sync | cook | serve]", colors.yellow);
+        break;
+}
