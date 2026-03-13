@@ -1,4 +1,4 @@
-﻿# SISTEMA 01: CONTROL Y SEÑALIZACIÓN - Documento Master v1.0
+# SISTEMA 01: CONTROL Y SEÑALIZACIÓN - Documento Master v1.0
 
 **Proyecto:** APP La Dorada-Chiriguaná  
 **Contrato:** No. 001 de 2025  
@@ -45,8 +45,8 @@ Este documento consolida información de las siguientes fuentes:
 
 **Obligaciones contractuales específicas:**
 - **AT1 (CCO):** Centro de Control Operacional con disponibilidad 99.95%
-- **AT2 (Operación):** Sistema de operación centralizada con ATP embarcado
-- **AT3 (Especificaciones):** ITCS ETCS Level 2 hasta AT3 según criterios
+- **AT2 (Operación):** Sistema de operación centralizada con ATP embarcado (PTC Virtual)
+- **AT3 (Especificaciones):** PTC Virtual (FRA/AREMA) hasta AT3 según criterios
 - **AT4 (Indicadores):** Disponibilidad del sistema 99.95% con métricas en tiempo real
 - **AT8 (Operaciones):** Procedimientos operacionales integrados
 - **AT9 (Cronograma):** Plan de implementación por fases
@@ -138,7 +138,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 | Componente | Especificación | Cantidad | Ubicación |
 |:-----------|:---------------|:---------|:----------|
 | **CTC Virtual** | Control centralizado | 1 sistema | CCO La Dorada |
-| **ATP Embarcado** | ITCS ETCS Level 2 | 15 unidades | Locomotoras |
+| **ATP Embarcado** | PTC Virtual (FRA/AREMA) | 8 unidades | Locomotoras |
 | **ENCE** | Enclavamientos electrónicos | 5 estaciones | Estaciones críticas |
 | **Desvíos** | Control automatizado | 120 unidades | Vía principal |
 | **EOT** | Dispositivos fin de tren | 15 unidades | Vagones |
