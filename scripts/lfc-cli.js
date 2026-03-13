@@ -184,25 +184,24 @@ function cook(sistema = null) {
 
         let contenido = fs.readFileSync(rutaEjecutivo, 'utf8');
         
-        // VALIDACIÓN DE SOBERANÍA (Protocolo v2.0)
-        const blacklist = ["FRA/AREMA", "PTC Virtual", "PTC", "TETRA/LTE", "EUROBALIZA"];
+        // VALIDACIÓN DE SOBERANÍA (Protocolo v2.2 - Systemic Purge)
+        const blacklist = ["UIC", "ERTMS", "ETCS", "GSM-R", "EUROBALIZA", "EMU", "CATENARIA", "25 KV"];
         const detectados = blacklist.filter(term => contenido.toUpperCase().includes(term));
         
         if (detectados.length > 0) {
             log(`  ❌ FALLO DE SOBERANÍA: Términos prohibidos detectados: ${detectados.join(', ')}`, colors.red);
             log(`  ⚠️ Saneamiento requerido en: ${nombreEjecutivo}`, colors.yellow);
-            // Marcar pero no bloquear todavía para permitir auditoría
         }
 
         const fechaActual = new Date().toLocaleString();
-        const marker = `\n\n<!-- COCINADO LFC-CLI v2.0 | SICC Pureza: ${detectados.length === 0 ? '100%' : 'AUDIT_REQUIRED'} | Fecha: ${fechaActual} -->\n`;
+        const marker = `\n\n<!-- COCINADO LFC-CLI v2.2 | SICC Pureza: ${detectados.length === 0 ? '100%' : 'AUDIT_REQUIRED'} | Fecha: ${fechaActual} -->\n`;
         
-        if (!contenido.includes("COCINADO LFC-CLI v2.0")) {
+        if (!contenido.includes("COCINADO LFC-CLI v2.2")) {
             contenido += marker;
             fs.writeFileSync(rutaEjecutivo, contenido, 'utf8');
-            log(`  ✅ Marcado con SICC-Validation.`, colors.green);
+            log(`  ✅ Marcado con SICC-Validation v2.2.`, colors.green);
         } else {
-            log(`  ℹ️ Ya está validado v2.0.`, colors.magenta);
+            log(`  ℹ️ Ya está validado v2.2.`, colors.magenta);
         }
     });
 }
@@ -221,6 +220,9 @@ function serve() {
 
     const archivos = fs.readdirSync(carpetaEjecutivos).filter(f => f.endsWith('.md'));
 
+    // FORZAR PANDOC DEL SISTEMA (linux native)
+    const sysPandoc = 'pandoc'; 
+
     archivos.forEach(file => {
         const fullPath = path.join(carpetaEjecutivos, file);
         const baseName = path.basename(file, '.md');
@@ -228,11 +230,11 @@ function serve() {
 
         try {
             // Generar Word
-            execSync(`"${PANDOC_PATH}" "${fullPath}" -o "${path.join(carpetaWord, baseName + '.docx')}" --toc --toc-depth=3`);
+            execSync(`${sysPandoc} "${fullPath}" -o "${path.join(carpetaWord, baseName + '.docx')}" --toc --toc-depth=3`);
             
             // Generar HTML Premium con Plantilla Centralizada
             const templatePath = path.join(REPO_ROOT, 'scripts/templates/premium-shell.html');
-            const command = `"${PANDOC_PATH}" "${fullPath}" -o "${path.join(carpetaHTML, baseName + '.html')}" ` +
+            const command = `${sysPandoc} "${fullPath}" -o "${path.join(carpetaHTML, baseName + '.html')}" ` +
                           `--template="${templatePath}" ` +
                           `--standalone --toc --toc-depth=3 ` +
                           `--metadata title="${baseName.replace(/_/g, ' ')}"`;
