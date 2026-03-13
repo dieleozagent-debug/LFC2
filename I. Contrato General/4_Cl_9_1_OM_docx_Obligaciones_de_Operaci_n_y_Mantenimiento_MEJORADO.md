@@ -181,7 +181,7 @@ Suscripción de condiciones precedentes según Cláusula 14.1
 2.1.2 Etapa de Operación y Mantenimiento (AT2, Cap. III)
 Operación ferroviaria integral:
 Operación ferroviaria: asegurar continuidad del servicio de transporte de carga (Ap. 2, Cap. III, Num. 3.2.1)
-Reglamento de Operación de Trenes (ROT): obligatorio para la gestión de circulación, con uso de CTC, señalización, ITCS y TETRA (Ap. 2, Cap. III, Num. 3.2.2)
+Reglamento de Operación de Trenes (ROT): obligatorio para la gestión de circulación, con uso de CTC, señalización, PTC y TETRA (Ap. 2, Cap. III, Num. 3.2.2)
 Prestación del servicio público de transporte ferroviario de carga con habilitación vigente ante Ministerio de Transporte
 Seguridad y monitoreo:
 Seguridad en la vía y material rodante: CCTV, control de accesos, alarmas y protocolos de emergencia (Ap. 2, Cap. III, Nums. 3.1.2 y 3.3.2)
@@ -238,7 +238,7 @@ Facilidades de combustibles y lubricantes (D)
 Material Rodante (AT2, Cap. VI, literal f):
 Material Rodante tractivo (H) - Por horas de funcionamiento
 Material Rodante remolcado (H) - Por horas de funcionamiento
-Sistemas embarcados (coordina con Cl_13.1_MaterialRodante): ITCS, GPS, TETRA, sistemas de comunicación
+Sistemas embarcados (coordina con Cl_13.1_MaterialRodante): PTC, GPS, TETRA, sistemas de comunicación
 3.2 Programación operacional
 3.2.1 Gestión de mantenimientos (AT2, Cap. VI, Num. 6.1)
 Planes preventivos y correctivos calendarizados por:
@@ -340,7 +340,7 @@ Manuales de operación vigentes y completos
 Cl_8.1_Preconstrucción: Preparación de manuales durante estudios
 Cl_8.2_Construcción: Coordinación O&M durante obras
 6.2 Con documentos de sistemas
-Cl_13.1_MaterialRodante: Mantenimiento sistemas embarcados ITCS, GPS, TETRA
+Cl_13.1_MaterialRodante: Mantenimiento sistemas embarcados PTC, GPS, TETRA
 AT3_Especificaciones: Protocolos técnicos específicos por sistema
 6.3 Con documentos de finalización
 Cl_12.1_Reversión: Condiciones de entrega de activos al Estado
@@ -468,7 +468,7 @@ Esta informacion es#### **✅ MEJORAS IMPLEMENTADAS (SANEAMIENTO KARPATHY):**
 
 #### **⚠️ VACÍOS IDENTIFICADOS Y CORREGIDOS:**
 
-1. **Purga de ETCS:** Eliminada la alucinación de mantenimiento ERTMS/ETCS.
+1. **Purga de PTC VIRTUAL:** Eliminada la alucinación de mantenimiento ERTMS/PTC VIRTUAL.
 2. **Alineación FRA 236:** El mantenimiento se rige por estándares de PTC Virtual.
 3. **Optimización de Trazabilidad:** Sincronización con AT2 y AT4 del contrato.
 
@@ -510,7 +510,7 @@ Esta informacion es#### **✅ MEJORAS IMPLEMENTADAS (SANEAMIENTO KARPATHY):**
 
 #### **✅ CONCLUSIONES:**
 
-El documento de O&M (Cláusula 9.1) ha sido saneado integralmente eliminando referencias a ETCS Level 2 por no ser aplicables al proyecto, adoptando el estándar **PTC Virtual** y la arquitectura **Vital IP** como base contractual para la fase operativa.
+El documento de O&M (Cláusula 9.1) ha sido saneado integralmente eliminando referencias a PTC VIRTUAL Level 2 por no ser aplicables al proyecto, adoptando el estándar **PTC Virtual** y la arquitectura **Vital IP** como base contractual para la fase operativa.
 
 **Saneamiento Ciclo 1 Finalizado para 9.1.**
 ntener cumplimiento de AT4
@@ -518,7 +518,7 @@ ntener cumplimiento de AT4
 #### **✅ CONCLUSIONES:**
 
 El documento ha sido actualizado exitosamente aplicando la metodología Punto 42, integrando:
-- **ITCS ETCS Level 2** en fase de operación
+- **PTC PTC VIRTUAL Level 2** en fase de operación
 - **Interoperabilidad FENOCO** en coordinación operativa
 - **Criterios AT4** con SICC operativo y telemetría continua
 - **Ciberseguridad** con estándares NIST/IEC 62443 en operación

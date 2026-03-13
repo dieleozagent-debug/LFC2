@@ -55,9 +55,9 @@ Interoperabilidad: Protocolos UIC para coordinación con FENOCO.
 Señalización Ferroviaria
 Referencias: AT3 (Cap. 8.1), AT2 (Cap. 3.1.2).
 Funciones: señalización de vía, pasos a nivel, semaforización ferroviaria.
-Sistema ITCS/PTC (Positive Train Control)
+Sistema PTC/PTC (Positive Train Control)
 Referencias: AT1 (Cap. 5.1), AT3 (Cap. 8.10), Cl. 13.1 del Contrato.
-Funciones: seguridad tren-tierra, control automático de trenes (ETCS Level 2 hasta AT3).
+Funciones: seguridad tren-tierra, control automático de trenes (PTC VIRTUAL Level 2 hasta AT3).
 Disponibilidad: 99.95% según AT4.
 Interoperabilidad: Compatible con sistemas FENOCO según estándares UIC.
 
@@ -103,11 +103,11 @@ Referencias: AT1 y AT2.
 Funciones: operaciones intermodales y almacenamiento.
 
 E. Material Rodante y Equipos
-Locomotoras con ITCS Embarcado
+Locomotoras con PTC Embarcado
 Referencias: AT1 (Cap. 5.1), Cl. 13.1 del Contrato.
 Funciones: transporte de carga bajo estándares de seguridad.
 Disponibilidad: 99.95% según AT4.
-Interoperabilidad: ITCS ETCS Level 2 compatible con FENOCO.
+Interoperabilidad: PTC PTC VIRTUAL Level 2 compatible con FENOCO.
 Equipos de Mantenimiento de Vía
 Referencias: AT1 (Cap. 5.2).
 Funciones: conservación y rehabilitación de la vía férrea.
@@ -191,13 +191,13 @@ Proxima actualizacion: 27 de febrero de 2025
 
 ### ✅ **MEJORAS IMPLEMENTADAS:**
 
-1. **🚂 ITCS Especificado:** ETCS Level 2 como estándar hasta AT3 en sistemas críticos
+1. **🚂 PTC Especificado:** PTC VIRTUAL Level 2 como estándar hasta AT3 en sistemas críticos
 2. **🔗 Interoperabilidad FENOCO:** Criterios UIC especificados en todos los sistemas
-3. **📊 Criterios de Disponibilidad AT4:** Integrados por sistema (CTC 99.95%, TETRA 99.5%, ITCS 99.95%)
+3. **📊 Criterios de Disponibilidad AT4:** Integrados por sistema (CTC 99.95%, TETRA 99.5%, PTC 99.95%)
 4. **🎯 Listado Actualizado:** Refleja mejoras implementadas en documentos individuales
 
 ### 🎯 **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
-- ✅ **ITCS:** Estrategia de avance con ETCS Level 2 especificada
+- ✅ **PTC:** Estrategia de avance con PTC VIRTUAL Level 2 especificada
 - ✅ **FENOCO:** Criterios de interoperabilidad según estándares UIC
 - ✅ **AT4:** Criterios de disponibilidad integrados por sistema
 - ✅ **Consistencia:** Listado alineado con documentos individuales mejorados
@@ -206,11 +206,11 @@ Proxima actualizacion: 27 de febrero de 2025
 
 | **ID** | **Riesgo** | **Categoría** | **Probabilidad** | **Impacto** | **Descripción** |
 |:---:|:---|:---:|:---:|:---|:---|
-| **R-015** | **Dependencia AT3 en sistemas** | **Técnico** | **Alta** | **Alto** | ITCS pendiente de AT3, sistemas críticos afectados |
+| **R-015** | **Dependencia AT3 en sistemas** | **Técnico** | **Alta** | **Alto** | PTC pendiente de AT3, sistemas críticos afectados |
 | **R-016** | **Interoperabilidad FENOCO** | **Técnico** | **Media** | **Alto** | Compatibilidad con sistemas existentes FENOCO |
 | **R-017** | **Disponibilidad 99.95%** | **Contractual** | **Media** | **Alto** | Cumplimiento AT4 requiere redundancia crítica |
-| **R-018** | **Integración de sistemas** | **Técnico** | **Media** | **Alto** | Complejidad de integración CTC-ITCS-TETRA |
-| **R-019** | **Material rodante ITCS** | **Técnico** | **Media** | **Alto** | Locomotoras requieren ITCS ETCS Level 2 |
+| **R-018** | **Integración de sistemas** | **Técnico** | **Media** | **Alto** | Complejidad de integración CTC-PTC-TETRA |
+| **R-019** | **Material rodante PTC** | **Técnico** | **Media** | **Alto** | Locomotoras requieren PTC PTC VIRTUAL Level 2 |
 
 ### 📋 **RECOMENDACIONES PARA GESTIÓN DE RIESGOS:**
 - **Análisis PMI requerido** para definir estrategias de mitigación

@@ -55,7 +55,7 @@ Este documento traduce las obligaciones del **Apéndice Técnico 3 (Especificaci
 
 | ID | Riesgo/Supuesto | Impacto | Estrategia de Mitigación |
 |:---|:---|:---|:---|
-| **R-TEC-002** | Indefinición de especificaciones ITCS en AT3 bloquea diseño de material rodante. | **Crítico.** Imposibilidad de cumplir con Puesta a Punto. | Formalizar consulta a Interventoría y proponer arquitectura modular ITCS-Ready. |
+| **R-TEC-002** | Indefinición de especificaciones PTC en AT3 bloquea diseño de material rodante. | **Crítico.** Imposibilidad de cumplir con Puesta a Punto. | Formalizar consulta a Interventoría y proponer arquitectura modular PTC-Ready. |
 | **R-CRO-001** | Cronograma de 60 meses es muy ajustado para la complejidad del proyecto. | **Alto.** Riesgo de retrasos y penalidades. | Implementar gestión de proyecto robusta con buffers de tiempo. |
 | **R-CAL-001** | Calidad de materiales y mano de obra puede no cumplir estándares contractuales. | **Alto.** Riesgo de rechazo de obras y retrabajos. | Establecer control de calidad estricto y certificaciones obligatorias. |
 

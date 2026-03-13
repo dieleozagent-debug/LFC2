@@ -52,7 +52,7 @@ Como Administrador Contractual EPC, confirmo que se ha completado la estandariza
 | **AT2_Especificaciones_Generales_MEJORADO.md** | ✅ Estándar | v4.2 | 27/01/2025 |
 | **AT3_Especificaciones_Generales_MEJORADO.md** | ✅ Estándar | v4.2 | 27/01/2025 |
 | **AT4_Criterios_Disponibilidad_MEJORADO.md** | ✅ Estándar | v4.2 | 27/01/2025 |
-| **AT5_Especificaciones_ITCS_MEJORADO.md** | ✅ Estándar | v4.2 | 27/01/2025 |
+| **AT5_Especificaciones_PTC_MEJORADO.md** | ✅ Estándar | v4.2 | 27/01/2025 |
 | **AT10_CapacidadSurcos_MEJORADO.md** | ✅ Estándar | v4.2 | 27/01/2025 |
 
 ### **CATEGORÍA 3: INGENIERÍA CONCEPTUAL (17 documentos)**

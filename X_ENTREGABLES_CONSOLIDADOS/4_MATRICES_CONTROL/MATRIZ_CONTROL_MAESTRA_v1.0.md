@@ -60,7 +60,7 @@
 | **CTC Virtual** | 99.95% | 99.98% | 🟢 Excelente | $0 COP |
 | **ATP Embarcado** | 99.95% | 99.97% | 🟢 Excelente | $0 COP |
 | **TETRA** | 99.5% | 99.2% | 🟡 Mejorable | $0 COP |
-| **GSM-R** | 99.95% | 99.98% | 🟢 Excelente | $0 COP |
+| **RED TETRA (Misión Crítica)** | 99.95% | 99.98% | 🟢 Excelente | $0 COP |
 | **Fibra Óptica** | 99.95% | 99.99% | 🟢 Excelente | $0 COP |
 | **Material Rodante** | 99.95% | 99.96% | 🟢 Excelente | $0 COP |
 
@@ -87,7 +87,7 @@
 | **Control** | ATP Embarcado | 15 unidades | ✅ Operativo | 100% | EPC Sistemas |
 | **Control** | ENCE | 5 unidades | ✅ Operativo | 100% | EPC Sistemas |
 | **Telecom** | TETRA | 37 estaciones | ✅ Operativo | 100% | EPC Telecomunicaciones |
-| **Telecom** | GSM-R | 37 estaciones | ✅ Operativo | 100% | EPC Telecomunicaciones |
+| **Telecom** | RED TETRA (Misión Crítica) | 37 estaciones | ✅ Operativo | 100% | EPC Telecomunicaciones |
 | **Telecom** | Fibra Óptica | 594 km | ✅ Operativo | 100% | EPC Telecomunicaciones |
 | **Seguridad** | CCTV | 73 cámaras | ✅ Operativo | 100% | EPC Sistemas |
 | **Material** | Locomotoras | 15 unidades | ✅ Operativo | 100% | EPC Mecánico |
@@ -187,7 +187,7 @@
 |:--------|:-------------------|:-----|:-------|:-------|
 | **Control** | Disponibilidad CTC | 99.95% | 99.98% | 🟢 Excelente |
 | **Telecom** | Cobertura TETRA | 100% | 95% | 🟡 En progreso |
-| **Telecom** | Cobertura GSM-R | 100% | 100% | 🟢 Excelente |
+| **Telecom** | Cobertura RED TETRA (Misión Crítica) | 100% | 100% | 🟢 Excelente |
 | **Seguridad** | Disponibilidad CCTV | 99.5% | 99.8% | 🟢 Excelente |
 | **Material** | Disponibilidad Flota | 99.95% | 99.96% | 🟢 Excelente |
 | **Infraestructura** | Disponibilidad CCO | 99.95% | 99.99% | 🟢 Excelente |

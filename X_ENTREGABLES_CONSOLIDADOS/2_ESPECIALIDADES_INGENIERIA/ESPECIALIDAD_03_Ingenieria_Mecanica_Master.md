@@ -42,14 +42,14 @@
 ### **1.1 Base Legal y Contractual**
 
 #### **Obligaciones Contractuales Principales:**
-- **AT1:** Material rodante con equipos embarcados ITCS TETRA según alcance del proyecto
+- **AT1:** Material rodante con equipos embarcados PTC TETRA según alcance del proyecto
 - **AT2:** Operación y mantenimiento de material rodante con disponibilidad 99.95%
 - **AT3:** Especificaciones técnicas de material rodante y equipos embarcados
 - **AT4:** Indicadores de disponibilidad para material rodante según Tablas 1-4
-- **Cl13.1:** Material rodante con equipos embarcados ITCS TETRA con interoperabilidad FENOCO
+- **Cl13.1:** Material rodante con equipos embarcados PTC TETRA con interoperabilidad FENOCO
 
 #### **Criterios Técnicos Maestros Consolidados:**
-- **Locomotoras:** 15 unidades con ATP embarcado ETCS Level 2
+- **Locomotoras:** 15 unidades con ATP embarcado PTC VIRTUAL Level 2
 - **Vagones de Carga:** 40 plataformas operativas + 11 no operativas
 - **Sistema EOT:** 15 dispositivos End of Train
 - **Talleres:** Principal La Dorada + secundario Chiriguaná + talleres de línea
@@ -82,10 +82,10 @@
 ```
 
 #### **Componentes de Material Rodante:**
-- **Locomotoras:** 15 unidades con ATP embarcado ETCS Level 2
+- **Locomotoras:** 15 unidades con ATP embarcado PTC VIRTUAL Level 2
 - **Vagones de Carga:** 40 plataformas operativas + 11 no operativas
 - **Equipos Especializados:** 8 carromotores, 2 bateadoras, 3 retroexcavadoras
-- **Sistemas Embarcados:** ITCS ETCS Level 2, TETRA + GSM-R, GPS/GNSS
+- **Sistemas Embarcados:** PTC PTC VIRTUAL Level 2, TETRA + RED TETRA (Misión Crítica), GPS/GNSS
 - **Talleres:** Principal La Dorada + secundario Chiriguaná + talleres de línea
 
 ### **2.2 Criterios de Diseño Mecánico**
@@ -125,9 +125,9 @@
 #### **Sistemas Embarcados:**
 | Sistema | Especificación | Función |
 |:--------|:---------------|:---------|
-| **ATP Embarcado** | ETCS Level 2 | Control automático de trenes |
+| **ATP Embarcado** | PTC VIRTUAL Level 2 | Control automático de trenes |
 | **TETRA** | Radio digital | Comunicación tren-tierra |
-| **GSM-R** | Red de datos | Comunicación redundante |
+| **RED TETRA (Misión Crítica)** | Red de datos | Comunicación redundante |
 | **GPS/GNSS** | Posicionamiento | Seguimiento en tiempo real |
 | **Event Recorder** | Caja negra | Registro de eventos |
 | **CCTV Embarcado** | Video surveillance | Seguridad operacional |
@@ -150,7 +150,7 @@
 | **Monitoreo de cola** | Sensor de presión | Integridad del tren |
 | **Sensor de integridad** | Detección de separación | Seguridad del tren |
 | **GPS** | Posicionamiento | Ubicación del tren |
-| **Radio comunicación** | TETRA/GSM-R | Comunicación con locomotora |
+| **Radio comunicación** | TETRA/RED TETRA (Misión Crítica) | Comunicación con locomotora |
 | **Disponibilidad** | 99.95% | Sistema crítico |
 
 ### **3.3 Especificaciones Básicas de Talleres**
@@ -208,9 +208,9 @@
 #### **Sistemas de Control:**
 | Sistema | Especificación | Función |
 |:--------|:---------------|:---------|
-| **ATP Embarcado** | ETCS Level 2 | Control automático |
+| **ATP Embarcado** | PTC VIRTUAL Level 2 | Control automático |
 | **TETRA Embarcado** | Radio digital | Comunicación principal |
-| **GSM-R Embarcado** | Red de datos | Comunicación redundante |
+| **RED TETRA (Misión Crítica) Embarcado** | Red de datos | Comunicación redundante |
 | **GPS/GNSS** | Posicionamiento preciso | Seguimiento |
 | **Event Recorder** | Registro de eventos | Caja negra |
 
@@ -274,9 +274,9 @@
 #### **Sistemas Embarcados:**
 | Sistema | Hardware | Software | Función |
 |:--------|:---------|:---------|:---------|
-| **ATP Embarcado** | Controlador ETCS Level 2 | Software ETCS | Control automático |
+| **ATP Embarcado** | Controlador PTC VIRTUAL Level 2 | Software PTC VIRTUAL | Control automático |
 | **TETRA** | Radio digital | Protocolo TETRA | Comunicación |
-| **GSM-R** | Radio GSM-R | Protocolo GSM-R | Comunicación |
+| **RED TETRA (Misión Crítica)** | Radio RED TETRA (Misión Crítica) | Protocolo RED TETRA (Misión Crítica) | Comunicación |
 | **GPS/GNSS** | Receptor GPS | Software navegación | Posicionamiento |
 | **Event Recorder** | Grabador de eventos | Software registro | Registro |
 
@@ -293,9 +293,9 @@
 #### **Sistemas Embarcados:**
 | Sistema | Software | Función | Actualización |
 |:--------|:---------|:---------|:---------------|
-| **ATP Embarcado** | Software ETCS Level 2 | Control automático | Over-the-air (OTA) |
+| **ATP Embarcado** | Software PTC VIRTUAL Level 2 | Control automático | Over-the-air (OTA) |
 | **TETRA** | Protocolo TETRA | Comunicación | OTA |
-| **GSM-R** | Protocolo GSM-R | Comunicación | OTA |
+| **RED TETRA (Misión Crítica)** | Protocolo RED TETRA (Misión Crítica) | Comunicación | OTA |
 | **GPS/GNSS** | Software navegación | Posicionamiento | OTA |
 | **Event Recorder** | Software registro | Registro de eventos | Manual |
 
@@ -316,7 +316,7 @@
 #### **Operación Normal:**
 1. **Inicio de Operación:**
    - Verificación de sistemas embarcados
-   - Pruebas de comunicación TETRA/GSM-R
+   - Pruebas de comunicación TETRA/RED TETRA (Misión Crítica)
    - Verificación de GPS/GNSS
    - Activación de ATP embarcado
 
@@ -388,7 +388,7 @@
 | **Locomotoras** | 25 kV AC, 50 Hz | Tracción eléctrica |
 | **Sistemas Embarcados** | 24 V DC | Sistemas auxiliares |
 | **TETRA Embarcado** | 24 V DC | Comunicación |
-| **GSM-R Embarcado** | 24 V DC | Comunicación |
+| **RED TETRA (Misión Crítica) Embarcado** | 24 V DC | Comunicación |
 | **GPS/GNSS** | 24 V DC | Posicionamiento |
 
 ### **7.2 Interfaces con Sistemas de Telecomunicaciones**
@@ -397,7 +397,7 @@
 | Sistema | Protocolo | Función |
 |:--------|:----------|:---------|
 | **TETRA** | EN 300 392 | Comunicación principal |
-| **GSM-R** | UIC 920-2 | Comunicación redundante |
+| **RED TETRA (Misión Crítica)** | UIC 920-2 | Comunicación redundante |
 | **GPS/GNSS** | NMEA 0183 | Posicionamiento |
 | **Event Recorder** | Protocolo propietario | Registro de eventos |
 
@@ -406,7 +406,7 @@
 #### **Control Automático:**
 | Sistema | Interface | Función |
 |:--------|:----------|:---------|
-| **ATP Embarcado** | ETCS Level 2 | Control automático |
+| **ATP Embarcado** | PTC VIRTUAL Level 2 | Control automático |
 | **CTC** | Protocolo FFFIS | Control centralizado |
 | **ENCE** | SCI-CC-A | Control de enclavamientos |
 | **Desvíos** | Control automático | Control de desvíos |
@@ -463,7 +463,7 @@
 - `FORMATEADO_APENDICE TECNICO 2.md` - Operación y mantenimiento (AT2) - Material rodante
 - `FORMATEADO_APENDICE TECNICO 3.md` - Especificaciones generales (AT3) - Material rodante
 - `FORMATEADO_APENDICE TECNICO 4.md` - Indicadores de desempeño (AT4) - Disponibilidad
-- `I. Contrato General/6_Cl_13_1_MaterialRodante_docx_Equipos_embarcados_ITCS_TETRA_MEJORADO.md` - Material rodante
+- `I. Contrato General/6_Cl_13_1_MaterialRodante_docx_Equipos_embarcados_PTC_TETRA_MEJORADO.md` - Material rodante
 
 ### **9.2 Documentos de Ingeniería Conceptual**
 - `32_Material_Rodante_Integrado_v5.0.md` - Material rodante integrado

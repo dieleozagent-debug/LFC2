@@ -132,7 +132,7 @@ Este documento proporciona un índice especializado de todos los sistemas técni
 | AT1_Alcance_del_Proyecto_MEJORADO | II. Apendices Tecnicos/ | Especificacion | Alta |
 | AT2_Operacion_y_Mantenimiento_MEJORADO | II. Apendices Tecnicos/ | Especificacion | Alta |
 | AT4_Indicadores_de_Desempeno_MEJORADO | II. Apendices Tecnicos/ | Especificacion | Alta |
-| 6_Cl_13_1_MaterialRodante_docx_Equipos_embarcados_ITCS_TETRA_MEJORADO | I. Contrato General/ | Contrato | 🔥 CRÍTICA |
+| 6_Cl_13_1_MaterialRodante_docx_Equipos_embarcados_PTC_TETRA_MEJORADO | I. Contrato General/ | Contrato | 🔥 CRÍTICA |
 | 32_Material_Rodante_Integrado_docx_AT1_Cl_13_1_AT2_operaci_n_AT4 | III. Ingenieria conceptual/ | Soporte | Alta |
 
 ---
@@ -208,7 +208,7 @@ Responsable: Administrador Contractual EPC
 #### ✅ **Cl_13.1_MaterialRodante v4.0 - Integración Completa**
 - **Referencias técnicas:** AT1 (especificaciones), AT2 (operación), AT4 (indicadores)
 - **Referencias contractuales:** Cl_16.1 (penalidades), Contrato General Cap. XIII
-- **Bloqueos identificados:** AT3 (ITCS/TETRA), AT10 (capacidad surcos)
+- **Bloqueos identificados:** AT3 (PTC/TETRA), AT10 (capacidad surcos)
 - **Estrategia de avance:** Documentos disponibles vs bloqueados documentados
 
 #### ✅ **Cl_16.1_Penalidades v4.0 - Integración Completa**

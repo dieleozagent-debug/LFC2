@@ -14,20 +14,20 @@ El Centro de Control de Tráfico (CTC) evoluciona a un **Servidor Maestro PTC Vi
 ### 1.1 Servidores Vitales (Core):
 - **Configuración:** Grupo de servidores en arquitectura 2oo3 (COTS) con sistema operativo endurecido (Hardened Linux).
 - **Lógica de Bloqueo:** Implementada mediante **Virtual Blocks (V-Blocks)**. Se elimina la dependencia de hardware de vía.
-- **Protocolo de Comunicación:** Nativo en **Vital IP**. Se eliminan todos los conversores de protocolo para ITCS/ETCS.
+- **Protocolo de Comunicación:** Nativo en **Vital IP**. Se eliminan todos los conversores de protocolo para PTC/PTC VIRTUAL.
 
 ### 1.2 Interfaz con el Maquinista:
 - **Movement Authority (MA):** Generada dinámicamente y enviada vía **TETRA** directamente a la OBC del tren.
-- **Redundancia:** No se requiere GSM-R. La alta disponibilidad se garantiza mediante la red de Fibra Óptica redundante y el protocolo de red auto-sanante.
+- **Redundancia:** No se requiere RED TETRA (Misión Crítica). La alta disponibilidad se garantiza mediante la red de Fibra Óptica redundante y el protocolo de red auto-sanante.
 
 ---
 
-## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE RBC/GSM-R)
+## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE RBC/RED TETRA (Misión Crítica))
 
 Se han corregido los siguientes errores técnicos de la v5.20:
-- ✅ **ELIMINADO:** El "Bloque Lógico de Integración" de $150M que referenciaba ITCS/ETCS. La integración es nativa **Vital IP**.
+- ✅ **ELIMINADO:** El "Bloque Lógico de Integración" de $150M que referenciaba PTC/PTC VIRTUAL. La integración es nativa **Vital IP**.
 - ✅ **ELIMINADO:** Referencias a RBC (Radio Block Centre). El control reside íntegramente en el **Servidor PTC Maestro**.
-- ✅ **ELIMINADO:** Esquemas de comunicación GSM-R. El DMI (Display) recibe datos exclusivamente vía TETRA.
+- ✅ **ELIMINADO:** Esquemas de comunicación RED TETRA (Misión Crítica). El DMI (Display) recibe datos exclusivamente vía TETRA.
 - ✅ **CORREGIDO:** Se eliminan los Gateways FFFIS/UNISIG para reducir la latencia de red y el costo de mantenimiento.
 
 ---

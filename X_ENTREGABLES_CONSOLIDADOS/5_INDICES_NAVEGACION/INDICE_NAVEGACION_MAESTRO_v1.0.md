@@ -97,7 +97,7 @@
 
 #### **Componentes:**
 - **CTC Virtual:** Centro de control centralizado
-- **ATP Embarcado:** 15 locomotoras con ETCS Level 2
+- **ATP Embarcado:** 15 locomotoras con PTC VIRTUAL Level 2
 - **ENCE:** 5 enclavamientos electrónicos
 - **Desvíos:** 120 unidades con control automatizado
 
@@ -116,7 +116,7 @@
 
 #### **Componentes:**
 - **TETRA:** 37 estaciones base
-- **GSM-R:** 37 estaciones colocalizadas
+- **RED TETRA (Misión Crítica):** 37 estaciones colocalizadas
 - **Fibra Óptica:** 594 km con doble anillo
 - **Respaldo Satelital:** Sistemas de respaldo
 
@@ -272,7 +272,7 @@
 
 #### **Componentes:**
 - **Sistemas Integrados:** CTC, ATP, ENCE
-- **Comunicaciones:** TETRA, GSM-R, fibra óptica
+- **Comunicaciones:** TETRA, RED TETRA (Misión Crítica), fibra óptica
 - **Monitoreo:** SCADA, HMI, alarmas
 - **Interfaces:** Protocolos de comunicación
 

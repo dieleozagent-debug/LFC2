@@ -51,13 +51,13 @@ El proyecto **APP La Dorada-Chiriguaná** ha alcanzado el **100% de completitud*
 #### **3. CONSTRUCCIÓN PARALELA (Mes 2-12)**
 - **Obras civiles:** Infraestructura base
 - **Instalaciones eléctricas:** Sistemas de potencia
-- **Sistemas de comunicación:** TETRA + GSM-R
+- **Sistemas de comunicación:** TETRA + RED TETRA (Misión Crítica)
 - **Sistemas ferroviarios:** CTC + ATP embarcado
 
 #### **4. INTEGRACIÓN Y PRUEBAS (Mes 13-15)**
 - **Integración de sistemas** según V.5.1
 - **Pruebas funcionales** según especificaciones
-- **Validación de interfaces** CTC-ITCS
+- **Validación de interfaces** CTC-PTC
 - **Certificación de cumplimiento**
 
 ---
@@ -97,7 +97,7 @@ El proyecto **APP La Dorada-Chiriguaná** ha alcanzado el **100% de completitud*
 ### **ENTREGABLES DE CONSTRUCCIÓN:**
 - **Sistema CTC Virtual** operativo
 - **15 locomotoras** con ATP embarcado
-- **37 estaciones TETRA + GSM-R** colocalizadas
+- **37 estaciones TETRA + RED TETRA (Misión Crítica)** colocalizadas
 - **5 ENCE** funcionando
 - **120 desvíos** automatizados
 - **15 EOT** dispositivos

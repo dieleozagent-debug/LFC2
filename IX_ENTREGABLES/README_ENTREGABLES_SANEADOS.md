@@ -32,8 +32,8 @@ Este directorio contiene la documentación consolidada que rige el proyecto bajo
 ## 2. CERTIFICACIÓN DE SANEAMIENTO
 
 Se certifica que la documentación contenida en esta carpeta ha pasado por el **Ciclo de Saneamiento Recursivo (Ciclos 1 a 7)** y cumple con:
-- ✅ **Cero (0)** referencias a hardware de vía obsoleto (Eurobalises, Señales LED).
-- ✅ **Cero (0)** dependencia de protocolos propietarios (ITCS, RBC, GSM-R).
+- ✅ **Cero (0)** referencias a hardware de vía obsoleto (Virtual Balise (GNSS)s, Señales LED).
+- ✅ **Cero (0)** dependencia de protocolos propietarios (PTC, RBC, RED TETRA (Misión Crítica)).
 - ✅ **Alineación total** con el estándar de Bloqueo Virtual **FRA 236**.
 - ✅ **Consistencia absoluta** con el cerebro del proyecto (SSOT).
 

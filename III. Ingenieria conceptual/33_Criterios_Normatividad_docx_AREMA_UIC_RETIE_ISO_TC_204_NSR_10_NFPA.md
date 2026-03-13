@@ -24,7 +24,7 @@ Para el sistema de control y señalización, rige la normativa estadounidense ad
 ## 🔍 AUDITORÍA DE PURGA (METODOLOGÍA P.42 v4.2)
 Se han ELIMINADO las siguientes normas por no ser aplicables:
 - **UIC (International Union of Railways):** No rigen para este proyecto.
-- **ERTMS/ETCS Technical Specifications Interoperability (TSI):** Se eliminan todas las referencias.
+- **ERTMS/PTC VIRTUAL Technical Specifications Interoperability (TSI):** Se eliminan todas las referencias.
 - **CENELEC EN 50126/128/129:** Se mantienen solo como referencia de seguridad funcional (SIL), pero aplicadas a lógica PTC, no a productos ERTMS.
 
 ---

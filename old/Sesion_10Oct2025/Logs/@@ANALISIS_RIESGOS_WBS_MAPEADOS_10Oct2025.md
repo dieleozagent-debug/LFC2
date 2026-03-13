@@ -33,7 +33,7 @@
 | **R-CON-001** | Ambigüedad medición disponibilidad PAN 100% | MEDIA | ❌ NO | ✅ SÍ |
 | **R-OPE-001** | Falla conmutación failover redundantes | MEDIA | ❌ NO | ✅ SÍ |
 | **R-CAL-001** | Calidad materiales no cumple estándares | MEDIA | ❌ NO | ✅ SÍ |
-| **R-ITCS-001** | Indefinición ITCS (BLOCKER-001) | CRÍTICA | ❌ NO | ✅ SÍ |
+| **R-PTC-001** | Indefinición PTC (BLOCKER-001) | CRÍTICA | ❌ NO | ✅ SÍ |
 | **R-FENOCO-001** | Protocolos FENOCO (BLOCKER-002) | CRÍTICA | ❌ NO | ✅ SÍ |
 | **R-PAN-001** | Cantidades PAN indefinidas (BLOCKER-003) | BAJA | ❌ NO | ✅ SÍ |
 | **R-MR-001** | Cronograma MR indefinido (BLOCKER-004) | BAJA | ❌ NO | ✅ SÍ |
@@ -48,13 +48,13 @@
 | ID | Descripción | Items WBS | Fuente |
 |:--:|:------------|:----------|:-------|
 | **R-FIBRA-001** | Lead time crítico fibra 9m | 2.3.100, 2.3.103 | DT-FIBRA-003 |
-| **R-ITCS-001** | Indefinición ITCS (ATP/ETCS L2/CBTC) | - | BLOCKER-001 |
+| **R-PTC-001** | Indefinición PTC (ATP/PTC VIRTUAL L2/CBTC) | - | BLOCKER-001 |
 | **R-FENOCO-001** | Protocolos propietarios FENOCO | - | BLOCKER-002 |
 
 ### **🟠 ALTA (2 riesgos):**
 | ID | Descripción | Items WBS | Fuente |
 |:--:|:------------|:----------|:-------|
-| **R-AT3-01** | Dependencia AT3 para ITCS ETCS L2 | - | P42 / Docs ITCS |
+| **R-AT3-01** | Dependencia AT3 para PTC PTC VIRTUAL L2 | - | P42 / Docs PTC |
 | **R-IF-01** | Desalineación en interfaces (ICD) | - | 41. Interfaces |
 
 ### **🟡 MEDIA (9 riesgos):**

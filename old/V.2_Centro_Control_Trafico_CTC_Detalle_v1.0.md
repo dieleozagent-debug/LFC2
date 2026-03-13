@@ -4,13 +4,13 @@
 **Fecha:** 02/10/2025  
 **Sistema:** Centro de Control de Tráfico (CTC)  
 **Fase:** D. Ingeniería de Detalle  
-**Referencias:** EN 50126/50128/50129, IEC 62290, UIC 615, FFFIS CTC–ITCS
+**Referencias:** EN 50126/50128/50129, IEC 62290, UIC 615, FFFIS CTC–PTC
 
 ---
 
 ## 1. Resumen Ejecutivo
 
-Este documento detalla la ingeniería del Centro de Control de Tráfico (CTC) para el proyecto APP La Dorada-Chiriguaná, abarcando la arquitectura, los componentes, la lógica de operación, la integración con ITCS y los criterios de seguridad y rendimiento.
+Este documento detalla la ingeniería del Centro de Control de Tráfico (CTC) para el proyecto APP La Dorada-Chiriguaná, abarcando la arquitectura, los componentes, la lógica de operación, la integración con PTC y los criterios de seguridad y rendimiento.
 
 > **📋 DOCUMENTO MAESTRO CONSOLIDADO:** Para la versión definitiva y consolidada del sistema CTC, consulte: `IV. Ingenieria básica/SIS_CTC_Definitivo_v1.0.md`
 
@@ -23,7 +23,7 @@ Este documento detalla la ingeniería del Centro de Control de Tráfico (CTC) pa
 ### 1.2 Objetivos del Sistema
 - **Control centralizado:** Gestión unificada del tráfico ferroviario
 - **Supervisión en tiempo real:** Monitoreo continuo de operaciones
-- **Integración ITCS:** Comunicación bidireccional con ETCS Level 2
+- **Integración PTC:** Comunicación bidireccional con PTC VIRTUAL Level 2
 - **Disponibilidad:** 99.95% de disponibilidad operacional
 - **Seguridad:** Cumplimiento EN 50126/50128/50129
 
@@ -50,8 +50,8 @@ Este documento detalla la ingeniería del Centro de Control de Tráfico (CTC) pa
 ├─────────────────────────────────────────────────────────────┤
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
 │  │  Interface  │  │  Interface  │  │  Interface  │         │
-│  │    ITCS     │  │    SCADA    │  │  Comunicación│         │
-│  │  (FFFIS)    │  │   (OPC UA)  │  │   (GSM-R)   │         │
+│  │    PTC     │  │    SCADA    │  │  Comunicación│         │
+│  │  (FFFIS)    │  │   (OPC UA)  │  │   (RED TETRA (Misión Crítica))   │         │
 │  └─────────────┘  └─────────────┘  └─────────────┘         │
 └─────────────────────────────────────────────────────────────┘
 ```
@@ -71,7 +71,7 @@ Este documento detalla la ingeniería del Centro de Control de Tráfico (CTC) pa
 - **Estación Emergencia:** Control de contingencias
 
 #### 2.2.3 Interfaces de Comunicación
-- **Interface ITCS:** Comunicación con ETCS Level 2
+- **Interface PTC:** Comunicación con PTC VIRTUAL Level 2
 - **Interface SCADA:** Supervisión de sistemas auxiliares
 - **Interface Comunicación:** Enlaces con operadores externos
 
@@ -118,9 +118,9 @@ Este documento detalla la ingeniería del Centro de Control de Tráfico (CTC) pa
 - **Monitoreo:** Zabbix 5.4
 
 #### 3.2.3 Interfaces
-- **ITCS Interface:** FFFIS v2.1
+- **PTC Interface:** FFFIS v2.1
 - **SCADA Interface:** OPC UA v1.04
-- **Comunicación:** GSM-R v8.0
+- **Comunicación:** RED TETRA (Misión Crítica) v8.0
 
 ---
 
@@ -140,7 +140,7 @@ Este documento detalla la ingeniería del Centro de Control de Tráfico (CTC) pa
 - **Señales:** Control y supervisión
 - **Alarmas:** Gestión de alarmas y eventos
 
-### 4.2 Integración ITCS
+### 4.2 Integración PTC
 
 #### 4.2.1 Comunicación Bidireccional
 - **Estado de Trenes:** Recepción de posiciones
@@ -223,7 +223,7 @@ Este documento detalla la ingeniería del Centro de Control de Tráfico (CTC) pa
 
 ## 6. Integración y Comunicaciones
 
-### 6.1 Integración ITCS
+### 6.1 Integración PTC
 
 #### 6.1.1 Protocolo FFFIS
 - **Versión:** FFFIS v2.1
@@ -241,7 +241,7 @@ Este documento detalla la ingeniería del Centro de Control de Tráfico (CTC) pa
 
 ### 6.2 Comunicaciones Externas
 
-#### 6.2.1 GSM-R
+#### 6.2.1 RED TETRA (Misión Crítica)
 - **Cobertura:** 146 km de vía
 - **Capacidad:** 24 trenes simultáneos
 - **Latencia:** < 500 ms
@@ -306,7 +306,7 @@ Este documento detalla la ingeniería del Centro de Control de Tráfico (CTC) pa
 ### 8.2 Pruebas de Sitio (SAT)
 
 #### 8.2.1 Pruebas de Integración
-- **ITCS:** Pruebas de comunicación
+- **PTC:** Pruebas de comunicación
 - **SCADA:** Pruebas de supervisión
 - **Comunicaciones:** Pruebas de enlaces
 - **Emergencias:** Pruebas de procedimientos
@@ -358,13 +358,13 @@ Este documento detalla la ingeniería del Centro de Control de Tráfico (CTC) pa
 |:---|:---|:---|:---:|
 | CTC-001 | Control centralizado | FAT-001 | 🟢 |
 | CTC-002 | Supervisión tiempo real | FAT-002 | 🟢 |
-| CTC-003 | Integración ITCS | FAT-003 | 🟢 |
+| CTC-003 | Integración PTC | FAT-003 | 🟢 |
 | CTC-004 | Gestión emergencias | FAT-004 | 🟢 |
 | CTC-005 | Disponibilidad 99.95% | SAT-001 | 🟢 |
 
 ### 10.2 Glosario de Términos
 - **CTC:** Centro de Control de Tráfico
-- **ITCS:** Integrated Train Control System
+- **PTC:** Integrated Train Control System
 - **FFFIS:** Form Fit Function Interface Specification
 - **RBC:** Radio Block Centre
 - **SIL:** Safety Integrity Level

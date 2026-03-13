@@ -10,7 +10,7 @@
 
 ## 1. Resumen Ejecutivo
 
-Este documento detalla la ingeniería de los sistemas de potencia para el proyecto APP La Dorada-Chiriguaná, abarcando la alimentación eléctrica, la distribución, la protección, la calidad de energía y la integración con sistemas críticos como ITCS y CTC.
+Este documento detalla la ingeniería de los sistemas de potencia para el proyecto APP La Dorada-Chiriguaná, abarcando la alimentación eléctrica, la distribución, la protección, la calidad de energía y la integración con sistemas críticos como PTC y CTC.
 
 ### 1.1 Alcance del Sistema de Potencia
 - **Sistema principal:** Alimentación eléctrica ferroviaria
@@ -170,16 +170,16 @@ Este documento detalla la ingeniería de los sistemas de potencia para el proyec
 - **Regulación:** ±2% (voltaje), ±0.1% (frecuencia)
 
 #### 4.1.2 Cargas Críticas
-- **ITCS:** 200 kVA (ETCS Level 2)
+- **PTC:** 200 kVA (PTC VIRTUAL Level 2)
 - **CTC:** 100 kVA (Centro de Control)
-- **Comunicaciones:** 50 kVA (GSM-R, TETRA)
+- **Comunicaciones:** 50 kVA (RED TETRA (Misión Crítica), TETRA)
 - **Señalización:** 150 kVA (Señales, enclavamientos)
 - **Iluminación:** 100 kVA (Estaciones, vías)
 
 ### 4.2 Sistemas de Respaldo
 
 #### 4.2.1 UPS
-- **Cargas críticas:** ITCS, CTC, comunicaciones
+- **Cargas críticas:** PTC, CTC, comunicaciones
 - **Tiempo de transferencia:** < 4 ms
 - **Modo normal:** Rectificador + inversor
 - **Modo batería:** Inversor + baterías
@@ -215,7 +215,7 @@ Este documento detalla la ingeniería de los sistemas de potencia para el proyec
 ### 5.1 Seguridad Funcional (EN 50126/50128/50129)
 
 #### 5.1.1 Objetivos de Seguridad
-- **SIL 4:** Alimentación ITCS
+- **SIL 4:** Alimentación PTC
 - **SIL 3:** Alimentación CTC
 - **SIL 2:** Alimentación comunicaciones
 - **SIL 1:** Alimentación auxiliar
@@ -259,9 +259,9 @@ Este documento detalla la ingeniería de los sistemas de potencia para el proyec
 
 ## 6. Integración y Comunicaciones
 
-### 6.1 Integración ITCS
+### 6.1 Integración PTC
 
-#### 6.1.1 Alimentación ETCS Level 2
+#### 6.1.1 Alimentación PTC VIRTUAL Level 2
 - **Potencia:** 200 kVA
 - **Voltaje:** 480 V AC, 3 fases
 - **Frecuencia:** 60 Hz
@@ -345,7 +345,7 @@ Este documento detalla la ingeniería de los sistemas de potencia para el proyec
 ### 8.2 Pruebas de Sitio (SAT)
 
 #### 8.2.1 Pruebas de Integración
-- **ITCS:** Pruebas de alimentación ETCS
+- **PTC:** Pruebas de alimentación PTC VIRTUAL
 - **CTC:** Pruebas de alimentación centro de control
 - **Comunicaciones:** Pruebas de alimentación sistemas
 - **Emergencias:** Pruebas de procedimientos
@@ -395,7 +395,7 @@ Este documento detalla la ingeniería de los sistemas de potencia para el proyec
 ### 10.1 Matriz de Trazabilidad
 | Requisito | Especificación | Prueba | Estado |
 |:---|:---|:---|:---:|
-| POT-001 | Alimentación ITCS | FAT-001 | 🟢 |
+| POT-001 | Alimentación PTC | FAT-001 | 🟢 |
 | POT-002 | Alimentación CTC | FAT-002 | 🟢 |
 | POT-003 | Sistemas de respaldo | FAT-003 | 🟢 |
 | POT-004 | Disponibilidad 99.95% | SAT-001 | 🟢 |

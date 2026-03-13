@@ -17,7 +17,7 @@
 
 ### ⚠️ DESALINEACIÓN CRÍTICA RESUELTA:
 - **64B COP sobrepresupuesto** por componentes eliminados (eurobalises, señales LED, RBC)
-- **13.8B COP faltante** por componentes nuevos (GSM-R, EOT, ENCE, Desvíos)
+- **13.8B COP faltante** por componentes nuevos (RED TETRA (Misión Crítica), EOT, ENCE, Desvíos)
 - **~50B COP impacto neto** después de correcciones
 - **✅ CORRECCIÓN COMPLETADA EXITOSAMENTE**
 
@@ -95,10 +95,10 @@ Ejecutar análisis/corrección aplicando Metodología Punto 42
 - [ ] Fibra óptica: ¿594 km?
 - [ ] TETRA: ¿37 estaciones?
 - [ ] Señalización: ¿Virtual (CTC + ATP)?
-- [ ] Eurobalises: ¿0 unidades?
+- [ ] Virtual Balise (GNSS)s: ¿0 unidades?
 - [ ] Señales LED vía: ¿0 unidades?
 - [ ] RBC: ¿0 unidades?
-- [ ] GSM-R: ¿37 estaciones incluidas?
+- [ ] RED TETRA (Misión Crítica): ¿37 estaciones incluidas?
 - [ ] EOT: ¿15 dispositivos incluidos?
 - [ ] ENCE: ¿5 estaciones especificadas?
 - [ ] Desvíos: ¿120 total (25 motor + 95 manual)?
@@ -110,7 +110,7 @@ Ejecutar análisis/corrección aplicando Metodología Punto 42
 - [ ] ¿Señalización virtual confirmada?
 - [ ] ¿CTC como sistema principal?
 - [ ] ¿ATP embarcado sin eurobalises?
-- [ ] ¿Redundancia TETRA + GSM-R?
+- [ ] ¿Redundancia TETRA + RED TETRA (Misión Crítica)?
 
 ### 3. PROPAGACIÓN IDENTIFICADA:
 - [ ] ¿Qué otros documentos se afectan?
@@ -135,7 +135,7 @@ CON VERIFICACIÓN OBLIGATORIA contra CRITERIOS_TECNICOS_MAESTRO_v1.0.md.
 Identificar:
 1. Desalineaciones con criterios maestros
 2. Componentes eliminados (eurobalises, señales LED, RBC)
-3. Componentes faltantes (GSM-R, EOT, ENCE, desvíos)
+3. Componentes faltantes (RED TETRA (Misión Crítica), EOT, ENCE, desvíos)
 4. Propagación de cambios necesaria
 5. Impacto presupuestal"
 ```
@@ -193,7 +193,7 @@ INFRAESTRUCTURA:
 - CCO: La Dorada (850 m² edificio + 250 m² sala control)
 
 SEÑALIZACIÓN (VIRTUAL):
-- Eurobalises: 0 (ELIMINADO - Sistema virtual)
+- Virtual Balise (GNSS)s: 0 (ELIMINADO - Sistema virtual)
 - Señales LED vía: 0 (ELIMINADO - CTC virtual)
 - RBC: 0 (ELIMINADO - ATP embarcado)
 - CTC: 1 sistema centralizado
@@ -203,7 +203,7 @@ SEÑALIZACIÓN (VIRTUAL):
 
 TELECOMUNICACIONES:
 - TETRA: 37 estaciones (20 edificaciones + 17 intermedias)
-- GSM-R: 37 estaciones (colocalizado con TETRA)
+- RED TETRA (Misión Crítica): 37 estaciones (colocalizado con TETRA)
 - EOT: 15 dispositivos (End of Train)
 
 SEGURIDAD:

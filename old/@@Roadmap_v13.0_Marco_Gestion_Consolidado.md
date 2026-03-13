@@ -74,7 +74,7 @@ Automatizar la propagación de cada DT (con YAML) hacia 7 niveles: WBS/Presupues
    - Script: `scripts/consolidar_para_carpeta_x.ps1` ✅
    - Funcionalidad: Mapea 9 V.X a sistemas master, agrega notas de sincronización ✅
    - Resultado: 8 consolidaciones realizadas, 5 archivos Master actualizados ✅
-   - Mapeo: V.2/V.3/V.4/V.5/V.X_ENCE/V.X_Desvios/V.X_EOT/V.X_GSM-R → Master ✅
+   - Mapeo: V.2/V.3/V.4/V.5/V.X_ENCE/V.X_Desvios/V.X_EOT/V.X_RED TETRA (Misión Crítica) → Master ✅
 
 ✅ 7) Pruebas e2e + documentación (COMPLETADO - 09/10/2025)
    - Script maestro: `sincronizar_SISTEMA_COMPLETO_v14.2.ps1` ✅
@@ -278,7 +278,7 @@ Documentación/
 | **VII. Soporte** | ✅ **COMPLETADO** | **100%** | **8/8** | **ESPECIALIZADO FINALIZADO** |
 
 ### **🎉 TODOS LOS SISTEMAS COMPLETADOS (ENERO 2025)**
-- ✅ **ITCS/Control de Trenes:** 100% - SRS/Arquitectura completada
+- ✅ **PTC/Control de Trenes:** 100% - SRS/Arquitectura completada
 - ✅ **Material Rodante:** 100% - STM/DMI specs completadas  
 - ✅ **CTC:** 100% - SW Architecture completada
 - ✅ **Señalización:** 100% - Interlocking tables completadas
@@ -289,11 +289,11 @@ Documentación/
 - **V.1-V.5 + V.X:** ✅ **9 documentos v5.0 COMPLETADOS** - Todas las especificaciones técnicas detalladas
 
 ### **✅ GAPS CRÍTICOS RESUELTOS**
-- **SRS ITCS, Arquitectura RBC, Interfaces CTC-ITCS, STM Embarcado, Plan V&V:** ✅ **COMPLETADOS**
+- **SRS PTC, Arquitectura RBC, Interfaces CTC-PTC, STM Embarcado, Plan V&V:** ✅ **COMPLETADOS**
 
 ### **✅ VII. SOPORTE ESPECIALIZADO 100% COMPLETADO**
 - **VII.1 Normatividad:** ✅ **4 matrices completadas** - Civil, Eléctrica, Mecánica, Sistemas
-- **VII.2 Especificaciones:** ✅ **11 documentos completados** - ITCS, RBC, interfaces, etc.
+- **VII.2 Especificaciones:** ✅ **11 documentos completados** - PTC, RBC, interfaces, etc.
 - **VII.3 Procedimientos:** ✅ **4 procedimientos completados** - Constructivos, montaje, instalación, comisionamiento
 
 ### **✅ VIII. DOCUMENTOS MAESTROS Y METODOLOGÍA 100% ORGANIZADOS**
@@ -429,9 +429,9 @@ Documentación/
 ### ✅ Checklist de Desbloqueo de Fase D (COMPLETADO)
 | Ítem | Criterio | Estado |
 |:---|:---|:---:|
-| 1 | SRS ITCS provisional completado | 🟢 |
+| 1 | SRS PTC provisional completado | 🟢 |
 | 2 | Arquitectura RBC 2oo3 especificada | 🟢 |
-| 3 | 8/8 interfaces CTC–ITCS definidas (FFFIS) | 🟢 |
+| 3 | 8/8 interfaces CTC–PTC definidas (FFFIS) | 🟢 |
 | 4 | STM embarcado especificado | 🟢 |
 | 5 | Interlocking tables (5 estaciones) entregadas | 🟢 |
 
@@ -452,7 +452,7 @@ Leyenda: 🟢 Completado • 🟠 En desarrollo/especificación • 🟡 Pendien
 |:---|:---|:---:|:---:|---|
 | V.1 | `V. Ingenieria de detalle/V.1_Senalizacion_Ferroviaria_Detalle_v0.1.md` | ✅ **COMPLETADO** | 27/01/2025 | **Especificaciones técnicas detalladas** de señalización ferroviaria. |
 | V.2 | `V. Ingenieria de detalle/V.2_Centro_Control_Trafico_CTC_Detalle_v0.1.md` | ✅ **COMPLETADO** | 27/01/2025 | **Arquitectura y funcionalidades** del CTC. |
-| V.3 | `V. Ingenieria de detalle/V.3_Sistemas_Comunicacion_Detalle_v0.1.md` | ✅ **COMPLETADO** | 27/01/2025 | **GSM-R, fibra óptica, TETRA, VSAT** especificados. |
+| V.3 | `V. Ingenieria de detalle/V.3_Sistemas_Comunicacion_Detalle_v0.1.md` | ✅ **COMPLETADO** | 27/01/2025 | **RED TETRA (Misión Crítica), fibra óptica, TETRA, VSAT** especificados. |
 | V.4 | `V. Ingenieria de detalle/V.4_Sistemas_Potencia_Detalle_v0.1.md` | ✅ **COMPLETADO** | 27/01/2025 | **Subestaciones, transformadores, UPS, generadores** especificados. |
 | V.5 | `V. Ingenieria de detalle/V.5_Sistemas_Seguridad_Detalle_v0.1.md` | ✅ **COMPLETADO** | 27/01/2025 | **Seguridad funcional, ciberseguridad, física** especificados. |
 
@@ -501,9 +501,9 @@ La Fase E ha sido completada exitosamente con el desarrollo de todos los manuale
 |:---|:---|:---:|:---:|
 | Fases A–E | Completitud | 100% | ✅ Completado |
 | Fase E | Manuales OM | 4/4 | ✅ Completado |
-| ITCS | SRS Provisional | 100% | ✅ Completado |
+| PTC | SRS Provisional | 100% | ✅ Completado |
 | RBC | Arquitectura 2oo3 | 100% | ✅ Completado |
-| Interfaces CTC–ITCS | Interfaces definidas | 8/8 | ✅ Completado |
+| Interfaces CTC–PTC | Interfaces definidas | 8/8 | ✅ Completado |
 | Señalización | Interlocking tables | 5/5 | ✅ Completado |
 | Embarcados | STM especificado | 100% | ✅ Completado |
 
@@ -694,11 +694,11 @@ La Fase E ha sido completada exitosamente con el desarrollo de todos los manuale
 #### **📋 HALLAZGOS CRÍTICOS IDENTIFICADOS:**
 | Documento Actual | Criterio Real Maestro | Desviación | Impacto |
 |:----------------|:---------------------|:-----------|:--------|
-| Eurobalises: 1,080 unidades | 0 unidades | 🔴 CRÍTICO | $40B sobrepresupuesto |
+| Virtual Balise (GNSS)s: 1,080 unidades | 0 unidades | 🔴 CRÍTICO | $40B sobrepresupuesto |
 | Señales LED vía: 270 unidades | 0 unidades | 🔴 CRÍTICO | $12B sobrepresupuesto |
 | RBC: 2 unidades | 0 unidades | 🔴 CRÍTICO | $2B sobrepresupuesto |
 | TETRA: 33 estaciones | 37 estaciones | 🟡 MEDIO | Ajuste cantidades |
-| GSM-R: NO incluido | 37 estaciones | 🔴 CRÍTICO | $3.5B faltante |
+| RED TETRA (Misión Crítica): NO incluido | 37 estaciones | 🔴 CRÍTICO | $3.5B faltante |
 | EOT: NO incluido | 15 dispositivos | 🟡 MEDIO | $520M faltante |
 | ENCE: NO especificado | 5 estaciones | 🔴 CRÍTICO | $6B faltante |
 | Desvíos: NO incluido | 120 unidades | 🔴 CRÍTICO | $3.8B faltante |
@@ -745,7 +745,7 @@ Todos los documentos de ingeniería están siendo validados bajo la Metodología
 | 27_Sistema_TETRA | 🟡 MEDIO | 2 | Medio |
 | 29_Sistema_Señalizacion | 🔴 CRÍTICO | 1 | Alto |
 | 32_Material_Rodante | 🟡 MEDIO | 2 | Medio |
-| VII.2.1_ITCS_ETCS | 🔴 CRÍTICO | 1 | Alto |
+| VII.2.1_PTC_PTC VIRTUAL | 🔴 CRÍTICO | 1 | Alto |
 
 #### **📝 FASE 2: CORRECCIÓN DOCUMENTAL POR CAPAS (Días 3-10)**
 **Estrategia:** Actualizar por capas de dependencia (de base a derivados)
@@ -763,13 +763,13 @@ Todos los documentos de ingeniería están siendo validados bajo la Metodología
 - V.1_Señalizacion_Ferroviaria_Detalle.md
 - V.2_Centro_Control_Trafico_CTC.md
 - V.3_Sistemas_Comunicacion.md
-- VII.2.1_Especificaciones_Tecnicas_ITCS.md
+- VII.2.1_Especificaciones_Tecnicas_PTC.md
 - 32_Material_Rodante_Integrado.md
 
 **CAPA 4: INGENIERÍA DE DETALLE (Días 9-10) 🔧**
 - Crear V.X_Enclavamientos_ENCE_Detalle.md
 - Crear V.X_Sistema_Desvios_Detalle.md
-- Crear V.X_Sistema_GSM-R_Detalle.md
+- Crear V.X_Sistema_RED TETRA (Misión Crítica)_Detalle.md
 - Crear V.X_Sistema_EOT_Detalle.md
 
 #### **🔄 FASE 3: VALIDACIÓN CRUZADA (Días 11-12)**
@@ -814,10 +814,10 @@ Todos los documentos de ingeniería estarán completos y listos para la ejecuci�
 
 | Sistema Crítico | Responsable | Estado | Observaciones |
 |:---------|:------------|:---------|:---|
-| **SRS ITCS** | Ing. Sistemas | ✅ Completado | SRS provisional desarrollado |
+| **SRS PTC** | Ing. Sistemas | ✅ Completado | SRS provisional desarrollado |
 | **Arquitectura RBC** | Ing. Sistemas | ✅ Completado | Redundancia 2oo3 especificada |
-| **Interfaces CTC-ITCS** | Ing. Integración | ✅ Completado | Protocolo FFFIS implementado |
-| **STM Embarcado** | Ing. Embarcados | ✅ Completado | Especificaciones ETCS Level 2 |
+| **Interfaces CTC-PTC** | Ing. Integración | ✅ Completado | Protocolo FFFIS implementado |
+| **STM Embarcado** | Ing. Embarcados | ✅ Completado | Especificaciones PTC VIRTUAL Level 2 |
 | **Interlocking Tables** | Ing. Señalización | ✅ Completado | 5 estaciones completadas |
 
 ### **🏆 RESULTADO ALCANZADO**
@@ -855,7 +855,7 @@ Al completar la estandarización v1.0 y consolidación documental se ha logrado:
 
 | Componente | Descripción | Costo (COP) | Costo (USD) |
 |------------|-------------|-------------|-------------|
-| **A. EQUIPAMIENTO 15 LOCOMOTORAS** | Sistema propio + ITCS FENOCO | $6,210,000,000 | $1,411,364 |
+| **A. EQUIPAMIENTO 15 LOCOMOTORAS** | Sistema propio + PTC FENOCO | $6,210,000,000 | $1,411,364 |
 | **B. INSTALACIÓN/CERTIFICACIÓN** | Survey, diseño, pruebas | $3,175,000,000 | $721,591 |
 | **C. SISTEMA CTC PROPIO** | CCO + lógica control | $4,020,000,000 | $913,636 |
 | **D. GATEWAY INTEROPERABILIDAD** | API abierta comunicación | $1,430,000,000 | $325,000 |
@@ -872,7 +872,7 @@ Al completar la estandarización v1.0 y consolidación documental se ha logrado:
 ACUERDO OPERACIONAL IMPLEMENTADO:
 
 1. LOCOMOTORAS LA DORADA circulando en territorio FENOCO:
-   - Equipo: Sistema LA DORADA + ITCS FENOCO
+   - Equipo: Sistema LA DORADA + PTC FENOCO
    - Costo: LA DORADA ✅
 
 2. LOCOMOTORAS FENOCO circulando en territorio LA DORADA:
@@ -961,7 +961,7 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
 **G.** ✅ **COMPLETADO:** Actualizar Material Rodante con EOT  
 **H.** ✅ **COMPLETADO:** Actualizar V.1 Señalización Detalle a filosofía virtual  
 **I.** ✅ **COMPLETADO:** Actualizar V.2 CTC Detalle a CTC virtual centralizado  
-**J.** ✅ **COMPLETADO:** Actualizar V.3 Comunicaciones Detalle a TETRA + GSM-R colocalizados  
+**J.** ✅ **COMPLETADO:** Actualizar V.3 Comunicaciones Detalle a TETRA + RED TETRA (Misión Crítica) colocalizados  
 **K.** ✅ **COMPLETADO:** Actualizar V.4 Potencia Detalle a alimentación torres colocalizadas  
 **L.** ✅ **COMPLETADO:** Actualizar V.5 Seguridad Detalle a seguridad colocalizada  
 **M.** ✅ **COMPLETADO:** Validación cruzada de coherencia exitosa
@@ -983,7 +983,7 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
 ### **📋 RESUMEN CAPA 2:**
 - **WBS v4.0:** ✅ Actualizado - Reestructurado según filosofía virtual
 - **Señalización v5.0:** ✅ Actualizado - Filosofía virtual implementada
-- **TETRA v5.0:** ✅ Actualizado - 37 estaciones con colocalización GSM-R
+- **TETRA v5.0:** ✅ Actualizado - 37 estaciones con colocalización RED TETRA (Misión Crítica)
 
 ### **🎯 PRÓXIMO PASO - CAPA 2 (CONTINUAR):**
 **32_Material_Rodante_Integrado.md** - Agregar sistema EOT (End of Train)
@@ -1042,8 +1042,8 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
 
 ### **📋 TETRA ACTUALIZADO:**
 - **Archivo:** `III. Ingenieria conceptual/27_Sistema_TETRA_Integrado_v5.0.md`
-- **Estado:** ✅ **COMPLETADO** - 37 estaciones con colocalización GSM-R
-- **Cambios:** Ajuste a 37 estaciones + solapamiento 15-20% + GSM-R colocalizado
+- **Estado:** ✅ **COMPLETADO** - 37 estaciones con colocalización RED TETRA (Misión Crítica)
+- **Cambios:** Ajuste a 37 estaciones + solapamiento 15-20% + RED TETRA (Misión Crítica) colocalizado
 - **Impacto:** +$8,014,000,000 COP (optimización de red)
 
 ### **🎯 PRÓXIMO PASO - CAPA 2 (CONTINUAR):**
@@ -1054,7 +1054,7 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
 ### **📋 MATERIAL RODANTE ACTUALIZADO:**
 - **Archivo:** `III. Ingenieria conceptual/32_Material_Rodante_Integrado_v5.0.md`
 - **Estado:** ✅ **COMPLETADO** - EOT (15 dispositivos) agregado
-- **Cambios:** Integración ATP–EOT–CTC + radios TETRA/GSM-R
+- **Cambios:** Integración ATP–EOT–CTC + radios TETRA/RED TETRA (Misión Crítica)
 - **Impacto:** +$520,000,000 COP (EOT)
 
 ### **🎯 PRÓXIMO PASO - CAPA 3 (INICIO):**
@@ -1078,13 +1078,13 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
 - **Impacto:** -$50,193,000,000 COP (alineación completa)
 
 ### **🎯 PRÓXIMO PASO - CAPA 3 (CONTINUAR):**
-`V. Ingenieria de detalle/V.3_Sistemas_Comunicacion_Detalle_v1.0.md` - ✅ **COMPLETADO** - TETRA + GSM-R colocalizados
+`V. Ingenieria de detalle/V.3_Sistemas_Comunicacion_Detalle_v1.0.md` - ✅ **COMPLETADO** - TETRA + RED TETRA (Misión Crítica) colocalizados
 
 ### **📋 COMUNICACIONES DETALLE ACTUALIZADO:**
 - **Archivo:** `V. Ingenieria de detalle/V.3_Sistemas_Comunicacion_Detalle_v2.0.md`
-- **Estado:** ✅ **COMPLETADO** - TETRA + GSM-R colocalizados implementados
-- **Cambios:** 37 estaciones TETRA + 37 estaciones GSM-R colocalizadas + redundancia operacional
-- **Impacto:** +$4,484,000,000 COP (TETRA + GSM-R colocalizados)
+- **Estado:** ✅ **COMPLETADO** - TETRA + RED TETRA (Misión Crítica) colocalizados implementados
+- **Cambios:** 37 estaciones TETRA + 37 estaciones RED TETRA (Misión Crítica) colocalizadas + redundancia operacional
+- **Impacto:** +$4,484,000,000 COP (TETRA + RED TETRA (Misión Crítica) colocalizados)
 
 ### **🎯 PRÓXIMO PASO - CAPA 3 (CONTINUAR):**
 `V. Ingenieria de detalle/V.4_Sistemas_Potencia_Detalle_v1.0.md` - ✅ **COMPLETADO** - Alimentación torres colocalizadas
@@ -1140,7 +1140,7 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
   - ✅ ENCE: 5 estaciones
   - ✅ Desvíos: 120 unidades (25 motorizados + 95 manuales)
   - ✅ CCTV: 73 cámaras
-  - ✅ Eliminación completa: Eurobalises, RBC, señales LED, LEU
+  - ✅ Eliminación completa: Virtual Balise (GNSS)s, RBC, señales LED, LEU
 
 ## 🎉 **PLAN DE CORRECCIÓN DOCUMENTAL INTEGRAL - COMPLETADO EXITOSAMENTE**
 

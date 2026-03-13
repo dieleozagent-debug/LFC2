@@ -41,12 +41,12 @@ Cliente ve/descarga documentos con fechas
 |:--------|:--------|:-------|:-----------|
 | **IV.** Ing. Básica | `41. Interfaces_Sistemas_MEJORADO.md` | IF-07 + §3.3 agregada | ✅ |
 | **V.** Ing. Detalle | `V.2_CTC_v5.0.md` | §12.4 Bloque Integración | ✅ |
-| **VII.** Soporte | `VII.2.4_Interfaces_CTC_ITCS.md` | §2.2 Gateway UIC 918-4 | ✅ |
+| **VII.** Soporte | `VII.2.4_Interfaces_CTC_PTC.md` | §2.2 Gateway UIC 918-4 | ✅ |
 
 **Contenido documentado:**
 - ✅ Ítem 1.1.106 como **bloque lógico** (NO hardware único)
 - ✅ Composición: Gateways + Switches + Firewalls IEC 62443 + Middleware UIC 918-4
-- ✅ 5 interfaces: CTC↔ITCS, CTC↔FENOCO, CTC↔TETRA, CTC↔Fibra, CTC↔ITS
+- ✅ 5 interfaces: CTC↔PTC, CTC↔FENOCO, CTC↔TETRA, CTC↔Fibra, CTC↔ITS
 - ✅ Presupuesto $150M justificado
 - ✅ Riesgos mitigados: R-INT-001, R-INT-002
 
@@ -199,7 +199,7 @@ X/8_DOCUMENTOS_SERVIDOS/HTML/GESTION_EJECUTIVO_Cambios_y_Decisiones_Tecnicas.htm
 
 2. Sección **12.4** (hacia el final del doc)
    - ✅ 12.4.1: Descripción del bloque
-   - ✅ 12.4.2: 5 interfaces (CTC↔ITCS, CTC↔FENOCO, CTC↔TETRA, CTC↔Fibra, CTC↔ITS)
+   - ✅ 12.4.2: 5 interfaces (CTC↔PTC, CTC↔FENOCO, CTC↔TETRA, CTC↔Fibra, CTC↔ITS)
    - ✅ 12.4.3: Arquitectura redundancia N+1
    - ✅ 12.4.4: Alcance $150M (incluye/no incluye)
    - ✅ 12.4.5: Riesgos mitigados
@@ -370,7 +370,7 @@ X_ENTREGABLES_CONSOLIDADOS\8_DOCUMENTOS_SERVIDOS\HTML\
 ### **Archivos actualizados:**
 1. ✅ `IV. Ingenieria básica/41. Interfaces_Sistemas_MEJORADO.md` (IF-07 + §3.3)
 2. ✅ `V. Ingenieria de detalle/V.2_CTC_v5.0.md` (§12.4)
-3. ✅ `VII. Soporte Especializado/VII.2.4_Interfaces_CTC_ITCS.md` (§2.2)
+3. ✅ `VII. Soporte Especializado/VII.2.4_Interfaces_CTC_PTC.md` (§2.2)
 4. ✅ `IX. WBS y Planificacion/WBS_Menu_Principal.html` (botón SERVIR)
 5. ✅ `README.md` (arquitectura corregida, sistema SERVIR documentado)
 

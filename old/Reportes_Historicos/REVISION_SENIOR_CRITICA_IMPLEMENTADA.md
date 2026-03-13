@@ -11,7 +11,7 @@
 ## 🎯 **METODOLOGÍA DE REVISIÓN SENIOR**
 
 Como **Especialista Senior en Control de Trenes** con experiencia en proyectos ferroviarios EPC, esta revisión aplica:
-- **Estándares Internacionales:** UIC, CENELEC, ETCS, IEC 62290
+- **Estándares Internacionales:** UIC, CENELEC, PTC VIRTUAL, IEC 62290
 - **Mejores Prácticas EPC:** Lecciones aprendidas de proyectos similares
 - **Análisis de Gaps Críticos:** Identificación de vacíos técnicos bloqueantes
 - **Evaluación de Madurez:** Análisis de completitud por especialidad
@@ -33,7 +33,7 @@ Como **Especialista Senior en Control de Trenes** con experiencia en proyectos f
 
 ## 🔧 **REVISIÓN POR ESPECIALIDAD TÉCNICA**
 
-### **1. SISTEMA CONTROL DE TRENES (ITCS/ETCS Level 2)**
+### **1. SISTEMA CONTROL DE TRENES (PTC/PTC VIRTUAL Level 2)**
 
 #### **📋 Estado Actual Evaluado:**
 - **Ingeniería Básica:** ⚠️ **INCOMPLETA** (65% desarrollada)
@@ -46,7 +46,7 @@ Como **Especialista Senior en Control de Trenes** con experiencia en proyectos f
 🔴 PROBLEMA CRÍTICO: Falta de especificación funcional completa
 - Documento: AT3 referenciado pero no disponible
 - Impacto: Bloqueo total de ingeniería de detalle
-- Solución: Desarrollar especificaciones provisionales ETCS Level 2
+- Solución: Desarrollar especificaciones provisionales PTC VIRTUAL Level 2
 - Estado: 🔄 **EN DESARROLLO**
 ```
 
@@ -60,22 +60,22 @@ Como **Especialista Senior en Control de Trenes** con experiencia en proyectos f
 ```
 ⚠️ PROBLEMA TÉCNICO: Arquitectura de control incompleta
 - RBC (Radio Block Center): 🔄 **EN ESPECIFICACIÓN**
-- Interfaces Eurobalise: 🔄 **EN DESARROLLO**
+- Interfaces Virtual Balise (GNSS): 🔄 **EN DESARROLLO**
 - STM (Specific Transmission Module): ⏳ **PENDIENTE**
 ```
 
 **Vacíos Arquitectónicos:**
 - **RBC Redundancy:** 🔄 **EN ESPECIFICACIÓN** - N+1 vs. 2oo3 en desarrollo
-- **Eurobalise Deployment:** 🔄 **EN DESARROLLO** - Plan de ubicación e instalación
+- **Virtual Balise (GNSS) Deployment:** 🔄 **EN DESARROLLO** - Plan de ubicación e instalación
 - **On-board Integration:** ⏳ **PENDIENTE** - Integración con locomotoras existentes
 - **Fallback Modes:** ⏳ **PENDIENTE** - Modos de degradación no documentados
 
 ##### **1.3 INTERFACES CRÍTICAS**
 ```
 🔴 PROBLEMA BLOQUEANTE: Interfaces con sistemas críticos sin definir
-- CTC ↔ ITCS: 🔄 **EN ESPECIFICACIÓN** - Protocolo de autorización de movimiento
-- ITCS ↔ TETRA: 🔄 **EN DESARROLLO** - Interface de comunicaciones de emergencia
-- ITCS ↔ FENOCO: 🔄 **EN COORDINACIÓN** - Protocolos de interoperabilidad
+- CTC ↔ PTC: 🔄 **EN ESPECIFICACIÓN** - Protocolo de autorización de movimiento
+- PTC ↔ TETRA: 🔄 **EN DESARROLLO** - Interface de comunicaciones de emergencia
+- PTC ↔ FENOCO: 🔄 **EN COORDINACIÓN** - Protocolos de interoperabilidad
 ```
 
 #### **📈 RECOMENDACIONES CORRECTIVAS:**
@@ -83,8 +83,8 @@ Como **Especialista Senior en Control de Trenes** con experiencia en proyectos f
 ##### **Acción Inmediata (1-2 semanas):** 🔄 **EN PROGRESO**
 1. **Desarrollar SRS Provisional** basado en EN 50126/50128/50129 ✅ **INICIADO**
 2. **Especificar arquitectura RBC** con redundancia 2oo3 ✅ **INICIADO**
-3. **Definir plan de Eurobalise** (ubicación cada 150m en aproximaciones) ✅ **INICIADO**
-4. **Establecer interfaces CTC-ITCS** usando protocolo FFFIS ✅ **INICIADO**
+3. **Definir plan de Virtual Balise (GNSS)** (ubicación cada 150m en aproximaciones) ✅ **INICIADO**
+4. **Establecer interfaces CTC-PTC** usando protocolo FFFIS ✅ **INICIADO**
 
 ---
 
@@ -101,7 +101,7 @@ Como **Especialista Senior en Control de Trenes** con experiencia en proyectos f
 ⚠️ PROBLEMA TÉCNICO: Especificaciones de enclavamientos incompletas
 - Filosofía de señalización: ✅ **JUSTIFICADA** - Contadores de ejes vs. circuitos de vía
 - Lógica de enclavamiento: 🔄 **EN DESARROLLO** - Tablas de rutas
-- Interfaces ITCS: 🔄 **EN ESPECIFICACIÓN** - Preparación para integración futura
+- Interfaces PTC: 🔄 **EN ESPECIFICACIÓN** - Preparación para integración futura
 ```
 
 **Especificaciones Faltantes:**
@@ -175,7 +175,7 @@ Como **Especialista Senior en Control de Trenes** con experiencia en proyectos f
 ```
 🔄 PROBLEMA EN RESOLUCIÓN: Interfaces operacionales en desarrollo
 - CTC ↔ Enclavamientos: 🔄 **EN ESPECIFICACIÓN** - Protocolo SCI-CC-A
-- CTC ↔ ITCS: 🔄 **EN DESARROLLO** - Interface de autorización de movimiento
+- CTC ↔ PTC: 🔄 **EN DESARROLLO** - Interface de autorización de movimiento
 - CTC ↔ FENOCO: 🔄 **EN COORDINACIÓN** - Protocolos de coordinación operacional
 ```
 
@@ -189,13 +189,13 @@ Como **Especialista Senior en Control de Trenes** con experiencia en proyectos f
 
 #### **🔍 GAPS CRÍTICOS IDENTIFICADOS:**
 
-##### **5.1 EQUIPOS EMBARCADOS ITCS**
+##### **5.1 EQUIPOS EMBARCADOS PTC**
 ```
 🔄 PROBLEMA EN RESOLUCIÓN: Especificaciones embarcadas en desarrollo
 - STM (Specific Transmission Module): 🔄 **EN ESPECIFICACIÓN**
 - DMI (Driver Machine Interface): 🔄 **EN DISEÑO**
 - Odometry: 🔄 **EN DESARROLLO** - Sistema de odometría
-- Eurobalise Reader: 🔄 **EN ESPECIFICACIÓN** - Lector de balizas
+- Virtual Balise (GNSS) Reader: 🔄 **EN ESPECIFICACIÓN** - Lector de punto de referencia virtuals
 ```
 
 ##### **5.2 INTEGRACIÓN CON LOCOMOTORAS**
@@ -212,8 +212,8 @@ Como **Especialista Senior en Control de Trenes** con experiencia en proyectos f
 
 ### **🔴 PRIORIDAD CRÍTICA (1-2 semanas)** 🔄 **EN PROGRESO**
 
-1. **Desarrollar SRS ITCS** provisional basado en ETCS Level 2 ✅ **INICIADO**
-2. **Especificar interfaces CTC-ITCS** usando protocolos estándar ✅ **INICIADO**
+1. **Desarrollar SRS PTC** provisional basado en PTC VIRTUAL Level 2 ✅ **INICIADO**
+2. **Especificar interfaces CTC-PTC** usando protocolos estándar ✅ **INICIADO**
 3. **Revisar requisito disponibilidad 100%** pasos a nivel ✅ **EN REVISIÓN**
 4. **Definir arquitectura software CTC** con especificaciones técnicas ✅ **INICIADO**
 
@@ -230,7 +230,7 @@ Como **Especialista Senior en Control de Trenes** con experiencia en proyectos f
 
 | Especialidad | Ing. Básica | Ing. Detalle | Gap Crítico | Acción Requerida | Estado |
 |:---|:---:|:---:|:---:|:---|:---:|
-| **ITCS/Control** | 65% | 30% | ✅ SRS/Arquitectura | Desarrollo inmediato | 🔄 **EN PROGRESO** |
+| **PTC/Control** | 65% | 30% | ✅ SRS/Arquitectura | Desarrollo inmediato | 🔄 **EN PROGRESO** |
 | **Señalización** | 85% | 70% | ⚠️ Interlocking tables | Corrección 2 sem | 🔄 **EN PROGRESO** |
 | **CTC** | 80% | 60% | ⚠️ SW Architecture | Especificación | 🔄 **EN PROGRESO** |
 | **TETRA** | 90% | 80% | ✅ Frequency coord. | Validación | ✅ **COMPLETADO** |
@@ -245,7 +245,7 @@ Como **Especialista Senior en Control de Trenes** con experiencia en proyectos f
 
 ```
 FASE 1 (Inmediata - 2 semanas): 🔄 **EN PROGRESO**
-└── Desarrollo SRS ITCS provisional ✅ **INICIADO**
+└── Desarrollo SRS PTC provisional ✅ **INICIADO**
 └── Especificación interfaces críticas ✅ **INICIADO**
 └── Revisión requisitos no realistas ✅ **EN REVISIÓN**
 
@@ -264,7 +264,7 @@ FASE 3 (Medio plazo - 2 meses): ⏳ **PENDIENTE**
 
 | Métrica | Objetivo | Plazo | Responsable | Estado |
 |:---|:---:|:---:|:---|:---:|
-| **SRS ITCS completado** | 100% | 2 semanas | Ing. Sistemas | 🔄 **EN PROGRESO** |
+| **SRS PTC completado** | 100% | 2 semanas | Ing. Sistemas | 🔄 **EN PROGRESO** |
 | **Interfaces especificadas** | 8/8 | 3 semanas | Ing. Integración | 🔄 **EN PROGRESO** |
 | **Interlocking tables** | 5/5 | 4 semanas | Ing. Señalización | ⏳ **PENDIENTE** |
 | **STM especificado** | 100% | 6 semanas | Ing. Embarcados | ⏳ **PENDIENTE** |

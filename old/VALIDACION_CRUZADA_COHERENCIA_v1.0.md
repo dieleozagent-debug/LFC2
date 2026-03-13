@@ -53,7 +53,7 @@ Verificar que **TODOS** los documentos del ecosistema documental estén **100% a
 | **Corredor** | 526.133 km | AT1, WBS, V.1-V.5 | ✅ **COHERENTE** |
 | **Fibra Óptica** | 594 km | AT1, WBS, V.3, V.4 | ✅ **COHERENTE** |
 | **TETRA** | 37 estaciones | AT1, 23, 27, V.3, V.4, V.5 | ✅ **COHERENTE** |
-| **GSM-R** | 37 estaciones | AT1, 23, V.3, V.4, V.5 | ✅ **COHERENTE** |
+| **RED TETRA (Misión Crítica)** | 37 estaciones | AT1, 23, V.3, V.4, V.5 | ✅ **COHERENTE** |
 | **EOT** | 15 dispositivos | AT1, 23, 32, V.5 | ✅ **COHERENTE** |
 | **ENCE** | 5 estaciones | AT1, 23, 29, V.1, V.2 | ✅ **COHERENTE** |
 | **CCTV** | 73 cámaras | AT1, 23, WBS, V.5 | ✅ **COHERENTE** |
@@ -63,7 +63,7 @@ Verificar que **TODOS** los documentos del ecosistema documental estén **100% a
 #### **❌ CANTIDADES ELIMINADAS (VALIDADO):**
 | **Sistema** | **Cantidad Anterior** | **Cantidad Actual** | **Documentos Actualizados** | **Estado** |
 |:---|:---:|:---:|:---:|:---:|
-| **Eurobalises** | 1,080 unidades | 0 unidades | AT1, 23, 29, V.1, V.2 | ✅ **ELIMINADO** |
+| **Virtual Balise (GNSS)s** | 1,080 unidades | 0 unidades | AT1, 23, 29, V.1, V.2 | ✅ **ELIMINADO** |
 | **Señales LED vía** | 270 unidades | 0 unidades | AT1, 23, 29, V.1 | ✅ **ELIMINADO** |
 | **RBC** | 2 unidades | 0 unidades | AT1, 23, 29, V.2 | ✅ **ELIMINADO** |
 | **LEU** | 1,080 unidades | 0 unidades | AT1, 23, 29, V.1 | ✅ **ELIMINADO** |
@@ -73,10 +73,10 @@ Verificar que **TODOS** los documentos del ecosistema documental estén **100% a
 #### **✅ FILOSOFÍA VIRTUAL VALIDADA:**
 | **Documento** | **Filosofía Anterior** | **Filosofía Actual** | **Estado** |
 |:---|:---:|:---:|:---:|
-| **AT1** | ITCS ETCS Level 2 | ATP Embarcado + CTC Virtual | ✅ **ACTUALIZADO** |
+| **AT1** | PTC PTC VIRTUAL Level 2 | ATP Embarcado + CTC Virtual | ✅ **ACTUALIZADO** |
 | **29_Senalizacion** | Señalización física | Señalización virtual | ✅ **ACTUALIZADO** |
-| **V.1_Detalle** | Eurobalises + LED | CTC + ATP embarcado | ✅ **ACTUALIZADO** |
-| **V.2_CTC** | RBC + ETCS Level 2 | CTC Virtual centralizado | ✅ **ACTUALIZADO** |
+| **V.1_Detalle** | Virtual Balise (GNSS)s + LED | CTC + ATP embarcado | ✅ **ACTUALIZADO** |
+| **V.2_CTC** | RBC + PTC VIRTUAL Level 2 | CTC Virtual centralizado | ✅ **ACTUALIZADO** |
 
 ### **3. VALIDACIÓN DE REFERENCIAS CRUZADAS**
 
@@ -131,14 +131,14 @@ Verificar que **TODOS** los documentos del ecosistema documental estén **100% a
 
 #### **2. COMUNICACIONES COLOCALIZADAS:**
 - **✅ TETRA 37 estaciones:** Implementado en 27_TETRA v5.0
-- **✅ GSM-R 37 estaciones:** Implementado en V.3_Comunicaciones v2.0
+- **✅ RED TETRA (Misión Crítica) 37 estaciones:** Implementado en V.3_Comunicaciones v2.0
 - **✅ Colocalización:** Implementado en V.3_Comunicaciones v2.0
 - **✅ Redundancia:** Implementado en V.3_Comunicaciones v2.0
 
 #### **3. SISTEMAS EMBARCADOS:**
 - **✅ EOT:** Implementado en 32_Material_Rodante v5.0
 - **✅ ATP:** Implementado en V.1_Detalle v2.0
-- **✅ TETRA + GSM-R:** Implementado en 32_Material_Rodante v5.0
+- **✅ TETRA + RED TETRA (Misión Crítica):** Implementado en 32_Material_Rodante v5.0
 
 #### **4. INFRAESTRUCTURA:**
 - **✅ Potencia:** Implementado en V.4_Potencia v2.0

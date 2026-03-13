@@ -27,7 +27,7 @@
 
 ## 🔴 **BLOCKERS CRÍTICOS - SOLICITUDES URGENTES**
 
-### **SOLICITUD 1: DEFINICIÓN SISTEMA ITCS/ETCS L2** 🔴 **URGENTE**
+### **SOLICITUD 1: DEFINICIÓN SISTEMA PTC/PTC VIRTUAL L2** 🔴 **URGENTE**
 
 **REF:** AT3 - Capítulo VIII (Sistemas de Señalización y Control de Trenes)
 
@@ -37,19 +37,19 @@ AT3 menciona sistemas diferentes sin definir cuál implementar:
 - **PTC** (Positive Train Control - AAR Americano) - Línea 289 AT3
 - **CTC** con protocolo Adif (Español) - Líneas 529-532 AT3
 - **Enclavamientos** normas Adif ET/NAS (Español) - Líneas 506-524 AT3
-- ❌ **NO menciona:** ITCS (Incremental Train Control System)
-- ❌ **NO menciona:** ETCS Level 2 (European Train Control System)
+- ❌ **NO menciona:** PTC (Incremental Train Control System)
+- ❌ **NO menciona:** PTC VIRTUAL Level 2 (European Train Control System)
 
 **Análisis A.1 (línea 49):**
 > "Diseñar 5 enclavamientos electrónicos y un sistema **PTC**"
 
 **Análisis A.3 - Riesgo R-TEC-002:**
-> "Indefinición de especificaciones ITCS en AT3 bloquea diseño de material rodante"
+> "Indefinición de especificaciones PTC en AT3 bloquea diseño de material rodante"
 
 **PROBLEMA:**
 - Normas de 3 países diferentes (USA, España, Europa)
 - **NO hay definición clara** de cuál sistema prevalece
-- Base datos proyecto dice "ITCS ETCS Level 2" (NO en contrato)
+- Base datos proyecto dice "PTC PTC VIRTUAL Level 2" (NO en contrato)
 
 **IMPACTO:**
 - 🔴 60% de Capítulo 1 (Control y Señalización) **BLOQUEADO**
@@ -67,7 +67,7 @@ AT3 menciona sistemas diferentes sin definir cuál implementar:
    - Lead time: 10 meses
    - Normativa: AAR, FRA
 
-2. **ETCS Level 2** (European Train Control System)
+2. **PTC VIRTUAL Level 2** (European Train Control System)
    - Costo estimado: $12M USD ⭐ RECOMENDADO PMO
    - Lead time: 12 meses
    - Normativa: UIC, CENELEC
@@ -192,7 +192,7 @@ Concesionario entregará documento "Compatibilidad MR" con gateway UIC 918-4 est
 
 ---
 
-### **SOLICITUD 4: Clarificación Sistema GSM-R** 🟡 **MEDIA**
+### **SOLICITUD 4: Clarificación Sistema RED TETRA (Misión Crítica)** 🟡 **MEDIA**
 
 **REF:** AT3 §8.4-8.5 (Comunicaciones y Radio)
 
@@ -200,20 +200,20 @@ Concesionario entregará documento "Compatibilidad MR" con gateway UIC 918-4 est
 
 **AT3 §8.5 - Radio:**
 - Menciona normas **TETRA** (EN 300 xxx) detalladamente
-- ❌ **NO menciona GSM-R** (Global System for Mobile Communications - Railway)
+- ❌ **NO menciona RED TETRA (Misión Crítica)** (Global System for Mobile Communications - Railway)
 
 **Base Datos WBS:**
-- Incluye ítems GSM-R (Capítulo 2 - Telecomunicaciones)
+- Incluye ítems RED TETRA (Misión Crítica) (Capítulo 2 - Telecomunicaciones)
 
 **PROBLEMA:**
-- ⚠️ GSM-R en base datos pero NO en AT3
-- ¿GSM-R es obligatorio o es un error de la base datos?
+- ⚠️ RED TETRA (Misión Crítica) en base datos pero NO en AT3
+- ¿RED TETRA (Misión Crítica) es obligatorio o es un error de la base datos?
 
 **SOLICITUD FORMAL:**
 
-**¿Sistema GSM-R es parte del alcance contractual?**
-- Si SÍ → Actualizar AT3 con normas GSM-R
-- Si NO → Eliminar ítems GSM-R de WBS
+**¿Sistema RED TETRA (Misión Crítica) es parte del alcance contractual?**
+- Si SÍ → Actualizar AT3 con normas RED TETRA (Misión Crítica)
+- Si NO → Eliminar ítems RED TETRA (Misión Crítica) de WBS
 
 **PLAZO RESPUESTA:** Mes 6 (15-Dic-2025)
 
@@ -233,7 +233,7 @@ Concesionario entregará documento "Compatibilidad MR" con gateway UIC 918-4 est
 
 **Distribución Exposición:**
 - 🔴 CRÍTICA: 1 (R-FIBRA-001 Lead time 9m)
-- 🟠 ALTA: 2 (R-AT3-01 ITCS, R-IF-01 Interfaces)
+- 🟠 ALTA: 2 (R-AT3-01 PTC, R-IF-01 Interfaces)
 - 🟡 MEDIA: 9 (incluye 4 nuevos: R-GES-004, R-CON-001, R-OPE-001, R-CAL-001)
 - 🟢 BAJA: 1 (R-FIBRA-006)
 
@@ -261,9 +261,9 @@ Concesionario entregará documento "Compatibilidad MR" con gateway UIC 918-4 est
 ## 🎯 **ACCIONES SOLICITADAS A ANI**
 
 ### **Urgente (Respuesta Mes 6 - 60 días):**
-1. 🔴 Definir sistema control trenes (PTC/ETCS L2/CTC Adif/Híbrido)
+1. 🔴 Definir sistema control trenes (PTC/PTC VIRTUAL L2/CTC Adif/Híbrido)
 2. 🟠 Facilitar especificaciones FENOCO para doc compatibilidad
-3. 🟡 Clarificar si GSM-R es parte del alcance
+3. 🟡 Clarificar si RED TETRA (Misión Crítica) es parte del alcance
 
 ### **Media (Respuesta Mes 5 - 45 días):**
 4. 🟡 Cronograma entrega Material Rodante (cantidad, fechas, responsable)
@@ -296,7 +296,7 @@ Concesionario entregará documento "Compatibilidad MR" con gateway UIC 918-4 est
 1. `@@ANALISIS_CONTRACTUAL_COMPLETO_VALIDADO_v1.0.md`
 2. `@@VALIDACION_BLOCKERS_vs_CONTRATO_REAL_09Oct2025.md`
 3. `@@HALLAZGOS_CONTRACTUALES_VALIDADOS_TODOS_ATs_v1.0.md`
-4. `BLOCKER-001_Indefinicion_ITCS.md`
+4. `BLOCKER-001_Indefinicion_PTC.md`
 5. `BLOCKER-002_Protocolos_FENOCO.md`
 6. `BLOCKER-004_Material_Rodante_Cronograma.md`
 7. `MATRIZ_RIESGOS_PMO_AMPLIADA_v1.0.md` (13 riesgos)
@@ -330,7 +330,7 @@ Concesionario entregará documento "Compatibilidad MR" con gateway UIC 918-4 est
 
 ## ✅ **PLAN B DOCUMENTADO (Si no hay respuesta)**
 
-### **Para BLOCKER-001 (ITCS):**
+### **Para BLOCKER-001 (PTC):**
 - Diseñar con normas mixtas AAR + Adif + UIC
 - Gateway interoperable multi-protocolo
 - Documentación completa de supuestos

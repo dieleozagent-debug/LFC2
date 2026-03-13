@@ -219,8 +219,8 @@ Este documento contiene las especificaciones técnicas detalladas, planos constr
 - **Tiempo de Respuesta:** < 2 segundos
 - **Mantenimiento:** Remoto desde CTC
 
-### 4.3 Interfaces ITCS
-- **Preparación:** Interfaces ETCS Level 2
+### 4.3 Interfaces PTC
+- **Preparación:** Interfaces PTC VIRTUAL Level 2
 - **Especificaciones:** Pendientes AT3
 - **Compatibilidad:** FENOCO según protocolos UIC
 - **Actualización:** Modular para futuras especificaciones
@@ -287,11 +287,11 @@ Este documento contiene las especificaciones técnicas detalladas, planos constr
 
 | ID | Categoría | Probabilidad | Impacto | Descripción | Estrategia de Mitigación |
 |:---:|:---:|:---:|:---:|:---|:---|
-| **R-095** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones ITCS en pasos a nivel | Desarrollar interfaces de pasos a nivel basadas en ETCS Level 2 hasta disponibilidad de AT3 |
+| **R-095** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en pasos a nivel | Desarrollar interfaces de pasos a nivel basadas en PTC VIRTUAL Level 2 hasta disponibilidad de AT3 |
 | **R-096** | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por interfaces incompatibles | Establecer protocolos de pasos a nivel compatibles con sistemas FENOCO existentes |
 | **R-097** | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.95% en pasos a nivel según AT4 | Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad |
-| **R-098** | Operacional | Alta | Medio | Complejidad en gestión de 146 pasos a nivel con ITCS | Desarrollar protocolos de prueba específicos para ITCS y FENOCO |
-| **R-099** | Técnico | Media | Medio | Integración de pasos a nivel con sistemas FENOCO existentes | Establecer procedimientos de fallback para sistemas de pasos a nivel ITCS y FENOCO |
+| **R-098** | Operacional | Alta | Medio | Complejidad en gestión de 146 pasos a nivel con PTC | Desarrollar protocolos de prueba específicos para PTC y FENOCO |
+| **R-099** | Técnico | Media | Medio | Integración de pasos a nivel con sistemas FENOCO existentes | Establecer procedimientos de fallback para sistemas de pasos a nivel PTC y FENOCO |
 
 ---
 

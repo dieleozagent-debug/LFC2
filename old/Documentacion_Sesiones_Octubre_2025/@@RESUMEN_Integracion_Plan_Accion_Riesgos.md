@@ -31,7 +31,7 @@ Se ha creado un flujo de datos automatizado y coherente que sigue la filosofía 
 ```markdown
 | ID         | ... | Plan_Accion                                                                                             |
 |:-----------|:----|:--------------------------------------------------------------------------------------------------------|
-| R-ITCS-001 | ... | **ACCIÓN HOY:** Enviar oficio a ANI solicitando definición. Preparar matriz de decisión técnica/económica. |
+| R-PTC-001 | ... | **ACCIÓN HOY:** Enviar oficio a ANI solicitando definición. Preparar matriz de decisión técnica/económica. |
 ```
 
 ### **PASO 2: Automatizar la Sincronización**
@@ -56,7 +56,7 @@ $riskObject = [PSCustomObject]@{
 <!-- En WBS_Analisis_Riesgos.html -->
 <div class="risk-plan-accion">
   <h5>📋 Plan de Acción Inmediato</h5>
-  <p id="plan-accion-R-ITCS-001">
+  <p id="plan-accion-R-PTC-001">
     **ACCIÓN HOY:** Enviar oficio formal a ANI...
   </p>
 </div>

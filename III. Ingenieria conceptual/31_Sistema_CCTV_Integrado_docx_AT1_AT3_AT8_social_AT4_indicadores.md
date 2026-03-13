@@ -52,7 +52,7 @@ El diseño detallado de la red CCTV no puede avanzar hasta que este concepto de 
 - **CCTV ↔ Gestión Social (AT8):** El diseño del plan de cobertura debe ser consultado con las comunidades para respetar la privacidad y potenciar la seguridad comunitaria.
 - **CCTV ↔ SICC (AT4):** El sistema debe reportar su estado de funcionamiento para el cálculo del indicador "Cerramiento y CCTV".
 - **CCTV ↔ Control de Accesos:** Integración para la verificación visual de eventos de acceso en áreas críticas.
-- **CCTV ↔ ITCS:** Monitoreo visual de sistemas de control embarcados usando ETCS Level 2 hasta AT3.
+- **CCTV ↔ PTC:** Monitoreo visual de sistemas de control embarcados usando PTC VIRTUAL Level 2 hasta AT3.
 - **CCTV ↔ FENOCO:** Coordinación con sistemas de videovigilancia FENOCO según protocolos UIC.
 
 ---
@@ -85,7 +85,7 @@ La siguiente matriz integra los requisitos de los diferentes apéndices en funci
 | **Normas Técnicas (UNE-EN, ONVIF)** | AT3, Cap. 6.12 | Selección de cámaras, VMS y NVR que cumplan con los estándares de interoperabilidad y calidad de video. | ⚠️ Condicionado |
 | **Indicador "Cerramiento y CCTV"** | AT4, Cap. 4 | El sistema debe tener una disponibilidad del 100%, con interrupciones mínimas. Se requiere un sistema de monitoreo de salud de los equipos. | 🔴 Bloqueado |
 | **Privacidad y Derechos Fundamentales** | AT8, Cap. 7 | Diseño de la cobertura en consulta con la comunidad y creación de un protocolo de uso de datos. | ✅ Definido |
-| **Integración con Control de Accesos** | AT3, Cap. 6.13 | Correlación de eventos de video con los registros del sistema de control de accesos.<br>- **Monitoreo ITCS ETCS Level 2 hasta AT3**<br>- **Interoperabilidad FENOCO UIC** | ✅ Definido |
+| **Integración con Control de Accesos** | AT3, Cap. 6.13 | Correlación de eventos de video con los registros del sistema de control de accesos.<br>- **Monitoreo PTC PTC VIRTUAL Level 2 hasta AT3**<br>- **Interoperabilidad FENOCO UIC** | ✅ Definido |
 
 ### 4.2 Indicadores de Riesgo por Bloqueo AT3/AT4
 - **🟢 Verde (Proceder):** Diseño conceptual de la arquitectura de red, plan de cobertura preliminar, desarrollo del protocolo de uso ético (AT8).
@@ -122,16 +122,16 @@ La aprobación de este documento conceptual permite:
 
 ### ✅ **MEJORAS IMPLEMENTADAS:**
 
-1. **🚂 ITCS ETCS Level 2:** Monitoreo visual especificado para sistemas de control embarcados
+1. **🚂 PTC PTC VIRTUAL Level 2:** Monitoreo visual especificado para sistemas de control embarcados
 2. **🔗 Interoperabilidad FENOCO:** Protocolos UIC especificados para coordinación con FENOCO
 3. **📊 Criterios de Disponibilidad AT4:** 100% especificado para sistema CCTV
-4. **🎯 Matriz de Requisitos:** Actualizada con criterios ITCS, FENOCO y AT4
+4. **🎯 Matriz de Requisitos:** Actualizada con criterios PTC, FENOCO y AT4
 
 ### 🎯 **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
-- ✅ **ITCS:** Monitoreo visual ETCS Level 2 especificado para sistemas embarcados
+- ✅ **PTC:** Monitoreo visual PTC VIRTUAL Level 2 especificado para sistemas embarcados
 - ✅ **FENOCO:** Protocolos UIC para coordinación con sistemas FENOCO
 - ✅ **AT4:** Criterios de disponibilidad 100% para sistema CCTV
-- ✅ **Interfaces:** Especificación de interfaces ITCS y FENOCO
+- ✅ **Interfaces:** Especificación de interfaces PTC y FENOCO
 
 ### ⚠️ **RIESGOS IDENTIFICADOS PARA ANÁLISIS PMI:**
 
@@ -141,7 +141,7 @@ La aprobación de este documento conceptual permite:
 | **R-056** | **Interoperabilidad FENOCO** | **Técnico** | **Media** | **Alto** | Coordinación con sistemas FENOCO requiere protocolos UIC |
 | **R-057** | **Disponibilidad 100%** | **Contractual** | **Media** | **Alto** | Cumplimiento AT4 requiere redundancia crítica |
 | **R-058** | **Gestión social AT8** | **Gestión** | **Media** | **Medio** | Complejidad de talleres participativos y protocolos éticos |
-| **R-059** | **Integración ITCS-CCTV** | **Técnico** | **Media** | **Alto** | Complejidad de monitoreo visual de sistemas de control |
+| **R-059** | **Integración PTC-CCTV** | **Técnico** | **Media** | **Alto** | Complejidad de monitoreo visual de sistemas de control |
 
 ### 📋 **RECOMENDACIONES PARA GESTIÓN DE RIESGOS:**
 - **Análisis PMI requerido** para definir estrategias de mitigación

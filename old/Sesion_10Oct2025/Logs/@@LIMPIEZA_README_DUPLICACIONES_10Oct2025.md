@@ -61,13 +61,13 @@ Eliminar duplicaciones y contenido redundante en el `README.md` para hacerlo má
   - ✅ Cronograma 60 meses (36m + 12m buffer) agresivo
 
 - **Blockers críticos identificados:**
-  - 🔴 **BLOCKER-001:** Indefinición ITCS (ATP/ETCS L2/CBTC) - 58% proyecto bloqueado ($152,748M)
+  - 🔴 **BLOCKER-001:** Indefinición PTC (ATP/PTC VIRTUAL L2/CBTC) - 58% proyecto bloqueado ($152,748M)
   - 🔴 **BLOCKER-002:** Protocolos propietarios FENOCO (Siemens Trainguard) - Interoperabilidad indefinida
   - 🟡 **BLOCKER-003:** Cantidades PAN NO confirmadas (±10% variación, $489M contingencia)
   - 🟡 **BLOCKER-004:** Cronograma Material Rodante indefinido (15 locomotoras)
 
 - **Riesgos validados: 17 (antes 13):**
-  - ✅ CRÍTICA: 3 (R-FIBRA-001, R-ITCS-001, R-FENOCO-001)
+  - ✅ CRÍTICA: 3 (R-FIBRA-001, R-PTC-001, R-FENOCO-001)
   - ✅ ALTA: 2 (R-AT3-01, R-IF-01)
   - ✅ MEDIA: 9 (incluye R-PAN-001, R-MR-001, R-GES-004, R-CON-001, R-OPE-001, R-CAL-001)
   - ✅ BAJA: 3 (R-FIBRA-006, etc.)

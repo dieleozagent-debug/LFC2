@@ -38,7 +38,7 @@ Realizar un inventario completo de todos los documentos del proyecto APP La Dora
 ### ⚠️ OPORTUNIDADES DE MEJORA
 - ⚠️ 48 documentos en progreso requieren finalización
 - ⚠️ 9 archivos sin clasificación clara
-- ⚠️ Múltiples versiones de sistemas clave (CTC, Señalización, ITCS)
+- ⚠️ Múltiples versiones de sistemas clave (CTC, Señalización, PTC)
 - ⚠️ Necesidad de consolidación de reportes históricos
 - ⚠️ Carpeta "old/" requiere organización y trazabilidad
 
@@ -96,7 +96,7 @@ Realizar un inventario completo de todos los documentos del proyecto APP La Dora
 **Estado:** 🟢 ÓPTIMO - 79% completado  
 **Observaciones:**
 - 11 documentos técnicos críticos completados
-- Especificaciones ITCS, RBC, RAMS finalizadas
+- Especificaciones PTC, RBC, RAMS finalizadas
 - Gap de normatividad UIC/EN pendiente
 
 **Prioridades:**
@@ -138,7 +138,7 @@ Realizar un inventario completo de todos los documentos del proyecto APP La Dora
 2. `V.1_Señalizacion_Ferroviaria_Detalle_v1.0.md` (EN PROGRESO) - Ingeniería Detalle
 3. `V.4_Sistemas/3_Pasos_a_nivel_Contrato_8_3.md` (EN PROGRESO) - Sistemas
 4. `V.4_Sistemas/1_Se_alizaci_n_ferroviaria_Contrato_8_1.md` (EN PROGRESO) - Sistemas
-5. `VII.2.3_Plan_Eurobalise_Ubicacion_150m.md` (EN PROGRESO) - Soporte Especializado
+5. `VII.2.3_Plan_Virtual Balise (GNSS)_Ubicacion_150m.md` (EN PROGRESO) - Soporte Especializado
 
 **Recomendación de consolidación:**
 - **Documento maestro:** `SIS_Senalizacion_Definitivo_v1.0.md`
@@ -146,7 +146,7 @@ Realizar un inventario completo de todos los documentos del proyecto APP La Dora
   - Conceptual (doc #1): Alcance general y matriz de trazabilidad
   - Detalle (doc #2): Especificaciones constructivas
   - Sistemas (docs #3-4): Requisitos técnicos específicos
-  - Especializado (doc #5): Plan de ubicación Eurobalise
+  - Especializado (doc #5): Plan de ubicación Virtual Balise (GNSS)
 - **Acción:** Crear documento consolidado en `IV. Ingeniería Básica/`
 - **Plazo:** 3-5 días hábiles
 
@@ -494,7 +494,7 @@ Esta información es únicamente de carácter informativo y representa el estado
 | **SEN-003** | Validar cálculos de disponibilidad 99.95% | 🟡 Media | Ing. Señalización | 2 días |
 | **SEN-004** | Integrar especificaciones de pasos a nivel | 🟡 Media | Ing. Señalización | 2 días |
 | **SEN-005** | Completar análisis RAMS detallado | 🟡 Media | Ing. Señalización | 3 días |
-| **SEN-006** | Validar integración FFFIS con CTC/ITCS | 🟡 Media | Ing. Señalización | 2 días |
+| **SEN-006** | Validar integración FFFIS con CTC/PTC | 🟡 Media | Ing. Señalización | 2 días |
 
 **Estado consolidación:** 90% completado  
 **Items críticos pendientes:** 2  
@@ -509,7 +509,7 @@ Esta información es únicamente de carácter informativo y representa el estado
 | **COM-003** | Validar cálculos de cobertura 95% territorio | 🟡 Media | Ing. Telecomunicaciones | 2 días |
 | **COM-004** | Integrar especificaciones QoS red de datos | 🟡 Media | Ing. Telecomunicaciones | 2 días |
 | **COM-005** | Completar análisis RAMS equipos TETRA | 🟡 Media | Ing. Telecomunicaciones | 3 días |
-| **COM-006** | Validar integración GSM-R con ITCS | 🟡 Media | Ing. Telecomunicaciones | 2 días |
+| **COM-006** | Validar integración RED TETRA (Misión Crítica) con PTC | 🟡 Media | Ing. Telecomunicaciones | 2 días |
 
 **Estado consolidación:** 90% completado  
 **Items críticos pendientes:** 2  
@@ -524,7 +524,7 @@ Esta información es únicamente de carácter informativo y representa el estado
 | **CTC-003** | Validar cálculos de disponibilidad 99.95% | 🟡 Media | Ing. Control | 2 días |
 | **CTC-004** | Integrar especificaciones interfaces FFFIS | 🟡 Media | Ing. Control | 2 días |
 | **CTC-005** | Completar análisis RAMS servidores | 🟡 Media | Ing. Control | 3 días |
-| **CTC-006** | Validar integración con ITCS | 🟡 Media | Ing. Control | 2 días |
+| **CTC-006** | Validar integración con PTC | 🟡 Media | Ing. Control | 2 días |
 
 **Estado consolidación:** 90% completado  
 **Items críticos pendientes:** 2  
@@ -537,7 +537,7 @@ Esta información es únicamente de carácter informativo y representa el estado
 | **MR-001** | Integrar especificaciones técnicas equipos embarcados | 🔴 Alta | Ing. Mecánica | 2 días |
 | **MR-002** | Completar plan de pruebas FAT/SAT embarcados | 🔴 Alta | Ing. Mecánica | 3 días |
 | **MR-003** | Validar cálculos de disponibilidad 99.95% | 🟡 Media | Ing. Mecánica | 2 días |
-| **MR-004** | Integrar especificaciones ITCS embarcado | 🟡 Media | Ing. Mecánica | 2 días |
+| **MR-004** | Integrar especificaciones PTC embarcado | 🟡 Media | Ing. Mecánica | 2 días |
 | **MR-005** | Completar análisis RAMS equipos embarcados | 🟡 Media | Ing. Mecánica | 3 días |
 | **MR-006** | Validar integración TETRA embarcado | 🟡 Media | Ing. Mecánica | 2 días |
 
@@ -585,7 +585,7 @@ Esta información es únicamente de carácter informativo y representa el estado
 ### Señalización — `IV. Ingenieria básica/SIS_Senalizacion_Definitivo_v1.0.md`
 - [ ] Completar RTM con trazabilidad a AT1/2/3/4/8 y docs fuente
 - [ ] Detallar tablas de interlocking (resumen → referencias completas)
-- [ ] Cerrar criterios de pruebas SAT para P.N. y Eurobalise
+- [ ] Cerrar criterios de pruebas SAT para P.N. y Virtual Balise (GNSS)
 - [ ] Validar KPIs AT4 (disponibilidad, MTBF/MTTR) y evidencias
 
 ### Comunicaciones — `IV. Ingenieria básica/SIS_Comunicaciones_Definitivo_v1.0.md`
@@ -597,11 +597,11 @@ Esta información es únicamente de carácter informativo y representa el estado
 ### CTC — `IV. Ingenieria básica/SIS_CTC_Definitivo_v1.0.md`
 - [ ] Completar RTM (AT1/2/3/4/9; 26_Sistem_CTC; VII.2.x)
 - [ ] Documentar escenarios de failover y tiempos de recuperación (AT4)
-- [ ] Consolidar interfaz FFFIS con ITCS (mensajería/alarmas)
+- [ ] Consolidar interfaz FFFIS con PTC (mensajería/alarmas)
 - [ ] Evidenciar FAT/SAT y bitácoras CCO como pruebas de aceptación
 
 ### Material Rodante — `IV. Ingenieria básica/SIS_Material_Rodante_Definitivo_v1.0.md`
 - [ ] Completar RTM (Cl_13_1; AT1/2/4; V.3.1; 32_Material_Rodante)
-- [ ] Cerrar integración de equipos embarcados (ITCS/TETRA/CCTV/energía)
+- [ ] Cerrar integración de equipos embarcados (PTC/TETRA/CCTV/energía)
 - [ ] Definir plan O&M (repuestos críticos, periodicidades, herramientas)
 - [ ] Validar KPIs AT4 (disponibilidad MR; MTBF/MTTR) y criterios de aceptación

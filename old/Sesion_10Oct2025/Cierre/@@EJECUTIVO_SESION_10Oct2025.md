@@ -49,7 +49,7 @@
 
 | ID | Acción Inmediata | Plazo |
 |----|------------------|-------|
-| BLOCKER-001 | Oficiar ANI (ITCS) | 5 días |
+| BLOCKER-001 | Oficiar ANI (PTC) | 5 días |
 | BLOCKER-002 | Reunión FENOCO | 10 días |
 | BLOCKER-003 | Confirmar PANs | 15 días |
 | BLOCKER-004 | Oficiar ANI (MR) | 10 días |

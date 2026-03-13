@@ -24,7 +24,7 @@
 ## 3. Registro Operativo (extracto inicial)
 | ID | Categoría | Descripción | Prob | Impacto | Estrategia | Responsable | Estado | Fuente |
 |:--:|:--:|:---|:---:|:---:|:---|:---|:---:|:---|
-| R-AT3-01 | Técnico | Dependencia AT3 para ITCS ETCS L2 | Alta | Alto | Mitigar: ETCS L2 estándar | Ing. Sistemas | Activo | P42 / Docs ITCS |
+| R-AT3-01 | Técnico | Dependencia AT3 para PTC PTC VIRTUAL L2 | Alta | Alto | Mitigar: PTC VIRTUAL L2 estándar | Ing. Sistemas | Activo | P42 / Docs PTC |
 | R-INT-01 | Técnico | Interoperabilidad con FENOCO (UIC) | Media | Alto | Mitigar: Protocolos UIC | Comunicaciones | Activo | P42 / Interfaces |
 | R-AT4-01 | Contractual | Cumplimiento disponibilidad AT4 | Media | Alto | Mitigar: N+1, monitoreo | Ing. Sistemas | Activo | AT4 / P42 |
 | R-CYB-01 | Técnico | Ciberseguridad IEC 62443 | Media | Alto | Mitigar: Defensa en profundidad | Ciberseguridad | Activo | VII.2.11 |

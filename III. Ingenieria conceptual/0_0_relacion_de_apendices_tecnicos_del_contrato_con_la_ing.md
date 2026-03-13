@@ -45,7 +45,7 @@ Capítulo / Numeral
 Tablas 17 a 20
 
 5.1 Material rodante del proyecto
-Locomotoras U18 y/o equivalentes con: equipos embarcados ITCS (ETCS Level 2 hasta AT3), radio TETRA, GPS, comunicaciones tren–tierra, interoperabilidad FENOCO.
+Locomotoras U18 y/o equivalentes con: equipos embarcados PTC (PTC VIRTUAL Level 2 hasta AT3), radio TETRA, GPS, comunicaciones tren–tierra, interoperabilidad FENOCO.
 Cap. V, 5.1
 
 5.2 Maquinaria de mantenimiento de vía
@@ -53,7 +53,7 @@ Capítulo / Numeral
 Cap. V, 5.2
 
 5.3 Material rodante de factor de calidad
-Equipamiento adicional de control y comunicación para locomotoras, interoperabilidad con FENOCO (ITCS ETCS Level 2), disponibilidad 99.95% según AT4.
+Equipamiento adicional de control y comunicación para locomotoras, interoperabilidad con FENOCO (PTC PTC VIRTUAL Level 2), disponibilidad 99.95% según AT4.
 Cap. V, 5.3
 
 7.2 Obligaciones etapa preoperativa
@@ -69,7 +69,7 @@ Capítulo / Numeral
 Cap. VIII, 8.1
 
 
-Ap 2: Este apéndice no define tanto qué comprar como el Ap. 1, sino qué sistemas deben estar operativos, redundantes y mantenidos.Aquí aparecen de nuevo CTC, radio TETRA, ITCS, CCTV, SCADA, telecomunicaciones y sistemas de gestión.
+Ap 2: Este apéndice no define tanto qué comprar como el Ap. 1, sino qué sistemas deben estar operativos, redundantes y mantenidos.Aquí aparecen de nuevo CTC, radio TETRA, PTC, CCTV, SCADA, telecomunicaciones y sistemas de gestión.
 Capítulo / Numeral
 Sistema / Equipo a desarrollar en ingeniería
 Referencia contractual (Ap. Téc. 2)
@@ -115,7 +115,7 @@ Capítulo / Numeral
 Cap. III, 3.2.1
 
 3.2.2 Reglamento de Operación de Trenes (ROT)
-Define el uso obligatorio de los sistemas de señalización, radio TETRA, ITCS.
+Define el uso obligatorio de los sistemas de señalización, radio TETRA, PTC.
 Cap. III, 3.2.2
 
 3.3.1 Operación de la vía en etapa preoperativa
@@ -143,7 +143,7 @@ Capítulo / Numeral
 Cap. V, 5.2
 
 5.4 Equipos
-Entrega de material rodante con ITCS y sistemas embarcados.
+Entrega de material rodante con PTC y sistemas embarcados.
 Cap. V, 5.4
 
 6.1 Obras de mantenimiento
@@ -165,7 +165,7 @@ Capítulo / Numeral
 Cap. II, 2.1
 
 3.1 Intervenciones en material rodante
-Adecuación de locomotoras con ITCS, radio TETRA y comunicaciones tren–tierra.
+Adecuación de locomotoras con PTC, radio TETRA y comunicaciones tren–tierra.
 Cap. III, 3.1
 
 4.1 Estudios y de Detalle de pavimentos
@@ -213,7 +213,7 @@ Capítulo / Numeral
 Cap. VI, 6.15
 
 8.1 Sistemas de mando, señales y detección de trenes
-Señalización lateral, detección de trenes, circuitos de vía, balizas.
+Señalización lateral, detección de trenes, circuitos de vía, punto de referencia virtuals.
 Cap. VIII, 8.1
 
 8.2 Sistema de control, representaciones de tráfico y detectores auxiliares
@@ -249,11 +249,11 @@ Capítulo / Numeral
 Cap. VIII, 8.9
 
 8.10 Comunicaciones embarcadas
-ITCS, TETRA, GPS en locomotoras y material rodante.
+PTC, TETRA, GPS en locomotoras y material rodante.
 Cap. VIII, 8.10
 
 
-AP4:   No pide nuevos equipos, pero obliga a que todos los sistemas (CTC, señalización, TETRA, fibra, CCTV, ITCS, energía) tengan capacidad de monitoreo y reporte.
+AP4:   No pide nuevos equipos, pero obliga a que todos los sistemas (CTC, señalización, TETRA, fibra, CCTV, PTC, energía) tengan capacidad de monitoreo y reporte.
   Introduce el SICC (Sistema Informático de Contabilización y Control) como plataforma de consolidación de indicadores.
   Ingeniería debe prever que cada sistema entregue datos para los indicadores contractuales.
 
@@ -262,7 +262,7 @@ Capítulo / Numeral
 Referencia contractual (Ap. Téc. 4)
 
 3. Indicadores
-Define indicadores para la prestación del servicio ferroviario de carga: disponibilidad, calidad, seguridad. Impacta directamente en sistemas CTC, telecomunicaciones, pasos a nivel, ITCS.
+Define indicadores para la prestación del servicio ferroviario de carga: disponibilidad, calidad, seguridad. Impacta directamente en sistemas CTC, telecomunicaciones, pasos a nivel, PTC.
 Cap. 3
 
 3 – Tabla 1
@@ -519,11 +519,11 @@ Capítulo / Numeral
 
 AP10:
 Este apéndice define cómo se calcula y gestiona la capacidad ferroviaria, y cómo deben operar los sistemas de control de tráfico, CTC y material rodante para asignar surcos.
-No introduce nuevos sistemas físicos, pero exige que la ingeniería implemente software y modelos de simulación ferroviaria integrados al CTC, señalización, ITCS y telecomunicaciones.
+No introduce nuevos sistemas físicos, pero exige que la ingeniería implemente software y modelos de simulación ferroviaria integrados al CTC, señalización, PTC y telecomunicaciones.
 Impacta directamente en:
 CTC (Centro de Control de Tráfico)
 Señalización y detección de trenes
-Sistemas embarcados ITCS
+Sistemas embarcados PTC
 Software de simulación ferroviaria
 Es clave para garantizar la operación interoperable y eficiente de surcos contractuales y de terceros.
 
@@ -552,7 +552,7 @@ Capítulo / Numeral
 Cap. III, 3.1
 
 3.2 Surcos con material rodante del Proyecto
-El sistema debe integrarse con ITCS y equipos embarcados de locomotoras para garantizar cumplimiento de los surcos.
+El sistema debe integrarse con PTC y equipos embarcados de locomotoras para garantizar cumplimiento de los surcos.
 Cap. III, 3.2
 
 4.1 Requerimientos técnicos para compatibilidad
@@ -582,7 +582,7 @@ Cláusula / Numeral
 Incluir en la ingeniería: plan de integración civil–electromecánica–telecomunicaciones con hitos constructivos.
 
 9.1 Obligaciones en Etapa de Operación y Mantenimiento
-CTC, señalización, radio TETRA, ITCS, ITS, telecomunicaciones.
+CTC, señalización, radio TETRA, PTC, ITS, telecomunicaciones.
 Los sistemas deben operar con redundancia y disponibilidad cumpliendo indicadores del Apéndice 4.
 Incluir en la ingeniería: plan de O&M y redundancia tecnológica (servidores espejo, doble alimentación, enlaces redundantes).
 
@@ -592,9 +592,9 @@ Cláusula / Numeral
 Incluir en la ingeniería: plan de gestión de activos y trazabilidad (manuales, planos, software con licencias transferibles).
 
 13.1–13.3 Puesta a Punto y Material Rodante
-Locomotoras con ITCS, TETRA y sistemas embarcados de comunicaciones.
+Locomotoras con PTC, TETRA y sistemas embarcados de comunicaciones.
 El material rodante debe interoperar con el sistema FENOCO y el CTC del corredor.
-Incluir en la ingeniería: equipamiento embarcado estandarizado en locomotoras (ITCS + TETRA + GPS).
+Incluir en la ingeniería: equipamiento embarcado estandarizado en locomotoras (PTC + TETRA + GPS).
 
 14.1–14.2 Operación y Mantenimiento
 Software, hardware, equipos de señalización y comunicaciones.
@@ -607,7 +607,7 @@ Cláusula / Numeral
 Incluir en la ingeniería: estrategia de documentación y entrega final (as-built, software, licencias, inventarios).
 
 16.1–16.9 Sanciones y Multas
-Todos los sistemas críticos (CTC, TETRA, fibra, señalización, CCTV, ITS, ITCS).
+Todos los sistemas críticos (CTC, TETRA, fibra, señalización, CCTV, ITS, PTC).
 Penalidades por incumplir tiempos o no instalar equipos a tiempo.
 Incluir en la ingeniería: cronograma contractual con hitos de cumplimiento y margen de contingencia para evitar sanciones.
 
@@ -647,7 +647,7 @@ Tema
 
 Puesta a Punto y Material Rodante
 Cap. XIII – Secciones 13.1 a 13.3
-Señala que el EPC debe garantizar que el material rodante incluya ITCS, TETRA, equipos embarcados y cumpla compatibilidad con señalización.
+Señala que el EPC debe garantizar que el material rodante incluya PTC, TETRA, equipos embarcados y cumpla compatibilidad con señalización.
 
 Administración de Infraestructura Férrea y Logística
 Cap. XII – Secciones 12.6 a 12.9
@@ -727,13 +727,13 @@ Proxima actualizacion: 27 de febrero de 2025
 
 ### ✅ **MEJORAS IMPLEMENTADAS:**
 
-1. **🚂 ITCS Especificado:** ETCS Level 2 como estándar hasta AT3 en material rodante
+1. **🚂 PTC Especificado:** PTC VIRTUAL Level 2 como estándar hasta AT3 en material rodante
 2. **🔗 Interoperabilidad FENOCO:** Criterios de interoperabilidad especificados
 3. **📊 Criterios de Disponibilidad AT4:** Integrados en sistemas críticos
 4. **🎯 Relación Actualizada:** Refleja mejoras implementadas en documentos individuales
 
 ### 🎯 **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
-- ✅ **ITCS:** Estrategia de avance con ETCS Level 2 especificada
+- ✅ **PTC:** Estrategia de avance con PTC VIRTUAL Level 2 especificada
 - ✅ **FENOCO:** Criterios de interoperabilidad según estándares UIC
 - ✅ **AT4:** Criterios de disponibilidad integrados en sistemas críticos
 - ✅ **Consistencia:** Relación alineada con documentos individuales mejorados
@@ -742,7 +742,7 @@ Proxima actualizacion: 27 de febrero de 2025
 
 | **ID** | **Riesgo** | **Categoría** | **Probabilidad** | **Impacto** | **Descripción** |
 |:---:|:---|:---:|:---:|:---|:---|
-| **R-001** | **Dependencia AT3 para ITCS** | **Técnico** | **Alta** | **Alto** | Especificaciones ITCS pendientes de AT3, estrategia temporal con ETCS Level 2 |
+| **R-001** | **Dependencia AT3 para PTC** | **Técnico** | **Alta** | **Alto** | Especificaciones PTC pendientes de AT3, estrategia temporal con PTC VIRTUAL Level 2 |
 | **R-002** | **Interoperabilidad FENOCO** | **Técnico** | **Media** | **Alto** | Compatibilidad con sistemas existentes FENOCO no completamente definida |
 | **R-003** | **Disponibilidad 99.95%** | **Contractual** | **Media** | **Alto** | Cumplimiento de indicadores AT4 requiere redundancia crítica |
 | **R-004** | **Coordinación Apéndices** | **Gestión** | **Media** | **Medio** | Múltiples apéndices técnicos con interdependencias complejas |

@@ -4,24 +4,24 @@
 **Fecha:** 02/10/2025  
 **Sistema:** Sistemas de Comunicación  
 **Fase:** D. Ingeniería de Detalle  
-**Referencias:** EN 50126/50128/50129, IEC 62290, UIC 615, GSM-R, EIRENE
+**Referencias:** EN 50126/50128/50129, IEC 62290, UIC 615, RED TETRA (Misión Crítica), EIRENE
 
 ---
 
 ## 1. Resumen Ejecutivo
 
-Este documento detalla la ingeniería de los sistemas de comunicación para el proyecto APP La Dorada-Chiriguaná, abarcando GSM-R, fibra óptica, radio, satelital y comunicaciones de emergencia, con integración completa con ITCS y CTC.
+Este documento detalla la ingeniería de los sistemas de comunicación para el proyecto APP La Dorada-Chiriguaná, abarcando RED TETRA (Misión Crítica), fibra óptica, radio, satelital y comunicaciones de emergencia, con integración completa con PTC y CTC.
 
 > **📋 DOCUMENTO MAESTRO CONSOLIDADO:** Para la versión definitiva y consolidada del sistema de Comunicaciones, consulte: `IV. Ingenieria básica/SIS_Comunicaciones_Definitivo_v1.0.md`
 
 ### 1.1 Alcance del Sistema de Comunicaciones
 - **Sistema principal:** Red de comunicaciones ferroviarias
-- **Componentes:** GSM-R, fibra óptica, radio, satelital, emergencias
+- **Componentes:** RED TETRA (Misión Crítica), fibra óptica, radio, satelital, emergencias
 - **Cobertura:** 146 km de vía, 5 estaciones, 146 pasos a nivel
 - **Capacidad:** 24 trenes simultáneos + servicios auxiliares
 
 ### 1.2 Objetivos del Sistema
-- **Comunicación tren-tierra:** Enlace crítico para ETCS Level 2
+- **Comunicación tren-tierra:** Enlace crítico para PTC VIRTUAL Level 2
 - **Comunicación operacional:** Voz y datos para operadores
 - **Comunicación de emergencia:** Enlaces de respaldo y emergencia
 - **Disponibilidad:** 99.9% de disponibilidad operacional
@@ -37,7 +37,7 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 │                SISTEMAS DE COMUNICACIÓN                     │
 ├─────────────────────────────────────────────────────────────┤
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
-│  │    GSM-R    │  │   Fibra     │  │    Radio    │         │
+│  │    RED TETRA (Misión Crítica)    │  │   Fibra     │  │    Radio    │         │
 │  │  Principal  │  │  Óptica     │  │  Respaldo   │         │
 │  │  (EIRENE)   │  │  (DWDM)     │  │  (TETRA)    │         │
 │  └─────────────┘  └─────────────┘  └─────────────┘         │
@@ -58,7 +58,7 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 
 ### 2.2 Componentes Principales
 
-#### 2.2.1 GSM-R (Global System for Mobile Communications - Railway)
+#### 2.2.1 RED TETRA (Misión Crítica) (Global System for Mobile Communications - Railway)
 - **Estándar:** EIRENE (European Integrated Railway Radio Enhanced Network)
 - **Frecuencias:** 876-880 MHz (uplink), 921-925 MHz (downlink)
 - **Cobertura:** 146 km de vía con 5 estaciones base
@@ -86,7 +86,7 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 
 ## 3. Especificaciones Técnicas
 
-### 3.1 GSM-R
+### 3.1 RED TETRA (Misión Crítica)
 
 #### 3.1.1 Estaciones Base
 - **Fabricante:** Nokia (BSC, BTS)
@@ -100,7 +100,7 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 - **Potencia:** 8W (móvil), 2W (portátil)
 - **Antenas:** Omnidireccionales
 - **Batería:** 8 horas de autonomía
-- **Interfaz:** ETCS Level 2 compatible
+- **Interfaz:** PTC VIRTUAL Level 2 compatible
 
 #### 3.1.3 Red Core
 - **MSC:** Mobile Switching Centre
@@ -169,7 +169,7 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 
 ### 4.1 Comunicación Tren-Tierra
 
-#### 4.1.1 ETCS Level 2
+#### 4.1.1 PTC VIRTUAL Level 2
 - **Movement Authority:** Autorización de movimiento
 - **Position Report:** Reporte de posición
 - **Emergency Stop:** Parada de emergencia
@@ -185,7 +185,7 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 
 ### 4.2 Comunicación Operacional
 
-#### 4.2.1 CTC-ITCS
+#### 4.2.1 CTC-PTC
 - **Interface FFFIS:** 8 interfaces bidireccionales
 - **Protocolo:** XML/JSON over IP
 - **Frecuencia:** 1 Hz (tiempo real)
@@ -221,7 +221,7 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 ### 5.1 Seguridad Funcional (EN 50126/50128/50129)
 
 #### 5.1.1 Objetivos de Seguridad
-- **SIL 4:** Comunicación ETCS Level 2
+- **SIL 4:** Comunicación PTC VIRTUAL Level 2
 - **SIL 3:** Comunicación operacional
 - **SIL 2:** Comunicación de supervisión
 - **SIL 1:** Comunicación administrativa
@@ -235,7 +235,7 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 ### 5.2 Ciberseguridad (IEC 62443)
 
 #### 5.2.1 Zonas de Seguridad
-- **Zona 0:** Red de control crítico (GSM-R)
+- **Zona 0:** Red de control crítico (RED TETRA (Misión Crítica))
 - **Zona 1:** Red de supervisión (Fibra)
 - **Zona 2:** Red administrativa (Internet)
 - **Zona 3:** Red externa (Satelital)
@@ -250,7 +250,7 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 ### 5.3 Disponibilidad
 
 #### 5.3.1 Objetivos de Disponibilidad
-- **GSM-R:** 99.9% (8.76 horas/año)
+- **RED TETRA (Misión Crítica):** 99.9% (8.76 horas/año)
 - **Fibra Óptica:** 99.95% (4.38 horas/año)
 - **TETRA:** 99.5% (43.8 horas/año)
 - **VSAT:** 99.0% (87.6 horas/año)
@@ -265,9 +265,9 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 
 ## 6. Integración y Comunicaciones
 
-### 6.1 Integración ITCS
+### 6.1 Integración PTC
 
-#### 6.1.1 Protocolo GSM-R
+#### 6.1.1 Protocolo RED TETRA (Misión Crítica)
 - **Estándar:** EIRENE v15.4
 - **Formato:** GPRS/EDGE
 - **Frecuencia:** 1 Hz (tiempo real)
@@ -292,7 +292,7 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 #### 6.2.2 Enlaces Internacionales
 - **VSAT:** Enlace satelital
 - **Internet:** Enlace IP
-- **Roaming:** GSM-R internacional
+- **Roaming:** RED TETRA (Misión Crítica) internacional
 - **Backup:** Enlaces múltiples
 
 ---
@@ -335,7 +335,7 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 ### 8.1 Pruebas de Fábrica (FAT)
 
 #### 8.1.1 Pruebas de Hardware
-- **GSM-R:** Pruebas de cobertura y capacidad
+- **RED TETRA (Misión Crítica):** Pruebas de cobertura y capacidad
 - **Fibra Óptica:** Pruebas de atenuación y dispersión
 - **TETRA:** Pruebas de radio y criptografía
 - **VSAT:** Pruebas de enlace satelital
@@ -349,7 +349,7 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 ### 8.2 Pruebas de Sitio (SAT)
 
 #### 8.2.1 Pruebas de Integración
-- **ITCS:** Pruebas de comunicación ETCS
+- **PTC:** Pruebas de comunicación PTC VIRTUAL
 - **CTC:** Pruebas de interfaz FFFIS
 - **SCADA:** Pruebas de telemetría
 - **Emergencias:** Pruebas de procedimientos
@@ -373,7 +373,7 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 - **Manual de Mantenimiento:** Mantenimiento
 
 #### 9.1.2 Equipos y Configuración
-- **GSM-R:** Estaciones base y equipos embarcados
+- **RED TETRA (Misión Crítica):** Estaciones base y equipos embarcados
 - **Fibra Óptica:** Cable y equipos DWDM
 - **TETRA:** Estaciones base y equipos móviles
 - **VSAT:** Terminales y hub satelital
@@ -399,19 +399,19 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 ### 10.1 Matriz de Trazabilidad
 | Requisito | Especificación | Prueba | Estado |
 |:---|:---|:---|:---:|
-| COM-001 | Comunicación ETCS Level 2 | FAT-001 | 🟢 |
+| COM-001 | Comunicación PTC VIRTUAL Level 2 | FAT-001 | 🟢 |
 | COM-002 | Comunicación operacional | FAT-002 | 🟢 |
 | COM-003 | Comunicación de emergencia | FAT-003 | 🟢 |
 | COM-004 | Disponibilidad 99.9% | SAT-001 | 🟢 |
-| COM-005 | Integración ITCS-CTC | SAT-002 | 🟢 |
+| COM-005 | Integración PTC-CTC | SAT-002 | 🟢 |
 
 ### 10.2 Glosario de Términos
-- **GSM-R:** Global System for Mobile Communications - Railway
+- **RED TETRA (Misión Crítica):** Global System for Mobile Communications - Railway
 - **EIRENE:** European Integrated Railway Radio Enhanced Network
 - **TETRA:** Terrestrial Trunked Radio
 - **VSAT:** Very Small Aperture Terminal
 - **DWDM:** Dense Wavelength Division Multiplexing
-- **ETCS:** European Train Control System
+- **PTC VIRTUAL:** European Train Control System
 - **NMS:** Network Management System
 - **SNMP:** Simple Network Management Protocol
 

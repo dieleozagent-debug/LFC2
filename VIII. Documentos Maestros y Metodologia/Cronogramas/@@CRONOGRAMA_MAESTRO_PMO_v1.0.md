@@ -51,7 +51,7 @@
 |:----------------|:---------:|:--------------|
 | **Fibra Óptica (48F)** | **9 meses** | Fabricación especial + nacionalización |
 | **Servidores Industriales** | **6 meses** | Certificación ferroviaria + importación |
-| **Sistemas ATP/ITCS** | **12 meses** | Desarrollo específico + certificación |
+| **Sistemas ATP/PTC** | **12 meses** | Desarrollo específico + certificación |
 | **Torres TETRA** | **4 meses** | Fabricación + transporte |
 | **Estaciones Base** | **6 meses** | Configuración + certificación |
 | **Cámaras CCTV** | **3 meses** | Stock disponible + configuración |
@@ -96,7 +96,7 @@
 #### **Estrategia de Compras:**
 
 **Lote 1: Compras Urgentes Lead Time Largo (Mes 12-13)**
-- ATP/ITCS (12m) → Orden Mes 13, Llega Mes 25
+- ATP/PTC (12m) → Orden Mes 13, Llega Mes 25
 - Fibra Óptica (9m) → Orden Mes 13, Llega Mes 22
 - Servidores CTC (6m) → Orden Mes 13, Llega Mes 19
 
@@ -142,7 +142,7 @@
 - **Mes 23:** Llega material rodante → Modificación Mes 23-26
 
 #### **Subfase 3.3: Instalación Secundaria (Mes 25-40) - 15 meses**
-- **Mes 25:** Llega ATP/ITCS → Instalación/Config Mes 25-32
+- **Mes 25:** Llega ATP/PTC → Instalación/Config Mes 25-32
 - Integración sistemas
 - Cableado estructurado
 - ITS y CCTV
@@ -171,11 +171,11 @@
 ```
 Mes 12: Aprobación ANI ✅
    ↓
-Mes 13: Orden ATP/ITCS (12m lead time) - MÁS CRÍTICO
+Mes 13: Orden ATP/PTC (12m lead time) - MÁS CRÍTICO
    ↓
-Mes 25: Llega ATP/ITCS
+Mes 25: Llega ATP/PTC
    ↓
-Mes 25-32: Instalación ATP/ITCS
+Mes 25-32: Instalación ATP/PTC
    ↓
 Mes 32-40: Integración CTC-ATP
    ↓
@@ -203,7 +203,7 @@ Mes 61: ENTREGA FINAL ✅
 
 ## ⚠️ **RIESGOS IDENTIFICADOS**
 
-### **R-CRONO-001: ATP/ITCS - Lead Time 12 meses**
+### **R-CRONO-001: ATP/PTC - Lead Time 12 meses**
 - **Probabilidad:** ALTA
 - **Impacto:** CRÍTICO
 - **Exposición:** 4.8/5
@@ -298,7 +298,7 @@ Mes 61: ENTREGA FINAL ✅
 ### **Acciones Inmediatas (Mes 4-6):**
 1. ✅ Acelerar ingeniería de detalle Cap 1-2 (CTC/TETRA)
 2. ✅ Preparar especificaciones técnicas para compra inmediata post-Mes 12
-3. ✅ Pre-calificar proveedores ATP/ITCS (lead time 12m)
+3. ✅ Pre-calificar proveedores ATP/PTC (lead time 12m)
 4. ✅ Negociar contratos marco con cláusulas de inicio rápido
 5. ✅ Documentar supuestos en DTs para trazabilidad
 
@@ -309,7 +309,7 @@ Mes 61: ENTREGA FINAL ✅
 9. ✅ Validar disponibilidad presupuestal anticipos (30% = $75M)
 
 ### **Gestión de Riesgos:**
-10. ✅ Monitoreo semanal ruta crítica (ATP/ITCS)
+10. ✅ Monitoreo semanal ruta crítica (ATP/PTC)
 11. ✅ Plan B proveedores para ítems críticos
 12. ✅ Reuniones mensuales Fenoco (coordinación pruebas)
 

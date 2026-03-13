@@ -30,7 +30,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 
 #### **ARQUITECTURA DE ALIMENTACIÓN ELÉCTRICA**
 - **Red Principal:** Alimentación desde subestaciones eléctricas del proyecto
-- **Redundancia N+1:** Doble alimentación para sistemas críticos (CTC, señalización, ITCS)
+- **Redundancia N+1:** Doble alimentación para sistemas críticos (CTC, señalización, PTC)
 - **UPS y Baterías:** Sistemas de respaldo para continuidad operacional
 - **Distribución:** Red de media/baja tensión para salas técnicas y repetidoras
 
@@ -43,7 +43,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 #### **INTEGRACIÓN CON SISTEMAS FERROVIARIOS**
 - **CTC:** Alimentación redundante para centro de control de tráfico
 - **Señalización:** UPS y baterías para enclavamientos electrónicos
-- **ITCS:** Sistemas de respaldo para control embarcado
+- **PTC:** Sistemas de respaldo para control embarcado
 - **Radio TETRA:** Alimentación para estaciones base y repetidoras
 - **Fibra Óptica:** Energía para equipos de transmisión y conmutación
 
@@ -53,11 +53,11 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 
 | ID | Categoría | Probabilidad | Impacto | Descripción | Estrategia de Mitigación |
 |:---:|:---:|:---:|:---:|:---|:---|
-| **R-115** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones ITCS en instalaciones eléctricas | Desarrollar sistemas de respaldo basados en ETCS Level 2 hasta disponibilidad de AT3 |
+| **R-115** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en instalaciones eléctricas | Desarrollar sistemas de respaldo basados en PTC VIRTUAL Level 2 hasta disponibilidad de AT3 |
 | **R-116** | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por sistemas de alimentación incompatibles | Establecer sistemas de alimentación compatibles con sistemas FENOCO existentes |
 | **R-117** | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.95% en instalaciones eléctricas según AT4 | Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad |
-| **R-118** | Operacional | Alta | Medio | Complejidad en gestión de redundancia N+1 con ITCS | Desarrollar protocolos de prueba específicos para ITCS y FENOCO |
-| **R-119** | Técnico | Media | Medio | Integración de instalaciones eléctricas con sistemas FENOCO existentes | Establecer procedimientos de fallback para sistemas de alimentación ITCS y FENOCO |
+| **R-118** | Operacional | Alta | Medio | Complejidad en gestión de redundancia N+1 con PTC | Desarrollar protocolos de prueba específicos para PTC y FENOCO |
+| **R-119** | Técnico | Media | Medio | Integración de instalaciones eléctricas con sistemas FENOCO existentes | Establecer procedimientos de fallback para sistemas de alimentación PTC y FENOCO |
 
 ---
 
@@ -135,7 +135,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 | Documento | Estado | Impacto en Instalaciones Eléctricas | Acción Requerida |
 |:---:|:---:|:---|:---|
 | **AT3_EspecificacionesGenerales** | 🔴 **PENDIENTE** | **CRÍTICO** - Especificaciones técnicas de alimentación eléctrica | **ESPERAR** - Bloquea especificaciones detalladas |
-| **AT10_CapacidadSurcos** | 🔴 **PENDIENTE** | **CRÍTICO** - Integración ITCS-CTC para alimentación eléctrica | **ESPERAR** - Bloquea integración completa |
+| **AT10_CapacidadSurcos** | 🔴 **PENDIENTE** | **CRÍTICO** - Integración PTC-CTC para alimentación eléctrica | **ESPERAR** - Bloquea integración completa |
 | **AT1_AlcanceProyecto** | ✅ **COMPLETADO v3.0** | **BASE** - Alcance de instalaciones eléctricas | **UTILIZAR** - Base para desarrollo |
 | **AT2_OperacionMantenimiento** | ✅ **COMPLETADO v3.0** | **BASE** - Operación de instalaciones eléctricas | **UTILIZAR** - Base para operación |
 | **AT4_IndicadoresDesempeno** | ✅ **COMPLETADO v3.0** | **BASE** - Indicadores de instalaciones eléctricas | **UTILIZAR** - Base para métricas |
@@ -158,15 +158,15 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 ### 2.2 Documentos Dependientes (Bloqueados 🔴)
 - **AT3_EspecificacionesGenerales** 🔴 - Especificaciones técnicas críticas para instalaciones eléctricas
-- **AT10_CapacidadSurcos** 🔴 - Integración ITCS-CTC para instalaciones eléctricas
+- **AT10_CapacidadSurcos** 🔴 - Integración PTC-CTC para instalaciones eléctricas
 
 ### 2.3 Interfaces Críticas
 - **Instalaciones Eléctricas ↔ CTC:** Alimentación redundante para centro de control
 - **Instalaciones Eléctricas ↔ Señalización:** UPS y baterías para enclavamientos
-- **Instalaciones Eléctricas ↔ ITCS:** Sistemas de respaldo para control embarcado
+- **Instalaciones Eléctricas ↔ PTC:** Sistemas de respaldo para control embarcado
 - **Instalaciones Eléctricas ↔ Radio TETRA:** Alimentación para estaciones base
 - **Instalaciones Eléctricas ↔ Fibra Óptica:** Energía para equipos de transmisión
-- **🚂 Instalaciones Eléctricas ↔ ITCS:** Sistemas de respaldo para control embarcado ETCS Level 2 hasta AT3
+- **🚂 Instalaciones Eléctricas ↔ PTC:** Sistemas de respaldo para control embarcado PTC VIRTUAL Level 2 hasta AT3
 - **🔗 Instalaciones Eléctricas ↔ FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos UIC
 
 ## 3. OPTIMIZACIONES EPC ESPECÍFICAS PARA INSTALACIONES ELÉCTRICAS
@@ -176,7 +176,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 1. **Redundancia N+1 para Sistemas Críticos:**
    - **Problema identificado:** Necesidad de continuidad operacional en sistemas ferroviarios
-   - **Optimización EPC:** Doble alimentación independiente para CTC, señalización, ITCS
+   - **Optimización EPC:** Doble alimentación independiente para CTC, señalización, PTC
    - **Beneficio:** Disponibilidad ≥ 99.95% según AT4
    - **Implementación:** Alimentación desde subestaciones diferentes
 
@@ -210,7 +210,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
    - **Optimización EPC:** Pruebas de fallo y recuperación para validar disponibilidad
    - **Beneficio:** Garantía de cumplimiento de indicadores AT4
 
-### 3.3 Estrategia de Avance con Bloqueos ITCS
+### 3.3 Estrategia de Avance con Bloqueos PTC
 - **Instalaciones eléctricas base:** Desarrollo con AT1, AT2, AT4 y sistemas completados mientras se espera AT3
 - **Arquitectura modular:** Diseño que permita integración futura de especificaciones técnicas
 - **Comunicación proactiva:** Mantener stakeholders informados sobre limitaciones
@@ -224,9 +224,9 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 | **Cumplimiento de instalaciones eléctricas** | 100% | Semanal | Supervisor Técnico |
 | **Disponibilidad de sistemas críticos** | ≥ 99.95% | Diaria | Jefe de Proyecto |
 | **Calidad de instalaciones eléctricas** | Excelente | Quincenal | Auditoría Técnica |
-| **Alertas de bloqueo ITCS** | < 3 | Diaria | Gerencia de Proyecto |
+| **Alertas de bloqueo PTC** | < 3 | Diaria | Gerencia de Proyecto |
 
-### 4.2 Indicadores de Riesgo por Bloqueo ITCS
+### 4.2 Indicadores de Riesgo por Bloqueo PTC
 - **🟢 Verde:** Avance con instalaciones eléctricas disponibles
 - **🟡 Amarillo:** Dependencias parciales identificadas
 - **🔴 Rojo:** Bloqueo total por AT3/AT10 pendientes
@@ -253,7 +253,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 2. **Desarrollado arquitectura de red** con redundancia N+1 y sistemas de respaldo
 3. **Especificado sistemas UPS y baterías** para continuidad operacional
 4. **Definido estrategia de gestión integrada** con sistemas ferroviarios
-5. **Integrado con sistemas ferroviarios** (CTC, señalización, TETRA, ITCS, fibra óptica)
+5. **Integrado con sistemas ferroviarios** (CTC, señalización, TETRA, PTC, fibra óptica)
 
 ### 5.2 Acciones Requeridas para Mantener v4.0
 - **Monitorear disponibilidad** de AT3_EspecificacionesGenerales y AT10_CapacidadSurcos
@@ -263,7 +263,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 ### 5.3 Criterios para Avance
 ✅ **Documento funcional** para instalaciones eléctricas disponible
-✅ **Bloqueos ITCS identificados** y estrategias definidas
+✅ **Bloqueos PTC identificados** y estrategias definidas
 ✅ **Base sólida establecida** con documentos disponibles
 ✅ **Plan de contingencia** implementado para especificaciones pendientes
 
@@ -277,14 +277,14 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 ## ACTUALIZACIÓN v4.1 - REVISIÓN METODOLOGÍA PUNTO 42
 
 ### **MEJORAS IMPLEMENTADAS:**
-1. **Interfaces Críticas ITCS:** Sistemas de respaldo para control embarcado ETCS Level 2 hasta AT3
+1. **Interfaces Críticas PTC:** Sistemas de respaldo para control embarcado PTC VIRTUAL Level 2 hasta AT3
 2. **Interfaces Críticas FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos UIC
-3. **Integración con Sistemas Ferroviarios ITCS:** Sistemas de respaldo para control embarcado
+3. **Integración con Sistemas Ferroviarios PTC:** Sistemas de respaldo para control embarcado
 4. **Integración con Sistemas Ferroviarios FENOCO:** Interoperabilidad con sistemas FENOCO
 5. **Disponibilidad AT4:** Cumplimiento de disponibilidad 99.95% según indicadores contractuales
 
 ### **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
-1. **Falta de interfaces ITCS:** Agregados sistemas de respaldo específicos para control embarcado ETCS Level 2
+1. **Falta de interfaces PTC:** Agregados sistemas de respaldo específicos para control embarcado PTC VIRTUAL Level 2
 2. **Ausencia de interoperabilidad FENOCO:** Integrada interoperabilidad con sistemas FENOCO
 3. **Falta de criterios AT4:** Agregado cumplimiento de disponibilidad 99.95%
 
@@ -292,15 +292,15 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 | ID | Categoría | Probabilidad | Impacto | Descripción |
 |:---:|:---:|:---:|:---:|:---|
-| R-115 | Técnico | Alta | Alto | Dependencia AT3 para especificaciones ITCS en instalaciones eléctricas |
+| R-115 | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en instalaciones eléctricas |
 | R-116 | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por sistemas de alimentación incompatibles |
 | R-117 | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.95% en instalaciones eléctricas según AT4 |
-| R-118 | Operacional | Alta | Medio | Complejidad en gestión de redundancia N+1 con ITCS |
+| R-118 | Operacional | Alta | Medio | Complejidad en gestión de redundancia N+1 con PTC |
 | R-119 | Técnico | Media | Medio | Integración de instalaciones eléctricas con sistemas FENOCO existentes |
 
 ### **RECOMENDACIONES PARA GESTIÓN DE RIESGOS:**
-1. **Estrategia ITCS:** Desarrollar sistemas de respaldo basados en ETCS Level 2 hasta disponibilidad de AT3
+1. **Estrategia PTC:** Desarrollar sistemas de respaldo basados en PTC VIRTUAL Level 2 hasta disponibilidad de AT3
 2. **Coordinación FENOCO:** Establecer sistemas de alimentación compatibles con sistemas FENOCO existentes
 3. **Monitoreo AT4:** Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad 99.95%
-4. **Pruebas de Instalaciones Eléctricas:** Desarrollar protocolos de prueba específicos para ITCS y FENOCO
-5. **Plan de Contingencia:** Establecer procedimientos de fallback para sistemas de alimentación ITCS y FENOCO
+4. **Pruebas de Instalaciones Eléctricas:** Desarrollar protocolos de prueba específicos para PTC y FENOCO
+5. **Plan de Contingencia:** Establecer procedimientos de fallback para sistemas de alimentación PTC y FENOCO

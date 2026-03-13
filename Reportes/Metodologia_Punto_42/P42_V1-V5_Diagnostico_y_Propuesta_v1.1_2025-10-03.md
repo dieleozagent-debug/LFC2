@@ -79,7 +79,7 @@
 - Enlaces a AT1–AT10 y Cláusulas 8.1–8.2
 - Referencias cruzadas bidireccionales V.1↔V.2↔V.3↔V.4↔V.5
 - Dependencias con Manuales O&M y Índices maestros
-- Interfaces críticas: ITCS, CTC, Comunicaciones, Potencia, Seguridad
+- Interfaces críticas: PTC, CTC, Comunicaciones, Potencia, Seguridad
 
 ### 4) Versionado
 - v1.0 → v1.1 (02–03/10/2025). Descripción: "Implementación estructura v4.2 — P42"
@@ -95,7 +95,7 @@
 ### Fase 2 — Integración documental (Alta)
 - 2.1 Base completados (AT1, AT3, 8.1, 8.2)
 - 2.2 Dependientes (Manuales O&M; Índices; Roadmap v12.0)
-- 2.3 Interfaces (ITCS, CTC, TELCO, Potencia, Seguridad)
+- 2.3 Interfaces (PTC, CTC, TELCO, Potencia, Seguridad)
 
 ### Fase 3 — Matriz de control (Media)
 - KPIs del sistema; Indicadores de riesgo; responsables

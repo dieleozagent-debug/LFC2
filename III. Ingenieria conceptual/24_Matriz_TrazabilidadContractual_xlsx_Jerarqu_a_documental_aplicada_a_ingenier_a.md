@@ -55,9 +55,9 @@ Interoperabilidad: Protocolos UIC para coordinación con FENOCO.
 Señalización Ferroviaria
 Referencias: AT3 (Cap. 8.1), AT2 (Cap. 3.1.2).
 Funciones: señalización de vía, pasos a nivel, semaforización ferroviaria.
-Sistema ITCS/PTC (Positive Train Control)
+Sistema PTC/PTC (Positive Train Control)
 Referencias: AT1 (Cap. 5.1), AT3 (Cap. 8.10), Cl. 13.1 del Contrato.
-Funciones: seguridad tren-tierra, control automático de trenes (ETCS Level 2 hasta AT3).
+Funciones: seguridad tren-tierra, control automático de trenes (PTC VIRTUAL Level 2 hasta AT3).
 Disponibilidad: 99.95% según AT4.
 Interoperabilidad: Compatible con sistemas FENOCO según estándares UIC.
 
@@ -103,11 +103,11 @@ Referencias: AT1 y AT2.
 Funciones: operaciones intermodales y almacenamiento.
 
 E. Material Rodante y Equipos
-Locomotoras con ITCS Embarcado
+Locomotoras con PTC Embarcado
 Referencias: AT1 (Cap. 5.1), Cl. 13.1 del Contrato.
 Funciones: transporte de carga bajo estándares de seguridad.
 Disponibilidad: 99.95% según AT4.
-Interoperabilidad: ITCS ETCS Level 2 compatible con FENOCO.
+Interoperabilidad: PTC PTC VIRTUAL Level 2 compatible con FENOCO.
 Equipos de Mantenimiento de Vía
 Referencias: AT1 (Cap. 5.2).
 Funciones: conservación y rehabilitación de la vía férrea.
@@ -123,15 +123,15 @@ Requiere definición de interfaces en la Ingeniería Básica.
 
 ## MATRIZ DE TRAZABILIDAD CONTRACTUAL IMPLEMENTADA
 
-| **Sistema** | **Referencia Contractual** | **Apéndice Técnico** | **Disponibilidad AT4** | **Interoperabilidad FENOCO** | **ITCS** |
+| **Sistema** | **Referencia Contractual** | **Apéndice Técnico** | **Disponibilidad AT4** | **Interoperabilidad FENOCO** | **PTC** |
 |:---|:---|:---|:---:|:---:|:---:|
 | **CTC** | Cl. 8.1, 8.2, 9.1 | AT1, AT2, AT3, AT4, AT9 | 99.95% | Protocolos UIC | - |
-| **ITCS** | Cl. 13.1 | AT1, AT3 | 99.95% | ETCS Level 2 | ✅ |
+| **PTC** | Cl. 13.1 | AT1, AT3 | 99.95% | PTC VIRTUAL Level 2 | ✅ |
 | **TETRA** | Cl. 8.1, 8.2 | AT2, AT3, AT7 | 99.5% | Frecuencias UIC | - |
 | **Fibra Óptica** | Cl. 8.1, 8.2 | AT3, AT5, AT7 | 99.95% | Estándares UIC | - |
 | **CCTV** | Cl. 8.1, 8.2 | AT2, AT3 | 99.5% | Protocolos UIC | - |
 | **ITS** | Cl. 8.1, 8.2 | AT3, AT4 | 99.5% | Estándares UIC | - |
-| **Material Rodante** | Cl. 13.1 | AT1, AT3 | 99.95% | ITCS ETCS Level 2 | ✅ |
+| **Material Rodante** | Cl. 13.1 | AT1, AT3 | 99.95% | PTC PTC VIRTUAL Level 2 | ✅ |
 
 4. Próximos pasos
 Validar trazabilidad contractual de cada sistema en la Matriz_TrazabilidadContractual.xlsx.
@@ -203,13 +203,13 @@ Proxima actualizacion: 27 de febrero de 2025
 
 ### ✅ **MEJORAS IMPLEMENTADAS:**
 
-1. **🚂 ITCS Especificado:** ETCS Level 2 como estándar hasta AT3 en sistemas críticos
+1. **🚂 PTC Especificado:** PTC VIRTUAL Level 2 como estándar hasta AT3 en sistemas críticos
 2. **🔗 Interoperabilidad FENOCO:** Criterios UIC especificados en todos los sistemas
 3. **📊 Criterios de Disponibilidad AT4:** Integrados por sistema en matriz
 4. **📋 Matriz Implementada:** Matriz de trazabilidad contractual real implementada
 
 ### 🎯 **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
-- ✅ **ITCS:** Estrategia de avance con ETCS Level 2 especificada
+- ✅ **PTC:** Estrategia de avance con PTC VIRTUAL Level 2 especificada
 - ✅ **FENOCO:** Criterios de interoperabilidad según estándares UIC
 - ✅ **AT4:** Criterios de disponibilidad integrados en matriz
 - ✅ **Matriz:** Matriz de trazabilidad contractual implementada
@@ -218,11 +218,11 @@ Proxima actualizacion: 27 de febrero de 2025
 
 | **ID** | **Riesgo** | **Categoría** | **Probabilidad** | **Impacto** | **Descripción** |
 |:---:|:---|:---:|:---:|:---|:---|
-| **R-020** | **Dependencia AT3 en matriz** | **Técnico** | **Alta** | **Alto** | ITCS pendiente de AT3, matriz incompleta |
+| **R-020** | **Dependencia AT3 en matriz** | **Técnico** | **Alta** | **Alto** | PTC pendiente de AT3, matriz incompleta |
 | **R-021** | **Interoperabilidad FENOCO** | **Técnico** | **Media** | **Alto** | Compatibilidad con sistemas existentes FENOCO |
 | **R-022** | **Disponibilidad 99.95%** | **Contractual** | **Media** | **Alto** | Cumplimiento AT4 requiere redundancia crítica |
 | **R-023** | **Trazabilidad contractual** | **Gestión** | **Media** | **Medio** | Complejidad de seguimiento contractual |
-| **R-024** | **Integración de sistemas** | **Técnico** | **Media** | **Alto** | Complejidad de integración CTC-ITCS-TETRA |
+| **R-024** | **Integración de sistemas** | **Técnico** | **Media** | **Alto** | Complejidad de integración CTC-PTC-TETRA |
 
 ### 📋 **RECOMENDACIONES PARA GESTIÓN DE RIESGOS:**
 - **Análisis PMI requerido** para definir estrategias de mitigación

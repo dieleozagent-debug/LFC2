@@ -20,11 +20,11 @@
 
 ## 🔗 **REFERENCIAS CRUZADAS POR DOCUMENTO**
 
-### **VII.2.1_SRS_ITCS_ETCS_Level2_PROVISIONAL.md**
+### **VII.2.1_SRS_PTC_PTC VIRTUAL_Level2_PROVISIONAL.md**
 
 #### **Referencias Contractuales:**
 - **AT3:** Especificaciones Generales → Base técnica principal
-- **AT5:** Especificaciones ITCS → Requisitos específicos
+- **AT5:** Especificaciones PTC → Requisitos específicos
 - **Cl. 8.2:** Construcción → Aplicación en obra
 
 #### **Referencias Técnicas:**
@@ -36,7 +36,7 @@
 - **EN 50126:** Aplicación técnicas confiabilidad
 - **EN 50128:** Software sistemas control ferroviario
 - **EN 50129:** Aplicación técnicas seguridad
-- **UIC 438:** Especificaciones ETCS Level 2
+- **UIC 438:** Especificaciones PTC VIRTUAL Level 2
 
 ---
 
@@ -44,11 +44,11 @@
 
 #### **Referencias Contractuales:**
 - **AT3:** Especificaciones Generales → Base arquitectónica
-- **AT5:** Especificaciones ITCS → Requisitos RBC
+- **AT5:** Especificaciones PTC → Requisitos RBC
 
 #### **Referencias Técnicas:**
-- **VII.2.1:** SRS ITCS → Especificaciones base
-- **VII.2.4:** Interfaces CTC-ITCS → Comunicación
+- **VII.2.1:** SRS PTC → Especificaciones base
+- **VII.2.4:** Interfaces CTC-PTC → Comunicación
 - **V.4.1:** Sistemas Ferroviarios → Integración
 
 #### **Referencias Normativas:**
@@ -58,32 +58,32 @@
 
 ---
 
-### **VII.2.3_Plan_Eurobalise_Ubicacion_150m.md**
+### **VII.2.3_Plan_Virtual Balise (GNSS)_Ubicacion_150m.md**
 
 #### **Referencias Contractuales:**
 - **AT3:** Especificaciones Generales → Ubicaciones
 - **Cl. 8.2:** Construcción → Instalación
 
 #### **Referencias Técnicas:**
-- **VII.2.1:** SRS ITCS → Funcionalidad
+- **VII.2.1:** SRS PTC → Funcionalidad
 - **V.1.1:** Obras Civiles → Infraestructura
 - **25.1:** WBS Especialidades → Planificación
 
 #### **Referencias Normativas:**
-- **UIC 438:** Especificaciones ETCS
-- **EN 50149:** Eurobalises
+- **UIC 438:** Especificaciones PTC VIRTUAL
+- **EN 50149:** Virtual Balise (GNSS)s
 - **SUBSET-036:** Implementación
 
 ---
 
-### **VII.2.4_Interfaces_CTC_ITCS_Protocolo_FFFIS.md**
+### **VII.2.4_Interfaces_CTC_PTC_Protocolo_FFFIS.md**
 
 #### **Referencias Contractuales:**
 - **AT3:** Especificaciones Generales → Interfaces
-- **AT5:** Especificaciones ITCS → Comunicación
+- **AT5:** Especificaciones PTC → Comunicación
 
 #### **Referencias Técnicas:**
-- **VII.2.1:** SRS ITCS → Especificaciones
+- **VII.2.1:** SRS PTC → Especificaciones
 - **VII.2.8:** Arquitectura Software CTC → Implementación
 - **26.1:** Anexo Eléctrico CTC → Alimentación
 
@@ -120,12 +120,12 @@
 #### **Referencias Técnicas:**
 - **29.1:** Sistema Señalización → Base
 - **V.1.1:** Obras Civiles → Infraestructura
-- **VII.2.1:** SRS ITCS → Interfaces
+- **VII.2.1:** SRS PTC → Interfaces
 
 #### **Referencias Normativas:**
 - **EN 50126:** Confiabilidad
 - **EN 50129:** Seguridad
-- **UIC 438:** ETCS
+- **UIC 438:** PTC VIRTUAL
 
 ---
 
@@ -136,13 +136,13 @@
 - **Cl. 13.1:** Material Rodante → Aplicación
 
 #### **Referencias Técnicas:**
-- **VII.2.1:** SRS ITCS → Funcionalidad
+- **VII.2.1:** SRS PTC → Funcionalidad
 - **V.3.1:** Material Rodante → Integración
 - **25.3:** WBS Mecánica → Planificación
 
 #### **Referencias Normativas:**
 - **EN 50126/50128/50129:** Estándares ferroviarios
-- **UIC 438:** ETCS Level 2
+- **UIC 438:** PTC VIRTUAL Level 2
 
 ---
 
@@ -150,10 +150,10 @@
 
 #### **Referencias Contractuales:**
 - **AT3:** Especificaciones Generales → Base
-- **AT5:** Especificaciones ITCS → Interfaces
+- **AT5:** Especificaciones PTC → Interfaces
 
 #### **Referencias Técnicas:**
-- **VII.2.4:** Interfaces CTC-ITCS → Comunicación
+- **VII.2.4:** Interfaces CTC-PTC → Comunicación
 - **26.1:** Anexo Eléctrico CTC → Alimentación
 - **V.4.1:** Sistemas Ferroviarios → Integración
 
@@ -203,7 +203,7 @@
 
 #### **Referencias Contractuales:**
 - **AT3:** Especificaciones Generales → Base
-- **AT5:** Especificaciones ITCS → Sistemas
+- **AT5:** Especificaciones PTC → Sistemas
 
 #### **Referencias Técnicas:**
 - **VII.2.1-2.8:** Todas las especificaciones → Protección
@@ -243,7 +243,7 @@
 
 ### **Coherencia Técnica:**
 - ✅ **Especificaciones vs AT3:** 100% alineadas
-- ✅ **Interfaces CTC-ITCS:** Compatibilidad verificada
+- ✅ **Interfaces CTC-PTC:** Compatibilidad verificada
 - ✅ **Estándares EN/UIC/IEC:** Aplicación confirmada
 - ✅ **Cronograma:** Hitos actualizados
 

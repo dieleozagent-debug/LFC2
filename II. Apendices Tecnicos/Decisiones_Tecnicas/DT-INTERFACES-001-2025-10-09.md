@@ -22,13 +22,13 @@
 
 2️⃣ FUNCIÓN TÉCNICA (Ingeniería conceptual EPC)
 
-En la ingeniería precargada del sistema CTC–ITCS, el ítem 1.1.106 “Interfaces de comunicación” se justifica como:
+En la ingeniería precargada del sistema CTC–PTC, el ítem 1.1.106 “Interfaces de comunicación” se justifica como:
 
 ➤ Elemento de integración funcional
 
 Conecta el CTC (Control Centralizado de Tráfico) con:
 
-ITCS / ETCS Nivel 2: intercambio de telegramas y datos de ocupación vía RBC.
+PTC / PTC VIRTUAL Nivel 2: intercambio de telegramas y datos de ocupación vía RBC.
 
 FENOCO: interoperabilidad mediante Gateway UIC y protocolo 918–4.
 
@@ -48,7 +48,7 @@ Switches de borde ferroviario,
 
 Firewalls IEC 62443,
 
-Middleware de interoperabilidad CTC/ETCS/FENOCO,
+Middleware de interoperabilidad CTC/PTC VIRTUAL/FENOCO,
 
 Licencias de software de comunicación SCADA.
 
@@ -62,7 +62,7 @@ Configuración de interfaces y redundancia (N+1),
 
 Ensayos FAT/SAT de interoperabilidad,
 
-Integración en entorno virtual (CTC virtual + ETCS L2),
+Integración en entorno virtual (CTC virtual + PTC VIRTUAL L2),
 
 Sin equipos físicos mayores (ya cubiertos por 1.1.100–1.1.105).
 
@@ -72,13 +72,13 @@ Sin equipos físicos mayores (ya cubiertos por 1.1.100–1.1.105).
 
 2️⃣ FUNCIÓN TÉCNICA (Ingeniería conceptual EPC)
 
-En la ingeniería precargada del sistema CTC–ITCS, el ítem 1.1.106 “Interfaces de comunicación” se justifica como:
+En la ingeniería precargada del sistema CTC–PTC, el ítem 1.1.106 “Interfaces de comunicación” se justifica como:
 
 ➤ Elemento de integración funcional
 
 Conecta el CTC (Control Centralizado de Tráfico) con:
 
-ITCS / ETCS Nivel 2: intercambio de telegramas y datos de ocupación vía RBC.
+PTC / PTC VIRTUAL Nivel 2: intercambio de telegramas y datos de ocupación vía RBC.
 
 FENOCO: interoperabilidad mediante Gateway UIC y protocolo 918–4.
 
@@ -98,7 +98,7 @@ Switches de borde ferroviario,
 
 Firewalls IEC 62443,
 
-Middleware de interoperabilidad CTC/ETCS/FENOCO,
+Middleware de interoperabilidad CTC/PTC VIRTUAL/FENOCO,
 
 Licencias de software de comunicación SCADA.
 
@@ -112,7 +112,7 @@ Configuración de interfaces y redundancia (N+1),
 
 Ensayos FAT/SAT de interoperabilidad,
 
-Integración en entorno virtual (CTC virtual + ETCS L2),
+Integración en entorno virtual (CTC virtual + PTC VIRTUAL L2),
 
 Sin equipos físicos mayores (ya cubiertos por 1.1.100–1.1.105).
 
@@ -135,13 +135,13 @@ Sin equipos físicos mayores (ya cubiertos por 1.1.100–1.1.105).
 
 ### Justificación técnica a documentar:
 
-En la ingeniería precargada del sistema CTC–ITCS, el ítem 1.1.106 “Interfaces de comunicación” se justifica como:
+En la ingeniería precargada del sistema CTC–PTC, el ítem 1.1.106 “Interfaces de comunicación” se justifica como:
 
 ➤ Elemento de integración funcional
 
 Conecta el CTC (Control Centralizado de Tráfico) con:
 
-ITCS / ETCS Nivel 2: intercambio de telegramas y datos de ocupación vía RBC.
+PTC / PTC VIRTUAL Nivel 2: intercambio de telegramas y datos de ocupación vía RBC.
 
 FENOCO: interoperabilidad mediante Gateway UIC y protocolo 918–4.
 
@@ -161,7 +161,7 @@ Switches de borde ferroviario,
 
 Firewalls IEC 62443,
 
-Middleware de interoperabilidad CTC/ETCS/FENOCO,
+Middleware de interoperabilidad CTC/PTC VIRTUAL/FENOCO,
 
 Licencias de software de comunicación SCADA.
 
@@ -175,7 +175,7 @@ Configuración de interfaces y redundancia (N+1),
 
 Ensayos FAT/SAT de interoperabilidad,
 
-Integración en entorno virtual (CTC virtual + ETCS L2),
+Integración en entorno virtual (CTC virtual + PTC VIRTUAL L2),
 
 Sin equipos físicos mayores (ya cubiertos por 1.1.100–1.1.105).
 
@@ -209,7 +209,7 @@ Sin equipos físicos mayores (ya cubiertos por 1.1.100–1.1.105).
    - Documentar composición del bloque lógico de integración
 
 2. ✅ `VIII. Documentos Maestros y Metodologia/CRITERIOS_TECNICOS_MAESTRO_v1.0.md`
-   - Agregar criterio: "Interfaces comunicación: Bloque lógico integración CTC-ITCS-FENOCO-TETRA"
+   - Agregar criterio: "Interfaces comunicación: Bloque lógico integración CTC-PTC-FENOCO-TETRA"
 
 3. ✅ `VIII. Documentos Maestros y Metodologia/Matrices_Dependencias/MATRIZ_DEPENDENCIAS_DOCUMENTALES_v1.0.md`
    - Registrar esta DT de documentación
@@ -236,7 +236,7 @@ Sin equipos físicos mayores (ya cubiertos por 1.1.100–1.1.105).
    - Desventajas: Menor granularidad presupuestal
    - ✅ Aprobada: Balance óptimo gestión-trazabilidad
    - Composición documentada:
-     - Gateways industriales CTC-ITCS-FENOCO
+     - Gateways industriales CTC-PTC-FENOCO
      - Switches de borde ferroviario
      - Firewalls IEC 62443
      - Middleware interoperabilidad
@@ -265,8 +265,8 @@ archivos_actualizar:
     accion: "agregar_o_actualizar_metadata"
     item_codigo: "1.1.106"
     metadata:
-      justificacion_tecnica: "Bloque lógico de integración (no hardware físico único). Conecta CTC con ITCS/ETCS L2, FENOCO (Gateway UIC 918-4), TETRA (voz/datos), Fibra óptica (backbone N+1) y sistemas ITS. Incluye: gateways industriales, switches de borde, firewalls IEC 62443, middleware interoperabilidad, licencias software."
-      criterio_diseno: "Integración funcional CTC-ITCS-FENOCO-TETRA-ITS con redundancia N+1 y middleware UIC"
+      justificacion_tecnica: "Bloque lógico de integración (no hardware físico único). Conecta CTC con PTC/PTC VIRTUAL L2, FENOCO (Gateway UIC 918-4), TETRA (voz/datos), Fibra óptica (backbone N+1) y sistemas ITS. Incluye: gateways industriales, switches de borde, firewalls IEC 62443, middleware interoperabilidad, licencias software."
+      criterio_diseno: "Integración funcional CTC-PTC-FENOCO-TETRA-ITS con redundancia N+1 y middleware UIC"
       supuestos_especialista: "1 UND representa conjunto lógico completo. Equipos físicos mayores cubiertos en ítems 1.1.100-1.1.105. Incluye licencias, configuración, ensayos FAT/SAT interoperabilidad."
       decision_tecnica: "DT-INTERFACES-001-2025-10-09"
       fecha_actualizacion: "2025-10-09"
@@ -316,7 +316,7 @@ Tipo de operación: Ajuste criterio técnico (metadata enriquecida)
 Archivos modificados: 2
   1. IX. WBS y Planificacion/wbs_metadata_enriquecida.json
      - Agregado ítem 1.1.106 con metadata completa
-     - Justificación técnica: Bloque lógico integración CTC-ITCS-FENOCO-TETRA-ITS
+     - Justificación técnica: Bloque lógico integración CTC-PTC-FENOCO-TETRA-ITS
      - 4 criterios de diseño documentados
      - 4 supuestos del especialista
      - DT-INTERFACES-001 registrada

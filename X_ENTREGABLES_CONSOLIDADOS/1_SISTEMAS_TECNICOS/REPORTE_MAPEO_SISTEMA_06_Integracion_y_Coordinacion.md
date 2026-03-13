@@ -102,7 +102,7 @@
 3. **V.3.1_Material_Rodante_Detallado.md** - Material rodante detallado
 
 #### **Soporte Especializado:**
-4. **VII.2_Especificaciones/VII.2.4_Interfaces_CTC_ITCS_Protocolo_FFFIS.md** - Interfaces CTC-ITCS protocolo FFFIS
+4. **VII.2_Especificaciones/VII.2.4_Interfaces_CTC_PTC_Protocolo_FFFIS.md** - Interfaces CTC-PTC protocolo FFFIS
 
 ---
 
@@ -137,8 +137,8 @@
 - **VII.2.3_Protocolos_UIC:** Protocolos UIC específicos implementados
 - **Inconsistencia:** Diferentes niveles de especificación sin consolidación
 
-#### **2. Interfaces CTC-ITCS:**
-- **VII.2.4_Interfaces_CTC_ITCS_Protocolo_FFFIS:** Protocolo FFFIS detallado
+#### **2. Interfaces CTC-PTC:**
+- **VII.2.4_Interfaces_CTC_PTC_Protocolo_FFFIS:** Protocolo FFFIS detallado
 - **V.2_Centro_Control_Trafico_CTC_v5.0:** Especificaciones CTC virtual
 - **Inconsistencia:** Falta integración entre protocolo FFFIS y CTC virtual
 

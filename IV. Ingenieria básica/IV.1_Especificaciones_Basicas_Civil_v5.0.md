@@ -12,7 +12,7 @@
 La obra civil se dimensiona exclusivamente para soportar la arquitectura **PTC Virtual**, optimizando el uso de predios y cimentaciones.
 
 ### 1.1 Infraestructura de Telecomunicaciones:
-- **Torres de Radio:** Se dimensionan **37 sitios** exclusivamente para la red **TETRA**. Se elimina la necesidad de espacio adicional para antenas o casetas GSM-R.
+- **Torres de Radio:** Se dimensionan **37 sitios** exclusivamente para la red **TETRA**. Se elimina la necesidad de espacio adicional para antenas o casetas RED TETRA (Misión Crítica).
 - **Casetas de Equipos:** Área optimizada para alojar rack TETRA, Servidores Vitales (en sitios ENCE) y sistemas de energía.
 - **Cimentaciones:** Diseñadas según el estudio de suelos para torres de 40-60m.
 
@@ -23,9 +23,9 @@ La obra civil se dimensiona exclusivamente para soportar la arquitectura **PTC V
 
 ---
 
-## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE GSM-R/EUROBALISE)
-- ✅ **ELIMINADO:** Obra civil para 37 estaciones GSM-R (Ahorro masivo en cimentaciones y casetas).
-- ✅ **ELIMINADO:** Instalación de 1,080 Eurobalizas y sus protecciones mecánicas.
+## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE RED TETRA (Misión Crítica)/EUROBALISE)
+- ✅ **ELIMINADO:** Obra civil para 37 estaciones RED TETRA (Misión Crítica) (Ahorro masivo en cimentaciones y casetas).
+- ✅ **ELIMINADO:** Instalación de 1,080 Virtual Balise (GNSS)s y sus protecciones mecánicas.
 - ✅ **ELIMINADO:** Fundaciones para LEU (Lineside Electronic Units).
 
 ---

@@ -19,10 +19,10 @@ Se ha completado el **PASO 3: Reporte de Hallazgos** aplicando la plantilla de d
 
 #### **✅ FORTALEZAS**
 - **Contenido técnico completo:** Especificaciones detalladas de señalización ferroviaria
-- **Referencias normativas:** EN 50126/50128/50129, ETCS Level 2, CENELEC
+- **Referencias normativas:** EN 50126/50128/50129, PTC VIRTUAL Level 2, CENELEC
 - **Arquitectura definida:** Componentes principales especificados
 - **Versión y fecha:** v1.0, 02/10/2025
-- **Integración ITCS:** Especificaciones de integración con ETCS Level 2
+- **Integración PTC:** Especificaciones de integración con PTC VIRTUAL Level 2
 
 #### **🔴 BRECHAS CRÍTICAS**
 | Brecha | Severidad | Impacto | Acción Requerida |
@@ -55,7 +55,7 @@ Se ha completado el **PASO 3: Reporte de Hallazgos** aplicando la plantilla de d
 - **Referencias normativas:** EN 50126/50128/50129, IEC 62290, UIC 615, FFFIS
 - **Matriz de trazabilidad:** Requisitos vs especificaciones vs pruebas
 - **Control de versiones:** Documentado
-- **Interfaces definidas:** ITCS, SCADA, Comunicación
+- **Interfaces definidas:** PTC, SCADA, Comunicación
 
 #### **🔴 BRECHAS CRÍTICAS**
 | Brecha | Severidad | Impacto | Acción Requerida |
@@ -83,7 +83,7 @@ Se ha completado el **PASO 3: Reporte de Hallazgos** aplicando la plantilla de d
 ### **V.3 - Sistemas de Comunicación**
 
 #### **✅ FORTALEZAS**
-- **Contenido técnico completo:** GSM-R, fibra óptica, TETRA, VSAT
+- **Contenido técnico completo:** RED TETRA (Misión Crítica), fibra óptica, TETRA, VSAT
 - **Referencias normativas:** EN 50126/50128/50129, IEC 62290, UIC 615, EIRENE
 - **Arquitectura definida:** Componentes principales especificados
 - **Versión y fecha:** v1.0, 02/10/2025
@@ -180,7 +180,7 @@ Se ha completado el **PASO 3: Reporte de Hallazgos** aplicando la plantilla de d
 - **Referencias normativas** consistentes (EN 50126/50128/50129, IEC 62290, UIC 615)
 - **Especificaciones detalladas** de arquitectura y componentes
 - **Versión y fecha** estandarizadas (v1.0, 02/10/2025)
-- **Integración ITCS** especificada en documentos relevantes
+- **Integración PTC** especificada en documentos relevantes
 
 ### **🔴 BRECHAS CRÍTICAS CONSOLIDADAS**
 | Brecha | Severidad | Frecuencia | Impacto | Acción Requerida |

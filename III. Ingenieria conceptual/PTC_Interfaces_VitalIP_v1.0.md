@@ -19,9 +19,9 @@ Se descarta el uso del protocolo propietario FFFIS. En su lugar, se adopta **Vit
 
 ---
 
-## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE FFFIS/ETCS)
+## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE FFFIS/PTC VIRTUAL)
 - ✅ **ELIMINADO:** Protocolo FFFIS (Form Fit Function Interface Specification).
-- ✅ **ELIMINADO:** Referencias a ETCS Level 2 y RBC.
+- ✅ **ELIMINADO:** Referencias a PTC VIRTUAL Level 2 y RBC.
 - ✅ **ELIMINADO:** Mensajería XML pesada por overhead innecesario.
 - ✅ **ADOPTADO:** Mensajería binaria optimizada sobre **Vital IP**.
 

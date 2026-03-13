@@ -80,7 +80,7 @@
 │  └─────────────┘  └─────────────┘  └─────────────┘             │
 ├─────────────────────────────────────────────────────────────────┤
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐             │
-│  │   TETRA     │  │   GSM-R     │  │   FIBRA     │             │
+│  │   TETRA     │  │   RED TETRA (Misión Crítica)     │  │   FIBRA     │             │
 │  │   40kVA     │  │   40kVA     │  │   15kVA     │             │
 │  │             │  │             │  │             │             │
 │  └─────────────┘  └─────────────┘  └─────────────┘             │
@@ -91,7 +91,7 @@
 - **Alimentación Principal:** Red eléctrica 800 kVA con redundancia
 - **Sistemas de Respaldo:** UPS 400 kVA + Generador 600 kVA + Baterías 200 kVA
 - **Distribución:** Tableros principales y secundarios con protecciones
-- **Cargas Críticas:** CTC, ATP, ENCE, TETRA, GSM-R, Fibra óptica
+- **Cargas Críticas:** CTC, ATP, ENCE, TETRA, RED TETRA (Misión Crítica), Fibra óptica
 - **Puesta a Tierra:** Sistema de tierra con resistencia < 5 Ω
 
 ### **2.2 Criterios de Diseño Eléctrico**
@@ -138,7 +138,7 @@
 |:--------|:---------------------|:---------------|:-------------------|:---------------|
 | **CTC** | Centro de Control de Tráfico | Alimentación 480V/60Hz, UPS N+1 (4h), A/C 24/7 | 99.95% | Sistema crítico |
 | **TETRA** | Estaciones Base | Alimentación 480V/60Hz, UPS N+1 (2h), Protección rayos | 99.5% | 37 sitios |
-| **GSM-R** | Estaciones Base | Alimentación 480V/60Hz, UPS N+1 (2h), Protección rayos | 99.5% | 37 sitios |
+| **RED TETRA (Misión Crítica)** | Estaciones Base | Alimentación 480V/60Hz, UPS N+1 (2h), Protección rayos | 99.5% | 37 sitios |
 | **ATP Embarcado** | Locomotoras | Alimentación 480V/60Hz, UPS embarcado | 99.95% | 15 locomotoras |
 | **ENCE** | Enclavamientos | Alimentación 480V/60Hz, UPS N+1 | 99.95% | 5 estaciones |
 | **Fibra Óptica** | Equipos de red | Alimentación 480V/60Hz, UPS N+1 | 99.95% | Equipos críticos |
@@ -190,7 +190,7 @@
 | **Tablero Principal** | 800 kVA | Distribución general | CCO La Dorada |
 | **Tablero CTC** | 100 kVA | Centro de control | Sala de control |
 | **Tablero TETRA** | 80 kVA | Estaciones TETRA | Sala de telecom |
-| **Tablero GSM-R** | 80 kVA | Estaciones GSM-R | Sala de telecom |
+| **Tablero RED TETRA (Misión Crítica)** | 80 kVA | Estaciones RED TETRA (Misión Crítica) | Sala de telecom |
 | **Tablero ENCE** | 50 kVA | Enclavamientos | Sala de sistemas |
 | **Tablero Auxiliares** | 60 kVA | Iluminación, A/C | Sala auxiliar |
 
@@ -201,7 +201,7 @@
 | **Distribución** | XLPE, 0.6/1 kV | 240 mm² | Tableros secundarios |
 | **Circuito CTC** | XLPE, 0.6/1 kV | 95 mm² | Centro de control |
 | **Circuito TETRA** | XLPE, 0.6/1 kV | 70 mm² | Estaciones TETRA |
-| **Circuito GSM-R** | XLPE, 0.6/1 kV | 70 mm² | Estaciones GSM-R |
+| **Circuito RED TETRA (Misión Crítica)** | XLPE, 0.6/1 kV | 70 mm² | Estaciones RED TETRA (Misión Crítica) |
 | **Circuito ENCE** | XLPE, 0.6/1 kV | 50 mm² | Enclavamientos |
 | **Control** | XLPE, 0.6/1 kV | 10 mm² | Señales de control |
 
@@ -399,7 +399,7 @@
 | Sistema | Alimentación Eléctrica | Función |
 |:--------|:----------------------|:---------|
 | **TETRA** | 480V/60Hz, UPS N+1 | Estaciones base TETRA |
-| **GSM-R** | 480V/60Hz, UPS N+1 | Estaciones base GSM-R |
+| **RED TETRA (Misión Crítica)** | 480V/60Hz, UPS N+1 | Estaciones base RED TETRA (Misión Crítica) |
 | **Fibra óptica** | 480V/60Hz, UPS N+1 | Equipos de red |
 | **Antenas** | 220V/60Hz, UPS | Equipos de comunicación |
 

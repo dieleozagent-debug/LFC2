@@ -69,7 +69,7 @@ Ahora:  <script src="riesgos_wbs.js?v=638956897809360203"></script>
 
 **Ejemplo de Plan de Acción:**
 ```markdown
-| R-ITCS-001 | ... | **ACCIÓN HOY:** Enviar oficio a ANI solicitando definición formal. Preparar matriz de decisión técnica/económica. |
+| R-PTC-001 | ... | **ACCIÓN HOY:** Enviar oficio a ANI solicitando definición formal. Preparar matriz de decisión técnica/económica. |
 ```
 
 #### **2.2. Script de sincronización mejorado**
@@ -216,7 +216,7 @@ Cliente accede vía WBS_Menu_Principal.html
 | **Plazo Estimado** | Tiempo de ejecución |
 | **Criterio de Éxito** | Cómo validar |
 
-**Ejemplo: BLOCKER-001 (ITCS indefinido)**
+**Ejemplo: BLOCKER-001 (PTC indefinido)**
 ```markdown
 | Acción Inmediata | Enviar oficio formal a ANI solicitando definición tecnológica |
 | Responsable | Gerente Técnico / Especialista Sistemas |
@@ -258,7 +258,7 @@ Validación final: 🔴 EN PROGRESO - NO APTO PARA CONSTRUCCIÓN
 
 | ID | Blocker | Impacto | Acción Requerida |
 |----|---------|---------|------------------|
-| BLOCKER-001 | Indefinición ITCS | Riesgo diseño | Oficiar ANI Mes 6 |
+| BLOCKER-001 | Indefinición PTC | Riesgo diseño | Oficiar ANI Mes 6 |
 | BLOCKER-002 | Protocolos FENOCO | Riesgo integración | Reunión FENOCO Mes 5 |
 | BLOCKER-003 | Cantidades PANs | Riesgo presupuestal | Confirmar diseño modular |
 | BLOCKER-004 | Cronograma MR | Riesgo planificación | Oficiar ANI cronograma |
@@ -532,7 +532,7 @@ Carpeta: X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/
 
 ### **Próximos pasos recomendados:**
 1. 🎯 **Ejecutar planes de acción** para resolver blockers críticos
-2. 📊 **Validar con ANI** las indefiniciones técnicas (ITCS, MR, PANs)
+2. 📊 **Validar con ANI** las indefiniciones técnicas (PTC, MR, PANs)
 3. 🔄 **Ejecutar sincronización semanal** con script maestro v14.3
 4. 📚 **Entrenar equipo** en uso de sistema WBS interactivo
 5. 🚀 **Preparar para construcción** una vez resueltos los 4 blockers

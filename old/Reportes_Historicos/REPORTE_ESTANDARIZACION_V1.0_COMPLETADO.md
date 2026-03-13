@@ -43,7 +43,7 @@ Se ha completado exitosamente la estandarización de toda la documentación del 
 ### 1. Estandarización de Versiones
 - **Roadmap principal:** `@@Roadmap_v12.0` → `@@Roadmap_v1.0_Marco_Gestion_Consolidado.md`
 - **Documentos de ingeniería de detalle:** V.1 a V.5 de v0.1 → v1.0
-- **Documentos ITCS conceptuales:** 5 documentos de v0.1 → v1.0
+- **Documentos PTC conceptuales:** 5 documentos de v0.1 → v1.0
 - **Manuales O&M:** Eliminado "_Validado" de nombres de archivo
 - **Apéndices técnicos:** 11 documentos actualizados a v1.0
 - **Memorias de diseño básico:** v5.0 → v1.0
@@ -61,7 +61,7 @@ Se ha completado exitosamente la estandarización de toda la documentación del 
 ### 4. Actualización de Referencias Cruzadas
 - **Roadmap principal:** Referencias actualizadas a documentos v1.0
 - **Manuales O&M:** Referencias a documentos de detalle actualizadas
-- **Documentos ITCS:** Referencias cruzadas entre documentos conceptuales
+- **Documentos PTC:** Referencias cruzadas entre documentos conceptuales
 - **Índices maestros:** Referencias actualizadas
 
 ---
@@ -80,12 +80,12 @@ Se ha completado exitosamente la estandarización de toda la documentación del 
 7. `V. Ingenieria de detalle/V.4_Sistemas_Potencia_Detalle_v1.0.md`
 8. `V. Ingenieria de detalle/V.5_Sistemas_Seguridad_Detalle_v1.0.md`
 
-### Ingeniería Conceptual (ITCS)
-9. `III. Ingenieria conceptual/ITCS_SRS_Indice_v1.0.md`
-10. `III. Ingenieria conceptual/ITCS_Arquitectura_RBC_2oo3_v1.0.md`
-11. `III. Ingenieria conceptual/ITCS_Interfaces_CTC_ITCS_FFFIS_v1.0.md`
-12. `III. Ingenieria conceptual/ITCS_STM_Embarcado_v1.0.md`
-13. `III. Ingenieria conceptual/ITCS_Interlocking_Tables_5_Estaciones_v1.0.md`
+### Ingeniería Conceptual (PTC)
+9. `III. Ingenieria conceptual/PTC_SRS_Indice_v1.0.md`
+10. `III. Ingenieria conceptual/PTC_Arquitectura_RBC_2oo3_v1.0.md`
+11. `III. Ingenieria conceptual/PTC_Interfaces_CTC_PTC_FFFIS_v1.0.md`
+12. `III. Ingenieria conceptual/PTC_STM_Embarcado_v1.0.md`
+13. `III. Ingenieria conceptual/PTC_Interlocking_Tables_5_Estaciones_v1.0.md`
 
 ### Operación y Mantenimiento (Fase E)
 14. `VI. operacion y mantenimiento y reversion/6.1_Manual_OM_CTC_v1.0.md`
@@ -103,7 +103,7 @@ Se ha completado exitosamente la estandarización de toda la documentación del 
 ### Enlaces Internos Verificados
 - ✅ **Roadmap principal:** Todas las referencias a documentos v1.0
 - ✅ **Manuales O&M:** Referencias a documentos de detalle actualizadas
-- ✅ **Documentos ITCS:** Referencias cruzadas entre documentos conceptuales
+- ✅ **Documentos PTC:** Referencias cruzadas entre documentos conceptuales
 - ✅ **Índices maestros:** Referencias actualizadas
 
 ### Documentos Dependientes Identificados
@@ -138,7 +138,7 @@ Se ha completado exitosamente la estandarización de toda la documentación del 
 ├── 📁 00. Gobernanza PMO/
 ├── 📁 01. contrato en .md/ (11 documentos v1.0)
 ├── 📁 I. Contrato General/
-├── 📁 III. Ingenieria conceptual/ (5 documentos ITCS v1.0)
+├── 📁 III. Ingenieria conceptual/ (5 documentos PTC v1.0)
 ├── 📁 IV. Ingenieria básica/ (1 documento v1.0)
 ├── 📁 V. Ingenieria de detalle/ (5 documentos v1.0)
 ├── 📁 VI. operacion y mantenimiento y reversion/ (4 manuales v1.0)

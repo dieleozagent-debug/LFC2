@@ -65,7 +65,7 @@ Se ha verificado y corregido el problema reportado de contenido faltante en docu
 7. **Métricas de seguimiento** ✅
 8. **Penalidades y sanciones** ✅
 9. **Análisis exhaustivo Metodología Punto 42** ✅
-10. **Integración ITCS ETCS Level 2** ✅
+10. **Integración PTC PTC VIRTUAL Level 2** ✅
 11. **Interoperabilidad FENOCO** ✅
 12. **Criterios de disponibilidad AT4** ✅
 13. **Ciberseguridad** ✅

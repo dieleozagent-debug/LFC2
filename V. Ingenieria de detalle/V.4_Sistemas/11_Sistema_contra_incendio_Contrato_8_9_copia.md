@@ -53,11 +53,11 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 
 | ID | Categoría | Probabilidad | Impacto | Descripción | Estrategia de Mitigación |
 |:---:|:---:|:---:|:---:|:---|:---|
-| **R-135** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones ITCS en sistema contra incendio | Desarrollar sistemas contra incendio basados en ETCS Level 2 hasta disponibilidad de AT3 |
+| **R-135** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en sistema contra incendio | Desarrollar sistemas contra incendio basados en PTC VIRTUAL Level 2 hasta disponibilidad de AT3 |
 | **R-136** | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por sistemas contra incendio incompatibles | Establecer sistemas contra incendio compatibles con sistemas FENOCO existentes |
 | **R-137** | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.9% en sistema contra incendio según AT4 | Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad |
-| **R-138** | Operacional | Alta | Medio | Complejidad en gestión de sistema contra incendio con ITCS | Desarrollar protocolos de prueba específicos para ITCS y FENOCO |
-| **R-139** | Técnico | Media | Medio | Integración de sistema contra incendio con sistemas FENOCO existentes | Establecer procedimientos de fallback para sistemas contra incendio ITCS y FENOCO |
+| **R-138** | Operacional | Alta | Medio | Complejidad en gestión de sistema contra incendio con PTC | Desarrollar protocolos de prueba específicos para PTC y FENOCO |
+| **R-139** | Técnico | Media | Medio | Integración de sistema contra incendio con sistemas FENOCO existentes | Establecer procedimientos de fallback para sistemas contra incendio PTC y FENOCO |
 
 ---
 
@@ -140,14 +140,14 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 ## ACTUALIZACIÓN v4.1 - REVISIÓN METODOLOGÍA PUNTO 42
 
 ### **MEJORAS IMPLEMENTADAS:**
-1. **Interfaces Críticas ITCS:** Sistemas contra incendio para control embarcado ETCS Level 2 hasta AT3
+1. **Interfaces Críticas PTC:** Sistemas contra incendio para control embarcado PTC VIRTUAL Level 2 hasta AT3
 2. **Interfaces Críticas FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos UIC
-3. **Integración con Sistemas Ferroviarios ITCS:** Sistemas contra incendio para control embarcado
+3. **Integración con Sistemas Ferroviarios PTC:** Sistemas contra incendio para control embarcado
 4. **Integración con Sistemas Ferroviarios FENOCO:** Interoperabilidad con sistemas FENOCO
 5. **Disponibilidad AT4:** Cumplimiento de disponibilidad 99.9% según indicadores contractuales
 
 ### **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
-1. **Falta de interfaces ITCS:** Agregados sistemas contra incendio específicos para control embarcado ETCS Level 2
+1. **Falta de interfaces PTC:** Agregados sistemas contra incendio específicos para control embarcado PTC VIRTUAL Level 2
 2. **Ausencia de interoperabilidad FENOCO:** Integrada interoperabilidad con sistemas FENOCO
 3. **Falta de criterios AT4:** Agregado cumplimiento de disponibilidad 99.9%
 
@@ -155,15 +155,15 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 | ID | Categoría | Probabilidad | Impacto | Descripción |
 |:---:|:---:|:---:|:---:|:---|
-| R-135 | Técnico | Alta | Alto | Dependencia AT3 para especificaciones ITCS en sistema contra incendio |
+| R-135 | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en sistema contra incendio |
 | R-136 | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por sistemas contra incendio incompatibles |
 | R-137 | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.9% en sistema contra incendio según AT4 |
-| R-138 | Operacional | Alta | Medio | Complejidad en gestión de sistema contra incendio con ITCS |
+| R-138 | Operacional | Alta | Medio | Complejidad en gestión de sistema contra incendio con PTC |
 | R-139 | Técnico | Media | Medio | Integración de sistema contra incendio con sistemas FENOCO existentes |
 
 ### **RECOMENDACIONES PARA GESTIÓN DE RIESGOS:**
-1. **Estrategia ITCS:** Desarrollar sistemas contra incendio basados en ETCS Level 2 hasta disponibilidad de AT3
+1. **Estrategia PTC:** Desarrollar sistemas contra incendio basados en PTC VIRTUAL Level 2 hasta disponibilidad de AT3
 2. **Coordinación FENOCO:** Establecer sistemas contra incendio compatibles con sistemas FENOCO existentes
 3. **Monitoreo AT4:** Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad 99.9%
-4. **Pruebas de Sistema Contra Incendio:** Desarrollar protocolos de prueba específicos para ITCS y FENOCO
-5. **Plan de Contingencia:** Establecer procedimientos de fallback para sistemas contra incendio ITCS y FENOCO
+4. **Pruebas de Sistema Contra Incendio:** Desarrollar protocolos de prueba específicos para PTC y FENOCO
+5. **Plan de Contingencia:** Establecer procedimientos de fallback para sistemas contra incendio PTC y FENOCO

@@ -8,11 +8,11 @@
 ---
 
 ## 1. VISIÓN GENERAL DE LA INGENIERÍA BÁSICA
-La Ingeniería Básica (Fase IV) se consolida bajo el estándar **PTC Virtual (FRA 236)**. Se eliminan todas las propuestas de diseño basadas en arquitecturas propietarias (Alstom ITCS) o europeas (ERTMS/ETCS) detectadas en versiones anteriores.
+La Ingeniería Básica (Fase IV) se consolida bajo el estándar **PTC Virtual (FRA 236)**. Se eliminan todas las propuestas de diseño basadas en arquitecturas propietarias (Alstom PTC) o europeas (ERTMS/PTC VIRTUAL) detectadas en versiones anteriores.
 
 ### 1.1 Objetivos de Diseño Saneados:
 - **Seguridad Vital:** Basada en Servidores Vitales 2oo3 con protocolo **Vital IP**.
-- **Comunicaciones:** Unificación en red **TETRA** (eliminación de GSM-R).
+- **Comunicaciones:** Unificación en red **TETRA** (eliminación de RED TETRA (Misión Crítica)).
 - **Interoperabilidad:** Implementación del nodo **Stop & Switch** en Chiriguaná.
 - **Eficiencia CAPEX:** Reducción de infraestructura física en un 50% vs. el diseño legacy.
 
@@ -20,9 +20,9 @@ La Ingeniería Básica (Fase IV) se consolida bajo el estándar **PTC Virtual (F
 
 ## 2. 🔍 AUDITORÍA DE SANEAMIENTO (REVISIÓN DE-HIJO-A-PADRE)
 En cumplimiento del **Ciclo Inverso**, se han corregido los siguientes desvíos:
-- ✅ **ELIMINADO ETCS Level 2:** Se purga la asunción de "estándar hasta AT3". El estándar es **FRA 236** desde el inicio.
-- ✅ **ELIMINADO BLOQUEO ITCS:** Ya no existe bloqueo por falta de protocolos de terceros, ya que no dependemos de licencias propietarias para operar.
-- ✅ **ELIMINADO GSM-R:** Las memorias de cálculo de cobertura se centran exclusivamente en TETRA.
+- ✅ **ELIMINADO PTC VIRTUAL Level 2:** Se purga la asunción de "estándar hasta AT3". El estándar es **FRA 236** desde el inicio.
+- ✅ **ELIMINADO BLOQUEO PTC:** Ya no existe bloqueo por falta de protocolos de terceros, ya que no dependemos de licencias propietarias para operar.
+- ✅ **ELIMINADO RED TETRA (Misión Crítica):** Las memorias de cálculo de cobertura se centran exclusivamente en TETRA.
 
 ---
 

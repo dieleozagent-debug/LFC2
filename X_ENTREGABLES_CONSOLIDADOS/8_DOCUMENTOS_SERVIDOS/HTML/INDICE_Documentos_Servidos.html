@@ -76,18 +76,28 @@
             }
 
             const docs = [
-                { id: "01", name: "SISTEMA_01: Control y Señalización", file: "SISTEMA_01_Control_y_Senalizacion_EJECUTIVO" },
-                { id: "02", name: "SISTEMA_02: Telecomunicaciones (TETRA)", file: "SISTEMA_02_Telecomunicaciones_EJECUTIVO" },
-                { id: "03", name: "SISTEMA_03: ITS y Seguridad+", file: "SISTEMA_03_ITS_y_Seguridad_EJECUTIVO" },
-                { id: "04", name: "SISTEMA_04: Material Rodante (V-Block)", file: "SISTEMA_04_Material_Rodante_EJECUTIVO" },
-                { id: "05", name: "SISTEMA_05: Infraestructura Operativa", file: "SISTEMA_05_Infraestructura_Operativa_EJECUTIVO" },
-                { id: "06", name: "SISTEMA_06: Integración y Coordinación", file: "SISTEMA_06_Integracion_y_Coordinacion_EJECUTIVO" }
+                { id: "S01", grp: "Sistemas", name: "SISTEMA_01: Control y Señalización", file: "SISTEMA_01_Control_y_Senalizacion_EJECUTIVO" },
+                { id: "S02", grp: "Sistemas", name: "SISTEMA_02: Telecomunicaciones (TETRA)", file: "SISTEMA_02_Telecomunicaciones_EJECUTIVO" },
+                { id: "S03", grp: "Sistemas", name: "SISTEMA_03: ITS y Seguridad+", file: "SISTEMA_03_ITS_y_Seguridad_EJECUTIVO" },
+                { id: "S04", grp: "Sistemas", name: "SISTEMA_04: Material Rodante (V-Block)", file: "SISTEMA_04_Material_Rodante_EJECUTIVO" },
+                { id: "S05", grp: "Sistemas", name: "SISTEMA_05: Infraestructura Operativa", file: "SISTEMA_05_Infraestructura_Operativa_EJECUTIVO" },
+                { id: "S06", grp: "Sistemas", name: "SISTEMA_06: Integración y Coordinación", file: "SISTEMA_06_Integracion_y_Coordinacion_EJECUTIVO" },
+                
+                { id: "E01", grp: "Especialidades", name: "ESPECIALIDAD_01: Ingeniería Civil", file: "ESPECIALIDAD_01_Ingenieria_Civil_EJECUTIVO" },
+                { id: "E02", grp: "Especialidades", name: "ESPECIALIDAD_02: Ingeniería Eléctrica", file: "ESPECIALIDAD_02_Ingenieria_Electrica_EJECUTIVO" },
+                { id: "E03", grp: "Especialidades", name: "ESPECIALIDAD_03: Ingeniería Mecánica", file: "ESPECIALIDAD_03_Ingenieria_Mecanica_EJECUTIVO" },
+                { id: "E04", grp: "Especialidades", name: "ESPECIALIDAD_04: Ingeniería de Sistemas", file: "ESPECIALIDAD_04_Ingenieria_Sistemas_EJECUTIVO" },
+                { id: "E05", grp: "Especialidades", name: "ESPECIALIDAD_05: Ingeniería Ambiental", file: "ESPECIALIDAD_05_Ingenieria_Ambiental_EJECUTIVO" },
+                
+                { id: "G01", grp: "Gestión", name: "GESTIÓN: Alcance y Objetivos", file: "GESTION_EJECUTIVO_Alcance_y_Objetivos" },
+                { id: "G02", grp: "Gestión", name: "GESTIÓN: Cambios y Decisiones", file: "GESTION_EJECUTIVO_Cambios_y_Decisiones_Tecnicas" },
+                { id: "G03", grp: "Gestión", name: "GESTIÓN: Cronograma y Recursos", file: "GESTION_EJECUTIVO_Cronograma_y_Recursos" }
             ];
 
             const container = document.getElementById('docs-container');
             container.innerHTML = docs.map(doc => `
                 <div class="doc-card">
-                    <div style="font-size: 0.6rem; letter-spacing: 2px; opacity: 0.5; margin-bottom: 0.5rem;">SICC-LFC2-ID-${doc.id}</div>
+                    <div style="font-size: 0.6rem; letter-spacing: 2px; opacity: 0.5; margin-bottom: 0.5rem;">[${doc.grp.toUpperCase()}] SICC-LFC2-ID-${doc.id}</div>
                     <h3>${doc.name}</h3>
                     <p style="font-size: 0.85rem; opacity: 0.7; line-height: 1.5;">Ingeniería ejecutiva consolidada. Libre de tecnologías legacy. SSOT: DBCD_CRITERIA.md</p>
                     <div class="doc-links">

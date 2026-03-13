@@ -21,11 +21,11 @@ Documentar TODAS las interfaces entre sistemas del proyecto, especificando:
 
 ## 📊 **INTERFACES CRÍTICAS IDENTIFICADAS: 7**
 
-### **IF-01: CTC ↔ ITCS/ATP** 🔴 CRÍTICA
+### **IF-01: CTC ↔ PTC/ATP** 🔴 CRÍTICA
 
 | Aspecto | Especificación | Estado | Responsable |
 |:--------|:---------------|:-------|:------------|
-| **Protocolo** | FFFIS (IEC 62278) / Propietario | ⚠️ Pendiente definición ITCS | EPC Señalización |
+| **Protocolo** | FFFIS (IEC 62278) / Propietario | ⚠️ Pendiente definición PTC | EPC Señalización |
 | **Medio físico** | Ethernet redundante N+1 | ✅ Estándar | EPC Redes |
 | **Mensajes** | Posición tren, comandos, MA | ⚠️ Pendiente protocolo | EPC + Proveedor ATP |
 | **Frecuencia** | 1 mensaje/segundo (continuo) | ✅ Definido | - |
@@ -33,7 +33,7 @@ Documentar TODAS las interfaces entre sistemas del proyecto, especificando:
 | **Pruebas** | Banco → Piloto → Integración | 🟡 Conceptual | EPC + Interventoría |
 
 **Criticidad:** 🔴 CRÍTICA (Ruta crítica del proyecto)  
-**Blocker:** BLOCKER-001 (Indefinición ITCS)  
+**Blocker:** BLOCKER-001 (Indefinición PTC)  
 **Plan B:** FFFIS estándar genérico si no se define protocolo
 
 ---
@@ -43,7 +43,7 @@ Documentar TODAS las interfaces entre sistemas del proyecto, especificando:
 | Aspecto | Especificación | Estado | Responsable |
 |:--------|:---------------|:-------|:------------|
 | **Protocolo** | UIC 918-4 / Siemens Trainguard | ❌ FENOCO NO compartió | EPC + FENOCO |
-| **Medio físico** | GSM-R + Ethernet redundante | ✅ Estándar | EPC Telecomunicaciones |
+| **Medio físico** | RED TETRA (Misión Crítica) + Ethernet redundante | ✅ Estándar | EPC Telecomunicaciones |
 | **Mensajes** | Posición, estado, comandos | ❌ Formato desconocido | **Requiere FENOCO** |
 | **Frecuencia** | 10 seg (según UIC) | ✅ Estándar | - |
 | **Seguridad** | Cifrado AES-256 + VPN | ✅ Definido | EPC Ciberseguridad |
@@ -55,14 +55,14 @@ Documentar TODAS las interfaces entre sistemas del proyecto, especificando:
 
 ---
 
-### **IF-03: TETRA ↔ GSM-R (Gateway Dual)** 🟡 MEDIA
+### **IF-03: TETRA ↔ RED TETRA (Misión Crítica) (Gateway Dual)** 🟡 MEDIA
 
 | Aspecto | Especificación | Estado | Responsable |
 |:--------|:---------------|:-------|:------------|
 | **Protocolo** | SIP (voz) + TETRA DMO | 🟡 Conceptual | EPC Telecomunicaciones |
 | **Medio físico** | Gateway embarcado dual | 🟡 Conceptual | EPC |
 | **Funcionalidad** | Conmutación automática voz | ✅ Definido | EPC |
-| **Cobertura** | Automática (TETRA zona + GSM-R corredor) | ✅ Definido | - |
+| **Cobertura** | Automática (TETRA zona + RED TETRA (Misión Crítica) corredor) | ✅ Definido | - |
 | **Pruebas** | Zona sin cobertura → Conmutación | 🟡 Plan conceptual | EPC |
 
 **Criticidad:** 🟡 MEDIA (Mejora operativa, no crítica)  
@@ -243,7 +243,7 @@ Documentar TODAS las interfaces entre sistemas del proyecto, especificando:
 ### **ANI/Concesionario Define:**
 - ✅ Alcance SICC (APIs o no)
 - ✅ Especificaciones FENOCO (si colabora)
-- ✅ Definición ITCS (sistema final)
+- ✅ Definición PTC (sistema final)
 - ✅ Aprobación final SAT
 
 ---

@@ -36,10 +36,10 @@
 #### **Contrato y Apéndices Técnicos:**
 1. **FORMATEADO_APENDICE TECNICO 1.md** - Alcance del proyecto (AT1) - Cap. V Material Rodante
 2. **FORMATEADO_APENDICE TECNICO 2.md** - Operación y mantenimiento (AT2) - Mantenimiento material rodante
-3. **FORMATEADO_APENDICE TECNICO 3.md** - Especificaciones generales (AT3) - ITCS embarcado
+3. **FORMATEADO_APENDICE TECNICO 3.md** - Especificaciones generales (AT3) - PTC embarcado
 4. **FORMATEADO_APENDICE TECNICO 4.md** - Indicadores de desempeño (AT4) - Disponibilidad material rodante
 5. **FORMATEADO_APENDICE TECNICO 10.md** - Capacidad y surcos (AT10) - Integración material rodante
-6. **Cl_13_1_MaterialRodante** - Equipos embarcados ITCS TETRA
+6. **Cl_13_1_MaterialRodante** - Equipos embarcados PTC TETRA
 
 #### **Ingeniería Conceptual:**
 7. **32_Material_Rodante_Integrado_v5.0.md** - Sistema material rodante integrado
@@ -64,7 +64,7 @@
 #### **Ingeniería de Detalle:**
 23. **V.3.1_Material_Rodante_Detallado.md** - Material rodante detallado
 24. **V.X_Sistema_EOT_Detalle_v5.0.md** - Sistema EOT detalle
-25. **V.X_Sistema_GSM-R_Detalle_v5.0.md** - Sistema GSM-R detalle
+25. **V.X_Sistema_RED TETRA (Misión Crítica)_Detalle_v5.0.md** - Sistema RED TETRA (Misión Crítica) detalle
 26. **V.4.1_Sistemas_Ferroviarios_Integrados_DETALLADO.md** - Sistemas ferroviarios integrados
 27. **V.5.1_Plan_Integracion_Sistemas_COMPLETO.md** - Plan integración sistemas
 28. **8_10_Sistema_de_comunicaciones_embarcados.md** - Sistema comunicaciones embarcados
@@ -83,8 +83,8 @@
 2. **26. Sistem_CTC_Int – AT1(CCO) + AT2(op) + AT3(esp) + AT4(ind) + AT9(cro).md** - Sistema CTC integrado
 3. **27.1_Estimacion_Cantidades_TETRA_v5.0.md** - Estimación cantidades TETRA
 4. **35_Criterios_Redundancia_docx_Disponibilidad_y_respaldo_de_sistemas_cr_ticos.md** - Criterios redundancia
-5. **ITCS_SRS_Indice_v1.0.md** - ITCS SRS índice
-6. **ITCS_STM_Embarcado_v1.0.md** - ITCS STM embarcado
+5. **PTC_SRS_Indice_v1.0.md** - PTC SRS índice
+6. **PTC_STM_Embarcado_v1.0.md** - PTC STM embarcado
 
 #### **Ingeniería Básica:**
 7. **IV_Ingenieria_Basica_RESUMEN_MEJORADO.md** - Resumen ingeniería básica
@@ -113,7 +113,7 @@
 6. **9_Interfon_a_Contrato_8_8_2.md** - Interfonía contrato 8.8.2
 
 #### **Soporte Especializado:**
-7. **VII.2_Especificaciones/VII.2.1_SRS_ITCS_ETCS_Level2_v1.0.md** - SRS ITCS ETCS Level 2
+7. **VII.2_Especificaciones/VII.2.1_SRS_PTC_PTC VIRTUAL_Level2_v1.0.md** - SRS PTC PTC VIRTUAL Level 2
 
 ---
 
@@ -132,9 +132,9 @@
 - **Brecha:** Falta especificación técnica detallada de alcance de puesta a punto
 
 #### **3. Sistemas Embarcados:**
-- **Cl13.1:** ITCS, TETRA, GPS, CCTV embarcado
-- **AT3:** Especificaciones ITCS embarcado (Cap. VIII, Num. 8.10)
-- **Brecha:** Especificaciones técnicas ITCS embarcado pendientes de AT3
+- **Cl13.1:** PTC, TETRA, GPS, CCTV embarcado
+- **AT3:** Especificaciones PTC embarcado (Cap. VIII, Num. 8.10)
+- **Brecha:** Especificaciones técnicas PTC embarcado pendientes de AT3
 
 #### **4. Talleres de Mantenimiento:**
 - **V.3.1:** Taller principal La Dorada + secundario Chiriguaná + talleres línea
@@ -150,7 +150,7 @@
 
 #### **2. Interoperabilidad FENOCO:**
 - **Cl13.2:** Compatibilidad operativa con FENOCO
-- **AT3:** ITCS embarcado compatible con FENOCO
+- **AT3:** PTC embarcado compatible con FENOCO
 - **Inconsistencia:** Falta especificación detallada de protocolos de interoperabilidad
 
 #### **3. Normativas Aplicables:**
@@ -162,7 +162,7 @@
 
 #### **1. Especificaciones Técnicas Detalladas:**
 - Modelos específicos de locomotoras
-- Especificaciones de sistemas embarcados ITCS
+- Especificaciones de sistemas embarcados PTC
 - Componentes específicos de talleres de mantenimiento
 - Sistemas de puesta a punto detallados
 
@@ -188,8 +188,8 @@
 - Validar cantidades contra WBS presupuestal
 
 ### **2. Definir Sistemas Embarcados Integrados:**
-- Consolidar especificaciones ITCS embarcado
-- Definir interfaces con TETRA, GSM-R y GPS
+- Consolidar especificaciones PTC embarcado
+- Definir interfaces con TETRA, RED TETRA (Misión Crítica) y GPS
 - Establecer protocolos de interoperabilidad FENOCO
 
 ### **3. Consolidar Talleres de Mantenimiento:**

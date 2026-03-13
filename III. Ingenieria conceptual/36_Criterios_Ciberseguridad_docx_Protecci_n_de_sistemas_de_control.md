@@ -49,7 +49,7 @@ El diseño detallado de la seguridad de cada sistema está bloqueado hasta que e
 - **Ciberseguridad ↔ Red de Datos:** La segmentación de la red es el principal control de ciberseguridad.
 - **Ciberseguridad ↔ SICC (AT4):** El SICC debe estar protegido, y a su vez, el sistema de monitoreo de seguridad (SIEM) debe reportar al SICC.
 - **Ciberseguridad ↔ Interoperabilidad (FENOCO/ANI):** Las interfaces externas son los principales vectores de ataque y deben ser protegidas con firewalls y VPNs.
-- **🚂 Ciberseguridad ↔ ITCS:** Protección de sistemas de control embarcados ETCS Level 2 hasta AT3
+- **🚂 Ciberseguridad ↔ PTC:** Protección de sistemas de control embarcados PTC VIRTUAL Level 2 hasta AT3
 - **🔗 Ciberseguridad ↔ FENOCO:** Seguridad en interfaces de interoperabilidad según protocolos UIC
 
 ---
@@ -126,7 +126,7 @@ La siguiente matriz asigna los controles de ciberseguridad clave a cada sistema 
 | **Hardening de Sistemas** | Servidores, HMI, estaciones de trabajo | AT2 (Integridad de la información) | CIS Benchmarks |
 | **Gestión de Accesos Remotos** | Soporte de proveedores | AT4 (Acceso restringido) | IEC 62443-2-4 |
 | **Plan de Respuesta a Incidentes** | Todos los sistemas | AT2 (Continuidad del servicio) | NIST SP 800-61 |
-| **🚂 Protección ITCS Embarcado** | Sistemas de control embarcados | AT4 (Disponibilidad 99.95%) | IEC 62443-3-3 |
+| **🚂 Protección PTC Embarcado** | Sistemas de control embarcados | AT4 (Disponibilidad 99.95%) | IEC 62443-3-3 |
 | **🔗 Seguridad Interfaces FENOCO** | Interfaces de interoperabilidad | AT4 (Interoperabilidad) | UIC 556 |
 
 ---
@@ -172,29 +172,29 @@ La aprobación de estos criterios de ciberseguridad **completa el Bloque de Trab
 ## ACTUALIZACIÓN v4.1 - REVISIÓN METODOLOGÍA PUNTO 42
 
 ### **MEJORAS IMPLEMENTADAS:**
-1. **Interfaces Críticas ITCS:** Protección de sistemas de control embarcados ETCS Level 2 hasta AT3
+1. **Interfaces Críticas PTC:** Protección de sistemas de control embarcados PTC VIRTUAL Level 2 hasta AT3
 2. **Interfaces Críticas FENOCO:** Seguridad en interfaces de interoperabilidad según protocolos UIC
-3. **Matriz de Controles ITCS:** Protección ITCS Embarcado con estándar IEC 62443-3-3
+3. **Matriz de Controles PTC:** Protección PTC Embarcado con estándar IEC 62443-3-3
 4. **Matriz de Controles FENOCO:** Seguridad Interfaces FENOCO con estándar UIC 556
 
 ### **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
-1. **Falta de protección ITCS:** Agregada protección específica para sistemas de control embarcados
+1. **Falta de protección PTC:** Agregada protección específica para sistemas de control embarcados
 2. **Ausencia de seguridad FENOCO:** Integrada seguridad en interfaces de interoperabilidad
-3. **Matriz incompleta:** Agregados controles específicos para ITCS y FENOCO
+3. **Matriz incompleta:** Agregados controles específicos para PTC y FENOCO
 
 ### ⚠️ **RIESGOS IDENTIFICADOS PARA ANÁLISIS PMI:**
 
 | ID | Categoría | Probabilidad | Impacto | Descripción |
 |:---:|:---:|:---:|:---:|:---|
-| R-080 | Técnico | Alta | Alto | Vulnerabilidades en sistemas ITCS por dependencia AT3 |
+| R-080 | Técnico | Alta | Alto | Vulnerabilidades en sistemas PTC por dependencia AT3 |
 | R-081 | Técnico | Media | Alto | Ataques a interfaces FENOCO por falta de protocolos UIC |
 | R-082 | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.95% por incidentes de seguridad |
-| R-083 | Operacional | Alta | Medio | Complejidad en gestión de seguridad ITCS y FENOCO |
+| R-083 | Operacional | Alta | Medio | Complejidad en gestión de seguridad PTC y FENOCO |
 | R-084 | Técnico | Media | Medio | Integración de controles de seguridad con sistemas FENOCO existentes |
 
 ### **RECOMENDACIONES PARA GESTIÓN DE RIESGOS:**
-1. **Estrategia ITCS:** Implementar controles de seguridad basados en ETCS Level 2 hasta disponibilidad de AT3
+1. **Estrategia PTC:** Implementar controles de seguridad basados en PTC VIRTUAL Level 2 hasta disponibilidad de AT3
 2. **Coordinación FENOCO:** Establecer protocolos de seguridad compatibles con sistemas FENOCO existentes
 3. **Monitoreo AT4:** Implementar SIEM para garantizar cumplimiento de disponibilidad 99.95%
-4. **Pruebas de Seguridad:** Desarrollar protocolos de pentesting específicos para ITCS y FENOCO
-5. **Plan de Contingencia:** Establecer procedimientos de respuesta a incidentes para sistemas ITCS y FENOCO
+4. **Pruebas de Seguridad:** Desarrollar protocolos de pentesting específicos para PTC y FENOCO
+5. **Plan de Contingencia:** Establecer procedimientos de respuesta a incidentes para sistemas PTC y FENOCO

@@ -94,7 +94,7 @@ IX. WBS y Planificacion/
       "impacto": "Alto",
       "exposicion": 15,
       "estrategia": "Mitigar",
-      "mitigacion": "Contratos marco con 2 proveedores certificados ETCS",
+      "mitigacion": "Contratos marco con 2 proveedores certificados PTC VIRTUAL",
       "responsable": "PMO + Especialista Sistemas",
       "estado": "Activo",
       "origen": "DT-TETRA-001",

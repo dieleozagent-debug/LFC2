@@ -319,7 +319,7 @@ Situación: Interventoría propone modificar cronograma diferente a AT9Resoluci
 Caso 3: Obligación Implícita
 Situación: AT1 especifica talleres, pero no menciona sistema contra incendiosResolución: Aplicar Cláusula 1.2(c) - obligación implícita derivada de la naturaleza del tallerAcción EPC: Incluir sistema contra incendios según normativa NFPA
 Caso 4: Contradicción entre AT1 y AT3
-Situación: AT1 especifica 40 locomotoras, AT3 indica equipos ITCS para 45 locomotorasResolución: Prevalece AT1 (nivel 2 vs nivel 4)Acción EPC: Adquirir ITCS para 40 locomotoras según AT1
+Situación: AT1 especifica 40 locomotoras, AT3 indica equipos PTC para 45 locomotorasResolución: Prevalece AT1 (nivel 2 vs nivel 4)Acción EPC: Adquirir PTC para 40 locomotoras según AT1
 
 5. Interfaces con Otros Sistemas Documentales
 5.1 Gestión de Cambios Contractuales

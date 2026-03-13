@@ -8,7 +8,7 @@
 ---
 
 ## 📄 FILOSOFÍA DE DISEÑO
-El sistema de señalización se define como **VIRTUAL**, eliminando señales físicas y balizas para reducir CAPEX y riesgos de robo/vandalismo.
+El sistema de señalización se define como **VIRTUAL**, eliminando señales físicas y punto de referencia virtuals para reducir CAPEX y riesgos de robo/vandalismo.
 - **Detección:** Basada en posición GPS reportada por la locomotora y el EOT.
 - **Validación de Vía:** Los enclavamientos (ENCE) verifican la posición de los desvíos y comunican el estado al Servidor PTC Central.
 - **Autorización:** Se envía digitalmente a través de la red **TETRA**.
@@ -17,7 +17,7 @@ El sistema de señalización se define como **VIRTUAL**, eliminando señales fí
 
 ## 🔍 AUDITORÍA DE RE-INGENIERÍA (METODOLOGÍA P.42 v4.2)
 Este documento purga la v5.0 de las siguientes inconsistencias:
-1. **ELIMINADO ETCS Level 2:** Se sustituye por arquitectura **PTC Virtual** (FRA 236).
+1. **ELIMINADO PTC VIRTUAL Level 2:** Se sustituye por arquitectura **PTC Virtual** (FRA 236).
 2. **ELIMINADO INTERFAZ RBC:** No hay centros de bloque de radio europeos.
 3. **ELIMINADO EUROBALIZAS:** Detección lógica mediante GPS/EOT.
 

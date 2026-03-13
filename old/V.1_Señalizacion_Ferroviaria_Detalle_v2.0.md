@@ -14,7 +14,7 @@
 ### **📋 CAMBIO DE PARADIGMA COMPLETO:**
 
 #### **🔴 FILOSOFÍA ANTERIOR (ELIMINADA):**
-- **❌ Eurobalises:** 1,080 unidades → **0 unidades** (Reemplazado por ATP embarcado)
+- **❌ Virtual Balise (GNSS)s:** 1,080 unidades → **0 unidades** (Reemplazado por ATP embarcado)
 - **❌ RBC:** 2 unidades → **0 unidades** (Reemplazado por ATP embarcado)
 - **❌ Señalización física en vía:** Eliminada completamente (CTC virtual)
 - **❌ LEU:** 1,080 unidades → **0 unidades** (Sistema virtual)
@@ -44,7 +44,7 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 - **5 Enclavamientos ENCE** electrónicos
 - **24 Pasos a Nivel** activos (9 Tipo C + 15 Tipo B)
 - **120 Desvíos** (25 motorizados + 95 manuales)
-- **Integración con TETRA + GSM-R**
+- **Integración con TETRA + RED TETRA (Misión Crítica)**
 
 ---
 
@@ -71,7 +71,7 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 - **Sistema ATP Embarcado** - 15 locomotoras
 - **Display Virtual en Cabina** - Señalización para maquinista
 - **Enclavamientos ENCE** - 5 estaciones críticas
-- **Sistemas de Comunicación** - TETRA + GSM-R
+- **Sistemas de Comunicación** - TETRA + RED TETRA (Misión Crítica)
 
 ### 3.2 Integración con ATP Embarcado
 - Interfaz CTC-ATP según protocolos virtuales
@@ -87,14 +87,14 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 - **Servidor CTC:** Software de control ferroviario centralizado
 - **Base de Datos:** Estado de vía y trenes en tiempo real
 - **Interfaz Operador:** Consolas de control y monitoreo
-- **Comunicaciones:** Red TETRA + GSM-R para ATP
+- **Comunicaciones:** Red TETRA + RED TETRA (Misión Crítica) para ATP
 - **Respaldo:** Sistemas redundantes y UPS
 
 ### 4.2 ATP Embarcado (15 Locomotoras)
 - **Computadora ATP:** Sistema embarcado en cada locomotora
 - **Sensores de Velocidad:** GPS + odómetro para posición precisa
 - **Display del Maquinista:** Pantalla de señalización virtual
-- **Comunicación CTC:** Radio TETRA + GSM-R para comunicación
+- **Comunicación CTC:** Radio TETRA + RED TETRA (Misión Crítica) para comunicación
 - **Sensores:** Velocidad, frenos, integridad
 
 ### 4.3 Enclavamientos ENCE (5 Estaciones)
@@ -116,7 +116,7 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 
 ### 5.1 Preparación del Sitio
 - **CCO La Dorada:** Construcción y equipamiento del centro de control
-- **37 Torres Comunicaciones:** TETRA + GSM-R colocalizadas
+- **37 Torres Comunicaciones:** TETRA + RED TETRA (Misión Crítica) colocalizadas
 - **Fibra Óptica:** 594 km de backbone de comunicaciones
 - **Instalación ENCE:** 5 enclavamientos electrónicos
 
@@ -176,7 +176,7 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 
 ### 8.1 Sistemas de Comunicación
 - **Integración TETRA:** 37 estaciones base
-- **Integración GSM-R:** 37 estaciones colocalizadas
+- **Integración RED TETRA (Misión Crítica):** 37 estaciones colocalizadas
 - **Fibra Óptica:** 594 km de backbone
 - **Redes de Datos:** Sistemas de comunicación integrados
 
@@ -200,7 +200,7 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 - **Pruebas CTC:** Centro de control centralizado
 - **Pruebas ATP:** Sistemas embarcados en locomotoras
 - **Pruebas ENCE:** Enclavamientos electrónicos
-- **Pruebas Comunicaciones:** TETRA + GSM-R
+- **Pruebas Comunicaciones:** TETRA + RED TETRA (Misión Crítica)
 
 ### 9.2 Pruebas de Sistema
 - **Pruebas de Integración:** CTC-ATP-ENCE
@@ -291,14 +291,14 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 ## 14. Impacto Presupuestal de Filosofía Virtual
 
 ### 14.1 Eliminaciones (Sobrepresupuesto)
-- **Eurobalises:** -$40,000,000,000 COP
+- **Virtual Balise (GNSS)s:** -$40,000,000,000 COP
 - **Señales LED vía:** -$12,000,000,000 COP
 - **RBC:** -$2,000,000,000 COP
 - **LEU:** -$10,000,000,000 COP
 - **TOTAL ELIMINAR:** -$64,000,000,000 COP
 
 ### 14.2 Implementaciones Nuevas (Faltante)
-- **GSM-R:** +$3,484,000,000 COP
+- **RED TETRA (Misión Crítica):** +$3,484,000,000 COP
 - **EOT:** +$520,000,000 COP
 - **ENCE:** +$6,020,000,000 COP
 - **Desvíos:** +$3,783,000,000 COP
@@ -320,7 +320,7 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 
 ### 15.2 Documentos Dependientes (Por Actualizar)
 - **V.2_Centro_Control_Trafico_CTC_Detalle_v1.0.md** ⏳ (CTC virtual)
-- **V.3_Sistemas_Comunicacion_Detalle_v1.0.md** ⏳ (GSM-R agregado)
+- **V.3_Sistemas_Comunicacion_Detalle_v1.0.md** ⏳ (RED TETRA (Misión Crítica) agregado)
 
 ---
 

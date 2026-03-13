@@ -54,7 +54,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 - **Adquisición de Predios:** ~33 predios coordinados con estudio de cobertura (AT7)
 - **Gestión de Permisos:** Trámites con ANE para asignación de frecuencias
 - **Estudio de Propagación:** Definición de ubicaciones óptimas de torres
-- **🚂 ITCS ETCS Level 2:** Interfaces para control embarcado hasta AT3
+- **🚂 PTC PTC VIRTUAL Level 2:** Interfaces para control embarcado hasta AT3
 - **🔗 Interoperabilidad FENOCO:** Compatibilidad con sistemas FENOCO según protocolos UIC
 - **📊 Disponibilidad AT4:** Cumplimiento de disponibilidad 99.5% según indicadores contractuales
 
@@ -64,11 +64,11 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 
 | ID | Categoría | Probabilidad | Impacto | Descripción | Estrategia de Mitigación |
 |:---:|:---:|:---:|:---:|:---|:---|
-| **R-105** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones ITCS en radio TETRA | Desarrollar interfaces de radio TETRA basadas en ETCS Level 2 hasta disponibilidad de AT3 |
+| **R-105** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en radio TETRA | Desarrollar interfaces de radio TETRA basadas en PTC VIRTUAL Level 2 hasta disponibilidad de AT3 |
 | **R-106** | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por interfaces incompatibles | Establecer protocolos de radio TETRA compatibles con sistemas FENOCO existentes |
 | **R-107** | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.5% en radio TETRA según AT4 | Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad |
-| **R-108** | Operacional | Alta | Medio | Complejidad en gestión de 33 sitios TETRA con ITCS | Desarrollar protocolos de prueba específicos para ITCS y FENOCO |
-| **R-109** | Técnico | Media | Medio | Integración de radio TETRA con sistemas FENOCO existentes | Establecer procedimientos de fallback para sistemas de radio TETRA ITCS y FENOCO |
+| **R-108** | Operacional | Alta | Medio | Complejidad en gestión de 33 sitios TETRA con PTC | Desarrollar protocolos de prueba específicos para PTC y FENOCO |
+| **R-109** | Técnico | Media | Medio | Integración de radio TETRA con sistemas FENOCO existentes | Establecer procedimientos de fallback para sistemas de radio TETRA PTC y FENOCO |
 
 ---
 
@@ -135,7 +135,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 3. **Sin referencia a normativas ferroviarias:** No menciona estándares UIC, AREMA específicos para radio ferroviaria
 4. **Objetivos vagos:** Los objetivos son genéricos, no específicos para radio TETRA
 5. **Cronograma genérico:** No considera tiempos específicos para instalación de estaciones base, pruebas de cobertura
-6. **Sin integración con otros sistemas:** No menciona interfaces con CTC, señalización, ITCS
+6. **Sin integración con otros sistemas:** No menciona interfaces con CTC, señalización, PTC
 
 ### 1.3 🔍 GAPS CRÍTICOS IDENTIFICADOS
 1. **Especificaciones de red TETRA:**
@@ -170,7 +170,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 | Documento | Estado | Impacto en Radio TETRA | Acción Requerida |
 |:---|:---:|:---|:---|
 | **AT3_EspecificacionesGenerales** | 🔴 **PENDIENTE** | **CRÍTICO** - Especificaciones técnicas de radio TETRA | **ESPERAR** - Bloquea especificaciones detalladas |
-| **AT10_CapacidadSurcos** | 🔴 **PENDIENTE** | **CRÍTICO** - Integración ITCS-CTC para radio TETRA | **ESPERAR** - Bloquea integración completa |
+| **AT10_CapacidadSurcos** | 🔴 **PENDIENTE** | **CRÍTICO** - Integración PTC-CTC para radio TETRA | **ESPERAR** - Bloquea integración completa |
 | **AT1_AlcanceProyecto** | ✅ **COMPLETADO v3.0** | **BASE** - Alcance del sistema de radio TETRA | **UTILIZAR** - Base para desarrollo |
 | **AT2_OperacionMantenimiento** | ✅ **COMPLETADO v3.0** | **BASE** - Operación de radio TETRA | **UTILIZAR** - Base para operación |
 | **AT4_IndicadoresDesempeno** | ✅ **COMPLETADO v3.0** | **BASE** - Indicadores de radio TETRA | **UTILIZAR** - Base para métricas |
@@ -191,15 +191,15 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 ### 2.2 Documentos Dependientes (Bloqueados 🔴)
 - **AT3_EspecificacionesGenerales** 🔴 - Especificaciones técnicas críticas para radio TETRA
-- **AT10_CapacidadSurcos** 🔴 - Integración ITCS-CTC para radio TETRA
+- **AT10_CapacidadSurcos** 🔴 - Integración PTC-CTC para radio TETRA
 
 ### 2.3 Interfaces Críticas
 - **Radio TETRA ↔ Señalización:** Integración del sistema de radio con señalización
 - **Radio TETRA ↔ CTC:** Integración con centro de control de tráfico
-- **Radio TETRA ↔ ITCS:** Integración de sistemas de control integrado
+- **Radio TETRA ↔ PTC:** Integración de sistemas de control integrado
 - **Radio TETRA ↔ Fibra Óptica:** Integración de red de comunicaciones
 - **Radio TETRA ↔ ITS:** Integración del sistema de información de tránsito
-- **🚂 Radio TETRA ↔ ITCS:** Interfaces para control embarcado ETCS Level 2 hasta AT3
+- **🚂 Radio TETRA ↔ PTC:** Interfaces para control embarcado PTC VIRTUAL Level 2 hasta AT3
 - **🔗 Radio TETRA ↔ FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos UIC
 
 ## 3. OPTIMIZACIONES EPC ESPECÍFICAS PARA RADIO TETRA
@@ -255,7 +255,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
    - Validación de integración con otros sistemas
    - Certificación de cumplimiento normativo
 
-### 3.4 Estrategia de Avance con Bloqueos ITCS
+### 3.4 Estrategia de Avance con Bloqueos PTC
 - **Radio TETRA base:** Desarrollo con AT1, AT2, AT4 y sistemas completados mientras se espera AT3
 - **Arquitectura modular:** Diseño que permita integración futura de especificaciones técnicas
 - **Comunicación proactiva:** Mantener stakeholders informados sobre limitaciones
@@ -269,9 +269,9 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 | **Cumplimiento de radio TETRA** | 100% | Semanal | Supervisor Técnico |
 | **Integración de sistemas** | 100% | Diaria | Jefe de Proyecto |
 | **Calidad de radio TETRA** | Excelente | Quincenal | Auditoría Técnica |
-| **Alertas de bloqueo ITCS** | < 3 | Diaria | Gerencia de Proyecto |
+| **Alertas de bloqueo PTC** | < 3 | Diaria | Gerencia de Proyecto |
 
-### 4.2 Indicadores de Riesgo por Bloqueo ITCS
+### 4.2 Indicadores de Riesgo por Bloqueo PTC
 - **🟢 Verde:** Avance con radio TETRA disponible
 - **🟡 Amarillo:** Dependencias parciales identificadas
 - **🔴 Rojo:** Bloqueo total por AT3/AT10 pendientes
@@ -309,7 +309,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 ### 5.3 Criterios para Avance
 ✅ **Documento funcional** para radio TETRA disponible
-✅ **Bloqueos ITCS identificados** y estrategias definidas
+✅ **Bloqueos PTC identificados** y estrategias definidas
 ✅ **Base sólida establecida** con documentos disponibles
 ✅ **Plan de contingencia** implementado para especificaciones pendientes
 
@@ -323,14 +323,14 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 ## ACTUALIZACIÓN v4.1 - REVISIÓN METODOLOGÍA PUNTO 42
 
 ### **MEJORAS IMPLEMENTADAS:**
-1. **Interfaces Críticas ITCS:** Interfaces para control embarcado ETCS Level 2 hasta AT3
+1. **Interfaces Críticas PTC:** Interfaces para control embarcado PTC VIRTUAL Level 2 hasta AT3
 2. **Interfaces Críticas FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos UIC
-3. **Gestión de Sitios y Permisos ITCS:** Interfaces para control embarcado hasta AT3
+3. **Gestión de Sitios y Permisos PTC:** Interfaces para control embarcado hasta AT3
 4. **Gestión de Sitios y Permisos FENOCO:** Compatibilidad con sistemas FENOCO según protocolos UIC
 5. **Disponibilidad AT4:** Cumplimiento de disponibilidad 99.5% según indicadores contractuales
 
 ### **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
-1. **Falta de interfaces ITCS:** Agregadas interfaces específicas para control embarcado ETCS Level 2
+1. **Falta de interfaces PTC:** Agregadas interfaces específicas para control embarcado PTC VIRTUAL Level 2
 2. **Ausencia de interoperabilidad FENOCO:** Integrada interoperabilidad con sistemas FENOCO
 3. **Falta de criterios AT4:** Agregado cumplimiento de disponibilidad 99.5%
 
@@ -338,15 +338,15 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 | ID | Categoría | Probabilidad | Impacto | Descripción |
 |:---:|:---:|:---:|:---:|:---|
-| R-105 | Técnico | Alta | Alto | Dependencia AT3 para especificaciones ITCS en radio TETRA |
+| R-105 | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en radio TETRA |
 | R-106 | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por interfaces incompatibles |
 | R-107 | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.5% en radio TETRA según AT4 |
-| R-108 | Operacional | Alta | Medio | Complejidad en gestión de 33 sitios TETRA con ITCS |
+| R-108 | Operacional | Alta | Medio | Complejidad en gestión de 33 sitios TETRA con PTC |
 | R-109 | Técnico | Media | Medio | Integración de radio TETRA con sistemas FENOCO existentes |
 
 ### **RECOMENDACIONES PARA GESTIÓN DE RIESGOS:**
-1. **Estrategia ITCS:** Desarrollar interfaces de radio TETRA basadas en ETCS Level 2 hasta disponibilidad de AT3
+1. **Estrategia PTC:** Desarrollar interfaces de radio TETRA basadas en PTC VIRTUAL Level 2 hasta disponibilidad de AT3
 2. **Coordinación FENOCO:** Establecer protocolos de radio TETRA compatibles con sistemas FENOCO existentes
 3. **Monitoreo AT4:** Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad 99.5%
-4. **Pruebas de Radio TETRA:** Desarrollar protocolos de prueba específicos para ITCS y FENOCO
-5. **Plan de Contingencia:** Establecer procedimientos de fallback para sistemas de radio TETRA ITCS y FENOCO
+4. **Pruebas de Radio TETRA:** Desarrollar protocolos de prueba específicos para PTC y FENOCO
+5. **Plan de Contingencia:** Establecer procedimientos de fallback para sistemas de radio TETRA PTC y FENOCO

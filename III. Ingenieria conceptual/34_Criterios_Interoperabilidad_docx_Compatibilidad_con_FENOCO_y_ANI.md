@@ -10,7 +10,7 @@
 ## 1. MARCO DE INTEROPERABILIDAD
 
 ### 1.1 Objetivo
-Garantizar el intercambio seguro de trenes y datos entre el corredor La Dorada - Chiriguaná (Operación PTC Virtual) y la red de FENOCO (Operación ITCS), asegurando el reporte en tiempo real a la **ANI**.
+Garantizar el intercambio seguro de trenes y datos entre el corredor La Dorada - Chiriguaná (Operación PTC Virtual) y la red de FENOCO (Operación PTC), asegurando el reporte en tiempo real a la **ANI**.
 
 ### 1.2 Estrategia de Intercambio: Stop & Switch
 Para evitar la dependencia de protocolos propietarios cerrados de terceros, se adopta el procedimiento **Stop & Switch** en el nodo de Chiriguaná:
@@ -20,8 +20,8 @@ Para evitar la dependencia de protocolos propietarios cerrados de terceros, se a
 
 ---
 
-## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE ITCS/ETCS)
-- ✅ **ELIMINADO:** Requisito de "Compatibilidad Total ITCS" (por ser estándar propietario).
+## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE PTC/PTC VIRTUAL)
+- ✅ **ELIMINADO:** Requisito de "Compatibilidad Total PTC" (por ser estándar propietario).
 - ✅ **ELIMINADO:** Referencias a RBC, Eurobalisas y protocolos FFFIS.
 - ✅ **ELIMINADO:** Normativa UIC no aplicable.
 - ✅ **ADOPTADO:** Protocolo **Vital IP** para reporte a la **ANI** (SICC).
@@ -51,6 +51,6 @@ graph TD
 
 ## ✅ CONCLUSIONES:
 
-Los criterios de interoperabilidad han sido saneados para priorizar la soberanía tecnológica del proyecto. Se garantiza la compatibilidad operativa con FENOCO mediante procedimientos seguros, eliminando la necesidad de adquirir licencias propietarias ITCS.
+Los criterios de interoperabilidad han sido saneados para priorizar la soberanía tecnológica del proyecto. Se garantiza la compatibilidad operativa con FENOCO mediante procedimientos seguros, eliminando la necesidad de adquirir licencias propietarias PTC.
 
 **Saneamiento Ciclo 3 - Interoperabilidad Finalizado.**

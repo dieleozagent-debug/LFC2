@@ -124,7 +124,7 @@ Este documento presenta el **plan de integración de sistemas completo** para el
 #### **4.1 Sistemas Embarcados**
 | Sistema | Ubicación | Función | Observaciones |
 |:--------|:----------|:---------|:--------------|
-| **ITCS ETCS Level 2** | Cada tren | Control de tren | 40 unidades |
+| **PTC PTC VIRTUAL Level 2** | Cada tren | Control de tren | 40 unidades |
 | **TETRA** | Cada tren | Comunicaciones | 40 unidades |
 | **CCTV** | Cada tren | Video seguridad | 40 unidades |
 | **Sistemas de datos** | Cada tren | Transmisión datos | 40 unidades |
@@ -209,7 +209,7 @@ Este documento presenta el **plan de integración de sistemas completo** para el
 | Sistema | Parámetro | Frecuencia | Observaciones |
 |:--------|:----------|:------------|:--------------|
 | **CTC** | Estado de señales | Continua | Sistemas de control |
-| **ITCS** | Estado de trenes | Continua | Sistemas embarcados |
+| **PTC** | Estado de trenes | Continua | Sistemas embarcados |
 | **TETRA** | Calidad de comunicación | Continua | Sistemas de radio |
 | **CCTV** | Estado de cámaras | Continua | Sistemas de video |
 
@@ -247,7 +247,7 @@ Este documento presenta el **plan de integración de sistemas completo** para el
 | Sistema | Función | Ubicación | Observaciones |
 |:--------|:---------|:----------|:--------------|
 | **Control CTC** | Control de tráfico | La Dorada | Control centralizado |
-| **Control ITCS** | Control de trenes | Cada tren | Control embarcado |
+| **Control PTC** | Control de trenes | Cada tren | Control embarcado |
 | **Control TETRA** | Control de comunicaciones | La Dorada | Control centralizado |
 | **Control CCTV** | Control de video | La Dorada | Control centralizado |
 

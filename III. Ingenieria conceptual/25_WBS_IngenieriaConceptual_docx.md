@@ -64,7 +64,7 @@ A continuación, se presenta la Estructura de Desglose de Trabajo para la Ingeni
 | **1.0** | **Sistemas de Control y Señalización** | | |
 | 1.1 | Centro de Control de Tráfico (CTC) | - Arquitectura funcional del CTC<br>- Definición de interfaces con enclavamientos y SICC<br>- Requisitos de hardware/software para CCO<br>- **Disponibilidad 99.95% según AT4** | `26. Sistem_CTC_Int...md` |
 | 1.2 | Señalización Ferroviaria y Enclavamientos | - Filosofía de señalización (bloques, cantones)<br>- Criterios para enclavamientos electrónicos (CBI)<br>- Especificaciones para detectores de vía | `29_Sistema_Senalizacion_Integrado...md` |
-| 1.3 | Capacidad y Gestión de Surcos | - Modelo de simulación de capacidad (UIC-405)<br>- Reglas de negocio para asignación de surcos<br>- Protocolo de interoperabilidad con FENOCO<br>- **ITCS ETCS Level 2 hasta AT3** | `20. AT10_CapacidadSurcos...md` |
+| 1.3 | Capacidad y Gestión de Surcos | - Modelo de simulación de capacidad (UIC-405)<br>- Reglas de negocio para asignación de surcos<br>- Protocolo de interoperabilidad con FENOCO<br>- **PTC PTC VIRTUAL Level 2 hasta AT3** | `20. AT10_CapacidadSurcos...md` |
 | **2.0** | **Sistemas de Telecomunicaciones** | | |
 | 2.1 | Red de Fibra Óptica (Backbone) | - Diseño de topología de anillo redundante<br>- Especificaciones de cable y equipos de transmisión (DWDM)<br>- Plan de gestión de interferencias (AT5) | `28_Sistema_FibraOptica_Integrado...md` |
 | 2.2 | Sistema de Radio TETRA | - Estudio de cobertura de radio<br>- Plan de sitios para estaciones base (coord. con AT7)<br>- Especificaciones de equipos embarcados y portátiles<br>- **Disponibilidad 99.5% según AT4**<br>- **Interoperabilidad FENOCO UIC** | `27_Sistema_TETRA_Integrado...md` |
@@ -72,11 +72,11 @@ A continuación, se presenta la Estructura de Desglose de Trabajo para la Ingeni
 | 3.1 | Sistemas Inteligentes de Transporte (ITS) | - Arquitectura de sistemas ITS (paneles, sensores)<br>- Plan de integración con indicadores de desempeño (AT4)<br>- Criterios de gestión ambiental (AT6) | `30_Sistema_ITS_Integrado...md` |
 | 3.2 | Sistema de Videovigilancia (CCTV) | - Plan de cobertura de cámaras (estaciones, P.N., CCO)<br>- Especificaciones de VMS y almacenamiento<br>- Criterios de integración con gestión social (AT8) | `31_Sistema_CCTV_Integrado...md` |
 | **4.0** | **Material Rodante y Equipos** | | |
-| 4.1 | Material Rodante y Equipos Embarcados | - Especificaciones funcionales de locomotoras y vagones<br>- Requisitos de equipos embarcados (ITCS, TETRA, GPS)<br>- Plan de Puesta a Punto y Mantenimiento (AT2)<br>- **ITCS ETCS Level 2 hasta AT3**<br>- **Disponibilidad 99.95% según AT4** | `32_Material_Rodante_Integrado...md` |
+| 4.1 | Material Rodante y Equipos Embarcados | - Especificaciones funcionales de locomotoras y vagones<br>- Requisitos de equipos embarcados (PTC, TETRA, GPS)<br>- Plan de Puesta a Punto y Mantenimiento (AT2)<br>- **PTC PTC VIRTUAL Level 2 hasta AT3**<br>- **Disponibilidad 99.95% según AT4** | `32_Material_Rodante_Integrado...md` |
 | **5.0** | **Criterios de Diseño Transversales** | | |
 | 5.1 | Normatividad y Estándares | - Matriz de normatividad aplicable (AREMA, UIC, RETIE, etc.)<br>- Análisis de brechas normativas | `33_Criterios_Normatividad...md` |
 | 5.2 | Interoperabilidad | - Estrategia de interoperabilidad con FENOCO<br>- Definición de interfaces técnicas y operativas<br>- **Protocolos UIC para FENOCO** | `34_Criterios_Interoperabilidad...md` |
-| 5.3 | Redundancia y Disponibilidad | - Criterios de redundancia para sistemas críticos (N+1)<br>- Cálculo de disponibilidad por sistema<br>- **Criterios AT4: CTC 99.95%, TETRA 99.5%, ITCS 99.95%** | `35_Criterios_Redundancia...md` |
+| 5.3 | Redundancia y Disponibilidad | - Criterios de redundancia para sistemas críticos (N+1)<br>- Cálculo de disponibilidad por sistema<br>- **Criterios AT4: CTC 99.95%, TETRA 99.5%, PTC 99.95%** | `35_Criterios_Redundancia...md` |
 | 5.4 | Ciberseguridad | - Política de ciberseguridad para sistemas de control (OT)<br>- Arquitectura de red segura (segmentación, firewalls) | `36_Criterios_Ciberseguridad...md` |
 | **6.0** | **Sistemas Eléctricos y de Potencia** | | |
 | 6.1 | Sistema de Alimentación Principal y Respaldo | - Diseño de doble acometida eléctrica<br>- Diagramas unifilares generales<br>- Especificaciones de tableros y transformadores<br>- Cumplimiento RETIE | `V. Ingenieria de detalle/7_Instalaciones_el_ctricas_Contrato_8_7.md` |
@@ -111,13 +111,13 @@ Con la aprobación de esta WBS, se da por finalizada la fase de "Documentos Base
 
 ### ✅ **MEJORAS IMPLEMENTADAS:**
 
-1. **🚂 ITCS Especificado:** ETCS Level 2 como estándar hasta AT3 en paquetes críticos
+1. **🚂 PTC Especificado:** PTC VIRTUAL Level 2 como estándar hasta AT3 en paquetes críticos
 2. **🔗 Interoperabilidad FENOCO:** Criterios UIC especificados en paquetes relevantes
-3. **📊 Criterios de Disponibilidad AT4:** Integrados por paquete (CTC 99.95%, TETRA 99.5%, ITCS 99.95%)
+3. **📊 Criterios de Disponibilidad AT4:** Integrados por paquete (CTC 99.95%, TETRA 99.5%, PTC 99.95%)
 4. **🎯 WBS Actualizada:** Refleja mejoras implementadas en documentos individuales
 
 ### 🎯 **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
-- ✅ **ITCS:** Estrategia de avance con ETCS Level 2 especificada
+- ✅ **PTC:** Estrategia de avance con PTC VIRTUAL Level 2 especificada
 - ✅ **FENOCO:** Criterios de interoperabilidad según estándares UIC
 - ✅ **AT4:** Criterios de disponibilidad integrados por paquete
 - ✅ **Consistencia:** WBS alineada con documentos individuales mejorados
@@ -126,11 +126,11 @@ Con la aprobación de esta WBS, se da por finalizada la fase de "Documentos Base
 
 | **ID** | **Riesgo** | **Categoría** | **Probabilidad** | **Impacto** | **Descripción** |
 |:---:|:---|:---:|:---:|:---|:---|
-| **R-025** | **Dependencia AT3 en WBS** | **Técnico** | **Alta** | **Alto** | ITCS pendiente de AT3, paquetes afectados |
+| **R-025** | **Dependencia AT3 en WBS** | **Técnico** | **Alta** | **Alto** | PTC pendiente de AT3, paquetes afectados |
 | **R-026** | **Interoperabilidad FENOCO** | **Técnico** | **Media** | **Alto** | Compatibilidad con sistemas existentes FENOCO |
 | **R-027** | **Disponibilidad 99.95%** | **Contractual** | **Media** | **Alto** | Cumplimiento AT4 requiere redundancia crítica |
 | **R-028** | **Gestión de paquetes WBS** | **Gestión** | **Media** | **Medio** | Complejidad de seguimiento de paquetes |
-| **R-029** | **Integración entre paquetes** | **Técnico** | **Media** | **Alto** | Complejidad de integración CTC-ITCS-TETRA |
+| **R-029** | **Integración entre paquetes** | **Técnico** | **Media** | **Alto** | Complejidad de integración CTC-PTC-TETRA |
 
 ### 📋 **RECOMENDACIONES PARA GESTIÓN DE RIESGOS:**
 - **Análisis PMI requerido** para definir estrategias de mitigación

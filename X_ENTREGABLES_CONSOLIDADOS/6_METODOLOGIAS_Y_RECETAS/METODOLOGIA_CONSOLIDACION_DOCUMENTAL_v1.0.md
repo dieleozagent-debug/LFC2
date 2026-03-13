@@ -55,8 +55,8 @@ grep -r "PALABRA_CLAVE" "CARPETA/" --output-mode=files_with_matches
 ```
 
 **Palabras clave por sistema:**
-- **Control y Señalización:** CTC, ITCS, ETCS, ATP, ENCE, señalización
-- **Telecomunicaciones:** TETRA, GSM-R, fibra óptica, comunicaciones
+- **Control y Señalización:** CTC, PTC, PTC VIRTUAL, ATP, ENCE, señalización
+- **Telecomunicaciones:** TETRA, RED TETRA (Misión Crítica), fibra óptica, comunicaciones
 - **ITS y Seguridad:** CCTV, ITS, seguridad, videovigilancia
 - **Material Rodante:** locomotora, vagón, EOT, material rodante
 - **Infraestructura:** CCO, estación, subestación, infraestructura

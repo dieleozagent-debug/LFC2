@@ -88,7 +88,7 @@ Este documento proporciona el índice maestro consolidado de todos los documento
 | 3 | 3_Cl_8_2_Construcci_n_docx_Obligaciones_en_fase_de_construcci_n_MEJORADO | I. Contrato General/ | 19.79 KB | 2719 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
 | 4 | 10_Cl_I_2d_JerarquiaDocumental_docx_Prioridad_contractual_MEJORADO | I. Contrato General/ | 16.54 KB | 2257 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
 | 5 | 2_Cl_8_1_Preconstrucci_n_docx_Obligaciones_de_estudios_y_dise_os_MEJORADO | I. Contrato General/ | 19.59 KB | 2579 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 6 | 6_Cl_13_1_MaterialRodante_docx_Equipos_embarcados_ITCS_TETRA_MEJORADO | I. Contrato General/ | 12.8 KB | 262 | Ingenieria, Tecnico, Contrato, Sistemas | 27/01/2025 |
+| 6 | 6_Cl_13_1_MaterialRodante_docx_Equipos_embarcados_PTC_TETRA_MEJORADO | I. Contrato General/ | 12.8 KB | 262 | Ingenieria, Tecnico, Contrato, Sistemas | 27/01/2025 |
 | 7 | Cl_2_14_LicenciasPermisos_MEJORADO | I. Contrato General/ | 3.58 KB | 539 | Tecnico, Contrato | 17/09/2025 |
 | 8 | Contrato_general_indice_MEJORADO | I. Contrato General/ | 3.87 KB | 546 | Tecnico, Contrato, Sistemas | 17/09/2025 |
 | 9 | Cl_15_1_Reversion_Bienes_MEJORADO | I. Contrato General/ | 3.49 KB | 523 | Tecnico, Contrato | 17/09/2025 |

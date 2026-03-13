@@ -46,8 +46,8 @@ Este SRS define los requerimientos funcionales y de seguridad para el sistema **
 ---
 
 ## 🔍 AUDITORÍA DE SANEAMIENTO:
-- ✅ **ELIMINADO:** Requerimientos de Eurobalizas y RBC.
-- ✅ **ELIMINADO:** Referencias a ETCS Level 2 y normas CENELEC no aplicables.
+- ✅ **ELIMINADO:** Requerimientos de Virtual Balise (GNSS)s y RBC.
+- ✅ **ELIMINADO:** Referencias a PTC VIRTUAL Level 2 y normas CENELEC no aplicables.
 - ✅ **ADOPTADO:** Estándar **PTC Virtual** bajo normativa FRA y AREMA.
 
 ---

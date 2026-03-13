@@ -67,7 +67,7 @@
 ### **6. Blockers Validados vs Contrato** ✅
 - **Documento:** `@@VALIDACION_BLOCKERS_vs_CONTRATO_REAL_09Oct2025.md`
 - **Resultados:**
-  - BLOCKER-001 (ITCS): ✅ CONFIRMADO (AT3)
+  - BLOCKER-001 (PTC): ✅ CONFIRMADO (AT3)
   - BLOCKER-002 (FENOCO): 🟡 PARCIAL (AT10)
   - BLOCKER-003 (PANs): ⏳ Pendiente (AT1)
   - BLOCKER-004 (MR): ✅ CONFIRMADO (AT9)
@@ -190,7 +190,7 @@ Tiempo total: 5.74 segundos
 
 | ID | Blocker | Validación | Acción Inmediata |
 |----|---------|------------|------------------|
-| **BLOCKER-001** | Indefinición ITCS/ETCS L2 | ✅ CONFIRMADO (AT3) | Oficiar ANI Mes 6 |
+| **BLOCKER-001** | Indefinición PTC/PTC VIRTUAL L2 | ✅ CONFIRMADO (AT3) | Oficiar ANI Mes 6 |
 | **BLOCKER-002** | Protocolos FENOCO | 🟡 PARCIAL (AT10) | Reunión FENOCO Mes 5 |
 | **BLOCKER-003** | Cantidades PANs | ⏳ Pendiente (AT1) | Confirmar diseño modular |
 | **BLOCKER-004** | Cronograma MR | ✅ CONFIRMADO (AT9) | Oficiar ANI cronograma |
@@ -261,7 +261,7 @@ Tiempo total: 5.74 segundos
 ## 🎯 **PRÓXIMOS PASOS**
 
 ### **Esta semana (prioritario):**
-1. ✅ Ejecutar plan BLOCKER-001: Oficiar ANI (ITCS)
+1. ✅ Ejecutar plan BLOCKER-001: Oficiar ANI (PTC)
 2. ✅ Agendar reunión FENOCO (BLOCKER-002)
 3. ✅ Validar AT1 para BLOCKER-003 (PANs)
 

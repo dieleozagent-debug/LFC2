@@ -13,7 +13,7 @@
 **Archivos Contractuales Analizados:** 11 (Contrato + 10 ATs)  
 **Tamaño Total:** ~1.4 MB de documentación contractual  
 **Riesgos Validados:** 13 (9 reales documentados + 4 nuevos identificados)  
-**BLOCKERS Confirmados:** 2 de 4 (ITCS, MR Cronograma)  
+**BLOCKERS Confirmados:** 2 de 4 (PTC, MR Cronograma)  
 **BLOCKERS Descartados:** 1 de 4 (PAN - cantidad confirmada)  
 **BLOCKERS Parciales:** 1 de 4 (FENOCO - parcial)
 
@@ -21,26 +21,26 @@
 
 ## 🔴 **BLOCKERS CRÍTICOS - VALIDACIÓN FINAL**
 
-### **✅ BLOCKER-001: Indefinición ITCS/ETCS L2** - **CONFIRMADO REAL**
+### **✅ BLOCKER-001: Indefinición PTC/PTC VIRTUAL L2** - **CONFIRMADO REAL**
 
 **Fuentes Validadas:**
 1. **AT3 Capítulo VIII** (Señalización y Control):
    - Línea 289: "Positive Train Control" (PTC - AAR americano)
    - Líneas 506-524: Enclavamientos normas Adif (español)
    - Líneas 529-532: CTC protocolo Adif (español)
-   - ❌ **NO menciona:** ITCS ni ETCS Level 2
+   - ❌ **NO menciona:** PTC ni PTC VIRTUAL Level 2
 
 2. **Análisis A.1 (línea 49):**
    - "Diseñar 5 enclavamientos electrónicos y un sistema **PTC**"
 
 3. **Análisis A.3 (línea 58 - R-TEC-002):**
-   - "Indefinición especificaciones ITCS en AT3 **bloquea diseño material rodante**"
+   - "Indefinición especificaciones PTC en AT3 **bloquea diseño material rodante**"
 
 **Evidencia contractual:**
 - ✅ PTC mencionado (sistema americano AAR)
 - ✅ CTC Adif mencionado (sistema español)
-- ❌ ITCS NO mencionado
-- ❌ ETCS Level 2 NO mencionado
+- ❌ PTC NO mencionado
+- ❌ PTC VIRTUAL Level 2 NO mencionado
 
 **CONCLUSIÓN:** 🔴 **BLOCKER CRÍTICO CONFIRMADO**
 
@@ -164,13 +164,13 @@
 **Sistemas Principales:**
 1. **Señalización y Control:**
    - 5 Enclavamientos electrónicos (normas Adif)
-   - 1 Sistema PTC (normas AAR) ⚠️ Indefinición ITCS/ETCS L2
+   - 1 Sistema PTC (normas AAR) ⚠️ Indefinición PTC/PTC VIRTUAL L2
    - CTC centralizado (protocolo Adif)
 
 2. **Telecomunicaciones:**
    - Red TETRA 100% cobertura (normas EN 300 xxx)
    - Fibra Óptica 10 Gbps (UIT-T G.652)
-   - ⚠️ GSM-R: NO mencionado explícitamente en AT3
+   - ⚠️ RED TETRA (Misión Crítica): NO mencionado explícitamente en AT3
 
 3. **ITS y Seguridad:**
    - 200 Cámaras CCTV
@@ -179,7 +179,7 @@
 
 4. **Material Rodante:**
    - Puesta a Punto (responsabilidad Concesionario)
-   - Equipamiento ITCS/TETRA embarcado
+   - Equipamiento PTC/TETRA embarcado
    - ⚠️ Cantidad y cronograma entrega indefinidos
 
 5. **Infraestructura:**
@@ -219,8 +219,8 @@
 
 | ID | Descripción | Fuente | Impacto | Ya en Matriz? |
 |:--:|:------------|:-------|:--------|:-------------:|
-| **R-TEC-001** | Indefinición ITCS bloquea diseño MR | A.1 | Crítico | ✅ = R-AT3-01 |
-| **R-TEC-002** | Indefinición specs ITCS en AT3 | A.3 | Crítico | ✅ = R-AT3-01 |
+| **R-TEC-001** | Indefinición PTC bloquea diseño MR | A.1 | Crítico | ✅ = R-AT3-01 |
+| **R-TEC-002** | Indefinición specs PTC en AT3 | A.3 | Crítico | ✅ = R-AT3-01 |
 | **R-GES-004** | Desfase aprobación diseños vs cronograma | A.1 | Alto | ❌ NUEVO |
 | **R-CON-001** | Ambigüedad medición disponibilidad PAN 100% | A.2 | Alto | ❌ NUEVO |
 | **R-OPE-001** | Falla conmutación failover redundancia | A.2 | Alto | ❌ NUEVO |
@@ -235,12 +235,12 @@
 
 | Blocker | Validación | Criticidad | Acción |
 |:--------|:-----------|:----------:|:-------|
-| **BLOCKER-001** ITCS | ✅ CONFIRMADO | 🔴 CRÍTICA | Oficiar ANI Mes 6 |
+| **BLOCKER-001** PTC | ✅ CONFIRMADO | 🔴 CRÍTICA | Oficiar ANI Mes 6 |
 | **BLOCKER-002** FENOCO | 🟡 PARCIAL | 🟠 ALTA | Documento compatibilidad M3 |
 | **BLOCKER-003** PAN | ❌ DESCARTADO | - | 146 PAN confirmado ✅ |
 | **BLOCKER-004** MR | ✅ CONFIRMADO | 🟡 MEDIA | Solicitar cronograma Mes 5 |
 
-**BLOCKERS REALES:** 2 (ITCS, MR Cronograma)  
+**BLOCKERS REALES:** 2 (PTC, MR Cronograma)  
 **BLOCKERS PARCIALES:** 1 (FENOCO)  
 **BLOCKERS DESCARTADOS:** 1 (PAN - cantidad confirmada)
 
@@ -262,7 +262,7 @@
 ### **2. Sistemas de Control: Normas Mixtas (INDEFINICIÓN)**
 - **PTC** (AAR americano) mencionado
 - **CTC Adif** (español) mencionado
-- **ITCS/ETCS L2** NO mencionados
+- **PTC/PTC VIRTUAL L2** NO mencionados
 - **Acción:** Definir sistema específico (Mes 6)
 
 ---
@@ -291,10 +291,10 @@
 
 ---
 
-### **6. GSM-R: NO mencionado en AT3**
-- Base datos incluye GSM-R
+### **6. RED TETRA (Misión Crítica): NO mencionado en AT3**
+- Base datos incluye RED TETRA (Misión Crítica)
 - AT3 solo menciona TETRA
-- **¿GSM-R es obligatorio?** ⏳
+- **¿RED TETRA (Misión Crítica) es obligatorio?** ⏳
 - **Acción:** Clarificar con ANI
 
 ---
@@ -328,7 +328,7 @@
 
 | ID | Blocker | Fuente Contrato | Validado | Criticidad | Estado |
 |:--:|:--------|:----------------|:--------:|:----------:|:-------|
-| **001** | Indefinición ITCS/ETCS L2 | AT3 §8.1-8.2 + A.3 | ✅ SÍ | 🔴 CRÍTICA | ACTIVO |
+| **001** | Indefinición PTC/PTC VIRTUAL L2 | AT3 §8.1-8.2 + A.3 | ✅ SÍ | 🔴 CRÍTICA | ACTIVO |
 | **002** | Protocolos FENOCO | AT10 §4.1-4.4 | 🟡 PARCIAL | 🟠 ALTA | ACTIVO |
 | **003** | Cantidades PAN | AT1 + A.1/A.3 | ❌ NO | - | **CERRADO** |
 | **004** | Cronograma MR | AT9 §(h) + AT10 | ✅ SÍ | 🟡 MEDIA | ACTIVO |
@@ -342,7 +342,7 @@
 
 ### **Oficio 1 - BLOCKER-001 (URGENTE):**
 ```
-ASUNTO: Clarificación Sistema Control Trenes (ITCS/ETCS L2)
+ASUNTO: Clarificación Sistema Control Trenes (PTC/PTC VIRTUAL L2)
 REF: AT3 Capítulo VIII - Indefinición PTC/CTC/Adif
 CRITICIDAD: 🔴 BLOQUEADOR - 60% Cap 1 ($132,228M)
 PLAZO RESPUESTA: Mes 6 (15-Dic-2025)
@@ -364,11 +364,11 @@ CRITICIDAD: 🟠 ALTA - Gateway sin specs
 PLAZO RESPUESTA: Mes 6 (15-Dic-2025)
 ```
 
-### **Oficio 4 - Clarificación GSM-R:**
+### **Oficio 4 - Clarificación RED TETRA (Misión Crítica):**
 ```
-ASUNTO: Confirmación Sistema GSM-R (NO mencionado AT3)
+ASUNTO: Confirmación Sistema RED TETRA (Misión Crítica) (NO mencionado AT3)
 REF: AT3 §8.4-8.5 - Solo menciona TETRA
-CRITICIDAD: 🟡 MEDIA - Base datos incluye GSM-R
+CRITICIDAD: 🟡 MEDIA - Base datos incluye RED TETRA (Misión Crítica)
 PLAZO RESPUESTA: Mes 6
 ```
 
@@ -385,7 +385,7 @@ PLAZO RESPUESTA: Mes 6
 ---
 
 **Estado:** ✅ ANÁLISIS CONTRACTUAL 100% COMPLETADO  
-**BLOCKERs REALES:** 2.5 (ITCS, MR, FENOCO parcial)  
+**BLOCKERs REALES:** 2.5 (PTC, MR, FENOCO parcial)  
 **Riesgos Nuevos:** 4 (R-GES-004, R-CON-001, R-OPE-001, R-CAL-001)  
 **Fecha:** 9 de Octubre 2025
 

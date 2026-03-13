@@ -73,7 +73,7 @@
 
 | Lote | Orden Mes | Llegada Mes | Lead Time | Ítems | Valor (M) |
 |:----:|:---------:|:-----------:|:---------:|:------|:---------:|
-| **Lote 1 Crítico** | 13 | 25 | 12m | ATP/ITCS | $40,000 |
+| **Lote 1 Crítico** | 13 | 25 | 12m | ATP/PTC | $40,000 |
 | **Lote 2 Urgente** | 13 | 22 | 9m | Fibra 48F (594km) | $5,828 |
 | **Lote 3 Alto** | 13 | 19 | 6m | Servidores CTC | $12,500 |
 | **Lote 4 Medio** | 14 | 20 | 6m | Estaciones TETRA | $25,000 |
@@ -122,17 +122,17 @@
 
 ### **FASE 5: INSTALACIÓN SECUNDARIA (Mes 25-34) - 10 meses**
 
-**Objetivo:** ATP/ITCS, ITS, Sistemas Embarcados
+**Objetivo:** ATP/PTC, ITS, Sistemas Embarcados
 
 | Mes | Actividad | Material | Instalación | Dependencia Crítica |
 |:---:|:----------|:---------|:------------|:--------------------|
-| **25** | Llega ATP/ITCS | ✅ Mes 25 | 25-30 (6m) | CTC operativo (M24) |
+| **25** | Llega ATP/PTC | ✅ Mes 25 | 25-30 (6m) | CTC operativo (M24) |
 | 25-28 | CCTV (93 cámaras) | Llegada M24 | 4 meses | Fibra+Red IP (M26) |
 | 26-30 | Configuración ATP | Equipo M25 | 5 meses | CTC+Fibra |
 | 27-32 | ITS (Barreras, PAN) | Llegada M26 | 6 meses | Red + Energía |
 | 28-34 | ATP Embarcado | Material Rodante M20 | 7 meses | **EXT-02** + Taller |
 | 29-34 | TETRA Embarcado | MR disponible | 6 meses | **EXT-02** |
-| 30-34 | GSM-R Embarcado | MR disponible | 5 meses | **EXT-02** |
+| 30-34 | RED TETRA (Misión Crítica) Embarcado | MR disponible | 5 meses | **EXT-02** |
 
 **HITO Mes 34:** ✅ Todos los sistemas instalados (Terrestre + Embarcado)
 
@@ -184,7 +184,7 @@
 | Retraso aprobación ANI | 40% | 2m | Observaciones mayores |
 | Retraso entrega CCO (EXT-01) | 50% | 3m | Obra civil compleja |
 | Retraso Material Rodante (EXT-02) | 30% | 2m | Certificación extendida |
-| Retraso ATP/ITCS (12m lead) | 60% | 3m | Proveedor internacional |
+| Retraso ATP/PTC (12m lead) | 60% | 3m | Proveedor internacional |
 | Integración CTC-ATP | 50% | 2m | Compatibilidad |
 
 **Total Buffer Asignado:** 12 meses  
@@ -202,7 +202,7 @@
 | **H4** | 18 | **Edificio CCO Entregado** | **ANI** | 🔴 **Externo Crítico** |
 | **H5** | 20 | **Material Rodante Certificado** | **Fenoco/ANI** | 🔴 **Externo Crítico** |
 | **H6** | 22 | Fibra en Sitio | Proveedor | 🟠 Proveedor |
-| **H7** | 25 | ATP/ITCS en Sitio | Proveedor | 🟠 Proveedor |
+| **H7** | 25 | ATP/PTC en Sitio | Proveedor | 🟠 Proveedor |
 | **H8** | 26 | Backbone Operativo | Especialista | 🟢 Interno |
 | **H9** | 34 | Sistemas Embarcados | Especialista | 🟢 Interno |
 | **H10** | 44 | SAT Completo | ANI/Interventor | 🔴 Externo |
@@ -251,7 +251,7 @@
 ```
 Mes 12: Aprobación ANI ✅
     ↓
-Mes 13: Orden ATP/ITCS (12m lead) + Fibra (9m)
+Mes 13: Orden ATP/PTC (12m lead) + Fibra (9m)
     ↓
 Mes 18: Edificio CCO Entregado (EXT-01) 🏢
     ↓
@@ -314,7 +314,7 @@ Mes 49-60: Buffer (solo si retrasos)
 | Aprobación ANI > Mes 12 | +2 semanas | Activar buffer 2m |
 | Edificio CCO > Mes 18 | +1 mes | Activar buffer 3m |
 | Material Rodante > Mes 20 | +1 mes | Activar buffer 2m |
-| ATP/ITCS > Mes 25 | +2 semanas | Activar buffer 3m |
+| ATP/PTC > Mes 25 | +2 semanas | Activar buffer 3m |
 
 **Regla:** Si se activan >2 alertas → Revisar plan completo
 
@@ -325,7 +325,7 @@ Mes 49-60: Buffer (solo si retrasos)
 ### **Esta Semana:**
 1. ✅ Solicitar a ANI inicio construcción CCO (para M18)
 2. ✅ Contactar Fenoco para certificación MR (para M20)
-3. ✅ Pre-calificar proveedores ATP/ITCS (12m lead)
+3. ✅ Pre-calificar proveedores ATP/PTC (12m lead)
 4. ✅ Acelerar ingeniería detalle Cap 1-2
 
 ### **Próximas 4 Semanas (Mes 4-5):**

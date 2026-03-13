@@ -221,10 +221,10 @@ CORREDOR 526.133 KM
 #### 4.1 Señalización Virtual
 | Componente | Estado | Justificación |
 |------------|--------|---------------|
-| **Eurobalises físicas** | ❌ ELIMINADO | Reemplazado por ATP embarcado |
+| **Virtual Balise (GNSS)s físicas** | ❌ ELIMINADO | Reemplazado por ATP embarcado |
 | **Señales LED en vía** | ❌ ELIMINADO | CTC virtual |
 | **CTC Centralizado** | ✅ IMPLEMENTADO | Control desde CCO |
-| **ATP/ITCS Embarcado** | ✅ IMPLEMENTADO | 15 locomotoras |
+| **ATP/PTC Embarcado** | ✅ IMPLEMENTADO | 15 locomotoras |
 
 #### 4.2 Arquitectura de Control
 ```
@@ -362,7 +362,7 @@ Referencias cruzadas:
 | Métrica | Valor Objetivo | Estado Actual |
 |---------|----------------|---------------|
 | **Cobertura TETRA** | 100% corredor | ✅ 37 estaciones (15-20% solapamiento) |
-| **Redundancia** | TETRA + GSM-R | ✅ Implementado |
+| **Redundancia** | TETRA + RED TETRA (Misión Crítica) | ✅ Implementado |
 | **Disponibilidad** | 99.9% | ✅ UPS + Generadores |
 | **Señalización** | 100% virtual | ✅ CTC + ATP |
 
@@ -394,8 +394,8 @@ Referencias cruzadas:
 
 ---
 
-## 📡 **SISTEMA DE REDUNDANCIA SATELITAL (REEMPLAZO GSM-R)**
-El sistema GSM-R ha sido eliminado de la arquitectura para optimizar el CAPEX. La redundancia de misión crítica se garantiza mediante:
+## 📡 **SISTEMA DE REDUNDANCIA SATELITAL (REEMPLAZO RED TETRA (Misión Crítica))**
+El sistema RED TETRA (Misión Crítica) ha sido eliminado de la arquitectura para optimizar el CAPEX. La redundancia de misión crítica se garantiza mediante:
 - **TETRA** como radio principal.
 - **Fibra Óptica** como backbone.
 - **Enlace Satelital Transitorio (Starlink/Similar)** para activación temprana y zonas de sombra.
@@ -564,9 +564,9 @@ COMUNICACIÓN:
 | **TOTAL EOT** | - | - | **$520,000,000** |
 | **TOTAL USD** | - | - | **$118,182 USD** |
 
-### **5. INTEGRACIÓN CON ATP/ITCS:**
+### **5. INTEGRACIÓN CON ATP/PTC:**
 ```yaml
-INTERFAZ ATP/ITCS:
+INTERFAZ ATP/PTC:
 - Datos EOT integrados en sistema ATP
 - Validación integridad tren en tiempo real
 - Alarma automática por separación
@@ -576,7 +576,7 @@ COMUNICACIÓN:
 - Protocolo: Inalámbrico dedicado
 - Frecuencia: Banda ISM 2.4 GHz
 - Alcance: Hasta 2 km (trenes largos)
-- Redundancia: Doble vía (TETRA + GSM-R)
+- Redundancia: Doble vía (TETRA + RED TETRA (Misión Crítica))
 ```
 
 ---
@@ -591,7 +591,7 @@ La interoperabilidad con FENOCO se gestiona exclusivamente a nivel **operacional
 3. **Equipamiento:** 
    - Las locomotoras LFC cuentan con un Computador de Abordo (OBC) compatible con reglas FRA 236.
    - La transición se realiza mediante comunicación por radio TETRA y cumplimiento de reglamentos operativos de FENOCO.
-4. **NO Deep Integration:** Se elimina cualquier requisito de Gateways técnicos, ITCS Alstom o integración de bases de datos propietarias.
+4. **NO Deep Integration:** Se elimina cualquier requisito de Gateways técnicos, PTC Alstom o integración de bases de datos propietarias.
 
 ### **📊 COSTOS OBC (15 LOCOMOTORAS PTC/FRA)**
 | Item | Descripción | Cant/Loco | VU (COP) | Total 15 Locos |

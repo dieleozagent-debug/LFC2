@@ -186,7 +186,7 @@
 
 | ID | Blocker | Validación | Acción | Plazo |
 |----|---------|------------|--------|-------|
-| **BLOCKER-001** | Indefinición ITCS | ✅ CONFIRMADO (AT3) | Oficiar ANI | 5 días |
+| **BLOCKER-001** | Indefinición PTC | ✅ CONFIRMADO (AT3) | Oficiar ANI | 5 días |
 | **BLOCKER-002** | Protocolos FENOCO | 🟡 PARCIAL (AT10) | Reunión FENOCO | 10 días |
 | **BLOCKER-003** | Cantidades PANs | ⏳ Pendiente (AT1) | Confirmar diseño | 15 días |
 | **BLOCKER-004** | Cronograma MR | ✅ CONFIRMADO (AT9) | Oficiar ANI | 10 días |

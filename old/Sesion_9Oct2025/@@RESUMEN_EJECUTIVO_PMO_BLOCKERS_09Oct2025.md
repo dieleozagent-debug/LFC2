@@ -19,7 +19,7 @@
 
 | ID | Problema | Impacto | Valor Riesgo | Fecha Límite |
 |:--:|:---------|:--------|:------------:|:------------:|
-| **BLOCKER-001** | Indefinición ITCS/ETCS L2 | 🔴 60% Cap 1 bloqueado | $152,748M | Mes 6 |
+| **BLOCKER-001** | Indefinición PTC/PTC VIRTUAL L2 | 🔴 60% Cap 1 bloqueado | $152,748M | Mes 6 |
 | **BLOCKER-002** | Protocolos FENOCO desconocidos | 🔴 Gateway sin specs | $350M | Mes 6 |
 | **BLOCKER-003** | Cantidades PAN indefinidas | 🟡 ±10% variación | ±$489M | Mes 6 |
 | **BLOCKER-004** | Cronograma MR indefinido | 🟡 Secuencia pruebas | N/A | Mes 5 |
@@ -35,7 +35,7 @@
 #### **1. Emitir 3 Oficios Urgentes:**
 
 **Oficio 1 → ANI:**
-- Solicitar definición ITCS (Opción 1/2/3/4)
+- Solicitar definición PTC (Opción 1/2/3/4)
 - Solicitar especificaciones FENOCO (con ANI de intermediario)
 - Solicitar decisión alcance SICC (Básico vs Integrado)
 - Solicitar clarificación estudios geotécnicos/topográficos
@@ -66,7 +66,7 @@
 - **Decisión requerida:** Esta semana
 
 #### **3. Crear Carpeta BLOCKERS_CRITICOS:**
-- ✅ BLOCKER-001_Indefinicion_ITCS.md
+- ✅ BLOCKER-001_Indefinicion_PTC.md
 - ✅ BLOCKER-002_Protocolos_FENOCO.md
 - ✅ BLOCKER-003_Pasos_Nivel_Cantidades.md
 - ✅ BLOCKER-004_Material_Rodante_Cronograma.md
@@ -85,24 +85,24 @@
 - **Agenda:** 6 puntos (specs, protocolos, MR, pruebas, responsabilidades)
 - **Entregable:** Acta con compromisos formales
 
-#### **6. Preparar Matriz de Decisión ITCS:**
+#### **6. Preparar Matriz de Decisión PTC:**
 - Análisis 4 opciones técnicas
 - Evaluación costo-beneficio
 - Identificación riesgos por opción
-- Recomendación PMO: Opción 2 (ETCS L2)
+- Recomendación PMO: Opción 2 (PTC VIRTUAL L2)
 
 ---
 
 ### **Mes 5** 📍
 
 #### **7. Mesa Técnica ANI/FENOCO/Concesionario:**
-- Presentar matriz de decisión ITCS
+- Presentar matriz de decisión PTC
 - Discutir interoperabilidad FENOCO
 - Definir alcance SICC
 - Recibir cronograma MR
 
 #### **8. Preparar Plans B Detallados:**
-- Plan B ITCS: ETCS L2 genérico
+- Plan B PTC: PTC VIRTUAL L2 genérico
 - Plan B FENOCO: Gateway UIC 918-4 sin Trainguard
 - Plan B PAN: 146 ±10%
 - Plan B MR: Secuencia adaptable
@@ -116,7 +116,7 @@
 - ⚠️ **Plan B:** Inputs NO recibidos → Activar contingencias
 
 **Si Plan B:**
-- ITCS: ETCS L2 genérico
+- PTC: PTC VIRTUAL L2 genérico
 - FENOCO: Gateway UIC sin integración
 - PAN: 146 + contingencia
 - MR: Secuencia genérica
@@ -127,7 +127,7 @@
 ## 📊 **DOCUMENTOS CREADOS (HOY)**
 
 ### **Carpeta:** `II. Apendices Tecnicos/BLOCKERS_CRITICOS/`
-1. ✅ BLOCKER-001_Indefinicion_ITCS.md
+1. ✅ BLOCKER-001_Indefinicion_PTC.md
 2. ✅ BLOCKER-002_Protocolos_FENOCO.md
 3. ✅ BLOCKER-003_Pasos_Nivel_Cantidades.md
 4. ✅ BLOCKER-004_Material_Rodante_Cronograma.md
@@ -151,7 +151,7 @@
 
 | Riesgo | Responsable | Acción EPC | Plan B |
 |:-------|:------------|:-----------|:-------|
-| BLOCKER-001 (ITCS) | ANI + Concesionario | Oficiar HOY | ETCS L2 genérico |
+| BLOCKER-001 (PTC) | ANI + Concesionario | Oficiar HOY | PTC VIRTUAL L2 genérico |
 | BLOCKER-002 (FENOCO) | FENOCO | Reunión 15 días | Gateway UIC estándar |
 | BLOCKER-003 (PAN) | Concesionario | Trabajar con 146 | Contingencia ±10% |
 | BLOCKER-004 (MR) | FENOCO + Concesionario | Secuencia adaptable | Certificar en banco |
@@ -211,18 +211,18 @@
 
 ### **Semana 3-4 (Mes 4-5):**
 - ✅ Reunión técnica FENOCO (15-Nov)
-- ✅ Matriz de decisión ITCS (especialista)
+- ✅ Matriz de decisión PTC (especialista)
 - ✅ Evaluar costos Plans B
 - ✅ Preparar TdR EPC con cláusulas protección
 
 ### **Mes 5:**
 - ✅ Recibir cronograma MR (FENOCO)
 - ✅ Mesa técnica ANI/FENOCO/Concesionario
-- ✅ Decisión preliminar ITCS
+- ✅ Decisión preliminar PTC
 - ✅ Preparar documentación Plans B
 
 ### **Mes 6 (Fecha Límite):**
-- 🎯 **Decisión formal ANI:** ITCS definido
+- 🎯 **Decisión formal ANI:** PTC definido
 - 🎯 **Decisión FENOCO:** Colabora o Plan B
 - 🎯 **Cantidades PAN:** Definitivas
 - 🎯 **GO/NO-GO:** Activar Plans A o B
@@ -259,7 +259,7 @@
 
 ### **Informes Ad-Hoc:**
 - Resultado reunión FENOCO (Mes 5)
-- Decisión ITCS (Mes 6)
+- Decisión PTC (Mes 6)
 - Cambios significativos cronograma
 - Escalamientos críticos
 
@@ -273,10 +273,10 @@
 - **Costo:** +$500M si EPC
 - **Impacto:** Sin esto, NO HAY proyecto
 
-### **Decisión 2: Sistema ITCS (Mes 6)**
-- **¿Cuál?** ATP / ETCS L2 / CBTC / Híbrida
+### **Decisión 2: Sistema PTC (Mes 6)**
+- **¿Cuál?** ATP / PTC VIRTUAL L2 / CBTC / Híbrida
 - **Quién decide?** ANI + Concesionario
-- **Plan B:** ETCS L2 genérico
+- **Plan B:** PTC VIRTUAL L2 genérico
 
 ### **Decisión 3: Interoperabilidad FENOCO (Mes 6)**
 - **¿Colabora?** Sí (Plan A) / No (Plan B)
@@ -350,12 +350,12 @@
 
 ### **Críticas (Acción inmediata):**
 1. 🔴 **Negociar estudios Geo/Topo** (esta semana o BLOCKER)
-2. 🔴 **Oficiar ANI** solicitud ITCS + FENOCO (HOY)
+2. 🔴 **Oficiar ANI** solicitud PTC + FENOCO (HOY)
 3. 🔴 **Programar reunión FENOCO** (15 días)
 
 ### **Altas (Acción corto plazo):**
 4. 🟠 Preparar TdR con cláusulas protección (Mes 5)
-5. 🟠 Matriz de decisión ITCS (Mes 5)
+5. 🟠 Matriz de decisión PTC (Mes 5)
 6. 🟠 Plans B detallados (Mes 5-6)
 
 ### **Medias (Acción medio plazo):**

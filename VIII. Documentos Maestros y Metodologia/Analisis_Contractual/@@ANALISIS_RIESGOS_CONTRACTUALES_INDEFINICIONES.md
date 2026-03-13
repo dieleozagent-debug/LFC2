@@ -13,7 +13,7 @@
 
 | # | Input Requerido | Responsable | Fecha Máxima | Impacto si NO llega | Plan B |
 |:-:|:----------------|:------------|:------------:|:-------------------|:-------|
-| **1** | **Definición final sistema ITCS (ETCS Level 2)** | **ANI + Concesionario** | **Mes 6** | 🔴 Bloquea 60% UF2 | Gateway interoperable documentado (Contratista CTC entrega) |
+| **1** | **Definición final sistema PTC (PTC VIRTUAL Level 2)** | **ANI + Concesionario** | **Mes 6** | 🔴 Bloquea 60% UF2 | Gateway interoperable documentado (Contratista CTC entrega) |
 | **2** | **Cronograma entrega material rodante** | **Fenoco** | **Mes 8** | 🟠 No se puede diseñar embarcados | Asumir especificaciones estándar IEC |
 | **3** | **Especificaciones técnicas FENOCO (interoperabilidad)** | **Fenoco** | **Mes 6** | 🔴 No se puede diseñar gateway UIC | Gateway UIC 918-4 genérico + documentación completa |
 | **4** | **Regularización pasos a nivel (cantidad exacta)** | **Concesionario** | **Mes 10** | 🟡 Sobre-diseño o sub-diseño | Asumir cantidad contractual AT1 |
@@ -21,9 +21,9 @@
 
 ---
 
-### **RIESGO R-INFO-001: Indefinición ITCS/ETCS L2**
+### **RIESGO R-INFO-001: Indefinición PTC/PTC VIRTUAL L2**
 
-**Descripción:** Sin definición final de ITCS (ETCS Level 2), no se puede diseñar 60% del alcance de UF2 (Control y Señalización).
+**Descripción:** Sin definición final de PTC (PTC VIRTUAL Level 2), no se puede diseñar 60% del alcance de UF2 (Control y Señalización).
 
 **Probabilidad:** ALTA (70%) - Historial de indefiniciones  
 **Impacto:** CRÍTICO (5) - Bloquea diseño completo  
@@ -35,7 +35,7 @@
 - **Plan B:** Si no llega Mes 6 → Gateway interoperable genérico documentado
   - Contratista CTC entrega gateway que permite:
     - Interoperabilidad Fenoco (UIC 918-4)
-    - ETCS L2 estándar (futuro)
+    - PTC VIRTUAL L2 estándar (futuro)
     - Documentación completa de interfaces
   - Cliente asume riesgo de incompatibilidad futura
 
@@ -68,7 +68,7 @@
 
 ### **RIESGO R-INFO-003: Material Rodante**
 
-**Descripción:** Sin cronograma de entrega MR, no se puede diseñar sistemas embarcados (ATP, TETRA, GSM-R).
+**Descripción:** Sin cronograma de entrega MR, no se puede diseñar sistemas embarcados (ATP, TETRA, RED TETRA (Misión Crítica)).
 
 **Probabilidad:** MEDIA (40%)  
 **Impacto:** ALTO (4) - Retrasa embarcados  
@@ -97,7 +97,7 @@
 | **2** | **Estudios topográficos** | **EPC** 🔴 | Sin topo NO HAY diseño rutas/torres | EPC DEBE incluir en ingeniería (M3-8) |
 | **3** | **Tramitología permisos** | **EPC** 🔴 | Sin permisos NO HAY obra | EPC DEBE tramitar + Concesionario apoya |
 | **4** | **Coordinación FENOCO** | **EPC** 🔴 | Sin coordinación NO HAY acceso vía | EPC DEBE liderar + Concesionario facilita |
-| **5** | **Definición ITCS** | **ANI + Concesionario** ✅ | Indefinición bloquea diseño | Solicitar HOY, Plan B documentado |
+| **5** | **Definición PTC** | **ANI + Concesionario** ✅ | Indefinición bloquea diseño | Solicitar HOY, Plan B documentado |
 | **6** | **Especificaciones MR** | **Cliente (Fenoco)** ✅ | Sin MR NO HAY embarcados | Asumir estándar IEC |
 | **7** | **Diseño detallado PAN** | **EPC Civil** ✅ | Sin diseño NO HAY construcción | EPC incluye en ingeniería |
 | **8** | **Integración sistemas ANI** | **Concesionario + Interventoría** ✅ | Indefinición de alcance | Solicitar alcance formal Mes 6 |
@@ -140,7 +140,7 @@ Fecha: 9 Octubre 2025 (Mes 4/12 Ingeniería)
 
 Solicitamos definición formal de:
 
-1. Sistema ITCS final (ETCS L2 o alternativa)
+1. Sistema PTC final (PTC VIRTUAL L2 o alternativa)
    - Fecha límite: 15 Diciembre 2025 (Mes 6)
    - Responsable: Concesionario + ANI
    - Plan B: Gateway interoperable genérico
@@ -219,7 +219,7 @@ con documentación completa de supuestos y exclusiones.
 | **Estudios topográficos** | **EPC** | Excluido ❌ | **INCLUIR** | 🔴 Sin esto NO hay rutas |
 | **Tramitología permisos** | **EPC + Concesionario** | Excluido ❌ | **INCLUIR** | 🔴 Sin esto NO hay obra |
 | **Coordinación FENOCO** | **EPC lidera** | Excluido ❌ | **INCLUIR** | 🟠 Sin esto NO hay acceso |
-| Definición ITCS | ANI + Concesionario | Responsabilidad Cliente ✅ | OK | 🟠 Plan B: Gateway |
+| Definición PTC | ANI + Concesionario | Responsabilidad Cliente ✅ | OK | 🟠 Plan B: Gateway |
 | Especificaciones MR | Fenoco + Cliente | Responsabilidad Cliente ✅ | OK | 🟡 Plan B: Estándar IEC |
 | Diseño detallado PAN | EPC Civil | Responsabilidad EPC ✅ | OK | - |
 | Integración sistemas ANI | Concesionario define | Indefinido ⚠️ | Solicitar alcance | 🟡 Plan B: Sin integración |
@@ -232,13 +232,13 @@ con documentación completa de supuestos y exclusiones.
 
 ## 🚨 **RIESGOS CREADOS**
 
-### **R-INFO-001: Indefinición ITCS/ETCS L2**
+### **R-INFO-001: Indefinición PTC/PTC VIRTUAL L2**
 - **Probabilidad:** ALTA (70%)
 - **Impacto:** CRÍTICO (5)
 - **Exposición:** 4.5/5 🔴
 - **Fecha límite resolución:** Mes 6 (15-Dic-2025)
 - **Responsable:** ANI + Concesionario
-- **Plan B:** Gateway interoperable genérico (UIC 918-4 + ETCS L2 estándar)
+- **Plan B:** Gateway interoperable genérico (UIC 918-4 + PTC VIRTUAL L2 estándar)
 - **Costo Plan B:** Sin costo adicional (incluido en diseño CTC)
 - **Acción:** Oficiar HOY a ANI solicitando definición
 
@@ -301,7 +301,7 @@ con documentación completa de supuestos y exclusiones.
 **Asunto:** Solicitud Urgente Inputs Críticos Ingeniería
 
 **Inputs requeridos:**
-1. Definición ITCS/ETCS L2 → Fecha límite: **15-Dic-2025** (M6)
+1. Definición PTC/PTC VIRTUAL L2 → Fecha límite: **15-Dic-2025** (M6)
 2. Alcance SICC (Escenario 1 o 2) → Fecha límite: **15-Dic-2025** (M6)
 3. Clarificación responsabilidad estudios geotécnicos/topográficos → Urgente
 
@@ -398,7 +398,7 @@ con documentación completa de supuestos y exclusiones.
    - Plazo: Mes 6-10
 
 2. 🔴 **CRÍTICO:** Oficiar a ANI/FENOCO solicitud inputs (HOY)
-   - Definición ITCS (Mes 6)
+   - Definición PTC (Mes 6)
    - Especificaciones FENOCO (Mes 6)
    - Alcance SICC (Mes 6)
 
@@ -418,7 +418,7 @@ con documentación completa de supuestos y exclusiones.
 
 | Indefinición | Fecha Decisión | Si Cliente Responde | Si NO Responde (Plan B) |
 |:-------------|:--------------:|:-------------------|:------------------------|
-| ITCS/ETCS L2 | Mes 6 | Diseño específico | Gateway genérico interoperable |
+| PTC/PTC VIRTUAL L2 | Mes 6 | Diseño específico | Gateway genérico interoperable |
 | Specs FENOCO | Mes 6 | Integración directa | Protocolo UIC estándar |
 | Cronograma MR | Mes 8 | Diseño específico | Estándar IEC 62280 modular |
 | Alcance SICC | Mes 6 | Escenario 1 o 2 | Escenario 1 Básico |

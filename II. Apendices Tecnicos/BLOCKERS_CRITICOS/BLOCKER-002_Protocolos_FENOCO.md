@@ -175,7 +175,7 @@ FENOCO/Concesionario en fase posterior (post-entrega).
 
 **Arquitectura:**
 - Gateway embarcado (locomotora)
-- Canal GSM-R (comunicación continua)
+- Canal RED TETRA (Misión Crítica) (comunicación continua)
 - Interfaz con CTC (Ethernet redundante)
 - Protocolo seguro (cifrado AES-256)
 

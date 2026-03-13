@@ -27,7 +27,7 @@ Integrar el **Plan de Acción de Blockers Críticos** en la interfaz visual WBS_
 ```markdown
 | ID | ... | Plan_Accion |
 |:---|:----|:------------|
-| R-ITCS-001 | ... | **ACCIÓN HOY:** Enviar oficio formal a ANI solicitando definición tecnológica. Preparar matriz de decisión técnica comparando PTC/ETCS/CBTC |
+| R-PTC-001 | ... | **ACCIÓN HOY:** Enviar oficio formal a ANI solicitando definición tecnológica. Preparar matriz de decisión técnica comparando PTC/PTC VIRTUAL/CBTC |
 | R-FENOCO-001 | ... | **ACCIÓN HOY:** Enviar comunicación formal a FENOCO solicitando especificaciones Siemens Trainguard. Agendar reunión técnica (15 días) |
 ```
 
@@ -129,10 +129,10 @@ riesgos.forEach((r, index) => {
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│ R-ITCS-001: Indefinición sistema ITCS...          [CRÍTICA] │
+│ R-PTC-001: Indefinición sistema PTC...          [CRÍTICA] │
 ├─────────────────────────────────────────────────────────────┤
 │                                                               │
-│ Descripción: Indefinición sistema ITCS (ATP/ETCS L2/CBTC)  │
+│ Descripción: Indefinición sistema PTC (ATP/PTC VIRTUAL L2/CBTC)  │
 │ - Bloqueador 58% proyecto                                    │
 │                                                               │
 │ ┌───────────────────────────────────────────────────────┐   │
@@ -140,7 +140,7 @@ riesgos.forEach((r, index) => {
 │ ├───────────────────────────────────────────────────────┤   │
 │ │ **ACCIÓN HOY:** Enviar oficio formal a ANI            │   │
 │ │ solicitando definición tecnológica. Preparar          │   │
-│ │ matriz de decisión técnica comparando PTC/ETCS/CBTC   │   │
+│ │ matriz de decisión técnica comparando PTC/PTC VIRTUAL/CBTC   │   │
 │ └───────────────────────────────────────────────────────┘   │
 │                                                               │
 │ 📊 Análisis de Impacto:                                      │
@@ -149,7 +149,7 @@ riesgos.forEach((r, index) => {
 │   • Exposición: 0.70                                         │
 │   • Estrategia: EVITAR - Oficiar ANI, decisión Mes 6        │
 │   • Responsable: Gerencia Técnica + ANI                      │
-│   • Hito Verificación: H-ITCS-DEF-M6                         │
+│   • Hito Verificación: H-PTC-DEF-M6                         │
 │                                                               │
 └─────────────────────────────────────────────────────────────┘
 ```
@@ -241,7 +241,7 @@ Select-String -Path "IX. WBS y Planificacion\riesgos_wbs.json" -Pattern "plan_ac
 # Abrir HTML en navegador
 start "IX. WBS y Planificacion\WBS_Analisis_Riesgos.html"
 
-# Buscar riesgo R-ITCS-001 (blocker crítico)
+# Buscar riesgo R-PTC-001 (blocker crítico)
 # Debe mostrar sección: "📋 Plan de Acción Inmediato"
 # Con texto: "**ACCIÓN HOY:** Enviar oficio formal a ANI..."
 ```
@@ -330,11 +330,11 @@ start "IX. WBS y Planificacion\WBS_Analisis_Riesgos.html"
 
 ## 📝 **EJEMPLO REAL (4 BLOCKERS CRÍTICOS):**
 
-### **R-ITCS-001:**
+### **R-PTC-001:**
 ```
 📋 Plan de Acción Inmediato
 **ACCIÓN HOY:** Enviar oficio formal a ANI solicitando definición 
-tecnológica. Preparar matriz de decisión técnica comparando PTC/ETCS/CBTC
+tecnológica. Preparar matriz de decisión técnica comparando PTC/PTC VIRTUAL/CBTC
 ```
 
 ### **R-FENOCO-001:**

@@ -230,7 +230,7 @@ Este roadmap establece la ruta de trabajo para el desarrollo de la ingeniería d
 10. **Revisar documento 12 (Comunicaciones Embarcadas)**
     - Detallar equipos embarcados
     - Especificar consumos eléctricos
-    - Incluir cantidades de equipos ITCS, TETRA, etc.
+    - Incluir cantidades de equipos PTC, TETRA, etc.
 
 #### **FASE 2: CONSOLIDAR INSUMOS ELÉCTRICOS**
 11. **Crear Matriz Consolidada de Insumos Eléctricos**

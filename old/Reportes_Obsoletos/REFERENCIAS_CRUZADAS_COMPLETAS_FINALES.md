@@ -58,7 +58,7 @@ Como Administrador Contractual EPC, confirmo que se han revisado y completado to
 |:----------|:-------------|:-----------------|
 | `III. Ingenieria conceptual/25.1_WBS_COMPLETA_ESPECIALIDADES.md` | Todas las especialidades | Todas las fases |
 | `III. Ingenieria conceptual/25.2_Matriz_Alcance_Electrico.md` | AT1, AT2, AT3, AT4, AT5 | Especialidad Eléctrica |
-| `III. Ingenieria conceptual/26.1_Anexo_Electrico_CTC.md` | AT5, ITCS, CTC | Sistemas Ferroviarios |
+| `III. Ingenieria conceptual/26.1_Anexo_Electrico_CTC.md` | AT5, PTC, CTC | Sistemas Ferroviarios |
 | `III. Ingenieria conceptual/36.1_Analisis_Riesgos_y_Supuestos_PMI.md` | Todos los documentos | PMO, Gestión |
 | `III. Ingenieria conceptual/36.2_Metodologia_Gestion_Supuestos.md` | 36.1, PMO | Gestión de Riesgos |
 | `III. Ingenieria conceptual/38. DiagramasArquitectura_v1.0.md` | AT1, AT2, AT3, AT4, AT5 | Arquitectura de Sistemas |
@@ -109,7 +109,7 @@ Como Administrador Contractual EPC, confirmo que se han revisado y completado to
 | `V.2.1_Sistema_Alimentacion_Principal_DETALLADO.md` | AT1, AT2, AT3, AT4, AT5, IV.2 | Construcción, Presupuestos |
 | `IV.2_Especificaciones_Basicas_Electrica.md` | AT1, AT2, AT3, AT4, AT5 | V.2.1, Construcción |
 | `25.2_Matriz_Alcance_Electrico.md` | V.2.1, IV.2 | Planificación, Cronograma |
-| `26.1_Anexo_Electrico_CTC.md` | AT5, ITCS, CTC | Sistemas Ferroviarios |
+| `26.1_Anexo_Electrico_CTC.md` | AT5, PTC, CTC | Sistemas Ferroviarios |
 
 ### **🔧 INGENIERÍA MECÁNICA**
 
@@ -125,7 +125,7 @@ Como Administrador Contractual EPC, confirmo que se han revisado y completado to
 |:------------------|:-------------|:-----------------|
 | `V.4.1_Sistemas_Ferroviarios_Integrados_DETALLADO.md` | AT1, AT2, AT3, AT4, AT5, IV.4 | Construcción, Presupuestos |
 | `IV.4_Especificaciones_Basicas_Sistemas.md` | AT1, AT2, AT3, AT4, AT5 | V.4.1, Construcción |
-| `VII.2.1_Especificaciones_Tecnicas_ITCS_ETCS_Level2_PROVISIONALES.md` | AT5, ITCS | V.4.1, Sistemas |
+| `VII.2.1_Especificaciones_Tecnicas_PTC_PTC VIRTUAL_Level2_PROVISIONALES.md` | AT5, PTC | V.4.1, Sistemas |
 
 ### **🔗 INTEGRACIÓN DE SISTEMAS**
 
@@ -142,7 +142,7 @@ Como Administrador Contractual EPC, confirmo que se han revisado y completado to
 
 | Documento Transversal | Referencias a | Referencias desde |
 |:---------------------|:-------------|:-----------------|
-| `VII.2.1_Especificaciones_Tecnicas_ITCS_ETCS_Level2_PROVISIONALES.md` | AT3, AT5, ITCS | V.4.1, Sistemas |
+| `VII.2.1_Especificaciones_Tecnicas_PTC_PTC VIRTUAL_Level2_PROVISIONALES.md` | AT3, AT5, PTC | V.4.1, Sistemas |
 | `VII.2.2_Simulaciones_Capacidad_Surcos_BASICAS.md` | AT10, Capacidad | V.4.1, Sistemas |
 | `VII.2.3_Protocolos_UIC_Interoperabilidad_FENOCO.md` | FENOCO, UIC | V.5.1, Integración |
 

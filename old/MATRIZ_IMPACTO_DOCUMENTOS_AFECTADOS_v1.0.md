@@ -29,12 +29,12 @@ Se ha detectado una **desalineación crítica** entre los **Criterios Técnicos 
 
 | Documento | Criterio Afectado | Desviación | Impacto Presupuestal | Esfuerzo | Estado |
 |:----------|:------------------|:-----------|:---------------------|:---------|:------:|
-| **WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná.html** | Eurobalises + Señales LED + RBC | 1,080 + 270 + 2 unidades | -$54,000,000,000 | Alto | ⏳ Pendiente |
+| **WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná.html** | Virtual Balise (GNSS)s + Señales LED + RBC | 1,080 + 270 + 2 unidades | -$54,000,000,000 | Alto | ⏳ Pendiente |
 | **V.1_Señalizacion_Ferroviaria_Detalle_v1.0.md** | Filosofía señalización | Física → Virtual | -$64,000,000,000 | Alto | ⏳ Pendiente |
 | **V.2_Centro_Control_Trafico_CTC_Detalle_v1.0.md** | Arquitectura CTC | RBC eliminado | -$2,000,000,000 | Alto | ⏳ Pendiente |
-| **V.3_Sistemas_Comunicacion_Detalle_v1.0.md** | TETRA + GSM-R | 33→37 + Agregar 37 | +$1,484,000,000 | Alto | ⏳ Pendiente |
-| **VII.2.1_SRS_ITCS_ETCS_Level2_v1.0.md** | Arquitectura ITCS | ETCS Level 2 → ATP embarcado | -$40,000,000,000 | Alto | ⏳ Pendiente |
-| **VII.2.3_Plan_Eurobalise_Ubicacion_150m.md** | Eurobalises | 1,080 → 0 unidades | -$40,000,000,000 | Alto | ⏳ Pendiente |
+| **V.3_Sistemas_Comunicacion_Detalle_v1.0.md** | TETRA + RED TETRA (Misión Crítica) | 33→37 + Agregar 37 | +$1,484,000,000 | Alto | ⏳ Pendiente |
+| **VII.2.1_SRS_PTC_PTC VIRTUAL_Level2_v1.0.md** | Arquitectura PTC | PTC VIRTUAL Level 2 → ATP embarcado | -$40,000,000,000 | Alto | ⏳ Pendiente |
+| **VII.2.3_Plan_Virtual Balise (GNSS)_Ubicacion_150m.md** | Virtual Balise (GNSS)s | 1,080 → 0 unidades | -$40,000,000,000 | Alto | ⏳ Pendiente |
 | **29_Sistema_Senalizacion_Integrado.md** | Filosofía señalización | Física → Virtual | -$64,000,000,000 | Alto | ⏳ Pendiente |
 | **27_Sistema_TETRA_Integrado.md** | Cantidades TETRA | 33 → 37 estaciones | +$4,830,000,000 | Alto | ⏳ Pendiente |
 | **32_Material_Rodante_Integrado.md** | Sistema EOT | NO → 15 dispositivos | +$520,000,000 | Alto | ⏳ Pendiente |
@@ -42,8 +42,8 @@ Se ha detectado una **desalineación crítica** entre los **Criterios Técnicos 
 | **23_ListadoMaestro_Sistemas.md** | Inventario sistemas | Múltiples cambios | -$50,193,000,000 | Alto | ⏳ Pendiente |
 | **25.1_WBS_COMPLETA_ESPECIALIDADES.md** | Estructura WBS | Reestructuración | -$50,193,000,000 | Alto | ⏳ Pendiente |
 | **VII.2.6_Interlocking_Tables_5_Estaciones.md** | ENCE | NO → 5 estaciones | +$6,020,000,000 | Alto | ⏳ Pendiente |
-| **VII.2.4_Interfaces_CTC_ITCS_Protocolo_FFFIS.md** | Interfaces | RBC eliminado | -$2,000,000,000 | Alto | ⏳ Pendiente |
-| **VII.2.7_Especificaciones_STM_Embarcadas.md** | STM embarcado | ETCS → ATP | -$40,000,000,000 | Alto | ⏳ Pendiente |
+| **VII.2.4_Interfaces_CTC_PTC_Protocolo_FFFIS.md** | Interfaces | RBC eliminado | -$2,000,000,000 | Alto | ⏳ Pendiente |
+| **VII.2.7_Especificaciones_STM_Embarcadas.md** | STM embarcado | PTC VIRTUAL → ATP | -$40,000,000,000 | Alto | ⏳ Pendiente |
 
 ### **🟡 DOCUMENTOS MEDIOS (Prioridad 2 - Impacto Medio)**
 
@@ -54,9 +54,9 @@ Se ha detectado una **desalineación crítica** entre los **Criterios Técnicos 
 | **30_Sistema_ITS_Integrado.md** | Sistemas ITS | Actualización | Sin impacto | Medio | ⏳ Pendiente |
 | **26_Sistema_CTC_Integrado.md** | Arquitectura CTC | RBC eliminado | -$2,000,000,000 | Medio | ⏳ Pendiente |
 | **VII.2.8_Arquitectura_Software_CTC.md** | Software CTC | RBC eliminado | -$2,000,000,000 | Medio | ⏳ Pendiente |
-| **VII.2.9_Analisis_RAMS_EN50126.md** | Análisis RAMS | ETCS → ATP | Sin impacto | Medio | ⏳ Pendiente |
-| **VII.2.10_Plan_Verificacion_Validacion_Completo.md** | Plan V&V | ETCS → ATP | Sin impacto | Medio | ⏳ Pendiente |
-| **VII.2.11_Cybersecurity_IEC62443.md** | Ciberseguridad | ETCS → ATP | Sin impacto | Medio | ⏳ Pendiente |
+| **VII.2.9_Analisis_RAMS_EN50126.md** | Análisis RAMS | PTC VIRTUAL → ATP | Sin impacto | Medio | ⏳ Pendiente |
+| **VII.2.10_Plan_Verificacion_Validacion_Completo.md** | Plan V&V | PTC VIRTUAL → ATP | Sin impacto | Medio | ⏳ Pendiente |
+| **VII.2.11_Cybersecurity_IEC62443.md** | Ciberseguridad | PTC VIRTUAL → ATP | Sin impacto | Medio | ⏳ Pendiente |
 
 ### **🆕 DOCUMENTOS NUEVOS REQUERIDOS (Prioridad 3 - Creación)**
 
@@ -64,7 +64,7 @@ Se ha detectado una **desalineación crítica** entre los **Criterios Técnicos 
 |:----------|:-----------|:--------------|:---------------------|:---------|:------:|
 | **V.X_Enclavamientos_ENCE_Detalle_v1.0.md** | Especificaciones ENCE | 5 estaciones ENCE | +$6,020,000,000 | Alto | ⏳ Pendiente |
 | **V.X_Sistema_Desvios_Detalle_v1.0.md** | Especificaciones desvíos | 120 desvíos | +$3,783,000,000 | Alto | ⏳ Pendiente |
-| **V.X_Sistema_GSM-R_Detalle_v1.0.md** | Especificaciones GSM-R | 37 estaciones GSM-R | +$3,484,000,000 | Alto | ⏳ Pendiente |
+| **V.X_Sistema_RED TETRA (Misión Crítica)_Detalle_v1.0.md** | Especificaciones RED TETRA (Misión Crítica) | 37 estaciones RED TETRA (Misión Crítica) | +$3,484,000,000 | Alto | ⏳ Pendiente |
 | **V.X_Sistema_EOT_Detalle_v1.0.md** | Especificaciones EOT | 15 dispositivos EOT | +$520,000,000 | Alto | ⏳ Pendiente |
 
 ---
@@ -113,7 +113,7 @@ Se ha detectado una **desalineación crítica** entre los **Criterios Técnicos 
 
 ### **🆕 CRITERIOS NUEVOS - IMPLEMENTACIÓN**
 
-#### **7. GSM-R (NO incluido → 37 estaciones)**
+#### **7. RED TETRA (Misión Crítica) (NO incluido → 37 estaciones)**
 - **Impacto:** +$3,484,000,000 COP
 - **Documentos afectados:** 2 documentos
 - **Acción requerida:** Crear especificaciones completas
@@ -163,9 +163,9 @@ Se ha detectado una **desalineación crítica** entre los **Criterios Técnicos 
 1. **V.1_Señalizacion_Ferroviaria_Detalle_v1.0.md**
 2. **V.2_Centro_Control_Trafico_CTC_Detalle_v1.0.md**
 3. **V.3_Sistemas_Comunicacion_Detalle_v1.0.md**
-4. **VII.2.1_SRS_ITCS_ETCS_Level2_v1.0.md**
-5. **VII.2.3_Plan_Eurobalise_Ubicacion_150m.md**
-6. **VII.2.4_Interfaces_CTC_ITCS_Protocolo_FFFIS.md**
+4. **VII.2.1_SRS_PTC_PTC VIRTUAL_Level2_v1.0.md**
+5. **VII.2.3_Plan_Virtual Balise (GNSS)_Ubicacion_150m.md**
+6. **VII.2.4_Interfaces_CTC_PTC_Protocolo_FFFIS.md**
 7. **VII.2.6_Interlocking_Tables_5_Estaciones.md**
 8. **VII.2.7_Especificaciones_STM_Embarcadas.md**
 9. **VII.2.8_Arquitectura_Software_CTC.md**
@@ -174,7 +174,7 @@ Se ha detectado una **desalineación crítica** entre los **Criterios Técnicos 
 **Dependencia:** Dependen de Capa 3, son los más específicos
 1. **V.X_Enclavamientos_ENCE_Detalle_v1.0.md** ← **NUEVO**
 2. **V.X_Sistema_Desvios_Detalle_v1.0.md** ← **NUEVO**
-3. **V.X_Sistema_GSM-R_Detalle_v1.0.md** ← **NUEVO**
+3. **V.X_Sistema_RED TETRA (Misión Crítica)_Detalle_v1.0.md** ← **NUEVO**
 4. **V.X_Sistema_EOT_Detalle_v1.0.md** ← **NUEVO**
 
 ### **💰 CAPA 5: PRESUPUESTO (Días 13-15)**
@@ -206,7 +206,7 @@ Se ha detectado una **desalineación crítica** entre los **Criterios Técnicos 
 
 #### **DÍA 9-10: CAPA 4 - INGENIERÍA DE DETALLE**
 - **DÍA 9:** Crear documentos nuevos (ENCE, Desvíos)
-- **DÍA 10:** Crear documentos nuevos (GSM-R, EOT)
+- **DÍA 10:** Crear documentos nuevos (RED TETRA (Misión Crítica), EOT)
 
 #### **DÍA 11-12: VALIDACIÓN CRUZADA**
 - **DÍA 11:** Ejecutar checklist de coherencia
@@ -223,7 +223,7 @@ Se ha detectado una **desalineación crítica** entre los **Criterios Técnicos 
 ### **🚨 RIESGOS IDENTIFICADOS**
 1. **Riesgo de inconsistencia:** Si no se actualiza por capas
 2. **Riesgo de sobrepresupuesto:** Si no se eliminan eurobalises
-3. **Riesgo de falta de sistemas:** Si no se agregan GSM-R, EOT, ENCE
+3. **Riesgo de falta de sistemas:** Si no se agregan RED TETRA (Misión Crítica), EOT, ENCE
 4. **Riesgo de retraso:** Si no se sigue la secuencia de capas
 
 ### **🔒 CRITERIOS DE ÉXITO**

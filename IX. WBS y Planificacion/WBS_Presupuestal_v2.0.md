@@ -10,7 +10,7 @@
 ---
 
 ## ð REGISTRO DE SANEAMIENTO v3.0 (METODOLOGÃA P.42)
-- â **ELIMINACIÃN ETCS L2:** Purgado de todos los items de software y especificaciones.
+- â **ELIMINACIÃN PTC VIRTUAL L2:** Purgado de todos los items de software y especificaciones.
 - â **ELIMINACIÃN SEÃALES LED WAYSIDE:** Confirmado 0 unidades en vÃ­a.
 - â **ALINEACIÃN PTC VIRTUAL:** ConsolidaciÃ³n de "Autorizaciones PTC" como lÃ³gica central.
 - â **OPTIMIZACIÃN CAPEX:** ConfirmaciÃ³n de ahorro neto de **$50,193,000,000 COP**.
@@ -100,19 +100,19 @@
 | **2.1.115** | Repuestos (10%) | - | - | $1,774,000,000 |
 | **SUBTOTAL TETRA** | | | | **$19,038,000,000** |
 
-#### **2.2 Sistema GSM-R (37 Estaciones Colocalizadas)**
+#### **2.2 Sistema RED TETRA (Misión Crítica) (37 Estaciones Colocalizadas)**
 | **Item** | **DescripciÃ³n** | **Cantidad** | **VU (COP)** | **Total (COP)** |
 |:---|:---|:---:|:---:|:---:|:---:|
-| **2.2.100** | Estaciones base GSM-R | 37 | $45,000,000 | $1,665,000,000 |
-| **2.2.101** | Antenas GSM-R | 37 | $8,000,000 | $296,000,000 |
-| **2.2.102** | Radios embarcados GSM-R | 30 | $25,000,000 | $750,000,000 |
-| **2.2.103** | Sistema control GSM-R | 1 | $80,000,000 | $80,000,000 |
-| **2.2.104** | Interfaces TETRA-GSM-R | 37 | $5,000,000 | $185,000,000 |
+| **2.2.100** | Estaciones base RED TETRA (Misión Crítica) | 37 | $45,000,000 | $1,665,000,000 |
+| **2.2.101** | Antenas RED TETRA (Misión Crítica) | 37 | $8,000,000 | $296,000,000 |
+| **2.2.102** | Radios embarcados RED TETRA (Misión Crítica) | 30 | $25,000,000 | $750,000,000 |
+| **2.2.103** | Sistema control RED TETRA (Misión Crítica) | 1 | $80,000,000 | $80,000,000 |
+| **2.2.104** | Interfaces TETRA-RED TETRA (Misión Crítica) | 37 | $5,000,000 | $185,000,000 |
 | **2.2.105** | Sistema redundancia | 1 | $150,000,000 | $150,000,000 |
 | **2.2.106** | ConfiguraciÃ³n dual | 1 | $100,000,000 | $100,000,000 |
 | **2.2.107** | Pruebas integraciÃ³n | 1 | $80,000,000 | $80,000,000 |
 | **2.2.108** | Repuestos (10%) | - | - | $312,000,000 |
-| **SUBTOTAL GSM-R** | | | | **$3,618,000,000** |
+| **SUBTOTAL RED TETRA (Misión Crítica)** | | | | **$3,618,000,000** |
 
 #### **2.3 Fibra Ãptica (594 km)**
 | **Item** | **DescripciÃ³n** | **Cantidad** | **VU (COP)** | **Total (COP)** |
@@ -263,7 +263,7 @@
 |:---|:---|:---:|:---:|:---:|
 | **6.1.100** | Sistemas ATP embarcados | 8 | $400,000,000 | $3,200,000,000 |
 | **6.1.101** | Radios TETRA embarcados | 16 | $35,000,000 | $560,000,000 |
-| **6.1.102** | Radios GSM-R embarcados | 16 | $25,000,000 | $400,000,000 |
+| **6.1.102** | Radios RED TETRA (Misión Crítica) embarcados | 16 | $25,000,000 | $400,000,000 |
 | **6.1.103** | Sistemas GPS | 8 | $35,000,000 | $280,000,000 |
 | **6.1.104** | Sistemas redundancia | 8 | $80,000,000 | $640,000,000 |
 | **6.1.105** | InstalaciÃ³n y configuraciÃ³n | 8 | $100,000,000 | $800,000,000 |
@@ -337,7 +337,7 @@
 ### **ð CANTIDADES VALIDADAS:**
 - â **Corredor:** 526.133 km (coherente en todos los documentos)
 - â **TETRA:** 37 estaciones (coherente en todos los documentos)
-- â **GSM-R:** 37 estaciones (coherente en todos los documentos)
+- â **RED TETRA (Misión Crítica):** 37 estaciones (coherente en todos los documentos)
 - â **EOT:** 15 dispositivos (coherente en todos los documentos)
 - â **ENCE:** 5 estaciones (coherente en todos los documentos)
 - â **CCTV:** 73 cÃ¡maras (coherente en todos los documentos)
@@ -354,7 +354,7 @@
 **Control de versiones:**
 | VersiÃ³n | Fecha | Responsable | DescripciÃ³n |
 |:---:|:---:|:---|:---|
-| v1.0 | 02/10/2025 | Ing. Presupuestos | Presupuesto inicial con ITCS tradicional |
+| v1.0 | 02/10/2025 | Ing. Presupuestos | Presupuesto inicial con PTC tradicional |
 | **v2.0** | **Ene-2025** | **Admin. Contractual EPC** | **CRÃTICO: Presupuesto coherente validado** |
 
 ---

@@ -49,7 +49,7 @@
 
 #### **Criterios Técnicos Maestros Consolidados:**
 - **Interoperabilidad FENOCO:** Protocolos UIC estándar para compatibilidad total con red ferroviaria nacional
-- **Interfaces de Sistemas:** Comunicación bidireccional entre CTC, ENCE, TETRA, GSM-R, ITS, Material Rodante
+- **Interfaces de Sistemas:** Comunicación bidireccional entre CTC, ENCE, TETRA, RED TETRA (Misión Crítica), ITS, Material Rodante
 - **Coordinación Operacional:** Gestión integrada de tráfico, emergencias y mantenimiento
 - **Gestión de Dependencias:** Matriz de dependencias críticas con cronograma de integración por fases
 - **Protocolos de Integración:** FFFIS, UIC 920-2, UIC 438, UIC 930, UIC 950
@@ -86,7 +86,7 @@
 - **Gateway de Integración:** Conversión de protocolos entre sistemas
 - **Sistema de Monitoreo:** Supervisión integral de todos los sistemas
 - **Sistema de Control:** Coordinación centralizada desde CTC
-- **Interfaces de Comunicación:** TETRA + GSM-R + Fibra óptica
+- **Interfaces de Comunicación:** TETRA + RED TETRA (Misión Crítica) + Fibra óptica
 - **Protocolos de Interoperabilidad:** UIC estándar + FFFIS
 
 #### **Arquitectura de Interoperabilidad FENOCO:**
@@ -107,8 +107,8 @@
 - **Mantenibilidad:** Facilidad de mantenimiento y actualización
 
 #### **Estándares de Interoperabilidad:**
-- **UIC 920-2:** GSM-R para comunicaciones ferroviarias
-- **UIC 438:** ETCS Level 2 para control de trenes
+- **UIC 920-2:** RED TETRA (Misión Crítica) para comunicaciones ferroviarias
+- **UIC 438:** PTC VIRTUAL Level 2 para control de trenes
 - **UIC 930:** Interoperabilidad de sistemas de señalización
 - **UIC 950:** Interoperabilidad de sistemas de control de tráfico
 - **FFFIS:** Form Fit Function Interface Specification
@@ -124,7 +124,7 @@
 | ID Interfaz | Sistema A | Sistema B | Tipo de Interfaz | Protocolo / Estándar | Estado |
 |:------------|:----------|:----------|:------------------|:---------------------|:-------|
 | **IF-01** | CTC | Enclavamiento | Datos / Control | SCI-CC-A (NAS 830) | ✅ Definida |
-| **IF-02** | CTC | ITCS (Material Rodante) | Datos / Control | ETCS Level 2 | ✅ Definida |
+| **IF-02** | CTC | PTC (Material Rodante) | Datos / Control | PTC VIRTUAL Level 2 | ✅ Definida |
 | **IF-03** | CTC | TETRA | Comunicación | TCP/IP + SNMP | ✅ Definida |
 | **IF-04** | CTC | SICC | Datos | API REST | ✅ Definida |
 | **IF-05** | TETRA | Locomotoras | Comunicación | EN 300 392 | ✅ Definida |
@@ -132,7 +132,7 @@
 | **IF-07** | ITS | CCTV | Video | H.264/H.265 | ✅ Definida |
 | **IF-08** | CTC | FENOCO | Interoperabilidad | UIC Protocolos | ✅ Definida |
 
-#### **Arquitectura de Comunicación CTC-ITCS:**
+#### **Arquitectura de Comunicación CTC-PTC:**
 
 | Componente | Función | Protocolo | Estado |
 |:-----------|:---------|:----------|:-------|
@@ -184,7 +184,7 @@
 
 ### **4.2 Especificaciones Técnicas de Interfaces**
 
-#### **Interfaces CTC-ITCS (Protocolo FFFIS):**
+#### **Interfaces CTC-PTC (Protocolo FFFIS):**
 
 | Componente | Especificación | Función | Estado |
 |:-----------|:---------------|:---------|:-------|
@@ -210,8 +210,8 @@
 
 | Protocolo | Estándar | Función | Estado |
 |:----------|:----------|:---------|:-------|
-| **UIC 920-2** | GSM-R | Comunicaciones ferroviarias | ✅ Implementado |
-| **UIC 438** | ETCS Level 2 | Control de trenes | ✅ Implementado |
+| **UIC 920-2** | RED TETRA (Misión Crítica) | Comunicaciones ferroviarias | ✅ Implementado |
+| **UIC 438** | PTC VIRTUAL Level 2 | Control de trenes | ✅ Implementado |
 | **UIC 930** | Señalización | Interoperabilidad señalización | ✅ Implementado |
 | **UIC 950** | Control tráfico | Interoperabilidad control | ✅ Implementado |
 
@@ -237,7 +237,7 @@
 
 #### **Sistemas de Comunicación Integrados:**
 - **TETRA Principal:** 37 estaciones con cobertura 100%
-- **GSM-R Redundante:** 37 estaciones colocalizadas
+- **RED TETRA (Misión Crítica) Redundante:** 37 estaciones colocalizadas
 - **Fibra Óptica:** 594 km con doble anillo DWDM
 - **Interfaces:** Ethernet industrial con redundancia
 
@@ -251,9 +251,9 @@
 - **Actualización:** Over-the-air (OTA)
 
 #### **Protocolos de Comunicación:**
-- **CTC-ITCS:** FFFIS con seguridad EN 50159
+- **CTC-PTC:** FFFIS con seguridad EN 50159
 - **TETRA:** EN 300 392 estándar
-- **GSM-R:** UIC 920-2 estándar
+- **RED TETRA (Misión Crítica):** UIC 920-2 estándar
 - **Fibra:** Ethernet Gigabit con redundancia
 - **FENOCO:** Protocolos UIC para interoperabilidad
 
@@ -331,11 +331,11 @@
 - **Desvíos:** Control de 120 desvíos (25 motorizados + 95 manuales)
 - **ATP Embarcado:** Comunicación con 15 locomotoras
 - **EOT:** Monitoreo de 15 dispositivos End of Train
-- **Protocolo:** ETCS Level 2 estándar UIC
+- **Protocolo:** PTC VIRTUAL Level 2 estándar UIC
 
 #### **Sistemas de Comunicación ↔ Material Rodante:**
 - **TETRA:** Comunicación tren-tierra principal
-- **GSM-R:** Comunicación tren-tierra redundante
+- **RED TETRA (Misión Crítica):** Comunicación tren-tierra redundante
 - **GPS/GNSS:** Posicionamiento preciso
 - **Event Recorder:** Registro de eventos
 - **Protocolo:** EN 300 392 + UIC 920-2
@@ -391,7 +391,7 @@
 | Sistema Origen | Sistema Destino | Tipo Interfaz | Protocolo | Estado |
 |:---------------|:----------------|:--------------|:----------|:-------|
 | **CTC** | **ENCE** | Control/Comunicación | SCI-CC-A (NAS 830) | ✅ Implementado |
-| **CTC** | **ITCS** | Control/Comunicación | ETCS Level 2 | ✅ Implementado |
+| **CTC** | **PTC** | Control/Comunicación | PTC VIRTUAL Level 2 | ✅ Implementado |
 | **CTC** | **TETRA** | Comunicación | TCP/IP + SNMP | ✅ Implementado |
 | **CTC** | **SICC** | Datos | API REST | ✅ Implementado |
 | **TETRA** | **Locomotoras** | Comunicación | EN 300 392 | ✅ Implementado |
@@ -446,7 +446,7 @@
 
 ### **9.6 Documentos de Soporte Especializado**
 - `VII.2_Especificaciones/VII.2.3_Protocolos_UIC_Interoperabilidad_FENOCO.md` - Protocolos UIC interoperabilidad FENOCO
-- `VII.2_Especificaciones/VII.2.4_Interfaces_CTC_ITCS_Protocolo_FFFIS.md` - Interfaces CTC-ITCS protocolo FFFIS
+- `VII.2_Especificaciones/VII.2.4_Interfaces_CTC_PTC_Protocolo_FFFIS.md` - Interfaces CTC-PTC protocolo FFFIS
 
 ### **9.7 Documentos Maestros de Referencia**
 - `CRITERIOS_TECNICOS_MAESTRO_APP_La_Dorada_Chiriguaná_v1.0.md` - Criterios técnicos maestro

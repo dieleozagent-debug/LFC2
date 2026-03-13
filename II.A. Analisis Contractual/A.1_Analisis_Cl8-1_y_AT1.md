@@ -44,7 +44,7 @@ Este documento traduce las obligaciones de la **Cláusula 8.1 (Preconstrucción)
 |:---|:---|:---|
 | **Infraestructura Férrea (UFVF)** | Diseñar la rehabilitación de 53 Unidades Funcionales de Vía Férrea. | `29_Sistema_Senalizacion_Integrado...md` |
 | **Talleres y CCO** | Diseñar Taller Pesado (B/bermeja), Taller Liviano (Chiriguaná) y CCO (La Dorada). | `26. Sistem_CTC_Int...md` |
-| **Material Rodante** | Diseñar la Puesta a Punto e integración de equipos ITCS/TETRA en locomotoras. | `32_Material_Rodante_Integrado...md` |
+| **Material Rodante** | Diseñar la Puesta a Punto e integración de equipos PTC/TETRA en locomotoras. | `32_Material_Rodante_Integrado...md` |
 | **Pasos a Nivel** | Diseñar la regularización de 146 pasos a nivel (Clase A, B, C). | `V. Ingenieria de detalle/3_Pasos_a_nivel...md` |
 | **Sistema de Señalización y Control** | Diseñar 5 enclavamientos electrónicos y un sistema PTC. | `29_Sistema_Senalizacion_Integrado...md` |
 
@@ -55,7 +55,7 @@ Este documento traduce las obligaciones de la **Cláusula 8.1 (Preconstrucción)
 | ID | Riesgo/Supuesto | Impacto | Estrategia de Mitigación |
 |:---|:---|:---|:---|
 | **R-GES-004** | Desfase entre la aprobación de diseños (Cl. 8.1) y el cronograma del Plan de Obras (AT9). | **Alto.** Retrasos en el inicio de la construcción. | Integrar el cronograma de entregables de ingeniería con el Plan de Obras desde la Fase Conceptual. |
-| **R-TEC-001** | Indefinición de la tecnología ITCS (AT1 y AT3) bloquea el diseño del material rodante. | **Crítico.** Imposibilidad de cumplir con la Puesta a Punto. | Formalizar consulta a la Interventoría y proponer arquitectura modular "ITCS-Ready". |
+| **R-TEC-001** | Indefinición de la tecnología PTC (AT1 y AT3) bloquea el diseño del material rodante. | **Crítico.** Imposibilidad de cumplir con la Puesta a Punto. | Formalizar consulta a la Interventoría y proponer arquitectura modular "PTC-Ready". |
 
 ---
 
@@ -63,7 +63,7 @@ Este documento traduce las obligaciones de la **Cláusula 8.1 (Preconstrucción)
 
 El análisis de la Cláusula 8.1 y el AT1 establece el marco fundamental para la ingeniería. Es imperativo:
 1.  **Avanzar en Paralelo:** La gestión de permisos y licencias debe iniciar de inmediato.
-2.  **Resolver Bloqueo ITCS:** La indefinición de ITCS es el principal riesgo técnico del proyecto.
+2.  **Resolver Bloqueo PTC:** La indefinición de PTC es el principal riesgo técnico del proyecto.
 3.  **Integrar BIM:** La metodología BIM es una obligación contractual desde el inicio.
 
 ---

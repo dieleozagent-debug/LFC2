@@ -69,19 +69,19 @@ Apéndice 5 - Interferencias con redes: coordinación y traslados durante constr
 Apéndice 6 - Gestión ambiental: obligaciones específicas en construcción (manejo de aguas, ruido, polvo, permisos, ICA)
 Apéndice 7 - Gestión predial: disponibilidad/planos de requerimiento predial para torres, nodos y cuartos técnicos
 Apéndice 9 - Plan de obras: cronograma, frentes y ruta crítica por sistema
-Apéndice 10 - Capacidad y surcos: integración CTC–señalización–ITCS y soporte de simulación para entrada en operación
+Apéndice 10 - Capacidad y surcos: integración CTC–señalización–PTC y soporte de simulación para entrada en operación
 2. Alcance de la obligación
 2.1 Sistemas a construir e integrar
 La Etapa de Construcción incluye:
 A. Infraestructura y locales técnicos: salas/armarios, canalizaciones, puesta a tierra, alimentación, climatización (Ap. 1 + Ap. 3)
-B. Señalización y detección (8.1): balizas, contadores de ejes, circuitos de vía; gabinetes, energía, cableado, software de lógica
+B. Señalización y detección (8.1): punto de referencia virtuals, contadores de ejes, circuitos de vía; gabinetes, energía, cableado, software de lógica
 C. CTC y detectores auxiliares (8.2): servidores, puestos de operador, SCADA ferroviario, enlaces, integración con detectores de ejes calientes/impacto
 D. Pasos a nivel (8.3): semibarreras, luces/sonoras, controladores y enlace remoto al CTC
 E. Comunicaciones de campo y backbone (8.4–8.6): arquitectura IP/MPLS, TETRA, fibra y nodos de acceso; sincronización, QoS y redundancias
 F. Instalaciones eléctricas (8.7): tableros, UPS, bancos de baterías, generadores, selectividad y coordinación de protecciones
 G. Sistemas internos (8.8): CCTV, interfonía, redes de datos, seguridad electrónica y control de accesos
 H. Incendio (8.9): detección, alarma y extinción, integración con CCO/talleres
-I. Embarcados (8.10): ITCS/TETRA/GPS en locomotoras, interoperables con CTC y simulación de capacidad
+I. Embarcados (8.10): PTC/TETRA/GPS en locomotoras, interoperables con CTC y simulación de capacidad
 J. Infraestructura férrea y logística (Ap. 1): talleres, CCO, centros de transferencia, apartaderos
 2.2 Obligaciones transversales durante construcción
 2.2.1 Gestión del Riesgo de Desastres (PGRD)
@@ -484,11 +484,11 @@ Proxima actualizacion: 27/02/2025
 
 #### **✅ MEJORAS IMPLEMENTADAS:**
 
-1. **🚂 INTEGRACIÓN ITCS ETCS Level 2 EN CONSTRUCCIÓN:**
-   - **Montaje embarcado:** Instalación de equipos ITCS ETCS Level 2 en locomotoras
+1. **🚂 INTEGRACIÓN PTC PTC VIRTUAL Level 2 EN CONSTRUCCIÓN:**
+   - **Montaje embarcado:** Instalación de equipos PTC PTC VIRTUAL Level 2 en locomotoras
    - **Integración CTC:** Conexión de sistemas embarcados con Centro de Control
-   - **Pruebas SAT:** Validación de interoperabilidad ITCS con sistemas FENOCO
-   - **Simulación de capacidad:** Pruebas de integración CTC-señalización-ITCS
+   - **Pruebas SAT:** Validación de interoperabilidad PTC con sistemas FENOCO
+   - **Simulación de capacidad:** Pruebas de integración CTC-señalización-PTC
 
 2. **🔗 INTEROPERABILIDAD FENOCO EN CONSTRUCCIÓN:**
    - **Protocolos UIC:** Implementación de estándares UIC durante montaje
@@ -516,7 +516,7 @@ Proxima actualizacion: 27/02/2025
 
 #### **⚠️ VACÍOS IDENTIFICADOS Y CORREGIDOS:**
 
-1. **Falta de especificaciones ITCS en construcción:** Agregado montaje de equipos ETCS Level 2
+1. **Falta de especificaciones PTC en construcción:** Agregado montaje de equipos PTC VIRTUAL Level 2
 2. **Ausencia de interoperabilidad FENOCO:** Incluidas pruebas de compatibilidad
 3. **Criterios AT4 no integrados:** Incorporado SICC y telemetría desde construcción
 4. **Ciberseguridad no especificada:** Agregados estándares de seguridad en instalación
@@ -526,7 +526,7 @@ Proxima actualizacion: 27/02/2025
 
 | ID | Riesgo | Categoría | Prob | Impacto | Descripción |
 |:---|:---|:---:|:---:|:---:|:---|
-| R-255 | Dependencia AT3 para ITCS en construcción | Técnico | Alta | Alto | Montaje ITCS sin especificaciones AT3 |
+| R-255 | Dependencia AT3 para PTC en construcción | Técnico | Alta | Alto | Montaje PTC sin especificaciones AT3 |
 | R-256 | Interoperabilidad FENOCO en construcción | Técnico | Media | Alto | Pruebas de compatibilidad con FENOCO |
 | R-257 | Disponibilidad AT4 en construcción | Contractual | Media | Alto | Cumplimiento de indicadores durante construcción |
 | R-258 | Ciberseguridad en construcción | Técnico | Media | Alto | Protección de sistemas durante instalación |
@@ -544,14 +544,14 @@ Proxima actualizacion: 27/02/2025
 
 #### **🎯 OPTIMIZACIONES EPC ESPECÍFICAS:**
 
-1. **Estrategia de Avance con Bloqueos ITCS:**
-   - **Fase A:** Preparación con ETCS Level 2 (0-3 meses)
-   - **Fase B:** Montaje de equipos ITCS (3-12 meses)
+1. **Estrategia de Avance con Bloqueos PTC:**
+   - **Fase A:** Preparación con PTC VIRTUAL Level 2 (0-3 meses)
+   - **Fase B:** Montaje de equipos PTC (3-12 meses)
    - **Fase C:** Integración y pruebas SAT (12-18 meses)
    - **Fase D:** Puesta en servicio gradual (18-24 meses)
 
 2. **Gestión Integrada de Riesgos en Construcción:**
-   - **Monitoreo semanal:** Riesgos críticos (ITCS, FENOCO, AT4)
+   - **Monitoreo semanal:** Riesgos críticos (PTC, FENOCO, AT4)
    - **Monitoreo mensual:** Riesgos altos (ciberseguridad, redundancia)
    - **Monitoreo trimestral:** Riesgos medios (gestión, operación)
 
@@ -559,7 +559,7 @@ Proxima actualizacion: 27/02/2025
 
 | Métrica | Objetivo | Frecuencia | Responsable | Estado |
 |:---|:---:|:---:|:---|:---:|
-| **ITCS ETCS Level 2** | 100% montado | Semanal | Ing. Sistemas | 🟢 En progreso |
+| **PTC PTC VIRTUAL Level 2** | 100% montado | Semanal | Ing. Sistemas | 🟢 En progreso |
 | **Interoperabilidad FENOCO** | Pruebas SAT | Mensual | Comunicaciones | 🟡 Pendiente |
 | **Disponibilidad AT4** | 99.95% SAT | Semanal | Ing. Sistemas | 🟢 En progreso |
 | **Ciberseguridad** | NIST/IEC 62443 | Mensual | Ciberseguridad | 🟡 Pendiente |
@@ -568,12 +568,12 @@ Proxima actualizacion: 27/02/2025
 #### **🚀 PRÓXIMOS PASOS:**
 
 1. **Inmediato (0-3 meses):**
-   - Preparar montaje de equipos ITCS ETCS Level 2
+   - Preparar montaje de equipos PTC PTC VIRTUAL Level 2
    - Establecer protocolos UIC para pruebas FENOCO
    - Implementar SICC con telemetría
 
 2. **Mediano plazo (3-18 meses):**
-   - Montar equipos ITCS en locomotoras
+   - Montar equipos PTC en locomotoras
    - Realizar pruebas de interoperabilidad FENOCO
    - Validar disponibilidad AT4 en SAT
 
@@ -585,7 +585,7 @@ Proxima actualizacion: 27/02/2025
 #### **✅ CONCLUSIONES:**
 
 El documento ha sido actualizado exitosamente aplicando la metodología Punto 42, integrando:
-- **ITCS ETCS Level 2** en fase de construcción
+- **PTC PTC VIRTUAL Level 2** en fase de construcción
 - **Interoperabilidad FENOCO** en pruebas SAT
 - **Criterios AT4** con SICC y telemetría
 - **Ciberseguridad** con estándares NIST/IEC 62443

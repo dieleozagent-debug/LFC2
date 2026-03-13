@@ -42,7 +42,7 @@ Este documento establece el procedimiento de **Interoperabilidad Operacional** e
 ## 🚫 **3. PURGA DE INFRAESTRUCTURA TÉCNICA**
 
 ### **3.1 ELIMINACIÓN DE GATEWAYS**
-Se eliminan todos los ítems de hardware y software destinados a "Gateway UIC" o "ETCS Bridge". La seguridad de la transición recae en el cumplimiento estricto del procedimiento operacional y la demarcación lógica en el SICC.
+Se eliminan todos los ítems de hardware y software destinados a "Gateway UIC" o "PTC VIRTUAL Bridge". La seguridad de la transición recae en el cumplimiento estricto del procedimiento operacional y la demarcación lógica en el SICC.
 
 ### **3.2 COMUNICACIONES**
 La coordinación entre despachadores (CCO La Dorada y Control FENOCO) se realiza mediante enlace de voz directo y mensajería administrativa, sin intercambio de datos vitales automáticos.

@@ -26,7 +26,7 @@
 
 ## 🔍 FILOSOFÍA DE RE-INGENIERÍA (METODOLOGÍA P.42 v4.2)
 Este repositorio ha sido auditado para eliminar **Alucinaciones Técnicas**.
-- ✅ **ELIMINADO:** Referencias a ETCS Level 2 (Estándar Europeo no aplicable).
+- ✅ **ELIMINADO:** Referencias a PTC VIRTUAL Level 2 (Estándar Europeo no aplicable).
 - ✅ **ELIMINADO:** Referencias a señalización luminosa Wayside (Arquitectura Virtual).
 - ✅ **ADOPTADO:** Normativa **FRA 49 CFR 236 Subpart I** (Positive Train Control).
 - ✅ **ADOPTADO:** Interoperabilidad **Operacional** con FENOCO.
@@ -36,7 +36,7 @@ Este repositorio ha sido auditado para eliminar **Alucinaciones Técnicas**.
 ## 🛠 CONTROL DE VERSIONES
 | Versión | Fecha       | Responsable            | Descripción                              |
 |:------:|:-----------:|:-----------------------|:-----------------------------------------|
-| v4.2   | 13/03/2026  | Admin. Contractual EPC | Purgado de errores ETCS/UIC. Alineación con PTC Virtual y DBCD. |
+| v4.2   | 13/03/2026  | Admin. Contractual EPC | Purgado de errores PTC VIRTUAL/UIC. Alineación con PTC Virtual y DBCD. |
 
 ---
 

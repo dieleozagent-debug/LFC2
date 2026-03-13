@@ -8,7 +8,7 @@
 ---
 
 ## 📄 ESPECIFICACIONES DE DISEÑO BÁSICO
-El diseño se basa en la arquitectura **PTC Virtual** (Positive Train Control), eliminando señales visuales en vía y eurobalizas físicas.
+El diseño se basa en la arquitectura **PTC Virtual** (Positive Train Control), eliminando señales visuales en vía y europunto de referencia virtuals físicas.
 
 ### 1. SEGMENO TIERRA (Wayside)
 - **ENCE:** Lógica de enclavamiento para control de desvíos y comprobación de rutas.
@@ -18,13 +18,13 @@ El diseño se basa en la arquitectura **PTC Virtual** (Positive Train Control), 
 ### 2. SEGMENTO COMUNICACIONES
 - **Radio:** TETRA (Troncalizada). Cobertura total para voz y datos.
 - **Ancho de Banda:** Reservado para Autorizaciones de Movimiento (MA) críticas.
-- **GSM-R:** **ELIMINADO**. No se justifica CAPEX para dos tecnologías de radio redundantes si TETRA cumple el contrato.
+- **RED TETRA (Misión Crítica):** **ELIMINADO**. No se justifica CAPEX para dos tecnologías de radio redundantes si TETRA cumple el contrato.
 
 ---
 
 ## 🔍 AUDITORÍA DE RE-INGENIERÍA (METODOLOGÍA P.42 v4.2)
 Se han purgado de la v5.0 las siguientes alucinaciones técnicas:
-1. **ELIMINADO ETCS Level 2:** Se reemplaza por **FRA 236 I (PTC)**.
+1. **ELIMINADO PTC VIRTUAL Level 2:** Se reemplaza por **FRA 236 I (PTC)**.
 2. **ELIMINADO SEÑALES LED:** No hay señales físicas en el campo.
 3. **ELIMINADO EUROBALIZAS:** El posicionamiento es via GNSS/EOT.
 
@@ -32,4 +32,4 @@ Se han purgado de la v5.0 las siguientes alucinaciones técnicas:
 
 | Versión | Fecha       | Responsable            | Descripción                              |
 |:------:|:-----------:|:-----------------------|:-----------------------------------------|
-| v6.0   | 13/03/2026  | Admin. Contractual EPC | Re-ingeniería de Diseño Básico. Purgado de ERTMS/GSM-R. |
+| v6.0   | 13/03/2026  | Admin. Contractual EPC | Re-ingeniería de Diseño Básico. Purgado de ERTMS/RED TETRA (Misión Crítica). |

@@ -132,7 +132,17 @@ function cook(sistema = null) {
         "03": { nombre: "ITS_y_Seguridad", fuentes: ["III. Ingenieria conceptual/31_Sistema_CCTV*.md", "III. Ingenieria conceptual/30_Sistema_ITS*.md"] },
         "04": { nombre: "Material_Rodante", fuentes: ["I. Contrato General/6_Cl_13_1_MaterialRodante*.md"] },
         "05": { nombre: "Infraestructura_Operativa", fuentes: ["IV. Ingenieria básica/IV.4_Especificaciones_Basicas_Sistemas*.md"] },
-        "06": { nombre: "Integracion_y_Coordinacion", fuentes: ["II. Apendices Tecnicos/11. AT1*.md"] }
+        "06": { nombre: "Integracion_y_Coordinacion", fuentes: ["II. Apendices Tecnicos/11. AT1*.md"] },
+        // Especialidades
+        "E01": { nombre: "ESPECIALIDAD_01_Ingenieria_Civil", fuentes: ["IV. Ingenieria básica/IV.1_Obras_Civiles*.md"] },
+        "E02": { nombre: "ESPECIALIDAD_02_Ingenieria_Electrica", fuentes: ["IV. Ingenieria básica/IV.2_Instalaciones_Electricas*.md"] },
+        "E03": { nombre: "ESPECIALIDAD_03_Ingenieria_Mecanica", fuentes: ["IV. Ingenieria básica/IV.3_Estructuras_Mecanicas*.md"] },
+        "E04": { nombre: "ESPECIALIDAD_04_Ingenieria_Sistemas", fuentes: ["III. Ingenieria conceptual/32_Arquitectura_Sistemas*.md"] },
+        "E05": { nombre: "ESPECIALIDAD_05_Ingenieria_Ambiental", fuentes: ["II. Apendices Tecnicos/15. AT4_Socio_Ambiental*.md"] },
+        // Gestión
+        "G01": { nombre: "GESTION_EJECUTIVO_Alcance_y_Objetivos", fuentes: ["I. Contrato General/1_Objeto*.md"] },
+        "G02": { nombre: "GESTION_EJECUTIVO_Cambios_y_Decisiones_Tecnicas", fuentes: ["VIII. Documentos Maestros y Metodologia/Matrices_Dependencias/*.md"] },
+        "G03": { nombre: "GESTION_EJECUTIVO_Cronograma_y_Recursos", fuentes: ["IX. WBS y Planificacion/WBS_Cronograma_Propuesta.md"] }
     };
 
     const sistemasACocinar = sistema ? [sistema] : Object.keys(mapeoSistemas);
@@ -141,8 +151,16 @@ function cook(sistema = null) {
         const config = mapeoSistemas[cap];
         if (!config) return;
 
-        const nombreEjecutivo = `SISTEMA_${cap}_${config.nombre}_EJECUTIVO.md`;
-        const rutaEjecutivo = path.join(REPO_ROOT, 'X_ENTREGABLES_CONSOLIDADOS/7_SISTEMAS_EJECUTIVOS', nombreEjecutivo);
+        let nombreEjecutivo, rutaEjecutivo;
+        
+        if (cap.startsWith('E')) {
+            nombreEjecutivo = `${config.nombre}_EJECUTIVO.md`;
+        } else if (cap.startsWith('G')) {
+            nombreEjecutivo = `${config.nombre}.md`;
+        } else {
+            nombreEjecutivo = `SISTEMA_${cap}_${config.nombre}_EJECUTIVO.md`;
+        }
+        rutaEjecutivo = path.join(REPO_ROOT, 'X_ENTREGABLES_CONSOLIDADOS/7_SISTEMAS_EJECUTIVOS', nombreEjecutivo);
 
         log(`Cocinando SISTEMA_${cap}...`, colors.yellow);
 

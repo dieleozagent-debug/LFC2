@@ -170,7 +170,7 @@ Archivo: IX. WBS y Planificacion/WBS_Menu_Principal.html
 
 | ID | Blocker | Validación Contractual | Acción Inmediata | Plazo | Responsable |
 |----|---------|------------------------|------------------|-------|-------------|
-| **BLOCKER-001** | Indefinición ITCS/ETCS L2 | ✅ CONFIRMADO (AT3) | Enviar oficio a ANI solicitando definición formal | 5 días | Gerente Técnico |
+| **BLOCKER-001** | Indefinición PTC/PTC VIRTUAL L2 | ✅ CONFIRMADO (AT3) | Enviar oficio a ANI solicitando definición formal | 5 días | Gerente Técnico |
 | **BLOCKER-002** | Protocolos FENOCO | 🟡 PARCIAL (AT10) | Comunicación formal + Reunión técnica | 10 días | PMO + Ing. Sistemas |
 | **BLOCKER-003** | Cantidades PANs (146 vs 36) | ⏳ Pendiente (AT1) | Confirmar diseño modular + Contingencia | 15 días | PMO + Ing. Civil |
 | **BLOCKER-004** | Cronograma MR indefinido | ✅ CONFIRMADO (AT9) | Oficiar ANI + 3 escenarios planificación | 10 días | PMO + Planificación |
@@ -284,7 +284,7 @@ Archivo: IX. WBS y Planificacion/WBS_Menu_Principal.html
 ## 📈 **PRÓXIMOS PASOS**
 
 ### **Esta semana (CRÍTICO):**
-1. ✅ Ejecutar plan BLOCKER-001: Oficiar ANI (definición ITCS)
+1. ✅ Ejecutar plan BLOCKER-001: Oficiar ANI (definición PTC)
 2. ✅ Agendar reunión FENOCO (BLOCKER-002: protocolos)
 3. ✅ Revisar AT1 (BLOCKER-003: cantidades PANs)
 

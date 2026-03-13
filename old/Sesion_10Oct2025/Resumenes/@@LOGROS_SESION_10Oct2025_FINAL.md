@@ -77,7 +77,7 @@ Ahora:  <script src="riesgos_wbs.js?v=638956897809360203"></script>
 
 **Ejemplo:**
 ```markdown
-| R-ITCS-001 | ... | **ACCIÓN HOY:** Enviar oficio a ANI solicitando definición formal |
+| R-PTC-001 | ... | **ACCIÓN HOY:** Enviar oficio a ANI solicitando definición formal |
 ```
 
 **Visible en HTML:**
@@ -185,14 +185,14 @@ Cliente accede vía WBS_Menu_Principal.html
 
 | ID | Blocker | Validación | Acción Inmediata |
 |----|---------|------------|------------------|
-| **BLOCKER-001** | Indefinición ITCS/ETCS L2 | ✅ CONFIRMADO (AT3) | Oficiar ANI - Definición formal Mes 6 |
+| **BLOCKER-001** | Indefinición PTC/PTC VIRTUAL L2 | ✅ CONFIRMADO (AT3) | Oficiar ANI - Definición formal Mes 6 |
 | **BLOCKER-002** | Protocolos FENOCO | 🟡 PARCIAL (AT10) | Reunión técnica FENOCO Mes 5 |
 | **BLOCKER-003** | Cantidades PANs | ⏳ Pendiente AT1 | Confirmar diseño modular PANs |
 | **BLOCKER-004** | Cronograma MR | ✅ CONFIRMADO (AT9) | Oficiar ANI - Cronograma entrega |
 
 **Hallazgo contractual clave:**
 - ✅ AT3 menciona normas mixtas (AAR, Adif, UIC)
-- ❌ **NO define qué sistema implementar** (PTC vs ETCS vs CTC)
+- ❌ **NO define qué sistema implementar** (PTC vs PTC VIRTUAL vs CTC)
 - ✅ BLOCKER-001 y BLOCKER-004 confirmados en contrato
 - 🟡 BLOCKER-002 parcialmente confirmado (interoperabilidad requerida)
 
@@ -323,7 +323,7 @@ Tiempo total: 5.74 segundos
 ## 🚀 **PRÓXIMOS PASOS**
 
 ### **Esta semana (prioritario):**
-1. ✅ Ejecutar plan BLOCKER-001: Oficiar ANI (ITCS)
+1. ✅ Ejecutar plan BLOCKER-001: Oficiar ANI (PTC)
 2. ✅ Agendar reunión FENOCO (BLOCKER-002)
 3. ✅ Validar AT1 para BLOCKER-003 (PANs)
 

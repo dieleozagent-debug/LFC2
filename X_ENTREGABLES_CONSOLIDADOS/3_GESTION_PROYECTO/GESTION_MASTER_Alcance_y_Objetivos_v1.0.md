@@ -66,9 +66,9 @@
 | Sistema | Disponibilidad | Criterio de Aceptación |
 |:--------|:---------------|:----------------------|
 | **CTC Virtual** | 99.95% | Control centralizado operativo |
-| **ATP Embarcado** | 99.95% | 15 locomotoras con ETCS Level 2 |
+| **ATP Embarcado** | 99.95% | 15 locomotoras con PTC VIRTUAL Level 2 |
 | **TETRA** | 99.5% | 37 estaciones con cobertura 100% |
-| **GSM-R** | 99.95% | 37 estaciones colocalizadas |
+| **RED TETRA (Misión Crítica)** | 99.95% | 37 estaciones colocalizadas |
 | **Fibra Óptica** | 99.95% | 594 km con doble anillo |
 | **Material Rodante** | 99.95% | 15 locomotoras + 51 vagones operativos |
 
@@ -108,7 +108,7 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 
 #### **Sistemas Técnicos:**
 - **Control y Señalización:** CTC Virtual, ATP Embarcado, ENCE, Desvíos
-- **Telecomunicaciones:** TETRA, GSM-R, Fibra óptica
+- **Telecomunicaciones:** TETRA, RED TETRA (Misión Crítica), Fibra óptica
 - **ITS y Seguridad:** CCTV, control de accesos, monitoreo
 - **Material Rodante:** 15 locomotoras, 51 vagones, talleres
 - **Infraestructura Operativa:** CCO, subestaciones, sistemas de respaldo
@@ -195,7 +195,7 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 │  └─────────────┘  └─────────────┘  └─────────────┘             │
 ├─────────────────────────────────────────────────────────────────┤
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐             │
-│  │   TETRA     │  │   GSM-R     │  │   FIBRA     │             │
+│  │   TETRA     │  │   RED TETRA (Misión Crítica)     │  │   FIBRA     │             │
 │  │   (37)      │  │   (37)      │  │   (594km)   │             │
 │  │             │  │             │  │             │             │
 │  └─────────────┘  └─────────────┘  └─────────────┘             │
@@ -213,7 +213,7 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 | Sistema | Componentes Principales | Cantidad | Estado |
 |:--------|:------------------------|:---------|:-------|
 | **Control y Señalización** | CTC Virtual, ATP Embarcado, ENCE | 1+15+5 | ✅ Completado |
-| **Telecomunicaciones** | TETRA, GSM-R, Fibra óptica | 37+37+594km | ✅ Completado |
+| **Telecomunicaciones** | TETRA, RED TETRA (Misión Crítica), Fibra óptica | 37+37+594km | ✅ Completado |
 | **ITS y Seguridad** | CCTV, Control accesos, Monitoreo | 73+15+8 | ✅ Completado |
 | **Material Rodante** | Locomotoras, Vagones, Talleres | 15+51+3 | ✅ Completado |
 | **Infraestructura Operativa** | CCO, Estaciones, Subestaciones | 1+37+8 | ✅ Completado |
@@ -241,7 +241,7 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 
 #### **Ingeniería de Sistemas:**
 - **Sistemas integrados:** CTC, ATP, ENCE
-- **Comunicaciones:** TETRA, GSM-R, fibra óptica
+- **Comunicaciones:** TETRA, RED TETRA (Misión Crítica), fibra óptica
 - **Monitoreo:** SCADA, HMI, alarmas
 - **Interfaces:** Protocolos de comunicación
 
@@ -391,7 +391,7 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 | **CTC Virtual** | 99.95% | 99.98% | 🟢 Excelente |
 | **ATP Embarcado** | 99.95% | 99.97% | 🟢 Excelente |
 | **TETRA** | 99.5% | 99.2% | 🟡 Mejorable |
-| **GSM-R** | 99.95% | 99.98% | 🟢 Excelente |
+| **RED TETRA (Misión Crítica)** | 99.95% | 99.98% | 🟢 Excelente |
 | **Fibra Óptica** | 99.95% | 99.99% | 🟢 Excelente |
 
 #### **Indicadores Operacionales:**

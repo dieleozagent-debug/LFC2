@@ -45,7 +45,7 @@ Acabo de revisar el repositorio completo del proyecto. Felicitaciones: tienes un
 
 ### C. DOCUMENTOS DE SISTEMAS (Jerarquía Nivel 3)
 - 🔄 Sistema CTC (múltiples versiones)
-- 🔄 Sistema ITCS ETCS Level 2 (múltiples versiones)
+- 🔄 Sistema PTC PTC VIRTUAL Level 2 (múltiples versiones)
 - 🔄 Sistema de Señalización (múltiples versiones)
 - 🔄 Sistema TETRA (múltiples versiones)
 - 🔄 Sistema de Fibra Óptica (múltiples versiones)
@@ -135,7 +135,7 @@ Objetivo: Definir carpetas y niveles de información
 ├── 📂 03_SISTEMAS_TECNICOS/
 │   ├── 📂 Control_Senalizacion/
 │   │   ├── CTC_Definitivo_v4.2.md
-│   │   ├── ITCS_ETCS_Level2_Definitivo_v4.2.md
+│   │   ├── PTC_PTC VIRTUAL_Level2_Definitivo_v4.2.md
 │   │   └── Senalizacion_Definitivo_v4.2.md
 │   │
 │   ├── 📂 Telecomunicaciones/
@@ -210,7 +210,7 @@ Por favor, identifica todas las versiones existentes, extrae lo mejor de cada un
 y genera UN documento maestro v4.2 definitivo."
 
 #### Orden sugerido de consolidación
-- 🟢 Sistemas Críticos: CTC, ITCS, TETRA (impactan cronograma)
+- 🟢 Sistemas Críticos: CTC, PTC, TETRA (impactan cronograma)
 - 🟡 Sistemas Estructurales: Material Rodante, CCO, Talleres
 - 🔵 Sistemas Complementarios: ITS, Fibra Óptica, Señalización
 - 🟣 Documentos Transversales: Interoperabilidad, Ciberseguridad
@@ -244,7 +244,7 @@ Instrucción para ti:
 ### POR DÓNDE COMENZAR
 1️⃣ AHORA MISMO: Ejecuta PASO 1 (Auditoría completa)
 
-2️⃣ ESTA SEMANA: Consolida los 3 sistemas críticos (CTC, ITCS, TETRA)
+2️⃣ ESTA SEMANA: Consolida los 3 sistemas críticos (CTC, PTC, TETRA)
 
 3️⃣ PRÓXIMAS 2 SEMANAS: Consolida resto de sistemas
 

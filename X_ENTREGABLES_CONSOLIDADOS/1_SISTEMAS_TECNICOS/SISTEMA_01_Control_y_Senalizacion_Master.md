@@ -16,7 +16,7 @@ Este documento consolida información de las siguientes fuentes:
 |:-----|:------------------|:---------------------|:-------|
 | **I. Base Contractual** | AT1, AT2, AT3, AT4, AT8, AT9 | Enero 2025 | ✅ |
 | **III. Ing. Conceptual** | 26, 27, 28, 29 | Enero 2025 | ✅ |
-| **IV. Ing. Básica** | SIS_CTC, SIS_ITCS, SIS_Señalización | Enero 2025 | ✅ |
+| **IV. Ing. Básica** | SIS_CTC, SIS_PTC, SIS_Señalización | Enero 2025 | ✅ |
 | **V. Ing. Detalle** | V.1, V.2, V.X | Enero 2025 | ✅ |
 | **VI. Operación** | Manuales OM | Enero 2025 | ✅ |
 
@@ -89,7 +89,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
          │                       │                       │
          │                       │                       │
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   GSM-R Network │    │   TETRA Network │    │   Fiber Optic   │
+│   RED TETRA (Misión Crítica) Network │    │   TETRA Network │    │   Fiber Optic   │
 │   (37 Stations) │    │   (37 Stations) │    │   (594 km)      │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
@@ -100,7 +100,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 - **Filosofía Virtual:** Eliminación total de señalización física
 - **Control Centralizado:** CTC desde CCO con redundancia N+1
 - **ATP Embarcado:** Sistema de protección a bordo
-- **Comunicaciones Redundantes:** GSM-R + TETRA + Fibra óptica
+- **Comunicaciones Redundantes:** RED TETRA (Misión Crítica) + TETRA + Fibra óptica
 - **Disponibilidad Alta:** 99.95% con sistemas redundantes
 
 ### 2.4 Alternativas Evaluadas
@@ -124,13 +124,13 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 - **Ubicación:** La Dorada (Km 0+000)
 - **Arquitectura:** Redundancia N+1
 - **Capacidad:** Control de 15 locomotoras simultáneas
-- **Interfaces:** CTC, ITCS, TETRA, GSM-R, CCTV
+- **Interfaces:** CTC, PTC, TETRA, RED TETRA (Misión Crítica), CCTV
 
 **Sistema ATP Embarcado:**
-- **Tecnología:** ITCS ETCS Level 2
+- **Tecnología:** PTC PTC VIRTUAL Level 2
 - **Cantidad:** 15 locomotoras
 - **Funcionalidades:** Protección automática, supervisión, control
-- **Interfaces:** CTC, GSM-R, GPS, EOT
+- **Interfaces:** CTC, RED TETRA (Misión Crítica), GPS, EOT
 
 ### 3.2 Especificaciones Básicas
 **Especificaciones técnicas de IV/**
@@ -149,7 +149,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 **Cálculo de Disponibilidad:**
 - CTC Virtual: 99.95% (redundancia N+1)
 - ATP Embarcado: 99.9% (sistema crítico)
-- Red GSM-R: 99.5% (redundancia satelital)
+- Red RED TETRA (Misión Crítica): 99.5% (redundancia satelital)
 - Red TETRA: 99.5% (37 estaciones)
 - **Disponibilidad Total:** 99.95%
 
@@ -159,7 +159,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 | Sistema | Tipo Interface | Criticidad | Responsable |
 |:--------|:---------------|:-----------|:------------|
 | **TETRA** | Comunicaciones | Alta | Telecomunicaciones |
-| **GSM-R** | Comunicaciones | Alta | Telecomunicaciones |
+| **RED TETRA (Misión Crítica)** | Comunicaciones | Alta | Telecomunicaciones |
 | **Fibra Óptica** | Backbone | Alta | Telecomunicaciones |
 | **CCTV** | Supervisión | Media | ITS y Seguridad |
 | **Material Rodante** | ATP Embarcado | Alta | Mecánica |
@@ -265,7 +265,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 | **Disponibilidad** | 99.95% | Monitoreo continuo |
 | **Tiempo de Respuesta** | < 2 segundos | Pruebas de carga |
 | **Tiempo de Recuperación** | < 5 minutos | Pruebas de fallo |
-| **Cobertura GSM-R** | 100% | Mediciones de campo |
+| **Cobertura RED TETRA (Misión Crítica)** | 100% | Mediciones de campo |
 | **Cobertura TETRA** | 100% | Mediciones de campo |
 
 ### 5.3 Especificaciones de Calidad
@@ -375,7 +375,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 | Sistema Relacionado | Tipo Interface | Criticidad | Responsable | Estado |
 |:--------------------|:---------------|:-----------|:------------|:-------|
 | **TETRA** | Comunicaciones | Alta | Telecomunicaciones | ✅ |
-| **GSM-R** | Comunicaciones | Alta | Telecomunicaciones | ✅ |
+| **RED TETRA (Misión Crítica)** | Comunicaciones | Alta | Telecomunicaciones | ✅ |
 | **Fibra Óptica** | Backbone | Alta | Telecomunicaciones | ✅ |
 | **CCTV** | Supervisión | Media | ITS y Seguridad | ✅ |
 | **Material Rodante** | ATP Embarcado | Alta | Mecánica | ✅ |
@@ -390,8 +390,8 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 - Función: Comunicación voz y datos con trenes
 - Redundancia: Sistema redundante con 37 estaciones
 
-**Interface CTC-GSM-R:**
-- Protocolo: GSM-R Data Protocol
+**Interface CTC-RED TETRA (Misión Crítica):**
+- Protocolo: RED TETRA (Misión Crítica) Data Protocol
 - Función: Comunicación de datos críticos
 - Redundancia: Red redundante con respaldo satelital
 
@@ -411,7 +411,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 |:----------------------|:-----------|:-------|:------|
 | **AT1 - CCO** | CTC Virtual | ✅ | Enero 2025 |
 | **AT2 - Operación** | Procedimientos OM | ✅ | Enero 2025 |
-| **AT3 - ITCS** | ATP Embarcado | ✅ | Enero 2025 |
+| **AT3 - PTC** | ATP Embarcado | ✅ | Enero 2025 |
 | **AT4 - Disponibilidad** | Sistema 99.95% | ✅ | Enero 2025 |
 | **AT8 - Operaciones** | Manuales OM | ✅ | Enero 2025 |
 
@@ -453,13 +453,13 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 ### 9.2 Documentos Técnicos
 **III. Ingeniería Conceptual:**
 - 26. Sistema CTC Integrado
-- 27. Sistema ITCS ETCS Level 2
+- 27. Sistema PTC PTC VIRTUAL Level 2
 - 28. Sistema Señalización Ferroviaria
 - 29. Sistema Señalización Integrado v5.0
 
 **IV. Ingeniería Básica:**
 - SIS_CTC_Basica
-- SIS_ITCS_Basica
+- SIS_PTC_Basica
 - SIS_Señalización_Basica
 
 **V. Ingeniería Detalle:**
@@ -477,7 +477,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 
 ### 9.4 Documentos Externos
 - Información de FENOCO (interoperabilidad)
-- Especificaciones de proveedores ITCS
+- Especificaciones de proveedores PTC
 - Manuales de equipos ATP
 - Estándares UIC aplicables
 
@@ -491,7 +491,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 |:---------------|:------------------------|:-------------------|:-------|
 | I/ Contractual | AT1, AT2, AT3, AT4, AT8, AT9 | Enero 2025 | ✅ Inmutable |
 | III/ Conceptual | Doc 26, 27, 28, 29 | Enero 2025 | ✅ Sincronizado |
-| IV/ Básica | SIS_CTC, SIS_ITCS, SIS_Señalización | Enero 2025 | ✅ Sincronizado |
+| IV/ Básica | SIS_CTC, SIS_PTC, SIS_Señalización | Enero 2025 | ✅ Sincronizado |
 | V/ Detalle | V.1, V.2, V.X | Enero 2025 | ✅ Sincronizado |
 | VI/ Operación | Manuales OM | Enero 2025 | ✅ Sincronizado |
 

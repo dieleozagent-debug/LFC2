@@ -331,3 +331,6 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 
 
+
+
+<!-- COCINADO LFC-CLI v1.0 | Fecha: 3/13/2026, 7:41:58 PM | SSOT: DBCD_CRITERIA.md -->

@@ -307,7 +307,7 @@ Esta información es únicamente de carácter informativo. Se recomienda su revi
 
 #### **⚠️ VACÍOS IDENTIFICADOS Y CORREGIDOS (KARPATHY PURGE):**
 
-1. **Eliminación de ETCS:** Se purga cualquier referencia a estándares europeos no aplicables.
+1. **Eliminación de PTC VIRTUAL:** Se purga cualquier referencia a estándares europeos no aplicables.
 2. **Alineación PTC Virtual:** Se adopta **FRA 49 CFR Part 236 Subpart I** como norma rectora.
 3. **Interoperabilidad FENOCO:** Se descartan "gateways técnicos" y se adopta el protocolo operacional **Stop & Switch** en Chiriguaná.
 4. **Ciberseguridad:** Enfoque en protección de la red TETRA y backbone de fibra óptica.
@@ -354,7 +354,7 @@ Esta información es únicamente de carácter informativo. Se recomienda su revi
 
 #### **✅ CONCLUSIONES:**
 
-El documento ha sido saneado integralmente eliminando la alucinación técnica de ETCS/GSM-R e integrando:
+El documento ha sido saneado integralmente eliminando la alucinación técnica de PTC VIRTUAL/RED TETRA (Misión Crítica) e integrando:
 - **PTC Virtual (FRA 236)** como tecnología troncal.
 - **Interoperabilidad Operacional** con FENOCO.
 - **Arquitectura Vital 2oo3** para el servidor central.

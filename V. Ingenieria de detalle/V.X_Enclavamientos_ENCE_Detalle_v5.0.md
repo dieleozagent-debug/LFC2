@@ -17,16 +17,16 @@ Los 5 enclavamientos electrónicos (ENCE) operan como nodos inteligentes bajo el
 
 ### 1.2 Interfaz de Comunicación:
 - **Red:** Backbone de Fibra Óptica (Primario) y Radio TETRA (Respaldo para telemetría).
-- **Purga:** Se elimina el soporte para protocolos ITCS propietarios y comunicaciones GSM-R.
+- **Purga:** Se elimina el soporte para protocolos PTC propietarios y comunicaciones RED TETRA (Misión Crítica).
 
 ---
 
-## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE RBC/GSM-R)
+## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE RBC/RED TETRA (Misión Crítica))
 
 Se han corregido los siguientes errores técnicos de la v5.0:
 - ✅ **ELIMINADO:** El requisito de comunicación ENCE-RBC. El ENCE ahora habla directamente con el **Servidor PTC Maestro**.
-- ✅ **ELIMINADO:** Cualquier interfaz física o lógica para balizas o señales LED de vía.
-- ✅ **ELIMINADO:** Protocolos de comunicación duales TETRA/GSM-R en el hardware ENCE.
+- ✅ **ELIMINADO:** Cualquier interfaz física o lógica para punto de referencia virtuals o señales LED de vía.
+- ✅ **ELIMINADO:** Protocolos de comunicación duales TETRA/RED TETRA (Misión Crítica) en el hardware ENCE.
 - ✅ **CORREGIDO:** El dimensionamiento de los gabinetes ENCE se reduce al eliminar módulos de interfaz propietarios de terceros.
 
 ---

@@ -28,7 +28,7 @@
 
 | ID | Descripción | Fuente Validada | Estado |
 |:--:|:------------|:----------------|:-------|
-| R-AT3-01 | Dependencia AT3 para ITCS | `III/36.1_Analisis_Riesgos_PMI.md` | ✅ Activo |
+| R-AT3-01 | Dependencia AT3 para PTC | `III/36.1_Analisis_Riesgos_PMI.md` | ✅ Activo |
 | R-INT-01 | Interoperabilidad FENOCO | `III/36.1` + `IV/41.Interfaces` | ✅ Activo |
 | R-AT4-01 | Cumplimiento disponibilidad AT4 | AT4 Contractual | ✅ Activo |
 | R-CYB-01 | Ciberseguridad IEC 62443 | `VII.2.11` | ✅ Activo |
@@ -119,7 +119,7 @@
 2. ✅ `@@ANALISIS_RIESGOS_CONTRACTUALES_INDEFINICIONES.md` (análisis detallado)
 
 #### **Blockers Potenciales (Requieren validación):**
-3. ✅ `BLOCKER-001_Indefinicion_ITCS.md`
+3. ✅ `BLOCKER-001_Indefinicion_PTC.md`
 4. ✅ `BLOCKER-002_Protocolos_FENOCO.md`
 5. ✅ `BLOCKER-003_Pasos_Nivel_Cantidades.md`
 6. ✅ `BLOCKER-004_Material_Rodante_Cronograma.md`
@@ -169,7 +169,7 @@
 ## ⚠️ **PENDIENTES DE VALIDACIÓN:**
 
 ### **BLOCKERS Identificados (Usuario)** - Requieren validar en contrato:
-1. ⏳ BLOCKER-001: ¿ITCS está definido en AT3?
+1. ⏳ BLOCKER-001: ¿PTC está definido en AT3?
 2. ⏳ BLOCKER-002: ¿Protocolos FENOCO en contrato?
 3. ⏳ BLOCKER-003: ¿Cantidades PAN confirmadas?
 4. ⏳ BLOCKER-004: ¿Cronograma MR en contrato?

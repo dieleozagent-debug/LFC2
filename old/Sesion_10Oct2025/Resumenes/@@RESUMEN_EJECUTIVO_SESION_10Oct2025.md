@@ -85,7 +85,7 @@
 
 | ID | Blocker | Acción Inmediata |
 |----|---------|------------------|
-| **BLOCKER-001** | Indefinición ITCS (ATP/ETCS L2/CBTC) | Oficiar ANI - Definición formal Mes 6 |
+| **BLOCKER-001** | Indefinición PTC (ATP/PTC VIRTUAL L2/CBTC) | Oficiar ANI - Definición formal Mes 6 |
 | **BLOCKER-002** | Protocolos FENOCO no revelados | Reunión técnica FENOCO Mes 5 |
 | **BLOCKER-003** | Cantidades PANs (146 vs 36) | Confirmar diseño modular PANs |
 | **BLOCKER-004** | Cronograma Material Rodante | Oficiar ANI - Cronograma entrega |
@@ -97,7 +97,7 @@
 ## 🎯 **PRÓXIMOS PASOS**
 
 ### **Corto plazo (esta semana):**
-1. ✅ Ejecutar plan de acción para BLOCKER-001 (oficio ANI - ITCS)
+1. ✅ Ejecutar plan de acción para BLOCKER-001 (oficio ANI - PTC)
 2. ✅ Agendar reunión técnica FENOCO (BLOCKER-002)
 3. ✅ Validar cantidades PANs con ingeniería civil (BLOCKER-003)
 

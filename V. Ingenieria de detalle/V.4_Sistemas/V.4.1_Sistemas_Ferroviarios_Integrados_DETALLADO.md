@@ -10,11 +10,11 @@
 
 ## 🎯 RESUMEN EJECUTIVO
 
-Este documento presenta la **ingeniería de sistemas de detalle** para los sistemas ferroviarios integrados del proyecto APP La Dorada-Chiriguaná, desarrollada para la construcción real de los sistemas CTC, ITCS, TETRA, fibra óptica y CCTV del corredor ferroviario de 178 km.
+Este documento presenta la **ingeniería de sistemas de detalle** para los sistemas ferroviarios integrados del proyecto APP La Dorada-Chiriguaná, desarrollada para la construcción real de los sistemas CTC, PTC, TETRA, fibra óptica y CCTV del corredor ferroviario de 178 km.
 
 ### **Base Técnica:**
 - **Longitud total:** 178 km La Dorada-Chiriguaná
-- **Sistemas integrados:** CTC, ITCS ETCS Level 2, TETRA, Fibra óptica, CCTV
+- **Sistemas integrados:** CTC, PTC PTC VIRTUAL Level 2, TETRA, Fibra óptica, CCTV
 - **Estándares:** UIC, EN, IEEE, normas colombianas
 - **Interoperabilidad:** Con red FENOCO
 
@@ -52,34 +52,34 @@ Este documento presenta la **ingeniería de sistemas de detalle** para los siste
 
 ---
 
-## 🚂 SISTEMA ITCS ETCS Level 2
+## 🚂 SISTEMA PTC PTC VIRTUAL Level 2
 
-### **2. INFRAESTRUCTURA ITCS**
+### **2. INFRAESTRUCTURA PTC**
 
 #### **2.1 Radio Block Center (RBC)**
 | Componente | Especificación | Cantidad | Observaciones |
 |:-----------|:---------------|:--------:|:--------------|
 | **Servidor RBC** | Siemens SIMIS W | 2 unidades | Redundancia N+1 |
-| **Interfaz GSM-R** | Siemens GSM-R | 2 unidades | Comunicación trenes |
-| **Interfaz Eurobalise** | Siemens Eurobalise | 2 unidades | Comunicación balizas |
+| **Interfaz RED TETRA (Misión Crítica)** | Siemens RED TETRA (Misión Crítica) | 2 unidades | Comunicación trenes |
+| **Interfaz Virtual Balise (GNSS)** | Siemens Virtual Balise (GNSS) | 2 unidades | Comunicación punto de referencia virtuals |
 | **Interfaz CTC** | Siemens CTC | 2 unidades | Integración CTC |
 | **UPS** | APC Smart-UPS 3000VA | 2 unidades | Redundancia N+1 |
 
-#### **2.2 Balizas Eurobalise**
+#### **2.2 Punto de referencia virtuals Virtual Balise (GNSS)**
 | Ubicación | Cantidad | Tipo | Observaciones |
 |:----------|:--------:|:-----|:--------------|
-| **La Dorada - Puerto Berrío** | 90 unidades | Baliza pasiva | Cada 500m |
-| **Puerto Berrío - Barrancabermeja** | 104 unidades | Baliza pasiva | Cada 500m |
-| **Barrancabermeja - Bucaramanga** | 76 unidades | Baliza pasiva | Cada 500m |
-| **Bucaramanga - Chiriguaná** | 86 unidades | Baliza pasiva | Cada 500m |
+| **La Dorada - Puerto Berrío** | 90 unidades | Punto de referencia virtual pasiva | Cada 500m |
+| **Puerto Berrío - Barrancabermeja** | 104 unidades | Punto de referencia virtual pasiva | Cada 500m |
+| **Barrancabermeja - Bucaramanga** | 76 unidades | Punto de referencia virtual pasiva | Cada 500m |
+| **Bucaramanga - Chiriguaná** | 86 unidades | Punto de referencia virtual pasiva | Cada 500m |
 | **TOTAL** | **356 unidades** | - | - |
 
-#### **2.3 Equipos Embarcados ITCS**
+#### **2.3 Equipos Embarcados PTC**
 | Componente | Especificación | Cantidad | Observaciones |
 |:-----------|:---------------|:--------:|:--------------|
 | **TCR (Train Control Radio)** | Siemens SIMIS W | 40 unidades | 1 por tren |
-| **Antena Eurobalise** | Siemens Eurobalise | 80 unidades | 2 por tren |
-| **Módulo GSM-R** | Siemens GSM-R | 40 unidades | 1 por tren |
+| **Antena Virtual Balise (GNSS)** | Siemens Virtual Balise (GNSS) | 80 unidades | 2 por tren |
+| **Módulo RED TETRA (Misión Crítica)** | Siemens RED TETRA (Misión Crítica) | 40 unidades | 1 por tren |
 | **Pantalla de conductor** | TFT 12" | 40 unidades | 1 por tren |
 | **UPS embarcado** | 24V DC, 1kVA | 40 unidades | 1 por tren |
 
@@ -190,7 +190,7 @@ Este documento presenta la **ingeniería de sistemas de detalle** para los siste
 | **Gateway principal** | Intel Xeon Gold 6248R | 2 unidades | Redundancia N+1 |
 | **Gateway secundario** | Intel Xeon Gold 6248R | 2 unidades | Redundancia N+1 |
 | **Interfaz CTC** | TCP/IP, 1 Gbps | 2 unidades | Integración CTC |
-| **Interfaz ITCS** | TCP/IP, 1 Gbps | 2 unidades | Integración ITCS |
+| **Interfaz PTC** | TCP/IP, 1 Gbps | 2 unidades | Integración PTC |
 | **Interfaz TETRA** | TCP/IP, 100 Mbps | 2 unidades | Integración TETRA |
 
 #### **6.2 Sistema de Monitoreo**
@@ -249,7 +249,7 @@ Este documento presenta la **ingeniería de sistemas de detalle** para los siste
 #### **8.1 Secuencia de Instalación**
 1. **Fase 1:** Instalación de fibra óptica (3 meses)
 2. **Fase 2:** Instalación de sistemas TETRA (2 meses)
-3. **Fase 3:** Instalación de sistemas ITCS (4 meses)
+3. **Fase 3:** Instalación de sistemas PTC (4 meses)
 4. **Fase 4:** Instalación de sistemas CTC (3 meses)
 5. **Fase 5:** Instalación de sistemas CCTV (2 meses)
 6. **Fase 6:** Integración y pruebas (2 meses)
@@ -277,7 +277,7 @@ Este documento presenta la **ingeniería de sistemas de detalle** para los siste
 - **Servidores:** 40 unidades
 - **Switches:** 32 unidades
 - **Equipos TETRA:** 196 unidades
-- **Equipos ITCS:** 520 unidades
+- **Equipos PTC:** 520 unidades
 - **Cámaras CCTV:** 226 unidades
 - **Equipos de red:** 50 unidades
 
@@ -299,7 +299,7 @@ Este documento presenta la **ingeniería de sistemas de detalle** para los siste
 | Rubro | Costo (COP) | % del Total |
 |:------|:------------|:------------|
 | **Sistemas CTC** | $35,000 M | 25% |
-| **Sistemas ITCS** | $42,000 M | 30% |
+| **Sistemas PTC** | $42,000 M | 30% |
 | **Sistemas TETRA** | $21,000 M | 15% |
 | **Fibra óptica** | $18,000 M | 13% |
 | **Sistemas CCTV** | $14,000 M | 10% |
@@ -337,7 +337,7 @@ Este documento presenta la **ingeniería de sistemas de detalle** para los siste
 |:-----|:---------|:----------------------|:---------|
 | **Fase 1** | 3 meses | Fibra óptica | 60 operarios |
 | **Fase 2** | 2 meses | Sistemas TETRA | 40 operarios |
-| **Fase 3** | 4 meses | Sistemas ITCS | 80 operarios |
+| **Fase 3** | 4 meses | Sistemas PTC | 80 operarios |
 | **Fase 4** | 3 meses | Sistemas CTC | 60 operarios |
 | **Fase 5** | 2 meses | Sistemas CCTV | 40 operarios |
 | **Fase 6** | 2 meses | Integración y pruebas | 30 operarios |
@@ -345,7 +345,7 @@ Este documento presenta la **ingeniería de sistemas de detalle** para los siste
 #### **12.2 Hitos Principales**
 - **Mes 3:** Terminación fibra óptica
 - **Mes 5:** Terminación sistemas TETRA
-- **Mes 9:** Terminación sistemas ITCS
+- **Mes 9:** Terminación sistemas PTC
 - **Mes 12:** Terminación sistemas CTC
 - **Mes 14:** Terminación sistemas CCTV
 - **Mes 16:** Terminación total proyecto
@@ -362,7 +362,7 @@ Este documento presenta la **ingeniería de sistemas de detalle** para los siste
 - **Precisión:** 100%
 - **Comunicaciones:** Funcionales 100%
 
-#### **13.2 Sistemas ITCS**
+#### **13.2 Sistemas PTC**
 - **Disponibilidad:** 99.95%
 - **Tiempo de respuesta:** < 1 segundo
 - **Precisión:** 100%

@@ -13,16 +13,16 @@ Este documento define las especificaciones del material rodante (15 locomotoras)
 ### 1.1 Configuración de la Flota:
 - **Locomotoras:** 15 unidades GE U18C o equivalentes.
 - **Retrofit Vital:** Instalación de **On-Board Computers (OBC)** con redundancia vital.
-- **Telecomunicaciones:** Radios **TETRA** de misión crítica (se elimina GSM-R).
+- **Telecomunicaciones:** Radios **TETRA** de misión crítica (se elimina RED TETRA (Misión Crítica)).
 - **Seguridad:** Sistema **End of Train (EOT)** vital integrado (15 unidades).
 
 ---
 
-## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE ITCS/GSM-R)
-- ✅ **ELIMINADO:** Referencias a ETCS Level 2 y RBC.
+## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE PTC/RED TETRA (Misión Crítica))
+- ✅ **ELIMINADO:** Referencias a PTC VIRTUAL Level 2 y RBC.
 - ✅ **ELIMINADO:** Módulo STM (sustituido por OBC PTC).
-- ✅ **ELIMINADO:** Radio GSM-R (estándar obsoleto para esta arquitectura).
-- ✅ **ELIMINADO:** Antenas de Eurobalizas.
+- ✅ **ELIMINADO:** Radio RED TETRA (Misión Crítica) (estándar obsoleto para esta arquitectura).
+- ✅ **ELIMINADO:** Antenas de Virtual Balise (GNSS)s.
 - ✅ **ADOPTADO:** Fusión de sensores GNSS/IMU de precisión para localización vital.
 
 ---
@@ -34,7 +34,7 @@ Este documento define las especificaciones del material rodante (15 locomotoras)
 | **OBC Vital** | Lógica de supervisión y frenado | FRA 236 / SIL 4 |
 | **DMI Industrial** | Interfaz Maquinista-Máquina | AREMA |
 | **Radio TETRA** | Backbone de datos vitales | IEEE 1474.1 |
-| **GNSS Vital** | Localización sin balizas | FRA 236 |
+| **GNSS Vital** | Localización sin punto de referencia virtuals | FRA 236 |
 
 ---
 
@@ -43,9 +43,9 @@ Este documento define las especificaciones del material rodante (15 locomotoras)
 | Elemento | Cantidad | Estado |
 |:---|:---:|:---:|
 | **Locomotoras** | 15 | SANEADO |
-| **Eurobalizas** | 0 | SANEADO |
-| **RBC (ETCS)** | 0 | SANEADO |
-| **GSM-R** | 0 | SANEADO |
+| **Virtual Balise (GNSS)s** | 0 | SANEADO |
+| **RBC (PTC VIRTUAL)** | 0 | SANEADO |
+| **RED TETRA (Misión Crítica)** | 0 | SANEADO |
 | **Vital PTC Server**| 1 (2oo3) | SANEADO |
 
 ---

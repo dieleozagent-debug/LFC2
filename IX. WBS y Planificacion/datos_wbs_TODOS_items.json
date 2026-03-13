@@ -607,7 +607,7 @@
         },
         {
             "codigo": "2.2.100",
-            "descripcion": "Estaciones base GSM-R",
+            "descripcion": "Estaciones base RED TETRA (Misión Crítica)",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "37",
@@ -621,7 +621,7 @@
         },
         {
             "codigo": "2.2.101",
-            "descripcion": "Antenas GSM-R",
+            "descripcion": "Antenas RED TETRA (Misión Crítica)",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "37",
@@ -635,7 +635,7 @@
         },
         {
             "codigo": "2.2.102",
-            "descripcion": "Radios embarcados GSM-R",
+            "descripcion": "Radios embarcados RED TETRA (Misión Crítica)",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "30",
@@ -649,7 +649,7 @@
         },
         {
             "codigo": "2.2.103",
-            "descripcion": "Sistema control GSM-R",
+            "descripcion": "Sistema control RED TETRA (Misión Crítica)",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "1",
@@ -663,7 +663,7 @@
         },
         {
             "codigo": "2.2.104",
-            "descripcion": "Interfaces TETRA-GSM-R",
+            "descripcion": "Interfaces TETRA-RED TETRA (Misión Crítica)",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "37",
@@ -1741,7 +1741,7 @@
         },
         {
             "codigo": "6.1.102",
-            "descripcion": "Radios GSM-R embarcados",
+            "descripcion": "Radios RED TETRA (Misión Crítica) embarcados",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "16",

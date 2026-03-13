@@ -42,7 +42,7 @@ Se descarta el protocolo FFFIS. La comunicación CTC-PTC se realiza mediante:
 | Versión | Fecha | Responsable | Cambio (Karpathy Purge) |
 |:---:|:---:|:---|:---|
 | **v2.0** | 13/03/2026 | Admin. Contractual | **RE-ESCRITURA TOTAL**. Eliminado FFFIS y Gateways. Basado en Arquitectura Vital IP. |
-| **v1.0** | 27/01/2025 | Ing. Sistemas | Versión obsoleta basada en Alstom ITCS (HALLUCINATED). |
+| **v1.0** | 27/01/2025 | Ing. Sistemas | Versión obsoleta basada en Alstom PTC (HALLUCINATED). |
 
 ---
 **Documento Alineado con el SSOT (DBCD_CRITERIA.md).**

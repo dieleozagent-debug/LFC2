@@ -13,7 +13,7 @@ Se ha completado la purga total de obsolescencia técnica en las 7 carpetas maes
 
 ### 📊 Estadísticas de la Purga:
 - **Archivos Auditados:** +150
-- **Términos Eliminados:** GSM-R, ETCS, ITCS, RBC, Eurobalise, FFFIS, UNISIG.
+- **Términos Eliminados:** RED TETRA (Misión Crítica), PTC VIRTUAL, PTC, RBC, Virtual Balise (GNSS), FFFIS, UNISIG.
 - **Protocolos Adoptados:** **Vital IP** (Seguridad), **TETRA** (Comunicaciones), **FRA 236** (Señalización Virtual).
 - **Impacto Financiero:** Reducción significativa del CAPEX (Infraestructura de vía) y OPEX (Mantenimiento simplificado).
 

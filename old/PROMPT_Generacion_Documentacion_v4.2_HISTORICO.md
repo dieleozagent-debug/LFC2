@@ -120,11 +120,11 @@ Para documentos Tipo B y C, aplica SIEMPRE esta estructura estandarizada:
 ## 3. OPTIMIZACIONES EPC ESPECÍFICAS
 ### 3.1 Arquitectura para Proyectos EPC
 ### 3.2 Gestión de Interfaces EPC
-### 3.3 Estrategia de Avance con Bloqueos ITCS
+### 3.3 Estrategia de Avance con Bloqueos PTC
 
 ## 4. MATRIZ DE CONTROL Y SEGUIMIENTO
 ### 4.1 Métricas de Seguimiento Automatizadas
-### 4.2 Indicadores de Riesgo por Bloqueo ITCS
+### 4.2 Indicadores de Riesgo por Bloqueo PTC
 
 ## 5. CONCLUSIONES Y PRÓXIMOS PASOS
 ### 5.1 Estado del Documento v4.0

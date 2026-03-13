@@ -49,7 +49,7 @@ El diseño detallado de todos los sistemas está bloqueado hasta que estos crite
 ### 2.3 Interfaces Críticas
 - **Redundancia ↔ Sistemas Eléctricos:** La doble acometida, los UPS y los generadores son la base de la disponibilidad de todos los demás sistemas.
 - **Redundancia ↔ SICC (AT4):** El SICC debe monitorear el estado de los sistemas redundantes y registrar cualquier evento de conmutación para el cálculo de los KPIs de disponibilidad.
-- **🚂 Redundancia ↔ ITCS:** Sistemas de control embarcados con redundancia ETCS Level 2 hasta AT3
+- **🚂 Redundancia ↔ PTC:** Sistemas de control embarcados con redundancia PTC VIRTUAL Level 2 hasta AT3
 - **🔗 Redundancia ↔ FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos UIC
 
 ---
@@ -114,7 +114,7 @@ La siguiente matriz asigna un nivel de redundancia a cada sistema crítico del p
 | **Controladores CTC** | **Vital** | **2N** | - Servidores de aplicación y base de datos en configuración Hot-Standby | AT4, Cap. 5.3 (Disp. SICC) |
 | **Enclavamientos Electrónicos** | **Vital** | **2N** | - Procesadores de seguridad duplicados (2oo2) | AT3, Cap. 8.1 |
 | **Controladores Red TETRA** | **Crítico** | **N+1** | - Controladores de sitio (SwMI) | AT4 (Indicador COM1) |
-| **🚂 ITCS Embarcado** | **Vital** | **2N** | - Sistemas de control embarcados ETCS Level 2 hasta AT3 | AT4 (Disponibilidad 99.95%) |
+| **🚂 PTC Embarcado** | **Vital** | **2N** | - Sistemas de control embarcados PTC VIRTUAL Level 2 hasta AT3 | AT4 (Disponibilidad 99.95%) |
 | **🔗 Interfaces FENOCO** | **Crítico** | **N+1** | - Protocolos UIC para interoperabilidad | AT4 (Interoperabilidad) |
 
 ---
@@ -161,29 +161,29 @@ La aprobación de estos criterios de redundancia permite:
 ## ACTUALIZACIÓN v4.1 - REVISIÓN METODOLOGÍA PUNTO 42
 
 ### **MEJORAS IMPLEMENTADAS:**
-1. **Interfaces Críticas ITCS:** Integración de sistemas de control embarcados con redundancia ETCS Level 2 hasta AT3
+1. **Interfaces Críticas PTC:** Integración de sistemas de control embarcados con redundancia PTC VIRTUAL Level 2 hasta AT3
 2. **Interfaces Críticas FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos UIC
-3. **Matriz de Redundancia ITCS:** ITCS Embarcado como sistema Vital con redundancia 2N
+3. **Matriz de Redundancia PTC:** PTC Embarcado como sistema Vital con redundancia 2N
 4. **Matriz de Redundancia FENOCO:** Interfaces FENOCO como sistema Crítico con redundancia N+1
 
 ### **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
-1. **Falta de interfaces ITCS:** Agregadas interfaces críticas para sistemas de control embarcados
+1. **Falta de interfaces PTC:** Agregadas interfaces críticas para sistemas de control embarcados
 2. **Ausencia de interoperabilidad FENOCO:** Integrada interoperabilidad con sistemas FENOCO
-3. **Matriz incompleta:** Agregados ITCS Embarcado e Interfaces FENOCO a la matriz de redundancia
+3. **Matriz incompleta:** Agregados PTC Embarcado e Interfaces FENOCO a la matriz de redundancia
 
 ### ⚠️ **RIESGOS IDENTIFICADOS PARA ANÁLISIS PMI:**
 
 | ID | Categoría | Probabilidad | Impacto | Descripción |
 |:---:|:---:|:---:|:---:|:---|
-| R-075 | Técnico | Alta | Alto | Dependencia AT3 para especificaciones ITCS en redundancia |
+| R-075 | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en redundancia |
 | R-076 | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por redundancia insuficiente |
-| R-077 | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.95% en ITCS según AT4 |
-| R-078 | Operacional | Alta | Medio | Complejidad en gestión de redundancia 2N para ITCS |
-| R-079 | Técnico | Media | Medio | Integración de redundancia ITCS con sistemas FENOCO existentes |
+| R-077 | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.95% en PTC según AT4 |
+| R-078 | Operacional | Alta | Medio | Complejidad en gestión de redundancia 2N para PTC |
+| R-079 | Técnico | Media | Medio | Integración de redundancia PTC con sistemas FENOCO existentes |
 
 ### **RECOMENDACIONES PARA GESTIÓN DE RIESGOS:**
-1. **Estrategia ITCS:** Desarrollar especificaciones de redundancia basadas en ETCS Level 2 hasta disponibilidad de AT3
+1. **Estrategia PTC:** Desarrollar especificaciones de redundancia basadas en PTC VIRTUAL Level 2 hasta disponibilidad de AT3
 2. **Coordinación FENOCO:** Establecer protocolos de redundancia compatibles con sistemas FENOCO existentes
 3. **Monitoreo AT4:** Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad 99.95%
-4. **Pruebas de Redundancia:** Desarrollar protocolos de prueba específicos para ITCS y FENOCO
-5. **Plan de Contingencia:** Establecer procedimientos de fallback para sistemas ITCS y FENOCO
+4. **Pruebas de Redundancia:** Desarrollar protocolos de prueba específicos para PTC y FENOCO
+5. **Plan de Contingencia:** Establecer procedimientos de fallback para sistemas PTC y FENOCO

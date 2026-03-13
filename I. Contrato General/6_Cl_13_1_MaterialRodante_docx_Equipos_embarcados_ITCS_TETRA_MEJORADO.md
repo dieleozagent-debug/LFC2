@@ -22,11 +22,11 @@ La arquitectura adoptada es **PTC VIRTUAL**. Esto implica la eliminación total 
 ---
 
 ## ⚠️ IMPLICACIONES PARA EL EPC (CONSTRUCTOR)
-**Riesgo:** Sobrecosto y retraso por intentar implementar estándares europeos (ETCS/UIC) o señalización física (WAYSIDE) que NO son requeridos y dificultan la interoperabilidad con FENOCO.
+**Riesgo:** Sobrecosto y retraso por intentar implementar estándares europeos (PTC VIRTUAL/UIC) o señalización física (WAYSIDE) que NO son requeridos y dificultan la interoperabilidad con FENOCO.
 **Acción:**
-1. Descartar cualquier diseño de locomotoras basado en ETCS Level 2 por no ser el estándar del proyecto.
+1. Descartar cualquier diseño de locomotoras basado en PTC VIRTUAL Level 2 por no ser el estándar del proyecto.
 2. Especificar equipamiento embarcado PTC compatible con FRA 236.
-3. Asegurar que la interfaz con FENOCO sea **Operacional (Stop & Switch)**, no una integración tecnológica de sistemas propietarios (Alstom ITCS).
+3. Asegurar que la interfaz con FENOCO sea **Operacional (Stop & Switch)**, no una integración tecnológica de sistemas propietarios (Alstom PTC).
 
 ---
 
@@ -34,7 +34,7 @@ La arquitectura adoptada es **PTC VIRTUAL**. Esto implica la eliminación total 
 
 ### 1. MARCO CONTRACTUAL
 - **Apéndice Técnico 1 - Tabla 17:** Obligación de PTC bajo FRA.
-- **Apéndice Técnico 3, Numeral 8.10:** Requisitos de ITCS (Entendido como PTC según DBCD).
+- **Apéndice Técnico 3, Numeral 8.10:** Requisitos de PTC (Entendido como PTC según DBCD).
 - **Apéndice Técnico 4:** Disponibilidad operativa >= 99.5%.
 
 ### 2. INTEGRACIÓN CON DOCUMENTOS RELACIONADOS
@@ -43,7 +43,7 @@ La arquitectura adoptada es **PTC VIRTUAL**. Esto implica la eliminación total 
 
 | Versión | Fecha       | Responsable                | Descripción                              |
 |:------:|:-----------:|:---------------------------|:-----------------------------------------|
-| v4.2   | 13/03/2026  | Admin. Contractual EPC     | Re-ingeniería completa: Purgado ETCS/UIC. Alineación PTC Virtual/FRA. |
+| v4.2   | 13/03/2026  | Admin. Contractual EPC     | Re-ingeniería completa: Purgado PTC VIRTUAL/UIC. Alineación PTC Virtual/FRA. |
 
 ---
 

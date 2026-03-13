@@ -61,7 +61,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 - **Señalización:** Backbone para comunicación con enclavamientos electrónicos
 - **CTC:** Enlace principal para centro de control de tráfico
 - **Radio TETRA:** Backhaul principal para estaciones base
-- **ITCS:** Preparación para interfaces de control embarcado
+- **PTC:** Preparación para interfaces de control embarcado
 - **ITS:** Conectividad para sistemas de información de tránsito
 
 ---
@@ -70,11 +70,11 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 
 | ID | Categoría | Probabilidad | Impacto | Descripción | Estrategia de Mitigación |
 |:---:|:---:|:---:|:---:|:---|:---|
-| **R-110** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones ITCS en fibra óptica | Desarrollar interfaces de fibra óptica basadas en ETCS Level 2 hasta disponibilidad de AT3 |
+| **R-110** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en fibra óptica | Desarrollar interfaces de fibra óptica basadas en PTC VIRTUAL Level 2 hasta disponibilidad de AT3 |
 | **R-111** | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por interfaces incompatibles | Establecer protocolos de fibra óptica compatibles con sistemas FENOCO existentes |
 | **R-112** | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.9% en fibra óptica según AT4 | Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad |
-| **R-113** | Operacional | Alta | Medio | Complejidad en gestión de backbone con ITCS | Desarrollar protocolos de prueba específicos para ITCS y FENOCO |
-| **R-114** | Técnico | Media | Medio | Integración de fibra óptica con sistemas FENOCO existentes | Establecer procedimientos de fallback para sistemas de fibra óptica ITCS y FENOCO |
+| **R-113** | Operacional | Alta | Medio | Complejidad en gestión de backbone con PTC | Desarrollar protocolos de prueba específicos para PTC y FENOCO |
+| **R-114** | Técnico | Media | Medio | Integración de fibra óptica con sistemas FENOCO existentes | Establecer procedimientos de fallback para sistemas de fibra óptica PTC y FENOCO |
 
 ---
 
@@ -132,7 +132,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 - **Artículo 8.6 - Fibra Óptica:** Especificaciones técnicas del backbone de fibra óptica
 - **Backbone principal:** Para sistemas de comunicaciones ferroviarias
 - **Redundancia y diversidad:** Doble anillo con rutas geográficamente diversas
-- **Integración:** Con sistemas de señalización, CTC, radio TETRA e ITCS
+- **Integración:** Con sistemas de señalización, CTC, radio TETRA e PTC
 
 ### 1.2 Cumplimiento de Normativas
 - **RETIE:** Reglamento Técnico de Instalaciones Eléctricas
@@ -151,7 +151,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 | Documento | Estado | Impacto en Fibra Óptica | Acción Requerida |
 |:---:|:---:|:---|:---|
 | **AT3_EspecificacionesGenerales** | 🔴 **PENDIENTE** | **CRÍTICO** - Especificaciones técnicas de fibra óptica | **ESPERAR** - Bloquea especificaciones detalladas |
-| **AT10_CapacidadSurcos** | 🔴 **PENDIENTE** | **CRÍTICO** - Integración ITCS-CTC para fibra óptica | **ESPERAR** - Bloquea integración completa |
+| **AT10_CapacidadSurcos** | 🔴 **PENDIENTE** | **CRÍTICO** - Integración PTC-CTC para fibra óptica | **ESPERAR** - Bloquea integración completa |
 | **AT1_AlcanceProyecto** | ✅ **COMPLETADO v3.0** | **BASE** - Alcance del backbone de fibra óptica | **UTILIZAR** - Base para desarrollo |
 | **AT2_OperacionMantenimiento** | ✅ **COMPLETADO v3.0** | **BASE** - Operación de fibra óptica | **UTILIZAR** - Base para operación |
 | **AT4_IndicadoresDesempeno** | ✅ **COMPLETADO v3.0** | **BASE** - Indicadores de fibra óptica | **UTILIZAR** - Base para métricas |
@@ -173,15 +173,15 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 ### 2.2 Documentos Dependientes (Bloqueados 🔴)
 - **AT3_EspecificacionesGenerales** 🔴 - Especificaciones técnicas críticas para fibra óptica
-- **AT10_CapacidadSurcos** 🔴 - Integración ITCS-CTC para fibra óptica
+- **AT10_CapacidadSurcos** 🔴 - Integración PTC-CTC para fibra óptica
 
 ### 2.3 Interfaces Críticas
 - **Fibra Óptica ↔ Señalización:** Backbone para comunicación con enclavamientos
 - **Fibra Óptica ↔ CTC:** Enlace principal para centro de control de tráfico
 - **Fibra Óptica ↔ Radio TETRA:** Backhaul principal para estaciones base
-- **Fibra Óptica ↔ ITCS:** Preparación para interfaces de control embarcado
+- **Fibra Óptica ↔ PTC:** Preparación para interfaces de control embarcado
 - **Fibra Óptica ↔ ITS:** Conectividad para sistemas de información de tránsito
-- **🚂 Fibra Óptica ↔ ITCS:** Interfaces para control embarcado ETCS Level 2 hasta AT3
+- **🚂 Fibra Óptica ↔ PTC:** Interfaces para control embarcado PTC VIRTUAL Level 2 hasta AT3
 - **🔗 Fibra Óptica ↔ FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos UIC
 
 ## 3. OPTIMIZACIONES EPC ESPECÍFICAS PARA FIBRA ÓPTICA
@@ -225,7 +225,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
    - **Optimización EPC:** Coordinación entre gestión de permisos (AT5) y servidumbres (AT7)
    - **Beneficio:** Optimización del cronograma y reducción de riesgos
 
-### 3.3 Estrategia de Avance con Bloqueos ITCS
+### 3.3 Estrategia de Avance con Bloqueos PTC
 - **Fibra óptica base:** Desarrollo con AT1, AT2, AT4 y sistemas completados mientras se espera AT3
 - **Arquitectura modular:** Diseño que permita integración futura de especificaciones técnicas
 - **Comunicación proactiva:** Mantener stakeholders informados sobre limitaciones
@@ -239,9 +239,9 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 | **Cumplimiento de fibra óptica** | 100% | Semanal | Supervisor Técnico |
 | **Integración de sistemas** | 100% | Diaria | Jefe de Proyecto |
 | **Calidad de fibra óptica** | Excelente | Quincenal | Auditoría Técnica |
-| **Alertas de bloqueo ITCS** | < 3 | Diaria | Gerencia de Proyecto |
+| **Alertas de bloqueo PTC** | < 3 | Diaria | Gerencia de Proyecto |
 
-### 4.2 Indicadores de Riesgo por Bloqueo ITCS
+### 4.2 Indicadores de Riesgo por Bloqueo PTC
 - **🟢 Verde:** Avance con fibra óptica disponible
 - **🟡 Amarillo:** Dependencias parciales identificadas
 - **🔴 Rojo:** Bloqueo total por AT3/AT10 pendientes
@@ -268,7 +268,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 2. **Desarrollado arquitectura de red** con doble anillo y diversidad geográfica
 3. **Especificado tecnología DWDM** para maximización de capacidad
 4. **Definido estrategia de gestión integrada** con AT5 y AT7
-5. **Integrado con sistemas ferroviarios** (CTC, señalización, TETRA, ITCS, ITS)
+5. **Integrado con sistemas ferroviarios** (CTC, señalización, TETRA, PTC, ITS)
 
 ### 5.2 Acciones Requeridas para Mantener v4.0
 - **Monitorear disponibilidad** de AT3_EspecificacionesGenerales y AT10_CapacidadSurcos
@@ -278,7 +278,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 ### 5.3 Criterios para Avance
 ✅ **Documento funcional** para fibra óptica disponible
-✅ **Bloqueos ITCS identificados** y estrategias definidas
+✅ **Bloqueos PTC identificados** y estrategias definidas
 ✅ **Base sólida establecida** con documentos disponibles
 ✅ **Plan de contingencia** implementado para especificaciones pendientes
 
@@ -292,14 +292,14 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 ## ACTUALIZACIÓN v4.1 - REVISIÓN METODOLOGÍA PUNTO 42
 
 ### **MEJORAS IMPLEMENTADAS:**
-1. **Interfaces Críticas ITCS:** Interfaces para control embarcado ETCS Level 2 hasta AT3
+1. **Interfaces Críticas PTC:** Interfaces para control embarcado PTC VIRTUAL Level 2 hasta AT3
 2. **Interfaces Críticas FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos UIC
-3. **Integración con Sistemas Ferroviarios ITCS:** Preparación para interfaces de control embarcado
+3. **Integración con Sistemas Ferroviarios PTC:** Preparación para interfaces de control embarcado
 4. **Integración con Sistemas Ferroviarios FENOCO:** Interoperabilidad con sistemas FENOCO
 5. **Disponibilidad AT4:** Cumplimiento de disponibilidad 99.9% según indicadores contractuales
 
 ### **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
-1. **Falta de interfaces ITCS:** Agregadas interfaces específicas para control embarcado ETCS Level 2
+1. **Falta de interfaces PTC:** Agregadas interfaces específicas para control embarcado PTC VIRTUAL Level 2
 2. **Ausencia de interoperabilidad FENOCO:** Integrada interoperabilidad con sistemas FENOCO
 3. **Falta de criterios AT4:** Agregado cumplimiento de disponibilidad 99.9%
 
@@ -307,15 +307,15 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 | ID | Categoría | Probabilidad | Impacto | Descripción |
 |:---:|:---:|:---:|:---:|:---|
-| R-110 | Técnico | Alta | Alto | Dependencia AT3 para especificaciones ITCS en fibra óptica |
+| R-110 | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en fibra óptica |
 | R-111 | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por interfaces incompatibles |
 | R-112 | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.9% en fibra óptica según AT4 |
-| R-113 | Operacional | Alta | Medio | Complejidad en gestión de backbone con ITCS |
+| R-113 | Operacional | Alta | Medio | Complejidad en gestión de backbone con PTC |
 | R-114 | Técnico | Media | Medio | Integración de fibra óptica con sistemas FENOCO existentes |
 
 ### **RECOMENDACIONES PARA GESTIÓN DE RIESGOS:**
-1. **Estrategia ITCS:** Desarrollar interfaces de fibra óptica basadas en ETCS Level 2 hasta disponibilidad de AT3
+1. **Estrategia PTC:** Desarrollar interfaces de fibra óptica basadas en PTC VIRTUAL Level 2 hasta disponibilidad de AT3
 2. **Coordinación FENOCO:** Establecer protocolos de fibra óptica compatibles con sistemas FENOCO existentes
 3. **Monitoreo AT4:** Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad 99.9%
-4. **Pruebas de Fibra Óptica:** Desarrollar protocolos de prueba específicos para ITCS y FENOCO
-5. **Plan de Contingencia:** Establecer procedimientos de fallback para sistemas de fibra óptica ITCS y FENOCO
+4. **Pruebas de Fibra Óptica:** Desarrollar protocolos de prueba específicos para PTC y FENOCO
+5. **Plan de Contingencia:** Establecer procedimientos de fallback para sistemas de fibra óptica PTC y FENOCO

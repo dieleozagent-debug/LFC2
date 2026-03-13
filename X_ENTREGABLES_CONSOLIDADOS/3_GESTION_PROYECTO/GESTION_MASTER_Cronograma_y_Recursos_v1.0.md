@@ -217,8 +217,8 @@
 |:------------|:------|:--------------|:---------|
 | **Gestión de Proyectos** | Avanzado | PMP, PMI | 3 años |
 | **Sistemas Ferroviarios** | Experto | UIC, EN 50126 | 2 años |
-| **Telecomunicaciones** | Experto | TETRA, GSM-R | 2 años |
-| **Control y Señalización** | Experto | ETCS Level 2 | 2 años |
+| **Telecomunicaciones** | Experto | TETRA, RED TETRA (Misión Crítica) | 2 años |
+| **Control y Señalización** | Experto | PTC VIRTUAL Level 2 | 2 años |
 | **Material Rodante** | Experto | UIC, AAR | 2 años |
 | **Gestión Ambiental** | Avanzado | ISO 14001 | 2 años |
 | **Calidad** | Avanzado | ISO 9001 | 2 años |
@@ -234,7 +234,7 @@
 |:---------|:---------|:---------------|:----------|:-------|
 | Servidores CTC | 4 unidades | Dell PowerEdge R750 | Dell | ✅ Entregado |
 | Consolas operación | 5 unidades | 4 pantallas 55" | Samsung | ✅ Entregado |
-| Equipos ATP | 30 unidades | ETCS Level 2 | Siemens | ✅ Entregado |
+| Equipos ATP | 30 unidades | PTC VIRTUAL Level 2 | Siemens | ✅ Entregado |
 | Equipos ENCE | 5 unidades | Enclavamientos electrónicos | Bombardier | ✅ Entregado |
 | Desvíos motorizados | 25 unidades | Control automático | Vossloh | ✅ Entregado |
 
@@ -242,7 +242,7 @@
 | Material | Cantidad | Especificación | Proveedor | Estado |
 |:---------|:---------|:---------------|:----------|:-------|
 | Estaciones TETRA | 37 unidades | Radio digital | Motorola | ✅ Entregado |
-| Estaciones GSM-R | 37 unidades | Red de datos | Nokia | ✅ Entregado |
+| Estaciones RED TETRA (Misión Crítica) | 37 unidades | Red de datos | Nokia | ✅ Entregado |
 | Cable fibra óptica | 594 km | 48 fibras G.652D | Prysmian | ⏳ En entrega |
 | Equipos DWDM | 8 unidades | Multiplexación | Cisco | ✅ Entregado |
 | Torres de comunicación | 37 unidades | 40m altura | [Proveedor] | ✅ Entregado |

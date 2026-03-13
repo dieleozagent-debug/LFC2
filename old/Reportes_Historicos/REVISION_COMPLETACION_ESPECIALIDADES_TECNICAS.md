@@ -46,8 +46,8 @@ Como Administrador Contractual EPC, he completado la revisión exhaustiva de las
 - **Estado:** ✅ **100% COMPLETADO**
 - **Documentos:** `V.4.1_Sistemas_Ferroviarios_Integrados_DETALLADO.md`
 - **Especificaciones:** 300+ líneas de ingeniería de sistemas completa
-- **Componentes:** CTC, ITCS ETCS Level 2, TETRA, fibra óptica, CCTV
-- **Cantidades:** 356 balizas Eurobalise, 226 cámaras CCTV, 178 km fibra óptica
+- **Componentes:** CTC, PTC PTC VIRTUAL Level 2, TETRA, fibra óptica, CCTV
+- **Cantidades:** 356 punto de referencia virtuals Virtual Balise (GNSS), 226 cámaras CCTV, 178 km fibra óptica
 - **Presupuesto:** $140,000 M
 
 ### **🔵 ESPECIALIDAD INTEGRACIÓN - ✅ COMPLETADA**
@@ -65,10 +65,10 @@ Como Administrador Contractual EPC, he completado la revisión exhaustiva de las
 ### **DOCUMENTOS BLOQUEADOS RESUELTOS:**
 | Documento | Estado Anterior | Estado Actual | Acción Tomada |
 |:----------|:----------------|:---------------|:---------------|
-| **AT3_EspecificacionesGenerales** | 🔴 Bloqueado por ITCS | ✅ **RESUELTO** | Especificaciones ITCS ETCS Level 2 completadas |
+| **AT3_EspecificacionesGenerales** | 🔴 Bloqueado por PTC | ✅ **RESUELTO** | Especificaciones PTC PTC VIRTUAL Level 2 completadas |
 | **AT10_CapacidadSurcos** | 🔴 Bloqueado por simulaciones | ✅ **RESUELTO** | Simulaciones básicas completadas |
-| **Sistema_CTC_Integrado** | 🔴 Bloqueado por ITCS | ✅ **RESUELTO** | Sistema CTC integrado completado |
-| **Sistema_TETRA_Integrado** | 🔴 Bloqueado por ITCS | ✅ **RESUELTO** | Sistema TETRA integrado completado |
+| **Sistema_CTC_Integrado** | 🔴 Bloqueado por PTC | ✅ **RESUELTO** | Sistema CTC integrado completado |
+| **Sistema_TETRA_Integrado** | 🔴 Bloqueado por PTC | ✅ **RESUELTO** | Sistema TETRA integrado completado |
 
 ### **DOCUMENTOS DISPONIBLES VALIDADOS:**
 | Documento | Estado | Validación | Observaciones |
@@ -114,7 +114,7 @@ Como Administrador Contractual EPC, he completado la revisión exhaustiva de las
 
 ### **DOCUMENTOS DE SOPORTE CREADOS:**
 1. **`ESTRATEGIAS_AVANCE_DEPENDENCIAS_BLOQUEADAS.md`** - Plan integral de desbloqueo
-2. **`VII.2.1_Especificaciones_Tecnicas_ITCS_ETCS_Level2_PROVISIONALES.md`** - Especificaciones ITCS
+2. **`VII.2.1_Especificaciones_Tecnicas_PTC_PTC VIRTUAL_Level2_PROVISIONALES.md`** - Especificaciones PTC
 3. **`VII.2.2_Simulaciones_Capacidad_Surcos_BASICAS.md`** - Simulaciones de capacidad
 4. **`VII.2.3_Protocolos_UIC_Interoperabilidad_FENOCO.md`** - Protocolos UIC
 5. **`00. Gobernanza PMO/0.1_MATRIZ_ROLES_PMO_EPC_RACI.md`** - Matriz RACI
@@ -135,7 +135,7 @@ Como Administrador Contractual EPC, he completado la revisión exhaustiva de las
 ### **GAPS IDENTIFICADOS Y RESUELTOS:**
 | Gap | Descripción | Estado | Solución Implementada |
 |:----|:------------|:-------|:----------------------|
-| **Gap 1** | Especificaciones ITCS ETCS Level 2 faltantes | ✅ **RESUELTO** | Especificaciones provisionales completadas |
+| **Gap 1** | Especificaciones PTC PTC VIRTUAL Level 2 faltantes | ✅ **RESUELTO** | Especificaciones provisionales completadas |
 | **Gap 2** | Simulaciones de capacidad no completadas | ✅ **RESUELTO** | Simulaciones básicas desarrolladas |
 | **Gap 3** | Protocolos UIC para interoperabilidad FENOCO | ✅ **RESUELTO** | Protocolos UIC estándar completados |
 | **Gap 4** | Matriz RACI de roles y responsabilidades | ✅ **RESUELTO** | Matriz RACI completa desarrollada |

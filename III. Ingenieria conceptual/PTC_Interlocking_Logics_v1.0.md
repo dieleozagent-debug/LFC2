@@ -22,8 +22,8 @@ Este documento define la lógica de enclavamiento vital para las 5 estaciones de
 
 ---
 
-## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE ETCS/ITCS)
-- ✅ **ELIMINADO:** Referencias a ETCS Level 2 y RBC.
+## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE PTC VIRTUAL/PTC)
+- ✅ **ELIMINADO:** Referencias a PTC VIRTUAL Level 2 y RBC.
 - ✅ **ELIMINADO:** Dependencia del protocolo XML FFFIS.
 - ✅ **ELIMINADO:** Señalización lateral obligatoria (sustituida por cabina virtual PTC).
 - ✅ **ADOPTADO:** Lógica de enclavamiento basada en **Vital IP** y **V-Block**.
@@ -52,6 +52,6 @@ Las agujas motorizadas son controladas directamente por el Servidor Vital 2oo3. 
 
 ## ✅ CONCLUSIONES:
 
-La lógica de enclavamiento ha sido saneada para eliminar la terminología de ITCS/ETCS, integrándose plenamente en la arquitectura de **PTC Virtual** (FRA 236) y garantizando la seguridad vital en los nodos de maniobra.
+La lógica de enclavamiento ha sido saneada para eliminar la terminología de PTC/PTC VIRTUAL, integrándose plenamente en la arquitectura de **PTC Virtual** (FRA 236) y garantizando la seguridad vital en los nodos de maniobra.
 
 **Saneamiento Ciclo 3 - Lógica de Enclavamiento Finalizado.**

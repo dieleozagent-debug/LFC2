@@ -2,14 +2,14 @@
 
 - Versión: 1.0
 - Fecha: 02/10/2025
-- Sistema: Señalización ferroviaria integrada con ITCS
-- Referencias: EN 50126/50128/50129, ETCS Level 2, CENELEC
+- Sistema: Señalización ferroviaria integrada con PTC
+- Referencias: EN 50126/50128/50129, PTC VIRTUAL Level 2, CENELEC
 
 ---
 
 ## 1. Alcance y Objetivo
 
-Este documento establece las especificaciones técnicas de detalle para el sistema de señalización ferroviaria del proyecto APP La Dorada-Chiriguaná, integrado con el sistema ITCS (ETCS Level 2).
+Este documento establece las especificaciones técnicas de detalle para el sistema de señalización ferroviaria del proyecto APP La Dorada-Chiriguaná, integrado con el sistema PTC (PTC VIRTUAL Level 2).
 
 > **📋 DOCUMENTO MAESTRO CONSOLIDADO:** Para la versión definitiva y consolidada del sistema de Señalización, consulte: `IV. Ingenieria básica/SIS_Senalizacion_Definitivo_v1.0.md`
 
@@ -19,12 +19,12 @@ Definir las especificaciones técnicas detalladas para la implementación del si
 - Especificaciones técnicas de equipos
 - Procedimientos de instalación
 - Pruebas y validación
-- Integración con ITCS
+- Integración con PTC
 
 ### 1.2 Alcance
 - Señalización fija y móvil
 - Sistemas de control de tráfico
-- Integración con ITCS ETCS Level 2
+- Integración con PTC PTC VIRTUAL Level 2
 - Sistemas de seguridad ferroviaria
 - Comunicaciones de señalización
 
@@ -55,9 +55,9 @@ Definir las especificaciones técnicas detalladas para la implementación del si
 - **Sistemas de Control de Accesos**
 - **Sistemas de Comunicación**
 
-### 3.2 Integración con ITCS
-- Interfaz CTC-ITCS según FFFIS
-- Protocolos de comunicación ETCS Level 2
+### 3.2 Integración con PTC
+- Interfaz CTC-PTC según FFFIS
+- Protocolos de comunicación PTC VIRTUAL Level 2
 - Gestión de movimientos de trenes
 - Control de velocidad y distancia
 
@@ -72,8 +72,8 @@ Definir las especificaciones técnicas detalladas para la implementación del si
 - **Indicadores de velocidad**
 
 ### 4.2 Señalización Móvil
-- **Balizas Eurobalise**
-- **Sistemas de radio (GSM-R)**
+- **Punto de referencia virtuals Virtual Balise (GNSS)**
+- **Sistemas de radio (RED TETRA (Misión Crítica))**
 - **Antenas de comunicación**
 - **Equipos embarcados**
 
@@ -95,7 +95,7 @@ Definir las especificaciones técnicas detalladas para la implementación del si
 
 ### 5.2 Montaje de Equipos
 - Instalación de semáforos
-- Montaje de balizas
+- Montaje de punto de referencia virtuals
 - Instalación de equipos de control
 - Conexión de sistemas
 
@@ -248,19 +248,19 @@ Definir las especificaciones técnicas detalladas para la implementación del si
 ## 13. Referencias y Documentación
 
 ### 13.1 Documentos del Proyecto
-- **ITCS_SRS_Indice_v1.0.md:** Especificación de requisitos
-- **ITCS_Arquitectura_RBC_2oo3_v1.0.md:** Arquitectura RBC
-- **ITCS_Interfaces_CTC_ITCS_FFFIS_v1.0.md:** Interfaces CTC-ITCS
-- **ITCS_STM_Embarcado_v1.0.md:** STM embarcado
-- **ITCS_Interlocking_Tables_5_Estaciones_v1.0.md:** Tablas de enclavamiento
+- **PTC_SRS_Indice_v1.0.md:** Especificación de requisitos
+- **PTC_Arquitectura_RBC_2oo3_v1.0.md:** Arquitectura RBC
+- **PTC_Interfaces_CTC_PTC_FFFIS_v1.0.md:** Interfaces CTC-PTC
+- **PTC_STM_Embarcado_v1.0.md:** STM embarcado
+- **PTC_Interlocking_Tables_5_Estaciones_v1.0.md:** Tablas de enclavamiento
 - **@@Roadmap_v1.0_Marco_Gestion_Consolidado.md:** Estado del proyecto
 
 ### 13.2 Referencias del proyecto
-- **ITCS_SRS_Indice_v1.0.md:** Especificación de requisitos
-- **ITCS_Arquitectura_RBC_2oo3_v1.0.md:** Arquitectura RBC
-- **ITCS_Interfaces_CTC_ITCS_FFFIS_v1.0.md:** Interfaces CTC-ITCS
-- **ITCS_STM_Embarcado_v1.0.md:** STM embarcado
-- **ITCS_Interlocking_Tables_5_Estaciones_v1.0.md:** Tablas de enclavamiento
+- **PTC_SRS_Indice_v1.0.md:** Especificación de requisitos
+- **PTC_Arquitectura_RBC_2oo3_v1.0.md:** Arquitectura RBC
+- **PTC_Interfaces_CTC_PTC_FFFIS_v1.0.md:** Interfaces CTC-PTC
+- **PTC_STM_Embarcado_v1.0.md:** STM embarcado
+- **PTC_Interlocking_Tables_5_Estaciones_v1.0.md:** Tablas de enclavamiento
 - **@@Roadmap_v1.0_Marco_Gestion_Consolidado.md:** Estado del proyecto
 
 ---

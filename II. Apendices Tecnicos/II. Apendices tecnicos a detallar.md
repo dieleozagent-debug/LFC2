@@ -32,7 +32,7 @@ Este documento proporciona un índice detallado de todos los apéndices técnico
 
 | No. | Apéndice | Descripción |
 |:---:|:---|:---|
-| **AT1** | `AT1_AlcanceProyecto.docx` | Talleres, edificios administrativos, material rodante con ITCS |
+| **AT1** | `AT1_AlcanceProyecto.docx` | Talleres, edificios administrativos, material rodante con PTC |
 | **AT2** | `AT2_OperacionMantenimiento.docx` | Continuidad de servicio, reglamento de operación, SCADA ferroviario |
 | **AT3** | `AT3_EspecificacionesGenerales.docx` | Señalización, CTC, telecomunicaciones, radio TETRA, fibra, CCTV, incendios |
 | **AT4** | `AT4_Indicadores.docx` | SICC, medición de disponibilidad, calidad y seguridad |
@@ -41,7 +41,7 @@ Este documento proporciona un índice detallado de todos los apéndices técnico
 | **AT7** | `AT7_GestionPredial.docx` | Adquisición de predios para talleres, CCO, torres de telecomunicaciones |
 | **AT8** | `AT8_GestionSocial.docx` | Accesibilidad, seguridad comunitaria, cultura vial ferroviaria |
 | **AT9** | `AT9_PlanObras.docx` | Cronograma de frentes de trabajo por sistema |
-| **AT10** | `AT10_CapacidadSurcos.docx` | Simulación de capacidad, asignación de surcos, integración ITCS-CTC |
+| **AT10** | `AT10_CapacidadSurcos.docx` | Simulación de capacidad, asignación de surcos, integración PTC-CTC |
 
 ---
 

@@ -9,7 +9,7 @@
 
 ## 1. ESPECIFICACIÓN TÉCNICA DEL SISTEMA VIRTUAL
 
-Este documento reemplaza las antiguas especificaciones de ITCS/ETCS para centrarse en una arquitectura de **Soberanía Tecnológica** basada en el estándar **FRA 236**.
+Este documento reemplaza las antiguas especificaciones de PTC/PTC VIRTUAL para centrarse en una arquitectura de **Soberanía Tecnológica** basada en el estándar **FRA 236**.
 
 ### 1.1 El Motor de Bloqueo Virtual:
 - **Lógica de Ocupación:** Basada en la posición GNSS de alta precisión de la locomotora y la confirmación de integridad del tren (EOT).
@@ -24,7 +24,7 @@ Este documento reemplaza las antiguas especificaciones de ITCS/ETCS para centrar
 ## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE HARDWARE)
 
 Se han corregido los siguientes desvíos críticos:
-- ✅ **ELIMINADO:** Requerimiento de "Eurobalises" para calibración de odometría. Se utiliza GNSS Multibanda + IMU.
+- ✅ **ELIMINADO:** Requerimiento de "Virtual Balise (GNSS)s" para calibración de odometría. Se utiliza GNSS Multibanda + IMU.
 - ✅ **ELIMINADO:** Referencias a "STM" (Specific Transmission Modules). El sistema es nativo IP.
 - ✅ **ELIMINADO:** Arquitectura "RBC" europea. Se adopta el **Servidor Maestro PTC 2oo3**.
 - ✅ **ELIMINADO:** Protocolo FFFIS (UNISIG). Se institucionaliza la interfaz abierta Vital IP.

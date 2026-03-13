@@ -1,4 +1,4 @@
-# 🔴 BLOCKER CRÍTICO 001: INDEFINICIÓN SISTEMA ITCS
+# 🔴 BLOCKER CRÍTICO 001: INDEFINICIÓN SISTEMA PTC
 
 **ID:** BLOCKER-001  
 **Fecha Identificación:** 9 de Octubre 2025 (Mes 4)  
@@ -12,7 +12,7 @@
 
 ### **Indefinición Contractual:**
 
-**Base de datos dice:** "ITCS ETCS Level 2"  
+**Base de datos dice:** "PTC PTC VIRTUAL Level 2"  
 **Realidad contractual:** ❌ **ESPECIFICACIÓN AMBIGUA** - No está claramente definido
 
 ### **Impacto:**
@@ -49,8 +49,8 @@
 - ✅ Menor costo relativo
 
 **Desventajas:**
-- ❌ NO cumple normativa europea ETCS
-- ❌ Menor funcionalidad que ETCS L2
+- ❌ NO cumple normativa europea PTC VIRTUAL
+- ❌ Menor funcionalidad que PTC VIRTUAL L2
 - ❌ Interoperabilidad limitada con sistemas europeos
 
 **Costo estimado:** $8M USD (~$58,000M COP)  
@@ -60,9 +60,9 @@
 
 ---
 
-### **Opción 2: ETCS Level 2 Europeo** 🇪🇺 ⭐ RECOMENDADA
+### **Opción 2: PTC VIRTUAL Level 2 Europeo** 🇪🇺 ⭐ RECOMENDADA
 
-**Descripción:** European Train Control System - Nivel 2 (sin balizas físicas)
+**Descripción:** European Train Control System - Nivel 2 (sin punto de referencia virtuals físicas)
 
 **Ventajas:**
 - ✅ Estándar europeo vigente (normativa UE)
@@ -90,7 +90,7 @@
 **Ventajas:**
 - ✅ Tecnología avanzada (automática)
 - ✅ Alta capacidad de tráfico
-- ✅ Comunicación continua GSM-R
+- ✅ Comunicación continua RED TETRA (Misión Crítica)
 
 **Desventajas:**
 - ❌ Diseñado para metros (no ferrocarril largo)
@@ -107,7 +107,7 @@
 
 ### **Opción 4: Solución Híbrida FENOCO + Sistema Nuevo** 🔗
 
-**Descripción:** Gateway que integra sistema FENOCO existente con nuevo ATP/ETCS
+**Descripción:** Gateway que integra sistema FENOCO existente con nuevo ATP/PTC VIRTUAL
 
 **Ventajas:**
 - ✅ Aprovecha infraestructura FENOCO existente
@@ -134,7 +134,7 @@
 **Oficio a ANI + Concesionario:**
 
 ```
-ASUNTO: SOLICITUD URGENTE - DEFINICIÓN SISTEMA ITCS
+ASUNTO: SOLICITUD URGENTE - DEFINICIÓN SISTEMA PTC
 
 De: PMO Proyecto APP La Dorada
 Para: ANI + Concesionario
@@ -143,14 +143,14 @@ Prioridad: 🔴 CRÍTICA - BLOCKER DEL PROYECTO
 
 ANTECEDENTES:
 El proyecto se encuentra en Mes 4/12 de ingeniería. Se requiere 
-definición formal del Sistema ITCS para poder avanzar con el 60% 
+definición formal del Sistema PTC para poder avanzar con el 60% 
 del alcance de Control y Señalización ($152,748M COP en riesgo).
 
 SOLICITUD:
 Definir formalmente cuál de las siguientes opciones será implementada:
 
 1. ATP/PTC Estándar FRA Class 1 - $8M USD
-2. ETCS Level 2 Europeo - $12M USD (RECOMENDADO)
+2. PTC VIRTUAL Level 2 Europeo - $12M USD (RECOMENDADO)
 3. CBTC Adaptado - $15M USD (NO recomendado)
 4. Solución Híbrida FENOCO - $10M USD (requiere colaboración)
 
@@ -158,7 +158,7 @@ FECHA LÍMITE: 15 de Diciembre 2025 (Mes 6)
 CONSECUENCIA NO RESPUESTA: Retraso mínimo 3 meses + sobrecosto
 
 PLAN B (si no hay respuesta Mes 6):
-EPC asumirá Opción 2 (ETCS Level 2) con gateway UIC 918-4 genérico
+EPC asumirá Opción 2 (PTC VIRTUAL Level 2) con gateway UIC 918-4 genérico
 interoperable, documentando supuesto formal. Cliente asume riesgo
 de incompatibilidad futura con sistemas FENOCO.
 
@@ -187,7 +187,7 @@ RESPONSABLE GESTIÓN: Gerencia Técnica + PMO
 5. Documentar supuestos para cada escenario
 
 **Frecuencia:** Semanal Mes 4-6  
-**Entregable:** Matriz de Decisión ITCS (Mes 5)
+**Entregable:** Matriz de Decisión PTC (Mes 5)
 
 ---
 
@@ -219,7 +219,7 @@ RESPONSABLE GESTIÓN: Gerencia Técnica + PMO
 
 **Fecha límite:** 15 de Diciembre 2025
 
-**Documento:** Carta de No Objeción ANI - Definición ITCS
+**Documento:** Carta de No Objeción ANI - Definición PTC
 
 **Contenido requerido:**
 - ✅ Opción técnica seleccionada (1, 2, 3, o 4)
@@ -228,7 +228,7 @@ RESPONSABLE GESTIÓN: Gerencia Técnica + PMO
 - ✅ Plan de interoperabilidad FENOCO
 - ✅ Responsabilidades clarificadas
 
-**Si NO llega:** Activar Plan B (ETCS L2 genérico)
+**Si NO llega:** Activar Plan B (PTC VIRTUAL L2 genérico)
 
 ---
 
@@ -246,7 +246,7 @@ RESPONSABLE GESTIÓN: Gerencia Técnica + PMO
 
 ## 📊 **COMPARATIVA TÉCNICA**
 
-| Criterio | ATP/PTC | ETCS L2 ⭐ | CBTC | Híbrida |
+| Criterio | ATP/PTC | PTC VIRTUAL L2 ⭐ | CBTC | Híbrida |
 |:---------|:-------:|:---------:|:----:|:-------:|
 | **Costo** | $8M | $12M | $15M | $10M |
 | **Lead time** | 10m | 12m | 14m | 11m |
@@ -256,7 +256,7 @@ RESPONSABLE GESTIÓN: Gerencia Técnica + PMO
 | **Funcionalidad** | Básica | Avanzada | Muy Alta | Media |
 | **Riesgo técnico** | Bajo | Bajo | Alto | Medio |
 
-**Recomendación PMO:** **Opción 2 (ETCS Level 2)** si presupuesto permite, **Opción 4 (Híbrida)** si FENOCO colabora.
+**Recomendación PMO:** **Opción 2 (PTC VIRTUAL Level 2)** si presupuesto permite, **Opción 4 (Híbrida)** si FENOCO colabora.
 
 ---
 

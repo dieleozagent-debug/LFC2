@@ -31,7 +31,7 @@ Desarrollar una ingeniería EPC integral, trazable y robusta, donde la toma de d
 
 | ID | Blocker | Impacto | Acción Requerida |
 |----|---------|---------|------------------|
-| **BLOCKER-001** | Indefinición tecnológica ITCS (ATP/ETCS L2/CBTC) | Riesgo alto diseño | Oficiar ANI - Definición formal Mes 6 |
+| **BLOCKER-001** | Indefinición tecnológica PTC (ATP/PTC VIRTUAL L2/CBTC) | Riesgo alto diseño | Oficiar ANI - Definición formal Mes 6 |
 | **BLOCKER-002** | Protocolos propietarios FENOCO no revelados | Riesgo integración | Reunión técnica FENOCO Mes 5 |
 | **BLOCKER-003** | Cantidades PANs no confirmadas (146 vs 36) | Riesgo presupuestal | Confirmar diseño modular PANs |
 | **BLOCKER-004** | Cronograma Material Rodante indefinido | Riesgo planificación | Oficiar ANI - Cronograma entrega |
@@ -239,7 +239,7 @@ II. Apendices Tecnicos/
 ├── AT2_Operacion_y_Mantenimiento_MEJORADO.md ✅ **COMPLETO**
 ├── AT3_Especificaciones_Generales_MEJORADO.md ✅ **COMPLETO**
 ├── AT4_Criterios_Disponibilidad_MEJORADO.md ✅ **COMPLETO**
-├── AT5_Especificaciones_ITCS_MEJORADO.md ✅ **COMPLETO**
+├── AT5_Especificaciones_PTC_MEJORADO.md ✅ **COMPLETO**
 ├── AT6_Gestion_Ambiental_MEJORADO.md ✅ **COMPLETO**
 ├── AT7_Gestion_Predial_MEJORADO.md ✅ **COMPLETO**
 ├── AT8_Gestion_Social_MEJORADO.md ✅ **COMPLETO**
@@ -308,10 +308,10 @@ VII. Soporte Especializado/
 │   ├── VII.1.3_Matriz_Normatividad_Mecanica.md ✅ **COMPLETO**
 │   └── VII.1.4_Matriz_Normatividad_Sistemas.md ✅ **COMPLETO**
 ├── VII.2_Especificaciones/ ✅ **11 DOCUMENTOS COMPLETADOS**
-│   ├── VII.2.1_SRS_ITCS_ETCS_Level2_PROVISIONAL.md ✅ **COMPLETO**
+│   ├── VII.2.1_SRS_PTC_PTC VIRTUAL_Level2_PROVISIONAL.md ✅ **COMPLETO**
 │   ├── VII.2.2_Arquitectura_RBC_Redundancia_2OO3.md ✅ **COMPLETO**
-│   ├── VII.2.3_Plan_Eurobalise_Ubicacion_150m.md ✅ **COMPLETO**
-│   ├── VII.2.4_Interfaces_CTC_ITCS_Protocolo_FFFIS.md ✅ **COMPLETO**
+│   ├── VII.2.3_Plan_Virtual Balise (GNSS)_Ubicacion_150m.md ✅ **COMPLETO**
+│   ├── VII.2.4_Interfaces_CTC_PTC_Protocolo_FFFIS.md ✅ **COMPLETO**
 │   ├── VII.2.5_Revision_Disponibilidad_100_Porciento_99.95.md ✅ **COMPLETO**
 │   ├── VII.2.6_Interlocking_Tables_5_Estaciones.md ✅ **COMPLETO**
 │   ├── VII.2.7_Especificaciones_STM_Embarcadas.md ✅ **COMPLETO**
@@ -401,13 +401,13 @@ El desarrollo de la ingeniería sigue una secuencia lógica de fases, enmarcada 
 
 #### **🔧 INGENIERÍA MECÁNICA:**
 - `V. Ingenieria de detalle/V.3_Mecanica/V.3.1_Material_Rodante_Detallado.md`
-- `I. Contrato General/6_Cl_13_1_MaterialRodante_docx_Equipos_embarcados_ITCS_TETRA_MEJORADO.md`
+- `I. Contrato General/6_Cl_13_1_MaterialRodante_docx_Equipos_embarcados_PTC_TETRA_MEJORADO.md`
 - `III. Ingenieria conceptual/25.1_WBS_COMPLETA_ESPECIALIDADES.md` (WBS 4.0)
 
 #### **💻 INGENIERÍA DE SISTEMAS:**
 - `V. Ingenieria de detalle/V.4_Sistemas/V.4.1_Sistemas_Ferroviarios_Integrados_DETALLADO.md`
-- `VII. Soporte Especializado/VII.2_Especificaciones/VII.2.1_Especificaciones_Tecnicas_ITCS_ETCS_Level2_PROVISIONALES.md`
-- `II. Apendices Tecnicos/AT5_Especificaciones_ITCS_MEJORADO.md`
+- `VII. Soporte Especializado/VII.2_Especificaciones/VII.2.1_Especificaciones_Tecnicas_PTC_PTC VIRTUAL_Level2_PROVISIONALES.md`
+- `II. Apendices Tecnicos/AT5_Especificaciones_PTC_MEJORADO.md`
 
 #### **🔗 INTEGRACIÓN DE SISTEMAS:**
 - `V. Ingenieria de detalle/V.5_Integracion/V.5.1_Plan_Integracion_Sistemas_COMPLETO.md`

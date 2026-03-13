@@ -14,10 +14,10 @@
 ### **📋 CAMBIO DE PARADIGMA COMPLETO:**
 
 #### **🔴 FILOSOFÍA ANTERIOR (ELIMINADA):**
-- **❌ ITCS ETCS Level 2:** Sistema tradicional con RBC → **0 unidades** (Reemplazado por ATP embarcado)
+- **❌ PTC PTC VIRTUAL Level 2:** Sistema tradicional con RBC → **0 unidades** (Reemplazado por ATP embarcado)
 - **❌ RBC (Radio Block Centre):** 2 unidades → **0 unidades** (Reemplazado por CTC virtual)
 - **❌ Comunicación RBC-CTC:** Interfaces FFFIS tradicionales → **Sistema virtual directo**
-- **❌ Eurobalises:** 1,080 unidades → **0 unidades** (Reemplazado por ATP embarcado)
+- **❌ Virtual Balise (GNSS)s:** 1,080 unidades → **0 unidades** (Reemplazado por ATP embarcado)
 
 #### **✅ FILOSOFÍA NUEVA (IMPLEMENTADA):**
 - **✅ CTC Virtual Centralizado:** Centro de control único en La Dorada
@@ -33,7 +33,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 
 ### 1.1 Alcance del Sistema CTC Virtual
 - **Sistema principal:** Centro de Control de Tráfico Virtual
-- **Componentes:** Servidores virtuales, estaciones de trabajo, interfaces ATP, comunicaciones TETRA+GSM-R
+- **Componentes:** Servidores virtuales, estaciones de trabajo, interfaces ATP, comunicaciones TETRA+RED TETRA (Misión Crítica)
 - **Cobertura:** 526.133 km de vía, 5 estaciones ENCE, 146 pasos a nivel
 - **Capacidad:** Hasta 15 trenes simultáneos (sin limitación RBC)
 
@@ -68,19 +68,19 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
 │  │  Interface  │  │  Interface  │  │  Interface  │         │
 │  │    ATP      │  │    ENCE     │  │  Comunicación│         │
-│  │  (Directo)  │  │  (5 Est.)   │  │  (TETRA+GSM-R)│       │
+│  │  (Directo)  │  │  (5 Est.)   │  │  (TETRA+RED TETRA (Misión Crítica))│       │
 │  └─────────────┘  └─────────────┘  └─────────────┘         │
 └─────────────────────────────────────────────────────────────┘
                               │
                               │ Comunicación Directa
-                              │ (Sin RBC/Eurobalises)
+                              │ (Sin RBC/Virtual Balise (GNSS)s)
                               ▼
 ┌─────────────────────────────────────────────────────────────┐
 │                    ATP EMBARCADO (15 LOCOMOTORAS)           │
 ├─────────────────────────────────────────────────────────────┤
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
 │  │ Computadora │  │   Display   │  │   Radio     │         │
-│  │    ATP      │  │  Maquinista │  │ TETRA+GSM-R │         │
+│  │    ATP      │  │  Maquinista │  │ TETRA+RED TETRA (Misión Crítica) │         │
 │  │  Embarcado  │  │  (Virtual)  │  │  (Comun.)   │         │
 │  └─────────────┘  └─────────────┘  └─────────────┘         │
 └─────────────────────────────────────────────────────────────┘
@@ -103,7 +103,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 #### 2.2.3 Interfaces de Comunicación Virtual
 - **Interface ATP:** Comunicación directa con ATP embarcado (sin RBC)
 - **Interface ENCE:** Control de 5 enclavamientos electrónicos
-- **Interface Comunicación:** Enlaces TETRA + GSM-R con trenes
+- **Interface Comunicación:** Enlaces TETRA + RED TETRA (Misión Crítica) con trenes
 
 ---
 
@@ -150,7 +150,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 #### 3.2.3 Interfaces Virtuales
 - **ATP Interface:** Protocolo directo CTC-ATP (sin FFFIS RBC)
 - **ENCE Interface:** Control directo de enclavamientos
-- **Comunicación:** TETRA + GSM-R v8.0 (37 estaciones)
+- **Comunicación:** TETRA + RED TETRA (Misión Crítica) v8.0 (37 estaciones)
 
 ---
 
@@ -193,7 +193,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 #### 4.3.1 Procedimientos de Emergencia Virtual
 - **Parada de Emergencia:** Comando inmediato via ATP
 - **Evacuación:** Procedimientos de evacuación virtual
-- **Comunicación:** Enlaces TETRA + GSM-R de emergencia
+- **Comunicación:** Enlaces TETRA + RED TETRA (Misión Crítica) de emergencia
 - **Coordinación:** Integración con servicios de emergencia
 
 #### 4.3.2 Modos de Operación Virtual
@@ -237,7 +237,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 #### 6.1.1 Protocolo Directo CTC-ATP
 - **Comunicación Bidireccional:** CTC ↔ ATP (sin RBC)
 - **Tiempo Real:** Latencia < 100ms
-- **Redundancia:** TETRA + GSM-R (37 estaciones)
+- **Redundancia:** TETRA + RED TETRA (Misión Crítica) (37 estaciones)
 - **Seguridad:** Cifrado end-to-end
 
 #### 6.1.2 Interfaces Virtuales
@@ -283,7 +283,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 #### 7.1.2 Procedimientos de Emergencia Virtual
 - **Parada de Emergencia:** Comando inmediato via ATP
 - **Evacuación:** Procedimientos virtuales de evacuación
-- **Comunicación de Emergencia:** Enlaces TETRA + GSM-R
+- **Comunicación de Emergencia:** Enlaces TETRA + RED TETRA (Misión Crítica)
 - **Coordinación:** Integración con servicios de emergencia
 
 ### 7.2 Mantenimiento Virtual
@@ -324,13 +324,13 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 - **CTC-ATP:** Integración directa sin RBC
 - **CTC-ENCE:** Integración con enclavamientos
 - **CTC-EOT:** Integración con End of Train
-- **Comunicaciones:** TETRA + GSM-R
+- **Comunicaciones:** TETRA + RED TETRA (Misión Crítica)
 
 #### 8.2.2 Pruebas de Rendimiento Virtual
 - **Latencia:** < 100ms CTC-ATP
 - **Disponibilidad:** 99.95% según AT4
 - **Capacidad:** 15 trenes simultáneos
-- **Redundancia:** TETRA + GSM-R
+- **Redundancia:** TETRA + RED TETRA (Misión Crítica)
 
 ### 8.3 Validación de Seguridad Virtual
 
@@ -417,13 +417,13 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 
 ### 13.1 Eliminaciones (Sobrepresupuesto)
 - **RBC:** -$2,000,000,000 COP
-- **Eurobalises:** -$40,000,000,000 COP
+- **Virtual Balise (GNSS)s:** -$40,000,000,000 COP
 - **Señales LED vía:** -$12,000,000,000 COP
 - **LEU:** -$10,000,000,000 COP
 - **TOTAL ELIMINAR:** -$64,000,000,000 COP
 
 ### 13.2 Implementaciones Nuevas (Faltante)
-- **GSM-R:** +$3,484,000,000 COP
+- **RED TETRA (Misión Crítica):** +$3,484,000,000 COP
 - **EOT:** +$520,000,000 COP
 - **ENCE:** +$6,020,000,000 COP
 - **Desvíos:** +$3,783,000,000 COP
@@ -445,14 +445,14 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 - **V.2_CTC_Detalle v2.0:** ✅ Actualizado - CTC virtual centralizado
 
 ### 14.2 Documentos Dependientes (Por Actualizar)
-- **V.3_Sistemas_Comunicacion_Detalle_v1.0.md** ⏳ (GSM-R agregado)
+- **V.3_Sistemas_Comunicacion_Detalle_v1.0.md** ⏳ (RED TETRA (Misión Crítica) agregado)
 
 ---
 
 **Control de versiones:**
 | Versión | Fecha | Responsable | Descripción |
 |:---:|:---:|:---|:---|
-| v1.0 | 02/10/2025 | Ing. Control | Especificación inicial con ITCS/RBC |
+| v1.0 | 02/10/2025 | Ing. Control | Especificación inicial con PTC/RBC |
 | **v2.0** | **Ene-2025** | **Admin. Contractual EPC** | **CRÍTICO: CTC virtual implementado** |
 
 ---
@@ -466,7 +466,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 
 **Este documento es VIVO y debe actualizarse conforme se complete la corrección documental masiva.**
 
-**Próximo paso:** Actualizar V.3_Sistemas_Comunicacion_Detalle_v1.0.md (GSM-R agregado)
+**Próximo paso:** Actualizar V.3_Sistemas_Comunicacion_Detalle_v1.0.md (RED TETRA (Misión Crítica) agregado)
 
 ---
 

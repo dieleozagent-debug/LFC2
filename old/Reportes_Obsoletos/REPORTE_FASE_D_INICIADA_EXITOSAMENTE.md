@@ -39,7 +39,7 @@ Como Administrador Contractual EPC, confirmo que se ha iniciado exitosamente la 
 ### **🟢 INGENIERÍA DE SISTEMAS DE DETALLE**
 - **Documento:** `V.4.1_Sistemas_Ferroviarios_Integrados_DETALLADO.md`
 - **Contenido:** 300+ líneas de ingeniería de sistemas completa
-- **Especificaciones:** CTC, ITCS ETCS Level 2, TETRA, fibra óptica, CCTV
+- **Especificaciones:** CTC, PTC PTC VIRTUAL Level 2, TETRA, fibra óptica, CCTV
 - **Estado:** ✅ **COMPLETADO**
 
 ### **🔵 PLAN DE INTEGRACIÓN DE SISTEMAS**
@@ -118,11 +118,11 @@ Como Administrador Contractual EPC, confirmo que se ha iniciado exitosamente la 
 - **Consolas:** 6 consolas de operación
 - **Sistema de visualización:** 9 pantallas LED
 
-#### **Sistema ITCS ETCS Level 2:**
+#### **Sistema PTC PTC VIRTUAL Level 2:**
 - **RBC:** 2 unidades Siemens SIMIS W
-- **Balizas Eurobalise:** 356 unidades cada 500m
+- **Punto de referencia virtuals Virtual Balise (GNSS):** 356 unidades cada 500m
 - **Equipos embarcados:** 40 unidades TCR por tren
-- **Comunicación GSM-R:** 100% cobertura
+- **Comunicación RED TETRA (Misión Crítica):** 100% cobertura
 
 #### **Sistema TETRA:**
 - **Estaciones base:** 7 unidades con cobertura 50 km

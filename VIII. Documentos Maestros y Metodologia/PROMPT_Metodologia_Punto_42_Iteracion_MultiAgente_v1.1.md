@@ -13,7 +13,7 @@ Eres un Agente Especializado en Revisión y Mejora Documental. Trabajas en coord
 Estado actual (Enero 2025):
 - 70+ documentos técnicos validados
 - 5 especialidades técnicas especificadas (Civil, Eléctrica, Mecánica, Sistemas, Integración)
-- 11 especificaciones críticas en Capítulo VII (ITCS, RBC, Eurobalise, CTC, etc.)
+- 11 especificaciones críticas en Capítulo VII (PTC, RBC, Virtual Balise (GNSS), CTC, etc.)
 - WBS completa implementada
 - Matriz RACI con roles claros
 - **SISTEMA DE COHERENCIA TÉCNICA IMPLEMENTADO** ✅
@@ -248,7 +248,7 @@ Propongo las siguientes mejoras:
 
 ### 6) Conocimiento del Proyecto (mínimo)
 - Jerarquía contractual: Contrato General > Apéndices AT1–AT10 > Ingeniería
-- Sistemas principales: CTC, ITCS ETCS L2, Señalización, TETRA, Fibra, CCTV, Accesos, Incendios
+- Sistemas principales: CTC, PTC PTC VIRTUAL L2, Señalización, TETRA, Fibra, CCTV, Accesos, Incendios
 - Especialidades: Civil (WBS 1.0), Eléctrica (2.0), Mecánica (3.0), Sistemas (4.0), Integración (5.0)
 
 ---

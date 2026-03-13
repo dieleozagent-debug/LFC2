@@ -77,7 +77,7 @@ foreach ($item in $wbsData.items) {
 | ID | ... | Items_WBS | Plan_Accion |
 |:---|:----|:----------|:------------|
 | R-FIBRA-001 | ... | 2.3.100, 2.3.103 | Ordenar fibra... |
-| R-ITCS-001 | ... | 1.1.100, 1.1.103, 1.2.100 | **ACCIÓN HOY:** Enviar oficio... |
+| R-PTC-001 | ... | 1.1.100, 1.1.103, 1.2.100 | **ACCIÓN HOY:** Enviar oficio... |
 | R-AT4-01 | ... | Transversal | Realizar análisis RAMS... |
 ```
 

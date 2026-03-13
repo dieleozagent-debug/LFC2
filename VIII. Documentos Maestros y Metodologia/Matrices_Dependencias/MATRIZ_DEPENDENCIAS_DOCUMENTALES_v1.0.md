@@ -38,7 +38,7 @@ Esta matriz permite a Cursor IDE Agent y otros agentes **identificar automática
 | Arquitectura CTC | DT-CTC-001 | WBS_Presupuestal_v2.0.md | Costos | Item 1.1 |
 | Arquitectura CTC | DT-CTC-001 | X/SISTEMA_01_Control_Master.md | Consolidado | Sección 4-5 |
 
-#### **ATP/ETCS - Sistema Embarcado**
+#### **ATP/PTC VIRTUAL - Sistema Embarcado**
 | Componente | Si cambias en... | Afecta estos archivos | Tipo Impacto | Sección Específica |
 |:-----------|:----------------|:---------------------|:-------------|:-------------------|
 | Equipos ATP | DT-ATP-001 | III/32_Material_Rodante_Integrado.md | Cantidad equipos | Tabla 2.3 |
@@ -78,12 +78,12 @@ Esta matriz permite a Cursor IDE Agent y otros agentes **identificar automática
 | Estaciones TETRA | DT-TETRA-001 | IV/39_Planos_Preliminares.md | Ubicaciones | Mapa torres |
 | Torres TETRA altura | DT-TETRA-002 | V.4_Sistemas_Potencia_Detalle.md | Requerimientos | Sección 2.1 |
 
-#### **GSM-R - Comunicaciones Ferroviarias**
+#### **RED TETRA (Misión Crítica) - Comunicaciones Ferroviarias**
 | Componente | Si cambias en... | Afecta estos archivos | Tipo Impacto | Sección Específica |
 |:-----------|:----------------|:---------------------|:-------------|:-------------------|
-| Estaciones GSM-R | DT-GSMR-001 | III/27_Sistema_TETRA_Integrado.md | Colocalización | Sección 3.3 |
-| Estaciones GSM-R | DT-GSMR-001 | V.3_Sistemas_Comunicacion_Detalle.md | Especificaciones | Sección 4.2 |
-| Estaciones GSM-R | DT-GSMR-001 | WBS_Presupuestal_v2.0.md | Costos | Item 3.3 |
+| Estaciones RED TETRA (Misión Crítica) | DT-GSMR-001 | III/27_Sistema_TETRA_Integrado.md | Colocalización | Sección 3.3 |
+| Estaciones RED TETRA (Misión Crítica) | DT-GSMR-001 | V.3_Sistemas_Comunicacion_Detalle.md | Especificaciones | Sección 4.2 |
+| Estaciones RED TETRA (Misión Crítica) | DT-GSMR-001 | WBS_Presupuestal_v2.0.md | Costos | Item 3.3 |
 
 ---
 
@@ -136,8 +136,8 @@ Esta matriz permite a Cursor IDE Agent y otros agentes **identificar automática
 #### **Interfaces entre Sistemas**
 | Componente | Si cambias en... | Afecta estos archivos | Tipo Impacto | Sección Específica |
 |:-----------|:----------------|:---------------------|:-------------|:-------------------|
-| Protocolo CTC-ITCS | DT-INT-001 | IV/41_Interfaces_Sistemas.md | Especificaciones | Tabla FFFIS |
-| Protocolo CTC-ITCS | DT-INT-001 | V.2_CTC_Detalle.md | Arquitectura | Sección 5.3 |
+| Protocolo CTC-PTC | DT-INT-001 | IV/41_Interfaces_Sistemas.md | Especificaciones | Tabla FFFIS |
+| Protocolo CTC-PTC | DT-INT-001 | V.2_CTC_Detalle.md | Arquitectura | Sección 5.3 |
 
 ---
 

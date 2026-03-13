@@ -82,7 +82,7 @@
 
 **Distribución:**
 - 🔴 CRÍTICA: 1 (R-FIBRA-001 - Lead time 9m)
-- 🟠 ALTA: 2 (R-AT3-01 ITCS, R-IF-01 Interfaces)
+- 🟠 ALTA: 2 (R-AT3-01 PTC, R-IF-01 Interfaces)
 - 🟡 MEDIA: 9 (incluye 4 nuevos HOY)
 - 🟢 BAJA: 1 (R-FIBRA-006)
 
@@ -128,8 +128,8 @@
 - ✅ Enclavamientos Adif (español)
 
 **NO mencionado:**
-- ❌ ITCS (Incremental Train Control System)
-- ❌ ETCS Level 2 (European Train Control System)
+- ❌ PTC (Incremental Train Control System)
+- ❌ PTC VIRTUAL Level 2 (European Train Control System)
 
 **BLOCKER-001 CONFIRMADO:** Indefinición sistema ✅
 
@@ -225,7 +225,7 @@
 10. @@RESUMEN_CRONOGRAMA_PMO_AGRESIVO_09Oct2025.md
 
 ### **BLOCKERS (4):**
-11. BLOCKER-001_Indefinicion_ITCS.md
+11. BLOCKER-001_Indefinicion_PTC.md
 12. BLOCKER-002_Protocolos_FENOCO.md
 13. BLOCKER-003_Pasos_Nivel_Cantidades.md (descartado)
 14. BLOCKER-004_Material_Rodante_Cronograma.md
@@ -248,12 +248,12 @@
 
 | ID | Blocker | Validado | Criticidad | Acción |
 |:--:|:--------|:--------:|:----------:|:-------|
-| **001** | Indefinición ITCS/ETCS L2 | ✅ REAL | 🔴 CRÍTICA | Oficiar ANI Mes 6 |
+| **001** | Indefinición PTC/PTC VIRTUAL L2 | ✅ REAL | 🔴 CRÍTICA | Oficiar ANI Mes 6 |
 | **002** | Protocolos FENOCO | 🟡 PARCIAL | 🟠 ALTA | Solicitar specs |
 | **003** | Cantidades PAN | ❌ DESCARTADO | - | 146 confirmado ✅ |
 | **004** | Cronograma MR | ✅ REAL | 🟡 MEDIA | Solicitar cronograma |
 
-**BLOCKERS REALES:** 2.5 (ITCS crítico, MR medio, FENOCO parcial)
+**BLOCKERS REALES:** 2.5 (PTC crítico, MR medio, FENOCO parcial)
 
 ---
 
@@ -264,7 +264,7 @@
 
 ### **Sistemas de Control:**
 - AT3 menciona: PTC (AAR), CTC Adif (español)
-- AT3 **NO menciona:** ITCS, ETCS Level 2
+- AT3 **NO menciona:** PTC, PTC VIRTUAL Level 2
 - **INDEFINICIÓN CONFIRMADA** 🔴
 
 ### **Pasos a Nivel:**
@@ -283,7 +283,7 @@
 **Total:** 13 riesgos validados
 
 **Riesgos REALES (documentados en cocina):**
-1. R-AT3-01 - Dependencia AT3 ITCS
+1. R-AT3-01 - Dependencia AT3 PTC
 2. R-INT-01 - Interoperabilidad FENOCO
 3. R-AT4-01 - Disponibilidad AT4
 4. R-CYB-01 - Ciberseguridad IEC 62443
@@ -329,7 +329,7 @@
 - `@@CRONOGRAMA_AGRESIVO_36M_v1.0.md`
 
 ### **Para Equipo Técnico:**
-- `BLOCKER-001_Indefinicion_ITCS.md`
+- `BLOCKER-001_Indefinicion_PTC.md`
 - `BLOCKER-002_Protocolos_FENOCO.md`
 - `BLOCKER-004_Material_Rodante_Cronograma.md`
 - `MATRIZ_INTERFACES_DETALLADA_v1.0.md`
@@ -339,18 +339,18 @@
 ## 🎯 **PRÓXIMOS PASOS (Mes 4-6)**
 
 ### **Esta Semana:**
-1. ✅ Emitir 3 oficios a ANI (ITCS, MR, FENOCO)
+1. ✅ Emitir 3 oficios a ANI (PTC, MR, FENOCO)
 2. ✅ Negociar estudios geotécnicos/topográficos
 3. ✅ Programar mesa trabajo interna (semanal)
 
 ### **Mes 5 (Noviembre):**
 4. ✅ Reunión técnica FENOCO (15 días)
 5. ✅ Recibir cronograma MR
-6. ✅ Matriz de decisión ITCS
+6. ✅ Matriz de decisión PTC
 7. ✅ Preparar Plans B
 
 ### **Mes 6 (Diciembre - FECHA LÍMITE):**
-8. 🎯 Decisión formal ANI sobre ITCS
+8. 🎯 Decisión formal ANI sobre PTC
 9. 🎯 Definición FENOCO (colabora o Plan B)
 10. 🎯 GO/NO-GO (Plans A o Plans B)
 

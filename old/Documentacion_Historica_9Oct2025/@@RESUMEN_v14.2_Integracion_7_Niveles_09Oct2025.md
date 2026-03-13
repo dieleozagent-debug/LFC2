@@ -133,7 +133,7 @@ Automatizar la propagación de cada Decisión Técnica (DT) hacia **7 niveles de
 - V.X_ENCE → SISTEMA_01_Control_y_Senalizacion
 - V.X_Desvios → SISTEMA_01_Control_y_Senalizacion
 - V.X_EOT → SISTEMA_04_Material_Rodante
-- V.X_GSM-R → SISTEMA_02_Telecomunicaciones
+- V.X_RED TETRA (Misión Crítica) → SISTEMA_02_Telecomunicaciones
 
 **Resultados:**
 - 8 consolidaciones realizadas

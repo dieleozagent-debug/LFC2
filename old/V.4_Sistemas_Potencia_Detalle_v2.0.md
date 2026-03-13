@@ -14,14 +14,14 @@
 ### **📋 CAMBIO DE PARADIGMA COMPLETO:**
 
 #### **🔴 FILOSOFÍA ANTERIOR (ELIMINADA):**
-- **❌ ITCS ETCS Level 2:** Sistema tradicional con RBC → **ATP embarcado** (Sin RBC)
+- **❌ PTC PTC VIRTUAL Level 2:** Sistema tradicional con RBC → **ATP embarcado** (Sin RBC)
 - **❌ Cobertura:** 146 km → **526.133 km** (Corredor completo)
-- **❌ Torres:** 33 torres → **37 torres colocalizadas** (TETRA + GSM-R)
+- **❌ Torres:** 33 torres → **37 torres colocalizadas** (TETRA + RED TETRA (Misión Crítica))
 - **❌ Alimentación:** Sistema independiente → **Alimentación colocalizada**
 
 #### **✅ FILOSOFÍA NUEVA (IMPLEMENTADA):**
 - **✅ ATP Embarcado:** Sistema en 15 locomotoras (sin RBC)
-- **✅ Torres Colocalizadas:** 37 torres para TETRA + GSM-R
+- **✅ Torres Colocalizadas:** 37 torres para TETRA + RED TETRA (Misión Crítica)
 - **✅ Alimentación Colocalizada:** Sistema dual para torres compartidas
 - **✅ CTC Virtual:** Centro de control centralizado
 - **✅ Redundancia:** Doble sistema de alimentación
@@ -30,7 +30,7 @@
 
 ## 1. Resumen Ejecutivo
 
-Este documento detalla la ingeniería de los **sistemas de potencia para torres colocalizadas** para el proyecto APP La Dorada-Chiriguaná, basado en **alimentación dual para TETRA + GSM-R colocalizados** en 37 torres con redundancia operacional.
+Este documento detalla la ingeniería de los **sistemas de potencia para torres colocalizadas** para el proyecto APP La Dorada-Chiriguaná, basado en **alimentación dual para TETRA + RED TETRA (Misión Crítica) colocalizados** en 37 torres con redundancia operacional.
 
 ### 1.1 Alcance del Sistema de Potencia Colocalizada
 - **Sistema principal:** Alimentación eléctrica ferroviaria para torres colocalizadas
@@ -74,19 +74,19 @@ Este documento detalla la ingeniería de los **sistemas de potencia para torres 
 ├─────────────────────────────────────────────────────────────┤
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
 │  │   Torre 1   │  │   Torre 2   │  │   Torre 3   │         │
-│  │ TETRA+GSM-R │  │ TETRA+GSM-R │  │ TETRA+GSM-R │         │
+│  │ TETRA+RED TETRA (Misión Crítica) │  │ TETRA+RED TETRA (Misión Crítica) │  │ TETRA+RED TETRA (Misión Crítica) │         │
 │  │ (0.5 MVA)   │  │ (0.5 MVA)   │  │ (0.5 MVA)   │         │
 │  └─────────────┘  └─────────────┘  └─────────────┘         │
 └─────────────────────────────────────────────────────────────┘
                               │
                               │ 37 Torres Colocalizadas
-                              │ (TETRA + GSM-R)
+                              │ (TETRA + RED TETRA (Misión Crítica))
                               ▼
 ┌─────────────────────────────────────────────────────────────┐
 │                    ATP EMBARCADO (15 LOCOMOTORAS)           │
 ├─────────────────────────────────────────────────────────────┤
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
-│  │ Radio TETRA │  │ Radio GSM-R │  │   Display   │         │
+│  │ Radio TETRA │  │ Radio RED TETRA (Misión Crítica) │  │   Display   │         │
 │  │  Embarcado  │  │  Embarcado  │  │  Maquinista │         │
 │  │ (Redundante)│  │ (Principal) │  │  (Virtual)  │         │
 │  └─────────────┘  └─────────────┘  └─────────────┘         │
@@ -114,7 +114,7 @@ Este documento detalla la ingeniería de los **sistemas de potencia para torres 
 - **Inversores:** 200 kVA, 48 V DC / 480 V AC
 
 #### 2.2.4 Alimentación Torres Colocalizadas (37 Torres)
-- **Potencia por Torre:** 0.5 MVA (TETRA + GSM-R)
+- **Potencia por Torre:** 0.5 MVA (TETRA + RED TETRA (Misión Crítica))
 - **Voltaje:** 480 V AC, 3 fases
 - **Redundancia:** N+1 con transferencia automática
 - **Protección:** Relés digitales SEL-751A
@@ -204,7 +204,7 @@ Este documento detalla la ingeniería de los **sistemas de potencia para torres 
 ### 3.4 Alimentación Torres Colocalizadas
 
 #### 3.4.1 Torre Individual (37 Torres)
-- **Potencia:** 0.5 MVA (TETRA + GSM-R)
+- **Potencia:** 0.5 MVA (TETRA + RED TETRA (Misión Crítica))
 - **Voltaje:** 480 V AC, 3 fases
 - **Frecuencia:** 60 Hz
 - **THD:** < 5%
@@ -239,7 +239,7 @@ Este documento detalla la ingeniería de los **sistemas de potencia para torres 
 #### 4.1.2 Cargas Críticas Colocalizadas
 - **ATP Embarcado:** 300 kVA (15 locomotoras)
 - **CTC Virtual:** 150 kVA (Centro de Control)
-- **TETRA + GSM-R:** 185 kVA (37 torres colocalizadas)
+- **TETRA + RED TETRA (Misión Crítica):** 185 kVA (37 torres colocalizadas)
 - **ENCE:** 100 kVA (5 estaciones)
 - **CCTV:** 50 kVA (73 cámaras)
 - **Iluminación:** 100 kVA (Estaciones, vías)
@@ -247,7 +247,7 @@ Este documento detalla la ingeniería de los **sistemas de potencia para torres 
 ### 4.2 Sistemas de Respaldo Colocalizados
 
 #### 4.2.1 UPS Colocalizado
-- **Cargas críticas:** ATP, CTC, TETRA, GSM-R, ENCE
+- **Cargas críticas:** ATP, CTC, TETRA, RED TETRA (Misión Crítica), ENCE
 - **Tiempo de transferencia:** < 4 ms
 - **Modo normal:** Rectificador + inversor
 - **Modo batería:** Inversor + baterías
@@ -285,7 +285,7 @@ Este documento detalla la ingeniería de los **sistemas de potencia para torres 
 #### 5.1.1 Objetivos de Seguridad Colocalizados
 - **SIL 4:** Alimentación ATP embarcado
 - **SIL 3:** Alimentación CTC virtual
-- **SIL 2:** Alimentación TETRA + GSM-R
+- **SIL 2:** Alimentación TETRA + RED TETRA (Misión Crítica)
 - **SIL 1:** Alimentación auxiliar
 
 #### 5.1.2 Arquitectura de Seguridad Colocalizada
@@ -360,7 +360,7 @@ Este documento detalla la ingeniería de los **sistemas de potencia para torres 
 - **Frecuencia:** 59.5-60.5 Hz
 - **THD:** < 5%
 
-### 6.3 Integración TETRA + GSM-R Colocalizados
+### 6.3 Integración TETRA + RED TETRA (Misión Crítica) Colocalizados
 
 #### 6.3.1 Alimentación Torres Colocalizadas
 - **Potencia:** 185 kVA (37 torres)
@@ -433,7 +433,7 @@ Este documento detalla la ingeniería de los **sistemas de potencia para torres 
 #### 8.2.1 Pruebas de Integración Colocalizada
 - **ATP Embarcado:** Pruebas de alimentación
 - **CTC Virtual:** Pruebas de alimentación
-- **TETRA + GSM-R:** Pruebas de alimentación colocalizada
+- **TETRA + RED TETRA (Misión Crítica):** Pruebas de alimentación colocalizada
 - **Redundancia:** Pruebas de failover automático
 
 #### 8.2.2 Pruebas de Rendimiento Colocalizado
@@ -485,7 +485,7 @@ Este documento detalla la ingeniería de los **sistemas de potencia para torres 
 
 ### 10.2 Hitos Principales Colocalizados
 - **Subestaciones Colocalizadas:** Sistemas de potencia completados
-- **37 Torres Colocalizadas:** Alimentación TETRA + GSM-R
+- **37 Torres Colocalizadas:** Alimentación TETRA + RED TETRA (Misión Crítica)
 - **ATP Embarcado:** Sistemas en 15 locomotoras
 - **Pruebas Colocalizadas:** Validación completa
 - **Puesta en Servicio:** Operación comercial colocalizada
@@ -511,10 +511,10 @@ Este documento detalla la ingeniería de los **sistemas de potencia para torres 
 ## 12. Referencias y Documentación
 
 ### 12.1 Documentos del Proyecto Actualizados
-- **`CRITERIOS_TECNICOS_MAESTRO_v1.0.md`:** TETRA 37 + GSM-R colocalizado
+- **`CRITERIOS_TECNICOS_MAESTRO_v1.0.md`:** TETRA 37 + RED TETRA (Misión Crítica) colocalizado
 - **`AT1_Alcance_del_Proyecto_MEJORADO_v4.0.md`:** Alcance actualizado
-- **`27_Sistema_TETRA_Integrado_v5.0.md`:** 37 estaciones + GSM-R
-- **`V.3_Comunicaciones_Detalle_v2.0.md`:** TETRA + GSM-R colocalizados
+- **`27_Sistema_TETRA_Integrado_v5.0.md`:** 37 estaciones + RED TETRA (Misión Crítica)
+- **`V.3_Comunicaciones_Detalle_v2.0.md`:** TETRA + RED TETRA (Misión Crítica) colocalizados
 
 ### 12.2 Referencias del Proyecto
 - **`@@Roadmap_v12.0_Marco_Gestion_Consolidado.md`:** Estado del proyecto
@@ -543,11 +543,11 @@ Este documento detalla la ingeniería de los **sistemas de potencia para torres 
 ## 14. Interfaces Documentales v2.0
 
 ### 14.1 Documentos Actualizados (v2.0)
-- **AT1 v4.0:** ✅ Actualizado - TETRA 37 + GSM-R colocalizado
+- **AT1 v4.0:** ✅ Actualizado - TETRA 37 + RED TETRA (Misión Crítica) colocalizado
 - **Listado Maestro v4.0:** ✅ Actualizado - Sistemas colocalizados
 - **WBS v4.0:** ✅ Actualizado - Estructura colocalizada
-- **27_Sistema_TETRA v5.0:** ✅ Actualizado - 37 estaciones + GSM-R
-- **V.3_Comunicaciones v2.0:** ✅ Actualizado - TETRA + GSM-R colocalizados
+- **27_Sistema_TETRA v5.0:** ✅ Actualizado - 37 estaciones + RED TETRA (Misión Crítica)
+- **V.3_Comunicaciones v2.0:** ✅ Actualizado - TETRA + RED TETRA (Misión Crítica) colocalizados
 - **V.4_Potencia v2.0:** ✅ Actualizado - Alimentación torres colocalizadas
 
 ### 14.2 Documentos Dependientes (Por Actualizar)
@@ -558,7 +558,7 @@ Este documento detalla la ingeniería de los **sistemas de potencia para torres 
 **Control de versiones:**
 | Versión | Fecha | Responsable | Descripción |
 |:---:|:---:|:---|:---|
-| v1.0 | 02/10/2025 | Ing. Potencia | Especificación inicial con ITCS tradicional |
+| v1.0 | 02/10/2025 | Ing. Potencia | Especificación inicial con PTC tradicional |
 | **v2.0** | **Ene-2025** | **Admin. Contractual EPC** | **CRÍTICO: Alimentación torres colocalizadas** |
 
 ---

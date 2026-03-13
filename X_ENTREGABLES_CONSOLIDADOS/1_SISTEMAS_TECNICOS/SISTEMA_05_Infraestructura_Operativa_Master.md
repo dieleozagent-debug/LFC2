@@ -118,7 +118,7 @@
 #### **Componentes del CCO:**
 - **Servidores Virtuales:** Redundantes, virtualizados
 - **Estaciones de Trabajo:** Operadores y supervisores
-- **Sistemas de Comunicación:** TETRA + GSM-R + Fibra óptica
+- **Sistemas de Comunicación:** TETRA + RED TETRA (Misión Crítica) + Fibra óptica
 - **Interfaces ATP:** Comunicación con 15 locomotoras
 - **Sistemas de Respaldo:** UPS + Generadores de emergencia
 
@@ -183,7 +183,7 @@
 | **Estaciones de Trabajo** | Dell OptiPlex 7090 | 8 unidades | Operadores + supervisores |
 | **Sistema SCADA** | Siemens WinCC OA | 1 sistema | Supervisión integral |
 | **Consolas de Operación** | 3 monitores 27" | 6 consolas | Operación 24/7 |
-| **Sistema de Comunicaciones** | TETRA + GSM-R | 1 sistema | Redundancia dual |
+| **Sistema de Comunicaciones** | TETRA + RED TETRA (Misión Crítica) | 1 sistema | Redundancia dual |
 
 #### **Sistemas de Respaldo:**
 
@@ -271,7 +271,7 @@
 - **Servidores:** Dell PowerEdge R750 con virtualización
 - **Estaciones:** Dell OptiPlex 7090 con 3 monitores 27"
 - **SCADA:** Siemens WinCC OA con redundancia
-- **Comunicaciones:** Radio TETRA + GSM-R dual
+- **Comunicaciones:** Radio TETRA + RED TETRA (Misión Crítica) dual
 - **Red:** Ethernet industrial con redundancia
 
 #### **Sistemas de Respaldo:**
@@ -299,7 +299,7 @@
 
 #### **Sistemas de Comunicación:**
 - **TETRA:** Sistema principal de comunicación
-- **GSM-R:** Sistema redundante de comunicación
+- **RED TETRA (Misión Crítica):** Sistema redundante de comunicación
 - **Fibra Óptica:** Backbone de datos
 - **Protocolos:** IP sobre radio + protocolos ferroviarios
 - **Interoperabilidad:** Compatible con sistemas FENOCO
@@ -370,7 +370,7 @@
 - **Supervisión:** Monitoreo continuo del estado de trenes
 - **Emergencias:** Procedimientos de emergencia y parada automática
 - **Diagnóstico:** Transmisión de datos de Event Recorder
-- **Protocolo:** ETCS Level 2 estándar UIC
+- **Protocolo:** PTC VIRTUAL Level 2 estándar UIC
 
 #### **CCO ↔ ENCE:**
 - **Control de Enclavamientos:** Autorización de movimientos en estaciones
@@ -388,12 +388,12 @@
 
 ### **7.2 Interfaces con Sistemas de Comunicaciones**
 
-#### **TETRA/GSM-R:**
+#### **TETRA/RED TETRA (Misión Crítica):**
 - **CCO:** Comunicación con operadores y supervisores
 - **Emergencias:** Canales de emergencia y coordinación
 - **Datos:** Transmisión de telemetría y diagnósticos
 - **Interoperabilidad:** Comunicación con sistemas FENOCO
-- **Protocolo:** TETRA estándar + GSM-R UIC
+- **Protocolo:** TETRA estándar + RED TETRA (Misión Crítica) UIC
 
 #### **Fibra Óptica:**
 - **Datos de Control:** Transmisión de información de sistemas
@@ -435,11 +435,11 @@
 
 | Sistema Origen | Sistema Destino | Tipo Interfaz | Protocolo | Estado |
 |:---------------|:----------------|:--------------|:----------|:-------|
-| **CCO** | **CTC** | Control/Comunicación | ETCS Level 2 | ✅ Implementado |
+| **CCO** | **CTC** | Control/Comunicación | PTC VIRTUAL Level 2 | ✅ Implementado |
 | **CCO** | **ENCE** | Control/Comunicación | Interfaces ferroviario | ✅ Implementado |
 | **CCO** | **Desvíos** | Control/Comunicación | Interfaces ferroviario | ✅ Implementado |
 | **CCO** | **TETRA** | Comunicación | TETRA estándar | ✅ Implementado |
-| **CCO** | **GSM-R** | Comunicación | GSM-R UIC | ✅ Implementado |
+| **CCO** | **RED TETRA (Misión Crítica)** | Comunicación | RED TETRA (Misión Crítica) UIC | ✅ Implementado |
 | **CCO** | **Fibra Óptica** | Datos | Ethernet sobre fibra | ✅ Implementado |
 | **Estaciones** | **ENCE** | Control | Interfaces ferroviario | ✅ Implementado |
 | **Subestaciones** | **Sistemas Control** | Datos | Ethernet industrial | ✅ Implementado |

@@ -12,7 +12,7 @@
 
 ### **Indefinición Temporal:**
 
-**Base de datos dice:** "15 locomotoras con ITCS embarcado"  
+**Base de datos dice:** "15 locomotoras con PTC embarcado"  
 **Realidad:** ❌ **Cronograma de entrega escalonada NO DEFINIDO**
 
 ### **Impacto:**
@@ -23,7 +23,7 @@
 - ⚠️ `Plan_Pruebas.md` - Secuencia comisionamiento INDEFINIDA
 
 **Alcance afectado:**
-- 🟡 Sistemas embarcados (ATP, TETRA, GSM-R)
+- 🟡 Sistemas embarcados (ATP, TETRA, RED TETRA (Misión Crítica))
 - 🟡 Secuencia de pruebas (no se sabe cuándo habrá locomotoras)
 - 🟡 Cronograma instalación embarcados
 
@@ -51,7 +51,7 @@
 1. ✅ **Diseño estándar sistemas embarcados**
    - Especificaciones ATP embarcado
    - Especificaciones TETRA embarcado
-   - Especificaciones GSM-R embarcado
+   - Especificaciones RED TETRA (Misión Crítica) embarcado
    - Manual instalación por locomotora
 
 2. ✅ **Secuencia de comisionamiento ADAPTABLE**
@@ -149,7 +149,7 @@
 **Participantes:**
 1. Gerencia de Material Rodante (Concesionario)
 2. FENOCO (proveedor MR)
-3. Oferente EPC (diseño ITCS embarcado)
+3. Oferente EPC (diseño PTC embarcado)
 4. FENOCO (coordinación operativa)
 5. PMO Proyecto
 6. Interventoría
@@ -202,7 +202,7 @@ Plazo respuesta: 45 días
 
 SOLICITUD:
 Cronograma de entrega escalonada de 15 locomotoras para
-equipamiento con sistemas embarcados (ATP, TETRA, GSM-R).
+equipamiento con sistemas embarcados (ATP, TETRA, RED TETRA (Misión Crítica)).
 
 INFORMACIÓN REQUERIDA:
 1. Fecha entrega locomotora piloto

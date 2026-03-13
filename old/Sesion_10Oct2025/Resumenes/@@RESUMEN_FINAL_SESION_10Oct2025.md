@@ -128,7 +128,7 @@ Tiempo total: 5.74 segundos
 
 | ID | Blocker | Validación | Acción Inmediata |
 |----|---------|------------|------------------|
-| **BLOCKER-001** | Indefinición ITCS/ETCS L2 | ✅ CONFIRMADO (AT3) | Oficiar ANI Mes 6 |
+| **BLOCKER-001** | Indefinición PTC/PTC VIRTUAL L2 | ✅ CONFIRMADO (AT3) | Oficiar ANI Mes 6 |
 | **BLOCKER-002** | Protocolos FENOCO | 🟡 PARCIAL (AT10) | Reunión FENOCO Mes 5 |
 | **BLOCKER-003** | Cantidades PANs | ⏳ Pendiente (AT1) | Confirmar diseño modular |
 | **BLOCKER-004** | Cronograma MR | ✅ CONFIRMADO (AT9) | Oficiar ANI cronograma |
@@ -140,7 +140,7 @@ Tiempo total: 5.74 segundos
 ## 🎯 **PRÓXIMOS PASOS**
 
 ### **Esta semana:**
-1. ✅ Oficiar ANI (BLOCKER-001: definición ITCS)
+1. ✅ Oficiar ANI (BLOCKER-001: definición PTC)
 2. ✅ Agendar reunión FENOCO (BLOCKER-002: protocolos)
 3. ✅ Revisar AT1 (BLOCKER-003: cantidades PANs)
 

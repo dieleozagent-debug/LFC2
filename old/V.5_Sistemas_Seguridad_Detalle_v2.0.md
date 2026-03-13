@@ -14,16 +14,16 @@
 ### **📋 CAMBIO DE PARADIGMA COMPLETO:**
 
 #### **🔴 FILOSOFÍA ANTERIOR (ELIMINADA):**
-- **❌ ITCS ETCS Level 2:** Sistema tradicional con RBC → **ATP embarcado** (Sin RBC)
+- **❌ PTC PTC VIRTUAL Level 2:** Sistema tradicional con RBC → **ATP embarcado** (Sin RBC)
 - **❌ RBC (Radio Block Centre):** 2 unidades → **0 unidades** (Reemplazado por CTC virtual)
 - **❌ Cobertura:** 146 km → **526.133 km** (Corredor completo)
-- **❌ Torres:** 33 torres → **37 torres colocalizadas** (TETRA + GSM-R)
+- **❌ Torres:** 33 torres → **37 torres colocalizadas** (TETRA + RED TETRA (Misión Crítica))
 - **❌ Seguridad:** Sistema independiente → **Seguridad colocalizada**
 
 #### **✅ FILOSOFÍA NUEVA (IMPLEMENTADA):**
 - **✅ ATP Embarcado:** Sistema en 15 locomotoras (sin RBC)
 - **✅ CTC Virtual:** Centro de control centralizado
-- **✅ Torres Colocalizadas:** 37 torres para TETRA + GSM-R
+- **✅ Torres Colocalizadas:** 37 torres para TETRA + RED TETRA (Misión Crítica)
 - **✅ Seguridad Colocalizada:** Sistema dual para torres compartidas
 - **✅ Redundancia:** Doble sistema de seguridad
 
@@ -31,7 +31,7 @@
 
 ## 1. Resumen Ejecutivo
 
-Este documento detalla la ingeniería de los **sistemas de seguridad colocalizada** para el proyecto APP La Dorada-Chiriguaná, basado en **seguridad dual para TETRA + GSM-R colocalizados** en 37 torres con redundancia operacional.
+Este documento detalla la ingeniería de los **sistemas de seguridad colocalizada** para el proyecto APP La Dorada-Chiriguaná, basado en **seguridad dual para TETRA + RED TETRA (Misión Crítica) colocalizados** en 37 torres con redundancia operacional.
 
 ### 1.1 Alcance del Sistema de Seguridad Colocalizada
 - **Sistema principal:** Seguridad integral ferroviaria colocalizada
@@ -76,12 +76,12 @@ Este documento detalla la ingeniería de los **sistemas de seguridad colocalizad
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
 │  │   Torre 1   │  │   Torre 2   │  │   Torre 3   │         │
 │  │ Seguridad   │  │ Seguridad   │  │ Seguridad   │         │
-│  │ TETRA+GSM-R │  │ TETRA+GSM-R │  │ TETRA+GSM-R │         │
+│  │ TETRA+RED TETRA (Misión Crítica) │  │ TETRA+RED TETRA (Misión Crítica) │  │ TETRA+RED TETRA (Misión Crítica) │         │
 │  └─────────────┘  └─────────────┘  └─────────────┘         │
 └─────────────────────────────────────────────────────────────┘
                               │
                               │ 37 Torres Colocalizadas
-                              │ (Seguridad TETRA + GSM-R)
+                              │ (Seguridad TETRA + RED TETRA (Misión Crítica))
                               ▼
 ┌─────────────────────────────────────────────────────────────┐
 │                    ATP EMBARCADO (15 LOCOMOTORAS)           │
@@ -99,7 +99,7 @@ Este documento detalla la ingeniería de los **sistemas de seguridad colocalizad
 #### 2.2.1 Seguridad Funcional Colocalizada (EN 50126/50128/50129)
 - **SIL 4:** Funciones críticas ATP embarcado
 - **SIL 3:** Funciones de control CTC virtual
-- **SIL 2:** Funciones de supervisión TETRA + GSM-R
+- **SIL 2:** Funciones de supervisión TETRA + RED TETRA (Misión Crítica)
 - **SIL 1:** Funciones auxiliares colocalizadas
 
 #### 2.2.2 Ciberseguridad Colocalizada (IEC 62443)
@@ -122,7 +122,7 @@ Este documento detalla la ingeniería de los **sistemas de seguridad colocalizad
 
 #### 3.1.1 Objetivos de Seguridad Colocalizados
 - **SIL 4:** ATP embarcado, CTC virtual, ENCE
-- **SIL 3:** TETRA + GSM-R colocalizados, comunicaciones críticas
+- **SIL 3:** TETRA + RED TETRA (Misión Crítica) colocalizados, comunicaciones críticas
 - **SIL 2:** SCADA colocalizado, monitoreo
 - **SIL 1:** Sistemas auxiliares colocalizados
 
@@ -187,14 +187,14 @@ Este documento detalla la ingeniería de los **sistemas de seguridad colocalizad
 
 #### 4.1.1 ATP Embarcado
 - **Movement Authority:** Autorización de movimiento via CTC virtual
-- **Position Report:** Reporte de posición via TETRA + GSM-R
+- **Position Report:** Reporte de posición via TETRA + RED TETRA (Misión Crítica)
 - **Emergency Stop:** Parada de emergencia via doble sistema
 - **Data Logging:** Registro de datos via redundancia
 - **Fail-Safe:** Modo seguro en caso de fallo colocalizado
 
 #### 4.1.2 CTC Virtual
 - **Control de trenes:** Gestión de 15 trenes simultáneos
-- **Comunicación:** TETRA + GSM-R colocalizado, protocolo directo
+- **Comunicación:** TETRA + RED TETRA (Misión Crítica) colocalizado, protocolo directo
 - **Redundancia:** N+1 para máxima disponibilidad
 - **Monitoreo:** Supervisión continua del estado colocalizado
 
@@ -252,7 +252,7 @@ Este documento detalla la ingeniería de los **sistemas de seguridad colocalizad
 
 #### 5.1.1 Objetivos de Seguridad Colocalizados
 - **SIL 4:** ATP embarcado, CTC virtual, ENCE
-- **SIL 3:** TETRA + GSM-R colocalizados, comunicaciones críticas
+- **SIL 3:** TETRA + RED TETRA (Misión Crítica) colocalizados, comunicaciones críticas
 - **SIL 2:** SCADA colocalizado, monitoreo
 - **SIL 1:** Sistemas auxiliares colocalizados
 
@@ -300,7 +300,7 @@ Este documento detalla la ingeniería de los **sistemas de seguridad colocalizad
 #### 6.1.1 Seguridad ATP Embarcado
 - **SIL 4:** Funciones críticas de seguridad
 - **Redundancia:** N+1 en sistemas embarcados
-- **Comunicación:** TETRA + GSM-R seguro colocalizado
+- **Comunicación:** TETRA + RED TETRA (Misión Crítica) seguro colocalizado
 - **Monitoreo:** Supervisión continua colocalizada
 
 #### 6.1.2 Protecciones Específicas ATP
@@ -323,7 +323,7 @@ Este documento detalla la ingeniería de los **sistemas de seguridad colocalizad
 - **Autenticación:** Multi-factor colocalizado
 - **Auditoría:** Logs de acceso colocalizada
 
-### 6.3 Integración TETRA + GSM-R Colocalizados
+### 6.3 Integración TETRA + RED TETRA (Misión Crítica) Colocalizados
 
 #### 6.3.1 Seguridad Torres Colocalizadas
 - **SIL 2:** Funciones de supervisión colocalizada
@@ -394,7 +394,7 @@ Este documento detalla la ingeniería de los **sistemas de seguridad colocalizad
 #### 8.2.1 Pruebas de Integración Colocalizada
 - **ATP Embarcado:** Pruebas de seguridad embarcada
 - **CTC Virtual:** Pruebas de seguridad virtual
-- **TETRA + GSM-R:** Pruebas de seguridad colocalizada
+- **TETRA + RED TETRA (Misión Crítica):** Pruebas de seguridad colocalizada
 - **Redundancia:** Pruebas de failover automático colocalizado
 
 #### 8.2.2 Pruebas de Rendimiento Colocalizado
@@ -446,7 +446,7 @@ Este documento detalla la ingeniería de los **sistemas de seguridad colocalizad
 
 ### 10.2 Hitos Principales Colocalizados
 - **Seguridad Funcional:** ATP + CTC + ENCE completados
-- **37 Torres Colocalizadas:** Seguridad TETRA + GSM-R
+- **37 Torres Colocalizadas:** Seguridad TETRA + RED TETRA (Misión Crítica)
 - **Ciberseguridad:** Protección colocalizada
 - **Pruebas Colocalizadas:** Validación completa
 - **Puesta en Servicio:** Operación comercial colocalizada
@@ -472,10 +472,10 @@ Este documento detalla la ingeniería de los **sistemas de seguridad colocalizad
 ## 12. Referencias y Documentación
 
 ### 12.1 Documentos del Proyecto Actualizados
-- **`CRITERIOS_TECNICOS_MAESTRO_v1.0.md`:** TETRA 37 + GSM-R colocalizado
+- **`CRITERIOS_TECNICOS_MAESTRO_v1.0.md`:** TETRA 37 + RED TETRA (Misión Crítica) colocalizado
 - **`AT1_Alcance_del_Proyecto_MEJORADO_v4.0.md`:** Alcance actualizado
-- **`27_Sistema_TETRA_Integrado_v5.0.md`:** 37 estaciones + GSM-R
-- **`V.3_Comunicaciones_Detalle_v2.0.md`:** TETRA + GSM-R colocalizados
+- **`27_Sistema_TETRA_Integrado_v5.0.md`:** 37 estaciones + RED TETRA (Misión Crítica)
+- **`V.3_Comunicaciones_Detalle_v2.0.md`:** TETRA + RED TETRA (Misión Crítica) colocalizados
 - **`V.4_Potencia_Detalle_v2.0.md`:** Alimentación torres colocalizadas
 
 ### 12.2 Referencias del Proyecto
@@ -505,11 +505,11 @@ Este documento detalla la ingeniería de los **sistemas de seguridad colocalizad
 ## 14. Interfaces Documentales v2.0
 
 ### 14.1 Documentos Actualizados (v2.0)
-- **AT1 v4.0:** ✅ Actualizado - TETRA 37 + GSM-R colocalizado
+- **AT1 v4.0:** ✅ Actualizado - TETRA 37 + RED TETRA (Misión Crítica) colocalizado
 - **Listado Maestro v4.0:** ✅ Actualizado - Sistemas colocalizados
 - **WBS v4.0:** ✅ Actualizado - Estructura colocalizada
-- **27_Sistema_TETRA v5.0:** ✅ Actualizado - 37 estaciones + GSM-R
-- **V.3_Comunicaciones v2.0:** ✅ Actualizado - TETRA + GSM-R colocalizados
+- **27_Sistema_TETRA v5.0:** ✅ Actualizado - 37 estaciones + RED TETRA (Misión Crítica)
+- **V.3_Comunicaciones v2.0:** ✅ Actualizado - TETRA + RED TETRA (Misión Crítica) colocalizados
 - **V.4_Potencia v2.0:** ✅ Actualizado - Alimentación torres colocalizadas
 - **V.5_Seguridad v2.0:** ✅ Actualizado - Seguridad colocalizada
 
@@ -521,7 +521,7 @@ Este documento detalla la ingeniería de los **sistemas de seguridad colocalizad
 **Control de versiones:**
 | Versión | Fecha | Responsable | Descripción |
 |:---:|:---:|:---|:---|
-| v1.0 | 02/10/2025 | Ing. Seguridad | Especificación inicial con ITCS tradicional |
+| v1.0 | 02/10/2025 | Ing. Seguridad | Especificación inicial con PTC tradicional |
 | **v2.0** | **Ene-2025** | **Admin. Contractual EPC** | **CRÍTICO: Seguridad colocalizada** |
 
 ---

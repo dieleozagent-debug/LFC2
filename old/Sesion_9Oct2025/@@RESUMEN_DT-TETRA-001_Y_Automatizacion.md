@@ -27,7 +27,7 @@
 **Sección 6.1 (Material Rodante):**
 - 6.1.100: Sistemas ATP embarcados (15→8)
 - 6.1.101: Radios TETRA (30→16)
-- 6.1.102: Radios GSM-R (30→16)
+- 6.1.102: Radios RED TETRA (Misión Crítica) (30→16)
 - 6.1.103: Sistemas GPS (15→8)
 - 6.1.104: Sistemas redundancia (15→8)
 - 6.1.105: Instalación y configuración (15→8)

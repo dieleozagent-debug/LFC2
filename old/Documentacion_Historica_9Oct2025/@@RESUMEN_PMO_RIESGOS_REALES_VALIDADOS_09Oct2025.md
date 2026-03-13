@@ -14,7 +14,7 @@
 
 | ID | Descripción | Prob | Impacto | Exposición | Fuente Real |
 |:--:|:------------|:----:|:--------|:----------:|:------------|
-| **R-AT3-01** | Dependencia AT3 para ITCS ETCS L2 | Alta | Alto | ALTA | `III/36.1_Analisis_Riesgos_PMI.md` |
+| **R-AT3-01** | Dependencia AT3 para PTC PTC VIRTUAL L2 | Alta | Alto | ALTA | `III/36.1_Analisis_Riesgos_PMI.md` |
 | **R-INT-01** | Interoperabilidad con FENOCO (UIC) | Media | Alto | MEDIA | `III/36.1` + `IV/41.Interfaces` |
 | **R-AT4-01** | Cumplimiento disponibilidad AT4 | Media | Alto | MEDIA | AT4 Contractual |
 | **R-CYB-01** | Ciberseguridad IEC 62443 | Media | Alto | MEDIA | `VII.2.11_Ciberseguridad` |
@@ -38,7 +38,7 @@ El usuario identificó 4 potenciales BLOCKERS basándose en su experiencia. **Es
 
 | ID Potencial | Descripción | Fuente Usuario | ¿Validado en cocina? |
 |:------------:|:------------|:---------------|:---------------------|
-| **BLOCKER-001** | Indefinición ITCS/ETCS L2 | Usuario (experiencia) | ⚠️ **VALIDAR en AT3** |
+| **BLOCKER-001** | Indefinición PTC/PTC VIRTUAL L2 | Usuario (experiencia) | ⚠️ **VALIDAR en AT3** |
 | **BLOCKER-002** | Protocolos FENOCO propietarios | Usuario (experiencia) | ⚠️ **VALIDAR en contrato** |
 | **BLOCKER-003** | Cantidades PAN indefinidas | Usuario (experiencia) | ⚠️ **VALIDAR en AT1/AT9** |
 | **BLOCKER-004** | Cronograma MR indefinido | Usuario (experiencia) | ⚠️ **VALIDAR en contrato** |
@@ -51,7 +51,7 @@ El usuario identificó 4 potenciales BLOCKERS basándose en su experiencia. **Es
 
 ### **1. Revisar AT3 (Especificaciones Técnicas):**
 ```
-¿Está ITCS/ETCS L2 claramente definido en AT3?
+¿Está PTC/PTC VIRTUAL L2 claramente definido en AT3?
 - Si NO → BLOCKER-001 es REAL
 - Si SÍ → BLOCKER-001 es falso
 ```

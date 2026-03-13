@@ -13,13 +13,13 @@ La Ingeniería Conceptual define los pilares tecnológicos del corredor férreo 
 ### 2. DEFINICIÓN DE SISTEMAS RECTORES
 
 #### **A. SEÑALIZACIÓN Y CONTROL: PTC VIRTUAL**
-- **Sustitución Radical:** Se elimina cualquier rastro de ITCS Alstom o ETCS Level 2 por no ser estándares abiertos o por sobrecostos injustificados.
+- **Sustitución Radical:** Se elimina cualquier rastro de PTC Alstom o PTC VIRTUAL Level 2 por no ser estándares abiertos o por sobrecostos injustificados.
 - **Estándar:** **PTC Virtual (FRA 236 Subpart I)**.
 - **Arquitectura:** Servidor Vital en configuración **2oo3 (Triple Redundancia Modular)**.
 - **Operación:** Autoridad de Movimiento basada en **V-Block (Bloque Virtual)**.
 
 #### **B. TELECOMUNICACIONES: TETRA & FIBRA VITAL**
-- **Radio:** Red **TETRA** de misión crítica para voz y datos vitales. Se purga GSM-R.
+- **Radio:** Red **TETRA** de misión crítica para voz y datos vitales. Se purga RED TETRA (Misión Crítica).
 - **Transmisión:** Backbone de **Fibra Óptica** con protocolos **Vital IP**.
 - **Resiliencia:** Capacidad de conmutación automática entre Fibra y Radio para el SICC.
 
@@ -58,6 +58,6 @@ La Ingeniería Conceptual define los pilares tecnológicos del corredor férreo 
 
 ### ✅ CONCLUSIONES:
 
-Este documento establece la base técnica para los ciclos subsiguientes de ingeniería básica y detalle. Se ha purgado la alucinación tecnológica de ETCS/GSM-R e ITCS, adoptando un estándar moderno, interoperable y de bajo costo operativo.
+Este documento establece la base técnica para los ciclos subsiguientes de ingeniería básica y detalle. Se ha purgado la alucinación tecnológica de PTC VIRTUAL/RED TETRA (Misión Crítica) e PTC, adoptando un estándar moderno, interoperable y de bajo costo operativo.
 
 **Saneamiento Ciclo 3 - Hoja de Ruta Finalizado.**

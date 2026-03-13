@@ -22,10 +22,10 @@ Esta especificación define los requerimientos técnicos para el equipamiento em
 
 ---
 
-## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE STM/ETCS)
+## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE STM/PTC VIRTUAL)
 - ✅ **ELIMINADO:** Módulo STM (Specific Transmission Module).
-- ✅ **ELIMINADO:** Antena de Eurobalizas.
-- ✅ **ELIMINADO:** Radio GSM-R y protocolos EIRENE.
+- ✅ **ELIMINADO:** Antena de Virtual Balise (GNSS)s.
+- ✅ **ELIMINADO:** Radio RED TETRA (Misión Crítica) y protocolos EIRENE.
 - ✅ **ADOPTADO:** Arquitectura de **Retrofit PTC** basada en estándares americanos (AAR/AREMA).
 
 ---
@@ -35,7 +35,7 @@ Esta especificación define los requerimientos técnicos para el equipamiento em
 El OBC descarga la base de datos de vía (Track Database) y recibe las autoridades de movimiento (MA) del **Servidor Vital**. Calcula continuamente la curva de frenado y aplica el freno si el tren excede los límites seguros.
 
 ### 3.1 Fusión de Sensores (Vital Locating)
-Se elimina la dependencia de balizas físicas. La posición se determina mediante la red satelital con corrección diferencial y sensores inerciales que garantizan precisión de < 2 metros incluso en cortes.
+Se elimina la dependencia de punto de referencia virtuals físicas. La posición se determina mediante la red satelital con corrección diferencial y sensores inerciales que garantizan precisión de < 2 metros incluso en cortes.
 
 ---
 
@@ -51,6 +51,6 @@ Se elimina la dependencia de balizas físicas. La posición se determina mediant
 
 ## ✅ CONCLUSIONES:
 
-La especificación del equipamiento embarcado ha sido saneada para eliminar la terminología y dependencias de ETCS, estableciendo un esquema de **OBC PTC Virtual** moderno y alineado con los requerimientos operacionales del corredor.
+La especificación del equipamiento embarcado ha sido saneada para eliminar la terminología y dependencias de PTC VIRTUAL, estableciendo un esquema de **OBC PTC Virtual** moderno y alineado con los requerimientos operacionales del corredor.
 
 **Saneamiento Ciclo 3 - Equipamiento Embarcado Finalizado.**

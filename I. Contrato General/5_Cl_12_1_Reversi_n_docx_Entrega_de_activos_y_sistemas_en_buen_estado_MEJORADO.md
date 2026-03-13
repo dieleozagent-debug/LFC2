@@ -69,7 +69,7 @@ Unidades Funcionales (UFVF 1-53) con especificaciones de Apéndice Técnico 1
 Corredor del Proyecto libre de ocupaciones (Sección 15.5(c))
 Estaciones, talleres, CCO según Apéndice Técnico 2, Capítulo V
 Material Rodante del Proyecto:
-Locomotoras con sistemas ITCS operativos (AT3, Cap. VIII, Num. 8.10)
+Locomotoras con sistemas PTC operativos (AT3, Cap. VIII, Num. 8.10)
 Vagones con equipos embarcados TETRA funcionales
 Sistemas de mantenimiento integrados a talleres
 Sistemas tecnológicos integrados:
@@ -314,11 +314,11 @@ Proxima actualizacion: 27/02/2025
 
 #### **✅ MEJORAS IMPLEMENTADAS:**
 
-1. **🚂 INTEGRACIÓN ITCS ETCS Level 2 EN REVERSIÓN:**
-   - **Reversión de equipos embarcados:** Entrega de equipos ITCS ETCS Level 2 en locomotoras
-   - **Documentación técnica:** Manuales de operación y mantenimiento ITCS
-   - **Inventario de activos:** Registro completo de equipos ITCS embarcados
-   - **Estado operativo:** Verificación de funcionamiento ITCS al momento de reversión
+1. **🚂 INTEGRACIÓN PTC PTC VIRTUAL Level 2 EN REVERSIÓN:**
+   - **Reversión de equipos embarcados:** Entrega de equipos PTC PTC VIRTUAL Level 2 en locomotoras
+   - **Documentación técnica:** Manuales de operación y mantenimiento PTC
+   - **Inventario de activos:** Registro completo de equipos PTC embarcados
+   - **Estado operativo:** Verificación de funcionamiento PTC al momento de reversión
 
 2. **🔗 INTEROPERABILIDAD FENOCO EN REVERSIÓN:**
    - **Protocolos UIC:** Documentación de interoperabilidad con FENOCO
@@ -346,7 +346,7 @@ Proxima actualizacion: 27/02/2025
 
 #### **⚠️ VACÍOS IDENTIFICADOS Y CORREGIDOS:**
 
-1. **Falta de especificaciones ITCS en reversión:** Agregado inventario y documentación de equipos ETCS Level 2
+1. **Falta de especificaciones PTC en reversión:** Agregado inventario y documentación de equipos PTC VIRTUAL Level 2
 2. **Ausencia de interoperabilidad FENOCO:** Incluidas certificaciones de compatibilidad
 3. **Criterios AT4 no integrados:** Incorporado SICC y evidencias de cumplimiento
 4. **Ciberseguridad no especificada:** Agregados protocolos de transferencia de seguridad
@@ -356,7 +356,7 @@ Proxima actualizacion: 27/02/2025
 
 | ID | Riesgo | Categoría | Prob | Impacto | Descripción |
 |:---|:---|:---:|:---:|:---:|:---|
-| R-265 | Dependencia AT3 para ITCS en reversión | Técnico | Alta | Alto | Reversión ITCS sin especificaciones AT3 |
+| R-265 | Dependencia AT3 para PTC en reversión | Técnico | Alta | Alto | Reversión PTC sin especificaciones AT3 |
 | R-266 | Interoperabilidad FENOCO en reversión | Técnico | Media | Alto | Transferencia de compatibilidad con FENOCO |
 | R-267 | Disponibilidad AT4 en reversión | Contractual | Media | Alto | Cumplimiento de indicadores al momento de reversión |
 | R-268 | Ciberseguridad en reversión | Técnico | Media | Alto | Transferencia segura de sistemas |
@@ -366,7 +366,7 @@ Proxima actualizacion: 27/02/2025
 
 | Sistema | Cláusula | AT | Especificación | Estado |
 |:---|:---|:---|:---|:---:|
-| **ITCS Reversión** | 12.1 | AT3 | ETCS Level 2 | ✅ Implementado |
+| **PTC Reversión** | 12.1 | AT3 | PTC VIRTUAL Level 2 | ✅ Implementado |
 | **FENOCO Reversión** | 12.1 | AT1 | Protocolos UIC | ✅ Implementado |
 | **AT4 SICC Reversión** | 12.1 | AT4 | Evidencias de cumplimiento | ✅ Implementado |
 | **Ciberseguridad Reversión** | 12.1 | AT3 | NIST/IEC 62443 | ✅ Implementado |
@@ -374,14 +374,14 @@ Proxima actualizacion: 27/02/2025
 
 #### **🎯 OPTIMIZACIONES EPC ESPECÍFICAS:**
 
-1. **Estrategia de Avance con Bloqueos ITCS:**
-   - **Fase 1:** Preparación de reversión con ETCS Level 2 (0-6 meses)
-   - **Fase 2:** Inventario y documentación ITCS (6-12 meses)
+1. **Estrategia de Avance con Bloqueos PTC:**
+   - **Fase 1:** Preparación de reversión con PTC VIRTUAL Level 2 (0-6 meses)
+   - **Fase 2:** Inventario y documentación PTC (6-12 meses)
    - **Fase 3:** Transferencia y certificación (12-18 meses)
    - **Fase 4:** Reversión final (18-24 meses)
 
 2. **Gestión Integrada de Riesgos en Reversión:**
-   - **Monitoreo mensual:** Riesgos críticos (ITCS, FENOCO, AT4)
+   - **Monitoreo mensual:** Riesgos críticos (PTC, FENOCO, AT4)
    - **Monitoreo trimestral:** Riesgos altos (ciberseguridad, redundancia)
    - **Monitoreo semestral:** Riesgos medios (gestión, operación)
 
@@ -389,7 +389,7 @@ Proxima actualizacion: 27/02/2025
 
 | Métrica | Objetivo | Frecuencia | Responsable | Estado |
 |:---|:---:|:---:|:---|:---:|
-| **ITCS ETCS Level 2** | 100% inventariado | Mensual | Ing. Sistemas | 🟢 En progreso |
+| **PTC PTC VIRTUAL Level 2** | 100% inventariado | Mensual | Ing. Sistemas | 🟢 En progreso |
 | **Interoperabilidad FENOCO** | 100% certificado | Trimestral | Comunicaciones | 🟡 Pendiente |
 | **Disponibilidad AT4** | 99.95% al momento reversión | Mensual | Ing. Sistemas | 🟢 En progreso |
 | **Ciberseguridad** | 100% transferido | Trimestral | Ciberseguridad | 🟡 Pendiente |
@@ -398,24 +398,24 @@ Proxima actualizacion: 27/02/2025
 #### **🚀 PRÓXIMOS PASOS:**
 
 1. **Inmediato (0-6 meses):**
-   - Preparar inventario de equipos ITCS ETCS Level 2
+   - Preparar inventario de equipos PTC PTC VIRTUAL Level 2
    - Documentar interoperabilidad con FENOCO
    - Recopilar evidencias de cumplimiento AT4
 
 2. **Mediano plazo (6-18 meses):**
-   - Completar inventario de activos ITCS
+   - Completar inventario de activos PTC
    - Obtener certificaciones de interoperabilidad FENOCO
    - Validar cumplimiento de AT4
 
 3. **Largo plazo (18-24 meses):**
-   - Transferir equipos ITCS con documentación completa
+   - Transferir equipos PTC con documentación completa
    - Entregar certificaciones de interoperabilidad FENOCO
    - Completar reversión con cumplimiento de AT4
 
 #### **✅ CONCLUSIONES:**
 
 El documento ha sido actualizado exitosamente aplicando la metodología Punto 42, integrando:
-- **ITCS ETCS Level 2** en proceso de reversión
+- **PTC PTC VIRTUAL Level 2** en proceso de reversión
 - **Interoperabilidad FENOCO** en transferencia de activos
 - **Criterios AT4** con evidencias de cumplimiento
 - **Ciberseguridad** con protocolos de transferencia segura

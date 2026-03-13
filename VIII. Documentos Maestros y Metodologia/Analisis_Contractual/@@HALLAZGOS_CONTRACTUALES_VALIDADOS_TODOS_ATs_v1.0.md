@@ -12,7 +12,7 @@
 Tras el proceso de saneamiento recursivo, se han resuelto las siguientes indefiniciones críticas que bloqueaban el proyecto:
 
 ### ✅ HALLAZGO 001: Definición del Sistema de Control
-- **Estado Anterior:** Confusión entre PTC, ETCS e ITCS.
+- **Estado Anterior:** Confusión entre PTC, PTC VIRTUAL e PTC.
 - **Resolución:** Se institucionaliza el estándar **PTC Virtual (FRA 236)** como única solución técnica. Se eliminan todas las referencias a sistemas europeos propietarios o hardware de vía costoso.
 - **Impacto:** Desbloqueo total del diseño de detalle y especificaciones de compra.
 
@@ -21,13 +21,13 @@ Tras el proceso de saneamiento recursivo, se han resuelto las siguientes indefin
 - **Resolución:** Adopción del procedimiento operacional **Stop & Switch**. Se elimina la necesidad de Gateways técnicos complejos, garantizando la seguridad mediante protocolos administrativos y demarcación lógica en el CTC.
 
 ### ✅ HALLAZGO 003: Telecomunicaciones Unificadas
-- **Estado Anterior:** Presencia residual de GSM-R colocalizado.
-- **Resolución:** Purga total de la infraestructura GSM-R. La red de misión crítica es 100% **TETRA**, soportando voz y datos **Vital IP** para la señalización.
+- **Estado Anterior:** Presencia residual de RED TETRA (Misión Crítica) colocalizado.
+- **Resolución:** Purga total de la infraestructura RED TETRA (Misión Crítica). La red de misión crítica es 100% **TETRA**, soportando voz y datos **Vital IP** para la señalización.
 
 ---
 
 ## 2. AUDITORÍA FINAL DE SOBERANÍA
-- **Hardware Eliminado:** Eurobalises, Señales LED, Circuitos de vía, Antenas GSM-R.
+- **Hardware Eliminado:** Virtual Balise (GNSS)s, Señales LED, Circuitos de vía, Antenas RED TETRA (Misión Crítica).
 - **Protocolos Adoptados:** Vital IP, V-Blocks (Bloqueo Virtual).
 - **Cumplimiento Contractual:** Alineado con los Apéndices Técnicos bajo la interpretación de **Soberanía Tecnológica**.
 

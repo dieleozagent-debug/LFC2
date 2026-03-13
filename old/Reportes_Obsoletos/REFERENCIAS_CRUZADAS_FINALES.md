@@ -34,7 +34,7 @@
 - `5_Cl_12_1_Reversi_n_docx_Entrega_de_activos_y_sistemas_en_buen_estado_MEJORADO.md` → **Reversión de activos**
 
 #### **Sistemas y Equipos**
-- `6_Cl_13_1_MaterialRodante_docx_Equipos_embarcados_ITCS_TETRA_MEJORADO.md` → **Material rodante**
+- `6_Cl_13_1_MaterialRodante_docx_Equipos_embarcados_PTC_TETRA_MEJORADO.md` → **Material rodante**
 - `7_Cl_14_1_OM_Sistemas_docx_Reposici_n_y_mantenimiento_de_hardwaresoftware_MEJORADO.md` → **O&M sistemas**
 
 #### **Gestión Contractual**
@@ -63,7 +63,7 @@
 
 #### **Planificación y Capacidad**
 - `19. AT9_Plan_de_Obras_MEJORADO.md` → **Plan de obras**
-- `20. AT10_CapacidadSurcos – Sim de capacidad, asignación de surcos, integración ITCS–CTC.md` → **Capacidad y surcos**
+- `20. AT10_CapacidadSurcos – Sim de capacidad, asignación de surcos, integración PTC–CTC.md` → **Capacidad y surcos**
 
 #### **Aspectos Financieros**
 - `21. AT_Financieros.docx – Seguros, pólizas y garantías.md` → **Aspectos financieros**
@@ -193,7 +193,7 @@
 
 ### **Material Rodante**
 - **Conceptual:** `32_Material_Rodante_Integrado`
-- **Contractual:** `6_Cl_13_1_MaterialRodante_docx_Equipos_embarcados_ITCS_TETRA_MEJORADO.md`
+- **Contractual:** `6_Cl_13_1_MaterialRodante_docx_Equipos_embarcados_PTC_TETRA_MEJORADO.md`
 - **Detalle:** `8_10_Sistema_de_comunicaciones_embarcados.md`, `12_Comunicaciones_embarcadas_Contrato_8_10.md`
 
 ---

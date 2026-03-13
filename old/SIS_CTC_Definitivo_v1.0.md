@@ -10,7 +10,7 @@
 - V. Ingenieria de detalle/V.4_Sistemas/2_Centro_de_Control_de_Tr_fico_CTC_Contrato_8_2.md
 - III. Ingenieria conceptual/26. Sistem_CTC_Int – AT1(CCO) + AT2(op) + AT3(esp) + AT4(ind) + AT9(cro).md
 - VII. Soporte Especializado/VII.2_Especificaciones/VII.2.8_Arquitectura_Software_CTC.md
-- VII. Soporte Especializado/VII.2_Especificaciones/VII.2.4_Interfaces_CTC_ITCS_Protocolo_FFFIS.md
+- VII. Soporte Especializado/VII.2_Especificaciones/VII.2.4_Interfaces_CTC_PTC_Protocolo_FFFIS.md
 
 > **📋 DOCUMENTOS FUENTE CONSOLIDADOS:**
 > - `V. Ingenieria de detalle/V.2_Centro_Control_Trafico_CTC_Detalle_v1.0.md`
@@ -19,7 +19,7 @@
 ---
 
 ## 1. Alcance del Sistema
-- Definir arquitectura y funcionalidades del CCO/CTC, integración con ITCS, operación y redundancia.  
+- Definir arquitectura y funcionalidades del CCO/CTC, integración con PTC, operación y redundancia.  
   (Fuentes: 26. Sistem_CTC_Int; V.2_CTC_Detalle_v1.0.md)
 
 ## 2. Trazabilidad Contractual
@@ -36,7 +36,7 @@
    - Roles, subsistemas, HMI, flujos operativos. (26_Sistem_CTC; V.2)
 2. Arquitectura SW/HW CTC  
    - Capas SW, servidores, redundancia N+1, storage. (VII.2.8; V.2)
-3. Integración con ITCS (FFFIS)  
+3. Integración con PTC (FFFIS)  
    - Mensajería, estados, alarmas, sincronización. (VII.2.4)
 4. Redundancia y disponibilidad  
    - Objetivos AT4, failover, pruebas. (V.2; AT4)
@@ -57,7 +57,7 @@
    |---|---|---|
    | Operación CCO conforme | Manuales/HMI + pruebas operativas | AT2, 26_Sistem_CTC |
    | Redundancia N+1 activa | Reportes failover y pruebas | V.2, AT4 |
-   | Integración FFFIS ITCS | Logs de mensajes/estados/alarmas | VII.2.4 |
+   | Integración FFFIS PTC | Logs de mensajes/estados/alarmas | VII.2.4 |
    | KPIs disponibilidad | Registros y tablero CCO | AT4 |
 
 ### 8.2 Indicadores Clave de Rendimiento (KPIs) - Detallados
@@ -72,7 +72,7 @@
 
 9. Criterios de Aceptación (FAT/SAT)
    - FAT: pruebas funcionales SW/HW, redundancia y alarmas críticas.
-   - SAT: pruebas integradas con ITCS (FFFIS) en entorno operativo.
+   - SAT: pruebas integradas con PTC (FFFIS) en entorno operativo.
    - Disponibilidad: evidencia objetivos AT4 con medición inicial en producción.
 
 ## 5. Pendientes de Integración

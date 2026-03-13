@@ -39,7 +39,7 @@ Matemáticamente, una disponibilidad del 100% implica un **MTTR (Tiempo Medio de
 ## 🛡️ **3. ESTRATEGIA PARA MAXIMIZAR UPTIME**
 
 1. **Monitoreo Predictivo:** Uso de telemetría en tiempo real desde el OBC y los activos de vía (WIUs) para detectar fatiga de componentes antes del fallo.
-2. **Arquitectura Vital IP:** El uso de protocolos IP abiertos permite una recuperación de sesión más rápida que los protocolos propietarios serie (FFFIS/ITCS).
+2. **Arquitectura Vital IP:** El uso de protocolos IP abiertos permite una recuperación de sesión más rápida que los protocolos propietarios serie (FFFIS/PTC).
 3. **Mantenimiento Modular:** Reemplazo de módulos OBC en caliente (Hot-swap) para reducir el MTTR a < 30 minutos.
 
 ---
@@ -48,8 +48,8 @@ Matemáticamente, una disponibilidad del 100% implica un **MTTR (Tiempo Medio de
 
 | Versión | Fecha | Responsable | Cambio (Karpathy Purge) |
 |:---:|:---:|:---|:---|
-| **v2.0** | 13/03/2026 | Admin. Contractual | **RE-ESCRITURA TOTAL**. Eliminados RBC y ETCS. Justificación basada en PTC Virtual y TETRA. |
-| **v1.0** | 27/01/2025 | Ing. Sistemas | Versión obsoleta basada en componentes ETCS (HALLUCINATED). |
+| **v2.0** | 13/03/2026 | Admin. Contractual | **RE-ESCRITURA TOTAL**. Eliminados RBC y PTC VIRTUAL. Justificación basada en PTC Virtual y TETRA. |
+| **v1.0** | 27/01/2025 | Ing. Sistemas | Versión obsoleta basada en componentes PTC VIRTUAL (HALLUCINATED). |
 
 ---
 **Documento Alineado con el SSOT (DBCD_CRITERIA.md).**

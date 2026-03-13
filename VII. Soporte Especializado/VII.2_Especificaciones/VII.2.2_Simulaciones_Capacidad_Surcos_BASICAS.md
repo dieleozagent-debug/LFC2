@@ -11,7 +11,7 @@
 ## 🎯 **1. PROPÓSITO Y ALCANCE**
 
 ### **1.1 PROPÓSITO**
-Este documento presenta las simulaciones de capacidad para el corredor **La Dorada - Chiriguaná (526 km)**. Se analiza el impacto de la implementación del **PTC Virtual (Virtual Block)** en la densidad de surcos y la eficiencia operativa, eliminando cualquier referencia a sistemas de señalización física o ETCS.
+Este documento presenta las simulaciones de capacidad para el corredor **La Dorada - Chiriguaná (526 km)**. Se analiza el impacto de la implementación del **PTC Virtual (Virtual Block)** en la densidad de surcos y la eficiencia operativa, eliminando cualquier referencia a sistemas de señalización física o PTC VIRTUAL.
 
 ### **1.2 ALCANCE**
 - **Corredor:** Troncal La Dorada-Chiriguaná (Vía única con apartaderos).
@@ -53,8 +53,8 @@ A diferencia de los circuitos de vía fijos, el PTC Virtual permite reducir el i
 
 | Versión | Fecha | Responsable | Cambio (Karpathy Purge) |
 |:---:|:---:|:---|:---|
-| **v2.0** | 13/03/2026 | Admin. Contractual | **RE-ESCRITURA TOTAL**. Corregida longitud a 526 km. Eliminado ITCS/ETCS. Basado en Bloque Virtual FRA. |
-| **v1.0** | 27/01/2025 | Ing. Sistemas | Versión obsoleta con longitud errónea (178 km) y ETCS (HALLUCINATED). |
+| **v2.0** | 13/03/2026 | Admin. Contractual | **RE-ESCRITURA TOTAL**. Corregida longitud a 526 km. Eliminado PTC/PTC VIRTUAL. Basado en Bloque Virtual FRA. |
+| **v1.0** | 27/01/2025 | Ing. Sistemas | Versión obsoleta con longitud errónea (178 km) y PTC VIRTUAL (HALLUCINATED). |
 
 ---
 **Documento Alineado con el SSOT (DBCD_CRITERIA.md).**

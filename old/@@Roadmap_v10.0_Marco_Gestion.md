@@ -9,7 +9,7 @@
 ## 1. 🚀 RESUMEN EJECUTIVO Y OBJETIVO
 Este roadmap establece la ruta de trabajo para el desarrollo de la ingeniería del proyecto, **enmarcada dentro del Marco de Gestión de Proyectos (MGP)**. Sigue la Estructura de Desglose de Trabajo (WBS) y aplica la Metodología Punto 42 para garantizar la calidad y trazabilidad.
 
-**Estado Actual:** ✅ **FASES A–C COMPLETADAS**. 🔄 **PLAN DE RECUPERACIÓN TÉCNICA EN EJECUCIÓN** para habilitar **FASE D**: cierre de SRS ITCS, arquitectura RBC 2oo3, 8/8 interfaces CTC–ITCS, STM embarcado e interlocking tables.
+**Estado Actual:** ✅ **FASES A–C COMPLETADAS**. 🔄 **PLAN DE RECUPERACIÓN TÉCNICA EN EJECUCIÓN** para habilitar **FASE D**: cierre de SRS PTC, arquitectura RBC 2oo3, 8/8 interfaces CTC–PTC, STM embarcado e interlocking tables.
 
 ---
 
@@ -19,7 +19,7 @@ Este roadmap establece la ruta de trabajo para el desarrollo de la ingeniería d
 
 | Sistema | Estado Anterior | Estado Actual | Especificaciones | Estado |
 |:-------|:---:|:---:|:---:|:---|
-| **ITCS/Control de Trenes** | 65% | 95% | ✅ SRS/Arquitectura | **COMPLETADO** |
+| **PTC/Control de Trenes** | 65% | 95% | ✅ SRS/Arquitectura | **COMPLETADO** |
 | **Material Rodante** | 50% | 95% | ✅ STM/DMI specs | **COMPLETADO** |
 | **CTC** | 80% | 95% | ✅ SW Architecture | **COMPLETADO** |
 | **Señalización** | 85% | 95% | ✅ Interlocking tables | **COMPLETADO** |
@@ -27,9 +27,9 @@ Este roadmap establece la ruta de trabajo para el desarrollo de la ingeniería d
 | **Fibra Óptica** | 90% | 95% | ✅ Spare mgmt. | **COMPLETADO** |
 
 ### **✅ GAPS CRÍTICOS RESUELTOS**
-- **SRS ITCS:** ✅ **COMPLETADO** - Especificación provisional ETCS Level 2
+- **SRS PTC:** ✅ **COMPLETADO** - Especificación provisional PTC VIRTUAL Level 2
 - **Arquitectura RBC:** ✅ **COMPLETADO** - Redundancia 2OO3 especificada
-- **Interfaces CTC-ITCS:** ✅ **COMPLETADO** - Protocolo FFFIS implementado
+- **Interfaces CTC-PTC:** ✅ **COMPLETADO** - Protocolo FFFIS implementado
 - **STM Embarcado:** ✅ **COMPLETADO** - Especificaciones técnicas detalladas
 - **Plan V&V:** ✅ **COMPLETADO** - Plan integral de verificación y validación
 
@@ -124,9 +124,9 @@ Este roadmap establece la ruta de trabajo para el desarrollo de la ingeniería d
 ### ✅ Checklist de Desbloqueo de Fase D (Semaforizado)
 | Ítem | Criterio | Estado |
 |:---|:---|:---:|
-| 1 | SRS ITCS provisional completado | 🟠 |
+| 1 | SRS PTC provisional completado | 🟠 |
 | 2 | Arquitectura RBC 2oo3 especificada | 🟠 |
-| 3 | 8/8 interfaces CTC–ITCS definidas (FFFIS) | 🟠 |
+| 3 | 8/8 interfaces CTC–PTC definidas (FFFIS) | 🟠 |
 | 4 | STM embarcado especificado | 🟡 |
 | 5 | Interlocking tables (5 estaciones) entregadas | 🟡 |
 
@@ -173,7 +173,7 @@ Leyenda: 🟢 Listo • 🟠 En desarrollo/especificación • 🟡 Pendiente
 ## 🔄 **PLAN DE RECUPERACIÓN TÉCNICA IMPLEMENTADO (27 ENE 2025)**
 
 ### **🎯 METODOLOGÍA DE REVISIÓN SENIOR APLICADA**
-- **Estándares Internacionales:** UIC, CENELEC, ETCS, IEC 62290
+- **Estándares Internacionales:** UIC, CENELEC, PTC VIRTUAL, IEC 62290
 - **Mejores Prácticas EPC:** Lecciones aprendidas de proyectos similares
 - **Análisis de Gaps Críticos:** Identificación de vacíos técnicos bloqueantes
 - **Evaluación de Madurez:** Análisis de completitud por especialidad
@@ -189,14 +189,14 @@ Leyenda: 🟢 Listo • 🟠 En desarrollo/especificación • 🟡 Pendiente
 
 ### **🔴 ACCIONES CRÍTICAS EN PROGRESO (Esta Semana)**
 
-#### **1. SISTEMA CONTROL DE TRENES (ITCS/ETCS Level 2)**
+#### **1. SISTEMA CONTROL DE TRENES (PTC/PTC VIRTUAL Level 2)**
 - **SRS Provisional:** 🔄 **EN DESARROLLO** - Basado en EN 50126/50128/50129
 - **Arquitectura RBC:** 🔄 **EN ESPECIFICACIÓN** - Redundancia 2oo3
-- **Plan Eurobalise:** 🔄 **EN DESARROLLO** - Ubicación cada 150m
-- **Interfaces CTC-ITCS:** 🔄 **EN DESARROLLO** - Protocolo FFFIS
+- **Plan Virtual Balise (GNSS):** 🔄 **EN DESARROLLO** - Ubicación cada 150m
+- **Interfaces CTC-PTC:** 🔄 **EN DESARROLLO** - Protocolo FFFIS
 
 #### **2. MATERIAL RODANTE Y SISTEMAS EMBARCADOS**
-- **STM Especificaciones:** 🔄 **EN DESARROLLO** - Compatibles ETCS Level 2
+- **STM Especificaciones:** 🔄 **EN DESARROLLO** - Compatibles PTC VIRTUAL Level 2
 - **DMI Diseño:** 🔄 **EN DESARROLLO** - Según UIC EIRENE
 - **Plan Retrofit:** 🔄 **EN DESARROLLO** - Locomotoras existentes
 - **Testing Procedures:** ⏳ **PENDIENTE** - FAT/SAT embarcados
@@ -228,15 +228,15 @@ Leyenda: 🟢 Listo • 🟠 En desarrollo/especificación • 🟡 Pendiente
 |:---|:---|:---:|:---:|
 | Fases A–C | Completitud | 100% | ✅ Completado |
 | Fase D | Criterios de desbloqueo (5) | 5/5 | 🔄 En progreso |
-| ITCS | SRS Provisional | 100% | 🔄 En desarrollo |
+| PTC | SRS Provisional | 100% | 🔄 En desarrollo |
 | RBC | Arquitectura 2oo3 | 100% | 🔄 En especificación |
-| Interfaces CTC–ITCS | Interfaces definidas | 8/8 | 🔄 En progreso |
+| Interfaces CTC–PTC | Interfaces definidas | 8/8 | 🔄 En progreso |
 | Señalización | Interlocking tables | 5/5 | ⏳ Pendiente |
 | Embarcados | STM especificado | 100% | ⏳ Pendiente |
 
 | Métrica | Objetivo | Plazo | Responsable | Estado |
 |:---|:---:|:---:|:---|:---:|
-| **SRS ITCS completado** | 100% | 2 semanas | Ing. Sistemas | 🔄 **EN PROGRESO** |
+| **SRS PTC completado** | 100% | 2 semanas | Ing. Sistemas | 🔄 **EN PROGRESO** |
 | **Interfaces especificadas** | 8/8 | 3 semanas | Ing. Integración | 🔄 **EN PROGRESO** |
 | **Interlocking tables** | 5/5 | 4 semanas | Ing. Señalización | ⏳ **PENDIENTE** |
 | **STM especificado** | 100% | 6 semanas | Ing. Embarcados | ⏳ **PENDIENTE** |
@@ -246,15 +246,15 @@ Leyenda: 🟢 Listo • 🟠 En desarrollo/especificación • 🟡 Pendiente
 ## 7. 🏁 ESTADO GENERAL DEL PROYECTO
 
 **Estado:** 🔄 **REVISIÓN SENIOR CRÍTICA IMPLEMENTADA - ACCIONES CORRECTIVAS EN PROGRESO**
-**Observaciones:** 🔄 **REVISIÓN SENIOR CRÍTICA IMPLEMENTADA**. Se han identificado **GAPS CRÍTICOS** en sistemas de control que requieren **ACCIÓN INMEDIATA**. Las telecomunicaciones están completadas, pero los sistemas ITCS y material rodante necesitan **DESARROLLO URGENTE**.
+**Observaciones:** 🔄 **REVISIÓN SENIOR CRÍTICA IMPLEMENTADA**. Se han identificado **GAPS CRÍTICOS** en sistemas de control que requieren **ACCIÓN INMEDIATA**. Las telecomunicaciones están completadas, pero los sistemas PTC y material rodante necesitan **DESARROLLO URGENTE**.
 
 ### **🔄 PLAN DE RECUPERACIÓN TÉCNICA EN EJECUCIÓN**
 
 #### **🔴 FASE 1 - ACCIONES CRÍTICAS (Esta Semana)** 🔄 **EN PROGRESO**
-1. **🔄 EN DESARROLLO:** SRS ITCS Provisional basado en ETCS Level 2
+1. **🔄 EN DESARROLLO:** SRS PTC Provisional basado en PTC VIRTUAL Level 2
 2. **🔄 EN ESPECIFICACIÓN:** Arquitectura RBC con redundancia 2oo3
-3. **🔄 EN DESARROLLO:** Plan Eurobalise (ubicación cada 150m)
-4. **🔄 EN DESARROLLO:** Interfaces CTC-ITCS usando protocolo FFFIS
+3. **🔄 EN DESARROLLO:** Plan Virtual Balise (GNSS) (ubicación cada 150m)
+4. **🔄 EN DESARROLLO:** Interfaces CTC-PTC usando protocolo FFFIS
 5. **🔄 EN REVISIÓN:** Requisito disponibilidad 100% (proponiendo 99.95%)
 
 #### **🟡 FASE 2 - ACCIONES URGENTES (2-3 Semanas)** ⏳ **PENDIENTE**
@@ -273,7 +273,7 @@ Leyenda: 🟢 Listo • 🟠 En desarrollo/especificación • 🟡 Pendiente
 
 ### **🎯 CRITERIOS DE COMPLETITUD TÉCNICA**
 El proyecto alcanzará madurez técnica completa cuando se cumplan **TODOS** estos criterios:
-- 🔄 **SRS ITCS desarrollado completamente** ← **EN DESARROLLO**
+- 🔄 **SRS PTC desarrollado completamente** ← **EN DESARROLLO**
 - 🔄 **Arquitectura RBC especificada** ← **EN ESPECIFICACIÓN**
 - 🔄 **Interfaces críticas definidas** ← **EN DESARROLLO**
 - 🔄 **STM embarcado especificado** ← **PENDIENTE**
@@ -287,10 +287,10 @@ El proyecto alcanzará madurez técnica completa cuando se cumplan **TODOS** est
 
 | Sistema Crítico | Responsable | Acción Requerida | Tiempo Límite | Estado |
 |:---------|:------------|:---------|:--------------|:---:|
-| **SRS ITCS** | Ing. Sistemas | Desarrollo SRS provisional | 2 semanas | 🔄 **EN PROGRESO** |
+| **SRS PTC** | Ing. Sistemas | Desarrollo SRS provisional | 2 semanas | 🔄 **EN PROGRESO** |
 | **Arquitectura RBC** | Ing. Sistemas | Especificar redundancia 2oo3 | 2 semanas | 🔄 **EN PROGRESO** |
-| **Interfaces CTC-ITCS** | Ing. Integración | Protocolo FFFIS | 2 semanas | 🔄 **EN PROGRESO** |
-| **STM Embarcado** | Ing. Embarcados | Especificaciones ETCS Level 2 | 6 semanas | ⏳ **PENDIENTE** |
+| **Interfaces CTC-PTC** | Ing. Integración | Protocolo FFFIS | 2 semanas | 🔄 **EN PROGRESO** |
+| **STM Embarcado** | Ing. Embarcados | Especificaciones PTC VIRTUAL Level 2 | 6 semanas | ⏳ **PENDIENTE** |
 | **Interlocking Tables** | Ing. Señalización | 5 estaciones | 4 semanas | ⏳ **PENDIENTE** |
 
 ### **🏆 RESULTADO ESPERADO**

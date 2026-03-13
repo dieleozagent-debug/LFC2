@@ -34,7 +34,7 @@ Documentar formalmente la función técnica y composición del ítem 1.1.106 "In
 - ✅ Agregada **Sección 3.3**: Especificación detallada de IF-07 (líneas 59-85)
   - Descripción como bloque lógico (no hardware único)
   - Composición: Gateways, Switches, Firewalls, Middleware, Licencias
-  - Interfaces soportadas: CTC↔ITCS/ETCS, CTC↔FENOCO, CTC↔TETRA, CTC↔Fibra, CTC↔ITS
+  - Interfaces soportadas: CTC↔PTC/PTC VIRTUAL, CTC↔FENOCO, CTC↔TETRA, CTC↔Fibra, CTC↔ITS
   - Arquitectura redundancia N+1
   - Alcance $150M detallado
   - Riesgos mitigados: R-INT-001, R-INT-002
@@ -49,7 +49,7 @@ Documentar formalmente la función técnica y composición del ítem 1.1.106 "In
 **Cambios aplicados:**
 - ✅ Agregada **Sección 12.4**: Bloque Lógico de Integración Multi-sistema (líneas 555-617)
   - 12.4.1: Descripción del bloque (ítem 1.1.106 - $150M)
-  - 12.4.2: 5 interfaces que soporta (CTC↔ITCS, CTC↔FENOCO, CTC↔TETRA, CTC↔Fibra, CTC↔ITS)
+  - 12.4.2: 5 interfaces que soporta (CTC↔PTC, CTC↔FENOCO, CTC↔TETRA, CTC↔Fibra, CTC↔ITS)
   - 12.4.3: Arquitectura redundancia N+1 (2 activos + 1 standby, failover <1s)
   - 12.4.4: Alcance del presupuesto (incluye/no incluye)
   - 12.4.5: Riesgos mitigados
@@ -59,7 +59,7 @@ Documentar formalmente la función técnica y composición del ítem 1.1.106 "In
 ---
 
 ### 3. **VII. SOPORTE ESPECIALIZADO**
-📁 `VII. Soporte Especializado/VII.2_Especificaciones/VII.2.4_Interfaces_CTC_ITCS_Protocolo_FFFIS.md`
+📁 `VII. Soporte Especializado/VII.2_Especificaciones/VII.2.4_Interfaces_CTC_PTC_Protocolo_FFFIS.md`
 
 **Cambios aplicados:**
 - ✅ Agregada **Sección 2.2**: Gateway Interoperabilidad CTC-FENOCO (líneas 110-199)
@@ -79,7 +79,7 @@ Documentar formalmente la función técnica y composición del ítem 1.1.106 "In
 |:--------|:-------------------|:---------------|:-----------------|
 | **IV.** Ingeniería Básica | 41. Interfaces_Sistemas_MEJORADO.md | IF-07 + §3.3 | Nueva interfaz y especificación |
 | **V.** Ingeniería Detalle | V.2_CTC_v5.0.md | §12.4 (completa) | Bloque lógico integración |
-| **VII.** Soporte Especializado | VII.2.4_Interfaces_CTC_ITCS.md | §2.2 (completa) | Gateway FENOCO UIC 918-4 |
+| **VII.** Soporte Especializado | VII.2.4_Interfaces_CTC_PTC.md | §2.2 (completa) | Gateway FENOCO UIC 918-4 |
 
 **Total archivos actualizados:** 3  
 **Total secciones agregadas:** 3  
@@ -122,7 +122,7 @@ Documentar formalmente la función técnica y composición del ítem 1.1.106 "In
    - Licencias software ✅ (mencionado en 3 docs)
 
 3. ✅ **Interfaces documentadas**
-   - CTC ↔ ITCS/ETCS L2 ✅
+   - CTC ↔ PTC/PTC VIRTUAL L2 ✅
    - CTC ↔ FENOCO (UIC 918-4) ✅
    - CTC ↔ TETRA ✅
    - CTC ↔ Fibra Óptica ✅

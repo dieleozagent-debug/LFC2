@@ -111,8 +111,8 @@ Comunicación con detectores por interfaces dedicadas (generalmente RS-485/Profi
 🔹 3. Comunicación hacia el CTC
 El enclavamiento se conecta al CTC (Control de Tráfico Centralizado) mediante:
 Fibra óptica redundante como canal principal (backbone de comunicaciones).
-Radio TETRA/GSM-R como canal alternativo (Ap. Téc. 3, Cap. VI.2 y 6.8).
-Protocolos usados: ETCS / Eulynx / protocolos propietarios (según proveedor, siempre certificados SIL4).
+Radio TETRA/RED TETRA (Misión Crítica) como canal alternativo (Ap. Téc. 3, Cap. VI.2 y 6.8).
+Protocolos usados: PTC VIRTUAL / Eulynx / protocolos propietarios (según proveedor, siempre certificados SIL4).
 👉 La información que viaja:
 Estado de vía (libre/ocupada).
 Estado de agujas (normal/desviado).
@@ -144,7 +144,7 @@ Cuando el tren sale y el detector libera, el enclavamiento recibe 0 (LIBRE), y e
 Detectores → circuitos de vía o contadores de ejes.
 Protocolo local → RS-485 / Ethernet industrial, SIL4.
 Enclavamiento electrónico → CBI (Computer Based Interlocking).
-Comunicación al CTC → fibra óptica redundante + radio TETRA, protocolos ETCS/Eulynx.
+Comunicación al CTC → fibra óptica redundante + radio TETRA, protocolos PTC VIRTUAL/Eulynx.
 Señales transmitidas → binarias (ocupado/libre), estados (verde/rojo), órdenes de ruta, alarmas.
 
 👉 Esto significa que en este proyecto el EPC debe instalar y probar toda la cadena: detectores en vía + controladores + enclavamientos + red de fibra/radio + CTC central, asegurando redundancia y seguridad (nivel SIL4).
@@ -289,7 +289,7 @@ AF-TC (Audio Frequency Track Circuit) o coded TC en línea abierta y condiciones
 DC/AF-TC de tramos cortos en estaciones/ agujas.
 Juntas aisladas o jointless (según tipo de TC) separan tramos.
 Fail-safe: pérdida de energía, rotura de riel o cableado = estado “OCUPADO”.
-El contrato remite a normas internacionales y compatibilidad con CTC/ITCS, dejando al diseño la selección del esquema de detección SIL4.
+El contrato remite a normas internacionales y compatibilidad con CTC/PTC, dejando al diseño la selección del esquema de detección SIL4.
 
 5) ¿Cómo monitoreo fallos (incluida rotura de riel)?
 Mediciones en sitio: tensión/impedancia en bornes, corriente de vía y prueba de shunt (barra entre rieles) para ver caída instantánea del relé.
@@ -299,8 +299,8 @@ Ap. Téc. 3 (señalización y telemetría) + Ap. Téc. 4 (SICC/registro) estable
 
 6) ¿Cómo se comunica todo (TCP/IP, Wi-Fi, radio, fibra, antenas)?
 Backbone primario: fibra óptica en anillo o rutas redundantes entre casetas y el CCO (CTC).
-Back-up operacional: radio profesional (TETRA; en interoperabilidad futura, GSM-R/FRMCS donde aplique). No se usa Wi-Fi para funciones de seguridad.
-Protocolos: Ethernet/IP a nivel de transporte; las interfaces de seguridad entre CBI y enclavamientos son SIL4 (protocolos ferroviarios/propietarios o EULYNX/ETCS donde aplique).
+Back-up operacional: radio profesional (TETRA; en interoperabilidad futura, RED TETRA (Misión Crítica)/FRMCS donde aplique). No se usa Wi-Fi para funciones de seguridad.
+Protocolos: Ethernet/IP a nivel de transporte; las interfaces de seguridad entre CBI y enclavamientos son SIL4 (protocolos ferroviarios/propietarios o EULYNX/PTC VIRTUAL donde aplique).
 Antenas:
 TETRA: normalmente 1 antena por portadora (con antena de respaldo o diversidad en sitios críticos).
 En fibra no hay antenas; sí ODF y switches/L2-L3 redundantes en casetas.
@@ -412,24 +412,24 @@ El Apéndice Técnico 3 – Especificaciones Técnicas y el Apéndice Técnico 1
 Los sistemas de señalización y CTC se implementen con protocolos compatibles con normas internacionales UIC y AREMA.
 El concesionario debe garantizar interoperabilidad con otros concesionarios férreos en Colombia (ej. FENOCO).
 Esto abre la puerta a usar interfaces estandarizadas:
-EULYNX (Europa) → define interfaces abiertas entre enclavamiento, RBC (ETCS), CTC y campo.
-ETCS/ERTMS (nivel 1 o 2) → permite interoperabilidad tren–tierra con equipos embarcados estandarizados.
+EULYNX (Europa) → define interfaces abiertas entre enclavamiento, RBC (PTC VIRTUAL), CTC y campo.
+PTC VIRTUAL/ERTMS (nivel 1 o 2) → permite interoperabilidad tren–tierra con equipos embarcados estandarizados.
 AREMA (EE. UU.) → lineamientos para circuitos de vía, interlocking y CTC con principios abiertos.
 ¿Cómo se maneja la interoperabilidad?
 En infraestructura fija (CBI–CTC–detectores):
 Lo habitual es que un tramo completo (ej. estación, apartadero) se equipe con un mismo proveedor de enclavamiento y CTC.
 La interoperabilidad se asegura en el nivel superior: el CTC del proyecto debe poder coordinar surcos y trenes con otros CTC vecinos (ej. FENOCO, Red Férrea del Pacífico).
 En trenes (material rodante):
-El contrato obliga a que cada locomotora tenga equipos embarcados de interoperabilidad: ITCS (Interoperable Train Control System), radio TETRA y GPS.
-Esto significa que, aunque el CTC sea propietario, el tren “habla” con tierra usando protocolos normalizados (TETRA, ITCS), garantizando que pueda circular en distintos corredores.
+El contrato obliga a que cada locomotora tenga equipos embarcados de interoperabilidad: PTC (Interoperable Train Control System), radio TETRA y GPS.
+Esto significa que, aunque el CTC sea propietario, el tren “habla” con tierra usando protocolos normalizados (TETRA, PTC), garantizando que pueda circular en distintos corredores.
 A nivel nacional:
-La ANI y la UIC recomiendan que todos los nuevos proyectos férreos en Colombia converjan hacia estándares de ETCS/ERTMS para interoperabilidad a futuro.
+La ANI y la UIC recomiendan que todos los nuevos proyectos férreos en Colombia converjan hacia estándares de PTC VIRTUAL/ERTMS para interoperabilidad a futuro.
 En este contrato, la exigencia es dejar la plataforma preparada para interoperar (ej. interfaces IP seguras, protocolos TETRA, estándares de señalización reconocidos).
 En resumen
 El CTC como software es propietario (cada proveedor tiene el suyo).
-El contrato obliga a que la infraestructura y el material rodante sean compatibles con estándares internacionales (UIC, AREMA, ITCS, ETCS/ERTMS).
+El contrato obliga a que la infraestructura y el material rodante sean compatibles con estándares internacionales (UIC, AREMA, PTC, PTC VIRTUAL/ERTMS).
 La interoperabilidad se logra en el nivel de comunicaciones tren–tierra y en las interfaces entre CTCs de distintos corredores.
-Para Colombia, esto es crítico: un tren de FENOCO debe poder usar surcos en La Dorada–Chiriguaná y viceversa → por eso se exige ITCS + TETRA + GPS en locomotoras.
+Para Colombia, esto es crítico: un tren de FENOCO debe poder usar surcos en La Dorada–Chiriguaná y viceversa → por eso se exige PTC + TETRA + GPS en locomotoras.
 Concepto clave: Interoperabilidad ferroviaria
 Es la capacidad de que un tren de un operador pueda circular por distintos corredores férreos sin importar quién fabricó la señalización o el CTC de cada tramo.
 👉 En nuestro proyecto, esto significa que:
@@ -440,13 +440,13 @@ Un tren del corredor central (carga general) pueda conectarse hacia la Costa.
 Se garantiza en dos niveles principales:
 🔹 A) Comunicaciones Tren – Tierra
 El contrato exige que el material rodante lleve:
-ITCS (Interoperable Train Control System)
+PTC (Interoperable Train Control System)
 Radio TETRA tren–tierra
 GPS y equipos de localización
 👉 Esto significa que cada tren:
 Reporta su posición, identidad y estado al CTC vía TETRA/GPS.
 Recibe órdenes de circulación (ej. “autorización de ruta” o “liberación de surco”).
-Puede circular en distintos corredores, siempre que estos usen TETRA + ITCS.
+Puede circular en distintos corredores, siempre que estos usen TETRA + PTC.
 
 🔹 B) Interfaces entre CTCs
 Cada corredor tiene su propio CTC (propietario). Para que haya interoperabilidad:
@@ -459,7 +459,7 @@ Se usan estándares reconocidos:
 UIC 406 / UIC 407 (gestión de capacidad y surcos).
 EULYNX (Europa, interfaces abiertas CBI–CTC).
 AREMA CTC standards (EE. UU.).
-ETCS/ERTMS mensajes estándar (si se evoluciona a este sistema).
+PTC VIRTUAL/ERTMS mensajes estándar (si se evoluciona a este sistema).
 👉 Ejemplo:
 El CTC de La Dorada–Chiriguaná notifica al CTC de FENOCO:
 “Tren 450 entra en bloque X, surco asignado 12:30”.
@@ -471,7 +471,7 @@ Usar IP/MPLS sobre fibra como backbone entre casetas y CCO.
 Asegurar que cada CBI/CTC pueda exponer interfaces estándar (EULYNX o API propietaria documentada).
 🔸 2. Asegurar compatibilidad en trenes
 Instalar en cada locomotora del proyecto:
-ITCS embarcado (interoperable).
+PTC embarcado (interoperable).
 Radio TETRA con canal de datos y voz.
 GPS con integración al CTC.
 Verificar interoperabilidad con equipos embarcados de terceros (ej. trenes de carbón de FENOCO).
@@ -494,12 +494,12 @@ Validación de asignación/liberación de surcos entre corredores.
 
 📌 4. Obligaciones contractuales clave
 Cláusula 8.2 – Construcción: integrar todos los sistemas de señalización, CTC, fibra y TETRA.
-Cláusula 13.1 – Material Rodante: locomotoras con ITCS, TETRA y GPS.
+Cláusula 13.1 – Material Rodante: locomotoras con PTC, TETRA y GPS.
 Apéndice Técnico 10: obligación de simular y gestionar surcos interoperables.
 
 📌 5. Resumen para el EPC
 ✅ La interoperabilidad NO se garantiza en el software CTC (es propietario).✅ Se garantiza en:
-Trenes equipados con ITCS + TETRA + GPS.
+Trenes equipados con PTC + TETRA + GPS.
 Interfaces IP seguras entre CTCs de distintos corredores.
 Gestión unificada de surcos según UIC/AREMA.
 👉 Esto significa que como EPC debemos:
@@ -511,7 +511,7 @@ Probar interoperabilidad en campo con trenes de terceros.
 Conclusión
 Sí, se pueden usar circuitos de vía en este contrato, pero no son obligatorios en todo el trazado.El contrato exige detección homologada SIL4, lo que permite usar también contadores de ejes.La ingeniería de detalle deberá definir la combinación más eficiente según terreno y compatibilidad con sistemas existentes.
 Caso: Tren de FENOCO entra a La Dorada–Chiriguaná
-Ese tren ya está equipado con ITCS embarcado, radio TETRA y GPS (exigencia de su concesión, y la nuestra también, ver Cl. 13.1 y Apéndice Técnico 6).
+Ese tren ya está equipado con PTC embarcado, radio TETRA y GPS (exigencia de su concesión, y la nuestra también, ver Cl. 13.1 y Apéndice Técnico 6).
 Lo que cambia no es el tren, sino la infraestructura que lo recibe (nuestros detectores, enclavamientos, CTC).
 
 📌 2. ¿Qué lee nuestra infraestructura de ese tren?
@@ -520,20 +520,20 @@ Detección física:
 Lo captamos con nuestros circuitos de vía / contadores de ejes → sabemos que el tren ocupa un bloque.
 Esa info se va a nuestro enclavamiento y CTC.
 Identificación tren–tierra:
-El ITCS del tren emite vía radio TETRA + GPS: identidad, posición, velocidad.
+El PTC del tren emite vía radio TETRA + GPS: identidad, posición, velocidad.
 Nuestro sistema tren–tierra (SICC) recibe esa señal, la integra y la presenta en nuestro CTC.
 Autorización de ruta (surco):
-Nuestro CTC le asigna un surco y manda autorización por radio TETRA → ITCS del tren lo recibe.
+Nuestro CTC le asigna un surco y manda autorización por radio TETRA → PTC del tren lo recibe.
 El tren queda “enganchado” a nuestra red de control, aunque sea de un operador externo.
 
 📌 3. ¿Qué no hacemos?
 No “entramos” en el software propietario de FENOCO ni en su CTC de Santa Marta.
 No tenemos sus protocolos internos de enclavamiento–CTC.
-Lo que hacemos es leer lo estándar que emite el tren (ITCS/TETRA/GPS) y responder con mensajes de autorización/orden también estándar.
+Lo que hacemos es leer lo estándar que emite el tren (PTC/TETRA/GPS) y responder con mensajes de autorización/orden también estándar.
 
 📌 4. Entonces, ¿cómo se conecta?
 Interoperabilidad tren–tierra:
-El tren con ITCS se conecta automáticamente a la infraestructura de radio TETRA de nuestro corredor.
+El tren con PTC se conecta automáticamente a la infraestructura de radio TETRA de nuestro corredor.
 El CTC nuestro interpreta esa señal como cualquier tren del proyecto.
 Interoperabilidad CTC–CTC:
 Cuando el tren sale hacia el dominio de FENOCO, nuestro CTC transmite al CTC de FENOCO un mensaje de traspaso:
@@ -543,38 +543,38 @@ Así, FENOCO vuelve a tomar control del tren desde su propio CTC.
 
 📌 5. Analogía
 Es como un avión internacional ✈️:
-La aeronave (tren) trae su propio transponder (ITCS).
+La aeronave (tren) trae su propio transponder (PTC).
 Cuando entra a espacio aéreo colombiano (nuestro corredor), la torre de control (nuestro CTC) lo ve en radar (detectores) y recibe su señal (TETRA/GPS).
 Nosotros le damos instrucciones hasta que sale.
 Al pasar a espacio aéreo venezolano (FENOCO), pasamos la ficha y otra torre toma el control.
 
 📌 6. En conclusión
 ✅ No necesitas protocolos propietarios de FENOCO.✅ Lo que debes hacer como EPC es:
-Instalar radio TETRA y sistema tren–tierra compatible con ITCS.
+Instalar radio TETRA y sistema tren–tierra compatible con PTC.
 Configurar el CTC para leer la info estándar del tren: ID, posición, velocidad, estado.
-Asignar surcos y mandar autorizaciones vía TETRA–ITCS.
+Asignar surcos y mandar autorizaciones vía TETRA–PTC.
 Habilitar gateway CTC–CTC para transferir control cuando el tren pasa a otro concesionario.
 En la Cláusula 13.1 – Material Rodante y sus apéndices se establece que:
 “El Concesionario deberá garantizar que el material rodante cuente con el equipamiento técnico embarcado necesario para la interoperabilidad del sistema férreo, incluyendo los equipos de control, comunicación y localización exigidos en los Apéndices Técnicos.”
 Y en el Apéndice Técnico 1 y 6 se especifica que:
-Las locomotoras del proyecto deben llevar equipos embarcados ITCS,
+Las locomotoras del proyecto deben llevar equipos embarcados PTC,
 Radio TETRA tren–tierra,
 GPS para localización.
-Es decir: nuestro contrato sí obliga a que el material rodante nuevo o del concesionario use ITCS + TETRA + GPS.
+Es decir: nuestro contrato sí obliga a que el material rodante nuevo o del concesionario use PTC + TETRA + GPS.
 ¿Qué pasa con los trenes de FENOCO?
-Aunque en los documentos cargados no aparece una cláusula que diga explícitamente “FENOCO usa ITCS”, en la práctica sí es así:
-El corredor FENOCO (Chiriguaná–Santa Marta) opera bajo contrato de concesión previo y adoptó ITCS de Alstom como estándar de control embarcado.
-Esto es información pública y técnica de FENOCO: sus trenes de carbón están equipados con ITCS embarcado + TETRA + GPS para interoperar con su CTC en Santa Marta.
+Aunque en los documentos cargados no aparece una cláusula que diga explícitamente “FENOCO usa PTC”, en la práctica sí es así:
+El corredor FENOCO (Chiriguaná–Santa Marta) opera bajo contrato de concesión previo y adoptó PTC de Alstom como estándar de control embarcado.
+Esto es información pública y técnica de FENOCO: sus trenes de carbón están equipados con PTC embarcado + TETRA + GPS para interoperar con su CTC en Santa Marta.
 
-📌 3. El problema: ITCS es propietario (Alstom)
-Tienes razón ⚡: ITCS (Incremental Train Control System) es de Alstom y es propietario.
-Significa que si contratamos a otro fabricante para señalización/CTC, tenemos que garantizar que ese sistema pueda hablar con trenes ITCS existentes.
+📌 3. El problema: PTC es propietario (Alstom)
+Tienes razón ⚡: PTC (Incremental Train Control System) es de Alstom y es propietario.
+Significa que si contratamos a otro fabricante para señalización/CTC, tenemos que garantizar que ese sistema pueda hablar con trenes PTC existentes.
 
 📌 4. Cómo cumplir interoperabilidad sin depender solo de Alstom
 Capa tren–tierra:
-Los trenes de FENOCO seguirán usando su ITCS embarcado.
+Los trenes de FENOCO seguirán usando su PTC embarcado.
 Lo importante es que nuestra infraestructura tenga interfaces abiertas vía TETRA y GPS.
-Así, aunque el tren use ITCS de Alstom, nosotros podemos recibir su identidad y posición, y mandarle autorizaciones.
+Así, aunque el tren use PTC de Alstom, nosotros podemos recibir su identidad y posición, y mandarle autorizaciones.
 Capa CTC–CTC:
 Nuestro CTC (de cualquier proveedor) debe tener un gateway que hable con el CTC de FENOCO (Alstom).
 Esto puede hacerse vía API o protocolos estandarizados (EULYNX, UIC, AREMA).
@@ -587,69 +587,69 @@ Lectura de GPS embarcado.
 Gateway CTC–CTC para handover con FENOCO.
 
 📌 5. Resumen
-✅ El contrato obliga a que nuestro material rodante tenga ITCS + TETRA + GPS.✅ FENOCO ya usa ITCS de Alstom, por lo que sus trenes entran con esa tecnología.✅ No estamos obligados a contratar Alstom para la vía, pero sí a garantizar interoperabilidad, lo cual se logra con:
-Infraestructura compatible con ITCS vía TETRA/GPS.
+✅ El contrato obliga a que nuestro material rodante tenga PTC + TETRA + GPS.✅ FENOCO ya usa PTC de Alstom, por lo que sus trenes entran con esa tecnología.✅ No estamos obligados a contratar Alstom para la vía, pero sí a garantizar interoperabilidad, lo cual se logra con:
+Infraestructura compatible con PTC vía TETRA/GPS.
 Un gateway de interoperabilidad CTC–CTC.
-¿Puedes elegir un CTC “genérico” y ser interoperable con ITCS de Alstom?
+¿Puedes elegir un CTC “genérico” y ser interoperable con PTC de Alstom?
 CTC “100% genérico” (vendor-agnostic) hoy no es la práctica común. Los CTC comerciales son propietarios (Alstom ICONIS/TMS, Siemens Controlguide, Thales CTC1000, Hitachi Rail/Ansaldo TMS). La interoperabilidad se logra con pasarelas (gateways) e interfaces estándar entre sistemas (CTC-CTC y tren-tierra), no porque el CTC sea genérico. assets.new.siemens.com+2thalesgroup.com+2
-Vía estándar: adoptar interfaces abiertas (EULYNX para campo/IXL-CTC, ETCS/ERTMS para tren-tierra) y exigir al proveedor gateways probados para convivir con ITCS (Alstom) y con otros PTC (p. ej., I-ETMS de Wabtec). EULYNX+1
+Vía estándar: adoptar interfaces abiertas (EULYNX para campo/IXL-CTC, PTC VIRTUAL/ERTMS para tren-tierra) y exigir al proveedor gateways probados para convivir con PTC (Alstom) y con otros PTC (p. ej., I-ETMS de Wabtec). EULYNX+1
 ¿Quién ya lo tiene “resuelto” (referencias reales)?
-Estados Unidos (PTC): allí coexisten tres PTC: ITCS (Alstom), ACSES (Alstom/NEC) e I-ETMS (Wabtec). La interoperabilidad se logró con gateways y doble radio/wayside, integrando CTC de distinto proveedor:
-Amtrak (Michigan) opera ITCS y es interoperable con Norfolk Southern (I-ETMS de Wabtec) usando dos radios y un dispositivo de interfaz tipo gateway en via/wayside que conecta ambos al sistema de control/CTC. Amtrak Media+1
-La FRA documenta la interoperabilidad ACSES ↔ I-ETMS mediante acuerdos técnicos y pruebas de interoperabilidad; el modelo es aplicable a ITCS ↔ I-ETMS en la capa de interfaces/gateway. railroads.dot.gov+1
-Wabtec (I-ETMS + TMDS como CTC/CAD) vende soluciones de despacho/CTC “agnósticas” con módulos para integrar PTC disímiles (I-ETMS nativo y pasarelas hacia ACSES/ITCS). Esto da evidencia de gateways operativos en red mixta. Wabtec Corporation+2Wabtec Corporation+2
+Estados Unidos (PTC): allí coexisten tres PTC: PTC (Alstom), ACSES (Alstom/NEC) e I-ETMS (Wabtec). La interoperabilidad se logró con gateways y doble radio/wayside, integrando CTC de distinto proveedor:
+Amtrak (Michigan) opera PTC y es interoperable con Norfolk Southern (I-ETMS de Wabtec) usando dos radios y un dispositivo de interfaz tipo gateway en via/wayside que conecta ambos al sistema de control/CTC. Amtrak Media+1
+La FRA documenta la interoperabilidad ACSES ↔ I-ETMS mediante acuerdos técnicos y pruebas de interoperabilidad; el modelo es aplicable a PTC ↔ I-ETMS en la capa de interfaces/gateway. railroads.dot.gov+1
+Wabtec (I-ETMS + TMDS como CTC/CAD) vende soluciones de despacho/CTC “agnósticas” con módulos para integrar PTC disímiles (I-ETMS nativo y pasarelas hacia ACSES/PTC). Esto da evidencia de gateways operativos en red mixta. Wabtec Corporation+2Wabtec Corporation+2
 Europa (interfaces abiertas CTC/IXL):
-EULYNX estandariza interfaces CTC–enclavamiento (SCI/SDI). Alstom, Hitachi y Thales implementan Argos/EULYNX; SNCF y Finlandia (FTIA) reportan proyectos con CTC moderno controlando interlockings de distintos proveedores/tecnologías vía interfaces abiertas. Esto prueba CTC multi-vendor mediante estándar, aunque no trate ITCS (que es PTC norteamericano). EULYNX+1
+EULYNX estandariza interfaces CTC–enclavamiento (SCI/SDI). Alstom, Hitachi y Thales implementan Argos/EULYNX; SNCF y Finlandia (FTIA) reportan proyectos con CTC moderno controlando interlockings de distintos proveedores/tecnologías vía interfaces abiertas. Esto prueba CTC multi-vendor mediante estándar, aunque no trate PTC (que es PTC norteamericano). EULYNX+1
 Colombia (FENOCO):
-FENOCO publica que su operación usa ITCS (señalización virtual + control positivo de velocidad) y radio TETRA; hay caso de Teltronic para TETRA en la línea Chiriguaná–Santa Marta. Esto confirma el stack tren-tierra al que debes interconectar. fenoco.com.co+2teltronic.es+2
+FENOCO publica que su operación usa PTC (señalización virtual + control positivo de velocidad) y radio TETRA; hay caso de Teltronic para TETRA en la línea Chiriguaná–Santa Marta. Esto confirma el stack tren-tierra al que debes interconectar. fenoco.com.co+2teltronic.es+2
 Qué pedir al proveedor (checklist técnico para licitar)
-Prueba de interoperabilidad previa (“referenceable”) con ITCS de Alstom o con ecosistemas mixtos PTC (ITCS/ACSES/I-ETMS), documentada por cliente/autoridad. Usa como patrón los modelos FRA. railroads.dot.gov+1
+Prueba de interoperabilidad previa (“referenceable”) con PTC de Alstom o con ecosistemas mixtos PTC (PTC/ACSES/I-ETMS), documentada por cliente/autoridad. Usa como patrón los modelos FRA. railroads.dot.gov+1
 Gateway CTC–CTC y/o wayside con:
 Traducción de mensajes de autoridad de movimiento/surcos/estado entre oficinas de control.
-Doble portadora o doble radio cuando aplique (caso ITCS↔I-ETMS) y API segura para intercambio con CTC de terceros. Wikipedia
+Doble portadora o doble radio cuando aplique (caso PTC↔I-ETMS) y API segura para intercambio con CTC de terceros. Wikipedia
 Backbone IP/MPLS y SFP hasta cada nodo crítico (casetas/IXL), con redundancia de FO y respaldo TETRA para tren-tierra (lo que usa FENOCO). teltronic.es+1
 Alineamiento a estándares:
 EULYNX para interfaces CTC↔IXL (futuro-prueba multi-vendor).
-ETCS/ERTMS si se planifica evolución (interoperabilidad tren-tierra futura). EULYNX+1
+PTC VIRTUAL/ERTMS si se planifica evolución (interoperabilidad tren-tierra futura). EULYNX+1
 Plan de pruebas: laboratorio (HIL) + piloto en frontera operacional (Chiriguaná) con tren de FENOCO: registro de handover, mensajes, latencias y fallos.
 Proveedores a invitar (con razones)
-Wabtec (TMDS + I-ETMS): mayor base instalada PTC en carga; experiencia de interop con ITCS/ACSES vía gateways; CTC (TMDS) integrable. Wabtec Corporation+1
+Wabtec (TMDS + I-ETMS): mayor base instalada PTC en carga; experiencia de interop con PTC/ACSES vía gateways; CTC (TMDS) integrable. Wabtec Corporation+1
 Siemens Mobility (Controlguide): CTC/TMS global, proyectos EULYNX y amplia experiencia multi-vendor en interfaces abiertas (CTC–IXL). assets.new.siemens.com+1
-Thales (CTC1000 / TMS): CTC modular con despliegues ETCS/EULYNX y casos de interoperabilidad transfronteriza (estándares abiertos). thalesgroup.com+1
+Thales (CTC1000 / TMS): CTC modular con despliegues PTC VIRTUAL/EULYNX y casos de interoperabilidad transfronteriza (estándares abiertos). thalesgroup.com+1
 Hitachi Rail (ex-Ansaldo STS): TMS/ERTMS con contratos masivos de digitalización en Italia y otros países; trabaja en Argos/EULYNX. hitachi.com
-Alstom (ICONIS/TMS + ITCS): opción “nativa” con menor fricción hacia FENOCO si deseas acoplarte directamente a su stack ITCS. alstom.com+1
+Alstom (ICONIS/TMS + PTC): opción “nativa” con menor fricción hacia FENOCO si deseas acoplarte directamente a su stack PTC. alstom.com+1
 Nota: no hay evidencia pública de un “CTC neutral” listo que reemplace gateways; la vía comprobada es CTC comercial + interfaces estándar + gateway validado en laboratorio y campo (modelo FRA/US). railroads.dot.gov
 Recomendación práctica para la APP La Dorada–Chiriguaná
-Estrategia dual: exigir EULYNX (CTC–IXL) para futuro multi-vendor y un gateway PTC con referencias ITCS↔(tu CTC).
-Pliego técnico: cláusula de “interoperabilidad probada” (evidencia de proyectos; p. ej. interop con Amtrak ITCS o con railroads I-ETMS coexistiendo con ITCS). Amtrak Media+1
+Estrategia dual: exigir EULYNX (CTC–IXL) para futuro multi-vendor y un gateway PTC con referencias PTC↔(tu CTC).
+Pliego técnico: cláusula de “interoperabilidad probada” (evidencia de proyectos; p. ej. interop con Amtrak PTC o con railroads I-ETMS coexistiendo con PTC). Amtrak Media+1
 Frontera con FENOCO: diseñar punto de handover con doble radio y dispositivo de interfaz (si aplica) + API CTC-CTC para traspaso de surcos y estados. Wikipedia
 TETRA: mantener compatibilidad operativa con la red TETRA de FENOCO (confirmada públicamente)
-¿Tu idea funciona tal cual- dobre radio en cada locomotora, pero el ITCS sin todas las señales vitales?
-Parcialmente. Puedes elegir cualquier proveedor de CTC para La Dorada–Chiriguaná y equipar nuestro material rodante con ITCS + TETRA + GPS (eso lo exige el contrato). Pero hay un matiz clave:
-Si solo recibes “telemetría básica” (posición/ID por TETRA/GPS) sin una interfaz formal de autorizaciones de movimiento entre tu CTC y el ITCS de los trenes (propios o de terceros), no tendrás funciones vitales (p. ej., aplicación automática de freno por sobrevelocidad/robo de señal, “enforcement”). Eso queda en “conciencia situacional”, no en control seguro.
-Para tener interoperabilidad plena y segura (vital), necesitas una pasarela / gateway (o interfaz documentada) que permita que tu CTC emita órdenes/autorizaciones que el ITCS entienda (y viceversa, en traspasos de control con otros CTC). Esto es coherente con la obligación contractual de integrar señalización–CTC–comunicaciones para operar surcos con terceros.
+¿Tu idea funciona tal cual- dobre radio en cada locomotora, pero el PTC sin todas las señales vitales?
+Parcialmente. Puedes elegir cualquier proveedor de CTC para La Dorada–Chiriguaná y equipar nuestro material rodante con PTC + TETRA + GPS (eso lo exige el contrato). Pero hay un matiz clave:
+Si solo recibes “telemetría básica” (posición/ID por TETRA/GPS) sin una interfaz formal de autorizaciones de movimiento entre tu CTC y el PTC de los trenes (propios o de terceros), no tendrás funciones vitales (p. ej., aplicación automática de freno por sobrevelocidad/robo de señal, “enforcement”). Eso queda en “conciencia situacional”, no en control seguro.
+Para tener interoperabilidad plena y segura (vital), necesitas una pasarela / gateway (o interfaz documentada) que permita que tu CTC emita órdenes/autorizaciones que el PTC entienda (y viceversa, en traspasos de control con otros CTC). Esto es coherente con la obligación contractual de integrar señalización–CTC–comunicaciones para operar surcos con terceros.
 El contrato te da libertad de proveedor, pero te exige interoperabilidad efectiva del material rodante y de los sistemas (señalización/CTC/comunicaciones) bajo normas internacionales, no necesariamente comprar el mismo fabricante.
 
 Dos escenarios (y por qué el 1 no alcanza)
 1) Interoperabilidad “básica” (solo lectura)
 Qué haces: detectores de vía + TETRA/GPS → tu CTC ve el tren (propio o de FENOCO) y lo despacha operativamente.
-Qué no tienes: vitales en cabina (no puedes hacer cumplir velocidad/autoridad desde tierra en ese tren por vía ITCS).
+Qué no tienes: vitales en cabina (no puedes hacer cumplir velocidad/autoridad desde tierra en ese tren por vía PTC).
 Riesgo: ante incumplimiento de señales/velocidad, dependes del maquinista. Difícil cumplir indicadores de seguridad/disponibilidad del Ap. Téc. 4 si crece el tráfico mixto.
 2) Interoperabilidad “plena/vital” (recomendada)
-Qué haces: agregas gateway CTC–ITCS (o CTC–CTC) con mensajería formal de autoridad de movimiento/velocidades.
-Qué obtienes: enforcement en cabina vía ITCS (frenado si se excede) también dentro de tu corredor; y traspaso ordenado con el CTC vecino (p. ej., FENOCO en Chiriguaná) para los surcos.
+Qué haces: agregas gateway CTC–PTC (o CTC–CTC) con mensajería formal de autoridad de movimiento/velocidades.
+Qué obtienes: enforcement en cabina vía PTC (frenado si se excede) también dentro de tu corredor; y traspaso ordenado con el CTC vecino (p. ej., FENOCO en Chiriguaná) para los surcos.
 Resultado: cumples interoperabilidad real y seguridad contractual (señalización/CTC/comunicaciones integrados).
 Conclusión: sí es viable elegir cualquier CTC siempre que exijas/contrates la pasarela de interoperabilidad. “Evitar gateways” te deja sin capa vital; eso no es lo que el contrato espera cuando habla de operación segura con terceros.
 
 ¿Qué pasa cuando el tren “salta” a FENOCO (o entra desde FENOCO)?
-Nuestro tren (con ITCS) → al llegar a frontera, tu CTC transfiere autoridad/surco al CTC FENOCO mediante la API/pasarela; el tren sigue con ITCS vital en su red.
-Tren de FENOCO (con ITCS) entrando → tu CTC necesita entender y emitir mensajes que el ITCS reconozca para mantener funciones vitales; si no hay interfaz, te quedas en “solo lectura”.Esto no exige comprar el mismo CTC que FENOCO, pero sí tener interfaz formal (gateway) y procedimientos de traspaso. El contrato te exige justamente esa integración operacional y de surcos.
+Nuestro tren (con PTC) → al llegar a frontera, tu CTC transfiere autoridad/surco al CTC FENOCO mediante la API/pasarela; el tren sigue con PTC vital en su red.
+Tren de FENOCO (con PTC) entrando → tu CTC necesita entender y emitir mensajes que el PTC reconozca para mantener funciones vitales; si no hay interfaz, te quedas en “solo lectura”.Esto no exige comprar el mismo CTC que FENOCO, pero sí tener interfaz formal (gateway) y procedimientos de traspaso. El contrato te exige justamente esa integración operacional y de surcos.
 
 Checklist EPC (mínimo imprescindible para licitar/comprar)
-Material rodante (nuestro): ITCS + TETRA + GPS, conforme a Cl. 13.1.
+Material rodante (nuestro): PTC + TETRA + GPS, conforme a Cl. 13.1.
 CTC (proveedor libre) + enclavamientos + detección integrados, como exige Ap. Téc. 3 y Cl. 8.2.
 Gateway:
-CTC↔ITCS (para trenes en tu dominio) y/o CTC↔CTC (para traspaso con FENOCO), con trazabilidad de surcos del Ap. Téc. 10.
+CTC↔PTC (para trenes en tu dominio) y/o CTC↔CTC (para traspaso con FENOCO), con trazabilidad de surcos del Ap. Téc. 10.
 Seguridad: cifrado, registro (SICC/Logs), sincronización de reloj.
 Telecom: Fibra óptica como backbone + TETRA tren–tierra como exige Ap. Téc. 3.
 Pruebas: piloto en frontera operacional (Chiriguaná) con tren real de tercero → handover, enforcement, tiempos de latencia, alarmas; evidencias para Interventoría (Ap. Téc. 4).
@@ -662,52 +662,52 @@ El contrato te respalda exigir integración e interoperabilidad (no “marca”)
 
 
 1) ¿Qué debe tener el “controlador del tren” (OBU)?
-El contrato exige que el material rodante incorpore equipos embarcados para interoperabilidad: ITCS, radio TETRA tren–tierra y GPS/localización. Además, el Ap. Téc. 3 obliga a integrar señalización/CTC/comunicaciones (fibra, radio TETRA) a nivel de sistema.Con esto, el OBU mínimo debe aportar, funcionalmente, control/seguridad + comunicaciones + posicionamiento para que el CTC pueda autorizar, supervisar, trazar y registrar la circulación, en línea con los indicadores de servicio y trazabilidad (SICC) del Ap. Téc. 4.
+El contrato exige que el material rodante incorpore equipos embarcados para interoperabilidad: PTC, radio TETRA tren–tierra y GPS/localización. Además, el Ap. Téc. 3 obliga a integrar señalización/CTC/comunicaciones (fibra, radio TETRA) a nivel de sistema.Con esto, el OBU mínimo debe aportar, funcionalmente, control/seguridad + comunicaciones + posicionamiento para que el CTC pueda autorizar, supervisar, trazar y registrar la circulación, en línea con los indicadores de servicio y trazabilidad (SICC) del Ap. Téc. 4.
 En términos contractuales, el OBU debe incluir al menos:
-ITCS embarcado (equipo de control para interoperabilidad).
+PTC embarcado (equipo de control para interoperabilidad).
 Radio TETRA tren–tierra (voz/datos operativos).
 GPS u otro medio de localización integrable al CTC/SICC.
 Interfaces con tierra/CTC acordes a las normas internacionales que el contrato ordena aplicar (UIC/AREMA), y a la arquitectura de comunicaciones (FO/TETRA) del proyecto.
-Nota: el contrato fija qué capacidades deben existir (ITCS + TETRA + GPS + integración CTC), pero no prescribe marcas. Esa integración se convierte en requisito de diseño e implantación bajo Cl. 8.2 Construcción (montaje e integración de sistemas).
+Nota: el contrato fija qué capacidades deben existir (PTC + TETRA + GPS + integración CTC), pero no prescribe marcas. Esa integración se convierte en requisito de diseño e implantación bajo Cl. 8.2 Construcción (montaje e integración de sistemas).
 
-2) ¿Puedo ir con un CTC (ej. Thales) y un OBU “propio”, y usar ITCS solo como pasarela hacia FENOCO?
-Clave contractual: el ITCS embarcado es obligatorio en nuestro material rodante. Por tanto, no es aceptable dejar el ITCS como “solo pasarela externa”; debe estar instalado y funcional en el tren.Lo que sí permite el contrato es que el CTC sea de cualquier proveedor, siempre que:
+2) ¿Puedo ir con un CTC (ej. Thales) y un OBU “propio”, y usar PTC solo como pasarela hacia FENOCO?
+Clave contractual: el PTC embarcado es obligatorio en nuestro material rodante. Por tanto, no es aceptable dejar el PTC como “solo pasarela externa”; debe estar instalado y funcional en el tren.Lo que sí permite el contrato es que el CTC sea de cualquier proveedor, siempre que:
 Integre señalización/detección/pasos a nivel/comunicaciones (FO/TETRA).
-Hable con el ITCS a bordo en nuestro dominio (CTC↔ITCS) para autorizaciones, supervisión y trazabilidad; y
+Hable con el PTC a bordo en nuestro dominio (CTC↔PTC) para autorizaciones, supervisión y trazabilidad; y
 Intercambie información con el CTC de FENOCO en el traspaso (CTC↔CTC) para surcos/hand-over conforme al Ap. Téc. 10.
 Arquitectura válida contractualmente (resumen):
 CTC (proveedor A) ↔ Infraestructura (enclavamientos, detectores) ↔ FO/TETRA.
-CTC (A) ↔ ITCS (a bordo) para operación en nuestro corredor (CTC↔ITCS).
+CTC (A) ↔ PTC (a bordo) para operación en nuestro corredor (CTC↔PTC).
 CTC (A) ↔ CTC FENOCO para traspaso (CTC↔CTC) y trazabilidad de surcos (Ap. Téc. 10).
-En síntesis: sí puedes escoger, por ejemplo, Thales (CTC) y mantener ITCS en el tren. Lo imprescindible es contratar/implantar la interfaz (gateway) para CTC↔ITCS en nuestro dominio y CTC↔CTC en frontera; esto no es “opcional”, es la vía para cumplir interoperabilidad y surcos que exige el Ap. Téc. 10 y la integración de sistemas de la Cl. 8.2.
+En síntesis: sí puedes escoger, por ejemplo, Thales (CTC) y mantener PTC en el tren. Lo imprescindible es contratar/implantar la interfaz (gateway) para CTC↔PTC en nuestro dominio y CTC↔CTC en frontera; esto no es “opcional”, es la vía para cumplir interoperabilidad y surcos que exige el Ap. Téc. 10 y la integración de sistemas de la Cl. 8.2.
 
-3) ¿Me “obligan indirectamente” a CTC-ITCS?
-No a comprar un CTC ITCS, pero sí a tener ITCS funcional en el tren y a integrarlo con tu CTC. El Ap. Téc. 10 distingue dos planos: CTC↔ITCS (en casa) y CTC↔CTC (frontera FENOCO), con trazabilidad de surcos; esa distinción te habilita a elegir CTC y te obliga a integrar.
+3) ¿Me “obligan indirectamente” a CTC-PTC?
+No a comprar un CTC PTC, pero sí a tener PTC funcional en el tren y a integrarlo con tu CTC. El Ap. Téc. 10 distingue dos planos: CTC↔PTC (en casa) y CTC↔CTC (frontera FENOCO), con trazabilidad de surcos; esa distinción te habilita a elegir CTC y te obliga a integrar.
 
 4) Requisitos mínimos que debes llevar a pliego (EPC)
-OBU: ITCS embarcado + radio TETRA + GPS (obligatorio).
-CTC (marca libre) con interfaces abiertas hacia:a) ITCS a bordo para autorizaciones/trazabilidad (CTC↔ITCS);b) CTC FENOCO para hand-over y surcos (CTC↔CTC);c) FO/TETRA conforme Ap. Téc. 3 (comunicaciones).
+OBU: PTC embarcado + radio TETRA + GPS (obligatorio).
+CTC (marca libre) con interfaces abiertas hacia:a) PTC a bordo para autorizaciones/trazabilidad (CTC↔PTC);b) CTC FENOCO para hand-over y surcos (CTC↔CTC);c) FO/TETRA conforme Ap. Téc. 3 (comunicaciones).
 Pruebas de interoperabilidad en frontera (Chiriguaná): hand-over, tiempos de latencia, consistencia de surcos, registro en SICC (Ap. Téc. 4).
 Cláusulas de O&M y reversión: mantenimiento/actualización durante la concesión y licencias transferibles al final (Cl. 14.1 y 15.1).
 
 Decisión práctica
-Sí puedes ir con Thales CTC (u otro), siempre que en el tren esté ITCS y contrates la pasarela que garantice CTC↔ITCS (en nuestro dominio) y CTC↔CTC (con FENOCO) para surcos.
+Sí puedes ir con Thales CTC (u otro), siempre que en el tren esté PTC y contrates la pasarela que garantice CTC↔PTC (en nuestro dominio) y CTC↔CTC (con FENOCO) para surcos.
 “Quedarse solo con lectura básica por TETRA/GPS” no alcanza para el nivel de control/trazabilidad que el contrato exige para operación segura y para los indicadores.
 
 Qué hacer para no implementar los ITSC Enel material rodante?
-Entiendo tu situación: el contrato sí exige que el material rodante tenga equipos embarcados ITCS (Interoperable Train Control System), pero el proveedor principal (Alstom) está fuera de presupuesto. Veamos lo que dice el contrato:
+Entiendo tu situación: el contrato sí exige que el material rodante tenga equipos embarcados PTC (Interoperable Train Control System), pero el proveedor principal (Alstom) está fuera de presupuesto. Veamos lo que dice el contrato:
 
 📌 Lo que ordena el contrato
 Cláusula 13.1 – Material Rodante:“El Concesionario deberá garantizar que el material rodante cuente con el equipamiento técnico embarcado necesario para la interoperabilidad del sistema férreo, incluyendo los equipos de control, comunicación y localización exigidos en los Apéndices Técnicos”.
-Apéndice Técnico 1 – Cap. V, 5.1 a 5.3: exige que las locomotoras del proyecto y el material rodante de calidad vengan equipados con ITCS, radio TETRA, GPS y comunicaciones tren–tierra.
-Apéndice Técnico 3 – Cap. III y VIII (8.10): detalla que el ITCS es obligatorio para interoperabilidad con la red FENOCO y debe estar embarcado en locomotoras y vagones.
-Apéndice Técnico 10 – Cap. III: condiciona la asignación de surcos y la entrada en operación a que el material rodante tenga ITCS plenamente operativo.
+Apéndice Técnico 1 – Cap. V, 5.1 a 5.3: exige que las locomotoras del proyecto y el material rodante de calidad vengan equipados con PTC, radio TETRA, GPS y comunicaciones tren–tierra.
+Apéndice Técnico 3 – Cap. III y VIII (8.10): detalla que el PTC es obligatorio para interoperabilidad con la red FENOCO y debe estar embarcado en locomotoras y vagones.
+Apéndice Técnico 10 – Cap. III: condiciona la asignación de surcos y la entrada en operación a que el material rodante tenga PTC plenamente operativo.
 
 📌 Implicaciones contractuales
-No es opcional: el verbo “deberá” implica obligación. El EPC no puede prescindir del ITCS.
+No es opcional: el verbo “deberá” implica obligación. El EPC no puede prescindir del PTC.
 No está atado a una marca específica (Alstom):El contrato pide interoperabilidad funcional (con FENOCO y el CTC), no un fabricante en particular.
 Esto abre la puerta a equipos equivalentes o integraciones homologadas, siempre que cumplan los protocolos técnicos.
-Riesgo de incumplimiento: si el EPC intenta entrar en operación sin ITCS, la ANI y la interventoría pueden:
+Riesgo de incumplimiento: si el EPC intenta entrar en operación sin PTC, la ANI y la interventoría pueden:
 Bloquear la recepción de material rodante.
 Aplicar penalidades (Cl. 16.1 – Multas).
 Reportar incumplimiento grave (riesgo de caducidad si persiste).
@@ -722,16 +722,16 @@ Se puede pedir a la ANI, vía comité de seguimiento, una modificación técnica
 Esto debe apoyarse en el principio de equilibrio económico (Ley 1508 de 2012, art. 27).
 
 MATRIZ DE EVALUACIÓN DE PROVEEDORES
-Sistemas PTC/Train Control Interoperables con ITCS - APP La Dorada-Chiriguaná
+Sistemas PTC/Train Control Interoperables con PTC - APP La Dorada-Chiriguaná
 
 CRITERIOS DE EVALUACIÓN
 Criterio
 Peso
 Descripción
 
-Interoperabilidad ITCS
+Interoperabilidad PTC
 25%
-Capacidad probada de interoperar con ITCS de Alstom
+Capacidad probada de interoperar con PTC de Alstom
 
 Cumplimiento Contractual
 20%
@@ -766,9 +766,9 @@ Criterio
 Puntos
 Justificación
 
-Interoperabilidad ITCS
+Interoperabilidad PTC
 23/25
-✅ Interoperabilidad PROBADA: Amtrak (ITCS) ↔ Norfolk Southern (I-ETMS) desde 2008<br>✅ Doble radio y gateway operativo documentado por FRA<br>✅ Usado por todos los Class I: BNSF, UP, NS, CSX
+✅ Interoperabilidad PROBADA: Amtrak (PTC) ↔ Norfolk Southern (I-ETMS) desde 2008<br>✅ Doble radio y gateway operativo documentado por FRA<br>✅ Usado por todos los Class I: BNSF, UP, NS, CSX
 
 Cumplimiento Contractual
 20/20
@@ -780,7 +780,7 @@ Criterio
 
 Costo-Beneficio
 12/15
-✅ Solución completa (onboard + wayside + CTC/TMDS)<br>✅ Precio competitivo vs. ITCS Alstom<br>⚠️ Requiere gateway para interoperabilidad
+✅ Solución completa (onboard + wayside + CTC/TMDS)<br>✅ Precio competitivo vs. PTC Alstom<br>⚠️ Requiere gateway para interoperabilidad
 
 Soporte Técnico
 9/10
@@ -795,7 +795,7 @@ Criterio
 ⚠️ 12-18 meses implementación típica<br>✅ Componentes disponibles
 
 Ventajas Clave:
-Interoperabilidad comprobada con ITCS en operación real
+Interoperabilidad comprobada con PTC en operación real
 Solución integral que incluye CTC (TMDS)
 Referencias sólidas en proyectos complejos
 Soporte cloud y mantenimiento remoto
@@ -805,18 +805,18 @@ Tiempo de implementación medio-alto
 
 2. HITACHI RAIL STS ⭐⭐⭐⭐ (ALTERNATIVA SÓLIDA)
 Puntuación Total: 85/100
-Sistema: SelTrac CBTC + ETCS Integration
+Sistema: SelTrac CBTC + PTC VIRTUAL Integration
 Criterio
 Puntos
 Justificación
 
-Interoperabilidad ITCS
+Interoperabilidad PTC
 18/25
-✅ CBTC moderno: Comunicación 5G + tecnología avanzada<br>✅ Integración ETCS probada (Europa)<br>⚠️ Sin referencias directas ITCS↔SelTrac
+✅ CBTC moderno: Comunicación 5G + tecnología avanzada<br>✅ Integración PTC VIRTUAL probada (Europa)<br>⚠️ Sin referencias directas PTC↔SelTrac
 
 Cumplimiento Contractual
 18/20
-✅ Cumple normas UIC (AT3 lo exige)<br>✅ ETCS certificado en múltiples países<br>⚠️ Requiere adaptación para normas AREMA
+✅ Cumple normas UIC (AT3 lo exige)<br>✅ PTC VIRTUAL certificado en múltiples países<br>⚠️ Requiere adaptación para normas AREMA
 
 Experiencia Ferroviaria
 13/15
@@ -843,24 +843,24 @@ Tecnología de última generación (5G, AI, edge computing)
 Contratos gigantes recientes demuestran capacidad
 Solución future-proof con escalabilidad
 Consideraciones:
-Sin referencias directas de interoperabilidad con ITCS
+Sin referencias directas de interoperabilidad con PTC
 Posible sobrecosto por tecnología avanzada
 Requiere validación específica para normas AREMA
 
 3. SIEMENS MOBILITY ⭐⭐⭐⭐ (CONFIABLE)
 Puntuación Total: 82/100
-Sistema: Controlguide + ETCS
+Sistema: Controlguide + PTC VIRTUAL
 Criterio
 Puntos
 Justificación
 
-Interoperabilidad ITCS
+Interoperabilidad PTC
 17/25
-✅ CTC robusto: Controlguide ampliamente usado<br>✅ Interfaces EULYNX (estándares abiertos)<br>⚠️ Requiere gateway específico para ITCS
+✅ CTC robusto: Controlguide ampliamente usado<br>✅ Interfaces EULYNX (estándares abiertos)<br>⚠️ Requiere gateway específico para PTC
 
 Cumplimiento Contractual
 19/20
-✅ Normas internacionales: UIC, EULYNX, ETCS<br>✅ Certificaciones múltiples<br>✅ Experiencia en interoperabilidad
+✅ Normas internacionales: UIC, EULYNX, PTC VIRTUAL<br>✅ Certificaciones múltiples<br>✅ Experiencia en interoperabilidad
 
 Experiencia Ferroviaria
 14/15
@@ -888,7 +888,7 @@ Precio competitivo y configuraciones flexibles
 Soporte técnico robusto a nivel global
 Consideraciones:
 Tecnología más tradicional vs. competencia
-Requiere gateway para ITCS (sin referencias directas)
+Requiere gateway para PTC (sin referencias directas)
 
 4. CAF SIGNALING ⭐⭐⭐ (OPCIÓN REGIONAL)
 Puntuación Total: 70/100
@@ -897,9 +897,9 @@ Criterio
 Puntos
 Justificación
 
-Interoperabilidad ITCS
+Interoperabilidad PTC
 15/25
-⚠️ Sin referencias directas con ITCS<br>✅ Experiencia en integración de sistemas<br>✅ Soluciones modulares adaptables
+⚠️ Sin referencias directas con PTC<br>✅ Experiencia en integración de sistemas<br>✅ Soluciones modulares adaptables
 
 Cumplimiento Contractual
 16/20
@@ -930,13 +930,13 @@ Enfoque regional con conocimiento local
 Precios atractivos para proyectos medianos
 Flexibilidad en configuraciones
 Consideraciones:
-Sin experiencia directa en interoperabilidad ITCS
+Sin experiencia directa en interoperabilidad PTC
 Capacidad técnica limitada vs. gigantes globales
 
 RECOMENDACIÓN FINAL
 PROVEEDOR RECOMENDADO: WABTEC CORPORATION ⭐⭐⭐⭐⭐
 ¿Por qué Wabtec?
-Interoperabilidad Probada: Es el único proveedor con evidencia operativa real de interoperabilidad ITCS↔I-ETMS (caso Amtrak-Norfolk Southern)
+Interoperabilidad Probada: Es el único proveedor con evidencia operativa real de interoperabilidad PTC↔I-ETMS (caso Amtrak-Norfolk Southern)
 Cumplimiento Contractual Total:
 ✅ FRA Type Approved (equivale a normas AREMA del AT3)
 ✅ Base instalada masiva en Norteamérica
@@ -954,7 +954,7 @@ Fase 3: Pruebas de integración con FENOCO usando protocolo documentado
 Fase 4: Implementación completa con soporte cloud
 Alternativa Secundaria: Hitachi Rail
 Si Wabtec excede presupuesto
-Tecnología más avanzada pero sin referencias ITCS directas
+Tecnología más avanzada pero sin referencias PTC directas
 Requiere mayor validación técnica con la Interventoría
 
 Esta información es únicamente de carácter informativo. Se recomienda su revisión y validación por el equipo jurídico del proyecto antes de ser utilizada formalmente.

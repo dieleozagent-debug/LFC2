@@ -34,7 +34,7 @@ Verificar la integridad completa de la documentación del proyecto desde el inic
 | `3_Cl_8_2_Construcci_n_docx_Obligaciones_en_fase_de_construcci_n_MEJORADO.md` | ✅ **COMPLETO** | Obligaciones en fase de construcción |
 | `4_Cl_9_1_OM_docx_Obligaciones_de_Operaci_n_y_Mantenimiento_MEJORADO.md` | ✅ **COMPLETO** | Obligaciones de O&M |
 | `5_Cl_12_1_Reversi_n_docx_Entrega_de_activos_y_sistemas_en_buen_estado_MEJORADO.md` | ✅ **COMPLETO** | Entrega de activos |
-| `6_Cl_13_1_MaterialRodante_docx_Equipos_embarcados_ITCS_TETRA_MEJORADO.md` | ✅ **COMPLETO** | Equipos embarcados |
+| `6_Cl_13_1_MaterialRodante_docx_Equipos_embarcados_PTC_TETRA_MEJORADO.md` | ✅ **COMPLETO** | Equipos embarcados |
 | `7_Cl_14_1_OM_Sistemas_docx_Reposici_n_y_mantenimiento_de_hardwaresoftware_MEJORADO.md` | ✅ **COMPLETO** | Reposición y mantenimiento |
 | `8. Cl_15_1_Reversion_Bienes_MEJORADO.md` | ✅ **COMPLETO** | Manuales y as-built |
 | `9_Cl_16_1_Penalidades_docx_Multas_por_incumplimiento_MEJORADO.md` | ✅ **COMPLETO** | Multas por incumplimiento |
@@ -53,7 +53,7 @@ Verificar la integridad completa de la documentación del proyecto desde el inic
 | `17. AT7_Gestion_Predial_MEJORADO.md` | ✅ **COMPLETO** | Gestión predial |
 | `18. AT8_Gestion_Social_MEJORADO.md` | ✅ **COMPLETO** | Gestión social |
 | `19. AT9_Plan_de_Obras_MEJORADO.md` | ✅ **COMPLETO** | Plan de obras |
-| `20. AT10_CapacidadSurcos – Sim de capacidad, asignación de surcos, integración ITCS–CTC.md` | ✅ **COMPLETO** | Capacidad y surcos |
+| `20. AT10_CapacidadSurcos – Sim de capacidad, asignación de surcos, integración PTC–CTC.md` | ✅ **COMPLETO** | Capacidad y surcos |
 | `21. AT_Financieros.docx – Seguros, pólizas y garantías.md` | ✅ **COMPLETO** | Aspectos financieros |
 | `II. Apendices tecnicos a detallar.md` | ✅ **COMPLETO** | Documento de referencia |
 
@@ -82,8 +82,8 @@ Verificar la integridad completa de la documentación del proyecto desde el inic
 | **Documentos Base** | 7 | ✅ **COMPLETO** | Hoja de ruta, WBS, matrices |
 | **Análisis por Sistema** | 7 | ✅ **COMPLETO** | CTC, TETRA, Fibra, Señalización, ITS, CCTV, Material Rodante |
 | **Criterios Transversales** | 4 | ✅ **COMPLETO** | Normatividad, Interoperabilidad, Redundancia, Ciberseguridad |
-| **ITCS Específicos** | 5 | ✅ **COMPLETO** | SRS, Arquitectura RBC, Interfaces, Interlocking, STM |
-| **Conceptos Básicos** | 4 | ✅ **COMPLETO** | CTC, TETRA, ITCS, otras soluciones |
+| **PTC Específicos** | 5 | ✅ **COMPLETO** | SRS, Arquitectura RBC, Interfaces, Interlocking, STM |
+| **Conceptos Básicos** | 4 | ✅ **COMPLETO** | CTC, TETRA, PTC, otras soluciones |
 
 **Estado Fase B:** ✅ **COMPLETADA AL 100%**
 
@@ -114,7 +114,7 @@ Verificar la integridad completa de la documentación del proyecto desde el inic
 |:---|:---:|:---|
 | `V.1_Señalizacion_Ferroviaria_Detalle_v0.1.md` | ✅ **COMPLETO** | Especificaciones técnicas detalladas |
 | `V.2_Centro_Control_Trafico_CTC_Detalle_v0.1.md` | ✅ **COMPLETO** | Arquitectura y funcionalidades |
-| `V.3_Sistemas_Comunicacion_Detalle_v0.1.md` | ✅ **COMPLETO** | GSM-R, fibra óptica, TETRA, VSAT |
+| `V.3_Sistemas_Comunicacion_Detalle_v0.1.md` | ✅ **COMPLETO** | RED TETRA (Misión Crítica), fibra óptica, TETRA, VSAT |
 | `V.4_Sistemas_Potencia_Detalle_v0.1.md` | ✅ **COMPLETO** | Subestaciones, transformadores, UPS |
 | `V.5_Sistemas_Seguridad_Detalle_v0.1.md` | ✅ **COMPLETO** | Seguridad funcional, ciberseguridad, física |
 

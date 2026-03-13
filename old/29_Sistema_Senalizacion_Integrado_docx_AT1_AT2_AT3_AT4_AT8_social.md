@@ -50,7 +50,7 @@ El diseño detallado de la señalización no puede avanzar hasta que este concep
 - **Señalización ↔ Pasos a Nivel:** Los sistemas de protección de los pasos a nivel (barreras, luces) son parte integral del sistema de señalización y deben estar enclavados.
 - **Señalización ↔ Gestión Social (AT8):** El diseño de la señalización en pasos a nivel debe considerar las campañas de cultura vial y la seguridad de las comunidades.
 - **Señalización ↔ Energía:** Requiere alimentación eléctrica redundante y respaldada por UPS para garantizar la operación continua y segura.
-- **Señalización ↔ ITCS:** Preparación de interfaces para integración con sistemas de control embarcados usando ETCS Level 2 hasta AT3.
+- **Señalización ↔ PTC:** Preparación de interfaces para integración con sistemas de control embarcados usando PTC VIRTUAL Level 2 hasta AT3.
 - **Señalización ↔ FENOCO:** Compatibilidad con estándares de señalización FENOCO según protocolos UIC.
 
 ---
@@ -60,7 +60,7 @@ El diseño detallado de la señalización no puede avanzar hasta que este concep
 ### 3.1 Filosofía de Señalización para Proyectos EPC
 Se propone una filosofía de señalización que optimiza la seguridad y la eficiencia de la construcción:
 - **Sistema de Bloqueo Automático con Contadores de Ejes:** En lugar de circuitos de vía tradicionales (sensibles a la humedad y condiciones del balasto), se utilizarán contadores de ejes (norma ADIF ED3M1) para la detección de trenes. Esto simplifica la instalación, reduce el mantenimiento y aumenta la fiabilidad, especialmente en el clima del corredor.
-- **Enclavamientos Electrónicos (CBI) Modulares:** Los 5 enclavamientos (Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México) se diseñarán con una arquitectura modular. Esto permite desarrollar y probar la lógica de control de forma independiente a las especificaciones finales de ITCS (bloqueadas por AT3), preparando interfaces para ETCS Level 2.
+- **Enclavamientos Electrónicos (CBI) Modulares:** Los 5 enclavamientos (Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México) se diseñarán con una arquitectura modular. Esto permite desarrollar y probar la lógica de control de forma independiente a las especificaciones finales de PTC (bloqueadas por AT3), preparando interfaces para PTC VIRTUAL Level 2.
 - **Señalización LED de Alta Eficiencia:** Todas las señales luminosas utilizarán tecnología LED (ET 03.365.501.0), reduciendo el consumo energético y los costos de mantenimiento a largo plazo.
 
 ### 3.2 Estrategia de Implementación de Pasos a Nivel (PN)
@@ -83,7 +83,7 @@ La siguiente matriz integra los requisitos de los diferentes apéndices en funci
 | **Disponibilidad PNBC 100%** | AT4 | Diseño de sistemas de protección de PN con redundancia en alimentación y comunicación para garantizar disponibilidad total. | 🔴 Bloqueado |
 | **Cultura Vial Ferroviaria** | AT8, Cap. 7.19 | Diseño de señalización en PN (especialmente Tipo A) coordinado con las campañas de capacitación y sensibilización comunitaria. | ✅ Definido |
 | **Integración con CTC** | AT3, Cap. 8.2 | Implementación de interfaz SCI-CC-A (NAS 830) en cada enclavamiento para la comunicación con el CTC. | ✅ Definido |
-| **Integración ITCS/PTC** | AT1, Tabla 17 | Preparación de interfaces en enclavamientos para la futura integración con el sistema de control positivo de trenes.<br>- **ITCS ETCS Level 2 hasta AT3**<br>- **Interoperabilidad FENOCO UIC** | 🔴 Bloqueado |
+| **Integración PTC/PTC** | AT1, Tabla 17 | Preparación de interfaces en enclavamientos para la futura integración con el sistema de control positivo de trenes.<br>- **PTC PTC VIRTUAL Level 2 hasta AT3**<br>- **Interoperabilidad FENOCO UIC** | 🔴 Bloqueado |
 
 ### 4.2 Indicadores de Riesgo por Bloqueo AT3/AT4
 - **🟢 Verde (Proceder):** Diseño conceptual de la filosofía de señalización, diseño de PN Tipo A, planificación de la implementación por fases, coordinación con programas de AT8.
@@ -120,16 +120,16 @@ La aprobación de este documento conceptual permite:
 
 ### ✅ **MEJORAS IMPLEMENTADAS:**
 
-1. **🚂 ITCS ETCS Level 2:** Preparación de interfaces especificada para integración con sistemas de control embarcados
+1. **🚂 PTC PTC VIRTUAL Level 2:** Preparación de interfaces especificada para integración con sistemas de control embarcados
 2. **🔗 Interoperabilidad FENOCO:** Protocolos UIC especificados para compatibilidad con FENOCO
 3. **📊 Criterios de Disponibilidad AT4:** 99.95% especificado para enclavamientos
-4. **🎯 Matriz de Requisitos:** Actualizada con criterios ITCS, FENOCO y AT4
+4. **🎯 Matriz de Requisitos:** Actualizada con criterios PTC, FENOCO y AT4
 
 ### 🎯 **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
-- ✅ **ITCS:** Preparación de interfaces ETCS Level 2 especificada para enclavamientos
+- ✅ **PTC:** Preparación de interfaces PTC VIRTUAL Level 2 especificada para enclavamientos
 - ✅ **FENOCO:** Protocolos UIC para compatibilidad con estándares FENOCO
 - ✅ **AT4:** Criterios de disponibilidad 99.95% para enclavamientos
-- ✅ **Interfaces:** Especificación de interfaces ITCS y FENOCO
+- ✅ **Interfaces:** Especificación de interfaces PTC y FENOCO
 
 ### ⚠️ **RIESGOS IDENTIFICADOS PARA ANÁLISIS PMI:**
 
@@ -139,7 +139,7 @@ La aprobación de este documento conceptual permite:
 | **R-046** | **Interoperabilidad FENOCO** | **Técnico** | **Media** | **Alto** | Compatibilidad con estándares FENOCO requiere protocolos UIC |
 | **R-047** | **Disponibilidad 99.95%** | **Contractual** | **Media** | **Alto** | Cumplimiento AT4 requiere redundancia crítica |
 | **R-048** | **Gestión de 146 PN** | **Gestión** | **Media** | **Medio** | Complejidad de implementación por fases |
-| **R-049** | **Integración ITCS-Señalización** | **Técnico** | **Media** | **Alto** | Complejidad de preparación de interfaces |
+| **R-049** | **Integración PTC-Señalización** | **Técnico** | **Media** | **Alto** | Complejidad de preparación de interfaces |
 
 ### 📋 **RECOMENDACIONES PARA GESTIÓN DE RIESGOS:**
 - **Análisis PMI requerido** para definir estrategias de mitigación

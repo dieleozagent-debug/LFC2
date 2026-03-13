@@ -30,7 +30,7 @@
 
 #### ❌ CRITERIO MAESTRO:
 - **Señalización:** VIRTUAL (CTC + ATP embarcado)
-- **Eurobalises:** 0 unidades
+- **Virtual Balise (GNSS)s:** 0 unidades
 - **Señales LED vía:** 0 unidades
 - **RBC:** 0 unidades
 
@@ -39,15 +39,15 @@
 | # | Documento | Desalineación | Impacto | Prioridad |
 |:--|:----------|:--------------|:--------|:----------|
 | 1 | V.1_Señalización_Ferroviaria_Detalle | 1,080 eurobalises + 270 señales LED | 🔴 CRÍTICO | 1 |
-| 2 | VII.2.1_ITCS_ETCS_Especificaciones | Arquitectura ETCS Level 2 con RBC | 🔴 CRÍTICO | 1 |
-| 3 | 29_Sistema_Señalización_Integrado | Eurobalises + Señales físicas | 🔴 CRÍTICO | 1 |
+| 2 | VII.2.1_PTC_PTC VIRTUAL_Especificaciones | Arquitectura PTC VIRTUAL Level 2 con RBC | 🔴 CRÍTICO | 1 |
+| 3 | 29_Sistema_Señalización_Integrado | Virtual Balise (GNSS)s + Señales físicas | 🔴 CRÍTICO | 1 |
 | 4 | V.2_Centro_Control_Trafico_CTC | CTC como secundario (no principal) | 🔴 CRÍTICO | 1 |
 | 5 | 25.1_WBS_COMPLETA_ESPECIALIDADES | Capítulos eurobalises y señales LED | 🔴 CRÍTICO | 1 |
 | 6 | AT1_Alcance_del_Proyecto | Referencias a señalización física | 🔴 CRÍTICO | 2 |
-| 7 | 23_ListadoMaestro_Sistemas | Eurobalises en lista de sistemas | 🔴 CRÍTICO | 2 |
+| 7 | 23_ListadoMaestro_Sistemas | Virtual Balise (GNSS)s en lista de sistemas | 🔴 CRÍTICO | 2 |
 | 8 | 26.1_Anexo_Electrico_CTC | Alimentación señales físicas | 🟡 MEDIO | 3 |
 | 9 | 37_Memorias_Diseño_Basico | Especificaciones eurobalises | 🟡 MEDIO | 3 |
-| 10 | IV.4_Especificaciones_Basicas_Sistemas | Eurobalises como sistema | 🟡 MEDIO | 3 |
+| 10 | IV.4_Especificaciones_Basicas_Sistemas | Virtual Balise (GNSS)s como sistema | 🟡 MEDIO | 3 |
 | 11-18 | Planos y Diagramas preliminares | Ubicación física señales | 🟡 MEDIO | 4 |
 
 **Impacto presupuestal:** -$54B COP (componentes a eliminar)
@@ -56,22 +56,22 @@
 
 #### ❌ CRITERIO MAESTRO:
 - **TETRA:** 37 estaciones (no 33)
-- **GSM-R:** 37 estaciones (FALTA incluir)
+- **RED TETRA (Misión Crítica):** 37 estaciones (FALTA incluir)
 - **EOT:** 15 dispositivos (FALTA incluir)
 
 #### 🔴 DOCUMENTOS DESALINEADOS (12):
 
 | # | Documento | Desalineación | Impacto | Prioridad |
 |:--|:----------|:--------------|:--------|:----------|
-| 19 | V.3_Sistemas_Comunicacion_Detalle | 33 TETRA (no 37) + NO incluye GSM-R | 🔴 CRÍTICO | 1 |
+| 19 | V.3_Sistemas_Comunicacion_Detalle | 33 TETRA (no 37) + NO incluye RED TETRA (Misión Crítica) | 🔴 CRÍTICO | 1 |
 | 20 | 27_Sistema_TETRA_Integrado | 33 estaciones TETRA | 🔴 CRÍTICO | 1 |
 | 21 | 27.1_Estimacion_Cantidades_TETRA | Cálculos con 33 estaciones | 🔴 CRÍTICO | 1 |
-| 22 | 25.1_WBS_COMPLETA | NO incluye capítulo GSM-R | 🔴 CRÍTICO | 1 |
+| 22 | 25.1_WBS_COMPLETA | NO incluye capítulo RED TETRA (Misión Crítica) | 🔴 CRÍTICO | 1 |
 | 23 | 32_Material_Rodante_Integrado | NO incluye sistema EOT | 🔴 CRÍTICO | 2 |
-| 24 | AT1_Alcance_del_Proyecto | 33 TETRA + NO menciona GSM-R | 🟡 MEDIO | 2 |
-| 25 | 23_ListadoMaestro_Sistemas | GSM-R no listado | 🟡 MEDIO | 2 |
+| 24 | AT1_Alcance_del_Proyecto | 33 TETRA + NO menciona RED TETRA (Misión Crítica) | 🟡 MEDIO | 2 |
+| 25 | 23_ListadoMaestro_Sistemas | RED TETRA (Misión Crítica) no listado | 🟡 MEDIO | 2 |
 | 26 | IV.2_Especificaciones_Basicas_Electrica | Alimentación 33 sitios | 🟡 MEDIO | 3 |
-| 27-31 | Presupuestos anteriores | Sin GSM-R ni EOT | 🔴 CRÍTICO | 1 |
+| 27-31 | Presupuestos anteriores | Sin RED TETRA (Misión Crítica) ni EOT | 🔴 CRÍTICO | 1 |
 | 32 | 39_Planos_Preliminares_Torres | 33 ubicaciones | 🟡 MEDIO | 4 |
 
 **Impacto presupuestal:** +$4B COP (componentes a agregar)
@@ -115,8 +115,8 @@
 | Orden | Documento | Acción Principal | Tiempo | Impacto |
 |:------|:----------|:----------------|:-------|:--------|
 | 1 | CRITERIOS_TECNICOS_MAESTRO_v1.0.md | ✅ YA CORRECTO - Es la fuente | -- | -- |
-| 2 | AT1_Alcance_del_Proyecto_MEJORADO.md | Actualizar señalización virtual + 37 TETRA + GSM-R + ENCE + Desvíos | 6h | 🔴 |
-| 3 | 23_ListadoMaestro_Sistemas.md | Eliminar eurobalises/señales + Agregar GSM-R/EOT/ENCE/Desvíos | 4h | 🔴 |
+| 2 | AT1_Alcance_del_Proyecto_MEJORADO.md | Actualizar señalización virtual + 37 TETRA + RED TETRA (Misión Crítica) + ENCE + Desvíos | 6h | 🔴 |
+| 3 | 23_ListadoMaestro_Sistemas.md | Eliminar eurobalises/señales + Agregar RED TETRA (Misión Crítica)/EOT/ENCE/Desvíos | 4h | 🔴 |
 | 4 | 25.1_WBS_COMPLETA_ESPECIALIDADES.md | Reestructurar capítulos completos | 8h | 🔴 |
 
 **Subtotal Capa 1:** 18 horas (2.5 días)
@@ -153,8 +153,8 @@
 |:------|:----------|:----------------|:-------|:--------|
 | 14 | V.1_Señalización_Ferroviaria_Detalle.md | 🔴 REESCRITURA COMPLETA (90% nuevo) | 12h | 🔴 |
 | 15 | V.2_Centro_Control_Trafico_CTC.md | Ampliar significativamente (CTC principal) | 8h | 🔴 |
-| 16 | V.3_Sistemas_Comunicacion_Detalle.md | Actualizar TETRA + Agregar GSM-R completo | 8h | 🔴 |
-| 17 | VII.2.1_ITCS_ETCS_Especificaciones.md | Cambiar arquitectura (ATP embarcado sin RBC) | 10h | 🔴 |
+| 16 | V.3_Sistemas_Comunicacion_Detalle.md | Actualizar TETRA + Agregar RED TETRA (Misión Crítica) completo | 8h | 🔴 |
+| 17 | VII.2.1_PTC_PTC VIRTUAL_Especificaciones.md | Cambiar arquitectura (ATP embarcado sin RBC) | 10h | 🔴 |
 
 **Subtotal Capa 4:** 38 horas (5 días)
 
@@ -165,7 +165,7 @@
 |:------|:----------------|:-------|:-------|:--------|
 | 18 | V.X_Enclavamientos_ENCE_Detalle.md | Crear desde cero (5 estaciones) | 6h | 🔴 |
 | 19 | V.X_Sistema_Desvios_Detalle.md | Crear desde cero (120 desvíos) | 5h | 🔴 |
-| 20 | V.X_Sistema_GSM-R_Detalle.md | Crear desde cero (37 estaciones) | 6h | 🔴 |
+| 20 | V.X_Sistema_RED TETRA (Misión Crítica)_Detalle.md | Crear desde cero (37 estaciones) | 6h | 🔴 |
 | 21 | V.X_Sistema_EOT_Detalle.md | Crear desde cero (15 dispositivos) | 4h | 🔴 |
 
 **Subtotal Capa 5:** 21 horas (3 días)
@@ -213,11 +213,11 @@
 
 ### CRITERIOS MAESTROS A APLICAR:
 - [ ] Señalización: Virtual (CTC + ATP embarcado)
-- [ ] Eurobalises: 0 unidades
+- [ ] Virtual Balise (GNSS)s: 0 unidades
 - [ ] Señales LED vía: 0 unidades
 - [ ] RBC: 0 unidades
 - [ ] TETRA: 37 estaciones
-- [ ] GSM-R: 37 estaciones (agregar)
+- [ ] RED TETRA (Misión Crítica): 37 estaciones (agregar)
 - [ ] EOT: 15 dispositivos (agregar)
 - [ ] ENCE: 5 estaciones (agregar)
 - [ ] Desvíos: 120 total (agregar)
@@ -288,7 +288,7 @@
 **Objetivo:** Completar y validar
 
 - **DÍA 11-13:** CAPA 5 (Documentos Nuevos)
-  → ENCE, Desvíos, GSM-R, EOT
+  → ENCE, Desvíos, RED TETRA (Misión Crítica), EOT
 
 - **DÍA 14:** CAPA 6 (Validación)
   → Checklist, Matriz Trazabilidad, Informe

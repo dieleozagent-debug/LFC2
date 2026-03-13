@@ -55,7 +55,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 - **Sitios:** ~33 sitios de repetición distribuidos estratégicamente
 - **Estándares:** ETSI EN 300 392 para equipos de radio
 - **Backhaul:** Fibra óptica principal, microondas como respaldo en sitios críticos
-- **🚂 ITCS ETCS Level 2:** Interfaces para control embarcado hasta AT3
+- **🚂 PTC PTC VIRTUAL Level 2:** Interfaces para control embarcado hasta AT3
 - **🔗 Interoperabilidad FENOCO:** Compatibilidad con sistemas FENOCO según protocolos UIC
 - **📊 Disponibilidad AT4:** Cumplimiento de disponibilidad 99.5% según indicadores contractuales
 
@@ -65,11 +65,11 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 
 | ID | Categoría | Probabilidad | Impacto | Descripción | Estrategia de Mitigación |
 |:---:|:---:|:---:|:---:|:---|:---|
-| **R-100** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones ITCS en comunicaciones | Desarrollar interfaces de comunicaciones basadas en ETCS Level 2 hasta disponibilidad de AT3 |
+| **R-100** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en comunicaciones | Desarrollar interfaces de comunicaciones basadas en PTC VIRTUAL Level 2 hasta disponibilidad de AT3 |
 | **R-101** | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por interfaces incompatibles | Establecer protocolos de comunicaciones compatibles con sistemas FENOCO existentes |
 | **R-102** | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.5% en comunicaciones según AT4 | Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad |
-| **R-103** | Operacional | Alta | Medio | Complejidad en gestión de 33 sitios TETRA con ITCS | Desarrollar protocolos de prueba específicos para ITCS y FENOCO |
-| **R-104** | Técnico | Media | Medio | Integración de comunicaciones con sistemas FENOCO existentes | Establecer procedimientos de fallback para sistemas de comunicaciones ITCS y FENOCO |
+| **R-103** | Operacional | Alta | Medio | Complejidad en gestión de 33 sitios TETRA con PTC | Desarrollar protocolos de prueba específicos para PTC y FENOCO |
+| **R-104** | Técnico | Media | Medio | Integración de comunicaciones con sistemas FENOCO existentes | Establecer procedimientos de fallback para sistemas de comunicaciones PTC y FENOCO |
 
 ---
 
@@ -170,7 +170,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 | Documento | Estado | Impacto en Comunicaciones | Acción Requerida |
 |:---|:---:|:---|:---|
 | **AT3_EspecificacionesGenerales** | 🔴 **PENDIENTE** | **CRÍTICO** - Especificaciones técnicas de comunicaciones | **ESPERAR** - Bloquea especificaciones detalladas |
-| **AT10_CapacidadSurcos** | 🔴 **PENDIENTE** | **CRÍTICO** - Integración ITCS-CTC para comunicaciones | **ESPERAR** - Bloquea integración completa |
+| **AT10_CapacidadSurcos** | 🔴 **PENDIENTE** | **CRÍTICO** - Integración PTC-CTC para comunicaciones | **ESPERAR** - Bloquea integración completa |
 | **AT1_AlcanceProyecto** | ✅ **COMPLETADO v3.0** | **BASE** - Alcance del sistema de comunicaciones | **UTILIZAR** - Base para desarrollo |
 | **AT2_OperacionMantenimiento** | ✅ **COMPLETADO v3.0** | **BASE** - Operación de comunicaciones | **UTILIZAR** - Base para operación |
 | **AT4_IndicadoresDesempeno** | ✅ **COMPLETADO v3.0** | **BASE** - Indicadores de comunicaciones | **UTILIZAR** - Base para métricas |
@@ -190,16 +190,16 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 ### 2.2 Documentos Dependientes (Bloqueados 🔴)
 - **AT3_EspecificacionesGenerales** 🔴 - Especificaciones técnicas críticas para comunicaciones
-- **AT10_CapacidadSurcos** 🔴 - Integración ITCS-CTC para comunicaciones
+- **AT10_CapacidadSurcos** 🔴 - Integración PTC-CTC para comunicaciones
 
 ### 2.3 Interfaces Críticas
 - **Comunicaciones ↔ Señalización:** Integración del sistema de comunicaciones con señalización
 - **Comunicaciones ↔ CTC:** Integración con centro de control de tráfico
-- **Comunicaciones ↔ ITCS:** Integración de sistemas de control integrado
+- **Comunicaciones ↔ PTC:** Integración de sistemas de control integrado
 - **Comunicaciones ↔ TETRA:** Integración de comunicaciones críticas
 - **Comunicaciones ↔ Fibra Óptica:** Integración de red de comunicaciones
 - **Comunicaciones ↔ ITS:** Integración del sistema de información de tránsito
-- **🚂 Comunicaciones ↔ ITCS:** Interfaces para control embarcado ETCS Level 2 hasta AT3
+- **🚂 Comunicaciones ↔ PTC:** Interfaces para control embarcado PTC VIRTUAL Level 2 hasta AT3
 - **🔗 Comunicaciones ↔ FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos UIC
 
 ## 3. OPTIMIZACIONES EPC ESPECÍFICAS PARA COMUNICACIONES
@@ -254,7 +254,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
    - Validación de interfaces con sistemas ferroviarios
    - Certificación de cumplimiento normativo
 
-### 3.4 Estrategia de Avance con Bloqueos ITCS
+### 3.4 Estrategia de Avance con Bloqueos PTC
 - **Comunicaciones base:** Desarrollo con AT1, AT2, AT4 y sistemas completados mientras se espera AT3
 - **Arquitectura modular:** Diseño que permita integración futura de especificaciones técnicas
 - **Comunicación proactiva:** Mantener stakeholders informados sobre limitaciones
@@ -268,9 +268,9 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 | **Cumplimiento de comunicaciones** | 100% | Semanal | Supervisor Técnico |
 | **Integración de sistemas** | 100% | Diaria | Jefe de Proyecto |
 | **Calidad de comunicaciones** | Excelente | Quincenal | Auditoría Técnica |
-| **Alertas de bloqueo ITCS** | < 3 | Diaria | Gerencia de Proyecto |
+| **Alertas de bloqueo PTC** | < 3 | Diaria | Gerencia de Proyecto |
 
-### 4.2 Indicadores de Riesgo por Bloqueo ITCS
+### 4.2 Indicadores de Riesgo por Bloqueo PTC
 - **🟢 Verde:** Avance con comunicaciones disponible
 - **🟡 Amarillo:** Dependencias parciales identificadas
 - **🔴 Rojo:** Bloqueo total por AT3/AT10 pendientes
@@ -308,7 +308,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 ### 5.3 Criterios para Avance
 ✅ **Documento funcional** para comunicaciones disponible
-✅ **Bloqueos ITCS identificados** y estrategias definidas
+✅ **Bloqueos PTC identificados** y estrategias definidas
 ✅ **Base sólida establecida** con documentos disponibles
 ✅ **Plan de contingencia** implementado para especificaciones pendientes
 
@@ -322,14 +322,14 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 ## ACTUALIZACIÓN v4.1 - REVISIÓN METODOLOGÍA PUNTO 42
 
 ### **MEJORAS IMPLEMENTADAS:**
-1. **Interfaces Críticas ITCS:** Interfaces para control embarcado ETCS Level 2 hasta AT3
+1. **Interfaces Críticas PTC:** Interfaces para control embarcado PTC VIRTUAL Level 2 hasta AT3
 2. **Interfaces Críticas FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos UIC
-3. **Especificaciones Técnicas TETRA ITCS:** Interfaces para control embarcado hasta AT3
+3. **Especificaciones Técnicas TETRA PTC:** Interfaces para control embarcado hasta AT3
 4. **Especificaciones Técnicas TETRA FENOCO:** Compatibilidad con sistemas FENOCO según protocolos UIC
 5. **Disponibilidad AT4:** Cumplimiento de disponibilidad 99.5% según indicadores contractuales
 
 ### **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
-1. **Falta de interfaces ITCS:** Agregadas interfaces específicas para control embarcado ETCS Level 2
+1. **Falta de interfaces PTC:** Agregadas interfaces específicas para control embarcado PTC VIRTUAL Level 2
 2. **Ausencia de interoperabilidad FENOCO:** Integrada interoperabilidad con sistemas FENOCO
 3. **Falta de criterios AT4:** Agregado cumplimiento de disponibilidad 99.5%
 
@@ -337,15 +337,15 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 | ID | Categoría | Probabilidad | Impacto | Descripción |
 |:---:|:---:|:---:|:---:|:---|
-| R-100 | Técnico | Alta | Alto | Dependencia AT3 para especificaciones ITCS en comunicaciones |
+| R-100 | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en comunicaciones |
 | R-101 | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por interfaces incompatibles |
 | R-102 | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.5% en comunicaciones según AT4 |
-| R-103 | Operacional | Alta | Medio | Complejidad en gestión de 33 sitios TETRA con ITCS |
+| R-103 | Operacional | Alta | Medio | Complejidad en gestión de 33 sitios TETRA con PTC |
 | R-104 | Técnico | Media | Medio | Integración de comunicaciones con sistemas FENOCO existentes |
 
 ### **RECOMENDACIONES PARA GESTIÓN DE RIESGOS:**
-1. **Estrategia ITCS:** Desarrollar interfaces de comunicaciones basadas en ETCS Level 2 hasta disponibilidad de AT3
+1. **Estrategia PTC:** Desarrollar interfaces de comunicaciones basadas en PTC VIRTUAL Level 2 hasta disponibilidad de AT3
 2. **Coordinación FENOCO:** Establecer protocolos de comunicaciones compatibles con sistemas FENOCO existentes
 3. **Monitoreo AT4:** Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad 99.5%
-4. **Pruebas de Comunicaciones:** Desarrollar protocolos de prueba específicos para ITCS y FENOCO
-5. **Plan de Contingencia:** Establecer procedimientos de fallback para sistemas de comunicaciones ITCS y FENOCO
+4. **Pruebas de Comunicaciones:** Desarrollar protocolos de prueba específicos para PTC y FENOCO
+5. **Plan de Contingencia:** Establecer procedimientos de fallback para sistemas de comunicaciones PTC y FENOCO

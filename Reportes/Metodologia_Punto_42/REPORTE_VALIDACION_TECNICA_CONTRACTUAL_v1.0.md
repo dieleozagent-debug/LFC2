@@ -37,8 +37,8 @@ Se ha iniciado la **Fase 1: Validación Técnica y Contractual** del proyecto, v
 ### **1. Especificaciones Técnicas Principales**
 
 #### **✅ Sistemas de Señalización (V.1)**
-- **Normas aplicadas:** EN 50126/50128/50129, ETCS Level 2, CENELEC
-- **Arquitectura:** Integrada con ITCS
+- **Normas aplicadas:** EN 50126/50128/50129, PTC VIRTUAL Level 2, CENELEC
+- **Arquitectura:** Integrada con PTC
 - **Estado:** ✅ Especificaciones completas y consistentes
 
 #### **✅ Centro de Control de Tráfico (V.2)**
@@ -48,7 +48,7 @@ Se ha iniciado la **Fase 1: Validación Técnica y Contractual** del proyecto, v
 - **Estado:** ✅ Especificaciones completas y consistentes
 
 #### **✅ Sistemas de Comunicación (V.3)**
-- **Componentes:** GSM-R, fibra óptica, TETRA, VSAT
+- **Componentes:** RED TETRA (Misión Crítica), fibra óptica, TETRA, VSAT
 - **Normas aplicadas:** EN 50126/50128/50129, IEC 62290, UIC 615, EIRENE
 - **Disponibilidad:** 99.9% operacional
 - **Estado:** ✅ Especificaciones completas y consistentes
@@ -73,9 +73,9 @@ Se ha iniciado la **Fase 1: Validación Técnica y Contractual** del proyecto, v
 - **6.3_Manual_OM_Telecom_v1.0.md:** Referencias V.3 actualizadas a v1.0
 - **6.4_Manual_OM_Seguridad_v1.0.md:** Referencias V.5 actualizadas a v1.0
 
-### **✅ Interfaces ITCS-CTC**
+### **✅ Interfaces PTC-CTC**
 - **Protocolo FFFIS:** Especificado y documentado
-- **8 interfaces críticas:** Definidas en ITCS_Interfaces_CTC_ITCS_FFFIS_v1.0.md
+- **8 interfaces críticas:** Definidas en PTC_Interfaces_CTC_PTC_FFFIS_v1.0.md
 - **Comunicación bidireccional:** CTC ↔ RBC en tiempo real
 - **Latencia:** < 100ms para comandos críticos
 
@@ -89,7 +89,7 @@ Se ha iniciado la **Fase 1: Validación Técnica y Contractual** del proyecto, v
 - **EN 50129:** Sistemas de señalización ferroviaria
 - **IEC 62290:** Sistemas de gestión del tráfico ferroviario
 - **UIC 615:** Señalización ferroviaria
-- **ETCS Level 2:** Sistema europeo de control de trenes
+- **PTC VIRTUAL Level 2:** Sistema europeo de control de trenes
 
 ### **✅ Normas Nacionales Aplicadas**
 - **RETIE:** Reglamento Técnico de Instalaciones Eléctricas
@@ -142,9 +142,9 @@ Se ha iniciado la **Fase 1: Validación Técnica y Contractual** del proyecto, v
 
 | Sistema | Especificaciones | Normas | Interfaces | Estado |
 |:---:|:---:|:---:|:---:|:---:|
-| **V.1 Señalización** | ✅ Completa | ✅ 9 normas | ✅ ITCS | ✅ Validado |
+| **V.1 Señalización** | ✅ Completa | ✅ 9 normas | ✅ PTC | ✅ Validado |
 | **V.2 CTC** | ✅ Completa | ✅ 10 normas | ✅ FFFIS | ✅ Validado |
-| **V.3 Comunicaciones** | ✅ Completa | ✅ 13 normas | ✅ GSM-R/TETRA | ✅ Validado |
+| **V.3 Comunicaciones** | ✅ Completa | ✅ 13 normas | ✅ RED TETRA (Misión Crítica)/TETRA | ✅ Validado |
 | **V.4 Potencia** | ✅ Completa | ✅ 9 normas | ✅ UPS/Gen | ✅ Validado |
 | **V.5 Seguridad** | ✅ Completa | ✅ 13 normas | ✅ CCTV/Incendios | ✅ Validado |
 

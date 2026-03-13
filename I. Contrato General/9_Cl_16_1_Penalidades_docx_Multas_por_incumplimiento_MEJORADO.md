@@ -231,11 +231,11 @@ Proxima actualizacion: 27/02/2025
 
 #### **✅ MEJORAS IMPLEMENTADAS:**
 
-1. **🚂 INTEGRACIÓN ITCS ETCS Level 2 EN PENALIDADES:**
-   - **Penalidades por ITCS:** Multas por incumplimiento de especificaciones ITCS ETCS Level 2
-   - **Retrasos en ITCS:** Penalidades por demoras en implementación de equipos ITCS
-   - **Disponibilidad ITCS:** Multas por incumplimiento de disponibilidad en sistemas ITCS
-   - **Mantenimiento ITCS:** Penalidades por fallas en mantenimiento de equipos ITCS
+1. **🚂 INTEGRACIÓN PTC PTC VIRTUAL Level 2 EN PENALIDADES:**
+   - **Penalidades por PTC:** Multas por incumplimiento de especificaciones PTC PTC VIRTUAL Level 2
+   - **Retrasos en PTC:** Penalidades por demoras en implementación de equipos PTC
+   - **Disponibilidad PTC:** Multas por incumplimiento de disponibilidad en sistemas PTC
+   - **Mantenimiento PTC:** Penalidades por fallas en mantenimiento de equipos PTC
 
 2. **🔗 INTEROPERABILIDAD FENOCO EN PENALIDADES:**
    - **Penalidades por interoperabilidad:** Multas por incumplimiento de protocolos UIC
@@ -263,7 +263,7 @@ Proxima actualizacion: 27/02/2025
 
 #### **⚠️ VACÍOS IDENTIFICADOS Y CORREGIDOS:**
 
-1. **Falta de especificaciones ITCS en penalidades:** Agregadas multas por incumplimiento ITCS ETCS Level 2
+1. **Falta de especificaciones PTC en penalidades:** Agregadas multas por incumplimiento PTC PTC VIRTUAL Level 2
 2. **Ausencia de interoperabilidad FENOCO:** Incluidas penalidades por problemas de interoperabilidad
 3. **Criterios AT4 no integrados:** Incorporadas multas por incumplimiento de disponibilidad
 4. **Ciberseguridad no especificada:** Agregadas penalidades por incumplimiento de seguridad
@@ -273,7 +273,7 @@ Proxima actualizacion: 27/02/2025
 
 | ID | Riesgo | Categoría | Prob | Impacto | Descripción |
 |:---|:---|:---:|:---:|:---:|:---|
-| R-285 | Dependencia AT3 para ITCS en penalidades | Técnico | Alta | Alto | Penalidades por ITCS sin especificaciones AT3 |
+| R-285 | Dependencia AT3 para PTC en penalidades | Técnico | Alta | Alto | Penalidades por PTC sin especificaciones AT3 |
 | R-286 | Interoperabilidad FENOCO en penalidades | Técnico | Media | Alto | Penalidades por problemas de interoperabilidad |
 | R-287 | Disponibilidad AT4 en penalidades | Contractual | Media | Alto | Penalidades por incumplimiento de indicadores |
 | R-288 | Ciberseguridad en penalidades | Técnico | Media | Alto | Penalidades por incumplimiento de seguridad |
@@ -283,7 +283,7 @@ Proxima actualizacion: 27/02/2025
 
 | Sistema | Cláusula | AT | Especificación | Estado |
 |:---|:---|:---|:---|:---:|
-| **ITCS Penalidades** | 16.1 | AT3 | ETCS Level 2 | ✅ Implementado |
+| **PTC Penalidades** | 16.1 | AT3 | PTC VIRTUAL Level 2 | ✅ Implementado |
 | **FENOCO Penalidades** | 16.1 | AT1 | Protocolos UIC | ✅ Implementado |
 | **AT4 Penalidades** | 16.1 | AT4 | Disponibilidad 99.95% | ✅ Implementado |
 | **Ciberseguridad Penalidades** | 16.1 | AT3 | NIST/IEC 62443 | ✅ Implementado |
@@ -291,14 +291,14 @@ Proxima actualizacion: 27/02/2025
 
 #### **🎯 OPTIMIZACIONES EPC ESPECÍFICAS:**
 
-1. **Estrategia de Avance con Bloqueos ITCS:**
-   - **Fase 1:** Gestión de penalidades con ETCS Level 2 (0-12 meses)
+1. **Estrategia de Avance con Bloqueos PTC:**
+   - **Fase 1:** Gestión de penalidades con PTC VIRTUAL Level 2 (0-12 meses)
    - **Fase 2:** Monitoreo de cumplimiento (12-24 meses)
    - **Fase 3:** Integración con AT3 cuando esté disponible (24-36 meses)
    - **Fase 4:** Optimización de cumplimiento (36+ meses)
 
 2. **Gestión Integrada de Riesgos en Penalidades:**
-   - **Monitoreo diario:** Riesgos críticos (ITCS, FENOCO, AT4)
+   - **Monitoreo diario:** Riesgos críticos (PTC, FENOCO, AT4)
    - **Monitoreo semanal:** Riesgos altos (ciberseguridad, redundancia)
    - **Monitoreo mensual:** Riesgos medios (gestión, operación)
 
@@ -306,7 +306,7 @@ Proxima actualizacion: 27/02/2025
 
 | Métrica | Objetivo | Frecuencia | Responsable | Estado |
 |:---|:---:|:---:|:---|:---:|
-| **ITCS ETCS Level 2** | 0 penalidades | Diario | Ing. Sistemas | 🟢 En progreso |
+| **PTC PTC VIRTUAL Level 2** | 0 penalidades | Diario | Ing. Sistemas | 🟢 En progreso |
 | **Interoperabilidad FENOCO** | 0 penalidades | Semanal | Comunicaciones | 🟡 Pendiente |
 | **Disponibilidad AT4** | 0 penalidades | Diario | Ing. Sistemas | 🟢 En progreso |
 | **Ciberseguridad** | 0 penalidades | Diario | Ciberseguridad | 🟡 Pendiente |
@@ -315,12 +315,12 @@ Proxima actualizacion: 27/02/2025
 #### **🚀 PRÓXIMOS PASOS:**
 
 1. **Inmediato (0-3 meses):**
-   - Establecer monitoreo de penalidades ITCS ETCS Level 2
+   - Establecer monitoreo de penalidades PTC PTC VIRTUAL Level 2
    - Implementar seguimiento de penalidades FENOCO
    - Activar monitoreo de penalidades AT4
 
 2. **Mediano plazo (3-24 meses):**
-   - Mantener cumplimiento ITCS con ETCS Level 2
+   - Mantener cumplimiento PTC con PTC VIRTUAL Level 2
    - Coordinar cumplimiento con FENOCO
    - Monitorear cumplimiento de AT4
 
@@ -332,7 +332,7 @@ Proxima actualizacion: 27/02/2025
 #### **✅ CONCLUSIONES:**
 
 El documento ha sido actualizado exitosamente aplicando la metodología Punto 42, integrando:
-- **ITCS ETCS Level 2** en régimen de penalidades
+- **PTC PTC VIRTUAL Level 2** en régimen de penalidades
 - **Interoperabilidad FENOCO** en penalidades por incumplimiento
 - **Criterios AT4** con penalidades por disponibilidad
 - **Ciberseguridad** con penalidades por incumplimiento de seguridad

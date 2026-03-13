@@ -23,7 +23,7 @@ Este documento presenta el análisis detallado de los **190 riesgos identificado
 | **Técnicos** | 126 | 66.3% | Dependencias AT3, interoperabilidad FENOCO, integración de sistemas, redundancia, ciberseguridad |
 | **Contractuales** | 44 | 23.2% | Disponibilidad AT4, cumplimiento de indicadores, licencias y permisos |
 | **Gestión** | 14 | 7.4% | Coordinación de documentos, gestión de sitios, cronogramas |
-| **Operacionales** | 6 | 3.1% | Gestión de redundancia, seguridad ITCS y FENOCO |
+| **Operacionales** | 6 | 3.1% | Gestión de redundancia, seguridad PTC y FENOCO |
 
 ---
 
@@ -31,9 +31,9 @@ Este documento presenta el análisis detallado de los **190 riesgos identificado
 
 ### **TOP 3 RIESGOS CRÍTICOS:**
 
-1. **🚂 Dependencia AT3 para ITCS** (Alta probabilidad, Alto impacto)
+1. **🚂 Dependencia AT3 para PTC** (Alta probabilidad, Alto impacto)
    - **Frecuencia:** 19 documentos afectados
-   - **Descripción:** Operación de sistemas ITCS sin especificaciones AT3
+   - **Descripción:** Operación de sistemas PTC sin especificaciones AT3
    - **Impacto:** Retrasos en implementación, costos adicionales
 
 2. **🔗 Interoperabilidad FENOCO** (Media probabilidad, Alto impacto)

@@ -10,7 +10,7 @@
 
 ## 1. Resumen Ejecutivo
 
-Este documento detalla la ingeniería de los sistemas de seguridad para el proyecto APP La Dorada-Chiriguaná, abarcando la seguridad funcional, ciberseguridad, seguridad física, control de acceso y la integración con sistemas críticos como ITCS y CTC.
+Este documento detalla la ingeniería de los sistemas de seguridad para el proyecto APP La Dorada-Chiriguaná, abarcando la seguridad funcional, ciberseguridad, seguridad física, control de acceso y la integración con sistemas críticos como PTC y CTC.
 
 ### 1.1 Alcance del Sistema de Seguridad
 - **Sistema principal:** Seguridad integral ferroviaria
@@ -81,7 +81,7 @@ Este documento detalla la ingeniería de los sistemas de seguridad para el proye
 ### 3.1 Seguridad Funcional
 
 #### 3.1.1 Objetivos de Seguridad
-- **SIL 4:** ETCS Level 2, RBC, interlocking
+- **SIL 4:** PTC VIRTUAL Level 2, RBC, interlocking
 - **SIL 3:** CTC, comunicaciones críticas
 - **SIL 2:** SCADA, monitoreo
 - **SIL 1:** Sistemas auxiliares
@@ -101,7 +101,7 @@ Este documento detalla la ingeniería de los sistemas de seguridad para el proye
 ### 3.2 Ciberseguridad
 
 #### 3.2.1 Zonas de Seguridad
-- **Zona 0:** Red de control crítico (ITCS, CTC)
+- **Zona 0:** Red de control crítico (PTC, CTC)
 - **Zona 1:** Red de supervisión (SCADA, monitoreo)
 - **Zona 2:** Red administrativa (oficinas, gestión)
 - **Zona 3:** Red externa (internet, proveedores)
@@ -145,7 +145,7 @@ Este documento detalla la ingeniería de los sistemas de seguridad para el proye
 
 ### 4.1 Seguridad Funcional
 
-#### 4.1.1 ETCS Level 2
+#### 4.1.1 PTC VIRTUAL Level 2
 - **Movement Authority:** Autorización de movimiento
 - **Position Report:** Reporte de posición
 - **Emergency Stop:** Parada de emergencia
@@ -154,7 +154,7 @@ Este documento detalla la ingeniería de los sistemas de seguridad para el proye
 
 #### 4.1.2 RBC (Radio Block Centre)
 - **Control de trenes:** Gestión de 24 trenes simultáneos
-- **Comunicación:** GSM-R, FFFIS
+- **Comunicación:** RED TETRA (Misión Crítica), FFFIS
 - **Redundancia:** 2oo3 para máxima disponibilidad
 - **Monitoreo:** Supervisión continua del estado
 
@@ -211,7 +211,7 @@ Este documento detalla la ingeniería de los sistemas de seguridad para el proye
 ### 5.1 Seguridad Funcional (EN 50126/50128/50129)
 
 #### 5.1.1 Objetivos de Seguridad
-- **SIL 4:** ETCS Level 2, RBC, interlocking
+- **SIL 4:** PTC VIRTUAL Level 2, RBC, interlocking
 - **SIL 3:** CTC, comunicaciones críticas
 - **SIL 2:** SCADA, monitoreo
 - **SIL 1:** Sistemas auxiliares
@@ -254,12 +254,12 @@ Este documento detalla la ingeniería de los sistemas de seguridad para el proye
 
 ## 6. Integración y Comunicaciones
 
-### 6.1 Integración ITCS
+### 6.1 Integración PTC
 
-#### 6.1.1 Seguridad ETCS Level 2
+#### 6.1.1 Seguridad PTC VIRTUAL Level 2
 - **SIL 4:** Funciones críticas de seguridad
 - **Redundancia:** 2oo3 en RBC
-- **Comunicación:** GSM-R seguro
+- **Comunicación:** RED TETRA (Misión Crítica) seguro
 - **Monitoreo:** Supervisión continua
 
 #### 6.1.2 Protecciones Específicas
@@ -336,7 +336,7 @@ Este documento detalla la ingeniería de los sistemas de seguridad para el proye
 ### 8.2 Pruebas de Sitio (SAT)
 
 #### 8.2.1 Pruebas de Integración
-- **ITCS:** Pruebas de seguridad ETCS
+- **PTC:** Pruebas de seguridad PTC VIRTUAL
 - **CTC:** Pruebas de seguridad centro de control
 - **Comunicaciones:** Pruebas de seguridad enlaces
 - **Emergencias:** Pruebas de procedimientos
@@ -395,7 +395,7 @@ Este documento detalla la ingeniería de los sistemas de seguridad para el proye
 ### 10.2 Glosario de Términos
 - **SIL:** Safety Integrity Level
 - **RBC:** Radio Block Centre
-- **ETCS:** European Train Control System
+- **PTC VIRTUAL:** European Train Control System
 - **IDS/IPS:** Intrusion Detection/Prevention System
 - **MFA:** Multi-Factor Authentication
 - **RBAC:** Role-Based Access Control

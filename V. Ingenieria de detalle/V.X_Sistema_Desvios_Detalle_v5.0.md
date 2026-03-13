@@ -18,12 +18,12 @@ Los 120 desvíos del corredor se integran en la lógica de señalización virtua
 
 ---
 
-## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE GSM-R/ETCS)
+## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE RED TETRA (Misión Crítica)/PTC VIRTUAL)
 
 Se han corregido los siguientes desvíos técnicos de la v5.0:
-- ✅ **ELIMINADO:** Referencias a "Interfaces GSM-R" en el monitoreo de desvíos. Todo el reporte es vía Fibra/TETRA IP.
-- ✅ **ELIMINADO:** Requisitos de compatibilidad con "Eurobalises de protección de aguja". La protección es 100% lógica/virtual.
-- ✅ **ELIMINADO:** Menciona a "ITCS Alstom" en los protocolos de control de motores.
+- ✅ **ELIMINADO:** Referencias a "Interfaces RED TETRA (Misión Crítica)" en el monitoreo de desvíos. Todo el reporte es vía Fibra/TETRA IP.
+- ✅ **ELIMINADO:** Requisitos de compatibilidad con "Virtual Balise (GNSS)s de protección de aguja". La protección es 100% lógica/virtual.
+- ✅ **ELIMINADO:** Menciona a "PTC Alstom" en los protocolos de control de motores.
 - ✅ **OPTIMIZADO:** Se eliminan los riesgos presupuestales asociados a licencias propietarias para el control de desvíos.
 
 ---

@@ -8,16 +8,16 @@
 ## Fuentes a consolidar
 - III. Ingenieria conceptual/32_Material_Rodante_Integrado_docx_AT1_Cl_13_1_AT2_operaci_n_AT4.md
 - V. Ingenieria de detalle/V.3_Mecanica/V.3.1_Material_Rodante_Detallado.md
-- I. Contrato General/6_Cl_13_1_MaterialRodante_docx_Equipos_embarcados_ITCS_TETRA_MEJORADO.md
+- I. Contrato General/6_Cl_13_1_MaterialRodante_docx_Equipos_embarcados_PTC_TETRA_MEJORADO.md
 
 > **📋 DOCUMENTOS FUENTE CONSOLIDADOS:**
 > - `V. Ingenieria de detalle/V.3_Mecanica/V.3.1_Material_Rodante_Detallado.md`
-> - `I. Contrato General/6_Cl_13_1_MaterialRodante_docx_Equipos_embarcados_ITCS_TETRA_MEJORADO.md`
+> - `I. Contrato General/6_Cl_13_1_MaterialRodante_docx_Equipos_embarcados_PTC_TETRA_MEJORADO.md`
 
 ---
 
 ## 1. Alcance del Sistema
-- Definir especificaciones de material rodante y equipos embarcados (ITCS, TETRA, energía, seguridad).  
+- Definir especificaciones de material rodante y equipos embarcados (PTC, TETRA, energía, seguridad).  
   (Fuentes: 32_Material_Rodante_Integrado; Cl_13_1_MaterialRodante)
 
 ## 2. Trazabilidad Contractual
@@ -32,9 +32,9 @@
 ## 4. Estructura Técnica (índice)
 1. Requisitos funcionales y de desempeño (AT4)  
    - Disponibilidad, fiabilidad, compatibilidad. (AT4; 32_Material_Rodante)
-2. Equipos embarcados (ITCS, TETRA, CCTV, energía)  
+2. Equipos embarcados (PTC, TETRA, CCTV, energía)  
    - Interfaces, alimentación, cableado. (Cl_13_1; V.3.1)
-3. Integración con sistemas de vía y CTC/ITCS  
+3. Integración con sistemas de vía y CTC/PTC  
    - Protocolos, sincronización, pruebas. (32_Material_Rodante)
 4. Seguridad operacional y normativas  
    - EN, UIC, RAMS (EN50126). (V.3.1)
@@ -53,9 +53,9 @@
    
    | Requisito | Evidencia | Fuente |
    |---|---|---|
-   | Equipos ITCS embarcados conformes | Lista de verificación y pruebas embarcadas | Cl_13_1, V.3.1 |
+   | Equipos PTC embarcados conformes | Lista de verificación y pruebas embarcadas | Cl_13_1, V.3.1 |
    | Integración TETRA a bordo | Pruebas de comunicación tierra–tren | Cl_13_1, 27_TETRA |
-   | Interfaces con CTC/ITCS | Logs de mensajes/estados | 32_Material_Rodante |
+   | Interfaces con CTC/PTC | Logs de mensajes/estados | 32_Material_Rodante |
    | Disponibilidad MR según AT4 | KPIs y bitácoras de fallas | AT4 |
 
 ### 9.2 Indicadores Clave de Rendimiento (KPIs) - Detallados
@@ -65,11 +65,11 @@
 | **Disponibilidad material rodante** | 99.95% | En diseño | Monitoreo O&M | Ing. Mecánica | ⏳ |
 | **MTBF equipos embarcados** | >8760h | En diseño | Análisis RAMS | Ing. Mecánica | ⏳ |
 | **MTTR equipos embarcados** | <2h | En diseño | Plan mantenimiento | Ing. Mecánica | ⏳ |
-| **Tasa fallas ITCS embarcado** | <0.1% | En diseño | Logs de fallas | Ing. Mecánica | ⏳ |
+| **Tasa fallas PTC embarcado** | <0.1% | En diseño | Logs de fallas | Ing. Mecánica | ⏳ |
 | **Tiempo recuperación TETRA** | <30min | En diseño | Pruebas de campo | Ing. Mecánica | ⏳ |
 
 11. Criterios de Aceptación (FAT/SAT)
-   - FAT: validación funcional de equipos embarcados (ITCS/TETRA/CCTV/energía).  
+   - FAT: validación funcional de equipos embarcados (PTC/TETRA/CCTV/energía).  
    - SAT: pruebas de integración en material rodante en operación.  
    - Disponibilidad: medición inicial vs. objetivos AT4 y tiempos de recuperación.
 

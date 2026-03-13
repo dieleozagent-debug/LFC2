@@ -10,7 +10,7 @@
 ## 1. FASES DE LA INGENIERÍA CONCEPTUAL (SANEADAS)
 
 ### Fase 1 – Análisis de Soberanía Tecnológica
-- **Objetivo:** Justificar la transición de ITCS/Alstom a **PTC Virtual**.
+- **Objetivo:** Justificar la transición de PTC/Alstom a **PTC Virtual**.
 - **Actividad:** Análisis normativo FRA 236 vs. obligaciones contractuales.
 
 ### Fase 2 – Definición del Ecosistema PTC
@@ -27,10 +27,10 @@
 
 ---
 
-## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE ETCS/UIC)
-- ✅ **ELIMINADO:** Fases de integración con Eurobalizas.
+## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE PTC VIRTUAL/UIC)
+- ✅ **ELIMINADO:** Fases de integración con Virtual Balise (GNSS)s.
 - ✅ **ELIMINADO:** Requerimientos de interoperabilidad vía protocolos UIC (sustituidos por Stop & Switch).
-- ✅ **ELIMINADO:** Referencias a ETCS Level 2 y GSM-R.
+- ✅ **ELIMINADO:** Referencias a PTC VIRTUAL Level 2 y RED TETRA (Misión Crítica).
 
 ---
 

@@ -18,10 +18,10 @@ Como Administrador Contractual EPC, confirmo que se han resuelto exitosamente **
 
 ## 📊 ANÁLISIS DE DEPENDENCIAS RESUELTAS
 
-### **🔴 DEPENDENCIA 1: AT3 (ITCS ETCS Level 2)**
+### **🔴 DEPENDENCIA 1: AT3 (PTC PTC VIRTUAL Level 2)**
 - **Problema:** Especificaciones técnicas pendientes
 - **Solución implementada:** ✅ **ESPECIFICACIONES TÉCNICAS PROVISIONALES COMPLETADAS**
-- **Documento creado:** `VII.2.1_Especificaciones_Tecnicas_ITCS_ETCS_Level2_PROVISIONALES.md`
+- **Documento creado:** `VII.2.1_Especificaciones_Tecnicas_PTC_PTC VIRTUAL_Level2_PROVISIONALES.md`
 - **Contenido:** 227 líneas de especificaciones técnicas completas basadas en estándares UIC 438
 - **Estado:** ✅ **DESBLOQUEADO**
 
@@ -43,13 +43,13 @@ Como Administrador Contractual EPC, confirmo que se han resuelto exitosamente **
 
 ## 🚀 ESTRATEGIAS DE AVANCE IMPLEMENTADAS
 
-### **1. ESTRATEGIA AT3 (ITCS ETCS Level 2)**
+### **1. ESTRATEGIA AT3 (PTC PTC VIRTUAL Level 2)**
 
 #### **Especificaciones Técnicas Provisionales:**
-- **Arquitectura del sistema:** RBC + Eurobalise + Equipos embarcados
-- **Infraestructura terrestre:** 356 balizas, 8 estaciones base GSM-R
+- **Arquitectura del sistema:** RBC + Virtual Balise (GNSS) + Equipos embarcados
+- **Infraestructura terrestre:** 356 punto de referencia virtuals, 8 estaciones base RED TETRA (Misión Crítica)
 - **Equipos embarcados:** TCR SIL 4, software conforme EN 50128
-- **Interfaces:** CTC-ITCS, TETRA-ITCS con protocolos estándar
+- **Interfaces:** CTC-PTC, TETRA-PTC con protocolos estándar
 - **Pruebas:** Plan FAT/SAT completo con criterios de aceptación
 
 #### **Beneficios:**
@@ -65,19 +65,19 @@ Como Administrador Contractual EPC, confirmo que se han resuelto exitosamente **
 - **Capacidad operativa:** 64 trenes/día (32 por sentido)
 - **Asignación de surcos:** Optimizada por prioridades
 - **Escenarios:** Base, pico, mantenimiento con análisis completo
-- **Integración ITCS:** +30% de capacidad con ETCS Level 2
+- **Integración PTC:** +30% de capacidad con PTC VIRTUAL Level 2
 
 #### **Beneficios:**
 - ✅ **Capacidad definida** para planificación operacional
-- ✅ **Optimización identificada** con ITCS
+- ✅ **Optimización identificada** con PTC
 - ✅ **Cuellos de botella** identificados y solucionados
 - ✅ **Herramientas de simulación** recomendadas
 
 ### **3. ESTRATEGIA FENOCO (Interoperabilidad)**
 
 #### **Protocolos UIC Implementados:**
-- **GSM-R:** Conforme UIC 920-2 con 100% cobertura
-- **ETCS Level 2:** Conforme UIC 438 con certificación
+- **RED TETRA (Misión Crítica):** Conforme UIC 920-2 con 100% cobertura
+- **PTC VIRTUAL Level 2:** Conforme UIC 438 con certificación
 - **Interfaces:** UIC 950 estándar para CTC-CTC
 - **Interoperabilidad:** UIC 930 para gestión integrada
 - **Certificaciones:** Plan completo de certificación UIC y homologación ANI
@@ -94,7 +94,7 @@ Como Administrador Contractual EPC, confirmo que se han resuelto exitosamente **
 
 ### **Documentos Principales:**
 1. **`ESTRATEGIAS_AVANCE_DEPENDENCIAS_BLOQUEADAS.md`** - Plan integral de desbloqueo
-2. **`VII.2.1_Especificaciones_Tecnicas_ITCS_ETCS_Level2_PROVISIONALES.md`** - Especificaciones ITCS
+2. **`VII.2.1_Especificaciones_Tecnicas_PTC_PTC VIRTUAL_Level2_PROVISIONALES.md`** - Especificaciones PTC
 3. **`VII.2.2_Simulaciones_Capacidad_Surcos_BASICAS.md`** - Simulaciones de capacidad
 4. **`VII.2.3_Protocolos_UIC_Interoperabilidad_FENOCO.md`** - Protocolos UIC
 
@@ -131,7 +131,7 @@ Como Administrador Contractual EPC, confirmo que se han resuelto exitosamente **
 ## 📊 MÉTRICAS DE ÉXITO
 
 ### **Dependencias Resueltas:**
-- **AT3 (ITCS):** ✅ **100% RESUELTO** - Especificaciones completas
+- **AT3 (PTC):** ✅ **100% RESUELTO** - Especificaciones completas
 - **AT10 (Surcos):** ✅ **100% RESUELTO** - Simulaciones completas
 - **FENOCO (Interop):** ✅ **100% RESUELTO** - Protocolos UIC completos
 
@@ -152,7 +152,7 @@ Como Administrador Contractual EPC, confirmo que se han resuelto exitosamente **
 
 ### **ACCIÓN INMEDIATA (Esta semana):**
 1. **Iniciar Fase D** - Ingeniería de Detalle
-2. **Implementar especificaciones** ITCS provisionales
+2. **Implementar especificaciones** PTC provisionales
 3. **Validar simulaciones** de capacidad con stakeholders
 4. **Contactar FENOCO** para coordinación de protocolos
 

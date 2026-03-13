@@ -9,7 +9,7 @@
 
 ## ✅ **VALIDACIÓN COMPLETADA**
 
-### **BLOCKER-001: Indefinición Sistema ITCS/ETCS L2** 🔴 **CONFIRMADO REAL**
+### **BLOCKER-001: Indefinición Sistema PTC/PTC VIRTUAL L2** 🔴 **CONFIRMADO REAL**
 
 **Fuente:** AT3 - Capítulo VIII (Señalización y Control de Trenes)
 
@@ -20,18 +20,18 @@
 - ✅ Enclavamientos electrónicos normas ET/NAS (Adif España)
 
 **Lo que el contrato NO dice:**
-- ❌ **ITCS (Incremental Train Control System)** - NO mencionado
-- ❌ **ETCS Level 2 (European Train Control System)** - NO mencionado
+- ❌ **PTC (Incremental Train Control System)** - NO mencionado
+- ❌ **PTC VIRTUAL Level 2 (European Train Control System)** - NO mencionado
 - ❌ Arquitectura técnica específica
 - ❌ Protocolos de comunicación detallados
 
 **CONCLUSIÓN:** ✅ **BLOCKER REAL**
 - Contrato menciona normas mixtas (AAR americano + Adif español)
 - **NO define qué sistema implementar**
-- PTC ≠ ETCS Level 2 (son sistemas diferentes)
+- PTC ≠ PTC VIRTUAL Level 2 (son sistemas diferentes)
 - Requiere clarificación formal ANI
 
-**Acción:** Oficiar ANI solicitando definición: ¿PTC americano, ETCS europeo, o CTC español Adif?
+**Acción:** Oficiar ANI solicitando definición: ¿PTC americano, PTC VIRTUAL europeo, o CTC español Adif?
 
 ---
 
@@ -104,7 +104,7 @@
 
 | Blocker | Estado Validación | Fuente Contrato | Criticidad |
 |:--------|:------------------|:----------------|:----------:|
-| **BLOCKER-001** ITCS | ✅ **CONFIRMADO REAL** | AT3 Cap. VIII | 🔴 CRÍTICA |
+| **BLOCKER-001** PTC | ✅ **CONFIRMADO REAL** | AT3 Cap. VIII | 🔴 CRÍTICA |
 | **BLOCKER-002** FENOCO | 🟡 **PARCIAL** | AT10 Cap. IV | 🟠 ALTA |
 | **BLOCKER-003** PAN | ⏳ Pendiente AT1 | AT3 §8.3 + AT1 | 🟡 MEDIA |
 | **BLOCKER-004** MR | ✅ **CONFIRMADO REAL** | AT9 §(h) + AT10 | 🟡 MEDIA |
@@ -127,8 +127,8 @@
 - **Enclavamientos:** Normas Adif (españolas)
 
 **NO mencionados:**
-- ❌ ITCS (Incremental Train Control System)
-- ❌ ETCS (European Train Control System)
+- ❌ PTC (Incremental Train Control System)
+- ❌ PTC VIRTUAL (European Train Control System)
 - ❌ Especificación de cuál usar
 
 ---
@@ -176,7 +176,7 @@
 > sistema específico. Solicitamos clarificación formal:
 >
 > ¿Implementar PTC (americano AAR)?
-> ¿Implementar ETCS Level 2 (europeo UIC)?
+> ¿Implementar PTC VIRTUAL Level 2 (europeo UIC)?
 > ¿Implementar CTC Adif (español)?
 > ¿Implementar solución híbrida?"
 
