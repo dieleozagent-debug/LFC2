@@ -1,13 +1,13 @@
 (function() {
     // Uso de terminología dinámica si está disponible
     const term = window.LFC_TERMINOLOGY || {
-        PROJECT_NAME: "LFC STUDIO",
+        PROJECT: { NAME: "LFC STUDIO" },
         SYSTEMS: { GANTT: "Cronograma" }
     };
 
     const sidebarHTML = `
         <div class="logo" style="padding: 1rem 0; font-size: 1.5rem; font-weight: 800; color: var(--accent); margin-bottom: 3rem; display: flex; align-items: center; gap: 12px; border-bottom: 1px solid var(--glass-border);">
-            <span>📊</span> ${term.PROJECT_NAME}
+            <span>📊</span> ${(term.PROJECT && term.PROJECT.NAME) ? term.PROJECT.NAME : 'LFC STUDIO'}
         </div>
 
         <div class="nav-group" style="margin-bottom: 2rem;">
@@ -20,7 +20,7 @@
             <a href="WBS_COMPLETA_TODO_Interactiva_v4.0.html" class="nav-item" id="nav-wbs">🚀 WBS Interactiva</a>
             <a href="WBS_Reporte_Gerencial.html" class="nav-item" id="nav-report">📋 Reporte Gerencial</a>
             <a href="WBS_Analisis_Riesgos.html" class="nav-item" id="nav-risks">⚠️ Gestión Riesgos</a>
-            <a href="WBS_Cronograma_Propuesta.html" class="nav-item" id="nav-chrono">📅 ${term.SYSTEMS.GANTT}</a>
+            <a href="WBS_Cronograma_Propuesta.html" class="nav-item" id="nav-chrono">📅 ${(term.SYSTEMS && term.SYSTEMS.GANTT) ? term.SYSTEMS.GANTT : 'Cronograma L3'}</a>
             <a href="WBS_Controles_Operativos_L4.html" class="nav-item" id="nav-l4">🛠️ Controles L4</a>
         </div>
 
