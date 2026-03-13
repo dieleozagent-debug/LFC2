@@ -220,8 +220,8 @@ function serve() {
 
     const archivos = fs.readdirSync(carpetaEjecutivos).filter(f => f.endsWith('.md'));
 
-    // FORZAR PANDOC DEL SISTEMA (linux native)
-    const sysPandoc = 'pandoc'; 
+    // USAR PANDOC_PATH DETECTADO
+    const sysPandoc = PANDOC_PATH; 
 
     archivos.forEach(file => {
         const fullPath = path.join(carpetaEjecutivos, file);
