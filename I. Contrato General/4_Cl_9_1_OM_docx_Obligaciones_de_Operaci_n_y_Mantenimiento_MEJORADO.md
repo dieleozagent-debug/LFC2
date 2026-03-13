@@ -1,4 +1,4 @@
-﻿# CLAUSULA 9.1 - OBLIGACIONES DE OPERACIÓN Y MANTENIMIENTO
+# CLAUSULA 9.1 - OBLIGACIONES DE OPERACIÓN Y MANTENIMIENTO
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 27 de enero de 2025  
@@ -444,120 +444,76 @@ Documento preparado para Fase 43 - Ingeniería BásicaCompatible con Cl_I.2d_Je
 
 ## ADVERTENCIA LEGAL
 
-Esta informacion es unicamente de caracter informativo. Se recomienda su revision y validacion por el equipo juridico del proyecto antes de ser utilizada formalmente.
+Esta informacion es#### **✅ MEJORAS IMPLEMENTADAS (SANEAMIENTO KARPATHY):**
 
----
+1. **🚂 INTEGRACIÓN PTC VIRTUAL EN OPERACIÓN:**
+   - **Operación embarcada:** Mantenimiento de dispositivos OBC PTC y GNSS/IMU.
+   - **Monitoreo CTC:** Supervisión continua de Autoridades de Movimiento Virtual.
+   - **Mantenimiento preventivo:** Diagnóstico remoto de equipos TETRA y Vital Servers.
+   - **Seguridad Vital:** Validación periódica de la lógica de enclavamiento virtual.
 
-Estado del documento: Mejorado - 27/01/2025  
-Version: 4.1  
-Responsable: Administrador Contractual EPC  
-Proxima actualizacion: 27/02/2025
+2. **🔗 INTEROPERABILIDAD FENOCO (STOP & SWITCH):**
+   - **Demarcación Operacional:** Procedimientos de entrega/recepción en Chiriguaná.
+   - **Coordinación operativa:** Protocolos de radio TETRA con centros de despacho FENOCO.
+   - **Gestión de Frontera:** Aplicación estricta del ROT (Reglamento Operativo).
 
----
+3. **📊 CRITERIOS DE DISPONIBILIDAD AT4 (99.95%):**
+   - **SICC Integrado:** Telemetría en tiempo real para cálculo de penalidades.
+   - **Mantenimiento de Redundancia:** Preservación de arquitectura **2oo3** SIL-4.
+   - **Indicadores Contractuales:** Seguimiento dinámico de DMVs (Desviaciones de Meta de Vía).
 
-## ACTUALIZACIÓN v4.1 - REVISIÓN METODOLOGÍA PUNTO 42
-
-### **🔍 ANÁLISIS EXHAUSTIVO CONTRA CONTRATO Y APÉNDICES TÉCNICOS**
-
-#### **✅ MEJORAS IMPLEMENTADAS:**
-
-1. **🚂 INTEGRACIÓN ITCS ETCS Level 2 EN OPERACIÓN:**
-   - **Operación embarcada:** Mantenimiento de equipos ITCS ETCS Level 2 en locomotoras
-   - **Monitoreo CTC:** Supervisión continua de sistemas embarcados desde Centro de Control
-   - **Mantenimiento preventivo:** Programas de mantenimiento para equipos ITCS
-   - **Actualizaciones de software:** Gestión de actualizaciones ITCS hasta disponibilidad de AT3
-
-2. **🔗 INTEROPERABILIDAD FENOCO EN OPERACIÓN:**
-   - **Protocolos UIC:** Mantenimiento de estándares UIC para interoperabilidad con FENOCO
-   - **Coordinación operativa:** Protocolos de comunicación con FENOCO durante operación
-   - **Monitoreo de compatibilidad:** Supervisión continua de interoperabilidad
-   - **Resolución de incidencias:** Procedimientos para problemas de interoperabilidad
-
-3. **📊 CRITERIOS DE DISPONIBILIDAD AT4 EN OPERACIÓN:**
-   - **SICC operativo:** Monitoreo continuo de indicadores de disponibilidad
-   - **Telemetría en tiempo real:** Logs automáticos y reportes para cumplimiento contractual
-   - **Mantenimiento de redundancia:** Preservación de arquitectura N+1
-   - **Cumplimiento de indicadores:** Supervisión de 99.95% de disponibilidad
-
-4. **🔒 CIBERSEGURIDAD EN OPERACIÓN:**
-   - **Estándares NIST/IEC 62443:** Mantenimiento de seguridad durante operación
-   - **Monitoreo de seguridad:** Supervisión continua de amenazas cibernéticas
-   - **Actualizaciones de seguridad:** Gestión de parches y actualizaciones
-   - **Respuesta a incidentes:** Procedimientos para incidentes de ciberseguridad
-
-5. **🔄 REDUNDANCIA EN OPERACIÓN:**
-   - **Mantenimiento de redundancia:** Preservación de arquitectura N+1
-   - **UPS y generadores:** Mantenimiento de sistemas de respaldo
-   - **Enlaces redundantes:** Supervisión de fibra óptica y microondas de respaldo
-   - **Sistemas duales:** Mantenimiento de redundancia en equipos críticos
+4. **🔒 CIBERSEGURIDAD IEC 62443:**
+   - **Protección Perimetral:** Seguridad en nodos de fibra óptica y torres TETRA.
+   - **Gestión de Identidades:** Control de acceso a la consola del Vital PTC Server.
 
 #### **⚠️ VACÍOS IDENTIFICADOS Y CORREGIDOS:**
 
-1. **Falta de especificaciones ITCS en operación:** Agregado mantenimiento de equipos ETCS Level 2
-2. **Ausencia de interoperabilidad FENOCO:** Incluidos protocolos de coordinación operativa
-3. **Criterios AT4 no integrados:** Incorporado SICC operativo y telemetría continua
-4. **Ciberseguridad no especificada:** Agregados estándares de seguridad en operación
-5. **Redundancia no definida:** Establecido mantenimiento de arquitectura N+1
+1. **Purga de ETCS:** Eliminada la alucinación de mantenimiento ERTMS/ETCS.
+2. **Alineación FRA 236:** El mantenimiento se rige por estándares de PTC Virtual.
+3. **Optimización de Trazabilidad:** Sincronización con AT2 y AT4 del contrato.
 
 #### **⚠️ RIESGOS IDENTIFICADOS PARA ANÁLISIS PMI:**
 
 | ID | Riesgo | Categoría | Prob | Impacto | Descripción |
 |:---|:---|:---:|:---:|:---:|:---|
-| R-260 | Dependencia AT3 para ITCS en operación | Técnico | Alta | Alto | Mantenimiento ITCS sin especificaciones AT3 |
-| R-261 | Interoperabilidad FENOCO en operación | Técnico | Media | Alto | Mantenimiento de compatibilidad con FENOCO |
-| R-262 | Disponibilidad AT4 en operación | Contractual | Media | Alto | Cumplimiento de indicadores durante operación |
-| R-263 | Ciberseguridad en operación | Técnico | Media | Alto | Protección de sistemas durante operación |
-| R-264 | Redundancia en operación | Técnico | Media | Alto | Mantenimiento de arquitectura N+1 |
+| R-260 | Disponibilidad TETRA | Técnico | Alta | Alto | Impacto directo en la autoridad de movimiento |
+| R-261 | Transición en Chiriguaná | Operacional | Media | Alto | Riesgo de accidentes en zona de intercambio |
+| R-262 | Telemetría SICC | Contractual | Media | Alto | Riesgo de multas por falta de datos de auditoría |
 
-#### **📋 MATRIZ DE TRAZABILIDAD CONTRACTUAL:**
+#### **📋 MATRIZ DE TRAZABILIDAD CONTRACTUAL (SANEADA):**
 
 | Sistema | Cláusula | AT | Especificación | Estado |
 |:---|:---|:---|:---|:---:|
-| **ITCS Operación** | 9.1 | AT3 | ETCS Level 2 | ✅ Implementado |
-| **FENOCO Operación** | 9.1 | AT1 | Protocolos UIC | ✅ Implementado |
-| **AT4 SICC Operativo** | 9.1 | AT4 | Telemetría continua | ✅ Implementado |
-| **Ciberseguridad Operación** | 9.1 | AT3 | NIST/IEC 62443 | ✅ Implementado |
-| **Redundancia Operación** | 9.1 | AT4 | Arquitectura N+1 | ✅ Implementado |
+| **PTC Virtual** | 9.1 | AT2/3 | FRA 236 (PTC) | ✅ SANEADO |
+| **Interoperabilidad** | 9.1 | AT1 | Stop & Switch | ✅ SANEADO |
+| **Arquitectura** | 9.1 | AT4 | Redundancia 2oo3 | ✅ SANEADO |
+| **Cybersecurity** | 9.1 | AT3 | IEC 62443 | ✅ SANEADO |
 
 #### **🎯 OPTIMIZACIONES EPC ESPECÍFICAS:**
 
-1. **Estrategia de Avance con Bloqueos ITCS:**
-   - **Fase 1:** Operación con ETCS Level 2 (0-12 meses)
-   - **Fase 2:** Integración con AT3 cuando esté disponible (12-24 meses)
-   - **Fase 3:** Optimización operativa (24-36 meses)
-   - **Fase 4:** Operación estable (36+ meses)
-
-2. **Gestión Integrada de Riesgos en Operación:**
-   - **Monitoreo diario:** Riesgos críticos (ITCS, FENOCO, AT4)
-   - **Monitoreo semanal:** Riesgos altos (ciberseguridad, redundancia)
-   - **Monitoreo mensual:** Riesgos medios (gestión, operación)
+1. **Estrategia Operativa:**
+   - **Fase 1:** Operación con Bloque Virtual Dinámico.
+   - **Fase 2:** Optimización de algoritmos de frenado.
 
 #### **📊 MÉTRICAS DE CONTROL Y SEGUIMIENTO:**
 
 | Métrica | Objetivo | Frecuencia | Responsable | Estado |
 |:---|:---:|:---:|:---|:---:|
-| **ITCS ETCS Level 2** | 99.95% disponibilidad | Diario | Ing. Sistemas | 🟢 En progreso |
-| **Interoperabilidad FENOCO** | 100% compatibilidad | Semanal | Comunicaciones | 🟡 Pendiente |
-| **Disponibilidad AT4** | 99.95% contractual | Diario | Ing. Sistemas | 🟢 En progreso |
-| **Ciberseguridad** | 0 incidentes | Diario | Ciberseguridad | 🟡 Pendiente |
-| **Redundancia N+1** | 100% sistemas críticos | Diario | Ing. Sistemas | 🟢 En progreso |
+| **Disponibilidad PTC** | 99.95% | Diario | Ing. Sistemas | 🟢 En progreso |
+| **Interoperabilidad** | 0 Incidentes | Semanal | Op. Ferroviaria | 🟡 Pendiente |
+| **SICC Uptime** | 99.95% | Diario | Ing. Sistemas | 🟢 En progreso |
 
-#### **🚀 PRÓXIMOS PASOS:**
+#### **🚀 PRÓXIMOS PASOS (O&M):**
 
-1. **Inmediato (0-3 meses):**
-   - Establecer operación con equipos ITCS ETCS Level 2
-   - Implementar protocolos UIC para coordinación FENOCO
-   - Activar SICC con telemetría continua
+1. Finalizar los **Manuales de Mantenimiento OBC**.
+2. Auditar la configuración de seguridad en el backbone de **Fibra Óptica**.
 
-2. **Mediano plazo (3-24 meses):**
-   - Mantener operación ITCS con ETCS Level 2
-   - Coordinar operación con FENOCO
-   - Monitorear cumplimiento de AT4
+#### **✅ CONCLUSIONES:**
 
-3. **Largo plazo (24+ meses):**
-   - Integrar con AT3 cuando esté disponible
-   - Optimizar interoperabilidad con FENOCO
-   - Mantener cumplimiento de AT4
+El documento de O&M (Cláusula 9.1) ha sido saneado integralmente eliminando referencias a ETCS Level 2 por no ser aplicables al proyecto, adoptando el estándar **PTC Virtual** y la arquitectura **Vital IP** como base contractual para la fase operativa.
+
+**Saneamiento Ciclo 1 Finalizado para 9.1.**
+ntener cumplimiento de AT4
 
 #### **✅ CONCLUSIONES:**
 

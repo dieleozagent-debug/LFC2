@@ -46,7 +46,7 @@ Abrir: IX. WBS y Planificacion/WBS_Menu_Principal.html
 
 ### **🎯 CRITERIOS TÉCNICOS REFINADOS:**
 - **Señalización Virtual:** CTC + ATP embarcado (eliminada señalización física)
-- **Comunicaciones:** TETRA + GSM-R con redundancia satelital
+- **Comunicaciones:** TETRA (Red única de misión crítica)
 - **Fibra Óptica:** 594 km con cajas 80x80 cada 300m (costado derecho)
 - **Puentes:** 4 cajas 80x80 por puente
 - **Equipos:** 1 fusionadora, 1 OTDR, insumos para 200 equipos
@@ -193,17 +193,18 @@ Abrir: IX. WBS y Planificacion/WBS_Menu_Principal.html
 ### **VII. SOPORTE ESPECIALIZADO (14 documentos)**
 | Documento | Archivo | Estado | Fecha |
 |:---|:---|:---:|:---:|
-| **Especificaciones ITCS ETCS Level 2** | `VII. Soporte Especializado/VII.2_Especificaciones/VII.2.1_SRS_ITCS_ETCS_Level2_v1.0.md` | ✅ | 02/10/2025 |
-| **Arquitectura RBC Redundancia 2OO3** | `VII. Soporte Especializado/VII.2_Especificaciones/VII.2.2_Arquitectura_RBC_Redundancia_2OO3.md` | ✅ | 02/10/2025 |
-| **Plan Eurobalise Ubicación 150m** | `VII. Soporte Especializado/VII.2_Especificaciones/VII.2.3_Plan_Eurobalise_Ubicacion_150m.md` | ✅ | 02/10/2025 |
-| **Interfaces CTC ITCS Protocolo FFFIS** | `VII. Soporte Especializado/VII.2_Especificaciones/VII.2.4_Interfaces_CTC_ITCS_Protocolo_FFFIS.md` | ✅ | 02/10/2025 |
-| **Revisión Disponibilidad 100% 99.95** | `VII. Soporte Especializado/VII.2_Especificaciones/VII.2.5_Revision_Disponibilidad_100_Porciento_99.95.md` | ✅ | 02/10/2025 |
-| **Interlocking Tables 5 Estaciones** | `VII. Soporte Especializado/VII.2_Especificaciones/VII.2.6_Interlocking_Tables_5_Estaciones.md` | ✅ | 02/10/2025 |
-| **Especificaciones STM Embarcadas** | `VII. Soporte Especializado/VII.2_Especificaciones/VII.2.7_Especificaciones_STM_Embarcadas.md` | ✅ | 02/10/2025 |
-| **Arquitectura Software CTC** | `VII. Soporte Especializado/VII.2_Especificaciones/VII.2.8_Arquitectura_Software_CTC.md` | ✅ | 02/10/2025 |
-| **Análisis RAMS EN50126** | `VII. Soporte Especializado/VII.2_Especificaciones/VII.2.9_Analisis_RAMS_EN50126.md` | ✅ | 02/10/2025 |
-| **Plan Verificación Validación Completo** | `VII. Soporte Especializado/VII.2_Especificaciones/VII.2.10_Plan_Verificacion_Validacion_Completo.md` | ✅ | 02/10/2025 |
-| **Cybersecurity IEC62443** | `VII. Soporte Especializado/VII.2_Especificaciones/VII.2.11_Cybersecurity_IEC62443.md` | ✅ | 02/10/2025 |
+| **SRS PTC Virtual (Standard FRA 236)** | `VII. Soporte Especializado/VII.2_Especificaciones/VII.2.1_SRS_PTC_VIRTUAL_v2.0.md` | ✅ | 13/03/2026 |
+| **Arquitectura Vital PTC Server (2oo3)** | `VII. Soporte Especializado/VII.2_Especificaciones/VII.2.2_Arquitectura_VITAL_SERVER_PTC.md` | ✅ | 13/03/2026 |
+| **Plan de Posicionamiento (GPS/IMU)** | `VII. Soporte Especializado/VII.2_Especificaciones/VII.2.3_Plan_POSICIONAMIENTO_GPS_IMU.md` | ✅ | 13/03/2026 |
+| **Interfaces Vital IP (FRA-Compliant)** | `VII. Soporte Especializado/VII.2_Especificaciones/VII.2.4_INTERFACES_VITAL_IP.md` | ✅ | 13/03/2026 |
+| **Revisión Disponibilidad PTC (99.95%)** | `VII. Soporte Especializado/VII.2_Especificaciones/VII.2.5_Revision_Disponibilidad_PTC_99.95.md` | ✅ | 13/03/2026 |
+| **Enclavamiento Virtual y ATP PTC** | `VII. Soporte Especializado/VII.2_Especificaciones/VII.2.6_ENCLAVAMIENTO_VIRTUAL_ATP.md` | ✅ | 13/03/2026 |
+| **Especificaciones OBC (On-Board)** | `VII. Soporte Especializado/VII.2_Especificaciones/VII.2.7_ESPECIFICACIONES_OBC_OATC.md` | ✅ | 13/03/2026 |
+| **Arquitectura Software CTC (Virtual)** | `VII. Soporte Especializado/VII.2_Especificaciones/VII.2.8_ARQUITECTURA_SOFTWARE_CTC.md` | ✅ | 13/03/2026 |
+| **Análisis RAMS PTC Virtual (SIL-4)** | `VII. Soporte Especializado/VII.2_Especificaciones/VII.2.9_ANALISIS_RAMS_PTC.md` | ✅ | 13/03/2026 |
+| **Plan V&V (PTC / TETRA / FRA 236)** | `VII. Soporte Especializado/VII.2_Especificaciones/VII.2.10_PLAN_VV_PTC.md` | ✅ | 13/03/2026 |
+| **Ciberseguridad PTC (IEC 62443)** | `VII. Soporte Especializado/VII.2_Especificaciones/VII.2.11_CYBERSECURITY_PTC.md` | ✅ | 13/03/2026 |
+| **Protocolo Interoperabilidad S&S** | `VII. Soporte Especializado/VII.2_Especificaciones/VII.2.3_Protocolo_STOP_AND_SWITCH.md` | ✅ | 13/03/2026 |
 
 #### **VII.1_NORMATIVIDAD (4 documentos)**
 | Documento | Archivo | Estado | Fecha |

@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LFC Dashboard - WBS Interactiva v5.0 Premium</title>
+    <title>LFC Dashboard - Portal de Gestión Documental Premium</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --primary: hsl(210, 30%, 20%);
-            --accent: hsl(45, 100%, 50%);
-            --success: hsl(150, 60%, 40%);
-            --glass: rgba(255, 255, 255, 0.05);
-            --glass-border: rgba(255, 255, 255, 0.15);
-            --text-main: #ffffff;
-            --text-muted: rgba(255, 255, 255, 0.7);
+            --primary: #0a192f;
+            --accent: #ffd700;
+            --accent-soft: rgba(255, 215, 0, 0.1);
+            --success: #64ffda;
+            --text-main: #e6f1ff;
+            --text-muted: #8892b0;
+            --glass: rgba(255, 255, 255, 0.03);
+            --glass-border: rgba(255, 255, 255, 0.1);
+            --sidebar-width: 280px;
         }
 
         * {
@@ -23,34 +25,92 @@
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
             font-family: 'Inter', sans-serif;
-            background: radial-gradient(circle at top left, #1e3c72, #2a5298, #1a1a1a);
+            background: radial-gradient(circle at 0% 0%, #112240 0%, #0a192f 100%);
             color: var(--text-main);
-            padding: 2.5rem;
             min-height: 100vh;
+            display: flex;
+            overflow-x: hidden;
         }
-        
-        .container {
-            max-width: 1600px;
-            margin: 0 auto;
-            background: rgba(255, 255, 255, 0.03);
+
+        /* Sidebar Navigation */
+        .sidebar {
+            width: var(--sidebar-width);
+            background: rgba(10, 25, 47, 0.8);
             backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-            border: 1px solid var(--glass-border);
-            border-radius: 24px;
-            box-shadow: 0 40px 100px rgba(0,0,0,0.5);
-            overflow: hidden;
+            border-right: 1px solid var(--glass-border);
+            height: 100vh;
+            position: fixed;
+            padding: 2rem 1.5rem;
+            display: flex;
+            flex-direction: column;
+            z-index: 100;
         }
-        
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--accent);
+            margin-bottom: 3rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .nav-group {
+            margin-bottom: 2rem;
+        }
+
+        .nav-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+            padding-left: 0.5rem;
+        }
+
+        .nav-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 0.8rem 1rem;
+            color: var(--text-main);
+            text-decoration: none;
+            border-radius: 12px;
+            transition: all 0.3s;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+            border: 1px solid transparent;
+        }
+
+        .nav-item:hover {
+            background: var(--glass);
+            color: var(--accent);
+            border-color: var(--glass-border);
+            transform: translateX(5px);
+        }
+
+        .nav-item.active {
+            background: var(--accent-soft);
+            color: var(--accent);
+            border-color: var(--accent);
+        }
+
+        /* Main Content */
+        .main-content {
+            margin-left: var(--sidebar-width);
+            flex: 1;
+            padding: 3rem;
+            max-width: 1400px;
+        }
+
         .header {
-            background: linear-gradient(to bottom, rgba(255,255,255,0.05), transparent);
-            padding: 4rem 2rem;
-            text-align: center;
-            border-bottom: 1px solid var(--glass-border);
+            margin-bottom: 4rem;
         }
-        
+
         .header h1 {
             font-size: 3rem;
             font-weight: 700;
@@ -58,471 +118,233 @@
             background: linear-gradient(to right, #fff, var(--accent));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            margin-bottom: 0.5rem;
+            margin-bottom: 1rem;
         }
 
         .header p {
-            font-weight: 300;
-            opacity: 0.7;
-            letter-spacing: 1px;
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            max-width: 600px;
         }
-        
-        .stats-bar {
-            background: rgba(0,0,0,0.2);
+
+        /* Stats Grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 4rem;
+        }
+
+        .stat-card {
+            background: var(--glass);
+            border: 1px solid var(--glass-border);
             padding: 2rem;
-            display: flex;
-            justify-content: space-around;
-            border-bottom: 1px solid var(--glass-border);
+            border-radius: 24px;
+            transition: all 0.4s;
         }
-        
-        .stat-item {
-            text-align: center;
+
+        .stat-card:hover {
+            transform: translateY(-10px);
+            background: rgba(255, 255, 255, 0.05);
+            border-color: var(--accent);
         }
-        
+
         .stat-value {
             font-size: 2.5rem;
             font-weight: 700;
             color: var(--accent);
-            text-shadow: 0 0 20px rgba(255, 193, 7, 0.3);
-        }
-        
-        .stat-label {
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            opacity: 0.5;
-            margin-top: 0.5rem;
-        }
-        
-        .filtros {
-            padding: 1.5rem 2.5rem;
-            background: rgba(255,255,255,0.02);
-            border-bottom: 1px solid var(--glass-border);
-            display: flex;
-            gap: 1rem;
-            flex-wrap: wrap;
-            align-items: center;
-        }
-        
-        .filtro-btn {
-            padding: 0.7rem 1.4rem;
-            border: 1px solid var(--glass-border);
-            background: rgba(255,255,255,0.05);
-            color: white;
-            border-radius: 50px;
-            cursor: pointer;
-            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            font-size: 0.85rem;
-            font-weight: 500;
-        }
-        
-        .filtro-btn:hover {
-            background: white;
-            color: black;
-            transform: translateY(-3px);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-        }
-        
-        .filtro-btn.activo {
-            background: var(--accent);
-            color: var(--primary);
-            border-color: var(--accent);
-            box-shadow: 0 0 20px rgba(255, 193, 7, 0.4);
-        }
-        
-        .btn-nuevo-capitulo {
-            padding: 0.8rem 1.6rem;
-            background: transparent;
-            color: white;
-            border: 1px solid white;
-            border-radius: 50px;
-            cursor: pointer;
-            font-weight: 600;
-            margin-left: auto;
-            transition: all 0.3s;
-        }
-        
-        .btn-nuevo-capitulo:hover {
-            background: white;
-            color: black;
-        }
-        
-        .capitulo-seccion {
-            margin: 2.5rem;
-        }
-        
-        .capitulo-header {
-            background: rgba(255,255,255,0.05);
-            padding: 1.5rem 2rem;
-            border-radius: 16px;
-            margin-bottom: 2rem;
-            cursor: pointer;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border: 1px solid var(--glass-border);
-            transition: all 0.3s;
-        }
-        
-        .capitulo-header:hover {
-            background: rgba(255,255,255,0.1);
-            transform: scale(1.01);
-        }
-        
-        .capitulo-titulo {
-            font-size: 1.25rem;
-            font-weight: 600;
-            color: var(--accent);
-        }
-        
-        .capitulo-count {
-            background: rgba(255, 255, 255, 0.1);
-            color: white;
-            padding: 0.4rem 1.2rem;
-            border-radius: 30px;
-            font-size: 0.8rem;
-            border: 1px solid var(--glass-border);
-        }
-        
-        .item-card {
-            margin-bottom: 1.5rem;
-            border: 1px solid var(--glass-border);
-            border-radius: 16px;
-            overflow: hidden;
-            background: rgba(255,255,255,0.02);
-            transition: all 0.4s;
-        }
-        
-        .item-card:hover {
-            background: rgba(255,255,255,0.05);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
-            transform: translateX(10px);
-        }
-        
-        .item-header {
-            padding: 1.2rem 2rem;
-            background: rgba(255,255,255,0.03);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 1px solid var(--glass-border);
-        }
-        
-        .item-codigo {
-            font-weight: 700;
-            font-size: 1.1rem;
-            color: var(--accent);
-        }
-        
-        .item-modificable {
-            border: 1px solid var(--success);
-            color: var(--success);
-            padding: 0.3rem 1rem;
-            border-radius: 30px;
-            font-size: 0.7rem;
-            font-weight: 700;
-            text-transform: uppercase;
-        }
-        
-        .item-body {
-            padding: 2rem;
-        }
-        
-        .item-descripcion {
-            font-size: 1.1rem;
-            font-weight: 400;
-            margin-bottom: 2rem;
-            line-height: 1.6;
-        }
-        
-        .item-valores {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 2rem;
-            padding: 2rem;
-            background: rgba(0,0,0,0.2);
-            border-radius: 12px;
-        }
-        
-        .valor-box {
-            text-align: left;
-        }
-        
-        .valor-label {
-            font-size: 0.7rem;
-            color: white;
-            opacity: 0.5;
-            text-transform: uppercase;
-            letter-spacing: 1px;
             margin-bottom: 0.5rem;
         }
-        
-        .valor-dato {
-            font-size: 1.2rem;
-            font-weight: 600;
+
+        .stat-label {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
         }
-        
-        .botones-accion {
-            display: flex;
-            gap: 1rem;
+
+        /* Tools Grid */
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
             margin-top: 2rem;
         }
-        
-        .btn {
-            padding: 0.8rem 1.6rem;
-            border: none;
-            border-radius: 50px;
-            cursor: pointer;
-            font-weight: 600;
-            transition: all 0.3s;
-            font-size: 0.85rem;
+
+        .tool-card {
+            background: var(--glass);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            padding: 2.5rem;
+            transition: all 0.4s;
+            position: relative;
+            overflow: hidden;
+            text-decoration: none;
+            color: inherit;
         }
-        
-        .btn-dt {
+
+        .tool-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(to right, var(--accent), transparent);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .tool-card:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: var(--glass-border);
+            transform: scale(1.02);
+        }
+
+        .tool-card:hover::before {
+            opacity: 1;
+        }
+
+        .tool-icon {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .tool-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #fff;
+            margin-bottom: 1rem;
+        }
+
+        .tool-desc {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background: var(--accent-soft);
+            color: var(--accent);
+            border: 1px solid var(--accent);
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        .tool-card:hover .btn {
             background: var(--accent);
             color: var(--primary);
         }
-        
-        .btn-dt:hover {
-            transform: scale(1.05);
-            box-shadow: 0 0 20px rgba(255, 193, 7, 0.4);
-        }
-        
-        /* Modal Glass */
-        .modal {
-            display: none;
-            position: fixed;
-            z-index: 1000;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0,0,0,0.8);
-            backdrop-filter: blur(10px);
-        }
-        
-        .modal-content {
-            background: rgba(30, 30, 30, 0.95);
-            margin: 5% auto;
-            padding: 0;
-            border: 1px solid var(--glass-border);
-            width: 90%;
-            max-width: 800px;
-            border-radius: 24px;
-            box-shadow: 0 50px 100px rgba(0,0,0,0.8);
-        }
-        
-        .modal-header {
-            padding: 2.5rem;
-            border-bottom: 1px solid var(--glass-border);
-        }
-        
-        .close {
-            color: white;
-            opacity: 0.5;
-            float: right;
-            font-size: 2rem;
-            cursor: pointer;
-        }
-        
-        .modal-body {
-            padding: 3rem;
-            color: white;
-        }
-        
-        .form-control {
-            background: rgba(255,255,255,0.05);
-            border: 1px solid var(--glass-border);
-            color: white;
-            padding: 1rem;
-            border-radius: 12px;
-            width: 100%;
-            font-family: 'Inter', sans-serif;
-        }
 
-        .oculto {
-            display: none !important;
+        /* Mobile nav toggle (simplified) */
+        @media (max-width: 1024px) {
+            .sidebar { transform: translateX(-100%); }
+            .main-content { margin-left: 0; padding: 2rem; }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>📊 WBS PRESUPUESTAL COMPLETA v5.0</h1>
-            <p>APP La Dorada-Chiriguaná | Gestión Ejecutiva Premium</p>
+    <nav class="sidebar">
+        <div class="logo">
+            <span>📊</span> LFC DASHBOARD
         </div>
 
-        <div class="stats-bar">
-            <div class="stat-item">
-                <div class="stat-value" id="total-items">0</div>
-                <div class="stat-label">ÍTEMS TOTALES</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-value" id="total-capitulos">6</div>
-                <div class="stat-label">CAPÍTULOS</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-value" id="total-modificables">0</div>
-                <div class="stat-label">MODIFICABLES</div>
-            </div>
+        <div class="nav-group">
+            <div class="nav-label">Core Project</div>
+            <a href="index.html" class="nav-item active">🏠 Dashboard Principal</a>
+            <a href="README.md" class="nav-item">📖 Navegación README</a>
+            <a href="Indice_Maestro_Consolidado_v1.0.md" class="nav-item">🗂️ Índice Maestro</a>
         </div>
 
-        <div class="filtros">
-            <button class="filtro-btn activo" onclick="filtrarItems('todos')">📋 Todos</button>
-            <button class="filtro-btn" onclick="filtrarItems('capitulo-1')">Cap 1: Control</button>
-            <button class="filtro-btn" onclick="filtrarItems('capitulo-2')">Cap 2: Telecom</button>
-            <button class="filtro-btn" onclick="filtrarItems('capitulo-3')">Cap 3: Seguridad</button>
-            <button class="filtro-btn" onclick="filtrarItems('capitulo-4')">Cap 4: Pasos Nivel</button>
-            <button class="filtro-btn" onclick="filtrarItems('capitulo-5')">Cap 5: Centro Control</button>
-            <button class="filtro-btn" onclick="filtrarItems('capitulo-6')">Cap 6: Material Rodante</button>
-            <button class="btn-nuevo-capitulo" onclick="abrirModalNuevoCapitulo()">➕ Proponer Nuevo Capítulo</button>
+        <div class="nav-group">
+            <div class="nav-label">Fases de Ingeniería</div>
+            <a href="I. Contrato General/" class="nav-item">📜 Fase 0: Contrato</a>
+            <a href="III. Ingenieria conceptual/" class="nav-item">💡 Fase B: Conceptual</a>
+            <a href="IV. Ingenieria básica/" class="nav-item">🏗️ Fase C: Básica</a>
+            <a href="V. Ingenieria de detalle/" class="nav-item">🔍 Fase D: Detalle</a>
         </div>
 
-        <div id="wbs-container">
-            <!-- Los capítulos e ítems se cargan aquí dinámicamente -->
+        <div class="nav-group">
+            <div class="nav-label">Herramientas</div>
+            <a href="IX. WBS y Planificacion/WBS_Menu_Principal.html" class="nav-item">🎯 Menú WBS</a>
+            <a href="Reportes/" class="nav-item">📈 Reportes Generales</a>
+            <a href="scripts/README_SCRIPTS.md" class="nav-item">⚙️ Automatización</a>
         </div>
-    </div>
+    </nav>
 
-    <!-- Modal DT -->
-    <div id="modalDT" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <span class="close" onclick="cerrarModal('modalDT')">&times;</span>
-                <h2 id="modal-dt-titulo">Crear Decisión Técnica</h2>
+    <main class="main-content">
+        <header class="header">
+            <h1>Ecosistema Documental LFC</h1>
+            <p>Portal ejecutivo centralizado para la APP La Dorada-Chiriguaná. Gestión de ingeniería, cumplimiento contractual y control presupuestal v5.0.</p>
+        </header>
+
+        <section class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-value" id="count-items">124</div>
+                <div class="stat-label">Ítems WBS</div>
             </div>
-            <div class="modal-body" id="modal-dt-body">
-                <!-- Contenido dinámico -->
+            <div class="stat-card">
+                <div class="stat-value">181</div>
+                <div class="stat-label">Documentos Totales</div>
             </div>
+            <div class="stat-card">
+                <div class="stat-value">$287.8B</div>
+                <div class="stat-label">Presupuesto (COP)</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">100%</div>
+                <div class="stat-label">Coherencia Técnica</div>
+            </div>
+        </section>
+
+        <h2 style="margin-bottom: 2rem;">Acceso Rápido a Herramientas WBS</h2>
+        <div class="tools-grid">
+            <a href="IX. WBS y Planificacion/WBS_COMPLETA_TODO_Interactiva_v4.0.html" class="tool-card">
+                <div class="tool-icon">🚀</div>
+                <div class="tool-title">WBS Interactiva v4.0</div>
+                <div class="tool-desc">Gestión dinámica de todos los capítulos presupuestales. Permite proponer cambios técnicos y ver impactos en tiempo real.</div>
+                <span class="btn">Abrir WBS</span>
+            </a>
+
+            <a href="IX. WBS y Planificacion/WBS_Reporte_Gerencial.html" class="tool-card">
+                <div class="tool-icon">📋</div>
+                <div class="tool-title">Reporte Gerencial</div>
+                <div class="tool-desc">Análisis de alto nivel, justificación de cantidades y supuestos críticos de ingeniería para stakeholders ejecutivos.</div>
+                <span class="btn">Abrir Reporte</span>
+            </a>
+
+            <a href="IX. WBS y Planificacion/WBS_Analisis_Riesgos.html" class="tool-card">
+                <div class="tool-icon">⚠️</div>
+                <div class="tool-title">Gestión de Riesgos</div>
+                <div class="tool-desc">Matriz de riesgos dinámica integrada con el presupuesto. Monitoreo constante de amenazas y planes de mitigación.</div>
+                <span class="btn">Ver Riesgos</span>
+            </a>
+
+            <a href="IX. WBS y Planificacion/WBS_Cronograma_Propuesta.html" class="tool-card">
+                <div class="tool-icon">📅</div>
+                <div class="tool-title">Cronograma Maestro</div>
+                <div class="tool-desc">Plan timeline del proyecto con hitos críticos, fases de pre-construcción y despliegue de sistemas.</div>
+                <span class="btn">Ver Cronograma</span>
+            </a>
         </div>
-    </div>
+    </main>
 
-    <!-- Modal Nuevo Capítulo -->
-    <div id="modalNuevoCapitulo" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <span class="close" onclick="cerrarModal('modalNuevoCapitulo')">&times;</span>
-                <h2>➕ Proponer Nuevo Capítulo</h2>
-            </div>
-            <div class="modal-body">
-                <div class="form-group">
-                    <label class="form-label">Número de Capítulo:</label>
-                    <input type="number" id="nuevo-cap-numero" class="form-control" value="7" min="7" max="20">
-                </div>
-                
-                <div class="form-group">
-                    <label class="form-label">Nombre del Capítulo:</label>
-                    <input type="text" id="nuevo-cap-nombre" class="form-control" placeholder="Ej: SISTEMAS DE ENERGÍA">
-                </div>
-                
-                <div class="form-group" style="margin-top: 20px;">
-                    <label class="form-label">Descripción del Capítulo:</label>
-                    <textarea id="nuevo-cap-descripcion" class="form-control" rows="4" placeholder="Describe el alcance y contenido del nuevo capítulo..."></textarea>
-                </div>
-                
-                <div class="form-group" style="margin-top: 20px;">
-                    <label class="form-label">Justificación Técnica:</label>
-                    <textarea id="nuevo-cap-justificacion" class="form-control" rows="4" placeholder="Por qué se necesita este nuevo capítulo..."></textarea>
-                </div>
-                
-                <div class="form-group" style="margin-top: 20px;">
-                    <label class="form-label">Presupuesto Estimado (COP):</label>
-                    <input type="number" id="nuevo-cap-presupuesto" class="form-control" placeholder="Estimación inicial">
-                </div>
-                
-                <div style="display: flex; gap: 10px; margin-top: 30px;">
-                    <button class="btn btn-dt" onclick="generarDTNuevoCapitulo()">📋 Generar DT de Nuevo Capítulo</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Cargar datos desde archivos JS -->
-    <script src="datos_wbs_TODOS_items.js?v=2.0.0"></script>
-    
+    <script src="IX. WBS y Planificacion/datos_wbs_TODOS_items.js?v=5.0.0"></script>
     <script>
-        // Lógica de filtrado y carga dinámica (Simplificada para v5.0)
-        let wbsData = window.datos_wbs || { items: [] };
-        
-        function cargarWBS() {
-            const container = document.getElementById('wbs-container');
-            container.innerHTML = '';
-            
-            const itemsPorCapitulo = {};
-            wbsData.items.forEach(item => {
-                const cap = item.codigo.split('.')[0];
-                if (!itemsPorCapitulo[cap]) itemsPorCapitulo[cap] = [];
-                itemsPorCapitulo[cap].push(item);
-            });
-
-            document.getElementById('total-items').textContent = wbsData.items.length;
-            document.getElementById('total-modificables').textContent = wbsData.items.filter(i => i.modificable).length;
-
-            Object.keys(itemsPorCapitulo).sort().forEach(cap => {
-                const seccion = document.createElement('div');
-                seccion.className = 'capitulo-seccion';
-                seccion.dataset.capitulo = cap;
-                
-                const names = {
-                    '1': 'Control y Señalización',
-                    '2': 'Telecomunicaciones',
-                    '3': 'ITS y Seguridad',
-                    '4': 'Pasos a Nivel',
-                    '5': 'Centro de Control',
-                    '6': 'Material Rodante'
-                };
-
-                seccion.innerHTML = `
-                    <div class="capitulo-header" onclick="toggleCapitulo('${cap}')">
-                        <div class="capitulo-titulo">CAPÍTULO ${cap}: ${names[cap] || 'Otros'}</div>
-                        <div class="capitulo-count">${itemsPorCapitulo[cap].length} ítems</div>
-                    </div>
-                    <div id="items-capitulo-${cap}">
-                        ${itemsPorCapitulo[cap].map(item => `
-                            <div class="item-card">
-                                <div class="item-header">
-                                    <div class="item-codigo">${item.codigo}</div>
-                                    <div class="item-modificable">V3.0 Saneado</div>
-                                </div>
-                                <div class="item-body">
-                                    <div class="item-descripcion">${item.descripcion}</div>
-                                    <div class="item-valores">
-                                        <div class="valor-box"><div class="valor-label">Cantidad</div><div class="valor-dato">${item.cantidad}</div></div>
-                                        <div class="valor-box"><div class="valor-label">Unidad</div><div class="valor-dato">${item.unidad}</div></div>
-                                        <div class="valor-box"><div class="valor-label">Total (COP)</div><div class="valor-dato">$${item.total_cop.toLocaleString()}</div></div>
-                                    </div>
-                                    <div class="botones-accion">
-                                        <button class="btn btn-dt" onclick="abrirModalDT('${item.codigo}')">PROPONER CAMBIO</button>
-                                    </div>
-                                </div>
-                            </div>
-                        `).join('')}
-                    </div>
-                `;
-                container.appendChild(seccion);
-            });
-        }
-
-        function toggleCapitulo(cap) {
-            const el = document.getElementById(`items-capitulo-${cap}`);
-            el.classList.toggle('oculto');
-        }
-
-        function filtrarItems(filtro) {
-            const secciones = document.querySelectorAll('.capitulo-seccion');
-            document.querySelectorAll('.filtro-btn').forEach(btn => btn.classList.remove('activo'));
-            event.target.classList.add('activo');
-            
-            secciones.forEach(s => {
-                if (filtro === 'todos') s.style.display = 'block';
-                else s.style.display = filtro.endsWith(s.dataset.capitulo) ? 'block' : 'none';
-            });
-        }
-
-        function abrirModalDT(codigo) { document.getElementById('modalDT').style.display = 'block'; }
-        function abrirModalNuevoCapitulo() { document.getElementById('modalNuevoCapitulo').style.display = 'block'; }
-        function cerrarModal(id) { document.getElementById(id).style.display = 'none'; }
-
-        window.onload = cargarWBS;
+        document.addEventListener('DOMContentLoaded', () => {
+            // Cargar datos dinámicos si están disponibles
+            if (window.datos_wbs && window.datos_wbs.items) {
+                document.getElementById('count-items').textContent = window.datos_wbs.items.length;
+            } else {
+                // Fallback a 0 si no hay datos o los ítems están vacíos
+                document.getElementById('count-items').textContent = '0';
+            }
+        });
     </script>
 </body>
 </html>

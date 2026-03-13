@@ -28,7 +28,7 @@ Este documento establece los **criterios técnicos maestros** que deben mantener
 | Criterio | Valor | Justificación | Documentos Afectados |
 |----------|-------|---------------|---------------------|
 | **Señalización** | **VIRTUAL** | Eliminar infraestructura física en vía | WBS, AT1-3, Planos |
-| **Comunicación** | **TETRA + GSM-R** | Redundancia según contrato | WBS, AT4, Especificaciones |
+| **Comunicación** | **TETRA** | Red única de misión crítica (según DBCD) | WBS, AT4, Especificaciones |
 | **Control** | **CTC Centralizado** | Gestión unificada desde CCO | WBS, AT1, Manuales |
 | **Energía** | **UPS + Generadores críticos** | Disponibilidad según criticidad | WBS, AT2, Planos eléctricos |
 
@@ -206,7 +206,6 @@ REPUESTOS Y RESERVAS:
 ```
 CORREDOR 526.133 KM
 ├── 37 ESTACIONES TETRA (cada ~15-20km + 15-20% solapamiento)
-├── REDUNDANCIA GSM-R
 ├── BACKBONE FIBRA ÓPTICA (594 km)
 └── COMUNICACIÓN IP
 ```
@@ -214,8 +213,7 @@ CORREDOR 526.133 KM
 #### 3.2 Criterios de Cobertura
 | Sistema | Cobertura | Redundancia | Criticidad |
 |---------|-----------|-------------|------------|
-| **TETRA** | 15-20 km/estación + 15-20% solapamiento | GSM-R | Alta |
-| **GSM-R** | 15-20 km/estación | TETRA | Alta |
+| **TETRA** | 15-20 km/estación + 15-20% solapamiento | Fibra Óptica | Alta |
 | **Fibra Óptica** | 594 km | Satelital | Crítica |
 | **IP** | Todo el corredor | Múltiple | Media |
 
@@ -232,12 +230,11 @@ CORREDOR 526.133 KM
 ```
 CENTRO DE CONTROL (CCO)
 ├── CTC (Control de Tráfico Centralizado)
-├── RBC (Radio Block Centre)
+├── Servidor Vital PTC (FRA 236 Compliant)
 ├── SCADA (Supervisión y Control)
 └── COMUNICACIÓN CON TRENES
     ├── TETRA (primario)
-    ├── GSM-R (secundario)
-    └── ATP/ITCS embarcado
+    └── ATP/PTC embarcado
 ```
 
 ### 5. SISTEMA DE ENERGÍA
@@ -395,67 +392,13 @@ Referencias cruzadas:
 
 ---
 
-## 📡 **SISTEMA GSM-R DETALLADO (ENERO 2025)**
+---
 
-### **1. ARQUITECTURA GSM-R:**
-```yaml
-COBERTURA: 100% del corredor 526.133 km
-ESTACIONES: 37 estaciones base GSM-R (colocalizadas con TETRA)
-CRITERIO: Redundancia completa con sistema TETRA
-SEPARACIÓN: 15-20 km promedio entre estaciones
-SOLAPAMIENTO: 15-20% (mismo criterio TETRA)
-ALTURA TORRES: 40 metros (colocalizadas con TETRA)
-REDUNDANCIA: TETRA + GSM-R (doble vía)
-INTEROPERABILIDAD: Compatible con red FENOCO (246 km)
-TIERRAS: Propiedad del estado (colocalización con TETRA)
-```
-
-### **2. COMPONENTES GSM-R POR ESTACIÓN:**
-```yaml
-INFRAESTRUCTURA POR ESTACIÓN (COLOCALIZADA CON TETRA):
-- Torre compartida 40m: 1 unidad (compartida con TETRA)
-- Estación base GSM-R: 1 unidad  
-- Antena GSM-R: 1 unidad
-- UPS/SAI compartido: 1 unidad (compartido con TETRA)
-- Baterías compartidas: 1 unidad (compartidas con TETRA)
-- Radio punto a punto: 2 unidades (compartidos con TETRA)
-- Antena parabólica: 2 unidades (compartidas con TETRA)
-- Caseta técnica: 1 unidad (compartida con TETRA)
-- Cimentación: 1 unidad (compartida con TETRA)
-- Cerramiento: 1 unidad (compartido con TETRA)
-- Vía de acceso: 1 unidad (compartida con TETRA)
-- Sistema seguridad: 1 unidad (compartido con TETRA)
-```
-
-### **3. COSTOS GSM-R (COLOCALIZACIÓN):**
-| Componente | Cantidad | Costo Unitario | Costo Total | Justificación |
-|------------|----------|----------------|-------------|---------------|
-| **Estaciones base GSM-R** | 37 | $45,000,000 | $1,665,000,000 | Equipos GSM-R estándar |
-| **Antenas GSM-R** | 37 | $8,000,000 | $296,000,000 | Antenas GSM-R estándar |
-| **Radios embarcados GSM-R** | 30 | $25,000,000 | $750,000,000 | Radios embarcados GSM-R |
-| **Antenas embarcadas GSM-R** | 30 | $4,000,000 | $120,000,000 | Antenas embarcadas GSM-R |
-| **Consolas despacho GSM-R** | 3 | $40,000,000 | $120,000,000 | Consolas despacho GSM-R |
-| **Sistema control GSM-R** | 1 | $80,000,000 | $80,000,000 | Sistema control GSM-R |
-| **Repuestos GSM-R (10%)** | - | - | $303,000,000 | 10% sobre equipos GSM-R |
-| **SUBTOTAL GSM-R** | - | - | $3,334,000,000 | **$757,727 USD** |
-| **OBRA CIVIL GSM-R** | - | - | $0 | **COLOCALIZADA CON TETRA** |
-| **SERVICIOS GSM-R** | - | - | $150,000,000 | Configuración y pruebas |
-| **TOTAL GSM-R** | - | - | $3,484,000,000 | **$791,818 USD** |
-
-### **4. CRITERIOS TÉCNICOS GSM-R:**
-```yaml
-COBERTURA: 100% corredor con solapamiento 15-20%
-FRECUENCIA: Banda GSM-R estándar (900 MHz)
-POTENCIA: Máxima permitida por normativa
-INTERFERENCIAS: Análisis RF obligatorio con TETRA
-ANTENAS: Colocalizadas con TETRA (misma torre)
-REDUNDANCIA: Doble vía (TETRA + GSM-R)
-BACKUP: Satelital para enlaces críticos
-INTEROPERABILIDAD: Compatible FENOCO
-SEGURIDAD: Encriptación A5/1
-CALIDAD: QoS clase 1 (voz crítica)
-COLOCALIZACIÓN: 100% con estaciones TETRA
-```
+## 📡 **SISTEMA DE REDUNDANCIA SATELITAL (REEMPLAZO GSM-R)**
+El sistema GSM-R ha sido eliminado de la arquitectura para optimizar el CAPEX. La redundancia de misión crítica se garantiza mediante:
+- **TETRA** como radio principal.
+- **Fibra Óptica** como backbone.
+- **Enlace Satelital Transitorio (Starlink/Similar)** para activación temprana y zonas de sombra.
 
 ---
 
@@ -638,158 +581,34 @@ COMUNICACIÓN:
 
 ---
 
-## 🚂 **INTEROPERABILIDAD FENOCO - ANÁLISIS CONTRACTUAL CORRECTO (ENERO 2025)**
+## 🚂 **INTEROPERABILIDAD FENOCO (STOP & SWITCH)**
 
-### **⚖️ OBLIGACIONES CONTRACTUALES REALES (AT1):**
-```yaml
-CONTRATO DICE: "Los equipos que permitan el acceso desde Chiriguaná al Puerto de Santa Marta y viceversa serán instalados a bordo de las locomotoras, con interoperabilidad con este corredor"
+### **⚖️ ESTRATEGIA OPERACIONAL (DBCD)**
+La interoperabilidad con FENOCO se gestiona exclusivamente a nivel **operacional** para garantizar la seguridad y proteger el CAPEX del proyecto.
 
-INTERPRETACIÓN CORRECTA:
-✅ LO QUE SÍ PAGAS:
-- Equipar TUS 15 locomotoras para circular en FENOCO
-- Implementar TU sistema CTC en territorio La Dorada-Chiriguaná
-- Proveer Gateway/API abierta para comunicación
-- Infraestructura propia (ENCE, desvíos, PAN)
+1. **Punto de Intercambio:** Estación Chiriguaná (Frontera técnica).
+2. **Método de Control:** Stop & Switch.
+3. **Equipamiento:** 
+   - Las locomotoras LFC cuentan con un Computador de Abordo (OBC) compatible con reglas FRA 236.
+   - La transición se realiza mediante comunicación por radio TETRA y cumplimiento de reglamentos operativos de FENOCO.
+4. **NO Deep Integration:** Se elimina cualquier requisito de Gateways técnicos, ITCS Alstom o integración de bases de datos propietarias.
 
-❌ LO QUE NO PAGAS:
-- Equipar locomotoras FENOCO
-- Costo material rodante ajeno
-- Modificar sistemas de terceros
-```
-
-### **🎯 MODELO INTEROPERABILIDAD CORRECTO:**
-```yaml
-ARQUITECTURA GATEWAY:
-┌─────────────────────────────────────────────────────────┐
-│           INTEROPERABILIDAD VÍA GATEWAY                 │
-├─────────────────────────────────────────────────────────┤
-│                                                          │
-│  ┌──────────────────┐         ┌──────────────────┐     │
-│  │   CCO LA DORADA  │◄───────►│   CCO FENOCO     │     │
-│  │                  │         │                  │     │
-│  │  - Sistema CTC   │  API    │  - Sistema ITCS  │     │
-│  │  - Base Datos    │ Abierta │  - Base Datos    │     │
-│  │  - Control Tráfico│        │  - Control PTC   │     │
-│  └──────────────────┘         └──────────────────┘     │
-│           │                            │                │
-│           │    PROTOCOLO COMÚN         │                │
-│           └────────────┬───────────────┘                │
-│                        │                                │
-│           ┌────────────▼────────────┐                   │
-│           │  INTERFAZ OPERACIONAL   │                   │
-│           │  (Estándar UIC/AAR)     │                   │
-│           └─────────────────────────┘                   │
-│                                                          │
-│  TUS LOCOMOTORAS          │       LOCOMOTORAS FENOCO    │
-│  ┌─────────────────┐     │     ┌─────────────────┐     │
-│  │ Controlador LD  │     │     │ Controlador     │     │
-│  │ + ITCS FENOCO   │     │     │ FENOCO + LD     │     │
-│  │ (TÚ PAGAS)      │     │     │ (FENOCO PAGA)   │     │
-│  └─────────────────┘     │     └─────────────────┘     │
-└─────────────────────────────────────────────────────────┘
-```
-
-### **📊 COSTOS INTEROPERABILIDAD REALES:**
-| Componente | Cantidad | Costo Unitario | Costo Total | Justificación |
-|------------|----------|----------------|-------------|---------------|
-| **A. EQUIPAMIENTO 15 LOCOMOTORAS** | - | - | $6,210,000,000 | Sistema propio + ITCS FENOCO |
-| **B. INSTALACIÓN/CERTIFICACIÓN** | - | - | $3,175,000,000 | Survey, diseño, pruebas |
-| **C. SISTEMA CTC CCO** | - | - | $2,720,000,000 | Control tráfico territorio propio |
-| **D. LÓGICA CONTROL/APLICACIONES** | - | - | $1,300,000,000 | Módulos gestión tráfico |
-| **E. GATEWAY INTEROPERABILIDAD** | - | - | $1,430,000,000 | API abierta comunicación |
-| **F. INFRAESTRUCTURA FRONTERA** | - | - | $409,000,000 | Punto cambio Chiriguaná |
-| **G. INGENIERÍA/COORDINACIÓN** | - | - | $1,430,000,000 | 50% coordinación FENOCO |
-| **H. ENCLAVAMIENTOS (5 EST)** | - | - | $6,020,000,000 | ENCE estaciones principales |
-| **I. DESVÍOS MOTORIZADOS (25)** | - | - | $2,975,000,000 | Cruces importantes |
-| **J. DESVÍOS MANUALES (95)** | - | - | $808,000,000 | Operación manual |
-| **K. PASOS A NIVEL (23)** | - | - | $4,004,000,000 | 14 Tipo B + 9 Tipo C |
-| **SUBTOTAL CAPÍTULO 4** | - | - | **$30,481,000,000** | **$6,927,500,000 USD** |
-| **CONTINGENCIA 20%** | - | - | $6,096,000,000 | $1,385,500,000 USD |
-| **TOTAL CAPÍTULO 4** | - | - | **$36,577,000,000** | **$8,313,000,000 USD** |
-
-### **📋 DETALLE COMPONENTES INTEROPERABILIDAD:**
-
-#### **A. EQUIPAMIENTO 15 LOCOMOTORAS (TUS OBLIGACIONES):**
+### **📊 COSTOS OBC (15 LOCOMOTORAS PTC/FRA)**
 | Item | Descripción | Cant/Loco | VU (COP) | Total 15 Locos |
 |------|-------------|-----------|----------|----------------|
-| **4.1.100** | Sistema Control Propio LD-CH | 1 sistema | $80M | $1,200M |
-| **4.1.101** | ITCS OBC FENOCO (obligatorio) | 1 | $80M | $1,200M |
-| **4.1.102** | Display dual integrado | 1 | $35M | $525M |
-| **4.1.103** | GPS dual (ambos sistemas) | 2 | $8M | $240M |
-| **4.1.104** | Radio TETRA dual | 2 | $45M | $1,350M |
-| **4.1.105** | Interface frenos común | 1 | $25M | $375M |
-| **4.1.106** | Registrador jurídico | 1 | $18M | $270M |
-| **4.1.107** | Switch selector modo | 1 | $5M | $75M |
-| **4.1.108** | Base datos LD-CH | Licencia | $15M | $225M |
-| **4.1.109** | Base datos FENOCO (246km) | Licencia | $20M | $300M |
-| **4.1.110** | Software integración dual | Licencia | $30M | $450M |
-| **SUBTOTAL EQUIPAMIENTO LOCOMOTORAS** | - | - | **$6,210M COP** |
+| **4.1.100** | Computador de Abordo (OBC) PTC | 1 sistema | $80M | $1,200M |
+| **4.1.101** | Pantalla de Diagnóstico (DMI) | 1 | $35M | $525M |
+| **4.1.102** | Sensor de Posicionamiento (GPS/IMU) | 2 | $8M | $240M |
+| **4.1.103** | Radio TETRA Embarcada | 2 | $45M | $1,350M |
+| **4.1.104** | Interface frenos (Válvula Vital) | 1 | $25M | $375M |
+| **4.1.105** | Registrador de Eventos (EOR) | 1 | $18M | $270M |
+| **4.1.106** | Switch selector de Modo Operacional | 1 | $5M | $75M |
+| **SUBTOTAL EQUIPAMIENTO LOCOMOTORAS** | - | - | **$4,035M COP** |
 
-#### **B. INSTALACIÓN Y CERTIFICACIÓN:**
-| Item | Descripción | Cant. | VU (COP) | Total (COP) |
-|------|-------------|-------|----------|-------------|
-| **4.3.100** | Survey 3 tipos locomotoras | 3 | $50M | $150M |
-| **4.3.101** | Diseño instalación | 3 diseños | $40M | $120M |
-| **4.3.102** | Instalación física | 15 locos | $40M | $600M |
-| **4.3.103** | Configuración software | 15 locos | $35M | $525M |
-| **4.3.104** | Pruebas estáticas | 15 locos | $25M | $375M |
-| **4.3.105** | Pruebas dinámicas LD | 15 locos | $30M | $450M |
-| **4.3.106** | Pruebas territorio FENOCO | 15 locos | $35M | $525M |
-| **4.3.107** | Certificación homologación | Global | $250M | $250M |
-| **4.3.108** | Capacitación maquinistas | Global | $180M | $180M |
-| **SUBTOTAL INSTALACIÓN** | - | - | **$3,175M COP** |
-
-#### **H. ENCLAVAMIENTOS ELECTRÓNICOS (5 ESTACIONES):**
-| Estación | Componentes | Cant. | VU (COP) | Total (COP) |
-|----------|-------------|-------|----------|-------------|
-| **Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México** | | | | |
-| Interlocking Controller vital | 5 | $250M | $1,250M |
-| Panel control local (LCP) | 5 | $50M | $250M |
-| Módulos I/O campo | 5 | $80M | $400M |
-| Switch machines eléctricos (8/est) | 40 | $28M | $1,120M |
-| Circuitos vía detección (10/est) | 50 | $15M | $750M |
-| Cableado señalización completo | 5 | $60M | $300M |
-| Casetas equipos 4x4m | 5 | $90M | $450M |
-| Software lógica interlocking | 5 licencias | $120M | $600M |
-| Ingeniería aplicación específica | 5 | $100M | $500M |
-| Pruebas SAT + certificación | 5 | $80M | $400M |
-| **SUBTOTAL ENCE (5 ESTACIONES)** | - | - | **$6,020M COP** |
-
-#### **K. PASOS A NIVEL ACTIVOS (14 Tipo B + 9 Tipo C = 23):**
-| Item | Descripción | Tipo B (14) | Tipo C (9) | Total (COP) |
-|------|-------------|-------------|-------------|-------------|
-| **4.1.550** | Controlador XP4/similar | $22M × 14 | $22M × 9 | $506M |
-| **4.1.551** | Flashers LED (2 en B, 4 en C) | $5M × 28 | $5M × 36 | $320M |
-| **4.1.552** | Bells (1 en B, 2 en C) | $4M × 14 | $4M × 18 | $128M |
-| **4.1.553** | Gates motorizados (0 en B, 2 en C) | - | $18M × 18 | $324M |
-| **4.1.554** | Circuitos aproximación CWT | $10M × 14 | $10M × 9 | $230M |
-| **4.1.555** | Casetas 6×6 equipadas | $50M × 14 | $50M × 9 | $1,150M |
-| **4.1.556** | Cableado completo | $15M × 14 | $18M × 9 | $372M |
-| **4.1.557** | Señalización vial | $10M × 14 | $12M × 9 | $248M |
-| **4.1.558** | UPS y respaldo | $12M × 14 | $12M × 9 | $276M |
-| **4.1.559** | Instalación y comisionamiento | $18M × 14 | $22M × 9 | $450M |
-| **SUBTOTAL PASOS A NIVEL** | - | - | **$4,004M COP** |
-
-### **🎯 PRINCIPIO RECIPROCIDAD CONTRACTUAL:**
-```yaml
-ACUERDO OPERACIONAL SUGERIDO:
-
-1. LOCOMOTORAS LA DORADA circulando en territorio FENOCO:
-   - Equipo: Sistema LA DORADA + ITCS FENOCO
-   - Costo: LA DORADA ✅
-
-2. LOCOMOTORAS FENOCO circulando en territorio LA DORADA:
-   - Equipo: Sistema FENOCO + CTC LA DORADA
-   - Costo: FENOCO ❌ (NO es tu costo)
-
-3. GATEWAY/INTERFAZ CCO:
-   - Desarrollo: 50% cada parte
-   - Mantenimiento: 50% cada parte
-
-4. PRUEBAS INTEGRACIÓN:
-   - Coordinación: Conjunta
-   - Costo: 50% cada parte
-```
+### **🎯 PRINCIPIO DE RECIPROCIDAD**
+1. **Locomotoras LFC en FENOCO:** Reglas operativas FENOCO + Radio TETRA.
+2. **Locomotoras FENOCO en LFC:** Reglas PTC LFC + Interface en Chiriguaná.
+3. **Costo:** Cada concesionario asume el equipamiento de su propia flota.
 
 ---
 

@@ -1,4 +1,4 @@
-﻿# CLAUSULA 8.2 - OBLIGACIONES EN FASE DE CONSTRUCCIÓN
+# CLAUSULA 8.2 - OBLIGACIONES EN FASE DE CONSTRUCCIÓN
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 27 de enero de 2025  
@@ -536,8 +536,8 @@ Proxima actualizacion: 27/02/2025
 
 | Sistema | Cláusula | AT | Especificación | Estado |
 |:---|:---|:---|:---|:---:|
-| **ITCS Embarcado** | 8.2 | AT3 | ETCS Level 2 | ✅ Implementado |
-| **FENOCO** | 8.2 | AT1 | Protocolos UIC | ✅ Implementado |
+| **PTC Embarcado** | 8.2 | AT3 | FRA 236 Subpart I | ✅ Implementado |
+| **FENOCO** | 8.2 | AT1 | Stop & Switch | ✅ Implementado |
 | **AT4 SICC** | 8.2 | AT4 | Telemetría y logs | ✅ Implementado |
 | **Ciberseguridad** | 8.2 | AT3 | NIST/IEC 62443 | ✅ Implementado |
 | **Redundancia** | 8.2 | AT4 | Arquitectura N+1 | ✅ Implementado |

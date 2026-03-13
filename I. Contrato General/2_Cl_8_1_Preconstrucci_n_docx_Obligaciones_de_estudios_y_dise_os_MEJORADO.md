@@ -285,15 +285,15 @@ Esta información es únicamente de carácter informativo. Se recomienda su revi
 
 #### **✅ MEJORAS IMPLEMENTADAS:**
 
-1. **🚂 INTEGRACIÓN ITCS ETCS Level 2:**
-   - **Estrategia de avance:** Especificaciones ITCS basadas en ETCS Level 2 hasta disponibilidad de AT3
-   - **Diseños preliminares:** Incluir interfaces ITCS ETCS Level 2 en CTC y sistemas embarcados
-   - **Estudios técnicos:** Análisis de compatibilidad ITCS con sistemas FENOCO
+1. **🚂 INTEGRACIÓN PTC (FRA 236):**
+   - **Estrategia de avance:** Especificaciones PTC basadas en FRA 236 hasta disponibilidad de AT3.
+   - **Diseños preliminares:** Incluir interfaces PTC (FRA 49 CFR 236) en CTC y sistemas embarcados.
+   - **Estudios técnicos:** Análisis de compatibilidad PTC con arquitectura Virtual y SSOT.
 
-2. **🔗 INTEROPERABILIDAD FENOCO:**
-   - **Protocolos UIC:** Implementar estándares UIC para interoperabilidad con FENOCO
-   - **Coordinación técnica:** Establecer protocolos de comunicación con FENOCO
-   - **Estudios de integración:** Análisis de compatibilidad con sistemas FENOCO existentes
+2. **🔗 INTEROPERABILIDAD FENOCO (STOP & SWITCH):**
+   - **Protocolos AAR/AREMA:** Implementar estándares americanos para interoperabilidad.
+   - **Coordinación técnica:** Establecer protocolos de transferencia operacional (Stop & Switch).
+   - **Estudios de integración:** Análisis de interfaz física en Chiriguaná (Ch 522).
 
 3. **📊 CRITERIOS DE DISPONIBILIDAD AT4:**
    - **Indicadores contractuales:** Integrar disponibilidad 99.95% en diseños preliminares
@@ -301,84 +301,64 @@ Esta información es únicamente de carácter informativo. Se recomienda su revi
    - **Monitoreo continuo:** Establecer SICC con funcionamiento en 30 días
 
 4. **🔒 CIBERSEGURIDAD Y REDUNDANCIA:**
-   - **Estándares de seguridad:** Implementar NIST/IEC 62443 en diseños
-   - **Arquitectura redundante:** Diseño N+1 para sistemas críticos
-   - **Protección de datos:** Protocolos de seguridad para información sensible
+   - **Estándares de seguridad:** Implementar IEC 62443 en diseños de red Vital.
+   - **Arquitectura redundante:** Diseño **2oo3** para el Vital PTC Server y N+1 para infraestructura complementaria.
+   - **Protocolos Seguros:** Uso de cifrado TLS 1.3 para comunicaciones Vital IP.
 
-#### **⚠️ VACÍOS IDENTIFICADOS Y CORREGIDOS:**
+#### **⚠️ VACÍOS IDENTIFICADOS Y CORREGIDOS (KARPATHY PURGE):**
 
-1. **Falta de especificaciones ITCS:** Agregado ETCS Level 2 como estándar internacional
-2. **Ausencia de interoperabilidad FENOCO:** Incluidos protocolos UIC estándar
-3. **Criterios AT4 no integrados:** Incorporados indicadores de disponibilidad contractual
-4. **Ciberseguridad no especificada:** Agregados estándares NIST/IEC 62443
-5. **Redundancia no definida:** Establecida arquitectura N+1 para sistemas críticos
+1. **Eliminación de ETCS:** Se purga cualquier referencia a estándares europeos no aplicables.
+2. **Alineación PTC Virtual:** Se adopta **FRA 49 CFR Part 236 Subpart I** como norma rectora.
+3. **Interoperabilidad FENOCO:** Se descartan "gateways técnicos" y se adopta el protocolo operacional **Stop & Switch** en Chiriguaná.
+4. **Ciberseguridad:** Enfoque en protección de la red TETRA y backbone de fibra óptica.
+5. **Redundancia:** Transición de N+1 genérico a **2oo3 (Triple Módulo Redundante)** para el núcleo vital.
 
 #### **⚠️ RIESGOS IDENTIFICADOS PARA ANÁLISIS PMI:**
 
 | ID | Riesgo | Categoría | Prob | Impacto | Descripción |
 |:---|:---|:---:|:---:|:---:|:---|
-| R-250 | Dependencia AT3 para ITCS | Técnico | Alta | Alto | Especificaciones ITCS pendientes hasta AT3 |
-| R-251 | Interoperabilidad FENOCO | Técnico | Media | Alto | Compatibilidad con sistemas FENOCO |
-| R-252 | Disponibilidad según AT4 | Contractual | Media | Alto | Cumplimiento de indicadores contractuales |
-| R-253 | Ciberseguridad en diseños | Técnico | Media | Alto | Protección de sistemas de control |
-| R-254 | Redundancia sistemas críticos | Técnico | Media | Alto | Disponibilidad de sistemas críticos |
+| R-250 | Integración Vital IP | Técnico | Alta | Alto | Coordinación de protocolos abiertos FRA-Compliant |
+| R-251 | Operación Stop & Switch | Operacional | Media | Alto | Coordinación de procedimientos con FENOCO |
+| R-252 | Disponibilidad según AT4 | Contractual | Media | Alto | Cumplimiento del 99.95% de Uptime PTC |
+| R-253 | Ciberseguridad TETRA | Técnico | Media | Alto | Protección de la interfaz de radio vital |
 
-#### **📋 MATRIZ DE TRAZABILIDAD CONTRACTUAL:**
+#### **📋 MATRIZ DE TRAZABILIDAD CONTRACTUAL (SANEADA):**
 
 | Sistema | Cláusula | AT | Especificación | Estado |
 |:---|:---|:---|:---|:---:|
-| **ITCS** | 8.1 | AT3 | ETCS Level 2 | ✅ Implementado |
-| **FENOCO** | 8.1 | AT1 | Protocolos UIC | ✅ Implementado |
-| **AT4** | 8.1 | AT4 | Disponibilidad 99.95% | ✅ Implementado |
-| **Ciberseguridad** | 8.1 | AT3 | NIST/IEC 62443 | ✅ Implementado |
-| **Redundancia** | 8.1 | AT4 | Arquitectura N+1 | ✅ Implementado |
+| **PTC Virtual** | 8.1 | AT3 | FRA 236 Subpart I | ✅ SANEADO |
+| **FENOCO** | 8.1 | AT1 | Stop & Switch (Ops) | ✅ SANEADO |
+| **Arquitectura** | 8.1 | AT4 | Redundancia 2oo3 | ✅ SANEADO |
+| **Cybersecurity**| 8.1 | AT3 | IEC 62443 | ✅ SANEADO |
 
 #### **🎯 OPTIMIZACIONES EPC ESPECÍFICAS:**
 
-1. **Estrategia de Avance con Bloqueos ITCS:**
-   - **Fase 1:** Diseño basado en ETCS Level 2 (0-6 meses)
-   - **Fase 2:** Integración con AT3 cuando esté disponible (6-18 meses)
-   - **Fase 3:** Pruebas de interoperabilidad (18-36 meses)
-
-2. **Gestión Integrada de Riesgos:**
-   - **Monitoreo semanal:** Riesgos críticos (ITCS, FENOCO, AT4)
-   - **Monitoreo mensual:** Riesgos altos (ciberseguridad, redundancia)
-   - **Monitoreo trimestral:** Riesgos medios (gestión, operación)
+1. **Estrategia de Avance PTC:**
+   - **Fase 1:** Diseño de Bloque Virtual dinámico (0-6 meses).
+   - **Fase 2:** Pruebas de campo GNSS/IMU y cobertura TETRA (6-18 meses).
+   - **Fase 3:** Validación de Autoridad de Movimiento Vital (18-36 meses).
 
 #### **📊 MÉTRICAS DE CONTROL Y SEGUIMIENTO:**
 
 | Métrica | Objetivo | Frecuencia | Responsable | Estado |
 |:---|:---:|:---:|:---|:---:|
-| **ITCS ETCS Level 2** | 100% implementado | Semanal | Ing. Sistemas | 🟢 En progreso |
-| **Interoperabilidad FENOCO** | Protocolos UIC | Mensual | Comunicaciones | 🟡 Pendiente |
-| **Disponibilidad AT4** | 99.95% | Semanal | Ing. Sistemas | 🟢 En progreso |
-| **Ciberseguridad** | NIST/IEC 62443 | Mensual | Ciberseguridad | 🟡 Pendiente |
-| **Redundancia N+1** | 100% sistemas críticos | Semanal | Ing. Sistemas | 🟢 En progreso |
+| **PTC Virtual (FRA 236)** | 100% diseño vital | Semanal | Ing. Sistemas | 🟢 En progreso |
+| **Disponibilidad SICC** | 99.95% | Semanal | Ing. Sistemas | 🟢 En progreso |
+| **Ciberseguridad PTC** | IEC 62443 | Mensual | Ciberseguridad | 🟡 Pendiente |
 
-#### **🚀 PRÓXIMOS PASOS:**
+#### **🚀 PRÓXIMOS PASOS (FASE D):**
 
-1. **Inmediato (0-3 meses):**
-   - Implementar ETCS Level 2 en diseños preliminares
-   - Establecer protocolos UIC para FENOCO
-   - Aplicar criterios AT4 en todos los sistemas
-
-2. **Mediano plazo (3-12 meses):**
-   - Desarrollar especificaciones de ciberseguridad
-   - Implementar arquitectura N+1
-   - Coordinar con FENOCO para interoperabilidad
-
-3. **Largo plazo (12-36 meses):**
-   - Integrar con AT3 cuando esté disponible
-   - Realizar pruebas de interoperabilidad
-   - Validar cumplimiento de AT4
+1. Finalizar diseño de interfaces **Vital IP** para CTC.
+2. Validar cobertura **TETRA** para tráfico de datos vitales.
+3. Consolidar el ROT (Reglamento Operativo de Trenes) bajo PTC Virtual.
 
 #### **✅ CONCLUSIONES:**
 
-El documento ha sido actualizado exitosamente aplicando la metodología Punto 42, integrando:
-- **ITCS ETCS Level 2** como estrategia de avance
-- **Interoperabilidad FENOCO** con protocolos UIC
-- **Criterios AT4** de disponibilidad contractual
-- **Ciberseguridad** con estándares NIST/IEC 62443
-- **Redundancia N+1** para sistemas críticos
+El documento ha sido saneado integralmente eliminando la alucinación técnica de ETCS/GSM-R e integrando:
+- **PTC Virtual (FRA 236)** como tecnología troncal.
+- **Interoperabilidad Operacional** con FENOCO.
+- **Arquitectura Vital 2oo3** para el servidor central.
+
+**Saneamiento Ciclo 1 Completado.**
 
 **5 riesgos identificados** para análisis PMI y gestión integrada.
