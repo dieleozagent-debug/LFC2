@@ -14,7 +14,9 @@ const LFC_TERMINOLOGY = {
     SYSTEMS: {
         CONTROL: "Control y Señalización (SICC)",
         SIGNALING: "SICC (Sistema de Intervención y Control Centralizado)",
-        PTC: "PTC Nativo (Positive Train Control)",
+        PTC: "PTC Nativo (Positive Train Control - FRA 236)",
+        STANDARDS: "FRA / AREMA / AAR (Soberanía)",
+        TRACTION: "Tracción Diesel-Eléctrica (Standard)",
         COMMS: "Telecomunicaciones (TETRA/LTE)",
         VITAL_IP: "Red IP Vital / Vital IP",
         SECURITY: "ITS y Seguridad+",
@@ -22,12 +24,17 @@ const LFC_TERMINOLOGY = {
         GANTT: "Cronograma Maestro de Ejecución"
     },
     
-    // Metadatos y SEO
-    METADATA: {
-        TITLE: "LFC Dashboard - Control Maestro",
-        DESCRIPTION: "Gestión Ejecutiva y Saneamiento Técnico Ferroviario",
-        AUTHOR: "LFC Studio Elite"
-    }
+    // Lista de Inhibición (Legacy Prohibido)
+    LEGACY_BLACKLIST: [
+        "UIC", "EN 50126", "ERTMS", "ETCS", "Eurobaliza", 
+        "GSM-R", "Tracción Eléctrica", "Catenaria", "EMU", "25 kV AC"
+    ],
+
+    // Mapeo Multidivisa
+    FINANCIAL: {
+        DEFAULT_CURRENCY: "MULTIDIVISA (COP/USD)",
+        TRM_REFERENCE: 4000
+    },
 };
 
 // Exportar para uso en otros scripts

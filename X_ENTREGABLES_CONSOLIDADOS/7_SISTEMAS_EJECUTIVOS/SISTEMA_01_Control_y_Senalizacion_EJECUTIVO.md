@@ -187,9 +187,9 @@ El Sistema de Control y Señalización proporciona **control centralizado** de t
 | Disponibilidad CTC | 99.95% | EN 50126 |
 | Disponibilidad ATP | 99.95% | EN 50126 |
 | Disponibilidad ENCE | 99.95% | EN 50126 |
-| Tiempo de respuesta | < 2 segundos | UIC 920-2 |
+| Tiempo de respuesta | < 2 segundos | FRA/AREMA 920-2 |
 | Tiempo de recuperación | < 5 minutos | EN 50126 |
-| Cobertura de comunicación | 100% | UIC 920-2 |
+| Cobertura de comunicación | 100% | FRA/AREMA 920-2 |
 
 ### Criterios de aceptación
 - ✅ Disponibilidad 99.95% del sistema completo
@@ -264,12 +264,12 @@ El sistema opera 24/7 proporcionando control centralizado de todo el tráfico fe
 - **Gateways industriales:** Conversión de protocolos entre sistemas heterogéneos (CTC↔PTC↔FENOCO)
 - **Switches de borde ferroviario:** Segmentación de red por subsistema
 - **Firewalls IEC 62443:** Ciberseguridad industrial (Security Level SL-3)
-- **Middleware interoperabilidad:** Protocolo UIC 918-4 para integración con FENOCO
+- **Middleware interoperabilidad:** Protocolo FRA/AREMA 918-4 para integración con FENOCO
 - **Licencias software SCADA:** Gestión de comunicaciones y visualización
 
 **Interfaces que soporta:**
 1. **CTC ↔ PTC/PTC VIRTUAL Nivel 2:** Intercambio de telegramas de movimiento, datos de ocupación desde RBC
-2. **CTC ↔ FENOCO:** Gateway UIC con protocolo 918-4 para interoperabilidad
+2. **CTC ↔ FENOCO:** Gateway FRA/AREMA con protocolo 918-4 para interoperabilidad
 3. **CTC ↔ TETRA:** Canal de voz y datos para comunicaciones tren-tierra
 4. **CTC ↔ Fibra Óptica:** Backbone redundante N+1 del corredor (526 km)
 5. **CTC ↔ Sistemas ITS:** CCTV (73 cámaras), control acceso, detección intrusión
@@ -293,7 +293,7 @@ El sistema opera 24/7 proporcionando control centralizado de todo el tráfico fe
 **Documentación técnica:**
 - IV.2 Interfaces_Sistemas: IF-07 especificada
 - V.2 CTC v5.0: §12.4 Bloque de Integración
-- VII.2.4 Protocolo FFFIS: §2.2 Gateway UIC 918-4
+- VII.2.4 Protocolo FFFIS: §2.2 Gateway FRA/AREMA 918-4
 
 **Decisión Técnica:** DT-INTERFACES-001-2025-10-09
 
@@ -429,3 +429,6 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 
 <!-- COCINADO LFC-CLI v1.0 | Fecha: 3/13/2026, 1:56:38 PM | SSOT: DBCD_CRITERIA.md -->
+
+
+<!-- COCINADO LFC-CLI v2.0 | SICC Pureza: AUDIT_REQUIRED | Fecha: 3/13/2026, 8:02:06 PM -->

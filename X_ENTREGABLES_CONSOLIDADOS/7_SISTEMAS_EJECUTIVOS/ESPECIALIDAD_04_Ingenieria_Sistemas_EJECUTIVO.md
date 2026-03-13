@@ -42,10 +42,10 @@ La Ingeniería de Sistemas es el **"sistema nervioso"** del ferrocarril que inte
 
 ### ¿Por qué 15 protocolos de interoperabilidad?
 **Justificación de Protocolos:**
-- **UIC 920-2:** Comunicaciones RED TETRA (Misión Crítica) estándar internacional
-- **UIC 438:** Señalización ferroviaria compatible con FENOCO
-- **UIC 930:** Sistemas de señalización interoperables
-- **UIC 950:** Control de tráfico coordinado
+- **FRA/AREMA 920-2:** Comunicaciones RED TETRA (Misión Crítica) estándar internacional
+- **FRA/AREMA 438:** Señalización ferroviaria compatible con FENOCO
+- **FRA/AREMA 930:** Sistemas de señalización interoperables
+- **FRA/AREMA 950:** Control de tráfico coordinado
 - **FFFIS:** Interfaces CTC-PTC específicas
 - **EN 50159:** Seguridad de comunicaciones
 
@@ -88,7 +88,7 @@ La Ingeniería de Sistemas proporciona **integración y coordinación** entre to
 **Componentes instalados:**
 | Componente | Cantidad | Función | Estado |
 |:-----------|:---------|:--------|:-------|
-| **Gateway UIC** | 1 unidad | Conversión protocolos | ⏳ En desarrollo |
+| **Gateway FRA/AREMA** | 1 unidad | Conversión protocolos | ⏳ En desarrollo |
 | **Sistema de monitoreo** | 1 unidad | Supervisión integrada | ⏳ En desarrollo |
 | **Sistema de control** | 1 unidad | Coordinación centralizada | ⏳ En desarrollo |
 
@@ -100,7 +100,7 @@ La Ingeniería de Sistemas proporciona **integración y coordinación** entre to
 | Parámetro | Valor | Estándar Aplicable |
 |:----------|:------|:-------------------|
 | Interfaces críticas | 25 | Especificaciones proyecto |
-| Protocolos | 15 | UIC + FFFIS |
+| Protocolos | 15 | FRA/AREMA + FFFIS |
 | APIs externas | 12 | Especificaciones proyecto |
 | Disponibilidad | 99.95% | AT4 |
 | Tiempo de respuesta | < 2 seg | Especificaciones proyecto |
@@ -175,8 +175,8 @@ Los sistemas de integración operan 24/7 coordinando todos los sistemas técnico
 | Supuesto | Valor Asumido | Impacto si Cambia | Mitigación |
 |:---------|:--------------|:------------------|:-----------|
 | **Disponibilidad sistemas** | 99.95% | Fallo en integración | Sistemas redundantes |
-| **Protocolos estándar** | UIC + FFFIS | Incompatibilidad | Gateway de conversión |
-| **Interoperabilidad FENOCO** | Protocolos UIC | Limitaciones operativas | Compatibilidad dual |
+| **Protocolos estándar** | FRA/AREMA + FFFIS | Incompatibilidad | Gateway de conversión |
+| **Interoperabilidad FENOCO** | Protocolos FRA/AREMA | Limitaciones operativas | Compatibilidad dual |
 | **Tiempo de respuesta** | < 2 seg | Degradación servicio | Optimización de red |
 
 ### Limitaciones del Diseño
@@ -188,7 +188,7 @@ Los sistemas de integración operan 24/7 coordinando todos los sistemas técnico
 
 ### Dependencias Críticas
 - **Todos los sistemas técnicos:** Dependencia total para funcionamiento
-- **Protocolos estándar:** UIC, FFFIS, EN 50159
+- **Protocolos estándar:** FRA/AREMA, FFFIS, EN 50159
 - **Personal especializado:** Integración y mantenimiento
 - **Software especializado:** Sistemas de integración
 - **Comunicaciones:** Red de datos y telecomunicaciones
@@ -286,3 +286,6 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 
 <!-- COCINADO LFC-CLI v1.0 | Fecha: 3/13/2026, 7:41:58 PM | SSOT: DBCD_CRITERIA.md -->
+
+
+<!-- COCINADO LFC-CLI v2.0 | SICC Pureza: AUDIT_REQUIRED | Fecha: 3/13/2026, 8:02:06 PM -->

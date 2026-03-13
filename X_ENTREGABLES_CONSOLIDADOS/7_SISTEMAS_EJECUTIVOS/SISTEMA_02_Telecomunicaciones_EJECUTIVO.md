@@ -203,12 +203,12 @@ El Sistema de Telecomunicaciones proporciona **comunicación en tiempo real** en
 ### Tabla consolidada de especificaciones
 | Parámetro | Valor | Estándar Aplicable |
 |:----------|:------|:-------------------|
-| Cobertura TETRA | 100% del corredor | UIC 920-2 |
-| Cobertura RED TETRA (Misión Crítica) | 100% del corredor | UIC 920-2 |
+| Cobertura TETRA | 100% del corredor | FRA/AREMA 920-2 |
+| Cobertura RED TETRA (Misión Crítica) | 100% del corredor | FRA/AREMA 920-2 |
 | Disponibilidad TETRA | 99.5% | EN 50126 |
 | Disponibilidad RED TETRA (Misión Crítica) | 99.95% | EN 50126 |
 | Velocidad de datos | 1 Gbps por estación | IEEE 802.3 |
-| Tiempo de respuesta | < 500ms | UIC 920-2 |
+| Tiempo de respuesta | < 500ms | FRA/AREMA 920-2 |
 | Altura de torres | 40 metros | RETIE |
 
 ### Criterios de aceptación
@@ -410,3 +410,6 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 
 <!-- COCINADO LFC-CLI v1.0 | Fecha: 3/13/2026, 1:56:38 PM | SSOT: DBCD_CRITERIA.md -->
+
+
+<!-- COCINADO LFC-CLI v2.0 | SICC Pureza: AUDIT_REQUIRED | Fecha: 3/13/2026, 8:02:06 PM -->

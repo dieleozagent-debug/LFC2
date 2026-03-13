@@ -11,7 +11,7 @@ La Ingeniería Civil es la **"base física"** del ferrocarril que proporciona to
 ### Alcance en números - JUSTIFICACIÓN TÉCNICA
 - **Inversión estimada:** $180,000 millones COP
 - **526.133 km corredor:** Longitud total del corredor ferroviario La Dorada-Chiriguaná
-- **2 vías principales:** Trocha estándar 1,435 mm según estándares UIC
+- **2 vías principales:** Trocha estándar 1,435 mm según estándares FRA/AREMA
 - **25 puentes + 5 viaductos:** Obras de arte para cruzar ríos y quebradas
 - **150 alcantarillas:** Drenaje transversal cada 3.5 km promedio
 - **30 muros de contención:** Estabilización de taludes críticos
@@ -34,7 +34,7 @@ La Ingeniería Civil es la **"base física"** del ferrocarril que proporciona to
 ### ¿Por qué 526.133 km de corredor?
 **Justificación Técnica:**
 - **Distancia real:** Medición topográfica entre La Dorada y Chiriguaná
-- **Trocha estándar:** 1,435 mm según estándares UIC para interoperabilidad
+- **Trocha estándar:** 1,435 mm según estándares FRA/AREMA para interoperabilidad
 - **2 vías principales:** Capacidad de tráfico bidireccional simultáneo
 - **Vías de servicio:** Vías auxiliares para mantenimiento y maniobras
 - **Criterio:** Longitud total del corredor ferroviario
@@ -117,7 +117,7 @@ La Ingeniería Civil proporciona **infraestructura física** para la operación 
 | Parámetro | Valor | Justificación |
 |:----------|:------|:--------------|
 | **Longitud** | 526.133 km | Distancia La Dorada-Chiriguaná |
-| **Trocha** | 1,435 mm | Estándar UIC para interoperabilidad |
+| **Trocha** | 1,435 mm | Estándar FRA/AREMA para interoperabilidad |
 | **Vías principales** | 2 vías | Capacidad bidireccional |
 | **Ancho explanación** | 12 m | 2 vías + drenaje + servicios |
 | **Pendiente máxima** | 2% | Según especificaciones ferroviarias |
@@ -151,10 +151,10 @@ La Ingeniería Civil proporciona **infraestructura física** para la operación 
 ### Tabla consolidada de especificaciones
 | Parámetro | Valor | Estándar Aplicable |
 |:----------|:------|:-------------------|
-| Trocha ferroviaria | 1,435 mm | UIC 600 |
-| Pendiente máxima | 2% | UIC 703 |
-| Radio mínimo curvas | 600 m | UIC 703 |
-| Carga por eje | 25 ton | UIC 700 |
+| Trocha ferroviaria | 1,435 mm | FRA/AREMA 600 |
+| Pendiente máxima | 2% | FRA/AREMA 703 |
+| Radio mínimo curvas | 600 m | FRA/AREMA 703 |
+| Carga por eje | 25 ton | FRA/AREMA 700 |
 | Vida útil | 50 años | NSR-10 |
 | Factor sísmico | 0.25 g | NSR-10 |
 
@@ -347,3 +347,6 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 
 <!-- COCINADO LFC-CLI v1.0 | Fecha: 3/13/2026, 7:41:58 PM | SSOT: DBCD_CRITERIA.md -->
+
+
+<!-- COCINADO LFC-CLI v2.0 | SICC Pureza: AUDIT_REQUIRED | Fecha: 3/13/2026, 8:02:06 PM -->

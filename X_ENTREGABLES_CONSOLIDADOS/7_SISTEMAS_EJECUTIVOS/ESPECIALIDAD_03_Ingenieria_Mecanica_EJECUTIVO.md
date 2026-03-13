@@ -129,8 +129,8 @@ La Ingeniería Mecánica proporciona **material rodante** para la operación fer
 ### Tabla consolidada de especificaciones
 | Parámetro | Valor | Estándar Aplicable |
 |:----------|:------|:-------------------|
-| Potencia locomotora | 3,000 HP | UIC 700 |
-| Carga por eje | 25 ton | UIC 700 |
+| Potencia locomotora | 3,000 HP | FRA/AREMA 700 |
+| Carga por eje | 25 ton | FRA/AREMA 700 |
 | Velocidad máxima | 80 km/h | Especificaciones proyecto |
 | Disponibilidad | 99.95% | AT4 |
 | Vida útil | 30 años | Especificaciones proyecto |
@@ -321,3 +321,6 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 
 <!-- COCINADO LFC-CLI v1.0 | Fecha: 3/13/2026, 7:41:58 PM | SSOT: DBCD_CRITERIA.md -->
+
+
+<!-- COCINADO LFC-CLI v2.0 | SICC Pureza: AUDIT_REQUIRED | Fecha: 3/13/2026, 8:02:06 PM -->

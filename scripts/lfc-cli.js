@@ -83,13 +83,17 @@ function sync() {
     log(`✅ Parseados ${items.length} ítems de la WBS\n`, colors.green);
 
     // Generar JSON
+    const trm = 4000; // Referencia SICC
     const wbsData = {
-        version: "3.0",
+        version: "4.2",
         fecha_actualizacion: new Date().toISOString().split('T')[0],
+        trm_aplicada: trm,
         total_capitulos: 6,
         items: items.map(item => ({
             ...item,
             capitulo: item.codigo.split('.')[0],
+            vu_usd: (item.vu_cop / trm).toFixed(2),
+            total_usd: (item.total_cop / trm).toFixed(2),
             modificable: true,
             categoria: getCategoria(item.codigo),
             archivos_relacionados: [],
@@ -99,13 +103,13 @@ function sync() {
 
     const jsonPath = path.join(REPO_ROOT, 'IX. WBS y Planificacion/datos_wbs_TODOS_items.json');
     fs.writeFileSync(jsonPath, unicodeEscape(JSON.stringify(wbsData, null, 4)), 'utf8');
-    log(`💾 Creado: ${jsonPath}`, colors.green);
+    log(`💾 Creado (Multidivisa): ${jsonPath}`, colors.green);
 
     // Generar JS
     const jsPath = path.join(REPO_ROOT, 'IX. WBS y Planificacion/datos_wbs_TODOS_items.js');
-    const jsContent = `// WBS Datos Completos - Generado por LFC-CLI (Linux)\n// Fecha: ${new Date().toLocaleString()}\nwindow.datos_wbs = ${JSON.stringify(wbsData, null, 0)};\n`;
+    const jsContent = `// WBS Datos SICC v4.2 - Dual COP/USD\n// Fecha: ${new Date().toLocaleString()}\nwindow.datos_wbs = ${JSON.stringify(wbsData, null, 0)};\n`;
     fs.writeFileSync(jsPath, unicodeEscape(jsContent), 'utf8');
-    log(`💾 Creado: ${jsPath}\n`, colors.green);
+    log(`💾 Creado (Multidivisa): ${jsPath}\n`, colors.green);
 
     log("✅ SINCRONIZACIÓN EXITOSA", colors.cyan);
 }
@@ -179,17 +183,26 @@ function cook(sistema = null) {
         }
 
         let contenido = fs.readFileSync(rutaEjecutivo, 'utf8');
+        
+        // VALIDACIÓN DE SOBERANÍA (Protocolo v2.0)
+        const blacklist = ["UIC", "ERTMS", "ETCS", "GSM-R", "EUROBALIZA"];
+        const detectados = blacklist.filter(term => contenido.toUpperCase().includes(term));
+        
+        if (detectados.length > 0) {
+            log(`  ❌ FALLO DE SOBERANÍA: Términos prohibidos detectados: ${detectados.join(', ')}`, colors.red);
+            log(`  ⚠️ Saneamiento requerido en: ${nombreEjecutivo}`, colors.yellow);
+            // Marcar pero no bloquear todavía para permitir auditoría
+        }
+
         const fechaActual = new Date().toLocaleString();
+        const marker = `\n\n<!-- COCINADO LFC-CLI v2.0 | SICC Pureza: ${detectados.length === 0 ? '100%' : 'AUDIT_REQUIRED'} | Fecha: ${fechaActual} -->\n`;
         
-        // Simulación de "cocinado" (marcado de versión)
-        const marker = `\n\n<!-- COCINADO LFC-CLI v1.0 | Fecha: ${fechaActual} | SSOT: DBCD_CRITERIA.md -->\n`;
-        
-        if (!contenido.includes("COCINADO LFC-CLI")) {
+        if (!contenido.includes("COCINADO LFC-CLI v2.0")) {
             contenido += marker;
             fs.writeFileSync(rutaEjecutivo, contenido, 'utf8');
-            log(`  ✅ Marcado como cocinado y listo para servir.`, colors.green);
+            log(`  ✅ Marcado con SICC-Validation.`, colors.green);
         } else {
-            log(`  ℹ️ Ya está cocinado.`, colors.magenta);
+            log(`  ℹ️ Ya está validado v2.0.`, colors.magenta);
         }
     });
 }

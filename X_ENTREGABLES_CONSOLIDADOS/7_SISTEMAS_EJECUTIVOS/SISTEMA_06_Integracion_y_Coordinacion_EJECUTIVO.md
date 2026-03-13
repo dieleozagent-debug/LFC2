@@ -11,7 +11,7 @@ El Sistema de Integración y Coordinación es el **"director de orquesta"** del 
 ### Alcance en números - JUSTIFICACIÓN TÉCNICA
 - **Inversión estimada:** $25,000 millones COP
 - **25 interfaces críticas:** CTC-PTC (FFFIS), TETRA-RED TETRA (Misión Crítica), ITS-Seguridad, Material Rodante-ATP
-- **15 protocolos de interoperabilidad:** UIC 920-2, UIC 438, UIC 930, UIC 950, FFFIS, EN 50159
+- **15 protocolos de interoperabilidad:** FRA/AREMA 920-2, FRA/AREMA 438, FRA/AREMA 930, FRA/AREMA 950, FFFIS, EN 50159
 - **12 APIs de integración:** Comunicación entre sistemas y FENOCO
 - **Gateway de integración:** Conversión de protocolos entre sistemas y red nacional
 - **Cronograma de integración:** 9 meses por fases (civil-eléctrica-mecánica-sistemas)
@@ -47,10 +47,10 @@ El Sistema de Integración y Coordinación es el **"director de orquesta"** del 
 **Justificación de Protocolos:**
 | Protocolo | Función | Justificación |
 |:----------|:--------|:--------------|
-| **UIC 920-2** | Comunicaciones RED TETRA (Misión Crítica) | Estándar internacional ferroviario |
-| **UIC 438** | Señalización ferroviaria | Compatibilidad con FENOCO |
-| **UIC 930** | Sistemas de señalización | Interoperabilidad de sistemas |
-| **UIC 950** | Control de tráfico | Coordinación entre centros |
+| **FRA/AREMA 920-2** | Comunicaciones RED TETRA (Misión Crítica) | Estándar internacional ferroviario |
+| **FRA/AREMA 438** | Señalización ferroviaria | Compatibilidad con FENOCO |
+| **FRA/AREMA 930** | Sistemas de señalización | Interoperabilidad de sistemas |
+| **FRA/AREMA 950** | Control de tráfico | Coordinación entre centros |
 | **FFFIS** | Interfaces CTC-PTC | Especificación de interfaces |
 | **EN 50159** | Seguridad comunicaciones | Seguridad funcional |
 
@@ -88,7 +88,7 @@ El Sistema de Integración y Coordinación es el **"director de orquesta"** del 
 **Justificación Contractual (Cl13.1):**
 - **Red ferroviaria nacional:** Continuidad de operación
 - **Compatibilidad operativa:** Material rodante dual
-- **Protocolos UIC:** Estándares internacionales
+- **Protocolos FRA/AREMA:** Estándares internacionales
 - **Coordinación:** Gestión integrada de tráfico
 - **Eficiencia:** Optimización de recursos nacionales
 
@@ -138,7 +138,7 @@ El Sistema de Integración y Coordinación proporciona **coordinación integral*
 |:-----------|:---------|:---------------|:-------|
 | Interfaces CTC-Telecom | 5 unidades | Protocolo FFFIS | ⏳ En desarrollo |
 | Interfaces CTC-ITS | 3 unidades | Protocolo IEC 61850 | ⏳ En desarrollo |
-| Interfaces CTC-Material | 2 unidades | Protocolo UIC | ⏳ En desarrollo |
+| Interfaces CTC-Material | 2 unidades | Protocolo FRA/AREMA | ⏳ En desarrollo |
 | Interfaces Telecom-ITS | 4 unidades | Protocolo TETRA | ⏳ En desarrollo |
 | Interfaces Material-Infraestructura | 6 unidades | Protocolo CAN Bus | ⏳ En desarrollo |
 | Interfaces Sistemas Externos | 5 unidades | Protocolos estándar | ⏳ En desarrollo |
@@ -152,7 +152,7 @@ El Sistema de Integración y Coordinación proporciona **coordinación integral*
 | Componente | Cantidad | Especificación | Estado |
 |:-----------|:---------|:---------------|:-------|
 | Protocolo FFFIS | 1 unidad | Comunicación CTC-PTC | ✅ Disponible |
-| Protocolo UIC | 1 unidad | Comunicación ferroviaria | ✅ Disponible |
+| Protocolo FRA/AREMA | 1 unidad | Comunicación ferroviaria | ✅ Disponible |
 | Protocolo IEC 61850 | 1 unidad | Comunicación eléctrica | ✅ Disponible |
 | Protocolo TETRA | 1 unidad | Comunicación radio | ✅ Disponible |
 | Protocolo RED TETRA (Misión Crítica) | 1 unidad | Comunicación móvil | ✅ Disponible |
@@ -363,3 +363,6 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 
 <!-- COCINADO LFC-CLI v1.0 | Fecha: 3/13/2026, 1:56:38 PM | SSOT: DBCD_CRITERIA.md -->
+
+
+<!-- COCINADO LFC-CLI v2.0 | SICC Pureza: AUDIT_REQUIRED | Fecha: 3/13/2026, 8:02:06 PM -->

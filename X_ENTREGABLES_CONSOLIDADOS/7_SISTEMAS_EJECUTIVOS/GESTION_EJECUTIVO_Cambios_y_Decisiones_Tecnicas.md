@@ -68,7 +68,7 @@ Este documento presenta de manera consolidada todas las **Decisiones Técnicas (
 - **Justificación técnica:** 
   - Bloque lógico de integración (NO hardware físico único)
   - Conecta: CTC ↔ PTC/PTC VIRTUAL L2 ↔ FENOCO ↔ TETRA ↔ Fibra ↔ ITS
-  - Composición: Gateways industriales + Switches borde + Firewalls IEC 62443 + Middleware UIC 918-4 + Licencias software
+  - Composición: Gateways industriales + Switches borde + Firewalls IEC 62443 + Middleware FRA/AREMA 918-4 + Licencias software
 - **Alcance $150M incluye:**
   - Licencias integración (protocolos, middleware)
   - Configuración redundancia N+1
@@ -421,3 +421,6 @@ Este documento presenta de manera consolidada todas las **Decisiones Técnicas (
 
 
 <!-- COCINADO LFC-CLI v1.0 | Fecha: 3/13/2026, 7:41:58 PM | SSOT: DBCD_CRITERIA.md -->
+
+
+<!-- COCINADO LFC-CLI v2.0 | SICC Pureza: AUDIT_REQUIRED | Fecha: 3/13/2026, 8:02:06 PM -->

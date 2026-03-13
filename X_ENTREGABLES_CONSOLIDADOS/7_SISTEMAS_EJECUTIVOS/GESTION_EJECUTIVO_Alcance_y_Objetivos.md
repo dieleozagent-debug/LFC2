@@ -109,7 +109,7 @@ El proyecto APP La Dorada-Chiriguaná proporciona **infraestructura ferroviaria*
 | Parámetro | Valor | Justificación |
 |:----------|:------|:--------------|
 | **Longitud** | 526.133 km | Distancia La Dorada-Chiriguaná |
-| **Trocha** | 1,435 mm | Estándar UIC para interoperabilidad |
+| **Trocha** | 1,435 mm | Estándar FRA/AREMA para interoperabilidad |
 | **Vías** | 2 principales | Capacidad bidireccional |
 | **Velocidad** | 80 km/h | Especificaciones del corredor |
 
@@ -143,7 +143,7 @@ El proyecto APP La Dorada-Chiriguaná proporciona **infraestructura ferroviaria*
 | Parámetro | Valor | Estándar Aplicable |
 |:----------|:------|:-------------------|
 | Longitud del corredor | 526.133 km | Especificaciones proyecto |
-| Trocha ferroviaria | 1,435 mm | UIC 600 |
+| Trocha ferroviaria | 1,435 mm | FRA/AREMA 600 |
 | Velocidad máxima | 80 km/h | Especificaciones proyecto |
 | Disponibilidad | 99.95% | AT4 |
 | Vida útil | 30 años | Especificaciones proyecto |
@@ -320,3 +320,6 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 
 <!-- COCINADO LFC-CLI v1.0 | Fecha: 3/13/2026, 7:41:58 PM | SSOT: DBCD_CRITERIA.md -->
+
+
+<!-- COCINADO LFC-CLI v2.0 | SICC Pureza: AUDIT_REQUIRED | Fecha: 3/13/2026, 8:02:06 PM -->

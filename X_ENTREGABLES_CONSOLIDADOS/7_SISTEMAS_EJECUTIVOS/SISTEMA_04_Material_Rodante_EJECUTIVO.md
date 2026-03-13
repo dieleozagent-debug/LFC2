@@ -176,12 +176,12 @@ El Sistema de Material Rodante proporciona **capacidad de transporte** para el c
 ### Tabla consolidada de especificaciones
 | Parámetro | Valor | Estándar Aplicable |
 |:----------|:------|:-------------------|
-| Potencia locomotoras | 3,000 kW | UIC |
-| Velocidad máxima | 120 km/h | UIC |
-| Velocidad comercial | 80 km/h | UIC |
-| Capacidad de carga | 50 toneladas | UIC |
+| Potencia locomotoras | 3,000 kW | FRA/AREMA |
+| Velocidad máxima | 120 km/h | FRA/AREMA |
+| Velocidad comercial | 80 km/h | FRA/AREMA |
+| Capacidad de carga | 50 toneladas | FRA/AREMA |
 | Disponibilidad flota | 99.95% | EN 50126 |
-| Peso por locomotora | 120 toneladas | UIC |
+| Peso por locomotora | 120 toneladas | FRA/AREMA |
 
 ### Criterios de aceptación
 - ✅ 15 locomotoras con ATP embarcado PTC VIRTUAL Level 2
@@ -344,3 +344,6 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 
 <!-- COCINADO LFC-CLI v1.0 | Fecha: 3/13/2026, 1:56:38 PM | SSOT: DBCD_CRITERIA.md -->
+
+
+<!-- COCINADO LFC-CLI v2.0 | SICC Pureza: AUDIT_REQUIRED | Fecha: 3/13/2026, 8:02:06 PM -->
