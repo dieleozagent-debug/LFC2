@@ -1,4 +1,4 @@
-# ð Â¿QUÃ WBS ABRIR AL INICIO?
+# ð ¿QUÉ WBS ABRIR AL INICIO?
 
 ---
 
@@ -6,10 +6,10 @@
 
 ### **WBS_Menu_Principal.html** â­
 ```
-UbicaciÃ³n: IX. WBS y Planificacion/WBS_Menu_Principal.html
+Ubicación: IX. WBS y Planificacion/WBS_Menu_Principal.html
 ```
 
-**Es el menÃº de navegaciÃ³n principal** que te lleva a todas las vistas.
+**Es el menú de navegación principal** que te lleva a todas las vistas.
 
 ---
 
@@ -19,27 +19,27 @@ UbicaciÃ³n: IX. WBS y Planificacion/WBS_Menu_Principal.html
 
 **1. WBS_Presupuestal_INTERACTIVA_v3.0.html** â­ **NUEVO - RECOMENDADO**
 ```
-Para: Proponer cambios tÃ©cnicos con anÃ¡lisis completo
+Para: Proponer cambios técnicos con análisis completo
 Tiene: 
-- â Criterios tÃ©cnicos visibles
-- â Riesgos asociados a cada Ã­tem
-- â BotÃ³n [Proponer Cambio]
-- â AnÃ¡lisis automÃ¡tico de 6 secciones
+- â Criterios técnicos visibles
+- â Riesgos asociados a cada ítem
+- â Botón [Proponer Cambio]
+- â Análisis automático de 6 secciones
 - â Sistema bidireccional (actualiza riesgos en tiempo real)
 
-Ãsala cuando: Quieras proponer/analizar cambios tÃ©cnicos
+Úsala cuando: Quieras proponer/analizar cambios técnicos
 ```
 
-**2. WBS_Presupuesto_SCC_APP_La_Dorada_ChiriguanÃ¡.html**
+**2. WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná.html**
 ```
 Para: Consultar presupuesto detallado y exportar a Excel
 Tiene:
-- Tabla completa de Ã­tems
-- ExportaciÃ³n a Excel
+- Tabla completa de ítems
+- Exportación a Excel
 - Filtros por tipo
-- CÃ¡lculos AIU/IVA
+- Cálculos AIU/IVA
 
-Ãsala cuando: Necesites exportar datos o ver tabla simple
+Úsala cuando: Necesites exportar datos o ver tabla simple
 ```
 
 ---
@@ -49,7 +49,7 @@ Tiene:
 **3. WBS_Reporte_Gerencial.html**
 ```
 Para: Vista ejecutiva con justificaciones
-Tiene: Resumen de cantidades clave con justificaciones tÃ©cnicas
+Tiene: Resumen de cantidades clave con justificaciones técnicas
 ```
 
 **4. WBS_EDT_Detalle.html**
@@ -64,40 +64,40 @@ Para: Plan maestro de 24 meses con 5 fases
 
 **6. WBS_Analisis_Riesgos.html**
 ```
-Para: EvaluaciÃ³n integral de riesgos del proyecto
+Para: Evaluación integral de riesgos del proyecto
 ```
 
 ---
 
-### **Para EDICIÃN (Markdown):**
+### **Para EDICIÓN (Markdown):**
 
 **7. WBS_Presupuestal_v2.0.md**
 ```
-Para: Editar presupuesto en Markdown (versiÃ³n estÃ¡ndar)
+Para: Editar presupuesto en Markdown (versión estándar)
 ```
 
 **8. WBS_Presupuestal_AMPLIADA_v3.0.md** â­ **NUEVO**
 ```
 Para: Ver WBS con columnas ampliadas:
-- Criterio TÃ©cnico
+- Criterio Técnico
 - Riesgos Asociados
 - Origen DT
-- Modificable SÃ­/No
+- Modificable Sí/No
 ```
 
 ---
 
 ## ð¯ **FLUJO RECOMENDADO**
 
-### **Paso 1: Abrir menÃº principal**
+### **Paso 1: Abrir menú principal**
 ```
 Archivo: WBS_Menu_Principal.html
-AcciÃ³n: Doble click o abrir en navegador
+Acción: Doble click o abrir en navegador
 ```
 
-### **Paso 2: Elegir vista segÃºn necesidad**
+### **Paso 2: Elegir vista según necesidad**
 
-**Si quieres PROPONER CAMBIO TÃCNICO:**
+**Si quieres PROPONER CAMBIO TÉCNICO:**
 â Click en "WBS Presupuestal Interactiva v3.0" â­
 
 **Si quieres SOLO CONSULTAR/EXPORTAR:**
@@ -108,37 +108,37 @@ AcciÃ³n: Doble click o abrir en navegador
 
 ---
 
-## ð **RESUMEN ULTRA RÃPIDO**
+## ð **RESUMEN ULTRA RÁPIDO**
 
-**Â¿Primera vez?**
+**¿Primera vez?**
 ð **Abre:** `WBS_Menu_Principal.html`
 
-**Â¿Quieres proponer cambio tÃ©cnico?**
+**¿Quieres proponer cambio técnico?**
 ð **Abre:** `WBS_Presupuestal_INTERACTIVA_v3.0.html` â­
 
-**Â¿Solo necesitas consultar presupuesto?**
-ð **Abre:** `WBS_Presupuesto_SCC_APP_La_Dorada_ChiriguanÃ¡.html`
+**¿Solo necesitas consultar presupuesto?**
+ð **Abre:** `WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná.html`
 
-**Â¿Eres PMO/Gerencia?**
+**¿Eres PMO/Gerencia?**
 ð **Abre:** `WBS_Reporte_Gerencial.html`
 
 ---
 
 ## ð **DIFERENCIAS CLAVE**
 
-| Archivo | Para QuiÃ©n | CaracterÃ­sticas | Interactivo |
+| Archivo | Para Quién | Características | Interactivo |
 |:--------|:-----------|:---------------|:------------|
-| **WBS_Menu_Principal** | Todos | MenÃº de navegaciÃ³n | BÃ¡sico |
-| **WBS_Presupuestal_INTERACTIVA_v3.0** â­ | Especialistas | AnÃ¡lisis completo + Proponer cambios | â Avanzado |
+| **WBS_Menu_Principal** | Todos | Menú de navegación | Básico |
+| **WBS_Presupuestal_INTERACTIVA_v3.0** â­ | Especialistas | Análisis completo + Proponer cambios | â Avanzado |
 | **WBS_Presupuesto_SCC...** | Especialistas | Tabla completa + Exportar | â Medio |
 | **WBS_Reporte_Gerencial** | Gerencia/PMO | Vista ejecutiva | â Solo lectura |
 
 ---
 
-**ð¯ PUNTO DE ENTRADA ÃNICO:**
+**ð¯ PUNTO DE ENTRADA ÚNICO:**
 ## ð `WBS_Menu_Principal.html`
 
-**Desde ahÃ­ eliges quÃ© vista necesitas.**
+**Desde ahí eliges qué vista necesitas.**
 
 ---
 

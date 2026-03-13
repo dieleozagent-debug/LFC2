@@ -5,10 +5,10 @@ const reporteGerencialData = {
     "ruta_critica":  [
                          {
                              "codigo":  "2.3.100",
-                             "nombre":  "Cable fibra Ã³ptica 48 fibras",
+                             "nombre":  "Cable fibra óptica 48 fibras",
                              "duracion_meses":  49,
                              "total_cop":  5827741722,
-                             "razon":  "Actividad mÃ¡s larga del proyecto. Define plazo total.",
+                             "razon":  "Actividad más larga del proyecto. Define plazo total.",
                              "puede_acelerarse":  false
                          }
                      ],
@@ -22,15 +22,15 @@ const reporteGerencialData = {
                                      },
                                      {
                                          "prioridad":  "ALTA",
-                                         "tema":  "AceleraciÃ³n TETRA - Radioenlaces",
+                                         "tema":  "Aceleración TETRA - Radioenlaces",
                                          "accion":  "Aprobar fast-tracking: Radioenlaces + 50M COP, Ahorro 6 meses",
-                                         "descripcion":  "TETRA puede acelerarse de 18 a 12 meses usando radioenlaces temporales. Permite operaciÃ³n anticipada."
+                                         "descripcion":  "TETRA puede acelerarse de 18 a 12 meses usando radioenlaces temporales. Permite operación anticipada."
                                      },
                                      {
                                          "prioridad":  "MEDIA",
-                                         "tema":  "AnÃ¡lisis Pareto",
+                                         "tema":  "Análisis Pareto",
                                          "accion":  "Asignar PMO senior a items Pareto",
-                                         "descripcion":  "15 items representan 80% del presupuesto. Enfocar supervisiÃ³n en estos."
+                                         "descripcion":  "15 items representan 80% del presupuesto. Enfocar supervisión en estos."
                                      }
                                  ],
     "pareto_items":  [
@@ -45,7 +45,7 @@ const reporteGerencialData = {
                          },
                          {
                              "codigo":  "2.3.101",
-                             "descripcion":  "Mano de obra instalaciÃ³n",
+                             "descripcion":  "Mano de obra instalación",
                              "total_cop":  53572258278,
                              "porcentaje":  20.223480399100183,
                              "porcentaje_acumulado":  53.501069562841842,
@@ -54,7 +54,7 @@ const reporteGerencialData = {
                          },
                          {
                              "codigo":  "1.5.100",
-                             "descripcion":  "DesvÃ­os manuales autotalonables (con comprobador integrado)",
+                             "descripcion":  "Desvíos manuales autotalonables (con comprobador integrado)",
                              "total_cop":  16149240000,
                              "porcentaje":  6.0963239015534239,
                              "porcentaje_acumulado":  59.597393464395267,
@@ -63,7 +63,7 @@ const reporteGerencialData = {
                          },
                          {
                              "codigo":  "1.4.100",
-                             "descripcion":  "DesvÃ­os motorizados CTC",
+                             "descripcion":  "Desvíos motorizados CTC",
                              "total_cop":  11214725000,
                              "porcentaje":  4.2335488274896349,
                              "porcentaje_acumulado":  63.830942291884909,
@@ -81,7 +81,7 @@ const reporteGerencialData = {
                          },
                          {
                              "codigo":  "2.3.100",
-                             "descripcion":  "Cable fibra Ã³ptica 48 fibras",
+                             "descripcion":  "Cable fibra óptica 48 fibras",
                              "total_cop":  5827741722,
                              "porcentaje":  2.1999673762919314,
                              "porcentaje_acumulado":  68.5450538126905,
@@ -99,7 +99,7 @@ const reporteGerencialData = {
                          },
                          {
                              "codigo":  "5.3.103",
-                             "descripcion":  "Interfaces comunicaciÃ³n",
+                             "descripcion":  "Interfaces comunicación",
                              "total_cop":  4112000000,
                              "porcentaje":  1.552276384720747,
                              "porcentaje_acumulado":  71.984825801400476,
@@ -108,7 +108,7 @@ const reporteGerencialData = {
                          },
                          {
                              "codigo":  "4.3.102",
-                             "descripcion":  "InstalaciÃ³n",
+                             "descripcion":  "Instalación",
                              "total_cop":  3660000000,
                              "porcentaje":  1.3816467821201202,
                              "porcentaje_acumulado":  73.3664725835206,

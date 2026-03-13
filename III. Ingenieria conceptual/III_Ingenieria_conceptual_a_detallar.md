@@ -5,7 +5,7 @@
 
 ### INFORMACION DEL DOCUMENTO
 - Fecha de conversion: 17/09/2025 16:14
-- Proyecto: APP La Dorada - ChiriguanÃ¡
+- Proyecto: APP La Dorada - Chiriguaná
 - Contrato: Concesion No. 001 de 2025
 - Responsable: Administrador Contractual EPC
 - Tipo: Documento de Soporte
@@ -18,7 +18,7 @@
 
 **III_Ingenieria_conceptual_a_detallar**
 
-Este documento de soporte contiene informacion tecnica, especificaciones y procedimientos relacionados con Ingenieria Conceptual para el proyecto APP La Dorada - ChiriguanÃ¡.
+Este documento de soporte contiene informacion tecnica, especificaciones y procedimientos relacionados con Ingenieria Conceptual para el proyecto APP La Dorada - Chiriguaná.
 
 ---
 

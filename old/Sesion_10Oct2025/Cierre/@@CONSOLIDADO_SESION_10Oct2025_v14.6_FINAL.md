@@ -210,7 +210,7 @@ $mapeoSistemas = @{
 
 ### **6️⃣ ENCODING 100% CORREGIDO**
 
-**Problema:** Caracteres mal codificados (`INGENIERÃA`, `IngenierÃ­a`, etc.)
+**Problema:** Caracteres mal codificados (`INGENIERÃA`, `Ingeniería`, etc.)
 
 **Archivos corregidos:**
 - ✅ `cronograma_datos.js`
@@ -224,11 +224,11 @@ $mapeoSistemas = @{
 
 **Patrones corregidos:**
 - `INGENIERÃA` → `INGENIERÍA`
-- `IngenierÃ­a` → `Ingeniería`
-- `OperaciÃ³n` → `Operación`
-- `AprobaciÃ³n` → `Aprobación`
-- `bÃ¡sic` → `básic`
-- `Ã³ptic` → `óptic`
+- `Ingeniería` → `Ingeniería`
+- `Operación` → `Operación`
+- `Aprobación` → `Aprobación`
+- `básic` → `básic`
+- `óptic` → `óptic`
 - Y 15+ patrones más...
 
 **Verificación final:**

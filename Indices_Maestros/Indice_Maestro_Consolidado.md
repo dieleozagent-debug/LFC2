@@ -81,7 +81,7 @@ Este documento proporciona el índice maestro consolidado de todos los documento
 #### FASE 0: BASE CONTRACTUAL
 > Documentos contractuales y obligaciones
 
-| # | Documento | Ubicación | TamaÃ±o | Palabras | Patrones Clave | Modificado |
+| # | Documento | Ubicación | Tamaño | Palabras | Patrones Clave | Modificado |
 |:---:|:---|:---|:---:|:---:|:---:|:---:|
 | 1 | 4_Cl_9_1_OM_docx_Obligaciones_de_Operaci_n_y_Mantenimiento_MEJORADO | I. Contrato General/ | 18.43 KB | 2557 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
 | 2 | 5_Cl_12_1_Reversi_n_docx_Entrega_de_activos_y_sistemas_en_buen_estado_MEJORADO | I. Contrato General/ | 12.92 KB | 1701 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
@@ -116,7 +116,7 @@ Este documento proporciona el índice maestro consolidado de todos los documento
 #### TECNICO II. Apendices Tecnicos
 > Especificaciones tecnicas y procedimientos
 
-| # | Documento | Ubicación | TamaÃ±o | Palabras | Patrones Clave | Modificado |
+| # | Documento | Ubicación | Tamaño | Palabras | Patrones Clave | Modificado |
 |:---:|:---|:---|:---:|:---:|:---:|:---:|
 | 1 | AT3_Especificaciones_Generales_MEJORADO | II. Apendices Tecnicos/ | 4.12 KB | 582 | Tecnico, Sistemas | 17/09/2025 |
 | 2 | AT4_Indicadores_de_Desempeno_MEJORADO | II. Apendices Tecnicos/ | 15.53 KB | 2149 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
@@ -132,7 +132,7 @@ Este documento proporciona el índice maestro consolidado de todos los documento
 #### INGENIERIA IV. Ingenieria Basica
 > Memorias de diseno y planos basicos
 
-| # | Documento | Ubicación | TamaÃ±o | Palabras | Patrones Clave | Modificado |
+| # | Documento | Ubicación | Tamaño | Palabras | Patrones Clave | Modificado |
 |:---:|:---|:---|:---:|:---:|:---:|:---:|
 | 1 | MemoriasDiseño_Basico_just tec | IV. Ingenieria básica/ | 17.43 KB | 2416 | Ingenieria, Tecnico, Sistemas | 17/09/2025 |
 | 2 | DiagramasArquitectura_sist_ctc-telco | IV. Ingenieria básica/ | 37.21 KB | 4823 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
@@ -144,7 +144,7 @@ Este documento proporciona el índice maestro consolidado de todos los documento
 #### SOPORTE III. Documentos de Soporte
 > Documentos de soporte e ingenieria
 
-| # | Documento | Ubicación | TamaÃ±o | Palabras | Patrones Clave | Modificado |
+| # | Documento | Ubicación | Tamaño | Palabras | Patrones Clave | Modificado |
 |:---:|:---|:---|:---:|:---:|:---:|:---:|
 | 1 | 24_Matriz_TrazabilidadContractual_xlsx_Jerarqu_a_documental_aplicada_a_ingenier_a | III. Ingenieria conceptual/ | 6.39 KB | 879 | Ingenieria, Tecnico, Sistemas | 17/09/2025 |
 | 2 | 25_WBS_IngenieriaConceptual_docx | III. Ingenieria conceptual/ | 5.64 KB | 801 | Tecnico, Contrato, Sistemas | 17/09/2025 |

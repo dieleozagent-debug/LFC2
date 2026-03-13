@@ -8,18 +8,18 @@
                       "Personal calificado disponible",
                       "Clima favorable para obras",
                       "Permisos ANLA vigentes Mes 12",
-                      "Acceso vÃ­a Fenoco sin restricciones",
+                      "Acceso vía Fenoco sin restricciones",
                       "Subestaciones operativas Mes 16",
                       "Fenoco coordina shutdowns 2 veces/mes",
-                      "Flujo de caja disponible segÃºn cronograma",
+                      "Flujo de caja disponible según cronograma",
                       "TRM estable Â±10%"
                   ],
     "restricciones":  [
                           "NO instalar CTC sin Edificio CCO (EXT-01 M18)",
-                          "NO instalar CÃ¡maras sin Fibra+Cableado (M26)",
+                          "NO instalar Cámaras sin Fibra+Cableado (M26)",
                           "NO ATP embarcado sin Material Rodante (EXT-02 M20)",
                           "NO Pruebas integradas sin FATs (M38)",
-                          "NO SAT sin integraciÃ³n completa (M42)",
+                          "NO SAT sin integración completa (M42)",
                           "NO Ordenar compras sin Aprobación ANI (M12)"
                       ],
     "ruta_critica":  [
@@ -119,7 +119,7 @@
                                                 {
                                                     "meses_buffer":  2,
                                                     "probabilidad":  50,
-                                                    "riesgo":  "IntegraciÃ³n CTC-ATP"
+                                                    "riesgo":  "Integración CTC-ATP"
                                                 }
                                             ]
                        },
@@ -218,7 +218,7 @@
                   {
                       "id":  "F1",
                       "descripcion":  "Ingeniería conceptual, básica y de detalle. Aprobación ANI Mes 12.",
-                      "nombre":  "INGENIERÃA",
+                      "nombre":  "INGENIERÍA",
                       "mes_inicio":  0,
                       "duracion_meses":  12,
                       "avance_pct":  33,
@@ -299,7 +299,7 @@
     "fecha_fin_buffer":  "2030-05-31",
     "duracion_buffer_meses":  12,
     "duracion_total_meses":  60,
-    "proyecto":  "APP La Dorada-ChiriguanÃ¡ - PLAN AGRESIVO",
+    "proyecto":  "APP La Dorada-Chiriguaná - PLAN AGRESIVO",
     "entregas_externas":  [
                               {
                                   "id":  "EXT-01",
@@ -309,7 +309,7 @@
                                   "mes_requerido":  18,
                                   "lead_time_meses":  12,
                                   "responsable":  "ANI / Contratista Civil",
-                                  "criticidad":  "CRÃTICA"
+                                  "criticidad":  "CRÍTICA"
                               },
                               {
                                   "id":  "EXT-02",
@@ -319,11 +319,11 @@
                                   "mes_requerido":  20,
                                   "lead_time_meses":  9,
                                   "responsable":  "Fenoco / ANI",
-                                  "criticidad":  "CRÃTICA"
+                                  "criticidad":  "CRÍTICA"
                               },
                               {
                                   "id":  "EXT-03",
-                                  "nota":  "SIN ENERGÃA NO SE PUEDE operar equipos electrÃ³nicos.",
+                                  "nota":  "SIN ENERGÍA NO SE PUEDE operar equipos electrónicos.",
                                   "orden_en_mes":  8,
                                   "nombre":  "Subestaciones eléctricas",
                                   "mes_requerido":  16,
@@ -333,10 +333,10 @@
                               },
                               {
                                   "id":  "EXT-04",
-                                  "nombre":  "Acceso VÃ­a Fenoco",
+                                  "nombre":  "Acceso Vía Fenoco",
                                   "responsable":  "Fenoco",
                                   "mes_requerido":  14,
-                                  "nota":  "SIN ACCESO NO SE PUEDE tender fibra ni hacer obras en vÃ­a.",
+                                  "nota":  "SIN ACCESO NO SE PUEDE tender fibra ni hacer obras en vía.",
                                   "criticidad":  "ALTA"
                               },
                               {

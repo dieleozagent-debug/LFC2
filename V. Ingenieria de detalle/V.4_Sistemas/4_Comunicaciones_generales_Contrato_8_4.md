@@ -28,7 +28,7 @@
 
 **4_Comunicaciones_generales_Contrato_8_4**
 
-Este documento de soporte contiene informacion tecnica, especificaciones y procedimientos relacionados con Ingenieria de Detalle para el proyecto APP La Dorada - ChiriguanÃ¡.
+Este documento de soporte contiene informacion tecnica, especificaciones y procedimientos relacionados con Ingenieria de Detalle para el proyecto APP La Dorada - Chiriguaná.
 
 ---
 

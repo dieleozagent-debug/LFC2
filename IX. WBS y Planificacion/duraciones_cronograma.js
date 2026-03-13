@@ -5,14 +5,14 @@
   "duraciones": {
     "2.3.100": {
       "item": "2.3.100",
-      "nombre": "Cable fibra Ã³ptica 48 fibras",
+      "nombre": "Cable fibra óptica 48 fibras",
       "duracion_meses": 49,
       "es_ruta_critica": true,
       "hito_inicio": "Mes 1",
       "hito_fin": "Mes 49",
       "dependencias": [],
       "justificacion_duracion": "InstalaciÃÂ³n secuencial 594 km: 12 km/mes promedio Ãâ 49 meses",
-      "ruta_critica_detalle": "Actividad mÃÂ¡s larga del proyecto. Define plazo total.",
+      "ruta_critica_detalle": "Actividad mÃ¡s larga del proyecto. Define plazo total.",
       "puede_acelerarse": false,
       "razon_no_aceleracion": "InstalaciÃÂ³n fÃÂ­sica limitada por clima, accesos, permisos",
       "impacto_retraso": {
@@ -36,7 +36,7 @@
         "duracion_acelerada": 12,
         "ahorro_tiempo": 6,
         "costo_adicional": 50000000,
-        "descripcion": "Usar radioenlaces 1GB entre torres mientras se instala fibra. Permite OperaciÃ³n TETRA desde mes 12 en vez de mes 18."
+        "descripcion": "Usar radioenlaces 1GB entre torres mientras se instala fibra. Permite Operación TETRA desde mes 12 en vez de mes 18."
       },
       "impacto_retraso": {
         "costo_por_mes": 80000000,
@@ -45,7 +45,7 @@
       "vinculacion_contrato": {
         "apendice": "AT1-SecciÃÂ³n-3.1",
         "clausula": "Sistema TETRA operativo en mes 18",
-        "penalizacion_retraso": "$200M por cada mes de retraso en OperaciÃ³n"
+        "penalizacion_retraso": "$200M por cada mes de retraso en Operación"
       }
     },
     "2.1.106": {
@@ -56,7 +56,7 @@
       "hito_inicio": "Mes 2",
       "hito_fin": "Mes 11",
       "dependencias": ["2.1.100"],
-      "justificacion_duracion": "37 casetas: DiseÃÂ±o (1m) + ConstrucciÃ³n paralela (9m)",
+      "justificacion_duracion": "37 casetas: DiseÃÂ±o (1m) + Construcción paralela (9m)",
       "ruta_critica_detalle": "Depende de ubicaciÃÂ³n torres, pero no bloquea ruta crÃÂ­tica",
       "puede_acelerarse": true,
       "opcion_aceleracion": {
@@ -64,7 +64,7 @@
         "duracion_acelerada": 7,
         "ahorro_tiempo": 3,
         "costo_adicional": 30000000,
-        "descripcion": "Usar casetas prefabricadas en lugar de ConstrucciÃ³n in-situ"
+        "descripcion": "Usar casetas prefabricadas en lugar de Construcción in-situ"
       }
     },
     "1.1.100": {
@@ -90,7 +90,7 @@
     {
       "secuencia": 1,
       "item": "2.3.100",
-      "nombre": "Cable fibra Ã³ptica",
+      "nombre": "Cable fibra óptica",
       "duracion": 49,
       "acumulado": 49,
       "es_critico": true,
@@ -101,7 +101,7 @@
     "items_criticos_80_regla": [
       {
         "item": "2.3.100",
-        "nombre": "Cable fibra Ã³ptica",
+        "nombre": "Cable fibra óptica",
         "porcentaje_costo": 45,
         "porcentaje_tiempo": 100,
         "razon_pareto": "Mayor costo + Mayor tiempo = Ruta crÃÂ­tica",

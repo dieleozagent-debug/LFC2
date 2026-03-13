@@ -23,6 +23,15 @@ const colors = {
     magenta: "\x1b[35m"
 };
 
+/**
+ * Escapa caracteres no-ASCII para asegurar compatibilidad total de encoding
+ */
+function unicodeEscape(str) {
+    return str.replace(/[^\x00-\x7F]/g, function (c) {
+        return "\\u" + ("0000" + c.charCodeAt(0).toString(16)).slice(-4);
+    });
+}
+
 function log(msg, color = colors.reset) {
     console.log(`${color}${msg}${colors.reset}`);
 }
@@ -89,13 +98,13 @@ function sync() {
     };
 
     const jsonPath = path.join(REPO_ROOT, 'IX. WBS y Planificacion/datos_wbs_TODOS_items.json');
-    fs.writeFileSync(jsonPath, JSON.stringify(wbsData, null, 4), 'utf8');
+    fs.writeFileSync(jsonPath, unicodeEscape(JSON.stringify(wbsData, null, 4)), 'utf8');
     log(`💾 Creado: ${jsonPath}`, colors.green);
 
     // Generar JS
     const jsPath = path.join(REPO_ROOT, 'IX. WBS y Planificacion/datos_wbs_TODOS_items.js');
     const jsContent = `// WBS Datos Completos - Generado por LFC-CLI (Linux)\n// Fecha: ${new Date().toLocaleString()}\nwindow.datos_wbs = ${JSON.stringify(wbsData, null, 0)};\n`;
-    fs.writeFileSync(jsPath, jsContent, 'utf8');
+    fs.writeFileSync(jsPath, unicodeEscape(jsContent), 'utf8');
     log(`💾 Creado: ${jsPath}\n`, colors.green);
 
     log("✅ SINCRONIZACIÓN EXITOSA", colors.cyan);

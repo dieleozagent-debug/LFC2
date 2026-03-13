@@ -88,7 +88,7 @@
 
 ### **9. Corrección Total de Encoding** ✅
 - **Archivos corregidos:** 8
-- **Patrones:** `INGENIERÃA` → `INGENIERÍA`, `IngenierÃ­a` → `Ingeniería`, etc.
+- **Patrones:** `INGENIERÃA` → `INGENIERÍA`, `Ingeniería` → `Ingeniería`, etc.
 - **Documentos servidos:** Regenerados con Pandoc (encoding UTF-8)
 - **Verificación:** ✅ 0 archivos con caracteres mal codificados
 

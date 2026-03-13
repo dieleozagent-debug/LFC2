@@ -89,7 +89,7 @@
         },
         {
             "codigo": "1.1.106",
-            "descripcion": "Interfaces comunicaciÃ³n",
+            "descripcion": "Interfaces comunicaci\u00f3n",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "1",
@@ -215,7 +215,7 @@
         },
         {
             "codigo": "1.3.101",
-            "descripcion": "Controlador ENCE GarcÃ­a Cadena",
+            "descripcion": "Controlador ENCE Garc\u00eda Cadena",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "1",
@@ -243,7 +243,7 @@
         },
         {
             "codigo": "1.3.103",
-            "descripcion": "Controlador ENCE Puerto BerrÃ­o-Grecia",
+            "descripcion": "Controlador ENCE Puerto Berr\u00edo-Grecia",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "1",
@@ -257,7 +257,7 @@
         },
         {
             "codigo": "1.3.104",
-            "descripcion": "Controlador ENCE La Dorada-MÃ©xico",
+            "descripcion": "Controlador ENCE La Dorada-M\u00e9xico",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "1",
@@ -299,7 +299,7 @@
         },
         {
             "codigo": "1.4.100",
-            "descripcion": "DesvÃ­os motorizados CTC",
+            "descripcion": "Desv\u00edos motorizados CTC",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "25",
@@ -341,7 +341,7 @@
         },
         {
             "codigo": "1.5.100",
-            "descripcion": "DesvÃ­os manuales autotalonables (con comprobador integrado)",
+            "descripcion": "Desv\u00edos manuales autotalonables (con comprobador integrado)",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "120",
@@ -355,7 +355,7 @@
         },
         {
             "codigo": "1.5.101",
-            "descripcion": "SeÃ±alizaciÃ³n luminosa estaciones ENCE (entrada/salida)",
+            "descripcion": "Se\u00f1alizaci\u00f3n luminosa estaciones ENCE (entrada/salida)",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "10",
@@ -369,7 +369,7 @@
         },
         {
             "codigo": "1.5.102",
-            "descripcion": "Herramientas operaciÃ³n (kit completo certificado)",
+            "descripcion": "Herramientas operaci\u00f3n (kit completo certificado)",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "120",
@@ -439,7 +439,7 @@
         },
         {
             "codigo": "2.1.104",
-            "descripcion": "Radios portÃ¡tiles",
+            "descripcion": "Radios port\u00e1tiles",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "80",
@@ -467,7 +467,7 @@
         },
         {
             "codigo": "2.1.106",
-            "descripcion": "Casetas tÃ©cnicas",
+            "descripcion": "Casetas t\u00e9cnicas",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "37",
@@ -509,7 +509,7 @@
         },
         {
             "codigo": "2.1.109",
-            "descripcion": "VÃ­as de acceso",
+            "descripcion": "V\u00edas de acceso",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "37",
@@ -537,7 +537,7 @@
         },
         {
             "codigo": "2.1.111",
-            "descripcion": "Montaje e instalaciÃ³n",
+            "descripcion": "Montaje e instalaci\u00f3n",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "37",
@@ -551,7 +551,7 @@
         },
         {
             "codigo": "2.1.112",
-            "descripcion": "ConfiguraciÃ³n red",
+            "descripcion": "Configuraci\u00f3n red",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "1",
@@ -579,7 +579,7 @@
         },
         {
             "codigo": "2.1.114",
-            "descripcion": "CapacitaciÃ³n",
+            "descripcion": "Capacitaci\u00f3n",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "1",
@@ -607,7 +607,7 @@
         },
         {
             "codigo": "2.2.100",
-            "descripcion": "Estaciones base RED TETRA (Misión Crítica)",
+            "descripcion": "Estaciones base RED TETRA (Misi\u00f3n Cr\u00edtica)",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "37",
@@ -621,7 +621,7 @@
         },
         {
             "codigo": "2.2.101",
-            "descripcion": "Antenas RED TETRA (Misión Crítica)",
+            "descripcion": "Antenas RED TETRA (Misi\u00f3n Cr\u00edtica)",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "37",
@@ -635,7 +635,7 @@
         },
         {
             "codigo": "2.2.102",
-            "descripcion": "Radios embarcados RED TETRA (Misión Crítica)",
+            "descripcion": "Radios embarcados RED TETRA (Misi\u00f3n Cr\u00edtica)",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "30",
@@ -649,7 +649,7 @@
         },
         {
             "codigo": "2.2.103",
-            "descripcion": "Sistema control RED TETRA (Misión Crítica)",
+            "descripcion": "Sistema control RED TETRA (Misi\u00f3n Cr\u00edtica)",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "1",
@@ -663,7 +663,7 @@
         },
         {
             "codigo": "2.2.104",
-            "descripcion": "Interfaces TETRA-RED TETRA (Misión Crítica)",
+            "descripcion": "Interfaces TETRA-RED TETRA (Misi\u00f3n Cr\u00edtica)",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "37",
@@ -691,7 +691,7 @@
         },
         {
             "codigo": "2.2.106",
-            "descripcion": "ConfiguraciÃ³n dual",
+            "descripcion": "Configuraci\u00f3n dual",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "1",
@@ -705,7 +705,7 @@
         },
         {
             "codigo": "2.2.107",
-            "descripcion": "Pruebas integraciÃ³n",
+            "descripcion": "Pruebas integraci\u00f3n",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "1",
@@ -733,7 +733,7 @@
         },
         {
             "codigo": "2.3.100",
-            "descripcion": "Cable fibra Ã³ptica 48 fibras",
+            "descripcion": "Cable fibra \u00f3ptica 48 fibras",
             "tipo": "SUMINISTRO",
             "unidad": "KM",
             "cantidad": "594",
@@ -747,7 +747,7 @@
         },
         {
             "codigo": "2.3.101",
-            "descripcion": "Mano de obra instalaciÃ³n",
+            "descripcion": "Mano de obra instalaci\u00f3n",
             "tipo": "SUMINISTRO",
             "unidad": "KM",
             "cantidad": "594",
@@ -789,7 +789,7 @@
         },
         {
             "codigo": "2.3.104",
-            "descripcion": "Uniones rÃ¡pidas",
+            "descripcion": "Uniones r\u00e1pidas",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "6204",
@@ -873,7 +873,7 @@
         },
         {
             "codigo": "3.1.100",
-            "descripcion": "CÃ¡maras PAN PTZ 4MP (73 unidades - cobertura completa)",
+            "descripcion": "C\u00e1maras PAN PTZ 4MP (73 unidades - cobertura completa)",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "73",
@@ -887,7 +887,7 @@
         },
         {
             "codigo": "3.1.101",
-            "descripcion": "CÃ¡maras talleres (12 unidades)",
+            "descripcion": "C\u00e1maras talleres (12 unidades)",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "12",
@@ -901,7 +901,7 @@
         },
         {
             "codigo": "3.1.102",
-            "descripcion": "CÃ¡maras CCO (8 unidades)",
+            "descripcion": "C\u00e1maras CCO (8 unidades)",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "8",
@@ -915,7 +915,7 @@
         },
         {
             "codigo": "3.1.103",
-            "descripcion": "CÃ¡maras estaciones (5 unidades)",
+            "descripcion": "C\u00e1maras estaciones (5 unidades)",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "5",
@@ -929,7 +929,7 @@
         },
         {
             "codigo": "3.1.104",
-            "descripcion": "Sistema grabaciÃ³n",
+            "descripcion": "Sistema grabaci\u00f3n",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "1",
@@ -957,7 +957,7 @@
         },
         {
             "codigo": "3.1.106",
-            "descripcion": "Software anÃ¡lisis",
+            "descripcion": "Software an\u00e1lisis",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "1",
@@ -985,7 +985,7 @@
         },
         {
             "codigo": "3.1.108",
-            "descripcion": "InstalaciÃ³n y configuraciÃ³n",
+            "descripcion": "Instalaci\u00f3n y configuraci\u00f3n",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "73",
@@ -1041,7 +1041,7 @@
         },
         {
             "codigo": "3.2.102",
-            "descripcion": "Sistema biomÃ©trico",
+            "descripcion": "Sistema biom\u00e9trico",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "5",
@@ -1069,7 +1069,7 @@
         },
         {
             "codigo": "3.2.104",
-            "descripcion": "Cerraduras electrÃ³nicas",
+            "descripcion": "Cerraduras electr\u00f3nicas",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "50",
@@ -1097,7 +1097,7 @@
         },
         {
             "codigo": "3.2.106",
-            "descripcion": "InstalaciÃ³n y configuraciÃ³n",
+            "descripcion": "Instalaci\u00f3n y configuraci\u00f3n",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "1",
@@ -1209,7 +1209,7 @@
         },
         {
             "codigo": "3.3.106",
-            "descripcion": "InstalaciÃ³n",
+            "descripcion": "Instalaci\u00f3n",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "1",
@@ -1237,7 +1237,7 @@
         },
         {
             "codigo": "4.1.100",
-            "descripcion": "Sistemas barreras automÃ¡ticas",
+            "descripcion": "Sistemas barreras autom\u00e1ticas",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "9",
@@ -1251,7 +1251,7 @@
         },
         {
             "codigo": "4.1.101",
-            "descripcion": "SeÃ±alizaciÃ³n LED",
+            "descripcion": "Se\u00f1alizaci\u00f3n LED",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "9",
@@ -1265,7 +1265,7 @@
         },
         {
             "codigo": "4.1.102",
-            "descripcion": "Sistemas detecciÃ³n vehÃ­culos",
+            "descripcion": "Sistemas detecci\u00f3n veh\u00edculos",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "9",
@@ -1279,7 +1279,7 @@
         },
         {
             "codigo": "4.1.103",
-            "descripcion": "Sistemas comunicaciÃ³n",
+            "descripcion": "Sistemas comunicaci\u00f3n",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "9",
@@ -1307,7 +1307,7 @@
         },
         {
             "codigo": "4.1.105",
-            "descripcion": "InstalaciÃ³n y configuraciÃ³n",
+            "descripcion": "Instalaci\u00f3n y configuraci\u00f3n",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "9",
@@ -1349,7 +1349,7 @@
         },
         {
             "codigo": "4.2.101",
-            "descripcion": "SeÃ±alizaciÃ³n bÃ¡sica",
+            "descripcion": "Se\u00f1alizaci\u00f3n b\u00e1sica",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "15",
@@ -1363,7 +1363,7 @@
         },
         {
             "codigo": "4.2.102",
-            "descripcion": "Sistemas detecciÃ³n",
+            "descripcion": "Sistemas detecci\u00f3n",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "15",
@@ -1377,7 +1377,7 @@
         },
         {
             "codigo": "4.2.103",
-            "descripcion": "Sistemas comunicaciÃ³n",
+            "descripcion": "Sistemas comunicaci\u00f3n",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "15",
@@ -1391,7 +1391,7 @@
         },
         {
             "codigo": "4.2.104",
-            "descripcion": "InstalaciÃ³n",
+            "descripcion": "Instalaci\u00f3n",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "15",
@@ -1419,7 +1419,7 @@
         },
         {
             "codigo": "4.3.100",
-            "descripcion": "SeÃ±alizaciÃ³n bÃ¡sica",
+            "descripcion": "Se\u00f1alizaci\u00f3n b\u00e1sica",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "122",
@@ -1433,7 +1433,7 @@
         },
         {
             "codigo": "4.3.101",
-            "descripcion": "Sistemas comunicaciÃ³n",
+            "descripcion": "Sistemas comunicaci\u00f3n",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "0",
@@ -1447,7 +1447,7 @@
         },
         {
             "codigo": "4.3.102",
-            "descripcion": "InstalaciÃ³n",
+            "descripcion": "Instalaci\u00f3n",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "0",
@@ -1475,7 +1475,7 @@
         },
         {
             "codigo": "5.1.100",
-            "descripcion": "ConstrucciÃ³n edificio",
+            "descripcion": "Construcci\u00f3n edificio",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "1",
@@ -1517,7 +1517,7 @@
         },
         {
             "codigo": "5.1.103",
-            "descripcion": "Sistemas elÃ©ctricos",
+            "descripcion": "Sistemas el\u00e9ctricos",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "1",
@@ -1601,7 +1601,7 @@
         },
         {
             "codigo": "5.2.103",
-            "descripcion": "Sistema iluminaciÃ³n",
+            "descripcion": "Sistema iluminaci\u00f3n",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "1",
@@ -1671,7 +1671,7 @@
         },
         {
             "codigo": "5.3.103",
-            "descripcion": "Interfaces comunicaciÃ³n",
+            "descripcion": "Interfaces comunicaci\u00f3n",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "1",
@@ -1699,7 +1699,7 @@
         },
         {
             "codigo": "5.3.105",
-            "descripcion": "ConfiguraciÃ³n",
+            "descripcion": "Configuraci\u00f3n",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "1",
@@ -1741,7 +1741,7 @@
         },
         {
             "codigo": "6.1.102",
-            "descripcion": "Radios RED TETRA (Misión Crítica) embarcados",
+            "descripcion": "Radios RED TETRA (Misi\u00f3n Cr\u00edtica) embarcados",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "16",
@@ -1783,7 +1783,7 @@
         },
         {
             "codigo": "6.1.105",
-            "descripcion": "InstalaciÃ³n y configuraciÃ³n",
+            "descripcion": "Instalaci\u00f3n y configuraci\u00f3n",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "8",
@@ -1839,7 +1839,7 @@
         },
         {
             "codigo": "6.2.102",
-            "descripcion": "InstalaciÃ³n EOT",
+            "descripcion": "Instalaci\u00f3n EOT",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "15",
@@ -1853,7 +1853,7 @@
         },
         {
             "codigo": "6.2.103",
-            "descripcion": "ConfiguraciÃ³n EOT",
+            "descripcion": "Configuraci\u00f3n EOT",
             "tipo": "SUMINISTRO",
             "unidad": "UND",
             "cantidad": "1",

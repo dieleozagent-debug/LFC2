@@ -49,12 +49,12 @@ Se ha resuelto el problema crítico de codificación que bloqueaba el avance del
 ### **Correcciones Aplicadas:**
 ```python
 # Caracteres españoles corruptos corregidos:
-'Ã¡' → 'á', 'Ã©' → 'é', 'Ã­' → 'í', 'Ã³' → 'ó', 'Ãº' → 'ú'
-'Ã±' → 'ñ', 'Ã¼' → 'ü'
+'á' → 'á', 'é' → 'é', 'í' → 'í', 'ó' → 'ó', 'ú' → 'ú'
+'ñ' → 'ñ', 'Ã¼' → 'ü'
 
 # Caracteres especiales corregidos:
 'Ã¢' → 'â', 'Ã£' → 'ã', 'Ã¤' → 'ä', 'Ã¥' → 'å'
-'Ã¨' → 'è', 'Ã«' → 'ë', 'Ã¬' → 'ì', 'Ã®' → 'î'
+'è' → 'è', 'Ã«' → 'ë', 'ì' → 'ì', 'Ã®' → 'î'
 
 # Texto corrupto específico eliminado:
 'CCm t, [ºoUFk AUFk' → ''

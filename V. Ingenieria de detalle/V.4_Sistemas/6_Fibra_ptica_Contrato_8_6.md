@@ -21,7 +21,7 @@
 
 **6_Fibra_ptica_Contrato_8_6**
 
-Este documento de soporte contiene informacion tecnica, especificaciones y procedimientos relacionados con Ingenieria de Detalle para el proyecto APP La Dorada - ChiriguanÃ¡.
+Este documento de soporte contiene informacion tecnica, especificaciones y procedimientos relacionados con Ingenieria de Detalle para el proyecto APP La Dorada - Chiriguaná.
 
 ---
 
