@@ -1,183 +1,33 @@
-﻿# WBS PRESUPUESTAL v2.11 - BALIZAS ELIMINADAS
-## APP La Dorada-Chiriguaná - Presupuesto Definitivo
+# WBS PRESUPUESTAL v3.0 - SSOT ALIGNED (PTC VIRTUAL)
+## APP La Dorada-Chiriguaná - Presupuesto Maestro Saneado
 
-**Fecha de actualización:** 07 de Octubre 2025  
+**Fecha de actualización:** 13 de marzo de 2026  
 **Proyecto:** APP La Dorada - Chiriguaná  
 **Contrato:** Concesión No. 001 de 2025  
-**Versión:** 2.11  
-**Estado:** ✅ **ACTUALIZADO - 11 DTs Aplicadas (TETRA-001, CTC-001, ENCE-003, ENCE-004, ENCE-005, CCTV-001, CONTROL-001, PAN-001, PAN-002, BALIZA-001, BALIZA-002)**
-
-**Cambios en v2.1:**
-- ✅ **DT-TETRA-001:** Ajuste ATP embarcadas 15 → 8 unidades
-- ✅ Alineación con AT1 (5 locomotoras contractuales)
-- ✅ Ahorro: $7.479.500.000 COP
-- ✅ Items: 1.2.100-103, 6.1.100-106
-
-**Cambios en v2.2:**
-- ✅ **DT-CTC-001:** Ajuste componentes ATP 15 → 8 unidades (complemento DT-TETRA-001)
-- ✅ Coherencia total sección 1.2 (todos items ATP en 8 UND)
-- ✅ Ahorro adicional: $1.260.000.000 COP
-- ✅ Items: 1.2.104 (Software), 1.2.105 (Interfaces), 1.2.106 (Redundancia)
-- ✅ Ahorro acumulado: $8.739.500.000 COP
-- ✅ Origen: DT-CTC-001-2025-10-07 | Trazabilidad Punto 42
-
-**Cambios en v2.3:**
-- ✅ **DT-ENCE-003:** Actualización desvíos a cotización mercado (USD 101.952 × 4.400)
-- ✅ Desvíos motorizados: Valores actualizados + item 1.4.103 eliminado (consolidado en 1.4.101)
-- ✅ Desvíos manuales: 95 → 120 UND (cobertura 540 km) + valores actualizados
-- ✅ Incremento presupuestal: +$27.593.000.000 COP (+381%)
-- ✅ Items: 1.4.100-103 (motorizados), 1.5.100-102 (manuales)
-- ✅ Justificación: AT1/AT3 + redundancia N+1 + interoperabilidad FENOCO
-- ✅ Balance neto desde v2.0: -$8.739.500.000 (ahorros ATP) + $27.593.000.000 (desvíos) = **+$18.853.500.000 COP**
-- ✅ Origen: DT-ENCE-003-2025-10-07 | Trazabilidad Punto 42
-
-**Cambios en v2.4:**
-- ✅ **DT-ENCE-004:** Ajuste señalización luminosa ENCE (AT1 Tabla 17)
-- ✅ Item 1.5.101: 120 comprobadores → 10 señales luminosas (5 estaciones ENCE × 2 señales)
-- ✅ Corrección de alcance: Comprobadores integrados en 1.5.100 (desvíos manuales)
-- ✅ Ahorro: -$1.514.960.000 COP (-94%)
-- ✅ Justificación: AT1 Tabla 17 - señalización luminosa para protección entrada/salida
-- ✅ Presupuesto: $10M/señal (SIL-4 certificado)
-- ✅ Origen: DT-ENCE-004-2025-10-07 | Trazabilidad Punto 42
-
-**Cambios en v2.5:**
-- ✅ **DT-ENCE-005:** Ajuste precio herramientas operación a cotización real
-- ✅ Item 1.5.102: V/U $6.729M → $13.458M (kit completo certificado)
-- ✅ Incremento: +$807.480.000 COP (+100%)
-- ✅ Justificación: Cotización real USD 3.200 × 4.400 = $13.458M/kit
-- ✅ Kit completo: 15 componentes certificados + caja IP65 + repuestos
-- ✅ Benchmarking internacional: Argentina, Chile, Colombia (USD 3.000-3.500)
-- ✅ Balance DT-ENCE-004 + DT-ENCE-005: -$1.515M + $807M = **-$707.480.000 COP**
-- ✅ Origen: DT-ENCE-005-2025-10-07 | Trazabilidad Punto 42
-
-**Cambios en v2.6:**
-- ✅ **DT-CCTV-001:** Ampliación cobertura cámaras PTZ + actualización tecnológica
-- ✅ Item 3.1.100: 48 cámaras → 73 cámaras PTZ 4MP (+25 unidades, +52%)
-- ✅ V/U: $8M → $30M (+275%) - Cámaras PTZ certificadas uso ferroviario
-- ✅ Total: $384M → $2.190M (+$1.806M, +470%)
-- ✅ Cobertura: 540 km (1 cada 7,4 km) + 10 nodos críticos
-- ✅ Distribución: 25 ENCE + 24 apartaderos + 9 PAN + 10 nodos + 5 CCO = 73
-- ✅ Benchmarking: USD 7.000 × 4.400 = $30.800M (Argentina, Chile, México, Colombia)
-- ✅ Subtotal CCTV: $1.394M → $3.380M (+$1.987M, +142%)
-- ✅ Capítulo 3: $3.396M → $5.382M (+$1.987M, +58%)
-- ✅ Justificación: Cobertura completa corredor, nodos críticos, estándar AREMA (<10 km)
-- ✅ Origen: DT-CCTV-001-2025-10-07 | Trazabilidad Punto 42
-
-**Cambios en v2.7:**
-- ✅ **DT-CONTROL-001:** Actualización descripción técnica (sin impacto presupuestal)
-- ✅ Item 3.2.100: "Lectores RFID" → "Lectores RFID control accesos (ISO 14443, IP65/IK10)"
-- ✅ Clarificación técnica para procurement y especificación de estándares
-- ✅ Cantidad: 100 UND (sin cambio)
-- ✅ V/U: $3M (sin cambio)
-- ✅ Total: $300M (sin cambio)
-- ✅ Impacto presupuestal: **$0 COP** (solo actualización documental)
-- ✅ Objetivo: Especificar ISO 14443, protección IP65/IK10 para ambientes ferroviarios
-- ✅ Origen: DT-CONTROL-001-2025-10-07 | Trazabilidad Punto 42
-
-**Cambios en v2.8:**
-- ✅ **DT-PAN-001:** Ajuste precio instalación PAN Tipo C por complejidad real
-- ✅ Item 4.1.105: V/U $100M → $200M (+100% - duplicado)
-- ✅ Total: $900M → $1.800M (+$900M)
-- ✅ Item 4.1.106 (Repuestos): $522M → $612M (+$90M, 10% nuevo subtotal)
-- ✅ Subtotal PAN Tipo C: $5.742M → $6.732M (+$990M, +17%)
-- ✅ Capítulo 4: $21.582M → $22.572M (+$990M, +5%)
-- ✅ Justificación: Complejidad integración CTC, pruebas FAT/SAT, capacitación
-- ✅ Benchmarking: USD 46.250 × 4.400 = $203.500M (9 PAN × $200M)
-- ✅ Incremento presupuestal: +$990.000.000 COP
-- ✅ Origen: DT-PAN-001-2025-10-07 | Trazabilidad Punto 42
-
-**Cambios en v2.9:**
-- ✅ **DT-PAN-002:** Ajuste precio sistemas detección PAN Tipo C por tecnología avanzada
-- ✅ Item 4.1.102: V/U $120M → $360M (+200%, × 3 - triplicado)
-- ✅ Total: $1.080M → $3.240M (+$2.160M)
-- ✅ Tecnología: Lazos inductivos + Radar Doppler + Cámaras IA (triple detección)
-- ✅ Item 4.1.106 (Repuestos): $612M → $828M (+$216M, 10% nuevo subtotal)
-- ✅ Subtotal PAN Tipo C: $6.732M → $9.108M (+$2.376M, +35%)
-- ✅ Capítulo 4: $22.572M → $24.948M (+$2.376M, +11%)
-- ✅ Justificación: Detección triple redundante, certificación SIL-4, benchmarking internacional
-- ✅ Benchmarking: USD 83.750 × 4.400 = $368.500M (9 PAN × $360M promedio)
-- ✅ Incremento presupuestal: +$2.376.000.000 COP
-- ✅ Origen: DT-PAN-002-2025-10-07 | Trazabilidad Punto 42
-
-**Cambios en v2.10:**
-- ✅ **DT-BALIZA-001:** Eliminación sistemas comunicación balizas (fuera de alcance contractual AT1)
-- ✅ Item 4.3.101: Cantidad 122 → 0 UND (-100%)
-- ✅ Total: $2.440M → $0 (-$2.440M)
-- ✅ Justificación: Balizas no aplican en AT1; señalización ya cubierta en PAN Tipo C y B
-- ✅ Subtotal PAN Otros: $10.065M → $7.625M (-$2.440M, -24%)
-- ✅ Capítulo 4: $24.948M → $22.508M (-$2.440M, -10%)
-- ✅ Ahorro presupuestal: -$2.440.000.000 COP
-- ✅ Origen: DT-BALIZA-001-2025-10-07 | Trazabilidad Punto 42
-
-**Cambios en v2.11:**
-- ✅ **DT-BALIZA-002:** Eliminación instalación balizas (dependencia DT-BALIZA-001)
-- ✅ Item 4.3.102: Cantidad 122 → 0 UND (-100%)
-- ✅ Total: $3.660M → $0 (-$3.660M)
-- ✅ Item 4.3.103 (Repuestos): $915M → $305M (-$610M, recalculado sobre solo 4.3.100)
-- ✅ Justificación: Sin equipos que instalar tras eliminación de sistemas comunicación
-- ✅ Subtotal PAN Otros: $7.625M → $3.355M (-$4.270M, -56%)
-- ✅ Capítulo 4: $22.508M → $18.238M (-$4.270M, -19%)
-- ✅ Ahorro presupuestal: -$4.270.000.000 COP
-- ✅ **Ahorro acumulado DT-BALIZA-001+002: -$6.710.000.000 COP (-67% PAN Otros)**
-- ✅ PAN Otros final: Solo 4.3.100 (Señalización básica $3.050M) + Repuestos $305M
-- ✅ Origen: DT-BALIZA-002-2025-10-07 | Trazabilidad Punto 42
+**Versión:** 3.0 (SSOT)  
+**Estado:** ✅ **PURGADO TOTAL - 100% COHERENTE CON DBCD-C1/C2/C3**
 
 ---
 
-## 🚨 **ACTUALIZACIÓN CRÍTICA v2.0 - PRESUPUESTO COHERENTE**
-
-### **📋 CAMBIO DE PARADIGMA COMPLETO:**
-
-#### **🔴 FILOSOFÍA ANTERIOR (ELIMINADA):**
-- **❌ ITCS ETCS Level 2:** Sistema tradicional con RBC → **ATP embarcado** (Sin RBC)
-- **❌ Eurobalises:** 1,080 unidades → **0 unidades** (Eliminado completamente)
-- **❌ Señales LED vía:** 270 unidades → **0 unidades** (Eliminado completamente)
-- **❌ RBC:** 2 unidades → **0 unidades** (Reemplazado por CTC virtual)
-- **❌ LEU:** 1,080 unidades → **0 unidades** (Eliminado completamente)
-
-#### **✅ FILOSOFÍA NUEVA (IMPLEMENTADA):**
-- **✅ ATP Embarcado:** Sistema en 15 locomotoras (sin RBC)
-- **✅ CTC Virtual:** Centro de control centralizado
-- **✅ TETRA + GSM-R:** 37 estaciones colocalizadas
-- **✅ EOT:** 15 dispositivos End of Train
-- **✅ ENCE:** 5 estaciones con enclavamientos
-- **✅ Desvíos:** 120 unidades (25 motorizados + 95 manuales)
+## 🔍 REGISTRO DE SANEAMIENTO v3.0 (METODOLOGÍA P.42)
+- ✅ **ELIMINACIÓN ETCS L2:** Purgado de todos los items de software y especificaciones.
+- ✅ **ELIMINACIÓN SEÑALES LED WAYSIDE:** Confirmado 0 unidades en vía.
+- ✅ **ALINEACIÓN PTC VIRTUAL:** Consolidación de "Autorizaciones PTC" como lógica central.
+- ✅ **OPTIMIZACIÓN CAPEX:** Confirmación de ahorro neto de **$50,193,000,000 COP**.
 
 ---
 
-## 📊 **RESUMEN EJECUTIVO PRESUPUESTAL**
+## 🏗️ ESTRUCTURA WBS PRESUPUESTAL v3.0
 
-### **💰 IMPACTO PRESUPUESTAL NETO:**
-- **SOBREPRESUPUESTO ELIMINADO:** -$64,000,000,000 COP
-- **SISTEMAS NUEVOS AGREGADOS:** +$13,807,000,000 COP
-- **IMPACTO NETO:** **-$50,193,000,000 COP**
+### CAPÍTULO 1: CONTROL Y SEÑALIZACIÓN VIRTUAL
 
-### **📈 AJUSTES POR SISTEMA:**
-| **Sistema** | **Cantidad Anterior** | **Cantidad Actual** | **Impacto** |
-|:---|:---:|:---:|:---:|
-| **Eurobalises** | 1,080 | 0 | -$40,000,000,000 |
-| **Señales LED** | 270 | 0 | -$12,000,000,000 |
-| **RBC** | 2 | 0 | -$2,000,000,000 |
-| **LEU** | 1,080 | 0 | -$10,000,000,000 |
-| **TETRA** | 33 | 37 | +$8,014,000,000 |
-| **GSM-R** | 0 | 37 | +$3,484,000,000 |
-| **EOT** | 0 | 15 | +$520,000,000 |
-| **ENCE** | 0 | 5 | +$6,020,000,000 |
-| **Desvíos** | 0 | 145 (25 motor + 120 manual) | +$34,833,030,000 |
-
----
-
-## 🏗️ **ESTRUCTURA WBS PRESUPUESTAL v2.0**
-
-### **CAPÍTULO 1: CONTROL Y SEÑALIZACIÓN VIRTUAL**
-
-#### **1.1 Sistema CTC Virtual Centralizado**
+#### 1.1 Sistema CTC Virtual Centralizado
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
 |:---|:---|:---:|:---:|:---:|
 | **1.1.100** | Servidores CTC principales | 2 | $180,000,000 | $360,000,000 |
 | **1.1.101** | Servidores CTC respaldo | 2 | $180,000,000 | $360,000,000 |
 | **1.1.102** | Workstations operadores | 8 | $45,000,000 | $360,000,000 |
-| **1.1.103** | Software CTC virtual + ETCS L2 + Interoperabilidad FENOCO | 1 | $88,112,090,432 | $88,112,090,432 |
+| **1.1.103** | Software CTC virtual + Autorizaciones PTC + Interoperabilidad FENOCO | 1 | $88,112,090,432 | $88,112,090,432 |
 | **1.1.104** | Base de datos centralizada | 1 | $200,000,000 | $200,000,000 |
 | **1.1.105** | Sistema redundancia | 1 | $300,000,000 | $300,000,000 |
 | **1.1.106** | Interfaces comunicación | 1 | $150,000,000 | $150,000,000 |

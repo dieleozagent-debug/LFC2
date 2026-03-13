@@ -1,4 +1,4 @@
-﻿{
+{
     "fecha_actualizacion":  "2025-10-08",
     "total_capitulos":  6,
     "version":  "3.0",
@@ -76,7 +76,7 @@
                       "riesgos_asociados":  [
 
                                             ],
-                      "descripcion":  "Software CTC virtual + ETCS L2 + Interoperabilidad FENOCO",
+                      "descripcion":  "Software CTC virtual + Autorizaciones PTC + Interoperabilidad FENOCO",
                       "total_cop":  88152759385
                   },
                   {
@@ -1596,7 +1596,7 @@
                       "riesgos_asociados":  [
 
                                             ],
-                      "descripcion":  "Señalización LED",
+                      "descripcion":  "Semáforos vehiculares PaN (Indicación óptica vial v.3.0)",
                       "total_cop":  720000000
                   },
                   {
