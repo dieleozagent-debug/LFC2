@@ -16,7 +16,7 @@ Este documento presenta de manera consolidada todas las **Decisiones Técnicas (
 | Métrica | Valor |
 |:--------|:------|
 | **Total DTs ejecutadas** | 20 |
-| **Sistemas afectados** | 8 (CTC, TETRA, ATP, Fibra, Enclavamientos, SCADA, Balizas, CCTV) |
+| **Sistemas afectados** | 8 (CTC, TETRA, ATP, Fibra, Enclavamientos, SCADA, Punto de referencia virtuals, CCTV) |
 | **Ítems WBS modificados** | 18 |
 | **Impacto presupuestal neto** | Por calcular (según análisis individual) |
 | **Riesgos mitigados** | 15+ |
@@ -67,7 +67,7 @@ Este documento presenta de manera consolidada todas las **Decisiones Técnicas (
 - **Cambio:** Sin cambio numérico (cantidad=1, VU=$150M confirmados)
 - **Justificación técnica:** 
   - Bloque lógico de integración (NO hardware físico único)
-  - Conecta: CTC ↔ ITCS/ETCS L2 ↔ FENOCO ↔ TETRA ↔ Fibra ↔ ITS
+  - Conecta: CTC ↔ PTC/PTC VIRTUAL L2 ↔ FENOCO ↔ TETRA ↔ Fibra ↔ ITS
   - Composición: Gateways industriales + Switches borde + Firewalls IEC 62443 + Middleware UIC 918-4 + Licencias software
 - **Alcance $150M incluye:**
   - Licencias integración (protocolos, middleware)
@@ -140,11 +140,11 @@ Este documento presenta de manera consolidada todas las **Decisiones Técnicas (
 - **Cambio:** Sin cambio numérico (cantidad=8 confirmado)
 - **Justificación:** Documentación formal según Apéndice Técnico 1 (AT1) §2.1
   - Cantidad: 8 locomotoras operativas + 2 respaldo
-  - Computadora ATP ETCS L2 homologada CENELEC SIL-4
-  - Integración con RBC y balizas eurobaliza
+  - Computadora ATP PTC VIRTUAL L2 homologada CENELEC SIL-4
+  - Integración con RBC y punto de referencia virtuals europunto de referencia virtual
 - **Referencias contractuales:**
   - AT1 §2.1: Requerimientos ATP embarcado
-  - AT1 §3.5: Especificaciones técnicas ETCS
+  - AT1 §3.5: Especificaciones técnicas PTC VIRTUAL
   - AT10 §1.2: Cálculo de flota (capacidad transporte)
 - **Metadata enriquecida:** ✅ Actualizada con criterios diseño, supuestos y referencias
 - **Estado:** ✅ Ejecutado 2025-10-09
@@ -239,25 +239,25 @@ Este documento presenta de manera consolidada todas las **Decisiones Técnicas (
 
 ### 🔦 **SISTEMA 6: BALIZAS Y PASOS A NIVEL**
 
-#### **6.1 Balizas**
+#### **6.1 Punto de referencia virtuals**
 
 ##### **DT-BALIZA-001-2025-10-07**
-- **Ítem WBS:** 4.3.101 - Balizas tipo A
+- **Ítem WBS:** 4.3.101 - Punto de referencia virtuals tipo A
 - **Tipo:** Eliminación de ítem
 - **Cambio:** Cantidad → 0
 - **Justificación:** 
   - Ítem duplicado o no requerido según ingeniería actualizada
-  - Consolidado en otro ítem de balizas
+  - Consolidado en otro ítem de punto de referencia virtuals
 - **Impacto:** Reducción presupuestal
 - **Estado:** ✅ Ejecutado
 
 ##### **DT-BALIZA-002-2025-10-07**
-- **Ítem WBS:** 4.3.102 - Balizas tipo B
+- **Ítem WBS:** 4.3.102 - Punto de referencia virtuals tipo B
 - **Tipo:** Eliminación de ítem
 - **Cambio:** Cantidad → 0
 - **Justificación:** 
   - Ítem duplicado o no requerido según ingeniería actualizada
-  - Consolidado en otro ítem de balizas
+  - Consolidado en otro ítem de punto de referencia virtuals
 - **Impacto:** Reducción presupuestal
 - **Estado:** ✅ Ejecutado
 
@@ -310,7 +310,7 @@ Este documento presenta de manera consolidada todas las **Decisiones Técnicas (
 | Enclavamientos ENCE | 5 | 25% |
 | SCADA | 3 | 15% |
 | Pasos a Nivel | 2 | 10% |
-| Balizas | 2 | 10% |
+| Punto de referencia virtuals | 2 | 10% |
 | ATP | 1 | 5% |
 | TETRA | 1 | 5% |
 | CCTV/ITS | 2 | 10% |

@@ -3,553 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documentos Servidos - Ingeniería Completa</title>
+    <title id="adn-page-title">Índice de Documentos Servidos - LFC STUDIO</title>
+    <link rel="stylesheet" href="../../../IX. WBS y Planificacion/wbs-shared.css">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+        .doc-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
         }
-        
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            padding: 20px;
-            min-height: 100vh;
-        }
-        
-        .container {
-            max-width: 1400px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 16px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        .doc-card {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            padding: 2rem;
+            border-radius: 20px;
+            transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+            position: relative;
             overflow: hidden;
         }
-        
-        .header {
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-            color: white;
-            padding: 50px;
-            text-align: center;
-        }
-        
-        .header h1 {
-            font-size: 32px;
-            margin-bottom: 15px;
-            font-weight: 700;
-        }
-        
-        .header p {
-            font-size: 16px;
-            opacity: 0.9;
-        }
-        
-        .badge {
-            background: #28a745;
-            color: white;
-            padding: 8px 20px;
-            border-radius: 20px;
-            font-size: 14px;
-            display: inline-block;
-            margin-top: 15px;
-        }
-        
-        .content {
-            padding: 40px;
-        }
-        
-        .back-btn {
-            background: #667eea;
-            color: white;
-            padding: 12px 30px;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            font-size: 16px;
-            font-weight: 600;
-            text-decoration: none;
-            display: inline-block;
-            margin-bottom: 30px;
-            transition: background 0.3s ease;
-        }
-        
-        .back-btn:hover {
-            background: #5568d3;
-        }
-        
-        .section-title {
-            font-size: 24px;
-            color: #1e3c72;
-            margin: 40px 0 20px 0;
-            padding-bottom: 10px;
-            border-bottom: 3px solid #667eea;
-        }
-        
-        .docs-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-            gap: 25px;
-            margin-bottom: 40px;
-        }
-        
-        .doc-card {
-            background: white;
-            border-radius: 12px;
-            padding: 25px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-            border-left: 5px solid #667eea;
-            transition: all 0.3s ease;
-        }
-        
         .doc-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            border-color: var(--accent);
+            box-shadow: 0 10px 30px var(--accent-transparent);
         }
-        
         .doc-card h3 {
-            color: #1e3c72;
-            margin-bottom: 10px;
-            font-size: 18px;
+            color: var(--accent);
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
         }
-        
-        .doc-meta {
-            margin: 15px 0;
-        }
-        
-        .doc-meta-item {
+        .doc-links {
             display: flex;
-            justify-content: space-between;
-            padding: 8px 0;
-            border-bottom: 1px solid #f0f0f0;
+            gap: 1rem;
+            margin-top: 1.5rem;
         }
-        
-        .doc-meta-label {
-            color: #666;
-            font-size: 14px;
-        }
-        
-        .doc-meta-value {
-            color: #333;
-            font-weight: 600;
-            font-size: 14px;
-        }
-        
-        .doc-actions {
-            display: flex;
-            gap: 10px;
-            margin-top: 20px;
-        }
-        
-        .btn {
-            flex: 1;
-            padding: 12px 20px;
-            border: none;
-            border-radius: 8px;
-            font-size: 14px;
-            font-weight: 600;
-            cursor: pointer;
+        .doc-link {
+            padding: 0.6rem 1.2rem;
+            border-radius: 50px;
             text-decoration: none;
-            text-align: center;
-            display: inline-block;
-            transition: all 0.3s ease;
+            font-weight: 700;
+            font-size: 0.8rem;
+            transition: 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
         }
-        
-        .btn-word {
-            background: #2b579a;
-            color: white;
-        }
-        
-        .btn-word:hover {
-            background: #1e4177;
-        }
-        
-        .btn-html {
-            background: #e67e22;
-            color: white;
-        }
-        
-        .btn-html:hover {
-            background: #d35400;
-        }
-        
-        .alert-info {
-            background: #e8f5e9;
-            border-left: 5px solid #4caf50;
-            padding: 20px;
-            margin-bottom: 30px;
-            border-radius: 8px;
-        }
-        
-        .alert-info h3 {
-            color: #2e7d32;
-            margin-bottom: 10px;
-        }
+        .link-html { background: var(--accent); color: var(--primary); }
+        .link-word { background: rgba(255,255,255,0.1); color: white; border: 1px solid var(--glass-border); }
+        .link-html:hover { filter: brightness(1.2); }
+        .link-word:hover { background: rgba(255,255,255,0.2); }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>📄 Documentos de Ingeniería Servidos</h1>
-            <p>Menú Completo del Restaurante - Sistemas y Especialidades</p>
-            <div class="badge">✅ Última actualización: 9 de Octubre 2025</div>
-            <div class="badge" style="background: #3498db; margin-left: 10px;">📦 17 Platos Disponibles</div>
+    <div id="lfc-sidebar-container"></div>
+    <div class="main-content-wrapper">
+        <div class="premium-card" style="margin-bottom: 3rem;">
+            <h1 class="premium-title">🍽️ ENTREGABLES SERVIDOS</h1>
+            <p style="opacity: 0.7;">Documentación técnica consolidada, saneada bajo estándar PTC Virtual y lista para stakeholders.</p>
         </div>
-        
-        <div class="content">
-            <a href="../../IX. WBS y Planificacion/WBS_Menu_Principal.html" class="back-btn">← Volver al Menú Principal</a>
-            
-            <div style="background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); border-left: 5px solid #ff9800; padding: 25px; margin-bottom: 30px; border-radius: 12px;">
-                <h3 style="color: #e65100; margin-bottom: 15px;">🔄 ¿Ejecutaste DTs nuevas? Actualiza los documentos</h3>
-                <p style="color: #666; line-height: 1.8; margin-bottom: 15px;">
-                    Para que este menú muestre los cambios más recientes de la cocina (I-VI), ejecuta en PowerShell:
-                </p>
-                <div style="background: #2d2d2d; color: #f8f8f2; padding: 15px; border-radius: 8px; font-family: 'Consolas', monospace; font-size: 15px; margin-bottom: 15px;">
-                    .\scripts\cocinar.ps1; .\scripts\servir.ps1
-                </div>
-                <p style="color: #666; font-size: 14px;">
-                    ⚡ <strong>Toma 10-15 segundos</strong> | Regenera solo sistemas con DTs recientes (últimos 7 días)
-                    <br>💡 <strong>Tip:</strong> Usa <code>-Todo</code> para regenerar todos los sistemas (entregas formales)
-                </p>
-            </div>
-            
-            <div class="alert-info">
-                <h3>💡 Cómo usar este menú</h3>
-                <p><strong>Para ver un documento:</strong> Haz clic en el botón <strong>🌐 HTML</strong> (se abre en nueva pestaña)</p>
-                <p><strong>Para descargar Word:</strong> Haz clic en el botón <strong>📥 Word</strong> (descarga automática)</p>
-            </div>
-            
-            <h2 class="section-title">🏗️ SISTEMAS TÉCNICOS (6 Platos)</h2>
-            
-            <div class="docs-grid">
-                <!-- SISTEMA 01 -->
-                <div class="doc-card">
-                    <h3>🚦 SISTEMA 01: Control y Señalización</h3>
-                    <p style="color: #666; margin-bottom: 10px;">CTC Virtual + ATP/ITCS + ENCE</p>
-                    <div class="doc-meta">
-                        <div class="doc-meta-item">
-                            <span class="doc-meta-label">Actualizado:</span>
-                            <span class="doc-meta-value">9 Oct 2025</span>
-                        </div>
-                        <div class="doc-meta-item">
-                            <span class="doc-meta-label">DTs aplicadas:</span>
-                            <span class="doc-meta-value">9 DTs (ATP 15→8)</span>
-                        </div>
-                    </div>
-                    <div class="doc-actions">
-                        <a href="../WORD/SISTEMA_01_Control_y_Senalizacion_EJECUTIVO.docx" class="btn btn-word" download>📥 Word</a>
-                        <a href="SISTEMA_01_Control_y_Senalizacion_EJECUTIVO.html" class="btn btn-html" target="_blank">🌐 HTML</a>
-                    </div>
-                </div>
 
-                <!-- SISTEMA 02 -->
-                <div class="doc-card" style="border-left-color: #28a745;">
-                    <h3>📡 SISTEMA 02: Telecomunicaciones</h3>
-                    <p style="color: #666; margin-bottom: 10px;">Fibra Óptica + TETRA + GSM-R</p>
-                    <div class="doc-meta">
-                        <div class="doc-meta-item">
-                            <span class="doc-meta-label">Actualizado:</span>
-                            <span class="doc-meta-value" style="color: #28a745;">9 Oct 2025 ⭐ CORREGIDO</span>
-                        </div>
-                        <div class="doc-meta-item">
-                            <span class="doc-meta-label">Corrección:</span>
-                            <span class="doc-meta-value">Fibra 526+10%=594 km</span>
-                        </div>
-                    </div>
-                    <div class="doc-actions">
-                        <a href="../WORD/SISTEMA_02_Telecomunicaciones_EJECUTIVO.docx" class="btn btn-word" download>📥 Word</a>
-                        <a href="SISTEMA_02_Telecomunicaciones_EJECUTIVO.html" class="btn btn-html" target="_blank">🌐 HTML</a>
-                    </div>
-                </div>
-
-                <!-- SISTEMA 03 -->
-                <div class="doc-card">
-                    <h3>📹 SISTEMA 03: ITS y Seguridad</h3>
-                    <p style="color: #666; margin-bottom: 10px;">CCTV + ITS + Control Acceso</p>
-                    <div class="doc-meta">
-                        <div class="doc-meta-item">
-                            <span class="doc-meta-label">Actualizado:</span>
-                            <span class="doc-meta-value">9 Oct 2025</span>
-                        </div>
-                        <div class="doc-meta-item">
-                            <span class="doc-meta-label">DTs aplicadas:</span>
-                            <span class="doc-meta-value">CCTV 73, PAN</span>
-                        </div>
-                    </div>
-                    <div class="doc-actions">
-                        <a href="../WORD/SISTEMA_03_ITS_y_Seguridad_EJECUTIVO.docx" class="btn btn-word" download>📥 Word</a>
-                        <a href="SISTEMA_03_ITS_y_Seguridad_EJECUTIVO.html" class="btn btn-html" target="_blank">🌐 HTML</a>
-                    </div>
-                </div>
-
-                <!-- SISTEMA 04 -->
-                <div class="doc-card">
-                    <h3>🚂 SISTEMA 04: Material Rodante</h3>
-                    <p style="color: #666; margin-bottom: 10px;">Locomotoras + EOT + Equipamiento</p>
-                    <div class="doc-meta">
-                        <div class="doc-meta-item">
-                            <span class="doc-meta-label">Actualizado:</span>
-                            <span class="doc-meta-value">9 Oct 2025</span>
-                        </div>
-                    </div>
-                    <div class="doc-actions">
-                        <a href="../WORD/SISTEMA_04_Material_Rodante_EJECUTIVO.docx" class="btn btn-word" download>📥 Word</a>
-                        <a href="SISTEMA_04_Material_Rodante_EJECUTIVO.html" class="btn btn-html" target="_blank">🌐 HTML</a>
-                    </div>
-                </div>
-
-                <!-- SISTEMA 05 -->
-                <div class="doc-card">
-                    <h3>⚡ SISTEMA 05: Infraestructura Operativa</h3>
-                    <p style="color: #666; margin-bottom: 10px;">Energía + SCADA + UPS</p>
-                    <div class="doc-meta">
-                        <div class="doc-meta-item">
-                            <span class="doc-meta-label">Actualizado:</span>
-                            <span class="doc-meta-value">9 Oct 2025</span>
-                        </div>
-                        <div class="doc-meta-item">
-                            <span class="doc-meta-label">DTs aplicadas:</span>
-                            <span class="doc-meta-value">SCADA 001/002/003</span>
-                        </div>
-                    </div>
-                    <div class="doc-actions">
-                        <a href="../WORD/SISTEMA_05_Infraestructura_Operativa_EJECUTIVO.docx" class="btn btn-word" download>📥 Word</a>
-                        <a href="SISTEMA_05_Infraestructura_Operativa_EJECUTIVO.html" class="btn btn-html" target="_blank">🌐 HTML</a>
-                    </div>
-                </div>
-
-                <!-- SISTEMA 06 -->
-                <div class="doc-card">
-                    <h3>🔗 SISTEMA 06: Integración y Coordinación</h3>
-                    <p style="color: #666; margin-bottom: 10px;">Integración + Interfaces + Gestión</p>
-                    <div class="doc-meta">
-                        <div class="doc-meta-item">
-                            <span class="doc-meta-label">Actualizado:</span>
-                            <span class="doc-meta-value">9 Oct 2025</span>
-                        </div>
-                    </div>
-                    <div class="doc-actions">
-                        <a href="../WORD/SISTEMA_06_Integracion_y_Coordinacion_EJECUTIVO.docx" class="btn btn-word" download>📥 Word</a>
-                        <a href="SISTEMA_06_Integracion_y_Coordinacion_EJECUTIVO.html" class="btn btn-html" target="_blank">🌐 HTML</a>
-                    </div>
-                </div>
-            </div>
-
-            <h2 class="section-title">👷 ESPECIALIDADES (5 Platos)</h2>
-            
-            <div class="docs-grid">
-                <!-- ESPECIALIDAD 01 -->
-                <div class="doc-card">
-                    <h3>🏗️ Ingeniería Civil</h3>
-                    <p style="color: #666; margin-bottom: 10px;">Obras Civil + Cimentaciones + Canalizaciones</p>
-                    <div class="doc-meta">
-                        <div class="doc-meta-item">
-                            <span class="doc-meta-label">Actualizado:</span>
-                            <span class="doc-meta-value">9 Oct 2025</span>
-                        </div>
-                    </div>
-                    <div class="doc-actions">
-                        <a href="../WORD/ESPECIALIDAD_01_Ingenieria_Civil_EJECUTIVO.docx" class="btn btn-word" download>📥 Word</a>
-                        <a href="ESPECIALIDAD_01_Ingenieria_Civil_EJECUTIVO.html" class="btn btn-html" target="_blank">🌐 HTML</a>
-                    </div>
-                </div>
-
-                <!-- ESPECIALIDAD 02 -->
-                <div class="doc-card">
-                    <h3>⚡ Ingeniería Eléctrica</h3>
-                    <p style="color: #666; margin-bottom: 10px;">Energía + Transformadores + UPS + PAT</p>
-                    <div class="doc-meta">
-                        <div class="doc-meta-item">
-                            <span class="doc-meta-label">Actualizado:</span>
-                            <span class="doc-meta-value">9 Oct 2025</span>
-                        </div>
-                    </div>
-                    <div class="doc-actions">
-                        <a href="../WORD/ESPECIALIDAD_02_Ingenieria_Electrica_EJECUTIVO.docx" class="btn btn-word" download>📥 Word</a>
-                        <a href="ESPECIALIDAD_02_Ingenieria_Electrica_EJECUTIVO.html" class="btn btn-html" target="_blank">🌐 HTML</a>
-                    </div>
-                </div>
-
-                <!-- ESPECIALIDAD 03 -->
-                <div class="doc-card">
-                    <h3>🔧 Ingeniería Mecánica</h3>
-                    <p style="color: #666; margin-bottom: 10px;">Climatización + Ventilación + Estructuras</p>
-                    <div class="doc-meta">
-                        <div class="doc-meta-item">
-                            <span class="doc-meta-label">Actualizado:</span>
-                            <span class="doc-meta-value">9 Oct 2025</span>
-                        </div>
-                    </div>
-                    <div class="doc-actions">
-                        <a href="../WORD/ESPECIALIDAD_03_Ingenieria_Mecanica_EJECUTIVO.docx" class="btn btn-word" download>📥 Word</a>
-                        <a href="ESPECIALIDAD_03_Ingenieria_Mecanica_EJECUTIVO.html" class="btn btn-html" target="_blank">🌐 HTML</a>
-                    </div>
-                </div>
-
-                <!-- ESPECIALIDAD 04 -->
-                <div class="doc-card">
-                    <h3>💻 Ingeniería de Sistemas</h3>
-                    <p style="color: #666; margin-bottom: 10px;">Software + Redes + Bases de Datos</p>
-                    <div class="doc-meta">
-                        <div class="doc-meta-item">
-                            <span class="doc-meta-label">Actualizado:</span>
-                            <span class="doc-meta-value">9 Oct 2025</span>
-                        </div>
-                    </div>
-                    <div class="doc-actions">
-                        <a href="../WORD/ESPECIALIDAD_04_Ingenieria_Sistemas_EJECUTIVO.docx" class="btn btn-word" download>📥 Word</a>
-                        <a href="ESPECIALIDAD_04_Ingenieria_Sistemas_EJECUTIVO.html" class="btn btn-html" target="_blank">🌐 HTML</a>
-                    </div>
-                </div>
-
-                <!-- ESPECIALIDAD 05 -->
-                <div class="doc-card">
-                    <h3>🌳 Ingeniería Ambiental</h3>
-                    <p style="color: #666; margin-bottom: 10px;">Gestión Ambiental + Permisos + Monitoreo</p>
-                    <div class="doc-meta">
-                        <div class="doc-meta-item">
-                            <span class="doc-meta-label">Actualizado:</span>
-                            <span class="doc-meta-value">9 Oct 2025</span>
-                        </div>
-                    </div>
-                    <div class="doc-actions">
-                        <a href="../WORD/ESPECIALIDAD_05_Ingenieria_Ambiental_EJECUTIVO.docx" class="btn btn-word" download>📥 Word</a>
-                        <a href="ESPECIALIDAD_05_Ingenieria_Ambiental_EJECUTIVO.html" class="btn btn-html" target="_blank">🌐 HTML</a>
-                    </div>
-                </div>
-            </div>
-
-            <h2 class="section-title">📁 DOCUMENTOS TÉCNICOS (3 Platos)</h2>
-            
-            <div class="docs-grid">
-                <!-- CTC v5 -->
-                <div class="doc-card">
-                    <h3>🚦 Centro Control Tráfico CTC v5.0</h3>
-                    <p style="color: #666; margin-bottom: 10px;">Sistema CTC Virtual - Detalle</p>
-                    <div class="doc-meta">
-                        <div class="doc-meta-item">
-                            <span class="doc-meta-label">Actualizado:</span>
-                            <span class="doc-meta-value">9 Oct 2025</span>
-                        </div>
-                    </div>
-                    <div class="doc-actions">
-                        <a href="../WORD/CTC_v5_Actualizado.docx" class="btn btn-word" download>📥 Word</a>
-                        <a href="CTC_v5_Actualizado.html" class="btn btn-html" target="_blank">🌐 HTML</a>
-                    </div>
-                </div>
-
-                <!-- Interfaces -->
-                <div class="doc-card">
-                    <h3>🔗 Interfaces de Sistemas</h3>
-                    <p style="color: #666; margin-bottom: 10px;">ICD - Control de Interfaces</p>
-                    <div class="doc-meta">
-                        <div class="doc-meta-item">
-                            <span class="doc-meta-label">Actualizado:</span>
-                            <span class="doc-meta-value">9 Oct 2025</span>
-                        </div>
-                    </div>
-                    <div class="doc-actions">
-                        <a href="../WORD/Interfaces_Sistemas_Actualizado.docx" class="btn btn-word" download>📥 Word</a>
-                        <a href="Interfaces_Sistemas_Actualizado.html" class="btn btn-html" target="_blank">🌐 HTML</a>
-                    </div>
-                </div>
-
-                <!-- Protocolo FFFIS -->
-                <div class="doc-card">
-                    <h3>📡 Protocolo FFFIS + Gateway UIC</h3>
-                    <p style="color: #666; margin-bottom: 10px;">Interfaces CTC-ITCS</p>
-                    <div class="doc-meta">
-                        <div class="doc-meta-item">
-                            <span class="doc-meta-label">Actualizado:</span>
-                            <span class="doc-meta-value">9 Oct 2025</span>
-                        </div>
-                    </div>
-                    <div class="doc-actions">
-                        <a href="../WORD/Protocolo_FFFIS_Actualizado.docx" class="btn btn-word" download>📥 Word</a>
-                        <a href="Protocolo_FFFIS_Actualizado.html" class="btn btn-html" target="_blank">🌐 HTML</a>
-                    </div>
-                </div>
-            </div>
-
-            <h2 class="section-title">📊 GESTIÓN (3 Platos)</h2>
-            
-            <div class="docs-grid">
-                <!-- Alcance -->
-                <div class="doc-card">
-                    <h3>🎯 Alcance y Objetivos</h3>
-                    <p style="color: #666; margin-bottom: 10px;">Definición Alcance + Objetivos</p>
-                    <div class="doc-meta">
-                        <div class="doc-meta-item">
-                            <span class="doc-meta-label">Actualizado:</span>
-                            <span class="doc-meta-value">9 Oct 2025</span>
-                        </div>
-                    </div>
-                    <div class="doc-actions">
-                        <a href="../WORD/GESTION_EJECUTIVO_Alcance_y_Objetivos.docx" class="btn btn-word" download>📥 Word</a>
-                        <a href="GESTION_EJECUTIVO_Alcance_y_Objetivos.html" class="btn btn-html" target="_blank">🌐 HTML</a>
-                    </div>
-                </div>
-
-                <!-- Cronograma -->
-                <div class="doc-card">
-                    <h3>📅 Cronograma y Recursos</h3>
-                    <p style="color: #666; margin-bottom: 10px;">Plan Trabajo + Hitos + Recursos</p>
-                    <div class="doc-meta">
-                        <div class="doc-meta-item">
-                            <span class="doc-meta-label">Actualizado:</span>
-                            <span class="doc-meta-value">9 Oct 2025</span>
-                        </div>
-                    </div>
-                    <div class="doc-actions">
-                        <a href="../WORD/GESTION_EJECUTIVO_Cronograma_y_Recursos.docx" class="btn btn-word" download>📥 Word</a>
-                        <a href="GESTION_EJECUTIVO_Cronograma_y_Recursos.html" class="btn btn-html" target="_blank">🌐 HTML</a>
-                    </div>
-                </div>
-                
-                <!-- Reporte DTs -->
-                <div class="doc-card">
-                    <h3>📋 Reporte Cambios y DTs</h3>
-                    <p style="color: #666; margin-bottom: 10px;">Todas las Decisiones Técnicas</p>
-                    <div class="doc-meta">
-                        <div class="doc-meta-item">
-                            <span class="doc-meta-label">Actualizado:</span>
-                            <span class="doc-meta-value">9 Oct 2025</span>
-                        </div>
-                    </div>
-                    <div class="doc-actions">
-                        <a href="../WORD/GESTION_EJECUTIVO_Cambios_y_Decisiones_Tecnicas.docx" class="btn btn-word" download>📥 Word</a>
-                        <a href="GESTION_EJECUTIVO_Cambios_y_Decisiones_Tecnicas.html" class="btn btn-html" target="_blank">🌐 HTML</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div style="margin-top: 50px; padding: 30px; background: #fff3cd; border-radius: 12px; border-left: 5px solid #ffc107; text-align: center;">
-                <h3 style="color: #856404; margin-bottom: 15px;">📦 RESUMEN DEL MENÚ</h3>
-                <p style="color: #666; font-size: 18px; font-weight: 600;">
-                    <strong>6 Sistemas</strong> • <strong>5 Especialidades</strong> • <strong>3 Documentos Técnicos</strong> • <strong>3 Gestión</strong>
-                </p>
-                <p style="color: #28a745; margin-top: 15px; font-size: 20px; font-weight: 700;">
-                    ✅ Total: 17 platos × 2 formatos = 34 archivos servidos
-                </p>
-            </div>
-            
-            <div style="margin-top: 30px; padding: 25px; background: #e8f5e9; border-radius: 8px; border-left: 4px solid #4caf50;">
-                <h4 style="color: #2e7d32; margin-bottom: 15px;">🔄 ¿Cómo actualizar el menú?</h4>
-                <p style="color: #666; line-height: 1.8;">
-                    Cuando ejecutes nuevas DTs, actualiza el menú con:
-                </p>
-                <div style="background: #2d2d2d; color: #f8f8f2; padding: 15px; border-radius: 6px; font-family: 'Consolas', monospace; margin-top: 10px;">
-                    .\scripts\servir_ingenieria_completo.ps1
-                </div>
-            </div>
+        <div class="doc-grid" id="docs-container">
+            <!-- Carga dinámica por script o hardcodeada basada en archivos existentes -->
         </div>
     </div>
-    
+
+    <script src="../../../IX. WBS y Planificacion/lfc-terminology.js"></script>
+    <script src="../../../IX. WBS y Planificacion/sidebar-component.js"></script>
     <script>
-        console.log('✅ Menú completo del restaurante cargado');
-        console.log('📦 17 platos disponibles (6 Sistemas + 5 Especialidades + 3 Técnicos + 3 Gestión)');
-        console.log('🍽️ Todos frescos desde la cocina actualizada con DTs');
+        document.addEventListener('DOMContentLoaded', function() {
+            if (window.LFC_TERMINOLOGY) {
+                const term = window.LFC_TERMINOLOGY;
+                document.getElementById('adn-page-title').textContent = `Documentos Servidos - ${term.APP_SHORT_NAME}`;
+            }
+
+            const docs = [
+                { id: "01", name: "SISTEMA_01: Control y Señalización", file: "SISTEMA_01_Control_y_Senalizacion_EJECUTIVO" },
+                { id: "02", name: "SISTEMA_02: Telecomunicaciones (TETRA)", file: "SISTEMA_02_Telecomunicaciones_EJECUTIVO" },
+                { id: "03", name: "SISTEMA_03: ITS y Seguridad+", file: "SISTEMA_03_ITS_y_Seguridad_EJECUTIVO" },
+                { id: "04", name: "SISTEMA_04: Material Rodante (V-Block)", file: "SISTEMA_04_Material_Rodante_EJECUTIVO" },
+                { id: "05", name: "SISTEMA_05: Infraestructura Operativa", file: "SISTEMA_05_Infraestructura_Operativa_EJECUTIVO" },
+                { id: "06", name: "SISTEMA_06: Integración y Coordinación", file: "SISTEMA_06_Integracion_y_Coordinacion_EJECUTIVO" }
+            ];
+
+            const container = document.getElementById('docs-container');
+            container.innerHTML = docs.map(doc => `
+                <div class="doc-card">
+                    <div style="font-size: 0.6rem; letter-spacing: 2px; opacity: 0.5; margin-bottom: 0.5rem;">SICC-LFC2-ID-${doc.id}</div>
+                    <h3>${doc.name}</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.7; line-height: 1.5;">Ingeniería ejecutiva consolidada. Libre de tecnologías legacy. SSOT: DBCD_CRITERIA.md</p>
+                    <div class="doc-links">
+                        <a href="${doc.file}.html" class="doc-link link-html">🌐 VER HTML</a>
+                        <a href="../WORD/${doc.file}.docx" class="doc-link link-word">📄 WORD (.DOCX)</a>
+                    </div>
+                </div>
+            `).join('');
+        });
     </script>
 </body>
 </html>
-

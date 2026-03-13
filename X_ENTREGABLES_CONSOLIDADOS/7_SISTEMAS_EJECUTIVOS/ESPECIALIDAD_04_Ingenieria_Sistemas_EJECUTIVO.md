@@ -33,8 +33,8 @@ La Ingeniería de Sistemas es el **"sistema nervioso"** del ferrocarril que inte
 
 ### ¿Por qué 25 interfaces críticas?
 **Justificación de Interfaces:**
-- **CTC-ITCS:** 5 interfaces para control automático de trenes
-- **TETRA-GSM-R:** 4 interfaces para comunicaciones redundantes
+- **CTC-PTC:** 5 interfaces para control automático de trenes
+- **TETRA-RED TETRA (Misión Crítica):** 4 interfaces para comunicaciones redundantes
 - **ITS-Seguridad:** 3 interfaces para monitoreo y control
 - **Material Rodante-ATP:** 4 interfaces para control embarcado
 - **Infraestructura:** 6 interfaces para coordinación
@@ -42,11 +42,11 @@ La Ingeniería de Sistemas es el **"sistema nervioso"** del ferrocarril que inte
 
 ### ¿Por qué 15 protocolos de interoperabilidad?
 **Justificación de Protocolos:**
-- **UIC 920-2:** Comunicaciones GSM-R estándar internacional
+- **UIC 920-2:** Comunicaciones RED TETRA (Misión Crítica) estándar internacional
 - **UIC 438:** Señalización ferroviaria compatible con FENOCO
 - **UIC 930:** Sistemas de señalización interoperables
 - **UIC 950:** Control de tráfico coordinado
-- **FFFIS:** Interfaces CTC-ITCS específicas
+- **FFFIS:** Interfaces CTC-PTC específicas
 - **EN 50159:** Seguridad de comunicaciones
 
 ---

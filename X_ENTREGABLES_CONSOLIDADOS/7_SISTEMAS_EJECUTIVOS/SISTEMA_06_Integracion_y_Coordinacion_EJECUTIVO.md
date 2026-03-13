@@ -10,7 +10,7 @@ El Sistema de Integración y Coordinación es el **"director de orquesta"** del 
 
 ### Alcance en números - JUSTIFICACIÓN TÉCNICA
 - **Inversión estimada:** $25,000 millones COP
-- **25 interfaces críticas:** CTC-ITCS (FFFIS), TETRA-GSM-R, ITS-Seguridad, Material Rodante-ATP
+- **25 interfaces críticas:** CTC-PTC (FFFIS), TETRA-RED TETRA (Misión Crítica), ITS-Seguridad, Material Rodante-ATP
 - **15 protocolos de interoperabilidad:** UIC 920-2, UIC 438, UIC 930, UIC 950, FFFIS, EN 50159
 - **12 APIs de integración:** Comunicación entre sistemas y FENOCO
 - **Gateway de integración:** Conversión de protocolos entre sistemas y red nacional
@@ -34,8 +34,8 @@ El Sistema de Integración y Coordinación es el **"director de orquesta"** del 
 **Desglose de Interfaces por Sistema:**
 | Sistema | Interfaces | Justificación |
 |:--------|:-----------|:--------------|
-| **CTC-ITCS** | 5 interfaces | Control automático de trenes (FFFIS) |
-| **TETRA-GSM-R** | 4 interfaces | Comunicaciones redundantes |
+| **CTC-PTC** | 5 interfaces | Control automático de trenes (FFFIS) |
+| **TETRA-RED TETRA (Misión Crítica)** | 4 interfaces | Comunicaciones redundantes |
 | **ITS-Seguridad** | 3 interfaces | Monitoreo y control de seguridad |
 | **Material Rodante-ATP** | 4 interfaces | Control embarcado |
 | **Infraestructura** | 6 interfaces | Coordinación de infraestructura |
@@ -47,11 +47,11 @@ El Sistema de Integración y Coordinación es el **"director de orquesta"** del 
 **Justificación de Protocolos:**
 | Protocolo | Función | Justificación |
 |:----------|:--------|:--------------|
-| **UIC 920-2** | Comunicaciones GSM-R | Estándar internacional ferroviario |
+| **UIC 920-2** | Comunicaciones RED TETRA (Misión Crítica) | Estándar internacional ferroviario |
 | **UIC 438** | Señalización ferroviaria | Compatibilidad con FENOCO |
 | **UIC 930** | Sistemas de señalización | Interoperabilidad de sistemas |
 | **UIC 950** | Control de tráfico | Coordinación entre centros |
-| **FFFIS** | Interfaces CTC-ITCS | Especificación de interfaces |
+| **FFFIS** | Interfaces CTC-PTC | Especificación de interfaces |
 | **EN 50159** | Seguridad comunicaciones | Seguridad funcional |
 
 **Total:** 15 protocolos para interoperabilidad completa
@@ -151,11 +151,11 @@ El Sistema de Integración y Coordinación proporciona **coordinación integral*
 **Componentes instalados:**
 | Componente | Cantidad | Especificación | Estado |
 |:-----------|:---------|:---------------|:-------|
-| Protocolo FFFIS | 1 unidad | Comunicación CTC-ITCS | ✅ Disponible |
+| Protocolo FFFIS | 1 unidad | Comunicación CTC-PTC | ✅ Disponible |
 | Protocolo UIC | 1 unidad | Comunicación ferroviaria | ✅ Disponible |
 | Protocolo IEC 61850 | 1 unidad | Comunicación eléctrica | ✅ Disponible |
 | Protocolo TETRA | 1 unidad | Comunicación radio | ✅ Disponible |
-| Protocolo GSM-R | 1 unidad | Comunicación móvil | ✅ Disponible |
+| Protocolo RED TETRA (Misión Crítica) | 1 unidad | Comunicación móvil | ✅ Disponible |
 | Protocolo CAN Bus | 1 unidad | Comunicación embarcada | ✅ Disponible |
 
 **Estado general:** 🟢 En cronograma
@@ -262,7 +262,7 @@ El sistema de integración y coordinación opera 24/7 proporcionando coordinaci�
 | Sistema | Tipo de Interfaz | Criticidad | Responsable |
 |:--------|:-----------------|:-----------|:------------|
 | Control y Señalización | CTC Virtual | Alta | EPC Sistemas |
-| Telecomunicaciones | TETRA + GSM-R | Alta | EPC Telecomunicaciones |
+| Telecomunicaciones | TETRA + RED TETRA (Misión Crítica) | Alta | EPC Telecomunicaciones |
 | ITS y Seguridad | CCTV + Monitoreo | Media | EPC Sistemas |
 | Material Rodante | ATP Embarcado | Alta | EPC Sistemas |
 

@@ -15,7 +15,7 @@ El Sistema de Material Rodante es la **"flota de vehículos"** del ferrocarril q
 - **8 carromotores:** Equipos especializados para mantenimiento de vía
 - **15 dispositivos EOT:** 1 por locomotora para seguridad crítica (End of Train)
 - **3 talleres:** Principal La Dorada + secundario Chiriguaná + taller de línea
-- **Sistemas embarcados:** ITCS ETCS Level 2, TETRA + GSM-R, GPS/GNSS, CCTV
+- **Sistemas embarcados:** PTC PTC VIRTUAL Level 2, TETRA + RED TETRA (Misión Crítica), GPS/GNSS, CCTV
 - **Cobertura:** 100% del corredor La Dorada-Chiriguaná
 - **Disponibilidad requerida:** 99.95% (sistema crítico según AT4)
 
@@ -71,8 +71,8 @@ El Sistema de Material Rodante es la **"flota de vehículos"** del ferrocarril q
 **Justificación Técnica por Sistema:**
 | Sistema | Justificación | Cantidad | Ubicación |
 |:--------|:--------------|:---------|:----------|
-| **ITCS ETCS Level 2** | Control automático de trenes | 15 | Locomotoras |
-| **TETRA + GSM-R** | Comunicaciones redundantes | 15 | Locomotoras |
+| **PTC PTC VIRTUAL Level 2** | Control automático de trenes | 15 | Locomotoras |
+| **TETRA + RED TETRA (Misión Crítica)** | Comunicaciones redundantes | 15 | Locomotoras |
 | **GPS/GNSS** | Posicionamiento en tiempo real | 15 | Locomotoras |
 | **CCTV Embarcado** | Seguridad operacional | 15 | Locomotoras |
 | **Event Recorder** | Caja negra para eventos | 15 | Locomotoras |
@@ -120,10 +120,10 @@ El Sistema de Material Rodante proporciona **capacidad de transporte** para el c
 **Componentes instalados:**
 | Componente | Cantidad | Especificación | Estado |
 |:-----------|:---------|:---------------|:-------|
-| Locomotoras principales | 15 unidades | 3,000 kW, ETCS Level 2 | ⏳ En adquisición |
+| Locomotoras principales | 15 unidades | 3,000 kW, PTC VIRTUAL Level 2 | ⏳ En adquisición |
 | Sistemas ATP embarcados | 15 unidades | Control automático | ⏳ En adquisición |
 | Sistemas TETRA embarcados | 15 unidades | Comunicación principal | ⏳ En adquisición |
-| Sistemas GSM-R embarcados | 15 unidades | Comunicación redundante | ⏳ En adquisición |
+| Sistemas RED TETRA (Misión Crítica) embarcados | 15 unidades | Comunicación redundante | ⏳ En adquisición |
 | Sistemas GPS/GNSS | 15 unidades | Posicionamiento | ⏳ En adquisición |
 
 **Estado general:** 🟡 En progreso
@@ -184,7 +184,7 @@ El Sistema de Material Rodante proporciona **capacidad de transporte** para el c
 | Peso por locomotora | 120 toneladas | UIC |
 
 ### Criterios de aceptación
-- ✅ 15 locomotoras con ATP embarcado ETCS Level 2
+- ✅ 15 locomotoras con ATP embarcado PTC VIRTUAL Level 2
 - ✅ 51 vagones con capacidad total de 2,550 toneladas
 - ✅ 15 dispositivos EOT para monitoreo de trenes
 - ✅ 3 talleres operativos para mantenimiento
@@ -243,7 +243,7 @@ El material rodante opera 24/7 transportando mercancías a lo largo del corredor
 | Sistema | Tipo de Interfaz | Criticidad | Responsable |
 |:--------|:-----------------|:-----------|:------------|
 | Control y Señalización | ATP Embarcado | Alta | EPC Sistemas |
-| Telecomunicaciones | TETRA + GSM-R Embarcado | Alta | EPC Telecomunicaciones |
+| Telecomunicaciones | TETRA + RED TETRA (Misión Crítica) Embarcado | Alta | EPC Telecomunicaciones |
 | Infraestructura | Vías y estaciones | Alta | EPC Civil |
 | Talleres | Equipos de mantenimiento | Media | EPC Mecánico |
 

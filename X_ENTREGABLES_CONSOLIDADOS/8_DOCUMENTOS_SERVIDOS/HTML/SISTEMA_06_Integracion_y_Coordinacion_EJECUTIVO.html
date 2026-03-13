@@ -338,8 +338,8 @@ funcionen como un conjunto integrado y eficiente.</p>
 JUSTIFICACIÓN TÉCNICA</h3>
 <ul>
 <li><strong>Inversión estimada:</strong> $25,000 millones COP</li>
-<li><strong>25 interfaces críticas:</strong> CTC-ITCS (FFFIS),
-TETRA-GSM-R, ITS-Seguridad, Material Rodante-ATP</li>
+<li><strong>25 interfaces críticas:</strong> CTC-PTC (FFFIS), TETRA-RED
+TETRA (Misión Crítica), ITS-Seguridad, Material Rodante-ATP</li>
 <li><strong>15 protocolos de interoperabilidad:</strong> UIC 920-2, UIC
 438, UIC 930, UIC 950, FFFIS, EN 50159</li>
 <li><strong>12 APIs de integración:</strong> Comunicación entre sistemas
@@ -391,27 +391,28 @@ DISEÑO Y JUSTIFICACIONES TÉCNICAS</h2>
 interfaces críticas específicamente?</h3>
 <p><strong>Desglose de Interfaces por Sistema:</strong> | Sistema |
 Interfaces | Justificación | |:——–|:———–|:————–| |
-<strong>CTC-ITCS</strong> | 5 interfaces | Control automático de trenes
-(FFFIS) | | <strong>TETRA-GSM-R</strong> | 4 interfaces | Comunicaciones
-redundantes | | <strong>ITS-Seguridad</strong> | 3 interfaces |
-Monitoreo y control de seguridad | | <strong>Material
-Rodante-ATP</strong> | 4 interfaces | Control embarcado | |
-<strong>Infraestructura</strong> | 6 interfaces | Coordinación de
-infraestructura | | <strong>FENOCO</strong> | 3 interfaces |
-Interoperabilidad nacional |</p>
+<strong>CTC-PTC</strong> | 5 interfaces | Control automático de trenes
+(FFFIS) | | <strong>TETRA-RED TETRA (Misión Crítica)</strong> | 4
+interfaces | Comunicaciones redundantes | |
+<strong>ITS-Seguridad</strong> | 3 interfaces | Monitoreo y control de
+seguridad | | <strong>Material Rodante-ATP</strong> | 4 interfaces |
+Control embarcado | | <strong>Infraestructura</strong> | 6 interfaces |
+Coordinación de infraestructura | | <strong>FENOCO</strong> | 3
+interfaces | Interoperabilidad nacional |</p>
 <p><strong>Total:</strong> 25 interfaces críticas para operación
 integrada</p>
 <h3 id="por-qué-15-protocolos-de-interoperabilidad">¿Por qué 15
 protocolos de interoperabilidad?</h3>
 <p><strong>Justificación de Protocolos:</strong> | Protocolo | Función |
 Justificación | |:———-|:——–|:————–| | <strong>UIC 920-2</strong> |
-Comunicaciones GSM-R | Estándar internacional ferroviario | |
-<strong>UIC 438</strong> | Señalización ferroviaria | Compatibilidad con
-FENOCO | | <strong>UIC 930</strong> | Sistemas de señalización |
-Interoperabilidad de sistemas | | <strong>UIC 950</strong> | Control de
-tráfico | Coordinación entre centros | | <strong>FFFIS</strong> |
-Interfaces CTC-ITCS | Especificación de interfaces | | <strong>EN
-50159</strong> | Seguridad comunicaciones | Seguridad funcional |</p>
+Comunicaciones RED TETRA (Misión Crítica) | Estándar internacional
+ferroviario | | <strong>UIC 438</strong> | Señalización ferroviaria |
+Compatibilidad con FENOCO | | <strong>UIC 930</strong> | Sistemas de
+señalización | Interoperabilidad de sistemas | | <strong>UIC
+950</strong> | Control de tráfico | Coordinación entre centros | |
+<strong>FFFIS</strong> | Interfaces CTC-PTC | Especificación de
+interfaces | | <strong>EN 50159</strong> | Seguridad comunicaciones |
+Seguridad funcional |</p>
 <p><strong>Total:</strong> 15 protocolos para interoperabilidad
 completa</p>
 <h3 id="por-qué-12-apis-de-integración">¿Por qué 12 APIs de
@@ -510,12 +511,13 @@ Comunicación - Estándares</h3>
 sistemas</p>
 <p><strong>Componentes instalados:</strong> | Componente | Cantidad |
 Especificación | Estado | |:———–|:———|:—————|:——-| | Protocolo FFFIS | 1
-unidad | Comunicación CTC-ITCS | ✅ Disponible | | Protocolo UIC | 1
+unidad | Comunicación CTC-PTC | ✅ Disponible | | Protocolo UIC | 1
 unidad | Comunicación ferroviaria | ✅ Disponible | | Protocolo IEC
 61850 | 1 unidad | Comunicación eléctrica | ✅ Disponible | | Protocolo
-TETRA | 1 unidad | Comunicación radio | ✅ Disponible | | Protocolo
-GSM-R | 1 unidad | Comunicación móvil | ✅ Disponible | | Protocolo CAN
-Bus | 1 unidad | Comunicación embarcada | ✅ Disponible |</p>
+TETRA | 1 unidad | Comunicación radio | ✅ Disponible | | Protocolo RED
+TETRA (Misión Crítica) | 1 unidad | Comunicación móvil | ✅ Disponible |
+| Protocolo CAN Bus | 1 unidad | Comunicación embarcada | ✅ Disponible
+|</p>
 <p><strong>Estado general:</strong> 🟢 En cronograma</p>
 <h3 id="apis-de-integración---programación">3. APIs de Integración -
 Programación</h3>
@@ -683,6 +685,12 @@ SISTEMAS</h2>
 [Infraestructura] ←→ [Integración y Coordinación] ←→ [Sistemas Externos]</code></pre>
 <h3 id="tabla-de-interfaces-críticas">Tabla de interfaces críticas</h3>
 <table>
+<colgroup>
+<col style="width: 17%" />
+<col style="width: 34%" />
+<col style="width: 23%" />
+<col style="width: 25%" />
+</colgroup>
 <thead>
 <tr>
 <th style="text-align: left;">Sistema</th>
@@ -700,7 +708,7 @@ SISTEMAS</h2>
 </tr>
 <tr>
 <td style="text-align: left;">Telecomunicaciones</td>
-<td style="text-align: left;">TETRA + GSM-R</td>
+<td style="text-align: left;">TETRA + RED TETRA (Misión Crítica)</td>
 <td style="text-align: left;">Alta</td>
 <td style="text-align: left;">EPC Telecomunicaciones</td>
 </tr>
