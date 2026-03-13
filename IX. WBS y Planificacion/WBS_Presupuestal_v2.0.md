@@ -33,17 +33,17 @@
 | **1.1.106** | Interfaces comunicación | 1 | $150,000,000 | $150,000,000 |
 | **SUBTOTAL CTC** | | | | **$89,542,090,432** |
 
-#### **1.2 Sistema PTC Embarcado (8 Unidades PTC)**
+#### **1.2 Sistema PTC Embarcado (15 Unidades PTC)**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
 |:---|:---|:---:|:---:|:---:|
-| **1.2.100** | Computadora PTC embarcada | 8 | $120,000,000 | $960,000,000 |
-| **1.2.101** | Display maquinista | 8 | $80,000,000 | $640,000,000 |
-| **1.2.102** | Sensores velocidad | 8 | $25,000,000 | $200,000,000 |
-| **1.2.103** | Sistema GPS | 8 | $35,000,000 | $280,000,000 |
-| **1.2.104** | Software PTC | 8 | $100,000,000 | $800,000,000 |
-| **1.2.105** | Interfaces frenos | 8 | $30,000,000 | $240,000,000 |
-| **1.2.106** | Sistema redundancia | 8 | $50,000,000 | $400,000,000 |
-| **SUBTOTAL PTC** | | | | **$3,520,000,000** |
+| **1.2.100** | Computadora PTC embarcada | 15 | $120,000,000 | $1,800,000,000 |
+| **1.2.101** | Display maquinista | 15 | $80,000,000 | $1,200,000,000 |
+| **1.2.102** | Sensores velocidad | 15 | $25,000,000 | $375,000,000 |
+| **1.2.103** | Sistema GPS | 15 | $35,000,000 | $525,000,000 |
+| **1.2.104** | Software PTC | 15 | $100,000,000 | $1,500,000,000 |
+| **1.2.105** | Interfaces frenos | 15 | $30,000,000 | $450,000,000 |
+| **1.2.106** | Sistema redundancia | 15 | $50,000,000 | $750,000,000 |
+| **SUBTOTAL PTC** | | | | **$6,600,000,000** |
 
 #### **1.3 Enclavamientos ENCE (5 Estaciones)**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
@@ -117,17 +117,17 @@
 #### **2.3 Fibra Óptica (526 km)**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
 |:---|:---|:---:|:---:|:---:|
-| **2.3.100** | Cable fibra óptica 48 fibras | 526 km | $9,811,013 | $5,827,741,722 |
-| **2.3.101** | Mano de obra instalación | 526 km | $90,188,987 | $53,572,258,278 |
-| **2.3.102** | Tritubo 40mm | 1,485 rollos | $15,845 | $23,529,825 |
-| **2.3.103** | Cajas empalme 80x80 | 2,068 unidades | $1,350,000 | $2,791,800,000 |
-| **2.3.104** | Uniones rápidas | 6,204 unidades | $35,000 | $217,140,000 |
+| **2.3.100** | Cable fibra óptica 48 fibras (Instalación 526km + 10% Gasa Técnica) | 579 km | $9,811,013 | $5,680,576,527 |
+| **2.3.101** | Mano de obra instalación (Tendido 526km + 10% Gasa Técnica) | 579 km | $90,188,987 | $52,219,423,473 |
+| **2.3.102** | Tritubo 40mm | 1,448 rollos | $15,845 | $22,943,560 |
+| **2.3.103** | Cajas empalme 80x80 | 1,930 unidades | $1,350,000 | $2,605,500,000 |
+| **2.3.104** | Uniones rápidas | 5,790 unidades | $35,000 | $202,650,000 |
 | **2.3.105** | Fusionadoras | 2 unidades | $50,000,000 | $100,000,000 |
 | **2.3.106** | OTDR | 2 unidades | $30,000,000 | $60,000,000 |
-| **2.3.107** | Muflas fusionado | 7,260 unidades | $25,000 | $181,500,000 |
-| **2.3.108** | Insumos fusionado | 6,600 fusiones | $15,000 | $99,000,000 |
-| **2.3.109** | Repuestos (5%) | - | - | $3,142,297,026 |
-| **SUBTOTAL FIBRA ÓPTICA** | | | | **$70,016,367,851** |
+| **2.3.107** | Muflas fusionado | 6,800 unidades | $25,000 | $170,000,000 |
+| **2.3.108** | Insumos fusionado | 6,200 fusiones | $15,000 | $93,000,000 |
+| **2.3.109** | Repuestos Estratégicos (Stock 3% Corredor) | 16 km | $8,000,000 | $128,000,000 |
+| **SUBTOTAL FIBRA ÓPTICA** | | | | **$61,282,093,560** |
 
 **TOTAL CAPÍTULO 2:** **$92,672,367,851**
 
@@ -258,17 +258,17 @@
 
 ### **CAPÍTULO 6: MATERIAL RODANTE**
 
-#### **6.1 Equipos PTC Embarcados (8 Unidades PTC)**
+#### **6.1 Equipos PTC Embarcados (15 Unidades PTC)**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
 |:---|:---|:---:|:---:|:---:|
-| **6.1.100** | Sistemas PTC embarcados | 8 | $400,000,000 | $3,200,000,000 |
-| **6.1.101** | Radios TETRA embarcados | 16 | $35,000,000 | $560,000,000 |
-| **6.1.102** | Radios RED TETRA (Misión Crítica) embarcados | 16 | $25,000,000 | $400,000,000 |
-| **6.1.103** | Sistemas GPS | 8 | $35,000,000 | $280,000,000 |
-| **6.1.104** | Sistemas redundancia | 8 | $80,000,000 | $640,000,000 |
-| **6.1.105** | Instalación y configuración | 8 | $100,000,000 | $800,000,000 |
-| **6.1.106** | Repuestos (10%) | - | - | $588,000,000 |
-| **SUBTOTAL PTC EMBARCADOS** | | | | **$6,468,000,000** |
+| **6.1.100** | Sistemas PTC embarcados | 15 | $400,000,000 | $6,000,000,000 |
+| **6.1.101** | Radios TETRA embarcados | 30 | $35,000,000 | $1,050,000,000 |
+| **6.1.102** | Radios RED TETRA (Misión Crítica) embarcados | 30 | $25,000,000 | $750,000,000 |
+| **6.1.103** | Sistemas GPS | 15 | $35,000,000 | $525,000,000 |
+| **6.1.104** | Sistemas redundancia | 15 | $80,000,000 | $1,200,000,000 |
+| **6.1.105** | Instalación y configuración | 15 | $100,000,000 | $1,500,000,000 |
+| **6.1.106** | Repuestos (10%) | - | - | $1,102,500,000 |
+| **SUBTOTAL PTC EMBARCADOS** | | | | **$12,127,500,000** |
 
 #### **6.2 Sistema EOT (15 Dispositivos)**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
