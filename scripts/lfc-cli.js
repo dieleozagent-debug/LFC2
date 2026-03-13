@@ -44,24 +44,29 @@ function sync() {
     const contenido = fs.readFileSync(wbsPath, 'utf8');
 
     log("🔍 Paso 2: Parseando ítems de la WBS...", colors.yellow);
-    // Regex adaptada del .ps1 original
-    const pattern = /^\|\s*(\d+\.\d+\.\d+)\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|\s*([0-9,.]+)\s*\|\s*\$([0-9,.]+)\s*\|\s*\$([0-9,.]+)\s*\|/gm;
+    // Regex adaptada para tablas markdown con formato | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
+    const pattern = /^\|\s*\*\*(\d+\.\d+\.\d+)\*\*\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|/gm;
     
     const items = [];
     let match;
     while ((match = pattern.exec(contenido)) !== null) {
-        const vuStr = match[6].trim().replace(/,/g, '').replace(/\./g, '');
-        const totalStr = match[7].trim().replace(/,/g, '').replace(/\./g, '');
+        const codigo = match[1].trim();
+        const descripcion = match[2].trim().replace(/\*\*/g, '');
+        const cantidadStr = match[3].trim().replace(/,/g, '').replace(/\./g, '');
+        const vuStr = match[4].trim().replace(/\$/g, '').replace(/,/g, '').replace(/\./g, '');
+        const totalStr = match[5].trim().replace(/\$/g, '').replace(/,/g, '').replace(/\./g, '');
 
-        items.push({
-            codigo: match[1].trim(),
-            descripcion: match[2].trim(),
-            tipo: match[3].trim().toUpperCase(),
-            unidad: match[4].trim(),
-            cantidad: match[5].trim().replace(/,/g, ''),
-            vu_cop: parseInt(vuStr, 10),
-            total_cop: parseInt(totalStr, 10)
-        });
+        if (codigo && descripcion && !descripcion.toLowerCase().includes('subtotal')) {
+            items.push({
+                codigo: codigo,
+                descripcion: descripcion,
+                tipo: "SUMINISTRO", // Valor por defecto ya que no está en la tabla
+                unidad: "UND", // Valor por defecto
+                cantidad: cantidadStr || "1",
+                vu_cop: parseInt(vuStr, 10) || 0,
+                total_cop: parseInt(totalStr, 10) || 0
+            });
+        }
     }
 
     log(`✅ Parseados ${items.length} ítems de la WBS\n`, colors.green);
