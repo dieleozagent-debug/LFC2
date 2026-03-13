@@ -203,9 +203,9 @@
             // Unify with LFC ADN
             if (window.LFC_TERMINOLOGY) {
                 const term = window.LFC_TERMINOLOGY;
-                document.getElementById('adn-page-title').textContent = `${term.PROJECT_NAME} | Menú Principal`;
-                document.getElementById('main-dns-title').textContent = `${term.PROJECT_NAME} MASTER CONTROL`;
-                document.getElementById('adn-version-pill').textContent = term.VERSION;
+                document.getElementById('adn-page-title').textContent = `${term.PROJECT.NAME} | Menú Principal`;
+                document.getElementById('main-dns-title').textContent = `${term.PROJECT.NAME} MASTER CONTROL`;
+                document.getElementById('adn-version-pill').textContent = term.PROJECT.VERSION;
             }
 
             // Remove loader

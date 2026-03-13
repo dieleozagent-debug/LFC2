@@ -385,8 +385,8 @@ iv>
         // ADN Visual Integration
         document.addEventListener('DOMContentLoaded', () => {
             const term = window.LFC_TERMINOLOGY || { PROJECT_NAME: "LFC STUDIO", VERSION: "v3.0" };
-            document.getElementById('pres-title').textContent = `💰 PORTAL DE COSTOS | ${term.PROJECT_NAME}`;
-            document.getElementById('pres-subtitle').textContent = `${term.PROJECT_NAME} | UF-2.2 | Versión ${term.VERSION} (Saneado)`;
+            document.getElementById('pres-title').textContent = `💰 PORTAL DE COSTOS | ${term.PROJECT.NAME}`;
+            document.getElementById('pres-subtitle').textContent = `${term.PROJECT.NAME} | UF-2.2 | Versión ${term.PROJECT.VERSION} (Saneado)`;
         });
 
         // Convertir datos de WBS Operativa a formato WBS Presupuestal
@@ -729,10 +729,10 @@ iv>
 
             let totalCalculado = 0;
             if (filtroTipo === 'TODOS') {
-                totalCalculado = (sumaSuministros + sumaObra + sumaServicios) + (sumaObra * 0.33) + (sumaSuministros * 0.19 + sumaServicios * 0.19 + sumaObra * 0.05 * 0.19);
-            } else if (filtroTipo === 'SUMINISTRO') totalCalculado = sumaSuministros * 1.19;
-            else if (filtroTipo === 'OBRA') totalCalculado = sumaObra * 1.3395; // CD + 33% AIU + IVA s/Util
-            else if (filtroTipo === 'SERVICIO') totalCalculado = sumaServicios * 1.19;
+                totalCalculado = Math.round((sumaSuministros + sumaObra + sumaServicios) + (sumaObra * 0.33) + (sumaSuministros * 0.19 + sumaServicios * 0.19 + sumaObra * 0.05 * 0.19));
+            } else if (filtroTipo === 'SUMINISTRO') totalCalculado = Math.round(sumaSuministros * 1.19);
+            else if (filtroTipo === 'OBRA') totalCalculado = Math.round(sumaObra * 1.3395); // CD + 33% AIU + IVA s/Util
+            else if (filtroTipo === 'SERVICIO') totalCalculado = Math.round(sumaServicios * 1.19);
 
             const totalRow = document.createElement('tr');
             totalRow.className = 'total-row';
@@ -757,12 +757,13 @@ iv>
             const subtotales = {};
             
             wbsData.forEach(item => {
-                if (item.tipo && item.total) {
-                    const capitulo = item.item.split('.')[0];
+                // Solo consideramos ítems Base (L3) para evitar duplicaciones
+                if (item.tipo && item.total && item.nivel === 3) {
+                    const capitulo = item.capitulo || item.item.split('.')[0];
                     if (!subtotales[capitulo]) {
                         subtotales[capitulo] = { SUMINISTRO: 0, OBRA: 0, SERVICIO: 0 };
                     }
-                    subtotales[capitulo][item.tipo] += parseNumber(item.total);
+                    subtotales[capitulo][item.tipo] += Math.round(parseNumber(item.total));
                 }
             });
             
@@ -787,16 +788,16 @@ iv>
                 totalServicios += cap.SERVICIO;
                 
                 // AIU = 0.33 Ã OBRA (solo OBRA)
-                const administracion = cap.OBRA * 0.23;
-                const imprevistos = cap.OBRA * 0.05;
-                const utilidad = cap.OBRA * 0.05;
+                const administracion = Math.round(cap.OBRA * 0.23);
+                const imprevistos = Math.round(cap.OBRA * 0.05);
+                const utilidad = Math.round(cap.OBRA * 0.05);
                 const aiuCap = administracion + imprevistos + utilidad;
                 totalAIU += aiuCap;
                 
                 // IVA = 0.19 Ã SUM + 0.19 Ã SERV + 0.19 Ã (0.05 Ã OBRA)
-                const ivaSuministros = cap.SUMINISTRO * 0.19;
-                const ivaServicios = cap.SERVICIO * 0.19;
-                const ivaUtilidad = cap.OBRA * 0.05 * 0.19; // IVA sobre utilidad de OBRA
+                const ivaSuministros = Math.round(cap.SUMINISTRO * 0.19);
+                const ivaServicios = Math.round(cap.SERVICIO * 0.19);
+                const ivaUtilidad = Math.round(cap.OBRA * 0.05 * 0.19); // IVA sobre utilidad de OBRA
                 const ivaCap = ivaSuministros + ivaServicios + ivaUtilidad;
                 totalIVA += ivaCap;
                 
@@ -814,7 +815,7 @@ iv>
                     ivaServicios: ivaServicios,
                     ivaUtilidad: ivaUtilidad,
                     iva: ivaCap,
-                    total: cd + aiuCap + ivaCap
+                    total: Math.round(cd + aiuCap + ivaCap)
                 };
             });
             

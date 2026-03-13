@@ -369,10 +369,10 @@
         // Inyectar ADN en el DOM
         if (window.LFC_TERMINOLOGY) {
             const term = window.LFC_TERMINOLOGY;
-            document.title = term.METADATA.TITLE;
-            document.getElementById('main-dns-title').innerHTML = `📊 ${term.PROJECT_NAME} COMPLETA`;
-            document.getElementById('main-dns-subtitle').textContent = `${term.FULL_LOCATION} | ${term.TECHNICAL_CRITERIA}`;
-            document.getElementById('adn-version-tag').textContent = term.VERSION;
+            document.title = term.PROJECT.NAME;
+            document.getElementById('main-dns-title').innerHTML = `📊 ${term.PROJECT.NAME} COMPLETA`;
+            document.getElementById('main-dns-subtitle').textContent = `${term.PROJECT.FULL_LOCATION} | ${"DBCI FRA 236 SOVEREIGNTY"}`;
+            document.getElementById('adn-version-tag').textContent = term.PROJECT.VERSION;
         }
 
         // Lógica de filtrado y carga dinámica
@@ -520,7 +520,7 @@
             modalBody.innerHTML = `
                 <div class="dt-report">
                     <div class="dt-header">
-                        <div style="font-size: 1.5rem; font-weight: 900;">${term.PROJECT_NAME} | DECISIÓN TÉCNICA</div>
+                        <div style="font-size: 1.5rem; font-weight: 900;">${term.PROJECT.NAME} | DECISIÓN TÉCNICA</div>
                         <div style="text-align: right; font-size: 0.8rem;">Ref: DT-WBS-${codigo}<br>Fecha: ${new Date().toLocaleDateString()}</div>
                     </div>
                     
@@ -542,7 +542,7 @@
                     </div>
 
                     <div style="margin-top: 3rem; border-top: 1px solid #ddd; padding-top: 1rem; font-size: 0.7rem; opacity: 0.6;">
-                        Este documento es una propuesta de cambio generada desde el Dashboard de Control ${term.PROJECT_NAME} ${term.VERSION}.
+                        Este documento es una propuesta de cambio generada desde el Dashboard de Control ${term.PROJECT.NAME} ${term.PROJECT.VERSION}.
                     </div>
                     <button class="filtro-btn activo" style="margin-top: 2rem; width: 100%;" onclick="cerrarModal('modalDT')">Cerrar y Volver</button>
                 </div>
@@ -566,7 +566,7 @@
             modalBody.innerHTML = `
                 <div class="dt-report">
                     <div class="dt-header">
-                        <div style="font-size: 1.5rem; font-weight: 900;">${term.PROJECT_NAME} | PROPUESTA NUEVO CAPÍTULO</div>
+                        <div style="font-size: 1.5rem; font-weight: 900;">${term.PROJECT.NAME} | PROPUESTA NUEVO CAPÍTULO</div>
                         <div style="text-align: right; font-size: 0.8rem;">Ref: DT-NEW-CAP-${num}<br>Fecha: ${new Date().toLocaleDateString()}</div>
                     </div>
                     

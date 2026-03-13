@@ -438,3 +438,6 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 
 <!-- COCINADO LFC-CLI v5.0 Masterchef | SICC Pureza: AUDIT_REQUIRED | Fecha: 3/13/2026, 8:18:53 PM -->
+
+
+<!-- COCINADO LFC-CLI v6.0 DBCI | SICC Pureza: AUDIT_REQUIRED | Fecha: 3/13/2026, 8:25:10 PM | Versión: v6.0 Masterchef -->

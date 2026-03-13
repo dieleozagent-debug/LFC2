@@ -22,10 +22,29 @@
             height: 45px;
             margin-bottom: 8px;
             border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            transition: background 0.2s;
+        }
+        .gantt-row:hover {
+            background: rgba(255, 255, 255, 0.05);
+        }
+        .gantt-row.l3-row {
+            height: 35px;
+            margin-bottom: 4px;
+            padding-left: 20px;
+            border-bottom: 1px dashed rgba(255, 255, 255, 0.03);
+            display: none; /* Ocultas por defecto */
+        }
+        .gantt-row.phase-row {
+            cursor: pointer;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 4px;
+        }
+        .gantt-row.phase-row:hover {
+            background: rgba(255, 255, 255, 0.08);
         }
         .gantt-label {
-            width: 250px;
-            min-width: 250px;
+            width: 300px;
+            min-width: 300px;
             font-size: 0.85rem;
             font-weight: 500;
             color: rgba(255, 255, 255, 0.9);
@@ -33,6 +52,15 @@
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .l3-row .gantt-label {
+            font-size: 0.75rem;
+            color: rgba(255, 255, 255, 0.6);
+            padding-left: 1rem;
+            border-left: 2px solid rgba(255, 255, 255, 0.1);
         }
         .gantt-timeline {
             position: relative;
@@ -40,6 +68,9 @@
             height: 25px;
             background: rgba(255, 255, 255, 0.03);
             border-radius: 4px;
+        }
+        .l3-row .gantt-timeline {
+            height: 15px;
         }
         .gantt-bar {
             position: absolute;
@@ -57,10 +88,16 @@
             cursor: pointer;
             border: 1px solid rgba(255,255,255,0.2);
         }
+        .l3-row .gantt-bar {
+            border-radius: 4px;
+            opacity: 0.8;
+            font-size: 0; /* Ocultar texto en barritas pequeñas */
+        }
         .gantt-bar:hover {
             transform: scale(1.02) translateY(-2px);
             box-shadow: 0 8px 25px var(--accent-transparent);
             z-index: 100;
+            opacity: 1;
         }
         .gantt-bar::after {
             content: attr(data-label);
@@ -110,6 +147,14 @@
             padding-bottom: 0.5rem;
             border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         }
+        .toggle-icon {
+            font-size: 0.8rem;
+            transition: transform 0.3s;
+            color: var(--accent);
+        }
+        .expanded .toggle-icon {
+            transform: rotate(90deg);
+        }
     </style>
 </head>
 <body>
@@ -119,7 +164,7 @@
             <div id="adn-version-tag" style="position: absolute; top: 10px; right: 20px; font-size: 0.6rem; letter-spacing: 2px; opacity: 0.5;">CARGANDO...</div>
             <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
                 <div>
-                    <h1 class="premium-title" id="main-dns-title">📅 CRONOGRAMA MAESTRO</h1>
+                    <h1 class="premium-title" id="main-dns-title">📅 CRONOGRAMA MAESTRO (Multinivel)</h1>
                     <p id="main-dns-subtitle" style="opacity: 0.7; font-weight: 300;">Cargando propuesta de ejecución...</p>
                 </div>
             </div>
@@ -139,13 +184,13 @@
                 <div style="font-size: 0.7rem; letter-spacing: 2px; opacity: 0.6;">MESES BUFFER</div>
             </div>
             <div class="premium-card" style="padding: 1rem; text-align: center;">
-                <div style="font-size: 2rem; font-weight: 800; color: #fff;">133</div>
-                <div style="font-size: 0.7rem; letter-spacing: 2px; opacity: 0.6;">ÍTEMS WBS</div>
+                <div style="font-size: 2rem; font-weight: 800; color: #fff;" id="totalItemsL3">--</div>
+                <div style="font-size: 0.7rem; letter-spacing: 2px; opacity: 0.6;">ÍTEMS L3 SINCRONIZADOS</div>
             </div>
         </div>
 
         <div class="premium-card" style="margin-bottom: 2rem;">
-            <h2 style="color: var(--accent); margin-bottom: 1.5rem; display: flex; align-items: center; gap: 10px;">📊 DIAGRAMA DE GANTT</h2>
+            <h2 style="color: var(--accent); margin-bottom: 1.5rem; display: flex; align-items: center; gap: 10px;">📊 DIAGRAMA DE GANTT (Click para Desplegar L3)</h2>
             <div class="gantt-chart-container" id="ganttChart">
                 <!-- Se genera dinamicamente -->
             </div>
@@ -159,31 +204,62 @@
         </div>
     </div>
 
+    <!-- Integración LFC v6.3: DBCI + Datos L1/L2 + Datos L3 -->
     <script src="lfc-terminology.js?v=1.0.0"></script>
     <script src="sidebar-component.js"></script>
     <script src="cronograma_datos.js"></script>
+    <script src="wbs_presupuestal_datos.js"></script> 
+    
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             // Inyectar ADN
             if (window.LFC_TERMINOLOGY) {
                 const term = window.LFC_TERMINOLOGY;
-                document.getElementById('adn-page-title').textContent = `${term.SYSTEMS.GANTT} - ${term.APP_SHORT_NAME}`;
+                document.getElementById('adn-page-title').textContent = `${term.SYSTEMS.GANTT} multinivel - ${term.APP_SHORT_NAME}`;
                 document.getElementById('main-dns-title').innerHTML = `📅 ${term.SYSTEMS.GANTT.toUpperCase()}`;
-                document.getElementById('main-dns-subtitle').textContent = `${term.FULL_LOCATION} | ${term.VERSION}`;
-                document.getElementById('adn-version-tag').textContent = term.VERSION;
+                document.getElementById('main-dns-subtitle').textContent = `${term.PROJECT.FULL_LOCATION} | ${term.PROJECT.VERSION} | Pureza SICC`;
+                document.getElementById('adn-version-tag').textContent = term.PROJECT.VERSION;
             }
-            if (typeof window.cronogramaData === 'undefined') {
-                console.error("No se cargaron los datos del cronograma.");
+            if (typeof window.cronogramaData === 'undefined' || typeof window.wbsDataPresupuestal === 'undefined') {
+                console.error("Fallo de Inyección Transversal: Faltan datos L1/L2 o L3.");
+                document.getElementById('ganttChart').innerHTML = '<p style="color: red; text-align: center;">Error: Sincronización Incompleta. Ejecute lfc sync.</p>';
                 return;
             }
 
             const data = window.cronogramaData;
+            const l3Data = window.wbsDataPresupuestal;
             const container = document.getElementById('timelineContainer');
             const gantt = document.getElementById('ganttChart');
             
+            document.getElementById('totalItemsL3').textContent = l3Data.length;
+
+            // Mapeo L3 a Fases (Motor de Inferencia v6.3)
+            const mapL3ToFases = () => {
+                const asignaciones = {};
+                data.fases.forEach(f => asignaciones[f.id] = []);
+                
+                l3Data.forEach(item => {
+                    let faseId = 'F4'; // Default Obras
+                    if (item.tipo === 'SERVICIO' && item.descripcion.toLowerCase().includes('ingeniería')) faseId = 'F1';
+                    else if (item.capitulo === '6') faseId = 'F2'; // Material Rodante
+                    else if (item.capitulo === '5') faseId = 'F3'; // CCO
+                    else if (item.capitulo === '3' || item.capitulo === '4') faseId = 'F5'; // ITS / PaN
+                    else if (item.tipo === 'SERVICIO' && item.descripcion.toLowerCase().includes('prueba')) faseId = 'F6';
+                    else if (item.tipo === 'SERVICIO' && item.descripcion.toLowerCase().includes('capacitación')) faseId = 'F7';
+                    
+                    if(asignaciones[faseId]) {
+                        asignaciones[faseId].push(item);
+                    }
+                });
+                return asignaciones;
+            };
+
+            const l3PorFase = mapL3ToFases();
+
             // 1. Render Timeline
             container.innerHTML = '';
             data.fases.forEach(fase => {
+                const numL3 = l3PorFase[fase.id] ? l3PorFase[fase.id].length : 0;
                 const card = document.createElement('div');
                 card.className = 'phase-card';
                 card.innerHTML = `
@@ -197,13 +273,14 @@
                     <div style="display: flex; gap: 2rem; font-size: 0.8rem; font-weight: 700; flex-wrap: wrap;">
                         <span>📅 MES ${fase.mes_inicio} - ${fase.mes_fin}</span>
                         <span>⏳ DURACIÓN: ${fase.duracion_meses} MESES</span>
+                        <span style="color: #00d2ff;">⚙️ ÍTEMS L3 SUBORDINADOS: ${numL3}</span>
                         ${fase.avance_pct > 0 ? `<span style="color: var(--success);">⚡ AVANCE: ${fase.avance_pct}%</span>` : ''}
                     </div>
                 `;
                 container.appendChild(card);
             });
 
-            // 2. Render Gantt
+            // 2. Render Gantt Multinivel
             const totalMeses = 60;
             let ganttHTML = '<div class="gantt-header">';
             for(let i=0; i<=totalMeses; i+=5) {
@@ -216,10 +293,15 @@
                 const widthPct = (fase.duracion_meses / totalMeses) * 100;
                 const colors = ['#00d2ff', '#3a7bd5', '#92fe9d', '#00c9ff', '#f093fb', '#f5576c', '#43e97b', '#38f9d7'];
                 const color = colors[idx % colors.length];
+                const hijosL3 = l3PorFase[fase.id] || [];
 
+                // Fila Principal (Fase L1/L2)
                 ganttHTML += `
-                    <div class="gantt-row">
-                        <div class="gantt-label">${fase.nombre}</div>
+                    <div class="gantt-row phase-row" onclick="togglePhase('${fase.id}')">
+                        <div class="gantt-label">
+                            <span class="toggle-icon">▶</span>
+                            ${fase.nombre} (${hijosL3.length})
+                        </div>
                         <div class="gantt-timeline">
                             <div class="gantt-bar" 
                                  style="left: ${startPct}%; width: ${widthPct}%; background: ${color};"
@@ -229,9 +311,52 @@
                         </div>
                     </div>
                 `;
+
+                // Sub-filas L3 (Ocultas inicialmente)
+                hijosL3.forEach((item, l3Idx) => {
+                    // Simulación de distribución temporal dentro de la fase basada en su índice
+                    const chunkOffset = (l3Idx / hijosL3.length) * (widthPct * 0.8);
+                    const chunkWidth = widthPct / (hijosL3.length > 5 ? 5 : hijosL3.length); // Máximo ancho
+                    const finalWidth = chunkWidth > widthPct ? widthPct : chunkWidth;
+                    
+                    ganttHTML += `
+                        <div class="gantt-row l3-row child-of-${fase.id}">
+                            <div class="gantt-label" title="${item.item} - ${item.descripcion}">
+                                [${item.item}] ${item.descripcion}
+                            </div>
+                            <div class="gantt-timeline">
+                                <div class="gantt-bar" 
+                                     style="left: ${startPct + chunkOffset}%; width: ${finalWidth}%; background: ${color}; opacity: 0.6;"
+                                     data-label="${item.item}: ${item.descripcion}">
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                });
             });
             gantt.innerHTML = ganttHTML;
         });
+
+        // Función global para expandir/contraer
+        window.togglePhase = function(faseId) {
+            const row = event.currentTarget;
+            row.classList.toggle('expanded');
+            const icon = row.querySelector('.toggle-icon');
+            if (row.classList.contains('expanded')) {
+                icon.textContent = '▼';
+            } else {
+                icon.textContent = '▶';
+            }
+            
+            const children = document.querySelectorAll(`.child-of-${faseId}`);
+            children.forEach(child => {
+                if (child.style.display === 'flex') {
+                    child.style.display = 'none';
+                } else {
+                    child.style.display = 'flex';
+                }
+            });
+        };
     </script>
 </body>
 </html>

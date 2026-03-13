@@ -181,8 +181,8 @@
             const term = window.LFC_TERMINOLOGY;
             document.getElementById('adn-page-title').textContent = `Matriz de Riesgos - ${term.APP_SHORT_NAME}`;
             document.getElementById('main-dns-title').innerHTML = `⚠️ ANÁLISIS DE RIESGOS`;
-            document.getElementById('main-dns-subtitle').textContent = `${term.FULL_LOCATION} | Master Risk Audit`;
-            document.getElementById('adn-version-tag').textContent = term.VERSION;
+            document.getElementById('main-dns-subtitle').textContent = `${term.PROJECT.FULL_LOCATION} | Master Risk Audit`;
+            document.getElementById('adn-version-tag').textContent = term.PROJECT.VERSION;
         }
 
         function filterRisks(level) {
