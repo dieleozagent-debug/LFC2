@@ -173,7 +173,7 @@ Leyenda: 🟢 Listo • 🟠 En desarrollo/especificación • 🟡 Pendiente
 ## 🔄 **PLAN DE RECUPERACIÓN TÉCNICA IMPLEMENTADO (27 ENE 2025)**
 
 ### **🎯 METODOLOGÍA DE REVISIÓN SENIOR APLICADA**
-- **Estándares Internacionales:** UIC, CENELEC, PTC VIRTUAL, IEC 62290
+- **Estándares Internacionales:** FRA/AREMA, CENELEC, PTC VIRTUAL, IEC 62290
 - **Mejores Prácticas EPC:** Lecciones aprendidas de proyectos similares
 - **Análisis de Gaps Críticos:** Identificación de vacíos técnicos bloqueantes
 - **Evaluación de Madurez:** Análisis de completitud por especialidad
@@ -197,7 +197,7 @@ Leyenda: 🟢 Listo • 🟠 En desarrollo/especificación • 🟡 Pendiente
 
 #### **2. MATERIAL RODANTE Y SISTEMAS EMBARCADOS**
 - **STM Especificaciones:** 🔄 **EN DESARROLLO** - Compatibles PTC VIRTUAL Level 2
-- **DMI Diseño:** 🔄 **EN DESARROLLO** - Según UIC EIRENE
+- **DMI Diseño:** 🔄 **EN DESARROLLO** - Según FRA/AREMA EIRENE
 - **Plan Retrofit:** 🔄 **EN DESARROLLO** - Locomotoras existentes
 - **Testing Procedures:** ⏳ **PENDIENTE** - FAT/SAT embarcados
 
@@ -216,7 +216,7 @@ Leyenda: 🟢 Listo • 🟠 En desarrollo/especificación • 🟡 Pendiente
 - **Detectores Tren:** ✅ **ESPECIFICADO** - Sistemas inductivos
 
 #### **2. VALIDACIÓN INTEROPERABILIDAD**
-- **Coordinación FENOCO:** 🔄 **EN COORDINACIÓN** - Protocolos UIC
+- **Coordinación FENOCO:** 🔄 **EN COORDINACIÓN** - Protocolos FRA/AREMA
 - **Frequency Planning:** ✅ **COMPLETADO** - ANE y FENOCO
 - **Emergency Procedures:** ✅ **COMPLETADO** - Con simulación
 - **Capacity Analysis:** ✅ **COMPLETADO** - Por sector

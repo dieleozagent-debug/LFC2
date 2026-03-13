@@ -74,7 +74,7 @@
 #### **Ingeniería Conceptual:**
 1. **24_Matriz_TrazabilidadContractual_xlsx_Jerarqu_a_documental_aplicada_a_ingenier_a.md** - Matriz trazabilidad
 2. **26. Sistem_CTC_Int – AT1(CCO) + AT2(op) + AT3(esp) + AT4(ind) + AT9(cro).md** - Sistema CTC integrado
-3. **33_Criterios_Normatividad_docx_AREMA_UIC_RETIE_ISO_TC_204_NSR_10_NFPA.md** - Criterios normatividad
+3. **33_Criterios_Normatividad_docx_AREMA_FRA/AREMA_RETIE_ISO_TC_204_NSR_10_NFPA.md** - Criterios normatividad
 4. **35_Criterios_Redundancia_docx_Disponibilidad_y_respaldo_de_sistemas_cr_ticos.md** - Criterios redundancia
 5. **36_Criterios_Ciberseguridad_docx_Protecci_n_de_sistemas_de_control.md** - Criterios ciberseguridad
 
@@ -90,7 +90,7 @@
 10. **6.3_Manual_OM_Telecom_v5.0.md** - Manual OM telecom
 
 #### **Soporte Especializado:**
-11. **VII.2_Especificaciones/VII.2.3_Protocolos_UIC_Interoperabilidad_FENOCO.md** - Protocolos UIC interoperabilidad FENOCO
+11. **VII.2_Especificaciones/VII.2.3_Protocolos_FRA/AREMA_Interoperabilidad_FENOCO.md** - Protocolos FRA/AREMA interoperabilidad FENOCO
 
 ### **🟢 PRIORIDAD BAJA (4 documentos)**
 
@@ -117,8 +117,8 @@
 
 #### **2. Definición de Interoperabilidad FENOCO:**
 - **34_Criterios_Interoperabilidad_docx_Compatibilidad_con_FENOCO_y_ANI.md:** Criterios detallados de interoperabilidad
-- **VII.2_Especificaciones/VII.2.3_Protocolos_UIC_Interoperabilidad_FENOCO.md:** Protocolos UIC específicos
-- **Brecha:** Falta especificación detallada de implementación de protocolos UIC
+- **VII.2_Especificaciones/VII.2.3_Protocolos_FRA/AREMA_Interoperabilidad_FENOCO.md:** Protocolos FRA/AREMA específicos
+- **Brecha:** Falta especificación detallada de implementación de protocolos FRA/AREMA
 
 #### **3. Coordinación Operacional:**
 - **6.5_Manual_OM_Integrado_v5.0.md:** Manual de operación y mantenimiento integrado
@@ -133,8 +133,8 @@
 ### **⚠️ INCONSISTENCIAS DETECTADAS:**
 
 #### **1. Protocolos de Interoperabilidad:**
-- **34_Criterios_Interoperabilidad:** Protocolos UIC estándar para interoperabilidad
-- **VII.2.3_Protocolos_UIC:** Protocolos UIC específicos implementados
+- **34_Criterios_Interoperabilidad:** Protocolos FRA/AREMA estándar para interoperabilidad
+- **VII.2.3_Protocolos_FRA/AREMA:** Protocolos FRA/AREMA específicos implementados
 - **Inconsistencia:** Diferentes niveles de especificación sin consolidación
 
 #### **2. Interfaces CTC-PTC:**
@@ -150,7 +150,7 @@
 ### **📊 INFORMACIÓN PENDIENTE:**
 
 #### **1. Especificaciones Técnicas Detalladas:**
-- Implementación específica de protocolos UIC
+- Implementación específica de protocolos FRA/AREMA
 - Procedimientos de coordinación entre sistemas
 - Protocolos de interoperabilidad FENOCO
 
@@ -175,7 +175,7 @@
 
 ### **2. Definir Interoperabilidad FENOCO:**
 - Consolidar criterios (34_Criterios_Interoperabilidad) con protocolos (VII.2.3)
-- Definir procedimientos de implementación de protocolos UIC
+- Definir procedimientos de implementación de protocolos FRA/AREMA
 - Establecer protocolos de coordinación con FENOCO
 
 ### **3. Consolidar Coordinación Operacional:**

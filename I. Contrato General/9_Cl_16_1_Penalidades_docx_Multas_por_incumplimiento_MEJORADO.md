@@ -238,7 +238,7 @@ Proxima actualizacion: 27/02/2025
    - **Mantenimiento PTC:** Penalidades por fallas en mantenimiento de equipos PTC
 
 2. **🔗 INTEROPERABILIDAD FENOCO EN PENALIDADES:**
-   - **Penalidades por interoperabilidad:** Multas por incumplimiento de protocolos UIC
+   - **Penalidades por interoperabilidad:** Multas por incumplimiento de protocolos FRA/AREMA
    - **Retrasos en FENOCO:** Penalidades por demoras en coordinación con FENOCO
    - **Compatibilidad FENOCO:** Multas por problemas de interoperabilidad con FENOCO
    - **Coordinación FENOCO:** Penalidades por fallas en coordinación operativa
@@ -284,7 +284,7 @@ Proxima actualizacion: 27/02/2025
 | Sistema | Cláusula | AT | Especificación | Estado |
 |:---|:---|:---|:---|:---:|
 | **PTC Penalidades** | 16.1 | AT3 | PTC VIRTUAL Level 2 | ✅ Implementado |
-| **FENOCO Penalidades** | 16.1 | AT1 | Protocolos UIC | ✅ Implementado |
+| **FENOCO Penalidades** | 16.1 | AT1 | Protocolos FRA/AREMA | ✅ Implementado |
 | **AT4 Penalidades** | 16.1 | AT4 | Disponibilidad 99.95% | ✅ Implementado |
 | **Ciberseguridad Penalidades** | 16.1 | AT3 | NIST/IEC 62443 | ✅ Implementado |
 | **Redundancia Penalidades** | 16.1 | AT4 | Arquitectura N+1 | ✅ Implementado |

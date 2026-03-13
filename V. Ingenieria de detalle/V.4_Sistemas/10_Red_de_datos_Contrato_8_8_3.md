@@ -122,7 +122,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 - **RETIE:** Reglamento Técnico de Instalaciones Eléctricas
 - **NSR-10:** Norma Sismorresistente
 - **AREMA:** American Railway Engineering and Maintenance-of-Way Association
-- **UIC:** Union Internationale des Chemins de fer
+- **FRA/AREMA:** Union Internationale des Chemins de fer
 - **IEEE 802.3:** Estándares de Ethernet
 
 ### 1.3 Indicadores de Cumplimiento
@@ -142,7 +142,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 ### **MEJORAS IMPLEMENTADAS:**
 1. **Interfaces Críticas PTC:** Red de datos para sistemas de control embarcado PTC VIRTUAL Level 2 hasta AT3
-2. **Interfaces Críticas FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos UIC
+2. **Interfaces Críticas FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos FRA/AREMA
 3. **Integración con Sistemas Ferroviarios PTC:** Red de datos para sistemas de control embarcado
 4. **Integración con Sistemas Ferroviarios FENOCO:** Interoperabilidad con sistemas FENOCO
 5. **Disponibilidad AT4:** Cumplimiento de disponibilidad 99.9% según indicadores contractuales

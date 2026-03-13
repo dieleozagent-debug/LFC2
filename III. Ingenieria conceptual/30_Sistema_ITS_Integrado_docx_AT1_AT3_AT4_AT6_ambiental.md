@@ -53,7 +53,7 @@ El diseño detallado de los componentes ITS no puede avanzar hasta que este conc
 - **ITS ↔ Gestión Ambiental (AT6):** Proporciona la plataforma para el monitoreo de indicadores de ruido, vibraciones y calidad del aire.
 - **ITS ↔ SICC (AT4):** Alimenta al SICC con los datos necesarios para calcular los indicadores de desempeño contractuales.
 - **ITS ↔ PTC:** Integración con datos de sistemas de control embarcados usando PTC VIRTUAL Level 2 hasta AT3.
-- **ITS ↔ FENOCO:** Intercambio de datos operacionales con sistemas FENOCO según protocolos UIC.
+- **ITS ↔ FENOCO:** Intercambio de datos operacionales con sistemas FENOCO según protocolos FRA/AREMA.
 
 ---
 
@@ -85,7 +85,7 @@ La siguiente matriz integra los requisitos de los diferentes apéndices en funci
 | **Seguridad Vial** | AT3, Cap. 6.6 | Sistemas de alerta temprana en pasos a nivel, detección de intrusiones y coordinación con semáforos. | ✅ Definido |
 | **Integración con SICC** | AT4, Cap. 5.3 | Desarrollo de una API para enviar datos de operación y seguridad al SICC para el cálculo de indicadores. | 🔴 Bloqueado |
 | **Monitoreo Ambiental** | AT6, Cap. 5.9, 7.1 | Instalación de sensores de calidad del aire, ruido y vibraciones, y creación de un dashboard ambiental en el CCO. | ✅ Definido |
-| **Información al Usuario** | AT3, Cap. 6.2 | Desarrollo de paneles de mensaje variable (PMV), aplicación móvil y portal web con información en tiempo real.<br>- **Integración PTC PTC VIRTUAL Level 2 hasta AT3**<br>- **Interoperabilidad FENOCO UIC** | ✅ Definido |
+| **Información al Usuario** | AT3, Cap. 6.2 | Desarrollo de paneles de mensaje variable (PMV), aplicación móvil y portal web con información en tiempo real.<br>- **Integración PTC PTC VIRTUAL Level 2 hasta AT3**<br>- **Interoperabilidad FENOCO FRA/AREMA** | ✅ Definido |
 
 ### 4.2 Indicadores de Riesgo por Bloqueo AT3/AT4
 - **🟢 Verde (Proceder):** Diseño de la plataforma central, arquitectura de red, integración con CTC y sistemas de monitoreo ambiental.
@@ -123,13 +123,13 @@ La aprobación de este documento conceptual permite:
 ### ✅ **MEJORAS IMPLEMENTADAS:**
 
 1. **🚂 PTC PTC VIRTUAL Level 2:** Integración especificada para datos de sistemas de control embarcados
-2. **🔗 Interoperabilidad FENOCO:** Protocolos UIC especificados para intercambio de datos
+2. **🔗 Interoperabilidad FENOCO:** Protocolos FRA/AREMA especificados para intercambio de datos
 3. **📊 Criterios de Disponibilidad AT4:** Disponibilidad especificada para plataforma ITS
 4. **🎯 Matriz de Requisitos:** Actualizada con criterios PTC, FENOCO y AT4
 
 ### 🎯 **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
 - ✅ **PTC:** Integración PTC VIRTUAL Level 2 especificada para datos de trenes
-- ✅ **FENOCO:** Protocolos UIC para intercambio de datos operacionales
+- ✅ **FENOCO:** Protocolos FRA/AREMA para intercambio de datos operacionales
 - ✅ **AT4:** Criterios de disponibilidad para plataforma ITS
 - ✅ **Interfaces:** Especificación de interfaces PTC y FENOCO
 
@@ -138,7 +138,7 @@ La aprobación de este documento conceptual permite:
 | **ID** | **Riesgo** | **Categoría** | **Probabilidad** | **Impacto** | **Descripción** |
 |:---:|:---|:---:|:---:|:---|:---|
 | **R-050** | **Dependencia AT3 para sensores** | **Técnico** | **Alta** | **Alto** | Especificaciones de sensores ITS pendientes de AT3 |
-| **R-051** | **Interoperabilidad FENOCO** | **Técnico** | **Media** | **Alto** | Intercambio de datos con FENOCO requiere protocolos UIC |
+| **R-051** | **Interoperabilidad FENOCO** | **Técnico** | **Media** | **Alto** | Intercambio de datos con FENOCO requiere protocolos FRA/AREMA |
 | **R-052** | **Disponibilidad según AT4** | **Contractual** | **Media** | **Alto** | Cumplimiento AT4 requiere redundancia crítica |
 | **R-053** | **Integración múltiples módulos** | **Técnico** | **Media** | **Medio** | Complejidad de integración de 4 módulos ITS |
 | **R-054** | **Integración PTC-ITS** | **Técnico** | **Media** | **Alto** | Complejidad de integración con datos de control |
@@ -146,6 +146,6 @@ La aprobación de este documento conceptual permite:
 ### 📋 **RECOMENDACIONES PARA GESTIÓN DE RIESGOS:**
 - **Análisis PMI requerido** para definir estrategias de mitigación
 - **Plan de contingencia** para dependencias AT3
-- **Protocolos de interoperabilidad** con FENOCO según UIC
+- **Protocolos de interoperabilidad** con FENOCO según FRA/AREMA
 - **Matriz de disponibilidad** para cumplimiento AT4
 - **Gestión de módulos** crítica para arquitectura ITS

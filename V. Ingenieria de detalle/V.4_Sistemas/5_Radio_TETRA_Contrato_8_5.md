@@ -55,7 +55,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 - **Gestión de Permisos:** Trámites con ANE para asignación de frecuencias
 - **Estudio de Propagación:** Definición de ubicaciones óptimas de torres
 - **🚂 PTC PTC VIRTUAL Level 2:** Interfaces para control embarcado hasta AT3
-- **🔗 Interoperabilidad FENOCO:** Compatibilidad con sistemas FENOCO según protocolos UIC
+- **🔗 Interoperabilidad FENOCO:** Compatibilidad con sistemas FENOCO según protocolos FRA/AREMA
 - **📊 Disponibilidad AT4:** Cumplimiento de disponibilidad 99.5% según indicadores contractuales
 
 ---
@@ -132,7 +132,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 ### 1.2 ⚠️ INCONSISTENCIAS IDENTIFICADAS EN EL DOCUMENTO ORIGINAL
 1. **Descripción genérica:** El documento usa descripción genérica de "Ingeniería de Detalle" en lugar de especificar radio TETRA
 2. **Falta de especificaciones técnicas:** No detalla frecuencias, potencias, protocolos TETRA específicos
-3. **Sin referencia a normativas ferroviarias:** No menciona estándares UIC, AREMA específicos para radio ferroviaria
+3. **Sin referencia a normativas ferroviarias:** No menciona estándares FRA/AREMA, AREMA específicos para radio ferroviaria
 4. **Objetivos vagos:** Los objetivos son genéricos, no específicos para radio TETRA
 5. **Cronograma genérico:** No considera tiempos específicos para instalación de estaciones base, pruebas de cobertura
 6. **Sin integración con otros sistemas:** No menciona interfaces con CTC, señalización, PTC
@@ -157,7 +157,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 - **RETIE:** Reglamento Técnico de Instalaciones Eléctricas
 - **NSR-10:** Norma Sismorresistente
 - **AREMA:** American Railway Engineering and Maintenance-of-Way Association
-- **UIC:** Union Internationale des Chemins de fer
+- **FRA/AREMA:** Union Internationale des Chemins de fer
 
 ### 1.3 Indicadores de Cumplimiento
 - **Disponibilidad del sistema:** 99.9%
@@ -200,7 +200,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 - **Radio TETRA ↔ Fibra Óptica:** Integración de red de comunicaciones
 - **Radio TETRA ↔ ITS:** Integración del sistema de información de tránsito
 - **🚂 Radio TETRA ↔ PTC:** Interfaces para control embarcado PTC VIRTUAL Level 2 hasta AT3
-- **🔗 Radio TETRA ↔ FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos UIC
+- **🔗 Radio TETRA ↔ FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos FRA/AREMA
 
 ## 3. OPTIMIZACIONES EPC ESPECÍFICAS PARA RADIO TETRA
 
@@ -324,9 +324,9 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 ### **MEJORAS IMPLEMENTADAS:**
 1. **Interfaces Críticas PTC:** Interfaces para control embarcado PTC VIRTUAL Level 2 hasta AT3
-2. **Interfaces Críticas FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos UIC
+2. **Interfaces Críticas FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos FRA/AREMA
 3. **Gestión de Sitios y Permisos PTC:** Interfaces para control embarcado hasta AT3
-4. **Gestión de Sitios y Permisos FENOCO:** Compatibilidad con sistemas FENOCO según protocolos UIC
+4. **Gestión de Sitios y Permisos FENOCO:** Compatibilidad con sistemas FENOCO según protocolos FRA/AREMA
 5. **Disponibilidad AT4:** Cumplimiento de disponibilidad 99.5% según indicadores contractuales
 
 ### **VACÍOS IDENTIFICADOS Y CORREGIDOS:**

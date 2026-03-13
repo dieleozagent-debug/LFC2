@@ -47,7 +47,7 @@
 9. **23_ListadoMaestro_Sistemas_v5.0.md** - Listado maestro de sistemas
 10. **25_WBS_IngenieriaConceptual_docx.md** - WBS ingeniería conceptual
 11. **25.1_WBS_COMPLETA_ESPECIALIDADES_v5.0.md** - WBS especialidades completas
-12. **33_Criterios_Normatividad_docx_AREMA_UIC_RETIE_ISO_TC_204_NSR_10_NFPA.md** - Criterios normatividad
+12. **33_Criterios_Normatividad_docx_AREMA_FRA/AREMA_RETIE_ISO_TC_204_NSR_10_NFPA.md** - Criterios normatividad
 13. **34_Criterios_Interoperabilidad_docx_Compatibilidad_con_FENOCO_y_ANI.md** - Criterios interoperabilidad
 14. **36_Criterios_Ciberseguridad_docx_Protecci_n_de_sistemas_de_control.md** - Criterios ciberseguridad
 

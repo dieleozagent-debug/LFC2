@@ -41,11 +41,11 @@ Cliente ve/descarga documentos con fechas
 |:--------|:--------|:-------|:-----------|
 | **IV.** Ing. Básica | `41. Interfaces_Sistemas_MEJORADO.md` | IF-07 + §3.3 agregada | ✅ |
 | **V.** Ing. Detalle | `V.2_CTC_v5.0.md` | §12.4 Bloque Integración | ✅ |
-| **VII.** Soporte | `VII.2.4_Interfaces_CTC_PTC.md` | §2.2 Gateway UIC 918-4 | ✅ |
+| **VII.** Soporte | `VII.2.4_Interfaces_CTC_PTC.md` | §2.2 Gateway FRA/AREMA 918-4 | ✅ |
 
 **Contenido documentado:**
 - ✅ Ítem 1.1.106 como **bloque lógico** (NO hardware único)
-- ✅ Composición: Gateways + Switches + Firewalls IEC 62443 + Middleware UIC 918-4
+- ✅ Composición: Gateways + Switches + Firewalls IEC 62443 + Middleware FRA/AREMA 918-4
 - ✅ 5 interfaces: CTC↔PTC, CTC↔FENOCO, CTC↔TETRA, CTC↔Fibra, CTC↔ITS
 - ✅ Presupuesto $150M justificado
 - ✅ Riesgos mitigados: R-INT-001, R-INT-002
@@ -188,7 +188,7 @@ X/8_DOCUMENTOS_SERVIDOS/HTML/GESTION_EJECUTIVO_Cambios_y_Decisiones_Tecnicas.htm
 2. Sección **3.3 Interfaz IF-07**
    - ✅ Título: "CTC ↔ Bloque Lógico de Integración Multi-sistema ⭐ NUEVO (DT-INTERFACES-001)"
    - ✅ Texto: "NO es hardware físico único"
-   - ✅ Composición: Gateways, Switches, Firewalls IEC 62443, Middleware UIC 918-4
+   - ✅ Composición: Gateways, Switches, Firewalls IEC 62443, Middleware FRA/AREMA 918-4
    - ✅ Presupuesto: $150.000.000 COP
 
 ### **CTC_v5_Actualizado.docx**
@@ -211,10 +211,10 @@ X/8_DOCUMENTOS_SERVIDOS/HTML/GESTION_EJECUTIVO_Cambios_y_Decisiones_Tecnicas.htm
    - ✅ Entrada: "2.2 GATEWAY INTEROPERABILIDAD CTC-FENOCO"
 
 2. Sección **2.2**
-   - ✅ 2.2.1: Protocolo UIC 918-4
+   - ✅ 2.2.1: Protocolo FRA/AREMA 918-4
    - ✅ 2.2.2: Funciones del Gateway (conversión, intercambio, gestión)
    - ✅ 2.2.3: Diagrama de arquitectura ASCII
-   - ✅ 2.2.4: Tabla con 6 tipos de mensajes UIC
+   - ✅ 2.2.4: Tabla con 6 tipos de mensajes FRA/AREMA
    - ✅ 2.2.5: Requisitos de rendimiento
 
 ---
@@ -318,9 +318,9 @@ X_ENTREGABLES_CONSOLIDADOS\8_DOCUMENTOS_SERVIDOS\HTML\
    - Fecha: 9 Oct 2025 11:29 AM ✅
    - Botones: Word | HTML | Imprimir
 
-3. **Protocolo FFFIS + Gateway UIC**
+3. **Protocolo FFFIS + Gateway FRA/AREMA**
    - DT: DT-INTERFACES-001
-   - Cambio: §2.2 Gateway FENOCO UIC 918-4
+   - Cambio: §2.2 Gateway FENOCO FRA/AREMA 918-4
    - Fecha: 9 Oct 2025 11:29 AM ✅
    - Botones: Word | HTML | Imprimir
 
@@ -404,7 +404,7 @@ X_ENTREGABLES_CONSOLIDADOS\8_DOCUMENTOS_SERVIDOS\HTML\
 ### **4. Contenido DT-INTERFACES-001:**
 - ✅ IF-07 en IV.2 (tabla + §3.3)
 - ✅ §12.4 en V.2 (bloque integración completo)
-- ✅ §2.2 en VII.2.4 (Gateway UIC 918-4)
+- ✅ §2.2 en VII.2.4 (Gateway FRA/AREMA 918-4)
 - ✅ Visible en los 3 .docx generados
 
 ---

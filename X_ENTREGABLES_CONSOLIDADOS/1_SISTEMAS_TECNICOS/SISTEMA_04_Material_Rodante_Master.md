@@ -89,7 +89,7 @@
 - **Talleres:** Operación 24/7 con equipos redundantes
 
 #### **Interoperabilidad FENOCO:**
-- **Protocolos UIC:** Compatibilidad con estándares internacionales
+- **Protocolos FRA/AREMA:** Compatibilidad con estándares internacionales
 - **Sistemas Duales:** Operación en ambos corredores (La Dorada-Chiriguaná y Chiriguaná-Santa Marta)
 - **Equipos Embarcados:** Configuración dual para interoperabilidad
 
@@ -150,7 +150,7 @@
 |:-----------|:---------------|:--------:|:--------------|
 | **Computadora Principal** | Siemens S7-400, SIL 4 | 2 por locomotora | Redundancia 2oo3 |
 | **Módulo RED TETRA (Misión Crítica)** | Siemens RED TETRA (Misión Crítica) | 2 por locomotora | Comunicación RBC |
-| **Antena Virtual Balise (GNSS)** | UIC estándar | 4 por locomotora | Lectura punto de referencia virtuals |
+| **Antena Virtual Balise (GNSS)** | FRA/AREMA estándar | 4 por locomotora | Lectura punto de referencia virtuals |
 | **Pantalla Conductor** | TFT 12" | 2 por locomotora | DMI SIL 3 |
 | **UPS Embarcado** | 24V DC | 2 por locomotora | Respaldo energía |
 
@@ -197,8 +197,8 @@
 ### **5.1 Especificaciones de Hardware**
 
 #### **Locomotoras - Componentes Principales:**
-- **Motor de Tracción:** 500 kW, 25 kV AC, 6 por locomotora
-- **Convertidor:** IGBT, 25 kV AC, 3 por locomotora
+- **Motor de Tracción:** 500 kW, Diesel-Eléctrica, 6 por locomotora
+- **Convertidor:** IGBT, Diesel-Eléctrica, 3 por locomotora
 - **Transformador:** 25 kV/1.5 kV, 3 MVA, 1 por locomotora
 - **Pantógrafo:** 25 kV, 1,000 A, 2 por locomotora
 - **Sistema de Frenado:** Neumático + eléctrico + emergencia
@@ -228,10 +228,10 @@
 #### **Módulos de Software Embarcado:**
 | Módulo | Función | SIL | Estándar |
 |:-------|:---------|:---:|:---------|
-| **STM** | Supervisión de tren | SIL 4 | UIC 438 |
+| **STM** | Supervisión de tren | SIL 4 | FRA/AREMA 438 |
 | **DMI** | Interfaz conductor | SIL 3 | EN 50128 |
-| **RBC Interface** | Comunicación RBC | SIL 4 | UIC 920-2 |
-| **Virtual Balise (GNSS)** | Lectura punto de referencia virtuals | SIL 4 | UIC 438 |
+| **RBC Interface** | Comunicación RBC | SIL 4 | FRA/AREMA 920-2 |
+| **Virtual Balise (GNSS)** | Lectura punto de referencia virtuals | SIL 4 | FRA/AREMA 438 |
 
 ---
 
@@ -293,7 +293,7 @@
 - **Supervisión:** Monitoreo continuo del estado del tren
 - **Emergencias:** Procedimientos de emergencia y parada automática
 - **Diagnóstico:** Transmisión de datos de Event Recorder
-- **Protocolo:** PTC VIRTUAL Level 2 estándar UIC
+- **Protocolo:** PTC VIRTUAL Level 2 estándar FRA/AREMA
 
 #### **Sistemas Embarcados ↔ CCO:**
 - **Comunicaciones:** Radio TETRA + RED TETRA (Misión Crítica) para comunicación voz/datos
@@ -309,7 +309,7 @@
 - **Emergencias:** Canales de emergencia y coordinación
 - **Datos:** Transmisión de telemetría y diagnósticos
 - **Interoperabilidad:** Comunicación con sistemas FENOCO
-- **Protocolo:** TETRA estándar + RED TETRA (Misión Crítica) UIC
+- **Protocolo:** TETRA estándar + RED TETRA (Misión Crítica) FRA/AREMA
 
 #### **Fibra Óptica:**
 - **Datos de Tren:** Transmisión de información de sistemas embarcados
@@ -343,7 +343,7 @@
 | **Puesta a Punto Material Rodante** | AT1 Cap. V | 2 GR12 + 2 U10 + 40 plataformas + 11 no operativas + 8 carromotores | ✅ Cumplido | V.3.1_Material_Rodante_Detallado |
 | **PTC Embarcado** | AT3 Cap. VIII.8.10 | Sistemas embarcados PTC, TETRA, GPS | ✅ Cumplido | Especificaciones técnicas |
 | **Disponibilidad 99.95%** | AT4 Tablas 1-4 | Disponibilidad material rodante | ✅ Cumplido | Procedimientos mantenimiento |
-| **Interoperabilidad FENOCO** | Cl13.2 | Compatibilidad operativa | ✅ Cumplido | Protocolos UIC |
+| **Interoperabilidad FENOCO** | Cl13.2 | Compatibilidad operativa | ✅ Cumplido | Protocolos FRA/AREMA |
 | **Ciclos Mantenimiento** | AT2 Cap. III | RL, R1, R2, R3 | ✅ Cumplido | Manuales OM |
 | **Estándares AAR** | AT1 Cap. V | Cumplimiento estándares | ✅ Cumplido | Certificaciones |
 
@@ -353,7 +353,7 @@
 |:---------------|:----------------|:--------------|:----------|:-------|
 | **PTC Embarcado** | **CTC** | Control/Comunicación | PTC VIRTUAL Level 2 | ✅ Implementado |
 | **Material Rodante** | **TETRA** | Comunicación | TETRA estándar | ✅ Implementado |
-| **Material Rodante** | **RED TETRA (Misión Crítica)** | Comunicación | RED TETRA (Misión Crítica) UIC | ✅ Implementado |
+| **Material Rodante** | **RED TETRA (Misión Crítica)** | Comunicación | RED TETRA (Misión Crítica) FRA/AREMA | ✅ Implementado |
 | **Sistemas Embarcados** | **CCO** | Monitoreo/Control | IP + Protocolos ferroviarios | ✅ Implementado |
 | **EOT** | **PTC** | Monitoreo | Radio comunicación | ✅ Implementado |
 | **Material Rodante** | **SICC** | Reportes | REST API | ✅ Implementado |
@@ -386,7 +386,7 @@
 - `32_Material_Rodante_Integrado_v5.0.md` - Sistema material rodante integrado
 - `23_ListadoMaestro_Sistemas_v5.0.md` - Listado maestro de sistemas
 - `25.1_WBS_COMPLETA_ESPECIALIDADES_v5.0.md` - WBS especialidades completas
-- `33_Criterios_Normatividad_docx_AREMA_UIC_RETIE_ISO_TC_204_NSR_10_NFPA.md` - Criterios normatividad
+- `33_Criterios_Normatividad_docx_AREMA_FRA/AREMA_RETIE_ISO_TC_204_NSR_10_NFPA.md` - Criterios normatividad
 - `34_Criterios_Interoperabilidad_docx_Compatibilidad_con_FENOCO_y_ANI.md` - Criterios interoperabilidad
 - `36_Criterios_Ciberseguridad_docx_Protecci_n_de_sistemas_de_control.md` - Criterios ciberseguridad
 

@@ -12,7 +12,7 @@
 
 ### **Indefinición Técnica:**
 
-**Base de datos dice:** "Protocolos UIC para FENOCO"  
+**Base de datos dice:** "Protocolos FRA/AREMA para FENOCO"  
 **Realidad:** ❌ **FENOCO usa protocolos PROPIETARIOS (Siemens Trainguard)**
 
 ### **Impacto:**
@@ -85,7 +85,7 @@ FECHA LÍMITE: 15 de Diciembre 2025 (Mes 6)
 PLAZO RESPUESTA FENOCO: 30 días desde solicitud ANI
 
 PLAN B (si no hay respuesta):
-Diseñar gateway UIC 918-4 estándar europeo SIN integración directa
+Diseñar gateway FRA/AREMA 918-4 estándar europeo SIN integración directa
 con sistemas FENOCO. Interoperabilidad será responsabilidad de 
 FENOCO/Concesionario en fase posterior (post-entrega).
 ```
@@ -150,7 +150,7 @@ FENOCO/Concesionario en fase posterior (post-entrega).
 - **Plazo:** Cumplible
 
 **Escenario B: FENOCO NO Colabora** ❌
-- Gateway UIC 918-4 genérico (estándar europeo)
+- Gateway FRA/AREMA 918-4 genérico (estándar europeo)
 - Sin integración directa Trainguard
 - Interoperabilidad "futura" (responsabilidad FENOCO/Concesionario)
 - **Costo:** $8M USD (menor)
@@ -161,11 +161,11 @@ FENOCO/Concesionario en fase posterior (post-entrega).
 
 ---
 
-## 🛡️ **PLAN B DETALLADO: Gateway UIC 918-4 Genérico**
+## 🛡️ **PLAN B DETALLADO: Gateway FRA/AREMA 918-4 Genérico**
 
 ### **Especificación Técnica:**
 
-**Protocolo:** UIC 918-4 (estándar europeo ferroviario)
+**Protocolo:** FRA/AREMA 918-4 (estándar europeo ferroviario)
 
 **Funcionalidades:**
 - ✅ Mensajes de posición tren (cada 10 seg)
@@ -197,7 +197,7 @@ FENOCO/Concesionario en fase posterior (post-entrega).
 
 ```
 "El EPC diseñará e implementará un gateway de interoperabilidad 
-según protocolo UIC 918-4 estándar europeo, debidamente documentado.
+según protocolo FRA/AREMA 918-4 estándar europeo, debidamente documentado.
 
 La integración efectiva con sistemas FENOCO (Siemens Trainguard) 
 está sujeta a:
@@ -206,7 +206,7 @@ está sujeta a:
   c) Coordinación de pruebas conjuntas
 
 Si FENOCO NO entrega especificaciones en Mes 6, el EPC entregará 
-gateway genérico UIC 918-4 con documentación completa.
+gateway genérico FRA/AREMA 918-4 con documentación completa.
 
 La responsabilidad de integración posterior con sistemas FENOCO 
 será del Concesionario/FENOCO, sin responsabilidad del EPC por 
@@ -241,5 +241,5 @@ incompatibilidades derivadas de protocolos no compartidos."
 
 **Estado:** ❌ BLOCKER ACTIVO  
 **Fecha resolución objetivo:** Mes 6  
-**Plan B disponible:** ✅ SÍ (Gateway genérico UIC 918-4)
+**Plan B disponible:** ✅ SÍ (Gateway genérico FRA/AREMA 918-4)
 

@@ -81,7 +81,7 @@ La siguiente matriz integra los requisitos de los diferentes apéndices en funci
 | **Comunicaciones Ferroviarias 24/7** | AT2, Cap. 3.2.2 | Implementación de grupos de llamada para operación, mantenimiento y emergencias. | ✅ Definido |
 | **Especificaciones de Radio (ETSI)** | AT3, Cap. 8.5 | Selección de equipos (estaciones base, terminales) que cumplan con los estándares ETSI EN 300 392. | ⚠️ Condicionado |
 | **Adquisición de Predios para Torres** | AT7, Cap. 3.1 | Plan de adquisición de los ~33 predios necesarios, coordinado con el estudio de cobertura. | ✅ Definido |
-| **Interoperabilidad con FENOCO** | AT1, AT2 | Diseño de un plan de roaming o interconexión de redes para garantizar la comunicación en la frontera de Chiriguaná.<br>- **Protocolos UIC para interoperabilidad** | ✅ Definido |
+| **Interoperabilidad con FENOCO** | AT1, AT2 | Diseño de un plan de roaming o interconexión de redes para garantizar la comunicación en la frontera de Chiriguaná.<br>- **Protocolos FRA/AREMA para interoperabilidad** | ✅ Definido |
 | **Equipos Embarcados en Locomotoras** | Cl. 13.1 | Especificación de radios móviles TETRA con GPS integrado para cada locomotora.<br>- **Interfaz PTC PTC VIRTUAL Level 2 hasta AT3** | ✅ Definido |
 | **Disponibilidad del Servicio (COM1)** | AT4 | Diseño de una red con redundancia N+1 para cumplir con los indicadores de disponibilidad.<br>- **Disponibilidad 99.5% según AT4** | 🔴 Bloqueado |
 
@@ -121,13 +121,13 @@ La aprobación de este documento conceptual permite:
 ### ✅ **MEJORAS IMPLEMENTADAS:**
 
 1. **🚂 PTC PTC VIRTUAL Level 2:** Interfaz especificada para comunicación con sistemas de control embarcados
-2. **🔗 Interoperabilidad FENOCO:** Protocolos UIC especificados para interoperabilidad
+2. **🔗 Interoperabilidad FENOCO:** Protocolos FRA/AREMA especificados para interoperabilidad
 3. **📊 Criterios de Disponibilidad AT4:** 99.5% especificado para sistema TETRA
 4. **🎯 Matriz de Requisitos:** Actualizada con criterios PTC, FENOCO y AT4
 
 ### 🎯 **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
 - ✅ **PTC:** Interfaz PTC VIRTUAL Level 2 especificada para equipos embarcados
-- ✅ **FENOCO:** Protocolos UIC para interoperabilidad en frontera Chiriguaná
+- ✅ **FENOCO:** Protocolos FRA/AREMA para interoperabilidad en frontera Chiriguaná
 - ✅ **AT4:** Criterios de disponibilidad 99.5% para sistema TETRA
 - ✅ **Interfaces:** Especificación de interfaz TETRA-PTC
 
@@ -136,7 +136,7 @@ La aprobación de este documento conceptual permite:
 | **ID** | **Riesgo** | **Categoría** | **Probabilidad** | **Impacto** | **Descripción** |
 |:---:|:---|:---:|:---:|:---|:---|
 | **R-035** | **Dependencia AT3 para equipos** | **Técnico** | **Alta** | **Alto** | Especificaciones de radio pendientes de AT3 |
-| **R-036** | **Interoperabilidad FENOCO** | **Técnico** | **Media** | **Alto** | Coordinación TETRA-FENOCO requiere protocolos UIC |
+| **R-036** | **Interoperabilidad FENOCO** | **Técnico** | **Media** | **Alto** | Coordinación TETRA-FENOCO requiere protocolos FRA/AREMA |
 | **R-037** | **Disponibilidad 99.5%** | **Contractual** | **Media** | **Alto** | Cumplimiento AT4 requiere redundancia crítica |
 | **R-038** | **Gestión de 33 sitios** | **Gestión** | **Media** | **Medio** | Complejidad de adquisición de predios y permisos |
 | **R-039** | **Integración TETRA-PTC** | **Técnico** | **Media** | **Alto** | Complejidad de interfaz con sistemas de control |
@@ -144,6 +144,6 @@ La aprobación de este documento conceptual permite:
 ### 📋 **RECOMENDACIONES PARA GESTIÓN DE RIESGOS:**
 - **Análisis PMI requerido** para definir estrategias de mitigación
 - **Plan de contingencia** para dependencias AT3
-- **Protocolos de interoperabilidad** con FENOCO según UIC
+- **Protocolos de interoperabilidad** con FENOCO según FRA/AREMA
 - **Matriz de disponibilidad** para cumplimiento AT4
 - **Gestión de sitios** crítica para 33 torres TETRA

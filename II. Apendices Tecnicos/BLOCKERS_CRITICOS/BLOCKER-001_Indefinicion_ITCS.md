@@ -158,7 +158,7 @@ FECHA LÍMITE: 15 de Diciembre 2025 (Mes 6)
 CONSECUENCIA NO RESPUESTA: Retraso mínimo 3 meses + sobrecosto
 
 PLAN B (si no hay respuesta Mes 6):
-EPC asumirá Opción 2 (PTC VIRTUAL Level 2) con gateway UIC 918-4 genérico
+EPC asumirá Opción 2 (PTC VIRTUAL Level 2) con gateway FRA/AREMA 918-4 genérico
 interoperable, documentando supuesto formal. Cliente asume riesgo
 de incompatibilidad futura con sistemas FENOCO.
 

@@ -48,9 +48,9 @@ El CTC prueba distintos escenarios (ej. 10 trenes/hora, 12 trenes/hora).
 Resultado: indica cuántos trenes pueden circular sin riesgo ni retrasos excesivos.
 👉 Ejemplo:En el tramo La Dorada – Honda (50 km), se simula con 6 apartaderos y trenes de 1 km de largo.El CTC puede mostrar que la capacidad máxima segura es 4 trenes/hora en cada sentido.Eso significa que el sistema solo puede asignar 8 surcos por hora en total.
 
-🔹 Metodología 2: Método UIC-405
+🔹 Metodología 2: Método FRA/AREMA-405
 (Contrato, Ap. Téc. 10, Cap. II, Num. 2.3(c)(ii))
-Es un estándar internacional de la Unión Internacional de Ferrocarriles (UIC).
+Es un estándar internacional de la Unión Internacional de Ferrocarriles (FRA/AREMA).
 Se usa como “doble chequeo” de lo que da la simulación CTC.
 Consiste en fórmulas matemáticas que calculan la capacidad teórica de la vía:
 📐 Fórmula simplificada:
@@ -67,7 +67,7 @@ Eso se compara con la simulación CTC: si ambos coinciden (4-5 trenes/hora), el 
 
 📌 3. ¿Cómo funciona en la práctica?
 El concesionario simula en CTC → genera tabla de capacidad (ej: 96 trenes/día en todo el corredor).
-Aplica UIC-405 → valida que el número no sea irreal.
+Aplica FRA/AREMA-405 → valida que el número no sea irreal.
 Se socializa con ANI y operadores → se define cuántos “surcos” están disponibles para:
 Trenes propios del concesionario.
 Terceros operadores.
@@ -75,7 +75,7 @@ Se publica en la “Resolución de Surcos” → documento ANI que formaliza la 
 
 📌 4. Ejemplo concreto
 Imagina la vía entre La Dorada y Chiriguaná:
-Capacidad total (simulación + UIC-405): 40 trenes/día por sentido.
+Capacidad total (simulación + FRA/AREMA-405): 40 trenes/día por sentido.
 Se decide que:
 25 surcos/día van al concesionario (trenes propios).
 15 surcos/día se reservan para terceros (ej. empresas carboneras o cementeras).
@@ -83,7 +83,7 @@ Si una cementera pide mover 3 trenes, se le asignan 3 surcos en horarios definid
 
 👉 En pocas palabras:
 El CTC simula como si fuera un videojuego de tráfico ferroviario.
-El UIC-405 calcula como si fuera un examen de matemáticas para validar.
+El FRA/AREMA-405 calcula como si fuera un examen de matemáticas para validar.
 El resultado = número de surcos que se pueden vender/asignar cada día
 
 
@@ -262,7 +262,7 @@ Rangos típicos que usamos en diseño:
 Vía abierta (bloques de línea): ~300 m a 1.500 m.
 Áreas de estación, apartaderos, aproximaciones a P.N. y agujas: mucho más cortos (50–200 m e incluso menos) para controlar rutas finas.
 Si es menos de 200 m, sí se supervisa. En estaciones y zonas de maniobra es normal tener múltiples circuitos cortos concatenados para cubrir cada aguja y cada tramo entre juntas aisladas.
-El contrato exige instalar sistemas de señalización y detección de ocupación compatibles con CTC y basados en normas internacionales (UIC/AREMA), dejando al diseño la selección y dimensionamiento (circuitos de vía y/o contadores de ejes), con integración al CTC del proyecto.
+El contrato exige instalar sistemas de señalización y detección de ocupación compatibles con CTC y basados en normas internacionales (FRA/AREMA/AREMA), dejando al diseño la selección y dimensionamiento (circuitos de vía y/o contadores de ejes), con integración al CTC del proyecto.
 
 2) ¿Cada tramo lleva un PLC?
 No. Cada circuito de vía termina en un módulo emisor/receptor (o “relé de vía” en diseño clásico) ubicado en bungalows/cabinas.
@@ -328,7 +328,7 @@ Ventaja: funcionan en climas hostiles, no dependen de la conductividad del riel.
 Desventaja: requieren reinicio manual en caso de fallo.
 ¿Qué pide el contrato?
 En el Apéndice Técnico 3 (Cap. VI, Num. 6.11 – Sistemas de Detección, Alarma y Extinción de Incendios; 6.12 CCTV; 6.14 Tuberías especiales) y en el Apéndice Técnico 10 (Cap. III – Surcos de Movilización) se establece que:
-El concesionario debe implementar sistemas de señalización, CTC y detección de ocupación de vía de acuerdo con normas internacionales UIC y AREMA.
+El concesionario debe implementar sistemas de señalización, CTC y detección de ocupación de vía de acuerdo con normas internacionales FRA/AREMA y AREMA.
 No se menciona de manera exclusiva que el único método sea “circuito de vía”, sino que se deben instalar sistemas de detección certificados SIL4 (nivel de seguridad ferroviaria).
 Esto abre la puerta a que se usen circuitos de vía o contadores de ejes, dependiendo de:
 Condiciones de la vía (humedad, estabilidad eléctrica, corrosión).
@@ -409,11 +409,11 @@ Estos sistemas son SIL4, certificados, y suelen cerrarse para evitar mezclas ins
 👉 Eso significa que no puedes mezclar cualquier CBI/CTC libremente: Siemens no habla “nativamente” con Alstom.
 ¿Qué dice el contrato sobre estándares?
 El Apéndice Técnico 3 – Especificaciones Técnicas y el Apéndice Técnico 10 – Capacidad y Surcos exigen que:
-Los sistemas de señalización y CTC se implementen con protocolos compatibles con normas internacionales UIC y AREMA.
+Los sistemas de señalización y CTC se implementen con protocolos compatibles con normas internacionales FRA/AREMA y AREMA.
 El concesionario debe garantizar interoperabilidad con otros concesionarios férreos en Colombia (ej. FENOCO).
 Esto abre la puerta a usar interfaces estandarizadas:
 EULYNX (Europa) → define interfaces abiertas entre enclavamiento, RBC (PTC VIRTUAL), CTC y campo.
-PTC VIRTUAL/ERTMS (nivel 1 o 2) → permite interoperabilidad tren–tierra con equipos embarcados estandarizados.
+PTC VIRTUAL/PTC Virtual (nivel 1 o 2) → permite interoperabilidad tren–tierra con equipos embarcados estandarizados.
 AREMA (EE. UU.) → lineamientos para circuitos de vía, interlocking y CTC con principios abiertos.
 ¿Cómo se maneja la interoperabilidad?
 En infraestructura fija (CBI–CTC–detectores):
@@ -423,11 +423,11 @@ En trenes (material rodante):
 El contrato obliga a que cada locomotora tenga equipos embarcados de interoperabilidad: PTC (Interoperable Train Control System), radio TETRA y GPS.
 Esto significa que, aunque el CTC sea propietario, el tren “habla” con tierra usando protocolos normalizados (TETRA, PTC), garantizando que pueda circular en distintos corredores.
 A nivel nacional:
-La ANI y la UIC recomiendan que todos los nuevos proyectos férreos en Colombia converjan hacia estándares de PTC VIRTUAL/ERTMS para interoperabilidad a futuro.
+La ANI y la FRA/AREMA recomiendan que todos los nuevos proyectos férreos en Colombia converjan hacia estándares de PTC VIRTUAL/PTC Virtual para interoperabilidad a futuro.
 En este contrato, la exigencia es dejar la plataforma preparada para interoperar (ej. interfaces IP seguras, protocolos TETRA, estándares de señalización reconocidos).
 En resumen
 El CTC como software es propietario (cada proveedor tiene el suyo).
-El contrato obliga a que la infraestructura y el material rodante sean compatibles con estándares internacionales (UIC, AREMA, PTC, PTC VIRTUAL/ERTMS).
+El contrato obliga a que la infraestructura y el material rodante sean compatibles con estándares internacionales (FRA/AREMA, AREMA, PTC, PTC VIRTUAL/PTC Virtual).
 La interoperabilidad se logra en el nivel de comunicaciones tren–tierra y en las interfaces entre CTCs de distintos corredores.
 Para Colombia, esto es crítico: un tren de FENOCO debe poder usar surcos en La Dorada–Chiriguaná y viceversa → por eso se exige PTC + TETRA + GPS en locomotoras.
 Concepto clave: Interoperabilidad ferroviaria
@@ -456,10 +456,10 @@ Trenes que entran/salen.
 Surcos asignados/liberados.
 Alarmas o fallos que afectan la circulación.
 Se usan estándares reconocidos:
-UIC 406 / UIC 407 (gestión de capacidad y surcos).
+FRA/AREMA 406 / FRA/AREMA 407 (gestión de capacidad y surcos).
 EULYNX (Europa, interfaces abiertas CBI–CTC).
 AREMA CTC standards (EE. UU.).
-PTC VIRTUAL/ERTMS mensajes estándar (si se evoluciona a este sistema).
+PTC VIRTUAL/PTC Virtual mensajes estándar (si se evoluciona a este sistema).
 👉 Ejemplo:
 El CTC de La Dorada–Chiriguaná notifica al CTC de FENOCO:
 “Tren 450 entra en bloque X, surco asignado 12:30”.
@@ -483,7 +483,7 @@ Asegurar que haya un acuerdo operativo ANI–FENOCO para intercambio de slots.
 🔸 4. Gestión de Surcos
 Cumplir lo que exige el Apéndice Técnico 10:
 Simular capacidad en CTC.
-Validar con método UIC 405.
+Validar con método FRA/AREMA 405.
 Publicar disponibilidad de surcos.
 Esto permite que terceros operadores soliciten y usen surcos en nuestra vía.
 🔸 5. Pruebas de interoperabilidad
@@ -501,7 +501,7 @@ Apéndice Técnico 10: obligación de simular y gestionar surcos interoperables.
 ✅ La interoperabilidad NO se garantiza en el software CTC (es propietario).✅ Se garantiza en:
 Trenes equipados con PTC + TETRA + GPS.
 Interfaces IP seguras entre CTCs de distintos corredores.
-Gestión unificada de surcos según UIC/AREMA.
+Gestión unificada de surcos según FRA/AREMA/AREMA.
 👉 Esto significa que como EPC debemos:
 Instalar los sistemas en trenes.
 Diseñar la red FO/TETRA con protocolos abiertos.
@@ -577,7 +577,7 @@ Lo importante es que nuestra infraestructura tenga interfaces abiertas vía TETR
 Así, aunque el tren use PTC de Alstom, nosotros podemos recibir su identidad y posición, y mandarle autorizaciones.
 Capa CTC–CTC:
 Nuestro CTC (de cualquier proveedor) debe tener un gateway que hable con el CTC de FENOCO (Alstom).
-Esto puede hacerse vía API o protocolos estandarizados (EULYNX, UIC, AREMA).
+Esto puede hacerse vía API o protocolos estandarizados (EULYNX, FRA/AREMA, AREMA).
 Así, no importa si nuestro CTC es Siemens, Hitachi, etc., porque la conexión se hace en la capa de interoperabilidad, no en el software base.
 Requisito contractual:
 Lo que ANI exige no es “comprar Alstom”, sino garantizar interoperabilidad.
@@ -592,7 +592,7 @@ Infraestructura compatible con PTC vía TETRA/GPS.
 Un gateway de interoperabilidad CTC–CTC.
 ¿Puedes elegir un CTC “genérico” y ser interoperable con PTC de Alstom?
 CTC “100% genérico” (vendor-agnostic) hoy no es la práctica común. Los CTC comerciales son propietarios (Alstom ICONIS/TMS, Siemens Controlguide, Thales CTC1000, Hitachi Rail/Ansaldo TMS). La interoperabilidad se logra con pasarelas (gateways) e interfaces estándar entre sistemas (CTC-CTC y tren-tierra), no porque el CTC sea genérico. assets.new.siemens.com+2thalesgroup.com+2
-Vía estándar: adoptar interfaces abiertas (EULYNX para campo/IXL-CTC, PTC VIRTUAL/ERTMS para tren-tierra) y exigir al proveedor gateways probados para convivir con PTC (Alstom) y con otros PTC (p. ej., I-ETMS de Wabtec). EULYNX+1
+Vía estándar: adoptar interfaces abiertas (EULYNX para campo/IXL-CTC, PTC VIRTUAL/PTC Virtual para tren-tierra) y exigir al proveedor gateways probados para convivir con PTC (Alstom) y con otros PTC (p. ej., I-ETMS de Wabtec). EULYNX+1
 ¿Quién ya lo tiene “resuelto” (referencias reales)?
 Estados Unidos (PTC): allí coexisten tres PTC: PTC (Alstom), ACSES (Alstom/NEC) e I-ETMS (Wabtec). La interoperabilidad se logró con gateways y doble radio/wayside, integrando CTC de distinto proveedor:
 Amtrak (Michigan) opera PTC y es interoperable con Norfolk Southern (I-ETMS de Wabtec) usando dos radios y un dispositivo de interfaz tipo gateway en via/wayside que conecta ambos al sistema de control/CTC. Amtrak Media+1
@@ -610,13 +610,13 @@ Doble portadora o doble radio cuando aplique (caso PTC↔I-ETMS) y API segura pa
 Backbone IP/MPLS y SFP hasta cada nodo crítico (casetas/IXL), con redundancia de FO y respaldo TETRA para tren-tierra (lo que usa FENOCO). teltronic.es+1
 Alineamiento a estándares:
 EULYNX para interfaces CTC↔IXL (futuro-prueba multi-vendor).
-PTC VIRTUAL/ERTMS si se planifica evolución (interoperabilidad tren-tierra futura). EULYNX+1
+PTC VIRTUAL/PTC Virtual si se planifica evolución (interoperabilidad tren-tierra futura). EULYNX+1
 Plan de pruebas: laboratorio (HIL) + piloto en frontera operacional (Chiriguaná) con tren de FENOCO: registro de handover, mensajes, latencias y fallos.
 Proveedores a invitar (con razones)
 Wabtec (TMDS + I-ETMS): mayor base instalada PTC en carga; experiencia de interop con PTC/ACSES vía gateways; CTC (TMDS) integrable. Wabtec Corporation+1
 Siemens Mobility (Controlguide): CTC/TMS global, proyectos EULYNX y amplia experiencia multi-vendor en interfaces abiertas (CTC–IXL). assets.new.siemens.com+1
 Thales (CTC1000 / TMS): CTC modular con despliegues PTC VIRTUAL/EULYNX y casos de interoperabilidad transfronteriza (estándares abiertos). thalesgroup.com+1
-Hitachi Rail (ex-Ansaldo STS): TMS/ERTMS con contratos masivos de digitalización en Italia y otros países; trabaja en Argos/EULYNX. hitachi.com
+Hitachi Rail (ex-Ansaldo STS): TMS/PTC Virtual con contratos masivos de digitalización en Italia y otros países; trabaja en Argos/EULYNX. hitachi.com
 Alstom (ICONIS/TMS + PTC): opción “nativa” con menor fricción hacia FENOCO si deseas acoplarte directamente a su stack PTC. alstom.com+1
 Nota: no hay evidencia pública de un “CTC neutral” listo que reemplace gateways; la vía comprobada es CTC comercial + interfaces estándar + gateway validado en laboratorio y campo (modelo FRA/US). railroads.dot.gov
 Recomendación práctica para la APP La Dorada–Chiriguaná
@@ -667,7 +667,7 @@ En términos contractuales, el OBU debe incluir al menos:
 PTC embarcado (equipo de control para interoperabilidad).
 Radio TETRA tren–tierra (voz/datos operativos).
 GPS u otro medio de localización integrable al CTC/SICC.
-Interfaces con tierra/CTC acordes a las normas internacionales que el contrato ordena aplicar (UIC/AREMA), y a la arquitectura de comunicaciones (FO/TETRA) del proyecto.
+Interfaces con tierra/CTC acordes a las normas internacionales que el contrato ordena aplicar (FRA/AREMA/AREMA), y a la arquitectura de comunicaciones (FO/TETRA) del proyecto.
 Nota: el contrato fija qué capacidades deben existir (PTC + TETRA + GPS + integración CTC), pero no prescribe marcas. Esa integración se convierte en requisito de diseño e implantación bajo Cl. 8.2 Construcción (montaje e integración de sistemas).
 
 2) ¿Puedo ir con un CTC (ej. Thales) y un OBU “propio”, y usar PTC solo como pasarela hacia FENOCO?
@@ -735,7 +735,7 @@ Criterio
 
 Cumplimiento Contractual
 20%
-Adherencia a normas AREMA, UIC, FRA, RETIE
+Adherencia a normas AREMA, FRA/AREMA, FRA, RETIE
 
 Experiencia Ferroviaria
 15%
@@ -816,7 +816,7 @@ Criterio
 
 Cumplimiento Contractual
 18/20
-✅ Cumple normas UIC (AT3 lo exige)<br>✅ PTC VIRTUAL certificado en múltiples países<br>⚠️ Requiere adaptación para normas AREMA
+✅ Cumple normas FRA/AREMA (AT3 lo exige)<br>✅ PTC VIRTUAL certificado en múltiples países<br>⚠️ Requiere adaptación para normas AREMA
 
 Experiencia Ferroviaria
 13/15
@@ -860,7 +860,7 @@ Criterio
 
 Cumplimiento Contractual
 19/20
-✅ Normas internacionales: UIC, EULYNX, PTC VIRTUAL<br>✅ Certificaciones múltiples<br>✅ Experiencia en interoperabilidad
+✅ Normas internacionales: FRA/AREMA, EULYNX, PTC VIRTUAL<br>✅ Certificaciones múltiples<br>✅ Experiencia en interoperabilidad
 
 Experiencia Ferroviaria
 14/15
@@ -903,7 +903,7 @@ Criterio
 
 Cumplimiento Contractual
 16/20
-✅ Experiencia en América Latina<br>✅ Normas europeas (UIC compatible)<br>⚠️ Requiere adaptación AREMA
+✅ Experiencia en América Latina<br>✅ Normas europeas (FRA/AREMA compatible)<br>⚠️ Requiere adaptación AREMA
 
 Experiencia Ferroviaria
 10/15

@@ -60,7 +60,7 @@
 ### **🟡 MEDIA (9 riesgos):**
 | ID | Descripción | Items WBS | Fuente |
 |:--:|:------------|:----------|:-------|
-| **R-INT-01** | Interoperabilidad FENOCO (UIC) | - | P42 / Interfaces |
+| **R-INT-01** | Interoperabilidad FENOCO (FRA/AREMA) | - | P42 / Interfaces |
 | **R-AT4-01** | Cumplimiento disponibilidad AT4 | - | AT4 / P42 |
 | **R-CYB-01** | Ciberseguridad IEC 62443 | - | VII.2.11 |
 | **R-PERM-01** | Retrasos permisos ANE/ANLA | - | 40. Permisos |

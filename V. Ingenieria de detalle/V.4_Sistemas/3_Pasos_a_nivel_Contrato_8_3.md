@@ -222,7 +222,7 @@ Este documento contiene las especificaciones técnicas detalladas, planos constr
 ### 4.3 Interfaces PTC
 - **Preparación:** Interfaces PTC VIRTUAL Level 2
 - **Especificaciones:** Pendientes AT3
-- **Compatibilidad:** FENOCO según protocolos UIC
+- **Compatibilidad:** FENOCO según protocolos FRA/AREMA
 - **Actualización:** Modular para futuras especificaciones
 
 ---

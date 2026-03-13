@@ -92,13 +92,13 @@
 
 #### **Principios de Diseño:**
 - **Disponibilidad:** 99.95% para locomotoras con mantenimiento preventivo
-- **Interoperabilidad:** Compatibilidad con estándares UIC y FENOCO
+- **Interoperabilidad:** Compatibilidad con estándares FRA/AREMA y FENOCO
 - **Seguridad:** Sistemas de seguridad SIL 3-4 según EN 50126/50128/50129
 - **Mantenibilidad:** Acceso para mantenimiento y reparación
 - **Eficiencia:** Optimización de consumo y rendimiento
 
 #### **Estándares de Diseño:**
-- **UIC:** Estándares internacionales para material rodante
+- **FRA/AREMA:** Estándares internacionales para material rodante
 - **EN 50126/50128/50129:** Sistemas ferroviarios de seguridad
 - **AAR:** Asociación Americana de Ferrocarriles
 - **FERROVIAS:** Estándares ferroviarios colombianos
@@ -190,8 +190,8 @@
 #### **Sistemas de Tracción:**
 | Componente | Especificación | Material |
 |:-----------|:---------------|:---------|
-| **Motor de Tracción** | 500 kW, 25 kV AC | 6 por locomotora |
-| **Convertidor** | IGBT, 25 kV AC | 3 por locomotora |
+| **Motor de Tracción** | 500 kW, Diesel-Eléctrica | 6 por locomotora |
+| **Convertidor** | IGBT, Diesel-Eléctrica | 3 por locomotora |
 | **Transformador** | 25 kV/1.5 kV, 3 MVA | 1 por locomotora |
 | **Pantógrafo** | 25 kV, 1,000 A | 2 por locomotora |
 | **Sistema de Frenado** | Neumático + eléctrico + emergencia | Sistema integrado |
@@ -265,8 +265,8 @@
 #### **Locomotoras - Componentes Principales:**
 | Componente | Especificación | Material | Aplicación |
 |:-----------|:---------------|:---------|:-----------|
-| **Motor de Tracción** | 500 kW, 25 kV AC | Cobre, acero | Tracción |
-| **Convertidor** | IGBT, 25 kV AC | Silicio, cobre | Conversión |
+| **Motor de Tracción** | 500 kW, Diesel-Eléctrica | Cobre, acero | Tracción |
+| **Convertidor** | IGBT, Diesel-Eléctrica | Silicio, cobre | Conversión |
 | **Transformador** | 25 kV/1.5 kV, 3 MVA | Cobre, acero | Transformación |
 | **Pantógrafo** | 25 kV, 1,000 A | Carbón, cobre | Captación |
 | **Sistema de Frenado** | Neumático + eléctrico | Acero, caucho | Frenado |
@@ -385,7 +385,7 @@
 #### **Alimentación Eléctrica:**
 | Sistema | Alimentación | Función |
 |:--------|:-------------|:---------|
-| **Locomotoras** | 25 kV AC, 50 Hz | Tracción eléctrica |
+| **Locomotoras** | Diesel-Eléctrica, 50 Hz | Tracción eléctrica |
 | **Sistemas Embarcados** | 24 V DC | Sistemas auxiliares |
 | **TETRA Embarcado** | 24 V DC | Comunicación |
 | **RED TETRA (Misión Crítica) Embarcado** | 24 V DC | Comunicación |
@@ -397,7 +397,7 @@
 | Sistema | Protocolo | Función |
 |:--------|:----------|:---------|
 | **TETRA** | EN 300 392 | Comunicación principal |
-| **RED TETRA (Misión Crítica)** | UIC 920-2 | Comunicación redundante |
+| **RED TETRA (Misión Crítica)** | FRA/AREMA 920-2 | Comunicación redundante |
 | **GPS/GNSS** | NMEA 0183 | Posicionamiento |
 | **Event Recorder** | Protocolo propietario | Registro de eventos |
 
@@ -440,7 +440,7 @@
 
 | Normativa | Aplicabilidad | Cumplimiento | Responsable | Observaciones |
 |:----------|:-------------:|:------------:|:------------|:-------------|
-| **UIC** | 100% | ✅ Completo | EPC Mecánico | Estándares internacionales |
+| **FRA/AREMA** | 100% | ✅ Completo | EPC Mecánico | Estándares internacionales |
 | **EN 50126/50128/50129** | 100% | ✅ Completo | EPC Mecánico | Sistemas ferroviarios |
 | **AAR** | 90% | ✅ Completo | EPC Mecánico | Estándares americanos |
 | **FERROVIAS** | 85% | ✅ Completo | EPC Mecánico | Estándares colombianos |

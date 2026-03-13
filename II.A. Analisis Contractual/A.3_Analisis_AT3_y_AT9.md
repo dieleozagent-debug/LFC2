@@ -33,7 +33,7 @@ Este documento traduce las obligaciones del **Apéndice Técnico 3 (Especificaci
 
 | Especificación | Requisito para Ingeniería | Documento Relacionado |
 |:---|:---|:---|
-| **Señalización UIC 738** | Diseñar sistema de señalización luminosa con control automático. | `29_Sistema_Senalizacion_Integrado...md` |
+| **Señalización FRA/AREMA 738** | Diseñar sistema de señalización luminosa con control automático. | `29_Sistema_Senalizacion_Integrado...md` |
 | **CTC con SCADA** | Diseñar centro de control con supervisión en tiempo real. | `26. Sistem_CTC_Int...md` |
 | **TETRA 100% Cobertura** | Diseñar red de radio digital con cobertura total de la vía. | `27_Sistema_TETRA_Integrado...md` |
 | **Fibra Óptica 10 Gbps** | Diseñar backbone de fibra monomodo con capacidad 10 Gbps. | `28_Sistema_FibraOptica_Integrado...md` |

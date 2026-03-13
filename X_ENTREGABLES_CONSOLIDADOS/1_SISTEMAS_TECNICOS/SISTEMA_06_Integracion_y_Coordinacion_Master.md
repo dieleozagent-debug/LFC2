@@ -48,11 +48,11 @@
 - **Cl13.1:** Compatibilidad de material rodante con interoperabilidad FENOCO
 
 #### **Criterios Técnicos Maestros Consolidados:**
-- **Interoperabilidad FENOCO:** Protocolos UIC estándar para compatibilidad total con red ferroviaria nacional
+- **Interoperabilidad FENOCO:** Protocolos FRA/AREMA estándar para compatibilidad total con red ferroviaria nacional
 - **Interfaces de Sistemas:** Comunicación bidireccional entre CTC, ENCE, TETRA, RED TETRA (Misión Crítica), ITS, Material Rodante
 - **Coordinación Operacional:** Gestión integrada de tráfico, emergencias y mantenimiento
 - **Gestión de Dependencias:** Matriz de dependencias críticas con cronograma de integración por fases
-- **Protocolos de Integración:** FFFIS, UIC 920-2, UIC 438, UIC 930, UIC 950
+- **Protocolos de Integración:** FFFIS, FRA/AREMA 920-2, FRA/AREMA 438, FRA/AREMA 930, FRA/AREMA 950
 
 ---
 
@@ -87,12 +87,12 @@
 - **Sistema de Monitoreo:** Supervisión integral de todos los sistemas
 - **Sistema de Control:** Coordinación centralizada desde CTC
 - **Interfaces de Comunicación:** TETRA + RED TETRA (Misión Crítica) + Fibra óptica
-- **Protocolos de Interoperabilidad:** UIC estándar + FFFIS
+- **Protocolos de Interoperabilidad:** FRA/AREMA estándar + FFFIS
 
 #### **Arquitectura de Interoperabilidad FENOCO:**
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Red FENOCO    │◄──►│   Gateway UIC    │◄──►│   Red APP LDC   │
+│   Red FENOCO    │◄──►│   Gateway FRA/AREMA    │◄──►│   Red APP LDC   │
 │   (Nacional)    │    │   (Conversión)   │    │   (Local)       │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
@@ -107,10 +107,10 @@
 - **Mantenibilidad:** Facilidad de mantenimiento y actualización
 
 #### **Estándares de Interoperabilidad:**
-- **UIC 920-2:** RED TETRA (Misión Crítica) para comunicaciones ferroviarias
-- **UIC 438:** PTC VIRTUAL Level 2 para control de trenes
-- **UIC 930:** Interoperabilidad de sistemas de señalización
-- **UIC 950:** Interoperabilidad de sistemas de control de tráfico
+- **FRA/AREMA 920-2:** RED TETRA (Misión Crítica) para comunicaciones ferroviarias
+- **FRA/AREMA 438:** PTC VIRTUAL Level 2 para control de trenes
+- **FRA/AREMA 930:** Interoperabilidad de sistemas de señalización
+- **FRA/AREMA 950:** Interoperabilidad de sistemas de control de tráfico
 - **FFFIS:** Form Fit Function Interface Specification
 
 ---
@@ -130,7 +130,7 @@
 | **IF-05** | TETRA | Locomotoras | Comunicación | EN 300 392 | ✅ Definida |
 | **IF-06** | Fibra | Todos | Datos | Ethernet Gigabit | ✅ Definida |
 | **IF-07** | ITS | CCTV | Video | H.264/H.265 | ✅ Definida |
-| **IF-08** | CTC | FENOCO | Interoperabilidad | UIC Protocolos | ✅ Definida |
+| **IF-08** | CTC | FENOCO | Interoperabilidad | FRA/AREMA Protocolos | ✅ Definida |
 
 #### **Arquitectura de Comunicación CTC-PTC:**
 
@@ -152,9 +152,9 @@
 | **Chiriguaná** | 1+780 | Terminal secundario | Conexión regional |
 
 #### **Componentes de Interconexión:**
-- **Gateway UIC:** Conversión de protocolos entre redes
+- **Gateway FRA/AREMA:** Conversión de protocolos entre redes
 - **Sistemas Duales:** Operación en ambas redes sin modificación
-- **Protocolos UIC:** Estándares internacionales para interoperabilidad
+- **Protocolos FRA/AREMA:** Estándares internacionales para interoperabilidad
 - **API Abierta:** Comunicación entre centros de control
 
 ---
@@ -204,16 +204,16 @@
 | **Fibra ↔ Todos** | Ethernet Gigabit | Backbone de datos | ✅ Implementado |
 | **ITS ↔ CCTV** | H.264/H.265 | Video surveillance | ✅ Implementado |
 
-### **4.3 Protocolos de Interoperabilidad UIC**
+### **4.3 Protocolos de Interoperabilidad FRA/AREMA**
 
 #### **Protocolos Implementados:**
 
 | Protocolo | Estándar | Función | Estado |
 |:----------|:----------|:---------|:-------|
-| **UIC 920-2** | RED TETRA (Misión Crítica) | Comunicaciones ferroviarias | ✅ Implementado |
-| **UIC 438** | PTC VIRTUAL Level 2 | Control de trenes | ✅ Implementado |
-| **UIC 930** | Señalización | Interoperabilidad señalización | ✅ Implementado |
-| **UIC 950** | Control tráfico | Interoperabilidad control | ✅ Implementado |
+| **FRA/AREMA 920-2** | RED TETRA (Misión Crítica) | Comunicaciones ferroviarias | ✅ Implementado |
+| **FRA/AREMA 438** | PTC VIRTUAL Level 2 | Control de trenes | ✅ Implementado |
+| **FRA/AREMA 930** | Señalización | Interoperabilidad señalización | ✅ Implementado |
+| **FRA/AREMA 950** | Control tráfico | Interoperabilidad control | ✅ Implementado |
 
 #### **Especificaciones de Interoperabilidad:**
 - **Conectividad:** 100% entre redes APP-FENOCO
@@ -228,10 +228,10 @@
 
 ### **5.1 Especificaciones de Hardware de Integración**
 
-#### **Gateway de Interoperabilidad UIC:**
+#### **Gateway de Interoperabilidad FRA/AREMA:**
 - **Servidores:** Dell PowerEdge R750 con virtualización
 - **Redundancia:** Sistema dual con conmutación automática
-- **Protocolos:** Soporte completo UIC 920-2, 438, 930, 950
+- **Protocolos:** Soporte completo FRA/AREMA 920-2, 438, 930, 950
 - **Seguridad:** Cifrado AES-256 y autenticación mutua
 - **Disponibilidad:** 99.95% con sistemas redundantes
 
@@ -247,15 +247,15 @@
 - **Plataforma:** Siemens WinCC OA con redundancia
 - **Funcionalidades:** Supervisión, control, alarmas, históricos
 - **Interfaces:** CTC, ATP, ENCE, desvíos, EOT, FENOCO
-- **Protocolos:** FFFIS, UIC estándar, TCP/IP, API REST
+- **Protocolos:** FFFIS, FRA/AREMA estándar, TCP/IP, API REST
 - **Actualización:** Over-the-air (OTA)
 
 #### **Protocolos de Comunicación:**
 - **CTC-PTC:** FFFIS con seguridad EN 50159
 - **TETRA:** EN 300 392 estándar
-- **RED TETRA (Misión Crítica):** UIC 920-2 estándar
+- **RED TETRA (Misión Crítica):** FRA/AREMA 920-2 estándar
 - **Fibra:** Ethernet Gigabit con redundancia
-- **FENOCO:** Protocolos UIC para interoperabilidad
+- **FENOCO:** Protocolos FRA/AREMA para interoperabilidad
 
 ---
 
@@ -331,14 +331,14 @@
 - **Desvíos:** Control de 120 desvíos (25 motorizados + 95 manuales)
 - **ATP Embarcado:** Comunicación con 15 locomotoras
 - **EOT:** Monitoreo de 15 dispositivos End of Train
-- **Protocolo:** PTC VIRTUAL Level 2 estándar UIC
+- **Protocolo:** PTC VIRTUAL Level 2 estándar FRA/AREMA
 
 #### **Sistemas de Comunicación ↔ Material Rodante:**
 - **TETRA:** Comunicación tren-tierra principal
 - **RED TETRA (Misión Crítica):** Comunicación tren-tierra redundante
 - **GPS/GNSS:** Posicionamiento preciso
 - **Event Recorder:** Registro de eventos
-- **Protocolo:** EN 300 392 + UIC 920-2
+- **Protocolo:** EN 300 392 + FRA/AREMA 920-2
 
 #### **Fibra Óptica ↔ Todos los Sistemas:**
 - **Backbone:** 594 km con doble anillo DWDM
@@ -349,9 +349,9 @@
 ### **7.2 Interfaces con Sistemas Externos**
 
 #### **FENOCO (Red Nacional):**
-- **Gateway UIC:** Conversión de protocolos
+- **Gateway FRA/AREMA:** Conversión de protocolos
 - **API Abierta:** Comunicación entre CCOs
-- **Protocolos UIC:** Estándares internacionales
+- **Protocolos FRA/AREMA:** Estándares internacionales
 - **Roaming:** Conmutación automática entre redes
 - **Interoperabilidad:** 100% compatible
 
@@ -382,7 +382,7 @@
 | **Interoperabilidad FENOCO** | AT1 | Compatibilidad total con red ferroviaria nacional | ✅ Cumplido | 34_Criterios_Interoperabilidad |
 | **Interfaces Sistemas** | AT3 | Especificaciones generales de interfaces | ✅ Cumplido | 41_Interfaces_Sistemas_MEJORADO |
 | **Coordinación Operacional** | AT2 | Operación y mantenimiento coordinado | ✅ Cumplido | 6.5_Manual_OM_Integrado_v5.0 |
-| **Protocolos UIC** | Criterios Maestros | Estándares internacionales | ✅ Cumplido | VII.2.3_Protocolos_UIC_Interoperabilidad_FENOCO |
+| **Protocolos FRA/AREMA** | Criterios Maestros | Estándares internacionales | ✅ Cumplido | VII.2.3_Protocolos_FRA/AREMA_Interoperabilidad_FENOCO |
 | **Gestión Dependencias** | V.5.1 | Matriz de dependencias críticas | ✅ Cumplido | V.5.1_Plan_Integracion_Sistemas_COMPLETO |
 | **Integración por Fases** | V.5.1 | Cronograma de integración 9 meses | ✅ Cumplido | V.5.1_Plan_Integracion_Sistemas_COMPLETO |
 
@@ -397,7 +397,7 @@
 | **TETRA** | **Locomotoras** | Comunicación | EN 300 392 | ✅ Implementado |
 | **Fibra** | **Todos** | Datos | Ethernet Gigabit | ✅ Implementado |
 | **ITS** | **CCTV** | Video | H.264/H.265 | ✅ Implementado |
-| **CTC** | **FENOCO** | Interoperabilidad | UIC Protocolos | ✅ Implementado |
+| **CTC** | **FENOCO** | Interoperabilidad | FRA/AREMA Protocolos | ✅ Implementado |
 
 ### **8.3 Matriz de Disponibilidad y SLA**
 
@@ -405,7 +405,7 @@
 |:--------|:----------------------:|:---:|:---------|:-------|
 | **Interfaces CTC** | 99.95% | 2 horas | Tiempo de respuesta, disponibilidad | ✅ Monitoreado |
 | **Interoperabilidad FENOCO** | 99.95% | 1 hora | Latencia < 1s, handover < 2s | ✅ Monitoreado |
-| **Protocolos UIC** | 99.95% | 4 horas | Disponibilidad protocolos, tiempo respuesta | ✅ Monitoreado |
+| **Protocolos FRA/AREMA** | 99.95% | 4 horas | Disponibilidad protocolos, tiempo respuesta | ✅ Monitoreado |
 | **Sistemas Integrados** | 99.5% | 8 horas | Disponibilidad sistemas, tiempo respuesta | ✅ Monitoreado |
 
 ---
@@ -445,7 +445,7 @@
 - `6.5_Manual_OM_Integrado_v5.0.md` - Manual OM integrado
 
 ### **9.6 Documentos de Soporte Especializado**
-- `VII.2_Especificaciones/VII.2.3_Protocolos_UIC_Interoperabilidad_FENOCO.md` - Protocolos UIC interoperabilidad FENOCO
+- `VII.2_Especificaciones/VII.2.3_Protocolos_FRA/AREMA_Interoperabilidad_FENOCO.md` - Protocolos FRA/AREMA interoperabilidad FENOCO
 - `VII.2_Especificaciones/VII.2.4_Interfaces_CTC_PTC_Protocolo_FFFIS.md` - Interfaces CTC-PTC protocolo FFFIS
 
 ### **9.7 Documentos Maestros de Referencia**

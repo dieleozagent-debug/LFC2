@@ -6187,7 +6187,7 @@ Agencia Nacional de Infraestructura
 (a) Si se presenta algún incumplimiento de las obligaciones a cargo del Concesionario establecidas en el Contrato, que afecte de manera grave y directa la ejecución del mismo, de manera tal que evidencie que pueda conducir a su paralización o se presentan las causales previstas en las leyes 40 de 1993, 80 de 1993, 418 de 1997 prorrogada por
 las leyes 610 de 2000, 1421 de 2010, 1738 de 2014 y 1941 de 2018 y demás normas aplicables, la ANI, por medio de acto administrativo debidamente motivado, podrá decretar la caducidad del Contrato y ordenar su liquidación en el estado en que se encuentre, salvo que los Prestamistas ejerzan su derecho de Toma de Posesión regulado en la Sección 5.6 de este Contrato.
 
-(b) Para efectos de este Contrato, y sin perJUICIO de la facultad general consagrada anteriormente y de la necesidad de que se configuren los requisitos previstos en la Ley Aplicable, las Partes entienden que los siguientes son incumplimientos que pueden afectar de manera grave y directa la ejecución del Contrato, y evidencian que puede conducir a su paralización:
+(b) Para efectos de este Contrato, y sin perJFRA/AREMAIO de la facultad general consagrada anteriormente y de la necesidad de que se configuren los requisitos previstos en la Ley Aplicable, las Partes entienden que los siguientes son incumplimientos que pueden afectar de manera grave y directa la ejecución del Contrato, y evidencian que puede conducir a su paralización:
 
 (i) Cuando el Concesionario no corrige los incumplimientos que dan lugar a la aplicación de Multas, dentro del plazo máximo -contado desde la expiración del Plazo de Cura- que para cada causal de Multa se establece en la Sección 16.8.
 

@@ -26,8 +26,8 @@ const LFC_TERMINOLOGY = {
     
     // Lista de Inhibición (Legacy Prohibido)
     LEGACY_BLACKLIST: [
-        "UIC", "EN 50126", "ERTMS", "ETCS", "Eurobaliza", 
-        "GSM-R", "Tracción Eléctrica", "Catenaria", "EMU", "25 kV AC"
+        "FRA/AREMA", "EN 50126", "PTC Virtual", "PTC", "Nodos GNSS", 
+        "TETRA/LTE", "Tracción Diesel-Eléctrica", "Infraestructura Diesel", "Locomotora Diesel-Eléctrica", "Diesel-Eléctrica"
     ],
 
     // Mapeo Multidivisa

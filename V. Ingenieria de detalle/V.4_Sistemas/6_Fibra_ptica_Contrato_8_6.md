@@ -138,7 +138,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 - **RETIE:** Reglamento Técnico de Instalaciones Eléctricas
 - **NSR-10:** Norma Sismorresistente
 - **AREMA:** American Railway Engineering and Maintenance-of-Way Association
-- **UIC:** Union Internationale des Chemins de fer
+- **FRA/AREMA:** Union Internationale des Chemins de fer
 
 ### 1.3 Indicadores de Cumplimiento
 - **Disponibilidad del sistema:** 99.9%
@@ -182,7 +182,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 - **Fibra Óptica ↔ PTC:** Preparación para interfaces de control embarcado
 - **Fibra Óptica ↔ ITS:** Conectividad para sistemas de información de tránsito
 - **🚂 Fibra Óptica ↔ PTC:** Interfaces para control embarcado PTC VIRTUAL Level 2 hasta AT3
-- **🔗 Fibra Óptica ↔ FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos UIC
+- **🔗 Fibra Óptica ↔ FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos FRA/AREMA
 
 ## 3. OPTIMIZACIONES EPC ESPECÍFICAS PARA FIBRA ÓPTICA
 
@@ -293,7 +293,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 ### **MEJORAS IMPLEMENTADAS:**
 1. **Interfaces Críticas PTC:** Interfaces para control embarcado PTC VIRTUAL Level 2 hasta AT3
-2. **Interfaces Críticas FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos UIC
+2. **Interfaces Críticas FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos FRA/AREMA
 3. **Integración con Sistemas Ferroviarios PTC:** Preparación para interfaces de control embarcado
 4. **Integración con Sistemas Ferroviarios FENOCO:** Interoperabilidad con sistemas FENOCO
 5. **Disponibilidad AT4:** Cumplimiento de disponibilidad 99.9% según indicadores contractuales

@@ -26,17 +26,17 @@ window.wbsMetadataEnriquecida = {
       "actualizado_por": "Sistema WBS"
     },
     "1.1.103": {
-      "descripcion": "Software CTC virtual + ETCS L2 + Interoperabilidad FENOCO",
-      "justificacion_tecnica": "Software CTC ampliado con ETCS Level 2, Interoperabilidad FENOCO y Alta Disponibilidad segun ofertas tecnicas Knorr Bremse/CRRC validadas - Desglose: Core $30B + ETCS L2 $25B + FENOCO $15B + HA $9.15B",
+      "descripcion": "Software CTC virtual + PTC L2 + Interoperabilidad FENOCO",
+      "justificacion_tecnica": "Software CTC ampliado con PTC Level 2, Interoperabilidad FENOCO y Alta Disponibilidad segun ofertas tecnicas Knorr Bremse/CRRC validadas - Desglose: Core $30B + PTC L2 $25B + FENOCO $15B + HA $9.15B",
       "criterios_diseno": [
         "Licencias Core CTC: $30B - 8 estaciones + CCO + redundancia + 100 trenes simultaneos",
-        "Modulo ETCS Level 2: $25B - EVC + RBC + Sistema claves + Interfaces GSM-R/TETRA",
-        "Interoperabilidad FENOCO: $15B - Protocolos UIC 950-7/554 + Gestion coordinada + Transferencia control",
+        "Modulo PTC Level 2: $25B - EVC + RBC + Sistema claves + Interfaces TETRA/LTE/TETRA",
+        "Interoperabilidad FENOCO: $15B - Protocolos FRA/AREMA 950-7/554 + Gestion coordinada + Transferencia control",
         "Alta Disponibilidad: $9.15B - Cluster N+1 + Failover <5seg + DR (RTO<1h, RPO<15min) + 99.95%"
       ],
       "supuestos": [
         "Licenciamiento perpetuo con 5 anos soporte tecnico incluido",
-        "Certificacion CENELEC ETCS Level 2 completa incluida",
+        "Certificacion CENELEC PTC Level 2 completa incluida",
         "Interfaces FENOCO customizadas especificas del proyecto",
         "Capacitacion 300 horas (200 operadores + 100 ingenieros)",
         "Customizacion 30% del software para requisitos especificos",
@@ -46,11 +46,11 @@ window.wbsMetadataEnriquecida = {
         "DT-CTC-002-2025-10-08",
         "DT-CTC-003-2025-10-08"
       ],
-      "feedback_especialista": "Incremento +901% justificado por alcance completo ETCS L2 + Interoperabilidad FENOCO. Valor alineado con ofertas Knorr Bremse ($82B) y CRRC ($79B) para soluciones similares. Incluye: EVC, RBC, interfaces UIC, sistema HA 99.95%.",
+      "feedback_especialista": "Incremento +901% justificado por alcance completo PTC L2 + Interoperabilidad FENOCO. Valor alineado con ofertas Knorr Bremse ($82B) y CRRC ($79B) para soluciones similares. Incluye: EVC, RBC, interfaces FRA/AREMA, sistema HA 99.95%.",
       "documentos_ingenieria": [
         "V.2_Centro_Control_Trafico_CTC_Detalle_v1.0.md",
         "IV.2_CTC_Basica_v2.0.md",
-        "VII.2.1_SRS_ITCS_ETCS_Level2_PROVISIONAL.md"
+        "VII.2.1_SRS_ITCS_PTC_Level2_PROVISIONAL.md"
       ],
       "ultima_actualizacion": "2025-10-08",
       "actualizado_por": "DT-CTC-003"
@@ -134,23 +134,23 @@ window.wbsMetadataEnriquecida = {
     },
     "1.1.106": {
       "descripcion": "Interfaces comunicación",
-      "justificacion_tecnica": "Bloque lógico de integración (no hardware físico único). Conecta CTC con ITCS/ETCS L2, FENOCO (Gateway UIC 918-4), TETRA (voz/datos), Fibra óptica (backbone N+1) y sistemas ITS. Incluye: gateways industriales, switches de borde, firewalls IEC 62443, middleware interoperabilidad, licencias software.",
+      "justificacion_tecnica": "Bloque lógico de integración (no hardware físico único). Conecta CTC con ITCS/PTC L2, FENOCO (Gateway FRA/AREMA 918-4), TETRA (voz/datos), Fibra óptica (backbone N+1) y sistemas ITS. Incluye: gateways industriales, switches de borde, firewalls IEC 62443, middleware interoperabilidad, licencias software.",
       "criterios_diseno": [
         "Integración funcional CTC-ITCS-FENOCO-TETRA-ITS",
         "Redundancia N+1 en comunicaciones críticas",
-        "Middleware interoperabilidad con protocolos UIC 918-4",
+        "Middleware interoperabilidad con protocolos FRA/AREMA 918-4",
         "Firewalls IEC 62443 para ciberseguridad industrial"
       ],
       "supuestos": [
         "1 UND representa conjunto lógico completo de integración",
         "Equipos físicos mayores cubiertos en ítems 1.1.100-1.1.105",
         "Incluye licencias software, configuración y ensayos FAT/SAT",
-        "Interfaces con: ITCS/ETCS L2, FENOCO, TETRA, Fibra, ITS (CCTV/acceso/intrusión)"
+        "Interfaces con: ITCS/PTC L2, FENOCO, TETRA, Fibra, ITS (CCTV/acceso/intrusión)"
       ],
       "decisiones_tecnicas": [
         "DT-INTERFACES-001-2025-10-09"
       ],
-      "feedback_especialista": "Elemento clave de integración del sistema CTC. NO es hardware físico único sino bloque funcional que conecta todos los subsistemas. Costo $150M incluye gateways, middleware UIC, firewalls, licencias y configuración completa.",
+      "feedback_especialista": "Elemento clave de integración del sistema CTC. NO es hardware físico único sino bloque funcional que conecta todos los subsistemas. Costo $150M incluye gateways, middleware FRA/AREMA, firewalls, licencias y configuración completa.",
       "documentos_ingenieria": [
         "V.2_Centro_Control_Trafico_CTC_v5.0.md",
         "IV.2_Interfaces_Sistemas_MEJORADO.md",

@@ -52,7 +52,7 @@
 #### **Obligaciones Contractuales Principales:**
 - **AT1:** Alcance del proyecto - Sistemas ferroviarios integrales
 - **AT2:** Operación y mantenimiento - Disponibilidad 99.95%
-- **AT3:** Especificaciones generales - Estándares UIC, EN, RETIE
+- **AT3:** Especificaciones generales - Estándares FRA/AREMA, EN, RETIE
 - **AT4:** Indicadores de desempeño - KPIs contractuales
 - **AT5:** Gestión de interferencias - Coordinación con ANE
 - **AT6:** Gestión ambiental - Cumplimiento normativo
@@ -130,7 +130,7 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 - **Meta:** Implementar sistemas ferroviarios de última generación
 - **Indicadores:**
   - 100% de sistemas con tecnología moderna
-  - Cumplimiento 100% de estándares internacionales (UIC, EN)
+  - Cumplimiento 100% de estándares internacionales (FRA/AREMA, EN)
   - Integración completa de todos los sistemas
 
 #### **Objetivo 2: Mejora de la Seguridad**
@@ -374,7 +374,7 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 - **AT4 - Indicadores:** KPIs dentro de rangos aceptables
 
 #### **Cumplimiento Normativo:**
-- **Normas UIC:** 100% cumplimiento
+- **Normas FRA/AREMA:** 100% cumplimiento
 - **Normas EN:** 100% cumplimiento
 - **RETIE:** 100% cumplimiento
 - **Normativa ambiental:** 100% cumplimiento

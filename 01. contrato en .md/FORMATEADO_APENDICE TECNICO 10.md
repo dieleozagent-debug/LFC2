@@ -118,7 +118,7 @@ Página 4 de 9
 (c) Luego de haber tenido en cuenta las variables propias de la Infraestructura y del Material Rodante, la Capacidad Ferroviaria y la Capacidad Disponible de la Vía Férrea deberán calcularse por medio de dos metodologías:
 
 (i) A partir de las variables definidas, el Concesionario deberá calcular la Capacidad Ferroviaria y la Capacidad Disponible de la Vía Férrea a partir del sistema por medio del cual se gestionan las operaciones ferroviarias desde el centro de control de tráfico, mediante el uso de softwares especializados que simulen las condiciones reales de la Infraestructura y permitan identificar la capacidad de manera precisa.
-(ii) Complementariamente el Concesionario deberá presentar los cálculos y resultados utilizando el método propuesto por la UIC-405, Union Internationale des Chemins de Fer y contrastarlos con la metodología anterior.
+(ii) Complementariamente el Concesionario deberá presentar los cálculos y resultados utilizando el método propuesto por la FRA/AREMA-405, Union Internationale des Chemins de Fer y contrastarlos con la metodología anterior.
 
 2.4. En adición a las variables de la Infraestructura y del Material Rodante, el Concesionario deberá considerar aspectos asociados a las obras de Rehabilitación y Mejoramiento, así como a las Intervenciones programadas para el Mantenimiento de la Infraestructura, tales como:
 

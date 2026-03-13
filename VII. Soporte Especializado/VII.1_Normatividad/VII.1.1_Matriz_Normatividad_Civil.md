@@ -16,7 +16,7 @@
 - **Decreto 1076 de 2015:** Reglamento de construcción sostenible
 
 ### 1.2 Normativas Internacionales
-- **UIC 700:** Normas de infraestructura ferroviaria
+- **FRA/AREMA 700:** Normas de infraestructura ferroviaria
 - **EN 13232:** Vías ferroviarias - Vía
 - **EN 14033:** Vías ferroviarias - Obras civiles
 - **FRA Part 213:** Track Safety Standards
@@ -28,7 +28,7 @@
 | Normativa | Aplicabilidad | Cumplimiento | Responsable | Observaciones |
 |:----------|:-------------:|:------------:|:------------|:-------------|
 | **NSR-10** | 100% | ✅ Completo | EPC Civil | Estructuras sismo resistentes |
-| **UIC 700** | 100% | ✅ Completo | EPC Civil | Estándares ferroviarios |
+| **FRA/AREMA 700** | 100% | ✅ Completo | EPC Civil | Estándares ferroviarios |
 | **EN 13232** | 90% | ✅ Completo | EPC Civil | Geometría de vía |
 | **EN 14033** | 85% | ✅ Completo | EPC Civil | Obras civiles específicas |
 
@@ -37,14 +37,14 @@
 ## 3. ESPECIFICACIONES TÉCNICAS
 
 ### 3.1 Estructuras
-- **Puentes:** Norma NSR-10 + UIC 700
+- **Puentes:** Norma NSR-10 + FRA/AREMA 700
 - **Túneles:** Norma NSR-10 + EN 14033
 - **Estaciones:** Norma NSR-10 + accesibilidad
 - **Pasos a nivel:** Norma NSR-10 + seguridad ferroviaria
 
 ### 3.2 Vías
 - **Geometría:** EN 13232
-- **Drenaje:** NSR-10 + UIC 700
+- **Drenaje:** NSR-10 + FRA/AREMA 700
 - **Señalización:** Normas ferroviarias
 - **Iluminación:** NSR-10 + eficiencia energética
 
@@ -70,7 +70,7 @@
 
 ### 5.1 Documentación
 - **Planos constructivos:** Según NSR-10
-- **Especificaciones técnicas:** UIC 700 + EN
+- **Especificaciones técnicas:** FRA/AREMA 700 + EN
 - **Memorias de cálculo:** Estructurales
 - **Certificados:** De cumplimiento normativo
 

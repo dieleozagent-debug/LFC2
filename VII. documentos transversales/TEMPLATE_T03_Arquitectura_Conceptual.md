@@ -106,7 +106,7 @@ graph TD
 |:-------------|:----------|:---------|:----|:--------------|
 | Centro ↔ Campo | [Protocolo] | [Estándar] | [Control] | [Observaciones] |
 | Sistema ↔ Sistema | [Protocolo] | [Estándar] | [Integración] | [Observaciones] |
-| Con FENOCO | UIC-[A/B/C] | UIC | [Coordinación] | [Observaciones] |
+| Con FENOCO | FRA/AREMA-[A/B/C] | FRA/AREMA | [Coordinación] | [Observaciones] |
 
 ### 4.3 Seguridad de Comunicaciones
 - **Encriptación:** [Tipo y nivel]

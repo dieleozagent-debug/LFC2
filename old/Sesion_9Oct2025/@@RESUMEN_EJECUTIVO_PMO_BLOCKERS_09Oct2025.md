@@ -103,7 +103,7 @@
 
 #### **8. Preparar Plans B Detallados:**
 - Plan B PTC: PTC VIRTUAL L2 genérico
-- Plan B FENOCO: Gateway UIC 918-4 sin Trainguard
+- Plan B FENOCO: Gateway FRA/AREMA 918-4 sin Trainguard
 - Plan B PAN: 146 ±10%
 - Plan B MR: Secuencia adaptable
 
@@ -117,7 +117,7 @@
 
 **Si Plan B:**
 - PTC: PTC VIRTUAL L2 genérico
-- FENOCO: Gateway UIC sin integración
+- FENOCO: Gateway FRA/AREMA sin integración
 - PAN: 146 + contingencia
 - MR: Secuencia genérica
 - **Consecuencia:** Proyecto viable pero con supuestos
@@ -152,7 +152,7 @@
 | Riesgo | Responsable | Acción EPC | Plan B |
 |:-------|:------------|:-----------|:-------|
 | BLOCKER-001 (PTC) | ANI + Concesionario | Oficiar HOY | PTC VIRTUAL L2 genérico |
-| BLOCKER-002 (FENOCO) | FENOCO | Reunión 15 días | Gateway UIC estándar |
+| BLOCKER-002 (FENOCO) | FENOCO | Reunión 15 días | Gateway FRA/AREMA estándar |
 | BLOCKER-003 (PAN) | Concesionario | Trabajar con 146 | Contingencia ±10% |
 | BLOCKER-004 (MR) | FENOCO + Concesionario | Secuencia adaptable | Certificar en banco |
 | R-EXT-001 (Edificio) | ANI | Monitoreo semanal | Buffer 3m |
@@ -281,7 +281,7 @@
 ### **Decisión 3: Interoperabilidad FENOCO (Mes 6)**
 - **¿Colabora?** Sí (Plan A) / No (Plan B)
 - **Quién decide?** FENOCO
-- **Plan B:** Gateway UIC sin Trainguard
+- **Plan B:** Gateway FRA/AREMA sin Trainguard
 
 ### **Decisión 4: Estudio PAN (Mes 5)**
 - **¿Quién hace?** EPC (+$300M) / Concesionario
@@ -321,7 +321,7 @@
 > Retrasos >2 meses activan extensión plazo automática."
 
 **5. Interoperabilidad FENOCO:**
-> "Gateway diseñado según UIC 918-4 estándar. Integración efectiva
+> "Gateway diseñado según FRA/AREMA 918-4 estándar. Integración efectiva
 > con Trainguard sujeta a colaboración FENOCO. Sin especificaciones,
 > EPC entrega gateway genérico documentado."
 

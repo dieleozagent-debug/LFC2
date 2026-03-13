@@ -22,7 +22,7 @@ La seguridad se garantiza mediante la integridad de los datos en la red **PTC Vi
 
 ---
 
-## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE RED TETRA (Misión Crítica)/ERTMS)
+## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE RED TETRA (Misión Crítica)/PTC Virtual)
 
 Se han corregido los siguientes desvíos técnicos de la v5.0:
 - ✅ **ELIMINADO:** Requerimiento "TETRA + RED TETRA (Misión Crítica) dual" para el ATP embarcado.

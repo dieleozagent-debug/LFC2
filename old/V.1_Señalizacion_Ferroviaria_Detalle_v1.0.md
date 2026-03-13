@@ -37,7 +37,7 @@ Definir las especificaciones técnicas detalladas para la implementación del si
 - **EN 50128:** Sistemas de software para control y protección ferroviarios
 - **EN 50129:** Sistemas de señalización ferroviaria
 - **IEC 62290:** Sistemas de gestión del tráfico ferroviario
-- **UIC 615:** Señalización ferroviaria
+- **FRA/AREMA 615:** Señalización ferroviaria
 
 ### 2.2 Normas Nacionales
 - **RETIE:** Reglamento Técnico de Instalaciones Eléctricas

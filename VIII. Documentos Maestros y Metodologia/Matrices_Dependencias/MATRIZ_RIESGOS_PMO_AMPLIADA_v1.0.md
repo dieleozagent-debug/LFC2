@@ -48,7 +48,7 @@ Esta versión ampliada de la Matriz de Riesgos PMO agrega **dos campos críticos
 | ID | Categoría | Descripción | Prob | Impacto | Estrategia | Responsable | Estado | Fuente | **Origen_Decisión** | **Hito_Verificación** | **Items_WBS** | **Plan_Accion** |
 |:--:|:----------|:------------|:----:|:--------|:-----------|:------------|:-------|:-------|:-------------------|:---------------------|:-------------|:----------------|
 | R-AT3-01 | Técnico | Dependencia AT3 para PTC PTC VIRTUAL L2 | Alta | Alto | Mitigar: PTC VIRTUAL L2 estándar | Ing. Sistemas | Activo | P42 / Docs PTC | N/A | H-PTC-001 | 1.1.100, 1.2.100 | Documentar supuestos de diseño y solicitar clarificación a Interventoría |
-| R-INT-01 | Técnico | Interoperabilidad con FENOCO (UIC) | Media | Alto | Mitigar: Protocolos UIC | Comunicaciones | Activo | P42 / Interfaces | N/A | H-INT-002 | 1.1.106, 4.1.100 | Coordinar reuniones técnicas mensuales con FENOCO para validar interfaces |
+| R-INT-01 | Técnico | Interoperabilidad con FENOCO (FRA/AREMA) | Media | Alto | Mitigar: Protocolos FRA/AREMA | Comunicaciones | Activo | P42 / Interfaces | N/A | H-INT-002 | 1.1.106, 4.1.100 | Coordinar reuniones técnicas mensuales con FENOCO para validar interfaces |
 | R-AT4-01 | Contractual | Cumplimiento disponibilidad AT4 | Media | Alto | Mitigar: N+1, monitoreo | Ing. Sistemas | Activo | AT4 / P42 | N/A | Continuo | Transversal | Realizar análisis RAMS detallado y asegurar redundancia N+1 en diseños críticos |
 | R-CYB-01 | Técnico | Ciberseguridad IEC 62443 | Media | Alto | Mitigar: Defensa en profundidad | Ciberseguridad | Activo | VII.2.11 | N/A | H-CYB-001 | Transversal | Contratar póliza de seguro contra ciberriesgos y realizar auditorías de seguridad periódicas |
 | R-IF-01 | Gestión | Desalineación en interfaces (ICD) | Alta | Alto | Mitigar: Plan Gestión Interfaces | PMO/Integración | Activo | 41. Interfaces | N/A | H-IF-003 | 1.1.106, 5.3.103 | Realizar workshops de integración y definir ICD para cada par de sistemas |
@@ -60,7 +60,7 @@ Esta versión ampliada de la Matriz de Riesgos PMO agrega **dos campos críticos
 | R-OPE-001 | Operacional | Falla conmutación failover sistemas redundantes | Media | Alto | MITIGAR - Pruebas conmutación obligatorias FAT/SAT | Especialista Sistemas | Activo | A.2 Análisis | N/A | H-SAT-M44 | 1.1.100, 2.1.100 | Incluir pruebas de conmutación por falla (failover) en protocolos de pruebas SAT |
 | R-CAL-001 | Gestión | Calidad materiales/mano obra no cumple estándares | Media | Alto | MITIGAR - Control calidad estricto, certificaciones | PMO Calidad | Activo | A.3 Análisis | N/A | Continuo | Transversal | Implementar plan de aseguramiento de calidad estricto con inspecciones en fábrica y en sitio |
 | R-PTC-001 | Técnico | Indefinición sistema PTC (ATP/PTC VIRTUAL L2/CBTC) - Bloqueador 58% proyecto | Alta | Crítico | EVITAR - Oficiar ANI, decisión Mes 6 | Gerencia Técnica + ANI | Activo | BLOCKER-001 | N/A | H-PTC-DEF-M6 | 1.1.100, 1.1.103, 1.2.100 | **ACCIÓN HOY:** Enviar oficio formal a ANI solicitando definición tecnológica. Preparar matriz de decisión técnica comparando PTC/PTC VIRTUAL/CBTC |
-| R-FENOCO-001 | Técnico | Protocolos propietarios FENOCO (Siemens Trainguard) - Interoperabilidad indefinida | Alta | Crítico | MITIGAR - Reunión FENOCO Mes 5, gateway UIC Plan B | PMO + FENOCO | Activo | BLOCKER-002 | N/A | H-FENOCO-M6 | 1.1.106, 4.1.100 | **ACCIÓN HOY:** Enviar comunicación formal a FENOCO solicitando especificaciones Siemens Trainguard. Agendar reunión técnica (15 días) |
+| R-FENOCO-001 | Técnico | Protocolos propietarios FENOCO (Siemens Trainguard) - Interoperabilidad indefinida | Alta | Crítico | MITIGAR - Reunión FENOCO Mes 5, gateway FRA/AREMA Plan B | PMO + FENOCO | Activo | BLOCKER-002 | N/A | H-FENOCO-M6 | 1.1.106, 4.1.100 | **ACCIÓN HOY:** Enviar comunicación formal a FENOCO solicitando especificaciones Siemens Trainguard. Agendar reunión técnica (15 días) |
 | R-PAN-001 | Contractual | Cantidades PAN NO confirmadas (regularización en curso) - Variación ±10% | Media | Medio | ACEPTAR - Diseño modular ±10%, contingencia $489M | PMO + Seguridad Vial | Activo | BLOCKER-003 | N/A | HG-PAN-04-M10 | 3.2.100 | **ACCIÓN HOY:** Confirmar diseño modular de PANs. Validar asignación de contingencia $489M en presupuesto |
 | R-MR-001 | Gestión | Cronograma MR indefinido (15 locomotoras) - Secuencia pruebas NO definida | Media | Medio | MITIGAR - Plan adaptable, certificación en banco si no llega | PMO + Gerencia Operaciones | Activo | BLOCKER-004 | N/A | H-MR-M5 | 6.1.100 | **ACCIÓN HOY:** Enviar oficio a ANI solicitando cronograma detallado de entrega. Desarrollar 3 escenarios de planificación
 
@@ -126,7 +126,7 @@ Acción: Verificar que cajas cada 1000m funcionan correctamente
 **Valores posibles:**
 - **Acción concreta:** "Enviar oficio a ANI solicitando definición tecnológica"
 - **Múltiples pasos:** "Confirmar diseño modular. Validar contingencia presupuestal"
-- **Plan B incluido:** "Reunión FENOCO (15 días). Plan B: Gateway UIC genérico"
+- **Plan B incluido:** "Reunión FENOCO (15 días). Plan B: Gateway FRA/AREMA genérico"
 
 **Ejemplo de uso:**
 ```

@@ -275,7 +275,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 - **EN 50128:** Sistemas de señalización ferroviaria - Software
 - **EN 50129:** Sistemas de señalización ferroviaria - Seguridad
 - **IEC 62443:** Ciberseguridad industrial
-- **UIC 406:** Capacidad de líneas ferroviarias
+- **FRA/AREMA 406:** Capacidad de líneas ferroviarias
 
 ### 5.4 Pruebas y Comisionamiento
 **FAT, SAT, procedimientos de prueba**
@@ -472,14 +472,14 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 - EN 50128 - Software de señalización
 - EN 50129 - Seguridad de señalización
 - IEC 62443 - Ciberseguridad industrial
-- UIC 406 - Capacidad de líneas
-- UIC 406 - Interoperabilidad
+- FRA/AREMA 406 - Capacidad de líneas
+- FRA/AREMA 406 - Interoperabilidad
 
 ### 9.4 Documentos Externos
 - Información de FENOCO (interoperabilidad)
 - Especificaciones de proveedores PTC
 - Manuales de equipos ATP
-- Estándares UIC aplicables
+- Estándares FRA/AREMA aplicables
 
 ---
 

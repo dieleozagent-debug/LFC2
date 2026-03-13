@@ -4,7 +4,7 @@
 **Fecha:** 02/10/2025  
 **Sistema:** Sistemas de Comunicación  
 **Fase:** D. Ingeniería de Detalle  
-**Referencias:** EN 50126/50128/50129, IEC 62290, UIC 615, RED TETRA (Misión Crítica), EIRENE
+**Referencias:** EN 50126/50128/50129, IEC 62290, FRA/AREMA 615, RED TETRA (Misión Crítica), EIRENE
 
 ---
 
@@ -421,7 +421,7 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 - **EN 50129:** Sistemas de señalización ferroviaria
 - **IEC 62290:** Sistemas de gestión ferroviaria
 - **IEC 62443:** Seguridad de sistemas de automatización industrial
-- **UIC 615:** Sistemas de control de tráfico ferroviario
+- **FRA/AREMA 615:** Sistemas de control de tráfico ferroviario
 - **EIRENE:** European Integrated Railway Radio Enhanced Network
 
 ### 10.4 Control de Versiones

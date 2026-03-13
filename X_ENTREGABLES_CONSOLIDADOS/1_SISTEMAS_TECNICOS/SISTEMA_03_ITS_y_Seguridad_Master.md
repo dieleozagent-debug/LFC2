@@ -365,7 +365,7 @@
 - `30_Sistema_ITS_Integrado_docx_AT1_AT3_AT4_AT6_ambiental.md` - Sistema ITS integrado
 - `31_Sistema_CCTV_Integrado_docx_AT1_AT3_AT8_social_AT4_indicadores.md` - Sistema CCTV integrado
 - `23_ListadoMaestro_Sistemas_v5.0.md` - Listado maestro de sistemas
-- `33_Criterios_Normatividad_docx_AREMA_UIC_RETIE_ISO_TC_204_NSR_10_NFPA.md` - Criterios normatividad
+- `33_Criterios_Normatividad_docx_AREMA_FRA/AREMA_RETIE_ISO_TC_204_NSR_10_NFPA.md` - Criterios normatividad
 - `34_Criterios_Interoperabilidad_docx_Compatibilidad_con_FENOCO_y_ANI.md` - Criterios interoperabilidad
 - `36_Criterios_Ciberseguridad_docx_Protecci_n_de_sistemas_de_control.md` - Criterios ciberseguridad
 

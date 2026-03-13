@@ -38,20 +38,20 @@ Documentar TODAS las interfaces entre sistemas del proyecto, especificando:
 
 ---
 
-### **IF-02: CTC ↔ FENOCO (Gateway UIC 918-4)** 🔴 CRÍTICA
+### **IF-02: CTC ↔ FENOCO (Gateway FRA/AREMA 918-4)** 🔴 CRÍTICA
 
 | Aspecto | Especificación | Estado | Responsable |
 |:--------|:---------------|:-------|:------------|
-| **Protocolo** | UIC 918-4 / Siemens Trainguard | ❌ FENOCO NO compartió | EPC + FENOCO |
+| **Protocolo** | FRA/AREMA 918-4 / Siemens Trainguard | ❌ FENOCO NO compartió | EPC + FENOCO |
 | **Medio físico** | RED TETRA (Misión Crítica) + Ethernet redundante | ✅ Estándar | EPC Telecomunicaciones |
 | **Mensajes** | Posición, estado, comandos | ❌ Formato desconocido | **Requiere FENOCO** |
-| **Frecuencia** | 10 seg (según UIC) | ✅ Estándar | - |
+| **Frecuencia** | 10 seg (según FRA/AREMA) | ✅ Estándar | - |
 | **Seguridad** | Cifrado AES-256 + VPN | ✅ Definido | EPC Ciberseguridad |
 | **Pruebas** | Banco → Coordinar con FENOCO | ❌ FENOCO debe aprobar | FENOCO + EPC |
 
 **Criticidad:** 🔴 CRÍTICA (Interoperabilidad contractual)  
 **Blocker:** BLOCKER-002 (Protocolos propietarios FENOCO)  
-**Plan B:** UIC 918-4 genérico, interoperabilidad "teórica"
+**Plan B:** FRA/AREMA 918-4 genérico, interoperabilidad "teórica"
 
 ---
 

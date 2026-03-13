@@ -51,7 +51,7 @@ Centro de Control de Tráfico (CTC)
 Referencias: AT1 (Cap. 4.3.2), AT2 (Cap. 3.2.1), AT3 (Cap. 8.2), AT4 (indicadores), AT9 (cronograma).
 Funciones: control centralizado, asignación de surcos, coordinación con FENOCO.
 Disponibilidad: 99.95% según AT4.
-Interoperabilidad: Protocolos UIC para coordinación con FENOCO.
+Interoperabilidad: Protocolos FRA/AREMA para coordinación con FENOCO.
 Señalización Ferroviaria
 Referencias: AT3 (Cap. 8.1), AT2 (Cap. 3.1.2).
 Funciones: señalización de vía, pasos a nivel, semaforización ferroviaria.
@@ -59,14 +59,14 @@ Sistema PTC/PTC (Positive Train Control)
 Referencias: AT1 (Cap. 5.1), AT3 (Cap. 8.10), Cl. 13.1 del Contrato.
 Funciones: seguridad tren-tierra, control automático de trenes (PTC VIRTUAL Level 2 hasta AT3).
 Disponibilidad: 99.95% según AT4.
-Interoperabilidad: Compatible con sistemas FENOCO según estándares UIC.
+Interoperabilidad: Compatible con sistemas FENOCO según estándares FRA/AREMA.
 
 B. Sistemas de Telecomunicaciones
 Radio TETRA
 Referencias: AT3 (Cap. 8.5), AT2 (Cap. 3.2.2), AT7 (predios torres).
 Funciones: comunicaciones tren-tierra, seguridad operativa, interoperabilidad FENOCO.
 Disponibilidad: 99.5% según AT4.
-Interoperabilidad: Frecuencias y protocolos UIC compatibles con FENOCO.
+Interoperabilidad: Frecuencias y protocolos FRA/AREMA compatibles con FENOCO.
 Red de Fibra Óptica
 Referencias: AT3 (Cap. 8.6), AT5 (interferencias), AT7 (predios).
 Funciones: backbone redundante de comunicaciones.
@@ -125,12 +125,12 @@ Requiere definición de interfaces en la Ingeniería Básica.
 
 | **Sistema** | **Referencia Contractual** | **Apéndice Técnico** | **Disponibilidad AT4** | **Interoperabilidad FENOCO** | **PTC** |
 |:---|:---|:---|:---:|:---:|:---:|
-| **CTC** | Cl. 8.1, 8.2, 9.1 | AT1, AT2, AT3, AT4, AT9 | 99.95% | Protocolos UIC | - |
+| **CTC** | Cl. 8.1, 8.2, 9.1 | AT1, AT2, AT3, AT4, AT9 | 99.95% | Protocolos FRA/AREMA | - |
 | **PTC** | Cl. 13.1 | AT1, AT3 | 99.95% | PTC VIRTUAL Level 2 | ✅ |
-| **TETRA** | Cl. 8.1, 8.2 | AT2, AT3, AT7 | 99.5% | Frecuencias UIC | - |
-| **Fibra Óptica** | Cl. 8.1, 8.2 | AT3, AT5, AT7 | 99.95% | Estándares UIC | - |
-| **CCTV** | Cl. 8.1, 8.2 | AT2, AT3 | 99.5% | Protocolos UIC | - |
-| **ITS** | Cl. 8.1, 8.2 | AT3, AT4 | 99.5% | Estándares UIC | - |
+| **TETRA** | Cl. 8.1, 8.2 | AT2, AT3, AT7 | 99.5% | Frecuencias FRA/AREMA | - |
+| **Fibra Óptica** | Cl. 8.1, 8.2 | AT3, AT5, AT7 | 99.95% | Estándares FRA/AREMA | - |
+| **CCTV** | Cl. 8.1, 8.2 | AT2, AT3 | 99.5% | Protocolos FRA/AREMA | - |
+| **ITS** | Cl. 8.1, 8.2 | AT3, AT4 | 99.5% | Estándares FRA/AREMA | - |
 | **Material Rodante** | Cl. 13.1 | AT1, AT3 | 99.95% | PTC PTC VIRTUAL Level 2 | ✅ |
 
 4. Próximos pasos
@@ -204,13 +204,13 @@ Proxima actualizacion: 27 de febrero de 2025
 ### ✅ **MEJORAS IMPLEMENTADAS:**
 
 1. **🚂 PTC Especificado:** PTC VIRTUAL Level 2 como estándar hasta AT3 en sistemas críticos
-2. **🔗 Interoperabilidad FENOCO:** Criterios UIC especificados en todos los sistemas
+2. **🔗 Interoperabilidad FENOCO:** Criterios FRA/AREMA especificados en todos los sistemas
 3. **📊 Criterios de Disponibilidad AT4:** Integrados por sistema en matriz
 4. **📋 Matriz Implementada:** Matriz de trazabilidad contractual real implementada
 
 ### 🎯 **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
 - ✅ **PTC:** Estrategia de avance con PTC VIRTUAL Level 2 especificada
-- ✅ **FENOCO:** Criterios de interoperabilidad según estándares UIC
+- ✅ **FENOCO:** Criterios de interoperabilidad según estándares FRA/AREMA
 - ✅ **AT4:** Criterios de disponibilidad integrados en matriz
 - ✅ **Matriz:** Matriz de trazabilidad contractual implementada
 

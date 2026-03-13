@@ -305,7 +305,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 - **Cobertura 100%:** Garantizar cobertura completa del corredor
 - **Solapamiento 15-20%:** Redundancia entre estaciones adyacentes
 - **Redundancia N+1:** Sistemas críticos con respaldo
-- **Interoperabilidad FENOCO:** Protocolos UIC compatibles
+- **Interoperabilidad FENOCO:** Protocolos FRA/AREMA compatibles
 
 #### **📊 CANTIDADES ACTUALIZADAS (SEGÚN CRITERIOS MAESTROS)**
 - **✅ TETRA:** 33 → **37 estaciones** (Cobertura 100% + solapamiento 15-20%)
@@ -356,7 +356,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 **Especificaciones Técnicas:**
 - Cobertura: 100% del corredor (colocalizado con TETRA)
 - Disponibilidad: 99.5% según AT4
-- Protocolos: UIC para interoperabilidad FENOCO
+- Protocolos: FRA/AREMA para interoperabilidad FENOCO
 - Conmutación: Automática entre TETRA y RED TETRA (Misión Crítica)
 
 #### **7.2.3 Fibra Óptica Backbone (594 km)**
@@ -421,7 +421,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 - Radio TETRA + RED TETRA (Misión Crítica) dual
 
 #### **7.4.3 Protocolos de Interoperabilidad**
-- **UIC:** Estándares internacionales para interoperabilidad
+- **FRA/AREMA:** Estándares internacionales para interoperabilidad
 - **PTC VIRTUAL Level 2:** Preparación de interfaces
 - **API Abierta:** Comunicación entre CCOs
 - **Roaming:** Conmutación automática entre redes
@@ -438,7 +438,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 | **Comunicaciones Ferroviarias 24/7** | AT2, Cap. 3.2.2 | Implementación de grupos de llamada para operación, mantenimiento y emergencias. | ✅ Definido |
 | **Especificaciones de Radio (ETSI)** | AT3, Cap. 8.5 | Selección de equipos (estaciones base, terminales) que cumplan con los estándares ETSI EN 300 392. | ✅ Definido |
 | **Adquisición de Predios para Torres** | AT7, Cap. 3.1 | Plan de adquisición de los **37 predios** necesarios, coordinado con el estudio de cobertura. | ✅ Definido |
-| **Interoperabilidad con FENOCO** | AT1, AT2 | Diseño de un plan de roaming o interconexión de redes para garantizar la comunicación en la frontera de Chiriguaná.<br>- **Protocolos UIC para interoperabilidad** | ✅ Definido |
+| **Interoperabilidad con FENOCO** | AT1, AT2 | Diseño de un plan de roaming o interconexión de redes para garantizar la comunicación en la frontera de Chiriguaná.<br>- **Protocolos FRA/AREMA para interoperabilidad** | ✅ Definido |
 | **Equipos Embarcados en Locomotoras** | Cl. 13.1 | Especificación de radios móviles TETRA + RED TETRA (Misión Crítica) con GPS integrado para cada locomotora.<br>- **Interfaz PTC PTC VIRTUAL Level 2 hasta AT3** | ✅ Definido |
 | **Disponibilidad del Servicio (COM1)** | AT4 | Diseño de una red con redundancia N+1 para cumplir con los indicadores de disponibilidad.<br>- **Disponibilidad 99.5% según AT4** | ✅ Definido |
 
@@ -447,7 +447,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 | **ID** | **Riesgo** | **Categoría** | **Probabilidad** | **Impacto** | **Descripción** |
 |:---:|:---|:---:|:---:|:---|:---|
 | **R-035** | **Dependencia AT3 para equipos** | **Técnico** | **Alta** | **Alto** | Especificaciones de radio pendientes de AT3 |
-| **R-036** | **Interoperabilidad FENOCO** | **Técnico** | **Media** | **Alto** | Coordinación TETRA-FENOCO requiere protocolos UIC |
+| **R-036** | **Interoperabilidad FENOCO** | **Técnico** | **Media** | **Alto** | Coordinación TETRA-FENOCO requiere protocolos FRA/AREMA |
 | **R-037** | **Disponibilidad 99.5%** | **Contractual** | **Media** | **Alto** | Cumplimiento AT4 requiere redundancia crítica |
 | **R-038** | **Gestión de 37 sitios** | **Gestión** | **Media** | **Medio** | Complejidad de adquisición de predios y permisos |
 | **R-039** | **Integración TETRA-PTC** | **Técnico** | **Media** | **Alto** | Complejidad de interfaz con sistemas de control |

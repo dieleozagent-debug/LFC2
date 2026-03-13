@@ -110,7 +110,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 - **Colocalización:** Mismas torres para optimización de costos
 - **Fibra Óptica:** Backbone de alta capacidad para todos los sistemas
 - **Cobertura 100%:** Garantizada en todo el corredor ferroviario
-- **Interoperabilidad:** Compatible con FENOCO y estándares UIC
+- **Interoperabilidad:** Compatible con FENOCO y estándares FRA/AREMA
 
 ### 2.4 Alternativas Evaluadas
 **Análisis de alternativas**
@@ -308,8 +308,8 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 ### 5.3 Especificaciones de Calidad
 **Estándares y normativa aplicable**
 
-- **UIC 751-4:** Comunicaciones ferroviarias
-- **UIC 751-5:** RED TETRA (Misión Crítica) para ferrocarriles
+- **FRA/AREMA 751-4:** Comunicaciones ferroviarias
+- **FRA/AREMA 751-5:** RED TETRA (Misión Crítica) para ferrocarriles
 - **IEC 61334:** Sistemas de telecomunicaciones
 - **ITU-T G.652:** Fibra óptica monomodo
 - **ETSI EN 300 392:** TETRA
@@ -507,8 +507,8 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 - Contratos 8.4, 8.5, 8.6 (Telecomunicaciones)
 
 ### 9.3 Normativa Aplicable
-- UIC 751-4 - Comunicaciones ferroviarias
-- UIC 751-5 - RED TETRA (Misión Crítica) para ferrocarriles
+- FRA/AREMA 751-4 - Comunicaciones ferroviarias
+- FRA/AREMA 751-5 - RED TETRA (Misión Crítica) para ferrocarriles
 - IEC 61334 - Sistemas de telecomunicaciones
 - ITU-T G.652 - Fibra óptica monomodo
 - ETSI EN 300 392 - TETRA
@@ -518,7 +518,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 - Información de FENOCO (interoperabilidad)
 - Especificaciones de ANE (gestión de espectro)
 - Manuales de equipos TETRA/RED TETRA (Misión Crítica)
-- Estándares UIC aplicables
+- Estándares FRA/AREMA aplicables
 
 ---
 

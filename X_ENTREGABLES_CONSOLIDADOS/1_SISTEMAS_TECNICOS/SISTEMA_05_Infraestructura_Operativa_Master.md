@@ -65,7 +65,7 @@
 - **Funciones:** Monitoreo integral, despacho ferroviario, control centralizado
 - **Componentes:** Sala de control (250 m²), sala servidores (200 m²), sistemas SCADA
 - **Disponibilidad:** 99.95% según AT4
-- **Interoperabilidad:** Protocolos UIC para coordinación con FENOCO
+- **Interoperabilidad:** Protocolos FRA/AREMA para coordinación con FENOCO
 
 #### **Estaciones Ferroviarias y Apartaderos:**
 - **Estaciones ENCE:** 5 estaciones con enclavamientos electrónicos
@@ -97,7 +97,7 @@
 - **Infraestructura Civil:** 99.5% para edificaciones y estructuras
 
 #### **Interoperabilidad FENOCO:**
-- **Protocolos UIC:** Compatibilidad con estándares internacionales
+- **Protocolos FRA/AREMA:** Compatibilidad con estándares internacionales
 - **Interfaces:** Sistemas de comunicación y control integrados
 - **Coordinación:** Procedimientos de operación conjunta
 
@@ -193,7 +193,7 @@
 | **Bancos de Baterías** | 500 Ah, 480V DC | 2 bancos | Plomo-ácido |
 | **Generador Emergencia** | 500 kVA, diesel | 2 unidades | Automático |
 | **Tanque Combustible** | 5,000 litros | 1 unidad | 8 horas autonomía |
-| **Sistema HVAC** | 50 kW, 25 kV AC | 2 unidades | Redundancia |
+| **Sistema HVAC** | 50 kW, Diesel-Eléctrica | 2 unidades | Redundancia |
 
 #### **Infraestructura del Edificio:**
 
@@ -242,11 +242,11 @@
 | **UPS** | 100 kVA, 30 min | 2 unidades | Redundancia |
 | **Generador Emergencia** | 500 kVA, diesel | 2 unidades | Redundancia |
 
-#### **Sistema de Catenaria y Alimentación:**
+#### **Sistema de Infraestructura Diesel y Alimentación:**
 
 | Parámetro | Especificación | Observaciones |
 |:----------|:---------------|:--------------|
-| **Tensión Nominal** | 25 kV AC, 50 Hz | Sistema estándar |
+| **Tensión Nominal** | Diesel-Eléctrica, 50 Hz | Sistema estándar |
 | **Cable de Contacto** | Cobre 120 mm² | Conductor principal |
 | **Cable Portador** | Acero-aluminio 240 mm² | Soporte mecánico |
 | **Postes** | Concreto pretensado 15m | Cada 60m promedio |
@@ -279,7 +279,7 @@
 - **Baterías:** 500 Ah, 480V DC, plomo-ácido
 - **Generadores:** 500 kVA, diesel, arranque automático
 - **Combustible:** 5,000 litros, 8 horas autonomía
-- **HVAC:** 50 kW, 25 kV AC, redundancia
+- **HVAC:** 50 kW, Diesel-Eléctrica, redundancia
 
 #### **Infraestructura Civil:**
 - **Estructura:** Concreto armado, 2 pisos, 850 m²
@@ -370,7 +370,7 @@
 - **Supervisión:** Monitoreo continuo del estado de trenes
 - **Emergencias:** Procedimientos de emergencia y parada automática
 - **Diagnóstico:** Transmisión de datos de Event Recorder
-- **Protocolo:** PTC VIRTUAL Level 2 estándar UIC
+- **Protocolo:** PTC VIRTUAL Level 2 estándar FRA/AREMA
 
 #### **CCO ↔ ENCE:**
 - **Control de Enclavamientos:** Autorización de movimientos en estaciones
@@ -393,7 +393,7 @@
 - **Emergencias:** Canales de emergencia y coordinación
 - **Datos:** Transmisión de telemetría y diagnósticos
 - **Interoperabilidad:** Comunicación con sistemas FENOCO
-- **Protocolo:** TETRA estándar + RED TETRA (Misión Crítica) UIC
+- **Protocolo:** TETRA estándar + RED TETRA (Misión Crítica) FRA/AREMA
 
 #### **Fibra Óptica:**
 - **Datos de Control:** Transmisión de información de sistemas
@@ -439,7 +439,7 @@
 | **CCO** | **ENCE** | Control/Comunicación | Interfaces ferroviario | ✅ Implementado |
 | **CCO** | **Desvíos** | Control/Comunicación | Interfaces ferroviario | ✅ Implementado |
 | **CCO** | **TETRA** | Comunicación | TETRA estándar | ✅ Implementado |
-| **CCO** | **RED TETRA (Misión Crítica)** | Comunicación | RED TETRA (Misión Crítica) UIC | ✅ Implementado |
+| **CCO** | **RED TETRA (Misión Crítica)** | Comunicación | RED TETRA (Misión Crítica) FRA/AREMA | ✅ Implementado |
 | **CCO** | **Fibra Óptica** | Datos | Ethernet sobre fibra | ✅ Implementado |
 | **Estaciones** | **ENCE** | Control | Interfaces ferroviario | ✅ Implementado |
 | **Subestaciones** | **Sistemas Control** | Datos | Ethernet industrial | ✅ Implementado |
@@ -469,7 +469,7 @@
 - `25.1_WBS_COMPLETA_ESPECIALIDADES_v5.0.md` - WBS especialidades completas
 - `29_Sistema_Senalizacion_Integrado_v5.0.md` - Sistema señalización integrado
 - `32_Material_Rodante_Integrado_v5.0.md` - Sistema material rodante integrado
-- `33_Criterios_Normatividad_docx_AREMA_UIC_RETIE_ISO_TC_204_NSR_10_NFPA.md` - Criterios normatividad
+- `33_Criterios_Normatividad_docx_AREMA_FRA/AREMA_RETIE_ISO_TC_204_NSR_10_NFPA.md` - Criterios normatividad
 - `34_Criterios_Interoperabilidad_docx_Compatibilidad_con_FENOCO_y_ANI.md` - Criterios interoperabilidad
 
 ### **9.3 Documentos de Ingeniería Básica**

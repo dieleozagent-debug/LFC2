@@ -37,7 +37,7 @@
 3. Integración con sistemas de vía y CTC/PTC  
    - Protocolos, sincronización, pruebas. (32_Material_Rodante)
 4. Seguridad operacional y normativas  
-   - EN, UIC, RAMS (EN50126). (V.3.1)
+   - EN, FRA/AREMA, RAMS (EN50126). (V.3.1)
 5. Pruebas y puesta en servicio (FAT/SAT)  
    - Planes y criterios de aceptación. (V.3.1)
 6. Operación y mantenimiento (O&M)  

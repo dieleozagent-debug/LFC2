@@ -4,7 +4,7 @@
 **Fecha:** 02/10/2025  
 **Sistema:** Centro de Control de Tráfico (CTC)  
 **Fase:** D. Ingeniería de Detalle  
-**Referencias:** EN 50126/50128/50129, IEC 62290, UIC 615, FFFIS CTC–PTC
+**Referencias:** EN 50126/50128/50129, IEC 62290, FRA/AREMA 615, FFFIS CTC–PTC
 
 ---
 
@@ -379,7 +379,7 @@ Este documento detalla la ingeniería del Centro de Control de Tráfico (CTC) pa
 - **EN 50129:** Sistemas de señalización ferroviaria
 - **IEC 62290:** Sistemas de gestión ferroviaria
 - **IEC 62443:** Seguridad de sistemas de automatización industrial
-- **UIC 615:** Sistemas de control de tráfico ferroviario
+- **FRA/AREMA 615:** Sistemas de control de tráfico ferroviario
 
 ### 10.4 Control de Versiones
 | Versión | Fecha | Autor | Cambios |

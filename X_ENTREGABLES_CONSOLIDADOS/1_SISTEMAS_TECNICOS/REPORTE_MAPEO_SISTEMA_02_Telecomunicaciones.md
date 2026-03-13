@@ -308,7 +308,7 @@ Criterios de interoperabilidad para comunicaciones con FENOCO y ANE, incluyendo 
 **Secciones clave a extraer:**
 - Interoperabilidad FENOCO: Protocolos comunicación
 - Coordinación ANE: Gestión de espectro
-- Estándares UIC: Normativa aplicable
+- Estándares FRA/AREMA: Normativa aplicable
 
 **Prioridad para consolidación:** 🔴 Alta
 

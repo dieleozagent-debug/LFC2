@@ -171,7 +171,7 @@
 |:-----|:--------:|:----------------------|
 | **Contractuales** | 25+ | AT1-AT10, Cláusulas 8.1-8.2, 9.1, 14.1 |
 | **Técnicas** | 75+ | V.1-V.5, PTC, Sistemas |
-| **Normativas** | 50+ | EN 50126/50128/50129, UIC 438/950, IEC 62443 |
+| **Normativas** | 50+ | EN 50126/50128/50129, FRA/AREMA 438/950, IEC 62443 |
 
 ### **Referencias por Especialidad:**
 | Especialidad | Cantidad | Documentos |
@@ -189,7 +189,7 @@
 ### **Coherencia Técnica:**
 - ✅ **Especificaciones vs AT3:** 100% alineadas
 - ✅ **Interfaces CTC-PTC:** Compatibilidad verificada
-- ✅ **Estándares EN/UIC/IEC:** Aplicación confirmada
+- ✅ **Estándares EN/FRA/AREMA/IEC:** Aplicación confirmada
 - ✅ **Cronograma:** Hitos actualizados
 
 ### **Trazabilidad:**
@@ -210,7 +210,7 @@
 - **Navegación mejorada:** 175+ enlaces validados
 - **Trazabilidad completa:** Contractual → Técnica → Operacional
 - **Coherencia garantizada:** Especificaciones alineadas
-- **Estándares aplicados:** EN/UIC/IEC consistentemente
+- **Estándares aplicados:** EN/FRA/AREMA/IEC consistentemente
 
 ### **Estado Final:**
 **✅ REFERENCIAS CRUZADAS CONSOLIDADAS Y ACTUALIZADAS A v1.0**

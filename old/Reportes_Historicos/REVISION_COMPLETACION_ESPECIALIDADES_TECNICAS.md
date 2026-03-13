@@ -97,7 +97,7 @@ Como Administrador Contractual EPC, he completado la revisión exhaustiva de las
 - ✅ **Sistemas de control** unificados
 
 #### **3. ESTÁNDARES Y NORMATIVIDAD**
-- ✅ **Estándares UIC** aplicados consistentemente
+- ✅ **Estándares FRA/AREMA** aplicados consistentemente
 - ✅ **Normas EN/IEEE** implementadas
 - ✅ **Normas colombianas** RETIE/NTC aplicadas
 - ✅ **Certificaciones** planificadas
@@ -116,7 +116,7 @@ Como Administrador Contractual EPC, he completado la revisión exhaustiva de las
 1. **`ESTRATEGIAS_AVANCE_DEPENDENCIAS_BLOQUEADAS.md`** - Plan integral de desbloqueo
 2. **`VII.2.1_Especificaciones_Tecnicas_PTC_PTC VIRTUAL_Level2_PROVISIONALES.md`** - Especificaciones PTC
 3. **`VII.2.2_Simulaciones_Capacidad_Surcos_BASICAS.md`** - Simulaciones de capacidad
-4. **`VII.2.3_Protocolos_UIC_Interoperabilidad_FENOCO.md`** - Protocolos UIC
+4. **`VII.2.3_Protocolos_FRA/AREMA_Interoperabilidad_FENOCO.md`** - Protocolos FRA/AREMA
 5. **`00. Gobernanza PMO/0.1_MATRIZ_ROLES_PMO_EPC_RACI.md`** - Matriz RACI
 6. **`III. Ingenieria conceptual/25.1_WBS_COMPLETA_ESPECIALIDADES.md`** - WBS integral
 
@@ -137,7 +137,7 @@ Como Administrador Contractual EPC, he completado la revisión exhaustiva de las
 |:----|:------------|:-------|:----------------------|
 | **Gap 1** | Especificaciones PTC PTC VIRTUAL Level 2 faltantes | ✅ **RESUELTO** | Especificaciones provisionales completadas |
 | **Gap 2** | Simulaciones de capacidad no completadas | ✅ **RESUELTO** | Simulaciones básicas desarrolladas |
-| **Gap 3** | Protocolos UIC para interoperabilidad FENOCO | ✅ **RESUELTO** | Protocolos UIC estándar completados |
+| **Gap 3** | Protocolos FRA/AREMA para interoperabilidad FENOCO | ✅ **RESUELTO** | Protocolos FRA/AREMA estándar completados |
 | **Gap 4** | Matriz RACI de roles y responsabilidades | ✅ **RESUELTO** | Matriz RACI completa desarrollada |
 | **Gap 5** | WBS integral con todas las especialidades | ✅ **RESUELTO** | WBS completa desarrollada |
 

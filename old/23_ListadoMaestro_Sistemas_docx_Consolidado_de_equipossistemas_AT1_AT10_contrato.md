@@ -51,7 +51,7 @@ Centro de Control de Tráfico (CTC)
 Referencias: AT1 (Cap. 4.3.2), AT2 (Cap. 3.2.1), AT3 (Cap. 8.2), AT4 (indicadores), AT9 (cronograma).
 Funciones: control centralizado, asignación de surcos, coordinación con FENOCO.
 Disponibilidad: 99.95% según AT4.
-Interoperabilidad: Protocolos UIC para coordinación con FENOCO.
+Interoperabilidad: Protocolos FRA/AREMA para coordinación con FENOCO.
 Señalización Ferroviaria
 Referencias: AT3 (Cap. 8.1), AT2 (Cap. 3.1.2).
 Funciones: señalización de vía, pasos a nivel, semaforización ferroviaria.
@@ -59,14 +59,14 @@ Sistema PTC/PTC (Positive Train Control)
 Referencias: AT1 (Cap. 5.1), AT3 (Cap. 8.10), Cl. 13.1 del Contrato.
 Funciones: seguridad tren-tierra, control automático de trenes (PTC VIRTUAL Level 2 hasta AT3).
 Disponibilidad: 99.95% según AT4.
-Interoperabilidad: Compatible con sistemas FENOCO según estándares UIC.
+Interoperabilidad: Compatible con sistemas FENOCO según estándares FRA/AREMA.
 
 B. Sistemas de Telecomunicaciones
 Radio TETRA
 Referencias: AT3 (Cap. 8.5), AT2 (Cap. 3.2.2), AT7 (predios torres).
 Funciones: comunicaciones tren-tierra, seguridad operativa, interoperabilidad FENOCO.
 Disponibilidad: 99.5% según AT4.
-Interoperabilidad: Frecuencias y protocolos UIC compatibles con FENOCO.
+Interoperabilidad: Frecuencias y protocolos FRA/AREMA compatibles con FENOCO.
 Red de Fibra Óptica
 Referencias: AT3 (Cap. 8.6), AT5 (interferencias), AT7 (predios).
 Funciones: backbone redundante de comunicaciones.
@@ -192,13 +192,13 @@ Proxima actualizacion: 27 de febrero de 2025
 ### ✅ **MEJORAS IMPLEMENTADAS:**
 
 1. **🚂 PTC Especificado:** PTC VIRTUAL Level 2 como estándar hasta AT3 en sistemas críticos
-2. **🔗 Interoperabilidad FENOCO:** Criterios UIC especificados en todos los sistemas
+2. **🔗 Interoperabilidad FENOCO:** Criterios FRA/AREMA especificados en todos los sistemas
 3. **📊 Criterios de Disponibilidad AT4:** Integrados por sistema (CTC 99.95%, TETRA 99.5%, PTC 99.95%)
 4. **🎯 Listado Actualizado:** Refleja mejoras implementadas en documentos individuales
 
 ### 🎯 **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
 - ✅ **PTC:** Estrategia de avance con PTC VIRTUAL Level 2 especificada
-- ✅ **FENOCO:** Criterios de interoperabilidad según estándares UIC
+- ✅ **FENOCO:** Criterios de interoperabilidad según estándares FRA/AREMA
 - ✅ **AT4:** Criterios de disponibilidad integrados por sistema
 - ✅ **Consistencia:** Listado alineado con documentos individuales mejorados
 

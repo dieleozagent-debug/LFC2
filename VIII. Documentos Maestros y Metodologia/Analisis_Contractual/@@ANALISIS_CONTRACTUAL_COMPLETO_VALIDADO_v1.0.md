@@ -75,7 +75,7 @@
 **Razón:** Contrato SÍ requiere interoperabilidad, pero NO especifica protocolos.  
 **Responsabilidad:** Concesionario debe obtener specs FENOCO para documento  
 **Fecha límite:** Mes 3 (90 días post-inicio)  
-**Plan B:** UIC 918-4 genérico si FENOCO no colabora
+**Plan B:** FRA/AREMA 918-4 genérico si FENOCO no colabora
 
 ---
 

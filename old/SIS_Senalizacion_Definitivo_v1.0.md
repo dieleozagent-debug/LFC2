@@ -23,7 +23,7 @@
 ## 1. Alcance del Sistema
 - Señalización e interlocking para corredor LD-CH, con pasos a nivel y punto de referencia virtualdo Virtual Balise (GNSS).  
   (Fuente: 29_Sistema_Senalizacion_Integrado...)
-- Cumplimiento de seguridad ferroviaria y normativas UIC/EN, integración con CTC/PTC.  
+- Cumplimiento de seguridad ferroviaria y normativas FRA/AREMA/EN, integración con CTC/PTC.  
   (Fuente: V.1_Señalizacion_Ferroviaria_Detalle_v1.0.md)
 
 ## 2. Trazabilidad Contractual
@@ -40,7 +40,7 @@
 
 ## 4. Estructura Técnica (índice consolidado)
 1. Requisitos normativos y funcionales  
-   - UIC/EN; protección de cruces; integración con CTC/PTC. (V.1; 29_Sistema_...)
+   - FRA/AREMA/EN; protección de cruces; integración con CTC/PTC. (V.1; 29_Sistema_...)
 2. Arquitectura y principio de funcionamiento  
    - Topología interlocking; lógica de rutas; enclavamientos. (V.1)
 3. Interlocking y tablas (resumen)  

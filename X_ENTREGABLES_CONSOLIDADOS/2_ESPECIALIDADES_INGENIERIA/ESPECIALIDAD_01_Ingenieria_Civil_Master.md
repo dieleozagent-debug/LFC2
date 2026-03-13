@@ -94,11 +94,11 @@
 - **Durabilidad:** Vida útil mínima 50 años
 - **Mantenibilidad:** Acceso para mantenimiento y reparación
 - **Sostenibilidad:** Criterios ambientales y eficiencia energética
-- **Interoperabilidad:** Compatibilidad con estándares ferroviarios UIC
+- **Interoperabilidad:** Compatibilidad con estándares ferroviarios FRA/AREMA
 
 #### **Estándares de Diseño:**
 - **NSR-10:** Normas Colombianas de Construcción Sismo Resistente
-- **UIC 700:** Normas de infraestructura ferroviaria
+- **FRA/AREMA 700:** Normas de infraestructura ferroviaria
 - **EN 13232:** Vías ferroviarias - Vía
 - **EN 14033:** Vías ferroviarias - Obras civiles
 - **FRA Part 213:** Track Safety Standards
@@ -185,7 +185,7 @@
 #### **Estructura de Vía:**
 | Componente | Especificación | Material |
 |:-----------|:---------------|:---------|
-| **Riel** | UIC 60, 25 m | Acero laminado |
+| **Riel** | FRA/AREMA 60, 25 m | Acero laminado |
 | **Durmientes** | 2,600 unidades/km | Hormigón pretensado |
 | **Balasto** | 2,000 m³/km | Piedra triturada |
 | **Subbalasto** | 500 m³/km | Material granular |
@@ -272,10 +272,10 @@
 #### **Materiales de Vía:**
 | Componente | Especificación | Estándar |
 |:-----------|:---------------|:---------|
-| **Riel** | UIC 60, 25 m | UIC 860 |
-| **Durmientes** | 2.6 m x 0.2 m x 0.16 m | UIC 713 |
+| **Riel** | FRA/AREMA 60, 25 m | FRA/AREMA 860 |
+| **Durmientes** | 2.6 m x 0.2 m x 0.16 m | FRA/AREMA 713 |
 | **Balasto** | 25-50 mm | EN 13450 |
-| **Eclisas** | 4 agujeros | UIC 864 |
+| **Eclisas** | 4 agujeros | FRA/AREMA 864 |
 
 ### **5.2 Especificaciones de Construcción**
 
@@ -419,7 +419,7 @@
 | Normativa | Aplicabilidad | Cumplimiento | Responsable | Observaciones |
 |:----------|:-------------:|:------------:|:------------|:-------------|
 | **NSR-10** | 100% | ✅ Completo | EPC Civil | Estructuras sismo resistentes |
-| **UIC 700** | 100% | ✅ Completo | EPC Civil | Estándares ferroviarios |
+| **FRA/AREMA 700** | 100% | ✅ Completo | EPC Civil | Estándares ferroviarios |
 | **EN 13232** | 90% | ✅ Completo | EPC Civil | Geometría de vía |
 | **EN 14033** | 85% | ✅ Completo | EPC Civil | Obras civiles específicas |
 

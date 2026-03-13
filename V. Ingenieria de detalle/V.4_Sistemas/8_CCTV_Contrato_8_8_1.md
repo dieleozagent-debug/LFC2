@@ -121,7 +121,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 - **RETIE:** Reglamento Técnico de Instalaciones Eléctricas
 - **NSR-10:** Norma Sismorresistente
 - **AREMA:** American Railway Engineering and Maintenance-of-Way Association
-- **UIC:** Union Internationale des Chemins de fer
+- **FRA/AREMA:** Union Internationale des Chemins de fer
 - **IEC 62676:** Estándares internacionales para sistemas de videovigilancia
 
 ### 1.3 Indicadores de Cumplimiento
@@ -141,7 +141,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 ### **MEJORAS IMPLEMENTADAS:**
 1. **Interfaces Críticas PTC:** Sistema CCTV para control embarcado PTC VIRTUAL Level 2 hasta AT3
-2. **Interfaces Críticas FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos UIC
+2. **Interfaces Críticas FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos FRA/AREMA
 3. **Integración con Sistemas Ferroviarios PTC:** Sistema CCTV para control embarcado
 4. **Integración con Sistemas Ferroviarios FENOCO:** Interoperabilidad con sistemas FENOCO
 5. **Disponibilidad AT4:** Cumplimiento de disponibilidad 99.9% según indicadores contractuales

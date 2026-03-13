@@ -66,19 +66,19 @@
 #### **🔗 INTEROPERABILIDAD FENOCO (13 riesgos)**
 | ID | Riesgo | Prob | Impacto | Descripción | Estrategia |
 |:---|:---|:---:|:---:|:---|:---|
-| R-002 | Interoperabilidad FENOCO | Media | Alto | Compatibilidad con sistemas FENOCO | **Mitigación:** Protocolos UIC estándar |
-| R-027 | FENOCO sin protocolos UIC | Media | Alto | Incompatibilidad con red existente | **Mitigación:** Implementar estándares UIC |
-| R-052 | FENOCO interoperabilidad | Media | Alto | Dependencia crítica para integración | **Mitigación:** Protocolos UIC estándar |
-| R-077 | FENOCO sin protocolos UIC | Media | Alto | Bloqueo en interoperabilidad | **Mitigación:** Estándares UIC implementados |
-| R-102 | FENOCO interoperabilidad | Media | Alto | Dependencia crítica para 33 sitios TETRA | **Mitigación:** Protocolos UIC estándar |
-| R-117 | FENOCO sin protocolos UIC | Media | Alto | Bloqueo en sistemas eléctricos | **Mitigación:** Estándares UIC implementados |
-| R-132 | FENOCO interoperabilidad | Media | Alto | Dependencia crítica para comunicaciones embarcadas | **Mitigación:** Protocolos UIC estándar |
-| R-147 | FENOCO sin protocolos UIC | Media | Alto | Bloqueo en interfonía | **Mitigación:** Estándares UIC implementados |
-| R-162 | FENOCO interoperabilidad | Media | Alto | Dependencia crítica para red de datos | **Mitigación:** Protocolos UIC estándar |
-| R-177 | FENOCO sin protocolos UIC | Media | Alto | Bloqueo en sistema contra incendio | **Mitigación:** Estándares UIC implementados |
-| R-192 | FENOCO interoperabilidad | Media | Alto | Dependencia crítica para comunicaciones embarcadas | **Mitigación:** Protocolos UIC estándar |
-| R-207 | FENOCO sin protocolos UIC | Media | Alto | Bloqueo en ingeniería de detalle | **Mitigación:** Estándares UIC implementados |
-| R-222 | FENOCO interoperabilidad | Media | Alto | Dependencia crítica para material rodante | **Mitigación:** Protocolos UIC estándar |
+| R-002 | Interoperabilidad FENOCO | Media | Alto | Compatibilidad con sistemas FENOCO | **Mitigación:** Protocolos FRA/AREMA estándar |
+| R-027 | FENOCO sin protocolos FRA/AREMA | Media | Alto | Incompatibilidad con red existente | **Mitigación:** Implementar estándares FRA/AREMA |
+| R-052 | FENOCO interoperabilidad | Media | Alto | Dependencia crítica para integración | **Mitigación:** Protocolos FRA/AREMA estándar |
+| R-077 | FENOCO sin protocolos FRA/AREMA | Media | Alto | Bloqueo en interoperabilidad | **Mitigación:** Estándares FRA/AREMA implementados |
+| R-102 | FENOCO interoperabilidad | Media | Alto | Dependencia crítica para 33 sitios TETRA | **Mitigación:** Protocolos FRA/AREMA estándar |
+| R-117 | FENOCO sin protocolos FRA/AREMA | Media | Alto | Bloqueo en sistemas eléctricos | **Mitigación:** Estándares FRA/AREMA implementados |
+| R-132 | FENOCO interoperabilidad | Media | Alto | Dependencia crítica para comunicaciones embarcadas | **Mitigación:** Protocolos FRA/AREMA estándar |
+| R-147 | FENOCO sin protocolos FRA/AREMA | Media | Alto | Bloqueo en interfonía | **Mitigación:** Estándares FRA/AREMA implementados |
+| R-162 | FENOCO interoperabilidad | Media | Alto | Dependencia crítica para red de datos | **Mitigación:** Protocolos FRA/AREMA estándar |
+| R-177 | FENOCO sin protocolos FRA/AREMA | Media | Alto | Bloqueo en sistema contra incendio | **Mitigación:** Estándares FRA/AREMA implementados |
+| R-192 | FENOCO interoperabilidad | Media | Alto | Dependencia crítica para comunicaciones embarcadas | **Mitigación:** Protocolos FRA/AREMA estándar |
+| R-207 | FENOCO sin protocolos FRA/AREMA | Media | Alto | Bloqueo en ingeniería de detalle | **Mitigación:** Estándares FRA/AREMA implementados |
+| R-222 | FENOCO interoperabilidad | Media | Alto | Dependencia crítica para material rodante | **Mitigación:** Protocolos FRA/AREMA estándar |
 
 #### **📊 DISPONIBILIDAD AT4 (13 riesgos)**
 | ID | Riesgo | Prob | Impacto | Descripción | Estrategia |

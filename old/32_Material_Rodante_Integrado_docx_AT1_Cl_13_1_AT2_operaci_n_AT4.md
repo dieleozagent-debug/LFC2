@@ -50,7 +50,7 @@ El diseño detallado de los sistemas embarcados no puede finalizarse hasta que e
 - **Material Rodante ↔ PTC:** Interfaz para el control positivo de trenes usando PTC VIRTUAL Level 2 hasta AT3. **(Riesgo principal por bloqueo de AT3)**.
 - **Material Rodante ↔ TETRA:** Interfaz para comunicaciones de voz y datos de misión crítica.
 - **Material Rodante ↔ Mantenimiento (AT2):** El diseño debe facilitar el mantenimiento en los talleres definidos en AT1.
-- **Material Rodante ↔ FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos UIC.
+- **Material Rodante ↔ FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos FRA/AREMA.
 
 ---
 
@@ -88,7 +88,7 @@ La siguiente matriz integra los requisitos de los diferentes apéndices en funci
 |---|---|---|:---:|
 | **Locomotoras U18 o Equivalentes** | AT1, Cap. 5.1 | Puesta a Punto de locomotoras existentes, incluyendo motor, chasis y sistemas de frenado AAR. | ✅ Definido |
 | **Equipamiento Técnico Embarcado** | Cl. 13.1 | Instalación del "Módulo Base" (TETRA, GPS, Event Recorder) y preparación para el "Módulo PTC".<br>- **PTC PTC VIRTUAL Level 2 hasta AT3**<br>- **Disponibilidad 99.95% según AT4** | ⚠️ Condicionado |
-| **Interoperabilidad con FENOCO** | Cl. 13.2 | El diseño modular del PTC debe garantizar la compatibilidad futura con la red de FENOCO.<br>- **Protocolos UIC para interoperabilidad** | 🔴 Bloqueado |
+| **Interoperabilidad con FENOCO** | Cl. 13.2 | El diseño modular del PTC debe garantizar la compatibilidad futura con la red de FENOCO.<br>- **Protocolos FRA/AREMA para interoperabilidad** | 🔴 Bloqueado |
 | **Seguridad en Operación** | AT2, Cap. 3.1.2 | Integración de sistemas de seguridad, como el "hombre muerto" y alarmas de cabina. | ✅ Definido |
 | **Disponibilidad del Material Rodante** | AT4, Cap. 3-6 | El plan de mantenimiento (AT2) debe estar diseñado para cumplir con los KPIs de disponibilidad de AT4. | 🔴 Bloqueado |
 | **Factor de Calidad (si aplica)** | AT1, Cap. 5.3 | Plan de Puesta a Punto de locomotora U18 adicional o suministro de una nueva, incluyendo PTC. | ⚠️ Condicionado |
@@ -129,13 +129,13 @@ La aprobación de este documento conceptual permite:
 ### ✅ **MEJORAS IMPLEMENTADAS:**
 
 1. **🚂 PTC PTC VIRTUAL Level 2:** Estrategia de avance especificada hasta AT3 para sistemas embarcados
-2. **🔗 Interoperabilidad FENOCO:** Protocolos UIC especificados para compatibilidad con FENOCO
+2. **🔗 Interoperabilidad FENOCO:** Protocolos FRA/AREMA especificados para compatibilidad con FENOCO
 3. **📊 Criterios de Disponibilidad AT4:** 99.95% especificado para sistemas embarcados
 4. **🎯 Matriz de Requisitos:** Actualizada con criterios PTC, FENOCO y AT4
 
 ### 🎯 **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
 - ✅ **PTC:** PTC VIRTUAL Level 2 especificado como estándar hasta AT3
-- ✅ **FENOCO:** Protocolos UIC para interoperabilidad con FENOCO
+- ✅ **FENOCO:** Protocolos FRA/AREMA para interoperabilidad con FENOCO
 - ✅ **AT4:** Criterios de disponibilidad 99.95% para sistemas embarcados
 - ✅ **Interfaces:** Especificación de interfaces PTC y FENOCO
 
@@ -144,7 +144,7 @@ La aprobación de este documento conceptual permite:
 | **ID** | **Riesgo** | **Categoría** | **Probabilidad** | **Impacto** | **Descripción** |
 |:---:|:---|:---:|:---:|:---|:---|
 | **R-060** | **Dependencia AT3 para PTC** | **Técnico** | **Alta** | **Alto** | Especificaciones PTC embarcado pendientes de AT3 |
-| **R-061** | **Interoperabilidad FENOCO** | **Técnico** | **Media** | **Alto** | Compatibilidad con sistemas FENOCO requiere protocolos UIC |
+| **R-061** | **Interoperabilidad FENOCO** | **Técnico** | **Media** | **Alto** | Compatibilidad con sistemas FENOCO requiere protocolos FRA/AREMA |
 | **R-062** | **Disponibilidad 99.95%** | **Contractual** | **Media** | **Alto** | Cumplimiento AT4 requiere redundancia crítica en sistemas embarcados |
 | **R-063** | **Puesta a punto locomotora** | **Gestión** | **Media** | **Medio** | Complejidad de diagnóstico y reacondicionamiento de U18 |
 | **R-064** | **Integración módulos embarcados** | **Técnico** | **Media** | **Alto** | Complejidad de integración entre módulo base e PTC |
@@ -152,6 +152,6 @@ La aprobación de este documento conceptual permite:
 ### 📋 **RECOMENDACIONES PARA GESTIÓN DE RIESGOS:**
 - **Análisis PMI requerido** para definir estrategias de mitigación
 - **Plan de contingencia** para dependencias AT3 en PTC
-- **Protocolos de interoperabilidad** con FENOCO según UIC
+- **Protocolos de interoperabilidad** con FENOCO según FRA/AREMA
 - **Matriz de disponibilidad** para cumplimiento AT4
 - **Gestión de puesta a punto** crítica para locomotoras U18

@@ -15,7 +15,7 @@ Este documento presenta el **plan de integración de sistemas completo** para el
 ### **Base Técnica:**
 - **Longitud total:** 178 km La Dorada-Chiriguaná
 - **Sistemas integrados:** Civil, Eléctrico, Mecánico, Sistemas
-- **Estándares:** UIC, EN, IEEE, normas colombianas
+- **Estándares:** FRA/AREMA, EN, IEEE, normas colombianas
 - **Interoperabilidad:** Con red FENOCO
 
 ---
@@ -94,7 +94,7 @@ Este documento presenta el **plan de integración de sistemas completo** para el
 #### **3.1 Alimentación de Trenes**
 | Sistema | Tensión | Potencia | Observaciones |
 |:--------|:---------|:----------|:--------------|
-| **Tracción** | 25 kV AC | 3,000 kW | Trenes de pasajeros |
+| **Tracción** | Diesel-Eléctrica | 3,000 kW | Trenes de pasajeros |
 | **Servicios auxiliares** | 480V AC | 200 kW | Servicios del tren |
 | **Sistemas críticos** | 110V DC | 50 kW | Sistemas de seguridad |
 | **Sistemas de respaldo** | 24V DC | 10 kW | Sistemas de emergencia |
@@ -193,7 +193,7 @@ Este documento presenta el **plan de integración de sistemas completo** para el
 | Sistema | Parámetro | Frecuencia | Observaciones |
 |:--------|:----------|:------------|:--------------|
 | **Subestaciones** | Tensión, corriente | Continua | Medidores digitales |
-| **Catenaria** | Tensión, corriente | Continua | Medidores digitales |
+| **Infraestructura Diesel** | Tensión, corriente | Continua | Medidores digitales |
 | **Distribución** | Tensión, corriente | Continua | Medidores digitales |
 | **Puesta a tierra** | Resistencia | Mensual | Medición de resistencia |
 

@@ -116,7 +116,7 @@
 |:-------------|:---------------------|:-------------|:--------------|:-------|
 | **Civil** | NSR-10, Decreto 1400 | 100% | ✅ Certificado | ✅ Completado |
 | **Eléctrica** | RETIE, NTC 2050 | 100% | ✅ Certificado | ✅ Completado |
-| **Mecánica** | UIC, AAR, EN 50126 | 100% | ✅ Certificado | ✅ Completado |
+| **Mecánica** | FRA/AREMA, AAR, EN 50126 | 100% | ✅ Certificado | ✅ Completado |
 | **Sistemas** | EN 50126/50128/50129 | 100% | ✅ Certificado | ✅ Completado |
 | **Ambiental** | Resolución 1405, ISO 14001 | 100% | ✅ Certificado | ✅ Completado |
 
@@ -223,9 +223,9 @@
 | Sistema | Estándar | Cumplimiento | Certificación | Estado |
 |:--------|:---------|:-------------|:--------------|:-------|
 | **Control** | EN 50126/50128/50129 | 100% | ✅ Certificado | ✅ Aprobado |
-| **Telecom** | UIC 920-2, IEC 61850 | 100% | ✅ Certificado | ✅ Aprobado |
+| **Telecom** | FRA/AREMA 920-2, IEC 61850 | 100% | ✅ Certificado | ✅ Aprobado |
 | **Seguridad** | EN 50126, IEC 62443 | 100% | ✅ Certificado | ✅ Aprobado |
-| **Material** | UIC, AAR, EN 50126 | 100% | ✅ Certificado | ✅ Aprobado |
+| **Material** | FRA/AREMA, AAR, EN 50126 | 100% | ✅ Certificado | ✅ Aprobado |
 | **Infraestructura** | NSR-10, RETIE | 100% | ✅ Certificado | ✅ Aprobado |
 
 ### **8.2 Control de Calidad por Especialidades**
@@ -234,7 +234,7 @@
 |:-------------|:---------|:-------------|:----------|:-------|
 | **Civil** | NSR-10, Decreto 1400 | 100% | ✅ Aprobada | ✅ Certificado |
 | **Eléctrica** | RETIE, NTC 2050 | 100% | ✅ Aprobada | ✅ Certificado |
-| **Mecánica** | UIC, AAR | 100% | ✅ Aprobada | ✅ Certificado |
+| **Mecánica** | FRA/AREMA, AAR | 100% | ✅ Aprobada | ✅ Certificado |
 | **Sistemas** | EN 50126/50128/50129 | 100% | ✅ Aprobada | ✅ Certificado |
 | **Ambiental** | ISO 14001, Resolución 1405 | 100% | ✅ Aprobada | ✅ Certificado |
 

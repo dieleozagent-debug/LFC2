@@ -133,7 +133,7 @@
 ### **ESTÁNDARES APLICADOS**
 - ✅ **EN 50126/50128/50129:** Sistemas ferroviarios
 - ✅ **IEC 62443:** Ciberseguridad
-- ✅ **UIC 615:** Señalización ferroviaria
+- ✅ **FRA/AREMA 615:** Señalización ferroviaria
 - ✅ **RETIE:** Instalaciones eléctricas
 - ✅ **NSR-10:** Norma sismo resistente
 

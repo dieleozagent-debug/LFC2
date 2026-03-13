@@ -8,7 +8,7 @@
 ---
 
 ## 1. VISIÓN GENERAL DE LA INGENIERÍA BÁSICA
-La Ingeniería Básica (Fase IV) se consolida bajo el estándar **PTC Virtual (FRA 236)**. Se eliminan todas las propuestas de diseño basadas en arquitecturas propietarias (Alstom PTC) o europeas (ERTMS/PTC VIRTUAL) detectadas en versiones anteriores.
+La Ingeniería Básica (Fase IV) se consolida bajo el estándar **PTC Virtual (FRA 236)**. Se eliminan todas las propuestas de diseño basadas en arquitecturas propietarias (Alstom PTC) o europeas (PTC Virtual/PTC VIRTUAL) detectadas en versiones anteriores.
 
 ### 1.1 Objetivos de Diseño Saneados:
 - **Seguridad Vital:** Basada en Servidores Vitales 2oo3 con protocolo **Vital IP**.

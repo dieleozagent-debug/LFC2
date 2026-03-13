@@ -42,25 +42,25 @@ Se ha iniciado la **Fase 1: Validación Técnica y Contractual** del proyecto, v
 - **Estado:** ✅ Especificaciones completas y consistentes
 
 #### **✅ Centro de Control de Tráfico (V.2)**
-- **Normas aplicadas:** EN 50126/50128/50129, IEC 62290, UIC 615, FFFIS
+- **Normas aplicadas:** EN 50126/50128/50129, IEC 62290, FRA/AREMA 615, FFFIS
 - **Capacidad:** 24 trenes simultáneos, 146 km de vía
 - **Disponibilidad:** 99.95% operacional
 - **Estado:** ✅ Especificaciones completas y consistentes
 
 #### **✅ Sistemas de Comunicación (V.3)**
 - **Componentes:** RED TETRA (Misión Crítica), fibra óptica, TETRA, VSAT
-- **Normas aplicadas:** EN 50126/50128/50129, IEC 62290, UIC 615, EIRENE
+- **Normas aplicadas:** EN 50126/50128/50129, IEC 62290, FRA/AREMA 615, EIRENE
 - **Disponibilidad:** 99.9% operacional
 - **Estado:** ✅ Especificaciones completas y consistentes
 
 #### **✅ Sistemas de Potencia (V.4)**
 - **Componentes:** Subestaciones, UPS, generadores
-- **Normas aplicadas:** EN 50126/50128/50129, IEC 62290, UIC 615
+- **Normas aplicadas:** EN 50126/50128/50129, IEC 62290, FRA/AREMA 615
 - **Estado:** ✅ Especificaciones completas y consistentes
 
 #### **✅ Sistemas de Seguridad (V.5)**
 - **Componentes:** Funcional, ciberseguridad, física
-- **Normas aplicadas:** EN 50126/50128/50129, IEC 62290, UIC 615
+- **Normas aplicadas:** EN 50126/50128/50129, IEC 62290, FRA/AREMA 615
 - **Estado:** ✅ Especificaciones completas y consistentes
 
 ---
@@ -88,7 +88,7 @@ Se ha iniciado la **Fase 1: Validación Técnica y Contractual** del proyecto, v
 - **EN 50128:** Sistemas de software para control ferroviario
 - **EN 50129:** Sistemas de señalización ferroviaria
 - **IEC 62290:** Sistemas de gestión del tráfico ferroviario
-- **UIC 615:** Señalización ferroviaria
+- **FRA/AREMA 615:** Señalización ferroviaria
 - **PTC VIRTUAL Level 2:** Sistema europeo de control de trenes
 
 ### **✅ Normas Nacionales Aplicadas**

@@ -73,7 +73,7 @@ Este roadmap establece la ruta de trabajo para el desarrollo de la ingeniería d
 ### Bloque 2.0: Criterios de Diseño Transversales
 | WBS ID | Documento | Estado | Fecha | Observaciones |
 |:---|:---|:---:|:---:|---|
-| B.7 | `../III. Ingenieria conceptual/33_Criterios_Normatividad_docx_AREMA_UIC_RETIE_ISO_TC_204_NSR_10_NFPA.md` | ✅ Completado | 19/09/2025 | Criterios de normatividad nacional e internacional. |
+| B.7 | `../III. Ingenieria conceptual/33_Criterios_Normatividad_docx_AREMA_FRA/AREMA_RETIE_ISO_TC_204_NSR_10_NFPA.md` | ✅ Completado | 19/09/2025 | Criterios de normatividad nacional e internacional. |
 | B.8 | `../III. Ingenieria conceptual/34_Criterios_Interoperabilidad_docx_Compatibilidad_con_FENOCO_y_ANI.md` | ✅ Completado | 19/09/2025 | Criterios de interoperabilidad con FENOCO y ANI. |
 | B.9 | `../III. Ingenieria conceptual/35_Criterios_Redundancia_docx_Disponibilidad_y_respaldo_de_sistemas_cr_ticos.md` | ✅ Completado | 19/09/2025 | Criterios de redundancia y disponibilidad. |
 | B.10 | `../III. Ingenieria conceptual/36_Criterios_Ciberseguridad_docx_Protecci_n_de_sistemas_de_control.md` | ✅ Completado | 19/09/2025 | Criterios de ciberseguridad para sistemas de control. |

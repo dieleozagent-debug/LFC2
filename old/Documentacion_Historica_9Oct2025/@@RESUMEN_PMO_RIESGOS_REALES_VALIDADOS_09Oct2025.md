@@ -15,7 +15,7 @@
 | ID | Descripción | Prob | Impacto | Exposición | Fuente Real |
 |:--:|:------------|:----:|:--------|:----------:|:------------|
 | **R-AT3-01** | Dependencia AT3 para PTC PTC VIRTUAL L2 | Alta | Alto | ALTA | `III/36.1_Analisis_Riesgos_PMI.md` |
-| **R-INT-01** | Interoperabilidad con FENOCO (UIC) | Media | Alto | MEDIA | `III/36.1` + `IV/41.Interfaces` |
+| **R-INT-01** | Interoperabilidad con FENOCO (FRA/AREMA) | Media | Alto | MEDIA | `III/36.1` + `IV/41.Interfaces` |
 | **R-AT4-01** | Cumplimiento disponibilidad AT4 | Media | Alto | MEDIA | AT4 Contractual |
 | **R-CYB-01** | Ciberseguridad IEC 62443 | Media | Alto | MEDIA | `VII.2.11_Ciberseguridad` |
 | **R-IF-01** | Desalineación en interfaces (ICD) | Alta | Alto | ALTA | `IV/41.Interfaces` |

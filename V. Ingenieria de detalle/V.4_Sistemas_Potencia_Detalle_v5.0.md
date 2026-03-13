@@ -22,7 +22,7 @@ La ingeniería de potencia se redimensiona para soportar exclusivamente la infra
 
 ---
 
-## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE RED TETRA (Misión Crítica)/ERTMS)
+## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE RED TETRA (Misión Crítica)/PTC Virtual)
 
 Se han corregido los siguientes desvíos técnicos de la v5.0:
 - ✅ **ELIMINADO:** Dimensionamiento de transformadores para 37 estaciones RED TETRA (Misión Crítica).
@@ -40,6 +40,6 @@ Se han corregido los siguientes desvíos técnicos de la v5.0:
 
 ## ✅ CONCLUSIONES:
 
-La ingeniería de detalle de potencia ahora refleja fielmente las necesidades de un sistema moderno y eficiente. Al purgar las cargas redundantes del RED TETRA (Misión Crítica) y ERTMS, aseguramos la viabilidad técnica y financiera del proyecto, alineándonos con la **Soberanía Tecnológica**.
+La ingeniería de detalle de potencia ahora refleja fielmente las necesidades de un sistema moderno y eficiente. Al purgar las cargas redundantes del RED TETRA (Misión Crítica) y PTC Virtual, aseguramos la viabilidad técnica y financiera del proyecto, alineándonos con la **Soberanía Tecnológica**.
 
 **Saneamiento Ciclo 5 - Ingeniería de Detalle Potencia Finalizado.**

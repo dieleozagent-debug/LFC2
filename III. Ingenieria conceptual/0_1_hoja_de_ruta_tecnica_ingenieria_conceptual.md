@@ -24,7 +24,7 @@ La Ingeniería Conceptual define los pilares tecnológicos del corredor férreo 
 - **Resiliencia:** Capacidad de conmutación automática entre Fibra y Radio para el SICC.
 
 #### **C. INTEROPERABILIDAD: STOP & SWITCH**
-- **Protocolo:** Se descarta la integración vía protocolos UIC por complejidad regulatoria.
+- **Protocolo:** Se descarta la integración vía protocolos FRA/AREMA por complejidad regulatoria.
 - **Solución:** Procedimiento operacional **Stop & Switch** en el nodo de intercambio con FENOCO.
 
 ---

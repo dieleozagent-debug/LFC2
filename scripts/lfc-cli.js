@@ -185,7 +185,7 @@ function cook(sistema = null) {
         let contenido = fs.readFileSync(rutaEjecutivo, 'utf8');
         
         // VALIDACIÓN DE SOBERANÍA (Protocolo v2.0)
-        const blacklist = ["UIC", "ERTMS", "ETCS", "GSM-R", "EUROBALIZA"];
+        const blacklist = ["FRA/AREMA", "PTC Virtual", "PTC", "TETRA/LTE", "EUROBALIZA"];
         const detectados = blacklist.filter(term => contenido.toUpperCase().includes(term));
         
         if (detectados.length > 0) {

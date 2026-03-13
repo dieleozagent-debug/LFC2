@@ -4,7 +4,7 @@
 **Fecha:** 02/10/2025  
 **Sistema:** Sistemas de Seguridad  
 **Fase:** D. Ingeniería de Detalle  
-**Referencias:** EN 50126/50128/50129, IEC 62290, UIC 615, IEC 62443, ISO 27001
+**Referencias:** EN 50126/50128/50129, IEC 62290, FRA/AREMA 615, IEC 62443, ISO 27001
 
 ---
 
@@ -409,7 +409,7 @@ Este documento detalla la ingeniería de los sistemas de seguridad para el proye
 - **IEC 62290:** Sistemas de gestión ferroviaria
 - **IEC 62443:** Seguridad de sistemas de automatización industrial
 - **ISO 27001:** Sistemas de gestión de seguridad de la información
-- **UIC 615:** Sistemas de control de tráfico ferroviario
+- **FRA/AREMA 615:** Sistemas de control de tráfico ferroviario
 
 ### 10.4 Control de Versiones
 | Versión | Fecha | Autor | Cambios |

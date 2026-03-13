@@ -50,7 +50,7 @@ El diseño detallado de todos los sistemas está bloqueado hasta que estos crite
 - **Redundancia ↔ Sistemas Eléctricos:** La doble acometida, los UPS y los generadores son la base de la disponibilidad de todos los demás sistemas.
 - **Redundancia ↔ SICC (AT4):** El SICC debe monitorear el estado de los sistemas redundantes y registrar cualquier evento de conmutación para el cálculo de los KPIs de disponibilidad.
 - **🚂 Redundancia ↔ PTC:** Sistemas de control embarcados con redundancia PTC VIRTUAL Level 2 hasta AT3
-- **🔗 Redundancia ↔ FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos UIC
+- **🔗 Redundancia ↔ FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos FRA/AREMA
 
 ---
 
@@ -115,7 +115,7 @@ La siguiente matriz asigna un nivel de redundancia a cada sistema crítico del p
 | **Enclavamientos Electrónicos** | **Vital** | **2N** | - Procesadores de seguridad duplicados (2oo2) | AT3, Cap. 8.1 |
 | **Controladores Red TETRA** | **Crítico** | **N+1** | - Controladores de sitio (SwMI) | AT4 (Indicador COM1) |
 | **🚂 PTC Embarcado** | **Vital** | **2N** | - Sistemas de control embarcados PTC VIRTUAL Level 2 hasta AT3 | AT4 (Disponibilidad 99.95%) |
-| **🔗 Interfaces FENOCO** | **Crítico** | **N+1** | - Protocolos UIC para interoperabilidad | AT4 (Interoperabilidad) |
+| **🔗 Interfaces FENOCO** | **Crítico** | **N+1** | - Protocolos FRA/AREMA para interoperabilidad | AT4 (Interoperabilidad) |
 
 ---
 
@@ -162,7 +162,7 @@ La aprobación de estos criterios de redundancia permite:
 
 ### **MEJORAS IMPLEMENTADAS:**
 1. **Interfaces Críticas PTC:** Integración de sistemas de control embarcados con redundancia PTC VIRTUAL Level 2 hasta AT3
-2. **Interfaces Críticas FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos UIC
+2. **Interfaces Críticas FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos FRA/AREMA
 3. **Matriz de Redundancia PTC:** PTC Embarcado como sistema Vital con redundancia 2N
 4. **Matriz de Redundancia FENOCO:** Interfaces FENOCO como sistema Crítico con redundancia N+1
 

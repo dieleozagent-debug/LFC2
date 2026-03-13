@@ -51,7 +51,7 @@ El diseño detallado de la señalización no puede avanzar hasta que este concep
 - **Señalización ↔ Gestión Social (AT8):** El diseño de la señalización en pasos a nivel debe considerar las campañas de cultura vial y la seguridad de las comunidades.
 - **Señalización ↔ Energía:** Requiere alimentación eléctrica redundante y respaldada por UPS para garantizar la operación continua y segura.
 - **Señalización ↔ PTC:** Preparación de interfaces para integración con sistemas de control embarcados usando PTC VIRTUAL Level 2 hasta AT3.
-- **Señalización ↔ FENOCO:** Compatibilidad con estándares de señalización FENOCO según protocolos UIC.
+- **Señalización ↔ FENOCO:** Compatibilidad con estándares de señalización FENOCO según protocolos FRA/AREMA.
 
 ---
 
@@ -83,7 +83,7 @@ La siguiente matriz integra los requisitos de los diferentes apéndices en funci
 | **Disponibilidad PNBC 100%** | AT4 | Diseño de sistemas de protección de PN con redundancia en alimentación y comunicación para garantizar disponibilidad total. | 🔴 Bloqueado |
 | **Cultura Vial Ferroviaria** | AT8, Cap. 7.19 | Diseño de señalización en PN (especialmente Tipo A) coordinado con las campañas de capacitación y sensibilización comunitaria. | ✅ Definido |
 | **Integración con CTC** | AT3, Cap. 8.2 | Implementación de interfaz SCI-CC-A (NAS 830) en cada enclavamiento para la comunicación con el CTC. | ✅ Definido |
-| **Integración PTC/PTC** | AT1, Tabla 17 | Preparación de interfaces en enclavamientos para la futura integración con el sistema de control positivo de trenes.<br>- **PTC PTC VIRTUAL Level 2 hasta AT3**<br>- **Interoperabilidad FENOCO UIC** | 🔴 Bloqueado |
+| **Integración PTC/PTC** | AT1, Tabla 17 | Preparación de interfaces en enclavamientos para la futura integración con el sistema de control positivo de trenes.<br>- **PTC PTC VIRTUAL Level 2 hasta AT3**<br>- **Interoperabilidad FENOCO FRA/AREMA** | 🔴 Bloqueado |
 
 ### 4.2 Indicadores de Riesgo por Bloqueo AT3/AT4
 - **🟢 Verde (Proceder):** Diseño conceptual de la filosofía de señalización, diseño de PN Tipo A, planificación de la implementación por fases, coordinación con programas de AT8.
@@ -121,13 +121,13 @@ La aprobación de este documento conceptual permite:
 ### ✅ **MEJORAS IMPLEMENTADAS:**
 
 1. **🚂 PTC PTC VIRTUAL Level 2:** Preparación de interfaces especificada para integración con sistemas de control embarcados
-2. **🔗 Interoperabilidad FENOCO:** Protocolos UIC especificados para compatibilidad con FENOCO
+2. **🔗 Interoperabilidad FENOCO:** Protocolos FRA/AREMA especificados para compatibilidad con FENOCO
 3. **📊 Criterios de Disponibilidad AT4:** 99.95% especificado para enclavamientos
 4. **🎯 Matriz de Requisitos:** Actualizada con criterios PTC, FENOCO y AT4
 
 ### 🎯 **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
 - ✅ **PTC:** Preparación de interfaces PTC VIRTUAL Level 2 especificada para enclavamientos
-- ✅ **FENOCO:** Protocolos UIC para compatibilidad con estándares FENOCO
+- ✅ **FENOCO:** Protocolos FRA/AREMA para compatibilidad con estándares FENOCO
 - ✅ **AT4:** Criterios de disponibilidad 99.95% para enclavamientos
 - ✅ **Interfaces:** Especificación de interfaces PTC y FENOCO
 
@@ -136,7 +136,7 @@ La aprobación de este documento conceptual permite:
 | **ID** | **Riesgo** | **Categoría** | **Probabilidad** | **Impacto** | **Descripción** |
 |:---:|:---|:---:|:---:|:---|:---|
 | **R-045** | **Dependencia AT3 para equipos** | **Técnico** | **Alta** | **Alto** | Especificaciones de señalización pendientes de AT3 |
-| **R-046** | **Interoperabilidad FENOCO** | **Técnico** | **Media** | **Alto** | Compatibilidad con estándares FENOCO requiere protocolos UIC |
+| **R-046** | **Interoperabilidad FENOCO** | **Técnico** | **Media** | **Alto** | Compatibilidad con estándares FENOCO requiere protocolos FRA/AREMA |
 | **R-047** | **Disponibilidad 99.95%** | **Contractual** | **Media** | **Alto** | Cumplimiento AT4 requiere redundancia crítica |
 | **R-048** | **Gestión de 146 PN** | **Gestión** | **Media** | **Medio** | Complejidad de implementación por fases |
 | **R-049** | **Integración PTC-Señalización** | **Técnico** | **Media** | **Alto** | Complejidad de preparación de interfaces |
@@ -144,6 +144,6 @@ La aprobación de este documento conceptual permite:
 ### 📋 **RECOMENDACIONES PARA GESTIÓN DE RIESGOS:**
 - **Análisis PMI requerido** para definir estrategias de mitigación
 - **Plan de contingencia** para dependencias AT3
-- **Protocolos de interoperabilidad** con FENOCO según UIC
+- **Protocolos de interoperabilidad** con FENOCO según FRA/AREMA
 - **Matriz de disponibilidad** para cumplimiento AT4
 - **Gestión de PN** crítica para 146 pasos a nivel

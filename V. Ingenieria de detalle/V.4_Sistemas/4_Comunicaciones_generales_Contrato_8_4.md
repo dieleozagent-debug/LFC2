@@ -56,7 +56,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 - **Estándares:** ETSI EN 300 392 para equipos de radio
 - **Backhaul:** Fibra óptica principal, microondas como respaldo en sitios críticos
 - **🚂 PTC PTC VIRTUAL Level 2:** Interfaces para control embarcado hasta AT3
-- **🔗 Interoperabilidad FENOCO:** Compatibilidad con sistemas FENOCO según protocolos UIC
+- **🔗 Interoperabilidad FENOCO:** Compatibilidad con sistemas FENOCO según protocolos FRA/AREMA
 - **📊 Disponibilidad AT4:** Cumplimiento de disponibilidad 99.5% según indicadores contractuales
 
 ---
@@ -132,7 +132,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 ### 1.2 ⚠️ INCONSISTENCIAS IDENTIFICADAS EN EL DOCUMENTO ORIGINAL
 1. **Descripción genérica:** El documento usa descripción genérica de "Ingeniería de Detalle" en lugar de especificar comunicaciones ferroviarias
 2. **Falta de especificaciones técnicas:** Solo 3 líneas de contenido técnico real sobre comunicaciones
-3. **Sin referencia a normativas ferroviarias:** No menciona estándares UIC, AREMA específicos para comunicaciones ferroviarias
+3. **Sin referencia a normativas ferroviarias:** No menciona estándares FRA/AREMA, AREMA específicos para comunicaciones ferroviarias
 4. **Objetivos vagos:** Los objetivos son genéricos, no específicos para comunicaciones ferroviarias
 5. **Cronograma genérico:** No considera tiempos específicos para instalación de redes de comunicaciones
 6. **Sin integración con otros sistemas:** No menciona interfaces con TETRA, fibra óptica, ITS
@@ -157,7 +157,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 - **RETIE:** Reglamento Técnico de Instalaciones Eléctricas
 - **NSR-10:** Norma Sismorresistente
 - **AREMA:** American Railway Engineering and Maintenance-of-Way Association
-- **UIC:** Union Internationale des Chemins de fer
+- **FRA/AREMA:** Union Internationale des Chemins de fer
 
 ### 1.3 Indicadores de Cumplimiento
 - **Disponibilidad del sistema:** 99.9%
@@ -200,7 +200,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 - **Comunicaciones ↔ Fibra Óptica:** Integración de red de comunicaciones
 - **Comunicaciones ↔ ITS:** Integración del sistema de información de tránsito
 - **🚂 Comunicaciones ↔ PTC:** Interfaces para control embarcado PTC VIRTUAL Level 2 hasta AT3
-- **🔗 Comunicaciones ↔ FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos UIC
+- **🔗 Comunicaciones ↔ FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos FRA/AREMA
 
 ## 3. OPTIMIZACIONES EPC ESPECÍFICAS PARA COMUNICACIONES
 
@@ -323,9 +323,9 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 ### **MEJORAS IMPLEMENTADAS:**
 1. **Interfaces Críticas PTC:** Interfaces para control embarcado PTC VIRTUAL Level 2 hasta AT3
-2. **Interfaces Críticas FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos UIC
+2. **Interfaces Críticas FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos FRA/AREMA
 3. **Especificaciones Técnicas TETRA PTC:** Interfaces para control embarcado hasta AT3
-4. **Especificaciones Técnicas TETRA FENOCO:** Compatibilidad con sistemas FENOCO según protocolos UIC
+4. **Especificaciones Técnicas TETRA FENOCO:** Compatibilidad con sistemas FENOCO según protocolos FRA/AREMA
 5. **Disponibilidad AT4:** Cumplimiento de disponibilidad 99.5% según indicadores contractuales
 
 ### **VACÍOS IDENTIFICADOS Y CORREGIDOS:**

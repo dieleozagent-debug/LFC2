@@ -70,7 +70,7 @@ AT3 menciona sistemas diferentes sin definir cuál implementar:
 2. **PTC VIRTUAL Level 2** (European Train Control System)
    - Costo estimado: $12M USD ⭐ RECOMENDADO PMO
    - Lead time: 12 meses
-   - Normativa: UIC, CENELEC
+   - Normativa: FRA/AREMA, CENELEC
 
 3. **CTC Adif** (Sistema español)
    - Costo estimado: $10M USD
@@ -85,7 +85,7 @@ AT3 menciona sistemas diferentes sin definir cuál implementar:
 **60 días desde HOY**
 
 **PLAN B (si no hay respuesta Mes 6):**
-PMO asumirá normas mixtas con diseño de gateway interoperable según UIC 918-4, documentando supuestos formales. Cliente asume riesgo de compatibilidad futura.
+PMO asumirá normas mixtas con diseño de gateway interoperable según FRA/AREMA 918-4, documentando supuestos formales. Cliente asume riesgo de compatibilidad futura.
 
 **Responsable PMO:** Gerencia Técnica + PMO  
 **Requiere Decisión:** ANI + Concesionario
@@ -171,7 +171,7 @@ PMO asumirá cronograma genérico: Entrega M20 (escalonada M20-30), diseñando s
    - Versión, arquitectura, protocolos
 
 2. **Protocolos de comunicación**
-   - ¿UIC 918-4? ¿Propietario? ¿Otro?
+   - ¿FRA/AREMA 918-4? ¿Propietario? ¿Otro?
    - Formato mensajes, APIs (si existen)
 
 3. **Requisitos de interoperabilidad**
@@ -186,7 +186,7 @@ PMO asumirá cronograma genérico: Entrega M20 (escalonada M20-30), diseñando s
 **60 días desde HOY**
 
 **PLAN B (si no hay respuesta Mes 6):**
-Concesionario entregará documento "Compatibilidad MR" con gateway UIC 918-4 estándar genérico, sin integración específica con sistemas FENOCO. Responsabilidad de integración futura será de FENOCO/Concesionario post-entrega.
+Concesionario entregará documento "Compatibilidad MR" con gateway FRA/AREMA 918-4 estándar genérico, sin integración específica con sistemas FENOCO. Responsabilidad de integración futura será de FENOCO/Concesionario post-entrega.
 
 **Responsable PMO:** Gerencia Técnica + Gerencia Operaciones
 
@@ -331,13 +331,13 @@ Concesionario entregará documento "Compatibilidad MR" con gateway UIC 918-4 est
 ## ✅ **PLAN B DOCUMENTADO (Si no hay respuesta)**
 
 ### **Para BLOCKER-001 (PTC):**
-- Diseñar con normas mixtas AAR + Adif + UIC
+- Diseñar con normas mixtas AAR + Adif + FRA/AREMA
 - Gateway interoperable multi-protocolo
 - Documentación completa de supuestos
 - Costo adicional: $0 (incluido en contingencia)
 
 ### **Para BLOCKER-002 (FENOCO):**
-- Gateway UIC 918-4 genérico
+- Gateway FRA/AREMA 918-4 genérico
 - Sin integración específica Trainguard
 - Interoperabilidad "teórica" documentada
 - Responsabilidad integración: FENOCO post-entrega

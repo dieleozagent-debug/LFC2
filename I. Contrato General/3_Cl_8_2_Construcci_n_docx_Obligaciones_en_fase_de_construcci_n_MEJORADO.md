@@ -491,7 +491,7 @@ Proxima actualizacion: 27/02/2025
    - **Simulación de capacidad:** Pruebas de integración CTC-señalización-PTC
 
 2. **🔗 INTEROPERABILIDAD FENOCO EN CONSTRUCCIÓN:**
-   - **Protocolos UIC:** Implementación de estándares UIC durante montaje
+   - **Protocolos FRA/AREMA:** Implementación de estándares FRA/AREMA durante montaje
    - **Coordinación técnica:** Pruebas de interoperabilidad con FENOCO
    - **Integración de sistemas:** Validación de compatibilidad con red existente
    - **Pruebas operativas:** Validación con material rodante real
@@ -569,7 +569,7 @@ Proxima actualizacion: 27/02/2025
 
 1. **Inmediato (0-3 meses):**
    - Preparar montaje de equipos PTC PTC VIRTUAL Level 2
-   - Establecer protocolos UIC para pruebas FENOCO
+   - Establecer protocolos FRA/AREMA para pruebas FENOCO
    - Implementar SICC con telemetría
 
 2. **Mediano plazo (3-18 meses):**

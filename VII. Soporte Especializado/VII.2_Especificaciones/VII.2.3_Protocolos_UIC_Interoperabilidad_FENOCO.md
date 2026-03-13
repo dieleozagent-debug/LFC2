@@ -42,7 +42,7 @@ Este documento establece el procedimiento de **Interoperabilidad Operacional** e
 ## 🚫 **3. PURGA DE INFRAESTRUCTURA TÉCNICA**
 
 ### **3.1 ELIMINACIÓN DE GATEWAYS**
-Se eliminan todos los ítems de hardware y software destinados a "Gateway UIC" o "PTC VIRTUAL Bridge". La seguridad de la transición recae en el cumplimiento estricto del procedimiento operacional y la demarcación lógica en el SICC.
+Se eliminan todos los ítems de hardware y software destinados a "Gateway FRA/AREMA" o "PTC VIRTUAL Bridge". La seguridad de la transición recae en el cumplimiento estricto del procedimiento operacional y la demarcación lógica en el SICC.
 
 ### **3.2 COMUNICACIONES**
 La coordinación entre despachadores (CCO La Dorada y Control FENOCO) se realiza mediante enlace de voz directo y mensajería administrativa, sin intercambio de datos vitales automáticos.
@@ -53,7 +53,7 @@ La coordinación entre despachadores (CCO La Dorada y Control FENOCO) se realiza
 
 | Versión | Fecha | Responsable | Cambio (Karpathy Purge) |
 |:---:|:---:|:---|:---|
-| **v2.0** | 13/03/2026 | Admin. Contractual | **RE-ESCRITURA TOTAL**. Eliminados Gateways y protocolos UIC técnicos. Establecido modo "Stop & Switch". |
+| **v2.0** | 13/03/2026 | Admin. Contractual | **RE-ESCRITURA TOTAL**. Eliminados Gateways y protocolos FRA/AREMA técnicos. Establecido modo "Stop & Switch". |
 | **v1.0** | 27/01/2025 | Ing. Integración | Versión obsoleta basada en Gateways técnicos (HALLUCINATED). |
 
 ---

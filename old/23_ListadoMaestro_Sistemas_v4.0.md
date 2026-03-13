@@ -81,14 +81,14 @@ Este documento consolida el Listado Maestro de Sistemas que el EPC debe implemen
 - **Funciones:** Control centralizado, asignación de surcos, coordinación con FENOCO
 - **Disponibilidad:** 99.95% según AT4
 - **Ubicación:** La Dorada, Caldas
-- **Interoperabilidad:** Protocolos UIC para coordinación con FENOCO
+- **Interoperabilidad:** Protocolos FRA/AREMA para coordinación con FENOCO
 
 #### **1.2 Sistema ATP Embarcado (15 Locomotoras)**
 - **Referencias:** AT1 (Cap. 5.1), AT3 (Cap. 8.10), Cl. 13.1 del Contrato
 - **Funciones:** Control automático de velocidad, autorización de movimiento, protección contra colisiones
 - **Disponibilidad:** 99.95% según AT4
 - **Componentes:** Computadora ATP, sensores, display maquinista, radio TETRA+RED TETRA (Misión Crítica)
-- **Interoperabilidad:** Compatible con sistemas FENOCO según estándares UIC
+- **Interoperabilidad:** Compatible con sistemas FENOCO según estándares FRA/AREMA
 
 #### **1.3 Enclavamientos Electrónicos (ENCE) - 5 ESTACIONES**
 - **Referencias:** AT1 (Cap. 4.3.2), AT3 (Cap. 8.1)
@@ -119,7 +119,7 @@ Este documento consolida el Listado Maestro de Sistemas que el EPC debe implemen
 - **Funciones:** Comunicaciones tren-tierra, seguridad operativa, interoperabilidad FENOCO
 - **Cobertura:** 100% del corredor + solapamiento 15-20%
 - **Disponibilidad:** 99.5% según AT4
-- **Interoperabilidad:** Frecuencias y protocolos UIC compatibles con FENOCO
+- **Interoperabilidad:** Frecuencias y protocolos FRA/AREMA compatibles con FENOCO
 
 #### **2.2 Sistema RED TETRA (Misión Crítica) (37 ESTACIONES) - NUEVO**
 - **Referencias:** Criterios Técnicos Maestros v1.0
@@ -348,7 +348,7 @@ Cada sistema listado cumple con los siguientes criterios:
 - Criterios Técnicos Maestros v1.0
 - Especificaciones técnicas actualizadas
 - Manuales de procedimientos
-- Documentación de referencia UIC/EN
+- Documentación de referencia FRA/AREMA/EN
 
 ---
 

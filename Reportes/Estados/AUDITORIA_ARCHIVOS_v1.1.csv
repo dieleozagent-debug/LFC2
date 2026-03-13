@@ -54,7 +54,7 @@ III. Ingenieria conceptual/39. PlanosPreliminares_localizacion torres tetra_fibr
 III. Ingenieria conceptual/34_Criterios_Interoperabilidad_docx_Compatibilidad_con_FENOCO_y_ANI.md,34_Criterios_Interoperabilidad_docx_Compatibilidad_con_FENOCO_y_ANI.md,,TRA,TRA_Criterios-Interoperabilidad_FENOCO-ANI_v1.0.md,Interoperabilidad,COMPLETO
 III. Ingenieria conceptual/36_Criterios_Ciberseguridad_docx_Protecci_n_de_sistemas_de_control.md,36_Criterios_Ciberseguridad_docx_Protecci_n_de_sistemas_de_control.md,,TRA,TRA_Criterios-Ciberseguridad_Sistemas-Control_v1.0.md,Ciberseguridad,COMPLETO
 III. Ingenieria conceptual/35_Criterios_Redundancia_docx_Disponibilidad_y_respaldo_de_sistemas_cr_ticos.md,35_Criterios_Redundancia_docx_Disponibilidad_y_respaldo_de_sistemas_cr_ticos.md,,TRA,TRA_Criterios-Redundancia_Disponibilidad_v1.0.md,Redundancia,COMPLETO
-III. Ingenieria conceptual/33_Criterios_Normatividad_docx_AREMA_UIC_RETIE_ISO_TC_204_NSR_10_NFPA.md,33_Criterios_Normatividad_docx_AREMA_UIC_RETIE_ISO_TC_204_NSR_10_NFPA.md,,TRA,TRA_Criterios-Normatividad_AREMA-UIC-RETIE_v1.0.md,Normatividad,COMPLETO
+III. Ingenieria conceptual/33_Criterios_Normatividad_docx_AREMA_FRA/AREMA_RETIE_ISO_TC_204_NSR_10_NFPA.md,33_Criterios_Normatividad_docx_AREMA_FRA/AREMA_RETIE_ISO_TC_204_NSR_10_NFPA.md,,TRA,TRA_Criterios-Normatividad_AREMA-FRA/AREMA-RETIE_v1.0.md,Normatividad,COMPLETO
 III. Ingenieria conceptual/32_Material_Rodante_Integrado_docx_AT1_Cl_13_1_AT2_operaci_n_AT4.md,32_Material_Rodante_Integrado_docx_AT1_Cl_13_1_AT2_operaci_n_AT4.md,,SIS,SIS_Material-Rodante_Integrado_Definitivo_v1.0.md,Material Rodante,EN PROGRESO
 III. Ingenieria conceptual/31_Sistema_CCTV_Integrado_docx_AT1_AT3_AT8_social_AT4_indicadores.md,31_Sistema_CCTV_Integrado_docx_AT1_AT3_AT8_social_AT4_indicadores.md,,SIS,SIS_CCTV_Integrado_Definitivo_v1.0.md,CCTV,EN PROGRESO
 III. Ingenieria conceptual/30_Sistema_ITS_Integrado_docx_AT1_AT3_AT4_AT6_ambiental.md,30_Sistema_ITS_Integrado_docx_AT1_AT3_AT4_AT6_ambiental.md,,SIS,SIS_ITS_Integrado_Definitivo_v1.0.md,ITS,EN PROGRESO
@@ -121,12 +121,12 @@ VI. operacion y mantenimiento y reversion/6.2_Manual_OM_Senalizacion_v1.0.md,6.2
 VI. operacion y mantenimiento y reversion/6.1_Manual_OM_CTC_v1.0.md,6.1_Manual_OM_CTC_v1.0.md,1.0,DOC,DOC_Manual-OM-CTC_v1.0.md,O&M CTC,COMPLETO
 VI. operacion y mantenimiento y reversion/VI_Operacion_Mantenimiento_y_reversion.md,VI_Operacion_Mantenimiento_y_reversion.md,,DOC,DOC_Operacion-Mantenimiento-Reversion_Maestro_v1.0.md,O&M/Reversión,EN PROGRESO
 # VII. Soporte Especializado (complemento)
-VII. Soporte Especializado/VII.2_Especificaciones/VII.2.1_SRS_ITCS_ETCS_Level2_v1.0.md,VII.2.1_SRS_ITCS_ETCS_Level2_v1.0.md,1.0,TRA,TRA_SRS_ITCS_ETCS_Level2_v1.0.md,ITCS/SRS,COMPLETO
+VII. Soporte Especializado/VII.2_Especificaciones/VII.2.1_SRS_ITCS_PTC_Level2_v1.0.md,VII.2.1_SRS_ITCS_PTC_Level2_v1.0.md,1.0,TRA,TRA_SRS_ITCS_PTC_Level2_v1.0.md,ITCS/SRS,COMPLETO
 VII. Soporte Especializado/VII.2_Especificaciones/VII.2.3_Plan_Eurobalise_Ubicacion_150m.md,VII.2.3_Plan_Eurobalise_Ubicacion_150m.md,,TRA,TRA_Plan-Eurobalise_Ubicacion-150m_v1.0.md,Señalización,EN PROGRESO
 VII. Soporte Especializado/VII.2_Especificaciones/VII.2.2_Arquitectura_RBC_Redundancia_2OO3.md,VII.2.2_Arquitectura_RBC_Redundancia_2OO3.md,,TRA,TRA_Arquitectura-RBC_2oo3_v1.0.md,ITCS/Arquitectura,COMPLETO
-VII. Soporte Especializado/VII.2_Especificaciones/VII.2.3_Protocolos_UIC_Interoperabilidad_FENOCO.md,VII.2.3_Protocolos_UIC_Interoperabilidad_FENOCO.md,,TRA,TRA_Protocolos-UIC_Interoperabilidad-FENOCO_v1.0.md,Interoperabilidad,EN PROGRESO
+VII. Soporte Especializado/VII.2_Especificaciones/VII.2.3_Protocolos_FRA/AREMA_Interoperabilidad_FENOCO.md,VII.2.3_Protocolos_FRA/AREMA_Interoperabilidad_FENOCO.md,,TRA,TRA_Protocolos-FRA/AREMA_Interoperabilidad-FENOCO_v1.0.md,Interoperabilidad,EN PROGRESO
 VII. Soporte Especializado/VII.2_Especificaciones/VII.2.2_Simulaciones_Capacidad_Surcos_BASICAS.md,VII.2.2_Simulaciones_Capacidad_Surcos_BASICAS.md,,TRA,TRA_Simulaciones-Capacidad-Surcos_Basicas_v1.0.md,Capacidad/Surcos,EN PROGRESO
-VII. Soporte Especializado/VII.2_Especificaciones/VII.2.1_Especificaciones_Tecnicas_ITCS_ETCS_Level2_PROVISIONALES.md,VII.2.1_Especificaciones_Tecnicas_ITCS_ETCS_Level2_PROVISIONALES.md,,TRA,TRA_Especificaciones-Tecnicas_ITCS_Provisionales_v1.0.md,ITCS,EN PROGRESO
+VII. Soporte Especializado/VII.2_Especificaciones/VII.2.1_Especificaciones_Tecnicas_ITCS_PTC_Level2_PROVISIONALES.md,VII.2.1_Especificaciones_Tecnicas_ITCS_PTC_Level2_PROVISIONALES.md,,TRA,TRA_Especificaciones-Tecnicas_ITCS_Provisionales_v1.0.md,ITCS,EN PROGRESO
 # Reportes (complemento)
 Reportes/Estados/REPORTE_INTEGRIDAD_DOCUMENTACION_COMPLETO.md,REPORTE_INTEGRIDAD_DOCUMENTACION_COMPLETO.md,,DOC,DOC_Reporte-Integridad-Documentacion_v1.0.md,Estado,COMPLETO
 Reportes/Estados/VALIDACION_FINAL_ACTUALIZACIONES_COMPLETAS.md,VALIDACION_FINAL_ACTUALIZACIONES_COMPLETAS.md,,DOC,DOC_Validacion-Final_Actualizaciones_v1.0.md,Estado,COMPLETO

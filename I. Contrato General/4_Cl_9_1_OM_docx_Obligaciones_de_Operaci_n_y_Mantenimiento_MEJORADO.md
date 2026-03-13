@@ -468,7 +468,7 @@ Esta informacion es#### **✅ MEJORAS IMPLEMENTADAS (SANEAMIENTO KARPATHY):**
 
 #### **⚠️ VACÍOS IDENTIFICADOS Y CORREGIDOS:**
 
-1. **Purga de PTC VIRTUAL:** Eliminada la alucinación de mantenimiento ERTMS/PTC VIRTUAL.
+1. **Purga de PTC VIRTUAL:** Eliminada la alucinación de mantenimiento PTC Virtual/PTC VIRTUAL.
 2. **Alineación FRA 236:** El mantenimiento se rige por estándares de PTC Virtual.
 3. **Optimización de Trazabilidad:** Sincronización con AT2 y AT4 del contrato.
 

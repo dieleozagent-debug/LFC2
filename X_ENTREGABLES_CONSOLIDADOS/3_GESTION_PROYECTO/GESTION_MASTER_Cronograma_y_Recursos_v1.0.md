@@ -216,10 +216,10 @@
 | Competencia | Nivel | Certificación | Vigencia |
 |:------------|:------|:--------------|:---------|
 | **Gestión de Proyectos** | Avanzado | PMP, PMI | 3 años |
-| **Sistemas Ferroviarios** | Experto | UIC, EN 50126 | 2 años |
+| **Sistemas Ferroviarios** | Experto | FRA/AREMA, EN 50126 | 2 años |
 | **Telecomunicaciones** | Experto | TETRA, RED TETRA (Misión Crítica) | 2 años |
 | **Control y Señalización** | Experto | PTC VIRTUAL Level 2 | 2 años |
-| **Material Rodante** | Experto | UIC, AAR | 2 años |
+| **Material Rodante** | Experto | FRA/AREMA, AAR | 2 años |
 | **Gestión Ambiental** | Avanzado | ISO 14001 | 2 años |
 | **Calidad** | Avanzado | ISO 9001 | 2 años |
 
@@ -346,7 +346,7 @@
 |:---------|:-------------:|:------------:|:------------|
 | **ISO 9001** | 100% | ✅ Completo | EPC Calidad |
 | **EN 50126** | 100% | ✅ Completo | EPC Sistemas |
-| **UIC** | 100% | ✅ Completo | EPC Sistemas |
+| **FRA/AREMA** | 100% | ✅ Completo | EPC Sistemas |
 | **RETIE** | 100% | ✅ Completo | EPC Eléctrico |
 
 ### **7.2 Control de Calidad por Fases**

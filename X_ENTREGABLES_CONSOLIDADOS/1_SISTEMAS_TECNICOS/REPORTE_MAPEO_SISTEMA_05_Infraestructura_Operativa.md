@@ -44,7 +44,7 @@
 6. **25.1_WBS_COMPLETA_ESPECIALIDADES_v5.0.md** - WBS especialidades completas
 7. **29_Sistema_Senalizacion_Integrado_v5.0.md** - Sistema señalización integrado
 8. **32_Material_Rodante_Integrado_v5.0.md** - Sistema material rodante integrado
-9. **33_Criterios_Normatividad_docx_AREMA_UIC_RETIE_ISO_TC_204_NSR_10_NFPA.md** - Criterios normatividad
+9. **33_Criterios_Normatividad_docx_AREMA_FRA/AREMA_RETIE_ISO_TC_204_NSR_10_NFPA.md** - Criterios normatividad
 10. **34_Criterios_Interoperabilidad_docx_Compatibilidad_con_FENOCO_y_ANI.md** - Criterios interoperabilidad
 11. **35_Criterios_Redundancia_docx_Disponibilidad_y_respaldo_de_sistemas_cr_ticos.md** - Criterios redundancia
 12. **36_Criterios_Ciberseguridad_docx_Protecci_n_de_sistemas_de_control.md** - Criterios ciberseguridad

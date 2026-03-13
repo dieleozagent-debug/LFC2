@@ -124,7 +124,7 @@ iii,
 
 iv.
 AAR.
-UIC.
+FRA/AREMA.
 
 (d) La aplicación de este Apéndice deberá ser efectuada en concordancia con lo establecido en el Contrato. En todo caso, de presentarse alguna contradicción entre lo previsto en este Apéndice y los demás documentos contractuales, se atenderá a lo previsto en el Contrato.
 
@@ -151,7 +151,7 @@ xi,
 
 XIL.
 Manual for Railway Engineering AREMA 2021.
-AWPA (American Wood Preservers Associations) 2021. Standardization International Union of Railways - UIC 2019.
+AWPA (American Wood Preservers Associations) 2021. Standardization International Union of Railways - FRA/AREMA 2019.
 Manual de Drenaje de Carreteras. Adoptado mediante Resolución 000024 de 2011 del Ministerio de Transporte.
 Communications and Signals Manual-AREMA 2021.
 Manual of Standards and recommended practices de la Association of American Railroads - AAR 2022.
@@ -266,7 +266,7 @@ xiii,
 
 xiv,
 Diseños de Detalle no objetados por la lnterventoría y cumplir con las disposiciones establecidas en el Apéndice Técnico 1 y los manuales yo normas técnicas que se encuentren vigente al momento de la ejecución de las Intervenciones, sean obligatorias para la ejecución de este tipo de Intervenciones, y, en particular, pero sin limitarse, con las identificadas en el siguiente listado.
-Manual for Railway Engineering AREMA 2021. Standardization lnternational Union of Railways - UIC 2019
+Manual for Railway Engineering AREMA 2021. Standardization lnternational Union of Railways - FRA/AREMA 2019
 Normativa de la Railroad Administration de los Estados Unidos de Norteamérica.
 Resolución 4577 del 23 de septiembre de 2009, adición al Manual de Señalización de señales turísticas.
 Resolución 24 del 7 de enero de 2011, Manual de Drenaje para Carreteras (2009).
@@ -367,7 +367,7 @@ Página 11 de 45
  Amortiguación: fabricados conforme especificación AAR Ml 14.
  Yugos de freno conforme AAR Nº 24, fabricados para trocha 914 mm
  Enganches, yugos, muelas y accesorios, deberán cumplir con norma internacional de la AAR o equivalente: Enganche Automático Tipo "E" ("F") Normas AAR: AAR M-201, AARM-205, AAR M-211, AAR M-213, AAR M-216. AAR M-901
- El freno de mano deberá cumplir las prescripciones de la ficha UIC 543 o su equivalente de la AAR
+ El freno de mano deberá cumplir las prescripciones de la ficha FRA/AREMA 543 o su equivalente de la AAR
  Equipo neumático y freno de aire, mangueras de acople y otras que se requieran que se utilizará deberá estar avalado por las normas internacionales de la AAR o equivalente.
  Los materiales de fabricación no especificados anteriormente deberán cumplir con la norma internacional ASTM o equivalente
 
@@ -540,7 +540,7 @@ iv.
 v.
 
 vi.
-Manual for Railway Engineering AREMA 2021. Standardization International Union of Railways - UIC 2019.
+Manual for Railway Engineering AREMA 2021. Standardization International Union of Railways - FRA/AREMA 2019.
 Norma Colombiana de Diseño de Puentes (CCP-2014). Adoptada mediante
 Resolución 108 de 26 de enero de 2015.
 Normas Colombianas de Diseño y Construcción Sismo Resistente. NSRl O.
@@ -617,7 +617,7 @@ Intervenciones
 
 Para el desarrollo de las Intervenciones del Proyecto relacionadas con las obras de Construcción, obras de Mantenimiento, Mejoramiento yo Rehabilitación de la Infraestructura Férrea tales como puentes, viaductos y otras estructuras, el Concesionario las deberá realizar de acuerdo con los Estudios y Diseños de Detalle no objetados por la Interventoría y deberá cumplir con las disposiciones establecidas en el Apéndice Técnico 1 y los manuales yo normas técnicas que, a se encuentren vigente al momento de la ejecución de las Intervenciones, sean obligatorias para la ejecución de este tipo de Intervenciones, y, en particular, pero sin limitarse, con las identificadas en el siguiente listado.
 
-Manual for Railway Engineering AREMA 2021. Standardization Intemational Union ofRailways - UIC 2019.
+Manual for Railway Engineering AREMA 2021. Standardization Intemational Union ofRailways - FRA/AREMA 2019.
 Norma Colombiana de Diseño de Puentes (CCP-2014). Adoptada mediante Resolución 108 de 26 de enero de 2015.
 Normas Colombianas de Diseño y Construcción Sismo Resistente. NSRl0.
 Manual de Cimentaciones Superficiales y Profundas para Carreteras. Adoptado mediante Resolución 1049 del 11 de abril de 2013 del Ministerio de Transporte.
@@ -663,7 +663,7 @@ Para el desarrollo de las actividades establecidas en las Secciones anteriores, 
 (a) El sistema eléctrico y el sistema de tierra debe cumplir lo consagrado en el Reglamento Técnico de Instalaciones Eléctricas - RETIE y seguir las recomendaciones del Código Eléctrico Colombiano.
 (b) Plan Nacional de Seguridad Vial (PNSV) 2011 - 2021, Resolución 2273 del 6 de agosto de 2014 de Ministerio de Transporte.
 (c) Manual for Railway Engineering AREMA 2021.
-(d) Standardization International Union ofRailways - UIC 2019.
+(d) Standardization International Union ofRailways - FRA/AREMA 2019.
 #### 6.3 De carácter internacional
 
 iPara el desarrollo de las actividades establecidas en las Secciones anteriores, el Concesionario deberá cumplir con lo dispuesto en las especificaciones yo normas técnicas que se listan a continuación:
@@ -729,7 +729,7 @@ iii.
 iv.
 
 v.
-Manual far Railway Engineering AREMA 2021. Standardization Internationá.l Union ofRailways- UIC 2019.
+Manual far Railway Engineering AREMA 2021. Standardization Internationá.l Union ofRailways- FRA/AREMA 2019.
 Plan Nacional de Seguridad Vial (PNSV) 2011 - 2021, Resolución 2273 del 6 de agosto de 2014 de Ministerio de Transporte Manual de Señalización - Dispositivos para la Regulación del Tránsito en Calles, Carreteras y Ciclorutas de Colombia. Adoptado mediante Resolución 1885 del 17 de junio de 2015 del Ministerio de Transporte.
 Manual de Señalización - Dispositivos uniformes para la regulación del tránsito en calles, carreteras y ciclo rutas de Colombia. Adoptado mediante Resolución 1885 del 17 de junio de 2015 del Ministerio de Transporte
 Metodologías de Trabajo para la Señalización de Velocidad y Zonas de Adelantamiento en la Red Nacional de Carretera. Adoptado mediante Resolución

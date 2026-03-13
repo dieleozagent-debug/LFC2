@@ -11,7 +11,7 @@
         "calculo_detallado": "594,000m ÃÂ· 300m = 1,980 cajas backbone + 88 nodos especiales = 2,068 total",
         "desglose": [
           "Cajas backbone: 1,980 unidades (cada 300m segÃºn diseÃÂ±o OSP)",
-          "Cajas en torres TETRA/GSM-R: 37 unidades",
+          "Cajas en torres TETRA/TETRA/LTE: 37 unidades",
           "Cajas en subestaciones eléctricas: 15 unidades",
           "Cajas en cruces viales crÃÂ­ticos: 36 unidades"
         ],

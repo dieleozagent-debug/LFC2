@@ -40,7 +40,7 @@ Identificar, evaluar, mitigar y monitorear todos los riesgos del proyecto, con �
 - **Valor en riesgo:** $152,748M COP (58% proyecto)
 - **Responsable resolución:** ANI + Concesionario
 - **Fecha límite:** **Mes 6 (15-Dic-2025)**
-- **Plan B:** PTC VIRTUAL L2 genérico + Gateway UIC 918-4
+- **Plan B:** PTC VIRTUAL L2 genérico + Gateway FRA/AREMA 918-4
 - **Acción HOY:** ✅ Oficiar ANI solicitando definición
 
 ---
@@ -52,7 +52,7 @@ Identificar, evaluar, mitigar y monitorear todos los riesgos del proyecto, con �
 - **Valor en riesgo:** $350M COP (gateway + integración)
 - **Responsable resolución:** FENOCO (compartir specs)
 - **Fecha límite:** **Mes 6 (15-Dic-2025)**
-- **Plan B:** Gateway UIC 918-4 estándar (sin integración Trainguard)
+- **Plan B:** Gateway FRA/AREMA 918-4 estándar (sin integración Trainguard)
 - **Acción HOY:** ✅ Solicitar reunión técnica FENOCO (15 días)
 
 ---
@@ -215,7 +215,7 @@ Identificar, evaluar, mitigar y monitorear todos los riesgos del proyecto, con �
 
 ### **MITIGAR (7 riesgos):**
 - BLOCKER-001: Plan B PTC VIRTUAL L2 genérico
-- BLOCKER-002: Plan B Gateway UIC estándar
+- BLOCKER-002: Plan B Gateway FRA/AREMA estándar
 - BLOCKER-003: Contingencia ±10%
 - BLOCKER-004: Secuencia adaptable
 - R-INT-001: Pruebas piloto M30
@@ -408,7 +408,7 @@ ENTREGABLES REQUERIDOS (Mes 6):
 | Interfaz | Sistemas | Protocolo | Estado | Responsable Detalle |
 |:---------|:---------|:----------|:-------|:-------------------|
 | **IF-01** | CTC ↔ PTC | FFFIS / IEC 62278 | ⚠️ Pendiente PTC | EPC Señalización |
-| **IF-02** | CTC ↔ FENOCO | UIC 918-4 / Trainguard | ❌ Pendiente FENOCO | EPC + FENOCO |
+| **IF-02** | CTC ↔ FENOCO | FRA/AREMA 918-4 / Trainguard | ❌ Pendiente FENOCO | EPC + FENOCO |
 | **IF-03** | TETRA ↔ RED TETRA (Misión Crítica) | Gateway dual | 🟡 Conceptual | EPC Telecomunicaciones |
 | **IF-04** | CTC ↔ SCADA | OPC-UA / Modbus TCP | ✅ Estándar | EPC Automatización |
 | **IF-05** | ATP ↔ Frenos | IEC 61375 (TCN) | ⚠️ Pendiente MR specs | EPC Material Rodante |

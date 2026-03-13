@@ -30,7 +30,7 @@ Conecta el CTC (Control Centralizado de Tráfico) con:
 
 PTC / PTC VIRTUAL Nivel 2: intercambio de telegramas y datos de ocupación vía RBC.
 
-FENOCO: interoperabilidad mediante Gateway UIC y protocolo 918–4.
+FENOCO: interoperabilidad mediante Gateway FRA/AREMA y protocolo 918–4.
 
 TETRA: canal de voz y datos para comunicaciones tren–tierra.
 
@@ -80,7 +80,7 @@ Conecta el CTC (Control Centralizado de Tráfico) con:
 
 PTC / PTC VIRTUAL Nivel 2: intercambio de telegramas y datos de ocupación vía RBC.
 
-FENOCO: interoperabilidad mediante Gateway UIC y protocolo 918–4.
+FENOCO: interoperabilidad mediante Gateway FRA/AREMA y protocolo 918–4.
 
 TETRA: canal de voz y datos para comunicaciones tren–tierra.
 
@@ -143,7 +143,7 @@ Conecta el CTC (Control Centralizado de Tráfico) con:
 
 PTC / PTC VIRTUAL Nivel 2: intercambio de telegramas y datos de ocupación vía RBC.
 
-FENOCO: interoperabilidad mediante Gateway UIC y protocolo 918–4.
+FENOCO: interoperabilidad mediante Gateway FRA/AREMA y protocolo 918–4.
 
 TETRA: canal de voz y datos para comunicaciones tren–tierra.
 
@@ -265,8 +265,8 @@ archivos_actualizar:
     accion: "agregar_o_actualizar_metadata"
     item_codigo: "1.1.106"
     metadata:
-      justificacion_tecnica: "Bloque lógico de integración (no hardware físico único). Conecta CTC con PTC/PTC VIRTUAL L2, FENOCO (Gateway UIC 918-4), TETRA (voz/datos), Fibra óptica (backbone N+1) y sistemas ITS. Incluye: gateways industriales, switches de borde, firewalls IEC 62443, middleware interoperabilidad, licencias software."
-      criterio_diseno: "Integración funcional CTC-PTC-FENOCO-TETRA-ITS con redundancia N+1 y middleware UIC"
+      justificacion_tecnica: "Bloque lógico de integración (no hardware físico único). Conecta CTC con PTC/PTC VIRTUAL L2, FENOCO (Gateway FRA/AREMA 918-4), TETRA (voz/datos), Fibra óptica (backbone N+1) y sistemas ITS. Incluye: gateways industriales, switches de borde, firewalls IEC 62443, middleware interoperabilidad, licencias software."
+      criterio_diseno: "Integración funcional CTC-PTC-FENOCO-TETRA-ITS con redundancia N+1 y middleware FRA/AREMA"
       supuestos_especialista: "1 UND representa conjunto lógico completo. Equipos físicos mayores cubiertos en ítems 1.1.100-1.1.105. Incluye licencias, configuración, ensayos FAT/SAT interoperabilidad."
       decision_tecnica: "DT-INTERFACES-001-2025-10-09"
       fecha_actualizacion: "2025-10-09"

@@ -36,7 +36,7 @@
         "nivel":  null,
         "cantidad":  "1",
         "total":  "88152759385",
-        "descripcion":  "Software CTC virtual + ETCS L2 + Interoperabilidad FENOCO",
+        "descripcion":  "Software CTC virtual + PTC L2 + Interoperabilidad FENOCO",
         "unidad":  "UND"
     },
     {
@@ -426,7 +426,7 @@
         "nivel":  null,
         "cantidad":  "37",
         "total":  "1665000000",
-        "descripcion":  "Estaciones base GSM-R",
+        "descripcion":  "Estaciones base TETRA/LTE",
         "unidad":  "UND"
     },
     {
@@ -436,7 +436,7 @@
         "nivel":  null,
         "cantidad":  "37",
         "total":  "296000000",
-        "descripcion":  "Antenas GSM-R",
+        "descripcion":  "Antenas TETRA/LTE",
         "unidad":  "UND"
     },
     {
@@ -446,7 +446,7 @@
         "nivel":  null,
         "cantidad":  "30",
         "total":  "750000000",
-        "descripcion":  "Radios embarcados GSM-R",
+        "descripcion":  "Radios embarcados TETRA/LTE",
         "unidad":  "UND"
     },
     {
@@ -456,7 +456,7 @@
         "nivel":  null,
         "cantidad":  "1",
         "total":  "80000000",
-        "descripcion":  "Sistema control GSM-R",
+        "descripcion":  "Sistema control TETRA/LTE",
         "unidad":  "UND"
     },
     {
@@ -466,7 +466,7 @@
         "nivel":  null,
         "cantidad":  "37",
         "total":  "185000000",
-        "descripcion":  "Interfaces TETRA-GSM-R",
+        "descripcion":  "Interfaces TETRA-TETRA/LTE",
         "unidad":  "UND"
     },
     {
@@ -1156,7 +1156,7 @@
         "nivel":  null,
         "cantidad":  "16",
         "total":  "400000000",
-        "descripcion":  "Radios GSM-R embarcados",
+        "descripcion":  "Radios TETRA/LTE embarcados",
         "unidad":  "UND"
     },
     {

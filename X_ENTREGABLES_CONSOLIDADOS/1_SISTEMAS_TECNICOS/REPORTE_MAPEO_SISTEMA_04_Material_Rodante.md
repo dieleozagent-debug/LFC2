@@ -46,7 +46,7 @@
 8. **23_ListadoMaestro_Sistemas_v5.0.md** - Listado maestro de sistemas
 9. **25_WBS_IngenieriaConceptual_docx.md** - WBS ingeniería conceptual
 10. **25.1_WBS_COMPLETA_ESPECIALIDADES_v5.0.md** - WBS especialidades completas
-11. **33_Criterios_Normatividad_docx_AREMA_UIC_RETIE_ISO_TC_204_NSR_10_NFPA.md** - Criterios normatividad
+11. **33_Criterios_Normatividad_docx_AREMA_FRA/AREMA_RETIE_ISO_TC_204_NSR_10_NFPA.md** - Criterios normatividad
 12. **34_Criterios_Interoperabilidad_docx_Compatibilidad_con_FENOCO_y_ANI.md** - Criterios interoperabilidad
 13. **36_Criterios_Ciberseguridad_docx_Protecci_n_de_sistemas_de_control.md** - Criterios ciberseguridad
 14. **27_Sistema_TETRA_Integrado_v5.0.md** - Sistema TETRA integrado
@@ -155,7 +155,7 @@
 
 #### **3. Normativas Aplicables:**
 - **AT1:** Estándares AAR (Association of American Railroads)
-- **Documentos técnicos:** Normas UIC, EN, IEC
+- **Documentos técnicos:** Normas FRA/AREMA, EN, IEC
 - **Inconsistencia:** Diferentes normativas sin consolidación
 
 ### **📊 INFORMACIÓN PENDIENTE:**
@@ -195,7 +195,7 @@
 ### **3. Consolidar Talleres de Mantenimiento:**
 - Definir capacidades y equipos por tipo de taller
 - Establecer procedimientos de mantenimiento por ciclos
-- Consolidar normativas AAR, UIC y EN
+- Consolidar normativas AAR, FRA/AREMA y EN
 
 ### **4. Integrar Gestión de Calidad:**
 - Consolidar procedimientos de puesta a punto

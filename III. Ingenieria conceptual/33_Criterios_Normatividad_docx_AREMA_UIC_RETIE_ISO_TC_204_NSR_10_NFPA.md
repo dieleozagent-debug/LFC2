@@ -23,12 +23,12 @@ Para el sistema de control y señalización, rige la normativa estadounidense ad
 
 ## 🔍 AUDITORÍA DE PURGA (METODOLOGÍA P.42 v4.2)
 Se han ELIMINADO las siguientes normas por no ser aplicables:
-- **UIC (International Union of Railways):** No rigen para este proyecto.
-- **ERTMS/PTC VIRTUAL Technical Specifications Interoperability (TSI):** Se eliminan todas las referencias.
-- **CENELEC EN 50126/128/129:** Se mantienen solo como referencia de seguridad funcional (SIL), pero aplicadas a lógica PTC, no a productos ERTMS.
+- **FRA/AREMA (International Union of Railways):** No rigen para este proyecto.
+- **PTC Virtual/PTC VIRTUAL Technical Specifications Interoperability (TSI):** Se eliminan todas las referencias.
+- **CENELEC EN 50126/128/129:** Se mantienen solo como referencia de seguridad funcional (SIL), pero aplicadas a lógica PTC, no a productos PTC Virtual.
 
 ---
 
 | Versión | Fecha       | Responsable            | Descripción                              |
 |:------:|:-----------:|:-----------------------|:-----------------------------------------|
-| v6.0   | 13/03/2026  | Admin. Contractual EPC | Purgado de normas UIC/ERTMS. Enfoque FRA/AREMA. |
+| v6.0   | 13/03/2026  | Admin. Contractual EPC | Purgado de normas FRA/AREMA/PTC Virtual. Enfoque FRA/AREMA. |

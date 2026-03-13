@@ -132,7 +132,7 @@ Como Administrador Contractual EPC, confirmo que se han revisado y completado to
 | Documento Integración | Referencias a | Referencias desde |
 |:---------------------|:-------------|:-----------------|
 | `V.5.1_Plan_Integracion_Sistemas_COMPLETO.md` | V.1, V.2, V.3, V.4 | Integración, Comisionamiento |
-| `VII.2.3_Protocolos_UIC_Interoperabilidad_FENOCO.md` | FENOCO, UIC | V.5.1, Integración |
+| `VII.2.3_Protocolos_FRA/AREMA_Interoperabilidad_FENOCO.md` | FENOCO, FRA/AREMA | V.5.1, Integración |
 
 ---
 
@@ -144,7 +144,7 @@ Como Administrador Contractual EPC, confirmo que se han revisado y completado to
 |:---------------------|:-------------|:-----------------|
 | `VII.2.1_Especificaciones_Tecnicas_PTC_PTC VIRTUAL_Level2_PROVISIONALES.md` | AT3, AT5, PTC | V.4.1, Sistemas |
 | `VII.2.2_Simulaciones_Capacidad_Surcos_BASICAS.md` | AT10, Capacidad | V.4.1, Sistemas |
-| `VII.2.3_Protocolos_UIC_Interoperabilidad_FENOCO.md` | FENOCO, UIC | V.5.1, Integración |
+| `VII.2.3_Protocolos_FRA/AREMA_Interoperabilidad_FENOCO.md` | FENOCO, FRA/AREMA | V.5.1, Integración |
 
 ### **📁 00. GOBERNANZA PMO**
 

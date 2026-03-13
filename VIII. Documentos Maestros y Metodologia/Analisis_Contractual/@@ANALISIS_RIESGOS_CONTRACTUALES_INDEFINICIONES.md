@@ -15,7 +15,7 @@
 |:-:|:----------------|:------------|:------------:|:-------------------|:-------|
 | **1** | **Definición final sistema PTC (PTC VIRTUAL Level 2)** | **ANI + Concesionario** | **Mes 6** | 🔴 Bloquea 60% UF2 | Gateway interoperable documentado (Contratista CTC entrega) |
 | **2** | **Cronograma entrega material rodante** | **Fenoco** | **Mes 8** | 🟠 No se puede diseñar embarcados | Asumir especificaciones estándar IEC |
-| **3** | **Especificaciones técnicas FENOCO (interoperabilidad)** | **Fenoco** | **Mes 6** | 🔴 No se puede diseñar gateway UIC | Gateway UIC 918-4 genérico + documentación completa |
+| **3** | **Especificaciones técnicas FENOCO (interoperabilidad)** | **Fenoco** | **Mes 6** | 🔴 No se puede diseñar gateway FRA/AREMA | Gateway FRA/AREMA 918-4 genérico + documentación completa |
 | **4** | **Regularización pasos a nivel (cantidad exacta)** | **Concesionario** | **Mes 10** | 🟡 Sobre-diseño o sub-diseño | Asumir cantidad contractual AT1 |
 | **5** | **Topografía actualizada del corredor** | **Concesionario** | **Mes 3** | 🟠 Diseños preliminares | Usar topografía Fenoco existente |
 
@@ -34,7 +34,7 @@
 - **Fecha límite:** **Mes 6** (dentro de 2 meses desde hoy Mes 4)
 - **Plan B:** Si no llega Mes 6 → Gateway interoperable genérico documentado
   - Contratista CTC entrega gateway que permite:
-    - Interoperabilidad Fenoco (UIC 918-4)
+    - Interoperabilidad Fenoco (FRA/AREMA 918-4)
     - PTC VIRTUAL L2 estándar (futuro)
     - Documentación completa de interfaces
   - Cliente asume riesgo de incompatibilidad futura
@@ -46,7 +46,7 @@
 
 ### **RIESGO R-INFO-002: Especificaciones FENOCO**
 
-**Descripción:** Sin especificaciones técnicas FENOCO, no se puede diseñar interoperabilidad (gateway UIC).
+**Descripción:** Sin especificaciones técnicas FENOCO, no se puede diseñar interoperabilidad (gateway FRA/AREMA).
 
 **Probabilidad:** MEDIA (50%)  
 **Impacto:** CRÍTICO (5) - Bloquea integración  
@@ -55,8 +55,8 @@
 **Estrategia:**
 - **MITIGAR:** Solicitar especificaciones + Coordinación mensual
 - **Fecha límite:** **Mes 6**
-- **Plan B:** Gateway UIC 918-4 genérico según norma europea
-  - Protocolo estándar UIC 918-4
+- **Plan B:** Gateway FRA/AREMA 918-4 genérico según norma europea
+  - Protocolo estándar FRA/AREMA 918-4
   - Interoperabilidad demostrada en banco de pruebas
   - Documentación completa entregada a Fenoco para validación
   - Fenoco/Concesionario asumen responsabilidad de integración futura
@@ -145,10 +145,10 @@ Solicitamos definición formal de:
    - Responsable: Concesionario + ANI
    - Plan B: Gateway interoperable genérico
 
-2. Especificaciones FENOCO (UIC 918-4)
+2. Especificaciones FENOCO (FRA/AREMA 918-4)
    - Fecha límite: 15 Diciembre 2025 (Mes 6)
    - Responsable: FENOCO
-   - Plan B: Protocolo UIC estándar documentado
+   - Plan B: Protocolo FRA/AREMA estándar documentado
 
 3. Cronograma Material Rodante
    - Fecha límite: 15 Febrero 2026 (Mes 8)
@@ -238,7 +238,7 @@ con documentación completa de supuestos y exclusiones.
 - **Exposición:** 4.5/5 🔴
 - **Fecha límite resolución:** Mes 6 (15-Dic-2025)
 - **Responsable:** ANI + Concesionario
-- **Plan B:** Gateway interoperable genérico (UIC 918-4 + PTC VIRTUAL L2 estándar)
+- **Plan B:** Gateway interoperable genérico (FRA/AREMA 918-4 + PTC VIRTUAL L2 estándar)
 - **Costo Plan B:** Sin costo adicional (incluido en diseño CTC)
 - **Acción:** Oficiar HOY a ANI solicitando definición
 
@@ -250,7 +250,7 @@ con documentación completa de supuestos y exclusiones.
 - **Exposición:** 3.5/5 🟠
 - **Fecha límite:** Mes 6 (15-Dic-2025)
 - **Responsable:** FENOCO
-- **Plan B:** Protocolo UIC 918-4 estándar europeo documentado
+- **Plan B:** Protocolo FRA/AREMA 918-4 estándar europeo documentado
 - **Acción:** Oficiar a FENOCO + Reunión técnica Mes 5
 
 ---
@@ -314,11 +314,11 @@ con documentación completa de supuestos y exclusiones.
 **Asunto:** Coordinación Técnica Interoperabilidad
 
 **Inputs requeridos:**
-1. Especificaciones técnicas gateway UIC 918-4 → Fecha límite: **15-Dic-2025** (M6)
+1. Especificaciones técnicas gateway FRA/AREMA 918-4 → Fecha límite: **15-Dic-2025** (M6)
 2. Cronograma entrega Material Rodante → Fecha límite: **15-Feb-2026** (M8)
 3. Protocolo coordinación shutdowns para pruebas → Mes 12
 
-**Plan B:** Diseño según estándar europeo UIC sin especificaciones FENOCO.
+**Plan B:** Diseño según estándar europeo FRA/AREMA sin especificaciones FENOCO.
 
 ---
 
@@ -403,7 +403,7 @@ con documentación completa de supuestos y exclusiones.
    - Alcance SICC (Mes 6)
 
 3. 🟠 **ALTO:** Documentar Plans B para cada indefinición
-   - Gateway genérico UIC 918-4
+   - Gateway genérico FRA/AREMA 918-4
    - SICC Básico sin APIs ANI
    - Diseño MR estándar IEC
 
@@ -419,7 +419,7 @@ con documentación completa de supuestos y exclusiones.
 | Indefinición | Fecha Decisión | Si Cliente Responde | Si NO Responde (Plan B) |
 |:-------------|:--------------:|:-------------------|:------------------------|
 | PTC/PTC VIRTUAL L2 | Mes 6 | Diseño específico | Gateway genérico interoperable |
-| Specs FENOCO | Mes 6 | Integración directa | Protocolo UIC estándar |
+| Specs FENOCO | Mes 6 | Integración directa | Protocolo FRA/AREMA estándar |
 | Cronograma MR | Mes 8 | Diseño específico | Estándar IEC 62280 modular |
 | Alcance SICC | Mes 6 | Escenario 1 o 2 | Escenario 1 Básico |
 | Estudios Geo/Topo | **Mes 5** | **EPC ejecuta** | **BLOCKER - Proyecto para** |

@@ -36,7 +36,7 @@ Este repositorio ha sido auditado para eliminar **Alucinaciones Técnicas**.
 ## 🛠 CONTROL DE VERSIONES
 | Versión | Fecha       | Responsable            | Descripción                              |
 |:------:|:-----------:|:-----------------------|:-----------------------------------------|
-| v4.2   | 13/03/2026  | Admin. Contractual EPC | Purgado de errores PTC VIRTUAL/UIC. Alineación con PTC Virtual y DBCD. |
+| v4.2   | 13/03/2026  | Admin. Contractual EPC | Purgado de errores PTC VIRTUAL/FRA/AREMA. Alineación con PTC Virtual y DBCD. |
 
 ---
 

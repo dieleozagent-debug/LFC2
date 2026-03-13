@@ -36,7 +36,7 @@
 - **EN 50126:** Aplicación técnicas confiabilidad
 - **EN 50128:** Software sistemas control ferroviario
 - **EN 50129:** Aplicación técnicas seguridad
-- **UIC 438:** Especificaciones PTC VIRTUAL Level 2
+- **FRA/AREMA 438:** Especificaciones PTC VIRTUAL Level 2
 
 ---
 
@@ -54,7 +54,7 @@
 #### **Referencias Normativas:**
 - **EN 50129:** Técnicas seguridad
 - **IEC 61508:** Seguridad funcional
-- **UIC 950:** Interfaces
+- **FRA/AREMA 950:** Interfaces
 
 ---
 
@@ -70,7 +70,7 @@
 - **25.1:** WBS Especialidades → Planificación
 
 #### **Referencias Normativas:**
-- **UIC 438:** Especificaciones PTC VIRTUAL
+- **FRA/AREMA 438:** Especificaciones PTC VIRTUAL
 - **EN 50149:** Virtual Balise (GNSS)s
 - **SUBSET-036:** Implementación
 
@@ -88,7 +88,7 @@
 - **26.1:** Anexo Eléctrico CTC → Alimentación
 
 #### **Referencias Normativas:**
-- **UIC 950:** Interfaces
+- **FRA/AREMA 950:** Interfaces
 - **CENELEC:** Estándares
 - **IEC 61375:** Comunicaciones
 
@@ -125,7 +125,7 @@
 #### **Referencias Normativas:**
 - **EN 50126:** Confiabilidad
 - **EN 50129:** Seguridad
-- **UIC 438:** PTC VIRTUAL
+- **FRA/AREMA 438:** PTC VIRTUAL
 
 ---
 
@@ -142,7 +142,7 @@
 
 #### **Referencias Normativas:**
 - **EN 50126/50128/50129:** Estándares ferroviarios
-- **UIC 438:** PTC VIRTUAL Level 2
+- **FRA/AREMA 438:** PTC VIRTUAL Level 2
 
 ---
 
@@ -225,7 +225,7 @@
 |:---|:---:|:---|
 | **Contractuales** | 25+ | AT3, AT4, AT5, Cl. 8.2, Cl. 13.1 |
 | **Técnicas** | 75+ | V.4.1, 26.1, 29.1, 25.1, 36.2 |
-| **Normativas** | 50+ | EN 50126/50128/50129, UIC 438/950, IEC 62443 |
+| **Normativas** | 50+ | EN 50126/50128/50129, FRA/AREMA 438/950, IEC 62443 |
 
 ### **Referencias por Especialidad:**
 
@@ -244,7 +244,7 @@
 ### **Coherencia Técnica:**
 - ✅ **Especificaciones vs AT3:** 100% alineadas
 - ✅ **Interfaces CTC-PTC:** Compatibilidad verificada
-- ✅ **Estándares EN/UIC/IEC:** Aplicación confirmada
+- ✅ **Estándares EN/FRA/AREMA/IEC:** Aplicación confirmada
 - ✅ **Cronograma:** Hitos actualizados
 
 ### **Trazabilidad:**
@@ -265,7 +265,7 @@
 - **Navegación mejorada:** 150+ enlaces validados
 - **Trazabilidad completa:** Contractual → Técnica → Operacional
 - **Coherencia garantizada:** Especificaciones alineadas
-- **Estándares aplicados:** EN/UIC/IEC consistentemente
+- **Estándares aplicados:** EN/FRA/AREMA/IEC consistentemente
 
 ### **Estado Final:**
 **✅ REFERENCIAS CRUZADAS CAPÍTULO VII COMPLETAMENTE VALIDADAS Y ACTUALIZADAS**

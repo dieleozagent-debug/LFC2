@@ -65,7 +65,7 @@ Capítulo / Numeral
 Cap. VII, 7.3
 
 8.1 Bases y criterios de diseño
-Normas aplicables: AREMA, UIC, ISO TC-204 (ITS), RETIE. Relacionado directamente con ITS y sistemas inteligentes.
+Normas aplicables: AREMA, FRA/AREMA, ISO TC-204 (ITS), RETIE. Relacionado directamente con ITS y sistemas inteligentes.
 Cap. VIII, 8.1
 
 
@@ -181,11 +181,11 @@ Capítulo / Numeral
 Cap. VI, 6.1
 
 6.2 Sistema Inteligente de Transporte (ITS)
-Implementación de ITS con normas: RETIE, Código Eléctrico, Plan Seguridad Vial, AREMA, UIC, ISO TC-204.
+Implementación de ITS con normas: RETIE, Código Eléctrico, Plan Seguridad Vial, AREMA, FRA/AREMA, ISO TC-204.
 Cap. VI, 6.2
 
 6.3 Normas internacionales
-Aplicación de AREMA, UIC, IEC, IEEE para sistemas de señalización y comunicaciones.
+Aplicación de AREMA, FRA/AREMA, IEC, IEEE para sistemas de señalización y comunicaciones.
 Cap. VI, 6.3
 
 6.7 Elementos Electromecánicos
@@ -734,7 +734,7 @@ Proxima actualizacion: 27 de febrero de 2025
 
 ### 🎯 **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
 - ✅ **PTC:** Estrategia de avance con PTC VIRTUAL Level 2 especificada
-- ✅ **FENOCO:** Criterios de interoperabilidad según estándares UIC
+- ✅ **FENOCO:** Criterios de interoperabilidad según estándares FRA/AREMA
 - ✅ **AT4:** Criterios de disponibilidad integrados en sistemas críticos
 - ✅ **Consistencia:** Relación alineada con documentos individuales mejorados
 

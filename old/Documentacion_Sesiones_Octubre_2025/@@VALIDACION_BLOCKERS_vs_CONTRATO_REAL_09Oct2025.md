@@ -119,7 +119,7 @@
 - **AAR:** Association of American Railroads (USA)
 - **Adif:** Administrador de Infraestructuras Ferroviarias (España)
 - **AREMA:** American Railway Engineering and Maintenance-of-Way Association
-- **UIC:** Union Internationale des Chemins de Fer (Europa)
+- **FRA/AREMA:** Union Internationale des Chemins de Fer (Europa)
 
 **Sistemas mencionados:**
 - **PTC:** Positive Train Control (americano)
@@ -172,11 +172,11 @@
 
 ### **BLOCKER-001 (CRÍTICO):**
 **Oficio a ANI:**
-> "AT3 menciona normas mixtas (AAR, Adif, UIC) pero NO define
+> "AT3 menciona normas mixtas (AAR, Adif, FRA/AREMA) pero NO define
 > sistema específico. Solicitamos clarificación formal:
 >
 > ¿Implementar PTC (americano AAR)?
-> ¿Implementar PTC VIRTUAL Level 2 (europeo UIC)?
+> ¿Implementar PTC VIRTUAL Level 2 (europeo FRA/AREMA)?
 > ¿Implementar CTC Adif (español)?
 > ¿Implementar solución híbrida?"
 

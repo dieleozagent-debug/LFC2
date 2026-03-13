@@ -4,7 +4,7 @@
 **Fecha:** 02/10/2025  
 **Sistema:** Sistemas de Potencia  
 **Fase:** D. Ingeniería de Detalle  
-**Referencias:** EN 50126/50128/50129, IEC 62290, UIC 615, IEEE 1547, IEC 61850
+**Referencias:** EN 50126/50128/50129, IEC 62290, FRA/AREMA 615, IEEE 1547, IEC 61850
 
 ---
 

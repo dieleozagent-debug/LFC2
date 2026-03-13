@@ -16,7 +16,7 @@ Este documento presenta la **ingeniería civil de detalle** para las obras civil
 - **Longitud total:** 178 km La Dorada-Chiriguaná
 - **Configuración:** 2 vías principales + vías de servicio
 - **Velocidad de diseño:** 120 km/h
-- **Estándares:** Normas colombianas + UIC + FERROVIAS
+- **Estándares:** Normas colombianas + FRA/AREMA + FERROVIAS
 
 ---
 
@@ -71,7 +71,7 @@ Este documento presenta la **ingeniería civil de detalle** para las obras civil
 | **Puente Quebrada 4** | PK 67+800 | 41 m | Viga simplemente apoyada | 2 vanos |
 
 #### **2.3 Especificaciones de Diseño**
-- **Carga viva:** UIC 71 + 20% impacto
+- **Carga viva:** FRA/AREMA 71 + 20% impacto
 - **Carga muerta:** Peso propio + sobrecarga
 - **Sismo:** Norma NSR-10, zona sísmica intermedia
 - **Viento:** Velocidad 120 km/h
@@ -176,7 +176,7 @@ Este documento presenta la **ingeniería civil de detalle** para las obras civil
 #### **6.1 Estructura de Vía**
 | Componente | Especificación | Observaciones |
 |:-----------|:---------------|:--------------|
-| **Riel** | UIC 60, 18m longitud | Riel continuo soldado |
+| **Riel** | FRA/AREMA 60, 18m longitud | Riel continuo soldado |
 | **Durmientes** | Concreto pretensado | 1,667 durmientes/km |
 | **Balasto** | Granito triturado | 2,000 m³/km |
 | **Subbalasto** | Material granular | 1,000 m³/km |
@@ -202,8 +202,8 @@ Este documento presenta la **ingeniería civil de detalle** para las obras civil
 ### **7. ELECTRIFICACIÓN DE VÍA**
 
 #### **7.1 Sistema de Electrificación**
-- **Tensión:** 25 kV AC, 50 Hz
-- **Sistema:** Catenaria simple
+- **Tensión:** Diesel-Eléctrica, 50 Hz
+- **Sistema:** Infraestructura Diesel simple
 - **Cable de contacto:** Cobre 120 mm²
 - **Cable portador:** Acero-aluminio 240 mm²
 - **Postes:** Concreto pretensado 15m altura
@@ -261,7 +261,7 @@ Este documento presenta la **ingeniería civil de detalle** para las obras civil
 - **Mampostería:** 45,000 m³
 
 #### **9.3 Infraestructura Ferroviaria**
-- **Riel UIC 60:** 356 km (2 vías)
+- **Riel FRA/AREMA 60:** 356 km (2 vías)
 - **Durmientes:** 593,000 unidades
 - **Balasto:** 356,000 m³
 - **Señales:** 97 unidades
@@ -339,7 +339,7 @@ Este documento presenta la **ingeniería civil de detalle** para las obras civil
 - **Durabilidad:** 50 años mínimo
 
 #### **13.3 Infraestructura Ferroviaria**
-- **Geometría:** Tolerancias UIC
+- **Geometría:** Tolerancias FRA/AREMA
 - **Soldadura:** Normas AWS
 - **Señalización:** Funcional 100%
 - **Electrificación:** 25 kV ±5%

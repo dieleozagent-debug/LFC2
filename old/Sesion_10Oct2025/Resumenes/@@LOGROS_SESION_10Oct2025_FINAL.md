@@ -191,7 +191,7 @@ Cliente accede vía WBS_Menu_Principal.html
 | **BLOCKER-004** | Cronograma MR | ✅ CONFIRMADO (AT9) | Oficiar ANI - Cronograma entrega |
 
 **Hallazgo contractual clave:**
-- ✅ AT3 menciona normas mixtas (AAR, Adif, UIC)
+- ✅ AT3 menciona normas mixtas (AAR, Adif, FRA/AREMA)
 - ❌ **NO define qué sistema implementar** (PTC vs PTC VIRTUAL vs CTC)
 - ✅ BLOCKER-001 y BLOCKER-004 confirmados en contrato
 - 🟡 BLOCKER-002 parcialmente confirmado (interoperabilidad requerida)

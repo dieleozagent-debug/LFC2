@@ -17,7 +17,7 @@ El mantenimiento de los sistemas SICC se centra en la **Disponibilidad Lógica**
 
 ## 🔍 AUDITORÍA DE RE-INGENIERÍA (METODOLOGÍA P.42 v4.2)
 Este módulo ha sido saneado de "alucinaciones" tecnológicas previas:
-1. **ELIMINACIÓN DE MANTENIMIENTO ERTMS/PTC VIRTUAL:** Se sustituye por protocolos de mantenimiento **FRA/PTC**.
+1. **ELIMINACIÓN DE MANTENIMIENTO PTC Virtual/PTC VIRTUAL:** Se sustituye por protocolos de mantenimiento **FRA/PTC**.
 2. **FOCO EN SOFTWARE:** La complejidad se desplaza del hardware de campo al software centralizado en el CCO (La Dorada).
 3. **INTEROPERABILIDAD:** Mantenimiento de interfaces operacionales con FENOCO mediante protocolos de transferencia (Stop & Switch).
 

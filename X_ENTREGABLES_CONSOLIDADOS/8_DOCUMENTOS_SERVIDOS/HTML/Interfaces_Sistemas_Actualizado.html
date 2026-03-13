@@ -307,7 +307,7 @@ ALTO NIVEL</h2>
 <td style="text-align: left;">CTC</td>
 <td style="text-align: left;">ITCS (Material Rodante)</td>
 <td style="text-align: left;">Datos / Control</td>
-<td style="text-align: left;">ETCS Nivel 2 (Supuesto)</td>
+<td style="text-align: left;">PTC Nivel 2 (Supuesto)</td>
 <td style="text-align: left;">Líder de Material Rodante</td>
 <td style="text-align: left;">🔴 <strong>Bloqueada (AT3)</strong></td>
 </tr>
@@ -352,7 +352,7 @@ ALTO NIVEL</h2>
 <td style="text-align: left;">CTC</td>
 <td style="text-align: left;">Bloque Integración Multi-sistema</td>
 <td style="text-align: left;">Lógica / Datos</td>
-<td style="text-align: left;">UIC 918-4, IEC 62443</td>
+<td style="text-align: left;">FRA/AREMA 918-4, IEC 62443</td>
 <td style="text-align: left;">Líder de Integración</td>
 <td style="text-align: left;">✅ <strong>Especificado
 (DT-INTERFACES-001)</strong></td>
@@ -386,9 +386,9 @@ CTC ↔︎ ITCS (Material Rodante)</h3>
 Autorizaciones de Movimiento (MA) y la recepción de la posición exacta
 del tren.</li>
 <li><strong>Medio Físico:</strong> Red de Radio TETRA (canal de datos)
-y/o GSM-R.</li>
+y/o TETRA/LTE.</li>
 <li><strong>Protocolo Lógico:</strong> <strong>(Supuesto
-Técnico)</strong> Se asume ETCS Nivel 2. La definición final está
+Técnico)</strong> Se asume PTC Nivel 2. La definición final está
 bloqueada por el Apéndice Técnico 3.</li>
 <li><strong>Riesgo Asociado:</strong> <strong>R-TEC-001</strong>. La
 indefinición del estándar ITCS es un riesgo crítico. Se diseña una
@@ -407,21 +407,21 @@ múltiples subsistemas.</li>
 <li><strong>Composición del Bloque:</strong>
 <ul>
 <li><strong>Gateways industriales:</strong> Conversión de protocolos CTC
-↔︎ ITCS/ETCS L2 ↔︎ FENOCO</li>
+↔︎ ITCS/PTC L2 ↔︎ FENOCO</li>
 <li><strong>Switches de borde ferroviario:</strong> Segmentación de red
 para subsistemas</li>
 <li><strong>Firewalls IEC 62443:</strong> Ciberseguridad industrial
 (nivel SL-3)</li>
-<li><strong>Middleware interoperabilidad:</strong> Protocolo UIC 918-4
+<li><strong>Middleware interoperabilidad:</strong> Protocolo FRA/AREMA 918-4
 para FENOCO</li>
 <li><strong>Licencias software comunicación:</strong> SCADA, gestión de
 interfaces</li>
 </ul></li>
 <li><strong>Interfaces que soporta:</strong>
 <ul>
-<li>CTC ↔︎ ITCS/ETCS Nivel 2 (intercambio telegramas, datos ocupación vía
+<li>CTC ↔︎ ITCS/PTC Nivel 2 (intercambio telegramas, datos ocupación vía
 RBC)</li>
-<li>CTC ↔︎ FENOCO (Gateway UIC, protocolo 918-4)</li>
+<li>CTC ↔︎ FENOCO (Gateway FRA/AREMA, protocolo 918-4)</li>
 <li>CTC ↔︎ TETRA (canal voz/datos comunicaciones tren-tierra)</li>
 <li>CTC ↔︎ Fibra Óptica (backbone redundante N+1 del corredor)</li>
 <li>CTC ↔︎ Sistemas ITS (CCTV, acceso, detección intrusión)</li>
@@ -433,7 +433,7 @@ críticas</li>
 <li>Licencias integración (protocolos, middleware)</li>
 <li>Configuración interfaces y redundancia N+1</li>
 <li>Ensayos FAT/SAT interoperabilidad</li>
-<li>Integración en entorno virtual (CTC virtual + ETCS L2)</li>
+<li>Integración en entorno virtual (CTC virtual + PTC L2)</li>
 </ul></li>
 <li><strong>NOTA IMPORTANTE:</strong> Equipos físicos mayores cubiertos
 en ítems 1.1.100-1.1.105</li>

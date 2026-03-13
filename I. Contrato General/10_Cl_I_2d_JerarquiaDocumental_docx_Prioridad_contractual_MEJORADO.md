@@ -302,7 +302,7 @@ Metodología de interpretación:
 Primero: Definiciones del Contrato (Capítulo II)
 Segundo: Términos en mayúsculas en Apéndices Técnicos
 Tercero: Términos en mayúsculas en Pliego de Condiciones
-Cuarto: Lenguaje técnico respectivo (normas AREMA, UIC, RETIE, etc.)
+Cuarto: Lenguaje técnico respectivo (normas AREMA, FRA/AREMA, RETIE, etc.)
 Quinto: Significado natural y obvio
 3.3 Obligaciones Implícitas (Cláusula 1.2(c))
 Qué incluye:

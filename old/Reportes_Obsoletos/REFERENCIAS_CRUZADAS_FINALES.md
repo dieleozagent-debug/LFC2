@@ -93,7 +93,7 @@
 - `32_Material_Rodante_Integrado_docx_AT1_Cl_13_1_AT2_operaci_n_AT4.md` → **Material rodante integrado**
 
 #### **Criterios de Diseño**
-- `33_Criterios_Normatividad_docx_AREMA_UIC_RETIE_ISO_TC_204_NSR_10_NFPA.md` → **Criterios normatividad**
+- `33_Criterios_Normatividad_docx_AREMA_FRA/AREMA_RETIE_ISO_TC_204_NSR_10_NFPA.md` → **Criterios normatividad**
 - `34_Criterios_Interoperabilidad_docx_Compatibilidad_con_FENOCO_y_ANI.md` → **Criterios interoperabilidad**
 - `35_Criterios_Redundancia_docx_Disponibilidad_y_respaldo_de_sistemas_cr_ticos.md` → **Criterios redundancia**
 - `36_Criterios_Ciberseguridad_docx_Protecci_n_de_sistemas_de_control.md` → **Criterios ciberseguridad**

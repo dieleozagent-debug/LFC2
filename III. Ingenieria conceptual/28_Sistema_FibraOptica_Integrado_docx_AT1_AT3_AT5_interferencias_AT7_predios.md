@@ -27,7 +27,7 @@ El Sistema de Fibra Óptica constituye el **Backbone Vital** de comunicaciones d
 
 ### 2.2 🔍 AUDITORÍA DE SANEAMIENTO:
 - ✅ **ELIMINADO:** Referencias a protocolos de comunicación PTC VIRTUAL Level 2.
-- ✅ **ELIMINADO:** Soporte para protocolos UIC de interoperabilidad.
+- ✅ **ELIMINADO:** Soporte para protocolos FRA/AREMA de interoperabilidad.
 - ✅ **ADOPTADO:** Arquitectura **Vital IP** para soporte de **PTC Virtual (FRA 236)**.
 
 ---

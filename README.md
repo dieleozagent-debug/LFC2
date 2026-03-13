@@ -411,7 +411,7 @@ El desarrollo de la ingeniería sigue una secuencia lógica de fases, enmarcada 
 
 #### **🔗 INTEGRACIÓN DE SISTEMAS:**
 - `V. Ingenieria de detalle/V.5_Integracion/V.5.1_Plan_Integracion_Sistemas_COMPLETO.md`
-- `VII. Soporte Especializado/VII.2_Especificaciones/VII.2.3_Protocolos_UIC_Interoperabilidad_FENOCO.md`
+- `VII. Soporte Especializado/VII.2_Especificaciones/VII.2.3_Protocolos_FRA/AREMA_Interoperabilidad_FENOCO.md`
 - `IV. Ingenieria basica/41. Interfaces_Sistemas_MEJORADO.md`
 
 ---

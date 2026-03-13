@@ -97,7 +97,7 @@ Realizar un inventario completo de todos los documentos del proyecto APP La Dora
 **Observaciones:**
 - 11 documentos técnicos críticos completados
 - Especificaciones PTC, RBC, RAMS finalizadas
-- Gap de normatividad UIC/EN pendiente
+- Gap de normatividad FRA/AREMA/EN pendiente
 
 **Prioridades:**
 1. Completar estudios de normatividad (VII.1.1, VII.1.2)
@@ -434,7 +434,7 @@ DÍA │ ACTIVIDAD
 - Finalizar 48 documentos marcados como "EN PROGRESO"
 
 #### 🎯 **PRIORIDAD 3 (MEDIA):**
-- Completar estudios de normatividad UIC/EN pendientes
+- Completar estudios de normatividad FRA/AREMA/EN pendientes
 - Desarrollar procedimientos de integración y FAT/SAT
 - Consolidar reportes históricos similares
 

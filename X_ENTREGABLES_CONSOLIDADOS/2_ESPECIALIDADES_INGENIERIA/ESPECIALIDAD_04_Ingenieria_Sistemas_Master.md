@@ -100,12 +100,12 @@
 #### **Principios de Diseño:**
 - **Integración:** Sistemas integrados con interfaces bien definidas
 - **Redundancia:** Arquitectura N+1 para sistemas críticos
-- **Interoperabilidad:** Compatibilidad con estándares UIC y FENOCO
+- **Interoperabilidad:** Compatibilidad con estándares FRA/AREMA y FENOCO
 - **Escalabilidad:** Capacidad de crecimiento y extensión
 - **Mantenibilidad:** Facilidad de mantenimiento y actualización
 
 #### **Estándares de Diseño:**
-- **UIC:** Estándares internacionales para sistemas ferroviarios
+- **FRA/AREMA:** Estándares internacionales para sistemas ferroviarios
 - **EN 50126/50128/50129:** Sistemas ferroviarios de seguridad
 - **IEC 61850:** Comunicación en subestaciones
 - **IEEE 1547:** Interconexión de sistemas distribuidos
@@ -433,7 +433,7 @@
 #### **Sistemas Externos:**
 | Sistema | Interface Externa | Función |
 |:--------|:------------------|:---------|
-| **FENOCO** | Gateway UIC | Interoperabilidad |
+| **FENOCO** | Gateway FRA/AREMA | Interoperabilidad |
 | **ANI** | SICC | Reporte regulatorio |
 | **Comunidades** | ITS | Información al usuario |
 | **Autoridades** | CCTV | Seguridad pública |
@@ -458,7 +458,7 @@
 
 | Normativa | Aplicabilidad | Cumplimiento | Responsable | Observaciones |
 |:----------|:-------------:|:------------:|:------------|:-------------|
-| **UIC** | 100% | ✅ Completo | EPC Sistemas | Estándares internacionales |
+| **FRA/AREMA** | 100% | ✅ Completo | EPC Sistemas | Estándares internacionales |
 | **EN 50126/50128/50129** | 100% | ✅ Completo | EPC Sistemas | Sistemas ferroviarios |
 | **IEC 61850** | 90% | ✅ Completo | EPC Sistemas | Comunicaciones |
 | **IEEE 1547** | 85% | ✅ Completo | EPC Sistemas | Sistemas distribuidos |

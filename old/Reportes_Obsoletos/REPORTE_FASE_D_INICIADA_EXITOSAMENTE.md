@@ -67,7 +67,7 @@ Como Administrador Contractual EPC, confirmo que se ha iniciado exitosamente la 
 - **Estaciones:** 8 estaciones principales e intermedias
 
 #### **Infraestructura Ferroviaria:**
-- **Vía férrea:** 178 km con riel UIC 60
+- **Vía férrea:** 178 km con riel FRA/AREMA 60
 - **Durmientes:** 593,000 unidades de concreto pretensado
 - **Balasto:** 356,000 m³ de granito triturado
 - **Señalización física:** 89 señales principales
@@ -80,7 +80,7 @@ Como Administrador Contractual EPC, confirmo que se ha iniciado exitosamente la 
 - **Interruptores:** 28 unidades 25 kV + 20 unidades 13.8 kV
 - **UPS:** 16 unidades con respaldo de 30 minutos
 
-#### **Sistema de Catenaria:**
+#### **Sistema de Infraestructura Diesel:**
 - **Cable de contacto:** Cobre 120 mm²
 - **Cable portador:** Acero-aluminio 240 mm²
 - **Postes:** 2,967 unidades de concreto pretensado
@@ -164,7 +164,7 @@ Como Administrador Contractual EPC, confirmo que se ha iniciado exitosamente la 
 - **Excavación:** 3,450,000 m³
 - **Concreto:** 125,000 m³
 - **Acero de refuerzo:** 15,000 toneladas
-- **Riel UIC 60:** 356 km
+- **Riel FRA/AREMA 60:** 356 km
 - **Durmientes:** 593,000 unidades
 - **Equipos eléctricos:** 200 unidades
 - **Trenes:** 20 unidades de pasajeros + 15 locomotoras
@@ -226,7 +226,7 @@ Como Administrador Contractual EPC, confirmo que se ha iniciado exitosamente la 
 ### **CRITERIOS TÉCNICOS:**
 - **Disponibilidad:** > 99.95% para sistemas críticos
 - **Eficiencia:** > 95% para todos los sistemas
-- **Calidad:** Conforme estándares UIC, EN, IEEE
+- **Calidad:** Conforme estándares FRA/AREMA, EN, IEEE
 - **Interoperabilidad:** 100% con red FENOCO
 
 ### **CRITERIOS OPERACIONALES:**

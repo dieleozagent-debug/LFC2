@@ -22,7 +22,7 @@ La arquitectura adoptada es **PTC VIRTUAL**. Esto implica la eliminación total 
 ---
 
 ## ⚠️ IMPLICACIONES PARA EL EPC (CONSTRUCTOR)
-**Riesgo:** Sobrecosto y retraso por intentar implementar estándares europeos (PTC VIRTUAL/UIC) o señalización física (WAYSIDE) que NO son requeridos y dificultan la interoperabilidad con FENOCO.
+**Riesgo:** Sobrecosto y retraso por intentar implementar estándares europeos (PTC VIRTUAL/FRA/AREMA) o señalización física (WAYSIDE) que NO son requeridos y dificultan la interoperabilidad con FENOCO.
 **Acción:**
 1. Descartar cualquier diseño de locomotoras basado en PTC VIRTUAL Level 2 por no ser el estándar del proyecto.
 2. Especificar equipamiento embarcado PTC compatible con FRA 236.
@@ -43,7 +43,7 @@ La arquitectura adoptada es **PTC VIRTUAL**. Esto implica la eliminación total 
 
 | Versión | Fecha       | Responsable                | Descripción                              |
 |:------:|:-----------:|:---------------------------|:-----------------------------------------|
-| v4.2   | 13/03/2026  | Admin. Contractual EPC     | Re-ingeniería completa: Purgado PTC VIRTUAL/UIC. Alineación PTC Virtual/FRA. |
+| v4.2   | 13/03/2026  | Admin. Contractual EPC     | Re-ingeniería completa: Purgado PTC VIRTUAL/FRA/AREMA. Alineación PTC Virtual/FRA. |
 
 ---
 

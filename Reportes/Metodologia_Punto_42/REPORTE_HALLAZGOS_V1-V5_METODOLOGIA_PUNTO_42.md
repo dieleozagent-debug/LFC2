@@ -52,7 +52,7 @@ Se ha completado el **PASO 3: Reporte de Hallazgos** aplicando la plantilla de d
 #### **✅ FORTALEZAS**
 - **Contenido técnico completo:** Arquitectura, hardware, software detallados
 - **Especificaciones detalladas:** Servidores, estaciones de trabajo, interfaces
-- **Referencias normativas:** EN 50126/50128/50129, IEC 62290, UIC 615, FFFIS
+- **Referencias normativas:** EN 50126/50128/50129, IEC 62290, FRA/AREMA 615, FFFIS
 - **Matriz de trazabilidad:** Requisitos vs especificaciones vs pruebas
 - **Control de versiones:** Documentado
 - **Interfaces definidas:** PTC, SCADA, Comunicación
@@ -84,7 +84,7 @@ Se ha completado el **PASO 3: Reporte de Hallazgos** aplicando la plantilla de d
 
 #### **✅ FORTALEZAS**
 - **Contenido técnico completo:** RED TETRA (Misión Crítica), fibra óptica, TETRA, VSAT
-- **Referencias normativas:** EN 50126/50128/50129, IEC 62290, UIC 615, EIRENE
+- **Referencias normativas:** EN 50126/50128/50129, IEC 62290, FRA/AREMA 615, EIRENE
 - **Arquitectura definida:** Componentes principales especificados
 - **Versión y fecha:** v1.0, 02/10/2025
 - **Sistemas múltiples:** Comunicaciones principales y de respaldo
@@ -116,7 +116,7 @@ Se ha completado el **PASO 3: Reporte de Hallazgos** aplicando la plantilla de d
 
 #### **✅ FORTALEZAS**
 - **Contenido técnico completo:** Subestaciones, transformadores, UPS, generadores
-- **Referencias normativas:** EN 50126/50128/50129, IEC 62290, UIC 615
+- **Referencias normativas:** EN 50126/50128/50129, IEC 62290, FRA/AREMA 615
 - **Versión y fecha:** v1.0, 02/10/2025
 - **Sistemas críticos:** Alimentación principal y respaldo
 
@@ -146,7 +146,7 @@ Se ha completado el **PASO 3: Reporte de Hallazgos** aplicando la plantilla de d
 
 #### **✅ FORTALEZAS**
 - **Contenido técnico completo:** Funcional, ciberseguridad, física
-- **Referencias normativas:** EN 50126/50128/50129, IEC 62290, UIC 615
+- **Referencias normativas:** EN 50126/50128/50129, IEC 62290, FRA/AREMA 615
 - **Versión y fecha:** v1.0, 02/10/2025
 - **Sistemas múltiples:** CCTV, incendios, accesos
 
@@ -177,7 +177,7 @@ Se ha completado el **PASO 3: Reporte de Hallazgos** aplicando la plantilla de d
 
 ### **✅ FORTALEZAS IDENTIFICADAS**
 - **Contenido técnico completo** en todos los documentos
-- **Referencias normativas** consistentes (EN 50126/50128/50129, IEC 62290, UIC 615)
+- **Referencias normativas** consistentes (EN 50126/50128/50129, IEC 62290, FRA/AREMA 615)
 - **Especificaciones detalladas** de arquitectura y componentes
 - **Versión y fecha** estandarizadas (v1.0, 02/10/2025)
 - **Integración PTC** especificada en documentos relevantes

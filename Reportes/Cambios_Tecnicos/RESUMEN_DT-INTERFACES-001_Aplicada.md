@@ -28,7 +28,7 @@ Documentar formalmente la función técnica y composición del ítem 1.1.106 "In
 - ✅ Agregada interfaz **IF-07** en Matriz de Interfaces (línea 39)
   - Sistema A: CTC
   - Sistema B: Bloque Integración Multi-sistema
-  - Protocolo: UIC 918-4, IEC 62443
+  - Protocolo: FRA/AREMA 918-4, IEC 62443
   - Estado: **Especificado (DT-INTERFACES-001)**
 
 - ✅ Agregada **Sección 3.3**: Especificación detallada de IF-07 (líneas 59-85)
@@ -63,10 +63,10 @@ Documentar formalmente la función técnica y composición del ítem 1.1.106 "In
 
 **Cambios aplicados:**
 - ✅ Agregada **Sección 2.2**: Gateway Interoperabilidad CTC-FENOCO (líneas 110-199)
-  - 2.2.1: Protocolo UIC 918-4 (estándar europeo)
+  - 2.2.1: Protocolo FRA/AREMA 918-4 (estándar europeo)
   - 2.2.2: Funciones del Gateway (conversión, intercambio, gestión)
   - 2.2.3: Arquitectura del Gateway (diagrama completo)
-  - 2.2.4: Mensajes UIC 918-4 soportados (tabla con 6 tipos)
+  - 2.2.4: Mensajes FRA/AREMA 918-4 soportados (tabla con 6 tipos)
   - 2.2.5: Requisitos de rendimiento (latencia <200ms, disponibilidad 99.9%)
 
 **Verificación:** ✅ `.docx` generado correctamente (21.1 KB)
@@ -79,7 +79,7 @@ Documentar formalmente la función técnica y composición del ítem 1.1.106 "In
 |:--------|:-------------------|:---------------|:-----------------|
 | **IV.** Ingeniería Básica | 41. Interfaces_Sistemas_MEJORADO.md | IF-07 + §3.3 | Nueva interfaz y especificación |
 | **V.** Ingeniería Detalle | V.2_CTC_v5.0.md | §12.4 (completa) | Bloque lógico integración |
-| **VII.** Soporte Especializado | VII.2.4_Interfaces_CTC_PTC.md | §2.2 (completa) | Gateway FENOCO UIC 918-4 |
+| **VII.** Soporte Especializado | VII.2.4_Interfaces_CTC_PTC.md | §2.2 (completa) | Gateway FENOCO FRA/AREMA 918-4 |
 
 **Total archivos actualizados:** 3  
 **Total secciones agregadas:** 3  
@@ -96,7 +96,7 @@ Documentar formalmente la función técnica y composición del ítem 1.1.106 "In
 | Interfaces_Sistemas_CON_DT-INTERFACES-001.docx | Word | 15.6 KB | IV.2 con IF-07 nueva |
 | Interfaces_Sistemas_CON_DT-INTERFACES-001.html | HTML | - | Visualización web IV.2 |
 | CTC_v5_CON_Bloque_Integracion.docx | Word | 27.4 KB | V.2 con §12.4 nueva |
-| Protocolo_FFFIS_CON_Gateway_UIC_918-4.docx | Word | 21.1 KB | VII.2.4 con §2.2 nueva |
+| Protocolo_FFFIS_CON_Gateway_FRA/AREMA_918-4.docx | Word | 21.1 KB | VII.2.4 con §2.2 nueva |
 
 **Total documentos servidos:** 4  
 **Generador:** Pandoc 3.8.2  
@@ -112,18 +112,18 @@ Documentar formalmente la función técnica y composición del ítem 1.1.106 "In
 1. ✅ **Ítem 1.1.106 documentado como bloque lógico**
    - IV.2: IF-07 especifica que NO es hardware único
    - V.2: §12.4 describe composición del bloque
-   - VII.2.4: §2.2 detalla Gateway UIC como parte del bloque
+   - VII.2.4: §2.2 detalla Gateway FRA/AREMA como parte del bloque
 
 2. ✅ **Composición del bloque documentada**
    - Gateways industriales ✅ (mencionado en 3 docs)
    - Switches de borde ✅ (mencionado en 3 docs)
    - Firewalls IEC 62443 ✅ (mencionado en 3 docs)
-   - Middleware UIC 918-4 ✅ (detallado en VII.2.4)
+   - Middleware FRA/AREMA 918-4 ✅ (detallado en VII.2.4)
    - Licencias software ✅ (mencionado en 3 docs)
 
 3. ✅ **Interfaces documentadas**
    - CTC ↔ PTC/PTC VIRTUAL L2 ✅
-   - CTC ↔ FENOCO (UIC 918-4) ✅
+   - CTC ↔ FENOCO (FRA/AREMA 918-4) ✅
    - CTC ↔ TETRA ✅
    - CTC ↔ Fibra Óptica ✅
    - CTC ↔ Sistemas ITS ✅
@@ -219,7 +219,7 @@ CARPETA X:
 **Ubicación archivos:**
 - `D:\...\Reportes\Cambios_Tecnicos\Interfaces_Sistemas_CON_DT-INTERFACES-001.docx`
 - `D:\...\Reportes\Cambios_Tecnicos\CTC_v5_CON_Bloque_Integracion.docx`
-- `D:\...\Reportes\Cambios_Tecnicos\Protocolo_FFFIS_CON_Gateway_UIC_918-4.docx`
+- `D:\...\Reportes\Cambios_Tecnicos\Protocolo_FFFIS_CON_Gateway_FRA/AREMA_918-4.docx`
 
 ---
 

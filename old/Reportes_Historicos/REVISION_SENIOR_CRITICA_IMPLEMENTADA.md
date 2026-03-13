@@ -11,7 +11,7 @@
 ## 🎯 **METODOLOGÍA DE REVISIÓN SENIOR**
 
 Como **Especialista Senior en Control de Trenes** con experiencia en proyectos ferroviarios EPC, esta revisión aplica:
-- **Estándares Internacionales:** UIC, CENELEC, PTC VIRTUAL, IEC 62290
+- **Estándares Internacionales:** FRA/AREMA, CENELEC, PTC VIRTUAL, IEC 62290
 - **Mejores Prácticas EPC:** Lecciones aprendidas de proyectos similares
 - **Análisis de Gaps Críticos:** Identificación de vacíos técnicos bloqueantes
 - **Evaluación de Madurez:** Análisis de completitud por especialidad

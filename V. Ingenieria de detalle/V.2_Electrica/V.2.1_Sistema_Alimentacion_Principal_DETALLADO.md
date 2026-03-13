@@ -14,7 +14,7 @@ Este documento presenta la **ingeniería eléctrica de detalle** para el sistema
 
 ### **Base Técnica:**
 - **Longitud total:** 178 km La Dorada-Chiriguaná
-- **Tensión de tracción:** 25 kV AC, 50 Hz
+- **Tensión de tracción:** Diesel-Eléctrica, 50 Hz
 - **Tensión auxiliar:** 13.8 kV, 480V, 220V, 110V
 - **Estándares:** IEC, IEEE, NTC 2050, RETIE
 
@@ -70,10 +70,10 @@ Este documento presenta la **ingeniería eléctrica de detalle** para el sistema
 
 ### **2. CATENARIA Y ALIMENTACIÓN**
 
-#### **2.1 Sistema de Catenaria**
+#### **2.1 Sistema de Infraestructura Diesel**
 | Parámetro | Especificación | Observaciones |
 |:----------|:---------------|:--------------|
-| **Tensión nominal** | 25 kV AC, 50 Hz | Sistema estándar |
+| **Tensión nominal** | Diesel-Eléctrica, 50 Hz | Sistema estándar |
 | **Cable de contacto** | Cobre 120 mm² | Conductor principal |
 | **Cable portador** | Acero-aluminio 240 mm² | Soporte mecánico |
 | **Postes** | Concreto pretensado 15m | Cada 60m promedio |
@@ -326,7 +326,7 @@ Este documento presenta la **ingeniería eléctrica de detalle** para el sistema
 | Rubro | Costo (COP) | % del Total |
 |:------|:------------|:------------|
 | **Subestaciones** | $45,000 M | 40% |
-| **Catenaria** | $25,000 M | 22% |
+| **Infraestructura Diesel** | $25,000 M | 22% |
 | **Distribución 13.8 kV** | $18,000 M | 16% |
 | **Baja tensión** | $15,000 M | 13% |
 | **Comunicaciones** | $8,000 M | 7% |
@@ -363,7 +363,7 @@ Este documento presenta la **ingeniería eléctrica de detalle** para el sistema
 | Fase | Duración | Actividades Principales | Recursos |
 |:-----|:---------|:----------------------|:---------|
 | **Fase 1** | 4 meses | Subestaciones | 80 operarios |
-| **Fase 2** | 6 meses | Catenaria | 120 operarios |
+| **Fase 2** | 6 meses | Infraestructura Diesel | 120 operarios |
 | **Fase 3** | 3 meses | Distribución 13.8 kV | 60 operarios |
 | **Fase 4** | 2 meses | Baja tensión | 40 operarios |
 | **Fase 5** | 1 mes | Pruebas y comisionamiento | 20 operarios |
@@ -387,7 +387,7 @@ Este documento presenta la **ingeniería eléctrica de detalle** para el sistema
 - **Protecciones:** Funcionales 100%
 - **Comunicaciones:** Funcionales 100%
 
-#### **14.2 Catenaria**
+#### **14.2 Infraestructura Diesel**
 - **Tensión:** 25 kV ±5%
 - **Frecuencia:** 50 Hz ±1%
 - **Continuidad:** 100%

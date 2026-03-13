@@ -76,7 +76,7 @@ Este documento contiene las especificaciones técnicas detalladas para el sistem
 
 #### **INTEGRACIÓN Y ESTÁNDARES**
 - **🚂 PTC PTC VIRTUAL Level 2:** Interfaces preparadas para sistemas de control embarcados hasta AT3
-- **🔗 Interoperabilidad FENOCO:** Compatibilidad con sistemas FENOCO según protocolos UIC
+- **🔗 Interoperabilidad FENOCO:** Compatibilidad con sistemas FENOCO según protocolos FRA/AREMA
 - **📊 Disponibilidad AT4:** Cumplimiento de disponibilidad 99.95% según indicadores contractuales
 
 ---

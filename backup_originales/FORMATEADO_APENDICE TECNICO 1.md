@@ -2006,7 +2006,7 @@ o Diez (1 O) Góndolas
 o Dieciocho (18) plataformas canadienses
 o Ocho (8) literas
 
-El Concesionario deberá suministrar y sin limitarse, a la estructura administrativa, mano de obra, materiales, herramientas, equipos, servicios externos requeridos, atención para todos los imprevistos, para realizar el diagnóstico y Puesta a Punto del Material Rodante del Proyecto, incluyendo la instalación de los equipos para el control de tráfico a bordo en el Material Rodante Tractivo, entregando cada locomotora, plataforma, carromotor, equipos de rehabilitación y mantenimiento de vía, bajo estricta conformidad según las normas de la ANI y requerimientos de los administradores de vía, aplicando las mejores prácticas internacionales AREMA, AAR y UIC.
+El Concesionario deberá suministrar y sin limitarse, a la estructura administrativa, mano de obra, materiales, herramientas, equipos, servicios externos requeridos, atención para todos los imprevistos, para realizar el diagnóstico y Puesta a Punto del Material Rodante del Proyecto, incluyendo la instalación de los equipos para el control de tráfico a bordo en el Material Rodante Tractivo, entregando cada locomotora, plataforma, carromotor, equipos de rehabilitación y mantenimiento de vía, bajo estricta conformidad según las normas de la ANI y requerimientos de los administradores de vía, aplicando las mejores prácticas internacionales AREMA, AAR y FRA/AREMA.
 
 El Concesionario debe custodiar y salvaguardar todo el Material Rodante indicado en el Anexo ATl-3 INVENTARIO, durante todo el plazo del Contrato.
 

@@ -50,7 +50,7 @@ El diseño detallado de la seguridad de cada sistema está bloqueado hasta que e
 - **Ciberseguridad ↔ SICC (AT4):** El SICC debe estar protegido, y a su vez, el sistema de monitoreo de seguridad (SIEM) debe reportar al SICC.
 - **Ciberseguridad ↔ Interoperabilidad (FENOCO/ANI):** Las interfaces externas son los principales vectores de ataque y deben ser protegidas con firewalls y VPNs.
 - **🚂 Ciberseguridad ↔ PTC:** Protección de sistemas de control embarcados PTC VIRTUAL Level 2 hasta AT3
-- **🔗 Ciberseguridad ↔ FENOCO:** Seguridad en interfaces de interoperabilidad según protocolos UIC
+- **🔗 Ciberseguridad ↔ FENOCO:** Seguridad en interfaces de interoperabilidad según protocolos FRA/AREMA
 
 ---
 
@@ -127,7 +127,7 @@ La siguiente matriz asigna los controles de ciberseguridad clave a cada sistema 
 | **Gestión de Accesos Remotos** | Soporte de proveedores | AT4 (Acceso restringido) | IEC 62443-2-4 |
 | **Plan de Respuesta a Incidentes** | Todos los sistemas | AT2 (Continuidad del servicio) | NIST SP 800-61 |
 | **🚂 Protección PTC Embarcado** | Sistemas de control embarcados | AT4 (Disponibilidad 99.95%) | IEC 62443-3-3 |
-| **🔗 Seguridad Interfaces FENOCO** | Interfaces de interoperabilidad | AT4 (Interoperabilidad) | UIC 556 |
+| **🔗 Seguridad Interfaces FENOCO** | Interfaces de interoperabilidad | AT4 (Interoperabilidad) | FRA/AREMA 556 |
 
 ---
 
@@ -173,9 +173,9 @@ La aprobación de estos criterios de ciberseguridad **completa el Bloque de Trab
 
 ### **MEJORAS IMPLEMENTADAS:**
 1. **Interfaces Críticas PTC:** Protección de sistemas de control embarcados PTC VIRTUAL Level 2 hasta AT3
-2. **Interfaces Críticas FENOCO:** Seguridad en interfaces de interoperabilidad según protocolos UIC
+2. **Interfaces Críticas FENOCO:** Seguridad en interfaces de interoperabilidad según protocolos FRA/AREMA
 3. **Matriz de Controles PTC:** Protección PTC Embarcado con estándar IEC 62443-3-3
-4. **Matriz de Controles FENOCO:** Seguridad Interfaces FENOCO con estándar UIC 556
+4. **Matriz de Controles FENOCO:** Seguridad Interfaces FENOCO con estándar FRA/AREMA 556
 
 ### **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
 1. **Falta de protección PTC:** Agregada protección específica para sistemas de control embarcados
@@ -187,7 +187,7 @@ La aprobación de estos criterios de ciberseguridad **completa el Bloque de Trab
 | ID | Categoría | Probabilidad | Impacto | Descripción |
 |:---:|:---:|:---:|:---:|:---|
 | R-080 | Técnico | Alta | Alto | Vulnerabilidades en sistemas PTC por dependencia AT3 |
-| R-081 | Técnico | Media | Alto | Ataques a interfaces FENOCO por falta de protocolos UIC |
+| R-081 | Técnico | Media | Alto | Ataques a interfaces FENOCO por falta de protocolos FRA/AREMA |
 | R-082 | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.95% por incidentes de seguridad |
 | R-083 | Operacional | Alta | Medio | Complejidad en gestión de seguridad PTC y FENOCO |
 | R-084 | Técnico | Media | Medio | Integración de controles de seguridad con sistemas FENOCO existentes |

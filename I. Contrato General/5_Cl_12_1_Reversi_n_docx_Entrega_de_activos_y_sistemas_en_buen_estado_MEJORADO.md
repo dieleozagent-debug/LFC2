@@ -321,7 +321,7 @@ Proxima actualizacion: 27/02/2025
    - **Estado operativo:** Verificación de funcionamiento PTC al momento de reversión
 
 2. **🔗 INTEROPERABILIDAD FENOCO EN REVERSIÓN:**
-   - **Protocolos UIC:** Documentación de interoperabilidad con FENOCO
+   - **Protocolos FRA/AREMA:** Documentación de interoperabilidad con FENOCO
    - **Certificaciones:** Validación de compatibilidad con sistemas FENOCO
    - **Manuales de integración:** Procedimientos de interoperabilidad
    - **Pruebas de reversión:** Validación de funcionamiento con FENOCO
@@ -367,7 +367,7 @@ Proxima actualizacion: 27/02/2025
 | Sistema | Cláusula | AT | Especificación | Estado |
 |:---|:---|:---|:---|:---:|
 | **PTC Reversión** | 12.1 | AT3 | PTC VIRTUAL Level 2 | ✅ Implementado |
-| **FENOCO Reversión** | 12.1 | AT1 | Protocolos UIC | ✅ Implementado |
+| **FENOCO Reversión** | 12.1 | AT1 | Protocolos FRA/AREMA | ✅ Implementado |
 | **AT4 SICC Reversión** | 12.1 | AT4 | Evidencias de cumplimiento | ✅ Implementado |
 | **Ciberseguridad Reversión** | 12.1 | AT3 | NIST/IEC 62443 | ✅ Implementado |
 | **Redundancia Reversión** | 12.1 | AT4 | Arquitectura N+1 | ✅ Implementado |
