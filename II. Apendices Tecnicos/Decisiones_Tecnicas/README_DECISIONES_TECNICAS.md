@@ -96,7 +96,7 @@ NO se actualiza por cada cambio pequeño
 DT-[SISTEMA]-[NNN]_[Nombre_Descriptivo]_v[X.X].md
 
 Donde:
-- SISTEMA: FIBRA, TETRA, CTC, ATP, CCTV, MR (Material Rodante), etc.
+- SISTEMA: FIBRA, TETRA, CTC, PTC, CCTV, MR (Material Rodante), etc.
 - NNN: Número secuencial (001, 002, 003...)
 - Nombre_Descriptivo: Breve descripción (sin espacios)
 - X.X: Versión (1.0, 1.1, 2.0...)

@@ -64,7 +64,7 @@ A continuación, se presenta la Estructura de Desglose de Trabajo para la Ingeni
 | **1.0** | **Sistemas de Control y Señalización** | | |
 | 1.1 | Centro de Control de Tráfico (CTC) | - Arquitectura funcional del CTC<br>- Definición de interfaces con enclavamientos y SICC<br>- Requisitos de hardware/software para CCO<br>- **Disponibilidad 99.95% según AT4** | `26. Sistem_CTC_Int...md` |
 | 1.2 | Señalización Ferroviaria y Enclavamientos | - Filosofía de señalización (bloques, cantones)<br>- Criterios para enclavamientos electrónicos (CBI)<br>- Especificaciones para detectores de vía | `29_Sistema_Senalizacion_Integrado...md` |
-| 1.3 | Capacidad y Gestión de Surcos | - Modelo de simulación de capacidad (FRA/AREMA-405)<br>- Reglas de negocio para asignación de surcos<br>- Protocolo de interoperabilidad con FENOCO<br>- **PTC PTC VIRTUAL Level 2 hasta AT3** | `20. AT10_CapacidadSurcos...md` |
+| 1.3 | Capacidad y Gestión de Surcos | - Modelo de simulación de capacidad (FRA/AREMA-405)<br>- Reglas de negocio para asignación de surcos<br>- Protocolo de interoperabilidad con FENOCO<br>- **PTC PTC Virtual (FRA 236) hasta AT3** | `20. AT10_CapacidadSurcos...md` |
 | **2.0** | **Sistemas de Telecomunicaciones** | | |
 | 2.1 | Red de Fibra Óptica (Backbone) | - Diseño de topología de anillo redundante<br>- Especificaciones de cable y equipos de transmisión (DWDM)<br>- Plan de gestión de interferencias (AT5) | `28_Sistema_FibraOptica_Integrado...md` |
 | 2.2 | Sistema de Radio TETRA | - Estudio de cobertura de radio<br>- Plan de sitios para estaciones base (coord. con AT7)<br>- Especificaciones de equipos embarcados y portátiles<br>- **Disponibilidad 99.5% según AT4**<br>- **Interoperabilidad FENOCO FRA/AREMA** | `27_Sistema_TETRA_Integrado...md` |
@@ -72,7 +72,7 @@ A continuación, se presenta la Estructura de Desglose de Trabajo para la Ingeni
 | 3.1 | Sistemas Inteligentes de Transporte (ITS) | - Arquitectura de sistemas ITS (paneles, sensores)<br>- Plan de integración con indicadores de desempeño (AT4)<br>- Criterios de gestión ambiental (AT6) | `30_Sistema_ITS_Integrado...md` |
 | 3.2 | Sistema de Videovigilancia (CCTV) | - Plan de cobertura de cámaras (estaciones, P.N., CCO)<br>- Especificaciones de VMS y almacenamiento<br>- Criterios de integración con gestión social (AT8) | `31_Sistema_CCTV_Integrado...md` |
 | **4.0** | **Material Rodante y Equipos** | | |
-| 4.1 | Material Rodante y Equipos Embarcados | - Especificaciones funcionales de locomotoras y vagones<br>- Requisitos de equipos embarcados (PTC, TETRA, GPS)<br>- Plan de Puesta a Punto y Mantenimiento (AT2)<br>- **PTC PTC VIRTUAL Level 2 hasta AT3**<br>- **Disponibilidad 99.95% según AT4** | `32_Material_Rodante_Integrado...md` |
+| 4.1 | Material Rodante y Equipos Embarcados | - Especificaciones funcionales de locomotoras y vagones<br>- Requisitos de equipos embarcados (PTC, TETRA, GPS)<br>- Plan de Puesta a Punto y Mantenimiento (AT2)<br>- **PTC PTC Virtual (FRA 236) hasta AT3**<br>- **Disponibilidad 99.95% según AT4** | `32_Material_Rodante_Integrado...md` |
 | **5.0** | **Criterios de Diseño Transversales** | | |
 | 5.1 | Normatividad y Estándares | - Matriz de normatividad aplicable (AREMA, FRA/AREMA, RETIE, etc.)<br>- Análisis de brechas normativas | `33_Criterios_Normatividad...md` |
 | 5.2 | Interoperabilidad | - Estrategia de interoperabilidad con FENOCO<br>- Definición de interfaces técnicas y operativas<br>- **Protocolos FRA/AREMA para FENOCO** | `34_Criterios_Interoperabilidad...md` |
@@ -111,13 +111,13 @@ Con la aprobación de esta WBS, se da por finalizada la fase de "Documentos Base
 
 ### ✅ **MEJORAS IMPLEMENTADAS:**
 
-1. **🚂 PTC Especificado:** PTC VIRTUAL Level 2 como estándar hasta AT3 en paquetes críticos
+1. **🚂 PTC Especificado:** PTC Virtual (FRA 236) como estándar hasta AT3 en paquetes críticos
 2. **🔗 Interoperabilidad FENOCO:** Criterios FRA/AREMA especificados en paquetes relevantes
 3. **📊 Criterios de Disponibilidad AT4:** Integrados por paquete (CTC 99.95%, TETRA 99.5%, PTC 99.95%)
 4. **🎯 WBS Actualizada:** Refleja mejoras implementadas en documentos individuales
 
 ### 🎯 **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
-- ✅ **PTC:** Estrategia de avance con PTC VIRTUAL Level 2 especificada
+- ✅ **PTC:** Estrategia de avance con PTC Virtual (FRA 236) especificada
 - ✅ **FENOCO:** Criterios de interoperabilidad según estándares FRA/AREMA
 - ✅ **AT4:** Criterios de disponibilidad integrados por paquete
 - ✅ **Consistencia:** WBS alineada con documentos individuales mejorados

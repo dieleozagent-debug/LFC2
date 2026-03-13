@@ -8,7 +8,7 @@
 ---
 
 ## 1. ANÁLISIS DE LA TRANSICIÓN
-Este documento justifica la decisión técnica de abandonar el estándar propietario PTC (Alstom) y el estándar europeo PTC VIRTUAL Level 2 en favor del **PTC Virtual (FRA 236)**.
+Este documento justifica la decisión técnica de abandonar el estándar propietario PTC (Alstom) y el estándar europeo PTC Virtual (FRA 236) en favor del **PTC Virtual (FRA 236)**.
 
 ### 1.1 Razones de la Purga Técnica:
 1.  **Independencia Tecnológica:** El PTC Virtual permite el uso de hardware COTS y software basado en estándares abiertos (FRA/AREMA), eliminando el monopolio de proveedores únicos.

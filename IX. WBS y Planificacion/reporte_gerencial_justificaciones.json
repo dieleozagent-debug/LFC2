@@ -33,7 +33,7 @@
                   },
                   {
                       "codigo":  "2.3.101",
-                      "cantidad":  "594km",
+                      "cantidad":  "526km",
                       "valor_unitario":  null,
                       "es_pareto_80":  true,
                       "tipo":  "OBRA",
@@ -73,7 +73,7 @@
                   },
                   {
                       "codigo":  "2.3.100",
-                      "cantidad":  "594km",
+                      "cantidad":  "526km",
                       "valor_unitario":  null,
                       "es_pareto_80":  true,
                       "tipo":  "SUMINISTRO",
@@ -128,7 +128,7 @@
                       "es_pareto_80":  true,
                       "tipo":  "SUMINISTRO",
                       "valor_total_cop":  3200000000,
-                      "descripcion":  "Sistemas ATP embarcados",
+                      "descripcion":  "Sistemas PTC embarcados",
                       "porcentaje_total":  1.21
                   },
                   {
@@ -308,7 +308,7 @@
                       "es_pareto_80":  false,
                       "tipo":  "SUMINISTRO",
                       "valor_total_cop":  960000000,
-                      "descripcion":  "Computadora ATP embarcada",
+                      "descripcion":  "Computadora PTC embarcada",
                       "porcentaje_total":  0.36
                   },
                   {
@@ -418,7 +418,7 @@
                       "es_pareto_80":  false,
                       "tipo":  "SUMINISTRO",
                       "valor_total_cop":  800000000,
-                      "descripcion":  "Software ATP",
+                      "descripcion":  "Software PTC",
                       "porcentaje_total":  0.3
                   },
                   {

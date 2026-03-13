@@ -53,7 +53,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 
 | ID | Categoría | Probabilidad | Impacto | Descripción | Estrategia de Mitigación |
 |:---:|:---:|:---:|:---:|:---|:---|
-| **R-125** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en interfonía | Desarrollar sistemas de interfonía basados en PTC VIRTUAL Level 2 hasta disponibilidad de AT3 |
+| **R-125** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en interfonía | Desarrollar sistemas de interfonía basados en PTC Virtual (FRA 236) hasta disponibilidad de AT3 |
 | **R-126** | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por sistemas de interfonía incompatibles | Establecer sistemas de interfonía compatibles con sistemas FENOCO existentes |
 | **R-127** | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.5% en interfonía según AT4 | Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad |
 | **R-128** | Operacional | Alta | Medio | Complejidad en gestión de 146 pasos a nivel con interfonía PTC | Desarrollar protocolos de prueba específicos para PTC y FENOCO |
@@ -140,14 +140,14 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 ## ACTUALIZACIÓN v4.1 - REVISIÓN METODOLOGÍA PUNTO 42
 
 ### **MEJORAS IMPLEMENTADAS:**
-1. **Interfaces Críticas PTC:** Sistemas de interfonía para control embarcado PTC VIRTUAL Level 2 hasta AT3
+1. **Interfaces Críticas PTC:** Sistemas de interfonía para control embarcado PTC Virtual (FRA 236) hasta AT3
 2. **Interfaces Críticas FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos FRA/AREMA
 3. **Integración con Sistemas Ferroviarios PTC:** Sistemas de interfonía para control embarcado
 4. **Integración con Sistemas Ferroviarios FENOCO:** Interoperabilidad con sistemas FENOCO
 5. **Disponibilidad AT4:** Cumplimiento de disponibilidad 99.5% según indicadores contractuales
 
 ### **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
-1. **Falta de interfaces PTC:** Agregados sistemas de interfonía específicos para control embarcado PTC VIRTUAL Level 2
+1. **Falta de interfaces PTC:** Agregados sistemas de interfonía específicos para control embarcado PTC Virtual (FRA 236)
 2. **Ausencia de interoperabilidad FENOCO:** Integrada interoperabilidad con sistemas FENOCO
 3. **Falta de criterios AT4:** Agregado cumplimiento de disponibilidad 99.5%
 
@@ -162,7 +162,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 | R-129 | Técnico | Media | Medio | Integración de interfonía con sistemas FENOCO existentes |
 
 ### **RECOMENDACIONES PARA GESTIÓN DE RIESGOS:**
-1. **Estrategia PTC:** Desarrollar sistemas de interfonía basados en PTC VIRTUAL Level 2 hasta disponibilidad de AT3
+1. **Estrategia PTC:** Desarrollar sistemas de interfonía basados en PTC Virtual (FRA 236) hasta disponibilidad de AT3
 2. **Coordinación FENOCO:** Establecer sistemas de interfonía compatibles con sistemas FENOCO existentes
 3. **Monitoreo AT4:** Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad 99.5%
 4. **Pruebas de Interfonía:** Desarrollar protocolos de prueba específicos para PTC y FENOCO

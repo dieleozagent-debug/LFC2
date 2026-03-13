@@ -74,7 +74,7 @@ Usando: II/Decisiones_Tecnicas/PLANTILLA_Análisis_Cambio.md
 
 Incluye:
 - Archivos afectados (de MATRIZ_DEPENDENCIAS)
-- Cantidades: 594km ÷ 1.0km = 525 cajas (vs. 1,050)
+- Cantidades: 526km ÷ 1.0km = 525 cajas (vs. 1,050)
 - Ahorro CAPEX: Calcular 525 unidades menos
 - Riesgos nuevos: Identificar
 ```

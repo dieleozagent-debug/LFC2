@@ -56,7 +56,7 @@
 - ✅ datos_wbs_TODOS_items.json
 - ✅ Recalcula total
 
-**Ejemplo:** DT-TETRA-001 (ATP 15→8)
+**Ejemplo:** DT-TETRA-001 (PTC 15→8)
 
 ---
 
@@ -88,7 +88,7 @@
 - ❌ NO cambia valores numéricos
 
 **Archivos creados:**
-- `DT-ATP-001-2025-10-09.md` (ítem 1.2.100 - Computadora ATP) ✅
+- `DT-PTC-001-2025-10-09.md` (ítem 1.2.100 - Computadora PTC) ✅
 - `DT-INTERFACES-001-2025-10-09.md` (ítem 1.1.106 - Interfaces) ✅
 - `DT-TETRA-002-2025-10-09.md` (ítem 2.1.103 - Radios TETRA) ✅
 
@@ -165,7 +165,7 @@ Archivos correctos se actualizan automáticamente
 ## 📊 DTs CREADAS CON NUEVOS TIPOS
 
 ### **Tipo: "Ajuste Criterio Técnico"**
-1. ✅ DT-ATP-001 (ítem 1.2.100) - Justificación ATP embarcado
+1. ✅ DT-PTC-001 (ítem 1.2.100) - Justificación PTC embarcado
 2. ✅ DT-INTERFACES-001 (ítem 1.1.106) - Bloque integración
 3. ✅ DT-TETRA-002 (ítem 2.1.103) - 30 radios TETRA
 
@@ -235,7 +235,7 @@ Archivos correctos se actualizan automáticamente
   - Select con 8 opciones (4 nuevas agregadas)
 
 ### **DTs con tipos nuevos:**
-- ✅ `DT-ATP-001-2025-10-09.md` (Criterio Técnico)
+- ✅ `DT-PTC-001-2025-10-09.md` (Criterio Técnico)
 - ✅ `DT-INTERFACES-001-2025-10-09.md` (Criterio Técnico)
 - ✅ `DT-TETRA-002-2025-10-09.md` (Criterio Técnico)
 - ✅ `DT-FIBRA-003-2025-10-09.md` (Riesgo + Cronograma) ⭐ EJEMPLO COMPLETO
@@ -327,7 +327,7 @@ Detecta tipos de DT:
 
 | Escenario | Tipo DT | Archivos Afectados | Ejemplo |
 |:----------|:--------|:-------------------|:--------|
-| Justificar cantidad existente | Criterio Técnico | Metadata, I-VI, SISTEMA_XX | DT-ATP-001, DT-TETRA-002 |
+| Justificar cantidad existente | Criterio Técnico | Metadata, I-VI, SISTEMA_XX | DT-PTC-001, DT-TETRA-002 |
 | Documentar bloque lógico | Criterio Técnico | Metadata, IV/V/VII, SISTEMA_XX | DT-INTERFACES-001 |
 | Cambiar cantidad | Cantidad | WBS, Datos, SISTEMA_XX | DT-TETRA-001 |
 | Actualizar precio | Precio | WBS, Datos, SISTEMA_XX | DT-SCADA-001/002/003 |

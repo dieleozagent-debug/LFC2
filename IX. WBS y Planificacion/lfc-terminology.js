@@ -24,10 +24,11 @@ const LFC_TERMINOLOGY = {
         GANTT: "Cronograma Maestro de Ejecución"
     },
     
-    // Lista de Inhibición (Legacy Prohibido)
+    // Lista de Inhibición (Legacy Prohibido / Estándares Europeos-Eléctricos)
     LEGACY_BLACKLIST: [
-        "FRA/AREMA", "EN 50126", "PTC Virtual", "PTC", "Nodos GNSS", 
-        "TETRA/LTE", "Tracción Diesel-Eléctrica", "Infraestructura Diesel", "Locomotora Diesel-Eléctrica", "Diesel-Eléctrica"
+        "FRA/AREMA", "PTC Virtual", "PTC Virtual", "Red Vital IP", "Tracción Diesel-Eléctrica", "Locomotora Diesel-Eléctrica", "Infraestructura Diesel", 
+        "Nodos GNSS", "Nodos GNSS", "PTC", "RBC", "Radio Block Centre", "25 KV", "3 KV DC", "60 HZ",
+        "PTC Virtual (FRA 236)", "Movement Authority PTC Virtual", "DMI PTC Virtual"
     ],
 
     // Mapeo Multidivisa

@@ -11,7 +11,7 @@ El Sistema de Control y Señalización es el **"cerebro" del ferrocarril** que p
 ### Alcance en números - JUSTIFICACIÓN TÉCNICA
 - **Inversión estimada:** $65,000 millones COP
 - **1 CTC Virtual:** Control centralizado desde CCO La Dorada (Km 0+000) con redundancia N+1
-- **8 ATP Embarcados:** PTC PTC VIRTUAL Level 2 (reducido de 15 a 8 con DT-TETRA-001)
+- **8 PTC Embarcados:** PTC PTC Virtual (FRA 236) (reducido de 15 a 8 con DT-TETRA-001)
 - **5 ENCE:** Enclavamientos electrónicos en estaciones críticas (La Dorada, Puerto Berrío, Barrancabermeja, Bucaramanga, Chiriguaná)
 - **120 desvíos:** Control automatizado de todos los desvíos en vía principal
 - **1 Bloque Integración:** IF-07 agregada (DT-INTERFACES-001) para integración CTC-PTC-FENOCO
@@ -23,7 +23,7 @@ El Sistema de Control y Señalización es el **"cerebro" del ferrocarril** que p
 |:-----|:------|:-------|
 | Diseño Conceptual | Enero 2025 | ✅ Completado |
 | Instalación CTC | Marzo 2025 | ⏳ En progreso |
-| Instalación ATP | Abril 2025 | ⏳ En progreso |
+| Instalación PTC | Abril 2025 | ⏳ En progreso |
 | Comisionamiento | Mayo 2025 | ❌ Pendiente |
 
 ---
@@ -35,7 +35,7 @@ El Sistema de Control y Señalización es el **"cerebro" del ferrocarril** que p
 | Alternativa | Ventajas | Desventajas | Decisión |
 |:------------|:---------|:------------|:---------|
 | **Señalización Física** | Familiar, visible | Costo elevado, mantenimiento complejo | ❌ Rechazada |
-| **Señalización Virtual** | Costo optimizado, mantenimiento simplificado | Requiere ATP embarcado | ✅ **Seleccionada** |
+| **Señalización Virtual** | Costo optimizado, mantenimiento simplificado | Requiere PTC embarcado | ✅ **Seleccionada** |
 | **RBC Centralizado** | Control centralizado | No aplicable para filosofía virtual | ❌ Rechazada |
 | **Control Distribuido** | Redundancia geográfica | Complejidad operacional | ❌ Rechazada |
 
@@ -45,7 +45,7 @@ El Sistema de Control y Señalización es el **"cerebro" del ferrocarril** que p
 - **Flexibilidad:** Cambios de configuración desde CCO sin intervención en vía
 - **Disponibilidad:** Redundancia N+1 en CCO vs redundancia distribuida
 
-### ¿Por qué 8 ATP Embarcados? (Actualizado con DT-TETRA-001)
+### ¿Por qué 8 PTC Embarcados? (Actualizado con DT-TETRA-001)
 **Justificación Técnica:**
 - **Parque rodante contractual:** 15 locomotoras según AT1
 - **Operación simultánea:** Máximo 5 locomotoras operando al mismo tiempo (AT1 §3.1)
@@ -53,8 +53,8 @@ El Sistema de Control y Señalización es el **"cerebro" del ferrocarril** que p
   - **5 unidades producción:** Para operación normal simultánea
   - **2 unidades diseño/pruebas:** FAT, SAT y comisionamiento
   - **1 unidad contingencia:** Respaldo estratégico
-- **Total optimizado:** 8 ATP embarcados (ahorro 47% vs 15 originales)
-- **Tecnología PTC VIRTUAL Level 2:** Estándar europeo para control automático de trenes
+- **Total optimizado:** 8 PTC embarcados (ahorro 47% vs 15 originales)
+- **Tecnología PTC Virtual (FRA 236):** Estándar europeo para control automático de trenes
 - **Decisión Técnica:** DT-TETRA-001-2025-10-07 (aprobada por PMO + Especialista Sistemas)
 
 ### ¿Por qué 5 ENCE (no más, no menos)?
@@ -73,12 +73,12 @@ El Sistema de Control y Señalización es el **"cerebro" del ferrocarril** que p
 - **Seguridad:** Control automático de posición de agujas
 - **Eficiencia:** Cambios de configuración desde CCO en tiempo real
 
-### ¿Por qué PTC VIRTUAL Level 2 (no Level 1 o Level 3)?
+### ¿Por qué PTC Virtual (FRA 236) (no Level 1 o Level 3)?
 **Análisis de Niveles PTC VIRTUAL:**
 | Nivel | Descripción | Ventajas | Desventajas | Decisión |
 |:------|:------------|:---------|:------------|:---------|
-| **Level 1** | Punto de referencia virtuals + ATP embarcado | Simplicidad | Limitaciones de capacidad | ❌ Rechazado |
-| **Level 2** | RED TETRA (Misión Crítica) + ATP embarcado | Óptimo costo/beneficio | Requiere RED TETRA (Misión Crítica) | ✅ **Seleccionado** |
+| **Level 1** | Punto de referencia virtuals + PTC embarcado | Simplicidad | Limitaciones de capacidad | ❌ Rechazado |
+| **Level 2** | RED TETRA (Misión Crítica) + PTC embarcado | Óptimo costo/beneficio | Requiere RED TETRA (Misión Crítica) | ✅ **Seleccionado** |
 | **Level 3** | Sin bloqueo fijo | Máxima capacidad | Complejidad alta | ❌ Rechazado |
 
 **Justificación de Level 2:**
@@ -138,13 +138,13 @@ El Sistema de Control y Señalización proporciona **control centralizado** de t
 
 **Estado general:** 🟢 En cronograma
 
-### 2. ATP Embarcado - Protección Automática de Trenes
+### 2. PTC Embarcado - Protección Automática de Trenes
 **Propósito:** Sistema de protección automática instalado en cada locomotora
 
 **Componentes instalados:**
 | Componente | Cantidad | Ubicación | Estado |
 |:-----------|:---------|:----------|:-------|
-| Módulos ATP | 8 unidades | En locomotoras | ⏳ En instalación |
+| Módulos PTC | 8 unidades | En locomotoras | ⏳ En instalación |
 | Antenas GPS | 8 unidades | En locomotoras | ⏳ En instalación |
 | Radios de comunicación | 8 unidades | En locomotoras | ⏳ En instalación |
 | Pantallas de cabina | 15 unidades | En locomotoras | ⏳ En instalación |
@@ -185,7 +185,7 @@ El Sistema de Control y Señalización proporciona **control centralizado** de t
 | Parámetro | Valor | Estándar Aplicable |
 |:----------|:------|:-------------------|
 | Disponibilidad CTC | 99.95% | EN 50126 |
-| Disponibilidad ATP | 99.95% | EN 50126 |
+| Disponibilidad PTC | 99.95% | EN 50126 |
 | Disponibilidad ENCE | 99.95% | EN 50126 |
 | Tiempo de respuesta | < 2 segundos | FRA/AREMA 920-2 |
 | Tiempo de recuperación | < 5 minutos | EN 50126 |
@@ -194,7 +194,7 @@ El Sistema de Control y Señalización proporciona **control centralizado** de t
 ### Criterios de aceptación
 - ✅ Disponibilidad 99.95% del sistema completo
 - ✅ Control centralizado desde CCO La Dorada
-- ✅ ATP embarcado en todas las locomotoras
+- ✅ PTC embarcado en todas las locomotoras
 - ✅ Enclavamientos ENCE en 5 estaciones críticas
 - ✅ Control automatizado de 120 desvíos
 
@@ -203,7 +203,7 @@ El Sistema de Control y Señalización proporciona **control centralizado** de t
 ## 📍 UBICACIÓN Y DESPLIEGUE
 
 ### Mapa de despliegue
-El sistema se despliega desde el Centro de Control Operativo (CCO) en La Dorada, extendiéndose a lo largo de todo el corredor de 594 km hasta Chiriguaná.
+El sistema se despliega desde el Centro de Control Operativo (CCO) en La Dorada, extendiéndose a lo largo de todo el corredor de 526 km hasta Chiriguaná.
 
 ### Tabla de sitios principales
 | Sitio | Componentes | Coordenadas | Estado |
@@ -252,7 +252,7 @@ El sistema opera 24/7 proporcionando control centralizado de todo el tráfico fe
 | Sistema | Tipo de Interfaz | Criticidad | Responsable |
 |:--------|:-----------------|:-----------|:------------|
 | Telecomunicaciones | TETRA + RED TETRA (Misión Crítica) | Alta | EPC Telecomunicaciones |
-| Material Rodante | ATP Embarcado | Alta | EPC Sistemas |
+| Material Rodante | PTC Embarcado | Alta | EPC Sistemas |
 | ITS y Seguridad | CCTV + Monitoreo | Media | EPC Sistemas |
 | Infraestructura | ENCE + Desvíos | Alta | EPC Sistemas |
 
@@ -304,7 +304,7 @@ El sistema opera 24/7 proporcionando control centralizado de todo el tráfico fe
 ### Supuestos Críticos del Diseño
 | Supuesto | Valor Asumido | Impacto si Cambia | Mitigación |
 |:---------|:--------------|:------------------|:-----------|
-| **Parque rodante** | 15 locomotoras | Menos ATP si reduce | Diseño escalable |
+| **Parque rodante** | 15 locomotoras | Menos PTC si reduce | Diseño escalable |
 | **Disponibilidad CTC** | 99.95% | Penalizaciones si no cumple | Redundancia N+1 |
 | **Cobertura RED TETRA (Misión Crítica)** | 100% del corredor | Fallos de comunicación | Respaldo TETRA |
 | **Estaciones críticas** | 5 estaciones | Más ENCE si aumenta | Diseño modular |
@@ -314,15 +314,15 @@ El sistema opera 24/7 proporcionando control centralizado de todo el tráfico fe
 ### Limitaciones del Diseño
 - **Dependencia de comunicaciones:** Sistema requiere RED TETRA (Misión Crítica)/TETRA operativo
 - **Concentración de control:** CCO único punto de falla (mitigado con redundancia)
-- **Complejidad de ATP:** Requiere personal especializado para mantenimiento
+- **Complejidad de PTC:** Requiere personal especializado para mantenimiento
 - **Interoperabilidad:** Dependiente de estándares FENOCO
 - **Tiempo de recuperación:** Máximo 5 minutos para restablecer servicio
 
 ### Dependencias Críticas
-- **RED TETRA (Misión Crítica):** Comunicaciones críticas para ATP
+- **RED TETRA (Misión Crítica):** Comunicaciones críticas para PTC
 - **TETRA:** Comunicaciones de respaldo
 - **Fibra óptica:** Backbone de datos
-- **Material rodante:** 15 locomotoras con ATP embarcado
+- **Material rodante:** 15 locomotoras con PTC embarcado
 - **Personal especializado:** Operadores y técnicos capacitados
 
 ---
@@ -333,7 +333,7 @@ El sistema opera 24/7 proporcionando control centralizado de todo el tráfico fe
 |:-------|:-------------|:---------|:-----------|:-------|
 | Fallo del CTC Virtual | Baja | Alto | Redundancia N+1 | ✅ Mitigado |
 | Fallo de comunicación | Media | Alto | TETRA + RED TETRA (Misión Crítica) dual | ✅ Mitigado |
-| Fallo de ATP embarcado | Baja | Alto | Sistemas de respaldo | ✅ Mitigado |
+| Fallo de PTC embarcado | Baja | Alto | Sistemas de respaldo | ✅ Mitigado |
 | Fallo de ENCE | Baja | Medio | Control manual de respaldo | ✅ Mitigado |
 
 ---
@@ -343,7 +343,7 @@ El sistema opera 24/7 proporcionando control centralizado de todo el tráfico fe
 ### Obligaciones clave del contrato
 - ✅ **AT1 - CCO:** Centro de Control Operacional con disponibilidad 99.95% - Cumplida
 - ✅ **AT2 - Operación:** Sistema de operación centralizada - Cumplida
-- ✅ **AT3 - Especificaciones:** PTC PTC VIRTUAL Level 2 - Cumplida
+- ✅ **AT3 - Especificaciones:** PTC PTC Virtual (FRA 236) - Cumplida
 - ✅ **AT4 - Indicadores:** Disponibilidad 99.95% - Cumplida
 - ⏳ **AT8 - Operaciones:** Procedimientos operacionales integrados - En progreso
 - ❌ **AT9 - Cronograma:** Plan de implementación por fases - Pendiente
@@ -351,7 +351,7 @@ El sistema opera 24/7 proporcionando control centralizado de todo el tráfico fe
 ### Referencias contractuales
 - **Apéndice Técnico 1:** Alcance del proyecto - Centro de Control Operacional
 - **Apéndice Técnico 2:** Operación y mantenimiento - Sistema de operación centralizada
-- **Apéndice Técnico 3:** Especificaciones generales - PTC PTC VIRTUAL Level 2
+- **Apéndice Técnico 3:** Especificaciones generales - PTC PTC Virtual (FRA 236)
 - **Apéndice Técnico 4:** Indicadores de desempeño - Disponibilidad 99.95%
 
 ---
@@ -386,7 +386,7 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 | Indicador | Meta | Actual | Estado |
 |:----------|:-----|:-------|:-------|
 | Disponibilidad CTC | 99.95% | 99.98% | 🟢 Excelente |
-| Disponibilidad ATP | 99.95% | 99.97% | 🟢 Excelente |
+| Disponibilidad PTC | 99.95% | 99.97% | 🟢 Excelente |
 | Disponibilidad ENCE | 99.95% | 99.96% | 🟢 Excelente |
 | Tiempo de respuesta | < 2 segundos | 1.2 segundos | 🟢 Excelente |
 | Tiempo de recuperación | < 5 minutos | 3.5 minutos | 🟢 Excelente |
@@ -395,8 +395,8 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 ## 📋 DECISIONES TÉCNICAS APLICADAS
 
-### DT-TETRA-001-2025-10-07: ATP 15→8 unidades
-- Cambio: Cantidad ATP 15 → 8 (criterio 5+2+1)
+### DT-TETRA-001-2025-10-07: PTC 15→8 unidades
+- Cambio: Cantidad PTC 15 → 8 (criterio 5+2+1)
 - Ahorro: $7,479,500,000 COP (-47%)
 
 ### DT-CTC-001/002/003: Software y componentes CTC

@@ -65,7 +65,7 @@
 | @@SESION_COMPLETA_09Oct2025_v14.4_FINAL.md | `old/Documentacion_Historica_9Oct2025/` | Sesión histórica | Roadmap v14.6 |
 | @@CONSOLIDADO_FINAL_v14.4_PMO_09Oct2025.md | `old/Documentacion_Historica_9Oct2025/` | Duplica sesión completa | Roadmap v14.6 |
 | @@RESUMEN_CRONOGRAMA_PMO_AGRESIVO_09Oct2025.md | `old/Documentacion_Historica_9Oct2025/` | Duplica cronogramas maestros | Cronogramas v1.0 |
-| @@RESUMEN_Correccion_HTMLs_y_DT-ATP-001_09Oct2025.md | `old/Documentacion_Historica_9Oct2025/` | Correcciones ya aplicadas | Sistema operativo |
+| @@RESUMEN_Correccion_HTMLs_y_DT-PTC-001_09Oct2025.md | `old/Documentacion_Historica_9Oct2025/` | Correcciones ya aplicadas | Sistema operativo |
 
 ---
 

@@ -14,14 +14,14 @@
 ### **📋 CAMBIO DE PARADIGMA COMPLETO:**
 
 #### **🔴 FILOSOFÍA ANTERIOR (ELIMINADA):**
-- **❌ Virtual Balise (GNSS)s:** 1,080 unidades → **0 unidades** (Reemplazado por ATP embarcado)
-- **❌ RBC:** 2 unidades → **0 unidades** (Reemplazado por ATP embarcado)
+- **❌ Virtual Balise (GNSS)s:** 1,080 unidades → **0 unidades** (Reemplazado por PTC embarcado)
+- **❌ RBC:** 2 unidades → **0 unidades** (Reemplazado por PTC embarcado)
 - **❌ Señalización física en vía:** Eliminada completamente (CTC virtual)
 - **❌ LEU:** 1,080 unidades → **0 unidades** (Sistema virtual)
 
 #### **✅ FILOSOFÍA NUEVA (IMPLEMENTADA):**
 - **✅ CTC Virtual:** Centro de control centralizado en La Dorada
-- **✅ ATP Embarcado:** Sistema en 15 locomotoras
+- **✅ PTC Embarcado:** Sistema en 15 locomotoras
 - **✅ Display Virtual:** Señalización en cabina del maquinista
 - **✅ ENCE:** 5 enclavamientos electrónicos vitales
 
@@ -29,18 +29,18 @@
 
 ## 1. Alcance y Objetivo
 
-Este documento establece las especificaciones técnicas de detalle para el **sistema de señalización virtual** del proyecto APP La Dorada-Chiriguaná, basado en **CTC centralizado** y **ATP embarcado**.
+Este documento establece las especificaciones técnicas de detalle para el **sistema de señalización virtual** del proyecto APP La Dorada-Chiriguaná, basado en **CTC centralizado** y **PTC embarcado**.
 
 ### 1.1 Objetivo
 Definir las especificaciones técnicas detalladas para la implementación del **sistema de señalización virtual**, incluyendo:
 - Arquitectura CTC virtual centralizada
-- Sistema ATP embarcado en locomotoras
+- Sistema PTC embarcado en locomotoras
 - Display virtual en cabina del maquinista
 - Enclavamientos ENCE electrónicos
 - Integración con sistemas de comunicación
 
 ### 1.2 Alcance
-- **Señalización virtual** (CTC + ATP embarcado)
+- **Señalización virtual** (CTC + PTC embarcado)
 - **5 Enclavamientos ENCE** electrónicos
 - **24 Pasos a Nivel** activos (9 Tipo C + 15 Tipo B)
 - **120 Desvíos** (25 motorizados + 95 manuales)
@@ -68,13 +68,13 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 
 ### 3.1 Componentes Principales
 - **Centro de Control de Tráfico (CTC) Virtual** - CCO La Dorada
-- **Sistema ATP Embarcado** - 15 locomotoras
+- **Sistema PTC Embarcado** - 15 locomotoras
 - **Display Virtual en Cabina** - Señalización para maquinista
 - **Enclavamientos ENCE** - 5 estaciones críticas
 - **Sistemas de Comunicación** - TETRA + RED TETRA (Misión Crítica)
 
-### 3.2 Integración con ATP Embarcado
-- Interfaz CTC-ATP según protocolos virtuales
+### 3.2 Integración con PTC Embarcado
+- Interfaz CTC-PTC según protocolos virtuales
 - Comunicación directa locomotora-centro de control
 - Gestión de movimientos de trenes virtual
 - Control de velocidad y distancia embarcado
@@ -87,11 +87,11 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 - **Servidor CTC:** Software de control ferroviario centralizado
 - **Base de Datos:** Estado de vía y trenes en tiempo real
 - **Interfaz Operador:** Consolas de control y monitoreo
-- **Comunicaciones:** Red TETRA + RED TETRA (Misión Crítica) para ATP
+- **Comunicaciones:** Red TETRA + RED TETRA (Misión Crítica) para PTC
 - **Respaldo:** Sistemas redundantes y UPS
 
-### 4.2 ATP Embarcado (15 Locomotoras)
-- **Computadora ATP:** Sistema embarcado en cada locomotora
+### 4.2 PTC Embarcado (15 Locomotoras)
+- **Computadora PTC:** Sistema embarcado en cada locomotora
 - **Sensores de Velocidad:** GPS + odómetro para posición precisa
 - **Display del Maquinista:** Pantalla de señalización virtual
 - **Comunicación CTC:** Radio TETRA + RED TETRA (Misión Crítica) para comunicación
@@ -117,18 +117,18 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 ### 5.1 Preparación del Sitio
 - **CCO La Dorada:** Construcción y equipamiento del centro de control
 - **37 Torres Comunicaciones:** TETRA + RED TETRA (Misión Crítica) colocalizadas
-- **Fibra Óptica:** 594 km de backbone de comunicaciones
+- **Fibra Óptica:** 526 km de backbone de comunicaciones
 - **Instalación ENCE:** 5 enclavamientos electrónicos
 
 ### 5.2 Montaje de Equipos Virtuales
 - **Instalación CTC:** Servidor central y consolas de control
-- **Montaje ATP:** Sistemas embarcados en 15 locomotoras
+- **Montaje PTC:** Sistemas embarcados en 15 locomotoras
 - **Instalación ENCE:** 5 enclavamientos electrónicos
 - **Conexión Virtual:** Sistemas de comunicación integrados
 
 ### 5.3 Pruebas y Validación Virtual
 - **Pruebas CTC:** Funcionamiento del centro de control
-- **Pruebas ATP:** Sistemas embarcados en locomotoras
+- **Pruebas PTC:** Sistemas embarcados en locomotoras
 - **Pruebas ENCE:** Enclavamientos electrónicos
 - **Validación Virtual:** Integración completa del sistema
 
@@ -144,13 +144,13 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 
 ### 6.2 Mantenimiento Preventivo
 - **Inspecciones CTC:** Monitoreo del centro de control
-- **Pruebas ATP:** Validación de sistemas embarcados
+- **Pruebas PTC:** Validación de sistemas embarcados
 - **Mantenimiento ENCE:** Enclavamientos electrónicos
 - **Calibración Virtual:** Sistemas de comunicación
 
 ### 6.3 Mantenimiento Correctivo
 - **Diagnóstico CTC:** Fallas del centro de control
-- **Reparación ATP:** Sistemas embarcados en locomotoras
+- **Reparación PTC:** Sistemas embarcados en locomotoras
 - **Mantenimiento ENCE:** Enclavamientos electrónicos
 - **Pruebas Post-Reparación:** Validación de funcionamiento
 
@@ -160,7 +160,7 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 
 ### 7.1 Medidas de Seguridad
 - **Redundancia CTC:** Sistemas de respaldo centralizados
-- **Protección ATP:** Sistemas embarcados con respaldo
+- **Protección PTC:** Sistemas embarcados con respaldo
 - **Alarmas Virtuales:** Sistemas de alerta en tiempo real
 - **Procedimientos de Emergencia:** Protocolos de seguridad
 
@@ -177,7 +177,7 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 ### 8.1 Sistemas de Comunicación
 - **Integración TETRA:** 37 estaciones base
 - **Integración RED TETRA (Misión Crítica):** 37 estaciones colocalizadas
-- **Fibra Óptica:** 594 km de backbone
+- **Fibra Óptica:** 526 km de backbone
 - **Redes de Datos:** Sistemas de comunicación integrados
 
 ### 8.2 Sistemas de Potencia
@@ -198,12 +198,12 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 
 ### 9.1 Pruebas de Componentes
 - **Pruebas CTC:** Centro de control centralizado
-- **Pruebas ATP:** Sistemas embarcados en locomotoras
+- **Pruebas PTC:** Sistemas embarcados en locomotoras
 - **Pruebas ENCE:** Enclavamientos electrónicos
 - **Pruebas Comunicaciones:** TETRA + RED TETRA (Misión Crítica)
 
 ### 9.2 Pruebas de Sistema
-- **Pruebas de Integración:** CTC-ATP-ENCE
+- **Pruebas de Integración:** CTC-PTC-ENCE
 - **Pruebas de Rendimiento:** Sistemas virtuales
 - **Pruebas de Seguridad:** Validación de seguridad
 - **Pruebas de Aceptación:** Validación completa
@@ -220,19 +220,19 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 
 ### 10.1 Documentación Técnica
 - **Planos CTC:** Centro de control centralizado
-- **Especificaciones ATP:** Sistemas embarcados
+- **Especificaciones PTC:** Sistemas embarcados
 - **Manuales ENCE:** Enclavamientos electrónicos
 - **Manuales Virtuales:** Operación y mantenimiento
 
 ### 10.2 Software y Configuración
 - **Software CTC:** Control centralizado
-- **Software ATP:** Sistemas embarcados
+- **Software PTC:** Sistemas embarcados
 - **Configuraciones ENCE:** Enclavamientos electrónicos
 - **Interfaces Virtuales:** Sistemas de usuario
 
 ### 10.3 Equipos y Materiales
 - **Equipos CTC:** Centro de control
-- **Equipos ATP:** Sistemas embarcados
+- **Equipos PTC:** Sistemas embarcados
 - **Equipos ENCE:** Enclavamientos electrónicos
 - **Cables y Accesorios:** Sistemas de comunicación
 
@@ -242,14 +242,14 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 
 ### 11.1 Fases del Proyecto
 - **Fase 1:** CTC Virtual (2 meses)
-- **Fase 2:** ATP Embarcado (3 meses)
+- **Fase 2:** PTC Embarcado (3 meses)
 - **Fase 3:** ENCE + Desvíos (4 meses)
 - **Fase 4:** Pruebas Virtuales (2 meses)
 - **Fase 5:** Puesta en Servicio (1 mes)
 
 ### 11.2 Hitos Principales
 - **CCO La Dorada:** Centro de control completado
-- **ATP Embarcado:** Sistemas en locomotoras
+- **PTC Embarcado:** Sistemas en locomotoras
 - **ENCE Instalados:** Enclavamientos electrónicos
 - **Pruebas Virtuales:** Validación completa
 - **Puesta en Servicio:** Operación comercial
@@ -260,7 +260,7 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 
 ### 12.1 Control de Calidad
 - **Inspecciones CTC:** Centro de control
-- **Pruebas ATP:** Sistemas embarcados
+- **Pruebas PTC:** Sistemas embarcados
 - **Validación ENCE:** Enclavamientos electrónicos
 - **Certificados Virtuales:** Documentación de calidad
 
@@ -279,7 +279,7 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 - **`AT1_Alcance_del_Proyecto_MEJORADO_v4.0.md`:** Alcance actualizado
 - **`29_Sistema_Senalizacion_Integrado_v5.0.md`:** Filosofía virtual
 - **`27_Sistema_TETRA_Integrado_v5.0.md`:** 37 estaciones TETRA
-- **`32_Material_Rodante_Integrado_v5.0.md`:** ATP + EOT embarcado
+- **`32_Material_Rodante_Integrado_v5.0.md`:** PTC + EOT embarcado
 
 ### 13.2 Referencias del Proyecto
 - **`@@Roadmap_v12.0_Marco_Gestion_Consolidado.md`:** Estado del proyecto

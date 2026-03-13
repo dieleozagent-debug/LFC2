@@ -15,7 +15,7 @@ El Sistema de Material Rodante es la **"flota de vehículos"** del ferrocarril q
 - **8 carromotores:** Equipos especializados para mantenimiento de vía
 - **15 dispositivos EOT:** 1 por locomotora para seguridad crítica (End of Train)
 - **3 talleres:** Principal La Dorada + secundario Chiriguaná + taller de línea
-- **Sistemas embarcados:** PTC PTC VIRTUAL Level 2, TETRA + RED TETRA (Misión Crítica), GPS/GNSS, CCTV
+- **Sistemas embarcados:** PTC PTC Virtual (FRA 236), TETRA + RED TETRA (Misión Crítica), GPS/GNSS, CCTV
 - **Cobertura:** 100% del corredor La Dorada-Chiriguaná
 - **Disponibilidad requerida:** 99.95% (sistema crítico según AT4)
 
@@ -37,7 +37,7 @@ El Sistema de Material Rodante es la **"flota de vehículos"** del ferrocarril q
 - **2 locomotoras U10:** Locomotoras existentes para puesta a punto
 - **11 locomotoras adicionales:** Nuevas locomotoras para completar flota
 - **Total:** 15 locomotoras para operación del corredor
-- **Justificación:** Capacidad de transporte requerida para 594 km de corredor
+- **Justificación:** Capacidad de transporte requerida para 526 km de corredor
 
 ### ¿Por qué 51 vagones (40 operativas + 11 no operativas)?
 **Justificación Contractual (AT1):**
@@ -49,7 +49,7 @@ El Sistema de Material Rodante es la **"flota de vehículos"** del ferrocarril q
 ### ¿Por qué 8 carromotores?
 **Justificación Técnica:**
 - **Mantenimiento de vía:** Equipos especializados para mantenimiento
-- **Capacidad requerida:** 8 equipos para cobertura de 594 km
+- **Capacidad requerida:** 8 equipos para cobertura de 526 km
 - **Distribución:** 1 carromotor por cada 75 km aproximadamente
 - **Especialización:** Equipos para diferentes tipos de mantenimiento
 
@@ -65,13 +65,13 @@ El Sistema de Material Rodante es la **"flota de vehículos"** del ferrocarril q
 - **Taller Principal La Dorada:** 150m × 30m - mantenimiento mayor
 - **Taller Secundario Chiriguaná:** 100m × 25m - mantenimiento básico
 - **Taller de Línea:** Mantenimiento menor en ruta
-- **Criterio:** Cobertura geográfica para 594 km de corredor
+- **Criterio:** Cobertura geográfica para 526 km de corredor
 
 ### ¿Por qué sistemas embarcados específicos?
 **Justificación Técnica por Sistema:**
 | Sistema | Justificación | Cantidad | Ubicación |
 |:--------|:--------------|:---------|:----------|
-| **PTC PTC VIRTUAL Level 2** | Control automático de trenes | 15 | Locomotoras |
+| **PTC PTC Virtual (FRA 236)** | Control automático de trenes | 15 | Locomotoras |
 | **TETRA + RED TETRA (Misión Crítica)** | Comunicaciones redundantes | 15 | Locomotoras |
 | **GPS/GNSS** | Posicionamiento en tiempo real | 15 | Locomotoras |
 | **CCTV Embarcado** | Seguridad operacional | 15 | Locomotoras |
@@ -120,8 +120,8 @@ El Sistema de Material Rodante proporciona **capacidad de transporte** para el c
 **Componentes instalados:**
 | Componente | Cantidad | Especificación | Estado |
 |:-----------|:---------|:---------------|:-------|
-| Locomotoras principales | 15 unidades | 3,000 kW, PTC VIRTUAL Level 2 | ⏳ En adquisición |
-| Sistemas ATP embarcados | 15 unidades | Control automático | ⏳ En adquisición |
+| Locomotoras principales | 15 unidades | 3,000 kW, PTC Virtual (FRA 236) | ⏳ En adquisición |
+| Sistemas PTC embarcados | 15 unidades | Control automático | ⏳ En adquisición |
 | Sistemas TETRA embarcados | 15 unidades | Comunicación principal | ⏳ En adquisición |
 | Sistemas RED TETRA (Misión Crítica) embarcados | 15 unidades | Comunicación redundante | ⏳ En adquisición |
 | Sistemas GPS/GNSS | 15 unidades | Posicionamiento | ⏳ En adquisición |
@@ -184,7 +184,7 @@ El Sistema de Material Rodante proporciona **capacidad de transporte** para el c
 | Peso por locomotora | 120 toneladas | FRA/AREMA |
 
 ### Criterios de aceptación
-- ✅ 15 locomotoras con ATP embarcado PTC VIRTUAL Level 2
+- ✅ 15 locomotoras con PTC embarcado PTC Virtual (FRA 236)
 - ✅ 51 vagones con capacidad total de 2,550 toneladas
 - ✅ 15 dispositivos EOT para monitoreo de trenes
 - ✅ 3 talleres operativos para mantenimiento
@@ -195,7 +195,7 @@ El Sistema de Material Rodante proporciona **capacidad de transporte** para el c
 ## 📍 UBICACIÓN Y DESPLIEGUE
 
 ### Mapa de despliegue
-El material rodante opera a lo largo del corredor de 594 km, con talleres ubicados estratégicamente en La Dorada (principal), Chiriguaná (secundario) y estaciones intermedias.
+El material rodante opera a lo largo del corredor de 526 km, con talleres ubicados estratégicamente en La Dorada (principal), Chiriguaná (secundario) y estaciones intermedias.
 
 ### Tabla de sitios principales
 | Sitio | Componentes | Capacidad | Estado |
@@ -242,7 +242,7 @@ El material rodante opera 24/7 transportando mercancías a lo largo del corredor
 ### Tabla de interfaces críticas
 | Sistema | Tipo de Interfaz | Criticidad | Responsable |
 |:--------|:-----------------|:-----------|:------------|
-| Control y Señalización | ATP Embarcado | Alta | EPC Sistemas |
+| Control y Señalización | PTC Embarcado | Alta | EPC Sistemas |
 | Telecomunicaciones | TETRA + RED TETRA (Misión Crítica) Embarcado | Alta | EPC Telecomunicaciones |
 | Infraestructura | Vías y estaciones | Alta | EPC Civil |
 | Talleres | Equipos de mantenimiento | Media | EPC Mecánico |
@@ -263,7 +263,7 @@ El material rodante opera 24/7 transportando mercancías a lo largo del corredor
 ## 📋 CUMPLIMIENTO CONTRACTUAL
 
 ### Obligaciones clave del contrato
-- ✅ **AT1 - Material Rodante:** 15 locomotoras con ATP embarcado - Cumplida
+- ✅ **AT1 - Material Rodante:** 15 locomotoras con PTC embarcado - Cumplida
 - ✅ **AT2 - Operación:** Operación con disponibilidad 99.95% - Cumplida
 - ✅ **AT3 - Especificaciones:** Especificaciones técnicas de material rodante - Cumplida
 - ✅ **AT4 - Indicadores:** Disponibilidad 99.95% - Cumplida

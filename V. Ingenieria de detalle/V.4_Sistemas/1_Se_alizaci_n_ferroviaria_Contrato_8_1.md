@@ -75,7 +75,7 @@ Este documento contiene las especificaciones técnicas detalladas para el sistem
     - **Conectores y Terminales:** Terminales de compresión y conectores de alta calidad para asegurar conexiones fiables.
 
 #### **INTEGRACIÓN Y ESTÁNDARES**
-- **🚂 PTC PTC VIRTUAL Level 2:** Interfaces preparadas para sistemas de control embarcados hasta AT3
+- **🚂 PTC PTC Virtual (FRA 236):** Interfaces preparadas para sistemas de control embarcados hasta AT3
 - **🔗 Interoperabilidad FENOCO:** Compatibilidad con sistemas FENOCO según protocolos FRA/AREMA
 - **📊 Disponibilidad AT4:** Cumplimiento de disponibilidad 99.95% según indicadores contractuales
 
@@ -85,7 +85,7 @@ Este documento contiene las especificaciones técnicas detalladas para el sistem
 
 | ID | Categoría | Probabilidad | Impacto | Descripción | Estrategia de Mitigación |
 |:---:|:---:|:---:|:---:|:---|:---|
-| **R-085** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en señalización | Desarrollar interfaces de señalización basadas en PTC VIRTUAL Level 2 hasta disponibilidad de AT3 |
+| **R-085** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en señalización | Desarrollar interfaces de señalización basadas en PTC Virtual (FRA 236) hasta disponibilidad de AT3 |
 | **R-086** | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por interfaces incompatibles | Establecer protocolos de señalización compatibles con sistemas FENOCO existentes |
 | **R-087** | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.95% en señalización según AT4 | Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad |
 | **R-088** | Operacional | Alta | Medio | Complejidad en gestión de 146 pasos a nivel con PTC | Desarrollar protocolos de prueba específicos para PTC y FENOCO |

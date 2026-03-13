@@ -66,10 +66,10 @@
 | Sistema | Disponibilidad | Criterio de Aceptación |
 |:--------|:---------------|:----------------------|
 | **CTC Virtual** | 99.95% | Control centralizado operativo |
-| **ATP Embarcado** | 99.95% | 15 locomotoras con PTC VIRTUAL Level 2 |
+| **PTC Embarcado** | 99.95% | 15 locomotoras con PTC Virtual (FRA 236) |
 | **TETRA** | 99.5% | 37 estaciones con cobertura 100% |
 | **RED TETRA (Misión Crítica)** | 99.95% | 37 estaciones colocalizadas |
-| **Fibra Óptica** | 99.95% | 594 km con doble anillo |
+| **Fibra Óptica** | 99.95% | 526 km con doble anillo |
 | **Material Rodante** | 99.95% | 15 locomotoras + 51 vagones operativos |
 
 #### **Indicadores de Desempeño (AT4):**
@@ -90,7 +90,7 @@
 El proyecto consiste en la **modernización integral** del corredor ferroviario La Dorada-Chiriguaná, implementando sistemas ferroviarios de última generación para mejorar la eficiencia, seguridad y capacidad de transporte de carga.
 
 #### **Extensión del Corredor:**
-- **Longitud total:** 594 km
+- **Longitud total:** 526 km
 - **Estaciones principales:** La Dorada, Puerto Berrío, Barrancabermeja, Bucaramanga, Chiriguaná
 - **Estaciones secundarias:** 32 estaciones intermedias
 - **Pasos a nivel:** 73 pasos a nivel automatizados
@@ -100,14 +100,14 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 ### **2.2 Componentes del Proyecto**
 
 #### **Infraestructura Civil:**
-- **Vías férreas:** Rehabilitación y modernización de 594 km
+- **Vías férreas:** Rehabilitación y modernización de 526 km
 - **Estaciones:** 5 estaciones principales + 32 secundarias
 - **Edificaciones:** Centro de Control Operativo (CCO), talleres, bodegas
 - **Obras de arte:** Puentes, túneles, pasos a nivel
 - **Drenajes:** Sistemas de drenaje pluvial y sanitario
 
 #### **Sistemas Técnicos:**
-- **Control y Señalización:** CTC Virtual, ATP Embarcado, ENCE, Desvíos
+- **Control y Señalización:** CTC Virtual, PTC Embarcado, ENCE, Desvíos
 - **Telecomunicaciones:** TETRA, RED TETRA (Misión Crítica), Fibra óptica
 - **ITS y Seguridad:** CCTV, control de accesos, monitoreo
 - **Material Rodante:** 15 locomotoras, 51 vagones, talleres
@@ -168,7 +168,7 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 
 #### **Sistema de Material Rodante:**
 - **Objetivo:** Flota moderna y eficiente
-- **Resultado:** 15 locomotoras con ATP embarcado
+- **Resultado:** 15 locomotoras con PTC embarcado
 - **Beneficio:** Operación automática y segura
 
 #### **Sistema de Infraestructura Operativa:**
@@ -189,14 +189,14 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 │                      INTEGRADOS                                 │
 ├─────────────────────────────────────────────────────────────────┤
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐             │
-│  │    CTC      │  │    ATP      │  │   ENCE      │             │
+│  │    CTC      │  │    PTC      │  │   ENCE      │             │
 │  │  VIRTUAL    │  │ EMBARCADO   │  │    (5)      │             │
 │  │             │  │   (15)      │  │             │             │
 │  └─────────────┘  └─────────────┘  └─────────────┘             │
 ├─────────────────────────────────────────────────────────────────┤
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐             │
 │  │   TETRA     │  │   RED TETRA (Misión Crítica)     │  │   FIBRA     │             │
-│  │   (37)      │  │   (37)      │  │   (594km)   │             │
+│  │   (37)      │  │   (37)      │  │   (526km)   │             │
 │  │             │  │             │  │             │             │
 │  └─────────────┘  └─────────────┘  └─────────────┘             │
 ├─────────────────────────────────────────────────────────────────┤
@@ -212,8 +212,8 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 
 | Sistema | Componentes Principales | Cantidad | Estado |
 |:--------|:------------------------|:---------|:-------|
-| **Control y Señalización** | CTC Virtual, ATP Embarcado, ENCE | 1+15+5 | ✅ Completado |
-| **Telecomunicaciones** | TETRA, RED TETRA (Misión Crítica), Fibra óptica | 37+37+594km | ✅ Completado |
+| **Control y Señalización** | CTC Virtual, PTC Embarcado, ENCE | 1+15+5 | ✅ Completado |
+| **Telecomunicaciones** | TETRA, RED TETRA (Misión Crítica), Fibra óptica | 37+37+526km | ✅ Completado |
 | **ITS y Seguridad** | CCTV, Control accesos, Monitoreo | 73+15+8 | ✅ Completado |
 | **Material Rodante** | Locomotoras, Vagones, Talleres | 15+51+3 | ✅ Completado |
 | **Infraestructura Operativa** | CCO, Estaciones, Subestaciones | 1+37+8 | ✅ Completado |
@@ -240,7 +240,7 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 - **Elevadores y grúas:** Equipos de manejo
 
 #### **Ingeniería de Sistemas:**
-- **Sistemas integrados:** CTC, ATP, ENCE
+- **Sistemas integrados:** CTC, PTC, ENCE
 - **Comunicaciones:** TETRA, RED TETRA (Misión Crítica), fibra óptica
 - **Monitoreo:** SCADA, HMI, alarmas
 - **Interfaces:** Protocolos de comunicación
@@ -389,7 +389,7 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 | Sistema | Meta | Actual | Estado |
 |:--------|:-----|:-------|:-------|
 | **CTC Virtual** | 99.95% | 99.98% | 🟢 Excelente |
-| **ATP Embarcado** | 99.95% | 99.97% | 🟢 Excelente |
+| **PTC Embarcado** | 99.95% | 99.97% | 🟢 Excelente |
 | **TETRA** | 99.5% | 99.2% | 🟡 Mejorable |
 | **RED TETRA (Misión Crítica)** | 99.95% | 99.98% | 🟢 Excelente |
 | **Fibra Óptica** | 99.95% | 99.99% | 🟢 Excelente |

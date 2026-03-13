@@ -38,12 +38,12 @@ Esta matriz permite a Cursor IDE Agent y otros agentes **identificar automática
 | Arquitectura CTC | DT-CTC-001 | WBS_Presupuestal_v2.0.md | Costos | Item 1.1 |
 | Arquitectura CTC | DT-CTC-001 | X/SISTEMA_01_Control_Master.md | Consolidado | Sección 4-5 |
 
-#### **ATP/PTC VIRTUAL - Sistema Embarcado**
+#### **PTC/PTC VIRTUAL - Sistema Embarcado**
 | Componente | Si cambias en... | Afecta estos archivos | Tipo Impacto | Sección Específica |
 |:-----------|:----------------|:---------------------|:-------------|:-------------------|
-| Equipos ATP | DT-ATP-001 | III/32_Material_Rodante_Integrado.md | Cantidad equipos | Tabla 2.3 |
-| Equipos ATP | DT-ATP-001 | V.5_Sistemas_Seguridad_Detalle.md | Especificaciones | Sección 3.1 |
-| Equipos ATP | DT-ATP-001 | WBS_Presupuestal_v2.0.md | Costos | Item 1.2 |
+| Equipos PTC | DT-PTC-001 | III/32_Material_Rodante_Integrado.md | Cantidad equipos | Tabla 2.3 |
+| Equipos PTC | DT-PTC-001 | V.5_Sistemas_Seguridad_Detalle.md | Especificaciones | Sección 3.1 |
+| Equipos PTC | DT-PTC-001 | WBS_Presupuestal_v2.0.md | Costos | Item 1.2 |
 
 #### **ENCE - Enclavamientos**
 | Componente | Si cambias en... | Afecta estos archivos | Tipo Impacto | Sección Específica |

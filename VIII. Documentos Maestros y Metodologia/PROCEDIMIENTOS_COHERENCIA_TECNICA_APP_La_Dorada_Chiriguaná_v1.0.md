@@ -70,7 +70,7 @@ ANTES:
 | **Fibra Óptica** | 450 km | Cálculo inicial | Referencia base |
 
 DESPUÉS:
-| **Fibra Óptica** | 594 km | Corredor + 10% reserva | Cálculo técnico |
+| **Fibra Óptica** | 526 km | Corredor + 10% reserva | Cálculo técnico |
 ```
 
 #### **2.2 PROPAGACIÓN A DOCUMENTOS TÉCNICOS**

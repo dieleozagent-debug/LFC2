@@ -54,7 +54,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 
 | ID | Categoría | Probabilidad | Impacto | Descripción | Estrategia de Mitigación |
 |:---:|:---:|:---:|:---:|:---|:---|
-| **R-130** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en red de datos | Desarrollar red de datos basada en PTC VIRTUAL Level 2 hasta disponibilidad de AT3 |
+| **R-130** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en red de datos | Desarrollar red de datos basada en PTC Virtual (FRA 236) hasta disponibilidad de AT3 |
 | **R-131** | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por red de datos incompatibles | Establecer red de datos compatible con sistemas FENOCO existentes |
 | **R-132** | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.9% en red de datos según AT4 | Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad |
 | **R-133** | Operacional | Alta | Medio | Complejidad en gestión de red de datos con PTC | Desarrollar protocolos de prueba específicos para PTC y FENOCO |
@@ -141,14 +141,14 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 ## ACTUALIZACIÓN v4.1 - REVISIÓN METODOLOGÍA PUNTO 42
 
 ### **MEJORAS IMPLEMENTADAS:**
-1. **Interfaces Críticas PTC:** Red de datos para sistemas de control embarcado PTC VIRTUAL Level 2 hasta AT3
+1. **Interfaces Críticas PTC:** Red de datos para sistemas de control embarcado PTC Virtual (FRA 236) hasta AT3
 2. **Interfaces Críticas FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos FRA/AREMA
 3. **Integración con Sistemas Ferroviarios PTC:** Red de datos para sistemas de control embarcado
 4. **Integración con Sistemas Ferroviarios FENOCO:** Interoperabilidad con sistemas FENOCO
 5. **Disponibilidad AT4:** Cumplimiento de disponibilidad 99.9% según indicadores contractuales
 
 ### **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
-1. **Falta de interfaces PTC:** Agregada red de datos específica para sistemas de control embarcado PTC VIRTUAL Level 2
+1. **Falta de interfaces PTC:** Agregada red de datos específica para sistemas de control embarcado PTC Virtual (FRA 236)
 2. **Ausencia de interoperabilidad FENOCO:** Integrada interoperabilidad con sistemas FENOCO
 3. **Falta de criterios AT4:** Agregado cumplimiento de disponibilidad 99.9%
 
@@ -163,7 +163,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 | R-134 | Técnico | Media | Medio | Integración de red de datos con sistemas FENOCO existentes |
 
 ### **RECOMENDACIONES PARA GESTIÓN DE RIESGOS:**
-1. **Estrategia PTC:** Desarrollar red de datos basada en PTC VIRTUAL Level 2 hasta disponibilidad de AT3
+1. **Estrategia PTC:** Desarrollar red de datos basada en PTC Virtual (FRA 236) hasta disponibilidad de AT3
 2. **Coordinación FENOCO:** Establecer red de datos compatible con sistemas FENOCO existentes
 3. **Monitoreo AT4:** Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad 99.9%
 4. **Pruebas de Red de Datos:** Desarrollar protocolos de prueba específicos para PTC y FENOCO

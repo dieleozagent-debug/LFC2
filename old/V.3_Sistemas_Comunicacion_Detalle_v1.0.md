@@ -21,7 +21,7 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 - **Capacidad:** 24 trenes simultáneos + servicios auxiliares
 
 ### 1.2 Objetivos del Sistema
-- **Comunicación tren-tierra:** Enlace crítico para PTC VIRTUAL Level 2
+- **Comunicación tren-tierra:** Enlace crítico para PTC Virtual (FRA 236)
 - **Comunicación operacional:** Voz y datos para operadores
 - **Comunicación de emergencia:** Enlaces de respaldo y emergencia
 - **Disponibilidad:** 99.9% de disponibilidad operacional
@@ -100,7 +100,7 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 - **Potencia:** 8W (móvil), 2W (portátil)
 - **Antenas:** Omnidireccionales
 - **Batería:** 8 horas de autonomía
-- **Interfaz:** PTC VIRTUAL Level 2 compatible
+- **Interfaz:** PTC Virtual (FRA 236) compatible
 
 #### 3.1.3 Red Core
 - **MSC:** Mobile Switching Centre
@@ -169,7 +169,7 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 
 ### 4.1 Comunicación Tren-Tierra
 
-#### 4.1.1 PTC VIRTUAL Level 2
+#### 4.1.1 PTC Virtual (FRA 236)
 - **Movement Authority:** Autorización de movimiento
 - **Position Report:** Reporte de posición
 - **Emergency Stop:** Parada de emergencia
@@ -221,7 +221,7 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 ### 5.1 Seguridad Funcional (EN 50126/50128/50129)
 
 #### 5.1.1 Objetivos de Seguridad
-- **SIL 4:** Comunicación PTC VIRTUAL Level 2
+- **SIL 4:** Comunicación PTC Virtual (FRA 236)
 - **SIL 3:** Comunicación operacional
 - **SIL 2:** Comunicación de supervisión
 - **SIL 1:** Comunicación administrativa
@@ -399,7 +399,7 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 ### 10.1 Matriz de Trazabilidad
 | Requisito | Especificación | Prueba | Estado |
 |:---|:---|:---|:---:|
-| COM-001 | Comunicación PTC VIRTUAL Level 2 | FAT-001 | 🟢 |
+| COM-001 | Comunicación PTC Virtual (FRA 236) | FAT-001 | 🟢 |
 | COM-002 | Comunicación operacional | FAT-002 | 🟢 |
 | COM-003 | Comunicación de emergencia | FAT-003 | 🟢 |
 | COM-004 | Disponibilidad 99.9% | SAT-001 | 🟢 |

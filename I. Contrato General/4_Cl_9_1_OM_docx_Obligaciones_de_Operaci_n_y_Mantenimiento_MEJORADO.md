@@ -510,7 +510,7 @@ Esta informacion es#### **✅ MEJORAS IMPLEMENTADAS (SANEAMIENTO KARPATHY):**
 
 #### **✅ CONCLUSIONES:**
 
-El documento de O&M (Cláusula 9.1) ha sido saneado integralmente eliminando referencias a PTC VIRTUAL Level 2 por no ser aplicables al proyecto, adoptando el estándar **PTC Virtual** y la arquitectura **Vital IP** como base contractual para la fase operativa.
+El documento de O&M (Cláusula 9.1) ha sido saneado integralmente eliminando referencias a PTC Virtual (FRA 236) por no ser aplicables al proyecto, adoptando el estándar **PTC Virtual** y la arquitectura **Vital IP** como base contractual para la fase operativa.
 
 **Saneamiento Ciclo 1 Finalizado para 9.1.**
 ntener cumplimiento de AT4
@@ -518,7 +518,7 @@ ntener cumplimiento de AT4
 #### **✅ CONCLUSIONES:**
 
 El documento ha sido actualizado exitosamente aplicando la metodología Punto 42, integrando:
-- **PTC PTC VIRTUAL Level 2** en fase de operación
+- **PTC PTC Virtual (FRA 236)** en fase de operación
 - **Interoperabilidad FENOCO** en coordinación operativa
 - **Criterios AT4** con SICC operativo y telemetría continua
 - **Ciberseguridad** con estándares NIST/IEC 62443 en operación

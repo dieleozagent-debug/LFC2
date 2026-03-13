@@ -61,7 +61,7 @@ Eliminar duplicaciones y contenido redundante en el `README.md` para hacerlo má
   - ✅ Cronograma 60 meses (36m + 12m buffer) agresivo
 
 - **Blockers críticos identificados:**
-  - 🔴 **BLOCKER-001:** Indefinición PTC (ATP/PTC VIRTUAL L2/CBTC) - 58% proyecto bloqueado ($152,748M)
+  - 🔴 **BLOCKER-001:** Indefinición PTC (PTC/PTC VIRTUAL L2/CBTC) - 58% proyecto bloqueado ($152,748M)
   - 🔴 **BLOCKER-002:** Protocolos propietarios FENOCO (Siemens Trainguard) - Interoperabilidad indefinida
   - 🟡 **BLOCKER-003:** Cantidades PAN NO confirmadas (±10% variación, $489M contingencia)
   - 🟡 **BLOCKER-004:** Cronograma Material Rodante indefinido (15 locomotoras)

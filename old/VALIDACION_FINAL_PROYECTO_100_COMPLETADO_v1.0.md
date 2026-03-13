@@ -43,10 +43,10 @@
 
 | Criterio | Valor Maestro | Estado Actual | Coherencia |
 |:---------|:-------------:|:-------------:|:----------:|
-| **Fibra Óptica** | 594 km | 594 km | ✅ 100% |
+| **Fibra Óptica** | 526 km | 526 km | ✅ 100% |
 | **TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
 | **RED TETRA (Misión Crítica)** | 37 estaciones | 37 estaciones | ✅ 100% |
-| **Señalización** | Virtual (CTC + ATP) | Virtual (CTC + ATP) | ✅ 100% |
+| **Señalización** | Virtual (CTC + PTC) | Virtual (CTC + PTC) | ✅ 100% |
 | **Virtual Balise (GNSS)s** | 0 unidades | 0 unidades | ✅ 100% |
 | **Señales LED** | 0 unidades | 0 unidades | ✅ 100% |
 | **RBC** | 0 unidades | 0 unidades | ✅ 100% |
@@ -64,15 +64,15 @@
 
 ### **SISTEMAS PRINCIPALES**
 1. **CTC Virtual:** Centro de control centralizado ✅
-2. **ATP Embarcado:** 15 locomotoras con control automático ✅
+2. **PTC Embarcado:** 15 locomotoras con control automático ✅
 3. **37 Estaciones TETRA + RED TETRA (Misión Crítica):** Colocalizadas ✅
 4. **5 ENCE:** Enclavamientos electrónicos ✅
 5. **120 Desvíos:** 25 motorizados + 95 manuales ✅
 6. **15 EOT:** Dispositivos End of Train ✅
-7. **Backbone Fibra:** 594 km doble anillo ✅
+7. **Backbone Fibra:** 526 km doble anillo ✅
 
 ### **FILOSOFÍA TÉCNICA**
-- **Señalización Virtual:** CTC + ATP embarcado sin infraestructura física ✅
+- **Señalización Virtual:** CTC + PTC embarcado sin infraestructura física ✅
 - **Comunicaciones Redundantes:** TETRA + RED TETRA (Misión Crítica) dual ✅
 - **Control Centralizado:** CTC como sistema principal ✅
 - **Sistemas Integrados:** Monitoreo unificado ✅
@@ -112,7 +112,7 @@
 
 ### **SISTEMAS TÉCNICOS**
 - **CTC Virtual:** Especificaciones completas ✅
-- **ATP Embarcado:** 15 locomotoras especificadas ✅
+- **PTC Embarcado:** 15 locomotoras especificadas ✅
 - **Comunicaciones:** TETRA + RED TETRA (Misión Crítica) integrados ✅
 - **Enclavamientos:** 5 ENCE especificados ✅
 - **Desvíos:** 120 unidades especificadas ✅

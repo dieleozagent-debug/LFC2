@@ -27,7 +27,7 @@ Este roadmap establece la ruta de trabajo para el desarrollo de la ingeniería d
 | **Fibra Óptica** | 90% | 95% | ✅ Spare mgmt. | **COMPLETADO** |
 
 ### **✅ GAPS CRÍTICOS RESUELTOS**
-- **SRS PTC:** ✅ **COMPLETADO** - Especificación provisional PTC VIRTUAL Level 2
+- **SRS PTC:** ✅ **COMPLETADO** - Especificación provisional PTC Virtual (FRA 236)
 - **Arquitectura RBC:** ✅ **COMPLETADO** - Redundancia 2OO3 especificada
 - **Interfaces CTC-PTC:** ✅ **COMPLETADO** - Protocolo FFFIS implementado
 - **STM Embarcado:** ✅ **COMPLETADO** - Especificaciones técnicas detalladas
@@ -189,14 +189,14 @@ Leyenda: 🟢 Listo • 🟠 En desarrollo/especificación • 🟡 Pendiente
 
 ### **🔴 ACCIONES CRÍTICAS EN PROGRESO (Esta Semana)**
 
-#### **1. SISTEMA CONTROL DE TRENES (PTC/PTC VIRTUAL Level 2)**
+#### **1. SISTEMA CONTROL DE TRENES (PTC/PTC Virtual (FRA 236))**
 - **SRS Provisional:** 🔄 **EN DESARROLLO** - Basado en EN 50126/50128/50129
 - **Arquitectura RBC:** 🔄 **EN ESPECIFICACIÓN** - Redundancia 2oo3
 - **Plan Virtual Balise (GNSS):** 🔄 **EN DESARROLLO** - Ubicación cada 150m
 - **Interfaces CTC-PTC:** 🔄 **EN DESARROLLO** - Protocolo FFFIS
 
 #### **2. MATERIAL RODANTE Y SISTEMAS EMBARCADOS**
-- **STM Especificaciones:** 🔄 **EN DESARROLLO** - Compatibles PTC VIRTUAL Level 2
+- **STM Especificaciones:** 🔄 **EN DESARROLLO** - Compatibles PTC Virtual (FRA 236)
 - **DMI Diseño:** 🔄 **EN DESARROLLO** - Según FRA/AREMA EIRENE
 - **Plan Retrofit:** 🔄 **EN DESARROLLO** - Locomotoras existentes
 - **Testing Procedures:** ⏳ **PENDIENTE** - FAT/SAT embarcados
@@ -251,7 +251,7 @@ Leyenda: 🟢 Listo • 🟠 En desarrollo/especificación • 🟡 Pendiente
 ### **🔄 PLAN DE RECUPERACIÓN TÉCNICA EN EJECUCIÓN**
 
 #### **🔴 FASE 1 - ACCIONES CRÍTICAS (Esta Semana)** 🔄 **EN PROGRESO**
-1. **🔄 EN DESARROLLO:** SRS PTC Provisional basado en PTC VIRTUAL Level 2
+1. **🔄 EN DESARROLLO:** SRS PTC Provisional basado en PTC Virtual (FRA 236)
 2. **🔄 EN ESPECIFICACIÓN:** Arquitectura RBC con redundancia 2oo3
 3. **🔄 EN DESARROLLO:** Plan Virtual Balise (GNSS) (ubicación cada 150m)
 4. **🔄 EN DESARROLLO:** Interfaces CTC-PTC usando protocolo FFFIS
@@ -290,7 +290,7 @@ El proyecto alcanzará madurez técnica completa cuando se cumplan **TODOS** est
 | **SRS PTC** | Ing. Sistemas | Desarrollo SRS provisional | 2 semanas | 🔄 **EN PROGRESO** |
 | **Arquitectura RBC** | Ing. Sistemas | Especificar redundancia 2oo3 | 2 semanas | 🔄 **EN PROGRESO** |
 | **Interfaces CTC-PTC** | Ing. Integración | Protocolo FFFIS | 2 semanas | 🔄 **EN PROGRESO** |
-| **STM Embarcado** | Ing. Embarcados | Especificaciones PTC VIRTUAL Level 2 | 6 semanas | ⏳ **PENDIENTE** |
+| **STM Embarcado** | Ing. Embarcados | Especificaciones PTC Virtual (FRA 236) | 6 semanas | ⏳ **PENDIENTE** |
 | **Interlocking Tables** | Ing. Señalización | 5 estaciones | 4 semanas | ⏳ **PENDIENTE** |
 
 ### **🏆 RESULTADO ESPERADO**

@@ -45,7 +45,7 @@ Acabo de revisar el repositorio completo del proyecto. Felicitaciones: tienes un
 
 ### C. DOCUMENTOS DE SISTEMAS (Jerarquía Nivel 3)
 - 🔄 Sistema CTC (múltiples versiones)
-- 🔄 Sistema PTC PTC VIRTUAL Level 2 (múltiples versiones)
+- 🔄 Sistema PTC PTC Virtual (FRA 236) (múltiples versiones)
 - 🔄 Sistema de Señalización (múltiples versiones)
 - 🔄 Sistema TETRA (múltiples versiones)
 - 🔄 Sistema de Fibra Óptica (múltiples versiones)

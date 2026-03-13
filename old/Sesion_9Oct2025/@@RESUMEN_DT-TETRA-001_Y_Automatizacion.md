@@ -1,5 +1,5 @@
 # ✅ DT-TETRA-001 EJECUTADA + SISTEMA DE AUTOMATIZACIÓN
-## Cambio 15→8 ATP Aplicado y Sistema Mejorado
+## Cambio 15→8 PTC Aplicado y Sistema Mejorado
 
 **Fecha:** 7 de Octubre 2025  
 **Estado:** ✅ COMPLETADO  
@@ -10,22 +10,22 @@
 ## 📋 **PARTE 1: DT-TETRA-001 EJECUTADA**
 
 ### **Cambio Aplicado:**
-- **Ítem:** 1.2.100 - Computadora ATP embarcada
+- **Ítem:** 1.2.100 - Computadora PTC embarcada
 - **Cantidad:** 15 UND → **8 UND** (-47%)
 - **Total:** $1.800M → **$960M** COP
 - **Justificación:** Alineación con AT1 (5 locomotoras contractuales) + 2 diseño/pruebas + 1 contingencia
 
 ### **Ítems Recalculados (9 total):**
 
-**Sección 1.2 (ATP Embarcado):**
-- 1.2.100: Computadora ATP (15→8)
+**Sección 1.2 (PTC Embarcado):**
+- 1.2.100: Computadora PTC (15→8)
 - 1.2.101: Display maquinista (15→8)
 - 1.2.102: Sensores velocidad (15→8)
 - 1.2.103: Sistema GPS (15→8)
 - **Subtotal:** $6.600M → $4.780M (-$1.820M)
 
 **Sección 6.1 (Material Rodante):**
-- 6.1.100: Sistemas ATP embarcados (15→8)
+- 6.1.100: Sistemas PTC embarcados (15→8)
 - 6.1.101: Radios TETRA (30→16)
 - 6.1.102: Radios RED TETRA (Misión Crítica) (30→16)
 - 6.1.103: Sistemas GPS (15→8)
@@ -171,7 +171,7 @@ grep "1.2.100" "IX. WBS y Planificacion/WBS_Presupuestal_v2.0.md"
 
 | Aspecto | Antes | Después | Mejora |
 |:--------|:------|:--------|:-------|
-| **ATP Embarcadas** | 15 UND | 8 UND | -47% |
+| **PTC Embarcadas** | 15 UND | 8 UND | -47% |
 | **Costo Item 1.2.100** | $1.800M | $960M | -$840M |
 | **Costo Sección 1.2** | $6.600M | $4.780M | -$1.820M |
 | **Costo Sección 6.1** | $12.127M | $6.468M | -$5.659M |
@@ -204,7 +204,7 @@ grep "1.2.100" "IX. WBS y Planificacion/WBS_Presupuestal_v2.0.md"
 ## 📝 **RESUMEN EJECUTIVO**
 
 ### **¿Qué se hizo?**
-1. ✅ Ejecutamos DT-TETRA-001 (15→8 ATP)
+1. ✅ Ejecutamos DT-TETRA-001 (15→8 PTC)
 2. ✅ Ahorramos $7.479M COP (789% sobre estimado)
 3. ✅ Actualizamos 9 ítems WBS
 4. ✅ Sincronizamos 124 ítems

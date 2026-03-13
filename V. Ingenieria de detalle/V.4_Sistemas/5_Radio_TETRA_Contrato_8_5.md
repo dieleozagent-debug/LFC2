@@ -54,7 +54,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 - **Adquisición de Predios:** ~33 predios coordinados con estudio de cobertura (AT7)
 - **Gestión de Permisos:** Trámites con ANE para asignación de frecuencias
 - **Estudio de Propagación:** Definición de ubicaciones óptimas de torres
-- **🚂 PTC PTC VIRTUAL Level 2:** Interfaces para control embarcado hasta AT3
+- **🚂 PTC PTC Virtual (FRA 236):** Interfaces para control embarcado hasta AT3
 - **🔗 Interoperabilidad FENOCO:** Compatibilidad con sistemas FENOCO según protocolos FRA/AREMA
 - **📊 Disponibilidad AT4:** Cumplimiento de disponibilidad 99.5% según indicadores contractuales
 
@@ -64,7 +64,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 
 | ID | Categoría | Probabilidad | Impacto | Descripción | Estrategia de Mitigación |
 |:---:|:---:|:---:|:---:|:---|:---|
-| **R-105** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en radio TETRA | Desarrollar interfaces de radio TETRA basadas en PTC VIRTUAL Level 2 hasta disponibilidad de AT3 |
+| **R-105** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en radio TETRA | Desarrollar interfaces de radio TETRA basadas en PTC Virtual (FRA 236) hasta disponibilidad de AT3 |
 | **R-106** | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por interfaces incompatibles | Establecer protocolos de radio TETRA compatibles con sistemas FENOCO existentes |
 | **R-107** | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.5% en radio TETRA según AT4 | Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad |
 | **R-108** | Operacional | Alta | Medio | Complejidad en gestión de 33 sitios TETRA con PTC | Desarrollar protocolos de prueba específicos para PTC y FENOCO |
@@ -199,7 +199,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 - **Radio TETRA ↔ PTC:** Integración de sistemas de control integrado
 - **Radio TETRA ↔ Fibra Óptica:** Integración de red de comunicaciones
 - **Radio TETRA ↔ ITS:** Integración del sistema de información de tránsito
-- **🚂 Radio TETRA ↔ PTC:** Interfaces para control embarcado PTC VIRTUAL Level 2 hasta AT3
+- **🚂 Radio TETRA ↔ PTC:** Interfaces para control embarcado PTC Virtual (FRA 236) hasta AT3
 - **🔗 Radio TETRA ↔ FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos FRA/AREMA
 
 ## 3. OPTIMIZACIONES EPC ESPECÍFICAS PARA RADIO TETRA
@@ -323,14 +323,14 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 ## ACTUALIZACIÓN v4.1 - REVISIÓN METODOLOGÍA PUNTO 42
 
 ### **MEJORAS IMPLEMENTADAS:**
-1. **Interfaces Críticas PTC:** Interfaces para control embarcado PTC VIRTUAL Level 2 hasta AT3
+1. **Interfaces Críticas PTC:** Interfaces para control embarcado PTC Virtual (FRA 236) hasta AT3
 2. **Interfaces Críticas FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos FRA/AREMA
 3. **Gestión de Sitios y Permisos PTC:** Interfaces para control embarcado hasta AT3
 4. **Gestión de Sitios y Permisos FENOCO:** Compatibilidad con sistemas FENOCO según protocolos FRA/AREMA
 5. **Disponibilidad AT4:** Cumplimiento de disponibilidad 99.5% según indicadores contractuales
 
 ### **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
-1. **Falta de interfaces PTC:** Agregadas interfaces específicas para control embarcado PTC VIRTUAL Level 2
+1. **Falta de interfaces PTC:** Agregadas interfaces específicas para control embarcado PTC Virtual (FRA 236)
 2. **Ausencia de interoperabilidad FENOCO:** Integrada interoperabilidad con sistemas FENOCO
 3. **Falta de criterios AT4:** Agregado cumplimiento de disponibilidad 99.5%
 
@@ -345,7 +345,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 | R-109 | Técnico | Media | Medio | Integración de radio TETRA con sistemas FENOCO existentes |
 
 ### **RECOMENDACIONES PARA GESTIÓN DE RIESGOS:**
-1. **Estrategia PTC:** Desarrollar interfaces de radio TETRA basadas en PTC VIRTUAL Level 2 hasta disponibilidad de AT3
+1. **Estrategia PTC:** Desarrollar interfaces de radio TETRA basadas en PTC Virtual (FRA 236) hasta disponibilidad de AT3
 2. **Coordinación FENOCO:** Establecer protocolos de radio TETRA compatibles con sistemas FENOCO existentes
 3. **Monitoreo AT4:** Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad 99.5%
 4. **Pruebas de Radio TETRA:** Desarrollar protocolos de prueba específicos para PTC y FENOCO

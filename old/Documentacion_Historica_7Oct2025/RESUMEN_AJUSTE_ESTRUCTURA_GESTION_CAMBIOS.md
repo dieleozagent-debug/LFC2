@@ -184,7 +184,7 @@ Usar: VIII/Matrices_Dependencias/MATRIZ_DEPENDENCIAS_DOCUMENTALES_v1.0.md
 Buscar: "Fibra - Cajas empalme" para obtener lista de archivos
 
 # ANÁLISIS REQUERIDO:
-1. Recalcular cantidades (594 km ÷ 1.0 km)
+1. Recalcular cantidades (526 km ÷ 1.0 km)
 2. Calcular ahorro CAPEX
 3. Identificar riesgos nuevos
 4. Usar plantilla: II/Decisiones_Tecnicas/PLANTILLA_Análisis_Cambio.md

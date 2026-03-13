@@ -20,7 +20,7 @@ La Ingeniería Básica (Fase IV) se consolida bajo el estándar **PTC Virtual (F
 
 ## 2. 🔍 AUDITORÍA DE SANEAMIENTO (REVISIÓN DE-HIJO-A-PADRE)
 En cumplimiento del **Ciclo Inverso**, se han corregido los siguientes desvíos:
-- ✅ **ELIMINADO PTC VIRTUAL Level 2:** Se purga la asunción de "estándar hasta AT3". El estándar es **FRA 236** desde el inicio.
+- ✅ **ELIMINADO PTC Virtual (FRA 236):** Se purga la asunción de "estándar hasta AT3". El estándar es **FRA 236** desde el inicio.
 - ✅ **ELIMINADO BLOQUEO PTC:** Ya no existe bloqueo por falta de protocolos de terceros, ya que no dependemos de licencias propietarias para operar.
 - ✅ **ELIMINADO RED TETRA (Misión Crítica):** Las memorias de cálculo de cobertura se centran exclusivamente en TETRA.
 

@@ -113,7 +113,7 @@
 6. **9_Interfon_a_Contrato_8_8_2.md** - Interfonía contrato 8.8.2
 
 #### **Soporte Especializado:**
-7. **VII.2_Especificaciones/VII.2.1_SRS_PTC_PTC VIRTUAL_Level2_v1.0.md** - SRS PTC PTC VIRTUAL Level 2
+7. **VII.2_Especificaciones/VII.2.1_SRS_PTC_PTC VIRTUAL_Level2_v1.0.md** - SRS PTC PTC Virtual (FRA 236)
 
 ---
 

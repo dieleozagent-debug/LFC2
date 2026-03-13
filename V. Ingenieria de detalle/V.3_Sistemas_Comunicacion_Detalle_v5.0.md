@@ -13,11 +13,11 @@ Se unifica el segmento de telecomunicaciones de misión crítica en la red **TET
 
 ### 1.1 Red de Radio (Segmento Espacial):
 - **Sistema Principal:** TETRA (Terrestrial Trunked Radio) de última generación.
-- **Cobertura:** 37 estaciones base distribuidas estratégicamente para garantizar 100% de disponibilidad en el corredor de 594 km.
+- **Cobertura:** 37 estaciones base distribuidas estratégicamente para garantizar 100% de disponibilidad en el corredor de 526 km.
 - **Redundancia:** Implementada a nivel de hardware (Antenas redundantes, fuentes N+1) y a nivel lógico mediante el backbone de Fibra Óptica.
 
 ### 1.2 Backbone de Datos (Segmento Tierra):
-- **Fibra Óptica:** 594 km de cable G.652D, soportando el protocolo **Vital IP**.
+- **Fibra Óptica:** 526 km de cable G.652D, soportando el protocolo **Vital IP**.
 - **Acceso:** Nodos en las 37 estaciones de radio y los 5 centros ENCE.
 
 ---

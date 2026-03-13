@@ -50,8 +50,8 @@ Este documento de soporte consolida el inventario maestro de todos los sistemas 
 #### **🔴 ELIMINACIONES MASIVAS (Según Criterios Maestros):**
 - **❌ Virtual Balise (GNSS)s:** 1,080 unidades → **0 unidades** (Señalización virtual implementada)
 - **❌ Señales LED en vía:** 270 unidades → **0 unidades** (CTC virtual centralizado)
-- **❌ RBC - Radio Block Centre:** 2 unidades → **0 unidades** (ATP embarcado)
-- **❌ LEU - Lineside Electronic Units:** 1,080 unidades → **0 unidades** (Sistema ATP embarcado)
+- **❌ RBC - Radio Block Centre:** 2 unidades → **0 unidades** (PTC embarcado)
+- **❌ LEU - Lineside Electronic Units:** 1,080 unidades → **0 unidades** (Sistema PTC embarcado)
 
 #### **🆕 IMPLEMENTACIONES NUEVAS (Según Criterios Maestros):**
 - **✅ RED TETRA (Misión Crítica):** NO incluido → **37 estaciones** (Redundancia con TETRA)
@@ -62,7 +62,7 @@ Este documento de soporte consolida el inventario maestro de todos los sistemas 
 #### **🟡 AJUSTES DE CANTIDADES:**
 - **✅ TETRA:** 33 → **37 estaciones** (Cobertura 100% + solapamiento 15-20%)
 - **✅ CCTV:** 110-180 → **73 cámaras** (Solo control ferroviario)
-- **✅ Fibra Óptica:** 526 → **594 km** (Corredor + 10% reserva)
+- **✅ Fibra Óptica:** 526 → **526 km** (Corredor + 10% reserva)
 
 ---
 
@@ -83,11 +83,11 @@ Este documento consolida el Listado Maestro de Sistemas que el EPC debe implemen
 - **Ubicación:** La Dorada, Caldas
 - **Interoperabilidad:** Protocolos FRA/AREMA para coordinación con FENOCO
 
-#### **1.2 Sistema ATP Embarcado (15 Locomotoras)**
+#### **1.2 Sistema PTC Embarcado (15 Locomotoras)**
 - **Referencias:** AT1 (Cap. 5.1), AT3 (Cap. 8.10), Cl. 13.1 del Contrato
 - **Funciones:** Control automático de velocidad, autorización de movimiento, protección contra colisiones
 - **Disponibilidad:** 99.95% según AT4
-- **Componentes:** Computadora ATP, sensores, display maquinista, radio TETRA+RED TETRA (Misión Crítica)
+- **Componentes:** Computadora PTC, sensores, display maquinista, radio TETRA+RED TETRA (Misión Crítica)
 - **Interoperabilidad:** Compatible con sistemas FENOCO según estándares FRA/AREMA
 
 #### **1.3 Enclavamientos Electrónicos (ENCE) - 5 ESTACIONES**
@@ -105,10 +105,10 @@ Este documento consolida el Listado Maestro de Sistemas que el EPC debe implemen
 - **Disponibilidad:** 99.95% según AT4
 
 #### **❌ ELIMINADO: Señalización Física en Vía**
-- **Virtual Balise (GNSS)s:** 1,080 unidades → **0 unidades** (Reemplazado por ATP embarcado)
+- **Virtual Balise (GNSS)s:** 1,080 unidades → **0 unidades** (Reemplazado por PTC embarcado)
 - **Señales LED en vía:** 270 unidades → **0 unidades** (Reemplazado por CTC virtual)
-- **RBC:** 2 unidades → **0 unidades** (Reemplazado por ATP embarcado)
-- **LEU:** 1,080 unidades → **0 unidades** (Reemplazado por ATP embarcado)
+- **RBC:** 2 unidades → **0 unidades** (Reemplazado por PTC embarcado)
+- **LEU:** 1,080 unidades → **0 unidades** (Reemplazado por PTC embarcado)
 
 ---
 
@@ -131,7 +131,7 @@ Este documento consolida el Listado Maestro de Sistemas que el EPC debe implemen
 #### **2.3 Red de Fibra Óptica (594 KM)**
 - **Referencias:** AT3 (Cap. 8.6), AT5 (interferencias), AT7 (predios)
 - **Funciones:** Backbone redundante de comunicaciones
-- **Longitud:** 594 km (corredor + 10% reserva)
+- **Longitud:** 526 km (corredor + 10% reserva)
 - **Componentes:** Cables 48 fibras G.652D, cajas 80x80, tritubo 40mm
 - **Disponibilidad:** 99.95% según AT4
 
@@ -197,12 +197,12 @@ Este documento consolida el Listado Maestro de Sistemas que el EPC debe implemen
 
 ### **E. MATERIAL RODANTE Y EQUIPOS (SISTEMA EOT AGREGADO)**
 
-#### **5.1 Locomotoras con ATP Embarcado (15 UNIDADES)**
+#### **5.1 Locomotoras con PTC Embarcado (15 UNIDADES)**
 - **Referencias:** AT1 (Cap. 5.1), Cl. 13.1 del Contrato
 - **Funciones:** Transporte de carga bajo estándares de seguridad
-- **Componentes:** Sistema ATP embarcado, radio TETRA+RED TETRA (Misión Crítica), display maquinista
+- **Componentes:** Sistema PTC embarcado, radio TETRA+RED TETRA (Misión Crítica), display maquinista
 - **Disponibilidad:** 99.95% según AT4
-- **Interoperabilidad:** ATP embarcado compatible con FENOCO
+- **Interoperabilidad:** PTC embarcado compatible con FENOCO
 
 #### **5.2 Sistema EOT - End of Train (15 DISPOSITIVOS) - NUEVO**
 - **Referencias:** Criterios Técnicos Maestros v1.0
@@ -300,7 +300,7 @@ Cada sistema listado cumple con los siguientes criterios:
 ### **6.1 Control de Cambios v4.0**
 **Cambios implementados:**
 - Eliminación masiva de infraestructura física de señalización
-- Implementación de filosofía virtual (CTC + ATP embarcado)
+- Implementación de filosofía virtual (CTC + PTC embarcado)
 - Agregación de sistemas faltantes (RED TETRA (Misión Crítica), EOT, ENCE, Desvíos)
 - Ajuste de cantidades según criterios maestros
 

@@ -220,7 +220,7 @@ Este documento contiene las especificaciones técnicas detalladas, planos constr
 - **Mantenimiento:** Remoto desde CTC
 
 ### 4.3 Interfaces PTC
-- **Preparación:** Interfaces PTC VIRTUAL Level 2
+- **Preparación:** Interfaces PTC Virtual (FRA 236)
 - **Especificaciones:** Pendientes AT3
 - **Compatibilidad:** FENOCO según protocolos FRA/AREMA
 - **Actualización:** Modular para futuras especificaciones
@@ -287,7 +287,7 @@ Este documento contiene las especificaciones técnicas detalladas, planos constr
 
 | ID | Categoría | Probabilidad | Impacto | Descripción | Estrategia de Mitigación |
 |:---:|:---:|:---:|:---:|:---|:---|
-| **R-095** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en pasos a nivel | Desarrollar interfaces de pasos a nivel basadas en PTC VIRTUAL Level 2 hasta disponibilidad de AT3 |
+| **R-095** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en pasos a nivel | Desarrollar interfaces de pasos a nivel basadas en PTC Virtual (FRA 236) hasta disponibilidad de AT3 |
 | **R-096** | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por interfaces incompatibles | Establecer protocolos de pasos a nivel compatibles con sistemas FENOCO existentes |
 | **R-097** | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.95% en pasos a nivel según AT4 | Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad |
 | **R-098** | Operacional | Alta | Medio | Complejidad en gestión de 146 pasos a nivel con PTC | Desarrollar protocolos de prueba específicos para PTC y FENOCO |

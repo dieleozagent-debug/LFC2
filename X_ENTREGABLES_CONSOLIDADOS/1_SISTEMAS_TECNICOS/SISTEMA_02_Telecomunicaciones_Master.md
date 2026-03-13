@@ -53,7 +53,7 @@ Este documento consolida información de las siguientes fuentes:
 **Criterios de aceptación:**
 - Sistema TETRA con 37 estaciones base
 - Sistema RED TETRA (Misión Crítica) con 37 estaciones colocalizadas
-- Red de fibra óptica de 594 km con topología de anillo
+- Red de fibra óptica de 526 km con topología de anillo
 - Redundancia de comunicaciones con respaldo satelital
 - Disponibilidad 99.5% para TETRA y 99.95% para RED TETRA (Misión Crítica)
 
@@ -73,7 +73,7 @@ Este documento consolida información de las siguientes fuentes:
 
 El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basada en:
 - **TETRA:** Radio digital troncalizado para operaciones ferroviarias
-- **RED TETRA (Misión Crítica):** Comunicaciones de datos críticos para ATP
+- **RED TETRA (Misión Crítica):** Comunicaciones de datos críticos para PTC
 - **Fibra Óptica:** Backbone de alta capacidad para todos los sistemas
 - **Colocalización:** TETRA y RED TETRA (Misión Crítica) en las mismas 37 torres
 - **Redundancia:** Sistemas de respaldo y respaldo satelital
@@ -84,7 +84,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
 │   CCO/CTC       │    │   Fibra Óptica  │    │   Redundancia   │
-│   Control       │◄──►│   594 km        │◄──►│   Satelital     │
+│   Control       │◄──►│   526 km        │◄──►│   Satelital     │
 │   Central       │    │   Backbone      │    │   Respaldo      │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
          │                       │                       │
@@ -140,10 +140,10 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 - **37 Estaciones Base:** Colocalizadas con TETRA
 - **Redundancia:** Sistema de respaldo automático
 - **Capacidad:** 1 Gbps por estación
-- **Interfaces:** CTC, ATP, Material Rodante
+- **Interfaces:** CTC, PTC, Material Rodante
 
 **Fibra Óptica:**
-- **594 km:** Red de anillo redundante
+- **526 km:** Red de anillo redundante
 - **2,068 Cajas:** Empalme 80x80 cada 300m
 - **1,485 Rollos:** Tritubo 40mm
 - **6,204 Uniones:** Rápidas para instalación
@@ -155,7 +155,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 |:-----------|:---------------|:---------|:----------|
 | **TETRA** | Radio digital troncalizado | 37 estaciones | Torres colocalizadas |
 | **RED TETRA (Misión Crítica)** | Red de datos críticos | 37 estaciones | Torres colocalizadas |
-| **Fibra Óptica** | Backbone de alta capacidad | 594 km | Corredor ferroviario |
+| **Fibra Óptica** | Backbone de alta capacidad | 526 km | Corredor ferroviario |
 | **Torres** | Estructuras 40m altura | 37 torres | Ubicaciones estratégicas |
 | **Radios Embarcados** | TETRA + RED TETRA (Misión Crítica) | 30 unidades | Locomotoras |
 
@@ -180,7 +180,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 | Sistema | Tipo Interface | Criticidad | Responsable |
 |:--------|:---------------|:-----------|:------------|
 | **CTC** | Comunicaciones críticas | Alta | Sistemas de Control |
-| **ATP** | Datos de seguridad | Crítica | Sistemas de Control |
+| **PTC** | Datos de seguridad | Crítica | Sistemas de Control |
 | **Material Rodante** | Comunicaciones embarcadas | Alta | Mecánica |
 | **EOT** | Telemetría | Media | Mecánica |
 | **CCTV** | Transmisión video | Media | ITS y Seguridad |
@@ -201,7 +201,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 
 **V.X - Sistema RED TETRA (Misión Crítica) Detalle v5.0:**
 - 37 estaciones RED TETRA (Misión Crítica) colocalizadas
-- Interfaces con CTC y ATP
+- Interfaces con CTC y PTC
 - Protocolos de comunicación
 - Sistemas de redundancia
 - Procedimientos de mantenimiento
@@ -216,7 +216,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 **Referencia a planos si existen**
 
 - **Planos de Ubicación:** 37 torres TETRA/RED TETRA (Misión Crítica)
-- **Planos de Fibra Óptica:** Recorrido 594 km
+- **Planos de Fibra Óptica:** Recorrido 526 km
 - **Esquemas de Red:** Topología de anillo
 - **Planos de Instalación:** Equipos y cableado
 
@@ -279,10 +279,10 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 - Funciones de prioridad y emergencia
 
 **RED TETRA (Misión Crítica):**
-- Comunicación de datos críticos para ATP
+- Comunicación de datos críticos para PTC
 - Latencia < 500ms para aplicaciones críticas
 - Capacidad 1 Gbps por estación
-- Interfaces con CTC y ATP embarcado
+- Interfaces con CTC y PTC embarcado
 - Redundancia automática
 
 **Fibra Óptica:**
@@ -413,7 +413,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 | Sistema Relacionado | Tipo Interface | Criticidad | Responsable | Estado |
 |:--------------------|:---------------|:-----------|:------------|:-------|
 | **CTC** | Comunicaciones críticas | Crítica | Sistemas de Control | ✅ |
-| **ATP** | Datos de seguridad | Crítica | Sistemas de Control | ✅ |
+| **PTC** | Datos de seguridad | Crítica | Sistemas de Control | ✅ |
 | **Material Rodante** | Comunicaciones embarcadas | Alta | Mecánica | ✅ |
 | **EOT** | Telemetría | Media | Mecánica | ✅ |
 | **CCTV** | Transmisión video | Media | ITS y Seguridad | ✅ |
@@ -427,7 +427,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 - Función: Comunicación voz y datos con CTC
 - Redundancia: Sistema redundante con 37 estaciones
 
-**Interface RED TETRA (Misión Crítica)-ATP:**
+**Interface RED TETRA (Misión Crítica)-PTC:**
 - Protocolo: RED TETRA (Misión Crítica) Data Protocol
 - Función: Comunicación de datos críticos
 - Redundancia: Red redundante con respaldo automático

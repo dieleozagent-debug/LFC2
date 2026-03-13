@@ -33,7 +33,7 @@
 | Ajuste Cantidad | WBS, Datos | DT-TETRA-001 |
 | Ajuste Precio | WBS, Datos | DT-SCADA-001/002 |
 | Eliminación Ítem | WBS, Datos | DT-BALIZA-001/002 |
-| **Criterio Técnico** ⭐ | Metadata, I-VI, X/ | DT-ATP-001, DT-INTERFACES-001, DT-TETRA-002 |
+| **Criterio Técnico** ⭐ | Metadata, I-VI, X/ | DT-PTC-001, DT-INTERFACES-001, DT-TETRA-002 |
 | **Identificación Riesgo** ⭐ | Matrices, riesgos_wbs | (futuro) |
 | **Ajuste Cronograma** ⭐ | cronograma_datos | (futuro) |
 | **Riesgo + Cronograma** ⭐ | Matrices, Cronograma | DT-FIBRA-003 ✅ |
@@ -129,7 +129,7 @@
 
 **NO mencionado:**
 - ❌ PTC (Incremental Train Control System)
-- ❌ PTC VIRTUAL Level 2 (European Train Control System)
+- ❌ PTC Virtual (FRA 236) (European Train Control System)
 
 **BLOCKER-001 CONFIRMADO:** Indefinición sistema ✅
 
@@ -264,7 +264,7 @@
 
 ### **Sistemas de Control:**
 - AT3 menciona: PTC (AAR), CTC Adif (español)
-- AT3 **NO menciona:** PTC, PTC VIRTUAL Level 2
+- AT3 **NO menciona:** PTC, PTC Virtual (FRA 236)
 - **INDEFINICIÓN CONFIRMADA** 🔴
 
 ### **Pasos a Nivel:**

@@ -14,33 +14,33 @@
 ### **📋 CAMBIO DE PARADIGMA COMPLETO:**
 
 #### **🔴 FILOSOFÍA ANTERIOR (ELIMINADA):**
-- **❌ PTC PTC VIRTUAL Level 2:** Sistema tradicional con RBC → **0 unidades** (Reemplazado por ATP embarcado)
+- **❌ PTC PTC Virtual (FRA 236):** Sistema tradicional con RBC → **0 unidades** (Reemplazado por PTC embarcado)
 - **❌ RBC (Radio Block Centre):** 2 unidades → **0 unidades** (Reemplazado por CTC virtual)
 - **❌ Comunicación RBC-CTC:** Interfaces FFFIS tradicionales → **Sistema virtual directo**
-- **❌ Virtual Balise (GNSS)s:** 1,080 unidades → **0 unidades** (Reemplazado por ATP embarcado)
+- **❌ Virtual Balise (GNSS)s:** 1,080 unidades → **0 unidades** (Reemplazado por PTC embarcado)
 
 #### **✅ FILOSOFÍA NUEVA (IMPLEMENTADA):**
 - **✅ CTC Virtual Centralizado:** Centro de control único en La Dorada
-- **✅ ATP Embarcado:** Sistema en 15 locomotoras (sin RBC)
-- **✅ Comunicación Directa:** CTC ↔ ATP (sin intermediarios)
+- **✅ PTC Embarcado:** Sistema en 15 locomotoras (sin RBC)
+- **✅ Comunicación Directa:** CTC ↔ PTC (sin intermediarios)
 - **✅ Display Virtual:** Señalización en cabina del maquinista
 
 ---
 
 ## 1. Resumen Ejecutivo
 
-Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) Virtual** para el proyecto APP La Dorada-Chiriguaná, basado en **control centralizado** y **ATP embarcado** sin componentes físicos en vía.
+Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) Virtual** para el proyecto APP La Dorada-Chiriguaná, basado en **control centralizado** y **PTC embarcado** sin componentes físicos en vía.
 
 ### 1.1 Alcance del Sistema CTC Virtual
 - **Sistema principal:** Centro de Control de Tráfico Virtual
-- **Componentes:** Servidores virtuales, estaciones de trabajo, interfaces ATP, comunicaciones TETRA+RED TETRA (Misión Crítica)
+- **Componentes:** Servidores virtuales, estaciones de trabajo, interfaces PTC, comunicaciones TETRA+RED TETRA (Misión Crítica)
 - **Cobertura:** 526.133 km de vía, 5 estaciones ENCE, 146 pasos a nivel
 - **Capacidad:** Hasta 15 trenes simultáneos (sin limitación RBC)
 
 ### 1.2 Objetivos del Sistema Virtual
 - **Control centralizado:** Gestión unificada del tráfico ferroviario desde CCO La Dorada
 - **Supervisión en tiempo real:** Monitoreo continuo de operaciones sin eurobalises
-- **Integración ATP:** Comunicación directa CTC ↔ ATP embarcado
+- **Integración PTC:** Comunicación directa CTC ↔ PTC embarcado
 - **Disponibilidad:** 99.95% de disponibilidad operacional
 - **Seguridad:** Cumplimiento EN 50126/50128/50129
 
@@ -67,7 +67,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 ├─────────────────────────────────────────────────────────────┤
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
 │  │  Interface  │  │  Interface  │  │  Interface  │         │
-│  │    ATP      │  │    ENCE     │  │  Comunicación│         │
+│  │    PTC      │  │    ENCE     │  │  Comunicación│         │
 │  │  (Directo)  │  │  (5 Est.)   │  │  (TETRA+RED TETRA (Misión Crítica))│       │
 │  └─────────────┘  └─────────────┘  └─────────────┘         │
 └─────────────────────────────────────────────────────────────┘
@@ -76,11 +76,11 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
                               │ (Sin RBC/Virtual Balise (GNSS)s)
                               ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                    ATP EMBARCADO (15 LOCOMOTORAS)           │
+│                    PTC EMBARCADO (15 LOCOMOTORAS)           │
 ├─────────────────────────────────────────────────────────────┤
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
 │  │ Computadora │  │   Display   │  │   Radio     │         │
-│  │    ATP      │  │  Maquinista │  │ TETRA+RED TETRA (Misión Crítica) │         │
+│  │    PTC      │  │  Maquinista │  │ TETRA+RED TETRA (Misión Crítica) │         │
 │  │  Embarcado  │  │  (Virtual)  │  │  (Comun.)   │         │
 │  └─────────────┘  └─────────────┘  └─────────────┘         │
 └─────────────────────────────────────────────────────────────┘
@@ -101,7 +101,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 - **Estación Emergencia:** Control de contingencias virtual
 
 #### 2.2.3 Interfaces de Comunicación Virtual
-- **Interface ATP:** Comunicación directa con ATP embarcado (sin RBC)
+- **Interface PTC:** Comunicación directa con PTC embarcado (sin RBC)
 - **Interface ENCE:** Control de 5 enclavamientos electrónicos
 - **Interface Comunicación:** Enlaces TETRA + RED TETRA (Misión Crítica) con trenes
 
@@ -148,7 +148,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 - **Monitoreo:** Zabbix 5.4
 
 #### 3.2.3 Interfaces Virtuales
-- **ATP Interface:** Protocolo directo CTC-ATP (sin FFFIS RBC)
+- **PTC Interface:** Protocolo directo CTC-PTC (sin FFFIS RBC)
 - **ENCE Interface:** Control directo de enclavamientos
 - **Comunicación:** TETRA + RED TETRA (Misión Crítica) v8.0 (37 estaciones)
 
@@ -165,33 +165,33 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 - **Prioridades Virtuales:** Gestión de prioridades de trenes
 
 #### 4.1.2 Supervisión en Tiempo Real Virtual
-- **Posición de Trenes:** Tracking en tiempo real via ATP embarcado
+- **Posición de Trenes:** Tracking en tiempo real via PTC embarcado
 - **Estado de Vías:** Monitoreo continuo sin eurobalises
 - **Señales Virtuales:** Control y supervisión virtual
 - **Alarmas Virtuales:** Gestión de alarmas y eventos
 
-### 4.2 Integración ATP Embarcado
+### 4.2 Integración PTC Embarcado
 
-#### 4.2.1 Comunicación Directa CTC-ATP
-- **Estado de Trenes:** Recepción directa de posiciones ATP
+#### 4.2.1 Comunicación Directa CTC-PTC
+- **Estado de Trenes:** Recepción directa de posiciones PTC
 - **Autorizaciones:** Envío directo de Movement Authority
 - **Comandos:** Control remoto directo de trenes
 - **Eventos:** Intercambio directo de eventos críticos
 
-#### 4.2.2 Interfaces Directas CTC-ATP
-- **IF-V001:** Estado de trenes (ATP → CTC)
-- **IF-V002:** Autorización de rutas (CTC → ATP)
-- **IF-V003:** Señales virtuales (CTC → ATP)
-- **IF-V004:** Alarmas y eventos (ATP → CTC)
-- **IF-V005:** Comandos de emergencia (CTC → ATP)
-- **IF-V006:** Estado del sistema (ATP → CTC)
-- **IF-V007:** Configuración (CTC → ATP)
-- **IF-V008:** Logs y trazabilidad (ATP → CTC)
+#### 4.2.2 Interfaces Directas CTC-PTC
+- **IF-V001:** Estado de trenes (PTC → CTC)
+- **IF-V002:** Autorización de rutas (CTC → PTC)
+- **IF-V003:** Señales virtuales (CTC → PTC)
+- **IF-V004:** Alarmas y eventos (PTC → CTC)
+- **IF-V005:** Comandos de emergencia (CTC → PTC)
+- **IF-V006:** Estado del sistema (PTC → CTC)
+- **IF-V007:** Configuración (CTC → PTC)
+- **IF-V008:** Logs y trazabilidad (PTC → CTC)
 
 ### 4.3 Gestión de Emergencias Virtual
 
 #### 4.3.1 Procedimientos de Emergencia Virtual
-- **Parada de Emergencia:** Comando inmediato via ATP
+- **Parada de Emergencia:** Comando inmediato via PTC
 - **Evacuación:** Procedimientos de evacuación virtual
 - **Comunicación:** Enlaces TETRA + RED TETRA (Misión Crítica) de emergencia
 - **Coordinación:** Integración con servicios de emergencia
@@ -232,16 +232,16 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 
 ## 6. Integración y Comunicaciones Virtuales
 
-### 6.1 Integración ATP Embarcado
+### 6.1 Integración PTC Embarcado
 
-#### 6.1.1 Protocolo Directo CTC-ATP
-- **Comunicación Bidireccional:** CTC ↔ ATP (sin RBC)
+#### 6.1.1 Protocolo Directo CTC-PTC
+- **Comunicación Bidireccional:** CTC ↔ PTC (sin RBC)
 - **Tiempo Real:** Latencia < 100ms
 - **Redundancia:** TETRA + RED TETRA (Misión Crítica) (37 estaciones)
 - **Seguridad:** Cifrado end-to-end
 
 #### 6.1.2 Interfaces Virtuales
-- **Interface ATP:** Comunicación directa con 15 locomotoras
+- **Interface PTC:** Comunicación directa con 15 locomotoras
 - **Interface ENCE:** Control de 5 enclavamientos electrónicos
 - **Interface EOT:** Integración con 15 dispositivos End of Train
 
@@ -266,7 +266,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 - **Tipo C:** 9 pasos a nivel con barreras automáticas
 - **Tipo B:** 15 pasos a nivel con semáforos y barreras manuales
 - **Control CTC:** Supervisión y control desde CTC virtual
-- **Comunicación:** Integración con ATP embarcado
+- **Comunicación:** Integración con PTC embarcado
 
 ---
 
@@ -281,7 +281,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 - **Cierre del Sistema:** Procedimientos de parada virtual
 
 #### 7.1.2 Procedimientos de Emergencia Virtual
-- **Parada de Emergencia:** Comando inmediato via ATP
+- **Parada de Emergencia:** Comando inmediato via PTC
 - **Evacuación:** Procedimientos virtuales de evacuación
 - **Comunicación de Emergencia:** Enlaces TETRA + RED TETRA (Misión Crítica)
 - **Coordinación:** Integración con servicios de emergencia
@@ -290,13 +290,13 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 
 #### 7.2.1 Mantenimiento Preventivo Virtual
 - **Inspecciones CTC:** Monitoreo del centro de control virtual
-- **Pruebas ATP:** Validación de sistemas embarcados
+- **Pruebas PTC:** Validación de sistemas embarcados
 - **Mantenimiento ENCE:** Enclavamientos electrónicos
 - **Calibración Virtual:** Sistemas de comunicación
 
 #### 7.2.2 Mantenimiento Correctivo Virtual
 - **Diagnóstico CTC:** Fallas del centro de control virtual
-- **Reparación ATP:** Sistemas embarcados en locomotoras
+- **Reparación PTC:** Sistemas embarcados en locomotoras
 - **Mantenimiento ENCE:** Enclavamientos electrónicos
 - **Pruebas Post-Reparación:** Validación de funcionamiento virtual
 
@@ -312,22 +312,22 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 - **Pruebas de Instalación:** Centro de control virtual
 - **Pruebas de Funcionamiento:** Operación virtual
 
-#### 8.1.2 Pruebas ATP Embarcado
-- **Pruebas de Fábrica (FAT):** ATP embarcado
+#### 8.1.2 Pruebas PTC Embarcado
+- **Pruebas de Fábrica (FAT):** PTC embarcado
 - **Pruebas de Instalación:** Sistemas embarcados
-- **Pruebas de Integración:** CTC-ATP
+- **Pruebas de Integración:** CTC-PTC
 - **Pruebas de Funcionamiento:** Operación embarcada
 
 ### 8.2 Pruebas de Sistema Virtual
 
 #### 8.2.1 Pruebas de Integración Virtual
-- **CTC-ATP:** Integración directa sin RBC
+- **CTC-PTC:** Integración directa sin RBC
 - **CTC-ENCE:** Integración con enclavamientos
 - **CTC-EOT:** Integración con End of Train
 - **Comunicaciones:** TETRA + RED TETRA (Misión Crítica)
 
 #### 8.2.2 Pruebas de Rendimiento Virtual
-- **Latencia:** < 100ms CTC-ATP
+- **Latencia:** < 100ms CTC-PTC
 - **Disponibilidad:** 99.95% según AT4
 - **Capacidad:** 15 trenes simultáneos
 - **Redundancia:** TETRA + RED TETRA (Misión Crítica)
@@ -346,19 +346,19 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 
 ### 9.1 Documentación Técnica Virtual
 - **Planos CTC:** Centro de control virtual
-- **Especificaciones ATP:** Sistemas embarcados
+- **Especificaciones PTC:** Sistemas embarcados
 - **Manuales ENCE:** Enclavamientos electrónicos
 - **Manuales Virtuales:** Operación y mantenimiento
 
 ### 9.2 Software y Configuración Virtual
 - **Software CTC:** Control virtual centralizado
-- **Software ATP:** Sistemas embarcados
+- **Software PTC:** Sistemas embarcados
 - **Configuraciones ENCE:** Enclavamientos electrónicos
 - **Interfaces Virtuales:** Sistemas de usuario
 
 ### 9.3 Equipos y Materiales Virtuales
 - **Equipos CTC:** Centro de control virtual
-- **Equipos ATP:** Sistemas embarcados
+- **Equipos PTC:** Sistemas embarcados
 - **Equipos ENCE:** Enclavamientos electrónicos
 - **Cables y Accesorios:** Sistemas de comunicación virtual
 
@@ -368,14 +368,14 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 
 ### 10.1 Fases del Proyecto Virtual
 - **Fase 1:** CTC Virtual (2 meses)
-- **Fase 2:** ATP Embarcado (3 meses)
+- **Fase 2:** PTC Embarcado (3 meses)
 - **Fase 3:** ENCE + Pasos a Nivel (4 meses)
 - **Fase 4:** Pruebas Virtuales (2 meses)
 - **Fase 5:** Puesta en Servicio (1 mes)
 
 ### 10.2 Hitos Principales Virtuales
 - **CCO La Dorada:** Centro de control virtual completado
-- **ATP Embarcado:** Sistemas en 15 locomotoras
+- **PTC Embarcado:** Sistemas en 15 locomotoras
 - **ENCE Instalados:** 5 enclavamientos electrónicos
 - **Pruebas Virtuales:** Validación completa
 - **Puesta en Servicio:** Operación comercial virtual
@@ -386,7 +386,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 
 ### 11.1 Control de Calidad Virtual
 - **Inspecciones CTC:** Centro de control virtual
-- **Pruebas ATP:** Sistemas embarcados
+- **Pruebas PTC:** Sistemas embarcados
 - **Validación ENCE:** Enclavamientos electrónicos
 - **Certificados Virtuales:** Documentación de calidad
 

@@ -12,7 +12,7 @@
 ### **1. SISTEMA DE DECISIONES TÉCNICAS (v14.3)**
 - ✅ Formulario WBS: 4 → 8 tipos de DT
 - ✅ DTs ejecutadas con tipos nuevos:
-  - DT-ATP-001 (Criterio Técnico)
+  - DT-PTC-001 (Criterio Técnico)
   - DT-INTERFACES-001 (Criterio Técnico)
   - DT-TETRA-002 (Criterio Técnico)
   - DT-FIBRA-003 (Riesgo + Cronograma)

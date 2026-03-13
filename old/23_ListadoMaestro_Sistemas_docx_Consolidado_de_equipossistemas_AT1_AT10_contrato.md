@@ -57,7 +57,7 @@ Referencias: AT3 (Cap. 8.1), AT2 (Cap. 3.1.2).
 Funciones: señalización de vía, pasos a nivel, semaforización ferroviaria.
 Sistema PTC/PTC (Positive Train Control)
 Referencias: AT1 (Cap. 5.1), AT3 (Cap. 8.10), Cl. 13.1 del Contrato.
-Funciones: seguridad tren-tierra, control automático de trenes (PTC VIRTUAL Level 2 hasta AT3).
+Funciones: seguridad tren-tierra, control automático de trenes (PTC Virtual (FRA 236) hasta AT3).
 Disponibilidad: 99.95% según AT4.
 Interoperabilidad: Compatible con sistemas FENOCO según estándares FRA/AREMA.
 
@@ -107,7 +107,7 @@ Locomotoras con PTC Embarcado
 Referencias: AT1 (Cap. 5.1), Cl. 13.1 del Contrato.
 Funciones: transporte de carga bajo estándares de seguridad.
 Disponibilidad: 99.95% según AT4.
-Interoperabilidad: PTC PTC VIRTUAL Level 2 compatible con FENOCO.
+Interoperabilidad: PTC PTC Virtual (FRA 236) compatible con FENOCO.
 Equipos de Mantenimiento de Vía
 Referencias: AT1 (Cap. 5.2).
 Funciones: conservación y rehabilitación de la vía férrea.
@@ -191,13 +191,13 @@ Proxima actualizacion: 27 de febrero de 2025
 
 ### ✅ **MEJORAS IMPLEMENTADAS:**
 
-1. **🚂 PTC Especificado:** PTC VIRTUAL Level 2 como estándar hasta AT3 en sistemas críticos
+1. **🚂 PTC Especificado:** PTC Virtual (FRA 236) como estándar hasta AT3 en sistemas críticos
 2. **🔗 Interoperabilidad FENOCO:** Criterios FRA/AREMA especificados en todos los sistemas
 3. **📊 Criterios de Disponibilidad AT4:** Integrados por sistema (CTC 99.95%, TETRA 99.5%, PTC 99.95%)
 4. **🎯 Listado Actualizado:** Refleja mejoras implementadas en documentos individuales
 
 ### 🎯 **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
-- ✅ **PTC:** Estrategia de avance con PTC VIRTUAL Level 2 especificada
+- ✅ **PTC:** Estrategia de avance con PTC Virtual (FRA 236) especificada
 - ✅ **FENOCO:** Criterios de interoperabilidad según estándares FRA/AREMA
 - ✅ **AT4:** Criterios de disponibilidad integrados por sistema
 - ✅ **Consistencia:** Listado alineado con documentos individuales mejorados
@@ -210,7 +210,7 @@ Proxima actualizacion: 27 de febrero de 2025
 | **R-016** | **Interoperabilidad FENOCO** | **Técnico** | **Media** | **Alto** | Compatibilidad con sistemas existentes FENOCO |
 | **R-017** | **Disponibilidad 99.95%** | **Contractual** | **Media** | **Alto** | Cumplimiento AT4 requiere redundancia crítica |
 | **R-018** | **Integración de sistemas** | **Técnico** | **Media** | **Alto** | Complejidad de integración CTC-PTC-TETRA |
-| **R-019** | **Material rodante PTC** | **Técnico** | **Media** | **Alto** | Locomotoras requieren PTC PTC VIRTUAL Level 2 |
+| **R-019** | **Material rodante PTC** | **Técnico** | **Media** | **Alto** | Locomotoras requieren PTC PTC Virtual (FRA 236) |
 
 ### 📋 **RECOMENDACIONES PARA GESTIÓN DE RIESGOS:**
 - **Análisis PMI requerido** para definir estrategias de mitigación

@@ -21,13 +21,13 @@ Documentar TODAS las interfaces entre sistemas del proyecto, especificando:
 
 ## 📊 **INTERFACES CRÍTICAS IDENTIFICADAS: 7**
 
-### **IF-01: CTC ↔ PTC/ATP** 🔴 CRÍTICA
+### **IF-01: CTC ↔ PTC/PTC** 🔴 CRÍTICA
 
 | Aspecto | Especificación | Estado | Responsable |
 |:--------|:---------------|:-------|:------------|
 | **Protocolo** | FFFIS (IEC 62278) / Propietario | ⚠️ Pendiente definición PTC | EPC Señalización |
 | **Medio físico** | Ethernet redundante N+1 | ✅ Estándar | EPC Redes |
-| **Mensajes** | Posición tren, comandos, MA | ⚠️ Pendiente protocolo | EPC + Proveedor ATP |
+| **Mensajes** | Posición tren, comandos, MA | ⚠️ Pendiente protocolo | EPC + Proveedor PTC |
 | **Frecuencia** | 1 mensaje/segundo (continuo) | ✅ Definido | - |
 | **Seguridad** | IEC 62443 (ciberseguridad) | ✅ Estándar | EPC Ciberseguridad |
 | **Pruebas** | Banco → Piloto → Integración | 🟡 Conceptual | EPC + Interventoría |
@@ -87,7 +87,7 @@ Documentar TODAS las interfaces entre sistemas del proyecto, especificando:
 
 ---
 
-### **IF-05: ATP Embarcado ↔ Frenos Locomotora** 🟠 ALTA
+### **IF-05: PTC Embarcado ↔ Frenos Locomotora** 🟠 ALTA
 
 | Aspecto | Especificación | Estado | Responsable |
 |:--------|:---------------|:-------|:------------|

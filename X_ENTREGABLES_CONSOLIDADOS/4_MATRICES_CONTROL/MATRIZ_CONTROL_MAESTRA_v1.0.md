@@ -58,7 +58,7 @@
 | Sistema | Disponibilidad Requerida | Disponibilidad Actual | Estado | Penalización |
 |:--------|:------------------------|:---------------------|:-------|:-------------|
 | **CTC Virtual** | 99.95% | 99.98% | 🟢 Excelente | $0 COP |
-| **ATP Embarcado** | 99.95% | 99.97% | 🟢 Excelente | $0 COP |
+| **PTC Embarcado** | 99.95% | 99.97% | 🟢 Excelente | $0 COP |
 | **TETRA** | 99.5% | 99.2% | 🟡 Mejorable | $0 COP |
 | **RED TETRA (Misión Crítica)** | 99.95% | 99.98% | 🟢 Excelente | $0 COP |
 | **Fibra Óptica** | 99.95% | 99.99% | 🟢 Excelente | $0 COP |
@@ -84,11 +84,11 @@
 | Sistema | Componente Principal | Cantidad | Estado | % Instalado | Responsable |
 |:--------|:--------------------|:---------|:-------|:-----------|:-------------|
 | **Control** | CTC Virtual | 1 unidad | ✅ Operativo | 100% | EPC Sistemas |
-| **Control** | ATP Embarcado | 15 unidades | ✅ Operativo | 100% | EPC Sistemas |
+| **Control** | PTC Embarcado | 15 unidades | ✅ Operativo | 100% | EPC Sistemas |
 | **Control** | ENCE | 5 unidades | ✅ Operativo | 100% | EPC Sistemas |
 | **Telecom** | TETRA | 37 estaciones | ✅ Operativo | 100% | EPC Telecomunicaciones |
 | **Telecom** | RED TETRA (Misión Crítica) | 37 estaciones | ✅ Operativo | 100% | EPC Telecomunicaciones |
-| **Telecom** | Fibra Óptica | 594 km | ✅ Operativo | 100% | EPC Telecomunicaciones |
+| **Telecom** | Fibra Óptica | 526 km | ✅ Operativo | 100% | EPC Telecomunicaciones |
 | **Seguridad** | CCTV | 73 cámaras | ✅ Operativo | 100% | EPC Sistemas |
 | **Material** | Locomotoras | 15 unidades | ✅ Operativo | 100% | EPC Mecánico |
 | **Material** | Vagones | 51 unidades | ✅ Operativo | 100% | EPC Mecánico |

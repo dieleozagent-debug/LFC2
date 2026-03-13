@@ -49,19 +49,19 @@
 #### **🚂 DEPENDENCIAS PTC (13 riesgos críticos)**
 | ID | Riesgo | Prob | Impacto | Descripción | Estrategia |
 |:---|:---|:---:|:---:|:---|:---|
-| R-001 | Dependencia AT3 para PTC | Alta | Alto | Especificaciones PTC pendientes hasta AT3 | **Mitigación:** PTC VIRTUAL Level 2 como estándar internacional |
-| R-026 | PTC sin especificaciones AT3 | Alta | Alto | Retraso en diseño de sistemas críticos | **Mitigación:** Diseño basado en PTC VIRTUAL Level 2 |
-| R-051 | PTC PTC VIRTUAL Level 2 sin AT3 | Alta | Alto | Dependencia crítica para control embarcado | **Mitigación:** Protocolos PTC VIRTUAL Level 2 estándar |
-| R-076 | PTC dependiente de AT3 | Alta | Alto | Bloqueo en desarrollo de sistemas | **Mitigación:** Estrategia de avance con PTC VIRTUAL Level 2 |
-| R-101 | PTC sin especificaciones AT3 | Alta | Alto | Dependencia crítica para 33 sitios TETRA | **Mitigación:** Diseño basado en PTC VIRTUAL Level 2 |
-| R-116 | PTC dependiente de AT3 | Alta | Alto | Bloqueo en sistemas eléctricos | **Mitigación:** PTC VIRTUAL Level 2 como referencia |
-| R-131 | PTC sin especificaciones AT3 | Alta | Alto | Dependencia crítica para comunicaciones embarcadas | **Mitigación:** Protocolos PTC VIRTUAL Level 2 estándar |
-| R-146 | PTC dependiente de AT3 | Alta | Alto | Bloqueo en interfonía | **Mitigación:** PTC VIRTUAL Level 2 como estándar |
-| R-161 | PTC sin especificaciones AT3 | Alta | Alto | Dependencia crítica para red de datos | **Mitigación:** Diseño basado en PTC VIRTUAL Level 2 |
-| R-176 | PTC dependiente de AT3 | Alta | Alto | Bloqueo en sistema contra incendio | **Mitigación:** PTC VIRTUAL Level 2 como referencia |
-| R-191 | PTC sin especificaciones AT3 | Alta | Alto | Dependencia crítica para comunicaciones embarcadas | **Mitigación:** Protocolos PTC VIRTUAL Level 2 estándar |
-| R-206 | PTC dependiente de AT3 | Alta | Alto | Bloqueo en ingeniería de detalle | **Mitigación:** PTC VIRTUAL Level 2 como estándar |
-| R-221 | PTC sin especificaciones AT3 | Alta | Alto | Dependencia crítica para material rodante | **Mitigación:** Diseño basado en PTC VIRTUAL Level 2 |
+| R-001 | Dependencia AT3 para PTC | Alta | Alto | Especificaciones PTC pendientes hasta AT3 | **Mitigación:** PTC Virtual (FRA 236) como estándar internacional |
+| R-026 | PTC sin especificaciones AT3 | Alta | Alto | Retraso en diseño de sistemas críticos | **Mitigación:** Diseño basado en PTC Virtual (FRA 236) |
+| R-051 | PTC PTC Virtual (FRA 236) sin AT3 | Alta | Alto | Dependencia crítica para control embarcado | **Mitigación:** Protocolos PTC Virtual (FRA 236) estándar |
+| R-076 | PTC dependiente de AT3 | Alta | Alto | Bloqueo en desarrollo de sistemas | **Mitigación:** Estrategia de avance con PTC Virtual (FRA 236) |
+| R-101 | PTC sin especificaciones AT3 | Alta | Alto | Dependencia crítica para 33 sitios TETRA | **Mitigación:** Diseño basado en PTC Virtual (FRA 236) |
+| R-116 | PTC dependiente de AT3 | Alta | Alto | Bloqueo en sistemas eléctricos | **Mitigación:** PTC Virtual (FRA 236) como referencia |
+| R-131 | PTC sin especificaciones AT3 | Alta | Alto | Dependencia crítica para comunicaciones embarcadas | **Mitigación:** Protocolos PTC Virtual (FRA 236) estándar |
+| R-146 | PTC dependiente de AT3 | Alta | Alto | Bloqueo en interfonía | **Mitigación:** PTC Virtual (FRA 236) como estándar |
+| R-161 | PTC sin especificaciones AT3 | Alta | Alto | Dependencia crítica para red de datos | **Mitigación:** Diseño basado en PTC Virtual (FRA 236) |
+| R-176 | PTC dependiente de AT3 | Alta | Alto | Bloqueo en sistema contra incendio | **Mitigación:** PTC Virtual (FRA 236) como referencia |
+| R-191 | PTC sin especificaciones AT3 | Alta | Alto | Dependencia crítica para comunicaciones embarcadas | **Mitigación:** Protocolos PTC Virtual (FRA 236) estándar |
+| R-206 | PTC dependiente de AT3 | Alta | Alto | Bloqueo en ingeniería de detalle | **Mitigación:** PTC Virtual (FRA 236) como estándar |
+| R-221 | PTC sin especificaciones AT3 | Alta | Alto | Dependencia crítica para material rodante | **Mitigación:** Diseño basado en PTC Virtual (FRA 236) |
 
 #### **🔗 INTEROPERABILIDAD FENOCO (13 riesgos)**
 | ID | Riesgo | Prob | Impacto | Descripción | Estrategia |

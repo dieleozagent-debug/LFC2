@@ -164,7 +164,7 @@
 
 | Riesgo | Responsable | Acción | Mitigación |
 |:-------|:------------|:-------|:-----------|
-| R-CRONO-001 (ATP) | PMO + Adquisiciones | Ordenar post-M12 | Proveedor alternativo |
+| R-CRONO-001 (PTC) | PMO + Adquisiciones | Ordenar post-M12 | Proveedor alternativo |
 | R-FIBRA-001 | PMO + Telecom | Ordenar M13 | Lotes divisibles |
 | R-INT-001 | Especialista Integración | Pruebas piloto M30 | Buffer +2m |
 | R-EXC-001 (Geo/Topo) | Legal + PMO | Negociar HOY | Incluir +$500M |
@@ -274,7 +274,7 @@
 - **Impacto:** Sin esto, NO HAY proyecto
 
 ### **Decisión 2: Sistema PTC (Mes 6)**
-- **¿Cuál?** ATP / PTC VIRTUAL L2 / CBTC / Híbrida
+- **¿Cuál?** PTC / PTC VIRTUAL L2 / CBTC / Híbrida
 - **Quién decide?** ANI + Concesionario
 - **Plan B:** PTC VIRTUAL L2 genérico
 

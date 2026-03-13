@@ -69,7 +69,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 
 **Interfaces Críticas:**
 - **AT2, Capítulos III y VI** - Operación y mantenimiento
-- **AT3, Capítulo VIII** - Especificaciones tecnológicas y ATP/PTC
+- **AT3, Capítulo VIII** - Especificaciones tecnológicas y PTC/PTC
 - **AT4, Capítulos 3-6** - Indicadores de disponibilidad
 
 ---
@@ -80,10 +80,10 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 
 | Criterio | Criterio Maestro | Estado Actual | Coherencia |
 |:---------|:-----------------|:--------------|:-----------|
-| **Fibra Óptica** | 594 km | 594 km | ✅ 100% |
+| **Fibra Óptica** | 526 km | 526 km | ✅ 100% |
 | **TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
 | **RED TETRA (Misión Crítica)** | 37 estaciones | 37 estaciones | ✅ 100% |
-| **Señalización** | Virtual (CTC + ATP) | Virtual (CTC + ATP) | ✅ 100% |
+| **Señalización** | Virtual (CTC + PTC) | Virtual (CTC + PTC) | ✅ 100% |
 | **Virtual Balise (GNSS)s** | 0 unidades | 0 unidades | ✅ 100% |
 | **Señales LED** | 0 unidades | 0 unidades | ✅ 100% |
 | **RBC** | 0 unidades | 0 unidades | ✅ 100% |
@@ -139,7 +139,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 - **TETRA ↔ Gestión Predial (AT7):** El estudio de cobertura define la ubicación de las torres, lo que activa el proceso de adquisición de predios.
 - **TETRA ↔ ANE (Agencia Nacional del Espectro):** Se requiere la gestión de permisos para el uso de frecuencias y la instalación de las estaciones base.
 - **TETRA ↔ Material Rodante:** Los equipos de radio embarcados deben ser compatibles y estar integrados con la red.
-- **TETRA ↔ PTC:** Interfaz para comunicación con sistemas de control embarcados usando PTC VIRTUAL Level 2 hasta AT3.
+- **TETRA ↔ PTC:** Interfaz para comunicación con sistemas de control embarcados usando PTC Virtual (FRA 236) hasta AT3.
 
 ---
 
@@ -161,7 +161,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 | Componente | Cantidad | Criterio | Referencia |
 |------------|----------|----------|------------|
 | **Corredor** | 526.133 km | Longitud total proyecto | Contrato base (respuesta LFC) |
-| **Fibra Óptica** | 594 km | Corredor + 10% reserva | Cálculo técnico |
+| **Fibra Óptica** | 526 km | Corredor + 10% reserva | Cálculo técnico |
 | **TETRA** | **37 estaciones** | Cobertura 15-20 km + solapamiento 15-20% | AT4 telecomunicaciones |
 | **RED TETRA (Misión Crítica)** | **37 estaciones** | Redundancia con TETRA | Criterios maestros |
 | **Locomotoras** | 15 | Flota según contrato | AT1-3 material rodante |
@@ -198,13 +198,13 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 - Antenas RED TETRA (Misión Crítica) colocalizadas
 - Sistema de control RED TETRA (Misión Crítica) centralizado
 
-#### **4.2.3 Fibra Óptica Backbone (594 km)**
+#### **4.2.3 Fibra Óptica Backbone (526 km)**
 **Funcionalidades:**
 - Backbone redundante de comunicaciones
 - Integración de sistemas ITS, CCTV, señalización y CTC
 
 **Componentes:**
-- Red de fibra óptica principal (594 km)
+- Red de fibra óptica principal (526 km)
 - Cajas de empalme 80x80 (2,068 unidades)
 - Tritubo 40mm (1,485 rollos)
 - Uniones rápidas (6,204 unidades)
@@ -242,10 +242,10 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 ### 5.2 Indicadores de Coherencia ⭐ NUEVO
 
 #### **5.2.1 Verificación de Coherencia Técnica**
-- ✅ **Fibra Óptica:** 594 km ✓
+- ✅ **Fibra Óptica:** 526 km ✓
 - ✅ **TETRA:** 37 estaciones ✓
 - ✅ **RED TETRA (Misión Crítica):** 37 estaciones ✓
-- ✅ **Señalización:** Virtual (CTC + ATP) ✓
+- ✅ **Señalización:** Virtual (CTC + PTC) ✓
 - ✅ **Virtual Balise (GNSS)s:** 0 unidades ✓
 - ✅ **Señales LED:** 0 unidades ✓
 - ✅ **RBC:** 0 unidades ✓
@@ -258,7 +258,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 #### **5.2.2 Filosofía del Sistema Verificada**
 - ✅ **Señalización virtual confirmada** ✓
 - ✅ **CTC como sistema principal** ✓
-- ✅ **ATP embarcado sin eurobalises** ✓
+- ✅ **PTC embarcado sin eurobalises** ✓
 - ✅ **Redundancia TETRA + RED TETRA (Misión Crítica)** ✓
 
 #### **5.2.3 Propagación Identificada**
@@ -310,7 +310,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 #### **📊 CANTIDADES ACTUALIZADAS (SEGÚN CRITERIOS MAESTROS)**
 - **✅ TETRA:** 33 → **37 estaciones** (Cobertura 100% + solapamiento 15-20%)
 - **✅ RED TETRA (Misión Crítica):** NO incluido → **37 estaciones** (Redundancia con TETRA)
-- **✅ Fibra Óptica:** 526 → **594 km** (Corredor + 10% reserva)
+- **✅ Fibra Óptica:** 526 → **526 km** (Corredor + 10% reserva)
 
 #### **🚫 COMPONENTES ELIMINADOS (SEGÚN CRITERIOS MAESTROS)**
 - **❌ Virtual Balise (GNSS)s:** 1,080 → 0 unidades
@@ -359,20 +359,20 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 - Protocolos: FRA/AREMA para interoperabilidad FENOCO
 - Conmutación: Automática entre TETRA y RED TETRA (Misión Crítica)
 
-#### **7.2.3 Fibra Óptica Backbone (594 km)**
+#### **7.2.3 Fibra Óptica Backbone (526 km)**
 **Funcionalidades:**
 - Backbone redundante de comunicaciones
 - Integración de sistemas ITS, CCTV, señalización y CTC
 
 **Componentes:**
-- Red de fibra óptica principal (594 km)
+- Red de fibra óptica principal (526 km)
 - Cajas de empalme 80x80 (2,068 unidades)
 - Tritubo 40mm (1,485 rollos)
 - Uniones rápidas (6,204 unidades)
 - Monitoreo y mantenimiento de la red
 
 **Especificaciones Técnicas:**
-- Longitud: 594 km (corredor + 10% reserva)
+- Longitud: 526 km (corredor + 10% reserva)
 - Disponibilidad: 99.95% según AT4
 - Capacidad: 48 fibras G.652D por cable
 - Redundancia: Doble anillo
@@ -422,7 +422,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 
 #### **7.4.3 Protocolos de Interoperabilidad**
 - **FRA/AREMA:** Estándares internacionales para interoperabilidad
-- **PTC VIRTUAL Level 2:** Preparación de interfaces
+- **PTC Virtual (FRA 236):** Preparación de interfaces
 - **API Abierta:** Comunicación entre CCOs
 - **Roaming:** Conmutación automática entre redes
 
@@ -439,7 +439,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 | **Especificaciones de Radio (ETSI)** | AT3, Cap. 8.5 | Selección de equipos (estaciones base, terminales) que cumplan con los estándares ETSI EN 300 392. | ✅ Definido |
 | **Adquisición de Predios para Torres** | AT7, Cap. 3.1 | Plan de adquisición de los **37 predios** necesarios, coordinado con el estudio de cobertura. | ✅ Definido |
 | **Interoperabilidad con FENOCO** | AT1, AT2 | Diseño de un plan de roaming o interconexión de redes para garantizar la comunicación en la frontera de Chiriguaná.<br>- **Protocolos FRA/AREMA para interoperabilidad** | ✅ Definido |
-| **Equipos Embarcados en Locomotoras** | Cl. 13.1 | Especificación de radios móviles TETRA + RED TETRA (Misión Crítica) con GPS integrado para cada locomotora.<br>- **Interfaz PTC PTC VIRTUAL Level 2 hasta AT3** | ✅ Definido |
+| **Equipos Embarcados en Locomotoras** | Cl. 13.1 | Especificación de radios móviles TETRA + RED TETRA (Misión Crítica) con GPS integrado para cada locomotora.<br>- **Interfaz PTC PTC Virtual (FRA 236) hasta AT3** | ✅ Definido |
 | **Disponibilidad del Servicio (COM1)** | AT4 | Diseño de una red con redundancia N+1 para cumplir con los indicadores de disponibilidad.<br>- **Disponibilidad 99.5% según AT4** | ✅ Definido |
 
 ### **8.2 Indicadores de Riesgo**
@@ -531,7 +531,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 - ✅ Actualización de TETRA de 33 a 37 estaciones
 - ✅ Implementación de RED TETRA (Misión Crítica) como redundancia
 - ✅ Ajuste de cobertura con solapamiento 15-20%
-- ✅ Actualización de fibra óptica a 594 km
+- ✅ Actualización de fibra óptica a 526 km
 - ✅ Verificación de coherencia técnica 100%
 
 ### 12.2 Trazabilidad de Cambios

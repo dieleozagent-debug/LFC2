@@ -25,7 +25,7 @@ La seguridad se garantiza mediante la integridad de los datos en la red **PTC Vi
 ## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE RED TETRA (Misión Crítica)/PTC Virtual)
 
 Se han corregido los siguientes desvíos técnicos de la v5.0:
-- ✅ **ELIMINADO:** Requerimiento "TETRA + RED TETRA (Misión Crítica) dual" para el ATP embarcado.
+- ✅ **ELIMINADO:** Requerimiento "TETRA + RED TETRA (Misión Crítica) dual" para el PTC embarcado.
 - ✅ **ELIMINADO:** Referencias a "Virtual Balise (GNSS)s" en la matriz de seguridad física de vía.
 - ✅ **ELIMINADO:** Mención a interfaces de seguridad para RBC. La seguridad es **Peer-to-Peer** (Tren-Servidor PTC).
 - ✅ **ADOPTADO:** El protocolo **Vital IP** como el único canal de seguridad para el intercambio de mensajes entre el EPC y el Tren.

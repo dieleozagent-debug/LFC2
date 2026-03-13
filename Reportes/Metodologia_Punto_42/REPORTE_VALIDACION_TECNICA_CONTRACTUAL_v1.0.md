@@ -37,7 +37,7 @@ Se ha iniciado la **Fase 1: Validación Técnica y Contractual** del proyecto, v
 ### **1. Especificaciones Técnicas Principales**
 
 #### **✅ Sistemas de Señalización (V.1)**
-- **Normas aplicadas:** EN 50126/50128/50129, PTC VIRTUAL Level 2, CENELEC
+- **Normas aplicadas:** EN 50126/50128/50129, PTC Virtual (FRA 236), CENELEC
 - **Arquitectura:** Integrada con PTC
 - **Estado:** ✅ Especificaciones completas y consistentes
 
@@ -89,7 +89,7 @@ Se ha iniciado la **Fase 1: Validación Técnica y Contractual** del proyecto, v
 - **EN 50129:** Sistemas de señalización ferroviaria
 - **IEC 62290:** Sistemas de gestión del tráfico ferroviario
 - **FRA/AREMA 615:** Señalización ferroviaria
-- **PTC VIRTUAL Level 2:** Sistema europeo de control de trenes
+- **PTC Virtual (FRA 236):** Sistema europeo de control de trenes
 
 ### **✅ Normas Nacionales Aplicadas**
 - **RETIE:** Reglamento Técnico de Instalaciones Eléctricas

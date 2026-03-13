@@ -45,7 +45,7 @@ Este documento consolida información de las siguientes fuentes:
 
 **Obligaciones contractuales específicas:**
 - **AT1 (CCO):** Centro de Control Operacional con disponibilidad 99.95%
-- **AT2 (Operación):** Sistema de operación centralizada con ATP embarcado (PTC Virtual)
+- **AT2 (Operación):** Sistema de operación centralizada con PTC embarcado (PTC Virtual)
 - **AT3 (Especificaciones):** PTC Virtual (FRA/AREMA) hasta AT3 según criterios
 - **AT4 (Indicadores):** Disponibilidad del sistema 99.95% con métricas en tiempo real
 - **AT8 (Operaciones):** Procedimientos operacionales integrados
@@ -54,7 +54,7 @@ Este documento consolida información de las siguientes fuentes:
 **Criterios de aceptación:**
 - Sistema virtual sin componentes físicos en vía
 - Control centralizado desde CCO
-- ATP embarcado en material rodante
+- PTC embarcado en material rodante
 - Disponibilidad 99.95% del sistema
 - Interoperabilidad con FENOCO
 
@@ -73,7 +73,7 @@ Este documento consolida información de las siguientes fuentes:
 
 El Sistema de Control y Señalización implementa una **filosofía virtual** basada en:
 - **CTC Virtual:** Control centralizado desde CCO
-- **ATP Embarcado:** Sistema de protección a bordo
+- **PTC Embarcado:** Sistema de protección a bordo
 - **Señalización Virtual:** Sin señales físicas en vía
 - **Enclavamientos ENCE:** 5 estaciones críticas
 - **Desvíos Automatizados:** 120 desvíos con control centralizado
@@ -83,14 +83,14 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   CCO/CTC       │    │   ATP Embarcado │    │   ENCE Stations │
+│   CCO/CTC       │    │   PTC Embarcado │    │   ENCE Stations │
 │   Virtual       │◄──►│   (15 Locos)    │    │   (5 Stations)  │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
          │                       │                       │
          │                       │                       │
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
 │   RED TETRA (Misión Crítica) Network │    │   TETRA Network │    │   Fiber Optic   │
-│   (37 Stations) │    │   (37 Stations) │    │   (594 km)      │
+│   (37 Stations) │    │   (37 Stations) │    │   (526 km)      │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
 
@@ -99,7 +99,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 
 - **Filosofía Virtual:** Eliminación total de señalización física
 - **Control Centralizado:** CTC desde CCO con redundancia N+1
-- **ATP Embarcado:** Sistema de protección a bordo
+- **PTC Embarcado:** Sistema de protección a bordo
 - **Comunicaciones Redundantes:** RED TETRA (Misión Crítica) + TETRA + Fibra óptica
 - **Disponibilidad Alta:** 99.95% con sistemas redundantes
 
@@ -109,7 +109,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 | Alternativa | Descripción | Decisión | Justificación |
 |:------------|:------------|:---------|:--------------|
 | **Señalización Física** | Señales LED en vía | ❌ Rechazada | Costo elevado, mantenimiento complejo |
-| **Señalización Virtual** | CTC + ATP embarcado | ✅ Seleccionada | Costo optimizado, mantenimiento simplificado |
+| **Señalización Virtual** | CTC + PTC embarcado | ✅ Seleccionada | Costo optimizado, mantenimiento simplificado |
 | **RBC Centralizado** | Radio Block Center | ❌ Rechazada | No aplicable para filosofía virtual |
 | **Control Distribuido** | Múltiples CTCs | ❌ Rechazada | Complejidad operacional |
 
@@ -126,8 +126,8 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 - **Capacidad:** Control de 15 locomotoras simultáneas
 - **Interfaces:** CTC, PTC, TETRA, RED TETRA (Misión Crítica), CCTV
 
-**Sistema ATP Embarcado:**
-- **Tecnología:** PTC PTC VIRTUAL Level 2
+**Sistema PTC Embarcado:**
+- **Tecnología:** PTC PTC Virtual (FRA 236)
 - **Cantidad:** 15 locomotoras
 - **Funcionalidades:** Protección automática, supervisión, control
 - **Interfaces:** CTC, RED TETRA (Misión Crítica), GPS, EOT
@@ -138,7 +138,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 | Componente | Especificación | Cantidad | Ubicación |
 |:-----------|:---------------|:---------|:----------|
 | **CTC Virtual** | Control centralizado | 1 sistema | CCO La Dorada |
-| **ATP Embarcado** | PTC Virtual (FRA/AREMA) | 8 unidades | Locomotoras |
+| **PTC Embarcado** | PTC Virtual (FRA/AREMA) | 8 unidades | Locomotoras |
 | **ENCE** | Enclavamientos electrónicos | 5 estaciones | Estaciones críticas |
 | **Desvíos** | Control automatizado | 120 unidades | Vía principal |
 | **EOT** | Dispositivos fin de tren | 15 unidades | Vagones |
@@ -148,7 +148,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 
 **Cálculo de Disponibilidad:**
 - CTC Virtual: 99.95% (redundancia N+1)
-- ATP Embarcado: 99.9% (sistema crítico)
+- PTC Embarcado: 99.9% (sistema crítico)
 - Red RED TETRA (Misión Crítica): 99.5% (redundancia satelital)
 - Red TETRA: 99.5% (37 estaciones)
 - **Disponibilidad Total:** 99.95%
@@ -162,7 +162,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 | **RED TETRA (Misión Crítica)** | Comunicaciones | Alta | Telecomunicaciones |
 | **Fibra Óptica** | Backbone | Alta | Telecomunicaciones |
 | **CCTV** | Supervisión | Media | ITS y Seguridad |
-| **Material Rodante** | ATP Embarcado | Alta | Mecánica |
+| **Material Rodante** | PTC Embarcado | Alta | Mecánica |
 
 ---
 
@@ -182,7 +182,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 - Filosofía de señalización virtual
 - Criterios de seguridad según EN 50126/50128/50129
 - Procedimientos de validación y prueba
-- Especificaciones de ATP embarcado
+- Especificaciones de PTC embarcado
 
 **V.X - Enclavamientos ENCE v5.0:**
 - 5 enclavamientos electrónicos
@@ -250,7 +250,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 - Registro de eventos y alarmas
 - Interfaces con sistemas externos
 
-**ATP Embarcado:**
+**PTC Embarcado:**
 - Protección automática de trenes
 - Supervisión de velocidad
 - Control de frenado de emergencia
@@ -302,7 +302,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 **Inicio de Operación Diaria:**
 1. Verificación del estado de sistemas
 2. Carga de plan de tráfico
-3. Activación de ATP embarcado
+3. Activación de PTC embarcado
 4. Inicio de supervisión
 
 **Operación Normal:**
@@ -378,7 +378,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 | **RED TETRA (Misión Crítica)** | Comunicaciones | Alta | Telecomunicaciones | ✅ |
 | **Fibra Óptica** | Backbone | Alta | Telecomunicaciones | ✅ |
 | **CCTV** | Supervisión | Media | ITS y Seguridad | ✅ |
-| **Material Rodante** | ATP Embarcado | Alta | Mecánica | ✅ |
+| **Material Rodante** | PTC Embarcado | Alta | Mecánica | ✅ |
 | **EOT** | Telemetría | Media | Mecánica | ✅ |
 | **ENCE** | Control | Alta | Sistemas | ✅ |
 | **Desvíos** | Control | Alta | Mecánica | ✅ |
@@ -395,7 +395,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 - Función: Comunicación de datos críticos
 - Redundancia: Red redundante con respaldo satelital
 
-**Interface CTC-ATP:**
+**Interface CTC-PTC:**
 - Protocolo: FFFIS (Form Fit Function Interface Specification)
 - Función: Control y supervisión de trenes
 - Redundancia: Múltiples canales de comunicación
@@ -411,7 +411,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 |:----------------------|:-----------|:-------|:------|
 | **AT1 - CCO** | CTC Virtual | ✅ | Enero 2025 |
 | **AT2 - Operación** | Procedimientos OM | ✅ | Enero 2025 |
-| **AT3 - PTC** | ATP Embarcado | ✅ | Enero 2025 |
+| **AT3 - PTC** | PTC Embarcado | ✅ | Enero 2025 |
 | **AT4 - Disponibilidad** | Sistema 99.95% | ✅ | Enero 2025 |
 | **AT8 - Operaciones** | Manuales OM | ✅ | Enero 2025 |
 
@@ -422,7 +422,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 |:-------|:-------------|:---------|:-----------|:------------|
 | **Fallo CTC** | Baja | Alto | Redundancia N+1 | Sistemas |
 | **Fallo Comunicaciones** | Media | Alto | Redes redundantes | Telecomunicaciones |
-| **Fallo ATP** | Baja | Crítico | Sistemas redundantes | Mecánica |
+| **Fallo PTC** | Baja | Crítico | Sistemas redundantes | Mecánica |
 | **Ciberataque** | Baja | Alto | Seguridad industrial | Sistemas |
 
 ### 8.3 Matriz de Hitos y Plazos
@@ -453,7 +453,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 ### 9.2 Documentos Técnicos
 **III. Ingeniería Conceptual:**
 - 26. Sistema CTC Integrado
-- 27. Sistema PTC PTC VIRTUAL Level 2
+- 27. Sistema PTC PTC Virtual (FRA 236)
 - 28. Sistema Señalización Ferroviaria
 - 29. Sistema Señalización Integrado v5.0
 
@@ -478,7 +478,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 ### 9.4 Documentos Externos
 - Información de FENOCO (interoperabilidad)
 - Especificaciones de proveedores PTC
-- Manuales de equipos ATP
+- Manuales de equipos PTC
 - Estándares FRA/AREMA aplicables
 
 ---

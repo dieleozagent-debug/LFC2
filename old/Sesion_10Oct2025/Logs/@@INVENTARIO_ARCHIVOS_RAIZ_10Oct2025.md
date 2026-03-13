@@ -96,7 +96,7 @@
 | Archivo | Propósito | ¿Mover a old/? |
 |:--------|:----------|:---------------|
 | `@@RESUMEN_Sistema_SERVIR_Ingenieria_09Oct2025.md` | Sistema servir ingeniería | ❌ NO - ACTUAL |
-| `@@RESUMEN_Correccion_HTMLs_y_DT-ATP-001_09Oct2025.md` | Corrección HTMLs | ⚠️ **REVISAR** |
+| `@@RESUMEN_Correccion_HTMLs_y_DT-PTC-001_09Oct2025.md` | Corrección HTMLs | ⚠️ **REVISAR** |
 | `@@RESUMEN_v14.2_Integracion_7_Niveles_09Oct2025.md` | Integración 7 niveles | ⚠️ **REVISAR** - en Roadmap |
 | `@@RESUMEN_DT-TETRA-001_Y_Automatizacion.md` | DT-TETRA ejemplo | ❌ NO - ACTUAL (ejemplo educativo) |
 | `@@RESUMEN_Revision_Y_Correccion_DTs.md` | Revisión DTs | ❌ NO - ACTUAL |

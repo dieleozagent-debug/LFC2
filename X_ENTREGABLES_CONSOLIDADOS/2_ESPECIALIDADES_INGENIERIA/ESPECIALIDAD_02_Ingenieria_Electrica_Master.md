@@ -50,7 +50,7 @@
 
 #### **Criterios Técnicos Maestros Consolidados:**
 - **Alimentación Principal:** 480 V AC, 3 fases, 4 hilos, 800 kVA total
-- **Sistemas Críticos:** CTC (50 kVA), ATP Embarcado (30 kVA), ENCE (25 kVA)
+- **Sistemas Críticos:** CTC (50 kVA), PTC Embarcado (30 kVA), ENCE (25 kVA)
 - **Sistemas de Respaldo:** UPS 400 kVA, Generador 600 kVA, Baterías 200 kVA
 - **Disponibilidad:** 99.95% para sistemas críticos según AT4
 - **Eficiencia Energética:** Factor de potencia > 0.95, THD < 5%
@@ -74,7 +74,7 @@
 │  └─────────────┘  └─────────────┘  └─────────────┘             │
 ├─────────────────────────────────────────────────────────────────┤
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐             │
-│  │    CTC      │  │    ATP      │  │    ENCE     │             │
+│  │    CTC      │  │    PTC      │  │    ENCE     │             │
 │  │   50kVA     │  │   30kVA     │  │   25kVA     │             │
 │  │             │  │             │  │             │             │
 │  └─────────────┘  └─────────────┘  └─────────────┘             │
@@ -91,7 +91,7 @@
 - **Alimentación Principal:** Red eléctrica 800 kVA con redundancia
 - **Sistemas de Respaldo:** UPS 400 kVA + Generador 600 kVA + Baterías 200 kVA
 - **Distribución:** Tableros principales y secundarios con protecciones
-- **Cargas Críticas:** CTC, ATP, ENCE, TETRA, RED TETRA (Misión Crítica), Fibra óptica
+- **Cargas Críticas:** CTC, PTC, ENCE, TETRA, RED TETRA (Misión Crítica), Fibra óptica
 - **Puesta a Tierra:** Sistema de tierra con resistencia < 5 Ω
 
 ### **2.2 Criterios de Diseño Eléctrico**
@@ -139,7 +139,7 @@
 | **CTC** | Centro de Control de Tráfico | Alimentación 480V/60Hz, UPS N+1 (4h), A/C 24/7 | 99.95% | Sistema crítico |
 | **TETRA** | Estaciones Base | Alimentación 480V/60Hz, UPS N+1 (2h), Protección rayos | 99.5% | 37 sitios |
 | **RED TETRA (Misión Crítica)** | Estaciones Base | Alimentación 480V/60Hz, UPS N+1 (2h), Protección rayos | 99.5% | 37 sitios |
-| **ATP Embarcado** | Locomotoras | Alimentación 480V/60Hz, UPS embarcado | 99.95% | 15 locomotoras |
+| **PTC Embarcado** | Locomotoras | Alimentación 480V/60Hz, UPS embarcado | 99.95% | 15 locomotoras |
 | **ENCE** | Enclavamientos | Alimentación 480V/60Hz, UPS N+1 | 99.95% | 5 estaciones |
 | **Fibra Óptica** | Equipos de red | Alimentación 480V/60Hz, UPS N+1 | 99.95% | Equipos críticos |
 | **CCTV** | Cámaras y servidores | Alimentación 480V/60Hz, UPS N+1 | 99.5% | 73 cámaras |
@@ -419,7 +419,7 @@
 | Sistema | Alimentación Eléctrica | Función |
 |:--------|:----------------------|:---------|
 | **CTC** | 480V/60Hz, UPS N+1 | Centro de control |
-| **ATP Embarcado** | 480V/60Hz, UPS embarcado | Locomotoras |
+| **PTC Embarcado** | 480V/60Hz, UPS embarcado | Locomotoras |
 | **ENCE** | 480V/60Hz, UPS N+1 | Enclavamientos |
 | **Sistemas de respaldo** | 480V/60Hz, UPS N+1 | Sistemas críticos |
 

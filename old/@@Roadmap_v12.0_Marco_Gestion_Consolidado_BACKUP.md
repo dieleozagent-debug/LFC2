@@ -479,7 +479,7 @@ Todos los documentos de ingeniería estarán completos y listos para la ejecuci�
 | **SRS PTC** | Ing. Sistemas | ✅ Completado | SRS provisional desarrollado |
 | **Arquitectura RBC** | Ing. Sistemas | ✅ Completado | Redundancia 2oo3 especificada |
 | **Interfaces CTC-PTC** | Ing. Integración | ✅ Completado | Protocolo FFFIS implementado |
-| **STM Embarcado** | Ing. Embarcados | ✅ Completado | Especificaciones PTC VIRTUAL Level 2 |
+| **STM Embarcado** | Ing. Embarcados | ✅ Completado | Especificaciones PTC Virtual (FRA 236) |
 | **Interlocking Tables** | Ing. Señalización | ✅ Completado | 5 estaciones completadas |
 
 ### **🏆 RESULTADO ALCANZADO**
@@ -716,7 +716,7 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
 ### **📋 MATERIAL RODANTE ACTUALIZADO:**
 - **Archivo:** `III. Ingenieria conceptual/32_Material_Rodante_Integrado_v5.0.md`
 - **Estado:** ✅ **COMPLETADO** - EOT (15 dispositivos) agregado
-- **Cambios:** Integración ATP–EOT–CTC + radios TETRA/RED TETRA (Misión Crítica)
+- **Cambios:** Integración PTC–EOT–CTC + radios TETRA/RED TETRA (Misión Crítica)
 - **Impacto:** +$520,000,000 COP (EOT)
 
 ### **🎯 PRÓXIMO PASO - CAPA 3 (INICIO):**
@@ -736,7 +736,7 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
 ### **📋 CTC DETALLE ACTUALIZADO:**
 - **Archivo:** `V. Ingenieria de detalle/V.2_Centro_Control_Trafico_CTC_Detalle_v2.0.md`
 - **Estado:** ✅ **COMPLETADO** - CTC virtual centralizado implementado
-- **Cambios:** Eliminación RBC + Implementación CTC virtual + ATP embarcado directo
+- **Cambios:** Eliminación RBC + Implementación CTC virtual + PTC embarcado directo
 - **Impacto:** -$50,193,000,000 COP (alineación completa)
 
 ### **🎯 PRÓXIMO PASO - CAPA 3 (CONTINUAR):**
@@ -754,7 +754,7 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
 ### **📋 POTENCIA DETALLE ACTUALIZADO:**
 - **Archivo:** `V. Ingenieria de detalle/V.4_Sistemas_Potencia_Detalle_v2.0.md`
 - **Estado:** ✅ **COMPLETADO** - Alimentación torres colocalizadas implementada
-- **Cambios:** 37 torres colocalizadas + ATP embarcado + CTC virtual + redundancia N+1
+- **Cambios:** 37 torres colocalizadas + PTC embarcado + CTC virtual + redundancia N+1
 - **Impacto:** +$5,500,000,000 COP (alimentación torres colocalizadas)
 
 ### **🎯 PRÓXIMO PASO - CAPA 3 (CONTINUAR):**
@@ -763,7 +763,7 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
 ### **📋 SEGURIDAD DETALLE ACTUALIZADO:**
 - **Archivo:** `V. Ingenieria de detalle/V.5_Sistemas_Seguridad_Detalle_v2.0.md`
 - **Estado:** ✅ **COMPLETADO** - Seguridad colocalizada implementada
-- **Cambios:** 37 torres colocalizadas + ATP embarcado + CTC virtual + seguridad dual
+- **Cambios:** 37 torres colocalizadas + PTC embarcado + CTC virtual + seguridad dual
 - **Impacto:** +$1,400,000,000 COP (seguridad colocalizada)
 
 ## ✅ **FASE 2 (CAPA 3) COMPLETADA - INGENIERÍA DE DETALLE ACTUALIZADA**
@@ -796,7 +796,7 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
   - ✅ Impresión PDF profesional
 - **Coherencia:** 100% validada contra criterios maestros
 - **Cantidades confirmadas:**
-  - ✅ Fibra Óptica: 594 km
+  - ✅ Fibra Óptica: 526 km
   - ✅ TETRA: 37 estaciones
   - ✅ Locomotoras: 15 unidades
   - ✅ ENCE: 5 estaciones

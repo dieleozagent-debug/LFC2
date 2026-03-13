@@ -28,7 +28,7 @@ Siguiendo la norma EN 50129, las funciones críticas del PTC Virtual deben cumpl
 | Función Vital | THR Objetivo (h⁻¹) | Mitigación Técnica |
 |:---|:---:|:---|
 | **Prevención de Colisión (MA)** | < 10⁻⁹ | Lógica 2oo3 en Vital Server |
-| **Protección Sobre-velocidad (ATP)** | < 10⁻⁹ | Supervisión continua OBC |
+| **Protección Sobre-velocidad (PTC)** | < 10⁻⁹ | Supervisión continua OBC |
 | **Integridad de Ruta (Interlocking)** | < 10⁻⁹ | Validación Vital de Posición de Desvío |
 | **Localización Precisa** | < 10⁻⁸ | Fusión GPS/IMU + Base de Datos GITS |
 

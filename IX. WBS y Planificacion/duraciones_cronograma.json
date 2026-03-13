@@ -11,7 +11,7 @@
       "hito_inicio": "Mes 1",
       "hito_fin": "Mes 49",
       "dependencias": [],
-      "justificacion_duracion": "Instalación secuencial 594 km: 12 km/mes promedio × 49 meses",
+      "justificacion_duracion": "Instalación secuencial 526 km: 12 km/mes promedio × 49 meses",
       "ruta_critica_detalle": "Actividad más larga del proyecto. Define plazo total.",
       "puede_acelerarse": false,
       "razon_no_aceleracion": "Instalación física limitada por clima, accesos, permisos",

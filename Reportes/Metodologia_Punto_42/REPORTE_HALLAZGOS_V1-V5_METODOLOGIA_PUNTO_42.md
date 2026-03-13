@@ -19,10 +19,10 @@ Se ha completado el **PASO 3: Reporte de Hallazgos** aplicando la plantilla de d
 
 #### **✅ FORTALEZAS**
 - **Contenido técnico completo:** Especificaciones detalladas de señalización ferroviaria
-- **Referencias normativas:** EN 50126/50128/50129, PTC VIRTUAL Level 2, CENELEC
+- **Referencias normativas:** EN 50126/50128/50129, PTC Virtual (FRA 236), CENELEC
 - **Arquitectura definida:** Componentes principales especificados
 - **Versión y fecha:** v1.0, 02/10/2025
-- **Integración PTC:** Especificaciones de integración con PTC VIRTUAL Level 2
+- **Integración PTC:** Especificaciones de integración con PTC Virtual (FRA 236)
 
 #### **🔴 BRECHAS CRÍTICAS**
 | Brecha | Severidad | Impacto | Acción Requerida |

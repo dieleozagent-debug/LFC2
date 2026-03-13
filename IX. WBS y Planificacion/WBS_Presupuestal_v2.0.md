@@ -33,17 +33,17 @@
 | **1.1.106** | Interfaces comunicación | 1 | $150,000,000 | $150,000,000 |
 | **SUBTOTAL CTC** | | | | **$89,542,090,432** |
 
-#### **1.2 Sistema ATP Embarcado (8 Unidades ATP)**
+#### **1.2 Sistema PTC Embarcado (8 Unidades PTC)**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
 |:---|:---|:---:|:---:|:---:|
-| **1.2.100** | Computadora ATP embarcada | 8 | $120,000,000 | $960,000,000 |
+| **1.2.100** | Computadora PTC embarcada | 8 | $120,000,000 | $960,000,000 |
 | **1.2.101** | Display maquinista | 8 | $80,000,000 | $640,000,000 |
 | **1.2.102** | Sensores velocidad | 8 | $25,000,000 | $200,000,000 |
 | **1.2.103** | Sistema GPS | 8 | $35,000,000 | $280,000,000 |
-| **1.2.104** | Software ATP | 8 | $100,000,000 | $800,000,000 |
+| **1.2.104** | Software PTC | 8 | $100,000,000 | $800,000,000 |
 | **1.2.105** | Interfaces frenos | 8 | $30,000,000 | $240,000,000 |
 | **1.2.106** | Sistema redundancia | 8 | $50,000,000 | $400,000,000 |
-| **SUBTOTAL ATP** | | | | **$3,520,000,000** |
+| **SUBTOTAL PTC** | | | | **$3,520,000,000** |
 
 #### **1.3 Enclavamientos ENCE (5 Estaciones)**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
@@ -114,11 +114,11 @@
 | **2.2.108** | Repuestos (10%) | - | - | $312,000,000 |
 | **SUBTOTAL RED TETRA (Misión Crítica)** | | | | **$3,618,000,000** |
 
-#### **2.3 Fibra Óptica (594 km)**
+#### **2.3 Fibra Óptica (526 km)**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
 |:---|:---|:---:|:---:|:---:|
-| **2.3.100** | Cable fibra óptica 48 fibras | 594 km | $9,811,013 | $5,827,741,722 |
-| **2.3.101** | Mano de obra instalación | 594 km | $90,188,987 | $53,572,258,278 |
+| **2.3.100** | Cable fibra óptica 48 fibras | 526 km | $9,811,013 | $5,827,741,722 |
+| **2.3.101** | Mano de obra instalación | 526 km | $90,188,987 | $53,572,258,278 |
 | **2.3.102** | Tritubo 40mm | 1,485 rollos | $15,845 | $23,529,825 |
 | **2.3.103** | Cajas empalme 80x80 | 2,068 unidades | $1,350,000 | $2,791,800,000 |
 | **2.3.104** | Uniones rápidas | 6,204 unidades | $35,000 | $217,140,000 |
@@ -258,17 +258,17 @@
 
 ### **CAPÍTULO 6: MATERIAL RODANTE**
 
-#### **6.1 Equipos ATP Embarcados (8 Unidades ATP)**
+#### **6.1 Equipos PTC Embarcados (8 Unidades PTC)**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
 |:---|:---|:---:|:---:|:---:|
-| **6.1.100** | Sistemas ATP embarcados | 8 | $400,000,000 | $3,200,000,000 |
+| **6.1.100** | Sistemas PTC embarcados | 8 | $400,000,000 | $3,200,000,000 |
 | **6.1.101** | Radios TETRA embarcados | 16 | $35,000,000 | $560,000,000 |
 | **6.1.102** | Radios RED TETRA (Misión Crítica) embarcados | 16 | $25,000,000 | $400,000,000 |
 | **6.1.103** | Sistemas GPS | 8 | $35,000,000 | $280,000,000 |
 | **6.1.104** | Sistemas redundancia | 8 | $80,000,000 | $640,000,000 |
 | **6.1.105** | Instalación y configuración | 8 | $100,000,000 | $800,000,000 |
 | **6.1.106** | Repuestos (10%) | - | - | $588,000,000 |
-| **SUBTOTAL ATP EMBARCADOS** | | | | **$6,468,000,000** |
+| **SUBTOTAL PTC EMBARCADOS** | | | | **$6,468,000,000** |
 
 #### **6.2 Sistema EOT (15 Dispositivos)**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
@@ -341,7 +341,7 @@
 - â **EOT:** 15 dispositivos (coherente en todos los documentos)
 - â **ENCE:** 5 estaciones (coherente en todos los documentos)
 - â **CCTV:** 73 cámaras (coherente en todos los documentos)
-- â **Fibra Óptica:** 594 km (coherente en todos los documentos)
+- â **Fibra Óptica:** 526 km (coherente en todos los documentos)
 
 ### **ð DOCUMENTOS REFERENCIADOS:**
 - **`CRITERIOS_TECNICOS_MAESTRO_v1.0.md`:** Cantidades validadas

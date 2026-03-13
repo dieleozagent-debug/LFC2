@@ -50,8 +50,8 @@
       "item": "2.1.100",
       "nombre": "Torres autosoportadas TETRA",
       "criterio_tecnico": {
-        "justificacion": "37 torres para cobertura 594 km con solapamiento 20%",
-        "calculo_detallado": "Alcance por torre: 12-16 km Ã¢â â 594 km ÃÂ· 12 km = 49.5 torres Ã¢â â Optimizado a 37 con solapamiento inteligente",
+        "justificacion": "37 torres para cobertura 526 km con solapamiento 20%",
+        "calculo_detallado": "Alcance por torre: 12-16 km Ã¢â â 526 km ÃÂ· 12 km = 49.5 torres Ã¢â â Optimizado a 37 con solapamiento inteligente",
         "desglose": [
           "Torres backbone: 30 unidades (espaciamiento ~20 km)",
           "Torres en nodos crÃÂ­ticos: 5 unidades (estaciones, patios)",

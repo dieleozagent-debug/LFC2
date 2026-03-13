@@ -49,7 +49,7 @@
 - **Cl13.1:** Material rodante con equipos embarcados PTC TETRA con interoperabilidad FENOCO
 
 #### **Criterios Técnicos Maestros Consolidados:**
-- **Locomotoras:** 15 unidades con ATP embarcado PTC VIRTUAL Level 2
+- **Locomotoras:** 15 unidades con PTC embarcado PTC Virtual (FRA 236)
 - **Vagones de Carga:** 40 plataformas operativas + 11 no operativas
 - **Sistema EOT:** 15 dispositivos End of Train
 - **Talleres:** Principal La Dorada + secundario Chiriguaná + talleres de línea
@@ -82,10 +82,10 @@
 ```
 
 #### **Componentes de Material Rodante:**
-- **Locomotoras:** 15 unidades con ATP embarcado PTC VIRTUAL Level 2
+- **Locomotoras:** 15 unidades con PTC embarcado PTC Virtual (FRA 236)
 - **Vagones de Carga:** 40 plataformas operativas + 11 no operativas
 - **Equipos Especializados:** 8 carromotores, 2 bateadoras, 3 retroexcavadoras
-- **Sistemas Embarcados:** PTC PTC VIRTUAL Level 2, TETRA + RED TETRA (Misión Crítica), GPS/GNSS
+- **Sistemas Embarcados:** PTC PTC Virtual (FRA 236), TETRA + RED TETRA (Misión Crítica), GPS/GNSS
 - **Talleres:** Principal La Dorada + secundario Chiriguaná + talleres de línea
 
 ### **2.2 Criterios de Diseño Mecánico**
@@ -125,7 +125,7 @@
 #### **Sistemas Embarcados:**
 | Sistema | Especificación | Función |
 |:--------|:---------------|:---------|
-| **ATP Embarcado** | PTC VIRTUAL Level 2 | Control automático de trenes |
+| **PTC Embarcado** | PTC Virtual (FRA 236) | Control automático de trenes |
 | **TETRA** | Radio digital | Comunicación tren-tierra |
 | **RED TETRA (Misión Crítica)** | Red de datos | Comunicación redundante |
 | **GPS/GNSS** | Posicionamiento | Seguimiento en tiempo real |
@@ -208,7 +208,7 @@
 #### **Sistemas de Control:**
 | Sistema | Especificación | Función |
 |:--------|:---------------|:---------|
-| **ATP Embarcado** | PTC VIRTUAL Level 2 | Control automático |
+| **PTC Embarcado** | PTC Virtual (FRA 236) | Control automático |
 | **TETRA Embarcado** | Radio digital | Comunicación principal |
 | **RED TETRA (Misión Crítica) Embarcado** | Red de datos | Comunicación redundante |
 | **GPS/GNSS** | Posicionamiento preciso | Seguimiento |
@@ -274,7 +274,7 @@
 #### **Sistemas Embarcados:**
 | Sistema | Hardware | Software | Función |
 |:--------|:---------|:---------|:---------|
-| **ATP Embarcado** | Controlador PTC VIRTUAL Level 2 | Software PTC VIRTUAL | Control automático |
+| **PTC Embarcado** | Controlador PTC Virtual (FRA 236) | Software PTC VIRTUAL | Control automático |
 | **TETRA** | Radio digital | Protocolo TETRA | Comunicación |
 | **RED TETRA (Misión Crítica)** | Radio RED TETRA (Misión Crítica) | Protocolo RED TETRA (Misión Crítica) | Comunicación |
 | **GPS/GNSS** | Receptor GPS | Software navegación | Posicionamiento |
@@ -293,7 +293,7 @@
 #### **Sistemas Embarcados:**
 | Sistema | Software | Función | Actualización |
 |:--------|:---------|:---------|:---------------|
-| **ATP Embarcado** | Software PTC VIRTUAL Level 2 | Control automático | Over-the-air (OTA) |
+| **PTC Embarcado** | Software PTC Virtual (FRA 236) | Control automático | Over-the-air (OTA) |
 | **TETRA** | Protocolo TETRA | Comunicación | OTA |
 | **RED TETRA (Misión Crítica)** | Protocolo RED TETRA (Misión Crítica) | Comunicación | OTA |
 | **GPS/GNSS** | Software navegación | Posicionamiento | OTA |
@@ -318,7 +318,7 @@
    - Verificación de sistemas embarcados
    - Pruebas de comunicación TETRA/RED TETRA (Misión Crítica)
    - Verificación de GPS/GNSS
-   - Activación de ATP embarcado
+   - Activación de PTC embarcado
 
 2. **Operación Continua:**
    - Monitoreo de sistemas embarcados
@@ -406,7 +406,7 @@
 #### **Control Automático:**
 | Sistema | Interface | Función |
 |:--------|:----------|:---------|
-| **ATP Embarcado** | PTC VIRTUAL Level 2 | Control automático |
+| **PTC Embarcado** | PTC Virtual (FRA 236) | Control automático |
 | **CTC** | Protocolo FFFIS | Control centralizado |
 | **ENCE** | SCI-CC-A | Control de enclavamientos |
 | **Desvíos** | Control automático | Control de desvíos |
@@ -429,7 +429,7 @@
 
 | Requisito | Fuente | Especificación | Estado | Evidencia |
 |:----------|:-------|:---------------|:-------|:----------|
-| **Locomotoras** | AT1 | 15 unidades con ATP embarcado | ✅ Cumplido | 32_Material_Rodante_Integrado_v5.0 |
+| **Locomotoras** | AT1 | 15 unidades con PTC embarcado | ✅ Cumplido | 32_Material_Rodante_Integrado_v5.0 |
 | **Vagones de Carga** | AT1 | 40 plataformas operativas | ✅ Cumplido | V.3.1_Material_Rodante_Detallado |
 | **Sistema EOT** | AT1 | 15 dispositivos End of Train | ✅ Cumplido | SISTEMA_04_Material_Rodante_Master |
 | **Talleres** | AT1 | Principal + secundario + línea | ✅ Cumplido | V.3.1_Material_Rodante_Detallado |

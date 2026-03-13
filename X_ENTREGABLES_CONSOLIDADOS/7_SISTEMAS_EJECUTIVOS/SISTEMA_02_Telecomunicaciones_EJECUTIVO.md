@@ -10,8 +10,8 @@ El Sistema de Telecomunicaciones es la **red de comunicación vital** del ferroc
 
 ### Alcance en números - JUSTIFICACIÓN TÉCNICA
 - **Inversión estimada:** $45,000 millones COP
-- **37 estaciones TETRA/RED TETRA (Misión Crítica):** Justificado por radio de cobertura de 15 km por estación con 20% solapamiento sobre corredor de 594 km
-- **594 km fibra óptica:** Longitud total del corredor ferroviario La Dorada-Chiriguaná
+- **37 estaciones TETRA/RED TETRA (Misión Crítica):** Justificado por radio de cobertura de 15 km por estación con 20% solapamiento sobre corredor de 526 km
+- **526 km fibra óptica:** Longitud total del corredor ferroviario La Dorada-Chiriguaná
 - **2,068 cajas de empalme:** Calculadas cada 300m (594,000m ÷ 300m = 1,980 + 88 adicionales por redundancia)
 - **Cobertura:** 100% del corredor garantizada por diseño
 - **Disponibilidad requerida:** 99.5% TETRA, 99.95% RED TETRA (Misión Crítica) (según estándares EN 50126)
@@ -33,8 +33,8 @@ El Sistema de Telecomunicaciones es la **red de comunicación vital** del ferroc
 - **Radio de cobertura por estación:** 15 km (según especificaciones TETRA/RED TETRA (Misión Crítica))
 - **Solapamiento requerido:** 20% entre estaciones (para redundancia y continuidad)
 - **Cobertura efectiva por estación:** 12 km (15 km - 3 km solapamiento)
-- **Corredor total:** 594 km
-- **Cálculo:** 594 km ÷ 12 km/estación = 49.5 ≈ **37 estaciones** (optimizado por ubicaciones estratégicas)
+- **Corredor total:** 526 km
+- **Cálculo:** 526 km ÷ 12 km/estación = 49.5 ≈ **37 estaciones** (optimizado por ubicaciones estratégicas)
 
 **Justificación de Colocalización:**
 - **Costo-efectividad:** Compartir infraestructura (torres, alimentación, respaldo)
@@ -42,12 +42,12 @@ El Sistema de Telecomunicaciones es la **red de comunicación vital** del ferroc
 - **Mantenimiento:** Un solo sitio de mantenimiento por ubicación
 - **Redundancia:** TETRA + RED TETRA (Misión Crítica) en la misma torre
 
-### ¿Por qué 594 km de fibra óptica?
+### ¿Por qué 526 km de fibra óptica?
 **Justificación Técnica:**
 - **Corredor base:** 526.133 km (La Dorada a Chiriguaná - longitud contractual)
 - **Reserva técnica:** +10% = 52.613 km (curvas, derivaciones, contingencias)
 - **Subtotal:** 526.133 + 52.613 = 578.746 km
-- **Redondeo técnico:** 594 km (rollos comerciales de 4 km)
+- **Redondeo técnico:** 526 km (rollos comerciales de 4 km)
 - **Stock de repuesto:** Incluido en ítems separados (rollos adicionales)
 
 **Cálculo Detallado:**
@@ -85,7 +85,7 @@ Redondeo:      594.000 km  ← Cantidad WBS
 
 **Justificación de la Decisión:**
 - **TETRA:** Especializado en comunicaciones operacionales (voz + datos operativos)
-- **RED TETRA (Misión Crítica):** Especializado en datos críticos (ATP, CTC, sistemas de seguridad)
+- **RED TETRA (Misión Crítica):** Especializado en datos críticos (PTC, CTC, sistemas de seguridad)
 - **Redundancia:** Si falla uno, el otro mantiene operación básica
 - **Cumplimiento:** Estándares ferroviarios requieren redundancia
 
@@ -189,7 +189,7 @@ El Sistema de Telecomunicaciones proporciona **comunicación en tiempo real** en
 **Componentes instalados:**
 | Componente | Cantidad | Ubicación | Estado |
 |:-----------|:---------|:----------|:-------|
-| Cable de fibra óptica | 594 km | A lo largo del corredor | ⏳ En instalación |
+| Cable de fibra óptica | 526 km | A lo largo del corredor | ⏳ En instalación |
 | Cajas de empalme | 2,068 unidades | Cada 300m | ⏳ En instalación |
 | Equipos DWDM | 8 unidades | Nodos principales | ✅ Entregados |
 | Respaldo satelital | 2 unidades | Centro de Control | ✅ Operativo |

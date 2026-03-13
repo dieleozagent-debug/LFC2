@@ -96,7 +96,7 @@ Cliente ve/descarga documentos
 
 **Capítulos WBS que cubre:**
 - Cap. 1.1: CTC
-- Cap. 1.2: ATP Embarcado
+- Cap. 1.2: PTC Embarcado
 - Cap. 1.3: Enclavamientos ENCE
 - Cap. 1.4: Equipos ENCE
 - Cap. 1.5: Desvíos
@@ -413,7 +413,7 @@ Cliente recibe paquete completo sincronizado
 ### **"¿Cómo se relacionan SISTEMA_02-06 con las DTs?"**
 
 **Relación por capítulo WBS:**
-- SISTEMA_01 ↔ Cap. 1 (CTC, ATP, ENCE) ✅ Actualizado hoy
+- SISTEMA_01 ↔ Cap. 1 (CTC, PTC, ENCE) ✅ Actualizado hoy
 - SISTEMA_02 ↔ Cap. 2 (TETRA, RED TETRA (Misión Crítica), Fibra) ⏸️ Sin DTs recientes
 - SISTEMA_03 ↔ Cap. 3 (CCTV, ITS) ⏸️ Sin DTs recientes
 - SISTEMA_04 ↔ Cap. 4 (Locomotoras, EOT) ⏸️ Sin DTs recientes

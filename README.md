@@ -31,7 +31,7 @@ Desarrollar una ingeniería EPC integral, trazable y robusta, donde la toma de d
 
 | ID | Blocker | Impacto | Acción Requerida |
 |----|---------|---------|------------------|
-| **BLOCKER-001** | Indefinición tecnológica PTC (ATP/PTC VIRTUAL L2/CBTC) | Riesgo alto diseño | Oficiar ANI - Definición formal Mes 6 |
+| **BLOCKER-001** | Indefinición tecnológica PTC (PTC/PTC VIRTUAL L2/CBTC) | Riesgo alto diseño | Oficiar ANI - Definición formal Mes 6 |
 | **BLOCKER-002** | Protocolos propietarios FENOCO no revelados | Riesgo integración | Reunión técnica FENOCO Mes 5 |
 | **BLOCKER-003** | Cantidades PANs no confirmadas (146 vs 36) | Riesgo presupuestal | Confirmar diseño modular PANs |
 | **BLOCKER-004** | Cronograma Material Rodante indefinido | Riesgo planificación | Oficiar ANI - Cronograma entrega |
@@ -108,11 +108,11 @@ Abrir: IX. WBS y Planificacion/WBS_Menu_Principal.html
 ### **🎯 CRITERIOS TÉCNICOS REFINADOS (ENERO 2025):**
 | Sistema | Criterio Refinado | Cantidad | Especificación |
 |---------|------------------|----------|----------------|
-| **Fibra Óptica** | Corredor + 10% reserva | 594 km | Cajas 80x80 cada 300m (costado derecho) |
+| **Fibra Óptica** | Corredor + 10% reserva | 526 km | Cajas 80x80 cada 300m (costado derecho) |
 | **Puentes** | Cajas por puente | 4 cajas/puente | Cajas 80x80 por puente |
 | **Equipos** | Fusionadora + OTDR | 1 fusionadora, 1 OTDR | Insumos para 200 equipos |
 | **TETRA** | Red + fusiones | 33 estaciones | Fusiones para pasos a nivel |
-| **Señalización** | Virtual (CTC + ATP) | 15 locomotoras | Eliminada señalización física |
+| **Señalización** | Virtual (CTC + PTC) | 15 locomotoras | Eliminada señalización física |
 | **CCTV** | Solo ferroviario | 73 cámaras | 48 PAN + 12 talleres + 8 CCO + 5 estaciones |
 | **Corredor** | Longitud total | 526.133 km | Confirmado en proceso de cotización |
 | **CCO** | Ubicación específica | La Dorada | Centro de Control de Operaciones |
@@ -605,7 +605,7 @@ Totales coinciden exactamente ✓
   7. ✅ **Pruebas e2e validadas** - Flujo completo en 2.86 segundos ✅
 
 - **Políticas técnicas**
-  - Normalización: cantidades con unidad (“594km”, “1,485rollos”) → número + unidad; valores monetarios sin formato en JSON/JS (formato sólo en UI/Excel).
+  - Normalización: cantidades con unidad (“526km”, “1,485rollos”) → número + unidad; valores monetarios sin formato en JSON/JS (formato sólo en UI/Excel).
   - Codificación: UTF‑8 (sin BOM) y cache‑busting en HTML/JS.
   - AIU/IVA: reglas canónicas (VIII/CRITERIOS §11.1) como fuente única.
 
@@ -710,7 +710,7 @@ Totales coinciden exactamente ✓
 📁 II. Apendices Tecnicos/Decisiones_Tecnicas/ ⭐ SISTEMA DT
 ├── TEMPLATE_DT_CON_YAML_v1.0.md
 ├── EJEMPLO_DT-FIBRA-999-2025-10-07.md
-├── DT-TETRA-001-2025-10-07.md (ATP 15→8)
+├── DT-TETRA-001-2025-10-07.md (PTC 15→8)
 ├── DT-SCADA-001-2025-10-07.md (Servidores)
 ├── DT-SCADA-002-2025-10-07.md (Software)
 ├── DT-SCADA-003-2025-10-07.md (Interfaces L2/L3)

@@ -67,9 +67,9 @@ Al recibir una solicitud (p. ej. “Revisa el documento X y mejoralo”):
 5. **Verificar coherencia cruzada** - Todos los documentos sincronizados
 
 #### **CRITERIOS TÉCNICOS MAESTROS ESTABLECIDOS:**
-- **Fibra Óptica:** 594 km (corredor + 10% reserva)
+- **Fibra Óptica:** 526 km (corredor + 10% reserva)
 - **TETRA:** 33 estaciones + 15 radios móviles
-- **Señalización:** Virtual (CTC + ATP embarcado)
+- **Señalización:** Virtual (CTC + PTC embarcado)
 - **CCTV:** 73 cámaras (48 PAN + 12 talleres + 8 CCO + 5 estaciones)
 - **Corredor:** 526.133 km (confirmado proceso cotización)
 - **CCO:** La Dorada (ubicación específica)

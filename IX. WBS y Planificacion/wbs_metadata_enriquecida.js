@@ -56,7 +56,7 @@ window.wbsMetadataEnriquecida = {
       "actualizado_por": "DT-CTC-003"
     },
     "1.2.100": {
-      "descripcion": "Computadora ATP embarcada",
+      "descripcion": "Computadora PTC embarcada",
       "justificacion_tecnica": "Reducción de 15 a 8 unidades alineada con AT1: 5 locomotoras contractuales + 2 diseño/pruebas + 1 contingencia",
       "criterios_diseno": [
         "Cumplimiento CENELEC EN 50126/128/129",
@@ -70,7 +70,7 @@ window.wbsMetadataEnriquecida = {
       ],
       "decisiones_tecnicas": [
         "DT-TETRA-001-2025-10-07",
-        "DT-ATP-001-2025-10-09"
+        "DT-PTC-001-2025-10-09"
       ],
       "feedback_especialista": "Cantidad 8 UND justificada por Apéndice Financiero pág. 3 (5 locomotoras: 2 GR12 + 2 U10 + 1 U18C) + 3 reserva (2 pruebas FAT/SAT + 1 contingencia). Alineación contractual AT1 completa.",
       "documentos_ingenieria": [
@@ -84,7 +84,7 @@ window.wbsMetadataEnriquecida = {
         "AT1 Cap. V y Anexo AT1-3 - Equipos embarcados"
       ],
       "ultima_actualizacion": "2025-10-09",
-      "actualizado_por": "DT-ATP-001-2025-10-09"
+      "actualizado_por": "DT-PTC-001-2025-10-09"
     },
     "5.3.100": {
       "descripcion": "Servidores SCADA",

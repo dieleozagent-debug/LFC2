@@ -81,7 +81,7 @@ Este documento detalla la ingeniería de los sistemas de seguridad para el proye
 ### 3.1 Seguridad Funcional
 
 #### 3.1.1 Objetivos de Seguridad
-- **SIL 4:** PTC VIRTUAL Level 2, RBC, interlocking
+- **SIL 4:** PTC Virtual (FRA 236), RBC, interlocking
 - **SIL 3:** CTC, comunicaciones críticas
 - **SIL 2:** SCADA, monitoreo
 - **SIL 1:** Sistemas auxiliares
@@ -145,7 +145,7 @@ Este documento detalla la ingeniería de los sistemas de seguridad para el proye
 
 ### 4.1 Seguridad Funcional
 
-#### 4.1.1 PTC VIRTUAL Level 2
+#### 4.1.1 PTC Virtual (FRA 236)
 - **Movement Authority:** Autorización de movimiento
 - **Position Report:** Reporte de posición
 - **Emergency Stop:** Parada de emergencia
@@ -211,7 +211,7 @@ Este documento detalla la ingeniería de los sistemas de seguridad para el proye
 ### 5.1 Seguridad Funcional (EN 50126/50128/50129)
 
 #### 5.1.1 Objetivos de Seguridad
-- **SIL 4:** PTC VIRTUAL Level 2, RBC, interlocking
+- **SIL 4:** PTC Virtual (FRA 236), RBC, interlocking
 - **SIL 3:** CTC, comunicaciones críticas
 - **SIL 2:** SCADA, monitoreo
 - **SIL 1:** Sistemas auxiliares
@@ -256,7 +256,7 @@ Este documento detalla la ingeniería de los sistemas de seguridad para el proye
 
 ### 6.1 Integración PTC
 
-#### 6.1.1 Seguridad PTC VIRTUAL Level 2
+#### 6.1.1 Seguridad PTC Virtual (FRA 236)
 - **SIL 4:** Funciones críticas de seguridad
 - **Redundancia:** 2oo3 en RBC
 - **Comunicación:** RED TETRA (Misión Crítica) seguro

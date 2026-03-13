@@ -53,7 +53,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 
 | ID | Categoría | Probabilidad | Impacto | Descripción | Estrategia de Mitigación |
 |:---:|:---:|:---:|:---:|:---|:---|
-| **R-115** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en instalaciones eléctricas | Desarrollar sistemas de respaldo basados en PTC VIRTUAL Level 2 hasta disponibilidad de AT3 |
+| **R-115** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en instalaciones eléctricas | Desarrollar sistemas de respaldo basados en PTC Virtual (FRA 236) hasta disponibilidad de AT3 |
 | **R-116** | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por sistemas de alimentación incompatibles | Establecer sistemas de alimentación compatibles con sistemas FENOCO existentes |
 | **R-117** | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.95% en instalaciones eléctricas según AT4 | Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad |
 | **R-118** | Operacional | Alta | Medio | Complejidad en gestión de redundancia N+1 con PTC | Desarrollar protocolos de prueba específicos para PTC y FENOCO |
@@ -166,7 +166,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 - **Instalaciones Eléctricas ↔ PTC:** Sistemas de respaldo para control embarcado
 - **Instalaciones Eléctricas ↔ Radio TETRA:** Alimentación para estaciones base
 - **Instalaciones Eléctricas ↔ Fibra Óptica:** Energía para equipos de transmisión
-- **🚂 Instalaciones Eléctricas ↔ PTC:** Sistemas de respaldo para control embarcado PTC VIRTUAL Level 2 hasta AT3
+- **🚂 Instalaciones Eléctricas ↔ PTC:** Sistemas de respaldo para control embarcado PTC Virtual (FRA 236) hasta AT3
 - **🔗 Instalaciones Eléctricas ↔ FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos FRA/AREMA
 
 ## 3. OPTIMIZACIONES EPC ESPECÍFICAS PARA INSTALACIONES ELÉCTRICAS
@@ -277,14 +277,14 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 ## ACTUALIZACIÓN v4.1 - REVISIÓN METODOLOGÍA PUNTO 42
 
 ### **MEJORAS IMPLEMENTADAS:**
-1. **Interfaces Críticas PTC:** Sistemas de respaldo para control embarcado PTC VIRTUAL Level 2 hasta AT3
+1. **Interfaces Críticas PTC:** Sistemas de respaldo para control embarcado PTC Virtual (FRA 236) hasta AT3
 2. **Interfaces Críticas FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos FRA/AREMA
 3. **Integración con Sistemas Ferroviarios PTC:** Sistemas de respaldo para control embarcado
 4. **Integración con Sistemas Ferroviarios FENOCO:** Interoperabilidad con sistemas FENOCO
 5. **Disponibilidad AT4:** Cumplimiento de disponibilidad 99.95% según indicadores contractuales
 
 ### **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
-1. **Falta de interfaces PTC:** Agregados sistemas de respaldo específicos para control embarcado PTC VIRTUAL Level 2
+1. **Falta de interfaces PTC:** Agregados sistemas de respaldo específicos para control embarcado PTC Virtual (FRA 236)
 2. **Ausencia de interoperabilidad FENOCO:** Integrada interoperabilidad con sistemas FENOCO
 3. **Falta de criterios AT4:** Agregado cumplimiento de disponibilidad 99.95%
 
@@ -299,7 +299,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 | R-119 | Técnico | Media | Medio | Integración de instalaciones eléctricas con sistemas FENOCO existentes |
 
 ### **RECOMENDACIONES PARA GESTIÓN DE RIESGOS:**
-1. **Estrategia PTC:** Desarrollar sistemas de respaldo basados en PTC VIRTUAL Level 2 hasta disponibilidad de AT3
+1. **Estrategia PTC:** Desarrollar sistemas de respaldo basados en PTC Virtual (FRA 236) hasta disponibilidad de AT3
 2. **Coordinación FENOCO:** Establecer sistemas de alimentación compatibles con sistemas FENOCO existentes
 3. **Monitoreo AT4:** Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad 99.95%
 4. **Pruebas de Instalaciones Eléctricas:** Desarrollar protocolos de prueba específicos para PTC y FENOCO

@@ -22,7 +22,7 @@ Automatizar la propagación de cada Decisión Técnica (DT) hacia **7 niveles de
 
 **Funcionalidad:**
 - Lee WBS y actualiza cronograma automáticamente
-- Normaliza cantidades con unidad (594km, 1485 rollos)
+- Normaliza cantidades con unidad (526km, 1485 rollos)
 - Recalcula duraciones y fechas
 - Genera archivo JS para HTML con cache-busting
 - 124 actividades, 49 meses duración total

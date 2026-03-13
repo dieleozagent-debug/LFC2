@@ -163,7 +163,7 @@ Arquitectura completa del sistema TETRA con 37 estaciones base, criterios de cob
 **Secciones clave a extraer:**
 - Arquitectura TETRA: 37 estaciones base
 - Criterios de cobertura: Análisis radioeléctrico
-- Interfaces sistemas: CTC, ATP, Material Rodante
+- Interfaces sistemas: CTC, PTC, Material Rodante
 - Especificaciones técnicas: Equipos y redes
 
 **Prioridad para consolidación:** 🔴 Alta
@@ -199,10 +199,10 @@ Cuantificación detallada de equipos TETRA, torres, radios embarcados, portátil
 **Fecha última modificación:** Octubre 2025
 
 **Contenido relevante para Telecomunicaciones:**
-Diseño de red de fibra óptica de 594 km con topología de anillo, cajas de empalme y gestión de interferencias.
+Diseño de red de fibra óptica de 526 km con topología de anillo, cajas de empalme y gestión de interferencias.
 
 **Secciones clave a extraer:**
-- Topología de red: Anillo redundante 594 km
+- Topología de red: Anillo redundante 526 km
 - Cajas de empalme: 2,068 unidades 80x80
 - Gestión interferencias: Coordinación AT5
 - Ubicaciones: Coordinación AT7
@@ -241,12 +241,12 @@ Inventario consolidado de todos los sistemas de telecomunicaciones con códigos,
 **Fecha última modificación:** Enero 2025
 
 **Contenido relevante para Telecomunicaciones:**
-Estructura de desglose de trabajo para sistemas de comunicaciones con 37 estaciones TETRA, 37 RED TETRA (Misión Crítica) y 594 km fibra óptica.
+Estructura de desglose de trabajo para sistemas de comunicaciones con 37 estaciones TETRA, 37 RED TETRA (Misión Crítica) y 526 km fibra óptica.
 
 **Secciones clave a extraer:**
 - WBS TETRA: 37 estaciones base
 - WBS RED TETRA (Misión Crítica): 37 estaciones colocalizadas
-- WBS fibra óptica: 594 km backbone
+- WBS fibra óptica: 526 km backbone
 - Responsabilidades: EPC Telecomunicaciones
 
 **Prioridad para consolidación:** 🔴 Alta
@@ -412,7 +412,7 @@ Planos detallados de ubicación de torres y recorrido de fibra óptica con coord
 
 **Secciones clave a extraer:**
 - Ubicaciones detalladas: Torres 37 estaciones
-- Recorrido fibra óptica: 594 km detallado
+- Recorrido fibra óptica: 526 km detallado
 - Coordenadas precisas: GPS y topográficas
 - Especificaciones técnicas: Alturas y tipos
 
@@ -432,8 +432,8 @@ Planos detallados de ubicación de torres y recorrido de fibra óptica con coord
 Definición de interfaces entre sistemas de telecomunicaciones y otros sistemas del proyecto.
 
 **Secciones clave a extraer:**
-- Interfaces TETRA: Con CTC, ATP, Material Rodante
-- Interfaces RED TETRA (Misión Crítica): Con CTC, ATP, Material Rodante
+- Interfaces TETRA: Con CTC, PTC, Material Rodante
+- Interfaces RED TETRA (Misión Crítica): Con CTC, PTC, Material Rodante
 - Interfaces fibra óptica: Backbone comunicaciones
 - Protocolos comunicación: Estándares aplicables
 
@@ -501,7 +501,7 @@ Especificaciones detalladas del sistema RED TETRA (Misión Crítica) con 37 esta
 - Arquitectura RED TETRA (Misión Crítica): 37 estaciones
 - Colocalización TETRA: Misma torre
 - Especificaciones equipos: Embarcados y fijos
-- Interfaces críticas: CTC y ATP
+- Interfaces críticas: CTC y PTC
 
 **Prioridad para consolidación:** 🔴 Alta
 
@@ -731,7 +731,7 @@ Matriz de responsabilidades para sistemas de telecomunicaciones definiendo roles
 ### ⚠️ Inconsistencias Detectadas:
 1. **Cantidades TETRA:** Algunos documentos mencionan 37 estaciones, otros 30 estaciones
 2. **Colocalización:** Algunos documentos mencionan colocalización TETRA+RED TETRA (Misión Crítica), otros no
-3. **Fibra óptica:** Algunos documentos mencionan 594 km, otros 600 km
+3. **Fibra óptica:** Algunos documentos mencionan 526 km, otros 600 km
 
 ### ⏳ Información Pendiente de Desarrollo:
 1. **Especificaciones RED TETRA (Misión Crítica) detalladas:** Faltan especificaciones técnicas completas

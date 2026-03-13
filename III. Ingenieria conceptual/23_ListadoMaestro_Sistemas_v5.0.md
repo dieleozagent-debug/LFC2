@@ -25,7 +25,7 @@ Este listado consolida los sistemas reales que el EPC implementará, eliminando 
 | Componente | Cantidad | Descripción | Estándar |
 |:---|:---:|:---|:---|
 | **Estaciones Base TETRA**| 37 | Cobertura total de voz y datos críticos | ETSI TETRA |
-| **Backbone Fibra Óptica**| 594 km | Anillo redundante de comunicaciones | ITU-T |
+| **Backbone Fibra Óptica**| 526 km | Anillo redundante de comunicaciones | ITU-T |
 | **Nodos IP/MPLS** | 37 | Gestión de red de datos | IETF |
 
 ---

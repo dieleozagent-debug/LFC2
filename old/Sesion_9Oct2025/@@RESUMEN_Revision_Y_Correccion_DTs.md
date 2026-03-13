@@ -32,10 +32,10 @@
   - ✅ Buena justificación técnica (descripción de 5 ubicaciones)
 
 ### 3. `DT-FIBRA-040-2025-10-07.md` ❌
-- **Item:** 1.2.104 - Software ATP
+- **Item:** 1.2.104 - Software PTC
 - **Tipo:** Cantidad (15 → 8)
 - **Problemas encontrados:**
-  - ❌ Sistema incorrecto ("FIBRA" → debería ser "CTC/ATP")
+  - ❌ Sistema incorrecto ("FIBRA" → debería ser "CTC/PTC")
   - ❌ Valor actual "NaN" (no numérico)
   - ❌ **DUPLICADO** de DT-FIBRA-434
   - ❌ Versión incorrecta
@@ -45,16 +45,16 @@
 - **Item:** 1.2.105 - Interfaces frenos
 - **Tipo:** Cantidad (15 → 8)
 - **Problemas encontrados:**
-  - ❌ Sistema incorrecto ("FIBRA" → debería ser "CTC/ATP")
+  - ❌ Sistema incorrecto ("FIBRA" → debería ser "CTC/PTC")
   - ❌ Valor actual "NaN"
   - ❌ Versión incorrecta
   - ❌ YAML incompleto
 
 ### 5. `DT-FIBRA-434-2025-10-07.md` ❌
-- **Item:** 1.2.104 - Software ATP
+- **Item:** 1.2.104 - Software PTC
 - **Tipo:** Cantidad (15 → 8)
 - **Problemas encontrados:**
-  - ❌ Sistema incorrecto ("FIBRA" → debería ser "CTC/ATP")
+  - ❌ Sistema incorrecto ("FIBRA" → debería ser "CTC/PTC")
   - ❌ **DUPLICADO EXACTO** de DT-FIBRA-040
   - ❌ Mismo item, misma observación, mismo cambio
   - ❌ Valor actual "NaN"
@@ -66,7 +66,7 @@
 
 ### 1. **Sistema Incorrecto** ❌
 Todos los archivos tienen `Sistema: FIBRA` pero:
-- Items 1.2.x → Sistema CTC/ATP (no FIBRA)
+- Items 1.2.x → Sistema CTC/PTC (no FIBRA)
 - Items 1.3.x → Sistema ENCE (no FIBRA)
 - Fibra óptica es el capítulo 2.3.x
 
@@ -169,13 +169,13 @@ Todos tienen placeholders sin completar:
 **Items:** 1.2.104, 1.2.105, 1.2.106 (3 items en 1 DT)
 
 **Cambios:**
-- **1.2.104** - Software ATP: 15 → 8 UND (-$700M)
+- **1.2.104** - Software PTC: 15 → 8 UND (-$700M)
 - **1.2.105** - Interfaces frenos: 15 → 8 UND (-$210M)
 - **1.2.106** - Sistema redundancia: 15 → 8 UND (-$350M)
 - **Ahorro total:** -$1.260.000.000 COP (-47%)
 
 **Mejoras aplicadas:**
-- ✅ Sistema correcto: "CTC/ATP" (no FIBRA)
+- ✅ Sistema correcto: "CTC/PTC" (no FIBRA)
 - ✅ Consolida 3 items en 1 DT (evita duplicados)
 - ✅ Valores reales de WBS v2.1
 - ✅ Versión correcta: v2.1 → v2.2
@@ -183,7 +183,7 @@ Todos tienen placeholders sin completar:
 - ✅ **Relación con DT-TETRA-001:**
   - Marca como "complemento" de DT-TETRA-001
   - Completa el ajuste pendiente de sección 1.2
-  - Asegura coherencia total (8 ATP en todos los items)
+  - Asegura coherencia total (8 PTC en todos los items)
 - ✅ Tabla de coherencia antes/después
 - ✅ Análisis de subtotal recalculado
 
@@ -211,8 +211,8 @@ Todos tienen placeholders sin completar:
 
 ### Detalle:
 - **Incrementos (precio):** +$1.294.000.000 COP (ENCE)
-- **Ahorros (cantidad):** -$1.260.000.000 COP (ATP)
-- **Balance neto:** +$34.000.000 COP (+0,06% presupuesto ATP/ENCE)
+- **Ahorros (cantidad):** -$1.260.000.000 COP (PTC)
+- **Balance neto:** +$34.000.000 COP (+0,06% presupuesto PTC/ENCE)
 
 ---
 
@@ -220,7 +220,7 @@ Todos tienen placeholders sin completar:
 
 ### DT-TETRA-001 (ya ejecutada):
 - ✅ Ajustó items: 1.2.100, 1.2.101, 1.2.102, 1.2.103
-- ✅ Cantidad: 15 → 8 ATP
+- ✅ Cantidad: 15 → 8 PTC
 - ✅ Ahorro: -$7.479M COP
 - ✅ Estado: Ejecutada el 2025-10-07
 
@@ -250,7 +250,7 @@ Todos tienen placeholders sin completar:
 4. ✅ Creé 3 DTs corregidas:
    - DT-ENCE-001 (Controlador ENCE)
    - DT-ENCE-002 (Interfaces CTC-ENCE)
-   - DT-CTC-001 (3 componentes ATP)
+   - DT-CTC-001 (3 componentes PTC)
 5. ✅ Consolidé duplicados (DT-FIBRA-040 y 434 → DT-CTC-001)
 6. ✅ Completé todos los campos con valores reales
 7. ✅ Generé YAML funcional y ejecutable
@@ -327,7 +327,7 @@ El sistema actual genera:
 **Solución:**
 - Mapear capítulo → sistema correcto:
   - Cap 1 (1.1.x) → CTC
-  - Cap 1 (1.2.x) → ATP
+  - Cap 1 (1.2.x) → PTC
   - Cap 1 (1.3.x) → ENCE
   - Cap 2 (2.1.x) → TETRA
   - Cap 2 (2.3.x) → FIBRA

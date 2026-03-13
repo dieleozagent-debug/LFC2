@@ -1,4 +1,4 @@
-# RESUMEN: Corrección HTMLs + Ejecución DT-ATP-001
+# RESUMEN: Corrección HTMLs + Ejecución DT-PTC-001
 **Fecha:** 9 de Octubre 2025
 **Tipo:** Corrección EDT Detalle + Nueva categoría DT + Sincronización
 
@@ -25,10 +25,10 @@
 
 ---
 
-## ✅ DT-ATP-001-2025-10-09 EJECUTADA
+## ✅ DT-PTC-001-2025-10-09 EJECUTADA
 
 ### Detalles de la DT:
-- **Ítem WBS:** 1.2.100 - Computadora ATP embarcada
+- **Ítem WBS:** 1.2.100 - Computadora PTC embarcada
 - **Tipo:** Ajuste criterio técnico
 - **Cantidad:** 8 UND (SIN CAMBIO)
 - **Valor:** $960.000.000 COP (SIN CAMBIO)
@@ -79,8 +79,8 @@
   ▶ 1.1 - Subcapítulo CTC
     - 1.1.100 - Servidores CTC principales
     - 1.1.103 - Software CTC 📋 2 DT
-  ▶ 1.2 - Sistema ATP Embarcado
-    - 1.2.100 - Computadora ATP embarcada 📋 2 DT  ⭐ AHORA VISIBLE
+  ▶ 1.2 - Sistema PTC Embarcado
+    - 1.2.100 - Computadora PTC embarcada 📋 2 DT  ⭐ AHORA VISIBLE
   ...
 ```
 
@@ -132,7 +132,7 @@
 6. ✅ riesgos_proyecto.js
 7. ✅ riesgos_wbs.js
 8. ✅ SISTEMA_Analisis_Riesgos_Automatico.js
-9. ✅ wbs_metadata_enriquecida.js (actualizado con DT-ATP-001)
+9. ✅ wbs_metadata_enriquecida.js (actualizado con DT-PTC-001)
 10. ✅ wbs_presupuestal_datos.js
 
 ---
@@ -143,14 +143,14 @@
 
 **Al abrir WBS_EDT_Detalle.html:**
 1. ▶ Click en "Capítulo 1" → Se expande
-2. ▶ Click en "1.2 - Sistema ATP Embarcado" → Se expande
-3. 📋 Click en "1.2.100 - Computadora ATP embarcada **📋 2 DT**"
+2. ▶ Click en "1.2 - Sistema PTC Embarcado" → Se expande
+3. 📋 Click en "1.2.100 - Computadora PTC embarcada **📋 2 DT**"
 4. Panel derecho muestra:
    - ✅ Justificación técnica completa
    - ✅ Criterios de diseño (4 criterios)
    - ✅ Supuestos (4 supuestos)
    - ✅ Feedback especialista con Apéndice Financiero
-   - ✅ **2 DTs relacionadas** (DT-TETRA-001, DT-ATP-001) ⭐
+   - ✅ **2 DTs relacionadas** (DT-TETRA-001, DT-PTC-001) ⭐
    - ✅ 4 Documentos de ingeniería
    - ✅ **Referencias contractuales** (2 referencias) ⭐ NUEVO
    - ✅ Última actualización: 2025-10-09
@@ -178,7 +178,7 @@
 ## 📁 ARCHIVOS FINALES MODIFICADOS
 
 **DTs y solicitudes:**
-- ✅ DT-ATP-001-2025-10-09.md (nueva)
+- ✅ DT-PTC-001-2025-10-09.md (nueva)
 - ✅ SOLICITUD_CRITERIO_1-2-100_2025-10-09.md (completada)
 
 **Metadata:**

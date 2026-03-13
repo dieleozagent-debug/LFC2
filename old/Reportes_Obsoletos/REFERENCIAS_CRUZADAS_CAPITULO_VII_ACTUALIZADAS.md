@@ -36,7 +36,7 @@
 - **EN 50126:** Aplicación técnicas confiabilidad
 - **EN 50128:** Software sistemas control ferroviario
 - **EN 50129:** Aplicación técnicas seguridad
-- **FRA/AREMA 438:** Especificaciones PTC VIRTUAL Level 2
+- **FRA/AREMA 438:** Especificaciones PTC Virtual (FRA 236)
 
 ---
 
@@ -142,7 +142,7 @@
 
 #### **Referencias Normativas:**
 - **EN 50126/50128/50129:** Estándares ferroviarios
-- **FRA/AREMA 438:** PTC VIRTUAL Level 2
+- **FRA/AREMA 438:** PTC Virtual (FRA 236)
 
 ---
 

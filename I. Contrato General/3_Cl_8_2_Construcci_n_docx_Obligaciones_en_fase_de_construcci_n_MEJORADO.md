@@ -484,8 +484,8 @@ Proxima actualizacion: 27/02/2025
 
 #### **✅ MEJORAS IMPLEMENTADAS:**
 
-1. **🚂 INTEGRACIÓN PTC PTC VIRTUAL Level 2 EN CONSTRUCCIÓN:**
-   - **Montaje embarcado:** Instalación de equipos PTC PTC VIRTUAL Level 2 en locomotoras
+1. **🚂 INTEGRACIÓN PTC PTC Virtual (FRA 236) EN CONSTRUCCIÓN:**
+   - **Montaje embarcado:** Instalación de equipos PTC PTC Virtual (FRA 236) en locomotoras
    - **Integración CTC:** Conexión de sistemas embarcados con Centro de Control
    - **Pruebas SAT:** Validación de interoperabilidad PTC con sistemas FENOCO
    - **Simulación de capacidad:** Pruebas de integración CTC-señalización-PTC
@@ -516,7 +516,7 @@ Proxima actualizacion: 27/02/2025
 
 #### **⚠️ VACÍOS IDENTIFICADOS Y CORREGIDOS:**
 
-1. **Falta de especificaciones PTC en construcción:** Agregado montaje de equipos PTC VIRTUAL Level 2
+1. **Falta de especificaciones PTC en construcción:** Agregado montaje de equipos PTC Virtual (FRA 236)
 2. **Ausencia de interoperabilidad FENOCO:** Incluidas pruebas de compatibilidad
 3. **Criterios AT4 no integrados:** Incorporado SICC y telemetría desde construcción
 4. **Ciberseguridad no especificada:** Agregados estándares de seguridad en instalación
@@ -545,7 +545,7 @@ Proxima actualizacion: 27/02/2025
 #### **🎯 OPTIMIZACIONES EPC ESPECÍFICAS:**
 
 1. **Estrategia de Avance con Bloqueos PTC:**
-   - **Fase A:** Preparación con PTC VIRTUAL Level 2 (0-3 meses)
+   - **Fase A:** Preparación con PTC Virtual (FRA 236) (0-3 meses)
    - **Fase B:** Montaje de equipos PTC (3-12 meses)
    - **Fase C:** Integración y pruebas SAT (12-18 meses)
    - **Fase D:** Puesta en servicio gradual (18-24 meses)
@@ -559,7 +559,7 @@ Proxima actualizacion: 27/02/2025
 
 | Métrica | Objetivo | Frecuencia | Responsable | Estado |
 |:---|:---:|:---:|:---|:---:|
-| **PTC PTC VIRTUAL Level 2** | 100% montado | Semanal | Ing. Sistemas | 🟢 En progreso |
+| **PTC PTC Virtual (FRA 236)** | 100% montado | Semanal | Ing. Sistemas | 🟢 En progreso |
 | **Interoperabilidad FENOCO** | Pruebas SAT | Mensual | Comunicaciones | 🟡 Pendiente |
 | **Disponibilidad AT4** | 99.95% SAT | Semanal | Ing. Sistemas | 🟢 En progreso |
 | **Ciberseguridad** | NIST/IEC 62443 | Mensual | Ciberseguridad | 🟡 Pendiente |
@@ -568,7 +568,7 @@ Proxima actualizacion: 27/02/2025
 #### **🚀 PRÓXIMOS PASOS:**
 
 1. **Inmediato (0-3 meses):**
-   - Preparar montaje de equipos PTC PTC VIRTUAL Level 2
+   - Preparar montaje de equipos PTC PTC Virtual (FRA 236)
    - Establecer protocolos FRA/AREMA para pruebas FENOCO
    - Implementar SICC con telemetría
 
@@ -585,7 +585,7 @@ Proxima actualizacion: 27/02/2025
 #### **✅ CONCLUSIONES:**
 
 El documento ha sido actualizado exitosamente aplicando la metodología Punto 42, integrando:
-- **PTC PTC VIRTUAL Level 2** en fase de construcción
+- **PTC PTC Virtual (FRA 236)** en fase de construcción
 - **Interoperabilidad FENOCO** en pruebas SAT
 - **Criterios AT4** con SICC y telemetría
 - **Ciberseguridad** con estándares NIST/IEC 62443

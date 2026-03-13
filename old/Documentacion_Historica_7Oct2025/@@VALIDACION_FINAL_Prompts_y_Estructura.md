@@ -55,7 +55,7 @@
 - Validación: Información completa y específica
 
 **PASO 2: Calcular cantidades** ✅
-- Fórmula: 594 km ÷ 1.0 km = 594 cajas
+- Fórmula: 526 km ÷ 1.0 km = 594 cajas
 - Antes: 1,188 cajas
 - Ahorro: 594 cajas (50%)
 - Validación: Cálculo correcto

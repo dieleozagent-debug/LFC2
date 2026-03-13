@@ -37,7 +37,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 #### **ESPECIFICACIONES TÉCNICAS**
 - **Radio TETRA Embarcado:** Terminales móviles con GPS integrado para locomotoras
 - **Módems de Fibra:** Conectividad de alta velocidad para sistemas PTC
-- **Sistemas PTC:** Control embarcado PTC VIRTUAL Level 2 hasta especificaciones AT3
+- **Sistemas PTC:** Control embarcado PTC Virtual (FRA 236) hasta especificaciones AT3
 - **Disponibilidad:** ≥ 99.95% para sistemas críticos según AT4
 
 #### **INTEGRACIÓN CON SISTEMAS FERROVIARIOS**
@@ -53,7 +53,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 
 | ID | Categoría | Probabilidad | Impacto | Descripción | Estrategia de Mitigación |
 |:---:|:---:|:---:|:---:|:---|:---|
-| **R-140** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en comunicaciones embarcadas | Desarrollar sistemas embarcados basados en PTC VIRTUAL Level 2 hasta disponibilidad de AT3 |
+| **R-140** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en comunicaciones embarcadas | Desarrollar sistemas embarcados basados en PTC Virtual (FRA 236) hasta disponibilidad de AT3 |
 | **R-141** | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por sistemas embarcados incompatibles | Establecer sistemas embarcados compatibles con sistemas FENOCO existentes |
 | **R-142** | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.95% en comunicaciones embarcadas según AT4 | Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad |
 | **R-143** | Operacional | Alta | Medio | Complejidad en gestión de sistemas embarcados con PTC | Desarrollar protocolos de prueba específicos para PTC y FENOCO |
@@ -140,14 +140,14 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 ## ACTUALIZACIÓN v4.1 - REVISIÓN METODOLOGÍA PUNTO 42
 
 ### **MEJORAS IMPLEMENTADAS:**
-1. **Interfaces Críticas PTC:** Sistemas de control embarcado PTC VIRTUAL Level 2 hasta AT3
+1. **Interfaces Críticas PTC:** Sistemas de control embarcado PTC Virtual (FRA 236) hasta AT3
 2. **Interfaces Críticas FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos FRA/AREMA
 3. **Integración con Sistemas Ferroviarios PTC:** Sistemas de control embarcado
 4. **Integración con Sistemas Ferroviarios FENOCO:** Interoperabilidad con sistemas FENOCO
 5. **Disponibilidad AT4:** Cumplimiento de disponibilidad 99.95% según indicadores contractuales
 
 ### **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
-1. **Falta de interfaces PTC:** Agregados sistemas de control embarcado específicos PTC VIRTUAL Level 2
+1. **Falta de interfaces PTC:** Agregados sistemas de control embarcado específicos PTC Virtual (FRA 236)
 2. **Ausencia de interoperabilidad FENOCO:** Integrada interoperabilidad con sistemas FENOCO
 3. **Falta de criterios AT4:** Agregado cumplimiento de disponibilidad 99.95%
 
@@ -162,7 +162,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 | R-144 | Técnico | Media | Medio | Integración de comunicaciones embarcadas con sistemas FENOCO existentes |
 
 ### **RECOMENDACIONES PARA GESTIÓN DE RIESGOS:**
-1. **Estrategia PTC:** Desarrollar sistemas embarcados basados en PTC VIRTUAL Level 2 hasta disponibilidad de AT3
+1. **Estrategia PTC:** Desarrollar sistemas embarcados basados en PTC Virtual (FRA 236) hasta disponibilidad de AT3
 2. **Coordinación FENOCO:** Establecer sistemas embarcados compatibles con sistemas FENOCO existentes
 3. **Monitoreo AT4:** Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad 99.95%
 4. **Pruebas de Comunicaciones Embarcadas:** Desarrollar protocolos de prueba específicos para PTC y FENOCO

@@ -135,7 +135,7 @@ Las pruebas se regirán por el `42. Plan_Pruebas_MEJORADO.md`.
 
 | ID | Categoría | Probabilidad | Impacto | Descripción | Estrategia de Mitigación |
 |:---:|:---:|:---:|:---:|:---|:---|
-| **R-090** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en CTC. | Desarrollar interfaces de CTC basadas en PTC VIRTUAL Level 2 hasta disponibilidad de AT3. |
+| **R-090** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en CTC. | Desarrollar interfaces de CTC basadas en PTC Virtual (FRA 236) hasta disponibilidad de AT3. |
 | **R-091** | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por interfaces de CTC incompatibles. | Establecer protocolos de CTC compatibles con sistemas FENOCO existentes (EULYNX). |
 | **R-092** | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.95% en CTC según AT4. | Implementar sistemas de monitoreo y redundancia N+1 para garantizar cumplimiento. |
 | **R-093** | Operacional | Media | Medio | Falla en sistema de energía o HVAC del CCO. | Diseñar infraestructura de CCO con redundancia 2N en energía y climatización. |

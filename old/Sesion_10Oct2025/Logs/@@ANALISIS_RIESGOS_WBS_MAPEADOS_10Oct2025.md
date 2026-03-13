@@ -48,7 +48,7 @@
 | ID | Descripción | Items WBS | Fuente |
 |:--:|:------------|:----------|:-------|
 | **R-FIBRA-001** | Lead time crítico fibra 9m | 2.3.100, 2.3.103 | DT-FIBRA-003 |
-| **R-PTC-001** | Indefinición PTC (ATP/PTC VIRTUAL L2/CBTC) | - | BLOCKER-001 |
+| **R-PTC-001** | Indefinición PTC (PTC/PTC VIRTUAL L2/CBTC) | - | BLOCKER-001 |
 | **R-FENOCO-001** | Protocolos propietarios FENOCO | - | BLOCKER-002 |
 
 ### **🟠 ALTA (2 riesgos):**

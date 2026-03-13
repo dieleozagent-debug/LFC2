@@ -50,10 +50,10 @@
 
 #### **Criterios Técnicos Maestros Consolidados:**
 - **CTC Virtual:** Centro de control centralizado con redundancia N+1
-- **ATP Embarcado:** 15 locomotoras con control automático PTC VIRTUAL Level 2
+- **PTC Embarcado:** 15 locomotoras con control automático PTC Virtual (FRA 236)
 - **ENCE:** 5 enclavamientos electrónicos en estaciones críticas
 - **TETRA + RED TETRA (Misión Crítica):** 37 estaciones colocalizadas con redundancia
-- **Fibra Óptica:** 594 km con doble anillo DWDM
+- **Fibra Óptica:** 526 km con doble anillo DWDM
 - **Disponibilidad:** 99.95% para sistemas críticos según AT4
 
 ---
@@ -69,14 +69,14 @@
 │                      INTEGRADOS                                 │
 ├─────────────────────────────────────────────────────────────────┤
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐             │
-│  │    CTC      │  │    ATP      │  │   ENCE      │             │
+│  │    CTC      │  │    PTC      │  │   ENCE      │             │
 │  │  VIRTUAL    │  │ EMBARCADO   │  │    (5)      │             │
 │  │             │  │   (15)      │  │             │             │
 │  └─────────────┘  └─────────────┘  └─────────────┘             │
 ├─────────────────────────────────────────────────────────────────┤
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐             │
 │  │   TETRA     │  │   RED TETRA (Misión Crítica)     │  │   FIBRA     │             │
-│  │   (37)      │  │   (37)      │  │   (594km)   │             │
+│  │   (37)      │  │   (37)      │  │   (526km)   │             │
 │  │             │  │             │  │             │             │
 │  └─────────────┘  └─────────────┘  └─────────────┘             │
 ├─────────────────────────────────────────────────────────────────┤
@@ -89,7 +89,7 @@
 ```
 
 #### **Componentes de Sistemas Integrados:**
-- **Sistemas de Control:** CTC Virtual, ATP Embarcado, ENCE, Desvíos
+- **Sistemas de Control:** CTC Virtual, PTC Embarcado, ENCE, Desvíos
 - **Sistemas de Comunicación:** TETRA, RED TETRA (Misión Crítica), Fibra óptica
 - **Sistemas de Seguridad:** ITS, CCTV, Control de accesos
 - **Sistemas de Integración:** Interfaces, protocolos, interoperabilidad
@@ -124,12 +124,12 @@
 | **Ubicación** | CCO La Dorada | Centro principal |
 | **Redundancia** | N+1 | Sistemas redundantes |
 | **Disponibilidad** | 99.95% | Sistema crítico |
-| **Interfaces** | ATP, ENCE, TETRA, RED TETRA (Misión Crítica) | Comunicación integrada |
+| **Interfaces** | PTC, ENCE, TETRA, RED TETRA (Misión Crítica) | Comunicación integrada |
 
-#### **Sistema ATP Embarcado:**
+#### **Sistema PTC Embarcado:**
 | Parámetro | Especificación | Observaciones |
 |:----------|:---------------|:--------------|
-| **Tipo** | PTC VIRTUAL Level 2 | Control automático |
+| **Tipo** | PTC Virtual (FRA 236) | Control automático |
 | **Cantidad** | 15 locomotoras | Flota completa |
 | **Redundancia** | N+1 | Sistemas redundantes |
 | **Disponibilidad** | 99.95% | Sistema crítico |
@@ -153,7 +153,7 @@
 | **Estaciones** | 37 estaciones | Cobertura completa |
 | **Cobertura** | 100% del corredor | + solapamiento 15-20% |
 | **Disponibilidad** | 99.5% | Sistema crítico |
-| **Interfaces** | CTC, ATP, Material Rodante | Comunicación integrada |
+| **Interfaces** | CTC, PTC, Material Rodante | Comunicación integrada |
 
 #### **Sistema RED TETRA (Misión Crítica):**
 | Parámetro | Especificación | Observaciones |
@@ -162,13 +162,13 @@
 | **Estaciones** | 37 estaciones | Colocalizado con TETRA |
 | **Cobertura** | 100% del corredor | Idéntica a TETRA |
 | **Disponibilidad** | 99.5% | Sistema crítico |
-| **Interfaces** | CTC, ATP, Material Rodante | Comunicación integrada |
+| **Interfaces** | CTC, PTC, Material Rodante | Comunicación integrada |
 
 #### **Sistema Fibra Óptica:**
 | Parámetro | Especificación | Observaciones |
 |:----------|:---------------|:--------------|
 | **Tipo** | Backbone de alta capacidad | Red de datos |
-| **Longitud** | 594 km | Corredor + 10% reserva |
+| **Longitud** | 526 km | Corredor + 10% reserva |
 | **Redundancia** | Doble anillo DWDM | Protección automática |
 | **Disponibilidad** | 99.95% | Sistema crítico |
 | **Interfaces** | Todos los sistemas | Backbone integrado |
@@ -243,12 +243,12 @@
 | **Estación base** | RED TETRA (Misión Crítica) digital | 37 unidades | Colocalizada con TETRA |
 | **Antena** | Omni-direccional | 37 unidades | 40m altura |
 | **Radio embarcado** | RED TETRA (Misión Crítica) móvil | 30 unidades | En locomotoras |
-| **Interfaces** | CTC, ATP | 37 unidades | Comunicación integrada |
+| **Interfaces** | CTC, PTC | 37 unidades | Comunicación integrada |
 
-#### **Red Fibra Óptica (594 km):**
+#### **Red Fibra Óptica (526 km):**
 | Componente | Especificación | Cantidad | Observaciones |
 |:-----------|:---------------|:--------:|:--------------|
-| **Cable principal** | 48 fibras G.652D | 594 km | Doble anillo |
+| **Cable principal** | 48 fibras G.652D | 526 km | Doble anillo |
 | **Cajas de empalme** | 80x80 cm | 2,068 unidades | Cada 300m |
 | **Tritubo** | 40mm diámetro | 1,485 rollos | Protección |
 | **Uniones rápidas** | Para instalación | 6,204 unidades | Empalmes |
@@ -311,7 +311,7 @@
 | Sistema | Software | Función | Actualización |
 |:--------|:---------|:---------|:---------------|
 | **CTC Virtual** | WinCC OA | Supervisión y control | Manual |
-| **ATP Embarcado** | Software PTC VIRTUAL Level 2 | Control automático | OTA |
+| **PTC Embarcado** | Software PTC Virtual (FRA 236) | Control automático | OTA |
 | **ENCE** | Software enclavamientos | Control de estaciones | Manual |
 | **Desvíos** | Software control desvíos | Control automatizado | Manual |
 
@@ -423,7 +423,7 @@
 #### **Sistemas Embarcados:**
 | Sistema | Interface Mecánica | Función |
 |:--------|:-------------------|:---------|
-| **ATP Embarcado** | Locomotoras | Control automático |
+| **PTC Embarcado** | Locomotoras | Control automático |
 | **TETRA Embarcado** | Locomotoras | Comunicación |
 | **RED TETRA (Misión Crítica) Embarcado** | Locomotoras | Comunicación |
 | **GPS/GNSS** | Locomotoras | Posicionamiento |
@@ -447,10 +447,10 @@
 | Requisito | Fuente | Especificación | Estado | Evidencia |
 |:----------|:-------|:---------------|:-------|:----------|
 | **CTC Virtual** | AT1 | Centro de control centralizado | ✅ Cumplido | V.4.1_Sistemas_Ferroviarios_Integrados_DETALLADO |
-| **ATP Embarcado** | AT1 | 15 locomotoras con PTC VIRTUAL Level 2 | ✅ Cumplido | SISTEMA_01_Control_y_Senalizacion_Master |
+| **PTC Embarcado** | AT1 | 15 locomotoras con PTC Virtual (FRA 236) | ✅ Cumplido | SISTEMA_01_Control_y_Senalizacion_Master |
 | **ENCE** | AT1 | 5 enclavamientos electrónicos | ✅ Cumplido | SISTEMA_01_Control_y_Senalizacion_Master |
 | **TETRA + RED TETRA (Misión Crítica)** | AT1 | 37 estaciones colocalizadas | ✅ Cumplido | SISTEMA_02_Telecomunicaciones_Master |
-| **Fibra Óptica** | AT1 | 594 km con doble anillo | ✅ Cumplido | SISTEMA_02_Telecomunicaciones_Master |
+| **Fibra Óptica** | AT1 | 526 km con doble anillo | ✅ Cumplido | SISTEMA_02_Telecomunicaciones_Master |
 | **CCTV** | AT1 | 73 cámaras con 1080p | ✅ Cumplido | SISTEMA_03_ITS_y_Seguridad_Master |
 | **Disponibilidad** | AT4 | 99.95% para sistemas críticos | ✅ Cumplido | AT4_IndicadoresDesempeno |
 

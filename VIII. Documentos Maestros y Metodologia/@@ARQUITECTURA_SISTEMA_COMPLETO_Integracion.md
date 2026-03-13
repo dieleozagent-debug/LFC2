@@ -235,7 +235,7 @@ Solución: YAML debe indicar sección en V.X a modificar
 └─────────────────────────────────────────────────────────────────┘
 
 Especialista (Chat/Reunión):
-  "Cambiar ATP de 15 a 8 unidades"
+  "Cambiar PTC de 15 a 8 unidades"
   "Justificación: Alineación con 5 locomotoras AT1"
   "Criterio: 5 producción + 2 diseño/pruebas + 1 contingencia"
         ↓
@@ -303,7 +303,7 @@ Cursor ejecuta cambios en 6 NIVELES:
   
   2.4. Actualiza riesgos_wbs.json ❌ NO EXISTE
        └─ Vincular riesgos con ítems específicos
-       └─ Item 1.2.100: Riesgo R-ATP-001 (Disponibilidad ATP)
+       └─ Item 1.2.100: Riesgo R-PTC-001 (Disponibilidad PTC)
   
   2.5. WBS_Analisis_Riesgos.html se actualiza ❌
        └─ Debe cargar desde riesgos_wbs.json
@@ -314,8 +314,8 @@ Cursor ejecuta cambios en 6 NIVELES:
   
   3.1. Actualiza V.2_CTC_Detalle_vX.md ❌ MANUAL
        └─ YAML debe especificar:
-           seccion: "V.2 §3.2 Arquitectura ATP"
-           cambio: "15 unidades ATP → 8 unidades ATP"
+           seccion: "V.2 §3.2 Arquitectura PTC"
+           cambio: "15 unidades PTC → 8 unidades PTC"
            justificacion: "Alineación AT1"
   
   3.2. Versiona documento ❌ MANUAL
@@ -328,7 +328,7 @@ Cursor ejecuta cambios en 6 NIVELES:
   
   4.1. CRITERIOS_TECNICOS_MAESTRO_v1.0.md ⚠️ MANUAL
        └─ Agrega fila en tabla:
-           | ATP Embarcado | 5+2+1 = 8 UND | AT1 (5 locomotoras) |
+           | PTC Embarcado | 5+2+1 = 8 UND | AT1 (5 locomotoras) |
   
   4.2. MATRIZ_TRAZABILIDAD_TECNICA_v1.0.md ⚠️ MANUAL
        └─ Agrega enlace:
@@ -336,7 +336,7 @@ Cursor ejecuta cambios en 6 NIVELES:
   
   4.3. MATRIZ_DEPENDENCIAS_DOCUMENTALES_v1.0.md ⚠️ MANUAL
        └─ Agrega fila:
-           | ATP | DT-TETRA-001 | V.2, WBS, AT1 | Cantidad |
+           | PTC | DT-TETRA-001 | V.2, WBS, AT1 | Cantidad |
   
   4.4. MATRIZ_RIESGOS_PMO_AMPLIADA_v1.0.md ⚠️ SI APLICA
        └─ Si DT identifica riesgo, agregarlo
@@ -346,7 +346,7 @@ Cursor ejecuta cambios en 6 NIVELES:
   └─────────────────────────────────────────────────────────────┘
   
   5.1. SISTEMA_01_Control_Master.md ⚠️ SI YA CONSOLIDADO
-       └─ Actualiza sección ATP embarcado
+       └─ Actualiza sección PTC embarcado
        └─ Refleja cambio 15 → 8 UND
 
   ┌─────────────────────────────────────────────────────────────┐
@@ -397,7 +397,7 @@ Documentos → DT (hacia atrás):
   "items": [
     {
       "codigo": "1.2.100",
-      "actividad": "Adquisición ATP embarcado",
+      "actividad": "Adquisición PTC embarcado",
       "cantidad": 8,
       "duracion_unitaria": 15,  // días por unidad
       "duracion_total": 120,    // días
@@ -434,9 +434,9 @@ fetch('cronograma_datos.json')
 {
   "riesgos": [
     {
-      "id": "R-ATP-001",
+      "id": "R-PTC-001",
       "items_afectados": ["1.2.100", "1.2.101", "6.1.100"],
-      "descripcion": "Disponibilidad de ATP",
+      "descripcion": "Disponibilidad de PTC",
       "probabilidad": "Media",
       "impacto": "Alto",
       "exposicion": 15,
@@ -471,16 +471,16 @@ function mostrarRiesgosPorItem(codigo) {
 archivos_actualizar:
   - file: "V. Ingenieria de detalle/V.2_CTC_Detalle_v4.0.md"
     accion: "actualizar_seccion_y_versionar"
-    seccion: "§3.2 Arquitectura ATP Embarcado"
+    seccion: "§3.2 Arquitectura PTC Embarcado"
     cambios:
-      - buscar: "15 unidades ATP embarcadas"
-        reemplazar: "8 unidades ATP embarcadas"
+      - buscar: "15 unidades PTC embarcadas"
+        reemplazar: "8 unidades PTC embarcadas"
       - buscar: "uno por cada locomotora (15 total)"
         reemplazar: "5 producción + 2 diseño/pruebas + 1 contingencia (8 total)"
     versionamiento:
       version_actual: "v4.0"
       version_nueva: "v4.1"
-      razon: "DT-TETRA-001 - Ajuste cantidad ATP"
+      razon: "DT-TETRA-001 - Ajuste cantidad PTC"
       agregar_nota: "Origen: DT-TETRA-001 | Alineación AT1"
 ```
 
@@ -570,7 +570,7 @@ setInterval(() => {
    - Crear `riesgos_wbs.json`
    - Vincular riesgos con ítems WBS
    - Modificar `WBS_Analisis_Riesgos.html`
-   - Probar con R-ATP-001
+   - Probar con R-PTC-001
 
 ---
 

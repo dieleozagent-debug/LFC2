@@ -80,7 +80,7 @@ Redundancia: Hot-standby en CCO
 Puestos de Control CTC
 UbicaciónPKUFVTipoFunciónMéxico201+470UFV 23LocalControl Lote 2.1 SurPuerto Triunfo250+133UFV 30LocalControl Zona Central-SurLa Argelia282+154UFV 31LocalControl Zona MediaPuerto Olaya338+250UFV 03LocalControl Pre-BermejoB/Bermejo (CCO)441+932UFV 40/41RegionalControl Maestro del CorredorPto. Sogamoso462+520UFV 44LocalControl Post-BermejoSan Rafael516+490UFV 46LocalControl Zona Media-NorteSanta Lucía569+800UFV 49LocalControl Zona NorteGamarra604+265UFV 52LocalControl Zona Norte-CentroLa Gloria635+991UFV 54LocalControl Zona Pre-ChiriguanáChiriguaná722+250UFV 22LocalControl Lote 2.2 Norte
 
-5.2 PTC - PTC VIRTUAL Level 2 (Sistema de Control de Trenes)
+5.2 PTC - PTC Virtual (FRA 236) (Sistema de Control de Trenes)
 Componentes de Vía (Trackside):
 Radio Block Centers (RBC)
 IDUbicaciónPKUFVÁrea de ControlRedundanciaRBC-1México201+470UFV 23PK201 - PK340RBC-2RBC-2Puerto Olaya338+250UFV 03PK280 - PK441RBC-1 / RBC-3RBC-3B/Bermejo (CCO)441+932UFV 40/41PK360 - PK580RBC-2 / RBC-4RBC-4Santa Lucía569+800UFV 49PK500 - PK680RBC-3 / RBC-5RBC-5Chiriguaná722+250UFV 22PK640 - PK722RBC-4

@@ -50,9 +50,9 @@
 - **Cl13.1 (Material Rodante):** Equipos embarcados PTC TETRA con interoperabilidad FENOCO
 
 #### **Criterios Técnicos Maestros Consolidados:**
-- **Locomotoras:** 15 unidades con ATP embarcado
+- **Locomotoras:** 15 unidades con PTC embarcado
 - **Sistema EOT:** 15 dispositivos End of Train
-- **Sistemas Embarcados:** PTC PTC VIRTUAL Level 2, TETRA + RED TETRA (Misión Crítica), GPS/GNSS
+- **Sistemas Embarcados:** PTC PTC Virtual (FRA 236), TETRA + RED TETRA (Misión Crítica), GPS/GNSS
 - **Talleres:** Principal La Dorada + secundario Chiriguaná + talleres de línea
 - **Disponibilidad:** 99.95% para sistemas críticos según AT4
 
@@ -63,13 +63,13 @@
 ### **2.1 Arquitectura General del Sistema**
 
 #### **Material Rodante Principal:**
-- **Locomotoras:** 15 unidades con ATP embarcado PTC VIRTUAL Level 2
+- **Locomotoras:** 15 unidades con PTC embarcado PTC Virtual (FRA 236)
 - **Vagones de Carga:** 40 plataformas operativas + 11 no operativas
 - **Equipos Especializados:** 8 carromotores, 2 bateadoras, 3 retroexcavadoras
 - **Sistemas de Seguridad:** EOT (End of Train) en cada tren
 
 #### **Sistemas Embarcados Integrados:**
-- **PTC PTC VIRTUAL Level 2:** Control automático de trenes con redundancia
+- **PTC PTC Virtual (FRA 236):** Control automático de trenes con redundancia
 - **Comunicaciones:** Radio TETRA + RED TETRA (Misión Crítica) dual para redundancia
 - **Posicionamiento:** GPS/GNSS para seguimiento en tiempo real
 - **Seguridad:** Event Recorder (Caja Negra) para registro de eventos
@@ -104,7 +104,7 @@
 - **Potencia:** 3,000 kW con tracción distribuida
 - **Velocidad:** 120 km/h máxima, 80 km/h comercial
 - **Peso:** 120 toneladas por locomotora
-- **Sistemas:** ATP embarcado, TETRA + RED TETRA (Misión Crítica), GPS, Event Recorder
+- **Sistemas:** PTC embarcado, TETRA + RED TETRA (Misión Crítica), GPS, Event Recorder
 
 #### **Vagones de Carga:**
 - **Plataformas Operativas:** 40 unidades (50 ton carga, 20 ton tara, 14m longitud)
@@ -219,7 +219,7 @@
 
 ### **5.2 Especificaciones de Software**
 
-#### **PTC PTC VIRTUAL Level 2:**
+#### **PTC PTC Virtual (FRA 236):**
 - **Estándar:** EN 50128 (SIL 4)
 - **Funcionalidades:** Control de velocidad, autorización de movimiento, vigilancia de tren
 - **Interfaces:** CTC, Virtual Balise (GNSS), RED TETRA (Misión Crítica)
@@ -241,7 +241,7 @@
 
 #### **Operación de Locomotoras:**
 1. **Inspección Pre-operacional:** Verificación de sistemas embarcados y comunicaciones
-2. **Puesta en Marcha:** Secuencia de arranque y verificación de ATP embarcado
+2. **Puesta en Marcha:** Secuencia de arranque y verificación de PTC embarcado
 3. **Operación en Línea:** Monitoreo continuo de sistemas y comunicación con CTC
 4. **Llegada a Destino:** Verificación de sistemas y preparación para siguiente servicio
 5. **Inspección Post-operacional:** Verificación de estado y registro de eventos
@@ -293,7 +293,7 @@
 - **Supervisión:** Monitoreo continuo del estado del tren
 - **Emergencias:** Procedimientos de emergencia y parada automática
 - **Diagnóstico:** Transmisión de datos de Event Recorder
-- **Protocolo:** PTC VIRTUAL Level 2 estándar FRA/AREMA
+- **Protocolo:** PTC Virtual (FRA 236) estándar FRA/AREMA
 
 #### **Sistemas Embarcados ↔ CCO:**
 - **Comunicaciones:** Radio TETRA + RED TETRA (Misión Crítica) para comunicación voz/datos
@@ -351,7 +351,7 @@
 
 | Sistema Origen | Sistema Destino | Tipo Interfaz | Protocolo | Estado |
 |:---------------|:----------------|:--------------|:----------|:-------|
-| **PTC Embarcado** | **CTC** | Control/Comunicación | PTC VIRTUAL Level 2 | ✅ Implementado |
+| **PTC Embarcado** | **CTC** | Control/Comunicación | PTC Virtual (FRA 236) | ✅ Implementado |
 | **Material Rodante** | **TETRA** | Comunicación | TETRA estándar | ✅ Implementado |
 | **Material Rodante** | **RED TETRA (Misión Crítica)** | Comunicación | RED TETRA (Misión Crítica) FRA/AREMA | ✅ Implementado |
 | **Sistemas Embarcados** | **CCO** | Monitoreo/Control | IP + Protocolos ferroviarios | ✅ Implementado |

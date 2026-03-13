@@ -14,7 +14,7 @@
 ### 2. CANTIDADES MAESTRAS
 | Componente | Cantidad | Criterio | Referencia |
 |------------|----------|----------|------------|
-| **Fibra Óptica** | 594 km | Corredor + 10% reserva | Cálculo técnico |
+| **Fibra Óptica** | 526 km | Corredor + 10% reserva | Cálculo técnico |
 | **Cajas 80x80** | 1,980 | Cada 300m (costado derecho) | Especificación técnica |
 | **Puentes** | 14 puentes | 4 cajas por puente | Análisis de infraestructura |
 ```
@@ -26,7 +26,7 @@
 ### **A. INGENIERÍA CONCEPTUAL**
 | Documento | Sección Afectada | Cambio Requerido |
 |-----------|------------------|------------------|
-| `28_Sistema_FibraOptica_Integrado.md` | **Cantidades base** | 450 km → 594 km |
+| `28_Sistema_FibraOptica_Integrado.md` | **Cantidades base** | 450 km → 526 km |
 | `27_1_Estimaciond_e_cantidedes_Tetra.md` | **Backbone fibra** | Actualizar cálculos |
 | `25.1_WBS_COMPLETA_ESPECIALIDADES.md` | **WBS 2.1 Fibra** | Recalcular partidas |
 
@@ -39,14 +39,14 @@
 ### **C. INGENIERÍA DE DETALLE**
 | Documento | Sección Afectada | Cambio Requerido |
 |-----------|------------------|------------------|
-| `V.3_Sistemas_Comunicacion_Detalle.md` | **Cap. 3.1 Fibra** | 594 km + especificaciones |
-| `V.4_Sistemas/V.4.1_Sistemas_Ferroviarios.md` | **Cantidades principales** | 178 km → 594 km |
+| `V.3_Sistemas_Comunicacion_Detalle.md` | **Cap. 3.1 Fibra** | 526 km + especificaciones |
+| `V.4_Sistemas/V.4.1_Sistemas_Ferroviarios.md` | **Cantidades principales** | 178 km → 526 km |
 | `6_Fibra_ptica_Contrato_8_6.md` | **Especificaciones** | Actualizar arquitectura |
 
 ### **D. WBS PRESUPUESTAL**
 | Archivo | Capítulo | Cambios Requeridos |
 |---------|----------|-------------------|
-| `WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná.html` | **Cap. 1 Fibra Óptica** | 450 km → 594 km |
+| `WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná.html` | **Cap. 1 Fibra Óptica** | 450 km → 526 km |
 
 ---
 
@@ -57,13 +57,13 @@
 Cálculo Base:
 - Corredor total: 540 km
 - Reserva técnica: 10% = 54 km
-- Total fibra: 540 + 54 = 594 km
+- Total fibra: 540 + 54 = 526 km
 ```
 
 ### **CAJAS 80x80: 1,980 UNIDADES**
 ```
 Cálculo Cajas:
-- Fibra total: 594 km = 594,000 m
+- Fibra total: 526 km = 594,000 m
 - Separación: 300 m
 - Cajas lineales: 594,000 ÷ 300 = 1,980 unidades
 - Ubicación: Costado derecho del corredor
@@ -99,7 +99,7 @@ Total Cajas:
 ### **CÁLCULO DE FUSIONES**
 ```
 Fusiones Estimadas:
-- Empalmes principales: 594 km ÷ 2 km = 297 empalmes
+- Empalmes principales: 526 km ÷ 2 km = 297 empalmes
 - Empalmes en cajas: 2,036 cajas × 2 = 4,072 empalmes
 - Empalmes TETRA: 200 equipos × 4 = 800 empalmes
 - Total fusiones: ~5,169 fusiones
@@ -125,7 +125,7 @@ Fusiones Estimadas:
 ```
 Diferencia en fibra:
 - Antes: 450 km × $2,500,000 = $1,125,000,000
-- Después: 594 km × $2,500,000 = $1,485,000,000
+- Después: 526 km × $2,500,000 = $1,485,000,000
 - Incremento: $360,000,000 (+32%)
 
 Cajas adicionales:
@@ -139,7 +139,7 @@ Cajas adicionales:
 
 ### **PASO 1: ACTUALIZAR CRITERIOS MAESTROS**
 1. Modificar `CRITERIOS_TECNICOS_MAESTRO_v1.0.md`
-2. Cambiar cantidad de 450 km → 594 km
+2. Cambiar cantidad de 450 km → 526 km
 3. Actualizar justificación técnica
 
 ### **PASO 2: PROPAGAR A DOCUMENTOS TÉCNICOS**
@@ -154,7 +154,7 @@ Cajas adicionales:
 
 ### **PASO 4: VERIFICAR COHERENCIA**
 1. Ejecutar validación cruzada
-2. Verificar que todos los documentos reflejen 594 km
+2. Verificar que todos los documentos reflejen 526 km
 3. Confirmar cálculos de cajas y equipos
 
 ---
@@ -162,10 +162,10 @@ Cajas adicionales:
 ## 🎯 **RESULTADO FINAL**
 
 ### **DOCUMENTOS COHERENTES**
-- ✅ **CRITERIOS_TECNICOS_MAESTRO_v1.0.md** → 594 km
-- ✅ **WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná.html** → 594 km
-- ✅ **28_Sistema_FibraOptica_Integrado.md** → 594 km
-- ✅ **V.3_Sistemas_Comunicacion_Detalle.md** → 594 km
+- ✅ **CRITERIOS_TECNICOS_MAESTRO_v1.0.md** → 526 km
+- ✅ **WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná.html** → 526 km
+- ✅ **28_Sistema_FibraOptica_Integrado.md** → 526 km
+- ✅ **V.3_Sistemas_Comunicacion_Detalle.md** → 526 km
 
 ### **PRESUPUESTO ACTUALIZADO**
 - **Costo directo fibra:** $1,485,000,000

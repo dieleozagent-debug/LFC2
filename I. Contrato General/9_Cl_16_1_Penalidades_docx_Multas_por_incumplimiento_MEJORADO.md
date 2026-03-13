@@ -231,8 +231,8 @@ Proxima actualizacion: 27/02/2025
 
 #### **✅ MEJORAS IMPLEMENTADAS:**
 
-1. **🚂 INTEGRACIÓN PTC PTC VIRTUAL Level 2 EN PENALIDADES:**
-   - **Penalidades por PTC:** Multas por incumplimiento de especificaciones PTC PTC VIRTUAL Level 2
+1. **🚂 INTEGRACIÓN PTC PTC Virtual (FRA 236) EN PENALIDADES:**
+   - **Penalidades por PTC:** Multas por incumplimiento de especificaciones PTC PTC Virtual (FRA 236)
    - **Retrasos en PTC:** Penalidades por demoras en implementación de equipos PTC
    - **Disponibilidad PTC:** Multas por incumplimiento de disponibilidad en sistemas PTC
    - **Mantenimiento PTC:** Penalidades por fallas en mantenimiento de equipos PTC
@@ -263,7 +263,7 @@ Proxima actualizacion: 27/02/2025
 
 #### **⚠️ VACÍOS IDENTIFICADOS Y CORREGIDOS:**
 
-1. **Falta de especificaciones PTC en penalidades:** Agregadas multas por incumplimiento PTC PTC VIRTUAL Level 2
+1. **Falta de especificaciones PTC en penalidades:** Agregadas multas por incumplimiento PTC PTC Virtual (FRA 236)
 2. **Ausencia de interoperabilidad FENOCO:** Incluidas penalidades por problemas de interoperabilidad
 3. **Criterios AT4 no integrados:** Incorporadas multas por incumplimiento de disponibilidad
 4. **Ciberseguridad no especificada:** Agregadas penalidades por incumplimiento de seguridad
@@ -283,7 +283,7 @@ Proxima actualizacion: 27/02/2025
 
 | Sistema | Cláusula | AT | Especificación | Estado |
 |:---|:---|:---|:---|:---:|
-| **PTC Penalidades** | 16.1 | AT3 | PTC VIRTUAL Level 2 | ✅ Implementado |
+| **PTC Penalidades** | 16.1 | AT3 | PTC Virtual (FRA 236) | ✅ Implementado |
 | **FENOCO Penalidades** | 16.1 | AT1 | Protocolos FRA/AREMA | ✅ Implementado |
 | **AT4 Penalidades** | 16.1 | AT4 | Disponibilidad 99.95% | ✅ Implementado |
 | **Ciberseguridad Penalidades** | 16.1 | AT3 | NIST/IEC 62443 | ✅ Implementado |
@@ -292,7 +292,7 @@ Proxima actualizacion: 27/02/2025
 #### **🎯 OPTIMIZACIONES EPC ESPECÍFICAS:**
 
 1. **Estrategia de Avance con Bloqueos PTC:**
-   - **Fase 1:** Gestión de penalidades con PTC VIRTUAL Level 2 (0-12 meses)
+   - **Fase 1:** Gestión de penalidades con PTC Virtual (FRA 236) (0-12 meses)
    - **Fase 2:** Monitoreo de cumplimiento (12-24 meses)
    - **Fase 3:** Integración con AT3 cuando esté disponible (24-36 meses)
    - **Fase 4:** Optimización de cumplimiento (36+ meses)
@@ -306,7 +306,7 @@ Proxima actualizacion: 27/02/2025
 
 | Métrica | Objetivo | Frecuencia | Responsable | Estado |
 |:---|:---:|:---:|:---|:---:|
-| **PTC PTC VIRTUAL Level 2** | 0 penalidades | Diario | Ing. Sistemas | 🟢 En progreso |
+| **PTC PTC Virtual (FRA 236)** | 0 penalidades | Diario | Ing. Sistemas | 🟢 En progreso |
 | **Interoperabilidad FENOCO** | 0 penalidades | Semanal | Comunicaciones | 🟡 Pendiente |
 | **Disponibilidad AT4** | 0 penalidades | Diario | Ing. Sistemas | 🟢 En progreso |
 | **Ciberseguridad** | 0 penalidades | Diario | Ciberseguridad | 🟡 Pendiente |
@@ -315,12 +315,12 @@ Proxima actualizacion: 27/02/2025
 #### **🚀 PRÓXIMOS PASOS:**
 
 1. **Inmediato (0-3 meses):**
-   - Establecer monitoreo de penalidades PTC PTC VIRTUAL Level 2
+   - Establecer monitoreo de penalidades PTC PTC Virtual (FRA 236)
    - Implementar seguimiento de penalidades FENOCO
    - Activar monitoreo de penalidades AT4
 
 2. **Mediano plazo (3-24 meses):**
-   - Mantener cumplimiento PTC con PTC VIRTUAL Level 2
+   - Mantener cumplimiento PTC con PTC Virtual (FRA 236)
    - Coordinar cumplimiento con FENOCO
    - Monitorear cumplimiento de AT4
 
@@ -332,7 +332,7 @@ Proxima actualizacion: 27/02/2025
 #### **✅ CONCLUSIONES:**
 
 El documento ha sido actualizado exitosamente aplicando la metodología Punto 42, integrando:
-- **PTC PTC VIRTUAL Level 2** en régimen de penalidades
+- **PTC PTC Virtual (FRA 236)** en régimen de penalidades
 - **Interoperabilidad FENOCO** en penalidades por incumplimiento
 - **Criterios AT4** con penalidades por disponibilidad
 - **Ciberseguridad** con penalidades por incumplimiento de seguridad

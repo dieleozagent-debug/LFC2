@@ -27,7 +27,7 @@
 
 ### 2.1 Sistemas de Control
 - **CTC Virtual:** Pruebas de funcionalidad
-- **ATP Embarcado:** Pruebas de control
+- **PTC Embarcado:** Pruebas de control
 - **ENCE:** Pruebas de enclavamientos
 - **Desvíos:** Pruebas de automatización
 
@@ -48,10 +48,10 @@
 ## 3. PRUEBAS DE SISTEMAS
 
 ### 3.1 Sistemas Integrados
-- **ATP + CTC:** Pruebas de integración
+- **PTC + CTC:** Pruebas de integración
 - **TETRA + RED TETRA (Misión Crítica):** Pruebas de colocalización
 - **ENCE + Desvíos:** Pruebas de coordinación
-- **EOT + ATP:** Pruebas de comunicación
+- **EOT + PTC:** Pruebas de comunicación
 
 ### 3.2 Sistemas de Seguridad
 - **Funciones críticas:** Pruebas SIL
@@ -135,7 +135,7 @@
 
 ### 8.2 Sistemas Comisionados
 - **CTC Virtual:** Sistema de control
-- **ATP Embarcado:** 15 locomotoras
+- **PTC Embarcado:** 15 locomotoras
 - **TETRA + RED TETRA (Misión Crítica):** 37 estaciones
 - **ENCE:** 5 enclavamientos
 - **Desvíos:** 120 desvíos

@@ -221,7 +221,7 @@ El material rodante opera 24/7 transportando carga a lo largo del corredor, con 
 ### Dependencias Críticas
 - **Infraestructura civil:** Talleres y vías de acceso
 - **Alimentación eléctrica:** Sistemas embarcados
-- **Sistemas de control:** ATP y comunicaciones
+- **Sistemas de control:** PTC y comunicaciones
 - **Personal técnico:** Mantenimiento especializado
 - **Repuestos:** Suministro de partes especializadas
 

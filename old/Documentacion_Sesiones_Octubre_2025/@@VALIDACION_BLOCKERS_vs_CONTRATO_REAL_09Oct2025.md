@@ -21,14 +21,14 @@
 
 **Lo que el contrato NO dice:**
 - ❌ **PTC (Incremental Train Control System)** - NO mencionado
-- ❌ **PTC VIRTUAL Level 2 (European Train Control System)** - NO mencionado
+- ❌ **PTC Virtual (FRA 236) (European Train Control System)** - NO mencionado
 - ❌ Arquitectura técnica específica
 - ❌ Protocolos de comunicación detallados
 
 **CONCLUSIÓN:** ✅ **BLOCKER REAL**
 - Contrato menciona normas mixtas (AAR americano + Adif español)
 - **NO define qué sistema implementar**
-- PTC ≠ PTC VIRTUAL Level 2 (son sistemas diferentes)
+- PTC ≠ PTC Virtual (FRA 236) (son sistemas diferentes)
 - Requiere clarificación formal ANI
 
 **Acción:** Oficiar ANI solicitando definición: ¿PTC americano, PTC VIRTUAL europeo, o CTC español Adif?
@@ -176,7 +176,7 @@
 > sistema específico. Solicitamos clarificación formal:
 >
 > ¿Implementar PTC (americano AAR)?
-> ¿Implementar PTC VIRTUAL Level 2 (europeo FRA/AREMA)?
+> ¿Implementar PTC Virtual (FRA 236) (europeo FRA/AREMA)?
 > ¿Implementar CTC Adif (español)?
 > ¿Implementar solución híbrida?"
 

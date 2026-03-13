@@ -18,7 +18,7 @@ Como Administrador Contractual EPC, confirmo que se han resuelto exitosamente **
 
 ## 📊 ANÁLISIS DE DEPENDENCIAS RESUELTAS
 
-### **🔴 DEPENDENCIA 1: AT3 (PTC PTC VIRTUAL Level 2)**
+### **🔴 DEPENDENCIA 1: AT3 (PTC PTC Virtual (FRA 236))**
 - **Problema:** Especificaciones técnicas pendientes
 - **Solución implementada:** ✅ **ESPECIFICACIONES TÉCNICAS PROVISIONALES COMPLETADAS**
 - **Documento creado:** `VII.2.1_Especificaciones_Tecnicas_PTC_PTC VIRTUAL_Level2_PROVISIONALES.md`
@@ -43,7 +43,7 @@ Como Administrador Contractual EPC, confirmo que se han resuelto exitosamente **
 
 ## 🚀 ESTRATEGIAS DE AVANCE IMPLEMENTADAS
 
-### **1. ESTRATEGIA AT3 (PTC PTC VIRTUAL Level 2)**
+### **1. ESTRATEGIA AT3 (PTC PTC Virtual (FRA 236))**
 
 #### **Especificaciones Técnicas Provisionales:**
 - **Arquitectura del sistema:** RBC + Virtual Balise (GNSS) + Equipos embarcados
@@ -65,7 +65,7 @@ Como Administrador Contractual EPC, confirmo que se han resuelto exitosamente **
 - **Capacidad operativa:** 64 trenes/día (32 por sentido)
 - **Asignación de surcos:** Optimizada por prioridades
 - **Escenarios:** Base, pico, mantenimiento con análisis completo
-- **Integración PTC:** +30% de capacidad con PTC VIRTUAL Level 2
+- **Integración PTC:** +30% de capacidad con PTC Virtual (FRA 236)
 
 #### **Beneficios:**
 - ✅ **Capacidad definida** para planificación operacional
@@ -77,7 +77,7 @@ Como Administrador Contractual EPC, confirmo que se han resuelto exitosamente **
 
 #### **Protocolos FRA/AREMA Implementados:**
 - **RED TETRA (Misión Crítica):** Conforme FRA/AREMA 920-2 con 100% cobertura
-- **PTC VIRTUAL Level 2:** Conforme FRA/AREMA 438 con certificación
+- **PTC Virtual (FRA 236):** Conforme FRA/AREMA 438 con certificación
 - **Interfaces:** FRA/AREMA 950 estándar para CTC-CTC
 - **Interoperabilidad:** FRA/AREMA 930 para gestión integrada
 - **Certificaciones:** Plan completo de certificación FRA/AREMA y homologación ANI

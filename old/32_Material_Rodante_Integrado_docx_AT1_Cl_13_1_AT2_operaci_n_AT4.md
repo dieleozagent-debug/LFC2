@@ -47,7 +47,7 @@ El diseño detallado de los sistemas embarcados no puede finalizarse hasta que e
 | `20. AT10_CapacidadSurcos...md` | Necesita las curvas de rendimiento del material rodante para la simulación. |
 
 ### 2.3 Interfaces Críticas
-- **Material Rodante ↔ PTC:** Interfaz para el control positivo de trenes usando PTC VIRTUAL Level 2 hasta AT3. **(Riesgo principal por bloqueo de AT3)**.
+- **Material Rodante ↔ PTC:** Interfaz para el control positivo de trenes usando PTC Virtual (FRA 236) hasta AT3. **(Riesgo principal por bloqueo de AT3)**.
 - **Material Rodante ↔ TETRA:** Interfaz para comunicaciones de voz y datos de misión crítica.
 - **Material Rodante ↔ Mantenimiento (AT2):** El diseño debe facilitar el mantenimiento en los talleres definidos en AT1.
 - **Material Rodante ↔ FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos FRA/AREMA.
@@ -64,7 +64,7 @@ Para mitigar el riesgo del bloqueo de las especificaciones PTC (dependientes de 
     - **Event Recorder (Caja Negra):** Para registro de datos de operación.
     - **Cableado y Antenas:** Se instalará todo el cableado y las antenas necesarias, incluyendo las previstas para el PTC, dejando los conectores listos ("stub-out").
 - **Módulo PTC (Instalación Futura):**
-    - **Unidad de Control a Bordo (OBC):** Se conectará al cableado preinstalado una vez que las especificaciones estén disponibles, usando PTC VIRTUAL Level 2 como estándar hasta AT3.
+    - **Unidad de Control a Bordo (OBC):** Se conectará al cableado preinstalado una vez que las especificaciones estén disponibles, usando PTC Virtual (FRA 236) como estándar hasta AT3.
     - **Interfaz de Maquinista (DMI):** Se instalará en la cabina.
     - **Disponibilidad 99.95% según AT4:** Redundancia crítica para sistemas embarcados.
 
@@ -87,7 +87,7 @@ La siguiente matriz integra los requisitos de los diferentes apéndices en funci
 | Requisito Contractual | Fuente | Funcionalidad Asociada | Estado AT3/AT4 |
 |---|---|---|:---:|
 | **Locomotoras U18 o Equivalentes** | AT1, Cap. 5.1 | Puesta a Punto de locomotoras existentes, incluyendo motor, chasis y sistemas de frenado AAR. | ✅ Definido |
-| **Equipamiento Técnico Embarcado** | Cl. 13.1 | Instalación del "Módulo Base" (TETRA, GPS, Event Recorder) y preparación para el "Módulo PTC".<br>- **PTC PTC VIRTUAL Level 2 hasta AT3**<br>- **Disponibilidad 99.95% según AT4** | ⚠️ Condicionado |
+| **Equipamiento Técnico Embarcado** | Cl. 13.1 | Instalación del "Módulo Base" (TETRA, GPS, Event Recorder) y preparación para el "Módulo PTC".<br>- **PTC PTC Virtual (FRA 236) hasta AT3**<br>- **Disponibilidad 99.95% según AT4** | ⚠️ Condicionado |
 | **Interoperabilidad con FENOCO** | Cl. 13.2 | El diseño modular del PTC debe garantizar la compatibilidad futura con la red de FENOCO.<br>- **Protocolos FRA/AREMA para interoperabilidad** | 🔴 Bloqueado |
 | **Seguridad en Operación** | AT2, Cap. 3.1.2 | Integración de sistemas de seguridad, como el "hombre muerto" y alarmas de cabina. | ✅ Definido |
 | **Disponibilidad del Material Rodante** | AT4, Cap. 3-6 | El plan de mantenimiento (AT2) debe estar diseñado para cumplir con los KPIs de disponibilidad de AT4. | 🔴 Bloqueado |
@@ -128,13 +128,13 @@ La aprobación de este documento conceptual permite:
 
 ### ✅ **MEJORAS IMPLEMENTADAS:**
 
-1. **🚂 PTC PTC VIRTUAL Level 2:** Estrategia de avance especificada hasta AT3 para sistemas embarcados
+1. **🚂 PTC PTC Virtual (FRA 236):** Estrategia de avance especificada hasta AT3 para sistemas embarcados
 2. **🔗 Interoperabilidad FENOCO:** Protocolos FRA/AREMA especificados para compatibilidad con FENOCO
 3. **📊 Criterios de Disponibilidad AT4:** 99.95% especificado para sistemas embarcados
 4. **🎯 Matriz de Requisitos:** Actualizada con criterios PTC, FENOCO y AT4
 
 ### 🎯 **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
-- ✅ **PTC:** PTC VIRTUAL Level 2 especificado como estándar hasta AT3
+- ✅ **PTC:** PTC Virtual (FRA 236) especificado como estándar hasta AT3
 - ✅ **FENOCO:** Protocolos FRA/AREMA para interoperabilidad con FENOCO
 - ✅ **AT4:** Criterios de disponibilidad 99.95% para sistemas embarcados
 - ✅ **Interfaces:** Especificación de interfaces PTC y FENOCO

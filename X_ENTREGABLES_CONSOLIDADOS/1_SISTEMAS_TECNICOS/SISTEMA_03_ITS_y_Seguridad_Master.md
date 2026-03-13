@@ -123,7 +123,7 @@
 ### **3.2 Arquitectura de Redes y Comunicaciones**
 
 #### **Infraestructura de Comunicaciones:**
-- **Backbone Principal:** Fibra óptica 594 km con redundancia
+- **Backbone Principal:** Fibra óptica 526 km con redundancia
 - **Red de Datos:** Ethernet industrial para sistemas ITS
 - **Comunicaciones Inalámbricas:** TETRA + RED TETRA (Misión Crítica) para sistemas móviles
 - **Redes de Seguridad:** Redes dedicadas para sistemas críticos

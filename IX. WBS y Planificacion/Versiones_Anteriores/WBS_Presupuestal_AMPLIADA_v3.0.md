@@ -22,8 +22,8 @@
 
 | Item | Descripción | Cantidad | VU (COP) | Total (COP) | **Criterio Técnico** | **Riesgos** | **Origen DT** | **Modificable** |
 |:-----|:------------|:---------|:---------|:------------|:--------------------|:------------|:--------------|:----------------|
-| **2.3.100** | Cable fibra óptica 48 fibras | 594 km | $9,811,013 | $5,827,741,722 | Longitud corredor + 10% reserva | R-FIBRA-001 | N/A | â No (contractual) |
-| **2.3.101** | Mano de obra instalación | 594 km | $90,188,987 | $53,572,258,278 | 1:1 con longitud cable | R-CONST-015 | N/A | â No (linked a 2.3.100) |
+| **2.3.100** | Cable fibra óptica 48 fibras | 526 km | $9,811,013 | $5,827,741,722 | Longitud corredor + 10% reserva | R-FIBRA-001 | N/A | â No (contractual) |
+| **2.3.101** | Mano de obra instalación | 526 km | $90,188,987 | $53,572,258,278 | 1:1 con longitud cable | R-CONST-015 | N/A | â No (linked a 2.3.100) |
 | **2.3.102** | Tritubo 40mm | 1,485 rollos | $15,845 | $23,529,825 | 2.5 rollos/km (400m/rollo) | R-FIBRA-002 | N/A | â ï¸ Condicional |
 | **2.3.103** | **Cajas empalme 80x80** | **2,068 unidades** | **$1,350,000** | **$2,791,800,000** | **UIT-T: 300m estándar + 88 nodos críticos** | **R-FIBRA-003, R-FIBRA-006** | **N/A** | **â Sí** â­ |
 | **2.3.104** | Uniones rápidas | 6,204 unidades | $35,000 | $217,140,000 | 3 uniones/caja Ã 2,068 cajas | R-FIBRA-004 | Linked a 2.3.103 | â Sí (si cambian cajas) |

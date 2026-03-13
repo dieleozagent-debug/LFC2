@@ -132,7 +132,7 @@ riesgos.forEach((r, index) => {
 │ R-PTC-001: Indefinición sistema PTC...          [CRÍTICA] │
 ├─────────────────────────────────────────────────────────────┤
 │                                                               │
-│ Descripción: Indefinición sistema PTC (ATP/PTC VIRTUAL L2/CBTC)  │
+│ Descripción: Indefinición sistema PTC (PTC/PTC VIRTUAL L2/CBTC)  │
 │ - Bloqueador 58% proyecto                                    │
 │                                                               │
 │ ┌───────────────────────────────────────────────────────┐   │

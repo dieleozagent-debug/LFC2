@@ -34,7 +34,7 @@
 - H4: **Edificio CCO** (M18) - **ENTREGA EXTERNA ANI** 🏢
 - H5: **Material Rodante** (M20) - **ENTREGA EXTERNA FENOCO** 🚂
 - H6: Fibra en Sitio (M22)
-- H7: ATP/PTC en Sitio (M25)
+- H7: PTC/PTC en Sitio (M25)
 - H10: SAT Completo (M44)
 - H11: Entrega Final (M48) ✅
 
@@ -53,7 +53,7 @@
 ```
 ❌ Instalar CTC → Sin Edificio CCO (EXT-01 M18)
 ❌ Instalar Cámaras → Sin Fibra + Cableado (M26)  
-❌ ATP Embarcado → Sin Material Rodante (EXT-02 M20)
+❌ PTC Embarcado → Sin Material Rodante (EXT-02 M20)
 ❌ Pruebas integradas → Sin FATs (M38)
 ❌ SAT → Sin integración completa (M42)
 ❌ Ordenar compras → Sin aprobación ANI (M12)
@@ -84,7 +84,7 @@
 ```
 M12: Aprobación ANI ✅
     ↓
-M13: Orden ATP/PTC (12m) + Fibra (9m)
+M13: Orden PTC/PTC (12m) + Fibra (9m)
     ↓
 M18: Edificio CCO Entregado (EXT-01) 🏢 ← ANI RESPONSABLE
     ↓
@@ -92,9 +92,9 @@ M20: Material Rodante Certificado (EXT-02) 🚂 ← FENOCO RESPONSABLE
     ↓
 M22: Fibra llega → Instalación
     ↓
-M25: ATP llega → Instalación
+M25: PTC llega → Instalación
     ↓
-M30: CTC-ATP Integrado
+M30: CTC-PTC Integrado
     ↓
 M34: Embarcados completos (requiere EXT-02)
     ↓
@@ -131,8 +131,8 @@ M48: ENTREGA FINAL 🏁
 | Retraso aprobación ANI | 40% | 2m | Revisiones previas M10-11 |
 | Retraso CCO (EXT-01) | 50% | 3m | Seguimiento semanal ANI |
 | Retraso MR (EXT-02) | 30% | 2m | Coordinación Fenoco |
-| Retraso ATP/PTC | 60% | 3m | Proveedor alternativo |
-| Integración CTC-ATP | 50% | 2m | Pruebas piloto M30 |
+| Retraso PTC/PTC | 60% | 3m | Proveedor alternativo |
+| Integración CTC-PTC | 50% | 2m | Pruebas piloto M30 |
 
 **Total Buffer:** 12 meses (solo se usa si necesario)
 
@@ -175,7 +175,7 @@ M48: ENTREGA FINAL 🏁
 ### **Esta Semana:**
 1. ✅ Solicitar a ANI inicio construcción CCO (para entrega M18)
 2. ✅ Contactar Fenoco certificación Material Rodante (para M20)
-3. ✅ Pre-calificar proveedores ATP/PTC (12m lead time)
+3. ✅ Pre-calificar proveedores PTC/PTC (12m lead time)
 4. ✅ Acelerar ingeniería detalle Cap 1-2
 
 ### **Próximas 4 Semanas (M4-5):**
@@ -193,7 +193,7 @@ M48: ENTREGA FINAL 🏁
 | Aprobación ANI > M12 | +2 semanas | Activar 2m |
 | Edificio CCO > M18 | +1 mes | Activar 3m |
 | Material Rodante > M20 | +1 mes | Activar 2m |
-| ATP/PTC > M25 | +2 semanas | Activar 3m |
+| PTC/PTC > M25 | +2 semanas | Activar 3m |
 
 **Regla:** >2 alertas → Revisar plan completo
 
@@ -240,7 +240,7 @@ M48: ENTREGA FINAL 🏁
 ### ⚠️ **Lo que REQUIERE acción inmediata:**
 - 🏢 **Solicitar a ANI construcción CCO** (M6) para entrega M18
 - 🚂 **Coordinar con Fenoco** certificación MR (M11) para entrega M20
-- 📋 **Pre-calificar proveedores** ATP/PTC (12m lead time crítico)
+- 📋 **Pre-calificar proveedores** PTC/PTC (12m lead time crítico)
 - 💰 **Validar flujo caja** $67M anticipos para M13-14
 
 ### 🔴 **Riesgos Críticos (Fuera de control):**

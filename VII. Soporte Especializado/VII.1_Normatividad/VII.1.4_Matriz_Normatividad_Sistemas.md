@@ -38,7 +38,7 @@
 
 ### 3.1 Sistemas de Control
 - **CTC:** EN 50126 + EN 50128 + EN 50129
-- **ATP:** EN 50126 + EN 50128 + EN 50129
+- **PTC:** EN 50126 + EN 50128 + EN 50129
 - **ENCE:** EN 50126 + EN 50129
 - **Desvíos:** EN 50126 + EN 50129
 
@@ -76,7 +76,7 @@
 
 ### 5.2 Sistemas
 - **CTC Virtual:** Centro de control
-- **ATP Embarcado:** 15 locomotoras
+- **PTC Embarcado:** 15 locomotoras
 - **TETRA + RED TETRA (Misión Crítica):** 37 estaciones
 - **ENCE:** 5 enclavamientos
 

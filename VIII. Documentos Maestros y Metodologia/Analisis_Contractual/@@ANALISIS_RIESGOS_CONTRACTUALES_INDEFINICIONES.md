@@ -13,7 +13,7 @@
 
 | # | Input Requerido | Responsable | Fecha Máxima | Impacto si NO llega | Plan B |
 |:-:|:----------------|:------------|:------------:|:-------------------|:-------|
-| **1** | **Definición final sistema PTC (PTC VIRTUAL Level 2)** | **ANI + Concesionario** | **Mes 6** | 🔴 Bloquea 60% UF2 | Gateway interoperable documentado (Contratista CTC entrega) |
+| **1** | **Definición final sistema PTC (PTC Virtual (FRA 236))** | **ANI + Concesionario** | **Mes 6** | 🔴 Bloquea 60% UF2 | Gateway interoperable documentado (Contratista CTC entrega) |
 | **2** | **Cronograma entrega material rodante** | **Fenoco** | **Mes 8** | 🟠 No se puede diseñar embarcados | Asumir especificaciones estándar IEC |
 | **3** | **Especificaciones técnicas FENOCO (interoperabilidad)** | **Fenoco** | **Mes 6** | 🔴 No se puede diseñar gateway FRA/AREMA | Gateway FRA/AREMA 918-4 genérico + documentación completa |
 | **4** | **Regularización pasos a nivel (cantidad exacta)** | **Concesionario** | **Mes 10** | 🟡 Sobre-diseño o sub-diseño | Asumir cantidad contractual AT1 |
@@ -23,7 +23,7 @@
 
 ### **RIESGO R-INFO-001: Indefinición PTC/PTC VIRTUAL L2**
 
-**Descripción:** Sin definición final de PTC (PTC VIRTUAL Level 2), no se puede diseñar 60% del alcance de UF2 (Control y Señalización).
+**Descripción:** Sin definición final de PTC (PTC Virtual (FRA 236)), no se puede diseñar 60% del alcance de UF2 (Control y Señalización).
 
 **Probabilidad:** ALTA (70%) - Historial de indefiniciones  
 **Impacto:** CRÍTICO (5) - Bloquea diseño completo  
@@ -68,7 +68,7 @@
 
 ### **RIESGO R-INFO-003: Material Rodante**
 
-**Descripción:** Sin cronograma de entrega MR, no se puede diseñar sistemas embarcados (ATP, TETRA, RED TETRA (Misión Crítica)).
+**Descripción:** Sin cronograma de entrega MR, no se puede diseñar sistemas embarcados (PTC, TETRA, RED TETRA (Misión Crítica)).
 
 **Probabilidad:** MEDIA (40%)  
 **Impacto:** ALTO (4) - Retrasa embarcados  

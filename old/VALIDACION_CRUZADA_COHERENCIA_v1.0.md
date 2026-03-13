@@ -51,7 +51,7 @@ Verificar que **TODOS** los documentos del ecosistema documental estén **100% a
 | **Sistema** | **Criterio Maestro** | **Documentos Validados** | **Estado** |
 |:---|:---:|:---:|:---:|
 | **Corredor** | 526.133 km | AT1, WBS, V.1-V.5 | ✅ **COHERENTE** |
-| **Fibra Óptica** | 594 km | AT1, WBS, V.3, V.4 | ✅ **COHERENTE** |
+| **Fibra Óptica** | 526 km | AT1, WBS, V.3, V.4 | ✅ **COHERENTE** |
 | **TETRA** | 37 estaciones | AT1, 23, 27, V.3, V.4, V.5 | ✅ **COHERENTE** |
 | **RED TETRA (Misión Crítica)** | 37 estaciones | AT1, 23, V.3, V.4, V.5 | ✅ **COHERENTE** |
 | **EOT** | 15 dispositivos | AT1, 23, 32, V.5 | ✅ **COHERENTE** |
@@ -73,10 +73,10 @@ Verificar que **TODOS** los documentos del ecosistema documental estén **100% a
 #### **✅ FILOSOFÍA VIRTUAL VALIDADA:**
 | **Documento** | **Filosofía Anterior** | **Filosofía Actual** | **Estado** |
 |:---|:---:|:---:|:---:|
-| **AT1** | PTC PTC VIRTUAL Level 2 | ATP Embarcado + CTC Virtual | ✅ **ACTUALIZADO** |
+| **AT1** | PTC PTC Virtual (FRA 236) | PTC Embarcado + CTC Virtual | ✅ **ACTUALIZADO** |
 | **29_Senalizacion** | Señalización física | Señalización virtual | ✅ **ACTUALIZADO** |
-| **V.1_Detalle** | Virtual Balise (GNSS)s + LED | CTC + ATP embarcado | ✅ **ACTUALIZADO** |
-| **V.2_CTC** | RBC + PTC VIRTUAL Level 2 | CTC Virtual centralizado | ✅ **ACTUALIZADO** |
+| **V.1_Detalle** | Virtual Balise (GNSS)s + LED | CTC + PTC embarcado | ✅ **ACTUALIZADO** |
+| **V.2_CTC** | RBC + PTC Virtual (FRA 236) | CTC Virtual centralizado | ✅ **ACTUALIZADO** |
 
 ### **3. VALIDACIÓN DE REFERENCIAS CRUZADAS**
 
@@ -125,7 +125,7 @@ Verificar que **TODOS** los documentos del ecosistema documental estén **100% a
 
 #### **1. SEÑALIZACIÓN VIRTUAL:**
 - **✅ CTC Virtual:** Implementado en V.2_CTC_Detalle v2.0
-- **✅ ATP Embarcado:** Implementado en V.1_Detalle v2.0
+- **✅ PTC Embarcado:** Implementado en V.1_Detalle v2.0
 - **✅ ENCE:** Implementado en 29_Senalizacion v5.0
 - **✅ Desvíos:** Implementado en 29_Senalizacion v5.0
 
@@ -137,7 +137,7 @@ Verificar que **TODOS** los documentos del ecosistema documental estén **100% a
 
 #### **3. SISTEMAS EMBARCADOS:**
 - **✅ EOT:** Implementado en 32_Material_Rodante v5.0
-- **✅ ATP:** Implementado en V.1_Detalle v2.0
+- **✅ PTC:** Implementado en V.1_Detalle v2.0
 - **✅ TETRA + RED TETRA (Misión Crítica):** Implementado en 32_Material_Rodante v5.0
 
 #### **4. INFRAESTRUCTURA:**

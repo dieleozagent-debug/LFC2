@@ -17,7 +17,7 @@
         "justificacion": "Longitud corredor La Dorada-Chiriguaná según AT1",
         "fuente": "AT1 - Alcance del Proyecto, Sección 2.1",
         "normas": ["UIT-T G.652.D"],
-        "calculo": "594 km corredor + 0% reserva (valor contractual)",
+        "calculo": "526 km corredor + 0% reserva (valor contractual)",
         "restriccion": "No modificable - Obligación contractual AT1"
       },
       "riesgos_asociados": [
@@ -46,7 +46,7 @@
       "modificable": true,
       "criterio_tecnico": {
         "justificacion": "Global estimado para conectores, splitters y empalmes de campo",
-        "fuente": "Estimación técnica basada en 594 km",
+        "fuente": "Estimación técnica basada en 526 km",
         "normas": ["UIT-T L.50"],
         "calculo": "Estimación: $150M para ~6,000 fusiones de campo + conectores + splitters",
         "desglose": [

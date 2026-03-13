@@ -16,7 +16,7 @@ Este documento presenta de manera consolidada todas las **Decisiones Técnicas (
 | Métrica | Valor |
 |:--------|:------|
 | **Total DTs ejecutadas** | 20 |
-| **Sistemas afectados** | 8 (CTC, TETRA, ATP, Fibra, Enclavamientos, SCADA, Punto de referencia virtuals, CCTV) |
+| **Sistemas afectados** | 8 (CTC, TETRA, PTC, Fibra, Enclavamientos, SCADA, Punto de referencia virtuals, CCTV) |
 | **Ítems WBS modificados** | 18 |
 | **Impacto presupuestal neto** | Por calcular (según análisis individual) |
 | **Riesgos mitigados** | 15+ |
@@ -43,11 +43,11 @@ Este documento presenta de manera consolidada todas las **Decisiones Técnicas (
 - **Ítem WBS:** 1.1.103 - Software CTC virtual
 - **Tipo:** Actualización de precio
 - **Cambio:** VU actualizado para reflejar capacidades avanzadas
-- **Justificación:** Gestión integral 526 km, arquitectura virtualizada, sin señalización física tradicional, ATP embarcado + 5 ENCE
+- **Justificación:** Gestión integral 526 km, arquitectura virtualizada, sin señalización física tradicional, PTC embarcado + 5 ENCE
 - **Capacidades justificadas:**
   - Gestión 526 km de corredor
   - Arquitectura completamente virtualizada
-  - Integración ATP embarcado
+  - Integración PTC embarcado
   - 5 enclavamientos ENCE
   - Sin señalización física tradicional
 - **Impacto:** Actualización de precio por complejidad
@@ -132,18 +132,18 @@ Este documento presenta de manera consolidada todas las **Decisiones Técnicas (
 - **Impacto:** Ajuste de precio unitario
 - **Estado:** ✅ Ejecutado
 
-#### **1.2 Sistema ATP Embarcado**
+#### **1.2 Sistema PTC Embarcado**
 
-##### **DT-ATP-001-2025-10-09**
-- **Ítem WBS:** 1.2.100 - Computadora ATP embarcada
+##### **DT-PTC-001-2025-10-09**
+- **Ítem WBS:** 1.2.100 - Computadora PTC embarcada
 - **Tipo:** Ajuste criterio técnico
 - **Cambio:** Sin cambio numérico (cantidad=8 confirmado)
 - **Justificación:** Documentación formal según Apéndice Técnico 1 (AT1) §2.1
   - Cantidad: 8 locomotoras operativas + 2 respaldo
-  - Computadora ATP PTC VIRTUAL L2 homologada CENELEC SIL-4
+  - Computadora PTC PTC VIRTUAL L2 homologada CENELEC SIL-4
   - Integración con RBC y punto de referencia virtuals europunto de referencia virtual
 - **Referencias contractuales:**
-  - AT1 §2.1: Requerimientos ATP embarcado
+  - AT1 §2.1: Requerimientos PTC embarcado
   - AT1 §3.5: Especificaciones técnicas PTC VIRTUAL
   - AT10 §1.2: Cálculo de flota (capacidad transporte)
 - **Metadata enriquecida:** ✅ Actualizada con criterios diseño, supuestos y referencias
@@ -230,7 +230,7 @@ Este documento presenta de manera consolidada todas las **Decisiones Técnicas (
 - **Cambio:** VU actualizado
 - **Justificación:** 
   - Equipos red L2/L3 certificados uso ferroviario
-  - Switches industriales para 594 km fibra óptica
+  - Switches industriales para 526 km fibra óptica
   - Interconexión de todos los sistemas
 - **Impacto:** Incremento por certificación ferroviaria
 - **Estado:** ✅ Ejecutado
@@ -311,7 +311,7 @@ Este documento presenta de manera consolidada todas las **Decisiones Técnicas (
 | SCADA | 3 | 15% |
 | Pasos a Nivel | 2 | 10% |
 | Punto de referencia virtuals | 2 | 10% |
-| ATP | 1 | 5% |
+| PTC | 1 | 5% |
 | TETRA | 1 | 5% |
 | CCTV/ITS | 2 | 10% |
 
@@ -322,7 +322,7 @@ Este documento presenta de manera consolidada todas las **Decisiones Técnicas (
 | R-INT-001 | Falta trazabilidad integración sistemas | DT-INTERFACES-001 | ✅ MITIGADO |
 | R-INT-002 | Ambigüedad alcance interfaces | DT-INTERFACES-001 | ✅ MITIGADO |
 | R-PRES-001 | Precios desactualizados | DT-SCADA-001/002/003 | ✅ MITIGADO |
-| R-PRES-002 | Cantidades sin fundamento | DT-ENCE-004, DT-ATP-001 | ✅ MITIGADO |
+| R-PRES-002 | Cantidades sin fundamento | DT-ENCE-004, DT-PTC-001 | ✅ MITIGADO |
 | R-DOC-001 | Falta justificación técnica | Todas las DTs tipo "criterio técnico" | ✅ MITIGADO |
 
 ---

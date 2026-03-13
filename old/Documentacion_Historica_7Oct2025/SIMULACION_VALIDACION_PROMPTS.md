@@ -76,15 +76,15 @@ Estado: ✅ EXISTE (verificado en carpeta X)
 #### **3.2 Cálculo de cantidades:**
 ```
 Datos de entrada:
-- Longitud corredor: 594 km (de CRITERIOS_TECNICOS_MAESTRO)
+- Longitud corredor: 526 km (de CRITERIOS_TECNICOS_MAESTRO)
 - Espaciamiento actual: 500m = 0.5 km
 - Espaciamiento propuesto: 1000m = 1.0 km
 
 Cálculo ACTUAL:
-594 km ÷ 0.5 km = 1,188 cajas
+526 km ÷ 0.5 km = 1,188 cajas
 
 Cálculo NUEVO:
-594 km ÷ 1.0 km = 594 cajas
+526 km ÷ 1.0 km = 594 cajas
 
 Diferencia:
 1,188 - 594 = -594 cajas (-50%)

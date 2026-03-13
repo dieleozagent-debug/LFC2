@@ -55,7 +55,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 - **Sitios:** ~33 sitios de repetición distribuidos estratégicamente
 - **Estándares:** ETSI EN 300 392 para equipos de radio
 - **Backhaul:** Fibra óptica principal, microondas como respaldo en sitios críticos
-- **🚂 PTC PTC VIRTUAL Level 2:** Interfaces para control embarcado hasta AT3
+- **🚂 PTC PTC Virtual (FRA 236):** Interfaces para control embarcado hasta AT3
 - **🔗 Interoperabilidad FENOCO:** Compatibilidad con sistemas FENOCO según protocolos FRA/AREMA
 - **📊 Disponibilidad AT4:** Cumplimiento de disponibilidad 99.5% según indicadores contractuales
 
@@ -65,7 +65,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 
 | ID | Categoría | Probabilidad | Impacto | Descripción | Estrategia de Mitigación |
 |:---:|:---:|:---:|:---:|:---|:---|
-| **R-100** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en comunicaciones | Desarrollar interfaces de comunicaciones basadas en PTC VIRTUAL Level 2 hasta disponibilidad de AT3 |
+| **R-100** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en comunicaciones | Desarrollar interfaces de comunicaciones basadas en PTC Virtual (FRA 236) hasta disponibilidad de AT3 |
 | **R-101** | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por interfaces incompatibles | Establecer protocolos de comunicaciones compatibles con sistemas FENOCO existentes |
 | **R-102** | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.5% en comunicaciones según AT4 | Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad |
 | **R-103** | Operacional | Alta | Medio | Complejidad en gestión de 33 sitios TETRA con PTC | Desarrollar protocolos de prueba específicos para PTC y FENOCO |
@@ -199,7 +199,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 - **Comunicaciones ↔ TETRA:** Integración de comunicaciones críticas
 - **Comunicaciones ↔ Fibra Óptica:** Integración de red de comunicaciones
 - **Comunicaciones ↔ ITS:** Integración del sistema de información de tránsito
-- **🚂 Comunicaciones ↔ PTC:** Interfaces para control embarcado PTC VIRTUAL Level 2 hasta AT3
+- **🚂 Comunicaciones ↔ PTC:** Interfaces para control embarcado PTC Virtual (FRA 236) hasta AT3
 - **🔗 Comunicaciones ↔ FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos FRA/AREMA
 
 ## 3. OPTIMIZACIONES EPC ESPECÍFICAS PARA COMUNICACIONES
@@ -322,14 +322,14 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 ## ACTUALIZACIÓN v4.1 - REVISIÓN METODOLOGÍA PUNTO 42
 
 ### **MEJORAS IMPLEMENTADAS:**
-1. **Interfaces Críticas PTC:** Interfaces para control embarcado PTC VIRTUAL Level 2 hasta AT3
+1. **Interfaces Críticas PTC:** Interfaces para control embarcado PTC Virtual (FRA 236) hasta AT3
 2. **Interfaces Críticas FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos FRA/AREMA
 3. **Especificaciones Técnicas TETRA PTC:** Interfaces para control embarcado hasta AT3
 4. **Especificaciones Técnicas TETRA FENOCO:** Compatibilidad con sistemas FENOCO según protocolos FRA/AREMA
 5. **Disponibilidad AT4:** Cumplimiento de disponibilidad 99.5% según indicadores contractuales
 
 ### **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
-1. **Falta de interfaces PTC:** Agregadas interfaces específicas para control embarcado PTC VIRTUAL Level 2
+1. **Falta de interfaces PTC:** Agregadas interfaces específicas para control embarcado PTC Virtual (FRA 236)
 2. **Ausencia de interoperabilidad FENOCO:** Integrada interoperabilidad con sistemas FENOCO
 3. **Falta de criterios AT4:** Agregado cumplimiento de disponibilidad 99.5%
 
@@ -344,7 +344,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 | R-104 | Técnico | Media | Medio | Integración de comunicaciones con sistemas FENOCO existentes |
 
 ### **RECOMENDACIONES PARA GESTIÓN DE RIESGOS:**
-1. **Estrategia PTC:** Desarrollar interfaces de comunicaciones basadas en PTC VIRTUAL Level 2 hasta disponibilidad de AT3
+1. **Estrategia PTC:** Desarrollar interfaces de comunicaciones basadas en PTC Virtual (FRA 236) hasta disponibilidad de AT3
 2. **Coordinación FENOCO:** Establecer protocolos de comunicaciones compatibles con sistemas FENOCO existentes
 3. **Monitoreo AT4:** Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad 99.5%
 4. **Pruebas de Comunicaciones:** Desarrollar protocolos de prueba específicos para PTC y FENOCO

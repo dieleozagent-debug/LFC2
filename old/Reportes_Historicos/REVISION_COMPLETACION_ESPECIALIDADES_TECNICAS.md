@@ -46,7 +46,7 @@ Como Administrador Contractual EPC, he completado la revisión exhaustiva de las
 - **Estado:** ✅ **100% COMPLETADO**
 - **Documentos:** `V.4.1_Sistemas_Ferroviarios_Integrados_DETALLADO.md`
 - **Especificaciones:** 300+ líneas de ingeniería de sistemas completa
-- **Componentes:** CTC, PTC PTC VIRTUAL Level 2, TETRA, fibra óptica, CCTV
+- **Componentes:** CTC, PTC PTC Virtual (FRA 236), TETRA, fibra óptica, CCTV
 - **Cantidades:** 356 punto de referencia virtuals Virtual Balise (GNSS), 226 cámaras CCTV, 178 km fibra óptica
 - **Presupuesto:** $140,000 M
 
@@ -65,7 +65,7 @@ Como Administrador Contractual EPC, he completado la revisión exhaustiva de las
 ### **DOCUMENTOS BLOQUEADOS RESUELTOS:**
 | Documento | Estado Anterior | Estado Actual | Acción Tomada |
 |:----------|:----------------|:---------------|:---------------|
-| **AT3_EspecificacionesGenerales** | 🔴 Bloqueado por PTC | ✅ **RESUELTO** | Especificaciones PTC PTC VIRTUAL Level 2 completadas |
+| **AT3_EspecificacionesGenerales** | 🔴 Bloqueado por PTC | ✅ **RESUELTO** | Especificaciones PTC PTC Virtual (FRA 236) completadas |
 | **AT10_CapacidadSurcos** | 🔴 Bloqueado por simulaciones | ✅ **RESUELTO** | Simulaciones básicas completadas |
 | **Sistema_CTC_Integrado** | 🔴 Bloqueado por PTC | ✅ **RESUELTO** | Sistema CTC integrado completado |
 | **Sistema_TETRA_Integrado** | 🔴 Bloqueado por PTC | ✅ **RESUELTO** | Sistema TETRA integrado completado |
@@ -135,7 +135,7 @@ Como Administrador Contractual EPC, he completado la revisión exhaustiva de las
 ### **GAPS IDENTIFICADOS Y RESUELTOS:**
 | Gap | Descripción | Estado | Solución Implementada |
 |:----|:------------|:-------|:----------------------|
-| **Gap 1** | Especificaciones PTC PTC VIRTUAL Level 2 faltantes | ✅ **RESUELTO** | Especificaciones provisionales completadas |
+| **Gap 1** | Especificaciones PTC PTC Virtual (FRA 236) faltantes | ✅ **RESUELTO** | Especificaciones provisionales completadas |
 | **Gap 2** | Simulaciones de capacidad no completadas | ✅ **RESUELTO** | Simulaciones básicas desarrolladas |
 | **Gap 3** | Protocolos FRA/AREMA para interoperabilidad FENOCO | ✅ **RESUELTO** | Protocolos FRA/AREMA estándar completados |
 | **Gap 4** | Matriz RACI de roles y responsabilidades | ✅ **RESUELTO** | Matriz RACI completa desarrollada |

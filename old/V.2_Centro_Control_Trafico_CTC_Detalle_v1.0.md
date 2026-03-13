@@ -23,7 +23,7 @@ Este documento detalla la ingeniería del Centro de Control de Tráfico (CTC) pa
 ### 1.2 Objetivos del Sistema
 - **Control centralizado:** Gestión unificada del tráfico ferroviario
 - **Supervisión en tiempo real:** Monitoreo continuo de operaciones
-- **Integración PTC:** Comunicación bidireccional con PTC VIRTUAL Level 2
+- **Integración PTC:** Comunicación bidireccional con PTC Virtual (FRA 236)
 - **Disponibilidad:** 99.95% de disponibilidad operacional
 - **Seguridad:** Cumplimiento EN 50126/50128/50129
 
@@ -71,7 +71,7 @@ Este documento detalla la ingeniería del Centro de Control de Tráfico (CTC) pa
 - **Estación Emergencia:** Control de contingencias
 
 #### 2.2.3 Interfaces de Comunicación
-- **Interface PTC:** Comunicación con PTC VIRTUAL Level 2
+- **Interface PTC:** Comunicación con PTC Virtual (FRA 236)
 - **Interface SCADA:** Supervisión de sistemas auxiliares
 - **Interface Comunicación:** Enlaces con operadores externos
 

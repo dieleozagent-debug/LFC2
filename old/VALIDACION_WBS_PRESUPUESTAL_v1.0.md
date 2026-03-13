@@ -22,8 +22,8 @@ Después de validar la **coherencia completa** de la WBS presupuestal contra **T
 |:--------|:----------------:|:---------------:|:----------:|:------:|
 | **TETRA** | 37 estaciones | 37 estaciones | ✅ 100% | VALIDADO |
 | **RED TETRA (Misión Crítica)** | 37 estaciones | 37 estaciones | ✅ 100% | VALIDADO |
-| **Fibra Óptica** | 594 km | 594 km | ✅ 100% | VALIDADO |
-| **Locomotoras ATP** | 15 unidades | 15 unidades | ✅ 100% | VALIDADO |
+| **Fibra Óptica** | 526 km | 526 km | ✅ 100% | VALIDADO |
+| **Locomotoras PTC** | 15 unidades | 15 unidades | ✅ 100% | VALIDADO |
 | **EOT** | 15 dispositivos | 15 dispositivos | ✅ 100% | VALIDADO |
 | **ENCE** | 5 estaciones | 5 estaciones | ✅ 100% | VALIDADO |
 | **Desvíos Motorizados** | 25 unidades | 25 unidades | ✅ 100% | VALIDADO |
@@ -35,7 +35,7 @@ Después de validar la **coherencia completa** de la WBS presupuestal contra **T
 
 #### **CAPÍTULO 1: CONTROL Y SEÑALIZACIÓN (SIN EUROBALISES)**
 - ✅ **1.1 Sistema CTC Centralizado:** Coherente con V.2_Centro_Control_Trafico_CTC_v5.0.md
-- ✅ **1.2 Sistema ATP Embarcado (15 locomotoras):** Coherente con 23_ListadoMaestro_Sistemas_v5.0.md
+- ✅ **1.2 Sistema PTC Embarcado (15 locomotoras):** Coherente con 23_ListadoMaestro_Sistemas_v5.0.md
 - ✅ **1.3 Enclavamientos ENCE (5 estaciones):** Coherente con V.X_Enclavamientos_ENCE_Detalle_v5.0.md
 - ✅ **1.4 Desvíos Motorizados (25):** Coherente con V.X_Sistema_Desvios_Detalle_v5.0.md
 - ✅ **1.5 Desvíos Manuales (95):** Coherente con V.X_Sistema_Desvios_Detalle_v5.0.md
@@ -43,7 +43,7 @@ Después de validar la **coherencia completa** de la WBS presupuestal contra **T
 #### **CAPÍTULO 2: TELECOMUNICACIONES**
 - ✅ **2.1 Sistema TETRA (37 estaciones):** Coherente con 27_Sistema_TETRA_Integrado_v5.0.md
 - ✅ **2.2 Sistema RED TETRA (Misión Crítica) (37 estaciones - colocalizado):** Coherente con V.X_Sistema_RED TETRA (Misión Crítica)_Detalle_v5.0.md
-- ✅ **2.3 Fibra Óptica (594 km):** Coherente con 28_Sistema_FibraOptica_Integrado_docx.md
+- ✅ **2.3 Fibra Óptica (526 km):** Coherente con 28_Sistema_FibraOptica_Integrado_docx.md
 - ✅ **2.4 Red de Datos:** Coherente con especificaciones de red
 
 #### **CAPÍTULO 3: SISTEMAS ITS Y SEGURIDAD**
@@ -61,7 +61,7 @@ Después de validar la **coherencia completa** de la WBS presupuestal contra **T
 - ✅ **5.3 SCADA:** Coherente con sistemas de supervisión
 
 #### **CAPÍTULO 6: MATERIAL RODANTE**
-- ✅ **6.1 Equipos ATP embarcados (15 locomotoras):** Coherente con 32_Material_Rodante_Integrado_v5.0.md
+- ✅ **6.1 Equipos PTC embarcados (15 locomotoras):** Coherente con 32_Material_Rodante_Integrado_v5.0.md
 - ✅ **6.2 Sistema EOT (15 dispositivos):** Coherente con V.X_Sistema_EOT_Detalle_v5.0.md
 - ✅ **6.3 Radios TETRA + RED TETRA (Misión Crítica):** Coherente con especificaciones embarcadas
 

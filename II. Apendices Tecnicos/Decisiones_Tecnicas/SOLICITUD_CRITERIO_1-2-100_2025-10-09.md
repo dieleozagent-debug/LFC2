@@ -1,5 +1,5 @@
 # SOLICITUD DE DOCUMENTACIÓN - CRITERIO TÉCNICO
-## Ítem 1.2.100 - Computadora ATP embarcada
+## Ítem 1.2.100 - Computadora PTC embarcada
 
 **Fecha solicitud:** 2025-10-09  
 **Solicitante:** Usuario WBS Interactiva  
@@ -9,7 +9,7 @@
 ## ÍTEM SOLICITADO
 
 - **Código WBS:** 1.2.100
-- **Descripción:** Computadora ATP embarcada
+- **Descripción:** Computadora PTC embarcada
 - **Cantidad actual:** 8 UND
 - **Total:** $960.000.000 COP
 
@@ -42,7 +42,7 @@
 
 ## PRÓXIMOS PASOS
 
-- [x] Especialista completa información ✅ (Ver DT-ATP-001-2025-10-09)
+- [x] Especialista completa información ✅ (Ver DT-PTC-001-2025-10-09)
 - [x] PMO revisa y aprueba ✅ (2025-10-09)
 - [x] Se agrega a: wbs_metadata_enriquecida.json ✅ (2025-10-09)
 - [x] Se actualiza WBS Interactiva ✅ (EDT Detalle HTML sincronizado)
@@ -51,7 +51,7 @@
 
 ## ✅ SOLICITUD COMPLETADA
 
-**Respondida por:** DT-ATP-001-2025-10-09  
+**Respondida por:** DT-PTC-001-2025-10-09  
 **Fecha:** 2025-10-09  
 **Estado:** ✅ COMPLETADA
 
@@ -64,10 +64,10 @@
    - 2 locomotoras GR12 + 2 U10 + 1 U18C = 5 operativas
    - 2 unidades diseño/pruebas FAT/SAT
    - 1 unidad contingencia/repuesto
-   - TOTAL: 8 computadoras ATP
+   - TOTAL: 8 computadoras PTC
 
 3. **Desglose:**
-   - Ver sección 9 de DT-ATP-001 (Análisis de alternativas)
+   - Ver sección 9 de DT-PTC-001 (Análisis de alternativas)
 
 4. **Fuentes normativas:**
    - CENELEC EN 50126/128/129 (SIL 4)
@@ -85,7 +85,7 @@
    - Máximo anterior: 15 UND (rechazado por sobrecosto)
 
 7. **Alternativas:**
-   - Ver DT-ATP-001 sección 9 (3 alternativas evaluadas)
+   - Ver DT-PTC-001 sección 9 (3 alternativas evaluadas)
 
 ---
 

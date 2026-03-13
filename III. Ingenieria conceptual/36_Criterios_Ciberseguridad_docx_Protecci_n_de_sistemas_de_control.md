@@ -49,7 +49,7 @@ El diseño detallado de la seguridad de cada sistema está bloqueado hasta que e
 - **Ciberseguridad ↔ Red de Datos:** La segmentación de la red es el principal control de ciberseguridad.
 - **Ciberseguridad ↔ SICC (AT4):** El SICC debe estar protegido, y a su vez, el sistema de monitoreo de seguridad (SIEM) debe reportar al SICC.
 - **Ciberseguridad ↔ Interoperabilidad (FENOCO/ANI):** Las interfaces externas son los principales vectores de ataque y deben ser protegidas con firewalls y VPNs.
-- **🚂 Ciberseguridad ↔ PTC:** Protección de sistemas de control embarcados PTC VIRTUAL Level 2 hasta AT3
+- **🚂 Ciberseguridad ↔ PTC:** Protección de sistemas de control embarcados PTC Virtual (FRA 236) hasta AT3
 - **🔗 Ciberseguridad ↔ FENOCO:** Seguridad en interfaces de interoperabilidad según protocolos FRA/AREMA
 
 ---
@@ -172,7 +172,7 @@ La aprobación de estos criterios de ciberseguridad **completa el Bloque de Trab
 ## ACTUALIZACIÓN v4.1 - REVISIÓN METODOLOGÍA PUNTO 42
 
 ### **MEJORAS IMPLEMENTADAS:**
-1. **Interfaces Críticas PTC:** Protección de sistemas de control embarcados PTC VIRTUAL Level 2 hasta AT3
+1. **Interfaces Críticas PTC:** Protección de sistemas de control embarcados PTC Virtual (FRA 236) hasta AT3
 2. **Interfaces Críticas FENOCO:** Seguridad en interfaces de interoperabilidad según protocolos FRA/AREMA
 3. **Matriz de Controles PTC:** Protección PTC Embarcado con estándar IEC 62443-3-3
 4. **Matriz de Controles FENOCO:** Seguridad Interfaces FENOCO con estándar FRA/AREMA 556
@@ -193,7 +193,7 @@ La aprobación de estos criterios de ciberseguridad **completa el Bloque de Trab
 | R-084 | Técnico | Media | Medio | Integración de controles de seguridad con sistemas FENOCO existentes |
 
 ### **RECOMENDACIONES PARA GESTIÓN DE RIESGOS:**
-1. **Estrategia PTC:** Implementar controles de seguridad basados en PTC VIRTUAL Level 2 hasta disponibilidad de AT3
+1. **Estrategia PTC:** Implementar controles de seguridad basados en PTC Virtual (FRA 236) hasta disponibilidad de AT3
 2. **Coordinación FENOCO:** Establecer protocolos de seguridad compatibles con sistemas FENOCO existentes
 3. **Monitoreo AT4:** Implementar SIEM para garantizar cumplimiento de disponibilidad 99.95%
 4. **Pruebas de Seguridad:** Desarrollar protocolos de pentesting específicos para PTC y FENOCO

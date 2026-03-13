@@ -76,7 +76,7 @@
         "nivel":  null,
         "cantidad":  "8",
         "total":  "960000000",
-        "descripcion":  "Computadora ATP embarcada",
+        "descripcion":  "Computadora PTC embarcada",
         "unidad":  "UND"
     },
     {
@@ -116,7 +116,7 @@
         "nivel":  null,
         "cantidad":  "8",
         "total":  "800000000",
-        "descripcion":  "Software ATP",
+        "descripcion":  "Software PTC",
         "unidad":  "UND"
     },
     {
@@ -504,7 +504,7 @@
         "item":  "2.3.100",
         "vu":  "9811013",
         "nivel":  null,
-        "cantidad":  "594km",
+        "cantidad":  "526km",
         "total":  "5827741722",
         "descripcion":  "Cable fibra óptica 48 fibras",
         "unidad":  "km"
@@ -514,7 +514,7 @@
         "item":  "2.3.101",
         "vu":  "90188987",
         "nivel":  null,
-        "cantidad":  "594km",
+        "cantidad":  "526km",
         "total":  "53572258278",
         "descripcion":  "Mano de obra instalación",
         "unidad":  "UND"
@@ -1136,7 +1136,7 @@
         "nivel":  null,
         "cantidad":  "8",
         "total":  "3200000000",
-        "descripcion":  "Sistemas ATP embarcados",
+        "descripcion":  "Sistemas PTC embarcados",
         "unidad":  "UND"
     },
     {

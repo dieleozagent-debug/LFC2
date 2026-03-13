@@ -3,13 +3,13 @@
 - Versión: 1.0
 - Fecha: 02/10/2025
 - Sistema: Señalización ferroviaria integrada con PTC
-- Referencias: EN 50126/50128/50129, PTC VIRTUAL Level 2, CENELEC
+- Referencias: EN 50126/50128/50129, PTC Virtual (FRA 236), CENELEC
 
 ---
 
 ## 1. Alcance y Objetivo
 
-Este documento establece las especificaciones técnicas de detalle para el sistema de señalización ferroviaria del proyecto APP La Dorada-Chiriguaná, integrado con el sistema PTC (PTC VIRTUAL Level 2).
+Este documento establece las especificaciones técnicas de detalle para el sistema de señalización ferroviaria del proyecto APP La Dorada-Chiriguaná, integrado con el sistema PTC (PTC Virtual (FRA 236)).
 
 > **📋 DOCUMENTO MAESTRO CONSOLIDADO:** Para la versión definitiva y consolidada del sistema de Señalización, consulte: `IV. Ingenieria básica/SIS_Senalizacion_Definitivo_v1.0.md`
 
@@ -24,7 +24,7 @@ Definir las especificaciones técnicas detalladas para la implementación del si
 ### 1.2 Alcance
 - Señalización fija y móvil
 - Sistemas de control de tráfico
-- Integración con PTC PTC VIRTUAL Level 2
+- Integración con PTC PTC Virtual (FRA 236)
 - Sistemas de seguridad ferroviaria
 - Comunicaciones de señalización
 
@@ -57,7 +57,7 @@ Definir las especificaciones técnicas detalladas para la implementación del si
 
 ### 3.2 Integración con PTC
 - Interfaz CTC-PTC según FFFIS
-- Protocolos de comunicación PTC VIRTUAL Level 2
+- Protocolos de comunicación PTC Virtual (FRA 236)
 - Gestión de movimientos de trenes
 - Control de velocidad y distancia
 

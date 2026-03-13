@@ -169,7 +169,7 @@ FENOCO/Concesionario en fase posterior (post-entrega).
 
 **Funcionalidades:**
 - ✅ Mensajes de posición tren (cada 10 seg)
-- ✅ Mensajes de estado sistemas (TETRA, ATP, frenos)
+- ✅ Mensajes de estado sistemas (TETRA, PTC, frenos)
 - ✅ Comandos de emergencia (stop, slow)
 - ✅ Telemetría básica (velocidad, ubicación GPS)
 

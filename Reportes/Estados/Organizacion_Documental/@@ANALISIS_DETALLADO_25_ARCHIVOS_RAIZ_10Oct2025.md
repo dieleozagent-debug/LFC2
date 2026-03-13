@@ -183,8 +183,8 @@
 - **Relevancia:** ⭐⭐ MEDIA - Lecciones aprendidas
 - **Decisión:** ❌ **MANTENER** - Guía de corrección de DTs
 
-### 20. `@@RESUMEN_Correccion_HTMLs_y_DT-ATP-001_09Oct2025.md`
-- **Propósito:** Corrección HTMLs + nueva categoría DT + DT-ATP-001
+### 20. `@@RESUMEN_Correccion_HTMLs_y_DT-PTC-001_09Oct2025.md`
+- **Propósito:** Corrección HTMLs + nueva categoría DT + DT-PTC-001
 - **Contenido:** Correcciones EDT Detalle, cache-busting
 - **Tamaño:** 212 líneas
 - **¿Duplicado?** ⚠️ Parcial - Info técnica en documentación sistema
@@ -288,7 +288,7 @@
 ---
 
 ### **GRUPO 4: CORRECCIONES (1 archivo)**
-- ✅ `@@RESUMEN_Correccion_HTMLs_y_DT-ATP-001_09Oct2025.md` - Correcciones ya aplicadas
+- ✅ `@@RESUMEN_Correccion_HTMLs_y_DT-PTC-001_09Oct2025.md` - Correcciones ya aplicadas
 
 **Acción:** Mover a old/ (correcciones ya en sistema)
 
@@ -324,7 +324,7 @@
 | 17 | @@RESUMEN_DT-TETRA-001_Y_Automatizacion.md | Técnico | ❌ MANTENER | - |
 | 18 | @@RESUMEN_Sistema_SERVIR_Ingenieria_09Oct2025.md | Técnico | ❌ MANTENER | - |
 | 19 | @@RESUMEN_Revision_Y_Correccion_DTs.md | Técnico | ❌ MANTENER | - |
-| 20 | @@RESUMEN_Correccion_HTMLs_y_DT-ATP-001_09Oct2025.md | Técnico | ✅ MOVER | old/9Oct2025/ |
+| 20 | @@RESUMEN_Correccion_HTMLs_y_DT-PTC-001_09Oct2025.md | Técnico | ✅ MOVER | old/9Oct2025/ |
 | 21 | @@PLAN_IMPLEMENTACION_Sistema_Integrado_Completo.md | Plan | ❌ MANTENER | - |
 | 22 | @@MEJORAS_Sistema_DTs_Tipos_Especificos_09Oct2025.md | Mejoras | ❌ MANTENER | - |
 | 23 | @@QUE_SIGUE_Proximos_Pasos.md | Plan | ✅ MOVER | old/8Oct2025/ |
@@ -367,7 +367,7 @@ old/
     ├── @@SESION_COMPLETA_09Oct2025_v14.4_FINAL.md
     ├── @@CONSOLIDADO_FINAL_v14.4_PMO_09Oct2025.md
     ├── @@RESUMEN_CRONOGRAMA_PMO_AGRESIVO_09Oct2025.md
-    └── @@RESUMEN_Correccion_HTMLs_y_DT-ATP-001_09Oct2025.md
+    └── @@RESUMEN_Correccion_HTMLs_y_DT-PTC-001_09Oct2025.md
 ```
 
 ---
@@ -386,7 +386,7 @@ Move-Item "@@QUE_SIGUE_Proximos_Pasos.md" "old\Documentacion_Historica_8Oct2025\
 Move-Item "@@SESION_COMPLETA_09Oct2025_v14.4_FINAL.md" "old\Documentacion_Historica_9Oct2025\" -Force
 Move-Item "@@CONSOLIDADO_FINAL_v14.4_PMO_09Oct2025.md" "old\Documentacion_Historica_9Oct2025\" -Force
 Move-Item "@@RESUMEN_CRONOGRAMA_PMO_AGRESIVO_09Oct2025.md" "old\Documentacion_Historica_9Oct2025\" -Force
-Move-Item "@@RESUMEN_Correccion_HTMLs_y_DT-ATP-001_09Oct2025.md" "old\Documentacion_Historica_9Oct2025\" -Force
+Move-Item "@@RESUMEN_Correccion_HTMLs_y_DT-PTC-001_09Oct2025.md" "old\Documentacion_Historica_9Oct2025\" -Force
 
 # Confirmar
 Write-Host "✅ 6 archivos adicionales movidos a old/" -ForegroundColor Green
@@ -482,7 +482,7 @@ Write-Host "✅ 6 archivos adicionales movidos a old/" -ForegroundColor Green
 3. ✅ @@SESION_COMPLETA_09Oct2025_v14.4_FINAL.md
 4. ✅ @@CONSOLIDADO_FINAL_v14.4_PMO_09Oct2025.md
 5. ✅ @@RESUMEN_CRONOGRAMA_PMO_AGRESIVO_09Oct2025.md
-6. ✅ @@RESUMEN_Correccion_HTMLs_y_DT-ATP-001_09Oct2025.md
+6. ✅ @@RESUMEN_Correccion_HTMLs_y_DT-PTC-001_09Oct2025.md
 
 ### **A old/ (raíz - 1 archivo):**
 7. ⚠️ @@VALIDACION_BLOCKERS_vs_CONTRATO_REAL_09Oct2025.md (revisar antes)

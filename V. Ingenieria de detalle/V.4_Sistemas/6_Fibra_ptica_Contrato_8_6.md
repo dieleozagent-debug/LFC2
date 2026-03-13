@@ -34,7 +34,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 #### **CANTIDADES MAESTRAS ACTUALIZADAS (ENERO 2025)**
 | Componente | Cantidad | Especificación |
 |------------|----------|----------------|
-| **Fibra Óptica Total** | **594 km** | Corredor + 10% reserva técnica |
+| **Fibra Óptica Total** | **526 km** | Corredor + 10% reserva técnica |
 | **Cajas 80x80** | **2,068 unidades** | 1,980 lineales + 88 en puentes |
 | **Separación Cajas** | **300 m** | Costado derecho del corredor |
 | **Puentes Equipados** | **22 puentes** | Según AT1 Tabla 2 | Apéndice Técnico 1 |
@@ -49,7 +49,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 - **Cable:** Fibra monomodo ITU-T G.652.D de 48 hilos mínimo
 - **Canalización:** Ductos PEAD de 110 mm, profundidad mínima 1.8 metros
 - **Capacidad:** 10 Gbps por anillo, escalable a 40/100 Gbps con DWDM
-- **Longitud Total:** **594 km** (actualizada con criterios maestros)
+- **Longitud Total:** **526 km** (actualizada con criterios maestros)
 
 #### **ESPECIFICACIONES TÉCNICAS**
 - **Tecnología DWDM:** Dense Wavelength Division Multiplexing para maximizar capacidad
@@ -70,7 +70,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 
 | ID | Categoría | Probabilidad | Impacto | Descripción | Estrategia de Mitigación |
 |:---:|:---:|:---:|:---:|:---|:---|
-| **R-110** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en fibra óptica | Desarrollar interfaces de fibra óptica basadas en PTC VIRTUAL Level 2 hasta disponibilidad de AT3 |
+| **R-110** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en fibra óptica | Desarrollar interfaces de fibra óptica basadas en PTC Virtual (FRA 236) hasta disponibilidad de AT3 |
 | **R-111** | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por interfaces incompatibles | Establecer protocolos de fibra óptica compatibles con sistemas FENOCO existentes |
 | **R-112** | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.9% en fibra óptica según AT4 | Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad |
 | **R-113** | Operacional | Alta | Medio | Complejidad en gestión de backbone con PTC | Desarrollar protocolos de prueba específicos para PTC y FENOCO |
@@ -181,7 +181,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 - **Fibra Óptica ↔ Radio TETRA:** Backhaul principal para estaciones base
 - **Fibra Óptica ↔ PTC:** Preparación para interfaces de control embarcado
 - **Fibra Óptica ↔ ITS:** Conectividad para sistemas de información de tránsito
-- **🚂 Fibra Óptica ↔ PTC:** Interfaces para control embarcado PTC VIRTUAL Level 2 hasta AT3
+- **🚂 Fibra Óptica ↔ PTC:** Interfaces para control embarcado PTC Virtual (FRA 236) hasta AT3
 - **🔗 Fibra Óptica ↔ FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos FRA/AREMA
 
 ## 3. OPTIMIZACIONES EPC ESPECÍFICAS PARA FIBRA ÓPTICA
@@ -292,14 +292,14 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 ## ACTUALIZACIÓN v4.1 - REVISIÓN METODOLOGÍA PUNTO 42
 
 ### **MEJORAS IMPLEMENTADAS:**
-1. **Interfaces Críticas PTC:** Interfaces para control embarcado PTC VIRTUAL Level 2 hasta AT3
+1. **Interfaces Críticas PTC:** Interfaces para control embarcado PTC Virtual (FRA 236) hasta AT3
 2. **Interfaces Críticas FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos FRA/AREMA
 3. **Integración con Sistemas Ferroviarios PTC:** Preparación para interfaces de control embarcado
 4. **Integración con Sistemas Ferroviarios FENOCO:** Interoperabilidad con sistemas FENOCO
 5. **Disponibilidad AT4:** Cumplimiento de disponibilidad 99.9% según indicadores contractuales
 
 ### **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
-1. **Falta de interfaces PTC:** Agregadas interfaces específicas para control embarcado PTC VIRTUAL Level 2
+1. **Falta de interfaces PTC:** Agregadas interfaces específicas para control embarcado PTC Virtual (FRA 236)
 2. **Ausencia de interoperabilidad FENOCO:** Integrada interoperabilidad con sistemas FENOCO
 3. **Falta de criterios AT4:** Agregado cumplimiento de disponibilidad 99.9%
 
@@ -314,7 +314,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 | R-114 | Técnico | Media | Medio | Integración de fibra óptica con sistemas FENOCO existentes |
 
 ### **RECOMENDACIONES PARA GESTIÓN DE RIESGOS:**
-1. **Estrategia PTC:** Desarrollar interfaces de fibra óptica basadas en PTC VIRTUAL Level 2 hasta disponibilidad de AT3
+1. **Estrategia PTC:** Desarrollar interfaces de fibra óptica basadas en PTC Virtual (FRA 236) hasta disponibilidad de AT3
 2. **Coordinación FENOCO:** Establecer protocolos de fibra óptica compatibles con sistemas FENOCO existentes
 3. **Monitoreo AT4:** Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad 99.9%
 4. **Pruebas de Fibra Óptica:** Desarrollar protocolos de prueba específicos para PTC y FENOCO

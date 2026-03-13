@@ -316,9 +316,9 @@ Archivos identificados:
 5. X_ENTREGABLES_CONSOLIDADOS/1_SISTEMAS_TECNICOS/SISTEMA_02_Telecomunicaciones_Master.md (Sección 5.2.3)
 
 ## PASO 2: CALCULAR IMPACTO EN CANTIDADES
-Longitud corredor: 594 km
-Cálculo ACTUAL: 594 km ÷ 0.5 km = 1,188 cajas
-Cálculo NUEVO: 594 km ÷ 1.0 km = 594 cajas
+Longitud corredor: 526 km
+Cálculo ACTUAL: 526 km ÷ 0.5 km = 1,188 cajas
+Cálculo NUEVO: 526 km ÷ 1.0 km = 594 cajas
 Diferencia: -594 cajas (-50%)
 
 ## PASO 3: CALCULAR IMPACTO ECONÓMICO

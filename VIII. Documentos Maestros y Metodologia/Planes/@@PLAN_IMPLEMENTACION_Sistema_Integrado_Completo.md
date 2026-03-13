@@ -61,7 +61,7 @@ IX. WBS y Planificacion/
   "actividades": [
     {
       "codigo_wbs": "1.2.100",
-      "actividad": "Adquisición y configuración ATP embarcado",
+      "actividad": "Adquisición y configuración PTC embarcado",
       "cantidad": 8,
       "duracion_unitaria": 15,
       "duracion_total": 120,
@@ -86,8 +86,8 @@ IX. WBS y Planificacion/
   "total_riesgos": 15,
   "riesgos": [
     {
-      "id": "R-ATP-001",
-      "descripcion": "Disponibilidad de sistemas ATP embarcados",
+      "id": "R-PTC-001",
+      "descripcion": "Disponibilidad de sistemas PTC embarcados",
       "categoria": "Suministro",
       "items_wbs_afectados": ["1.2.100", "1.2.101", "1.2.102", "6.1.100"],
       "probabilidad": "Media",
@@ -114,13 +114,13 @@ IX. WBS y Planificacion/
     {
       "codigo_wbs": "1.2.100",
       "sistema": "Control y Señalización",
-      "item": "Computadora ATP embarcada",
+      "item": "Computadora PTC embarcada",
       "cantidad_actual": 8,
       "cantidad_anterior": 15,
       "justificacion_cantidad": "Alineación con AT1: 5 locomotoras contractuales + 2 diseño/pruebas + 1 contingencia = 8 UND total",
       "criterio_tecnico": "Operación simultánea máxima: 5 locomotoras según AT1. Adicionales: 2 para diseño/pruebas + 1 contingencia.",
       "supuesto_principal": "Operación ferroviaria NO requiere más de 5 locomotoras simultáneas",
-      "riesgo_principal": "R-ATP-001 - Disponibilidad ATP (Mitigado con contratos marco)",
+      "riesgo_principal": "R-PTC-001 - Disponibilidad PTC (Mitigado con contratos marco)",
       "impacto_presupuestal": "-$840,000,000 COP (-47%)",
       "decision_tecnica_origen": "DT-TETRA-001",
       "fecha_aprobacion": "2025-10-07",
@@ -217,7 +217,7 @@ IX. WBS y Planificacion/
 # 1. Leer datos_wbs_TODOS_items.json
 # 2. Para cada ítem:
 #    - Calcular duración según cantidad
-#    - Ejemplo: ATP 8 UND × 15 días = 120 días
+#    - Ejemplo: PTC 8 UND × 15 días = 120 días
 # 3. Identificar dependencias
 # 4. Calcular ruta crítica
 # 5. Generar cronograma_datos.json
@@ -300,18 +300,18 @@ function mostrarRiesgosPorItem(codigo) {
 archivos_actualizar:
   - file: "V. Ingenieria de detalle/V.2_CTC_Detalle_v4.0.md"
     accion: "actualizar_seccion_y_versionar"
-    seccion: "3.2 Arquitectura del Sistema ATP"
+    seccion: "3.2 Arquitectura del Sistema PTC"
     cambios:
       - campo: "cantidad_atp"
-        buscar: "15 unidades ATP embarcadas"
-        reemplazar: "8 unidades ATP embarcadas (5 producción + 2 diseño/pruebas + 1 contingencia)"
+        buscar: "15 unidades PTC embarcadas"
+        reemplazar: "8 unidades PTC embarcadas (5 producción + 2 diseño/pruebas + 1 contingencia)"
       - campo: "justificacion"
         buscar: "una unidad por cada locomotora"
         reemplazar: "Alineación con AT1: 5 locomotoras contractuales + 2 para diseño/pruebas + 1 contingencia"
     versionamiento:
       version_actual: "v4.0"
       version_nueva: "v4.1"
-      razon: "DT-TETRA-001 - Ajuste cantidad ATP según AT1"
+      razon: "DT-TETRA-001 - Ajuste cantidad PTC según AT1"
       agregar_nota: |
         **Cambio aplicado:** DT-TETRA-001 (7 Oct 2025)
         **Justificación:** Alineación con AT1 (5 locomotoras)
@@ -350,7 +350,7 @@ documentos_maestros_actualizar:
     accion: "agregar_fila_tabla"
     tabla: "Criterios Técnicos Refinados"
     nueva_fila:
-      sistema: "ATP Embarcado"
+      sistema: "PTC Embarcado"
       criterio: "5+2+1 = 8 UND"
       cantidad: "8"
       especificacion: "5 producción + 2 diseño/pruebas + 1 contingencia"
@@ -367,7 +367,7 @@ documentos_maestros_actualizar:
   - file: "VIII. Documentos Maestros y Metodologia/Matrices_Dependencias/MATRIZ_DEPENDENCIAS_DOCUMENTALES_v1.0.md"
     accion: "agregar_fila"
     nueva_fila:
-      componente: "ATP Embarcado"
+      componente: "PTC Embarcado"
       decision_tecnica: "DT-TETRA-001"
       archivos_afectados: "V.2 CTC, WBS 1.2.x, AT1"
       tipo_impacto: "Cantidad"
@@ -424,8 +424,8 @@ El EDT Detallado (`WBS_EDT_Detalle.html`) ya está implementado para mostrar jus
         ↓
 3. WBS_EDT_Detalle.html muestra:
    ▼ 1. FIBRA ÓPTICA
-     ▼ 1.2 ATP Embarcado
-       • 1.2.100 - Computadora ATP embarcada
+     ▼ 1.2 PTC Embarcado
+       • 1.2.100 - Computadora PTC embarcada
          [Clic aquí para ver detalles]
          
    Popup muestra:
@@ -446,7 +446,7 @@ El EDT Detallado (`WBS_EDT_Detalle.html`) ya está implementado para mostrar jus
    │ • Operación simultánea máxima: 5 locos │
    │                                        │
    │ Riesgos:                               │
-   │ • R-ATP-001 (Mitigado)                 │
+   │ • R-PTC-001 (Mitigado)                 │
    │                                        │
    │ Origen:                                │
    │ • DT-TETRA-001 (7 Oct 2025)           │
@@ -478,7 +478,7 @@ El Reporte Gerencial debe mostrar:
 ┌────────────────────────────────────────────────────────────────┐
 │ 1. CONTROL Y SEÑALIZACIÓN VIRTUAL                              │
 ├────────────────────────────────────────────────────────────────┤
-│ 1.2.100 - Computadora ATP embarcada: 8 UND                    │
+│ 1.2.100 - Computadora PTC embarcada: 8 UND                    │
 │                                                                │
 │ 💡 JUSTIFICACIÓN:                                             │
 │ Alineación con AT1: 5 locomotoras contractuales + 2 para      │
@@ -493,7 +493,7 @@ El Reporte Gerencial debe mostrar:
 │ simultáneas en toda la concesión                              │
 │                                                                │
 │ ⚠️ RIESGO PRINCIPAL:                                          │
-│ R-ATP-001 - Disponibilidad ATP (Mitigado con contratos marco)│
+│ R-PTC-001 - Disponibilidad PTC (Mitigado con contratos marco)│
 │                                                                │
 │ 💰 IMPACTO PRESUPUESTAL:                                      │
 │ Antes: $1,800,000,000 COP (15 UND)                            │
@@ -503,7 +503,7 @@ El Reporte Gerencial debe mostrar:
 │ 📎 REFERENCIAS:                                               │
 │ • DT-TETRA-001 (7 Oct 2025)                                   │
 │ • AT1 §2.1 (Alcance del Proyecto)                            │
-│ • V.2 CTC §3.2 (Arquitectura ATP)                             │
+│ • V.2 CTC §3.2 (Arquitectura PTC)                             │
 └────────────────────────────────────────────────────────────────┘
 ```
 
@@ -558,7 +558,7 @@ Script: consolidar_para_carpeta_x.ps1
         ↓
 Lee V.2_CTC_Detalle_v4.1.md
 Extrae:
-  - Arquitectura ATP (§3.2)
+  - Arquitectura PTC (§3.2)
   - Criterio técnico validado (5+2+1)
   - Justificación aprobada
         ↓
@@ -567,8 +567,8 @@ Genera:
     1_SISTEMAS_TECNICOS/
       SISTEMA_01_Control_Master.md
         ↓
-Sección ATP actualizada:
-  "8 unidades ATP embarcadas (5+2+1)"
+Sección PTC actualizada:
+  "8 unidades PTC embarcadas (5+2+1)"
   "Criterio validado en V.2 CTC v4.1"
   "Origen: DT-TETRA-001"
         ↓
@@ -661,7 +661,7 @@ Exporta a:
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │  CHAT (Especialista)                                            │
-│  "Cambiar ATP de 15 a 8, justificación: AT1, criterio: 5+2+1"  │
+│  "Cambiar PTC de 15 a 8, justificación: AT1, criterio: 5+2+1"  │
 └──────────────────────────┬──────────────────────────────────────┘
                            ↓
 ┌─────────────────────────────────────────────────────────────────┐

@@ -18,14 +18,14 @@ Esta matriz establece las **referencias cruzadas obligatorias** entre el documen
 
 ## 🔧 **SISTEMAS TÉCNICOS Y DOCUMENTOS AFECTADOS**
 
-### **1. FIBRA ÓPTICA (594 km)**
+### **1. FIBRA ÓPTICA (526 km)**
 
 | Criterio Maestro | Documento Afectado | Sección | Estado | Responsable |
 |------------------|-------------------|---------|---------|-------------|
-| **594 km corredor + 10%** | `WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná.html` | Cap. 1.1.1 | ✅ | Presupuesto |
-| **594 km corredor + 10%** | `28_Sistema_FibraOptica_Integrado.md` | Cantidades base | ✅ | Ing. Conceptual |
-| **594 km corredor + 10%** | `V.3_Sistemas_Comunicacion_Detalle.md` | Cap. 3.1 | ✅ | Ing. Detalle |
-| **594 km corredor + 10%** | `6_Fibra_ptica_Contrato_8_6.md` | Especificaciones | ✅ | Ing. Detalle |
+| **526 km corredor + 10%** | `WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná.html` | Cap. 1.1.1 | ✅ | Presupuesto |
+| **526 km corredor + 10%** | `28_Sistema_FibraOptica_Integrado.md` | Cantidades base | ✅ | Ing. Conceptual |
+| **526 km corredor + 10%** | `V.3_Sistemas_Comunicacion_Detalle.md` | Cap. 3.1 | ✅ | Ing. Detalle |
+| **526 km corredor + 10%** | `6_Fibra_ptica_Contrato_8_6.md` | Especificaciones | ✅ | Ing. Detalle |
 | **1,980 cajas cada 300m** | `39_PlanosPreliminares_localizacion.md` | Ubicación cajas | ✅ | Ing. Básica |
 | **4 cajas por puente** | `V.4_Sistemas/V.4.1_Sistemas_Ferroviarios.md` | Cantidades | ✅ | Ing. Detalle |
 | **1 fusionadora + 1 OTDR** | `WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná.html` | Cap. 1.1.5-6 | ✅ | Presupuesto |
@@ -40,12 +40,12 @@ Esta matriz establece las **referencias cruzadas obligatorias** entre el documen
 | **15 radios móviles locomotoras** | `WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná.html` | Cap. 4.1.3 | ✅ | Presupuesto |
 | **Redundancia TETRA+GSM** | `27_1_Estimaciond_e_cantidedes_Tetra.md` | Cálculos | ✅ | Ing. Conceptual |
 
-### **3. SEÑALIZACIÓN VIRTUAL (CTC + ATP)**
+### **3. SEÑALIZACIÓN VIRTUAL (CTC + PTC)**
 
 | Criterio Maestro | Documento Afectado | Sección | Estado | Responsable |
 |------------------|-------------------|---------|---------|-------------|
 | **CTC centralizado** | `WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná.html` | Cap. 5.1 | ✅ | Presupuesto |
-| **ATP embarcado 15 locomotoras** | `WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná.html` | Cap. 5.1.3 | ✅ | Presupuesto |
+| **PTC embarcado 15 locomotoras** | `WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná.html` | Cap. 5.1.3 | ✅ | Presupuesto |
 | **Señalización virtual** | `29_Sistema_Senalizacion_Integrado.md` | Filosofía | ✅ | Ing. Conceptual |
 | **CTC centralizado** | `V.2_Centro_Control_Trafico_CTC_Detalle.md` | Arquitectura | ✅ | Ing. Detalle |
 | **Eliminación señalización física** | `V.1_Senalizacion_Ferroviaria_Detalle.md` | Especificaciones | ✅ | Ing. Detalle |
@@ -143,7 +143,7 @@ Para cada documento en la matriz:
 ### **INDICADORES DE COHERENCIA**
 | Indicador | Valor Esperado | Verificación |
 |-----------|----------------|--------------|
-| **Fibra óptica** | 594 km en todos los docs | ✅ Coherente |
+| **Fibra óptica** | 526 km en todos los docs | ✅ Coherente |
 | **Estaciones TETRA** | 33 en todos los docs | ✅ Coherente |
 | **Locomotoras** | 15 en todos los docs | ✅ Coherente |
 | **Cámaras CCTV** | 73 en todos los docs | ✅ Coherente |
@@ -157,17 +157,17 @@ Para cada documento en la matriz:
 
 | Documento | Antes | Después | Diferencia |
 |-----------|-------|---------|------------|
-| **CRITERIOS_TECNICOS_MAESTRO** | 450 km | 594 km | +144 km |
+| **CRITERIOS_TECNICOS_MAESTRO** | 450 km | 526 km | +144 km |
 | **WBS Presupuestal** | $1,125M | $1,485M | +$360M |
 | **Cajas 80x80** | 25 | 1,980 | +1,955 |
 | **Costo cajas** | $200M | $15,840M | +$15,640M |
 | **Total impacto** | - | - | +$16,000M |
 
 ### **PROPAGACIÓN AUTOMÁTICA**
-1. ✅ **CRITERIOS_TECNICOS_MAESTRO_v1.0.md** → 594 km
+1. ✅ **CRITERIOS_TECNICOS_MAESTRO_v1.0.md** → 526 km
 2. ✅ **WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná.html** → $1,485M
-3. ✅ **28_Sistema_FibraOptica_Integrado.md** → 594 km
-4. ✅ **V.3_Sistemas_Comunicacion_Detalle.md** → 594 km
+3. ✅ **28_Sistema_FibraOptica_Integrado.md** → 526 km
+4. ✅ **V.3_Sistemas_Comunicacion_Detalle.md** → 526 km
 5. ✅ **39_PlanosPreliminares_localizacion.md** → 1,980 cajas
 
 ---

@@ -45,7 +45,7 @@ Capítulo / Numeral
 Tablas 17 a 20
 
 5.1 Material rodante del proyecto
-Locomotoras U18 y/o equivalentes con: equipos embarcados PTC (PTC VIRTUAL Level 2 hasta AT3), radio TETRA, GPS, comunicaciones tren–tierra, interoperabilidad FENOCO.
+Locomotoras U18 y/o equivalentes con: equipos embarcados PTC (PTC Virtual (FRA 236) hasta AT3), radio TETRA, GPS, comunicaciones tren–tierra, interoperabilidad FENOCO.
 Cap. V, 5.1
 
 5.2 Maquinaria de mantenimiento de vía
@@ -53,7 +53,7 @@ Capítulo / Numeral
 Cap. V, 5.2
 
 5.3 Material rodante de factor de calidad
-Equipamiento adicional de control y comunicación para locomotoras, interoperabilidad con FENOCO (PTC PTC VIRTUAL Level 2), disponibilidad 99.95% según AT4.
+Equipamiento adicional de control y comunicación para locomotoras, interoperabilidad con FENOCO (PTC PTC Virtual (FRA 236)), disponibilidad 99.95% según AT4.
 Cap. V, 5.3
 
 7.2 Obligaciones etapa preoperativa
@@ -727,13 +727,13 @@ Proxima actualizacion: 27 de febrero de 2025
 
 ### ✅ **MEJORAS IMPLEMENTADAS:**
 
-1. **🚂 PTC Especificado:** PTC VIRTUAL Level 2 como estándar hasta AT3 en material rodante
+1. **🚂 PTC Especificado:** PTC Virtual (FRA 236) como estándar hasta AT3 en material rodante
 2. **🔗 Interoperabilidad FENOCO:** Criterios de interoperabilidad especificados
 3. **📊 Criterios de Disponibilidad AT4:** Integrados en sistemas críticos
 4. **🎯 Relación Actualizada:** Refleja mejoras implementadas en documentos individuales
 
 ### 🎯 **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
-- ✅ **PTC:** Estrategia de avance con PTC VIRTUAL Level 2 especificada
+- ✅ **PTC:** Estrategia de avance con PTC Virtual (FRA 236) especificada
 - ✅ **FENOCO:** Criterios de interoperabilidad según estándares FRA/AREMA
 - ✅ **AT4:** Criterios de disponibilidad integrados en sistemas críticos
 - ✅ **Consistencia:** Relación alineada con documentos individuales mejorados
@@ -742,7 +742,7 @@ Proxima actualizacion: 27 de febrero de 2025
 
 | **ID** | **Riesgo** | **Categoría** | **Probabilidad** | **Impacto** | **Descripción** |
 |:---:|:---|:---:|:---:|:---|:---|
-| **R-001** | **Dependencia AT3 para PTC** | **Técnico** | **Alta** | **Alto** | Especificaciones PTC pendientes de AT3, estrategia temporal con PTC VIRTUAL Level 2 |
+| **R-001** | **Dependencia AT3 para PTC** | **Técnico** | **Alta** | **Alto** | Especificaciones PTC pendientes de AT3, estrategia temporal con PTC Virtual (FRA 236) |
 | **R-002** | **Interoperabilidad FENOCO** | **Técnico** | **Media** | **Alto** | Compatibilidad con sistemas existentes FENOCO no completamente definida |
 | **R-003** | **Disponibilidad 99.95%** | **Contractual** | **Media** | **Alto** | Cumplimiento de indicadores AT4 requiere redundancia crítica |
 | **R-004** | **Coordinación Apéndices** | **Gestión** | **Media** | **Medio** | Múltiples apéndices técnicos con interdependencias complejas |

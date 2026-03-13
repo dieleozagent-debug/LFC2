@@ -129,7 +129,7 @@
 - **Brecha:** Falta especificación técnica detallada de componentes ITS
 
 #### **3. Integración con Sistemas de Seguridad:**
-- **V.5_Sistemas_Seguridad_Detalle_v5.0.md:** Enfoque en ATP, CTC, ENCE
+- **V.5_Sistemas_Seguridad_Detalle_v5.0.md:** Enfoque en PTC, CTC, ENCE
 - **CCTV:** Documentado por separado
 - **Brecha:** Falta integración coherente entre todos los sistemas de seguridad
 

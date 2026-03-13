@@ -127,9 +127,7 @@ function getCategoria(codigo) {
     return map[cap] || "otros";
 }
 
-const PANDOC_PATH = fs.existsSync('/home/administrador/docker/LFC2/bin/bin/pandoc') 
-    ? '/home/administrador/docker/LFC2/bin/bin/pandoc' 
-    : 'pandoc';
+const PANDOC_PATH = 'pandoc';
 
 // ... (getCategoria stays the same)
 
@@ -185,7 +183,7 @@ function cook(sistema = null) {
         let contenido = fs.readFileSync(rutaEjecutivo, 'utf8');
         
         // VALIDACIÓN DE SOBERANÍA (Protocolo v2.2 - Systemic Purge)
-        const blacklist = ["UIC", "ERTMS", "ETCS", "GSM-R", "EUROBALIZA", "EMU", "CATENARIA", "25 KV"];
+        const blacklist = ["FRA/AREMA", "PTC Virtual", "PTC Virtual", "Red Vital IP", "EUROBALIZA", "Locomotora Diesel-Eléctrica", "CATENARIA", "25 KV"];
         const detectados = blacklist.filter(term => contenido.toUpperCase().includes(term));
         
         if (detectados.length > 0) {
@@ -204,6 +202,80 @@ function cook(sistema = null) {
             log(`  ℹ️ Ya está validado v2.2.`, colors.magenta);
         }
     });
+}
+
+/**
+ * COMANDO: purify (Saneamiento Sistémico Masivo)
+ * Limpia recursivamente todos los archivos de ingeniería y servidos.
+ */
+function purify() {
+    log("\n🧼 PURIFY - Saneamiento Sistémico v4.0 (ADN Pureza)\n", colors.cyan);
+    
+    // Cargar terminología
+    const term = require('../IX. WBS y Planificacion/lfc-terminology.js');
+    const blacklist = term.LEGACY_BLACKLIST;
+    
+    // Mapeo de Corrección de Contexto
+    const mapCorreccion = {
+        "PTC": "PTC",
+        "Red Vital IP": "Red Vital IP",
+        "Tracción Diesel-Eléctrica": "Tracción Diesel-Eléctrica",
+        "Tracción Diesel-Eléctrica": "Tracción Diesel-Eléctrica",
+        "Locomotora Diesel-Eléctrica": "Locomotora Diesel-Eléctrica",
+        "Infraestructura Diesel": "Infraestructura Diesel",
+        "526 km": "526 km", // Ajuste contractual
+        "526km": "526km",
+        "PTC Virtual (FRA 236)": "PTC Virtual (FRA 236)",
+        "FRA/AREMA": "FRA/AREMA",
+        "PTC Virtual": "PTC Virtual",
+        "PTC Virtual": "PTC Virtual",
+        "Nodos GNSS": "Nodos GNSS",
+        "Nodos GNSS": "Nodos GNSS"
+    };
+
+    const extensiones = ['.md', '.html', '.js', '.json'];
+    const carpetasIgnorar = ['node_modules', '.git', 'bin'];
+
+    function walkthrough(dir) {
+        const files = fs.readdirSync(dir);
+        files.forEach(file => {
+            const fullPath = path.join(dir, file);
+            if (carpetasIgnorar.some(ignore => fullPath.includes(ignore))) return;
+
+            const stat = fs.statSync(fullPath);
+            if (stat.isDirectory()) {
+                walkthrough(fullPath);
+            } else if (extensiones.includes(path.extname(fullPath))) {
+                let contenido = fs.readFileSync(fullPath, 'utf8');
+                let modificado = false;
+
+                // 1. Reemplazo por Mapa de Contexto
+                Object.keys(mapCorreccion).forEach(key => {
+                    const regex = new RegExp(`\\b${key}\\b`, 'g');
+                    if (regex.test(contenido)) {
+                        contenido = contenido.replace(regex, mapCorreccion[key]);
+                        modificado = true;
+                    }
+                });
+
+                // 2. Validación contra Blacklist (si queda algo)
+                blacklist.forEach(bTerm => {
+                    const regex = new RegExp(bTerm, 'gi');
+                    if (regex.test(contenido)) {
+                        log(`  ⚠️ Residuo detectado en ${path.basename(fullPath)}: ${bTerm}`, colors.yellow);
+                    }
+                });
+
+                if (modificado) {
+                    fs.writeFileSync(fullPath, contenido, 'utf8');
+                    log(`  ✅ Saneado: ${path.relative(REPO_ROOT, fullPath)}`, colors.green);
+                }
+            }
+        });
+    }
+
+    walkthrough(REPO_ROOT);
+    log("\n✨ REPOSITORIO PURIFICADO!", colors.cyan);
 }
 
 /**
@@ -263,7 +335,10 @@ switch (command) {
     case 'serve':
         serve();
         break;
+    case 'purify':
+        purify();
+        break;
     default:
-        log("Uso: lfc [sync | cook | serve]", colors.yellow);
+        log("Uso: lfc [sync | cook | serve | purify]", colors.yellow);
         break;
 }

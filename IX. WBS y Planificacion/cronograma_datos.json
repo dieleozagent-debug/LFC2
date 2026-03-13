@@ -17,19 +17,19 @@
     "restricciones":  [
                           "NO instalar CTC sin Edificio CCO (EXT-01 M18)",
                           "NO instalar Cámaras sin Fibra+Cableado (M26)",
-                          "NO ATP embarcado sin Material Rodante (EXT-02 M20)",
+                          "NO PTC embarcado sin Material Rodante (EXT-02 M20)",
                           "NO Pruebas integradas sin FATs (M38)",
                           "NO SAT sin integración completa (M42)",
                           "NO Ordenar compras sin Aprobación ANI (M12)"
                       ],
     "ruta_critica":  [
                          "M12: Aprobación ANI",
-                         "M13: Orden ATP/ITCS (12m) + Fibra (9m)",
+                         "M13: Orden PTC/ITCS (12m) + Fibra (9m)",
                          "M18: Edificio CCO (EXT-01)",
                          "M20: Material Rodante (EXT-02)",
                          "M22: Fibra llega",
-                         "M25: ATP llega",
-                         "M30: CTC-ATP integrado",
+                         "M25: PTC llega",
+                         "M30: CTC-PTC integrado",
                          "M34: Embarcados completos",
                          "M44: SAT",
                          "M48: ENTREGA FINAL"
@@ -114,12 +114,12 @@
                                                 {
                                                     "meses_buffer":  3,
                                                     "probabilidad":  60,
-                                                    "riesgo":  "Retraso ATP/ITCS (12m lead)"
+                                                    "riesgo":  "Retraso PTC/ITCS (12m lead)"
                                                 },
                                                 {
                                                     "meses_buffer":  2,
                                                     "probabilidad":  50,
-                                                    "riesgo":  "Integración CTC-ATP"
+                                                    "riesgo":  "Integración CTC-PTC"
                                                 }
                                             ]
                        },
@@ -174,7 +174,7 @@
                   },
                   {
                       "id":  "H7",
-                      "nombre":  "ATP/ITCS en Sitio",
+                      "nombre":  "PTC/ITCS en Sitio",
                       "responsable":  "Proveedor",
                       "mes":  25,
                       "tipo":  "Proveedor",
@@ -257,7 +257,7 @@
                   },
                   {
                       "id":  "F5",
-                      "descripcion":  "ATP/ITCS, ITS, Embarcados. Requiere MR M20.",
+                      "descripcion":  "PTC/ITCS, ITS, Embarcados. Requiere MR M20.",
                       "nombre":  "INSTALACION SECUNDARIA",
                       "mes_inicio":  25,
                       "duracion_meses":  10,
@@ -313,7 +313,7 @@
                               },
                               {
                                   "id":  "EXT-02",
-                                  "nota":  "SIN MATERIAL RODANTE NO SE PUEDE instalar sistemas embarcados (ATP, TETRA, TETRA/LTE).",
+                                  "nota":  "SIN MATERIAL RODANTE NO SE PUEDE instalar sistemas embarcados (PTC, TETRA, TETRA/LTE).",
                                   "orden_en_mes":  11,
                                   "nombre":  "Material Rodante Certificado",
                                   "mes_requerido":  20,

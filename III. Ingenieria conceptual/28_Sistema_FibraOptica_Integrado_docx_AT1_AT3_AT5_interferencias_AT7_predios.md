@@ -21,12 +21,12 @@ El Sistema de Fibra Óptica constituye el **Backbone Vital** de comunicaciones d
 ## 2. CONFIGURACIÓN DEL SISTEMA (PURGE PTC VIRTUAL)
 
 ### 2.1 Especificaciones del Backbone:
-- **Trazado:** 594 km de cable FO monomodo (G.652D) de 48 hilos.
+- **Trazado:** 526 km de cable FO monomodo (G.652D) de 48 hilos.
 - **Protocolo:** Red WAN Vital basada en **MPLS/IP** para máxima interoperabilidad.
 - **Redundancia:** Topología de anillo auto-sanante con protección de sub-50ms.
 
 ### 2.2 🔍 AUDITORÍA DE SANEAMIENTO:
-- ✅ **ELIMINADO:** Referencias a protocolos de comunicación PTC VIRTUAL Level 2.
+- ✅ **ELIMINADO:** Referencias a protocolos de comunicación PTC Virtual (FRA 236).
 - ✅ **ELIMINADO:** Soporte para protocolos FRA/AREMA de interoperabilidad.
 - ✅ **ADOPTADO:** Arquitectura **Vital IP** para soporte de **PTC Virtual (FRA 236)**.
 

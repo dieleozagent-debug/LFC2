@@ -25,7 +25,7 @@
 
 ## 2. INSTALACIÓN DE SISTEMAS EMBARCADOS
 
-### 2.1 ATP Embarcado
+### 2.1 PTC Embarcado
 - **Hardware:** Instalación de equipos
 - **Software:** Configuración de sistemas
 - **Interfaces:** Conexiones de usuario
@@ -69,7 +69,7 @@
 
 ## 4. INTEGRACIÓN DE SISTEMAS
 
-### 4.1 Integración ATP
+### 4.1 Integración PTC
 - **Interfaces:** Conexiones entre sistemas
 - **Comunicaciones:** Sistemas de comunicación
 - **Configuración:** Parámetros de integración
@@ -124,9 +124,9 @@
 - **Manuales:** De operación y mantenimiento
 
 ### 7.2 Sistemas Mecánicos
-- **15 Locomotoras:** Con ATP embarcado
+- **15 Locomotoras:** Con PTC embarcado
 - **15 EOT:** Dispositivos End of Train
-- **Sistemas embarcados:** ATP + comunicaciones
+- **Sistemas embarcados:** PTC + comunicaciones
 - **Interfaces:** Sistemas de usuario
 
 ---

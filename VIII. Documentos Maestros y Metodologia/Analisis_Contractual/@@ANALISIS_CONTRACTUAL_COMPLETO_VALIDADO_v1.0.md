@@ -28,7 +28,7 @@
    - Línea 289: "Positive Train Control" (PTC - AAR americano)
    - Líneas 506-524: Enclavamientos normas Adif (español)
    - Líneas 529-532: CTC protocolo Adif (español)
-   - ❌ **NO menciona:** PTC ni PTC VIRTUAL Level 2
+   - ❌ **NO menciona:** PTC ni PTC Virtual (FRA 236)
 
 2. **Análisis A.1 (línea 49):**
    - "Diseñar 5 enclavamientos electrónicos y un sistema **PTC**"
@@ -40,7 +40,7 @@
 - ✅ PTC mencionado (sistema americano AAR)
 - ✅ CTC Adif mencionado (sistema español)
 - ❌ PTC NO mencionado
-- ❌ PTC VIRTUAL Level 2 NO mencionado
+- ❌ PTC Virtual (FRA 236) NO mencionado
 
 **CONCLUSIÓN:** 🔴 **BLOCKER CRÍTICO CONFIRMADO**
 

@@ -17,14 +17,14 @@
 - **❌ TETRA:** 33 estaciones → **37 estaciones** (Ajuste a criterios maestros)
 - **❌ RED TETRA (Misión Crítica):** Sistema independiente → **Colocalizado con TETRA** (Redundancia operacional)
 - **❌ Cobertura:** 146 km → **526.133 km** (Corredor completo)
-- **❌ Capacidad:** 24 trenes → **15 trenes** (Alineación con ATP embarcado)
+- **❌ Capacidad:** 24 trenes → **15 trenes** (Alineación con PTC embarcado)
 
 #### **✅ FILOSOFÍA NUEVA (IMPLEMENTADA):**
 - **✅ TETRA:** 37 estaciones base con solapamiento 15-20%
 - **✅ RED TETRA (Misión Crítica):** 37 estaciones colocalizadas con TETRA
 - **✅ Colocalización:** Misma torre para TETRA + RED TETRA (Misión Crítica)
 - **✅ Redundancia:** Doble sistema de comunicaciones
-- **✅ Integración:** CTC virtual + ATP embarcado
+- **✅ Integración:** CTC virtual + PTC embarcado
 
 ---
 
@@ -39,7 +39,7 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 - **Capacidad:** 15 trenes simultáneos + servicios auxiliares
 
 ### 1.2 Objetivos del Sistema Colocalizado
-- **Comunicación tren-tierra:** Enlace crítico para ATP embarcado (sin RBC)
+- **Comunicación tren-tierra:** Enlace crítico para PTC embarcado (sin RBC)
 - **Comunicación operacional:** Voz y datos para operadores
 - **Redundancia operacional:** TETRA + RED TETRA (Misión Crítica) como respaldo mutuo
 - **Disponibilidad:** 99.9% de disponibilidad operacional
@@ -77,7 +77,7 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
                               │ (TETRA + RED TETRA (Misión Crítica))
                               ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                    ATP EMBARCADO (15 LOCOMOTORAS)           │
+│                    PTC EMBARCADO (15 LOCOMOTORAS)           │
 ├─────────────────────────────────────────────────────────────┤
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
 │  │ Radio TETRA │  │ Radio RED TETRA (Misión Crítica) │  │   Display   │         │
@@ -96,10 +96,10 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 - **Redundancia:** Respaldo mutuo entre sistemas
 - **Cobertura:** 526.133 km de vía con solapamiento
 
-#### 2.2.2 Fibra Óptica (594 km)
+#### 2.2.2 Fibra Óptica (526 km)
 - **Tecnología:** DWDM (Dense Wavelength Division Multiplexing)
 - **Capacidad:** 100 Gbps por canal, 80 canales
-- **Cobertura:** 594 km de vía con redundancia
+- **Cobertura:** 526 km de vía con redundancia
 - **Aplicaciones:** Datos críticos, video, telemetría
 
 #### 2.2.3 Comunicaciones Satelitales (Respaldo)
@@ -130,7 +130,7 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 - **Potencia RED TETRA (Misión Crítica):** 8W (móvil), 2W (portátil)
 - **Antenas:** Omnidireccionales duales
 - **Batería:** 12 horas de autonomía (TETRA), 8 horas (RED TETRA (Misión Crítica))
-- **Interfaz:** ATP embarcado compatible
+- **Interfaz:** PTC embarcado compatible
 
 #### 3.1.3 Red Core Colocalizada
 - **TETRA Core:** Motorola (TETRA Core)
@@ -139,7 +139,7 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 - **Redundancia:** N+1 en ambos sistemas
 - **Conmutación:** Automática entre sistemas
 
-### 3.2 Fibra Óptica (594 km)
+### 3.2 Fibra Óptica (526 km)
 
 #### 3.2.1 Cable Óptico
 - **Tipo:** G.652.D (SMF-28)
@@ -147,7 +147,7 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 - **Atenuación:** 0.35 dB/km @ 1550 nm
 - **Dispersión:** 18 ps/nm/km @ 1550 nm
 - **Instalación:** Enterrado + aéreo
-- **Longitud:** 594 km (corredor completo)
+- **Longitud:** 526 km (corredor completo)
 
 #### 3.2.2 Equipos DWDM
 - **Fabricante:** Ciena (WaveLogic)
@@ -184,7 +184,7 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 
 ### 4.1 Comunicación Tren-Tierra Colocalizada
 
-#### 4.1.1 ATP Embarcado (Sin RBC)
+#### 4.1.1 PTC Embarcado (Sin RBC)
 - **Movement Authority:** Autorización de movimiento via CTC virtual
 - **Position Report:** Reporte de posición via TETRA/RED TETRA (Misión Crítica)
 - **Emergency Stop:** Parada de emergencia via doble sistema
@@ -200,8 +200,8 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 
 ### 4.2 Comunicación Operacional Colocalizada
 
-#### 4.2.1 CTC-ATP Virtual
-- **Interface Directa:** CTC ↔ ATP (sin RBC)
+#### 4.2.1 CTC-PTC Virtual
+- **Interface Directa:** CTC ↔ PTC (sin RBC)
 - **Protocolo:** XML/JSON over IP
 - **Frecuencia:** 1 Hz (tiempo real)
 - **Latencia:** < 100 ms
@@ -237,7 +237,7 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 ### 5.1 Seguridad Funcional Colocalizada (EN 50126/50128/50129)
 
 #### 5.1.1 Objetivos de Seguridad Colocalizados
-- **SIL 4:** Comunicación ATP embarcado (TETRA + RED TETRA (Misión Crítica))
+- **SIL 4:** Comunicación PTC embarcado (TETRA + RED TETRA (Misión Crítica))
 - **SIL 3:** Comunicación operacional dual
 - **SIL 2:** Comunicación de supervisión redundante
 - **SIL 1:** Comunicación administrativa
@@ -282,7 +282,7 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 
 ## 6. Integración y Comunicaciones Colocalizadas
 
-### 6.1 Integración ATP Embarcado
+### 6.1 Integración PTC Embarcado
 
 #### 6.1.1 Protocolo TETRA + RED TETRA (Misión Crítica)
 - **Estándar TETRA:** ETSI EN 300 392-2
@@ -302,7 +302,7 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 ### 6.2 Comunicaciones Externas Colocalizadas
 
 #### 6.2.1 Enlaces Nacionales Colocalizados
-- **Fibra Óptica:** Enlace principal (594 km)
+- **Fibra Óptica:** Enlace principal (526 km)
 - **TETRA:** Enlace de respaldo
 - **RED TETRA (Misión Crítica):** Enlace de respaldo
 - **VSAT:** Enlace de emergencia
@@ -358,17 +358,17 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 - **Pruebas de Instalación:** Torres compartidas
 - **Pruebas de Funcionamiento:** Operación dual
 
-#### 8.1.2 Pruebas ATP Embarcado
+#### 8.1.2 Pruebas PTC Embarcado
 - **Pruebas de Fábrica (FAT):** Radios duales embarcados
 - **Pruebas de Instalación:** Sistemas embarcados duales
-- **Pruebas de Integración:** CTC-ATP via doble sistema
+- **Pruebas de Integración:** CTC-PTC via doble sistema
 - **Pruebas de Funcionamiento:** Operación embarcada dual
 
 ### 8.2 Pruebas de Sistema Colocalizado
 
 #### 8.2.1 Pruebas de Integración Colocalizada
 - **TETRA-RED TETRA (Misión Crítica):** Integración colocalizada
-- **CTC-ATP:** Integración via doble sistema
+- **CTC-PTC:** Integración via doble sistema
 - **Redundancia:** Pruebas de failover automático
 - **Comunicaciones:** TETRA + RED TETRA (Misión Crítica) + VSAT
 
@@ -393,7 +393,7 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 ### 9.1 Documentación Técnica Colocalizada
 - **Planos TETRA + RED TETRA (Misión Crítica):** Sistemas colocalizados
 - **Especificaciones Torres:** Torres compartidas
-- **Manuales ATP:** Sistemas embarcados duales
+- **Manuales PTC:** Sistemas embarcados duales
 - **Manuales Colocalizados:** Operación y mantenimiento dual
 
 ### 9.2 Software y Configuración Colocalizada
@@ -415,13 +415,13 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 ### 10.1 Fases del Proyecto Colocalizado
 - **Fase 1:** TETRA + RED TETRA (Misión Crítica) Colocalizados (3 meses)
 - **Fase 2:** Torres Compartidas (2 meses)
-- **Fase 3:** ATP Embarcado Dual (3 meses)
+- **Fase 3:** PTC Embarcado Dual (3 meses)
 - **Fase 4:** Pruebas Colocalizadas (2 meses)
 - **Fase 5:** Puesta en Servicio (1 mes)
 
 ### 10.2 Hitos Principales Colocalizados
 - **37 Torres Colocalizadas:** TETRA + RED TETRA (Misión Crítica) completadas
-- **ATP Embarcado Dual:** Sistemas en 15 locomotoras
+- **PTC Embarcado Dual:** Sistemas en 15 locomotoras
 - **Redundancia Operacional:** TETRA + RED TETRA (Misión Crítica) funcionando
 - **Pruebas Colocalizadas:** Validación completa
 - **Puesta en Servicio:** Operación comercial colocalizada

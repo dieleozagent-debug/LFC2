@@ -80,8 +80,8 @@ Esta carpeta contiene los **documentos maestros y metodológicos** del proyecto 
 **Archivo:** `CRITERIOS_TECNICOS_MAESTRO_APP_La_Dorada_Chiriguaná_v1.0.md`
 
 **Contiene:**
-- Cantidades técnicas definitivas (594 km fibra, 37 estaciones TETRA, etc.)
-- Filosofía del sistema (señalización virtual, CTC + ATP)
+- Cantidades técnicas definitivas (526 km fibra, 37 estaciones TETRA, etc.)
+- Filosofía del sistema (señalización virtual, CTC + PTC)
 - Especificaciones técnicas detalladas
 - Criterios de interoperabilidad FENOCO
 

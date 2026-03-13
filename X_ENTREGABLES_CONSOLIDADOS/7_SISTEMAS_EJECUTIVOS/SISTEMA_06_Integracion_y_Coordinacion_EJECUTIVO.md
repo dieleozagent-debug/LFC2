@@ -10,7 +10,7 @@ El Sistema de Integración y Coordinación es el **"director de orquesta"** del 
 
 ### Alcance en números - JUSTIFICACIÓN TÉCNICA
 - **Inversión estimada:** $25,000 millones COP
-- **25 interfaces críticas:** CTC-PTC (FFFIS), TETRA-RED TETRA (Misión Crítica), ITS-Seguridad, Material Rodante-ATP
+- **25 interfaces críticas:** CTC-PTC (FFFIS), TETRA-RED TETRA (Misión Crítica), ITS-Seguridad, Material Rodante-PTC
 - **15 protocolos de interoperabilidad:** FRA/AREMA 920-2, FRA/AREMA 438, FRA/AREMA 930, FRA/AREMA 950, FFFIS, EN 50159
 - **12 APIs de integración:** Comunicación entre sistemas y FENOCO
 - **Gateway de integración:** Conversión de protocolos entre sistemas y red nacional
@@ -37,7 +37,7 @@ El Sistema de Integración y Coordinación es el **"director de orquesta"** del 
 | **CTC-PTC** | 5 interfaces | Control automático de trenes (FFFIS) |
 | **TETRA-RED TETRA (Misión Crítica)** | 4 interfaces | Comunicaciones redundantes |
 | **ITS-Seguridad** | 3 interfaces | Monitoreo y control de seguridad |
-| **Material Rodante-ATP** | 4 interfaces | Control embarcado |
+| **Material Rodante-PTC** | 4 interfaces | Control embarcado |
 | **Infraestructura** | 6 interfaces | Coordinación de infraestructura |
 | **FENOCO** | 3 interfaces | Interoperabilidad nacional |
 
@@ -264,7 +264,7 @@ El sistema de integración y coordinación opera 24/7 proporcionando coordinaci�
 | Control y Señalización | CTC Virtual | Alta | EPC Sistemas |
 | Telecomunicaciones | TETRA + RED TETRA (Misión Crítica) | Alta | EPC Telecomunicaciones |
 | ITS y Seguridad | CCTV + Monitoreo | Media | EPC Sistemas |
-| Material Rodante | ATP Embarcado | Alta | EPC Sistemas |
+| Material Rodante | PTC Embarcado | Alta | EPC Sistemas |
 
 ---
 

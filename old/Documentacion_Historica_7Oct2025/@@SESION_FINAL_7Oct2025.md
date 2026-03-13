@@ -12,7 +12,7 @@
 
 ### **PARTE 1: EJECUCIÓN DT-TETRA-001** ✅
 - ✅ Ejecutada manualmente (modo paso a paso)
-- ✅ Item 1.2.100: 15 → 8 ATP embarcadas
+- ✅ Item 1.2.100: 15 → 8 PTC embarcadas
 - ✅ 9 ítems recalculados
 - ✅ Ahorro: **$7.479.500.000 COP** (-47%)
 - ✅ WBS actualizado: v2.0 → v2.1
@@ -39,7 +39,7 @@
 - ✅ Creadas 3 DTs corregidas:
   - **DT-ENCE-001:** Controlador ENCE (+$994M)
   - **DT-ENCE-002:** Interfaces CTC-ENCE (+$300M)
-  - **DT-CTC-001:** 3 componentes ATP (-$1.260M)
+  - **DT-CTC-001:** 3 componentes PTC (-$1.260M)
 - ✅ Balance neto: +$34M
 
 ---

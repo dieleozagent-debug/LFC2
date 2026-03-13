@@ -108,7 +108,7 @@
 
 #### **Estándares de Interoperabilidad:**
 - **FRA/AREMA 920-2:** RED TETRA (Misión Crítica) para comunicaciones ferroviarias
-- **FRA/AREMA 438:** PTC VIRTUAL Level 2 para control de trenes
+- **FRA/AREMA 438:** PTC Virtual (FRA 236) para control de trenes
 - **FRA/AREMA 930:** Interoperabilidad de sistemas de señalización
 - **FRA/AREMA 950:** Interoperabilidad de sistemas de control de tráfico
 - **FFFIS:** Form Fit Function Interface Specification
@@ -124,7 +124,7 @@
 | ID Interfaz | Sistema A | Sistema B | Tipo de Interfaz | Protocolo / Estándar | Estado |
 |:------------|:----------|:----------|:------------------|:---------------------|:-------|
 | **IF-01** | CTC | Enclavamiento | Datos / Control | SCI-CC-A (NAS 830) | ✅ Definida |
-| **IF-02** | CTC | PTC (Material Rodante) | Datos / Control | PTC VIRTUAL Level 2 | ✅ Definida |
+| **IF-02** | CTC | PTC (Material Rodante) | Datos / Control | PTC Virtual (FRA 236) | ✅ Definida |
 | **IF-03** | CTC | TETRA | Comunicación | TCP/IP + SNMP | ✅ Definida |
 | **IF-04** | CTC | SICC | Datos | API REST | ✅ Definida |
 | **IF-05** | TETRA | Locomotoras | Comunicación | EN 300 392 | ✅ Definida |
@@ -211,7 +211,7 @@
 | Protocolo | Estándar | Función | Estado |
 |:----------|:----------|:---------|:-------|
 | **FRA/AREMA 920-2** | RED TETRA (Misión Crítica) | Comunicaciones ferroviarias | ✅ Implementado |
-| **FRA/AREMA 438** | PTC VIRTUAL Level 2 | Control de trenes | ✅ Implementado |
+| **FRA/AREMA 438** | PTC Virtual (FRA 236) | Control de trenes | ✅ Implementado |
 | **FRA/AREMA 930** | Señalización | Interoperabilidad señalización | ✅ Implementado |
 | **FRA/AREMA 950** | Control tráfico | Interoperabilidad control | ✅ Implementado |
 
@@ -238,7 +238,7 @@
 #### **Sistemas de Comunicación Integrados:**
 - **TETRA Principal:** 37 estaciones con cobertura 100%
 - **RED TETRA (Misión Crítica) Redundante:** 37 estaciones colocalizadas
-- **Fibra Óptica:** 594 km con doble anillo DWDM
+- **Fibra Óptica:** 526 km con doble anillo DWDM
 - **Interfaces:** Ethernet industrial con redundancia
 
 ### **5.2 Especificaciones de Software de Integración**
@@ -246,7 +246,7 @@
 #### **Sistema de Integración Central:**
 - **Plataforma:** Siemens WinCC OA con redundancia
 - **Funcionalidades:** Supervisión, control, alarmas, históricos
-- **Interfaces:** CTC, ATP, ENCE, desvíos, EOT, FENOCO
+- **Interfaces:** CTC, PTC, ENCE, desvíos, EOT, FENOCO
 - **Protocolos:** FFFIS, FRA/AREMA estándar, TCP/IP, API REST
 - **Actualización:** Over-the-air (OTA)
 
@@ -329,9 +329,9 @@
 #### **CTC ↔ Sistemas de Control:**
 - **ENCE:** Control de enclavamientos electrónicos
 - **Desvíos:** Control de 120 desvíos (25 motorizados + 95 manuales)
-- **ATP Embarcado:** Comunicación con 15 locomotoras
+- **PTC Embarcado:** Comunicación con 15 locomotoras
 - **EOT:** Monitoreo de 15 dispositivos End of Train
-- **Protocolo:** PTC VIRTUAL Level 2 estándar FRA/AREMA
+- **Protocolo:** PTC Virtual (FRA 236) estándar FRA/AREMA
 
 #### **Sistemas de Comunicación ↔ Material Rodante:**
 - **TETRA:** Comunicación tren-tierra principal
@@ -341,7 +341,7 @@
 - **Protocolo:** EN 300 392 + FRA/AREMA 920-2
 
 #### **Fibra Óptica ↔ Todos los Sistemas:**
-- **Backbone:** 594 km con doble anillo DWDM
+- **Backbone:** 526 km con doble anillo DWDM
 - **Capacidad:** 48 fibras G.652D por cable
 - **Redundancia:** Doble anillo con protección automática
 - **Protocolo:** Ethernet Gigabit con redundancia
@@ -391,7 +391,7 @@
 | Sistema Origen | Sistema Destino | Tipo Interfaz | Protocolo | Estado |
 |:---------------|:----------------|:--------------|:----------|:-------|
 | **CTC** | **ENCE** | Control/Comunicación | SCI-CC-A (NAS 830) | ✅ Implementado |
-| **CTC** | **PTC** | Control/Comunicación | PTC VIRTUAL Level 2 | ✅ Implementado |
+| **CTC** | **PTC** | Control/Comunicación | PTC Virtual (FRA 236) | ✅ Implementado |
 | **CTC** | **TETRA** | Comunicación | TCP/IP + SNMP | ✅ Implementado |
 | **CTC** | **SICC** | Datos | API REST | ✅ Implementado |
 | **TETRA** | **Locomotoras** | Comunicación | EN 300 392 | ✅ Implementado |

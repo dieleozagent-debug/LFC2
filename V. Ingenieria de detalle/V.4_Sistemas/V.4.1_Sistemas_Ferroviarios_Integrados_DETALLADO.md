@@ -14,7 +14,7 @@ Este documento presenta la **ingeniería de sistemas de detalle** para los siste
 
 ### **Base Técnica:**
 - **Longitud total:** 178 km La Dorada-Chiriguaná
-- **Sistemas integrados:** CTC, PTC PTC VIRTUAL Level 2, TETRA, Fibra óptica, CCTV
+- **Sistemas integrados:** CTC, PTC PTC Virtual (FRA 236), TETRA, Fibra óptica, CCTV
 - **Estándares:** FRA/AREMA, EN, IEEE, normas colombianas
 - **Interoperabilidad:** Con red FENOCO
 
@@ -52,7 +52,7 @@ Este documento presenta la **ingeniería de sistemas de detalle** para los siste
 
 ---
 
-## 🚂 SISTEMA PTC PTC VIRTUAL Level 2
+## 🚂 SISTEMA PTC PTC Virtual (FRA 236)
 
 ### **2. INFRAESTRUCTURA PTC**
 

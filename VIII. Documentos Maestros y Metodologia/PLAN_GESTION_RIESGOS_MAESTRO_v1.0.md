@@ -83,7 +83,7 @@ Identificar, evaluar, mitigar y monitorear todos los riesgos del proyecto, con �
 
 ## ⚙️ **RIESGOS TÉCNICOS**
 
-### **5. R-CRONO-001: ATP/PTC Lead Time 12 meses**
+### **5. R-CRONO-001: PTC/PTC Lead Time 12 meses**
 - **Probabilidad:** ALTA (60%)
 - **Impacto:** CRÍTICO (5)
 - **Exposición:** 4.2/5 🔴
@@ -104,13 +104,13 @@ Identificar, evaluar, mitigar y monitorear todos los riesgos del proyecto, con �
 
 ---
 
-### **7. R-INT-001: Integración CTC-ATP**
+### **7. R-INT-001: Integración CTC-PTC**
 - **Probabilidad:** MEDIA (50%)
 - **Impacto:** ALTO (4)
 - **Exposición:** 3.0/5 🟠
 - **Estrategia:** MITIGAR - Pruebas piloto Mes 30, buffer +2m
 - **Responsable:** Especialista Integración
-- **Mitigación:** Proveedor único CTC+ATP reduce riesgo
+- **Mitigación:** Proveedor único CTC+PTC reduce riesgo
 
 ---
 
@@ -191,7 +191,7 @@ Identificar, evaluar, mitigar y monitorear todos los riesgos del proyecto, con �
 | BLOCKER-002 (FENOCO) | PMO | **FENOCO** | 🔴 Externo |
 | BLOCKER-003 (PAN) | PMO + Seg. Vial | **Concesionario** | 🟡 Externo |
 | BLOCKER-004 (MR) | PMO | **FENOCO + Concesionario** | 🟡 Externo |
-| R-CRONO-001 (ATP) | PMO + Adquisiciones | EPC (ordenar a tiempo) | 🟢 Interno |
+| R-CRONO-001 (PTC) | PMO + Adquisiciones | EPC (ordenar a tiempo) | 🟢 Interno |
 | R-FIBRA-001 | PMO | EPC (ordenar M13) | 🟢 Interno |
 | R-INT-001 | Especialista | EPC (pruebas piloto) | 🟢 Interno |
 | R-EXC-001 (Geo/Topo) | Legal + PMO | **Negociar inclusión** | 🔴 **Crítico** |
@@ -209,7 +209,7 @@ Identificar, evaluar, mitigar y monitorear todos los riesgos del proyecto, con �
 ## 🎯 **ESTRATEGIAS POR TIPO**
 
 ### **EVITAR (3 riesgos):**
-- R-CRONO-001: Ordenar ATP inmediato post-M12
+- R-CRONO-001: Ordenar PTC inmediato post-M12
 - R-FIBRA-001: Ordenar fibra M13, llega M22
 - R-EXC-001: Negociar inclusión estudios
 
@@ -273,7 +273,7 @@ Identificar, evaluar, mitigar y monitorear todos los riesgos del proyecto, con �
 ASUNTO: Solicitud Urgente Resolución Indefiniciones Críticas
 
 INDEFINICIONES:
-1. Sistema PTC (PTC VIRTUAL L2 / ATP / Otro) - BLOCKER
+1. Sistema PTC (PTC VIRTUAL L2 / PTC / Otro) - BLOCKER
 2. Especificaciones FENOCO (protocolos) - BLOCKER
 3. Alcance SICC (AT4: Básico vs Integrado)
 4. Estudios geotécnicos/topográficos (¿EPC o Concesionario?)
@@ -411,7 +411,7 @@ ENTREGABLES REQUERIDOS (Mes 6):
 | **IF-02** | CTC ↔ FENOCO | FRA/AREMA 918-4 / Trainguard | ❌ Pendiente FENOCO | EPC + FENOCO |
 | **IF-03** | TETRA ↔ RED TETRA (Misión Crítica) | Gateway dual | 🟡 Conceptual | EPC Telecomunicaciones |
 | **IF-04** | CTC ↔ SCADA | OPC-UA / Modbus TCP | ✅ Estándar | EPC Automatización |
-| **IF-05** | ATP ↔ Frenos | IEC 61375 (TCN) | ⚠️ Pendiente MR specs | EPC Material Rodante |
+| **IF-05** | PTC ↔ Frenos | IEC 61375 (TCN) | ⚠️ Pendiente MR specs | EPC Material Rodante |
 | **IF-06** | CCTV ↔ Fibra | IP/Ethernet | ✅ Estándar | EPC ITS |
 | **IF-07** | SICC ↔ CTC | REST API | 🟡 Pendiente alcance | EPC Sistemas |
 
@@ -505,7 +505,7 @@ ENTREGABLES REQUERIDOS (Mes 6):
 ### **Riesgos Gestionables:**
 4. 🟡 Cantidades PAN → Contingencia ±10% incluida
 5. 🟡 Cronograma MR → Diseño adaptable preparado
-6. 🟠 Lead times (ATP, Fibra) → Ordenar post-M12, controlable
+6. 🟠 Lead times (PTC, Fibra) → Ordenar post-M12, controlable
 
 ### **Estrategia Global:**
 - ✅ Plans B documentados para TODOS los BLOCKERS

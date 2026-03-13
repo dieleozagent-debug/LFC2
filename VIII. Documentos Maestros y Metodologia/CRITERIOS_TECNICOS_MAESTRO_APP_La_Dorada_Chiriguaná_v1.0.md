@@ -36,7 +36,7 @@ Este documento establece los **criterios técnicos maestros** que deben mantener
 | Componente | Cantidad | Criterio | Referencia |
 |------------|----------|----------|------------|
 | **Corredor** | 526.133 km | Longitud total proyecto | Contrato base (respuesta LFC) |
-| **Fibra Óptica** | 594 km | Corredor + 10% reserva | Cálculo técnico |
+| **Fibra Óptica** | 526 km | Corredor + 10% reserva | Cálculo técnico |
 | **Rollos fibra 4km** | **149 rollos** | Rollos de 4km | Cálculo técnico |
 | **Código fibra** | **LPOC03120484ZC** | Cable FO 48 fibras G.652D | Especificación técnica |
 | **Costo fibra** | **$1.07 USD/m** | Por metro | Cotización específica |
@@ -66,7 +66,7 @@ Este documento establece los **criterios técnicos maestros** que deben mantener
 #### **1. CAJAS DE EMPALME Y DISTRIBUCIÓN:**
 ```
 CAJAS LINEALES:
-- Fibra total: 594 km = 594,000 m
+- Fibra total: 526 km = 594,000 m
 - Separación: 300 m
 - Cajas lineales: 594,000 ÷ 300 = 1,980 unidades
 - Ubicación: Costado derecho del corredor
@@ -82,7 +82,7 @@ TOTAL CAJAS: 1,980 + 88 = 2,068 unidades
 #### **2. TRITUBO Y UNIONES:**
 ```
 TRITUBO 40MM (11/4") RDE 13.6 RÍGIDO:
-- Fibra total: 594 km
+- Fibra total: 526 km
 - Rollos de 400m: 594,000 ÷ 400 = 1,485 rollos
 - Costo por rollo: $15,845
 - Costo total tritubo: 1,485 × $15,845 = $23,529,825
@@ -132,7 +132,7 @@ EQUIPOS DE FUSIONADO:
 - Insumos fusionado: Global para 6,600 fusiones
 
 REPUESTOS Y RESERVAS:
-- Fibra repuesto: 10% de 594 km = 59.4 km
+- Fibra repuesto: 10% de 526 km = 59.4 km
 - Tritubo repuesto: 5% de 1,485 rollos = 74 rollos
 - Cajas repuesto: 5% de 2,068 = 104 unidades
 - Uniones repuesto: 5% de 6,204 = 310 unidades
@@ -141,9 +141,9 @@ REPUESTOS Y RESERVAS:
 #### **5. COSTOS ESPECÍFICOS ACTUALIZADOS:**
 | Componente | Cantidad | Costo Unitario | Costo Total |
 |------------|----------|----------------|-------------|
-| **Fibra óptica (materiales)** | 594 km | $9,811,013 | $5,827,741,722 |
-| **Mano de obra (zanja + instalación)** | 594 km | $90,188,987 | $53,572,258,278 |
-| **TOTAL FIBRA ÓPTICA** | 594 km | $100,000,000 | $59,400,000,000 |
+| **Fibra óptica (materiales)** | 526 km | $9,811,013 | $5,827,741,722 |
+| **Mano de obra (zanja + instalación)** | 526 km | $90,188,987 | $53,572,258,278 |
+| **TOTAL FIBRA ÓPTICA** | 526 km | $100,000,000 | $59,400,000,000 |
 | **Tritubo 40mm** | 1,485 rollos | $15,845 | $23,529,825 |
 | **Uniones rápidas** | 6,204 unidades | $35,000 | $217,140,000 |
 | **Cajas 80x80** | 2,068 unidades | $1,350,000 | $2,791,800,000 |
@@ -206,7 +206,7 @@ REPUESTOS Y RESERVAS:
 ```
 CORREDOR 526.133 KM
 ├── 37 ESTACIONES TETRA (cada ~15-20km + 15-20% solapamiento)
-├── BACKBONE FIBRA ÓPTICA (594 km)
+├── BACKBONE FIBRA ÓPTICA (526 km)
 └── COMUNICACIÓN IP
 ```
 
@@ -214,17 +214,17 @@ CORREDOR 526.133 KM
 | Sistema | Cobertura | Redundancia | Criticidad |
 |---------|-----------|-------------|------------|
 | **TETRA** | 15-20 km/estación + 15-20% solapamiento | Fibra Óptica | Alta |
-| **Fibra Óptica** | 594 km | Satelital | Crítica |
+| **Fibra Óptica** | 526 km | Satelital | Crítica |
 | **IP** | Todo el corredor | Múltiple | Media |
 
 ### 4. SISTEMA DE CONTROL
 #### 4.1 Señalización Virtual
 | Componente | Estado | Justificación |
 |------------|--------|---------------|
-| **Virtual Balise (GNSS)s físicas** | ❌ ELIMINADO | Reemplazado por ATP embarcado |
+| **Virtual Balise (GNSS)s físicas** | ❌ ELIMINADO | Reemplazado por PTC embarcado |
 | **Señales LED en vía** | ❌ ELIMINADO | CTC virtual |
 | **CTC Centralizado** | ✅ IMPLEMENTADO | Control desde CCO |
-| **ATP/PTC Embarcado** | ✅ IMPLEMENTADO | 15 locomotoras |
+| **PTC/PTC Embarcado** | ✅ IMPLEMENTADO | 15 locomotoras |
 
 #### 4.2 Arquitectura de Control
 ```
@@ -234,7 +234,7 @@ CENTRO DE CONTROL (CCO)
 ├── SCADA (Supervisión y Control)
 └── COMUNICACIÓN CON TRENES
     ├── TETRA (primario)
-    └── ATP/PTC embarcado
+    └── PTC/PTC embarcado
 ```
 
 ### 5. SISTEMA DE ENERGÍA
@@ -364,7 +364,7 @@ Referencias cruzadas:
 | **Cobertura TETRA** | 100% corredor | ✅ 37 estaciones (15-20% solapamiento) |
 | **Redundancia** | TETRA + RED TETRA (Misión Crítica) | ✅ Implementado |
 | **Disponibilidad** | 99.9% | ✅ UPS + Generadores |
-| **Señalización** | 100% virtual | ✅ CTC + ATP |
+| **Señalización** | 100% virtual | ✅ CTC + PTC |
 
 ---
 
@@ -564,13 +564,13 @@ COMUNICACIÓN:
 | **TOTAL EOT** | - | - | **$520,000,000** |
 | **TOTAL USD** | - | - | **$118,182 USD** |
 
-### **5. INTEGRACIÓN CON ATP/PTC:**
+### **5. INTEGRACIÓN CON PTC/PTC:**
 ```yaml
-INTERFAZ ATP/PTC:
-- Datos EOT integrados en sistema ATP
+INTERFAZ PTC/PTC:
+- Datos EOT integrados en sistema PTC
 - Validación integridad tren en tiempo real
 - Alarma automática por separación
-- Registro de eventos EOT en ATP
+- Registro de eventos EOT en PTC
 
 COMUNICACIÓN:
 - Protocolo: Inalámbrico dedicado

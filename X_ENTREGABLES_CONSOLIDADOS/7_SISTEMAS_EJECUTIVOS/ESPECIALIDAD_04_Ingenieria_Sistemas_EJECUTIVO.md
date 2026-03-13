@@ -36,7 +36,7 @@ La Ingeniería de Sistemas es el **"sistema nervioso"** del ferrocarril que inte
 - **CTC-PTC:** 5 interfaces para control automático de trenes
 - **TETRA-RED TETRA (Misión Crítica):** 4 interfaces para comunicaciones redundantes
 - **ITS-Seguridad:** 3 interfaces para monitoreo y control
-- **Material Rodante-ATP:** 4 interfaces para control embarcado
+- **Material Rodante-PTC:** 4 interfaces para control embarcado
 - **Infraestructura:** 6 interfaces para coordinación
 - **FENOCO:** 3 interfaces para interoperabilidad nacional
 

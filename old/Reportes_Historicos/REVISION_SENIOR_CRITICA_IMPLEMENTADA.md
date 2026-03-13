@@ -33,7 +33,7 @@ Como **Especialista Senior en Control de Trenes** con experiencia en proyectos f
 
 ## 🔧 **REVISIÓN POR ESPECIALIDAD TÉCNICA**
 
-### **1. SISTEMA CONTROL DE TRENES (PTC/PTC VIRTUAL Level 2)**
+### **1. SISTEMA CONTROL DE TRENES (PTC/PTC Virtual (FRA 236))**
 
 #### **📋 Estado Actual Evaluado:**
 - **Ingeniería Básica:** ⚠️ **INCOMPLETA** (65% desarrollada)
@@ -46,7 +46,7 @@ Como **Especialista Senior en Control de Trenes** con experiencia en proyectos f
 🔴 PROBLEMA CRÍTICO: Falta de especificación funcional completa
 - Documento: AT3 referenciado pero no disponible
 - Impacto: Bloqueo total de ingeniería de detalle
-- Solución: Desarrollar especificaciones provisionales PTC VIRTUAL Level 2
+- Solución: Desarrollar especificaciones provisionales PTC Virtual (FRA 236)
 - Estado: 🔄 **EN DESARROLLO**
 ```
 
@@ -212,7 +212,7 @@ Como **Especialista Senior en Control de Trenes** con experiencia en proyectos f
 
 ### **🔴 PRIORIDAD CRÍTICA (1-2 semanas)** 🔄 **EN PROGRESO**
 
-1. **Desarrollar SRS PTC** provisional basado en PTC VIRTUAL Level 2 ✅ **INICIADO**
+1. **Desarrollar SRS PTC** provisional basado en PTC Virtual (FRA 236) ✅ **INICIADO**
 2. **Especificar interfaces CTC-PTC** usando protocolos estándar ✅ **INICIADO**
 3. **Revisar requisito disponibilidad 100%** pasos a nivel ✅ **EN REVISIÓN**
 4. **Definir arquitectura software CTC** con especificaciones técnicas ✅ **INICIADO**

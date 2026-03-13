@@ -170,7 +170,7 @@ Este documento detalla la ingeniería de los sistemas de potencia para el proyec
 - **Regulación:** ±2% (voltaje), ±0.1% (frecuencia)
 
 #### 4.1.2 Cargas Críticas
-- **PTC:** 200 kVA (PTC VIRTUAL Level 2)
+- **PTC:** 200 kVA (PTC Virtual (FRA 236))
 - **CTC:** 100 kVA (Centro de Control)
 - **Comunicaciones:** 50 kVA (RED TETRA (Misión Crítica), TETRA)
 - **Señalización:** 150 kVA (Señales, enclavamientos)
@@ -261,7 +261,7 @@ Este documento detalla la ingeniería de los sistemas de potencia para el proyec
 
 ### 6.1 Integración PTC
 
-#### 6.1.1 Alimentación PTC VIRTUAL Level 2
+#### 6.1.1 Alimentación PTC Virtual (FRA 236)
 - **Potencia:** 200 kVA
 - **Voltaje:** 480 V AC, 3 fases
 - **Frecuencia:** 60 Hz

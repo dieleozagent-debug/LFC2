@@ -124,7 +124,7 @@ Este documento presenta el **plan de integración de sistemas completo** para el
 #### **4.1 Sistemas Embarcados**
 | Sistema | Ubicación | Función | Observaciones |
 |:--------|:----------|:---------|:--------------|
-| **PTC PTC VIRTUAL Level 2** | Cada tren | Control de tren | 40 unidades |
+| **PTC PTC Virtual (FRA 236)** | Cada tren | Control de tren | 40 unidades |
 | **TETRA** | Cada tren | Comunicaciones | 40 unidades |
 | **CCTV** | Cada tren | Video seguridad | 40 unidades |
 | **Sistemas de datos** | Cada tren | Transmisión datos | 40 unidades |

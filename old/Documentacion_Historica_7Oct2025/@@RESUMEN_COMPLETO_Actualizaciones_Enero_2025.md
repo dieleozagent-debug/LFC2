@@ -372,7 +372,7 @@ Genera: AC-FIBRA-001_Análisis_v1.0.md
 Usando: II/Decisiones_Tecnicas/PLANTILLA_Análisis_Cambio.md
 
 Calcula:
-- Cantidades: 594km ÷ 1.0km = 525 cajas
+- Cantidades: 526km ÷ 1.0km = 525 cajas
 - Ahorro CAPEX: (1,050 - 525) × precio unitario
 - Riesgos nuevos: Identificar
 

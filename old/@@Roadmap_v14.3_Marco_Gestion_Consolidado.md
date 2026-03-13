@@ -54,7 +54,7 @@ Actuar como PMO, analizar contrato completo (ATs 1-10), identificar blockers cr�
    - Cronograma 60 meses (36m agresivo + 12m buffer) ✅
 
 ✅ 2) Blockers críticos identificados y documentados (COMPLETADO - 09/10/2025)
-   - 🔴 **BLOCKER-001:** Indefinición PTC (ATP/PTC VIRTUAL L2/CBTC) - 58% proyecto bloqueado ($152,748M COP) ✅
+   - 🔴 **BLOCKER-001:** Indefinición PTC (PTC/PTC VIRTUAL L2/CBTC) - 58% proyecto bloqueado ($152,748M COP) ✅
    - 🔴 **BLOCKER-002:** Protocolos propietarios FENOCO (Siemens Trainguard) - Interoperabilidad indefinida ✅
    - 🟡 **BLOCKER-003:** Cantidades PAN NO confirmadas (regularización en curso, ±10% variación, $489M contingencia) ✅
    - 🟡 **BLOCKER-004:** Cronograma Material Rodante indefinido (15 locomotoras, secuencia pruebas NO definida) ✅
@@ -172,7 +172,7 @@ Automatizar la propagación de cada DT (con YAML) hacia 7 niveles: WBS/Presupues
    - Resultado: 7/7 niveles operativos, trazabilidad completa validada ✅
 
 ### 🧪 Políticas técnicas
-- Normalización: cantidades con unidad ("594km", "1,485rollos") → número + unidad; valores monetarios sin formato en JSON/JS (formato sólo en UI/Excel).
+- Normalización: cantidades con unidad ("526km", "1,485rollos") → número + unidad; valores monetarios sin formato en JSON/JS (formato sólo en UI/Excel).
 - Codificación: UTF‑8 (sin BOM) y cache‑busting en HTML/JS.
 - AIU/IVA: reglas canónicas (VIII/CRITERIOS §11.1) como fuente única.
 
@@ -393,7 +393,7 @@ CLIENTE ve documentos:
 ### **💰 DECISIONES TÉCNICAS EJECUTADAS (7-8 OCT):**
 | DT | Ítem | Cambio | Impacto |
 |:---|:-----|:-------|:--------|
-| DT-TETRA-001 | 1.2.100 | ATP 15→8 UND | -$7,479M |
+| DT-TETRA-001 | 1.2.100 | PTC 15→8 UND | -$7,479M |
 | DT-SCADA-001 | 5.3.100 | Servidores $400M c/u | +$400M |
 | DT-SCADA-002 | 5.3.101 | Software SCADA | +$4,500M |
 | DT-SCADA-003 | 5.3.103 | Interfaces L2/L3 | +$3,912M |
@@ -995,7 +995,7 @@ Todos los documentos de ingeniería estarán completos y listos para la ejecuci�
 | **SRS PTC** | Ing. Sistemas | ✅ Completado | SRS provisional desarrollado |
 | **Arquitectura RBC** | Ing. Sistemas | ✅ Completado | Redundancia 2oo3 especificada |
 | **Interfaces CTC-PTC** | Ing. Integración | ✅ Completado | Protocolo FFFIS implementado |
-| **STM Embarcado** | Ing. Embarcados | ✅ Completado | Especificaciones PTC VIRTUAL Level 2 |
+| **STM Embarcado** | Ing. Embarcados | ✅ Completado | Especificaciones PTC Virtual (FRA 236) |
 | **Interlocking Tables** | Ing. Señalización | ✅ Completado | 5 estaciones completadas |
 
 ### **🏆 RESULTADO ALCANZADO**
@@ -1232,7 +1232,7 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
 ### **📋 MATERIAL RODANTE ACTUALIZADO:**
 - **Archivo:** `III. Ingenieria conceptual/32_Material_Rodante_Integrado_v5.0.md`
 - **Estado:** ✅ **COMPLETADO** - EOT (15 dispositivos) agregado
-- **Cambios:** Integración ATP–EOT–CTC + radios TETRA/RED TETRA (Misión Crítica)
+- **Cambios:** Integración PTC–EOT–CTC + radios TETRA/RED TETRA (Misión Crítica)
 - **Impacto:** +$520,000,000 COP (EOT)
 
 ### **🎯 PRÓXIMO PASO - CAPA 3 (INICIO):**
@@ -1252,7 +1252,7 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
 ### **📋 CTC DETALLE ACTUALIZADO:**
 - **Archivo:** `V. Ingenieria de detalle/V.2_Centro_Control_Trafico_CTC_Detalle_v2.0.md`
 - **Estado:** ✅ **COMPLETADO** - CTC virtual centralizado implementado
-- **Cambios:** Eliminación RBC + Implementación CTC virtual + ATP embarcado directo
+- **Cambios:** Eliminación RBC + Implementación CTC virtual + PTC embarcado directo
 - **Impacto:** -$50,193,000,000 COP (alineación completa)
 
 ### **🎯 PRÓXIMO PASO - CAPA 3 (CONTINUAR):**
@@ -1270,7 +1270,7 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
 ### **📋 POTENCIA DETALLE ACTUALIZADO:**
 - **Archivo:** `V. Ingenieria de detalle/V.4_Sistemas_Potencia_Detalle_v2.0.md`
 - **Estado:** ✅ **COMPLETADO** - Alimentación torres colocalizadas implementada
-- **Cambios:** 37 torres colocalizadas + ATP embarcado + CTC virtual + redundancia N+1
+- **Cambios:** 37 torres colocalizadas + PTC embarcado + CTC virtual + redundancia N+1
 - **Impacto:** +$5,500,000,000 COP (alimentación torres colocalizadas)
 
 ### **🎯 PRÓXIMO PASO - CAPA 3 (CONTINUAR):**
@@ -1279,7 +1279,7 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
 ### **📋 SEGURIDAD DETALLE ACTUALIZADO:**
 - **Archivo:** `V. Ingenieria de detalle/V.5_Sistemas_Seguridad_Detalle_v2.0.md`
 - **Estado:** ✅ **COMPLETADO** - Seguridad colocalizada implementada
-- **Cambios:** 37 torres colocalizadas + ATP embarcado + CTC virtual + seguridad dual
+- **Cambios:** 37 torres colocalizadas + PTC embarcado + CTC virtual + seguridad dual
 - **Impacto:** +$1,400,000,000 COP (seguridad colocalizada)
 
 ## ✅ **FASE 2 (CAPA 3) COMPLETADA - INGENIERÍA DE DETALLE ACTUALIZADA**
@@ -1312,7 +1312,7 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
   - ✅ Impresión PDF profesional
 - **Coherencia:** 100% validada contra criterios maestros
 - **Cantidades confirmadas:**
-  - ✅ Fibra Óptica: 594 km
+  - ✅ Fibra Óptica: 526 km
   - ✅ TETRA: 37 estaciones
   - ✅ Locomotoras: 15 unidades
   - ✅ ENCE: 5 estaciones

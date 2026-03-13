@@ -43,7 +43,7 @@
 - **Frenos:** FRA/AREMA 651 + EN 50126
 
 ### 3.2 Sistemas Embarcados
-- **ATP:** EN 50126 + EN 50128 + EN 50129
+- **PTC:** EN 50126 + EN 50128 + EN 50129
 - **EOT:** EN 50126 + EN 50129
 - **Comunicaciones:** EN 50126 + EN 50128
 - **Interfaces:** EN 50126 + EN 50129
@@ -75,9 +75,9 @@
 - **Certificados:** De cumplimiento normativo
 
 ### 5.2 Equipos
-- **15 Locomotoras:** Con ATP embarcado
+- **15 Locomotoras:** Con PTC embarcado
 - **15 EOT:** Dispositivos End of Train
-- **Sistemas embarcados:** ATP + comunicaciones
+- **Sistemas embarcados:** PTC + comunicaciones
 - **Interfaces:** Sistemas de usuario
 
 ---

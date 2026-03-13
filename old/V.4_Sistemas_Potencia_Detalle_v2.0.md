@@ -14,13 +14,13 @@
 ### **📋 CAMBIO DE PARADIGMA COMPLETO:**
 
 #### **🔴 FILOSOFÍA ANTERIOR (ELIMINADA):**
-- **❌ PTC PTC VIRTUAL Level 2:** Sistema tradicional con RBC → **ATP embarcado** (Sin RBC)
+- **❌ PTC PTC Virtual (FRA 236):** Sistema tradicional con RBC → **PTC embarcado** (Sin RBC)
 - **❌ Cobertura:** 146 km → **526.133 km** (Corredor completo)
 - **❌ Torres:** 33 torres → **37 torres colocalizadas** (TETRA + RED TETRA (Misión Crítica))
 - **❌ Alimentación:** Sistema independiente → **Alimentación colocalizada**
 
 #### **✅ FILOSOFÍA NUEVA (IMPLEMENTADA):**
-- **✅ ATP Embarcado:** Sistema en 15 locomotoras (sin RBC)
+- **✅ PTC Embarcado:** Sistema en 15 locomotoras (sin RBC)
 - **✅ Torres Colocalizadas:** 37 torres para TETRA + RED TETRA (Misión Crítica)
 - **✅ Alimentación Colocalizada:** Sistema dual para torres compartidas
 - **✅ CTC Virtual:** Centro de control centralizado
@@ -83,7 +83,7 @@ Este documento detalla la ingeniería de los **sistemas de potencia para torres 
                               │ (TETRA + RED TETRA (Misión Crítica))
                               ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                    ATP EMBARCADO (15 LOCOMOTORAS)           │
+│                    PTC EMBARCADO (15 LOCOMOTORAS)           │
 ├─────────────────────────────────────────────────────────────┤
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
 │  │ Radio TETRA │  │ Radio RED TETRA (Misión Crítica) │  │   Display   │         │
@@ -237,7 +237,7 @@ Este documento detalla la ingeniería de los **sistemas de potencia para torres 
 - **Regulación:** ±2% (voltaje), ±0.1% (frecuencia)
 
 #### 4.1.2 Cargas Críticas Colocalizadas
-- **ATP Embarcado:** 300 kVA (15 locomotoras)
+- **PTC Embarcado:** 300 kVA (15 locomotoras)
 - **CTC Virtual:** 150 kVA (Centro de Control)
 - **TETRA + RED TETRA (Misión Crítica):** 185 kVA (37 torres colocalizadas)
 - **ENCE:** 100 kVA (5 estaciones)
@@ -247,7 +247,7 @@ Este documento detalla la ingeniería de los **sistemas de potencia para torres 
 ### 4.2 Sistemas de Respaldo Colocalizados
 
 #### 4.2.1 UPS Colocalizado
-- **Cargas críticas:** ATP, CTC, TETRA, RED TETRA (Misión Crítica), ENCE
+- **Cargas críticas:** PTC, CTC, TETRA, RED TETRA (Misión Crítica), ENCE
 - **Tiempo de transferencia:** < 4 ms
 - **Modo normal:** Rectificador + inversor
 - **Modo batería:** Inversor + baterías
@@ -283,7 +283,7 @@ Este documento detalla la ingeniería de los **sistemas de potencia para torres 
 ### 5.1 Seguridad Funcional Colocalizada (EN 50126/50128/50129)
 
 #### 5.1.1 Objetivos de Seguridad Colocalizados
-- **SIL 4:** Alimentación ATP embarcado
+- **SIL 4:** Alimentación PTC embarcado
 - **SIL 3:** Alimentación CTC virtual
 - **SIL 2:** Alimentación TETRA + RED TETRA (Misión Crítica)
 - **SIL 1:** Alimentación auxiliar
@@ -328,16 +328,16 @@ Este documento detalla la ingeniería de los **sistemas de potencia para torres 
 
 ## 6. Integración y Comunicaciones Colocalizadas
 
-### 6.1 Integración ATP Embarcado
+### 6.1 Integración PTC Embarcado
 
-#### 6.1.1 Alimentación ATP Embarcado
+#### 6.1.1 Alimentación PTC Embarcado
 - **Potencia:** 300 kVA (15 locomotoras)
 - **Voltaje:** 480 V AC, 3 fases
 - **Frecuencia:** 60 Hz
 - **THD:** < 3%
 - **Regulación:** ±1% (voltaje), ±0.1% (frecuencia)
 
-#### 6.1.2 Protecciones Específicas ATP
+#### 6.1.2 Protecciones Específicas PTC
 - **Sobrecorriente:** 125% de la corriente nominal
 - **Sobretensión:** 110% del voltaje nominal
 - **Subtensión:** 90% del voltaje nominal
@@ -431,7 +431,7 @@ Este documento detalla la ingeniería de los **sistemas de potencia para torres 
 ### 8.2 Pruebas de Sistema Colocalizado
 
 #### 8.2.1 Pruebas de Integración Colocalizada
-- **ATP Embarcado:** Pruebas de alimentación
+- **PTC Embarcado:** Pruebas de alimentación
 - **CTC Virtual:** Pruebas de alimentación
 - **TETRA + RED TETRA (Misión Crítica):** Pruebas de alimentación colocalizada
 - **Redundancia:** Pruebas de failover automático
@@ -457,7 +457,7 @@ Este documento detalla la ingeniería de los **sistemas de potencia para torres 
 ### 9.1 Documentación Técnica Colocalizada
 - **Planos Subestaciones:** Sistemas colocalizados
 - **Especificaciones Torres:** Alimentación colocalizada
-- **Manuales ATP:** Sistemas embarcados
+- **Manuales PTC:** Sistemas embarcados
 - **Manuales Colocalizados:** Operación y mantenimiento dual
 
 ### 9.2 Software y Configuración Colocalizada
@@ -469,7 +469,7 @@ Este documento detalla la ingeniería de los **sistemas de potencia para torres 
 ### 9.3 Equipos y Materiales Colocalizados
 - **Equipos Subestaciones:** Sistemas colocalizados
 - **Equipos Torres:** Torres colocalizadas
-- **Equipos ATP:** Sistemas embarcados
+- **Equipos PTC:** Sistemas embarcados
 - **Cables y Accesorios:** Sistemas de alimentación colocalizados
 
 ---
@@ -479,14 +479,14 @@ Este documento detalla la ingeniería de los **sistemas de potencia para torres 
 ### 10.1 Fases del Proyecto Colocalizado
 - **Fase 1:** Subestaciones Colocalizadas (3 meses)
 - **Fase 2:** Torres Colocalizadas (2 meses)
-- **Fase 3:** ATP Embarcado (3 meses)
+- **Fase 3:** PTC Embarcado (3 meses)
 - **Fase 4:** Pruebas Colocalizadas (2 meses)
 - **Fase 5:** Puesta en Servicio (1 mes)
 
 ### 10.2 Hitos Principales Colocalizados
 - **Subestaciones Colocalizadas:** Sistemas de potencia completados
 - **37 Torres Colocalizadas:** Alimentación TETRA + RED TETRA (Misión Crítica)
-- **ATP Embarcado:** Sistemas en 15 locomotoras
+- **PTC Embarcado:** Sistemas en 15 locomotoras
 - **Pruebas Colocalizadas:** Validación completa
 - **Puesta en Servicio:** Operación comercial colocalizada
 
@@ -497,7 +497,7 @@ Este documento detalla la ingeniería de los **sistemas de potencia para torres 
 ### 11.1 Control de Calidad Colocalizado
 - **Inspecciones Subestaciones:** Sistemas colocalizados
 - **Inspecciones Torres:** Torres colocalizadas
-- **Validación ATP:** Sistemas embarcados
+- **Validación PTC:** Sistemas embarcados
 - **Certificados Colocalizados:** Documentación de calidad dual
 
 ### 11.2 Gestión de Cambios Colocalizada

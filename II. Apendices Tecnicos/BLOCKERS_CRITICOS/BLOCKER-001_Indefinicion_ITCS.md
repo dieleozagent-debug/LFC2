@@ -12,7 +12,7 @@
 
 ### **Indefinición Contractual:**
 
-**Base de datos dice:** "PTC PTC VIRTUAL Level 2"  
+**Base de datos dice:** "PTC PTC Virtual (FRA 236)"  
 **Realidad contractual:** ❌ **ESPECIFICACIÓN AMBIGUA** - No está claramente definido
 
 ### **Impacto:**
@@ -38,7 +38,7 @@
 
 ## 🎯 **OPCIONES TÉCNICAS**
 
-### **Opción 1: ATP/PTC Estándar (FRA Class 1)** 🇺🇸
+### **Opción 1: PTC/PTC Estándar (FRA Class 1)** 🇺🇸
 
 **Descripción:** Sistema americano de Protección Automática de Trenes
 
@@ -60,7 +60,7 @@
 
 ---
 
-### **Opción 2: PTC VIRTUAL Level 2 Europeo** 🇪🇺 ⭐ RECOMENDADA
+### **Opción 2: PTC Virtual (FRA 236) Europeo** 🇪🇺 ⭐ RECOMENDADA
 
 **Descripción:** European Train Control System - Nivel 2 (sin punto de referencia virtuals físicas)
 
@@ -71,7 +71,7 @@
 - ✅ Futuro-proof (tendencia global)
 
 **Desventajas:**
-- ⚠️ Mayor costo que ATP
+- ⚠️ Mayor costo que PTC
 - ⚠️ Requiere certificación europea
 - ⚠️ FENOCO debe confirmar compatibilidad
 
@@ -107,7 +107,7 @@
 
 ### **Opción 4: Solución Híbrida FENOCO + Sistema Nuevo** 🔗
 
-**Descripción:** Gateway que integra sistema FENOCO existente con nuevo ATP/PTC VIRTUAL
+**Descripción:** Gateway que integra sistema FENOCO existente con nuevo PTC/PTC VIRTUAL
 
 **Ventajas:**
 - ✅ Aprovecha infraestructura FENOCO existente
@@ -149,8 +149,8 @@ del alcance de Control y Señalización ($152,748M COP en riesgo).
 SOLICITUD:
 Definir formalmente cuál de las siguientes opciones será implementada:
 
-1. ATP/PTC Estándar FRA Class 1 - $8M USD
-2. PTC VIRTUAL Level 2 Europeo - $12M USD (RECOMENDADO)
+1. PTC/PTC Estándar FRA Class 1 - $8M USD
+2. PTC Virtual (FRA 236) Europeo - $12M USD (RECOMENDADO)
 3. CBTC Adaptado - $15M USD (NO recomendado)
 4. Solución Híbrida FENOCO - $10M USD (requiere colaboración)
 
@@ -158,7 +158,7 @@ FECHA LÍMITE: 15 de Diciembre 2025 (Mes 6)
 CONSECUENCIA NO RESPUESTA: Retraso mínimo 3 meses + sobrecosto
 
 PLAN B (si no hay respuesta Mes 6):
-EPC asumirá Opción 2 (PTC VIRTUAL Level 2) con gateway FRA/AREMA 918-4 genérico
+EPC asumirá Opción 2 (PTC Virtual (FRA 236)) con gateway FRA/AREMA 918-4 genérico
 interoperable, documentando supuesto formal. Cliente asume riesgo
 de incompatibilidad futura con sistemas FENOCO.
 
@@ -246,7 +246,7 @@ RESPONSABLE GESTIÓN: Gerencia Técnica + PMO
 
 ## 📊 **COMPARATIVA TÉCNICA**
 
-| Criterio | ATP/PTC | PTC VIRTUAL L2 ⭐ | CBTC | Híbrida |
+| Criterio | PTC/PTC | PTC VIRTUAL L2 ⭐ | CBTC | Híbrida |
 |:---------|:-------:|:---------:|:----:|:-------:|
 | **Costo** | $8M | $12M | $15M | $10M |
 | **Lead time** | 10m | 12m | 14m | 11m |
@@ -256,7 +256,7 @@ RESPONSABLE GESTIÓN: Gerencia Técnica + PMO
 | **Funcionalidad** | Básica | Avanzada | Muy Alta | Media |
 | **Riesgo técnico** | Bajo | Bajo | Alto | Medio |
 
-**Recomendación PMO:** **Opción 2 (PTC VIRTUAL Level 2)** si presupuesto permite, **Opción 4 (Híbrida)** si FENOCO colabora.
+**Recomendación PMO:** **Opción 2 (PTC Virtual (FRA 236))** si presupuesto permite, **Opción 4 (Híbrida)** si FENOCO colabora.
 
 ---
 

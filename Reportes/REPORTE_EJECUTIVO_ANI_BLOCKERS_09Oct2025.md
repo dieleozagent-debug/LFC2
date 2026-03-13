@@ -38,7 +38,7 @@ AT3 menciona sistemas diferentes sin definir cuál implementar:
 - **CTC** con protocolo Adif (Español) - Líneas 529-532 AT3
 - **Enclavamientos** normas Adif ET/NAS (Español) - Líneas 506-524 AT3
 - ❌ **NO menciona:** PTC (Incremental Train Control System)
-- ❌ **NO menciona:** PTC VIRTUAL Level 2 (European Train Control System)
+- ❌ **NO menciona:** PTC Virtual (FRA 236) (European Train Control System)
 
 **Análisis A.1 (línea 49):**
 > "Diseñar 5 enclavamientos electrónicos y un sistema **PTC**"
@@ -49,7 +49,7 @@ AT3 menciona sistemas diferentes sin definir cuál implementar:
 **PROBLEMA:**
 - Normas de 3 países diferentes (USA, España, Europa)
 - **NO hay definición clara** de cuál sistema prevalece
-- Base datos proyecto dice "PTC PTC VIRTUAL Level 2" (NO en contrato)
+- Base datos proyecto dice "PTC PTC Virtual (FRA 236)" (NO en contrato)
 
 **IMPACTO:**
 - 🔴 60% de Capítulo 1 (Control y Señalización) **BLOQUEADO**
@@ -67,7 +67,7 @@ AT3 menciona sistemas diferentes sin definir cuál implementar:
    - Lead time: 10 meses
    - Normativa: AAR, FRA
 
-2. **PTC VIRTUAL Level 2** (European Train Control System)
+2. **PTC Virtual (FRA 236)** (European Train Control System)
    - Costo estimado: $12M USD ⭐ RECOMENDADO PMO
    - Lead time: 12 meses
    - Normativa: FRA/AREMA, CENELEC
@@ -116,7 +116,7 @@ PMO asumirá normas mixtas con diseño de gateway interoperable según FRA/AREMA
 **IMPACTO:**
 - 🟡 Cronograma Puesta a Punto indefinido
 - 🟡 Secuencia pruebas sistemas embarcados indefinida
-- 🟡 No se puede planificar instalación ATP/TETRA embarcado
+- 🟡 No se puede planificar instalación PTC/TETRA embarcado
 
 **SOLICITUD FORMAL:**
 

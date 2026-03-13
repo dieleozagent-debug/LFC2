@@ -14,14 +14,14 @@
 ### **📋 CAMBIO DE PARADIGMA COMPLETO:**
 
 #### **🔴 FILOSOFÍA ANTERIOR (ELIMINADA):**
-- **❌ PTC PTC VIRTUAL Level 2:** Sistema tradicional con RBC → **ATP embarcado** (Sin RBC)
+- **❌ PTC PTC Virtual (FRA 236):** Sistema tradicional con RBC → **PTC embarcado** (Sin RBC)
 - **❌ RBC (Radio Block Centre):** 2 unidades → **0 unidades** (Reemplazado por CTC virtual)
 - **❌ Cobertura:** 146 km → **526.133 km** (Corredor completo)
 - **❌ Torres:** 33 torres → **37 torres colocalizadas** (TETRA + RED TETRA (Misión Crítica))
 - **❌ Seguridad:** Sistema independiente → **Seguridad colocalizada**
 
 #### **✅ FILOSOFÍA NUEVA (IMPLEMENTADA):**
-- **✅ ATP Embarcado:** Sistema en 15 locomotoras (sin RBC)
+- **✅ PTC Embarcado:** Sistema en 15 locomotoras (sin RBC)
 - **✅ CTC Virtual:** Centro de control centralizado
 - **✅ Torres Colocalizadas:** 37 torres para TETRA + RED TETRA (Misión Crítica)
 - **✅ Seguridad Colocalizada:** Sistema dual para torres compartidas
@@ -58,7 +58,7 @@ Este documento detalla la ingeniería de los **sistemas de seguridad colocalizad
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
 │  │ Seguridad   │  │Ciberseguridad│  │ Seguridad   │         │
 │  │ Funcional   │  │ Colocalizada │  │   Física    │         │
-│  │ ATP+CTC     │  │ (IEC 62443)  │  │ Colocalizada│         │
+│  │ PTC+CTC     │  │ (IEC 62443)  │  │ Colocalizada│         │
 │  └─────────────┘  └─────────────┘  └─────────────┘         │
 ├─────────────────────────────────────────────────────────────┤
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
@@ -84,11 +84,11 @@ Este documento detalla la ingeniería de los **sistemas de seguridad colocalizad
                               │ (Seguridad TETRA + RED TETRA (Misión Crítica))
                               ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                    ATP EMBARCADO (15 LOCOMOTORAS)           │
+│                    PTC EMBARCADO (15 LOCOMOTORAS)           │
 ├─────────────────────────────────────────────────────────────┤
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
 │  │ Seguridad   │  │ Seguridad   │  │ Seguridad   │         │
-│  │   ATP       │  │  Comunicac. │  │   Display   │         │
+│  │   PTC       │  │  Comunicac. │  │   Display   │         │
 │  │ Embarcado   │  │ Colocalizada│  │  Maquinista │         │
 │  └─────────────┘  └─────────────┘  └─────────────┘         │
 └─────────────────────────────────────────────────────────────┘
@@ -97,7 +97,7 @@ Este documento detalla la ingeniería de los **sistemas de seguridad colocalizad
 ### 2.2 Componentes Principales Colocalizados
 
 #### 2.2.1 Seguridad Funcional Colocalizada (EN 50126/50128/50129)
-- **SIL 4:** Funciones críticas ATP embarcado
+- **SIL 4:** Funciones críticas PTC embarcado
 - **SIL 3:** Funciones de control CTC virtual
 - **SIL 2:** Funciones de supervisión TETRA + RED TETRA (Misión Crítica)
 - **SIL 1:** Funciones auxiliares colocalizadas
@@ -121,7 +121,7 @@ Este documento detalla la ingeniería de los **sistemas de seguridad colocalizad
 ### 3.1 Seguridad Funcional Colocalizada
 
 #### 3.1.1 Objetivos de Seguridad Colocalizados
-- **SIL 4:** ATP embarcado, CTC virtual, ENCE
+- **SIL 4:** PTC embarcado, CTC virtual, ENCE
 - **SIL 3:** TETRA + RED TETRA (Misión Crítica) colocalizados, comunicaciones críticas
 - **SIL 2:** SCADA colocalizado, monitoreo
 - **SIL 1:** Sistemas auxiliares colocalizados
@@ -141,7 +141,7 @@ Este documento detalla la ingeniería de los **sistemas de seguridad colocalizad
 ### 3.2 Ciberseguridad Colocalizada
 
 #### 3.2.1 Zonas de Seguridad Colocalizadas
-- **Zona 0:** Red de control crítico colocalizado (ATP, CTC)
+- **Zona 0:** Red de control crítico colocalizado (PTC, CTC)
 - **Zona 1:** Red de supervisión colocalizada (SCADA, monitoreo)
 - **Zona 2:** Red administrativa colocalizada (oficinas, gestión)
 - **Zona 3:** Red externa colocalizada (internet, proveedores)
@@ -185,7 +185,7 @@ Este documento detalla la ingeniería de los **sistemas de seguridad colocalizad
 
 ### 4.1 Seguridad Funcional Colocalizada
 
-#### 4.1.1 ATP Embarcado
+#### 4.1.1 PTC Embarcado
 - **Movement Authority:** Autorización de movimiento via CTC virtual
 - **Position Report:** Reporte de posición via TETRA + RED TETRA (Misión Crítica)
 - **Emergency Stop:** Parada de emergencia via doble sistema
@@ -251,7 +251,7 @@ Este documento detalla la ingeniería de los **sistemas de seguridad colocalizad
 ### 5.1 Seguridad Funcional Colocalizada (EN 50126/50128/50129)
 
 #### 5.1.1 Objetivos de Seguridad Colocalizados
-- **SIL 4:** ATP embarcado, CTC virtual, ENCE
+- **SIL 4:** PTC embarcado, CTC virtual, ENCE
 - **SIL 3:** TETRA + RED TETRA (Misión Crítica) colocalizados, comunicaciones críticas
 - **SIL 2:** SCADA colocalizado, monitoreo
 - **SIL 1:** Sistemas auxiliares colocalizados
@@ -295,15 +295,15 @@ Este documento detalla la ingeniería de los **sistemas de seguridad colocalizad
 
 ## 6. Integración y Comunicaciones Colocalizadas
 
-### 6.1 Integración ATP Embarcado
+### 6.1 Integración PTC Embarcado
 
-#### 6.1.1 Seguridad ATP Embarcado
+#### 6.1.1 Seguridad PTC Embarcado
 - **SIL 4:** Funciones críticas de seguridad
 - **Redundancia:** N+1 en sistemas embarcados
 - **Comunicación:** TETRA + RED TETRA (Misión Crítica) seguro colocalizado
 - **Monitoreo:** Supervisión continua colocalizada
 
-#### 6.1.2 Protecciones Específicas ATP
+#### 6.1.2 Protecciones Específicas PTC
 - **Ciberseguridad:** IEC 62443 colocalizado
 - **Criptografía:** AES-256 colocalizado
 - **Autenticación:** Certificados digitales colocalizados
@@ -377,7 +377,7 @@ Este documento detalla la ingeniería de los **sistemas de seguridad colocalizad
 ### 8.1 Pruebas de Componentes Colocalizados
 
 #### 8.1.1 Pruebas de Hardware Colocalizado
-- **ATP Embarcado:** Pruebas de seguridad embarcada
+- **PTC Embarcado:** Pruebas de seguridad embarcada
 - **CTC Virtual:** Pruebas de seguridad virtual
 - **Torres Colocalizadas:** Pruebas de seguridad colocalizada
 - **CCTV:** Pruebas de vigilancia colocalizada
@@ -392,7 +392,7 @@ Este documento detalla la ingeniería de los **sistemas de seguridad colocalizad
 ### 8.2 Pruebas de Sistema Colocalizado
 
 #### 8.2.1 Pruebas de Integración Colocalizada
-- **ATP Embarcado:** Pruebas de seguridad embarcada
+- **PTC Embarcado:** Pruebas de seguridad embarcada
 - **CTC Virtual:** Pruebas de seguridad virtual
 - **TETRA + RED TETRA (Misión Crítica):** Pruebas de seguridad colocalizada
 - **Redundancia:** Pruebas de failover automático colocalizado
@@ -418,7 +418,7 @@ Este documento detalla la ingeniería de los **sistemas de seguridad colocalizad
 ### 9.1 Documentación Técnica Colocalizada
 - **Planos Seguridad:** Sistemas colocalizados
 - **Especificaciones Torres:** Seguridad colocalizada
-- **Manuales ATP:** Sistemas embarcados
+- **Manuales PTC:** Sistemas embarcados
 - **Manuales Colocalizados:** Operación y mantenimiento dual
 
 ### 9.2 Software y Configuración Colocalizada
@@ -430,7 +430,7 @@ Este documento detalla la ingeniería de los **sistemas de seguridad colocalizad
 ### 9.3 Equipos y Materiales Colocalizados
 - **Equipos Seguridad:** Sistemas colocalizados
 - **Equipos Torres:** Torres colocalizadas
-- **Equipos ATP:** Sistemas embarcados
+- **Equipos PTC:** Sistemas embarcados
 - **Cables y Accesorios:** Sistemas de seguridad colocalizados
 
 ---
@@ -445,7 +445,7 @@ Este documento detalla la ingeniería de los **sistemas de seguridad colocalizad
 - **Fase 5:** Puesta en Servicio (1 mes)
 
 ### 10.2 Hitos Principales Colocalizados
-- **Seguridad Funcional:** ATP + CTC + ENCE completados
+- **Seguridad Funcional:** PTC + CTC + ENCE completados
 - **37 Torres Colocalizadas:** Seguridad TETRA + RED TETRA (Misión Crítica)
 - **Ciberseguridad:** Protección colocalizada
 - **Pruebas Colocalizadas:** Validación completa
@@ -458,7 +458,7 @@ Este documento detalla la ingeniería de los **sistemas de seguridad colocalizad
 ### 11.1 Control de Calidad Colocalizado
 - **Inspecciones Seguridad:** Sistemas colocalizados
 - **Inspecciones Torres:** Torres colocalizadas
-- **Validación ATP:** Sistemas embarcados
+- **Validación PTC:** Sistemas embarcados
 - **Certificados Colocalizados:** Documentación de calidad dual
 
 ### 11.2 Gestión de Cambios Colocalizada

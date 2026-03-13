@@ -35,7 +35,7 @@ La Ingeniería Eléctrica es el **"sistema circulatorio"** del ferrocarril que p
 | Sistema | Consumo | Justificación |
 |:--------|:--------|:--------------|
 | **CTC** | 50 kVA | Centro de control operacional |
-| **ATP Embarcado** | 30 kVA | 15 locomotoras × 2 kVA c/u |
+| **PTC Embarcado** | 30 kVA | 15 locomotoras × 2 kVA c/u |
 | **ENCE** | 25 kVA | 5 estaciones × 5 kVA c/u |
 | **Telecomunicaciones** | 296 kVA | 37 estaciones × 8 kVA c/u |
 | **ITS y Seguridad** | 150 kVA | CCTV, sistemas de seguridad |
@@ -62,7 +62,7 @@ La Ingeniería Eléctrica es el **"sistema circulatorio"** del ferrocarril que p
 
 ### ¿Por qué disponibilidad 99.95%?
 **Justificación Contractual (AT4):**
-- **Sistemas críticos:** CTC, ATP, ENCE requieren alta disponibilidad
+- **Sistemas críticos:** CTC, PTC, ENCE requieren alta disponibilidad
 - **Redundancia N+1:** Sistemas de respaldo automático
 - **Mantenimiento preventivo:** Programación sin afectar operación
 - **Tiempo de recuperación:** < 5 minutos para sistemas críticos

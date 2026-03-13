@@ -19,7 +19,7 @@ Este documento establece el **flujo universal** de referencias cruzadas que se a
 ## 🔧 **SISTEMAS TÉCNICOS CUBIERTOS**
 
 ### **1. FIBRA ÓPTICA** ✅ **IMPLEMENTADO**
-- **Criterio maestro:** 594 km (corredor + 10% reserva)
+- **Criterio maestro:** 526 km (corredor + 10% reserva)
 - **Documentos afectados:** 8 documentos
 - **Estado:** Sistema implementado y funcionando
 
@@ -29,7 +29,7 @@ Este documento establece el **flujo universal** de referencias cruzadas que se a
 - **Estado:** En actualización con proceso de cotización
 
 ### **3. SEÑALIZACIÓN VIRTUAL** 🔄 **EN PROCESO**
-- **Criterio maestro:** CTC + ATP embarcado (eliminada señalización física)
+- **Criterio maestro:** CTC + PTC embarcado (eliminada señalización física)
 - **Documentos afectados:** 8 documentos
 - **Estado:** Actualizando con respuestas LFC
 
@@ -121,7 +121,7 @@ Para CUALQUIER sistema técnico:
 
 ### **EJEMPLO 1: FIBRA ÓPTICA (IMPLEMENTADO)**
 ```
-CAMBIO: 450 km → 594 km
+CAMBIO: 450 km → 526 km
 DOCUMENTOS ACTUALIZADOS:
 ✅ CRITERIOS_TECNICOS_MAESTRO_v1.0.md
 ✅ WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná.html

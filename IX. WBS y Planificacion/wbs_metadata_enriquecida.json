@@ -56,7 +56,7 @@
       "actualizado_por": "DT-CTC-003"
     },
     "1.2.100": {
-      "descripcion": "Computadora ATP embarcada",
+      "descripcion": "Computadora PTC embarcada",
       "justificacion_tecnica": "Reducción de 15 a 8 unidades alineada con AT1: 5 locomotoras contractuales + 2 diseño/pruebas + 1 contingencia",
       "criterios_diseno": [
         "Cumplimiento CENELEC EN 50126/128/129",
@@ -70,7 +70,7 @@
       ],
       "decisiones_tecnicas": [
         "DT-TETRA-001-2025-10-07",
-        "DT-ATP-001-2025-10-09"
+        "DT-PTC-001-2025-10-09"
       ],
       "feedback_especialista": "Cantidad 8 UND justificada por Apéndice Financiero pág. 3 (5 locomotoras: 2 GR12 + 2 U10 + 1 U18C) + 3 reserva (2 pruebas FAT/SAT + 1 contingencia). Alineación contractual AT1 completa.",
       "documentos_ingenieria": [
@@ -84,7 +84,7 @@
         "AT1 Cap. V y Anexo AT1-3 - Equipos embarcados"
       ],
       "ultima_actualizacion": "2025-10-09",
-      "actualizado_por": "DT-ATP-001-2025-10-09"
+      "actualizado_por": "DT-PTC-001-2025-10-09"
     },
     "5.3.100": {
       "descripcion": "Servidores SCADA",
@@ -275,7 +275,7 @@
     "decisiones_tecnicas": [
       "DT-TETRA-001-2025-10-07"
     ],
-    "feedback_especialista": "Reducción alineada con ATP: de 15 a 8 locomotoras reduce requerimientos de cobertura crítica.",
+    "feedback_especialista": "Reducción alineada con PTC: de 15 a 8 locomotoras reduce requerimientos de cobertura crítica.",
     "documentos_ingenieria": [
       "V.3_Comunicacion_Detalle_v3.0.md",
       "IV.3_Comunicacion_Basica_v2.0.md"
@@ -308,7 +308,7 @@
   },
   "3.1.100": {
     "descripcion": "Cable FO LPOC03120484ZC",
-    "justificacion_tecnica": "594 km de fibra óptica (526 km corredor + 10% reserva + 3% contingencia) según cálculo técnico validado",
+    "justificacion_tecnica": "526 km de fibra óptica (526 km corredor + 10% reserva + 3% contingencia) según cálculo técnico validado",
     "criterios_diseno": [
       "120 hilos para redundancia y crecimiento futuro",
       "Tipo LPOC (Low Profile Optical Cable) para instalación aérea",
@@ -329,14 +329,14 @@
   },
   "3.1.103": {
     "descripcion": "Cajas de empalme 80x80",
-    "justificacion_tecnica": "Cajas de empalme cada 300m para gestión de fusiones y derivaciones - Total 2,068 cajas en 594 km",
+    "justificacion_tecnica": "Cajas de empalme cada 300m para gestión de fusiones y derivaciones - Total 2,068 cajas en 526 km",
     "criterios_diseno": [
       "Ubicación: Costado derecho de vía",
       "Espaciamiento: 300 metros (criterio optimizado)",
       "Capacidad: 24 fusiones por caja"
     ],
     "supuestos": [
-      "594 km Ã· 0.3 km = 1,980 cajas + 4 cajas por puente",
+      "526 km Ã· 0.3 km = 1,980 cajas + 4 cajas por puente",
       "4 puentes Ã— 4 cajas = 16 cajas adicionales",
       "88 cajas para reserva y empalmes críticos"
     ],

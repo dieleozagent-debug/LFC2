@@ -97,7 +97,7 @@
 
 #### **Componentes:**
 - **CTC Virtual:** Centro de control centralizado
-- **ATP Embarcado:** 15 locomotoras con PTC VIRTUAL Level 2
+- **PTC Embarcado:** 15 locomotoras con PTC Virtual (FRA 236)
 - **ENCE:** 5 enclavamientos electrónicos
 - **Desvíos:** 120 unidades con control automatizado
 
@@ -117,7 +117,7 @@
 #### **Componentes:**
 - **TETRA:** 37 estaciones base
 - **RED TETRA (Misión Crítica):** 37 estaciones colocalizadas
-- **Fibra Óptica:** 594 km con doble anillo
+- **Fibra Óptica:** 526 km con doble anillo
 - **Respaldo Satelital:** Sistemas de respaldo
 
 #### **Enlaces Rápidos:**
@@ -153,7 +153,7 @@
 | **SISTEMA_04_Material_Rodante_EJECUTIVO** | Ejecutivo | `1_SISTEMAS_TECNICOS/` | ⏳ Pendiente |
 
 #### **Componentes:**
-- **Locomotoras:** 15 unidades con ATP embarcado
+- **Locomotoras:** 15 unidades con PTC embarcado
 - **Vagones:** 51 unidades (40 operativas + 11 rehabilitación)
 - **Sistema EOT:** 15 dispositivos End of Train
 - **Talleres:** Principal + secundario + línea
@@ -271,7 +271,7 @@
 | **ESPECIALIDAD_04_Ingenieria_Sistemas_EJECUTIVO** | Ejecutivo | `2_ESPECIALIDADES_INGENIERIA/` | ⏳ Pendiente |
 
 #### **Componentes:**
-- **Sistemas Integrados:** CTC, ATP, ENCE
+- **Sistemas Integrados:** CTC, PTC, ENCE
 - **Comunicaciones:** TETRA, RED TETRA (Misión Crítica), fibra óptica
 - **Monitoreo:** SCADA, HMI, alarmas
 - **Interfaces:** Protocolos de comunicación

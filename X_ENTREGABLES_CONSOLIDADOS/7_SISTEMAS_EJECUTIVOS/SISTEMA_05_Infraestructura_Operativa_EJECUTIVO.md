@@ -64,7 +64,7 @@ El Sistema de Infraestructura Operativa es la **"base física"** del ferrocarril
 **Justificación Técnica:**
 - **Colocalización:** Torres TETRA/RED TETRA (Misión Crítica) en las mismas ubicaciones
 - **Cobertura:** Radio de 15 km por estación con solapamiento 20%
-- **Cálculo:** 594 km ÷ 12 km efectivo = 37 estaciones
+- **Cálculo:** 526 km ÷ 12 km efectivo = 37 estaciones
 - **Optimización:** Compartir infraestructura (torres, alimentación, respaldo)
 
 ### ¿Por qué 146 pasos a nivel?
@@ -203,7 +203,7 @@ El Sistema de Infraestructura Operativa proporciona **soporte físico** para la 
 ## 📍 UBICACIÓN Y DESPLIEGUE
 
 ### Mapa de despliegue
-La infraestructura operativa se despliega a lo largo del corredor de 594 km, con concentración en La Dorada (CCO), estaciones principales y ubicaciones estratégicas.
+La infraestructura operativa se despliega a lo largo del corredor de 526 km, con concentración en La Dorada (CCO), estaciones principales y ubicaciones estratégicas.
 
 ### Tabla de sitios principales
 | Sitio | Componentes | Capacidad | Estado |

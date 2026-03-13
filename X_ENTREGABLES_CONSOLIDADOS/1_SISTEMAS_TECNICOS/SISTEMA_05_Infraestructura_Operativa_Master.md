@@ -119,12 +119,12 @@
 - **Servidores Virtuales:** Redundantes, virtualizados
 - **Estaciones de Trabajo:** Operadores y supervisores
 - **Sistemas de Comunicación:** TETRA + RED TETRA (Misión Crítica) + Fibra óptica
-- **Interfaces ATP:** Comunicación con 15 locomotoras
+- **Interfaces PTC:** Comunicación con 15 locomotoras
 - **Sistemas de Respaldo:** UPS + Generadores de emergencia
 
 #### **Funcionalidades Críticas:**
 - **Control de Tráfico:** Supervisión centralizada de todo el corredor
-- **ATP Embarcado:** Comunicación con locomotoras
+- **PTC Embarcado:** Comunicación con locomotoras
 - **ENCE:** Control de 5 enclavamientos electrónicos
 - **Desvíos:** Control de 120 desvíos (25 motorizados + 95 manuales)
 - **EOT:** Monitoreo de 15 dispositivos End of Train
@@ -293,7 +293,7 @@
 #### **Sistema SCADA:**
 - **Plataforma:** Siemens WinCC OA
 - **Funcionalidades:** Supervisión, control, alarmas, históricos
-- **Interfaces:** CTC, ATP, ENCE, desvíos, EOT
+- **Interfaces:** CTC, PTC, ENCE, desvíos, EOT
 - **Redundancia:** Sistema dual con conmutación automática
 - **Actualización:** Over-the-air (OTA)
 
@@ -320,7 +320,7 @@
 2. **Operación Continua:**
    - Supervisión centralizada de todo el corredor
    - Control de tráfico y asignación de surcos
-   - Monitoreo de sistemas ATP embarcado
+   - Monitoreo de sistemas PTC embarcado
    - Control de enclavamientos ENCE
    - Supervisión de desvíos y EOT
 
@@ -370,7 +370,7 @@
 - **Supervisión:** Monitoreo continuo del estado de trenes
 - **Emergencias:** Procedimientos de emergencia y parada automática
 - **Diagnóstico:** Transmisión de datos de Event Recorder
-- **Protocolo:** PTC VIRTUAL Level 2 estándar FRA/AREMA
+- **Protocolo:** PTC Virtual (FRA 236) estándar FRA/AREMA
 
 #### **CCO ↔ ENCE:**
 - **Control de Enclavamientos:** Autorización de movimientos en estaciones
@@ -435,7 +435,7 @@
 
 | Sistema Origen | Sistema Destino | Tipo Interfaz | Protocolo | Estado |
 |:---------------|:----------------|:--------------|:----------|:-------|
-| **CCO** | **CTC** | Control/Comunicación | PTC VIRTUAL Level 2 | ✅ Implementado |
+| **CCO** | **CTC** | Control/Comunicación | PTC Virtual (FRA 236) | ✅ Implementado |
 | **CCO** | **ENCE** | Control/Comunicación | Interfaces ferroviario | ✅ Implementado |
 | **CCO** | **Desvíos** | Control/Comunicación | Interfaces ferroviario | ✅ Implementado |
 | **CCO** | **TETRA** | Comunicación | TETRA estándar | ✅ Implementado |
