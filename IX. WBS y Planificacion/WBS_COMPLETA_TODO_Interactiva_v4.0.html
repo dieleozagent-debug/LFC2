@@ -7,381 +7,297 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --primary: hsl(210, 30%, 20%);
-            --accent: hsl(45, 100%, 50%);
-            --success: hsl(150, 60%, 40%);
-            --glass: rgba(255, 255, 255, 0.05);
-            --glass-border: rgba(255, 255, 255, 0.15);
-            --text-main: #ffffff;
-            --text-muted: rgba(255, 255, 255, 0.7);
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Inter', sans-serif;
-            background: radial-gradient(circle at top left, #1e3c72, #2a5298, #1a1a1a);
-            color: var(--text-main);
-            padding: 2.5rem;
-            min-height: 100vh;
-        }
-        
-        .container {
-            max-width: 1600px;
-            margin: 0 auto;
-            background: rgba(255, 255, 255, 0.03);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-            border: 1px solid var(--glass-border);
-            border-radius: 24px;
-            box-shadow: 0 40px 100px rgba(0,0,0,0.5);
-            overflow: hidden;
-        }
-        
-        .header {
-            background: linear-gradient(to bottom, rgba(255,255,255,0.05), transparent);
-            padding: 4rem 2rem;
-            text-align: center;
-            border-bottom: 1px solid var(--glass-border);
-        }
-        
-        .header h1 {
-            font-size: 3rem;
-            font-weight: 700;
-            letter-spacing: -2px;
-            background: linear-gradient(to right, #fff, var(--accent));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            margin-bottom: 0.5rem;
-        }
-
-        .header p {
-            font-weight: 300;
-            opacity: 0.7;
-            letter-spacing: 1px;
-        }
-        
-        .stats-bar {
-            background: rgba(0,0,0,0.2);
-            padding: 2rem;
-            display: flex;
-            justify-content: space-around;
-            border-bottom: 1px solid var(--glass-border);
-        }
-        
-        .stat-item {
-            text-align: center;
-        }
-        
-        .stat-value {
-            font-size: 2.5rem;
-            font-weight: 700;
-            color: var(--accent);
-            text-shadow: 0 0 20px rgba(255, 193, 7, 0.3);
-        }
-        
-        .stat-label {
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            opacity: 0.5;
-            margin-top: 0.5rem;
-        }
-        
-        .filtros {
-            padding: 1.5rem 2.5rem;
-            background: rgba(255,255,255,0.02);
-            border-bottom: 1px solid var(--glass-border);
-            display: flex;
-            gap: 1rem;
-            flex-wrap: wrap;
-            align-items: center;
-        }
-        
-        .filtro-btn {
-            padding: 0.7rem 1.4rem;
-            border: 1px solid var(--glass-border);
-            background: rgba(255,255,255,0.05);
-            color: white;
-            border-radius: 50px;
-            cursor: pointer;
-            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            font-size: 0.85rem;
-            font-weight: 500;
-        }
-        
-        .filtro-btn:hover {
-            background: white;
-            color: black;
-            transform: translateY(-3px);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-        }
-        
-        .filtro-btn.activo {
-            background: var(--accent);
-            color: var(--primary);
-            border-color: var(--accent);
-            box-shadow: 0 0 20px rgba(255, 193, 7, 0.4);
-        }
-        
-        .btn-nuevo-capitulo {
-            padding: 0.8rem 1.6rem;
-            background: transparent;
-            color: white;
-            border: 1px solid white;
-            border-radius: 50px;
-            cursor: pointer;
-            font-weight: 600;
-            margin-left: auto;
-            transition: all 0.3s;
-        }
-        
-        .btn-nuevo-capitulo:hover {
-            background: white;
-            color: black;
-        }
-        
-        .capitulo-seccion {
-            margin: 2.5rem;
-        }
-        
-        .capitulo-header {
-            background: rgba(255,255,255,0.05);
-            padding: 1.5rem 2rem;
-            border-radius: 16px;
-            margin-bottom: 2rem;
-            cursor: pointer;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border: 1px solid var(--glass-border);
-            transition: all 0.3s;
-        }
-        
-        .capitulo-header:hover {
-            background: rgba(255,255,255,0.1);
-            transform: scale(1.01);
-        }
-        
-        .capitulo-titulo {
-            font-size: 1.25rem;
-            font-weight: 600;
-            color: var(--accent);
-        }
-        
-        .capitulo-count {
-            background: rgba(255, 255, 255, 0.1);
-            color: white;
-            padding: 0.4rem 1.2rem;
-            border-radius: 30px;
-            font-size: 0.8rem;
-            border: 1px solid var(--glass-border);
-        }
-        
-        .item-card {
-            margin-bottom: 1.5rem;
-            border: 1px solid var(--glass-border);
-            border-radius: 16px;
-            overflow: hidden;
-            background: rgba(255,255,255,0.02);
-            transition: all 0.4s;
-        }
-        
-        .item-card:hover {
-            background: rgba(255,255,255,0.05);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
-            transform: translateX(10px);
-        }
-        
-        .item-header {
-            padding: 1.2rem 2rem;
-            background: rgba(255,255,255,0.03);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 1px solid var(--glass-border);
-        }
-        
-        .item-codigo {
-            font-weight: 700;
-            font-size: 1.1rem;
-            color: var(--accent);
-        }
-        
-        .item-modificable {
-            border: 1px solid var(--success);
-            color: var(--success);
-            padding: 0.3rem 1rem;
-            border-radius: 30px;
-            font-size: 0.7rem;
-            font-weight: 700;
-            text-transform: uppercase;
-        }
-        
-        .item-body {
-            padding: 2rem;
-        }
-        
-        .item-descripcion {
-            font-size: 1.1rem;
-            font-weight: 400;
-            margin-bottom: 2rem;
-            line-height: 1.6;
-        }
-        
-        .item-valores {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 2rem;
-            padding: 2rem;
-            background: rgba(0,0,0,0.2);
-            border-radius: 12px;
-        }
-        
-        .valor-box {
-            text-align: left;
-        }
-        
-        .valor-label {
-            font-size: 0.7rem;
-            color: white;
-            opacity: 0.5;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 0.5rem;
-        }
-        
-        .valor-dato {
-            font-size: 1.2rem;
-            font-weight: 600;
-        }
-        
-        .botones-accion {
-            display: flex;
-            gap: 1rem;
-            margin-top: 2rem;
-        }
-        
-        .btn {
-            padding: 0.8rem 1.6rem;
-            border: none;
-            border-radius: 50px;
-            cursor: pointer;
-            font-weight: 600;
-            transition: all 0.3s;
-            font-size: 0.85rem;
-        }
-        
-        .btn-dt {
-            background: var(--accent);
-            color: var(--primary);
-        }
-        
-        .btn-dt:hover {
-            transform: scale(1.05);
-            box-shadow: 0 0 20px rgba(255, 193, 7, 0.4);
-        }
-        
-        /* Modal Glass */
-        .modal {
-            display: none;
-            position: fixed;
-            z-index: 1000;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0,0,0,0.8);
-            backdrop-filter: blur(10px);
-        }
-        
-        .modal-content {
-            background: rgba(30, 30, 30, 0.95);
-            margin: 5% auto;
-            padding: 0;
-            border: 1px solid var(--glass-border);
-            width: 90%;
-            max-width: 800px;
-            border-radius: 24px;
-            box-shadow: 0 50px 100px rgba(0,0,0,0.8);
-        }
-        
-        .modal-header {
-            padding: 2.5rem;
-            border-bottom: 1px solid var(--glass-border);
-        }
-        
-        .close {
-            color: white;
-            opacity: 0.5;
-            float: right;
-            font-size: 2rem;
-            cursor: pointer;
-        }
-        
-        .modal-body {
-            padding: 3rem;
-            color: white;
-        }
-        
-        .form-control {
-            background: rgba(255,255,255,0.05);
-            border: 1px solid var(--glass-border);
-            color: white;
-            padding: 1rem;
-            border-radius: 12px;
-            width: 100%;
-            font-family: 'Inter', sans-serif;
-        }
-
-        .oculto {
-            display: none !important;
-        }
-    </style>
+    <link rel="stylesheet" href="wbs-shared.css">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>📊 WBS PRESUPUESTAL COMPLETA v5.0</h1>
-            <p>APP La Dorada-Chiriguaná | Gestión Ejecutiva Premium</p>
+    <div id="lfc-sidebar-container"></div>
+    <div class="main-content-wrapper">
+        <div class="premium-card" style="margin-bottom: 3rem;">
+            <h1 class="premium-title">📊 WBS PRESUPUESTAL COMPLETA v5.0</h1>
+            <p style="opacity: 0.7; font-weight: 300;">APP La Dorada-Chiriguaná | Gestión Ejecutiva Premium</p>
         </div>
 
-        <div class="stats-bar">
-            <div class="stat-item">
-                <div class="stat-value" id="total-items">0</div>
-                <div class="stat-label">ÍTEMS TOTALES</div>
+        <div class="stats-bar" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
+            <div class="premium-card" style="text-align: center; padding: 1.5rem;">
+                <div style="font-size: 2rem; font-weight: 800; color: var(--accent);" id="total-items">0</div>
+                <div style="font-size: 0.6rem; letter-spacing: 2px; opacity: 0.5;">ÍTEMS TOTALES</div>
             </div>
-            <div class="stat-item">
-                <div class="stat-value" id="total-capitulos">6</div>
-                <div class="stat-label">CAPÍTULOS</div>
+            <div class="premium-card" style="text-align: center; padding: 1.5rem;">
+                <div style="font-size: 2rem; font-weight: 800; color: var(--accent);" id="total-capitulos">6</div>
+                <div style="font-size: 0.6rem; letter-spacing: 2px; opacity: 0.5;">CAPÍTULOS</div>
             </div>
-            <div class="stat-item">
-                <div class="stat-value" id="total-modificables">0</div>
-                <div class="stat-label">MODIFICABLES</div>
+            <div class="premium-card" style="text-align: center; padding: 1.5rem;">
+                <div style="font-size: 2rem; font-weight: 800; color: var(--accent);" id="total-modificables">0</div>
+                <div style="font-size: 0.6rem; letter-spacing: 2px; opacity: 0.5;">MODIFICABLES</div>
             </div>
         </div>
 
-        <div class="filtros">
+        <div class="premium-card" style="margin-bottom: 2rem; display: flex; gap: 1rem; flex-wrap: wrap; align-items: center;">
+            <style>
+                .filtro-btn {
+                    padding: 0.6rem 1.2rem;
+                    border: 1px solid var(--glass-border);
+                    background: rgba(255,255,255,0.05);
+                    color: white;
+                    border-radius: 50px;
+                    cursor: pointer;
+                    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+                    font-size: 0.8rem;
+                    font-weight: 600;
+                    backdrop-filter: blur(4px);
+                }
+                .filtro-btn:hover, .filtro-btn.activo {
+                    background: var(--accent);
+                    color: var(--primary);
+                    border-color: var(--accent);
+                    transform: translateY(-2px);
+                    box-shadow: 0 4px 15px var(--accent-transparent);
+                }
+                .capitulo-seccion {
+                    margin-bottom: 2rem;
+                    animation: fadeInScale 0.5s ease-out forwards;
+                }
+                .capitulo-header {
+                    background: var(--glass-bg);
+                    backdrop-filter: blur(10px);
+                    padding: 1.5rem 2rem;
+                    border-radius: 20px;
+                    border: 1px solid var(--glass-border);
+                    cursor: pointer;
+                    margin-bottom: 1.5rem;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    transition: all 0.4s;
+                    box-shadow: var(--glass-shadow);
+                }
+                .capitulo-header:hover { 
+                    border-color: var(--accent);
+                    background: var(--card-bg-hover);
+                }
+                .capitulo-titulo {
+                    font-size: 1.2rem;
+                    font-weight: 800;
+                    color: var(--accent);
+                    letter-spacing: 1px;
+                }
+                .item-card {
+                    background: rgba(255, 255, 255, 0.03);
+                    border: 1px solid var(--glass-border);
+                    border-radius: 12px;
+                    padding: 1.2rem;
+                    margin-bottom: 0.8rem;
+                    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+                    display: grid;
+                    grid-template-columns: 80px 1fr 250px 120px;
+                    align-items: center;
+                    gap: 1.5rem;
+                }
+                .item-card:hover { 
+                    border-color: var(--accent); 
+                    transform: translateX(5px);
+                    background: rgba(255,255,255,0.06);
+                    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+                }
+                .item-header {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    border-bottom: 1px solid rgba(255,255,255,0.1);
+                    padding-bottom: 0.5rem;
+                }
+                .item-codigo {
+                    font-family: monospace;
+                    font-weight: 800;
+                    color: var(--accent);
+                    font-size: 1rem;
+                }
+                .item-descripcion {
+                    font-size: 0.95rem;
+                    line-height: 1.6;
+                    opacity: 0.9;
+                }
+                .item-valores {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 1rem;
+                }
+                .valor-box {
+                    background: rgba(0,0,0,0.2);
+                    padding: 0.8rem;
+                    border-radius: 12px;
+                    text-align: center;
+                }
+                .valor-label {
+                    font-size: 0.6rem;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    opacity: 0.5;
+                    margin-bottom: 0.3rem;
+                }
+                .valor-dato {
+                    font-weight: 700;
+                    color: var(--accent);
+                }
+                .oculto { display: none !important; }
+                
+                /* Estilos Base para Modales Premium */
+                .modal {
+                    display: none;
+                    position: fixed;
+                    z-index: 3000;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    overflow: auto;
+                    background-color: rgba(10, 25, 47, 0.85);
+                    backdrop-filter: blur(15px);
+                    -webkit-backdrop-filter: blur(15px);
+                }
+                .modal-content {
+                    background: var(--glass-bg);
+                    margin: 5% auto;
+                    padding: 0;
+                    border: 1px solid var(--glass-border);
+                    width: 90%;
+                    max-width: 800px;
+                    border-radius: 24px;
+                    box-shadow: 0 25px 50px rgba(0,0,0,0.5);
+                    animation: slideUp 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+                    position: relative;
+                    overflow: hidden;
+                }
+                @keyframes slideUp {
+                    from { transform: translateY(30px); opacity: 0; }
+                    to { transform: translateY(0); opacity: 1; }
+                }
+                .modal-header {
+                    padding: 2rem;
+                    background: rgba(255,255,255,0.03);
+                    border-bottom: 1px solid var(--glass-border);
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                .modal-header h2 {
+                    margin: 0;
+                    color: var(--accent);
+                    font-size: 1.5rem;
+                    font-weight: 800;
+                }
+                .modal-body {
+                    padding: 2rem;
+                }
+                .form-group {
+                    margin-bottom: 1.5rem;
+                }
+                .form-label {
+                    display: block;
+                    font-size: 0.75rem;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    margin-bottom: 0.6rem;
+                    color: var(--accent);
+                    opacity: 0.8;
+                }
+                .form-control {
+                    width: 100%;
+                    padding: 1rem 1.2rem;
+                    background: rgba(255,255,255,0.05);
+                    border: 1px solid var(--glass-border);
+                    border-radius: 12px;
+                    color: white;
+                    font-family: inherit;
+                    font-size: 0.95rem;
+                    transition: all 0.3s;
+                    box-sizing: border-box;
+                }
+                .form-control:focus {
+                    outline: none;
+                    border-color: var(--accent);
+                    background: rgba(255,255,255,0.1);
+                    box-shadow: 0 0 15px var(--accent-transparent);
+                }
+                .btn-dt {
+                    background: var(--accent);
+                    color: var(--primary);
+                    border: none;
+                    padding: 1rem 2rem;
+                    border-radius: 50px;
+                    font-weight: 700;
+                    cursor: pointer;
+                    transition: all 0.3s;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    font-size: 0.85rem;
+                }
+                .btn-dt:hover {
+                    transform: translateY(-3px);
+                    box-shadow: 0 5px 20px var(--accent-transparent);
+                }
+                .close {
+                    font-size: 2rem;
+                    color: white;
+                    cursor: pointer;
+                    opacity: 0.5;
+                    transition: 0.3s;
+                }
+                .close:hover { opacity: 1; color: var(--accent); }
+
+                @media (max-width: 768px) {
+                    .item-card {
+                        grid-template-columns: 1fr;
+                        gap: 0.5rem;
+                        padding: 1rem;
+                    }
+                    .item-codigo { font-size: 0.8rem; }
+                    .item-descripcion { font-size: 0.85rem; }
+                    .item-valores { 
+                        flex-direction: column; 
+                        gap: 0.3rem; 
+                        margin: 0.5rem 0;
+                    }
+                    .dt-report {
+                        padding: 1rem;
+                    }
+                    .dt-header {
+                        flex-direction: column;
+                        align-items: flex-start;
+                        gap: 5px;
+                    }
+                    .dt-header div:last-child {
+                        text-align: left !important;
+                    }
+                    .dt-grid {
+                        grid-template-columns: 1fr;
+                    }
+                    .premium-card {
+                        padding: 1rem;
+                    }
+                    .modal-content {
+                        width: 95%;
+                        margin: 10% auto;
+                    }
+                }
+            </style>
             <button class="filtro-btn activo" onclick="filtrarItems('todos')">📋 Todos</button>
-            <button class="filtro-btn" onclick="filtrarItems('capitulo-1')">Cap 1: Control</button>
-            <button class="filtro-btn" onclick="filtrarItems('capitulo-2')">Cap 2: Telecom</button>
-            <button class="filtro-btn" onclick="filtrarItems('capitulo-3')">Cap 3: Seguridad</button>
-            <button class="filtro-btn" onclick="filtrarItems('capitulo-4')">Cap 4: Pasos Nivel</button>
-            <button class="filtro-btn" onclick="filtrarItems('capitulo-5')">Cap 5: Centro Control</button>
-            <button class="filtro-btn" onclick="filtrarItems('capitulo-6')">Cap 6: Material Rodante</button>
-            <button class="btn-nuevo-capitulo" onclick="abrirModalNuevoCapitulo()">➕ Proponer Nuevo Capítulo</button>
+            <button class="filtro-btn" onclick="filtrarItems('capitulo-1')">Cap 1</button>
+            <button class="filtro-btn" onclick="filtrarItems('capitulo-2')">Cap 2</button>
+            <button class="filtro-btn" onclick="filtrarItems('capitulo-3')">Cap 3</button>
+            <button class="filtro-btn" onclick="filtrarItems('capitulo-4')">Cap 4</button>
+            <button class="filtro-btn" onclick="filtrarItems('capitulo-5')">Cap 5</button>
+            <button class="filtro-btn" onclick="filtrarItems('capitulo-6')">Cap 6</button>
+            <button class="filtro-btn" onclick="abrirModalNuevoCapitulo()" style="border: 1px dashed var(--accent); color: var(--accent); margin-left: auto;">➕ Nuevo Capítulo</button>
         </div>
 
         <div id="wbs-container">
             <!-- Los capítulos e ítems se cargan aquí dinámicamente -->
         </div>
     </div>
+
+    <!-- Script de Barra Lateral Compartida -->
+    <script src="sidebar-component.js"></script>
 
     <!-- Modal DT -->
     <div id="modalDT" class="modal">
@@ -465,11 +381,40 @@
                 const names = {
                     '1': 'Control y Señalización',
                     '2': 'Telecomunicaciones',
-                    '3': 'ITS y Seguridad',
+                    '3': 'ITS y Seguridad+',
                     '4': 'Pasos a Nivel',
                     '5': 'Centro de Control',
                     '6': 'Material Rodante'
                 };
+
+                // Agrupar por nivel 2 (Sub-capítulo)
+                const subCaps = {};
+                itemsPorCapitulo[cap].forEach(item => {
+                    const parts = item.codigo.split('.');
+                    const sc = parts.length > 1 ? parts[0] + '.' + parts[1] : cap;
+                    if (!subCaps[sc]) subCaps[sc] = [];
+                    subCaps[sc].push(item);
+                });
+
+                let itemsHTML = '';
+                Object.keys(subCaps).sort().forEach(sc => {
+                    if (sc !== cap) {
+                        itemsHTML += `<div style="padding: 1rem 2rem; color: var(--accent); font-weight: 700; opacity: 0.6; font-size: 0.8rem; letter-spacing: 2px;">SUB-CAPÍTULO ${sc}</div>`;
+                    }
+                    itemsHTML += subCaps[sc].map(item => `
+                        <div class="item-card" data-capitulo="${cap}">
+                            <div class="item-codigo">${item.codigo}</div>
+                            <div class="item-descripcion">${item.descripcion}</div>
+                            <div class="item-valores" style="display: flex; gap: 1rem;">
+                                <div style="opacity: 0.6; font-size: 0.8rem;">${item.cantidad} ${item.unidad}</div>
+                                <div style="font-weight: 700; color: var(--accent);">$${item.total_cop.toLocaleString()}</div>
+                            </div>
+                            <div class="botones-accion">
+                                <button class="filtro-btn" style="padding: 0.4rem 0.8rem; font-size: 0.7rem;" onclick="abrirModalDT('${item.codigo}')">PROPONER</button>
+                            </div>
+                        </div>
+                    `).join('');
+                });
 
                 seccion.innerHTML = `
                     <div class="capitulo-header" onclick="toggleCapitulo('${cap}')">
@@ -477,25 +422,7 @@
                         <div class="capitulo-count">${itemsPorCapitulo[cap].length} ítems</div>
                     </div>
                     <div id="items-capitulo-${cap}">
-                        ${itemsPorCapitulo[cap].map(item => `
-                            <div class="item-card">
-                                <div class="item-header">
-                                    <div class="item-codigo">${item.codigo}</div>
-                                    <div class="item-modificable">V3.0 Saneado</div>
-                                </div>
-                                <div class="item-body">
-                                    <div class="item-descripcion">${item.descripcion}</div>
-                                    <div class="item-valores">
-                                        <div class="valor-box"><div class="valor-label">Cantidad</div><div class="valor-dato">${item.cantidad}</div></div>
-                                        <div class="valor-box"><div class="valor-label">Unidad</div><div class="valor-dato">${item.unidad}</div></div>
-                                        <div class="valor-box"><div class="valor-label">Total (COP)</div><div class="valor-dato">$${item.total_cop.toLocaleString()}</div></div>
-                                    </div>
-                                    <div class="botones-accion">
-                                        <button class="btn btn-dt" onclick="abrirModalDT('${item.codigo}')">PROPONER CAMBIO</button>
-                                    </div>
-                                </div>
-                            </div>
-                        `).join('')}
+                        ${itemsHTML}
                     </div>
                 `;
                 container.appendChild(seccion);
@@ -518,9 +445,124 @@
             });
         }
 
-        function abrirModalDT(codigo) { document.getElementById('modalDT').style.display = 'block'; }
+        function abrirModalDT(codigo) { 
+            const item = wbsData.items.find(i => i.codigo === codigo);
+            if (!item) return;
+
+            const modalBody = document.getElementById('modal-dt-body');
+            document.getElementById('modal-dt-titulo').textContent = `Proponiendo Cambio: ${codigo}`;
+            
+            modalBody.innerHTML = `
+                <div class="form-group" style="margin-bottom: 1.5rem;">
+                    <label class="form-label">Descripción Actual:</label>
+                    <div style="padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 8px; font-size: 0.9rem; margin-bottom: 1rem;">${item.descripcion}</div>
+                </div>
+                <div class="form-group" style="margin-bottom: 1.5rem;">
+                    <label class="form-label">Nueva Descripción / Justificación:</label>
+                    <textarea id="edit-descripcion" class="form-control" rows="4" placeholder="Indique la razón del cambio y la nueva descripción..."></textarea>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Nuevo Presupuesto Estimado (COP):</label>
+                    <input type="number" id="edit-presupuesto" class="form-control" value="${item.total_cop}">
+                </div>
+                <div style="margin-top: 2rem; text-align: right;">
+                    <button class="btn-dt" onclick="generarDTExistente('${codigo}')">📋 Generar Reporte de Decisión Técnica</button>
+                </div>
+            `;
+            document.getElementById('modalDT').style.display = 'block'; 
+        }
+
+        function generarDTExistente(codigo) {
+            const item = wbsData.items.find(i => i.codigo === codigo);
+            const nuevaDesc = document.getElementById('edit-descripcion').value;
+            const nuevoPres = document.getElementById('edit-presupuesto').value;
+
+            if (!nuevaDesc) {
+                alert("Por favor ingrese una justificación para el cambio.");
+                return;
+            }
+
+            const modalBody = document.getElementById('modal-dt-body');
+            modalBody.innerHTML = `
+                <div class="dt-report">
+                    <div class="dt-header">
+                        <div style="font-size: 1.5rem; font-weight: 900;">LFC STUDIO | DECISIÓN TÉCNICA</div>
+                        <div style="text-align: right; font-size: 0.8rem;">Ref: DT-WBS-${codigo}<br>Fecha: ${new Date().toLocaleDateString()}</div>
+                    </div>
+                    
+                    <div class="dt-label">Ítem Afectado</div>
+                    <div class="dt-value">${codigo} - ${item.descripcion.substring(0,60)}...</div>
+
+                    <div class="dt-label">Sustento Técnico del Cambio</div>
+                    <div class="dt-value">${nuevaDesc}</div>
+
+                    <div class="dt-grid">
+                        <div>
+                            <div class="dt-label">Presupuesto Actual</div>
+                            <div class="dt-value">$${item.total_cop.toLocaleString()}</div>
+                        </div>
+                        <div>
+                            <div class="dt-label">Presupuesto Propuesto</div>
+                            <div class="dt-value">$${parseInt(nuevoPres).toLocaleString()}</div>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 3rem; border-top: 1px solid #ddd; padding-top: 1rem; font-size: 0.7rem; opacity: 0.6;">
+                        Este documento es una propuesta de cambio generada desde el Dashboard de Control LFC v5.0.
+                    </div>
+                    <button class="filtro-btn activo" style="margin-top: 2rem; width: 100%;" onclick="cerrarModal('modalDT')">Cerrar y Volver</button>
+                </div>
+            `;
+        }
+
+        function generarDTNuevoCapitulo() {
+            const num = document.getElementById('nuevo-cap-numero').value;
+            const nombre = document.getElementById('nuevo-cap-nombre').value;
+            const desc = document.getElementById('nuevo-cap-descripcion').value;
+            const just = document.getElementById('nuevo-cap-justificacion').value;
+            const pres = document.getElementById('nuevo-cap-presupuesto').value;
+
+            if (!nombre || !desc) {
+                alert("Por favor complete al menos el nombre y la descripción.");
+                return;
+            }
+
+            const modalBody = document.querySelector('#modalNuevoCapitulo .modal-body');
+            modalBody.innerHTML = `
+                <div class="dt-report">
+                    <div class="dt-header">
+                        <div style="font-size: 1.5rem; font-weight: 900;">LFC STUDIO | PROPUESTA NUEVO CAPÍTULO</div>
+                        <div style="text-align: right; font-size: 0.8rem;">Ref: DT-NEW-CAP-${num}<br>Fecha: ${new Date().toLocaleDateString()}</div>
+                    </div>
+                    
+                    <div class="dt-label">Nombre del Capítulo Propuesto</div>
+                    <div class="dt-value">CAPÍTULO ${num}: ${nombre}</div>
+
+                    <div class="dt-label">Alcance y Descripción</div>
+                    <div class="dt-value">${desc}</div>
+
+                    <div class="dt-label">Justificación Técnica</div>
+                    <div class="dt-value">${just}</div>
+
+                    <div class="dt-label">Presupuesto Estimado inicial</div>
+                    <div class="dt-value" style="font-size: 1.5rem; font-weight: 800; color: #d32f2f;">$${parseInt(pres || 0).toLocaleString()} COP</div>
+
+                    <div style="margin-top: 3rem; border-top: 1px solid #ddd; padding-top: 1rem; font-size: 0.7rem; opacity: 0.6; color: #666;">
+                        Propuesta generada para revisión de Gerencia Técnica e Interventoría.
+                    </div>
+                    <button class="filtro-btn activo" style="margin-top: 2rem; width: 100%;" onclick="cerrarModal('modalNuevoCapitulo')">Cerrar y Volver</button>
+                </div>
+            `;
+        }
+
         function abrirModalNuevoCapitulo() { document.getElementById('modalNuevoCapitulo').style.display = 'block'; }
-        function cerrarModal(id) { document.getElementById(id).style.display = 'none'; }
+        function cerrarModal(id) { 
+            document.getElementById(id).style.display = 'none'; 
+            if (id === 'modalNuevoCapitulo') {
+                // Reset content for next time
+                setTimeout(() => location.reload(), 100); 
+            }
+        }
 
         window.onload = cargarWBS;
     </script>

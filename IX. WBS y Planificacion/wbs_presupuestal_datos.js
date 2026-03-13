@@ -1,4 +1,4 @@
-﻿const wbsDataPresupuestal = [
+ï»¿const wbsDataPresupuestal = [
     {
         "tipo":  "SUMINISTRO",
         "item":  "1.1.100",
@@ -66,7 +66,7 @@
         "nivel":  null,
         "cantidad":  "1",
         "total":  "150000000",
-        "descripcion":  "Interfaces comunicación",
+        "descripcion":  "Interfaces comunicaciÃ³n",
         "unidad":  "UND"
     },
     {
@@ -156,7 +156,7 @@
         "nivel":  null,
         "cantidad":  "1",
         "total":  "800000000",
-        "descripcion":  "Controlador ENCE García Cadena",
+        "descripcion":  "Controlador ENCE GarcÃ­a Cadena",
         "unidad":  "UND"
     },
     {
@@ -176,7 +176,7 @@
         "nivel":  null,
         "cantidad":  "1",
         "total":  "800000000",
-        "descripcion":  "Controlador ENCE Puerto Berrío-Grecia",
+        "descripcion":  "Controlador ENCE Puerto BerrÃ­o-Grecia",
         "unidad":  "UND"
     },
     {
@@ -186,7 +186,7 @@
         "nivel":  null,
         "cantidad":  "1",
         "total":  "800000000",
-        "descripcion":  "Controlador ENCE La Dorada-México",
+        "descripcion":  "Controlador ENCE La Dorada-MÃ©xico",
         "unidad":  "UND"
     },
     {
@@ -216,7 +216,7 @@
         "nivel":  null,
         "cantidad":  "25",
         "total":  "11214725000",
-        "descripcion":  "Desvíos motorizados CTC",
+        "descripcion":  "DesvÃ­os motorizados CTC",
         "unidad":  "UND"
     },
     {
@@ -246,7 +246,7 @@
         "nivel":  null,
         "cantidad":  "120",
         "total":  "16149240000",
-        "descripcion":  "Desvíos manuales autotalonables (con comprobador integrado)",
+        "descripcion":  "DesvÃ­os manuales autotalonables (con comprobador integrado)",
         "unidad":  "UND"
     },
     {
@@ -256,7 +256,7 @@
         "nivel":  null,
         "cantidad":  "10",
         "total":  "100000000",
-        "descripcion":  "Señalización luminosa estaciones ENCE (entrada/salida)",
+        "descripcion":  "SeÃ±alizaciÃ³n luminosa estaciones ENCE (entrada/salida)",
         "unidad":  "UND"
     },
     {
@@ -266,7 +266,7 @@
         "nivel":  null,
         "cantidad":  "120",
         "total":  "1614960000",
-        "descripcion":  "Herramientas operación (kit completo certificado)",
+        "descripcion":  "Herramientas operaciÃ³n (kit completo certificado)",
         "unidad":  "UND"
     },
     {
@@ -316,7 +316,7 @@
         "nivel":  null,
         "cantidad":  "80",
         "total":  "480000000",
-        "descripcion":  "Radios portátiles",
+        "descripcion":  "Radios portÃ¡tiles",
         "unidad":  "UND"
     },
     {
@@ -336,7 +336,7 @@
         "nivel":  null,
         "cantidad":  "37",
         "total":  "2405000000",
-        "descripcion":  "Casetas técnicas",
+        "descripcion":  "Casetas tÃ©cnicas",
         "unidad":  "UND"
     },
     {
@@ -366,7 +366,7 @@
         "nivel":  null,
         "cantidad":  "37",
         "total":  "925000000",
-        "descripcion":  "Vías de acceso",
+        "descripcion":  "VÃ­as de acceso",
         "unidad":  "UND"
     },
     {
@@ -386,7 +386,7 @@
         "nivel":  null,
         "cantidad":  "37",
         "total":  "555000000",
-        "descripcion":  "Montaje e instalación",
+        "descripcion":  "Montaje e instalaciÃ³n",
         "unidad":  "UND"
     },
     {
@@ -396,7 +396,7 @@
         "nivel":  null,
         "cantidad":  "1",
         "total":  "200000000",
-        "descripcion":  "Configuración red",
+        "descripcion":  "ConfiguraciÃ³n red",
         "unidad":  "UND"
     },
     {
@@ -416,7 +416,7 @@
         "nivel":  null,
         "cantidad":  "1",
         "total":  "100000000",
-        "descripcion":  "Capacitación",
+        "descripcion":  "CapacitaciÃ³n",
         "unidad":  "UND"
     },
     {
@@ -486,7 +486,7 @@
         "nivel":  null,
         "cantidad":  "1",
         "total":  "100000000",
-        "descripcion":  "Configuración dual",
+        "descripcion":  "ConfiguraciÃ³n dual",
         "unidad":  "UND"
     },
     {
@@ -496,7 +496,7 @@
         "nivel":  null,
         "cantidad":  "1",
         "total":  "80000000",
-        "descripcion":  "Pruebas integración",
+        "descripcion":  "Pruebas integraciÃ³n",
         "unidad":  "UND"
     },
     {
@@ -506,7 +506,7 @@
         "nivel":  null,
         "cantidad":  "594km",
         "total":  "5827741722",
-        "descripcion":  "Cable fibra óptica 48 fibras",
+        "descripcion":  "Cable fibra Ã³ptica 48 fibras",
         "unidad":  "km"
     },
     {
@@ -516,7 +516,7 @@
         "nivel":  null,
         "cantidad":  "594km",
         "total":  "53572258278",
-        "descripcion":  "Mano de obra instalación",
+        "descripcion":  "Mano de obra instalaciÃ³n",
         "unidad":  "UND"
     },
     {
@@ -546,7 +546,7 @@
         "nivel":  null,
         "cantidad":  "6,204unidades",
         "total":  "217140000",
-        "descripcion":  "Uniones rápidas",
+        "descripcion":  "Uniones rÃ¡pidas",
         "unidad":  "UND"
     },
     {
@@ -596,7 +596,7 @@
         "nivel":  null,
         "cantidad":  "73",
         "total":  "2190000000",
-        "descripcion":  "Cámaras PAN PTZ 4MP (73 unidades - cobertura completa)",
+        "descripcion":  "CÃ¡maras PAN PTZ 4MP (73 unidades - cobertura completa)",
         "unidad":  "UND"
     },
     {
@@ -606,7 +606,7 @@
         "nivel":  null,
         "cantidad":  "12",
         "total":  "72000000",
-        "descripcion":  "Cámaras talleres (12 unidades)",
+        "descripcion":  "CÃ¡maras talleres (12 unidades)",
         "unidad":  "UND"
     },
     {
@@ -616,7 +616,7 @@
         "nivel":  null,
         "cantidad":  "8",
         "total":  "80000000",
-        "descripcion":  "Cámaras CCO (8 unidades)",
+        "descripcion":  "CÃ¡maras CCO (8 unidades)",
         "unidad":  "UND"
     },
     {
@@ -626,7 +626,7 @@
         "nivel":  null,
         "cantidad":  "5",
         "total":  "35000000",
-        "descripcion":  "Cámaras estaciones (5 unidades)",
+        "descripcion":  "CÃ¡maras estaciones (5 unidades)",
         "unidad":  "UND"
     },
     {
@@ -636,7 +636,7 @@
         "nivel":  null,
         "cantidad":  "1",
         "total":  "150000000",
-        "descripcion":  "Sistema grabación",
+        "descripcion":  "Sistema grabaciÃ³n",
         "unidad":  "UND"
     },
     {
@@ -656,7 +656,7 @@
         "nivel":  null,
         "cantidad":  "1",
         "total":  "120000000",
-        "descripcion":  "Software análisis",
+        "descripcion":  "Software anÃ¡lisis",
         "unidad":  "UND"
     },
     {
@@ -676,7 +676,7 @@
         "nivel":  null,
         "cantidad":  "73",
         "total":  "146000000",
-        "descripcion":  "Instalación y configuración",
+        "descripcion":  "InstalaciÃ³n y configuraciÃ³n",
         "unidad":  "UND"
     },
     {
@@ -706,7 +706,7 @@
         "nivel":  null,
         "cantidad":  "5",
         "total":  "250000000",
-        "descripcion":  "Sistema biométrico",
+        "descripcion":  "Sistema biomÃ©trico",
         "unidad":  "UND"
     },
     {
@@ -726,7 +726,7 @@
         "nivel":  null,
         "cantidad":  "50",
         "total":  "400000000",
-        "descripcion":  "Cerraduras electrónicas",
+        "descripcion":  "Cerraduras electrÃ³nicas",
         "unidad":  "UND"
     },
     {
@@ -746,7 +746,7 @@
         "nivel":  null,
         "cantidad":  "1",
         "total":  "100000000",
-        "descripcion":  "Instalación y configuración",
+        "descripcion":  "InstalaciÃ³n y configuraciÃ³n",
         "unidad":  "UND"
     },
     {
@@ -816,7 +816,7 @@
         "nivel":  null,
         "cantidad":  "1",
         "total":  "80000000",
-        "descripcion":  "Instalación",
+        "descripcion":  "InstalaciÃ³n",
         "unidad":  "UND"
     },
     {
@@ -826,7 +826,7 @@
         "nivel":  null,
         "cantidad":  "9",
         "total":  "1620000000",
-        "descripcion":  "Sistemas barreras automáticas",
+        "descripcion":  "Sistemas barreras automÃ¡ticas",
         "unidad":  "UND"
     },
     {
@@ -836,7 +836,7 @@
         "nivel":  null,
         "cantidad":  "9",
         "total":  "720000000",
-        "descripcion":  "Señalización LED",
+        "descripcion":  "SeÃ±alizaciÃ³n LED",
         "unidad":  "UND"
     },
     {
@@ -846,7 +846,7 @@
         "nivel":  null,
         "cantidad":  "9",
         "total":  "1080000000",
-        "descripcion":  "Sistemas detección vehículos",
+        "descripcion":  "Sistemas detecciÃ³n vehÃ­culos",
         "unidad":  "UND"
     },
     {
@@ -856,7 +856,7 @@
         "nivel":  null,
         "cantidad":  "9",
         "total":  "540000000",
-        "descripcion":  "Sistemas comunicación",
+        "descripcion":  "Sistemas comunicaciÃ³n",
         "unidad":  "UND"
     },
     {
@@ -876,7 +876,7 @@
         "nivel":  null,
         "cantidad":  "9",
         "total":  "1800000000",
-        "descripcion":  "Instalación y configuración",
+        "descripcion":  "InstalaciÃ³n y configuraciÃ³n",
         "unidad":  "UND"
     },
     {
@@ -896,7 +896,7 @@
         "nivel":  null,
         "cantidad":  "15",
         "total":  "750000000",
-        "descripcion":  "Señalización básica",
+        "descripcion":  "SeÃ±alizaciÃ³n bÃ¡sica",
         "unidad":  "UND"
     },
     {
@@ -906,7 +906,7 @@
         "nivel":  null,
         "cantidad":  "15",
         "total":  "1200000000",
-        "descripcion":  "Sistemas detección",
+        "descripcion":  "Sistemas detecciÃ³n",
         "unidad":  "UND"
     },
     {
@@ -916,7 +916,7 @@
         "nivel":  null,
         "cantidad":  "15",
         "total":  "600000000",
-        "descripcion":  "Sistemas comunicación",
+        "descripcion":  "Sistemas comunicaciÃ³n",
         "unidad":  "UND"
     },
     {
@@ -926,7 +926,7 @@
         "nivel":  null,
         "cantidad":  "15",
         "total":  "900000000",
-        "descripcion":  "Instalación",
+        "descripcion":  "InstalaciÃ³n",
         "unidad":  "UND"
     },
     {
@@ -936,7 +936,7 @@
         "nivel":  null,
         "cantidad":  "122",
         "total":  "3050000000",
-        "descripcion":  "Señalización básica",
+        "descripcion":  "SeÃ±alizaciÃ³n bÃ¡sica",
         "unidad":  "UND"
     },
     {
@@ -946,7 +946,7 @@
         "nivel":  null,
         "cantidad":  "122",
         "total":  "2440000000",
-        "descripcion":  "Sistemas comunicación",
+        "descripcion":  "Sistemas comunicaciÃ³n",
         "unidad":  "UND"
     },
     {
@@ -956,7 +956,7 @@
         "nivel":  null,
         "cantidad":  "122",
         "total":  "3660000000",
-        "descripcion":  "Instalación",
+        "descripcion":  "InstalaciÃ³n",
         "unidad":  "UND"
     },
     {
@@ -966,7 +966,7 @@
         "nivel":  null,
         "cantidad":  "1",
         "total":  "2500000000",
-        "descripcion":  "Construcción edificio",
+        "descripcion":  "ConstrucciÃ³n edificio",
         "unidad":  "UND"
     },
     {
@@ -996,7 +996,7 @@
         "nivel":  null,
         "cantidad":  "1",
         "total":  "400000000",
-        "descripcion":  "Sistemas eléctricos",
+        "descripcion":  "Sistemas elÃ©ctricos",
         "unidad":  "UND"
     },
     {
@@ -1056,7 +1056,7 @@
         "nivel":  null,
         "cantidad":  "1",
         "total":  "60000000",
-        "descripcion":  "Sistema iluminación",
+        "descripcion":  "Sistema iluminaciÃ³n",
         "unidad":  "UND"
     },
     {
@@ -1106,7 +1106,7 @@
         "nivel":  null,
         "cantidad":  "1",
         "total":  "4112000000",
-        "descripcion":  "Interfaces comunicación",
+        "descripcion":  "Interfaces comunicaciÃ³n",
         "unidad":  "UND"
     },
     {
@@ -1126,7 +1126,7 @@
         "nivel":  null,
         "cantidad":  "1",
         "total":  "100000000",
-        "descripcion":  "Configuración",
+        "descripcion":  "ConfiguraciÃ³n",
         "unidad":  "UND"
     },
     {
@@ -1186,7 +1186,7 @@
         "nivel":  null,
         "cantidad":  "8",
         "total":  "800000000",
-        "descripcion":  "Instalación y configuración",
+        "descripcion":  "InstalaciÃ³n y configuraciÃ³n",
         "unidad":  "UND"
     },
     {
@@ -1216,7 +1216,7 @@
         "nivel":  null,
         "cantidad":  "15",
         "total":  "75000000",
-        "descripcion":  "Instalación EOT",
+        "descripcion":  "InstalaciÃ³n EOT",
         "unidad":  "UND"
     },
     {
@@ -1226,7 +1226,7 @@
         "nivel":  null,
         "cantidad":  "1",
         "total":  "20000000",
-        "descripcion":  "Configuración EOT",
+        "descripcion":  "ConfiguraciÃ³n EOT",
         "unidad":  "UND"
     }
 ];

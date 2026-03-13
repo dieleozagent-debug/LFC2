@@ -1,450 +1,232 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reporte Gerencial - WBS APP La Dorada-Chiriguaná</title>
+    <link rel="stylesheet" href="wbs-shared.css">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f9fa;
-            padding: 20px;
-            line-height: 1.6;
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-            overflow: hidden;
-        }
-        
-        .header {
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-            color: white;
-            padding: 40px;
+        .metric-card {
             text-align: center;
+            padding: 1.5rem;
         }
-        
-        .header h1 {
-            font-size: 28px;
-            margin-bottom: 10px;
-            font-weight: 600;
+        .metric-value {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: var(--accent);
+            margin-bottom: 0.5rem;
         }
-        
-        .header p {
-            opacity: 0.9;
-            font-size: 14px;
+        .metric-label {
+            font-size: 0.75rem;
+            letter-spacing: 2px;
+            opacity: 0.6;
+            text-transform: uppercase;
         }
-        
-        .content {
-            padding: 40px;
-        }
-        
-        .section {
-            margin-bottom: 40px;
-            padding: 30px;
-            background: #f8f9fa;
-            border-radius: 8px;
-            border-left: 5px solid #667eea;
-        }
-        
-        .section h2 {
-            color: #1e3c72;
-            font-size: 24px;
-            margin-bottom: 20px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        
-        .section h3 {
-            color: #2a5298;
-            font-size: 20px;
-            margin: 25px 0 15px 0;
-        }
-        
-        .highlight-box {
-            background: #e3f2fd;
-            border: 2px solid #2196f3;
-            border-radius: 8px;
-            padding: 20px;
-            margin: 20px 0;
-        }
-        
-        .warning-box {
-            background: #fff3cd;
-            border: 2px solid #ffc107;
-            border-radius: 8px;
-            padding: 20px;
-            margin: 20px 0;
-        }
-        
-        .success-box {
-            background: #d4edda;
-            border: 2px solid #28a745;
-            border-radius: 8px;
-            padding: 20px;
-            margin: 20px 0;
-        }
-        
-        .table-container {
-            overflow-x: auto;
-            margin: 20px 0;
-        }
-        
         table {
             width: 100%;
             border-collapse: collapse;
-            background: white;
-            border-radius: 8px;
+            margin: 2rem 0;
+            background: rgba(255,255,255,0.02);
+            border-radius: 12px;
             overflow: hidden;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
-        
         th {
-            background: #343a40;
-            color: white;
-            padding: 15px;
+            background: rgba(255,255,255,0.05);
+            padding: 1rem;
             text-align: left;
-            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--accent);
         }
-        
         td {
-            padding: 12px 15px;
-            border-bottom: 1px solid #dee2e6;
+            padding: 1rem;
+            border-bottom: 1px solid var(--glass-border);
+            font-size: 0.9rem;
         }
-        
-        tr:hover {
-            background: #f8f9fa;
+        .section-premium {
+            margin-bottom: 4rem;
         }
-        
-        .metric-card {
-            background: white;
-            border-radius: 8px;
-            padding: 20px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            margin: 10px;
-            text-align: center;
-            border-top: 4px solid #667eea;
-        }
-        
-        .metric-value {
-            font-size: 28px;
-            font-weight: bold;
-            color: #667eea;
-            margin-bottom: 5px;
-        }
-        
-        .metric-label {
-            color: #666;
-            font-size: 14px;
-        }
-        
-        .metrics-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            margin: 20px 0;
-        }
-        
-        .risk-item {
-            background: white;
-            border-radius: 6px;
-            padding: 15px;
-            margin: 10px 0;
-            border-left: 4px solid #dc3545;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        
-        .risk-high { border-left-color: #dc3545; }
-        .risk-medium { border-left-color: #ffc107; }
-        .risk-low { border-left-color: #28a745; }
-        
-        .back-btn {
-            background: #667eea;
-            color: white;
-            padding: 12px 24px;
-            border: none;
-            border-radius: 6px;
-            cursor: pointer;
-            font-size: 14px;
-            font-weight: 600;
-            margin-bottom: 20px;
-            text-decoration: none;
-            display: inline-block;
-        }
-        
-        .back-btn:hover {
-            background: #5568d3;
-        }
-        
-        .icon {
-            width: 20px;
-            height: 20px;
-            fill: currentColor;
-        }
-        
-        /* Estilos para impresión */
-        @media print {
-            .back-btn, .btn-print {
-                display: none !important;
-            }
-            body {
-                background: white;
-                padding: 0;
-            }
-            .container {
-                box-shadow: none;
-            }
+        .section-premium h2 {
+            font-size: 1.8rem;
+            color: var(--accent);
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 15px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>📋 REPORTE GERENCIAL EJECUTIVO</h1>
-            <p>APP La Dorada-Chiriguaná | Sistema de Comunicaciones y Control | Presupuesto Definitivo v2.0</p>
+    <div id="lfc-sidebar-container"></div>
+    <div class="main-content-wrapper">
+        <div class="premium-card" style="margin-bottom: 3rem;">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <div>
+                    <h1 class="premium-title">📋 REPORTE GERENCIAL EJECUTIVO</h1>
+                    <p style="opacity: 0.7; font-weight: 300;">APP La Dorada-Chiriguaná | Presupuesto Saneado v6.0 (Soberanía Tecnológica)</p>
+                </div>
+                <button onclick="window.print()" class="btn-print" style="padding: 1rem 2rem; background: var(--accent); color: var(--primary); border: none; border-radius: 50px; cursor: pointer; font-weight: 700; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">📄 EXPORTAR PDF</button>
+            </div>
         </div>
-        
-        <div class="content">
-            <a href="WBS_Menu_Principal.html" class="back-btn">← Volver al Menú Principal</a>
-            <button onclick="window.print()" class="btn-print" style="float: right; padding: 12px 24px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 14px; font-weight: 600; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);">📄 Imprimir PDF</button>
-            <div style="clear: both;"></div>
-            
-            <div class="section">
-                <h2>
-                    <svg class="icon" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                    </svg>
-                    RESUMEN EJECUTIVO
-                </h2>
-                
-                <div class="metrics-grid">
-                    <div class="metric-card">
-                        <div class="metric-value">$287.8B</div>
-                        <div class="metric-label">Presupuesto Total (COP)</div>
-                    </div>
-                    <div class="metric-card">
-                        <div class="metric-value">$65.4M</div>
-                        <div class="metric-label">Presupuesto Total (USD)</div>
-                    </div>
-                    <div class="metric-card">
-                        <div class="metric-value">-$50.2B</div>
-                        <div class="metric-label">Impacto Neto Corrección</div>
-                    </div>
-                    <div class="metric-card">
-                        <div class="metric-value">100%</div>
-                        <div class="metric-label">Coherencia Documental</div>
-                    </div>
-                </div>
-                
-                <div class="success-box">
-                    <h3>✅ CORRECCIÓN DOCUMENTAL EXITOSA</h3>
-                    <p>Se ha completado exitosamente la corrección masiva del ecosistema documental, eliminando desalineaciones críticas y generando un presupuesto definitivo coherente con los criterios técnicos maestros del proyecto.</p>
-                </div>
+
+        <div class="metrics-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1.5rem; margin-bottom: 4rem;">
+            <div class="premium-card metric-card"><div class="metric-value">$287.8B</div><div class="metric-label">Presupuesto (COP)</div></div>
+            <div class="premium-card metric-card"><div class="metric-value">$65.4M</div><div class="metric-label">Presupuesto (USD)</div></div>
+            <div class="premium-card metric-card"><div class="metric-value">-$50.2B</div><div class="metric-label">Impacto Neto</div></div>
+            <div class="premium-card metric-card"><div class="metric-value">100%</div><div class="metric-label">Coherencia</div></div>
+        </div>
+
+        <div class="section-premium">
+            <div class="premium-card" style="border-left: 5px solid var(--success);">
+                <h3 style="color: var(--success); margin-bottom: 1rem;">✅ CORRECCIÓN DOCUMENTAL EXITOSA</h3>
+                <p style="opacity: 0.8; line-height: 1.6;">Se ha completado exitosamente la corrección masiva del ecosistema documental, eliminando desalineaciones críticas y generando un presupuesto definitivo coherente con los criterios técnicos maestros del proyecto.</p>
             </div>
+        </div>
             
-            <div class="section">
-                <h2>
-                    <svg class="icon" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"/>
-                    </svg>
-                    JUSTIFICACIÓN DE CANTIDADES POR SISTEMA
-                </h2>
-                
-                <h3>🔧 Cambio de Paradigma Técnico</h3>
-                <p>El proyecto implementa una <strong>filosofía de señalización virtual</strong> que elimina componentes físicos tradicionales y optimiza la arquitectura de comunicaciones:</p>
-                
-                <div class="table-container">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Sistema</th>
-                                <th>Cantidad</th>
-                                <th>Justificación Técnica</th>
-                                <th>Impacto Presupuestal</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><strong>Fibra Óptica</strong></td>
-                                <td>594 km</td>
-                                <td>Corredor principal + redundancias + 10% repuesto</td>
-                                <td>Base de comunicaciones</td>
-                            </tr>
-                            <tr>
-                                <td><strong>TETRA</strong></td>
-                                <td>37 estaciones</td>
-                                <td>Cobertura completa con 15-20% solapamiento</td>
-                                <td>+$8.0B COP</td>
-                            </tr>
-                            <tr>
-                                <td><strong>GSM-R</strong></td>
-                                <td>37 estaciones</td>
-                                <td>Redundancia operacional colocalizada</td>
-                                <td>+$3.5B COP</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Locomotoras</strong></td>
-                                <td>15 unidades</td>
-                                <td>Flota operacional del proyecto</td>
-                                <td>Base para ATP</td>
-                            </tr>
-                            <tr>
-                                <td><strong>ENCE</strong></td>
-                                <td>5 estaciones</td>
-                                <td>Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío, La Dorada</td>
-                                <td>+$6.0B COP</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Desvíos</strong></td>
-                                <td>120 unidades</td>
-                                <td>25 motorizados + 95 manuales</td>
-                                <td>+$3.8B COP</td>
-                            </tr>
-                            <tr>
-                                <td><strong>CCTV</strong></td>
-                                <td>73 cámaras</td>
-                                <td>Cobertura estratégica del corredor</td>
-                                <td>+$1.2B COP</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                
-                <div class="warning-box">
-                    <h3>⚠️ ELIMINACIONES CRÍTICAS</h3>
-                    <ul>
-                        <li><strong>Eurobalises:</strong> 1,080 → 0 unidades (-$40.0B COP)</li>
-                        <li><strong>Señales LED:</strong> 270 → 0 unidades (-$12.0B COP)</li>
-                        <li><strong>RBC:</strong> 2 → 0 unidades (-$2.0B COP)</li>
-                        <li><strong>LEU:</strong> 1,080 → 0 unidades (-$10.0B COP)</li>
+        <div class="premium-card section-premium">
+            <h2 style="color: var(--accent); display: flex; align-items: center; gap: 15px;">
+                <span style="font-size: 1.5rem;">🔧</span> JUSTIFICACIÓN DE CANTIDADES POR SISTEMA
+            </h2>
+            <p style="margin-bottom: 2rem;">El proyecto implementa una <strong>filosofía de señalización virtual</strong> que elimina componentes físicos tradicionales y optimiza la arquitectura de comunicaciones:</p>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Sistema</th>
+                            <th>Cantidad</th>
+                            <th>JustificaciÃÂ³n TÃÂ©cnica</th>
+                            <th>Impacto Presupuestal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>Fibra ÃÂptica</strong></td><td>594 km</td><td>Corredor principal + redundancias + 10% repuesto</td><td>Base de comunicaciones</td></tr>
+                        <tr><td><strong>TETRA / LTE</strong></td><td>37 estaciones</td><td>Cobertura completa con 15-20% solapamiento (MisiÃÂ³n CrÃÂ­tica)</td><td>+$8.0B COP</td></tr>
+                        <tr><td><strong>Red IP Propia</strong></td><td>37 estaciones</td><td>Redundancia operacional para Vital IP / GNSS Fusion</td><td>+$3.5B COP</td></tr>
+                        <tr><td><strong>Locomotoras</strong></td><td>15 unidades</td><td>Flota operacional del proyecto</td><td>Base para ATP</td></tr>
+                        <tr><td><strong>ENCE</strong></td><td>5 estaciones</td><td>Zapatosa, GarcÃÂ­a Cadena, Barrancabermeja, Puerto BerrÃÂ­o, La Dorada</td><td>+$6.0B COP</td></tr>
+                        <tr><td><strong>DesvÃÂ­os</strong></td><td>120 unidades</td><td>25 motorizados + 95 manuales</td><td>+$3.8B COP</td></tr>
+                        <tr><td><strong>CCTV</strong></td><td>73 cÃÂ¡maras</td><td>Cobertura estratÃÂ©gica del corredor</td><td>+$1.2B COP</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div style="background: rgba(255, 71, 87, 0.1); border: 1px solid #ff4757; border-radius: 12px; padding: 1.5rem; margin-top: 2rem;">
+                <h3 style="color: #ff4757; margin-bottom: 1rem;">Ã¢ÂÂ Ã¯Â¸Â ELIMINACIONES CRÃÂTICAS (SANEAMIENTO)</h3>
+                <ul style="opacity: 0.9;">
+                    <li><strong>Eurobalises:</strong> 1,080 Ã¢ÂÂ 0 unidades (Sustituido por GNSS/PTC)</li>
+                    <li><strong>SeÃÂ±ales LED:</strong> 270 Ã¢ÂÂ 0 unidades (Bloqueo Virtual)</li>
+                    <li><strong>RBC Legacy:</strong> 2 Ã¢ÂÂ 0 unidades (Vital IP Servers)</li>
+                    <li><strong>LEU Interfacing:</strong> 1,080 Ã¢ÂÂ 0 unidades (Red IP Unificada)</li>
+                </ul>
+                <p style="margin-top: 1rem; font-size: 0.85rem;"><strong>JustificaciÃÂ³n:</strong> La migraciÃÂ³n a SoberanÃÂ­a TecnolÃÂ³gica LFC elimina la dependencia de hardware importado y minimiza el mantenimiento en vÃÂ­a.</p>
+            </div>
+        </div>
+            
+        <div class="premium-card section-premium">
+            <h2 style="color: var(--accent); display: flex; align-items: center; gap: 15px;">
+                <span style="font-size: 1.5rem;">Ã°ÂÂÂ</span> SUPUESTOS TÃÂCNICOS Y COMERCIALES
+            </h2>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+                <div>
+                    <h3 style="color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 0.5rem; margin-bottom: 1rem;">Ã°ÂÂÂ§ TÃÂ©cnicos</h3>
+                    <ul style="opacity: 0.8; line-height: 2;">
+                        <li><strong>SeÃÂ±alizaciÃÂ³n Virtual:</strong> CTC + ATP embarcado</li>
+                        <li><strong>ColocalizaciÃÂ³n:</strong> Infraestructura compartida (37 torres)</li>
+                        <li><strong>FENOCO:</strong> Interoperabilidad total garantizada</li>
+                        <li><strong>Fibra ÃÂptica:</strong> Redundancia N+1 (594 km)</li>
+                        <li><strong>EnergÃÂ­a:</strong> Doble respaldo (UPS + Generador)</li>
                     </ul>
-                    <p><strong>Justificación:</strong> Implementación de señalización virtual (CTC + ATP embarcado) elimina la necesidad de componentes físicos tradicionales.</p>
+                </div>
+                <div>
+                    <h3 style="color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 0.5rem; margin-bottom: 1rem;">Ã°ÂÂÂ° Comerciales</h3>
+                    <ul style="opacity: 0.8; line-height: 2;">
+                        <li><strong>AIU:</strong> 33% (23% A + 5% I + 5% U)</li>
+                        <li><strong>IVA:</strong> 19% (Servicios) + 2.28% (Utilidad)</li>
+                        <li><strong>TRM:</strong> 4,400 COP/USD</li>
+                        <li><strong>EscalaciÃÂ³n:</strong> Integrada en CAPEX</li>
+                        <li><strong>Contingencias:</strong> 5% (Reserva de gestiÃÂ³n)</li>
+                    </ul>
                 </div>
             </div>
+        </div>
             
-            <div class="section">
-                <h2>
-                    <svg class="icon" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"/>
-                        <path fill-rule="evenodd" d="M4 5a2 2 0 012-2v1a1 1 0 001 1h6a1 1 0 001-1V3a2 2 0 012 2v6a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3z" clip-rule="evenodd"/>
-                    </svg>
-                    SUPUESTOS TÉCNICOS Y COMERCIALES
-                </h2>
-                
-                <h3>🔧 Supuestos Técnicos</h3>
-                <ul>
-                    <li><strong>Señalización Virtual:</strong> CTC centralizado + ATP embarcado sin componentes físicos en vía</li>
-                    <li><strong>Colocalización:</strong> TETRA y GSM-R comparten infraestructura en 37 torres</li>
-                    <li><strong>Interoperabilidad FENOCO:</strong> Sistema CTC propio + equipamiento de 15 locomotoras</li>
-                    <li><strong>Fibra Óptica:</strong> Redundancia N+1 con 10% de repuesto</li>
-                    <li><strong>Energía:</strong> UPS + generadores de respaldo en todas las instalaciones</li>
-                </ul>
-                
-                <h3>💰 Supuestos Comerciales</h3>
-                <ul>
-                    <li><strong>AIU:</strong> 33% (Administración 23% + Imprevistos 5% + Utilidad 5%)</li>
-                    <li><strong>IVA:</strong> 19% sobre servicios + 2.28% sobre utilidad</li>
-                    <li><strong>TRM:</strong> 4,400 COP/USD</li>
-                    <li><strong>Escalación:</strong> Incluida en valores unitarios</li>
-                    <li><strong>Contingencias:</strong> 5% incluido en AIU</li>
-                </ul>
-            </div>
+        <div class="premium-card section-premium">
+            <h2 style="color: var(--accent); display: flex; align-items: center; gap: 15px;">
+                <span style="font-size: 1.5rem;">Ã°ÂÂÂ¨</span> ANÃÂLISIS DE RIESGOS PRINCIPALES
+            </h2>
             
-            <div class="section">
-                <h2>
-                    <svg class="icon" fill="currentColor" viewBox="0 0 20 20">
-                        <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"/>
-                    </svg>
-                    ANÁLISIS DE RIESGOS PRINCIPALES
-                </h2>
-                
-                <div class="risk-item risk-high">
-                    <h3>🔴 RIESGO ALTO: Complejidad Interoperabilidad FENOCO</h3>
-                    <p><strong>Descripción:</strong> Integración de sistemas CTC propios con ITCS FENOCO requiere coordinación técnica compleja.</p>
-                    <p><strong>Mitigación:</strong> Acuerdos operacionales detallados, pruebas conjuntas, protocolos de comunicación estándar.</p>
-                    <p><strong>Impacto:</strong> +$24B COP en equipamiento adicional para cumplimiento contractual.</p>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+                <div style="background: rgba(255, 71, 87, 0.1); border-left: 4px solid #ff4757; padding: 1.5rem; border-radius: 12px; border: 1px solid rgba(255, 71, 87, 0.2);">
+                    <h3 style="color: #ff4757; margin-bottom: 0.5rem; font-size: 1rem;">Ã°ÂÂÂ´ RIESGO ALTO</h3>
+                    <p style="font-size: 0.85rem; font-weight: 700; margin-bottom: 0.5rem;">Complejidad Interoperabilidad FENOCO</p>
+                    <p style="font-size: 0.8rem; opacity: 0.8; margin-bottom: 0.5rem;">IntegraciÃÂ³n de sistemas CTC propios con ITCS FENOCO requiere coordinaciÃÂ³n tÃÂ©cnica compleja.</p>
+                    <div style="font-size: 0.75rem; color: #ffbcbc;">Impacto: +$24B COP en equipamiento adicional.</div>
                 </div>
                 
-                <div class="risk-item risk-medium">
-                    <h3>🟡 RIESGO MEDIO: Disponibilidad de Fibra Óptica</h3>
-                    <p><strong>Descripción:</strong> Dependencia de 594 km de fibra óptica en corredor con restricciones geográficas.</p>
-                    <p><strong>Mitigación:</strong> 10% repuesto incluido, rutas alternativas identificadas, acuerdos con proveedores.</p>
-                    <p><strong>Impacto:</strong> Retrasos potenciales en instalación si no hay disponibilidad inmediata.</p>
+                <div style="background: rgba(255, 165, 2, 0.1); border-left: 4px solid #ffa502; padding: 1.5rem; border-radius: 12px; border: 1px solid rgba(255, 165, 2, 0.2);">
+                    <h3 style="color: #ffa502; margin-bottom: 0.5rem; font-size: 1rem;">Ã°ÂÂÂ¡ RIESGO MEDIO</h3>
+                    <p style="font-size: 0.85rem; font-weight: 700; margin-bottom: 0.5rem;">Disponibilidad de Fibra ÃÂptica</p>
+                    <p style="font-size: 0.8rem; opacity: 0.8; margin-bottom: 0.5rem;">Dependencia de 594 km de fibra ÃÂ³ptica en corredor con restricciones geogrÃÂ¡ficas.</p>
+                    <div style="font-size: 0.75rem; color: #ffe0a3;">MitigaciÃÂ³n: 10% repuesto incluido, rutas alternativas.</div>
                 </div>
-                
-                <div class="risk-item risk-medium">
-                    <h3>🟡 RIESGO MEDIO: Integración TETRA-GSM-R</h3>
-                    <p><strong>Descripción:</strong> Colocalización de sistemas requiere coordinación de frecuencias y protocolos.</p>
-                    <p><strong>Mitigación:</strong> Estudio de compatibilidad electromagnética, pruebas de cobertura conjuntas.</p>
-                    <p><strong>Impacto:</strong> Optimización de costos por infraestructura compartida.</p>
+
+                <div style="background: rgba(255, 165, 2, 0.1); border-left: 4px solid #ffa502; padding: 1.5rem; border-radius: 12px; border: 1px solid rgba(255, 165, 2, 0.2);">
+                    <h3 style="color: #ffa502; margin-bottom: 0.5rem; font-size: 1rem;">Ã°ÂÂÂ¡ RIESGO MEDIO</h3>
+                    <p style="font-size: 0.85rem; font-weight: 700; margin-bottom: 0.5rem;">IntegraciÃÂ³n TETRA-GSM-R</p>
+                    <p style="font-size: 0.8rem; opacity: 0.8; margin-bottom: 0.5rem;">ColocalizaciÃÂ³n de sistemas requiere coordinaciÃÂ³n de frecuencias y protocolos.</p>
+                    <div style="font-size: 0.75rem; color: #ffe0a3;">Ventaja: OptimizaciÃÂ³n por infraestructura compartida.</div>
                 </div>
-                
-                <div class="risk-item risk-low">
-                    <h3>🟢 RIESGO BAJO: Disponibilidad de Locomotoras</h3>
-                    <p><strong>Descripción:</strong> Equipamiento de 15 locomotoras existentes con sistemas ATP.</p>
-                    <p><strong>Mitigación:</strong> Plan de instalación escalonado, coordinación con operador ferroviario.</p>
-                    <p><strong>Impacto:</strong> Cronograma de instalación bien definido.</p>
+
+                <div style="background: rgba(46, 213, 115, 0.1); border-left: 4px solid #2ed573; padding: 1.5rem; border-radius: 12px; border: 1px solid rgba(46, 213, 115, 0.2);">
+                    <h3 style="color: #2ed573; margin-bottom: 0.5rem; font-size: 1rem;">Ã°ÂÂÂ¢ RIESGO BAJO</h3>
+                    <p style="font-size: 0.85rem; font-weight: 700; margin-bottom: 0.5rem;">Disponibilidad de Locomotoras</p>
+                    <p style="font-size: 0.8rem; opacity: 0.8; margin-bottom: 0.5rem;">Equipamiento de 15 locomotoras existentes con sistemas ATP.</p>
+                    <div style="font-size: 0.75rem; color: #b8ffd4;">Estado: Cronograma de instalaciÃÂ³n bien definido.</div>
                 </div>
             </div>
+        </div>
             
-            <div class="section">
-                <h2>
-                    <svg class="icon" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                    </svg>
-                    RECOMENDACIONES ESTRATÉGICAS
-                </h2>
-                
-                <div class="highlight-box">
-                    <h3>🎯 Próximos Pasos Críticos</h3>
-                    <ol>
-                        <li><strong>Coordinación FENOCO:</strong> Establecer acuerdos operacionales detallados antes de iniciar construcción</li>
-                        <li><strong>Licencias de Frecuencia:</strong> Gestionar asignación de espectro para TETRA y GSM-R</li>
-                        <li><strong>Contratos de Suministro:</strong> Asegurar disponibilidad de fibra óptica y equipos críticos</li>
-                        <li><strong>Plan de Pruebas:</strong> Desarrollar protocolo de pruebas de interoperabilidad</li>
-                        <li><strong>Capacitación:</strong> Programar entrenamiento de operadores en sistemas virtuales</li>
-                    </ol>
+        <div class="premium-card section-premium">
+            <h2 style="color: var(--accent); display: flex; align-items: center; gap: 15px;">
+                <span style="font-size: 1.5rem;">Ã°ÂÂÂ¯</span> RECOMENDACIONES Y VENTAJAS
+            </h2>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+                <div style="background: rgba(255,255,255,0.05); padding: 1.5rem; border-radius: 12px; border-left: 4px solid var(--accent);">
+                    <h3 style="color: var(--accent); margin-bottom: 1rem;">Ã°ÂÂÂ PrÃÂ³ximos Pasos</h3>
+                    <ul style="opacity: 0.9; font-size: 0.9rem;">
+                        <li>Acuerdos operativos FENOCO</li>
+                        <li>GestiÃÂ³n de licencias de espectro</li>
+                        <li>Contratos de suministro crÃÂ­tico</li>
+                        <li>Plan de pruebas virtuales</li>
+                    </ul>
                 </div>
-                
-                <div class="success-box">
-                    <h3>✅ VENTAJAS COMPETITIVAS</h3>
-                    <ul>
-                        <li><strong>Señalización Virtual:</strong> Tecnología de vanguardia, menor mantenimiento</li>
-                        <li><strong>Interoperabilidad:</strong> Cumplimiento contractual con FENOCO garantizado</li>
-                        <li><strong>Redundancia:</strong> Sistemas TETRA + GSM-R para máxima confiabilidad</li>
-                        <li><strong>Escalabilidad:</strong> Arquitectura preparada para futuras expansiones</li>
-                        <li><strong>Costo-Beneficio:</strong> Optimización presupuestal de -$50.2B COP</li>
+                <div style="background: rgba(46, 213, 115, 0.1); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #2ed573;">
+                    <h3 style="color: #2ed573; margin-bottom: 1rem;">Ã°ÂÂÂ Ventajas</h3>
+                    <ul style="opacity: 0.9; font-size: 0.9rem;">
+                        <li>Ahorro neto: -$50.2B COP</li>
+                        <li>Menor mantenimiento fÃÂ­sico</li>
+                        <li>Escalabilidad total (5G Ready)</li>
+                        <li>Interoperabilidad garantizada</li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
+    </div>
+    <script src="sidebar-component.js"></script>
 
-    <!-- Carga de datos dinámicos de reporte gerencial -->
+    <!-- Carga de datos dinÃÂ¡micos de reporte gerencial -->
     <script src="reporte_gerencial_data.js?v=638956959295587343"></script>
     <script>
         // Verificar que los datos se cargaron correctamente
         if (typeof window.reporteGerencialData !== 'undefined') {
-            console.log('✅ Reporte Gerencial cargado:', window.reporteGerencialData.total_items, 'items');
-            console.log('📊 Items con justificación:', window.reporteGerencialData.items_con_justificacion);
-            console.log('📈 Items Pareto 80%:', window.reporteGerencialData.items_pareto_80.length, 'items');
-            console.log('🎯 Datos disponibles en window.reporteGerencialData.items');
+            console.log('Ã¢ÂÂ Reporte Gerencial cargado:', window.reporteGerencialData.total_items, 'items');
+            console.log('Ã°ÂÂÂ Items con justificaciÃÂ³n:', window.reporteGerencialData.items_con_justificacion);
+            console.log('Ã°ÂÂÂ Items Pareto 80%:', window.reporteGerencialData.items_pareto_80.length, 'items');
+            console.log('Ã°ÂÂÂ¯ Datos disponibles en window.reporteGerencialData.items');
             
-            // Datos disponibles para renderizado dinámico
+            // Datos disponibles para renderizado dinÃÂ¡mico
             // Por ahora, se pueden filtrar por: items_pareto_80, items con justificacion, etc.
         } else {
-            console.error('❌ Error: reporte_gerencial_data.js no se cargó correctamente');
+            console.error('Ã¢ÂÂ Error: reporte_gerencial_data.js no se cargÃÂ³ correctamente');
         }
     </script>
 </body>

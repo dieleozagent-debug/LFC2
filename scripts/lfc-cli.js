@@ -52,16 +52,18 @@ function sync() {
     while ((match = pattern.exec(contenido)) !== null) {
         const codigo = match[1].trim();
         const descripcion = match[2].trim().replace(/\*\*/g, '');
-        const cantidadStr = match[3].trim().replace(/,/g, '').replace(/\./g, '');
-        const vuStr = match[4].trim().replace(/\$/g, '').replace(/,/g, '').replace(/\./g, '');
-        const totalStr = match[5].trim().replace(/\$/g, '').replace(/,/g, '').replace(/\./g, '');
+        // Limpiar cantidad: dejar solo números y punto decimal
+        const cantidadStr = match[3].trim().replace(/[^0-9.]/g, '');
+        // Limpiar valores monetarios: quitar $, comas y espacios
+        const vuStr = match[4].trim().replace(/\$/g, '').replace(/,/g, '').replace(/\s/g, '');
+        const totalStr = match[5].trim().replace(/\$/g, '').replace(/,/g, '').replace(/\s/g, '');
 
         if (codigo && descripcion && !descripcion.toLowerCase().includes('subtotal')) {
             items.push({
                 codigo: codigo,
                 descripcion: descripcion,
-                tipo: "SUMINISTRO", // Valor por defecto ya que no está en la tabla
-                unidad: "UND", // Valor por defecto
+                tipo: "SUMINISTRO", 
+                unidad: match[3].toLowerCase().includes('km') ? "KM" : (match[3].toLowerCase().includes('rollos') ? "ROLLO" : "UND"),
                 cantidad: cantidadStr || "1",
                 vu_cop: parseInt(vuStr, 10) || 0,
                 total_cop: parseInt(totalStr, 10) || 0

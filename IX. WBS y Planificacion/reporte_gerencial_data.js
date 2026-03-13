@@ -1,11 +1,7 @@
-﻿const reporteGerencialData = {
+const reporteGerencialData = {
     "fecha_generacion":  "2025-10-10 12:25:29",
-    "cambios_sustanciales":  [
-
-                             ],
-    "riesgos_criticos":  [
-
-                         ],
+    "cambios_sustanciales":  [],
+    "riesgos_criticos":  [],
     "ruta_critica":  [
                          {
                              "codigo":  "2.3.100",
@@ -16,9 +12,7 @@
                              "puede_acelerarse":  false
                          }
                      ],
-    "alertas_gerenciales":  [
-
-                            ],
+    "alertas_gerenciales":  [],
     "recomendaciones_gerencia":  [
                                      {
                                          "prioridad":  "ALTA",
@@ -28,21 +22,21 @@
                                      },
                                      {
                                          "prioridad":  "ALTA",
-                                         "tema":  "Aceleracion TETRA - Radioenlaces",
+                                         "tema":  "AceleraciÃ³n TETRA - Radioenlaces",
                                          "accion":  "Aprobar fast-tracking: Radioenlaces + 50M COP, Ahorro 6 meses",
-                                         "descripcion":  "TETRA puede acelerarse de 18 a 12 meses usando radioenlaces temporales. Permite operacion anticipada."
+                                         "descripcion":  "TETRA puede acelerarse de 18 a 12 meses usando radioenlaces temporales. Permite operaciÃ³n anticipada."
                                      },
                                      {
                                          "prioridad":  "MEDIA",
-                                         "tema":  "Analisis Pareto",
+                                         "tema":  "AnÃ¡lisis Pareto",
                                          "accion":  "Asignar PMO senior a items Pareto",
-                                         "descripcion":  "15 items representan 80% del presupuesto. Enfocar supervision en estos."
+                                         "descripcion":  "15 items representan 80% del presupuesto. Enfocar supervisiÃ³n en estos."
                                      }
                                  ],
     "pareto_items":  [
                          {
                              "codigo":  "1.1.103",
-                             "descripcion":  "Software CTC virtual + ETCS L2 + Interoperabilidad FENOCO",
+                             "descripcion":  "Software CTC virtual + PTC Nativo + Interoperabilidad FENOCO",
                              "total_cop":  88152759385,
                              "porcentaje":  33.277589163741659,
                              "porcentaje_acumulado":  33.277589163741659,
@@ -51,7 +45,7 @@
                          },
                          {
                              "codigo":  "2.3.101",
-                             "descripcion":  "Mano de obra instalación",
+                             "descripcion":  "Mano de obra instalaciÃ³n",
                              "total_cop":  53572258278,
                              "porcentaje":  20.223480399100183,
                              "porcentaje_acumulado":  53.501069562841842,
@@ -60,7 +54,7 @@
                          },
                          {
                              "codigo":  "1.5.100",
-                             "descripcion":  "Desvíos manuales autotalonables (con comprobador integrado)",
+                             "descripcion":  "DesvÃ­os manuales autotalonables (con comprobador integrado)",
                              "total_cop":  16149240000,
                              "porcentaje":  6.0963239015534239,
                              "porcentaje_acumulado":  59.597393464395267,
@@ -69,7 +63,7 @@
                          },
                          {
                              "codigo":  "1.4.100",
-                             "descripcion":  "Desvíos motorizados CTC",
+                             "descripcion":  "DesvÃ­os motorizados CTC",
                              "total_cop":  11214725000,
                              "porcentaje":  4.2335488274896349,
                              "porcentaje_acumulado":  63.830942291884909,
@@ -87,7 +81,7 @@
                          },
                          {
                              "codigo":  "2.3.100",
-                             "descripcion":  "Cable fibra óptica 48 fibras",
+                             "descripcion":  "Cable fibra Ã³ptica 48 fibras",
                              "total_cop":  5827741722,
                              "porcentaje":  2.1999673762919314,
                              "porcentaje_acumulado":  68.5450538126905,
@@ -105,7 +99,7 @@
                          },
                          {
                              "codigo":  "5.3.103",
-                             "descripcion":  "Interfaces comunicación",
+                             "descripcion":  "Interfaces comunicaciÃ³n",
                              "total_cop":  4112000000,
                              "porcentaje":  1.552276384720747,
                              "porcentaje_acumulado":  71.984825801400476,
@@ -114,7 +108,7 @@
                          },
                          {
                              "codigo":  "4.3.102",
-                             "descripcion":  "Instalación",
+                             "descripcion":  "InstalaciÃ³n",
                              "total_cop":  3660000000,
                              "porcentaje":  1.3816467821201202,
                              "porcentaje_acumulado":  73.3664725835206,

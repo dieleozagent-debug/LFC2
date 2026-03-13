@@ -1,201 +1,44 @@
-# V.X Enclavamientos ENCE v5.0 - SISTEMAS ELECTRÓNICOS DE CONTROL
+# V.X - INGENIERÍA DE DETALLE: ENCLAVAMIENTOS ENCE v6.0
 ## APP La Dorada - Chiriguaná
 
-**Fecha:** Enero 2025  
-**Versión:** 5.0  
-**Estado:** ✅ **COMPLETADO - METODOLOGÍA v5.0**
+**Fecha de actualización:** 13 de marzo de 2026  
+**Versión:** v6.0 - Purge Release (Interlocking Detail Design)
+**Metodología:** Punto 42 (Karpathy Saneamiento) - Ciclo Inverso
 
 ---
 
-## 1. MARCO CONTRACTUAL
+## 1. ENCLAVAMIENTOS VIRTUALIZADOS (SANEADOS)
 
-### 1.1 Base Legal
-Documento de ingeniería de detalle para **5 enclavamientos electrónicos (ENCE)** en estaciones críticas, **100% ALINEADO CON CRITERIOS TÉCNICOS MAESTROS v1.0**.
+Los 5 enclavamientos electrónicos (ENCE) operan como nodos inteligentes bajo el protocolo **Vital IP**, reportando directamente al servidor maestro PTC.
 
-### 1.2 Dependencias
-**Documentos Base ✅:**
-- CRITERIOS_TECNICOS_MAESTRO_v1.0.md ✅
-- V.1_Señalizacion_Ferroviaria_Detalle_v5.0.md ✅
-- V.2_Centro_Control_Trafico_CTC_v5.0.md ✅
-- V.4_Sistemas_Potencia_Detalle_v5.0.md ✅
+### 1.1 Ubicaciones de Control:
+- **Nodos:** La Dorada, Puerto Salgar, Puerto Berrío, Puerto Nare, Chiriguaná.
+- **Función:** Control lógico de desvíos y reporte de estado de vía a nivel local, con subordinación al CTC centralizado.
 
----
-
-## 2. VERIFICACIÓN DE COHERENCIA TÉCNICA
-
-| Criterio | Criterio Maestro | Estado Actual | Coherencia |
-|:---------|:-----------------|:--------------|:-----------|
-| **ENCE** | 5 estaciones | 5 estaciones | ✅ 100% |
-| **ATP Embarcado** | 15 locomotoras | 15 locomotoras | ✅ 100% |
-| **CTC Virtual** | 1 centro | 1 centro | ✅ 100% |
-| **Señalización** | Virtual | Virtual | ✅ 100% |
-
-**✅ NINGUNA DESALINEACIÓN DETECTADA**
+### 1.2 Interfaz de Comunicación:
+- **Red:** Backbone de Fibra Óptica (Primario) y Radio TETRA (Respaldo para telemetría).
+- **Purga:** Se elimina el soporte para protocolos ITCS propietarios y comunicaciones GSM-R.
 
 ---
 
-## 3. ARQUITECTURA DEL SISTEMA ENCE
+## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE RBC/GSM-R)
 
-### 3.1 Ubicaciones ENCE
-- **Estación La Dorada** (ENCE-01)
-- **Estación Puerto Salgar** (ENCE-02)  
-- **Estación Puerto Berrío** (ENCE-03)
-- **Estación Puerto Nare** (ENCE-04)
-- **Estación Chiriguaná** (ENCE-05)
-
-### 3.2 Componentes ENCE
-- **Controlador ENCE:** Sistema electrónico de control
-- **Interfaces ATP:** Comunicación con ATP embarcado
-- **Interfaces CTC:** Comunicación con CTC virtual
-- **Protecciones:** Sistemas de seguridad funcional
+Se han corregido los siguientes errores técnicos de la v5.0:
+- ✅ **ELIMINADO:** El requisito de comunicación ENCE-RBC. El ENCE ahora habla directamente con el **Servidor PTC Maestro**.
+- ✅ **ELIMINADO:** Cualquier interfaz física o lógica para balizas o señales LED de vía.
+- ✅ **ELIMINADO:** Protocolos de comunicación duales TETRA/GSM-R en el hardware ENCE.
+- ✅ **CORREGIDO:** El dimensionamiento de los gabinetes ENCE se reduce al eliminar módulos de interfaz propietarios de terceros.
 
 ---
 
-## 4. ESPECIFICACIONES TÉCNICAS
-
-### 4.1 Controlador ENCE
-- **Procesador:** Redundante, SIL 4
-- **Memoria:** 8 GB RAM, 256 GB SSD
-- **Comunicaciones:** TETRA + GSM-R, Fibra óptica
-- **Alimentación:** 480 V AC + UPS 30 min
-
-### 4.2 Interfaces ATP Embarcado
-- **Protocolo:** IEC 62280-1
-- **Velocidad:** 100 Mbps
-- **Redundancia:** N+1
-- **Latencia:** < 100 ms
+## ⚙ LOGICA DE SEGURIDAD LOCAL
+- Cada ENCE mantiene una tabla de enclavamiento local para proteger maniobras en patio, incluso en caso de pérdida de enlace con el CCO.
+- Interoperabilidad garantizada con FENOCO mediante el procedimiento **Stop & Switch** y el intercambio de bits de estado vía IP.
 
 ---
 
-## 5. FUNCIONALIDADES
+## ✅ CONCLUSIONES:
 
-### 5.1 Control de Enclavamientos
-- **Verificación de vías:** Estado libre/ocupado
-- **Autorización de movimientos:** Comunicación ATP
-- **Protección de conflictos:** Lógica de seguridad
-- **Registro de eventos:** Auditoría completa
+Los enclavamientos electrónicos han sido saneados para operar en un entorno de **PTC Virtual**, garantizando la autonomía operativa y la soberanía tecnológica del corredor.
 
-### 5.2 Integración ATP
-- **Recepción de autorizaciones:** Desde CTC virtual
-- **Transmisión de autorizaciones:** A ATP embarcado
-- **Monitoreo de cumplimiento:** Verificación automática
-- **Gestión de excepciones:** Procedimientos de emergencia
-
----
-
-## 6. SEGURIDAD Y CONFIABILIDAD
-
-### 6.1 Seguridad Funcional
-- **SIL 4:** Control de enclavamientos
-- **Redundancia:** Procesadores duales
-- **Diversidad:** Diferentes tecnologías
-- **Aislamiento:** Separación física/eléctrica
-
-### 6.2 Disponibilidad
-- **Objetivo:** 99.95% (4.38 horas/año)
-- **Estrategia:** Redundancia N+1
-- **Mantenimiento:** Predictivo + correctivo
-- **Recuperación:** < 4 horas
-
----
-
-## 7. OPERACIÓN Y MANTENIMIENTO
-
-### 7.1 Operación
-- **Monitoreo:** SCADA integrado
-- **Control:** Automático desde CTC
-- **Alarmas:** Tiempo real
-- **Reportes:** Automáticos
-
-### 7.2 Mantenimiento
-- **Preventivo:** Mensual, trimestral, anual
-- **Correctivo:** Diagnóstico automático
-- **Actualizaciones:** Software y firmware
-- **Calibración:** Sensores y actuadores
-
----
-
-## 8. PRUEBAS Y VALIDACIÓN
-
-### 8.1 Pruebas de Componentes
-- **Hardware:** Funcionalidad y rendimiento
-- **Software:** Lógica de control
-- **Interfaces:** Comunicaciones
-- **Seguridad:** Funciones críticas
-
-### 8.2 Pruebas de Sistema
-- **Integración:** ATP + CTC + ENCE
-- **Rendimiento:** Disponibilidad 99.95%
-- **Seguridad:** Análisis de riesgos
-- **Certificación:** Cumplimiento normativo
-
----
-
-## 9. ENTREGABLES
-
-### 9.1 Documentación
-- **Planos:** Instalación y conexiones
-- **Manuales:** Operación y mantenimiento
-- **Especificaciones:** Técnicas detalladas
-- **Procedimientos:** Pruebas y validación
-
-### 9.2 Equipos
-- **5 Controladores ENCE**
-- **Cables y conectores**
-- **Sistemas de alimentación**
-- **Herramientas de mantenimiento**
-
----
-
-## 10. CRONOGRAMA
-
-### 10.1 Fases
-- **Fase 1:** Diseño detallado (1 mes)
-- **Fase 2:** Fabricación (2 meses)
-- **Fase 3:** Instalación (1 mes)
-- **Fase 4:** Pruebas (1 mes)
-- **Fase 5:** Puesta en servicio (2 semanas)
-
-### 10.2 Hitos
-- **Diseño aprobado:** Mes 1
-- **Equipos fabricados:** Mes 3
-- **Instalación completa:** Mes 4
-- **Pruebas exitosas:** Mes 5
-- **Operación comercial:** Mes 5.5
-
----
-
-## 11. IMPACTO PRESUPUESTAL
-
-### 11.1 Componentes ENCE
-- **5 Controladores ENCE:** $1,500,000,000 COP
-- **Sistemas de alimentación:** $500,000,000 COP
-- **Instalación y pruebas:** $300,000,000 COP
-- **Documentación:** $100,000,000 COP
-- **TOTAL:** $2,400,000,000 COP
-
----
-
-## 12. CONCLUSIONES
-
-### 12.1 Estado del Documento
-- **Base contractual:** ✅ Actualizada
-- **ENCE 5 estaciones:** ✅ Alineado con criterios maestros
-- **Coherencia técnica:** ✅ 100% verificada
-- **Documento completo:** ✅ Listo para implementación
-
-### 12.2 Próximos Pasos
-1. **V.X_Sistema_Desvios_Detalle.md** (Desvíos detalle)
-2. **V.X_Sistema_GSM-R_Detalle.md** (GSM-R detalle)  
-3. **V.X_Sistema_EOT_Detalle.md** (EOT detalle)
-
----
-
-**Control de versiones:**
-| Versión | Fecha | Descripción |
-|:---:|:---:|:---|
-| v5.0 | Ene-2025 | **COMPLETADO - Metodología v5.0 aplicada** |
-
----
-
-**Este documento es VIVO y debe actualizarse conforme se complete la corrección documental masiva.**
+**Saneamiento Ciclo 5 - Ingeniería de Detalle ENCE Finalizado.**

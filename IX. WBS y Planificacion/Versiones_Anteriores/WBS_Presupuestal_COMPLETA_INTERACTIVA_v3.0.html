@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WBS Presupuestal COMPLETA Interactiva v3.0 - APP La Dorada-Chiriguaná</title>
+    <title>WBS Presupuestal COMPLETA Interactiva v3.0 - APP La Dorada-ChiriguanÃ¡</title>
     <style>
         * {
             margin: 0;
@@ -384,14 +384,14 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>📊 WBS PRESUPUESTAL COMPLETA INTERACTIVA v3.0</h1>
-            <p>APP La Dorada-Chiriguaná | Todos los ítems con Criterios Técnicos y Gestión de Cambios</p>
+            <h1>ð WBS PRESUPUESTAL COMPLETA INTERACTIVA v3.0</h1>
+            <p>APP La Dorada-ChiriguanÃ¡ | Todos los Ã­tems con Criterios TÃ©cnicos y GestiÃ³n de Cambios</p>
         </div>
 
         <div class="stats-bar">
             <div class="stat-item">
                 <div class="stat-value" id="total-items">0</div>
-                <div class="stat-label">ÍTEMS TOTALES</div>
+                <div class="stat-label">ÃTEMS TOTALES</div>
             </div>
             <div class="stat-item">
                 <div class="stat-value" id="total-modificables">0</div>
@@ -408,17 +408,17 @@
         </div>
 
         <div class="filtros">
-            <button class="filtro-btn activo" onclick="filtrarItems('todos')">📋 Todos</button>
-            <button class="filtro-btn" onclick="filtrarItems('modificables')">✅ Modificables</button>
-            <button class="filtro-btn" onclick="filtrarItems('no-modificables')">🔒 No Modificables</button>
-            <button class="filtro-btn" onclick="filtrarItems('con-riesgos')">⚠️ Con Riesgos</button>
-            <button class="filtro-btn" onclick="filtrarItems('fibra')">🌐 Fibra Óptica</button>
-            <button class="filtro-btn" onclick="filtrarItems('tetra')">📡 TETRA</button>
-            <button class="filtro-btn" onclick="filtrarItems('gsm')">📱 GSM-R</button>
+            <button class="filtro-btn activo" onclick="filtrarItems('todos')">ð Todos</button>
+            <button class="filtro-btn" onclick="filtrarItems('modificables')">â Modificables</button>
+            <button class="filtro-btn" onclick="filtrarItems('no-modificables')">ð No Modificables</button>
+            <button class="filtro-btn" onclick="filtrarItems('con-riesgos')">â ï¸ Con Riesgos</button>
+            <button class="filtro-btn" onclick="filtrarItems('fibra')">ð Fibra Ãptica</button>
+            <button class="filtro-btn" onclick="filtrarItems('tetra')">ð¡ TETRA</button>
+            <button class="filtro-btn" onclick="filtrarItems('gsm')">ð± GSM-R</button>
         </div>
 
         <div id="wbs-container">
-            <!-- Los ítems se cargan aquí dinámicamente -->
+            <!-- Los Ã­tems se cargan aquÃ­ dinÃ¡micamente -->
         </div>
     </div>
 
@@ -427,10 +427,10 @@
         <div class="modal-content">
             <div class="modal-header">
                 <span class="close" onclick="cerrarModal()">&times;</span>
-                <h2 id="modal-titulo">Ajustar Ítem</h2>
+                <h2 id="modal-titulo">Ajustar Ãtem</h2>
             </div>
             <div class="modal-body" id="modal-body">
-                <!-- Contenido dinámico -->
+                <!-- Contenido dinÃ¡mico -->
             </div>
         </div>
     </div>
@@ -451,11 +451,11 @@
                     modificable: false,
                     categoria: "fibra",
                     criterio_tecnico: {
-                        justificacion: "Longitud corredor La Dorada-Chiriguaná según AT1",
-                        fuente: "AT1 - Alcance del Proyecto, Sección 2.1",
+                        justificacion: "Longitud corredor La Dorada-ChiriguanÃ¡ segÃºn AT1",
+                        fuente: "AT1 - Alcance del Proyecto, SecciÃ³n 2.1",
                         normas: ["UIT-T G.652.D"],
                         calculo: "594 km corredor + 0% reserva (valor contractual)",
-                        restriccion: "No modificable - Obligación contractual AT1"
+                        restriccion: "No modificable - ObligaciÃ³n contractual AT1"
                     },
                     riesgos_asociados: [
                         {
@@ -466,7 +466,7 @@
                         }
                     ],
                     archivos_relacionados: [
-                        "III/28_Sistema_FibraOptica_Integrado.md (Sección 2.1)",
+                        "III/28_Sistema_FibraOptica_Integrado.md (SecciÃ³n 2.1)",
                         "V.3_Sistemas_Comunicacion_Detalle.md (Tabla 5.1)"
                     ]
                 },
@@ -483,13 +483,13 @@
                     categoria: "fibra",
                     criterio_tecnico: {
                         justificacion: "Global estimado para conectores, splitters y empalmes de campo",
-                        fuente: "Estimación técnica basada en 594 km",
+                        fuente: "EstimaciÃ³n tÃ©cnica basada en 594 km",
                         normas: ["UIT-T L.50"],
-                        calculo: "Estimación: $150M para ~6,000 fusiones de campo + conectores + splitters",
+                        calculo: "EstimaciÃ³n: $150M para ~6,000 fusiones de campo + conectores + splitters",
                         desglose: [
-                            "Conectores SC/APC: ~500 unidades × $50,000 = $25M",
-                            "Splitters 1:8: ~100 unidades × $200,000 = $20M",
-                            "Empalmes campo: ~6,000 × $15,000 = $90M",
+                            "Conectores SC/APC: ~500 unidades Ã $50,000 = $25M",
+                            "Splitters 1:8: ~100 unidades Ã $200,000 = $20M",
+                            "Empalmes campo: ~6,000 Ã $15,000 = $90M",
                             "Accesorios varios: $15M"
                         ],
                         restriccion: "Modificable si se ajusta desglose"
@@ -497,31 +497,31 @@
                     riesgos_asociados: [
                         {
                             id: "R-FIBRA-010",
-                            descripcion: "Estimación global puede ser insuficiente si aumentan fusiones de campo",
+                            descripcion: "EstimaciÃ³n global puede ser insuficiente si aumentan fusiones de campo",
                             probabilidad: "Media",
                             impacto: "Medio"
                         },
                         {
                             id: "R-FIBRA-011",
-                            descripcion: "Falta detalle técnico puede generar confusión en compras",
+                            descripcion: "Falta detalle tÃ©cnico puede generar confusiÃ³n en compras",
                             probabilidad: "Alta",
                             impacto: "Medio"
                         }
                     ],
                     archivos_relacionados: [
-                        "V.3_Sistemas_Comunicacion_Detalle.md (Sección 5.4)",
+                        "V.3_Sistemas_Comunicacion_Detalle.md (SecciÃ³n 5.4)",
                         "IV/37_Memorias_Diseno_Basico.md (Anexo C)"
                     ],
                     sugerencias_mejora: [
-                        "Desglosar en ítems específicos (conectores, splitters, empalmes)",
-                        "Validar cantidad con diseño detallado de fusiones",
+                        "Desglosar en Ã­tems especÃ­ficos (conectores, splitters, empalmes)",
+                        "Validar cantidad con diseÃ±o detallado de fusiones",
                         "Agregar reserva 10% para imprevistos"
                     ]
                 },
                 {
                     codigo: "1.1.3",
                     nivel: 3,
-                    descripcion: "Cajas de empalme y distribución 80x80",
+                    descripcion: "Cajas de empalme y distribuciÃ³n 80x80",
                     unidad: "UND",
                     cantidad: 2068,
                     vu_cop: 1350000,
@@ -530,17 +530,17 @@
                     modificable: true,
                     categoria: "fibra",
                     criterio_tecnico: {
-                        justificacion: "Espaciamiento 300m según UIT-T + 88 nodos críticos",
-                        fuente: "UIT-T G.652.D + Diseño OSP",
-                        normas: ["UIT-T G.652.D (máx 500m)"],
-                        calculo: "594,000m ÷ 300m = 1,980 base + 88 nodos críticos = 2,068 total",
+                        justificacion: "Espaciamiento 300m segÃºn UIT-T + 88 nodos crÃ­ticos",
+                        fuente: "UIT-T G.652.D + DiseÃ±o OSP",
+                        normas: ["UIT-T G.652.D (mÃ¡x 500m)"],
+                        calculo: "594,000m Ã· 300m = 1,980 base + 88 nodos crÃ­ticos = 2,068 total",
                         desglose: [
                             "Cajas backbone: 1,980 unidades (cada 300m)",
                             "Cajas en estaciones: 37 unidades (Torres TETRA/GSM-R)",
                             "Cajas en subestaciones: 15 unidades",
-                            "Cajas en cruces críticos: 36 unidades"
+                            "Cajas en cruces crÃ­ticos: 36 unidades"
                         ],
-                        restriccion: "Modificable si espaciamiento cambia (límite UIT-T: 500m)"
+                        restriccion: "Modificable si espaciamiento cambia (lÃ­mite UIT-T: 500m)"
                     },
                     riesgos_asociados: [
                         {
@@ -551,7 +551,7 @@
                         },
                         {
                             id: "R-FIBRA-006",
-                            descripcion: "Si se reduce espaciamiento, aumenta tiempo localización fallas",
+                            descripcion: "Si se reduce espaciamiento, aumenta tiempo localizaciÃ³n fallas",
                             probabilidad: "Baja",
                             impacto: "Medio"
                         }
@@ -559,7 +559,7 @@
                     items_dependientes: ["1.1.5", "1.1.10", "1.1.13"],
                     archivos_relacionados: [
                         "V.3_Sistemas_Comunicacion_Detalle.md (Tabla 5.3)",
-                        "III/28_Sistema_FibraOptica_Integrado.md (Sección 2.2)"
+                        "III/28_Sistema_FibraOptica_Integrado.md (SecciÃ³n 2.2)"
                     ]
                 }
             ]
@@ -608,8 +608,8 @@
                     </div>
                     <div>
                         ${item.modificable 
-                            ? '<span class="item-modificable">✅ MODIFICABLE</span>' 
-                            : '<span class="item-no-modificable">🔒 NO MODIFICABLE</span>'}
+                            ? '<span class="item-modificable">â MODIFICABLE</span>' 
+                            : '<span class="item-no-modificable">ð NO MODIFICABLE</span>'}
                     </div>
                 </div>
                 
@@ -641,19 +641,19 @@
                     
                     ${criterio.justificacion ? `
                         <div class="seccion">
-                            <div class="seccion-titulo">🎯 CRITERIO TÉCNICO</div>
+                            <div class="seccion-titulo">ð¯ CRITERIO TÃCNICO</div>
                             <div class="seccion-contenido">
-                                <strong>Justificación:</strong> ${criterio.justificacion}<br>
+                                <strong>JustificaciÃ³n:</strong> ${criterio.justificacion}<br>
                                 <strong>Fuente:</strong> ${criterio.fuente}<br>
                                 ${criterio.normas ? `<strong>Normas:</strong> ${criterio.normas.join(', ')}<br>` : ''}
-                                <strong>Cálculo:</strong> ${criterio.calculo}<br>
+                                <strong>CÃ¡lculo:</strong> ${criterio.calculo}<br>
                                 ${criterio.desglose ? `
                                     <strong>Desglose:</strong>
                                     <ul>
                                         ${criterio.desglose.map(d => `<li>${d}</li>`).join('')}
                                     </ul>
                                 ` : ''}
-                                ${criterio.restriccion ? `<strong>⚠️ Restricción:</strong> ${criterio.restriccion}` : ''}
+                                ${criterio.restriccion ? `<strong>â ï¸ RestricciÃ³n:</strong> ${criterio.restriccion}` : ''}
                             </div>
                         </div>
                     ` : ''}
@@ -661,7 +661,7 @@
                     ${riesgos.length > 0 ? `
                         <div class="seccion">
                             <div class="seccion-titulo">
-                                ⚠️ RIESGOS ASOCIADOS
+                                â ï¸ RIESGOS ASOCIADOS
                                 <span class="riesgo-badge">${riesgos.length}</span>
                             </div>
                             <div class="seccion-contenido">
@@ -677,7 +677,7 @@
                     
                     ${sugerencias.length > 0 ? `
                         <div class="sugerencia-box">
-                            <div class="sugerencia-titulo">💡 SUGERENCIAS DE MEJORA</div>
+                            <div class="sugerencia-titulo">ð¡ SUGERENCIAS DE MEJORA</div>
                             <ul>
                                 ${sugerencias.map(s => `<li>${s}</li>`).join('')}
                             </ul>
@@ -687,18 +687,18 @@
                     ${item.modificable ? `
                         <div class="botones-accion">
                             <button class="btn btn-ajustar" onclick='abrirModalAjuste(${JSON.stringify(item)})'>
-                                📝 Ajustar Cantidad
+                                ð Ajustar Cantidad
                             </button>
                             <button class="btn btn-precio" onclick='abrirModalPrecio(${JSON.stringify(item)})'>
-                                💰 Ajustar Precio
+                                ð° Ajustar Precio
                             </button>
                             ${criterio.desglose ? `
                                 <button class="btn btn-desglose" onclick='abrirModalDesglose(${JSON.stringify(item)})'>
-                                    📊 Proponer Desglose
+                                    ð Proponer Desglose
                                 </button>
                             ` : ''}
                             <button class="btn btn-dt" onclick='abrirModalDT(${JSON.stringify(item)})'>
-                                📋 Crear Decisión Técnica
+                                ð Crear DecisiÃ³n TÃ©cnica
                             </button>
                         </div>
                     ` : ''}
@@ -771,20 +771,20 @@
                 </div>
                 
                 <div class="form-group">
-                    <label class="form-label">Justificación del Cambio:</label>
-                    <textarea id="justificacion-cambio" class="form-control" placeholder="Explica por qué propones este cambio..."></textarea>
+                    <label class="form-label">JustificaciÃ³n del Cambio:</label>
+                    <textarea id="justificacion-cambio" class="form-control" placeholder="Explica por quÃ© propones este cambio..."></textarea>
                 </div>
                 
                 <div class="form-group">
-                    <label class="form-label">Análisis de Impacto:</label>
+                    <label class="form-label">AnÃ¡lisis de Impacto:</label>
                     <div id="analisis-impacto" style="background: #f8f9fa; padding: 15px; border-radius: 6px;">
-                        <em>Ingresa nueva cantidad y justificación para ver el análisis...</em>
+                        <em>Ingresa nueva cantidad y justificaciÃ³n para ver el anÃ¡lisis...</em>
                     </div>
                 </div>
                 
                 <div style="display: flex; gap: 10px; margin-top: 20px;">
-                    <button class="btn btn-ajustar" onclick="analizarCambio('${item.codigo}')">🔍 Analizar Impacto</button>
-                    <button class="btn btn-dt" onclick="generarDT('${item.codigo}')">📋 Generar DT</button>
+                    <button class="btn btn-ajustar" onclick="analizarCambio('${item.codigo}')">ð Analizar Impacto</button>
+                    <button class="btn btn-dt" onclick="generarDT('${item.codigo}')">ð Generar DT</button>
                 </div>
             `;
             
@@ -805,8 +805,8 @@
                 </div>
                 
                 <div class="form-group">
-                    <label class="form-label">Justificación del Cambio:</label>
-                    <textarea id="justificacion-precio" class="form-control" placeholder="Explica por qué propones este cambio de precio..."></textarea>
+                    <label class="form-label">JustificaciÃ³n del Cambio:</label>
+                    <textarea id="justificacion-precio" class="form-control" placeholder="Explica por quÃ© propones este cambio de precio..."></textarea>
                 </div>
                 
                 <div class="form-group">
@@ -817,8 +817,8 @@
                 </div>
                 
                 <div style="display: flex; gap: 10px; margin-top: 20px;">
-                    <button class="btn btn-ajustar" onclick="calcularNuevoTotal('${item.codigo}', ${item.cantidad})">💰 Calcular Total</button>
-                    <button class="btn btn-dt" onclick="generarDTPrecio('${item.codigo}')">📋 Generar DT</button>
+                    <button class="btn btn-ajustar" onclick="calcularNuevoTotal('${item.codigo}', ${item.cantidad})">ð° Calcular Total</button>
+                    <button class="btn btn-dt" onclick="generarDTPrecio('${item.codigo}')">ð Generar DT</button>
                 </div>
             `;
             
@@ -846,18 +846,18 @@
                 </ul>
                 
                 <div class="form-group">
-                    <label class="form-label">Propuesta de Ítems Específicos:</label>
+                    <label class="form-label">Propuesta de Ãtems EspecÃ­ficos:</label>
                     <textarea id="desglose-propuesto" class="form-control" rows="8" placeholder="Ejemplo:&#10;1.1.2.1 - Conectores SC/APC x 500 @ $50,000 = $25,000,000&#10;1.1.2.2 - Splitters 1:8 x 100 @ $200,000 = $20,000,000&#10;..."></textarea>
                 </div>
                 
                 <div class="form-group">
-                    <label class="form-label">Justificación:</label>
-                    <textarea id="justificacion-desglose" class="form-control" placeholder="Por qué es necesario este desglose..."></textarea>
+                    <label class="form-label">JustificaciÃ³n:</label>
+                    <textarea id="justificacion-desglose" class="form-control" placeholder="Por quÃ© es necesario este desglose..."></textarea>
                 </div>
                 
                 <div style="display: flex; gap: 10px; margin-top: 20px;">
-                    <button class="btn btn-desglose" onclick="validarDesglose()">✅ Validar Desglose</button>
-                    <button class="btn btn-dt" onclick="generarDTDesglose('${item.codigo}')">📋 Generar DT</button>
+                    <button class="btn btn-desglose" onclick="validarDesglose()">â Validar Desglose</button>
+                    <button class="btn btn-dt" onclick="generarDTDesglose('${item.codigo}')">ð Generar DT</button>
                 </div>
             `;
             
@@ -869,7 +869,7 @@
             const titulo = document.getElementById('modal-titulo');
             const body = document.getElementById('modal-body');
             
-            titulo.textContent = `Crear Decisión Técnica: ${item.codigo}`;
+            titulo.textContent = `Crear DecisiÃ³n TÃ©cnica: ${item.codigo}`;
             
             body.innerHTML = `
                 <div class="form-group">
@@ -878,29 +878,29 @@
                         <option value="cantidad">Ajuste de Cantidad</option>
                         <option value="precio">Ajuste de Precio</option>
                         <option value="desglose">Propuesta de Desglose</option>
-                        <option value="eliminacion">Eliminación de Ítem</option>
+                        <option value="eliminacion">EliminaciÃ³n de Ãtem</option>
                         <option value="otro">Otro</option>
                     </select>
                 </div>
                 
                 <div class="form-group">
-                    <label class="form-label">Observación Técnica:</label>
-                    <textarea id="observacion-dt" class="form-control" rows="6" placeholder="Describe tu observación técnica detallada..."></textarea>
+                    <label class="form-label">ObservaciÃ³n TÃ©cnica:</label>
+                    <textarea id="observacion-dt" class="form-control" rows="6" placeholder="Describe tu observaciÃ³n tÃ©cnica detallada..."></textarea>
                 </div>
                 
                 <div class="form-group">
-                    <label class="form-label">Justificación:</label>
-                    <textarea id="justificacion-dt" class="form-control" rows="4" placeholder="Justifica técnicamente el cambio propuesto..."></textarea>
+                    <label class="form-label">JustificaciÃ³n:</label>
+                    <textarea id="justificacion-dt" class="form-control" rows="4" placeholder="Justifica tÃ©cnicamente el cambio propuesto..."></textarea>
                 </div>
                 
                 <div class="form-group">
-                    <label class="form-label">Impacto en Otros Ítems:</label>
+                    <label class="form-label">Impacto en Otros Ãtems:</label>
                     <input type="text" id="items-impactados" class="form-control" placeholder="Ej: 1.1.5, 1.1.10, 1.1.13">
                 </div>
                 
                 <div style="display: flex; gap: 10px; margin-top: 20px;">
-                    <button class="btn btn-dt" onclick="generarDTCompleto('${item.codigo}')">📋 Generar DT Completo</button>
-                    <button class="btn btn-ajustar" onclick="previsualizarDT('${item.codigo}')">👁️ Previsualizar</button>
+                    <button class="btn btn-dt" onclick="generarDTCompleto('${item.codigo}')">ð Generar DT Completo</button>
+                    <button class="btn btn-ajustar" onclick="previsualizarDT('${item.codigo}')">ðï¸ Previsualizar</button>
                 </div>
             `;
             
@@ -916,7 +916,7 @@
             const justificacion = document.getElementById('justificacion-cambio').value;
             
             if (!justificacion) {
-                alert('❌ Debes proporcionar una justificación');
+                alert('â Debes proporcionar una justificaciÃ³n');
                 return;
             }
             
@@ -925,23 +925,23 @@
             const cambioTotal = cambio * item.vu_cop;
             
             const analisisHTML = `
-                <h4>📊 ANÁLISIS DE IMPACTO</h4>
+                <h4>ð ANÃLISIS DE IMPACTO</h4>
                 <p><strong>Cambio en Cantidad:</strong> ${formatearNumero(cambio)} ${item.unidad} (${cambio > 0 ? '+' : ''}${((cambio/item.cantidad)*100).toFixed(1)}%)</p>
-                <p><strong>Impacto Económico:</strong> ${formatearPeso(Math.abs(cambioTotal))} COP ${cambioTotal > 0 ? '(incremento)' : '(ahorro)'}</p>
+                <p><strong>Impacto EconÃ³mico:</strong> ${formatearPeso(Math.abs(cambioTotal))} COP ${cambioTotal > 0 ? '(incremento)' : '(ahorro)'}</p>
                 <p><strong>Nuevo Total:</strong> ${formatearPeso(item.total_cop + cambioTotal)} COP</p>
                 
                 ${item.items_dependientes ? `
                     <hr style="margin: 15px 0;">
-                    <p><strong>⚠️ Ítems Dependientes Afectados:</strong></p>
+                    <p><strong>â ï¸ Ãtems Dependientes Afectados:</strong></p>
                     <ul>
                         ${item.items_dependientes.map(dep => `<li>${dep}</li>`).join('')}
                     </ul>
                 ` : ''}
                 
                 <hr style="margin: 15px 0;">
-                <p><strong>🎯 Recomendación del Sistema:</strong></p>
+                <p><strong>ð¯ RecomendaciÃ³n del Sistema:</strong></p>
                 <p style="background: #e7f3ff; padding: 10px; border-radius: 4px;">
-                    ${cambio > 0 ? '⚠️ El aumento requiere validación técnica y aprobación PMO' : '✅ La reducción puede generar ahorros pero requiere validar que no comprometa objetivos'}
+                    ${cambio > 0 ? 'â ï¸ El aumento requiere validaciÃ³n tÃ©cnica y aprobaciÃ³n PMO' : 'â La reducciÃ³n puede generar ahorros pero requiere validar que no comprometa objetivos'}
                 </p>
             `;
             
@@ -955,7 +955,7 @@
             const itemsImpactados = document.getElementById('items-impactados').value;
             
             if (!observacion || !justificacion) {
-                alert('❌ Debes completar observación y justificación');
+                alert('â Debes completar observaciÃ³n y justificaciÃ³n');
                 return;
             }
             
@@ -980,23 +980,23 @@
             URL.revokeObjectURL(url);
             
             // Mostrar instrucciones
-            alert(`✅ DECISIÓN TÉCNICA GENERADA
+            alert(`â DECISIÃN TÃCNICA GENERADA
 
 Archivo: ${dtID}.md
 
-📋 PRÓXIMOS PASOS:
-1. El archivo se descargó en tu carpeta Downloads
-2. Muévelo a: II. Apendices Tecnicos/Decisiones_Tecnicas/
-3. Ábrelo en Cursor IDE
+ð PRÃXIMOS PASOS:
+1. El archivo se descargÃ³ en tu carpeta Downloads
+2. MuÃ©velo a: II. Apendices Tecnicos/Decisiones_Tecnicas/
+3. Ãbrelo en Cursor IDE
 4. En Cursor, escribe: "Ejecuta ${dtID}"
-5. Cursor leerá el YAML y ejecutará los cambios
+5. Cursor leerÃ¡ el YAML y ejecutarÃ¡ los cambios
 
 El archivo contiene:
-✓ Análisis completo
-✓ Valores actuales vs propuestos
-✓ Riesgos asociados
-✓ Archivos afectados
-✓ Instrucciones YAML para Cursor`);
+â AnÃ¡lisis completo
+â Valores actuales vs propuestos
+â Riesgos asociados
+â Archivos afectados
+â Instrucciones YAML para Cursor`);
             
             cerrarModal();
         }
@@ -1026,8 +1026,8 @@ El archivo contiene:
             const porcentajeCantidad = ((deltaCantidad / item.cantidad) * 100).toFixed(1);
             const porcentajeTotal = ((deltaTotal / item.total_cop) * 100).toFixed(1);
             
-            return `# DECISIÓN TÉCNICA - ${dtID}
-**Sistema:** ${item.categoria} | **Fecha:** ${fecha} | **Estado:** ⏳ Pendiente Aprobación
+            return `# DECISIÃN TÃCNICA - ${dtID}
+**Sistema:** ${item.categoria} | **Fecha:** ${fecha} | **Estado:** â³ Pendiente AprobaciÃ³n
 
 ---
 
@@ -1035,23 +1035,23 @@ El archivo contiene:
 
 | Campo | Valor |
 |-------|-------|
-| Ítem WBS | ${item.codigo} |
-| Descripción | ${item.descripcion} |
+| Ãtem WBS | ${item.codigo} |
+| DescripciÃ³n | ${item.descripcion} |
 | Unidad | ${item.unidad} |
 | Tipo | ${item.tipo} |
-| Modificable | ${item.modificable ? 'Sí' : 'No'} |
-| Fecha generación | ${fecha} |
+| Modificable | ${item.modificable ? 'SÃ­' : 'No'} |
+| Fecha generaciÃ³n | ${fecha} |
 | Tipo de cambio | ${cambios.tipo} |
 
 ---
 
-## 2. OBSERVACIÓN DEL USUARIO
+## 2. OBSERVACIÃN DEL USUARIO
 
 ${cambios.observacion}
 
 ---
 
-## 3. JUSTIFICACIÓN TÉCNICA
+## 3. JUSTIFICACIÃN TÃCNICA
 
 ${cambios.justificacion}
 
@@ -1059,46 +1059,46 @@ ${cambios.justificacion}
 
 ## 4. VALORES: ACTUAL vs PROPUESTO
 
-| Campo | Actual | Propuesto | Δ | Δ % |
+| Campo | Actual | Propuesto | Î | Î % |
 |-------|--------|-----------|---|-----|
 | Cantidad | ${formatearNumero(item.cantidad)} ${item.unidad} | ${formatearNumero(nuevaCantidad)} ${item.unidad} | ${formatearNumero(deltaCantidad)} | ${porcentajeCantidad}% |
 | V/U (COP) | ${formatearPeso(item.vu_cop)} | ${formatearPeso(nuevoVU)} | ${formatearPeso(nuevoVU - item.vu_cop)} | ${(((nuevoVU - item.vu_cop)/item.vu_cop)*100).toFixed(1)}% |
 | Total (COP) | ${formatearPeso(item.total_cop)} | ${formatearPeso(nuevoTotal)} | ${formatearPeso(deltaTotal)} | ${porcentajeTotal}% |
 
-**Impacto Económico:** ${deltaTotal < 0 ? 'AHORRO' : 'INCREMENTO'} de ${formatearPeso(Math.abs(deltaTotal))} COP
+**Impacto EconÃ³mico:** ${deltaTotal < 0 ? 'AHORRO' : 'INCREMENTO'} de ${formatearPeso(Math.abs(deltaTotal))} COP
 
 ---
 
-## 5. CRITERIO TÉCNICO ACTUAL
+## 5. CRITERIO TÃCNICO ACTUAL
 
 ${item.criterio_tecnico ? `
-**Justificación:** ${item.criterio_tecnico.justificacion}
+**JustificaciÃ³n:** ${item.criterio_tecnico.justificacion}
 
 **Fuente:** ${item.criterio_tecnico.fuente}
 
 **Normas aplicables:** ${item.criterio_tecnico.normas ? item.criterio_tecnico.normas.join(', ') : 'N/A'}
 
-**Cálculo base:** ${item.criterio_tecnico.calculo}
+**CÃ¡lculo base:** ${item.criterio_tecnico.calculo}
 
 ${item.criterio_tecnico.desglose ? `
 **Desglose:**
 ${item.criterio_tecnico.desglose.map(d => `- ${d}`).join('\n')}
 ` : ''}
 
-**Restricción:** ${item.criterio_tecnico.restriccion}
+**RestricciÃ³n:** ${item.criterio_tecnico.restriccion}
 ` : '_No documentado_'}
 
 ---
 
-## 6. IMPACTO EN OTROS ÍTEMS WBS
+## 6. IMPACTO EN OTROS ÃTEMS WBS
 
 ${item.items_dependientes ? `
-**Ítems que requieren recálculo:**
+**Ãtems que requieren recÃ¡lculo:**
 ${item.items_dependientes.map(dep => `- ${dep}`).join('\n')}
-` : '_No hay ítems dependientes identificados_'}
+` : '_No hay Ã­tems dependientes identificados_'}
 
 ${cambios.items_impactados ? `
-**Ítems adicionales mencionados:**
+**Ãtems adicionales mencionados:**
 ${cambios.items_impactados.split(',').map(i => `- ${i.trim()}`).join('\n')}
 ` : ''}
 
@@ -1109,13 +1109,13 @@ ${cambios.items_impactados.split(',').map(i => `- ${i.trim()}`).join('\n')}
 ${item.archivos_relacionados ? item.archivos_relacionados.map(arch => `- [ ] \`${arch}\``).join('\n') : '_No documentado_'}
 
 **Archivos principales a actualizar:**
-- [ ] \`WBS_Presupuestal_v3.0.md\` → Recalcular totales
-- [ ] \`MATRIZ_DEPENDENCIAS_DOCUMENTALES_v1.0.md\` → Agregar nueva fila
-${deltaTotal !== 0 ? '- [ ] `MATRIZ_RIESGOS_PMO_AMPLIADA_v1.0.md` → Actualizar riesgos si aplica' : ''}
+- [ ] \`WBS_Presupuestal_v3.0.md\` â Recalcular totales
+- [ ] \`MATRIZ_DEPENDENCIAS_DOCUMENTALES_v1.0.md\` â Agregar nueva fila
+${deltaTotal !== 0 ? '- [ ] `MATRIZ_RIESGOS_PMO_AMPLIADA_v1.0.md` â Actualizar riesgos si aplica' : ''}
 
 ---
 
-## 8. ANÁLISIS DE RIESGOS
+## 8. ANÃLISIS DE RIESGOS
 
 ### Riesgos Actuales:
 ${item.riesgos_asociados && item.riesgos_asociados.length > 0 ? item.riesgos_asociados.map(r => `
@@ -1125,55 +1125,55 @@ ${item.riesgos_asociados && item.riesgos_asociados.length > 0 ? item.riesgos_aso
 `).join('\n') : '_Sin riesgos identificados en base de datos_'}
 
 ### Nuevos Riesgos Potenciales:
-${deltaCantidad < 0 ? '- ⚠️ Riesgo de insuficiencia si estimación es conservadora' : ''}
-${deltaCantidad > 0 ? '- ⚠️ Riesgo de sobrecosto si cantidad excesiva' : ''}
-${Math.abs(porcentajeTotal) > 10 ? '- ⚠️ Impacto económico significativo (>10%) requiere validación PMO' : ''}
+${deltaCantidad < 0 ? '- â ï¸ Riesgo de insuficiencia si estimaciÃ³n es conservadora' : ''}
+${deltaCantidad > 0 ? '- â ï¸ Riesgo de sobrecosto si cantidad excesiva' : ''}
+${Math.abs(porcentajeTotal) > 10 ? '- â ï¸ Impacto econÃ³mico significativo (>10%) requiere validaciÃ³n PMO' : ''}
 
-_A completar por especialista/PMO tras revisión_
+_A completar por especialista/PMO tras revisiÃ³n_
 
 ---
 
-## 9. RECOMENDACIÓN DEL SISTEMA
+## 9. RECOMENDACIÃN DEL SISTEMA
 
 ${deltaTotal < 0 ? `
-✅ **RECOMENDACIÓN: ANALIZAR PARA APROBACIÓN**
+â **RECOMENDACIÃN: ANALIZAR PARA APROBACIÃN**
 
 **PROS:**
 - Ahorro CAPEX: ${formatearPeso(Math.abs(deltaTotal))} (${Math.abs(porcentajeTotal)}%)
-- Optimización de recursos
-- Mejora en relación costo-beneficio
+- OptimizaciÃ³n de recursos
+- Mejora en relaciÃ³n costo-beneficio
 
 **CONTRAS:**
-- Requiere validación que no comprometa objetivos técnicos
-- Posible impacto en ${item.items_dependientes ? item.items_dependientes.length : 0} ítems dependientes
-- Necesita aprobación PMO
+- Requiere validaciÃ³n que no comprometa objetivos tÃ©cnicos
+- Posible impacto en ${item.items_dependientes ? item.items_dependientes.length : 0} Ã­tems dependientes
+- Necesita aprobaciÃ³n PMO
 
-**DECISIÓN SUGERIDA:** Revisar criterios técnicos y aprobar si cumple requisitos mínimos
+**DECISIÃN SUGERIDA:** Revisar criterios tÃ©cnicos y aprobar si cumple requisitos mÃ­nimos
 ` : deltaTotal > 0 ? `
-⚠️ **RECOMENDACIÓN: VALIDAR NECESIDAD**
+â ï¸ **RECOMENDACIÃN: VALIDAR NECESIDAD**
 
 **PROS:**
 - Puede mejorar calidad/capacidad
-- Posible reducción de riesgos técnicos
+- Posible reducciÃ³n de riesgos tÃ©cnicos
 
 **CONTRAS:**
 - Incremento CAPEX: ${formatearPeso(Math.abs(deltaTotal))} (${Math.abs(porcentajeTotal)}%)
-- Requiere justificación sólida
-- Necesita aprobación PMO
+- Requiere justificaciÃ³n sÃ³lida
+- Necesita aprobaciÃ³n PMO
 
-**DECISIÓN SUGERIDA:** Validar que incremento esté justificado técnicamente
+**DECISIÃN SUGERIDA:** Validar que incremento estÃ© justificado tÃ©cnicamente
 ` : `
-ℹ️ **SIN IMPACTO ECONÓMICO**
+â¹ï¸ **SIN IMPACTO ECONÃMICO**
 
-Cambio no afecta costo total. Validar solo aspectos técnicos.
+Cambio no afecta costo total. Validar solo aspectos tÃ©cnicos.
 `}
 
 ---
 
-## 10. INSTRUCCIONES PARA CURSOR ⚙️
+## 10. INSTRUCCIONES PARA CURSOR âï¸
 
 \`\`\`yaml
-# Configuración de ejecución automatizada
+# ConfiguraciÃ³n de ejecuciÃ³n automatizada
 dt_metadata:
   id: "${dtID}"
   fecha: "${fecha}"
@@ -1211,7 +1211,7 @@ ${item.archivos_relacionados ? item.archivos_relacionados.map((arch, idx) => `
         buscar: "${item.cantidad}"
         reemplazar: "${nuevaCantidad}"
         validar_contexto: true
-        notas: "Verificar que sea el ítem correcto antes de aplicar"
+        notas: "Verificar que sea el Ã­tem correcto antes de aplicar"
 `).join('') : ''}
   - file: "VIII. Documentos Maestros y Metodologia/Matrices_Dependencias/MATRIZ_DEPENDENCIAS_DOCUMENTALES_v1.0.md"
     accion: "agregar_fila"
@@ -1219,7 +1219,7 @@ ${item.archivos_relacionados ? item.archivos_relacionados.map((arch, idx) => `
     nueva_fila:
       sistema: "${item.categoria}"
       decision_tecnica: "${dtID}"
-      archivos_afectados: "WBS_Presupuestal, ${item.archivos_relacionados ? item.archivos_relacionados.length : 0} archivos técnicos"
+      archivos_afectados: "WBS_Presupuestal, ${item.archivos_relacionados ? item.archivos_relacionados.length : 0} archivos tÃ©cnicos"
       tipo_impacto: "${cambios.tipo === 'cantidad' ? 'Cantidades' : cambios.tipo === 'precio' ? 'Costos' : 'Especificaciones'}"
 
 ${item.items_dependientes && item.items_dependientes.length > 0 ? `
@@ -1239,13 +1239,13 @@ validaciones:
 
 notificaciones:
   - tipo: "inicio"
-    mensaje: "Iniciando ejecución de ${dtID}"
+    mensaje: "Iniciando ejecuciÃ³n de ${dtID}"
   - tipo: "progreso"
     mensaje: "Actualizando archivo {nombre_archivo}..."
   - tipo: "completado"
-    mensaje: "✅ ${dtID} ejecutado exitosamente - {cantidad_archivos} archivos actualizados"
+    mensaje: "â ${dtID} ejecutado exitosamente - {cantidad_archivos} archivos actualizados"
   - tipo: "error"
-    mensaje: "❌ Error en {archivo}: {descripcion_error}"
+    mensaje: "â Error en {archivo}: {descripcion_error}"
 
 manejo_errores:
   - archivo_no_existe: "reportar_y_continuar"
@@ -1258,30 +1258,30 @@ manejo_errores:
 
 ## 11. ESTADO Y APROBACIONES
 
-- [x] ⏳ Generado automáticamente (${fecha})
-- [ ] 📋 Revisado por especialista: ________________ Fecha: _______
-- [ ] ✅ Aprobado PMO: ________________ Fecha: _______
-- [ ] 🔧 Ejecutado por Cursor: ________________ Fecha: _______
-- [ ] ✅ Validado en campo: ________________ Fecha: _______
+- [x] â³ Generado automÃ¡ticamente (${fecha})
+- [ ] ð Revisado por especialista: ________________ Fecha: _______
+- [ ] â Aprobado PMO: ________________ Fecha: _______
+- [ ] ð§ Ejecutado por Cursor: ________________ Fecha: _______
+- [ ] â Validado en campo: ________________ Fecha: _______
 
 ---
 
-## 12. LOG DE EJECUCIÓN
+## 12. LOG DE EJECUCIÃN
 
-_Se completará automáticamente al ejecutar desde Cursor_
+_Se completarÃ¡ automÃ¡ticamente al ejecutar desde Cursor_
 
 \`\`\`
-Fecha ejecución: 
+Fecha ejecuciÃ³n: 
 Usuario Cursor: 
 Archivos modificados: 
 Errores encontrados: 
-Tiempo ejecución: 
+Tiempo ejecuciÃ³n: 
 \`\`\`
 
 ---
 
 **ID DT:** \`${dtID}\`  
-**Versión:** 1.0  
+**VersiÃ³n:** 1.0  
 **Generado desde:** WBS Interactiva v3.0  
 **Timestamp:** ${timestamp}  
 **Formato:** Markdown con YAML embebido  

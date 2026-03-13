@@ -1,144 +1,144 @@
-# 📁 IX. WBS Y PLANIFICACIÓN
-## APP LA DORADA-CHIRIGUANÁ - Documentos de Planificación y Presupuesto
+# ð IX. WBS Y PLANIFICACIÃN
+## APP LA DORADA-CHIRIGUANÃ - Documentos de PlanificaciÃ³n y Presupuesto
 
 **Fecha:** Enero 2025  
-**Estado:** ✅ **DOCUMENTOS ORGANIZADOS Y DISPONIBLES**  
-**Propósito:** Documentos de planificación, presupuesto y estructura de trabajo del proyecto
+**Estado:** â **DOCUMENTOS ORGANIZADOS Y DISPONIBLES**  
+**PropÃ³sito:** Documentos de planificaciÃ³n, presupuesto y estructura de trabajo del proyecto
 
 ---
 
-## 📋 **RESUMEN EJECUTIVO**
+## ð **RESUMEN EJECUTIVO**
 
-Esta carpeta contiene los **documentos de planificación y presupuesto** del proyecto APP La Dorada-Chiriguaná, incluyendo la estructura de desglose de trabajo (WBS), cronogramas, análisis de riesgos y presupuesto definitivo.
-
----
-
-## 🗂️ **ESTRUCTURA DE DOCUMENTOS**
-
-### **📊 DOCUMENTOS DE NAVEGACIÓN**
-
-| Documento | Propósito | Estado | Uso |
-|:---|:---:|:---:|:---|
-| **WBS_Menu_Principal.html** | **MENÚ PRINCIPAL** - Punto de entrada a todos los documentos WBS | ✅ | Navegación principal |
-| **WBS_Reporte_Gerencial.html** | **REPORTE EJECUTIVO** - Análisis de alto nivel para gerencia | ✅ | Presentaciones ejecutivas |
-
-### **📈 DOCUMENTOS DE PLANIFICACIÓN**
-
-| Documento | Propósito | Estado | Uso |
-|:---|:---:|:---:|:---|
-| **WBS_EDT_Detalle.html** | **ESTRUCTURA DE TRABAJO** - EDT completo con descomposición jerárquica | ✅ | Planificación de actividades |
-| **WBS_Cronograma_Propuesta.html** | **CRONOGRAMA MAESTRO** - Fases de ejecución y hitos críticos | ✅ | Programación del proyecto |
-| **WBS_Analisis_Riesgos.html** | **ANÁLISIS DE RIESGOS** - Evaluación integral de riesgos del proyecto | ✅ | Gestión de riesgos |
-
-### **💰 DOCUMENTOS DE PRESUPUESTO**
-
-| Documento | Propósito | Estado | Uso |
-|:---|:---:|:---:|:---|
-| **WBS_Presupuestal_v2.0.md** | **PRESUPUESTO DEFINITIVO** - WBS presupuestal completo validado | ✅ | Control presupuestal |
-| **WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná.html** | **INTERFAZ INTERACTIVA** - WBS presupuestal interactivo con cálculos | ✅ | Análisis financiero |
+Esta carpeta contiene los **documentos de planificaciÃ³n y presupuesto** del proyecto APP La Dorada-ChiriguanÃ¡, incluyendo la estructura de desglose de trabajo (WBS), cronogramas, anÃ¡lisis de riesgos y presupuesto definitivo.
 
 ---
 
-## 🎯 **DOCUMENTOS CLAVE PARA CONSTRUCCIÓN**
+## ðï¸ **ESTRUCTURA DE DOCUMENTOS**
 
-### **1. WBS PRESUPUESTAL v2.0** ⭐
+### **ð DOCUMENTOS DE NAVEGACIÃN**
+
+| Documento | PropÃ³sito | Estado | Uso |
+|:---|:---:|:---:|:---|
+| **WBS_Menu_Principal.html** | **MENÃ PRINCIPAL** - Punto de entrada a todos los documentos WBS | â | NavegaciÃ³n principal |
+| **WBS_Reporte_Gerencial.html** | **REPORTE EJECUTIVO** - AnÃ¡lisis de alto nivel para gerencia | â | Presentaciones ejecutivas |
+
+### **ð DOCUMENTOS DE PLANIFICACIÃN**
+
+| Documento | PropÃ³sito | Estado | Uso |
+|:---|:---:|:---:|:---|
+| **WBS_EDT_Detalle.html** | **ESTRUCTURA DE TRABAJO** - EDT completo con descomposiciÃ³n jerÃ¡rquica | â | PlanificaciÃ³n de actividades |
+| **WBS_Cronograma_Propuesta.html** | **CRONOGRAMA MAESTRO** - Fases de ejecuciÃ³n y hitos crÃ­ticos | â | ProgramaciÃ³n del proyecto |
+| **WBS_Analisis_Riesgos.html** | **ANÃLISIS DE RIESGOS** - EvaluaciÃ³n integral de riesgos del proyecto | â | GestiÃ³n de riesgos |
+
+### **ð° DOCUMENTOS DE PRESUPUESTO**
+
+| Documento | PropÃ³sito | Estado | Uso |
+|:---|:---:|:---:|:---|
+| **WBS_Presupuestal_v2.0.md** | **PRESUPUESTO DEFINITIVO** - WBS presupuestal completo validado | â | Control presupuestal |
+| **WBS_Presupuesto_SCC_APP_La_Dorada_ChiriguanÃ¡.html** | **INTERFAZ INTERACTIVA** - WBS presupuestal interactivo con cÃ¡lculos | â | AnÃ¡lisis financiero |
+
+---
+
+## ð¯ **DOCUMENTOS CLAVE PARA CONSTRUCCIÃN**
+
+### **1. WBS PRESUPUESTAL v2.0** â­
 **Archivo:** `WBS_Presupuestal_v2.0.md`
 
 **Contiene:**
 - Presupuesto definitivo: $287,833,941,332 COP
-- 6 capítulos principales con desglose detallado
-- Cálculos AIU e IVA automáticos
-- Cantidades validadas contra criterios técnicos maestros
+- 6 capÃ­tulos principales con desglose detallado
+- CÃ¡lculos AIU e IVA automÃ¡ticos
+- Cantidades validadas contra criterios tÃ©cnicos maestros
 
 **Uso:** Referencia obligatoria para control presupuestal y licitaciones
 
-### **2. WBS INTERACTIVO** ⭐
-**Archivo:** `WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná.html`
+### **2. WBS INTERACTIVO** â­
+**Archivo:** `WBS_Presupuesto_SCC_APP_La_Dorada_ChiriguanÃ¡.html`
 
 **Contiene:**
-- Interfaz interactiva para navegación del presupuesto
-- Cálculos automáticos y exportación a Excel
-- Filtros por tipo de ítem y capítulo
-- Validación de fórmulas integrada
+- Interfaz interactiva para navegaciÃ³n del presupuesto
+- CÃ¡lculos automÃ¡ticos y exportaciÃ³n a Excel
+- Filtros por tipo de Ã­tem y capÃ­tulo
+- ValidaciÃ³n de fÃ³rmulas integrada
 
-**Uso:** Herramienta de análisis financiero y presentaciones
+**Uso:** Herramienta de anÃ¡lisis financiero y presentaciones
 
-### **3. CRONOGRAMA MAESTRO** ⭐
+### **3. CRONOGRAMA MAESTRO** â­
 **Archivo:** `WBS_Cronograma_Propuesta.html`
 
 **Contiene:**
-- 5 fases principales de ejecución (24 meses)
-- 18 hitos críticos definidos
+- 5 fases principales de ejecuciÃ³n (24 meses)
+- 18 hitos crÃ­ticos definidos
 - Plan de recursos y capacidades
-- Análisis de rutas críticas
+- AnÃ¡lisis de rutas crÃ­ticas
 
-**Uso:** Programación de actividades y gestión de recursos
+**Uso:** ProgramaciÃ³n de actividades y gestiÃ³n de recursos
 
 ---
 
-## 🔗 **NAVEGACIÓN RÁPIDA**
+## ð **NAVEGACIÃN RÃPIDA**
 
 ### **Para Gerencia:**
-1. **WBS_Menu_Principal.html** → Acceso a todos los documentos
-2. **WBS_Reporte_Gerencial.html** → Resumen ejecutivo
-3. **WBS_Presupuestal_v2.0.md** → Presupuesto definitivo
+1. **WBS_Menu_Principal.html** â Acceso a todos los documentos
+2. **WBS_Reporte_Gerencial.html** â Resumen ejecutivo
+3. **WBS_Presupuestal_v2.0.md** â Presupuesto definitivo
 
-### **Para Planificación:**
-1. **WBS_EDT_Detalle.html** → Estructura de trabajo
-2. **WBS_Cronograma_Propuesta.html** → Programación
-3. **WBS_Analisis_Riesgos.html** → Gestión de riesgos
+### **Para PlanificaciÃ³n:**
+1. **WBS_EDT_Detalle.html** â Estructura de trabajo
+2. **WBS_Cronograma_Propuesta.html** â ProgramaciÃ³n
+3. **WBS_Analisis_Riesgos.html** â GestiÃ³n de riesgos
 
 ### **Para Control Presupuestal:**
-1. **WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná.html** → Interfaz interactiva
-2. **WBS_Presupuestal_v2.0.md** → Documento de referencia
+1. **WBS_Presupuesto_SCC_APP_La_Dorada_ChiriguanÃ¡.html** â Interfaz interactiva
+2. **WBS_Presupuestal_v2.0.md** â Documento de referencia
 
 ---
 
-## 📊 **ESTADÍSTICAS DE LA CARPETA**
+## ð **ESTADÃSTICAS DE LA CARPETA**
 
 - **Total documentos:** 7
 - **Documentos HTML interactivos:** 5
 - **Documentos markdown:** 2
 - **Presupuesto total:** $287,833,941,332 COP
-- **Duración proyecto:** 24 meses
+- **DuraciÃ³n proyecto:** 24 meses
 - **Riesgos analizados:** 25
 
 ---
 
-## 🎯 **CARACTERÍSTICAS ESPECIALES**
+## ð¯ **CARACTERÃSTICAS ESPECIALES**
 
-### **📱 DOCUMENTOS HTML INTERACTIVOS:**
-- **Navegación intuitiva** con menús y filtros
-- **Cálculos automáticos** de presupuesto
-- **Exportación a Excel** (.xlsx)
-- **Búsqueda y filtrado** de información
+### **ð± DOCUMENTOS HTML INTERACTIVOS:**
+- **NavegaciÃ³n intuitiva** con menÃºs y filtros
+- **CÃ¡lculos automÃ¡ticos** de presupuesto
+- **ExportaciÃ³n a Excel** (.xlsx)
+- **BÃºsqueda y filtrado** de informaciÃ³n
 - **Responsive design** para diferentes dispositivos
 
-### **📋 DOCUMENTOS MARKDOWN:**
+### **ð DOCUMENTOS MARKDOWN:**
 - **Estructura clara** con tablas y secciones
 - **Referencias cruzadas** a otros documentos
 - **Control de versiones** integrado
-- **Formato estándar** para edición
+- **Formato estÃ¡ndar** para ediciÃ³n
 
 ---
 
-## ⚠️ **IMPORTANTE**
+## â ï¸ **IMPORTANTE**
 
-- **SIEMPRE INICIAR** con `WBS_Menu_Principal.html` para navegación completa
+- **SIEMPRE INICIAR** con `WBS_Menu_Principal.html` para navegaciÃ³n completa
 - **CONSULTAR** `WBS_Presupuestal_v2.0.md` para presupuesto definitivo
 - **USAR** documentos HTML para presentaciones interactivas
-- **MANTENER** sincronización entre versiones markdown y HTML
+- **MANTENER** sincronizaciÃ³n entre versiones markdown y HTML
 
 ---
 
-## 🔄 **ACTUALIZACIONES**
+## ð **ACTUALIZACIONES**
 
-- **Última actualización:** Enero 2025
-- **Versión presupuesto:** v2.0 (coherente con criterios técnicos maestros)
-- **Estado:** 100% validado y listo para construcción
+- **Ãltima actualizaciÃ³n:** Enero 2025
+- **VersiÃ³n presupuesto:** v2.0 (coherente con criterios tÃ©cnicos maestros)
+- **Estado:** 100% validado y listo para construcciÃ³n
 
 ---
 
-**Carpeta organizada según estándares del proyecto**  
+**Carpeta organizada segÃºn estÃ¡ndares del proyecto**  
 **Fecha:** Enero 2025  
 **Responsable:** Administrador Contractual EPC

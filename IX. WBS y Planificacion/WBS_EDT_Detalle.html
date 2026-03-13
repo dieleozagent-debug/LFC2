@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EDT Detallado - WBS APP La Dorada-Chiriguaná</title>
+    <title>EDT Detallado - WBS APP La Dorada-ChiriguanÃ¡</title>
     <style>
         * {
             margin: 0;
@@ -180,35 +180,35 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>🗂️ EDT Detallado - Estructura de Desglose del Trabajo</h1>
-            <p>Proyecto APP La Dorada-Chiriguaná | Con Metadata Enriquecida</p>
+            <h1>ðï¸ EDT Detallado - Estructura de Desglose del Trabajo</h1>
+            <p>Proyecto APP La Dorada-ChiriguanÃ¡ | Con Metadata Enriquecida</p>
         </div>
         
         <div class="content">
-            <a href="WBS_Menu_Principal.html" class="back-btn">← Volver al Menú Principal</a>
+            <a href="WBS_Menu_Principal.html" class="back-btn">â Volver al MenÃº Principal</a>
             
             <div class="search-box">
-                <input type="text" id="searchInput" placeholder="🔍 Buscar ítem por código o descripción..." onkeyup="filterEDT(this.value)">
+                <input type="text" id="searchInput" placeholder="ð Buscar Ã­tem por cÃ³digo o descripciÃ³n..." onkeyup="filterEDT(this.value)">
             </div>
             
             <div class="edt-container">
                 <div class="edt-tree" id="edtTree">
                     <div style="padding:20px;text-align:center;color:#999;">
-                        <p>⏳ Cargando estructura EDT...</p>
+                        <p>â³ Cargando estructura EDT...</p>
                     </div>
                 </div>
                 
                 <div class="edt-details">
                     <div id="detailsContent" class="detail-section">
-                        <h3>🎯 Seleccione un ítem del EDT</h3>
-                        <p>Haga clic en cualquier elemento de la estructura para ver la justificación técnica, criterios de diseño, supuestos y decisiones técnicas relacionadas.</p>
+                        <h3>ð¯ Seleccione un Ã­tem del EDT</h3>
+                        <p>Haga clic en cualquier elemento de la estructura para ver la justificaciÃ³n tÃ©cnica, criterios de diseÃ±o, supuestos y decisiones tÃ©cnicas relacionadas.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Cargar datos dinámicos -->
+    <!-- Cargar datos dinÃ¡micos -->
     <script src="datos_wbs_TODOS_items.js?v=1.0.3"></script>
     <script src="wbs_metadata_enriquecida.js?v=1.0.4"></script>
     
@@ -217,25 +217,25 @@
         
         // Inicializar EDT con datos combinados
         function inicializarEDT() {
-            console.log('🔄 Inicializando EDT...');
+            console.log('ð Inicializando EDT...');
             
             const metadata = window.wbsMetadataEnriquecida;
             const wbsData = window.datos_wbs;
             
             if (!wbsData || !wbsData.items) {
-                console.error('❌ datos_wbs no disponible');
+                console.error('â datos_wbs no disponible');
                 mostrarError('No se encontraron datos WBS');
                 return;
             }
             
             if (!metadata || !metadata.items) {
-                console.error('❌ wbsMetadataEnriquecida no disponible');
-                mostrarError('No se encontró metadata enriquecida');
+                console.error('â wbsMetadataEnriquecida no disponible');
+                mostrarError('No se encontrÃ³ metadata enriquecida');
                 return;
             }
             
-            console.log('✅ WBS items:', wbsData.items.length);
-            console.log('✅ Metadata items:', Object.keys(metadata.items).length);
+            console.log('â WBS items:', wbsData.items.length);
+            console.log('â Metadata items:', Object.keys(metadata.items).length);
             
             // Combinar datos
             wbsData.items.forEach(item => {
@@ -265,7 +265,7 @@
                 };
             });
             
-            console.log('✅ EDT combinado:', Object.keys(edtDataEnriquecida).length, 'items');
+            console.log('â EDT combinado:', Object.keys(edtDataEnriquecida).length, 'items');
             renderEDT();
         }
         
@@ -274,24 +274,24 @@
             if (treeContainer) {
                 treeContainer.innerHTML = `
                     <div style="padding:20px;background:#fff3cd;border-radius:8px;border-left:4px solid #ffc107;">
-                        <h3 style="color:#856404;">⚠️ Error de carga</h3>
+                        <h3 style="color:#856404;">â ï¸ Error de carga</h3>
                         <p>${mensaje}</p>
                         <button onclick="location.reload()" style="background:#667eea;color:white;border:none;padding:10px 20px;border-radius:6px;cursor:pointer;margin-top:10px;">
-                            🔄 Recargar Página
+                            ð Recargar PÃ¡gina
                         </button>
                     </div>
                 `;
             }
         }
         
-        // Renderizar árbol EDT con estructura expandible
+        // Renderizar Ã¡rbol EDT con estructura expandible
         function renderEDT() {
             const treeContainer = document.getElementById('edtTree');
             if (!treeContainer) return;
             
-            console.log('🎨 Renderizando EDT con', Object.keys(edtDataEnriquecida).length, 'items');
+            console.log('ð¨ Renderizando EDT con', Object.keys(edtDataEnriquecida).length, 'items');
             
-            // Agrupar por capítulo y subcapítulo
+            // Agrupar por capÃ­tulo y subcapÃ­tulo
             const porCapitulo = {};
             Object.keys(edtDataEnriquecida).forEach(codigo => {
                 const partes = codigo.split('.');
@@ -304,22 +304,22 @@
             });
             
             // Renderizar con estructura expandible
-            let html = '<h3 style="margin-bottom: 20px; color: #1e3c72;">🌳 Estructura EDT Dinámica</h3>';
-            html += '<p style="font-size:12px;color:#666;margin-bottom:20px;">Click en capítulos/subcapítulos para expandir. Items con DT tienen badge naranja.</p>';
+            let html = '<h3 style="margin-bottom: 20px; color: #1e3c72;">ð³ Estructura EDT DinÃ¡mica</h3>';
+            html += '<p style="font-size:12px;color:#666;margin-bottom:20px;">Click en capÃ­tulos/subcapÃ­tulos para expandir. Items con DT tienen badge naranja.</p>';
             
             Object.keys(porCapitulo).sort().forEach(cap => {
                 const capId = 'cap-' + cap;
                 const itemsEnCap = Object.values(porCapitulo[cap]).flat().length;
                 
-                // Encabezado de capítulo
+                // Encabezado de capÃ­tulo
                 html += `
                     <div class="tree-level-1" onclick="toggleCapitulo('${capId}')">
-                        <span id="${capId}-icon">▶</span> Capítulo ${cap} <span style="opacity:0.7;font-size:12px;">(${itemsEnCap} items)</span>
+                        <span id="${capId}-icon">â¶</span> CapÃ­tulo ${cap} <span style="opacity:0.7;font-size:12px;">(${itemsEnCap} items)</span>
                     </div>
                     <div id="${capId}" style="display:none;">
                 `;
                 
-                // Subcapítulos
+                // SubcapÃ­tulos
                 Object.keys(porCapitulo[cap]).sort().forEach(subcap => {
                     const subcapId = 'subcap-' + subcap.replace(/\./g, '-');
                     const items = porCapitulo[cap][subcap];
@@ -327,48 +327,48 @@
                     
                     html += `
                         <div class="tree-level-2" onclick="toggleSubcapitulo('${subcapId}')">
-                            <span id="${subcapId}-icon">▶</span> ${subcap}${nombreSubcap ? ' - ' + nombreSubcap : ''} <span style="opacity:0.7;font-size:11px;">(${items.length})</span>
+                            <span id="${subcapId}-icon">â¶</span> ${subcap}${nombreSubcap ? ' - ' + nombreSubcap : ''} <span style="opacity:0.7;font-size:11px;">(${items.length})</span>
                         </div>
                         <div id="${subcapId}" style="display:none;">
                     `;
                     
-                    // Ítems del subcapítulo
+                    // Ãtems del subcapÃ­tulo
                     items.sort().forEach(codigo => {
                         const item = edtDataEnriquecida[codigo];
                         const tieneDTs = item.decisiones_tecnicas && item.decisiones_tecnicas.length > 0;
                         html += `
                             <div class="tree-item" onclick="showDetails('${codigo}')">
                                 <strong style="color:#1e3c72;">${codigo}</strong> - ${item.descripcion}
-                                ${tieneDTs ? '<span class="badge">📋 ' + item.decisiones_tecnicas.length + ' DT</span>' : ''}
+                                ${tieneDTs ? '<span class="badge">ð ' + item.decisiones_tecnicas.length + ' DT</span>' : ''}
                             </div>
                         `;
                     });
                     
-                    html += '</div>'; // Cierre subcapítulo
+                    html += '</div>'; // Cierre subcapÃ­tulo
                 });
                 
-                html += '</div>'; // Cierre capítulo
+                html += '</div>'; // Cierre capÃ­tulo
             });
             
             treeContainer.innerHTML = html;
-            console.log('✅ EDT renderizado correctamente');
+            console.log('â EDT renderizado correctamente');
         }
         
-        // Expandir/contraer capítulos
+        // Expandir/contraer capÃ­tulos
         function toggleCapitulo(capId) {
             const elemento = document.getElementById(capId);
             const icono = document.getElementById(capId + '-icon');
             
             if (elemento.style.display === 'none') {
                 elemento.style.display = 'block';
-                icono.textContent = '▼';
+                icono.textContent = 'â¼';
             } else {
                 elemento.style.display = 'none';
-                icono.textContent = '▶';
+                icono.textContent = 'â¶';
             }
         }
         
-        // Expandir/contraer subcapítulos
+        // Expandir/contraer subcapÃ­tulos
         function toggleSubcapitulo(subcapId) {
             event.stopPropagation();
             const elemento = document.getElementById(subcapId);
@@ -376,14 +376,14 @@
             
             if (elemento.style.display === 'none') {
                 elemento.style.display = 'block';
-                icono.textContent = '▼';
+                icono.textContent = 'â¼';
             } else {
                 elemento.style.display = 'none';
-                icono.textContent = '▶';
+                icono.textContent = 'â¶';
             }
         }
         
-        // Mostrar detalles del ítem
+        // Mostrar detalles del Ã­tem
         function showDetails(codigo) {
             const content = document.getElementById('detailsContent');
             const data = edtDataEnriquecida[codigo];
@@ -391,14 +391,14 @@
             if (!data) {
                 content.innerHTML = `
                     <div class="detail-section">
-                        <h3>📋 ${codigo}</h3>
-                        <p style="color: #e74c3c;">⚠️ Información no disponible</p>
+                        <h3>ð ${codigo}</h3>
+                        <p style="color: #e74c3c;">â ï¸ InformaciÃ³n no disponible</p>
                     </div>
                 `;
                 return;
             }
             
-            // Formatear números
+            // Formatear nÃºmeros
             const formatCOP = (val) => {
                 if (!val) return 'N/A';
                 return new Intl.NumberFormat('es-CO', {style: 'currency', currency: 'COP', maximumFractionDigits: 0}).format(val);
@@ -408,7 +408,7 @@
                 <div class="detail-section">
                     <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 20px;">
                         <div>
-                            <h3 style="color: #1e3c72; margin-bottom: 5px;">📋 ${data.codigo} - ${data.descripcion}</h3>
+                            <h3 style="color: #1e3c72; margin-bottom: 5px;">ð ${data.codigo} - ${data.descripcion}</h3>
                             <p style="color: #666; font-size: 12px; margin: 0;">
                                 <strong>Tipo:</strong> ${data.tipo} | 
                                 <strong>Cantidad:</strong> ${data.cantidad} ${data.unidad} | 
@@ -425,7 +425,7 @@
                     
                     ${data.justificacion_tecnica && data.justificacion_tecnica !== 'Por definir' ? `
                         <h4 style="color: #2a5298; border-bottom: 2px solid #e3f2fd; padding-bottom: 5px; margin-top: 20px;">
-                            🔬 Justificación Técnica
+                            ð¬ JustificaciÃ³n TÃ©cnica
                         </h4>
                         <p style="background: #f0f8ff; padding: 15px; border-left: 4px solid #2196f3; border-radius: 4px;">
                             ${data.justificacion_tecnica}
@@ -434,7 +434,7 @@
                     
                     ${data.criterios_diseno && data.criterios_diseno.length > 0 ? `
                         <h4 style="color: #2a5298; border-bottom: 2px solid #e3f2fd; padding-bottom: 5px; margin-top: 20px;">
-                            ⚙️ Criterios de Diseño
+                            âï¸ Criterios de DiseÃ±o
                         </h4>
                         <ul style="background: #f9fbe7; padding: 15px 15px 15px 35px; border-left: 4px solid #cddc39; border-radius: 4px;">
                             ${data.criterios_diseno.map(criterio => `
@@ -445,7 +445,7 @@
                     
                     ${data.supuestos && data.supuestos.length > 0 ? `
                         <h4 style="color: #2a5298; border-bottom: 2px solid #e3f2fd; padding-bottom: 5px; margin-top: 20px;">
-                            📐 Supuestos del Especialista
+                            ð Supuestos del Especialista
                         </h4>
                         <ul style="background: #fff3e0; padding: 15px 15px 15px 35px; border-left: 4px solid #ff9800; border-radius: 4px;">
                             ${data.supuestos.map(supuesto => `
@@ -456,7 +456,7 @@
                     
                     ${data.feedback_especialista && data.feedback_especialista !== 'Sin feedback registrado' ? `
                         <h4 style="color: #2a5298; border-bottom: 2px solid #e3f2fd; padding-bottom: 5px; margin-top: 20px;">
-                            💡 Feedback del Especialista
+                            ð¡ Feedback del Especialista
                         </h4>
                         <p style="background: #e8f5e9; padding: 15px; border-left: 4px solid #4caf50; border-radius: 4px; font-style: italic;">
                             ${data.feedback_especialista}
@@ -465,13 +465,13 @@
                     
                     ${data.decisiones_tecnicas && data.decisiones_tecnicas.length > 0 ? `
                         <h4 style="color: #2a5298; border-bottom: 2px solid #e3f2fd; padding-bottom: 5px; margin-top: 20px;">
-                            📄 Decisiones Técnicas Relacionadas
+                            ð Decisiones TÃ©cnicas Relacionadas
                         </h4>
                         <div style="background: #fff3cd; padding: 15px; border-radius: 4px;">
                             ${data.decisiones_tecnicas.map(dt => `
                                 <div style="background: white; padding: 12px; margin: 8px 0; border-radius: 4px; border-left: 3px solid #ff9800;">
-                                    <strong style="color:#e65100;">🔗 ${dt}</strong>
-                                    <p style="font-size:11px;color:#666;margin:5px 0 0 0;">Decisión técnica aplicada a este ítem</p>
+                                    <strong style="color:#e65100;">ð ${dt}</strong>
+                                    <p style="font-size:11px;color:#666;margin:5px 0 0 0;">DecisiÃ³n tÃ©cnica aplicada a este Ã­tem</p>
                                 </div>
                             `).join('')}
                         </div>
@@ -479,12 +479,12 @@
                     
                     ${data.documentos_ingenieria && data.documentos_ingenieria.length > 0 ? `
                         <h4 style="color: #2a5298; border-bottom: 2px solid #e3f2fd; padding-bottom: 5px; margin-top: 20px;">
-                            📚 Documentos de Ingeniería
+                            ð Documentos de IngenierÃ­a
                         </h4>
                         <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px; margin-top: 10px;">
                             ${data.documentos_ingenieria.map(doc => `
                                 <div style="background: #e3f2fd; padding: 12px; border-radius: 6px; border-left: 3px solid #2196f3;">
-                                    <div style="font-size: 12px; font-weight: 600; color: #1e3c72;">📄 ${doc}</div>
+                                    <div style="font-size: 12px; font-weight: 600; color: #1e3c72;">ð ${doc}</div>
                                 </div>
                             `).join('')}
                         </div>
@@ -492,7 +492,7 @@
                     
                     ${data.referencias_contractuales && data.referencias_contractuales.length > 0 ? `
                         <h4 style="color: #2a5298; border-bottom: 2px solid #e3f2fd; padding-bottom: 5px; margin-top: 20px;">
-                            ⚖️ Referencias Contractuales
+                            âï¸ Referencias Contractuales
                         </h4>
                         <div style="background: #fff9e6; padding: 15px; border-radius: 4px; border-left: 4px solid #ffc107;">
                             <ul style="margin: 0; padding-left: 20px;">
@@ -504,8 +504,8 @@
                     ` : ''}
                     
                     <div style="margin-top: 30px; padding-top: 20px; border-top: 2px dashed #dee2e6; font-size: 11px; color: #999;">
-                        <strong>📅 Última actualización:</strong> ${data.ultima_actualizacion} | 
-                        <strong>👤 Por:</strong> ${data.actualizado_por}
+                        <strong>ð Ãltima actualizaciÃ³n:</strong> ${data.ultima_actualizacion} | 
+                        <strong>ð¤ Por:</strong> ${data.actualizado_por}
                     </div>
                 </div>
             `;
@@ -542,20 +542,20 @@
                 });
             });
             
-            // Si hay búsqueda, expandir todos
+            // Si hay bÃºsqueda, expandir todos
             if (term !== '') {
                 document.querySelectorAll('[id^="cap-"]').forEach(el => {
                     if (!el.id.includes('-icon')) {
                         el.style.display = 'block';
                         const icono = document.getElementById(el.id + '-icon');
-                        if (icono) icono.textContent = '▼';
+                        if (icono) icono.textContent = 'â¼';
                     }
                 });
                 document.querySelectorAll('[id^="subcap-"]').forEach(el => {
                     if (!el.id.includes('-icon')) {
                         el.style.display = 'block';
                         const icono = document.getElementById(el.id + '-icon');
-                        if (icono) icono.textContent = '▼';
+                        if (icono) icono.textContent = 'â¼';
                     }
                 });
             }
@@ -563,7 +563,7 @@
         
         // Inicializar al cargar
         window.addEventListener('DOMContentLoaded', function() {
-            console.log('📄 Página cargada, inicializando EDT...');
+            console.log('ð PÃ¡gina cargada, inicializando EDT...');
             inicializarEDT();
         });
     </script>
