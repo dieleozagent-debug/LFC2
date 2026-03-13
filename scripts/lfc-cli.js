@@ -127,7 +127,7 @@ function getCategoria(codigo) {
     return map[cap] || "otros";
 }
 
-const PANDOC_PATH = 'pandoc';
+const PANDOC_PATH = '/home/administrador/docker/LFC2/bin/pandoc';
 
 // ... (getCategoria stays the same)
 
