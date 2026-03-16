@@ -219,7 +219,8 @@ function getCategoria(codigo) {
     return map[cap] || "otros";
 }
 
-const PANDOC_PATH = '/home/administrador/docker/LFC2/bin/pandoc';
+const PANDOC_PATH = fs.existsSync('/usr/bin/pandoc') ? 'pandoc' : 
+                   (fs.existsSync('/app/repos/LFC2/bin/bin/pandoc') ? '/app/repos/LFC2/bin/bin/pandoc' : '/home/administrador/docker/LFC2/bin/pandoc');
 
 // ... (getCategoria stays the same)
 
@@ -422,6 +423,7 @@ function serve() {
                           `--metadata title="${baseName.replace(/_/g, ' ')}"`;
             
             execSync(command);
+            postProcessHtml(path.join(carpetaHTML, baseName + '.html'), baseName);
             log(`  💎 HTML Premium y Word generados exitosamente`, colors.green);
         } catch (e) {
             log(`  ❌ Error en Pandoc para ${file}: ${e.message}`, colors.red);
@@ -429,6 +431,47 @@ function serve() {
     });
 
     log("\n✅ PLATOS SERVIDOS!", colors.green);
+}
+
+// Inyectar insignias DT automáticamente
+function postProcessHtml(htmlPath, baseName) {
+    if (!fs.existsSync(htmlPath)) return;
+    let html = fs.readFileSync(htmlPath, 'utf8');
+    
+    // Buscar DTs relacionadas
+    const dtDir = path.join(REPO_ROOT, 'II. Apendices Tecnicos/Decisiones_Tecnicas');
+    if (!fs.existsSync(dtDir)) return;
+    
+    const dts = fs.readdirSync(dtDir).filter(f => f.endsWith('.md'));
+    let dtCount = 0;
+    
+    // DEBUG
+    log(`    🔎 Buscando DTs para: ${baseName} en ${dtDir}`, colors.yellow);
+    
+    dts.forEach(dtFile => {
+        const dtContent = fs.readFileSync(path.join(dtDir, dtFile), 'utf8');
+        if (dtContent.includes(baseName)) dtCount++;
+    });
+
+    if (dtCount > 0) {
+        log(`    🎨 Inyectando Insignia Masterchef: ${dtCount} DT(s) encontradas`, colors.magenta);
+        const badge = `<span style="background: hsl(45, 100%, 50%); color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.8rem; margin-left: 10px; vertical-align: middle;">${dtCount} DT ACTIVADA${dtCount > 1 ? 'S' : ''}</span>`;
+        
+        // Inyectar en H1 (usando [\s\S] para multilínea)
+        html = html.replace(/(<h1[^>]*>)([\s\S]*?)(<\/h1>)/i, `$1$2 ${badge}$3`);
+        
+        // Inyectar Estilo Premium si no existe
+        if (!html.includes('masterchef-style')) {
+            const style = `
+            <style id="masterchef-style">
+                body { font-family: 'Inter', sans-serif !important; background: #fdfdfd; }
+                header, .glass-header { background: rgba(255,255,255,0.8); backdrop-filter: blur(10px); }
+            </style>`;
+            html = html.replace('</head>', `${style}</head>`);
+        }
+        
+        fs.writeFileSync(htmlPath, html);
+    }
 }
 
 // Función para procesar Decisiones Técnicas (Section 10)

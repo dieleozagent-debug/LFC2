@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SISTEMA 01 Control y Senalizacion
 EJECUTIVO - LFC STUDIO</title>
-    <link rel="stylesheet" href="../../../IX. WBS y Planificacion/wbs-shared.css">
+    <link rel="stylesheet" href="/IX. WBS y Planificacion/wbs-shared.css">
     <style>
         .premium-doc-content {
             background: var(--glass-bg);
@@ -57,13 +57,17 @@ EJECUTIVO - LFC STUDIO</title>
         #TOC a { color: var(--text-main); text-decoration: none; font-size: 0.9rem; }
         #TOC a:hover { color: var(--accent); }
     </style>
-</head>
+
+            <style id="masterchef-style">
+                body { font-family: 'Inter', sans-serif !important; background: #fdfdfd; }
+                header, .glass-header { background: rgba(255,255,255,0.8); backdrop-filter: blur(10px); }
+            </style></head>
 <body>
     <div id="lfc-sidebar-container"></div>
     <div class="main-content-wrapper">
         <header class="premium-card" style="margin-bottom: 2rem; text-align: center;">
             <h1 class="premium-title">SISTEMA 01 Control y Senalizacion
-EJECUTIVO</h1>
+EJECUTIVO <span style="background: hsl(45, 100%, 50%); color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.8rem; margin-left: 10px; vertical-align: middle;">1 DT ACTIVADA</span></h1>
             <p style="opacity: 0.7;">REPORTE EJECUTIVO GENERADO DINÁMICAMENTE | SICC-READY</p>
         </header>
 
@@ -99,8 +103,8 @@ EJECUTIVO</h1>
             id="toc-por-qué-filosofía-virtual-sin-señalización-física">¿Por
             qué Filosofía Virtual (sin señalización física)?</a></li>
             <li><a
-            href="#por-qué-8-atp-embarcados-actualizado-con-dt-tetra-001"
-            id="toc-por-qué-8-atp-embarcados-actualizado-con-dt-tetra-001">¿Por
+            href="#por-qué-8-ptc-embarcados-actualizado-con-dt-tetra-001"
+            id="toc-por-qué-8-ptc-embarcados-actualizado-con-dt-tetra-001">¿Por
             qué 8 PTC Embarcados? (Actualizado con
             DT-TETRA-001)</a></li>
             <li><a href="#por-qué-5-ence-no-más-no-menos"
@@ -110,8 +114,8 @@ EJECUTIVO</h1>
             id="toc-por-qué-120-desvíos-automatizados">¿Por qué 120
             desvíos automatizados?</a></li>
             <li><a
-            href="#por-qué-ptc-virtual-level-2-no-level-1-o-level-3"
-            id="toc-por-qué-ptc-virtual-level-2-no-level-1-o-level-3">¿Por
+            href="#por-qué-ptc-virtual-fra-236-no-level-1-o-level-3"
+            id="toc-por-qué-ptc-virtual-fra-236-no-level-1-o-level-3">¿Por
             qué PTC Virtual (FRA 236) (no Level 1 o Level 3)?</a></li>
             <li><a href="#por-qué-cco-en-la-dorada-km-0000"
             id="toc-por-qué-cco-en-la-dorada-km-0000">¿Por qué CCO en La
@@ -139,8 +143,8 @@ EJECUTIVO</h1>
             id="toc-ctc-virtual---centro-de-control-centralizado">1. CTC
             Virtual - Centro de Control Centralizado</a></li>
             <li><a
-            href="#atp-embarcado---protección-automática-de-trenes"
-            id="toc-atp-embarcado---protección-automática-de-trenes">2.
+            href="#ptc-embarcado---protección-automática-de-trenes"
+            id="toc-ptc-embarcado---protección-automática-de-trenes">2.
             PTC Embarcado - Protección Automática de Trenes</a></li>
             <li><a href="#ence---enclavamientos-electrónicos"
             id="toc-ence---enclavamientos-electrónicos">3. ENCE -
@@ -247,8 +251,8 @@ EJECUTIVO</h1>
             id="toc-decisiones-técnicas-aplicadas">📋 DECISIONES
             TÉCNICAS APLICADAS</a>
             <ul>
-            <li><a href="#dt-tetra-001-2025-10-07-atp-158-unidades"
-            id="toc-dt-tetra-001-2025-10-07-atp-158-unidades">DT-TETRA-001-2025-10-07:
+            <li><a href="#dt-tetra-001-2025-10-07-ptc-158-unidades"
+            id="toc-dt-tetra-001-2025-10-07-ptc-158-unidades">DT-TETRA-001-2025-10-07:
             PTC 15→8 unidades</a></li>
             <li><a href="#dt-ctc-001002003-software-y-componentes-ctc"
             id="toc-dt-ctc-001002003-software-y-componentes-ctc">DT-CTC-001/002/003:
@@ -290,8 +294,8 @@ EJECUTIVO</h1>
             COP</li>
             <li><strong>1 CTC Virtual:</strong> Control centralizado
             desde CCO La Dorada (Km 0+000) con redundancia N+1</li>
-            <li><strong>8 PTC Embarcados:</strong> PTC PTC VIRTUAL Level
-            2 (reducido de 15 a 8 con DT-TETRA-001)</li>
+            <li><strong>8 PTC Embarcados:</strong> PTC PTC Virtual (FRA
+            236) (reducido de 15 a 8 con DT-TETRA-001)</li>
             <li><strong>5 ENCE:</strong> Enclavamientos electrónicos en
             estaciones críticas (La Dorada, Puerto Berrío,
             Barrancabermeja, Bucaramanga, Chiriguaná)</li>
@@ -363,7 +367,7 @@ EJECUTIVO</h1>
             <strong>Disponibilidad:</strong> Redundancia N+1 en CCO vs
             redundancia distribuida</p>
             <h3
-            id="por-qué-8-atp-embarcados-actualizado-con-dt-tetra-001">¿Por
+            id="por-qué-8-ptc-embarcados-actualizado-con-dt-tetra-001">¿Por
             qué 8 PTC Embarcados? (Actualizado con DT-TETRA-001)</h3>
             <p><strong>Justificación Técnica:</strong> - <strong>Parque
             rodante contractual:</strong> 15 locomotoras según AT1 -
@@ -375,7 +379,7 @@ EJECUTIVO</h1>
             <strong>1 unidad contingencia:</strong> Respaldo estratégico
             - <strong>Total optimizado:</strong> 8 PTC embarcados
             (ahorro 47% vs 15 originales) - <strong>Tecnología PTC
-            VIRTUAL Level 2:</strong> Estándar europeo para control
+            Virtual (FRA 236):</strong> Estándar europeo para control
             automático de trenes - <strong>Decisión Técnica:</strong>
             DT-TETRA-001-2025-10-07 (aprobada por PMO + Especialista
             Sistemas)</p>
@@ -403,7 +407,7 @@ EJECUTIVO</h1>
             <strong>Eficiencia:</strong> Cambios de configuración desde
             CCO en tiempo real</p>
             <h3
-            id="por-qué-ptc-virtual-level-2-no-level-1-o-level-3">¿Por
+            id="por-qué-ptc-virtual-fra-236-no-level-1-o-level-3">¿Por
             qué PTC Virtual (FRA 236) (no Level 1 o Level 3)?</h3>
             <p><strong>Análisis de Niveles PTC VIRTUAL:</strong> | Nivel
             | Descripción | Ventajas | Desventajas | Decisión |
@@ -479,7 +483,7 @@ EJECUTIVO</h1>
             pantallas | CCO La Dorada | ✅ Instalado | | Sistemas de
             respaldo | N+1 | CCO La Dorada | ✅ Instalados |</p>
             <p><strong>Estado general:</strong> 🟢 En cronograma</p>
-            <h3 id="atp-embarcado---protección-automática-de-trenes">2.
+            <h3 id="ptc-embarcado---protección-automática-de-trenes">2.
             PTC Embarcado - Protección Automática de Trenes</h3>
             <p><strong>Propósito:</strong> Sistema de protección
             automática instalado en cada locomotora</p>
@@ -923,7 +927,7 @@ EJECUTIVO</h1>
             <li>✅ <strong>AT2 - Operación:</strong> Sistema de
             operación centralizada - Cumplida</li>
             <li>✅ <strong>AT3 - Especificaciones:</strong> PTC PTC
-            VIRTUAL Level 2 - Cumplida</li>
+            Virtual (FRA 236) - Cumplida</li>
             <li>✅ <strong>AT4 - Indicadores:</strong> Disponibilidad
             99.95% - Cumplida</li>
             <li>⏳ <strong>AT8 - Operaciones:</strong> Procedimientos
@@ -1077,7 +1081,7 @@ EJECUTIVO</h1>
             <h2 id="decisiones-técnicas-aplicadas">📋 DECISIONES
             TÉCNICAS APLICADAS</h2>
             <h3
-            id="dt-tetra-001-2025-10-07-atp-158-unidades">DT-TETRA-001-2025-10-07:
+            id="dt-tetra-001-2025-10-07-ptc-158-unidades">DT-TETRA-001-2025-10-07:
             PTC 15→8 unidades</h3>
             <ul>
             <li>Cambio: Cantidad PTC 15 → 8 (criterio 5+2+1)</li>
@@ -1137,6 +1141,9 @@ EJECUTIVO</h1>
             <!-- COCINADO DESDE FUENTES: 09/10/2025 17:30 | Fuentes: 2 | DTs: 0 -->
             <!-- COCINADO LFC-CLI v1.0 | Fecha: 3/13/2026, 1:56:38 PM | SSOT: DBCD_CRITERIA.md -->
             <!-- COCINADO LFC-CLI v2.0 | SICC Pureza: AUDIT_REQUIRED | Fecha: 3/13/2026, 8:02:06 PM -->
+            <!-- COCINADO LFC-CLI v2.2 | SICC Pureza: 100% | Fecha: 3/13/2026, 8:05:15 PM -->
+            <!-- COCINADO LFC-CLI v5.0 Masterchef | SICC Pureza: AUDIT_REQUIRED | Fecha: 3/13/2026, 8:18:53 PM -->
+            <!-- COCINADO LFC-CLI v6.0 DBCI | SICC Pureza: AUDIT_REQUIRED | Fecha: 3/13/2026, 8:25:10 PM | Versión: v6.0 Masterchef -->
         </article>
 
         <footer style="margin-top: 4rem; text-align: center; opacity: 0.5; font-size: 0.8rem;">
@@ -1144,7 +1151,7 @@ EJECUTIVO</h1>
         </footer>
     </div>
 
-    <script src="../../../IX. WBS y Planificacion/lfc-terminology.js?v=6.3.2"></script>
-    <script src="../../../IX. WBS y Planificacion/sidebar-component.js?v=6.3.2" charset="utf-8"></script>
+    <script src="/IX. WBS y Planificacion/lfc-terminology.js?v=6.3.2?v=6.3.2"></script>
+    <script src="/IX. WBS y Planificacion/sidebar-component.js?v=6.3.2?v=6.3.2" charset="utf-8"></script>
 </body>
 </html>
