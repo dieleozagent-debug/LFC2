@@ -43,7 +43,7 @@ function log(msg, color = colors.reset) {
 function sync() {
     log("\n🔄 SINCRONIZACIÓN WBS MULTINIVEL (v6.3) INICIADA\n", colors.cyan);
 
-    const wbsPath = path.join(REPO_ROOT, 'IX. WBS y Planificacion/WBS_Presupuestal_v3.0.md');
+    const wbsPath = path.join(REPO_ROOT, 'IX. WBS y Planificacion/WBS_Presupuestal_v2.0.md');
     if (!fs.existsSync(wbsPath)) {
         log(`❌ ERROR: No se encuentra ${wbsPath}`, colors.red);
         process.exit(1);
