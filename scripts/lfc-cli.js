@@ -136,7 +136,7 @@ function sync() {
     log(`💾 Creado (Multinivel v6.3): ${jsonPath}`, colors.green);
 
     const jsPath = path.join(REPO_ROOT, 'IX. WBS y Planificacion/wbs_presupuestal_datos.js');
-    const jsContent = `// WBS Datos SICC v6.3 - DBCI DETERMINISTA\nconst wbsDataPresupuestal = ${JSON.stringify(wbsData.items, null, 4)};\n`;
+    const jsContent = `// WBS Datos SICC v6.3 - DBCI DETERMINISTA\nwindow.wbsDataPresupuestal = ${JSON.stringify(wbsData.items, null, 4)};\n`;
     fs.writeFileSync(jsPath, unicodeEscape(jsContent), 'utf8');
     log(`💾 Creado (Legacy Match v6.3): ${jsPath}\n`, colors.green);
 
@@ -164,7 +164,7 @@ function validate() {
 
     // Extraer objetos usando regex simple ya que son archivos .js con 'const var = { ... };'
     const cronoDataMatch = cronoContent.match(/window\.cronogramaData\s*=\s*({[\s\S]*?});/);
-    const wbsDataMatch = wbsContent.match(/const wbsDataPresupuestal\s*=\s*([\s\S]*?);/);
+    const wbsDataMatch = wbsContent.match(/(?:const|window\.)wbsDataPresupuestal\s*=\s*([\s\S]*?);/);
 
     if (!cronoDataMatch || !wbsDataMatch) {
         log("❌ ERROR: Formato de archivos de datos inválido.", colors.red);

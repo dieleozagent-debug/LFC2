@@ -1,5 +1,5 @@
 // WBS Datos SICC v6.3 - DBCI DETERMINISTA
-const wbsDataPresupuestal = [
+window.wbsDataPresupuestal = [
     {
         "item": "1.1.100",
         "nivel": 3,
