@@ -221,8 +221,18 @@
                 document.getElementById('adn-version-tag').textContent = term.PROJECT.VERSION;
             }
             if (typeof window.cronogramaData === 'undefined' || typeof window.wbsDataPresupuestal === 'undefined') {
-                console.error("Fallo de Inyección Transversal: Faltan datos L1/L2 o L3.");
-                document.getElementById('ganttChart').innerHTML = '<p style="color: red; text-align: center;">Error: Sincronización Incompleta. Ejecute lfc sync.</p>';
+                const missingFiles = [];
+                if (typeof window.cronogramaData === 'undefined') missingFiles.push("cronograma_datos.js (L1/L2)");
+                if (typeof window.wbsDataPresupuestal === 'undefined') missingFiles.push("wbs_presupuestal_datos.js (L3)");
+                
+                console.error("Fallo de Inyección Transversal: ", missingFiles.join(", "));
+                document.getElementById('ganttChart').innerHTML = `
+                    <div style="background: rgba(255,0,0,0.1); border: 2px solid red; padding: 2rem; border-radius: 12px; text-align: center;">
+                        <h3 style="color: #ff4d4d; margin-bottom: 1rem;">❌ ERROR DE CARGA DE DATOS</h3>
+                        <p style="color: #fff; opacity: 0.8;">No se pudieron cargar los siguientes archivos: <br> <strong>${missingFiles.join("<br> ")}</strong></p>
+                        <p style="margin-top: 1rem; font-size: 0.8rem; color: var(--accent);">Acción: Ejecute <code>lfc sync</code> localmente y verifique el despliegue.</p>
+                    </div>
+                `;
                 return;
             }
 
@@ -357,6 +367,16 @@
                 }
             });
         };
+
+        // MODO DEBUG (Ctrl+Shift+D)
+        document.addEventListener('keydown', (e) => {
+            if (e.ctrlKey && e.shiftKey && e.key === 'D') {
+                console.log("🛠️ LFC DEBUG MODE ACTIVATED");
+                console.log("Cronograma Data (L1/L2):", window.cronogramaData);
+                console.log("WBS Data (L3):", window.wbsDataPresupuestal);
+                alert("Debug Mode: Revisa la consola para ver los objetos de datos.");
+            }
+        });
     </script>
 </body>
 </html>

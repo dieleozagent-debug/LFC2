@@ -143,6 +143,68 @@ function sync() {
     log("✅ SINCRONIZACIÓN EXITOSA (DBCI ALIGNED)", colors.cyan);
 }
 
+/**
+ * COMANDO: validate
+ * Valida la integridad de datos entre WBS (L3) y Cronograma (L1/L2)
+ */
+function validate() {
+    log("\n🧪 VALIDACIÓN DE INTEGRIDAD TRANSVERSAL (v6.3)\n", colors.cyan);
+
+    const cronoPath = path.join(REPO_ROOT, 'IX. WBS y Planificacion/cronograma_datos.js');
+    const wbsPath = path.join(REPO_ROOT, 'IX. WBS y Planificacion/wbs_presupuestal_datos.js');
+
+    if (!fs.existsSync(cronoPath) || !fs.existsSync(wbsPath)) {
+        log("❌ ERROR: Faltan archivos de datos para validar.", colors.red);
+        process.exit(1);
+    }
+
+    // Cargar datos (Simulando carga de navegador para validación lógica)
+    const cronoContent = fs.readFileSync(cronoPath, 'utf8');
+    const wbsContent = fs.readFileSync(wbsPath, 'utf8');
+
+    // Extraer objetos usando regex simple ya que son archivos .js con 'const var = { ... };'
+    const cronoDataMatch = cronoContent.match(/window\.cronogramaData\s*=\s*({[\s\S]*?});/);
+    const wbsDataMatch = wbsContent.match(/const wbsDataPresupuestal\s*=\s*([\s\S]*?);/);
+
+    if (!cronoDataMatch || !wbsDataMatch) {
+        log("❌ ERROR: Formato de archivos de datos inválido.", colors.red);
+        process.exit(1);
+    }
+
+    const cronoData = JSON.parse(cronoDataMatch[1]);
+    const wbsData = JSON.parse(wbsDataMatch[1]);
+
+    log(`📊 Validando ${wbsData.length} ítems L3 contra ${cronoData.fases.length} fases L1/L2...`, colors.yellow);
+
+    const faseIds = cronoData.fases.map(f => f.id);
+    let errores = 0;
+    const huerfanos = [];
+
+    wbsData.forEach(item => {
+        // Motor de inferencia idéntico al del Frontend
+        let faseId = 'F4'; // Default Obras
+        if (item.tipo === 'SERVICIO' && item.descripcion.toLowerCase().includes('ingeniería')) faseId = 'F1';
+        else if (item.capitulo === '6') faseId = 'F2'; 
+        else if (item.capitulo === '5') faseId = 'F3'; 
+        else if (item.capitulo === '3' || item.capitulo === '4') faseId = 'F5'; 
+        else if (item.tipo === 'SERVICIO' && item.descripcion.toLowerCase().includes('prueba')) faseId = 'F6';
+        else if (item.tipo === 'SERVICIO' && item.descripcion.toLowerCase().includes('capacitación')) faseId = 'F7';
+
+        if (!faseIds.includes(faseId)) {
+            huerfanos.push(`${item.item} -> Fase Destino ${faseId} NO EXISTE`);
+            errores++;
+        }
+    });
+
+    if (errores > 0) {
+        log(`\n❌ FALLO DE VALIDACIÓN: Se detectaron ${errores} ítems huérfanos:`, colors.red);
+        huerfanos.forEach(h => log(`  - ${h}`, colors.yellow));
+        process.exit(1);
+    } else {
+        log("\n✅ VALIDACIÓN EXITOSA: Todos los ítems L3 tienen una fase válida asignada.", colors.green);
+    }
+}
+
 
 function getCategoria(codigo) {
     const cap = codigo.split('.')[0];
@@ -386,7 +448,10 @@ switch (command) {
     case 'purify':
         purify();
         break;
+    case 'validate':
+        validate();
+        break;
     default:
-        log("Uso: lfc [sync | cook | serve | purify]", colors.yellow);
+        log("Uso: lfc [sync | cook | serve | purify | validate]", colors.yellow);
         break;
 }
