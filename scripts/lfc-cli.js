@@ -11,7 +11,7 @@ const path = require('path');
 const { execSync } = require('child_process');
 
 const LFC_ROOT = path.resolve(__dirname, '../'); // Asumiendo que está en /scripts/
-const REPO_ROOT = '/home/administrador/docker/LFC2'; // Ruta absoluta configurada en el entorno
+const REPO_ROOT = fs.existsSync('/app/repos/LFC2') ? '/app/repos/LFC2' : '/home/administrador/docker/LFC2';
 
 // Colores para consola
 const colors = {
