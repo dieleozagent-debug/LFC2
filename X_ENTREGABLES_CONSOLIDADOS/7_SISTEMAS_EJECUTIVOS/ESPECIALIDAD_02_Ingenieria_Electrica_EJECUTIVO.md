@@ -156,7 +156,7 @@ La Ingeniería Eléctrica proporciona **energía eléctrica** para todos los sis
 | Tiempo de transferencia | < 10 seg | RETIE |
 
 ### Criterios de aceptación
-- ✅ Alimentación 800 kVA operativa
+- ✅ Alimentación 300 kVA (Optimizado PTC Virtual) operativa
 - ✅ UPS 400 kVA funcionando
 - ✅ Generador 600 kVA operativo
 - ✅ Factor de potencia > 0.95
@@ -298,7 +298,7 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 | Rol | Responsable | Contacto |
 |:----|:------------|:---------|
 | Líder Técnico Eléctrico | [Nombre] | [Email/Tel] |
-| Coordinador EPC | Administrador Contractual EPC | [Email/Tel] |
+| Coordinador EPC | Administrador Contractual LFC | [Email/Tel] |
 | Responsable RETIE | Coordinador Eléctrico | [Email/Tel] |
 
 ---
@@ -327,11 +327,11 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 | Versión | Fecha | Cambios Principales | Responsable |
 |:--------|:------|:--------------------|:------------|
-| 1.0 | Enero 2025 | Versión inicial ejecutiva | Administrador Contractual EPC |
+| 1.0 | Enero 2025 | Versión inicial ejecutiva | Administrador Contractual LFC |
 
 ---
 
-**Documento preparado por:** Administrador Contractual EPC  
+**Documento preparado por:** Administrador Contractual LFC  
 **Última actualización:** Enero 2025  
 **Próxima revisión:** Febrero 2025  
 **Basado en:** ESPECIALIDAD_02_Ingenieria_Electrica_Master.md v1.0
