@@ -455,7 +455,7 @@ function postProcessHtml(htmlPath, baseName) {
 
     if (dtCount > 0) {
         log(`    🎨 Inyectando Insignia Masterchef: ${dtCount} DT(s) encontradas`, colors.magenta);
-        const badge = `<span style="background: hsl(45, 100%, 50%); color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.8rem; margin-left: 10px; vertical-align: middle;">${dtCount} DT ACTIVADA${dtCount > 1 ? 'S' : ''}</span>`;
+        const badge = `<span style="background: #f59e0b; color: #000; padding: 4px 10px; border-radius: 6px; font-size: 0.85rem; margin-left: 12px; vertical-align: middle; font-weight: 800; border: 1px solid rgba(0,0,0,0.1); shadow: 0 2px 4px rgba(0,0,0,0.1);">${dtCount} DT ACTIVADA${dtCount > 1 ? 'S' : ''}</span>`;
         
         // Inyectar en H1 (usando [\s\S] para multilínea)
         html = html.replace(/(<h1[^>]*>)([\s\S]*?)(<\/h1>)/i, `$1$2 ${badge}$3`);
@@ -473,18 +473,19 @@ function postProcessHtml(htmlPath, baseName) {
             html = html.replace(/(<header[^>]*>[\s\S]*?)(<\/header>)/i, `$1 ${auditTools} $2`);
         }
 
-        // Inyectar Estilo Masterchef + L3 Legacy
+        // Inyectar Estilo Masterchef + L3 Legacy (Vibrant Contrast v2.3.3)
         if (!html.includes('masterchef-style')) {
             const style = `
             <style id="masterchef-style">
-                :root { --accent: #3498db; --glass-bg: rgba(255,255,255,0.9); }
-                body { font-family: 'Inter', sans-serif !important; background: #fdfdfd; }
-                .table-l3-premium { width: 100%; border-collapse: collapse; margin: 1.5rem 0; border: 1px solid #eee; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
-                .table-l3-premium th { background: #f8f9fa; padding: 12px; text-align: left; font-size: 0.9rem; color: #666; text-transform: uppercase; }
-                .table-l3-premium td { padding: 12px; border-bottom: 1px solid #eee; font-size: 0.95rem; }
-                .btn-l4 { background: var(--accent); color: white; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer; font-weight: bold; }
-                .btn-excel { background: #27ae60; }
-                header, .glass-header { background: rgba(255,255,255,0.8); backdrop-filter: blur(10px); }
+                :root { --accent: #0ea5e9; --primary: #0f172a; --glass-bg: rgba(255,255,255,0.98); }
+                body { font-family: 'Inter', sans-serif !important; background: #f8fafc; color: #1e293b; }
+                .table-l3-premium { width: 100%; border-collapse: collapse; margin: 1.5rem 0; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.03); background: #fff; }
+                .table-l3-premium th { background: #f1f5f9; padding: 14px; text-align: left; font-size: 0.85rem; color: #475569; text-transform: uppercase; font-weight: 700; border-bottom: 2px solid #e2e8f0; }
+                .table-l3-premium td { padding: 14px; border-bottom: 1px solid #f1f5f9; font-size: 0.95rem; color: #334155; }
+                .btn-l4 { background: var(--accent); color: white; border: none; padding: 8px 16px; border-radius: 8px; cursor: pointer; font-weight: 700; transition: all 0.2s; box-shadow: 0 2px 4px rgba(14, 165, 233, 0.2); }
+                .btn-l4:hover { transform: translateY(-1px); box-shadow: 0 4px 8px rgba(14, 165, 233, 0.3); }
+                .btn-excel { background: #10b981; box-shadow: 0 2px 4px rgba(16, 185, 129, 0.2); }
+                header, .premium-card { background: #fff; border: 1px solid #e2e8f0; box-shadow: 0 10px 30px rgba(0,0,0,0.04); }
             </style>`;
             html = html.replace('</head>', `${style}</head>`);
         }

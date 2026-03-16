@@ -6,74 +6,158 @@
     <title>SISTEMA 04 Material Rodante EJECUTIVO - LFC STUDIO</title>
     <link rel="stylesheet" href="/IX. WBS y Planificacion/wbs-shared.css?v=6.3.2">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
     <style>
-        .premium-doc-content {
-            background: var(--glass-bg);
-            border: 1px solid var(--glass-border);
-            border-radius: var(--border-radius-lg);
+        :root {
+            --primary: #0f172a;
+            --secondary: #1e293b;
+            --accent: #0ea5e9;
+            --accent-glow: rgba(14, 165, 233, 0.2);
+            --glass-bg: rgba(255, 255, 255, 1);
+            --glass-border: #e2e8f0;
+            --text-main: #1e293b;
+            --text-dim: #64748b;
+            --sidebar-width: 280px;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background-color: #f8fafc;
+            color: var(--text-main);
+            margin: 0;
+            display: flex;
+            line-height: 1.6;
+        }
+
+        #lfc-sidebar-container {
+            width: var(--sidebar-width);
+            height: 100vh;
+            position: fixed;
+            z-index: 1000;
+        }
+
+        .main-content-wrapper {
+            margin-left: var(--sidebar-width);
+            flex: 1;
             padding: 3rem;
-            backdrop-filter: var(--glass-blur);
-            box-shadow: var(--glass-shadow);
+            max-width: 1400px;
+            width: 100%;
         }
-        .premium-doc-content h1, .premium-doc-content h2, .premium-doc-content h3 {
+
+        .premium-card {
+            background: #fff;
+            border-radius: 20px;
+            padding: 2.5rem;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+            margin-bottom: 2rem;
+        }
+
+        .premium-title {
+            font-size: 2.8rem;
+            font-weight: 800;
+            letter-spacing: -1.5px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+            line-height: 1.2;
+        }
+
+        #TOC {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 16px;
+            margin-bottom: 2rem;
+            border-left: 5px solid var(--accent);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+        }
+
+        #TOC h3 { margin-top: 0; color: var(--primary); font-size: 1.1rem; }
+        #TOC ul { list-style: none; padding-left: 0; }
+        #TOC li { margin-bottom: 0.5rem; }
+        #TOC a {
+            color: var(--text-dim);
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.2s;
+            font-size: 0.95rem;
+        }
+
+        #TOC a:hover {
             color: var(--accent);
-            border-bottom: 1px solid var(--glass-border);
-            padding-bottom: 0.5rem;
-            margin-top: 2rem;
+            padding-left: 5px;
         }
+
+        .premium-doc-content {
+            background: #fff;
+            padding: 3.5rem;
+            border-radius: 24px;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 4px 30px rgba(0,0,0,0.02);
+        }
+
+        .premium-doc-content h1, .premium-doc-content h2 {
+            color: var(--primary);
+            font-weight: 700;
+            margin-top: 2.5rem;
+            border-bottom: 2px solid #f1f5f9;
+            padding-bottom: 0.5rem;
+        }
+
         .premium-doc-content table {
             width: 100%;
             border-collapse: collapse;
             margin: 2rem 0;
-            background: rgba(255,255,255,0.02);
             border-radius: 12px;
             overflow: hidden;
+            border: 1px solid #e2e8f0;
         }
+
         .premium-doc-content th {
-            background: var(--accent-transparent);
-            color: var(--accent);
+            background: #f1f5f9;
+            color: var(--primary);
             text-align: left;
             padding: 1rem;
+            font-weight: 700;
         }
+
         .premium-doc-content td {
             padding: 1rem;
-            border-bottom: 1px solid var(--glass-border);
+            border-bottom: 1px solid #f1f5f9;
         }
-        .premium-doc-content blockquote {
-            border-left: 4px solid var(--accent);
-            background: var(--accent-soft);
-            padding: 1rem;
-            margin: 1rem 0;
-            font-style: italic;
+
+        footer {
+            margin-top: 5rem;
+            text-align: center;
+            opacity: 0.4;
+            font-size: 0.85rem;
+            color: var(--text-dim);
         }
-        #TOC {
-            background: var(--glass-bg);
-            border: 1px solid var(--glass-border);
-            padding: 1.5rem;
-            border-radius: var(--border-radius-md);
-            margin-bottom: 2rem;
+
+        @media (max-width: 1024px) {
+            .main-content-wrapper { margin-left: 0; padding: 2rem 1rem; }
+            #lfc-sidebar-container { display: none; }
         }
-        #TOC ul { list-style: none; padding-left: 1rem; }
-        #TOC a { color: var(--text-main); text-decoration: none; font-size: 0.9rem; }
-        #TOC a:hover { color: var(--accent); }
     </style>
 </head>
 <body>
     <div id="lfc-sidebar-container"></div>
     <div class="main-content-wrapper">
-        <header class="premium-card" style="margin-bottom: 2rem;">
+        <header class="premium-card">
             <div class="premium-header-content" style="text-align: center;">
                 <h1 id="adn-page-title" class="premium-title">SISTEMA 04
 Material Rodante EJECUTIVO</h1>
-                <p id="main-dns-subtitle" style="opacity: 0.7;">REPORTE EJECUTIVO GENERADO DINÁMICAMENTE | SICC-READY</p>
-                <div class="adn-version-tag-wrapper" style="font-size: 0.8rem; margin-top: 5px;">
-                    <span class="badge" style="background: var(--accent); color: white; padding: 2px 8px; border-radius: 10px;">v<span id="adn-version-tag">6.3.2</span></span>
+                <p id="main-dns-subtitle" style="font-weight: 500; color: var(--text-dim); margin: 0;">REPORTE EJECUTIVO SICC | VERSIÓN DINÁMICA</p>
+                <div class="adn-version-tag-wrapper" style="margin-top: 10px;">
+                    <span style="background: var(--primary); color: #fff; padding: 3px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.5px;">v<span id="adn-version-tag">6.3.2</span></span>
                 </div>
             </div>
         </header>
 
         <nav id="TOC">
-            <h3 style="margin-top: 0; color: var(--accent);">📍 ÍNDICE DE CONTENIDO</h3>
+            <h3>📍 ÍNDICE DE CONTENIDO</h3>
             <ul>
             <li><a href="#sistema-04-material-rodante"
             id="toc-sistema-04-material-rodante">SISTEMA 04: MATERIAL
@@ -958,7 +1042,7 @@ Material Rodante EJECUTIVO</h1>
             <!-- COCINADO LFC-CLI v6.0 DBCI | SICC Pureza: AUDIT_REQUIRED | Fecha: 3/13/2026, 8:25:10 PM | Versión: v6.0 Masterchef -->
         </article>
 
-        <footer style="margin-top: 4rem; text-align: center; opacity: 0.5; font-size: 0.8rem;">
+        <footer>
             © 2025 LFC STUDIO | SISTEMA DE COMUNICACIONES Y CONTROL | PTC VIRTUAL SICC
         </footer>
     </div>
