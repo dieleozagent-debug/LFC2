@@ -43,7 +43,7 @@ function log(msg, color = colors.reset) {
 function sync() {
     log("\n🔄 SINCRONIZACIÓN WBS MULTINIVEL (v6.3) INICIADA\n", colors.cyan);
 
-    const wbsPath = path.join(REPO_ROOT, 'IX. WBS y Planificacion/WBS_Presupuestal_v2.0.md');
+    const wbsPath = path.join(REPO_ROOT, 'IX. WBS y Planificacion/WBS_Presupuestal_v3.0.md');
     if (!fs.existsSync(wbsPath)) {
         log(`❌ ERROR: No se encuentra ${wbsPath}`, colors.red);
         process.exit(1);
@@ -431,6 +431,74 @@ function serve() {
     log("\n✅ PLATOS SERVIDOS!", colors.green);
 }
 
+// Función para procesar Decisiones Técnicas (Section 10)
+function processDts() {
+    log("\n🧠 PROCESANDO DECISIONES TÉCNICAS (DT)...", colors.magenta);
+    const dtDir = path.join(REPO_ROOT, 'II. Apendices Tecnicos/Decisiones_Tecnicas');
+    if (!fs.existsSync(dtDir)) return log("  ⚠️ Directorio de DTs no encontrado", colors.yellow);
+
+    const dts = fs.readdirSync(dtDir).filter(f => f.endsWith('.md'));
+    dts.forEach(dtFile => {
+        const dtPath = path.join(dtDir, dtFile);
+        const content = fs.readFileSync(dtPath, 'utf8');
+        
+        // Extraer bloque YAML de Section 10
+        const yamlMatch = content.match(/```yaml([\s\S]*?)```/);
+        if (!yamlMatch) return;
+
+        try {
+            const yamlText = yamlMatch[1];
+            // Parser simple para evitar dependencias pesadas en este script
+            const metadata = {};
+            yamlText.split('\n').forEach(line => {
+                const parts = line.split(':');
+                if (parts.length >= 2) metadata[parts[0].trim()] = parts[1].trim();
+            });
+
+            log(`  ⚙️ Ejecutando ${metadata.id || dtFile}...`, colors.cyan);
+
+            // Simular el parseo de archivos_actualizar (Regex para extraer items)
+            const filesToUpdate = [];
+            const fileBlocks = yamlText.split('- file:').slice(1);
+            fileBlocks.forEach(block => {
+                const lines = block.split('\n');
+                const filePath = lines[0].trim().replace(/"/g, '');
+                const changes = [];
+                const changeBlocks = block.split('- buscar:').slice(1);
+                changeBlocks.forEach(cb => {
+                    const searchLine = cb.split('\n')[0].trim().replace(/"/g, '');
+                    const replaceLineMatch = cb.match(/reemplazar:\s*"?([^"\n]*)"?/);
+                    if (replaceLineMatch) {
+                        changes.push({ buscar: searchLine, reemplazar: replaceLineMatch[1] });
+                    }
+                });
+                filesToUpdate.push({ file: filePath, changes: changes });
+            });
+
+            filesToUpdate.forEach(item => {
+                const fullPath = path.join(REPO_ROOT, item.file);
+                if (fs.existsSync(fullPath)) {
+                    let fileContent = fs.readFileSync(fullPath, 'utf8');
+                    let modified = false;
+                    item.changes.forEach(ch => {
+                        if (fileContent.includes(ch.buscar)) {
+                            fileContent = fileContent.split(ch.buscar).join(ch.reemplazar);
+                            modified = true;
+                        }
+                    });
+                    if (modified) {
+                        fs.writeFileSync(fullPath, fileContent);
+                        log(`    ✅ Saneamiento aplicado en: ${item.file}`, colors.green);
+                    }
+                }
+            });
+
+        } catch (e) {
+            log(`  ❌ Error procesando ${dtFile}: ${e.message}`, colors.red);
+        }
+    });
+}
+
 // Router de comandos
 const args = process.argv.slice(2);
 const command = args[0];
@@ -442,6 +510,9 @@ switch (command) {
     case 'cook':
         cook(args[1]);
         break;
+    case 'process-dts':
+        processDts();
+        break;
     case 'serve':
         serve();
         break;
@@ -452,6 +523,6 @@ switch (command) {
         validate();
         break;
     default:
-        log("Uso: lfc [sync | cook | serve | purify | validate]", colors.yellow);
+        log("Uso: lfc [sync | cook | process-dts | serve | purify | validate]", colors.yellow);
         break;
 }
