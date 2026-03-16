@@ -460,11 +460,30 @@ function postProcessHtml(htmlPath, baseName) {
         // Inyectar en H1 (usando [\s\S] para multilínea)
         html = html.replace(/(<h1[^>]*>)([\s\S]*?)(<\/h1>)/i, `$1$2 ${badge}$3`);
         
-        // Inyectar Estilo Premium si no existe
+        // RECONSTRUCCIÓN L3: Transformar tablas estándar en Grillas Premium
+        html = html.replace(/<table>/g, '<table class="table-l3-premium">');
+        
+        // Inyectar Botones de Auditoría L4 si es un Ejecutivo
+        if (baseName.includes('EJECUTIVO')) {
+            const auditTools = `
+            <div class="l4-audit-toolbar" style="margin: 1rem 0; display: flex; gap: 10px;">
+                <button class="btn-l4" onclick="window.print()">🖨️ PDF Audit</button>
+                <button class="btn-l4 btn-excel" onclick="location.href='/IX. WBS y Planificacion/datos_wbs_TODOS_items.json'">📊 WBS Data</button>
+            </div>`;
+            html = html.replace(/(<header[^>]*>[\s\S]*?)(<\/header>)/i, `$1 ${auditTools} $2`);
+        }
+
+        // Inyectar Estilo Masterchef + L3 Legacy
         if (!html.includes('masterchef-style')) {
             const style = `
             <style id="masterchef-style">
+                :root { --accent: #3498db; --glass-bg: rgba(255,255,255,0.9); }
                 body { font-family: 'Inter', sans-serif !important; background: #fdfdfd; }
+                .table-l3-premium { width: 100%; border-collapse: collapse; margin: 1.5rem 0; border: 1px solid #eee; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+                .table-l3-premium th { background: #f8f9fa; padding: 12px; text-align: left; font-size: 0.9rem; color: #666; text-transform: uppercase; }
+                .table-l3-premium td { padding: 12px; border-bottom: 1px solid #eee; font-size: 0.95rem; }
+                .btn-l4 { background: var(--accent); color: white; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer; font-weight: bold; }
+                .btn-excel { background: #27ae60; }
                 header, .glass-header { background: rgba(255,255,255,0.8); backdrop-filter: blur(10px); }
             </style>`;
             html = html.replace('</head>', `${style}</head>`);

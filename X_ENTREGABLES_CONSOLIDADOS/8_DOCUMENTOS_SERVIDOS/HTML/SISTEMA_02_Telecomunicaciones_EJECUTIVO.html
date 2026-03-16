@@ -4,7 +4,8 @@
     <meta charset="UTF-8"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SISTEMA 02 Telecomunicaciones EJECUTIVO - LFC STUDIO</title>
-    <link rel="stylesheet" href="/IX. WBS y Planificacion/wbs-shared.css">
+    <link rel="stylesheet" href="/IX. WBS y Planificacion/wbs-shared.css?v=6.3.2">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         .premium-doc-content {
             background: var(--glass-bg);
@@ -58,7 +59,13 @@
     </style>
 
             <style id="masterchef-style">
+                :root { --accent: #3498db; --glass-bg: rgba(255,255,255,0.9); }
                 body { font-family: 'Inter', sans-serif !important; background: #fdfdfd; }
+                .table-l3-premium { width: 100%; border-collapse: collapse; margin: 1.5rem 0; border: 1px solid #eee; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+                .table-l3-premium th { background: #f8f9fa; padding: 12px; text-align: left; font-size: 0.9rem; color: #666; text-transform: uppercase; }
+                .table-l3-premium td { padding: 12px; border-bottom: 1px solid #eee; font-size: 0.95rem; }
+                .btn-l4 { background: var(--accent); color: white; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer; font-weight: bold; }
+                .btn-excel { background: #27ae60; }
                 header, .glass-header { background: rgba(255,255,255,0.8); backdrop-filter: blur(10px); }
             </style></head>
 <body>
@@ -68,7 +75,11 @@
             <h1 class="premium-title">SISTEMA 02 Telecomunicaciones
 EJECUTIVO <span style="background: hsl(45, 100%, 50%); color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.8rem; margin-left: 10px; vertical-align: middle;">2 DT ACTIVADAS</span></h1>
             <p style="opacity: 0.7;">REPORTE EJECUTIVO GENERADO DINÁMICAMENTE | SICC-READY</p>
-        </header>
+         
+            <div class="l4-audit-toolbar" style="margin: 1rem 0; display: flex; gap: 10px;">
+                <button class="btn-l4" onclick="window.print()">🖨️ PDF Audit</button>
+                <button class="btn-l4 btn-excel" onclick="location.href='/IX. WBS y Planificacion/datos_wbs_TODOS_items.json'">📊 WBS Data</button>
+            </div> </header>
 
         <nav id="TOC">
             <h3 style="margin-top: 0; color: var(--accent);">📍 ÍNDICE DE CONTENIDO</h3>
@@ -286,7 +297,7 @@ EJECUTIVO <span style="background: hsl(45, 100%, 50%); color: white; padding: 2p
             50126)</li>
             </ul>
             <h3 id="hitos-críticos">Hitos críticos</h3>
-            <table>
+            <table class="table-l3-premium">
             <thead>
             <tr>
             <th style="text-align: left;">Fase</th>
@@ -453,7 +464,7 @@ Redondeo:      594.000 km  ← Cantidad WBS</code></pre>
             voz/datos con CTC.</p>
             <p><strong>Justificación de cantidad (30 unidades) según
             Metodología Punto 42:</strong></p>
-            <table>
+            <table class="table-l3-premium">
             <colgroup>
             <col style="width: 27%" />
             <col style="width: 25%" />
@@ -556,7 +567,7 @@ Redondeo:      594.000 km  ← Cantidad WBS</code></pre>
             TÉCNICAS CLAVE</h2>
             <h3 id="tabla-consolidada-de-especificaciones">Tabla
             consolidada de especificaciones</h3>
-            <table>
+            <table class="table-l3-premium">
             <colgroup>
             <col style="width: 28%" />
             <col style="width: 18%" />
@@ -630,7 +641,7 @@ Redondeo:      594.000 km  ← Cantidad WBS</code></pre>
             <h3
             id="ubicaciones-específicas-por-pk-punto-kilométrico">Ubicaciones
             Específicas por PK (Punto Kilométrico)</h3>
-            <table>
+            <table class="table-l3-premium">
             <colgroup>
             <col style="width: 6%" />
             <col style="width: 17%" />
@@ -727,7 +738,7 @@ Redondeo:      594.000 km  ← Cantidad WBS</code></pre>
             <h3
             id="requerimientos-eléctricos-por-estación">Requerimientos
             Eléctricos por Estación</h3>
-            <table>
+            <table class="table-l3-premium">
             <colgroup>
             <col style="width: 23%" />
             <col style="width: 19%" />
@@ -846,7 +857,7 @@ Redondeo:      594.000 km  ← Cantidad WBS</code></pre>
 [Monitoreo] ←→ [Telecomunicaciones] ←→ [Seguridad]</code></pre>
             <h3 id="tabla-de-interfaces-críticas">Tabla de interfaces
             críticas</h3>
-            <table>
+            <table class="table-l3-premium">
             <colgroup>
             <col style="width: 17%" />
             <col style="width: 34%" />
@@ -894,7 +905,7 @@ Redondeo:      594.000 km  ← Cantidad WBS</code></pre>
             TÉCNICOS Y LIMITACIONES</h2>
             <h3 id="supuestos-críticos-del-diseño">Supuestos Críticos
             del Diseño</h3>
-            <table>
+            <table class="table-l3-premium">
             <colgroup>
             <col style="width: 17%" />
             <col style="width: 26%" />
@@ -988,7 +999,7 @@ Redondeo:      594.000 km  ← Cantidad WBS</code></pre>
             <hr />
             <h2 id="riesgos-y-mitigaciones">⚠️ RIESGOS Y
             MITIGACIONES</h2>
-            <table>
+            <table class="table-l3-premium">
             <colgroup>
             <col style="width: 15%" />
             <col style="width: 26%" />
@@ -1073,7 +1084,7 @@ Redondeo:      594.000 km  ← Cantidad WBS</code></pre>
             SOPORTE</h2>
             <h3 id="documentos-técnicos-disponibles">Documentos técnicos
             disponibles</h3>
-            <table>
+            <table class="table-l3-premium">
             <colgroup>
             <col style="width: 29%" />
             <col style="width: 16%" />
@@ -1128,7 +1139,7 @@ Redondeo:      594.000 km  ← Cantidad WBS</code></pre>
             <hr />
             <h2 id="contactos-y-responsables">📞 CONTACTOS Y
             RESPONSABLES</h2>
-            <table>
+            <table class="table-l3-premium">
             <thead>
             <tr>
             <th style="text-align: left;">Rol</th>
@@ -1159,7 +1170,7 @@ Redondeo:      594.000 km  ← Cantidad WBS</code></pre>
             <hr />
             <h2 id="indicadores-de-desempeño-kpis">📊 INDICADORES DE
             DESEMPEÑO (KPIs)</h2>
-            <table>
+            <table class="table-l3-premium">
             <colgroup>
             <col style="width: 33%" />
             <col style="width: 18%" />
@@ -1210,7 +1221,7 @@ Redondeo:      594.000 km  ← Cantidad WBS</code></pre>
             </table>
             <hr />
             <h2 id="control-de-versiones">🔄 CONTROL DE VERSIONES</h2>
-            <table>
+            <table class="table-l3-premium">
             <colgroup>
             <col style="width: 18%" />
             <col style="width: 14%" />

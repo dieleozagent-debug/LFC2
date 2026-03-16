@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ESPECIALIDAD 02 Ingenieria Electrica
 EJECUTIVO - LFC STUDIO</title>
-    <link rel="stylesheet" href="/IX. WBS y Planificacion/wbs-shared.css">
+    <link rel="stylesheet" href="/IX. WBS y Planificacion/wbs-shared.css?v=6.3.2">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         .premium-doc-content {
             background: var(--glass-bg);
@@ -59,7 +60,13 @@ EJECUTIVO - LFC STUDIO</title>
     </style>
 
             <style id="masterchef-style">
+                :root { --accent: #3498db; --glass-bg: rgba(255,255,255,0.9); }
                 body { font-family: 'Inter', sans-serif !important; background: #fdfdfd; }
+                .table-l3-premium { width: 100%; border-collapse: collapse; margin: 1.5rem 0; border: 1px solid #eee; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+                .table-l3-premium th { background: #f8f9fa; padding: 12px; text-align: left; font-size: 0.9rem; color: #666; text-transform: uppercase; }
+                .table-l3-premium td { padding: 12px; border-bottom: 1px solid #eee; font-size: 0.95rem; }
+                .btn-l4 { background: var(--accent); color: white; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer; font-weight: bold; }
+                .btn-excel { background: #27ae60; }
                 header, .glass-header { background: rgba(255,255,255,0.8); backdrop-filter: blur(10px); }
             </style></head>
 <body>
@@ -69,7 +76,11 @@ EJECUTIVO - LFC STUDIO</title>
             <h1 class="premium-title">ESPECIALIDAD 02 Ingenieria
 Electrica EJECUTIVO <span style="background: hsl(45, 100%, 50%); color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.8rem; margin-left: 10px; vertical-align: middle;">1 DT ACTIVADA</span></h1>
             <p style="opacity: 0.7;">REPORTE EJECUTIVO GENERADO DINÁMICAMENTE | SICC-READY</p>
-        </header>
+         
+            <div class="l4-audit-toolbar" style="margin: 1rem 0; display: flex; gap: 10px;">
+                <button class="btn-l4" onclick="window.print()">🖨️ PDF Audit</button>
+                <button class="btn-l4 btn-excel" onclick="location.href='/IX. WBS y Planificacion/datos_wbs_TODOS_items.json'">📊 WBS Data</button>
+            </div> </header>
 
         <nav id="TOC">
             <h3 style="margin-top: 0; color: var(--accent);">📍 ÍNDICE DE CONTENIDO</h3>
@@ -280,7 +291,7 @@ Electrica EJECUTIVO <span style="background: hsl(45, 100%, 50%); color: white; p
             Eficiencia energética según RETIE</li>
             </ul>
             <h3 id="hitos-críticos">Hitos críticos</h3>
-            <table>
+            <table class="table-l3-premium">
             <thead>
             <tr>
             <th style="text-align: left;">Fase</th>
@@ -454,7 +465,7 @@ Electrica EJECUTIVO <span style="background: hsl(45, 100%, 50%); color: white; p
             TÉCNICAS CLAVE</h2>
             <h3 id="tabla-consolidada-de-especificaciones">Tabla
             consolidada de especificaciones</h3>
-            <table>
+            <table class="table-l3-premium">
             <thead>
             <tr>
             <th style="text-align: left;">Parámetro</th>
@@ -515,7 +526,7 @@ Electrica EJECUTIVO <span style="background: hsl(45, 100%, 50%); color: white; p
             calidad.</p>
             <h3 id="tabla-de-ubicaciones-principales">Tabla de
             ubicaciones principales</h3>
-            <table>
+            <table class="table-l3-premium">
             <colgroup>
             <col style="width: 25%" />
             <col style="width: 30%" />
@@ -607,7 +618,7 @@ Electrica EJECUTIVO <span style="background: hsl(45, 100%, 50%); color: white; p
 [Sistemas de Control] ←→ [Sistemas Civiles] ←→ [Sistemas de Comunicación]</code></pre>
             <h3 id="tabla-de-interfaces-críticas">Tabla de interfaces
             críticas</h3>
-            <table>
+            <table class="table-l3-premium">
             <colgroup>
             <col style="width: 24%" />
             <col style="width: 31%" />
@@ -659,7 +670,7 @@ Electrica EJECUTIVO <span style="background: hsl(45, 100%, 50%); color: white; p
             TÉCNICOS Y LIMITACIONES</h2>
             <h3 id="supuestos-críticos-del-diseño">Supuestos Críticos
             del Diseño</h3>
-            <table>
+            <table class="table-l3-premium">
             <colgroup>
             <col style="width: 17%" />
             <col style="width: 26%" />
@@ -743,7 +754,7 @@ Electrica EJECUTIVO <span style="background: hsl(45, 100%, 50%); color: white; p
             <hr />
             <h2 id="riesgos-y-mitigaciones">⚠️ RIESGOS Y
             MITIGACIONES</h2>
-            <table>
+            <table class="table-l3-premium">
             <colgroup>
             <col style="width: 15%" />
             <col style="width: 26%" />
@@ -834,7 +845,7 @@ Electrica EJECUTIVO <span style="background: hsl(45, 100%, 50%); color: white; p
             SOPORTE</h2>
             <h3 id="documentos-técnicos-disponibles">Documentos técnicos
             disponibles</h3>
-            <table>
+            <table class="table-l3-premium">
             <colgroup>
             <col style="width: 29%" />
             <col style="width: 16%" />
@@ -888,7 +899,7 @@ Electrica EJECUTIVO <span style="background: hsl(45, 100%, 50%); color: white; p
             <hr />
             <h2 id="contactos-y-responsables">📞 CONTACTOS Y
             RESPONSABLES</h2>
-            <table>
+            <table class="table-l3-premium">
             <thead>
             <tr>
             <th style="text-align: left;">Rol</th>
@@ -918,7 +929,7 @@ Electrica EJECUTIVO <span style="background: hsl(45, 100%, 50%); color: white; p
             <hr />
             <h2 id="indicadores-de-desempeño-kpis">📊 INDICADORES DE
             DESEMPEÑO (KPIs)</h2>
-            <table>
+            <table class="table-l3-premium">
             <thead>
             <tr>
             <th style="text-align: left;">Indicador</th>
@@ -971,7 +982,7 @@ Electrica EJECUTIVO <span style="background: hsl(45, 100%, 50%); color: white; p
             </ul>
             <hr />
             <h2 id="control-de-versiones">🔄 CONTROL DE VERSIONES</h2>
-            <table>
+            <table class="table-l3-premium">
             <colgroup>
             <col style="width: 18%" />
             <col style="width: 14%" />
