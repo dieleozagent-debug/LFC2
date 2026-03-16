@@ -353,10 +353,10 @@
                             <span class="impact-value">${r.hito_verificacion}</span>
                         </div>
                         ` : ''}
-                        ${r.items_wbs.length > 0 ? `
+                        ${(r.items_wbs && (Array.isArray(r.items_wbs) ? r.items_wbs.length > 0 : String(r.items_wbs).length > 0)) ? `
                         <div class="impact-item">
                             <span class="impact-label">Ítems WBS Afectados</span>
-                            <span class="impact-value">${r.items_wbs.join(', ')}</span>
+                            <span class="impact-value">${Array.isArray(r.items_wbs) ? r.items_wbs.join(', ') : r.items_wbs}</span>
                         </div>
                         ` : ''}
                     `;
