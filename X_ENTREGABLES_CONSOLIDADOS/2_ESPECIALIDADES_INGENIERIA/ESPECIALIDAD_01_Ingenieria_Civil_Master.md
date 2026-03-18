@@ -18,7 +18,7 @@
 | **Contractual** | AT1, AT2, AT3, AT6, AT7 | ✅ Sincronizado | Crítica |
 | **Conceptual** | 23_ListadoMaestro_v5.0, 25.1_WBS_v5.0, 37_Memorias_Diseno_Basico | ✅ Sincronizado | Alta |
 | **Básica** | IV.1_Especificaciones_Basicas_Civil_v5.0, VII.1.1_Matriz_Normatividad_Civil | ✅ Sincronizado | Alta |
-| **Detalle** | V.1.1_Obras_Civiles_Infraestructura_DETALLADA, V.1_Señalizacion_Ferroviaria_v5.0 | ✅ Sincronizado | Alta |
+| **Detalle** | V.1.1_Obras_Civiles_Infraestructura_DETALLADA, V.1_Senalizacion_Ferroviaria_v5.0 | ✅ Sincronizado | Alta |
 | **Operación** | SISTEMA_05_Infraestructura_Operativa_Master | ✅ Sincronizado | Media |
 
 ---
@@ -85,13 +85,13 @@
 - **Vías de Servicio:** Vías auxiliares para mantenimiento
 - **Obras de Arte:** Puentes, viaductos, alcantarillas, muros
 - **Edificaciones:** Centro de control, estaciones, talleres
-- **Sistemas Civiles:** Drenaje, iluminación, señalización
+- **Sistemas Civiles:** Drenaje, iluminación, senalización
 
 ### **2.2 Criterios de Diseno Civil**
 
 #### **Principios de Diseno:**
 - **Seguridad:** Estructuras sismo resistentes según NSR-10
-- **Durabilidad:** Vida útil mínima 50 años
+- **Durabilidad:** Vida útil mínima 50 anos
 - **Mantenibilidad:** Acceso para mantenimiento y reparación
 - **Sostenibilidad:** Criterios ambientales y eficiencia energética
 - **Interoperabilidad:** Compatibilidad con estándares ferroviarios FRA/AREMA
@@ -199,11 +199,11 @@
 | **Drenaje transversal** | Alcantarillas | Cruce de drenajes |
 | **Drenaje longitudinal** | Canales de concreto | Conducción de aguas |
 
-#### **Sistemas de Señalización Civil:**
+#### **Sistemas de Senalización Civil:**
 | Componente | Especificación | Ubicación |
 |:-----------|:---------------|:----------|
-| **Señalización horizontal** | Marcas viales | Vía principal |
-| **Señalización vertical** | Señales de tráfico | Cruces y pasos |
+| **Senalización horizontal** | Marcas viales | Vía principal |
+| **Senalización vertical** | Senales de tráfico | Cruces y pasos |
 | **Iluminación** | LED 150W | Pasos a nivel |
 | **Barreras** | Automáticas | Cruces vehiculares |
 
@@ -218,7 +218,7 @@
 | **Oficinas** | 200 m² | Personal administrativo |
 | **Taller** | 150 m² | Mantenimiento |
 | **Cocina/Comedor** | 100 m² | Servicios |
-| **Baños** | 50 m² | Servicios sanitarios |
+| **Banos** | 50 m² | Servicios sanitarios |
 
 #### **Estructura del CCO:**
 | Componente | Especificación | Material |
@@ -326,7 +326,7 @@
 ### **6.2 Procedimientos de Emergencia**
 
 #### **Emergencias Estructurales:**
-1. **Evaluación Inmediata:** Inspección de daños
+1. **Evaluación Inmediata:** Inspección de danos
 2. **Aislamiento:** Cierre de vía afectada
 3. **Reparación Temporal:** Solución de emergencia
 4. **Reparación Definitiva:** Solución permanente
@@ -351,7 +351,7 @@
 #### **Mantenimiento de Edificaciones:**
 - **Limpieza:** Limpieza general
 - **Pintura:** Renovación de acabados
-- **Reparaciones menores:** Reparación de daños
+- **Reparaciones menores:** Reparación de danos
 - **Reparaciones mayores:** Rehabilitación estructural
 - **Modernización:** Actualización de sistemas
 
@@ -454,7 +454,7 @@
 
 ### **9.4 Documentos de Ingeniería de Detalle**
 - `V.1.1_Obras_Civiles_Infraestructura_DETALLADA.md` - Obras civiles detalladas
-- `V.1_Señalizacion_Ferroviaria_Detalle_v5.0.md` - Señalización ferroviaria (infraestructura)
+- `V.1_Senalizacion_Ferroviaria_Detalle_v5.0.md` - Senalización ferroviaria (infraestructura)
 
 ### **9.5 Documentos de Operación y Mantenimiento**
 - `X_ENTREGABLES_CONSOLIDADOS/1_SISTEMAS_TECNICOS/SISTEMA_05_Infraestructura_Operativa_Master.md` - Infraestructura operativa

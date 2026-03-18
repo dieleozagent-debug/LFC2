@@ -33,7 +33,7 @@ El WBS debe reflejar una arquitectura simplificada y eficiente:
 
 ```
 1.0 PROYECTO LA DORADA-CHIRIGUANÁ (SSOT)
-  1.1 SISTEMAS DE SEÑALIZACIÓN VIRTUAL
+  1.1 SISTEMAS DE SENALIZACIÓN VIRTUAL
     1.1.1 Servidor Maestro PTC (Vital Server 2oo3)
     1.1.2 Enclavamientos Electrónicos IP (ENCE)
     1.1.3 Lógica de Bloqueo Virtual (FRA 236)
@@ -52,7 +52,7 @@ El WBS debe reflejar una arquitectura simplificada y eficiente:
 ### 3.1 Template: Ficha de Sistema (Ejemplo Saneado)
 - **Sistema:** Control de Tráfico Centralizado (CTC Virtual)
 - **Protocolo:** Vital IP
-- **Criterio de Señalización:** Bloqueo Virtual (No señales físicas)
+- **Criterio de Senalización:** Bloqueo Virtual (No senales físicas)
 - **Interoperabilidad:** Procedimiento Stop & Switch (Chiriguaná/FENOCO)
 
 ---

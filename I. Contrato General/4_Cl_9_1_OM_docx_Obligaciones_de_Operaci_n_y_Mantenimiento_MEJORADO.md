@@ -175,13 +175,13 @@ Manual de Operación y Mantenimiento de la Infraestructura Férrea
 Manual de Operación y Mantenimiento de la Infraestructura Logística
 Manual de Operación y Mantenimiento del Material Rodante (complementario con Cl_13.1_MaterialRodante)
 Condiciones precedentes para inicio de O&M:
-Validación de sistemas: CTC, señalización, TETRA, SICC deben estar 100% funcionales
+Validación de sistemas: CTC, senalización, TETRA, SICC deben estar 100% funcionales
 Procedimiento de Revisión General con Interventoría
 Suscripción de condiciones precedentes según Cláusula 14.1
 2.1.2 Etapa de Operación y Mantenimiento (AT2, Cap. III)
 Operación ferroviaria integral:
 Operación ferroviaria: asegurar continuidad del servicio de transporte de carga (Ap. 2, Cap. III, Num. 3.2.1)
-Reglamento de Operación de Trenes (ROT): obligatorio para la gestión de circulación, con uso de CTC, señalización, PTC y TETRA (Ap. 2, Cap. III, Num. 3.2.2)
+Reglamento de Operación de Trenes (ROT): obligatorio para la gestión de circulación, con uso de CTC, senalización, PTC y TETRA (Ap. 2, Cap. III, Num. 3.2.2)
 Prestación del servicio público de transporte ferroviario de carga con habilitación vigente ante Ministerio de Transporte
 Seguridad y monitoreo:
 Seguridad en la vía y material rodante: CCTV, control de accesos, alarmas y protocolos de emergencia (Ap. 2, Cap. III, Nums. 3.1.2 y 3.3.2)
@@ -201,7 +201,7 @@ Conservación de condiciones de infraestructura y equipos para transferencia al 
 3.1.1 Estructura obligatoria del Plan Maestro
 Debe consolidar cronogramas, matrices de mantenimiento y protocolos técnicos por sistema con las siguientes periodicidades (AT2, página 65):
 Matriz de Periodicidades Contractuales:
-A - Anual (cada año)
+A - Anual (cada ano)
 S - Semestral
 T - Trimestral
 M - Mensual
@@ -310,7 +310,7 @@ Sistema SCADA ferroviario para monitoreo remoto
 Alertas automáticas para mantenimiento preventivo
 5.2 Gestión operacional optimizada
 Stock crítico de repuestos para:
-Equipos CTC y señalización
+Equipos CTC y senalización
 Componentes TETRA y telecomunicaciones
 Piezas de material rodante con tiempos de entrega largos
 Integración con Plan de Obras (coordina con Ap9_PlanObras):

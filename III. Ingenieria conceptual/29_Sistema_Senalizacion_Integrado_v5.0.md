@@ -1,4 +1,4 @@
-# SISTEMA DE SEÑALIZACIÓN INTEGRADO v6.0 (PTC VIRTUAL)
+# SISTEMA DE SENALIZACIÓN INTEGRADO v6.0 (PTC VIRTUAL)
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 13 de marzo de 2026  
@@ -7,8 +7,8 @@
 
 ---
 
-## 📄 FILOSOFÍA DE DISEÑO
-El sistema de señalización se define como **VIRTUAL**, eliminando señales físicas y punto de referencia virtuals para reducir CAPEX y riesgos de robo/vandalismo.
+## 📄 FILOSOFÍA DE DISENO
+El sistema de senalización se define como **VIRTUAL**, eliminando senales físicas y punto de referencia virtuals para reducir CAPEX y riesgos de robo/vandalismo.
 - **Detección:** Basada en posición GPS reportada por la locomotora y el EOT.
 - **Validación de Vía:** Los enclavamientos (ENCE) verifican la posición de los desvíos y comunican el estado al Servidor PTC Central.
 - **Autorización:** Se envía digitalmente a través de la red **TETRA**.

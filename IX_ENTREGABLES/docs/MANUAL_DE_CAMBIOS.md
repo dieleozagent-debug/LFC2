@@ -7,7 +7,7 @@ Esta guía explica cómo "pulir" el proyecto cuando cambia un criterio maestro (
 Todo cambio inicia en `project_config.json`. Al ser un formato estructurado, permite que máquinas y procesos de CI/CD lo consuman.
 
 ### 2. La Propagación: Scripts y Prompts
-Los prompts de los especialistas son regenerados. Si el criterio cambió a CTC, el prompt de señalización ahora prohibirá hablar de "V-Blocks" y exigirá hablar de "Secciones Fijas", por ejemplo.
+Los prompts de los especialistas son regenerados. Si el criterio cambió a CTC, el prompt de senalización ahora prohibirá hablar de "V-Blocks" y exigirá hablar de "Secciones Fijas", por ejemplo.
 
 ### 3. El Refuerzo: El Ciclo Inverso
 No basta con cambiar el texto. El Agente recorre el repositorio preguntando:

@@ -23,7 +23,7 @@
 
 ## 1. PROPÓSITO
 
-Este documento traduce las obligaciones del **Apéndice Técnico 2 (Operación y Mantenimiento)** y el **Apéndice Técnico 4 (Indicadores de Desempeño)** en requisitos de ingeniería. Su objetivo es asegurar que los sistemas se diseñen para ser operables, mantenibles y capaces de cumplir con los KPIs contractuales.
+Este documento traduce las obligaciones del **Apéndice Técnico 2 (Operación y Mantenimiento)** y el **Apéndice Técnico 4 (Indicadores de Desempeno)** en requisitos de ingeniería. Su objetivo es asegurar que los sistemas se disenen para ser operables, mantenibles y capaces de cumplir con los KPIs contractuales.
 
 ---
 
@@ -33,16 +33,16 @@ Este documento traduce las obligaciones del **Apéndice Técnico 2 (Operación y
 
 | Obligación | Requisito para Ingeniería | Documento Relacionado |
 |:---|:---|:---|
-| **Continuidad del Servicio 24/7** | Diseñar sistemas con alta disponibilidad y redundancia (N+1). | `35_Criterios_Redundancia...md` |
-| **Reglamento de Operación (ROT)** | El diseno del CTC y la Señalización debe soportar el ROT. | `26. Sistem_CTC_Int...md` |
+| **Continuidad del Servicio 24/7** | Disenar sistemas con alta disponibilidad y redundancia (N+1). | `35_Criterios_Redundancia...md` |
+| **Reglamento de Operación (ROT)** | El diseno del CTC y la Senalización debe soportar el ROT. | `26. Sistem_CTC_Int...md` |
 | **Seguridad en Vía** | El diseno de CCTV y Control de Accesos debe cubrir puntos críticos. | `31_Sistema_CCTV_Integrado...md` |
-| **Mantenimiento Integral** | Diseñar sistemas con capacidad de diagnóstico remoto y fácil mantenimiento. | `VI. Operacion y Mantenimiento/` |
+| **Mantenimiento Integral** | Disenar sistemas con capacidad de diagnóstico remoto y fácil mantenimiento. | `VI. Operacion y Mantenimiento/` |
 
-### 2.2 Del Apéndice Técnico 4 - Indicadores de Desempeño
+### 2.2 Del Apéndice Técnico 4 - Indicadores de Desempeno
 
 | Indicador | KPI Contractual | Requisito para Ingeniería | Documento Relacionado |
 |:---|:---|:---|:---|
-| **Disponibilidad de Sistemas Críticos** | ≥ 99.95% (CTC, Señalización) | Diseno de redundancia N+1, UPS con 4h de autonomía. | `25.1_Matriz_Alcance_Electrico.md` |
+| **Disponibilidad de Sistemas Críticos** | ≥ 99.95% (CTC, Senalización) | Diseno de redundancia N+1, UPS con 4h de autonomía. | `25.1_Matriz_Alcance_Electrico.md` |
 | **Disponibilidad Sistemas No Críticos** | ≥ 99.5% (TETRA, CCTV, ITS) | Diseno de redundancia N+0/N+1, UPS con 2h de autonomía. | `25.1_Matriz_Alcance_Electrico.md` |
 | **Disponibilidad SICC** | ≥ 99.5% | El Sistema Informático de Contabilización y Control debe ser redundante. | `35_Criterios_Redundancia...md` |
 | **Calidad de Servicio** | Tiempos de respuesta, cobertura. | El diseno de la red TETRA y Fibra Óptica debe garantizar la cobertura y latencia requeridas. | `27_Sistema_TETRA_Integrado...md` |

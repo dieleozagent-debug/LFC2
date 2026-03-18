@@ -212,7 +212,7 @@ Usuario abre: WBS_Analisis_Riesgos.html
 
 ### **Método de verificación:**
 1. **Abrir Consola del Navegador (F12)**
-2. **Ir a la pestaña "Network"**
+2. **Ir a la pestana "Network"**
 3. **Recargar la página (Ctrl+Shift+R)**
 4. **Verificar que los archivos `.js` se cargan con nuevo timestamp:**
 

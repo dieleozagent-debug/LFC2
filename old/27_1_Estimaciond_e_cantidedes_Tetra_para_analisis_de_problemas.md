@@ -82,7 +82,7 @@ ESTIMACIÓN: 33 Estaciones Base TETRA
 Torres de Comunicaciones
 Altura promedio: 45-60 metros (según topografía)
 - Zonas planas (60%): 35m de altura × 20 torres = 20 torres estándar
-- Zonas montañosas (40%): 60m altura × 13 torres = 13 torres reforzadas
+- Zonas montanosas (40%): 60m altura × 13 torres = 13 torres reforzadas
 ESTIMACIÓN: 33 Torres (20 estándar + 13 reforzadas)
 Casetas de Equipos (Bunkers)
 Por cada estación base: 1 caseta de equipos
@@ -289,7 +289,7 @@ Sistema TETRA
 [ ] Definir bandas de frecuencia específicas con ANE
 [ ] Validar interoperabilidad protocolos con FENOCO
 [ ] Calcular propagación real según topografía específica
-[ ] Diseñar redundancia geográfica estaciones críticas
+[ ] Disenar redundancia geográfica estaciones críticas
 Sistema Fibra Óptica
 [ ] Validar rutas alternativas con estudios topográficos
 [ ] Confirmar tecnología WDM vs. fibras dedicadas
@@ -366,13 +366,13 @@ Componente
 34,157,500
 
 7.2 OPEX Anual Estimado
-- Mantenimiento TETRA: USD 600,000/año
-- Mantenimiento Fibra: USD 400,000/año  
-- Energía eléctrica: USD 180,000/año
-- Personal especializado: USD 350,000/año
-- Seguros y licencias: USD 120,000/año
+- Mantenimiento TETRA: USD 600,000/ano
+- Mantenimiento Fibra: USD 400,000/ano  
+- Energía eléctrica: USD 180,000/ano
+- Personal especializado: USD 350,000/ano
+- Seguros y licencias: USD 120,000/ano
 
-TOTAL OPEX: USD 1,650,000/año
+TOTAL OPEX: USD 1,650,000/ano
 
 8. Conclusiones y Próximos Pasos
 8.1 Factores Críticos de Éxito
@@ -389,7 +389,7 @@ Logísticos: Acceso a sitios remotos para mantenimiento
 Iniciar gestión predial inmediatamente (ruta crítica)
 Contratar especialista en frecuencias TETRA/ANE
 Evaluar proveedores con experiencia ferroviaria
-Diseñar plan contingencia para rutas alternativas
+Disenar plan contingencia para rutas alternativas
 
 Esta estimación está basada en asunciones técnicas estándar y debe ser refinada durante la ingeniería de detalle con mediciones reales, estudios específicos de propagación y validación de campo.
 

@@ -57,7 +57,7 @@ Este documento consolida información de las siguientes fuentes:
 - Redundancia de comunicaciones con respaldo satelital
 - Disponibilidad 99.5% para TETRA y 99.95% para Red Vital IP / TETRA
 
-**Indicadores de desempeño:**
+**Indicadores de desempeno:**
 - Cobertura TETRA: 100% del corredor
 - Cobertura Red Vital IP / TETRA: 100% del corredor
 - Disponibilidad fibra óptica: 99.95%
@@ -292,8 +292,8 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 - Protección contra fallos
 - Escalabilidad para crecimiento futuro
 
-### 5.2 Especificaciones de Desempeño
-**Criterios de desempeño y KPIs**
+### 5.2 Especificaciones de Desempeno
+**Criterios de desempeno y KPIs**
 
 | Parámetro | Especificación | Método de Medición |
 |:----------|:---------------|:-------------------|

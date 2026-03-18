@@ -11,7 +11,7 @@
 ## 📄 INVENTARIO TÉCNICO MAESTRO
 Este listado consolida los sistemas reales que el EPC implementará, eliminando toda infraestructura europea (PTC Virtual) y de radiocomunicación redundante no contractual (Red Vital IP / TETRA).
 
-### 1. SEÑALIZACIÓN Y CONTROL (PTC VIRTUAL)
+### 1. SENALIZACIÓN Y CONTROL (PTC VIRTUAL)
 | Componente | Cantidad | Descripción | Estándar |
 |:---|:---:|:---|:---|
 | **Servidor Central PTC** | 1 | Lógica de bloque virtual y autorizaciones | FRA 236 I |
@@ -33,7 +33,7 @@ Este listado consolida los sistemas reales que el EPC implementará, eliminando 
 ## 🔍 AUDITORÍA DE PURGA (P.42)
 1. **ELIMINADO Red Vital IP / TETRA:** No es el estándar del contrato. Se centralizan comunicaciones en **TETRA**.
 2. **ELIMINADO Puntos de Referencia Virtuales (SICC)/[CONTROLLER PROHIBIDO - SICC ES VIRTUAL]:** No aplican a la arquitectura virtual.
-3. **ELIMINADO Señalización en Cabina (Cab-Signaling):** Se reemplazan por señalización en cabina (Cab-Signalling).
+3. **ELIMINADO Senalización en Cabina (Cab-Signaling):** Se reemplazan por senalización en cabina (Cab-Signalling).
 4. **ELIMINADO Servidor PTC Central PTC Virtual:** Se reemplaza por **Servidor PTC**.
 
 ---

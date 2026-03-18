@@ -6,7 +6,7 @@
 ## 1. MARCO CONTRACTUAL
 
 ### 1.1 Base Legal
-Esta Estructura de Desglose de Trabajo (WBS, por sus siglas en inglés) se desarrolla en cumplimiento de la **Cláusula 8.1 (Estudios y Disenos)**. Su objetivo es organizar en paquetes de trabajo manejables todas las actividades de la Ingeniería Conceptual, asegurando que cada sistema definido en el `23_ListadoMaestro_Sistemas...md` y trazado en la `24_Matriz_TrazabilidadContractual...md` sea analizado y diseñado de forma estructurada.
+Esta Estructura de Desglose de Trabajo (WBS, por sus siglas en inglés) se desarrolla en cumplimiento de la **Cláusula 8.1 (Estudios y Disenos)**. Su objetivo es organizar en paquetes de trabajo manejables todas las actividades de la Ingeniería Conceptual, asegurando que cada sistema definido en el `23_ListadoMaestro_Sistemas...md` y trazado en la `24_Matriz_TrazabilidadContractual...md` sea analizado y disenado de forma estructurada.
 
 ### 1.2 ⚠️ EVALUACIÓN DE DEPENDENCIAS DOCUMENTALES
 Este documento es el **plan de ejecución** de la Ingeniería Conceptual. Consolida los documentos base y define la secuencia de trabajo para los análisis por sistema.
@@ -48,7 +48,7 @@ El desarrollo de los análisis por sistema está bloqueado hasta que esta WBS se
 ## 3. OPTIMIZACIONES EPC ESPECÍFICAS
 
 ### 3.1 Arquitectura para Proyectos EPC
-Esta WBS está diseñada como una herramienta de gestión para un contratista EPC, permitiendo:
+Esta WBS está disenada como una herramienta de gestión para un contratista EPC, permitiendo:
 - **Planificación de Recursos:** Asignar equipos de ingeniería especializados (Control, Telecom, etc.) a paquetes de trabajo específicos.
 - **Control de Avance:** Medir el progreso de la ingeniería conceptual de forma granular, paquete por paquete, en lugar de como un todo monolítico.
 - **Gestión de Dependencias:** Visualizar claramente las dependencias entre paquetes de trabajo (ej. el diseno de TETRA depende del plan de sitios de torres).
@@ -61,15 +61,15 @@ A continuación, se presenta la Estructura de Desglose de Trabajo para la Ingeni
 
 | WBS ID | Paquete de Trabajo | Entregables Clave | Documento de Análisis Asociado |
 |:---|:---|:---|:---|
-| **1.0** | **Sistemas de Control y Señalización** | | |
+| **1.0** | **Sistemas de Control y Senalización** | | |
 | 1.1 | Centro de Control de Tráfico (CTC) | - Arquitectura funcional del CTC<br>- Definición de interfaces con enclavamientos y SICC<br>- Requisitos de hardware/software para CCO<br>- **Disponibilidad 99.95% según AT4** | `26. Sistem_CTC_Int...md` |
-| 1.2 | Señalización Ferroviaria y Enclavamientos | - Filosofía de señalización (bloques, cantones)<br>- Criterios para enclavamientos electrónicos (CBI)<br>- Especificaciones para detectores de vía | `29_Sistema_Senalizacion_Integrado...md` |
+| 1.2 | Senalización Ferroviaria y Enclavamientos | - Filosofía de senalización (bloques, cantones)<br>- Criterios para enclavamientos electrónicos (CBI)<br>- Especificaciones para detectores de vía | `29_Sistema_Senalizacion_Integrado...md` |
 | 1.3 | Capacidad y Gestión de Surcos | - Modelo de simulación de capacidad (FRA/AREMA-405)<br>- Reglas de negocio para asignación de surcos<br>- Protocolo de interoperabilidad con FENOCO<br>- **PTC PTC Virtual (FRA 236) hasta AT3** | `20. AT10_CapacidadSurcos...md` |
 | **2.0** | **Sistemas de Telecomunicaciones** | | |
 | 2.1 | Red de Fibra Óptica (Backbone) | - Diseno de topología de anillo redundante<br>- Especificaciones de cable y equipos de transmisión (DWDM)<br>- Plan de gestión de interferencias (AT5) | `28_Sistema_FibraOptica_Integrado...md` |
 | 2.2 | Sistema de Radio TETRA | - Estudio de cobertura de radio<br>- Plan de sitios para estaciones base (coord. con AT7)<br>- Especificaciones de equipos embarcados y portátiles<br>- **Disponibilidad 99.5% según AT4**<br>- **Interoperabilidad FENOCO FRA/AREMA** | `27_Sistema_TETRA_Integrado...md` |
 | **3.0** | **Sistemas ITS y Seguridad** | | |
-| 3.1 | Sistemas Inteligentes de Transporte (ITS) | - Arquitectura de sistemas ITS (paneles, sensores)<br>- Plan de integración con indicadores de desempeño (AT4)<br>- Criterios de gestión ambiental (AT6) | `30_Sistema_ITS_Integrado...md` |
+| 3.1 | Sistemas Inteligentes de Transporte (ITS) | - Arquitectura de sistemas ITS (paneles, sensores)<br>- Plan de integración con indicadores de desempeno (AT4)<br>- Criterios de gestión ambiental (AT6) | `30_Sistema_ITS_Integrado...md` |
 | 3.2 | Sistema de Videovigilancia (CCTV) | - Plan de cobertura de cámaras (estaciones, P.N., CCO)<br>- Especificaciones de VMS y almacenamiento<br>- Criterios de integración con gestión social (AT8) | `31_Sistema_CCTV_Integrado...md` |
 | **4.0** | **Material Rodante y Equipos** | | |
 | 4.1 | Material Rodante y Equipos Embarcados | - Especificaciones funcionales de locomotoras y vagones<br>- Requisitos de equipos embarcados (PTC, TETRA, GPS)<br>- Plan de Puesta a Punto y Mantenimiento (AT2)<br>- **PTC PTC Virtual (FRA 236) hasta AT3**<br>- **Disponibilidad 99.95% según AT4** | `32_Material_Rodante_Integrado...md` |

@@ -19,13 +19,13 @@
 
 **Documentos BLOQUEADOS (no se puede avanzar):**
 - ❌ `AT3_Especificaciones.docx` - BLOQUEADO
-- ❌ `29_Sistema_Señalización_Integrado.md` - Filosofía NO clara
+- ❌ `29_Sistema_Senalización_Integrado.md` - Filosofía NO clara
 - ❌ `32_Material_Rodante_Integrado.md` - Equipos embarcados SIN DEFINIR
-- ❌ `V.1_Señalización_Ferroviaria_Detalle.md` - Diseno SUSPENDIDO
+- ❌ `V.1_Senalización_Ferroviaria_Detalle.md` - Diseno SUSPENDIDO
 - ❌ `IV.1_Interfaces_Sistemas.md` - Arquitectura indefinida
 
 **Alcance afectado:**
-- 🔴 60% de Capítulo 1 (Control y Señalización) = **$132,228M COP**
+- 🔴 60% de Capítulo 1 (Control y Senalización) = **$132,228M COP**
 - 🔴 40% de Capítulo 4 (Material Rodante) = **$20,520M COP**
 - 🔴 **Total en riesgo:** **$152,748M COP** (58% del proyecto)
 
@@ -43,7 +43,7 @@
 **Descripción:** Sistema americano de Protección Automática de Trenes
 
 **Ventajas:**
-- ✅ Estándar probado en USA (20+ años)
+- ✅ Estándar probado en USA (20+ anos)
 - ✅ Múltiples proveedores (Wabtec, Alstom, Siemens)
 - ✅ Compatible con material rodante diesel
 - ✅ Menor costo relativo
@@ -92,7 +92,7 @@
 - ✅ Comunicación continua Red Vital IP / TETRA
 
 **Desventajas:**
-- ❌ Diseñado para metros (no ferrocarril largo)
+- ❌ Disenado para metros (no ferrocarril largo)
 - ❌ Costo muy alto
 - ❌ Sobreespecificado para este corredor
 - ❌ Incompatible con FENOCO
@@ -143,7 +143,7 @@ Prioridad: 🔴 CRÍTICA - BLOCKER DEL PROYECTO
 ANTECEDENTES:
 El proyecto se encuentra en Mes 4/12 de ingeniería. Se requiere 
 definición formal del Sistema PTC para poder avanzar con el 60% 
-del alcance de Control y Señalización ($152,748M COP en riesgo).
+del alcance de Control y Senalización ($152,748M COP en riesgo).
 
 SOLICITUD:
 Definir formalmente cuál de las siguientes opciones será implementada:
@@ -175,7 +175,7 @@ RESPONSABLE GESTIÓN: Gerencia Técnica + PMO
 - PMO (líder)
 - Gerencia Técnica EPC (aunque no asignado, preparar TdR)
 - Interventoría
-- Especialista Señalización
+- Especialista Senalización
 - Especialista Material Rodante
 
 **Objetivos:**
@@ -237,7 +237,7 @@ RESPONSABLE GESTIÓN: Gerencia Técnica + PMO
 |:-------|:------------|:-----:|:----------:|
 | Oficiar a ANI solicitud | PMO | **HOY Mes 4** | 🔴 URGENTE |
 | Mesa de trabajo interna | PMO + Interventoría | **Semanal M4-6** | 🔴 CRÍTICA |
-| Matriz de decisión | Especialista Señalización | **Mes 5** | 🟠 ALTA |
+| Matriz de decisión | Especialista Senalización | **Mes 5** | 🟠 ALTA |
 | Mesa técnica ANI/FENOCO | Gerencia Técnica | **Mes 5** | 🔴 CRÍTICA |
 | Decisión formal ANI | ANI | **Mes 6** | 🔴 **BLOCKER** |
 

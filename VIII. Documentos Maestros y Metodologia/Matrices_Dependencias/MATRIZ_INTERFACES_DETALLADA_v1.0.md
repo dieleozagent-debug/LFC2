@@ -25,7 +25,7 @@ Documentar TODAS las interfaces entre sistemas del proyecto, especificando:
 
 | Aspecto | Especificación | Estado | Responsable |
 |:--------|:---------------|:-------|:------------|
-| **Protocolo** | FFFIS (IEC 62278) / Propietario | ⚠️ Pendiente definición PTC | EPC Señalización |
+| **Protocolo** | FFFIS (IEC 62278) / Propietario | ⚠️ Pendiente definición PTC | EPC Senalización |
 | **Medio físico** | Ethernet redundante N+1 | ✅ Estándar | EPC Redes |
 | **Mensajes** | Posición tren, comandos, MA | ⚠️ Pendiente protocolo | EPC + Proveedor PTC |
 | **Frecuencia** | 1 mensaje/segundo (continuo) | ✅ Definido | - |
@@ -93,7 +93,7 @@ Documentar TODAS las interfaces entre sistemas del proyecto, especificando:
 |:--------|:---------------|:-------|:------------|
 | **Protocolo** | IEC 61375 (TCN) / MVB | ⚠️ Pendiente specs MR | EPC MR + FENOCO |
 | **Medio físico** | Bus redundante + I/O digital | 🟡 Conceptual | EPC |
-| **Señales** | Comando frenado emergencia | ✅ Estándar | EPC |
+| **Senales** | Comando frenado emergencia | ✅ Estándar | EPC |
 | **Seguridad** | SIL-4 (certificación crítica) | ✅ Normativa | Certificador externo |
 | **Pruebas** | Banco → MR real → Operación | ⚠️ Requiere MR disponible | EPC + FENOCO |
 
@@ -164,7 +164,7 @@ Documentar TODAS las interfaces entre sistemas del proyecto, especificando:
 - Protocolo
 - Responsable desarrollo
 - Responsable pruebas
-- Estado (Conceptual/Diseñado/Probado/Certificado)
+- Estado (Conceptual/Disenado/Probado/Certificado)
 - Fecha FAT
 - Fecha SAT
 - No conformidades

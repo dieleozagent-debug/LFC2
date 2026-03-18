@@ -371,7 +371,7 @@ Documentación/
 - ✅ **PTC/Control de Trenes:** 100% - SRS/Arquitectura completada
 - ✅ **Material Rodante:** 100% - STM/DMI specs completadas  
 - ✅ **CTC:** 100% - SW Architecture completada
-- ✅ **Señalización:** 100% - Interlocking tables completadas
+- ✅ **Senalización:** 100% - Interlocking tables completadas
 - ✅ **TETRA:** 100% - Frequency coord. completada
 - ✅ **Fibra Óptica:** 100% - Spare mgmt. completada
 
@@ -411,7 +411,7 @@ Documentación/
 | Documento | Estado | Versión | Responsable | Fecha |
 |:----------|:------:|:-------:|:------------|:-----:|
 | **6.1 Manual OM CTC:** | ✅ **COMPLETADO** | v5.0 | EPC Sistemas | Enero 2025 |
-| **6.2 Manual OM Señalización:** | ✅ **COMPLETADO** | v5.0 | EPC Sistemas | Enero 2025 |
+| **6.2 Manual OM Senalización:** | ✅ **COMPLETADO** | v5.0 | EPC Sistemas | Enero 2025 |
 | **6.3 Manual OM Telecom:** | ✅ **COMPLETADO** | v5.0 | EPC Telecom | Enero 2025 |
 | **6.4 Manual OM Seguridad:** | ✅ **COMPLETADO** | v5.0 | EPC Sistemas | Enero 2025 |
 | **6.5 Manual OM Integrado:** | ✅ **COMPLETADO** | v5.0 | PMO | Enero 2025 |
@@ -487,7 +487,7 @@ Documentación/
 | 1.1 | `../III. Ingenieria conceptual/26. Sistem_CTC_Int...md` | ✅ Completado | 19/09/2025 | Validado análisis del CTC, **identificando riesgos y supuestos.** |
 | 2.2 | `../III. Ingenieria conceptual/27_Sistema_TETRA_Integrado...md` | ✅ Completado | 19/09/2025 | Validado análisis de TETRA, **identificando riesgos y supuestos.** |
 | 2.1 | `../III. Ingenieria conceptual/28_Sistema_FibraOptica_Integrado...md` | ✅ Completado | 19/09/2025 | Validado análisis del backbone, **identificando riesgos y supuestos.** |
-| 1.2 | `../III. Ingenieria conceptual/29_Sistema_Senalizacion_Integrado...md` | ✅ Completado | 19/09/2025 | Validado análisis de Señalización, **identificando riesgos y supuestos.** |
+| 1.2 | `../III. Ingenieria conceptual/29_Sistema_Senalizacion_Integrado...md` | ✅ Completado | 19/09/2025 | Validado análisis de Senalización, **identificando riesgos y supuestos.** |
 | 3.1 | `../III. Ingenieria conceptual/30_Sistema_ITS_Integrado...md` | ✅ Completado | 19/09/2025 | Validado análisis de ITS, **identificando riesgos y supuestos.** |
 | 3.2 | `../III. Ingenieria conceptual/31_Sistema_CCTV_Integrado...md` | ✅ Completado | 19/09/2025 | Validado análisis de CCTV, **identificando riesgos y supuestos.** |
 | 4.1 | `../III. Ingenieria conceptual/32_Material_Rodante_Integrado...md` | ✅ Completado | 19/09/2025 | Validado análisis de Material Rodante, **identificando riesgos y supuestos.** |
@@ -540,7 +540,7 @@ Leyenda: 🟢 Completado • 🟠 En desarrollo/especificación • 🟡 Pendien
 ### **✅ DOCUMENTOS DE FASE D - COMPLETADOS EXITOSAMENTE**
 | WBS ID | Documento | Estado | Fecha | Observaciones |
 |:---|:---|:---:|:---:|---|
-| V.1 | `V. Ingenieria de detalle/V.1_Senalizacion_Ferroviaria_Detalle_v0.1.md` | ✅ **COMPLETADO** | 27/01/2025 | **Especificaciones técnicas detalladas** de señalización ferroviaria. |
+| V.1 | `V. Ingenieria de detalle/V.1_Senalizacion_Ferroviaria_Detalle_v0.1.md` | ✅ **COMPLETADO** | 27/01/2025 | **Especificaciones técnicas detalladas** de senalización ferroviaria. |
 | V.2 | `V. Ingenieria de detalle/V.2_Centro_Control_Trafico_CTC_Detalle_v0.1.md` | ✅ **COMPLETADO** | 27/01/2025 | **Arquitectura y funcionalidades** del CTC. |
 | V.3 | `V. Ingenieria de detalle/V.3_Sistemas_Comunicacion_Detalle_v0.1.md` | ✅ **COMPLETADO** | 27/01/2025 | **Red Vital IP / TETRA, fibra óptica, TETRA, VSAT** especificados. |
 | V.4 | `V. Ingenieria de detalle/V.4_Sistemas_Potencia_Detalle_v0.1.md` | ✅ **COMPLETADO** | 27/01/2025 | **Subestaciones, transformadores, UPS, generadores** especificados. |
@@ -554,7 +554,7 @@ Leyenda: 🟢 Completado • 🟠 En desarrollo/especificación • 🟡 Pendien
 | WBS ID | Documento | Estado | Fecha | Observaciones |
 |:---|:---|:---:|:---:|---|
 | 6.1 | `VI. operacion y mantenimiento y reversion/6.1_Manual_OM_CTC_v1.0_Validado.md` | ✅ **COMPLETADO** | 19/09/2025 | Manual de Operación y Mantenimiento para el CTC. |
-| 6.2 | `VI. operacion y mantenimiento y reversion/6.2_Manual_OM_Senalizacion_v1.0_Validado.md` | ✅ **COMPLETADO** | 19/09/2025 | Manual de Mantenimiento para Señalización. |
+| 6.2 | `VI. operacion y mantenimiento y reversion/6.2_Manual_OM_Senalizacion_v1.0_Validado.md` | ✅ **COMPLETADO** | 19/09/2025 | Manual de Mantenimiento para Senalización. |
 | 6.3 | `VI. operacion y mantenimiento y reversion/6.3_Manual_OM_Telecom_v1.0_Validado.md` | ✅ **COMPLETADO** | 19/09/2025 | Manual de Mantenimiento para Fibra Óptica y TETRA. |
 | 6.4 | `VI. operacion y mantenimiento y reversion/6.4_Manual_OM_Seguridad_v1.0_Validado.md` | ✅ **COMPLETADO** | 19/09/2025 | Manual de Mantenimiento para CCTV e Incendios. |
 
@@ -594,7 +594,7 @@ La Fase E ha sido completada exitosamente con el desarrollo de todos los manuale
 | PTC | SRS Provisional | 100% | ✅ Completado |
 | Servidor PTC Central | Arquitectura 2oo3 | 100% | ✅ Completado |
 | Interfaces CTC–PTC | Interfaces definidas | 8/8 | ✅ Completado |
-| Señalización | Interlocking tables | 5/5 | ✅ Completado |
+| Senalización | Interlocking tables | 5/5 | ✅ Completado |
 | Embarcados | STM especificado | 100% | ✅ Completado |
 
 ### **🏆 LOGROS ALCANZADOS**
@@ -785,7 +785,7 @@ La Fase E ha sido completada exitosamente con el desarrollo de todos los manuale
 | Documento Actual | Criterio Real Maestro | Desviación | Impacto |
 |:----------------|:---------------------|:-----------|:--------|
 | Virtual Balise (GNSS)s: 1,080 unidades | 0 unidades | 🔴 CRÍTICO | $40B sobrepresupuesto |
-| Señalización en Cabina (Cab-Signaling) vía: 270 unidades | 0 unidades | 🔴 CRÍTICO | $12B sobrepresupuesto |
+| Senalización en Cabina (Cab-Signaling) vía: 270 unidades | 0 unidades | 🔴 CRÍTICO | $12B sobrepresupuesto |
 | Servidor PTC Central: 2 unidades | 0 unidades | 🔴 CRÍTICO | $2B sobrepresupuesto |
 | TETRA: 33 estaciones | 37 estaciones | 🟡 MEDIO | Ajuste cantidades |
 | Red Vital IP / TETRA: NO incluido | 37 estaciones | 🔴 CRÍTICO | $3.5B faltante |
@@ -813,7 +813,7 @@ La Fase E ha sido completada exitosamente con el desarrollo de todos los manuale
 Todos los documentos de ingeniería están siendo validados bajo la Metodología Punto 42:
 
 #### **🔍 VALIDACIÓN EN PROGRESO**
-- **V.1 Señalización Ferroviaria:** En validación técnica y contractual
+- **V.1 Senalización Ferroviaria:** En validación técnica y contractual
 - **V.2 Centro de Control de Tráfico:** En validación técnica y contractual
 - **V.3 Sistemas de Comunicación:** En validación técnica y contractual
 - **V.4 Sistemas de Potencia:** En validación técnica y contractual
@@ -829,11 +829,11 @@ Todos los documentos de ingeniería están siendo validados bajo la Metodología
 | Documento | Impacto | Prioridad | Esfuerzo |
 |:----------|:--------|:----------|:---------|
 | WBS Presupuestal | 🔴 CRÍTICO | 1 | Alto |
-| V.1_Señalización_Ferroviaria | 🔴 CRÍTICO | 1 | Alto |
+| V.1_Senalización_Ferroviaria | 🔴 CRÍTICO | 1 | Alto |
 | V.2_CTC_Detalle | 🔴 CRÍTICO | 1 | Alto |
 | V.3_Sistemas_Comunicacion | 🔴 CRÍTICO | 1 | Alto |
 | 27_Sistema_TETRA | 🟡 MEDIO | 2 | Medio |
-| 29_Sistema_Señalizacion | 🔴 CRÍTICO | 1 | Alto |
+| 29_Sistema_Senalizacion | 🔴 CRÍTICO | 1 | Alto |
 | 32_Material_Rodante | 🟡 MEDIO | 2 | Medio |
 | VII.2.1_PTC_PTC VIRTUAL | 🔴 CRÍTICO | 1 | Alto |
 
@@ -850,7 +850,7 @@ Todos los documentos de ingeniería están siendo validados bajo la Metodología
 - 29_Sistema_Senalizacion_Integrado.md
 
 **CAPA 3: INGENIERÍA BÁSICA (Días 7-8) 📐**
-- V.1_Señalizacion_Ferroviaria_Detalle.md
+- V.1_Senalizacion_Ferroviaria_Detalle.md
 - V.2_Centro_Control_Trafico_CTC.md
 - V.3_Sistemas_Comunicacion.md
 - VII.2.1_Especificaciones_Tecnicas_PTC.md
@@ -872,7 +872,7 @@ Todos los documentos de ingeniería están siendo validados bajo la Metodología
 Todos los documentos de ingeniería estarán completos y listos para la ejecución tras la validación:
 
 #### **📐 PLANOS Y ESPECIFICACIONES (Fase D)**
-- **V.1 Señalización Ferroviaria:** `V. Ingenieria de detalle/V.1_Señalizacion_Ferroviaria_Detalle_v1.0.md`
+- **V.1 Senalización Ferroviaria:** `V. Ingenieria de detalle/V.1_Senalizacion_Ferroviaria_Detalle_v1.0.md`
 - **V.2 Centro de Control de Tráfico:** `V. Ingenieria de detalle/V.2_Centro_Control_Trafico_CTC_Detalle_v1.0.md`
 - **V.3 Sistemas de Comunicación:** `V. Ingenieria de detalle/V.3_Sistemas_Comunicacion_Detalle_v1.0.md`
 - **V.4 Sistemas de Potencia:** `V. Ingenieria de detalle/V.4_Sistemas_Potencia_Detalle_v1.0.md`
@@ -880,7 +880,7 @@ Todos los documentos de ingeniería estarán completos y listos para la ejecuci�
 
 #### **📖 MANUALES DE OPERACIÓN (Fase E)**
 - **Manual OM CTC:** `VI. operacion y mantenimiento y reversion/6.1_Manual_OM_CTC_v1.0.md`
-- **Manual OM Señalización:** `VI. operacion y mantenimiento y reversion/6.2_Manual_OM_Senalizacion_v1.0.md`
+- **Manual OM Senalización:** `VI. operacion y mantenimiento y reversion/6.2_Manual_OM_Senalizacion_v1.0.md`
 - **Manual OM Telecomunicaciones:** `VI. operacion y mantenimiento y reversion/6.3_Manual_OM_Telecom_v1.0.md`
 - **Manual OM Seguridad:** `VI. operacion y mantenimiento y reversion/6.4_Manual_OM_Seguridad_v1.0.md`
 
@@ -908,7 +908,7 @@ Todos los documentos de ingeniería estarán completos y listos para la ejecuci�
 | **Arquitectura Servidor PTC Central** | Ing. Sistemas | ✅ Completado | Redundancia 2oo3 especificada |
 | **Interfaces CTC-PTC** | Ing. Integración | ✅ Completado | Protocolo FFFIS implementado |
 | **STM Embarcado** | Ing. Embarcados | ✅ Completado | Especificaciones PTC Virtual (FRA 236) |
-| **Interlocking Tables** | Ing. Señalización | ✅ Completado | 5 estaciones completadas |
+| **Interlocking Tables** | Ing. Senalización | ✅ Completado | 5 estaciones completadas |
 
 ### **🏆 RESULTADO ALCANZADO**
 Al completar la estandarización v1.0 y consolidación documental se ha logrado:
@@ -1020,7 +1020,7 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
 - Opción A (Auditoría completa) — ✅ **CONSOLIDACIÓN AVANZADA (95%)**
   - Auditoría v1.1 emitida (reporte + CSV) ✅
   - Consolidación de sistemas críticos:
-    - Señalización — ✅ **95% COMPLETADO** → `IV. Ingenieria basica/SIS_Senalizacion_Definitivo_v1.0.md`
+    - Senalización — ✅ **95% COMPLETADO** → `IV. Ingenieria basica/SIS_Senalizacion_Definitivo_v1.0.md`
     - Comunicaciones — ✅ **95% COMPLETADO** → `IV. Ingenieria basica/SIS_Comunicaciones_Definitivo_v1.0.md`
     - CTC — ✅ **95% COMPLETADO** → `IV. Ingenieria basica/SIS_CTC_Definitivo_v1.0.md`
     - Material Rodante — ✅ **95% COMPLETADO** → `IV. Ingenieria basica/SIS_Material_Rodante_Definitivo_v1.0.md`
@@ -1046,10 +1046,10 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
 **B.** ✅ **COMPLETADO:** Actualizar AT1 (documento base más crítico)  
 **C.** ✅ **COMPLETADO:** Actualizar Listado Maestro de Sistemas  
 **D.** ✅ **COMPLETADO:** Actualizar WBS Especialidades  
-**E.** ✅ **COMPLETADO:** Actualizar Sistema Señalización Virtual  
+**E.** ✅ **COMPLETADO:** Actualizar Sistema Senalización Virtual  
 **F.** ✅ **COMPLETADO:** Actualizar Sistema TETRA a 37 estaciones  
 **G.** ✅ **COMPLETADO:** Actualizar Material Rodante con EOT  
-**H.** ✅ **COMPLETADO:** Actualizar V.1 Señalización Detalle a filosofía virtual  
+**H.** ✅ **COMPLETADO:** Actualizar V.1 Senalización Detalle a filosofía virtual  
 **I.** ✅ **COMPLETADO:** Actualizar V.2 CTC Detalle a CTC virtual centralizado  
 **J.** ✅ **COMPLETADO:** Actualizar V.3 Comunicaciones Detalle a TETRA + Red Vital IP / TETRA colocalizados  
 **K.** ✅ **COMPLETADO:** Actualizar V.4 Potencia Detalle a alimentación torres colocalizadas  
@@ -1072,7 +1072,7 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
 
 ### **📋 RESUMEN CAPA 2:**
 - **WBS v4.0:** ✅ Actualizado - Reestructurado según filosofía virtual
-- **Señalización v5.0:** ✅ Actualizado - Filosofía virtual implementada
+- **Senalización v5.0:** ✅ Actualizado - Filosofía virtual implementada
 - **TETRA v5.0:** ✅ Actualizado - 37 estaciones con colocalización Red Vital IP / TETRA
 
 ### **🎯 PRÓXIMO PASO - CAPA 2 (CONTINUAR):**
@@ -1117,12 +1117,12 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
 ### **🎯 PRÓXIMO PASO - CAPA 2 (CONTINUAR):**
 **29_Sistema_Senalizacion_Integrado.md** - ✅ **COMPLETADO** - Filosofía virtual implementada
 
-## ✅ **CAPA 2 CONTINUANDO - SEÑALIZACIÓN VIRTUAL ACTUALIZADA**
+## ✅ **CAPA 2 CONTINUANDO - SENALIZACIÓN VIRTUAL ACTUALIZADA**
 
-### **📋 SEÑALIZACIÓN VIRTUAL ACTUALIZADA:**
+### **📋 SENALIZACIÓN VIRTUAL ACTUALIZADA:**
 - **Archivo:** `III. Ingenieria conceptual/29_Sistema_Senalizacion_Integrado_v5.0.md`
 - **Estado:** ✅ **COMPLETADO** - Filosofía virtual implementada
-- **Cambios:** Cambio de paradigma completo a señalización virtual
+- **Cambios:** Cambio de paradigma completo a senalización virtual
 - **Impacto:** -$40,563,000,000 COP (alineación completa)
 
 ### **🎯 PRÓXIMO PASO - CAPA 2 (CONTINUAR):**
@@ -1148,12 +1148,12 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
 - **Impacto:** +$520,000,000 COP (EOT)
 
 ### **🎯 PRÓXIMO PASO - CAPA 3 (INICIO):**
-`V. Ingenieria de detalle/V.1_Señalizacion_Ferroviaria_Detalle_v1.0.md` - ✅ **COMPLETADO** - Filosofía virtual implementada
+`V. Ingenieria de detalle/V.1_Senalizacion_Ferroviaria_Detalle_v1.0.md` - ✅ **COMPLETADO** - Filosofía virtual implementada
 
 ## ✅ **CAPA 3 INICIADA - INGENIERÍA DE DETALLE ACTUALIZADA**
 
-### **📋 SEÑALIZACIÓN DETALLE ACTUALIZADA:**
-- **Archivo:** `V. Ingenieria de detalle/V.1_Señalizacion_Ferroviaria_Detalle_v2.0.md`
+### **📋 SENALIZACIÓN DETALLE ACTUALIZADA:**
+- **Archivo:** `V. Ingenieria de detalle/V.1_Senalizacion_Ferroviaria_Detalle_v2.0.md`
 - **Estado:** ✅ **COMPLETADO** - Filosofía virtual implementada
 - **Cambios:** Eliminación masiva Puntos de Referencia Virtuales (SICC) + Reescritura completa a filosofía virtual
 - **Impacto:** -$50,193,000,000 COP (alineación completa)
@@ -1230,7 +1230,7 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
   - ✅ ENCE: 5 estaciones
   - ✅ Desvíos: 120 unidades (25 motorizados + 95 manuales)
   - ✅ CCTV: 73 cámaras
-  - ✅ Eliminación completa: Virtual Balise (GNSS)s, Servidor PTC Central, Señalización en Cabina (Cab-Signaling), [CONTROLLER PROHIBIDO - SICC ES VIRTUAL]
+  - ✅ Eliminación completa: Virtual Balise (GNSS)s, Servidor PTC Central, Senalización en Cabina (Cab-Signaling), [CONTROLLER PROHIBIDO - SICC ES VIRTUAL]
 
 ## 🎉 **PLAN DE CORRECCIÓN DOCUMENTAL INTEGRAL - COMPLETADO EXITOSAMENTE**
 
@@ -1435,7 +1435,7 @@ Las 3 metodologías están documentadas en `X_ENTREGABLES_CONSOLIDADOS/6_METODOL
 
 ### **📊 RESULTADOS OBTENIDOS:**
 
-#### **SISTEMA 01: CONTROL Y SEÑALIZACIÓN**
+#### **SISTEMA 01: CONTROL Y SENALIZACIÓN**
 - **56 documentos mapeados** en todas las carpetas
 - **35 documentos de prioridad alta** identificados
 - **3 brechas críticas** detectadas y documentadas

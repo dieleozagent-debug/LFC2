@@ -273,7 +273,7 @@ Eliminar duplicaciones y contenido redundante en el `README.md` para hacerlo má
 
 ### **Recomendación:**
 - ✅ Mantener v14.3 y v14.2 por ahora (referencia histórica útil)
-- ✅ README ahora está en tamaño óptimo (1,218 líneas)
+- ✅ README ahora está en tamano óptimo (1,218 líneas)
 - ✅ Balance entre completitud y legibilidad logrado
 
 ---

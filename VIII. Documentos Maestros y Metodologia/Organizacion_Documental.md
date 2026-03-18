@@ -33,7 +33,7 @@ Acabo de revisar el repositorio completo del proyecto. Felicitaciones: tienes un
 - ✅ AT5 - Sistemas de Telecomunicaciones
 - ✅ AT6 - Sistemas ITS
 - ✅ AT7 - Centro de Control Operacional
-- ✅ AT8 - Sistemas de Control y Señalización
+- ✅ AT8 - Sistemas de Control y Senalización
 - ✅ AT9 - Suministro de Energía
 - ✅ AT10 - Mantenimiento
 
@@ -46,7 +46,7 @@ Acabo de revisar el repositorio completo del proyecto. Felicitaciones: tienes un
 ### C. DOCUMENTOS DE SISTEMAS (Jerarquía Nivel 3)
 - 🔄 Sistema CTC (múltiples versiones)
 - 🔄 Sistema PTC PTC Virtual (FRA 236) (múltiples versiones)
-- 🔄 Sistema de Señalización (múltiples versiones)
+- 🔄 Sistema de Senalización (múltiples versiones)
 - 🔄 Sistema TETRA (múltiples versiones)
 - 🔄 Sistema de Fibra Óptica (múltiples versiones)
 - 🔄 Sistema ITS (múltiples versiones)
@@ -212,7 +212,7 @@ y genera UN documento maestro v4.2 definitivo."
 #### Orden sugerido de consolidación
 - 🟢 Sistemas Críticos: CTC, PTC, TETRA (impactan cronograma)
 - 🟡 Sistemas Estructurales: Material Rodante, CCO, Talleres
-- 🔵 Sistemas Complementarios: ITS, Fibra Óptica, Señalización
+- 🔵 Sistemas Complementarios: ITS, Fibra Óptica, Senalización
 - 🟣 Documentos Transversales: Interoperabilidad, Ciberseguridad
 
 ### PASO 3: VALIDACIÓN CRUZADA ⏱️ 1 semana
@@ -284,14 +284,14 @@ No le falta contenido técnico (está muy completo), le falta ORGANIZACIÓN:
 - Últimas acciones:
   - Generado `REPORTE_AUDITORIA_v1.1.md` ✅
   - Generado `AUDITORIA_ARCHIVOS_v1.1.csv` (100% cobertura) ✅
-  - Señalización: creado documento maestro `IV. Ingenieria basica/SIS_Senalizacion_Definitivo_v1.0.md` ✅
+  - Senalización: creado documento maestro `IV. Ingenieria basica/SIS_Senalizacion_Definitivo_v1.0.md` ✅
   - Comunicaciones: creado documento maestro `IV. Ingenieria basica/SIS_Comunicaciones_Definitivo_v1.0.md` ✅
   - CTC: creado documento maestro `IV. Ingenieria basica/SIS_CTC_Definitivo_v1.0.md` ✅
   - Material Rodante: creado documento maestro `IV. Ingenieria basica/SIS_Material_Rodante_Definitivo_v1.0.md` ✅
-  - Señalización: RTM/KPIs y criterios FAT/SAT añadidos ✅
-  - Comunicaciones: RTM/KPIs y criterios FAT/SAT añadidos ✅
-  - CTC: RTM/KPIs y criterios FAT/SAT añadidos ✅
-  - Material Rodante: RTM/KPIs y criterios FAT/SAT añadidos ✅
+  - Senalización: RTM/KPIs y criterios FAT/SAT anadidos ✅
+  - Comunicaciones: RTM/KPIs y criterios FAT/SAT anadidos ✅
+  - CTC: RTM/KPIs y criterios FAT/SAT anadidos ✅
+  - Material Rodante: RTM/KPIs y criterios FAT/SAT anadidos ✅
   - Referencias cruzadas: completadas bidireccionalmente (maestros ↔ fuentes) ✅
   - Checklist final: generado con 24 items pendientes (8 críticos, 16 medios) ✅
 - Estado actual: **CONSOLIDACIÓN AVANZADA (95%)**

@@ -11,7 +11,7 @@
 ## 📊 **RESUMEN EJECUTIVO**
 
 **Archivos Contractuales Analizados:** 11 (Contrato + 10 ATs)  
-**Tamaño Total:** ~1.4 MB de documentación contractual  
+**Tamano Total:** ~1.4 MB de documentación contractual  
 **Riesgos Validados:** 13 (9 reales documentados + 4 nuevos identificados)  
 **BLOCKERS Confirmados:** 2 de 4 (PTC, MR Cronograma)  
 **BLOCKERS Descartados:** 1 de 4 (PAN - cantidad confirmada)  
@@ -24,21 +24,21 @@
 ### **✅ BLOCKER-001: Indefinición PTC/PTC VIRTUAL L2** - **CONFIRMADO REAL**
 
 **Fuentes Validadas:**
-1. **AT3 Capítulo VIII** (Señalización y Control):
+1. **AT3 Capítulo VIII** (Senalización y Control):
    - Línea 289: "Positive Train Control" (PTC - AAR americano)
-   - Líneas 506-524: Enclavamientos normas Adif (español)
-   - Líneas 529-532: CTC protocolo Adif (español)
+   - Líneas 506-524: Enclavamientos normas Adif (espanol)
+   - Líneas 529-532: CTC protocolo Adif (espanol)
    - ❌ **NO menciona:** PTC ni PTC Virtual (FRA 236)
 
 2. **Análisis A.1 (línea 49):**
-   - "Diseñar 5 enclavamientos electrónicos y un sistema **PTC**"
+   - "Disenar 5 enclavamientos electrónicos y un sistema **PTC**"
 
 3. **Análisis A.3 (línea 58 - R-TEC-002):**
    - "Indefinición especificaciones PTC en AT3 **bloquea diseno material rodante**"
 
 **Evidencia contractual:**
 - ✅ PTC mencionado (sistema americano AAR)
-- ✅ CTC Adif mencionado (sistema español)
+- ✅ CTC Adif mencionado (sistema espanol)
 - ❌ PTC NO mencionado
 - ❌ PTC Virtual (FRA 236) NO mencionado
 
@@ -46,7 +46,7 @@
 
 **Valor en riesgo:** $152,748M COP (60% Capítulo 1)  
 **Fecha límite resolución:** Mes 6 (15-Dic-2025)  
-**Plan B:** Diseñar con normas mixtas (PTC/CTC/Adif) + gateway interoperable
+**Plan B:** Disenar con normas mixtas (PTC/CTC/Adif) + gateway interoperable
 
 ---
 
@@ -83,10 +83,10 @@
 
 **Fuentes Validadas:**
 1. **Análisis A.1 (línea 48):**
-   - "Diseñar regularización de **146 pasos a nivel** (Clase A, B, C)"
+   - "Disenar regularización de **146 pasos a nivel** (Clase A, B, C)"
 
 2. **Análisis A.3 (línea 48):**
-   - "Diseñar rehabilitación de 53 UFVF y **146 pasos a nivel**"
+   - "Disenar rehabilitación de 53 UFVF y **146 pasos a nivel**"
 
 3. **Base Datos WBS:**
    - 146 pasos a nivel (9 tipo C + 15 tipo B + 122 otros)
@@ -162,7 +162,7 @@
 ### **ALCANCE TÉCNICO (AT1 + AT3):**
 
 **Sistemas Principales:**
-1. **Señalización y Control:**
+1. **Senalización y Control:**
    - 5 Enclavamientos electrónicos (normas Adif)
    - 1 Sistema PTC (normas AAR) ⚠️ Indefinición PTC/PTC VIRTUAL L2
    - CTC centralizado (protocolo Adif)
@@ -192,7 +192,7 @@
 ### **INDICADORES CONTRACTUALES (AT4):**
 
 **KPIs Obligatorios:**
-- Disponibilidad Sistemas Críticos (CTC, Señalización): ≥ **99.95%**
+- Disponibilidad Sistemas Críticos (CTC, Senalización): ≥ **99.95%**
 - Disponibilidad Sistemas No Críticos (TETRA, CCTV): ≥ **99.5%**
 - Disponibilidad SICC: ≥ **99.5%**
 - Calidad de Servicio (cobertura, latencia): Según especificaciones
@@ -261,7 +261,7 @@
 
 ### **2. Sistemas de Control: Normas Mixtas (INDEFINICIÓN)**
 - **PTC** (AAR americano) mencionado
-- **CTC Adif** (español) mencionado
+- **CTC Adif** (espanol) mencionado
 - **PTC/PTC VIRTUAL L2** NO mencionados
 - **Acción:** Definir sistema específico (Mes 6)
 
@@ -300,7 +300,7 @@
 ---
 
 ### **7. Indicadores: AT4 - 99.95% disponibilidad**
-- Sistemas críticos: CTC, Señalización
+- Sistemas críticos: CTC, Senalización
 - Requiere redundancia N+1 obligatoria
 - UPS 4h autonomía mínimo
 - **Diseno validado en WBS** ✅

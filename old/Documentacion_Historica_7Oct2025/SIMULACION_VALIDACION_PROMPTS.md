@@ -100,7 +100,7 @@ No tenemos precio unitario exacto sin leer WBS completa
 SIMULACIÓN con precio estimado:
 - Precio unitario caja: $500,000 COP (estimado)
 - Ahorro CAPEX: 594 cajas × $500,000 = $297,000,000 COP
-- Ahorro OPEX (10 años): 594 cajas × $50,000/año × 10 = $297,000,000 COP
+- Ahorro OPEX (10 anos): 594 cajas × $50,000/ano × 10 = $297,000,000 COP
 - AHORRO TOTAL: ~$594,000,000 COP
 
 ⚠️ En ejecución real, Cursor leería precio real del WBS
@@ -117,7 +117,7 @@ R-FIBRA-006:
 - Hito_Verificación: H-FIBRA-005
 
 R-FIBRA-007:
-- Descripción: "Degradación de señal en tramos largos sin punto de acceso"
+- Descripción: "Degradación de senal en tramos largos sin punto de acceso"
 - Probabilidad: Baja (15%)
 - Impacto: Medio
 - Estrategia: Mitigar con validación OTDR
@@ -162,7 +162,7 @@ Contenido simulado:
 ✅ Puedo localizar Tabla 5.3 (buscar "Cajas de empalme")
 ✅ Cambio claro: "500m" → "1000m", "1,188" → "594"
 ✅ Control de versiones actualizable: v2.0 → v2.1
-✅ Entrada añadible: "v2.1 | 07/10/2025 | DT-FIBRA-001 v2.0 - Cajas 1000m | Ing. Fibra"
+✅ Entrada anadible: "v2.1 | 07/10/2025 | DT-FIBRA-001 v2.0 - Cajas 1000m | Ing. Fibra"
 
 RESULTADO: Archivo actualizable ✅
 ```

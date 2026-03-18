@@ -14,8 +14,8 @@
 | # | Input Requerido | Responsable | Fecha Máxima | Impacto si NO llega | Plan B |
 |:-:|:----------------|:------------|:------------:|:-------------------|:-------|
 | **1** | **Definición final sistema PTC (PTC Virtual (FRA 236))** | **ANI + Concesionario** | **Mes 6** | 🔴 Bloquea 60% UF2 | Gateway interoperable documentado (Contratista CTC entrega) |
-| **2** | **Cronograma entrega material rodante** | **Fenoco** | **Mes 8** | 🟠 No se puede diseñar embarcados | Asumir especificaciones estándar IEC |
-| **3** | **Especificaciones técnicas FENOCO (interoperabilidad)** | **Fenoco** | **Mes 6** | 🔴 No se puede diseñar gateway FRA/AREMA | Gateway FRA/AREMA 918-4 genérico + documentación completa |
+| **2** | **Cronograma entrega material rodante** | **Fenoco** | **Mes 8** | 🟠 No se puede disenar embarcados | Asumir especificaciones estándar IEC |
+| **3** | **Especificaciones técnicas FENOCO (interoperabilidad)** | **Fenoco** | **Mes 6** | 🔴 No se puede disenar gateway FRA/AREMA | Gateway FRA/AREMA 918-4 genérico + documentación completa |
 | **4** | **Regularización pasos a nivel (cantidad exacta)** | **Concesionario** | **Mes 10** | 🟡 Sobre-diseno o sub-diseno | Asumir cantidad contractual AT1 |
 | **5** | **Topografía actualizada del corredor** | **Concesionario** | **Mes 3** | 🟠 Disenos preliminares | Usar topografía Fenoco existente |
 
@@ -23,7 +23,7 @@
 
 ### **RIESGO R-INFO-001: Indefinición PTC/PTC VIRTUAL L2**
 
-**Descripción:** Sin definición final de PTC (PTC Virtual (FRA 236)), no se puede diseñar 60% del alcance de UF2 (Control y Señalización).
+**Descripción:** Sin definición final de PTC (PTC Virtual (FRA 236)), no se puede disenar 60% del alcance de UF2 (Control y Senalización).
 
 **Probabilidad:** ALTA (70%) - Historial de indefiniciones  
 **Impacto:** CRÍTICO (5) - Bloquea diseno completo  
@@ -46,7 +46,7 @@
 
 ### **RIESGO R-INFO-002: Especificaciones FENOCO**
 
-**Descripción:** Sin especificaciones técnicas FENOCO, no se puede diseñar interoperabilidad (gateway FRA/AREMA).
+**Descripción:** Sin especificaciones técnicas FENOCO, no se puede disenar interoperabilidad (gateway FRA/AREMA).
 
 **Probabilidad:** MEDIA (50%)  
 **Impacto:** CRÍTICO (5) - Bloquea integración  
@@ -68,7 +68,7 @@
 
 ### **RIESGO R-INFO-003: Material Rodante**
 
-**Descripción:** Sin cronograma de entrega MR, no se puede diseñar sistemas embarcados (PTC, TETRA, Red Vital IP / TETRA).
+**Descripción:** Sin cronograma de entrega MR, no se puede disenar sistemas embarcados (PTC, TETRA, Red Vital IP / TETRA).
 
 **Probabilidad:** MEDIA (40%)  
 **Impacto:** ALTO (4) - Retrasa embarcados  
@@ -77,7 +77,7 @@
 **Estrategia:**
 - **MITIGAR:** Asumir especificaciones estándar IEC
 - **Fecha límite:** **Mes 8**
-- **Plan B:** Diseñar para locomotora estándar colombiana
+- **Plan B:** Disenar para locomotora estándar colombiana
   - Especificaciones IEC 62280 (ferroviario)
   - Montaje modular adaptable
   - Certificación en banco de pruebas sin MR real
@@ -283,7 +283,7 @@ con documentación completa de supuestos y exclusiones.
 
 ### **R-EXC-001: Estudios Geotécnicos/Topográficos Excluidos**
 - **Probabilidad:** ALTA (90%) - Ya está excluido en contrato
-- **Impacto:** CRÍTICO (5) - SIN ESTUDIOS NO HAY DISEÑO
+- **Impacto:** CRÍTICO (5) - SIN ESTUDIOS NO HAY DISENO
 - **Exposición:** 4.8/5 🔴 **MUY CRÍTICA**
 - **Estrategia:** **ESCALAR URGENTE**
 - **Acción:** Negociar inclusión inmediata o proyecto NO viable

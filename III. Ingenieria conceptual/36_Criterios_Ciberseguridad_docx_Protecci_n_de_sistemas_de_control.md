@@ -21,7 +21,7 @@ Este documento es el **escudo digital del proyecto**. Define cómo se protegerá
     - `33_Criterios_Normatividad...md`: Define las normas base (IEC 62443, NIST).
     - `35_Criterios_Redundancia...md`: Los sistemas de ciberseguridad (firewalls, SIEM) deben ser redundantes.
 - **Gobierna a:**
-    - **Todos los documentos de diseno de sistemas (`26` a `32`):** Cada sistema debe ser diseñado e implementado siguiendo los controles de seguridad aquí definidos.
+    - **Todos los documentos de diseno de sistemas (`26` a `32`):** Cada sistema debe ser disenado e implementado siguiendo los controles de seguridad aquí definidos.
     - `42_Plan_Pruebas...md`: Debe incluir pruebas de penetración (pentesting) y validación de controles de seguridad.
 
 ---

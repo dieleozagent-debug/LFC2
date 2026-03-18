@@ -13,7 +13,7 @@ Este documento reemplaza las antiguas especificaciones de PTC/PTC VIRTUAL para c
 
 ### 1.1 El Motor de Bloqueo Virtual:
 - **Lógica de Ocupación:** Basada en la posición GNSS de alta precisión de la locomotora y la confirmación de integridad del tren (EOT).
-- **Virtual Blocks (V-Blocks):** Segmentos de vía definidos por software en el Servidor Maestro PTC, eliminando la necesidad de señales físicas o circuitos de vía.
+- **Virtual Blocks (V-Blocks):** Segmentos de vía definidos por software en el Servidor Maestro PTC, eliminando la necesidad de senales físicas o circuitos de vía.
 
 ### 1.2 Protocolo de Mensajería Vital:
 - **Protocolo:** **Vital IP** sobre red TETRA de misión crítica.

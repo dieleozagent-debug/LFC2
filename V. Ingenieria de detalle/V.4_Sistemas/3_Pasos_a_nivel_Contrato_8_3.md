@@ -40,8 +40,8 @@ Este documento contiene las especificaciones técnicas detalladas, planos constr
 - **Longitud del Corredor:** 540 km (La Dorada - Chiriguaná)
 - **Tipos de Pasos a Nivel:**
   - **9 PN Tipo C:** Barreras automáticas (máxima protección)
-  - **15 PN Tipo B:** Señales luminosas/acústicas (protección media)
-  - **122 PN Tipo A:** Señalización fija (protección basica)
+  - **15 PN Tipo B:** Senales luminosas/acústicas (protección media)
+  - **122 PN Tipo A:** Senalización fija (protección basica)
 
 ### 1.2 Distribución por Kilómetros
 - **Tramo 1:** PK 0+000 - PK 180+000 (60 PN)
@@ -66,7 +66,7 @@ Este documento contiene las especificaciones técnicas detalladas, planos constr
 |:---|:---|:---:|:---|
 | **Barrera Automática** | 6m longitud, motor 24V DC, 150W | 2 por PN | Sobre vía |
 | **Controlador de Barreras** | PLC Siemens S7-1200, 24V DC | 1 por PN | Gabinete |
-| **Señales Luminosas LED** | Roja intermitente, 12V DC, 20W | 4 por PN | Postes vía |
+| **Senales Luminosas LED** | Roja intermitente, 12V DC, 20W | 4 por PN | Postes vía |
 | **Sirena Acústica** | 110 dB, 12V DC, 15W | 2 por PN | Postes vía |
 | **Detector de Trenes** | Contador de ejes ADIF ET 03.365.310.6 | 2 por PN | Sobre vía |
 | **UPS Online** | 2kVA, 24V DC, 4h autonomía | 1 por PN | Gabinete |
@@ -89,11 +89,11 @@ Este documento contiene las especificaciones técnicas detalladas, planos constr
 | **PN-008** | 380+200 | Barbosa - Principal | Alto | Carretera principal |
 | **PN-009** | 450+150 | Chiriguaná - Acceso Sur | Muy Alto | Principal acceso ciudad |
 
-### 2.2 PASOS A NIVEL TIPO B (SEÑALES LUMINOSAS/ACÚSTICAS)
+### 2.2 PASOS A NIVEL TIPO B (SENALES LUMINOSAS/ACÚSTICAS)
 
 #### **2.2.1 Características Generales**
 - **Cantidad:** 15 unidades
-- **Protección:** Media (señales luminosas/acústicas)
+- **Protección:** Media (senales luminosas/acústicas)
 - **Ubicaciones:** Zonas de tráfico vehicular medio
 - **Control:** Automático con supervisión CTC
 
@@ -101,9 +101,9 @@ Este documento contiene las especificaciones técnicas detalladas, planos constr
 
 | Equipo | Especificación | Cantidad | Ubicación |
 |:---|:---|:---:|:---|
-| **Señales Luminosas LED** | Roja intermitente, 12V DC, 20W | 4 por PN | Postes vía |
+| **Senales Luminosas LED** | Roja intermitente, 12V DC, 20W | 4 por PN | Postes vía |
 | **Sirena Acústica** | 110 dB, 12V DC, 15W | 2 por PN | Postes vía |
-| **Controlador de Señales** | PLC Siemens S7-1200, 24V DC | 1 por PN | Gabinete |
+| **Controlador de Senales** | PLC Siemens S7-1200, 24V DC | 1 por PN | Gabinete |
 | **Detector de Trenes** | Contador de ejes ADIF ET 03.365.310.6 | 2 por PN | Sobre vía |
 | **UPS Online** | 1kVA, 24V DC, 4h autonomía | 1 por PN | Gabinete |
 | **Panel Solar** | 300W monocristalino | 1 por PN | Estructura |
@@ -131,11 +131,11 @@ Este documento contiene las especificaciones técnicas detalladas, planos constr
 | **PN-023** | 365+180 | Vélez - Industrial | Medio | Zona industrial |
 | **PN-024** | 425+320 | Barbosa - Comercial | Medio | Zona comercial |
 
-### 2.3 PASOS A NIVEL TIPO A (SEÑALIZACIÓN FIJA)
+### 2.3 PASOS A NIVEL TIPO A (SENALIZACIÓN FIJA)
 
 #### **2.3.1 Características Generales**
 - **Cantidad:** 122 unidades
-- **Protección:** Básica (señalización fija)
+- **Protección:** Básica (senalización fija)
 - **Ubicaciones:** Zonas de bajo tráfico vehicular
 - **Control:** Manual con supervisión CTC
 
@@ -143,10 +143,10 @@ Este documento contiene las especificaciones técnicas detalladas, planos constr
 
 | Equipo | Especificación | Cantidad | Ubicación |
 |:---|:---|:---:|:---|
-| **Señales Fijas** | Reflectivas, acero galvanizado | 4 por PN | Postes vía |
-| **Postes de Señalización** | 3m altura, acero galvanizado | 4 por PN | Lado vía |
+| **Senales Fijas** | Reflectivas, acero galvanizado | 4 por PN | Postes vía |
+| **Postes de Senalización** | 3m altura, acero galvanizado | 4 por PN | Lado vía |
 | **Cimientos de Postes** | Concreto 3000 PSI | 4 por PN | Sobre vía |
-| **Señalización Vial** | Reflectiva, acero galvanizado | 2 por PN | Lado vía |
+| **Senalización Vial** | Reflectiva, acero galvanizado | 2 por PN | Lado vía |
 
 #### **2.3.3 Ubicaciones por Tramo PN Tipo A**
 
@@ -177,7 +177,7 @@ Este documento contiene las especificaciones técnicas detalladas, planos constr
 - **Refuerzo:** Varilla #4, malla electrosoldada
 - **Cantidad Total:** 48 cimientos (24 PN Tipo B + C)
 
-#### **3.1.2 Cimientos para Postes de Señalización**
+#### **3.1.2 Cimientos para Postes de Senalización**
 - **Material:** Concreto 2500 PSI
 - **Dimensiones:** 0.6m x 0.6m x 0.8m
 - **Refuerzo:** Varilla #3
@@ -199,9 +199,9 @@ Este documento contiene las especificaciones técnicas detalladas, planos constr
 
 #### **3.2.3 Cableado y Protecciones**
 - **Cable Principal:** THW 4 AWG, cobre
-- **Cable de Señales:** THW 12 AWG, cobre
+- **Cable de Senales:** THW 12 AWG, cobre
 - **Tubería:** PVC 2" para cableado principal
-- **Protecciones:** Fusibles 20A para señales, 10A para control
+- **Protecciones:** Fusibles 20A para senales, 10A para control
 
 ---
 

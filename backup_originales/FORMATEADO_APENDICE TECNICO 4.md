@@ -233,7 +233,7 @@ Apéndice Técnico 4 - Indicadores
 
 de Surcos de Movilización..
 hora programada de
-salida más los minutos En casos de transcurridos entre la incumplimiento de al hora real y la hora menos uno (I) de los dos programada de llegada. tiempos máximos Cada día y cada semana establecidos, se da por se calculará el total de incumplido el Indicador los retrasos o demoras de desempeño y se le
+salida más los minutos En casos de transcurridos entre la incumplimiento de al hora real y la hora menos uno (I) de los dos programada de llegada. tiempos máximos Cada día y cada semana establecidos, se da por se calculará el total de incumplido el Indicador los retrasos o demoras de desempeno y se le
 en los surcos de los asignará un valor de O. En
 trenes programados para caso de que cumpla los operar en ese periodo valores de aceptación se
 le asignará 1.
@@ -336,7 +336,7 @@ minutos de demora tren
 Máximo 60 minutos por semana
 
 En casos de incumplimiento de uno ( 1) de los valores admisibles para dos
-periodos anteriores, se da por incumplido el Indicador de desempeño y se le asignará un valor de
+periodos anteriores, se da por incumplido el Indicador de desempeno y se le asignará un valor de
 
 1 hora
 registrados de retraso de O. En caso de que cumpla
@@ -541,7 +541,7 @@ NA Diario Horas
 Página 19 de 90
 
 Se llevará un registro diario de todos los eventos que ocasionen indisponibilidad de la Infraestructura Férrea y del puente vehicular y peatonal sobre el río Sogamoso con sus ramales de conexión, en el periodo que aplique.
-Este registro debe incluir el sitio donde se presenta el daño, la avería, afectación o indisponibilidad, la hora y minuto de inicio del daño, la avería o la afectación, la hora y minuto en la cual se da solución efectiva al daño, la avería o la
+Este registro debe incluir el sitio donde se presenta el dano, la avería, afectación o indisponibilidad, la hora y minuto de inicio del dano, la avería o la afectación, la hora y minuto en la cual se da solución efectiva al dano, la avería o la
 
 DIF2: 95
 
@@ -557,7 +557,7 @@ Página 20 de 90
 afectación, entendiéndose la efectividad de la solución como la habilitación sin ningún tipo de restricción al tráfico férreo, vehicular o peatonal, según aplique.
 El cálculo del tiempo de indisponibilidad de la Infraestructura Férrea o del Puente vehicular y peatonal sobre el río
 Sogamoso y sus ramales de conexión.según
-aplique, será el tiempo transcurrido entre el inicio y la solución efectiva del daño, la avería o la afectación.
+aplique, será el tiempo transcurrido entre el inicio y la solución efectiva del dano, la avería o la afectación.
 El indicador se calculará de la siguiente manera:
 
 DIF:cc (DOTDO)
@@ -639,7 +639,7 @@ Los elementos Trimestralmente se Los puentes objeto de o unidades de realizará 
 medición a verificación visual a visual deben cumplir con incluirse en las cada uno de los puentes la totalidad de las inspecciones férreos priorizados en el siguientes condiciones:
 son los AT-1 y el Puente Puentes de Hormigón
 Adaptación siguientes: Vehicular y Peatonal 1) Tableros: Superficie de los En puentes de sobre el río Sogamoso. con grietas (no capilares),
-Inspección y formatos Hormigón Para el puente vehicular dañada o con
+Inspección y formatos Hormigón Para el puente vehicular danada o con
 verificación SIPUCOL 1) Tableros: y peatonal sobre el 'ria desconchados: (5 del
 visual del estado Manual para Superficie con Sogamoso, la inspección área).
 
@@ -656,11 +656,11 @@ cada uno de los Puentes y Trimestral defecto que Operación y con sellado defect
 puentes férreos
 priorizados en el
 Pontones, y Manual de
-impida el Mantenimiento sobre el daños o con pérdidas:
+impida el Mantenimiento sobre el danos o con pérdidas:
 movimiento, puente vehicular y ninguna.
 AT-1 y el Puente inspección con sellado peatonal sobre el río 3) Armaduras
 Vehiculary visual de defectuoso, Sogamoso y respectivos descubiertas: ninguna;
-Peatonal sobre el obras de daños o con ramales de conexión. 4) Conectores metálicos
+Peatonal sobre el obras de danos o con ramales de conexión. 4) Conectores metálicos
 río Sogamoso. drenaje- pérdidas Una vez se dé la en mal estado: ninguno;
 
 INVIAS
@@ -678,12 +678,12 @@ malas condiciones
 7) Resto de elemento del tablero con
 pérdidas, grietas o desconchados.
 8) Barreras de
-seguridad, barandillas de puentes o pretiles metálicos Roturas o daños
+seguridad, barandillas de puentes o pretiles metálicos Roturas o danos
 9) Conexiones en mal estado
 10)
 Protecciones en mal estado.
 11) Barreras de seguridad,
-barandillas de puentes o pretiles de Hormigón: Con roturas o daños
+barandillas de puentes o pretiles de Hormigón: Con roturas o danos
 12) Grietas 5 mm;
 Desconchados
 lcm 13)
@@ -693,11 +693,11 @@ cimiento.
 Página 25 de 90
 verificación a cada uno de los puentes, incluyendo el día de la inspección, el nombre y abscisado del puente inspeccionado y el estado detallado de cada uno de los elementos que son objeto de inspección
 ninguno.
-Barreras de seguridad, barandillas de puentes o pretiles metálicos Roturas o daños: ninguna
+Barreras de seguridad, barandillas de puentes o pretiles metálicos Roturas o danos: ninguna
 1) Conexiones en mal estado: ninguna:
 2) Protecciones en mal estado: ninguna.
 3) Barreras de seguridad, barandillas de puentes o pretiles de Hormigón:
-Con roturas o daños: ninguna.
+Con roturas o danos: ninguna.
 4) Grietas 5 mm; Desconchados l cm
 5) Subestructura: Desconchados o grietas:
 ninguno.
@@ -732,7 +732,7 @@ estado
 
 Drenaje:
 1) Superficie erosionada: ninguna.
-2) Daño estructural:
+2) Dano estructural:
 ninguno
 
 Página 26 de 90
@@ -742,9 +742,9 @@ a anotar el incumplimiento en el Km que corresponda.
 
 Drenaje:
 1) Superficie erosionada: ninguna.
-2) Daño estructural: ninguno
+2) Dano estructural: ninguno
 
-El incumplimiento de cualquiera de las condiciones anteriormente señaladas en uno, varios o la totalidad de los puentes inspeccionados, implicará incumplimiento, por lo tanto el valor del indicador será O: de lo contrario será 1.
+El incumplimiento de cualquiera de las condiciones anteriormente senaladas en uno, varios o la totalidad de los puentes inspeccionados, implicará incumplimiento, por lo tanto el valor del indicador será O: de lo contrario será 1.
 
 Apéndice Técnico 4 - Indicadores
 
@@ -1032,7 +1032,7 @@ noventa y cinco por ciento 95 o su erior de la
 Apéndice Técnico 4 - Indicadores
 
 de la Vía Férrea, aseguramiento de la Disponibilidad inmediata, continua y permanente durante los tiempos operativos.
-eventos que ocasionen indisponibilidad de la Infraestructura Férrea, en el periodo que aplique. Este registro debe incluir el sitio donde se presenta el daño, la avería, afectación o indisponibilidad, la hora y minuto de inicio del daño, la avería o la afectación, la hora y minuto en la cual se da solución efectiva al daño, la avería o la afectación, entendiéndose la efectividad de la solución como la habilitación sin ningún tipo de restricción al tráfico férreo; el cálculo del tiempo de indisponibilidad de la Infraestructura Férrea, será el tiempo transcurrido entre el inicio y la solución efectiva del daño, la avería o la afectación.
+eventos que ocasionen indisponibilidad de la Infraestructura Férrea, en el periodo que aplique. Este registro debe incluir el sitio donde se presenta el dano, la avería, afectación o indisponibilidad, la hora y minuto de inicio del dano, la avería o la afectación, la hora y minuto en la cual se da solución efectiva al dano, la avería o la afectación, entendiéndose la efectividad de la solución como la habilitación sin ningún tipo de restricción al tráfico férreo; el cálculo del tiempo de indisponibilidad de la Infraestructura Férrea, será el tiempo transcurrido entre el inicio y la solución efectiva del dano, la avería o la afectación.
 El indicador se calculará de la siguiente manera:
 
 DVF (DOTDO) x100
@@ -1055,52 +1055,52 @@ Este indicador se medirá en forma independiente y se deberá cumplir para la In
 
 Se refiere a la Art. 710-13 Criterios de Se deberá contar con un Para la verificación del 1 semana para las
 
-Señalización
-señalización Señales evaluación inventario de toda la Valor de Aceptación, se
-señales que
+Senalización
+senalización Senales evaluación inventario de toda la Valor de Aceptación, se
+senales que
 
 Vertical Sobre Vías Carreteras - Vías Férreas - Pasos a
 vertical y verticales de
 sv horizontal de tránsito,
 todo el Corredor INVIAS 2013
 MensualSem estral
-establecidos en señalización vertical y dividirán las vías de la normatividad horizontal existente y servicio que se
+establecidos en senalización vertical y dividirán las vías de la normatividad horizontal existente y servicio que se
 para la requerida a lo largo del desarrollarán en la Etapa
 incumplan la retrorreflectividad y
 48 horas para las
 
 Nivel
-Férreo como lo Art. 720-13 señalización, Corredor del Proyecto. Preoperativa, así como la es entre otros: Manual de como son: vía férrea en se mentos
+Férreo como lo Art. 720-13 senalización, Corredor del Proyecto. Preoperativa, así como la es entre otros: Manual de como son: vía férrea en se mentos
 Página 3 7 de 90
-señales ilegibles,
+senales ilegibles,
 
 Apéndice Técnico 4 - Indicadores
 
-demarcación de Señalización inicio y fin de Vial del
+demarcación de Senalización inicio y fin de Vial del
 l. Posición y Sobre dicho inventario, de un kilómetro. dimension se medirá la Cada segmento debe
-dañadas o inexistentes
+danadas o inexistentes
 
-estaciones, señalización vial en vías de servicio, señalización propia informativa, señalización vertical y horizontal de los pasos a nivel tipo A,ByC.
+estaciones, senalización vial en vías de servicio, senalización propia informativa, senalización vertical y horizontal de los pasos a nivel tipo A,ByC.
 
-En este sentido, se debe garantizar la posición, legibilidad de la señal y de Retrorreflectivid ad sobre la exigida para instalación Inicial
+En este sentido, se debe garantizar la posición, legibilidad de la senal y de Retrorreflectivid ad sobre la exigida para instalación Inicial
 Ministerio de Transporte NTC 4739
 Láminas retrorreflectiv as para control de tránsito
 es retrorreflectividad (o cumplir con las siguientes
 2. Colores y luminancia dos condiciones: rotulado retrorreflejada) a través
 3. Legibilida del coeficiente de 1) Etapa de Operación y
-d de la retrorreflexión Rl Mantenimiento: La señal señal i) Mensualmente: Se cumple con lo definido en
-4. Retrorrefle inspeccionará la NTC correspondiente. ctividad visualmente el estado de La señal está presente en la posición y legibilidad la posición definida en el
-de la señal (sin daños, Proyecto y cumple con las pintadas, ni con dimensiones, colores,
+d de la retrorreflexión Rl Mantenimiento: La senal senal i) Mensualmente: Se cumple con lo definido en
+4. Retrorrefle inspeccionará la NTC correspondiente. ctividad visualmente el estado de La senal está presente en la posición y legibilidad la posición definida en el
+de la senal (sin danos, Proyecto y cumple con las pintadas, ni con dimensiones, colores,
 obstáculos). Se medirá rotulado.
-la Retrorreflectividad a La señal es
-un número no inferior a inequívocamente legible 5 señales por kilómetro por un conductor que se
+la Retrorreflectividad a La senal es
+un número no inferior a inequívocamente legible 5 senales por kilómetro por un conductor que se
 indicadas por la desplace a la velocidad Interventoría. máxima permitida y
 ii) Semestralmente se cumple con lo contenido medirá la en el manual de
-Retrorreflectividad a Señalización descrito en todas las señales. Estas el Apéndice Técnico inspecciones deberán 2).Retrorreflectividad 2'.. realizarse también en 80 , de los valores
+Retrorreflectividad a Senalización descrito en todas las senales. Estas el Apéndice Técnico inspecciones deberán 2).Retrorreflectividad 2'.. realizarse también en 80 , de los valores
 horas nocturnas. requeridos en la norma
 para cada tipo de lámina retrorreflectiva.
 
-En caso de que existan dos o más señales que incumplan alguna de estas condiciones en un mismo segmento, se generará un incumplimiento del segmento.
+En caso de que existan dos o más senales que incumplan alguna de estas condiciones en un mismo segmento, se generará un incumplimiento del segmento.
 
 Página 3 8 de 90
 
@@ -1113,10 +1113,10 @@ Pasos a Nivel Tipo ByC
 
 PNBC
 
-Verificación del correcto funcionamiento de los subsistemas enclavados para los pasos a nivel Tipo B y C, entre las cuales se contempla el sistema de mando, las barreras, semáforos, señales sonoras y demás elementos que garanticen la seguridad y normal servicio.
+Verificación del correcto funcionamiento de los subsistemas enclavados para los pasos a nivel Tipo B y C, entre las cuales se contempla el sistema de mando, las barreras, semáforos, senales sonoras y demás elementos que garanticen la seguridad y normal servicio.
 
 NA Mensual 
-Se deberá contar con un registro de confiabilidad de la operabilidad de los subsistemas de los pasos a nivel Tipo B y C, en donde se registren fallos del sistema tanto de los elementos como barreras, semáforos, señales sonoras, como de las comunicaciones y transmisión de señal e
+Se deberá contar con un registro de confiabilidad de la operabilidad de los subsistemas de los pasos a nivel Tipo B y C, en donde se registren fallos del sistema tanto de los elementos como barreras, semáforos, senales sonoras, como de las comunicaciones y transmisión de senal e
 interconexión con el
 ceo.
 Dicho registro debe incluir para cada fallo de los subsistemas, fecha, ubicación, descripción del fallo, acciones tomadas, tiempo de superación del fallo, pruebas de confiabilidad realizadas.
@@ -1135,9 +1135,9 @@ Apéndice Técnico 4 - Indicadores
 
 de pasos a nivel Tipo B yC)xl00
 
-Se debe comprobar que se mantiene el suministro principal de . energía y su sistema de respaldo para los sistemas de los pasos a nivel, el correcto funcionamiento de los sistemas de mando y comprobar el correcto funcionamiento de las barreras, los semáforos, las señales sonoras y demás elementos.
+Se debe comprobar que se mantiene el suministro principal de . energía y su sistema de respaldo para los sistemas de los pasos a nivel, el correcto funcionamiento de los sistemas de mando y comprobar el correcto funcionamiento de las barreras, los semáforos, las senales sonoras y demás elementos.
 Incluye la verificación de la conexión 247 y sistema de respaldo
-{redundancia) de comunicación y transmisión de señal entre el paso a nivel y el Centro de Control de Operaciones.
+{redundancia) de comunicación y transmisión de senal entre el paso a nivel y el Centro de Control de Operaciones.
 
 Página 40 de 90
 En caso que algunos de estos elementos hayan tenido algún fallo durante el periodo de medición, o se haya reportado que no tenga un correcto funcionamiento, el paso a nivel se considera que no cum le.
@@ -1156,7 +1156,7 @@ Superficie con grietas
 Inspección visual Anualmente se realizará la Inspección y verificación visual a cada uno de los puentes que hacen parte de la
 Los puentes objeto de inspección y verificación visual deben cumplir con la totalidad de las siguientes condiciones: Puentes de Hormigón
 1) Tableros: Superficie con grietas (no capilares),
-dañada o con desconchados: (5 del área). 
+danada o con desconchados: (5 del área). 
 2) Juntas con defecto que impida el movimiento, con sellado defectuoso,
 
 verificación visual del estado
@@ -1166,7 +1166,7 @@ Manual para
 defecto que
 Infraestructura Férrea
 concesionada. Se
-daños o con pérdidas:
+danos o con pérdidas:
 ninguna.
 
 de los elementos la inspección
@@ -1193,7 +1193,7 @@ en mal estado: ninguno;
 hacen parte de la Infraestructura
 Manual de
 inspección
-daños o con
+danos o con
 pérdidas
 de los puentes,
 incluyendo el día de la
@@ -1218,7 +1218,7 @@ abscisado del puente inspeccionado y el estado detallado de cada uno de los elem
 en malas condiciones: ninguna;
 7) Resto de elemento del tablero con pérdidas,
 grietas o desconchados: ninguno.
-Barreras de seguridad, barandillas de puentes o pretiles metálicos Roturas o daños: ninguna
+Barreras de seguridad, barandillas de puentes o pretiles metálicos Roturas o danos: ninguna
 1) Conexiones en mal estado: ninguna:
 2) Protecciones en mal estado: nin una.
 
@@ -1228,12 +1228,12 @@ Apéndice Técnico 4 -Indicadores
 
 pérdidas, grietas o desconchados.
 8) Barreras de seguridad,
-barandillas de puentes o pretiles metálicos Roturas o daños
+barandillas de puentes o pretiles metálicos Roturas o danos
 9) Conexiones en mal estado
 10)
 Protecciones en mal estado.
 11) Barreras de seguridad,
-barandillas de puentes o pretiles de Hormigón: Con roturas o daños
+barandillas de puentes o pretiles de Hormigón: Con roturas o danos
 12) Grietas 5 mm;
 Desconchados
 lcm 13)
@@ -1244,7 +1244,7 @@ cimiento.
 
 Página 42 de 90
 3) Barreras de seguridad, barandillas de puentes o pretiles de Hormigón:
-Con roturas o daños: ninguna.
+Con roturas o danos: ninguna.
 4) Grietas 5 mm; Desconchados I cm
 5) Subestructura: Desconchados o grietas:
 ninguno.
@@ -1280,10 +1280,10 @@ que corresponda.
 
 Drenaje:
 1) Superficie erosionada: ninguna.
-2) Daño estructural:
+2) Dano estructural:
 ninguno
 
-El incumplimiento de cualquiera de las condiciones anteriormente señaladas, en uno, varios o la totalidad de los puentes inspeccionados, implicará incumplimiento por tanto el valor del indicador será O; de lo contrario será l.
+El incumplimiento de cualquiera de las condiciones anteriormente senaladas, en uno, varios o la totalidad de los puentes inspeccionados, implicará incumplimiento por tanto el valor del indicador será O; de lo contrario será l.
 
 Disponibilidad de la E2 vía de servicio
 
@@ -1293,7 +1293,7 @@ NA Semanal
 Drenaje:
 1) Superficie erosionada:
 ninguna.
-2) Daño estructural:
+2) Dano estructural:
 nin uno E2 LSv 
 LTSv,
 
@@ -1315,12 +1315,12 @@ Apéndice Técnico 4-Indicadores
 inmediata, la Circulación incluir la ubicación del
 continua y de los sitio y la longitud (en
 permanente vehículos en km) donde se presenta Donde:
-durante los las vías de el daño, la avería,
+durante los las vías de el dano, la avería,
 tiempos servicio afectación o LSv: Longitud total en
 operativos. LTSv: indisponibilidad, la hora km de vía que permite la Longitud total y minuto de inicio del Circulación de los
-de las vías de daño, la avería o la vehículos en las vías de servicio afectación, la hora y servicio
+de las vías de dano, la avería o la vehículos en las vías de servicio afectación, la hora y servicio
 minuto en la cual se da LTSv: Longitud total de
-solución efectiva al las vías de servicio. daño, la avería o la
+solución efectiva al las vías de servicio. dano, la avería o la
 afectación, En caso de que el valor de entendiéndose la la medición sea menor al efectividad de la valor referenciado, se solución como la entiende incumplido el
 habilitación sin ningún indicador y su valor será tipo de restricción al O, de lo contrario será 1
 tráfico vehicular.
@@ -1703,12 +1703,12 @@ Para el cerramiento
 
 Para el CCTV minutos
 
-Para el Cerramiento se realizará mediante recorridos y se realizarán levantamiento mediante cinta métrica de las averías O daños en el cerramiento superiores al Valor de Aceptación del área.
+Para el Cerramiento se realizará mediante recorridos y se realizarán levantamiento mediante cinta métrica de las averías O danos en el cerramiento superiores al Valor de Aceptación del área.
 
 CF_uLTC_u
 
 Donde:
-CF u: Longitud de averías o daños en el cerramiento en la Unidad Funcional u
+CF u: Longitud de averías o danos en el cerramiento en la Unidad Funcional u
 LTC u: Longitud total del Cerramiento de la Unidad Funcional u
 
 De igual forma se diligenciará los formatos de inspección No Objetados por la Interventoría para el CCTV.
@@ -1853,7 +1853,7 @@ Apéndice Técnico 4 - Indicadores
 El valor a considerar será el promedio de los dos valores obtenidos (uno de cada rodada o huella).
 
 Se tomarán medidas en cada área unitaria. El valor correspondiente a cada área unitaria se obtendrá como media de todas las medidas de esa área. Los resultados de la auscultación se presentarán siguiendo el manual para la inspección de pavimentos flexibles del INVIAS. Como indica el numeral 1.3 Pérdida de las capas de la estructura y
-#### 1.4 Daños superficiales
+#### 1.4 Danos superficiales
 Si se produjeran en una misma área unitaria incumplimientos en los umbrales: puntual y promedio, se considerará un único incumplimiento sobre el área unitaria.
 
 El incumplimiento de los valores puntuales generará un incumplimiento del segmento.
@@ -1895,7 +1895,7 @@ No se medirán las fisuras selladas que se encuentren en buen estado.
 
 Los resultados de la auscultación se presentarán s!guiendo el manual para la mspección de pavimentos flexibles del INVIAS como
 indica su numeral 1.3 Pérdida de las capas de la estructura y
-#### 1.4 Daños superficiales
+#### 1.4 Danos superficiales
 
 Cada área unitaria debe cumplir con las siguientes condiciones:
 
@@ -2008,7 +2008,7 @@ Manual de
 establecidas lineamientos del Art. 700- 13
 igual a l601114oc2J
 
-Señalización
+Senalización
 para cada uno
 sobre Líneas de demarcación
 mcandelas m2
@@ -2028,7 +2028,7 @@ NTC 4744
 del Art. 00- En caso de existir doble línea
 mcandelas m2
 
-Señalización Horizontal
+Senalización Horizontal
 SHC
 milicandelas por metro cuadrado y Lux)
 Aplicación de materiales para la demarcación horizontal NTC 4745
@@ -2049,9 +2049,9 @@ Nota (2): Para equipo con geometría 30 m
 El 85 de las tachas deben estar completas y continuas.
 1 Semana
 
-Espeificaciones Técnicas para la Señalización de Pasos a Nivel
+Espeificaciones Técnicas para la Senalización de Pasos a Nivel
 El incumplimiento de Se cumplirá con los una O varias de las lineamientos del Art. 700-13 condiciones
-sobre Líneas de demarcación anteriormente señaladas y marcas viales. Art 701-13 en una misma área Tachas reflectivas. unitaria generará un incumplimiento del área
+sobre Líneas de demarcación anteriormente senaladas y marcas viales. Art 701-13 en una misma área Tachas reflectivas. unitaria generará un incumplimiento del área
 unitaria.
 
 Página 67 de 90
@@ -2142,7 +2142,7 @@ Apéndice Técnico 4 - Indicadores
 
 #### 4.1 EVALUACIÓN DE LOS INDICADORES
 
-Los Indicadores contenidos en el presente Apéndice serán evaluados por la Interventoría, considerando la periodicidad mínima señalada para cada Indicador en el numeral 3 del presente Apéndice Técnico.
+Los Indicadores contenidos en el presente Apéndice serán evaluados por la Interventoría, considerando la periodicidad mínima senalada para cada Indicador en el numeral 3 del presente Apéndice Técnico.
 
 El mismo Día en el que se realice la medición de cualquiera de los Indicadores, la Interventoría registrará en el SICC el resultado de cada una de las mediciones.
 
@@ -2175,7 +2175,7 @@ autoevaluación del Concesionario para el reconocimiento de la Retribución, se 
 
 El Concesionario deberá elaborar su propio plan de evaluación de Indicadores, el cual entregará a la ANI y a la Interventoría como parte de la elaboración de los Manuales de Operación y Mantenimiento definidos en el Contrato. Lo anterior, sin perjuicio del derecho que le asiste al Concesionario de efectuar mediciones de los Indicadores en cualquier momento posterior a la suscripción de cada Acta de Terminación de Unidad Funcional o Acta de Terminación Parcial de Unidad Funcional, en este último caso, para los Indicadores aplicables.
 
-La autoevaluación de los Indicadores por parte del Concesionario será también registrada en el SICC, en las mismas condiciones señaladas en el numeral 4.1 de este mismo Apéndice Técnico. No obstante lo anterior, salvo en el caso que se prevé en el numeral 4.2.1 siguiente, serán las mediciones efectuadas por el Interventor las que serán utilizadas para efectos del cálculo del Índice de Cumplimiento y por lo tanto, las mediciones efectuadas de manera directa por el Concesionario serán utilizadas para el seguimiento de los estándares de calidad y niveles de servicio y la toma de decisiones respecto de acciones preventivas orientadas a evitar el deterioro de cualquiera de los Indicadores.
+La autoevaluación de los Indicadores por parte del Concesionario será también registrada en el SICC, en las mismas condiciones senaladas en el numeral 4.1 de este mismo Apéndice Técnico. No obstante lo anterior, salvo en el caso que se prevé en el numeral 4.2.1 siguiente, serán las mediciones efectuadas por el Interventor las que serán utilizadas para efectos del cálculo del Índice de Cumplimiento y por lo tanto, las mediciones efectuadas de manera directa por el Concesionario serán utilizadas para el seguimiento de los estándares de calidad y niveles de servicio y la toma de decisiones respecto de acciones preventivas orientadas a evitar el deterioro de cualquiera de los Indicadores.
 
 4.2.1 Discrepancia en las Mediciones
 
@@ -2233,7 +2233,7 @@ El Concesionario está obligado a formular una declaración de inicio de acción
 De la misma manera, el Concesionario está obligado a formular una declaración de fin de acción preventiva cada vez que dé término a una de las acciones preventivas descritas en el Apéndice Técnico 2.
 #### 4.4 Equipos de Medición: Características y Calibración
 
-Para los Indicadores del estado de las vías que conforman los sitios para el CTC proyectado se medirá ahuellamiento, escalonamientos, baches, fisuras y señalización horizontal y vertical, y se deben emplear equipos de alto rendimiento, sobre los cuales se garantice su correcto estado de calibración durante la medición.
+Para los Indicadores del estado de las vías que conforman los sitios para el CTC proyectado se medirá ahuellamiento, escalonamientos, baches, fisuras y senalización horizontal y vertical, y se deben emplear equipos de alto rendimiento, sobre los cuales se garantice su correcto estado de calibración durante la medición.
 
 Para el estado de la Vía Férrea se utilizarán medidores de ultrasonido para la revisión de los rieles y soldaduras, se utilizarán bateadoras para obtener las densidades óptimas del balasto y equipos de corrección geométrica para la verificación horizontal y vertical del trazado.
 
@@ -2265,7 +2265,7 @@ A partir del inicio del Contrato de Concesión, y con el objetivo de promover un
 Las Partes realizarán reuniones periódicas de trabajo, al menos una vez al Mes, en las que podrán formular observaciones y hacer sugerencias metodológicas que permitan mejorar la gestión del Contrato. La mesa operará con base en un plan de trabajo, que contendrá las fechas de las reuniones y la forma en que se registrará el contenido de las mismas, el que será definido de común acuerdo en la primera reunión citada por la Interventoría.
 
 #### 5.3 Características del Sistema Informático de Contabilización y Control (SICC)
-El Concesionario deberá diseñar y construir un Sistema Informático de Contabilización y Control (SICC) que será parte del sistema formal de registro e información de los Indicadores durante la ejecución del Contrato, y cuyas características de diseno, operación y explotación son materia de las secciones 5.3.l y 5.4 de este Apéndice.
+El Concesionario deberá disenar y construir un Sistema Informático de Contabilización y Control (SICC) que será parte del sistema formal de registro e información de los Indicadores durante la ejecución del Contrato, y cuyas características de diseno, operación y explotación son materia de las secciones 5.3.l y 5.4 de este Apéndice.
 
 Página 74 de 90
 
@@ -2289,7 +2289,7 @@ El SICC deberá garantizar la invariabilidad de la información que en él sea r
 
 5.3.2 Código y Documentación de Desarrollo del SICC
 
-El Concesionario deberá diseñar el SICC, esto es, especificar el modelo de procesos, el modelo de datos, los procedimientos y todas las interfaces de usuario (pantallas, reportes, formatos de entrada) y reportes requeridos por la ANI. Las modificaciones que se introduzcan durante el proceso de diseno deberán ser realizadas mediante los procedimientos de gestión de cambios, debidamente documentados y aprobados por la ANI y reflejados en actualizaciones de la especificación de requerimientos, a fin de mantener la trazabilidad hasta un nivel comprensible para la contraparte no especializada.
+El Concesionario deberá disenar el SICC, esto es, especificar el modelo de procesos, el modelo de datos, los procedimientos y todas las interfaces de usuario (pantallas, reportes, formatos de entrada) y reportes requeridos por la ANI. Las modificaciones que se introduzcan durante el proceso de diseno deberán ser realizadas mediante los procedimientos de gestión de cambios, debidamente documentados y aprobados por la ANI y reflejados en actualizaciones de la especificación de requerimientos, a fin de mantener la trazabilidad hasta un nivel comprensible para la contraparte no especializada.
 
 Página 75 de 90
 
@@ -2399,7 +2399,7 @@ i. Mantenerlo disponible para las partes, a través de Internet.
 ii. Monitorear mediante una empresa externa dicha disponibilidad, acreditarla y registrar automáticamente en el SICC los períodos de indisponibilidad.
 iii. Asegurar tiempos de respuesta que no superen la tolerancia establecida en el numeral 5.4.3 de este Apéndice Técnico.
 iv. Realizar el respaldo diario de la base de datos y de la información registrada y reconstruir fielmente la base de datos dentro de la tolerancia de disponibilidad, de acuerdo con lo previsto en el numeral 5.4.4 de este Apéndice Técnico.
-v. Mantener disponible la información de Disponibilidad de la Vía Férrea registrada para un periodo no inferior a (2) años.
+v. Mantener disponible la información de Disponibilidad de la Vía Férrea registrada para un periodo no inferior a (2) anos.
 v1. Almacenar los registros durante toda la vigencia de la Concesión y tenerlos disponibles para su consulta.
 v11. Entregar a la Interventoría informes de operación del sistema, reportes de estado de la base de datos, copias de los documentos de ingreso de información provistos de firma electrónica avanzada y los respaldos de la base de datos con la periodicidad establecida en el numeral 5.4.5 de este Apéndice Técnico.
 El Concesionario deberá hacer uso de lineamientos del Gobierno Nacional, marcos de referencia, estándares y buenas prácticas para el diseno, construcción y puesta en operación del sistema, que aseguren su correcto funcionamiento, privacidad y seguridad de la información allí registrada.
@@ -2410,7 +2410,7 @@ Apéndice Técnico 4 -Tndicadores
 
 El Concesionario deberá mantener el sistema, esto es, realizar todas las acciones necesarias para que éste opere de acuerdo con las especificaciones. Si se detectare anomalías respecto a las especificaciones o errores de especificación que afecten la debida contabilización del servicio prestado o dificulten o impidan la fiscalización, el Concesionario deberá corregir dichas anomalías o errores y rectificar el estado de la base de datos en el plazo máximo de treinta (30) Días, contados desde la fecha en que la Interventoría se lo instruya, asegurando la generación de los registros documentales de los cambios realizados. El incumplimiento de las obligaciones y del plazo previsto en este párrafo dará lugar a la aplicación al Concesionario de la Multa prevista en el Contrato.
 
-Toda modificación del software dará lugar a la entrega de una nueva versión de éste a la Interventoría, acompañada de la documentación correspondiente, dentro del quinto (5) Día siguiente al momento de haber sido puesto en servicio.
+Toda modificación del software dará lugar a la entrega de una nueva versión de éste a la Interventoría, acompanada de la documentación correspondiente, dentro del quinto (5) Día siguiente al momento de haber sido puesto en servicio.
 
 El incumplimiento oportuno de la obligación de entrega de la nueva versión del software y de la documentación correspondiente dará Jugar a la aplicación de la Multa al Concesionario prevista en el Contrato.
 6. CÁLCULO DEL ÍNDICE DE CUMPLIMIENTO
@@ -2483,7 +2483,7 @@ Ruido (IR) IR 0,25
 Vibraciones (IV) IV 0,25
 Índice de Mortalidad (Im) 01 5,00
 Disponibilidad de la Infraestructura DVF 29,89 Férrea
-Señalización Vertical Sobre Vías sv 1,49 Carreteras - Pasos a Nivel
+Senalización Vertical Sobre Vías sv 1,49 Carreteras - Pasos a Nivel
 
 Pasos a Nivel Tipo B y C PNBC 0,60
 Estado de Puentes El 15,25
@@ -2512,7 +2512,7 @@ Ejecución del Plan de Mantenimiento para edificaciones EPMI 3,15
 Cerramiento y CCTV Al 1,18
 Disponibilidad Edificio A2 67,86
 Sistema de drenajes ES 0,79
-Señalización Horizontal SHC 0,20
+Senalización Horizontal SHC 0,20
 Parámetros geométricos y de la superestructura para la se uridad vial
 Vigilancia VIG 3,00
 SUMA 100,00
@@ -2539,7 +2539,7 @@ Apéndice Técnico 4 - Indicadores
 
 Escalonamientos
 
-Señalización Horizontal
+Senalización Horizontal
 Parámetros geométricos y de la superestructura para la se uridad vial
 Vigilancia
 SUMA
@@ -2598,10 +2598,10 @@ DIF Puente Vehicular y Peatonal sobre el río Sogamoso y sus ramales de conexió
 DVF Disponibilidad de la Infraestructura Férrea R Ql Atención de Querellas (Q) en etapa operativa R VEl Velocidad de transporte R
 Tr Invasiones del corredor (Q) R HC Gases efecto invernadero (huella de carbono) R IR Ruido (IR) R
 IV Vibraciones (IV) R
-sv Señalización Vertical Sobre Vías Carreteras -
+sv Senalización Vertical Sobre Vías Carreteras -
 Pasos a Nivel R
 PNBC Pasos a Nivel Tipo B y C R
-SHC Señalización Horizontal R
+SHC Senalización Horizontal R
 El Estado de Puentes R
 E2 Disponibilidad de la Vía de servicio R
 E3 Disponibilidad del SICC R
@@ -2797,7 +2797,7 @@ el Amigable Componedor, las Partes procederán a recalcular el Índice de Cumpli
 #### 7.2 Mantenimiento Programado
 Los Indicadores no serán afectados en ningún caso por la realización de rutinas de Mantenimiento Programado que sean reportadas por el Concesionario mediante una declaración de acciónpreventiva, tal como se establece en el numeral 4.3.3 de este Apéndice Técnico.
 
-VoBo: Adriana María Montañez Saenz - VEA.:'G"'.:) Fredy Leandro Espejo Fandiño - VE
+VoBo: Adriana María Montanez Saenz - VEA.:'G"'.:) Fredy Leandro Espejo Fandino - VE
 
 Página 90 de 90
 

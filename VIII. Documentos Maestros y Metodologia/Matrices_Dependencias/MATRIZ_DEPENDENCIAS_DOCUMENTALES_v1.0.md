@@ -28,7 +28,7 @@ Esta matriz permite a Cursor IDE Agent y otros agentes **identificar automática
 
 ## 📋 **MATRIZ DE DEPENDENCIAS POR SISTEMA**
 
-### **SISTEMA 01: CONTROL Y SEÑALIZACIÓN**
+### **SISTEMA 01: CONTROL Y SENALIZACIÓN**
 
 #### **CTC - Centro de Control de Tráfico**
 | Componente | Si cambias en... | Afecta estos archivos | Tipo Impacto | Sección Específica |
@@ -49,7 +49,7 @@ Esta matriz permite a Cursor IDE Agent y otros agentes **identificar automática
 | Componente | Si cambias en... | Afecta estos archivos | Tipo Impacto | Sección Específica |
 |:-----------|:----------------|:---------------------|:-------------|:-------------------|
 | Estaciones ENCE | DT-ENCE-001 | III/29_Sistema_Senalizacion_Integrado.md | Cantidades | Sección 2.4 |
-| Estaciones ENCE | DT-ENCE-001 | V.1_Señalizacion_Ferroviaria_Detalle.md | Especificaciones | Sección 5.2 |
+| Estaciones ENCE | DT-ENCE-001 | V.1_Senalizacion_Ferroviaria_Detalle.md | Especificaciones | Sección 5.2 |
 | Estaciones ENCE | DT-ENCE-001 | WBS_Presupuestal_v2.0.md | Costos | Item 1.3 |
 | Estaciones ENCE | DT-ENCE-001 | IV/39_Planos_Preliminares.md | Ubicaciones | Tabla PKs |
 

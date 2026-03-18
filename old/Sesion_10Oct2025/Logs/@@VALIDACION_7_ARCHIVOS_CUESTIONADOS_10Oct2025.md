@@ -28,7 +28,7 @@
 - Plan de acción
 
 **Tipo:** Análisis PMO operativo  
-**Tamaño:** 393 líneas  
+**Tamano:** 393 líneas  
 **Creado:** 9-Oct-2025  
 **Actualización:** Puede evolucionar con nuevos hallazgos
 
@@ -50,7 +50,7 @@
 - Inventario detallado
 
 **Tipo:** Documento administrativo temporal  
-**Tamaño:** 516 líneas  
+**Tamano:** 516 líneas  
 **Creado:** 10-Oct-2025 (HOY)  
 **Propósito:** Registro de limpieza documental
 
@@ -76,7 +76,7 @@
 - Cláusulas de protección EPC
 
 **Tipo:** Análisis PMO operativo  
-**Tamaño:** 446 líneas  
+**Tamano:** 446 líneas  
 **Creado:** 9-Oct-2025  
 **Actualización:** Evoluciona según respuestas ANI/FENOCO
 
@@ -99,7 +99,7 @@
 - Tabla completa de 17 riesgos
 
 **Tipo:** Análisis puntual + documentación de arquitectura  
-**Tamaño:** 189 líneas  
+**Tamano:** 189 líneas  
 **Creado:** 10-Oct-2025 (HOY)  
 **Propósito:** Documentar arquitectura de riesgos
 
@@ -126,7 +126,7 @@
 - Propuestas de reorganización
 
 **Tipo:** Documento administrativo temporal  
-**Tamaño:** 567 líneas  
+**Tamano:** 567 líneas  
 **Creado:** 10-Oct-2025 (HOY)  
 **Propósito:** Análisis de organización documental
 
@@ -152,7 +152,7 @@
 - Supuestos del plan
 
 **Tipo:** Plan operativo del proyecto  
-**Tamaño:** 359 líneas  
+**Tamano:** 359 líneas  
 **Creado:** 9-Oct-2025  
 **Actualización:** Puede ajustarse según avance proyecto
 
@@ -176,7 +176,7 @@
 - KPIs de seguimiento
 
 **Tipo:** Cronograma maestro del proyecto  
-**Tamaño:** 337 líneas  
+**Tamano:** 337 líneas  
 **Creado:** 9-Oct-2025  
 **Actualización:** Se actualiza con avance proyecto
 

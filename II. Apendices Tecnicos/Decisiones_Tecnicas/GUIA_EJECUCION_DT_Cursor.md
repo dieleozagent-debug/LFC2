@@ -5,7 +5,7 @@
 
 ## 🎯 **OBJETIVO**
 
-Esta guía te enseña cómo ejecutar Decisiones Técnicas (DT) generadas desde la WBS Interactiva usando Cursor IDE.
+Esta guía te ensena cómo ejecutar Decisiones Técnicas (DT) generadas desde la WBS Interactiva usando Cursor IDE.
 
 ---
 
@@ -351,7 +351,7 @@ Simula DT-FIBRA-042
 
 ### **3. Ejecuta en horarios de bajo tráfico**
 - Evita ejecutar cuando otros están trabajando
-- Preferible por la mañana o al final del día
+- Preferible por la manana o al final del día
 
 ### **4. Documenta decisiones importantes**
 - DTs con impacto > $100M → Agregar nota en sección 11

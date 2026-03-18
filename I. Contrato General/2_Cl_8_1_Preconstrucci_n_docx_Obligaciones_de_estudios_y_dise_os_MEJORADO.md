@@ -1,4 +1,4 @@
-# CLAUSULA 8.1 - OBLIGACIONES DE ESTUDIOS Y DISEÑOS
+# CLAUSULA 8.1 - OBLIGACIONES DE ESTUDIOS Y DISENOS
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 27 de enero de 2025  
@@ -133,7 +133,7 @@ El Concesionario deberá ejecutar, a su costo y riesgo, los estudios, disenos y 
 
 | Sistema | Componente | Nivel de Detalle | Aprobación |
 |:---|:---|:---:|:---|
-| **Señalización** | Planos de ubicación | 30% | ANI + Interventoría |
+| **Senalización** | Planos de ubicación | 30% | ANI + Interventoría |
 | **CTC** | Arquitectura de sistema | 40% | ANI + FENOCO |
 | **Telecomunicaciones** | Red de fibra óptica | 35% | ANI |
 | **Radio TETRA** | Cobertura y torres | 30% | ANE + ANI |

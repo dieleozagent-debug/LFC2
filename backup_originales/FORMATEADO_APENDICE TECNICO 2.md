@@ -68,7 +68,7 @@ INTRODUCCIÓN 5
 OBLIGACIONES A CARGO DEL CONCESIONARIO 6
 #### 2.1 Servicios de carácter obligatorio ; 6
 #### 2.2 Servicios Adicionales 8
-#### 2.3 Obligaciones sobre el ramal Cabañas 8
+#### 2.3 Obligaciones sobre el ramal Cabanas 8
 #### 2.4 Obligaciones sobre las estaciones férreas ; 9
 #### 2.5 Obligaciones sobre el nuevo puente vehicular y peatonal sobre el río Sogamoso y sus respectivos ramales de conexión 11
 ### CAPÍTULO III - OPERACIÓN DEL PROYECTO 12
@@ -126,12 +126,12 @@ GESTIÓN GENERAL, PREPARACIÓN Y ENTREGA DE 29
 6.4.7 Fijación del riel 49
 6.4.8 Balasto 49
 6.4.9 Traviesas 49
-6.4.10 Pasos a nivel: Barreras, semáforos, alarmas, señales verticales, defensas y
+6.4.10 Pasos a nivel: Barreras, semáforos, alarmas, senales verticales, defensas y
 elementos de contención 50
-6.4.11 Señalización Vertical y Señalización Horizontal en pasos a nivel 51
+6.4.11 Senalización Vertical y Senalización Horizontal en pasos a nivel 51
 Página :{1de i
 
-6.4.12 Señales Verticales sobre la Vía Férrea y vías vehiculares 51
+6.4.12 Senales Verticales sobre la Vía Férrea y vías vehiculares 51
 6.4.13 Demarcación Horizontal vías vehiculares 52
 6.4.14 Iluminación 52
 6.4.15 Drenajes 52
@@ -175,7 +175,7 @@ Las obligaciones a cargo del Concesionario se dividen en dos (2) categorías:
 
 #### 2.1 Servicios de carácter obligatorio
 
-A continuación, se relacionan de manera no taxativa los servicios que debe prestar el Concesionario en los términos señalados en el literal (a) del CAPÍTULO II de este Apéndice.
+A continuación, se relacionan de manera no taxativa los servicios que debe prestar el Concesionario en los términos senalados en el literal (a) del CAPÍTULO II de este Apéndice.
 
 a) Mantenimiento rutinario y periódico de la Infraestructura, y anexidades, así como todos los componentes objeto de la concesión de acuerdo con el Programa de Operación y Mantenimiento.
 
@@ -189,11 +189,11 @@ e) El Concesionario debe elaborar y someter a aprobación de la Interventoría y
 , . ,,,.d .,,.,.,""
 Pagma e )
 
-Una vez aprobado el documento por parte de la interventoría y la ANI, el Concesionario debe diseñar, suministrar, almacenar, transportar, instalar, operar y mantener todos los elementos necesarios para la atención de emergencias en los plazos establecidos en el numeral 3 .1.3 del presente Apéndice Técnico.
+Una vez aprobado el documento por parte de la interventoría y la ANI, el Concesionario debe disenar, suministrar, almacenar, transportar, instalar, operar y mantener todos los elementos necesarios para la atención de emergencias en los plazos establecidos en el numeral 3 .1.3 del presente Apéndice Técnico.
 
 f) Mantenimiento de las obras hidráulicas, puentes, pontones, puentes prioritarios y obras de contención.
 
-g) Mantenimiento de los sistemas de Señalización y elementos de comunicaciones necesarios para el control de tráfico de trenes, comunicaciones y superestructura de Vía Férrea (balasto, traviesas, sistema de fijaciones, rieles) y de vehículos férreos.
+g) Mantenimiento de los sistemas de Senalización y elementos de comunicaciones necesarios para el control de tráfico de trenes, comunicaciones y superestructura de Vía Férrea (balasto, traviesas, sistema de fijaciones, rieles) y de vehículos férreos.
 
 h) Mantenimiento de obras de Infraestructura y construida para la Operación entre otras, pero sin limitarse a: líneas de cruce, apartaderos, talleres, edificios administrativos y de control, centros de transferencia de carga, estaciones, líneas auxiliares.
 
@@ -232,15 +232,15 @@ x) Cualquier otro servicio que, por su naturaleza, sea necesario para el desarro
 
 #### 2.2 Servicios Adicionales
 
-En adición a los servicios señalados en el numeral anterior, y siempre que éstos no constituyan una obligación expresamente señalada en el Contrato y sus Apéndices, el Concesionario podrá prestar cualquier otro Servicio Adicional a los usuarios del Proyecto.
+En adición a los servicios senalados en el numeral anterior, y siempre que éstos no constituyan una obligación expresamente senalada en el Contrato y sus Apéndices, el Concesionario podrá prestar cualquier otro Servicio Adicional a los usuarios del Proyecto.
 
 El Concesionario prestará los Servicios Adicionales, cumpliendo con las normas aplicables a los mismos y, particularmente, con las normas relativas a la protección de la competencia y al consumidor.
 
 El Concesionario podrá cobrar por la prestación de los Servicios Adicionales. Dichos cobros constituirán Ingresos por Explotación Comercial que formarán parte de la Retribución del Concesionario, tal y como se describe en el Contrato.
 
-#### 2.3 Obligaciones sobre el ramal Cabañas
+#### 2.3 Obligaciones sobre el ramal Cabanas
 
-El ramal Cabañas que no hace parte del Corredor del Proyecto, cuya longitud es de 33.04 km, será entregado al Concesionario de manera temporal como parte de la Entrega de la Infraestructuray estará a cargo del Concesionario, mientras se surte el proceso de reversión al INVIAS, y dicho ramal no será objeto de Operación y Mantenimiento.
+El ramal Cabanas que no hace parte del Corredor del Proyecto, cuya longitud es de 33.04 km, será entregado al Concesionario de manera temporal como parte de la Entrega de la Infraestructuray estará a cargo del Concesionario, mientras se surte el proceso de reversión al INVIAS, y dicho ramal no será objeto de Operación y Mantenimiento.
 
 Sin perjuicio de lo anterior, el Concesionario se obliga a la vigilancia de este ramal, entendiendo vigilancia como salvaguardar que no sea vandalizada la infraestructura férrea, y
 Página !:de jJ}
@@ -269,7 +269,7 @@ NAPOLES PK3!3434 ENRUINA Seguridad, Custodia, Vigilancia,
 sobrecubierta y cerramiento
 GRECIA PK327675 OPERATIVA Mantenimiento, Seguridad, Custodia y
 Vigilancia
-CABAÑAS PK360650 (tramo OPERATIVA Mantenimiento, Seguridad, Custodia y
+CABANAS PK360650 (tramo OPERATIVA Mantenimiento, Seguridad, Custodia y
 Grecia - Bello) Vigilancia
 PUERTO OLAYA PK 338250 INVADIDA Mantenimiento, Seguridad, Custodia y
 Vigilancia
@@ -314,7 +314,7 @@ Página l, deÍ
 #### 2.5 Obligaciones sobre el nuevo puente vehicular y peatonal sobre el río Sogamoso y sus respectivos ramales de conexión
 
 Una vez terminada la construcción del nuevo puente priorizado vehicular y peatonal sobre el río Sogamoso y respectivos ramales de conexión en los términos y plazo estipulados en el Apéndice Técnico 1, el Concesionario se obliga a la custodia, seguridad, vigilancia, Operación y Mantenimiento del puente vehicular y peatonal sobre el río Sogamoso y sus respectivos ramales de conexión, por un periodo mínimo de ciento ochenta (180) Días a partir de la suscripción del Acta de Terminación de Construcción del Puente Vehicular, y en todo caso hasta su Reversión Especial. Una vez terminado y cumplido este período de Operación y Mantenimiento, el puente vehicular y peatonal sobre el río Sogamoso y sus respectivos ramales de conexión, serán objeto de Reversión Especial en los términos de la Sección .9.16 del Contrato.
-En este sentido, el Concesionario se obliga a cumplir con todos los requerimientos de este Apéndice Técnico 2 aplicables a la infraestructura del puente vehicular y peatonal sobre el río Sogamoso y sus respectivos ramales de conexión, como lo son pero sin limitarse a: mantenimiento y limpieza de estructuras hidráulicas, mantenimiento y rocería de taludes de terraplenes, mantenimiento yo reparaciones de pavimentos, mantenimiento y limpieza de estructuras metálicas como barandas, mantenimiento de señalización horizontal y vertical, entre otros. De igual forma, el Concesionario se obliga a mantener y cumplir con los Niveles
+En este sentido, el Concesionario se obliga a cumplir con todos los requerimientos de este Apéndice Técnico 2 aplicables a la infraestructura del puente vehicular y peatonal sobre el río Sogamoso y sus respectivos ramales de conexión, como lo son pero sin limitarse a: mantenimiento y limpieza de estructuras hidráulicas, mantenimiento y rocería de taludes de terraplenes, mantenimiento yo reparaciones de pavimentos, mantenimiento y limpieza de estructuras metálicas como barandas, mantenimiento de senalización horizontal y vertical, entre otros. De igual forma, el Concesionario se obliga a mantener y cumplir con los Niveles
  de Servicio e Indicadores descritos en el Apéndice Técnico 4 durante este plazo de Operación y Mantenimiento.
 
 Página !Í deft
@@ -325,7 +325,7 @@ En este capítulo se definen las obligaciones del Concesionario en relación con
 
 #### 3.1 Principios de la Operación del Proyecto
 
-La Operación de la Infraestructura y del Material Rodante se regirá por los principios de continuidad, regularidad, calidad del servicio, integridad del servicio, atención a Tercero Operador, tecnología compatible con la Operación, cobertura y Seguridad del transporte. Sin perjuicio de la descripción que a continuación se hace respecto de cada uno de estos principios, la interpretación de este Apéndice y la aplicación de estos principios deberán ser efectuadas en concordancia con lo señalado en el Contrato.
+La Operación de la Infraestructura y del Material Rodante se regirá por los principios de continuidad, regularidad, calidad del servicio, integridad del servicio, atención a Tercero Operador, tecnología compatible con la Operación, cobertura y Seguridad del transporte. Sin perjuicio de la descripción que a continuación se hace respecto de cada uno de estos principios, la interpretación de este Apéndice y la aplicación de estos principios deberán ser efectuadas en concordancia con lo senalado en el Contrato.
 
 La velocidad máxima de operación del Material Rodante permitida estará determinada por la ubicación particular de la Franja Operacional definida para el Proyecto en el Apéndice Técnico l.
 
@@ -372,7 +372,7 @@ a) Condiciones climáticas materialmente adversas, que recomienden la interrupci
 
 b) Accidentes o incidentes de gran proporción (eventos sísmicos, terrorismo, protestas, bloqueos, derrumbes, presencia de animales, etc.), fuera del control del Concesionario y que impliquen un alto riesgo para el Material Rodante al momento de transitar por la Vía Férrea.
 
-c) Otros eventos que puedan afectar la circulación del Material Rodante en la Vía Férrea y que puedan ser considerados como Eventos Eximentes de Responsabilidad conforme se señala en el Contrato.
+c) Otros eventos que puedan afectar la circulación del Material Rodante en la Vía Férrea y que puedan ser considerados como Eventos Eximentes de Responsabilidad conforme se senala en el Contrato.
 
 d) Por su parte, el Concesionario deberá garantizar el transporte de carga de mercancías de los generadores de carga que contraten los servicios del Concesionario para tal fin y velará por el cumplimiento de lo establecido en los contratos de operación con Terceros Operadores.
 
@@ -380,7 +380,7 @@ En todo caso, cualquier decisión por parte del Concesionario de limitar la Disp
 
 3.1.2 Seguridad en la Vía Férrea y en la Operación del Material Rodante
 
-Se trata de la obligación que asume el Concesionario para realizar todas las acciones necesarias para prevenir yo reducir los índices de accidentalidad, tanto en número de eventos como en la gravedad de los mismos. Esta obligación deberá cumplirse durante toda la vigencia del Contrato a través de actuaciones preventivas que permitan mantener y mejorar la Seguridad de la Vía Férrea y de la Operación del Material Rodante, para lo cual el Concesionario actuará sobre su estado de conservación, sobre su geometría y su Señalización (suministro y montaje de los dispositivos de Seguridad en los pasos a nivel autorizados, demarcación horizontal y Señalización vertical, de acuerdo con las especificaciones indicadas en el Apéndice Técnico 3), de igual forma el Concesionario tiene la obligación de realizar las inspecciones periódicas del Material Rodante utilizado por el Concesionario yo los Terceros Operadores para así verificar la continua compatibilidad del Material Rodante con las condiciones de operación de la Vía Férrea, así como en la promoción de actitudes preventivas y seguras de los usuarios de la Vía Férrea, teniendo en cuenta la relación de la Vía Férrea con las comunidades aledañas a la Franja Operacional y todas las demás acciones yo planes que el Concesionario determine como necesarias para el cumplimiento de este fin. El Concesionario debe garantizar que previamente al inicio de la Operación se brinde la formación teórica y práctica al personal operativo y de mantenimiento en las labores respectivas y garantizar el reentrenamiento periódico para el mantenimiento de sus competencias en el tiempo.
+Se trata de la obligación que asume el Concesionario para realizar todas las acciones necesarias para prevenir yo reducir los índices de accidentalidad, tanto en número de eventos como en la gravedad de los mismos. Esta obligación deberá cumplirse durante toda la vigencia del Contrato a través de actuaciones preventivas que permitan mantener y mejorar la Seguridad de la Vía Férrea y de la Operación del Material Rodante, para lo cual el Concesionario actuará sobre su estado de conservación, sobre su geometría y su Senalización (suministro y montaje de los dispositivos de Seguridad en los pasos a nivel autorizados, demarcación horizontal y Senalización vertical, de acuerdo con las especificaciones indicadas en el Apéndice Técnico 3), de igual forma el Concesionario tiene la obligación de realizar las inspecciones periódicas del Material Rodante utilizado por el Concesionario yo los Terceros Operadores para así verificar la continua compatibilidad del Material Rodante con las condiciones de operación de la Vía Férrea, así como en la promoción de actitudes preventivas y seguras de los usuarios de la Vía Férrea, teniendo en cuenta la relación de la Vía Férrea con las comunidades aledanas a la Franja Operacional y todas las demás acciones yo planes que el Concesionario determine como necesarias para el cumplimiento de este fin. El Concesionario debe garantizar que previamente al inicio de la Operación se brinde la formación teórica y práctica al personal operativo y de mantenimiento en las labores respectivas y garantizar el reentrenamiento periódico para el mantenimiento de sus competencias en el tiempo.
 
 Al respecto, el Concesionario deberá estructurar una malla curricular para garantizar que su personal en cargos críticos reciba como mínimo la siguiente formación, dependiendo de los cargos y de las necesidades operativas aplicables a su sistema:
 
@@ -388,14 +388,14 @@ Al respecto, el Concesionario deberá estructurar una malla curricular para gara
  Funcionamiento de los sistemas de las unidades de Material Rodante
  Procedimientos asociados a fallas de las unidades de Material Rodante
  Comunicación operativa
- Sistema de Señalización y Control de Trenes
+ Sistema de Senalización y Control de Trenes
  Manejo de Software de Trenes
  Componentes de la vía permanente
  Geometría de la vía y cambiavías
  Material Rodante yo vehículos auxiliares
  Formación de operadores
 Estas capacitaciones deberán ser dadas a todo el personal, bajo los siguientes criterios: Para todo personal nuevo al momento de su ingreso.
-Para personal antiguo, mínimo una vez al año, como refuerzo de formación.
+Para personal antiguo, mínimo una vez al ano, como refuerzo de formación.
 Página ti det
 
 Cada vez que haya una modificación en las responsabilidades y roles de los cargos, como actualización.
@@ -534,7 +534,7 @@ Esto garantiza la correcta gestión del riesgo, aportando Seguridad en la Operac
 
  El Concesionario debe garantizar la solución de las novedades en ruta para el Material Rodante y novedades en las mercancías
 
-Esto permite que ante todo evento inesperado que tenga la Operación durante la Prestación del Servicio Público de Transporte Ferroviario de Carga, cuente con el acompañamiento del Concesionario para dar una solución oportuna. Así mismo, es necesario resolver las situaciones que se presenten al generador de carga, velando por un servicio ágil.
+Esto permite que ante todo evento inesperado que tenga la Operación durante la Prestación del Servicio Público de Transporte Ferroviario de Carga, cuente con el acompanamiento del Concesionario para dar una solución oportuna. Así mismo, es necesario resolver las situaciones que se presenten al generador de carga, velando por un servicio ágil.
 
  El Concesionario debe facturar cumpliendo todas las regulaciones de la Autoridad Estatal
 
@@ -546,10 +546,10 @@ El Concesionario deberá presentar a la lnterventoría un Reglamento de Operaci�
 a) El Reglamento de Operación de Trenes debe contener capítulos dedicados a las principales áreas de Operación:
 i. Control de Tráfico Férreo: Implantar una metodología para ejecutar la gestión de ocupación, control y regulación del tráfico férreo para una operación segura y eficiente.
 
-ii. Señalización ferroviaria: Se realiza para facilitar la operación de los trenes primando la Seguridad, tanto para el personal como para los bienes materiales.
+ii. Senalización ferroviaria: Se realiza para facilitar la operación de los trenes primando la Seguridad, tanto para el personal como para los bienes materiales.
 Página ]J deH,
 
-Todo el personal que intervenga en la operación de trenes deberá conocer, implementar e interpretar correctamente las señales y respetar las órdenes que por su intermedio se impartan.
+Todo el personal que intervenga en la operación de trenes deberá conocer, implementar e interpretar correctamente las senales y respetar las órdenes que por su intermedio se impartan.
 
 m. Sistemas de comunicación para el control y tráfico de trenes.
 
@@ -568,7 +568,7 @@ velocidades máximas permitidas de maniobras en línea principal, líneas secund
 
 f) Plan de Contingencias para paso de Mercancías Especiales por la Vía Férrea. El Concesionario deberá elaborar y presentar a la ANI y a la Interventoría, para su aprobación, un plan de contingencias para la atención de accidentes de Material Rodante que transporten cargas peligrosas o que representen un riesgo, que deberá incluir como mínimo:
 
-1. Señalización.
+1. Senalización.
 ii. Restricciones asociadas a vibraciones
 iii. Controles.
 iv. Precauciones y contraindicaciones de la carga.
@@ -578,22 +578,22 @@ g) Memoria Técnica de acuerdo con el Contrato.
 
 h) En cualquier momento durante la ejecución del Contrato y siempre que se den las circunstancias que lo exijan conforme al Contrato, este Apéndice Técnico o a la Ley Aplicable, el Concesionario presentará a la ANI:
 
-1. Informe específico del plan de contingencias para el paso por la Concesión de un cierto transporte especial en fecha conocida. El Informe deberá incluir como mínimo Señalización propuesta, controles, restricciones, precauciones y contraindicaciones de la carga, así como medidas a tomar en caso de derrame yo explosión.
+1. Informe específico del plan de contingencias para el paso por la Concesión de un cierto transporte especial en fecha conocida. El Informe deberá incluir como mínimo Senalización propuesta, controles, restricciones, precauciones y contraindicaciones de la carga, así como medidas a tomar en caso de derrame yo explosión.
 
-11. Informe y archivo georreferenciado actualizado de los elementos constitutivos de la Concesión que hayan sido repuestos o modificados sustancialmente: nuevos tramos de rieles, reparaciones sustanciales en estructuras, reposición de obras de drenaje o Señalización, nuevas instalaciones para el tráfico de trenes, iluminación, etc. Esta documentación se entregará el Día 5 del mes siguiente al que se produzcan los cambios, junto con el informe mensual que corresponda y en la Memoria Técnica.
+11. Informe y archivo georreferenciado actualizado de los elementos constitutivos de la Concesión que hayan sido repuestos o modificados sustancialmente: nuevos tramos de rieles, reparaciones sustanciales en estructuras, reposición de obras de drenaje o Senalización, nuevas instalaciones para el tráfico de trenes, iluminación, etc. Esta documentación se entregará el Día 5 del mes siguiente al que se produzcan los cambios, junto con el informe mensual que corresponda y en la Memoria Técnica.
 
-El ROT deberá contener un plan de cierres programados, que deberá respetar la Operación del corredor, el dispositivo de Señalización temporal de la obra y el plan por medio del cual el Concesionario informará a las Autoridades Estatales de los municipios afectados, a las terminales de transporte y en general a la comunidad afectada acerca del cierre del tramo de la Vía Férrea. Lo anterior, con el fin de que la ANI trámite ante el INVIAS el permiso de cierre temporal o las acciones pertinentes que esta autoridad determine. 
+El ROT deberá contener un plan de cierres programados, que deberá respetar la Operación del corredor, el dispositivo de Senalización temporal de la obra y el plan por medio del cual el Concesionario informará a las Autoridades Estatales de los municipios afectados, a las terminales de transporte y en general a la comunidad afectada acerca del cierre del tramo de la Vía Férrea. Lo anterior, con el fin de que la ANI trámite ante el INVIAS el permiso de cierre temporal o las acciones pertinentes que esta autoridad determine. 
 
 El Reglamento de Operación de Trenes deberá considerar estrategias y acciones para cumplir los siguientes objetivos:
 
- Gestionar la Seguridad, el tráfico y el estado del Proyecto, garantizando los Indicadores yo niveles de servicio establecidos en el Apéndice Técnico 4. Garantizar la Seguridad de la Vía Férrea durante las 24 horas del Día y de los 365 Días del año.
+ Gestionar la Seguridad, el tráfico y el estado del Proyecto, garantizando los Indicadores yo niveles de servicio establecidos en el Apéndice Técnico 4. Garantizar la Seguridad de la Vía Férrea durante las 24 horas del Día y de los 365 Días del ano.
 Garantizar que el tránsito ferroviario y las actividades complementarias se desarrollen con completa seguridad y que todo el personal que intervenga en esas actividades, debe actuar dentro de las más estrictas condiciones de seguridad, sin poner en peligro a las personas, a los vehículos o a los cargamentos.
  Mantenimiento y conservación de la estructura física, la superestructura de la Vía Férrea y las instalaciones de los diferentes sistemas, de acuerdo con los planes de
 
 Página deI:6
 
 mantenimiento establecidos y aprobados y deberá contar con la no objeción de la Interventoría.
-Plan de Aseguramiento de la Calidad y Control, y de la Disponibilidad de la Vía Férrea, asegurando el correcto desempeño de los servicios prestados y el cumplimiento de las exigencias de Indicadores.
+Plan de Aseguramiento de la Calidad y Control, y de la Disponibilidad de la Vía Férrea, asegurando el correcto desempeno de los servicios prestados y el cumplimiento de las exigencias de Indicadores.
 Personal: Describir el perfil técnico, las funciones y la formación del personal que tendrá a su cargo la Operación del Proyecto y los requisitos de acreditación del personal de tripulaciones para los vehículos ferroviarios expedida por el Ministerio de Transporte.
 El Reglamento de Operación de Trenes deberá contener por lo menos los siguientes elementos:
 
@@ -614,9 +614,9 @@ a) Operar la Infraestructura del Proyecto de conformidad con los principios que 
 b) Cumplir con la disponibilidad parcial en los términos del artículo 2.2.2.1.13 .3 del
  Decreto 1278 de 202ly los estándares de calidad de las Unidades Funcionales de Vía Férrea y los Indicadores definidos en el Apéndice Técnico 4 de la Unidad Funcional.
 
-c) Presentar el Reglamento de Operación de Trenes - ROT en los términos y plazos señalados en este Apéndice.
+c) Presentar el Reglamento de Operación de Trenes - ROT en los términos y plazos senalados en este Apéndice.
 
-d) Prestar a los Terceros Operadores en la Vía Férrea los servicios de carácter obligatorio a que se refiere este Apéndice, en las condiciones de calidad señaladas en cada caso.
+d) Prestar a los Terceros Operadores en la Vía Férrea los servicios de carácter obligatorio a que se refiere este Apéndice, en las condiciones de calidad senaladas en cada caso.
 
 Página Í4 del
 
@@ -636,7 +636,7 @@ Será obligación del Concesionario cumplir, durante la Etapa de Preoperativa, l
 
 3.3.2 Seguridad
 
-El Concesionario debe diseñar y proveer un sistema de Seguridad en todo el Corredor del Proyecto con los equipos de movilización y comunicación necesarios de acuerdo con la Ley Aplicable y en particular el artículo 9 del Decreto 311 O de 1997.
+El Concesionario debe disenar y proveer un sistema de Seguridad en todo el Corredor del Proyecto con los equipos de movilización y comunicación necesarios de acuerdo con la Ley Aplicable y en particular el artículo 9 del Decreto 311 O de 1997.
 
 3.3.3 Atención a los Terceros Operadores
 
@@ -670,7 +670,7 @@ En caso de gran volumen de material desprendido, el Concesionario deberá garant
 
 Página Í dei(
 
-a. El Concesionario deberá mantener permanentemente un sistema de Seguridad física específico para evitar daños, vandalismo, hurtos o cualquier otra acción en contra de la integridad del Material Rodante.
+a. El Concesionario deberá mantener permanentemente un sistema de Seguridad física específico para evitar danos, vandalismo, hurtos o cualquier otra acción en contra de la integridad del Material Rodante.
 
 b. El Concesionario como administrador de la Vía Férrea entre La Dorada y Chiriguaná deberá garantizar que el Material Rodante cumpla con los requerimientos técnicos y operativos exigidos en el Contrato y por el administrador de la Vía Férrea entre Chiriguaná y Santa Marta.
 
@@ -721,7 +721,7 @@ El Concesionario estará obligado a llevar un registro de todas las operaciones 
 
 El registro de actividades e Inventario de Activos de la Concesión se gestionará a través de un software basado en tecnología de sistemas de información geográfica que deberá permitir:
 
-a) Georreferenciar cada elemento del Inventario (aparatos de vía, balasto, box culvert, cunetas y drenajes, estaciones, estado de los componentes de la superestructura - traviesas, fijaciones, rieles-, obras de fábrica, pasos a nivel, puentes, secciones transversales de Vía Férrea, señales verticales, taludes, obras de protección yo contención, como mínimo) en un modelo CAD de dos dimensiones como mínimo.
+a) Georreferenciar cada elemento del Inventario (aparatos de vía, balasto, box culvert, cunetas y drenajes, estaciones, estado de los componentes de la superestructura - traviesas, fijaciones, rieles-, obras de fábrica, pasos a nivel, puentes, secciones transversales de Vía Férrea, senales verticales, taludes, obras de protección yo contención, como mínimo) en un modelo CAD de dos dimensiones como mínimo.
 
 b) Realizar consultas sobre cualquiera de esos elementos (características, estado, tipologías, dimensiones, etc.), verificar fechas de inspecciones, videos, fotografías asociadas, etc.
 
@@ -729,7 +729,7 @@ c) Realizar búsquedas específicas en el Inventario (últimos elementos inventa
 
 d) Consultar los protocolos de atención de emergencias y contingencias, localizar y describir los recursos para su atención, todo ello de acuerdo con lo establecido en los respectivos Planes de Contingencia y Emergencia.
 
-Las actualizaciones de este sistema tendrán en cuenta las sugerencias del Interventor y de la ANI. Adicionalmente, el sistema deberá estar en línea y la ANI, podrá consultarlo y contar con acceso a él en tiempo real a través de las credenciales de acceso respectivas (usuario y contraseña) desde cualquier lugar requerido.
+Las actualizaciones de este sistema tendrán en cuenta las sugerencias del Interventor y de la ANI. Adicionalmente, el sistema deberá estar en línea y la ANI, podrá consultarlo y contar con acceso a él en tiempo real a través de las credenciales de acceso respectivas (usuario y contrasena) desde cualquier lugar requerido.
 
 Página 2 deI
 
@@ -779,7 +779,7 @@ ix. Plan de mejora.
 
 c) Registros de eventos o incidentes.
 
-d) Actuaciones sobre los elementos físicos del sistema férreo, con indicación de las características modificadas y códigos de inventario de los elementos cambiados, los cuales deberán ser actualizados en la Memoria Técnica y en el software de Inventario, junto con el informe mensual. El conjunto de modificaciones al Inventario deberá presentarse anualmente. El primer informe se entregará un (1) año después de la suscripción del Acta de Inicio o de la Fecha de Inicio.
+d) Actuaciones sobre los elementos físicos del sistema férreo, con indicación de las características modificadas y códigos de inventario de los elementos cambiados, los cuales deberán ser actualizados en la Memoria Técnica y en el software de Inventario, junto con el informe mensual. El conjunto de modificaciones al Inventario deberá presentarse anualmente. El primer informe se entregará un (1) ano después de la suscripción del Acta de Inicio o de la Fecha de Inicio.
 
 e) Información del pesaje de acuerdo al manifiesto de carga y mediante qué unidad se movilizó, tipo y clasificación de la carga; con registros diarios del número de controles, hora, tipos de vehículos y demás requisitos requeridos en este documento, en el centro de transferencia de carga.
 
@@ -787,14 +787,14 @@ f) Información resumida de condiciones meteorológicas del IDEAM.
 
 g) Emisión de informes mensuales, a través del SICC, para la ANI y la Interventoría mostrando un listado completo de cada Indicador en el período informado, de los incumplimientos en algún Indicador y el estado de las correcciones.
 
-h) A más tardar el décimo quinto (15) Día del mes siguiente a la finalización de cada mes del año, el Concesionario deberá presentar la información contable de cada mes, con detalles de ingresos por los conceptos que registren algún tipo de Ingresos por Recaudo de la Tarifa por Uso de la Infraestructura Férrea, Ingresos por Prestación de Servicios Logísticos, Ingresos por Explotación Comercial, Ingresos por Prestación del Servicio Público de Transporte Ferroviario de Carga, vigencias futuras y costos operativos, de personal, generales, extraordinarios, de entre otras cosas, así como pagos por Tarifa por Uso de la Infraestructura Férrea.
+h) A más tardar el décimo quinto (15) Día del mes siguiente a la finalización de cada mes del ano, el Concesionario deberá presentar la información contable de cada mes, con detalles de ingresos por los conceptos que registren algún tipo de Ingresos por Recaudo de la Tarifa por Uso de la Infraestructura Férrea, Ingresos por Prestación de Servicios Logísticos, Ingresos por Explotación Comercial, Ingresos por Prestación del Servicio Público de Transporte Ferroviario de Carga, vigencias futuras y costos operativos, de personal, generales, extraordinarios, de entre otras cosas, así como pagos por Tarifa por Uso de la Infraestructura Férrea.
 
 Página 1 ddj,
 
 4.2.3 Informes Anuales
 
 4.2.3.1 Informe Anual de Operación
-A más tardar el 31 de enero de cada año calendario, el Concesionario deberá presentar dos
+A más tardar el 31 de enero de cada ano calendario, el Concesionario deberá presentar dos
 (2) copias (una a la ANI y otra a la Interventoría) de los siguientes documentos con los contenidos que se especifican:
 
 a) Resumen anual del tráfico promedio diariosentido de trenes del corredor, con estadísticas y clasificación mínima por tipo de Material Rodante tractivo, remolcado, configuración de trenes, carga movilizada anual y acumulada, detallando el tipo de mercancía.
@@ -806,9 +806,9 @@ En la misma fecha del Informe Anual de Operación al que hace referencia el nume
 
 Por su parte, el Informe debe contener una descripción detallada del estado de todo el Material Rodante del Proyecto o cualquiera que se utilice para la Prestación del Servicio Público de Transporte Ferroviario de Carga, el seguimiento al Mantenimiento realizado, ubicación y seguimiento al mantenimiento del respectivo Material Rodante, datos acumulados de toneladas-kilómetro recorridos, descripción de intervenciones correctivas, entre otros.
 
-El informe contendrá además un recuento de las principales actuaciones realizadas en el año del que se informa.
+El informe contendrá además un recuento de las principales actuaciones realizadas en el ano del que se informa.
 
-El informe deberá contener, en los términos que menciona el Contrato, el Plan de Mantenimiento para toda la Infraestructura el cual corresponde pero sin limitarse a lo siguiente: Infraestructura de Vía Férrea, Superestructura de Vía Férrea, aparatos de vía, puentes, estructuras hidráulicas, apartaderos, líneas secundarias, estaciones vinculadas, infraestructura de comunicaciones, sistema de comunicaciones, señalización y control de trenes, talleres de mantenimiento, Infraestructura Logística, edificaciones, centro de control de operaciones, Equipamiento Móvil y Material Rodante a su cargo programado para la siguiente anualidad.
+El informe deberá contener, en los términos que menciona el Contrato, el Plan de Mantenimiento para toda la Infraestructura el cual corresponde pero sin limitarse a lo siguiente: Infraestructura de Vía Férrea, Superestructura de Vía Férrea, aparatos de vía, puentes, estructuras hidráulicas, apartaderos, líneas secundarias, estaciones vinculadas, infraestructura de comunicaciones, sistema de comunicaciones, senalización y control de trenes, talleres de mantenimiento, Infraestructura Logística, edificaciones, centro de control de operaciones, Equipamiento Móvil y Material Rodante a su cargo programado para la siguiente anualidad.
 
 Página 3: deg;
 
@@ -816,7 +816,7 @@ Página 3: deg;
 
 También serán entregados con una frecuencia anual los siguientes informes:
 
-a) Programación mensual de actividades de Operación y Obras de Mantenimiento para el nuevo año. Estas acciones deben basarse en los resultados de sus informes anteriores.
+a) Programación mensual de actividades de Operación y Obras de Mantenimiento para el nuevo ano. Estas acciones deben basarse en los resultados de sus informes anteriores.
 
 b) Estados financieros de acuerdo con lo establecido en el Contrato.
 
@@ -847,11 +847,11 @@ d) Memoria Técnica de acuerdo con el Contrato.
 
 e) En cualquier momento durante la ejecución del Contrato y siempre que se den las circunstancias que lo exijan conforme al Contrato, este Apéndice Técnico o a la Ley Aplicable, el Concesionario presentará a la ANI:
 
-i. Informe específico del plan de contingencias para el paso por la Concesión de un cierto transporte especial en fecha conocida. El informe deberá incluir como rmrumo Señalización propuesta, controles, precauciones y contraindicaciones de la carga, así como medidas a tomar en caso de derrame yo explosión.
+i. Informe específico del plan de contingencias para el paso por la Concesión de un cierto transporte especial en fecha conocida. El informe deberá incluir como rmrumo Senalización propuesta, controles, precauciones y contraindicaciones de la carga, así como medidas a tomar en caso de derrame yo explosión.
 
-11. Informe y archivo georreferenciado actualizado del Inventario de Activos de la Concesión que hayan sido repuestos o modificados sustancialmente: nuevos tramos de rieles, reparaciones sustanciales en estructuras, reposición de obras de drenaje o Señalización, nuevas instalaciones para el tráfico de trenes, iluminación, etc. Esta documentación se entregará el Día 5 del Mes siguiente al Mes en que se produzcan los cambios, junto con el informe mensual que corresponda y deberá incluirse en la Memoria Técnica.
+11. Informe y archivo georreferenciado actualizado del Inventario de Activos de la Concesión que hayan sido repuestos o modificados sustancialmente: nuevos tramos de rieles, reparaciones sustanciales en estructuras, reposición de obras de drenaje o Senalización, nuevas instalaciones para el tráfico de trenes, iluminación, etc. Esta documentación se entregará el Día 5 del Mes siguiente al Mes en que se produzcan los cambios, junto con el informe mensual que corresponda y deberá incluirse en la Memoria Técnica.
 
-iii. Plan de cierres programados, el dispositivo de Señalización temporal de la obra y el plan por medio del cual el Concesionario informará a las Autoridades Estatales de los municipios afectados, a las terminales de transporte y en general a la comunidad afectada acerca del cierre del tramo de la Franja Operacional. Lo anterior, con el fin de que la ANI tramite el permiso de cierre temporal o las acciones pertinentes que la Autoridad Estatal determine. Este plan no debe afectar el cumplimiento de los surcos.
+iii. Plan de cierres programados, el dispositivo de Senalización temporal de la obra y el plan por medio del cual el Concesionario informará a las Autoridades Estatales de los municipios afectados, a las terminales de transporte y en general a la comunidad afectada acerca del cierre del tramo de la Franja Operacional. Lo anterior, con el fin de que la ANI tramite el permiso de cierre temporal o las acciones pertinentes que la Autoridad Estatal determine. Este plan no debe afectar el cumplimiento de los surcos.
 #### 4.3 Archivo
 
 Todos los archivos que se produzcan con ocasión del Contrato deben dar cumplimiento a la Ley 594 de 2000 (Ley General de Archivo), Acuerdos reglamentarios y demás normatividad archivística en Colombia, y demás disposiciones vigentes, durante la ejecución del Contrato. Por lo anterior, en la Etapa de Reversión el Concesionario debe entregar su archivo bajo los
@@ -882,7 +882,7 @@ Se exceptúan los expedientes prediales que se tramitan únicamente en físico, 
 
 Para la reversión de archivos una vez terminados los contratos
 
-Es necesario que, durante la gestión de los contratos, las áreas de depósito documental cuenten con Seguridad y condiciones ambientales necesarias para la conservación de la documentación, esto incluye la fumigación de la documentación por lo menos una vez al año, que permita la desinfección y el control de hongos esporulados, bacterias celulíticas, virus, Página 1; deÍ
+Es necesario que, durante la gestión de los contratos, las áreas de depósito documental cuenten con Seguridad y condiciones ambientales necesarias para la conservación de la documentación, esto incluye la fumigación de la documentación por lo menos una vez al ano, que permita la desinfección y el control de hongos esporulados, bacterias celulíticas, virus, Página 1; deÍ
 
 ácaros del polvo y roedores, además se debe entregar previa la entrega de los archivos, lo siguiente:
  El resultado del diagnóstico microbiológico en los depósitos de archivo para detectar el porcentaje de presencia de hongos esporulados, bacterias mesófilas aplicando la tecnología de placas Petri de agar Sabouraud con antibiótico, el chequeo deberá hacerse sobre una muestra aleatoria con la captura de esporas para germinar enPDA
@@ -924,7 +924,7 @@ La entrega de medios magnéticos Disco Duro o USB debe realizarse en la caja ori
 
 Si se entregan varios de estos medios deberán venir numerados ejemplos: DD 1, DD2.
 
-Dentro de los medios magnéticos, los archivos deben tener nombres que permitan su identificación con palabras claves, que no tengan más de 32 caracteres y no consignar tildes, comas ni caracteres extraños. Si el nombre del documento es muy extenso, esto puede afectar procesos de backup, copia, migración, restauración, transferencia o compatibilidad entre sistemas de archivos.
+Dentro de los medios magnéticos, los archivos deben tener nombres que permitan su identificación con palabras claves, que no tengan más de 32 caracteres y no consignar tildes, comas ni caracteres extranos. Si el nombre del documento es muy extenso, esto puede afectar procesos de backup, copia, migración, restauración, transferencia o compatibilidad entre sistemas de archivos.
 
 Presentación de planos:
 
@@ -946,7 +946,7 @@ Los planos deben venir impresos en papel blanco de mínimo 75 gramos, cada plano
 
 ### CAPÍTULO V - REVERSIÓN
 
-De acuerdo con lo previsto en el Contrato, cuando se concluya la Etapa de Operación y Mantenimiento o cuando el Contrato se termine anticipadamente, todas las obras, bienes e Intervenciones del Contrato, según el Inventario de Activos de la Concesión, incluyendo los predios de las áreas del Corredor del Proyecto así como los Predios Adquiridos, que corresponde entre otros a la Vía Férrea, edificaciones, centro de comunicación, talleres, estaciones, Infraestructura Férrea, Infraestructura Logística, puentes, tuberías, obras de Construcción, Rehabilitación, Intervenciones mecánicas, eléctricas, el edificio de control, y todos los equipos instalados para la Operación del Proyecto, incluyendo equipos y software de computación, equipos de Señalización y telecomunicaciones, redes, los equipos de rescate, los elementos de traslado asistencial medicalizado (TAM), el Material Rodante del Proyecto y cualquier otra obra o documentación en medio físico o magnético, bien o Intervenciones que formen parte del Contrato, deberán ser entregados a la ANI sin costo alguno y libres de todo gravamen o perturbación de la propiedad.
+De acuerdo con lo previsto en el Contrato, cuando se concluya la Etapa de Operación y Mantenimiento o cuando el Contrato se termine anticipadamente, todas las obras, bienes e Intervenciones del Contrato, según el Inventario de Activos de la Concesión, incluyendo los predios de las áreas del Corredor del Proyecto así como los Predios Adquiridos, que corresponde entre otros a la Vía Férrea, edificaciones, centro de comunicación, talleres, estaciones, Infraestructura Férrea, Infraestructura Logística, puentes, tuberías, obras de Construcción, Rehabilitación, Intervenciones mecánicas, eléctricas, el edificio de control, y todos los equipos instalados para la Operación del Proyecto, incluyendo equipos y software de computación, equipos de Senalización y telecomunicaciones, redes, los equipos de rescate, los elementos de traslado asistencial medicalizado (TAM), el Material Rodante del Proyecto y cualquier otra obra o documentación en medio físico o magnético, bien o Intervenciones que formen parte del Contrato, deberán ser entregados a la ANI sin costo alguno y libres de todo gravamen o perturbación de la propiedad.
 
 El estado de las obras, bienes e Intervenciones al momento de la Reversión deberá ser el siguiente:
 
@@ -954,13 +954,13 @@ El estado de las obras, bienes e Intervenciones al momento de la Reversión debe
 
 Al momento de la Reversión el Concesionario deberá cumplir con los Valores de Aceptación de los Indicadores mínimos incluidos en el Apéndice Técnico 4.
 
-Por su parte, el Concesionario deberá realizar un Mantenimiento final preventivo, predictivo yo correctivo de acuerdo con su Plan de Mantenimiento del Material Rodante del Proyecto cualquiera que se utilice para la Prestación del Servicio Público de Transporte Ferroviario de Carga y aquel que se utilice para las labores de mantenimiento y maniobras, que permita que el mismo tenga una vida útil de mínimo 5 años después de la firma del Acta de Reversión.
+Por su parte, el Concesionario deberá realizar un Mantenimiento final preventivo, predictivo yo correctivo de acuerdo con su Plan de Mantenimiento del Material Rodante del Proyecto cualquiera que se utilice para la Prestación del Servicio Público de Transporte Ferroviario de Carga y aquel que se utilice para las labores de mantenimiento y maniobras, que permita que el mismo tenga una vida útil de mínimo 5 anos después de la firma del Acta de Reversión.
 
 Durante los primeros treinta (30) Días de la Etapa de Reversión, el Interventor y el Concesionario realizarán la medición final de los Indicadores.
 
 De encontrarse eventos en los que la Infraestructura o los equipos no cumplan con el Valor de Aceptación mínimo, el Concesionario contará con el Tiempo Máximo de Corrección previsto para el Indicador correspondiente para adecuar el estado de la Infraestructura y del Material Rodante. Una vez efectuadas las Intervenciones adicionales o vencido el Tiempo Máximo de Corrección, el Interventor procederá a efectuar una nueva medición y verificará el cumplimiento del Indicador.
 
-Si vencido el Tiempo Máximo de Corrección no se ha obtenido una medición igual o mejor al Valor de Aceptación mínimo del Indicador correspondiente, se procederá a la aplicación de Multas en los términos señalados en el Contrato, sin mediar un nuevo Plazo de Cura.
+Si vencido el Tiempo Máximo de Corrección no se ha obtenido una medición igual o mejor al Valor de Aceptación mínimo del Indicador correspondiente, se procederá a la aplicación de Multas en los términos senalados en el Contrato, sin mediar un nuevo Plazo de Cura.
 
 Página t de'
 
@@ -974,7 +974,7 @@ Sin perjuicio del cumplimiento de los demás Indicadores, al momento de la termi
 
 #### 5.4 Equipos
 
-Todos los equipos entregados, incluyendo el Material Rodante del Proyecto tanto tractivo como remolcado, deberán contar con una vida residual de por lo menos cinco (5) años más sin necesidad de reposición, a excepción de los vehículos automotores que son utilizados para labores de mantenimiento, seguridad, labores administrativas, entre otros; que deberán tener una vida residual de tres (3) años como mínimo.
+Todos los equipos entregados, incluyendo el Material Rodante del Proyecto tanto tractivo como remolcado, deberán contar con una vida residual de por lo menos cinco (5) anos más sin necesidad de reposición, a excepción de los vehículos automotores que son utilizados para labores de mantenimiento, seguridad, labores administrativas, entre otros; que deberán tener una vida residual de tres (3) anos como mínimo.
 
 En caso de que el Concesionario contrate servicios de terceros (como ambulancias, auxilio mecánico, equipo de vía, Material Rodante, y todos aquellos necesarios para la correcta prestación de servicios) al final de la Concesión está obligado a revertir a la ANI los vehículos necesarios para prestar estos servicios. Si no es propietario de este tipo de vehículos, deberá adquirirlos antes de la Reversión para poder revertirlos a la ANI.
 
@@ -1023,9 +1023,9 @@ Página 4 de:;,
 
 Estas actividades también incluyen las relacionadas con la gestión de la conservación y su componente administrativo referido a la continuidad del servicio. Por ello, el Concesionario deberá apoyar a las Autoridades Estatales en temas como, la vigilancia, etc. Por último, también se incluyen actividades de uso y defensa de la Infraestructura, tales como las encaminadas a la protección del Corredor del Proyecto y los Predios Adquiridos necesarios para la correcta ejecución del Proyecto, así como la limitación de la propiedad, la regulación y la limitación de accesos, y también el establecimiento de restricciones a la circulación de vehículos no autorizados.
 
-Actividades de Mantenimiento extraordinario (periódico): Actividades preventivas periódicas de gran envergadura que deben ser planeadas en ciclos más largos que los de la conservación correctiva rutinaria, casi siempre al final de la vida útil de cualquier elemento de la Infraestructura definida en el Contrato o cuando el desempeño . de uno de estos elementos o subsistemas ferroviarios pueda comprometer la Seguridad de la Infraestructura o en particular la disponibilidad o confiabilidad de la Infraestructura y el confort de los Usuarios de la Vía Férrea.
+Actividades de Mantenimiento extraordinario (periódico): Actividades preventivas periódicas de gran envergadura que deben ser planeadas en ciclos más largos que los de la conservación correctiva rutinaria, casi siempre al final de la vida útil de cualquier elemento de la Infraestructura definida en el Contrato o cuando el desempeno . de uno de estos elementos o subsistemas ferroviarios pueda comprometer la Seguridad de la Infraestructura o en particular la disponibilidad o confiabilidad de la Infraestructura y el confort de los Usuarios de la Vía Férrea.
 
-Actividades de Mantenimiento de emergencia (correctivo): Actividades destinadas a reparar, reconstruir o restaurar elementos obstruidos o dañados del Proyecto, corrigiendo defectos de surgimiento repentino provocados por circunstancias extraordinarias yo emergencias relacionadas con eventos de ocurrencia imprevisible. La respuesta a estos eventos, tales como accidentes o fenómenos naturales, el Concesionario debe disponer inmediatamente el equipo idóneo necesario para el Mantenimiento de emergencia, el cual deberá adoptar las medidas necesarias para garantizar la Seguridad y buen funcionamiento de todos los componentes del Proyecto. Igualmente, el Concesionario deberá apoyar a las Autoridades Estatales en temas como la respuesta a accidentes.
+Actividades de Mantenimiento de emergencia (correctivo): Actividades destinadas a reparar, reconstruir o restaurar elementos obstruidos o danados del Proyecto, corrigiendo defectos de surgimiento repentino provocados por circunstancias extraordinarias yo emergencias relacionadas con eventos de ocurrencia imprevisible. La respuesta a estos eventos, tales como accidentes o fenómenos naturales, el Concesionario debe disponer inmediatamente el equipo idóneo necesario para el Mantenimiento de emergencia, el cual deberá adoptar las medidas necesarias para garantizar la Seguridad y buen funcionamiento de todos los componentes del Proyecto. Igualmente, el Concesionario deberá apoyar a las Autoridades Estatales en temas como la respuesta a accidentes.
 
 #### 6.3 Obras de Mantenimiento Generales
 
@@ -1040,7 +1040,7 @@ b) Mantenimiento y reparación de:
 (iii) Sujeciones
 (iv) Traviesas
 (v) Cambiavías
-(vi) Sistema de señalización, comunicación y control de tráfico
+(vi) Sistema de senalización, comunicación y control de tráfico
 (vii) Instalaciones
 (viii) Elementos electromecánicos
 (ix) Entre otros.
@@ -1152,7 +1152,7 @@ Tabla 4-Tareas reparación yo corrección de rieles - fisuras.
 Fisura transversal
 
 Fisura compuesta
-Es una fractura transversal progresiva que comienza en un centro cristalino o núcleo al interior de la cabeza del riel desde donde se propaga al exterior como una superficie pulida, clara u oscura, redonda u ovalada, prácticamente en ángulo recto con la longitud del riel. Los rasgos que distinguen a una fisura transversal de otros tipos de fisuras o defectos son el centro cristalino o núcleo y la superficie casi pulida del daño que la rodea.
+Es una fractura transversal progresiva que comienza en un centro cristalino o núcleo al interior de la cabeza del riel desde donde se propaga al exterior como una superficie pulida, clara u oscura, redonda u ovalada, prácticamente en ángulo recto con la longitud del riel. Los rasgos que distinguen a una fisura transversal de otros tipos de fisuras o defectos son el centro cristalino o núcleo y la superficie casi pulida del dano que la rodea.
 Es una fractura progresiva que comienza en una grieta horizontal que sigue su curso hacia arriba o hacia abajo de la cabeza del riel con una superficie pareja, brillante u oscura, y sigue avanzando hasta formar un ángulo recto con la longitud del riel. Las fisuras compuestas requieren la inspección de ambos lados de la fractura para localizar la grieta horizontal su erior desde la cual inicia.
 Se refiere a una fractura progresiva que se origina en o cerca de la superficie de la cabeza
 
@@ -1208,7 +1208,7 @@ El Concesionario está obligado a la verificación y cumplimiento de los valores
 
 El Concesionario está obligado a la verificación y cumplimiento de los Mantenimientos preventivos y correctivos, los cuales se podrán realizar tanto de manera manual como mecánica. A continuación, se describen algunas de las Obras de Mantenimiento preventivo que se deberán cumplir, pero sin limitarse:
 
- Limpieza y depuración de balasto, el cual incluye, sin limitarse, a retirada mediante pala manual o desguarnecedora o retroexcavadora de pequeños volúmenes de balasto contaminado o en deficiente estado, así como la retirada de material orgánico de la superficie del mismo.
+ Limpieza y depuración de balasto, el cual incluye, sin limitarse, a retirada mediante pala manual o desguarnecedora o retroexcavadora de pequenos volúmenes de balasto contaminado o en deficiente estado, así como la retirada de material orgánico de la superficie del mismo.
  Mantener los anchos del balasto de acuerdo con la sección transversal incluida en las Especificaciones Técnicas de los Estudios de Detalle no objetados.
  Mantener los espesores del balasto de acuerdo con los Estudios de Detalle no objetados.
  Mantener las condiciones técnicas del balasto como; granulometría, caras fracturadas, desgaste.
@@ -1233,54 +1233,54 @@ Será obligación del Concesionario durante la vigencia del Contrato realizar la
  Presencia de hongos (traviesas de madera)
  Falta de alineación o falsa escuadra, principalmente en traviesas madrinas.
  Encontrarse quebradas de un extremo al otro
- Presentar rajaduras u otros daños en tal medida que permitan que el balasto lo penetre o que no pueda retener las fijaciones del riel.
+ Presentar rajaduras u otros danos en tal medida que permitan que el balasto lo penetre o que no pueda retener las fijaciones del riel.
  Encontrarse tan deterioradas que se visualicen los refuerzos para aquellas de concreto.
  Encontrarse tan deterioradas que la placa de asiento o la base del riel puedan moverse lateralmente.
 
-6. 4.1 O Pasos a nivel: Barreras, semáforos, alarmas, señales verticales, defensasy elementos de contención
+6. 4.1 O Pasos a nivel: Barreras, semáforos, alarmas, senales verticales, defensasy elementos de contención
 
 Las intersecciones a un mismo nivel de una vía común con una Vía Férrea se les conoce como pasos a nivel, a los cuales el Concesionario deberá realizar los trabajos de conservación, reparación y reposición necesarios para cumplir con lo estipulado en este numeral y, con lo especificado en el AT-3 para que se garantice el cumplimiento de los Indicadores del AT-4 y con las condiciones del Contrato.
 
 Para asegurar el trabajo normal de los pasos a nivel es necesario que el Concesionario realice las siguientes actividades, pero sin limitarse:
 
 Cambiar a tiempo los elementos de protección del paso a nivel por deterioro. Mantenimiento de la losa de concreto de cruce, cuando aplica.
-Limpieza de la pestaña de rodadura.
+Limpieza de la pestana de rodadura.
 Reemplazar el balasto sucio y los durmientes defectuosos. Nivelar la vía.
 No admitir la acumulación y estancamiento de agua en la zona del paso a nivel. Mantenimientos periódicos, cambio yo reparación de los guarda rieles, cuando aplica.
-Mantener en buen estado las señales preventivas tanto de la Vía Férrea como de aquellas señales sobre vías vehiculares, conforme al manual de señalización del
+Mantener en buen estado las senales preventivas tanto de la Vía Férrea como de aquellas senales sobre vías vehiculares, conforme al manual de senalización del
 
 Página ti) de{
 
 Ministerio de Transporte.
-Mantenimiento de la Señalización horizontal, conforme a lo indicado en el manual de señalización del Ministerio de Transporte.
+Mantenimiento de la Senalización horizontal, conforme a lo indicado en el manual de senalización del Ministerio de Transporte.
 Mantenimiento de los sistemas de comunicación.
 
-Todos los tipos de barreras deberán estar libres de defectos estructurales. Para determinar su ubicación, tipo, situación, altura y separación de obstáculos se dará cumplimiento con la normativa técnica aplicable listada en el Apéndice Técnico 3 (manual de señalización del Ministerio de Transporte).
+Todos los tipos de barreras deberán estar libres de defectos estructurales. Para determinar su ubicación, tipo, situación, altura y separación de obstáculos se dará cumplimiento con la normativa técnica aplicable listada en el Apéndice Técnico 3 (manual de senalización del Ministerio de Transporte).
 
 Los materiales empleados en las protecciones deberán cumplir como rrummo con lo establecido en la normativa técnica aplicable listada en el Apéndice Técnico 3.
 
-El Interventor formulará un reporte especial de los casos en que se presenten defectos. El Concesionario deberá sustituir o corregir los elementos dañados tan pronto como lo advierta o le sea indicado por el Interventor o por la ANI, siempre buscando cumplir con los Indicadores descritos en el Apéndice Técnico 4.
+El Interventor formulará un reporte especial de los casos en que se presenten defectos. El Concesionario deberá sustituir o corregir los elementos danados tan pronto como lo advierta o le sea indicado por el Interventor o por la ANI, siempre buscando cumplir con los Indicadores descritos en el Apéndice Técnico 4.
 
-6.4.11 Señalización Vertical y Señalización Horizontal en pasos a nivel.
+6.4.11 Senalización Vertical y Senalización Horizontal en pasos a nivel.
 
-El Concesionario deberá realizar los trabajos de limpieza periódica, de al menos una vez al mes, conservación, y reparación necesarios para cumplir en todo caso con lo estipulado en este numeral y, además, asegurar el cumplimiento de lo especificado para los Indicadores, incluidos en el Apéndice Técnico 4 y lo definido en el Apéndice Técnico 3 y el Apéndice Técnico 1 (manual de señalización del Ministerio de Transporte)
-El Concesionario deberá asegurar, durante toda la vigencia del Contrato y en todo momento los indicadores del Apéndice Técnico 4, tanto de la Señalización horizontal como de la Señalización vertical en los sitios de pasos a nivel, el cumplimiento de las normas vigentes y listadas en el Apéndice Técnico 3. Será obligación del Concesionario incluir en su Manual de Operación y Mantenimiento de la Infraestructura Férrea el "plan de manejo de tránsito" que deberá estar acorde a su Reglamento de Operación de Trenes.
+El Concesionario deberá realizar los trabajos de limpieza periódica, de al menos una vez al mes, conservación, y reparación necesarios para cumplir en todo caso con lo estipulado en este numeral y, además, asegurar el cumplimiento de lo especificado para los Indicadores, incluidos en el Apéndice Técnico 4 y lo definido en el Apéndice Técnico 3 y el Apéndice Técnico 1 (manual de senalización del Ministerio de Transporte)
+El Concesionario deberá asegurar, durante toda la vigencia del Contrato y en todo momento los indicadores del Apéndice Técnico 4, tanto de la Senalización horizontal como de la Senalización vertical en los sitios de pasos a nivel, el cumplimiento de las normas vigentes y listadas en el Apéndice Técnico 3. Será obligación del Concesionario incluir en su Manual de Operación y Mantenimiento de la Infraestructura Férrea el "plan de manejo de tránsito" que deberá estar acorde a su Reglamento de Operación de Trenes.
 
-6.4.12 Señales Verticales sobre la Vía Férrea y vías vehiculares.
+6.4.12 Senales Verticales sobre la Vía Férrea y vías vehiculares.
 
-El Concesionario deberá asegurar que las señales verticales tengan una reflectividad de los valores requeridos en las normas fijadas en el Apéndice Técnico 3, y demás disposiciones vigentes. En caso de que los valores sean inferiores será necesaria la reposición inmediata de las señales, según los plazos y a la regulación establecida en el Apéndice Técnico 4.
+El Concesionario deberá asegurar que las senales verticales tengan una reflectividad de los valores requeridos en las normas fijadas en el Apéndice Técnico 3, y demás disposiciones vigentes. En caso de que los valores sean inferiores será necesaria la reposición inmediata de las senales, según los plazos y a la regulación establecida en el Apéndice Técnico 4.
 
-El Concesionario efectuará la evaluación utilizando los formatos que se consideren, previa autorización de la Interventoría, o los que por expresa disposición de la Ley Aplicable se tengan definidos y en ellos se consignará la evaluación correspondiente para cada uno de los aspectos considerados en el sistema de control para la Señalización.
+El Concesionario efectuará la evaluación utilizando los formatos que se consideren, previa autorización de la Interventoría, o los que por expresa disposición de la Ley Aplicable se tengan definidos y en ellos se consignará la evaluación correspondiente para cada uno de los aspectos considerados en el sistema de control para la Senalización.
 
-El Concesionario deberá sustituir la Señalización yo los dispositivos de Señalización Página s;i del6
+El Concesionario deberá sustituir la Senalización yo los dispositivos de Senalización Página s;i del6
 
-dañados de manera inmediata tan pronto como lo advierta o le sea comunicado por la Interventoría o la ANI, , así como cuando se advierta que la falta, avería o mala reflectividad de un dispositivo puedan generar peligro de accidentes. Lo anterior, sin perjuicio de la imposición de Multas o la aplicación de Deducciones sobre la Retribución pertinentes.
+danados de manera inmediata tan pronto como lo advierta o le sea comunicado por la Interventoría o la ANI, , así como cuando se advierta que la falta, avería o mala reflectividad de un dispositivo puedan generar peligro de accidentes. Lo anterior, sin perjuicio de la imposición de Multas o la aplicación de Deducciones sobre la Retribución pertinentes.
 
-Reflectividad de las señales: Todas las señales de tránsito deberán fabricarse con material retlectivo, conforme a las especificaciones y demás disposiciones vigentes para tal fin.
+Reflectividad de las senales: Todas las senales de tránsito deberán fabricarse con material retlectivo, conforme a las especificaciones y demás disposiciones vigentes para tal fin.
 
 6. 4.13 Demarcación Horizontal vías vehiculares.
 
-La Instalación se hará conforme a lo indicado en el manual de señalización del Ministerio de Transporte en las vías con pavimentos hidráulicos o asfálticos.
+La Instalación se hará conforme a lo indicado en el manual de senalización del Ministerio de Transporte en las vías con pavimentos hidráulicos o asfálticos.
 
 La evaluación se efectuará respecto al estado físico de las líneas demarcadas, midiendo el porcentaje de reflectancia con un reflectómetro de acuerdo con las normas y procedimientos establecidos por el Ministerio de Transporte de Colombia.
 
@@ -1292,7 +1292,7 @@ En caso de que se presenten deficiencias en el funcionamiento de la iluminación
 
 6.4.15 Drenajes
 
-El Concesionario deberá realizar los trabajos de inspección y Mantenimiento, teniendo en cuenta las especificaciones que se presentan en el Apéndice Técnico 3 para estructuras de drenaje, su conservación, reparación y reconstrucción necesarios para cumplir con lo estipulado en este numeral y asegurar el cumplimiento de lo especificado por el Indicador de mantenimiento de drenaje, de conformidad con lo señalado en el Apéndice Técnico 4.
+El Concesionario deberá realizar los trabajos de inspección y Mantenimiento, teniendo en cuenta las especificaciones que se presentan en el Apéndice Técnico 3 para estructuras de drenaje, su conservación, reparación y reconstrucción necesarios para cumplir con lo estipulado en este numeral y asegurar el cumplimiento de lo especificado por el Indicador de mantenimiento de drenaje, de conformidad con lo senalado en el Apéndice Técnico 4.
 
 Entre otras actividades, el Concesionario se obliga a realizar todas las actividades tendientes a garantizar el adecuado drenaje de las aguas de escorrentía mediante la limpieza, reparación yo reconstrucción de las obras de arte. Estas labores deberán hacer parte del mantenimiento rutinario o cíclico, para lo cual el Concesionario deberá contar con personal calificado y con la maquinaria y los equipos que sean necesarios para su pronta ejecución.
 
@@ -1301,7 +1301,7 @@ Página dejJj
 
 6. 4.15.1 Limpieza de obras de drena;e
 
-El Concesionario se obliga a mantener las cunetas, zanjas de coronación, encoles, descoles, canales, obras de arte, puentes, barandas, lechos de ríos y cursos de agua libres de obstáculos, derrumbes o deslizamientos que puedan restringir o interrumpir el tránsito o dificultar el flujo de aguas de escorrentía hacia las obras de drenaje o subdrenaje. El Concesionario deberá remover los obstáculos o escombros y transportarlos a lugares autorizados como botaderos y depositarlos mediante procedimientos que cumplan con las normas ambientales vigentes y en general con la Ley Aplicable, sin perjuicio de la obligación del Concesionario en cuanto al cumplimiento de los Indicadores en materia de estado de drenajes, en los términos señalados en el Apéndice Técnico 4.
+El Concesionario se obliga a mantener las cunetas, zanjas de coronación, encoles, descoles, canales, obras de arte, puentes, barandas, lechos de ríos y cursos de agua libres de obstáculos, derrumbes o deslizamientos que puedan restringir o interrumpir el tránsito o dificultar el flujo de aguas de escorrentía hacia las obras de drenaje o subdrenaje. El Concesionario deberá remover los obstáculos o escombros y transportarlos a lugares autorizados como botaderos y depositarlos mediante procedimientos que cumplan con las normas ambientales vigentes y en general con la Ley Aplicable, sin perjuicio de la obligación del Concesionario en cuanto al cumplimiento de los Indicadores en materia de estado de drenajes, en los términos senalados en el Apéndice Técnico 4.
 
 Las tareas de limpieza deben realizarse dentro del Corredor del Proyecto e incluso fuera de él cuando se prevean problemas de drenaje o estabilidad de estructuras.
 
@@ -1311,7 +1311,7 @@ El Concesionario se obliga a realizar todas las actividades tendientes a garanti
 
 6.4.16 Limpieza de Infraestructura
 
-El Concesionario deberá ejecutar los trabajos de limpieza general al Corredor del Proyecto, zonas de parqueo, maniobras, accesos a talleres y rocería en los taludes en corte. Incluye todas las labores necesarias para mantener dichas zonas libres de basura y obstáculos, ramas, troncos, piedras, animales muertos, señales, avisos, vallas y demás objetos que impidan la visibilidad, el tránsito y el drenaje de la Infraestructura o que generen peligro para la Seguridad del tránsito, sin límite de cuantía en lo referido al volumen y su acarreo.
+El Concesionario deberá ejecutar los trabajos de limpieza general al Corredor del Proyecto, zonas de parqueo, maniobras, accesos a talleres y rocería en los taludes en corte. Incluye todas las labores necesarias para mantener dichas zonas libres de basura y obstáculos, ramas, troncos, piedras, animales muertos, senales, avisos, vallas y demás objetos que impidan la visibilidad, el tránsito y el drenaje de la Infraestructura o que generen peligro para la Seguridad del tránsito, sin límite de cuantía en lo referido al volumen y su acarreo.
 
 El Concesionario realizará las inspecciones dentro de sus obligaciones y a petición de la Interventoría, por lo general después de las actividades de rocería para apreciar mejor la basura oculta entre la vegetación, y realizando recuentos visuales de los elementos que conforman la Infraestructura.
 
@@ -1375,7 +1375,7 @@ Parágrafo: Respecto a los bienes de interés cultural de naturaleza inmueble y 
 
 De conformidad con lo establecido en el Decreto 1080 de 2015, "Por medio del cual se expide el Decreto Único Reglamentario del Sector Cultura" y el Artículo 2.4.1 .4.4. Tipos de obras para BIC inmuebles, el Concesionario, para el Mantenimiento y la protección de los inmuebles deberán tener en cuenta, entre otras, las siguientes actividades:
 
- Primeros auxilios: según lo establecido en el Artículo 2.4.1.4.4 del Decreto 1080 de 2015 los primeros auxilios consisten en "Obras urgentespor realizar en un inmueble que se encuentre en peligro de ruina o riesgo inminente, o que haya sufrido daños por agentes naturales opor la acción humana. Incluye accionesy obras provisionales de protección para detener o prevenir daños mayores". Por tal razón, el Concesionario deberá implementar sobrecubiertas y cerramientos en aquellas estaciones que se encuentran en ruinas y que se describen en el Apéndice Técnico 1.
+ Primeros auxilios: según lo establecido en el Artículo 2.4.1.4.4 del Decreto 1080 de 2015 los primeros auxilios consisten en "Obras urgentespor realizar en un inmueble que se encuentre en peligro de ruina o riesgo inminente, o que haya sufrido danos por agentes naturales opor la acción humana. Incluye accionesy obras provisionales de protección para detener o prevenir danos mayores". Por tal razón, el Concesionario deberá implementar sobrecubiertas y cerramientos en aquellas estaciones que se encuentran en ruinas y que se describen en el Apéndice Técnico 1.
 
 Página 1 deij
 
@@ -1428,7 +1428,7 @@ con la periodicidad mínima indicada en el Apéndice Técnico 4. Además, selecc
 
 El Concesionario se obliga a realizar mantenimientos periódicos yo rutinarios a todo el Material Rodante del Proyecto o cualquiera que se utilice para la Prestación del Servicio Público de Transporte Ferroviario de Carga, de acuerdo con lo establecido en el Manual de Operación y Mantenimiento del Material Rodante del Proyecto que sea aprobado por la ANI yo la lnterventoría.
 
-Cabe señalar que lo consignado en la Tabla 6 únicamente es de referencia y se podrá presentar alguna variación de frecuencias, actividades, duración y nivel de complejidad del Mantenimiento, en función de las marcas, manuales, referencias, nivel tecnológico del Material Rodante, así como de las prácticas yo filosofía de Mantenimiento propuestos por el Concesionario y no objetados por la lnterventoría y la ANI.
+Cabe senalar que lo consignado en la Tabla 6 únicamente es de referencia y se podrá presentar alguna variación de frecuencias, actividades, duración y nivel de complejidad del Mantenimiento, en función de las marcas, manuales, referencias, nivel tecnológico del Material Rodante, así como de las prácticas yo filosofía de Mantenimiento propuestos por el Concesionario y no objetados por la lnterventoría y la ANI.
 
 Tabla 6-Descripción Mantenimiento Material Rodante Tractivo.
 
@@ -1436,10 +1436,10 @@ Tabla 6-Descripción Mantenimiento Material Rodante Tractivo.
 8000 Km (o máximo 30 días) Mensual 8 MR8
 20000 Km (o máximo 120 Trimestral 16 MR20
 40000 Km (o máximo 240 Semestral 48 MRR40 días
-80000 Km (o máximo 1 año) Anual 96 MR80
-160000 Km (o máximo 2 años) Reparación 2 años 1 mes RP 160
-320000 Km (o máximo 4 años) Reparación 4 años 1 mes RP 320
-500000 Km (o máximo 8 años) Reparación General 4 meses RP 500
+80000 Km (o máximo 1 ano) Anual 96 MR80
+160000 Km (o máximo 2 anos) Reparación 2 anos 1 mes RP 160
+320000 Km (o máximo 4 anos) Reparación 4 anos 1 mes RP 320
+500000 Km (o máximo 8 anos) Reparación General 4 meses RP 500
 
 MR-2 Revisión de 2000 km para locomotoras Diésel Eléctricas MR-8 Revisión de 8000 km para locomotoras Diésel Eléctricas MR-20 Revisión de 20.000 km para locomotoras Diésel Eléctricas MR-40 Revisión de 40.000 km para locomotoras Diésel Eléctricas MR-80 Revisión de 80.000 km para locomotoras Diésel Eléctricas
 
@@ -1458,7 +1458,7 @@ Para el Mantenimiento de 80000 Kilómetros (MR-80), aparte de las actividades pl
 
 Las reparaciones del tipo RP-160 Y RP-320 están destinadas a la restauración de los Indicadores operativos de las locomotoras, mediante calibraciones, reparaciones o sustitución de equipos yo componentes desajustados, desgastados, rotos. Además, la condición de los elementos restantes es verificada eliminando los defectos si así fuese necesario.
 (
-En el ciclo RP- 500 se realizan reparaciones mayores, buscando renovar completamente los equipos de las locomotoras rehabilitando los equipos que presentan fallas o que afectan el desempeño de la locomotora, tales como motores de combustión interna, compresores, motores eléctricos, generador de las locomotoras, bastidores, cabina etc.
+En el ciclo RP- 500 se realizan reparaciones mayores, buscando renovar completamente los equipos de las locomotoras rehabilitando los equipos que presentan fallas o que afectan el desempeno de la locomotora, tales como motores de combustión interna, compresores, motores eléctricos, generador de las locomotoras, bastidores, cabina etc.
 
 Página, de
 
@@ -1480,7 +1480,7 @@ Reparaciones R3: Es la reparación pesada donde adicionalmente a las relacionada
 
 El Concesionario deberá mantener y reparar todos los componentes de las estructuras de la Vía Férrea, tanto de la superestructura como de la Infraestructura, durante el plazo del Contrato.
 
-Las estructuras incluyen los puentes, muros de acompañamiento, muros de contención, alcantarillas de cajón, alcantarillas y cunetas.
+Las estructuras incluyen los puentes, muros de acompanamiento, muros de contención, alcantarillas de cajón, alcantarillas y cunetas.
 
 Todas las actividades relacionadas con el Mantenimiento de la Infraestructura deberán incluirse en el Programa de Operación y Mantenimiento durante la ejecución del Contrato y deberán coordinarse con la Interventoría al menos un (1) mes antes de su realización.
 
@@ -1488,11 +1488,11 @@ El Concesionario será responsable de suministrar a la ANI información correcta
 
 Todos los estudios y obras necesarias para Mantener la Infraestructura deberán elaborarse conforme a las normas dispuestas en el Apéndice Técnico 3.
 
-Con el fin de detectar daños que afecten la estabilidad, resistencia y durabilidad de las estructuras, éstas serán objeto de un monitoreo permanente para informar a la Interventoría y a la ANI y repararlos en forma oportuna a cuenta y riesgo del Concesionario.
+Con el fin de detectar danos que afecten la estabilidad, resistencia y durabilidad de las estructuras, éstas serán objeto de un monitoreo permanente para informar a la Interventoría y a la ANI y repararlos en forma oportuna a cuenta y riesgo del Concesionario.
 
 Evaluación de la resistencia: Las estructuras de puentes existentes se deberán evaluar de acuerdo a las especificaciones de las normas descritas en el Apéndice Técnico 3. La evaluación deberá comprender la superestructura y la infraestructura del puente y llevará a conocer los datos con los cuales se revisará el diseno de la estructura existente y se procederá a su refuerzo en caso necesario.
 
-Evaluación de la durabilidad: Las estructuras se sujetarán a una inspección detallada para detectar fisuras, carbonatación, corrosión o cualquier otro signo que indique la posibilidad de reducción de su vida útil. Se harán todos los ensayos requeridos para evaluar los deterioros y diseñar las reparaciones o reforzamientos que eventualmente sean necesarios. Los resultados de estos ensayos y los disenos para las reparaciones deberán ser presentados a la Interventoría.
+Evaluación de la durabilidad: Las estructuras se sujetarán a una inspección detallada para detectar fisuras, carbonatación, corrosión o cualquier otro signo que indique la posibilidad de reducción de su vida útil. Se harán todos los ensayos requeridos para evaluar los deterioros y disenar las reparaciones o reforzamientos que eventualmente sean necesarios. Los resultados de estos ensayos y los disenos para las reparaciones deberán ser presentados a la Interventoría.
 
 Evaluación de la estabilidad: A través de una inspección de las pilas que conforman los soportes estructurales del puente y las condiciones de las estructuras de entrega de la estructura metálica del puente al terraplén en las márgenes de los cauces, incluyendo aspectos relacionados con la socavación.
 
@@ -1512,9 +1512,9 @@ Presencia de fisuras. Se deberá revisar la presencia de fisuras, y si existen, 
 
 Pérdida del revestimiento y superficies afectadas por carbonatación. Toda pérdida de integridad del concreto, como descascaramientos, roturas, o recubrimientos, debida a golpes o cualquier efecto, deberá ser reparada. Igualmente, toda parte de la estructura en la que haya evidencia de carbonatación o pérdida de la capacidad del recubrimiento para evitar la oxidación del acero de refuerzo, deberá ser reparada mediante una actividad de saneado adecuada, verificada por la Interventoría.
 
-Estado de los apoyos de neopreno. Los aparatos de apoyo deberán ser mantenidos en perfecto estado operativo. Todo apoyo que presente daños o degradación deberá ser reemplazado.
+Estado de los apoyos de neopreno. Los aparatos de apoyo deberán ser mantenidos en perfecto estado operativo. Todo apoyo que presente danos o degradación deberá ser reemplazado.
 
-Estado de apoyos metálicos tales como rótulas y balancines. Deberán ser mantenidos en estado operativo. Todo apoyo que presente daños o funcionamiento defectuoso deberá ser reparado o reemplazado.
+Estado de apoyos metálicos tales como rótulas y balancines. Deberán ser mantenidos en estado operativo. Todo apoyo que presente danos o funcionamiento defectuoso deberá ser reparado o reemplazado.
 
 Revisión de las estructuras metálicas que conforman el cuerpo del puente.
 
@@ -1522,18 +1522,18 @@ Estado de los elementos de acero estructural, tales como barandas, vigas porta r
 
 Verificación de corrosión yo pérdida del recubrimiento. Toda estructura metálica en la que se compruebe pérdida del recubrimiento por medición del espesor u oxidación deberá ser reparada total o parcialmente, según se requiera.
 
-Si hay sospecha de una pérdida de la sección estructural que comprometa su resistencia a la carga con el factor de Seguridad establecido por las normas, se deberá investigar mediante mediciones y ensayos adecuados. Igualmente, si hay una pérdida significativa de recubrimiento, se deberá diseñar un sistema y un procedimiento de reforzamiento para los elementos afectados.
+Si hay sospecha de una pérdida de la sección estructural que comprometa su resistencia a la carga con el factor de Seguridad establecido por las normas, se deberá investigar mediante mediciones y ensayos adecuados. Igualmente, si hay una pérdida significativa de recubrimiento, se deberá disenar un sistema y un procedimiento de reforzamiento para los elementos afectados.
 
-Todos los elementos afectados por pérdida de sección, abolladuras, pandeo, carencia de pernos o remaches, daños en las soldaduras como fallas, fisuras, porosidad o socavación, etc. ya sean miembros o conexiones, que presenten daños significativos, deberán ser reparados y verificados por el personal de la Interventoría, quien los presentará para satisfacción de la ANI.
+Todos los elementos afectados por pérdida de sección, abolladuras, pandeo, carencia de pernos o remaches, danos en las soldaduras como fallas, fisuras, porosidad o socavación, etc. ya sean miembros o conexiones, que presenten danos significativos, deberán ser reparados y verificados por el personal de la Interventoría, quien los presentará para satisfacción de la ANI.
 
 Cualquier falla estructural deberá ser investigada. Si el estudio concluye que la falla se ha producido por sobreesfuerzos, deberán preparase los correspondientes estudios, disenos y trabajos necesarios para el reforzamiento de la estructura afectada, y si es necesario se deberá suspender o limitar el tráfico.
 Página j de{I,
 
 Los resultados de la inspección, incluidas sus conclusiones, se reportarán en el informe gerencial mensual y en la Memoria Técnica, en el que asimismo se indicará si se requieren inspecciones más detalladas para las que se requieran ensayos, toma de muestras y mediciones en campo.
 
-Las estructuras que presenten algún desplazamiento producido por circunstancias externas deberán ser intervenidas según se requiera, para un perfecto alineamiento final. En ese caso, se deberán elaborar los estudios requeridos, diseñar y construir los recalces, las protecciones y demás obras necesarias para el buen funcionamiento de las estructuras.
+Las estructuras que presenten algún desplazamiento producido por circunstancias externas deberán ser intervenidas según se requiera, para un perfecto alineamiento final. En ese caso, se deberán elaborar los estudios requeridos, disenar y construir los recalces, las protecciones y demás obras necesarias para el buen funcionamiento de las estructuras.
 
-Se deberán elaborar los estudios, disenos y se ejecutarán las obras requeridas para la corrección de fallas en las estructuras debidas a la cimentación, tales como asentamientos excesivos, asentamientos diferenciales u otros daños.
+Se deberán elaborar los estudios, disenos y se ejecutarán las obras requeridas para la corrección de fallas en las estructuras debidas a la cimentación, tales como asentamientos excesivos, asentamientos diferenciales u otros danos.
 
 Todos los procedimientos de reparación, refuerzo, reemplazo o renovación citados deberán tomar en cuenta las limitaciones al tráfico, y sus recomendaciones deberán ser sometidas a consideración de la Interventoría. Estas recomendaciones deberán prever, entre otros, las suspensiones de tráfico necesario y los procedimientos constructivos a utilizar en cada caso, los cuales deberán ser previamente presentados y coordinados con la Interventoría para su revisión y comentarios.
 
@@ -1549,10 +1549,10 @@ El Concesionario deberá realizar inspección periódica de pavimentos rígidos 
 
 Las Obras de Mantenimiento específico que deberá desarrollar el Concesionario deberán obedecer a un protocolo que deberá incluir y considerar las siguientes periodicidades de intervención:
 
-PA - Plurianual (cada varios años)
+PA - Plurianual (cada varios anos)
 Página deI
 
-A - Anual (cada año)
+A - Anual (cada ano)
 S - Semestral
 T - Trimestral
 M -Mensual
@@ -1569,7 +1569,7 @@ Para las Obras de Mantenimiento el Concesionario deberá desarrollar una matriz 
 
 El Concesionario, sin perjuicio de la obligación de Mantenimiento definida en el Contrato, cumplirá con los Mantenimientos que se mencionan a continuación para conservar las estructuras y evitar su deterioro:
 
-Mantenimiento preventivo: Se centra en reducir las averías en los equipos e instalaciones eliminando las causas. Se deben realizar por inspecciones, verificaciones y pequeñas revisiones.
+Mantenimiento preventivo: Se centra en reducir las averías en los equipos e instalaciones eliminando las causas. Se deben realizar por inspecciones, verificaciones y pequenas revisiones.
 
 Mantenimiento de uso (M.U.S): Se establece mediante el usuario del mueble o inmueble empleando formularios que diligencian estos, describiendo las deficiencias, y se entregan al personal de mantenimiento.
 
@@ -1586,8 +1586,8 @@ Página de
 Mantenimiento conductivo: Acciones continuadas de control de las variables de las instalaciones para mantener el clima adecuado de confort y Seguridad dentro del edificio.
 Mantenimiento predictivo: Detectar una falla antes de que suceda para dar tiempo a corregirla sin perjuicios al servicio, ni detención del uso de la instalación. Estos controles pueden llevarse a cabo de forma periódica o continua en función del tipo de instalaciones. Para este tipo de Mantenimiento se utilizarán instrumentos de diagnóstico, aparatos y pruebas no destructivas.
 
-VoBo: Adriana María Montañez Saenz - VE p.MS
-Fredy Leandro Espejo Fandiño - VE 
+VoBo: Adriana María Montanez Saenz - VE p.MS
+Fredy Leandro Espejo Fandino - VE 
 
 
 ---

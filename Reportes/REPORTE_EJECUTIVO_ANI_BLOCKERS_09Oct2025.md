@@ -29,30 +29,30 @@
 
 ### **SOLICITUD 1: DEFINICIÓN SISTEMA PTC/PTC VIRTUAL L2** 🔴 **URGENTE**
 
-**REF:** AT3 - Capítulo VIII (Sistemas de Señalización y Control de Trenes)
+**REF:** AT3 - Capítulo VIII (Sistemas de Senalización y Control de Trenes)
 
 **HALLAZGO:**
 
 AT3 menciona sistemas diferentes sin definir cuál implementar:
 - **PTC** (Positive Train Control - AAR Americano) - Línea 289 AT3
-- **CTC** con protocolo Adif (Español) - Líneas 529-532 AT3
-- **Enclavamientos** normas Adif ET/NAS (Español) - Líneas 506-524 AT3
+- **CTC** con protocolo Adif (Espanol) - Líneas 529-532 AT3
+- **Enclavamientos** normas Adif ET/NAS (Espanol) - Líneas 506-524 AT3
 - ❌ **NO menciona:** PTC (Incremental Train Control System)
 - ❌ **NO menciona:** PTC Virtual (FRA 236) (European Train Control System)
 
 **Análisis A.1 (línea 49):**
-> "Diseñar 5 enclavamientos electrónicos y un sistema **PTC**"
+> "Disenar 5 enclavamientos electrónicos y un sistema **PTC**"
 
 **Análisis A.3 - Riesgo R-TEC-002:**
 > "Indefinición de especificaciones PTC en AT3 bloquea diseno de material rodante"
 
 **PROBLEMA:**
-- Normas de 3 países diferentes (USA, España, Europa)
+- Normas de 3 países diferentes (USA, Espana, Europa)
 - **NO hay definición clara** de cuál sistema prevalece
 - Base datos proyecto dice "PTC PTC Virtual (FRA 236)" (NO en contrato)
 
 **IMPACTO:**
-- 🔴 60% de Capítulo 1 (Control y Señalización) **BLOQUEADO**
+- 🔴 60% de Capítulo 1 (Control y Senalización) **BLOQUEADO**
 - 🔴 Valor en riesgo: **$132,228M COP**
 - 🔴 Diseno de detalle **SUSPENDIDO**
 - 🔴 Especificaciones de compra **NO SE PUEDEN ELABORAR**
@@ -72,10 +72,10 @@ AT3 menciona sistemas diferentes sin definir cuál implementar:
    - Lead time: 12 meses
    - Normativa: FRA/AREMA, CENELEC
 
-3. **CTC Adif** (Sistema español)
+3. **CTC Adif** (Sistema espanol)
    - Costo estimado: $10M USD
    - Lead time: 11 meses
-   - Normativa: Adif (España)
+   - Normativa: Adif (Espana)
 
 4. **Solución Híbrida** (definir arquitectura específica)
    - Costo estimado: Por definir
@@ -132,7 +132,7 @@ PMO asumirá normas mixtas con diseno de gateway interoperable según FRA/AREMA 
 **45 días desde HOY**
 
 **PLAN B (si no hay respuesta Mes 5):**
-PMO asumirá cronograma genérico: Entrega M20 (escalonada M20-30), diseñando secuencia de Puesta a Punto adaptable a cronograma real. Certificación en banco de pruebas si MR no está disponible.
+PMO asumirá cronograma genérico: Entrega M20 (escalonada M20-30), disenando secuencia de Puesta a Punto adaptable a cronograma real. Certificación en banco de pruebas si MR no está disponible.
 
 **Responsable PMO:** PMO + Gerencia Operaciones
 
@@ -331,7 +331,7 @@ Concesionario entregará documento "Compatibilidad MR" con gateway FRA/AREMA 918
 ## ✅ **PLAN B DOCUMENTADO (Si no hay respuesta)**
 
 ### **Para BLOCKER-001 (PTC):**
-- Diseñar con normas mixtas AAR + Adif + FRA/AREMA
+- Disenar con normas mixtas AAR + Adif + FRA/AREMA
 - Gateway interoperable multi-protocolo
 - Documentación completa de supuestos
 - Costo adicional: $0 (incluido en contingencia)

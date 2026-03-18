@@ -12,7 +12,7 @@ La Ingeniería Conceptual define los pilares tecnológicos del corredor férreo 
 
 ### 2. DEFINICIÓN DE SISTEMAS RECTORES
 
-#### **A. SEÑALIZACIÓN Y CONTROL: PTC VIRTUAL**
+#### **A. SENALIZACIÓN Y CONTROL: PTC VIRTUAL**
 - **Sustitución Radical:** Se elimina cualquier rastro de PTC Alstom o PTC Virtual (FRA 236) por no ser estándares abiertos o por sobrecostos injustificados.
 - **Estándar:** **PTC Virtual (FRA 236 Subpart I)**.
 - **Arquitectura:** Servidor Vital en configuración **2oo3 (Triple Redundancia Modular)**.

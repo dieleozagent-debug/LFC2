@@ -29,13 +29,13 @@ Se ha detectado una **desalineación crítica** entre los **Criterios Técnicos 
 
 | Documento | Criterio Afectado | Desviación | Impacto Presupuestal | Esfuerzo | Estado |
 |:----------|:------------------|:-----------|:---------------------|:---------|:------:|
-| **WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná.html** | Virtual Balise (GNSS)s + Señalización en Cabina (Cab-Signaling) + Servidor PTC Central | 1,080 + 270 + 2 unidades | -$54,000,000,000 | Alto | ⏳ Pendiente |
-| **V.1_Señalizacion_Ferroviaria_Detalle_v1.0.md** | Filosofía señalización | Física → Virtual | -$64,000,000,000 | Alto | ⏳ Pendiente |
+| **WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná.html** | Virtual Balise (GNSS)s + Senalización en Cabina (Cab-Signaling) + Servidor PTC Central | 1,080 + 270 + 2 unidades | -$54,000,000,000 | Alto | ⏳ Pendiente |
+| **V.1_Senalizacion_Ferroviaria_Detalle_v1.0.md** | Filosofía senalización | Física → Virtual | -$64,000,000,000 | Alto | ⏳ Pendiente |
 | **V.2_Centro_Control_Trafico_CTC_Detalle_v1.0.md** | Arquitectura CTC | Servidor PTC Central eliminado | -$2,000,000,000 | Alto | ⏳ Pendiente |
 | **V.3_Sistemas_Comunicacion_Detalle_v1.0.md** | TETRA + Red Vital IP / TETRA | 33→37 + Agregar 37 | +$1,484,000,000 | Alto | ⏳ Pendiente |
 | **VII.2.1_SRS_PTC_PTC VIRTUAL_Level2_v1.0.md** | Arquitectura PTC | PTC Virtual (FRA 236) → PTC embarcado | -$40,000,000,000 | Alto | ⏳ Pendiente |
 | **VII.2.3_Plan_Virtual Balise (GNSS)_Ubicacion_150m.md** | Virtual Balise (GNSS)s | 1,080 → 0 unidades | -$40,000,000,000 | Alto | ⏳ Pendiente |
-| **29_Sistema_Senalizacion_Integrado.md** | Filosofía señalización | Física → Virtual | -$64,000,000,000 | Alto | ⏳ Pendiente |
+| **29_Sistema_Senalizacion_Integrado.md** | Filosofía senalización | Física → Virtual | -$64,000,000,000 | Alto | ⏳ Pendiente |
 | **27_Sistema_TETRA_Integrado.md** | Cantidades TETRA | 33 → 37 estaciones | +$4,830,000,000 | Alto | ⏳ Pendiente |
 | **32_Material_Rodante_Integrado.md** | Sistema EOT | NO → 15 dispositivos | +$520,000,000 | Alto | ⏳ Pendiente |
 | **AT1_Alcance_del_Proyecto_MEJORADO.md** | Múltiples sistemas | Arquitectura completa | -$50,193,000,000 | Alto | ⏳ Pendiente |
@@ -77,9 +77,9 @@ Se ha detectado una **desalineación crítica** entre los **Criterios Técnicos 
 - **Impacto:** -$40,000,000,000 COP
 - **Documentos afectados:** 8 documentos
 - **Acción requerida:** Eliminación completa de todas las referencias
-- **Justificación:** Señalización virtual implementada
+- **Justificación:** Senalización virtual implementada
 
-#### **2. Señalización en Cabina (Cab-Signaling) EN VÍA (270 unidades → 0 unidades)**
+#### **2. Senalización en Cabina (Cab-Signaling) EN VÍA (270 unidades → 0 unidades)**
 - **Impacto:** -$12,000,000,000 COP
 - **Documentos afectados:** 6 documentos
 - **Acción requerida:** Eliminación completa de todas las referencias
@@ -160,7 +160,7 @@ Se ha detectado una **desalineación crítica** entre los **Criterios Técnicos 
 
 ### **📐 CAPA 3: INGENIERÍA BÁSICA (Días 7-8)**
 **Dependencia:** Dependen de Capa 2, sirven de base para Capa 4
-1. **V.1_Señalizacion_Ferroviaria_Detalle_v1.0.md**
+1. **V.1_Senalizacion_Ferroviaria_Detalle_v1.0.md**
 2. **V.2_Centro_Control_Trafico_CTC_Detalle_v1.0.md**
 3. **V.3_Sistemas_Comunicacion_Detalle_v1.0.md**
 4. **VII.2.1_SRS_PTC_PTC VIRTUAL_Level2_v1.0.md**

@@ -65,11 +65,11 @@
 | **1.4.102** | Interfaces CTC/ENCE | 25 | $67,288,000 | $1,682,200,000 |
 | **SUBTOTAL DESVÍOS MOTORIZADOS** | | | | **$16,261,350,000** |
 
-#### **1.5 Desvíos Manuales y Señalización**
+#### **1.5 Desvíos Manuales y Senalización**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
 |:---|:---|:---:|:---:|:---:|
 | **1.5.100** | Desvíos manuales autotalonables (con comprobador integrado) | 120 | $134,577,000 | $16,149,240,000 |
-| **1.5.101** | Señalización luminosa estaciones ENCE (entrada/salida) | 10 | $10,000,000 | $100,000,000 |
+| **1.5.101** | Senalización luminosa estaciones ENCE (entrada/salida) | 10 | $10,000,000 | $100,000,000 |
 | **1.5.102** | Herramientas operación (kit completo certificado) | 120 | $13,458,000 | $1,614,960,000 |
 | **SUBTOTAL DESVÍOS MANUALES Y SEÃALIZACIÓN** | | | | **$17,864,200,000** |
 
@@ -186,7 +186,7 @@
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
 |:---|:---|:---:|:---:|:---:|
 | **4.1.100** | Sistemas barreras automáticas | 9 | $180,000,000 | $1,620,000,000 |
-| **4.1.101** | Señalización LED | 9 | $80,000,000 | $720,000,000 |
+| **4.1.101** | Senalización LED | 9 | $80,000,000 | $720,000,000 |
 | **4.1.102** | Sistemas detección vehículos | 9 | $360,000,000 | $3,240,000,000 |
 | **4.1.103** | Sistemas comunicación | 9 | $60,000,000 | $540,000,000 |
 | **4.1.104** | Sistemas emergencia | 9 | $40,000,000 | $360,000,000 |
@@ -198,7 +198,7 @@
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
 |:---|:---|:---:|:---:|:---:|
 | **4.2.100** | Sistemas barreras manuales | 15 | $120,000,000 | $1,800,000,000 |
-| **4.2.101** | Señalización basica | 15 | $50,000,000 | $750,000,000 |
+| **4.2.101** | Senalización basica | 15 | $50,000,000 | $750,000,000 |
 | **4.2.102** | Sistemas detección | 15 | $80,000,000 | $1,200,000,000 |
 | **4.2.103** | Sistemas comunicación | 15 | $40,000,000 | $600,000,000 |
 | **4.2.104** | Instalación | 15 | $60,000,000 | $900,000,000 |
@@ -208,7 +208,7 @@
 #### **4.3 Pasos a Nivel Otros (122 Unidades)**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
 |:---|:---|:---:|:---:|:---:|
-| **4.3.100** | Señalización basica | 122 | $25,000,000 | $3,050,000,000 |
+| **4.3.100** | Senalización basica | 122 | $25,000,000 | $3,050,000,000 |
 | **4.3.101** | Sistemas comunicación | 0 | $20,000,000 | $0 |
 | **4.3.102** | Instalación | 0 | $30,000,000 | $0 |
 | **4.3.103** | Repuestos (10%) | - | - | $305,000,000 |
@@ -288,7 +288,7 @@
 ### **ð TOTALES POR CAPÍTULO:**
 | **Capítulo** | **Descripción** | **Total (COP)** |
 |:---|:---|:---:|
-| **1** | Control y Señalización Virtual | $132,139,719,673 |
+| **1** | Control y Senalización Virtual | $132,139,719,673 |
 | **2** | Telecomunicaciones Colocalizadas | $92,672,367,851 |
 | **3** | Sistemas ITS y Seguridad | $3,395,700,000 |
 | **4** | Pasos a Nivel | $21,582,000,000 |

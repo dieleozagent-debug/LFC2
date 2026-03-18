@@ -27,7 +27,7 @@
 ## 🔍 FILOSOFÍA DE RE-INGENIERÍA (METODOLOGÍA P.42 v4.2)
 Este repositorio ha sido auditado para eliminar **Alucinaciones Técnicas**.
 - ✅ **ELIMINADO:** Referencias a PTC Virtual (FRA 236) (Estándar Europeo no aplicable).
-- ✅ **ELIMINADO:** Referencias a señalización luminosa Wayside (Arquitectura Virtual).
+- ✅ **ELIMINADO:** Referencias a senalización luminosa Wayside (Arquitectura Virtual).
 - ✅ **ADOPTADO:** Normativa **FRA 49 CFR 236 Subpart I** (Positive Train Control).
 - ✅ **ADOPTADO:** Interoperabilidad **Operacional** con FENOCO.
 

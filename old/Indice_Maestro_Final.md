@@ -27,7 +27,7 @@ Este documento consolida el índice maestro de toda la documentación de ingenie
 | 1.1 | `III. Ingenieria conceptual/26. Sistem_CTC_Int...md` | Análisis del sistema de Control de Tráfico Centralizado. |
 | 2.2 | `III. Ingenieria conceptual/27_Sistema_TETRA_Integrado...md` | Análisis del sistema de Radio TETRA. |
 | 2.1 | `III. Ingenieria conceptual/28_Sistema_FibraOptica_Integrado...md` | Análisis del backbone de comunicaciones. |
-| 1.2 | `III. Ingenieria conceptual/29_Sistema_Senalizacion_Integrado...md` | Análisis del sistema de Señalización Ferroviaria. |
+| 1.2 | `III. Ingenieria conceptual/29_Sistema_Senalizacion_Integrado...md` | Análisis del sistema de Senalización Ferroviaria. |
 | 3.1 | `III. Ingenieria conceptual/30_Sistema_ITS_Integrado...md` | Análisis de los Sistemas Inteligentes de Transporte. |
 | 3.2 | `III. Ingenieria conceptual/31_Sistema_CCTV_Integrado...md` | Análisis del sistema de Videovigilancia (CCTV). |
 
@@ -50,7 +50,7 @@ Este documento consolida el índice maestro de toda la documentación de ingenie
 
 | WBS ID | Documento | Descripción |
 |:---|:---|:---|
-| 5.1 | `V. Ingenieria de detalle/1_Se_alizaci_n_ferroviaria...md` | Planos constructivos y especificaciones de montaje para Señalización. |
+| 5.1 | `V. Ingenieria de detalle/1_Se_alizaci_n_ferroviaria...md` | Planos constructivos y especificaciones de montaje para Senalización. |
 | 5.2 | `V. Ingenieria de detalle/2_Centro_de_Control_de_Tr_fico_CTC...md` | Diseno detallado de la sala de control, consolas y videowall. |
 | 5.3 | `V. Ingenieria de detalle/3_Pasos_a_nivel...md` | Diseno detallado de los 146 pasos a nivel. |
 | 5.4 | `V. Ingenieria de detalle/4_Comunicaciones_generales...md` | Diseno detallado de la red de datos, telefonía e interfonía. |
@@ -70,7 +70,7 @@ Este documento consolida el índice maestro de toda la documentación de ingenie
 | WBS ID | Documento | Descripción |
 |:---|:---|:---|
 | 6.1 | `VI. Operacion y Mantenimiento/Manual_OM_CTC.md` | Manual de Operación y Mantenimiento para el CTC. |
-| 6.2 | `VI. Operacion y Mantenimiento/Manual_OM_Señalizacion.md` | Manual de Mantenimiento para Señalización. |
+| 6.2 | `VI. Operacion y Mantenimiento/Manual_OM_Senalizacion.md` | Manual de Mantenimiento para Senalización. |
 | 6.3 | `VI. Operacion y Mantenimiento/Manual_OM_Telecom.md` | Manual de Mantenimiento para Fibra Óptica y TETRA. |
 | 6.4 | `VI. Operacion y Mantenimiento/Manual_OM_Seguridad.md` | Manual de Mantenimiento para CCTV e Incendios. |
 

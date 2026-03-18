@@ -1,4 +1,4 @@
-# MEMORIAS DE DISEÑO BÁSICO v6.0 (PTC VIRTUAL)
+# MEMORIAS DE DISENO BÁSICO v6.0 (PTC VIRTUAL)
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 13 de marzo de 2026  
@@ -7,10 +7,10 @@
 
 ---
 
-## 1. CRITERIOS DE DISEÑO DE SISTEMAS
+## 1. CRITERIOS DE DISENO DE SISTEMAS
 
-### 1.1 Filosofía de Control y Señalización
-Se adopta la arquitectura **PTC Virtual** (FRA 236 Subpart I). El diseno básico descarta cualquier infraestructura física en vía para señalización.
+### 1.1 Filosofía de Control y Senalización
+Se adopta la arquitectura **PTC Virtual** (FRA 236 Subpart I). El diseno básico descarta cualquier infraestructura física en vía para senalización.
 - **Autorización de Movimiento (MA):** Generada en el Servidor Maestro 2oo3 y transmitida vía radio.
 - **Bloqueo:** Lógica de **Bloque Virtual (V-Block)** integrada en el Servidor PTC.
 - **Localización:** Basada en reporte de OBC (vía GNSS/IMU) y validada por el EOT en cola.

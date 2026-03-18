@@ -211,7 +211,7 @@ Solución: YAML debe indicar sección en V.X a modificar
 ├─────────────────────────────────────────────────────────────────┤
 │  Documentos Técnicos por Sistema:                               │
 │                                                                  │
-│  1. V.1_Señalizacion_Ferroviaria_Detalle_vX.md ❌ MANUAL        │
+│  1. V.1_Senalizacion_Ferroviaria_Detalle_vX.md ❌ MANUAL        │
 │     └─ DT debe actualizar sección específica                    │
 │                                                                  │
 │  2. V.2_CTC_Detalle_vX.md ❌ MANUAL                             │

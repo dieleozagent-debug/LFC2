@@ -329,9 +329,9 @@ Buscar en WBS_Presupuestal_v2.0.md:
 - Costo NUEVO: 594 cajas × precio
 - Ahorro CAPEX: [Calcular]
 
-OPEX (10 años):
-- Mantenimiento por caja/año: [Estimar]
-- Ahorro OPEX: 594 cajas × costo mantenimiento × 10 años
+OPEX (10 anos):
+- Mantenimiento por caja/ano: [Estimar]
+- Ahorro OPEX: 594 cajas × costo mantenimiento × 10 anos
 
 ## PASO 4: IDENTIFICAR RIESGOS NUEVOS
 R-FIBRA-006:
@@ -341,7 +341,7 @@ R-FIBRA-006:
 - Estrategia: Aceptar (beneficio supera riesgo)
 
 R-FIBRA-007:
-- Descripción: "Posible degradación de señal en tramos más largos"
+- Descripción: "Posible degradación de senal en tramos más largos"
 - Probabilidad: 15% (Baja)
 - Impacto: Medio
 - Estrategia: Mitigar (validar con OTDR en diseno)
@@ -411,7 +411,7 @@ Agregar 2 filas:
 
 | ID | Categoría | Descripción | Prob | Impacto | Estrategia | Responsable | Estado | Fuente | Origen_Decisión | Hito_Verificación |
 | R-FIBRA-006 | Económico | Ahorro no realizado si cajas 1000m fallan | Baja | Medio | Aceptar | PMO | Activo | WBS | DT-FIBRA-001 | H-FIBRA-005 |
-| R-FIBRA-007 | Técnico | Degradación señal en tramos largos | Baja | Medio | Mitigar: OTDR | Ing. Fibra | Activo | AC-FIBRA-001 | DT-FIBRA-001 | H-FIBRA-005 |
+| R-FIBRA-007 | Técnico | Degradación senal en tramos largos | Baja | Medio | Mitigar: OTDR | Ing. Fibra | Activo | AC-FIBRA-001 | DT-FIBRA-001 | H-FIBRA-005 |
 
 ## GENERAR REPORTE:
 Listar todos los cambios realizados:

@@ -60,7 +60,7 @@
 - **Propósito:** Análisis completo ATs 1-10, validación de blockers
 - **Contenido único:** Validación 4 blockers vs contrato, matriz decisiones
 - **Última actualización:** 9-Oct-2025
-- **Tamaño:** 393 líneas
+- **Tamano:** 393 líneas
 - **Relevancia:** ⭐⭐⭐ ALTA - Análisis contractual oficial
 - **Decisión:** ❌ **MANTENER** - Documento maestro contractual
 
@@ -76,7 +76,7 @@
 - **Propósito:** Validación específica de 4 blockers contra contrato
 - **Contenido único:** Evidencia línea por línea de ATs
 - **Última actualización:** 9-Oct-2025
-- **Tamaño:** 216 líneas
+- **Tamano:** 216 líneas
 - **Diferencia con #6:** Más focalizado en blockers, con citas textuales
 - **Relevancia:** ⭐⭐ MEDIA-ALTA - Validación puntual
 - **¿Duplicado?** ⚠️ Parcialmente (info en #6 más completa)
@@ -109,7 +109,7 @@
 - **Propósito:** Plan base 36m + buffer 12m = 48m total
 - **Contenido único:** 8 fases, 5 entregas externas, flujo de caja, supuestos
 - **Última actualización:** 9-Oct-2025
-- **Tamaño:** 359 líneas
+- **Tamano:** 359 líneas
 - **Relevancia:** ⭐⭐⭐ ALTA - Plan operativo agresivo
 - **Decisión:** ❌ **MANTENER** - Plan de ejecución vigente
 
@@ -117,7 +117,7 @@
 - **Propósito:** Cronograma maestro con lead times y flujo de caja
 - **Contenido único:** Lead times por tipo, flujo caja 61m, KPIs
 - **Última actualización:** 9-Oct-2025
-- **Tamaño:** 337 líneas
+- **Tamano:** 337 líneas
 - **Diferencia con #11:** Más detallado en lead times, #11 más estratégico
 - **Relevancia:** ⭐⭐⭐ ALTA - Cronograma maestro operativo
 - **Decisión:** ❌ **MANTENER** - Complementa #11
@@ -125,7 +125,7 @@
 ### 13. `@@RESUMEN_CRONOGRAMA_PMO_AGRESIVO_09Oct2025.md`
 - **Propósito:** Resumen ejecutivo de cronogramas PMO
 - **Contenido:** Métricas, flujo caja, ruta crítica
-- **Tamaño:** 259 líneas
+- **Tamano:** 259 líneas
 - **¿Duplicado?** ⚠️ SÍ - Info condensada de #11 y #12
 - **Relevancia:** ⭐ BAJA - Info está en #11 y #12
 - **Decisión:** ✅ **MOVER A old/** - Duplica info de cronogramas maestros
@@ -137,7 +137,7 @@
 ### 14. `@@SESION_8OCT2025_TRAZABILIDAD_Y_AIU.md`
 - **Propósito:** Sesión 8-Oct (metadata enriquecida + regla AIU/IVA)
 - **Contenido único:** Implementación metadata, regla canónica AIU
-- **Tamaño:** 171 líneas
+- **Tamano:** 171 líneas
 - **¿Info en Roadmap?** ⚠️ Parcial - Roadmap v14.0 sección
 - **Relevancia:** ⭐⭐ MEDIA - Histórico de sesión
 - **Decisión:** ✅ **MOVER A old/Documentacion_Historica_8Oct2025/** - Info en Roadmap
@@ -145,7 +145,7 @@
 ### 15. `@@SESION_COMPLETA_09Oct2025_v14.4_FINAL.md`
 - **Propósito:** Sesión completa 9-Oct (v14.4 PMO + Análisis contractual)
 - **Contenido:** Resumen de 8 horas, 20 documentos creados
-- **Tamaño:** 418 líneas
+- **Tamano:** 418 líneas
 - **¿Info en Roadmap?** ⚠️ SÍ - Roadmap v14.6 incluye todo
 - **Relevancia:** ⭐⭐ MEDIA - Histórico detallado
 - **Decisión:** ✅ **MOVER A old/Documentacion_Historica_9Oct2025/** - Info consolidada en Roadmap
@@ -153,7 +153,7 @@
 ### 16. `@@CONSOLIDADO_FINAL_v14.4_PMO_09Oct2025.md`
 - **Propósito:** Consolidado v14.4 (sistema PMO + riesgos)
 - **Contenido:** Resumen de sistemas implementados
-- **Tamaño:** 246 líneas
+- **Tamano:** 246 líneas
 - **¿Duplicado?** ✅ SÍ - Duplica info de #15 (SESION_COMPLETA)
 - **Relevancia:** ⭐ BAJA - Duplicado parcial de sesión completa
 - **Decisión:** ✅ **MOVER A old/Documentacion_Historica_9Oct2025/** - Duplica #15
@@ -165,28 +165,28 @@
 ### 17. `@@RESUMEN_DT-TETRA-001_Y_Automatizacion.md`
 - **Propósito:** Ejemplo educativo DT-TETRA-001 ejecutada + file watcher
 - **Contenido único:** Ejemplo completo de DT ejecutada, uso de watcher
-- **Tamaño:** 248 líneas
+- **Tamano:** 248 líneas
 - **Relevancia:** ⭐⭐⭐ ALTA - Ejemplo educativo para nuevos usuarios
 - **Decisión:** ❌ **MANTENER** - Ejemplo de referencia
 
 ### 18. `@@RESUMEN_Sistema_SERVIR_Ingenieria_09Oct2025.md`
 - **Propósito:** Sistema SERVIR implementado (cocina→plato)
 - **Contenido único:** Flujo completo I-VI→Servir→X/, DT-INTERFACES-001
-- **Tamaño:** 436 líneas
+- **Tamano:** 436 líneas
 - **Relevancia:** ⭐⭐⭐ ALTA - Sistema operativo documentado
 - **Decisión:** ❌ **MANTENER** - Documentación sistema SERVIR
 
 ### 19. `@@RESUMEN_Revision_Y_Correccion_DTs.md`
 - **Propósito:** Revisión de 5 DTs con problemas + 3 DTs corregidas
 - **Contenido único:** Problemas comunes DTs, cómo corregirlos
-- **Tamaño:** 371 líneas
+- **Tamano:** 371 líneas
 - **Relevancia:** ⭐⭐ MEDIA - Lecciones aprendidas
 - **Decisión:** ❌ **MANTENER** - Guía de corrección de DTs
 
 ### 20. `@@RESUMEN_Correccion_HTMLs_y_DT-PTC-001_09Oct2025.md`
 - **Propósito:** Corrección HTMLs + nueva categoría DT + DT-PTC-001
 - **Contenido:** Correcciones EDT Detalle, cache-busting
-- **Tamaño:** 212 líneas
+- **Tamano:** 212 líneas
 - **¿Duplicado?** ⚠️ Parcial - Info técnica en documentación sistema
 - **Relevancia:** ⭐ BAJA-MEDIA - Histórico de correcciones
 - **Decisión:** ✅ **MOVER A old/Documentacion_Historica_9Oct2025/** - Correcciones ya aplicadas
@@ -198,7 +198,7 @@
 ### 21. `@@PLAN_IMPLEMENTACION_Sistema_Integrado_Completo.md`
 - **Propósito:** Plan para implementar DT→TODO automático (7 niveles)
 - **Contenido único:** Arquitectura JSON, scripts a crear, plan 2 semanas
-- **Tamaño:** 740 líneas
+- **Tamano:** 740 líneas
 - **Estado implementación:** ⚠️ Parcial (v14.2 completó partes)
 - **Relevancia:** ⭐⭐⭐ ALTA - Roadmap técnico de desarrollo
 - **Decisión:** ❌ **MANTENER** - Plan de desarrollo futuro
@@ -206,14 +206,14 @@
 ### 22. `@@MEJORAS_Sistema_DTs_Tipos_Especificos_09Oct2025.md`
 - **Propósito:** Mejoras DTs: 4→8 tipos, flujo por tipo
 - **Contenido único:** Mapeo tipo→archivos, ejemplos por tipo
-- **Tamaño:** 399 líneas
+- **Tamano:** 399 líneas
 - **Relevancia:** ⭐⭐⭐ ALTA - Mejoras implementadas v14.3
 - **Decisión:** ❌ **MANTENER** - Documentación de mejoras vigentes
 
 ### 23. `@@QUE_SIGUE_Proximos_Pasos.md`
 - **Propósito:** Próximos pasos post-sincronización (8-Oct)
 - **Contenido:** 11 pasos (corto, mediano, largo plazo)
-- **Tamaño:** 365 líneas
+- **Tamano:** 365 líneas
 - **¿Actualizado?** ⚠️ Desactualizado - Escrito 8-Oct, sistema ya evolucionó
 - **¿Info en Roadmap?** ✅ SÍ - Roadmap v14.6 tiene próximos pasos
 - **Relevancia:** ⭐ BAJA - Superseded por Roadmap v14.6
@@ -226,14 +226,14 @@
 ### 24. `@@RESUMEN_EJECUTIVO_PMO_BLOCKERS_09Oct2025.md`
 - **Propósito:** Resumen ejecutivo de blockers para PMO/Gerencia
 - **Contenido único:** Plan acción 60 días, oficios, cláusulas protección
-- **Tamaño:** 400 líneas
+- **Tamano:** 400 líneas
 - **Relevancia:** ⭐⭐⭐ ALTA - Reporte ejecutivo crítico
 - **Decisión:** ❌ **MANTENER** - Reporte ejecutivo vigente
 
 ### 25. `@@ANALISIS_RIESGOS_WBS_MAPEADOS_10Oct2025.md`
 - **Propósito:** Análisis riesgos + arquitectura sistema riesgos
 - **Contenido único:** 17 riesgos, 3 componentes, flujo completo
-- **Tamaño:** 189 líneas
+- **Tamano:** 189 líneas
 - **Última actualización:** 10-Oct-2025 (HOY)
 - **Relevancia:** ⭐⭐⭐ ALTA - Documento más actual de riesgos
 - **Decisión:** ❌ **MANTENER** - Reemplazó documento 9-Oct (ya movido)
@@ -245,7 +245,7 @@
 ### 26. `@@ITEMS_WBS_Para_DTs_Test.md`
 - **Propósito:** Ítems WBS sugeridos para crear DTs de prueba
 - **Contenido único:** Mapeo capítulo→sistema→ítems, plantillas rápidas
-- **Tamaño:** 257 líneas
+- **Tamano:** 257 líneas
 - **Relevancia:** ⭐⭐ MEDIA - Útil para testing y aprendizaje
 - **Decisión:** ❌ **MANTENER** - Herramienta de testing
 

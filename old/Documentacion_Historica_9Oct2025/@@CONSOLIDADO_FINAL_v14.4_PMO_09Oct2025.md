@@ -36,7 +36,7 @@
 | R-PERM-01 | Retrasos permisos | `40. Permisos` | ✅ Activo |
 | R-FIBRA-001 | Lead time fibra 9m | `DT-FIBRA-003` (HOY) | ✅ Activo |
 | R-FIBRA-006 | Cajas 1000m (ejemplo) | `DT-FIBRA-001` | ✅ Activo |
-| R-FM-001 | Fuerza Mayor | Añadido HOY | ✅ Activo |
+| R-FM-001 | Fuerza Mayor | Anadido HOY | ✅ Activo |
 
 **Total:** 9 riesgos REALES y validados
 

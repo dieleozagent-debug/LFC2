@@ -37,7 +37,7 @@
 1. **FORMATEADO_APENDICE TECNICO 1.md** - Alcance del proyecto (AT1) - Cap. V Material Rodante
 2. **FORMATEADO_APENDICE TECNICO 2.md** - Operación y mantenimiento (AT2) - Mantenimiento material rodante
 3. **FORMATEADO_APENDICE TECNICO 3.md** - Especificaciones generales (AT3) - PTC embarcado
-4. **FORMATEADO_APENDICE TECNICO 4.md** - Indicadores de desempeño (AT4) - Disponibilidad material rodante
+4. **FORMATEADO_APENDICE TECNICO 4.md** - Indicadores de desempeno (AT4) - Disponibilidad material rodante
 5. **FORMATEADO_APENDICE TECNICO 10.md** - Capacidad y surcos (AT10) - Integración material rodante
 6. **Cl_13_1_MaterialRodante** - Equipos embarcados PTC TETRA
 
@@ -51,7 +51,7 @@
 13. **36_Criterios_Ciberseguridad_docx_Protecci_n_de_sistemas_de_control.md** - Criterios ciberseguridad
 14. **27_Sistema_TETRA_Integrado_v5.0.md** - Sistema TETRA integrado
 15. **28_Sistema_FibraOptica_Integrado_docx_AT1_AT3_AT5_interferencias_AT7_predios.md** - Sistema fibra óptica
-16. **29_Sistema_Senalizacion_Integrado_v5.0.md** - Sistema señalización integrado
+16. **29_Sistema_Senalizacion_Integrado_v5.0.md** - Sistema senalización integrado
 
 #### **Ingeniería Básica:**
 17. **37_Memorias_Diseno_Basico_v5.0.md** - Memorias de diseno básico

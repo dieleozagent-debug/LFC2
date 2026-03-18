@@ -184,7 +184,7 @@
 **Tareas:**
 - [ ] Exportar datos JSON a formato compatible con Power BI
 - [ ] Crear modelos de datos en Power BI
-- [ ] Diseñar dashboards ejecutivos
+- [ ] Disenar dashboards ejecutivos
 - [ ] Configurar actualización automática
 - [ ] Publicar en Power BI Service
 

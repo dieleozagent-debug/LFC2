@@ -266,11 +266,11 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 ### 5.3 Disponibilidad Colocalizada
 
 #### 5.3.1 Objetivos de Disponibilidad Colocalizados
-- **TETRA:** 99.9% (8.76 horas/año)
-- **Red Vital IP / TETRA:** 99.9% (8.76 horas/año)
-- **Sistema Combinado:** 99.99% (0.88 horas/año)
-- **Fibra Óptica:** 99.95% (4.38 horas/año)
-- **VSAT:** 99.0% (87.6 horas/año)
+- **TETRA:** 99.9% (8.76 horas/ano)
+- **Red Vital IP / TETRA:** 99.9% (8.76 horas/ano)
+- **Sistema Combinado:** 99.99% (0.88 horas/ano)
+- **Fibra Óptica:** 99.95% (4.38 horas/ano)
+- **VSAT:** 99.0% (87.6 horas/ano)
 
 #### 5.3.2 Estrategias de Redundancia Colocalizadas
 - **Enlaces:** N+2 con failover automático (TETRA + Red Vital IP / TETRA + VSAT)

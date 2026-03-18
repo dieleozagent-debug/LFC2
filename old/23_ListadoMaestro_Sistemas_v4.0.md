@@ -48,8 +48,8 @@ Este documento de soporte consolida el inventario maestro de todos los sistemas 
 ### **📋 CAMBIOS IMPLEMENTADOS:**
 
 #### **🔴 ELIMINACIONES MASIVAS (Según Criterios Maestros):**
-- **❌ Virtual Balise (GNSS)s:** 1,080 unidades → **0 unidades** (Señalización virtual implementada)
-- **❌ Señalización en Cabina (Cab-Signaling) en vía:** 270 unidades → **0 unidades** (CTC virtual centralizado)
+- **❌ Virtual Balise (GNSS)s:** 1,080 unidades → **0 unidades** (Senalización virtual implementada)
+- **❌ Senalización en Cabina (Cab-Signaling) en vía:** 270 unidades → **0 unidades** (CTC virtual centralizado)
 - **❌ Servidor PTC Central - Servidor PTC Central:** 2 unidades → **0 unidades** (PTC embarcado)
 - **❌ [CONTROLLER PROHIBIDO - SICC ES VIRTUAL] - Lineside Electronic Units:** 1,080 unidades → **0 unidades** (Sistema PTC embarcado)
 
@@ -74,7 +74,7 @@ Este documento consolida el Listado Maestro de Sistemas que el EPC debe implemen
 
 ## 1. SISTEMAS IDENTIFICADOS (ACTUALIZADOS v4.0)
 
-### **A. SISTEMAS DE SEÑALIZACIÓN Y CONTROL (FILOSOFÍA VIRTUAL)**
+### **A. SISTEMAS DE SENALIZACIÓN Y CONTROL (FILOSOFÍA VIRTUAL)**
 
 #### **1.1 Centro de Control de Tráfico (CTC)**
 - **Referencias:** AT1 (Cap. 4.3.2), AT2 (Cap. 3.2.1), AT3 (Cap. 8.2), AT4 (indicadores), AT9 (cronograma)
@@ -92,7 +92,7 @@ Este documento consolida el Listado Maestro de Sistemas que el EPC debe implemen
 
 #### **1.3 Enclavamientos Electrónicos (ENCE) - 5 ESTACIONES**
 - **Referencias:** AT1 (Cap. 4.3.2), AT3 (Cap. 8.1)
-- **Funciones:** Control de desvíos y señales en estaciones críticas
+- **Funciones:** Control de desvíos y senales en estaciones críticas
 - **Estaciones:** Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México
 - **Componentes:** Interlocking Controller, panel control local, módulos I/O, switch machines
 - **Disponibilidad:** 99.95% según AT4
@@ -106,7 +106,7 @@ Este documento consolida el Listado Maestro de Sistemas que el EPC debe implemen
 
 #### **❌ ELIMINADO: Filosofía PTC Virtual en Vía**
 - **Virtual Balise (GNSS)s:** 1,080 unidades → **0 unidades** (Reemplazado por PTC embarcado)
-- **Señalización en Cabina (Cab-Signaling) en vía:** 270 unidades → **0 unidades** (Reemplazado por CTC virtual)
+- **Senalización en Cabina (Cab-Signaling) en vía:** 270 unidades → **0 unidades** (Reemplazado por CTC virtual)
 - **Servidor PTC Central:** 2 unidades → **0 unidades** (Reemplazado por PTC embarcado)
 - **[CONTROLLER PROHIBIDO - SICC ES VIRTUAL]:** 1,080 unidades → **0 unidades** (Reemplazado por PTC embarcado)
 
@@ -137,7 +137,7 @@ Este documento consolida el Listado Maestro de Sistemas que el EPC debe implemen
 
 #### **2.4 Red de Datos Ferroviaria**
 - **Referencias:** AT3 (Cap. 8.8.3), AT1 (UF2 – Tabla 16)
-- **Funciones:** Integración de sistemas ITS, CCTV, señalización y CTC
+- **Funciones:** Integración de sistemas ITS, CCTV, senalización y CTC
 - **Disponibilidad:** 99.95% según AT4
 
 ---
@@ -237,7 +237,7 @@ Cada sistema listado cumple con los siguientes criterios:
 
 ### **3.1 Eliminaciones (Sobrepresupuesto)**
 - **Virtual Balise (GNSS)s:** -$40,000,000,000 COP
-- **Señalización en Cabina (Cab-Signaling) vía:** -$12,000,000,000 COP
+- **Senalización en Cabina (Cab-Signaling) vía:** -$12,000,000,000 COP
 - **Servidor PTC Central:** -$2,000,000,000 COP
 - **[CONTROLLER PROHIBIDO - SICC ES VIRTUAL]:** -$10,000,000,000 COP
 - **TOTAL ELIMINAR:** -$64,000,000,000 COP
@@ -268,7 +268,7 @@ Cada sistema listado cumple con los siguientes criterios:
 - **32_Material_Rodante_Integrado.md** ⏳ (Sistema EOT)
 
 ### **4.3 Documentos de Ingeniería (Por Actualizar)**
-- **V.1_Señalizacion_Ferroviaria_Detalle_v1.0.md** ⏳ (Eliminar Puntos de Referencia Virtuales (SICC))
+- **V.1_Senalizacion_Ferroviaria_Detalle_v1.0.md** ⏳ (Eliminar Puntos de Referencia Virtuales (SICC))
 - **V.2_Centro_Control_Trafico_CTC_Detalle_v1.0.md** ⏳ (CTC virtual)
 - **V.3_Sistemas_Comunicacion_Detalle_v1.0.md** ⏳ (Red Vital IP / TETRA agregado)
 
@@ -299,7 +299,7 @@ Cada sistema listado cumple con los siguientes criterios:
 
 ### **6.1 Control de Cambios v4.0**
 **Cambios implementados:**
-- Eliminación masiva de infraestructura física de señalización
+- Eliminación masiva de infraestructura física de senalización
 - Implementación de filosofía virtual (CTC + PTC embarcado)
 - Agregación de sistemas faltantes (Red Vital IP / TETRA, EOT, ENCE, Desvíos)
 - Ajuste de cantidades según criterios maestros
@@ -335,7 +335,7 @@ Cada sistema listado cumple con los siguientes criterios:
 ### **8.1 Personal**
 - Personal técnico especializado en sistemas ferroviarios
 - Especialistas en telecomunicaciones (TETRA, Red Vital IP / TETRA)
-- Ingenieros de señalización y control
+- Ingenieros de senalización y control
 - Especialistas en material rodante
 
 ### **8.2 Herramientas y Equipos**

@@ -106,7 +106,7 @@
 
 **Apéndices Técnicos Revisados:** 10 (AT1-AT10)
 
-**Tamaño Total Documentación:** ~1.4 MB
+**Tamano Total Documentación:** ~1.4 MB
 
 **Hallazgos Clave:**
 
@@ -124,8 +124,8 @@
 #### **b) Sistema de Control (AT3 Cap. VIII):**
 **Mencionado:**
 - ✅ PTC (Positive Train Control - AAR americano)
-- ✅ CTC protocolo Adif (español)
-- ✅ Enclavamientos Adif (español)
+- ✅ CTC protocolo Adif (espanol)
+- ✅ Enclavamientos Adif (espanol)
 
 **NO mencionado:**
 - ❌ PTC (Incremental Train Control System)
@@ -263,7 +263,7 @@
 - **CUMPLE CONTRATO** ✅
 
 ### **Sistemas de Control:**
-- AT3 menciona: PTC (AAR), CTC Adif (español)
+- AT3 menciona: PTC (AAR), CTC Adif (espanol)
 - AT3 **NO menciona:** PTC, PTC Virtual (FRA 236)
 - **INDEFINICIÓN CONFIRMADA** 🔴
 

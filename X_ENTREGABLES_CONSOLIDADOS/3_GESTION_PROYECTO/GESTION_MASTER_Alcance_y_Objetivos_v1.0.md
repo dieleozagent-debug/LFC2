@@ -32,7 +32,7 @@
 5. **CRONOGRAMA MAESTRO**
 6. **PRESUPUESTO CONSOLIDADO**
 7. **CRITERIOS DE ACEPTACIÓN**
-8. **INDICADORES DE DESEMPEÑO**
+8. **INDICADORES DE DESEMPENO**
 9. **REFERENCIAS Y DOCUMENTOS RELACIONADOS**
 
 ---
@@ -46,14 +46,14 @@
 - **Tipo:** APP (Asociación Público-Privada)
 - **Entidad:** Agencia Nacional de Infraestructura (ANI)
 - **Concesionario:** [Nombre del Concesionario]
-- **Vigencia:** 25 años
+- **Vigencia:** 25 anos
 - **Fecha de firma:** [Fecha]
 
 #### **Obligaciones Contractuales Principales:**
 - **AT1:** Alcance del proyecto - Sistemas ferroviarios integrales
 - **AT2:** Operación y mantenimiento - Disponibilidad 99.95%
 - **AT3:** Especificaciones generales - Estándares FRA/AREMA, EN, RETIE
-- **AT4:** Indicadores de desempeño - KPIs contractuales
+- **AT4:** Indicadores de desempeno - KPIs contractuales
 - **AT5:** Gestión de interferencias - Coordinación con ANE
 - **AT6:** Gestión ambiental - Cumplimiento normativo
 - **AT7:** Gestión predial - Adquisición de predios
@@ -72,7 +72,7 @@
 | **Fibra Óptica** | 99.95% | 526 km con doble anillo |
 | **Material Rodante** | 99.95% | 15 locomotoras + 51 vagones operativos |
 
-#### **Indicadores de Desempeño (AT4):**
+#### **Indicadores de Desempeno (AT4):**
 | Indicador | Meta | Medición | Penalización |
 |:----------|:-----|:---------|:-------------|
 | **Disponibilidad Global** | 99.95% | Mensual | $50M COP/día |
@@ -107,7 +107,7 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 - **Drenajes:** Sistemas de drenaje pluvial y sanitario
 
 #### **Sistemas Técnicos:**
-- **Control y Señalización:** CTC Virtual, PTC Embarcado, ENCE, Desvíos
+- **Control y Senalización:** CTC Virtual, PTC Embarcado, ENCE, Desvíos
 - **Telecomunicaciones:** TETRA, Red Vital IP / TETRA, Fibra óptica
 - **ITS y Seguridad:** CCTV, control de accesos, monitoreo
 - **Material Rodante:** 15 locomotoras, 51 vagones, talleres
@@ -156,7 +156,7 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 
 ### **3.2 Objetivos Específicos por Sistema**
 
-#### **Sistema de Control y Señalización:**
+#### **Sistema de Control y Senalización:**
 - **Objetivo:** Control centralizado automatizado
 - **Resultado:** Operación 24/7 sin intervención manual
 - **Beneficio:** Reducción 90% errores humanos
@@ -212,7 +212,7 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 
 | Sistema | Componentes Principales | Cantidad | Estado |
 |:--------|:------------------------|:---------|:-------|
-| **Control y Señalización** | CTC Virtual, PTC Embarcado, ENCE | 1+15+5 | ✅ Completado |
+| **Control y Senalización** | CTC Virtual, PTC Embarcado, ENCE | 1+15+5 | ✅ Completado |
 | **Telecomunicaciones** | TETRA, Red Vital IP / TETRA, Fibra óptica | 37+37+526km | ✅ Completado |
 | **ITS y Seguridad** | CCTV, Control accesos, Monitoreo | 73+15+8 | ✅ Completado |
 | **Material Rodante** | Locomotoras, Vagones, Talleres | 15+51+3 | ✅ Completado |
@@ -289,7 +289,7 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 | Actividad | Duración | Fecha Inicio | Fecha Fin | Estado |
 |:----------|:---------|:-------------|:----------|:-------|
 | Operación inicial | 3 meses | Jun 2027 | Ago 2027 | ❌ Pendiente |
-| Operación comercial | 25 años | Sep 2027 | Ago 2052 | ❌ Pendiente |
+| Operación comercial | 25 anos | Sep 2027 | Ago 2052 | ❌ Pendiente |
 
 ### **5.2 Hitos Críticos**
 
@@ -324,7 +324,7 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 #### **Sistemas Técnicos:**
 | Sistema | Inversión (COP) | Porcentaje | Estado |
 |:--------|:----------------|:-----------|:-------|
-| **Control y Señalización** | $45,000,000,000 | 15% | ✅ Completado |
+| **Control y Senalización** | $45,000,000,000 | 15% | ✅ Completado |
 | **Telecomunicaciones** | $35,000,000,000 | 11% | ✅ Completado |
 | **ITS y Seguridad** | $25,000,000,000 | 8% | ✅ Completado |
 | **Material Rodante** | $80,000,000,000 | 26% | ✅ Completado |
@@ -381,7 +381,7 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 
 ---
 
-## 8. INDICADORES DE DESEMPEÑO
+## 8. INDICADORES DE DESEMPENO
 
 ### **8.1 KPIs Principales**
 
@@ -421,10 +421,10 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 - `FORMATEADO_APENDICE TECNICO 1.md` - Alcance del proyecto (AT1)
 - `FORMATEADO_APENDICE TECNICO 2.md` - Operación y mantenimiento (AT2)
 - `FORMATEADO_APENDICE TECNICO 3.md` - Especificaciones generales (AT3)
-- `FORMATEADO_APENDICE TECNICO 4.md` - Indicadores de desempeño (AT4)
+- `FORMATEADO_APENDICE TECNICO 4.md` - Indicadores de desempeno (AT4)
 
 ### **9.2 Documentos de Sistemas Técnicos**
-- `X_ENTREGABLES_CONSOLIDADOS/1_SISTEMAS_TECNICOS/SISTEMA_01_Control_y_Senalizacion_Master.md` - Control y señalización
+- `X_ENTREGABLES_CONSOLIDADOS/1_SISTEMAS_TECNICOS/SISTEMA_01_Control_y_Senalizacion_Master.md` - Control y senalización
 - `X_ENTREGABLES_CONSOLIDADOS/1_SISTEMAS_TECNICOS/SISTEMA_02_Telecomunicaciones_Master.md` - Telecomunicaciones
 - `X_ENTREGABLES_CONSOLIDADOS/1_SISTEMAS_TECNICOS/SISTEMA_03_ITS_y_Seguridad_Master.md` - ITS y seguridad
 - `X_ENTREGABLES_CONSOLIDADOS/1_SISTEMAS_TECNICOS/SISTEMA_04_Material_Rodante_Master.md` - Material rodante

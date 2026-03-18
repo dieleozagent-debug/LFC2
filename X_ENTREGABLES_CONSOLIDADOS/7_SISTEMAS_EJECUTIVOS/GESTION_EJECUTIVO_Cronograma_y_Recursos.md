@@ -9,7 +9,7 @@
 Este documento define el **"cronograma y recursos"** del proyecto APP La Dorada-Chiriguaná, estableciendo claramente cuándo se van a hacer las actividades, qué recursos se necesitan y cómo se van a gestionar. Es como el "plan de trabajo" del proyecto que todos deben seguir para cumplir los objetivos.
 
 ### Alcance en números - JUSTIFICACIÓN TÉCNICA
-- **Duración total:** 36 meses (3 años)
+- **Duración total:** 36 meses (3 anos)
 - **Presupuesto total:** $450,000 millones COP
 - **Recursos humanos:** 1,200 personas
 - **Equipos:** 150 unidades especializadas
@@ -28,7 +28,7 @@ Este documento define el **"cronograma y recursos"** del proyecto APP La Dorada-
 
 ---
 
-## 🔍 CRITERIOS DE DISEÑO Y JUSTIFICACIONES TÉCNICAS
+## 🔍 CRITERIOS DE DISENO Y JUSTIFICACIONES TÉCNICAS
 
 ### ¿Por qué 36 meses de duración total?
 **Justificación de Cronograma:**
@@ -144,7 +144,7 @@ La gestión de cronograma y recursos proporciona **coordinación y control** del
 |:-----------|:---------|:--------|:-------|
 | **Sistema de control** | 1 unidad | Control de avance | ⏳ En desarrollo |
 | **Reportes** | Diarios | Seguimiento de avance | ⏳ En implementación |
-| **Indicadores** | 25 KPIs | Medición de desempeño | ⏳ En desarrollo |
+| **Indicadores** | 25 KPIs | Medición de desempeno | ⏳ En desarrollo |
 
 ---
 
@@ -191,7 +191,7 @@ La gestión de cronograma y recursos opera 24/7 coordinando todas las actividade
 - **Diario:** Verificación de recursos y avance
 - **Semanal:** Análisis de desviaciones y correcciones
 - **Mensual:** Revisión de cronograma y recursos
-- **Trimestral:** Evaluación de desempeño y mejoras
+- **Trimestral:** Evaluación de desempeno y mejoras
 - **Anual:** Revisión completa y planificación
 
 ### Respuesta a desviaciones
@@ -303,7 +303,7 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 ---
 
-## 📊 INDICADORES DE DESEMPEÑO (KPIs)
+## 📊 INDICADORES DE DESEMPENO (KPIs)
 
 | Indicador | Meta | Actual | Estado |
 |:----------|:-----|:-------|:-------|

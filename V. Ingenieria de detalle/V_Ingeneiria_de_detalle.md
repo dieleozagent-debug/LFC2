@@ -12,7 +12,7 @@
 La Ingeniería de Detalle finaliza su saneamiento eliminando la "contaminación tecnológica" de sistemas propietarios (Alstom PTC) y estándares europeos (PTC VIRTUAL/Red Vital IP / TETRA). El sistema de detalle se basa al 100% en **PTC Virtual / Vital IP**.
 
 ### 1.1 Documentos de Detalle Saneados:
-- **V.1 - Señalización Virtual:** Lógica de bloqueo por software y DMI de cabina.
+- **V.1 - Senalización Virtual:** Lógica de bloqueo por software y DMI de cabina.
 - **V.2 - Centro de Control CTC:** Servidor Maestro PTC 2oo3 sobre arquitectura COTS.
 - **V.3 - Comunicaciones Unificadas:** Red TETRA de misión crítica y Backbone de Fibra Óptica (Purga de Red Vital IP / TETRA).
 - **V.4 - Potencia Optimizada:** Redimensionamiento de cargas al eliminar hardware de vía redundante.
@@ -34,7 +34,7 @@ En cumplimiento de la **Soberanía Tecnológica**, se han corregido los siguient
 ## 📑 MATRIZ DE CONFIGURACIÓN DE DETALLE
 | Especialidad | Tecnología v6.0 | Estado de Detalle |
 |:---|:---|:---|
-| **Señalización** | PTC Virtual (FRA 236) | Saneado ✅ |
+| **Senalización** | PTC Virtual (FRA 236) | Saneado ✅ |
 | **Control** | Servidor Vital Maestro | Saneado ✅ |
 | **Comunicaciones** | TETRA + Fibra Óptica | Saneado ✅ |
 | **Potencia** | N+1 Vitual-Ready | Saneado ✅ |

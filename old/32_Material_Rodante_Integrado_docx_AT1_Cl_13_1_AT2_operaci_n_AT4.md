@@ -90,7 +90,7 @@ La siguiente matriz integra los requisitos de los diferentes apéndices en funci
 | **Equipamiento Técnico Embarcado** | Cl. 13.1 | Instalación del "Módulo Base" (TETRA, GPS, Event Recorder) y preparación para el "Módulo PTC".<br>- **PTC PTC Virtual (FRA 236) hasta AT3**<br>- **Disponibilidad 99.95% según AT4** | ⚠️ Condicionado |
 | **Interoperabilidad con FENOCO** | Cl. 13.2 | El diseno modular del PTC debe garantizar la compatibilidad futura con la red de FENOCO.<br>- **Protocolos FRA/AREMA para interoperabilidad** | 🔴 Bloqueado |
 | **Seguridad en Operación** | AT2, Cap. 3.1.2 | Integración de sistemas de seguridad, como el "hombre muerto" y alarmas de cabina. | ✅ Definido |
-| **Disponibilidad del Material Rodante** | AT4, Cap. 3-6 | El plan de mantenimiento (AT2) debe estar diseñado para cumplir con los KPIs de disponibilidad de AT4. | 🔴 Bloqueado |
+| **Disponibilidad del Material Rodante** | AT4, Cap. 3-6 | El plan de mantenimiento (AT2) debe estar disenado para cumplir con los KPIs de disponibilidad de AT4. | 🔴 Bloqueado |
 | **Factor de Calidad (si aplica)** | AT1, Cap. 5.3 | Plan de Puesta a Punto de locomotora U18 adicional o suministro de una nueva, incluyendo PTC. | ⚠️ Condicionado |
 
 ### 4.2 Indicadores de Riesgo por Bloqueo AT3/AT4

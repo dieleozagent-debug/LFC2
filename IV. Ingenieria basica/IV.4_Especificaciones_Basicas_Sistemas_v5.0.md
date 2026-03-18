@@ -6,7 +6,7 @@
 
 ---
 
-## 📄 ESPECIFICACIONES DE DISEÑO BÁSICO
+## 📄 ESPECIFICACIONES DE DISENO BÁSICO
 El diseno se basa en la arquitectura **SICC (Sistema de Interoperabilidad, Comunicaciones y Control)**, priorizando la soberanía tecnológica y el uso de estándares abiertos.
 
 ### 1. SEGMENTO TIERRA (Wayside & Infrastructure)

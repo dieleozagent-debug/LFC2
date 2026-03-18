@@ -14,7 +14,7 @@
 **Valor unitario:** $150.000.000 COP (~$20.625 USD con TRM 7.273)  
 **Valor total:** $150.000.000 COP (~$20.625 USD)  
 **Tipo:** SUMINISTRO  
-**Capítulo:** 1 - Control y Señalización  
+**Capítulo:** 1 - Control y Senalización  
 
 ---
 

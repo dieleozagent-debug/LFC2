@@ -73,7 +73,7 @@ Locomotoras con sistemas PTC operativos (AT3, Cap. VIII, Num. 8.10)
 Vagones con equipos embarcados TETRA funcionales
 Sistemas de mantenimiento integrados a talleres
 Sistemas tecnológicos integrados:
-CTC y señalización según AT3, Capítulo VIII, Nums. 8.1-8.10
+CTC y senalización según AT3, Capítulo VIII, Nums. 8.1-8.10
 Telecomunicaciones (fibra óptica, radio TETRA, CCTV)
 ITS y control de accesos en perfecto funcionamiento
 Software con licencias transferibles (Sección 3.3(b))
@@ -82,14 +82,14 @@ Estado técnico requerido:
 Indicadores cumplidos según AT4, Capítulo 6 (medición durante recorrido 15.5(d))
 Mantenimiento preventivo final ejecutado según AT2, Capítulo VI
 Libre de gravámenes (requisito contractual explícito)
-Vida útil mínima 5 años después del Acta de Reversión (AT2, Cap. V)
+Vida útil mínima 5 anos después del Acta de Reversión (AT2, Cap. V)
 Documentación obligatoria:
 Memoria Técnica actualizada (entrega en 30 días - Sección 15.5(e))
 As-built finales por cada UFVF
 Manuales de operación validados
 Inventario de Activos actualizado (Sección 15.5(b))
 3. Procedimiento técnico de reversión
-3.1 Fase preparatoria (últimos 3 años de concesión)
+3.1 Fase preparatoria (últimos 3 anos de concesión)
 Mantenimiento intensivo:
 Plan de renovación mayor según AT2, Capítulo VI, Num. 6.1
 Reposición de equipos críticos para garantizar vida útil residual
@@ -144,7 +144,7 @@ Ap4_Indicadores.docx: Umbrales de aceptación durante reversión
 Alto impacto:
 Entrega con deficiencias técnicas
 Consecuencia: Rechazo ANI y extensión Etapa de Reversión
-Mitigación: Auditorías técnicas progresivas últimos 2 años
+Mitigación: Auditorías técnicas progresivas últimos 2 anos
 Contingencia: Plan de corrección dentro de Tiempo Máximo
 Software sin licencias transferibles
 Consecuencia: Incumplimiento grave Sección 3.3(b)
@@ -152,8 +152,8 @@ Mitigación: Verificación anual vigencia licencias
 Contingencia: Adquisición nueva licencia antes de reversión
 Medio impacto:
 Sistemas con vida útil insuficiente 
-Consecuencia: No cumplimiento requisito 5 años AT2 Cap. V
-Mitigación: Plan renovación mayor últimos 3 años
+Consecuencia: No cumplimiento requisito 5 anos AT2 Cap. V
+Mitigación: Plan renovación mayor últimos 3 anos
 Contingencia: Reposición equipos críticos
 6.2 Riesgos documentales
 Alto impacto:
@@ -183,7 +183,7 @@ Código fuente disponible para sistemas críticos
 Documentación técnica completa desde desarrollo
 7.2 Gestión durante operación
 Mantenimiento orientado a reversión:
-Plan maestro con renovaciones programadas últimos 3 años
+Plan maestro con renovaciones programadas últimos 3 anos
 Stock de repuestos dimensionado para vida útil residual
 Documentación de todas las intervenciones (AT2, Cap. VI)
 Preparación documental continua:
@@ -200,10 +200,10 @@ Mesa técnica ANI-Interventor-Concesionario
 Cronograma detallado proceso de reversión
 Contingencias para resolución dentro de Tiempo Máximo
 8. Cronograma de implementación
-8.1 Fase preparatoria (Años -3 a -1)
-Año -3: Plan de renovación equipos críticos
-Año -2: Actualización masiva documentación técnica
-Año -1: Auditoría integral preparatoria
+8.1 Fase preparatoria (Anos -3 a -1)
+Ano -3: Plan de renovación equipos críticos
+Ano -2: Actualización masiva documentación técnica
+Ano -1: Auditoría integral preparatoria
 8.2 Etapa de Reversión (Meses 1-6)
 Mes 1: Inicio verificación final (Sección 15.5(a))
 Mes 2-4: Recorrido técnico y mediciones (15.5(d))
@@ -223,10 +223,10 @@ Mesa técnica ANI-Interventor-Concesionario
 Cronograma detallado proceso de reversión
 Contingencias para resolución de observaciones
 7. Cronograma de implementación sugerido
-7.1 Fase preparatoria (Años -3 a -1)
-Año -3: Plan de renovación equipos críticos
-Año -2: Actualización masiva documentación técnica
-Año -1: Auditoría integral preparatoria
+7.1 Fase preparatoria (Anos -3 a -1)
+Ano -3: Plan de renovación equipos críticos
+Ano -2: Actualización masiva documentación técnica
+Ano -1: Auditoría integral preparatoria
 7.2 Etapa de Reversión (Meses 1-6)
 Mes 1: Inicio verificación final (Sección 15.5(a))
 Mes 2-4: Recorrido técnico y mediciones

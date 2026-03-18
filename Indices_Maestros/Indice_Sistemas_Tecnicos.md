@@ -109,8 +109,8 @@ Este documento proporciona un índice especializado de todos los sistemas técni
 | AT6_Gestion_Ambiental_MEJORADO | II. Apendices Tecnicos/ | Especificacion | Alta |
 | 30_Sistema_ITS_Integrado_docx_AT1_AT3_AT4_AT6_ambiental | III. Ingenieria conceptual/ | Soporte | Alta |
 
-#### SISTEMA SEÑALIZACIÓN
-> Descripcion: Sistema de señalización ferroviaria
+#### SISTEMA SENALIZACIÓN
+> Descripcion: Sistema de senalización ferroviaria
 
 | Documento | Ubicación | Tipo | Relevancia |
 |:---|:---|:---:|:---:|
@@ -141,12 +141,12 @@ Este documento proporciona un índice especializado de todos los sistemas técni
 
 | Sistema | Depende de | Influencia en | Criticidad | Análisis Contractual |
 |:---|:---|:---|:---:|:---|
-| **CTC** | Fibra Óptica, TETRA | Señalización, ITS | 🔥 CRÍTICA | A.1, A.2, A.3 |
+| **CTC** | Fibra Óptica, TETRA | Senalización, ITS | 🔥 CRÍTICA | A.1, A.2, A.3 |
 | **TETRA** | Fibra Óptica | CTC, Comunicaciones | 🔥 CRÍTICA | A.1, A.3 |
 | **Fibra Óptica** | Ninguno | CTC, TETRA, CCTV | 🔥 CRÍTICA | A.1, A.3 |
 | **CCTV** | Fibra Óptica | Seguridad, ITS | 🔥 CRÍTICA | A.1, A.2 |
 | **ITS** | CTC, Fibra Óptica | Operaciones | 🔥 CRÍTICA | A.2, A.3 |
-| **Señalización** | CTC | Seguridad | 🔥 CRÍTICA | A.1, A.2 |
+| **Senalización** | CTC | Seguridad | 🔥 CRÍTICA | A.1, A.2 |
 | **Material Rodante** | CTC, ITS | Operaciones | 🔥 CRÍTICA | A.1, A.2, A.3 |
 
 ---
@@ -177,7 +177,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 | **Fibra Óptica** | A.1, A.3 | AT5, AT7 | 28_Sistema_FibraOptica_Integrado...md | 6_Fibra_ptica |
 | **CCTV** | A.1, A.2 | AT1, AT8 | 31_Sistema_CCTV_Integrado...md | 8_CCTV |
 | **ITS** | A.2, A.3 | AT3, AT4, AT6 | 30_Sistema_ITS_Integrado...md | - |
-| **Señalización** | A.1, A.2 | AT1, AT8 | 29_Sistema_Senalizacion_Integrado...md | 1_Se_alizaci_n_ferroviaria |
+| **Senalización** | A.1, A.2 | AT1, AT8 | 29_Sistema_Senalizacion_Integrado...md | 1_Se_alizaci_n_ferroviaria |
 | **Material Rodante** | A.1, A.2, A.3 | AT1, AT2, AT4 | 32_Material_Rodante_Integrado...md | - |
 
 ### NAVEGACIÓN RÁPIDA ENTRE ÍNDICES

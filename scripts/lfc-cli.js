@@ -352,11 +352,46 @@ function applyPurity(contenido) {
 }
 
 /**
+ * Saneamiento de Rutas y Enlaces (Zero-Accents Protocol v6.3.2)
+ */
+function sanitizePaths() {
+    log("\n📍 AUDITORÍA DE RUTAS Y ENLACES (Zero-Accents)...", colors.magenta);
+    
+    // 1. Sanitizar Filenames en el repositorio
+    const walkthrough = (dir) => {
+        const files = fs.readdirSync(dir);
+        files.forEach(file => {
+            const fullPath = path.join(dir, file);
+            const stat = fs.statSync(fullPath);
+            
+            // Detectar acentos o eñes en el nombre
+            if (/[áéíóúÁÉÍÓÚñÑ]/.test(file)) {
+                const newFile = file
+                    .replace(/[áÁ]/g, 'a').replace(/[éÉ]/g, 'e')
+                    .replace(/[íÍ]/g, 'i').replace(/[óÓ]/g, 'o')
+                    .replace(/[úÚ]/g, 'u').replace(/[ñÑ]/g, 'n');
+                const newPath = path.join(dir, newFile);
+                fs.renameSync(fullPath, newPath);
+                log(`  🚚 Renombrado (Estabilidad): ${file} -> ${newFile}`, colors.yellow);
+                // Recursión con el nuevo nombre
+                if (stat.isDirectory()) walkthrough(newPath);
+            } else if (stat.isDirectory() && !['node_modules', '.git'].includes(file)) {
+                walkthrough(fullPath);
+            }
+        });
+    };
+    walkthrough(REPO_ROOT);
+}
+
+/**
  * COMANDO: purify (Saneamiento Sistémico Masivo)
  */
 function purify() {
-    log("\n🧼 PURIFY - Saneamiento Sistémico v5.0 (ADN Pureza por Diseno)\n", colors.cyan);
+    log("\n🧼 PURIFY - Saneamiento Sistémico v6.3.2 (ADN Pureza por Diseño)\n", colors.cyan);
     
+    // Paso 1: Estabilizar Rutas (Eliminar acentos en FS)
+    sanitizePaths();
+
     const extensiones = ['.md', '.html', '.js', '.json'];
     const carpetasIgnorar = ['node_modules', '.git', 'bin', 'scripts'];
     const archivosIgnorar = ['lfc-terminology.js'];
@@ -373,18 +408,39 @@ function purify() {
                 walkthrough(fullPath);
             } else if (extensiones.includes(path.extname(fullPath))) {
                 let contenido = fs.readFileSync(fullPath, 'utf8');
+                
+                // Aplicar Saneamiento de Contenido (Terminología)
                 const result = applyPurity(contenido);
+                let finalContenido = result.contenido;
 
-                if (result.modificado) {
-                    fs.writeFileSync(fullPath, result.contenido, 'utf8');
-                    log(`  ✅ Saneado: ${path.relative(REPO_ROOT, fullPath)}`, colors.green);
+                // Aplicar Saneamiento de Enlaces (Zero-Accents en links)
+                const linkMap = {
+                    "básica": "basica",
+                    "Diseño": "Diseno",
+                    "diseño": "diseno",
+                    "Ñ": "N",
+                    "ñ": "n"
+                };
+                
+                let linksModificados = false;
+                Object.keys(linkMap).forEach(key => {
+                    const regex = new RegExp(key, 'g');
+                    if (regex.test(finalContenido)) {
+                        finalContenido = finalContenido.replace(regex, linkMap[key]);
+                        linksModificados = true;
+                    }
+                });
+
+                if (result.modificado || linksModificados) {
+                    fs.writeFileSync(fullPath, finalContenido, 'utf8');
+                    log(`  ✅ Saneado (Contenido/Links): ${path.relative(REPO_ROOT, fullPath)}`, colors.green);
                 }
             }
         });
     }
 
     walkthrough(REPO_ROOT);
-    log("\n✨ REPOSITORIO PURIFICADO!", colors.cyan);
+    log("\n✨ REPOSITORIO PURIFICADO Y ESTABILIZADO!", colors.cyan);
 }
 
 /**

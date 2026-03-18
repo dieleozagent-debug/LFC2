@@ -51,9 +51,9 @@
 - `11. AT1_Alcance_del_Proyecto_MEJORADO.md` → **Alcance del proyecto**
 - `12. AT2_Operacion_y_Mantenimiento_MEJORADO.md` → **Operación y mantenimiento**
 
-#### **Especificaciones y Desempeño**
+#### **Especificaciones y Desempeno**
 - `13. AT3_Especificaciones_Generales_MEJORADO.md` → **Especificaciones generales**
-- `14. AT4_Indicadores_de_Desempeno_MEJORADO.md` → **Indicadores de desempeño**
+- `14. AT4_Indicadores_de_Desempeno_MEJORADO.md` → **Indicadores de desempeno**
 
 #### **Gestión Técnica**
 - `15. AT5_Interferencias_de_Redes_MEJORADO.md` → **Interferencias de redes**
@@ -87,7 +87,7 @@
 - `26. Sistem_CTC_Int – AT1(CCO) + AT2(op) + AT3(esp) + AT4(ind) + AT9(cro).md` → **Sistema CTC integrado**
 - `27_Sistema_TETRA_Integrado_docx_AT1_torres_AT2_comunicaci_n_AT3_radio_AT7_predios_torres.md` → **Sistema TETRA**
 - `28_Sistema_FibraOptica_Integrado_docx_AT1_AT3_AT5_interferencias_AT7_predios.md` → **Sistema fibra óptica**
-- `29_Sistema_Senalizacion_Integrado_docx_AT1_AT2_AT3_AT4_AT8_social.md` → **Sistema señalización**
+- `29_Sistema_Senalizacion_Integrado_docx_AT1_AT2_AT3_AT4_AT8_social.md` → **Sistema senalización**
 - `30_Sistema_ITS_Integrado_docx_AT1_AT3_AT4_AT6_ambiental.md` → **Sistema ITS**
 - `31_Sistema_CCTV_Integrado_docx_AT1_AT3_AT8_social_AT4_indicadores.md` → **Sistema CCTV**
 - `32_Material_Rodante_Integrado_docx_AT1_Cl_13_1_AT2_operaci_n_AT4.md` → **Material rodante integrado**
@@ -124,7 +124,7 @@
 ### 🔧 **V. INGENIERÍA DE DETALLE (13 documentos)**
 
 #### **Sistemas de Control**
-- `1_Se_alizaci_n_ferroviaria_Contrato_8_1.md` → **Señalización ferroviaria**
+- `1_Se_alizaci_n_ferroviaria_Contrato_8_1.md` → **Senalización ferroviaria**
 - `2_Centro_de_Control_de_Tr_fico_CTC_Contrato_8_2.md` → **Centro de control CTC**
 - `3_Pasos_a_nivel_Contrato_8_3.md` → **Pasos a nivel**
 
@@ -179,7 +179,7 @@
 - **Básica:** `39. PlanosPreliminares_localizacion torres tetra_fibra_nod.md`
 - **Detalle:** `6_Fibra_ptica_Contrato_8_6.md`
 
-### **Sistema Señalización**
+### **Sistema Senalización**
 - **Conceptual:** `29_Sistema_Senalizacion_Integrado`
 - **Detalle:** `1_Se_alizaci_n_ferroviaria_Contrato_8_1.md`
 

@@ -23,7 +23,7 @@
 
 ## 1. PROPÓSITO
 
-Este documento traduce las obligaciones de la **Cláusula 8.1 (Preconstrucción)** y el **Apéndice Técnico 1 (Alcance del Proyecto)** en requisitos de ingeniería claros y accionables. Su objetivo es definir el "QUÉ" se debe diseñar y entregar antes de iniciar la construcción.
+Este documento traduce las obligaciones de la **Cláusula 8.1 (Preconstrucción)** y el **Apéndice Técnico 1 (Alcance del Proyecto)** en requisitos de ingeniería claros y accionables. Su objetivo es definir el "QUÉ" se debe disenar y entregar antes de iniciar la construcción.
 
 ---
 
@@ -42,11 +42,11 @@ Este documento traduce las obligaciones de la **Cláusula 8.1 (Preconstrucción)
 
 | Alcance | Requisito para Ingeniería | Documento Relacionado |
 |:---|:---|:---|
-| **Infraestructura Férrea (UFVF)** | Diseñar la rehabilitación de 53 Unidades Funcionales de Vía Férrea. | `29_Sistema_Senalizacion_Integrado...md` |
-| **Talleres y CCO** | Diseñar Taller Pesado (B/bermeja), Taller Liviano (Chiriguaná) y CCO (La Dorada). | `26. Sistem_CTC_Int...md` |
-| **Material Rodante** | Diseñar la Puesta a Punto e integración de equipos PTC/TETRA en locomotoras. | `32_Material_Rodante_Integrado...md` |
-| **Pasos a Nivel** | Diseñar la regularización de 146 pasos a nivel (Clase A, B, C). | `V. Ingenieria de detalle/3_Pasos_a_nivel...md` |
-| **Sistema de Señalización y Control** | Diseñar 5 enclavamientos electrónicos y un sistema PTC. | `29_Sistema_Senalizacion_Integrado...md` |
+| **Infraestructura Férrea (UFVF)** | Disenar la rehabilitación de 53 Unidades Funcionales de Vía Férrea. | `29_Sistema_Senalizacion_Integrado...md` |
+| **Talleres y CCO** | Disenar Taller Pesado (B/bermeja), Taller Liviano (Chiriguaná) y CCO (La Dorada). | `26. Sistem_CTC_Int...md` |
+| **Material Rodante** | Disenar la Puesta a Punto e integración de equipos PTC/TETRA en locomotoras. | `32_Material_Rodante_Integrado...md` |
+| **Pasos a Nivel** | Disenar la regularización de 146 pasos a nivel (Clase A, B, C). | `V. Ingenieria de detalle/3_Pasos_a_nivel...md` |
+| **Sistema de Senalización y Control** | Disenar 5 enclavamientos electrónicos y un sistema PTC. | `29_Sistema_Senalizacion_Integrado...md` |
 
 ---
 

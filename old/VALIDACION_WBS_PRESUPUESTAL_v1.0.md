@@ -33,7 +33,7 @@ Después de validar la **coherencia completa** de la WBS presupuestal contra **T
 
 ### **🔍 VALIDACIÓN POR CAPÍTULO:**
 
-#### **CAPÍTULO 1: CONTROL Y SEÑALIZACIÓN (SIN Puntos de Referencia Virtuales (SICC))**
+#### **CAPÍTULO 1: CONTROL Y SENALIZACIÓN (SIN Puntos de Referencia Virtuales (SICC))**
 - ✅ **1.1 Sistema CTC Centralizado:** Coherente con V.2_Centro_Control_Trafico_CTC_v5.0.md
 - ✅ **1.2 Sistema PTC Embarcado (15 locomotoras):** Coherente con 23_ListadoMaestro_Sistemas_v5.0.md
 - ✅ **1.3 Enclavamientos ENCE (5 estaciones):** Coherente con V.X_Enclavamientos_ENCE_Detalle_v5.0.md
@@ -73,7 +73,7 @@ Después de validar la **coherencia completa** de la WBS presupuestal contra **T
 
 | Capítulo | Descripción | Monto (COP) | % del Total |
 |:---------|:------------|:-----------:|:----------:|
-| **CAPÍTULO 1** | Control y Señalización Virtual | $13,830,000,000 | 4.5% |
+| **CAPÍTULO 1** | Control y Senalización Virtual | $13,830,000,000 | 4.5% |
 | **CAPÍTULO 2** | Telecomunicaciones | $42,014,000,000 | 13.7% |
 | **CAPÍTULO 3** | Sistemas ITS y Seguridad | $8,730,000,000 | 2.8% |
 | **CAPÍTULO 4** | Pasos a Nivel | $3,600,000,000 | 1.2% |

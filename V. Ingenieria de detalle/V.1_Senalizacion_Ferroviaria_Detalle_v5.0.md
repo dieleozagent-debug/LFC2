@@ -1,4 +1,4 @@
-# V.1 - SEÑALIZACIÓN FERROVIARIA DE DETALLE v6.0 (PTC VIRTUAL)
+# V.1 - SENALIZACIÓN FERROVIARIA DE DETALLE v6.0 (PTC VIRTUAL)
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 13 de marzo de 2026  
@@ -7,9 +7,9 @@
 
 ---
 
-## 1. INGENIERÍA DE SEÑALIZACIÓN SANEADA
+## 1. INGENIERÍA DE SENALIZACIÓN SANEADA
 
-La señalización de detalle se basa al 100% en la arquitectura **PTC Virtual** (FRA 236), eliminando cualquier dependencia de protocolos europeos o hardware propietario.
+La senalización de detalle se basa al 100% en la arquitectura **PTC Virtual** (FRA 236), eliminando cualquier dependencia de protocolos europeos o hardware propietario.
 
 ### 1.1 Arquitectura del Tren (OBC):
 - **Unidad de Bordo:** Basada en arquitectura COTS (Vital IP). Integración nativa con GNSS y EOT.
@@ -42,4 +42,4 @@ En cumplimiento del **Ciclo Inverso**, se han corregido los siguientes desvíos 
 
 Este documento de ingeniería de detalle garantiza que no existan contradicciones con los documentos maestros. Al eliminar el "fantasma" del Red Vital IP / TETRA y el PTC VIRTUAL, el proyecto asegura su soberanía tecnológica y eficiencia financiera.
 
-**Saneamiento Ciclo 5 - Señalización de Detalle Finalizado.**
+**Saneamiento Ciclo 5 - Senalización de Detalle Finalizado.**

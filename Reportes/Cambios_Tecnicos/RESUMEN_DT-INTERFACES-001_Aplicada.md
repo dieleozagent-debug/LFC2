@@ -91,7 +91,7 @@ Documentar formalmente la función técnica y composición del ítem 1.1.106 "In
 
 ### **Ubicación:** `Reportes/Cambios_Tecnicos/`
 
-| Documento Servido | Formato | Tamaño | Contenido |
+| Documento Servido | Formato | Tamano | Contenido |
 |:------------------|:--------|:-------|:----------|
 | Interfaces_Sistemas_CON_DT-INTERFACES-001.docx | Word | 15.6 KB | IV.2 con IF-07 nueva |
 | Interfaces_Sistemas_CON_DT-INTERFACES-001.html | HTML | - | Visualización web IV.2 |

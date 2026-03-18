@@ -49,9 +49,9 @@ El diseno detallado de los componentes ITS no puede avanzar hasta que este conce
 
 ### 2.3 Interfaces Críticas
 - **ITS ↔ CTC:** El ITS recibe datos de operación del CTC para informar a los usuarios y gestionar incidentes.
-- **ITS ↔ Señalización:** Utiliza el estado de los pasos a nivel para generar alertas de seguridad vial.
+- **ITS ↔ Senalización:** Utiliza el estado de los pasos a nivel para generar alertas de seguridad vial.
 - **ITS ↔ Gestión Ambiental (AT6):** Proporciona la plataforma para el monitoreo de indicadores de ruido, vibraciones y calidad del aire.
-- **ITS ↔ SICC (AT4):** Alimenta al SICC con los datos necesarios para calcular los indicadores de desempeño contractuales.
+- **ITS ↔ SICC (AT4):** Alimenta al SICC con los datos necesarios para calcular los indicadores de desempeno contractuales.
 - **ITS ↔ PTC:** Integración con datos de sistemas de control embarcados usando PTC Virtual (FRA 236) hasta AT3.
 - **ITS ↔ FENOCO:** Intercambio de datos operacionales con sistemas FENOCO según protocolos FRA/AREMA.
 
@@ -62,14 +62,14 @@ El diseno detallado de los componentes ITS no puede avanzar hasta que este conce
 ### 3.1 Arquitectura Modular para Proyectos EPC
 Se propone una arquitectura ITS modular que permite una implementación por fases y una gestión de riesgos eficiente:
 - **Módulo 1 - Plataforma Central (CCO):** Implementación de la plataforma de software ITS en el CCO, con integración inicial al CTC y al SICC, garantizando disponibilidad según AT4.
-- **Módulo 2 - Seguridad Vial:** Despliegue de sensores y paneles de mensaje variable (PMV) en los 146 pasos a nivel, integrados con el sistema de señalización.
+- **Módulo 2 - Seguridad Vial:** Despliegue de sensores y paneles de mensaje variable (PMV) en los 146 pasos a nivel, integrados con el sistema de senalización.
 - **Módulo 3 - Monitoreo Ambiental (AT6):** Instalación de estaciones de monitoreo de calidad del aire y ruido en puntos estratégicos, enviando datos en tiempo real a la plataforma ITS.
 - **Módulo 4 - Información al Usuario:** Desarrollo de la aplicación móvil y el portal web para consulta de horarios y alertas.
 
 ### 3.2 Estrategia de Avance con Bloqueos AT3/AT4
 Dado que las especificaciones detalladas de algunos sensores (AT3) y los KPIs finales (AT4) están bloqueados, se adopta una estrategia de mitigación:
-- **Diseno Basado en Estándares:** La plataforma ITS se diseñará siguiendo el estándar ISO TC-204, lo que garantiza la compatibilidad con una amplia gama de sensores y facilita la integración futura.
-- **Enfoque en Integración:** Se priorizará la integración con los sistemas ya definidos (CTC, Señalización, Fibra Óptica), dejando "placeholders" para los datos de los sensores que dependen de AT3.
+- **Diseno Basado en Estándares:** La plataforma ITS se disenará siguiendo el estándar ISO TC-204, lo que garantiza la compatibilidad con una amplia gama de sensores y facilita la integración futura.
+- **Enfoque en Integración:** Se priorizará la integración con los sistemas ya definidos (CTC, Senalización, Fibra Óptica), dejando "placeholders" para los datos de los sensores que dependen de AT3.
 
 ---
 

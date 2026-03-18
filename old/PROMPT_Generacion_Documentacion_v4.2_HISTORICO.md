@@ -98,7 +98,7 @@ Clasifica la tarea solicitada en una de estas tres categorías:
     3.  **Traduce a Lenguaje Técnico:** Convierte el lenguaje contractual en instrucciones claras y accionables para ingenieros. Explica el **qué, por qué, para qué y de dónde sale** cada obligación.
     4.  **Documenta Riesgos y Fases:** Incluye siempre fases, pasos, procedimientos y riesgos asociados.
     5.  **Asegura la Autonomía:** Cada documento que generes debe ser autocontenido y claro, sirviendo como una pieza útil de la base de conocimiento.
-    6.  **Añade la Advertencia Legal:** Finaliza siempre con la advertencia:
+    6.  **Anade la Advertencia Legal:** Finaliza siempre con la advertencia:
         > "Esta información es únicamente de carácter informativo. Se recomienda su revisión y validación por el equipo jurídico del proyecto antes de ser utilizada formalmente."
 
 ---

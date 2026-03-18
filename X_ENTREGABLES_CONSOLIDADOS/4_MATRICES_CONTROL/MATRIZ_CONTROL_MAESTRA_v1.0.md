@@ -30,7 +30,7 @@
 3. **MATRIZ DE ESPECIALIDADES**
 4. **MATRIZ DE GESTIÓN DE PROYECTO**
 5. **MATRIZ DE RIESGOS Y CONTINGENCIAS**
-6. **MATRIZ DE INDICADORES DE DESEMPEÑO**
+6. **MATRIZ DE INDICADORES DE DESEMPENO**
 7. **MATRIZ DE TRABAZABILIDAD TÉCNICA**
 8. **MATRIZ DE CONTROL DE CALIDAD**
 9. **REFERENCIAS Y DOCUMENTOS RELACIONADOS**
@@ -46,7 +46,7 @@
 | **AT1** | Alcance del proyecto | ✅ Completado | 100% | EPC General | Todos los sistemas implementados |
 | **AT2** | Operación y mantenimiento | ✅ Completado | 100% | EPC Sistemas | Manuales OM v5.0 completos |
 | **AT3** | Especificaciones generales | ✅ Completado | 100% | EPC Sistemas | Cumplimiento 100% estándares |
-| **AT4** | Indicadores de desempeño | ✅ Completado | 100% | EPC Sistemas | KPIs dentro de rangos |
+| **AT4** | Indicadores de desempeno | ✅ Completado | 100% | EPC Sistemas | KPIs dentro de rangos |
 | **AT5** | Gestión de interferencias | ✅ Completado | 100% | EPC Telecomunicaciones | Coordinación ANE completada |
 | **AT6** | Gestión ambiental | ✅ Completado | 100% | EPC Ambiental | Cumplimiento normativo 100% |
 | **AT7** | Gestión predial | ✅ Completado | 100% | EPC Civil | Adquisición predios completada |
@@ -72,7 +72,7 @@
 
 | Sistema | Documento Master | Estado | % Completado | Responsable | Última Actualización |
 |:--------|:-----------------|:-------|:-------------|:-------------|:-------------------|
-| **SISTEMA_01** | Control y Señalización | ✅ Completado | 100% | EPC Sistemas | Enero 2025 |
+| **SISTEMA_01** | Control y Senalización | ✅ Completado | 100% | EPC Sistemas | Enero 2025 |
 | **SISTEMA_02** | Telecomunicaciones | ✅ Completado | 100% | EPC Telecomunicaciones | Enero 2025 |
 | **SISTEMA_03** | ITS y Seguridad | ✅ Completado | 100% | EPC Sistemas | Enero 2025 |
 | **SISTEMA_04** | Material Rodante | ✅ Completado | 100% | EPC Mecánico | Enero 2025 |
@@ -169,7 +169,7 @@
 
 ---
 
-## 6. MATRIZ DE INDICADORES DE DESEMPEÑO
+## 6. MATRIZ DE INDICADORES DE DESEMPENO
 
 ### **6.1 KPIs Principales**
 
@@ -247,10 +247,10 @@
 - `FORMATEADO_APENDICE TECNICO 1.md` - Alcance del proyecto (AT1)
 - `FORMATEADO_APENDICE TECNICO 2.md` - Operación y mantenimiento (AT2)
 - `FORMATEADO_APENDICE TECNICO 3.md` - Especificaciones generales (AT3)
-- `FORMATEADO_APENDICE TECNICO 4.md` - Indicadores de desempeño (AT4)
+- `FORMATEADO_APENDICE TECNICO 4.md` - Indicadores de desempeno (AT4)
 
 ### **9.2 Documentos de Sistemas Técnicos**
-- `X_ENTREGABLES_CONSOLIDADOS/1_SISTEMAS_TECNICOS/SISTEMA_01_Control_y_Senalizacion_Master.md` - Control y señalización
+- `X_ENTREGABLES_CONSOLIDADOS/1_SISTEMAS_TECNICOS/SISTEMA_01_Control_y_Senalizacion_Master.md` - Control y senalización
 - `X_ENTREGABLES_CONSOLIDADOS/1_SISTEMAS_TECNICOS/SISTEMA_02_Telecomunicaciones_Master.md` - Telecomunicaciones
 - `X_ENTREGABLES_CONSOLIDADOS/1_SISTEMAS_TECNICOS/SISTEMA_03_ITS_y_Seguridad_Master.md` - ITS y seguridad
 - `X_ENTREGABLES_CONSOLIDADOS/1_SISTEMAS_TECNICOS/SISTEMA_04_Material_Rodante_Master.md` - Material rodante
@@ -288,7 +288,7 @@
 - **Criterios maestros:** ✅ 100% coherente
 - **Cumplimiento contractual:** ✅ 100% coherente
 - **Estado de sistemas:** ✅ 100% coherente
-- **Indicadores de desempeño:** ✅ 100% coherente
+- **Indicadores de desempeno:** ✅ 100% coherente
 
 ---
 

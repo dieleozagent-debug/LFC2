@@ -86,15 +86,15 @@ Este documento presenta la **ingeniería civil de detalle** para las obras civil
 #### **3.1 Distribución por Tramo**
 | Tramo | Cantidad | Tipo Principal | Sistema de Seguridad |
 |:------|:---------|:---------------|:---------------------|
-| **La Dorada - Puerto Berrío** | 38 | Automático | Barreras + señales |
-| **Puerto Berrío - Barrancabermeja** | 42 | Automático | Barreras + señales |
-| **Barrancabermeja - Bucaramanga** | 28 | Automático | Barreras + señales |
-| **Bucaramanga - Chiriguaná** | 38 | Automático | Barreras + señales |
+| **La Dorada - Puerto Berrío** | 38 | Automático | Barreras + senales |
+| **Puerto Berrío - Barrancabermeja** | 42 | Automático | Barreras + senales |
+| **Barrancabermeja - Bucaramanga** | 28 | Automático | Barreras + senales |
+| **Bucaramanga - Chiriguaná** | 38 | Automático | Barreras + senales |
 | **TOTAL** | **146** | - | - |
 
 #### **3.2 Componentes por Paso a Nivel**
 - **Barreras automáticas:** 2 unidades por paso
-- **Señales luminosas:** 4 unidades por paso
+- **Senales luminosas:** 4 unidades por paso
 - **Sirena de alarma:** 1 unidad por paso
 - **Sistema de detección:** Sensores de vía
 - **Cámara CCTV:** 1 unidad por paso
@@ -189,10 +189,10 @@ Este documento presenta la **ingeniería civil de detalle** para las obras civil
 - **Sobrelevación máxima:** 150mm
 
 #### **6.3 Filosofía PTC Virtual**
-- **Señales principales:** 89 unidades
-- **Señales de entrada:** 8 unidades (estaciones)
-- **Señales de salida:** 8 unidades (estaciones)
-- **Señales intermedias:** 73 unidades
+- **Senales principales:** 89 unidades
+- **Senales de entrada:** 8 unidades (estaciones)
+- **Senales de salida:** 8 unidades (estaciones)
+- **Senales intermedias:** 73 unidades
 - **Postes:** Concreto reforzado 12m altura
 
 ---
@@ -226,7 +226,7 @@ Este documento presenta la **ingeniería civil de detalle** para las obras civil
 1. **Fase 1:** Movimiento de tierras y drenaje (8 meses)
 2. **Fase 2:** Estructuras especiales (12 meses)
 3. **Fase 3:** Infraestructura ferroviaria (10 meses)
-4. **Fase 4:** Electrificación y señales (6 meses)
+4. **Fase 4:** Electrificación y senales (6 meses)
 5. **Fase 5:** Edificaciones y acabados (4 meses)
 
 #### **8.2 Control de Calidad**
@@ -264,7 +264,7 @@ Este documento presenta la **ingeniería civil de detalle** para las obras civil
 - **Riel FRA/AREMA 60:** 356 km (2 vías)
 - **Durmientes:** 593,000 unidades
 - **Balasto:** 356,000 m³
-- **Señales:** 97 unidades
+- **Senales:** 97 unidades
 
 ### **10. PRESUPUESTO ESTIMADO**
 
@@ -309,7 +309,7 @@ Este documento presenta la **ingeniería civil de detalle** para las obras civil
 |:-----|:---------|:----------------------|:---------|
 | **Fase 1** | 8 meses | Movimiento tierras, drenaje | 150 operarios |
 | **Fase 2** | 12 meses | Puentes, estructuras | 200 operarios |
-| **Fase 3** | 10 meses | Vía férrea, señales | 180 operarios |
+| **Fase 3** | 10 meses | Vía férrea, senales | 180 operarios |
 | **Fase 4** | 6 meses | Electrificación | 100 operarios |
 | **Fase 5** | 4 meses | Edificaciones, acabados | 80 operarios |
 
@@ -336,12 +336,12 @@ Este documento presenta la **ingeniería civil de detalle** para las obras civil
 - **Resistencia concreto:** f'c = 35 MPa
 - **Deflexiones:** < L/300
 - **Fisuración:** < 0.3mm
-- **Durabilidad:** 50 años mínimo
+- **Durabilidad:** 50 anos mínimo
 
 #### **13.3 Infraestructura Ferroviaria**
 - **Geometría:** Tolerancias FRA/AREMA
 - **Soldadura:** Normas AWS
-- **Señalización:** Funcional 100%
+- **Senalización:** Funcional 100%
 - **Electrificación:** [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] ±5%
 
 ---

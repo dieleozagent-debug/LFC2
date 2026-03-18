@@ -9,7 +9,7 @@
 
 ## 1. CONTROL DE DESVÍOS SANEADO (PTC VIRTUAL)
 
-Los 120 desvíos del corredor se integran en la lógica de señalización virtual mediante controladores locales IP subordinados al CTC.
+Los 120 desvíos del corredor se integran en la lógica de senalización virtual mediante controladores locales IP subordinados al CTC.
 
 ### 1.1 Configuración de Control:
 - **Motor Eléctrico:** Accionamiento robusto de 480V.

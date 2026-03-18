@@ -23,7 +23,7 @@
 - **✅ CTC Virtual Centralizado:** Centro de control único en La Dorada
 - **✅ PTC Embarcado:** Sistema en 15 locomotoras (sin Servidor PTC Central)
 - **✅ Comunicación Directa:** CTC ↔ PTC (sin intermediarios)
-- **✅ Display Virtual:** Señalización en cabina del maquinista
+- **✅ Display Virtual:** Senalización en cabina del maquinista
 
 ---
 
@@ -167,7 +167,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 #### 4.1.2 Supervisión en Tiempo Real Virtual
 - **Posición de Trenes:** Tracking en tiempo real via PTC embarcado
 - **Estado de Vías:** Monitoreo continuo sin Puntos de Referencia Virtuales (SICC)
-- **Señales Virtuales:** Control y supervisión virtual
+- **Senales Virtuales:** Control y supervisión virtual
 - **Alarmas Virtuales:** Gestión de alarmas y eventos
 
 ### 4.2 Integración PTC Embarcado
@@ -181,7 +181,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 #### 4.2.2 Interfaces Directas CTC-PTC
 - **IF-V001:** Estado de trenes (PTC → CTC)
 - **IF-V002:** Autorización de rutas (CTC → PTC)
-- **IF-V003:** Señales virtuales (CTC → PTC)
+- **IF-V003:** Senales virtuales (CTC → PTC)
 - **IF-V004:** Alarmas y eventos (PTC → CTC)
 - **IF-V005:** Comandos de emergencia (CTC → PTC)
 - **IF-V006:** Estado del sistema (PTC → CTC)
@@ -404,7 +404,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 - **`CRITERIOS_TECNICOS_MAESTRO_v1.0.md`:** Filosofía virtual
 - **`AT1_Alcance_del_Proyecto_MEJORADO_v4.0.md`:** Alcance actualizado
 - **`29_Sistema_Senalizacion_Integrado_v5.0.md`:** Filosofía virtual
-- **`V.1_Señalizacion_Ferroviaria_Detalle_v2.0.md`:** Filosofía virtual implementada
+- **`V.1_Senalizacion_Ferroviaria_Detalle_v2.0.md`:** Filosofía virtual implementada
 
 ### 12.2 Referencias del Proyecto
 - **`@@Roadmap_v12.0_Marco_Gestion_Consolidado.md`:** Estado del proyecto
@@ -418,7 +418,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 ### 13.1 Eliminaciones (Sobrepresupuesto)
 - **Servidor PTC Central:** -$2,000,000,000 COP
 - **Virtual Balise (GNSS)s:** -$40,000,000,000 COP
-- **Señalización en Cabina (Cab-Signaling) vía:** -$12,000,000,000 COP
+- **Senalización en Cabina (Cab-Signaling) vía:** -$12,000,000,000 COP
 - **[CONTROLLER PROHIBIDO - SICC ES VIRTUAL]:** -$10,000,000,000 COP
 - **TOTAL ELIMINAR:** -$64,000,000,000 COP
 
@@ -441,7 +441,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 - **Listado Maestro v4.0:** ✅ Actualizado - Sistemas virtuales incluidos
 - **WBS v4.0:** ✅ Actualizado - Estructura virtual implementada
 - **29_Sistema_Senalizacion v5.0:** ✅ Actualizado - Filosofía virtual completa
-- **V.1_Señalizacion_Ferroviaria v2.0:** ✅ Actualizado - Filosofía virtual implementada
+- **V.1_Senalizacion_Ferroviaria v2.0:** ✅ Actualizado - Filosofía virtual implementada
 - **V.2_CTC_Detalle v2.0:** ✅ Actualizado - CTC virtual centralizado
 
 ### 14.2 Documentos Dependientes (Por Actualizar)

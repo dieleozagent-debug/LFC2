@@ -43,7 +43,7 @@
 5. **25.1_WBS_COMPLETA_ESPECIALIDADES_v5.0.md** - WBS especialidades completas
 6. **27_Sistema_TETRA_Integrado_v5.0.md** - Sistema TETRA integrado
 7. **28_Sistema_FibraOptica_Integrado_docx_AT1_AT3_AT5_interferencias_AT7_predios.md** - Sistema fibra óptica
-8. **29_Sistema_Senalizacion_Integrado_v5.0.md** - Sistema señalización integrado
+8. **29_Sistema_Senalizacion_Integrado_v5.0.md** - Sistema senalización integrado
 9. **30_Sistema_ITS_Integrado_docx_AT1_AT3_AT4_AT6_ambiental.md** - Sistema ITS integrado
 10. **32_Material_Rodante_Integrado_v5.0.md** - Sistema material rodante integrado
 11. **34_Criterios_Interoperabilidad_docx_Compatibilidad_con_FENOCO_y_ANI.md** - Criterios interoperabilidad
@@ -57,7 +57,7 @@
 #### **Ingeniería de Detalle:**
 16. **V.5.1_Plan_Integracion_Sistemas_COMPLETO.md** - Plan integración sistemas
 17. **V.2_Centro_Control_Trafico_CTC_v5.0.md** - Centro control tráfico CTC
-18. **V.1_Señalizacion_Ferroviaria_Detalle_v5.0.md** - Señalización ferroviaria detalle
+18. **V.1_Senalizacion_Ferroviaria_Detalle_v5.0.md** - Senalización ferroviaria detalle
 19. **V.3_Sistemas_Comunicacion_Detalle_v5.0.md** - Sistemas comunicación detalle
 20. **V.4.1_Sistemas_Ferroviarios_Integrados_DETALLADO.md** - Sistemas ferroviarios integrados
 

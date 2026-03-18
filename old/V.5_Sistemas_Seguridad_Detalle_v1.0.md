@@ -161,7 +161,7 @@ Este documento detalla la ingeniería de los sistemas de seguridad para el proye
 #### 4.1.3 Interlocking
 - **Rutas:** Gestión de rutas de trenes
 - **Conflictos:** Prevención de conflictos
-- **Señales:** Control de señales y aspectos
+- **Senales:** Control de senales y aspectos
 - **Enclavamientos:** Lógica de seguridad
 
 ### 4.2 Ciberseguridad
@@ -239,10 +239,10 @@ Este documento detalla la ingeniería de los sistemas de seguridad para el proye
 ### 5.3 Disponibilidad
 
 #### 5.3.1 Objetivos de Disponibilidad
-- **Seguridad funcional:** 99.95% (4.38 horas/año)
-- **Ciberseguridad:** 99.9% (8.76 horas/año)
-- **Seguridad física:** 99.5% (43.8 horas/año)
-- **Control de acceso:** 99.0% (87.6 horas/año)
+- **Seguridad funcional:** 99.95% (4.38 horas/ano)
+- **Ciberseguridad:** 99.9% (8.76 horas/ano)
+- **Seguridad física:** 99.5% (43.8 horas/ano)
+- **Control de acceso:** 99.0% (87.6 horas/ano)
 
 #### 5.3.2 Estrategias de Redundancia
 - **Componentes:** N+1 en sistemas críticos
@@ -405,7 +405,7 @@ Este documento detalla la ingeniería de los sistemas de seguridad para el proye
 ### 10.3 Referencias Normativas
 - **EN 50126:** Aplicación de técnicas de confiabilidad para sistemas ferroviarios
 - **EN 50128:** Software para sistemas de control y protección ferroviarios
-- **EN 50129:** Sistemas de señalización ferroviaria
+- **EN 50129:** Sistemas de senalización ferroviaria
 - **IEC 62290:** Sistemas de gestión ferroviaria
 - **IEC 62443:** Seguridad de sistemas de automatización industrial
 - **ISO 27001:** Sistemas de gestión de seguridad de la información

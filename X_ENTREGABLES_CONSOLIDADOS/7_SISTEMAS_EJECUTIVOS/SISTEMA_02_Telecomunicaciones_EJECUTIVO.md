@@ -26,7 +26,7 @@ El Sistema de Telecomunicaciones es la **red de comunicación vital** del ferroc
 
 ---
 
-## 🔍 CRITERIOS DE DISEÑO Y JUSTIFICACIONES TÉCNICAS
+## 🔍 CRITERIOS DE DISENO Y JUSTIFICACIONES TÉCNICAS
 
 ### ¿Por qué 37 estaciones TETRA/Red Vital IP / TETRA?
 **Cálculo de Cobertura:**
@@ -110,7 +110,7 @@ El Sistema de Telecomunicaciones proporciona **comunicación en tiempo real** en
 ```
 [Centro de Control] ←→ [Telecomunicaciones] ←→ [Locomotoras]
                                     ↓
-[Control de Tráfico] ←→ [Telecomunicaciones] ←→ [Señalización]
+[Control de Tráfico] ←→ [Telecomunicaciones] ←→ [Senalización]
                                     ↓
 [Monitoreo] ←→ [Telecomunicaciones] ←→ [Seguridad]
 ```
@@ -260,10 +260,10 @@ Las 37 estaciones de telecomunicaciones están ubicadas estratégicamente a lo l
 ## ⚙️ OPERACIÓN Y MANTENIMIENTO
 
 ### Operación normal
-El sistema opera 24/7 proporcionando comunicación continua entre el Centro de Control y todas las locomotoras, con monitoreo automático de la calidad de señal y disponibilidad.
+El sistema opera 24/7 proporcionando comunicación continua entre el Centro de Control y todas las locomotoras, con monitoreo automático de la calidad de senal y disponibilidad.
 
 ### Mantenimiento preventivo
-- **Diario:** Verificación de estado de equipos y calidad de señal
+- **Diario:** Verificación de estado de equipos y calidad de senal
 - **Semanal:** Pruebas de comunicación y respaldo
 - **Mensual:** Calibración de equipos y limpieza de antenas
 - **Trimestral:** Mantenimiento mayor de equipos y actualización de software
@@ -283,7 +283,7 @@ El sistema opera 24/7 proporcionando comunicación continua entre el Centro de C
 ```
 [Control de Tráfico] ←→ [Telecomunicaciones] ←→ [Material Rodante]
                                     ↓
-[Centro de Control] ←→ [Telecomunicaciones] ←→ [Señalización]
+[Centro de Control] ←→ [Telecomunicaciones] ←→ [Senalización]
                                     ↓
 [Monitoreo] ←→ [Telecomunicaciones] ←→ [Seguridad]
 ```
@@ -293,7 +293,7 @@ El sistema opera 24/7 proporcionando comunicación continua entre el Centro de C
 |:--------|:-----------------|:-----------|:------------|
 | Control de Tráfico | Protocolo FFFIS | Alta | EPC Telecomunicaciones |
 | Material Rodante | TETRA + Red Vital IP / TETRA | Alta | EPC Telecomunicaciones |
-| Señalización | Fibra óptica | Media | EPC Telecomunicaciones |
+| Senalización | Fibra óptica | Media | EPC Telecomunicaciones |
 | Seguridad | CCTV + Alarms | Media | EPC Telecomunicaciones |
 
 ---
@@ -311,10 +311,10 @@ El sistema opera 24/7 proporcionando comunicación continua entre el Centro de C
 | **Disponibilidad Red Vital IP / TETRA** | 99.95% | Penalizaciones si no cumple | Doble anillo fibra |
 
 ### Limitaciones del Diseno
-- **Topografía:** Cobertura puede reducirse en zonas montañosas
+- **Topografía:** Cobertura puede reducirse en zonas montanosas
 - **Interferencias:** Coordinación con ANE requerida para espectro
 - **Clima:** Tormentas eléctricas pueden afectar disponibilidad
-- **Vandalismo:** Torres remotas susceptibles a daños
+- **Vandalismo:** Torres remotas susceptibles a danos
 - **Mantenimiento:** Acceso limitado en zonas de difícil acceso
 
 ### Dependencias Críticas
@@ -379,7 +379,7 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 ---
 
-## 📊 INDICADORES DE DESEMPEÑO (KPIs)
+## 📊 INDICADORES DE DESEMPENO (KPIs)
 
 | Indicador | Meta | Actual | Estado |
 |:----------|:-----|:-------|:-------|
@@ -387,7 +387,7 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 | Disponibilidad Red Vital IP / TETRA | 99.95% | 99.98% | 🟢 Excelente |
 | Cobertura del corredor | 100% | 95% | 🟡 En progreso |
 | Tiempo de respuesta | < 500ms | 350ms | 🟢 Excelente |
-| Calidad de señal | > 95% | 97% | 🟢 Excelente |
+| Calidad de senal | > 95% | 97% | 🟢 Excelente |
 
 ---
 

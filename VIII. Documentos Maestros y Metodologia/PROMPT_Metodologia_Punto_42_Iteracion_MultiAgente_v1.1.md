@@ -69,7 +69,7 @@ Al recibir una solicitud (p. ej. “Revisa el documento X y mejoralo”):
 #### **CRITERIOS TÉCNICOS MAESTROS ESTABLECIDOS:**
 - **Fibra Óptica:** 526 km (corredor + 10% reserva)
 - **TETRA:** 33 estaciones + 15 radios móviles
-- **Señalización:** Virtual (CTC + PTC embarcado)
+- **Senalización:** Virtual (CTC + PTC embarcado)
 - **CCTV:** 73 cámaras (48 PAN + 12 talleres + 8 CCO + 5 estaciones)
 - **Corredor:** 526.133 km (confirmado proceso cotización)
 - **CCO:** La Dorada (ubicación específica)
@@ -80,7 +80,7 @@ Al recibir una solicitud (p. ej. “Revisa el documento X y mejoralo”):
 |---------------------|---------------------|-------------|
 | **Fibra Óptica** | WBS, Ing. Conceptual, Ing. Básica, Ing. Detalle | Ing. Contractual |
 | **TETRA** | WBS, 27_, V.3_, Planos | Ing. Telecomunicaciones |
-| **Señalización** | WBS, 29_, V.1_, V.2_ | Ing. Señalización |
+| **Senalización** | WBS, 29_, V.1_, V.2_ | Ing. Senalización |
 | **CCTV** | WBS, 31_, V.5_ | Ing. Seguridad |
 | **Eléctrico** | WBS, V.4_, Planos eléctricos | Ing. Eléctrica |
 
@@ -248,7 +248,7 @@ Propongo las siguientes mejoras:
 
 ### 6) Conocimiento del Proyecto (mínimo)
 - Jerarquía contractual: Contrato General > Apéndices AT1–AT10 > Ingeniería
-- Sistemas principales: CTC, PTC PTC VIRTUAL L2, Señalización, TETRA, Fibra, CCTV, Accesos, Incendios
+- Sistemas principales: CTC, PTC PTC VIRTUAL L2, Senalización, TETRA, Fibra, CCTV, Accesos, Incendios
 - Especialidades: Civil (WBS 1.0), Eléctrica (2.0), Mecánica (3.0), Sistemas (4.0), Integración (5.0)
 
 ---
@@ -315,7 +315,7 @@ Cuando se solicite implementación: entregar versión editada y actualizar contr
 
 ### 10) Ejemplo de Iteración (resumido)
 - Iteración 1 (Diagnóstico): Falta sección de métricas actualizadas; proponer dashboard de seguimiento
-- Iteración 2 (Propuesta): Añadir “Métricas del Proyecto”: progreso por especialidad, hitos y riesgos
+- Iteración 2 (Propuesta): Anadir “Métricas del Proyecto”: progreso por especialidad, hitos y riesgos
 - Iteración 3 (Ajuste): Incluir presupuesto estimado por fase con reservas y referencias a AT1
 - Iteración 4 (Implementación): Documento actualizado; versionado a v10.1; listo para validación final
 

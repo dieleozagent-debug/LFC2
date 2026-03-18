@@ -1,4 +1,4 @@
-# SISTEMA 01: CONTROL Y SEÑALIZACIÓN - Documento Master v1.0
+# SISTEMA 01: CONTROL Y SENALIZACIÓN - Documento Master v1.0
 
 **Proyecto:** APP La Dorada-Chiriguaná  
 **Contrato:** No. 001 de 2025  
@@ -16,7 +16,7 @@ Este documento consolida información de las siguientes fuentes:
 |:-----|:------------------|:---------------------|:-------|
 | **I. Base Contractual** | AT1, AT2, AT3, AT4, AT8, AT9 | Enero 2025 | ✅ |
 | **III. Ing. Conceptual** | 26, 27, 28, 29 | Enero 2025 | ✅ |
-| **IV. Ing. Básica** | SIS_CTC, SIS_PTC, SIS_Señalización | Enero 2025 | ✅ |
+| **IV. Ing. Básica** | SIS_CTC, SIS_PTC, SIS_Senalización | Enero 2025 | ✅ |
 | **V. Ing. Detalle** | V.1, V.2, V.X | Enero 2025 | ✅ |
 | **VI. Operación** | Manuales OM | Enero 2025 | ✅ |
 
@@ -58,7 +58,7 @@ Este documento consolida información de las siguientes fuentes:
 - Disponibilidad 99.95% del sistema
 - Interoperabilidad con FENOCO
 
-**Indicadores de desempeño:**
+**Indicadores de desempeno:**
 - Disponibilidad del sistema: 99.95%
 - Tiempo de respuesta: < 2 segundos
 - Tiempo de recuperación: < 5 minutos
@@ -71,10 +71,10 @@ Este documento consolida información de las siguientes fuentes:
 ### 2.1 Visión General del Sistema
 **Consolidado de documentos III/**
 
-El Sistema de Control y Señalización implementa una **filosofía virtual** basada en:
+El Sistema de Control y Senalización implementa una **filosofía virtual** basada en:
 - **CTC Virtual:** Control centralizado desde CCO
 - **PTC Embarcado:** Sistema de protección a bordo
-- **Señalización Virtual:** Sin señales físicas en vía
+- **Senalización Virtual:** Sin senales físicas en vía
 - **Enclavamientos ENCE:** 5 estaciones críticas
 - **Desvíos Automatizados:** 120 desvíos con control centralizado
 
@@ -108,8 +108,8 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 
 | Alternativa | Descripción | Decisión | Justificación |
 |:------------|:------------|:---------|:--------------|
-| **Filosofía PTC Virtual** | Señalización en Cabina (Cab-Signaling) en vía | ❌ Rechazada | Costo elevado, mantenimiento complejo |
-| **Señalización Virtual** | CTC + PTC embarcado | ✅ Seleccionada | Costo optimizado, mantenimiento simplificado |
+| **Filosofía PTC Virtual** | Senalización en Cabina (Cab-Signaling) en vía | ❌ Rechazada | Costo elevado, mantenimiento complejo |
+| **Senalización Virtual** | CTC + PTC embarcado | ✅ Seleccionada | Costo optimizado, mantenimiento simplificado |
 | **Servidor PTC Central Centralizado** | Radio Block Center | ❌ Rechazada | No aplicable para filosofía virtual |
 | **Control Distribuido** | Múltiples CTCs | ❌ Rechazada | Complejidad operacional |
 
@@ -178,8 +178,8 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 - Sistema de alarmas y eventos
 - Base de datos de configuración
 
-**V.1 - Señalización Ferroviaria v5.0:**
-- Filosofía de señalización virtual
+**V.1 - Senalización Ferroviaria v5.0:**
+- Filosofía de senalización virtual
 - Criterios de seguridad según EN 50126/50128/50129
 - Procedimientos de validación y prueba
 - Especificaciones de PTC embarcado
@@ -257,8 +257,8 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 - Comunicación con CTC
 - Diagnóstico automático
 
-### 5.2 Especificaciones de Desempeño
-**Criterios de desempeño y KPIs**
+### 5.2 Especificaciones de Desempeno
+**Criterios de desempeno y KPIs**
 
 | Parámetro | Especificación | Método de Medición |
 |:----------|:---------------|:-------------------|
@@ -272,8 +272,8 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 **Estándares y normativa aplicable**
 
 - **EN 50126:** Gestión de la fiabilidad, disponibilidad, mantenibilidad y seguridad
-- **EN 50128:** Sistemas de señalización ferroviaria - Software
-- **EN 50129:** Sistemas de señalización ferroviaria - Seguridad
+- **EN 50128:** Sistemas de senalización ferroviaria - Software
+- **EN 50129:** Sistemas de senalización ferroviaria - Seguridad
 - **IEC 62443:** Ciberseguridad industrial
 - **FRA/AREMA 406:** Capacidad de líneas ferroviarias
 
@@ -446,7 +446,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 - AT1 - Alcance del Proyecto
 - AT2 - Operación y Mantenimiento
 - AT3 - Especificaciones Generales
-- AT4 - Indicadores de Desempeño
+- AT4 - Indicadores de Desempeno
 - AT8 - Operaciones
 - AT9 - Plan de Obras
 
@@ -454,23 +454,23 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 **III. Ingeniería Conceptual:**
 - 26. Sistema CTC Integrado
 - 27. Sistema PTC PTC Virtual (FRA 236)
-- 28. Sistema Señalización Ferroviaria
-- 29. Sistema Señalización Integrado v5.0
+- 28. Sistema Senalización Ferroviaria
+- 29. Sistema Senalización Integrado v5.0
 
 **IV. Ingeniería Básica:**
 - SIS_CTC_Basica
 - SIS_PTC_Basica
-- SIS_Señalización_Basica
+- SIS_Senalización_Basica
 
 **V. Ingeniería Detalle:**
-- V.1 - Señalización Ferroviaria v5.0
+- V.1 - Senalización Ferroviaria v5.0
 - V.2 - Centro Control Tráfico CTC v5.0
 - V.X - Enclavamientos ENCE v5.0
 
 ### 9.3 Normativa Aplicable
 - EN 50126 - Gestión de RAMS
-- EN 50128 - Software de señalización
-- EN 50129 - Seguridad de señalización
+- EN 50128 - Software de senalización
+- EN 50129 - Seguridad de senalización
 - IEC 62443 - Ciberseguridad industrial
 - FRA/AREMA 406 - Capacidad de líneas
 - FRA/AREMA 406 - Interoperabilidad
@@ -491,7 +491,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 |:---------------|:------------------------|:-------------------|:-------|
 | I/ Contractual | AT1, AT2, AT3, AT4, AT8, AT9 | Enero 2025 | ✅ Inmutable |
 | III/ Conceptual | Doc 26, 27, 28, 29 | Enero 2025 | ✅ Sincronizado |
-| IV/ Básica | SIS_CTC, SIS_PTC, SIS_Señalización | Enero 2025 | ✅ Sincronizado |
+| IV/ Básica | SIS_CTC, SIS_PTC, SIS_Senalización | Enero 2025 | ✅ Sincronizado |
 | V/ Detalle | V.1, V.2, V.X | Enero 2025 | ✅ Sincronizado |
 | VI/ Operación | Manuales OM | Enero 2025 | ✅ Sincronizado |
 

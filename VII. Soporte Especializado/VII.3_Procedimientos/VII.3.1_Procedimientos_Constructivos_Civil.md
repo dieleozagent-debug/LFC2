@@ -78,7 +78,7 @@
 ### 4.2 Pavimentación
 - **Subbase:** Material granular
 - **Pavimento:** Asfalto o concreto
-- **Señalización:** Marcas viales
+- **Senalización:** Marcas viales
 - **Drenaje:** Sistemas de drenaje
 
 ---
@@ -103,7 +103,7 @@
 
 ### 6.1 Seguridad
 - **Personal:** Equipos de protección
-- **Obra:** Señalización y barricadas
+- **Obra:** Senalización y barricadas
 - **Equipos:** Mantenimiento preventivo
 - **Emergencias:** Plan de emergencias
 

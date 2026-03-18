@@ -25,7 +25,7 @@ Este documento define la lógica de enclavamiento vital para las 5 estaciones de
 ## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE PTC VIRTUAL/PTC)
 - ✅ **ELIMINADO:** Referencias a PTC Virtual (FRA 236) y Servidor PTC Central.
 - ✅ **ELIMINADO:** Dependencia del protocolo XML FFFIS.
-- ✅ **ELIMINADO:** Señalización en Cabina (Cab-Signaling) obligatoria (sustituida por cabina virtual PTC).
+- ✅ **ELIMINADO:** Senalización en Cabina (Cab-Signaling) obligatoria (sustituida por cabina virtual PTC).
 - ✅ **ADOPTADO:** Lógica de enclavamiento basada en **Vital IP** y **V-Block**.
 
 ---

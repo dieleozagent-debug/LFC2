@@ -45,7 +45,7 @@
 ### 3.2 Vías
 - **Geometría:** EN 13232
 - **Drenaje:** NSR-10 + FRA/AREMA 700
-- **Señalización:** Normas ferroviarias
+- **Senalización:** Normas ferroviarias
 - **Iluminación:** NSR-10 + eficiencia energética
 
 ---
@@ -56,7 +56,7 @@
 - **Estructuras:** Cada fase constructiva
 - **Vías:** Verificación geométrica
 - **Drenaje:** Pruebas de funcionamiento
-- **Señalización:** Verificación de visibilidad
+- **Senalización:** Verificación de visibilidad
 
 ### 4.2 Certificaciones
 - **Estructuras:** Certificado sismo resistente

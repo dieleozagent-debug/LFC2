@@ -171,7 +171,7 @@ Transforma el documento técnico en esta nueva estructura:
 
 ---
 
-## 📊 INDICADORES DE DESEMPEÑO (KPIs)
+## 📊 INDICADORES DE DESEMPENO (KPIs)
 
 | Indicador | Meta | Actual | Estado |
 |:----------|:-----|:-------|:-------|
@@ -269,7 +269,7 @@ Un documento ejecutivo exitoso debe cumplir:
 Una vez creado el documento ejecutivo:
 
 1. **Validación:** Revisar con un no-ingeniero para confirmar claridad
-2. **Complementos visuales:** Añadir diagramas si es necesario
+2. **Complementos visuales:** Anadir diagramas si es necesario
 3. **Actualización:** Establecer proceso de actualización periódica
 4. **Replicación:** Aplicar esta estructura a otros sistemas (01, 03, 04, etc.)
 
@@ -282,7 +282,7 @@ Una vez creado el documento ejecutivo:
 - [ ] Aplicar estructura ejecutiva propuesta
 - [ ] Consolidar especificaciones en tablas
 - [ ] Simplificar lenguaje sin perder contenido
-- [ ] Añadir estados visuales (✅⏳❌)
+- [ ] Anadir estados visuales (✅⏳❌)
 - [ ] Referenciar documento técnico original
 - [ ] Validar con usuario no técnico
 - [ ] Guardar como documento independiente

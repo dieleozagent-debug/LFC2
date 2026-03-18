@@ -126,7 +126,7 @@ La **Carpeta X** es el **"Restaurante"** del proyecto - contiene los **entregabl
 ## 📊 **CARPETA 7_SISTEMAS_EJECUTIVOS - NUEVA IMPLEMENTACIÓN**
 
 ### **🎯 PROPÓSITO ESPECÍFICO:**
-La carpeta **7_SISTEMAS_EJECUTIVOS** contiene **13 documentos ejecutivos** diseñados específicamente para **stakeholders no técnicos** y **especialistas de cada área** que necesitan entender:
+La carpeta **7_SISTEMAS_EJECUTIVOS** contiene **13 documentos ejecutivos** disenados específicamente para **stakeholders no técnicos** y **especialistas de cada área** que necesitan entender:
 
 - **Por qué** se llegó a cantidades específicas (37 torres, 15 locomotoras, etc.)
 - **Cómo** se justifican los criterios técnicos y supuestos

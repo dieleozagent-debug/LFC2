@@ -92,7 +92,7 @@
 #### **Integración Social (AT8):**
 - **Diseno Participativo:** Consulta con comunidades para ubicación de cámaras
 - **Protocolo de Uso Ético:** Cumplimiento Ley 1581 de 2012
-- **Señalización Visible:** Notificación clara de áreas bajo videovigilancia
+- **Senalización Visible:** Notificación clara de áreas bajo videovigilancia
 
 ---
 
@@ -356,7 +356,7 @@
 ### **9.1 Documentos Contractuales Base**
 - `FORMATEADO_APENDICE TECNICO 1.md` - Alcance del proyecto (AT1)
 - `FORMATEADO_APENDICE TECNICO 3.md` - Especificaciones generales (AT3)
-- `FORMATEADO_APENDICE TECNICO 4.md` - Indicadores de desempeño (AT4)
+- `FORMATEADO_APENDICE TECNICO 4.md` - Indicadores de desempeno (AT4)
 - `FORMATEADO_APENDICE TECNICO 6.md` - Gestión ambiental (AT6)
 - `FORMATEADO_APENDICE TECNICO 8.md` - Gestión social (AT8)
 - `Cl_14_1_OM_Sistemas_MEJORADO.md` - Operación y mantenimiento de sistemas

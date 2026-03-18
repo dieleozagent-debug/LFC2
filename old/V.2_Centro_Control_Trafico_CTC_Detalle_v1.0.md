@@ -137,7 +137,7 @@ Este documento detalla la ingeniería del Centro de Control de Tráfico (CTC) pa
 #### 4.1.2 Supervisión en Tiempo Real
 - **Posición de Trenes:** Tracking en tiempo real
 - **Estado de Vías:** Monitoreo continuo
-- **Señales:** Control y supervisión
+- **Senales:** Control y supervisión
 - **Alarmas:** Gestión de alarmas y eventos
 
 ### 4.2 Integración PTC
@@ -151,7 +151,7 @@ Este documento detalla la ingeniería del Centro de Control de Tráfico (CTC) pa
 #### 4.2.2 Interfaces FFFIS
 - **IF-001:** Estado de trenes (Servidor PTC Central → CTC)
 - **IF-002:** Autorización de rutas (CTC → Servidor PTC Central)
-- **IF-003:** Señales y enclavamientos (CTC → Servidor PTC Central)
+- **IF-003:** Senales y enclavamientos (CTC → Servidor PTC Central)
 - **IF-004:** Alarmas y eventos (Servidor PTC Central → CTC)
 - **IF-005:** Comandos de emergencia (CTC → Servidor PTC Central)
 - **IF-006:** Estado del sistema (Servidor PTC Central → CTC)
@@ -207,8 +207,8 @@ Este documento detalla la ingeniería del Centro de Control de Tráfico (CTC) pa
 ### 5.3 Disponibilidad
 
 #### 5.3.1 Objetivos de Disponibilidad
-- **Disponibilidad:** 99.95% (4.38 horas/año)
-- **MTBF:** 8,760 horas (1 año)
+- **Disponibilidad:** 99.95% (4.38 horas/ano)
+- **MTBF:** 8,760 horas (1 ano)
 - **MTTR:** 2 horas
 - **RTO:** 4 horas
 - **RPO:** 1 hora
@@ -235,7 +235,7 @@ Este documento detalla la ingeniería del Centro de Control de Tráfico (CTC) pa
 #### 6.1.2 Datos Intercambiados
 - **Posición de Trenes:** Coordenadas GPS
 - **Estado de Vías:** Libre/Ocupado
-- **Señales:** Aspecto y estado
+- **Senales:** Aspecto y estado
 - **Alarmas:** Eventos críticos
 - **Comandos:** Control remoto
 
@@ -376,7 +376,7 @@ Este documento detalla la ingeniería del Centro de Control de Tráfico (CTC) pa
 ### 10.3 Referencias Normativas
 - **EN 50126:** Aplicación de técnicas de confiabilidad para sistemas ferroviarios
 - **EN 50128:** Software para sistemas de control y protección ferroviarios
-- **EN 50129:** Sistemas de señalización ferroviaria
+- **EN 50129:** Sistemas de senalización ferroviaria
 - **IEC 62290:** Sistemas de gestión ferroviaria
 - **IEC 62443:** Seguridad de sistemas de automatización industrial
 - **FRA/AREMA 615:** Sistemas de control de tráfico ferroviario

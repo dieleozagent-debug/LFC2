@@ -126,7 +126,7 @@ Se ha completado exitosamente la consolidación de todos los índices maestros d
 - **Referencias cruzadas:** `Reportes/Referencias/REFERENCIAS_CRUZADAS_CONSOLIDADAS_v1.0.md`
 
 ### **🔍 BÚSQUEDA POR ESPECIALIDAD ACTUALIZADA:**
-- **Señalización:** `V. Ingenieria de detalle/V.1_Señalizacion_Ferroviaria_Detalle_v1.0.md` ✅
+- **Senalización:** `V. Ingenieria de detalle/V.1_Senalizacion_Ferroviaria_Detalle_v1.0.md` ✅
 - **CTC:** `V. Ingenieria de detalle/V.2_Centro_Control_Trafico_CTC_Detalle_v1.0.md` ✅
 - **Comunicaciones:** `V. Ingenieria de detalle/V.3_Sistemas_Comunicacion_Detalle_v1.0.md` ✅
 - **Potencia:** `V. Ingenieria de detalle/V.4_Sistemas_Potencia_Detalle_v1.0.md` ✅

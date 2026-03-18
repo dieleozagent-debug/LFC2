@@ -44,7 +44,7 @@ Este documento proporciona el índice maestro consolidado de todos los documento
 
 ## RESUMEN EJECUTIVO - GAPS CRÍTICOS RESUELTOS - ESPECIFICACIONES COMPLETAS
 
-| Sección | Documentos | Tamaño Total | Palabras | Estado |
+| Sección | Documentos | Tamano Total | Palabras | Estado |
 |:---|:---:|:---:|:---:|:---:|
 | **Fase 0: Base Contractual** | 24 | 385.7 KB | 52,050 | ✅ COMPLETO |
 | **Fase A: Análisis Contractual** | 3 | 15.2 KB | 2,100 | ✅ COMPLETO |
@@ -72,7 +72,7 @@ Este documento proporciona el índice maestro consolidado de todos los documento
 #### FASE A: ANÁLISIS CONTRACTUAL ✅ COMPLETADA
 > Análisis de obligaciones contractuales y requisitos de ingeniería - **TODAS LAS OPCIONES EJECUTADAS**
 
-| # | Documento | Ubicación | Tamaño | Palabras | Estado | Modificado |
+| # | Documento | Ubicación | Tamano | Palabras | Estado | Modificado |
 |:---:|:---|:---|:---:|:---:|:---:|:---:|
 | A.1 | A.1_Analisis_Cl8-1_y_AT1.md | II.A. Analisis Contractual/ | 5.1 KB | 700 | ✅ Completado | 27/01/2025 |
 | A.2 | A.2_Analisis_AT2_y_AT4.md | II.A. Analisis Contractual/ | 5.0 KB | 700 | ✅ Completado | 27/01/2025 |
@@ -81,7 +81,7 @@ Este documento proporciona el índice maestro consolidado de todos los documento
 #### FASE 0: BASE CONTRACTUAL
 > Documentos contractuales y obligaciones
 
-| # | Documento | Ubicación | Tamaño | Palabras | Patrones Clave | Modificado |
+| # | Documento | Ubicación | Tamano | Palabras | Patrones Clave | Modificado |
 |:---:|:---|:---|:---:|:---:|:---:|:---:|
 | 1 | 4_Cl_9_1_OM_docx_Obligaciones_de_Operaci_n_y_Mantenimiento_MEJORADO | I. Contrato General/ | 18.43 KB | 2557 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
 | 2 | 5_Cl_12_1_Reversi_n_docx_Entrega_de_activos_y_sistemas_en_buen_estado_MEJORADO | I. Contrato General/ | 12.92 KB | 1701 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
@@ -99,7 +99,7 @@ Este documento proporciona el índice maestro consolidado de todos los documento
 #### CONTRATO XI. Documentos de Contrato Originales
 > Documentos de contrato convertidos de PDF con formateo automático
 
-| # | Documento | Ubicación | Tamaño | Palabras | Patrones Clave | Modificado |
+| # | Documento | Ubicación | Tamano | Palabras | Patrones Clave | Modificado |
 |:---:|:---|:---|:---:|:---:|:---:|:---:|
 | 1 | FORMATEADO_1 - CONTRATO DE CONCESION NO. 001 DE 2025 - Editable.md | 01. contrato en .md/ | 966 KB | 125,000 | Contrato, APP, Concesion, ANI | 27/01/2025 |
 | 2 | FORMATEADO_APENDICE TECNICO 1.md | 01. contrato en .md/ | 371 KB | 48,000 | AT1, Alcance, Proyecto, Infraestructura | 27/01/2025 |
@@ -116,7 +116,7 @@ Este documento proporciona el índice maestro consolidado de todos los documento
 #### TECNICO II. Apendices Tecnicos
 > Especificaciones tecnicas y procedimientos
 
-| # | Documento | Ubicación | Tamaño | Palabras | Patrones Clave | Modificado |
+| # | Documento | Ubicación | Tamano | Palabras | Patrones Clave | Modificado |
 |:---:|:---|:---|:---:|:---:|:---:|:---:|
 | 1 | AT3_Especificaciones_Generales_MEJORADO | II. Apendices Tecnicos/ | 4.12 KB | 582 | Tecnico, Sistemas | 17/09/2025 |
 | 2 | AT4_Indicadores_de_Desempeno_MEJORADO | II. Apendices Tecnicos/ | 15.53 KB | 2149 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
@@ -132,7 +132,7 @@ Este documento proporciona el índice maestro consolidado de todos los documento
 #### INGENIERIA IV. Ingenieria Basica
 > Memorias de diseno y planos basicos
 
-| # | Documento | Ubicación | Tamaño | Palabras | Patrones Clave | Modificado |
+| # | Documento | Ubicación | Tamano | Palabras | Patrones Clave | Modificado |
 |:---:|:---|:---|:---:|:---:|:---:|:---:|
 | 1 | MemoriasDiseno_Basico_just tec | IV. Ingenieria basica/ | 17.43 KB | 2416 | Ingenieria, Tecnico, Sistemas | 17/09/2025 |
 | 2 | DiagramasArquitectura_sist_ctc-telco | IV. Ingenieria basica/ | 37.21 KB | 4823 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
@@ -144,7 +144,7 @@ Este documento proporciona el índice maestro consolidado de todos los documento
 #### SOPORTE III. Documentos de Soporte
 > Documentos de soporte e ingenieria
 
-| # | Documento | Ubicación | Tamaño | Palabras | Patrones Clave | Modificado |
+| # | Documento | Ubicación | Tamano | Palabras | Patrones Clave | Modificado |
 |:---:|:---|:---|:---:|:---:|:---:|:---:|
 | 1 | 24_Matriz_TrazabilidadContractual_xlsx_Jerarqu_a_documental_aplicada_a_ingenier_a | III. Ingenieria conceptual/ | 6.39 KB | 879 | Ingenieria, Tecnico, Sistemas | 17/09/2025 |
 | 2 | 25_WBS_IngenieriaConceptual_docx | III. Ingenieria conceptual/ | 5.64 KB | 801 | Tecnico, Contrato, Sistemas | 17/09/2025 |
@@ -194,7 +194,7 @@ Este documento proporciona el índice maestro consolidado de todos los documento
 | **CTC** | FORMATEADO_APENDICE TECNICO 1.md, FORMATEADO_APENDICE TECNICO 2.md, FORMATEADO_APENDICE TECNICO 9.md, AT1_Alcance_del_Proyecto_MEJORADO, AT2_Operacion_y_Mantenimiento_MEJORADO, AT9_Plan_de_Obras_MEJORADO, 2_Centro_de_Control_de_Tr_fico_CTC_Contrato_8_2, 0_0_que_es_CTC | XI, II, III, V | ✅ ACTIVO |
 | **CCTV** | FORMATEADO_APENDICE TECNICO 1.md, FORMATEADO_APENDICE TECNICO 8.md, AT1_Alcance_del_Proyecto_MEJORADO, AT8_Gestion_Social_MEJORADO, 31_Sistema_CCTV_Integrado_docx_AT1_AT3_AT8_social_AT4_indicadores, 8_CCTV_Contrato_8_8_1 | XI, II, III, V | ✅ ACTIVO |
 | **Comunicaciones** | FORMATEADO_APENDICE TECNICO 5.md, FORMATEADO_APENDICE TECNICO 7.md, AT5_Interferencias_de_Redes_MEJORADO, AT7_Gestion_Predial_MEJORADO, 4_Comunicaciones_generales_Contrato_8_4, 12_Comunicaciones_embarcadas_Contrato_8_10 | XI, II, III, V | ✅ ACTIVO |
-| **Señalización** | FORMATEADO_APENDICE TECNICO 1.md, FORMATEADO_APENDICE TECNICO 8.md, AT1_Alcance_del_Proyecto_MEJORADO, AT8_Gestion_Social_MEJORADO, 29_Sistema_Senalizacion_Integrado_docx_AT1_AT2_AT3_AT4_AT8_social, 1_Se_alizaci_n_ferroviaria_Contrato_8_1 | XI, II, III, V | ✅ ACTIVO |
+| **Senalización** | FORMATEADO_APENDICE TECNICO 1.md, FORMATEADO_APENDICE TECNICO 8.md, AT1_Alcance_del_Proyecto_MEJORADO, AT8_Gestion_Social_MEJORADO, 29_Sistema_Senalizacion_Integrado_docx_AT1_AT2_AT3_AT4_AT8_social, 1_Se_alizaci_n_ferroviaria_Contrato_8_1 | XI, II, III, V | ✅ ACTIVO |
 | **Fibra Óptica** | FORMATEADO_APENDICE TECNICO 5.md, FORMATEADO_APENDICE TECNICO 7.md, AT5_Interferencias_de_Redes_MEJORADO, AT7_Gestion_Predial_MEJORADO, 28_Sistema_FibraOptica_Integrado_docx_AT1_AT3_AT5_interferencias_AT7_predios, 6_Fibra_ptica_Contrato_8_6 | XI, II, III, V | ✅ ACTIVO |
 | **TETRA** | FORMATEADO_APENDICE TECNICO 7.md, AT7_Gestion_Predial_MEJORADO, 27_Sistema_TETRA_Integrado_docx_AT1_torres_AT2_comunicaci_n_AT3_radio_AT7_predios_torres, 5_Radio_TETRA_Contrato_8_5, 0_1_que_es_TETRA | XI, II, III, V | ✅ ACTIVO |
 | **Material Rodante** | FORMATEADO_APENDICE TECNICO 1.md, FORMATEADO_APENDICE TECNICO 2.md, FORMATEADO_APENDICE TECNICO 4.md, AT1_Alcance_del_Proyecto_MEJORADO, AT2_Operacion_y_Mantenimiento_MEJORADO, AT4_Indicadores_de_Desempeno_MEJORADO, 32_Material_Rodante_Integrado_docx_AT1_Cl_13_1_AT2_operaci_n_AT4 | XI, II, III | ✅ ACTIVO |
@@ -269,7 +269,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 | **Fibra Óptica** | FORMATEADO_AT5, FORMATEADO_AT7 | AT5_MEJORADO, AT7_MEJORADO | ✅ COMPLETO |
 | **CCTV** | FORMATEADO_AT1, FORMATEADO_AT8 | AT1_MEJORADO, AT8_MEJORADO | ✅ COMPLETO |
 | **ITS** | FORMATEADO_AT3, FORMATEADO_AT4, FORMATEADO_AT6 | AT3_MEJORADO, AT4_MEJORADO, AT6_MEJORADO | ✅ COMPLETO |
-| **Señalización** | FORMATEADO_AT1, FORMATEADO_AT8 | AT1_MEJORADO, AT8_MEJORADO | ✅ COMPLETO |
+| **Senalización** | FORMATEADO_AT1, FORMATEADO_AT8 | AT1_MEJORADO, AT8_MEJORADO | ✅ COMPLETO |
 | **Material Rodante** | FORMATEADO_AT1, FORMATEADO_AT2, FORMATEADO_AT4 | AT1_MEJORADO, AT2_MEJORADO, AT4_MEJORADO | ✅ COMPLETO |
 
 ### NAVEGACIÓN RÁPIDA ENTRE ÍNDICES

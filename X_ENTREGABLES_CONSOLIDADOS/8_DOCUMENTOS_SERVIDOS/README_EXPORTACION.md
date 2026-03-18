@@ -43,7 +43,7 @@ Se han convertido exitosamente **13 documentos ejecutivos** de Markdown a **Word
 
 ## 📊 ESTADÍSTICAS DE CONVERSIÓN
 
-| Formato | Cantidad | Tamaño Promedio | Estado |
+| Formato | Cantidad | Tamano Promedio | Estado |
 |:--------|:---------|:---------------|:-------|
 | **Word (.docx)** | 13 archivos | ~18 KB | ✅ Completado |
 | **HTML (.html)** | 13 archivos | ~25 KB | ✅ Completado |

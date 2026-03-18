@@ -41,7 +41,7 @@ Beneficios:
 **Técnica:**
 - 350m permite localización de fallas en <5 minutos adicionales
 - Reduce complejidad de instalación
-- Mantiene calidad de señal según simulaciones
+- Mantiene calidad de senal según simulaciones
 
 **Económica:**
 - Ahorro estimado: $500,900,000 COP

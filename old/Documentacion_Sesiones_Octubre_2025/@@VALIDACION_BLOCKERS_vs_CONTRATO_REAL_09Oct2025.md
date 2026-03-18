@@ -11,13 +11,13 @@
 
 ### **BLOCKER-001: Indefinición Sistema PTC/PTC VIRTUAL L2** 🔴 **CONFIRMADO REAL**
 
-**Fuente:** AT3 - Capítulo VIII (Señalización y Control de Trenes)
+**Fuente:** AT3 - Capítulo VIII (Senalización y Control de Trenes)
 
 **Lo que el contrato SÍ dice:**
 - ✅ "Positive Train Control" (PTC) - Línea 289 AT3
 - ✅ Normas AAR (Association of American Railroads)
-- ✅ Sistemas CTC con protocolo Adif (español) - Líneas 529-532
-- ✅ Enclavamientos electrónicos normas ET/NAS (Adif España)
+- ✅ Sistemas CTC con protocolo Adif (espanol) - Líneas 529-532
+- ✅ Enclavamientos electrónicos normas ET/NAS (Adif Espana)
 
 **Lo que el contrato NO dice:**
 - ❌ **PTC (Incremental Train Control System)** - NO mencionado
@@ -26,12 +26,12 @@
 - ❌ Protocolos de comunicación detallados
 
 **CONCLUSIÓN:** ✅ **BLOCKER REAL**
-- Contrato menciona normas mixtas (AAR americano + Adif español)
+- Contrato menciona normas mixtas (AAR americano + Adif espanol)
 - **NO define qué sistema implementar**
 - PTC ≠ PTC Virtual (FRA 236) (son sistemas diferentes)
 - Requiere clarificación formal ANI
 
-**Acción:** Oficiar ANI solicitando definición: ¿PTC americano, PTC VIRTUAL europeo, o CTC español Adif?
+**Acción:** Oficiar ANI solicitando definición: ¿PTC americano, PTC VIRTUAL europeo, o CTC espanol Adif?
 
 ---
 
@@ -66,7 +66,7 @@
 
 **Lo que el contrato SÍ dice:**
 - ✅ Normas Adif para Pasos a Nivel (NAPN)
-- ✅ Sistemas de protección PAN (barreras, señalización)
+- ✅ Sistemas de protección PAN (barreras, senalización)
 
 **Pendiente validar:**
 - ⏳ ¿Cantidades específicas en AT1?
@@ -117,14 +117,14 @@
 
 **Normas mencionadas:**
 - **AAR:** Association of American Railroads (USA)
-- **Adif:** Administrador de Infraestructuras Ferroviarias (España)
+- **Adif:** Administrador de Infraestructuras Ferroviarias (Espana)
 - **AREMA:** American Railway Engineering and Maintenance-of-Way Association
 - **FRA/AREMA:** Union Internationale des Chemins de Fer (Europa)
 
 **Sistemas mencionados:**
 - **PTC:** Positive Train Control (americano)
-- **CTC:** Control de Tráfico Centralizado (con protocolo Adif español)
-- **Enclavamientos:** Normas Adif (españolas)
+- **CTC:** Control de Tráfico Centralizado (con protocolo Adif espanol)
+- **Enclavamientos:** Normas Adif (espanolas)
 
 **NO mencionados:**
 - ❌ PTC (Incremental Train Control System)
@@ -177,7 +177,7 @@
 >
 > ¿Implementar PTC (americano AAR)?
 > ¿Implementar PTC Virtual (FRA 236) (europeo FRA/AREMA)?
-> ¿Implementar CTC Adif (español)?
+> ¿Implementar CTC Adif (espanol)?
 > ¿Implementar solución híbrida?"
 
 **Plazo respuesta:** Mes 6 (60 días)  

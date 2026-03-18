@@ -119,7 +119,7 @@ Apéndice Técnico 9 - Plan de Obras
 
 (x) Un capítulo en el cual se justifique técnicamente cómo los recursos humanos y maquinaria previstos en el mismo permiten el desarrollo de las Intervenciones en los tiempos y condiciones establecidos, este Plan de Obras debe corresponder al diagrama de Gantt y su asignación de recursos a cada tarea en el Project o similar. Se debe incluir un cuadro de recursos por actividad.
 
-(f) El Concesionario debe establecer el Plan de Obras conforme a las fechas señaladas en la sección 9.4 (a) del Contrato definiendo el orden de ejecución de las UFVF y las UF, estableciendo la secuencia de estas y garantizando la terminación de todas las UFVF y UF en el tiempo establecido en el Contrato.
+(f) El Concesionario debe establecer el Plan de Obras conforme a las fechas senaladas en la sección 9.4 (a) del Contrato definiendo el orden de ejecución de las UFVF y las UF, estableciendo la secuencia de estas y garantizando la terminación de todas las UFVF y UF en el tiempo establecido en el Contrato.
 
 (g) Se debe incluir el plan de gestión de compras de los materiales y equipos del Proyecto, detallando los tiempos de contratación de proveedores, adquisición, inicio de fabricación, tiempo de fabricación y suministro. Para los insumos importados se debe detallar los tiempos de transporte de fábrica a puerto, tiempo de transporte, recepción en puerto o aduana nacional, tiempo de nacionalización, tiempo de transporte hasta sitio de obra y fecha de entrega en la obra.
 
@@ -145,7 +145,7 @@ Apéndice Técnico 9 - Plan de Obras
 
 (j) Reportes Periódicos. El Plan de Obras debe describir las herramientas de control que establecerá el Concesionario para identificar los retrasos y las metodologías para subsanarlos, al igual que la estructura de los informes mensuales de avance que debe presentar a la Interventoría
 
-VoBo: Adriana María Montañez Saenz-VE ('-4. l Fredy Leandro Espejo Fandiño - VE
+VoBo: Adriana María Montanez Saenz-VE ('-4. l Fredy Leandro Espejo Fandino - VE
 
 Página 5 de 5
 

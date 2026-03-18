@@ -88,7 +88,7 @@ Como **Especialista Senior en Control de Trenes** con experiencia en proyectos f
 
 ---
 
-### **2. SEÑALIZACIÓN FERROVIARIA**
+### **2. SENALIZACIÓN FERROVIARIA**
 
 #### **📋 Estado Actual Evaluado:**
 - **Ingeniería Básica:** ✅ **BUENA** (85% desarrollada)
@@ -99,7 +99,7 @@ Como **Especialista Senior en Control de Trenes** con experiencia en proyectos f
 ##### **2.1 ENCLAVAMIENTOS ELECTRÓNICOS**
 ```
 ⚠️ PROBLEMA TÉCNICO: Especificaciones de enclavamientos incompletas
-- Filosofía de señalización: ✅ **JUSTIFICADA** - Contadores de ejes vs. circuitos de vía
+- Filosofía de senalización: ✅ **JUSTIFICADA** - Contadores de ejes vs. circuitos de vía
 - Lógica de enclavamiento: 🔄 **EN DESARROLLO** - Tablas de rutas
 - Interfaces PTC: 🔄 **EN ESPECIFICACIÓN** - Preparación para integración futura
 ```
@@ -108,13 +108,13 @@ Como **Especialista Senior en Control de Trenes** con experiencia en proyectos f
 - **Interlocking Tables:** 🔄 **EN DESARROLLO** - Tablas de enclavamiento para 5 estaciones
 - **Route Setting Logic:** 🔄 **EN DESARROLLO** - Lógica de establecimiento de rutas automáticas
 - **Axle Counter Layout:** ✅ **COMPLETADO** - Diseno de secciones de conteo por estación
-- **Signal Aspects:** ✅ **COMPLETADO** - Definición de aspectos de señales y su significado
+- **Signal Aspects:** ✅ **COMPLETADO** - Definición de aspectos de senales y su significado
 
 ##### **2.2 PASOS A NIVEL (146 unidades)**
 ```
 ⚠️ PROBLEMA DE DISPONIBILIDAD: Requisito 100% disponibilidad AT4 en revisión
-- Tipo A (señalización fija): ✅ **COMPLETADO** - 89 pasos a nivel
-- Tipo B (señales luminosas): 🔄 **EN REVISIÓN** - 34 pasos a nivel
+- Tipo A (senalización fija): ✅ **COMPLETADO** - 89 pasos a nivel
+- Tipo B (senales luminosas): 🔄 **EN REVISIÓN** - 34 pasos a nivel
 - Tipo C (barreras automáticas): 🔄 **EN ESPECIFICACIÓN** - 23 pasos a nivel
 ```
 
@@ -161,13 +161,13 @@ Como **Especialista Senior en Control de Trenes** con experiencia en proyectos f
 ```
 ⚠️ PROBLEMA TÉCNICO: Arquitectura de software CTC en desarrollo
 - SCADA Platform: 🔄 **EN ESPECIFICACIÓN** - Wonderware recomendado
-- Database Architecture: 🔄 **EN DISEÑO** - Base de datos en tiempo real
+- Database Architecture: 🔄 **EN DISENO** - Base de datos en tiempo real
 - HMI Design: 🔄 **EN DESARROLLO** - Interfaz humano-máquina
 ```
 
 **Especificaciones Faltantes:**
 - **System Architecture:** 🔄 **EN ESPECIFICACIÓN** - Arquitectura cliente-servidor
-- **Real-time Database:** 🔄 **EN DISEÑO** - Especificaciones de base de datos operacional
+- **Real-time Database:** 🔄 **EN DISENO** - Especificaciones de base de datos operacional
 - **Operator Workstations:** 🔄 **EN DESARROLLO** - Configuración de puestos de operador
 - **Disaster Recovery:** 🔄 **EN DESARROLLO** - Plan de recuperación ante desastres
 
@@ -193,7 +193,7 @@ Como **Especialista Senior en Control de Trenes** con experiencia en proyectos f
 ```
 🔄 PROBLEMA EN RESOLUCIÓN: Especificaciones embarcadas en desarrollo
 - STM (Specific Transmission Module): 🔄 **EN ESPECIFICACIÓN**
-- DMI (Driver Machine Interface): 🔄 **EN DISEÑO**
+- DMI (Driver Machine Interface): 🔄 **EN DISENO**
 - Odometry: 🔄 **EN DESARROLLO** - Sistema de odometría
 - Virtual Balise (GNSS) Reader: 🔄 **EN ESPECIFICACIÓN** - Lector de punto de referencia virtuals
 ```
@@ -231,7 +231,7 @@ Como **Especialista Senior en Control de Trenes** con experiencia en proyectos f
 | Especialidad | Ing. Básica | Ing. Detalle | Gap Crítico | Acción Requerida | Estado |
 |:---|:---:|:---:|:---:|:---|:---:|
 | **PTC/Control** | 65% | 30% | ✅ SRS/Arquitectura | Desarrollo inmediato | 🔄 **EN PROGRESO** |
-| **Señalización** | 85% | 70% | ⚠️ Interlocking tables | Corrección 2 sem | 🔄 **EN PROGRESO** |
+| **Senalización** | 85% | 70% | ⚠️ Interlocking tables | Corrección 2 sem | 🔄 **EN PROGRESO** |
 | **CTC** | 80% | 60% | ⚠️ SW Architecture | Especificación | 🔄 **EN PROGRESO** |
 | **TETRA** | 90% | 80% | ✅ Frequency coord. | Validación | ✅ **COMPLETADO** |
 | **Fibra Óptica** | 90% | 80% | ✅ Spare mgmt. | Optimización | ✅ **COMPLETADO** |
@@ -266,7 +266,7 @@ FASE 3 (Medio plazo - 2 meses): ⏳ **PENDIENTE**
 |:---|:---:|:---:|:---|:---:|
 | **SRS PTC completado** | 100% | 2 semanas | Ing. Sistemas | 🔄 **EN PROGRESO** |
 | **Interfaces especificadas** | 8/8 | 3 semanas | Ing. Integración | 🔄 **EN PROGRESO** |
-| **Interlocking tables** | 5/5 | 4 semanas | Ing. Señalización | ⏳ **PENDIENTE** |
+| **Interlocking tables** | 5/5 | 4 semanas | Ing. Senalización | ⏳ **PENDIENTE** |
 | **STM especificado** | 100% | 6 semanas | Ing. Embarcados | ⏳ **PENDIENTE** |
 
 ---

@@ -354,7 +354,7 @@ ENTREGABLES REQUERIDOS (Mes 6):
 - FENOCO (Ger. Técnico + Especialista)
 - ANI (Gerencia Técnica)
 - PMO Proyecto
-- Especialista Señalización
+- Especialista Senalización
 - Interventoría
 
 **Objetivos:**
@@ -407,7 +407,7 @@ ENTREGABLES REQUERIDOS (Mes 6):
 
 | Interfaz | Sistemas | Protocolo | Estado | Responsable Detalle |
 |:---------|:---------|:----------|:-------|:-------------------|
-| **IF-01** | CTC ↔ PTC | FFFIS / IEC 62278 | ⚠️ Pendiente PTC | EPC Señalización |
+| **IF-01** | CTC ↔ PTC | FFFIS / IEC 62278 | ⚠️ Pendiente PTC | EPC Senalización |
 | **IF-02** | CTC ↔ FENOCO | FRA/AREMA 918-4 / Trainguard | ❌ Pendiente FENOCO | EPC + FENOCO |
 | **IF-03** | TETRA ↔ Red Vital IP / TETRA | Gateway dual | 🟡 Conceptual | EPC Telecomunicaciones |
 | **IF-04** | CTC ↔ SCADA | OPC-UA / Modbus TCP | ✅ Estándar | EPC Automatización |

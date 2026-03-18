@@ -14,7 +14,7 @@ Este documento define el **"alcance y objetivos"** del proyecto APP La Dorada-Ch
 - **15 locomotoras:** Parque rodante para operación
 - **37 estaciones:** Telecomunicaciones TETRA/Red Vital IP / TETRA
 - **5 estaciones ENCE:** Estaciones con enclavamientos
-- **30 años operación:** Vida útil del proyecto
+- **30 anos operación:** Vida útil del proyecto
 - **99.95% disponibilidad:** Sistemas críticos
 
 ### Hitos críticos
@@ -28,7 +28,7 @@ Este documento define el **"alcance y objetivos"** del proyecto APP La Dorada-Ch
 
 ---
 
-## 🔍 CRITERIOS DE DISEÑO Y JUSTIFICACIONES TÉCNICAS
+## 🔍 CRITERIOS DE DISENO Y JUSTIFICACIONES TÉCNICAS
 
 ### ¿Por qué 526.133 km de corredor?
 **Justificación Técnica:**
@@ -62,11 +62,11 @@ Este documento define el **"alcance y objetivos"** del proyecto APP La Dorada-Ch
 - **Eficiencia:** Optimización de operaciones
 - **Criterio:** Análisis de operación ferroviaria
 
-### ¿Por qué 30 años de operación?
+### ¿Por qué 30 anos de operación?
 **Justificación de Vida Útil:**
-- **Infraestructura:** Vida útil de 50 años
-- **Sistemas:** Vida útil de 30 años
-- **Contrato:** Plazo de concesión de 30 años
+- **Infraestructura:** Vida útil de 50 anos
+- **Sistemas:** Vida útil de 30 anos
+- **Contrato:** Plazo de concesión de 30 anos
 - **Mantenimiento:** Ciclos de mantenimiento y renovación
 - **Inversión:** Recuperación de inversión
 
@@ -119,7 +119,7 @@ El proyecto APP La Dorada-Chiriguaná proporciona **infraestructura ferroviaria*
 **Componentes instalados:**
 | Componente | Cantidad | Función | Estado |
 |:-----------|:---------|:--------|:-------|
-| **Control y Señalización** | 1 sistema | Control centralizado | ⏳ En desarrollo |
+| **Control y Senalización** | 1 sistema | Control centralizado | ⏳ En desarrollo |
 | **Telecomunicaciones** | 37 estaciones | Comunicaciones | ⏳ En desarrollo |
 | **ITS y Seguridad** | 73 cámaras | Monitoreo y seguridad | ⏳ En desarrollo |
 | **Material Rodante** | 15 locomotoras | Transporte | ⏳ En desarrollo |
@@ -146,7 +146,7 @@ El proyecto APP La Dorada-Chiriguaná proporciona **infraestructura ferroviaria*
 | Trocha ferroviaria | 1,435 mm | FRA/AREMA 600 |
 | Velocidad máxima | 80 km/h | Especificaciones proyecto |
 | Disponibilidad | 99.95% | AT4 |
-| Vida útil | 30 años | Especificaciones proyecto |
+| Vida útil | 30 anos | Especificaciones proyecto |
 
 ### Criterios de aceptación
 - ✅ Corredor 526.133 km operativo
@@ -219,7 +219,7 @@ El proyecto opera 24/7 proporcionando transporte ferroviario de carga, con mante
 |:---------|:--------------|:------------------|:-----------|
 | **Demanda de transporte** | 2,400 ton/día | Menor rentabilidad si reduce | Análisis de sensibilidad |
 | **Disponibilidad** | 99.95% | Penalizaciones si no cumple | Sistemas redundantes |
-| **Vida útil** | 30 años | Mayor mantenimiento si reduce | Plan de renovación |
+| **Vida útil** | 30 anos | Mayor mantenimiento si reduce | Plan de renovación |
 | **Condiciones ambientales** | Estables | Mayor impacto si cambian | Monitoreo continuo |
 
 ### Limitaciones del Diseno
@@ -289,7 +289,7 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 ---
 
-## 📊 INDICADORES DE DESEMPEÑO (KPIs)
+## 📊 INDICADORES DE DESEMPENO (KPIs)
 
 | Indicador | Meta | Actual | Estado |
 |:----------|:-----|:-------|:-------|

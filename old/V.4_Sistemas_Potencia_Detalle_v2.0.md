@@ -197,7 +197,7 @@ Este documento detalla la ingeniería de los **sistemas de potencia para torres 
 - **Capacidad:** 2000 Ah
 - **Voltaje:** 48 V DC
 - **Tipo:** Plomo-ácido, selladas
-- **Vida útil:** 10 años
+- **Vida útil:** 10 anos
 - **Temperatura:** 20-25°C (óptima)
 - **Mantenimiento:** Libre de mantenimiento
 
@@ -312,11 +312,11 @@ Este documento detalla la ingeniería de los **sistemas de potencia para torres 
 ### 5.3 Disponibilidad Colocalizada
 
 #### 5.3.1 Objetivos de Disponibilidad Colocalizados
-- **Alimentación principal:** 99.95% (4.38 horas/año)
-- **UPS:** 99.9% (8.76 horas/año)
-- **Generadores:** 99.5% (43.8 horas/año)
-- **Baterías:** 99.0% (87.6 horas/año)
-- **Torres colocalizadas:** 99.99% (0.88 horas/año)
+- **Alimentación principal:** 99.95% (4.38 horas/ano)
+- **UPS:** 99.9% (8.76 horas/ano)
+- **Generadores:** 99.5% (43.8 horas/ano)
+- **Baterías:** 99.0% (87.6 horas/ano)
+- **Torres colocalizadas:** 99.99% (0.88 horas/ano)
 
 #### 5.3.2 Estrategias de Redundancia Colocalizadas
 - **Fuentes:** N+1 con transferencia automática

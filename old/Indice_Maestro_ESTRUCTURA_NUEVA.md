@@ -66,7 +66,7 @@ Este índice presenta la **nueva estructura documental** implementada según est
 | `26. Sistem_CTC_Int...md` | ✅ Completado | Análisis del CTC integrado |
 | `27_Sistema_TETRA_Integrado...md` | ✅ Completado | Análisis de TETRA integrado |
 | `28_Sistema_FibraOptica_Integrado...md` | ✅ Completado | Análisis del backbone integrado |
-| `29_Sistema_Senalizacion_Integrado...md` | ✅ Completado | Análisis de Señalización integrado |
+| `29_Sistema_Senalizacion_Integrado...md` | ✅ Completado | Análisis de Senalización integrado |
 | `30_Sistema_ITS_Integrado...md` | ✅ Completado | Análisis de ITS integrado |
 | `31_Sistema_CCTV_Integrado...md` | ✅ Completado | Análisis de CCTV integrado |
 | `32_Material_Rodante_Integrado...md` | ✅ Completado | Análisis de Material Rodante integrado |
@@ -130,7 +130,7 @@ Este índice presenta la **nueva estructura documental** implementada según est
 
 | Documento | Estado | Descripción |
 |:----------|:-------:|:------------|
-| `1_Señalización_ferroviaria_Contrato_8_1.md` | ⏸️ **BLOQUEADO** | **REQUIERE MEJORAS** - Falta dimensionamiento eléctrico |
+| `1_Senalización_ferroviaria_Contrato_8_1.md` | ⏸️ **BLOQUEADO** | **REQUIERE MEJORAS** - Falta dimensionamiento eléctrico |
 | `2_Centro_de_Control_CTC_Contrato_8_2.md` | ⏸️ **BLOQUEADO** | **REQUIERE MEJORAS** - Muy genérico para construcción |
 | `3_Pasos_a_nivel_Contrato_8_3.md` | ✅ Completado | Diseno detallado de los 146 pasos a nivel |
 | `4_Comunicaciones_generales_Contrato_8_4.md` | ⏸️ **BLOQUEADO** | Diseno detallado de comunicaciones |
@@ -158,7 +158,7 @@ Este índice presenta la **nueva estructura documental** implementada según est
 | Documento | Estado | Descripción |
 |:----------|:-------:|:------------|
 | `Manual_OM_CTC.md` | ⏸️ **BLOQUEADO** | Manual de Operación y Mantenimiento para el CTC |
-| `Manual_OM_Señalizacion.md` | ⏸️ **BLOQUEADO** | Manual de Mantenimiento para Señalización |
+| `Manual_OM_Senalizacion.md` | ⏸️ **BLOQUEADO** | Manual de Mantenimiento para Senalización |
 | `Manual_OM_Telecom.md` | ⏸️ **BLOQUEADO** | Manual de Mantenimiento para Fibra Óptica y TETRA |
 | `Manual_OM_Seguridad.md` | ⏸️ **BLOQUEADO** | Manual de Mantenimiento para CCTV e Incendios |
 

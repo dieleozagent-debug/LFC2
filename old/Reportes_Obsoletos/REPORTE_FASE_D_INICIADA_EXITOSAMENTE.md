@@ -70,7 +70,7 @@ Como Administrador Contractual EPC, confirmo que se ha iniciado exitosamente la 
 - **Vía férrea:** 178 km con riel FRA/AREMA 60
 - **Durmientes:** 593,000 unidades de concreto pretensado
 - **Balasto:** 356,000 m³ de granito triturado
-- **Filosofía PTC Virtual:** 89 señales principales
+- **Filosofía PTC Virtual:** 89 senales principales
 
 ### **2. INGENIERÍA ELÉCTRICA DE DETALLE**
 
@@ -90,7 +90,7 @@ Como Administrador Contractual EPC, confirmo que se ha iniciado exitosamente la 
 - **Distribución 13.8 kV:** 178 km de líneas auxiliares
 - **Subestaciones de distribución:** 8 unidades (500-630 kVA)
 - **Distribución 480V:** 89 km para servicios
-- **Distribución 220V/110V:** 267 km para señales y control
+- **Distribución 220V/110V:** 267 km para senales y control
 
 ### **3. INGENIERÍA MECÁNICA DE DETALLE**
 

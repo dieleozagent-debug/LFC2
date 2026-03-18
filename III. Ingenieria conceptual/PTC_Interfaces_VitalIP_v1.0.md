@@ -40,7 +40,7 @@ Se descarta el uso del protocolo propietario FFFIS. En su lugar, se adopta **Vit
 
 ---
 
-## 📊 MÉTRICAS DE DESEMPEÑO (SANEADAS):
+## 📊 MÉTRICAS DE DESEMPENO (SANEADAS):
 
 | Métrica | Objetivo | Criterio |
 |:---|:---:|:---|

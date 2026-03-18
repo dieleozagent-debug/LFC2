@@ -26,29 +26,29 @@
 
 ## 🎯 DESALINEACIONES POR CRITERIO MAESTRO
 
-### 1. SEÑALIZACIÓN - CAMBIO DE PARADIGMA COMPLETO
+### 1. SENALIZACIÓN - CAMBIO DE PARADIGMA COMPLETO
 
 #### ❌ CRITERIO MAESTRO:
-- **Señalización:** VIRTUAL (CTC + PTC embarcado)
+- **Senalización:** VIRTUAL (CTC + PTC embarcado)
 - **Virtual Balise (GNSS)s:** 0 unidades
-- **Señalización en Cabina (Cab-Signaling) vía:** 0 unidades
+- **Senalización en Cabina (Cab-Signaling) vía:** 0 unidades
 - **Servidor PTC Central:** 0 unidades
 
 #### 🔴 DOCUMENTOS DESALINEADOS (18):
 
 | # | Documento | Desalineación | Impacto | Prioridad |
 |:--|:----------|:--------------|:--------|:----------|
-| 1 | V.1_Señalización_Ferroviaria_Detalle | 1,080 Puntos de Referencia Virtuales (SICC) + 270 Señalización en Cabina (Cab-Signaling) | 🔴 CRÍTICO | 1 |
+| 1 | V.1_Senalización_Ferroviaria_Detalle | 1,080 Puntos de Referencia Virtuales (SICC) + 270 Senalización en Cabina (Cab-Signaling) | 🔴 CRÍTICO | 1 |
 | 2 | VII.2.1_PTC_PTC VIRTUAL_Especificaciones | Arquitectura PTC Virtual (FRA 236) con Servidor PTC Central | 🔴 CRÍTICO | 1 |
-| 3 | 29_Sistema_Señalización_Integrado | Virtual Balise (GNSS)s + Señales físicas | 🔴 CRÍTICO | 1 |
+| 3 | 29_Sistema_Senalización_Integrado | Virtual Balise (GNSS)s + Senales físicas | 🔴 CRÍTICO | 1 |
 | 4 | V.2_Centro_Control_Trafico_CTC | CTC como secundario (no principal) | 🔴 CRÍTICO | 1 |
-| 5 | 25.1_WBS_COMPLETA_ESPECIALIDADES | Capítulos Puntos de Referencia Virtuales (SICC) y Señalización en Cabina (Cab-Signaling) | 🔴 CRÍTICO | 1 |
+| 5 | 25.1_WBS_COMPLETA_ESPECIALIDADES | Capítulos Puntos de Referencia Virtuales (SICC) y Senalización en Cabina (Cab-Signaling) | 🔴 CRÍTICO | 1 |
 | 6 | AT1_Alcance_del_Proyecto | Referencias a Filosofía PTC Virtual | 🔴 CRÍTICO | 2 |
 | 7 | 23_ListadoMaestro_Sistemas | Virtual Balise (GNSS)s en lista de sistemas | 🔴 CRÍTICO | 2 |
-| 8 | 26.1_Anexo_Electrico_CTC | Alimentación señales físicas | 🟡 MEDIO | 3 |
+| 8 | 26.1_Anexo_Electrico_CTC | Alimentación senales físicas | 🟡 MEDIO | 3 |
 | 9 | 37_Memorias_Diseno_Basico | Especificaciones Puntos de Referencia Virtuales (SICC) | 🟡 MEDIO | 3 |
 | 10 | IV.4_Especificaciones_Basicas_Sistemas | Virtual Balise (GNSS)s como sistema | 🟡 MEDIO | 3 |
-| 11-18 | Planos y Diagramas preliminares | Ubicación física señales | 🟡 MEDIO | 4 |
+| 11-18 | Planos y Diagramas preliminares | Ubicación física senales | 🟡 MEDIO | 4 |
 
 **Impacto presupuestal:** -$54B COP (componentes a eliminar)
 
@@ -87,7 +87,7 @@
 
 | # | Documento | Desalineación | Impacto | Prioridad |
 |:--|:----------|:--------------|:--------|:----------|
-| 33 | V.1_Señalización_Ferroviaria | NO incluye ENCE | 🔴 CRÍTICO | 1 |
+| 33 | V.1_Senalización_Ferroviaria | NO incluye ENCE | 🔴 CRÍTICO | 1 |
 | 34 | 25.1_WBS_COMPLETA | NO incluye desvíos | 🔴 CRÍTICO | 1 |
 | 35 | AT1_Alcance_del_Proyecto | ENCE mencionado sin especificar | 🟡 MEDIO | 2 |
 | 36 | 23_ListadoMaestro_Sistemas | Desvíos no listados | 🟡 MEDIO | 2 |
@@ -115,8 +115,8 @@
 | Orden | Documento | Acción Principal | Tiempo | Impacto |
 |:------|:----------|:----------------|:-------|:--------|
 | 1 | CRITERIOS_TECNICOS_MAESTRO_v1.0.md | ✅ YA CORRECTO - Es la fuente | -- | -- |
-| 2 | AT1_Alcance_del_Proyecto_MEJORADO.md | Actualizar señalización virtual + 37 TETRA + Red Vital IP / TETRA + ENCE + Desvíos | 6h | 🔴 |
-| 3 | 23_ListadoMaestro_Sistemas.md | Eliminar Puntos de Referencia Virtuales (SICC)/señales + Agregar Red Vital IP / TETRA/EOT/ENCE/Desvíos | 4h | 🔴 |
+| 2 | AT1_Alcance_del_Proyecto_MEJORADO.md | Actualizar senalización virtual + 37 TETRA + Red Vital IP / TETRA + ENCE + Desvíos | 6h | 🔴 |
+| 3 | 23_ListadoMaestro_Sistemas.md | Eliminar Puntos de Referencia Virtuales (SICC)/senales + Agregar Red Vital IP / TETRA/EOT/ENCE/Desvíos | 4h | 🔴 |
 | 4 | 25.1_WBS_COMPLETA_ESPECIALIDADES.md | Reestructurar capítulos completos | 8h | 🔴 |
 
 **Subtotal Capa 1:** 18 horas (2.5 días)
@@ -126,7 +126,7 @@
 
 | Orden | Documento | Acción Principal | Tiempo | Impacto |
 |:------|:----------|:----------------|:-------|:--------|
-| 5 | 29_Sistema_Señalización_Integrado.md | Reescribir filosofía completa (virtual) | 6h | 🔴 |
+| 5 | 29_Sistema_Senalización_Integrado.md | Reescribir filosofía completa (virtual) | 6h | 🔴 |
 | 6 | 27_Sistema_TETRA_Integrado.md | Actualizar a 37 estaciones | 3h | 🔴 |
 | 7 | 27.1_Estimacion_Cantidades_TETRA.md | Recalcular con 37 estaciones | 2h | 🔴 |
 | 8 | 32_Material_Rodante_Integrado.md | Agregar sistema EOT completo | 4h | 🔴 |
@@ -151,7 +151,7 @@
 
 | Orden | Documento | Acción Principal | Tiempo | Impacto |
 |:------|:----------|:----------------|:-------|:--------|
-| 14 | V.1_Señalización_Ferroviaria_Detalle.md | 🔴 REESCRITURA COMPLETA (90% nuevo) | 12h | 🔴 |
+| 14 | V.1_Senalización_Ferroviaria_Detalle.md | 🔴 REESCRITURA COMPLETA (90% nuevo) | 12h | 🔴 |
 | 15 | V.2_Centro_Control_Trafico_CTC.md | Ampliar significativamente (CTC principal) | 8h | 🔴 |
 | 16 | V.3_Sistemas_Comunicacion_Detalle.md | Actualizar TETRA + Agregar Red Vital IP / TETRA completo | 8h | 🔴 |
 | 17 | VII.2.1_PTC_PTC VIRTUAL_Especificaciones.md | Cambiar arquitectura (PTC embarcado sin Servidor PTC Central) | 10h | 🔴 |
@@ -212,9 +212,9 @@
 **Impacto:** 🔴/🟡/🟢
 
 ### CRITERIOS MAESTROS A APLICAR:
-- [ ] Señalización: Virtual (CTC + PTC embarcado)
+- [ ] Senalización: Virtual (CTC + PTC embarcado)
 - [ ] Virtual Balise (GNSS)s: 0 unidades
-- [ ] Señalización en Cabina (Cab-Signaling) vía: 0 unidades
+- [ ] Senalización en Cabina (Cab-Signaling) vía: 0 unidades
 - [ ] Servidor PTC Central: 0 unidades
 - [ ] TETRA: 37 estaciones
 - [ ] Red Vital IP / TETRA: 37 estaciones (agregar)
@@ -270,7 +270,7 @@
   → AT1, ListadoMaestro, WBS
 
 - **DÍA 3-4:** CAPA 2 (Ing. Conceptual)
-  → Sistemas de Señalización, TETRA, Material Rodante
+  → Sistemas de Senalización, TETRA, Material Rodante
 
 - **DÍA 5:** CAPA 3 (Ing. Básica - inicio)
   → Especificaciones Básicas

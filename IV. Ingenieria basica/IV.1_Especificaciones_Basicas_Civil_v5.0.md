@@ -15,7 +15,7 @@ La infraestructura civil se redimensiona para eliminar el CAPEX innecesario de c
 *   **Nodos de Fibra Óptica**: Canalización de 526 km con cámaras de inspección cada 300m (según Criterio §11.1).
 
 ### 1.2 Infraestructura de Enclavamiento (ENCE):
-*   **5 Centros ENCE**: Ubicados en Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia y La Dorada-México. Requieren obra civil para shelters vitales y acometidas de señales SICC.
+*   **5 Centros ENCE**: Ubicados en Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia y La Dorada-México. Requieren obra civil para shelters vitales y acometidas de senales SICC.
 *   **Pasos a Nivel (PAN)**: Obra civil menor para 146 cruces (bases para cámaras CCTV y sensores SICC).
 
 ---

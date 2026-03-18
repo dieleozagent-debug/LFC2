@@ -18,7 +18,7 @@ La ingeniería de potencia se redimensiona para soportar exclusivamente la infra
 
 ### 1.2 Respaldo de Energía:
 - **UPS:** Sistemas dimensionados para autonomía de 4 horas en equipos vitales (ENCE/TETRA).
-- **Generadores:** Respaldan el 100% de la carga de comunicaciones y señalización virtual en caso de falla de la red comercial.
+- **Generadores:** Respaldan el 100% de la carga de comunicaciones y senalización virtual en caso de falla de la red comercial.
 
 ---
 
@@ -26,7 +26,7 @@ La ingeniería de potencia se redimensiona para soportar exclusivamente la infra
 
 Se han corregido los siguientes desvíos técnicos de la v5.0:
 - ✅ **ELIMINADO:** Dimensionamiento de transformadores para 37 estaciones Red Vital IP / TETRA.
-- ✅ **ELIMINADO:** Alimentación para "Virtual Balise (GNSS)s y Señalización en Cabina (Cab-Signaling)" (Hardware inexistente en PTC Virtual).
+- ✅ **ELIMINADO:** Alimentación para "Virtual Balise (GNSS)s y Senalización en Cabina (Cab-Signaling)" (Hardware inexistente en PTC Virtual).
 - ✅ **ELIMINADO:** Matriz de impacto presupuestal que mantenía vivo el concepto "Red Vital IP / TETRA".
 - ✅ **OPTIMIZADO:** El CAPEX se reduce al simplificar tableros eléctricos y protecciones de las torres de comunicación.
 

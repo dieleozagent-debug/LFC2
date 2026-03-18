@@ -11,7 +11,7 @@
 ## 🎯 **1. PROPÓSITO Y ALCANCE**
 
 ### **1.1 PROPÓSITO**
-Este documento presenta el análisis de **Confiabilidad, Disponibilidad, Mantenibilidad y Seguridad (RAMS)** para el sistema PTC Virtual de LFC. Se eliminan los análisis de infraestructura lateral (señales, punto de referencia virtuals, Servidor PTC Central) y se enfoca en el núcleo vital del SICC.
+Este documento presenta el análisis de **Confiabilidad, Disponibilidad, Mantenibilidad y Seguridad (RAMS)** para el sistema PTC Virtual de LFC. Se eliminan los análisis de infraestructura lateral (senales, punto de referencia virtuals, Servidor PTC Central) y se enfoca en el núcleo vital del SICC.
 
 ### **1.2 ALCANCE**
 - **Sistema Vital:** Vital PTC Server con redundancia 2oo3.

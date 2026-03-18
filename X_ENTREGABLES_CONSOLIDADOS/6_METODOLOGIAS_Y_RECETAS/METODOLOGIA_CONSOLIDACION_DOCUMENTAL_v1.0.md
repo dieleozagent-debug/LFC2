@@ -55,7 +55,7 @@ grep -r "PALABRA_CLAVE" "CARPETA/" --output-mode=files_with_matches
 ```
 
 **Palabras clave por sistema:**
-- **Control y Señalización:** CTC, PTC, PTC VIRTUAL, PTC, ENCE, señalización
+- **Control y Senalización:** CTC, PTC, PTC VIRTUAL, PTC, ENCE, senalización
 - **Telecomunicaciones:** TETRA, Red Vital IP / TETRA, fibra óptica, comunicaciones
 - **ITS y Seguridad:** CCTV, ITS, seguridad, videovigilancia
 - **Material Rodante:** locomotora, vagón, EOT, material rodante
@@ -191,7 +191,7 @@ grep -r "PALABRA_CLAVE" "CARPETA/" --output-mode=files_with_matches
 2. **Ingeniería Conceptual:** Arquitectura, criterios, alternativas
 3. **Ingeniería Básica:** Diseno básico, especificaciones, cálculos
 4. **Ingeniería de Detalle:** Diseno detallado, planos, compras
-5. **Especificaciones Finales:** Funcionales, desempeño, calidad
+5. **Especificaciones Finales:** Funcionales, desempeno, calidad
 6. **Procedimientos:** Operación, emergencia, mantenimiento
 7. **Interfaces:** Matriz de interfaces, descripción detallada
 8. **Control:** Cumplimiento, riesgos, cronograma
@@ -337,7 +337,7 @@ grep -r "PALABRA_CLAVE" "CARPETA/" --output-mode=files_with_matches
 
 ## 📋 **CASOS DE USO VALIDADOS**
 
-### **SISTEMA 01: CONTROL Y SEÑALIZACIÓN**
+### **SISTEMA 01: CONTROL Y SENALIZACIÓN**
 - **Documentos mapeados:** 56
 - **Tiempo total:** 7 horas
 - **Resultado:** Documento Master consolidado con 100% de coherencia técnica

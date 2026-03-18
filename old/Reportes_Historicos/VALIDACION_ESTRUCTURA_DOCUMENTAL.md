@@ -74,7 +74,7 @@ V. Ingenieria de detalle/
 │   └── 7_Instalaciones_el_ctricas_Contrato_8_7.md
 ├── V.3_Mecanica/                 ✅ CREADA
 ├── V.4_Sistemas/                 ✅ CREADA + 13 documentos migrados
-│   ├── 1_Señalización_ferroviaria_Contrato_8_1.md
+│   ├── 1_Senalización_ferroviaria_Contrato_8_1.md
 │   ├── 2_Centro_de_Control_CTC_Contrato_8_2.md
 │   ├── 3_Pasos_a_nivel_Contrato_8_3.md
 │   ├── 4_Comunicaciones_generales_Contrato_8_4.md

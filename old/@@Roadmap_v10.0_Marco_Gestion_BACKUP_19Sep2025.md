@@ -56,7 +56,7 @@ Este roadmap establece la ruta de trabajo para el desarrollo de la ingeniería d
 | 1.1 | `../III. Ingenieria conceptual/26. Sistem_CTC_Int...md` | ✅ Completado | 19/09/2025 | Validado análisis del CTC, **identificando riesgos y supuestos.** |
 | 2.2 | `../III. Ingenieria conceptual/27_Sistema_TETRA_Integrado...md` | ✅ Completado | 19/09/2025 | Validado análisis de TETRA, **identificando riesgos y supuestos.** |
 | 2.1 | `../III. Ingenieria conceptual/28_Sistema_FibraOptica_Integrado...md` | ✅ Completado | 19/09/2025 | Validado análisis del backbone, **identificando riesgos y supuestos.** |
-| 1.2 | `../III. Ingenieria conceptual/29_Sistema_Senalizacion_Integrado...md` | ✅ Completado | 19/09/2025 | Validado análisis de Señalización, **identificando riesgos y supuestos.** |
+| 1.2 | `../III. Ingenieria conceptual/29_Sistema_Senalizacion_Integrado...md` | ✅ Completado | 19/09/2025 | Validado análisis de Senalización, **identificando riesgos y supuestos.** |
 | 3.1 | `../III. Ingenieria conceptual/30_Sistema_ITS_Integrado...md` | ✅ Completado | 19/09/2025 | Validado análisis de ITS, **identificando riesgos y supuestos.** |
 | 3.2 | `../III. Ingenieria conceptual/31_Sistema_CCTV_Integrado...md` | ✅ Completado | 19/09/2025 | Validado análisis de CCTV, **identificando riesgos y supuestos.** |
 | 4.1 | `../III. Ingenieria conceptual/32_Material_Rodante_Integrado...md` | ✅ Completado | 19/09/2025 | Validado análisis de Material Rodante, **identificando riesgos y supuestos.** |
@@ -105,7 +105,7 @@ Este roadmap establece la ruta de trabajo para el desarrollo de la ingeniería d
 | WBS ID | Documento | Estado | Fecha | Observaciones |
 |:---|:---|:---:|:---:|---|
 | 6.1 | `VI. Operacion y Mantenimiento/Manual_OM_CTC.md` | ✅ **Completado** | 19/09/2025 | Manual de Operación y Mantenimiento para el CTC. |
-| 6.2 | `VI. Operacion y Mantenimiento/Manual_OM_Señalizacion.md` | ✅ **Completado** | 19/09/2025 | Manual de Mantenimiento para Señalización. |
+| 6.2 | `VI. Operacion y Mantenimiento/Manual_OM_Senalizacion.md` | ✅ **Completado** | 19/09/2025 | Manual de Mantenimiento para Senalización. |
 | 6.3 | `VI. Operacion y Mantenimiento/Manual_OM_Telecom.md` | ✅ **Completado** | 19/09/2025 | Manual de Mantenimiento para Fibra Óptica y TETRA. |
 | 6.4 | `VI. Operacion y Mantenimiento/Manual_OM_Seguridad.md` | ✅ **Completado** | 19/09/2025 | Manual de Mantenimiento para CCTV e Incendios. |
 
@@ -150,7 +150,7 @@ Este roadmap establece la ruta de trabajo para el desarrollo de la ingeniería d
 #### **2. NIVEL DE DETALLE INCONSISTENTE:**
 - **Documento 3 (Pasos a Nivel):** ✅ **DETALLADO** con PKs, equipos, cantidades, especificaciones
 - **Documento 7 (Instalaciones Eléctricas):** ❌ **GENÉRICO** sin especificaciones técnicas
-- **Documento 1 (Señalización):** ⚠️ **PARCIALMENTE DETALLADO** pero falta especificaciones técnicas
+- **Documento 1 (Senalización):** ⚠️ **PARCIALMENTE DETALLADO** pero falta especificaciones técnicas
 
 #### **3. INSUMOS ELÉCTRICOS DISPERSOS:**
 - No hay consolidación de equipos eléctricos
@@ -163,10 +163,10 @@ Este roadmap establece la ruta de trabajo para el desarrollo de la ingeniería d
 
 **El problema NO es la estructura WBS, sino que los documentos de Fase D NO tienen cantidades específicas necesarias para dimensionar lo eléctrico.**
 
-#### **EJEMPLO CONCRETO - DOCUMENTO 1 (SEÑALIZACIÓN):**
+#### **EJEMPLO CONCRETO - DOCUMENTO 1 (SENALIZACIÓN):**
 - **✅ TIENE:** 5 Enclavamientos, 146 Pasos a Nivel, UPS 5kVA
 - **❌ FALTA:** 
-  - ¿Cuántas Señalización en Cabina (Cab-Signaling) por enclavamiento?
+  - ¿Cuántas Senalización en Cabina (Cab-Signaling) por enclavamiento?
   - ¿Cuántos contadores de ejes por kilómetro?
   - ¿Cuántos tableros eléctricos por enclavamiento?
   - ¿Consumo específico por equipo?
@@ -174,7 +174,7 @@ Este roadmap establece la ruta de trabajo para el desarrollo de la ingeniería d
 
 #### **COMPARACIÓN:**
 - **Documento 3 (Pasos a Nivel):** ✅ **DETALLADO** con cantidades específicas
-- **Documento 1 (Señalización):** ❌ **GENÉRICO** sin cantidades específicas
+- **Documento 1 (Senalización):** ❌ **GENÉRICO** sin cantidades específicas
 - **Documento 7 (Instalaciones Eléctricas):** ❌ **GENÉRICO** sin cantidades específicas
 
 ### **SOLUCIÓN CORRECTA:**
@@ -182,7 +182,7 @@ Este roadmap establece la ruta de trabajo para el desarrollo de la ingeniería d
 #### **FASE 1: REVISAR Y DETALLAR TODOS LOS DOCUMENTOS DE FASE D**
 **OBJETIVO:** Obtener cantidades específicas de todos los sistemas para poder dimensionar lo eléctrico
 
-1. **Revisar documento 1 (Señalización)**
+1. **Revisar documento 1 (Senalización)**
    - Agregar cantidades específicas de equipos
    - Incluir ubicaciones exactas (PKs)
    - Especificar consumos eléctricos por equipo

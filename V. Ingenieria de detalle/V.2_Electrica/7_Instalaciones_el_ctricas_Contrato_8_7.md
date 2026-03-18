@@ -30,7 +30,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 
 #### **ARQUITECTURA DE ALIMENTACIÓN ELÉCTRICA**
 - **Red Principal:** Alimentación desde subestaciones eléctricas del proyecto
-- **Redundancia N+1:** Doble alimentación para sistemas críticos (CTC, señalización, PTC)
+- **Redundancia N+1:** Doble alimentación para sistemas críticos (CTC, senalización, PTC)
 - **UPS y Baterías:** Sistemas de respaldo para continuidad operacional
 - **Distribución:** Red de media/baja tensión para salas técnicas y repetidoras
 
@@ -42,7 +42,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 
 #### **INTEGRACIÓN CON SISTEMAS FERROVIARIOS**
 - **CTC:** Alimentación redundante para centro de control de tráfico
-- **Señalización:** UPS y baterías para enclavamientos electrónicos
+- **Senalización:** UPS y baterías para enclavamientos electrónicos
 - **PTC:** Sistemas de respaldo para control embarcado
 - **Radio TETRA:** Alimentación para estaciones base y repetidoras
 - **Fibra Óptica:** Energía para equipos de transmisión y conmutación
@@ -149,7 +149,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 - **26-32_Sistemas_Integrados v4.0** ✅ - Sistemas que requieren alimentación eléctrica
 - **33-36_Criterios_Normatividad_Interoperabilidad_Redundancia_Ciberseguridad v4.0** ✅ - Estándares de instalaciones eléctricas
 - **37-42_Ingenieria_Basica v4.0** ✅ - Bases para ingeniería de detalle de instalaciones eléctricas
-- **8.1_Señalización_Ferroviaria v4.0** ✅ - Integración con señalización
+- **8.1_Senalización_Ferroviaria v4.0** ✅ - Integración con senalización
 - **8.2_Centro_Control_Tráfico v4.0** ✅ - Integración con CTC
 - **8.3_Pasos_a_Nivel v4.0** ✅ - Integración con pasos a nivel
 - **8.4_Comunicaciones_Generales v4.0** ✅ - Integración con comunicaciones
@@ -162,7 +162,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 ### 2.3 Interfaces Críticas
 - **Instalaciones Eléctricas ↔ CTC:** Alimentación redundante para centro de control
-- **Instalaciones Eléctricas ↔ Señalización:** UPS y baterías para enclavamientos
+- **Instalaciones Eléctricas ↔ Senalización:** UPS y baterías para enclavamientos
 - **Instalaciones Eléctricas ↔ PTC:** Sistemas de respaldo para control embarcado
 - **Instalaciones Eléctricas ↔ Radio TETRA:** Alimentación para estaciones base
 - **Instalaciones Eléctricas ↔ Fibra Óptica:** Energía para equipos de transmisión
@@ -176,7 +176,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 1. **Redundancia N+1 para Sistemas Críticos:**
    - **Problema identificado:** Necesidad de continuidad operacional en sistemas ferroviarios
-   - **Optimización EPC:** Doble alimentación independiente para CTC, señalización, PTC
+   - **Optimización EPC:** Doble alimentación independiente para CTC, senalización, PTC
    - **Beneficio:** Disponibilidad ≥ 99.95% según AT4
    - **Implementación:** Alimentación desde subestaciones diferentes
 
@@ -202,7 +202,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 2. **Fase 2 - Instalación Coordinada (Mes 4-12):**
    - **Problema identificado:** Coordinación con instalación de sistemas ferroviarios
-   - **Optimización EPC:** Cronograma integrado con instalación de CTC, señalización, TETRA
+   - **Optimización EPC:** Cronograma integrado con instalación de CTC, senalización, TETRA
    - **Beneficio:** Reducción de tiempos y costos de instalación
 
 3. **Fase 3 - Pruebas y Puesta en Servicio (Mes 13-15):**
@@ -244,7 +244,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 **Problemas identificados:**
 1. **Contenido muy básico:** Solo 3 líneas de contenido técnico real sobre instalaciones eléctricas
 2. **Falta de especificaciones:** Sin detalles técnicos de arquitectura, redundancia, respaldo
-3. **Sin integración:** No menciona interfaces con sistemas ferroviarios (CTC, señalización, TETRA)
+3. **Sin integración:** No menciona interfaces con sistemas ferroviarios (CTC, senalización, TETRA)
 4. **Objetivos genéricos:** No específicos para instalaciones eléctricas ferroviarias
 5. **Cronograma inadecuado:** No considera complejidad de redundancia y respaldo
 
@@ -253,7 +253,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 2. **Desarrollado arquitectura de red** con redundancia N+1 y sistemas de respaldo
 3. **Especificado sistemas UPS y baterías** para continuidad operacional
 4. **Definido estrategia de gestión integrada** con sistemas ferroviarios
-5. **Integrado con sistemas ferroviarios** (CTC, señalización, TETRA, PTC, fibra óptica)
+5. **Integrado con sistemas ferroviarios** (CTC, senalización, TETRA, PTC, fibra óptica)
 
 ### 5.2 Acciones Requeridas para Mantener v4.0
 - **Monitorear disponibilidad** de AT3_EspecificacionesGenerales y AT10_CapacidadSurcos

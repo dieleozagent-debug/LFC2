@@ -208,7 +208,7 @@ Este documento presenta el **plan de integración de sistemas completo** para el
 #### **6.4 Monitoreo de Sistemas Ferroviarios**
 | Sistema | Parámetro | Frecuencia | Observaciones |
 |:--------|:----------|:------------|:--------------|
-| **CTC** | Estado de señales | Continua | Sistemas de control |
+| **CTC** | Estado de senales | Continua | Sistemas de control |
 | **PTC** | Estado de trenes | Continua | Sistemas embarcados |
 | **TETRA** | Calidad de comunicación | Continua | Sistemas de radio |
 | **CCTV** | Estado de cámaras | Continua | Sistemas de video |

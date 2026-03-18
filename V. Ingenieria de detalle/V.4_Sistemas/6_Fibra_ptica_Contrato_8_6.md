@@ -58,7 +58,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 - **Puntos de Acceso:** ~33 nodos de acceso distribuidos estratégicamente
 
 #### **INTEGRACIÓN CON SISTEMAS FERROVIARIOS**
-- **Señalización:** Backbone para comunicación con enclavamientos electrónicos
+- **Senalización:** Backbone para comunicación con enclavamientos electrónicos
 - **CTC:** Enlace principal para centro de control de tráfico
 - **Radio TETRA:** Backhaul principal para estaciones base
 - **PTC:** Preparación para interfaces de control embarcado
@@ -132,7 +132,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 - **Artículo 8.6 - Fibra Óptica:** Especificaciones técnicas del backbone de fibra óptica
 - **Backbone principal:** Para sistemas de comunicaciones ferroviarias
 - **Redundancia y diversidad:** Doble anillo con rutas geográficamente diversas
-- **Integración:** Con sistemas de señalización, CTC, radio TETRA e PTC
+- **Integración:** Con sistemas de senalización, CTC, radio TETRA e PTC
 
 ### 1.2 Cumplimiento de Normativas
 - **RETIE:** Reglamento Técnico de Instalaciones Eléctricas
@@ -165,7 +165,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 - **26-32_Sistemas_Integrados v4.0** ✅ - Sistemas que requieren fibra óptica
 - **33-36_Criterios_Normatividad_Interoperabilidad_Redundancia_Ciberseguridad v4.0** ✅ - Estándares de fibra óptica
 - **37-42_Ingenieria_Basica v4.0** ✅ - Bases para ingeniería de detalle de fibra óptica
-- **8.1_Señalización_Ferroviaria v4.0** ✅ - Integración con señalización
+- **8.1_Senalización_Ferroviaria v4.0** ✅ - Integración con senalización
 - **8.2_Centro_Control_Tráfico v4.0** ✅ - Integración con CTC
 - **8.3_Pasos_a_Nivel v4.0** ✅ - Integración con pasos a nivel
 - **8.4_Comunicaciones_Generales v4.0** ✅ - Integración con comunicaciones
@@ -176,7 +176,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 - **AT10_CapacidadSurcos** 🔴 - Integración PTC-CTC para fibra óptica
 
 ### 2.3 Interfaces Críticas
-- **Fibra Óptica ↔ Señalización:** Backbone para comunicación con enclavamientos
+- **Fibra Óptica ↔ Senalización:** Backbone para comunicación con enclavamientos
 - **Fibra Óptica ↔ CTC:** Enlace principal para centro de control de tráfico
 - **Fibra Óptica ↔ Radio TETRA:** Backhaul principal para estaciones base
 - **Fibra Óptica ↔ PTC:** Preparación para interfaces de control embarcado
@@ -259,7 +259,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 **Problemas identificados:**
 1. **Contenido muy básico:** Solo 4 líneas de contenido técnico real sobre fibra óptica
 2. **Falta de especificaciones:** Sin detalles técnicos de arquitectura, tecnologías, redundancias
-3. **Sin integración:** No menciona interfaces con sistemas ferroviarios (CTC, señalización, TETRA)
+3. **Sin integración:** No menciona interfaces con sistemas ferroviarios (CTC, senalización, TETRA)
 4. **Objetivos genéricos:** No específicos para fibra óptica ferroviaria
 5. **Cronograma inadecuado:** No considera complejidad de gestión de interferencias y predios
 
@@ -268,7 +268,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 2. **Desarrollado arquitectura de red** con doble anillo y diversidad geográfica
 3. **Especificado tecnología DWDM** para maximización de capacidad
 4. **Definido estrategia de gestión integrada** con AT5 y AT7
-5. **Integrado con sistemas ferroviarios** (CTC, señalización, TETRA, PTC, ITS)
+5. **Integrado con sistemas ferroviarios** (CTC, senalización, TETRA, PTC, ITS)
 
 ### 5.2 Acciones Requeridas para Mantener v4.0
 - **Monitorear disponibilidad** de AT3_EspecificacionesGenerales y AT10_CapacidadSurcos

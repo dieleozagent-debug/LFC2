@@ -36,7 +36,7 @@ Se ha iniciado la **Fase 1: Validación Técnica y Contractual** del proyecto, v
 
 ### **1. Especificaciones Técnicas Principales**
 
-#### **✅ Sistemas de Señalización (V.1)**
+#### **✅ Sistemas de Senalización (V.1)**
 - **Normas aplicadas:** EN 50126/50128/50129, PTC Virtual (FRA 236), CENELEC
 - **Arquitectura:** Integrada con PTC
 - **Estado:** ✅ Especificaciones completas y consistentes
@@ -86,9 +86,9 @@ Se ha iniciado la **Fase 1: Validación Técnica y Contractual** del proyecto, v
 ### **✅ Normas Internacionales Aplicadas**
 - **EN 50126:** Aplicación de técnicas de fiabilidad (632+ referencias)
 - **EN 50128:** Sistemas de software para control ferroviario
-- **EN 50129:** Sistemas de señalización ferroviaria
+- **EN 50129:** Sistemas de senalización ferroviaria
 - **IEC 62290:** Sistemas de gestión del tráfico ferroviario
-- **FRA/AREMA 615:** Señalización ferroviaria
+- **FRA/AREMA 615:** Senalización ferroviaria
 - **PTC Virtual (FRA 236):** Sistema europeo de control de trenes
 
 ### **✅ Normas Nacionales Aplicadas**
@@ -105,7 +105,7 @@ Se ha iniciado la **Fase 1: Validación Técnica y Contractual** del proyecto, v
 - **AT1 (Alcance):** Base para todos los sistemas
 - **AT2 (Operación):** Funcionalidades operativas definidas
 - **AT3 (Especificaciones):** Requisitos técnicos detallados
-- **AT4 (Indicadores):** Métricas de desempeño establecidas
+- **AT4 (Indicadores):** Métricas de desempeno establecidas
 
 ### **✅ Cláusulas Contractuales**
 - **Cláusula 8.1:** Estudios y disenos - ✅ Cumplida
@@ -142,7 +142,7 @@ Se ha iniciado la **Fase 1: Validación Técnica y Contractual** del proyecto, v
 
 | Sistema | Especificaciones | Normas | Interfaces | Estado |
 |:---:|:---:|:---:|:---:|:---:|
-| **V.1 Señalización** | ✅ Completa | ✅ 9 normas | ✅ PTC | ✅ Validado |
+| **V.1 Senalización** | ✅ Completa | ✅ 9 normas | ✅ PTC | ✅ Validado |
 | **V.2 CTC** | ✅ Completa | ✅ 10 normas | ✅ FFFIS | ✅ Validado |
 | **V.3 Comunicaciones** | ✅ Completa | ✅ 13 normas | ✅ Red Vital IP / TETRA/TETRA | ✅ Validado |
 | **V.4 Potencia** | ✅ Completa | ✅ 9 normas | ✅ UPS/Gen | ✅ Validado |

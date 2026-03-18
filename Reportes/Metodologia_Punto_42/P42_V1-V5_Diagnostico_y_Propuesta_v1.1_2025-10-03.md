@@ -3,7 +3,7 @@
 **Fecha:** 03 de octubre de 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
 **Metodología:** Punto 42 (Checklist v4.2)  
-**Alcance:** Documentos V.1–V.5 (Señalización, CTC, Comunicaciones, Potencia, Seguridad)
+**Alcance:** Documentos V.1–V.5 (Senalización, CTC, Comunicaciones, Potencia, Seguridad)
 
 ---
 

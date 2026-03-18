@@ -112,7 +112,7 @@ Página 3 de 5 5
 
 ### CAPÍTULO I - DEFINICIONES
 
-(a) Amenaza: Peligro latente de que un evento físico de origen natural, o causado, o inducido por la acción humana de manera accidental, se presente con una severidad suficiente para causar pérdida de vidas, lesiones u otros impactos en la salud, así como también daños y pérdidas en los bienes, la infraestructura, los medios de sustento, la prestación de servicios y los recursos ambientales (Ley 1523 del 24 de abril de 2012).
+(a) Amenaza: Peligro latente de que un evento físico de origen natural, o causado, o inducido por la acción humana de manera accidental, se presente con una severidad suficiente para causar pérdida de vidas, lesiones u otros impactos en la salud, así como también danos y pérdidas en los bienes, la infraestructura, los medios de sustento, la prestación de servicios y los recursos ambientales (Ley 1523 del 24 de abril de 2012).
 
 (b) Adaptación al Cambio Climático: Es el proceso de ajuste a los efectos presentes y esperados del cambio climático. En ámbitos sociales de decisión corresponde al proceso de ajuste que busca atenuar los efectos perjudiciales yo aprovechar las oportunidades beneficiosas presentes o esperadas del clima y sus efectos. En los socioecosistemas, (sic) el proceso de ajuste de la biodiversidad al clima actual y sus efectos puede ser intervenido por la sociedad con el propósito de facilitar el ajuste al clima esperado (Ley 1931 del 27 de julio de 2018).
 
@@ -142,7 +142,7 @@ Página 4 de 55
 
 (m) Gases Efecto Invernadero (GEi): Son aquellos componentes gaseosos de la atmósfera, de origen natural o antropogénico, que absorben y emiten la energía solar reflejada por la superficie de la tierra, la atmósfera y las nubes. Los principales gases de Efecto Invernadero son el dióxido de carbono (CO2), el óxido nitroso (N2O), el metano (CH4), los hidrofluorocarbonos (HFC), los perfluorocarbonos (PFC) y el hexafluoruro de azufre (SF6) (artículo3 dela Ley 1931 de2018).
 
-(n) Gestión Ambiental: Es el conjunto de obligaciones a cargo del Concesionario relacionadas con el cumplimiento oportuno y eficaz de la Ley Aplicable en materia ambiental con relación al desarrollo del Proyecto, así corno la aplicación de las mejores prácticas que garanticen un adecuado desempeño ambiental del mismo. Estas obligaciones están descritas en el Contrato y en el presente Apéndice. Complementariamente harán parte de la Gestión Ambiental la atención a los requerimientos derivados de las solicitudes de las Autoridades Ambientales y las obligaciones contractuales relacionadas en el Contrato y sus documentos relacionados.
+(n) Gestión Ambiental: Es el conjunto de obligaciones a cargo del Concesionario relacionadas con el cumplimiento oportuno y eficaz de la Ley Aplicable en materia ambiental con relación al desarrollo del Proyecto, así corno la aplicación de las mejores prácticas que garanticen un adecuado desempeno ambiental del mismo. Estas obligaciones están descritas en el Contrato y en el presente Apéndice. Complementariamente harán parte de la Gestión Ambiental la atención a los requerimientos derivados de las solicitudes de las Autoridades Ambientales y las obligaciones contractuales relacionadas en el Contrato y sus documentos relacionados.
 
 (o) Gestión del Riesgo de Desastres: La Gestión del Riesgo de Desastres en el sector transporte es un proceso orientado a la formulación, ejecución, seguimiento y evaluación de políticas, estrategias, planes, programas, regulaciones, instrumentos, medidas y acciones permanentes, para el conocimiento y la reducción del riesgo y para el manejo de desastres en el sector
 
@@ -179,9 +179,9 @@ en firme el acto administrativo emitido por la autoridad ambiental competente, q
 
 (bb) RENARE: Registro Nacional de Reducción de Emisiones de Gases Efecto Invernadero: Plataforma para registrar las reducciones de gases efecto invernadero en Colombia, liderada por el Ministerio de Ambiente y Desarrollo Sostenible.
 
-(ce) Vulnerabilidad: Susceptibilidad o fragilidad fisica, económica, social, ambiental o institucional que tiene una comunidad de ser afectada o de sufrir efectos adversos en caso de que un evento fisico peligroso se presente. Corresponde a la predisposición a sufrir pérdidas o daños de los seres humanos y sus medios de subsistencia, así como de sus sistemas físicos, sociales, económicos y de apoyo que pueden ser afectados por eventos físicos peligrosos (Ley 1523 del 24 de abril de 2012).
+(ce) Vulnerabilidad: Susceptibilidad o fragilidad fisica, económica, social, ambiental o institucional que tiene una comunidad de ser afectada o de sufrir efectos adversos en caso de que un evento fisico peligroso se presente. Corresponde a la predisposición a sufrir pérdidas o danos de los seres humanos y sus medios de subsistencia, así como de sus sistemas físicos, sociales, económicos y de apoyo que pueden ser afectados por eventos físicos peligrosos (Ley 1523 del 24 de abril de 2012).
 
-(dd) Vulnerabilidad Climática: Son las variaciones en el estado medio y otros datos estadísticos del clima en todas las escalas temporales y espaciales (como las desviaciones típicas, las ocurrencias de fenómenos extremos, como el Niño y la Niña, etc.), más allá de fenómenos meteorológicos determinados. La variabilidad se puede deber a procesos internos naturales dentro del sistema climático (variabilidad interna), o a variaciones en los forzamientos externos antropogénicos (variabilidad externa) (artículo 3 de la Ley 1931 de 2018).
+(dd) Vulnerabilidad Climática: Son las variaciones en el estado medio y otros datos estadísticos del clima en todas las escalas temporales y espaciales (como las desviaciones típicas, las ocurrencias de fenómenos extremos, como el Nino y la Nina, etc.), más allá de fenómenos meteorológicos determinados. La variabilidad se puede deber a procesos internos naturales dentro del sistema climático (variabilidad interna), o a variaciones en los forzamientos externos antropogénicos (variabilidad externa) (artículo 3 de la Ley 1931 de 2018).
 ---
 Página 7 de 55
 ---
@@ -280,7 +280,7 @@ las notificaciones de cambios menores, copia de las solicitudes de pronunciamien
 (vi) Ante cualquier Contingencia Ambiental que se presente, el Concesionario deberá ejecutar las acciones necesarias a fin de cesar la situación, poniendo en marcha el plan de contingencias que se tenga para tales efectos, complementariamente, deberá reportarlo a las Autoridades Estatales competentes, conforme a lo indicado en las Resoluciones 1767 de 2016, 1486 de 2018 o de la norma que los modifique o sustituya, lo cual lo deberá hacerse dentro de las 24 horas, de acuerdo con el artículo 2.2.2.3.9.3 del Decreto 1076 de 2015 o del que lo sustituya y complemente. Al mismo tiempo y dentro del mismo plazo lo deberá informar a la ANI y a la Interventoría del Proyecto.
 
 (vii) En el evento en que la autoridad ambiental competente inicie contra el Concesionario un proceso sancionatorio ambiental yo le imponga medidas preventivas en el marco de las disposiciones de la Ley 1333 de 2009 -o de la que la sustituya o modifique-, deberá informar dicha situación a la ANI y a la Interventoría dentro de las 24 horas siguientes al recibo de cualquier documento en el que la autoridad ambiental lo notifique.
-(viii) El Concesionario diseñara e implementará un programa para el uso eficiente y ahorro de agua, en el marco de la Ley 373 de 1997 o la que la sustituya o complemente. La implementación de este programa se adelantará en todas las infraestructurasinstalaciones asociadas al Proyecto y será un requisito obligatorio para el Concesionario, quien asumirá toda la responsabilidad de su ejecución en términos de tiempo y recursos (humanos, técnicos y económicos), así como las consecuencias de su incumplimiento. El programa deberá ser mantenido durante toda la vida útil de la Concesión y actualizado cada tres (3) años o según lo requiera la normativa aplicable.
+(viii) El Concesionario disenara e implementará un programa para el uso eficiente y ahorro de agua, en el marco de la Ley 373 de 1997 o la que la sustituya o complemente. La implementación de este programa se adelantará en todas las infraestructurasinstalaciones asociadas al Proyecto y será un requisito obligatorio para el Concesionario, quien asumirá toda la responsabilidad de su ejecución en términos de tiempo y recursos (humanos, técnicos y económicos), así como las consecuencias de su incumplimiento. El programa deberá ser mantenido durante toda la vida útil de la Concesión y actualizado cada tres (3) anos o según lo requiera la normativa aplicable.
 
 (ix) El Concesionario deberá adelantar, por su cuenta y riesgo, todas las gestiones administrativas yo judiciales para las cuales esté legitimado -de acuerdo con la Ley Aplicable - encaminadas a evitar, mitigar o detener cualquier acto de un tercero que pueda afectar las condiciones medioambientales del corredor férreo, y en general, del Proyecto.
 
@@ -296,7 +296,7 @@ Página 12 de 55
 
 (xiv) El Concesionario será responsable de la administración de los inmuebles requeridos para la disposición de material sobrante de las excavaciones o escombros, al igual que las compensaciones y requerimientos que se estas actividades se susciten; esta administración será realizada hasta que la ANI determine la disposición final del mismo.
 
-(xv) Para proyectos que requieran de la cesión de los Instrumentos de Manejo y Control Ambiental yo de Permisos de Carácter Ambiental que tengan obligaciones de compensación que ya están causadas, el Concesionario deberá diseñar y radicar ante la Autoridad Ambiental competente el plan compensación durante la Fase de Preconstrucción, bien sea de manera directa o través de la ANI, este último caso solo aplicará si es que aún no ha se emitido el pronunciamiento de cesión por parte de la Autoridad Ambiental competente.
+(xv) Para proyectos que requieran de la cesión de los Instrumentos de Manejo y Control Ambiental yo de Permisos de Carácter Ambiental que tengan obligaciones de compensación que ya están causadas, el Concesionario deberá disenar y radicar ante la Autoridad Ambiental competente el plan compensación durante la Fase de Preconstrucción, bien sea de manera directa o través de la ANI, este último caso solo aplicará si es que aún no ha se emitido el pronunciamiento de cesión por parte de la Autoridad Ambiental competente.
 
 (xvi) Una vez se cuente con la aprobación de los planes de compensación por parte de la(s) Autoridad(es) Ambiental(es), el Concesionario deberá iniciar la implementación de los mismos, en el término establecido por la Autoridad Ambiental en el acto administrativo respectivo, o en su defecto, al mes de iniciadas las actividades de Construcción.
 
@@ -384,7 +384,7 @@ lo establecido tanto en los Instrumentos de Manejo y Control Ambiental del Proye
 
 (i) En virtud del artículo 2.2.2.3.8.4. del Decreto 1076 de 2015 o la norma que lo sustituya, modifique, adicione o complemente, el Concesionario suscribirá y remitirá los documentos y soportes de pago a la ANI, de acuerdo con la regulación contenida en la minuta del Contrato de Concesión y los alcances de cesión definidos en el Anexo del Apéndice Técnico No. 6 - Gestión Ambiental, para los fines de cesión de los Instrumentos de Manejo y Control Ambiental del Proyecto.
 
-(ii) En cualquier caso, en el evento que por casos de fuerza mayor o caso fortuito ajenos a la voluntad del Concesionario resulte imposible dar inicio a los trámites señalados en el literal anterior, el plazo de quince (15) días puede prorrogarse, para lo cual:
+(ii) En cualquier caso, en el evento que por casos de fuerza mayor o caso fortuito ajenos a la voluntad del Concesionario resulte imposible dar inicio a los trámites senalados en el literal anterior, el plazo de quince (15) días puede prorrogarse, para lo cual:
 (1) Previo al vencimiento, el Concesionario debe notificar formalmente a la Interventoría y a la ANI informando sobre la situación que constituya dicha fuerza mayor o caso fortuito y poniendo a consideración de la Interventoría la ampliación del plazo por un tiempo prudencial mientras se subsanan los hechos que generaron la situación.
 (2) La Interventoría en un plazo de cinco (5) días evaluará la solicitud de ampliación y dado el caso emitirá observaciones al Concesionario, las cuales deberán ser resueltas en un plazo de tres (3) días.
 (2) La Interventoría en un plazo de cinco (5) días evaluará la solicitud de ampliación y dado el caso emitirá observaciones al Concesionario, las cuales deberán ser resueltas en un plazo de tres (3) días.
@@ -405,7 +405,7 @@ Para el caso del puente vehicular y peatonal sobre el río Sogamoso y respectivo
 (iii) En caso de que no sea posible el archivo de los expedientes ambientales por la imposición de obligaciones cuyo cumplimiento supere la fecha de la entrega de las infraestructuras a la Gobernación de Santander, el Concesionario deberá cederlos totalmente a la citada gobernación, o a quien esta designe, en los términos establecidos entre la Gobernación de Santander y la ANI, para lo cual se deberán cumplir las siguientes condiciones:
 (1) Pago del Tramite de cesión. Correrán por cuenta del Concesionario los costos del trámite de cesión total cobrados por la Autoridad Ambiental Competente y demás gravámenes asociados a dicho trámite.
 
-(2) Elaborar y entregar a la Autoridad Ambiental Competente, con copia integra a la Gobernación de Santander, los informes de cumplimiento ambiental -ICA- hasta la fecha en la que se entregue la infraestructura a la Gobernación de Santander. Esto incluye, el ICA del último semestre o año (Según corresponda) en el que tuvo a cargo la infraestructura.
+(2) Elaborar y entregar a la Autoridad Ambiental Competente, con copia integra a la Gobernación de Santander, los informes de cumplimiento ambiental -ICA- hasta la fecha en la que se entregue la infraestructura a la Gobernación de Santander. Esto incluye, el ICA del último semestre o ano (Según corresponda) en el que tuvo a cargo la infraestructura.
 (3) Estar a paz y salvo por conceptos de cobros que realice la Autoridad Ambiental Competente, como los de seguimiento, tasas retributivas, sin limitarse a estos durante el periodo en el que tuvo a cargo la infraestructura.
 
 Página 18 de 55
@@ -494,7 +494,7 @@ Página 21 de 55
 
 18.Relación del cumplimiento de las obligaciones relacionadas con cambio climático y con la Gestión del Riesgo de Desastres.
 
-I 9.Soportes de la información antes señalada.
+I 9.Soportes de la información antes senalada.
 
 Página 22 de 55
 
@@ -573,7 +573,7 @@ Página 25 de 55
 
 (h) Actualización y/o ajuste en el reporte
 i. La ANI, con base a los requerimientos normativos, podrá solicitar (según aplique) la actualización yo ajuste del informe según las necesidades del Gobierno Nacional yo la entidad encargada.
-ii. El proyecto de concesión deberá tener en cuenta que la meta para el 2030 es de 73.330 MT CO2 equivalente, esta cifra está sujeta a ajustes por las partes interesadas, teniendo en cuenta que el contrato de concesión tiene vigencia de 20 años, el reporte deberá estar sujeto durante la vida útil del proyecto, conforme a las especificaciones propuestas en el alcance del proyecto.
+ii. El proyecto de concesión deberá tener en cuenta que la meta para el 2030 es de 73.330 MT CO2 equivalente, esta cifra está sujeta a ajustes por las partes interesadas, teniendo en cuenta que el contrato de concesión tiene vigencia de 20 anos, el reporte deberá estar sujeto durante la vida útil del proyecto, conforme a las especificaciones propuestas en el alcance del proyecto.
 iii. El Concesionario será el responsable de realizar los ajustes que requiera el reporte de la NDC, conforme a la actualización normativa fijada por la entidad encargada yo los Acuerdos Internaciones suscritos por el Gobierno Nacional en pro de la reducción de los gases de efecto invernadero.
 ---
 Página 26 de 55
@@ -584,7 +584,7 @@ Página 26 de 55
 
 (a) Para efectos de este Contrato las Compensaciones Socioambientales que se definen corresponderán, exclusivamente a los requerimientos establecidos dentro de resoluciones, autos y acuerdos (corporaciones) emitidos por la Autoridad Ambiental y entidades ambientales competentes, en donde taxativamente fijan como medida de manejo las obligaciones de compensación, definidas como tal en la ley vigente y aplicable para el Proyecto en el marco de:
 
-(i) Resolución 256 de 2018 con la cual se adoptó la actualización del Manual de Compensaciones Ambientales del componente biótico teniendo en cuenta las lecciones aprendidas de años de implementación del "Manual de Asignación de Compensaciones por pérdida de Biodiversidad" (Resolución 1517 de 2012), y el(los) acto(s) administrativo(s) que la(s) modifiquen, complementen o sustituyan.
+(i) Resolución 256 de 2018 con la cual se adoptó la actualización del Manual de Compensaciones Ambientales del componente biótico teniendo en cuenta las lecciones aprendidas de anos de implementación del "Manual de Asignación de Compensaciones por pérdida de Biodiversidad" (Resolución 1517 de 2012), y el(los) acto(s) administrativo(s) que la(s) modifiquen, complementen o sustituyan.
 
 (ii) Actos administrativos emitidos ante solicitudes de uso y Aprovechamiento de Recursos Naturales previstas en el Decreto No. 2811 de 1974 o la(s) norma(s) que la(s) modifiquen, complementen o sustituyan.
 
@@ -690,7 +690,7 @@ Página 30 de 55
 
 (ix) Soportar cada una de las actividades descritas en el numeral precedente con evidencias (documentales, imágenes, entre otros) que sirvan para demostrar la implementación de las actividades para dar cumplimiento a la medida compensatoria.
 
-(x) Con la sumatoria de todas las actividades anteriormente descritas, señalar el costo de la actividad.
+(x) Con la sumatoria de todas las actividades anteriormente descritas, senalar el costo de la actividad.
 
 (xi) Valor total a pagar.
 
@@ -770,7 +770,7 @@ Página 33 de 55
 ---
 Página 34 de 55
 
-respectivos ramales de conexión dado lo señalado en el numeral 3.3(b)(ii) del presente Apéndice, el Concesionario deberá hacer todo cuanto esté a su alcance por avanzar en el cumplimiento de todas las obligaciones, en lo posible, hasta el cumplimiento total de las mismas.
+respectivos ramales de conexión dado lo senalado en el numeral 3.3(b)(ii) del presente Apéndice, el Concesionario deberá hacer todo cuanto esté a su alcance por avanzar en el cumplimiento de todas las obligaciones, en lo posible, hasta el cumplimiento total de las mismas.
 (e) En el caso de que las Autoridades Ambientales Competentes demanden mayores tiempos a los aquí establecidos, el Concesionario deberá presentar a la Interventoría y a la ANI los correspondientes soportes documentales que le permita justificar y solicitar la ampliación de plazos, conforme a lo requerido por las Autoridades Ambientales Competentes.
 
 (f) Para los fines de obtención del concepto de "No Objeción" por parte de la Interventoría, se deberá surtir el procedimiento establecido en el Literal g del Numeral 5.6 del presente Apéndice.
@@ -831,7 +831,7 @@ en el parágrafo 1, de este mismo artículo, remitirá el borrador de este a la 
 
 (c) La elaboración, actualización, yo implementación del PAGA no eximirá al Concesionario del cumplimiento de las obligaciones de carácter ambiental adicionales aplicables para el cumplimiento de la normativa ambiental vigente.
 
-(d) En este sentido, el Concesionario tiene la obligación de elaborar los estudios ambientales a que haya lugar considerando la información disponible y la que deba generar para satisfacer los requisitos establecidos en la Normatividad Aplicable, así como diseñar y aplicar las medidas adicionales a las exigidas por la guía, que resulten necesarias, las cuales serán asumidas por el Concesionario.
+(d) En este sentido, el Concesionario tiene la obligación de elaborar los estudios ambientales a que haya lugar considerando la información disponible y la que deba generar para satisfacer los requisitos establecidos en la Normatividad Aplicable, así como disenar y aplicar las medidas adicionales a las exigidas por la guía, que resulten necesarias, las cuales serán asumidas por el Concesionario.
 
 (e) El Concesionario deberá definir todos los Permisos de Carácter Ambiental requeridos para el desarrollo de las intervenciones. Una vez identificados, el Concesionario debe iniciar inmediatamente los trámites ante la Autoridad Ambiental competente de acuerdo con lo previsto en la Normatividad Aplicable y lo previsto en el Contrato, presentando los soportes técnicos y jurídicos establecidos en los formularios correspondientes, para lo cual deberá asumir por su cuenta y riesgo los costos derivados de la evaluación y seguimiento ambiental.
 
@@ -886,7 +886,7 @@ j
 
 (a) En la Fase de Preconstrucción le corresponde al Concesionario realizar las siguientes actividades relacionadas con el medio biótico, componente fauna.
 
-(i) Diseñar el plan de respuesta a Incidentes con Fauna Silvestre el cual deberá ser implementado para las unidades funcionales con alcance de Construcción, Operación y Mantenimiento, el cual:
+(i) Disenar el plan de respuesta a Incidentes con Fauna Silvestre el cual deberá ser implementado para las unidades funcionales con alcance de Construcción, Operación y Mantenimiento, el cual:
 (a) Deberá contar con la No objeción de Interventoría.
 
 (b) Se ajustará de manera unilateral por parte del Concesionario o por solicitud de la Interventoría -previa aprobación de la ANI-, cuando se evidencia alguna oportunidad de mejora o necesidad de ajuste.
@@ -897,7 +897,7 @@ j
 
 (iii) Realizar la identificación de corredores biológicos, zonas de tránsito de fauna, así como puntos de intersección con el trazado del proyecto, entre otros, como criterios para implementación de pasos de fauna y otras medidas para el manejo de la problemática de atropellamiento, de acuerdo con los lineamientos dados por el sector transporte y la normatividad ambiental vigente.
 (iv) Realizar la adecuación de obras de infraestructura del proyecto susceptibles a ajustes con el fin de aumentar la Permeabilidad y Conectividad Ecológica del proyecto a la fauna silvestre, acorde con los lineamientos establecidos por el sector transporte y la normatividad ambiental vigente.
-(v) Identificar las zonas de alta vulnerabilidad o interés faunístico con el fin de implementar señalización adecuada para advertir sobre presencia de fauna y manejo de la velocidad.
+(v) Identificar las zonas de alta vulnerabilidad o interés faunístico con el fin de implementar senalización adecuada para advertir sobre presencia de fauna y manejo de la velocidad.
 
 (vi) Establecer indicadores de manejo de fauna aplicables para la fase de construcción del proyecto.
 
@@ -1052,7 +1052,7 @@ o sin iniciar; y iv) en general requerimientos que, por causas no imputables al 
 (g) El Concesionario debe dar cumplimiento a las actividades ambientales previstas en el cronograma anexo al Acta de Terminación Parcial y presentar el informe final de cierre ambiental de la Unidad Funcional según los lineamientos descritos en los numerales 5.2 y 5.3.
 (h) El Concesionario, la Interventoría y la ANI, establecerán en el m1c10 de la Etapa de Operación y Mantenimiento los lineamientos para dar cumplimiento a los requerimientos y compensaciones y demás obligaciones ambientales pendientes por ejecutar.
 
-(i) En concordancia con lo señalado en los literales (a) o (b) del presente numeral, el Concesionario elaborará y entregará a la Interventoría y a la ANI un documento completo y explicito describiendo la forma en que ha cumplido o cumplirá -según sea el caso de cierre ambiental total o parcial, el cual deberá atender las siguientes condiciones:
+(i) En concordancia con lo senalado en los literales (a) o (b) del presente numeral, el Concesionario elaborará y entregará a la Interventoría y a la ANI un documento completo y explicito describiendo la forma en que ha cumplido o cumplirá -según sea el caso de cierre ambiental total o parcial, el cual deberá atender las siguientes condiciones:
 
 (i) Deberá ser entregado antes del vencimiento del plazo que le sea fijado.
 
@@ -1142,7 +1142,7 @@ Página 50 de 55
 
 (f) Desarrollar talleres con profesionales y operarios de la concesión sobre la gestión asociada a fauna silvestre.
 
-(g) Desarrollar campañas de sensibilización sobre la problemática de atropellamiento de fauna silvestre en sectores de mayor impacto y sobre la gestión del Proyecto y la agencia están implementando para su manejo.
+(g) Desarrollar campanas de sensibilización sobre la problemática de atropellamiento de fauna silvestre en sectores de mayor impacto y sobre la gestión del Proyecto y la agencia están implementando para su manejo.
 
 #### 7.4 Programa de aporte sostenible - Mitigación al cambio climático
 
@@ -1197,7 +1197,7 @@ Página 52 de 55
 
 (vi) El Concesionario deberá aportar a la ANI un documento que contenga las lecciones aprendidas en materia de Gestión Ambiental del Contrato, el cual deberá corresponder con los parámetros que para el efecto defina la ANI.
 
-(vii) El Concesionario deberá garantizar el acompañamiento con personal idóneo y suficiente, en tanto así la ANI lo requiera, durante y hasta la culminación de la Etapa de Reversión.
+(vii) El Concesionario deberá garantizar el acompanamiento con personal idóneo y suficiente, en tanto así la ANI lo requiera, durante y hasta la culminación de la Etapa de Reversión.
 
 (viii) El programa será objeto de seguimiento bimensual por parte de la Interventoría y de laANI.
 
@@ -1632,7 +1632,7 @@ El 12042024 el CSFF notificó a CORANTIOQUIA la construcción obra de emergencia
 CS-CSF-000742 Magdalena en el abscisado férreo PK 12042024 307 750- PK 308100 Puerto Berrio, Antioquia mediante radicado CS-CSF-
 000742.No se ha obtenido respuesta por parte de la corporación.
 
-El 25 abril del 2024 el CSFF realiza el acompañamiento a los abscisados férreos en atención al AUTO SAO 814.2023.
+El 25 abril del 2024 el CSFF realiza el acompanamiento a los abscisados férreos en atención al AUTO SAO 814.2023.
 AUTO SAO No El CSFF presenta el día 29122023 814-2023 mediante radicado 24140.2023 el soporte de pago del AUTO SAO No 814 2023 mediante
 el cual a CAS ordena la práctica de una visita de inspección ocular.
 
@@ -1714,7 +1714,7 @@ Certificado 11032024
 El CSFF solicitó declaración de emergencia de las abscisas en jurisdicción del municipio de La Dorada, Caldas a la alcaldía municipal, a la fecha no se tiene respuesta por parte de la entidad territorial.
 
 El CSFF solicitó declaración de emergencia de las abscisas ubicadas en jurisdicción del municipio de La Puerto Triunfo a alcaldía municipal, a la fecha no se tiene respuesta por parte de la entidad territorial.
-El 1 de marzo del 2024, el secretario general y de gobierno del municipio de Puerto Berrio, emitió certificación de afectación por socavación del Río Magdalena en el tramo PK 307750 - PK 308100 recomendando prioritariamente que se atiendan para reducir la posibilidad de impactos a la operación férrea y al medio ambiente. El 5 de marzo del 2024, mediante consecutívo 2024200651, el señor Eleuterio Serna Gutiérrez, técnico operativo de la secretaría de agricultura, minería y ambiente del municipio de Puerto Berrio-Antioquia, autorizó la tala de dos individuos arbóreos ubicados en el PK 308027.
+El 1 de marzo del 2024, el secretario general y de gobierno del municipio de Puerto Berrio, emitió certificación de afectación por socavación del Río Magdalena en el tramo PK 307750 - PK 308100 recomendando prioritariamente que se atiendan para reducir la posibilidad de impactos a la operación férrea y al medio ambiente. El 5 de marzo del 2024, mediante consecutívo 2024200651, el senor Eleuterio Serna Gutiérrez, técnico operativo de la secretaría de agricultura, minería y ambiente del municipio de Puerto Berrio-Antioquia, autorizó la tala de dos individuos arbóreos ubicados en el PK 308027.
 El secretario de obras e infraestructura y la coordinación de riesgos del municipio de Cimitarra, emitió certificado de fecha 11 marzo 2024 por medio del cual declara estado de emergencia por colapso de las alcantarillas ubicadas en los 338858, PK 352875, PK 358977
 
 ANEXO DEL APÉNDICE TÉCNICO No. 6 - GESTIÓN AMBIENTAL Pág. 12 de 13
@@ -1760,7 +1760,7 @@ ANEXO DEL APÉNDICE TÉCNICO No. 6 - GESTIÓN AMBIENTAL Pág. 13 de 13
 
 CESIÓN TOTAL DE LOS DERECHOS Y OBLIGACIONES CONTENIDOS EN LA LICENCIA AMBIENTAL OTORGADA MEDIANTE LA RESOLUCIÓN No. 2098 DEL 16 DE DICIEMBRE DE 2005, PROFERIDA POR LA AUTORIDAD NACIONAL DE LICENCIAS AMBIENTALES, PARA EL PROYECTO DENOMINADO "VARIANTE FÉRREA EN PUERTO NARE - RED FÉRREA DEL ATLÁNTICO", SUS MODIFICACIONES Y LOS DEMÁS ACTOS ADMINISTRATIVOS QUE HACEN PARTE INTEGRAL DEL EXPEDIENTE LAM3365
 
-ADRIANA BAREÑO ROJAS, identificada con la cédula de ciudadanía No. 52.146.524, en su calidad de Vicepresidente de Planeación, Riesgos y Entorno (E) de la Agencia Nacional de Infraestructura, nombrada mediante la Resolución No. 20254030002665 del 28 de febrero de 2025 "Por medio de la cual se acepta una renuncia y se hace un encargo", actuando en representación de la AGENCIA NACIONAL DE INFRAESTRUCTURA, en calidad de CEDENTE y la CON CESIÓN
+ADRIANA BARENO ROJAS, identificada con la cédula de ciudadanía No. 52.146.524, en su calidad de Vicepresidente de Planeación, Riesgos y Entorno (E) de la Agencia Nacional de Infraestructura, nombrada mediante la Resolución No. 20254030002665 del 28 de febrero de 2025 "Por medio de la cual se acepta una renuncia y se hace un encargo", actuando en representación de la AGENCIA NACIONAL DE INFRAESTRUCTURA, en calidad de CEDENTE y la CON CESIÓN
 LÍNEA FÉRREA CENTRAL S.A.S. con N IT 901.936.505-3, representada legalmente por CARLOS BUENO MORALES, identificado con Cédula de Extranjería número 397855, y que en el presente documento se denominará CESIONARIO, acordarnos la CESIÓN TOTAL de los derechos y obligaciones derivadas de la Licencia Ambiental contenida en la Resolución No. 2098 del 16 de diciembre de 2005, las modificaciones y los demás actos administrativos que hacen parte integral del expediente LAM3365, proferida por la Autoridad Nacional de Licencias Ambientales -en
 adelante "ANLA" para el proyecto denominado "VARIANTE FÉRREA EN PUERTO NARE-RED FÉRREA DEL ATLÁNTICO". Lo anterior, para la ejecución del CONTRATO DE CONCESIÓN BAJO EL ESQUEMA DE ASOCIACIÓN PUBLICO PRIVADA No. 001 de 2025, hemos convenido
 la cesión total con base en las siguientes consideraciones:
@@ -1838,11 +1838,11 @@ CLÁUSULA CUARTA. - PERFECCIONAMIENTO: La CESIÓN se entenderá perfeccionada y 
 CESIÓN TOTAL DE LOS DERECHOS Y OBLIGACIONES CONTENIDOS EN LA LICENCIA AMBIENTAL OTORGADA MEDIANTE LA RESOLUCIÓN No. 2098 DEL 16 DE DICIEMBRE DE 2005, PROFERIDA POR LA AUTORIDAD NACIONAL DE LICENCIAS AMBIENTALES, PARA EL PROYECTO DENOMINADO "VARIANTE FÉRREA EN PUERTO NARE - RED FÉRREA DEL ATLÁNTICO", SUS MODIFICACIONES Y LOS DEMÁS ACTOS ADMINISTRATIVOS QUE HACEN PARTE INTEGRAL DEL EXPEDIENTE LAM3365
 
 CLÁUSULA QUINTA. -ANEXOS: Hacen parte del presente documento, el Contrato de Conceskn bajo el Esquema de Asociación Público Privada No. 001 de 2025 de la ANI (Anexo 1), el Apéndice Técnico 1- Alcance del Proyecto (Anexo 2) y el apéneice técnico 6 - Gestión Ambiental (Anexo 3).
-Para constancia se suscribe por las partes en Bogotá, D.G., a los veintiún días del mes de abril del año 2025.
+Para constancia se suscribe por las partes en Bogotá, D.G., a los veintiún días del mes de abril del ano 2025.
 
 El CEDENTE
 
-ADRIANA BAREÑO ROJAS
+ADRIANA BARENO ROJAS
 Vicepresidente de Planeación Riesgos y Entorno (E)
 Agenc Infraestructura - ANI
 CARLOS BUENO MORALES
@@ -1854,7 +1854,7 @@ Concesión Línea Férrea Central S.A..
 CESIÓN PARCIAL DE LOS DERECHOS Y OBLIGACIONES CONTENIDOS EN EL PLAN DE MANEJO AMBIENTAL ESTABLECIDO MEDIANTE LA RESOLUCIÓN No. 751 DEL 5 DE AGOSTO DE 2002, PROFERIDA POR LA AUTORIDAD NACIONAL DE LICENCIAS AMBIENTALES, PARA EL PROYECTO DENOMINADO "REHABILITACIÓN, RECONSTRUCCIÓN Y MANTENIMIENTO DE LA RED FÉRREA DEL ATLÁNTICO", SUS
 . MODIFICACIONES Y LOS DEMÁS ACTOS ADMINISTRATIVOS QUE HACEN PARTE INTEGRAL DEL EXPEDIENTE LAM6817-00
 
-ADRIANA BAREÑO ROJAS, identificada con la cédula de ciudadanía No. 52.146.524, en su calidad de Vicepresidente de Planeación, Riesgos y Entorno (E) de la Agencia Nacional de Infraestructura, nombrada mediante la Resolución No. 20254030002665 del 28 de febrero de 2025 "Por medio de la cual se acepta una renuncia y se hace un encargo", actuando en representación de la AGENCIA NACIONAL DE INFRAESTRUCTURA, en calidad de CEDENTE y la CONCESIÓN LÍNEA FÉRREACENTRAL S.A.S. con N 1T 901.936.505-3, representada legalmente por CARLOS BUENO MORALES, identificado con Cédula de Extranjería número 397855, y que en el presente documento se denominará CESIONARIO, acordamos la CESIÓN PARCIAL de loo derechos y obligaciones derivadas del Plan de Manejo Ambiental establecido mediante la Resolución No. 751 del 5 de agosto de 2002, las modificaciones y los demás actos administrativoo que hacen parte integral del expediente LAM6817-00, proferida por la Autoridad Nacional de Licencias Ambientales -en adelante "ANLA" para el proyecto denominado "REHABILITAClóN, RECONSTRUCCIÓN Y MANTENIMIENTO DE LA RED FÉRREA DEL ATLÁNTICO". Lo anterior, para la ejecución del CONTRATO DE CONCESIÓN BAJO EL ESQUEMA DE ASOCIACIÓN
+ADRIANA BARENO ROJAS, identificada con la cédula de ciudadanía No. 52.146.524, en su calidad de Vicepresidente de Planeación, Riesgos y Entorno (E) de la Agencia Nacional de Infraestructura, nombrada mediante la Resolución No. 20254030002665 del 28 de febrero de 2025 "Por medio de la cual se acepta una renuncia y se hace un encargo", actuando en representación de la AGENCIA NACIONAL DE INFRAESTRUCTURA, en calidad de CEDENTE y la CONCESIÓN LÍNEA FÉRREACENTRAL S.A.S. con N 1T 901.936.505-3, representada legalmente por CARLOS BUENO MORALES, identificado con Cédula de Extranjería número 397855, y que en el presente documento se denominará CESIONARIO, acordamos la CESIÓN PARCIAL de loo derechos y obligaciones derivadas del Plan de Manejo Ambiental establecido mediante la Resolución No. 751 del 5 de agosto de 2002, las modificaciones y los demás actos administrativoo que hacen parte integral del expediente LAM6817-00, proferida por la Autoridad Nacional de Licencias Ambientales -en adelante "ANLA" para el proyecto denominado "REHABILITAClóN, RECONSTRUCCIÓN Y MANTENIMIENTO DE LA RED FÉRREA DEL ATLÁNTICO". Lo anterior, para la ejecución del CONTRATO DE CONCESIÓN BAJO EL ESQUEMA DE ASOCIACIÓN
 PÚBLICO PRIVADA No. 001 de 2025, hemos convenido la cesión parcial con base en las siguientes consideraciones:
 l. CONSIDERACIONES
 
@@ -1869,10 +1869,10 @@ l. CONSIDERACIONES
 
 CESIÓN PARCIAL DE LOS DERECHOS Y OBLIGACIONES CONTENIDOS EN EL PLAN DE MANEJO AMBIENTAL ESTABLECIDO MEDIANTE LA RESOLUCIÓN No. 751 DEL 5 DE AGOSTO DE 2002, PROFERIDA POR LA AUTORIDAD NACIONAL DE LICENCIAS AMBIENTALES, PARA EL PROYECTO DENOMINADO "REHABILITACIÓN, RECONSTRUCCIÓN Y MANTENIMIENTO DE LA RED FÉRREA DEL ATLÁNTICO", SUS MODIFICACIONES Y LOS DEMÁS ACTOS ADMINISTRATIVOS QUE HACEN PARTE INTEGRAL DEL EXPEDIENTE LAM6817-00
 
-5. Que mediante Auto 2299 del 26 de octubre de 2006, el entonces Ministerio de Ambiente Vivienda y Desarrollo Territorial, resolvió recurso de reposición contra el Auto 1625 de 24 de agosto de 2006, en el sentido de modificar los artículos primero y segundo del señalado Auto.
+5. Que mediante Auto 2299 del 26 de octubre de 2006, el entonces Ministerio de Ambiente Vivienda y Desarrollo Territorial, resolvió recurso de reposición contra el Auto 1625 de 24 de agosto de 2006, en el sentido de modificar los artículos primero y segundo del senalado Auto.
 
 6. Que mediante Resolución 2018 del 20 de noviembre de 2007, el entonces Ministerio de Ambiente, Vivienda y Desarrollo Territorial, modificó la Resolución 751 del 5 de agosto de 2002 por el cual se establece el Plan de Manejo Ambiental a la sociedad Ferrocarriles del Norte de Colombia S.A. - FENOCO S.A., en el sentido de aclarar los artículos primero en cuanto al alcance del establecimiento del PMA y segundo en relación a las obligaciones establecidas adicionando nuevas.
-7. Que mediante Resolución 2019 del 20 de noviembre de 2007, el entonces Ministerio de Ambiente, Vivienda y Desarrollo Territorial, modificó el artículo segundo de la Resolución 751 del 5 de agosto de 2002 por el cual se establece el Plan de Manejo Ambiental a nombre de la sociedad Ferrocarriles del Norte de Colombia S.A. - FENOCO S.A. en el sentido de añadir obligaciones.
+7. Que mediante Resolución 2019 del 20 de noviembre de 2007, el entonces Ministerio de Ambiente, Vivienda y Desarrollo Territorial, modificó el artículo segundo de la Resolución 751 del 5 de agosto de 2002 por el cual se establece el Plan de Manejo Ambiental a nombre de la sociedad Ferrocarriles del Norte de Colombia S.A. - FENOCO S.A. en el sentido de anadir obligaciones.
 8. Que por medio de Resolución 2118 del 11 de diciembre de 2007, el entonces Ministerio de Ambiente, Vivienda y Desarrollo Territorial, aclaró los artículos Sexto y Séptimo de la Resolución 2018 de 20 de noviembre de 2007.
 9. Que mediante Resolución 2377 del 28 de diciembre de 2007, el entonces Ministerio de Ambiente, Vivienda y Desarrollo Territorial, resolvió un recurso de reposición en el sentido de confirmar el numeral 1.1 del artículo primero, y los numerales 13.4, 13.9 y 13.11 del artículo segundo de la Resolución 2018 de 19 de noviembre de 2007.
 10. Que mediante Resolución 135 del 28 de enero de 2008, el entonces Ministerio de Ambiente, Vivienda y Desarrollo Territorial, rechazó el recurso de reposición interpuesto contra la Resolución 2019 de 20 de noviembre de 2007, por no encontrarse acreditada legitimidad para actuar en el trámite administrativo ambiental.
@@ -1891,7 +1891,7 @@ CESIÓN PARCIAL DE LOS DERECHOS Y OBLIGACIONES CONTENIDOS EN EL PLAN DE MANEJO A
 
 15. Que mediante Auto 979 del 31 de marzo de 2010, el entonces Ministerio de Ambiente, Vivienda y Desarrollo Territorial, resolvió un recurso de reposición interpuesto contra el Auto 990 del 13 de abril de 2009, en el sentido de modificar los requerimientos efectuados a través de los numerales 1, 2 y 3 del artículo segundo.
 
-16. Que mediante Resolución 853 del 09 de octubre de 2012, la Autoridad Nacional de Licencias Ambientales -ANLA, en adelante esta Autoridad Nacional, procedió a imponer medidas adicionales en desarrollo del control y seguimiento ambiental al proyecto, que consistieron en retirar del sitio afectado el material ferroviario y los restos vegetales, igualmente como medida compensatoria realizar actividades necesarias para corregir afectaciones en los predios aledaños.
+16. Que mediante Resolución 853 del 09 de octubre de 2012, la Autoridad Nacional de Licencias Ambientales -ANLA, en adelante esta Autoridad Nacional, procedió a imponer medidas adicionales en desarrollo del control y seguimiento ambiental al proyecto, que consistieron en retirar del sitio afectado el material ferroviario y los restos vegetales, igualmente como medida compensatoria realizar actividades necesarias para corregir afectaciones en los predios aledanos.
 
 17. Que mediante Resolución 264 del 21 de marzo de 2013, esta Autoridad Nacional, procedió a la imposición de medidas adicionales en desarrollo del control y seguimiento ambientales al proyecto "Rehabilitación, Reconstrucción y Mantenimiento de la Red Férrea del Atlántico" en el sentido de implementar las "zonas de convivencia", realizar monitoreos de ruido con operación plena de trenes entre otras.
 
@@ -1906,7 +1906,7 @@ CESIÓN PARCIAL DE LOS DERECHOS Y OBLIGACIONES CONTENIDOS EN EL PLAN DE MANEJO A
 CESIÓN PARCIAL DE LOS DERECHOS Y OBLIGACIONES CONTENIDOS EN EL PLAN DE MANEJO AMBIENTAL ESTABLECIDO MEDIANTE LA RESOLUCIÓN No. 751 DEL 5 DE AGOSTO DE 2002, PROFERIDA POR LA AUTORIDAD NACIONAL DE LICENCIAS AMBIENTALES, PARA EL PROYECTO DENOMINADO "REHABILITACIÓN, RECONSTRUCCIÓN Y MANTENIMIENTO DE LA RED FÉRREA DEL ATLÁNTICO", SUS MODIFICACIONES Y LOS DEMÁS ACTOS ADMINISTRATIVOS QUE HACEN PARTE INTEGRAL DEL EXPEDIENTE LAM6817-00
 
 reportar en el informe de ruido una tabla de correcciones, solicitarlos puntos de muestreo en posición corredor-receptor, identificación de fuentes emisoras de ruido de la zona, realizar caracterización a paso de tren con base en las condiciones técnicas de la fuente objeto de estudio.
-21. Que mediante Resolución 299 del 28 de marzo de 2014, dicha Autoridad Nacional, autorizó la cesión parcial del Plan de Manejo Ambiental establecido mediante Resolución 0751 del 5 de agosto de 2002 a nombre de la Agencia Nacional de Infraestructura -ANI, de los tramos del corredor férreo que corresponden a: La Dorada (PK 201502) - Chiriguaná (PK 722683); Puerto Berrio (PK 328100) - Cabañas (PK 361199) y en el ramal de Puerto Capulco que se ubica entre las abscisas PK 597394,08 (cambiavías sur) y PK 598253,54 (cambiavias norte) que finaliza en la abscisa PK 601976,20 y además, dispuso la apertura del expediente LAM6817-00 para que el trámite se surta en el expediente mencionado.
+21. Que mediante Resolución 299 del 28 de marzo de 2014, dicha Autoridad Nacional, autorizó la cesión parcial del Plan de Manejo Ambiental establecido mediante Resolución 0751 del 5 de agosto de 2002 a nombre de la Agencia Nacional de Infraestructura -ANI, de los tramos del corredor férreo que corresponden a: La Dorada (PK 201502) - Chiriguaná (PK 722683); Puerto Berrio (PK 328100) - Cabanas (PK 361199) y en el ramal de Puerto Capulco que se ubica entre las abscisas PK 597394,08 (cambiavías sur) y PK 598253,54 (cambiavias norte) que finaliza en la abscisa PK 601976,20 y además, dispuso la apertura del expediente LAM6817-00 para que el trámite se surta en el expediente mencionado.
 
 22. Que mediante Acta ANLA No. 699 suscrita el 21 de diciembre de 2021, la Autoridad Nacional de Licencias Ambientales levantó acta de la reunión de control y seguimiento correspondiente al LAM6817-00.
 23. Que la ANLA, mediante la Resolución No. 02345 del 26 de septiembre de 2022, autorizó la cesión parcial de los derechos y obligaciones derivados de un plan de manejo ambiental y se toman otras determinaciones, con fundamento en el radicado ANLA No. 2022152724-1-000 del 22 de julio de 2022, mediante el cual la AN 1, en calidad de cedente, presentó solicitud de cesión parcial del PMA del proyecto "Rehabilitación, Reconstrucción y Mantenimiento de la Red Férrea del Atlántico" en lo que tiene que ver con el subtramo comprendido entre el PK5000 y el PK35877 entre Bogotá y Facatativá, excluyendo las estaciones férreas actuales que se encuentran en el tramo, a excepción del Patio Taller El Corzo (PK35877), a favor de la EMPRESA FÉRREA REGIONAL S.A.S. - EFR S.A.S., quien a su vez cede a la sociedad CONCESIONARIA FÉRREA DE OCCIDENTE S.A.S. en calidad de Cesionaria Final
@@ -1936,10 +1936,10 @@ terraplenes
  PMF-6 Manejo de desechos líquidos
  PMB1 Programa de arborización Ficha de Manejo.
  PMS 1 Información y participación comunitaria
- PMS 2 Gestión Social para el manejo de invasiones y prevención de daños a
+ PMS 2 Gestión Social para el manejo de invasiones y prevención de danos a
  terceros.
  PMS 4 Sensibilización ambiental al contratista y trabajadores
- PMG1 Señalización
+ PMG1 Senalización
  PMG2 Gestión y control ambiental
  PMG3 Conservación del corredor férreo
 7.2.1 Erosión y estabilidad de taludes
@@ -2068,11 +2068,11 @@ CESIÓN PARCIAL DE LOS DERECHOS Y OBLIGACIONES CONTENIDOS EN EL PLAN DE MANEJO A
 CLÁUSULA CUARTA. PERFECCIONAMIENTO: La CESIÓN se entenderá perfeccionada y surtirá efectos, una vez se emita y encuentre ejecutoriado el acto administrativo proferido por la ANLA que autorice la CESIÓN PARCIAL.
 
 CLÁUSULA QUINTA. ANEXOS: Hacen parte del presente documento, el Contrato de Concesión bajo el Esquema de Asociación Público Privada No. 001 de 2025 de la ANI (Anexo 1), el Apéndice Técnico 1-Alcance del Proyecto (Anexo 2) y el Apéndice Técnico 6- Gestión Ambiental (Anexo 3) y la MATRIZ DE CESIÓN que describe el responsable de cada una de las obligaciones asociadas a la Resolución 751 del 5 de agosto de 2002, la cual fue cedida parcialmente a la ANI mediante la Resolución 0299 del 28 de marzo de 2014 "Por la cual se autoriza la cesión parcial del plan de manejo ambiental establecido mediante la resolución 0751 del 5 de agosto de 2002" la cual a su vez fue cedida parcialmente a la CONCESIONARIA FÉRREA DE OCCIDENTE S.A.S., mediante Resolución No. 02345 del 26 de septiembre de 2022 "Por la cual se autoriza la cesión parcial de los derechos y obligaciones derivados de un plan de manejo ambiental y se toman otras determinaciones".
-Para constancia se suscribe por las partes en Bogotá, D.C., a los veintiún días del mes de abril del año 2025.
+Para constancia se suscribe por las partes en Bogotá, D.C., a los veintiún días del mes de abril del ano 2025.
 
 El CEDENTE
 
-ADRIANA BAREÑO ROJAS
+ADRIANA BARENO ROJAS
 Vicepresidente de Planeación Riesgos y Entorno (E)
 Agencia Nacional de Infraestructura -ANI
 El CESIO ARIO
@@ -2519,7 +2519,7 @@ ff'
 !n .k :
 H!h
 
-""'"Ñ l
+""'"N l
 
 ;H H 
 jli

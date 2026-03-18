@@ -13,7 +13,7 @@ La fase de Operación, Mantenimiento y Reversión ha sido purgada de cualquier v
 
 ### 1.1 Documentos de O&M Validados:
 - **6.1 - Manual CTC:** Operación centralizada basada en Servidor Maestro 2oo3.
-- **6.2 - Manual Señalización:** Bloqueo virtual y autorizaciones Vital IP.
+- **6.2 - Manual Senalización:** Bloqueo virtual y autorizaciones Vital IP.
 - **6.3 - Manual Telecom:** Red unificada TETRA (Eliminación de Red Vital IP / TETRA).
 - **6.4 - Manual Seguridad:** Integridad del tren vía EOT y Ciberseguridad industrial.
 - **6.5 - Manual Integrado:** Consolidación de rutinas y KPIs de disponibilidad.

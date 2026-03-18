@@ -17,7 +17,7 @@ La base metodológica y transversal del proyecto ha sido purgada para asegurar q
 - **`TEMPLATE_T04_Especificacion_Tecnica.md`:** Alineado con hardware COTS y protocolos abiertos.
 
 ### 1.2 Integración BIM y Calidad:
-- **BIM ↔ PTC Virtual:** El modelo unificado ahora integra los activos lógicos de la red TETRA y los nodos IP de los enclavamientos ENCE, eliminando los activos físicos de vía (Virtual Balise (GNSS)s/Señales).
+- **BIM ↔ PTC Virtual:** El modelo unificado ahora integra los activos lógicos de la red TETRA y los nodos IP de los enclavamientos ENCE, eliminando los activos físicos de vía (Virtual Balise (GNSS)s/Senales).
 - **Control de Calidad:** Las listas de chequeo ahora validan el cumplimiento de la norma **FRA 236** y el protocolo **Vital IP**.
 
 ---
@@ -33,6 +33,6 @@ Se han ejecutado los siguientes cambios normativos:
 
 ## ✅ CONCLUSIONES DE FASE:
 
-Los Documentos Transversales y el Soporte Especializado quedan 100% libres de obsolescencia técnica. El repositorio completo de la APP La Dorada-Chiriguaná es ahora un ejemplo de vanguardia en señalización virtual y gestión soberana de infraestructura crítica.
+Los Documentos Transversales y el Soporte Especializado quedan 100% libres de obsolescencia técnica. El repositorio completo de la APP La Dorada-Chiriguaná es ahora un ejemplo de vanguardia en senalización virtual y gestión soberana de infraestructura crítica.
 
 **Saneamiento Ciclo 7 COMPLETADO.**

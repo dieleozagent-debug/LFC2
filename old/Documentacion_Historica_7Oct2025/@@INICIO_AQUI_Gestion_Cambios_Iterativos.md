@@ -114,7 +114,7 @@ Agregar riesgo en: VIII/Matrices_Dependencias/MATRIZ_RIESGOS_PMO_AMPLIADA_v1.0.m
 - Crear validación: `VAL-FIBRA-001_Espaciamiento_Aprobado.md`
 
 #### **6. CONSOLIDAR EN X (Solo si es entrega formal)**
-- **NO hacerlo** por cada cambio pequeño
+- **NO hacerlo** por cada cambio pequeno
 - **SÍ hacerlo** mensual o al cerrar milestone
 - Usar metodología de 3 fases cuando consolides
 
@@ -154,7 +154,7 @@ Agregar riesgo en: VIII/Matrices_Dependencias/MATRIZ_RIESGOS_PMO_AMPLIADA_v1.0.m
 1. Modificar directamente en Carpeta X
 2. Actualizar archivos sin consultar MATRIZ_DEPENDENCIAS
 3. Hacer cambios sin crear DT formal
-4. Consolidar en X por cada cambio pequeño
+4. Consolidar en X por cada cambio pequeno
 5. Perder trazabilidad del origen del cambio
 
 ---

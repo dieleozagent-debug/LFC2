@@ -25,7 +25,7 @@ Esta carpeta contiene las **"recetas de cocina"** - metodologías probadas y val
 **Descripción:** Metodología de 3 fases para transformar documentación de trabajo ("cocina") en entregables consolidados ("restaurante")
 
 **Aplicación validada en:**
-- ✅ Sistema 01: Control y Señalización
+- ✅ Sistema 01: Control y Senalización
 - ✅ Sistema 02: Telecomunicaciones
 
 **Tiempo estimado:** 6-9 horas por sistema  
@@ -150,7 +150,7 @@ Esta carpeta contiene las **"recetas de cocina"** - metodologías probadas y val
 ## 📈 **CASOS DE USO VALIDADOS**
 
 ### **PROYECTO APP LA DORADA-CHIRIGUANÁ:**
-- **Sistema 01:** Control y Señalización (7 horas)
+- **Sistema 01:** Control y Senalización (7 horas)
 - **Sistema 02:** Telecomunicaciones (8 horas)
 - **Resultado:** 2 documentos master consolidados con 100% de coherencia
 

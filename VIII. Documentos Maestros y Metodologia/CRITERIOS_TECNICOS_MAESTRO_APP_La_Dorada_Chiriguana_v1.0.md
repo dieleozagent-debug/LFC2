@@ -27,7 +27,7 @@ Este documento establece los **criterios técnicos maestros** que deben mantener
 ### 1. FILOSOFÍA TÉCNICA GENERAL
 | Criterio | Valor | Justificación | Documentos Afectados |
 |----------|-------|---------------|---------------------|
-| **Señalización** | **VIRTUAL** | Eliminar infraestructura física en vía | WBS, AT1-3, Planos |
+| **Senalización** | **VIRTUAL** | Eliminar infraestructura física en vía | WBS, AT1-3, Planos |
 | **Comunicación** | **TETRA** | Red única de misión crítica (según DBCD) | WBS, AT4, Especificaciones |
 | **Control** | **CTC Centralizado** | Gestión unificada desde CCO | WBS, AT1, Manuales |
 | **Energía** | **UPS + Generadores críticos** | Disponibilidad según criticidad | WBS, AT2, Planos eléctricos |
@@ -160,10 +160,10 @@ REPUESTOS Y RESERVAS:
 
 ## 📋 **RESPUESTAS CLAVE DEL PROCESO DE COTIZACIÓN**
 
-### **SEÑALIZACIÓN Y CONTROL DE TRENES**
+### **SENALIZACIÓN Y CONTROL DE TRENES**
 | Aspecto | Requerimiento Contrato | Respuesta LFC | Impacto en Criterios |
 |---------|----------------------|---------------|---------------------|
-| **Señalización Virtual** | PTC con cantonamiento virtual | "Ingeniería debe cumplir requerimientos del contrato" | Mantener señalización virtual |
+| **Senalización Virtual** | PTC con cantonamiento virtual | "Ingeniería debe cumplir requerimientos del contrato" | Mantener senalización virtual |
 | **Sistema PTC** | Basado en estándares FRA | "Debe atender plenamente requerimientos PTC" | Confirmar sistema PTC obligatorio |
 | **Interoperabilidad FENOCO** | Red 246 km operativa | "Sí es necesario garantizar interoperabilidad" | Incluir compatibilidad FENOCO |
 | **Estaciones con ENCE** | 5 interlockings electrónicos | "5 estaciones específicas definidas" | Enclavamientos solo en 5 estaciones |
@@ -218,11 +218,11 @@ CORREDOR 526.133 KM
 | **IP** | Todo el corredor | Múltiple | Media |
 
 ### 4. SISTEMA DE CONTROL
-#### 4.1 Señalización Virtual
+#### 4.1 Senalización Virtual
 | Componente | Estado | Justificación |
 |------------|--------|---------------|
 | **Virtual Balise (GNSS)s físicas** | ❌ ELIMINADO | Reemplazado por PTC embarcado |
-| **Señalización en Cabina (Cab-Signaling) en vía** | ❌ ELIMINADO | CTC virtual |
+| **Senalización en Cabina (Cab-Signaling) en vía** | ❌ ELIMINADO | CTC virtual |
 | **CTC Centralizado** | ✅ IMPLEMENTADO | Control desde CCO |
 | **PTC/PTC Embarcado** | ✅ IMPLEMENTADO | 15 locomotoras |
 
@@ -278,8 +278,8 @@ CENTRO DE CONTROL (CCO)
 #### 7.1 Pasos a Nivel
 | Tipo | Cantidad | Equipamiento | Estado |
 |------|----------|--------------|--------|
-| **Tipo A** | 122 | Señalización fija | ❌ NO incluido |
-| **Tipo B** | 15 | Señales luminosas/acústicas | ✅ Incluido |
+| **Tipo A** | 122 | Senalización fija | ❌ NO incluido |
+| **Tipo B** | 15 | Senales luminosas/acústicas | ✅ Incluido |
 | **Tipo C** | 9 | Barreras automáticas | ✅ Incluido |
 | **TOTAL INTERVENIDOS** | **24** | | Solo estos en presupuesto |
 
@@ -364,7 +364,7 @@ Referencias cruzadas:
 | **Cobertura TETRA** | 100% corredor | ✅ 37 estaciones (15-20% solapamiento) |
 | **Redundancia** | TETRA + Red Vital IP / TETRA | ✅ Implementado |
 | **Disponibilidad** | 99.9% | ✅ UPS + Generadores |
-| **Señalización** | 100% virtual | ✅ CTC + PTC |
+| **Senalización** | 100% virtual | ✅ CTC + PTC |
 
 ---
 
@@ -624,7 +624,7 @@ La interoperabilidad con FENOCO se gestiona exclusivamente a nivel **operacional
 |---------------------|---------------------|-------------|
 | **Fibra Óptica** | WBS, Ing. Conceptual, Ing. Básica, Ing. Detalle | Ing. Contractual |
 | **TETRA** | WBS, 27_, V.3_, Planos | Ing. Telecomunicaciones |
-| **Señalización** | WBS, 29_, V.1_, V.2_ | Ing. Señalización |
+| **Senalización** | WBS, 29_, V.1_, V.2_ | Ing. Senalización |
 | **CCTV** | WBS, 31_, V.5_ | Ing. Seguridad |
 | **Eléctrico** | WBS, V.4_, Planos eléctricos | Ing. Eléctrica |
 

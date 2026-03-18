@@ -14,7 +14,7 @@ Eliminar el 100% del código "zombie" (PTC VIRTUAL, Red Vital IP / TETRA, Punto 
 
 ### Ciclo F2: Navegación y Shell (Estructura)
 - **Acción:** Refactorizar `sidebar-component.js` y `index.html`.
-- **Resultado:** Menús dinámicos que cambian según los capítulos activos en la WBS. Si el proyecto es "Solo PTC", desaparecen las opciones de "Señales Físicas".
+- **Resultado:** Menús dinámicos que cambian según los capítulos activos en la WBS. Si el proyecto es "Solo PTC", desaparecen las opciones de "Senales Físicas".
 
 ### Ciclo F3: Dashboard de Ingeniería (WBS & Riesgos)
 - **Acción:** Re-mapeo de columnas en la WBS Interactiva.

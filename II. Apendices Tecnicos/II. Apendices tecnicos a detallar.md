@@ -34,7 +34,7 @@ Este documento proporciona un índice detallado de todos los apéndices técnico
 |:---:|:---|:---|
 | **AT1** | `AT1_AlcanceProyecto.docx` | Talleres, edificios administrativos, material rodante con PTC |
 | **AT2** | `AT2_OperacionMantenimiento.docx` | Continuidad de servicio, reglamento de operación, SCADA ferroviario |
-| **AT3** | `AT3_EspecificacionesGenerales.docx` | Señalización, CTC, telecomunicaciones, radio TETRA, fibra, CCTV, incendios |
+| **AT3** | `AT3_EspecificacionesGenerales.docx` | Senalización, CTC, telecomunicaciones, radio TETRA, fibra, CCTV, incendios |
 | **AT4** | `AT4_Indicadores.docx` | SICC, medición de disponibilidad, calidad y seguridad |
 | **AT5** | `AT5_InterferenciasRedes.docx` | Cruces con servicios públicos y protección de redes |
 | **AT6** | `AT6_GestionAmbiental.docx` | Permisos, medidas de mitigación, eficiencia energética |

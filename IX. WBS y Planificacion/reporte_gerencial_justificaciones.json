@@ -138,7 +138,7 @@
                       "es_pareto_80":  true,
                       "tipo":  "SUMINISTRO",
                       "valor_total_cop":  3050000000,
-                      "descripcion":  "Señalización basica",
+                      "descripcion":  "Senalización basica",
                       "porcentaje_total":  1.15
                   },
                   {
@@ -448,7 +448,7 @@
                       "es_pareto_80":  false,
                       "tipo":  "SUMINISTRO",
                       "valor_total_cop":  750000000,
-                      "descripcion":  "Señalización basica",
+                      "descripcion":  "Senalización basica",
                       "porcentaje_total":  0.28
                   },
                   {
@@ -478,7 +478,7 @@
                       "es_pareto_80":  false,
                       "tipo":  "SUMINISTRO",
                       "valor_total_cop":  720000000,
-                      "descripcion":  "Señalización LED",
+                      "descripcion":  "Senalización LED",
                       "porcentaje_total":  0.27
                   },
                   {
@@ -988,7 +988,7 @@
                       "es_pareto_80":  false,
                       "tipo":  "SUMINISTRO",
                       "valor_total_cop":  100000000,
-                      "descripcion":  "Señalización luminosa estaciones ENCE (entrada/salida)",
+                      "descripcion":  "Senalización luminosa estaciones ENCE (entrada/salida)",
                       "porcentaje_total":  0.04
                   },
                   {

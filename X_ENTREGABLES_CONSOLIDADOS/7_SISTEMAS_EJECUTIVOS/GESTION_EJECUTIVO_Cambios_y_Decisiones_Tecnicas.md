@@ -26,7 +26,7 @@ Este documento presenta de manera consolidada todas las **Decisiones Técnicas (
 
 ## 📋 DECISIONES TÉCNICAS POR SISTEMA
 
-### 🚦 **SISTEMA 1: CONTROL Y SEÑALIZACIÓN**
+### 🚦 **SISTEMA 1: CONTROL Y SENALIZACIÓN**
 
 #### **1.1 CTC (Control Centralizado de Tráfico)**
 
@@ -58,7 +58,7 @@ Este documento presenta de manera consolidada todas las **Decisiones Técnicas (
 - **Ítem WBS:** 1.1.103 - Software CTC virtual
 - **Tipo:** Ajuste criterio técnico
 - **Cambio:** Documentación de alcance funcional
-- **Justificación:** Clarificar que es arquitectura 100% virtual sin señales físicas
+- **Justificación:** Clarificar que es arquitectura 100% virtual sin senales físicas
 - **Estado:** ✅ Ejecutado
 
 ##### **DT-INTERFACES-001-2025-10-09** ⭐ NUEVA

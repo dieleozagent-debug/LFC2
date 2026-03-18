@@ -74,7 +74,7 @@ Se ha completado exitosamente la estandarización de toda la documentación del 
 3. `0.1 Fases de Desarrollo de Ingeniería - 02-10-2025.md`
 
 ### Ingeniería de Detalle (Fase D)
-4. `V. Ingenieria de detalle/V.1_Señalizacion_Ferroviaria_Detalle_v1.0.md`
+4. `V. Ingenieria de detalle/V.1_Senalizacion_Ferroviaria_Detalle_v1.0.md`
 5. `V. Ingenieria de detalle/V.2_Centro_Control_Trafico_CTC_Detalle_v1.0.md`
 6. `V. Ingenieria de detalle/V.3_Sistemas_Comunicacion_Detalle_v1.0.md`
 7. `V. Ingenieria de detalle/V.4_Sistemas_Potencia_Detalle_v1.0.md`

@@ -22,7 +22,7 @@ Este roadmap establece la ruta de trabajo para el desarrollo de la ingeniería d
 | **PTC/Control de Trenes** | 65% | 95% | ✅ SRS/Arquitectura | **COMPLETADO** |
 | **Material Rodante** | 50% | 95% | ✅ STM/DMI specs | **COMPLETADO** |
 | **CTC** | 80% | 95% | ✅ SW Architecture | **COMPLETADO** |
-| **Señalización** | 85% | 95% | ✅ Interlocking tables | **COMPLETADO** |
+| **Senalización** | 85% | 95% | ✅ Interlocking tables | **COMPLETADO** |
 | **TETRA** | 90% | 95% | ✅ Frequency coord. | **COMPLETADO** |
 | **Fibra Óptica** | 90% | 95% | ✅ Spare mgmt. | **COMPLETADO** |
 
@@ -92,7 +92,7 @@ Este roadmap establece la ruta de trabajo para el desarrollo de la ingeniería d
 | 1.1 | `../III. Ingenieria conceptual/26. Sistem_CTC_Int...md` | ✅ Completado | 19/09/2025 | Validado análisis del CTC, **identificando riesgos y supuestos.** |
 | 2.2 | `../III. Ingenieria conceptual/27_Sistema_TETRA_Integrado...md` | ✅ Completado | 19/09/2025 | Validado análisis de TETRA, **identificando riesgos y supuestos.** |
 | 2.1 | `../III. Ingenieria conceptual/28_Sistema_FibraOptica_Integrado...md` | ✅ Completado | 19/09/2025 | Validado análisis del backbone, **identificando riesgos y supuestos.** |
-| 1.2 | `../III. Ingenieria conceptual/29_Sistema_Senalizacion_Integrado...md` | ✅ Completado | 19/09/2025 | Validado análisis de Señalización, **identificando riesgos y supuestos.** |
+| 1.2 | `../III. Ingenieria conceptual/29_Sistema_Senalizacion_Integrado...md` | ✅ Completado | 19/09/2025 | Validado análisis de Senalización, **identificando riesgos y supuestos.** |
 | 3.1 | `../III. Ingenieria conceptual/30_Sistema_ITS_Integrado...md` | ✅ Completado | 19/09/2025 | Validado análisis de ITS, **identificando riesgos y supuestos.** |
 | 3.2 | `../III. Ingenieria conceptual/31_Sistema_CCTV_Integrado...md` | ✅ Completado | 19/09/2025 | Validado análisis de CCTV, **identificando riesgos y supuestos.** |
 | 4.1 | `../III. Ingenieria conceptual/32_Material_Rodante_Integrado...md` | ✅ Completado | 19/09/2025 | Validado análisis de Material Rodante, **identificando riesgos y supuestos.** |
@@ -164,7 +164,7 @@ Leyenda: 🟢 Listo • 🟠 En desarrollo/especificación • 🟡 Pendiente
 | WBS ID | Documento | Estado | Fecha | Observaciones |
 |:---|:---|:---:|:---:|---|
 | 6.1 | `VI. Operacion y Mantenimiento/Manual_OM_CTC.md` | ⏸️ **BLOQUEADO** | - | Manual de Operación y Mantenimiento para el CTC. |
-| 6.2 | `VI. Operacion y Mantenimiento/Manual_OM_Señalizacion.md` | ⏸️ **BLOQUEADO** | - | Manual de Mantenimiento para Señalización. |
+| 6.2 | `VI. Operacion y Mantenimiento/Manual_OM_Senalizacion.md` | ⏸️ **BLOQUEADO** | - | Manual de Mantenimiento para Senalización. |
 | 6.3 | `VI. Operacion y Mantenimiento/Manual_OM_Telecom.md` | ⏸️ **BLOQUEADO** | - | Manual de Mantenimiento para Fibra Óptica y TETRA. |
 | 6.4 | `VI. Operacion y Mantenimiento/Manual_OM_Seguridad.md` | ⏸️ **BLOQUEADO** | - | Manual de Mantenimiento para CCTV e Incendios. |
 
@@ -209,7 +209,7 @@ Leyenda: 🟢 Listo • 🟠 En desarrollo/especificación • 🟡 Pendiente
 
 ### **🟡 ACCIONES URGENTES (2-3 Semanas)**
 
-#### **1. SEÑALIZACIÓN FERROVIARIA**
+#### **1. SENALIZACIÓN FERROVIARIA**
 - **Interlocking Tables:** ⏳ **PENDIENTE** - Para 5 estaciones
 - **Route Setting Logic:** ⏳ **PENDIENTE** - Rutas automáticas
 - **Disponibilidad 100%:** 🔄 **EN REVISIÓN** - Proponiendo 99.95%
@@ -231,14 +231,14 @@ Leyenda: 🟢 Listo • 🟠 En desarrollo/especificación • 🟡 Pendiente
 | PTC | SRS Provisional | 100% | 🔄 En desarrollo |
 | Servidor PTC Central | Arquitectura 2oo3 | 100% | 🔄 En especificación |
 | Interfaces CTC–PTC | Interfaces definidas | 8/8 | 🔄 En progreso |
-| Señalización | Interlocking tables | 5/5 | ⏳ Pendiente |
+| Senalización | Interlocking tables | 5/5 | ⏳ Pendiente |
 | Embarcados | STM especificado | 100% | ⏳ Pendiente |
 
 | Métrica | Objetivo | Plazo | Responsable | Estado |
 |:---|:---:|:---:|:---|:---:|
 | **SRS PTC completado** | 100% | 2 semanas | Ing. Sistemas | 🔄 **EN PROGRESO** |
 | **Interfaces especificadas** | 8/8 | 3 semanas | Ing. Integración | 🔄 **EN PROGRESO** |
-| **Interlocking tables** | 5/5 | 4 semanas | Ing. Señalización | ⏳ **PENDIENTE** |
+| **Interlocking tables** | 5/5 | 4 semanas | Ing. Senalización | ⏳ **PENDIENTE** |
 | **STM especificado** | 100% | 6 semanas | Ing. Embarcados | ⏳ **PENDIENTE** |
 
 ---
@@ -291,7 +291,7 @@ El proyecto alcanzará madurez técnica completa cuando se cumplan **TODOS** est
 | **Arquitectura Servidor PTC Central** | Ing. Sistemas | Especificar redundancia 2oo3 | 2 semanas | 🔄 **EN PROGRESO** |
 | **Interfaces CTC-PTC** | Ing. Integración | Protocolo FFFIS | 2 semanas | 🔄 **EN PROGRESO** |
 | **STM Embarcado** | Ing. Embarcados | Especificaciones PTC Virtual (FRA 236) | 6 semanas | ⏳ **PENDIENTE** |
-| **Interlocking Tables** | Ing. Señalización | 5 estaciones | 4 semanas | ⏳ **PENDIENTE** |
+| **Interlocking Tables** | Ing. Senalización | 5 estaciones | 4 semanas | ⏳ **PENDIENTE** |
 
 ### **🏆 RESULTADO ESPERADO**
 Al completar el Plan de Recuperación Técnica se logrará:

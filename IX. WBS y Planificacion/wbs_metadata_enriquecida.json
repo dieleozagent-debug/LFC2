@@ -91,7 +91,7 @@
       "justificacion_tecnica": "Servidores duales para sistema SCADA de supervisión de infraestructura ferroviaria",
       "criterios_diseno": [
         "Arquitectura maestro-esclavo",
-        "Monitoreo tiempo real de señales, cambios vía, detectores",
+        "Monitoreo tiempo real de senales, cambios vía, detectores",
         "Integración con CTC para vista unificada"
       ],
       "supuestos": [
@@ -120,7 +120,7 @@
       "supuestos": [
         "1 licencia corporativa ilimitada",
         "Incluye: desarrollo, runtime, historian, reporting",
-        "Soporte técnico 24/7 por 5 años"
+        "Soporte técnico 24/7 por 5 anos"
       ],
       "decisiones_tecnicas": [
         "DT-SCADA-002-2025-10-07"
@@ -359,7 +359,7 @@
     "supuestos": [
       "146 pasos a nivel totales en corredor",
       "Solo Tipo C con barreras automáticas",
-      "Resto con Señalización pasiva"
+      "Resto con Senalización pasiva"
     ],
     "decisiones_tecnicas": [],
     "feedback_especialista": "Clasificación según Tráfico vehicular: Tipo C >500 veh/día, Tipo B 100-500 veh/día, resto <100 veh/día.",

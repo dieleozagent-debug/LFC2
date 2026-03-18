@@ -27,7 +27,7 @@
 2. **T02 - Análisis de Requisitos** → Desglosar requisitos por sistema
 
 ### Fase 2: Ingeniería Conceptual
-3. **T03 - Arquitectura Conceptual** → Diseñar solución técnica
+3. **T03 - Arquitectura Conceptual** → Disenar solución técnica
 
 ### Fase 3: Ingeniería Básica
 4. **T04 - Especificación Técnica** → Detallar equipos y componentes

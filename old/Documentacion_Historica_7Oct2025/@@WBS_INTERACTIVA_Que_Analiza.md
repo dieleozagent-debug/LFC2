@@ -46,7 +46,7 @@ ANÁLISIS AUTOMÁTICO (6 SECCIONES):
 │                                                         │
 │ ALTERNATIVA 3 (1000m):                                  │
 │ • R-FIBRA-006: Media/Alto (Localización +233%)          │
-│ • R-FIBRA-007: Media/Medio (Degradación señal)          │
+│ • R-FIBRA-007: Media/Medio (Degradación senal)          │
 └─────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────────────────────┐
@@ -178,7 +178,7 @@ USUARIO (Especialista):
 **Sistema bidireccional:**
 - ✅ Terminal → Interfaz (riesgos actualizados)
 - ✅ Interfaz → Terminal (genera DT)
-- 🔄 Sincronización automática (diseñada)
+- 🔄 Sincronización automática (disenada)
 
 **Próximo paso:** Crear scripts PowerShell para sincronización automática
 

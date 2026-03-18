@@ -134,10 +134,10 @@ Este documento presenta la **ingeniería eléctrica de detalle** para el sistema
 | **Puerto Berrío** | 75 kVA | 30 min | Online | Cargas críticas |
 | **Barrancabermeja** | 75 kVA | 30 min | Online | Cargas críticas |
 | **Chiriguaná** | 100 kVA | 30 min | Online | Cargas críticas |
-| **PK 15+200** | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | 15 min | Online | Señales críticas |
-| **PK 35+400** | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | 15 min | Online | Señales críticas |
-| **PK 55+600** | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | 15 min | Online | Señales críticas |
-| **PK 75+800** | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | 15 min | Online | Señales críticas |
+| **PK 15+200** | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | 15 min | Online | Senales críticas |
+| **PK 35+400** | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | 15 min | Online | Senales críticas |
+| **PK 55+600** | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | 15 min | Online | Senales críticas |
+| **PK 75+800** | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | 15 min | Online | Senales críticas |
 
 #### **4.2 Bancos de Baterías**
 | Ubicación | Capacidad | Voltaje | Autonomía | Tipo |
@@ -234,15 +234,15 @@ Este documento presenta la **ingeniería eléctrica de detalle** para el sistema
 | Ubicación | Carga (kW) | Conductor | Observaciones |
 |:----------|:----------:|:----------|:--------------|
 | **Cada estación** | 50 | 3x4 AWG | Servicios generales |
-| **Cada paso a nivel** | 15 | 3x8 AWG | Señales y barreras |
-| **Cada señal** | 5 | 3x12 AWG | Iluminación y control |
+| **Cada paso a nivel** | 15 | 3x8 AWG | Senales y barreras |
+| **Cada senal** | 5 | 3x12 AWG | Iluminación y control |
 
 #### **7.3 Distribución 110V**
 | Ubicación | Carga (kW) | Conductor | Observaciones |
 |:----------|:----------:|:----------|:--------------|
 | **Cada estación** | 25 | 2x6 AWG | Servicios auxiliares |
 | **Cada paso a nivel** | 8 | 2x10 AWG | Control y monitoreo |
-| **Cada señal** | 3 | 2x12 AWG | Control local |
+| **Cada senal** | 3 | 2x12 AWG | Control local |
 
 ---
 

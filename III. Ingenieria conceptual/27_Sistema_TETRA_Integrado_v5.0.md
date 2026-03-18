@@ -61,7 +61,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 - **AT1_Alcance_del_Proyecto_MEJORADO_v5.0.md** ✅ (Documento base actualizado)
 - **23_ListadoMaestro_Sistemas_v5.0.md** ✅ (Inventario actualizado)
 - **25.1_WBS_COMPLETA_ESPECIALIDADES_v5.0.md** ✅ (Estructura actualizada)
-- **29_Sistema_Señalización_Integrado_v5.0.md** ✅ (Filosofía virtual)
+- **29_Sistema_Senalización_Integrado_v5.0.md** ✅ (Filosofía virtual)
 
 **Documentos Dependientes (En corrección 🔄):**
 - **27.1_Estimacion_Cantidades_TETRA.md** ⏳ (Recalcular con 37 estaciones)
@@ -83,9 +83,9 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 | **Fibra Óptica** | 526 km | 526 km | ✅ 100% |
 | **TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
 | **Red Vital IP / TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
-| **Señalización** | Virtual (CTC + PTC) | Virtual (CTC + PTC) | ✅ 100% |
+| **Senalización** | Virtual (CTC + PTC) | Virtual (CTC + PTC) | ✅ 100% |
 | **Virtual Balise (GNSS)s** | 0 unidades | 0 unidades | ✅ 100% |
-| **Señalización en Cabina (Cab-Signaling)** | 0 unidades | 0 unidades | ✅ 100% |
+| **Senalización en Cabina (Cab-Signaling)** | 0 unidades | 0 unidades | ✅ 100% |
 | **Servidor PTC Central** | 0 unidades | 0 unidades | ✅ 100% |
 | **EOT** | 15 dispositivos | 15 dispositivos | ✅ 100% |
 | **ENCE** | 5 estaciones | 5 estaciones | ✅ 100% |
@@ -99,7 +99,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 ### 2.3 Componentes a Eliminar
 **✅ YA ELIMINADOS EN v4.0:**
 - ❌ Virtual Balise (GNSS)s: 1,080 → 0 unidades
-- ❌ Señalización en Cabina (Cab-Signaling) vía: 270 → 0 unidades  
+- ❌ Senalización en Cabina (Cab-Signaling) vía: 270 → 0 unidades  
 - ❌ Servidor PTC Central: 2 → 0 unidades
 - ❌ [CONTROLLER PROHIBIDO - SICC ES VIRTUAL]: 1,080 → 0 unidades
 
@@ -126,7 +126,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 - **AT1_Alcance_del_Proyecto_MEJORADO_v5.0.md** ✅ (Documento base actualizado)
 - **23_ListadoMaestro_Sistemas_v5.0.md** ✅ (Inventario actualizado)
 - **25.1_WBS_COMPLETA_ESPECIALIDADES_v5.0.md** ✅ (Estructura actualizada)
-- **29_Sistema_Señalización_Integrado_v5.0.md** ✅ (Filosofía virtual)
+- **29_Sistema_Senalización_Integrado_v5.0.md** ✅ (Filosofía virtual)
 
 ### 3.2 Documentos Dependientes (En corrección 🔄)
 - **27.1_Estimacion_Cantidades_TETRA.md** ⏳ (Recalcular con 37 estaciones)
@@ -151,7 +151,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 
 | Criterio | Valor | Justificación | Documentos Afectados |
 |----------|-------|---------------|---------------------|
-| **Señalización** | **VIRTUAL** | Eliminar infraestructura física en vía | WBS, AT1-3, Planos |
+| **Senalización** | **VIRTUAL** | Eliminar infraestructura física en vía | WBS, AT1-3, Planos |
 | **Comunicación** | **TETRA + Red Vital IP / TETRA** | Redundancia según contrato | WBS, AT4, Especificaciones |
 | **Control** | **CTC Centralizado** | Gestión unificada desde CCO | WBS, AT1, Manuales |
 | **Energía** | **UPS + Generadores críticos** | Disponibilidad según criticidad | WBS, AT2, Planos eléctricos |
@@ -201,7 +201,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 #### **4.2.3 Fibra Óptica Backbone (526 km)**
 **Funcionalidades:**
 - Backbone redundante de comunicaciones
-- Integración de sistemas ITS, CCTV, señalización y CTC
+- Integración de sistemas ITS, CCTV, senalización y CTC
 
 **Componentes:**
 - Red de fibra óptica principal (526 km)
@@ -245,9 +245,9 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 - ✅ **Fibra Óptica:** 526 km ✓
 - ✅ **TETRA:** 37 estaciones ✓
 - ✅ **Red Vital IP / TETRA:** 37 estaciones ✓
-- ✅ **Señalización:** Virtual (CTC + PTC) ✓
+- ✅ **Senalización:** Virtual (CTC + PTC) ✓
 - ✅ **Virtual Balise (GNSS)s:** 0 unidades ✓
-- ✅ **Señalización en Cabina (Cab-Signaling):** 0 unidades ✓
+- ✅ **Senalización en Cabina (Cab-Signaling):** 0 unidades ✓
 - ✅ **Servidor PTC Central:** 0 unidades ✓
 - ✅ **EOT:** 15 dispositivos ✓
 - ✅ **ENCE:** 5 estaciones ✓
@@ -256,7 +256,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 - ✅ **Locomotoras:** 15 unidades ✓
 
 #### **5.2.2 Filosofía del Sistema Verificada**
-- ✅ **Señalización virtual confirmada** ✓
+- ✅ **Senalización virtual confirmada** ✓
 - ✅ **CTC como sistema principal** ✓
 - ✅ **PTC embarcado sin Puntos de Referencia Virtuales (SICC)** ✓
 - ✅ **Redundancia TETRA + Red Vital IP / TETRA** ✓
@@ -314,7 +314,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 
 #### **🚫 COMPONENTES ELIMINADOS (SEGÚN CRITERIOS MAESTROS)**
 - **❌ Virtual Balise (GNSS)s:** 1,080 → 0 unidades
-- **❌ Señalización en Cabina (Cab-Signaling) vía:** 270 → 0 unidades  
+- **❌ Senalización en Cabina (Cab-Signaling) vía:** 270 → 0 unidades  
 - **❌ Servidor PTC Central:** 2 → 0 unidades
 - **❌ [CONTROLLER PROHIBIDO - SICC ES VIRTUAL]:** 1,080 → 0 unidades
 
@@ -362,7 +362,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 #### **7.2.3 Fibra Óptica Backbone (526 km)**
 **Funcionalidades:**
 - Backbone redundante de comunicaciones
-- Integración de sistemas ITS, CCTV, señalización y CTC
+- Integración de sistemas ITS, CCTV, senalización y CTC
 
 **Componentes:**
 - Red de fibra óptica principal (526 km)
@@ -458,7 +458,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 
 ### **9.1 Eliminaciones (Sobrepresupuesto)**
 - **Virtual Balise (GNSS)s:** -$40,000,000,000 COP
-- **Señalización en Cabina (Cab-Signaling) vía:** -$12,000,000,000 COP
+- **Senalización en Cabina (Cab-Signaling) vía:** -$12,000,000,000 COP
 - **Servidor PTC Central:** -$2,000,000,000 COP
 - **[CONTROLLER PROHIBIDO - SICC ES VIRTUAL]:** -$10,000,000,000 COP
 - **TOTAL ELIMINAR:** -$64,000,000,000 COP
@@ -519,7 +519,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 
 ### **Comerciales**
 - Puesta en operación en tiempo
-- Cumplimiento de indicadores de desempeño
+- Cumplimiento de indicadores de desempeno
 - Satisfacción del cliente
 
 ---

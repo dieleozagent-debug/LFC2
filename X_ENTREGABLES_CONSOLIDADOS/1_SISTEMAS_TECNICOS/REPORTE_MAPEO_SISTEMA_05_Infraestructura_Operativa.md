@@ -36,13 +36,13 @@
 #### **Contrato y Apéndices Técnicos:**
 1. **FORMATEADO_APENDICE TECNICO 1.md** - Alcance del proyecto (AT1) - UF2 Tabla 16 CCO
 2. **FORMATEADO_APENDICE TECNICO 2.md** - Operación y mantenimiento (AT2) - Cap. 4.1 CCO
-3. **FORMATEADO_APENDICE TECNICO 4.md** - Indicadores de desempeño (AT4) - Disponibilidad infraestructura
+3. **FORMATEADO_APENDICE TECNICO 4.md** - Indicadores de desempeno (AT4) - Disponibilidad infraestructura
 4. **FORMATEADO_APENDICE TECNICO 8.md** - Gestión social (AT8) - Accesibilidad estaciones
 
 #### **Ingeniería Conceptual:**
 5. **23_ListadoMaestro_Sistemas_v5.0.md** - Listado maestro de sistemas
 6. **25.1_WBS_COMPLETA_ESPECIALIDADES_v5.0.md** - WBS especialidades completas
-7. **29_Sistema_Senalizacion_Integrado_v5.0.md** - Sistema señalización integrado
+7. **29_Sistema_Senalizacion_Integrado_v5.0.md** - Sistema senalización integrado
 8. **32_Material_Rodante_Integrado_v5.0.md** - Sistema material rodante integrado
 9. **33_Criterios_Normatividad_docx_AREMA_FRA/AREMA_RETIE_ISO_TC_204_NSR_10_NFPA.md** - Criterios normatividad
 10. **34_Criterios_Interoperabilidad_docx_Compatibilidad_con_FENOCO_y_ANI.md** - Criterios interoperabilidad

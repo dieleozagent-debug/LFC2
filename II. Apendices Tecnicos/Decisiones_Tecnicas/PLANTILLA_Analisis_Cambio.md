@@ -62,7 +62,7 @@
 ## 3. IMPACTO ECONÓMICO
 
 ### 3.1 Análisis de Costos
-| Concepto | CAPEX Actual | CAPEX Nuevo | Δ CAPEX | OPEX Actual (10 años) | OPEX Nuevo (10 años) | Δ OPEX |
+| Concepto | CAPEX Actual | CAPEX Nuevo | Δ CAPEX | OPEX Actual (10 anos) | OPEX Nuevo (10 anos) | Δ OPEX |
 |:---------|:-------------|:------------|:--------|:---------------------|:---------------------|:-------|
 | [Concepto 1] | $[X] | $[Y] | $[Δ] | $[A] | $[B] | $[Δ] |
 | [Concepto 2] | $[X] | $[Y] | $[Δ] | $[A] | $[B] | $[Δ] |

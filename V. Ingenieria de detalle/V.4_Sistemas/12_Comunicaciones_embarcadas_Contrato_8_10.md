@@ -42,7 +42,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 
 #### **INTEGRACIÓN CON SISTEMAS FERROVIARIOS**
 - **CTC:** Comunicación bidireccional con centro de control de tráfico
-- **Señalización:** Interfaces para control de enclavamientos desde material rodante
+- **Senalización:** Interfaces para control de enclavamientos desde material rodante
 - **PTC:** Sistemas de control embarcado para operación autónoma
 - **Radio TETRA:** Comunicación de voz y datos con estaciones base
 - **Fibra Óptica:** Backhaul de alta capacidad para sistemas embarcados

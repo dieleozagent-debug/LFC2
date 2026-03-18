@@ -30,7 +30,7 @@
 - Contractual → Requisitos mínimos y conformidad: Cl_13_1  
 
 ## 4. Estructura Técnica (índice)
-1. Requisitos funcionales y de desempeño (AT4)  
+1. Requisitos funcionales y de desempeno (AT4)  
    - Disponibilidad, fiabilidad, compatibilidad. (AT4; 32_Material_Rodante)
 2. Equipos embarcados (PTC, TETRA, CCTV, energía)  
    - Interfaces, alimentación, cableado. (Cl_13_1; V.3.1)

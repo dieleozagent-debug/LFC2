@@ -13,7 +13,7 @@ Este documento justifica la decisión técnica de abandonar el estándar propiet
 ### 1.1 Razones de la Purga Técnica:
 1.  **Independencia Tecnológica:** El PTC Virtual permite el uso de hardware COTS y software basado en estándares abiertos (FRA/AREMA), eliminando el monopolio de proveedores únicos.
 2.  **Arquitectura Vital IP:** Uso de redes de misión crítica (**TETRA/Fibra**) bajo protocolos IP estándar, facilitando el mantenimiento local.
-3.  **Optimización de Activos:** Eliminación de europunto de referencia virtuals físicas y señales laterales, reduciendo el CAPEX en un 40-60%.
+3.  **Optimización de Activos:** Eliminación de europunto de referencia virtuals físicas y senales laterales, reduciendo el CAPEX en un 40-60%.
 
 ---
 

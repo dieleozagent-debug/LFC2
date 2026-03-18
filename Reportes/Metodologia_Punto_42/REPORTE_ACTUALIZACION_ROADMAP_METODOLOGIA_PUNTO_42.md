@@ -31,7 +31,7 @@ Se ha actualizado el roadmap para reflejar el estado actual del proyecto: **ESTA
 - **Metodología:** Protocolo de 5 pasos, checklist v4.2, 8 criterios de éxito
 
 #### **4. Documentos en Validación**
-- **V.1 Señalización Ferroviaria:** En validación técnica y contractual
+- **V.1 Senalización Ferroviaria:** En validación técnica y contractual
 - **V.2 Centro de Control de Tráfico:** En validación técnica y contractual
 - **V.3 Sistemas de Comunicación:** En validación técnica y contractual
 - **V.4 Sistemas de Potencia:** En validación técnica y contractual

@@ -29,7 +29,7 @@ El Sistema de Material Rodante es la **"flota de vehículos"** del ferrocarril q
 
 ---
 
-## 🔍 CRITERIOS DE DISEÑO Y JUSTIFICACIONES TÉCNICAS
+## 🔍 CRITERIOS DE DISENO Y JUSTIFICACIONES TÉCNICAS
 
 ### ¿Por qué 15 locomotoras específicamente?
 **Desglose del Parque Rodante (según AT1):**
@@ -103,7 +103,7 @@ El Sistema de Material Rodante proporciona **capacidad de transporte** para el c
 
 ### ¿Cómo se integra con otros sistemas?
 ```
-[Control y Señalización] ←→ [Material Rodante] ←→ [Telecomunicaciones]
+[Control y Senalización] ←→ [Material Rodante] ←→ [Telecomunicaciones]
                                     ↓
 [Infraestructura] ←→ [Material Rodante] ←→ [Talleres]
                                     ↓
@@ -232,7 +232,7 @@ El material rodante opera 24/7 transportando mercancías a lo largo del corredor
 
 ### Diagrama de interfaces
 ```
-[Control y Señalización] ←→ [Material Rodante] ←→ [Telecomunicaciones]
+[Control y Senalización] ←→ [Material Rodante] ←→ [Telecomunicaciones]
                                     ↓
 [Infraestructura] ←→ [Material Rodante] ←→ [Talleres]
                                     ↓
@@ -242,7 +242,7 @@ El material rodante opera 24/7 transportando mercancías a lo largo del corredor
 ### Tabla de interfaces críticas
 | Sistema | Tipo de Interfaz | Criticidad | Responsable |
 |:--------|:-----------------|:-----------|:------------|
-| Control y Señalización | PTC Embarcado | Alta | EPC Sistemas |
+| Control y Senalización | PTC Embarcado | Alta | EPC Sistemas |
 | Telecomunicaciones | TETRA + Red Vital IP / TETRA Embarcado | Alta | EPC Telecomunicaciones |
 | Infraestructura | Vías y estaciones | Alta | EPC Civil |
 | Talleres | Equipos de mantenimiento | Media | EPC Mecánico |
@@ -274,7 +274,7 @@ El material rodante opera 24/7 transportando mercancías a lo largo del corredor
 - **Apéndice Técnico 1:** Alcance del proyecto - Material rodante
 - **Apéndice Técnico 2:** Operación y mantenimiento - Disponibilidad 99.95%
 - **Apéndice Técnico 3:** Especificaciones generales - Material rodante
-- **Apéndice Técnico 4:** Indicadores de desempeño - Disponibilidad 99.95%
+- **Apéndice Técnico 4:** Indicadores de desempeno - Disponibilidad 99.95%
 
 ---
 
@@ -304,7 +304,7 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 ---
 
-## 📊 INDICADORES DE DESEMPEÑO (KPIs)
+## 📊 INDICADORES DE DESEMPENO (KPIs)
 
 | Indicador | Meta | Actual | Estado |
 |:----------|:-----|:-------|:-------|

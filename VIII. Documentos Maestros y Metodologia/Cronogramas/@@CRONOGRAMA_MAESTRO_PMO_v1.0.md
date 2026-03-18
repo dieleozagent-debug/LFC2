@@ -33,7 +33,7 @@
 ### **Distribución por Capítulos:**
 | Cap | Sistema | Ítems | Valor (M COP) | % |
 |:---:|:--------|:-----:|:-------------:|:-:|
-| 1 | Control y Señalización | 27 | $132,228 | 50% |
+| 1 | Control y Senalización | 27 | $132,228 | 50% |
 | 2 | Telecomunicaciones | 32 | $84,448 | 32% |
 | 3 | ITS y Seguridad | 23 | $4,893 | 2% |
 | 4 | Material Rodante | 14 | $20,520 | 8% |

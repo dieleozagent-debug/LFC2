@@ -87,7 +87,7 @@
 
 ## 2. NAVEGACIÓN POR SISTEMAS TÉCNICOS
 
-### **2.1 Sistema 01: Control y Señalización**
+### **2.1 Sistema 01: Control y Senalización**
 
 #### **Documentos Principales:**
 | Documento | Tipo | Ubicación | Estado |
@@ -374,7 +374,7 @@
 | Documento | Sistema | Estado | Última Actualización |
 |:----------|:--------|:-------|:-------------------|
 | **SISTEMA_02_Telecomunicaciones_EJECUTIVO** | Telecomunicaciones | ✅ Completado | Enero 2025 |
-| **SISTEMA_01_Control_y_Senalizacion_EJECUTIVO** | Control y Señalización | ⏳ Pendiente | - |
+| **SISTEMA_01_Control_y_Senalizacion_EJECUTIVO** | Control y Senalización | ⏳ Pendiente | - |
 | **SISTEMA_03_ITS_y_Seguridad_EJECUTIVO** | ITS y Seguridad | ⏳ Pendiente | - |
 | **SISTEMA_04_Material_Rodante_EJECUTIVO** | Material Rodante | ⏳ Pendiente | - |
 | **SISTEMA_05_Infraestructura_Operativa_EJECUTIVO** | Infraestructura Operativa | ⏳ Pendiente | - |
@@ -460,7 +460,7 @@
 - `FORMATEADO_APENDICE TECNICO 1.md` - Alcance del proyecto (AT1)
 - `FORMATEADO_APENDICE TECNICO 2.md` - Operación y mantenimiento (AT2)
 - `FORMATEADO_APENDICE TECNICO 3.md` - Especificaciones generales (AT3)
-- `FORMATEADO_APENDICE TECNICO 4.md` - Indicadores de desempeño (AT4)
+- `FORMATEADO_APENDICE TECNICO 4.md` - Indicadores de desempeno (AT4)
 
 ### **9.2 Documentos Maestros de Referencia**
 - `CRITERIOS_TECNICOS_MAESTRO_APP_La_Dorada_Chiriguaná_v1.0.md` - Criterios técnicos maestro

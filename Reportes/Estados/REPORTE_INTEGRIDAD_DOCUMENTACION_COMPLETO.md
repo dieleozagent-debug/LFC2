@@ -47,7 +47,7 @@ Verificar la integridad completa de la documentación del proyecto desde el inic
 | `11. AT1_Alcance_del_Proyecto_MEJORADO.md` | ✅ **COMPLETO** | Alcance del proyecto |
 | `12. AT2_Operacion_y_Mantenimiento_MEJORADO.md` | ✅ **COMPLETO** | Operación y mantenimiento |
 | `13. AT3_Especificaciones_Generales_MEJORADO.md` | ✅ **COMPLETO** | Especificaciones generales |
-| `14. AT4_Indicadores_de_Desempeno_MEJORADO.md` | ✅ **COMPLETO** | Indicadores de desempeño |
+| `14. AT4_Indicadores_de_Desempeno_MEJORADO.md` | ✅ **COMPLETO** | Indicadores de desempeno |
 | `15. AT5_Interferencias_de_Redes_MEJORADO.md` | ✅ **COMPLETO** | Interferencias de redes |
 | `16. AT6_Gestion_Ambiental_MEJORADO.md` | ✅ **COMPLETO** | Gestión ambiental |
 | `17. AT7_Gestion_Predial_MEJORADO.md` | ✅ **COMPLETO** | Gestión predial |
@@ -80,7 +80,7 @@ Verificar la integridad completa de la documentación del proyecto desde el inic
 | Categoría | Documentos | Estado | Observaciones |
 |:---|:---:|:---:|:---|
 | **Documentos Base** | 7 | ✅ **COMPLETO** | Hoja de ruta, WBS, matrices |
-| **Análisis por Sistema** | 7 | ✅ **COMPLETO** | CTC, TETRA, Fibra, Señalización, ITS, CCTV, Material Rodante |
+| **Análisis por Sistema** | 7 | ✅ **COMPLETO** | CTC, TETRA, Fibra, Senalización, ITS, CCTV, Material Rodante |
 | **Criterios Transversales** | 4 | ✅ **COMPLETO** | Normatividad, Interoperabilidad, Redundancia, Ciberseguridad |
 | **PTC Específicos** | 5 | ✅ **COMPLETO** | SRS, Arquitectura Servidor PTC Central, Interfaces, Interlocking, STM |
 | **Conceptos Básicos** | 4 | ✅ **COMPLETO** | CTC, TETRA, PTC, otras soluciones |
@@ -112,7 +112,7 @@ Verificar la integridad completa de la documentación del proyecto desde el inic
 #### **✅ V. INGENIERÍA DE DETALLE (5/5 documentos)**
 | Documento | Estado | Observaciones |
 |:---|:---:|:---|
-| `V.1_Señalizacion_Ferroviaria_Detalle_v0.1.md` | ✅ **COMPLETO** | Especificaciones técnicas detalladas |
+| `V.1_Senalizacion_Ferroviaria_Detalle_v0.1.md` | ✅ **COMPLETO** | Especificaciones técnicas detalladas |
 | `V.2_Centro_Control_Trafico_CTC_Detalle_v0.1.md` | ✅ **COMPLETO** | Arquitectura y funcionalidades |
 | `V.3_Sistemas_Comunicacion_Detalle_v0.1.md` | ✅ **COMPLETO** | Red Vital IP / TETRA, fibra óptica, TETRA, VSAT |
 | `V.4_Sistemas_Potencia_Detalle_v0.1.md` | ✅ **COMPLETO** | Subestaciones, transformadores, UPS |
@@ -128,7 +128,7 @@ Verificar la integridad completa de la documentación del proyecto desde el inic
 | Documento | Estado | Observaciones |
 |:---|:---:|:---|
 | `6.1_Manual_OM_CTC_v1.0_Validado.md` | ✅ **COMPLETO** | Manual de operación y mantenimiento CTC |
-| `6.2_Manual_OM_Senalizacion_v1.0_Validado.md` | ✅ **COMPLETO** | Manual de mantenimiento señalización |
+| `6.2_Manual_OM_Senalizacion_v1.0_Validado.md` | ✅ **COMPLETO** | Manual de mantenimiento senalización |
 | `6.3_Manual_OM_Telecom_v1.0_Validado.md` | ✅ **COMPLETO** | Manual de mantenimiento telecomunicaciones |
 | `6.4_Manual_OM_Seguridad_v1.0_Validado.md` | ✅ **COMPLETO** | Manual de mantenimiento seguridad |
 | `VI_Operacion_Mantenimiento_y_reversion.md` | ✅ **COMPLETO** | Documento general de O&M |
@@ -157,7 +157,7 @@ Verificar la integridad completa de la documentación del proyecto desde el inic
 
 #### **2. INCONSISTENCIA EN NOMENCLATURA**
 - **Problema:** Diferentes formatos de nombres de archivos
-- **Ejemplo:** `V.1_Señalizacion_Ferroviaria_Detalle_v0.1.md` vs `V.1_Se_alizaci_n_ferroviaria_Contrato_8_1.md`
+- **Ejemplo:** `V.1_Senalizacion_Ferroviaria_Detalle_v0.1.md` vs `V.1_Se_alizaci_n_ferroviaria_Contrato_8_1.md`
 - **Impacto:** Confusión en referencias cruzadas
 - **Acción Requerida:** Estandarizar nomenclatura
 

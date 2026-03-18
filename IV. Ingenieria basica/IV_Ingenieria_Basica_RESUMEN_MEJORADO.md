@@ -12,7 +12,7 @@ La Fase IV (Ingeniería Básica) se consolida bajo el cambio de paradigma hacia 
 
 ### 1.1 Pilares del Diseno Soberano:
 *   **Tracción Soberana**: Transición a **Diésel-Eléctrica** (eliminación de [INFRAESTRUCTURA PROHIBIDA]/25kV).
-*   **Señalización Virtual**: Implementación de **PTC Virtual (SICC)** basado en GNSS y autorizaciones de movimiento (MA) dinámicas.
+*   **Senalización Virtual**: Implementación de **PTC Virtual (SICC)** basado en GNSS y autorizaciones de movimiento (MA) dinámicas.
 *   **Comunicaciones Misión Crítica**: Unificación en la red **Red Vital IP / TETRA**, garantizando redundancia y cobertura del 99.95% en el corredor.
 *   **Interoperabilidad Nacional**: Estándares **FRA/AREMA** para total integración con FENOCO.
 
@@ -32,7 +32,7 @@ En cumplimiento del **DBCI-SSOT**, se han validado/corregidos los siguientes hit
 | Sistema | Solución Básica SICC | Estado |
 |:---:|:---:|:---:|
 | **Control** | CTC Centralizado (La Dorada) | SANEADO |
-| **Señalización** | PTC Virtual (Cab-Signaling) | SANEADO |
+| **Senalización** | PTC Virtual (Cab-Signaling) | SANEADO |
 | **Comunicaciones** | Red Vital IP / TETRA | SANEADO |
 | **Potencia** | Grupos Electrógenos / Paneles | SANEADO |
 | **Localización** | GNSS + Odometría SICC | SANEADO |

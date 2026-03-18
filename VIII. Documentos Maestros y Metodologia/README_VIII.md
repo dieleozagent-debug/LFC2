@@ -81,7 +81,7 @@ Esta carpeta contiene los **documentos maestros y metodológicos** del proyecto 
 
 **Contiene:**
 - Cantidades técnicas definitivas (526 km fibra, 37 estaciones TETRA, etc.)
-- Filosofía del sistema (señalización virtual, CTC + PTC)
+- Filosofía del sistema (senalización virtual, CTC + PTC)
 - Especificaciones técnicas detalladas
 - Criterios de interoperabilidad FENOCO
 

@@ -66,7 +66,7 @@ TABLA DE CONTENIDO
 2.2. Localización 6
 ### CAPÍTULO III - INFRAESTRUCTURA FÉRREA 10
 3 .1 Infraestructura Férrea, Infraestructura Logística y anexidades 1 O
-3 .2 Ramal Cabañas 16
+3 .2 Ramal Cabanas 16
 ### CAPÍTULO IV - INFRAESTRUCTURA FÉRREA PROYECTADA 18
 #### 4.1 UFVFlaUFVF53 18
 #### 4.2 Intervenciones Prioritarias 31
@@ -109,7 +109,7 @@ Tabla 13 - Equipamiento mínimo taller pesado 38
 Tabla 14 - Características mínimas taller liviano 41
 Tabla 15 - Equipamiento mínimo taller liviano 41
 Tabla 16 - Características mínimas edificio administrativo y ceo 44
-Tabla 17 - Requerimientos mínimos para el Sistema Señalización, Control de Tráfico y Comunicaciones 47
+Tabla 17 - Requerimientos mínimos para el Sistema Senalización, Control de Tráfico y Comunicaciones 47
 Tabla 18 - Unidad Funcional - UF 3 51
 Tabla 19 - Características mínimas CTC Operación Temprana 52
 Tabla 20 - Equipamiento mínimo CTC operación temprana 54
@@ -126,7 +126,7 @@ a) De conformidad con lo previsto en el Contrato, el presente Apéndice contiene
 
 b) La aplicación de este Apéndice deberá ser efectuada en concordancia con lo establecido en el Contrato. En todo caso, de presentarse alguna contradicción entre lo previsto en este Apéndice y los demás documentos contractuales, se atenderá de conformidad con lo previsto en el Contrato.
 
-c) Será obligación del Concesionario conocer, aplicar y utilizar la normatividad vigente de obligatorio cumplimiento, así como las normas internacionales de acuerdo con las necesidades del Proyecto, además de aquellas solicitadas por la Autoridad Ambiental para la ejecución del Proyecto en general, y en particular, pero sin limitarse al desarrollo de los Estudios de Detalle, las obras de Construcción, Rehabilitación, suministros, montajes y pruebas, puesta a disposición del Equipamiento Fijo el cual se menciona en el Artículo 2.2.2.1.13.1 de la Sección 13 del Decreto 1278 del 13 de octubre de 2021 y las instalaciones y la Señalización, sin importar si estas normas se mencionan o se omiten en el Apéndice Técnico 3.
+c) Será obligación del Concesionario conocer, aplicar y utilizar la normatividad vigente de obligatorio cumplimiento, así como las normas internacionales de acuerdo con las necesidades del Proyecto, además de aquellas solicitadas por la Autoridad Ambiental para la ejecución del Proyecto en general, y en particular, pero sin limitarse al desarrollo de los Estudios de Detalle, las obras de Construcción, Rehabilitación, suministros, montajes y pruebas, puesta a disposición del Equipamiento Fijo el cual se menciona en el Artículo 2.2.2.1.13.1 de la Sección 13 del Decreto 1278 del 13 de octubre de 2021 y las instalaciones y la Senalización, sin importar si estas normas se mencionan o se omiten en el Apéndice Técnico 3.
 d) El Corredor del Proyecto corresponde a las unidades físicas y jurídicas comprendidas de la siguiente manera:
  Área Disponible, cuyas áreas hacen parte del Corredor del Proyecto y se entienden entregadas en el estado en que se encuentren, en la Fecha de Inicio como un cuerpo cierto, pero cuyas coordenadas serán definidas mediante acta suscrita por ambas Partes después de hacer el respectivo levantamiento topográfico y planimétrico debidamente georreferenciado, dentro de los 45 Días Calendario siguientes a la Fecha de Inicio. El plazo para realizar el respectivo levantamiento topográfico en nada impide que el Área Disponible se entienda entregada en la Fecha de Inicio.
  Franja Operacional
@@ -253,31 +253,31 @@ e) Los puentes existentes a lo largo del Corredor del Proyecto que hacen parte d
 Página jjj de 
 
 Tabla 2 Listado de Puentes en el Corredor del Proyecto
-K205261.14 Doña Juana VG-S 75.75 5
+K205261.14 Dona Juana VG-S 75.75 5
 2 K208649.03 Pontona 1 VG-S 45.45 3
 3 K21041 l.89 Pontona2 VG-S 45.45 3
 4 K213246.71 Pontona3 VG-S 60.6 4
 5 K228169.31 Quebrada el Tigre VG-S 45.45 3
 6 K237710.99 La Miel VG-S 227.25 15
 7 K248388.29 Río Claro VG-S 60.6 4
-8 K258 132.46 Caño Hediondo VG-S 30.3 2
+8 K258 132.46 Cano Hediondo VG-S 30.3 2
 9 K258411.62 Tolones VG-S 30.3 2
 10 K269510.17 Cocomá VG-S 90.9 6
 11 K287208.05 Río San Pablo VG-S 45.6 3
 12 K290500.48 Río Nare W-P I 155.35 2
-13 K309832.33 Caño San Pablo Pony 19.8
-14 K319084.50 Caño Negro VG-S 24.6 2
+13 K309832.33 Cano San Pablo Pony 19.8
+14 K319084.50 Cano Negro VG-S 24.6 2
 15 K332232.02 Río Magdalena W-P_I 587 9
 16 K332985.93 Ecopetrol VG-S 7.58 1
-17 K334415.38 Caño Negrito VG-S 6.56 1
-18 K335303.24 Caño Negro VG-S 30.45 2
+17 K334415.38 Cano Negrito VG-S 6.56 1
+18 K335303.24 Cano Negro VG-S 30.45 2
 19 K355268.56 San Juan VG-S 61 4
 20 K374317.89 Valparaíso VG-S 30.45 3
 21 K375727.05 Carare W-P I - VG-S 201 6
 22 K377826.00 Doradas VG-S 45.45 3
 23 K386391.58 El Clavo VG-S 60.6 4
 24 K391515.50 El 59 VG-S 45.45 3
-25 K400036.21 Caño Macías VG-S 60.6 4
+25 K400036.21 Cano Macías VG-S 60.6 4
 26 K402576.88 Doraditas VG-S 45.45 3
 27 K403677.43 Opón W-P_I- VG-S 108.2 3
 28 K4 l 7520.26 Vizcaína VG-S 45.45 3
@@ -290,48 +290,48 @@ Silvestre
 34 K459531.52 Jeringa VG-S - Vial 61.6 4
 35 K465200.03 Sogamoso W-P I 153.4 2
 36 K473553.67 El 13 VG-S 45 3
-37 K480304.25 Caño la Pradera VG-S 45 3
+37 K480304.25 Cano la Pradera VG-S 45 3
 38 K485307.14 LaGómez VG-S 60.5 4
 Página 12 de 70
 
 39 K497303.48 La sin Nombre VG-S 45 3
 40 K500985.33 LaPescao VG-S 45.5 3
-41 K503434.81 Caño Mariposa VG-S 45.45 3
+41 K503434.81 Cano Mariposa VG-S 45.45 3
 42 K506763.90 Puente Roto VG-S 45.45 3
 43 K507932.32 La Santa VG-S 45.45 3
 44 K508451.93 La Torre VG-S 30.3 2
-45 K513021.54 Caño Vélez VG-S 30.3 2
+45 K513021.54 Cano Vélez VG-S 30.3 2
 46 K515259.70 Lebrija VG-S 136.8 9
 47 K518605.43 Quebrada Doradas VG-S 30.3 2
 48 K521 854.90 La Palma VG-S 30.3 2
 49 K524434.88 Quebrada Cachira VG-S 106.05 7
-50 K524751.68 Caño Pato VG-S 45.45 3
+50 K524751.68 Cano Pato VG-S 45.45 3
 51 K528253.30 El Tropezón VG-S 45.5 3
 52 K528777.75 El Hoyo VG-S 121 8
-53 K529855.68 Caño Picho 1 VG-S 60.8 4
-54 K530 193.34 Caño Picha 2 VG-S 30.4 2
-55 K532487.29 Caño Yucatá VG-S 15.2 1
+53 K529855.68 Cano Picho 1 VG-S 60.8 4
+54 K530 193.34 Cano Picha 2 VG-S 30.4 2
+55 K532487.29 Cano Yucatá VG-S 15.2 1
 56 K532973.85 Quebrada la Llana VG-S 15.2
 Tama á
 57 K539271.65 San Alberto VG-S 45.5 3
 58 K540533.60 Guadas VG-S 60.3 4
 59 K541825.04 Minas Dos Pony 13.5 1
 60 K547395.ll Agua Blanca VG-S 45.45 3
-61 K548564.14 Caño San Juan VG-S 30.3 2
+61 K548564.14 Cano San Juan VG-S 30.3 2
 62 K550573.87 Minas Uno VG-S 30.3 2
-63 K554264.56 Caño Seco VG-S 75.75 5
+63 K554264.56 Cano Seco VG-S 75.75 5
 64 K555250.15 Torcoroma VG-S 45.45 3
-65 K558249.64 Caño Sapo VG-S 45.45 3
+65 K558249.64 Cano Sapo VG-S 45.45 3
 66 K558680.35 Quebrada la VG-S 45.45 3
 Paiulia
 67 K560341.47 Quebrada el VG-S 45.45 3
 Beiuco
 68 K566050.20 La Colorada VG-S 30.3 2
 69 K567960.17 LaRayita VG-S 30.3 2
-70 K572726.22 Caño Largo VG-S 30.3 2
+70 K572726.22 Cano Largo VG-S 30.3 2
 71 K582833.71 La Pradera VG-S 60.6 4
 72 K583277.12 Tumba chicha VG-S 45.5 3
-73 K589688.12 Caño Cabezas VG-S 30.4 2
+73 K589688.12 Cano Cabezas VG-S 30.4 2
 74 K590748.98 Peralonso VG-S 30.4 2
 75 K592506.02 Buturama VG-S 45.5 3
 76 K608000.43 Noriam VG-S 30.4 2
@@ -339,25 +339,25 @@ Beiuco
 Página 13 de 70
 
 78 K622960.28 San Marcos VG-S 30.3 2
-79 K637020.49 Simaña VG-S 91.2 6
-80 K639526.46 Caño Alonso VG-S 45.7 3
-81 K649072.23 Caño Sucio VG-S 30.3 2
-82 K652579.61 Caño Raíces VG-S 45.45 3
+79 K637020.49 Simana VG-S 91.2 6
+80 K639526.46 Cano Alonso VG-S 45.7 3
+81 K649072.23 Cano Sucio VG-S 30.3 2
+82 K652579.61 Cano Raíces VG-S 45.45 3
 83 K653689.49 Quebrada Espanta VG-S 30.3 2
 84 K658006.58 Quebrada el Tigre VG-S 45.45 3
 85 K662806.55 La Floresta VG-S 45.45 3
-86 K667826.71 Caño Arenas VG-S 30.4 2
-87 K672776.61 Caño Morrocoy VG-S 45.6 3
+86 K667826.71 Cano Arenas VG-S 30.4 2
+87 K672776.61 Cano Morrocoy VG-S 45.6 3
 88 K676 162.18 Arroyo Hondo VG-S 45.6 3
 89 K677611.23 Tunuma VG-S 30.4 2
 90 K684870.71 Mohan VG-S 45.6 3
 91 K696410.06 Quebra dientes VG-S 45.6 3
 92 K702460.98 Champan VG-S 30.4 2
 93 K705838.63 Animito VG-S 76.1 5
-94 K707387.l 1 Caño Seco VG-S 45.6 3
+94 K707387.l 1 Cano Seco VG-S 45.6 3
 95 K709765.55 San Pedro VG-S 45.6 3
 96 K712875.90 Anime VG-S 76.1 5
-97 K715088.83 Caño Madrid VG-S 30.3 2
+97 K715088.83 Cano Madrid VG-S 30.3 2
 98 (Ramal Kl460.78 Puente Río Sinaí VG-S
 Ca pulco 
  G-S Sistema estructural compuesto por vigas de alma llena simplemente apoyadas .
@@ -446,7 +446,7 @@ LA ARGELIA PK 282154 INVADIDA
 EN MAL ESTADO
 NAPOLES PK 313434 ENRUINA
 GRECIA PK327675 OPERATIVA
-CABAÑAS PK360650 (tramo OPERATIVA
+CABANAS PK360650 (tramo OPERATIVA
 Grecia - Bello
 PUERTO OLAYA PK338250 INVADIDA SAN JUAN PK354148 OPERATIVA
 Página 16 de 70
@@ -472,15 +472,15 @@ i) Patio talleres ubicados en Barrancabermeja, Puerto Berrío (Estación Grecia)
 
 j) Otros elementos existentes de la Infraestructura Logística.
 
-3 .2 Ramal Cabañas
+3 .2 Ramal Cabanas
 
-a) El ramal Cabañas, que no hace parte del Corredor del Proyecto, cuya longitud es de
+a) El ramal Cabanas, que no hace parte del Corredor del Proyecto, cuya longitud es de
 33.04 km, será entregado al Concesionario de manera temporal como parte de la Entrega de la Infraestructura, y estará a cargo del Concesionario en los términos del Apéndice Técnico 2 mientras se surte el proceso de reversión al INVIAS. El proceso
 
 Página !tf de [8
 
 de reversión de este ramal al INVIAS estará a cargo de la ANI, lo cual tendrá un Plazo máximo de Treinta (30) meses desde la Fecha de Inicio.
-Figura 3- Localización Ramal Cabañas
+Figura 3- Localización Ramal Cabanas
 1
 
 g
@@ -495,7 +495,7 @@ Página i,,( de ijá
 
 ### CAPÍTULO IV - INFRAESTRUCTURA FÉRREA PROYECTADA
 
-El Proyecto se ha sectorizado por Unidades Funcionales de Vía Férrea y por Unidades Funcionales. Durante la Etapa Preoperativa y la Etapa de Operación y Mantenimiento, el Concesionario tendrá bajo su responsabilidad el cumplimiento de las actividades de Operación y Mantenimiento tanto de la Vía Férrea como del Material Rodante del Proyecto, el mantenimiento del sistema de comunicaciones, señalización, control y de equipos de logística. Así mismo durante la Etapa Preoperativa y la Etapa de Operación y Mantenimiento, el Concesionario tendrá la obligación de la Operación, Mantenimiento y control de tráfico del Corredor del Proyecto, cumpliendo con los Indicadores descritos en el Apéndice Técnico 4 y las obligaciones del Apéndice Técnico 2. 
+El Proyecto se ha sectorizado por Unidades Funcionales de Vía Férrea y por Unidades Funcionales. Durante la Etapa Preoperativa y la Etapa de Operación y Mantenimiento, el Concesionario tendrá bajo su responsabilidad el cumplimiento de las actividades de Operación y Mantenimiento tanto de la Vía Férrea como del Material Rodante del Proyecto, el mantenimiento del sistema de comunicaciones, senalización, control y de equipos de logística. Así mismo durante la Etapa Preoperativa y la Etapa de Operación y Mantenimiento, el Concesionario tendrá la obligación de la Operación, Mantenimiento y control de tráfico del Corredor del Proyecto, cumpliendo con los Indicadores descritos en el Apéndice Técnico 4 y las obligaciones del Apéndice Técnico 2. 
 Siguiendo los criterios descritos en los literales anteriores, cada una de las Unidades Funcionales de Vía Férrea y de las Unidades Funcionales objeto del Contrato cuentan con los siguientes alcances, los cuales deben realizarse para dar cumplimiento al objeto del mismo.
 El Corredor del Proyecto estará dividido en Unidades Funcionales de Vía Férrea (UFVF) según se describe a continuación.
 #### 4.1 UFVF 1 a UFVF 53
@@ -504,7 +504,7 @@ El Concesionario deberá proveer lo necesario para el cumplimiento de cada una d
 
 Todas las obras de Mejoramiento yo Rehabilitación descritas en el presente capítulo deberán ser ejecutadas y entregadas de acuerdo con lo descrito en el Plan de Obras.
 
-Para las obras de Mejoramiento yo Rehabilitación de la Vía Férrea, el Concesionario debe revisar, proponer y diseñar todas las actividades pertinentes para cumplir con los estándares y las especificaciones consignadas en el Apéndice Técnico 3, incluyendo, pero sin limitarse a, la elaboración de los Estudios de Detalle, el trámite de Licencias y Permisos, Gestión Predial, Gestión de Redes, Gestión Social y Ambiental.
+Para las obras de Mejoramiento yo Rehabilitación de la Vía Férrea, el Concesionario debe revisar, proponer y disenar todas las actividades pertinentes para cumplir con los estándares y las especificaciones consignadas en el Apéndice Técnico 3, incluyendo, pero sin limitarse a, la elaboración de los Estudios de Detalle, el trámite de Licencias y Permisos, Gestión Predial, Gestión de Redes, Gestión Social y Ambiental.
 
 El Concesionario deberá asegurar, a lo largo de todo el Corredor del Proyecto, el Mantenimiento y conservación de los diferentes componentes de su sección transversal, desde su nivel de plataforma hasta los rieles, para soportar una carga máxima de 20 ton/eje. A continuación, se muestra de manera esquemática la sección típica transversal de línea sencilla principal:
 
@@ -545,7 +545,7 @@ UFVF14 San Alberto - San José 1346511.22 1061002.98 533+275 1355915.35 1058475.
 Minas Dos Agua Blanca
 UFVF15 San Alberto - San José 2 1355915.35 1058475.07 543+013 1365299.55 1055877.95 552+750 9.737 C. San Juan
 Minas Uno
-Simaña
+Simana
 
 UFVF16 La Gloria - Zapatosa
 #### 1444977.31 1042954.1 635991 1453626.89 1042876.51 644699 8.708
@@ -571,7 +571,7 @@ C. Seco San Pedro
 UFVF24 Champán - Chiriguaná 2 1512798.69 1053200.96 708+201 1519655.62 1054728.37 715+226 7.025 Anime
 C. Madrid
 UFVF25 Champán - Chiriguaná 3 1,519,655.62 1,054,728.37 715+226 1,526,511.53 1,056,255.80 722+683 7.457
-UFVF26 México - La Agustina 1096983.57 934549.28 201+470 l l 03632.58 931971.46 208+917 7.447 Doña Juana
+UFVF26 México - La Agustina 1096983.57 934549.28 201+470 l l 03632.58 931971.46 208+917 7.447 Dona Juana
 Pontana 1
 UFVF27 México - La Agustina 2 1103632.58 931971.46 208+917 l 110224.63 934652.02 216+364 7.447 Pontona2
 Pontona3
@@ -626,7 +626,7 @@ La Sin Sombre UFVF48 García Cadena - San Rafael 3 1317703.28 1039668.57 494+358
 C. Mariposa Puente Roto
 La Santa UFVF49 García Cadena - San Rafael 4 1323416.88 1048617_09 505+424 1332232.16 1055224.03 516+490 11.066 La torre
 C. Vélez
-R. Lebrija Caño Seco Torcororna
+R. Lebrija Cano Seco Torcororna
 UFVF50 San José - Santa Lucía 1 1365299.55 1055877.95 552+750 1372039.72 1053298.92 560+000 7.250 C. Sapo
 Q. La Pajulia
 
@@ -659,7 +659,7 @@ Suministro e instalación de sub-balasto y balasto
 OBRAS DE DRENAJE
 Cada obra de drenaje u otra facilidad que transporte agua por debajo, o inmediatamente adyacente a la plataforma de la vía debe ser mantenida libre de obstrucciones para que pueda acomodar la totalidad del agua correspondiente al diseno definitivo
 CONTROL DE VEGETACIÓN
-La vegetación dentro de la Franja Operacional debe ser controlada para que no haya riesgo de fuego para los carros del ferrocarril y para que no haya obstrucciones en la visibilidad de la vía y en los signos y señales férreos y no haya interferencias con las comunicaciones
+La vegetación dentro de la Franja Operacional debe ser controlada para que no haya riesgo de fuego para los carros del ferrocarril y para que no haya obstrucciones en la visibilidad de la vía y en los signos y senales férreos y no haya interferencias con las comunicaciones
 
 Se debe realizar los levantamientos topográficos de acuerdo a lo establecido en los Estudios de Detalle y cumpliendo con las especificaciones del Apéndice Técnico 3.
 La Vía Férrea se debe mantener libre de obstáculos. Se deben realizar todas las actividades de excavaciones, corte y nivelaciones que permitan el
@@ -669,7 +669,7 @@ Se deben realizar todas las actividades de relleno
 que permitan el cumplimiento de los Estudios de Detalle y cumpliendo con las especificaciones del A éndice Técnico 3.
 Se deben realizar todas las actividades de suministro e instalación de sub balasto y balasto que permitan el cumplimiento de los Estudios de Detalle y cumpliendo con las especificaciones del Apéndice Técnico 3.
 
-El Concesionario tiene la obligación de realizar todas las actuaciones requeridas que le permitan el cumplimiento de lo establecido en los estándares AREMA y el Federal Railroad Administration - FRA 213 .3 3, para periodos de retomo de 25 y 100 años, como lo establece el estándar.
+El Concesionario tiene la obligación de realizar todas las actuaciones requeridas que le permitan el cumplimiento de lo establecido en los estándares AREMA y el Federal Railroad Administration - FRA 213 .3 3, para periodos de retomo de 25 y 100 anos, como lo establece el estándar.
 
 El Concesionario tiene la obligación de realizar todas las actuaciones requeridas que le permitan el cumplimiento de lo establecido en el Federal Railroad Administration - FRA 213.37
 CORTES, RELLENOS Y OBRAS DE CONTENCIÓN
@@ -718,7 +718,7 @@ La ampliación de los apartaderos existentes se deberá hacer según corresponda
 Adicionalmente, para líneas segundas de apartaderos y estaciones se requieren barras largas soldadas; por su parte, para líneas terceras, cuartas e inferiores, en atios se odrá contar con barras cortas eclisadas.
 Cambio de las traviesas de madera en los puentes que presenten grietas superiores a una cuarta parte de su longitud o que no cuenten con la integridad estructural requerida.
 
-Suministro e instalación de la capa de balasto de acuerdo con las características del material y los espesores diseñados
+Suministro e instalación de la capa de balasto de acuerdo con las características del material y los espesores disenados
 
 Suministro e instalación de placas de asiento, tirafondos, clavos y fijaciones y todos los accesorios necesarios para cumplir con los criterios de diseno.
 
@@ -727,7 +727,7 @@ cumpliendo con las especificaciones del Apéndice Técnico 3.
 El Concesionario tiene la obligación de realizar
 todas las actuaciones requeridas que le permitan el cumplimiento de los Estudios de Detalle y cumpliendo con las especificaciones del Apéndice Técnico 3.
 
-Estas obras incluyen entre otras cosas, descapote, excavaciones, conformación de terraplén, construcción de obras de drenaje, suministro y conformación de capas de subbalasto y balasto, suministro e instalación de traviesas, sujeciones, rieles, cambiavías y señalización.
+Estas obras incluyen entre otras cosas, descapote, excavaciones, conformación de terraplén, construcción de obras de drenaje, suministro y conformación de capas de subbalasto y balasto, suministro e instalación de traviesas, sujeciones, rieles, cambiavías y senalización.
 El Concesionario tiene la obligación de realizar todas las actuaciones requeridas que le permitan el cumplimiento de los Estudios de Detalle y cumpliendo con las especificaciones del Apéndice Técnico 3.
 
 El Concesionario tiene la obligación de realizar todas las actuaciones requeridas que le permitan el cumplimiento de los Estudios de Detalle y cumpliendo con las especificaciones del Apéndice Técnico 3.
@@ -844,7 +844,7 @@ b) El Concesionario tiene la obligación de garantizar la estabilidad de los pue
 
 e) Los rieles que se instalen, en virtud del cambio del riel existente de 75 lbyd, deberán ser reemplazados por 11 SRE lbyd; y en el eventual caso de una inspección de estado de riel existente de 90 lbyd, resultase la necesidad de cambiar algún riel o tramo de riel existente, deberán ser ARA 90 lbyd; y deberán estar soldados (largas barras soldadas) en la totalidad de la Vía Férrea. Estas largas barras soldadas se interrumpirán solo en cercanía con los cambiavías y puentes.
 
-d) El Concesionario tiene la obligación de realizar el reemplazo de todas las fijaciones dañadas, así como completar las faltantes a lo largo de la Vía Férrea.
+d) El Concesionario tiene la obligación de realizar el reemplazo de todas las fijaciones danadas, así como completar las faltantes a lo largo de la Vía Férrea.
 Página 31 de 70
 
 e) El Concesionario tiene la obligación de realizar la revisión y cambios necesarios en los aparatos cambiavías, los cuales se encuentran a las entradas y salidas de cada estación, triángulos de inversión, líneas de servicio, cruces y los apartaderos.
@@ -941,13 +941,13 @@ Página 34 de 70
 
 CCTV-UFl
 
-J;l Concesionario deberá implementar un Sistema de Circuito Cerrado de Televisión (CCTV) en al menos los siguientes sitios de la UF 1: estaciones férreas con enclavamientos, estaciones operativas, pasos a nivel con señalización Tipo B y C y sitios críticos del corredor férreo, para lo cual deberá llevar a cabo los Estudios y Disenos de Detalle, y deberá estar interconectado con el Centro de Control de Operaciones (CCO) en donde se mantendrá con la sala de monitoreo y la grabación y resguardo del video.
+J;l Concesionario deberá implementar un Sistema de Circuito Cerrado de Televisión (CCTV) en al menos los siguientes sitios de la UF 1: estaciones férreas con enclavamientos, estaciones operativas, pasos a nivel con senalización Tipo B y C y sitios críticos del corredor férreo, para lo cual deberá llevar a cabo los Estudios y Disenos de Detalle, y deberá estar interconectado con el Centro de Control de Operaciones (CCO) en donde se mantendrá con la sala de monitoreo y la grabación y resguardo del video.
 
 Del resultado de dicha Ingeniería de Detalle, el Concesionario definirá las cantidades requeridas. En todo caso, el Concesionario se obliga a cumplir los Niveles de Servicio requeridos para el control de tráfico y de estaciones, la seguridad vial férrea y vehicular - pasos a nivel, la seguridad de la carga y de las instalaciones logísticas, la seguridad de las instalaciones administrativas (accesos), y en general a vigilancia y el monitoreo (con video) de la infraestructura relevante.
 
 4.3.2 Unidad Funcional - UF 2
 
-Incluye el edificio administrativo y centro de control de operaciones, taller pesado, taller liviano y el sistema de comunicación, señalización y control.
+Incluye el edificio administrativo y centro de control de operaciones, taller pesado, taller liviano y el sistema de comunicación, senalización y control.
 
 Tabla 11 - Unidad Funcional - UF 2
 
@@ -970,7 +970,7 @@ para realizar las Municipio de
 inspecciones a los Taller liviano Chiriguaná trenes, atender (Cesar)
 reparaciones PK722200
 menores limpieza El sistema de control
-de tráfico y Sistema de control de Corredor del señalización será el Tráfico, Señalización Proyecto encargado de y Comunicación
+de tráfico y Sistema de control de Corredor del senalización será el Tráfico, Senalización Proyecto encargado de y Comunicación
 ase urar la
 
 Construcción de portería, edificio de operación, oficinas y
@@ -986,7 +986,7 @@ interacción entre todos los trenes, las infraestructuras, pasos a nivel tipo B 
 ien sea mediante enclavamiento electrónico o aplicación de desvíos libres o con dispositivo de autotalonamiento.
 efinición del sistema de control de bloques de trenes por
 adio y su funcionamiento en caso de degradación.
-efinición de los sistemas de energía y respaldo de las staciones, así como sistemas de alimentación de energía léctríca necesaria de manera específica para los sistemas de Señalización y alimentación de equipos.
+efinición de los sistemas de energía y respaldo de las staciones, así como sistemas de alimentación de energía léctríca necesaria de manera específica para los sistemas de Senalización y alimentación de equipos.
 efínición de los equipos embarcados a bordo de los trenes ara su seguimiento, control y comunicaciones.
 efinición del puesto central de control, desde donde se coordinarán y dirigirán las operaciones ferroviarias, incluyendo la definición del número de puestos de control acordes con la partición o seccionarniento de la línea férrea (ya sea por grupos de unidades funcionales, por grupos de staciones o por apartaderos)
 efinición de estaciones satélite, y su equipamiento efinición de la protección a aplicar en los pasos a nivel.
@@ -1032,17 +1032,17 @@ La función principal de la portería es el control, registro y monitoreo del in
 
 Deben implementarse salidas de emergencia y vías peatonales dentro de los patios para el acceso de los técnicos y los empleados de mantenimiento.
 
-La portería deberá tener una vigilancia de manera permanente (24 horas). El área del edificio de portería deberá contar como mínimo con un baño por género, cuarto de aseo y una cocineta debidamente dotada para el personal.
+La portería deberá tener una vigilancia de manera permanente (24 horas). El área del edificio de portería deberá contar como mínimo con un bano por género, cuarto de aseo y una cocineta debidamente dotada para el personal.
 Administración y servicios
 
-La función principal del área de administración y servicios será la de generar un control sobre los diferentes talleres, administrando y gestionando los recursos para la operación de estos. También servirá de soporte a las actividades de descanso y bienestar del personal que trabaja en el taller, debiendo tener diferentes zonas de servicios como baños, duchas, vestieres o vestidores, comedor y cafeterías, sala de descanso, capacitaciones, enfermería y recepción de visitantes.
+La función principal del área de administración y servicios será la de generar un control sobre los diferentes talleres, administrando y gestionando los recursos para la operación de estos. También servirá de soporte a las actividades de descanso y bienestar del personal que trabaja en el taller, debiendo tener diferentes zonas de servicios como banos, duchas, vestieres o vestidores, comedor y cafeterías, sala de descanso, capacitaciones, enfermería y recepción de visitantes.
 
 Edificio de operación
 
 Este es un edificio que, por las necesidades propias de un taller mecánico para locomotoras, requiere de alturas específicas en el área de trabajo, las cuales deben cumplir con las
 Página 37 de 70
 
-Especificaciones listadas en el Apéndice Técnico 3. Aledaño a él se adosa un volumen menor con los espacios de servicio mecánico.
+Especificaciones listadas en el Apéndice Técnico 3. Aledano a él se adosa un volumen menor con los espacios de servicio mecánico.
 
 Las áreas requeridas para el taller servirán para prestar el servicro físico de lavado, mantenimiento, reparación y suministro. También debe prever, pero sin limitarse a, cárcamos suficientes, patio de gatos, espacios de talleres de piezas y almacenamientos como talleres de mecanizados, eléctrico y electrónico, de pruebas, bodegas, patios de almacenamiento, entre otros, almacén general de repuestos, cuarto de almacenamiento de desechos tóxicos e inflamables, sistemas contra incendios y todos aquellos necesarios para prestar un servicio adecuado a la Operación.
 
@@ -1057,11 +1057,11 @@ o Aréa Total 16512
 1 Porterías 26
 #### 1.1 Portería Taller 13
 1.1.1 Zona vigilancia 8
-1.1.2 Baño 2
+1.1.2 Bano 2
 1.1.3 Cocineta 3
 #### 1.1 Portería Oficinas 13
 1.2.1 Zona vigilancia 8
-1.2.2 Baño 2
+1.2.2 Bano 2
 1.2.3 Cocineta 3
 2 Edificio Oficinas y servicios 467
 #### 2.1 Recepción 65
@@ -1087,7 +1087,7 @@ Página 38 de 70
 #### 4.5 4.6
 #### 4.7 4.8
 
-Baños Vestier
+Banos Vestier
 Sala de descanso Comedor Pasillos Alameda
 Edificio Operación y Servicios Patio abierto de almacenamiento Tanques y lubricantes
 Bodega de almacenamiento Recarga de baterías
@@ -1209,18 +1209,18 @@ El taller liviano deberá contar con las siguientes áreas funcionales y operati
 Portería (Control de acceso)
 
 La función principal de la portería es el control, registro y monitoreo del ingreso y salida del personal que realizará los trabajos dentro del taller liviano, del mismo modo para las personas que acudan como visitantes.
-La portería control de acceso deberá tener una vigílancia de manera permanente (24 horas), y el área del edificio de portería deberá contar como mínimo de un baño por género, cuarto de aseo y una cocineta debidamente dotada para el personal.
+La portería control de acceso deberá tener una vigílancia de manera permanente (24 horas), y el área del edificio de portería deberá contar como mínimo de un bano por género, cuarto de aseo y una cocineta debidamente dotada para el personal.
 
 Edificio de operación, administración y servicios
 
 Este edificio deberá contar con las áreas mínimas presentadas en la Tabla 14.
 
-El edificio estará compuesto por un volumen que, por las necesidades propias de un taller mecánico para locomotoras, requiere alturas que cumplan con lo previsto en el Apéndice Técnico 3, para este tipo de área de trabajo, y aledaño a él se adosa un volumen menor con los espacios para el servicio mecánico, administrativo, área de repuestos, área para
+El edificio estará compuesto por un volumen que, por las necesidades propias de un taller mecánico para locomotoras, requiere alturas que cumplan con lo previsto en el Apéndice Técnico 3, para este tipo de área de trabajo, y aledano a él se adosa un volumen menor con los espacios para el servicio mecánico, administrativo, área de repuestos, área para
 Página 41 de 70
 
 disposición de residuos líquidos, sólidos y de servicios del personal.
 
-Estos volúmenes hacen referencia a los espacios propios del taller que sirven para prestar el servicio físico de mantenimiento, reparación sencilla y suministro, así como los espacios de oficinas, baños, duchas, almacenamiento, comedor, taller de soldadura, entre otros.
+Estos volúmenes hacen referencia a los espacios propios del taller que sirven para prestar el servicio físico de mantenimiento, reparación sencilla y suministro, así como los espacios de oficinas, banos, duchas, almacenamiento, comedor, taller de soldadura, entre otros.
 
 La función principal de este edificio es la de servir de mantenimiento básico, revisión de frenos abastecimiento de combustible y arena, entre otros. Desde este edificio se debe administrar el taller liviano y generar informes detallados de la operación del mismo a la administración del taller pesado.
 
@@ -1236,7 +1236,7 @@ o Area Total 3431
 #### 2.3 Cuarto técnico 10
 #### 2.4 Cocineta 10
 #### 2.5 Comedor 43
-#### 2.6 Baños 26
+#### 2.6 Banos 26
 #### 2.7 Compresor 26
 #### 2.8 Herramientas -Almacenamiento 47
 #### 2.9 Taller soldadura 21
@@ -1275,7 +1275,7 @@ SISTEMA DE AIRE COMPRIMIDO
 COMPRESOR AIRE COMPRIMIDO, DE TORNILLO ROTATIVO ELECTRICO 1
 50 HP 150 SCFM
 RECIPIENTE AIRE COMPRIMIDO Material ACERO AL CARBON, DE
-ACUERDO A LISTAS ESPECIFICADAS EN EL CODIGO DE DISEÑO. 1,4 M3 3
+ACUERDO A LISTAS ESPECIFICADAS EN EL CODIGO DE DISENO. 1,4 M3 3
 150 Dimensiones XlmXl,8m Peso 1040 K Es 38"
 SISTEMA DE RECEPCIÓN Y DESPACHO DE DIESEL Y ARENA
 Sistema de recibo y despacho de diese!: bomba centrifuga, empaques aptos para uso con productos derivados hidrocarburos eléctrico 10 hp 120 gpm presión: 60-100 psi; filtro coalescente, filtro de partículas, medidor de desplazamiento positivo NA NA
@@ -1329,16 +1329,16 @@ Portería (Control de acceso)
 
 La función principal de la portería es el control, registro y monitoreo del ingreso y salida del personal que realizará los trabajos, del mismo modo para las personas que acudan como visitantes.
 
-La portería control de acceso deberá tener una vigilancia de manera permanente (24 horas). El área del edificio de portería deberá contar como mínimo de un baño por género, cuarto de aseo y una cocineta debidamente dotada para el personal.
+La portería control de acceso deberá tener una vigilancia de manera permanente (24 horas). El área del edificio de portería deberá contar como mínimo de un bano por género, cuarto de aseo y una cocineta debidamente dotada para el personal.
 
 Edificio de administración de la operación
-Se compone de un bloque de dos pisos en el que se desarrollan las diferentes oficinas y espacios de servicio necesarios para la operación. En la primera planta se ubicarán las áreas de recepción, enfermería, baños, depósitos, salas de conferencias, entre otros. En el segundo piso se ubicarán las áreas de oficinas abiertas, baños y un área de descanso.
+Se compone de un bloque de dos pisos en el que se desarrollan las diferentes oficinas y espacios de servicio necesarios para la operación. En la primera planta se ubicarán las áreas de recepción, enfermería, banos, depósitos, salas de conferencias, entre otros. En el segundo piso se ubicarán las áreas de oficinas abiertas, banos y un área de descanso.
 
 Se planteará un edificio de estructura metálica con un sistema en paneles prefabricados modulares con fachadas abiertas.
 
 Edificio centro de control de la operación
 
-Este volumen es una barra paralela al volumen de la administración, de un solo piso en el que se desarrollarán las actividades propias del centro de control, con espacios para la data center, CCTV, refrigeración de equipos, baños, oficinas, área de descanso para el personal, sala de reuniones y cuarto de crisis. Además, deberá contar con salida de emergencia y un sistema contra incendios.
+Este volumen es una barra paralela al volumen de la administración, de un solo piso en el que se desarrollarán las actividades propias del centro de control, con espacios para la data center, CCTV, refrigeración de equipos, banos, oficinas, área de descanso para el personal, sala de reuniones y cuarto de crisis. Además, deberá contar con salida de emergencia y un sistema contra incendios.
 
 Tabla 16 - Características mínimas edificio administrativo y ceo
 
@@ -1348,7 +1348,7 @@ o
 Aréa Total
 Porterías
 Zona vi ilancia
-Baño
+Bano
 
 Página OC de [
 5800
@@ -1375,12 +1375,12 @@ Area de subestación
 #### 3.4 Área antena comunicaciones 90
 #### 3.5 Zonas verdes andenes 2315
 
-e) Sistema Señalización, Control de Tráfico y Comunicaciones
+e) Sistema Senalización, Control de Tráfico y Comunicaciones
 
-El Concesionario deberá llevar a cabo los Estudios de Detalle, trámite de Licencias y Permisos, Construcción, fabricación, suministro, instalación, dotación de equipos, pruebas y demás actividades necesarias requeridas para contar con un sistema de control de tráfico, señalización, y comunicaciones completamente operativo y funcional, que garantice la operación ferroviaria, seguimiento y control de trenes a lo largo de todo el Corredor del Proyecto y cumpla los requerimientos mínimos descritos en este Apéndice Técnico y el Apéndice Técnico 2, y que deberá ser compatible y permita la interoperabilidad con el tramo norte el cual se encuentra concesionado a la sociedad Ferrocarriles del Norte de Colombia
+El Concesionario deberá llevar a cabo los Estudios de Detalle, trámite de Licencias y Permisos, Construcción, fabricación, suministro, instalación, dotación de equipos, pruebas y demás actividades necesarias requeridas para contar con un sistema de control de tráfico, senalización, y comunicaciones completamente operativo y funcional, que garantice la operación ferroviaria, seguimiento y control de trenes a lo largo de todo el Corredor del Proyecto y cumpla los requerimientos mínimos descritos en este Apéndice Técnico y el Apéndice Técnico 2, y que deberá ser compatible y permita la interoperabilidad con el tramo norte el cual se encuentra concesionado a la sociedad Ferrocarriles del Norte de Colombia
 S.A. - FENOCO S.A.
 
-El Concesionario deberá cumplir con las especificaciones técnicas listadas en el Apéndice Técnico 3 y recomendadas para un sistema de control de tráfico y señalización, así como las características de la estructura de Vía Férrea necesarias para poder atender la demanda de transporte del Proyecto.
+El Concesionario deberá cumplir con las especificaciones técnicas listadas en el Apéndice Técnico 3 y recomendadas para un sistema de control de tráfico y senalización, así como las características de la estructura de Vía Férrea necesarias para poder atender la demanda de transporte del Proyecto.
 
 El Concesionario tiene la obligación de ejecutar las siguientes obras y actividades específicas, pero sin limitarse a:
 
@@ -1390,7 +1390,7 @@ Página 46 de 70
 
  Definición de operatividad en las estaciones de la Vía Férrea, bien mediante enclavamiento electrónico o aplicación de desvíos libres o con dispositivo de autotalonamiento.² Para efectos de las inversiones, las estaciones que deberán tener enclavamiento electrónico son las relacionadas en la Tabla 17.
  Definición del sistema de control de bloqueos de trenes por radio y su funcionamiento en caso de degradación.
- Definición de los sistemas de energía y respaldo de las estaciones, así como sistemas de alimentación de energía eléctrica necesaria de manera específica para los sistemas de Señalización y alimentación de equipos de radio.
+ Definición de los sistemas de energía y respaldo de las estaciones, así como sistemas de alimentación de energía eléctrica necesaria de manera específica para los sistemas de Senalización y alimentación de equipos de radio.
  Definición de los equipos embarcados a bordo de los trenes para su seguimiento, control y comunicaciones.
  Definición del puesto central de control, desde donde se coordinarán y dirigirán las operaciones ferroviarias, incluyendo la definición del número de puestos de control acordes con la partición o seccionamiento de la línea férrea (ya sea por grupos de unidades funcionales, por grupos de estaciones o por apartaderos)
  Definición de estaciones satélite, y su equipamiento
@@ -1418,7 +1418,7 @@ la zona. La topología de la red contempla los canales para las conexiones de vo
 
 El sistema de comunicaciones será el encargado de asegurar la interacción entre todos los trenes que operan sobre las vías componentes de la concesión y el centro de control y estaciones satélites, los pasos a nivel que se determinen habitados y todos los enlaces necesarios para el buen funcionamiento de los trenes.
 
-Las funcionalidades del sistema de comunicaciones, señalización y control deben garantizar la ubicación en tiempo real de los trenes, asignación de tramos o cantones seguros y exclusivos para su desplazamiento, así como accionamiento de cambiavías y pasos a nivel.
+Las funcionalidades del sistema de comunicaciones, senalización y control deben garantizar la ubicación en tiempo real de los trenes, asignación de tramos o cantones seguros y exclusivos para su desplazamiento, así como accionamiento de cambiavías y pasos a nivel.
 
 El sistema de comunicaciones estará compuesto por una red de fibra óptica y un sistema de comunicaciones inalámbrica (radio) que permitirán la interconexión entre los trenes, las instalaciones y el Centro de Control de Operaciones, según se defina en la tabla de movimientos e incompatibilidades del proyecto. Los sistemas principal y redundante de comunicaciones (fibra óptica y radio), deben permitir las comunicaciones de los trenes con el Centro de Control de Operaciones (CCO) y con los puestos descentralizados, de igual forma entre el CTC y los puestos descentralizados. Por otro lado, el sistema de comunicaciones dará cobertura al personal de operación y mantenimiento, así como los requisitos de llamadas uno a uno, como generales en todo el corredor o generales por tramo.
 
@@ -1434,21 +1434,21 @@ Los sistemas son:
  Sistema de seguimiento de trenes.
  Sistema de supervisión y control.
 
-Tabla 17 - Requerimientos mínimos para el Sistema Señalización, Control de Tráfico y
+Tabla 17 - Requerimientos mínimos para el Sistema Senalización, Control de Tráfico y
 Comunicaciones
 
-IMPLEMENTACIÓN SISTEMA DE SEÑALIZACIÓN, CONTROL DE TRÁFICO Y COMUNICACIONES
+IMPLEMENTACIÓN SISTEMA DE SENALIZACIÓN, CONTROL DE TRÁFICO Y COMUNICACIONES
 CONTROL DE TRENES. Control de tráfico que supervise la conducción del tren y que aplican
 el freno de emergencia cuando se cumplan algunas condiciones de seguridad, basado en los requerimientos y estándares establecidos por la Federal Railroad Administration (FRA) para sistemas tipo positive
 ---
 Página 48 de 70
 
-IMPLEMENTACIÓN SISTEMA DE SEÑALIZACIÓN, CONTROL DE TRÁFICO Y COMUNICACIONES
+IMPLEMENTACIÓN SISTEMA DE SENALIZACIÓN, CONTROL DE TRÁFICO Y COMUNICACIONES
 train control (PTC)⁴ con cantonamiento virtual, incluidos en código de regulaciones federales de Estados Unidos en el Título 49, Subtitulo B, Capítulo II, Parte 236, Subparte I.
 
 ENCLAVAMIENTOS.
 
-SEÑALIZACION
+SENALIZACION
 
 CENTRO DE CONTROL DE OPERACIONES.
 Cinco (5) enclavamientos y bloqueo automáticos electrónico estructurado (ENCE) uno en cada una de las estaciones operativas.
@@ -1459,8 +1459,8 @@ Cinco (5) enclavamientos y bloqueo automáticos electrónico estructurado (ENCE)
  La Dorada - México Control Centralizado de enclavamientos (CTC)
 
 Circuitos de audiofrecuencia
-Señalización a bordo del tren con los equipos embarcados que permitan recibir la información y detener el tren en caso de incumplimiento de la autorización de avance.
- Señalización semafórica en estaciones con ENCE
+Senalización a bordo del tren con los equipos embarcados que permitan recibir la información y detener el tren en caso de incumplimiento de la autorización de avance.
+ Senalización semafórica en estaciones con ENCE
  Equipos de Seguridad
  Sistemas de Monitoreo y Mantenimiento
  Sensores de presión
@@ -1483,8 +1483,8 @@ Software para el control tiempo real
 de Estados Unidos.
 Página 49 de 70
 
-IMPLEMENTACIÓN SISTEMA DE SEÑALIZACIÓN, CONTROL DE TRÁFICO Y COMUNICACIONES
-y su respaldo por un periodo de 5 años y minimizar el riesgo a intrusiones no autorizadas a los sistemas y su operación.
+IMPLEMENTACIÓN SISTEMA DE SENALIZACIÓN, CONTROL DE TRÁFICO Y COMUNICACIONES
+y su respaldo por un periodo de 5 anos y minimizar el riesgo a intrusiones no autorizadas a los sistemas y su operación.
  Implementar las herramientas para garantizar la seguridad fisica de las instalaciones del centro de gestión, Disponer de un sistema de cámaras fijas integradas.
  Contar con un sistema de videovigilancia adecuado para garantizar la seguridad de los operadores; cámaras de alta resolución, con sistemas de grabación y almacenamiento adecuados, y con sistemas de monitoreo que permitan una visualización en todas las áreas de la operación, las interfaces de usuario para el control por parte de los operadores, para interactuar con los sistemas y dispositivos del centro de control.
  Contar con los procesos y procedimientos para acceso al Centro de control de operaciones
@@ -1493,14 +1493,14 @@ y su respaldo por un periodo de 5 años y minimizar el riesgo a intrusiones no a
  Centralización de las operaciones de control de enclavamientos.
  Las operaciones de los enclavamientos, por seguridad y redundancia, deberán poder realizarse desde el centro de control de operaciones en forma prioritaria o en caso de delegación o contingencia desde los puestos de control descentralizados.
  Recepción de posición de trenes, desbloqueo automático de cantones.
- Debe contar con un sistema de alimentación ininterrumpida (SAI) que proporcione energía de respaldo para el equipo crítico del centro de control. El SAI debe estar diseñado para resistir posibles sobrecargas y caídas de tensión, y contar con un tiempo de autonomía suficiente para garantizar la continuidad del servicio en caso de una falla del suministro eléctrico, que cumpla las normativas aplicables y con las necesidades esnecíficas del centro de control.
+ Debe contar con un sistema de alimentación ininterrumpida (SAI) que proporcione energía de respaldo para el equipo crítico del centro de control. El SAI debe estar disenado para resistir posibles sobrecargas y caídas de tensión, y contar con un tiempo de autonomía suficiente para garantizar la continuidad del servicio en caso de una falla del suministro eléctrico, que cumpla las normativas aplicables y con las necesidades esnecíficas del centro de control.
 
 COMUNICACIONES.
 BackBone. Estará basado en transmisión por fibra óptica enterrada. La información que se reciba del radio TETRA se aterrizará a la fibra en el nodo más próximo y viajará por ella hasta el CTC. De igual forma todos los datos de control y comunicación entre puntos y Centro de control se transmitirán por la fibra.
 El Concesionario deberá realizar las inversiones necesarias para salvaguardar de vandalismo la fibra óptica como lo puede ser entre otros la protección con placa de concreto al interior de la zanja de instalación de la fibra óptica, así como sistemas de candados o aparatos de bloqueo para la apertura de cajas de inspección, o cualquier otra adecuación que garantice la protección de la fibra óptica. Así las cosas,
 Página! de '.7ª
 
-IMPLEMENTACIÓN SISTEMA DE SEÑALIZACIÓN, CONTROL DE TRÁFICO Y COMUNICACIONES
+IMPLEMENTACIÓN SISTEMA DE SENALIZACIÓN, CONTROL DE TRÁFICO Y COMUNICACIONES
 el Concesionario deberá garantizar la integridad permanentemente de la fibra óptica.
 Sistema Base Troncal. Implementación (diseno, instalación,
 suministro y pruebas) de un nuevo sistema de transmisión radio TETRA, definiéndose las ubicaciones de los puntos de acuerdo con el replanteo de la línea, y a los entornos poblacionales cercanos.
@@ -1511,7 +1511,7 @@ Se trata de un sistema:
  Estándar universal o de tecnología abierta.
  Permite sectorizar las comunicaciones y crear redes privadas IP punto a punto.
  Ofrecen cobertura para el personal de campo.
-Sistema redundante. Las comunicaciones con los trenes, los elementos de vía, y todos los actores de la Operación deberán contar con 100 de cobertura y podrán estar redundadas por una comunicación satelital. El sistema de fibra y radio deben de diseñarse para que garanticen la continuidad de las comunicaciones en el caso de aue una de las dos redes sufra interrupción o corte.
+Sistema redundante. Las comunicaciones con los trenes, los elementos de vía, y todos los actores de la Operación deberán contar con 100 de cobertura y podrán estar redundadas por una comunicación satelital. El sistema de fibra y radio deben de disenarse para que garanticen la continuidad de las comunicaciones en el caso de aue una de las dos redes sufra interrupción o corte.
 ---
 INTEROPERABILIDAD.
 
@@ -1528,7 +1528,7 @@ t) CCTV-UF2
 El Concesionario deberá implementar un Sistema de Circuito Cerrado de Televisión (CCTV) en al menos los siguientes sitios de la UF2: edificio administrativo, edificio de Centro de
 Página 51 de 70
 
-Control de Operaciones (CCO), talleres de mantenimiento de trenes, sitios de antenas de radio e intercomunicación yo repetidoras yo infraestructura de control de tráfico y señalización a lo largo del Corredor del Proyecto, para lo cual deberá llevar a cabo los Estudios y Disenos de Detalle, y deberá estar interconectado con el Centro de Control de Operaciones (CCO) en donde se mantendrá con la sala de monitoreo y la grabación y resguardo del video.
+Control de Operaciones (CCO), talleres de mantenimiento de trenes, sitios de antenas de radio e intercomunicación yo repetidoras yo infraestructura de control de tráfico y senalización a lo largo del Corredor del Proyecto, para lo cual deberá llevar a cabo los Estudios y Disenos de Detalle, y deberá estar interconectado con el Centro de Control de Operaciones (CCO) en donde se mantendrá con la sala de monitoreo y la grabación y resguardo del video.
 
 Del resultado de dicha Ingeniería de Detalle, el Concesionario definirá las cantidades requeridas. En todo caso, el Concesionario se obliga a cumplir los Niveles de Servicio requeridos para el control de tráfico y de estaciones, la seguridad vial férrea y vehicular - pasos a nivel, la seguridad de la carga y de las instalaciones logísticas, la seguridad de las instalaciones administrativas (accesos), y en general la vigilancia y el monitoreo (con video) de la infraestructura relevante.
 
@@ -1563,12 +1563,12 @@ c) CCTV (Circuito Cerrado de Televisión)
 d) Escáneres de pallets y contenedores
 e) Detección de metales
 f) Básculas
-g) Telefonía, voz y datos, con capacidad para lograr comunicaciones y transmisión de señales con el Edificio de Administración y Control de la Operación Férrea (ADM y CCO)
+g) Telefonía, voz y datos, con capacidad para lograr comunicaciones y transmisión de senales con el Edificio de Administración y Control de la Operación Férrea (ADM y CCO)
 CTC - Operación Temprana
 
 Hace parte de la Infraestructura Logística que debe desarrollar el Concesionario. Su localización se proyecta en las actuales instalaciones de la bodega IDEMA existente en el predio de la Estación México, compuesto por zonas para almacenamiento de contenedores, carga suelta, granel líquido y sólido, que permita la operación logística, hasta llegar a la capacidad operativa máxima que brinda el predio actual (cerca de 4.5 ha, de los cuales cerca de 2.6 ha son para patio de contenedores y carga suelta).
 
-Se estima que este CTC Operación Temprana podrá atender una operación aproximada de 850 mil toneladas año. El CTC - Operación Temprana deberá contar con las áreas mínimas descritas en la siguiente tabla.
+Se estima que este CTC Operación Temprana podrá atender una operación aproximada de 850 mil toneladas ano. El CTC - Operación Temprana deberá contar con las áreas mínimas descritas en la siguiente tabla.
 
 Tabla 19 - Características mínimas CTC Operación Temprana
 
@@ -1576,11 +1576,11 @@ o Aréa Total
 1 Porterías
 #### 1.1 Portería Acceso
 1.1.1 Zona vigilancia
-1.1.2 Baño
+1.1.2 Bano
 1.1.3 Cocineta
 #### 1.1 Portería Salida
 1.2.1 Zona vigilancia
-1.2.2 Baño
+1.2.2 Bano
 1.2.3 Cocineta
 2 Edificio Documentación
 #### 2.1 Acceso
@@ -1606,14 +1606,14 @@ Página de rij
 #### 2.4 Archivo 6
 #### 2.5 Rack 9
 #### 2.6 Sala de descanso 18
-#### 2.7 Baños 2
+#### 2.7 Banos 2
 #### 2.8 Comedor 18
 #### 2.9 Cocineta 3
 #### 2.10 Fotocopia dora 5
 #### 2.11 local de envíos 5
 #### 2.12 Cafetería 22
 #### 2.13 Comedor 88
-#### 2.14 Baños 19
+#### 2.14 Banos 19
 #### 2.15 Cuarto de aseo 4
 3 Edificio Oficinas 560
 #### 3.1 Recepción 60
@@ -1623,7 +1623,7 @@ Página de rij
 3'.5 Puestos de trabajo 180
 #### 3.6 Archivo 10
 #### 3.7 Depósito 10
-#### 3.8 Baños 20
+#### 3.8 Banos 20
 #### 3.9 Rack 15
 #### 3.10 Cuarto de aseo 5
 #### 3.11 Sala de descanso 80
@@ -1635,7 +1635,7 @@ Página de rij
 #### 4.2 Sala de descanso 40
 #### 4.3 Sala de reuniones 30
 #### 4.4 Cuarto técnico 6
-#### 4.5 Baño 6
+#### 4.5 Bano 6
 #### 4.6 INVIMA 25
 #### 4.7 Laboratorio 5
 #### 4.8 ICA 25
@@ -1649,7 +1649,7 @@ Página S de f:í8
 
 #### 4.15 Cuarto de vigilancia 12
 #### 4.16 Rack 12
-#### 4.17 Baños 23
+#### 4.17 Banos 23
 #### 4.18 Cuarto de aseo 5
 #### 4.19 Comedor 49
 #### 4.20 Cocineta 9
@@ -1659,7 +1659,7 @@ Página S de f:í8
 #### 6.1 Sala de descanso SS
 #### 6.2 Oficina de Servicios 12
 #### 6.3 Cuarto técnico 12
-#### 6.4 Baños - Lockers - Vestier 56
+#### 6.4 Banos - Lockers - Vestier 56
 #### 6.5 Comedor 45
 #### 6.6 Cocineta 7
 #### 6.7 Cuarto de aseo 4
@@ -1671,7 +1671,7 @@ Página S de f:í8
 #### 7.2 despacho de lubricantes 40
 #### 7.3 ÁreaContenedor de herramientas 40
 #### 7.4 Oficina de mantenimiento 60
-#### 7.5 Baños 18
+#### 7.5 Banos 18
 #### 7.6 Almacenamiento 18
 #### 7.7 Hall 24
 8 Áreas exteriores 39336
@@ -1750,7 +1750,7 @@ Página 57 de 70
 NORMA TÉCNICA DESCRIPCIÓN
 Ley 361 de 1997 Integración social de las personas con limitación
 Manual de referencia accesibilidad al medio físico y al transporte del Ministerio de transporte v el Invias
-NTC 4595 Planeamiento y diseno de Instalaciones y ambientes escolares NTC 4596 Señalizaciones nara instalaciones y ambientes escolares
+NTC 4595 Planeamiento y diseno de Instalaciones y ambientes escolares NTC 4596 Senalizaciones nara instalaciones y ambientes escolares
 
 Trámite de permisos y Licencias:
 
@@ -1760,7 +1760,7 @@ Las Intervenciones relacionadas con las instituciones educativas Puerto Olaya se
 
 A continuación, se describe la infraestructura mínima necesaria:
 
-El Concesionario deberá diseñar y construir las instalaciones necesarias que le permitan la reubicación de las Instituciones Educativas en el Municipio de Cimitarra que se encuentran afectadas por la localización dentro del Proyecto.
+El Concesionario deberá disenar y construir las instalaciones necesarias que le permitan la reubicación de las Instituciones Educativas en el Municipio de Cimitarra que se encuentran afectadas por la localización dentro del Proyecto.
 
  Institución Puerto Olaya Sede Escuela Rural Santo Domingo
 
@@ -1795,180 +1795,180 @@ Página 59 de 70
 #### 4.5 Pasos a nivel
 
 El Concesionario deberá llevar a cabo los Estudios y Disenos de Detalle los cuales deben incluir dentro de otras cosas, la evaluación de cada uno de los pasos a nivel existentes y tomar en cuenta eventuales nuevos pasos que resulten de la evaluación de la interacción segura de la operación férrea a su cargo y de los requerimientos de la comunidad, para así determinar todas las actuaciones necesarias para regularizar los pasos a nivel existentes y eventualmente nuevos.
-Ahora bien, en la Tabla 24 se presenta la relación mínima pero no limitada de los pasos a nivel identificados durante la Estructuración, los cuales deberán ser evaluados y actualizados por el Concesionario; en este sentido, el Concesionario deberá evaluar la tipología de señalización que a la fecha de la intervención se requiera para los pasos a nivel del Proyecto.
+Ahora bien, en la Tabla 24 se presenta la relación mínima pero no limitada de los pasos a nivel identificados durante la Estructuración, los cuales deberán ser evaluados y actualizados por el Concesionario; en este sentido, el Concesionario deberá evaluar la tipología de senalización que a la fecha de la intervención se requiera para los pasos a nivel del Proyecto.
 Así las cosas, el Concesionario deberá regularizar por lo menos un total de ciento cuarenta y seis
-(146) pasos a nivel, de los cuales mínimo nueve (9) de ellos deberán ser con señalización Tipo C y mínimo quince (15) con señalización Tipo B, y de acuerdo con los Estudios y Disenos de Detalle el Concesionario deberá evaluar el número de pasos a nivel que requieren señalización Tipo A. Sin perjuicio de lo anterior, en todo caso la Seguridad de los usuarios del corredor estará a cargo del concesionario.
-Para este efecto, la regularización se entiende como la implementación de las actuaciones relacionadas en la siguiente tabla, y el cumplimiento a lo especificado en el Manual de Señalización Vial del MINTRANSPORTE, así como la norma NTC 4741 - Especificaciones Técnicas para la Señalización de Vías Férreas y Pasos a Nivel.
+(146) pasos a nivel, de los cuales mínimo nueve (9) de ellos deberán ser con senalización Tipo C y mínimo quince (15) con senalización Tipo B, y de acuerdo con los Estudios y Disenos de Detalle el Concesionario deberá evaluar el número de pasos a nivel que requieren senalización Tipo A. Sin perjuicio de lo anterior, en todo caso la Seguridad de los usuarios del corredor estará a cargo del concesionario.
+Para este efecto, la regularización se entiende como la implementación de las actuaciones relacionadas en la siguiente tabla, y el cumplimiento a lo especificado en el Manual de Senalización Vial del MINTRANSPORTE, así como la norma NTC 4741 - Especificaciones Técnicas para la Senalización de Vías Férreas y Pasos a Nivel.
 
-Pasos a Nivel Protegidos exclusivamente con Señales Fijas.
+Pasos a Nivel Protegidos exclusivamente con Senales Fijas.
 
-Pasos a Nivel Protegidos con Señales Luminosas y Acústicas (S.L.A).
+Pasos a Nivel Protegidos con Senales Luminosas y Acústicas (S.L.A).
 
 Pasos a Nivel Protegidos con Semibarreras, dobles Semibarreras o Barreras, Automáticas o Enclavadas (S.B.E., S.B.A. ó S.B.E.S.B.A.).
 
 Cabe aclarar que la actuación para la Clase C también incluye las actuaciones definidas en la Clase B y Clase A; y que la actuación Clase B también incluye lo definido en la actuación Clase A.
-Adicionalmente, el accionamiento y control de los equipos tecnológicos de los pasos a nivel Clase B y C (como lo son señales lumínicas, sonoras, y talanqueras) deberá estar interconectado y contar con enclavamiento y automatización centralizada desde el Centro de Control de Operaciones (CCO), y desde los enclavamientos y bloqueo automáticos electrónico estructurado (ENCE).
+Adicionalmente, el accionamiento y control de los equipos tecnológicos de los pasos a nivel Clase B y C (como lo son senales lumínicas, sonoras, y talanqueras) deberá estar interconectado y contar con enclavamiento y automatización centralizada desde el Centro de Control de Operaciones (CCO), y desde los enclavamientos y bloqueo automáticos electrónico estructurado (ENCE).
 Página 60 de 70
 
 Así las cosas, deberán ser regularizados los siguientes pasos a nivel según la clase de la tabla anterior:
 
 Tabla 24 - Relación de pasos a nivel identificados en la Estructuración
 
-PK202+460- CAT-2-Tramo 1 La Dorada Señalización Tipo C
-2 PK 206000 - CAT-1 - Tramo l La Dorada Señalización Tipo C Vía Norcasia-La
+PK202+460- CAT-2-Tramo 1 La Dorada Senalización Tipo C
+2 PK 206000 - CAT-1 - Tramo l La Dorada Senalización Tipo C Vía Norcasia-La
 Dorada
-3 PK 206320 - CAT-3 - Tramo l La Dorada Señalización Tipo A
-4 PK 209550 - CAT-3 - Tramo 1 La Dorada Señalización Tipo A
-5 PK 224200 - CAT-3 - Tramo 1 La Dorada Señalización Tipo A
-6 PK 225117 - CAT-3 - Tramo l La Dorada Señalización Tipo A
-7 PK 230000 - CAT-3 - Tramo l La Dorada Señalización Tipo A
-8 PK 234420 - CAT-3 - Tramo 1 La Dorada Señalización Tipo A
-9 PK 237050 - CAT-3 - Tramo 1 La Dorada Señalización Tipo A
-10 PK 250240 - CAT-3 - Tramo 1 Puerto Triunfo Señalización Tipo A
-11 PK 253700 - CAT-3 - Tramo 1 Puerto Triunfo Señalización Tipo A
-12 PK 253800 - CAT-3 - Tramo l Puerto Triunfo Señalización Tipo A
-13 PK 254300 - CAT-3 - Tramo 1 Puerto Triunfo Señalización Tipo A
-14 PK 257690 - CAT-3 - Tramo 1 Puerto Triunfo Señalización Tipo A
-15 PK 259250 - CAT-3 - Tramo 1 Puerto Triunfo Señalización Tipo A
-16 PK 259300 - CAT-3 - Tramo 1 Puerto Triunfo Señalización Tipo A
-17 PK 265380 - CAT-3 - Tramo l Puerto Triunfo Señalización Tipo A
-18 PK 269085 - CAT-3 - Tramo 1 Puerto Triunfo Señalización Tipo A
-19 PK 269340 - CAT-3 - Tramo 1 Puerto Triunfo Señalización Tipo A
-20 PK 276680 - CAT-3 - Tramo l Puerto Nare Señalización Tipo A
-21 PK 277950 - CAT-2 - Tramo l Puerto Nare Señalización Tipo B
-22 PK 287810 - CAT-2 - Tramo 1 Puerto Nare Señalización Tipo B
-23 PK 290850 - CAT-3 - Tramo 1 Puerto Nare Señalización Tipo A
-24 PK 293900 - CAT-3 - Tramo 1 Puerto Nare Señalización Tipo A
-25 PK 296300 - CAT-3 - Tramo 1 Puerto Nare Señalización Tipo A
-26 PK 301100- CAT-3 -Tramo 1 Puerto Berrío Señalización Tipo A
-27 PK 301 700 - CAT-3 - Tramo 1 Puerto Berrío Señalización Tipo A
-28 PK 327400 - CAT-3 - Tramo l Puerto Berrío Señalización Tipo A
-29 PK330000- CAT-3 -Tramo 1 Puerto Berrío Señalización Tipo A
-30 PK331770- CAT-2-Tramo 1 Puerto Berrío Señalización Tipo C
-31 PK 331970 - CAT-3 - Tramo l Puerto Berrío Señalización Tipo A
-32 PK 336700 - CAT-3 - Tramo 2 Cimitarra Señalización Tipo A
-33 PK 351110 - CAT-3 - Tramo 2 Cimitarra Señalización Tipo A
-34 PK 355480 - CAT-3 - Tramo 2 Cimitarra Señalización Tipo A
-35 PK 359800 - CAT-3 - Tramo 2 Cimitarra Señalización Tipo A
-36 PK 367200 - CAT-3 - Tramo 2 Cimitarra Señalización Tipo A
+3 PK 206320 - CAT-3 - Tramo l La Dorada Senalización Tipo A
+4 PK 209550 - CAT-3 - Tramo 1 La Dorada Senalización Tipo A
+5 PK 224200 - CAT-3 - Tramo 1 La Dorada Senalización Tipo A
+6 PK 225117 - CAT-3 - Tramo l La Dorada Senalización Tipo A
+7 PK 230000 - CAT-3 - Tramo l La Dorada Senalización Tipo A
+8 PK 234420 - CAT-3 - Tramo 1 La Dorada Senalización Tipo A
+9 PK 237050 - CAT-3 - Tramo 1 La Dorada Senalización Tipo A
+10 PK 250240 - CAT-3 - Tramo 1 Puerto Triunfo Senalización Tipo A
+11 PK 253700 - CAT-3 - Tramo 1 Puerto Triunfo Senalización Tipo A
+12 PK 253800 - CAT-3 - Tramo l Puerto Triunfo Senalización Tipo A
+13 PK 254300 - CAT-3 - Tramo 1 Puerto Triunfo Senalización Tipo A
+14 PK 257690 - CAT-3 - Tramo 1 Puerto Triunfo Senalización Tipo A
+15 PK 259250 - CAT-3 - Tramo 1 Puerto Triunfo Senalización Tipo A
+16 PK 259300 - CAT-3 - Tramo 1 Puerto Triunfo Senalización Tipo A
+17 PK 265380 - CAT-3 - Tramo l Puerto Triunfo Senalización Tipo A
+18 PK 269085 - CAT-3 - Tramo 1 Puerto Triunfo Senalización Tipo A
+19 PK 269340 - CAT-3 - Tramo 1 Puerto Triunfo Senalización Tipo A
+20 PK 276680 - CAT-3 - Tramo l Puerto Nare Senalización Tipo A
+21 PK 277950 - CAT-2 - Tramo l Puerto Nare Senalización Tipo B
+22 PK 287810 - CAT-2 - Tramo 1 Puerto Nare Senalización Tipo B
+23 PK 290850 - CAT-3 - Tramo 1 Puerto Nare Senalización Tipo A
+24 PK 293900 - CAT-3 - Tramo 1 Puerto Nare Senalización Tipo A
+25 PK 296300 - CAT-3 - Tramo 1 Puerto Nare Senalización Tipo A
+26 PK 301100- CAT-3 -Tramo 1 Puerto Berrío Senalización Tipo A
+27 PK 301 700 - CAT-3 - Tramo 1 Puerto Berrío Senalización Tipo A
+28 PK 327400 - CAT-3 - Tramo l Puerto Berrío Senalización Tipo A
+29 PK330000- CAT-3 -Tramo 1 Puerto Berrío Senalización Tipo A
+30 PK331770- CAT-2-Tramo 1 Puerto Berrío Senalización Tipo C
+31 PK 331970 - CAT-3 - Tramo l Puerto Berrío Senalización Tipo A
+32 PK 336700 - CAT-3 - Tramo 2 Cimitarra Senalización Tipo A
+33 PK 351110 - CAT-3 - Tramo 2 Cimitarra Senalización Tipo A
+34 PK 355480 - CAT-3 - Tramo 2 Cimitarra Senalización Tipo A
+35 PK 359800 - CAT-3 - Tramo 2 Cimitarra Senalización Tipo A
+36 PK 367200 - CAT-3 - Tramo 2 Cimitarra Senalización Tipo A
 Página 61 de 70
 
-37 PK 370760 - CAT-3 - Tramo 2 Cimitarra Señalización Tipo A
-38 PK 377 150 - CAT-3 - Tramo 2 Puerto Parra Señalización Tipo A
-39 PK 382400 - CAT-3 - Tramo 2 Puerto Parra Señalización Tipo A
-40 PK 387600 - CAT-3 - Tramo 2 Puerto Parra Señalización Tipo A
-41 PK 389760 - CAT-3 -Tramo 2 Puerto Parra Señalización Tipo A
-42 PK 392730 - CAT-3 -Tramo 2 Puerto Parra Señalización Tipo A
-43 PK 397300 - CAT-3 -Tramo 2 Puerto Parra Señalización Tipo A
-44 PK 403760 - CAT-3 -Tramo 2 Simacota Señalización Tipo A
-45 PK 406010 - CAT-3 - Tramo 2 Simacota Señalización Tipo A
-46 PK 407250 - CAT-3 - Tramo 2 Sirnacota Señalización Tipo A
-47 PK 408100 - CAT-3 - Tramo 2 Simacota Señalización Tipo A
-48 PK 408600 - CAT-3 - Tramo 2 Simacota Señalización Tipo A
-49 PK411180- CAT-3 -Tramo 2 Simacota Señalización Tipo A
-50 PK 417800 - CAT-3 - Tramo 2 Simacota Señalización Tipo A
-51 PK 431500 - CAT-3 - Tramo 2 Barrancabermeja Señalización Tipo A
-52 PK 432250 - CAT-3 - Tramo 2 Barrancabermeja Señalización Tipo A
-53 PK 433200 - CAT-3 - Tramo 2 Barrancabermeja Señalización Tipo A
-54 PK 439740 - CAT-2 - Tramo 2 Barrancabermeja Señalización Tipo C
-55 PK 441450 - CAT-3 - Tramo 2 Barrancabermeja Señalización Tipo A
-56 PK 441770 - CAT-2 -Trarno 2 Barrancabermeja Señalización Tipo C
-57 PK 443080 - CAT-2 - Tramo 2 Barrancabermeja Señalización Tipo C
-58 PK 444150 - CAT-3 -Tramo 2 Barrancabermeja Señalización Tipo A
-59 PK 445400 - CAT-2 - Tramo 2 Barrancabermeja Señalización Tipo B
-60 PK 445700 - CAT-3 -Tramo 2 Barrancabermeja Señalización Tipo A 610 PK 447850 - CAT-3 - Tramo 2 Barrancabermeja Señalización Tipo A
-62 PK 447900 - CAT-3 -Tramo 2 Barrancabermeja Señalización Tipo A
-63 PK 448490 - CAT-2 -Tramo 2 Barrancabermeja Señalización Tipo B
-64 PK 449250 CAT-3 - Tramo 2 Barrancabenneja Señalización Tipo A
-65 PK 449420 - CAT-3 - Tramo 2 Barrancaberrneja Señalización Tipo A
-66 PK 450 100 - CAT-3 - Tramo 2 Barrancaberrneja Señalización Tipo A
-67 PK 453530 - CAT-2 - Tramo 2 Barrancabermeja Señalización Tipo B
-68 PK 450260 - CAT-3 - Tramo 2 Barrancabermeja Señalización Tipo A
-69 PK 458 130 - CAT-3 - Tramo 2 Barrancabermeja Señalización Tipo A
-70 PK 465030 - CAT-3 - Tramo 2 Barrancabermeja Señalización Tipo A
-71 PK 465250 - CAT-2 - Tramo 2 Puerto Wilches Señalización Tipo B
-72 PK 465400 - CAT-3 - Tramo 2 Puerto Wilches Señalización Tipo A
-73 PK 465500 - CAT-2- Tramo 2 Puerto Wilches Señalización Tipo C
-74 PK 465800 - CAT-3 - Tramo 2 Puerto Wilches Señalización Tipo A
-75 PK 466120 - CAT-3 - Tramo 2 Puerto Wilches Señalización Tipo A
-76 PK 466650 - CAT-3 - Tramo 2 Puerto Wilches Señalización Tipo A
+37 PK 370760 - CAT-3 - Tramo 2 Cimitarra Senalización Tipo A
+38 PK 377 150 - CAT-3 - Tramo 2 Puerto Parra Senalización Tipo A
+39 PK 382400 - CAT-3 - Tramo 2 Puerto Parra Senalización Tipo A
+40 PK 387600 - CAT-3 - Tramo 2 Puerto Parra Senalización Tipo A
+41 PK 389760 - CAT-3 -Tramo 2 Puerto Parra Senalización Tipo A
+42 PK 392730 - CAT-3 -Tramo 2 Puerto Parra Senalización Tipo A
+43 PK 397300 - CAT-3 -Tramo 2 Puerto Parra Senalización Tipo A
+44 PK 403760 - CAT-3 -Tramo 2 Simacota Senalización Tipo A
+45 PK 406010 - CAT-3 - Tramo 2 Simacota Senalización Tipo A
+46 PK 407250 - CAT-3 - Tramo 2 Sirnacota Senalización Tipo A
+47 PK 408100 - CAT-3 - Tramo 2 Simacota Senalización Tipo A
+48 PK 408600 - CAT-3 - Tramo 2 Simacota Senalización Tipo A
+49 PK411180- CAT-3 -Tramo 2 Simacota Senalización Tipo A
+50 PK 417800 - CAT-3 - Tramo 2 Simacota Senalización Tipo A
+51 PK 431500 - CAT-3 - Tramo 2 Barrancabermeja Senalización Tipo A
+52 PK 432250 - CAT-3 - Tramo 2 Barrancabermeja Senalización Tipo A
+53 PK 433200 - CAT-3 - Tramo 2 Barrancabermeja Senalización Tipo A
+54 PK 439740 - CAT-2 - Tramo 2 Barrancabermeja Senalización Tipo C
+55 PK 441450 - CAT-3 - Tramo 2 Barrancabermeja Senalización Tipo A
+56 PK 441770 - CAT-2 -Trarno 2 Barrancabermeja Senalización Tipo C
+57 PK 443080 - CAT-2 - Tramo 2 Barrancabermeja Senalización Tipo C
+58 PK 444150 - CAT-3 -Tramo 2 Barrancabermeja Senalización Tipo A
+59 PK 445400 - CAT-2 - Tramo 2 Barrancabermeja Senalización Tipo B
+60 PK 445700 - CAT-3 -Tramo 2 Barrancabermeja Senalización Tipo A 610 PK 447850 - CAT-3 - Tramo 2 Barrancabermeja Senalización Tipo A
+62 PK 447900 - CAT-3 -Tramo 2 Barrancabermeja Senalización Tipo A
+63 PK 448490 - CAT-2 -Tramo 2 Barrancabermeja Senalización Tipo B
+64 PK 449250 CAT-3 - Tramo 2 Barrancabenneja Senalización Tipo A
+65 PK 449420 - CAT-3 - Tramo 2 Barrancaberrneja Senalización Tipo A
+66 PK 450 100 - CAT-3 - Tramo 2 Barrancaberrneja Senalización Tipo A
+67 PK 453530 - CAT-2 - Tramo 2 Barrancabermeja Senalización Tipo B
+68 PK 450260 - CAT-3 - Tramo 2 Barrancabermeja Senalización Tipo A
+69 PK 458 130 - CAT-3 - Tramo 2 Barrancabermeja Senalización Tipo A
+70 PK 465030 - CAT-3 - Tramo 2 Barrancabermeja Senalización Tipo A
+71 PK 465250 - CAT-2 - Tramo 2 Puerto Wilches Senalización Tipo B
+72 PK 465400 - CAT-3 - Tramo 2 Puerto Wilches Senalización Tipo A
+73 PK 465500 - CAT-2- Tramo 2 Puerto Wilches Senalización Tipo C
+74 PK 465800 - CAT-3 - Tramo 2 Puerto Wilches Senalización Tipo A
+75 PK 466120 - CAT-3 - Tramo 2 Puerto Wilches Senalización Tipo A
+76 PK 466650 - CAT-3 - Tramo 2 Puerto Wilches Senalización Tipo A
 
 Página 62 de 70
 
-77 PK 468400 - CAT-3 -Tramo 2 Puerto Wilches Señalización Tipo A
-78 PK 473300 - CAT-2 - Tramo 2 Puerto Wilches Señalización Tipo B
-79 PK475300 - CAT-3 -Tramo 2 Puerto Wilches Señalización Tipo A
-80 PK 478180 - CAT-3 -Tramo 2 Puerto Wilches Señalización Tipo A
-81 PK 478430 - CAT-3 - Tramo 2 Puerto Wilches Señalización Tipo A
-82 PK 479930 - CAT-3 -Tramo 2 Puerto Wilches Señalización Tipo A
-83 PK480940- CAT-3 -Tramo 2 Puerto Wilches Señalización Tipo A
-84 PK 481990 - CAT-3 - Tramo 2 Puerto Wilches Señalización Tipo A
-85 PK484000 - CAT-3 -Tramo 2 Puerto Wilches Señalización Tipo A
-86 PK 486740 - CAT-3 - Tramo 2 Sabana de Torres Señalización Tipo A
-87 PK 499900- CAT-3 -Tramo 2 Sabana de Torres Señalización Tipo A
-88 PK 505500 - CAT-3 -Tramo 2 Sabana de Torres Señalización Tipo A
-89 PK 510240 - CAT-3 - Tramo 2 Sabana de Torres Señalización Tipo A
-90 PK 514800 - CAT-3 -Tramo 2 Sabana de Torres Señalización Tipo A
-91 PK 515100 - CAT-3 - Tramo 2 Sabana de Torres Señalización Tipo A
-92 PK 517250 - CAT-3 - Tramo 2 Rionegro Señalización Tipo A
-93 PK 517600 - CAT-2-Tramo 2 Rionegro Señalización Tipo B
-94 PK 521200 - CAT-3 - Tramo 2 Rionegro Señalización Tipo A
-95 PK 523120- CAT-3 - Tramo 2 Rionegro Señalización Tipo A
-96 PK 533240 - CAT-3 - Tramo 2 San Alberto Señalización Tipo A
-97 PK 534200 - CAT-3 - Tramo 2 San Alberto Señalización Tipo A
-98 PK 534320 - CAT-3 - Tramo 2 San Alberto Señalización Tipo A
-99 PK 539400 - CAT-3 -Tramo 2 San Alberto Señalización Tipo A
-100 PK 545500 - CAT-3 - Tramo 2 San Martín Señalización Tipo A
-101 PK 546800 - CAT-2 - Tramo 2 San Martín Señalización Tipo B
-102 PK 549590 - CAT-3 - Tramo 2 San Martín Señalización Tipo A
-103 PK 550250 - CAT-3 - Tramo 2 San Martín Señalización Tipo A
-104 PK 550740 - CAT-3 - Tramo 2 San Martín Señalización Tipo A
-105 PK 552400 - CAT-3 - Tramo 2 San Martín Señalización Tipo A
-106 PK 552900 - CAT-3 - Tramo 2 San Martín Señalización Tipo A
-107 PK 557420 - CAT-3 - Tramo 2 San Martín Señalización Tipo A
-108 PK 563250 - CAT-3 - Tramo 2 San Martín Señalización Tipo A
-109 PK 565200 - CAT-3 - Tramo 2 San Martín Señalización Tipo A
-110 PK 569970- CAT-3 -Tramo 2 San Martín Señalización Tipo A
-111 PK 577580 - CAT-3 - Tramo 2 Río de Oro Señalización Tipo A
-112 PK 579100 - CAT-3 - Tramo 2 Aguachica Señalización Tipo A
-113 PK 583470 - CAT-3 - Tramo 2 Aguachica Señalización Tipo A
-114 PK 587030 - CAT-3 - Tramo 2 Aguachica Señalización Tipo A
-115 PK 591400 - CAT-2 - Tramo 2 Aguachica Señalización Tipo C
-116 PK 592850 - CAT-3 - Tramo 3 Gamarra Señalización Tipo A
+77 PK 468400 - CAT-3 -Tramo 2 Puerto Wilches Senalización Tipo A
+78 PK 473300 - CAT-2 - Tramo 2 Puerto Wilches Senalización Tipo B
+79 PK475300 - CAT-3 -Tramo 2 Puerto Wilches Senalización Tipo A
+80 PK 478180 - CAT-3 -Tramo 2 Puerto Wilches Senalización Tipo A
+81 PK 478430 - CAT-3 - Tramo 2 Puerto Wilches Senalización Tipo A
+82 PK 479930 - CAT-3 -Tramo 2 Puerto Wilches Senalización Tipo A
+83 PK480940- CAT-3 -Tramo 2 Puerto Wilches Senalización Tipo A
+84 PK 481990 - CAT-3 - Tramo 2 Puerto Wilches Senalización Tipo A
+85 PK484000 - CAT-3 -Tramo 2 Puerto Wilches Senalización Tipo A
+86 PK 486740 - CAT-3 - Tramo 2 Sabana de Torres Senalización Tipo A
+87 PK 499900- CAT-3 -Tramo 2 Sabana de Torres Senalización Tipo A
+88 PK 505500 - CAT-3 -Tramo 2 Sabana de Torres Senalización Tipo A
+89 PK 510240 - CAT-3 - Tramo 2 Sabana de Torres Senalización Tipo A
+90 PK 514800 - CAT-3 -Tramo 2 Sabana de Torres Senalización Tipo A
+91 PK 515100 - CAT-3 - Tramo 2 Sabana de Torres Senalización Tipo A
+92 PK 517250 - CAT-3 - Tramo 2 Rionegro Senalización Tipo A
+93 PK 517600 - CAT-2-Tramo 2 Rionegro Senalización Tipo B
+94 PK 521200 - CAT-3 - Tramo 2 Rionegro Senalización Tipo A
+95 PK 523120- CAT-3 - Tramo 2 Rionegro Senalización Tipo A
+96 PK 533240 - CAT-3 - Tramo 2 San Alberto Senalización Tipo A
+97 PK 534200 - CAT-3 - Tramo 2 San Alberto Senalización Tipo A
+98 PK 534320 - CAT-3 - Tramo 2 San Alberto Senalización Tipo A
+99 PK 539400 - CAT-3 -Tramo 2 San Alberto Senalización Tipo A
+100 PK 545500 - CAT-3 - Tramo 2 San Martín Senalización Tipo A
+101 PK 546800 - CAT-2 - Tramo 2 San Martín Senalización Tipo B
+102 PK 549590 - CAT-3 - Tramo 2 San Martín Senalización Tipo A
+103 PK 550250 - CAT-3 - Tramo 2 San Martín Senalización Tipo A
+104 PK 550740 - CAT-3 - Tramo 2 San Martín Senalización Tipo A
+105 PK 552400 - CAT-3 - Tramo 2 San Martín Senalización Tipo A
+106 PK 552900 - CAT-3 - Tramo 2 San Martín Senalización Tipo A
+107 PK 557420 - CAT-3 - Tramo 2 San Martín Senalización Tipo A
+108 PK 563250 - CAT-3 - Tramo 2 San Martín Senalización Tipo A
+109 PK 565200 - CAT-3 - Tramo 2 San Martín Senalización Tipo A
+110 PK 569970- CAT-3 -Tramo 2 San Martín Senalización Tipo A
+111 PK 577580 - CAT-3 - Tramo 2 Río de Oro Senalización Tipo A
+112 PK 579100 - CAT-3 - Tramo 2 Aguachica Senalización Tipo A
+113 PK 583470 - CAT-3 - Tramo 2 Aguachica Senalización Tipo A
+114 PK 587030 - CAT-3 - Tramo 2 Aguachica Senalización Tipo A
+115 PK 591400 - CAT-2 - Tramo 2 Aguachica Senalización Tipo C
+116 PK 592850 - CAT-3 - Tramo 3 Gamarra Senalización Tipo A
 ---
 Página 63 de 70
 
-117 PK 596245 - CAT-3 - Tramo 3 Gamarra Señalización Tipo A
-118 PK 600100 - CAT-3 - Tramo 3 Gamarra Señalización Tipo A
-119 PK 600800 - CAT-3 - Tramo 3 Gamarra Señalización Tipo A
-120 PK 604750 - CAT-3 - Tramo 3 Gamarra Señalización Tipo A
-121 PK 607900 - CAT-3 - Tramo 3 Gamarra Señalización Tipo A
-122 PK 609000 - CAT-3 - Tramo 3 Gamarra Señalización Tipo A
-123 PK 613960 - CAT-3 -Tramo 3 Gamarra Señalización Tipo A
-124 PK 616910 - CAT-3 -Tramo 3 Gamarra Señalización Tipo A
-125 PK 635950 - CAT-2 - Tramo 3 La Gloria Señalización Tipo B
-126 PK 636600 - CAT-3 - Tramo 3 La Gloria Señalización Tipo A
-127 PK 641490 - CAT-2 - Tramo 3 Pelaya Señalización Tipo B
-128 PK 643235 - CAT-3 - Tramo 3 Pelaya Señalización Tipo A
-129 PK 644990 - CAT-2 - Tramo 3 Pelaya Señalización Tipo B
-130 PK 656900 - CAT-3 - Tramo 3 Tamalameque Señalización Tipo A
-131 PK 664400 - CAT-1 - Tramo 3 Tamalameque Señalización Tipo C Vía
+117 PK 596245 - CAT-3 - Tramo 3 Gamarra Senalización Tipo A
+118 PK 600100 - CAT-3 - Tramo 3 Gamarra Senalización Tipo A
+119 PK 600800 - CAT-3 - Tramo 3 Gamarra Senalización Tipo A
+120 PK 604750 - CAT-3 - Tramo 3 Gamarra Senalización Tipo A
+121 PK 607900 - CAT-3 - Tramo 3 Gamarra Senalización Tipo A
+122 PK 609000 - CAT-3 - Tramo 3 Gamarra Senalización Tipo A
+123 PK 613960 - CAT-3 -Tramo 3 Gamarra Senalización Tipo A
+124 PK 616910 - CAT-3 -Tramo 3 Gamarra Senalización Tipo A
+125 PK 635950 - CAT-2 - Tramo 3 La Gloria Senalización Tipo B
+126 PK 636600 - CAT-3 - Tramo 3 La Gloria Senalización Tipo A
+127 PK 641490 - CAT-2 - Tramo 3 Pelaya Senalización Tipo B
+128 PK 643235 - CAT-3 - Tramo 3 Pelaya Senalización Tipo A
+129 PK 644990 - CAT-2 - Tramo 3 Pelaya Senalización Tipo B
+130 PK 656900 - CAT-3 - Tramo 3 Tamalameque Senalización Tipo A
+131 PK 664400 - CAT-1 - Tramo 3 Tamalameque Senalización Tipo C Vía
 Tamalame ue-El Burro
-132 . PK 665+000- CAT-3 -Tramo 3 Pailitas Señalización Tipo A
-133 PK 672300- CAT-3 -Tramo 3 Pailitas Señalización Tipo A
-134 PK 678500 - CAT-3 -Tramo 3 Tarnalameque Señalización Tipo A
-135 PK 680500 - CAT-2 - Tramo 3 Pailitas Señalización Tipo B
-136 PK 681500 - CAT-3 -Tramo 3 Tamalameque Señalización Tipo A
-137 PK 689560 - CAT-2 -Tramo 3 Chimichagua Señalización Tipo B
-138 PK 694450 - CAT-3 - Tramo 3 Chimichagua Señalización Tipo A
-139 PK 698500 - CAT-3 -Tramo 3 Curumaní Señalización Tipo A
-140 PK 699260 - CAT-3 - Tramo 3 Curumaní Señalización Tipo A
-141 PK 700700 - CAT-3 - Tramo 3 Curumaní Señalización Tipo A
-142 PK 703100 - CAT-3 -Tramo 3 Curumaní Señalización Tipo A
-143 PK 708970 - CAT-3 - Tramo 3 Curumaní Señalización Tipo A
-144 PK 718240 - CAT-3 -Tramo 3 Chiriguaná Señalización Tipo A
-145 PK 720440 - CAT-3 - Tramo 3 Chiriguaná Señalización Tipo A
-146 PK 721 150 - CAT-3 - Tramo 3 Chiriguaná Señalización Tipo A
+132 . PK 665+000- CAT-3 -Tramo 3 Pailitas Senalización Tipo A
+133 PK 672300- CAT-3 -Tramo 3 Pailitas Senalización Tipo A
+134 PK 678500 - CAT-3 -Tramo 3 Tarnalameque Senalización Tipo A
+135 PK 680500 - CAT-2 - Tramo 3 Pailitas Senalización Tipo B
+136 PK 681500 - CAT-3 -Tramo 3 Tamalameque Senalización Tipo A
+137 PK 689560 - CAT-2 -Tramo 3 Chimichagua Senalización Tipo B
+138 PK 694450 - CAT-3 - Tramo 3 Chimichagua Senalización Tipo A
+139 PK 698500 - CAT-3 -Tramo 3 Curumaní Senalización Tipo A
+140 PK 699260 - CAT-3 - Tramo 3 Curumaní Senalización Tipo A
+141 PK 700700 - CAT-3 - Tramo 3 Curumaní Senalización Tipo A
+142 PK 703100 - CAT-3 -Tramo 3 Curumaní Senalización Tipo A
+143 PK 708970 - CAT-3 - Tramo 3 Curumaní Senalización Tipo A
+144 PK 718240 - CAT-3 -Tramo 3 Chiriguaná Senalización Tipo A
+145 PK 720440 - CAT-3 - Tramo 3 Chiriguaná Senalización Tipo A
+146 PK 721 150 - CAT-3 - Tramo 3 Chiriguaná Senalización Tipo A
 ---
 Página 64 de 70
 
@@ -1976,7 +1976,7 @@ Página 64 de 70
 
 5 .1. Material Rodante del Proyecto
 
-. El Concesionario tiene la obligación de realizar la Puesta a Punto a todo el Material Rodante del Proyecto. Dichas actuaciones corresponden a todas aquellas actividades que incluyen y sin limitarse, al completo desmontaje, limpieza, inspección, diagnóstico, reacondicionamiento, reparación o reemplazo de sistemas, subsistemas o piezas que se encuentren averiadas, desgastadas o por fuera de tolerancias de servicio, así como las respectivas pruebas para garantizar el funcionamiento de acuerdo con los datos de fábrica y de conformidad con las especificaciones establecidas por los administradores de vía para el corredor La Dorada - Chiriguaná y Chiriguaná - Santa Marta, entre ellas el cumplimiento de las disposiciones correspondientes a los estándares de seguridad e interoperabilidad de la Association of American Railroads - AAR. La Puesta a Punto contempla la implementación de todos los sistemas y equipos a bordo en el Material Rodante, requerido por los diferentes administradores de vía entre Chiriguaná y Santa Marta, para poder operar en sus respectivos tramos concesionados, relacionados, pero sin limitarse a equipos de comunicaciones, señales, instrumentación, entre otros.
+. El Concesionario tiene la obligación de realizar la Puesta a Punto a todo el Material Rodante del Proyecto. Dichas actuaciones corresponden a todas aquellas actividades que incluyen y sin limitarse, al completo desmontaje, limpieza, inspección, diagnóstico, reacondicionamiento, reparación o reemplazo de sistemas, subsistemas o piezas que se encuentren averiadas, desgastadas o por fuera de tolerancias de servicio, así como las respectivas pruebas para garantizar el funcionamiento de acuerdo con los datos de fábrica y de conformidad con las especificaciones establecidas por los administradores de vía para el corredor La Dorada - Chiriguaná y Chiriguaná - Santa Marta, entre ellas el cumplimiento de las disposiciones correspondientes a los estándares de seguridad e interoperabilidad de la Association of American Railroads - AAR. La Puesta a Punto contempla la implementación de todos los sistemas y equipos a bordo en el Material Rodante, requerido por los diferentes administradores de vía entre Chiriguaná y Santa Marta, para poder operar en sus respectivos tramos concesionados, relacionados, pero sin limitarse a equipos de comunicaciones, senales, instrumentación, entre otros.
 
 En el Anexo ATI-3 INVENTARIO, se observa todo el Material Rodante del Proyecto de propiedad de la Nación que actualmente está en el corredor La Dorada Chiriguaná. Sobre este Material Rodante el Concesionario deberá cumplir con las siguientes actividades:
 
@@ -2074,7 +2074,7 @@ a) Gestión de compra, suministro, operación y Mantenimiento de la(s) locornoto
 b) El plazo de entrega del Material Rodante nuevo o reacondicionado debe articularse con el plazo máximo para realizar la Puesta a Punto del Material Rodante propiedad de la Nación conforme a lo indicado en la Sección 5.1 anterior de este Apéndice Técnico.
 c) El Concesionario deberá efectuar la custodia y vigilancia de las unidades del Material Rodante de propiedad la Nación sustituidas hasta tanto la ANI le indique a qué corredor debe trasladar dichos equipos, y garantizará la entrega de dicho Material Rodante a la ANI sin ninguna objeción. El transporte de los equipos deberá realizarse de forma tal que no se afecten las condiciones de los equipos y el costo será asumido por el Concesionario.
 d) El Concesionario debe presentar a la Interventoría las especificaciones detalladas del Material Rodante nuevo o reacondicionado, cumpliendo con lo descrito en la Sección 13 .3 del Contrato de Concesión respecto a que dicho Material Rodante deberá cumplir con las condiciones técnicas y vidas útiles remanentes que hubiese tenido el Material Rodante del Proyecto de habérsele efectuado la Puesta a Punto al Material Rodante de propiedad de la Nación y cumpliendo también, corno mínimo, con las siguientes especificaciones:
-o Locomotora(s): Motor Diésel con potencia mínima de 1200 HP a 835 rpm, apta para vía de 914 mm de ancho, para circular en curvas de radio pequeño (80 m), tipo de enganche interfaz mecánico "Tipo AAR", sistema de frenado con cumplimiento de estándares AAR, ruedas de acero mono bloque, compatibles con AAR MI 07 Clase B, Tecnología Euro VI o su equivalente enla clasificación EPA de Estados Unidos
+o Locomotora(s): Motor Diésel con potencia mínima de 1200 HP a 835 rpm, apta para vía de 914 mm de ancho, para circular en curvas de radio pequeno (80 m), tipo de enganche interfaz mecánico "Tipo AAR", sistema de frenado con cumplimiento de estándares AAR, ruedas de acero mono bloque, compatibles con AAR MI 07 Clase B, Tecnología Euro VI o su equivalente enla clasificación EPA de Estados Unidos
 o Material Rodante remolcado: Unidades de material rodante remolcado aptas para vía de 914 mm, de longitud 12.34m, distancia máxima entre ejes 8.72m y mínima 7.30m.
 5.3. Material Rodante de Factor de Calidad:
 En caso de que el Concesionario haya ofrecido el Factor de Calidad, debe cumplir con las siguientes condiciones:
@@ -2144,17 +2144,17 @@ a) Las Intervenciones mencionadas en este Apéndice Técnico tendrán el alcance
 (ii) Rehabilitación: Son las Intervenciones en las cuales, el Concesionario deberá ejecutar un conjunto de obras tendientes a la mejora funcional o estructural de la Infraestructura, que da lugar a una extensión de su vida de servicio, cumpliendo las especificaciones y normatividad técnica. Para los puentes existentes, el Concesionario deberá de ejecutar un conjunto de obras tendientes a llevar estas estructuras a sus condiciones iniciales de construcción, con el
 Página 72 de 70
 
-propósito que se cumplan las Especificaciones Técnicas para las que se diseñó y cumplir con los indicadores recogidos en el Apéndice Técnico 4. La Rehabilitación comprende la ejecución de una o más de las siguientes actividades:
+propósito que se cumplan las Especificaciones Técnicas para las que se disenó y cumplir con los indicadores recogidos en el Apéndice Técnico 4. La Rehabilitación comprende la ejecución de una o más de las siguientes actividades:
 
  Construcción de obras de excavaciones, de rellenos, de drenaje, de estabilización, de contención, de puentes, de superestructura férrea y otras obras establecidas en el numeral 4.1 y 4.2 de este Apéndice Técnico, que permitan restituir las condiciones de diseno original del Proyecto, etc.
 (iii) Construcción: Para las Obras nuevas de Unidades Funcionales 1, 2 y 3 y las Intervenciones Prioritarias, se ejecutarán las Intervenciones definidas en el numeral 4.1, 4.2 y 4.3, respectivamente, de este Apéndice según lo establecido para dichas Unidades Funcionales, cumpliendo con las Especificaciones Técnicas y normas de cada Intervención establecidas en el Apéndice Técnico 3.
-(iv) Para todas las Intervenciones, se debe cumplir con lo establecido en el Apéndice Técnico 3 y en los requerimientos de prelación establecido en el Contrato. Las actividades de construcción comprenden la ejecución, como mínimo, pero sin limitarse, de las siguientes actividades: localización y replanteo, desmonte y limpieza, demolición, explanaciones, cimentaciones, protección de sitios críticos, obras de drenaje, de protección y estabilización, afirmados, plataforma, sub-balasto, balasto, traviesas, rieles, subbase, base, carpetas de rodadura, Señalización, sistemas inteligentes de transporte.
+(iv) Para todas las Intervenciones, se debe cumplir con lo establecido en el Apéndice Técnico 3 y en los requerimientos de prelación establecido en el Contrato. Las actividades de construcción comprenden la ejecución, como mínimo, pero sin limitarse, de las siguientes actividades: localización y replanteo, desmonte y limpieza, demolición, explanaciones, cimentaciones, protección de sitios críticos, obras de drenaje, de protección y estabilización, afirmados, plataforma, sub-balasto, balasto, traviesas, rieles, subbase, base, carpetas de rodadura, Senalización, sistemas inteligentes de transporte.
 
 b) Las Intervenciones de Construcción, de Mejoramiento, Puesta a Punto, Rehabilitación e Intervenciones Prioritarias deberán garantizar que no se suspenderá totalmente el flujo de Operación de trenes.
-En caso de que no sea posible el cierre parcial de la Vía Férrea y sea inevitable cerrarla temporalmente en su totalidad, el Concesionario deberá presentar a la Interventoría, con una antelación mínima de un Mes, el plan de cierre programado, la asignación de Surcos durante el periodo, dispositivo de Señalización temporal de la obra a implementar y el plan por medio del cual el Concesionario informará a las Autoridades Estatales de los municipios afectados, a los terceros Operadores y en general a la comunidad afectada por el cierre. Lo anterior, con el fin de tramitar el permiso de cierre temporal de la Vía Férrea ante el Ministerio de Transporte yu otras entidades competentes.
+En caso de que no sea posible el cierre parcial de la Vía Férrea y sea inevitable cerrarla temporalmente en su totalidad, el Concesionario deberá presentar a la Interventoría, con una antelación mínima de un Mes, el plan de cierre programado, la asignación de Surcos durante el periodo, dispositivo de Senalización temporal de la obra a implementar y el plan por medio del cual el Concesionario informará a las Autoridades Estatales de los municipios afectados, a los terceros Operadores y en general a la comunidad afectada por el cierre. Lo anterior, con el fin de tramitar el permiso de cierre temporal de la Vía Férrea ante el Ministerio de Transporte yu otras entidades competentes.
 El Plan de Obras y las Intervenciones deberán programarse y ejecutarse en armonía con la Operación y la asignación de Surcos.
 
-c) Adicionalmente, cuando el Contrato se refiera a actividades de Mantenimiento y Operación se deberá entender que este se refiere a la realización de las actividades necesarias para permitir el tráfico en el Proyecto en las condiciones señaladas en las
+c) Adicionalmente, cuando el Contrato se refiera a actividades de Mantenimiento y Operación se deberá entender que este se refiere a la realización de las actividades necesarias para permitir el tráfico en el Proyecto en las condiciones senaladas en las
 Página 73 de 70
 
 Especificaciones Técnicas, así como la provisión de los servicios asociados a estas. Lo anterior, de conformidad con lo establecido en el Contrato y Apéndice Técnico 2.
@@ -2187,9 +2187,9 @@ Página 75 de 70
 almacenes y demás instalaciones, infraestructuras o equipamientos necesarios, tanto durante el proceso constructivo, como durante la Operación y Mantenimiento del Proyecto para garantizar su correcto funcionamiento. Incluye entre otras actividades los disenos, compra de Predios, permisos ambientales, Gestión Predial y Gestión Social y Ambiental.
 (v) La realización de los Estudios de Detalle, así como la Construcción, Mejoramiento, Rehabilitación, repotenciación o Mantenimiento de las obras de estabilización, revegetalización. y mantenimiento de taludes y muros de contención que comprenda, en general, toda la infraestructura necesaria para garantizar la estabilidad de la obra. Debe garantizarse la estabilidad geotécnica de todos los taludes y cortes durante la Construcción, Operación y Mantenimiento. Dentro de todas las Intervenciones, se incluyen para todo el Proyecto todas las soluciones en ingeniería que se deban implementar para el tratamiento y estabilización geotécnica y geológica de taludes.
 (vi) La realización de los Estudios de Detalle, así como la Construcción, Mejoramiento, Rehabilitación, repotenciación o Mantenimiento de las obras hidráulicas que se requieran de acuerdo con los estudios hidráulicos, hidrológicos y de socavación y de puentes y pontones necesarios para el correcto funcionamiento de cada Unidad Funcional.
-(vii) Suministro e instalación de los dispositivos de Seguridad vial, demarcación horizontal y Señalización vertical retrorreflectiva con tecnología prismática tipo IX o superior, de acuerdo con las especificaciones indicadas en el Apéndice Técnico 3.
+(vii) Suministro e instalación de los dispositivos de Seguridad vial, demarcación horizontal y Senalización vertical retrorreflectiva con tecnología prismática tipo IX o superior, de acuerdo con las especificaciones indicadas en el Apéndice Técnico 3.
 (viii)El Concesionario deberá ejecutar todas las actividades necesarias para el cumplimiento del Apéndice Técnico 5.
-(ix) El suministro e instalación de la Señalización del Proyecto.
+(ix) El suministro e instalación de la Senalización del Proyecto.
 (x) El desarrollo de programas de capacitación especializada sobre emergencias y Seguridad ferroviaria a las entidades de rescate, hospitales, defensa civil y cuerpos de bomberos de los municipios del área de influencia del Proyecto.
 (xi) El Concesionario es el responsable de los métodos, la forma y programación en que adelante los procedimientos para intervenir la vía, pero siempre se debe cumplir como mínimo las Especificaciones Técnicas, de acuerdo con las normas vigentes y que le permitan obtener los resultados previstos en este Apéndice Técnico, el Apéndice Técnico 4 y demás Especificaciones Técnicas. Igualmente, el Concesionario en sus distintas Intervenciones debe dar cumplimiento a las obligaciones impuestas por las Licencias y Permisos.
 (xii) El diseno e implementación de un reglamento operativo, que incluye entre otros aspectos, las medidas de Seguridad operacional ferroviaria, tales como:
@@ -2197,22 +2197,22 @@ almacenes y demás instalaciones, infraestructuras o equipamientos necesarios, t
  Programas de formación del personal y sistemas que garanticen el mantenimiento de la competencia del personal y el consiguiente
 Página 76 de 70
 
-desempeño de los cometidos, en particular las medidas sobre la aptitud física y psicológica.
+desempeno de los cometidos, en particular las medidas sobre la aptitud física y psicológica.
  Normas relativas a los tiempos de trabajo, conducción y descanso aplicables a los conductores del sistema.
  Procedimientos y formatos de la documentación de información sobre la Seguridad, y designación del procedimiento de control de la configuración de la información vital relativa a la Seguridad.
  Procedimientos que garanticen la notificación, investigación y análisis de accidentes, incidentes, cuasi accidentes y otras incidencias peligrosas, así como la adopción de las medidas de prevención necesarias.
  Planes de acción, alerta e información en caso de emergencia, acordados con las autoridades pertinentes.
  Garantizar la implementación de un sistema de información que permita el registro y análisis de todos los riesgos y que incluya la identificación e implementación de las medidas de mitigación de cada uno de ellos.
  Garantizar la recolección y custodia de toda la información relativa a los riesgos materializados y los respectivos análisis de Seguridad y técnicos del evento.
- Establecer en el reglamento operativo, las señales pertinentes a sus necesidades operativas, en concordancia con las normas aplicables. Las señales podrán ser a instalación fija, instalación temporal, manuales o a bordo de los trenes.
- Las señales a instalación fija presentarán distintos aspectos, de día y de noche, por medio de lámparas a color. Estas señales se asociarán a los dispositivos del sistema de control de tráfico.
- Las señales a instalación fija se identificarán bajo la codificación adoptada en el reglamento operativo a cargo del Concesionario.
-- Cada tren deberá contar con un panel de señales a bordo en las cabinas de conducción, el cual podrá dar al conductor indicaciones del estado de la vía férrea, velocidades máximas permitidas y distancias al límite de autorización de movimiento emitidas, entre otras.
- Las señales acústicas serán codificadas empleando el pito o bocina de los vehículos ferroviarios, silbato del personal o cualquier otra señal acústica que el Concesionario adopte en su reglamento operativo.
+ Establecer en el reglamento operativo, las senales pertinentes a sus necesidades operativas, en concordancia con las normas aplicables. Las senales podrán ser a instalación fija, instalación temporal, manuales o a bordo de los trenes.
+ Las senales a instalación fija presentarán distintos aspectos, de día y de noche, por medio de lámparas a color. Estas senales se asociarán a los dispositivos del sistema de control de tráfico.
+ Las senales a instalación fija se identificarán bajo la codificación adoptada en el reglamento operativo a cargo del Concesionario.
+- Cada tren deberá contar con un panel de senales a bordo en las cabinas de conducción, el cual podrá dar al conductor indicaciones del estado de la vía férrea, velocidades máximas permitidas y distancias al límite de autorización de movimiento emitidas, entre otras.
+ Las senales acústicas serán codificadas empleando el pito o bocina de los vehículos ferroviarios, silbato del personal o cualquier otra senal acústica que el Concesionario adopte en su reglamento operativo.
 
 (xiii) El Concesionario es el responsable de los métodos, la forma y programación en que adelante las Intervenciones del Proyecto, pero siempre se debe cumplir como mínimo las Especificaciones Técnicas, de acuerdo con las normas vigentes y que le permitan obtener los resultados previstos en este Apéndice Técnico, el Apéndice Técnico 4 y demás Especificaciones Técnicas. Igualmente, el Concesionario en sus distintas Intervenciones debe dar cumplimiento a las obligaciones impuestas en los trámites y permisos.
 
-El Concesionario deberá ejecutar las Intervenciones dando cumplimiento a los plazos y condiciones señalados en el Contrato y cumpliendo con lo establecido en el Apéndice Técnico 3.
+El Concesionario deberá ejecutar las Intervenciones dando cumplimiento a los plazos y condiciones senalados en el Contrato y cumpliendo con lo establecido en el Apéndice Técnico 3.
 Página 77 de 70
 
 #### 7.4 Implementación de la gestión de proyectos bajo el enfoque PMI
@@ -2236,14 +2236,14 @@ Los Estudios de Detalle deben ser desarrollados bajo el ambiente de trabajo BIM 
 #### 8.2 Alcance de los Estudios de Detalle
 
 El Concesionario será responsable de realizar los Estudios de Detalle de las Intervenciones y actividades listadas en el CAPÍTULO IV del presente documento y aquellas incluidas en los Apéndices Técnicos que forman parte del Contrato que se encontrarán a cargo del Concesionario, incluyendo todas las intervenciones y actividades para la ejecución del Proyecto.
-El Concesionario, deberá validar y garantizar que los Estudios de Detalle correspondientes a las Intervenciones y actividades de cada UFVF y UF, sean consistentes entre sí, tanto técnica, constructiva y operativamente. Principalmente en los sitios o áreas de interconexión entre ellas, como lo son, pero sin limitarse a: puntos de conexión de Vías Férreas, puntos de conexión de obras de drenaje, niveles de piso o plataformas, puntos de conexión de Redes y obras en general; de igual forma, elementos operativos como señalización, comunicaciones, visuales, aspectos de seguridad, entre otros. Esto mismo aplica para el sitio en donde termina el contrato de concesión de La Dorada - Chiriguaná e inicia el contrato de concesión Chiriguaná- Santa Marta a cargo de FENOCO. En este sitio, los Estudios de Detalle deben garantizar que las Intervenciones proyectadas sean consistentes con las condiciones existentes de la vía férrea en el inicio del tramo de FENOCO, como lo es pero sin limitarse a alineamiento, niveles, Infraestructura, superestructura, obras de drenaje, Señalización, entre otros.
+El Concesionario, deberá validar y garantizar que los Estudios de Detalle correspondientes a las Intervenciones y actividades de cada UFVF y UF, sean consistentes entre sí, tanto técnica, constructiva y operativamente. Principalmente en los sitios o áreas de interconexión entre ellas, como lo son, pero sin limitarse a: puntos de conexión de Vías Férreas, puntos de conexión de obras de drenaje, niveles de piso o plataformas, puntos de conexión de Redes y obras en general; de igual forma, elementos operativos como senalización, comunicaciones, visuales, aspectos de seguridad, entre otros. Esto mismo aplica para el sitio en donde termina el contrato de concesión de La Dorada - Chiriguaná e inicia el contrato de concesión Chiriguaná- Santa Marta a cargo de FENOCO. En este sitio, los Estudios de Detalle deben garantizar que las Intervenciones proyectadas sean consistentes con las condiciones existentes de la vía férrea en el inicio del tramo de FENOCO, como lo es pero sin limitarse a alineamiento, niveles, Infraestructura, superestructura, obras de drenaje, Senalización, entre otros.
 El Concesionario es responsable por los efectos ambientales que se ocasionen por el desarrollo de las actividades a su cargo y sus omisiones y tendrá la obligación de implementar el Plan de Manejo Ambiental de los instrumentos de manejo y control ambiental existentes
 
 del Proyecto.
 
 Página 79 de 70
 
-Fredy Leandro Espejo Fandiño - VEr
+Fredy Leandro Espejo Fandino - VEr
 
 ''!
 
@@ -2279,8 +2279,8 @@ Información de soporte Áreas del proyecto 1. Franja operacional 2024.11.29
  Corredor del proyecto:
 Información de soporte Áreas del proyecto 2. Corredor del proyecto 2024.11.29
 
-VoBo: Adriana María Montañez Saenz - VE L--
-Fredy Leandro Espejo Fandiño - VE -f("
+VoBo: Adriana María Montanez Saenz - VE L--
+Fredy Leandro Espejo Fandino - VE -f("
 
 Página2 de 2
 
@@ -2342,7 +2342,7 @@ Información de referencia y recursos compartidos 42
 Procesos de levantamiento de información existente 43
 Responsabilidades de gestión de información 43
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024
 
 Agencia Nacional de
 Infraestructura
@@ -2381,7 +2381,7 @@ Personal recomendado 46
 6.1.4 Rendimiento de sistema 71
 #### 6.2 Seguridad : 72
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3)
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3)
 2024
 
 Agencia Nackloai de
@@ -2400,7 +2400,7 @@ Página 4 de 78
 #### 8.0 BIBLIOGRAFÍA 77
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPubV1.0 (ATB-F3) 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPubV1.0 (ATB-F3) 2024
 
 Agencia Naclonai do
 Infraestructura
@@ -2423,7 +2423,7 @@ Los modelos BIM se pueden definir como una representación digital tridimensiona
 La información estandarizada de la modelación digital requiere construirse según sistemas de clasificación para las entidadeselementos virtuales del modeloproyecto, empleando un lenguaje común e internacional para referirse a la terminología técnica de la construcción y acorde con niveles de dicha información que responda al avance del ciclo de vida del proyecto en el que se encuentre. Este nivel de información se conoce como el Estándar de Información dentro de la metodología BIM. Dentro
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024
 
 4 .
 - V"
@@ -2451,7 +2451,7 @@ En la siguiente tabla se presentan los Estados de Avance de la Información de l
 3 https:planb im.eldocumentosesta ndar-bi rn-para-proyectos-p ubl icos
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPubVl.D (ATB-F3) 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPubVl.D (ATB-F3) 2024
 
 4
 A9011da Nacional de
@@ -2472,7 +2472,7 @@ Conceptual
 DA
 Dlsefo de
 Ariteproyecfo
-Fase lnrcr.at del proceso de clseño. en la cual a partir de las espectrtcecrcnes, requlsltos De
+Fase lnrcr.at del proceso de clseno. en la cual a partir de las espectrtcecrcnes, requlsltos De
 y necesldMes del soncnante, e establece el conjunto de tareas necessrlss para
 obtener una solución al problema plamea(lo,
 
@@ -2484,7 +2484,7 @@ como normenvos y legales.
 Diseno Básico que consldera el proyecto.
 
 DO
-01ño de Detalle
+01no de Detalle
 Fase en ia que se elabora la doi:;umentac1cn especntca de cada elemento Gel proyecto.
 , mediante una descripción completa de 19 fnforrMclór. necesana para la tal:irlcaciór.
 j yio corstruccton de estos. 
@@ -2514,13 +2514,13 @@ eventuates provectos dé rernodel!;lclón o mnpl!ac!ót1. Est, tase considera ta
 de funclonam1anto der actívo.
 GM Fase en !a que se eecutan ras tareas tft: manrnn1m1ento de acuerdo al programa
  Gestión y de servicios del activo, Esto !nciliye ras actlv!dade erurmeraoas en :a estrateg!a
-Maotenimienfo del de.tras;aso. ia evah.;acidn postertor a la ccupacíón y la revisión de desempeño de!
+Maotenimienfo del de.tras;aso. ia evah.;acidn postertor a la ccupacíón y la revisión de desempeno de!
 Actívo . ' proyect). . .
 EJaJomqa pqr Prmbím
-acuerdo con el análisis realizado, el Estado de Avance de la Información de los Modelos (EAIM) del PlanBim - Chile, que corresponde con la Etapa de Disenos de Detalle y estudios definitivos (Fase 111} de los proyectos de infraestructura en Colombia, es el que se denomina DISEÑOS DE DETALLE - DD
+acuerdo con el análisis realizado, el Estado de Avance de la Información de los Modelos (EAIM) del PlanBim - Chile, que corresponde con la Etapa de Disenos de Detalle y estudios definitivos (Fase 111} de los proyectos de infraestructura en Colombia, es el que se denomina DISENOS DE DETALLE - DD
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3}
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3}
 2024
 
 4 
@@ -2565,7 +2565,7 @@ FEB: Ficha de Elementos BIM.
 FUB: Fichas de Usos BIM.
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3)
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3)
 2024
 
 4 
@@ -2604,7 +2604,7 @@ La ANI de oficio podrá, homologar, suprimir o adicionar, cualquiera de los requ
 #### 1.1 Jerarquía y progresión de requisitos de información
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3} 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3} 2024
 
 4 .
 Agencia Na:i'll da
@@ -2657,7 +2657,7 @@ Figura 1. Jerarquía de requisitos de Información Según NTC-1S0 19650-1
 Nota: La figura representa la interrelación de los requerimientos de información definidos por la NTC- 1S0 19650-1. Elaboración propia TDC LAB basada en NTC-1S0 19650-1.
 
 ANEXO TÉCNICO No. 1A
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DITALLE IPub.Vl.O {ATB-F3) 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DITALLE IPub.Vl.O {ATB-F3) 2024
 
 Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2
 Psx, 4B48s6o-www.ani.gov.co
@@ -2718,7 +2718,7 @@ Concesionario
 Objeto del Proyecto (por diligenciar)
 
 ANEXO TÉCNICO No. 1A
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUD!OS DE DETALLE IPub.Vl.0 (ATB-F3)
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUD!OS DE DETALLE IPub.Vl.0 (ATB-F3)
 2024
 
 4 .
@@ -2751,7 +2751,7 @@ Según la fecha del oficio de Concepto Favorable para iniciar la etapa de factib
 Según plazo estimado por el Concesionario para el desarrollo de la Etapa de Factibilidad del Proyecto
 (por diligenciar)
 
-La descripción de los tramos corresponde al alcance del Proyecto establecido en desarrollo de la factibilidad por parte del estructurador, y el concesionario deberá corroborar yo ajustar en el desarrollo de la etapa de estudios y disenos de detalle (Pre-construcción). Los tramos que presentó el estructurador corresponden a los señalados en la siguiente tabla:
+La descripción de los tramos corresponde al alcance del Proyecto establecido en desarrollo de la factibilidad por parte del estructurador, y el concesionario deberá corroborar yo ajustar en el desarrollo de la etapa de estudios y disenos de detalle (Pre-construcción). Los tramos que presentó el estructurador corresponden a los senalados en la siguiente tabla:
 litªdo d T:rrtt()S i,tiiti9s ij ' imiatli1llit E!fap 'ti ijéíió de diá11 ytJij19t
 . ... . .
 Nombre dijltfijro
@@ -2760,7 +2760,7 @@ La estructura y descripción de los Tramos incluidos en la estructuración del p
 
 2.1.1 Alcance BIM del Proyecto
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 {ATB-F3)
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 {ATB-F3)
 2024
 
 Aoncla ll;,clonol oo
@@ -2784,7 +2784,7 @@ La desagregación que se presentará en el BEP deberá ser lo suficientemente de
 
 El Concesionario deberá presentar el desglose de los volúmenes, sistemas yo paquetes de trabajo especificados en la segregación del proyecto indicada en el numeral anterior, el cual define la
 ANEXO TÉCNICO No. 1A
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE 1Pub.V1.0 [ATB-F3)
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE 1Pub.V1.0 [ATB-F3)
 2024
 
 4 .
@@ -2811,7 +2811,7 @@ modelos.
  Las descripciones, contenidos yo estructuras de los diferentes documentos, anexos yo formatos indicados en este documento pueden ser utilizados de manera total o parcial por parte el Concesionario. Así mismo, este puede proponer sus propios formatos, que deben cumplir en todo caso con los aspectos mínimos contemplados en la serie de normas ISO 19650.
 
 ANEXO TÉCNICO No. 1A
-ANEXO TÉCNICO B!M DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE 1Pub.V1.0 (ATB-F3)
+ANEXO TÉCNICO B!M DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE 1Pub.V1.0 (ATB-F3)
 2024
 
 Agencia Nadonal de
@@ -2844,7 +2844,7 @@ Uri modelo BIM es una representación digital tridimensional (3D) basada en enti
 
 ⁵ Definición tomada del capítulo 5.3 del ESTÁNDAR BIM PARA PROYECTOS PÚBLICOS, pág. 43 - PlanBIM de Chile
 ANEXO TÉCNICO No. 1A
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDJOS DE DETALLE IPub.Vl.O (ATB-F3) 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDJOS DE DETALLE IPub.Vl.O (ATB-F3) 2024
 
 Agencia Nacional de
 Infraestructura
@@ -2871,7 +2871,7 @@ ejercicio de calidad, conforme con el estado de avance de información de los mo
 
 6 "( ..) se entenderá por Documentos relacionados a los modelos BIM tanto los archivos que pueden ser extraídos directamente desde los modelos BIM en distintos formatos - por ejemplo, planos, planillas, especificaciones técnicas, imágenes, videos, etc. - como los documentos de apoyo al desarrollo del proyecto y los modelos - por ejempk; reportes técnicos, fichas técnicas, catálogos, nubes de punto, etc(..)"- Planbim, ESTANDAR BIM PARA PROYECTOS PUBLICOS - Intercambio de Información entre Solicitante y proveedores, pág. 47.
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024
 
 l .
 AgSMCla Naciornll de
@@ -2888,10 +2888,10 @@ obstante, el Concesionario también deberá garantizar, cuando la ANI lo determi
 
  El Concesionario podrá usar información compartida por otras partes, como puede ser la contenida en el cuarto de datos, INVIAS, entidades distritales, departamentales yo municipales donde se desarrolle el Proyecto, de manera temporal durante el desarrollo de la etapa de disenos de detalle. Al realizar la entrega de los estudios de detalle, el Concesionario deberá incluir toda la información de los activos existentes consultados yo utilizados en el formato original en el cual fueron recibidos por parte de dichos terceros. La información que entregue el Concesionario será la de naturaleza no confidencial, es decir la información pública que no está protegida por un acuerdo de confidencialidad, know how, secreto industrial o cualquier otra naturaleza que impida al Concesionario presentarla, incluyendo la información que por Ley está prohibido revelar.
  El Concesionario garantizará dentro del CDE la transmisión de la información según los requerimientos de la entidad y la construcción de puentes de comunicación que la entidad solicite.
- La información que el Concesionario presente en etapa de disenos de detalle será confidencial y tanto la ANI como los terceros intervinientes en el proceso de estructuración, evaluación y adjudicación deben tratarla como confidencial y bajo reversa en estricto cumplimiento de lo señalado en el artículo 14 de la Ley de APP. Lo anterior implica, que la información que presente el Concesionario, incluyendo la que reciba de parte de terceros para la estructuración del Proyecto no podrá ser divulgada en atención a la reserva legal que existe sobre dicha documentación.
+ La información que el Concesionario presente en etapa de disenos de detalle será confidencial y tanto la ANI como los terceros intervinientes en el proceso de estructuración, evaluación y adjudicación deben tratarla como confidencial y bajo reversa en estricto cumplimiento de lo senalado en el artículo 14 de la Ley de APP. Lo anterior implica, que la información que presente el Concesionario, incluyendo la que reciba de parte de terceros para la estructuración del Proyecto no podrá ser divulgada en atención a la reserva legal que existe sobre dicha documentación.
  El Concesionario podrá usar, modificar yo actualizar la información existente proporcionada por la ANI, incluidos modelos BIM, modelos nativos y memorias de cálculo. Sin embargo, cualquier error que contenga esta información y repercuta en los entregables o trabajos realizados por el Concesionario, NO lo eximen de sus responsabilidades, dado que toda la información existente proporcionada es de referencia y debe ser revisada y validada, quedando en libertad el Concesionario para tomar la decisión de usarla o no usarla.
 ANEXO TÉCNICO No. 1A
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 [ATB-F3)
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 [ATB-F3)
 2024
 
 4 .
@@ -2917,7 +2917,7 @@ posterioridad a la entrega de la fase de disenos definitivos y estudios de detal
 
 Teniendo presente que los modelos BIM serán la fuente de información principal del proyecto, tanto en 3D como en 2D, la representación de los entregables contenidos en el modelo, así como los entregables digitales no modificables y los entregables físicos, deben corresponder entre sí. Cuando existan conflictos entre el contenido de un modelo BIM y el juego de planos aprobados en físico, se dará la siguiente prelación:
 ANEXO TÉCNICO No. 1A
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 {ATB-F3)
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 {ATB-F3)
 2024
 
 Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2
@@ -2948,7 +2948,7 @@ En el Plan de ejecución BIM (BEP) de disenos de detalle y en el formato de Eval
 Con la finalización de la entrega de los estudios y disenos de la etapa de pre-construcción, el Concesionario deberá realizar la entrega del Plan de ejecución BIM (BEP) para la ejecución, operación y reversión de la concesión y el AIR (Asset information requirements - requisitos de información de activos) bajo la aprobación de la entidad, el cual deberá centrarse en la metodología a emplear por el futuro concesionario para el desarrollo de los estudios y disenos de detalle para la etapa preoperativa
 
 ANEXO TÉCNICO No. 1A
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 {ATB-F3)
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 {ATB-F3)
 2024
 
 Agoncia N3cional de
@@ -2978,7 +2978,7 @@ Competencia:
 Evalúa la competencia en términos de conocimiento general BIM, específicos y técnicos del personal propuesto para el desarrollo del proyecto. El Concesionario deberá aportar evidencia de la competencia en términos del marco técnico y capacidad del equipo de tareas propuesto.
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024
 
 4 .
 Agencl Nockmol de
@@ -3019,7 +3019,7 @@ Generar disenos coordinados por cada especialidad en cada uno de los hitos media
 modelos tridimensionales --------- .J1
 
 ANEXO TÉCNICO No. 1A
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024
 
 4 .
 Agencio Nocloml de
@@ -3058,7 +3058,7 @@ disponibilidad de información digital confiable y audita ble.
 Establecer los requisitos para producir información del proyecto en un Software BIM, los cuales serán compartidos entre todos los equipos de trabajo del proyecto en el CDE -Ambiente Común de Datos enfocado tanto a la gestión de información como a la interpretación de planos, modelos y dimensiones BIM. 1
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE 1Pub.V1.0 (ATB-F3)
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE 1Pub.V1.0 (ATB-F3)
 2024
 
 Autoría de Diseno y Gestión de información bajo CDE
@@ -3071,7 +3071,7 @@ Página 23 de 78
 Intercambiar información acordada del proyecto a intervalos regulares a lo largo del mismo.
 
 Gestión de información bajo CDE
-Establecer Indicadores Claves de Desempeño (KPI) específicos
+Establecer Indicadores Claves de Desempeno (KPI) específicos
 del proyecto para medir el progreso y establecer la comparativa Todos los usos BIM asociados de mercado.
 
 Colaborar en la planificación y el diseno de los elementos del proyecto usando modelos de información y datos estandarizados que faciliten la revisión y la toma de decisiones.
@@ -3089,13 +3089,13 @@ Evaluación de Sustentabilidad
 
 #### 3.3 Estado de Avance de Información de los Modelos (EAIM}
 
-El Concesionario deberá presentar un avance de proyecto por hitos de entrega dentro de un cronograma de entregas durante la etapa de disenos definitivos y estudios de detalle como flujo de avance BIM; adicionalmente, durante el desarrollo del proyecto previa solicitud al Concesionario se podrán generar reuniones de acompañamiento, que permitan una revisión temprana y oportuna de los entrega bles, logrando detectar errores o fallas en la implementación BIM, dando solución a tiempo, sin esperar a la finalización de esta etapa.
+El Concesionario deberá presentar un avance de proyecto por hitos de entrega dentro de un cronograma de entregas durante la etapa de disenos definitivos y estudios de detalle como flujo de avance BIM; adicionalmente, durante el desarrollo del proyecto previa solicitud al Concesionario se podrán generar reuniones de acompanamiento, que permitan una revisión temprana y oportuna de los entrega bles, logrando detectar errores o fallas en la implementación BIM, dando solución a tiempo, sin esperar a la finalización de esta etapa.
 
 El Estado de Avance de la Información de los Modelos (EAIM) corresponde a las distintas fases consecutivas de definición de los datos contenidos en los modelos BIM, y están vinculados directamente al progreso en el tiempo del proyecto.
 
 En el marco del estándar de adopción propuesto (PlanBIM Chile), este ha definido nueve (9) EAIM, uno en etapa de Planificación, tres en Diseno, tres en Construcción y dos en Operación. Estos Estados delimitan los Niveles de Información (NDI) que deben contener los entregables.
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATBF3)
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATBF3)
 2024
 
 Agencia Nacloo;,l do
@@ -3110,7 +3110,7 @@ Sin embargo, los niveles de información no contemplados para los diferentes tip
 Para el desarrollo de la etapa de disenos de detalle, se ha definido que el EAIM es el DD - Diseno DE
 detalle y CC coordinación para la construcción
 
-he tempra.nr1 de proceso de dlstJñt. en k que, r, tablr.t1n (e:; crit-eríc gl.!ner?.!e:;.
+he tempra.nr1 de proceso de dlstJnt. en k que, r, tablr.t1n (e:; crit-eríc gl.!ner?.!e:;.
 de u;; proY'!c.:::- considrar;do ic.s recuerirr'i,ent-::-1 1 ,estrfcdones de! 5dicita?:le. tle-s
 
 Fbé en it:. qut se prnpi..tr.;,ri los crittufo y pcifiwctt;r;c ent'tral:::s di tos si.stt!nia;j. que com,iiJEfil al provecto.
@@ -3137,7 +3137,7 @@ En esta sección se definen los usos BIM que se aplicarán al proyecto, con el p
 El Concesionario deberá aplicar como mínimo los usos BIM requeridos según el Estado de Avance de Información de los Modelos (EAIM} que corresponda a la etapa de disenos de detalle Fase 111 definidos en el presente Anexo Técnico BIM de disenos de detalle (ATB-F3). Para los disenos de detalle del proyecto el estado de avance de información de los modelos corresponde con Diseno De Detalle - DD_ La siguiente tabla describe los usos BIM mínimos aplicables (R: Requerido, O: Opcional):
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O [ATB-F3) 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O [ATB-F3) 2024
 
 4 .
 ft-gncia Nadonal de
@@ -3153,7 +3153,7 @@ USOS BIM
 PREFACTIBILIDAD
 FASES DEL PROYECTO
 
-FACTIBILIDAD DISEÑOS DE
+FACTIBILIDAD DISENOS DE
 
 FASE 1 (FI) (DA) FASE II (FIi)
 (DB)
@@ -3161,24 +3161,24 @@ DETALLE FASE 111
 (FIII) (DO)
 CONSTRUCCIÓN OPERACIÓN
 
-AUTORÍA DE DISEÑOMODELO DE DISEÑO
-COORDINACIÓN DE MODELOS DE DISEÑO (3D)
-REVISIÓN DE LOS MODELOS DE DISEÑO
+AUTORÍA DE DISENOMODELO DE DISENO
+COORDINACIÓN DE MODELOS DE DISENO (3D)
+REVISIÓN DE LOS MODELOS DE DISENO
 ESTIMACIÓN DE COSTOS Y PRESUPUESTOS (SD)
 PLANEACIÓN DE FASES (4D)
 ANÁLISIS DE CRITERIOS DE SELECCIÓN DE UBICACIÓN CAPTURA DE CONDICIONES EXISTENTES
-ANÁLISIS DE DESEMPEÑO ESTRUCTURAL
-ANÁLISIS DE DESEMPEÑO DE ILUMINACIÓN
-ANÁLISIS DE DESEMPEÑO ENERGÉTICO
-ANÁLISIS DE DESEMPEÑO MECÁNICO
+ANÁLISIS DE DESEMPENO ESTRUCTURAL
+ANÁLISIS DE DESEMPENO DE ILUMINACIÓN
+ANÁLISIS DE DESEMPENO ENERGÉTICO
+ANÁLISIS DE DESEMPENO MECÁNICO
 
 ANÁLISIS DE
-ANÁLISIS DE DESEMPEÑO DE EVACUACIÓN DE EMERGENCIA ANÁLISIS DE DESEMPEÑO ACÚSTICO ANÁLISIS DE DESEMPEÑO
+ANÁLISIS DE DESEMPENO DE EVACUACIÓN DE EMERGENCIA ANÁLISIS DE DESEMPENO ACÚSTICO ANÁLISIS DE DESEMPENO
 HIDRÁULICO
-DESEMPEÑO ANÁLISIS DE DE DESEMPEÑO INGENIERÍA DE TUBERÍAS
-CÁLCULO DE DRENAJE OBRAS LINEALES ANÁLISIS DE DESEMPEÑO GEOTÉCNICO ANÁLISIS DE DESEMPEÑO ELÉCTRICO
+DESEMPENO ANÁLISIS DE DE DESEMPENO INGENIERÍA DE TUBERÍAS
+CÁLCULO DE DRENAJE OBRAS LINEALES ANÁLISIS DE DESEMPENO GEOTÉCNICO ANÁLISIS DE DESEMPENO ELÉCTRICO
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O {ATB-F3)
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O {ATB-F3)
 2024
 
 4 .
@@ -3192,14 +3192,14 @@ Página 26 de 78
 
 FASES DEL PROYECTO
 
-USOS BIM FACTIBILIDAD DISEÑOS DE PREFACTIBILIDAD FASE 11 (Fil) DETALLE FASE 111
+USOS BIM FACTIBILIDAD DISENOS DE PREFACTIBILIDAD FASE 11 (Fil) DETALLE FASE 111
 FASE 1 (FI} (DA) (DB) (FIII) (DD)
 
 CONSTRUCCIÓN OPERACIÓN
 
 GENERACIÓN DE PLANOS
 PLAN EACIÓN DE LOGÍSTICA DE CONSTRUCCIÓN
-MODELO DE DISEÑO DE SISTEMAS TEMPORALES DE CONSTRUCCIÓN
+MODELO DE DISENO DE SISTEMAS TEMPORALES DE CONSTRUCCIÓN
 FABRICACIÓN DE PRODUCTOS
 CONTROL DE CALIDAD EN LA CONSTRUCCIÓN
 MODELO RÉCORD (AS-BUILT)
@@ -3207,7 +3207,7 @@ MONITOREO DEL USO DE LOS ESPACIOS
 ANÁLISIS DE LA GESTIÓN DE EMERGENCIAS MONITOREOY PROGRAMACIÓN DE MANTENIMIENTO
 GESTIÓN DE ACTIVOS
 MONITOREO DEL RENDIMIENTO DE LOS SISTEMAS
-ANÁLISIS DE DESEMPEÑO DE SUSTENTABILIDAD
+ANÁLISIS DE DESEMPENO DE SUSTENTABILIDAD
 VALIDACIÓN DE NORMATIVA
 SIMULACIÓN DE PERSONAS, VEHÍCULOS YO EQUIPOS APLICACIÓN CON REALIDAD AUMENTADA Y REALIDAD VIRTUAL
 
@@ -3216,7 +3216,7 @@ El Concesionario en el Plan de Ejecución BIM (BEP) de disenos definitivos y est
 De igual manera, en el BEP de disenos definitivos y estudios de detalle el Concesionario deberá especificar una ficha de Uso BIM (FUB) proponiendo: descripción, aplicación especifica al proyecto,
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024
 
 AOt1da Nadonai de
 Infraestructura
@@ -3243,7 +3243,7 @@ Un proceso en el cual se usan herramientas BIM GIS para evaluar características
 Un proceso en el que el software de creación eje contenido se utiliza para desarrollar un modelo de información del proyecto basado en criterios que son importantes para la comunicación de! diseno. Las herramientas de diseno paramétrico crean modelos mientras que las herramientas de auditoría y análisis estudian o aumentan la riqueza de información en un modelo. Las herramientas de creación de diseno son un primer paso hacia BIM y la clave es conectar el modelo 3D con base de datos de propiedades, cantidades, medios, método._costos y cronogramas.
 Es un proceso en el que BIM se utiliza para la generación de cuantificaciones precisas y estimaciones de costos a lo largo del ciclo de vida de un proyecto, proporcionando la variación de costos de adiciones y modificaciones, con el potencial de ahorrar tiempo y dinero.
 Un proceso en el que un equipo de proyecto desarrolla un modelo 3D de las condiciones existentes para un sitio, instalaciones en un sitio o un área específica dentro de una instalación. Este modelo puede desarrollarse de varias formas: incluyendo el escaneo láser y técnicas topográficas convencionales, dependiendo de lo que se desea y lo que es más eficiente. Una vez construido el modelo, que se puede consultar para obtener información, ya sea para nueva construcción o una mejora.
-Un proceso en el que se utiliza un modelo 4D (modelos 3D con la dimensión añadida de tiempo) para planificar de manera efectiva la ocupación por etapas en una renovación, modernización, o para mostrar los requisitos de secuencia de la construcción y el espacio en una obra de construcción. El modelado 4D es una potente herramienta de visualización y comunicación
+Un proceso en el que se utiliza un modelo 4D (modelos 3D con la dimensión anadida de tiempo) para planificar de manera efectiva la ocupación por etapas en una renovación, modernización, o para mostrar los requisitos de secuencia de la construcción y el espacio en una obra de construcción. El modelado 4D es una potente herramienta de visualización y comunicación
  Reporte de Análisis de sitio
  Modelo de sitio con los requerimientos de información por el LOD
  Planimetría extraída del modelo
@@ -3265,7 +3265,7 @@ Modelos de Elementos existentes
  Videos y vistas 4D
 
 ANEXO TÉCNICO No. 1A
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024
 
 4 .
 Agenda Niclonal de
@@ -3289,7 +3289,7 @@ Un proceso para evaluar y rastrear el rendimiento de sostenibilidad de una insta
 
 #### 3.4 Indicadores aplicables a la implementación de procesos BIM
 
-El Concesionario dentro del Plan de Ejecución BIM (BEP) de Estudios de detalle deberá proponer los indicadores clave de desempeño (KPl's} para los siguientes grupos temáticos según la EtapaFase de desarrollo del proyecto, entre los cuales pueden estar:
+El Concesionario dentro del Plan de Ejecución BIM (BEP) de Estudios de detalle deberá proponer los indicadores clave de desempeno (KPl's} para los siguientes grupos temáticos según la EtapaFase de desarrollo del proyecto, entre los cuales pueden estar:
 
  Ahorros relacionados con la detección temprana de conflictos.
  Ahorros asociados con la precisión en extracción de cantidades.
@@ -3307,7 +3307,7 @@ El Concesionario dentro del Plan de Ejecución BIM (BEP) de Estudios de detalle 
 El Concesionario podrá seleccionar los KPl's aplicables de los ejemplos anteriores, o proponer otros que se ajusten al Proyecto en su etapa de pre-construcción.
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE 1Pub.V1.0 (ATB-F3)
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE 1Pub.V1.0 (ATB-F3)
 2024
 
 4 .
@@ -3328,7 +3328,7 @@ Algunos de los objetivos de usar un estándar de información son:
  Ayudar a los equipos, incluidos los propietarios, a especificar entregas de BIM y obtener una imagen clara de lo que se incluirá en una entrega.
  Ayudar a los lideres de diseno a explicar a sus equipos la información y los detalles que deben proporcionarse en varios puntos del proceso de diseno.
 
-Cabe señalar que esta especificación no reemplaza el Plan de Ejecución BIM (BEP) de disenos definitivos y estudios de detalle del proyecto, sino que está destinado a ser utilizado junto con dicho plan, proporcionando un medio para definir modelos para intercambios de información específicos, hitos en un plan de trabajo y entregables para funciones específicas delimitadas por el estándar de información seleccionado para el proyecto. El Concesionario debe validar la implementación de estos estándares en el BEP de disenos definitivos y estudios de detalle.
+Cabe senalar que esta especificación no reemplaza el Plan de Ejecución BIM (BEP) de disenos definitivos y estudios de detalle del proyecto, sino que está destinado a ser utilizado junto con dicho plan, proporcionando un medio para definir modelos para intercambios de información específicos, hitos en un plan de trabajo y entregables para funciones específicas delimitadas por el estándar de información seleccionado para el proyecto. El Concesionario debe validar la implementación de estos estándares en el BEP de disenos definitivos y estudios de detalle.
 
 3.5.1 Nivel de requerimiento de información
 
@@ -3339,7 +3339,7 @@ La Agencia Nacional de Infraestructura (ANI) ha determinado los siguientes está
 El nivel de información necesaria específica el nivel de información geométrica y el nivel de información alfanumérica de cada elemento. Para determinar estos niveles y su métrica, es necesario determinar un estándar que los defina. Cabe mencionar que según la I50D15 7817 estos niveles son complementarios pero independientes.
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS_DE DETALLE IPub.V1.0 {ATB-F3) 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS_DE DETALLE IPub.V1.0 {ATB-F3) 2024
 
 4 .
 Ago1cla Naclooa! de
@@ -3361,7 +3361,7 @@ alfanumérica.
 En el BEP, deberá definirse el nivel de información geométrico y alfanumérico y de los elementos o especialidades. De acuerdo con los requerimientos de la AGENCIA, el modelo deberá contener como mínimo lo siguiente:
 
  Visualización de los disenos con la modelación BIM.
- Volumetrías generales del proyecto, con el fin de comprobar que la volumetría diseñada cumple las expectativas de diseno arquitectónico y las necesidades estipuladas en el alcance de la ficha técnica.
+ Volumetrías generales del proyecto, con el fin de comprobar que la volumetría disenada cumple las expectativas de diseno arquitectónico y las necesidades estipuladas en el alcance de la ficha técnica.
  Volumetrías detalladas del proyecto como plantas, secciones, etc.
  Planimetría de acuerdo con la fase del proyecto solicitado.
  Clasificar los elementos dentro de cada subsistema y utilizar filtros para representaciones de color de los diferentes sistemas.
@@ -3376,7 +3376,7 @@ CONSULTOR.
 Se define como una escala de las propiedades requeridas de información alfanumérica (data) contenido en el elementomodelo. El parámetro identifica y describe el tipo de información, el formato y el contenido de los datos que se incluirán en cada tipo de elemento. Para el desarrollo de este contrato, se utilizará la sigla LOI para definir el Nivel de Información Alfanumérica (información).
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS V ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3)
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS V ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3)
 2024
 
 A 
@@ -3421,24 +3421,24 @@ Página 31 de 78
 
 No contiene información
 
-Categorías de información requeridas para el servicio y desempeño de los elementos. Incluyen la masa general del elemento indicativa del área, altura, volumen, ubicación y orientación.
+Categorías de información requeridas para el servicio y desempeno de los elementos. Incluyen la masa general del elemento indicativa del área, altura, volumen, ubicación y orientación.
 
-Categorías de información requeridas para el servicio y desempeño de los elementos de manera definida. Incluyen sistemas o ensambles y materiales generalizados con cantidades, propiedades físicas, ubicación y orientación aproximadas.
+Categorías de información requeridas para el servicio y desempeno de los elementos de manera definida. Incluyen sistemas o ensambles y materiales generalizados con cantidades, propiedades físicas, ubicación y orientación aproximadas.
 
-Categorías de información requeridas para el servicio y desempeño de los elementos de manera espacial definida. Incluyen ensambles y materiales específicos que son precisos en términos de propiedades físicas, cantidad, ubicación y orientación.
+Categorías de información requeridas para el servicio y desempeno de los elementos de manera espacial definida. Incluyen ensambles y materiales específicos que son precisos en términos de propiedades físicas, cantidad, ubicación y orientación.
 
-Categorías de información requeridas para el servicio y desempeño de los elementos de manera espacial definida y definitiva. Incluyen ensambles y materiales específicos que son precisos en términos de propiedades físicas, cantidad, costo, ubicación y orientación. De manera coordinada con todos los sistemas.
+Categorías de información requeridas para el servicio y desempeno de los elementos de manera espacial definida y definitiva. Incluyen ensambles y materiales específicos que son precisos en términos de propiedades físicas, cantidad, costo, ubicación y orientación. De manera coordinada con todos los sistemas.
 
-Categorías de información requerida para el servicio, desempeño, ensamble y fabricación de los elementos. Incluyen ensambles y materiales específicos precisos en términos de propiedades físicas, cantidad, ubicación y orientación, con información completa de costos, fabricación, ensamblaje y detalles.
+Categorías de información requerida para el servicio, desempeno, ensamble y fabricación de los elementos. Incluyen ensambles y materiales específicos precisos en términos de propiedades físicas, cantidad, ubicación y orientación, con información completa de costos, fabricación, ensamblaje y detalles.
 
-Categorías de información requeridas para el servicio, desempeño, operación y mantenimiento. Incluye ensambles y materiales construidos reales y precisos en términos de propiedades físicas, cantidad, ubicación y orientación.
+Categorías de información requeridas para el servicio, desempeno, operación y mantenimiento. Incluye ensambles y materiales construidos reales y precisos en términos de propiedades físicas, cantidad, ubicación y orientación.
 
 3.5.1.2 Nivel de información geométrica
 
 Se refiere a la complejidad y calidad de la información geométrica (detalle) incluida en el elementomodelo cumpliendo características de representación gráfica, exactitud y comportamiento paramétrico. El parámetro de nivel de información geométrica identifica y describe la calidad de la representación gráfica y el grado de detalle del elemento. Estos son parámetros como el grado de
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024
 
 cia Naclonai de
 Infraestructura
@@ -3481,26 +3481,26 @@ Se utiliza en las primeras etapas del diseno para mostrar la ubicación y la for
 
 Representación genérica del elemento.
 
-Elemento en 3D con características de tamaño, forma y ubicación, con materialidad genérica.
+Elemento en 3D con características de tamano, forma y ubicación, con materialidad genérica.
 
 Representación precisa del elemento.
 
-Elemento modelado que muestra de manera detallada y precisa el tamaño, forma, ubicación y material. Modelo de todas las especialidades.
+Elemento modelado que muestra de manera detallada y precisa el tamano, forma, ubicación y material. Modelo de todas las especialidades.
 
 Representación precisa del elemento coordinado.
 
-Elemento modelado que muestra de manera detallada el tamaño, forma, ubicación y material definitivo. Modelo coordinado con todas las especialidades y detalles constructivos.
+Elemento modelado que muestra de manera detallada el tamano, forma, ubicación y material definitivo. Modelo coordinado con todas las especialidades y detalles constructivos.
 
 Representación detallada del elemento.
 
-Elemento modelado con tamaño, forma, ubicación y material detallado y coordinado, con piezas de diseno para la fabricación, instalación y ensamblaje en construcción.
+Elemento modelado con tamano, forma, ubicación y material detallado y coordinado, con piezas de diseno para la fabricación, instalación y ensamblaje en construcción.
 
 Representación actualizada del elemento construido.
 
-Elemento modelado acorde a lo construido con tamaño, forma, ubicación y material detallado y real.
+Elemento modelado acorde a lo construido con tamano, forma, ubicación y material detallado y real.
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BlM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024
+ANEXO TÉCNICO BlM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024
 
 11
 
@@ -3521,7 +3521,7 @@ Este nivel se refiere a la calidad, granularidad, propósito de documentación g
 Se presenta a manera de ejemplo la métrica de Nivel de información Vinculada (Lol) de TDC LAB.
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O [ATB-F3) 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O [ATB-F3) 2024
 
 4 11
 
@@ -3574,7 +3574,7 @@ Página 35 de 78
 
 La Matriz Detallada de Responsabilidades (MDR) de acuerdo con el Nivel de Requerimiento de Información (NDI) define los niveles de información alfanumérica (Data), los niveles de información geométrica (Geometría) y los niveles de información de contenido documental vinculado (Link), por cada uno de los elementos según el hito o punto clave de decisión. En esta MDR se considera la estructura de desglose de elementos codificándolos según el sistema de clasificación definido.
 
-El Estado de Avance de la Información de los Modelos (EAJM) que corresponde con esta fase de pre- construcción es el que se denomina DISEÑOS DE DETALLE - DO.
+El Estado de Avance de la Información de los Modelos (EAJM) que corresponde con esta fase de pre- construcción es el que se denomina DISENOS DE DETALLE - DO.
 
 El Concesionario será el responsable de establecer el Nivel de Requerimiento de Información para cada elemento según el hito o punto clave de decisión, para ello, deberá hacer uso de la plantilla proporcionada por la Agencia Nacional de Infraestructura (ANI) anexa al presente Anexo Técnico BIM para disenos definitivos y estudios de detalle (ATB-F3) o utilizar una diferente que cumpla con el contenido mínimo que para este documento indica la serie de normas ISO 19650 que será validado por
 la ANI para su aceptación. La Agencia Nacional de Infraestructura (ANI) validará la información definida en la MDR.
@@ -3590,7 +3590,7 @@ El Concesionario deberá anexar como parte del Plan de Ejecución BIM (BEP) de d
 Las categorías o tipos de información (CDI-TDI) son conjuntos de información que agrupan características funcionales y de rendimiento específicas en los elementos BIM. Mientras se define un estándar BIM nacional se usará la Tabla 07. Tipos de Información por cada Uso BIM del ESTÁNDAR BIM PARA PROYECTOS PÚBLICOS, PlanBIM, Chile.
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE 1Pub.V1.0 (ATB-F3)
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE 1Pub.V1.0 (ATB-F3)
 2024
 
 Agenda Nacional de
@@ -3625,7 +3625,7 @@ su modelación, previa autorización del Interventor y el Instituto (tramo, unid
 ejecución del contrato.
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024
 
 Agoncla Nac!or,af de
 lnfraestnictura
@@ -3650,7 +3650,7 @@ Un sistema de clasificación de elementos es una forma de organizar y estructura
  No permiten una gestión eficiente de los costos, los recursos, el cronograma y la calidad del proyecto, ya que no se vinculan directamente con las actividades, los procesos y los métodos de control de calidad que se establecen en las especificaciones de construcción.
 
 ANEXO TÉCNICO No. 1A
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATBF3)
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATBF3)
 2024
 
 Agonda Nadoool de
@@ -3685,7 +3685,7 @@ Este esquema se encuentra
 
 7 Para más información consultar el link de referencia: https:technical.buildingsrnart.orgstandardsmvd
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024
 
 Agencia Nacional de
 Infraestructura
@@ -3695,7 +3695,7 @@ Página 39 de 78
 
 En este enlace https:technical.buildingsmart.orgstandardsifcmvdmvd-database se puede consultar la lista de MVD.
 
-Nota: El esquema IFC 4.3 específico de infraestructura se encuentra en desarrollo. Por lo tanto, el Concesionario deberá utilizar el esquema de IFC más conveniente proponiendo a la ANI un esquema donde se cumpla la parametrización de todos los elementos y el avance de plan de obras por kilometro. Por el momento los elementos de infraestructura podrán ser ejecutados bajo lfcCivilElements, que según NTC-15O 16739 es "(. . .) una generalización de todos los elementos dentro de una obra de ingeniería civil. Incluye, en particular, todos los casos de obras de construcción lineales típicas, como segmentos de carreteras, segmentos de puentes, aceras, etc. Dependiendo del contexto del proyecto de construcción, los trabajos de construcción incluidos, como edificios ofábricas, se representan como una colección de elementos de lfcBuildingElement. Los sistemas de distribución, tales como tuberías o drenaje, se representan como una colección de elementos de lfcDístributionElement, y otros elementos geográficos, tales como árboles, postes de luz, señales de trófico, etc., se representan como elementos de elementos de lfcGeographic. (...)"
+Nota: El esquema IFC 4.3 específico de infraestructura se encuentra en desarrollo. Por lo tanto, el Concesionario deberá utilizar el esquema de IFC más conveniente proponiendo a la ANI un esquema donde se cumpla la parametrización de todos los elementos y el avance de plan de obras por kilometro. Por el momento los elementos de infraestructura podrán ser ejecutados bajo lfcCivilElements, que según NTC-15O 16739 es "(. . .) una generalización de todos los elementos dentro de una obra de ingeniería civil. Incluye, en particular, todos los casos de obras de construcción lineales típicas, como segmentos de carreteras, segmentos de puentes, aceras, etc. Dependiendo del contexto del proyecto de construcción, los trabajos de construcción incluidos, como edificios ofábricas, se representan como una colección de elementos de lfcBuildingElement. Los sistemas de distribución, tales como tuberías o drenaje, se representan como una colección de elementos de lfcDístributionElement, y otros elementos geográficos, tales como árboles, postes de luz, senales de trófico, etc., se representan como elementos de elementos de lfcGeographic. (...)"
 
 3.7.1 Estructura de representación IFC
 
@@ -3704,7 +3704,7 @@ Toda la información que se incluye en el modelo debe seguir la estructura de da
  lfcClass: La asignación del lfcClass para cada elemento se hace a través del parámetro asociado lfcExportAs
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE 1Pub.V1.0 {ATB-F3) 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE 1Pub.V1.0 {ATB-F3) 2024
 
 11
 
@@ -3747,7 +3747,7 @@ Nivel de Control Piso 9
 1D23 Sala de control
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024
 
 4 .
 Agenda Nacional de
@@ -3768,14 +3768,14 @@ El concesionario del proyecto deberá estructurar el AIR usando la plantilla adj
  Durante las fases de diseno se debe diligenciar el AIR y ajustarlo.
  Durante la construcción se aplica el AIR, pues los requisitos escritos en ese documento habilitan y apoyan la creación de un Modelo de Información de Activos (AIM). Es decir, que los datos y la información recopilados en respuesta al AIR componen el AIM.
  Durante la operación y mantenimiento, el AIM tendrá toda la información requerida para dar cumplimiento a estas actividades. El AIM se deberá ir actualizando según las necesidades.
-Es pertinente diferenciar los modelos AIM y PIM, pues el Modelo de Información del Proyecto (PIM) contiene la información del proyecto que acompaña las etapas de diseno y construcción, y el Modelo de Información de Activo (AIM) contiene la información de operación y mantenimiento. Por otro lado, el Modelo Record o As Built es aquel que contiene la información del proyecto "tal como está construido"; cuando este modelo record es alimentado con los requisitos de información solicitados en el AIR se convierte en el modelo AIM, que contendrá informacióri relacionada con análisis o reportes de mantenimiento e instalaciones, sistemas de gestión de activos, etc.
+Es pertinente diferenciar los modelos AIM y PIM, pues el Modelo de Información del Proyecto (PIM) contiene la información del proyecto que acompana las etapas de diseno y construcción, y el Modelo de Información de Activo (AIM) contiene la información de operación y mantenimiento. Por otro lado, el Modelo Record o As Built es aquel que contiene la información del proyecto "tal como está construido"; cuando este modelo record es alimentado con los requisitos de información solicitados en el AIR se convierte en el modelo AIM, que contendrá informacióri relacionada con análisis o reportes de mantenimiento e instalaciones, sistemas de gestión de activos, etc.
 A continuación, se explica cómo se debería ir madurando la información del AIR según la fase de diseno de maduración en la que se encuentre el proyecto.
 Fase de maduración de Nivel mínimo esperado de información para gestión del activo diseno del proyecto en términos de operación y mantenimiento
 Perfil Definición de los 12aguetes de trabajo y_ los reguerimientos que se
 llevarán a Operación y Mantenimiento
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024
 
 1
 Aga:nda N.JGiontil de
@@ -3806,7 +3806,7 @@ La información que presente el Concesionario hará parte de la información de 
 y no podrá incluirse en el Cuarto de Datos del proceso de selección.
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024
 
 4 .
 ara
@@ -3847,7 +3847,7 @@ Establece los objetivos y las líneas para la gestión de información de activo
  Implementar los estándares BIM definidos por la AGENCIA.
  Realizar el seguimiento al cronograma yo programación del proyecto.
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3)
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3)
 2024
 
 11
@@ -3887,7 +3887,7 @@ Crea las acciones a realizar para cumplir los objetivos y líneas estratégicas 
  Federar y consolidar todos los modelos de información de las diferentes especialidades, garantizando la correcta entrega de la información, su coordinación y su coherencia, sin exceder los límites de su responsabilidad.
  Validar la correcta entrega de la información por parte del equipo de trabajo en cumplimiento de los requisitos de BIM de la AGENCIA.
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE !Pub.Vl.0 {ATB-F3)
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE !Pub.Vl.0 {ATB-F3)
 2024
 
 4 .
@@ -3923,7 +3923,7 @@ Apoya las acciones desarrolladas en el nivel táctico y es el responsable de la 
  Revisar el modelo de información.
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM 01SEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O {ATB-F3) 2024
+ANEXO TÉCNICO BIM 01SENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O {ATB-F3) 2024
 
 4 .
 Agencia l-la"1orol d
@@ -3962,21 +3962,21 @@ Especialización en Arquitectura, ingeniería o afines.
 Pregrado:
 Arquitecto, ingeniero o profesiones afines al alcance del proyecto, con matrícula
 Experiencia general:
-Experiencia profesional de mínimo ocho (8) años contados a partir de la expedición de la tarjeta profesional.
+Experiencia profesional de mínimo ocho (8) anos contados a partir de la expedición de la tarjeta profesional.
 Experiencia específica:
 Experiencia mínima en cuatro
-(4) contratos o tres (3) años como BIM Manager, coordinador BIM o profesional BIM o especialista BIM en contratos de consultoría, u obra, o interventoría para proyectos de infraestructura o edificación.
+(4) contratos o tres (3) anos como BIM Manager, coordinador BIM o profesional BIM o especialista BIM en contratos de consultoría, u obra, o interventoría para proyectos de infraestructura o edificación.
 
 Experiencia general:
-Experiencia profesional de mínimo seis (5) años contados a partir de la expedición de la tarjeta profesional.
+Experiencia profesional de mínimo seis (5) anos contados a partir de la expedición de la tarjeta profesional.
 Experiencia específica:
-Experiencia mínima en tres (3) contratos o dos (2) años como coordinador BIM o profesional BIM en contratos de consultoría, u obra, o interventoría para proyectos de infraestructura o edificación.
+Experiencia mínima en tres (3) contratos o dos (2) anos como coordinador BIM o profesional BIM en contratos de consultoría, u obra, o interventoría para proyectos de infraestructura o edificación.
 
 Experiencia general:
-Experiencia profesional de mínimo cuatro (4) años
+Experiencia profesional de mínimo cuatro (4) anos
 
 ANEXO TÉCNICO No. 1A
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024
 
 Agencia Nac:Onal d
 Infraestructura
@@ -3999,7 +3999,7 @@ de la tarjeta
 Posgrado:
 Especialización en arquitectura, ingeniería o afines.
 Experiencia específica:
-Experiencia mínima en dos (2) contratos o dos (2) años de experiencia con alcance BIM como coordinador o profesional técnico en contratos de consultoría, u obra, o interventoría para proyectos de infraestructura o edificación.
+Experiencia mínima en dos (2) contratos o dos (2) anos de experiencia con alcance BIM como coordinador o profesional técnico en contratos de consultoría, u obra, o interventoría para proyectos de infraestructura o edificación.
 
 Modelador BIM
 
@@ -4008,9 +4008,9 @@ Cantidad: Un (1} modelador por equipo de tareas
 Pregrado:
 Técnico, tecnólogo o profesiones afines al alcance del proyecto.
 Experiencia general:
-Dos (2) años
+Dos (2) anos
 Experiencia específica:
-Experiencia mínima en un (1} contrato o un (1} año de experiencia con alcance BIM como modelador en contratos de consultoría, u obra, o interventoría para proyectos de infraestructura o edificación.
+Experiencia mínima en un (1} contrato o un (1} ano de experiencia con alcance BIM como modelador en contratos de consultoría, u obra, o interventoría para proyectos de infraestructura o edificación.
 
 #### 4.0 ESTRATEGIA DE PRODUCCIÓN Y ENTREGA DE INFORMACIÓN
 
@@ -4019,7 +4019,7 @@ En este capítulo se especifican los requerimientos para la estrategia de produc
 Los lineamientos aquí definidos brindan los parámetros mínimos a seguir para producir, compartir e intercambiar información de manera estructurada durante todo el ciclo de vida del proyecto, asegurando la disponibilidad, trazabilidad y seguimiento de la información de los modelos BIM de manera más eficiente, garantizando entregables BIM de calidad.
 
 ANEXO TÉCNICO No. 1A
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024
 
 Avenida Calle 24A Nro. 59-42 Torre 4 Piso 2 PBX: 4B4aaso-www.ani.gov.co
 NIT. 8301259969. Código Postal ANI 110221
@@ -4065,7 +4065,7 @@ intervención, autorización o aprobación del progreso del trabajo.
 disponible para el equipo de entregas, es decir, para todos los equipos de
 
 ANEXO TÉCNICO No. 1A
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.V1.0 {ATB-F3)
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.V1.0 {ATB-F3)
 2D24
 
 4 .
@@ -4105,7 +4105,7 @@ Nom?re o sigla correspondiente al equipo de trabajo creativo.
 Debe definirse un identificador único para cada desglose (subdivisión del proyecto). Estos códigos deben estar alineados con la segregación del proyecto y el desglose de paquetes de trabajo descritos en el capítulo 2 del presente
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3)
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3)
 2024
 
 Agencia Nacional de
@@ -4141,7 +4141,7 @@ Figura 6. Ejemplo de estructura de carpetas.
 Elaboración - Consultor TDC LAB.
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (AT8-F3)
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (AT8-F3)
 2024
 
 Agonda Nadonai dé
@@ -4176,7 +4176,7 @@ Figura 7. Ejemplo nomenclatura de archivos.
 Elaboración - Mesa Sectorial BIM.
 
 ANEXO TÉCNICO No. 1A
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3]
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3]
 2024
 
 ncia NücKloal de
@@ -4224,7 +4224,7 @@ La norma de nomenclatura y numeración de archivos que se adopte en el proyecto 
 En el caso que el concesionario decida hacer uso del sistema de nomenclatura de la Mesa Sectorial BIM del sector transporte, deberá acogerse a los campos de nomenclatura incluidos en la guía de
 
 ANEXO TÉCNICO No. 1A
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE 1Pub.V1.0 (ATB-F3) 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE 1Pub.V1.0 (ATB-F3) 2024
 
 4 .
 Agencia Naclornil do
@@ -4281,7 +4281,7 @@ Número de compartidos, siendo secuencial en cada aumento de la revisión versi�
 - 
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITJVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3)
+ANEXO TÉCNICO BIM DISENOS DEFINITJVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3)
 2024
 
 11
@@ -4329,7 +4329,7 @@ DOCUMENTO
 NUMERO
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3)
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3)
 2024
 
 4 .
@@ -4370,7 +4370,7 @@ Versionamiento principal: Dos valores enteros numéricos que representan la revi
 Versionamiento de trabajo: Dos valores enteros numéricos precedidos de un punto decimal, que representan la versión de trabajo (producción - WIP) de la revisión principal.
 
 ANEXO TÉCNICO No. 1A
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE 1Pub.V1.0 (ATB-F3)
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE 1Pub.V1.0 (ATB-F3)
 2024
 
 Agc-ncla Nadooal de 
@@ -4406,7 +4406,7 @@ B1, Bn, etc Parcialmente viable - Viable con comentarios
 Publicado (Contractual) Cl, Cn, etc Rechazado asignado por el adjudicatario principal para devolver el contenedor de información ya que no se ajusta a lo requerido.
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 {ATB-F3)
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 {ATB-F3)
 2024
 
 4 11
@@ -4427,7 +4427,7 @@ El Concesionario implementará al interior del equipo de desarrollo el uso de me
 El tratamiento de la información corresponderá a la política de tratamiento de datos, transparencia y matriz de información reservada y clasificada que haya sido adoptada y publicada por la ANI, que puede ser consultada en www.ani.gov.co y aquella regulación especial contenida en la Ley 1508 de 2012 y sus decretos reglamentarios, la cual establece que la información que presente el Concesionario, incluyendo la relacionada con el presente Anexo Técnico es confidencial y se encuentra bajo reserva legal. De igual forma, la información que intercambiarán la ANI y el Concesionario seguirá las reglas de confidencialidad y seguridad que determinen ambas Partes en los documentos de acuerdo que así los dispongan (Ej. Acuerdo de Confidencialidad., protocolos de intercambio de información y sus equivalentes).
 
 CF Confidencial
-La información comercial u operativamente sensible, su divulgación o pérdida podría tener un impacto en los negocios de la parte designada, sin limitarse a daños financieros o de reputación.
+La información comercial u operativamente sensible, su divulgación o pérdida podría tener un impacto en los negocios de la parte designada, sin limitarse a danos financieros o de reputación.
 
 #### 4.2 Estrategia de colaboración
 
@@ -4438,7 +4438,7 @@ El Concesionario deberá gestionar la información dentro del Ambiente Común de
 Aquí se indica el cronograma de reuniones claves mínimas que se deben llevar a cabo para el desarrollo del proyecto y la entrega de documentación. Estas pueden ser complementadas yo modificadas en
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 {ATB-F3)
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 {ATB-F3)
 2024
 
 4 .
@@ -4452,7 +4452,7 @@ Página 58 de 78
 beneficio del proyecto por parte del Concesionario en el Plan de Ejecución BIM (BEP) de disenos definitivos y estudios de detalle.
 
 ::.".:."tt:_;,- :- ..:):::?;:!:
-Tipo de Rei,ñi6.ri 
+Tipo de Rei,ni6.ri 
  lt ; 2_s;_;
 
 Reunión A más tardar 5 días después de haber socialización BEP de
@@ -4495,7 +4495,7 @@ Verificación de la integridad de COBie yo IFC
 Revisión Información Gráfica Documental
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATBF3) 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATBF3) 2024
 
 4 .
  Agencia Nacional de 
@@ -4539,7 +4539,7 @@ Esta transición de información se da entre los contenedores de información de
 
 De Compartido a Publicado:
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE 1Pub.V1.0 (ATB-F3) 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE 1Pub.V1.0 (ATB-F3) 2024
 
 Agencia Nacional d
 Infraestructura
@@ -4568,7 +4568,7 @@ Proceso de revisión de información publicada: La información publicada es inf
 {ANI - Contratante) como un entregable de la etapa de disenos definitivos y estudios de detalle de desarrollo del proyecto.
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3)
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3)
 2024
 
 4 .
@@ -4606,7 +4606,7 @@ Datos (CDE).
 Datos (CDE) y reenviarse para volver a realizar la publicación con los aspectos solucionados.
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 {ATB-F3)
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 {ATB-F3)
 2024
 
 Agencia Nacional da
@@ -4636,7 +4636,7 @@ La información del proyecto debe cumplir con los requerimientos de información
 
 El Concesionario implementará al interior del equipo de desarrollo, los procesos, herramientas y reportes para el control de calidad de los datos BIM, en todo caso, alineados con la serie de normas ISO 19650.
 ANEXO TÉCNICO No. 1A
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3]
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3]
 2024
 
 4 .
@@ -4696,7 +4696,7 @@ cerradas al final del Hito
 90 a 100 - Excelente
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO Blf DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024
+ANEXO TÉCNICO Blf DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024
 
 A9;1ncia Nacionai de 
 Infraestructura
@@ -4748,7 +4748,7 @@ El Concesionario deberá definir en el Plan de Ejecución BIM (BEP) de disenos d
 
 #### 5.0 ESTÁNDARES PARA PRODUCCIÓN DE INFORMACIÓN BIM
 ANEXO TÉCNICO No. lA
-ANEXO TÉCN!CO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3)
+ANEXO TÉCN!CO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3)
 2024
 
 lgllfltla Nacional de
@@ -4788,7 +4788,7 @@ que utilizan las
 ' ""- -
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024
 
 4 .
 Agoncia N.:;ional de
@@ -4828,7 +4828,7 @@ En este capítulo se especifican los métodos y procedimientos mínimos que debe
 #### 6.1 Plataformas de trabajo
 
 ANEXO TÉCNICO No. 1A
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 {ATB-F3) 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 {ATB-F3) 2024
 
 4 .
 Age,,cia Nacional de
@@ -4862,7 +4862,7 @@ El CDE debe permitir:
 Al finalizar la etapa de factibilidad, el Concesionario deberá proporcionar los accesos necesarios y suficientes al CDE para la información en estado "Publicado", para la Agencia Nacional de Infraestructura (ANI) y para el futuro evaluador de la iniciativa pública, de tal manera que se pueda realizar una adecuada gestión de la información, incluida la revisión, la realización de observaciones y comentarios a los modelos, el recibo de retroalimentación por parte del Concesionario, supervisión y
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3)
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3)
 2024
 
 4 .
@@ -4914,7 +4914,7 @@ con permisos controlados.
 ...:...._ -------.,---..--,-v-- - -----------"'--
 
 ANEXO TÉCNICO No. 1A
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE f Pub.Vl.O (ATB-F3) 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE f Pub.Vl.O (ATB-F3) 2024
 
 4 .
 Agencia Naoiooa! do
@@ -4964,7 +4964,7 @@ centralizado y controlado asegurando NO
 la marca actual, las plantillas y personalizaciones utilizadas.
 - -.. -' .. -- "' . 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB F3)
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB F3)
 2024
 
 4 .
@@ -5020,7 +5020,7 @@ redundancia.
 Capacidad de buscar rápidamente información por nombre, contenido y NO metadatos
 
 ANEXO TÉCNICO No. 1A
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024
 
 4 .
  .1
@@ -5063,7 +5063,7 @@ El Concesionario y el evaluador de la iniciativa pública deberán contar con lo
 El Concesionario y el evaluador de la iniciativa pública deberán contar con los requerimientos de rendimiento que sean necesarios para cumplir con las necesidades de cada programa a utilizar y con ello, garantizar la adecuada producción de la información en los tiempos especificados en el
 
 ANEXO TÉCNICO No. 1A
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.V1.0 (ATB-F3) 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.V1.0 (ATB-F3) 2024
 
 Agencia N.Jcionat 00
 Infraestructura
@@ -5103,7 +5103,7 @@ la aprobación de la factibilidad, pero siempre y cuando no se viole ningún acu
 El Concesionario deberá entregar los modelos de información en formato digital modificable y digital no modificable, teniendo presente:
 
 ANEXO TÉCNICO No. 1A
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3) 2024
 
 4 .
 Agencia Nacloool rle
@@ -5139,7 +5139,7 @@ En la siguiente tabla se presenta la propuesta de la estrategia general de feder
 !:(:.:-:1;,'.:::;:;:::1::_:"r'-""--_: ...;;--''--""!'.-"::"""'-"-"'--'"'-','-""--
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATBF3]
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATBF3]
 2024
 
 JilUll!ll.
@@ -5175,7 +5175,7 @@ Entendiendo que no todos los elementosobjetos que tienen alcance en el desarroll
 6.6.2 Espacialidad y funcionalidad
 
 ANEXO TÉCNICO No. 1A
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE 1Pub.V1.0 (ATB-F3)
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE 1Pub.V1.0 (ATB-F3)
 2024
 
 Agsncla Nacional de
@@ -5201,12 +5201,12 @@ Tolerancia en estructuras de concreto
 
 Estructuras 2010 NSR-10
 
-En la siguiente tabla se presentan los documentos, plantillas yo formatos que acompañan el presente Anexo Técnico BIM de Factibilidad (ATB-F3), los cuales podrán o deberán ser ajustados o complementados según corresponda y sea necesario, mediante la aprobación del BEP de factibilidad. Estos formatos, documentos yo plantillas están publicados para referencia en el Cuarto de Información de Referencia del proyecto.
+En la siguiente tabla se presentan los documentos, plantillas yo formatos que acompanan el presente Anexo Técnico BIM de Factibilidad (ATB-F3), los cuales podrán o deberán ser ajustados o complementados según corresponda y sea necesario, mediante la aprobación del BEP de factibilidad. Estos formatos, documentos yo plantillas están publicados para referencia en el Cuarto de Información de Referencia del proyecto.
 
 El Concesionario, de forma previa a la presentación y aprobación del BEP, consultará y solicitará a la ANI, las nomenclaturas yo abreviaturas que se encuentren vigentes o adoptadas, ya que la Agencia Nacional de Infraestructura podrá modificarlas o actualizarlas.
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3)
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3)
 2024
 
 11
@@ -5251,7 +5251,7 @@ Lista de chequeo para garantizar que los recursos estarán
 11102023
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO lllM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3)
+ANEXO TÉCNICO lllM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3)
 2024
 
 4
@@ -5292,7 +5292,7 @@ NTC-IS0 29481-1:2022 Modelos de información de edificaciones. Manual de entrega
 NTC-1S0 29481-2:2022 Modelos de información de edificaciones. Manual de entrega de la información. Parte 2: Marco de trabajo para la interacción, fcontec, Colombia, 2022.
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3)
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.O (ATB-F3)
 2024
 
 4 .
@@ -5313,7 +5313,7 @@ NTC-ISO 19650-5:2021 Organización y digitalización de la información en edifi
 
 NTC-ISO12006-2:2021 Construcción. Organización de la información de las obras de construcción. Parte 2: Marco para la clasificación, Jcontec, Colombia, 2021.
 
-UNE-EN 17412-1:2021 BIM. Nivel de información necesario. Parte 1: Conceptos y principios. Asociación Española de Normalización, España, 2021.
+UNE-EN 17412-1:2021 BIM. Nivel de información necesario. Parte 1: Conceptos y principios. Asociación Espanola de Normalización, Espana, 2021.
 
 Guías para la adopción BIM en Organizaciones, BIM Forum Colombia, Colombia,2019. (en línea: https:camacol-new.demodayscript.comproductividad-sectorialdigitalizacionbim-forumbim-kit)
 
@@ -5321,11 +5321,11 @@ Documentos Tipo o Pliegos Tipo y sus anexos, Colombia Compra Eficiente, Colombia
 
 Requerimientos de intercambio de información (EIR), Luis Carlos Morales, TDC LAB, Colombia 2020.
 
-VoBo: Adriana María Montañez Saenz - VE aj
-Fredy Leandro Espejo Fandiño - VE fe
+VoBo: Adriana María Montanez Saenz - VE aj
+Fredy Leandro Espejo Fandino - VE fe
 
 ANEXO TÉCNICO No. lA
-ANEXO TÉCNICO BIM DISEÑOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024
+ANEXO TÉCNICO BIM DISENOS DEFINITIVOS Y ESTUDIOS DE DETALLE IPub.Vl.0 (ATB-F3) 2024
 
 LooomctoraGR-12 1201
 
@@ -5634,7 +5634,7 @@ Tolva BMaslera 71323 NO OPERATIVO
 74005
 74006
 7401
-PLATAf?Jir.iiADÑs;,.
+PLATAf?Jir.iiADNs;,.
 1 4030
 2 4032
 3 4033
@@ -5790,8 +5790,8 @@ litera 025 025 OPERATIVO
 Lllera 026 0:!:6 OPERATIVO
 Litera 027 027 OPERATIVO
 
-VoBo: Adriana María Montañez Saenz - VE r,.."""5
-Fredy Leandro Espejo Fandiño - VE
+VoBo: Adriana María Montanez Saenz - VE r,.."""5
+Fredy Leandro Espejo Fandino - VE
 
 
 ---

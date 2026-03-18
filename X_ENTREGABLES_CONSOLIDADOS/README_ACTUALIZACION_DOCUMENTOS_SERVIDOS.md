@@ -18,7 +18,7 @@
 
 | Documento | Sistema WBS | DT que lo afectó | Fecha Actualización |
 |:----------|:------------|:-----------------|:--------------------|
-| **SISTEMA_01** Control y Señalización | Cap. 1 (1.1.106) | DT-INTERFACES-001 | 9-Oct 11:54 AM ✅ |
+| **SISTEMA_01** Control y Senalización | Cap. 1 (1.1.106) | DT-INTERFACES-001 | 9-Oct 11:54 AM ✅ |
 | Interfaces_Sistemas_Actualizado | IV.2 Ing. Básica | DT-INTERFACES-001 | 9-Oct 11:29 AM ✅ |
 | CTC_v5_Actualizado | V.2 Ing. Detalle | DT-INTERFACES-001 | 9-Oct 11:29 AM ✅ |
 | Protocolo_FFFIS_Actualizado | VII.2.4 Soporte | DT-INTERFACES-001 | 9-Oct 11:29 AM ✅ |
@@ -61,7 +61,7 @@ Actualiza COCINA (I-VI) según aplique:
 Script: consolidar_para_carpeta_x.ps1
     ↓
 Lee COCINA actualizada (I-VI):
-    ├─ V.1_Señalizacion → SISTEMA_01_Master
+    ├─ V.1_Senalizacion → SISTEMA_01_Master
     ├─ V.2_CTC → SISTEMA_01_Master
     ├─ V.3_Comunicacion → SISTEMA_02_Master
     ├─ V.4_Potencia → SISTEMA_05_Master
@@ -92,7 +92,7 @@ Cliente ve/descarga documentos
 
 ## 📋 MAPEO WBS ↔ DOCUMENTOS X/
 
-### **SISTEMA_01 - Control y Señalización**
+### **SISTEMA_01 - Control y Senalización**
 
 **Capítulos WBS que cubre:**
 - Cap. 1.1: CTC
@@ -102,7 +102,7 @@ Cliente ve/descarga documentos
 - Cap. 1.5: Desvíos
 
 **Fuentes en Cocina (I-VI):**
-- V.1_Señalizacion_Ferroviaria_Detalle
+- V.1_Senalizacion_Ferroviaria_Detalle
 - V.2_Centro_Control_Trafico_CTC ✅ Actualizado hoy
 - V.X_Enclavamientos_ENCE_Detalle
 - V.X_Sistema_Desvios_Detalle

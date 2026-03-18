@@ -20,7 +20,7 @@ Se ha completado el **PASO 5: Validación Final** aplicando los 8 criterios de �
 #### **✅ EVALUACIÓN**
 | Documento | Estado Actual | Estado Requerido | Cumplimiento |
 |:---|:---:|:---:|:---:|
-| **V.1 Señalización** | ❌ Incompleta | ✅ Completa | 🔴 NO CUMPLE |
+| **V.1 Senalización** | ❌ Incompleta | ✅ Completa | 🔴 NO CUMPLE |
 | **V.2 CTC** | ❌ Incompleta | ✅ Completa | 🔴 NO CUMPLE |
 | **V.3 Comunicaciones** | ❌ Incompleta | ✅ Completa | 🔴 NO CUMPLE |
 | **V.4 Potencia** | ❌ Incompleta | ✅ Completa | 🔴 NO CUMPLE |
@@ -64,7 +64,7 @@ Se ha completado el **PASO 5: Validación Final** aplicando los 8 criterios de �
 #### **✅ EVALUACIÓN**
 | Documento | Versión Actual | Fecha | Estado |
 |:---|:---:|:---:|:---:|
-| **V.1 Señalización** | v1.0 | 02/10/2025 | ✅ CUMPLE |
+| **V.1 Senalización** | v1.0 | 02/10/2025 | ✅ CUMPLE |
 | **V.2 CTC** | v1.0 | 02/10/2025 | ✅ CUMPLE |
 | **V.3 Comunicaciones** | v1.0 | 02/10/2025 | ✅ CUMPLE |
 | **V.4 Potencia** | v1.0 | 02/10/2025 | ✅ CUMPLE |
@@ -82,7 +82,7 @@ Se ha completado el **PASO 5: Validación Final** aplicando los 8 criterios de �
 #### **🔴 EVALUACIÓN**
 | Documento | Referencias Contractuales | Referencias Cruzadas | Estado |
 |:---|:---:|:---:|:---:|
-| **V.1 Señalización** | ❌ Ausentes | ❌ Ausentes | 🔴 NO CUMPLE |
+| **V.1 Senalización** | ❌ Ausentes | ❌ Ausentes | 🔴 NO CUMPLE |
 | **V.2 CTC** | ❌ Ausentes | ❌ Ausentes | 🔴 NO CUMPLE |
 | **V.3 Comunicaciones** | ❌ Ausentes | ❌ Ausentes | 🔴 NO CUMPLE |
 | **V.4 Potencia** | ❌ Ausentes | ❌ Ausentes | 🔴 NO CUMPLE |
@@ -101,7 +101,7 @@ Se ha completado el **PASO 5: Validación Final** aplicando los 8 criterios de �
 #### **✅ EVALUACIÓN**
 | Documento | Especificaciones | Arquitectura | Normas | Estado |
 |:---|:---:|:---:|:---:|:---:|
-| **V.1 Señalización** | ✅ Completa | ✅ Definida | ✅ Aplicadas | ✅ CUMPLE |
+| **V.1 Senalización** | ✅ Completa | ✅ Definida | ✅ Aplicadas | ✅ CUMPLE |
 | **V.2 CTC** | ✅ Completa | ✅ Definida | ✅ Aplicadas | ✅ CUMPLE |
 | **V.3 Comunicaciones** | ✅ Completa | ✅ Definida | ✅ Aplicadas | ✅ CUMPLE |
 | **V.4 Potencia** | ✅ Completa | ✅ Definida | ✅ Aplicadas | ✅ CUMPLE |
@@ -120,7 +120,7 @@ Se ha completado el **PASO 5: Validación Final** aplicando los 8 criterios de �
 #### **🔴 EVALUACIÓN**
 | Documento | Terminología | Especificaciones | Interfaces | Estado |
 |:---|:---:|:---:|:---:|:---:|
-| **V.1 Señalización** | ✅ Consistente | ⚠️ Parcial | ❌ No definidas | 🔴 NO CUMPLE |
+| **V.1 Senalización** | ✅ Consistente | ⚠️ Parcial | ❌ No definidas | 🔴 NO CUMPLE |
 | **V.2 CTC** | ✅ Consistente | ⚠️ Parcial | ❌ No definidas | 🔴 NO CUMPLE |
 | **V.3 Comunicaciones** | ✅ Consistente | ⚠️ Parcial | ❌ No definidas | 🔴 NO CUMPLE |
 | **V.4 Potencia** | ✅ Consistente | ⚠️ Parcial | ❌ No definidas | 🔴 NO CUMPLE |
@@ -138,7 +138,7 @@ Se ha completado el **PASO 5: Validación Final** aplicando los 8 criterios de �
 #### **✅ EVALUACIÓN**
 | Documento | Estructura | Formato | Presentación | Estado |
 |:---|:---:|:---:|:---:|:---:|
-| **V.1 Señalización** | ✅ Profesional | ✅ Uniforme | ✅ Clara | ✅ CUMPLE |
+| **V.1 Senalización** | ✅ Profesional | ✅ Uniforme | ✅ Clara | ✅ CUMPLE |
 | **V.2 CTC** | ✅ Profesional | ✅ Uniforme | ✅ Clara | ✅ CUMPLE |
 | **V.3 Comunicaciones** | ✅ Profesional | ✅ Uniforme | ✅ Clara | ✅ CUMPLE |
 | **V.4 Potencia** | ✅ Profesional | ✅ Uniforme | ✅ Clara | ✅ CUMPLE |
@@ -157,7 +157,7 @@ Se ha completado el **PASO 5: Validación Final** aplicando los 8 criterios de �
 #### **🔴 EVALUACIÓN**
 | Documento | Advertencia Legal | Términos de Uso | Confidencialidad | Estado |
 |:---|:---:|:---:|:---:|:---:|
-| **V.1 Señalización** | ❌ Ausente | ❌ Ausente | ❌ Ausente | 🔴 NO CUMPLE |
+| **V.1 Senalización** | ❌ Ausente | ❌ Ausente | ❌ Ausente | 🔴 NO CUMPLE |
 | **V.2 CTC** | ❌ Ausente | ❌ Ausente | ❌ Ausente | 🔴 NO CUMPLE |
 | **V.3 Comunicaciones** | ❌ Ausente | ❌ Ausente | ❌ Ausente | 🔴 NO CUMPLE |
 | **V.4 Potencia** | ❌ Ausente | ❌ Ausente | ❌ Ausente | 🔴 NO CUMPLE |
@@ -175,7 +175,7 @@ Se ha completado el **PASO 5: Validación Final** aplicando los 8 criterios de �
 #### **🔴 EVALUACIÓN**
 | Documento | KPIs | Indicadores | Métricas | Estado |
 |:---|:---:|:---:|:---:|:---:|
-| **V.1 Señalización** | ❌ Ausentes | ❌ Ausentes | ❌ Ausentes | 🔴 NO CUMPLE |
+| **V.1 Senalización** | ❌ Ausentes | ❌ Ausentes | ❌ Ausentes | 🔴 NO CUMPLE |
 | **V.2 CTC** | ❌ Ausentes | ❌ Ausentes | ❌ Ausentes | 🔴 NO CUMPLE |
 | **V.3 Comunicaciones** | ❌ Ausentes | ❌ Ausentes | ❌ Ausentes | 🔴 NO CUMPLE |
 | **V.4 Potencia** | ❌ Ausentes | ❌ Ausentes | ❌ Ausentes | 🔴 NO CUMPLE |

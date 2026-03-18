@@ -121,7 +121,7 @@ X_ENTREGABLES_CONSOLIDADOS/
 - **Frecuencia:** Mensual o por hitos, NO diaria
 
 ### **Problema resuelto:**
-"Será difícil ajustar 60 documentos en Carpeta X con cada cambio pequeño"
+"Será difícil ajustar 60 documentos en Carpeta X con cada cambio pequeno"
 
 **Solución:**
 - ✅ NO ajustes X por cada cambio

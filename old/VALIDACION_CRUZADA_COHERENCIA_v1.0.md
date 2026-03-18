@@ -15,7 +15,7 @@ Verificar que **TODOS** los documentos del ecosistema documental estén **100% a
 
 ### **📋 CRITERIOS DE VALIDACIÓN:**
 1. **Coherencia de Cantidades:** Todas las cantidades deben coincidir con CRITERIOS_TECNICOS_MAESTRO
-2. **Coherencia de Filosofía:** Todos los documentos deben reflejar señalización virtual
+2. **Coherencia de Filosofía:** Todos los documentos deben reflejar senalización virtual
 3. **Coherencia de Referencias:** Referencias cruzadas deben ser consistentes
 4. **Coherencia de Versiones:** Todas las versiones deben estar actualizadas
 5. **Coherencia de Impacto:** Impacto presupuestal debe ser consistente
@@ -35,7 +35,7 @@ Verificar que **TODOS** los documentos del ecosistema documental estén **100% a
 | **27_Sistema_TETRA_Integrado** | v5.0 | ✅ | ✅ | ✅ | ✅ **VALIDADO** |
 | **29_Sistema_Senalizacion_Integrado** | v5.0 | ✅ | ✅ | ✅ | ✅ **VALIDADO** |
 | **32_Material_Rodante_Integrado** | v5.0 | ✅ | ✅ | ✅ | ✅ **VALIDADO** |
-| **V.1_Señalizacion_Ferroviaria_Detalle** | v2.0 | ✅ | ✅ | ✅ | ✅ **VALIDADO** |
+| **V.1_Senalizacion_Ferroviaria_Detalle** | v2.0 | ✅ | ✅ | ✅ | ✅ **VALIDADO** |
 | **V.2_Centro_Control_Trafico_CTC_Detalle** | v2.0 | ✅ | ✅ | ✅ | ✅ **VALIDADO** |
 | **V.3_Sistemas_Comunicacion_Detalle** | v2.0 | ✅ | ✅ | ✅ | ✅ **VALIDADO** |
 | **V.4_Sistemas_Potencia_Detalle** | v2.0 | ✅ | ✅ | ✅ | ✅ **VALIDADO** |
@@ -64,7 +64,7 @@ Verificar que **TODOS** los documentos del ecosistema documental estén **100% a
 | **Sistema** | **Cantidad Anterior** | **Cantidad Actual** | **Documentos Actualizados** | **Estado** |
 |:---|:---:|:---:|:---:|:---:|
 | **Virtual Balise (GNSS)s** | 1,080 unidades | 0 unidades | AT1, 23, 29, V.1, V.2 | ✅ **ELIMINADO** |
-| **Señalización en Cabina (Cab-Signaling) vía** | 270 unidades | 0 unidades | AT1, 23, 29, V.1 | ✅ **ELIMINADO** |
+| **Senalización en Cabina (Cab-Signaling) vía** | 270 unidades | 0 unidades | AT1, 23, 29, V.1 | ✅ **ELIMINADO** |
 | **Servidor PTC Central** | 2 unidades | 0 unidades | AT1, 23, 29, V.2 | ✅ **ELIMINADO** |
 | **[CONTROLLER PROHIBIDO - SICC ES VIRTUAL]** | 1,080 unidades | 0 unidades | AT1, 23, 29, V.1 | ✅ **ELIMINADO** |
 
@@ -74,7 +74,7 @@ Verificar que **TODOS** los documentos del ecosistema documental estén **100% a
 | **Documento** | **Filosofía Anterior** | **Filosofía Actual** | **Estado** |
 |:---|:---:|:---:|:---:|
 | **AT1** | PTC PTC Virtual (FRA 236) | PTC Embarcado + CTC Virtual | ✅ **ACTUALIZADO** |
-| **29_Senalizacion** | Filosofía PTC Virtual | Señalización virtual | ✅ **ACTUALIZADO** |
+| **29_Senalizacion** | Filosofía PTC Virtual | Senalización virtual | ✅ **ACTUALIZADO** |
 | **V.1_Detalle** | Virtual Balise (GNSS)s + LED | CTC + PTC embarcado | ✅ **ACTUALIZADO** |
 | **V.2_CTC** | Servidor PTC Central + PTC Virtual (FRA 236) | CTC Virtual centralizado | ✅ **ACTUALIZADO** |
 
@@ -123,7 +123,7 @@ Verificar que **TODOS** los documentos del ecosistema documental estén **100% a
 
 ### **✅ COHERENCIA TÉCNICA VALIDADA:**
 
-#### **1. SEÑALIZACIÓN VIRTUAL:**
+#### **1. SENALIZACIÓN VIRTUAL:**
 - **✅ CTC Virtual:** Implementado en V.2_CTC_Detalle v2.0
 - **✅ PTC Embarcado:** Implementado en V.1_Detalle v2.0
 - **✅ ENCE:** Implementado en 29_Senalizacion v5.0

@@ -16,13 +16,13 @@ Este documento establece los criterios de redundancia y alta disponibilidad para
 - **AT4 (Indicadores):** Establece KPIs de disponibilidad superiores al 99% para sistemas clave (ej. SICC ≥ 99.5%, COM1 ≥ 99%). El incumplimiento de estos indicadores genera penalidades.
 
 ### 1.2 ⚠️ EVALUACIÓN DE DEPENDENCIAS DOCUMENTALES
-Este documento es la **póliza de seguro técnica del proyecto**. Define cómo se diseñarán los sistemas para resistir fallas sin interrumpir la operación.
+Este documento es la **póliza de seguro técnica del proyecto**. Define cómo se disenarán los sistemas para resistir fallas sin interrumpir la operación.
 
 - **Depende de:**
     - `33_Criterios_Normatividad...md`: Define las normas (ej. RETIE) que rigen el diseno de sistemas redundantes.
-    - `34_Criterios_Interoperabilidad...md`: Las interfaces de interoperabilidad deben ser diseñadas con alta disponibilidad.
+    - `34_Criterios_Interoperabilidad...md`: Las interfaces de interoperabilidad deben ser disenadas con alta disponibilidad.
 - **Gobierna a:**
-    - **Todos los documentos de diseno de sistemas (`26` a `32`):** Cada sistema debe ser diseñado para cumplir con el nivel de redundancia aquí asignado.
+    - **Todos los documentos de diseno de sistemas (`26` a `32`):** Cada sistema debe ser disenado para cumplir con el nivel de redundancia aquí asignado.
     - `42_Plan_Pruebas...md`: Debe incluir pruebas específicas para validar los escenarios de falla y conmutación automática.
 
 ---
@@ -36,7 +36,7 @@ Este análisis se fundamenta en la estructura de trabajo y los análisis por sis
 |---|---|
 | `22` a `25_...md` | Establecen la metodología y la necesidad de definir criterios transversales. |
 | `33_Criterios_Normatividad...md` | Define las normas (RETIE, NFPA) que rigen el diseno de sistemas redundantes. |
-| `34_Criterios_Interoperabilidad...md` | Define las interfaces críticas que deben ser diseñadas con alta disponibilidad. |
+| `34_Criterios_Interoperabilidad...md` | Define las interfaces críticas que deben ser disenadas con alta disponibilidad. |
 
 ### 2.2 Documentos Dependientes (Bloqueados 🔴)
 El diseno detallado de todos los sistemas está bloqueado hasta que estos criterios de redundancia sean validados.
@@ -128,7 +128,7 @@ Este documento ha sido actualizado a la versión 4.0, estableciendo los **criter
 **Problemas identificados:**
 1. **Contenido técnico excelente:** El documento ya tenía contenido técnico detallado y bien estructurado
 2. **Falta de optimizaciones EPC específicas:** Solo estructura genérica sin análisis de problemas reales
-3. **Sin integración con sistemas ferroviarios:** No menciona interfaces específicas con CTC, TETRA, señalización
+3. **Sin integración con sistemas ferroviarios:** No menciona interfaces específicas con CTC, TETRA, senalización
 4. **Optimizaciones genéricas:** No específicas para redundancia ferroviaria
 5. **Sin estrategia de penalidades:** Falta análisis detallado de impacto en KPIs AT4
 
@@ -137,7 +137,7 @@ Este documento ha sido actualizado a la versión 4.0, estableciendo los **criter
 2. **Desarrollado optimizaciones EPC específicas** basadas en problemas reales de redundancia
 3. **Especificado minimización de penalidades** contractuales por incumplimiento KPIs
 4. **Definido arquitectura por niveles** con clasificación optimizada para inversión EPC
-5. **Integrado con sistemas ferroviarios** (CTC, TETRA, señalización, eléctrico, fibra óptica)
+5. **Integrado con sistemas ferroviarios** (CTC, TETRA, senalización, eléctrico, fibra óptica)
 
 ### 5.2 Acciones Requeridas para Mantener v4.0
 - **Aplicación en Diseno:** Todos los disenos de detalle deben incorporar el nivel de redundancia especificado en la matriz de la sección 4.1.
@@ -147,7 +147,7 @@ Este documento ha sido actualizado a la versión 4.0, estableciendo los **criter
 La aprobación de estos criterios de redundancia permite:
 - **Desbloquear el Paquete de Trabajo 5.4 (Ciberseguridad):** Al definir los activos críticos que requieren la máxima protección.
 - **Finalizar el Diseno Básico:** Los equipos de ingeniería tienen ahora todos los criterios transversales (Normatividad, Interoperabilidad, Redundancia) para completar la ingeniería basica.
-- **Avanzar en el Plan de Pruebas (`42_...`):** Añadir pruebas específicas de "pull-the-plug" para validar la conmutación automática de cada sistema redundante.
+- **Avanzar en el Plan de Pruebas (`42_...`):** Anadir pruebas específicas de "pull-the-plug" para validar la conmutación automática de cada sistema redundante.
 
 ---
 

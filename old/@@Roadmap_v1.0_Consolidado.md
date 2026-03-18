@@ -65,7 +65,7 @@ Este roadmap establece la ruta de trabajo para el desarrollo de la ingeniería d
 | 1.1 | `../III. Ingenieria conceptual/26. Sistem_CTC_Int – AT1(CCO) + AT2(op) + AT3(esp) + AT4(ind) + AT9(cro).md` | ✅ Completado | 19/09/2025 | Análisis del CTC integrado con múltiples apéndices. |
 | 2.2 | `../III. Ingenieria conceptual/27_Sistema_TETRA_Integrado_docx_AT1_torres_AT2_comunicaci_n_AT3_radio_AT7_predios_torres.md` | ✅ Completado | 19/09/2025 | Análisis de TETRA integrado con múltiples apéndices. |
 | 2.1 | `../III. Ingenieria conceptual/28_Sistema_FibraOptica_Integrado_docx_AT1_AT3_AT5_interferencias_AT7_predios.md` | ✅ Completado | 19/09/2025 | Análisis del backbone integrado con múltiples apéndices. |
-| 1.2 | `../III. Ingenieria conceptual/29_Sistema_Senalizacion_Integrado_docx_AT1_AT2_AT3_AT4_AT8_social.md` | ✅ Completado | 19/09/2025 | Análisis de Señalización integrado con múltiples apéndices. |
+| 1.2 | `../III. Ingenieria conceptual/29_Sistema_Senalizacion_Integrado_docx_AT1_AT2_AT3_AT4_AT8_social.md` | ✅ Completado | 19/09/2025 | Análisis de Senalización integrado con múltiples apéndices. |
 | 3.1 | `../III. Ingenieria conceptual/30_Sistema_ITS_Integrado_docx_AT1_AT3_AT4_AT6_ambiental.md` | ✅ Completado | 19/09/2025 | Análisis de ITS integrado con múltiples apéndices. |
 | 3.2 | `../III. Ingenieria conceptual/31_Sistema_CCTV_Integrado_docx_AT1_AT3_AT8_social_AT4_indicadores.md` | ✅ Completado | 19/09/2025 | Análisis de CCTV integrado con múltiples apéndices. |
 | 4.1 | `../III. Ingenieria conceptual/32_Material_Rodante_Integrado_docx_AT1_Cl_13_1_AT2_operaci_n_AT4.md` | ✅ Completado | 19/09/2025 | Análisis de Material Rodante integrado con múltiples apéndices. |
@@ -117,7 +117,7 @@ Este roadmap establece la ruta de trabajo para el desarrollo de la ingeniería d
 | WBS ID | Documento | Estado | Fecha | Observaciones |
 |:---|:---|:---:|:---:|---|
 | 6.1 | `VI. Operacion y Mantenimiento/VI_Operacion_Mantenimiento_y_reversion.md` | ✅ Completado | 19/09/2025 | Manual de Operación y Mantenimiento para el CTC. |
-| 6.2 | `VI. Operacion y Mantenimiento/VI_Operacion_Mantenimiento_y_reversion.md` | ✅ Completado | 19/09/2025 | Manual de Mantenimiento para Señalización. |
+| 6.2 | `VI. Operacion y Mantenimiento/VI_Operacion_Mantenimiento_y_reversion.md` | ✅ Completado | 19/09/2025 | Manual de Mantenimiento para Senalización. |
 | 6.3 | `VI. Operacion y Mantenimiento/VI_Operacion_Mantenimiento_y_reversion.md` | ✅ Completado | 19/09/2025 | Manual de Mantenimiento para Fibra Óptica y TETRA. |
 | 6.4 | `VI. Operacion y Mantenimiento/VI_Operacion_Mantenimiento_y_reversion.md` | ✅ Completado | 19/09/2025 | Manual de Mantenimiento para CCTV e Incendios. |
 

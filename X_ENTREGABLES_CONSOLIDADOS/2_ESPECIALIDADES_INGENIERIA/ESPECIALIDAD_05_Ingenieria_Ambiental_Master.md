@@ -103,7 +103,7 @@
 - **Eficiencia:** Uso eficiente de recursos naturales
 - **Prevención:** Prevención de la contaminación
 - **Cumplimiento:** Cumplimiento de normatividad ambiental
-- **Mejora Continua:** Mejora continua del desempeño ambiental
+- **Mejora Continua:** Mejora continua del desempeno ambiental
 
 #### **Estándares de Diseno:**
 - **Resolución 1405 de 2023:** Gestión de residuos eléctricos y electrónicos

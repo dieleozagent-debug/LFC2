@@ -46,9 +46,9 @@
 | **Fibra Óptica** | 526 km | 526 km | ✅ 100% |
 | **TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
 | **Red Vital IP / TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
-| **Señalización** | Virtual (CTC + PTC) | Virtual (CTC + PTC) | ✅ 100% |
+| **Senalización** | Virtual (CTC + PTC) | Virtual (CTC + PTC) | ✅ 100% |
 | **Virtual Balise (GNSS)s** | 0 unidades | 0 unidades | ✅ 100% |
-| **Señalización en Cabina (Cab-Signaling)** | 0 unidades | 0 unidades | ✅ 100% |
+| **Senalización en Cabina (Cab-Signaling)** | 0 unidades | 0 unidades | ✅ 100% |
 | **Servidor PTC Central** | 0 unidades | 0 unidades | ✅ 100% |
 | **EOT** | 15 dispositivos | 15 dispositivos | ✅ 100% |
 | **ENCE** | 5 estaciones | 5 estaciones | ✅ 100% |
@@ -72,7 +72,7 @@
 7. **Backbone Fibra:** 526 km doble anillo ✅
 
 ### **FILOSOFÍA TÉCNICA**
-- **Señalización Virtual:** CTC + PTC embarcado sin infraestructura física ✅
+- **Senalización Virtual:** CTC + PTC embarcado sin infraestructura física ✅
 - **Comunicaciones Redundantes:** TETRA + Red Vital IP / TETRA dual ✅
 - **Control Centralizado:** CTC como sistema principal ✅
 - **Sistemas Integrados:** Monitoreo unificado ✅
@@ -133,7 +133,7 @@
 ### **ESTÁNDARES APLICADOS**
 - ✅ **EN 50126/50128/50129:** Sistemas ferroviarios
 - ✅ **IEC 62443:** Ciberseguridad
-- ✅ **FRA/AREMA 615:** Señalización ferroviaria
+- ✅ **FRA/AREMA 615:** Senalización ferroviaria
 - ✅ **RETIE:** Instalaciones eléctricas
 - ✅ **NSR-10:** Norma sismo resistente
 

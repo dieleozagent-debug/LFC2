@@ -113,7 +113,7 @@ IX. WBS y Planificacion/
   "justificaciones": [
     {
       "codigo_wbs": "1.2.100",
-      "sistema": "Control y Señalización",
+      "sistema": "Control y Senalización",
       "item": "Computadora PTC embarcada",
       "cantidad_actual": 8,
       "cantidad_anterior": 15,
@@ -287,7 +287,7 @@ function mostrarRiesgosPorItem(codigo) {
 ### **NIVEL 6: INGENIERÍA DE DETALLE (V.X)** ❌ **FALTA IMPLEMENTAR**
 
 **Archivos afectados:**
-- `V.1_Señalizacion_Ferroviaria_Detalle_vX.md`
+- `V.1_Senalizacion_Ferroviaria_Detalle_vX.md`
 - `V.2_CTC_Detalle_vX.md`
 - `V.3_Sistemas_Comunicacion_Detalle_vX.md`
 - `V.4_Sistemas_Potencia_Detalle_vX.md`
@@ -358,7 +358,7 @@ documentos_maestros_actualizar:
   
   - file: "VIII. Documentos Maestros y Metodologia/MATRIZ_TRAZABILIDAD_TECNICA_v1.0.md"
     accion: "agregar_enlace"
-    seccion: "Sistema Control y Señalización"
+    seccion: "Sistema Control y Senalización"
     enlace:
       dt: "DT-TETRA-001"
       documentos: ["V.2 CTC", "WBS 1.2.100", "AT1"]
@@ -476,7 +476,7 @@ El Reporte Gerencial debe mostrar:
 📊 JUSTIFICACIÓN DE CANTIDADES POR SISTEMA
 
 ┌────────────────────────────────────────────────────────────────┐
-│ 1. CONTROL Y SEÑALIZACIÓN VIRTUAL                              │
+│ 1. CONTROL Y SENALIZACIÓN VIRTUAL                              │
 ├────────────────────────────────────────────────────────────────┤
 │ 1.2.100 - Computadora PTC embarcada: 8 UND                    │
 │                                                                │

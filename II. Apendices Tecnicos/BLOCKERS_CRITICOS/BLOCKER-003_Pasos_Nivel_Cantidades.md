@@ -27,7 +27,7 @@
 - 🟡 Sistemas PAN (Paso a Nivel):
   - Barreras automáticas: 146 UND (provisionales)
   - Cámaras CCTV: 146 UND (provisionales)
-  - Señalización LED: 146 UND (provisionales)
+  - Senalización LED: 146 UND (provisionales)
 
 **Riesgo Presupuestal:**
 - Si aumenta +10%: +$489M COP
@@ -44,7 +44,7 @@
 - ✅ Estudio de regularización aún NO finalizado
 - ✅ Cambios esperados: ±10% (experiencia proyectos similares)
 - ✅ EPC NO es responsable de definir cantidades (es del Concesionario)
-- ✅ Diseno modular permite ajustes sin re-diseñar
+- ✅ Diseno modular permite ajustes sin re-disenar
 
 ---
 
@@ -56,7 +56,7 @@
 1. ✅ **Diseno estándar PAN** (especificaciones técnicas)
    - Barreras automáticas tipo A/B/C
    - Sistemas de detección vehículos
-   - Señalización LED activa
+   - Senalización LED activa
    - Integración con CTC
 
 2. ✅ **Diseno modular escalable**
@@ -219,23 +219,23 @@ Diseno modular permite ajustes sin re-diseno completo.
 **Template Tipo A (Alto Riesgo):**
 - 2 Barreras automáticas
 - 4 Cámaras CCTV
-- Señalización LED completa
+- Senalización LED completa
 - Detección 4 carriles
 - Integración CTC
 
 **Template Tipo B (Medio Riesgo):**
 - 2 Barreras automáticas
 - 2 Cámaras CCTV
-- Señalización LED basica
+- Senalización LED basica
 - Detección 2 carriles
 - Integración CTC
 
 **Template Tipo C/Otros (Bajo Riesgo):**
-- Señalización pasiva
+- Senalización pasiva
 - 1 Cámara CCTV
 - Sin barreras (opcional)
 
-**Beneficio:** Aplicable a cualquier cantidad sin re-diseñar
+**Beneficio:** Aplicable a cualquier cantidad sin re-disenar
 
 ---
 

@@ -95,9 +95,9 @@ Página 2 de 45
 #### 6.14 Tuberías especiales ; 37
 #### 6.15 BIM (Building Information Modelling) 38
 ### CAPÍTULO VII - ESPECIFICACIONES Y NORMATIVAS APLICABLES A INSTITUCIONES EDUCATIVAS 40
-### CAPÍTULO VIII - ESPECIFICACIONES Y NORMATIVAS APLICABLES A SISTEMAS DE COMUNICACIONES, SEÑALIZACIÓN Y CONTROL DE TRENES
+### CAPÍTULO VIII - ESPECIFICACIONES Y NORMATIVAS APLICABLES A SISTEMAS DE COMUNICACIONES, SENALIZACIÓN Y CONTROL DE TRENES
 41
-#### 8.1 Sistemas de mando, señales y detección de trenes 41
+#### 8.1 Sistemas de mando, senales y detección de trenes 41
 #### 8.2 Sistema de control, representaciones de tráfico y detectores auxiliares 41
 #### 8.3 Normas Pasos a Nivel 42
 #### 8.4 Comunicaciones 42
@@ -157,7 +157,7 @@ Communications and Signals Manual-AREMA 2021.
 Manual of Standards and recommended practices de la Association of American Railroads - AAR 2022.
 AASHTO LRFD Bridge Design Specifications 2020.
 Reglas para operación férrea segura de FRA (Federal Railroad Administration TRACK AND RAIL AND INFRASTRUCTURE INTEGRITY COMPLIANCE MANDA 2018).
-Manual de Señalización Vial - Dispositivos Uniformes para la Regulación del Tránsito en Calles, Carreteras y Ciclorutas de Colombia. Adoptado mediante Resolución 1885 del 17 de junio de 2015 del Ministerio de Transporte.
+Manual de Senalización Vial - Dispositivos Uniformes para la Regulación del Tránsito en Calles, Carreteras y Ciclorutas de Colombia. Adoptado mediante Resolución 1885 del 17 de junio de 2015 del Ministerio de Transporte.
 Metodología General para la Presentación de Estudios Ambientales, expedida por el Ministerio de Ambiente y Desarrollo Sostenible conforme Resolución 1503 del 4 de agosto de 2010.
 Ley 105 de diciembre 30 de 1993, "Por la cual se dictan disposiciones basicas sobre el transporte, se redistribuyen competencias y recursos entre la Nación y las Entidades Territoriales, se reglamenta la planeación en el sector transporte y se dictan otras disposiciones".
 Ley 1523 del 24 de abril del 2012 "Por la cual se adopta la política nacional de gestión del riesgo de desastres y se establece el Sistema Nacional de Gestión del Riesgo de Desastres", Decreto 2157 de diciembre 20 de 2017 "Por medio del cual se adoptan directrices generales para la elaboración del plan de
@@ -179,10 +179,10 @@ XX.
 
 XXI.
 gestión del riesgo de desastres de las entidades públicas y privadas en el marco del artículo 42 de la Ley 1523 de 2012" y el Decreto 602 del 6 de abril de 2017 "Por el cual se adiciona la Parte 4 del Libro 2 del Decreto 1079 de 2015 y se reglamentan los artículos 84 de la Ley 1523 de 2012 y 12 y 63 de la Ley 1682 de 2013, en relación con la gestión del riesgo de desastres en el Sector Transporte y se dictan otras disposiciones".
-Resolución 256 de 2018 con la cual se adoptó la actualización del Manual de Compensaciones Ambientales del Componente Bíótico teniendo en cuenta las lecciones aprendidas de años de implementación del Manual de Asignación de Compensaciones por Pérdida de Biodiversidad (Resolución 1517 de 2012).
+Resolución 256 de 2018 con la cual se adoptó la actualización del Manual de Compensaciones Ambientales del Componente Bíótico teniendo en cuenta las lecciones aprendidas de anos de implementación del Manual de Asignación de Compensaciones por Pérdida de Biodiversidad (Resolución 1517 de 2012).
 Guía técnica para el diseno de las zonas laterales, para vías más seguras, divulgado por la Corporación Fondo de Seguridad Vial en septiembre de 2012.
 Ley 1618 de 2013 y circular externa 11 de marzo 4 de 2015 de la Superintendencia de Puertos y Transporte (acceso a personas con discapacidad).
-Resolución 4577 del 23 de septiembre de 2009, adición al Manual de Señalización de señales turísticas.
+Resolución 4577 del 23 de septiembre de 2009, adición al Manual de Senalización de senales turísticas.
 Resolución 24 del 7 de enero de 2011, Manual de Drenaje para Carreteras.
 Resolución 3290 del 15 de agosto de 2007, Normas de Ensayo de Materiales.
 Resolución 3288 del 15 de agosto de 2007, Especificaciones Generales de Construcción de Carreteras.
@@ -268,7 +268,7 @@ xiv,
 Disenos de Detalle no objetados por la lnterventoría y cumplir con las disposiciones establecidas en el Apéndice Técnico 1 y los manuales yo normas técnicas que se encuentren vigente al momento de la ejecución de las Intervenciones, sean obligatorias para la ejecución de este tipo de Intervenciones, y, en particular, pero sin limitarse, con las identificadas en el siguiente listado.
 Manual for Railway Engineering AREMA 2021. Standardization lnternational Union of Railways - FRA/AREMA 2019
 Normativa de la Railroad Administration de los Estados Unidos de Norteamérica.
-Resolución 4577 del 23 de septiembre de 2009, adición al Manual de Señalización de señales turísticas.
+Resolución 4577 del 23 de septiembre de 2009, adición al Manual de Senalización de senales turísticas.
 Resolución 24 del 7 de enero de 2011, Manual de Drenaje para Carreteras (2009).
 Especificaciones Generales de Construcción de Carreteras última actualización 22 de agosto de 2018.
 Resolución 7106 del 2 de diciembre de 2009, Guía de Manejo Ambiental.
@@ -278,7 +278,7 @@ Communications and Signals Manual-AREMA 2021.
 Manual of Standards and recommended practices de la Association of American Railroads - AAR 2022.
 AASHTO LRFD Bridge Design Specifications 2020.
 Reglas para operación férrea segura de FRA (Federal Railroad Administration TRACK AND RAIL ANO INFRASTRUCTURE INTEGRITY COMPLIANCE MANUA 2018).
-Manual de Señalización - Dispositivos para la Regulación del Tránsito en Calles, Carreteras y Ciclorutas de Colombia. Adoptado mediante Resolución 1885 del 17 de junio de 2015 del Ministerio de Transporte.
+Manual de Senalización - Dispositivos para la Regulación del Tránsito en Calles, Carreteras y Ciclorutas de Colombia. Adoptado mediante Resolución 1885 del 17 de junio de 2015 del Ministerio de Transporte.
 
 (b) i. En caso de que algunos parámetros no estén establecidos en las normas anteriores el Concesionario deberá utilizar las especificaciones yo normas técnicas de carácter internacional listadas a continuación:
 ASTM International en los códigos de construcción.
@@ -348,7 +348,7 @@ Comisión Nacional de Transporte CNRT GES 002 de 1995. Condiciones de compatibil
 Ectro-Motive Division of General Motors. Instructivo de Mantenimiento, M.I.1740 (Maintenance Instruction, M.I.1740).
 Programa de Mantenimiento de Turboalimentador para locomotoras de los tipos F, GP y SD. Número de volumen: M.I.1740. Lugar de la publicación: La Grange, Illinois 60525, U.S.A.
 General Electric Company. Programa de Inspección y lubricación para locomotoras, tipo Diésel, Eléctricas. Clasificación: Instructivos de Mantenimiento, números MI-00120J-GEK-3580IJ, MI-00120-GEK-35801. Edición: 1994.
-Electro-Motive Division of General Motors. Instrucciones de Conservación para locomotoras tipo Diesel- Eléctricas. Número del volumen: M.I.1704. Sección I, páginas de la 6 a la 7. Sección II, página 17. Edición: La Grange, Illin 60525, U.S.A. Año de la publicación: 1962.
+Electro-Motive Division of General Motors. Instrucciones de Conservación para locomotoras tipo Diesel- Eléctricas. Número del volumen: M.I.1704. Sección I, páginas de la 6 a la 7. Sección II, página 17. Edición: La Grange, Illin 60525, U.S.A. Ano de la publicación: 1962.
 Federal Railroad Administration (FRA Regulations)
 Titulo 49, Subtitulo B, Capítulo II, Partes 200 - 299, 2021.
 Association of American Railroads (Aar), Freight Rail Safety, Positive Train Control, 2021 Field Manual ofThe Aar Interchange Rules.
@@ -401,8 +401,8 @@ Manual de Diseno de Pavimentos Asfálticos en Vías con Medios y Altos Volúmene
 Manual de Diseno de Pavimentos Asfálticos en Vías con Bajos Volúmenes de Tránsito. Adoptado Mediante Resolución No. 003482 de 2007 del INVIAS.
 Manual de Capacidad y Niveles de Servicio para Carreteras de Dos Carriles Tercera Versión - 2020.
 Guía Metodológica para el Diseno de Obras de Rehabilitación de Pavimentos Asfálticos de Carreteras. Adoptada por la Resolución 743 de 2009 del Ministerio de Transporte.
-Manual de Señalización Vial- Dispositivos Uniformes para la Regulación del Tránsito en Calles, Carreteras y Ciclorutas de Colombia. Adoptado mediante Resolución 1885 del 17 de junio de 2015 del Ministerio de Transporte.
-Metodologías de Trabajo para la Señalización de Velocidad y Zonas de Adelantamiento en la Red Nacional de Carreteras. Adoptado Mediante Resolución 001384 de abril 20 de 2010.
+Manual de Senalización Vial- Dispositivos Uniformes para la Regulación del Tránsito en Calles, Carreteras y Ciclorutas de Colombia. Adoptado mediante Resolución 1885 del 17 de junio de 2015 del Ministerio de Transporte.
+Metodologías de Trabajo para la Senalización de Velocidad y Zonas de Adelantamiento en la Red Nacional de Carreteras. Adoptado Mediante Resolución 001384 de abril 20 de 2010.
 Manual de Drenaje de Carreteras. Adoptado mediante Resolución 000024 de 2011 del Ministerio de Transporte.
 Normas de Ensayos de Materiales para Carreteras Inv-13. Adoptado Mediante Resolución 1375 del 26 de mayo de 2014 del Ministerio de Transporte.
 Manual de Diseno de Pavimentos de Concreto para Vías con Bajos, Medios y Altos Volúmenes de Tránsito. Adoptado mediante Resolución 000803 de 2009 del Ministerio de Transporte
@@ -545,7 +545,7 @@ Norma Colombiana de Diseno de Puentes (CCP-2014). Adoptada mediante
 Resolución 108 de 26 de enero de 2015.
 Normas Colombianas de Diseno y Construcción Sismo Resistente. NSRl O.
 Manual de Cimentaciones Superficiales y Profundas para Carreteras. Adoptado mediante Resolución No 1049 de 11 de abril de 2013 del Ministerio de Transporte.
-Manual de Señalización Vial - Dispositivos Uniformes para la Regulación del Tránsito en Calles, Carreteras y Ciclorutas de Colombia. Adoptado mediante
+Manual de Senalización Vial - Dispositivos Uniformes para la Regulación del Tránsito en Calles, Carreteras y Ciclorutas de Colombia. Adoptado mediante
 vii. Resolución 1885 del 17 de junio de 2015 del Ministerio de Transporte.
 Las disposiciones que contemplen los POT, PBOT y EOT en relación al espacio público.
 
@@ -691,15 +691,15 @@ Circular de la Superintendencia de Transporte, del 4 de marzo del 2015, Responsa
 
 El Concesionario estará obligado a cumplir, también, el listado de Normatividad Técnica Colombiana de Accesibilidad - ICONTEC, listadas a continuación:
 
-1. Imágenes, Símbolos y Señales Para acceso a personas en condición de discapacidad.
+1. Imágenes, Símbolos y Senales Para acceso a personas en condición de discapacidad.
 
 (i) Símbolo accesibilidad (NTC - 4139)
 (ii) Símbolo discapacidad auditiva (NTC - 4141)
 (iii) Símbolo discapacidad visual (NTC - 4142)
-(iv) Características de las señales (NTC - 4144)
-(v) Requisitos de señales de tránsito peatonal (NTC - 4695)
+(iv) Características de las senales (NTC - 4144)
+(v) Requisitos de senales de tránsito peatonal (NTC - 4695)
 (vi) Sistemas sonoros (NTC - 4902)
-(vii) Señales táctiles sobre superficies peatonales (NTC - 561 O)
+(vii) Senales táctiles sobre superficies peatonales (NTC - 561 O)
 
 2. Dimensiones Mínimas, Características Funcionales y Constructivas para acceso a personas en condición de discapacidad
 
@@ -730,9 +730,9 @@ iv.
 
 v.
 Manual far Railway Engineering AREMA 2021. Standardization Internationá.l Union ofRailways- FRA/AREMA 2019.
-Plan Nacional de Seguridad Vial (PNSV) 2011 - 2021, Resolución 2273 del 6 de agosto de 2014 de Ministerio de Transporte Manual de Señalización - Dispositivos para la Regulación del Tránsito en Calles, Carreteras y Ciclorutas de Colombia. Adoptado mediante Resolución 1885 del 17 de junio de 2015 del Ministerio de Transporte.
-Manual de Señalización - Dispositivos uniformes para la regulación del tránsito en calles, carreteras y ciclo rutas de Colombia. Adoptado mediante Resolución 1885 del 17 de junio de 2015 del Ministerio de Transporte
-Metodologías de Trabajo para la Señalización de Velocidad y Zonas de Adelantamiento en la Red Nacional de Carretera. Adoptado mediante Resolución
+Plan Nacional de Seguridad Vial (PNSV) 2011 - 2021, Resolución 2273 del 6 de agosto de 2014 de Ministerio de Transporte Manual de Senalización - Dispositivos para la Regulación del Tránsito en Calles, Carreteras y Ciclorutas de Colombia. Adoptado mediante Resolución 1885 del 17 de junio de 2015 del Ministerio de Transporte.
+Manual de Senalización - Dispositivos uniformes para la regulación del tránsito en calles, carreteras y ciclo rutas de Colombia. Adoptado mediante Resolución 1885 del 17 de junio de 2015 del Ministerio de Transporte
+Metodologías de Trabajo para la Senalización de Velocidad y Zonas de Adelantamiento en la Red Nacional de Carretera. Adoptado mediante Resolución
 vi. No 001384 de abril 20 de 2010.
 Guía Técnica para el Diseno de las Zonas Laterales, para Vías más Seguras, Corporación Fondo de Prevención Vial, septiembre de 2012.
 
@@ -864,9 +864,9 @@ BS 4509 Método de evaluación del funcionamiento de los transmisores para uso e
 BS 4671 Método de evaluación del rendimiento de grabadores eléctricos y neumáticos gráfico analógico e indicadores para el uso en sistemas de control de procesos industriales.
 BS 4675: Pt 2 requisitos para los instrumentos para medir la severidad de vibración. BS 4937 Tablas de referencia de termopar internacional.
 BS 5308 Cables de instrumentación de equipos.
-BS 5558 Controladores con señales analógicas para uso en control de procesos industriales.
+BS 5558 Controladores con senales analógicas para uso en control de procesos industriales.
 BS 5792 Electromagnéticos caudalímetros.
-BS 5863 Analógica de señales para sistemas de control de proceso.
+BS 5863 Analógica de senales para sistemas de control de proceso.
 BS 5967 Condiciones de funcionamiento para equipos de medición y control de procesos industriales.
 BS 6004 PVC aislado (no blindado) para energía eléctrica y alumbrado. BS 6121 Glándulas de cable mecánico.
 BS 6447 Transmisores de presión de equipos.
@@ -886,7 +886,7 @@ lxxvii,
 Lineamientos CIBSE. Legislación Regulatoria.
 9837EC Directiva de Maquinaria. Estándares ISO.
 Estándares IEC.
-lxxviii. Estándares locales de la compañía de energía. lxxix. Estándares de referencia (Estándares británicos). lxxx,
+lxxviii. Estándares locales de la companía de energía. lxxix. Estándares de referencia (Estándares británicos). lxxx,
 lxxxi, lxxxii,
 6. 7 . Elementos Electromecánicos.
 
@@ -1124,7 +1124,7 @@ El siguiente es un listado de los códigos, estándares, y especificaciones que 
 
 El Concesionario deberá desarrollar las Intervenciones, en particular, pero sin limitarse, acorde con las especificaciones indicadas según el siguiente listado:
 
-(a) NFPA 72 - Código Nacional de Alarma de Incendios y señalización. Edición 2016.
+(a) NFPA 72 - Código Nacional de Alarma de Incendios y senalización. Edición 2016.
 (b) NFPA 70 - Código Eléctrico Nacional. Edición 2014.
 (c) NFPA 2001 - Estándar sobre Sistemas de Extinción de Incendios con Agentes Limpios. Edición 2015. 
 (d) NFPA 75 - Norma para la protección contra incendios en equipos de tecnología de la información. Edición 2013.
@@ -1133,8 +1133,8 @@ Página 33 de 45
 
 Clasificación.
 (t) NTC 1867 - Norma Técnica Colombiana -higiene y seguridad.
-(g) Sistema de señales contra incendio instalación, mantenimiento y usos.
-(h) NTC 1931 - Norma Técnica Colombiana -protección contra incendios. Señales de seguridad.
+(g) Sistema de senales contra incendio instalación, mantenimiento y usos.
+(h) NTC 1931 - Norma Técnica Colombiana -protección contra incendios. Senales de seguridad.
 
 #### 6.12 Sistemas de Circuito Cerrado de Televisión (CCTV).
 
@@ -1332,19 +1332,19 @@ G) NTC 5356 Instalación de Calentadores a Gas
 (k) NTC 3838 Gasoductos presiones de operación permisibles para el transporte y distribución de gas
 (1) Ley 361 de 1997 Integración social de las personas con limitación
 (m) Manual de referencia accesibilidad al medio físico y al transporte del Ministerio de transporte y el Invias
-(n) NTC 4595 Planeamiento y diseno de Instalaciones y ambientes escolares NTC 4596 Señalizaciones para instalaciones y ambientes escolares
+(n) NTC 4595 Planeamiento y diseno de Instalaciones y ambientes escolares NTC 4596 Senalizaciones para instalaciones y ambientes escolares
 
 Página 40 de 45
 
-### CAPÍTULO VIII - ESPECIFICACIONES Y NORMATIVAS APLICABLES A SISTEMAS DE COMUNICACIONES, SEÑALIZACIÓN Y CONTROL DE
+### CAPÍTULO VIII - ESPECIFICACIONES Y NORMATIVAS APLICABLES A SISTEMAS DE COMUNICACIONES, SENALIZACIÓN Y CONTROL DE
 TRENES
 
-Las intervenciones, actuaciones, obras, equipos e infraestructura en general requerida para los sistemas de comunicaciones, señalización y control de tráfico a cargo del Concesionario, deberán cumplir como mínimo con las siguientes Normas Técnicas.
+Las intervenciones, actuaciones, obras, equipos e infraestructura en general requerida para los sistemas de comunicaciones, senalización y control de tráfico a cargo del Concesionario, deberán cumplir como mínimo con las siguientes Normas Técnicas.
 
-#### 8.1 Sistemas de mando, señales y detección de trenes
+#### 8.1 Sistemas de mando, senales y detección de trenes
 
 1. ET1 03.432.800 Norma sobre explotación y seguridad de enclavamientos eléctricos
-11. NAS² 811 Diseno de instalaciones de control, mando y señalización
+11. NAS² 811 Diseno de instalaciones de control, mando y senalización
 iii. NAS 819 Enclavamientos electrónicos. Arquitectura física
 iv. NAS 818 Enclavamientos electrónicos, Bloqueos automáticos, de liberación automática y de control automático
 v. ET 03.365.310.6 Sistemas electrónicos de detección de trenes basados en contadores de ejes (ED3M1)
@@ -1353,7 +1353,7 @@ vi. ET 03.365.311.4 Sistemas de detección de trenes basados en circuitos de ví
 Vll. ET 03.365.401.3
 Vil!. ET 03.365.501.0
 lX. ET 03.365.552.3
-Accionamiento electromecánico de agujas Focos led para señales luminosas modulares Registrador jurídico para enclavamientos
+Accionamiento electromecánico de agujas Focos led para senales luminosas modulares Registrador jurídico para enclavamientos
 
 #### 8.2 Sistema de control, representaciones de tráfico y detectores auxiliares
 
@@ -1367,7 +1367,7 @@ supervisores de control de tráfico centralizado
 v. NRS 03.432.310 Normas sobre los sistemas de tendido subterráneo de cables
 
 ¹ ET: Especificación Técnica Adif
-2 NAS: Normas Adif Señalización
+2 NAS: Normas Adif Senalización
 3 NRS: Norma funcional y técnica Adif
 Página 41 de 45
 
@@ -1385,7 +1385,7 @@ viii. ET 03.365.540.8
 
 #### 8.4 Comunicaciones
 Accionamiento eléctrico de barrera para Pasos a Nivel
-Sistemas detectores de obstáculos para Pasos a Nivel Señalización Luminosa en plumas de barreras de Pasos a Nivel Módulo de mando electrónico para Pasos a Nivel
+Sistemas detectores de obstáculos para Pasos a Nivel Senalización Luminosa en plumas de barreras de Pasos a Nivel Módulo de mando electrónico para Pasos a Nivel
 
 1. NAT5 405-2 Requisitos funcionales para el sistema de telefonía de explotación
 11. NAT 716 Instalación de líneas aéreas de comunicaciones
@@ -1453,7 +1453,7 @@ r. NFPA 130: Norma para sistemas de tránsito sobre rieles fijos y sistemas de t
 ⁸ SCADA - Supervisory Control and Data Acquisition
 ⁹ Asociación de la Industria de las Telecomunicaciones (TIA) y la Asociación de Industrias de Electrónica (EIA)
 ¹⁰ ISO (lnternational Organization for Standardization) e IEC (lnternational Electrotechnical Commission)
-¹¹ UNE: Norma Española
+¹¹ UNE: Norma Espanola
 ¹² CEN CENE LEC: Comité Europeo de Normalización Electrotécnica
 ¹³ NSR: Norma Sismo Resistente Colombiana - 2010
 ¹⁴ NFPA: National Fire Protection Association
@@ -1468,11 +1468,11 @@ m. NTC 2885: Normativa Colombiana de Extintores Portátiles Contra Incendios. 1v
 1. EN 50155: Equipos electrónicos sobre material rodante.
 ii. UNE-EN 50121-1: Aplicaciones ferroviarias. Compatibilidad electromagnética. Parte 1 : Generalidades.
 111. UNE-EN 50121-4: Aplicaciones ferroviarias. Compatibilidad electromagnética.
-Parte 4: Emisión e inmunidad de los aparatos de señalización y de telecomunicación.
+Parte 4: Emisión e inmunidad de los aparatos de senalización y de telecomunicación.
 iv. UNE-EN 50121-3-1: Aplicaciones ferroviarias. Compatibilidad electromagnética. Parte 3-1: Material rodante. Tren y vehículo completo.
 v. UNE-EN 50121-3-2: Aplicaciones ferroviarias. Compatibilidad electromagnética. Parte 3-2: Material rodante. Aparatos.
 vi. UNE-EN 50125-1. Aplicaciones ferroviarias. Condiciones ambientales para el equipo. Parte 1: Equipos a bordo del material rodante.
-vu. EN 50159-1. Railway applications. Communication, signalling and processing systems. Part. 1: Safety-related communication in closed transmission systems. (Aplicaciones ferroviarias. Sistemas de comunicación, señalización y procesamiento. Parte 1: Comunicación de seguridad en sistemas de transmisión cerrados).
+vu. EN 50159-1. Railway applications. Communication, signalling and processing systems. Part. 1: Safety-related communication in closed transmission systems. (Aplicaciones ferroviarias. Sistemas de comunicación, senalización y procesamiento. Parte 1: Comunicación de seguridad en sistemas de transmisión cerrados).
 vin. UNE-EN 5 O 124-1. Aplicaciones ferroviarias. Coordinación del aislamiento. Requisitos fundamentales: distancias en el aire y líneas de fuga para cualquier equipo eléctrico y electrónico.
 1x. UNE-EN 50124-2. Aplicaciones ferroviarias. Coordinación del aislamiento.
 Sobretensiones y
@@ -1491,7 +1491,7 @@ xvii. UNE-EN 50265. Métodos de ensayo comunes para cables sometidos al fuego. E
 xvm. UNE-EN 50266. Métodos de ensayo comunes para cables sometidos al fuego. Ensayo de propagación vertical de la llama de cables colocados en capas en posición vertical.
 xix. UNE-EN-50268. Métodos de ensayo comunes para cables sometidos al fuego. Medida de la densidad de los humos emitidos por cables en combustión bajo condiciones definidas.
 xx. UNE-EN 50267. Métodos de ensayo comunes para cables sometidos al fuego. Ensayo de gases desprendidos durante la combustión de materiales procedentes de los cables.
-XXI. UNE-EN 50200. Método de ensayo de la resistencia al fuego por los cables de pequeñas dimensiones sin protección, para usos en circuitos de emergencia.
+XXI. UNE-EN 50200. Método de ensayo de la resistencia al fuego por los cables de pequenas dimensiones sin protección, para usos en circuitos de emergencia.
 xxu. UNE 20427. Métodos de ensayo adicionales para cables eléctricos. Ensayo de propagación de la llama.
 xxiii. UNE 894-2. Seguridad de las máquinas. Requisitos ergonómicos para el diseno de dispositivos de información y órganos de accionamiento. Parte 2: Dispositivos de información.
 xxiv. EIA TIA-568.
@@ -1503,7 +1503,7 @@ XXIX. UNE EN 50082-1: Compatibilidad electromagnética: Norma genérica de inmun
 XXX. UNE 20-726-91 (EN 55022).
 XXXI. EN 55024; IEC 332; IEC 754; IEC 1034; EN 50155.
 
-VoBo: Adriana María Montañez Saenz - VE.'".; Fredy Leandro Espejo Fandiño - VE ,r
+VoBo: Adriana María Montanez Saenz - VE.'".; Fredy Leandro Espejo Fandino - VE ,r
 
 Página 45 de 45
 
@@ -1532,7 +1532,7 @@ l. Introducción
 #### 1.1 Objetivo:
 El presente documento tiene como objetivo establecer los criterios técnicos, materiales, equipos y procedimientos a seguir para la ejecución de las labores de construcción y mantenimiento de las vías de servicio existentes y/o nuevas con estructura de pavimento con superficie de rodadura en agregados, con el fin de garantizar su transitabilidad y durabilidad.
 #### 1.2 Alcance:
-Los trabajos a realizar comprenden la construcción y el mantenimiento de la superficie de rodadura en agregados de la vía, incluyendo las actividades de nivelación, extendido de nuevo material, compactación, señalización, etc.
+Los trabajos a realizar comprenden la construcción y el mantenimiento de la superficie de rodadura en agregados de la vía, incluyendo las actividades de nivelación, extendido de nuevo material, compactación, senalización, etc.
 #### 1.3 Zona de Trabajo:
 La zona de trabajo se delimitará de acuerdo con la indicaciones del Concesionario.
 2. Alcance de los Trabajos
@@ -1545,12 +1545,12 @@ Para vías de servicio existentes que tengan un ancho mayor al mínimo especific
 
 Página2 de 4
 
- Inspección inicial: Evaluación detallada del estado actual de la vía para identificar los daños existentes.
+ Inspección inicial: Evaluación detallada del estado actual de la vía para identificar los danos existentes.
  Preparación de la superficie: Limpieza, remoción de material suelto y reparación de baches.
  Nivelación: Corrección del perfil de la vía para eliminar irregularidades.
  Extendido y colocación de nuevo material: Colocación de una capa de nuevo agregado para restaurar el espesor y la textura de la superficie.
  Compactación: Compactación de la nueva capa para asegurar su estabilidad.
- Señalización: Instalación y mantenimiento de la señalización vertical.
+ Senalización: Instalación y mantenimiento de la senalización vertical.
 3. Materiales
  Agregados:
 o Tipo de agregado: Afirmado, Artículo 311-22 de las Especificaciones Generales para la construcción de carreteras (Instituto Nacional de Vías, INVIAS, 2022)
@@ -1560,7 +1560,7 @@ o Características: Deberá cumplir con los requisitos definidos en la Table 311
  Equipo de movimiento de tierras: Motoniveladora, retroexcavadora, etc.
  Equipo de compactación: Compactador vibratorio, rodillo liso, etc.
  Equipo de riego: Camión cisterna, distribuidor de riego, etc.
- Equipo de señalización: Camión taller, señalización vertical.
+ Equipo de senalización: Camión taller, senalización vertical.
 5. Métodos de Construcción
 El material de afirmado no se debe descargar hasta que se compruebe que la superficie sobre la cual se va a apoyar tiene la densidad apropiada y las cotas indicadas. Se debe comprobar la regularidad, la capacidad de soporte y el estado de la superficie existente. Todas las irregularidades que excedan las tolerancias admitidas en la especificación respectiva deben ser corregidas, de acuerdo con lo establecido en ella.
 La colocación del material sobre la capa subyacente se debe hacer en una longitud que no sobrepase cien metros (100 m) de las operaciones de extensión, conformación y compactación del material.
@@ -1576,8 +1576,8 @@ Sobre las capas en ejecución se debe prohibir la acción de todo tipo de tráns
 6. Control de Calidad
 Rige lo indicado en el numeral 311.5 .1 del Artículo 311-22 de las Especificaciones Generales para la construcción de carreteras (Instituto Nacional de Vías, INVIAS, 2022).
 
-VoBO: Adriana María Montañez Saenz - VE l).,ü
-Fredy Leandro Espejo Fandiño - VE
+VoBO: Adriana María Montanez Saenz - VE l).,ü
+Fredy Leandro Espejo Fandino - VE
 
 Página 4 de 4
 
@@ -1603,7 +1603,7 @@ Página 1 de 5
 
 CAPITULO I - DEFINICIONES
 
-(a) Amenaza. Condición física, química o natural con el potencial de causar consecuencias no deseables o daños serios sobre la población, la propiedad o el ambiente en general.
+(a) Amenaza. Condición física, química o natural con el potencial de causar consecuencias no deseables o danos serios sobre la población, la propiedad o el ambiente en general.
 
 (b) Emergencia. Escenario o situación de afectación a una comunidad sus bienes, medios de vida, servicios y su entorno, causado por un evento natural y antrópico, que puede ser resuelto por los recursos locales.
 
@@ -1611,11 +1611,11 @@ CAPITULO I - DEFINICIONES
 
 (d) Reducción del Riesgo de Desastres. Acción orientada a la prevención de nuevos riesgos de desastre y a la reducción de los existentes, a la gestión del riesgo residual, todo lo que contribuya a fortalecer la resiliencia y, por consiguiente, al logro del desarrollo sostenible.
 
-(e) Riesgo. Posibilidad de sufrir pérdidas o daños en las personas, los bienes y el ambiente, expresada en función de la frecuencia de ocurrencia de un evento amenazante y su probabilidad de consecuencias sobre los elementos vulnerables.
+(e) Riesgo. Posibilidad de sufrir pérdidas o danos en las personas, los bienes y el ambiente, expresada en función de la frecuencia de ocurrencia de un evento amenazante y su probabilidad de consecuencias sobre los elementos vulnerables.
 
-(f) Vulnerabilidad. Elementos fisicos, bióticos y sociales que pueden ser afectados por la materialización de un evento amenazante. La vulnerabilidad se expresa en términos de porcentaje de afectación, desde "no daño" (0 de afectación) hasta "pérdida total" (100 de afectación).
+(f) Vulnerabilidad. Elementos fisicos, bióticos y sociales que pueden ser afectados por la materialización de un evento amenazante. La vulnerabilidad se expresa en términos de porcentaje de afectación, desde "no dano" (0 de afectación) hasta "pérdida total" (100 de afectación).
 
-(g) Vulnerabilidad climática. Son las variaciones en el estado medio y otros datos estadísticos del clima en todas las escalas temporales y espaciales (como las desviaciones típicas, las ocurrencias de fenómenos extremos, como el Niño y la Niña, etc), más allá de fenómenos meteorológicos determinados. La variabilidad se puede deber a procesos internos naturales dentro del sistema climático (variabilidad interna), o a variaciones en los forzamientos externos antropogénicos (variabilidad externa). República de Colombia. Ley 1931 del 27 de julio de 2018.
+(g) Vulnerabilidad climática. Son las variaciones en el estado medio y otros datos estadísticos del clima en todas las escalas temporales y espaciales (como las desviaciones típicas, las ocurrencias de fenómenos extremos, como el Nino y la Nina, etc), más allá de fenómenos meteorológicos determinados. La variabilidad se puede deber a procesos internos naturales dentro del sistema climático (variabilidad interna), o a variaciones en los forzamientos externos antropogénicos (variabilidad externa). República de Colombia. Ley 1931 del 27 de julio de 2018.
 
 CAPÍTULO 11 - INTRODUCCIÓN
 
@@ -1675,7 +1675,7 @@ Página 4 de 5
 
 VoBo (
 Jase Alian Hoyos Hernandez - VPRE 
-Fabian Augusto Jimenez Franco - VPRE Adriana Maria Montañez Saenz - VE 5 Fredy Leandro Espejo Fandiño - VE ft
+Fabian Augusto Jimenez Franco - VPRE Adriana Maria Montanez Saenz - VE 5 Fredy Leandro Espejo Fandino - VE ft
 
 Página 5 de 5
 

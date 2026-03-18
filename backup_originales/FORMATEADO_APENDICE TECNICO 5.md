@@ -86,15 +86,15 @@ tü'
 
 Figura 3 Tipo de Cruce Banca en Corte
 
-,:é:AÑcAt'NTERRAPtÉN
+,:é:ANcAt'NTERRAPtÉN
 
 Figura 4 Tipo de Cruce Banca En Terraplén.
 
 Página 60 de 62
 
-escenario. Sin embargo, los dueños, operadores yo administradores de las tuberías darán lineamientos para este tipo de circunstancias particulares.
+escenario. Sin embargo, los duenos, operadores yo administradores de las tuberías darán lineamientos para este tipo de circunstancias particulares.
 
-(e) Los casos de paralelismos yo acercamientos donde se presentan interferencias puntuales con respecto a las obras de arte y chaflanes de terraplenes (Ej. salidas de box culvert, canales bases de terraplenes etc.), se deben evaluar de manera particular, ya que por ser pequeñas Obras de Construcción yu Obras de Rehabilitación es posible tener otras alternativas de solución.
+(e) Los casos de paralelismos yo acercamientos donde se presentan interferencias puntuales con respecto a las obras de arte y chaflanes de terraplenes (Ej. salidas de box culvert, canales bases de terraplenes etc.), se deben evaluar de manera particular, ya que por ser pequenas Obras de Construcción yu Obras de Rehabilitación es posible tener otras alternativas de solución.
 
 A continuación, se muestran de manera ilustrativa los diferentes tipos de cruces de vías de acuerdo a lo estipulado en la Normas de Ingeniería de Oleoductos de Ecopetrol.
 
@@ -239,7 +239,7 @@ Inventario del estado de las Redes:
 (6) Los soportes documentales, fotográficos, fílmicos yo magnéticos de las actividades objeto del mismo.
 Página 53 de 62
 
-de emergencias generadas por daños en las Redes que ocurran durante toda la ejecución del Contrato el cual deberá mantenerse actualizado, corregido y con mejoras constantes. Además, deberá contemplar los lineamientos y protocolos de las empresas titulares, operadoras, administradoras, gestoras o propietarias de la Red, así como los protocolos de comunicación de emergencia ante la misma empresa y ante terceros. Dentro del plan se deberá contemplar que en el caso en que se produzca un daño en alguna Red ubicada dentro del área de las Obras de Construcción yu Obras de Rehabilitación del Proyecto, se deberá describir cómo se adelantarán las actividades para seguir los siguientes procesos:
+de emergencias generadas por danos en las Redes que ocurran durante toda la ejecución del Contrato el cual deberá mantenerse actualizado, corregido y con mejoras constantes. Además, deberá contemplar los lineamientos y protocolos de las empresas titulares, operadoras, administradoras, gestoras o propietarias de la Red, así como los protocolos de comunicación de emergencia ante la misma empresa y ante terceros. Dentro del plan se deberá contemplar que en el caso en que se produzca un dano en alguna Red ubicada dentro del área de las Obras de Construcción yu Obras de Rehabilitación del Proyecto, se deberá describir cómo se adelantarán las actividades para seguir los siguientes procesos:
 
  Información y coordinación con las empresas titulares, operadoras, administradoras, gestoras o propietarias de la Red, y a las autoridades competentes.
 
@@ -247,19 +247,19 @@ de emergencias generadas por daños en las Redes que ocurran durante toda la eje
 
  Condiciones de cierre de las Redes afectadas.
 
- Registro de los daños en la Red y de terceros afectados.
+ Registro de los danos en la Red y de terceros afectados.
 
- Condiciones para desarrollar las medidas de intervención para la reparación del daño y restitución del servicio con las empresas titulares, operadoras, administradoras, gestoras o propietarias de la Red.
+ Condiciones para desarrollar las medidas de intervención para la reparación del dano y restitución del servicio con las empresas titulares, operadoras, administradoras, gestoras o propietarias de la Red.
 
- Señalización temporal y definitiva.
+ Senalización temporal y definitiva.
 
- Retiro de material excedente resultante de daños a las Redes.
+ Retiro de material excedente resultante de danos a las Redes.
 
  Condiciones para la disposición de equipos y maquinaria para la reparación de la Red afectada.
 
- Registrar la investigación de causas de los daños causados en la Red e investigación de incidentes yo accidentes si se presentan.
+ Registrar la investigación de causas de los danos causados en la Red e investigación de incidentes yo accidentes si se presentan.
 
- Si el daño fuere imputable al Concesionario, los procedimientos mediante los que se cuantificarán y realizarán los pagos o en su defecto se activarán los siniestros de las garantías existentes.
+ Si el dano fuere imputable al Concesionario, los procedimientos mediante los que se cuantificarán y realizarán los pagos o en su defecto se activarán los siniestros de las garantías existentes.
 
 (iii) Este plan deberá ser presentado a la Interventoría dentro del plazo previsto en el Contrato y se sujetará al Procedimiento de Revisión Abreviado.
 
@@ -271,7 +271,7 @@ Página 52 de 62
 (2) Presupuesto: Un presupuesto que deberá referirse a: (i) las actividades constructivas a realizarse de acuerdo con los disenos aprobados, (ii) las actividades del plan de contingencia, (iii) el plan de inversiones, (iv) la forma de pago y (v) los responsables del mismo de acuerdo con lo establecido en el Contrato. El presupuesto deberá establecer los precios unitarios de acuerdo con el tipo de solución por metro lineal o su correspondiente medida aplicable y su justificación.
 
 (3) Plan de actuación: En este plan se describirán todas las actividades a realizar para el desarrollo de las soluciones, así como el procedimiento constructivo, su cronograma, el plan de seguimiento con los respectivos indicadores de avance y de control. Este plan debe estar en concordancia con el Plan de Obras del Proyecto, previendo la priorización de sectores que requieren intervención de Redes.
-(4) Protocolos de Seguridad: Capítulo cuyo texto debió haber sido aprobado por las empresas titulares, operadoras, administradoras, gestoras o propietarias de la Red en el cual se deberá indicar el protocolo de Seguridad del personal, del uso de la maquinaria, la Señalización requerida y demás información relevante. Lo anterior en concordancia con los dispuesto en los Apéndices Técnicos 2 y 3.
+(4) Protocolos de Seguridad: Capítulo cuyo texto debió haber sido aprobado por las empresas titulares, operadoras, administradoras, gestoras o propietarias de la Red en el cual se deberá indicar el protocolo de Seguridad del personal, del uso de la maquinaria, la Senalización requerida y demás información relevante. Lo anterior en concordancia con los dispuesto en los Apéndices Técnicos 2 y 3.
 
 (5) Si de acuerdo con la Ley Aplicable o los convenios suscritos para tal efecto, existen Redes afectadas cuya intervención debe realizarse por la empresa titular, operador, administrador, gestor o propietario de la Red, se deben registrar las gestiones, acuerdos, valoración y, si es del caso, los pagos realizados por el Concesionario para la solución. Si, por el contrario, al titular de la red a intervenir no le es posible su ejecución en los tiempos requeridos yo no tienen la capacidad económica de ejecutarlos, el Concesionario ejecutará y asumirá el costo de la Intervención.
 
@@ -462,7 +462,7 @@ LASREDESAFECTADASPORELPROYECTO
 
 Se entenderá que una Red se ve afectada por el Proyecto, cuando cualquier tipo de Intervención relacionada con la ejecución de Rehabilitación, mejoramiento, Construcción o Mantenimiento de las mismas, cause impactos que pongan en peligro la integridad de una Red yo la prestación del servicio asociada a la misma.
 
-Al detectarse una potencial afectación a una Red yo infraestructura asociada a la misma Red, el Concesionario deberá adelantar, diseñar, socializar y gestionar las actuaciones yo acuerdos con el propietario, operador o administrador de la Red, cualquier actividad constructiva o actuación que sea idónea para su solución de la interferencia, protección o traslado, incluyendo, sin limitarse, a:
+Al detectarse una potencial afectación a una Red yo infraestructura asociada a la misma Red, el Concesionario deberá adelantar, disenar, socializar y gestionar las actuaciones yo acuerdos con el propietario, operador o administrador de la Red, cualquier actividad constructiva o actuación que sea idónea para su solución de la interferencia, protección o traslado, incluyendo, sin limitarse, a:
 
 (i) Traslado definitivo de la Red.
 
@@ -1572,13 +1572,13 @@ Página 7 de 62
 ### CAPÍTULO II - IDENTIFICACIÓN DE REDES POTENCIALMENTE AFECTADAS
 POR EL PROYECTO
 
-(a) Sin perjuicio de la obligación del Concesionario de adelantar todos los procedimientos que, de acuerdo con el estado de la técnica, le permitan identificar la existencia real de Redes e infraestructura asociada que puedan verse afectadas por el Proyecto, así como de diseñar y llevar a cabo las soluciones constructivas necesarias para resolver dicha afectación, en los términos del presente Apéndice y del Contrato, a continuación se proporciona a título informativo el inventario de las Redes identificadas en las inmediaciones del Corredor del Proyecto durante la estructuración técnica del Proyecto.
+(a) Sin perjuicio de la obligación del Concesionario de adelantar todos los procedimientos que, de acuerdo con el estado de la técnica, le permitan identificar la existencia real de Redes e infraestructura asociada que puedan verse afectadas por el Proyecto, así como de disenar y llevar a cabo las soluciones constructivas necesarias para resolver dicha afectación, en los términos del presente Apéndice y del Contrato, a continuación se proporciona a título informativo el inventario de las Redes identificadas en las inmediaciones del Corredor del Proyecto durante la estructuración técnica del Proyecto.
 
 (b) Esta información no podrá interpretarse como una sugerencia por parte de la ANI en relación con el diseno yo construcción de las Obras de Construcción yo Rehabilitación con la naturaleza, alcance o magnitud de las actividades constructivas necesarias para resolver la posible afectación de las Redes. Así, tampoco este listado constituye una garantía sobre la existencia efectiva de las Redes listadas o su nivel de afectación con el desarrollo del Proyecto.
 
 (c) En todo caso, al llevar a cabo las actividades descritas en el Contrato y en la Sección 3 .1 de. este Apéndice, el Concesionario deberá realizar la identificación e Inventario de Redes, diseno o actuación de la solución, de todas las Redes existentes que se encuentren o presenten algún tipo de interferencia con el Corredor del Proyecto.
 
-(d) Es obligación del Concesionario adelantar todos los procedimientos que, de acuerdo con el estado de la técnica, le permitan identificar la existencia real de Redes e infraestructura asociada, que se puedan ver afectados por el desarrollo del Proyecto, así como de identificar, presentar, socializar, diseñar y llevar a cabo las soluciones constructivas o actuaciones necesarias para resolver dichas afectaciones, en los términos del presente Apéndice y del Contrato.
+(d) Es obligación del Concesionario adelantar todos los procedimientos que, de acuerdo con el estado de la técnica, le permitan identificar la existencia real de Redes e infraestructura asociada, que se puedan ver afectados por el desarrollo del Proyecto, así como de identificar, presentar, socializar, disenar y llevar a cabo las soluciones constructivas o actuaciones necesarias para resolver dichas afectaciones, en los términos del presente Apéndice y del Contrato.
 
 Página 6 de 62
 
@@ -1630,8 +1630,8 @@ Página 61 de 62
 y riesgo, tomar en cuenta el contenido del documento denominado "tipos de interferencia y Costo" elaborado por Ecopetrol.
 (g) En todo caso, lo dispuesto en la Sección 4.1 no liberará al Concesionario del cumplimiento de todas y cada una en las obligaciones contenidas en este Apéndice, el Contrato, la Ley 1682 de 2013 yo, en general, la Ley Aplicable.
 
-VoBo: Adriana María Montañez Saenz - VE p.lf-. S
-Fredy Leandro Espejo Fandiño - VE 
+VoBo: Adriana María Montanez Saenz - VE p.lf-. S
+Fredy Leandro Espejo Fandino - VE 
 
 Página 62 de 62
 

@@ -6,7 +6,7 @@
 ## 📊 RESUMEN EJECUTIVO
 
 ### Qué es esta especialidad y por qué importa
-La Ingeniería Civil es la **"base física"** del ferrocarril que proporciona toda la infraestructura necesaria para la operación ferroviaria. Es como los cimientos y la estructura de un edificio, pero para un ferrocarril completo de 526 km que debe soportar el tráfico ferroviario durante 50 años.
+La Ingeniería Civil es la **"base física"** del ferrocarril que proporciona toda la infraestructura necesaria para la operación ferroviaria. Es como los cimientos y la estructura de un edificio, pero para un ferrocarril completo de 526 km que debe soportar el tráfico ferroviario durante 50 anos.
 
 ### Alcance en números - JUSTIFICACIÓN TÉCNICA
 - **Inversión estimada:** $180,000 millones COP
@@ -29,7 +29,7 @@ La Ingeniería Civil es la **"base física"** del ferrocarril que proporciona to
 
 ---
 
-## 🔍 CRITERIOS DE DISEÑO Y JUSTIFICACIONES TÉCNICAS
+## 🔍 CRITERIOS DE DISENO Y JUSTIFICACIONES TÉCNICAS
 
 ### ¿Por qué 526.133 km de corredor?
 **Justificación Técnica:**
@@ -74,7 +74,7 @@ La Ingeniería Civil es la **"base física"** del ferrocarril que proporciona to
 ### ¿Por qué estándares NSR-10?
 **Justificación Normativa:**
 - **Sismo resistencia:** Zona sísmica intermedia de Colombia
-- **Vida útil:** 50 años mínimo según especificaciones
+- **Vida útil:** 50 anos mínimo según especificaciones
 - **Seguridad:** Factor de seguridad 1.5 para cargas ferroviarias
 - **Durabilidad:** Concreto con aditivos para ambiente agresivo
 - **Mantenimiento:** Diseno para acceso y reparación
@@ -88,7 +88,7 @@ La Ingeniería Civil proporciona **infraestructura física** para la operación 
 - **Corredor ferroviario:** Base física para circulación de trenes
 - **Obras de arte:** Cruce de obstáculos naturales y artificiales
 - **Edificaciones:** Instalaciones para operación y mantenimiento
-- **Sistemas civiles:** Drenaje, iluminación, señalización
+- **Sistemas civiles:** Drenaje, iluminación, senalización
 
 ### ¿Por qué la necesitamos?
 - **Base física:** Sin infraestructura civil no hay ferrocarril
@@ -155,7 +155,7 @@ La Ingeniería Civil proporciona **infraestructura física** para la operación 
 | Pendiente máxima | 2% | FRA/AREMA 703 |
 | Radio mínimo curvas | 600 m | FRA/AREMA 703 |
 | Carga por eje | 25 ton | FRA/AREMA 700 |
-| Vida útil | 50 años | NSR-10 |
+| Vida útil | 50 anos | NSR-10 |
 | Factor sísmico | 0.25 g | NSR-10 |
 
 ### Criterios de aceptación
@@ -231,7 +231,7 @@ La infraestructura civil opera 24/7 proporcionando base física para circulació
 | Supuesto | Valor Asumido | Impacto si Cambia | Mitigación |
 |:---------|:--------------|:------------------|:-----------|
 | **Carga por eje** | 25 ton | Mayor refuerzo si aumenta | Diseno conservador |
-| **Vida útil** | 50 años | Mayor mantenimiento si reduce | Materiales de calidad |
+| **Vida útil** | 50 anos | Mayor mantenimiento si reduce | Materiales de calidad |
 | **Factor sísmico** | 0.25 g | Mayor refuerzo si aumenta | Diseno sismo resistente |
 | **Condiciones geotécnicas** | Suelos estables | Mayor movimiento de tierras | Estudios geotécnicos |
 | **Condiciones hidráulicas** | Caudales históricos | Mayor capacidad de drenaje | Análisis hidrológico |
@@ -307,7 +307,7 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 ---
 
-## 📊 INDICADORES DE DESEMPEÑO (KPIs)
+## 📊 INDICADORES DE DESEMPENO (KPIs)
 
 | Indicador | Meta | Actual | Estado |
 |:----------|:-----|:-------|:-------|

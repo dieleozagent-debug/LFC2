@@ -28,7 +28,7 @@ El Sistema de Integración y Coordinación es el **"director de orquesta"** del 
 
 ---
 
-## 🔍 CRITERIOS DE DISEÑO Y JUSTIFICACIONES TÉCNICAS
+## 🔍 CRITERIOS DE DISENO Y JUSTIFICACIONES TÉCNICAS
 
 ### ¿Por qué 25 interfaces críticas específicamente?
 **Desglose de Interfaces por Sistema:**
@@ -48,8 +48,8 @@ El Sistema de Integración y Coordinación es el **"director de orquesta"** del 
 | Protocolo | Función | Justificación |
 |:----------|:--------|:--------------|
 | **FRA/AREMA 920-2** | Comunicaciones Red Vital IP / TETRA | Estándar internacional ferroviario |
-| **FRA/AREMA 438** | Señalización ferroviaria | Compatibilidad con FENOCO |
-| **FRA/AREMA 930** | Sistemas de señalización | Interoperabilidad de sistemas |
+| **FRA/AREMA 438** | Senalización ferroviaria | Compatibilidad con FENOCO |
+| **FRA/AREMA 930** | Sistemas de senalización | Interoperabilidad de sistemas |
 | **FRA/AREMA 950** | Control de tráfico | Coordinación entre centros |
 | **FFFIS** | Interfaces CTC-PTC | Especificación de interfaces |
 | **EN 50159** | Seguridad comunicaciones | Seguridad funcional |
@@ -119,7 +119,7 @@ El Sistema de Integración y Coordinación proporciona **coordinación integral*
 
 ### ¿Cómo se integra con otros sistemas?
 ```
-[Control y Señalización] ←→ [Integración y Coordinación] ←→ [Telecomunicaciones]
+[Control y Senalización] ←→ [Integración y Coordinación] ←→ [Telecomunicaciones]
                                     ↓
 [ITS y Seguridad] ←→ [Integración y Coordinación] ←→ [Material Rodante]
                                     ↓
@@ -166,7 +166,7 @@ El Sistema de Integración y Coordinación proporciona **coordinación integral*
 **Componentes instalados:**
 | Componente | Cantidad | Especificación | Estado |
 |:-----------|:---------|:---------------|:-------|
-| API Control y Señalización | 1 unidad | REST API | ⏳ En desarrollo |
+| API Control y Senalización | 1 unidad | REST API | ⏳ En desarrollo |
 | API Telecomunicaciones | 1 unidad | REST API | ⏳ En desarrollo |
 | API ITS y Seguridad | 1 unidad | REST API | ⏳ En desarrollo |
 | API Material Rodante | 1 unidad | REST API | ⏳ En desarrollo |
@@ -251,7 +251,7 @@ El sistema de integración y coordinación opera 24/7 proporcionando coordinaci�
 
 ### Diagrama de interfaces
 ```
-[Control y Señalización] ←→ [Integración y Coordinación] ←→ [Telecomunicaciones]
+[Control y Senalización] ←→ [Integración y Coordinación] ←→ [Telecomunicaciones]
                                     ↓
 [ITS y Seguridad] ←→ [Integración y Coordinación] ←→ [Material Rodante]
                                     ↓
@@ -261,7 +261,7 @@ El sistema de integración y coordinación opera 24/7 proporcionando coordinaci�
 ### Tabla de interfaces críticas
 | Sistema | Tipo de Interfaz | Criticidad | Responsable |
 |:--------|:-----------------|:-----------|:------------|
-| Control y Señalización | CTC Virtual | Alta | EPC Sistemas |
+| Control y Senalización | CTC Virtual | Alta | EPC Sistemas |
 | Telecomunicaciones | TETRA + Red Vital IP / TETRA | Alta | EPC Telecomunicaciones |
 | ITS y Seguridad | CCTV + Monitoreo | Media | EPC Sistemas |
 | Material Rodante | PTC Embarcado | Alta | EPC Sistemas |
@@ -293,7 +293,7 @@ El sistema de integración y coordinación opera 24/7 proporcionando coordinaci�
 - **Apéndice Técnico 1:** Alcance del proyecto - Integración y coordinación
 - **Apéndice Técnico 2:** Operación y mantenimiento - Disponibilidad 99.95%
 - **Apéndice Técnico 3:** Especificaciones generales - Integración y coordinación
-- **Apéndice Técnico 4:** Indicadores de desempeño - Disponibilidad 99.95%
+- **Apéndice Técnico 4:** Indicadores de desempeno - Disponibilidad 99.95%
 
 ---
 
@@ -323,7 +323,7 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 ---
 
-## 📊 INDICADORES DE DESEMPEÑO (KPIs)
+## 📊 INDICADORES DE DESEMPENO (KPIs)
 
 | Indicador | Meta | Actual | Estado |
 |:----------|:-----|:-------|:-------|

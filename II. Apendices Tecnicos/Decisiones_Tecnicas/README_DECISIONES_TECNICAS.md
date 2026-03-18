@@ -81,7 +81,7 @@ Control de cambios documenta: "Origen: DT-FIBRA-001 v2.0"
     ↓
 PASO 7: CONSOLIDACIÓN (SOLO si es entrega formal)
 Carpeta X se actualiza mensualmente o por hitos
-NO se actualiza por cada cambio pequeño
+NO se actualiza por cada cambio pequeno
 ```
 
 **Tiempo total:** ~60 minutos para un cambio documentado  

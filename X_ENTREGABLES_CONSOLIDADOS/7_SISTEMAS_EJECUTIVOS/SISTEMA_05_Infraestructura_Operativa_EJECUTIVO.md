@@ -28,7 +28,7 @@ El Sistema de Infraestructura Operativa es la **"base física"** del ferrocarril
 
 ---
 
-## 🔍 CRITERIOS DE DISEÑO Y JUSTIFICACIONES TÉCNICAS
+## 🔍 CRITERIOS DE DISENO Y JUSTIFICACIONES TÉCNICAS
 
 ### ¿Por qué 1 CCO en La Dorada específicamente?
 **Justificación de Ubicación (AT1 UF2 Tabla 16):**
@@ -72,7 +72,7 @@ El Sistema de Infraestructura Operativa es la **"base física"** del ferrocarril
 - **Inventario existente:** 146 pasos a nivel identificados en el corredor
 - **Automatización:** Todos los pasos a nivel con sistemas de seguridad
 - **Criterio:** Cobertura completa del corredor ferroviario
-- **Seguridad:** Sistemas automáticos de barreras y señales
+- **Seguridad:** Sistemas automáticos de barreras y senales
 
 ### ¿Por qué dimensiones específicas del CCO?
 **Justificación de Áreas (AT1 UF2 Tabla 16):**
@@ -283,7 +283,7 @@ La infraestructura operativa funciona 24/7 proporcionando soporte para la operac
 - **Apéndice Técnico 1:** Alcance del proyecto - Infraestructura operativa
 - **Apéndice Técnico 2:** Operación y mantenimiento - Disponibilidad 99.95%
 - **Apéndice Técnico 3:** Especificaciones generales - Infraestructura operativa
-- **Apéndice Técnico 4:** Indicadores de desempeño - Disponibilidad 99.95%
+- **Apéndice Técnico 4:** Indicadores de desempeno - Disponibilidad 99.95%
 
 ---
 
@@ -313,7 +313,7 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 ---
 
-## 📊 INDICADORES DE DESEMPEÑO (KPIs)
+## 📊 INDICADORES DE DESEMPENO (KPIs)
 
 | Indicador | Meta | Actual | Estado |
 |:----------|:-----|:-------|:-------|

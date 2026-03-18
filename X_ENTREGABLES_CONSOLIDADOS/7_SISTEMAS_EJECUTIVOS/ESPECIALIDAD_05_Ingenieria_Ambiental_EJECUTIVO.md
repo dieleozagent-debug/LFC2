@@ -6,7 +6,7 @@
 ## 📊 RESUMEN EJECUTIVO
 
 ### Qué es esta especialidad y por qué importa
-La Ingeniería Ambiental es el **"sistema de sostenibilidad"** del ferrocarril que garantiza que toda la operación ferroviaria se desarrolle de manera responsable con el medio ambiente. Es como el sistema de gestión ambiental de una empresa, pero aplicado a un ferrocarril completo que debe operar de manera sostenible durante 30 años.
+La Ingeniería Ambiental es el **"sistema de sostenibilidad"** del ferrocarril que garantiza que toda la operación ferroviaria se desarrolle de manera responsable con el medio ambiente. Es como el sistema de gestión ambiental de una empresa, pero aplicado a un ferrocarril completo que debe operar de manera sostenible durante 30 anos.
 
 ### Alcance en números - JUSTIFICACIÓN TÉCNICA
 - **Inversión estimada:** $25,000 millones COP
@@ -27,7 +27,7 @@ La Ingeniería Ambiental es el **"sistema de sostenibilidad"** del ferrocarril q
 
 ---
 
-## 🔍 CRITERIOS DE DISEÑO Y JUSTIFICACIONES TÉCNICAS
+## 🔍 CRITERIOS DE DISENO Y JUSTIFICACIONES TÉCNICAS
 
 ### ¿Por qué 526 km de gestión ambiental?
 **Justificación de Cobertura:**
@@ -41,10 +41,10 @@ La Ingeniería Ambiental es el **"sistema de sostenibilidad"** del ferrocarril q
 **Justificación Geográfica:**
 | Departamento | Longitud | Ecosistema | Características |
 |:-------------|:---------|:-----------|:----------------|
-| **Caldas** | 45 km | Andino | Montañas y valles |
+| **Caldas** | 45 km | Andino | Montanas y valles |
 | **Antioquia** | 180 km | Andino-Caribe | Transición ecológica |
-| **Santander** | 150 km | Andino | Montañas y ríos |
-| **Norte de Santander** | 100 km | Andino | Montañas y valles |
+| **Santander** | 150 km | Andino | Montanas y ríos |
+| **Norte de Santander** | 100 km | Andino | Montanas y valles |
 | **Cesar** | 51 km | Caribe | Llanuras y humedales |
 
 ### ¿Por qué 15 indicadores ambientales?
@@ -277,7 +277,7 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 ---
 
-## 📊 INDICADORES DE DESEMPEÑO (KPIs)
+## 📊 INDICADORES DE DESEMPENO (KPIs)
 
 | Indicador | Meta | Actual | Estado |
 |:----------|:-----|:-------|:-------|

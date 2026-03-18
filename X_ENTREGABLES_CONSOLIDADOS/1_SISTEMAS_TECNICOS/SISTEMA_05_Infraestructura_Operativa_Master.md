@@ -44,7 +44,7 @@
 #### **Obligaciones Contractuales Principales:**
 - **AT1 UF2 Tabla 16:** Centro de Control Operativo (CCO) en La Dorada con sala de control 250 m² y sala servidores 200 m²
 - **AT2 Cap. 4.1:** Operación y mantenimiento del CCO con disponibilidad 99.95%
-- **AT4:** Indicadores de desempeño para infraestructura operativa con disponibilidad 99.5% para estaciones y 99.95% para CCO
+- **AT4:** Indicadores de desempeno para infraestructura operativa con disponibilidad 99.5% para estaciones y 99.95% para CCO
 - **AT8:** Gestión social y accesibilidad para estaciones ferroviarias y apartaderos
 
 #### **Criterios Técnicos Maestros Consolidados:**
@@ -374,7 +374,7 @@
 
 #### **CCO ↔ ENCE:**
 - **Control de Enclavamientos:** Autorización de movimientos en estaciones
-- **Supervisión:** Monitoreo de estado de desvíos y señales
+- **Supervisión:** Monitoreo de estado de desvíos y senales
 - **Emergencias:** Procedimientos de emergencia local
 - **Diagnóstico:** Transmisión de datos de estado
 - **Protocolo:** Interfaces estándar ferroviario
@@ -461,13 +461,13 @@
 ### **9.1 Documentos Contractuales Base**
 - `FORMATEADO_APENDICE TECNICO 1.md` - Alcance del proyecto (AT1) UF2 Tabla 16
 - `FORMATEADO_APENDICE TECNICO 2.md` - Operación y mantenimiento (AT2) Cap. 4.1
-- `FORMATEADO_APENDICE TECNICO 4.md` - Indicadores de desempeño (AT4)
+- `FORMATEADO_APENDICE TECNICO 4.md` - Indicadores de desempeno (AT4)
 - `FORMATEADO_APENDICE TECNICO 8.md` - Gestión social (AT8)
 
 ### **9.2 Documentos de Ingeniería Conceptual**
 - `23_ListadoMaestro_Sistemas_v5.0.md` - Listado maestro de sistemas
 - `25.1_WBS_COMPLETA_ESPECIALIDADES_v5.0.md` - WBS especialidades completas
-- `29_Sistema_Senalizacion_Integrado_v5.0.md` - Sistema señalización integrado
+- `29_Sistema_Senalizacion_Integrado_v5.0.md` - Sistema senalización integrado
 - `32_Material_Rodante_Integrado_v5.0.md` - Sistema material rodante integrado
 - `33_Criterios_Normatividad_docx_AREMA_FRA/AREMA_RETIE_ISO_TC_204_NSR_10_NFPA.md` - Criterios normatividad
 - `34_Criterios_Interoperabilidad_docx_Compatibilidad_con_FENOCO_y_ANI.md` - Criterios interoperabilidad

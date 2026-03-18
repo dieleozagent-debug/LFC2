@@ -121,7 +121,7 @@ X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/HTML/
 - ✅ **Fechas visibles:** Cada tarjeta muestra "📅 Actualizado: 9 Oct 2025 11:29 AM"
 - ✅ **3 botones por documento:**
   - 📥 **Word** → Descarga .docx (atributo `download`)
-  - 🌐 **HTML** → Abre en nueva pestaña (`target="_blank"`)
+  - 🌐 **HTML** → Abre en nueva pestana (`target="_blank"`)
   - 🖨️ **Imprimir** → Función `window.open().print()`
 - ✅ **Diseno profesional:** Gradientes, animaciones hover, tarjetas elevadas
 - ✅ **Instrucciones de uso** al final
@@ -166,7 +166,7 @@ X/8_DOCUMENTOS_SERVIDOS/HTML/GESTION_EJECUTIVO_Cambios_y_Decisiones_Tecnicas.htm
 
 **Ver HTML:**
 1. Click en "🌐 HTML" (botón naranja)
-2. Se abre en nueva pestaña del navegador
+2. Se abre en nueva pestana del navegador
 3. Visualización completa con tabla de contenidos
 
 **Imprimir:**

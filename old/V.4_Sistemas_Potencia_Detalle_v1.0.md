@@ -152,7 +152,7 @@ Este documento detalla la ingeniería de los sistemas de potencia para el proyec
 - **Capacidad:** 1000 Ah
 - **Voltaje:** 48 V DC
 - **Tipo:** Plomo-ácido, selladas
-- **Vida útil:** 10 años
+- **Vida útil:** 10 anos
 - **Temperatura:** 20-25°C (óptima)
 - **Mantenimiento:** Libre de mantenimiento
 
@@ -173,7 +173,7 @@ Este documento detalla la ingeniería de los sistemas de potencia para el proyec
 - **PTC:** 200 kVA (PTC Virtual (FRA 236))
 - **CTC:** 100 kVA (Centro de Control)
 - **Comunicaciones:** 50 kVA (Red Vital IP / TETRA, TETRA)
-- **Señalización:** 150 kVA (Señales, enclavamientos)
+- **Senalización:** 150 kVA (Senales, enclavamientos)
 - **Iluminación:** 100 kVA (Estaciones, vías)
 
 ### 4.2 Sistemas de Respaldo
@@ -244,10 +244,10 @@ Este documento detalla la ingeniería de los sistemas de potencia para el proyec
 ### 5.3 Disponibilidad
 
 #### 5.3.1 Objetivos de Disponibilidad
-- **Alimentación principal:** 99.95% (4.38 horas/año)
-- **UPS:** 99.9% (8.76 horas/año)
-- **Generadores:** 99.5% (43.8 horas/año)
-- **Baterías:** 99.0% (87.6 horas/año)
+- **Alimentación principal:** 99.95% (4.38 horas/ano)
+- **UPS:** 99.9% (8.76 horas/ano)
+- **Generadores:** 99.5% (43.8 horas/ano)
+- **Baterías:** 99.0% (87.6 horas/ano)
 
 #### 5.3.2 Estrategias de Redundancia
 - **Fuentes:** N+1 con transferencia automática
@@ -414,7 +414,7 @@ Este documento detalla la ingeniería de los sistemas de potencia para el proyec
 ### 10.3 Referencias Normativas
 - **EN 50126:** Aplicación de técnicas de confiabilidad para sistemas ferroviarios
 - **EN 50128:** Software para sistemas de control y protección ferroviarios
-- **EN 50129:** Sistemas de señalización ferroviaria
+- **EN 50129:** Sistemas de senalización ferroviaria
 - **IEC 62290:** Sistemas de gestión ferroviaria
 - **IEC 62443:** Seguridad de sistemas de automatización industrial
 - **IEEE 1547:** Interconexión de recursos de energía distribuida

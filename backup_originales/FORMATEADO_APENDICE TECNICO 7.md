@@ -160,7 +160,7 @@ Página 5 de 59
 
 ### CAPÍTULO II - DEFINICIONES
 
-A menos que de manera expresa se señale lo contrario en el presente Apéndice, serán aplicables las definiciones contenidas en el Contrato. Adicionalmente, serán aplicables las siguientes:
+A menos que de manera expresa se senale lo contrario en el presente Apéndice, serán aplicables las definiciones contenidas en el Contrato. Adicionalmente, serán aplicables las siguientes:
 
 #### 2.1 "Área Remanente No Desarrollable"
 Se refiere a aquella área de un Predio, adicional al Área Requerida, que por sus condiciones de funcionalidad yo potencial desarrollo o por tratarse de zonas críticas o de riesgo ambiental o social, puede ser adquirida (Ley 1682 de 2013 artículo 33), en aquellos casos que dichas no sean desarrollables para ninguna actividad por no cumplir con parámetros legales, esquema o plan de ordenamiento territorial del municipio , de acuerdo con el resultado del análisis de las condiciones actuales y anteriores a la ejecución del Proyecto.
@@ -176,7 +176,7 @@ Es aquel que incorpora el valor comercial del inmueble (terreno, Construcciones 
 El Avalúo Comercial con Comité Técnico es el que se realiza con la participación de un grupo conformado por mínimo 4 personas y donde de manera conjunta aprueban los valores contenidos en el encargo valuatorio para áreas de terreno, Construcciones, cultivos yo especies, así como las indemnizaciones o compensaciones en el evento de ser procedente su estimación. Por medio de dicho comité, se garantizará la correcta aplicación de conceptos, procedimientos y metodologías para cada uno de los avalúas, en contexto con la normatividad que rige la materia valuatoria. Los valores adoptados siempre deberán contar con los soportes o memorias de cálculo que sean del caso, siendo acordes además con la realidad inmobiliaria.
 
 #### 2.6 "Baldíos"
-Son terrenos situados dentro de los límites rurales del territorio Nacional que carecen de otro dueño y en tal concepto pertenecen a la Nación, o los que habiendo sido adjudicados con ese carácter deben volver al dominio de la Nación conforme a lo que dispone la Ley Aplicable.
+Son terrenos situados dentro de los límites rurales del territorio Nacional que carecen de otro dueno y en tal concepto pertenecen a la Nación, o los que habiendo sido adjudicados con ese carácter deben volver al dominio de la Nación conforme a lo que dispone la Ley Aplicable.
 2. 7 "Construcción Permanente"
 Para los efectos de este Apéndice, se refiere a la unión de materiales adheridos al terreno con carácter permanente, cualesquiera sean los elementos que la constituyen. (Resolución 070 de 2011 IGAC).
 
@@ -202,10 +202,10 @@ Junto con un Anexo del cronograma en el que se presenten las estrategias, gestio
 Corresponde al cronograma que, en armonía con el Plan de Obras, deberá presentar el Concesionario para obtener la titularidad y disponibilidad, en favor de la ANI, de los Predios Requeridos para la ejecución del Proyecto, el cual debe incluir lo siguiente: (i) actividades de investigación técnica, jurídica, fisica y socio-económica, en la cual se identifique la relación existente entre los inmuebles requeridos para la ejecución del Proyecto y sus propietarios y o terceros; (ii) actividades necesarias para iniciar y culminar la adquisición de los Predios Requeridos para la ejecución de cada Unidad Funcional, sea a través de enajenación voluntaria o expropiación; (iii) actividades para lograr la restitución del espacio público (lo cual incluye la restitución de los bienes inmuebles adquiridos con anterioridad por el Estado, para la ejecución de Proyectos de Infraestructura); (iv) actividades para la Adjudicación de Predios Baldíos y Ejidos; y (v) las demás actividades a que haya lugar, tendientes a la obtención de la titularidad de los Predios Requeridos para la ejecución del Proyecto.
 
 #### 2.12 "Eiidos"
-Son Ejidos, y en tal concepto pertenecen a los Municipios, los terrenos situados dentro de los límites urbanos de los Municipios que carecen de otro dueño, o los que habiendo sido adjudicados con ese carácter deben volver al dominio del Municipio conforme a lo que dispone la Ley.
+Son Ejidos, y en tal concepto pertenecen a los Municipios, los terrenos situados dentro de los límites urbanos de los Municipios que carecen de otro dueno, o los que habiendo sido adjudicados con ese carácter deben volver al dominio del Municipio conforme a lo que dispone la Ley.
 
 #### 2.13 "Empresa Avaluadora"
-Es la organización comercial o compañía legalmente constituida del sector inmobiliario, que dentro de su objeto social contempla la elaboración de avalúas comerciales, a su vez está conformada yo cuenta con la vinculación o asocio de un grupo de personas naturales que acreditan la formación debidamente reconocida para llevar a cabo la actividad valuatoria e inscritas ante el Registro Abierto de Avaluadores conforme a lo estipulado en la Ley 1673 del 2013.
+Es la organización comercial o companía legalmente constituida del sector inmobiliario, que dentro de su objeto social contempla la elaboración de avalúas comerciales, a su vez está conformada yo cuenta con la vinculación o asocio de un grupo de personas naturales que acreditan la formación debidamente reconocida para llevar a cabo la actividad valuatoria e inscritas ante el Registro Abierto de Avaluadores conforme a lo estipulado en la Ley 1673 del 2013.
 #### 2.14 "Expropiación Administrativa"
 Es la actuación administrativa mediante la cual el Estado adquiere la titularidad de una propiedad privada para el dominio de interés general, previa indemnización al ciudadano que tuvo que soportar dichas cargas públicas, se presenta luego de fracasada la negociación entre la administración y el propietario, pero es excepcional toda vez que requiere que se configure una emergencia imprevista, en cuyo caso la ley autoriza la declaración de urgencia para adquirir el Predio mediante el trámite de Expropiación Administrativa.
 Solo procede cuando la destinación del bien expropiado sea para alguno de los fines previstos expresamente en la ley (utilidad pública e interés social). Dicha declaratoria se debe dar con anterioridad al inicio del trámite de adquisición predial, de conformidad con lo dispuesto en los artículos 63 y siguiente de la Ley 388 de 1997.
@@ -302,7 +302,7 @@ Página 12 de 59
 2.34. "Título Traslaticio"
 Título Traslaticio de dominio. Para que valga latradición se requiere un Título Traslaticio de dominio, como el de venta, permuta, donación, etc. Se requiere, además, que el título sea válido respecto de la persona a quien se confiere. Así el título de donación irrevocable no transfiere el dominio entre cónyuges.
 2.35. "Tradición"
-La tradición es un modo de adquirir el dominio de las cosas, y consiste en la entrega que el dueño hace de ellas a otro, habiendo por una parte la facultad e intención de transferir el dominio, y por otra la capacidad e intención de adquirirlo. Lo que se dice del dominio se extiende a todos los otros derechos reales.
+La tradición es un modo de adquirir el dominio de las cosas, y consiste en la entrega que el dueno hace de ellas a otro, habiendo por una parte la facultad e intención de transferir el dominio, y por otra la capacidad e intención de adquirirlo. Lo que se dice del dominio se extiende a todos los otros derechos reales.
 
 2.36. "Unidad de Construcción"
 Es la edificación dentro de un Predio, que tiene las características específicas en cuanto a uso y elementos constitutivos de la misma.
@@ -329,7 +329,7 @@ catastral a que haya lugar de ser necesario para definir la colindancia e instal
 
 (f) Adelantar todas las demoliciones de las Construcciones Permanentes y mejoras existentes en todos los Predios Adquiridos para el Proyecto, dentro del área de terreno adquirida, así como las que fueron adquiridas en su totalidad, pero quedan ubicadas parcialmente dentro del área que no fue adquirida.
 
-(g) Garantizar que los Predios aledaños al Corredor del Proyecto queden con el acceso necesario que les permita su desarrollo y funcionalidad, para lo cual deberá identificar en el diseno, las obras a adelantar en la zona de Seguridad y protección de la Vía Férrea para el acceso a los Predios aledaños.
+(g) Garantizar que los Predios aledanos al Corredor del Proyecto queden con el acceso necesario que les permita su desarrollo y funcionalidad, para lo cual deberá identificar en el diseno, las obras a adelantar en la zona de Seguridad y protección de la Vía Férrea para el acceso a los Predios aledanos.
 
 (h) Elaborar y entregar a la Interventoría el Plan de Adquisición de Predios a que se refiere la numeral 4.2 de este Apéndice. En el evento que se presente modificaciones al Plan de Obras, actualizar y presentar a la Interventoría el Plan de Adquisición de Predios conforme a las modificaciones realizadas.
 
@@ -339,9 +339,9 @@ U) Levantar la información socioeconómica de cada una de las unidades sociales
 
 (k) Elaborar y suscribir los Acuerdos de Reconocimiento de Compensaciones Socioeconómicas establecidos en la Resolución INCO - hoy ANI, 545 de 2008 o la resolución que la modifique, o sustituya, cuando a ello hubiere lugar.
 
-(1) Contratar los Avalúos Comerciales con Comité Técnico de los Predios, de conformidad con lo señalado en el numeral 4.7 de este Apéndice.
+(1) Contratar los Avalúos Comerciales con Comité Técnico de los Predios, de conformidad con lo senalado en el numeral 4.7 de este Apéndice.
 
-(m) Elaborar y aprobar las órdenes de operación para el pago de cuentas relacionadas con la adquisición de los Predios, según se establece para la Subcuenta Predios. Anexar copia de las certificaciones de pago del valor de la adquisición, es decir, valores de avalúo, lucro cesante, daño emergente y Compensaciones Socioeconómicas en cada expediente predial y deben soportar la totalidad de pagos que se realicen dentro del marco del proceso de adquisición.
+(m) Elaborar y aprobar las órdenes de operación para el pago de cuentas relacionadas con la adquisición de los Predios, según se establece para la Subcuenta Predios. Anexar copia de las certificaciones de pago del valor de la adquisición, es decir, valores de avalúo, lucro cesante, dano emergente y Compensaciones Socioeconómicas en cada expediente predial y deben soportar la totalidad de pagos que se realicen dentro del marco del proceso de adquisición.
 (n) Solicitar, en el evento que el riesgo predial sobrepase el 120 del valor estimado de Predios y Compensaciones Socioeconómicas, presentar la información requerida y asistir a los comités de previa aprobación establecidos por la Entidad en el procedimiento respectivo,
 
 Página 14 de 59
@@ -520,9 +520,9 @@ técnica, física, socio-económica y jurídica de todas y cada una de las ficha
 
 (c) Para la elaboración de cada Ficha Predial el Concesionario deberá verificar en terreno la información relativa a cada uno de los Predios, desarrollando además los siguientes productos y actividades:
 
-(i) Estudio de títulos. Concepto jurídico respecto de la tradición del Predio, mínimo de veinte (20) años, sin limitarse a ello, especialmente en aquellos casos donde no se pueda verificar con exactitud la titularidad o demás elementos constitutivos de análisis dentro del estudio de títulos, así como del estado de los derechos reales que sobre éste recaen -dominio, herencia, usufructo, uso, habitación, servidumbres activas o hipotecas- y de la existencia de gravámenes, limitaciones yo afectaciones, que puedan afectar a los mismos.
+(i) Estudio de títulos. Concepto jurídico respecto de la tradición del Predio, mínimo de veinte (20) anos, sin limitarse a ello, especialmente en aquellos casos donde no se pueda verificar con exactitud la titularidad o demás elementos constitutivos de análisis dentro del estudio de títulos, así como del estado de los derechos reales que sobre éste recaen -dominio, herencia, usufructo, uso, habitación, servidumbres activas o hipotecas- y de la existencia de gravámenes, limitaciones yo afectaciones, que puedan afectar a los mismos.
 
-(1) El estudio de títulos será firmado por el profesional del derecho contratado por el Concesionario, quien será responsable de la orientación jurídica que allí se consigne. Para la realización del estudio de títulos, el Concesionario deberá obtener copia de las escrituras públicas, sentencias judiciales, actos administrativos, y de todos los documentos inscritos en el folio de matrícula objeto de estudio. Además, deberá obtener copia de los documentos que contengan cualquier gravamen o afectación vigente, englobe, desmembración o falsa tradición del derecho de dominio que recae sobre los Predios mínimo durante los últimos veinte (20) años, o del tiempo que sea necesario. Copia de estas escrituras y demás documentos obrarán como anexo del estudio de títulos. Adicionalmente, el abogado encargado de la elaboración del estudio de títulos deberá incorporar a su análisis la información que sobre el Predio se encuentra contenida en la Ficha Predial.
+(1) El estudio de títulos será firmado por el profesional del derecho contratado por el Concesionario, quien será responsable de la orientación jurídica que allí se consigne. Para la realización del estudio de títulos, el Concesionario deberá obtener copia de las escrituras públicas, sentencias judiciales, actos administrativos, y de todos los documentos inscritos en el folio de matrícula objeto de estudio. Además, deberá obtener copia de los documentos que contengan cualquier gravamen o afectación vigente, englobe, desmembración o falsa tradición del derecho de dominio que recae sobre los Predios mínimo durante los últimos veinte (20) anos, o del tiempo que sea necesario. Copia de estas escrituras y demás documentos obrarán como anexo del estudio de títulos. Adicionalmente, el abogado encargado de la elaboración del estudio de títulos deberá incorporar a su análisis la información que sobre el Predio se encuentra contenida en la Ficha Predial.
 
 (2) En caso de existir Predios con inmuebles constituidos bajo el régimen de propiedad horizontal, el Concesionario debe elaborar un estudio por cada inmueble individualmente considerado; además se deberá realizar un estudio de títulos del Predio matriz con su folio de matrícula
 
@@ -557,7 +557,7 @@ acuerdo con lo previsto en la Resolución IGAC 193 de 2014 yo las normas que la 
 
 ( 1) También serán consideradas:
 
- Aquellas Áreas Remanentes No Desarrollables que deban ser adquiridas por no ser desarrollables en sí mismas en razón de su tamaño o funcionalidad (por geometría, accesos, topografia, entre otros), previa certificación de esta situación por parte de las Oficinas de Planeación competentes. El Concesionario elaborará un informe en cada caso respecto de las limitaciones que, de acuerdo con la normatividad en materia de ordenamiento territorial y la Ley Aplicable pesarían sobre dicha fracción de Predio y si procede su declaratoria como Área Remanente No Desarrollable. En dicho concepto el Concesionario indicará si existen alternativas, incluyendo las técnicas, para evitar la imposición de restricciones al desarrollo de la fracción del Predio, teniendo en cuenta además el estado del Predio antes de la presencia del Proyecto y la relación del Proyecto ya construido y en Operación, con las limitaciones del
+ Aquellas Áreas Remanentes No Desarrollables que deban ser adquiridas por no ser desarrollables en sí mismas en razón de su tamano o funcionalidad (por geometría, accesos, topografia, entre otros), previa certificación de esta situación por parte de las Oficinas de Planeación competentes. El Concesionario elaborará un informe en cada caso respecto de las limitaciones que, de acuerdo con la normatividad en materia de ordenamiento territorial y la Ley Aplicable pesarían sobre dicha fracción de Predio y si procede su declaratoria como Área Remanente No Desarrollable. En dicho concepto el Concesionario indicará si existen alternativas, incluyendo las técnicas, para evitar la imposición de restricciones al desarrollo de la fracción del Predio, teniendo en cuenta además el estado del Predio antes de la presencia del Proyecto y la relación del Proyecto ya construido y en Operación, con las limitaciones del
 
 Página 23 de 59
 
@@ -616,7 +616,7 @@ Con fundamento en la información a la que se refieren las Secciones 4.4(c)(i), 
 
 Tabla 1 - Elaboración de la Ficha Predial
 
-Formato Es el formato aplicado según modelo entregado por la ANI. Sie_mpre se usará en tamaño carta (8,5"xl l ").
+Formato Es el formato aplicado según modelo entregado por la ANI. Sie_mpre se usará en tamano carta (8,5"xl l ").
 Logo ANI Incluir el logo de la ANI, según modelo entregado por la entidad Proyecto Nombre del Proyecto objeto de la Concesión
 La numeración de las Fichas Prediales será continua y ascendente, de tal manera que el último número de la última ficha establezca la cantidad total
 Número de Predio de Fichas Prediales requeridas por el Proyecto, el cual se compone de las iniciales del Proyecto, de la Unidad Funcional (numérico) y la numeración
@@ -637,7 +637,7 @@ Linderos anotada en metros lineales, determinando en la casilla correspondiente 
 M. Inmobiliaria Anotar el número de la matrícula inmobiliaria del Predio
 Ciudad o Municipio Anotar la ciudad o el municipio en la que se localiza la notaría de la escritura de adquisición del Predio.
 No. Catastral Anotar el número de la cédula catastral del Predio actualizado de 30 dígitos
-Descripción de Hacer una descripción detallada de los elementos constitutivos de las Construcciones y Construcciones Permanentes, Construcciones Anexas incluyendo cubierta, Construcciones paredes, estructura, piso, baños, cocina, puertas, ventanas, acabados, Anexas estado de conservación y vetustez y demás características del Predio.
+Descripción de Hacer una descripción detallada de los elementos constitutivos de las Construcciones y Construcciones Permanentes, Construcciones Anexas incluyendo cubierta, Construcciones paredes, estructura, piso, banos, cocina, puertas, ventanas, acabados, Anexas estado de conservación y vetustez y demás características del Predio.
 Descripción de Incluir el nombre, cantidad, densidad (cuando se trate de plantaciones) y Cultivos y Especies número de las especies incluidas en el Área Requerida, según aplique.
 Es el área necesaria según los disenos, expresada en hectáreas o metros
 Área Requerida cuadrados, según aplique. Cuando se trate de áreas donde su requerimiento no es continuo, se debe referenciar el área total requerida e indicar el área
@@ -667,7 +667,7 @@ scritura Pública
 Tabla 2 -Anexos de la Ficha Predial
 xpedido por la Oficina Seccional de Catastro del IGAC, correspondiente al redio, en el cual figura el número catastral, el propietario, la nomenclatura del redio, áreas y datos jurídicos del Predio, con antigüedad inferior a tres (3) eses al momento de la entrega de la Ficha Predial.
 xpedido por la Oficina de Registro de Instrumentos Públicos de lajurisdicció n que se localiza el Predio, con antigüedad inferior a tres (3) meses al moment e la entrega de la Ficha Predial.
-opia simple de las escrituras públicas de propiedad sobre el Predio y demás ítulos que soporten la tradición mínima a veinte (20) años, incluyendo los instrumentos públicos por medio de los cuales se constituyan gravámenes sobr los mismos, al igual que los actos administrativos y sentencias judiciales a qu aya lugar.
+opia simple de las escrituras públicas de propiedad sobre el Predio y demás ítulos que soporten la tradición mínima a veinte (20) anos, incluyendo los instrumentos públicos por medio de los cuales se constituyan gravámenes sobr los mismos, al igual que los actos administrativos y sentencias judiciales a qu aya lugar.
 
 Página 29 de 59
 
@@ -678,21 +678,21 @@ Certificado de la norma de uso y Normatividad vigente
 Para los Predios adjudicados por el INCORA, INCODER, hoy Agencie Nacional de Tierras - ANT, o la entidad que haga sus veces, se debe obtenei lcopia de la resolución de adjudicación,junto con el plano de adjudicación.
 Licencias urbanísticas yo actos administrativos de planes parciales y demás
 linstrumentos de gestión que afecten el inmueble.
-Fotocopia de la cédula de ciudadanía de quien figure como Representante legal kíe la compañía propietaria del Predio y certificado de la Cámara de Comercio con antigüedad inferior a tres (3) meses al momento de la entrega de la Ficha IPredial.
+Fotocopia de la cédula de ciudadanía de quien figure como Representante legal kíe la companía propietaria del Predio y certificado de la Cámara de Comercio con antigüedad inferior a tres (3) meses al momento de la entrega de la Ficha IPredial.
 Consultar en la Oficina de Planeación Municipal yo Curadurías Urbanas el Plan de Ordenamiento Territorial - POT vigente, con el fin de determinar los usos del suelo, permitidos y potenciales, de los Predios Requeridos y las restricciones de los Predios contempladas en dicho plan.
 
 Consultar en la Oficina de Planeación sobre licencias urbanísticas en trámite o aprobadas, respecto a Predios Requeridos por el Proyecto, cuando sea del caso.
-Estudio de títulos [De acuerdo con lo señalado en el numeral 4.4(c)(i) del presente Apéndice.
+Estudio de títulos [De acuerdo con lo senalado en el numeral 4.4(c)(i) del presente Apéndice.
 
 !Reporte de
-confrontación de la De acuerdo con lo señalado en el numeral 4.4(c)(ii) del presente Apéndice. información
-Soporte de Áreas De acuerdo con lo señalado en el numeral 4.4(c)(iii) y 4.4(c)(iv) del presente Requeridas péndice.
+confrontación de la De acuerdo con lo senalado en el numeral 4.4(c)(ii) del presente Apéndice. información
+Soporte de Áreas De acuerdo con lo senalado en el numeral 4.4(c)(iii) y 4.4(c)(iv) del presente Requeridas péndice.
 
 nventario de Construcciones
 
 Otros
 
-De acuerdo con lo señalado en el numeral 4.4(c)(v) del presente Apéndice.
+De acuerdo con lo senalado en el numeral 4.4(c)(v) del presente Apéndice.
 
 Constancia de solicitud de documentos. En el evento en que no sean aportados, debe anexarse la solicitud a las entidades competentes y la respectiva respuesta.
 :Copia de las manzanas catastrales donde se encuentran ubicados los Predios
@@ -716,7 +716,7 @@ Página 30 de 59
 
 (d) Las fichas prediales elaboradas por el Concesionario serán aprobadas por el Interventor, quien tendrá un plazo máximo de diez (10) Días Hábiles para pronunciarse.
 
-(e) Cualquier solicitud de modificación de las Fichas Prediales se hará una sola vez dentro del plazo de diez (10) Días Hábiles aquí señalado y el Concesionario tendrá un plazo de diez (10) Días Hábiles para efectuar las correcciones tanto para las fichas prediales como para los Avalúos Comerciales con Comité Técnico. El Concesionario tendrá la obligación de entregar a la Interventoría y a la ANI toda la información actualizada y relacionada con el Procedimiento de Gestión Predial, de acuerdo con los lineamientos de la ANI.
+(e) Cualquier solicitud de modificación de las Fichas Prediales se hará una sola vez dentro del plazo de diez (10) Días Hábiles aquí senalado y el Concesionario tendrá un plazo de diez (10) Días Hábiles para efectuar las correcciones tanto para las fichas prediales como para los Avalúos Comerciales con Comité Técnico. El Concesionario tendrá la obligación de entregar a la Interventoría y a la ANI toda la información actualizada y relacionada con el Procedimiento de Gestión Predial, de acuerdo con los lineamientos de la ANI.
 #### 4.5 Plano de requerimiento predial
 
 (a) Corresponde al plano en planta del área por adquirir, con el siguiente contenido:
@@ -725,7 +725,7 @@ Página 31 de 59
 
 Formato
 Tabla 3 - Plano de requerimiento predial
-Los planos de intervenciones prediales deben hacerse en un formato de papel tamaño carta (8,5"xl 1 "). Si el área por adquirir es muy extensa y no permite el dibujo en este formato, se puede dividir en varias hojas, anotando cada uno de los sectores y sus PRs (abscisas inicial y final) y utilizando doble carta o el tamaño que se requiera;
+Los planos de intervenciones prediales deben hacerse en un formato de papel tamano carta (8,5"xl 1 "). Si el área por adquirir es muy extensa y no permite el dibujo en este formato, se puede dividir en varias hojas, anotando cada uno de los sectores y sus PRs (abscisas inicial y final) y utilizando doble carta o el tamano que se requiera;
 Coordenadas Se deben incluir por lo menos dos cruces de coordenadas,
 diagonales entre sí, con anotación de su valor.
 Norte geográfico Incluir un símbolo de norte orientado hacia la parte superior del
@@ -733,7 +733,7 @@ plano.
 Para Predios rurales debe incluir su nombre y de los colindantes Nomenclatura Predial indicando su cédula catastral. Si es urbano, incluir la nomenclatura
 del Predio y de los colindantes indicando su cédula catastral.
 El dibujo debe hacerse en escalas 1 :200, 1 :500, l :750, 1: 1000 ó
-Escala 1: 1250, 1 :2000 de acuerdo con el tamaño de la zona mapeada. Se debe anotar la escala numérica e incluir la escala gráfica.
+Escala 1: 1250, 1 :2000 de acuerdo con el tamano de la zona mapeada. Se debe anotar la escala numérica e incluir la escala gráfica.
 Anotar los valores del PRs- entre los cuales se ubica el Predio con
 PRs referencia al Proyecto, indicando la ruta a la cual pertenece el Proyecto.
 Anotar los valores del abscisado inicial y final entre los cuales se ubica el Predio con referencia al Proyecto, indicando con I si es izquierda o D si es derecha. La abscisa inicial y final se establece
@@ -750,7 +750,7 @@ vía proyectada, eje vía proyectada, eje vía existente, derecho de
 
 Página 32 de 59
 
-vía actual, derecho de vía Proyecto, borde vía existente, separador, cercas, caño o fuentes hídricas, árboles, postes, vallados, etc.
+vía actual, derecho de vía Proyecto, borde vía existente, separador, cercas, cano o fuentes hídricas, árboles, postes, vallados, etc.
 Accidentes Geográficos Se dibujarán los ríos, quebradas, vías, caminos veredales y demás
 referencias de orientación.
 Áreas Requeridas Deben achurarse las áreas requeridas, con líneas color verde
@@ -784,16 +784,16 @@ análisis del Concesionario, es catalogado como no desarrollable.
 Página 33 de 59
 
 Construcciones Valor en m2, del área construida Valor en m², del área construida
-Número de Predio De conformidad con lo señalado en la Sección 4.4(c)(vi) de este
+Número de Predio De conformidad con lo senalado en la Sección 4.4(c)(vi) de este
 Apéndice
 Fecha Fecha de elaboración de la Ficha Predial y el Plano Predial
 
 (b) Si el Predio a adquirir es colindante con ríos, quebradas o cualquier cuerpo de agua se debe tener en cuenta la ronda de río para la respectiva identificación y determinación del área, así como en el proceso de elaboración del avalúo. Para tal fin se debe consultar la normatividad establecida en el Código de Recursos Naturales (Decreto -Ley 2811 de 1974) y la normatividad específica para el municipio, definida en el Plan de Ordenamiento Territorial o el Esquema de Ordenamiento Territorial. Así mismo, se dará aplicación al Protocolo establecido por la ANI.
 
-(c) En aquellos casos en que el Predio objeto de adquisición sea considerado Predio sirviente respecto de Predios aledaños que no serán requeridos por el Proyecto, y existan Áreas Sobrantes en el Predio adquirido, el Concesionario procurará por mantener las servidumbres existentes en las Áreas Sobrantes
+(c) En aquellos casos en que el Predio objeto de adquisición sea considerado Predio sirviente respecto de Predios aledanos que no serán requeridos por el Proyecto, y existan Áreas Sobrantes en el Predio adquirido, el Concesionario procurará por mantener las servidumbres existentes en las Áreas Sobrantes
 ( d) Cuando dentro del Área Requerida se encuentre cualquier tipo de servidumbre inscrita al folio de matrícula inmobiliaria, se deben determinar los aislamientos de acuerdo con la norma que la regule. Cuando la servidumbre se encuentre en un Área Sobrante, no es necesario hacerlo y se debe indicar en un informe técnico que la misma no afecta el área de terreno requerida, el cual se encontrará anexo a la Ficha Predial, a efectos de no ser incluido en el avalúo.
 
-(e) En el caso particular de las zonas de terreno que hacen parte de bienes Baldíos y Ejidos, el Concesionario deberá adelantar la gestión y elaborar todos los documentos requeridos por la Agencia Nacional de Tierras, o la entidad que haga sus veces, y ante el municipio donde se encuentre ubicado el bien Ejido, de conformidad con lo establecido en la Ley aplicable. Además, podrá reconocer el pago de mejoras a los ocupantes de los Predios Baldíos, atendiendo los límites y las condiciones señaladas en la Ley Aplicable, como también podrá activar el proceso de desalojo previo pago por consignación del valor de las mejoras.
+(e) En el caso particular de las zonas de terreno que hacen parte de bienes Baldíos y Ejidos, el Concesionario deberá adelantar la gestión y elaborar todos los documentos requeridos por la Agencia Nacional de Tierras, o la entidad que haga sus veces, y ante el municipio donde se encuentre ubicado el bien Ejido, de conformidad con lo establecido en la Ley aplicable. Además, podrá reconocer el pago de mejoras a los ocupantes de los Predios Baldíos, atendiendo los límites y las condiciones senaladas en la Ley Aplicable, como también podrá activar el proceso de desalojo previo pago por consignación del valor de las mejoras.
 
 (f) En el caso de los Ejidos, el Concesionario adelantará la gestión ante las entidades territoriales, y se aplicará la normatividad vigente para este tipo de bienes.
 #### 4.6 Plan de Compensaciones Socioeconómicas
@@ -811,7 +811,7 @@ de los Predios Requeridos. Para el levantamiento de la información socioeconór
 #### 4.7 Avalúos Comerciales con Comité Técnico
 
 (a) El Concesionario deberá obtener los Avalúos Comerciales de acuerdo con lo establecido en la Ley 9 de 1989, modificada por la Ley 388 de 1997, la Ley 1682 de 2013, Ley 1742 de
-2014, ley 1882 de 2018, el Decreto 1420 de 1998, la resolución reglamentaria 620 de 2008 expedida por el Instituto Geográfico Agustín Codazzi (IGAC), las Resoluciones IGAC 898 de 2014, 1044 de 2014 y 316 de 2015, y de ser necesario, adelantar las acciones de revisión e impugnación dentro de los términos establecidos en las normas señaladas o aquellas que las modifiquen, según el caso. El Concesionario es el responsable de adelantar de forma oportuna el respectivo control de calidad de los informes de avalúos elaborados y presentados por la empresa o lonja evaluadora, a través de su personal cuyo perfil se establece en el numeral8.7, del presente Apéndice.
+2014, ley 1882 de 2018, el Decreto 1420 de 1998, la resolución reglamentaria 620 de 2008 expedida por el Instituto Geográfico Agustín Codazzi (IGAC), las Resoluciones IGAC 898 de 2014, 1044 de 2014 y 316 de 2015, y de ser necesario, adelantar las acciones de revisión e impugnación dentro de los términos establecidos en las normas senaladas o aquellas que las modifiquen, según el caso. El Concesionario es el responsable de adelantar de forma oportuna el respectivo control de calidad de los informes de avalúos elaborados y presentados por la empresa o lonja evaluadora, a través de su personal cuyo perfil se establece en el numeral8.7, del presente Apéndice.
 
 (b) El Avalúo Comercial con Comité Técnico es el que se realiza con la participación de un grupo conformado por mínimo cuatro (4) personas y donde de manera conjunta aprueban los valores contenidos en el encargo valuatorio para áreas de terreno, construcciones, cultivos yo especies, así como las indemnizaciones o compensaciones en el evento de ser procedente su estimación. Por medio de dicho comité, se garantizará la correcta aplicación de conceptos, procedimientos y metodologías para cada uno de los avalúos, en contexto con la normatividad que rige la materia valuatoria. Los valores adoptados siempre deberán contar con los soportes o memorias de calculo que sean del caso, siendo acordes además con la realidad inmobiliaria.
 
@@ -821,10 +821,10 @@ profesionales:
 
 Página 35 de 59
 
-(i) El (los) avaluador(es) participante(s) en la elaboración del informe valuatorio, según la categoría del avalúo elaborado, ej: rural, intangibles especiales (Daño emergente yo Lucro Cesante) deberán contar con el RAA correspondiente, de conformidad con el Decreto 556 del 2014.
+(i) El (los) avaluador(es) participante(s) en la elaboración del informe valuatorio, según la categoría del avalúo elaborado, ej: rural, intangibles especiales (Dano emergente yo Lucro Cesante) deberán contar con el RAA correspondiente, de conformidad con el Decreto 556 del 2014.
 (ii) El director del comité técnico de avalúes deberá contar con registro RAA correspondiente a las categorías existentes en el informe valuatorio según el Decreto 556 del 2014.
 (iii) El representante legal
-(iv) El (los) avaluador(es) participante(s) en la aprobación de los valores del informe valuatorio, según la categoría del avalúo elaborado, ej: rural, intangibles especiales (Daño emergente yo Lucro Cesante) deberán contar con el RAA correspondiente, de conformidad con el decreto 556 del 2014.
+(iv) El (los) avaluador(es) participante(s) en la aprobación de los valores del informe valuatorio, según la categoría del avalúo elaborado, ej: rural, intangibles especiales (Dano emergente yo Lucro Cesante) deberán contar con el RAA correspondiente, de conformidad con el decreto 556 del 2014.
 (v) La fecha de elaboración del informe valuatorio o fecha de expedición, será la fecha
 de aprobación del informe mediante acta de comité del Avalúo Comercial.
 
@@ -838,9 +838,9 @@ GEOECONOMICAS) y sus futuras actualizaciones, el cual fue definido y aprobado po
 Página 36 de 59
 
 (h) El gremio, Lonja de Propiedad Raíz o Empresa Avaluadora a contratar por el Concesionario para la realización de los Avalúos Comerciales con Comité Técnico, además de las obligaciones y condiciones establecidas en la Ley Aplicable sobre la materia, deberá cumplir los siguientes requisitos:
-(i) Tener una personería jurídica otorgada con mínimo cinco (5) años de antigüedad.
-(ii) Tener como mínimo una experiencia de cinco (5) años en la elaboración de Avalúas Comerciales para proyectos de infraestructura.
-(iii) Los profesionales que desarrollarán el trabajo deberán ser profesionales avaluadores certificados, tener una experiencia mínima de cinco (5) años en la elaboración de Avalúos Comerciales rurales y urbanos y estar registrados en una Entidad Autoreguladora de Avaluadores. En todo caso los profesionales avaluadores deberán cumplir con los requisitos contenidos en la Ley 1673 de 2013, el Decreto 556 de 2014 o en las normas que las modifiquen o sustituyan.
+(i) Tener una personería jurídica otorgada con mínimo cinco (5) anos de antigüedad.
+(ii) Tener como mínimo una experiencia de cinco (5) anos en la elaboración de Avalúas Comerciales para proyectos de infraestructura.
+(iii) Los profesionales que desarrollarán el trabajo deberán ser profesionales avaluadores certificados, tener una experiencia mínima de cinco (5) anos en la elaboración de Avalúos Comerciales rurales y urbanos y estar registrados en una Entidad Autoreguladora de Avaluadores. En todo caso los profesionales avaluadores deberán cumplir con los requisitos contenidos en la Ley 1673 de 2013, el Decreto 556 de 2014 o en las normas que las modifiquen o sustituyan.
 (iv) Ninguno de los profesionales avaluadores que tengan relación con el avalúo podrá haber sido sancionado por la lonja o gremio que hace el avalúo, por cualquier otro gremio o lonja, o por alguna autoridad de autorregulación, por incumplimiento de las obligaciones y deberes a los que hace referencia los artículos 8 a 20 de la Ley 1673 de 2013 o por violación de cualquier código de ética. Así mismo, el profesional avaluador no podrá participar en cualquier otra actividad del Procedimiento de Gestión Predial que adelante el Concesionario para el cual está elaborando los avalúos.
 
 (i) Para la práctica de los Avalúos Comerciales con Comité Técnico, el Concesionario deberá poner a disposición de la entidad avaluadora la respectiva Ficha Predial y el Plano Predial y los demás documentos que considere necesario el gremio, Empresa Avaluadora, o lonja conforme a la normatividad establecida. El Concesionario exigirá al avaluador que, en el evento de encontrar inconsistencias en los elementos descritos en la Ficha y el Plano Predial, reporte inmediatamente esta situación al Concesionario.
@@ -874,13 +874,13 @@ Página 37 de 59
 (i) Protocolo avalúo urbano (Formato GCSP-I-026 del Sistema Integrado de Planeación y Gestión) y posteriores actualizaciones.
 (ii) Protocolo avalúo rural (Formato GCSP-I-027 del Sistema de Integrado de Planeación
 y Gestión) y posteriores actualizaciones.
-(iii) Métodos, criterios, parámetros y procedimientos de valoración utilizados, los cuales deben corresponder a uno o varios de los métodos señalados principalmente en la Resolución 620 de 2008 de IGAC; en caso de utilizar consulta a expertos dar la aplicación del art. 9 de la Resolución 620 de 2008.
+(iii) Métodos, criterios, parámetros y procedimientos de valoración utilizados, los cuales deben corresponder a uno o varios de los métodos senalados principalmente en la Resolución 620 de 2008 de IGAC; en caso de utilizar consulta a expertos dar la aplicación del art. 9 de la Resolución 620 de 2008.
 (iv) Memoria de cálculos y lo soportes de los valores obtenidos para los valores unitarios
 (desarrollo matemático y o estadístico del método o métodos seleccionados).
 
 Página 38 de 59
 
-(v) Resultado de Avalúo Comercial con Comité Técnico. (valores unitarios de cada uno de los elementos por las cantidades señaladas en la Ficha Predial y el valor total del avalúo).
+(v) Resultado de Avalúo Comercial con Comité Técnico. (valores unitarios de cada uno de los elementos por las cantidades senaladas en la Ficha Predial y el valor total del avalúo).
 (vi) Anexos fotográficos. Tomar registros fotográficos que identifiquen el Predio, cada una de las Construcciones Permanentes y sus anexidades con fotos internas, los cultivos y especies y demás elementos objeto del Avalúo Comercial con Comité Técnico indicando en cada una de ellas a cuál elemento de la Ficha Predial se refiere.
 
 (1) El Interventor revisará y aprobará el Avalúo Comercial con Comité Técnico de cada uno de los Predios y rendirá su concepto dentro de los diez (10) Días Hábiles siguientes a su recepción, lo cual ocurrirá en todo caso antes de la presentación de la oferta de compra.
@@ -914,7 +914,7 @@ OLYMPUS, o el que lo reemplace, mejore o modifique, con sus módulos, desarrolla
 
 (1) Concepto jurídico del estudio de títulos
 
-(2) Escrituras públicas yo cualquier otro título que soporten la tradición del Predio como mínimo en los últimos veinte (20) años.
+(2) Escrituras públicas yo cualquier otro título que soporten la tradición del Predio como mínimo en los últimos veinte (20) anos.
 
 (3) Escrituras públicas o cualquier otro documento en los que conste cualquier afectación o gravamen vigente al Predio.
 
@@ -984,19 +984,19 @@ Página 41 de 59
 
 (a) El Concesionario deberá efectuar la verificación de áreas, Linderos y efectuar la actualización de expedientes, para lo cual realizará las siguientes actividades:
 
-(i) Con anterioridad a la formulación de Oferta Formal de Compra de Predios, el Concesionario deberá verificar que el Área Requerida, el Área Sobrante y el Área Remanente No Desarrollable (de ser requeridas) señaladas en la Ficha Predial, correspondan con las incluidas en el Avalúo Comercial con Comité Técnico y en los títulos de propiedad, así como los datos de identificación física, jurídica y valor de adquisición; así mismo, deberá orientar al propietario acerca de los procedimientos de actualización de áreas y Linderos de conformidad con la Resolución IGAC 193 de 2014 y las directrices que para ello hayan sido emitidas por la Superintendencia de Notariado y registro y el Instituto Geográfico Agustín Codazzi.
+(i) Con anterioridad a la formulación de Oferta Formal de Compra de Predios, el Concesionario deberá verificar que el Área Requerida, el Área Sobrante y el Área Remanente No Desarrollable (de ser requeridas) senaladas en la Ficha Predial, correspondan con las incluidas en el Avalúo Comercial con Comité Técnico y en los títulos de propiedad, así como los datos de identificación física, jurídica y valor de adquisición; así mismo, deberá orientar al propietario acerca de los procedimientos de actualización de áreas y Linderos de conformidad con la Resolución IGAC 193 de 2014 y las directrices que para ello hayan sido emitidas por la Superintendencia de Notariado y registro y el Instituto Geográfico Agustín Codazzi.
 
 (ii) Igualmente, el Concesionario bajo su propio costo y riesgo, deberá orientar a los propietarios frente a situaciones técnicas, fácticas y jurídicas que se encuentren al momento de efectuar el inventario o identificación predial y el estudio de títulos, relacionadas con desactualización catastral, posesiones, invasiones en propiedad privada, sucesiones, cancelación de gravámenes y limitaciones al dominio, entre otras.
 
 Página 42 de 59
 
-(iii) Cuando se trate de un requerimiento total, en donde exista diferencia entre las áreas de terreno señaladas en los títulos de adquisición y el levantamiento efectuado en campo y vencido el plazo previsto en la Ley Aplicable no se cuente con el certificado de cabida yo Linderos expedido por la autoridad catastral competente o con el documento correspondiente, el área con base en la cual se formule la oferta de compra será la menor que se establezca en alguno de los documentos analizados, ya sea la escritura, el folio, el certificado catastral o el Levantamiento Topográfico efectuado en campo. Lo anterior, sin perjuicio de que una vez expedido por el IGAC o la autoridad de catastro el certificado de cabida yo Linderos o el documento correspondiente, el Concesionario en cualquier momento durante el proceso de adquisición efectúe alcance a la oferta o suscriba un Otrosí a la promesa, para ajustar la adquisición a las áreas certificadas, siempre y cuando estas áreas sean coherentes con los estudios de títulos.
+(iii) Cuando se trate de un requerimiento total, en donde exista diferencia entre las áreas de terreno senaladas en los títulos de adquisición y el levantamiento efectuado en campo y vencido el plazo previsto en la Ley Aplicable no se cuente con el certificado de cabida yo Linderos expedido por la autoridad catastral competente o con el documento correspondiente, el área con base en la cual se formule la oferta de compra será la menor que se establezca en alguno de los documentos analizados, ya sea la escritura, el folio, el certificado catastral o el Levantamiento Topográfico efectuado en campo. Lo anterior, sin perjuicio de que una vez expedido por el IGAC o la autoridad de catastro el certificado de cabida yo Linderos o el documento correspondiente, el Concesionario en cualquier momento durante el proceso de adquisición efectúe alcance a la oferta o suscriba un Otrosí a la promesa, para ajustar la adquisición a las áreas certificadas, siempre y cuando estas áreas sean coherentes con los estudios de títulos.
 
 (iv) En los casos en que por efectos de modificaciones en los Estudios de Detalle o por aclaración de cabida yo Linderos, cambie el área del Predio inicialmente identificada como Área Requerida, ya sea hacia un menor o mayor valor, el Concesionario debe elaborar un informe técnico que justifique este cambio de área, al cual se le aplicará el mismo procedimiento de presentación y verificación ante la Interventoría previsto para las Fichas Prediales en el numeral 4.4(d) y para los Avalúes Comerciales con Comité Técnico en eL numeral 4.7(1) de este Apéndice.
 
 (v) El folio de matrícula inmobiliaria incluido en el expediente no podrá en ningún caso tener una fecha de expedición mayor a tres (3) meses al momento de su entrega a la ANI, y por lo tanto, el Concesionario deberá obtener un nuevo folio de matrícula para cada Predio antes de la expiración de este plazo. En el evento en que existiere una nueva anotación en el folio de matrícula, el Concesionario deberá adicionar el estudio de títulos indicando las consecuencias de esta nueva anotación. Dicha adición será remitida al Interventor y copia de la misma se conservará como parte del expediente. En todo caso, para la Oferta Formal de Compra de Predios el certificado de libertad y tradición no podrá tener fecha de expedición superior a un (1) mes.
 
-(b) En cualquier momento a partir del Acta de Inicio del Contrato, el Concesionario podrá obtener el permiso de intervención voluntaria en el Predio, en los términos del artículo 27 de la Ley 1682 de 2013, modificado por el artículo 11 de la Ley 1882 de 2018, o la cesión voluntaria de los Predios Requeridos para el Proyecto, en los términos del artículo 32 de la misma Ley. Para aquellos casos en que se obtenga permiso de intervenciónvoluntaria según los términos anteriormente señalados, será obligación del Concesionario tener el Avalúo Comercial con Comité Técnico del Predio máximo dentro de los seis (6) meses siguientes a haber obtenido la disponibilidad.
+(b) En cualquier momento a partir del Acta de Inicio del Contrato, el Concesionario podrá obtener el permiso de intervención voluntaria en el Predio, en los términos del artículo 27 de la Ley 1682 de 2013, modificado por el artículo 11 de la Ley 1882 de 2018, o la cesión voluntaria de los Predios Requeridos para el Proyecto, en los términos del artículo 32 de la misma Ley. Para aquellos casos en que se obtenga permiso de intervenciónvoluntaria según los términos anteriormente senalados, será obligación del Concesionario tener el Avalúo Comercial con Comité Técnico del Predio máximo dentro de los seis (6) meses siguientes a haber obtenido la disponibilidad.
 
 (c) Siempre que un Predio se encuentre bajo la administración de Central de Inversiones S.A. (CISA) o quien haga sus veces, o en proceso de extinción de dominio o en proceso de clarificación, podrán ser expropiados o adjudicados, según sea procedente, por y a la entidad estatal responsable del Proyecto y esta podrá solicitar a la entidad competente la entrega anticipada, una vez se haya efectuado el depósito del valor del inmueble de acuerdo con el resultado del Avalúo Comercial con Comité Técnico, siempre que ello sea requisito para la entrega anticipada del inmueble.
 
@@ -1066,7 +1066,7 @@ de Compra; en el que pueda verificarse que quien comparece a notificarse cuenta 
 
 #### 5.8 Aceptación de la Oferta, Escrituración e Inscripción.de la Compraventa
 
-(a) Aceptada la Oferta Formal de Compra de Predios y registrada en el folio de matrícula inmobiliaria, el Concesionario deberá elaborar un contrato de promesa de compraventa si se considera necesario, o directamente podrán proceder a la elaboración de la minuta de escritura pública, gestión que adelantará el Concesionario ciñéndose a la normatividad vigente y a los parámetros establecidos por los Grupos Internos de Trabajo Predial y de Asesoría Jurídica Predial de la Agencia Nacional de Infraestructura, los cuales quedarán establecidos en los formatos de documento que le serán entregados por los GIT Predial y de Asesoría Jurídica Predial.
+(a) Aceptada la Oferta Formal de Compra de Predios y registrada en el folio de matrícula inmobiliaria, el Concesionario deberá elaborar un contrato de promesa de compraventa si se considera necesario, o directamente podrán proceder a la elaboración de la minuta de escritura pública, gestión que adelantará el Concesionario cinéndose a la normatividad vigente y a los parámetros establecidos por los Grupos Internos de Trabajo Predial y de Asesoría Jurídica Predial de la Agencia Nacional de Infraestructura, los cuales quedarán establecidos en los formatos de documento que le serán entregados por los GIT Predial y de Asesoría Jurídica Predial.
 
 Página 46 de 59
 
@@ -1086,7 +1086,7 @@ Página 46 de 59
 
 (í) El Concesionario podrá solicitar ante la entidad, previo concepto favorable de la Interventoría, la aplicación de la figura del saneamiento por ministerio de la ley respecto de inmuebles utilizados o por utilizar en los proyectos de infraestructura de transporte, que carezcan de Título Traslaticio de dominio y de identidad registra], de conformidad con el artículo 21 de la Ley 1682 de 2013, el Decreto 737 de 2014, compilado en el Decreto 1079 de 2015 y demás reglamentaciones al respecto.
 
-(g) Una vez proyectada la minuta de escritura pública de compraventa ciñéndose estrictamente al cumplimiento de los requisitos establecidos en la promesa de compraventa, se deberá obligatoriamente someterla al trámite de reparto notarial cuando en el círculo notarial exista más de una notaría, dejando constancia dentro del expediente predial de esta actividad.
+(g) Una vez proyectada la minuta de escritura pública de compraventa cinéndose estrictamente al cumplimiento de los requisitos establecidos en la promesa de compraventa, se deberá obligatoriamente someterla al trámite de reparto notarial cuando en el círculo notarial exista más de una notaría, dejando constancia dentro del expediente predial de esta actividad.
 
 (h) Una vez se conozca la notaría asignada, el Concesionario deberá informar al interesado por medio escrito, en un plazo no mayor a cinco (5) Días Hábiles contados a partir del reparto, la notaría asignada para que este se acerque a suscribir la respectiva escritura pública de compraventa, dejando soporte dentro del expediente.
 
@@ -1106,7 +1106,7 @@ Página 47 de 59
 
 (b) Si la Agencia Nacional de Infraestructura efectuó compra parcial de un terreno, quienes participen en la diligencia de entrega y recibo del mismo, deberán asegurarse de que el propietario haya trasladado previamente las acometidas existentes y trasladar de manera inmediata las cercas que se encuentren ubicadas en la zona de adquisición por parte de la Agencia Nacional de Infraestructura.
 
-(c) El recibo del inmueble se hará mediante acta formal y se comunicará de ello inmediatamente a la Interventoría y a la Agencia Nacional de Infraestructura a fin de establecer por la Interventoría que se han cumplido por parte del propietario las obligaciones pactadas. A partir de la fecha de recibo del Predio el Concesionario se obliga a custodiar el terreno mientras lo utiliza para los fines previstos y posteriormente como parte del Corredor del Proyecto. Para aquellos casos en que se obtenga permiso de intervención voluntaria según los términos anteriormente señalados, será obligación del
+(c) El recibo del inmueble se hará mediante acta formal y se comunicará de ello inmediatamente a la Interventoría y a la Agencia Nacional de Infraestructura a fin de establecer por la Interventoría que se han cumplido por parte del propietario las obligaciones pactadas. A partir de la fecha de recibo del Predio el Concesionario se obliga a custodiar el terreno mientras lo utiliza para los fines previstos y posteriormente como parte del Corredor del Proyecto. Para aquellos casos en que se obtenga permiso de intervención voluntaria según los términos anteriormente senalados, será obligación del
 
 Página 48 de 59
 
@@ -1126,7 +1126,7 @@ concesionario tener el Avalúo Comercial con Comité Técnico del Predio máximo
 #### 5.11 Informes de Adquisición Predial
 
 (a) Dentro de los quince (15) Días hábiles siguientes a la culminación del proceso de adquisición predial, el Concesionario deberá presentar al Interventor y a la ANI un informe en el que se reporte mínimo la siguiente información en el formato que la ANI establezca para el efecto: (a) Ficha Predial, (b) nombre del enajenante, (c) localización e identificación del Predio, (d) Área Adquirida, (e) Construcciones Permanentes yo cultivos y especies
-. adquiridas, (f) Avalúo Comercial con Comité Técnico del Predio, (g) daño emergente y
+. adquiridas, (f) Avalúo Comercial con Comité Técnico del Predio, (g) dano emergente y
 
 Página 49 de 59
 
@@ -1134,7 +1134,7 @@ lucro cesante, (h) Compensaciones Socioeconómicas, i) número de escritura y no
 
 (b) En este informe se dejará constancia de que el Predio entregado y a nombre de la Agencia Nacional de Infraestructura se encuentra saneado y goza de titularidad plena, libre de gravámenes y limitaciones que puedan afectarjurídicamente la disponibilidad del inmueble.
 
-( c) Anexo a dicho informe, se entregará el expediente del Predio correspondiente, con la información señalada en el numeral 5.2 de este Apéndice, actualizada a la fecha de inscripción de la compraventa. En todo caso, se deberán atender las normas administrativas institucionales existentes sobre archivo documental y las instrucciones establecidas por la ANI.
+( c) Anexo a dicho informe, se entregará el expediente del Predio correspondiente, con la información senalada en el numeral 5.2 de este Apéndice, actualizada a la fecha de inscripción de la compraventa. En todo caso, se deberán atender las normas administrativas institucionales existentes sobre archivo documental y las instrucciones establecidas por la ANI.
 
 5 .12 Informes de Avanee en la Adquisición
 
@@ -1167,7 +1167,7 @@ Página 50 de 59
 
 (b) El Concesionario enviará las comunicaciones correspondientes a la notificación personal del titular del derecho de dominio yo el poseedor inscrito yo herederos determinados e indeterminados.
 
-(c) Enviadas las comunicaciones, procederá a realizarse la notificación personal del acto administrativo, en los términos señalados en el numeral 5.6 de este Apéndice.
+(c) Enviadas las comunicaciones, procederá a realizarse la notificación personal del acto administrativo, en los términos senalados en el numeral 5.6 de este Apéndice.
 
 Página 51 de 59
 
@@ -1230,7 +1230,7 @@ Página 54 de 59
 (iii) La ANI definirá, al momento de suscribir el correspondiente acto administrativo, si adopta o no las observaciones efectuadas por el Interventor.
 (b) El Concesionario enviará las comunicaciones correspondientes a citación para la notificación personal del titular del derecho de dominio yo el poseedor inscrito yo herederos determinados e indeterminados. (Las comunicaciones a que haya lugar deben ser emitidas por la Agencia, dado que es quien profiere el acto administrativo; lo anterior, sin perjuicio que el Concesionario apoye con la entrega de dicho oficio de manera directa o a través de su sistema de correspondencia).
 
-(c) Enviadas las comunicaciones, procederá a realizarse la notificación personal del acto administrativo, en los términos señalados en el numeral 5 .6 de este Apéndice.
+(c) Enviadas las comunicaciones, procederá a realizarse la notificación personal del acto administrativo, en los términos senalados en el numeral 5 .6 de este Apéndice.
 #### 7.2 Interposición de Recursos
 
 (a) En el caso en que el titular del derecho real yo el poseedor inscrito interpusieren el recurso de reposición, el Concesionario proyectará los documentos necesarios para resolver el recurso, lo cual será objeto de la revisión técnica, jurídica y social de la Interventoría y la ANI, velando por el cumplimiento de los perentorios términos legales contenidos en las normas vigentes.
@@ -1264,7 +1264,7 @@ Para las unidades sociales identificadas en los Predios Requeridos por el Proyec
 
 (a) Todos los costos relacionados con los aspectos administrativos, técnicos y judiciales de la Gestión Predial estarán a cargo del Concesionario, incluyendo, pero sin limitarse a los insumos técnicos y jurídicos, así como el personal contratado y los trámites administrativos y judiciales requeridos para la adquisición de los Predios. De la misma manera, el Concesionario asume el riesgo positivo y negativo de las variaciones de los costos de los insumos y el personal requerido para la Gestión Predial y, por lo tanto, no habrá reconocimientos ni reclamaciones por pretendidos o reales costos adicionales asociados a la Gestión Predial.
 
-(b) El pago de la adquisición de los Predios Requeridos para la ejecución del Proyecto, incluyendo daño emergente y lucro cesante cuando aplique, así como el pago de las Compensaciones Socioeconómicas cuando a ello haya lugar, se harán con cargo a la Subcuenta Predios, tal como se define en el Contrato. La adquisición de los Predios será efectuada por Ministerio de Ley por parte del Concesionario, conforme a lo establecido- en
+(b) El pago de la adquisición de los Predios Requeridos para la ejecución del Proyecto, incluyendo dano emergente y lucro cesante cuando aplique, así como el pago de las Compensaciones Socioeconómicas cuando a ello haya lugar, se harán con cargo a la Subcuenta Predios, tal como se define en el Contrato. La adquisición de los Predios será efectuada por Ministerio de Ley por parte del Concesionario, conforme a lo establecido- en
 
 Página 56 de 59
 
@@ -1290,8 +1290,8 @@ En caso de no lograrse acuerdo con el titular o titulares del derecho real de do
 
 #### 8.7 Personal
 
-Para la ejecución de las obligaciones de Gestión Predial a que se refiere este Apéndice, el Concesionario podrá contratar una persona jurídica con experiencia general en Gestión Predial y con mínimo cinco (5) años de experiencia en el desarrollo de programas de Gestión Predial para proyectos de infraestructura.
-Sin embargo, su equipo base deberá contar mínimo con: un Coordinador Predial (Profesional Abogado o Ingeniero Catastral y Geodesta Ingeniero Civil Ingeniero Topográfico o afines) con experiencia de ocho (8) años en Gestión Predial, cinco (5) de los cuales deben ser de experiencia específica en Gestión Predial en obras de infraestructura vial yo férrea. Adicionalmente, deberá contar con un profesional Abogado con cinco (5) años de experiencia en Gestión Predíal, un profesional Ingeniero Catastral y Geodesta Ingeniero Civil Ingeniero Topográfico o afines, con cinco (5) años de experiencia en Gestión Predial, un profesional experto en avalúos para proyectos de Infraestructura que acredite la formación debidamente reconocida para llevar a cabo la actividad valuatoria y que este registrado en el Registro Abierto de Avaluadores R.A.A, vigente y experiencia mínima de cinco (5) años en la elaboración de Avalúas Comerciales rurales y urbanos. En todo caso el profesional avaluador deberá cumplir con los requisitos contenidos en la Ley 1673 de 2013, el Decreto 556 de 2014 o en las normas que las modifiquen o sustituyan. Este profesional no podrá haber sido sancionado por empresa avaluadora, lonja o gremio alguno o por alguna autoridad de autorregulación, por incumplimiento de las obligaciones y deberes a los que hace referencia los artículos 8 a 20 de la Ley 1673 de 2013 o por violación de cualquier código de ética. Así mismo, el profesional avaluador no podrá participar en cualquier otra actividad del proceso de gestión predial que adelante el Concesionario para el cual se están elaborando los avalúas; un (1) profesional social Trabajador Social Antropólogo, Psicólogo, Sociólogo Comunicador Social, con experiencia de 5 años experiencia en gestión sociopredial compensaciones económicas en proyectos de infraestructura, además del equipo de profesionales de apoyo que considere necesario para el cumplimiento de las obligaciones a su cargo, los cuales también deben ser profesionales con experiencia en Gestión Predial.
+Para la ejecución de las obligaciones de Gestión Predial a que se refiere este Apéndice, el Concesionario podrá contratar una persona jurídica con experiencia general en Gestión Predial y con mínimo cinco (5) anos de experiencia en el desarrollo de programas de Gestión Predial para proyectos de infraestructura.
+Sin embargo, su equipo base deberá contar mínimo con: un Coordinador Predial (Profesional Abogado o Ingeniero Catastral y Geodesta Ingeniero Civil Ingeniero Topográfico o afines) con experiencia de ocho (8) anos en Gestión Predial, cinco (5) de los cuales deben ser de experiencia específica en Gestión Predial en obras de infraestructura vial yo férrea. Adicionalmente, deberá contar con un profesional Abogado con cinco (5) anos de experiencia en Gestión Predíal, un profesional Ingeniero Catastral y Geodesta Ingeniero Civil Ingeniero Topográfico o afines, con cinco (5) anos de experiencia en Gestión Predial, un profesional experto en avalúos para proyectos de Infraestructura que acredite la formación debidamente reconocida para llevar a cabo la actividad valuatoria y que este registrado en el Registro Abierto de Avaluadores R.A.A, vigente y experiencia mínima de cinco (5) anos en la elaboración de Avalúas Comerciales rurales y urbanos. En todo caso el profesional avaluador deberá cumplir con los requisitos contenidos en la Ley 1673 de 2013, el Decreto 556 de 2014 o en las normas que las modifiquen o sustituyan. Este profesional no podrá haber sido sancionado por empresa avaluadora, lonja o gremio alguno o por alguna autoridad de autorregulación, por incumplimiento de las obligaciones y deberes a los que hace referencia los artículos 8 a 20 de la Ley 1673 de 2013 o por violación de cualquier código de ética. Así mismo, el profesional avaluador no podrá participar en cualquier otra actividad del proceso de gestión predial que adelante el Concesionario para el cual se están elaborando los avalúas; un (1) profesional social Trabajador Social Antropólogo, Psicólogo, Sociólogo Comunicador Social, con experiencia de 5 anos experiencia en gestión sociopredial compensaciones económicas en proyectos de infraestructura, además del equipo de profesionales de apoyo que considere necesario para el cumplimiento de las obligaciones a su cargo, los cuales también deben ser profesionales con experiencia en Gestión Predial.
 
 Página 58 de 59
 
@@ -1390,7 +1390,7 @@ SINO
 Elaboró:
 
 Revisó y Aprobó:
-ÁREA REQUERIDA POR DISEÑO 1 lm2
+ÁREA REQUERIDA POR DISENO 1 lm2
 ÁREA REMANENTE 1 lm2
 TOTAL ÁREA REQUERIDA 1 o !m'
 ÁREA SOBRANTE 1 o lm2

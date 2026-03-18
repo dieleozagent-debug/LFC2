@@ -250,10 +250,10 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 ### 5.3 Disponibilidad
 
 #### 5.3.1 Objetivos de Disponibilidad
-- **Red Vital IP / TETRA:** 99.9% (8.76 horas/año)
-- **Fibra Óptica:** 99.95% (4.38 horas/año)
-- **TETRA:** 99.5% (43.8 horas/año)
-- **VSAT:** 99.0% (87.6 horas/año)
+- **Red Vital IP / TETRA:** 99.9% (8.76 horas/ano)
+- **Fibra Óptica:** 99.95% (4.38 horas/ano)
+- **TETRA:** 99.5% (43.8 horas/ano)
+- **VSAT:** 99.0% (87.6 horas/ano)
 
 #### 5.3.2 Estrategias de Redundancia
 - **Enlaces:** N+1 con failover automático
@@ -418,7 +418,7 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 ### 10.3 Referencias Normativas
 - **EN 50126:** Aplicación de técnicas de confiabilidad para sistemas ferroviarios
 - **EN 50128:** Software para sistemas de control y protección ferroviarios
-- **EN 50129:** Sistemas de señalización ferroviaria
+- **EN 50129:** Sistemas de senalización ferroviaria
 - **IEC 62290:** Sistemas de gestión ferroviaria
 - **IEC 62443:** Seguridad de sistemas de automatización industrial
 - **FRA/AREMA 615:** Sistemas de control de tráfico ferroviario

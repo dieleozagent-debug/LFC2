@@ -38,7 +38,7 @@ Realizar un inventario completo de todos los documentos del proyecto APP La Dora
 ### ⚠️ OPORTUNIDADES DE MEJORA
 - ⚠️ 48 documentos en progreso requieren finalización
 - ⚠️ 9 archivos sin clasificación clara
-- ⚠️ Múltiples versiones de sistemas clave (CTC, Señalización, PTC)
+- ⚠️ Múltiples versiones de sistemas clave (CTC, Senalización, PTC)
 - ⚠️ Necesidad de consolidación de reportes históricos
 - ⚠️ Carpeta "old/" requiere organización y trazabilidad
 
@@ -124,18 +124,18 @@ Realizar un inventario completo de todos los documentos del proyecto APP La Dora
 
 | Sistema | Versiones | Prioridad | Documento Maestro Propuesto |
 |:---|:---:|:---:|:---|
-| **Señalización** | 5 | 🔴 ALTA | `SIS_Senalizacion_Definitivo_v1.0.md` |
+| **Senalización** | 5 | 🔴 ALTA | `SIS_Senalizacion_Definitivo_v1.0.md` |
 | **Comunicaciones** | 4 | 🔴 ALTA | `SIS_Comunicaciones_Definitivo_v1.0.md` |
 | **Material Rodante** | 3 | 🟠 MEDIA | `SIS_Material-Rodante_Definitivo_v1.0.md` |
 | **CTC** | 3 | 🟠 MEDIA | `SIS_CTC_Definitivo_v1.0.md` |
 | **Metodología** | 8 | 🟡 BAJA | Mantener estructura actual |
 | **Estado (Reportes)** | 7 | 🟡 BAJA | Consolidar en reporte único |
 
-### 3.2. ANÁLISIS DEL CASO: SEÑALIZACIÓN (5 VERSIONES)
+### 3.2. ANÁLISIS DEL CASO: SENALIZACIÓN (5 VERSIONES)
 
 **Versiones identificadas:**
 1. `29_Sistema_Senalizacion_Integrado_docx...` (EN PROGRESO) - Ingeniería Conceptual
-2. `V.1_Señalizacion_Ferroviaria_Detalle_v1.0.md` (EN PROGRESO) - Ingeniería Detalle
+2. `V.1_Senalizacion_Ferroviaria_Detalle_v1.0.md` (EN PROGRESO) - Ingeniería Detalle
 3. `V.4_Sistemas/3_Pasos_a_nivel_Contrato_8_3.md` (EN PROGRESO) - Sistemas
 4. `V.4_Sistemas/1_Se_alizaci_n_ferroviaria_Contrato_8_1.md` (EN PROGRESO) - Sistemas
 5. `VII.2.3_Plan_Virtual Balise (GNSS)_Ubicacion_150m.md` (EN PROGRESO) - Soporte Especializado
@@ -174,7 +174,7 @@ Realizar un inventario completo de todos los documentos del proyecto APP La Dora
 
 | Sistema | Acción | Documentos Involucrados | Responsable | Plazo |
 |:---|:---|---:|:---|:---:|
-| **Señalización** | Consolidar | 5 | Ing. Señalización | 3 días |
+| **Senalización** | Consolidar | 5 | Ing. Senalización | 3 días |
 | **Comunicaciones** | Consolidar | 4 | Ing. Telecomunicaciones | 3 días |
 | **CTC** | Consolidar | 3 | Ing. Control | 2 días |
 | **Material Rodante** | Consolidar | 3 | Ing. Mecánica | 2 días |
@@ -259,7 +259,7 @@ old/
 
 ### 7.2. FASE 2: CONSOLIDACIÓN DE DUPLICADOS (DÍAS 2-5)
 
-**Proceso por sistema (ejemplo: Señalización):**
+**Proceso por sistema (ejemplo: Senalización):**
 
 1. **Análisis** (30 min)
    - Leer las 5 versiones existentes
@@ -315,7 +315,7 @@ Ejemplos:
 DÍA │ ACTIVIDAD
 ────┼──────────────────────────────────────────────────────
  1  │ ████ Auditoría 100% + Movimiento obsoletos
- 2  │ ████ Consolidación Señalización
+ 2  │ ████ Consolidación Senalización
  3  │ ████ Consolidación Comunicaciones
  4  │ ████ Consolidación CTC + Material Rodante
  5  │ ████ Revisión y validación consolidados
@@ -363,13 +363,13 @@ DÍA │ ACTIVIDAD
 3. ⏳ **PENDIENTE:** Crear backup completo del proyecto
 4. ⏳ **PENDIENTE:** Crear estructura de carpetas en `old/`
 
-### PARA MAÑANA (04-Oct-2025):
+### PARA MANANA (04-Oct-2025):
 1. Ejecutar Fase 1: Mover archivos obsoletos
-2. Comenzar consolidación de Señalización
+2. Comenzar consolidación de Senalización
 3. Actualizar índice maestro con nueva estructura
 
 ### PARA ESTA SEMANA:
-1. Consolidar 4 sistemas críticos (Señalización, Comunicaciones, CTC, Material Rodante)
+1. Consolidar 4 sistemas críticos (Senalización, Comunicaciones, CTC, Material Rodante)
 2. Validar documentos consolidados
 3. Preparar script de renombrado masivo
 
@@ -424,7 +424,7 @@ DÍA │ ACTIVIDAD
 ### RECOMENDACIONES ESTRATÉGICAS:
 
 #### 🎯 **PRIORIDAD 1 (CRÍTICA):**
-- Consolidar inmediatamente los 4 sistemas con múltiples versiones (Señalización, Comunicaciones, CTC, Material Rodante)
+- Consolidar inmediatamente los 4 sistemas con múltiples versiones (Senalización, Comunicaciones, CTC, Material Rodante)
 - Finalizar documentos V.1-V.5 de Ingeniería de Detalle con estructura v4.2
 - Completar información constructiva faltante (cantidades, especificaciones)
 
@@ -485,16 +485,16 @@ Esta información es únicamente de carácter informativo y representa el estado
 
 ## 15. 📋 CHECKLIST FINAL DE ITEMS PENDIENTES POR MAESTRO
 
-### 15.1 SEÑALIZACIÓN - Items Pendientes
+### 15.1 SENALIZACIÓN - Items Pendientes
 
 | Item | Descripción | Prioridad | Responsable | Plazo |
 |:---|:---|:---:|:---|:---:|
-| **SEN-001** | Integrar especificaciones técnicas detalladas de enclavamientos | 🔴 Alta | Ing. Señalización | 2 días |
-| **SEN-002** | Completar plan de pruebas FAT/SAT específico | 🔴 Alta | Ing. Señalización | 3 días |
-| **SEN-003** | Validar cálculos de disponibilidad 99.95% | 🟡 Media | Ing. Señalización | 2 días |
-| **SEN-004** | Integrar especificaciones de pasos a nivel | 🟡 Media | Ing. Señalización | 2 días |
-| **SEN-005** | Completar análisis RAMS detallado | 🟡 Media | Ing. Señalización | 3 días |
-| **SEN-006** | Validar integración FFFIS con CTC/PTC | 🟡 Media | Ing. Señalización | 2 días |
+| **SEN-001** | Integrar especificaciones técnicas detalladas de enclavamientos | 🔴 Alta | Ing. Senalización | 2 días |
+| **SEN-002** | Completar plan de pruebas FAT/SAT específico | 🔴 Alta | Ing. Senalización | 3 días |
+| **SEN-003** | Validar cálculos de disponibilidad 99.95% | 🟡 Media | Ing. Senalización | 2 días |
+| **SEN-004** | Integrar especificaciones de pasos a nivel | 🟡 Media | Ing. Senalización | 2 días |
+| **SEN-005** | Completar análisis RAMS detallado | 🟡 Media | Ing. Senalización | 3 días |
+| **SEN-006** | Validar integración FFFIS con CTC/PTC | 🟡 Media | Ing. Senalización | 2 días |
 
 **Estado consolidación:** 90% completado  
 **Items críticos pendientes:** 2  
@@ -549,7 +549,7 @@ Esta información es únicamente de carácter informativo y representa el estado
 
 | Sistema | Items Críticos | Items Totales | % Completado | Estado |
 |:---|:---:|:---:|:---:|:---:|
-| **Señalización** | 2 | 6 | 90% | 🟡 En progreso |
+| **Senalización** | 2 | 6 | 90% | 🟡 En progreso |
 | **Comunicaciones** | 2 | 6 | 90% | 🟡 En progreso |
 | **CTC** | 2 | 6 | 90% | 🟡 En progreso |
 | **Material Rodante** | 2 | 6 | 90% | 🟡 En progreso |
@@ -582,7 +582,7 @@ Esta información es únicamente de carácter informativo y representa el estado
 
 ## ANEXO D: CHECKLIST DE PENDIENTES POR MAESTRO (Consolidación Avanzada)
 
-### Señalización — `IV. Ingenieria basica/SIS_Senalizacion_Definitivo_v1.0.md`
+### Senalización — `IV. Ingenieria basica/SIS_Senalizacion_Definitivo_v1.0.md`
 - [ ] Completar RTM con trazabilidad a AT1/2/3/4/8 y docs fuente
 - [ ] Detallar tablas de interlocking (resumen → referencias completas)
 - [ ] Cerrar criterios de pruebas SAT para P.N. y Virtual Balise (GNSS)

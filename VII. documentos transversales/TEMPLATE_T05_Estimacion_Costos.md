@@ -31,7 +31,7 @@
 
 | Ítem | Tipo | Descripción | Costo | Observaciones |
 |:-----|:-----|:------------|:------|:--------------|
-| Software CTC | Perpetua + 3 años soporte | Licencia principal del sistema | $150,000 | Incluye 3 años soporte |
+| Software CTC | Perpetua + 3 anos soporte | Licencia principal del sistema | $150,000 | Incluye 3 anos soporte |
 | Base de datos | Perpetua | Licencia base de datos | $20,000 | PostgreSQL/Oracle |
 | SO Windows Server | Perpetua | Sistema operativo servidores | $5,000 | Por servidor |
 | Antivirus | Anual | Protección de servidores | $2,000 | Renovación anual |
@@ -76,7 +76,7 @@
 | Ítem | Descripción | Costo Anual | Observaciones |
 |:-----|:------------|:------------|:--------------|
 | Mantenimiento preventivo equipos | Servicio de mantenimiento hardware | $30,000 | Contrato anual |
-| Soporte software (año 4+) | Soporte técnico software | $25,000 | A partir del año 4 |
+| Soporte software (ano 4+) | Soporte técnico software | $25,000 | A partir del ano 4 |
 | Repuestos (2% CAPEX) | Inventario de repuestos | $18,168 | 2% del CAPEX |
 | Actualizaciones de seguridad | Parches y actualizaciones | $5,000 | Anual |
 | **SUBTOTAL MANTENIMIENTO** | | **$78,168** | |
@@ -162,7 +162,7 @@
 ### 5.1 Cálculo de Punto de Equilibrio
 
 **Supuestos:**
-- Vida útil del sistema: 15 años
+- Vida útil del sistema: 15 anos
 - Tasa de descuento: 8% anual
 - Inflación: 3% anual
 
@@ -176,10 +176,10 @@
 
 | Métrica | Valor | Observaciones |
 |:--------|:------|:--------------|
-| Payback period | [X] años | Tiempo de recuperación |
-| NPV (15 años) | $[X] | Valor presente neto |
+| Payback period | [X] anos | Tiempo de recuperación |
+| NPV (15 anos) | $[X] | Valor presente neto |
 | IRR | [X]% | Tasa interna de retorno |
-| ROI (15 años) | [X]% | Retorno de inversión |
+| ROI (15 anos) | [X]% | Retorno de inversión |
 
 ---
 
@@ -218,7 +218,7 @@
 
 ### 7.2 Flujo de Caja OPEX
 
-| Año | Mantenimiento | Personal | Servicios | Total |
+| Ano | Mantenimiento | Personal | Servicios | Total |
 |:----|:-------------|:---------|:----------|:------|
 | 1 | $78,168 | $425,000 | $40,000 | $543,168 |
 | 2 | $78,168 | $425,000 | $40,000 | $543,168 |

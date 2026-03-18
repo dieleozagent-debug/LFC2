@@ -37,7 +37,7 @@ El alcance de este documento cubre los siguientes componentes:
 
 ---
 
-## 2. ESPECIFICACIONES TÉCNICAS DE DISEÑO
+## 2. ESPECIFICACIONES TÉCNICAS DE DISENO
 
 **Basado en:** `26. Sistem_CTC_Int...md` y `37. MemoriasDiseno_Basico_v5.0_Validado_Riesgos.md`.
 
@@ -74,7 +74,7 @@ El alcance de este documento cubre los siguientes componentes:
 
 ---
 
-## 3. DISEÑO Y LAYOUT DEL CENTRO DE CONTROL DE OPERACIONES (CCO)
+## 3. DISENO Y LAYOUT DEL CENTRO DE CONTROL DE OPERACIONES (CCO)
 
 ### 3.1 Distribución de Áreas
 | Área | Descripción | Requisitos Clave |
@@ -138,5 +138,5 @@ Las pruebas se regirán por el `42. Plan_Pruebas_MEJORADO.md`.
 | **R-090** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en CTC. | Desarrollar interfaces de CTC basadas en PTC Virtual (FRA 236) hasta disponibilidad de AT3. |
 | **R-091** | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por interfaces de CTC incompatibles. | Establecer protocolos de CTC compatibles con sistemas FENOCO existentes (EULYNX). |
 | **R-092** | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.95% en CTC según AT4. | Implementar sistemas de monitoreo y redundancia N+1 para garantizar cumplimiento. |
-| **R-093** | Operacional | Media | Medio | Falla en sistema de energía o HVAC del CCO. | Diseñar infraestructura de CCO con redundancia 2N en energía y climatización. |
+| **R-093** | Operacional | Media | Medio | Falla en sistema de energía o HVAC del CCO. | Disenar infraestructura de CCO con redundancia 2N en energía y climatización. |
 | **R-094** | Integración | Media | Alto | Complejidad en la integración del CTC con 12 sistemas distintos. | Utilizar el ICD (`41. Interfaces_Sistemas_MEJORADO.md`) como documento rector. |

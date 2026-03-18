@@ -25,7 +25,7 @@ Se ha creado un flujo de datos automatizado y coherente que sigue la filosofía 
 
 ### **PASO 1: Centralizar Datos en la Matriz Maestra**
 
--   **Acción:** Se añadió una nueva columna `Plan_Accion` a la matriz `VIII/.../MATRIZ_RIESGOS_PMO_AMPLIADA_v1.0.md`.
+-   **Acción:** Se anadió una nueva columna `Plan_Accion` a la matriz `VIII/.../MATRIZ_RIESGOS_PMO_AMPLIADA_v1.0.md`.
 -   **Resultado:** El plan de acción para cada uno de los 17 riesgos se ha consolidado en la fuente única de verdad. Los 4 blockers críticos se han destacado con el prefijo `**ACCIÓN HOY:**`.
 
 ```markdown

@@ -350,7 +350,7 @@ DT → [1] Cronograma → [2] Riesgos → [3] Reporte → [4] V.X → [5] VIII/ 
    - Algunos emojis causan problemas en Windows
    - Solución: Usar caracteres ASCII simples
 
-2. **Mapeo V.1_Señalizacion**
+2. **Mapeo V.1_Senalizacion**
    - Agregar mapeo faltante a Carpeta X
    - Actualmente 8/9 documentos V.X mapeados
 

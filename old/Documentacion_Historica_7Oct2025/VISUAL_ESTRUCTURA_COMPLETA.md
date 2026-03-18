@@ -15,7 +15,7 @@ Usando Cursor IDE Agent
 
 ### **Problema identificado:**
 ```
-⚠️ Si Carpeta X se actualiza por cada cambio pequeño
+⚠️ Si Carpeta X se actualiza por cada cambio pequeno
 → Mantener 60 documentos sincronizados es INSOSTENIBLE
 ```
 
@@ -137,7 +137,7 @@ X_ENTREGABLES_CONSOLIDADOS/
 │  📦 CONSOLIDAR EN X                         │
 │  ⚠️ SOLO SI ES ENTREGA FORMAL               │
 │  Frecuencia: Mensual o por milestone        │
-│  NO por cada cambio pequeño                 │
+│  NO por cada cambio pequeno                 │
 └─────────────────────────────────────────────┘
 ```
 
@@ -209,7 +209,7 @@ X_ENTREGABLES_CONSOLIDADOS/
 ❌ NO modificar directamente en Carpeta X
 ❌ NO actualizar sin consultar MATRIZ_DEPENDENCIAS
 ❌ NO hacer cambios sin DT formal
-❌ NO consolidar en X por cada cambio pequeño
+❌ NO consolidar en X por cada cambio pequeno
 ```
 
 ---

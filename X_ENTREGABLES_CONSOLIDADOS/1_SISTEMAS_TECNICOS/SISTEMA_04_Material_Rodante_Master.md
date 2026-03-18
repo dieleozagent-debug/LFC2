@@ -366,7 +366,7 @@
 |:--------|:----------------------:|:---:|:---------|:-------|
 | **Locomotoras** | 99.95% | 4 horas | Tiempo de respuesta, disponibilidad | ✅ Monitoreado |
 | **PTC Embarcado** | 99.95% | 2 horas | Disponibilidad sistemas, tiempo respuesta | ✅ Monitoreado |
-| **Sistemas Comunicación** | 99.5% | 1 hora | Disponibilidad radio, calidad señal | ✅ Monitoreado |
+| **Sistemas Comunicación** | 99.5% | 1 hora | Disponibilidad radio, calidad senal | ✅ Monitoreado |
 | **Talleres** | 99.9% | 8 horas | Capacidad operacional, equipos disponibles | ✅ Monitoreado |
 | **EOT** | 99.95% | 1 hora | Disponibilidad dispositivos, comunicación | ✅ Monitoreado |
 
@@ -378,7 +378,7 @@
 - `FORMATEADO_APENDICE TECNICO 1.md` - Alcance del proyecto (AT1) Cap. V
 - `FORMATEADO_APENDICE TECNICO 2.md` - Operación y mantenimiento (AT2)
 - `FORMATEADO_APENDICE TECNICO 3.md` - Especificaciones generales (AT3) Cap. VIII.8.10
-- `FORMATEADO_APENDICE TECNICO 4.md` - Indicadores de desempeño (AT4)
+- `FORMATEADO_APENDICE TECNICO 4.md` - Indicadores de desempeno (AT4)
 - `FORMATEADO_APENDICE TECNICO 10.md` - Capacidad y surcos (AT10)
 - `Cl_13_1_MaterialRodante_MEJORADO.md` - Material rodante y equipos embarcados
 

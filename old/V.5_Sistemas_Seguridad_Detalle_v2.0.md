@@ -279,11 +279,11 @@ Este documento detalla la ingeniería de los **sistemas de seguridad colocalizad
 ### 5.3 Disponibilidad Colocalizada
 
 #### 5.3.1 Objetivos de Disponibilidad Colocalizados
-- **Seguridad funcional:** 99.95% (4.38 horas/año)
-- **Ciberseguridad:** 99.9% (8.76 horas/año)
-- **Seguridad física:** 99.5% (43.8 horas/año)
-- **Control de acceso:** 99.0% (87.6 horas/año)
-- **Torres colocalizadas:** 99.99% (0.88 horas/año)
+- **Seguridad funcional:** 99.95% (4.38 horas/ano)
+- **Ciberseguridad:** 99.9% (8.76 horas/ano)
+- **Seguridad física:** 99.5% (43.8 horas/ano)
+- **Control de acceso:** 99.0% (87.6 horas/ano)
+- **Torres colocalizadas:** 99.99% (0.88 horas/ano)
 
 #### 5.3.2 Estrategias de Redundancia Colocalizadas
 - **Componentes:** N+1 en sistemas críticos colocalizados

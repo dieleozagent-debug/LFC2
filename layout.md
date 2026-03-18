@@ -8,7 +8,7 @@ VersiónFechaResponsableDescripciónv1.009/10/2025Admin. Contractual EPCCreació
 1.1 Base Legal
 
 Contrato: Contrato de Concesión No. 001 de 2025
-Apéndices Técnicos: AT1 (Alcance Técnico), AT4 (Telecomunicaciones), AT5 (Control y Señalización)
+Apéndices Técnicos: AT1 (Alcance Técnico), AT4 (Telecomunicaciones), AT5 (Control y Senalización)
 Documento Base: Esquema de corredor proporcionado
 
 1.2 Estructura del Corredor
@@ -66,10 +66,10 @@ Redundancia: Modo Direct Mode Operation (DMO) de respaldo
 Interoperabilidad: Compatible con red FENOCO existente
 
 Estaciones Base TETRA (EBT)
-IDLocalizaciónPK Aprox.UFVRadio CoberturaObservacionesEBT-01México201+470UFV 2315-20 kmEnlace con CCOEBT-02La Miel236+439UFV 2315-20 kmZona montañosaEBT-03Puerto Triunfo250+133UFV 3015-20 kmEstación principalEBT-04Cocorná269+400UFV 3115-20 km-EBT-05La Argelia282+154UFV 3115-20 kmEstación principalEBT-06Nápoles313+434UFV 0115-20 km-EBT-07Puerto Olaya338+250UFV 0315-20 kmEstación principalEBT-08San Juan Cobarías354+148UFV 3415-20 km-EBT-09Corare376+571UFV 3515-20 kmZona de puenteEBT-10Las Montoya390+050UFV 3615-20 km-EBT-11Ful Papal406+184UFV 3715-20 km-EBT-12Bocas430+498UFV 3915-20 km-EBT-13B/Bermejo441+932UFV 40/4120-25 kmCCO - Nodo críticoEBT-14García Cadena462+520UFV 4415-20 kmEstación principalEBT-15Eloy Valenzuela501+933UFV 4515-20 km-EBT-16San Rafael516+490UFV 4615-20 kmEstación principalEBT-17San Alberto533+275UFV 4715-20 km-EBT-18San José552+750UFV 4815-20 km-EBT-19Santa Lucía569+800UFV 4915-20 kmEstación principalEBT-20Gamarra604+265UFV 5215-20 kmEstación principalEBT-21Patequillo618+000UFV 5315-20 km-EBT-22La Gloria635+991UFV 5415-20 kmEstación principalEBT-23Palestina663+805UFV 5515-20 km-EBT-24Zapatosa679+530UFV 5615-20 km-EBT-25Chimichagua701+176UFV 2115-20 km-EBT-26Chiriguaná722+250UFV 2215-20 kmTerminal Lote 2.2
+IDLocalizaciónPK Aprox.UFVRadio CoberturaObservacionesEBT-01México201+470UFV 2315-20 kmEnlace con CCOEBT-02La Miel236+439UFV 2315-20 kmZona montanosaEBT-03Puerto Triunfo250+133UFV 3015-20 kmEstación principalEBT-04Cocorná269+400UFV 3115-20 km-EBT-05La Argelia282+154UFV 3115-20 kmEstación principalEBT-06Nápoles313+434UFV 0115-20 km-EBT-07Puerto Olaya338+250UFV 0315-20 kmEstación principalEBT-08San Juan Cobarías354+148UFV 3415-20 km-EBT-09Corare376+571UFV 3515-20 kmZona de puenteEBT-10Las Montoya390+050UFV 3615-20 km-EBT-11Ful Papal406+184UFV 3715-20 km-EBT-12Bocas430+498UFV 3915-20 km-EBT-13B/Bermejo441+932UFV 40/4120-25 kmCCO - Nodo críticoEBT-14García Cadena462+520UFV 4415-20 kmEstación principalEBT-15Eloy Valenzuela501+933UFV 4515-20 km-EBT-16San Rafael516+490UFV 4615-20 kmEstación principalEBT-17San Alberto533+275UFV 4715-20 km-EBT-18San José552+750UFV 4815-20 km-EBT-19Santa Lucía569+800UFV 4915-20 kmEstación principalEBT-20Gamarra604+265UFV 5215-20 kmEstación principalEBT-21Patequillo618+000UFV 5315-20 km-EBT-22La Gloria635+991UFV 5415-20 kmEstación principalEBT-23Palestina663+805UFV 5515-20 km-EBT-24Zapatosa679+530UFV 5615-20 km-EBT-25Chimichagua701+176UFV 2115-20 km-EBT-26Chiriguaná722+250UFV 2215-20 kmTerminal Lote 2.2
 📡 Total Estimado: 26 Estaciones Base TETRA
 
-5. SISTEMAS DE CONTROL Y SEÑALIZACIÓN
+5. SISTEMAS DE CONTROL Y SENALIZACIÓN
 5.1 CTC (Control de Tráfico Centralizado)
 Arquitectura:
 
@@ -89,21 +89,21 @@ IDUbicaciónPKUFVÁrea de ControlRedundanciaRBC-1México201+470UFV 23PK201 - PK3
 Punto de referencia virtuals PTC VIRTUAL (Virtual Balise (GNSS)s)
 Distribución General:
 
-Punto de referencia virtuals Fijas: Cada 1-1.5 km en promedio (puntos de kilometraje, señales, desvíos)
-Punto de referencia virtuals en Señales: 100% de señales principales
+Punto de referencia virtuals Fijas: Cada 1-1.5 km en promedio (puntos de kilometraje, senales, desvíos)
+Punto de referencia virtuals en Senales: 100% de senales principales
 Punto de referencia virtuals en Desvíos: 100% de aparatos de vía
 Punto de referencia virtuals en Puentes: Entrada/Salida de puentes prioritarios
 
-Ubicación TipoCantidad EstimadaDistribuciónKilometraje regular~400-500Cada 1-1.5 kmSeñales principales~150-200Según plan de señalizaciónDesvíos y apartaderos~80-100Según layout de víaPuentes prioritarios8Río Magdalena, Carare, Cuatro Bocas, SogamosoEstaciones26Entrada/salida cada estaciónTOTAL ESTIMADO~700-900A lo largo de 520 km
+Ubicación TipoCantidad EstimadaDistribuciónKilometraje regular~400-500Cada 1-1.5 kmSenales principales~150-200Según plan de senalizaciónDesvíos y apartaderos~80-100Según layout de víaPuentes prioritarios8Río Magdalena, Carare, Cuatro Bocas, SogamosoEstaciones26Entrada/salida cada estaciónTOTAL ESTIMADO~700-900A lo largo de 520 km
 
-5.3 SEÑALIZACIÓN CONVENCIONAL (Complementaria)
-Señales Luminosas:
+5.3 SENALIZACIÓN CONVENCIONAL (Complementaria)
+Senales Luminosas:
 
 Tipo: LED de alta intensidad
 Ubicación: Estaciones, apartaderos, puentes, cruces
 Integración: 100% interfazados con CTC e PTC
 
-Tipo de SeñalCantidad EstimadaObservacionesSeñales de entrada/salida estación~502 por estación principalSeñales intermedias~120-150Cada 3-5 km en promedioSeñales de protección puentes162 por puente prioritario (4 puentes)Señales en desvíos~80-100Según layout de apartaderos
+Tipo de SenalCantidad EstimadaObservacionesSenales de entrada/salida estación~502 por estación principalSenales intermedias~120-150Cada 3-5 km en promedioSenales de protección puentes162 por puente prioritario (4 puentes)Senales en desvíos~80-100Según layout de apartaderos
 
 6. SISTEMAS ITS Y SEGURIDAD
 6.1 CCTV (Videovigilancia)
@@ -165,7 +165,7 @@ Sistemas Instalados:
 
 4-6 Cámaras CCTV PTZ
 Punto de referencia virtuals PTC VIRTUAL entrada/salida
-Señalización luminosa protección
+Senalización luminosa protección
 Detectores sísmicos
 Sistema detección socavación
 Iluminación perimetral
@@ -177,7 +177,7 @@ Sistemas Instalados:
 
 4-6 Cámaras CCTV PTZ
 Punto de referencia virtuals PTC VIRTUAL entrada/salida
-Señalización luminosa protección
+Senalización luminosa protección
 Detectores sísmicos
 Iluminación perimetral
 
@@ -188,7 +188,7 @@ Sistemas Instalados:
 
 4-6 Cámaras CCTV PTZ
 Punto de referencia virtuals PTC VIRTUAL entrada/salida
-Señalización luminosa protección
+Senalización luminosa protección
 Detectores sísmicos
 Iluminación perimetral
 
@@ -199,7 +199,7 @@ Sistemas Instalados:
 
 4-6 Cámaras CCTV PTZ
 Punto de referencia virtuals PTC VIRTUAL entrada/salida
-Señalización luminosa protección
+Senalización luminosa protección
 Detectores sísmicos
 Sistema detección socavación
 Iluminación perimetral
@@ -210,7 +210,7 @@ Aunque el material rodante es móvil, su gestión tiene implicaciones en el layo
 9.1 Puntos de Estacionamiento y Mantenimiento
 UbicaciónPKTipoCapacidad EstimadaMéxico201+470Estacionamiento menor5-10 vagonesB/Bermejo (Taller Pesado)441+932Mantenimiento mayor30-50 unidadesChiriguaná (Taller Liviano)722+250Mantenimiento preventivo15-25 unidades
 9.2 Equipamiento PTC VIRTUAL Embarcado
-**ReintentarDZya, pero es una sola tabla, la pegare en un excel, filtrare por UF, o por PK de esa UF o por una columna que se llae TETRA que me saldran 37 asociados a unos pk, de uans UFVF, todo, su coordenada x, y, ubicación de puentes, todo, ejemplo de otro proyecto =UFImplementacionNombre de tableroUbicacion PKDescripcionUbicaciondirección= pk+ costadoTipo de equipo - dispositivoEQUIPO ITSSwitch de accesoTIPODtipoLatitud XLongitud Y2,1SIUF2_SOS08 UF02_DOM21+000K21+000SOS08DerechaSOS - SECEQUIPO ITSUF1_SWA11TIPO 6Camara en estructura de SOS2,948638497118-75,3118642214192,1SIUF02_DOM21+300K21+300DOM03CentroCCTV-SVDEQUIPO ITSUF1_SWA12TIPO 2CCTV en poste sola2,950501472521690-75,3120998449742,1SIUF2_GE01-NEIVA-SURK23+520UF 02 GALIBO 01DerechaGALIBO - SCR GEQUIPO ITSN/ATIPO 4Gálibo + Sgal2,971167617723700-75,3085095992002,1SICCOK23+550CENTRO DE CONTROL UF2IzquierdaEDIFICACIONEDIFICACIONN/A2,1SIUF2_SO01-NEIVA-SURK23+560SEÑAL OCULTA 01DerechaSEÑAL OCULTAEQUIPO ITSN/ATIPO 4Gálibo + Sgal2,971167617723700-75,3085095992002,1SIUF02_DOM23+600-SURK23+600DOM03DerechaCCTV-SVDEQUIPO ITSUF2A_SWA_02TIPO 2CCTV en poste sola2,971652424771340-75,3083747492732,1SIUF2_PMV-NEIVA-SURK23+620PANEL MENSAJE de 6m 01DerechaPANEL FIJO PEAJEEQUIPO ITSN/ATIPO 8PMV FIJO PORTICO2,971719759079000-75,3083342942912,1NOGALIBO MECANICO 01 K23+770GALIBO MECANICO 01 DerechaGALIBO MECANICOGALIBO MECANICON/A2,1SIUF02 PESAJE NEIVA 01 SURK23+900PESAJE SUR UF 2DerechaPESAJEEDIFICACIONN/A2,1NOGALIBO MECANICO 02K23+930GALIBO MECANICO 02IzquierdaGALIBO MECANICOGALIBO MECANICON/AN/A2,1SIUF02_SOS09K24+000SOS09IzquierdaSOS - SECEQUIPO ITSUF2A_SWA_03TIPO 1SOS2,974574729470820-75,3078083795672,1SI F2XDOMO P 24+190 F2XK24+190DOMO-PEAJEDerechaCCTV-SVDEQUIPO ITSN/AN/A2,977254624199870-75,3071745848992,1SIPEAJE NEIVAK24+400PEAJE NEIVADerechaPEAJEEDIFICACIONN/ALAYOUT GENERAL DEL PROYECTO - APP LA DORADA-CHIRIGUANÁ
+**ReintentarDZya, pero es una sola tabla, la pegare en un excel, filtrare por UF, o por PK de esa UF o por una columna que se llae TETRA que me saldran 37 asociados a unos pk, de uans UFVF, todo, su coordenada x, y, ubicación de puentes, todo, ejemplo de otro proyecto =UFImplementacionNombre de tableroUbicacion PKDescripcionUbicaciondirección= pk+ costadoTipo de equipo - dispositivoEQUIPO ITSSwitch de accesoTIPODtipoLatitud XLongitud Y2,1SIUF2_SOS08 UF02_DOM21+000K21+000SOS08DerechaSOS - SECEQUIPO ITSUF1_SWA11TIPO 6Camara en estructura de SOS2,948638497118-75,3118642214192,1SIUF02_DOM21+300K21+300DOM03CentroCCTV-SVDEQUIPO ITSUF1_SWA12TIPO 2CCTV en poste sola2,950501472521690-75,3120998449742,1SIUF2_GE01-NEIVA-SURK23+520UF 02 GALIBO 01DerechaGALIBO - SCR GEQUIPO ITSN/ATIPO 4Gálibo + Sgal2,971167617723700-75,3085095992002,1SICCOK23+550CENTRO DE CONTROL UF2IzquierdaEDIFICACIONEDIFICACIONN/A2,1SIUF2_SO01-NEIVA-SURK23+560SENAL OCULTA 01DerechaSENAL OCULTAEQUIPO ITSN/ATIPO 4Gálibo + Sgal2,971167617723700-75,3085095992002,1SIUF02_DOM23+600-SURK23+600DOM03DerechaCCTV-SVDEQUIPO ITSUF2A_SWA_02TIPO 2CCTV en poste sola2,971652424771340-75,3083747492732,1SIUF2_PMV-NEIVA-SURK23+620PANEL MENSAJE de 6m 01DerechaPANEL FIJO PEAJEEQUIPO ITSN/ATIPO 8PMV FIJO PORTICO2,971719759079000-75,3083342942912,1NOGALIBO MECANICO 01 K23+770GALIBO MECANICO 01 DerechaGALIBO MECANICOGALIBO MECANICON/A2,1SIUF02 PESAJE NEIVA 01 SURK23+900PESAJE SUR UF 2DerechaPESAJEEDIFICACIONN/A2,1NOGALIBO MECANICO 02K23+930GALIBO MECANICO 02IzquierdaGALIBO MECANICOGALIBO MECANICON/AN/A2,1SIUF02_SOS09K24+000SOS09IzquierdaSOS - SECEQUIPO ITSUF2A_SWA_03TIPO 1SOS2,974574729470820-75,3078083795672,1SI F2XDOMO P 24+190 F2XK24+190DOMO-PEAJEDerechaCCTV-SVDEQUIPO ITSN/AN/A2,977254624199870-75,3071745848992,1SIPEAJE NEIVAK24+400PEAJE NEIVADerechaPEAJEEDIFICACIONN/ALAYOUT GENERAL DEL PROYECTO - APP LA DORADA-CHIRIGUANÁ
 Inventario Completo de Equipos e Infraestructura por PK
 
 CONTROL DE VERSIONES
@@ -235,12 +235,12 @@ Longitud_Y: Coordenada Oeste (a definir en ingeniería)
 
 
 TABLA MAESTRA - EQUIPOS POR PK
-UFVImplementacionNombre_TableroUbicacion_PKDescripcionUbicacion_LadoDireccionTipo_EquipoDispositivoSwitch_AccesoTipo_ITSLatitud_XLongitud_YUFV232.1ESTACION_MEXICO201+470Estación TerminalCentroPK201+470EDIFICACIONEstación PrincipalN/AN/ATBDTBDUFV232.1SE_MEXICO201+470Subestación EléctricaDerechaPK201+470 DerechaENERGIASubestación MT/BTN/AN/ATBDTBDUFV232.1CTC_MEXICO201+470Puesto Control CTCCentroPK201+470 CentroCONTROLCTC LocalSWA_MEX_01TIPO 7TBDTBDUFV232.1RBC_01_MEXICO201+470Radio Block Center 01CentroPK201+470 CentroCONTROLRBC PTC VIRTUAL L2SWA_MEX_01TIPO 7TBDTBDUFV232.1EBT_01_MEXICO201+470Estación Base TETRA 01DerechaPK201+470 DerechaTELECOMUNICACIONESTETRA BSSWA_MEX_01TIPO 5TBDTBDUFV232.1CCTV_MEX_01201+500Cámara Entrada EstaciónDerechaPK201+500 DerechaEQUIPO ITSCCTV PTZSWA_MEX_02TIPO 2TBDTBDUFV232.1CCTV_MEX_02201+550Cámara Andén NorteIzquierdaPK201+550 IzquierdaEQUIPO ITSCCTV FijaSWA_MEX_02TIPO 2TBDTBDUFV232.1CCTV_MEX_03201+600Cámara Andén SurDerechaPK201+600 DerechaEQUIPO ITSCCTV FijaSWA_MEX_02TIPO 2TBDTBDUFV232.1SAI_MEXICO201+470Sistema Alimentación IninterrumpidaCentroPK201+470 CentroENERGIAUPS 40kVAN/AN/ATBDTBDUFV232.1BALIZA_MEX_01201+470Punto de referencia virtual PTC VIRTUAL EntradaCentroPK201+470 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV232.1SEÑAL_MEX_01201+500Señal Salida NorteDerechaPK201+500 DerechaSEÑALIZACIONSeñal LED PrincipalN/ATIPO 6TBDTBDUFV232.1DESVIO_MEX_01201+600Desvío ApartaderoDerechaPK201+600 DerechaVIADesvío MotorizadoN/AN/ATBDTBDUFV232.1NODO_FO_MEXICO201+470Nodo Fibra ÓpticaCentroPK201+470 CentroTELECOMUNICACIONESODF 48 hilosSWA_MEX_01TIPO 5TBDTBDUFV232.1BALIZA_202202+000Punto de referencia virtual KilometrajeCentroPK202+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV232.1BALIZA_203203+000Punto de referencia virtual KilometrajeCentroPK203+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV232.1SEÑAL_INT_01205+000Señal IntermediaDerechaPK205+000 DerechaSEÑALIZACIONSeñal LEDN/ATIPO 6TBDTBDUFV232.1BALIZA_205205+000Punto de referencia virtual SeñalCentroPK205+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV232.1EMPALME_FO_01210+000Empalme Fibra ÓpticaDerechaPK210+000 DerechaTELECOMUNICACIONESCaja EmpalmeN/AN/ATBDTBDUFV232.1BALIZA_210210+000Punto de referencia virtual KilometrajeCentroPK210+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV232.1BALIZA_215215+000Punto de referencia virtual KilometrajeCentroPK215+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV232.1SEÑAL_INT_02218+000Señal IntermediaDerechaPK218+000 DerechaSEÑALIZACIONSeñal LEDN/ATIPO 6TBDTBDUFV232.1BALIZA_218218+000Punto de referencia virtual SeñalCentroPK218+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV232.1BALIZA_220220+000Punto de referencia virtual KilometrajeCentroPK220+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV232.1ESTACION_LA_AGUSTINA223+810Estación MenorCentroPK223+810 CentroEDIFICACIONApeaderoN/AN/ATBDTBDUFV232.1CCTV_AGU_01223+810Cámara EstaciónDerechaPK223+810 DerechaEQUIPO ITSCCTV FijaSWA_AGU_01TIPO 2TBDTBDUFV232.1BALIZA_AGU_01223+810Punto de referencia virtual EntradaCentroPK223+810 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV232.1EMPALME_FO_02225+000Empalme Fibra ÓpticaIzquierdaPK225+000 IzquierdaTELECOMUNICACIONESCaja EmpalmeN/AN/ATBDTBDUFV232.1BALIZA_225225+000Punto de referencia virtual KilometrajeCentroPK225+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV232.1BALIZA_230230+000Punto de referencia virtual KilometrajeCentroPK230+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV232.1SEÑAL_INT_03233+000Señal IntermediaDerechaPK233+000 DerechaSEÑALIZACIONSeñal LEDN/ATIPO 6TBDTBDUFV232.1BALIZA_233233+000Punto de referencia virtual SeñalCentroPK233+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV232.1BALIZA_235235+000Punto de referencia virtual KilometrajeCentroPK235+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV232.1ESTACION_LA_MIEL236+439Estación MenorCentroPK236+439 CentroEDIFICACIONApeaderoN/AN/ATBDTBDUFV232.1EBT_02_LA_MIEL236+439Estación Base TETRA 02DerechaPK236+439 DerechaTELECOMUNICACIONESTETRA BSSWA_MIE_01TIPO 5TBDTBDUFV232.1CCTV_MIE_01236+439Cámara EstaciónDerechaPK236+439 DerechaEQUIPO ITSCCTV FijaSWA_MIE_01TIPO 2TBDTBDUFV232.1BALIZA_MIE_01236+439Punto de referencia virtual EntradaCentroPK236+439 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV232.1EMPALME_FO_03238+000Empalme Fibra ÓpticaDerechaPK238+000 DerechaTELECOMUNICACIONESCaja EmpalmeN/AN/ATBDTBDUFV232.1BALIZA_240240+000Punto de referencia virtual KilometrajeCentroPK240+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV232.1HBD_01_PRE_TRIUNFO245+000Detector Caja Caliente 01CentroPK245+000 CentroEQUIPO ITSHBD SistemaSWA_HBD_01TIPO 4TBDTBDUFV232.1BALIZA_245245+000Punto de referencia virtual KilometrajeCentroPK245+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV232.1SEÑAL_INT_04247+000Señal IntermediaDerechaPK247+000 DerechaSEÑALIZACIONSeñal LEDN/ATIPO 6TBDTBDUFV232.1BALIZA_247247+000Punto de referencia virtual SeñalCentroPK247+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV302.1BALIZA_250250+000Punto de referencia virtual KilometrajeCentroPK250+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV302.1ESTACION_PUERTO_TRIUNFO250+133Estación PrincipalCentroPK250+133 CentroEDIFICACIONEstación Clase AN/AN/ATBDTBDUFV302.1SE_PUERTO_TRIUNFO250+133Subestación EléctricaDerechaPK250+133 DerechaENERGIASubestación MT/BTN/AN/ATBDTBDUFV302.1CTC_PUERTO_TRIUNFO250+133Puesto Control CTCCentroPK250+133 CentroCONTROLCTC LocalSWA_PTR_01TIPO 7TBDTBDUFV302.1EBT_03_PUERTO_TRIUNFO250+133Estación Base TETRA 03DerechaPK250+133 DerechaTELECOMUNICACIONESTETRA BSSWA_PTR_01TIPO 5TBDTBDUFV302.1CCTV_PTR_01250+150Cámara EntradaDerechaPK250+150 DerechaEQUIPO ITSCCTV PTZSWA_PTR_02TIPO 2TBDTBDUFV302.1CCTV_PTR_02250+200Cámara AndénIzquierdaPK250+200 IzquierdaEQUIPO ITSCCTV FijaSWA_PTR_02TIPO 2TBDTBDUFV302.1SAI_PUERTO_TRIUNFO250+133UPS EstaciónCentroPK250+133 CentroENERGIAUPS 30kVAN/AN/ATBDTBDUFV302.1NODO_FO_PUERTO_TRIUNFO250+133Nodo Fibra ÓpticaCentroPK250+133 CentroTELECOMUNICACIONESODF 48 hilosSWA_PTR_01TIPO 5TBDTBDUFV302.1BALIZA_PTR_01250+133Punto de referencia virtual EntradaCentroPK250+133 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV302.1DESVIO_PTR_01250+300Desvío Apartadero NorteDerechaPK250+300 DerechaVIADesvío MotorizadoN/AN/ATBDTBDUFV302.1SEÑAL_PTR_01250+350Señal Salida NorteDerechaPK250+350 DerechaSEÑALIZACIONSeñal LED PrincipalN/ATIPO 6TBDTBDUFV302.1EMPALME_FO_04252+000Empalme Fibra ÓpticaDerechaPK252+000 DerechaTELECOMUNICACIONESCaja EmpalmeN/AN/ATBDTBDUFV302.1BALIZA_255255+000Punto de referencia virtual KilometrajeCentroPK255+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV302.1BALIZA_260260+000Punto de referencia virtual KilometrajeCentroPK260+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV302.1SEÑAL_INT_05263+000Señal IntermediaDerechaPK263+000 DerechaSEÑALIZACIONSeñal LEDN/ATIPO 6TBDTBDUFV302.1BALIZA_263263+000Punto de referencia virtual SeñalCentroPK263+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV302.1EMPALME_FO_05265+000Empalme Fibra ÓpticaIzquierdaPK265+000 IzquierdaTELECOMUNICACIONESCaja EmpalmeN/AN/ATBDTBDUFV312.1BALIZA_269269+000Punto de referencia virtual KilometrajeCentroPK269+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV312.1ESTACION_COCORNA269+400Estación MenorCentroPK269+400 CentroEDIFICACIONApeaderoN/AN/ATBDTBDUFV312.1EBT_04_COCORNA269+400Estación Base TETRA 04DerechaPK269+400 DerechaTELECOMUNICACIONESTETRA BSSWA_COC_01TIPO 5TBDTBDUFV312.1CCTV_COC_01269+400Cámara EstaciónDerechaPK269+400 DerechaEQUIPO ITSCCTV FijaSWA_COC_01TIPO 2TBDTBDUFV312.1BALIZA_COC_01269+400Punto de referencia virtual EntradaCentroPK269+400 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV312.1BALIZA_270270+000Punto de referencia virtual KilometrajeCentroPK270+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV312.1BALIZA_275275+000Punto de referencia virtual KilometrajeCentroPK275+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV312.1HBD_02_PRE_ARGELIA278+000Detector Caja Caliente 02CentroPK278+000 CentroEQUIPO ITSHBD SistemaSWA_HBD_02TIPO 4TBDTBDUFV312.1EMPALME_FO_06278+000Empalme Fibra ÓpticaDerechaPK278+000 DerechaTELECOMUNICACIONESCaja EmpalmeN/AN/ATBDTBDUFV312.1BALIZA_280280+000Punto de referencia virtual KilometrajeCentroPK280+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV312.1ESTACION_LA_ARGELIA282+154Estación PrincipalCentroPK282+154 CentroEDIFICACIONEstación Clase AN/AN/ATBDTBDUFV312.1SE_LA_ARGELIA282+154Subestación EléctricaDerechaPK282+154 DerechaENERGIASubestación MT/BTN/AN/ATBDTBDUFV312.1CTC_LA_ARGELIA282+154Puesto Control CTCCentroPK282+154 CentroCONTROLCTC LocalSWA_ARG_01TIPO 7TBDTBDUFV312.1EBT_05_LA_ARGELIA282+154Estación Base TETRA 05DerechaPK282+154 DerechaTELECOMUNICACIONESTETRA BSSWA_ARG_01TIPO 5TBDTBDUFV312.1CCTV_ARG_01282+200Cámara EntradaDerechaPK282+200 DerechaEQUIPO ITSCCTV PTZSWA_ARG_02TIPO 2TBDTBDUFV312.1CCTV_ARG_02282+250Cámara AndénIzquierdaPK282+250 IzquierdaEQUIPO ITSCCTV FijaSWA_ARG_02TIPO 2TBDTBDUFV312.1SAI_LA_ARGELIA282+154UPS EstaciónCentroPK282+154 CentroENERGIAUPS 30kVAN/AN/ATBDTBDUFV312.1NODO_FO_LA_ARGELIA282+154Nodo Fibra ÓpticaCentroPK282+154 CentroTELECOMUNICACIONESODF 48 hilosSWA_ARG_01TIPO 5TBDTBDUFV312.1BALIZA_ARG_01282+154Punto de referencia virtual EntradaCentroPK282+154 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV312.1DESVIO_ARG_01282+300Desvío ApartaderoDerechaPK282+300 DerechaVIADesvío MotorizadoN/AN/ATBDTBDUFV312.1BALIZA_285285+000Punto de referencia virtual KilometrajeCentroPK285+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV312.1EMPALME_FO_07290+000Empalme Fibra ÓpticaIzquierdaPK290+000 IzquierdaTELECOMUNICACIONESCaja EmpalmeN/AN/ATBDTBDUFV312.1BALIZA_290290+000Punto de referencia virtual KilometrajeCentroPK290+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV312.1SEÑAL_INT_06295+000Señal IntermediaDerechaPK295+000 DerechaSEÑALIZACIONSeñal LEDN/ATIPO 6TBDTBDUFV312.1BALIZA_295295+000Punto de referencia virtual SeñalCentroPK295+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV312.1BALIZA_300300+000Punto de referencia virtual KilometrajeCentroPK300+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV312.1EMPALME_FO_08305+000Empalme Fibra ÓpticaDerechaPK305+000 DerechaTELECOMUNICACIONESCaja EmpalmeN/AN/ATBDTBDUFV312.1BALIZA_305305+000Punto de referencia virtual KilometrajeCentroPK305+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV312.1SEÑAL_INT_07310+000Señal IntermediaDerechaPK310+000 DerechaSEÑALIZACIONSeñal LEDN/ATIPO 6TBDTBDUFV312.1BALIZA_310310+000Punto de referencia virtual SeñalCentroPK310+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV012.1ESTACION_NAPOLES313+434Estación MenorCentroPK313+434 CentroEDIFICACIONApeaderoN/AN/ATBDTBDUFV012.1EBT_06_NAPOLES313+434Estación Base TETRA 06DerechaPK313+434 DerechaTELECOMUNICACIONESTETRA BSSWA_NAP_01TIPO 5TBDTBDUFV012.1CCTV_NAP_01313+434Cámara EstaciónDerechaPK313+434 DerechaEQUIPO ITSCCTV FijaSWA_NAP_01TIPO 2TBDTBDUFV012.1BALIZA_NAP_01313+434Punto de referencia virtual EntradaCentroPK313+434 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV012.1BALIZA_315315+000Punto de referencia virtual KilometrajeCentroPK315+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV012.1EMPALME_FO_09318+000Empalme Fibra ÓpticaIzquierdaPK318+000 IzquierdaTELECOMUNICACIONESCaja EmpalmeN/AN/ATBDTBDUFV012.1BALIZA_320320+000Punto de referencia virtual KilometrajeCentroPK320+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV012.1BALIZA_325325+000Punto de referencia virtual KilometrajeCentroPK325+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV022.1ESTACION_ORETO327+675Estación MenorCentroPK327+675 CentroEDIFICACIONApeaderoN/AN/ATBDTBReintentarDZContinuarD |
+UFVImplementacionNombre_TableroUbicacion_PKDescripcionUbicacion_LadoDireccionTipo_EquipoDispositivoSwitch_AccesoTipo_ITSLatitud_XLongitud_YUFV232.1ESTACION_MEXICO201+470Estación TerminalCentroPK201+470EDIFICACIONEstación PrincipalN/AN/ATBDTBDUFV232.1SE_MEXICO201+470Subestación EléctricaDerechaPK201+470 DerechaENERGIASubestación MT/BTN/AN/ATBDTBDUFV232.1CTC_MEXICO201+470Puesto Control CTCCentroPK201+470 CentroCONTROLCTC LocalSWA_MEX_01TIPO 7TBDTBDUFV232.1RBC_01_MEXICO201+470Radio Block Center 01CentroPK201+470 CentroCONTROLRBC PTC VIRTUAL L2SWA_MEX_01TIPO 7TBDTBDUFV232.1EBT_01_MEXICO201+470Estación Base TETRA 01DerechaPK201+470 DerechaTELECOMUNICACIONESTETRA BSSWA_MEX_01TIPO 5TBDTBDUFV232.1CCTV_MEX_01201+500Cámara Entrada EstaciónDerechaPK201+500 DerechaEQUIPO ITSCCTV PTZSWA_MEX_02TIPO 2TBDTBDUFV232.1CCTV_MEX_02201+550Cámara Andén NorteIzquierdaPK201+550 IzquierdaEQUIPO ITSCCTV FijaSWA_MEX_02TIPO 2TBDTBDUFV232.1CCTV_MEX_03201+600Cámara Andén SurDerechaPK201+600 DerechaEQUIPO ITSCCTV FijaSWA_MEX_02TIPO 2TBDTBDUFV232.1SAI_MEXICO201+470Sistema Alimentación IninterrumpidaCentroPK201+470 CentroENERGIAUPS 40kVAN/AN/ATBDTBDUFV232.1BALIZA_MEX_01201+470Punto de referencia virtual PTC VIRTUAL EntradaCentroPK201+470 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV232.1SENAL_MEX_01201+500Senal Salida NorteDerechaPK201+500 DerechaSENALIZACIONSenal LED PrincipalN/ATIPO 6TBDTBDUFV232.1DESVIO_MEX_01201+600Desvío ApartaderoDerechaPK201+600 DerechaVIADesvío MotorizadoN/AN/ATBDTBDUFV232.1NODO_FO_MEXICO201+470Nodo Fibra ÓpticaCentroPK201+470 CentroTELECOMUNICACIONESODF 48 hilosSWA_MEX_01TIPO 5TBDTBDUFV232.1BALIZA_202202+000Punto de referencia virtual KilometrajeCentroPK202+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV232.1BALIZA_203203+000Punto de referencia virtual KilometrajeCentroPK203+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV232.1SENAL_INT_01205+000Senal IntermediaDerechaPK205+000 DerechaSENALIZACIONSenal LEDN/ATIPO 6TBDTBDUFV232.1BALIZA_205205+000Punto de referencia virtual SenalCentroPK205+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV232.1EMPALME_FO_01210+000Empalme Fibra ÓpticaDerechaPK210+000 DerechaTELECOMUNICACIONESCaja EmpalmeN/AN/ATBDTBDUFV232.1BALIZA_210210+000Punto de referencia virtual KilometrajeCentroPK210+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV232.1BALIZA_215215+000Punto de referencia virtual KilometrajeCentroPK215+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV232.1SENAL_INT_02218+000Senal IntermediaDerechaPK218+000 DerechaSENALIZACIONSenal LEDN/ATIPO 6TBDTBDUFV232.1BALIZA_218218+000Punto de referencia virtual SenalCentroPK218+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV232.1BALIZA_220220+000Punto de referencia virtual KilometrajeCentroPK220+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV232.1ESTACION_LA_AGUSTINA223+810Estación MenorCentroPK223+810 CentroEDIFICACIONApeaderoN/AN/ATBDTBDUFV232.1CCTV_AGU_01223+810Cámara EstaciónDerechaPK223+810 DerechaEQUIPO ITSCCTV FijaSWA_AGU_01TIPO 2TBDTBDUFV232.1BALIZA_AGU_01223+810Punto de referencia virtual EntradaCentroPK223+810 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV232.1EMPALME_FO_02225+000Empalme Fibra ÓpticaIzquierdaPK225+000 IzquierdaTELECOMUNICACIONESCaja EmpalmeN/AN/ATBDTBDUFV232.1BALIZA_225225+000Punto de referencia virtual KilometrajeCentroPK225+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV232.1BALIZA_230230+000Punto de referencia virtual KilometrajeCentroPK230+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV232.1SENAL_INT_03233+000Senal IntermediaDerechaPK233+000 DerechaSENALIZACIONSenal LEDN/ATIPO 6TBDTBDUFV232.1BALIZA_233233+000Punto de referencia virtual SenalCentroPK233+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV232.1BALIZA_235235+000Punto de referencia virtual KilometrajeCentroPK235+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV232.1ESTACION_LA_MIEL236+439Estación MenorCentroPK236+439 CentroEDIFICACIONApeaderoN/AN/ATBDTBDUFV232.1EBT_02_LA_MIEL236+439Estación Base TETRA 02DerechaPK236+439 DerechaTELECOMUNICACIONESTETRA BSSWA_MIE_01TIPO 5TBDTBDUFV232.1CCTV_MIE_01236+439Cámara EstaciónDerechaPK236+439 DerechaEQUIPO ITSCCTV FijaSWA_MIE_01TIPO 2TBDTBDUFV232.1BALIZA_MIE_01236+439Punto de referencia virtual EntradaCentroPK236+439 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV232.1EMPALME_FO_03238+000Empalme Fibra ÓpticaDerechaPK238+000 DerechaTELECOMUNICACIONESCaja EmpalmeN/AN/ATBDTBDUFV232.1BALIZA_240240+000Punto de referencia virtual KilometrajeCentroPK240+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV232.1HBD_01_PRE_TRIUNFO245+000Detector Caja Caliente 01CentroPK245+000 CentroEQUIPO ITSHBD SistemaSWA_HBD_01TIPO 4TBDTBDUFV232.1BALIZA_245245+000Punto de referencia virtual KilometrajeCentroPK245+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV232.1SENAL_INT_04247+000Senal IntermediaDerechaPK247+000 DerechaSENALIZACIONSenal LEDN/ATIPO 6TBDTBDUFV232.1BALIZA_247247+000Punto de referencia virtual SenalCentroPK247+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV302.1BALIZA_250250+000Punto de referencia virtual KilometrajeCentroPK250+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV302.1ESTACION_PUERTO_TRIUNFO250+133Estación PrincipalCentroPK250+133 CentroEDIFICACIONEstación Clase AN/AN/ATBDTBDUFV302.1SE_PUERTO_TRIUNFO250+133Subestación EléctricaDerechaPK250+133 DerechaENERGIASubestación MT/BTN/AN/ATBDTBDUFV302.1CTC_PUERTO_TRIUNFO250+133Puesto Control CTCCentroPK250+133 CentroCONTROLCTC LocalSWA_PTR_01TIPO 7TBDTBDUFV302.1EBT_03_PUERTO_TRIUNFO250+133Estación Base TETRA 03DerechaPK250+133 DerechaTELECOMUNICACIONESTETRA BSSWA_PTR_01TIPO 5TBDTBDUFV302.1CCTV_PTR_01250+150Cámara EntradaDerechaPK250+150 DerechaEQUIPO ITSCCTV PTZSWA_PTR_02TIPO 2TBDTBDUFV302.1CCTV_PTR_02250+200Cámara AndénIzquierdaPK250+200 IzquierdaEQUIPO ITSCCTV FijaSWA_PTR_02TIPO 2TBDTBDUFV302.1SAI_PUERTO_TRIUNFO250+133UPS EstaciónCentroPK250+133 CentroENERGIAUPS 30kVAN/AN/ATBDTBDUFV302.1NODO_FO_PUERTO_TRIUNFO250+133Nodo Fibra ÓpticaCentroPK250+133 CentroTELECOMUNICACIONESODF 48 hilosSWA_PTR_01TIPO 5TBDTBDUFV302.1BALIZA_PTR_01250+133Punto de referencia virtual EntradaCentroPK250+133 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV302.1DESVIO_PTR_01250+300Desvío Apartadero NorteDerechaPK250+300 DerechaVIADesvío MotorizadoN/AN/ATBDTBDUFV302.1SENAL_PTR_01250+350Senal Salida NorteDerechaPK250+350 DerechaSENALIZACIONSenal LED PrincipalN/ATIPO 6TBDTBDUFV302.1EMPALME_FO_04252+000Empalme Fibra ÓpticaDerechaPK252+000 DerechaTELECOMUNICACIONESCaja EmpalmeN/AN/ATBDTBDUFV302.1BALIZA_255255+000Punto de referencia virtual KilometrajeCentroPK255+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV302.1BALIZA_260260+000Punto de referencia virtual KilometrajeCentroPK260+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV302.1SENAL_INT_05263+000Senal IntermediaDerechaPK263+000 DerechaSENALIZACIONSenal LEDN/ATIPO 6TBDTBDUFV302.1BALIZA_263263+000Punto de referencia virtual SenalCentroPK263+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV302.1EMPALME_FO_05265+000Empalme Fibra ÓpticaIzquierdaPK265+000 IzquierdaTELECOMUNICACIONESCaja EmpalmeN/AN/ATBDTBDUFV312.1BALIZA_269269+000Punto de referencia virtual KilometrajeCentroPK269+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV312.1ESTACION_COCORNA269+400Estación MenorCentroPK269+400 CentroEDIFICACIONApeaderoN/AN/ATBDTBDUFV312.1EBT_04_COCORNA269+400Estación Base TETRA 04DerechaPK269+400 DerechaTELECOMUNICACIONESTETRA BSSWA_COC_01TIPO 5TBDTBDUFV312.1CCTV_COC_01269+400Cámara EstaciónDerechaPK269+400 DerechaEQUIPO ITSCCTV FijaSWA_COC_01TIPO 2TBDTBDUFV312.1BALIZA_COC_01269+400Punto de referencia virtual EntradaCentroPK269+400 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV312.1BALIZA_270270+000Punto de referencia virtual KilometrajeCentroPK270+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV312.1BALIZA_275275+000Punto de referencia virtual KilometrajeCentroPK275+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV312.1HBD_02_PRE_ARGELIA278+000Detector Caja Caliente 02CentroPK278+000 CentroEQUIPO ITSHBD SistemaSWA_HBD_02TIPO 4TBDTBDUFV312.1EMPALME_FO_06278+000Empalme Fibra ÓpticaDerechaPK278+000 DerechaTELECOMUNICACIONESCaja EmpalmeN/AN/ATBDTBDUFV312.1BALIZA_280280+000Punto de referencia virtual KilometrajeCentroPK280+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV312.1ESTACION_LA_ARGELIA282+154Estación PrincipalCentroPK282+154 CentroEDIFICACIONEstación Clase AN/AN/ATBDTBDUFV312.1SE_LA_ARGELIA282+154Subestación EléctricaDerechaPK282+154 DerechaENERGIASubestación MT/BTN/AN/ATBDTBDUFV312.1CTC_LA_ARGELIA282+154Puesto Control CTCCentroPK282+154 CentroCONTROLCTC LocalSWA_ARG_01TIPO 7TBDTBDUFV312.1EBT_05_LA_ARGELIA282+154Estación Base TETRA 05DerechaPK282+154 DerechaTELECOMUNICACIONESTETRA BSSWA_ARG_01TIPO 5TBDTBDUFV312.1CCTV_ARG_01282+200Cámara EntradaDerechaPK282+200 DerechaEQUIPO ITSCCTV PTZSWA_ARG_02TIPO 2TBDTBDUFV312.1CCTV_ARG_02282+250Cámara AndénIzquierdaPK282+250 IzquierdaEQUIPO ITSCCTV FijaSWA_ARG_02TIPO 2TBDTBDUFV312.1SAI_LA_ARGELIA282+154UPS EstaciónCentroPK282+154 CentroENERGIAUPS 30kVAN/AN/ATBDTBDUFV312.1NODO_FO_LA_ARGELIA282+154Nodo Fibra ÓpticaCentroPK282+154 CentroTELECOMUNICACIONESODF 48 hilosSWA_ARG_01TIPO 5TBDTBDUFV312.1BALIZA_ARG_01282+154Punto de referencia virtual EntradaCentroPK282+154 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV312.1DESVIO_ARG_01282+300Desvío ApartaderoDerechaPK282+300 DerechaVIADesvío MotorizadoN/AN/ATBDTBDUFV312.1BALIZA_285285+000Punto de referencia virtual KilometrajeCentroPK285+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV312.1EMPALME_FO_07290+000Empalme Fibra ÓpticaIzquierdaPK290+000 IzquierdaTELECOMUNICACIONESCaja EmpalmeN/AN/ATBDTBDUFV312.1BALIZA_290290+000Punto de referencia virtual KilometrajeCentroPK290+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV312.1SENAL_INT_06295+000Senal IntermediaDerechaPK295+000 DerechaSENALIZACIONSenal LEDN/ATIPO 6TBDTBDUFV312.1BALIZA_295295+000Punto de referencia virtual SenalCentroPK295+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV312.1BALIZA_300300+000Punto de referencia virtual KilometrajeCentroPK300+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV312.1EMPALME_FO_08305+000Empalme Fibra ÓpticaDerechaPK305+000 DerechaTELECOMUNICACIONESCaja EmpalmeN/AN/ATBDTBDUFV312.1BALIZA_305305+000Punto de referencia virtual KilometrajeCentroPK305+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV312.1SENAL_INT_07310+000Senal IntermediaDerechaPK310+000 DerechaSENALIZACIONSenal LEDN/ATIPO 6TBDTBDUFV312.1BALIZA_310310+000Punto de referencia virtual SenalCentroPK310+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV012.1ESTACION_NAPOLES313+434Estación MenorCentroPK313+434 CentroEDIFICACIONApeaderoN/AN/ATBDTBDUFV012.1EBT_06_NAPOLES313+434Estación Base TETRA 06DerechaPK313+434 DerechaTELECOMUNICACIONESTETRA BSSWA_NAP_01TIPO 5TBDTBDUFV012.1CCTV_NAP_01313+434Cámara EstaciónDerechaPK313+434 DerechaEQUIPO ITSCCTV FijaSWA_NAP_01TIPO 2TBDTBDUFV012.1BALIZA_NAP_01313+434Punto de referencia virtual EntradaCentroPK313+434 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV012.1BALIZA_315315+000Punto de referencia virtual KilometrajeCentroPK315+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV012.1EMPALME_FO_09318+000Empalme Fibra ÓpticaIzquierdaPK318+000 IzquierdaTELECOMUNICACIONESCaja EmpalmeN/AN/ATBDTBDUFV012.1BALIZA_320320+000Punto de referencia virtual KilometrajeCentroPK320+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV012.1BALIZA_325325+000Punto de referencia virtual KilometrajeCentroPK325+000 CentroCONTROLVirtual Balise (GNSS)N/ATIPO 9TBDTBDUFV022.1ESTACION_ORETO327+675Estación MenorCentroPK327+675 CentroEDIFICACIONApeaderoN/AN/ATBDTBReintentarDZContinuarD |
 | UFV02 | 2.1 | CCTV_ORE_01 | 327+675 | Cámara Estación | Derecha | PK327+675 Derecha | EQUIPO ITS | CCTV Fija | SWA_ORE_01 | TIPO 2 | TBD | TBD |
 | UFV02 | 2.1 | BALIZA_ORE_01 | 327+675 | Punto de referencia virtual Entrada | Centro | PK327+675 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV02 | 2.1 | BALIZA_330 | 330+000 | Punto de referencia virtual Kilometraje | Centro | PK330+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV02 | 2.1 | EMPALME_FO_10 | 330+000 | Empalme Fibra Óptica | Derecha | PK330+000 Derecha | TELECOMUNICACIONES | Caja Empalme | N/A | N/A | TBD | TBD |
-| UFV02 | 2.1 | SEÑAL_PROT_MAG_01 | 332+000 | Señal Protección Puente | Derecha | PK332+000 Derecha | SEÑALIZACION | Señal LED Principal | N/A | TIPO 6 | TBD | TBD |
+| UFV02 | 2.1 | SENAL_PROT_MAG_01 | 332+000 | Senal Protección Puente | Derecha | PK332+000 Derecha | SENALIZACION | Senal LED Principal | N/A | TIPO 6 | TBD | TBD |
 | UFV02 | 2.1 | BALIZA_PROT_MAG_01 | 332+000 | Punto de referencia virtual Protección | Centro | PK332+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV02 | 2.1 | PUENTE_RIO_MAGDALENA_INICIO | 332+230 | Puente Río Magdalena - Inicio | Centro | PK332+230 Centro | INFRAESTRUCTURA | Puente Prioritario | N/A | N/A | TBD | TBD |
 | UFV02 | 2.1 | CCTV_MAG_01 | 332+230 | Cámara Puente Entrada Norte | Derecha | PK332+230 Derecha | EQUIPO ITS | CCTV PTZ | SWA_MAG_01 | TIPO 2 | TBD | TBD |
@@ -253,7 +253,7 @@ UFVImplementacionNombre_TableroUbicacion_PKDescripcionUbicacion_LadoDireccionTip
 | UFV02 | 2.1 | BALIZA_MAG_SALIDA | 332+817 | Punto de referencia virtual Salida Puente | Centro | PK332+817 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV02 | 2.1 | PUENTE_RIO_MAGDALENA_FIN | 332+817 | Puente Río Magdalena - Fin | Centro | PK332+817 Centro | INFRAESTRUCTURA | Puente Prioritario | N/A | N/A | TBD | TBD |
 | UFV02 | 2.1 | CCTV_MAG_05 | 332+817 | Cámara Puente Salida Sur | Izquierda | PK332+817 Izquierda | EQUIPO ITS | CCTV PTZ | SWA_MAG_01 | TIPO 2 | TBD | TBD |
-| UFV02 | 2.1 | SEÑAL_PROT_MAG_02 | 333+000 | Señal Protección Puente | Derecha | PK333+000 Derecha | SEÑALIZACION | Señal LED Principal | N/A | TIPO 6 | TBD | TBD |
+| UFV02 | 2.1 | SENAL_PROT_MAG_02 | 333+000 | Senal Protección Puente | Derecha | PK333+000 Derecha | SENALIZACION | Senal LED Principal | N/A | TIPO 6 | TBD | TBD |
 | UFV02 | 2.1 | HBD_03_PRE_OLAYA | 335+000 | Detector Caja Caliente 03 | Centro | PK335+000 Centro | EQUIPO ITS | HBD Sistema | SWA_HBD_03 | TIPO 4 | TBD | TBD |
 | UFV02 | 2.1 | BALIZA_335 | 335+000 | Punto de referencia virtual Kilometraje | Centro | PK335+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV03 | 2.1 | ESTACION_PUERTO_OLAYA | 338+250 | Estación Principal | Centro | PK338+250 Centro | EDIFICACION | Estación Clase A | N/A | N/A | TBD | TBD |
@@ -270,10 +270,10 @@ UFVImplementacionNombre_TableroUbicacion_PKDescripcionUbicacion_LadoDireccionTip
 | UFV03 | 2.1 | BALIZA_340 | 340+000 | Punto de referencia virtual Kilometraje | Centro | PK340+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV03 | 2.1 | EMPALME_FO_11 | 342+000 | Empalme Fibra Óptica | Izquierda | PK342+000 Izquierda | TELECOMUNICACIONES | Caja Empalme | N/A | N/A | TBD | TBD |
 | UFV03 | 2.1 | BALIZA_345 | 345+000 | Punto de referencia virtual Kilometraje | Centro | PK345+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
-| UFV03 | 2.1 | SEÑAL_INT_08 | 348+000 | Señal Intermedia | Derecha | PK348+000 Derecha | SEÑALIZACION | Señal LED | N/A | TIPO 6 | TBD | TBD |
-| UFV03 | 2.1 | BALIZA_348 | 348+000 | Punto de referencia virtual Señal | Centro | PK348+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
+| UFV03 | 2.1 | SENAL_INT_08 | 348+000 | Senal Intermedia | Derecha | PK348+000 Derecha | SENALIZACION | Senal LED | N/A | TIPO 6 | TBD | TBD |
+| UFV03 | 2.1 | BALIZA_348 | 348+000 | Punto de referencia virtual Senal | Centro | PK348+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV03 | 2.1 | BALIZA_350 | 350+000 | Punto de referencia virtual Kilometraje | Centro | PK350+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
-| UFV34 | 2.1 | SEÑAL_PROT_CAR_01 | 354+000 | Señal Protección Puente Carare | Derecha | PK354+000 Derecha | SEÑALIZACION | Señal LED Principal | N/A | TIPO 6 | TBD | TBD |
+| UFV34 | 2.1 | SENAL_PROT_CAR_01 | 354+000 | Senal Protección Puente Carare | Derecha | PK354+000 Derecha | SENALIZACION | Senal LED Principal | N/A | TIPO 6 | TBD | TBD |
 | UFV34 | 2.1 | ESTACION_SAN_JUAN_COBARIAS | 354+148 | Estación Menor | Centro | PK354+148 Centro | EDIFICACION | Apeadero | N/A | N/A | TBD | TBD |
 | UFV34 | 2.1 | EBT_08_SAN_JUAN | 354+148 | Estación Base TETRA 08 | Derecha | PK354+148 Derecha | TELECOMUNICACIONES | TETRA BS | SWA_SJC_01 | TIPO 5 | TBD | TBD |
 | UFV34 | 2.1 | CCTV_SJC_01 | 354+148 | Cámara Estación | Derecha | PK354+148 Derecha | EQUIPO ITS | CCTV Fija | SWA_SJC_01 | TIPO 2 | TBD | TBD |
@@ -294,7 +294,7 @@ UFVImplementacionNombre_TableroUbicacion_PKDescripcionUbicacion_LadoDireccionTip
 | UFV34 | 2.1 | BALIZA_CAR_SALIDA | 375+928 | Punto de referencia virtual Salida Puente | Centro | PK375+928 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV34 | 2.1 | PUENTE_RIO_CARARE_FIN | 375+928 | Puente/Viaducto Río Carare - Fin | Centro | PK375+928 Centro | INFRAESTRUCTURA | Puente Prioritario | N/A | N/A | TBD | TBD |
 | UFV34 | 2.1 | CCTV_CAR_04 | 375+928 | Cámara Salida Sur | Izquierda | PK375+928 Izquierda | EQUIPO ITS | CCTV PTZ | SWA_CAR_01 | TIPO 2 | TBD | TBD |
-| UFV35 | 2.1 | SEÑAL_PROT_CAR_02 | 376+000 | Señal Protección Puente Carare | Derecha | PK376+000 Derecha | SEÑALIZACION | Señal LED Principal | N/A | TIPO 6 | TBD | TBD |
+| UFV35 | 2.1 | SENAL_PROT_CAR_02 | 376+000 | Senal Protección Puente Carare | Derecha | PK376+000 Derecha | SENALIZACION | Senal LED Principal | N/A | TIPO 6 | TBD | TBD |
 | UFV35 | 2.1 | ESTACION_CORARE | 376+571 | Estación Menor | Centro | PK376+571 Centro | EDIFICACION | Apeadero | N/A | N/A | TBD | TBD |
 | UFV35 | 2.1 | EBT_09_CORARE | 376+571 | Estación Base TETRA 09 | Derecha | PK376+571 Derecha | TELECOMUNICACIONES | TETRA BS | SWA_COR_01 | TIPO 5 | TBD | TBD |
 | UFV35 | 2.1 | CCTV_COR_01 | 376+571 | Cámara Estación | Derecha | PK376+571 Derecha | EQUIPO ITS | CCTV Fija | SWA_COR_01 | TIPO 2 | TBD | TBD |
@@ -302,8 +302,8 @@ UFVImplementacionNombre_TableroUbicacion_PKDescripcionUbicacion_LadoDireccionTip
 | UFV35 | 2.1 | BALIZA_380 | 380+000 | Punto de referencia virtual Kilometraje | Centro | PK380+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV35 | 2.1 | EMPALME_FO_13 | 382+000 | Empalme Fibra Óptica | Izquierda | PK382+000 Izquierda | TELECOMUNICACIONES | Caja Empalme | N/A | N/A | TBD | TBD |
 | UFV35 | 2.1 | BALIZA_385 | 385+000 | Punto de referencia virtual Kilometraje | Centro | PK385+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
-| UFV35 | 2.1 | SEÑAL_INT_09 | 387+000 | Señal Intermedia | Derecha | PK387+000 Derecha | SEÑALIZACION | Señal LED | N/A | TIPO 6 | TBD | TBD |
-| UFV35 | 2.1 | BALIZA_387 | 387+000 | Punto de referencia virtual Señal | Centro | PK387+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
+| UFV35 | 2.1 | SENAL_INT_09 | 387+000 | Senal Intermedia | Derecha | PK387+000 Derecha | SENALIZACION | Senal LED | N/A | TIPO 6 | TBD | TBD |
+| UFV35 | 2.1 | BALIZA_387 | 387+000 | Punto de referencia virtual Senal | Centro | PK387+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV36 | 2.1 | BALIZA_390 | 390+000 | Punto de referencia virtual Kilometraje | Centro | PK390+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV36 | 2.1 | ESTACION_LAS_MONTOYA | 390+050 | Estación Menor | Centro | PK390+050 Centro | EDIFICACION | Apeadero | N/A | N/A | TBD | TBD |
 | UFV36 | 2.1 | EBT_10_LAS_MONTOYA | 390+050 | Estación Base TETRA 10 | Derecha | PK390+050 Derecha | TELECOMUNICACIONES | TETRA BS | SWA_MON_01 | TIPO 5 | TBD | TBD |
@@ -312,8 +312,8 @@ UFVImplementacionNombre_TableroUbicacion_PKDescripcionUbicacion_LadoDireccionTip
 | UFV36 | 2.1 | EMPALME_FO_14 | 393+000 | Empalme Fibra Óptica | Derecha | PK393+000 Derecha | TELECOMUNICACIONES | Caja Empalme | N/A | N/A | TBD | TBD |
 | UFV36 | 2.1 | BALIZA_395 | 395+000 | Punto de referencia virtual Kilometraje | Centro | PK395+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV36 | 2.1 | BALIZA_400 | 400+000 | Punto de referencia virtual Kilometraje | Centro | PK400+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
-| UFV36 | 2.1 | SEÑAL_INT_10 | 403+000 | Señal Intermedia | Derecha | PK403+000 Derecha | SEÑALIZACION | Señal LED | N/A | TIPO 6 | TBD | TBD |
-| UFV36 | 2.1 | BALIZA_403 | 403+000 | Punto de referencia virtual Señal | Centro | PK403+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
+| UFV36 | 2.1 | SENAL_INT_10 | 403+000 | Senal Intermedia | Derecha | PK403+000 Derecha | SENALIZACION | Senal LED | N/A | TIPO 6 | TBD | TBD |
+| UFV36 | 2.1 | BALIZA_403 | 403+000 | Punto de referencia virtual Senal | Centro | PK403+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV37 | 2.1 | BALIZA_405 | 405+000 | Punto de referencia virtual Kilometraje | Centro | PK405+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV37 | 2.1 | ESTACION_FUL_PAPAL | 406+184 | Estación Menor | Centro | PK406+184 Centro | EDIFICACION | Apeadero | N/A | N/A | TBD | TBD |
 | UFV37 | 2.1 | EBT_11_FUL_PAPAL | 406+184 | Estación Base TETRA 11 | Derecha | PK406+184 Derecha | TELECOMUNICACIONES | TETRA BS | SWA_FUL_01 | TIPO 5 | TBD | TBD |
@@ -328,14 +328,14 @@ UFVImplementacionNombre_TableroUbicacion_PKDescripcionUbicacion_LadoDireccionTip
 | UFV38 | 2.1 | BALIZA_420 | 420+000 | Punto de referencia virtual Kilometraje | Centro | PK420+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV38 | 2.1 | EMPALME_FO_16 | 422+000 | Empalme Fibra Óptica | Derecha | PK422+000 Derecha | TELECOMUNICACIONES | Caja Empalme | N/A | N/A | TBD | TBD |
 | UFV38 | 2.1 | BALIZA_425 | 425+000 | Punto de referencia virtual Kilometraje | Centro | PK425+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
-| UFV38 | 2.1 | SEÑAL_INT_11 | 428+000 | Señal Intermedia | Derecha | PK428+000 Derecha | SEÑALIZACION | Señal LED | N/A | TIPO 6 | TBD | TBD |
-| UFV38 | 2.1 | BALIZA_428 | 428+000 | Punto de referencia virtual Señal | Centro | PK428+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
+| UFV38 | 2.1 | SENAL_INT_11 | 428+000 | Senal Intermedia | Derecha | PK428+000 Derecha | SENALIZACION | Senal LED | N/A | TIPO 6 | TBD | TBD |
+| UFV38 | 2.1 | BALIZA_428 | 428+000 | Punto de referencia virtual Senal | Centro | PK428+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV39 | 2.1 | BALIZA_430 | 430+000 | Punto de referencia virtual Kilometraje | Centro | PK430+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV39 | 2.1 | ESTACION_BOCAS | 430+498 | Estación Menor | Centro | PK430+498 Centro | EDIFICACION | Apeadero | N/A | N/A | TBD | TBD |
 | UFV39 | 2.1 | EBT_12_BOCAS | 430+498 | Estación Base TETRA 12 | Derecha | PK430+498 Derecha | TELECOMUNICACIONES | TETRA BS | SWA_BOC_01 | TIPO 5 | TBD | TBD |
 | UFV39 | 2.1 | CCTV_BOC_01 | 430+498 | Cámara Estación | Derecha | PK430+498 Derecha | EQUIPO ITS | CCTV Fija | SWA_BOC_01 | TIPO 2 | TBD | TBD |
 | UFV39 | 2.1 | BALIZA_BOC_01 | 430+498 | Punto de referencia virtual Entrada | Centro | PK430+498 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
-| UFV39 | 2.1 | SEÑAL_PROT_CB_01 | 432+000 | Señal Protección Puente Cuatro Bocas | Derecha | PK432+000 Derecha | SEÑALIZACION | Señal LED Principal | N/A | TIPO 6 | TBD | TBD |
+| UFV39 | 2.1 | SENAL_PROT_CB_01 | 432+000 | Senal Protección Puente Cuatro Bocas | Derecha | PK432+000 Derecha | SENALIZACION | Senal LED Principal | N/A | TIPO 6 | TBD | TBD |
 | UFV39 | 2.1 | BALIZA_PROT_CB_01 | 432+100 | Punto de referencia virtual Protección | Centro | PK432+100 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV39 | 2.1 | PUENTE_RIO_CUATRO_BOCAS_INICIO | 432+178 | Puente Río Cuatro Bocas - Inicio | Centro | PK432+178 Centro | INFRAESTRUCTURA | Puente Prioritario | N/A | N/A | TReintentarDZContinuarBD | TBD |
 | UFV39 | 2.1 | CCTV_CB_01 | 432+178 | Cámara Puente Entrada | Derecha | PK432+178 Derecha | EQUIPO ITS | CCTV PTZ | SWA_CB_01 | TIPO 2 | TBD | TBD |
@@ -345,13 +345,13 @@ UFVImplementacionNombre_TableroUbicacion_PKDescripcionUbicacion_LadoDireccionTip
 | UFV39 | 2.1 | BALIZA_CB_SALIDA | 432+223 | Punto de referencia virtual Salida Puente | Centro | PK432+223 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV39 | 2.1 | PUENTE_RIO_CUATRO_BOCAS_FIN | 432+223 | Puente Río Cuatro Bocas - Fin | Centro | PK432+223 Centro | INFRAESTRUCTURA | Puente Prioritario | N/A | N/A | TBD | TBD |
 | UFV39 | 2.1 | CCTV_CB_03 | 432+223 | Cámara Puente Salida | Derecha | PK432+223 Derecha | EQUIPO ITS | CCTV PTZ | SWA_CB_01 | TIPO 2 | TBD | TBD |
-| UFV39 | 2.1 | SEÑAL_PROT_CB_02 | 432+300 | Señal Protección Puente | Derecha | PK432+300 Derecha | SEÑALIZACION | Señal LED Principal | N/A | TIPO 6 | TBD | TBD |
+| UFV39 | 2.1 | SENAL_PROT_CB_02 | 432+300 | Senal Protección Puente | Derecha | PK432+300 Derecha | SENALIZACION | Senal LED Principal | N/A | TIPO 6 | TBD | TBD |
 | UFV39 | 2.1 | EMPALME_FO_17 | 435+000 | Empalme Fibra Óptica | Izquierda | PK435+000 Izquierda | TELECOMUNICACIONES | Caja Empalme | N/A | N/A | TBD | TBD |
 | UFV39 | 2.1 | BALIZA_435 | 435+000 | Punto de referencia virtual Kilometraje | Centro | PK435+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV39 | 2.1 | WILD_02_PRE_BERMEJO | 438+000 | Detector Impactos Rueda 02 | Centro | PK438+000 Centro | EQUIPO ITS | WILD Sistema | SWA_WILD_02 | TIPO 4 | TBD | TBD |
 | UFV39 | 2.1 | BALIZA_438 | 438+000 | Punto de referencia virtual Kilometraje | Centro | PK438+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV39 | 2.1 | BALIZA_440 | 440+000 | Punto de referencia virtual Kilometraje | Centro | PK440+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
-| UFV39 | 2.1 | SEÑAL_ENTRADA_BERMEJO | 441+500 | Señal Entrada B/Bermejo | Derecha | PK441+500 Derecha | SEÑALIZACION | Señal LED Principal | N/A | TIPO 6 | TBD | TBD |
+| UFV39 | 2.1 | SENAL_ENTRADA_BERMEJO | 441+500 | Senal Entrada B/Bermejo | Derecha | PK441+500 Derecha | SENALIZACION | Senal LED Principal | N/A | TIPO 6 | TBD | TBD |
 | UFV39 | 2.1 | BALIZA_ENTRADA_BERMEJO | 441+700 | Punto de referencia virtual Entrada Complejo | Centro | PK441+700 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV40/41 | 2.1/2.2 | COMPLEJO_BERMEJO_INICIO | 441+932 | B/Bermejo - Límite Lotes | Centro | PK441+932 Centro | INFRAESTRUCTURA | Complejo Principal | N/A | N/A | TBD | TBD |
 | UFV40/41 | 2.1/2.2 | ESTACION_BERMEJO | 441+932 | Estación Principal B/Bermejo | Centro | PK441+932 Centro | EDIFICACION | Estación Clase A+ | N/A | N/A | TBD | TBD |
@@ -395,7 +395,7 @@ UFVImplementacionNombre_TableroUbicacion_PKDescripcionUbicacion_LadoDireccionTip
 | UFV40/41 | 2.1/2.2 | DESVIO_BER_02 | 442+020 | Desvío Acceso Taller 02 | Derecha | PK442+020 Derecha | VIA | Desvío Motorizado | N/A | N/A | TBD | TBD |
 | UFV40/41 | 2.1/2.2 | DESVIO_BER_03 | 442+050 | Desvío Apartadero Norte | Izquierda | PK442+050 Izquierda | VIA | Desvío Motorizado | N/A | N/A | TBD | TBD |
 | UFV40/41 | 2.1/2.2 | DESVIO_BER_04 | 442+100 | Desvío Apartadero Sur | Derecha | PK442+100 Derecha | VIA | Desvío Motorizado | N/A | N/A | TBD | TBD |
-| UFV40/41 | 2.1/2.2 | SEÑAL_BER_01 | 442+150 | Señal Salida Norte | Derecha | PK442+150 Derecha | SEÑALIZACION | Señal LED Principal | N/A | TIPO 6 | TBD | TBD |
+| UFV40/41 | 2.1/2.2 | SENAL_BER_01 | 442+150 | Senal Salida Norte | Derecha | PK442+150 Derecha | SENALIZACION | Senal LED Principal | N/A | TIPO 6 | TBD | TBD |
 | UFV40/41 | 2.1/2.2 | BALIZA_BER_SALIDA | 442+150 | Punto de referencia virtual Salida Complejo | Centro | PK442+150 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV40/41 | 2.1/2.2 | ESTACIONAMIENTO_MATERIAL_RODANTE | 442+000 | Zona Estacionamiento Trenes | Derecha | PK442+000 Derecha | INFRAESTRUCTURA | Patio Estacionamiento | N/A | N/A | TBD | TBD |
 | UFV41 | 2.2 | BALIZA_445 | 445+000 | Punto de referencia virtual Kilometraje | Centro | PK445+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
@@ -404,8 +404,8 @@ UFVImplementacionNombre_TableroUbicacion_PKDescripcionUbicacion_LadoDireccionTip
 | UFV41 | 2.2 | BALIZA_450 | 450+000 | Punto de referencia virtual Kilometraje | Centro | PK450+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV41 | 2.2 | HBD_04_POST_BERMEJO | 450+000 | Detector Caja Caliente 04 | Centro | PK450+000 Centro | EQUIPO ITS | HBD Sistema | SWA_HBD_04 | TIPO 4 | TBD | TBD |
 | UFV41 | 2.2 | BALIZA_455 | 455+000 | Punto de referencia virtual Kilometraje | Centro | PK455+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
-| UFV41 | 2.2 | SEÑAL_INT_12 | 458+000 | Señal Intermedia | Derecha | PK458+000 Derecha | SEÑALIZACION | Señal LED | N/A | TIPO 6 | TBD | TBD |
-| UFV41 | 2.2 | BALIZA_458 | 458+000 | Punto de referencia virtual Señal | Centro | PK458+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
+| UFV41 | 2.2 | SENAL_INT_12 | 458+000 | Senal Intermedia | Derecha | PK458+000 Derecha | SENALIZACION | Senal LED | N/A | TIPO 6 | TBD | TBD |
+| UFV41 | 2.2 | BALIZA_458 | 458+000 | Punto de referencia virtual Senal | Centro | PK458+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV44 | 2.2 | BALIZA_460 | 460+000 | Punto de referencia virtual Kilometraje | Centro | PK460+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV44 | 2.2 | EMPALME_FO_19 | 460+000 | Empalme Fibra Óptica | Izquierda | PK460+000 Izquierda | TELECOMUNICACIONES | Caja Empalme | N/A | N/A | TBD | TBD |
 | UFV44 | 2.2 | ESTACION_PUERTO_SOGAMOSO | 462+520 | Estación Principal Pto. Sogamoso | Centro | PK462+520 Centro | EDIFICACION | Estación Clase A | N/A | N/A | TBD | TBD |
@@ -418,7 +418,7 @@ UFVImplementacionNombre_TableroUbicacion_PKDescripcionUbicacion_LadoDireccionTip
 | UFV44 | 2.2 | NODO_FO_PUERTO_SOGAMOSO | 462+520 | Nodo Fibra Óptica Distribución | Centro | PK462+520 Centro | TELECOMUNICACIONES | ODF 48 hilos | SWA_PSO_01 | TIPO 5 | TBD | TBD |
 | UFV44 | 2.2 | BALIZA_PSO_01 | 462+520 | Punto de referencia virtual Entrada | Centro | PK462+520 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV44 | 2.2 | DESVIO_PSO_01 | 462+650 | Desvío Apartadero | Derecha | PK462+650 Derecha | VIA | Desvío Motorizado | N/A | N/A | TBD | TBD |
-| UFV44 | 2.2 | SEÑAL_PROT_SOG_01 | 465+000 | Señal Protección Puente Sogamoso | Derecha | PK465+000 Derecha | SEÑALIZACION | Señal LED Principal | N/A | TIPO 6 | TBD | TBD |
+| UFV44 | 2.2 | SENAL_PROT_SOG_01 | 465+000 | Senal Protección Puente Sogamoso | Derecha | PK465+000 Derecha | SENALIZACION | Senal LED Principal | N/A | TIPO 6 | TBD | TBD |
 | UFV44 | 2.2 | BALIZA_465 | 465+000 | Punto de referencia virtual Kilometraje | Centro | PK465+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV44 | 2.2 | BALIZA_PROT_SOG_01 | 465+150 | Punto de referencia virtual Protección | Centro | PK465+150 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV44 | 2.2 | PUENTE_RIO_SOGAMOSO_INICIO | 465+200 | Puente Río Sogamoso - Inicio | Centro | PK465+200 Centro | INFRAESTRUCTURA | Puente Prioritario | N/A | N/A | TBD | TBD |
@@ -430,18 +430,18 @@ UFVImplementacionNombre_TableroUbicacion_PKDescripcionUbicacion_LadoDireccionTip
 | UFV44 | 2.2 | BALIZA_SOG_SALIDA | 465+353 | Punto de referencia virtual Salida Puente | Centro | PK465+353 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV44 | 2.2 | PUENTE_RIO_SOGAMOSO_FIN | 465+353 | Puente Río Sogamoso - Fin | Centro | PK465+353 Centro | INFRAESTRUCTURA | Puente Prioritario | N/A | N/A | TBD | TBD |
 | UFV44 | 2.2 | CCTV_SOG_03 | 465+353 | Cámara Puente Salida | Derecha | PK465+353 Derecha | EQUIPO ITS | CCTV PTZ | SWA_SOG_01 | TIPO 2 | TBD | TBD |
-| UFV44 | 2.2 | SEÑAL_PROT_SOG_02 | 465+450 | Señal Protección Puente | Derecha | PK465+450 Derecha | SEÑALIZACION | Señal LED Principal | N/A | TIPO 6 | TBD | TBD |
+| UFV44 | 2.2 | SENAL_PROT_SOG_02 | 465+450 | Senal Protección Puente | Derecha | PK465+450 Derecha | SENALIZACION | Senal LED Principal | N/A | TIPO 6 | TBD | TBD |
 | UFV44 | 2.2 | BALIZA_470 | 470+000 | Punto de referencia virtual Kilometraje | Centro | PK470+000 Centro | CONTROL | Virtual Balise (GNSS)ReintentarDZContinuar| N/A | TIPO 9 | TBD | TBD |
 | UFV44 | 2.2 | EMPALME_FO_20 | 472+000 | Empalme Fibra Óptica | Derecha | PK472+000 Derecha | TELECOMUNICACIONES | Caja Empalme | N/A | N/A | TBD | TBD |
 | UFV44 | 2.2 | BALIZA_475 | 475+000 | Punto de referencia virtual Kilometraje | Centro | PK475+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
-| UFV44 | 2.2 | SEÑAL_INT_13 | 478+000 | Señal Intermedia | Derecha | PK478+000 Derecha | SEÑALIZACION | Señal LED | N/A | TIPO 6 | TBD | TBD |
-| UFV44 | 2.2 | BALIZA_478 | 478+000 | Punto de referencia virtual Señal | Centro | PK478+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
+| UFV44 | 2.2 | SENAL_INT_13 | 478+000 | Senal Intermedia | Derecha | PK478+000 Derecha | SENALIZACION | Senal LED | N/A | TIPO 6 | TBD | TBD |
+| UFV44 | 2.2 | BALIZA_478 | 478+000 | Punto de referencia virtual Senal | Centro | PK478+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV44 | 2.2 | BALIZA_480 | 480+000 | Punto de referencia virtual Kilometraje | Centro | PK480+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV44 | 2.2 | EMPALME_FO_21 | 485+000 | Empalme Fibra Óptica | Izquierda | PK485+000 Izquierda | TELECOMUNICACIONES | Caja Empalme | N/A | N/A | TBD | TBD |
 | UFV44 | 2.2 | BALIZA_485 | 485+000 | Punto de referencia virtual Kilometraje | Centro | PK485+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV44 | 2.2 | BALIZA_490 | 490+000 | Punto de referencia virtual Kilometraje | Centro | PK490+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
-| UFV44 | 2.2 | SEÑAL_INT_14 | 493+000 | Señal Intermedia | Derecha | PK493+000 Derecha | SEÑALIZACION | Señal LED | N/A | TIPO 6 | TBD | TBD |
-| UFV44 | 2.2 | BALIZA_493 | 493+000 | Punto de referencia virtual Señal | Centro | PK493+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
+| UFV44 | 2.2 | SENAL_INT_14 | 493+000 | Senal Intermedia | Derecha | PK493+000 Derecha | SENALIZACION | Senal LED | N/A | TIPO 6 | TBD | TBD |
+| UFV44 | 2.2 | BALIZA_493 | 493+000 | Punto de referencia virtual Senal | Centro | PK493+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV44 | 2.2 | BALIZA_495 | 495+000 | Punto de referencia virtual Kilometraje | Centro | PK495+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV44 | 2.2 | EMPALME_FO_22 | 498+000 | Empalme Fibra Óptica | Derecha | PK498+000 Derecha | TELECOMUNICACIONES | Caja Empalme | N/A | N/A | TBD | TBD |
 | UFV45 | 2.2 | BALIZA_500 | 500+000 | Punto de referencia virtual Kilometraje | Centro | PK500+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
@@ -452,8 +452,8 @@ UFVImplementacionNombre_TableroUbicacion_PKDescripcionUbicacion_LadoDireccionTip
 | UFV45 | 2.2 | BALIZA_505 | 505+000 | Punto de referencia virtual Kilometraje | Centro | PK505+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV45 | 2.2 | BALIZA_510 | 510+000 | Punto de referencia virtual Kilometraje | Centro | PK510+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV45 | 2.2 | EMPALME_FO_23 | 510+000 | Empalme Fibra Óptica | Izquierda | PK510+000 Izquierda | TELECOMUNICACIONES | Caja Empalme | N/A | N/A | TBD | TBD |
-| UFV45 | 2.2 | SEÑAL_INT_15 | 513+000 | Señal Intermedia | Derecha | PK513+000 Derecha | SEÑALIZACION | Señal LED | N/A | TIPO 6 | TBD | TBD |
-| UFV45 | 2.2 | BALIZA_513 | 513+000 | Punto de referencia virtual Señal | Centro | PK513+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
+| UFV45 | 2.2 | SENAL_INT_15 | 513+000 | Senal Intermedia | Derecha | PK513+000 Derecha | SENALIZACION | Senal LED | N/A | TIPO 6 | TBD | TBD |
+| UFV45 | 2.2 | BALIZA_513 | 513+000 | Punto de referencia virtual Senal | Centro | PK513+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV46 | 2.2 | BALIZA_515 | 515+000 | Punto de referencia virtual Kilometraje | Centro | PK515+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV46 | 2.2 | ESTACION_SAN_RAFAEL | 516+490 | Estación Principal | Centro | PK516+490 Centro | EDIFICACION | Estación Clase A | N/A | N/A | TBD | TBD |
 | UFV46 | 2.2 | SE_SAN_RAFAEL | 516+490 | Subestación Eléctrica | Derecha | PK516+490 Derecha | ENERGIA | Subestación MT/BT | N/A | N/A | TBD | TBD |
@@ -468,8 +468,8 @@ UFVImplementacionNombre_TableroUbicacion_PKDescripcionUbicacion_LadoDireccionTip
 | UFV46 | 2.2 | BALIZA_520 | 520+000 | Punto de referencia virtual Kilometraje | Centro | PK520+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV46 | 2.2 | EMPALME_FO_24 | 522+000 | Empalme Fibra Óptica | Derecha | PK522+000 Derecha | TELECOMUNICACIONES | Caja Empalme | N/A | N/A | TBD | TBD |
 | UFV46 | 2.2 | BALIZA_525 | 525+000 | Punto de referencia virtual Kilometraje | Centro | PK525+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
-| UFV46 | 2.2 | SEÑAL_INT_16 | 528+000 | Señal Intermedia | Derecha | PK528+000 Derecha | SEÑALIZACION | Señal LED | N/A | TIPO 6 | TBD | TBD |
-| UFV46 | 2.2 | BALIZA_528 | 528+000 | Punto de referencia virtual Señal | Centro | PK528+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
+| UFV46 | 2.2 | SENAL_INT_16 | 528+000 | Senal Intermedia | Derecha | PK528+000 Derecha | SENALIZACION | Senal LED | N/A | TIPO 6 | TBD | TBD |
+| UFV46 | 2.2 | BALIZA_528 | 528+000 | Punto de referencia virtual Senal | Centro | PK528+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV46 | 2.2 | BALIZA_530 | 530+000 | Punto de referencia virtual Kilometraje | Centro | PK530+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV47 | 2.2 | ESTACION_SAN_ALBERTO | 533+275 | Estación Menor | Centro | PK533+275 Centro | EDIFICACION | Apeadero | N/A | N/A | TBD | TBD |
 | UFV47 | 2.2 | EBT_17_SAN_ALBERTO | 533+275 | Estación Base TETRA 17 | Derecha | PK533+275 Derecha | TELECOMUNICACIONES | TETRA BS | SWA_SAL_01 | TIPO 5 | TBD | TBD |
@@ -478,8 +478,8 @@ UFVImplementacionNombre_TableroUbicacion_PKDescripcionUbicacion_LadoDireccionTip
 | UFV47 | 2.2 | EMPALME_FO_25 | 535+000 | Empalme Fibra Óptica | Izquierda | PK535+000 Izquierda | TELECOMUNICACIONES | Caja Empalme | N/A | N/A | TBD | TBD |
 | UFV47 | 2.2 | BALIZA_535 | 535+000 | Punto de referencia virtual Kilometraje | Centro | PK535+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV47 | 2.2 | BALIZA_540 | 540+000 | Punto de referencia virtual Kilometraje | Centro | PK540+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
-| UFV47 | 2.2 | SEÑAL_INT_17 | 543+000 | Señal Intermedia | Derecha | PK543+000 Derecha | SEÑALIZACION | Señal LED | N/A | TIPO 6 | TBD | TBD |
-| UFV47 | 2.2 | BALIZA_543 | 543+000 | Punto de referencia virtual Señal | Centro | PK543+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
+| UFV47 | 2.2 | SENAL_INT_17 | 543+000 | Senal Intermedia | Derecha | PK543+000 Derecha | SENALIZACION | Senal LED | N/A | TIPO 6 | TBD | TBD |
+| UFV47 | 2.2 | BALIZA_543 | 543+000 | Punto de referencia virtual Senal | Centro | PK543+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV47 | 2.2 | BALIZA_545 | 545+000 | Punto de referencia virtual Kilometraje | Centro | PK545+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV47 | 2.2 | EMPALME_FO_26 | 548+000 | Empalme Fibra Óptica | Derecha | PK548+000 Derecha | TELECOMUNICACIONES | Caja Empalme | N/A | N/A | TBD | TBD |
 | UFV48 | 2.2 | BALIZA_550 | 550+000 | Punto de referencia virtual Kilometraje | Centro | PK550+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
@@ -490,8 +490,8 @@ UFVImplementacionNombre_TableroUbicacion_PKDescripcionUbicacion_LadoDireccionTip
 | UFV48 | 2.2 | BALIZA_555 | 555+000 | Punto de referencia virtual Kilometraje | Centro | PK555+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV48 | 2.2 | BALIZA_560 | 560+000 | Punto de referencia virtual Kilometraje | Centro | PK560+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV48 | 2.2 | EMPALME_FO_27 | 560+000 | Empalme Fibra Óptica | Izquierda | PK560+000 Izquierda | TELECOMUNICACIONES | Caja Empalme | N/A | N/A | TBD | TBD |
-| UFV48 | 2.2 | SEÑAL_INT_18 | 563+000 | Señal Intermedia | Derecha | PK563+000 Derecha | SEÑALIZACION | Señal LED | N/A | TIPO 6 | TBD | TBD |
-| UFV48 | 2.2 | BALIZA_563 | 563+000 | Punto de referencia virtual Señal | Centro | PK563+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
+| UFV48 | 2.2 | SENAL_INT_18 | 563+000 | Senal Intermedia | Derecha | PK563+000 Derecha | SENALIZACION | Senal LED | N/A | TIPO 6 | TBD | TBD |
+| UFV48 | 2.2 | BALIZA_563 | 563+000 | Punto de referencia virtual Senal | Centro | PK563+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV48 | 2.2 | HBD_05_PRE_LUCIA | 565+000 | Detector Caja Caliente 05 | Centro | PK565+000 Centro | EQUIPO ITS | HBD Sistema | SWA_HBD_05 | TIPO 4 | TBD | TBD |
 | UFV48 | 2.2 | BALIZA_565 | 565+000 | Punto de referencia virtual Kilometraje | Centro | PK565+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV49 | 2.2 | ESTACION_SANTA_LUCIA | 569+800 | Estación Principal | Centro | PK569+800 Centro | EDIFICACION | Estación Clase A | N/A | N/A | TBD | TBD |
@@ -509,14 +509,14 @@ UFVImplementacionNombre_TableroUbicacion_PKDescripcionUbicacion_LadoDireccionTip
 | UFV49 | 2.2 | EMPALME_FO_28 | 572+000 | Empalme Fibra Óptica | Derecha | PK572+000 Derecha | TELECOMUNICACIONES | Caja Empalme | N/A | N/A | TBD | TBD |
 | UFV49 | 2.2 | BALIZA_575 | 575+000 | Punto de referencia virtual Kilometraje | Centro | PK575+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV49 | 2.2 | BALIZA_580 | 580+000 | Punto de referencia virtual Kilometraje | Centro | PK580+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
-| UFV49 | 2.2 | SEÑAL_INT_19 | 583+000 | Señal Intermedia | Derecha | PK583+000 Derecha | SEÑALIZACION | Señal LED | N/A | TIPO 6 | TBD | TBD |
-| UFV49 | 2.2 | BALIZA_583 | 583+000 | Punto de referencia virtual Señal | Centro | PK583+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
+| UFV49 | 2.2 | SENAL_INT_19 | 583+000 | Senal Intermedia | Derecha | PK583+000 Derecha | SENALIZACION | Senal LED | N/A | TIPO 6 | TBD | TBD |
+| UFV49 | 2.2 | BALIZA_583 | 583+000 | Punto de referencia virtual Senal | Centro | PK583+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV49 | 2.2 | EMPALME_FO_29 | 585+000 | Empalme Fibra Óptica | Izquierda | PK585+000 Izquierda | TELECOMUNICACIONES | Caja Empalme | N/A | N/A | TBD | TBD |
 | UFV49 | 2.2 | BALIZA_585 | 585+000 | Punto de referencia virtual Kilometraje | Centro | PK585+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV49 | 2.2 | BALIZA_590 | 590+000 | Punto de referencia virtual Kilometraje | Centro | PK590+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV49 | 2.2 | BALIZA_595 | 595+000 | Punto de referencia virtual Kilometraje | Centro | PK595+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
-| UFV49 | 2.2 | SEÑAL_INT_20 | 598+000 | Señal Intermedia | Derecha | PK598+000 Derecha | SEÑALIZACION | Señal LED | N/A | TIPO 6 | TBD | TBD |
-| UFV49 | 2.2 | BALIZA_598 | 598+000 | Punto de referencia virtual Señal | Centro | PK598+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
+| UFV49 | 2.2 | SENAL_INT_20 | 598+000 | Senal Intermedia | Derecha | PK598+000 Derecha | SENALIZACION | Senal LED | N/A | TIPO 6 | TBD | TBD |
+| UFV49 | 2.2 | BALIZA_598 | 598+000 | Punto de referencia virtual Senal | Centro | PK598+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV49 | 2.2 | EMPALME_FO_30 | 600+000 | Empalme Fibra Óptica | Derecha | PK600+000 Derecha | TELECOMUNICACIONES | Caja Empalme | N/A | N/A | TBD | TBD |
 | UFV52 | 2.2 | BALIZA_600 | 600+000 | Punto de referencia virtual Kilometraje | Centro | PK600+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV52 | 2.2 | ESTACION_GAMARRA | 604+265 | Estación Principal | Centro | PK604+265 Centro | EDIFICACION | Estación Clase A | N/A | N/A | TBD | TBD |
@@ -532,8 +532,8 @@ UFVImplementacionNombre_TableroUbicacion_PKDescripcionUbicacion_LadoDireccionTip
 | UFV52 | 2.2 | BALIZA_605 | 605+000 | Punto de referencia virtual Kilometraje | Centro | PK605+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV52 | 2.2 | BALIZA_610 | 610+000 | Punto de referencia virtual Kilometraje | Centro | PK610+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV52 | 2.2 | EMPALME_FO_31 | 612+000 | Empalme Fibra Óptica | Izquierda | PK612+000 Izquierda | TELECOMUNICACIONES | Caja Empalme | N/A | N/A | TBD | TBD |
-| UFV52 | 2.2 | SEÑAL_INT_21 | 613+000 | Señal Intermedia | Derecha | PK613+000 Derecha | SEÑALIZACION | Señal LED | N/A | TIPO 6 | TBD | TBD |
-| UFV52 | 2.2 | BALIZA_613 | 613+000 | Punto de referencia virtual Señal | Centro | PK613+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
+| UFV52 | 2.2 | SENAL_INT_21 | 613+000 | Senal Intermedia | Derecha | PK613+000 Derecha | SENALIZACION | Senal LED | N/A | TIPO 6 | TBD | TBD |
+| UFV52 | 2.2 | BALIZA_613 | 613+000 | Punto de referencia virtual Senal | Centro | PK613+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV52 | 2.2 | BALIZA_615 | 615+000 | Punto de referencia virtual Kilometraje | Centro | PK615+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV53 | 2.2 | ESTACION_PATEQUILLO | 618+000 | Estación Menor | Centro | PK618+000 Centro | EDIFICACION | Apeadero | N/A | N/A | TBD | TBD |
 | UFV53 | 2.2 | EBT_21_PATEQUILLO | 618+000 | Estación Base TETRA 21 | Derecha | PK618+000 Derecha | TELECOMUNICACIONES | TETRA BS | SWA_PAT_01 | TIPO 5 | TBD | TBD |
@@ -542,8 +542,8 @@ UFVImplementacionNombre_TableroUbicacion_PKDescripcionUbicacion_LadoDireccionTip
 | UFV53 | 2.2 | BALIZA_620 | 620+000 | Punto de referencia virtual Kilometraje | Centro | PK620+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV53 | 2.2 | EMPALME_FO_32 | 622+000 | Empalme Fibra Óptica | Derecha | PK622+000 Derecha | TELECOMUNICACIONES | Caja Empalme | N/A | N/A | TBD | TBD |
 | UFV53 | 2.2 | BALIZA_625 | 625+000 | Punto de referencia virtual Kilometraje | Centro | PK625+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
-| UFV53 | 2.2 | SEÑAL_INT_22 | 628+000 | Señal Intermedia | Derecha | PK628+000 Derecha | SEÑALIZACION | Señal LED | N/A | TIPO 6 | TBD | TBD |
-| UFV53 | 2.2 | BALIZA_628 | 628+000 | Punto de referencia virtual Señal | Centro | PK628+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
+| UFV53 | 2.2 | SENAL_INT_22 | 628+000 | Senal Intermedia | Derecha | PK628+000 Derecha | SENALIZACION | Senal LED | N/A | TIPO 6 | TBD | TBD |
+| UFV53 | 2.2 | BALIZA_628 | 628+000 | Punto de referencia virtual Senal | Centro | PK628+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV53 | 2.2 | BALIZA_630 | 630+000 | Punto de referencia virtual Kilometraje | Centro | PK630+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV53 | 2.2 | HBD_06_PRE_GLORIA | 632+000 | Detector Caja Caliente 06 | Centro | PK632+000 Centro | EQUIPO ITS | HBD Sistema | SWA_HBD_06 | TIPO 4 | TBD | TBD |
 | UFV53 | 2.2 | EMPALME_FO_33 | 632+000 | Empalme Fibra Óptica | Izquierda | PK632+000 Izquierda | TELECOMUNICACIONES | Caja Empalme | N/A | N/A | TBD | TBD |
@@ -562,8 +562,8 @@ UFVImplementacionNombre_TableroUbicacion_PKDescripcionUbicacion_LadoDireccionTip
 | UFV54 | 2.2 | EMPALME_FO_34 | 642+000 | Empalme Fibra Óptica | Derecha | PK642+000 Derecha | TELECOMUNICACIONES | Caja Empalme | N/A | N/A | TBD | TBD |
 | UFV54 | 2.2 | BALIZA_645 | 645+000 | Punto de referencia virtual Kilometraje | Centro | PK645+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV54 | 2.2 | BALIZA_650 | 650+000 | Punto de referencia virtual Kilometraje | Centro | PK650+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
-| UFV54 | 2.2 | SEÑAL_INT_23 | 653+000 | Señal Intermedia | Derecha | PK653+000 Derecha | SEÑALIZACION | Señal LED | N/A | TIPO 6 | TBD | TBD |
-| UFV54 | 2.2 | BALIZA_653 | 653+000 | Punto de referencia virtual Señal | Centro | PK653+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
+| UFV54 | 2.2 | SENAL_INT_23 | 653+000 | Senal Intermedia | Derecha | PK653+000 Derecha | SENALIZACION | Senal LED | N/A | TIPO 6 | TBD | TBD |
+| UFV54 | 2.2 | BALIZA_653 | 653+000 | Punto de referencia virtual Senal | Centro | PK653+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV54 | 2.2 | EMPALME_FO_35 | 655+000 | Empalme Fibra Óptica | Izquierda | PK655+000 Izquierda | TELECOMUNICACIONES | Caja Empalme | N/A | N/A | TBD | TBD |
 | UFV54 | 2.2 | BALIZA_655 | 655+000 | Punto de referencia virtual Kilometraje | Centro | PK655+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV54 | 2.2 | BALIZA_660 | 660+000 | Punto de referencia virtual Kilometraje | Centro | PK660+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
@@ -574,8 +574,8 @@ UFVImplementacionNombre_TableroUbicacion_PKDescripcionUbicacion_LadoDireccionTip
 | UFV55 | 2.2 | BALIZA_665 | 665+000 | Punto de referencia virtual Kilometraje | Centro | PK665+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV55 | 2.2 | EMPALME_FO_36 | 668+000 | Empalme Fibra Óptica | Derecha | PK668+000 Derecha | TELECOMUNICACIONES | Caja Empalme | N/A | N/A | TBD | TBD |
 | UFV55 | 2.2 | BALIZA_670 | 670+000 | Punto de referencia virtual Kilometraje | Centro | PK670+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
-| UFV55 | 2.2 | SEÑAL_INT_24 | 673+000 | Señal Intermedia | Derecha | PK673+000 Derecha | SEÑALIZACION | Señal LED | N/A | TIPO 6 | TBD | TBD |
-| UFV55 | 2.2 | BALIZA_673 | 673+000 | Punto de referencia virtual Señal | Centro | PK673+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
+| UFV55 | 2.2 | SENAL_INT_24 | 673+000 | Senal Intermedia | Derecha | PK673+000 Derecha | SENALIZACION | Senal LED | N/A | TIPO 6 | TBD | TBD |
+| UFV55 | 2.2 | BALIZA_673 | 673+000 | Punto de referencia virtual Senal | Centro | PK673+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV55 | 2.2 | BALIZA_675 | 675+000 | Punto de referencia virtual Kilometraje | Centro | PK675+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV56 | 2.2 | ESTACION_ZAPATOSA | 679+530 | Estación Menor | Centro | PK679+530 Centro | EDIFICACION | Apeadero | N/A | N/A | TBD | TBD |
 | UFV56 | 2.2 | EBT_24_ZAPATOSA | 679+530 | Estación Base TETRA 24 | Derecha | PK679+530 Derecha | TELECOMUNICACIONES | TETRA BS | SWA_ZAP_01 | TIPO 5 | TBD | TBD |
@@ -585,8 +585,8 @@ UFVImplementacionNombre_TableroUbicacion_PKDescripcionUbicacion_LadoDireccionTip
 | UFV56 | 2.2 | EMPALME_FO_37 | 682+000 | Empalme Fibra Óptica | Izquierda | PK682+000 Izquierda | TELECOMUNICACIONES | Caja Empalme | N/A | N/A | TBD | TBD |
 | UFV56 | 2.2 | BALIZA_685 | 685+000 | Punto de referencia virtual Kilometraje | Centro | PK685+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV56 | 2.2 | BALIZA_690 | 690+000 | Punto de referencia virtual Kilometraje | Centro | PK690+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
-| UFV56 | 2.2 | SEÑAL_INT_25 | 693+000 | Señal Intermedia | Derecha | PK693+000 Derecha | SEÑALIZACION | Señal LED | N/A | TIPO 6 | TBD | TBD |
-| UFV56 | 2.2 | BALIZA_693 | 693+000 | Punto de referencia virtual Señal | Centro | PK693+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
+| UFV56 | 2.2 | SENAL_INT_25 | 693+000 | Senal Intermedia | Derecha | PK693+000 Derecha | SENALIZACION | Senal LED | N/A | TIPO 6 | TBD | TBD |
+| UFV56 | 2.2 | BALIZA_693 | 693+000 | Punto de referencia virtual Senal | Centro | PK693+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV56 | 2.2 | EMPALME_FO_38 | 695+000 | Empalme Fibra Óptica | Derecha | PK695+000 Derecha | TELECOMUNICACIONES | Caja Empalme | N/A | N/A | TBD | TBD |
 | UFV56 | 2.2 | BALIZA_695 | 695+000 | Punto de referencia virtual Kilometraje | Centro | PK695+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV56 | 2.2 | BALIZA_700 | 700+000 | Punto de referencia virtual Kilometraje | Centro | PK700+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
@@ -597,12 +597,12 @@ UFVImplementacionNombre_TableroUbicacion_PKDescripcionUbicacion_LadoDireccionTip
 | UFV21 | 2.2 | BALIZA_705 | 705+000 | Punto de referencia virtual Kilometraje | Centro | PK705+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV21 | 2.2 | EMPALME_FO_39 | 708+000 | Empalme Fibra Óptica | Izquierda | PK708+000 Izquierda | TELECOMUNICACIONES | Caja Empalme | N/A | N/A | TBD | TBD |
 | UFV21 | 2.2 | BALIZA_710 | 710+000 | Punto de referencia virtual Kilometraje | Centro | PK710+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
-| UFV21 | 2.2 | SEÑAL_INT_26 | 713+000 | Señal Intermedia | Derecha | PK713+000 Derecha | SEÑALIZACION | Señal LED | N/A | TIPO 6 | TBD | TBD |
-| UFV21 | 2.2 | BALIZA_713 | 713+000 | Punto de referencia virtual Señal | Centro | PK713+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
+| UFV21 | 2.2 | SENAL_INT_26 | 713+000 | Senal Intermedia | Derecha | PK713+000 Derecha | SENALIZACION | Senal LED | N/A | TIPO 6 | TBD | TBD |
+| UFV21 | 2.2 | BALIZA_713 | 713+000 | Punto de referencia virtual Senal | Centro | PK713+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV21 | 2.2 | BALIZA_715 | 715+000 | Punto de referencia virtual Kilometraje | Centro | PK715+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV21 | 2.2 | BALIZA_720 | 720+000 | Punto de referencia virtual Kilometraje | Centro | PK720+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV21 | 2.2 | EMPALME_FO_40 | 720+000 | Empalme Fibra Óptica | Derecha | PK720+000 Derecha | TELECOMUNICACIONES | Caja Empalme | N/A | N/A | TBD | TBD |
-| UFV22 | 2.2 | SEÑAL_ENTRADA_CHIRIGUANA | 721+800 | Señal Entrada Chiriguaná | Derecha | PK721+800 Derecha | SEÑALIZACION | Señal LED Principal | N/A | TIPO 6 | TBD | TBD |
+| UFV22 | 2.2 | SENAL_ENTRADA_CHIRIGUANA | 721+800 | Senal Entrada Chiriguaná | Derecha | PK721+800 Derecha | SENALIZACION | Senal LED Principal | N/A | TIPO 6 | TBD | TBD |
 | UFV22 | 2.2 | BALIZA_ENTRADA_CHIRIGUANA | 722+000 | Punto de referencia virtual Entrada Terminal | Centro | PK722+000 Centro | CONTROL | Virtual Balise (GNSS) | N/A | TIPO 9 | TBD | TBD |
 | UFV22 | 2.2 | WILD_04_CHIRIGUANA | 722+000 | Detector Impactos Rueda 04 | Centro | PK722+000 Centro | EQUIPO ITS | WILD Sistema | SWA_WILD_04 | TIPO 4 | TBD | TBD |
 | UFV22 | 2.2 | ESTACION_CHIRIGUANA | 722+250 | Estación Terminal Chiriguaná | Centro | PK722+250 Centro | EDIFICACION | Estación Clase A+ | N/A | N/A | TBD | TBD |
@@ -635,7 +635,7 @@ UFVImplementacionNombre_TableroUbicacion_PKDescripcionUbicacion_LadoDireccionTip
 
 RESUMEN CUANTITATIVO DEL LAYOUT
 Totales por Categoría de Equipo
-CategoríaCantidad TotalObservacionesEstaciones y Edificaciones2611 principales + 15 menores/apeaderosSubestaciones Eléctricas11Alimentación principal del corredorPuestos Control CTC11Control distribuido + CCO maestroRadio Block Centers (Servidor PTC Central)5 + 1 respaldoPTC VIRTUAL Level 2 con redundanciaEstaciones Base TETRA26Cobertura 99% del corredorCámaras CCTV~180-200PTZ + Fijas + TérmicaPunto de referencia virtuals PTC VIRTUAL~700-900Kilometraje + señales + desvíosSeñales Luminosas~150-200Principales + intermedias + protecciónDesvíos Motorizados~80-100Estaciones + apartaderosDetectores HBD6Detección caja calienteDetectores WILD4Detección impactos ruedaNodos Fibra Óptica11 + 1 CoreDistribución + CCOEmpalmes Fibra Óptica~40Cada 10-15 km promedioSistemas UPS15+Estaciones + sistemas críticosPuentes Prioritarios4Magdalena, Carare, Cuatro Bocas, SogamosoTalleres2Pesado (B/Bermejo) + Liviano (Chiriguaná)CCO1 principalB/Bermejo PK441+932
+CategoríaCantidad TotalObservacionesEstaciones y Edificaciones2611 principales + 15 menores/apeaderosSubestaciones Eléctricas11Alimentación principal del corredorPuestos Control CTC11Control distribuido + CCO maestroRadio Block Centers (Servidor PTC Central)5 + 1 respaldoPTC VIRTUAL Level 2 con redundanciaEstaciones Base TETRA26Cobertura 99% del corredorCámaras CCTV~180-200PTZ + Fijas + TérmicaPunto de referencia virtuals PTC VIRTUAL~700-900Kilometraje + senales + desvíosSenales Luminosas~150-200Principales + intermedias + protecciónDesvíos Motorizados~80-100Estaciones + apartaderosDetectores HBD6Detección caja calienteDetectores WILD4Detección impactos ruedaNodos Fibra Óptica11 + 1 CoreDistribución + CCOEmpalmes Fibra Óptica~40Cada 10-15 km promedioSistemas UPS15+Estaciones + sistemas críticosPuentes Prioritarios4Magdalena, Carare, Cuatro Bocas, SogamosoTalleres2Pesado (B/Bermejo) + Liviano (Chiriguaná)CCO1 principalB/Bermejo PK441+932
 
 NOTAS IMPORTANTES PARA INGENIERÍA DE DETALLE
 1. Coordenadas Geográficas (Latitud_X / Longitud_Y)
@@ -683,11 +683,11 @@ Capacidad para 50+ vagones
 
 
 
-5. Señalización Específica
+5. Senalización Específica
 
-Integración CTC + PTC: 100% de señales con interface dual
+Integración CTC + PTC: 100% de senales con interface dual
 Distancias de Frenado: Según perfil de velocidad operativa (60-80 km/h carga)
-Señales de Protección: Obligatorias en:
+Senales de Protección: Obligatorias en:
 
 Puentes prioritarios
 Cruces nivel
@@ -710,7 +710,7 @@ Identificación de obstáculos
 Estudios geotécnicos en puntos críticos
 
 Fundaciones para torres TETRA
-Cimentaciones para señales y pórticos
+Cimentaciones para senales y pórticos
 Zonas de subestaciones
 
 
@@ -772,45 +772,45 @@ Plan de mantenimiento preventivo
 
 
 FORMATO DE ENTREGA PARA EXCEL
-Estructura de Pestañas Recomendadas
-Pestaña 1: MASTER_LAYOUT
+Estructura de Pestanas Recomendadas
+Pestana 1: MASTER_LAYOUT
 
 Tabla completa con todas las columnas mostradas arriba
 
-Pestaña 2: ESTACIONES
+Pestana 2: ESTACIONES
 
 Filtro automático: Tipo_Equipo = "EDIFICACION"
 
-Pestaña 3: TELECOMUNICACIONES
+Pestana 3: TELECOMUNICACIONES
 
 Filtro: Tipo_Equipo = "TELECOMUNICACIONES"
 Sub-filtros: TETRA, Fibra Óptica, Switches
 
-Pestaña 4: CONTROL_SEÑALIZACION
+Pestana 4: CONTROL_SENALIZACION
 
-Filtro: Tipo_Equipo = "CONTROL" o "SEÑALIZACION"
+Filtro: Tipo_Equipo = "CONTROL" o "SENALIZACION"
 
-Pestaña 5: ITS_SEGURIDAD
+Pestana 5: ITS_SEGURIDAD
 
 Filtro: Tipo_Equipo = "EQUIPO ITS" o "SEGURIDAD"
 
-Pestaña 6: ENERGIA
+Pestana 6: ENERGIA
 
 Filtro: Tipo_Equipo = "ENERGIA"
 
-Pestaña 7: PUENTES
+Pestana 7: PUENTES
 
 Filtro: Descripcion contiene "Puente"
 
-Pestaña 8: RESUMEN_UFV
+Pestana 8: RESUMEN_UFV
 
 Tabla dinámica: Equipos por UFV
 
-Pestaña 9: RESUMEN_TIPO
+Pestana 9: RESUMEN_TIPO
 
 Tabla dinámica: Equipos por Tipo
 
-Pestaña 10: CRONOGRAMA
+Pestana 10: CRONOGRAMA
 
 Ubicacion_PK vs Fecha Instalación Estimada
 
@@ -822,7 +822,7 @@ Checklist de Validación del Layout
  Cobertura Servidor PTC Central: Verificar solapamiento de áreas de control
  Fibra Óptica: Verificar continuidad del anillo redundante
  Subestaciones: Verificar distancia máxima 60 km entre SE
- Punto de referencia virtuals: Verificar presencia en todas las señales principales
+ Punto de referencia virtuals: Verificar presencia en todas las senales principales
  CCTV: Verificar cobertura 100% estaciones y puentes
  HBD/WILD: Verificar ubicación estratégica según flujo de trenes
  Desvíos: Verificar match con enclavamientos

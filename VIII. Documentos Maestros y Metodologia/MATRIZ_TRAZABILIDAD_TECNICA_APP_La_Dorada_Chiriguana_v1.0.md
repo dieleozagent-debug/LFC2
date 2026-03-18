@@ -40,13 +40,13 @@ Esta matriz establece las **referencias cruzadas obligatorias** entre el documen
 | **15 radios móviles locomotoras** | `WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná.html` | Cap. 4.1.3 | ✅ | Presupuesto |
 | **Redundancia TETRA+GSM** | `27_1_Estimaciond_e_cantidedes_Tetra.md` | Cálculos | ✅ | Ing. Conceptual |
 
-### **3. SEÑALIZACIÓN VIRTUAL (CTC + PTC)**
+### **3. SENALIZACIÓN VIRTUAL (CTC + PTC)**
 
 | Criterio Maestro | Documento Afectado | Sección | Estado | Responsable |
 |------------------|-------------------|---------|---------|-------------|
 | **CTC centralizado** | `WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná.html` | Cap. 5.1 | ✅ | Presupuesto |
 | **PTC embarcado 15 locomotoras** | `WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná.html` | Cap. 5.1.3 | ✅ | Presupuesto |
-| **Señalización virtual** | `29_Sistema_Senalizacion_Integrado.md` | Filosofía | ✅ | Ing. Conceptual |
+| **Senalización virtual** | `29_Sistema_Senalizacion_Integrado.md` | Filosofía | ✅ | Ing. Conceptual |
 | **CTC centralizado** | `V.2_Centro_Control_Trafico_CTC_Detalle.md` | Arquitectura | ✅ | Ing. Detalle |
 | **Eliminación Filosofía PTC Virtual** | `V.1_Senalizacion_Ferroviaria_Detalle.md` | Especificaciones | ✅ | Ing. Detalle |
 | **5 estaciones con ENCE** | `WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná.html` | Cap. 5.1.1 | ✅ | Presupuesto |

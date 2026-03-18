@@ -18,13 +18,13 @@ La Ingeniería de Sistemas es el **"sistema nervioso"** del ferrocarril que inte
 
 ---
 
-## 🔍 CRITERIOS DE DISEÑO Y JUSTIFICACIONES TÉCNICAS
+## 🔍 CRITERIOS DE DISENO Y JUSTIFICACIONES TÉCNICAS
 
 ### ¿Por qué 6 sistemas técnicos integrados?
 **Justificación de Integración:**
 | Sistema | Función | Justificación |
 |:--------|:--------|:--------------|
-| **Control y Señalización** | Control centralizado | Operación segura de trenes |
+| **Control y Senalización** | Control centralizado | Operación segura de trenes |
 | **Telecomunicaciones** | Comunicaciones | Conectividad entre sistemas |
 | **ITS y Seguridad** | Monitoreo y seguridad | Protección de infraestructura |
 | **Material Rodante** | Transporte | Capacidad de transporte |
@@ -43,8 +43,8 @@ La Ingeniería de Sistemas es el **"sistema nervioso"** del ferrocarril que inte
 ### ¿Por qué 15 protocolos de interoperabilidad?
 **Justificación de Protocolos:**
 - **FRA/AREMA 920-2:** Comunicaciones Red Vital IP / TETRA estándar internacional
-- **FRA/AREMA 438:** Señalización ferroviaria compatible con FENOCO
-- **FRA/AREMA 930:** Sistemas de señalización interoperables
+- **FRA/AREMA 438:** Senalización ferroviaria compatible con FENOCO
+- **FRA/AREMA 930:** Sistemas de senalización interoperables
 - **FRA/AREMA 950:** Control de tráfico coordinado
 - **FFFIS:** Interfaces CTC-PTC específicas
 - **EN 50159:** Seguridad de comunicaciones
@@ -246,7 +246,7 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 ---
 
-## 📊 INDICADORES DE DESEMPEÑO (KPIs)
+## 📊 INDICADORES DE DESEMPENO (KPIs)
 
 | Indicador | Meta | Actual | Estado |
 |:----------|:-----|:-------|:-------|

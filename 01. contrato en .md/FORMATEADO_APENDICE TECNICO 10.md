@@ -81,7 +81,7 @@ Página 3 de 9
 
 CAPÍTULO U CAPACIDAD DISPONIBLE DE LA VIA FÉRREA
 
-2 .1. La medición de Capacidad Ferroviaria estará a cargo y bajo la responsabilidad del Concesionario, el cual deberá realizar los cálculos a través de un procedimiento y método de simulación que sea diseñado a la medida de la Infraestructura, con el fin de hacer asignaciones de Surcos de Movilización de forma correcta, eficiente y segura. El procedimiento y método de simulación y los cálculos de la Capacidad Ferroviaria serán presentados a la Interventoría, a la ANI yo a quien para tal efecto designe la ANI para su análisis y posterior no objeción, de conformidad con lo dispuesto en el numeral 2.5 y siguientes de este Apéndice Técnico.
+2 .1. La medición de Capacidad Ferroviaria estará a cargo y bajo la responsabilidad del Concesionario, el cual deberá realizar los cálculos a través de un procedimiento y método de simulación que sea disenado a la medida de la Infraestructura, con el fin de hacer asignaciones de Surcos de Movilización de forma correcta, eficiente y segura. El procedimiento y método de simulación y los cálculos de la Capacidad Ferroviaria serán presentados a la Interventoría, a la ANI yo a quien para tal efecto designe la ANI para su análisis y posterior no objeción, de conformidad con lo dispuesto en el numeral 2.5 y siguientes de este Apéndice Técnico.
 
 2.2. La medición de la Capacidad Ferroviaria y la Capacidad Disponible de la Vía Férrea deberá ser publicada para conocimiento de todos los interesados de conformidad con lo previsto en este Apéndice Técnico. LaANI será la responsable de realizar la divulgación, socialización y comunicación del informe de la Capacidad Disponible de la Vía Férrea al mercado. Para esto el Concesionario deberá realizar, por lo menos:
 
@@ -92,7 +92,7 @@ CAPÍTULO U CAPACIDAD DISPONIBLE DE LA VIA FÉRREA
 
 (a) Para la obtención de las mallas de trenes y la identificación del número máximo de Surcos de Movilización, deberá tener en cuenta, pero sin limitarse, las siguientes variables:
 
-(i) Los sistemas de Señalización y Control de Tráfico;
+(i) Los sistemas de Senalización y Control de Tráfico;
 (ii) Los sistemas de comunicaciones, principal y de respaldo o redundante;
 (iii) Las características físicas de la Infraestructura Férrea, tales como: geometría de la línea, número de vías, posición y longitud de apartaderos o vías de cruzamiento de trenes y nivel de servicio, emplazamiento y capacidad puntual de las estaciones.
 (iv) Las características del Material Rodante admitido y compatible para su operación. Entre ellas pero sin limitarse: el sistema de tracción, el peso máximo permitido, la longitud máxima de trenes, el número de locomotoras y de vagones, los tipos de locomotora y de vagones, las condiciones de frenado, la uniformidad en aceleración y desaceleración y la capacidad de arrastre;
@@ -149,7 +149,7 @@ La Capacidad Asignada podrá estar ocupada por:
 
 2.6. El Concesionario, dentro de treinta (30) Días contados desde la no objeción del procedimiento y el método de simulación para el cálculo de la Capacidad Ferroviaria, deberá presentar a la ANI y a la Interventoría el primer informe de cálculo de la Capacidad Ferroviaria y de la Capacidad Disponible de la Vía Férrea en las condiciones actuales, de acuerdo con lo descrito en el presente Capítulo II. En este mismo informe se deberá presentar, pero sin limitarse, las memorias de cálculo que justifiquen dichos resultados y el listado de los Terceros Operadores con Surcos de Movilización asignados, si alguno. Posterior al primer informe de cálculo de la Capacidad Ferroviaria el Concesionario está obligado a presentar estos informes de manera trimestral. Tanto el primer informe como sus posteriores actualizaciones estarán sujetos al Procedimiento de Revisión Abreviado establecido en la Sección 8.2 del Contrato de Concesión.
 
-2. 7. Para efectos de la etapa 2 del trámite de asignación de Surcos contenida en los artículos 7 y siguientes de la Resolución de Surcos, si en cualquier momento el Concesionario es notificado por la ANI de la existencia de una solicitud de interés de utilización de la Infraestructura por parte de un Tercero Interesado, el Concesionario deberá presentar un informe en un término máximo de diez (10) Días a partir de dicha notificación a la ANI y a la Interventoría, el cual deberá venir acompañado del nuevo informe de cálculo de la Capacidad Disponible de la Vía Férrea, que deberá contener, pero sin limitarse a, lo siguiente:
+2. 7. Para efectos de la etapa 2 del trámite de asignación de Surcos contenida en los artículos 7 y siguientes de la Resolución de Surcos, si en cualquier momento el Concesionario es notificado por la ANI de la existencia de una solicitud de interés de utilización de la Infraestructura por parte de un Tercero Interesado, el Concesionario deberá presentar un informe en un término máximo de diez (10) Días a partir de dicha notificación a la ANI y a la Interventoría, el cual deberá venir acompanado del nuevo informe de cálculo de la Capacidad Disponible de la Vía Férrea, que deberá contener, pero sin limitarse a, lo siguiente:
 Página 6 de 9
 
 (a) Modelo operacional con sus gráficos respectivos donde se evidencien los Surcos de Movilización, mallas o itinerarios utilizables en función de la Capacidad Ferroviaria en sus distintos tramos.
@@ -191,7 +191,7 @@ Página 8 de 9
 4.5. Una vez terminada la prueba del Material Rodante de conformidad con las condiciones establecidas en el documento "Requerimientos técnicos para la compatibilidad exitosa y condiciones de prueba del Material Rodante", el Concesionario deberá emitir su concepto sobre el resultado de dicha prueba en un plazo máximo de tres (3) Días Hábiles. La ANI, previo concepto de la Interventoría, será la responsable de avalar el resultado de la prueba de conformidad con lo dispuesto en la Resolución de Surcos.
 
 4.6. Por otra parte, el Concesionario tendrá como obligación actualizar el documento cuando existan cambios por parte de la Operación o por solicitudes directas de la Interventoría yo laANI.
-VoBo: Adríana María Montañez Saenz-VEr. Fredy Leandro Espejo Fandiño -VE I""'
+VoBo: Adríana María Montanez Saenz-VEr. Fredy Leandro Espejo Fandino -VE I""'
 Página 9 de 9
 
 

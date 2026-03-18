@@ -15,10 +15,10 @@ Se ha completado el **PASO 3: Reporte de Hallazgos** aplicando la plantilla de d
 
 ## 📋 DIAGNÓSTICO POR DOCUMENTO
 
-### **V.1 - Señalización Ferroviaria de Detalle**
+### **V.1 - Senalización Ferroviaria de Detalle**
 
 #### **✅ FORTALEZAS**
-- **Contenido técnico completo:** Especificaciones detalladas de señalización ferroviaria
+- **Contenido técnico completo:** Especificaciones detalladas de senalización ferroviaria
 - **Referencias normativas:** EN 50126/50128/50129, PTC Virtual (FRA 236), CENELEC
 - **Arquitectura definida:** Componentes principales especificados
 - **Versión y fecha:** v1.0, 02/10/2025
@@ -41,7 +41,7 @@ Se ha completado el **PASO 3: Reporte de Hallazgos** aplicando la plantilla de d
 - Establecer indicadores de riesgo
 
 #### **🔗 DEPENDENCIAS AFECTADAS**
-- **Manual O&M Señalización:** Referencias a documento sin marco contractual
+- **Manual O&M Senalización:** Referencias a documento sin marco contractual
 - **Índices maestros:** Enlaces a documento incompleto
 - **Roadmap:** Estado de documento no alineado con realidad
 

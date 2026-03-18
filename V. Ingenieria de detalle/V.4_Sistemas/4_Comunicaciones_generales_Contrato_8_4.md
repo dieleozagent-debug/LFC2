@@ -51,7 +51,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 - **Disponibilidad:** ≥ 99.9% con tiempo máximo de reparación de 4 horas
 
 #### **ESPECIFICACIONES TÉCNICAS DE TETRA**
-- **Cobertura:** 100% del corredor con nivel mínimo de señal -95 dBm
+- **Cobertura:** 100% del corredor con nivel mínimo de senal -95 dBm
 - **Sitios:** ~33 sitios de repetición distribuidos estratégicamente
 - **Estándares:** ETSI EN 300 392 para equipos de radio
 - **Backhaul:** Fibra óptica principal, microondas como respaldo en sitios críticos
@@ -125,7 +125,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 ### 1.1 Obligaciones Contractuales Específicas
 - **Artículo 8.4 - Comunicaciones Generales:** Especificaciones técnicas del sistema de comunicaciones
-- **Integración con señalización:** Coordinación con sistema de señalización ferroviaria
+- **Integración con senalización:** Coordinación con sistema de senalización ferroviaria
 - **Interfaces con CTC:** Integración con centro de control de tráfico
 - **Redundancias y enlaces:** Enlaces principales y sistemas de respaldo
 
@@ -163,7 +163,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 - **Disponibilidad del sistema:** 99.9%
 - **Tiempo de respuesta:** < 1 segundo
 - **Redundancia:** Doble redundancia en enlaces críticos
-- **Interfaces:** 100% compatibilidad con señalización y CTC
+- **Interfaces:** 100% compatibilidad con senalización y CTC
 
 ## ⚠️ EVALUACIÓN DE DEPENDENCIAS DOCUMENTALES
 
@@ -184,7 +184,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 - **26-32_Sistemas_Integrados v4.0** ✅ - Sistemas que requieren comunicaciones
 - **33-36_Criterios_Normatividad_Interoperabilidad_Redundancia_Ciberseguridad v4.0** ✅ - Estándares de comunicaciones
 - **37-42_Ingenieria_Basica v4.0** ✅ - Bases para ingeniería de detalle de comunicaciones
-- **8.1_Señalización_Ferroviaria v4.0** ✅ - Integración con señalización
+- **8.1_Senalización_Ferroviaria v4.0** ✅ - Integración con senalización
 - **8.2_Centro_Control_Tráfico v4.0** ✅ - Integración con CTC
 - **8.3_Pasos_a_Nivel v4.0** ✅ - Integración con pasos a nivel
 
@@ -193,7 +193,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 - **AT10_CapacidadSurcos** 🔴 - Integración PTC-CTC para comunicaciones
 
 ### 2.3 Interfaces Críticas
-- **Comunicaciones ↔ Señalización:** Integración del sistema de comunicaciones con señalización
+- **Comunicaciones ↔ Senalización:** Integración del sistema de comunicaciones con senalización
 - **Comunicaciones ↔ CTC:** Integración con centro de control de tráfico
 - **Comunicaciones ↔ PTC:** Integración de sistemas de control integrado
 - **Comunicaciones ↔ TETRA:** Integración de comunicaciones críticas
@@ -288,7 +288,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 **Problemas identificados:**
 1. **Descripción genérica:** El documento usa descripción genérica de "Ingeniería de Detalle" en lugar de especificar comunicaciones ferroviarias
 2. **Falta de especificaciones:** Sin detalles técnicos de arquitectura de red, tecnologías, redundancias
-3. **Sin integración:** No menciona interfaces con sistemas ferroviarios (CTC, señalización, TETRA)
+3. **Sin integración:** No menciona interfaces con sistemas ferroviarios (CTC, senalización, TETRA)
 4. **Objetivos genéricos:** No específicos para comunicaciones ferroviarias
 5. **Sin cronograma:** No considera complejidad de gestión de interferencias y predios
 
@@ -297,7 +297,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 2. **Desarrollado arquitectura de red** con doble anillo y diversidad geográfica
 3. **Especificado tecnología DWDM** para maximización de capacidad
 4. **Definido estrategia de gestión integrada** con AT5 y AT7
-5. **Integrado con sistemas ferroviarios** (CTC, señalización, detección, energía)
+5. **Integrado con sistemas ferroviarios** (CTC, senalización, detección, energía)
 
 
 ### 5.2 Acciones Requeridas para Mantener v4.0

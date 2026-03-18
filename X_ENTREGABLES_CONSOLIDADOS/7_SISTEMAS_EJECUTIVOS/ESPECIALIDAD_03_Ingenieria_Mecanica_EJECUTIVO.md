@@ -27,7 +27,7 @@ La Ingeniería Mecánica es el **"sistema locomotor"** del ferrocarril que propo
 
 ---
 
-## 🔍 CRITERIOS DE DISEÑO Y JUSTIFICACIONES TÉCNICAS
+## 🔍 CRITERIOS DE DISENO Y JUSTIFICACIONES TÉCNICAS
 
 ### ¿Por qué 15 locomotoras específicamente?
 **Desglose del Parque Rodante (AT1):**
@@ -50,7 +50,7 @@ La Ingeniería Mecánica es el **"sistema locomotor"** del ferrocarril que propo
 ### ¿Por qué 8 carromotores?
 **Justificación de Mantenimiento de Vía:**
 - **Cobertura:** 1 carromotor por cada 66 km (526 km ÷ 8 = 66 km)
-- **Especialización:** Diferentes tipos de mantenimiento (vía, drenaje, señalización)
+- **Especialización:** Diferentes tipos de mantenimiento (vía, drenaje, senalización)
 - **Eficiencia:** Equipos especializados para mantenimiento preventivo
 - **Disponibilidad:** Mantenimiento continuo sin afectar operación
 
@@ -133,7 +133,7 @@ La Ingeniería Mecánica proporciona **material rodante** para la operación fer
 | Carga por eje | 25 ton | FRA/AREMA 700 |
 | Velocidad máxima | 80 km/h | Especificaciones proyecto |
 | Disponibilidad | 99.95% | AT4 |
-| Vida útil | 30 años | Especificaciones proyecto |
+| Vida útil | 30 anos | Especificaciones proyecto |
 
 ### Criterios de aceptación
 - ✅ 15 locomotoras operativas
@@ -207,7 +207,7 @@ El material rodante opera 24/7 transportando carga a lo largo del corredor, con 
 |:---------|:--------------|:------------------|:-----------|
 | **Demanda de transporte** | 2,400 ton/día | Más material rodante si aumenta | Diseno escalable |
 | **Disponibilidad** | 99.95% | Penalizaciones si no cumple | Mantenimiento preventivo |
-| **Vida útil** | 30 años | Mayor mantenimiento si reduce | Materiales de calidad |
+| **Vida útil** | 30 anos | Mayor mantenimiento si reduce | Materiales de calidad |
 | **Velocidad operativa** | 80 km/h | Menor eficiencia si reduce | Optimización de rutas |
 | **Carga por eje** | 25 ton | Limitaciones de vía si aumenta | Diseno conservador |
 
@@ -252,7 +252,7 @@ El material rodante opera 24/7 transportando carga a lo largo del corredor, con 
 - **Apéndice Técnico 1:** Alcance del proyecto - Material rodante
 - **Apéndice Técnico 2:** Operación y mantenimiento - Material rodante
 - **Apéndice Técnico 3:** Especificaciones técnicas - Material rodante
-- **Apéndice Técnico 4:** Indicadores de desempeño - Disponibilidad
+- **Apéndice Técnico 4:** Indicadores de desempeno - Disponibilidad
 - **Apéndice Técnico 10:** Capacidad y surcos - Integración
 
 ---
@@ -281,7 +281,7 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 ---
 
-## 📊 INDICADORES DE DESEMPEÑO (KPIs)
+## 📊 INDICADORES DE DESEMPENO (KPIs)
 
 | Indicador | Meta | Actual | Estado |
 |:----------|:-----|:-------|:-------|

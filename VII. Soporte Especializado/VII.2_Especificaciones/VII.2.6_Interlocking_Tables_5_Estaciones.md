@@ -11,7 +11,7 @@
 ## 🎯 **1. PROPÓSITO Y ALCANCE**
 
 ### **1.1 PROPÓSITO**
-Este documento define la lógica de **Enclavamiento Virtual** para las 5 estaciones centrales de LFC. Se elimina la señalización luminosa lateral (física) y se sustituye por **Puntos de Control Virtual** y aspectos de cabina (CAB Signaling) gestionados por el Vital PTC Server.
+Este documento define la lógica de **Enclavamiento Virtual** para las 5 estaciones centrales de LFC. Se elimina la senalización luminosa lateral (física) y se sustituye por **Puntos de Control Virtual** y aspectos de cabina (CAB Signaling) gestionados por el Vital PTC Server.
 
 ### **1.2 ALCANCE**
 - **Estaciones:** La Dorada, Puerto Salgar, Honda, Mariquita, Chiriguaná.
@@ -24,7 +24,7 @@ Este documento define la lógica de **Enclavamiento Virtual** para las 5 estacio
 
 ### **2.1 PRINCIPIOS DE ENCLAVAMIENTO PTC**
 1. **Ruta Virtual:** Una ruta se considera establecida cuando los desvíos están bloqueados mecánicamente y el Vital PTC Server reserva el segmento para un tren específico.
-2. **Señales Virtuales:** Los aspectos (Verde, Amarillo, Rojo) existen solo en la lógica del sistema y se transmiten al DMI del tren vía TETRA.
+2. **Senales Virtuales:** Los aspectos (Verde, Amarillo, Rojo) existen solo en la lógica del sistema y se transmiten al DMI del tren vía TETRA.
 3. **Liberación por Odometría:** La liberación de la ruta se valida mediante el reporte de posición GPS/IMU del tren y la confirmación de integridad (EOT).
 
 ### **2.2 TABLA DE ENCLAVAMIENTO (EJEMPLO LA DORADA)**
@@ -49,8 +49,8 @@ Este documento define la lógica de **Enclavamiento Virtual** para las 5 estacio
 
 | Versión | Fecha | Responsable | Cambio (Karpathy Purge) |
 |:---:|:---:|:---|:---|
-| **v2.0** | 13/03/2026 | Admin. Contractual | **RE-ESCRITURA TOTAL**. Señales físicas eliminadas. Lógica virtualizada según FRA 236. |
-| **v1.0** | 27/01/2025 | Ing. Señalización | Versión obsoleta basada en Filosofía PTC Virtual (HALLUCINATED). |
+| **v2.0** | 13/03/2026 | Admin. Contractual | **RE-ESCRITURA TOTAL**. Senales físicas eliminadas. Lógica virtualizada según FRA 236. |
+| **v1.0** | 27/01/2025 | Ing. Senalización | Versión obsoleta basada en Filosofía PTC Virtual (HALLUCINATED). |
 
 ---
 **Documento Alineado con el SSOT (DBCD_CRITERIA.md).**

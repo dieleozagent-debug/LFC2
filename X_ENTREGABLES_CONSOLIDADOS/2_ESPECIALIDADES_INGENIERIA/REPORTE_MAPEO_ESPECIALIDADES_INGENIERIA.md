@@ -35,7 +35,7 @@
 1. **V.1_Civil/V.1.1_Obras_Civiles_Infraestructura_DETALLADA.md** - Obras civiles detalladas
 2. **IV.1_Especificaciones_Basicas_Civil_v5.0.md** - Especificaciones basicas civil
 3. **VII.1.1_Matriz_Normatividad_Civil.md** - Matriz normatividad civil
-4. **V.1_Señalizacion_Ferroviaria_Detalle_v5.0.md** - Señalización ferroviaria (infraestructura)
+4. **V.1_Senalizacion_Ferroviaria_Detalle_v5.0.md** - Senalización ferroviaria (infraestructura)
 5. **V.1_Civil/V.1.1_Obras_Civiles_Infraestructura_DETALLADA.md** - Infraestructura civil detallada
 6. **Indices_Maestros/Indice_Sistemas_Tecnicos.md** - Referencias civiles en sistemas
 7. **X_ENTREGABLES_CONSOLIDADOS/1_SISTEMAS_TECNICOS/SISTEMA_05_Infraestructura_Operativa_Master.md** - Infraestructura operativa
@@ -86,7 +86,7 @@
 
 #### **🔴 PRIORIDAD ALTA (6 documentos):**
 1. **V.4_Sistemas/V.4.1_Sistemas_Ferroviarios_Integrados_DETALLADO.md** - Sistemas ferroviarios integrados
-2. **X_ENTREGABLES_CONSOLIDADOS/1_SISTEMAS_TECNICOS/SISTEMA_01_Control_y_Senalizacion_Master.md** - Control y señalización
+2. **X_ENTREGABLES_CONSOLIDADOS/1_SISTEMAS_TECNICOS/SISTEMA_01_Control_y_Senalizacion_Master.md** - Control y senalización
 3. **X_ENTREGABLES_CONSOLIDADOS/1_SISTEMAS_TECNICOS/SISTEMA_02_Telecomunicaciones_Master.md** - Telecomunicaciones
 4. **X_ENTREGABLES_CONSOLIDADOS/1_SISTEMAS_TECNICOS/SISTEMA_03_ITS_y_Seguridad_Master.md** - ITS y seguridad
 5. **23_ListadoMaestro_Sistemas_v5.0.md** - Listado maestro sistemas

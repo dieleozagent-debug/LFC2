@@ -85,7 +85,7 @@
 | Categoría | Documentos | Referencias Principales |
 |:----------|:-----------|:----------------------|
 | **Documentos Base** | 7 | WBS, matrices, hojas de ruta |
-| **Análisis por Sistema** | 7 | CTC, TETRA, Fibra, Señalización, ITS, CCTV, Material Rodante |
+| **Análisis por Sistema** | 7 | CTC, TETRA, Fibra, Senalización, ITS, CCTV, Material Rodante |
 | **Criterios Transversales** | 4 | Normatividad, Interoperabilidad, Redundancia, Ciberseguridad |
 | **PTC Específicos** | 5 | SRS, Arquitectura Servidor PTC Central, Interfaces, Interlocking, STM |
 | **Conceptos Básicos** | 4 | CTC, TETRA, PTC, otras soluciones |
@@ -113,7 +113,7 @@
 #### **V. INGENIERÍA DE DETALLE (24 documentos)**
 | Documento | Referencias a | Referencias desde |
 |:----------|:-------------|:-----------------|
-| `V.1_Señalizacion_Ferroviaria_Detalle_v1.0.md` | AT3, AT5, PTC | Manual O&M Señalización |
+| `V.1_Senalizacion_Ferroviaria_Detalle_v1.0.md` | AT3, AT5, PTC | Manual O&M Senalización |
 | `V.2_Centro_Control_Trafico_CTC_Detalle_v1.0.md` | AT3, AT5, PTC | Manual O&M CTC |
 | `V.3_Sistemas_Comunicacion_Detalle_v1.0.md` | AT3, AT5, TETRA | Manual O&M Telecom |
 | `V.4_Sistemas_Potencia_Detalle_v1.0.md` | AT3, AT4, Eléctrica | Sistemas de Potencia |
@@ -127,7 +127,7 @@
 | Documento | Referencias a | Referencias desde |
 |:----------|:-------------|:-----------------|
 | `6.1_Manual_OM_CTC_v1.0.md` | V.2, AT2, AT4, AT5 | CTC, Operación |
-| `6.2_Manual_OM_Senalizacion_v1.0.md` | V.1, AT2, AT4, AT5 | Señalización, Operación |
+| `6.2_Manual_OM_Senalizacion_v1.0.md` | V.1, AT2, AT4, AT5 | Senalización, Operación |
 | `6.3_Manual_OM_Telecom_v1.0.md` | V.3, AT2, AT4, AT5 | Telecomunicaciones, Operación |
 | `6.4_Manual_OM_Seguridad_v1.0.md` | V.5, AT2, AT4, AT5 | Seguridad, Operación |
 | `VI_Operacion_Mantenimiento_y_reversion.md` | AT2, AT4, AT5 | O&M General |
@@ -139,7 +139,7 @@
 ### **🏗️ INGENIERÍA CIVIL**
 | Documento Civil | Referencias a | Referencias desde |
 |:----------------|:-------------|:-----------------|
-| `V.1_Señalizacion_Ferroviaria_Detalle_v1.0.md` | AT1, AT2, AT3, AT9 | Construcción, Presupuestos |
+| `V.1_Senalizacion_Ferroviaria_Detalle_v1.0.md` | AT1, AT2, AT3, AT9 | Construcción, Presupuestos |
 | `39. PlanosPreliminares_localizacion torres tetra_fibra_nod.md` | AT7, AT9 | Predios, Plan de Obras |
 | `40. Plan_GestionPermisos_MEJORADO.md` | AT6, AT7, AT8 | Ambiental, Predial, Social |
 

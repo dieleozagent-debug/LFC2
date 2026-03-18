@@ -33,13 +33,13 @@
 
 ---
 
-## 🎯 **ESTRATEGIA EPC: DISEÑO ADAPTABLE**
+## 🎯 **ESTRATEGIA EPC: DISENO ADAPTABLE**
 
 ### **Enfoque:** Secuencia flexible basada en inputs
 
 **Premisa:**
 > "EPC NO es responsable del cronograma de entrega de Material Rodante.
-> EPC diseñará secuencia de comisionamiento ADAPTABLE a cronograma que
+> EPC disenará secuencia de comisionamiento ADAPTABLE a cronograma que
 > entregue el Concesionario/FENOCO."
 
 ---
@@ -167,7 +167,7 @@
 
 ---
 
-## ✅ **DISEÑO ADAPTABLE EPC**
+## ✅ **DISENO ADAPTABLE EPC**
 
 ### **Secuencia por Escenarios:**
 

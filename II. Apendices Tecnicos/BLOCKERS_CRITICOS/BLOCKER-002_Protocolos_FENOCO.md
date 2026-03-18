@@ -19,10 +19,10 @@
 
 **Documentos BLOQUEADOS:**
 - ❌ `27_Sistema_TETRA_Integrado.md` - Interfaces NO definidas
-- ❌ `29_Sistema_Señalización_Integrado.md` - Compatibilidad PENDIENTE
+- ❌ `29_Sistema_Senalización_Integrado.md` - Compatibilidad PENDIENTE
 - ❌ `32_Material_Rodante_Integrado.md` - Equipos embarcados NO compatibles
 - ❌ `IV.2_Interfaces_Sistemas_MEJORADO.md` - Gateway NO especificado
-- ❌ `V.1_Señalización_Ferroviaria_Detalle.md` - Protocolos indefinidos
+- ❌ `V.1_Senalización_Ferroviaria_Detalle.md` - Protocolos indefinidos
 
 **Alcance afectado:**
 - 🔴 Gateway de interoperabilidad (ítem 1.1.106) = **$150M COP**
@@ -37,7 +37,7 @@
 
 **Información Conocida:**
 - ✅ Operador existente en Colombia (Red Atlántico)
-- ✅ Sistema de señalización: **Siemens Trainguard** (propietario)
+- ✅ Sistema de senalización: **Siemens Trainguard** (propietario)
 - ⚠️ Protocolos comunicación: **NO públicos** (requiere NDA)
 - ⚠️ Arquitectura de red: **Desconocida** (sin documentación)
 
@@ -77,7 +77,7 @@ de la concesión FENOCO, solicite formalmente a FENOCO:
 5. Certificaciones de seguridad vigentes
 
 JUSTIFICACIÓN:
-Sin estas especificaciones, NO se puede diseñar el gateway de
+Sin estas especificaciones, NO se puede disenar el gateway de
 interoperabilidad requerido contractualmente. Esto afecta el 
 cumplimiento del alcance del proyecto.
 
@@ -85,7 +85,7 @@ FECHA LÍMITE: 15 de Diciembre 2025 (Mes 6)
 PLAZO RESPUESTA FENOCO: 30 días desde solicitud ANI
 
 PLAN B (si no hay respuesta):
-Diseñar gateway FRA/AREMA 918-4 estándar europeo SIN integración directa
+Disenar gateway FRA/AREMA 918-4 estándar europeo SIN integración directa
 con sistemas FENOCO. Interoperabilidad será responsabilidad de 
 FENOCO/Concesionario en fase posterior (post-entrega).
 ```
@@ -130,10 +130,10 @@ FENOCO/Concesionario en fase posterior (post-entrega).
    - Próxima reunión
 
 **Participantes:**
-- FENOCO: Gerente Técnico + Especialista Señalización
+- FENOCO: Gerente Técnico + Especialista Senalización
 - ANI: Gerente Técnico
 - PMO Proyecto
-- Especialista Señalización (EPC pre-seleccionado)
+- Especialista Senalización (EPC pre-seleccionado)
 - Interventoría
 
 **Entregable:** Acta con compromisos formales
@@ -196,7 +196,7 @@ FENOCO/Concesionario en fase posterior (post-entrega).
 ### **Cláusula Interoperabilidad FENOCO:**
 
 ```
-"El EPC diseñará e implementará un gateway de interoperabilidad 
+"El EPC disenará e implementará un gateway de interoperabilidad 
 según protocolo FRA/AREMA 918-4 estándar europeo, debidamente documentado.
 
 La integración efectiva con sistemas FENOCO (Siemens Trainguard) 

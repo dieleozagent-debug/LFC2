@@ -11,7 +11,7 @@
 ## 1. ALCANCE (SCOPE)
 
 ### 1.1 Propósito
-Este SRS define los requerimientos funcionales y de seguridad para el sistema **PTC Virtual** del proyecto La Dorada - Chiriguaná, diseñado para garantizar la seguridad de la vida, la prevención de colisiones y la optimización del tráfico ferroviario.
+Este SRS define los requerimientos funcionales y de seguridad para el sistema **PTC Virtual** del proyecto La Dorada - Chiriguaná, disenado para garantizar la seguridad de la vida, la prevención de colisiones y la optimización del tráfico ferroviario.
 
 ### 1.2 Alcance del Sistema
 - **Núcleo:** Servidor Vital PTC (Redundancia 2oo3).

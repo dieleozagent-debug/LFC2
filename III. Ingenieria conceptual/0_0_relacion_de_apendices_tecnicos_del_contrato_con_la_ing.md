@@ -41,7 +41,7 @@ Capítulo / Numeral
 Tabla 16
 
 4.3.3 Unidad Funcional UF 3
-Implementación temprana de sistemas de señalización, CTC inicial, comunicaciones basicas para operación preoperativa.
+Implementación temprana de sistemas de senalización, CTC inicial, comunicaciones basicas para operación preoperativa.
 Tablas 17 a 20
 
 5.1 Material rodante del proyecto
@@ -57,7 +57,7 @@ Capítulo / Numeral
 Cap. V, 5.3
 
 7.2 Obligaciones etapa preoperativa
-Montaje progresivo de sistemas de señalización, comunicaciones y CTC para operación temprana.
+Montaje progresivo de sistemas de senalización, comunicaciones y CTC para operación temprana.
 Cap. VII, 7.2
 
 7.3 Obligaciones fase de construcción
@@ -75,15 +75,15 @@ Capítulo / Numeral
 Referencia contractual (Ap. Téc. 2)
 
 2.1 Servicios de carácter obligatorio
-Sistemas de comunicaciones y señalización para garantizar la prestación del servicio ferroviario de carga (integración con CTC, radio, fibra, ITS).
+Sistemas de comunicaciones y senalización para garantizar la prestación del servicio ferroviario de carga (integración con CTC, radio, fibra, ITS).
 Cap. II, 2.1
 
 2.2 Servicios adicionales
 Sistemas de apoyo complementario (ej. ampliaciones de telecomunicaciones, seguridad, TI).
 Cap. II, 2.2
 
-2.3 Obligaciones sobre el ramal Cabañas
-Equipos de señalización, comunicaciones y seguridad necesarios para operar este ramal.
+2.3 Obligaciones sobre el ramal Cabanas
+Equipos de senalización, comunicaciones y seguridad necesarios para operar este ramal.
 Cap. II, 2.3
 
 2.4 Obligaciones sobre las estaciones férreas
@@ -115,7 +115,7 @@ Capítulo / Numeral
 Cap. III, 3.2.1
 
 3.2.2 Reglamento de Operación de Trenes (ROT)
-Define el uso obligatorio de los sistemas de señalización, radio TETRA, PTC.
+Define el uso obligatorio de los sistemas de senalización, radio TETRA, PTC.
 Cap. III, 3.2.2
 
 3.3.1 Operación de la vía en etapa preoperativa
@@ -161,7 +161,7 @@ Capítulo / Numeral
 Referencia contractual (Ap. Téc. 3)
 
 2.1 Estudios y Disenos
-Estudios de detalle de vía férrea (incluye sistemas de señalización asociados).
+Estudios de detalle de vía férrea (incluye sistemas de senalización asociados).
 Cap. II, 2.1
 
 3.1 Intervenciones en material rodante
@@ -169,7 +169,7 @@ Capítulo / Numeral
 Cap. III, 3.1
 
 4.1 Estudios y de Detalle de pavimentos
-Integración de pasos a nivel con sistemas de señalización y seguridad.
+Integración de pasos a nivel con sistemas de senalización y seguridad.
 Cap. IV, 4.1
 
 5.2 Intervenciones en puentes y viaductos
@@ -185,7 +185,7 @@ Capítulo / Numeral
 Cap. VI, 6.2
 
 6.3 Normas internacionales
-Aplicación de AREMA, FRA/AREMA, IEC, IEEE para sistemas de señalización y comunicaciones.
+Aplicación de AREMA, FRA/AREMA, IEC, IEEE para sistemas de senalización y comunicaciones.
 Cap. VI, 6.3
 
 6.7 Elementos Electromecánicos
@@ -212,8 +212,8 @@ Capítulo / Numeral
 Modelado digital obligatorio para coordinación de ingeniería.
 Cap. VI, 6.15
 
-8.1 Sistemas de mando, señales y detección de trenes
-Señalización en Cabina (Cab-Signaling), detección de trenes, circuitos de vía, punto de referencia virtuals.
+8.1 Sistemas de mando, senales y detección de trenes
+Senalización en Cabina (Cab-Signaling), detección de trenes, circuitos de vía, punto de referencia virtuals.
 Cap. VIII, 8.1
 
 8.2 Sistema de control, representaciones de tráfico y detectores auxiliares
@@ -253,7 +253,7 @@ Capítulo / Numeral
 Cap. VIII, 8.10
 
 
-AP4:   No pide nuevos equipos, pero obliga a que todos los sistemas (CTC, señalización, TETRA, fibra, CCTV, PTC, energía) tengan capacidad de monitoreo y reporte.
+AP4:   No pide nuevos equipos, pero obliga a que todos los sistemas (CTC, senalización, TETRA, fibra, CCTV, PTC, energía) tengan capacidad de monitoreo y reporte.
   Introduce el SICC (Sistema Informático de Contabilización y Control) como plataforma de consolidación de indicadores.
   Ingeniería debe prever que cada sistema entregue datos para los indicadores contractuales.
 
@@ -270,7 +270,7 @@ Capítulo / Numeral
 Tabla 1
 
 3 – Tabla 2
-Indicadores exclusivos del Componente A de Retribución → afectan disponibilidad de CTC, señalización y comunicaciones.
+Indicadores exclusivos del Componente A de Retribución → afectan disponibilidad de CTC, senalización y comunicaciones.
 Tabla 2
 
 3 – Tabla 3
@@ -278,11 +278,11 @@ Capítulo / Numeral
 Tabla 3
 
 3 – Tabla 4
-Indicadores para Unidad Funcional 2 y 3 (UF 2 y 3). Controlan desempeño de talleres, CCO y sistemas de señalización/CTC.
+Indicadores para Unidad Funcional 2 y 3 (UF 2 y 3). Controlan desempeno de talleres, CCO y sistemas de senalización/CTC.
 Tabla 4
 
 4.1 Evaluación de los indicadores
-Obliga a que sistemas (CTC, telecomunicaciones, CCTV, energía) cuenten con herramientas de monitoreo para que la interventoría mida su desempeño.
+Obliga a que sistemas (CTC, telecomunicaciones, CCTV, energía) cuenten con herramientas de monitoreo para que la interventoría mida su desempeno.
 Cap. 4.1
 
 4.2 Autoevaluación del Concesionario
@@ -290,7 +290,7 @@ Capítulo / Numeral
 Cap. 4.2
 
 4.4 Equipos de medición, características y calibración
-Se requieren equipos de prueba y diagnóstico para validar telecomunicaciones, señalización, potencia eléctrica.
+Se requieren equipos de prueba y diagnóstico para validar telecomunicaciones, senalización, potencia eléctrica.
 Cap. 4.4
 
 5.3 Características del SICC (Sistema Informático de Contabilización y Control)
@@ -302,12 +302,12 @@ Capítulo / Numeral
 Cap. 6
 
 7. Eventos eximentes y mantenimiento programado
-Permite excluir de penalidades fallas por fuerza mayor o mantenimientos autorizados. Ingeniería debe diseñar planes de redundancia.
+Permite excluir de penalidades fallas por fuerza mayor o mantenimientos autorizados. Ingeniería debe disenar planes de redundancia.
 Cap. 7
 
 
-AP 5:   No pide equipos ferroviarios adicionales, pero obliga a que todos los disenos de vía, comunicaciones y señalización consideren la compatibilidad con redes de terceros.
-  Impacta directamente en: fibra óptica, instalaciones eléctricas, pasos a nivel, cimentaciones de señalización y torres de radio.
+AP 5:   No pide equipos ferroviarios adicionales, pero obliga a que todos los disenos de vía, comunicaciones y senalización consideren la compatibilidad con redes de terceros.
+  Impacta directamente en: fibra óptica, instalaciones eléctricas, pasos a nivel, cimentaciones de senalización y torres de radio.
   Ingeniería debe incluir un plan de interferencias con trazado de redes y coordinación con empresas de servicios.
 
 Capítulo / Numeral
@@ -323,7 +323,7 @@ Capítulo / Numeral
 Cap. III, 3.1
 
 3.2.1 Fase de Preconstrucción
-Ingeniería debe diseñar desvíos, protecciones, traslados o refuerzos de redes. Aplica a fibra óptica y energía eléctrica.
+Ingeniería debe disenar desvíos, protecciones, traslados o refuerzos de redes. Aplica a fibra óptica y energía eléctrica.
 Cap. III, 3.2.1
 
 3.2.2 Fase de Construcción
@@ -435,10 +435,10 @@ Capítulo / Numeral
 Cap. V, 5.4
 
 
-AP8: Este apéndice no define directamente equipos ferroviarios, pero sí obligaciones sociales que afectan cómo se diseñan, instalan y operan los sistemas: accesibilidad, seguridad, comunicación comunitaria, y mitigación de impactos.
+AP8: Este apéndice no define directamente equipos ferroviarios, pero sí obligaciones sociales que afectan cómo se disenan, instalan y operan los sistemas: accesibilidad, seguridad, comunicación comunitaria, y mitigación de impactos.
   No introduce equipos nuevos, pero condiciona la implementación de los sistemas a la aceptación comunitaria y accesibilidad social.
-  Impacta directamente en: CCTV, pasos a nivel, ITS, antenas TETRA, oficinas de atención, señalización vial ferroviaria.
-  Ingeniería debe diseñar considerando: seguridad para la comunidad, accesibilidad universal y comunicación con usuarios.
+  Impacta directamente en: CCTV, pasos a nivel, ITS, antenas TETRA, oficinas de atención, senalización vial ferroviaria.
+  Ingeniería debe disenar considerando: seguridad para la comunidad, accesibilidad universal y comunicación con usuarios.
 
 
 Capítulo / Numeral
@@ -470,7 +470,7 @@ Capítulo / Numeral
 Cap. VII, 7.9
 
 7.14 Programa de Información y Participación Comunitaria
-Involucra divulgación de tecnologías ferroviarias: ITS, señalización, seguridad vial ferroviaria.
+Involucra divulgación de tecnologías ferroviarias: ITS, senalización, seguridad vial ferroviaria.
 Cap. VII, 7.14
 
 7.15 Programa de Fortalecimiento Comunitario
@@ -478,7 +478,7 @@ Capítulo / Numeral
 Cap. VII, 7.15
 
 7.19 Programa Cultura Vial Ferroviaria
-Ingeniería debe incorporar sistemas de señalización y comunicación accesibles para peatones, ciclistas y conductores en pasos a nivel.
+Ingeniería debe incorporar sistemas de senalización y comunicación accesibles para peatones, ciclistas y conductores en pasos a nivel.
 Cap. VII, 7.19
 
 13.1 Comunicaciones institucionales
@@ -487,7 +487,7 @@ Capítulo / Numeral
 
 AP 9:   No lista nuevos equipos, pero obliga a incluir todos los sistemas técnicos en el cronograma oficial del Plan de Obras.
   Impacta directamente en la planificación de implementación de:
-CTC y señalización
+CTC y senalización
 Radio TETRA
 Fibra óptica
 CCTV, interfonía, control de accesos
@@ -502,11 +502,11 @@ Capítulo / Numeral
 Cap. II, 2.1 (a)
 
 2.1 (b) Relación de ítems de obra
-Debe desagregar todos los sistemas de ingeniería: CTC, señalización, radio TETRA, fibra, CCTV, instalaciones eléctricas.
+Debe desagregar todos los sistemas de ingeniería: CTC, senalización, radio TETRA, fibra, CCTV, instalaciones eléctricas.
 Cap. II, 2.1 (b)
 
 2.1 (c) Restricción de operación
-El plan debe garantizar que la construcción de sistemas (ej. señalización, pasos a nivel, fibra) no afecte la operación ferroviaria existente.
+El plan debe garantizar que la construcción de sistemas (ej. senalización, pasos a nivel, fibra) no afecte la operación ferroviaria existente.
 Cap. II, 2.1 (c)
 
 2.1 (e) Contenido adicional del plan
@@ -519,10 +519,10 @@ Capítulo / Numeral
 
 AP10:
 Este apéndice define cómo se calcula y gestiona la capacidad ferroviaria, y cómo deben operar los sistemas de control de tráfico, CTC y material rodante para asignar surcos.
-No introduce nuevos sistemas físicos, pero exige que la ingeniería implemente software y modelos de simulación ferroviaria integrados al CTC, señalización, PTC y telecomunicaciones.
+No introduce nuevos sistemas físicos, pero exige que la ingeniería implemente software y modelos de simulación ferroviaria integrados al CTC, senalización, PTC y telecomunicaciones.
 Impacta directamente en:
 CTC (Centro de Control de Tráfico)
-Señalización y detección de trenes
+Senalización y detección de trenes
 Sistemas embarcados PTC
 Software de simulación ferroviaria
 Es clave para garantizar la operación interoperable y eficiente de surcos contractuales y de terceros.
@@ -532,11 +532,11 @@ Capítulo / Numeral
 Referencia contractual (Ap. Téc. 10)
 
 1.1 Introducción
-Señala que el cálculo de capacidad y la preasignación de surcos son responsabilidad del Concesionario, soportados en sistemas de control (CTC, señalización).
+Senala que el cálculo de capacidad y la preasignación de surcos son responsabilidad del Concesionario, soportados en sistemas de control (CTC, senalización).
 Cap. I, 1.1
 
 2.1 Medición de Capacidad Ferroviaria
-Requiere un método de simulación computacional para modelar la infraestructura, trenes y tráfico. Impacta en sistemas de CTC, señalización y telecomunicaciones.
+Requiere un método de simulación computacional para modelar la infraestructura, trenes y tráfico. Impacta en sistemas de CTC, senalización y telecomunicaciones.
 Cap. II, 2.1
 
 2.2 Procedimiento y método de simulación
@@ -572,9 +572,9 @@ Cláusula / Numeral
 Incluir en la ingeniería: plan de gestión de permisos y licencias, con cronograma y dependencias para TETRA, fibra, instalaciones eléctricas y talleres.
 
 8.1 Obligaciones en Etapa de Preconstrucción
-Estudios y disenos de CTC, ITS, telecomunicaciones, señalización, talleres, edificios técnicos.
+Estudios y disenos de CTC, ITS, telecomunicaciones, senalización, talleres, edificios técnicos.
 Antes de iniciar obras debe estar lista la ingeniería detallada y todos los permisos.
-Incluir en la ingeniería: paquete de estudios y disenos integrados → CTC, ITS, señalización, telecomunicaciones, eléctricos y talleres.
+Incluir en la ingeniería: paquete de estudios y disenos integrados → CTC, ITS, senalización, telecomunicaciones, eléctricos y talleres.
 
 8.2 Obligaciones en Etapa de Construcción
 Implementación de todos los sistemas definidos en Apéndices Técnicos 1–3.
@@ -582,7 +582,7 @@ Cláusula / Numeral
 Incluir en la ingeniería: plan de integración civil–electromecánica–telecomunicaciones con hitos constructivos.
 
 9.1 Obligaciones en Etapa de Operación y Mantenimiento
-CTC, señalización, radio TETRA, PTC, ITS, telecomunicaciones.
+CTC, senalización, radio TETRA, PTC, ITS, telecomunicaciones.
 Los sistemas deben operar con redundancia y disponibilidad cumpliendo indicadores del Apéndice 4.
 Incluir en la ingeniería: plan de O&M y redundancia tecnológica (servidores espejo, doble alimentación, enlaces redundantes).
 
@@ -597,7 +597,7 @@ Cláusula / Numeral
 Incluir en la ingeniería: equipamiento embarcado estandarizado en locomotoras (PTC + TETRA + GPS).
 
 14.1–14.2 Operación y Mantenimiento
-Software, hardware, equipos de señalización y comunicaciones.
+Software, hardware, equipos de senalización y comunicaciones.
 Obligación de mantener en operación y reponer equipos fallados.
 Incluir en la ingeniería: esquema de mantenimiento preventivo/correctivo y plan de reposición tecnológica.
 
@@ -607,7 +607,7 @@ Cláusula / Numeral
 Incluir en la ingeniería: estrategia de documentación y entrega final (as-built, software, licencias, inventarios).
 
 16.1–16.9 Sanciones y Multas
-Todos los sistemas críticos (CTC, TETRA, fibra, señalización, CCTV, ITS, PTC).
+Todos los sistemas críticos (CTC, TETRA, fibra, senalización, CCTV, ITS, PTC).
 Penalidades por incumplir tiempos o no instalar equipos a tiempo.
 Incluir en la ingeniería: cronograma contractual con hitos de cumplimiento y margen de contingencia para evitar sanciones.
 
@@ -631,7 +631,7 @@ Tema
 
 Bienes de la Concesión y Reversión
 Sección 3.3(a)–(d)
-Define que todos los equipos, software, señalización, material rodante y telecomunicaciones hacen parte de los Bienes de la Concesión y deben revertir a la ANI al final.
+Define que todos los equipos, software, senalización, material rodante y telecomunicaciones hacen parte de los Bienes de la Concesión y deben revertir a la ANI al final.
 
 Etapas contractuales
 Sección 3.8(a)–(iii)
@@ -639,7 +639,7 @@ Tema
 
 Operación y Mantenimiento
 Cap. XIV – Secciones 14.1 y 14.2
-Obligación de mantener software, hardware, equipos de comunicaciones y señalización en funcionamiento y reponerlos cuando falle.
+Obligación de mantener software, hardware, equipos de comunicaciones y senalización en funcionamiento y reponerlos cuando falle.
 
 Reversión
 Cap. XV – Secciones 15.1 a 15.5
@@ -647,7 +647,7 @@ Tema
 
 Puesta a Punto y Material Rodante
 Cap. XIII – Secciones 13.1 a 13.3
-Señala que el EPC debe garantizar que el material rodante incluya PTC, TETRA, equipos embarcados y cumpla compatibilidad con señalización.
+Senala que el EPC debe garantizar que el material rodante incluya PTC, TETRA, equipos embarcados y cumpla compatibilidad con senalización.
 
 Administración de Infraestructura Férrea y Logística
 Cap. XII – Secciones 12.6 a 12.9

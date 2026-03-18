@@ -57,7 +57,7 @@ El diseno detallado de la red TETRA no puede avanzar hasta que este concepto de 
 
 ### 3.1 Arquitectura de Red para Proyectos EPC
 Se propone una arquitectura de red TETRA que garantiza la cobertura, resiliencia y eficiencia requeridas por el contrato:
-- **Arquitectura Basada en Sitios:** Se estima la necesidad de **33 sitios de repetición** a lo largo de los 540 km del corredor para garantizar una cobertura del 100% con un nivel de señal mínimo de -95 dBm, considerando la topografía de la zona.
+- **Arquitectura Basada en Sitios:** Se estima la necesidad de **33 sitios de repetición** a lo largo de los 540 km del corredor para garantizar una cobertura del 100% con un nivel de senal mínimo de -95 dBm, considerando la topografía de la zona.
 - **Redundancia N+1:** El controlador central del sistema TETRA (ubicado en el CCO) y los sitios de repetición en ubicaciones críticas (ej. Barrancabermeja, La Dorada) contarán con redundancia N+1 en sus componentes clave (controladores, fuentes de poder) para asegurar la continuidad del servicio y cumplir con la disponibilidad 99.5% según AT4.
 - **Backhaul por Fibra Óptica:** Cada estación base TETRA se conectará al controlador central a través de la red de fibra óptica de doble anillo, garantizando un enlace de alta capacidad y baja latencia. Se preverán enlaces de microondas como respaldo en los 5 sitios más críticos.
 

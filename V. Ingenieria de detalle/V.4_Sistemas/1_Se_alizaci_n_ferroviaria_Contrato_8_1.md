@@ -1,10 +1,10 @@
-﻿# SEÑALIZACIÓN FERROVIARIA - CONTRATO 8.1
+﻿# SENALIZACIÓN FERROVIARIA - CONTRATO 8.1
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 19 de septiembre de 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
 **Contrato:** Concesión No. 001 de 2025  
-**Documento:** 1 - Señalización Ferroviaria  
+**Documento:** 1 - Senalización Ferroviaria  
 
 ---
 
@@ -17,7 +17,7 @@
 | **Contrato** | Concesión No. 001 de 2025 |
 | **Responsable** | Administrador Contractual EPC |
 | **Tipo** | Documento de Ingeniería de Detalle |
-| **Categoría** | Señalización Ferroviaria |
+| **Categoría** | Senalización Ferroviaria |
 | **Número** | 1 |
 | **Estado** | ✅ Contenido completo |
 
@@ -25,9 +25,9 @@
 
 ## DESCRIPCIÓN DEL DOCUMENTO
 
-**Señalización Ferroviaria - Contrato 8.1**
+**Senalización Ferroviaria - Contrato 8.1**
 
-Este documento contiene las especificaciones técnicas detalladas para el sistema de señalización ferroviaria del proyecto APP La Dorada - Chiriguaná, conforme a las obligaciones contractuales establecidas.
+Este documento contiene las especificaciones técnicas detalladas para el sistema de senalización ferroviaria del proyecto APP La Dorada - Chiriguaná, conforme a las obligaciones contractuales establecidas.
 
 ---
 
@@ -45,7 +45,7 @@ Este documento contiene las especificaciones técnicas detalladas para el sistem
 
 ## CONTENIDO TÉCNICO
 
-### 8.1 Señalización Ferroviaria - ESPECIFICACIONES TECNICAS DETALLADAS
+### 8.1 Senalización Ferroviaria - ESPECIFICACIONES TECNICAS DETALLADAS
 
 **Basado en analisis del documento conceptual 29_Sistema_Senalizacion_Integrado:**
 
@@ -68,10 +68,10 @@ Este documento contiene las especificaciones técnicas detalladas para el sistem
 #### **SISTEMA DE ENERGÍA DEDICADO**
 - **UPS para Enclavamientos:** Sistema UPS Online (Doble Conversión) de 5kVA mínimo, con autonomía de 8 horas para cargas críticas (CBI, contadores de ejes).
 - **Tableros de Distribución:** Tableros AC y DC con protecciones termomagnéticas individuales por circuito.
-- **Sistema de Puesta a Tierra:** Malla de tierra dedicada para equipos de señalización, con resistencia < 5 Ohms.
+- **Sistema de Puesta a Tierra:** Malla de tierra dedicada para equipos de senalización, con resistencia < 5 Ohms.
 - **Insumos:**
     - **Cableado de Potencia:** Cableado de cobre de sección adecuada, con aislamiento THHN/THWN.
-    - **Bancos de Baterías:** Baterías selladas VRLA, libres de mantenimiento, con vida útil de diseno > 5 años.
+    - **Bancos de Baterías:** Baterías selladas VRLA, libres de mantenimiento, con vida útil de diseno > 5 anos.
     - **Conectores y Terminales:** Terminales de compresión y conectores de alta calidad para asegurar conexiones fiables.
 
 #### **INTEGRACIÓN Y ESTÁNDARES**
@@ -85,18 +85,18 @@ Este documento contiene las especificaciones técnicas detalladas para el sistem
 
 | ID | Categoría | Probabilidad | Impacto | Descripción | Estrategia de Mitigación |
 |:---:|:---:|:---:|:---:|:---|:---|
-| **R-085** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en señalización | Desarrollar interfaces de señalización basadas en PTC Virtual (FRA 236) hasta disponibilidad de AT3 |
-| **R-086** | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por interfaces incompatibles | Establecer protocolos de señalización compatibles con sistemas FENOCO existentes |
-| **R-087** | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.95% en señalización según AT4 | Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad |
+| **R-085** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en senalización | Desarrollar interfaces de senalización basadas en PTC Virtual (FRA 236) hasta disponibilidad de AT3 |
+| **R-086** | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por interfaces incompatibles | Establecer protocolos de senalización compatibles con sistemas FENOCO existentes |
+| **R-087** | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.95% en senalización según AT4 | Implementar sistemas de monitoreo para garantizar cumplimiento de disponibilidad |
 | **R-088** | Operacional | Alta | Medio | Complejidad en gestión de 146 pasos a nivel con PTC | Desarrollar protocolos de prueba específicos para PTC y FENOCO |
-| **R-089** | Técnico | Media | Medio | Integración de señalización con sistemas FENOCO existentes | Establecer procedimientos de fallback para sistemas de señalización |
+| **R-089** | Técnico | Media | Medio | Integración de senalización con sistemas FENOCO existentes | Establecer procedimientos de fallback para sistemas de senalización |
 
 ---
 
 ## 6. INTEGRACIÓN CON DOCUMENTOS RELACIONADOS
 
 ### 2.1 Documentos Base (Completados ✅)
-- **AT1_AlcanceProyecto v3.0** ✅ - Alcance de señalización ferroviaria
-- **AT2_OperacionMantenimiento v3.0** ✅ - Operación y mantenimiento de señalización
-- **AT4_IndicadoresDesempeno v3.0** ✅ - Indicadores de señalización ferroviaria
+- **AT1_AlcanceProyecto v3.0** ✅ - Alcance de senalización ferroviaria
+- **AT2_OperacionMantenimiento v3.0** ✅ - Operación y mantenimiento de senalización
+- **AT4_IndicadoresDesempeno v3.0** ✅ - Indicadores de senalización ferroviaria
 - **`29_Sistema_Senalizacion_Integrado...md`** ✅ - Documento conceptual base.

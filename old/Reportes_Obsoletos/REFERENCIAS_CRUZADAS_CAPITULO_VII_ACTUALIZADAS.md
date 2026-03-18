@@ -30,7 +30,7 @@
 #### **Referencias Técnicas:**
 - **V.4.1:** Sistemas Ferroviarios Integrados → Integración
 - **26.1:** Anexo Eléctrico CTC → Alimentación
-- **29.1:** Sistema Señalización → Interfaces
+- **29.1:** Sistema Senalización → Interfaces
 
 #### **Referencias Normativas:**
 - **EN 50126:** Aplicación técnicas confiabilidad
@@ -118,7 +118,7 @@
 - **Cl. 8.2:** Construcción → Implementación
 
 #### **Referencias Técnicas:**
-- **29.1:** Sistema Señalización → Base
+- **29.1:** Sistema Senalización → Base
 - **V.1.1:** Obras Civiles → Infraestructura
 - **VII.2.1:** SRS PTC → Interfaces
 

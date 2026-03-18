@@ -8,7 +8,7 @@
 ---
 
 ## ⚖️ JERARQUÍA NORMATIVA APLICABLE
-Para el sistema de control y señalización, rige la normativa estadounidense adaptada al contrato:
+Para el sistema de control y senalización, rige la normativa estadounidense adaptada al contrato:
 
 1. **FRA (Federal Railroad Administration):**
    - 49 CFR Part 236, Subpart I: Positive Train Control Systems.

@@ -91,7 +91,7 @@ window.wbsMetadataEnriquecida = {
       "justificacion_tecnica": "Servidores duales para sistema SCADA de supervisión de infraestructura ferroviaria",
       "criterios_diseno": [
         "Arquitectura maestro-esclavo",
-        "Monitoreo tiempo real de señales, cambios vía, detectores",
+        "Monitoreo tiempo real de senales, cambios vía, detectores",
         "Integración con CTC para vista unificada"
       ],
       "supuestos": [
@@ -120,7 +120,7 @@ window.wbsMetadataEnriquecida = {
       "supuestos": [
         "1 licencia corporativa ilimitada",
         "Incluye: desarrollo, runtime, historian, reporting",
-        "Soporte técnico 24/7 por 5 años"
+        "Soporte técnico 24/7 por 5 anos"
       ],
       "decisiones_tecnicas": [
         "DT-SCADA-002-2025-10-07"

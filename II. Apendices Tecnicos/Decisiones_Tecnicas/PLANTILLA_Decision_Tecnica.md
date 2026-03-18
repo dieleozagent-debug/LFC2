@@ -75,7 +75,7 @@
 | [Item 2] | [Cant] | [Cant] | +/- [Δ] | +/- [%] |
 
 ### 4.2 Impacto Económico
-| Concepto | CAPEX | OPEX (10 años) | Total |
+| Concepto | CAPEX | OPEX (10 anos) | Total |
 |:---------|:------|:---------------|:------|
 | **Costo Anterior** | $[X] | $[Y] | $[Z] |
 | **Costo Nuevo** | $[X] | $[Y] | $[Z] |

@@ -124,7 +124,7 @@ SUBTOTAL CTC CALCULADO:              $ 10,530,000,000
 
 ## 📈 VALIDACIÓN DE TOTALES POR CAPÍTULO
 
-### **Capítulo 1 - Control y Señalización Virtual**
+### **Capítulo 1 - Control y Senalización Virtual**
 
 **Incremento por DT-CTC-002:**
 ```

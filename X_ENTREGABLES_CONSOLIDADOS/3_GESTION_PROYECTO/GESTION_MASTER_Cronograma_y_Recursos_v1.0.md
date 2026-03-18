@@ -44,14 +44,14 @@
 #### **Obligaciones Contractuales Principales:**
 - **AT9:** Gestión de cronograma con fechas críticas del proyecto
 - **AT2:** Operación y mantenimiento con disponibilidad 99.95%
-- **AT4:** Indicadores de desempeño con KPIs contractuales
+- **AT4:** Indicadores de desempeno con KPIs contractuales
 - **Criterios Técnicos Maestros:** Gestión integral de cronograma y recursos
 
 #### **Criterios de Aceptación Contractual:**
 - **Cronograma:** Cumplimiento 100% de fechas críticas
 - **Recursos:** Disponibilidad 100% de recursos críticos
 - **Calidad:** Cumplimiento 100% de estándares de calidad
-- **Desempeño:** Cumplimiento 100% de KPIs contractuales
+- **Desempeno:** Cumplimiento 100% de KPIs contractuales
 
 ---
 
@@ -215,13 +215,13 @@
 #### **Competencias Requeridas:**
 | Competencia | Nivel | Certificación | Vigencia |
 |:------------|:------|:--------------|:---------|
-| **Gestión de Proyectos** | Avanzado | PMP, PMI | 3 años |
-| **Sistemas Ferroviarios** | Experto | FRA/AREMA, EN 50126 | 2 años |
-| **Telecomunicaciones** | Experto | TETRA, Red Vital IP / TETRA | 2 años |
-| **Control y Señalización** | Experto | PTC Virtual (FRA 236) | 2 años |
-| **Material Rodante** | Experto | FRA/AREMA, AAR | 2 años |
-| **Gestión Ambiental** | Avanzado | ISO 14001 | 2 años |
-| **Calidad** | Avanzado | ISO 9001 | 2 años |
+| **Gestión de Proyectos** | Avanzado | PMP, PMI | 3 anos |
+| **Sistemas Ferroviarios** | Experto | FRA/AREMA, EN 50126 | 2 anos |
+| **Telecomunicaciones** | Experto | TETRA, Red Vital IP / TETRA | 2 anos |
+| **Control y Senalización** | Experto | PTC Virtual (FRA 236) | 2 anos |
+| **Material Rodante** | Experto | FRA/AREMA, AAR | 2 anos |
+| **Gestión Ambiental** | Avanzado | ISO 14001 | 2 anos |
+| **Calidad** | Avanzado | ISO 9001 | 2 anos |
 
 ---
 
@@ -229,7 +229,7 @@
 
 ### **4.1 Materiales Principales por Sistema**
 
-#### **Sistema de Control y Señalización:**
+#### **Sistema de Control y Senalización:**
 | Material | Cantidad | Especificación | Proveedor | Estado |
 |:---------|:---------|:---------------|:----------|:-------|
 | Servidores CTC | 4 unidades | Dell PowerEdge R750 | Dell | ✅ Entregado |
@@ -397,7 +397,7 @@
 ### **9.1 Documentos Contractuales Base**
 - `FORMATEADO_APENDICE TECNICO 9.md` - Gestión de cronograma (AT9)
 - `FORMATEADO_APENDICE TECNICO 2.md` - Operación y mantenimiento (AT2)
-- `FORMATEADO_APENDICE TECNICO 4.md` - Indicadores de desempeño (AT4)
+- `FORMATEADO_APENDICE TECNICO 4.md` - Indicadores de desempeno (AT4)
 
 ### **9.2 Documentos de Planificación**
 - `WBS_Presupuestal_v2.0.md` - WBS presupuestal
@@ -405,7 +405,7 @@
 - `23_ListadoMaestro_Sistemas_v5.0.md` - Listado maestro de sistemas
 
 ### **9.3 Documentos de Sistemas Técnicos**
-- `X_ENTREGABLES_CONSOLIDADOS/1_SISTEMAS_TECNICOS/SISTEMA_01_Control_y_Senalizacion_Master.md` - Control y señalización
+- `X_ENTREGABLES_CONSOLIDADOS/1_SISTEMAS_TECNICOS/SISTEMA_01_Control_y_Senalizacion_Master.md` - Control y senalización
 - `X_ENTREGABLES_CONSOLIDADOS/1_SISTEMAS_TECNICOS/SISTEMA_02_Telecomunicaciones_Master.md` - Telecomunicaciones
 - `X_ENTREGABLES_CONSOLIDADOS/1_SISTEMAS_TECNICOS/SISTEMA_03_ITS_y_Seguridad_Master.md` - ITS y seguridad
 - `X_ENTREGABLES_CONSOLIDADOS/1_SISTEMAS_TECNICOS/SISTEMA_04_Material_Rodante_Master.md` - Material rodante

@@ -70,7 +70,7 @@ Se propone una arquitectura de CCTV por zonas, que optimiza la gestión y la esc
 El sistema CCTV no es solo técnico, es una herramienta social. Su implementación seguirá estos principios:
 - **Diseno Participativo:** Se realizarán talleres con las comunidades para definir la ubicación de las cámaras en espacios públicos, buscando un consenso entre seguridad y privacidad.
 - **Protocolo de Uso Ético:** Se creará y socializará un protocolo claro sobre el uso de las grabaciones, en cumplimiento de la Ley 1581 de 2012, definiendo quién puede acceder a ellas y con qué propósito.
-- **Señalización Visible:** Todas las áreas bajo videovigilancia contarán con señalización clara e informativa, como lo exige la normativa de protección de datos.
+- **Senalización Visible:** Todas las áreas bajo videovigilancia contarán con senalización clara e informativa, como lo exige la normativa de protección de datos.
 
 ---
 
@@ -97,7 +97,7 @@ La siguiente matriz integra los requisitos de los diferentes apéndices en funci
 ## 5. CONCLUSIONES Y PRÓXIMOS PASOS
 
 ### 5.1 Estado del Documento v4.0
-Este documento ha sido actualizado a la versión 4.0, estableciendo un **plan conceptual integrado para el Sistema CCTV**. Define una arquitectura por zonas, integra los requisitos técnicos (AT1, AT3) con los sociales (AT8) y de desempeño (AT4), y establece una estrategia clara para mitigar los riesgos derivados de los bloqueos documentales.
+Este documento ha sido actualizado a la versión 4.0, estableciendo un **plan conceptual integrado para el Sistema CCTV**. Define una arquitectura por zonas, integra los requisitos técnicos (AT1, AT3) con los sociales (AT8) y de desempeno (AT4), y establece una estrategia clara para mitigar los riesgos derivados de los bloqueos documentales.
 
 ### 5.2 Acciones Requeridas para Mantener v4.0
 - **Ejecución de Talleres Sociales:** Iniciar la coordinación con el equipo de Gestión Social para planificar los talleres de diseno participativo.

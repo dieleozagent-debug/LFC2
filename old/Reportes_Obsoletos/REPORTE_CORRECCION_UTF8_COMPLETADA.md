@@ -25,7 +25,7 @@ Se ha resuelto el problema crítico de codificación que bloqueaba el avance del
 | `FORMATEADO_APENDICE TECNICO 1.md` | ✅ Corregido | ✅ Creado | AT1 - Alcance del Proyecto |
 | `FORMATEADO_APENDICE TECNICO 2.md` | ✅ Corregido | ✅ Creado | AT2 - Operación y Mantenimiento |
 | `FORMATEADO_APENDICE TECNICO 3.md` | ✅ Corregido | ✅ Creado | AT3 - Especificaciones Generales |
-| `FORMATEADO_APENDICE TECNICO 4.md` | ✅ Corregido | ✅ Creado | AT4 - Indicadores de Desempeño |
+| `FORMATEADO_APENDICE TECNICO 4.md` | ✅ Corregido | ✅ Creado | AT4 - Indicadores de Desempeno |
 | `FORMATEADO_APENDICE TECNICO 5.md` | ✅ Corregido | ✅ Creado | AT5 - Interferencias |
 | `FORMATEADO_APENDICE TECNICO 6.md` | ✅ Corregido | ✅ Creado | AT6 - Ambiental |
 | `FORMATEADO_APENDICE TECNICO 7.md` | ✅ Corregido | ✅ Creado | AT7 - Predios |
@@ -48,9 +48,9 @@ Se ha resuelto el problema crítico de codificación que bloqueaba el avance del
 
 ### **Correcciones Aplicadas:**
 ```python
-# Caracteres españoles corruptos corregidos:
+# Caracteres espanoles corruptos corregidos:
 'á' → 'á', 'é' → 'é', 'í' → 'í', 'ó' → 'ó', 'ú' → 'ú'
-'ñ' → 'ñ', 'Ã¼' → 'ü'
+'n' → 'n', 'Ã¼' → 'ü'
 
 # Caracteres especiales corregidos:
 'Ã¢' → 'â', 'Ã£' → 'ã', 'Ã¤' → 'ä', 'Ã¥' → 'å'

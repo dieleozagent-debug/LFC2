@@ -30,7 +30,7 @@ El Sistema de ITS y Seguridad es el **"sistema de vigilancia y protección"** de
 
 ---
 
-## 🔍 CRITERIOS DE DISEÑO Y JUSTIFICACIONES TÉCNICAS
+## 🔍 CRITERIOS DE DISENO Y JUSTIFICACIONES TÉCNICAS
 
 ### ¿Por qué 73 cámaras CCTV específicamente?
 **Desglose Técnico por Ubicación:**
@@ -270,7 +270,7 @@ El sistema opera 24/7 proporcionando monitoreo continuo de instalaciones crític
 ### Referencias contractuales
 - **Apéndice Técnico 1:** Alcance del proyecto - Sistemas de seguridad
 - **Apéndice Técnico 3:** Especificaciones generales - CCTV, ITS, Control accesos
-- **Apéndice Técnico 4:** Indicadores de desempeño - Disponibilidad 99.5%
+- **Apéndice Técnico 4:** Indicadores de desempeno - Disponibilidad 99.5%
 - **Apéndice Técnico 6:** Gestión ambiental - Monitoreo ambiental
 
 ---
@@ -301,7 +301,7 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 ---
 
-## 📊 INDICADORES DE DESEMPEÑO (KPIs)
+## 📊 INDICADORES DE DESEMPENO (KPIs)
 
 | Indicador | Meta | Actual | Estado |
 |:----------|:-----|:-------|:-------|

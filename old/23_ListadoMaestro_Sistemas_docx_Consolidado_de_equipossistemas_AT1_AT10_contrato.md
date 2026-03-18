@@ -46,15 +46,15 @@ Este documento de soporte consolida el inventario maestro de todos los sistemas 
 Este documento consolida el Listado Maestro de Sistemas que el EPC debe implementar conforme a lo establecido en el Contrato de Concesión No. 001 de 2025 y los Apéndices Técnicos AT1–AT10. El objetivo es disponer de un inventario único, con referencias contractuales, para servir de base a la Ingeniería Conceptual, Básica y de Detalle.
 
 2. Sistemas Identificados
-A. Sistemas de Señalización y Control
+A. Sistemas de Senalización y Control
 Centro de Control de Tráfico (CTC)
 Referencias: AT1 (Cap. 4.3.2), AT2 (Cap. 3.2.1), AT3 (Cap. 8.2), AT4 (indicadores), AT9 (cronograma).
 Funciones: control centralizado, asignación de surcos, coordinación con FENOCO.
 Disponibilidad: 99.95% según AT4.
 Interoperabilidad: Protocolos FRA/AREMA para coordinación con FENOCO.
-Señalización Ferroviaria
+Senalización Ferroviaria
 Referencias: AT3 (Cap. 8.1), AT2 (Cap. 3.1.2).
-Funciones: señalización de vía, pasos a nivel, semaforización ferroviaria.
+Funciones: senalización de vía, pasos a nivel, semaforización ferroviaria.
 Sistema PTC/PTC (Positive Train Control)
 Referencias: AT1 (Cap. 5.1), AT3 (Cap. 8.10), Cl. 13.1 del Contrato.
 Funciones: seguridad tren-tierra, control automático de trenes (PTC Virtual (FRA 236) hasta AT3).
@@ -72,7 +72,7 @@ Referencias: AT3 (Cap. 8.6), AT5 (interferencias), AT7 (predios).
 Funciones: backbone redundante de comunicaciones.
 Red de Datos Ferroviaria
 Referencias: AT3 (Cap. 8.8.3), AT1 (UF2 – Tabla 16).
-Funciones: integración de sistemas ITS, CCTV, señalización y CTC.
+Funciones: integración de sistemas ITS, CCTV, senalización y CTC.
 
 C. Sistemas ITS y Seguridad
 Circuito Cerrado de Televisión (CCTV)

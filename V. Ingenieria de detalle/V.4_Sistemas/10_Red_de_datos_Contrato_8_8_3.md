@@ -42,7 +42,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 
 #### **INTEGRACIÓN CON SISTEMAS FERROVIARIOS**
 - **CTC:** Red de datos para centro de control de tráfico
-- **Señalización:** Conectividad para enclavamientos electrónicos
+- **Senalización:** Conectividad para enclavamientos electrónicos
 - **PTC:** Red de datos para sistemas de control embarcado
 - **Radio TETRA:** Backhaul de datos para estaciones base
 - **Fibra Óptica:** Medio de transmisión principal para red de datos

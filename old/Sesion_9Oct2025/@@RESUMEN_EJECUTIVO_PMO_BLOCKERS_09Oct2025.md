@@ -321,7 +321,7 @@
 > Retrasos >2 meses activan extensión plazo automática."
 
 **5. Interoperabilidad FENOCO:**
-> "Gateway diseñado según FRA/AREMA 918-4 estándar. Integración efectiva
+> "Gateway disenado según FRA/AREMA 918-4 estándar. Integración efectiva
 > con Trainguard sujeta a colaboración FENOCO. Sin especificaciones,
 > EPC entrega gateway genérico documentado."
 

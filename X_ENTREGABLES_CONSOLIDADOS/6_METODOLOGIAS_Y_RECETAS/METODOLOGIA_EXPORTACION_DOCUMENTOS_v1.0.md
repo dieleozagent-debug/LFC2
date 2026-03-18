@@ -153,7 +153,7 @@ pandoc "archivo.md" -o "archivo.html" --standalone
 **Características de conversión:**
 - ✅ Tablas Markdown → Tablas Word/HTML
 - ✅ Encabezados → Estilos de título
-- ✅ Listas → Listas numeradas/viñetas
+- ✅ Listas → Listas numeradas/vinetas
 - ✅ Negritas/Cursivas → Formato preservado
 - ✅ Enlaces → Hipervínculos funcionales
 - ✅ Emojis → Caracteres Unicode
@@ -201,10 +201,10 @@ pandoc "archivo.md" -o "archivo.pdf" --pdf-engine=wkhtmltopdf
 - [ ] Tablas se visualizan correctamente
 - [ ] Encabezados tienen jerarquía correcta
 - [ ] Formato de texto preservado (negritas, cursivas)
-- [ ] Listas numeradas/viñetas correctas
+- [ ] Listas numeradas/vinetas correctas
 - [ ] Enlaces son hipervínculos funcionales
 - [ ] Saltos de página apropiados
-- [ ] Tamaño de archivo razonable (<1 MB por documento)
+- [ ] Tamano de archivo razonable (<1 MB por documento)
 
 **Archivos HTML (.html):**
 - [ ] Página se carga sin errores
@@ -229,7 +229,7 @@ pandoc "archivo.md" -o "archivo.pdf" --pdf-engine=wkhtmltopdf
 ✅ **Formato:** Tablas, listas y estilos correctos  
 ✅ **Navegación:** Enlaces y referencias funcionales  
 ✅ **Accesibilidad:** Texto seleccionable y legible  
-✅ **Tamaño:** Archivos optimizados (<1 MB cada uno)  
+✅ **Tamano:** Archivos optimizados (<1 MB cada uno)  
 
 #### **3.3: ORGANIZACIÓN PARA DISTRIBUCIÓN**
 
@@ -336,8 +336,8 @@ Move-Item "*.pdf" -Destination "8_DOCUMENTOS_SERVIDOS/PDF/"
 - **Documentos procesados:** 13 documentos ejecutivos
 - **Formatos generados:** 26 archivos (13 .docx + 13 .html)
 - **Tasa de éxito:** 100% (0 errores)
-- **Tamaño promedio:** ~18 KB (.docx), ~25 KB (.html)
-- **Tamaño total:** ~560 KB (26 archivos)
+- **Tamano promedio:** ~18 KB (.docx), ~25 KB (.html)
+- **Tamano total:** ~560 KB (26 archivos)
 
 ### **CALIDAD DE CONVERSIÓN:**
 - **Fidelidad de contenido:** 100%

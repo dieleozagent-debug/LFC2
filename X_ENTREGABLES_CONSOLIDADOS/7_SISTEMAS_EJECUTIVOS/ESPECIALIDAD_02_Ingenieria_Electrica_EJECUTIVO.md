@@ -28,7 +28,7 @@ La Ingeniería Eléctrica es el **"sistema circulatorio"** del ferrocarril que p
 
 ---
 
-## 🔍 CRITERIOS DE DISEÑO Y JUSTIFICACIONES TÉCNICAS
+## 🔍 CRITERIOS DE DISENO Y JUSTIFICACIONES TÉCNICAS
 
 ### ¿Por qué 800 kVA de alimentación principal?
 **Justificación de Capacidad:**
@@ -229,7 +229,7 @@ Los sistemas eléctricos operan 24/7 proporcionando energía eléctrica confiabl
 | **Demanda máxima** | 800 kVA | Sobrecarga si aumenta | Diseno escalable |
 | **Factor de potencia** | 0.95 | Penalizaciones si reduce | Corrección automática |
 | **Disponibilidad red** | 99.5% | Mayor uso de respaldo | Sistemas redundantes |
-| **Calidad de energía** | THD < 5% | Daños a equipos si aumenta | Filtros armónicos |
+| **Calidad de energía** | THD < 5% | Danos a equipos si aumenta | Filtros armónicos |
 | **Tiempo de respaldo** | 8 horas | Fallo si excede | Generador automático |
 
 ### Limitaciones del Diseno
@@ -273,7 +273,7 @@ Los sistemas eléctricos operan 24/7 proporcionando energía eléctrica confiabl
 - **Apéndice Técnico 1:** Alcance del proyecto - Sistemas eléctricos
 - **Apéndice Técnico 2:** Operación y mantenimiento - Sistemas eléctricos
 - **Apéndice Técnico 3:** Especificaciones técnicas - Sistemas eléctricos
-- **Apéndice Técnico 4:** Indicadores de desempeño - Disponibilidad
+- **Apéndice Técnico 4:** Indicadores de desempeno - Disponibilidad
 - **Apéndice Técnico 6:** Gestión ambiental - Eficiencia energética
 
 ---
@@ -303,7 +303,7 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 ---
 
-## 📊 INDICADORES DE DESEMPEÑO (KPIs)
+## 📊 INDICADORES DE DESEMPENO (KPIs)
 
 | Indicador | Meta | Actual | Estado |
 |:----------|:-----|:-------|:-------|

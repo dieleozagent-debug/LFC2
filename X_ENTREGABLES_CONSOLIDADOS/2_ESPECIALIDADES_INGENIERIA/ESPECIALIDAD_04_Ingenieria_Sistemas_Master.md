@@ -142,7 +142,7 @@
 | **Cantidad** | 5 estaciones | Estaciones críticas |
 | **Redundancia** | N+1 | Sistemas redundantes |
 | **Disponibilidad** | 99.95% | Sistema crítico |
-| **Interfaces** | CTC, Señalización, TETRA | Comunicación integrada |
+| **Interfaces** | CTC, Senalización, TETRA | Comunicación integrada |
 
 ### **3.2 Especificaciones Básicas de Comunicaciones**
 
@@ -199,7 +199,7 @@
 | **Cantidad** | 120 unidades | 25 motorizados + 95 manuales |
 | **Control** | Centralizado desde CTC | Control integrado |
 | **Disponibilidad** | 99.95% | Sistema crítico |
-| **Interfaces** | CTC, ENCE, Señalización | Control integrado |
+| **Interfaces** | CTC, ENCE, Senalización | Control integrado |
 
 ---
 
@@ -480,7 +480,7 @@
 - `FORMATEADO_APENDICE TECNICO 1.md` - Alcance del proyecto (AT1) - Sistemas integrados
 - `FORMATEADO_APENDICE TECNICO 2.md` - Operación y mantenimiento (AT2) - Sistemas integrados
 - `FORMATEADO_APENDICE TECNICO 3.md` - Especificaciones generales (AT3) - Sistemas integrados
-- `FORMATEADO_APENDICE TECNICO 4.md` - Indicadores de desempeño (AT4) - Disponibilidad
+- `FORMATEADO_APENDICE TECNICO 4.md` - Indicadores de desempeno (AT4) - Disponibilidad
 - `FORMATEADO_APENDICE TECNICO 6.md` - Gestión ambiental (AT6) - Sistemas integrados
 
 ### **9.2 Documentos de Ingeniería Conceptual**
@@ -493,7 +493,7 @@
 
 ### **9.4 Documentos de Ingeniería de Detalle**
 - `V.4.1_Sistemas_Ferroviarios_Integrados_DETALLADO.md` - Sistemas ferroviarios integrados
-- `X_ENTREGABLES_CONSOLIDADOS/1_SISTEMAS_TECNICOS/SISTEMA_01_Control_y_Senalizacion_Master.md` - Control y señalización
+- `X_ENTREGABLES_CONSOLIDADOS/1_SISTEMAS_TECNICOS/SISTEMA_01_Control_y_Senalizacion_Master.md` - Control y senalización
 - `X_ENTREGABLES_CONSOLIDADOS/1_SISTEMAS_TECNICOS/SISTEMA_02_Telecomunicaciones_Master.md` - Telecomunicaciones
 - `X_ENTREGABLES_CONSOLIDADOS/1_SISTEMAS_TECNICOS/SISTEMA_03_ITS_y_Seguridad_Master.md` - ITS y seguridad
 

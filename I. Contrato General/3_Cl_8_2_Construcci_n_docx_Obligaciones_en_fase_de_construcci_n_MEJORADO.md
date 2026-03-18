@@ -63,18 +63,18 @@ Capítulo VI, Sección 6.1 - Obligaciones generales durante la Fase de Construcc
 Capítulo VI, Sección 6.1(h) - Auditorías integrales durante construcción
 Referencias a Apéndices Técnicos:
 Apéndice 1 - Alcance físico y sitios: talleres, edificios, CCO y material rodante a intervenir (define dónde va cada sistema)
-Apéndice 3 - Especificaciones técnicas: señalización (8.1), CTC (8.2), pasos a nivel (8.3), comunicaciones (8.4), radio TETRA (8.5), fibra (8.6), instalaciones eléctricas (8.7), CCTV/interfonía/datos (8.8), incendio (8.9), equipos embarcados (8.10)
-Apéndice 4 - Indicadores/SICC: exige monitoreo y evidencia para disponibilidad y calidad (implica diseñar/instalar con telemetría/logs)
+Apéndice 3 - Especificaciones técnicas: senalización (8.1), CTC (8.2), pasos a nivel (8.3), comunicaciones (8.4), radio TETRA (8.5), fibra (8.6), instalaciones eléctricas (8.7), CCTV/interfonía/datos (8.8), incendio (8.9), equipos embarcados (8.10)
+Apéndice 4 - Indicadores/SICC: exige monitoreo y evidencia para disponibilidad y calidad (implica disenar/instalar con telemetría/logs)
 Apéndice 5 - Interferencias con redes: coordinación y traslados durante construcción
 Apéndice 6 - Gestión ambiental: obligaciones específicas en construcción (manejo de aguas, ruido, polvo, permisos, ICA)
 Apéndice 7 - Gestión predial: disponibilidad/planos de requerimiento predial para torres, nodos y cuartos técnicos
 Apéndice 9 - Plan de obras: cronograma, frentes y ruta crítica por sistema
-Apéndice 10 - Capacidad y surcos: integración CTC–señalización–PTC y soporte de simulación para entrada en operación
+Apéndice 10 - Capacidad y surcos: integración CTC–senalización–PTC y soporte de simulación para entrada en operación
 2. Alcance de la obligación
 2.1 Sistemas a construir e integrar
 La Etapa de Construcción incluye:
 A. Infraestructura y locales técnicos: salas/armarios, canalizaciones, puesta a tierra, alimentación, climatización (Ap. 1 + Ap. 3)
-B. Señalización y detección (8.1): punto de referencia virtuals, contadores de ejes, circuitos de vía; gabinetes, energía, cableado, software de lógica
+B. Senalización y detección (8.1): punto de referencia virtuals, contadores de ejes, circuitos de vía; gabinetes, energía, cableado, software de lógica
 C. CTC y detectores auxiliares (8.2): servidores, puestos de operador, SCADA ferroviario, enlaces, integración con detectores de ejes calientes/impacto
 D. Pasos a nivel (8.3): semibarreras, luces/sonoras, controladores y enlace remoto al CTC
 E. Comunicaciones de campo y backbone (8.4–8.6): arquitectura IP/MPLS, TETRA, fibra y nodos de acceso; sincronización, QoS y redundancias
@@ -151,10 +151,10 @@ Torres de telecomunicaciones (predios Ap. 7)
 Canalización fibra óptica (coordinación interferencias Ap. 5)
 Fase C – Montaje electromecánico
 3.5 Instalación de equipos de campo
-Señales, detectores, controladores de paso a nivel
+Senales, detectores, controladores de paso a nivel
 Cámaras CCTV, equipos TETRA, nodos fibra
 3.6 Cableado y enlaces
-Cableado de señalización, energía, comunicaciones
+Cableado de senalización, energía, comunicaciones
 Enlaces fibra óptica y microondas
 Fase D – Instalación de sistemas centrales
 3.7 Centro de Control de Operaciones (CCO)
@@ -181,7 +181,7 @@ Sistema
 Cobertura real >95% en campo
 Test drive completo
 
-Señalización
+Senalización
 Lógica 100% funcional
 Integración con trenes reales
 Eventos registrados
@@ -224,7 +224,7 @@ Entregable
 
 Repuestos críticos
 EPC Construcción
-Inventario mínimo 2 años
+Inventario mínimo 2 anos
 Almacén O&M
 
 Transferencia personal
@@ -251,7 +251,7 @@ Coordinación con gestión social (Ap. 8)
 4.4 Gestión de capacidad y surcos
 (Ap. 10, Secciones 2.1–2.2)
 Configuración CTC coherente con método de simulación
-Lógica de señalización alineada con asignación de surcos
+Lógica de senalización alineada con asignación de surcos
 Pruebas de capacidad previas a entrada en operación
 5. Hitos y criterios de aceptación
 5.1 Gates de fase obligatorios
@@ -269,7 +269,7 @@ Aprobación formal de Interventoría por gate
 6.1 Documentación técnica obligatoria
 PEOS – Plan de Ejecución e Integración de Obra de Sistemas (secuencia, dependencias, matriz readiness)
 Plan de Obras por Sistema y UF (Ap. 9) con ruta crítica y frentes coordinados
-ITPs y Plan QA/QC por sistema (señalización, CTC, TETRA, FO, CCTV, incendio, eléctricos)
+ITPs y Plan QA/QC por sistema (senalización, CTC, TETRA, FO, CCTV, incendio, eléctricos)
 Plan FAT/SAT y protocolos de pruebas con criterios de aceptación e indicadores SICC específicos
 Plan de Gestión de Interferencias (Ap. 5) con permisos y ventanas de trabajo programadas
 Plan Ambiental de Obra (Ap. 6, Sección 6.1) con matrices de control polvo/ruido/vertimientos
@@ -291,7 +291,7 @@ C (Consulted): Revisa, exige evidencias y emite "no objeción"
 I (Informed): Valida indicadores (Ap. 4) y recibe reportes ICA
 A: Aprobación de gates de fase y criterios de aceptación
 Terceros (ESP/hidrocarburos):
-C: Autorizaciones y acompañamiento en traslados/protecciones (Ap. 5)
+C: Autorizaciones y acompanamiento en traslados/protecciones (Ap. 5)
 I: Coordinación de ventanas de trabajo
 Equipo O&M (pre-entrada):
 C: Pruebas operativas, validación de manuales
@@ -383,7 +383,7 @@ Contenido mínimo obligatorio:
 ✅ FAT/SAT aprobados con evidencias documentadas
 ✅ Indicadores mínimos cumplidos en pruebas (evidencia SICC)
 ✅ Manuales de O&M completos y aprobados
-✅ Repuestos críticos con inventario mínimo 2 años
+✅ Repuestos críticos con inventario mínimo 2 anos
 ✅ As-built actualizados y registrados en SICC
 ✅ Permisos vigentes y obligaciones ambientales al día
 ✅ Auditorías integrales completadas sin hallazgos críticos
@@ -488,7 +488,7 @@ Proxima actualizacion: 27/02/2025
    - **Montaje embarcado:** Instalación de equipos PTC PTC Virtual (FRA 236) en locomotoras
    - **Integración CTC:** Conexión de sistemas embarcados con Centro de Control
    - **Pruebas SAT:** Validación de interoperabilidad PTC con sistemas FENOCO
-   - **Simulación de capacidad:** Pruebas de integración CTC-señalización-PTC
+   - **Simulación de capacidad:** Pruebas de integración CTC-senalización-PTC
 
 2. **🔗 INTEROPERABILIDAD FENOCO EN CONSTRUCCIÓN:**
    - **Protocolos FRA/AREMA:** Implementación de estándares FRA/AREMA durante montaje

@@ -1,4 +1,4 @@
-# SISTEMA 01: CONTROL Y SEÑALIZACIÓN
+# SISTEMA 01: CONTROL Y SENALIZACIÓN
 ## Documento Ejecutivo de Ingeniería
 
 ---
@@ -6,7 +6,7 @@
 ## 📊 RESUMEN EJECUTIVO
 
 ### Qué es este sistema y por qué importa
-El Sistema de Control y Señalización es el **"cerebro" del ferrocarril** que permite la operación segura y eficiente de todos los trenes. Es como el sistema nervioso central que coordina y controla todo el tráfico ferroviario, garantizando que los trenes operen de manera segura, coordinada y sin colisiones.
+El Sistema de Control y Senalización es el **"cerebro" del ferrocarril** que permite la operación segura y eficiente de todos los trenes. Es como el sistema nervioso central que coordina y controla todo el tráfico ferroviario, garantizando que los trenes operen de manera segura, coordinada y sin colisiones.
 
 ### Alcance en números - JUSTIFICACIÓN TÉCNICA
 - **Inversión estimada:** $65,000 millones COP
@@ -28,21 +28,21 @@ El Sistema de Control y Señalización es el **"cerebro" del ferrocarril** que p
 
 ---
 
-## 🔍 CRITERIOS DE DISEÑO Y JUSTIFICACIONES TÉCNICAS
+## 🔍 CRITERIOS DE DISENO Y JUSTIFICACIONES TÉCNICAS
 
 ### ¿Por qué Filosofía Virtual (sin Filosofía PTC Virtual)?
 **Análisis de Alternativas:**
 | Alternativa | Ventajas | Desventajas | Decisión |
 |:------------|:---------|:------------|:---------|
 | **Filosofía PTC Virtual** | Familiar, visible | Costo elevado, mantenimiento complejo | ❌ Rechazada |
-| **Señalización Virtual** | Costo optimizado, mantenimiento simplificado | Requiere PTC embarcado | ✅ **Seleccionada** |
+| **Senalización Virtual** | Costo optimizado, mantenimiento simplificado | Requiere PTC embarcado | ✅ **Seleccionada** |
 | **Servidor PTC Central** | Control centralizado FRA | No aplicable para filosofía propietaria | ✅ **Arquitectura Base** |
 | **Servidor PTC Central (PTC Virtual (SICC))** | Estándar Propietario Europeo | Dependencia tecnológica (Monopolio) | ❌ **Rechazado** |
 | **Control Distribuido** | Redundancia geográfica | Complejidad operacional | ❌ Rechazada |
 
 **Justificación de la Decisión:**
-- **Costo optimizado:** Eliminación de 120 señales físicas y cableado asociado
-- **Mantenimiento simplificado:** Sin mantenimiento de señalización en vía
+- **Costo optimizado:** Eliminación de 120 senales físicas y cableado asociado
+- **Mantenimiento simplificado:** Sin mantenimiento de senalización en vía
 - **Flexibilidad:** Cambios de configuración desde CCO sin intervención en vía
 - **Disponibilidad:** Redundancia N+1 en CCO vs redundancia distribuida
 
@@ -55,7 +55,7 @@ El Sistema de Control y Señalización es el **"cerebro" del ferrocarril** que p
   - **2 unidades diseno/pruebas:** FAT, SAT y comisionamiento
   - **1 unidad contingencia:** Respaldo estratégico
 - **Total optimizado:** 8 PTC embarcados (ahorro 47% vs 15 originales)
-- **Tecnología PTC Virtual (FRA 49 CFR 236):** Estándar Americano de alto rendimiento (Sin señales)
+- **Tecnología PTC Virtual (FRA 49 CFR 236):** Estándar Americano de alto rendimiento (Sin senales)
 - **Decisión Técnica:** DT-TETRA-001-2025-10-07 (aprobada por PMO + Especialista Sistemas)
 
 ### ¿Por qué 5 ENCE (no más, no menos)?
@@ -101,7 +101,7 @@ El Sistema de Control y Señalización es el **"cerebro" del ferrocarril** que p
 ## 🎯 FUNCIÓN Y PROPÓSITO DEL SISTEMA
 
 ### ¿Qué hace este sistema?
-El Sistema de Control y Señalización proporciona **control centralizado** de todo el tráfico ferroviario:
+El Sistema de Control y Senalización proporciona **control centralizado** de todo el tráfico ferroviario:
 - **Control de tráfico:** Coordinación de todos los trenes en el corredor
 - **Protección automática:** Prevención de colisiones y descarrilamientos
 - **Gestión de rutas:** Asignación y control de rutas para cada tren
@@ -115,11 +115,11 @@ El Sistema de Control y Señalización proporciona **control centralizado** de t
 
 ### ¿Cómo se integra con otros sistemas?
 ```
-[Telecomunicaciones] ←→ [Control y Señalización] ←→ [PTC Embarcado]
+[Telecomunicaciones] ←→ [Control y Senalización] ←→ [PTC Embarcado]
                                     ↓
-[Monitoreo] ←→ [Control y Señalización] ←→ [Infraestructura V-Block]
+[Monitoreo] ←→ [Control y Senalización] ←→ [Infraestructura V-Block]
                                     ↓
-[Monitoreo] ←→ [Control y Señalización] ←→ [Seguridad]
+[Monitoreo] ←→ [Control y Senalización] ←→ [Seguridad]
 ```
 
 ---
@@ -242,11 +242,11 @@ El sistema opera 24/7 proporcionando control centralizado de todo el tráfico fe
 
 ### Diagrama de interfaces
 ```
-[Telecomunicaciones] ←→ [Control y Señalización] ←→ [Material Rodante]
+[Telecomunicaciones] ←→ [Control y Senalización] ←→ [Material Rodante]
                                     ↓
-[ITS y Seguridad] ←→ [Control y Señalización] ←→ [Infraestructura]
+[ITS y Seguridad] ←→ [Control y Senalización] ←→ [Infraestructura]
                                     ↓
-[Integración] ←→ [Control y Señalización] ←→ [Sistemas Externos]
+[Integración] ←→ [Control y Senalización] ←→ [Sistemas Externos]
 ```
 
 ### Tabla de interfaces críticas
@@ -353,7 +353,7 @@ El sistema opera 24/7 proporcionando control centralizado de todo el tráfico fe
 - **Apéndice Técnico 1:** Alcance del proyecto - Centro de Control Operacional
 - **Apéndice Técnico 2:** Operación y mantenimiento - Sistema de operación centralizada
 - **Apéndice Técnico 3:** Especificaciones generales - PTC PTC Virtual (FRA 236)
-- **Apéndice Técnico 4:** Indicadores de desempeño - Disponibilidad 99.95%
+- **Apéndice Técnico 4:** Indicadores de desempeno - Disponibilidad 99.95%
 
 ---
 
@@ -363,7 +363,7 @@ El sistema opera 24/7 proporcionando control centralizado de todo el tráfico fe
 | Documento | Fase | Versión | Ubicación |
 |:----------|:-----|:--------|:----------|
 | SISTEMA_01_Control_y_Senalizacion_Master.md | Consolidado | v1.0 | Carpeta X |
-| V.1_Señalizacion_Ferroviaria_Detalle_v5.0.md | Detalle | v5.0 | V. Ingeniería |
+| V.1_Senalizacion_Ferroviaria_Detalle_v5.0.md | Detalle | v5.0 | V. Ingeniería |
 | V.2_Centro_Control_Trafico_CTC_Detalle_v5.0.md | Detalle | v5.0 | V. Ingeniería |
 | 6.1_Manual_OM_CTC_v5.0.md | Operación | v5.0 | VI. Operación |
 
@@ -376,13 +376,13 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 
 | Rol | Responsable | Contacto |
 |:----|:------------|:---------|
-| Líder Técnico Control y Señalización | [Nombre] | [Email/Tel] |
+| Líder Técnico Control y Senalización | [Nombre] | [Email/Tel] |
 | Coordinador EPC Sistemas | [Nombre] | [Email/Tel] |
 | Responsable CTC Virtual | [Nombre] | [Email/Tel] |
 
 ---
 
-## 📊 INDICADORES DE DESEMPEÑO (KPIs)
+## 📊 INDICADORES DE DESEMPENO (KPIs)
 
 | Indicador | Meta | Actual | Estado |
 |:----------|:-----|:-------|:-------|

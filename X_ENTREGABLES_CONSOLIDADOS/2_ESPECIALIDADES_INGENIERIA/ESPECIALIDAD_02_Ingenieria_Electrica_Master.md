@@ -203,7 +203,7 @@
 | **Circuito TETRA** | XLPE, 0.6/1 kV | 70 mm² | Estaciones TETRA |
 | **Circuito Red Vital IP / TETRA** | XLPE, 0.6/1 kV | 70 mm² | Estaciones Red Vital IP / TETRA |
 | **Circuito ENCE** | XLPE, 0.6/1 kV | 50 mm² | Enclavamientos |
-| **Control** | XLPE, 0.6/1 kV | 10 mm² | Señales de control |
+| **Control** | XLPE, 0.6/1 kV | 10 mm² | Senales de control |
 
 #### **Sistemas de Canalización:**
 | Tipo | Material | Dimensiones | Aplicación |
@@ -244,7 +244,7 @@
 | **Capacidad** | 2000 Ah |
 | **Tensión** | 480 V DC |
 | **Autonomía** | 15 minutos |
-| **Vida útil** | 10 años |
+| **Vida útil** | 10 anos |
 | **Temperatura de operación** | 20°C ± 5°C |
 
 ### **4.3 Sistemas de Puesta a Tierra**
@@ -464,7 +464,7 @@
 - `FORMATEADO_APENDICE TECNICO 1.md` - Alcance del proyecto (AT1) - Sistemas eléctricos
 - `FORMATEADO_APENDICE TECNICO 2.md` - Operación y mantenimiento (AT2) - Sistemas eléctricos
 - `FORMATEADO_APENDICE TECNICO 3.md` - Especificaciones generales (AT3) - Sistemas eléctricos
-- `FORMATEADO_APENDICE TECNICO 4.md` - Indicadores de desempeño (AT4) - Disponibilidad
+- `FORMATEADO_APENDICE TECNICO 4.md` - Indicadores de desempeno (AT4) - Disponibilidad
 - `FORMATEADO_APENDICE TECNICO 6.md` - Gestión ambiental (AT6) - Eficiencia energética
 
 ### **9.2 Documentos de Ingeniería Conceptual**

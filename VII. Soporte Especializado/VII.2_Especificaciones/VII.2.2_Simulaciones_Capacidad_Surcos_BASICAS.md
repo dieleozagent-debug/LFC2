@@ -35,7 +35,7 @@ Este documento presenta las simulaciones de capacidad para el corredor **La Dora
 
 ### **3.1 BLOQUE DINÁMICO (VIRTUAL BLOCKING)**
 A diferencia de los circuitos de vía fijos, el PTC Virtual permite reducir el intervalo entre trenes (Headway) de forma segura:
-- **Intervalo con Señalización Convencional:** 30 minutos.
+- **Intervalo con Senalización Convencional:** 30 minutos.
 - **Intervalo con PTC Virtual (MA Dinámica):** 10 - 15 minutos (Optimización del 50%).
 
 ### **3.2 ASIGNACIÓN DE SURCOS (EJEMPLO DIARIO)**

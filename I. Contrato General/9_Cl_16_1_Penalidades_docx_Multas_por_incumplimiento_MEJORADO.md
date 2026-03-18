@@ -61,7 +61,7 @@ Este documento contractual establece el régimen de penalidades y multas aplicab
 ### 2.2 Diferencia con Penalidades (Cl. 18.3)
 | Aspecto | Multas (Cl. 16.1) | Penalidades (Cl. 18.3) |
 |:---|:---|:---|
-| **Aplicación** | Retrasos o incumplimientos puntuales | Indicadores de desempeño |
+| **Aplicación** | Retrasos o incumplimientos puntuales | Indicadores de desempeno |
 | **Efecto** | Inmediato | Acumulativo |
 | **Base** | Plazos y obligaciones específicas | Apéndice Técnico 4 |
 
@@ -114,7 +114,7 @@ Este documento contractual establece el régimen de penalidades y multas aplicab
 - **Gestionar en paralelo** licencias críticas (ANLA, ANE, predial, municipales)
 - **Documentar todas las comunicaciones** con ANI e Interventoría
 - **Crear sistema de alertas internas** de riesgos de incumplimiento
-- **Diseñar buffers de tiempo** en el Plan de Obras (AT9) para mitigar retrasos
+- **Disenar buffers de tiempo** en el Plan de Obras (AT9) para mitigar retrasos
 
 ### 5.2 Optimizaciones Técnicas Específicas para EPC
 - **Dashboard ejecutivo** con métricas de cumplimiento en tiempo real
@@ -151,7 +151,7 @@ Este documento contractual establece el régimen de penalidades y multas aplicab
 - **Base contractual:** ✅ Completa y exacta
 - **Procedimientos:** ✅ Claramente definidos
 - **Control de versiones:** ✅ Implementado según estándar del proyecto
-- **Optimizaciones EPC:** ✅ Añadidas y documentadas
+- **Optimizaciones EPC:** ✅ Anadidas y documentadas
 - **Completitud técnica:** ✅ 100% completado
 
 Las multas de la Cláusula 16.1 son un mecanismo coercitivo de aplicación inmediata, complementario a las penalidades de la Cláusula 18.3. Su gestión depende del cumplimiento estricto de plazos, permisos y entregables contractuales.

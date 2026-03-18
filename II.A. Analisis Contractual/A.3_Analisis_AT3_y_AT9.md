@@ -23,7 +23,7 @@
 
 ## 1. PROPÓSITO
 
-Este documento traduce las obligaciones del **Apéndice Técnico 3 (Especificaciones Generales)** y el **Apéndice Técnico 9 (Plan de Obras)** en requisitos de ingeniería. Su objetivo es definir el "CÓMO" se deben diseñar los sistemas y el "CUÁNDO" se deben ejecutar las obras.
+Este documento traduce las obligaciones del **Apéndice Técnico 3 (Especificaciones Generales)** y el **Apéndice Técnico 9 (Plan de Obras)** en requisitos de ingeniería. Su objetivo es definir el "CÓMO" se deben disenar los sistemas y el "CUÁNDO" se deben ejecutar las obras.
 
 ---
 
@@ -33,21 +33,21 @@ Este documento traduce las obligaciones del **Apéndice Técnico 3 (Especificaci
 
 | Especificación | Requisito para Ingeniería | Documento Relacionado |
 |:---|:---|:---|
-| **Señalización FRA/AREMA 738** | Diseñar sistema de señalización luminosa con control automático. | `29_Sistema_Senalizacion_Integrado...md` |
-| **CTC con SCADA** | Diseñar centro de control con supervisión en tiempo real. | `26. Sistem_CTC_Int...md` |
-| **TETRA 100% Cobertura** | Diseñar red de radio digital con cobertura total de la vía. | `27_Sistema_TETRA_Integrado...md` |
-| **Fibra Óptica 10 Gbps** | Diseñar backbone de fibra monomodo con capacidad 10 Gbps. | `28_Sistema_FibraOptica_Integrado...md` |
-| **CCTV 200 Cámaras** | Diseñar sistema de videovigilancia con 200 cámaras HD. | `31_Sistema_CCTV_Integrado...md` |
-| **Sistemas Contra Incendio** | Diseñar detección y supresión de incendios en edificios. | `V. Ingenieria de detalle/11_Sistema_contra_incendio...md` |
+| **Senalización FRA/AREMA 738** | Disenar sistema de senalización luminosa con control automático. | `29_Sistema_Senalizacion_Integrado...md` |
+| **CTC con SCADA** | Disenar centro de control con supervisión en tiempo real. | `26. Sistem_CTC_Int...md` |
+| **TETRA 100% Cobertura** | Disenar red de radio digital con cobertura total de la vía. | `27_Sistema_TETRA_Integrado...md` |
+| **Fibra Óptica 10 Gbps** | Disenar backbone de fibra monomodo con capacidad 10 Gbps. | `28_Sistema_FibraOptica_Integrado...md` |
+| **CCTV 200 Cámaras** | Disenar sistema de videovigilancia con 200 cámaras HD. | `31_Sistema_CCTV_Integrado...md` |
+| **Sistemas Contra Incendio** | Disenar detección y supresión de incendios en edificios. | `V. Ingenieria de detalle/11_Sistema_contra_incendio...md` |
 
 ### 2.2 Del Apéndice Técnico 9 - Plan de Obras
 
 | Fase | Duración | Entregables | Requisito para Ingeniería |
 |:---|:---:|:---|:---|
 | **Estudios y Disenos** | 12 meses | Documentos de ingeniería completos | Generar toda la ingeniería (Conceptual, Básica, Detalle) |
-| **Obras Civiles** | 24 meses | Infraestructura física | Diseñar rehabilitación de 53 UFVF y 146 pasos a nivel |
-| **Instalación Sistemas** | 18 meses | Sistemas técnicos operativos | Diseñar integración de todos los sistemas |
-| **Pruebas y Puesta en Servicio** | 6 meses | Sistema operativo | Diseñar plan de pruebas y puesta en servicio |
+| **Obras Civiles** | 24 meses | Infraestructura física | Disenar rehabilitación de 53 UFVF y 146 pasos a nivel |
+| **Instalación Sistemas** | 18 meses | Sistemas técnicos operativos | Disenar integración de todos los sistemas |
+| **Pruebas y Puesta en Servicio** | 6 meses | Sistema operativo | Disenar plan de pruebas y puesta en servicio |
 
 ---
 

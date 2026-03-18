@@ -40,7 +40,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 
 #### **ARQUITECTURA DE RED TETRA FERROVIARIA**
 - **Sistema Base Troncal:** Red de ~33 sitios de repetición para cobertura 100% del corredor
-- **Cobertura:** 540 km del corredor con nivel mínimo de señal -95 dBm
+- **Cobertura:** 540 km del corredor con nivel mínimo de senal -95 dBm
 - **Redundancia N+1:** Controlador central y sitios críticos con redundancia
 - **Backhaul:** Fibra óptica principal, microondas como respaldo en sitios críticos
 
@@ -135,7 +135,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 3. **Sin referencia a normativas ferroviarias:** No menciona estándares FRA/AREMA, AREMA específicos para radio ferroviaria
 4. **Objetivos vagos:** Los objetivos son genéricos, no específicos para radio TETRA
 5. **Cronograma genérico:** No considera tiempos específicos para instalación de estaciones base, pruebas de cobertura
-6. **Sin integración con otros sistemas:** No menciona interfaces con CTC, señalización, PTC
+6. **Sin integración con otros sistemas:** No menciona interfaces con CTC, senalización, PTC
 
 ### 1.3 🔍 GAPS CRÍTICOS IDENTIFICADOS
 1. **Especificaciones de red TETRA:**
@@ -163,7 +163,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 - **Disponibilidad del sistema:** 99.9%
 - **Cobertura del corredor:** 100%
 - **Tiempo de respuesta:** < 1 segundo
-- **Calidad de señal:** Excelente en todo el corredor
+- **Calidad de senal:** Excelente en todo el corredor
 
 ## ⚠️ EVALUACIÓN DE DEPENDENCIAS DOCUMENTALES
 
@@ -184,7 +184,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 - **26-32_Sistemas_Integrados v4.0** ✅ - Sistemas que requieren radio TETRA
 - **33-36_Criterios_Normatividad_Interoperabilidad_Redundancia_Ciberseguridad v4.0** ✅ - Estándares de radio TETRA
 - **37-42_Ingenieria_Basica v4.0** ✅ - Bases para ingeniería de detalle de radio TETRA
-- **8.1_Señalización_Ferroviaria v4.0** ✅ - Integración con señalización
+- **8.1_Senalización_Ferroviaria v4.0** ✅ - Integración con senalización
 - **8.2_Centro_Control_Tráfico v4.0** ✅ - Integración con CTC
 - **8.3_Pasos_a_Nivel v4.0** ✅ - Integración con pasos a nivel
 - **8.4_Comunicaciones_Generales v4.0** ✅ - Integración con comunicaciones
@@ -194,7 +194,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 - **AT10_CapacidadSurcos** 🔴 - Integración PTC-CTC para radio TETRA
 
 ### 2.3 Interfaces Críticas
-- **Radio TETRA ↔ Señalización:** Integración del sistema de radio con señalización
+- **Radio TETRA ↔ Senalización:** Integración del sistema de radio con senalización
 - **Radio TETRA ↔ CTC:** Integración con centro de control de tráfico
 - **Radio TETRA ↔ PTC:** Integración de sistemas de control integrado
 - **Radio TETRA ↔ Fibra Óptica:** Integración de red de comunicaciones
@@ -210,7 +210,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 1. **Arquitectura Basada en Sitios:**
    - **Problema identificado:** Necesidad de cobertura 100% del corredor ferroviario
    - **Optimización EPC:** ~33 sitios de repetición distribuidos estratégicamente
-   - **Beneficio:** Cobertura garantizada con nivel mínimo de señal -95 dBm
+   - **Beneficio:** Cobertura garantizada con nivel mínimo de senal -95 dBm
    - **Implementación:** Estudio de propagación para ubicaciones óptimas
 
 2. **Redundancia N+1:**
@@ -289,7 +289,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 **Problemas identificados:**
 1. **Descripción genérica:** El documento usa descripción genérica de "Ingeniería de Detalle" en lugar de especificar radio TETRA
 2. **Falta de especificaciones:** Sin detalles técnicos de arquitectura de red, sitios, cobertura
-3. **Sin integración:** No menciona interfaces con sistemas ferroviarios (CTC, señalización, fibra óptica)
+3. **Sin integración:** No menciona interfaces con sistemas ferroviarios (CTC, senalización, fibra óptica)
 4. **Objetivos genéricos:** No específicos para radio TETRA ferroviario
 5. **Sin cronograma:** No considera complejidad de gestión de sitios y permisos ANE
 
@@ -298,7 +298,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 2. **Desarrollado arquitectura de red** con redundancia N+1 y backhaul híbrido
 3. **Especificado gestión de sitios y permisos** coordinada con AT7 y ANE
 4. **Definido interoperabilidad con FENOCO** para zona fronteriza
-5. **Integrado con sistemas ferroviarios** (CTC, señalización, fibra óptica, material rodante)
+5. **Integrado con sistemas ferroviarios** (CTC, senalización, fibra óptica, material rodante)
 
 
 ### 5.2 Acciones Requeridas para Mantener v4.0

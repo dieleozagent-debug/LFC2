@@ -18,7 +18,7 @@
 | **Contractual** | AT1, AT2, AT3 | ✅ Sincronizado | Crítica |
 | **Conceptual** | 23_ListadoMaestro_v5.0, 25.1_WBS_v5.0, 34_Criterios_Interoperabilidad | ✅ Sincronizado | Alta |
 | **Básica** | 37_Memorias_Diseno_Basico_v5.0, 38_DiagramasArquitectura, 41_Interfaces_Sistemas | ✅ Sincronizado | Alta |
-| **Detalle** | V.5.1_Plan_Integracion_COMPLETO, V.2_CTC_v5.0, V.1_Señalizacion_v5.0 | ✅ Sincronizado | Alta |
+| **Detalle** | V.5.1_Plan_Integracion_COMPLETO, V.2_CTC_v5.0, V.1_Senalizacion_v5.0 | ✅ Sincronizado | Alta |
 | **Operación** | 6.5_Manual_OM_Integrado_v5.0 | ✅ Sincronizado | Media |
 
 ---
@@ -109,7 +109,7 @@
 #### **Estándares de Interoperabilidad:**
 - **FRA/AREMA 920-2:** Red Vital IP / TETRA para comunicaciones ferroviarias
 - **FRA/AREMA 438:** PTC Virtual (FRA 236) para control de trenes
-- **FRA/AREMA 930:** Interoperabilidad de sistemas de señalización
+- **FRA/AREMA 930:** Interoperabilidad de sistemas de senalización
 - **FRA/AREMA 950:** Interoperabilidad de sistemas de control de tráfico
 - **FFFIS:** Form Fit Function Interface Specification
 
@@ -136,7 +136,7 @@
 
 | Componente | Función | Protocolo | Estado |
 |:-----------|:---------|:----------|:-------|
-| **CTC Application Layer** | Control de tráfico, señalización, seguridad, monitoreo | Aplicación | ✅ Implementado |
+| **CTC Application Layer** | Control de tráfico, senalización, seguridad, monitoreo | Aplicación | ✅ Implementado |
 | **CTC Communication Layer** | Protocolo, seguridad, cola mensajes, red | FFFIS | ✅ Implementado |
 | **Servidor PTC Central Communication Layer** | Red, cola mensajes, seguridad, protocolo | FFFIS | ✅ Implementado |
 | **Servidor PTC Central Application Layer** | Autorización movimiento, supervisión tren, seguridad | Aplicación | ✅ Implementado |
@@ -197,7 +197,7 @@
 
 | Sistema | Protocolo | Función | Estado |
 |:--------|:----------|:---------|:-------|
-| **CTC ↔ ENCE** | SCI-CC-A (NAS 830) | Control de señalización | ✅ Implementado |
+| **CTC ↔ ENCE** | SCI-CC-A (NAS 830) | Control de senalización | ✅ Implementado |
 | **CTC ↔ TETRA** | TCP/IP + SNMP | Comunicaciones operativas | ✅ Implementado |
 | **CTC ↔ SICC** | API REST | Indicadores AT4 | ✅ Implementado |
 | **TETRA ↔ Locomotoras** | EN 300 392 | Comunicación tren-tierra | ✅ Implementado |
@@ -212,7 +212,7 @@
 |:----------|:----------|:---------|:-------|
 | **FRA/AREMA 920-2** | Red Vital IP / TETRA | Comunicaciones ferroviarias | ✅ Implementado |
 | **FRA/AREMA 438** | PTC Virtual (FRA 236) | Control de trenes | ✅ Implementado |
-| **FRA/AREMA 930** | Señalización | Interoperabilidad señalización | ✅ Implementado |
+| **FRA/AREMA 930** | Senalización | Interoperabilidad senalización | ✅ Implementado |
 | **FRA/AREMA 950** | Control tráfico | Interoperabilidad control | ✅ Implementado |
 
 #### **Especificaciones de Interoperabilidad:**
@@ -422,7 +422,7 @@
 - `25.1_WBS_COMPLETA_ESPECIALIDADES_v5.0.md` - WBS especialidades completas
 - `27_Sistema_TETRA_Integrado_v5.0.md` - Sistema TETRA integrado
 - `28_Sistema_FibraOptica_Integrado_docx_AT1_AT3_AT5_interferencias_AT7_predios.md` - Sistema fibra óptica
-- `29_Sistema_Senalizacion_Integrado_v5.0.md` - Sistema señalización integrado
+- `29_Sistema_Senalizacion_Integrado_v5.0.md` - Sistema senalización integrado
 - `30_Sistema_ITS_Integrado_docx_AT1_AT3_AT4_AT6_ambiental.md` - Sistema ITS integrado
 - `32_Material_Rodante_Integrado_v5.0.md` - Sistema material rodante integrado
 - `34_Criterios_Interoperabilidad_docx_Compatibilidad_con_FENOCO_y_ANI.md` - Criterios interoperabilidad
@@ -436,7 +436,7 @@
 ### **9.4 Documentos de Ingeniería de Detalle**
 - `V.5.1_Plan_Integracion_Sistemas_COMPLETO.md` - Plan integración sistemas
 - `V.2_Centro_Control_Trafico_CTC_v5.0.md` - Centro control tráfico CTC
-- `V.1_Señalizacion_Ferroviaria_Detalle_v5.0.md` - Señalización ferroviaria detalle
+- `V.1_Senalizacion_Ferroviaria_Detalle_v5.0.md` - Senalización ferroviaria detalle
 - `V.3_Sistemas_Comunicacion_Detalle_v5.0.md` - Sistemas comunicación detalle
 - `V.4.1_Sistemas_Ferroviarios_Integrados_DETALLADO.md` - Sistemas ferroviarios integrados
 
