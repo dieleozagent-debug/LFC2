@@ -2,6 +2,23 @@
   "version": 2,
   "name": "lfc-2",
   "public": true,
+  "redirects": [
+    {
+      "source": "/V.5_Integracion/:path*",
+      "destination": "/V_5_Integracion/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/IV. Ingenieria basica/:path*",
+      "destination": "/IV_Ingenieria_basica/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/V. Ingenieria de detalle/:path*",
+      "destination": "/V_Ingenieria_detalle/:path*",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/",
@@ -166,6 +183,10 @@
     {
       "source": "/PTC_SRS_Indice_v1_0.md",
       "destination": "/III_Ingenieria_conceptual/PTC_SRS_Indice_v1_0.md"
+    },
+    {
+      "source": "/III_1_Conceptos_basicos/",
+      "destination": "/III_Ingenieria_conceptual/III_1_Conceptos_basicos/index.html"
     },
     {
       "source": "/37_Memorias_Diseno_Basico_v5_0.md",
@@ -336,6 +357,26 @@
       "destination": "/V_Ingenieria_detalle/V_X_Sistema_EOT_Detalle_v5_0.md"
     },
     {
+      "source": "/V_1_Civil/",
+      "destination": "/V_Ingenieria_detalle/V_1_Civil/index.html"
+    },
+    {
+      "source": "/V_2_Electrica/",
+      "destination": "/V_Ingenieria_detalle/V_2_Electrica/index.html"
+    },
+    {
+      "source": "/V_3_Mecanica/",
+      "destination": "/V_Ingenieria_detalle/V_3_Mecanica/index.html"
+    },
+    {
+      "source": "/V_4_Sistemas/",
+      "destination": "/V_Ingenieria_detalle/V_4_Sistemas/index.html"
+    },
+    {
+      "source": "/V_5_Integracion/",
+      "destination": "/V_Ingenieria_detalle/V_5_Integracion/index.html"
+    },
+    {
       "source": "/VII.1_Normatividad",
       "destination": "/VII_Soporte_Especializado/VII.1_Normatividad/index.html"
     },
@@ -414,6 +455,18 @@
     {
       "source": "/VII_3_4_Procedimientos_Comisionamiento_Sistemas.md",
       "destination": "/VII_Soporte_Especializado/VII.3_Procedimientos/VII_3_4_Procedimientos_Comisionamiento_Sistemas.md"
+    },
+    {
+      "source": "/VII.1_Normatividad/",
+      "destination": "/VII_Soporte_Especializado/VII.1_Normatividad/index.html"
+    },
+    {
+      "source": "/VII.2_Especificaciones/",
+      "destination": "/VII_Soporte_Especializado/VII.2_Especificaciones/index.html"
+    },
+    {
+      "source": "/VII.3_Procedimientos/",
+      "destination": "/VII_Soporte_Especializado/VII.3_Procedimientos/index.html"
     },
     {
       "source": "/6_1_Manual_OM_CTC_v5_0.md",
