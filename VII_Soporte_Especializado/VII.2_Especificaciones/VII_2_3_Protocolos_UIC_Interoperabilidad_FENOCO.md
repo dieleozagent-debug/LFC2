@@ -1,4 +1,4 @@
-# PROTOCOLO DE INTEROPERABILIDAD OPERACIONAL - SICC v6.3.2
+# PROTOCOLO DE INTEROPERABILIDAD OPERACIONAL - RED VITAL v6.3.2
 ## APP La Dorada-Chiriguaná - Punto de Intercambio Chiriguaná (FENOCO)
 
 **Estado:** ✅ **SANEADO (SICC SOVEREIGN)**  
@@ -11,7 +11,7 @@
 ## 🎯 **1. PROPÓSITO Y ALCANCE**
 
 ### **1.1 PROPÓSITO**
-Este documento establece el procedimiento de **Interoperabilidad Operacional** entre el SICC LFC (PTC Virtual) y la red FENOCO. Bajo el modelo de **Soberanía Tecnológica**, se rechaza el uso de protocolos europeos (UIC/PTC Virtual (SICC)) y se adopta el estándar **FRA/AREMA** para la lógica de seguridad.
+Este documento establece el procedimiento de **Interoperabilidad Operacional** entre la **Red Vital LFC (PTC Virtual)** y la red FENOCO. Bajo el modelo de **Soberanía Tecnológica**, se rechaza el uso de protocolos europeos (UIC/ERTMS) y se adopta el estándar **FRA/AREMA** para la lógica de seguridad.
 
 ### **1.2 ALCANCE**
 - **Punto de Intercambio:** Estación Chiriguaná (PK 526+000).
@@ -26,9 +26,9 @@ Este documento establece el procedimiento de **Interoperabilidad Operacional** e
 1. **Llegada a Chiriguaná:** El tren LFC monitorea su posición mediante el OBC Vital (FRA Compliant).
 2. **Parada de Seguridad (STOP):** Detención absoluta en el PK 526. 
 3. **Cambio de Régimen (SWITCH):** 
-    - El maquinista coloca el sistema SICC en modo **Isolating** (Aislamiento).
-    - La autorización para entrar a la red FENOCO se gestiona mediante canal de voz seguro (TETRA).
-    - No existe intercambio de datos vitales entre el Servidor Maestro SICC y los sistemas de FENOCO para evitar "Contaminación de Seguridad".
+    - El maquinista coloca el sistema de abordo en modo **Isolating** (Aislamiento).
+    - La autorización para entrar a la red FENOCO se gestiona mediante canal de voz seguro (Red Vital TETRA).
+    - No existe intercambio de datos vitales entre el **Servidor Maestro de Red Vital** y los sistemas de FENOCO para evitar "Contaminación de Seguridad".
 
 ### **2.2 TRANSICIÓN FENOCO → LFC**
 1. **Llegada a Frontera:** Parada en el punto de demarcación SICC.
@@ -44,7 +44,7 @@ Este documento establece el procedimiento de **Interoperabilidad Operacional** e
 Se eliminan todas las referencias a interoperabilidad basada en UNISIG o PTC Virtual (SICC). El SICC es **100% FRA/AREMA Virtual Ready**. No se instalan Puntos de Referencia Virtuales (SICC) físicas en la frontera con FENOCO.
 
 ### **3.2 COMUNICACIONES SICC**
-El backbone de **Red Vital IP / TETRA** garantiza la comunicación de voz con los despachadores de FENOCO, pero mantiene el muro de fuego (Firewall SICC) para el tráfico de datos PTC.
+El backbone de **Red Vital IP / TETRA** garantiza la comunicación de voz con los despachadores de FENOCO, pero mantiene el muro de fuego (**Firewall de Red Vital**) para el tráfico de datos PTC.
 
 ---
 
@@ -56,4 +56,4 @@ El backbone de **Red Vital IP / TETRA** garantiza la comunicación de voz con lo
 | **v2.0** | 13/03/2026 | Admin. Contractual | Versión con error de lógica (Purga errónea de FRA). |
 
 ---
-**Documento Alineado con el ADN SICC e IDENTITY.md.**
+**Documento Alineado con el ADN de Red Vital e IDENTITY.md.**

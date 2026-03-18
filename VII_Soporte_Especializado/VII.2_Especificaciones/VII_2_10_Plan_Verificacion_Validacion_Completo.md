@@ -1,5 +1,5 @@
 # PLAN V&V PTC VIRTUAL - VERIFICACIÓN Y VALIDACIÓN
-## APP La Dorada-Chiriguaná - SICC LFC
+## APP La Dorada-Chiriguaná - Red Vital LFC
 
 **Estado:** ✅ **SANEADO (MÉTODO KARPATHY)**  
 **Fecha:** 13 de marzo de 2026  

@@ -1,4 +1,4 @@
-# REVISIÓN DE DISPONIBILIDAD (SICC LFC) - JUSTIFICACIÓN DEL 99.95%
+# REVISIÓN DE DISPONIBILIDAD (Red Vital LFC) - JUSTIFICACIÓN DEL 99.95%
 ## APP La Dorada-Chiriguaná - Análisis de Uptime Realista
 
 **Estado:** ✅ **SANEADO (MÉTODO KARPATHY)**  

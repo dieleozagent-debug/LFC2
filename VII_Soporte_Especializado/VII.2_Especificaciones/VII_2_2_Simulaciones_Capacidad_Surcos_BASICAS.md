@@ -1,4 +1,4 @@
-# SIMULACIONES DE CAPACIDAD Y SURCOS - SICC LFC (VIRTUAL BLOCK)
+# SIMULACIONES DE CAPACIDAD Y SURCOS - Red Vital LFC (VIRTUAL BLOCK)
 ## APP La Dorada-Chiriguaná - Optimización del Corredor (526 km)
 
 **Estado:** ✅ **SANEADO (MÉTODO KARPATHY)**  

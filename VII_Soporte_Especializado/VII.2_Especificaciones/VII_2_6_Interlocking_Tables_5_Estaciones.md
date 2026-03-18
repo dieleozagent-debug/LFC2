@@ -1,4 +1,4 @@
-# TABLAS DE ENCLAVAMIENTO VIRTUAL - SICC LFC
+# TABLAS DE ENCLAVAMIENTO VIRTUAL - Red Vital LFC
 ## APP La Dorada-Chiriguaná - Lógica de Seguridad de Rutas
 
 **Estado:** ✅ **SANEADO (MÉTODO KARPATHY)**  
