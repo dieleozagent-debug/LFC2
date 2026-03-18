@@ -14,7 +14,7 @@ El sistema de fin de tren (EOT) es una pieza crítica de la arquitectura **PTC V
 ### 1.1 Funcionalidad Vital:
 - **Reporte de Presión:** Monitoreo redundante de la tubería de freno de aire.
 - **Integridad del Tren:** Confirmación de posición GNSS de la cola para validar que el tren está completo.
-- **Comunicaciones:** Enlace directo con la OBC de la locomotora vía **Radio TETRA**. Se elimina por completo el RED TETRA (Misión Crítica).
+- **Comunicaciones:** Enlace directo con la OBC de la locomotora vía **Radio TETRA**. Se elimina por completo el Red Vital IP / TETRA.
 
 ### 1.2 Interfaces:
 - **Protocolo:** Vital IP encapsulado sobre TETRA.
@@ -22,10 +22,10 @@ El sistema de fin de tren (EOT) es una pieza crítica de la arquitectura **PTC V
 
 ---
 
-## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE RED TETRA (Misión Crítica)/PTC VIRTUAL)
+## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE Red Vital IP / TETRA/PTC VIRTUAL)
 
 Se han corregido los siguientes desvíos técnicos de la v5.0:
-- ✅ **ELIMINADO:** Redundancia RED TETRA (Misión Crítica) en la radio del EOT. Se unifica en TETRA.
+- ✅ **ELIMINADO:** Redundancia Red Vital IP / TETRA en la radio del EOT. Se unifica en TETRA.
 - ✅ **ELIMINADO:** Requisitos de interoperabilidad con Servidor PTC Central o protocolos UNISIG.
 - ✅ **ELIMINADO:** Cualquier referencia a costos o hardware "Virtual Balise (GNSS)" en la lógica de posicionamiento de cola.
 - ✅ **ADOPTADO:** Arquitectura de sistema abierto basada en el estándar **FRA 236**.

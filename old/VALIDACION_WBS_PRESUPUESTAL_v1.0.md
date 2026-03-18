@@ -21,7 +21,7 @@ Después de validar la **coherencia completa** de la WBS presupuestal contra **T
 | Sistema | WBS Presupuestal | Documentos v5.0 | Coherencia | Estado |
 |:--------|:----------------:|:---------------:|:----------:|:------:|
 | **TETRA** | 37 estaciones | 37 estaciones | ✅ 100% | VALIDADO |
-| **RED TETRA (Misión Crítica)** | 37 estaciones | 37 estaciones | ✅ 100% | VALIDADO |
+| **Red Vital IP / TETRA** | 37 estaciones | 37 estaciones | ✅ 100% | VALIDADO |
 | **Fibra Óptica** | 526 km | 526 km | ✅ 100% | VALIDADO |
 | **Locomotoras PTC** | 15 unidades | 15 unidades | ✅ 100% | VALIDADO |
 | **EOT** | 15 dispositivos | 15 dispositivos | ✅ 100% | VALIDADO |
@@ -42,7 +42,7 @@ Después de validar la **coherencia completa** de la WBS presupuestal contra **T
 
 #### **CAPÍTULO 2: TELECOMUNICACIONES**
 - ✅ **2.1 Sistema TETRA (37 estaciones):** Coherente con 27_Sistema_TETRA_Integrado_v5.0.md
-- ✅ **2.2 Sistema RED TETRA (Misión Crítica) (37 estaciones - colocalizado):** Coherente con V.X_Sistema_RED TETRA (Misión Crítica)_Detalle_v5.0.md
+- ✅ **2.2 Sistema Red Vital IP / TETRA (37 estaciones - colocalizado):** Coherente con V.X_Sistema_RED TETRA (Misión Crítica)_Detalle_v5.0.md
 - ✅ **2.3 Fibra Óptica (526 km):** Coherente con 28_Sistema_FibraOptica_Integrado_docx.md
 - ✅ **2.4 Red de Datos:** Coherente con especificaciones de red
 
@@ -63,7 +63,7 @@ Después de validar la **coherencia completa** de la WBS presupuestal contra **T
 #### **CAPÍTULO 6: MATERIAL RODANTE**
 - ✅ **6.1 Equipos PTC embarcados (15 locomotoras):** Coherente con 32_Material_Rodante_Integrado_v5.0.md
 - ✅ **6.2 Sistema EOT (15 dispositivos):** Coherente con V.X_Sistema_EOT_Detalle_v5.0.md
-- ✅ **6.3 Radios TETRA + RED TETRA (Misión Crítica):** Coherente con especificaciones embarcadas
+- ✅ **6.3 Radios TETRA + Red Vital IP / TETRA:** Coherente con especificaciones embarcadas
 
 ---
 

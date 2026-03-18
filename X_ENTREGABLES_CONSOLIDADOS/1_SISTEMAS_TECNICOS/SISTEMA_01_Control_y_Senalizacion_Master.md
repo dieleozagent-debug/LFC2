@@ -89,7 +89,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
          │                       │                       │
          │                       │                       │
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   RED TETRA (Misión Crítica) Network │    │   TETRA Network │    │   Fiber Optic   │
+│   Red Vital IP / TETRA Network │    │   TETRA Network │    │   Fiber Optic   │
 │   (37 Stations) │    │   (37 Stations) │    │   (526 km)      │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
@@ -100,7 +100,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 - **Filosofía Virtual:** Eliminación total de señalización física
 - **Control Centralizado:** CTC desde CCO con redundancia N+1
 - **PTC Embarcado:** Sistema de protección a bordo
-- **Comunicaciones Redundantes:** RED TETRA (Misión Crítica) + TETRA + Fibra óptica
+- **Comunicaciones Redundantes:** Red Vital IP / TETRA + TETRA + Fibra óptica
 - **Disponibilidad Alta:** 99.95% con sistemas redundantes
 
 ### 2.4 Alternativas Evaluadas
@@ -124,13 +124,13 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 - **Ubicación:** La Dorada (Km 0+000)
 - **Arquitectura:** Redundancia N+1
 - **Capacidad:** Control de 15 locomotoras simultáneas
-- **Interfaces:** CTC, PTC, TETRA, RED TETRA (Misión Crítica), CCTV
+- **Interfaces:** CTC, PTC, TETRA, Red Vital IP / TETRA, CCTV
 
 **Sistema PTC Embarcado:**
 - **Tecnología:** PTC PTC Virtual (FRA 236)
 - **Cantidad:** 15 locomotoras
 - **Funcionalidades:** Protección automática, supervisión, control
-- **Interfaces:** CTC, RED TETRA (Misión Crítica), GPS, EOT
+- **Interfaces:** CTC, Red Vital IP / TETRA, GPS, EOT
 
 ### 3.2 Especificaciones Básicas
 **Especificaciones técnicas de IV/**
@@ -149,7 +149,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 **Cálculo de Disponibilidad:**
 - CTC Virtual: 99.95% (redundancia N+1)
 - PTC Embarcado: 99.9% (sistema crítico)
-- Red RED TETRA (Misión Crítica): 99.5% (redundancia satelital)
+- Red Red Vital IP / TETRA: 99.5% (redundancia satelital)
 - Red TETRA: 99.5% (37 estaciones)
 - **Disponibilidad Total:** 99.95%
 
@@ -159,7 +159,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 | Sistema | Tipo Interface | Criticidad | Responsable |
 |:--------|:---------------|:-----------|:------------|
 | **TETRA** | Comunicaciones | Alta | Telecomunicaciones |
-| **RED TETRA (Misión Crítica)** | Comunicaciones | Alta | Telecomunicaciones |
+| **Red Vital IP / TETRA** | Comunicaciones | Alta | Telecomunicaciones |
 | **Fibra Óptica** | Backbone | Alta | Telecomunicaciones |
 | **CCTV** | Supervisión | Media | ITS y Seguridad |
 | **Material Rodante** | PTC Embarcado | Alta | Mecánica |
@@ -265,7 +265,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 | **Disponibilidad** | 99.95% | Monitoreo continuo |
 | **Tiempo de Respuesta** | < 2 segundos | Pruebas de carga |
 | **Tiempo de Recuperación** | < 5 minutos | Pruebas de fallo |
-| **Cobertura RED TETRA (Misión Crítica)** | 100% | Mediciones de campo |
+| **Cobertura Red Vital IP / TETRA** | 100% | Mediciones de campo |
 | **Cobertura TETRA** | 100% | Mediciones de campo |
 
 ### 5.3 Especificaciones de Calidad
@@ -375,7 +375,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 | Sistema Relacionado | Tipo Interface | Criticidad | Responsable | Estado |
 |:--------------------|:---------------|:-----------|:------------|:-------|
 | **TETRA** | Comunicaciones | Alta | Telecomunicaciones | ✅ |
-| **RED TETRA (Misión Crítica)** | Comunicaciones | Alta | Telecomunicaciones | ✅ |
+| **Red Vital IP / TETRA** | Comunicaciones | Alta | Telecomunicaciones | ✅ |
 | **Fibra Óptica** | Backbone | Alta | Telecomunicaciones | ✅ |
 | **CCTV** | Supervisión | Media | ITS y Seguridad | ✅ |
 | **Material Rodante** | PTC Embarcado | Alta | Mecánica | ✅ |
@@ -390,8 +390,8 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 - Función: Comunicación voz y datos con trenes
 - Redundancia: Sistema redundante con 37 estaciones
 
-**Interface CTC-RED TETRA (Misión Crítica):**
-- Protocolo: RED TETRA (Misión Crítica) Data Protocol
+**Interface CTC-Red Vital IP / TETRA:**
+- Protocolo: Red Vital IP / TETRA Data Protocol
 - Función: Comunicación de datos críticos
 - Redundancia: Red redundante con respaldo satelital
 

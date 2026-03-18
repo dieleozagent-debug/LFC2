@@ -12,7 +12,7 @@ La Ingeniería Básica (Fase IV) se consolida bajo el estándar **PTC Virtual (F
 
 ### 1.1 Objetivos de Diseño Saneados:
 - **Seguridad Vital:** Basada en Servidores Vitales 2oo3 con protocolo **Vital IP**.
-- **Comunicaciones:** Unificación en red **TETRA** (eliminación de RED TETRA (Misión Crítica)).
+- **Comunicaciones:** Unificación en red **TETRA** (eliminación de Red Vital IP / TETRA).
 - **Interoperabilidad:** Implementación del nodo **Stop & Switch** en Chiriguaná.
 - **Eficiencia CAPEX:** Reducción de infraestructura física en un 50% vs. el diseño legacy.
 
@@ -22,7 +22,7 @@ La Ingeniería Básica (Fase IV) se consolida bajo el estándar **PTC Virtual (F
 En cumplimiento del **Ciclo Inverso**, se han corregido los siguientes desvíos:
 - ✅ **ELIMINADO PTC Virtual (FRA 236):** Se purga la asunción de "estándar hasta AT3". El estándar es **FRA 236** desde el inicio.
 - ✅ **ELIMINADO BLOQUEO PTC:** Ya no existe bloqueo por falta de protocolos de terceros, ya que no dependemos de licencias propietarias para operar.
-- ✅ **ELIMINADO RED TETRA (Misión Crítica):** Las memorias de cálculo de cobertura se centran exclusivamente en TETRA.
+- ✅ **ELIMINADO Red Vital IP / TETRA:** Las memorias de cálculo de cobertura se centran exclusivamente en TETRA.
 
 ---
 

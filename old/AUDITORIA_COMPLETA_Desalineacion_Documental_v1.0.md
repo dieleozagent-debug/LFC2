@@ -56,22 +56,22 @@
 
 #### ❌ CRITERIO MAESTRO:
 - **TETRA:** 37 estaciones (no 33)
-- **RED TETRA (Misión Crítica):** 37 estaciones (FALTA incluir)
+- **Red Vital IP / TETRA:** 37 estaciones (FALTA incluir)
 - **EOT:** 15 dispositivos (FALTA incluir)
 
 #### 🔴 DOCUMENTOS DESALINEADOS (12):
 
 | # | Documento | Desalineación | Impacto | Prioridad |
 |:--|:----------|:--------------|:--------|:----------|
-| 19 | V.3_Sistemas_Comunicacion_Detalle | 33 TETRA (no 37) + NO incluye RED TETRA (Misión Crítica) | 🔴 CRÍTICO | 1 |
+| 19 | V.3_Sistemas_Comunicacion_Detalle | 33 TETRA (no 37) + NO incluye Red Vital IP / TETRA | 🔴 CRÍTICO | 1 |
 | 20 | 27_Sistema_TETRA_Integrado | 33 estaciones TETRA | 🔴 CRÍTICO | 1 |
 | 21 | 27.1_Estimacion_Cantidades_TETRA | Cálculos con 33 estaciones | 🔴 CRÍTICO | 1 |
-| 22 | 25.1_WBS_COMPLETA | NO incluye capítulo RED TETRA (Misión Crítica) | 🔴 CRÍTICO | 1 |
+| 22 | 25.1_WBS_COMPLETA | NO incluye capítulo Red Vital IP / TETRA | 🔴 CRÍTICO | 1 |
 | 23 | 32_Material_Rodante_Integrado | NO incluye sistema EOT | 🔴 CRÍTICO | 2 |
-| 24 | AT1_Alcance_del_Proyecto | 33 TETRA + NO menciona RED TETRA (Misión Crítica) | 🟡 MEDIO | 2 |
-| 25 | 23_ListadoMaestro_Sistemas | RED TETRA (Misión Crítica) no listado | 🟡 MEDIO | 2 |
+| 24 | AT1_Alcance_del_Proyecto | 33 TETRA + NO menciona Red Vital IP / TETRA | 🟡 MEDIO | 2 |
+| 25 | 23_ListadoMaestro_Sistemas | Red Vital IP / TETRA no listado | 🟡 MEDIO | 2 |
 | 26 | IV.2_Especificaciones_Basicas_Electrica | Alimentación 33 sitios | 🟡 MEDIO | 3 |
-| 27-31 | Presupuestos anteriores | Sin RED TETRA (Misión Crítica) ni EOT | 🔴 CRÍTICO | 1 |
+| 27-31 | Presupuestos anteriores | Sin Red Vital IP / TETRA ni EOT | 🔴 CRÍTICO | 1 |
 | 32 | 39_Planos_Preliminares_Torres | 33 ubicaciones | 🟡 MEDIO | 4 |
 
 **Impacto presupuestal:** +$4B COP (componentes a agregar)
@@ -115,8 +115,8 @@
 | Orden | Documento | Acción Principal | Tiempo | Impacto |
 |:------|:----------|:----------------|:-------|:--------|
 | 1 | CRITERIOS_TECNICOS_MAESTRO_v1.0.md | ✅ YA CORRECTO - Es la fuente | -- | -- |
-| 2 | AT1_Alcance_del_Proyecto_MEJORADO.md | Actualizar señalización virtual + 37 TETRA + RED TETRA (Misión Crítica) + ENCE + Desvíos | 6h | 🔴 |
-| 3 | 23_ListadoMaestro_Sistemas.md | Eliminar eurobalises/señales + Agregar RED TETRA (Misión Crítica)/EOT/ENCE/Desvíos | 4h | 🔴 |
+| 2 | AT1_Alcance_del_Proyecto_MEJORADO.md | Actualizar señalización virtual + 37 TETRA + Red Vital IP / TETRA + ENCE + Desvíos | 6h | 🔴 |
+| 3 | 23_ListadoMaestro_Sistemas.md | Eliminar eurobalises/señales + Agregar Red Vital IP / TETRA/EOT/ENCE/Desvíos | 4h | 🔴 |
 | 4 | 25.1_WBS_COMPLETA_ESPECIALIDADES.md | Reestructurar capítulos completos | 8h | 🔴 |
 
 **Subtotal Capa 1:** 18 horas (2.5 días)
@@ -153,7 +153,7 @@
 |:------|:----------|:----------------|:-------|:--------|
 | 14 | V.1_Señalización_Ferroviaria_Detalle.md | 🔴 REESCRITURA COMPLETA (90% nuevo) | 12h | 🔴 |
 | 15 | V.2_Centro_Control_Trafico_CTC.md | Ampliar significativamente (CTC principal) | 8h | 🔴 |
-| 16 | V.3_Sistemas_Comunicacion_Detalle.md | Actualizar TETRA + Agregar RED TETRA (Misión Crítica) completo | 8h | 🔴 |
+| 16 | V.3_Sistemas_Comunicacion_Detalle.md | Actualizar TETRA + Agregar Red Vital IP / TETRA completo | 8h | 🔴 |
 | 17 | VII.2.1_PTC_PTC VIRTUAL_Especificaciones.md | Cambiar arquitectura (PTC embarcado sin Servidor PTC Central) | 10h | 🔴 |
 
 **Subtotal Capa 4:** 38 horas (5 días)
@@ -217,7 +217,7 @@
 - [ ] Señalización en Cabina (Cab-Signaling) vía: 0 unidades
 - [ ] Servidor PTC Central: 0 unidades
 - [ ] TETRA: 37 estaciones
-- [ ] RED TETRA (Misión Crítica): 37 estaciones (agregar)
+- [ ] Red Vital IP / TETRA: 37 estaciones (agregar)
 - [ ] EOT: 15 dispositivos (agregar)
 - [ ] ENCE: 5 estaciones (agregar)
 - [ ] Desvíos: 120 total (agregar)
@@ -288,7 +288,7 @@
 **Objetivo:** Completar y validar
 
 - **DÍA 11-13:** CAPA 5 (Documentos Nuevos)
-  → ENCE, Desvíos, RED TETRA (Misión Crítica), EOT
+  → ENCE, Desvíos, Red Vital IP / TETRA, EOT
 
 - **DÍA 14:** CAPA 6 (Validación)
   → Checklist, Matriz Trazabilidad, Informe

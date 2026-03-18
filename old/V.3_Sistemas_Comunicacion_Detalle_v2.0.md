@@ -1,28 +1,28 @@
-# V.3 Sistemas de Comunicación v2.0 - TETRA + RED TETRA (Misión Crítica) COLOCALIZADOS
+# V.3 Sistemas de Comunicación v2.0 - TETRA + Red Vital IP / TETRA COLOCALIZADOS
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** Enero 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
 **Contrato:** Concesión No. 001 de 2025  
 **Versión:** 2.0  
-**Estado:** ✅ **ACTUALIZADO - TETRA + RED TETRA (Misión Crítica) COLOCALIZADOS**
+**Estado:** ✅ **ACTUALIZADO - TETRA + Red Vital IP / TETRA COLOCALIZADOS**
 
 ---
 
-## 🚨 **ACTUALIZACIÓN CRÍTICA v2.0 - TETRA + RED TETRA (Misión Crítica) COLOCALIZADOS**
+## 🚨 **ACTUALIZACIÓN CRÍTICA v2.0 - TETRA + Red Vital IP / TETRA COLOCALIZADOS**
 
 ### **📋 CAMBIO DE PARADIGMA COMPLETO:**
 
 #### **🔴 FILOSOFÍA ANTERIOR (ELIMINADA):**
 - **❌ TETRA:** 33 estaciones → **37 estaciones** (Ajuste a criterios maestros)
-- **❌ RED TETRA (Misión Crítica):** Sistema independiente → **Colocalizado con TETRA** (Redundancia operacional)
+- **❌ Red Vital IP / TETRA:** Sistema independiente → **Colocalizado con TETRA** (Redundancia operacional)
 - **❌ Cobertura:** 146 km → **526.133 km** (Corredor completo)
 - **❌ Capacidad:** 24 trenes → **15 trenes** (Alineación con PTC embarcado)
 
 #### **✅ FILOSOFÍA NUEVA (IMPLEMENTADA):**
 - **✅ TETRA:** 37 estaciones base con solapamiento 15-20%
-- **✅ RED TETRA (Misión Crítica):** 37 estaciones colocalizadas con TETRA
-- **✅ Colocalización:** Misma torre para TETRA + RED TETRA (Misión Crítica)
+- **✅ Red Vital IP / TETRA:** 37 estaciones colocalizadas con TETRA
+- **✅ Colocalización:** Misma torre para TETRA + Red Vital IP / TETRA
 - **✅ Redundancia:** Doble sistema de comunicaciones
 - **✅ Integración:** CTC virtual + PTC embarcado
 
@@ -30,18 +30,18 @@
 
 ## 1. Resumen Ejecutivo
 
-Este documento detalla la ingeniería de los **sistemas de comunicación colocalizados** para el proyecto APP La Dorada-Chiriguaná, basado en **TETRA + RED TETRA (Misión Crítica) colocalizados** en 37 estaciones con redundancia operacional.
+Este documento detalla la ingeniería de los **sistemas de comunicación colocalizados** para el proyecto APP La Dorada-Chiriguaná, basado en **TETRA + Red Vital IP / TETRA colocalizados** en 37 estaciones con redundancia operacional.
 
 ### 1.1 Alcance del Sistema de Comunicaciones Colocalizadas
 - **Sistema principal:** Red de comunicaciones ferroviarias colocalizadas
-- **Componentes:** TETRA + RED TETRA (Misión Crítica) colocalizados, fibra óptica, VSAT, emergencias
+- **Componentes:** TETRA + Red Vital IP / TETRA colocalizados, fibra óptica, VSAT, emergencias
 - **Cobertura:** 526.133 km de vía, 5 estaciones ENCE, 146 pasos a nivel
 - **Capacidad:** 15 trenes simultáneos + servicios auxiliares
 
 ### 1.2 Objetivos del Sistema Colocalizado
 - **Comunicación tren-tierra:** Enlace crítico para PTC embarcado (sin Servidor PTC Central)
 - **Comunicación operacional:** Voz y datos para operadores
-- **Redundancia operacional:** TETRA + RED TETRA (Misión Crítica) como respaldo mutuo
+- **Redundancia operacional:** TETRA + Red Vital IP / TETRA como respaldo mutuo
 - **Disponibilidad:** 99.9% de disponibilidad operacional
 - **Seguridad:** Cumplimiento EN 50126/50128/50129
 
@@ -55,8 +55,8 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 │                SISTEMAS DE COMUNICACIÓN COLOCALIZADOS       │
 ├─────────────────────────────────────────────────────────────┤
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
-│  │   TETRA     │  │   RED TETRA (Misión Crítica)     │  │   Fibra     │         │
-│  │ + RED TETRA (Misión Crítica)     │  │ + TETRA     │  │  Óptica     │         │
+│  │   TETRA     │  │   Red Vital IP / TETRA     │  │   Fibra     │         │
+│  │ + Red Vital IP / TETRA     │  │ + TETRA     │  │  Óptica     │         │
 │  │ Colocalizado│  │ Colocalizado│  │  (DWDM)     │         │
 │  └─────────────┘  └─────────────┘  └─────────────┘         │
 ├─────────────────────────────────────────────────────────────┤
@@ -68,19 +68,19 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 ├─────────────────────────────────────────────────────────────┤
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
 │  │   Torre 1   │  │   Torre 2   │  │   Torre 3   │         │
-│  │ TETRA+RED TETRA (Misión Crítica) │  │ TETRA+RED TETRA (Misión Crítica) │  │ TETRA+RED TETRA (Misión Crítica) │         │
+│  │ TETRA+Red Vital IP / TETRA │  │ TETRA+Red Vital IP / TETRA │  │ TETRA+Red Vital IP / TETRA │         │
 │  │ (La Dorada) │  │(Puerto Salgar)│ │(Puerto Berrío)│     │
 │  └─────────────┘  └─────────────┘  └─────────────┘         │
 └─────────────────────────────────────────────────────────────┘
                               │
                               │ 37 Torres Colocalizadas
-                              │ (TETRA + RED TETRA (Misión Crítica))
+                              │ (TETRA + Red Vital IP / TETRA)
                               ▼
 ┌─────────────────────────────────────────────────────────────┐
 │                    PTC EMBARCADO (15 LOCOMOTORAS)           │
 ├─────────────────────────────────────────────────────────────┤
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
-│  │ Radio TETRA │  │ Radio RED TETRA (Misión Crítica) │  │   Display   │         │
+│  │ Radio TETRA │  │ Radio Red Vital IP / TETRA │  │   Display   │         │
 │  │  Embarcado  │  │  Embarcado  │  │  Maquinista │         │
 │  │ (Redundante)│  │ (Principal) │  │  (Virtual)  │         │
 │  └─────────────┘  └─────────────┘  └─────────────┘         │
@@ -89,10 +89,10 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 
 ### 2.2 Componentes Principales Colocalizados
 
-#### 2.2.1 TETRA + RED TETRA (Misión Crítica) Colocalizados (37 Estaciones)
+#### 2.2.1 TETRA + Red Vital IP / TETRA Colocalizados (37 Estaciones)
 - **TETRA:** 37 estaciones base con solapamiento 15-20%
-- **RED TETRA (Misión Crítica):** 37 estaciones base colocalizadas con TETRA
-- **Torres:** 37 torres compartidas (TETRA + RED TETRA (Misión Crítica))
+- **Red Vital IP / TETRA:** 37 estaciones base colocalizadas con TETRA
+- **Torres:** 37 torres compartidas (TETRA + Red Vital IP / TETRA)
 - **Redundancia:** Respaldo mutuo entre sistemas
 - **Cobertura:** 526.133 km de vía con solapamiento
 
@@ -112,30 +112,30 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 
 ## 3. Especificaciones Técnicas Colocalizadas
 
-### 3.1 TETRA + RED TETRA (Misión Crítica) Colocalizados
+### 3.1 TETRA + Red Vital IP / TETRA Colocalizados
 
 #### 3.1.1 Estaciones Base Colocalizadas (37 Torres)
 - **Fabricante TETRA:** Motorola (TETRA)
-- **Fabricante RED TETRA (Misión Crítica):** Nokia (BSC, BTS)
+- **Fabricante Red Vital IP / TETRA:** Nokia (BSC, BTS)
 - **Potencia TETRA:** 25W por sector
-- **Potencia RED TETRA (Misión Crítica):** 40W por sector
+- **Potencia Red Vital IP / TETRA:** 40W por sector
 - **Antenas:** Sectoriales 120° (3 sectores por sistema)
 - **Altura:** 30-50 metros (torres compartidas)
 - **Cobertura:** 15-20 km por estación (con solapamiento)
 
 #### 3.1.2 Equipos Embarcados Duales (15 Locomotoras)
 - **Radio TETRA:** Motorola (MTM800)
-- **Radio RED TETRA (Misión Crítica):** Thales (Cab Radio)
+- **Radio Red Vital IP / TETRA:** Thales (Cab Radio)
 - **Potencia TETRA:** 3W (móvil), 1W (portátil)
-- **Potencia RED TETRA (Misión Crítica):** 8W (móvil), 2W (portátil)
+- **Potencia Red Vital IP / TETRA:** 8W (móvil), 2W (portátil)
 - **Antenas:** Omnidireccionales duales
-- **Batería:** 12 horas de autonomía (TETRA), 8 horas (RED TETRA (Misión Crítica))
+- **Batería:** 12 horas de autonomía (TETRA), 8 horas (Red Vital IP / TETRA)
 - **Interfaz:** PTC embarcado compatible
 
 #### 3.1.3 Red Core Colocalizada
 - **TETRA Core:** Motorola (TETRA Core)
-- **RED TETRA (Misión Crítica) Core:** Nokia (MSC, BSC, HLR, VLR)
-- **Integración:** Gateway TETRA-RED TETRA (Misión Crítica)
+- **Red Vital IP / TETRA Core:** Nokia (MSC, BSC, HLR, VLR)
+- **Integración:** Gateway TETRA-Red Vital IP / TETRA
 - **Redundancia:** N+1 en ambos sistemas
 - **Conmutación:** Automática entre sistemas
 
@@ -186,13 +186,13 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 
 #### 4.1.1 PTC Embarcado (Sin Servidor PTC Central)
 - **Movement Authority:** Autorización de movimiento via CTC virtual
-- **Position Report:** Reporte de posición via TETRA/RED TETRA (Misión Crítica)
+- **Position Report:** Reporte de posición via TETRA/Red Vital IP / TETRA
 - **Emergency Stop:** Parada de emergencia via doble sistema
 - **Data Logging:** Registro de datos via redundancia
-- **Latencia:** < 100ms (TETRA), < 500ms (RED TETRA (Misión Crítica))
+- **Latencia:** < 100ms (TETRA), < 500ms (Red Vital IP / TETRA)
 
 #### 4.1.2 Servicios de Voz Duales
-- **Driver-Controller:** Comunicación directa via TETRA/RED TETRA (Misión Crítica)
+- **Driver-Controller:** Comunicación directa via TETRA/Red Vital IP / TETRA
 - **Group Call:** Llamadas grupales redundantes
 - **Emergency Call:** Llamadas de emergencia duales
 - **Priority Call:** Llamadas prioritarias con respaldo
@@ -218,11 +218,11 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 
 #### 4.3.1 Enlaces de Respaldo Múltiples
 - **TETRA:** Radio principal
-- **RED TETRA (Misión Crítica):** Radio de respaldo
+- **Red Vital IP / TETRA:** Radio de respaldo
 - **VSAT:** Satelital de emergencia
 - **VHF/UHF:** Radio local
 - **Internet:** Enlace administrativo
-- **Redundancia:** N+2 (TETRA + RED TETRA (Misión Crítica) + VSAT)
+- **Redundancia:** N+2 (TETRA + Red Vital IP / TETRA + VSAT)
 
 #### 4.3.2 Procedimientos de Emergencia Colocalizados
 - **Activación automática:** Failover automático entre sistemas
@@ -237,21 +237,21 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 ### 5.1 Seguridad Funcional Colocalizada (EN 50126/50128/50129)
 
 #### 5.1.1 Objetivos de Seguridad Colocalizados
-- **SIL 4:** Comunicación PTC embarcado (TETRA + RED TETRA (Misión Crítica))
+- **SIL 4:** Comunicación PTC embarcado (TETRA + Red Vital IP / TETRA)
 - **SIL 3:** Comunicación operacional dual
 - **SIL 2:** Comunicación de supervisión redundante
 - **SIL 1:** Comunicación administrativa
 
 #### 5.1.2 Arquitectura de Seguridad Colocalizada
-- **Redundancia:** N+1 en enlaces críticos (TETRA + RED TETRA (Misión Crítica))
-- **Diversidad:** Diferentes tecnologías (TETRA, RED TETRA (Misión Crítica), VSAT)
+- **Redundancia:** N+1 en enlaces críticos (TETRA + Red Vital IP / TETRA)
+- **Diversidad:** Diferentes tecnologías (TETRA, Red Vital IP / TETRA, VSAT)
 - **Aislamiento:** Separación física y lógica
 - **Monitoreo:** Supervisión continua dual
 
 ### 5.2 Ciberseguridad Colocalizada (IEC 62443)
 
 #### 5.2.1 Zonas de Seguridad Colocalizadas
-- **Zona 0:** Red de control crítico (TETRA + RED TETRA (Misión Crítica))
+- **Zona 0:** Red de control crítico (TETRA + Red Vital IP / TETRA)
 - **Zona 1:** Red de supervisión (Fibra)
 - **Zona 2:** Red administrativa (Internet)
 - **Zona 3:** Red externa (Satelital)
@@ -267,13 +267,13 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 
 #### 5.3.1 Objetivos de Disponibilidad Colocalizados
 - **TETRA:** 99.9% (8.76 horas/año)
-- **RED TETRA (Misión Crítica):** 99.9% (8.76 horas/año)
+- **Red Vital IP / TETRA:** 99.9% (8.76 horas/año)
 - **Sistema Combinado:** 99.99% (0.88 horas/año)
 - **Fibra Óptica:** 99.95% (4.38 horas/año)
 - **VSAT:** 99.0% (87.6 horas/año)
 
 #### 5.3.2 Estrategias de Redundancia Colocalizadas
-- **Enlaces:** N+2 con failover automático (TETRA + RED TETRA (Misión Crítica) + VSAT)
+- **Enlaces:** N+2 con failover automático (TETRA + Red Vital IP / TETRA + VSAT)
 - **Equipos:** Redundancia en componentes críticos
 - **Alimentación:** UPS + generador (ambas torres)
 - **Comunicación:** Enlaces múltiples con respaldo mutuo
@@ -284,16 +284,16 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 
 ### 6.1 Integración PTC Embarcado
 
-#### 6.1.1 Protocolo TETRA + RED TETRA (Misión Crítica)
+#### 6.1.1 Protocolo TETRA + Red Vital IP / TETRA
 - **Estándar TETRA:** ETSI EN 300 392-2
-- **Estándar RED TETRA (Misión Crítica):** EIRENE v15.4
+- **Estándar Red Vital IP / TETRA:** EIRENE v15.4
 - **Formato:** Voz + Datos
 - **Frecuencia:** 1 Hz (tiempo real)
-- **Latencia:** < 100ms (TETRA), < 500ms (RED TETRA (Misión Crítica))
+- **Latencia:** < 100ms (TETRA), < 500ms (Red Vital IP / TETRA)
 - **Confiabilidad:** 99.99% (combinada)
 
 #### 6.1.2 Datos Intercambiados Colocalizados
-- **Position Report:** Coordenadas GPS via TETRA/RED TETRA (Misión Crítica)
+- **Position Report:** Coordenadas GPS via TETRA/Red Vital IP / TETRA
 - **Movement Authority:** Autorización de movimiento via CTC virtual
 - **Emergency Stop:** Parada de emergencia via doble sistema
 - **System Status:** Estado del sistema via redundancia
@@ -304,14 +304,14 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 #### 6.2.1 Enlaces Nacionales Colocalizados
 - **Fibra Óptica:** Enlace principal (526 km)
 - **TETRA:** Enlace de respaldo
-- **RED TETRA (Misión Crítica):** Enlace de respaldo
+- **Red Vital IP / TETRA:** Enlace de respaldo
 - **VSAT:** Enlace de emergencia
 - **Internet:** Enlace administrativo
 
 #### 6.2.2 Enlaces Internacionales Colocalizados
 - **VSAT:** Enlace satelital
 - **Internet:** Enlace IP
-- **Roaming:** RED TETRA (Misión Crítica) internacional
+- **Roaming:** Red Vital IP / TETRA internacional
 - **Backup:** Enlaces múltiples con respaldo
 
 ---
@@ -321,13 +321,13 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 ### 7.1 Procedimientos de Operación Colocalizada
 
 #### 7.1.1 Operación Normal Colocalizada
-- **Inicio del Sistema:** Arranque dual (TETRA + RED TETRA (Misión Crítica))
+- **Inicio del Sistema:** Arranque dual (TETRA + Red Vital IP / TETRA)
 - **Control de Tráfico:** Gestión dual de comunicaciones
 - **Supervisión:** Monitoreo dual continuo
 - **Cierre del Sistema:** Procedimientos de parada dual
 
 #### 7.1.2 Procedimientos de Emergencia Colocalizada
-- **Failover Automático:** Conmutación automática TETRA ↔ RED TETRA (Misión Crítica)
+- **Failover Automático:** Conmutación automática TETRA ↔ Red Vital IP / TETRA
 - **Failover Manual:** Procedimientos manuales duales
 - **Coordinación:** Integración con servicios de emergencia
 - **Comunicación:** Enlaces múltiples con respaldo
@@ -336,13 +336,13 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 
 #### 7.2.1 Mantenimiento Preventivo Colocalizado
 - **Inspecciones TETRA:** Monitoreo del sistema TETRA
-- **Inspecciones RED TETRA (Misión Crítica):** Monitoreo del sistema RED TETRA (Misión Crítica)
+- **Inspecciones Red Vital IP / TETRA:** Monitoreo del sistema Red Vital IP / TETRA
 - **Inspecciones Torres:** Mantenimiento de torres compartidas
 - **Calibración Dual:** Sistemas de comunicación duales
 
 #### 7.2.2 Mantenimiento Correctivo Colocalizado
 - **Diagnóstico TETRA:** Fallas del sistema TETRA
-- **Diagnóstico RED TETRA (Misión Crítica):** Fallas del sistema RED TETRA (Misión Crítica)
+- **Diagnóstico Red Vital IP / TETRA:** Fallas del sistema Red Vital IP / TETRA
 - **Reparación Torres:** Mantenimiento de torres compartidas
 - **Pruebas Post-Reparación:** Validación dual de funcionamiento
 
@@ -352,8 +352,8 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 
 ### 8.1 Pruebas de Componentes Colocalizados
 
-#### 8.1.1 Pruebas TETRA + RED TETRA (Misión Crítica)
-- **Pruebas de Fábrica (FAT):** TETRA + RED TETRA (Misión Crítica)
+#### 8.1.1 Pruebas TETRA + Red Vital IP / TETRA
+- **Pruebas de Fábrica (FAT):** TETRA + Red Vital IP / TETRA
 - **Pruebas de Recepción:** Sistemas colocalizados
 - **Pruebas de Instalación:** Torres compartidas
 - **Pruebas de Funcionamiento:** Operación dual
@@ -367,16 +367,16 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 ### 8.2 Pruebas de Sistema Colocalizado
 
 #### 8.2.1 Pruebas de Integración Colocalizada
-- **TETRA-RED TETRA (Misión Crítica):** Integración colocalizada
+- **TETRA-Red Vital IP / TETRA:** Integración colocalizada
 - **CTC-PTC:** Integración via doble sistema
 - **Redundancia:** Pruebas de failover automático
-- **Comunicaciones:** TETRA + RED TETRA (Misión Crítica) + VSAT
+- **Comunicaciones:** TETRA + Red Vital IP / TETRA + VSAT
 
 #### 8.2.2 Pruebas de Rendimiento Colocalizado
-- **Latencia:** < 100ms (TETRA), < 500ms (RED TETRA (Misión Crítica))
+- **Latencia:** < 100ms (TETRA), < 500ms (Red Vital IP / TETRA)
 - **Disponibilidad:** 99.99% (sistema combinado)
 - **Capacidad:** 15 trenes simultáneos
-- **Redundancia:** N+2 (TETRA + RED TETRA (Misión Crítica) + VSAT)
+- **Redundancia:** N+2 (TETRA + Red Vital IP / TETRA + VSAT)
 
 ### 8.3 Validación de Seguridad Colocalizada
 
@@ -391,20 +391,20 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 ## 9. Entregables Colocalizados
 
 ### 9.1 Documentación Técnica Colocalizada
-- **Planos TETRA + RED TETRA (Misión Crítica):** Sistemas colocalizados
+- **Planos TETRA + Red Vital IP / TETRA:** Sistemas colocalizados
 - **Especificaciones Torres:** Torres compartidas
 - **Manuales PTC:** Sistemas embarcados duales
 - **Manuales Colocalizados:** Operación y mantenimiento dual
 
 ### 9.2 Software y Configuración Colocalizada
 - **Software TETRA:** Sistema TETRA
-- **Software RED TETRA (Misión Crítica):** Sistema RED TETRA (Misión Crítica)
+- **Software Red Vital IP / TETRA:** Sistema Red Vital IP / TETRA
 - **Configuraciones Torres:** Torres compartidas
 - **Interfaces Colocalizadas:** Sistemas de usuario duales
 
 ### 9.3 Equipos y Materiales Colocalizados
 - **Equipos TETRA:** Sistema TETRA
-- **Equipos RED TETRA (Misión Crítica):** Sistema RED TETRA (Misión Crítica)
+- **Equipos Red Vital IP / TETRA:** Sistema Red Vital IP / TETRA
 - **Equipos Torres:** Torres compartidas
 - **Cables y Accesorios:** Sistemas de comunicación colocalizados
 
@@ -413,16 +413,16 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 ## 10. Cronograma de Implementación Colocalizada
 
 ### 10.1 Fases del Proyecto Colocalizado
-- **Fase 1:** TETRA + RED TETRA (Misión Crítica) Colocalizados (3 meses)
+- **Fase 1:** TETRA + Red Vital IP / TETRA Colocalizados (3 meses)
 - **Fase 2:** Torres Compartidas (2 meses)
 - **Fase 3:** PTC Embarcado Dual (3 meses)
 - **Fase 4:** Pruebas Colocalizadas (2 meses)
 - **Fase 5:** Puesta en Servicio (1 mes)
 
 ### 10.2 Hitos Principales Colocalizados
-- **37 Torres Colocalizadas:** TETRA + RED TETRA (Misión Crítica) completadas
+- **37 Torres Colocalizadas:** TETRA + Red Vital IP / TETRA completadas
 - **PTC Embarcado Dual:** Sistemas en 15 locomotoras
-- **Redundancia Operacional:** TETRA + RED TETRA (Misión Crítica) funcionando
+- **Redundancia Operacional:** TETRA + Red Vital IP / TETRA funcionando
 - **Pruebas Colocalizadas:** Validación completa
 - **Puesta en Servicio:** Operación comercial colocalizada
 
@@ -432,7 +432,7 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 
 ### 11.1 Control de Calidad Colocalizado
 - **Inspecciones TETRA:** Sistema TETRA
-- **Inspecciones RED TETRA (Misión Crítica):** Sistema RED TETRA (Misión Crítica)
+- **Inspecciones Red Vital IP / TETRA:** Sistema Red Vital IP / TETRA
 - **Validación Torres:** Torres compartidas
 - **Certificados Colocalizados:** Documentación de calidad dual
 
@@ -447,9 +447,9 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 ## 12. Referencias y Documentación
 
 ### 12.1 Documentos del Proyecto Actualizados
-- **`CRITERIOS_TECNICOS_MAESTRO_v1.0.md`:** TETRA 37 + RED TETRA (Misión Crítica) colocalizado
+- **`CRITERIOS_TECNICOS_MAESTRO_v1.0.md`:** TETRA 37 + Red Vital IP / TETRA colocalizado
 - **`AT1_Alcance_del_Proyecto_MEJORADO_v4.0.md`:** Alcance actualizado
-- **`27_Sistema_TETRA_Integrado_v5.0.md`:** 37 estaciones + RED TETRA (Misión Crítica)
+- **`27_Sistema_TETRA_Integrado_v5.0.md`:** 37 estaciones + Red Vital IP / TETRA
 - **`29_Sistema_Senalizacion_Integrado_v5.0.md`:** Filosofía virtual
 
 ### 12.2 Referencias del Proyecto
@@ -459,17 +459,17 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 
 ---
 
-## 13. Impacto Presupuestal de TETRA + RED TETRA (Misión Crítica) Colocalizados
+## 13. Impacto Presupuestal de TETRA + Red Vital IP / TETRA Colocalizados
 
 ### 13.1 Ajustes de Cantidades
 - **TETRA:** 33 → 37 estaciones (+4 estaciones)
-- **RED TETRA (Misión Crítica):** 0 → 37 estaciones (+37 estaciones)
+- **Red Vital IP / TETRA:** 0 → 37 estaciones (+37 estaciones)
 - **Torres:** 33 → 37 torres (+4 torres)
 - **Colocalización:** Optimización de costos
 
 ### 13.2 Impacto Presupuestal Neto
 - **TETRA +4 estaciones:** +$2,000,000,000 COP
-- **RED TETRA (Misión Crítica) +37 estaciones:** +$3,484,000,000 COP
+- **Red Vital IP / TETRA +37 estaciones:** +$3,484,000,000 COP
 - **Optimización colocalización:** -$1,000,000,000 COP
 - **IMPACTO NETO:** +$4,484,000,000 COP
 
@@ -478,11 +478,11 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 ## 14. Interfaces Documentales v2.0
 
 ### 14.1 Documentos Actualizados (v2.0)
-- **AT1 v4.0:** ✅ Actualizado - TETRA 37 + RED TETRA (Misión Crítica) colocalizado
+- **AT1 v4.0:** ✅ Actualizado - TETRA 37 + Red Vital IP / TETRA colocalizado
 - **Listado Maestro v4.0:** ✅ Actualizado - Sistemas colocalizados
 - **WBS v4.0:** ✅ Actualizado - Estructura colocalizada
-- **27_Sistema_TETRA v5.0:** ✅ Actualizado - 37 estaciones + RED TETRA (Misión Crítica)
-- **V.3_Comunicaciones v2.0:** ✅ Actualizado - TETRA + RED TETRA (Misión Crítica) colocalizados
+- **27_Sistema_TETRA v5.0:** ✅ Actualizado - 37 estaciones + Red Vital IP / TETRA
+- **V.3_Comunicaciones v2.0:** ✅ Actualizado - TETRA + Red Vital IP / TETRA colocalizados
 
 ### 14.2 Documentos Dependientes (Por Actualizar)
 - **V.4_Sistemas_Potencia_Detalle_v1.0.md** ⏳ (Alimentación torres)
@@ -493,12 +493,12 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 **Control de versiones:**
 | Versión | Fecha | Responsable | Descripción |
 |:---:|:---:|:---|:---|
-| v1.0 | 02/10/2025 | Ing. Comunicaciones | Especificación inicial con RED TETRA (Misión Crítica) independiente |
-| **v2.0** | **Ene-2025** | **Admin. Contractual EPC** | **CRÍTICO: TETRA + RED TETRA (Misión Crítica) colocalizados** |
+| v1.0 | 02/10/2025 | Ing. Comunicaciones | Especificación inicial con Red Vital IP / TETRA independiente |
+| **v2.0** | **Ene-2025** | **Admin. Contractual EPC** | **CRÍTICO: TETRA + Red Vital IP / TETRA colocalizados** |
 
 ---
 
-**Estado del documento:** ✅ **COMPLETADO - TETRA + RED TETRA (Misión Crítica) COLOCALIZADOS**  
+**Estado del documento:** ✅ **COMPLETADO - TETRA + Red Vital IP / TETRA COLOCALIZADOS**  
 **Fecha de consolidación:** Enero 2025  
 **Responsable:** Administrador Contractual EPC  
 **Próxima revisión:** Febrero 2025

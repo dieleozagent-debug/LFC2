@@ -85,7 +85,7 @@
 - **Locomotoras:** 15 unidades con PTC embarcado PTC Virtual (FRA 236)
 - **Vagones de Carga:** 40 plataformas operativas + 11 no operativas
 - **Equipos Especializados:** 8 carromotores, 2 bateadoras, 3 retroexcavadoras
-- **Sistemas Embarcados:** PTC PTC Virtual (FRA 236), TETRA + RED TETRA (Misión Crítica), GPS/GNSS
+- **Sistemas Embarcados:** PTC PTC Virtual (FRA 236), TETRA + Red Vital IP / TETRA, GPS/GNSS
 - **Talleres:** Principal La Dorada + secundario Chiriguaná + talleres de línea
 
 ### **2.2 Criterios de Diseño Mecánico**
@@ -127,7 +127,7 @@
 |:--------|:---------------|:---------|
 | **PTC Embarcado** | PTC Virtual (FRA 236) | Control automático de trenes |
 | **TETRA** | Radio digital | Comunicación tren-tierra |
-| **RED TETRA (Misión Crítica)** | Red de datos | Comunicación redundante |
+| **Red Vital IP / TETRA** | Red de datos | Comunicación redundante |
 | **GPS/GNSS** | Posicionamiento | Seguimiento en tiempo real |
 | **Event Recorder** | Caja negra | Registro de eventos |
 | **CCTV Embarcado** | Video surveillance | Seguridad operacional |
@@ -150,7 +150,7 @@
 | **Monitoreo de cola** | Sensor de presión | Integridad del tren |
 | **Sensor de integridad** | Detección de separación | Seguridad del tren |
 | **GPS** | Posicionamiento | Ubicación del tren |
-| **Radio comunicación** | TETRA/RED TETRA (Misión Crítica) | Comunicación con locomotora |
+| **Radio comunicación** | TETRA/Red Vital IP / TETRA | Comunicación con locomotora |
 | **Disponibilidad** | 99.95% | Sistema crítico |
 
 ### **3.3 Especificaciones Básicas de Talleres**
@@ -210,7 +210,7 @@
 |:--------|:---------------|:---------|
 | **PTC Embarcado** | PTC Virtual (FRA 236) | Control automático |
 | **TETRA Embarcado** | Radio digital | Comunicación principal |
-| **RED TETRA (Misión Crítica) Embarcado** | Red de datos | Comunicación redundante |
+| **Red Vital IP / TETRA Embarcado** | Red de datos | Comunicación redundante |
 | **GPS/GNSS** | Posicionamiento preciso | Seguimiento |
 | **Event Recorder** | Registro de eventos | Caja negra |
 
@@ -276,7 +276,7 @@
 |:--------|:---------|:---------|:---------|
 | **PTC Embarcado** | Controlador PTC Virtual (FRA 236) | Software PTC VIRTUAL | Control automático |
 | **TETRA** | Radio digital | Protocolo TETRA | Comunicación |
-| **RED TETRA (Misión Crítica)** | Radio RED TETRA (Misión Crítica) | Protocolo RED TETRA (Misión Crítica) | Comunicación |
+| **Red Vital IP / TETRA** | Radio Red Vital IP / TETRA | Protocolo Red Vital IP / TETRA | Comunicación |
 | **GPS/GNSS** | Receptor GPS | Software navegación | Posicionamiento |
 | **Event Recorder** | Grabador de eventos | Software registro | Registro |
 
@@ -295,7 +295,7 @@
 |:--------|:---------|:---------|:---------------|
 | **PTC Embarcado** | Software PTC Virtual (FRA 236) | Control automático | Over-the-air (OTA) |
 | **TETRA** | Protocolo TETRA | Comunicación | OTA |
-| **RED TETRA (Misión Crítica)** | Protocolo RED TETRA (Misión Crítica) | Comunicación | OTA |
+| **Red Vital IP / TETRA** | Protocolo Red Vital IP / TETRA | Comunicación | OTA |
 | **GPS/GNSS** | Software navegación | Posicionamiento | OTA |
 | **Event Recorder** | Software registro | Registro de eventos | Manual |
 
@@ -316,7 +316,7 @@
 #### **Operación Normal:**
 1. **Inicio de Operación:**
    - Verificación de sistemas embarcados
-   - Pruebas de comunicación TETRA/RED TETRA (Misión Crítica)
+   - Pruebas de comunicación TETRA/Red Vital IP / TETRA
    - Verificación de GPS/GNSS
    - Activación de PTC embarcado
 
@@ -388,7 +388,7 @@
 | **Locomotoras** | Diesel-Eléctrica, 50 Hz | Tracción eléctrica |
 | **Sistemas Embarcados** | 24 V DC | Sistemas auxiliares |
 | **TETRA Embarcado** | 24 V DC | Comunicación |
-| **RED TETRA (Misión Crítica) Embarcado** | 24 V DC | Comunicación |
+| **Red Vital IP / TETRA Embarcado** | 24 V DC | Comunicación |
 | **GPS/GNSS** | 24 V DC | Posicionamiento |
 
 ### **7.2 Interfaces con Sistemas de Telecomunicaciones**
@@ -397,7 +397,7 @@
 | Sistema | Protocolo | Función |
 |:--------|:----------|:---------|
 | **TETRA** | EN 300 392 | Comunicación principal |
-| **RED TETRA (Misión Crítica)** | FRA/AREMA 920-2 | Comunicación redundante |
+| **Red Vital IP / TETRA** | FRA/AREMA 920-2 | Comunicación redundante |
 | **GPS/GNSS** | NMEA 0183 | Posicionamiento |
 | **Event Recorder** | Protocolo propietario | Registro de eventos |
 

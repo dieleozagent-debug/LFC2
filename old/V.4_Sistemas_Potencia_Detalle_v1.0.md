@@ -172,7 +172,7 @@ Este documento detalla la ingeniería de los sistemas de potencia para el proyec
 #### 4.1.2 Cargas Críticas
 - **PTC:** 200 kVA (PTC Virtual (FRA 236))
 - **CTC:** 100 kVA (Centro de Control)
-- **Comunicaciones:** 50 kVA (RED TETRA (Misión Crítica), TETRA)
+- **Comunicaciones:** 50 kVA (Red Vital IP / TETRA, TETRA)
 - **Señalización:** 150 kVA (Señales, enclavamientos)
 - **Iluminación:** 100 kVA (Estaciones, vías)
 

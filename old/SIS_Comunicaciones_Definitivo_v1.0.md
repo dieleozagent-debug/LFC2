@@ -76,7 +76,7 @@
 | **Cobertura TETRA** | 95% territorio | En diseño | Drive test | Ing. Telecomunicaciones | ⏳ |
 | **Latencia red datos** | <50ms | En diseño | Pruebas throughput | Ing. Telecomunicaciones | ⏳ |
 | **MTBF equipos TETRA** | >8760h | En diseño | Análisis RAMS | Ing. Telecomunicaciones | ⏳ |
-| **Throughput RED TETRA (Misión Crítica)** | >2Mbps | En diseño | Pruebas de campo | Ing. Telecomunicaciones | ⏳ |
+| **Throughput Red Vital IP / TETRA** | >2Mbps | En diseño | Pruebas de campo | Ing. Telecomunicaciones | ⏳ |
 
 10. Criterios de Aceptación (FAT/SAT)
    - FAT: pruebas de laboratorio de enlaces ópticos y performance de red.

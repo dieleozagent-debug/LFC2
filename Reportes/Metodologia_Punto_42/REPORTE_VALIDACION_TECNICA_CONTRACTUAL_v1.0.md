@@ -48,7 +48,7 @@ Se ha iniciado la **Fase 1: Validación Técnica y Contractual** del proyecto, v
 - **Estado:** ✅ Especificaciones completas y consistentes
 
 #### **✅ Sistemas de Comunicación (V.3)**
-- **Componentes:** RED TETRA (Misión Crítica), fibra óptica, TETRA, VSAT
+- **Componentes:** Red Vital IP / TETRA, fibra óptica, TETRA, VSAT
 - **Normas aplicadas:** EN 50126/50128/50129, IEC 62290, FRA/AREMA 615, EIRENE
 - **Disponibilidad:** 99.9% operacional
 - **Estado:** ✅ Especificaciones completas y consistentes
@@ -144,7 +144,7 @@ Se ha iniciado la **Fase 1: Validación Técnica y Contractual** del proyecto, v
 |:---:|:---:|:---:|:---:|:---:|
 | **V.1 Señalización** | ✅ Completa | ✅ 9 normas | ✅ PTC | ✅ Validado |
 | **V.2 CTC** | ✅ Completa | ✅ 10 normas | ✅ FFFIS | ✅ Validado |
-| **V.3 Comunicaciones** | ✅ Completa | ✅ 13 normas | ✅ RED TETRA (Misión Crítica)/TETRA | ✅ Validado |
+| **V.3 Comunicaciones** | ✅ Completa | ✅ 13 normas | ✅ Red Vital IP / TETRA/TETRA | ✅ Validado |
 | **V.4 Potencia** | ✅ Completa | ✅ 9 normas | ✅ UPS/Gen | ✅ Validado |
 | **V.5 Seguridad** | ✅ Completa | ✅ 13 normas | ✅ CCTV/Incendios | ✅ Validado |
 

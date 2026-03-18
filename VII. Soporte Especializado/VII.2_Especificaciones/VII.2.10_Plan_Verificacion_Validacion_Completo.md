@@ -11,7 +11,7 @@
 ## 🎯 **1. PROPÓSITO Y ALCANCE**
 
 ### **1.1 PROPÓSITO**
-Este documento establece el marco de **Verificación y Validación (V&V)** para el sistema PTC Virtual. Se eliminan todas las actividades de prueba relacionadas con infraestructura obsoleta (PTC VIRTUAL, RED TETRA (Misión Crítica), Virtual Balise (GNSS)s) y se enfoca en la validación de la arquitectura de Bloque Virtual y comunicaciones TETRA.
+Este documento establece el marco de **Verificación y Validación (V&V)** para el sistema PTC Virtual. Se eliminan todas las actividades de prueba relacionadas con infraestructura obsoleta (PTC VIRTUAL, Red Vital IP / TETRA, Virtual Balise (GNSS)s) y se enfoca en la validación de la arquitectura de Bloque Virtual y comunicaciones TETRA.
 
 ### **1.2 ALCANCE**
 - **Pruebas de Software Vital:** Vital PTC Server y OBC.
@@ -46,7 +46,7 @@ Este documento establece el marco de **Verificación y Validación (V&V)** para 
 
 | Versión | Fecha | Responsable | Cambio (Karpathy Purge) |
 |:---:|:---:|:---|:---|
-| **v2.0** | 13/03/2026 | Admin. Contractual | **RE-ESCRITURA TOTAL**. Eliminadas pruebas PTC VIRTUAL/RED TETRA (Misión Crítica). Alineado con FRA 236. |
+| **v2.0** | 13/03/2026 | Admin. Contractual | **RE-ESCRITURA TOTAL**. Eliminadas pruebas PTC VIRTUAL/Red Vital IP / TETRA. Alineado con FRA 236. |
 | **v1.0** | 27/01/2025 | Ing. Calidad | Versión obsoleta basada en V&V PTC VIRTUAL (HALLUCINATED). |
 
 ---

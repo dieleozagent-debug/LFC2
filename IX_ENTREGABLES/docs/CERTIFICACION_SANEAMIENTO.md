@@ -13,7 +13,7 @@ Se ha completado la purga total de obsolescencia técnica en las 7 carpetas maes
 
 ### 📊 Estadísticas de la Purga:
 - **Archivos Auditados:** +150
-- **Términos Eliminados:** RED TETRA (Misión Crítica), PTC VIRTUAL, PTC, Servidor PTC Central, Virtual Balise (GNSS), FFFIS, UNISIG.
+- **Términos Eliminados:** Red Vital IP / TETRA, PTC VIRTUAL, PTC, Servidor PTC Central, Virtual Balise (GNSS), FFFIS, UNISIG.
 - **Protocolos Adoptados:** **Vital IP** (Seguridad), **TETRA** (Comunicaciones), **FRA 236** (Señalización Virtual).
 - **Impacto Financiero:** Reducción significativa del CAPEX (Infraestructura de vía) y OPEX (Mantenimiento simplificado).
 

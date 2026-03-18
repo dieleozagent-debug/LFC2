@@ -110,7 +110,7 @@
 #### **ITS - Componentes Principales:**
 - **Sensores de Tráfico:** Detección de trenes y ocupación de vías
 - **Paneles Informativos:** Sistemas de información al usuario
-- **Sistemas de Comunicación:** Integración con TETRA y RED TETRA (Misión Crítica)
+- **Sistemas de Comunicación:** Integración con TETRA y Red Vital IP / TETRA
 - **Plataforma de Datos:** Recolección y procesamiento de información
 - **Interfaces de Usuario:** Dashboards operacionales y gerenciales
 
@@ -125,7 +125,7 @@
 #### **Infraestructura de Comunicaciones:**
 - **Backbone Principal:** Fibra óptica 526 km con redundancia
 - **Red de Datos:** Ethernet industrial para sistemas ITS
-- **Comunicaciones Inalámbricas:** TETRA + RED TETRA (Misión Crítica) para sistemas móviles
+- **Comunicaciones Inalámbricas:** TETRA + Red Vital IP / TETRA para sistemas móviles
 - **Redes de Seguridad:** Redes dedicadas para sistemas críticos
 
 ---
@@ -285,7 +285,7 @@
 
 ### **7.2 Interfaces con Sistemas de Comunicaciones**
 
-#### **TETRA/RED TETRA (Misión Crítica):**
+#### **TETRA/Red Vital IP / TETRA:**
 - **CCTV:** Transmisión de alertas de seguridad por radio
 - **ITS:** Comunicación de datos de sensores remotos
 - **Seguridad:** Notificaciones de alarmas a personal de campo
@@ -334,7 +334,7 @@
 | **ITS** | **CTC** | Datos/Control | Modbus TCP/IP | ✅ Implementado |
 | **Seguridad** | **CTC** | Alarmas/Monitoreo | SNMP | ✅ Implementado |
 | **CCTV** | **TETRA** | Alertas | Mensajería | ✅ Implementado |
-| **ITS** | **RED TETRA (Misión Crítica)** | Datos | GPRS/4G | ✅ Implementado |
+| **ITS** | **Red Vital IP / TETRA** | Datos | GPRS/4G | ✅ Implementado |
 | **Seguridad** | **Fibra Óptica** | Comunicación | Ethernet | ✅ Implementado |
 | **CCTV** | **SICC** | Reportes | REST API | ✅ Implementado |
 | **ITS** | **SICC** | Indicadores | REST API | ✅ Implementado |

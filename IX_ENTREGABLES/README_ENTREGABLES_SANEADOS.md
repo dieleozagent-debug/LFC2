@@ -33,7 +33,7 @@ Este directorio contiene la documentación consolidada que rige el proyecto bajo
 
 Se certifica que la documentación contenida en esta carpeta ha pasado por el **Ciclo de Saneamiento Recursivo (Ciclos 1 a 7)** y cumple con:
 - ✅ **Cero (0)** referencias a hardware de vía obsoleto (Virtual Balise (GNSS)s, Señalización en Cabina (Cab-Signaling)).
-- ✅ **Cero (0)** dependencia de protocolos propietarios (PTC, Servidor PTC Central, RED TETRA (Misión Crítica)).
+- ✅ **Cero (0)** dependencia de protocolos propietarios (PTC, Servidor PTC Central, Red Vital IP / TETRA).
 - ✅ **Alineación total** con el estándar de Bloqueo Virtual **FRA 236**.
 - ✅ **Consistencia absoluta** con el cerebro del proyecto (SSOT).
 

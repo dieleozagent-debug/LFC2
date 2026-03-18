@@ -54,7 +54,7 @@ Este documento de soporte consolida el inventario maestro de todos los sistemas 
 - **❌ LEU - Lineside Electronic Units:** 1,080 unidades → **0 unidades** (Sistema PTC embarcado)
 
 #### **🆕 IMPLEMENTACIONES NUEVAS (Según Criterios Maestros):**
-- **✅ RED TETRA (Misión Crítica):** NO incluido → **37 estaciones** (Redundancia con TETRA)
+- **✅ Red Vital IP / TETRA:** NO incluido → **37 estaciones** (Redundancia con TETRA)
 - **✅ EOT - End of Train:** NO incluido → **15 dispositivos** (Integridad del tren)
 - **✅ ENCE - Enclavamientos:** NO especificado → **5 estaciones** (Control crítico)
 - **✅ Desvíos:** NO incluido → **120 unidades** (25 motorizados + 95 manuales)
@@ -87,7 +87,7 @@ Este documento consolida el Listado Maestro de Sistemas que el EPC debe implemen
 - **Referencias:** AT1 (Cap. 5.1), AT3 (Cap. 8.10), Cl. 13.1 del Contrato
 - **Funciones:** Control automático de velocidad, autorización de movimiento, protección contra colisiones
 - **Disponibilidad:** 99.95% según AT4
-- **Componentes:** Computadora PTC, sensores, display maquinista, radio TETRA+RED TETRA (Misión Crítica)
+- **Componentes:** Computadora PTC, sensores, display maquinista, radio TETRA+Red Vital IP / TETRA
 - **Interoperabilidad:** Compatible con sistemas FENOCO según estándares FRA/AREMA
 
 #### **1.3 Enclavamientos Electrónicos (ENCE) - 5 ESTACIONES**
@@ -121,12 +121,12 @@ Este documento consolida el Listado Maestro de Sistemas que el EPC debe implemen
 - **Disponibilidad:** 99.5% según AT4
 - **Interoperabilidad:** Frecuencias y protocolos FRA/AREMA compatibles con FENOCO
 
-#### **2.2 Sistema RED TETRA (Misión Crítica) (37 ESTACIONES) - NUEVO**
+#### **2.2 Sistema Red Vital IP / TETRA (37 ESTACIONES) - NUEVO**
 - **Referencias:** Criterios Técnicos Maestros v1.0
 - **Funciones:** Redundancia con TETRA, comunicaciones críticas
 - **Cobertura:** 100% del corredor (colocalizado con TETRA)
 - **Disponibilidad:** 99.5% según AT4
-- **Componentes:** Estaciones base RED TETRA (Misión Crítica), radios embarcados, antenas
+- **Componentes:** Estaciones base Red Vital IP / TETRA, radios embarcados, antenas
 
 #### **2.3 Red de Fibra Óptica (594 KM)**
 - **Referencias:** AT3 (Cap. 8.6), AT5 (interferencias), AT7 (predios)
@@ -200,7 +200,7 @@ Este documento consolida el Listado Maestro de Sistemas que el EPC debe implemen
 #### **5.1 Locomotoras con PTC Embarcado (15 UNIDADES)**
 - **Referencias:** AT1 (Cap. 5.1), Cl. 13.1 del Contrato
 - **Funciones:** Transporte de carga bajo estándares de seguridad
-- **Componentes:** Sistema PTC embarcado, radio TETRA+RED TETRA (Misión Crítica), display maquinista
+- **Componentes:** Sistema PTC embarcado, radio TETRA+Red Vital IP / TETRA, display maquinista
 - **Disponibilidad:** 99.95% según AT4
 - **Interoperabilidad:** PTC embarcado compatible con FENOCO
 
@@ -243,7 +243,7 @@ Cada sistema listado cumple con los siguientes criterios:
 - **TOTAL ELIMINAR:** -$64,000,000,000 COP
 
 ### **3.2 Implementaciones Nuevas (Faltante)**
-- **RED TETRA (Misión Crítica):** +$3,484,000,000 COP
+- **Red Vital IP / TETRA:** +$3,484,000,000 COP
 - **EOT:** +$520,000,000 COP
 - **ENCE:** +$6,020,000,000 COP
 - **Desvíos:** +$3,783,000,000 COP
@@ -270,7 +270,7 @@ Cada sistema listado cumple con los siguientes criterios:
 ### **4.3 Documentos de Ingeniería (Por Actualizar)**
 - **V.1_Señalizacion_Ferroviaria_Detalle_v1.0.md** ⏳ (Eliminar eurobalises)
 - **V.2_Centro_Control_Trafico_CTC_Detalle_v1.0.md** ⏳ (CTC virtual)
-- **V.3_Sistemas_Comunicacion_Detalle_v1.0.md** ⏳ (RED TETRA (Misión Crítica) agregado)
+- **V.3_Sistemas_Comunicacion_Detalle_v1.0.md** ⏳ (Red Vital IP / TETRA agregado)
 
 ---
 
@@ -301,7 +301,7 @@ Cada sistema listado cumple con los siguientes criterios:
 **Cambios implementados:**
 - Eliminación masiva de infraestructura física de señalización
 - Implementación de filosofía virtual (CTC + PTC embarcado)
-- Agregación de sistemas faltantes (RED TETRA (Misión Crítica), EOT, ENCE, Desvíos)
+- Agregación de sistemas faltantes (Red Vital IP / TETRA, EOT, ENCE, Desvíos)
 - Ajuste de cantidades según criterios maestros
 
 ### **6.2 Trazabilidad de Cambios**
@@ -334,7 +334,7 @@ Cada sistema listado cumple con los siguientes criterios:
 
 ### **8.1 Personal**
 - Personal técnico especializado en sistemas ferroviarios
-- Especialistas en telecomunicaciones (TETRA, RED TETRA (Misión Crítica))
+- Especialistas en telecomunicaciones (TETRA, Red Vital IP / TETRA)
 - Ingenieros de señalización y control
 - Especialistas en material rodante
 

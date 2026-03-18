@@ -3,7 +3,7 @@
 Para que el Frontend sea tan robusto como el Cerebro, aplicaremos una re-ingeniería basada en **Generación Estática de Sitios (SSG)** y **Componentes Compartidos**.
 
 ## 🎯 Objetivo
-Eliminar el 100% del código "zombie" (PTC VIRTUAL, RED TETRA (Misión Crítica), Punto de referencia virtuals) en la UI y asegurar que cualquier cambio en el `project_config.json` se refleje en toda la web sin intervención manual.
+Eliminar el 100% del código "zombie" (PTC VIRTUAL, Red Vital IP / TETRA, Punto de referencia virtuals) en la UI y asegurar que cualquier cambio en el `project_config.json` se refleje en toda la web sin intervención manual.
 
 ## 🔄 Ciclos de Saneamiento Frontend (n -> n+1)
 

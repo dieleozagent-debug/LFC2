@@ -13,7 +13,7 @@ El Sistema de Infraestructura Operativa es la **"base física"** del ferrocarril
 - **1 CCO:** Centro de Control Operativo en La Dorada (250 m² sala control + 200 m² sala servidores)
 - **5 estaciones ENCE:** Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México
 - **12 subestaciones:** 4 principales + 8 de distribución para alimentación eléctrica
-- **37 estaciones telecomunicaciones:** Torres TETRA/RED TETRA (Misión Crítica) colocalizadas
+- **37 estaciones telecomunicaciones:** Torres TETRA/Red Vital IP / TETRA colocalizadas
 - **Infraestructura civil:** Edificaciones, puentes, 146 pasos a nivel, drenaje
 - **Cobertura:** 100% del corredor + instalaciones de soporte
 - **Disponibilidad requerida:** 99.95% CCO, 99.5% estaciones (según AT4)
@@ -62,7 +62,7 @@ El Sistema de Infraestructura Operativa es la **"base física"** del ferrocarril
 
 ### ¿Por qué 37 estaciones de telecomunicaciones?
 **Justificación Técnica:**
-- **Colocalización:** Torres TETRA/RED TETRA (Misión Crítica) en las mismas ubicaciones
+- **Colocalización:** Torres TETRA/Red Vital IP / TETRA en las mismas ubicaciones
 - **Cobertura:** Radio de 15 km por estación con solapamiento 20%
 - **Cálculo:** 526 km ÷ 12 km efectivo = 37 estaciones
 - **Optimización:** Compartir infraestructura (torres, alimentación, respaldo)

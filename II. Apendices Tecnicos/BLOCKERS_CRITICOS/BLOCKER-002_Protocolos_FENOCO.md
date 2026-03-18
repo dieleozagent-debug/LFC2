@@ -175,7 +175,7 @@ FENOCO/Concesionario en fase posterior (post-entrega).
 
 **Arquitectura:**
 - Gateway embarcado (locomotora)
-- Canal RED TETRA (Misión Crítica) (comunicación continua)
+- Canal Red Vital IP / TETRA (comunicación continua)
 - Interfaz con CTC (Ethernet redundante)
 - Protocolo seguro (cifrado AES-256)
 

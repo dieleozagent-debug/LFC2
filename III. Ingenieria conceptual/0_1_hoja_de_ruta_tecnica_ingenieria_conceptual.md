@@ -19,7 +19,7 @@ La Ingeniería Conceptual define los pilares tecnológicos del corredor férreo 
 - **Operación:** Autoridad de Movimiento basada en **V-Block (Bloque Virtual)**.
 
 #### **B. TELECOMUNICACIONES: TETRA & FIBRA VITAL**
-- **Radio:** Red **TETRA** de misión crítica para voz y datos vitales. Se purga RED TETRA (Misión Crítica).
+- **Radio:** Red **TETRA** de misión crítica para voz y datos vitales. Se purga Red Vital IP / TETRA.
 - **Transmisión:** Backbone de **Fibra Óptica** con protocolos **Vital IP**.
 - **Resiliencia:** Capacidad de conmutación automática entre Fibra y Radio para el SICC.
 
@@ -58,6 +58,6 @@ La Ingeniería Conceptual define los pilares tecnológicos del corredor férreo 
 
 ### ✅ CONCLUSIONES:
 
-Este documento establece la base técnica para los ciclos subsiguientes de ingeniería básica y detalle. Se ha purgado la alucinación tecnológica de PTC VIRTUAL/RED TETRA (Misión Crítica) e PTC, adoptando un estándar moderno, interoperable y de bajo costo operativo.
+Este documento establece la base técnica para los ciclos subsiguientes de ingeniería básica y detalle. Se ha purgado la alucinación tecnológica de PTC VIRTUAL/Red Vital IP / TETRA e PTC, adoptando un estándar moderno, interoperable y de bajo costo operativo.
 
 **Saneamiento Ciclo 3 - Hoja de Ruta Finalizado.**

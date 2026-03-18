@@ -374,7 +374,7 @@
 #### **Infraestructura para Telecomunicaciones:**
 | Sistema | Infraestructura Civil | Función |
 |:--------|:---------------------|:---------|
-| **Torres TETRA/RED TETRA (Misión Crítica)** | Fundaciones de concreto | Soporte de antenas |
+| **Torres TETRA/Red Vital IP / TETRA** | Fundaciones de concreto | Soporte de antenas |
 | **Fibra óptica** | Ductos de PVC | Protección de fibras |
 | **Cajas de empalme** | Cámaras de concreto | Protección de empalmes |
 | **Equipos de red** | Edificios de concreto | Alojamiento de equipos |

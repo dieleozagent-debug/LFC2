@@ -630,7 +630,7 @@ Leyenda: 🟢 Completado • 🟠 En desarrollo/especificación • 🟡 Pendien
 |:---|:---|:---:|:---:|---|
 | V.1 | `V. Ingenieria de detalle/V.1_Senalizacion_Ferroviaria_Detalle_v0.1.md` | ✅ **COMPLETADO** | 27/01/2025 | **Especificaciones técnicas detalladas** de señalización ferroviaria. |
 | V.2 | `V. Ingenieria de detalle/V.2_Centro_Control_Trafico_CTC_Detalle_v0.1.md` | ✅ **COMPLETADO** | 27/01/2025 | **Arquitectura y funcionalidades** del CTC. |
-| V.3 | `V. Ingenieria de detalle/V.3_Sistemas_Comunicacion_Detalle_v0.1.md` | ✅ **COMPLETADO** | 27/01/2025 | **RED TETRA (Misión Crítica), fibra óptica, TETRA, VSAT** especificados. |
+| V.3 | `V. Ingenieria de detalle/V.3_Sistemas_Comunicacion_Detalle_v0.1.md` | ✅ **COMPLETADO** | 27/01/2025 | **Red Vital IP / TETRA, fibra óptica, TETRA, VSAT** especificados. |
 | V.4 | `V. Ingenieria de detalle/V.4_Sistemas_Potencia_Detalle_v0.1.md` | ✅ **COMPLETADO** | 27/01/2025 | **Subestaciones, transformadores, UPS, generadores** especificados. |
 | V.5 | `V. Ingenieria de detalle/V.5_Sistemas_Seguridad_Detalle_v0.1.md` | ✅ **COMPLETADO** | 27/01/2025 | **Seguridad funcional, ciberseguridad, física** especificados. |
 
@@ -876,7 +876,7 @@ La Fase E ha sido completada exitosamente con el desarrollo de todos los manuale
 | Señalización en Cabina (Cab-Signaling) vía: 270 unidades | 0 unidades | 🔴 CRÍTICO | $12B sobrepresupuesto |
 | Servidor PTC Central: 2 unidades | 0 unidades | 🔴 CRÍTICO | $2B sobrepresupuesto |
 | TETRA: 33 estaciones | 37 estaciones | 🟡 MEDIO | Ajuste cantidades |
-| RED TETRA (Misión Crítica): NO incluido | 37 estaciones | 🔴 CRÍTICO | $3.5B faltante |
+| Red Vital IP / TETRA: NO incluido | 37 estaciones | 🔴 CRÍTICO | $3.5B faltante |
 | EOT: NO incluido | 15 dispositivos | 🟡 MEDIO | $520M faltante |
 | ENCE: NO especificado | 5 estaciones | 🔴 CRÍTICO | $6B faltante |
 | Desvíos: NO incluido | 120 unidades | 🔴 CRÍTICO | $3.8B faltante |
@@ -1139,7 +1139,7 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
 **G.** ✅ **COMPLETADO:** Actualizar Material Rodante con EOT  
 **H.** ✅ **COMPLETADO:** Actualizar V.1 Señalización Detalle a filosofía virtual  
 **I.** ✅ **COMPLETADO:** Actualizar V.2 CTC Detalle a CTC virtual centralizado  
-**J.** ✅ **COMPLETADO:** Actualizar V.3 Comunicaciones Detalle a TETRA + RED TETRA (Misión Crítica) colocalizados  
+**J.** ✅ **COMPLETADO:** Actualizar V.3 Comunicaciones Detalle a TETRA + Red Vital IP / TETRA colocalizados  
 **K.** ✅ **COMPLETADO:** Actualizar V.4 Potencia Detalle a alimentación torres colocalizadas  
 **L.** ✅ **COMPLETADO:** Actualizar V.5 Seguridad Detalle a seguridad colocalizada  
 **M.** ✅ **COMPLETADO:** Validación cruzada de coherencia exitosa
@@ -1161,7 +1161,7 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
 ### **📋 RESUMEN CAPA 2:**
 - **WBS v4.0:** ✅ Actualizado - Reestructurado según filosofía virtual
 - **Señalización v5.0:** ✅ Actualizado - Filosofía virtual implementada
-- **TETRA v5.0:** ✅ Actualizado - 37 estaciones con colocalización RED TETRA (Misión Crítica)
+- **TETRA v5.0:** ✅ Actualizado - 37 estaciones con colocalización Red Vital IP / TETRA
 
 ### **🎯 PRÓXIMO PASO - CAPA 2 (CONTINUAR):**
 **32_Material_Rodante_Integrado.md** - Agregar sistema EOT (End of Train)
@@ -1220,8 +1220,8 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
 
 ### **📋 TETRA ACTUALIZADO:**
 - **Archivo:** `III. Ingenieria conceptual/27_Sistema_TETRA_Integrado_v5.0.md`
-- **Estado:** ✅ **COMPLETADO** - 37 estaciones con colocalización RED TETRA (Misión Crítica)
-- **Cambios:** Ajuste a 37 estaciones + solapamiento 15-20% + RED TETRA (Misión Crítica) colocalizado
+- **Estado:** ✅ **COMPLETADO** - 37 estaciones con colocalización Red Vital IP / TETRA
+- **Cambios:** Ajuste a 37 estaciones + solapamiento 15-20% + Red Vital IP / TETRA colocalizado
 - **Impacto:** +$8,014,000,000 COP (optimización de red)
 
 ### **🎯 PRÓXIMO PASO - CAPA 2 (CONTINUAR):**
@@ -1232,7 +1232,7 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
 ### **📋 MATERIAL RODANTE ACTUALIZADO:**
 - **Archivo:** `III. Ingenieria conceptual/32_Material_Rodante_Integrado_v5.0.md`
 - **Estado:** ✅ **COMPLETADO** - EOT (15 dispositivos) agregado
-- **Cambios:** Integración PTC–EOT–CTC + radios TETRA/RED TETRA (Misión Crítica)
+- **Cambios:** Integración PTC–EOT–CTC + radios TETRA/Red Vital IP / TETRA
 - **Impacto:** +$520,000,000 COP (EOT)
 
 ### **🎯 PRÓXIMO PASO - CAPA 3 (INICIO):**
@@ -1256,13 +1256,13 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
 - **Impacto:** -$50,193,000,000 COP (alineación completa)
 
 ### **🎯 PRÓXIMO PASO - CAPA 3 (CONTINUAR):**
-`V. Ingenieria de detalle/V.3_Sistemas_Comunicacion_Detalle_v1.0.md` - ✅ **COMPLETADO** - TETRA + RED TETRA (Misión Crítica) colocalizados
+`V. Ingenieria de detalle/V.3_Sistemas_Comunicacion_Detalle_v1.0.md` - ✅ **COMPLETADO** - TETRA + Red Vital IP / TETRA colocalizados
 
 ### **📋 COMUNICACIONES DETALLE ACTUALIZADO:**
 - **Archivo:** `V. Ingenieria de detalle/V.3_Sistemas_Comunicacion_Detalle_v2.0.md`
-- **Estado:** ✅ **COMPLETADO** - TETRA + RED TETRA (Misión Crítica) colocalizados implementados
-- **Cambios:** 37 estaciones TETRA + 37 estaciones RED TETRA (Misión Crítica) colocalizadas + redundancia operacional
-- **Impacto:** +$4,484,000,000 COP (TETRA + RED TETRA (Misión Crítica) colocalizados)
+- **Estado:** ✅ **COMPLETADO** - TETRA + Red Vital IP / TETRA colocalizados implementados
+- **Cambios:** 37 estaciones TETRA + 37 estaciones Red Vital IP / TETRA colocalizadas + redundancia operacional
+- **Impacto:** +$4,484,000,000 COP (TETRA + Red Vital IP / TETRA colocalizados)
 
 ### **🎯 PRÓXIMO PASO - CAPA 3 (CONTINUAR):**
 `V. Ingenieria de detalle/V.4_Sistemas_Potencia_Detalle_v1.0.md` - ✅ **COMPLETADO** - Alimentación torres colocalizadas

@@ -32,7 +32,7 @@ Se ha detectado una **desalineación crítica** entre los **Criterios Técnicos 
 | **WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná.html** | Virtual Balise (GNSS)s + Señalización en Cabina (Cab-Signaling) + Servidor PTC Central | 1,080 + 270 + 2 unidades | -$54,000,000,000 | Alto | ⏳ Pendiente |
 | **V.1_Señalizacion_Ferroviaria_Detalle_v1.0.md** | Filosofía señalización | Física → Virtual | -$64,000,000,000 | Alto | ⏳ Pendiente |
 | **V.2_Centro_Control_Trafico_CTC_Detalle_v1.0.md** | Arquitectura CTC | Servidor PTC Central eliminado | -$2,000,000,000 | Alto | ⏳ Pendiente |
-| **V.3_Sistemas_Comunicacion_Detalle_v1.0.md** | TETRA + RED TETRA (Misión Crítica) | 33→37 + Agregar 37 | +$1,484,000,000 | Alto | ⏳ Pendiente |
+| **V.3_Sistemas_Comunicacion_Detalle_v1.0.md** | TETRA + Red Vital IP / TETRA | 33→37 + Agregar 37 | +$1,484,000,000 | Alto | ⏳ Pendiente |
 | **VII.2.1_SRS_PTC_PTC VIRTUAL_Level2_v1.0.md** | Arquitectura PTC | PTC Virtual (FRA 236) → PTC embarcado | -$40,000,000,000 | Alto | ⏳ Pendiente |
 | **VII.2.3_Plan_Virtual Balise (GNSS)_Ubicacion_150m.md** | Virtual Balise (GNSS)s | 1,080 → 0 unidades | -$40,000,000,000 | Alto | ⏳ Pendiente |
 | **29_Sistema_Senalizacion_Integrado.md** | Filosofía señalización | Física → Virtual | -$64,000,000,000 | Alto | ⏳ Pendiente |
@@ -64,7 +64,7 @@ Se ha detectado una **desalineación crítica** entre los **Criterios Técnicos 
 |:----------|:-----------|:--------------|:---------------------|:---------|:------:|
 | **V.X_Enclavamientos_ENCE_Detalle_v1.0.md** | Especificaciones ENCE | 5 estaciones ENCE | +$6,020,000,000 | Alto | ⏳ Pendiente |
 | **V.X_Sistema_Desvios_Detalle_v1.0.md** | Especificaciones desvíos | 120 desvíos | +$3,783,000,000 | Alto | ⏳ Pendiente |
-| **V.X_Sistema_RED TETRA (Misión Crítica)_Detalle_v1.0.md** | Especificaciones RED TETRA (Misión Crítica) | 37 estaciones RED TETRA (Misión Crítica) | +$3,484,000,000 | Alto | ⏳ Pendiente |
+| **V.X_Sistema_RED TETRA (Misión Crítica)_Detalle_v1.0.md** | Especificaciones Red Vital IP / TETRA | 37 estaciones Red Vital IP / TETRA | +$3,484,000,000 | Alto | ⏳ Pendiente |
 | **V.X_Sistema_EOT_Detalle_v1.0.md** | Especificaciones EOT | 15 dispositivos EOT | +$520,000,000 | Alto | ⏳ Pendiente |
 
 ---
@@ -113,7 +113,7 @@ Se ha detectado una **desalineación crítica** entre los **Criterios Técnicos 
 
 ### **🆕 CRITERIOS NUEVOS - IMPLEMENTACIÓN**
 
-#### **7. RED TETRA (Misión Crítica) (NO incluido → 37 estaciones)**
+#### **7. Red Vital IP / TETRA (NO incluido → 37 estaciones)**
 - **Impacto:** +$3,484,000,000 COP
 - **Documentos afectados:** 2 documentos
 - **Acción requerida:** Crear especificaciones completas
@@ -206,7 +206,7 @@ Se ha detectado una **desalineación crítica** entre los **Criterios Técnicos 
 
 #### **DÍA 9-10: CAPA 4 - INGENIERÍA DE DETALLE**
 - **DÍA 9:** Crear documentos nuevos (ENCE, Desvíos)
-- **DÍA 10:** Crear documentos nuevos (RED TETRA (Misión Crítica), EOT)
+- **DÍA 10:** Crear documentos nuevos (Red Vital IP / TETRA, EOT)
 
 #### **DÍA 11-12: VALIDACIÓN CRUZADA**
 - **DÍA 11:** Ejecutar checklist de coherencia
@@ -223,7 +223,7 @@ Se ha detectado una **desalineación crítica** entre los **Criterios Técnicos 
 ### **🚨 RIESGOS IDENTIFICADOS**
 1. **Riesgo de inconsistencia:** Si no se actualiza por capas
 2. **Riesgo de sobrepresupuesto:** Si no se eliminan eurobalises
-3. **Riesgo de falta de sistemas:** Si no se agregan RED TETRA (Misión Crítica), EOT, ENCE
+3. **Riesgo de falta de sistemas:** Si no se agregan Red Vital IP / TETRA, EOT, ENCE
 4. **Riesgo de retraso:** Si no se sigue la secuencia de capas
 
 ### **🔒 CRITERIOS DE ÉXITO**

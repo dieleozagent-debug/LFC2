@@ -4,19 +4,19 @@
 **Fecha:** 02/10/2025  
 **Sistema:** Sistemas de Comunicación  
 **Fase:** D. Ingeniería de Detalle  
-**Referencias:** EN 50126/50128/50129, IEC 62290, FRA/AREMA 615, RED TETRA (Misión Crítica), EIRENE
+**Referencias:** EN 50126/50128/50129, IEC 62290, FRA/AREMA 615, Red Vital IP / TETRA, EIRENE
 
 ---
 
 ## 1. Resumen Ejecutivo
 
-Este documento detalla la ingeniería de los sistemas de comunicación para el proyecto APP La Dorada-Chiriguaná, abarcando RED TETRA (Misión Crítica), fibra óptica, radio, satelital y comunicaciones de emergencia, con integración completa con PTC y CTC.
+Este documento detalla la ingeniería de los sistemas de comunicación para el proyecto APP La Dorada-Chiriguaná, abarcando Red Vital IP / TETRA, fibra óptica, radio, satelital y comunicaciones de emergencia, con integración completa con PTC y CTC.
 
 > **📋 DOCUMENTO MAESTRO CONSOLIDADO:** Para la versión definitiva y consolidada del sistema de Comunicaciones, consulte: `IV. Ingenieria básica/SIS_Comunicaciones_Definitivo_v1.0.md`
 
 ### 1.1 Alcance del Sistema de Comunicaciones
 - **Sistema principal:** Red de comunicaciones ferroviarias
-- **Componentes:** RED TETRA (Misión Crítica), fibra óptica, radio, satelital, emergencias
+- **Componentes:** Red Vital IP / TETRA, fibra óptica, radio, satelital, emergencias
 - **Cobertura:** 146 km de vía, 5 estaciones, 146 pasos a nivel
 - **Capacidad:** 24 trenes simultáneos + servicios auxiliares
 
@@ -37,7 +37,7 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 │                SISTEMAS DE COMUNICACIÓN                     │
 ├─────────────────────────────────────────────────────────────┤
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
-│  │    RED TETRA (Misión Crítica)    │  │   Fibra     │  │    Radio    │         │
+│  │    Red Vital IP / TETRA    │  │   Fibra     │  │    Radio    │         │
 │  │  Principal  │  │  Óptica     │  │  Respaldo   │         │
 │  │  (EIRENE)   │  │  (DWDM)     │  │  (TETRA)    │         │
 │  └─────────────┘  └─────────────┘  └─────────────┘         │
@@ -58,7 +58,7 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 
 ### 2.2 Componentes Principales
 
-#### 2.2.1 RED TETRA (Misión Crítica) (Global System for Mobile Communications - Railway)
+#### 2.2.1 Red Vital IP / TETRA (Global System for Mobile Communications - Railway)
 - **Estándar:** EIRENE (European Integrated Railway Radio Enhanced Network)
 - **Frecuencias:** 876-880 MHz (uplink), 921-925 MHz (downlink)
 - **Cobertura:** 146 km de vía con 5 estaciones base
@@ -86,7 +86,7 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 
 ## 3. Especificaciones Técnicas
 
-### 3.1 RED TETRA (Misión Crítica)
+### 3.1 Red Vital IP / TETRA
 
 #### 3.1.1 Estaciones Base
 - **Fabricante:** Nokia (BSC, BTS)
@@ -235,7 +235,7 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 ### 5.2 Ciberseguridad (IEC 62443)
 
 #### 5.2.1 Zonas de Seguridad
-- **Zona 0:** Red de control crítico (RED TETRA (Misión Crítica))
+- **Zona 0:** Red de control crítico (Red Vital IP / TETRA)
 - **Zona 1:** Red de supervisión (Fibra)
 - **Zona 2:** Red administrativa (Internet)
 - **Zona 3:** Red externa (Satelital)
@@ -250,7 +250,7 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 ### 5.3 Disponibilidad
 
 #### 5.3.1 Objetivos de Disponibilidad
-- **RED TETRA (Misión Crítica):** 99.9% (8.76 horas/año)
+- **Red Vital IP / TETRA:** 99.9% (8.76 horas/año)
 - **Fibra Óptica:** 99.95% (4.38 horas/año)
 - **TETRA:** 99.5% (43.8 horas/año)
 - **VSAT:** 99.0% (87.6 horas/año)
@@ -267,7 +267,7 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 
 ### 6.1 Integración PTC
 
-#### 6.1.1 Protocolo RED TETRA (Misión Crítica)
+#### 6.1.1 Protocolo Red Vital IP / TETRA
 - **Estándar:** EIRENE v15.4
 - **Formato:** GPRS/EDGE
 - **Frecuencia:** 1 Hz (tiempo real)
@@ -292,7 +292,7 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 #### 6.2.2 Enlaces Internacionales
 - **VSAT:** Enlace satelital
 - **Internet:** Enlace IP
-- **Roaming:** RED TETRA (Misión Crítica) internacional
+- **Roaming:** Red Vital IP / TETRA internacional
 - **Backup:** Enlaces múltiples
 
 ---
@@ -335,7 +335,7 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 ### 8.1 Pruebas de Fábrica (FAT)
 
 #### 8.1.1 Pruebas de Hardware
-- **RED TETRA (Misión Crítica):** Pruebas de cobertura y capacidad
+- **Red Vital IP / TETRA:** Pruebas de cobertura y capacidad
 - **Fibra Óptica:** Pruebas de atenuación y dispersión
 - **TETRA:** Pruebas de radio y criptografía
 - **VSAT:** Pruebas de enlace satelital
@@ -373,7 +373,7 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 - **Manual de Mantenimiento:** Mantenimiento
 
 #### 9.1.2 Equipos y Configuración
-- **RED TETRA (Misión Crítica):** Estaciones base y equipos embarcados
+- **Red Vital IP / TETRA:** Estaciones base y equipos embarcados
 - **Fibra Óptica:** Cable y equipos DWDM
 - **TETRA:** Estaciones base y equipos móviles
 - **VSAT:** Terminales y hub satelital
@@ -406,7 +406,7 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 | COM-005 | Integración PTC-CTC | SAT-002 | 🟢 |
 
 ### 10.2 Glosario de Términos
-- **RED TETRA (Misión Crítica):** Global System for Mobile Communications - Railway
+- **Red Vital IP / TETRA:** Global System for Mobile Communications - Railway
 - **EIRENE:** European Integrated Railway Radio Enhanced Network
 - **TETRA:** Terrestrial Trunked Radio
 - **VSAT:** Very Small Aperture Terminal

@@ -100,19 +100,19 @@
 | **2.1.115** | Repuestos (10%) | - | - | $1,774,000,000 |
 | **SUBTOTAL TETRA** | | | | **$19,038,000,000** |
 
-#### **2.2 Sistema RED TETRA (Misión Crítica) (37 Estaciones Colocalizadas)**
+#### **2.2 Sistema Red Vital IP / TETRA (37 Estaciones Colocalizadas)**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
 |:---|:---|:---:|:---:|:---:|:---:|
-| **2.2.100** | Estaciones base RED TETRA (Misión Crítica) | 37 | $45,000,000 | $1,665,000,000 |
-| **2.2.101** | Antenas RED TETRA (Misión Crítica) | 37 | $8,000,000 | $296,000,000 |
-| **2.2.102** | Radios embarcados RED TETRA (Misión Crítica) | 30 | $25,000,000 | $750,000,000 |
-| **2.2.103** | Sistema control RED TETRA (Misión Crítica) | 1 | $80,000,000 | $80,000,000 |
-| **2.2.104** | Interfaces TETRA-RED TETRA (Misión Crítica) | 37 | $5,000,000 | $185,000,000 |
+| **2.2.100** | Estaciones base Red Vital IP / TETRA | 37 | $45,000,000 | $1,665,000,000 |
+| **2.2.101** | Antenas Red Vital IP / TETRA | 37 | $8,000,000 | $296,000,000 |
+| **2.2.102** | Radios embarcados Red Vital IP / TETRA | 30 | $25,000,000 | $750,000,000 |
+| **2.2.103** | Sistema control Red Vital IP / TETRA | 1 | $80,000,000 | $80,000,000 |
+| **2.2.104** | Interfaces TETRA-Red Vital IP / TETRA | 37 | $5,000,000 | $185,000,000 |
 | **2.2.105** | Sistema redundancia | 1 | $150,000,000 | $150,000,000 |
 | **2.2.106** | Configuración dual | 1 | $100,000,000 | $100,000,000 |
 | **2.2.107** | Pruebas integración | 1 | $80,000,000 | $80,000,000 |
 | **2.2.108** | Repuestos (10%) | - | - | $312,000,000 |
-| **SUBTOTAL RED TETRA (Misión Crítica)** | | | | **$3,618,000,000** |
+| **SUBTOTAL Red Vital IP / TETRA** | | | | **$3,618,000,000** |
 
 #### **2.3 Fibra Óptica (526 km)**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
@@ -263,7 +263,7 @@
 |:---|:---|:---:|:---:|:---:|
 | **6.1.100** | Sistemas PTC embarcados | 15 | $400,000,000 | $6,000,000,000 |
 | **6.1.101** | Radios TETRA embarcados | 30 | $35,000,000 | $1,050,000,000 |
-| **6.1.102** | Radios RED TETRA (Misión Crítica) embarcados | 30 | $25,000,000 | $750,000,000 |
+| **6.1.102** | Radios Red Vital IP / TETRA embarcados | 30 | $25,000,000 | $750,000,000 |
 | **6.1.103** | Sistemas GPS | 15 | $35,000,000 | $525,000,000 |
 | **6.1.104** | Sistemas redundancia | 15 | $80,000,000 | $1,200,000,000 |
 | **6.1.105** | Instalación y configuración | 15 | $100,000,000 | $1,500,000,000 |
@@ -337,7 +337,7 @@
 ### **ð CANTIDADES VALIDADAS:**
 - â **Corredor:** 526.133 km (coherente en todos los documentos)
 - â **TETRA:** 37 estaciones (coherente en todos los documentos)
-- â **RED TETRA (Misión Crítica):** 37 estaciones (coherente en todos los documentos)
+- â **Red Vital IP / TETRA:** 37 estaciones (coherente en todos los documentos)
 - â **EOT:** 15 dispositivos (coherente en todos los documentos)
 - â **ENCE:** 5 estaciones (coherente en todos los documentos)
 - â **CCTV:** 73 cámaras (coherente en todos los documentos)

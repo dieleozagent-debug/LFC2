@@ -68,7 +68,7 @@
 
 ### **RIESGO R-INFO-003: Material Rodante**
 
-**Descripción:** Sin cronograma de entrega MR, no se puede diseñar sistemas embarcados (PTC, TETRA, RED TETRA (Misión Crítica)).
+**Descripción:** Sin cronograma de entrega MR, no se puede diseñar sistemas embarcados (PTC, TETRA, Red Vital IP / TETRA).
 
 **Probabilidad:** MEDIA (40%)  
 **Impacto:** ALTO (4) - Retrasa embarcados  

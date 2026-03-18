@@ -13,7 +13,7 @@ El diseño eléctrico se optimiza para alimentar la red de **PTC Virtual**, redu
 
 ### 1.1 Alimentación de Telecomunicaciones:
 - **Sitios de Radio:** Alimentación dimensionada exclusivamente para red **TETRA** (37 sitios).
-- **Carga Instalada:** Reducción del 40% al eliminar transmisores RED TETRA (Misión Crítica) de alta potencia.
+- **Carga Instalada:** Reducción del 40% al eliminar transmisores Red Vital IP / TETRA de alta potencia.
 - **Respaldo (UPS):** Autonomía de 2 horas para sistemas vitales sobre IP.
 
 ### 1.2 Alimentación de Estaciones (ENCE):
@@ -22,8 +22,8 @@ El diseño eléctrico se optimiza para alimentar la red de **PTC Virtual**, redu
 
 ---
 
-## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE RED TETRA (Misión Crítica)/PTC VIRTUAL)
-- ✅ **ELIMINADO:** Circuitos de alimentación para 37 estaciones base RED TETRA (Misión Crítica).
+## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE Red Vital IP / TETRA/PTC VIRTUAL)
+- ✅ **ELIMINADO:** Circuitos de alimentación para 37 estaciones base Red Vital IP / TETRA.
 - ✅ **ELIMINADO:** Alimentación para unidades LEU y Eurobalisas (no requeridas).
 - ✅ **ELIMINADO:** Respaldo de energía para Servidor PTC Central (Servidor PTC Central) físico.
 

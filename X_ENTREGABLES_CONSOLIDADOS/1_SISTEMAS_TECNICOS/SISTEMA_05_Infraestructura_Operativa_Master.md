@@ -118,7 +118,7 @@
 #### **Componentes del CCO:**
 - **Servidores Virtuales:** Redundantes, virtualizados
 - **Estaciones de Trabajo:** Operadores y supervisores
-- **Sistemas de Comunicación:** TETRA + RED TETRA (Misión Crítica) + Fibra óptica
+- **Sistemas de Comunicación:** TETRA + Red Vital IP / TETRA + Fibra óptica
 - **Interfaces PTC:** Comunicación con 15 locomotoras
 - **Sistemas de Respaldo:** UPS + Generadores de emergencia
 
@@ -183,7 +183,7 @@
 | **Estaciones de Trabajo** | Dell OptiPlex 7090 | 8 unidades | Operadores + supervisores |
 | **Sistema SCADA** | Siemens WinCC OA | 1 sistema | Supervisión integral |
 | **Consolas de Operación** | 3 monitores 27" | 6 consolas | Operación 24/7 |
-| **Sistema de Comunicaciones** | TETRA + RED TETRA (Misión Crítica) | 1 sistema | Redundancia dual |
+| **Sistema de Comunicaciones** | TETRA + Red Vital IP / TETRA | 1 sistema | Redundancia dual |
 
 #### **Sistemas de Respaldo:**
 
@@ -271,7 +271,7 @@
 - **Servidores:** Dell PowerEdge R750 con virtualización
 - **Estaciones:** Dell OptiPlex 7090 con 3 monitores 27"
 - **SCADA:** Siemens WinCC OA con redundancia
-- **Comunicaciones:** Radio TETRA + RED TETRA (Misión Crítica) dual
+- **Comunicaciones:** Radio TETRA + Red Vital IP / TETRA dual
 - **Red:** Ethernet industrial con redundancia
 
 #### **Sistemas de Respaldo:**
@@ -299,7 +299,7 @@
 
 #### **Sistemas de Comunicación:**
 - **TETRA:** Sistema principal de comunicación
-- **RED TETRA (Misión Crítica):** Sistema redundante de comunicación
+- **Red Vital IP / TETRA:** Sistema redundante de comunicación
 - **Fibra Óptica:** Backbone de datos
 - **Protocolos:** IP sobre radio + protocolos ferroviarios
 - **Interoperabilidad:** Compatible con sistemas FENOCO
@@ -388,12 +388,12 @@
 
 ### **7.2 Interfaces con Sistemas de Comunicaciones**
 
-#### **TETRA/RED TETRA (Misión Crítica):**
+#### **TETRA/Red Vital IP / TETRA:**
 - **CCO:** Comunicación con operadores y supervisores
 - **Emergencias:** Canales de emergencia y coordinación
 - **Datos:** Transmisión de telemetría y diagnósticos
 - **Interoperabilidad:** Comunicación con sistemas FENOCO
-- **Protocolo:** TETRA estándar + RED TETRA (Misión Crítica) FRA/AREMA
+- **Protocolo:** TETRA estándar + Red Vital IP / TETRA FRA/AREMA
 
 #### **Fibra Óptica:**
 - **Datos de Control:** Transmisión de información de sistemas
@@ -439,7 +439,7 @@
 | **CCO** | **ENCE** | Control/Comunicación | Interfaces ferroviario | ✅ Implementado |
 | **CCO** | **Desvíos** | Control/Comunicación | Interfaces ferroviario | ✅ Implementado |
 | **CCO** | **TETRA** | Comunicación | TETRA estándar | ✅ Implementado |
-| **CCO** | **RED TETRA (Misión Crítica)** | Comunicación | RED TETRA (Misión Crítica) FRA/AREMA | ✅ Implementado |
+| **CCO** | **Red Vital IP / TETRA** | Comunicación | Red Vital IP / TETRA FRA/AREMA | ✅ Implementado |
 | **CCO** | **Fibra Óptica** | Datos | Ethernet sobre fibra | ✅ Implementado |
 | **Estaciones** | **ENCE** | Control | Interfaces ferroviario | ✅ Implementado |
 | **Subestaciones** | **Sistemas Control** | Datos | Ethernet industrial | ✅ Implementado |

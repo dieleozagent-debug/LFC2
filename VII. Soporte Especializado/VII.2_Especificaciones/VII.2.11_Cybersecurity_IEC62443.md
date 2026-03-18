@@ -23,7 +23,7 @@ Este documento define el Plan de Ciberseguridad para el sistema **PTC Virtual** 
 ## 🔒 **2. CONTROLES DE SEGURIDAD VITAL**
 
 ### **2.1 COMUNICACIÓN SEGURA (RADIO TETRA)**
-Se descarta el uso de RED TETRA (Misión Crítica). La seguridad en TETRA se basa en:
+Se descarta el uso de Red Vital IP / TETRA. La seguridad en TETRA se basa en:
 1. **TEA3/TEA4 (Air Interface Encryption):** Cifrado de la comunicación entre la BTS y el OBC.
 2. **E2EE (End-to-End Encryption):** Cifrado adicional de capa de aplicación (AES-256) para mensajes vitales de autoridad de movimiento (MA).
 3. **Autenticación Mutua:** Validación bidireccional entre el Vital Server y el OBC antes de cada sesión de control.
@@ -46,7 +46,7 @@ Se descarta el uso de RED TETRA (Misión Crítica). La seguridad en TETRA se bas
 
 | Versión | Fecha | Responsable | Cambio (Karpathy Purge) |
 |:---:|:---:|:---|:---|
-| **v2.0** | 13/03/2026 | Admin. Contractual | **RE-ESCRITURA TOTAL**. Eliminada seguridad RED TETRA (Misión Crítica)/Virtual Balise (GNSS)s. Alineado con TETRA y FRA 236. |
+| **v2.0** | 13/03/2026 | Admin. Contractual | **RE-ESCRITURA TOTAL**. Eliminada seguridad Red Vital IP / TETRA/Virtual Balise (GNSS)s. Alineado con TETRA y FRA 236. |
 | **v1.0** | 27/01/2025 | Ing. Ciberseguridad | Versión obsoleta basada en seguridad PTC VIRTUAL (HALLUCINATED). |
 
 ---

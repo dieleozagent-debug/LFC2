@@ -217,7 +217,7 @@
 |:------------|:------|:--------------|:---------|
 | **Gestión de Proyectos** | Avanzado | PMP, PMI | 3 años |
 | **Sistemas Ferroviarios** | Experto | FRA/AREMA, EN 50126 | 2 años |
-| **Telecomunicaciones** | Experto | TETRA, RED TETRA (Misión Crítica) | 2 años |
+| **Telecomunicaciones** | Experto | TETRA, Red Vital IP / TETRA | 2 años |
 | **Control y Señalización** | Experto | PTC Virtual (FRA 236) | 2 años |
 | **Material Rodante** | Experto | FRA/AREMA, AAR | 2 años |
 | **Gestión Ambiental** | Avanzado | ISO 14001 | 2 años |
@@ -242,7 +242,7 @@
 | Material | Cantidad | Especificación | Proveedor | Estado |
 |:---------|:---------|:---------------|:----------|:-------|
 | Estaciones TETRA | 37 unidades | Radio digital | Motorola | ✅ Entregado |
-| Estaciones RED TETRA (Misión Crítica) | 37 unidades | Red de datos | Nokia | ✅ Entregado |
+| Estaciones Red Vital IP / TETRA | 37 unidades | Red de datos | Nokia | ✅ Entregado |
 | Cable fibra óptica | 526 km | 48 fibras G.652D | Prysmian | ⏳ En entrega |
 | Equipos DWDM | 8 unidades | Multiplexación | Cisco | ✅ Entregado |
 | Torres de comunicación | 37 unidades | 40m altura | [Proveedor] | ✅ Entregado |

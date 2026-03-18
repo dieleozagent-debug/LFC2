@@ -32,7 +32,7 @@ Tras la auditoría Karpathy, se han corregido las siguientes incoherencias narra
 - **AJUSTE:** Se elimina toda referencia a Gateways de conversión de protocolos legacy. La comunicación es **Nativa IP/AREMA**.
 
 ### 2.2 Simplificación de la Red de Seguridad
-- **ERROR:** Se exigía redundancia RED TETRA (Misión Crítica) paralela a la Fibra Óptica.
+- **ERROR:** Se exigía redundancia Red Vital IP / TETRA paralela a la Fibra Óptica.
 - **REALIDAD SICC:** Bajo el AT3 de redundancia lógica, se utiliza la Fibra Óptica como canal primario. La redundancia se garantiza vía failover lógico y rutas alternativas IP, protegiendo el CAPEX de sistemas de radio sobredimensionados.
 
 ---

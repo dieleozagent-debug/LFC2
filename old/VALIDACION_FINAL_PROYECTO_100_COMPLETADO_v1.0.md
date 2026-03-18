@@ -45,7 +45,7 @@
 |:---------|:-------------:|:-------------:|:----------:|
 | **Fibra Óptica** | 526 km | 526 km | ✅ 100% |
 | **TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
-| **RED TETRA (Misión Crítica)** | 37 estaciones | 37 estaciones | ✅ 100% |
+| **Red Vital IP / TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
 | **Señalización** | Virtual (CTC + PTC) | Virtual (CTC + PTC) | ✅ 100% |
 | **Virtual Balise (GNSS)s** | 0 unidades | 0 unidades | ✅ 100% |
 | **Señalización en Cabina (Cab-Signaling)** | 0 unidades | 0 unidades | ✅ 100% |
@@ -65,7 +65,7 @@
 ### **SISTEMAS PRINCIPALES**
 1. **CTC Virtual:** Centro de control centralizado ✅
 2. **PTC Embarcado:** 15 locomotoras con control automático ✅
-3. **37 Estaciones TETRA + RED TETRA (Misión Crítica):** Colocalizadas ✅
+3. **37 Estaciones TETRA + Red Vital IP / TETRA:** Colocalizadas ✅
 4. **5 ENCE:** Enclavamientos electrónicos ✅
 5. **120 Desvíos:** 25 motorizados + 95 manuales ✅
 6. **15 EOT:** Dispositivos End of Train ✅
@@ -73,7 +73,7 @@
 
 ### **FILOSOFÍA TÉCNICA**
 - **Señalización Virtual:** CTC + PTC embarcado sin infraestructura física ✅
-- **Comunicaciones Redundantes:** TETRA + RED TETRA (Misión Crítica) dual ✅
+- **Comunicaciones Redundantes:** TETRA + Red Vital IP / TETRA dual ✅
 - **Control Centralizado:** CTC como sistema principal ✅
 - **Sistemas Integrados:** Monitoreo unificado ✅
 
@@ -113,7 +113,7 @@
 ### **SISTEMAS TÉCNICOS**
 - **CTC Virtual:** Especificaciones completas ✅
 - **PTC Embarcado:** 15 locomotoras especificadas ✅
-- **Comunicaciones:** TETRA + RED TETRA (Misión Crítica) integrados ✅
+- **Comunicaciones:** TETRA + Red Vital IP / TETRA integrados ✅
 - **Enclavamientos:** 5 ENCE especificados ✅
 - **Desvíos:** 120 unidades especificadas ✅
 - **EOT:** 15 dispositivos especificados ✅

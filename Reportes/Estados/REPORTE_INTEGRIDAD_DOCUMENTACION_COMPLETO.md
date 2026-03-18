@@ -114,7 +114,7 @@ Verificar la integridad completa de la documentación del proyecto desde el inic
 |:---|:---:|:---|
 | `V.1_Señalizacion_Ferroviaria_Detalle_v0.1.md` | ✅ **COMPLETO** | Especificaciones técnicas detalladas |
 | `V.2_Centro_Control_Trafico_CTC_Detalle_v0.1.md` | ✅ **COMPLETO** | Arquitectura y funcionalidades |
-| `V.3_Sistemas_Comunicacion_Detalle_v0.1.md` | ✅ **COMPLETO** | RED TETRA (Misión Crítica), fibra óptica, TETRA, VSAT |
+| `V.3_Sistemas_Comunicacion_Detalle_v0.1.md` | ✅ **COMPLETO** | Red Vital IP / TETRA, fibra óptica, TETRA, VSAT |
 | `V.4_Sistemas_Potencia_Detalle_v0.1.md` | ✅ **COMPLETO** | Subestaciones, transformadores, UPS |
 | `V.5_Sistemas_Seguridad_Detalle_v0.1.md` | ✅ **COMPLETO** | Seguridad funcional, ciberseguridad, física |
 

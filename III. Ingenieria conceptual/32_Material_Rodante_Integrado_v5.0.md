@@ -13,15 +13,15 @@ Este documento define las especificaciones del material rodante (15 locomotoras)
 ### 1.1 Configuración de la Flota:
 - **Locomotoras:** 15 unidades GE U18C o equivalentes.
 - **Retrofit Vital:** Instalación de **On-Board Computers (OBC)** con redundancia vital.
-- **Telecomunicaciones:** Radios **TETRA** de misión crítica (se elimina RED TETRA (Misión Crítica)).
+- **Telecomunicaciones:** Radios **TETRA** de misión crítica (se elimina Red Vital IP / TETRA).
 - **Seguridad:** Sistema **End of Train (EOT)** vital integrado (15 unidades).
 
 ---
 
-## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE PTC/RED TETRA (Misión Crítica))
+## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE PTC/Red Vital IP / TETRA)
 - ✅ **ELIMINADO:** Referencias a PTC Virtual (FRA 236) y Servidor PTC Central.
 - ✅ **ELIMINADO:** Módulo STM (sustituido por OBC PTC).
-- ✅ **ELIMINADO:** Radio RED TETRA (Misión Crítica) (estándar obsoleto para esta arquitectura).
+- ✅ **ELIMINADO:** Radio Red Vital IP / TETRA (estándar obsoleto para esta arquitectura).
 - ✅ **ELIMINADO:** Antenas de Virtual Balise (GNSS)s.
 - ✅ **ADOPTADO:** Fusión de sensores GNSS/IMU de precisión para localización vital.
 
@@ -45,7 +45,7 @@ Este documento define las especificaciones del material rodante (15 locomotoras)
 | **Locomotoras** | 15 | SANEADO |
 | **Virtual Balise (GNSS)s** | 0 | SANEADO |
 | **Servidor PTC Central (PTC VIRTUAL)** | 0 | SANEADO |
-| **RED TETRA (Misión Crítica)** | 0 | SANEADO |
+| **Red Vital IP / TETRA** | 0 | SANEADO |
 | **Vital PTC Server**| 1 (2oo3) | SANEADO |
 
 ---

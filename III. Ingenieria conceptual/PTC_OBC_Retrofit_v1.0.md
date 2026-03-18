@@ -25,7 +25,7 @@ Esta especificación define los requerimientos técnicos para el equipamiento em
 ## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE STM/PTC VIRTUAL)
 - ✅ **ELIMINADO:** Módulo STM (Specific Transmission Module).
 - ✅ **ELIMINADO:** Antena de Virtual Balise (GNSS)s.
-- ✅ **ELIMINADO:** Radio RED TETRA (Misión Crítica) y protocolos EIRENE.
+- ✅ **ELIMINADO:** Radio Red Vital IP / TETRA y protocolos EIRENE.
 - ✅ **ADOPTADO:** Arquitectura de **Retrofit PTC** basada en estándares americanos (AAR/AREMA).
 
 ---

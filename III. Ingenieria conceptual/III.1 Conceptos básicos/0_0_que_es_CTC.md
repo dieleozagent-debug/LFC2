@@ -111,7 +111,7 @@ Comunicación con detectores por interfaces dedicadas (generalmente RS-485/Profi
 🔹 3. Comunicación hacia el CTC
 El enclavamiento se conecta al CTC (Control de Tráfico Centralizado) mediante:
 Fibra óptica redundante como canal principal (backbone de comunicaciones).
-Radio TETRA/RED TETRA (Misión Crítica) como canal alternativo (Ap. Téc. 3, Cap. VI.2 y 6.8).
+Radio TETRA/Red Vital IP / TETRA como canal alternativo (Ap. Téc. 3, Cap. VI.2 y 6.8).
 Protocolos usados: PTC VIRTUAL / Eulynx / protocolos propietarios (según proveedor, siempre certificados SIL4).
 👉 La información que viaja:
 Estado de vía (libre/ocupada).
@@ -299,7 +299,7 @@ Ap. Téc. 3 (señalización y telemetría) + Ap. Téc. 4 (SICC/registro) estable
 
 6) ¿Cómo se comunica todo (TCP/IP, Wi-Fi, radio, fibra, antenas)?
 Backbone primario: fibra óptica en anillo o rutas redundantes entre casetas y el CCO (CTC).
-Back-up operacional: radio profesional (TETRA; en interoperabilidad futura, RED TETRA (Misión Crítica)/FRMCS donde aplique). No se usa Wi-Fi para funciones de seguridad.
+Back-up operacional: radio profesional (TETRA; en interoperabilidad futura, Red Vital IP / TETRA/FRMCS donde aplique). No se usa Wi-Fi para funciones de seguridad.
 Protocolos: Ethernet/IP a nivel de transporte; las interfaces de seguridad entre CBI y enclavamientos son SIL4 (protocolos ferroviarios/propietarios o EULYNX/PTC VIRTUAL donde aplique).
 Antenas:
 TETRA: normalmente 1 antena por portadora (con antena de respaldo o diversidad en sitios críticos).

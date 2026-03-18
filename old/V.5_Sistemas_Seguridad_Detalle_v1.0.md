@@ -154,7 +154,7 @@ Este documento detalla la ingeniería de los sistemas de seguridad para el proye
 
 #### 4.1.2 Servidor PTC Central (Servidor PTC Central)
 - **Control de trenes:** Gestión de 24 trenes simultáneos
-- **Comunicación:** RED TETRA (Misión Crítica), FFFIS
+- **Comunicación:** Red Vital IP / TETRA, FFFIS
 - **Redundancia:** 2oo3 para máxima disponibilidad
 - **Monitoreo:** Supervisión continua del estado
 
@@ -259,7 +259,7 @@ Este documento detalla la ingeniería de los sistemas de seguridad para el proye
 #### 6.1.1 Seguridad PTC Virtual (FRA 236)
 - **SIL 4:** Funciones críticas de seguridad
 - **Redundancia:** 2oo3 en Servidor PTC Central
-- **Comunicación:** RED TETRA (Misión Crítica) seguro
+- **Comunicación:** Red Vital IP / TETRA seguro
 - **Monitoreo:** Supervisión continua
 
 #### 6.1.2 Protecciones Específicas

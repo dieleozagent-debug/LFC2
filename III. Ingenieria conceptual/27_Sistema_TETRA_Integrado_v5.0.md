@@ -82,7 +82,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 |:---------|:-----------------|:--------------|:-----------|
 | **Fibra Óptica** | 526 km | 526 km | ✅ 100% |
 | **TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
-| **RED TETRA (Misión Crítica)** | 37 estaciones | 37 estaciones | ✅ 100% |
+| **Red Vital IP / TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
 | **Señalización** | Virtual (CTC + PTC) | Virtual (CTC + PTC) | ✅ 100% |
 | **Virtual Balise (GNSS)s** | 0 unidades | 0 unidades | ✅ 100% |
 | **Señalización en Cabina (Cab-Signaling)** | 0 unidades | 0 unidades | ✅ 100% |
@@ -105,7 +105,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 
 ### 2.4 Componentes a Agregar
 **✅ YA AGREGADOS EN v4.0:**
-- ✅ RED TETRA (Misión Crítica): 37 estaciones
+- ✅ Red Vital IP / TETRA: 37 estaciones
 - ✅ EOT: 15 dispositivos
 - ✅ ENCE: 5 estaciones
 - ✅ Desvíos: 120 unidades (25 motorizados + 95 manuales)
@@ -114,7 +114,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 **DOCUMENTOS PENDIENTES DE ACTUALIZACIÓN:**
 1. **27.1_Estimacion_Cantidades_TETRA.md** - Recalcular con 37 estaciones
 2. **32_Material_Rodante_Integrado.md** - Sistema EOT
-3. **V.3_Sistemas_Comunicacion_Detalle.md** - RED TETRA (Misión Crítica) agregado
+3. **V.3_Sistemas_Comunicacion_Detalle.md** - Red Vital IP / TETRA agregado
 4. **39_Planos_Preliminares_Torres.md** - Actualizar ubicaciones
 
 ---
@@ -131,7 +131,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 ### 3.2 Documentos Dependientes (En corrección 🔄)
 - **27.1_Estimacion_Cantidades_TETRA.md** ⏳ (Recalcular con 37 estaciones)
 - **32_Material_Rodante_Integrado.md** ⏳ (Sistema EOT)
-- **V.3_Sistemas_Comunicacion_Detalle.md** ⏳ (RED TETRA (Misión Crítica) agregado)
+- **V.3_Sistemas_Comunicacion_Detalle.md** ⏳ (Red Vital IP / TETRA agregado)
 - **39_Planos_Preliminares_Torres.md** ⏳ (Actualizar ubicaciones)
 
 ### 3.3 Interfaces Críticas
@@ -152,7 +152,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 | Criterio | Valor | Justificación | Documentos Afectados |
 |----------|-------|---------------|---------------------|
 | **Señalización** | **VIRTUAL** | Eliminar infraestructura física en vía | WBS, AT1-3, Planos |
-| **Comunicación** | **TETRA + RED TETRA (Misión Crítica)** | Redundancia según contrato | WBS, AT4, Especificaciones |
+| **Comunicación** | **TETRA + Red Vital IP / TETRA** | Redundancia según contrato | WBS, AT4, Especificaciones |
 | **Control** | **CTC Centralizado** | Gestión unificada desde CCO | WBS, AT1, Manuales |
 | **Energía** | **UPS + Generadores críticos** | Disponibilidad según criticidad | WBS, AT2, Planos eléctricos |
 
@@ -163,7 +163,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 | **Corredor** | 526.133 km | Longitud total proyecto | Contrato base (respuesta LFC) |
 | **Fibra Óptica** | 526 km | Corredor + 10% reserva | Cálculo técnico |
 | **TETRA** | **37 estaciones** | Cobertura 15-20 km + solapamiento 15-20% | AT4 telecomunicaciones |
-| **RED TETRA (Misión Crítica)** | **37 estaciones** | Redundancia con TETRA | Criterios maestros |
+| **Red Vital IP / TETRA** | **37 estaciones** | Redundancia con TETRA | Criterios maestros |
 | **Locomotoras** | 15 | Flota según contrato | AT1-3 material rodante |
 | **EOT** | **15 dispositivos** | End of Train Device | Criterios maestros |
 | **ENCE** | **5 estaciones** | Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México | Respuesta LFC |
@@ -186,17 +186,17 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 - Radios TETRA portátiles (80 unidades)
 - Consolas de despacho CCO (3 unidades)
 
-#### **4.2.2 Sistema RED TETRA (Misión Crítica) (37 Estaciones) - NUEVO**
+#### **4.2.2 Sistema Red Vital IP / TETRA (37 Estaciones) - NUEVO**
 **Funcionalidades:**
 - Redundancia con TETRA
 - Comunicaciones críticas
 
 **Componentes:**
-- Red RED TETRA (Misión Crítica) redundante (37 estaciones base)
+- Red Red Vital IP / TETRA redundante (37 estaciones base)
 - Colocalización con TETRA (misma torre)
-- Radios RED TETRA (Misión Crítica) embarcados (30 unidades)
-- Antenas RED TETRA (Misión Crítica) colocalizadas
-- Sistema de control RED TETRA (Misión Crítica) centralizado
+- Radios Red Vital IP / TETRA embarcados (30 unidades)
+- Antenas Red Vital IP / TETRA colocalizadas
+- Sistema de control Red Vital IP / TETRA centralizado
 
 #### **4.2.3 Fibra Óptica Backbone (526 km)**
 **Funcionalidades:**
@@ -223,7 +223,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 - PTC FENOCO (interoperabilidad)
 - Display integrado
 - GPS dual
-- Radio TETRA + RED TETRA (Misión Crítica) dual
+- Radio TETRA + Red Vital IP / TETRA dual
 
 ---
 
@@ -244,7 +244,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 #### **5.2.1 Verificación de Coherencia Técnica**
 - ✅ **Fibra Óptica:** 526 km ✓
 - ✅ **TETRA:** 37 estaciones ✓
-- ✅ **RED TETRA (Misión Crítica):** 37 estaciones ✓
+- ✅ **Red Vital IP / TETRA:** 37 estaciones ✓
 - ✅ **Señalización:** Virtual (CTC + PTC) ✓
 - ✅ **Virtual Balise (GNSS)s:** 0 unidades ✓
 - ✅ **Señalización en Cabina (Cab-Signaling):** 0 unidades ✓
@@ -259,7 +259,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 - ✅ **Señalización virtual confirmada** ✓
 - ✅ **CTC como sistema principal** ✓
 - ✅ **PTC embarcado sin eurobalises** ✓
-- ✅ **Redundancia TETRA + RED TETRA (Misión Crítica)** ✓
+- ✅ **Redundancia TETRA + Red Vital IP / TETRA** ✓
 
 #### **5.2.3 Propagación Identificada**
 - ✅ **4 documentos afectados identificados** ✓
@@ -309,7 +309,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 
 #### **📊 CANTIDADES ACTUALIZADAS (SEGÚN CRITERIOS MAESTROS)**
 - **✅ TETRA:** 33 → **37 estaciones** (Cobertura 100% + solapamiento 15-20%)
-- **✅ RED TETRA (Misión Crítica):** NO incluido → **37 estaciones** (Redundancia con TETRA)
+- **✅ Red Vital IP / TETRA:** NO incluido → **37 estaciones** (Redundancia con TETRA)
 - **✅ Fibra Óptica:** 526 → **526 km** (Corredor + 10% reserva)
 
 #### **🚫 COMPONENTES ELIMINADOS (SEGÚN CRITERIOS MAESTROS)**
@@ -341,23 +341,23 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 - Normas: ETSI EN 300 392
 - Frecuencias: Asignadas por ANE
 
-#### **7.2.2 Sistema RED TETRA (Misión Crítica) (37 Estaciones) - NUEVO**
+#### **7.2.2 Sistema Red Vital IP / TETRA (37 Estaciones) - NUEVO**
 **Funcionalidades:**
 - Redundancia con TETRA
 - Comunicaciones críticas
 
 **Componentes:**
-- Red RED TETRA (Misión Crítica) redundante (37 estaciones base)
+- Red Red Vital IP / TETRA redundante (37 estaciones base)
 - Colocalización con TETRA (misma torre)
-- Radios RED TETRA (Misión Crítica) embarcados (30 unidades)
-- Antenas RED TETRA (Misión Crítica) colocalizadas
-- Sistema de control RED TETRA (Misión Crítica) centralizado
+- Radios Red Vital IP / TETRA embarcados (30 unidades)
+- Antenas Red Vital IP / TETRA colocalizadas
+- Sistema de control Red Vital IP / TETRA centralizado
 
 **Especificaciones Técnicas:**
 - Cobertura: 100% del corredor (colocalizado con TETRA)
 - Disponibilidad: 99.5% según AT4
 - Protocolos: FRA/AREMA para interoperabilidad FENOCO
-- Conmutación: Automática entre TETRA y RED TETRA (Misión Crítica)
+- Conmutación: Automática entre TETRA y Red Vital IP / TETRA
 
 #### **7.2.3 Fibra Óptica Backbone (526 km)**
 **Funcionalidades:**
@@ -395,12 +395,12 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 
 **Gestión de Permisos (ANE):**
 - Trámite de asignación de frecuencias TETRA
-- Trámite de asignación de frecuencias RED TETRA (Misión Crítica)
+- Trámite de asignación de frecuencias Red Vital IP / TETRA
 - Permisos de instalación ante ANE
 
 #### **7.3.3 Fase 3 - Instalación y Puesta en Servicio (Mes 13-18)**
 - Instalación de equipos TETRA en 37 estaciones
-- Instalación de equipos RED TETRA (Misión Crítica) colocalizados
+- Instalación de equipos Red Vital IP / TETRA colocalizados
 - Conexión a red de fibra óptica
 - Pruebas de cobertura y calidad de servicio
 
@@ -418,7 +418,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 - PTC FENOCO (interoperabilidad)
 - Display integrado
 - GPS dual
-- Radio TETRA + RED TETRA (Misión Crítica) dual
+- Radio TETRA + Red Vital IP / TETRA dual
 
 #### **7.4.3 Protocolos de Interoperabilidad**
 - **FRA/AREMA:** Estándares internacionales para interoperabilidad
@@ -439,7 +439,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 | **Especificaciones de Radio (ETSI)** | AT3, Cap. 8.5 | Selección de equipos (estaciones base, terminales) que cumplan con los estándares ETSI EN 300 392. | ✅ Definido |
 | **Adquisición de Predios para Torres** | AT7, Cap. 3.1 | Plan de adquisición de los **37 predios** necesarios, coordinado con el estudio de cobertura. | ✅ Definido |
 | **Interoperabilidad con FENOCO** | AT1, AT2 | Diseño de un plan de roaming o interconexión de redes para garantizar la comunicación en la frontera de Chiriguaná.<br>- **Protocolos FRA/AREMA para interoperabilidad** | ✅ Definido |
-| **Equipos Embarcados en Locomotoras** | Cl. 13.1 | Especificación de radios móviles TETRA + RED TETRA (Misión Crítica) con GPS integrado para cada locomotora.<br>- **Interfaz PTC PTC Virtual (FRA 236) hasta AT3** | ✅ Definido |
+| **Equipos Embarcados en Locomotoras** | Cl. 13.1 | Especificación de radios móviles TETRA + Red Vital IP / TETRA con GPS integrado para cada locomotora.<br>- **Interfaz PTC PTC Virtual (FRA 236) hasta AT3** | ✅ Definido |
 | **Disponibilidad del Servicio (COM1)** | AT4 | Diseño de una red con redundancia N+1 para cumplir con los indicadores de disponibilidad.<br>- **Disponibilidad 99.5% según AT4** | ✅ Definido |
 
 ### **8.2 Indicadores de Riesgo**
@@ -464,7 +464,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 - **TOTAL ELIMINAR:** -$64,000,000,000 COP
 
 ### **9.2 Implementaciones Nuevas (Faltante)**
-- **RED TETRA (Misión Crítica):** +$3,484,000,000 COP
+- **Red Vital IP / TETRA:** +$3,484,000,000 COP
 - **EOT:** +$520,000,000 COP
 - **ENCE:** +$6,020,000,000 COP
 - **Desvíos:** +$3,783,000,000 COP
@@ -529,7 +529,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 ### 12.1 Control de Cambios Implementados
 **Cambios implementados:**
 - ✅ Actualización de TETRA de 33 a 37 estaciones
-- ✅ Implementación de RED TETRA (Misión Crítica) como redundancia
+- ✅ Implementación de Red Vital IP / TETRA como redundancia
 - ✅ Ajuste de cobertura con solapamiento 15-20%
 - ✅ Actualización de fibra óptica a 526 km
 - ✅ Verificación de coherencia técnica 100%
@@ -539,7 +539,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 - **Auditoría base:** AUDITORIA_COMPLETA_Desalineacion_Documental_v1.0.md
 - **Fecha de alineación:** Enero 2025
 - **Responsable:** Administrador Contractual EPC
-- **Impacto presupuestal:** +$8,314,000,000 COP (TETRA + RED TETRA (Misión Crítica))
+- **Impacto presupuestal:** +$8,314,000,000 COP (TETRA + Red Vital IP / TETRA)
 - **Metodología aplicada:** v5.0 - Coherencia Técnica Verificada
 
 ### 12.3 Próxima Revisión

@@ -9,7 +9,7 @@
 
 ## 1. ARQUITECTURA DE COMUNICACIONES SANEADA
 
-Se unifica el segmento de telecomunicaciones de misión crítica en la red **TETRA**, eliminando la infraestructura paralela RED TETRA (Misión Crítica) para optimizar el CAPEX y simplificar la gestión del espectro.
+Se unifica el segmento de telecomunicaciones de misión crítica en la red **TETRA**, eliminando la infraestructura paralela Red Vital IP / TETRA para optimizar el CAPEX y simplificar la gestión del espectro.
 
 ### 1.1 Red de Radio (Segmento Espacial):
 - **Sistema Principal:** TETRA (Terrestrial Trunked Radio) de última generación.
@@ -22,12 +22,12 @@ Se unifica el segmento de telecomunicaciones de misión crítica en la red **TET
 
 ---
 
-## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE RED TETRA (Misión Crítica))
+## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE Red Vital IP / TETRA)
 
 Se han corregido los siguientes errores técnicos de la v5.5:
-- ✅ **ELIMINADO:** Redundancia RED TETRA (Misión Crítica) (37 estaciones). El sistema TETRA asume la totalidad del tráfico vital y operativo.
-- ✅ **ELIMINADO:** Equipos de red core móvil (MSC, BSC, HLR/VLR) específicos de RED TETRA (Misión Crítica).
-- ✅ **ELIMINADO:** Mención a colocalización TETRA+RED TETRA (Misión Crítica). Ahora es una **Red Unificada TETRA**.
+- ✅ **ELIMINADO:** Redundancia Red Vital IP / TETRA (37 estaciones). El sistema TETRA asume la totalidad del tráfico vital y operativo.
+- ✅ **ELIMINADO:** Equipos de red core móvil (MSC, BSC, HLR/VLR) específicos de Red Vital IP / TETRA.
+- ✅ **ELIMINADO:** Mención a colocalización TETRA+Red Vital IP / TETRA. Ahora es una **Red Unificada TETRA**.
 - ✅ **ADOPTADO:** Prioridad de tráfico de datos vitales sobre el canal TETRA mediante QoS (Quality of Service) ferroviario.
 
 ---
@@ -41,6 +41,6 @@ Se han corregido los siguientes errores técnicos de la v5.5:
 
 ## ✅ CONCLUSIONES:
 
-La ingeniería de comunicaciones de detalle ha sido unificada para reflejar la eficiencia del modelo **PTC Virtual**. Al eliminar la tecnología RED TETRA (Misión Crítica), se reduce la complejidad técnica y se asegura la interoperabilidad nacional sobre un estándar abierto y soberano.
+La ingeniería de comunicaciones de detalle ha sido unificada para reflejar la eficiencia del modelo **PTC Virtual**. Al eliminar la tecnología Red Vital IP / TETRA, se reduce la complejidad técnica y se asegura la interoperabilidad nacional sobre un estándar abierto y soberano.
 
 **Saneamiento Ciclo 5 - Ingeniería de Detalle Comunicaciones Finalizado.**

@@ -89,7 +89,7 @@
 **Ventajas:**
 - ✅ Tecnología avanzada (automática)
 - ✅ Alta capacidad de tráfico
-- ✅ Comunicación continua RED TETRA (Misión Crítica)
+- ✅ Comunicación continua Red Vital IP / TETRA
 
 **Desventajas:**
 - ❌ Diseñado para metros (no ferrocarril largo)

@@ -33,7 +33,7 @@
 
 ### 2.2 Sistemas de Comunicación
 - **TETRA:** Pruebas de radio
-- **RED TETRA (Misión Crítica):** Pruebas de conectividad
+- **Red Vital IP / TETRA:** Pruebas de conectividad
 - **Fibra óptica:** Pruebas de transmisión
 - **Interfaces:** Pruebas de comunicación
 
@@ -49,7 +49,7 @@
 
 ### 3.1 Sistemas Integrados
 - **PTC + CTC:** Pruebas de integración
-- **TETRA + RED TETRA (Misión Crítica):** Pruebas de colocalización
+- **TETRA + Red Vital IP / TETRA:** Pruebas de colocalización
 - **ENCE + Desvíos:** Pruebas de coordinación
 - **EOT + PTC:** Pruebas de comunicación
 
@@ -136,7 +136,7 @@
 ### 8.2 Sistemas Comisionados
 - **CTC Virtual:** Sistema de control
 - **PTC Embarcado:** 15 locomotoras
-- **TETRA + RED TETRA (Misión Crítica):** 37 estaciones
+- **TETRA + Red Vital IP / TETRA:** 37 estaciones
 - **ENCE:** 5 enclavamientos
 - **Desvíos:** 120 desvíos
 - **EOT:** 15 dispositivos

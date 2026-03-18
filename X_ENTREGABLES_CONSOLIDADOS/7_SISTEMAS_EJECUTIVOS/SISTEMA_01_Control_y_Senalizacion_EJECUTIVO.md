@@ -79,7 +79,7 @@ El Sistema de Control y Señalización es el **"cerebro" del ferrocarril** que p
 | Nivel | Descripción | Ventajas | Desventajas | Decisión |
 |:------|:------------|:---------|:------------|:---------|
 | **Level 1** | Punto de referencia virtuals + PTC embarcado | Simplicidad | Limitaciones de capacidad | ❌ Rechazado |
-| **Nivel 2** | RED TETRA (Misión Crítica) + PTC embarcado | Óptimo costo/beneficio | Requiere RED TETRA (Misión Crítica) | ✅ **Seleccionado** |
+| **Nivel 2** | Red Vital IP / TETRA + PTC embarcado | Óptimo costo/beneficio | Requiere Red Vital IP / TETRA | ✅ **Seleccionado** |
 | **Level 3** | Moving Block (Sin bloqueo fijo) | Máxima capacidad (V-Block) | Complejidad alta | ❌ Rechazado |
 
 **Justificación de Level 2:**
@@ -252,7 +252,7 @@ El sistema opera 24/7 proporcionando control centralizado de todo el tráfico fe
 ### Tabla de interfaces críticas
 | Sistema | Tipo de Interfaz | Criticidad | Responsable |
 |:--------|:-----------------|:-----------|:------------|
-| Telecomunicaciones | TETRA + RED TETRA (Misión Crítica) | Alta | EPC Telecomunicaciones |
+| Telecomunicaciones | TETRA + Red Vital IP / TETRA | Alta | EPC Telecomunicaciones |
 | Material Rodante | PTC Embarcado | Alta | EPC Sistemas |
 | ITS y Seguridad | CCTV + Monitoreo | Media | EPC Sistemas |
 | Infraestructura | ENCE + Desvíos | Alta | EPC Sistemas |
@@ -307,20 +307,20 @@ El sistema opera 24/7 proporcionando control centralizado de todo el tráfico fe
 |:---------|:--------------|:------------------|:-----------|
 | **Parque rodante** | 15 locomotoras | Menos PTC si reduce | Diseño escalable |
 | **Disponibilidad CTC** | 99.95% | Penalizaciones si no cumple | Redundancia N+1 |
-| **Cobertura RED TETRA (Misión Crítica)** | 100% del corredor | Fallos de comunicación | Respaldo TETRA |
+| **Cobertura Red Vital IP / TETRA** | 100% del corredor | Fallos de comunicación | Respaldo TETRA |
 | **Estaciones críticas** | 5 estaciones | Más ENCE si aumenta | Diseño modular |
 | **Desvíos en vía** | 120 desvíos | Más automatización si aumenta | Control centralizado |
 | **Tiempo de respuesta** | < 2 segundos | Penalizaciones si excede | Optimización de red |
 
 ### Limitaciones del Diseño
-- **Dependencia de comunicaciones:** Sistema requiere RED TETRA (Misión Crítica)/TETRA operativo
+- **Dependencia de comunicaciones:** Sistema requiere Red Vital IP / TETRA/TETRA operativo
 - **Concentración de control:** CCO único punto de falla (mitigado con redundancia)
 - **Complejidad de PTC:** Requiere personal especializado para mantenimiento
 - **Interoperabilidad:** Dependiente de estándares FENOCO
 - **Tiempo de recuperación:** Máximo 5 minutos para restablecer servicio
 
 ### Dependencias Críticas
-- **RED TETRA (Misión Crítica):** Comunicaciones críticas para PTC
+- **Red Vital IP / TETRA:** Comunicaciones críticas para PTC
 - **TETRA:** Comunicaciones de respaldo
 - **Fibra óptica:** Backbone de datos
 - **Material rodante:** 15 locomotoras con PTC embarcado
@@ -333,7 +333,7 @@ El sistema opera 24/7 proporcionando control centralizado de todo el tráfico fe
 | Riesgo | Probabilidad | Impacto | Mitigación | Estado |
 |:-------|:-------------|:---------|:-----------|:-------|
 | Fallo del CTC Virtual | Baja | Alto | Redundancia N+1 | ✅ Mitigado |
-| Fallo de comunicación | Media | Alto | TETRA + RED TETRA (Misión Crítica) dual | ✅ Mitigado |
+| Fallo de comunicación | Media | Alto | TETRA + Red Vital IP / TETRA dual | ✅ Mitigado |
 | Fallo de PTC embarcado | Baja | Alto | Sistemas de respaldo | ✅ Mitigado |
 | Fallo de ENCE | Baja | Medio | Control manual de respaldo | ✅ Mitigado |
 

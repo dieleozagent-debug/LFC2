@@ -44,7 +44,7 @@
 
 ### 3.2 Comunicaciones
 - **TETRA:** EN 50126 + EN 50128
-- **RED TETRA (Misión Crítica):** EN 50126 + EN 50128
+- **Red Vital IP / TETRA:** EN 50126 + EN 50128
 - **Fibra óptica:** EN 50126 + EN 50128
 - **Ciberseguridad:** IEC 62443
 
@@ -77,7 +77,7 @@
 ### 5.2 Sistemas
 - **CTC Virtual:** Centro de control
 - **PTC Embarcado:** 15 locomotoras
-- **TETRA + RED TETRA (Misión Crítica):** 37 estaciones
+- **TETRA + Red Vital IP / TETRA:** 37 estaciones
 - **ENCE:** 5 enclavamientos
 
 ---

@@ -21,13 +21,13 @@ Tras el proceso de saneamiento recursivo, se han resuelto las siguientes indefin
 - **Resolución:** Adopción del procedimiento operacional **Stop & Switch**. Se elimina la necesidad de Gateways técnicos complejos, garantizando la seguridad mediante protocolos administrativos y demarcación lógica en el CTC.
 
 ### ✅ HALLAZGO 003: Telecomunicaciones Unificadas
-- **Estado Anterior:** Presencia residual de RED TETRA (Misión Crítica) colocalizado.
-- **Resolución:** Purga total de la infraestructura RED TETRA (Misión Crítica). La red de misión crítica es 100% **TETRA**, soportando voz y datos **Vital IP** para la señalización.
+- **Estado Anterior:** Presencia residual de Red Vital IP / TETRA colocalizado.
+- **Resolución:** Purga total de la infraestructura Red Vital IP / TETRA. La red de misión crítica es 100% **TETRA**, soportando voz y datos **Vital IP** para la señalización.
 
 ---
 
 ## 2. AUDITORÍA FINAL DE SOBERANÍA
-- **Hardware Eliminado:** Virtual Balise (GNSS)s, Señalización en Cabina (Cab-Signaling), Circuitos de vía, Antenas RED TETRA (Misión Crítica).
+- **Hardware Eliminado:** Virtual Balise (GNSS)s, Señalización en Cabina (Cab-Signaling), Circuitos de vía, Antenas Red Vital IP / TETRA.
 - **Protocolos Adoptados:** Vital IP, V-Blocks (Bloqueo Virtual).
 - **Cumplimiento Contractual:** Alineado con los Apéndices Técnicos bajo la interpretación de **Soberanía Tecnológica**.
 

@@ -35,7 +35,7 @@ La transición asegura que el corredor pueda interoperar con la red de FENOCO me
 | Métrica | PTC Virtual | PTC Alstom | Estado |
 |:---|:---:|:---:|:---:|
 | **Dependencia** | Estándar Abierto | Propietario | 🟢 SANEADO |
-| **Costo Operativo**| Bajo (TETRA/IP) | Alto (RED TETRA (Misión Crítica)/FRA/AREMA) | 🟢 SANEADO |
+| **Costo Operativo**| Bajo (TETRA/IP) | Alto (Red Vital IP / TETRA/FRA/AREMA) | 🟢 SANEADO |
 | **Escalabilidad** | Alta (V-Block) | Limitada (Servidor PTC Central) | 🟢 SANEADO |
 
 ---

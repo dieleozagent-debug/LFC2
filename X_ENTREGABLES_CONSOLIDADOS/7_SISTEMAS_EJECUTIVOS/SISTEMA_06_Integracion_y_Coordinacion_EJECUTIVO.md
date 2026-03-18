@@ -10,7 +10,7 @@ El Sistema de Integración y Coordinación es el **"director de orquesta"** del 
 
 ### Alcance en números - JUSTIFICACIÓN TÉCNICA
 - **Inversión estimada:** $25,000 millones COP
-- **25 interfaces críticas:** CTC-PTC (FFFIS), TETRA-RED TETRA (Misión Crítica), ITS-Seguridad, Material Rodante-PTC
+- **25 interfaces críticas:** CTC-PTC (FFFIS), TETRA-Red Vital IP / TETRA, ITS-Seguridad, Material Rodante-PTC
 - **15 protocolos de interoperabilidad:** FRA/AREMA 920-2, FRA/AREMA 438, FRA/AREMA 930, FRA/AREMA 950, FFFIS, EN 50159
 - **12 APIs de integración:** Comunicación entre sistemas y FENOCO
 - **Gateway de integración:** Conversión de protocolos entre sistemas y red nacional
@@ -35,7 +35,7 @@ El Sistema de Integración y Coordinación es el **"director de orquesta"** del 
 | Sistema | Interfaces | Justificación |
 |:--------|:-----------|:--------------|
 | **CTC-PTC** | 5 interfaces | Control automático de trenes (FFFIS) |
-| **TETRA-RED TETRA (Misión Crítica)** | 4 interfaces | Comunicaciones redundantes |
+| **TETRA-Red Vital IP / TETRA** | 4 interfaces | Comunicaciones redundantes |
 | **ITS-Seguridad** | 3 interfaces | Monitoreo y control de seguridad |
 | **Material Rodante-PTC** | 4 interfaces | Control embarcado |
 | **Infraestructura** | 6 interfaces | Coordinación de infraestructura |
@@ -47,7 +47,7 @@ El Sistema de Integración y Coordinación es el **"director de orquesta"** del 
 **Justificación de Protocolos:**
 | Protocolo | Función | Justificación |
 |:----------|:--------|:--------------|
-| **FRA/AREMA 920-2** | Comunicaciones RED TETRA (Misión Crítica) | Estándar internacional ferroviario |
+| **FRA/AREMA 920-2** | Comunicaciones Red Vital IP / TETRA | Estándar internacional ferroviario |
 | **FRA/AREMA 438** | Señalización ferroviaria | Compatibilidad con FENOCO |
 | **FRA/AREMA 930** | Sistemas de señalización | Interoperabilidad de sistemas |
 | **FRA/AREMA 950** | Control de tráfico | Coordinación entre centros |
@@ -155,7 +155,7 @@ El Sistema de Integración y Coordinación proporciona **coordinación integral*
 | Protocolo FRA/AREMA | 1 unidad | Comunicación ferroviaria | ✅ Disponible |
 | Protocolo IEC 61850 | 1 unidad | Comunicación eléctrica | ✅ Disponible |
 | Protocolo TETRA | 1 unidad | Comunicación radio | ✅ Disponible |
-| Protocolo RED TETRA (Misión Crítica) | 1 unidad | Comunicación móvil | ✅ Disponible |
+| Protocolo Red Vital IP / TETRA | 1 unidad | Comunicación móvil | ✅ Disponible |
 | Protocolo CAN Bus | 1 unidad | Comunicación embarcada | ✅ Disponible |
 
 **Estado general:** 🟢 En cronograma
@@ -262,7 +262,7 @@ El sistema de integración y coordinación opera 24/7 proporcionando coordinaci�
 | Sistema | Tipo de Interfaz | Criticidad | Responsable |
 |:--------|:-----------------|:-----------|:------------|
 | Control y Señalización | CTC Virtual | Alta | EPC Sistemas |
-| Telecomunicaciones | TETRA + RED TETRA (Misión Crítica) | Alta | EPC Telecomunicaciones |
+| Telecomunicaciones | TETRA + Red Vital IP / TETRA | Alta | EPC Telecomunicaciones |
 | ITS y Seguridad | CCTV + Monitoreo | Media | EPC Sistemas |
 | Material Rodante | PTC Embarcado | Alta | EPC Sistemas |
 

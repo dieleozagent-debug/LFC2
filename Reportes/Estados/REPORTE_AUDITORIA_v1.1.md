@@ -509,7 +509,7 @@ Esta información es únicamente de carácter informativo y representa el estado
 | **COM-003** | Validar cálculos de cobertura 95% territorio | 🟡 Media | Ing. Telecomunicaciones | 2 días |
 | **COM-004** | Integrar especificaciones QoS red de datos | 🟡 Media | Ing. Telecomunicaciones | 2 días |
 | **COM-005** | Completar análisis RAMS equipos TETRA | 🟡 Media | Ing. Telecomunicaciones | 3 días |
-| **COM-006** | Validar integración RED TETRA (Misión Crítica) con PTC | 🟡 Media | Ing. Telecomunicaciones | 2 días |
+| **COM-006** | Validar integración Red Vital IP / TETRA con PTC | 🟡 Media | Ing. Telecomunicaciones | 2 días |
 
 **Estado consolidación:** 90% completado  
 **Items críticos pendientes:** 2  

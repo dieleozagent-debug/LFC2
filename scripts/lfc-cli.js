@@ -326,9 +326,11 @@ function applyPurity(contenido) {
     let modificado = false;
     let nuevoContenido = contenido;
 
-    // 1. Aplicar Mapeo de Corrección Determinista
+    // 1. Aplicar Mapeo de Corrección Determinista (Lookaround v6.3)
     Object.keys(mapCorreccion).forEach(key => {
-        const regex = new RegExp(`\\b${key}\\b`, 'g');
+        // Escapar caracteres especiales para regex
+        const escapedKey = key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const regex = new RegExp(`(?<!\\w)${escapedKey}(?!\\w)`, 'g');
         if (regex.test(nuevoContenido)) {
             nuevoContenido = nuevoContenido.replace(regex, mapCorreccion[key]);
             modificado = true;
@@ -339,7 +341,8 @@ function applyPurity(contenido) {
     const blacklist = dbci.LEGACY_BLACKLIST;
     const detectados = [];
     blacklist.forEach(bTerm => {
-        const regex = new RegExp(`\\b${bTerm}\\b`, 'gi');
+        const escapedBTerm = bTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const regex = new RegExp(`(?<!\\w)${escapedBTerm}(?!\\w)`, 'gi');
         if (regex.test(nuevoContenido)) {
             detectados.push(bTerm);
         }
@@ -443,7 +446,13 @@ function serve() {
 
             const templatePath = path.join(REPO_ROOT, 'scripts/templates/premium-shell.html');
             let finalHtml = fs.existsSync(templatePath) ? fs.readFileSync(templatePath, 'utf8') : '<html><body>{{content}}</body></html>';
-            finalHtml = finalHtml.replace('$body$', htmlSafe).replace('{{content}}', htmlSafe);
+            
+            // Reemplazo de variables Premium (v6.4)
+            finalHtml = finalHtml
+                .replace(/\$title\$/g, baseName.replace(/_/g, ' '))
+                .replace(/\$toc\$/g, '<!-- TOC Fallback -->')
+                .replace(/\$body\$/g, htmlSafe)
+                .replace(/{{content}}/g, htmlSafe);
 
             const outPath = path.join(carpetaHTML, baseName + '.html');
             fs.writeFileSync(outPath, finalHtml, 'utf8');

@@ -30,7 +30,7 @@
 ## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE PTC VIRTUAL/FRA/AREMA)
 - ✅ **ELIMINADO:** Fases de integración con Virtual Balise (GNSS)s.
 - ✅ **ELIMINADO:** Requerimientos de interoperabilidad vía protocolos FRA/AREMA (sustituidos por Stop & Switch).
-- ✅ **ELIMINADO:** Referencias a PTC Virtual (FRA 236) y RED TETRA (Misión Crítica).
+- ✅ **ELIMINADO:** Referencias a PTC Virtual (FRA 236) y Red Vital IP / TETRA.
 
 ---
 

@@ -9,12 +9,12 @@
 
 ## 1. ESTRATEGIA DE DETALLE CONSOLIDADA
 
-La Ingeniería de Detalle finaliza su saneamiento eliminando la "contaminación tecnológica" de sistemas propietarios (Alstom PTC) y estándares europeos (PTC VIRTUAL/RED TETRA (Misión Crítica)). El sistema de detalle se basa al 100% en **PTC Virtual / Vital IP**.
+La Ingeniería de Detalle finaliza su saneamiento eliminando la "contaminación tecnológica" de sistemas propietarios (Alstom PTC) y estándares europeos (PTC VIRTUAL/Red Vital IP / TETRA). El sistema de detalle se basa al 100% en **PTC Virtual / Vital IP**.
 
 ### 1.1 Documentos de Detalle Saneados:
 - **V.1 - Señalización Virtual:** Lógica de bloqueo por software y DMI de cabina.
 - **V.2 - Centro de Control CTC:** Servidor Maestro PTC 2oo3 sobre arquitectura COTS.
-- **V.3 - Comunicaciones Unificadas:** Red TETRA de misión crítica y Backbone de Fibra Óptica (Purga de RED TETRA (Misión Crítica)).
+- **V.3 - Comunicaciones Unificadas:** Red TETRA de misión crítica y Backbone de Fibra Óptica (Purga de Red Vital IP / TETRA).
 - **V.4 - Potencia Optimizada:** Redimensionamiento de cargas al eliminar hardware de vía redundante.
 - **V.5 - Seguridad e ITS:** Protección lógica Vital IP y monitoreo CCTV centralizado.
 - **V.X - Enclavamientos ENCE:** Controladores IP nativos para los 5 nodos de estación.
@@ -25,7 +25,7 @@ La Ingeniería de Detalle finaliza su saneamiento eliminando la "contaminación 
 
 En cumplimiento de la **Soberanía Tecnológica**, se han corregido los siguientes desvíos históricos:
 - ✅ **ELIMINADO:** Todas las referencias a PTC (Alstom) y PTC Virtual (FRA 236).
-- ✅ **ELIMINADO:** Redundancia RED TETRA (Misión Crítica). Se unifica en TETRA para eficiencia CAPEX.
+- ✅ **ELIMINADO:** Redundancia Red Vital IP / TETRA. Se unifica en TETRA para eficiencia CAPEX.
 - ✅ **ELIMINADO:** Protocolos FFFIS/UNISIG. Se adopta la interfaz abierta **Vital IP**.
 - ✅ **ELIMINADO:** Riesgos de "Dependencia AT3/PTC". Los nuevos riesgos se centran en la ciberseguridad del Servidor PTC.
 

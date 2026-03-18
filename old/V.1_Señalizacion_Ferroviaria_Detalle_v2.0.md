@@ -44,7 +44,7 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 - **5 Enclavamientos ENCE** electrónicos
 - **24 Pasos a Nivel** activos (9 Tipo C + 15 Tipo B)
 - **120 Desvíos** (25 motorizados + 95 manuales)
-- **Integración con TETRA + RED TETRA (Misión Crítica)**
+- **Integración con TETRA + Red Vital IP / TETRA**
 
 ---
 
@@ -71,7 +71,7 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 - **Sistema PTC Embarcado** - 15 locomotoras
 - **Display Virtual en Cabina** - Señalización para maquinista
 - **Enclavamientos ENCE** - 5 estaciones críticas
-- **Sistemas de Comunicación** - TETRA + RED TETRA (Misión Crítica)
+- **Sistemas de Comunicación** - TETRA + Red Vital IP / TETRA
 
 ### 3.2 Integración con PTC Embarcado
 - Interfaz CTC-PTC según protocolos virtuales
@@ -87,14 +87,14 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 - **Servidor CTC:** Software de control ferroviario centralizado
 - **Base de Datos:** Estado de vía y trenes en tiempo real
 - **Interfaz Operador:** Consolas de control y monitoreo
-- **Comunicaciones:** Red TETRA + RED TETRA (Misión Crítica) para PTC
+- **Comunicaciones:** Red TETRA + Red Vital IP / TETRA para PTC
 - **Respaldo:** Sistemas redundantes y UPS
 
 ### 4.2 PTC Embarcado (15 Locomotoras)
 - **Computadora PTC:** Sistema embarcado en cada locomotora
 - **Sensores de Velocidad:** GPS + odómetro para posición precisa
 - **Display del Maquinista:** Pantalla de señalización virtual
-- **Comunicación CTC:** Radio TETRA + RED TETRA (Misión Crítica) para comunicación
+- **Comunicación CTC:** Radio TETRA + Red Vital IP / TETRA para comunicación
 - **Sensores:** Velocidad, frenos, integridad
 
 ### 4.3 Enclavamientos ENCE (5 Estaciones)
@@ -116,7 +116,7 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 
 ### 5.1 Preparación del Sitio
 - **CCO La Dorada:** Construcción y equipamiento del centro de control
-- **37 Torres Comunicaciones:** TETRA + RED TETRA (Misión Crítica) colocalizadas
+- **37 Torres Comunicaciones:** TETRA + Red Vital IP / TETRA colocalizadas
 - **Fibra Óptica:** 526 km de backbone de comunicaciones
 - **Instalación ENCE:** 5 enclavamientos electrónicos
 
@@ -176,7 +176,7 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 
 ### 8.1 Sistemas de Comunicación
 - **Integración TETRA:** 37 estaciones base
-- **Integración RED TETRA (Misión Crítica):** 37 estaciones colocalizadas
+- **Integración Red Vital IP / TETRA:** 37 estaciones colocalizadas
 - **Fibra Óptica:** 526 km de backbone
 - **Redes de Datos:** Sistemas de comunicación integrados
 
@@ -200,7 +200,7 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 - **Pruebas CTC:** Centro de control centralizado
 - **Pruebas PTC:** Sistemas embarcados en locomotoras
 - **Pruebas ENCE:** Enclavamientos electrónicos
-- **Pruebas Comunicaciones:** TETRA + RED TETRA (Misión Crítica)
+- **Pruebas Comunicaciones:** TETRA + Red Vital IP / TETRA
 
 ### 9.2 Pruebas de Sistema
 - **Pruebas de Integración:** CTC-PTC-ENCE
@@ -298,7 +298,7 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 - **TOTAL ELIMINAR:** -$64,000,000,000 COP
 
 ### 14.2 Implementaciones Nuevas (Faltante)
-- **RED TETRA (Misión Crítica):** +$3,484,000,000 COP
+- **Red Vital IP / TETRA:** +$3,484,000,000 COP
 - **EOT:** +$520,000,000 COP
 - **ENCE:** +$6,020,000,000 COP
 - **Desvíos:** +$3,783,000,000 COP
@@ -320,7 +320,7 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 
 ### 15.2 Documentos Dependientes (Por Actualizar)
 - **V.2_Centro_Control_Trafico_CTC_Detalle_v1.0.md** ⏳ (CTC virtual)
-- **V.3_Sistemas_Comunicacion_Detalle_v1.0.md** ⏳ (RED TETRA (Misión Crítica) agregado)
+- **V.3_Sistemas_Comunicacion_Detalle_v1.0.md** ⏳ (Red Vital IP / TETRA agregado)
 
 ---
 

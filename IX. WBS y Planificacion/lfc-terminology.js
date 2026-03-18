@@ -34,7 +34,7 @@ const LFC_DBCI = {
     // BLACKLIST LEGACY (Lo que NO puede existir - SACC)
     LEGACY_BLACKLIST: [
         "EUROBALIZA", "EUROBALISE", "RBC", "RADIO BLOCK CENTRE", "ETCS", "ERTMS", "ASFA",
-        "RED TETRA MISION CRITICA", "TETRA Misión Crítica",
+        "RED TETRA MISION CRITICA", "TETRA Misión Crítica", "RED TETRA (Misión Crítica)", "RED TETRA (Mision Critica)",
         "CATENARIA", "TRACCIÓN ELÉCTRICA", "TRACCION ELECTRICA", "25 KV", "3 KV", "60 HZ",
         "PANTÓGRAFO", "PANTOGRAFO", "SUBESTACIÓN DE TRACCIÓN", "SUBESTACION DE TRACCION",
         "ITCS", "Interlocking Propietario", "Señales LED", "Señalización Lateral"
@@ -50,6 +50,8 @@ const LFC_DBCI = {
         "Señales LED": "Señalización en Cabina (Cab-Signaling)",
         "ITCS": "PTC Nativo (FRA 49 CFR 236)",
         "RED TETRA Misión Crítica": "Red Vital IP / TETRA",
+        "RED TETRA (Misión Crítica)": "Red Vital IP / TETRA",
+        "RED TETRA (Mision Critica)": "Red Vital IP / TETRA",
         "ETCS": "PTC Virtual (SICC)",
         "ERTMS": "PTC Virtual (SICC)"
     },

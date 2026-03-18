@@ -18,7 +18,7 @@ El diseño se basa en la arquitectura **PTC Virtual** (Positive Train Control), 
 ### 2. SEGMENTO COMUNICACIONES
 - **Radio:** TETRA (Troncalizada). Cobertura total para voz y datos.
 - **Ancho de Banda:** Reservado para Autorizaciones de Movimiento (MA) críticas.
-- **RED TETRA (Misión Crítica):** **ELIMINADO**. No se justifica CAPEX para dos tecnologías de radio redundantes si TETRA cumple el contrato.
+- **Red Vital IP / TETRA:** **ELIMINADO**. No se justifica CAPEX para dos tecnologías de radio redundantes si TETRA cumple el contrato.
 
 ---
 
@@ -32,4 +32,4 @@ Se han purgado de la v5.0 las siguientes alucinaciones técnicas:
 
 | Versión | Fecha       | Responsable            | Descripción                              |
 |:------:|:-----------:|:-----------------------|:-----------------------------------------|
-| v6.0   | 13/03/2026  | Admin. Contractual EPC | Re-ingeniería de Diseño Básico. Purgado de PTC Virtual/RED TETRA (Misión Crítica). |
+| v6.0   | 13/03/2026  | Admin. Contractual EPC | Re-ingeniería de Diseño Básico. Purgado de PTC Virtual/Red Vital IP / TETRA. |

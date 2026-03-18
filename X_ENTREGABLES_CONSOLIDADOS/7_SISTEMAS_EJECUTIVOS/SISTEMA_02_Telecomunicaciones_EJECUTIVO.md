@@ -10,11 +10,11 @@ El Sistema de Telecomunicaciones es la **red de comunicación vital** del ferroc
 
 ### Alcance en números - JUSTIFICACIÓN TÉCNICA
 - **Inversión estimada:** $45,000 millones COP
-- **37 estaciones TETRA/RED TETRA (Misión Crítica):** Justificado por radio de cobertura de 15 km por estación con 20% solapamiento sobre corredor de 526 km
+- **37 estaciones TETRA/Red Vital IP / TETRA:** Justificado por radio de cobertura de 15 km por estación con 20% solapamiento sobre corredor de 526 km
 - **526 km fibra óptica:** Longitud total del corredor ferroviario La Dorada-Chiriguaná
 - **2,068 cajas de empalme:** Calculadas cada 300m (594,000m ÷ 300m = 1,980 + 88 adicionales por redundancia)
 - **Cobertura:** 100% del corredor garantizada por diseño
-- **Disponibilidad requerida:** 99.5% TETRA, 99.95% RED TETRA (Misión Crítica) (según estándares EN 50126)
+- **Disponibilidad requerida:** 99.5% TETRA, 99.95% Red Vital IP / TETRA (según estándares EN 50126)
 
 ### Hitos críticos
 | Fase | Fecha | Estado |
@@ -28,9 +28,9 @@ El Sistema de Telecomunicaciones es la **red de comunicación vital** del ferroc
 
 ## 🔍 CRITERIOS DE DISEÑO Y JUSTIFICACIONES TÉCNICAS
 
-### ¿Por qué 37 estaciones TETRA/RED TETRA (Misión Crítica)?
+### ¿Por qué 37 estaciones TETRA/Red Vital IP / TETRA?
 **Cálculo de Cobertura:**
-- **Radio de cobertura por estación:** 15 km (según especificaciones TETRA/RED TETRA (Misión Crítica))
+- **Radio de cobertura por estación:** 15 km (según especificaciones TETRA/Red Vital IP / TETRA)
 - **Solapamiento requerido:** 20% entre estaciones (para redundancia y continuidad)
 - **Cobertura efectiva por estación:** 12 km (15 km - 3 km solapamiento)
 - **Corredor total:** 526 km
@@ -40,7 +40,7 @@ El Sistema de Telecomunicaciones es la **red de comunicación vital** del ferroc
 - **Costo-efectividad:** Compartir infraestructura (torres, alimentación, respaldo)
 - **Gestión predial:** Reducir de 74 a 37 ubicaciones
 - **Mantenimiento:** Un solo sitio de mantenimiento por ubicación
-- **Redundancia:** TETRA + RED TETRA (Misión Crítica) en la misma torre
+- **Redundancia:** TETRA + Red Vital IP / TETRA en la misma torre
 
 ### ¿Por qué 526 km de fibra óptica?
 **Justificación Técnica:**
@@ -75,17 +75,17 @@ Redondeo:      594.000 km  ← Cantidad WBS
 - **Estándar RETIE:** Altura estándar para telecomunicaciones
 - **Costo-efectividad:** Balance entre cobertura y costo de estructura
 
-### ¿Por qué TETRA + RED TETRA (Misión Crítica) (no solo uno)?
+### ¿Por qué TETRA + Red Vital IP / TETRA (no solo uno)?
 **Análisis de Alternativas:**
 | Alternativa | Ventajas | Desventajas | Decisión |
 |:------------|:---------|:------------|:---------|
 | **Solo TETRA** | Simplicidad, menor costo | Sin redundancia crítica | ❌ Rechazada |
-| **Solo RED TETRA (Misión Crítica)** | Datos de alta velocidad | Limitaciones operacionales | ❌ Rechazada |
-| **TETRA + RED TETRA (Misión Crítica)** | Redundancia, especialización | Mayor costo | ✅ **Seleccionada** |
+| **Solo Red Vital IP / TETRA** | Datos de alta velocidad | Limitaciones operacionales | ❌ Rechazada |
+| **TETRA + Red Vital IP / TETRA** | Redundancia, especialización | Mayor costo | ✅ **Seleccionada** |
 
 **Justificación de la Decisión:**
 - **TETRA:** Especializado en comunicaciones operacionales (voz + datos operativos)
-- **RED TETRA (Misión Crítica):** Especializado en datos críticos (PTC, CTC, sistemas de seguridad)
+- **Red Vital IP / TETRA:** Especializado en datos críticos (PTC, CTC, sistemas de seguridad)
 - **Redundancia:** Si falla uno, el otro mantiene operación básica
 - **Cumplimiento:** Estándares ferroviarios requieren redundancia
 
@@ -170,13 +170,13 @@ El Sistema de Telecomunicaciones proporciona **comunicación en tiempo real** en
 
 ---
 
-### 2. Sistema RED TETRA (Misión Crítica) - Red de Datos Críticos
+### 2. Sistema Red Vital IP / TETRA - Red de Datos Críticos
 **Propósito:** Comunicación de datos críticos para control automático de trenes
 
 **Componentes instalados:**
 | Componente | Cantidad | Ubicación | Estado |
 |:-----------|:---------|:----------|:-------|
-| Estaciones base RED TETRA (Misión Crítica) | 37 unidades | Colocalizadas con TETRA | ✅ Instaladas |
+| Estaciones base Red Vital IP / TETRA | 37 unidades | Colocalizadas con TETRA | ✅ Instaladas |
 | Módulos embarcados | 30 unidades | En locomotoras | ⏳ En instalación |
 | Antenas | 74 unidades | Torres de comunicación | ✅ Instaladas |
 | Equipos de respaldo | 4 unidades | Centro de Control | ✅ Operativos |
@@ -204,16 +204,16 @@ El Sistema de Telecomunicaciones proporciona **comunicación en tiempo real** en
 | Parámetro | Valor | Estándar Aplicable |
 |:----------|:------|:-------------------|
 | Cobertura TETRA | 100% del corredor | FRA/AREMA 920-2 |
-| Cobertura RED TETRA (Misión Crítica) | 100% del corredor | FRA/AREMA 920-2 |
+| Cobertura Red Vital IP / TETRA | 100% del corredor | FRA/AREMA 920-2 |
 | Disponibilidad TETRA | 99.5% | EN 50126 |
-| Disponibilidad RED TETRA (Misión Crítica) | 99.95% | EN 50126 |
+| Disponibilidad Red Vital IP / TETRA | 99.95% | EN 50126 |
 | Velocidad de datos | 1 Gbps por estación | IEEE 802.3 |
 | Tiempo de respuesta | < 500ms | FRA/AREMA 920-2 |
 | Altura de torres | 40 metros | RETIE |
 
 ### Criterios de aceptación
 - ✅ Cobertura 100% del corredor
-- ✅ Disponibilidad 99.95% para RED TETRA (Misión Crítica)
+- ✅ Disponibilidad 99.95% para Red Vital IP / TETRA
 - ✅ Integración completa con sistemas de control
 - ✅ Cumplimiento normativo ANE
 - ✅ Interoperabilidad con FENOCO
@@ -242,7 +242,7 @@ Las 37 estaciones de telecomunicaciones están ubicadas estratégicamente a lo l
 | Componente | Potencia | Tipo Alimentación | Respaldo |
 |:-----------|:---------|:------------------|:---------|
 | **Equipos TETRA** | 2.5 kW | 220V AC | UPS 2 horas |
-| **Equipos RED TETRA (Misión Crítica)** | 3.0 kW | 220V AC | UPS 2 horas |
+| **Equipos Red Vital IP / TETRA** | 3.0 kW | 220V AC | UPS 2 horas |
 | **Equipos Fibra** | 1.0 kW | 220V AC | UPS 2 horas |
 | **Iluminación Torre** | 0.5 kW | 220V AC | Sin respaldo |
 | **Sistemas Auxiliares** | 1.0 kW | 220V AC | UPS 2 horas |
@@ -292,7 +292,7 @@ El sistema opera 24/7 proporcionando comunicación continua entre el Centro de C
 | Sistema | Tipo de Interfaz | Criticidad | Responsable |
 |:--------|:-----------------|:-----------|:------------|
 | Control de Tráfico | Protocolo FFFIS | Alta | EPC Telecomunicaciones |
-| Material Rodante | TETRA + RED TETRA (Misión Crítica) | Alta | EPC Telecomunicaciones |
+| Material Rodante | TETRA + Red Vital IP / TETRA | Alta | EPC Telecomunicaciones |
 | Señalización | Fibra óptica | Media | EPC Telecomunicaciones |
 | Seguridad | CCTV + Alarms | Media | EPC Telecomunicaciones |
 
@@ -308,7 +308,7 @@ El sistema opera 24/7 proporcionando comunicación continua entre el Centro de C
 | **Separación cajas fibra** | 300m estándar | Más cajas si reduce | Según normas UIT-T |
 | **Altura efectiva torres** | 40m sobre terreno | Menor cobertura si reduce | Factor de seguridad +5m |
 | **Disponibilidad TETRA** | 99.5% | Penalizaciones si no cumple | Redundancia N+1 |
-| **Disponibilidad RED TETRA (Misión Crítica)** | 99.95% | Penalizaciones si no cumple | Doble anillo fibra |
+| **Disponibilidad Red Vital IP / TETRA** | 99.95% | Penalizaciones si no cumple | Doble anillo fibra |
 
 ### Limitaciones del Diseño
 - **Topografía:** Cobertura puede reducirse en zonas montañosas
@@ -320,7 +320,7 @@ El sistema opera 24/7 proporcionando comunicación continua entre el Centro de C
 ### Dependencias Críticas
 - **ANE:** Autorización de espectro radioeléctrico
 - **FENOCO:** Coordinación de interferencias
-- **Proveedores:** Suministro de equipos TETRA/RED TETRA (Misión Crítica)
+- **Proveedores:** Suministro de equipos TETRA/Red Vital IP / TETRA
 - **Constructoras:** Construcción de torres y fibra óptica
 - **Predial:** Adquisición de 37 predios para torres
 
@@ -341,14 +341,14 @@ El sistema opera 24/7 proporcionando comunicación continua entre el Centro de C
 
 ### Obligaciones clave del contrato
 - ✅ **AT1 - Alcance:** Sistemas de telecomunicaciones integrales - Cumplida
-- ✅ **AT3 - Especificaciones:** TETRA + RED TETRA (Misión Crítica) + Fibra según estándares - Cumplida
+- ✅ **AT3 - Especificaciones:** TETRA + Red Vital IP / TETRA + Fibra según estándares - Cumplida
 - ⏳ **AT5 - Interferencias:** Gestión de interferencias con ANE - En progreso
 - ⏳ **AT7 - Predial:** Ubicación de 37 torres colocalizadas - En progreso
 - ❌ **AT8 - Operaciones:** Procedimientos operacionales integrados - Pendiente
 
 ### Referencias contractuales
 - **Apéndice Técnico 1:** Alcance del proyecto - Sistemas de telecomunicaciones
-- **Apéndice Técnico 3:** Especificaciones técnicas - TETRA, RED TETRA (Misión Crítica), Fibra óptica
+- **Apéndice Técnico 3:** Especificaciones técnicas - TETRA, Red Vital IP / TETRA, Fibra óptica
 - **Apéndice Técnico 5:** Gestión de interferencias - Coordinación con ANE
 - **Apéndice Técnico 7:** Gestión predial - Ubicación de torres
 
@@ -384,7 +384,7 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 | Indicador | Meta | Actual | Estado |
 |:----------|:-----|:-------|:-------|
 | Disponibilidad TETRA | 99.5% | 99.2% | 🟡 Mejorable |
-| Disponibilidad RED TETRA (Misión Crítica) | 99.95% | 99.98% | 🟢 Excelente |
+| Disponibilidad Red Vital IP / TETRA | 99.95% | 99.98% | 🟢 Excelente |
 | Cobertura del corredor | 100% | 95% | 🟡 En progreso |
 | Tiempo de respuesta | < 500ms | 350ms | 🟢 Excelente |
 | Calidad de señal | > 95% | 97% | 🟢 Excelente |

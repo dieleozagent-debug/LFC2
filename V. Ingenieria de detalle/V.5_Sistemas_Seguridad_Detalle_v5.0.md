@@ -13,7 +13,7 @@ La seguridad se garantiza mediante la integridad de los datos en la red **PTC Vi
 
 ### 1.1 Niveles de Seguridad (Auditados):
 - **Core Vital:** Servidor Maestro 2oo3 con certificación de seguridad lógica para PTC (FRA 236).
-- **Comunicación Vital:** Basada exclusivamente en **TETRA** con encriptación de grado militar. Se elimina el RED TETRA (Misión Crítica).
+- **Comunicación Vital:** Basada exclusivamente en **TETRA** con encriptación de grado militar. Se elimina el Red Vital IP / TETRA.
 - **Seguridad en Cabina:** Interfaz DMI simplificada, centrada en autorizaciones de movimiento virtuales.
 
 ### 1.2 Sistemas ITS (Seguridad Física):
@@ -22,10 +22,10 @@ La seguridad se garantiza mediante la integridad de los datos en la red **PTC Vi
 
 ---
 
-## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE RED TETRA (Misión Crítica)/PTC Virtual)
+## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE Red Vital IP / TETRA/PTC Virtual)
 
 Se han corregido los siguientes desvíos técnicos de la v5.0:
-- ✅ **ELIMINADO:** Requerimiento "TETRA + RED TETRA (Misión Crítica) dual" para el PTC embarcado.
+- ✅ **ELIMINADO:** Requerimiento "TETRA + Red Vital IP / TETRA dual" para el PTC embarcado.
 - ✅ **ELIMINADO:** Referencias a "Virtual Balise (GNSS)s" en la matriz de seguridad física de vía.
 - ✅ **ELIMINADO:** Mención a interfaces de seguridad para Servidor PTC Central. La seguridad es **Peer-to-Peer** (Tren-Servidor PTC).
 - ✅ **ADOPTADO:** El protocolo **Vital IP** como el único canal de seguridad para el intercambio de mensajes entre el EPC y el Tren.
@@ -34,7 +34,7 @@ Se han corregido los siguientes desvíos técnicos de la v5.0:
 
 ## 🛡 PROTOCOLO DE CIBERSEGURIDAD
 - Unificación de la seguridad en la capa de transporte (TLS Ferroviario).
-- No se depende de la seguridad física del espectro RED TETRA (Misión Crítica), sino de la robustez lógica de la red TETRA y la Fibra Óptica.
+- No se depende de la seguridad física del espectro Red Vital IP / TETRA, sino de la robustez lógica de la red TETRA y la Fibra Óptica.
 
 ---
 

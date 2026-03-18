@@ -409,7 +409,7 @@ ENTREGABLES REQUERIDOS (Mes 6):
 |:---------|:---------|:----------|:-------|:-------------------|
 | **IF-01** | CTC ↔ PTC | FFFIS / IEC 62278 | ⚠️ Pendiente PTC | EPC Señalización |
 | **IF-02** | CTC ↔ FENOCO | FRA/AREMA 918-4 / Trainguard | ❌ Pendiente FENOCO | EPC + FENOCO |
-| **IF-03** | TETRA ↔ RED TETRA (Misión Crítica) | Gateway dual | 🟡 Conceptual | EPC Telecomunicaciones |
+| **IF-03** | TETRA ↔ Red Vital IP / TETRA | Gateway dual | 🟡 Conceptual | EPC Telecomunicaciones |
 | **IF-04** | CTC ↔ SCADA | OPC-UA / Modbus TCP | ✅ Estándar | EPC Automatización |
 | **IF-05** | PTC ↔ Frenos | IEC 61375 (TCN) | ⚠️ Pendiente MR specs | EPC Material Rodante |
 | **IF-06** | CCTV ↔ Fibra | IP/Ethernet | ✅ Estándar | EPC ITS |

@@ -33,7 +33,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 
 ### 1.1 Alcance del Sistema CTC Virtual
 - **Sistema principal:** Centro de Control de Tráfico Virtual
-- **Componentes:** Servidores virtuales, estaciones de trabajo, interfaces PTC, comunicaciones TETRA+RED TETRA (Misión Crítica)
+- **Componentes:** Servidores virtuales, estaciones de trabajo, interfaces PTC, comunicaciones TETRA+Red Vital IP / TETRA
 - **Cobertura:** 526.133 km de vía, 5 estaciones ENCE, 146 pasos a nivel
 - **Capacidad:** Hasta 15 trenes simultáneos (sin limitación Servidor PTC Central)
 
@@ -68,7 +68,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
 │  │  Interface  │  │  Interface  │  │  Interface  │         │
 │  │    PTC      │  │    ENCE     │  │  Comunicación│         │
-│  │  (Directo)  │  │  (5 Est.)   │  │  (TETRA+RED TETRA (Misión Crítica))│       │
+│  │  (Directo)  │  │  (5 Est.)   │  │  (TETRA+Red Vital IP / TETRA)│       │
 │  └─────────────┘  └─────────────┘  └─────────────┘         │
 └─────────────────────────────────────────────────────────────┘
                               │
@@ -80,7 +80,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 ├─────────────────────────────────────────────────────────────┤
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
 │  │ Computadora │  │   Display   │  │   Radio     │         │
-│  │    PTC      │  │  Maquinista │  │ TETRA+RED TETRA (Misión Crítica) │         │
+│  │    PTC      │  │  Maquinista │  │ TETRA+Red Vital IP / TETRA │         │
 │  │  Embarcado  │  │  (Virtual)  │  │  (Comun.)   │         │
 │  └─────────────┘  └─────────────┘  └─────────────┘         │
 └─────────────────────────────────────────────────────────────┘
@@ -103,7 +103,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 #### 2.2.3 Interfaces de Comunicación Virtual
 - **Interface PTC:** Comunicación directa con PTC embarcado (sin Servidor PTC Central)
 - **Interface ENCE:** Control de 5 enclavamientos electrónicos
-- **Interface Comunicación:** Enlaces TETRA + RED TETRA (Misión Crítica) con trenes
+- **Interface Comunicación:** Enlaces TETRA + Red Vital IP / TETRA con trenes
 
 ---
 
@@ -150,7 +150,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 #### 3.2.3 Interfaces Virtuales
 - **PTC Interface:** Protocolo directo CTC-PTC (sin FFFIS Servidor PTC Central)
 - **ENCE Interface:** Control directo de enclavamientos
-- **Comunicación:** TETRA + RED TETRA (Misión Crítica) v8.0 (37 estaciones)
+- **Comunicación:** TETRA + Red Vital IP / TETRA v8.0 (37 estaciones)
 
 ---
 
@@ -193,7 +193,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 #### 4.3.1 Procedimientos de Emergencia Virtual
 - **Parada de Emergencia:** Comando inmediato via PTC
 - **Evacuación:** Procedimientos de evacuación virtual
-- **Comunicación:** Enlaces TETRA + RED TETRA (Misión Crítica) de emergencia
+- **Comunicación:** Enlaces TETRA + Red Vital IP / TETRA de emergencia
 - **Coordinación:** Integración con servicios de emergencia
 
 #### 4.3.2 Modos de Operación Virtual
@@ -237,7 +237,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 #### 6.1.1 Protocolo Directo CTC-PTC
 - **Comunicación Bidireccional:** CTC ↔ PTC (sin Servidor PTC Central)
 - **Tiempo Real:** Latencia < 100ms
-- **Redundancia:** TETRA + RED TETRA (Misión Crítica) (37 estaciones)
+- **Redundancia:** TETRA + Red Vital IP / TETRA (37 estaciones)
 - **Seguridad:** Cifrado end-to-end
 
 #### 6.1.2 Interfaces Virtuales
@@ -283,7 +283,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 #### 7.1.2 Procedimientos de Emergencia Virtual
 - **Parada de Emergencia:** Comando inmediato via PTC
 - **Evacuación:** Procedimientos virtuales de evacuación
-- **Comunicación de Emergencia:** Enlaces TETRA + RED TETRA (Misión Crítica)
+- **Comunicación de Emergencia:** Enlaces TETRA + Red Vital IP / TETRA
 - **Coordinación:** Integración con servicios de emergencia
 
 ### 7.2 Mantenimiento Virtual
@@ -324,13 +324,13 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 - **CTC-PTC:** Integración directa sin Servidor PTC Central
 - **CTC-ENCE:** Integración con enclavamientos
 - **CTC-EOT:** Integración con End of Train
-- **Comunicaciones:** TETRA + RED TETRA (Misión Crítica)
+- **Comunicaciones:** TETRA + Red Vital IP / TETRA
 
 #### 8.2.2 Pruebas de Rendimiento Virtual
 - **Latencia:** < 100ms CTC-PTC
 - **Disponibilidad:** 99.95% según AT4
 - **Capacidad:** 15 trenes simultáneos
-- **Redundancia:** TETRA + RED TETRA (Misión Crítica)
+- **Redundancia:** TETRA + Red Vital IP / TETRA
 
 ### 8.3 Validación de Seguridad Virtual
 
@@ -423,7 +423,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 - **TOTAL ELIMINAR:** -$64,000,000,000 COP
 
 ### 13.2 Implementaciones Nuevas (Faltante)
-- **RED TETRA (Misión Crítica):** +$3,484,000,000 COP
+- **Red Vital IP / TETRA:** +$3,484,000,000 COP
 - **EOT:** +$520,000,000 COP
 - **ENCE:** +$6,020,000,000 COP
 - **Desvíos:** +$3,783,000,000 COP
@@ -445,7 +445,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 - **V.2_CTC_Detalle v2.0:** ✅ Actualizado - CTC virtual centralizado
 
 ### 14.2 Documentos Dependientes (Por Actualizar)
-- **V.3_Sistemas_Comunicacion_Detalle_v1.0.md** ⏳ (RED TETRA (Misión Crítica) agregado)
+- **V.3_Sistemas_Comunicacion_Detalle_v1.0.md** ⏳ (Red Vital IP / TETRA agregado)
 
 ---
 
@@ -466,7 +466,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 
 **Este documento es VIVO y debe actualizarse conforme se complete la corrección documental masiva.**
 
-**Próximo paso:** Actualizar V.3_Sistemas_Comunicacion_Detalle_v1.0.md (RED TETRA (Misión Crítica) agregado)
+**Próximo paso:** Actualizar V.3_Sistemas_Comunicacion_Detalle_v1.0.md (Red Vital IP / TETRA agregado)
 
 ---
 

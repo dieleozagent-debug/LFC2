@@ -23,7 +23,7 @@
 - ⚠️ `Plan_Pruebas.md` - Secuencia comisionamiento INDEFINIDA
 
 **Alcance afectado:**
-- 🟡 Sistemas embarcados (PTC, TETRA, RED TETRA (Misión Crítica))
+- 🟡 Sistemas embarcados (PTC, TETRA, Red Vital IP / TETRA)
 - 🟡 Secuencia de pruebas (no se sabe cuándo habrá locomotoras)
 - 🟡 Cronograma instalación embarcados
 
@@ -51,7 +51,7 @@
 1. ✅ **Diseño estándar sistemas embarcados**
    - Especificaciones PTC embarcado
    - Especificaciones TETRA embarcado
-   - Especificaciones RED TETRA (Misión Crítica) embarcado
+   - Especificaciones Red Vital IP / TETRA embarcado
    - Manual instalación por locomotora
 
 2. ✅ **Secuencia de comisionamiento ADAPTABLE**
@@ -202,7 +202,7 @@ Plazo respuesta: 45 días
 
 SOLICITUD:
 Cronograma de entrega escalonada de 15 locomotoras para
-equipamiento con sistemas embarcados (PTC, TETRA, RED TETRA (Misión Crítica)).
+equipamiento con sistemas embarcados (PTC, TETRA, Red Vital IP / TETRA).
 
 INFORMACIÓN REQUERIDA:
 1. Fecha entrega locomotora piloto

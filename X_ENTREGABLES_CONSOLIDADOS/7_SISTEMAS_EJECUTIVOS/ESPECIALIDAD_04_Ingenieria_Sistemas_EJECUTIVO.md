@@ -34,7 +34,7 @@ La Ingeniería de Sistemas es el **"sistema nervioso"** del ferrocarril que inte
 ### ¿Por qué 25 interfaces críticas?
 **Justificación de Interfaces:**
 - **CTC-PTC:** 5 interfaces para control automático de trenes
-- **TETRA-RED TETRA (Misión Crítica):** 4 interfaces para comunicaciones redundantes
+- **TETRA-Red Vital IP / TETRA:** 4 interfaces para comunicaciones redundantes
 - **ITS-Seguridad:** 3 interfaces para monitoreo y control
 - **Material Rodante-PTC:** 4 interfaces para control embarcado
 - **Infraestructura:** 6 interfaces para coordinación
@@ -42,7 +42,7 @@ La Ingeniería de Sistemas es el **"sistema nervioso"** del ferrocarril que inte
 
 ### ¿Por qué 15 protocolos de interoperabilidad?
 **Justificación de Protocolos:**
-- **FRA/AREMA 920-2:** Comunicaciones RED TETRA (Misión Crítica) estándar internacional
+- **FRA/AREMA 920-2:** Comunicaciones Red Vital IP / TETRA estándar internacional
 - **FRA/AREMA 438:** Señalización ferroviaria compatible con FENOCO
 - **FRA/AREMA 930:** Sistemas de señalización interoperables
 - **FRA/AREMA 950:** Control de tráfico coordinado

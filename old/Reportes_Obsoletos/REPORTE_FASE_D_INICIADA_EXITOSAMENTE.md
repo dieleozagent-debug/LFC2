@@ -122,7 +122,7 @@ Como Administrador Contractual EPC, confirmo que se ha iniciado exitosamente la 
 - **Servidor PTC Central:** 2 unidades Siemens SIMIS W
 - **Punto de referencia virtuals Virtual Balise (GNSS):** 356 unidades cada 500m
 - **Equipos embarcados:** 40 unidades TCR por tren
-- **Comunicación RED TETRA (Misión Crítica):** 100% cobertura
+- **Comunicación Red Vital IP / TETRA:** 100% cobertura
 
 #### **Sistema TETRA:**
 - **Estaciones base:** 7 unidades con cobertura 50 km

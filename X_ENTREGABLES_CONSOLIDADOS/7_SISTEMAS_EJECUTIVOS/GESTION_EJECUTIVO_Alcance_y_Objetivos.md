@@ -12,7 +12,7 @@ Este documento define el **"alcance y objetivos"** del proyecto APP La Dorada-Ch
 - **Inversión total:** $450,000 millones COP
 - **526.133 km corredor:** Longitud total del corredor ferroviario
 - **15 locomotoras:** Parque rodante para operación
-- **37 estaciones:** Telecomunicaciones TETRA/RED TETRA (Misión Crítica)
+- **37 estaciones:** Telecomunicaciones TETRA/Red Vital IP / TETRA
 - **5 estaciones ENCE:** Estaciones con enclavamientos
 - **30 años operación:** Vida útil del proyecto
 - **99.95% disponibilidad:** Sistemas críticos

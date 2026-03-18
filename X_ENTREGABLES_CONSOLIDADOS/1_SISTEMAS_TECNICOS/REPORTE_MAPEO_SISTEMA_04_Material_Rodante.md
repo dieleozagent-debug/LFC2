@@ -64,7 +64,7 @@
 #### **Ingeniería de Detalle:**
 23. **V.3.1_Material_Rodante_Detallado.md** - Material rodante detallado
 24. **V.X_Sistema_EOT_Detalle_v5.0.md** - Sistema EOT detalle
-25. **V.X_Sistema_RED TETRA (Misión Crítica)_Detalle_v5.0.md** - Sistema RED TETRA (Misión Crítica) detalle
+25. **V.X_Sistema_RED TETRA (Misión Crítica)_Detalle_v5.0.md** - Sistema Red Vital IP / TETRA detalle
 26. **V.4.1_Sistemas_Ferroviarios_Integrados_DETALLADO.md** - Sistemas ferroviarios integrados
 27. **V.5.1_Plan_Integracion_Sistemas_COMPLETO.md** - Plan integración sistemas
 28. **8_10_Sistema_de_comunicaciones_embarcados.md** - Sistema comunicaciones embarcados
@@ -189,7 +189,7 @@
 
 ### **2. Definir Sistemas Embarcados Integrados:**
 - Consolidar especificaciones PTC embarcado
-- Definir interfaces con TETRA, RED TETRA (Misión Crítica) y GPS
+- Definir interfaces con TETRA, Red Vital IP / TETRA y GPS
 - Establecer protocolos de interoperabilidad FENOCO
 
 ### **3. Consolidar Talleres de Mantenimiento:**

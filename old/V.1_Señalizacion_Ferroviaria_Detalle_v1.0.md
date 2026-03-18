@@ -73,7 +73,7 @@ Definir las especificaciones técnicas detalladas para la implementación del si
 
 ### 4.2 Señalización Móvil
 - **Punto de referencia virtuals Virtual Balise (GNSS)**
-- **Sistemas de radio (RED TETRA (Misión Crítica))**
+- **Sistemas de radio (Red Vital IP / TETRA)**
 - **Antenas de comunicación**
 - **Equipos embarcados**
 

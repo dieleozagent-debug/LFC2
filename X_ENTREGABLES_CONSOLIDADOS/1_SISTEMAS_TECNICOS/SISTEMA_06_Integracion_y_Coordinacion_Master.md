@@ -49,7 +49,7 @@
 
 #### **Criterios Técnicos Maestros Consolidados:**
 - **Interoperabilidad FENOCO:** Protocolos FRA/AREMA estándar para compatibilidad total con red ferroviaria nacional
-- **Interfaces de Sistemas:** Comunicación bidireccional entre CTC, ENCE, TETRA, RED TETRA (Misión Crítica), ITS, Material Rodante
+- **Interfaces de Sistemas:** Comunicación bidireccional entre CTC, ENCE, TETRA, Red Vital IP / TETRA, ITS, Material Rodante
 - **Coordinación Operacional:** Gestión integrada de tráfico, emergencias y mantenimiento
 - **Gestión de Dependencias:** Matriz de dependencias críticas con cronograma de integración por fases
 - **Protocolos de Integración:** FFFIS, FRA/AREMA 920-2, FRA/AREMA 438, FRA/AREMA 930, FRA/AREMA 950
@@ -86,7 +86,7 @@
 - **Gateway de Integración:** Conversión de protocolos entre sistemas
 - **Sistema de Monitoreo:** Supervisión integral de todos los sistemas
 - **Sistema de Control:** Coordinación centralizada desde CTC
-- **Interfaces de Comunicación:** TETRA + RED TETRA (Misión Crítica) + Fibra óptica
+- **Interfaces de Comunicación:** TETRA + Red Vital IP / TETRA + Fibra óptica
 - **Protocolos de Interoperabilidad:** FRA/AREMA estándar + FFFIS
 
 #### **Arquitectura de Interoperabilidad FENOCO:**
@@ -107,7 +107,7 @@
 - **Mantenibilidad:** Facilidad de mantenimiento y actualización
 
 #### **Estándares de Interoperabilidad:**
-- **FRA/AREMA 920-2:** RED TETRA (Misión Crítica) para comunicaciones ferroviarias
+- **FRA/AREMA 920-2:** Red Vital IP / TETRA para comunicaciones ferroviarias
 - **FRA/AREMA 438:** PTC Virtual (FRA 236) para control de trenes
 - **FRA/AREMA 930:** Interoperabilidad de sistemas de señalización
 - **FRA/AREMA 950:** Interoperabilidad de sistemas de control de tráfico
@@ -210,7 +210,7 @@
 
 | Protocolo | Estándar | Función | Estado |
 |:----------|:----------|:---------|:-------|
-| **FRA/AREMA 920-2** | RED TETRA (Misión Crítica) | Comunicaciones ferroviarias | ✅ Implementado |
+| **FRA/AREMA 920-2** | Red Vital IP / TETRA | Comunicaciones ferroviarias | ✅ Implementado |
 | **FRA/AREMA 438** | PTC Virtual (FRA 236) | Control de trenes | ✅ Implementado |
 | **FRA/AREMA 930** | Señalización | Interoperabilidad señalización | ✅ Implementado |
 | **FRA/AREMA 950** | Control tráfico | Interoperabilidad control | ✅ Implementado |
@@ -237,7 +237,7 @@
 
 #### **Sistemas de Comunicación Integrados:**
 - **TETRA Principal:** 37 estaciones con cobertura 100%
-- **RED TETRA (Misión Crítica) Redundante:** 37 estaciones colocalizadas
+- **Red Vital IP / TETRA Redundante:** 37 estaciones colocalizadas
 - **Fibra Óptica:** 526 km con doble anillo DWDM
 - **Interfaces:** Ethernet industrial con redundancia
 
@@ -253,7 +253,7 @@
 #### **Protocolos de Comunicación:**
 - **CTC-PTC:** FFFIS con seguridad EN 50159
 - **TETRA:** EN 300 392 estándar
-- **RED TETRA (Misión Crítica):** FRA/AREMA 920-2 estándar
+- **Red Vital IP / TETRA:** FRA/AREMA 920-2 estándar
 - **Fibra:** Ethernet Gigabit con redundancia
 - **FENOCO:** Protocolos FRA/AREMA para interoperabilidad
 
@@ -335,7 +335,7 @@
 
 #### **Sistemas de Comunicación ↔ Material Rodante:**
 - **TETRA:** Comunicación tren-tierra principal
-- **RED TETRA (Misión Crítica):** Comunicación tren-tierra redundante
+- **Red Vital IP / TETRA:** Comunicación tren-tierra redundante
 - **GPS/GNSS:** Posicionamiento preciso
 - **Event Recorder:** Registro de eventos
 - **Protocolo:** EN 300 392 + FRA/AREMA 920-2

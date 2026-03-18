@@ -192,7 +192,7 @@ Concesionario entregará documento "Compatibilidad MR" con gateway FRA/AREMA 918
 
 ---
 
-### **SOLICITUD 4: Clarificación Sistema RED TETRA (Misión Crítica)** 🟡 **MEDIA**
+### **SOLICITUD 4: Clarificación Sistema Red Vital IP / TETRA** 🟡 **MEDIA**
 
 **REF:** AT3 §8.4-8.5 (Comunicaciones y Radio)
 
@@ -200,20 +200,20 @@ Concesionario entregará documento "Compatibilidad MR" con gateway FRA/AREMA 918
 
 **AT3 §8.5 - Radio:**
 - Menciona normas **TETRA** (EN 300 xxx) detalladamente
-- ❌ **NO menciona RED TETRA (Misión Crítica)** (Global System for Mobile Communications - Railway)
+- ❌ **NO menciona Red Vital IP / TETRA** (Global System for Mobile Communications - Railway)
 
 **Base Datos WBS:**
-- Incluye ítems RED TETRA (Misión Crítica) (Capítulo 2 - Telecomunicaciones)
+- Incluye ítems Red Vital IP / TETRA (Capítulo 2 - Telecomunicaciones)
 
 **PROBLEMA:**
-- ⚠️ RED TETRA (Misión Crítica) en base datos pero NO en AT3
-- ¿RED TETRA (Misión Crítica) es obligatorio o es un error de la base datos?
+- ⚠️ Red Vital IP / TETRA en base datos pero NO en AT3
+- ¿Red Vital IP / TETRA es obligatorio o es un error de la base datos?
 
 **SOLICITUD FORMAL:**
 
-**¿Sistema RED TETRA (Misión Crítica) es parte del alcance contractual?**
-- Si SÍ → Actualizar AT3 con normas RED TETRA (Misión Crítica)
-- Si NO → Eliminar ítems RED TETRA (Misión Crítica) de WBS
+**¿Sistema Red Vital IP / TETRA es parte del alcance contractual?**
+- Si SÍ → Actualizar AT3 con normas Red Vital IP / TETRA
+- Si NO → Eliminar ítems Red Vital IP / TETRA de WBS
 
 **PLAZO RESPUESTA:** Mes 6 (15-Dic-2025)
 
@@ -263,7 +263,7 @@ Concesionario entregará documento "Compatibilidad MR" con gateway FRA/AREMA 918
 ### **Urgente (Respuesta Mes 6 - 60 días):**
 1. 🔴 Definir sistema control trenes (PTC/PTC VIRTUAL L2/CTC Adif/Híbrido)
 2. 🟠 Facilitar especificaciones FENOCO para doc compatibilidad
-3. 🟡 Clarificar si RED TETRA (Misión Crítica) es parte del alcance
+3. 🟡 Clarificar si Red Vital IP / TETRA es parte del alcance
 
 ### **Media (Respuesta Mes 5 - 45 días):**
 4. 🟡 Cronograma entrega Material Rodante (cantidad, fechas, responsable)

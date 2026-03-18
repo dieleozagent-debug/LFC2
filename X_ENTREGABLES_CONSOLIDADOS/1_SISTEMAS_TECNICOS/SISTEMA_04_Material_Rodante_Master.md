@@ -52,7 +52,7 @@
 #### **Criterios Técnicos Maestros Consolidados:**
 - **Locomotoras:** 15 unidades con PTC embarcado
 - **Sistema EOT:** 15 dispositivos End of Train
-- **Sistemas Embarcados:** PTC PTC Virtual (FRA 236), TETRA + RED TETRA (Misión Crítica), GPS/GNSS
+- **Sistemas Embarcados:** PTC PTC Virtual (FRA 236), TETRA + Red Vital IP / TETRA, GPS/GNSS
 - **Talleres:** Principal La Dorada + secundario Chiriguaná + talleres de línea
 - **Disponibilidad:** 99.95% para sistemas críticos según AT4
 
@@ -70,7 +70,7 @@
 
 #### **Sistemas Embarcados Integrados:**
 - **PTC PTC Virtual (FRA 236):** Control automático de trenes con redundancia
-- **Comunicaciones:** Radio TETRA + RED TETRA (Misión Crítica) dual para redundancia
+- **Comunicaciones:** Radio TETRA + Red Vital IP / TETRA dual para redundancia
 - **Posicionamiento:** GPS/GNSS para seguimiento en tiempo real
 - **Seguridad:** Event Recorder (Caja Negra) para registro de eventos
 - **Monitoreo:** CCTV embarcado para seguridad operacional
@@ -104,7 +104,7 @@
 - **Potencia:** 3,000 kW con tracción distribuida
 - **Velocidad:** 120 km/h máxima, 80 km/h comercial
 - **Peso:** 120 toneladas por locomotora
-- **Sistemas:** PTC embarcado, TETRA + RED TETRA (Misión Crítica), GPS, Event Recorder
+- **Sistemas:** PTC embarcado, TETRA + Red Vital IP / TETRA, GPS, Event Recorder
 
 #### **Vagones de Carga:**
 - **Plataformas Operativas:** 40 unidades (50 ton carga, 20 ton tara, 14m longitud)
@@ -149,7 +149,7 @@
 | Componente | Especificación | Cantidad | Observaciones |
 |:-----------|:---------------|:--------:|:--------------|
 | **Computadora Principal** | Siemens S7-400, SIL 4 | 2 por locomotora | Redundancia 2oo3 |
-| **Módulo RED TETRA (Misión Crítica)** | Siemens RED TETRA (Misión Crítica) | 2 por locomotora | Comunicación Servidor PTC Central |
+| **Módulo Red Vital IP / TETRA** | Siemens Red Vital IP / TETRA | 2 por locomotora | Comunicación Servidor PTC Central |
 | **Antena Virtual Balise (GNSS)** | FRA/AREMA estándar | 4 por locomotora | Lectura punto de referencia virtuals |
 | **Pantalla Conductor** | TFT 12" | 2 por locomotora | DMI SIL 3 |
 | **UPS Embarcado** | 24V DC | 2 por locomotora | Respaldo energía |
@@ -159,7 +159,7 @@
 | Componente | Especificación | Cantidad | Observaciones |
 |:-----------|:---------------|:--------:|:--------------|
 | **Radio TETRA** | 400 MHz, 25W | 15 unidades | Comunicación principal |
-| **Radio RED TETRA (Misión Crítica)** | 900 MHz | 15 unidades | Redundancia TETRA |
+| **Radio Red Vital IP / TETRA** | 900 MHz | 15 unidades | Redundancia TETRA |
 | **GPS/GNSS** | Multi-constelación | 15 unidades | Posicionamiento preciso |
 | **Event Recorder** | Caja negra | 15 unidades | Registro eventos |
 | **CCTV Embarcado** | IP, 1080p | 15 unidades | Seguridad operacional |
@@ -222,7 +222,7 @@
 #### **PTC PTC Virtual (FRA 236):**
 - **Estándar:** EN 50128 (SIL 4)
 - **Funcionalidades:** Control de velocidad, autorización de movimiento, vigilancia de tren
-- **Interfaces:** CTC, Virtual Balise (GNSS), RED TETRA (Misión Crítica)
+- **Interfaces:** CTC, Virtual Balise (GNSS), Red Vital IP / TETRA
 - **Actualización:** Over-the-air (OTA)
 
 #### **Módulos de Software Embarcado:**
@@ -296,7 +296,7 @@
 - **Protocolo:** PTC Virtual (FRA 236) estándar FRA/AREMA
 
 #### **Sistemas Embarcados ↔ CCO:**
-- **Comunicaciones:** Radio TETRA + RED TETRA (Misión Crítica) para comunicación voz/datos
+- **Comunicaciones:** Radio TETRA + Red Vital IP / TETRA para comunicación voz/datos
 - **Monitoreo:** CCTV embarcado para supervisión visual
 - **Datos:** Transmisión de telemetría y diagnósticos
 - **Control:** Posibilidad de control remoto en emergencias
@@ -304,12 +304,12 @@
 
 ### **7.2 Interfaces con Sistemas de Comunicaciones**
 
-#### **TETRA/RED TETRA (Misión Crítica):**
+#### **TETRA/Red Vital IP / TETRA:**
 - **Material Rodante:** Comunicación tren-tierra para operación
 - **Emergencias:** Canales de emergencia y coordinación
 - **Datos:** Transmisión de telemetría y diagnósticos
 - **Interoperabilidad:** Comunicación con sistemas FENOCO
-- **Protocolo:** TETRA estándar + RED TETRA (Misión Crítica) FRA/AREMA
+- **Protocolo:** TETRA estándar + Red Vital IP / TETRA FRA/AREMA
 
 #### **Fibra Óptica:**
 - **Datos de Tren:** Transmisión de información de sistemas embarcados
@@ -353,7 +353,7 @@
 |:---------------|:----------------|:--------------|:----------|:-------|
 | **PTC Embarcado** | **CTC** | Control/Comunicación | PTC Virtual (FRA 236) | ✅ Implementado |
 | **Material Rodante** | **TETRA** | Comunicación | TETRA estándar | ✅ Implementado |
-| **Material Rodante** | **RED TETRA (Misión Crítica)** | Comunicación | RED TETRA (Misión Crítica) FRA/AREMA | ✅ Implementado |
+| **Material Rodante** | **Red Vital IP / TETRA** | Comunicación | Red Vital IP / TETRA FRA/AREMA | ✅ Implementado |
 | **Sistemas Embarcados** | **CCO** | Monitoreo/Control | IP + Protocolos ferroviarios | ✅ Implementado |
 | **EOT** | **PTC** | Monitoreo | Radio comunicación | ✅ Implementado |
 | **Material Rodante** | **SICC** | Reportes | REST API | ✅ Implementado |
@@ -398,7 +398,7 @@
 ### **9.4 Documentos de Ingeniería de Detalle**
 - `V.3.1_Material_Rodante_Detallado.md` - Material rodante detallado
 - `V.X_Sistema_EOT_Detalle_v5.0.md` - Sistema EOT detalle
-- `V.X_Sistema_RED TETRA (Misión Crítica)_Detalle_v5.0.md` - Sistema RED TETRA (Misión Crítica) detalle
+- `V.X_Sistema_RED TETRA (Misión Crítica)_Detalle_v5.0.md` - Sistema Red Vital IP / TETRA detalle
 - `V.4.1_Sistemas_Ferroviarios_Integrados_DETALLADO.md` - Sistemas ferroviarios integrados
 - `8_10_Sistema_de_comunicaciones_embarcados.md` - Sistema comunicaciones embarcados
 

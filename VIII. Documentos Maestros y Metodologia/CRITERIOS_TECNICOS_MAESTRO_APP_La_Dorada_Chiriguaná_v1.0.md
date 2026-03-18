@@ -362,7 +362,7 @@ Referencias cruzadas:
 | Métrica | Valor Objetivo | Estado Actual |
 |---------|----------------|---------------|
 | **Cobertura TETRA** | 100% corredor | ✅ 37 estaciones (15-20% solapamiento) |
-| **Redundancia** | TETRA + RED TETRA (Misión Crítica) | ✅ Implementado |
+| **Redundancia** | TETRA + Red Vital IP / TETRA | ✅ Implementado |
 | **Disponibilidad** | 99.9% | ✅ UPS + Generadores |
 | **Señalización** | 100% virtual | ✅ CTC + PTC |
 
@@ -394,8 +394,8 @@ Referencias cruzadas:
 
 ---
 
-## 📡 **SISTEMA DE REDUNDANCIA SATELITAL (REEMPLAZO RED TETRA (Misión Crítica))**
-El sistema RED TETRA (Misión Crítica) ha sido eliminado de la arquitectura para optimizar el CAPEX. La redundancia de misión crítica se garantiza mediante:
+## 📡 **SISTEMA DE REDUNDANCIA SATELITAL (REEMPLAZO Red Vital IP / TETRA)**
+El sistema Red Vital IP / TETRA ha sido eliminado de la arquitectura para optimizar el CAPEX. La redundancia de misión crítica se garantiza mediante:
 - **TETRA** como radio principal.
 - **Fibra Óptica** como backbone.
 - **Enlace Satelital Transitorio (Starlink/Similar)** para activación temprana y zonas de sombra.
@@ -576,7 +576,7 @@ COMUNICACIÓN:
 - Protocolo: Inalámbrico dedicado
 - Frecuencia: Banda ISM 2.4 GHz
 - Alcance: Hasta 2 km (trenes largos)
-- Redundancia: Doble vía (TETRA + RED TETRA (Misión Crítica))
+- Redundancia: Doble vía (TETRA + Red Vital IP / TETRA)
 ```
 
 ---

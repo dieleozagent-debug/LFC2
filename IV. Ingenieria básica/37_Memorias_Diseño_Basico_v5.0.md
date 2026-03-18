@@ -16,16 +16,16 @@ Se adopta la arquitectura **PTC Virtual** (FRA 236 Subpart I). El diseño básic
 - **Localización:** Basada en reporte de OBC (vía GNSS/IMU) y validada por el EOT en cola.
 
 ### 1.2 Segmento Telecomunicaciones (Unificación TETRA)
-Se realiza una optimización radical del CAPEX eliminando la red RED TETRA (Misión Crítica). 
+Se realiza una optimización radical del CAPEX eliminando la red Red Vital IP / TETRA. 
 - **Backbone:** Unificación en red **TETRA** de misión crítica.
 - **Redundancia:** Implementada a nivel de hardware de radio y enlace de Fibra Óptica (Backbone IP).
 
 ---
 
-## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE PTC VIRTUAL/RED TETRA (Misión Crítica))
+## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE PTC VIRTUAL/Red Vital IP / TETRA)
 En cumplimiento del **Ciclo Inverso**, se han eliminado las siguientes memorias obsoletas:
 1.  ❌ **ELIMINADO:** Memorias de cálculo de Virtual Balise (GNSS)s (0 unidades).
-2.  ❌ **ELIMINADO:** Memorias de cobertura RED TETRA (Misión Crítica) (Sustituido por TETRA).
+2.  ❌ **ELIMINADO:** Memorias de cobertura Red Vital IP / TETRA (Sustituido por TETRA).
 3.  ❌ **ELIMINADO:** Protocolos FFFIS/UNISIG (Sustituido por **Vital IP**).
 4.  ❌ **ELIMINADO:** Menciones a Servidor PTC Central (Servidor PTC Central) europeo.
 

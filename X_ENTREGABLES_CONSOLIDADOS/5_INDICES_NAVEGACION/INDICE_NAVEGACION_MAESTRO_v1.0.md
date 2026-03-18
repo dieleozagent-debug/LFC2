@@ -116,7 +116,7 @@
 
 #### **Componentes:**
 - **TETRA:** 37 estaciones base
-- **RED TETRA (Misión Crítica):** 37 estaciones colocalizadas
+- **Red Vital IP / TETRA:** 37 estaciones colocalizadas
 - **Fibra Óptica:** 526 km con doble anillo
 - **Respaldo Satelital:** Sistemas de respaldo
 
@@ -272,7 +272,7 @@
 
 #### **Componentes:**
 - **Sistemas Integrados:** CTC, PTC, ENCE
-- **Comunicaciones:** TETRA, RED TETRA (Misión Crítica), fibra óptica
+- **Comunicaciones:** TETRA, Red Vital IP / TETRA, fibra óptica
 - **Monitoreo:** SCADA, HMI, alarmas
 - **Interfaces:** Protocolos de comunicación
 

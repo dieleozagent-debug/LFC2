@@ -51,7 +51,7 @@ Este documento detalla la ingeniería del Centro de Control de Tráfico (CTC) pa
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
 │  │  Interface  │  │  Interface  │  │  Interface  │         │
 │  │    PTC     │  │    SCADA    │  │  Comunicación│         │
-│  │  (FFFIS)    │  │   (OPC UA)  │  │   (RED TETRA (Misión Crítica))   │         │
+│  │  (FFFIS)    │  │   (OPC UA)  │  │   (Red Vital IP / TETRA)   │         │
 │  └─────────────┘  └─────────────┘  └─────────────┘         │
 └─────────────────────────────────────────────────────────────┘
 ```
@@ -120,7 +120,7 @@ Este documento detalla la ingeniería del Centro de Control de Tráfico (CTC) pa
 #### 3.2.3 Interfaces
 - **PTC Interface:** FFFIS v2.1
 - **SCADA Interface:** OPC UA v1.04
-- **Comunicación:** RED TETRA (Misión Crítica) v8.0
+- **Comunicación:** Red Vital IP / TETRA v8.0
 
 ---
 
@@ -241,7 +241,7 @@ Este documento detalla la ingeniería del Centro de Control de Tráfico (CTC) pa
 
 ### 6.2 Comunicaciones Externas
 
-#### 6.2.1 RED TETRA (Misión Crítica)
+#### 6.2.1 Red Vital IP / TETRA
 - **Cobertura:** 146 km de vía
 - **Capacidad:** 24 trenes simultáneos
 - **Latencia:** < 500 ms

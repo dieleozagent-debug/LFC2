@@ -45,21 +45,21 @@ Este documento consolida información de las siguientes fuentes:
 
 **Obligaciones contractuales específicas:**
 - **AT1 (Alcance):** Sistemas de telecomunicaciones integrales con redundancia
-- **AT3 (Especificaciones):** TETRA + RED TETRA (Misión Crítica) + Fibra óptica según estándares
+- **AT3 (Especificaciones):** TETRA + Red Vital IP / TETRA + Fibra óptica según estándares
 - **AT5 (Interferencias):** Gestión de interferencias y coordinación con ANE
-- **AT7 (Predial):** Ubicación de 37 torres TETRA/RED TETRA (Misión Crítica) colocalizadas
+- **AT7 (Predial):** Ubicación de 37 torres TETRA/Red Vital IP / TETRA colocalizadas
 - **AT8 (Operaciones):** Procedimientos operacionales integrados
 
 **Criterios de aceptación:**
 - Sistema TETRA con 37 estaciones base
-- Sistema RED TETRA (Misión Crítica) con 37 estaciones colocalizadas
+- Sistema Red Vital IP / TETRA con 37 estaciones colocalizadas
 - Red de fibra óptica de 526 km con topología de anillo
 - Redundancia de comunicaciones con respaldo satelital
-- Disponibilidad 99.5% para TETRA y 99.95% para RED TETRA (Misión Crítica)
+- Disponibilidad 99.5% para TETRA y 99.95% para Red Vital IP / TETRA
 
 **Indicadores de desempeño:**
 - Cobertura TETRA: 100% del corredor
-- Cobertura RED TETRA (Misión Crítica): 100% del corredor
+- Cobertura Red Vital IP / TETRA: 100% del corredor
 - Disponibilidad fibra óptica: 99.95%
 - Tiempo de respuesta: < 500ms
 - Capacidad de datos: 1 Gbps por estación
@@ -73,9 +73,9 @@ Este documento consolida información de las siguientes fuentes:
 
 El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basada en:
 - **TETRA:** Radio digital troncalizado para operaciones ferroviarias
-- **RED TETRA (Misión Crítica):** Comunicaciones de datos críticos para PTC
+- **Red Vital IP / TETRA:** Comunicaciones de datos críticos para PTC
 - **Fibra Óptica:** Backbone de alta capacidad para todos los sistemas
-- **Colocalización:** TETRA y RED TETRA (Misión Crítica) en las mismas 37 torres
+- **Colocalización:** TETRA y Red Vital IP / TETRA en las mismas 37 torres
 - **Redundancia:** Sistemas de respaldo y respaldo satelital
 
 ### 2.2 Arquitectura Conceptual
@@ -90,7 +90,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
          │                       │                       │
          │                       │                       │
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   TETRA Network │    │   RED TETRA (Misión Crítica) Network │    │   ANE/FENOCO    │
+│   TETRA Network │    │   Red Vital IP / TETRA Network │    │   ANE/FENOCO    │
 │   37 Stations   │    │   37 Stations   │    │   Coordination  │
 │   (Colocated)   │    │   (Colocated)   │    │   Spectrum      │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
@@ -98,7 +98,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
          │                       │                       │
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
 │   Locomotives   │    │   Material      │    │   EOT Devices   │
-│   TETRA+RED TETRA (Misión Crítica)   │    │   Rodante       │    │   TETRA Radio   │
+│   TETRA+Red Vital IP / TETRA   │    │   Rodante       │    │   TETRA Radio   │
 │   Embarcados    │    │   Comms         │    │   Integration   │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
@@ -106,7 +106,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 ### 2.3 Criterios de Diseño Iniciales
 **Criterios establecidos en fase conceptual**
 
-- **Redundancia Dual:** TETRA + RED TETRA (Misión Crítica) para máxima confiabilidad
+- **Redundancia Dual:** TETRA + Red Vital IP / TETRA para máxima confiabilidad
 - **Colocalización:** Mismas torres para optimización de costos
 - **Fibra Óptica:** Backbone de alta capacidad para todos los sistemas
 - **Cobertura 100%:** Garantizada en todo el corredor ferroviario
@@ -118,8 +118,8 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 | Alternativa | Descripción | Decisión | Justificación |
 |:------------|:------------|:---------|:--------------|
 | **Solo TETRA** | Sistema único TETRA | ❌ Rechazada | Falta redundancia crítica |
-| **TETRA + RED TETRA (Misión Crítica)** | Sistemas redundantes | ✅ Seleccionada | Redundancia y especialización |
-| **Solo RED TETRA (Misión Crítica)** | Sistema único RED TETRA (Misión Crítica) | ❌ Rechazada | Limitaciones operacionales |
+| **TETRA + Red Vital IP / TETRA** | Sistemas redundantes | ✅ Seleccionada | Redundancia y especialización |
+| **Solo Red Vital IP / TETRA** | Sistema único Red Vital IP / TETRA | ❌ Rechazada | Limitaciones operacionales |
 | **Fibra + Radio** | Híbrido fibra/radio | ✅ Seleccionada | Óptimo costo/beneficio |
 
 ---
@@ -136,7 +136,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 - **Radios Portátiles:** 80 unidades para personal
 - **Consolas Despacho:** 3 unidades en CCO
 
-**Sistema RED TETRA (Misión Crítica):**
+**Sistema Red Vital IP / TETRA:**
 - **37 Estaciones Base:** Colocalizadas con TETRA
 - **Redundancia:** Sistema de respaldo automático
 - **Capacidad:** 1 Gbps por estación
@@ -154,10 +154,10 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 | Componente | Especificación | Cantidad | Ubicación |
 |:-----------|:---------------|:---------|:----------|
 | **TETRA** | Radio digital troncalizado | 37 estaciones | Torres colocalizadas |
-| **RED TETRA (Misión Crítica)** | Red de datos críticos | 37 estaciones | Torres colocalizadas |
+| **Red Vital IP / TETRA** | Red de datos críticos | 37 estaciones | Torres colocalizadas |
 | **Fibra Óptica** | Backbone de alta capacidad | 526 km | Corredor ferroviario |
 | **Torres** | Estructuras 40m altura | 37 torres | Ubicaciones estratégicas |
-| **Radios Embarcados** | TETRA + RED TETRA (Misión Crítica) | 30 unidades | Locomotoras |
+| **Radios Embarcados** | TETRA + Red Vital IP / TETRA | 30 unidades | Locomotoras |
 
 ### 3.3 Memorias de Cálculo
 **Cálculos y dimensionamientos de IV/**
@@ -166,7 +166,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 - Radio de cobertura: 15 km por estación
 - Solapamiento: 20% entre estaciones
 - Cobertura total: 100% del corredor
-- **Cobertura RED TETRA (Misión Crítica):** Idéntica a TETRA (colocalización)
+- **Cobertura Red Vital IP / TETRA:** Idéntica a TETRA (colocalización)
 
 **Cálculo de Capacidad Fibra Óptica:**
 - Capacidad por fibra: 100 Gbps
@@ -199,8 +199,8 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 - Pruebas de integración
 - Manuales de operación
 
-**V.X - Sistema RED TETRA (Misión Crítica) Detalle v5.0:**
-- 37 estaciones RED TETRA (Misión Crítica) colocalizadas
+**V.X - Sistema Red Vital IP / TETRA Detalle v5.0:**
+- 37 estaciones Red Vital IP / TETRA colocalizadas
 - Interfaces con CTC y PTC
 - Protocolos de comunicación
 - Sistemas de redundancia
@@ -215,7 +215,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 ### 4.2 Planos y Esquemas
 **Referencia a planos si existen**
 
-- **Planos de Ubicación:** 37 torres TETRA/RED TETRA (Misión Crítica)
+- **Planos de Ubicación:** 37 torres TETRA/Red Vital IP / TETRA
 - **Planos de Fibra Óptica:** Recorrido 526 km
 - **Esquemas de Red:** Topología de anillo
 - **Planos de Instalación:** Equipos y cableado
@@ -229,7 +229,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 - Sistemas de alimentación UPS
 - Equipos de climatización
 
-**Hardware RED TETRA (Misión Crítica):**
+**Hardware Red Vital IP / TETRA:**
 - Estaciones base colocalizadas
 - Sistemas de control centralizado
 - Interfaces de red
@@ -278,7 +278,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 - Interfaces con CTC y sistemas embarcados
 - Funciones de prioridad y emergencia
 
-**RED TETRA (Misión Crítica):**
+**Red Vital IP / TETRA:**
 - Comunicación de datos críticos para PTC
 - Latencia < 500ms para aplicaciones críticas
 - Capacidad 1 Gbps por estación
@@ -298,35 +298,35 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 | Parámetro | Especificación | Método de Medición |
 |:----------|:---------------|:-------------------|
 | **Disponibilidad TETRA** | 99.5% | Monitoreo continuo |
-| **Disponibilidad RED TETRA (Misión Crítica)** | 99.95% | Monitoreo continuo |
+| **Disponibilidad Red Vital IP / TETRA** | 99.95% | Monitoreo continuo |
 | **Disponibilidad Fibra** | 99.95% | Monitoreo continuo |
 | **Cobertura TETRA** | 100% | Mediciones de campo |
-| **Cobertura RED TETRA (Misión Crítica)** | 100% | Mediciones de campo |
-| **Latencia RED TETRA (Misión Crítica)** | < 500ms | Pruebas de red |
+| **Cobertura Red Vital IP / TETRA** | 100% | Mediciones de campo |
+| **Latencia Red Vital IP / TETRA** | < 500ms | Pruebas de red |
 | **Capacidad Fibra** | 100 Gbps | Pruebas de throughput |
 
 ### 5.3 Especificaciones de Calidad
 **Estándares y normativa aplicable**
 
 - **FRA/AREMA 751-4:** Comunicaciones ferroviarias
-- **FRA/AREMA 751-5:** RED TETRA (Misión Crítica) para ferrocarriles
+- **FRA/AREMA 751-5:** Red Vital IP / TETRA para ferrocarriles
 - **IEC 61334:** Sistemas de telecomunicaciones
 - **ITU-T G.652:** Fibra óptica monomodo
 - **ETSI EN 300 392:** TETRA
-- **ETSI EN 301 515:** RED TETRA (Misión Crítica)
+- **ETSI EN 301 515:** Red Vital IP / TETRA
 
 ### 5.4 Pruebas y Comisionamiento
 **FAT, SAT, procedimientos de prueba**
 
 **FAT (Factory Acceptance Test):**
 - Pruebas de funcionalidad TETRA
-- Pruebas de funcionalidad RED TETRA (Misión Crítica)
+- Pruebas de funcionalidad Red Vital IP / TETRA
 - Pruebas de capacidad fibra óptica
 - Pruebas de integración
 
 **SAT (Site Acceptance Test):**
 - Pruebas de cobertura TETRA
-- Pruebas de cobertura RED TETRA (Misión Crítica)
+- Pruebas de cobertura Red Vital IP / TETRA
 - Pruebas de continuidad fibra
 - Pruebas de integración con CTC
 
@@ -338,7 +338,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 **Operación en condiciones normales**
 
 **Inicio de Operación Diaria:**
-1. Verificación del estado de redes TETRA/RED TETRA (Misión Crítica)
+1. Verificación del estado de redes TETRA/Red Vital IP / TETRA
 2. Monitoreo de la red de fibra óptica
 3. Verificación de cobertura
 4. Activación de sistemas de respaldo
@@ -353,7 +353,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 **Operación en condiciones anormales**
 
 **Fallo de Red TETRA:**
-1. Activación automática de RED TETRA (Misión Crítica)
+1. Activación automática de Red Vital IP / TETRA
 2. Notificación a operadores
 3. Procedimientos de respaldo
 4. Recuperación del sistema principal
@@ -427,8 +427,8 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 - Función: Comunicación voz y datos con CTC
 - Redundancia: Sistema redundante con 37 estaciones
 
-**Interface RED TETRA (Misión Crítica)-PTC:**
-- Protocolo: RED TETRA (Misión Crítica) Data Protocol
+**Interface Red Vital IP / TETRA-PTC:**
+- Protocolo: Red Vital IP / TETRA Data Protocol
 - Función: Comunicación de datos críticos
 - Redundancia: Red redundante con respaldo automático
 
@@ -446,7 +446,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 
 | Obligación Contractual | Entregable | Estado | Fecha |
 |:----------------------|:-----------|:-------|:------|
-| **AT1 - Telecomunicaciones** | TETRA + RED TETRA (Misión Crítica) + Fibra | ✅ | Enero 2025 |
+| **AT1 - Telecomunicaciones** | TETRA + Red Vital IP / TETRA + Fibra | ✅ | Enero 2025 |
 | **AT3 - Especificaciones** | Especificaciones técnicas | ✅ | Enero 2025 |
 | **AT5 - Interferencias** | Gestión de espectro | ✅ | Enero 2025 |
 | **AT7 - Predial** | 37 torres ubicadas | ✅ | Enero 2025 |
@@ -457,8 +457,8 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 
 | Riesgo | Probabilidad | Impacto | Mitigación | Responsable |
 |:-------|:-------------|:---------|:-----------|:------------|
-| **Fallo TETRA** | Media | Alto | Redundancia RED TETRA (Misión Crítica) | Telecomunicaciones |
-| **Fallo RED TETRA (Misión Crítica)** | Baja | Crítico | Redundancia TETRA | Telecomunicaciones |
+| **Fallo TETRA** | Media | Alto | Redundancia Red Vital IP / TETRA | Telecomunicaciones |
+| **Fallo Red Vital IP / TETRA** | Baja | Crítico | Redundancia TETRA | Telecomunicaciones |
 | **Fallo Fibra** | Baja | Alto | Anillo de respaldo | Telecomunicaciones |
 | **Interferencias** | Media | Medio | Coordinación ANE | Telecomunicaciones |
 
@@ -503,21 +503,21 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 
 **V. Ingeniería Detalle:**
 - V.3. Sistemas de Comunicación Detalle v5.0
-- V.X. Sistema RED TETRA (Misión Crítica) Detalle v5.0
+- V.X. Sistema Red Vital IP / TETRA Detalle v5.0
 - Contratos 8.4, 8.5, 8.6 (Telecomunicaciones)
 
 ### 9.3 Normativa Aplicable
 - FRA/AREMA 751-4 - Comunicaciones ferroviarias
-- FRA/AREMA 751-5 - RED TETRA (Misión Crítica) para ferrocarriles
+- FRA/AREMA 751-5 - Red Vital IP / TETRA para ferrocarriles
 - IEC 61334 - Sistemas de telecomunicaciones
 - ITU-T G.652 - Fibra óptica monomodo
 - ETSI EN 300 392 - TETRA
-- ETSI EN 301 515 - RED TETRA (Misión Crítica)
+- ETSI EN 301 515 - Red Vital IP / TETRA
 
 ### 9.4 Documentos Externos
 - Información de FENOCO (interoperabilidad)
 - Especificaciones de ANE (gestión de espectro)
-- Manuales de equipos TETRA/RED TETRA (Misión Crítica)
+- Manuales de equipos TETRA/Red Vital IP / TETRA
 - Estándares FRA/AREMA aplicables
 
 ---

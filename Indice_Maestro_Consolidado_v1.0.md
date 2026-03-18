@@ -27,7 +27,7 @@ Este repositorio ha sido purgado de cualquier tecnología obsoleta o propietaria
 
 ### **📁 FASE 6: OPERACIÓN Y MANTENIMIENTO**
 - [VI_Operacion_Mantenimiento_y_reversion.md](file:///home/administrador/docker/LFC2/VI.%20operacion%20y%20mantenimiento%20y%20reversion/VI_Operacion_Mantenimiento_y_reversion.md)
-- **Manuales:** CTC Virtual, Señalización Virtual, Telecomunicaciones (Purga RED TETRA (Misión Crítica)).
+- **Manuales:** CTC Virtual, Señalización Virtual, Telecomunicaciones (Purga Red Vital IP / TETRA).
 
 ### **📁 FASE 7: SOPORTE Y TRANSVERSALES**
 - [VII_Documentos_transversales.md](file:///home/administrador/docker/LFC2/VII.%20documentos%20transversales/VII_Documentos_transversales.md)
@@ -37,7 +37,7 @@ Este repositorio ha sido purgado de cualquier tecnología obsoleta o propietaria
 
 ## 📁 IX. ENTREGABLES CONSOLIDADOS ⭐ PRODUCTO FINAL
 - [README_ENTREGABLES_SANEADOS.md](file:///home/administrador/docker/LFC2/IX_ENTREGABLES/README_ENTREGABLES_SANEADOS.md)
-- **Estado:** ✅ **100% SOBERANO**. Libre de PTC VIRTUAL, PTC y RED TETRA (Misión Crítica).
+- **Estado:** ✅ **100% SOBERANO**. Libre de PTC VIRTUAL, PTC y Red Vital IP / TETRA.
 
 ---
 

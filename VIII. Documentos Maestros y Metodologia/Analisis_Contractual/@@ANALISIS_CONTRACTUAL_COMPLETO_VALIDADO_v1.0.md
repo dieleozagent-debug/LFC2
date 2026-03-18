@@ -170,7 +170,7 @@
 2. **Telecomunicaciones:**
    - Red TETRA 100% cobertura (normas EN 300 xxx)
    - Fibra Óptica 10 Gbps (UIT-T G.652)
-   - ⚠️ RED TETRA (Misión Crítica): NO mencionado explícitamente en AT3
+   - ⚠️ Red Vital IP / TETRA: NO mencionado explícitamente en AT3
 
 3. **ITS y Seguridad:**
    - 200 Cámaras CCTV
@@ -291,10 +291,10 @@
 
 ---
 
-### **6. RED TETRA (Misión Crítica): NO mencionado en AT3**
-- Base datos incluye RED TETRA (Misión Crítica)
+### **6. Red Vital IP / TETRA: NO mencionado en AT3**
+- Base datos incluye Red Vital IP / TETRA
 - AT3 solo menciona TETRA
-- **¿RED TETRA (Misión Crítica) es obligatorio?** ⏳
+- **¿Red Vital IP / TETRA es obligatorio?** ⏳
 - **Acción:** Clarificar con ANI
 
 ---
@@ -364,11 +364,11 @@ CRITICIDAD: 🟠 ALTA - Gateway sin specs
 PLAZO RESPUESTA: Mes 6 (15-Dic-2025)
 ```
 
-### **Oficio 4 - Clarificación RED TETRA (Misión Crítica):**
+### **Oficio 4 - Clarificación Red Vital IP / TETRA:**
 ```
-ASUNTO: Confirmación Sistema RED TETRA (Misión Crítica) (NO mencionado AT3)
+ASUNTO: Confirmación Sistema Red Vital IP / TETRA (NO mencionado AT3)
 REF: AT3 §8.4-8.5 - Solo menciona TETRA
-CRITICIDAD: 🟡 MEDIA - Base datos incluye RED TETRA (Misión Crítica)
+CRITICIDAD: 🟡 MEDIA - Base datos incluye Red Vital IP / TETRA
 PLAZO RESPUESTA: Mes 6
 ```
 

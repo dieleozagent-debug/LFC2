@@ -47,7 +47,7 @@ Como Administrador Contractual EPC, confirmo que se han resuelto exitosamente **
 
 #### **Especificaciones Técnicas Provisionales:**
 - **Arquitectura del sistema:** Servidor PTC Central + Virtual Balise (GNSS) + Equipos embarcados
-- **Infraestructura terrestre:** 356 punto de referencia virtuals, 8 estaciones base RED TETRA (Misión Crítica)
+- **Infraestructura terrestre:** 356 punto de referencia virtuals, 8 estaciones base Red Vital IP / TETRA
 - **Equipos embarcados:** TCR SIL 4, software conforme EN 50128
 - **Interfaces:** CTC-PTC, TETRA-PTC con protocolos estándar
 - **Pruebas:** Plan FAT/SAT completo con criterios de aceptación
@@ -76,7 +76,7 @@ Como Administrador Contractual EPC, confirmo que se han resuelto exitosamente **
 ### **3. ESTRATEGIA FENOCO (Interoperabilidad)**
 
 #### **Protocolos FRA/AREMA Implementados:**
-- **RED TETRA (Misión Crítica):** Conforme FRA/AREMA 920-2 con 100% cobertura
+- **Red Vital IP / TETRA:** Conforme FRA/AREMA 920-2 con 100% cobertura
 - **PTC Virtual (FRA 236):** Conforme FRA/AREMA 438 con certificación
 - **Interfaces:** FRA/AREMA 950 estándar para CTC-CTC
 - **Interoperabilidad:** FRA/AREMA 930 para gestión integrada
