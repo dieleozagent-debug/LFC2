@@ -260,8 +260,8 @@
     <main class="main-content">
         <header class="header">
             <div style="color: var(--accent); font-weight: 800; font-size: 0.8rem; letter-spacing: 5px; margin-bottom: 1rem;">SICC INTEGRATED ECOSYSTEM</div>
-            <h1 id="tower-title">LFC Control Tower</h1>
-            <p>Unidad Central de Procesamiento y Supervisión Técnica para la APP La Dorada-Chiriguaná. Soberanía tecnológica v6.0 mediante arquitectura de datos distribuida.</p>
+            <h1 id="tower-title">LFC Sovereign Tower</h1>
+            <p>Unidad Central de Procesamiento y Supervisión Técnica para la APP La Dorada-Chiriguaná. Soberanía tecnológica v6.3.2 mediante arquitectura de datos distribuida.</p>
         </header>
 
         <section class="metrics-grid">
@@ -282,7 +282,7 @@
             </div>
             <div class="metric-card">
                 <span class="metric-icon">📡</span>
-                <div class="metric-value">v6.0</div>
+                <div class="metric-value">v6.3.2</div>
                 <div class="metric-label">SICC Kernel Ver</div>
             </div>
         </section>
@@ -314,8 +314,8 @@
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             // Unify Terminology
-            if (window.LFC_TERMINOLOGY) {
-                document.getElementById('tower-title').textContent = `${window.LFC_TERMINOLOGY.PROJECT_NAME} Control Tower`;
+            if (window.LFC_TERMINOLOGY && window.LFC_TERMINOLOGY.PROJECT) {
+                document.getElementById('tower-title').textContent = `${window.LFC_TERMINOLOGY.PROJECT.NAME} Sovereign Tower`;
             }
 
             // Sync Data Items
