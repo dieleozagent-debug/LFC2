@@ -41,7 +41,7 @@
 
 | Ítem | Descripción | Esfuerzo | Costo Unitario | Costo Total | Observaciones |
 |:-----|:------------|:---------|:---------------|:------------|:--------------|
-| Ingeniería detalle | Diseño detallado del sistema | 500 h-h | $100/h | $50,000 | Especialista senior |
+| Ingeniería detalle | Diseno detallado del sistema | 500 h-h | $100/h | $50,000 | Especialista senior |
 | Instalación | Montaje e instalación física | 1,000 h-h | $80/h | $80,000 | Técnicos especializados |
 | Configuración | Configuración y parametrización | 300 h-h | $90/h | $27,000 | Ingeniero de sistemas |
 | Pruebas FAT/SAT | Pruebas en fábrica y sitio | 200 h-h | $100/h | $20,000 | Especialista en pruebas |

@@ -504,7 +504,7 @@ ENTREGABLES REQUERIDOS (Mes 6):
 
 ### **Riesgos Gestionables:**
 4. 🟡 Cantidades PAN → Contingencia ±10% incluida
-5. 🟡 Cronograma MR → Diseño adaptable preparado
+5. 🟡 Cronograma MR → Diseno adaptable preparado
 6. 🟠 Lead times (PTC, Fibra) → Ordenar post-M12, controlable
 
 ### **Estrategia Global:**

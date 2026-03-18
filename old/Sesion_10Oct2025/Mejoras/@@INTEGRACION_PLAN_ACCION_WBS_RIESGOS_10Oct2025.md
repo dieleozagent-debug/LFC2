@@ -309,7 +309,7 @@ start "IX. WBS y Planificacion\WBS_Analisis_Riesgos.html"
 
 ## 🎯 **CARACTERÍSTICAS DE LA SECCIÓN PLAN DE ACCIÓN**
 
-### **Diseño Visual:**
+### **Diseno Visual:**
 - 🎨 **Fondo:** Azul claro (`#f0f8ff`)
 - 🎨 **Borde izquierdo:** Azul (`#1e90ff`, 4px)
 - 🎨 **Título:** "📋 Plan de Acción Inmediato" (azul, negrita)
@@ -347,7 +347,7 @@ especificaciones Siemens Trainguard. Agendar reunión técnica (15 días)
 ### **R-PAN-001:**
 ```
 📋 Plan de Acción Inmediato
-**ACCIÓN HOY:** Confirmar diseño modular de PANs. Validar asignación 
+**ACCIÓN HOY:** Confirmar diseno modular de PANs. Validar asignación 
 de contingencia $489M en presupuesto
 ```
 

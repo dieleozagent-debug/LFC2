@@ -44,7 +44,7 @@
 - ✅ Estudio de regularización aún NO finalizado
 - ✅ Cambios esperados: ±10% (experiencia proyectos similares)
 - ✅ EPC NO es responsable de definir cantidades (es del Concesionario)
-- ✅ Diseño modular permite ajustes sin re-diseñar
+- ✅ Diseno modular permite ajustes sin re-diseñar
 
 ---
 
@@ -53,29 +53,29 @@
 ### **Alcance EPC (CLARIFICADO):**
 
 **LO QUE SÍ incluye el EPC:**
-1. ✅ **Diseño estándar PAN** (especificaciones técnicas)
+1. ✅ **Diseno estándar PAN** (especificaciones técnicas)
    - Barreras automáticas tipo A/B/C
    - Sistemas de detección vehículos
    - Señalización LED activa
    - Integración con CTC
 
-2. ✅ **Diseño modular escalable**
+2. ✅ **Diseno modular escalable**
    - Template aplicable a cualquier PAN
    - Especificaciones por tipo (A/B/C)
    - Lista de materiales estándar
    - Procedimiento de instalación
 
-3. ✅ **Contingencia +10%** incluida en diseño
+3. ✅ **Contingencia +10%** incluida en diseno
    - Si cantidad sube a 160 PAN → Aplicar template
-   - Si cantidad baja a 130 PAN → Ajustar sin re-diseño
+   - Si cantidad baja a 130 PAN → Ajustar sin re-diseno
 
 **LO QUE NO incluye el EPC:**
-- ❌ **Diseño DETALLADO específico por PAN** (ubicación exacta, civil específico)
+- ❌ **Diseno DETALLADO específico por PAN** (ubicación exacta, civil específico)
   - Esto es responsabilidad: **EPC CIVIL** (especialidad civil)
   - Requiere: Topografía final + Estudio regularización
   - Plazo: Mes 10-16 (post-regularización)
 
-**NOTA:** EPC Sistemas entrega diseño estándar, EPC Civil hace diseño específico.
+**NOTA:** EPC Sistemas entrega diseno estándar, EPC Civil hace diseno específico.
 
 ---
 
@@ -89,7 +89,7 @@
 - Material: Pedir 10% adicional anticipado
 
 **Mitigación:**
-- ✅ Diseño modular (ya preparado)
+- ✅ Diseno modular (ya preparado)
 - ✅ Orden marco proveedores (pedido flexible)
 - ✅ Contingencia presupuestal 10% (ya incluida)
 
@@ -120,7 +120,7 @@
 - Material: Ajustar órdenes por tipo
 
 **Mitigación:**
-- ✅ Diseño por tipo ya preparado
+- ✅ Diseno por tipo ya preparado
 - ✅ Orden marco por tipo (flexible)
 
 ---
@@ -166,7 +166,7 @@ FECHA DECISIÓN: 15 días (23 de Octubre 2025)
 
 MIENTRAS TANTO:
 EPC trabajará con cantidades actuales (146 PAN) + contingencia 10%.
-Diseño modular permite ajustes sin re-diseño completo.
+Diseno modular permite ajustes sin re-diseno completo.
 ```
 
 ---
@@ -176,9 +176,9 @@ Diseño modular permite ajustes sin re-diseño completo.
 **Supuesto Formal:**
 
 > "El EPC asume cantidades contractuales actuales (146 PAN: 9C + 15B + 122 otros) 
-> con contingencia de diseño ±10% (130-160 PAN).
+> con contingencia de diseno ±10% (130-160 PAN).
 >
-> Diseño modular permite ajustar cantidades finales sin re-diseño.
+> Diseno modular permite ajustar cantidades finales sin re-diseno.
 >
 > Cantidades definitivas dependen de Estudio de Regularización 
 > (responsabilidad Concesionario, plazo Mes 6).
@@ -186,7 +186,7 @@ Diseño modular permite ajustes sin re-diseño completo.
 > Si variación >10%, se considera cambio de alcance sujeto a 
 > negociación bilateral."
 
-**Incluir en:** WBS, documentos de diseño, TdR EPC
+**Incluir en:** WBS, documentos de diseno, TdR EPC
 
 ---
 
@@ -204,9 +204,9 @@ Diseño modular permite ajustes sin re-diseño completo.
 
 | Cantidad Final | Variación | Impacto | Acción |
 |:--------------:|:---------:|:--------|:-------|
-| 130-143 PAN | -10% a -2% | Ahorro | Ajustar orden, sin re-diseño |
+| 130-143 PAN | -10% a -2% | Ahorro | Ajustar orden, sin re-diseno |
 | 144-146 PAN | ±1% | Sin cambio | Continuar según plan |
-| 147-160 PAN | +1% a +10% | Sobrecosto | Activar contingencia, sin re-diseño |
+| 147-160 PAN | +1% a +10% | Sobrecosto | Activar contingencia, sin re-diseno |
 | <130 PAN | >-10% | Ahorro mayor | Negociar ajuste alcance |
 | >160 PAN | >+10% | Sobrecosto mayor | **Cambio de alcance** → Negociar |
 
@@ -214,7 +214,7 @@ Diseño modular permite ajustes sin re-diseño completo.
 
 ## ✅ **MITIGACIÓN IMPLEMENTADA**
 
-### **Diseño Modular PAN:**
+### **Diseno Modular PAN:**
 
 **Template Tipo A (Alto Riesgo):**
 - 2 Barreras automáticas
@@ -226,7 +226,7 @@ Diseño modular permite ajustes sin re-diseño completo.
 **Template Tipo B (Medio Riesgo):**
 - 2 Barreras automáticas
 - 2 Cámaras CCTV
-- Señalización LED básica
+- Señalización LED basica
 - Detección 2 carriles
 - Integración CTC
 

@@ -34,7 +34,7 @@
    - "Diseñar 5 enclavamientos electrónicos y un sistema **PTC**"
 
 3. **Análisis A.3 (línea 58 - R-TEC-002):**
-   - "Indefinición especificaciones PTC en AT3 **bloquea diseño material rodante**"
+   - "Indefinición especificaciones PTC en AT3 **bloquea diseno material rodante**"
 
 **Evidencia contractual:**
 - ✅ PTC mencionado (sistema americano AAR)
@@ -141,7 +141,7 @@
 
 | Fase | Duración | Acumulado |
 |:-----|:--------:|:---------:|
-| Estudios y Diseños | **12 meses** | 12m |
+| Estudios y Disenos | **12 meses** | 12m |
 | Obras Civiles | **24 meses** | 36m |
 | Instalación Sistemas | **18 meses** | 54m |
 | Pruebas y Puesta en Servicio | **6 meses** | **60m** |
@@ -219,9 +219,9 @@
 
 | ID | Descripción | Fuente | Impacto | Ya en Matriz? |
 |:--:|:------------|:-------|:--------|:-------------:|
-| **R-TEC-001** | Indefinición PTC bloquea diseño MR | A.1 | Crítico | ✅ = R-AT3-01 |
+| **R-TEC-001** | Indefinición PTC bloquea diseno MR | A.1 | Crítico | ✅ = R-AT3-01 |
 | **R-TEC-002** | Indefinición specs PTC en AT3 | A.3 | Crítico | ✅ = R-AT3-01 |
-| **R-GES-004** | Desfase aprobación diseños vs cronograma | A.1 | Alto | ❌ NUEVO |
+| **R-GES-004** | Desfase aprobación disenos vs cronograma | A.1 | Alto | ❌ NUEVO |
 | **R-CON-001** | Ambigüedad medición disponibilidad PAN 100% | A.2 | Alto | ❌ NUEVO |
 | **R-OPE-001** | Falla conmutación failover redundancia | A.2 | Alto | ❌ NUEVO |
 | **R-CRO-001** | Cronograma 60m muy ajustado | A.3 | Alto | ✅ Ya gestionado |
@@ -303,7 +303,7 @@
 - Sistemas críticos: CTC, Señalización
 - Requiere redundancia N+1 obligatoria
 - UPS 4h autonomía mínimo
-- **Diseño validado en WBS** ✅
+- **Diseno validado en WBS** ✅
 
 ---
 

@@ -44,7 +44,7 @@ AT3 menciona sistemas diferentes sin definir cuál implementar:
 > "Diseñar 5 enclavamientos electrónicos y un sistema **PTC**"
 
 **Análisis A.3 - Riesgo R-TEC-002:**
-> "Indefinición de especificaciones PTC en AT3 bloquea diseño de material rodante"
+> "Indefinición de especificaciones PTC en AT3 bloquea diseno de material rodante"
 
 **PROBLEMA:**
 - Normas de 3 países diferentes (USA, España, Europa)
@@ -54,7 +54,7 @@ AT3 menciona sistemas diferentes sin definir cuál implementar:
 **IMPACTO:**
 - 🔴 60% de Capítulo 1 (Control y Señalización) **BLOQUEADO**
 - 🔴 Valor en riesgo: **$132,228M COP**
-- 🔴 Diseño de detalle **SUSPENDIDO**
+- 🔴 Diseno de detalle **SUSPENDIDO**
 - 🔴 Especificaciones de compra **NO SE PUEDEN ELABORAR**
 
 **SOLICITUD FORMAL:**
@@ -85,7 +85,7 @@ AT3 menciona sistemas diferentes sin definir cuál implementar:
 **60 días desde HOY**
 
 **PLAN B (si no hay respuesta Mes 6):**
-PMO asumirá normas mixtas con diseño de gateway interoperable según FRA/AREMA 918-4, documentando supuestos formales. Cliente asume riesgo de compatibilidad futura.
+PMO asumirá normas mixtas con diseno de gateway interoperable según FRA/AREMA 918-4, documentando supuestos formales. Cliente asume riesgo de compatibilidad futura.
 
 **Responsable PMO:** Gerencia Técnica + PMO  
 **Requiere Decisión:** ANI + Concesionario
@@ -242,7 +242,7 @@ Concesionario entregará documento "Compatibilidad MR" con gateway FRA/AREMA 918
 ## ✅ **CRONOGRAMA CONTRACTUAL vs PMO**
 
 ### **Cronograma Contractual (AT9):**
-- Estudios y Diseños: 12 meses
+- Estudios y Disenos: 12 meses
 - Obras Civiles: 24 meses
 - Instalación Sistemas: 18 meses
 - Pruebas: 6 meses
@@ -273,7 +273,7 @@ Concesionario entregará documento "Compatibilidad MR" con gateway FRA/AREMA 918
 ## 📋 **CONSECUENCIAS SI NO HAY RESPUESTA**
 
 ### **Si BLOCKER-001 no se resuelve Mes 6:**
-- ⏸️ Diseño de detalle Cap 1 permanece BLOQUEADO
+- ⏸️ Diseno de detalle Cap 1 permanece BLOQUEADO
 - 🔴 Retraso mínimo: 3 meses
 - 💰 Sobrecostos estimados: $2M-$7M USD
 - ⚠️ Riesgo incumplimiento contractual

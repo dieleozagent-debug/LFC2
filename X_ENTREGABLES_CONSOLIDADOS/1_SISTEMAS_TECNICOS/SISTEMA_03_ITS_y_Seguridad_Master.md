@@ -17,7 +17,7 @@
 |:-----|:-----------|:---------------------|:----------|
 | **Contractual** | AT1, AT3, AT4, AT6, AT8, Cl14.1 | ✅ Sincronizado | Crítica |
 | **Conceptual** | 30_Sistema_ITS_Integrado, 31_Sistema_CCTV_Integrado, 23_ListadoMaestro_v5.0 | ✅ Sincronizado | Alta |
-| **Básica** | 37_Memorias_Diseño_Basico_v5.0, 38_DiagramasArquitectura, 41_Interfaces_Sistemas | ✅ Sincronizado | Alta |
+| **Básica** | 37_Memorias_Diseno_Basico_v5.0, 38_DiagramasArquitectura, 41_Interfaces_Sistemas | ✅ Sincronizado | Alta |
 | **Detalle** | V.5_Sistemas_Seguridad_v5.0, 8_CCTV_Contrato_8_8_1, 9_Interfonía_8_8_2 | ✅ Sincronizado | Alta |
 | **Operación** | 6.4_Manual_OM_Seguridad_v5.0, 6.5_Manual_OM_Integrado_v5.0 | ✅ Sincronizado | Media |
 
@@ -82,7 +82,7 @@
 - **Sistemas de Alarmas:** Centrales de monitoreo y notificación
 - **Sistemas de Respaldo:** UPS y generadores para sistemas críticos
 
-### **2.2 Criterios de Diseño**
+### **2.2 Criterios de Diseno**
 
 #### **Disponibilidad y Redundancia:**
 - **CCTV:** 99.5% disponibilidad con redundancia N+1
@@ -90,7 +90,7 @@
 - **Seguridad:** 99.95% para sistemas críticos (SIL 4)
 
 #### **Integración Social (AT8):**
-- **Diseño Participativo:** Consulta con comunidades para ubicación de cámaras
+- **Diseno Participativo:** Consulta con comunidades para ubicación de cámaras
 - **Protocolo de Uso Ético:** Cumplimiento Ley 1581 de 2012
 - **Señalización Visible:** Notificación clara de áreas bajo videovigilancia
 
@@ -370,7 +370,7 @@
 - `36_Criterios_Ciberseguridad_docx_Protecci_n_de_sistemas_de_control.md` - Criterios ciberseguridad
 
 ### **9.3 Documentos de Ingeniería Básica**
-- `37_Memorias_Diseño_Basico_v5.0.md` - Memorias de diseño básico
+- `37_Memorias_Diseno_Basico_v5.0.md` - Memorias de diseno básico
 - `38. DiagramasArquitectura_sist_ctc-telco.md` - Diagramas de arquitectura
 - `41. Interfaces_Sistemas_MEJORADO.md` - Interfaces de sistemas
 

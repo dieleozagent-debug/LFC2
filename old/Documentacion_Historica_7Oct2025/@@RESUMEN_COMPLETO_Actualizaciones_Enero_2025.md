@@ -288,7 +288,7 @@ PROYECTO APP LA DORADA-CHIRIGUANÁ
 │   └── Validaciones/ ⭐ NUEVA
 │       └── [VAL-XXX-NNN de decisiones aprobadas]
 │
-├── IV. Ingenieria basica/ (Ingeniería básica)
+├── IV. Ingenieria basica/ (Ingeniería basica)
 ├── V. Ingenieria de detalle/ (Ingeniería de detalle)
 ├── VI. operacion y mantenimiento y reversion/ (O&M)
 ├── VII. Soporte Especializado/ (Documentos especializados)

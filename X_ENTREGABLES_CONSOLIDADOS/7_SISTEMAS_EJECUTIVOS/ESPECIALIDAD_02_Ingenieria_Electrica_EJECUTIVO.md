@@ -20,7 +20,7 @@ La Ingeniería Eléctrica es el **"sistema circulatorio"** del ferrocarril que p
 ### Hitos críticos
 | Fase | Fecha | Estado |
 |:-----|:------|:-------|
-| Diseño Conceptual | Enero 2025 | ✅ Completado |
+| Diseno Conceptual | Enero 2025 | ✅ Completado |
 | Especificaciones Eléctricas | Febrero 2025 | ⏳ En progreso |
 | Instalación UPS | Marzo 2025 | ❌ Pendiente |
 | Instalación Generador | Abril 2025 | ❌ Pendiente |
@@ -223,16 +223,16 @@ Los sistemas eléctricos operan 24/7 proporcionando energía eléctrica confiabl
 
 ## 📋 SUPUESTOS TÉCNICOS Y LIMITACIONES
 
-### Supuestos Críticos del Diseño
+### Supuestos Críticos del Diseno
 | Supuesto | Valor Asumido | Impacto si Cambia | Mitigación |
 |:---------|:--------------|:------------------|:-----------|
-| **Demanda máxima** | 800 kVA | Sobrecarga si aumenta | Diseño escalable |
+| **Demanda máxima** | 800 kVA | Sobrecarga si aumenta | Diseno escalable |
 | **Factor de potencia** | 0.95 | Penalizaciones si reduce | Corrección automática |
 | **Disponibilidad red** | 99.5% | Mayor uso de respaldo | Sistemas redundantes |
 | **Calidad de energía** | THD < 5% | Daños a equipos si aumenta | Filtros armónicos |
 | **Tiempo de respaldo** | 8 horas | Fallo si excede | Generador automático |
 
-### Limitaciones del Diseño
+### Limitaciones del Diseno
 - **Capacidad de red:** Limitada por suministro local
 - **Calidad de energía:** Dependiente de la red eléctrica
 - **Mantenimiento:** Requiere personal especializado

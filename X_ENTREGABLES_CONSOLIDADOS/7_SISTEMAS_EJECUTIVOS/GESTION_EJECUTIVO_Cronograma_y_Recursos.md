@@ -20,7 +20,7 @@ Este documento define el **"cronograma y recursos"** del proyecto APP La Dorada-
 ### Hitos críticos
 | Fase | Duración | Fecha Inicio | Fecha Fin | Estado |
 |:-----|:---------|:-------------|:----------|:-------|
-| Diseño Conceptual | 2 meses | Ene 2025 | Feb 2025 | ✅ Completado |
+| Diseno Conceptual | 2 meses | Ene 2025 | Feb 2025 | ✅ Completado |
 | Ingeniería Básica | 3 meses | Feb 2025 | Abr 2025 | ⏳ En progreso |
 | Ingeniería de Detalle | 4 meses | Abr 2025 | Jul 2025 | ❌ Pendiente |
 | Construcción | 24 meses | Jul 2025 | Jun 2027 | ❌ Pendiente |
@@ -34,7 +34,7 @@ Este documento define el **"cronograma y recursos"** del proyecto APP La Dorada-
 **Justificación de Cronograma:**
 | Fase | Duración | Justificación |
 |:-----|:---------|:--------------|
-| **Diseño Conceptual** | 2 meses | Definición de sistemas y arquitectura |
+| **Diseno Conceptual** | 2 meses | Definición de sistemas y arquitectura |
 | **Ingeniería Básica** | 3 meses | Especificaciones técnicas detalladas |
 | **Ingeniería de Detalle** | 4 meses | Planos y especificaciones de construcción |
 | **Construcción** | 24 meses | Obras civiles, instalaciones y sistemas |
@@ -56,7 +56,7 @@ Este documento define el **"cronograma y recursos"** del proyecto APP La Dorada-
 **Justificación de Personal:**
 | Categoría | Cantidad | % del Total | Justificación |
 |:----------|:---------|:------------|:--------------|
-| **Ingenieros** | 180 | 15% | Diseño y supervisión técnica |
+| **Ingenieros** | 180 | 15% | Diseno y supervisión técnica |
 | **Técnicos** | 360 | 30% | Supervisión de obra y sistemas |
 | **Operarios** | 540 | 45% | Construcción e instalación |
 | **Personal administrativo** | 120 | 10% | Gestión y administración |
@@ -226,7 +226,7 @@ La gestión de cronograma y recursos opera 24/7 coordinando todas las actividade
 
 ## 📋 SUPUESTOS TÉCNICOS Y LIMITACIONES
 
-### Supuestos Críticos del Diseño
+### Supuestos Críticos del Diseno
 | Supuesto | Valor Asumido | Impacto si Cambia | Mitigación |
 |:---------|:--------------|:------------------|:-----------|
 | **Disponibilidad de recursos** | 95% | Retrasos si reduce | Plan de contingencia |
@@ -234,7 +234,7 @@ La gestión de cronograma y recursos opera 24/7 coordinando todas las actividade
 | **Suministro de materiales** | Continuo | Retrasos si interrumpe | Proveedores alternativos |
 | **Personal especializado** | Disponible | Limitaciones si no disponible | Capacitación continua |
 
-### Limitaciones del Diseño
+### Limitaciones del Diseno
 - **Recursos:** Limitaciones de personal especializado
 - **Equipos:** Limitaciones de equipos especializados
 - **Materiales:** Limitaciones de suministro

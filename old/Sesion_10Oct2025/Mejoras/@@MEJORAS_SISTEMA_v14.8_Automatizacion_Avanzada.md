@@ -488,7 +488,7 @@ if ($ExecutarConAPI) {
 2. **Fallback automático es esencial:** Garantiza que el sistema funciona incluso sin intervención
 3. **Prompts personalizados son superiores:** Mejor que prompts genéricos
 4. **Separar análisis de ejecución:** Permite validar prompts antes de ejecutar
-5. **Diseño modular permite evolución:** v14.8 → v15.0 (API) → v16.0 (File Watcher)
+5. **Diseno modular permite evolución:** v14.8 → v15.0 (API) → v16.0 (File Watcher)
 
 ---
 

@@ -66,7 +66,7 @@ Beneficios:
 
 **Justificación:** Espaciamiento 300m según UIT-T + 88 nodos críticos
 
-**Fuente:** UIT-T G.652.D + Diseño OSP
+**Fuente:** UIT-T G.652.D + Diseno OSP
 
 **Normas aplicables:** UIT-T G.652.D (máx 500m)
 

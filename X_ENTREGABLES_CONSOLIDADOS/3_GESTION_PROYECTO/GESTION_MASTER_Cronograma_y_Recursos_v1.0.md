@@ -75,22 +75,22 @@
 | Actividad | Duración | Fecha Inicio | Fecha Fin | Estado | Responsable |
 |:----------|:---------|:-------------|:----------|:-------|:-------------|
 | Estudios previos | 6 meses | Ene 2024 | Jun 2024 | ✅ Completado | EPC General |
-| Diseño conceptual | 4 meses | Jul 2024 | Oct 2024 | ✅ Completado | EPC Sistemas |
+| Diseno conceptual | 4 meses | Jul 2024 | Oct 2024 | ✅ Completado | EPC Sistemas |
 | Aprobaciones | 2 meses | Nov 2024 | Dic 2024 | ✅ Completado | EPC Legal |
 | **Subtotal Fase A** | **12 meses** | **Ene 2024** | **Dic 2024** | **✅ Completado** | **100%** |
 
 #### **Fase B: Ingeniería Básica (Completada)**
 | Actividad | Duración | Fecha Inicio | Fecha Fin | Estado | Responsable |
 |:----------|:---------|:-------------|:----------|:-------|:-------------|
-| Especificaciones básicas | 3 meses | Jul 2024 | Sep 2024 | ✅ Completado | EPC Sistemas |
-| Memorias de diseño | 2 meses | Oct 2024 | Nov 2024 | ✅ Completado | EPC Sistemas |
+| Especificaciones basicas | 3 meses | Jul 2024 | Sep 2024 | ✅ Completado | EPC Sistemas |
+| Memorias de diseno | 2 meses | Oct 2024 | Nov 2024 | ✅ Completado | EPC Sistemas |
 | Aprobaciones técnicas | 1 mes | Dic 2024 | Dic 2024 | ✅ Completado | EPC Técnico |
 | **Subtotal Fase B** | **6 meses** | **Jul 2024** | **Dic 2024** | **✅ Completado** | **100%** |
 
 #### **Fase C: Ingeniería de Detalle (Completada)**
 | Actividad | Duración | Fecha Inicio | Fecha Fin | Estado | Responsable |
 |:----------|:---------|:-------------|:----------|:-------|:-------------|
-| Diseño detallado | 4 meses | Jul 2025 | Oct 2025 | ✅ Completado | EPC Sistemas |
+| Diseno detallado | 4 meses | Jul 2025 | Oct 2025 | ✅ Completado | EPC Sistemas |
 | Especificaciones técnicas | 3 meses | Nov 2025 | Ene 2026 | ✅ Completado | EPC Sistemas |
 | Planos de construcción | 2 meses | Feb 2026 | Mar 2026 | ✅ Completado | EPC Sistemas |
 | **Subtotal Fase C** | **9 meses** | **Jul 2025** | **Mar 2026** | **✅ Completado** | **100%** |
@@ -109,7 +109,7 @@
 | Hito | Fecha | Descripción | Estado | Impacto |
 |:-----|:------|:-------------|:-------|:---------|
 | **H1** | Dic 2024 | Aprobación estudios previos | ✅ Completado | Crítico |
-| **H2** | Dic 2024 | Aprobación ingeniería básica | ✅ Completado | Crítico |
+| **H2** | Dic 2024 | Aprobación ingeniería basica | ✅ Completado | Crítico |
 | **H3** | Mar 2026 | Aprobación ingeniería de detalle | ✅ Completado | Crítico |
 | **H4** | May 2027 | Comisionamiento sistemas | ❌ Pendiente | Crítico |
 | **H5** | Sep 2027 | Inicio operación comercial | ❌ Pendiente | Crítico |
@@ -118,8 +118,8 @@
 | Hito | Fecha | Descripción | Estado | Impacto |
 |:-----|:------|:-------------|:-------|:---------|
 | **HS1** | Jun 2024 | Finalización estudios previos | ✅ Completado | Alto |
-| **HS2** | Oct 2024 | Finalización diseño conceptual | ✅ Completado | Alto |
-| **HS3** | Sep 2025 | Finalización diseño detallado | ✅ Completado | Alto |
+| **HS2** | Oct 2024 | Finalización diseno conceptual | ✅ Completado | Alto |
+| **HS3** | Sep 2025 | Finalización diseno detallado | ✅ Completado | Alto |
 | **HS4** | Ene 2026 | Finalización especificaciones técnicas | ✅ Completado | Alto |
 | **HS5** | Mar 2027 | Finalización obras civiles | ❌ Pendiente | Alto |
 
@@ -355,14 +355,14 @@
 | Actividad | Criterio de Aceptación | Resultado | Estado |
 |:----------|:----------------------|:----------|:-------|
 | Estudios previos | 100% completos | 100% | ✅ Aprobado |
-| Diseño conceptual | Aprobación técnica | Aprobado | ✅ Aprobado |
+| Diseno conceptual | Aprobación técnica | Aprobado | ✅ Aprobado |
 | Aprobaciones | Todas las licencias | Todas obtenidas | ✅ Aprobado |
 
 #### **Fase B: Ingeniería Básica (Completada)**
 | Actividad | Criterio de Aceptación | Resultado | Estado |
 |:----------|:----------------------|:----------|:-------|
-| Especificaciones básicas | Cumplimiento estándares | 100% | ✅ Aprobado |
-| Memorias de diseño | Revisión técnica | Aprobado | ✅ Aprobado |
+| Especificaciones basicas | Cumplimiento estándares | 100% | ✅ Aprobado |
+| Memorias de diseno | Revisión técnica | Aprobado | ✅ Aprobado |
 | Aprobaciones técnicas | Validación autoridades | Aprobado | ✅ Aprobado |
 
 ---

@@ -55,7 +55,7 @@ Versión
 1. Marco contractual
 1.1 Fundamento contractual principal
 Contrato de Concesión No. 001 de 2025 - Capítulo VI "Obligaciones durante la Fase de Construcción"
-El Concesionario deberá ejecutar, a su costo y riesgo, la construcción, montaje e integración de la infraestructura, sistemas y equipos definidos en el contrato y sus apéndices técnicos, conforme a los estudios y diseños aprobados en la Etapa de Preconstrucción.
+El Concesionario deberá ejecutar, a su costo y riesgo, la construcción, montaje e integración de la infraestructura, sistemas y equipos definidos en el contrato y sus apéndices técnicos, conforme a los estudios y disenos aprobados en la Etapa de Preconstrucción.
 1.2 Marco normativo/contractual aplicable
 Obligaciones contractuales principales:
 Capítulo V, Sección 5.1 - Gestión del Riesgo de Desastres durante construcción
@@ -311,7 +311,7 @@ Control: Ventanas coordinadas con ESP/ductos, permisos previos
 Indicador: # interferencias resueltas vs identificadas
 Responsable: Gestión Interferencias EPC
 8.1.4 Incumplimiento de indicadores SICC
-Control: Diseño con redundancias y telemetría desde día 1 (Ap. 4 y Ap. 2)
+Control: Diseno con redundancias y telemetría desde día 1 (Ap. 4 y Ap. 2)
 Indicador: Evidencias SICC en tiempo real durante SAT
 Responsable: Jefe Sistemas EPC
 8.1.5 Penalidades por hitos incumplidos
@@ -366,7 +366,7 @@ AT6_Ambiental: Protocolos ICA y gestión ambiental en obra
 10. Cronograma de implementación sugerido
 10.1 Fase Previa (-30 días)
 Verificación condiciones precedentes
-Aprobación final ingeniería básica
+Aprobación final ingeniería basica
 Obtención permisos faltantes
 10.2 Construcción por UF (18-24 meses)
 Mes 1-3: Infraestructura civil y locales técnicos

@@ -6,7 +6,7 @@
 ## 1. MARCO CONTRACTUAL
 
 ### 1.1 Base Legal
-El diseño conceptual del Material Rodante y sus sistemas embarcados integra requisitos de:
+El diseno conceptual del Material Rodante y sus sistemas embarcados integra requisitos de:
 - **Cláusula 13.1 (Material Rodante):** Exige que el material rodante cuente con el equipamiento técnico embarcado (PTC, TETRA, GPS) necesario para la interoperabilidad.
 - **AT1 (Alcance):** Define el tipo de material rodante (locomotoras U18 o equivalentes), la maquinaria de mantenimiento y el Factor de Calidad asociado (Cap. V).
 - **AT2 (Operación y Mantenimiento):** Establece los requisitos de seguridad, el Reglamento de Operación (ROT) y los planes de mantenimiento en talleres (Cap. III, VI).
@@ -21,7 +21,7 @@ Este documento es crítico para la operación del corredor, ya que define las ca
     - `Cl. 13.1`, `AT1`, `AT2`, `AT4`: Fuentes primarias de requisitos.
     - `27_Sistema_TETRA_Integrado...md`: Define la red de radio con la que los equipos embarcados deben ser compatibles.
 - **Gobierna a:**
-    - `V. Ingenieria de detalle/12_Comunicaciones_embarcadas_Contrato_8_10.md`: El diseño de detalle se basa en los conceptos aquí definidos.
+    - `V. Ingenieria de detalle/12_Comunicaciones_embarcadas_Contrato_8_10.md`: El diseno de detalle se basa en los conceptos aquí definidos.
     - `20. AT10_CapacidadSurcos...md`: Las características de rendimiento del material rodante son una entrada clave para la simulación de capacidad.
 
 ---
@@ -39,7 +39,7 @@ Este análisis se fundamenta en la estructura de trabajo ya aprobada.
 ---
 
 ### 2.2 Documentos Dependientes (Bloqueados 🔴)
-El diseño detallado de los sistemas embarcados no puede finalizarse hasta que este concepto de integración sea validado.
+El diseno detallado de los sistemas embarcados no puede finalizarse hasta que este concepto de integración sea validado.
 
 | Documento | Dependencia |
 |---|---|
@@ -49,7 +49,7 @@ El diseño detallado de los sistemas embarcados no puede finalizarse hasta que e
 ### 2.3 Interfaces Críticas
 - **Material Rodante ↔ PTC:** Interfaz para el control positivo de trenes usando PTC Virtual (FRA 236) hasta AT3. **(Riesgo principal por bloqueo de AT3)**.
 - **Material Rodante ↔ TETRA:** Interfaz para comunicaciones de voz y datos de misión crítica.
-- **Material Rodante ↔ Mantenimiento (AT2):** El diseño debe facilitar el mantenimiento en los talleres definidos en AT1.
+- **Material Rodante ↔ Mantenimiento (AT2):** El diseno debe facilitar el mantenimiento en los talleres definidos en AT1.
 - **Material Rodante ↔ FENOCO:** Interoperabilidad con sistemas FENOCO según protocolos FRA/AREMA.
 
 ---
@@ -88,14 +88,14 @@ La siguiente matriz integra los requisitos de los diferentes apéndices en funci
 |---|---|---|:---:|
 | **Locomotoras U18 o Equivalentes** | AT1, Cap. 5.1 | Puesta a Punto de locomotoras existentes, incluyendo motor, chasis y sistemas de frenado AAR. | ✅ Definido |
 | **Equipamiento Técnico Embarcado** | Cl. 13.1 | Instalación del "Módulo Base" (TETRA, GPS, Event Recorder) y preparación para el "Módulo PTC".<br>- **PTC PTC Virtual (FRA 236) hasta AT3**<br>- **Disponibilidad 99.95% según AT4** | ⚠️ Condicionado |
-| **Interoperabilidad con FENOCO** | Cl. 13.2 | El diseño modular del PTC debe garantizar la compatibilidad futura con la red de FENOCO.<br>- **Protocolos FRA/AREMA para interoperabilidad** | 🔴 Bloqueado |
+| **Interoperabilidad con FENOCO** | Cl. 13.2 | El diseno modular del PTC debe garantizar la compatibilidad futura con la red de FENOCO.<br>- **Protocolos FRA/AREMA para interoperabilidad** | 🔴 Bloqueado |
 | **Seguridad en Operación** | AT2, Cap. 3.1.2 | Integración de sistemas de seguridad, como el "hombre muerto" y alarmas de cabina. | ✅ Definido |
 | **Disponibilidad del Material Rodante** | AT4, Cap. 3-6 | El plan de mantenimiento (AT2) debe estar diseñado para cumplir con los KPIs de disponibilidad de AT4. | 🔴 Bloqueado |
 | **Factor de Calidad (si aplica)** | AT1, Cap. 5.3 | Plan de Puesta a Punto de locomotora U18 adicional o suministro de una nueva, incluyendo PTC. | ⚠️ Condicionado |
 
 ### 4.2 Indicadores de Riesgo por Bloqueo AT3/AT4
 - **🟢 Verde (Proceder):** Puesta a Punto mecánica de locomotoras, instalación del "Módulo Base" de comunicaciones.
-- **🟡 Amarillo (Diseño Modular):** Diseño de la interfaz eléctrica y de datos para el futuro "Módulo PTC".
+- **🟡 Amarillo (Diseno Modular):** Diseno de la interfaz eléctrica y de datos para el futuro "Módulo PTC".
 - **🔴 Rojo (Bloqueado):** Adquisición e instalación de la unidad de control PTC. Desarrollo de los dashboards de KPIs de disponibilidad.
 
 ---
@@ -111,8 +111,8 @@ Este documento ha sido actualizado a la versión 4.0, estableciendo un **plan co
 
 ### 5.3 Criterios para Avance
 La aprobación de este documento conceptual permite:
-- **Desbloquear el Bloque de Trabajo 5.0 (Criterios de Diseño):** Al tener claros los requisitos de normatividad (AAR, FRA) y redundancia para el material rodante.
-- **Iniciar el Diseño Básico del Material Rodante:** Incluyendo los planos de instalación de los sistemas embarcados.
+- **Desbloquear el Bloque de Trabajo 5.0 (Criterios de Diseno):** Al tener claros los requisitos de normatividad (AAR, FRA) y redundancia para el material rodante.
+- **Iniciar el Diseno Básico del Material Rodante:** Incluyendo los planos de instalación de los sistemas embarcados.
 - **Avanzar en el Plan de Obras (AT9):** Detallar el cronograma de la Puesta a Punto del material rodante.
 
 ---

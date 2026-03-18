@@ -22,7 +22,7 @@ Documentar formalmente la función técnica y composición del ítem 1.1.106 "In
 ## ✅ DOCUMENTOS ACTUALIZADOS (LA COCINA - Carpetas I-VI)
 
 ### 1. **IV. INGENIERÍA BÁSICA**
-📁 `IV. Ingenieria básica/41. Interfaces_Sistemas_MEJORADO.md`
+📁 `IV. Ingenieria basica/41. Interfaces_Sistemas_MEJORADO.md`
 
 **Cambios aplicados:**
 - ✅ Agregada interfaz **IF-07** en Matriz de Interfaces (línea 39)

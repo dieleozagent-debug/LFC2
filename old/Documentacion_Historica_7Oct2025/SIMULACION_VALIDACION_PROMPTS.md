@@ -21,7 +21,7 @@
 | **Cajas de empalme** | **DT-FIBRA-001** | **V.3_Sistemas_Comunicacion_Detalle.md** | **Cantidades** | **Tabla 5.3, Línea 234** |
 | **Cajas de empalme** | **DT-FIBRA-001** | **WBS_Presupuestal_v2.0.md** | **Costos** | **Item 3.1.5** |
 | **Cajas de empalme** | **DT-FIBRA-001** | **IV/37_Memorias_Diseno_Basico.md** | **Especificaciones** | **Sección 4.2.3** |
-| **Cajas de empalme** | **DT-FIBRA-001** | **III/28_Sistema_FibraOptica_Integrado.md** | **Criterios diseño** | **Sección 2.2** |
+| **Cajas de empalme** | **DT-FIBRA-001** | **III/28_Sistema_FibraOptica_Integrado.md** | **Criterios diseno** | **Sección 2.2** |
 | **Cajas de empalme** | **DT-FIBRA-001** | **X/SISTEMA_02_Telecomunicaciones_Master.md** | **Consolidado** | **Sección 5.2.3** |
 
 **✅ VALIDACIÓN:** Matriz contiene información completa y específica
@@ -191,7 +191,7 @@ RESULTADO: Archivo actualizable ✅
 **Archivo 4: III/28_Sistema_FibraOptica_Integrado.md**
 ```
 ✅ Archivo existe
-✅ Puedo localizar Sección 2.2 (buscar "criterios diseño")
+✅ Puedo localizar Sección 2.2 (buscar "criterios diseno")
 ✅ Cambio criterio: "500m" → "1000m"
 ✅ Versión actualizable
 
@@ -247,7 +247,7 @@ REPORTE SIMULADO:
    - Sección 4.2.3 actualizada
 
 4. ✅ III/28_Sistema_FibraOptica_Integrado.md
-   - Criterio diseño actualizado
+   - Criterio diseno actualizado
    - Sección 2.2 modificada
 
 ## CARPETA X:

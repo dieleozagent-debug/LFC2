@@ -21,7 +21,7 @@ El Sistema de Integración y Coordinación es el **"director de orquesta"** del 
 ### Hitos críticos
 | Fase | Fecha | Estado |
 |:-----|:------|:-------|
-| Diseño Conceptual | Enero 2025 | ✅ Completado |
+| Diseno Conceptual | Enero 2025 | ✅ Completado |
 | Desarrollo Interfaces | Marzo 2025 | ⏳ En progreso |
 | Desarrollo Protocolos | Abril 2025 | ⏳ En progreso |
 | Comisionamiento | Mayo 2025 | ❌ Pendiente |

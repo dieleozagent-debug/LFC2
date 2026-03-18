@@ -18,7 +18,7 @@
 - **Fecha Actual:** Mes 4 (HOY)
 - **Ingeniería:** 4/12 meses (33% completado)
 - **Ingeniería Restante:** 8 meses
-- **Hito Crítico:** Mes 12 - Aprobación ANI de diseños finales
+- **Hito Crítico:** Mes 12 - Aprobación ANI de disenos finales
 
 ---
 
@@ -70,7 +70,7 @@
 1. **Mes 0-4** (COMPLETADO) ✅
    - Kick-off
    - Ingeniería conceptual
-   - Ingeniería básica iniciada
+   - Ingeniería basica iniciada
    
 2. **Mes 4-8** (EN CURSO) 🔄
    - Ingeniería de detalle Cap 1-3

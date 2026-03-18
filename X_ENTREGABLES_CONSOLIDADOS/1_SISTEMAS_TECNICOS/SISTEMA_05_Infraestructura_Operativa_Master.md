@@ -17,7 +17,7 @@
 |:-----|:-----------|:---------------------|:----------|
 | **Contractual** | AT1, AT2, AT4, AT8 | ✅ Sincronizado | Crítica |
 | **Conceptual** | 23_ListadoMaestro_v5.0, 25.1_WBS_v5.0 | ✅ Sincronizado | Alta |
-| **Básica** | 37_Memorias_Diseño_Basico_v5.0, 38_DiagramasArquitectura | ✅ Sincronizado | Alta |
+| **Básica** | 37_Memorias_Diseno_Basico_v5.0, 38_DiagramasArquitectura | ✅ Sincronizado | Alta |
 | **Detalle** | V.1.1_Obras_Civiles_DETALLADA, V.2.1_Sistema_Alimentacion | ✅ Sincronizado | Alta |
 | **Operación** | 6.1_Manual_OM_CTC_v5.0, 6.5_Manual_OM_Integrado_v5.0 | ✅ Sincronizado | Media |
 
@@ -88,7 +88,7 @@
 - **Pasos a Nivel:** 146 pasos automáticos con sistemas de seguridad
 - **Disponibilidad:** 99.5% para infraestructura general
 
-### **2.2 Criterios de Diseño**
+### **2.2 Criterios de Diseno**
 
 #### **Disponibilidad y Redundancia:**
 - **CCO:** 99.95% disponibilidad con sistemas redundantes
@@ -347,7 +347,7 @@
 ### **6.2 Procedimientos de Mantenimiento**
 
 #### **Mantenimiento Preventivo por Ciclos:**
-- **Diario:** Verificación visual y pruebas básicas
+- **Diario:** Verificación visual y pruebas basicas
 - **Semanal:** Pruebas de funcionamiento y limpieza
 - **Mensual:** Inspección detallada y calibración
 - **Trimestral:** Mantenimiento de sistemas críticos
@@ -473,7 +473,7 @@
 - `34_Criterios_Interoperabilidad_docx_Compatibilidad_con_FENOCO_y_ANI.md` - Criterios interoperabilidad
 
 ### **9.3 Documentos de Ingeniería Básica**
-- `37_Memorias_Diseño_Basico_v5.0.md` - Memorias de diseño básico
+- `37_Memorias_Diseno_Basico_v5.0.md` - Memorias de diseno básico
 - `38. DiagramasArquitectura_sist_ctc-telco.md` - Diagramas de arquitectura
 - `39. PlanosPreliminares_localizacion torres tetra_fibra_nod.md` - Planos preliminares
 - `41. Interfaces_Sistemas_MEJORADO.md` - Interfaces de sistemas
@@ -491,7 +491,7 @@
 
 ### **9.6 Documentos Maestros de Referencia**
 - `CRITERIOS_TECNICOS_MAESTRO_APP_La_Dorada_Chiriguaná_v1.0.md` - Criterios técnicos maestro
-- `IV.1_Especificaciones_Basicas_Civil_v5.0.md` - Especificaciones básicas civil
+- `IV.1_Especificaciones_Basicas_Civil_v5.0.md` - Especificaciones basicas civil
 - `WBS_Presupuestal_v2.0.md` - WBS presupuestal
 - `MATRIZ_TRAZABILIDAD_TECNICA_APP_La_Dorada_Chiriguaná_v1.0.md` - Matriz trazabilidad técnica
 

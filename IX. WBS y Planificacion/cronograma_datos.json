@@ -217,7 +217,7 @@
     "fases":  [
                   {
                       "id":  "F1",
-                      "descripcion":  "Ingeniería conceptual, básica y de detalle. Aprobación ANI Mes 12.",
+                      "descripcion":  "Ingeniería conceptual, basica y de detalle. Aprobación ANI Mes 12.",
                       "nombre":  "INGENIERÍA",
                       "mes_inicio":  0,
                       "duracion_meses":  12,

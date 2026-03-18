@@ -118,7 +118,7 @@
 **Tareas:**
 - [ ] Identificar todos los ítems que requieren metadata (50-100 ítems)
 - [ ] Capturar justificaciones técnicas de DTs existentes
-- [ ] Agregar criterios de diseño
+- [ ] Agregar criterios de diseno
 - [ ] Documentar supuestos clave
 - [ ] Incluir feedback de especialistas
 - [ ] Enlazar con documentos de ingeniería de detalle
@@ -151,7 +151,7 @@
 **Tareas:**
 - [ ] Crear API REST en PowerShell o Python
 - [ ] Endpoints: `/sync`, `/status`, `/validate`
-- [ ] Autenticación básica
+- [ ] Autenticación basica
 - [ ] Documentación de API
 - [ ] Cliente de ejemplo
 

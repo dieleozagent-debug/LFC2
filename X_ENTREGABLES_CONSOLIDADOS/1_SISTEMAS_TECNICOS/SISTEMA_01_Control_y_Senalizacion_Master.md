@@ -94,7 +94,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
 
-### 2.3 Criterios de Diseño Iniciales
+### 2.3 Criterios de Diseno Iniciales
 **Criterios establecidos en fase conceptual**
 
 - **Filosofía Virtual:** Eliminación total de Filosofía PTC Virtual
@@ -117,7 +117,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 
 ## 3. INGENIERÍA BÁSICA
 
-### 3.1 Diseño Básico
+### 3.1 Diseno Básico
 **Consolidado de documentos IV/**
 
 **Centro de Control Operacional (CCO):**
@@ -168,7 +168,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 
 ## 4. INGENIERÍA DE DETALLE
 
-### 4.1 Diseño Detallado
+### 4.1 Diseno Detallado
 **Consolidado de documentos V/**
 
 **V.2 - Centro de Control de Tráfico (CTC) v5.0:**
@@ -430,9 +430,9 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 
 | Hito | Fecha | Estado | Responsable |
 |:-----|:------|:-------|:------------|
-| **Diseño Conceptual** | Oct 2025 | ✅ | Ingeniería |
-| **Diseño Básico** | Nov 2025 | ✅ | Ingeniería |
-| **Diseño Detalle** | Ene 2025 | ✅ | Ingeniería |
+| **Diseno Conceptual** | Oct 2025 | ✅ | Ingeniería |
+| **Diseno Básico** | Nov 2025 | ✅ | Ingeniería |
+| **Diseno Detalle** | Ene 2025 | ✅ | Ingeniería |
 | **FAT** | Mar 2025 | ⏳ | Proveedor |
 | **SAT** | May 2025 | ⏳ | Proveedor |
 | **Puesta en Servicio** | Jul 2025 | ⏳ | Operación |

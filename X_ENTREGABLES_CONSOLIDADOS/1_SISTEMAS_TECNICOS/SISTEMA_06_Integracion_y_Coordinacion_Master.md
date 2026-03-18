@@ -17,7 +17,7 @@
 |:-----|:-----------|:---------------------|:----------|
 | **Contractual** | AT1, AT2, AT3 | ✅ Sincronizado | Crítica |
 | **Conceptual** | 23_ListadoMaestro_v5.0, 25.1_WBS_v5.0, 34_Criterios_Interoperabilidad | ✅ Sincronizado | Alta |
-| **Básica** | 37_Memorias_Diseño_Basico_v5.0, 38_DiagramasArquitectura, 41_Interfaces_Sistemas | ✅ Sincronizado | Alta |
+| **Básica** | 37_Memorias_Diseno_Basico_v5.0, 38_DiagramasArquitectura, 41_Interfaces_Sistemas | ✅ Sincronizado | Alta |
 | **Detalle** | V.5.1_Plan_Integracion_COMPLETO, V.2_CTC_v5.0, V.1_Señalizacion_v5.0 | ✅ Sincronizado | Alta |
 | **Operación** | 6.5_Manual_OM_Integrado_v5.0 | ✅ Sincronizado | Media |
 
@@ -97,7 +97,7 @@
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
 
-### **2.2 Criterios de Diseño de Integración**
+### **2.2 Criterios de Diseno de Integración**
 
 #### **Principios de Integración:**
 - **Modularidad:** Sistemas independientes con interfaces bien definidas
@@ -428,7 +428,7 @@
 - `34_Criterios_Interoperabilidad_docx_Compatibilidad_con_FENOCO_y_ANI.md` - Criterios interoperabilidad
 
 ### **9.3 Documentos de Ingeniería Básica**
-- `37_Memorias_Diseño_Basico_v5.0.md` - Memorias de diseño básico
+- `37_Memorias_Diseno_Basico_v5.0.md` - Memorias de diseno básico
 - `38. DiagramasArquitectura_sist_ctc-telco.md` - Diagramas de arquitectura
 - `41. Interfaces_Sistemas_MEJORADO.md` - Interfaces de sistemas
 - `42. Plan_Pruebas_MEJORADO.md` - Plan de pruebas

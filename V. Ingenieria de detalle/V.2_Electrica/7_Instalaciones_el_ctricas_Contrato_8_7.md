@@ -195,9 +195,9 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 ### 3.2 💼 ESTRATEGIA DE GESTIÓN INTEGRADA
 **Coordinación con sistemas ferroviarios:**
 
-1. **Fase 1 - Diseño de Red (Mes 1-3):**
+1. **Fase 1 - Diseno de Red (Mes 1-3):**
    - **Problema identificado:** Definir arquitectura de alimentación para todos los sistemas
-   - **Optimización EPC:** Diseño integrado considerando redundancia y disponibilidad
+   - **Optimización EPC:** Diseno integrado considerando redundancia y disponibilidad
    - **Beneficio:** Optimización de costos y cumplimiento de AT4
 
 2. **Fase 2 - Instalación Coordinada (Mes 4-12):**
@@ -212,7 +212,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 ### 3.3 Estrategia de Avance con Bloqueos PTC
 - **Instalaciones eléctricas base:** Desarrollo con AT1, AT2, AT4 y sistemas completados mientras se espera AT3
-- **Arquitectura modular:** Diseño que permita integración futura de especificaciones técnicas
+- **Arquitectura modular:** Diseno que permita integración futura de especificaciones técnicas
 - **Comunicación proactiva:** Mantener stakeholders informados sobre limitaciones
 - **Plan de contingencia:** Alternativas de alimentación para especificaciones pendientes
 

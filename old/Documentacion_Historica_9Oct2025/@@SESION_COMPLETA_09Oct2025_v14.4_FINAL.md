@@ -89,7 +89,7 @@
 **Riesgos NUEVOS agregados HOY:**
 - R-FIBRA-001 (de DT-FIBRA-003 - Lead time fibra)
 - R-FM-001 (Fuerza Mayor - huelgas, FENOCO)
-- R-GES-004 (Desfase aprobación diseños)
+- R-GES-004 (Desfase aprobación disenos)
 - R-CON-001 (Ambigüedad KPI PAN 100%)
 - R-OPE-001 (Falla failover redundancia)
 - R-CAL-001 (Calidad materiales)
@@ -111,7 +111,7 @@
 **Hallazgos Clave:**
 
 #### **a) Cronograma Contractual (AT9):**
-- Estudios y Diseños: **12 meses** ✅
+- Estudios y Disenos: **12 meses** ✅
 - Obras Civiles: **24 meses**
 - Instalación Sistemas: **18 meses**
 - Pruebas: **6 meses**
@@ -294,7 +294,7 @@
 **Riesgos NUEVOS (identificados HOY):**
 8. R-FIBRA-001 - Lead time fibra 9m (DT-FIBRA-003) 🔴
 9. R-FM-001 - Fuerza Mayor (huelgas, FENOCO)
-10. R-GES-004 - Desfase aprobación diseños
+10. R-GES-004 - Desfase aprobación disenos
 11. R-CON-001 - KPI PAN 100% ambiguo
 12. R-OPE-001 - Falla failover
 13. R-CAL-001 - Calidad materiales

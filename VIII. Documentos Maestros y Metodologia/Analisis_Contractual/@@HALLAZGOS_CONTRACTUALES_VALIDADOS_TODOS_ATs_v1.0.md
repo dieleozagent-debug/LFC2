@@ -14,7 +14,7 @@ Tras el proceso de saneamiento recursivo, se han resuelto las siguientes indefin
 ### ✅ HALLAZGO 001: Definición del Sistema de Control
 - **Estado Anterior:** Confusión entre PTC, PTC VIRTUAL e PTC.
 - **Resolución:** Se institucionaliza el estándar **PTC Virtual (FRA 236)** como única solución técnica. Se eliminan todas las referencias a sistemas europeos propietarios o hardware de vía costoso.
-- **Impacto:** Desbloqueo total del diseño de detalle y especificaciones de compra.
+- **Impacto:** Desbloqueo total del diseno de detalle y especificaciones de compra.
 
 ### ✅ HALLAZGO 002: Interoperabilidad Chiriguaná
 - **Estado Anterior:** Indefinición de protocolos con FENOCO.

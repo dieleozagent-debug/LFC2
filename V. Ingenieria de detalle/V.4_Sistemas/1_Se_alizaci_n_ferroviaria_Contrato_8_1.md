@@ -71,7 +71,7 @@ Este documento contiene las especificaciones técnicas detalladas para el sistem
 - **Sistema de Puesta a Tierra:** Malla de tierra dedicada para equipos de señalización, con resistencia < 5 Ohms.
 - **Insumos:**
     - **Cableado de Potencia:** Cableado de cobre de sección adecuada, con aislamiento THHN/THWN.
-    - **Bancos de Baterías:** Baterías selladas VRLA, libres de mantenimiento, con vida útil de diseño > 5 años.
+    - **Bancos de Baterías:** Baterías selladas VRLA, libres de mantenimiento, con vida útil de diseno > 5 años.
     - **Conectores y Terminales:** Terminales de compresión y conectores de alta calidad para asegurar conexiones fiables.
 
 #### **INTEGRACIÓN Y ESTÁNDARES**

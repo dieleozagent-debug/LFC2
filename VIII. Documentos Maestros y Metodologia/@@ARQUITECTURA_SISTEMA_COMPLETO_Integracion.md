@@ -237,7 +237,7 @@ Solución: YAML debe indicar sección en V.X a modificar
 Especialista (Chat/Reunión):
   "Cambiar PTC de 15 a 8 unidades"
   "Justificación: Alineación con 5 locomotoras AT1"
-  "Criterio: 5 producción + 2 diseño/pruebas + 1 contingencia"
+  "Criterio: 5 producción + 2 diseno/pruebas + 1 contingencia"
         ↓
 ┌─────────────────────────────────────────────────────────────────┐
 │  PASO 2: CREAR DECISIÓN TÉCNICA (DT)                            │
@@ -476,7 +476,7 @@ archivos_actualizar:
       - buscar: "15 unidades PTC embarcadas"
         reemplazar: "8 unidades PTC embarcadas"
       - buscar: "uno por cada locomotora (15 total)"
-        reemplazar: "5 producción + 2 diseño/pruebas + 1 contingencia (8 total)"
+        reemplazar: "5 producción + 2 diseno/pruebas + 1 contingencia (8 total)"
     versionamiento:
       version_actual: "v4.0"
       version_nueva: "v4.1"

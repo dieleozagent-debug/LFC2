@@ -108,7 +108,7 @@ Se ha iniciado la **Fase 1: Validación Técnica y Contractual** del proyecto, v
 - **AT4 (Indicadores):** Métricas de desempeño establecidas
 
 ### **✅ Cláusulas Contractuales**
-- **Cláusula 8.1:** Estudios y diseños - ✅ Cumplida
+- **Cláusula 8.1:** Estudios y disenos - ✅ Cumplida
 - **Cláusula 8.2:** Construcción - ✅ Preparada
 - **Cláusula 9.1:** Operación y mantenimiento - ✅ Documentada
 - **Cláusula 13.1:** Material rodante - ✅ Especificado

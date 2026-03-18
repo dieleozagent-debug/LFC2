@@ -317,7 +317,7 @@ Archivos modificados: 2
   1. IX. WBS y Planificacion/wbs_metadata_enriquecida.json
      - Agregado ítem 1.1.106 con metadata completa
      - Justificación técnica: Bloque lógico integración CTC-PTC-FENOCO-TETRA-ITS
-     - 4 criterios de diseño documentados
+     - 4 criterios de diseno documentados
      - 4 supuestos del especialista
      - DT-INTERFACES-001 registrada
   

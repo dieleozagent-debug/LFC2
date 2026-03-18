@@ -189,7 +189,7 @@ REPUESTOS Y RESERVAS:
 |---------|----------------------|---------------|---------------------|
 | **UPS autonomía** | Tiempo específico | "5 minutos hasta transferencia" | Definir autonomía mínima |
 | **CCO ubicación** | Centro de control | "La Dorada, Caldas" | Ubicación específica confirmada |
-| **Obras civiles** | No incluido en alcance | "Diseños civiles no incluidos" | Excluir de WBS actual |
+| **Obras civiles** | No incluido en alcance | "Disenos civiles no incluidos" | Excluir de WBS actual |
 
 ### **METODOLOGÍA BIM**
 | Aspecto | Requerimiento Contrato | Respuesta LFC | Impacto en Criterios |

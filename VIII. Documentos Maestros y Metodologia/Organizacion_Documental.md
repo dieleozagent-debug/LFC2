@@ -231,7 +231,7 @@ Instrucción para ti:
 
 | Riesgo | Impacto | Probabilidad |
 |---|---|---|
-| Uso de versión obsoleta en diseño | 🔴 CRÍTICO | ALTA |
+| Uso de versión obsoleta en diseno | 🔴 CRÍTICO | ALTA |
 | Inconsistencias entre sistemas | 🔴 CRÍTICO | ALTA |
 | Pérdida de trazabilidad contractual | 🟠 ALTO | MEDIA |
 | Retrabajo por información duplicada | 🟡 MEDIO | ALTA |
@@ -284,10 +284,10 @@ No le falta contenido técnico (está muy completo), le falta ORGANIZACIÓN:
 - Últimas acciones:
   - Generado `REPORTE_AUDITORIA_v1.1.md` ✅
   - Generado `AUDITORIA_ARCHIVOS_v1.1.csv` (100% cobertura) ✅
-  - Señalización: creado documento maestro `IV. Ingenieria básica/SIS_Senalizacion_Definitivo_v1.0.md` ✅
-  - Comunicaciones: creado documento maestro `IV. Ingenieria básica/SIS_Comunicaciones_Definitivo_v1.0.md` ✅
-  - CTC: creado documento maestro `IV. Ingenieria básica/SIS_CTC_Definitivo_v1.0.md` ✅
-  - Material Rodante: creado documento maestro `IV. Ingenieria básica/SIS_Material_Rodante_Definitivo_v1.0.md` ✅
+  - Señalización: creado documento maestro `IV. Ingenieria basica/SIS_Senalizacion_Definitivo_v1.0.md` ✅
+  - Comunicaciones: creado documento maestro `IV. Ingenieria basica/SIS_Comunicaciones_Definitivo_v1.0.md` ✅
+  - CTC: creado documento maestro `IV. Ingenieria basica/SIS_CTC_Definitivo_v1.0.md` ✅
+  - Material Rodante: creado documento maestro `IV. Ingenieria basica/SIS_Material_Rodante_Definitivo_v1.0.md` ✅
   - Señalización: RTM/KPIs y criterios FAT/SAT añadidos ✅
   - Comunicaciones: RTM/KPIs y criterios FAT/SAT añadidos ✅
   - CTC: RTM/KPIs y criterios FAT/SAT añadidos ✅

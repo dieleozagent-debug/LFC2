@@ -62,11 +62,11 @@
 
 | KPI | Objetivo | Actual | Evidencia | Responsable | Estado |
 |:---|:---:|:---:|:---|:---|:---:|
-| **Disponibilidad material rodante** | 99.95% | En diseño | Monitoreo O&M | Ing. Mecánica | ⏳ |
-| **MTBF equipos embarcados** | >8760h | En diseño | Análisis RAMS | Ing. Mecánica | ⏳ |
-| **MTTR equipos embarcados** | <2h | En diseño | Plan mantenimiento | Ing. Mecánica | ⏳ |
-| **Tasa fallas PTC embarcado** | <0.1% | En diseño | Logs de fallas | Ing. Mecánica | ⏳ |
-| **Tiempo recuperación TETRA** | <30min | En diseño | Pruebas de campo | Ing. Mecánica | ⏳ |
+| **Disponibilidad material rodante** | 99.95% | En diseno | Monitoreo O&M | Ing. Mecánica | ⏳ |
+| **MTBF equipos embarcados** | >8760h | En diseno | Análisis RAMS | Ing. Mecánica | ⏳ |
+| **MTTR equipos embarcados** | <2h | En diseno | Plan mantenimiento | Ing. Mecánica | ⏳ |
+| **Tasa fallas PTC embarcado** | <0.1% | En diseno | Logs de fallas | Ing. Mecánica | ⏳ |
+| **Tiempo recuperación TETRA** | <30min | En diseno | Pruebas de campo | Ing. Mecánica | ⏳ |
 
 11. Criterios de Aceptación (FAT/SAT)
    - FAT: validación funcional de equipos embarcados (PTC/TETRA/CCTV/energía).  

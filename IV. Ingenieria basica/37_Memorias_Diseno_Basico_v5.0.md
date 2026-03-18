@@ -10,7 +10,7 @@
 ## 1. CRITERIOS DE DISEÑO DE SISTEMAS
 
 ### 1.1 Filosofía de Control y Señalización
-Se adopta la arquitectura **PTC Virtual** (FRA 236 Subpart I). El diseño básico descarta cualquier infraestructura física en vía para señalización.
+Se adopta la arquitectura **PTC Virtual** (FRA 236 Subpart I). El diseno básico descarta cualquier infraestructura física en vía para señalización.
 - **Autorización de Movimiento (MA):** Generada en el Servidor Maestro 2oo3 y transmitida vía radio.
 - **Bloqueo:** Lógica de **Bloque Virtual (V-Block)** integrada en el Servidor PTC.
 - **Localización:** Basada en reporte de OBC (vía GNSS/IMU) y validada por el EOT en cola.
@@ -45,6 +45,6 @@ En cumplimiento del **Ciclo Inverso**, se han eliminado las siguientes memorias 
 
 ## ✅ CONCLUSIONES:
 
-Las Memorias de Diseño Básico han sido saneadas para garantizar que no existan contradicciones con los Criterios Técnicos Maestros. Se ha eliminado la redundancia innecesaria y la dependencia de estándares propietarios de terceros.
+Las Memorias de Diseno Básico han sido saneadas para garantizar que no existan contradicciones con los Criterios Técnicos Maestros. Se ha eliminado la redundancia innecesaria y la dependencia de estándares propietarios de terceros.
 
-**Saneamiento Ciclo 4 - Memorias de Diseño Finalizado.**
+**Saneamiento Ciclo 4 - Memorias de Diseno Finalizado.**

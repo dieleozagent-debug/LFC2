@@ -97,7 +97,7 @@ Este roadmap establece la ruta de trabajo para el desarrollo de la ingeniería d
 | 3.2 | `../III. Ingenieria conceptual/31_Sistema_CCTV_Integrado...md` | ✅ Completado | 19/09/2025 | Validado análisis de CCTV, **identificando riesgos y supuestos.** |
 | 4.1 | `../III. Ingenieria conceptual/32_Material_Rodante_Integrado...md` | ✅ Completado | 19/09/2025 | Validado análisis de Material Rodante, **identificando riesgos y supuestos.** |
 
-### Bloque 2.0: Criterios de Diseño Transversales
+### Bloque 2.0: Criterios de Diseno Transversales
 | WBS ID | Documento | Estado | Fecha | Observaciones |
 |:---|:---|:---:|:---:|:---|
 | B.8 | `../III. Ingenieria conceptual/33_Criterios_Normatividad...md` | ✅ Completado | 19/09/2025 | Validado criterios de normatividad, **identificando riesgos y supuestos.** |
@@ -110,7 +110,7 @@ Este roadmap establece la ruta de trabajo para el desarrollo de la ingeniería d
 ## C. 🏗️ FASE C: INGENIERÍA BÁSICA (WBS IV)
 | WBS ID | Documento | Estado | Fecha | Observaciones |
 |:---|:---|:---:|:---:|---|
-| 4.1 | `../IV. Ingenieria basica/37. MemoriasDiseño_Basico_v5.0_Validado_Riesgos.md` | ✅ **Completado** | 19/09/2025 | Justifica las decisiones de diseño y mitiga riesgos. |
+| 4.1 | `../IV. Ingenieria basica/37. MemoriasDiseno_Basico_v5.0_Validado_Riesgos.md` | ✅ **Completado** | 19/09/2025 | Justifica las decisiones de diseno y mitiga riesgos. |
 | 4.2 | `../IV. Ingenieria basica/38. DiagramasArquitectura_sist_ctc-telco.md` | ✅ **Completado** | 19/09/2025 | Representación gráfica de la solución técnica. |
 | 4.3 | `../IV. Ingenieria basica/39. PlanosPreliminares_localizacion torres tetra_fibra_nod.md` | ✅ **Completado** | 19/09/2025 | Localización de equipos principales. |
 | 4.4 | `../IV. Ingenieria basica/40. Plan_GestionPermisos_MEJORADO.md` | ✅ **Completado** | 19/09/2025 | Plan para trámites ante ANE, ANLA y municipios. |
@@ -197,7 +197,7 @@ Leyenda: 🟢 Listo • 🟠 En desarrollo/especificación • 🟡 Pendiente
 
 #### **2. MATERIAL RODANTE Y SISTEMAS EMBARCADOS**
 - **STM Especificaciones:** 🔄 **EN DESARROLLO** - Compatibles PTC Virtual (FRA 236)
-- **DMI Diseño:** 🔄 **EN DESARROLLO** - Según FRA/AREMA EIRENE
+- **DMI Diseno:** 🔄 **EN DESARROLLO** - Según FRA/AREMA EIRENE
 - **Plan Retrofit:** 🔄 **EN DESARROLLO** - Locomotoras existentes
 - **Testing Procedures:** ⏳ **PENDIENTE** - FAT/SAT embarcados
 

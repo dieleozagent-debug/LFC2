@@ -46,7 +46,7 @@
 | 6 | AT1_Alcance_del_Proyecto | Referencias a Filosofía PTC Virtual | 🔴 CRÍTICO | 2 |
 | 7 | 23_ListadoMaestro_Sistemas | Virtual Balise (GNSS)s en lista de sistemas | 🔴 CRÍTICO | 2 |
 | 8 | 26.1_Anexo_Electrico_CTC | Alimentación señales físicas | 🟡 MEDIO | 3 |
-| 9 | 37_Memorias_Diseño_Basico | Especificaciones Puntos de Referencia Virtuales (SICC) | 🟡 MEDIO | 3 |
+| 9 | 37_Memorias_Diseno_Basico | Especificaciones Puntos de Referencia Virtuales (SICC) | 🟡 MEDIO | 3 |
 | 10 | IV.4_Especificaciones_Basicas_Sistemas | Virtual Balise (GNSS)s como sistema | 🟡 MEDIO | 3 |
 | 11-18 | Planos y Diagramas preliminares | Ubicación física señales | 🟡 MEDIO | 4 |
 
@@ -142,7 +142,7 @@
 | 10 | IV.1_Especificaciones_Basicas_Civil.md | Agregar obra civil desvíos | 2h | 🟡 |
 | 11 | IV.2_Especificaciones_Basicas_Electrica.md | Actualizar a 37 sitios TETRA | 2h | 🟡 |
 | 12 | IV.4_Especificaciones_Basicas_Sistemas.md | Eliminar Puntos de Referencia Virtuales (SICC), agregar CTC virtual | 3h | 🟡 |
-| 13 | 37_Memorias_Diseño_Basico.md | Actualizar especificaciones generales | 3h | 🟡 |
+| 13 | 37_Memorias_Diseno_Basico.md | Actualizar especificaciones generales | 3h | 🟡 |
 
 **Subtotal Capa 3:** 10 horas (1.5 días)
 
@@ -279,7 +279,7 @@
 **Objetivo:** Corregir ingeniería detallada
 
 - **DÍA 6:** CAPA 3 (Ing. Básica - fin)
-  → Memorias de Diseño
+  → Memorias de Diseno
 
 - **DÍA 7-10:** CAPA 4 (Ing. Detalle - CRÍTICO)
   → V.1, V.2, V.3, VII.2.1 (reescrituras mayores)

@@ -54,6 +54,6 @@ Este SRS define los requerimientos funcionales y de seguridad para el sistema **
 
 ## ✅ CONCLUSIONES:
 
-El Índice SRS ha sido saneado integralmente para servir de base a la ingeniería básica, eliminando la contaminación tecnológica de estándares europeos cerrados por una arquitectura de **PTC Virtual** moderna y resiliente.
+El Índice SRS ha sido saneado integralmente para servir de base a la ingeniería basica, eliminando la contaminación tecnológica de estándares europeos cerrados por una arquitectura de **PTC Virtual** moderna y resiliente.
 
 **Saneamiento Ciclo 3 - Índice SRS Finalizado.**

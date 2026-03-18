@@ -21,7 +21,7 @@
 - ❌ `AT3_Especificaciones.docx` - BLOQUEADO
 - ❌ `29_Sistema_Señalización_Integrado.md` - Filosofía NO clara
 - ❌ `32_Material_Rodante_Integrado.md` - Equipos embarcados SIN DEFINIR
-- ❌ `V.1_Señalización_Ferroviaria_Detalle.md` - Diseño SUSPENDIDO
+- ❌ `V.1_Señalización_Ferroviaria_Detalle.md` - Diseno SUSPENDIDO
 - ❌ `IV.1_Interfaces_Sistemas.md` - Arquitectura indefinida
 
 **Alcance afectado:**

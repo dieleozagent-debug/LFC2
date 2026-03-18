@@ -23,7 +23,7 @@
 - [Objetivo 2]: [Descripción]
 - [Objetivo 3]: [Descripción]
 
-### 1.3 Principios de Diseño
+### 1.3 Principios de Diseno
 - [Principio 1]: [Descripción y justificación]
 - [Principio 2]: [Descripción y justificación]
 - [Principio 3]: [Descripción y justificación]

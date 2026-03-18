@@ -41,7 +41,7 @@ Capítulo / Numeral
 Tabla 16
 
 4.3.3 Unidad Funcional UF 3
-Implementación temprana de sistemas de señalización, CTC inicial, comunicaciones básicas para operación preoperativa.
+Implementación temprana de sistemas de señalización, CTC inicial, comunicaciones basicas para operación preoperativa.
 Tablas 17 a 20
 
 5.1 Material rodante del proyecto
@@ -64,7 +64,7 @@ Capítulo / Numeral
 Desarrollo integral de sistemas de telecomunicaciones, CTC y seguridad operacional.
 Cap. VII, 7.3
 
-8.1 Bases y criterios de diseño
+8.1 Bases y criterios de diseno
 Normas aplicables: AREMA, FRA/AREMA, ISO TC-204 (ITS), RETIE. Relacionado directamente con ITS y sistemas inteligentes.
 Cap. VIII, 8.1
 
@@ -160,7 +160,7 @@ Capítulo / Numeral
 Sistema / Equipo a desarrollar en ingeniería
 Referencia contractual (Ap. Téc. 3)
 
-2.1 Estudios y Diseños
+2.1 Estudios y Disenos
 Estudios de detalle de vía férrea (incluye sistemas de señalización asociados).
 Cap. II, 2.1
 
@@ -306,7 +306,7 @@ Capítulo / Numeral
 Cap. 7
 
 
-AP 5:   No pide equipos ferroviarios adicionales, pero obliga a que todos los diseños de vía, comunicaciones y señalización consideren la compatibilidad con redes de terceros.
+AP 5:   No pide equipos ferroviarios adicionales, pero obliga a que todos los disenos de vía, comunicaciones y señalización consideren la compatibilidad con redes de terceros.
   Impacta directamente en: fibra óptica, instalaciones eléctricas, pasos a nivel, cimentaciones de señalización y torres de radio.
   Ingeniería debe incluir un plan de interferencias con trazado de redes y coordinación con empresas de servicios.
 
@@ -339,13 +339,13 @@ Capítulo / Numeral
 Cap. IV, 4.1
 
 4.2 Traslado y manejo de redes afectadas
-Diseño de variantes o desvíos de redes → requiere planos de ingeniería detallados.
+Diseno de variantes o desvíos de redes → requiere planos de ingeniería detallados.
 Cap. IV, 4.2
 
 
 AP6:  No introduce nuevos subsistemas, pero condiciona a que todos los sistemas eléctricos, telecomunicaciones, talleres, patios y material rodante cumplan con requisitos ambientales.
   Impacto directo: antenas TETRA, fibra óptica, UPS, talleres, estaciones de control → requieren permisos y medidas de mitigación.
-  Ingeniería debe prever en el diseño: eficiencia energética, control de ruido, emisiones, residuos y compatibilidad ambiental.
+  Ingeniería debe prever en el diseno: eficiencia energética, control de ruido, emisiones, residuos y compatibilidad ambiental.
 
 Capítulo / Numeral
 Sistema / Equipo asociado
@@ -372,11 +372,11 @@ Capítulo / Numeral
 Cap. V, 5.7
 
 6.1 Obligaciones generales en construcción
-Diseño de sistemas de manejo de aguas, ventilación, mitigación de polvo en instalaciones ferroviarias.
+Diseno de sistemas de manejo de aguas, ventilación, mitigación de polvo en instalaciones ferroviarias.
 Cap. VI, 6.1
 
 6.2 Manejo de fauna
-Impacta en diseño de torres de comunicaciones, pasos a nivel y cerramientos → deben incluir medidas para fauna.
+Impacta en diseno de torres de comunicaciones, pasos a nivel y cerramientos → deben incluir medidas para fauna.
 Cap. VI, 6.2
 
 6.3 Programa de aporte sostenible – Mitigación cambio climático
@@ -423,7 +423,7 @@ Capítulo / Numeral
 Cap. IV, 4.5
 
 4.6 Plan de compensaciones socioeconómicas
-Afecta instalación de equipos en zonas pobladas → diseño debe prever mitigación social en estaciones, talleres y pasos a nivel.
+Afecta instalación de equipos en zonas pobladas → diseno debe prever mitigación social en estaciones, talleres y pasos a nivel.
 Cap. IV, 4.6
 
 5.1 Etapa de enajenación voluntaria
@@ -572,9 +572,9 @@ Cláusula / Numeral
 Incluir en la ingeniería: plan de gestión de permisos y licencias, con cronograma y dependencias para TETRA, fibra, instalaciones eléctricas y talleres.
 
 8.1 Obligaciones en Etapa de Preconstrucción
-Estudios y diseños de CTC, ITS, telecomunicaciones, señalización, talleres, edificios técnicos.
+Estudios y disenos de CTC, ITS, telecomunicaciones, señalización, talleres, edificios técnicos.
 Antes de iniciar obras debe estar lista la ingeniería detallada y todos los permisos.
-Incluir en la ingeniería: paquete de estudios y diseños integrados → CTC, ITS, señalización, telecomunicaciones, eléctricos y talleres.
+Incluir en la ingeniería: paquete de estudios y disenos integrados → CTC, ITS, señalización, telecomunicaciones, eléctricos y talleres.
 
 8.2 Obligaciones en Etapa de Construcción
 Implementación de todos los sistemas definidos en Apéndices Técnicos 1–3.

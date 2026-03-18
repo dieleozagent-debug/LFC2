@@ -13,13 +13,13 @@ El Sistema de Telecomunicaciones es la **red de comunicación vital** del ferroc
 - **37 estaciones TETRA/Red Vital IP / TETRA:** Justificado por radio de cobertura de 15 km por estación con 20% solapamiento sobre corredor de 526 km
 - **526 km fibra óptica:** Longitud total del corredor ferroviario La Dorada-Chiriguaná
 - **2,068 cajas de empalme:** Calculadas cada 300m (594,000m ÷ 300m = 1,980 + 88 adicionales por redundancia)
-- **Cobertura:** 100% del corredor garantizada por diseño
+- **Cobertura:** 100% del corredor garantizada por diseno
 - **Disponibilidad requerida:** 99.5% TETRA, 99.95% Red Vital IP / TETRA (según estándares EN 50126)
 
 ### Hitos críticos
 | Fase | Fecha | Estado |
 |:-----|:------|:-------|
-| Diseño Conceptual | Enero 2025 | ✅ Completado |
+| Diseno Conceptual | Enero 2025 | ✅ Completado |
 | Instalación Torres | Marzo 2025 | ⏳ En progreso |
 | Instalación Fibra | Abril 2025 | ⏳ En progreso |
 | Comisionamiento | Mayo 2025 | ❌ Pendiente |
@@ -69,7 +69,7 @@ Redondeo:      594.000 km  ← Cantidad WBS
 - **Total:** 1,980 + 88 = **2,068 cajas**
 
 ### ¿Por qué altura de torres de 40m?
-**Criterios de Diseño:**
+**Criterios de Diseno:**
 - **Cobertura de 15 km:** Requiere altura mínima de 35m
 - **Factor de seguridad:** +5m para variaciones topográficas
 - **Estándar RETIE:** Altura estándar para telecomunicaciones
@@ -86,7 +86,7 @@ Redondeo:      594.000 km  ← Cantidad WBS
 **Justificación de la Decisión:**
 - **TETRA:** Especializado en comunicaciones operacionales (voz + datos operativos)
 - **Red Vital IP / TETRA:** Especializado en datos críticos (PTC, CTC, sistemas de seguridad)
-- **Redundancia:** Si falla uno, el otro mantiene operación básica
+- **Redundancia:** Si falla uno, el otro mantiene operación basica
 - **Cumplimiento:** Estándares ferroviarios requieren redundancia
 
 ---
@@ -300,17 +300,17 @@ El sistema opera 24/7 proporcionando comunicación continua entre el Centro de C
 
 ## 📋 SUPUESTOS TÉCNICOS Y LIMITACIONES
 
-### Supuestos Críticos del Diseño
+### Supuestos Críticos del Diseno
 | Supuesto | Valor Asumido | Impacto si Cambia | Mitigación |
 |:---------|:--------------|:------------------|:-----------|
-| **Radio de cobertura TETRA** | 15 km por estación | Menos estaciones si aumenta | Diseño conservador |
+| **Radio de cobertura TETRA** | 15 km por estación | Menos estaciones si aumenta | Diseno conservador |
 | **Solapamiento requerido** | 20% entre estaciones | Cobertura discontinua si reduce | Redundancia garantizada |
 | **Separación cajas fibra** | 300m estándar | Más cajas si reduce | Según normas UIT-T |
 | **Altura efectiva torres** | 40m sobre terreno | Menor cobertura si reduce | Factor de seguridad +5m |
 | **Disponibilidad TETRA** | 99.5% | Penalizaciones si no cumple | Redundancia N+1 |
 | **Disponibilidad Red Vital IP / TETRA** | 99.95% | Penalizaciones si no cumple | Doble anillo fibra |
 
-### Limitaciones del Diseño
+### Limitaciones del Diseno
 - **Topografía:** Cobertura puede reducirse en zonas montañosas
 - **Interferencias:** Coordinación con ANE requerida para espectro
 - **Clima:** Tormentas eléctricas pueden afectar disponibilidad

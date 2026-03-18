@@ -299,7 +299,7 @@ Interferencias con redes activas → afectación de servicios públicos y riesgo
 Indisponibilidad del SICC → incumplimiento directo del indicador E3 con ponderación del 7.77% (AT4, Tabla 3)
 Fallas de integración entre sistemas → datos incompletos para cálculo de indicadores
 5. Recomendaciones prácticas para ingeniería EPC
-5.1 Diseño para mantenibilidad
+5.1 Diseno para mantenibilidad
 Redundancias obligatorias (AT2, Cap. III, Num. 3.1.1):
 Doble acometida eléctrica para sistemas críticos (CTC, telecomunicaciones, CCO)
 UPS (N+1) con autonomía mínima de 4 horas

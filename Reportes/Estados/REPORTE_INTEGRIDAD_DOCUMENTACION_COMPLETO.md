@@ -30,7 +30,7 @@ Verificar la integridad completa de la documentación del proyecto desde el inic
 | Documento | Estado | Observaciones |
 |:---|:---:|:---|
 | `1. Cl_2_14_LicenciasPermisos_MEJORADO.md` | ✅ **COMPLETO** | Gestión de espectro y permisos |
-| `2_Cl_8_1_Preconstrucci_n_docx_Obligaciones_de_estudios_y_dise_os_MEJORADO.md` | ✅ **COMPLETO** | Obligaciones de estudios y diseños |
+| `2_Cl_8_1_Preconstrucci_n_docx_Obligaciones_de_estudios_y_dise_os_MEJORADO.md` | ✅ **COMPLETO** | Obligaciones de estudios y disenos |
 | `3_Cl_8_2_Construcci_n_docx_Obligaciones_en_fase_de_construcci_n_MEJORADO.md` | ✅ **COMPLETO** | Obligaciones en fase de construcción |
 | `4_Cl_9_1_OM_docx_Obligaciones_de_Operaci_n_y_Mantenimiento_MEJORADO.md` | ✅ **COMPLETO** | Obligaciones de O&M |
 | `5_Cl_12_1_Reversi_n_docx_Entrega_de_activos_y_sistemas_en_buen_estado_MEJORADO.md` | ✅ **COMPLETO** | Entrega de activos |
@@ -94,14 +94,14 @@ Verificar la integridad completa de la documentación del proyecto desde el inic
 #### **✅ IV. INGENIERÍA BÁSICA (8/8 documentos)**
 | Documento | Estado | Observaciones |
 |:---|:---:|:---|
-| `37. MemoriasDiseño_Basico_v5.0_Validado_Riesgos.md` | ✅ **COMPLETO** | Memorias de diseño básico |
+| `37. MemoriasDiseno_Basico_v5.0_Validado_Riesgos.md` | ✅ **COMPLETO** | Memorias de diseno básico |
 | `38. DiagramasArquitectura_sist_ctc-telco.md` | ✅ **COMPLETO** | Diagramas de arquitectura |
 | `39. PlanosPreliminares_localizacion torres tetra_fibra_nod.md` | ✅ **COMPLETO** | Planos preliminares |
 | `40. Plan_GestionPermisos_MEJORADO.md` | ✅ **COMPLETO** | Plan de gestión de permisos |
 | `41. Interfaces_Sistemas_MEJORADO.md` | ✅ **COMPLETO** | Interfaces entre sistemas |
 | `42. Plan_Pruebas_MEJORADO.md` | ✅ **COMPLETO** | Plan de pruebas |
-| `37. MemoriasDiseño_Basico_just tec.md` | ✅ **COMPLETO** | Versión técnica |
-| `IV_Ingenieria_Basica_RESUMEN_MEJORADO.md` | ✅ **COMPLETO** | Resumen de ingeniería básica |
+| `37. MemoriasDiseno_Basico_just tec.md` | ✅ **COMPLETO** | Versión técnica |
+| `IV_Ingenieria_Basica_RESUMEN_MEJORADO.md` | ✅ **COMPLETO** | Resumen de ingeniería basica |
 
 **Estado Fase C:** ✅ **COMPLETADA AL 100%**
 

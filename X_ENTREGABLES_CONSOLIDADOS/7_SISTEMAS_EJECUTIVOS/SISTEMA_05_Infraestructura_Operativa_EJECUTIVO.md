@@ -21,7 +21,7 @@ El Sistema de Infraestructura Operativa es la **"base física"** del ferrocarril
 ### Hitos críticos
 | Fase | Fecha | Estado |
 |:-----|:------|:-------|
-| Diseño Conceptual | Enero 2025 | ✅ Completado |
+| Diseno Conceptual | Enero 2025 | ✅ Completado |
 | Construcción CCO | Marzo 2025 | ⏳ En progreso |
 | Construcción Estaciones | Abril 2025 | ⏳ En progreso |
 | Comisionamiento | Mayo 2025 | ❌ Pendiente |

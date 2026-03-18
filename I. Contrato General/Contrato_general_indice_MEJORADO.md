@@ -12,7 +12,7 @@
 
 ### I. Contrato General
 - **Cl_2.14_LicenciasPermisos:** Gestión de espectro (ANE), ambientales (ANLA), prediales.
-- **Cl_8.1_Preconstrucción:** Obligaciones de estudios y diseños (Alineado con DBCD PTC Virtual).
+- **Cl_8.1_Preconstrucción:** Obligaciones de estudios y disenos (Alineado con DBCD PTC Virtual).
 - **Cl_8.2_Construcción:** Obligaciones en fase de construcción.
 - **Cl_9.1_OM:** Obligaciones de Operación y Mantenimiento.
 - **Cl_12.1_Reversión:** Entrega de activos y sistemas en buen estado.

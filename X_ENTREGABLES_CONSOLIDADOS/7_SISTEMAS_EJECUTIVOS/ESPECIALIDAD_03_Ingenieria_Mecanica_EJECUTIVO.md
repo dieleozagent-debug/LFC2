@@ -20,7 +20,7 @@ La Ingeniería Mecánica es el **"sistema locomotor"** del ferrocarril que propo
 ### Hitos críticos
 | Fase | Fecha | Estado |
 |:-----|:------|:-------|
-| Diseño Conceptual | Enero 2025 | ✅ Completado |
+| Diseno Conceptual | Enero 2025 | ✅ Completado |
 | Puesta a Punto | Marzo 2025 | ⏳ En progreso |
 | Adquisición Nuevos | Abril 2025 | ❌ Pendiente |
 | Comisionamiento | Mayo 2025 | ❌ Pendiente |
@@ -202,16 +202,16 @@ El material rodante opera 24/7 transportando carga a lo largo del corredor, con 
 
 ## 📋 SUPUESTOS TÉCNICOS Y LIMITACIONES
 
-### Supuestos Críticos del Diseño
+### Supuestos Críticos del Diseno
 | Supuesto | Valor Asumido | Impacto si Cambia | Mitigación |
 |:---------|:--------------|:------------------|:-----------|
-| **Demanda de transporte** | 2,400 ton/día | Más material rodante si aumenta | Diseño escalable |
+| **Demanda de transporte** | 2,400 ton/día | Más material rodante si aumenta | Diseno escalable |
 | **Disponibilidad** | 99.95% | Penalizaciones si no cumple | Mantenimiento preventivo |
 | **Vida útil** | 30 años | Mayor mantenimiento si reduce | Materiales de calidad |
 | **Velocidad operativa** | 80 km/h | Menor eficiencia si reduce | Optimización de rutas |
-| **Carga por eje** | 25 ton | Limitaciones de vía si aumenta | Diseño conservador |
+| **Carga por eje** | 25 ton | Limitaciones de vía si aumenta | Diseno conservador |
 
-### Limitaciones del Diseño
+### Limitaciones del Diseno
 - **Capacidad de carga:** Limitada por especificaciones de vía
 - **Velocidad:** Limitada por geometría del corredor
 - **Mantenimiento:** Requiere personal especializado

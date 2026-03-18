@@ -8,7 +8,7 @@
 ---
 
 ## 1. MARCO TÉCNICO-CONTRACTUAL
-El Sistema de Fibra Óptica constituye el **Backbone Vital** de comunicaciones del proyecto. Su diseño conceptual se alinea con la arquitectura de **PTC Virtual** y los indicadores de disponibilidad **AT4**.
+El Sistema de Fibra Óptica constituye el **Backbone Vital** de comunicaciones del proyecto. Su diseno conceptual se alinea con la arquitectura de **PTC Virtual** y los indicadores de disponibilidad **AT4**.
 
 ### 1.1 Interfaces Críticas (Saneadas):
 - **Fibra Óptica ↔ PTC Virtual:** Backbone para comunicación entre el Vital PTC Server y los OBC de las locomotoras vía **Vital IP**.
@@ -48,7 +48,7 @@ El Sistema de Fibra Óptica constituye el **Backbone Vital** de comunicaciones d
 |:---|:---:|:---:|:---|:---:|
 | **Uptime Backbone** | 99.95% | Diario | Ing. Sistemas | 🟢 SANEADO |
 | **Latencia Vital** | < 50ms | Tiempo Real | Ing. Sistemas | 🟢 SANEADO |
-| **Cruce de Fibras** | 100% Saneado | Semanal | Ing. Diseño | 🟢 SANEADO |
+| **Cruce de Fibras** | 100% Saneado | Semanal | Ing. Diseno | 🟢 SANEADO |
 
 ---
 

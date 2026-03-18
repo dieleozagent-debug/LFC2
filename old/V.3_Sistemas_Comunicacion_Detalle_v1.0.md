@@ -12,7 +12,7 @@
 
 Este documento detalla la ingeniería de los sistemas de comunicación para el proyecto APP La Dorada-Chiriguaná, abarcando Red Vital IP / TETRA, fibra óptica, radio, satelital y comunicaciones de emergencia, con integración completa con PTC y CTC.
 
-> **📋 DOCUMENTO MAESTRO CONSOLIDADO:** Para la versión definitiva y consolidada del sistema de Comunicaciones, consulte: `IV. Ingenieria básica/SIS_Comunicaciones_Definitivo_v1.0.md`
+> **📋 DOCUMENTO MAESTRO CONSOLIDADO:** Para la versión definitiva y consolidada del sistema de Comunicaciones, consulte: `IV. Ingenieria basica/SIS_Comunicaciones_Definitivo_v1.0.md`
 
 ### 1.1 Alcance del Sistema de Comunicaciones
 - **Sistema principal:** Red de comunicaciones ferroviarias
@@ -317,7 +317,7 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 ### 7.2 Mantenimiento
 
 #### 7.2.1 Mantenimiento Preventivo
-- **Diario:** Verificaciones básicas
+- **Diario:** Verificaciones basicas
 - **Semanal:** Limpieza y calibración
 - **Mensual:** Pruebas funcionales
 - **Anual:** Revisión completa
@@ -381,7 +381,7 @@ Este documento detalla la ingeniería de los sistemas de comunicación para el p
 ### 9.2 Cronograma de Implementación
 
 #### 9.2.1 Fase de Desarrollo
-- **Mes 1-2:** Especificación y diseño
+- **Mes 1-2:** Especificación y diseno
 - **Mes 3-4:** Adquisición de equipos
 - **Mes 5-6:** Pruebas de fábrica
 - **Mes 7-8:** Instalación y configuración

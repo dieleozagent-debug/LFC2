@@ -21,7 +21,7 @@ El Sistema de Control y Señalización es el **"cerebro" del ferrocarril** que p
 ### Hitos críticos
 | Fase | Fecha | Estado |
 |:-----|:------|:-------|
-| Diseño Conceptual | Enero 2025 | ✅ Completado |
+| Diseno Conceptual | Enero 2025 | ✅ Completado |
 | Instalación CTC | Marzo 2025 | ⏳ En progreso |
 | Instalación PTC | Abril 2025 | ⏳ En progreso |
 | Comisionamiento | Mayo 2025 | ❌ Pendiente |
@@ -52,7 +52,7 @@ El Sistema de Control y Señalización es el **"cerebro" del ferrocarril** que p
 - **Operación simultánea:** Máximo 5 locomotoras operando al mismo tiempo (AT1 §3.1)
 - **Criterio 5+2+1:**
   - **5 unidades producción:** Para operación normal simultánea
-  - **2 unidades diseño/pruebas:** FAT, SAT y comisionamiento
+  - **2 unidades diseno/pruebas:** FAT, SAT y comisionamiento
   - **1 unidad contingencia:** Respaldo estratégico
 - **Total optimizado:** 8 PTC embarcados (ahorro 47% vs 15 originales)
 - **Tecnología PTC Virtual (FRA 49 CFR 236):** Estándar Americano de alto rendimiento (Sin señales)
@@ -302,17 +302,17 @@ El sistema opera 24/7 proporcionando control centralizado de todo el tráfico fe
 
 ## 📋 SUPUESTOS TÉCNICOS Y LIMITACIONES
 
-### Supuestos Críticos del Diseño
+### Supuestos Críticos del Diseno
 | Supuesto | Valor Asumido | Impacto si Cambia | Mitigación |
 |:---------|:--------------|:------------------|:-----------|
-| **Parque rodante** | 15 locomotoras | Menos PTC si reduce | Diseño escalable |
+| **Parque rodante** | 15 locomotoras | Menos PTC si reduce | Diseno escalable |
 | **Disponibilidad CTC** | 99.95% | Penalizaciones si no cumple | Redundancia N+1 |
 | **Cobertura Red Vital IP / TETRA** | 100% del corredor | Fallos de comunicación | Respaldo TETRA |
-| **Estaciones críticas** | 5 estaciones | Más ENCE si aumenta | Diseño modular |
+| **Estaciones críticas** | 5 estaciones | Más ENCE si aumenta | Diseno modular |
 | **Desvíos en vía** | 120 desvíos | Más automatización si aumenta | Control centralizado |
 | **Tiempo de respuesta** | < 2 segundos | Penalizaciones si excede | Optimización de red |
 
-### Limitaciones del Diseño
+### Limitaciones del Diseno
 - **Dependencia de comunicaciones:** Sistema requiere Red Vital IP / TETRA/TETRA operativo
 - **Concentración de control:** CCO único punto de falla (mitigado con redundancia)
 - **Complejidad de PTC:** Requiere personal especializado para mantenimiento

@@ -184,7 +184,7 @@ b) El Concesionario deberá realizar las actividades preventivas y el control op
 c) Conservar la Franja Operacional, libre de obstáculos, deshierbe de vía, descepe de árboles, podas radiculares, retiro de ramas, troncos, arbustos, piedras, postes, edificaciones, animales muertos y demás objetos que impidan la visibilidad, el tránsito y el drenaje de la Vía Férrea.
 
 d) Atención de emergencias como perdidas de banca, novedades en puentes, obras de drenaje, retiro de elementos de la Vía Férrea, derrumbes, asentamientos, edificaciones e inundaciones que afecten la Circulación del Material Rodante sobre la Vía Férrea concesionada.
-e) El Concesionario debe elaborar y someter a aprobación de la Interventoría y la ANI, en un plazo de treinta (30) Días después de la Fecha de Inicio, un documento con el diseño de las medidas para garantizar la transitabilidad en la Vía Férrea ante la ocurrencia de emergencias, en los términos del CAPÍTULO III de este Apéndice Técnico. Este documento debe incluir entre otros, la atención de eventos de colapso o caída de puentes con luces menores o iguales a 60 m.
+e) El Concesionario debe elaborar y someter a aprobación de la Interventoría y la ANI, en un plazo de treinta (30) Días después de la Fecha de Inicio, un documento con el diseno de las medidas para garantizar la transitabilidad en la Vía Férrea ante la ocurrencia de emergencias, en los términos del CAPÍTULO III de este Apéndice Técnico. Este documento debe incluir entre otros, la atención de eventos de colapso o caída de puentes con luces menores o iguales a 60 m.
 
 , . ,,,.d .,,.,.,""
 Pagma e )
@@ -414,13 +414,13 @@ El Concesionario deberá conducir las investigaciones de todos los incidentes ac
 
 3.1.3 Medidaspara la transitabilidad ante emergencias
 
-El concesionario tendrá un plazo de treinta (30) Días contados desde la Fecha de Inicio para presentar y someter a aprobación de la Interventoría y la ANI el documento con el diseño de las medidas para garantizar la transitabílidad en la Vía Férrea ante la ocurrencia de emergencias, que debe incluir entre otros, la atención de eventos de colapso o caída de puentes con luces menores o iguales a 60 m.
+El concesionario tendrá un plazo de treinta (30) Días contados desde la Fecha de Inicio para presentar y someter a aprobación de la Interventoría y la ANI el documento con el diseno de las medidas para garantizar la transitabílidad en la Vía Férrea ante la ocurrencia de emergencias, que debe incluir entre otros, la atención de eventos de colapso o caída de puentes con luces menores o iguales a 60 m.
 
 Posteriormente, tendrá un plazo de noventa (90) Días contados desde la Fecha de Inicio para presentar y someter a aprobación de la Interventoría y la ANI los planos, instrucciones de armado, montaje y memorias de cálculo, que se plantearon en el documento inicial.
 
 Finalmente, tendrá un plazo de nueve (9) meses contados desde la Fecha de Inicio para el suministro y almacenamiento de los elementos necesarios para garantizar la transitabilidad en la Vía Férrea ante la ocurrencia de emergencias, que debe incluir entre otros, la atención de eventos de colapso o caída de puentes con luces menores o iguales a 60 m.
 
-En los eventuales casos de colapso o caída de puentes con luces menores o iguales a 60 m, el Concesionario podrá considerar dentro del documento de atención de emergencias el diseño, suministro, almacenamiento, transporte, instalación, operación y mantenimiento de puentes modulares tipo panel metálico semipermanente de cercha, con el fin de atender cualquier circunstancia que afecte la continuidad de la Prestación del Servicio Público de Transporte Ferroviario de Carga. Este tipo de equipamiento debe permitir una rápida y
+En los eventuales casos de colapso o caída de puentes con luces menores o iguales a 60 m, el Concesionario podrá considerar dentro del documento de atención de emergencias el diseno, suministro, almacenamiento, transporte, instalación, operación y mantenimiento de puentes modulares tipo panel metálico semipermanente de cercha, con el fin de atender cualquier circunstancia que afecte la continuidad de la Prestación del Servicio Público de Transporte Ferroviario de Carga. Este tipo de equipamiento debe permitir una rápida y
 
 Página f deIp
 
@@ -432,7 +432,7 @@ El Concesionario deberá instalar y poner en servicio los elementos para la aten
 
 Subestructura: el Concesionario tendrá como máximo un (1) Mes a partir de la ocurrencia del evento para realizar todas las actividades necesarias para habilitar, reconstruir, rehabilitar o construir la subestructura o apoyos necesarios para la implantación de los elementos para la atención de la emergencia. Si por algún evento de Fuerza Mayor no es posible atender la situación en el plazo de un (1) Mes antes previsto, se aplicará el procedimiento descrito a continuación para los demás casos.
 
-Para los demás casos no cubiertos anteriormente, el Concesionario presentará a la Interventoría y a la ANI, máximo cuatro (4) Días después de presentada la situación, un plan para proveer la subestructura o apoyos que permitan atender en el menor tiempo posible la situación, que incluya los diseños conceptuales y el cronograma detallado para su habilitación, reconstrucción, rehabilitación o construcción.
+Para los demás casos no cubiertos anteriormente, el Concesionario presentará a la Interventoría y a la ANI, máximo cuatro (4) Días después de presentada la situación, un plan para proveer la subestructura o apoyos que permitan atender en el menor tiempo posible la situación, que incluya los disenos conceptuales y el cronograma detallado para su habilitación, reconstrucción, rehabilitación o construcción.
 
 En caso de que, a juicio de la Interventoría yo la ANI, el plan no atienda oportunamente la situación, este podrá ser objetado por la Interventoría yo la ANI y deberá ser ajustado por el Concesionario en un tiempo máximo de dos (2) Días contados desde la objeción. En caso de no llegarse a un acuerdo sobre el plan de ejecución de la infraestructura (subestructura) necesaria para instalar los elementos para la atención de la emergencia, el Concesionario procederá a ejecutar dicha obra o actividad bajo su propio plan y cualquiera de las Partes podrá acudir al Amigable Componedor, con el fin de resolver los aspectos que permanezcan en controversia, tiempo tras el cual, en caso de no haberse terminado la actividad, se aplicará lo resuelto.
  Almacenamiento, inspección, mantenimiento y alistamiento de los elementos para la transitabilidad ante emergencias
@@ -453,11 +453,11 @@ El alistamiento de los elementos por parte del Concesionario después de cada ut
 
 El Concesionario, junto con el suministro y puesta a disposición de los elementos para la atención de emergencias, dispondrá de planos, instrucciones de armado y montaje con sus respectivas memorias de cálculo, para una configuración modular en caso de requerirse. Los planos, instrucciones de armado, montaje y memorias de cálculo deben presentarse para poder resolver cualquier dimensión o luz de instalación de los elementos.
 
-Igualmente, para cada solución, los documentos contendrán el diseño y protocolo de una prueba de carga a realizar previo a su puesta en servicio.
+Igualmente, para cada solución, los documentos contendrán el diseno y protocolo de una prueba de carga a realizar previo a su puesta en servicio.
 
 Por otro lado, se entregarán planos de subestructuras típicas que podrían utilizarse para cada configuración, sin perjuicio de las alturas que podrían ser requeridas debido a las condiciones propias de cada implantación.
 
-Las memorias de cálculo indicarán las cargas provenientes del elemento modular para cada tipo de carga y combinación del código de diseño, con lo cual se permita un rápido dimensionamiento y posterior diseño del apoyo y, en caso de ser requerido, disponer de una solución atípica para la subestructura.
+Las memorias de cálculo indicarán las cargas provenientes del elemento modular para cada tipo de carga y combinación del código de diseno, con lo cual se permita un rápido dimensionamiento y posterior diseno del apoyo y, en caso de ser requerido, disponer de una solución atípica para la subestructura.
 
 Página tW de';
 
@@ -466,7 +466,7 @@ Estos documentos serán puestos a disposición de la Interventoría en un plazo 
 El Concesionario levantará un plano de montaje as built para cada utilización que sea requerida, identificando cada una de las piezas utilizadas y su localización exacta, lo que permita identificar, en caso de ser necesario, aquellos elementos que han sido sometidos a mayor esfuerzo de resistencia y servicio, y que al ser correlacionado con su desgaste o deterioro a partir de las inspecciones, arroje información sobre requerimientos de ajuste, mantenimiento mayor o reemplazo para futuros usos.
  Prueba de carga viva
 
-Una vez armado y montados los elementos modulares en su sitio, de forma previa a su puesta en servicio, el Concesionario deberá realizar una prueba de carga viva necesaria para validar su condición de servicio y resistencia, conforme al diseño y protocolo elaborado.
+Una vez armado y montados los elementos modulares en su sitio, de forma previa a su puesta en servicio, el Concesionario deberá realizar una prueba de carga viva necesaria para validar su condición de servicio y resistencia, conforme al diseno y protocolo elaborado.
  Duración de la intervención
 
 Teniendo en cuenta que la intervención con elementos modulares para la atención de emergencias se realiza para agilizar los tiempos de respuesta ante eventuales sucesos que puedan afectar el Corredor del Proyecto y la Prestación del Servicio Público de Transporte Ferroviario de Carga, para efectos de la duración de la medida, esta intervención temporal tendrá en cuenta las especificaciones de vida útil y durabilidad definidas de los elementos para la atención de la emergencia. No obstante, el Concesionario deberá promover, desde el inicio de la emergencia, la solución definitiva que le permita cumplir con las Especificaciones Técnicas y el alcance del Proyecto. La solución definitiva tendrá que ser implementada en el menor tiempo, cumpliendo con lo regulado en el Contrato.
@@ -559,7 +559,7 @@ e) Ahora bien, en los plazos que se describen a continuación, el Concesionario 
 
 d) El plazo para la presentación del Reglamento de Operación de Trenes que elaborará el Concesionario en la Fase de Preconstrucción será de dos (2) meses contados desde la Fecha de Inicio.
 
-e) Una vez finalizada la Fase de Preconstrucción el Concesionario tendrá un plazo de dos (2) meses contados desde la suscripción del Acta de Terminación de la Fase de Preconstrucción para presentar una actualización del Reglamento de Operación de Trenes, para lo cual deberá tener en cuenta el diseño del sistema del control de tráfico y comunicaciones.
+e) Una vez finalizada la Fase de Preconstrucción el Concesionario tendrá un plazo de dos (2) meses contados desde la suscripción del Acta de Terminación de la Fase de Preconstrucción para presentar una actualización del Reglamento de Operación de Trenes, para lo cual deberá tener en cuenta el diseno del sistema del control de tráfico y comunicaciones.
 
 1. Protocolo de asignación de privilegio de vía.
 
@@ -1011,7 +1011,7 @@ Para el desarrollo y ejecución de las anteriores actividades, el Concesionario 
 Todas las operaciones que restauren o mejoren las condiciones actuales de la Infraestructura deberán realizarse conforme a la normativa vigente y la Ley Aplicable, a las obligaciones contractuales y a lo establecido en los Apéndices Técnicos, en cuanto a la calidad de los materiales y los procedimientos de ejecución, salvo justificación expresa debidamente presentada y verificada por el Interventor. El Concesionario podrá elegir el tipo de actuación a emprender, dentro de los márgenes que otorguen la Ley Aplicable y las buenas prácticas del momento, y la deberá comunicar por escrito a la ANI y al Interventor. Si la actuación no resulta eficaz ni durable, la ANI yo el Interventor solicitarán al Concesionario que adopte soluciones definitivas que resuelvan el problema existente.
 
 Cuando las Obras de Mantenimiento incorporen cualquier elemento adicional a la Infraestructura por cuenta y riesgo del Concesionario, tales servicios deberán estar basados en los correspondientes Estudios de Detalle.
-Al término de los trabajos correspondientes a cada Obra de Mantenimiento, el Concesionario deberá presentar un informe detallado al Interventor y a la ANI. Este informe deberá incluirse en la Memoria Técnica de la respectiva UF y contener registros fotográficos, descripciones de todas las Obras de Mantenimiento realizadas, incluyendo sus respectivas cantidades y memorias de cálculo, así como el diseño de la obra construida, en concordancia con lo establecido en Apéndice Técnico 4.
+Al término de los trabajos correspondientes a cada Obra de Mantenimiento, el Concesionario deberá presentar un informe detallado al Interventor y a la ANI. Este informe deberá incluirse en la Memoria Técnica de la respectiva UF y contener registros fotográficos, descripciones de todas las Obras de Mantenimiento realizadas, incluyendo sus respectivas cantidades y memorias de cálculo, así como el diseno de la obra construida, en concordancia con lo establecido en Apéndice Técnico 4.
 
 #### 6.2 Tipos de Obras de Mantenimiento
 
@@ -1474,7 +1474,7 @@ Reparaciones Rl: De acuerdo con el ciclo de mantenimiento, corresponde al Manten
 
 Reparaciones R2: Corresponden al Mantenimiento preventivo que se realiza al Material Rodante remolcado cada 48 meses de acuerdo con el ciclo de mantenimiento. Su duración en taller es de aproximadamente 15 días.
 
-Reparaciones R3: Es la reparación pesada donde adicionalmente a las relacionadas anteriormente, se desmonta totalmente la estructura y superestructura del Material Rodante remolcado, para sustituir todos los elementos fuera de norma y volverlo a sus condiciones originales de diseño.
+Reparaciones R3: Es la reparación pesada donde adicionalmente a las relacionadas anteriormente, se desmonta totalmente la estructura y superestructura del Material Rodante remolcado, para sustituir todos los elementos fuera de norma y volverlo a sus condiciones originales de diseno.
 
 #### 6.5 Directrices Generales de Mantenimiento
 
@@ -1490,9 +1490,9 @@ Todos los estudios y obras necesarias para Mantener la Infraestructura deberán 
 
 Con el fin de detectar daños que afecten la estabilidad, resistencia y durabilidad de las estructuras, éstas serán objeto de un monitoreo permanente para informar a la Interventoría y a la ANI y repararlos en forma oportuna a cuenta y riesgo del Concesionario.
 
-Evaluación de la resistencia: Las estructuras de puentes existentes se deberán evaluar de acuerdo a las especificaciones de las normas descritas en el Apéndice Técnico 3. La evaluación deberá comprender la superestructura y la infraestructura del puente y llevará a conocer los datos con los cuales se revisará el diseño de la estructura existente y se procederá a su refuerzo en caso necesario.
+Evaluación de la resistencia: Las estructuras de puentes existentes se deberán evaluar de acuerdo a las especificaciones de las normas descritas en el Apéndice Técnico 3. La evaluación deberá comprender la superestructura y la infraestructura del puente y llevará a conocer los datos con los cuales se revisará el diseno de la estructura existente y se procederá a su refuerzo en caso necesario.
 
-Evaluación de la durabilidad: Las estructuras se sujetarán a una inspección detallada para detectar fisuras, carbonatación, corrosión o cualquier otro signo que indique la posibilidad de reducción de su vida útil. Se harán todos los ensayos requeridos para evaluar los deterioros y diseñar las reparaciones o reforzamientos que eventualmente sean necesarios. Los resultados de estos ensayos y los diseños para las reparaciones deberán ser presentados a la Interventoría.
+Evaluación de la durabilidad: Las estructuras se sujetarán a una inspección detallada para detectar fisuras, carbonatación, corrosión o cualquier otro signo que indique la posibilidad de reducción de su vida útil. Se harán todos los ensayos requeridos para evaluar los deterioros y diseñar las reparaciones o reforzamientos que eventualmente sean necesarios. Los resultados de estos ensayos y los disenos para las reparaciones deberán ser presentados a la Interventoría.
 
 Evaluación de la estabilidad: A través de una inspección de las pilas que conforman los soportes estructurales del puente y las condiciones de las estructuras de entrega de la estructura metálica del puente al terraplén en las márgenes de los cauces, incluyendo aspectos relacionados con la socavación.
 
@@ -1508,7 +1508,7 @@ Estado de los cauces. En los sitios de ponteaderos se deberán verificar trimest
 Revisión de las estructuras en concreto de intercambio entre las estructuras metálicas de los puentes y los terraplenes de la vía.
 Página t de1
 
-Presencia de fisuras. Se deberá revisar la presencia de fisuras, y si existen, medir su espesor y longitud; asimismo, se determinará si se trata de grietas activas (que se deben a sobreesfuerzos y cuyo espesor aumenta). En cualquier caso, se deberá efectuar un estudio profundo para dilucidar las causas que las producen y, en caso de requerirse, preparar un diseño para su reforzamiento o reparación.
+Presencia de fisuras. Se deberá revisar la presencia de fisuras, y si existen, medir su espesor y longitud; asimismo, se determinará si se trata de grietas activas (que se deben a sobreesfuerzos y cuyo espesor aumenta). En cualquier caso, se deberá efectuar un estudio profundo para dilucidar las causas que las producen y, en caso de requerirse, preparar un diseno para su reforzamiento o reparación.
 
 Pérdida del revestimiento y superficies afectadas por carbonatación. Toda pérdida de integridad del concreto, como descascaramientos, roturas, o recubrimientos, debida a golpes o cualquier efecto, deberá ser reparada. Igualmente, toda parte de la estructura en la que haya evidencia de carbonatación o pérdida de la capacidad del recubrimiento para evitar la oxidación del acero de refuerzo, deberá ser reparada mediante una actividad de saneado adecuada, verificada por la Interventoría.
 
@@ -1526,14 +1526,14 @@ Si hay sospecha de una pérdida de la sección estructural que comprometa su res
 
 Todos los elementos afectados por pérdida de sección, abolladuras, pandeo, carencia de pernos o remaches, daños en las soldaduras como fallas, fisuras, porosidad o socavación, etc. ya sean miembros o conexiones, que presenten daños significativos, deberán ser reparados y verificados por el personal de la Interventoría, quien los presentará para satisfacción de la ANI.
 
-Cualquier falla estructural deberá ser investigada. Si el estudio concluye que la falla se ha producido por sobreesfuerzos, deberán preparase los correspondientes estudios, diseños y trabajos necesarios para el reforzamiento de la estructura afectada, y si es necesario se deberá suspender o limitar el tráfico.
+Cualquier falla estructural deberá ser investigada. Si el estudio concluye que la falla se ha producido por sobreesfuerzos, deberán preparase los correspondientes estudios, disenos y trabajos necesarios para el reforzamiento de la estructura afectada, y si es necesario se deberá suspender o limitar el tráfico.
 Página j de{I,
 
 Los resultados de la inspección, incluidas sus conclusiones, se reportarán en el informe gerencial mensual y en la Memoria Técnica, en el que asimismo se indicará si se requieren inspecciones más detalladas para las que se requieran ensayos, toma de muestras y mediciones en campo.
 
 Las estructuras que presenten algún desplazamiento producido por circunstancias externas deberán ser intervenidas según se requiera, para un perfecto alineamiento final. En ese caso, se deberán elaborar los estudios requeridos, diseñar y construir los recalces, las protecciones y demás obras necesarias para el buen funcionamiento de las estructuras.
 
-Se deberán elaborar los estudios, diseños y se ejecutarán las obras requeridas para la corrección de fallas en las estructuras debidas a la cimentación, tales como asentamientos excesivos, asentamientos diferenciales u otros daños.
+Se deberán elaborar los estudios, disenos y se ejecutarán las obras requeridas para la corrección de fallas en las estructuras debidas a la cimentación, tales como asentamientos excesivos, asentamientos diferenciales u otros daños.
 
 Todos los procedimientos de reparación, refuerzo, reemplazo o renovación citados deberán tomar en cuenta las limitaciones al tráfico, y sus recomendaciones deberán ser sometidas a consideración de la Interventoría. Estas recomendaciones deberán prever, entre otros, las suspensiones de tráfico necesario y los procedimientos constructivos a utilizar en cada caso, los cuales deberán ser previamente presentados y coordinados con la Interventoría para su revisión y comentarios.
 

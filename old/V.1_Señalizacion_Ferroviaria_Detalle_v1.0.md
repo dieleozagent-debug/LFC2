@@ -11,7 +11,7 @@
 
 Este documento establece las especificaciones técnicas de detalle para el sistema de señalización ferroviaria del proyecto APP La Dorada-Chiriguaná, integrado con el sistema PTC (PTC Virtual (FRA 236)).
 
-> **📋 DOCUMENTO MAESTRO CONSOLIDADO:** Para la versión definitiva y consolidada del sistema de Señalización, consulte: `IV. Ingenieria básica/SIS_Senalizacion_Definitivo_v1.0.md`
+> **📋 DOCUMENTO MAESTRO CONSOLIDADO:** Para la versión definitiva y consolidada del sistema de Señalización, consulte: `IV. Ingenieria basica/SIS_Senalizacion_Definitivo_v1.0.md`
 
 ### 1.1 Objetivo
 Definir las especificaciones técnicas detalladas para la implementación del sistema de señalización ferroviaria, incluyendo:
@@ -214,14 +214,14 @@ Definir las especificaciones técnicas detalladas para la implementación del si
 ## 11. Cronograma de Implementación
 
 ### 11.1 Fases del Proyecto
-- **Fase 1:** Diseño detallado (2 meses)
+- **Fase 1:** Diseno detallado (2 meses)
 - **Fase 2:** Adquisición de equipos (3 meses)
 - **Fase 3:** Instalación (4 meses)
 - **Fase 4:** Pruebas y validación (2 meses)
 - **Fase 5:** Puesta en servicio (1 mes)
 
 ### 11.2 Hitos Principales
-- Aprobación de diseño
+- Aprobación de diseno
 - Recepción de equipos
 - Finalización de instalación
 - Pruebas de aceptación

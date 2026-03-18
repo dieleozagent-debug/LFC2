@@ -46,7 +46,7 @@ Abrir: IX. WBS y Planificacion/WBS_Menu_Principal.html
 |----|------------------|-------|
 | **BLOCKER-001** | Oficiar ANI (definición PTC) | 5 días |
 | **BLOCKER-002** | Reunión FENOCO (protocolos) | 10 días |
-| **BLOCKER-003** | Confirmar diseño PANs | 15 días |
+| **BLOCKER-003** | Confirmar diseno PANs | 15 días |
 | **BLOCKER-004** | Oficiar ANI (cronograma MR) | 10 días |
 
 **Ver plan completo:** `@@PLAN_ACCION_BLOCKERS_CRITICOS_10Oct2025.md`

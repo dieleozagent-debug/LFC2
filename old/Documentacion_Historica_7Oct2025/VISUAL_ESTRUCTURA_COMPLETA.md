@@ -36,9 +36,9 @@ Usando Cursor IDE Agent
 I. Contrato General/              (Base legal)
 II. Apendices Tecnicos/           (Especificaciones)
     └── Decisiones_Tecnicas/ ⭐    (Cambios formales versionados)
-III. Ingenieria conceptual/       (Diseño conceptual)
+III. Ingenieria conceptual/       (Diseno conceptual)
     └── Validaciones/ ⭐           (Validaciones de DT aprobadas)
-IV. Ingenieria basica/            (Ingeniería básica)
+IV. Ingenieria basica/            (Ingeniería basica)
 V. Ingenieria de detalle/         (Ingeniería de detalle)
 VI. operacion y mantenimiento/    (O&M)
 ```

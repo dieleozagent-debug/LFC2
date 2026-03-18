@@ -134,7 +134,7 @@ Para cada documento en la matriz:
 - [ ] **Criterios maestros actualizados** con justificación
 - [ ] **WBS presupuestal** refleja nuevas cantidades
 - [ ] **Ingeniería conceptual** actualizada
-- [ ] **Ingeniería básica** actualizada
+- [ ] **Ingeniería basica** actualizada
 - [ ] **Ingeniería de detalle** actualizada
 - [ ] **Cálculos presupuestales** verificados
 - [ ] **Estadísticas** actualizadas en tiempo real

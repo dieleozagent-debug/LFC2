@@ -26,7 +26,7 @@ Este documento presenta las simulaciones de capacidad para el corredor **La Dora
 |:---|:---|:---|
 | **Longitud Total** | 526 km | SSOT (La Dorada a Chiriguaná). |
 | **Velocidad Carga** | 60 - 80 km/h | Según tramo y carga (DBCD). |
-| **Velocidad Pasajeros**| 80 - 100 km/h | Capacidad de diseño. |
+| **Velocidad Pasajeros**| 80 - 100 km/h | Capacidad de diseno. |
 | **Puntualidad Objetivo**| > 95% | Gestión centralizada CTC. |
 
 ---

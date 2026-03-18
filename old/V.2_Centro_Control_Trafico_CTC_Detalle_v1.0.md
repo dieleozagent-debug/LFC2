@@ -12,7 +12,7 @@
 
 Este documento detalla la ingeniería del Centro de Control de Tráfico (CTC) para el proyecto APP La Dorada-Chiriguaná, abarcando la arquitectura, los componentes, la lógica de operación, la integración con PTC y los criterios de seguridad y rendimiento.
 
-> **📋 DOCUMENTO MAESTRO CONSOLIDADO:** Para la versión definitiva y consolidada del sistema CTC, consulte: `IV. Ingenieria básica/SIS_CTC_Definitivo_v1.0.md`
+> **📋 DOCUMENTO MAESTRO CONSOLIDADO:** Para la versión definitiva y consolidada del sistema CTC, consulte: `IV. Ingenieria basica/SIS_CTC_Definitivo_v1.0.md`
 
 ### 1.1 Alcance del Sistema CTC
 - **Sistema principal:** Centro de Control de Tráfico
@@ -274,7 +274,7 @@ Este documento detalla la ingeniería del Centro de Control de Tráfico (CTC) pa
 ### 7.2 Mantenimiento
 
 #### 7.2.1 Mantenimiento Preventivo
-- **Diario:** Verificaciones básicas
+- **Diario:** Verificaciones basicas
 - **Semanal:** Limpieza y calibración
 - **Mensual:** Pruebas funcionales
 - **Anual:** Revisión completa
@@ -338,7 +338,7 @@ Este documento detalla la ingeniería del Centro de Control de Tráfico (CTC) pa
 ### 9.2 Cronograma de Implementación
 
 #### 9.2.1 Fase de Desarrollo
-- **Mes 1-2:** Especificación y diseño
+- **Mes 1-2:** Especificación y diseno
 - **Mes 3-4:** Desarrollo de software
 - **Mes 5-6:** Pruebas de fábrica
 - **Mes 7-8:** Pruebas de sitio

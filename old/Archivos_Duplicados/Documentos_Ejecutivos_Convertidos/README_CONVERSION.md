@@ -64,7 +64,7 @@ Cada documento ejecutivo incluye:
 ### **🎯 Información Ejecutiva:**
 - Resumen ejecutivo con alcance en números
 - Justificaciones técnicas detalladas
-- Criterios de diseño y cálculos
+- Criterios de diseno y cálculos
 - Ubicaciones específicas (PKs, coordenadas)
 - Requerimientos eléctricos y de infraestructura
 
@@ -77,7 +77,7 @@ Cada documento ejecutivo incluye:
 
 ### **👥 Para Stakeholders:**
 - **Especialistas de cada área:** Validación de criterios técnicos
-- **Stakeholders ejecutivos:** Entendimiento de decisiones de diseño
+- **Stakeholders ejecutivos:** Entendimiento de decisiones de diseno
 - **Equipos de construcción:** Requerimientos específicos
 - **Auditores técnicos:** Verificación de cumplimiento contractual
 

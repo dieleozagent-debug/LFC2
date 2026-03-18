@@ -187,7 +187,7 @@ Cliente accede vía WBS_Menu_Principal.html
 |----|---------|------------|------------------|
 | **BLOCKER-001** | Indefinición PTC/PTC VIRTUAL L2 | ✅ CONFIRMADO (AT3) | Oficiar ANI - Definición formal Mes 6 |
 | **BLOCKER-002** | Protocolos FENOCO | 🟡 PARCIAL (AT10) | Reunión técnica FENOCO Mes 5 |
-| **BLOCKER-003** | Cantidades PANs | ⏳ Pendiente AT1 | Confirmar diseño modular PANs |
+| **BLOCKER-003** | Cantidades PANs | ⏳ Pendiente AT1 | Confirmar diseno modular PANs |
 | **BLOCKER-004** | Cronograma MR | ✅ CONFIRMADO (AT9) | Oficiar ANI - Cronograma entrega |
 
 **Hallazgo contractual clave:**

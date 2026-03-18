@@ -132,7 +132,7 @@ La carpeta **7_SISTEMAS_EJECUTIVOS** contiene **13 documentos ejecutivos** dise�
 - **Cómo** se justifican los criterios técnicos y supuestos
 - **Dónde** están ubicados los componentes (PKs, coordenadas)
 - **Qué** requerimientos eléctricos y de infraestructura se necesitan
-- **Cuáles** son los riesgos y limitaciones del diseño
+- **Cuáles** son los riesgos y limitaciones del diseno
 
 ### **📋 CARACTERÍSTICAS DE LOS DOCUMENTOS EJECUTIVOS:**
 - **Formato ejecutivo:** Lenguaje claro y comprensible
@@ -145,7 +145,7 @@ La carpeta **7_SISTEMAS_EJECUTIVOS** contiene **13 documentos ejecutivos** dise�
 
 ### **👥 USUARIOS OBJETIVO:**
 - **Especialistas de cada área:** Para validar criterios técnicos
-- **Stakeholders ejecutivos:** Para entender decisiones de diseño
+- **Stakeholders ejecutivos:** Para entender decisiones de diseno
 - **Equipos de construcción:** Para entender requerimientos específicos
 - **Auditores técnicos:** Para validar cumplimiento contractual
 
@@ -160,7 +160,7 @@ La carpeta **7_SISTEMAS_EJECUTIVOS** contiene **13 documentos ejecutivos** dise�
 
 ### **Actualizaciones por Eventos:**
 - ✅ **Completación de fase:** Actualizar documentos afectados
-- ✅ **Aprobación de diseño:** Sincronizar con carpetas I-VI
+- ✅ **Aprobación de diseno:** Sincronizar con carpetas I-VI
 - ✅ **Cambios contractuales:** Actualizar referencias
 - ✅ **Lecciones aprendidas:** Incorporar mejoras
 
@@ -287,7 +287,7 @@ La Carpeta X será exitosa si cumple:
 ### **Carpetas de Trabajo:**
 - **I. Contractual:** Base legal y contractual
 - **III. Conceptual:** Ingeniería conceptual
-- **IV. Básica:** Ingeniería básica
+- **IV. Básica:** Ingeniería basica
 - **V. Detalle:** Ingeniería de detalle
 - **VI. Operación:** Manuales de operación
 

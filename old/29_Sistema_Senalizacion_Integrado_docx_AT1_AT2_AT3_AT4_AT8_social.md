@@ -15,14 +15,14 @@ El Sistema de Señalización es un componente de seguridad vital, cuyas especifi
 - **Cláusula 8.2 (Construcción):** Obliga a la instalación y puesta en marcha de todos los sistemas de señalización.
 
 ### 1.2 ⚠️ EVALUACIÓN DE DEPENDENCIAS DOCUMENTALES
-Este documento es la base para el diseño de la seguridad en la vía. Su correcta definición es crítica para la protección de la operación y de las comunidades.
+Este documento es la base para el diseno de la seguridad en la vía. Su correcta definición es crítica para la protección de la operación y de las comunidades.
 
 - **Depende de:**
     - `AT1`, `AT2`, `AT3`, `AT4`, `AT8`: Fuentes primarias de requisitos.
     - `26. Sistem_CTC_Int...md`: Define las interfaces de control que la señalización debe obedecer. **(Recién completado, desbloquea este documento)**.
 - **Gobierna a:**
-    - `V. Ingenieria de detalle/1_Se_alizaci_n_ferroviaria_Contrato_8_1.md`: El diseño de detalle de enclavamientos y señales se basa en los conceptos aquí definidos.
-    - `V. Ingenieria de detalle/3_Pasos_a_nivel_Contrato_8_3.md`: El diseño de los 146 pasos a nivel se rige por las especificaciones de esta sección.
+    - `V. Ingenieria de detalle/1_Se_alizaci_n_ferroviaria_Contrato_8_1.md`: El diseno de detalle de enclavamientos y señales se basa en los conceptos aquí definidos.
+    - `V. Ingenieria de detalle/3_Pasos_a_nivel_Contrato_8_3.md`: El diseno de los 146 pasos a nivel se rige por las especificaciones de esta sección.
     - `34_Criterios_Interoperabilidad...md`: La señalización debe ser compatible con los estándares de FENOCO.
 
 ---
@@ -38,7 +38,7 @@ Este análisis se fundamenta en la estructura de trabajo ya aprobada y en el doc
 | `26. Sistem_CTC_Int...md` | Define la arquitectura de control y las interfaces que los enclavamientos deben proveer al CTC. |
 
 ### 2.2 Documentos Dependientes (Bloqueados 🔴)
-El diseño detallado de la señalización no puede avanzar hasta que este concepto de integración sea validado.
+El diseno detallado de la señalización no puede avanzar hasta que este concepto de integración sea validado.
 
 | Documento | Dependencia |
 |---|---|
@@ -48,7 +48,7 @@ El diseño detallado de la señalización no puede avanzar hasta que este concep
 ### 2.3 Interfaces Críticas
 - **Señalización ↔ CTC:** La señalización es el "brazo ejecutor" del CTC. Recibe comandos y devuelve el estado de la vía.
 - **Señalización ↔ Pasos a Nivel:** Los sistemas de protección de los pasos a nivel (barreras, luces) son parte integral del sistema de señalización y deben estar enclavados.
-- **Señalización ↔ Gestión Social (AT8):** El diseño de la señalización en pasos a nivel debe considerar las campañas de cultura vial y la seguridad de las comunidades.
+- **Señalización ↔ Gestión Social (AT8):** El diseno de la señalización en pasos a nivel debe considerar las campañas de cultura vial y la seguridad de las comunidades.
 - **Señalización ↔ Energía:** Requiere alimentación eléctrica redundante y respaldada por UPS para garantizar la operación continua y segura.
 - **Señalización ↔ PTC:** Preparación de interfaces para integración con sistemas de control embarcados usando PTC Virtual (FRA 236) hasta AT3.
 - **Señalización ↔ FENOCO:** Compatibilidad con estándares de señalización FENOCO según protocolos FRA/AREMA.
@@ -77,17 +77,17 @@ La siguiente matriz integra los requisitos de los diferentes apéndices en funci
 
 | Requisito Contractual | Fuente | Funcionalidad de Señalización Asociada | Estado AT3/AT4 |
 |---|---|---|:---:|
-| **5 Enclavamientos Electrónicos (ENCE)** | AT1, Tabla 17 | Diseño e implementación de CBI en Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México.<br>- **Disponibilidad 99.95% según AT4** | ⚠️ Condicionado |
-| **146 Pasos a Nivel (PN)** | AT1, Cap. 4.5 | Diseño e instalación de 9 PN Tipo C (barreras), 15 PN Tipo B (luz/sonido) y 122 PN Tipo A (fijas), cumpliendo NTC 4741. | ✅ Definido |
+| **5 Enclavamientos Electrónicos (ENCE)** | AT1, Tabla 17 | Diseno e implementación de CBI en Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México.<br>- **Disponibilidad 99.95% según AT4** | ⚠️ Condicionado |
+| **146 Pasos a Nivel (PN)** | AT1, Cap. 4.5 | Diseno e instalación de 9 PN Tipo C (barreras), 15 PN Tipo B (luz/sonido) y 122 PN Tipo A (fijas), cumpliendo NTC 4741. | ✅ Definido |
 | **Detección de Trenes** | AT3, Cap. 8.1 | Implementación de contadores de ejes (ET 03.365.310.6) como sistema principal de detección. | ✅ Definido |
-| **Disponibilidad PNBC 100%** | AT4 | Diseño de sistemas de protección de PN con redundancia en alimentación y comunicación para garantizar disponibilidad total. | 🔴 Bloqueado |
-| **Cultura Vial Ferroviaria** | AT8, Cap. 7.19 | Diseño de señalización en PN (especialmente Tipo A) coordinado con las campañas de capacitación y sensibilización comunitaria. | ✅ Definido |
+| **Disponibilidad PNBC 100%** | AT4 | Diseno de sistemas de protección de PN con redundancia en alimentación y comunicación para garantizar disponibilidad total. | 🔴 Bloqueado |
+| **Cultura Vial Ferroviaria** | AT8, Cap. 7.19 | Diseno de señalización en PN (especialmente Tipo A) coordinado con las campañas de capacitación y sensibilización comunitaria. | ✅ Definido |
 | **Integración con CTC** | AT3, Cap. 8.2 | Implementación de interfaz SCI-CC-A (NAS 830) en cada enclavamiento para la comunicación con el CTC. | ✅ Definido |
 | **Integración PTC/PTC** | AT1, Tabla 17 | Preparación de interfaces en enclavamientos para la futura integración con el sistema de control positivo de trenes.<br>- **PTC PTC Virtual (FRA 236) hasta AT3**<br>- **Interoperabilidad FENOCO FRA/AREMA** | 🔴 Bloqueado |
 
 ### 4.2 Indicadores de Riesgo por Bloqueo AT3/AT4
-- **🟢 Verde (Proceder):** Diseño conceptual de la filosofía de señalización, diseño de PN Tipo A, planificación de la implementación por fases, coordinación con programas de AT8.
-- **🟡 Amarillo (Diseño Modular):** Diseño de la lógica de los enclavamientos (CBI) y de los PN Tipo B y C. Se puede avanzar en el diseño funcional, pero las especificaciones de hardware dependen de AT3.
+- **🟢 Verde (Proceder):** Diseno conceptual de la filosofía de señalización, diseno de PN Tipo A, planificación de la implementación por fases, coordinación con programas de AT8.
+- **🟡 Amarillo (Diseno Modular):** Diseno de la lógica de los enclavamientos (CBI) y de los PN Tipo B y C. Se puede avanzar en el diseno funcional, pero las especificaciones de hardware dependen de AT3.
 - **🔴 Rojo (Bloqueado):** Adquisición de equipos específicos de señalización cuyas especificaciones técnicas están en AT3. Cálculo y reporte de indicadores de disponibilidad definidos en AT4.
 
 ---
@@ -99,12 +99,12 @@ Este documento ha sido actualizado a la versión 4.0, estableciendo un **plan co
 
 ### 5.2 Acciones Requeridas para Mantener v4.0
 - **Validación de Filosofía:** El equipo de ingeniería debe validar la adopción de contadores de ejes como sistema principal de detección.
-- **Coordinación con Gestión Social:** El diseño de la señalización en Pasos a Nivel debe realizarse en talleres conjuntos con el equipo de Gestión Social para asegurar la coherencia con las campañas de AT8.
+- **Coordinación con Gestión Social:** El diseno de la señalización en Pasos a Nivel debe realizarse en talleres conjuntos con el equipo de Gestión Social para asegurar la coherencia con las campañas de AT8.
 
 ### 5.3 Criterios para Avance
 La aprobación de este documento conceptual permite:
 - **Desbloquear el Paquete de Trabajo 1.3 (Capacidad y Surcos):** Al definir cómo se detectarán los trenes y se controlarán las rutas, se puede avanzar en el modelo de simulación de capacidad.
-- **Iniciar el Diseño Básico de Señalización:** Incluyendo la elaboración de los planos de principio para los 5 enclavamientos y los diseños tipo para los PN.
+- **Iniciar el Diseno Básico de Señalización:** Incluyendo la elaboración de los planos de principio para los 5 enclavamientos y los disenos tipo para los PN.
 - **Avanzar en el Plan de Obras (AT9):** Detallar el cronograma de implementación de los PN por fases.
 
 ---

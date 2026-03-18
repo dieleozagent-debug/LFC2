@@ -33,7 +33,7 @@ Este documento traduce las obligaciones de la **Cláusula 8.1 (Preconstrucción)
 
 | Obligación | Requisito para Ingeniería | Documento Relacionado |
 |:---|:---|:---|
-| **Estudios y Diseños de Detalle** | Generar toda la ingeniería (Conceptual, Básica, Detalle) para todos los sistemas. | `25_WBS_IngenieriaConceptual...md` |
+| **Estudios y Disenos de Detalle** | Generar toda la ingeniería (Conceptual, Básica, Detalle) para todos los sistemas. | `25_WBS_IngenieriaConceptual...md` |
 | **Gestión de Licencias y Permisos** | Iniciar trámites para ANE, ANLA y municipios. | `40. Plan_GestionPermisos...md` |
 | **Metodología BIM** | Implementar el Plan de Ejecución BIM (BEP) desde el inicio. | `Anexo AT1-2 Anexo BIM` |
 | **Plan de Obras** | Entregar cronograma detallado en 330 días. | `19. AT9_Plan_de_Obras_MEJORADO.md` |
@@ -54,8 +54,8 @@ Este documento traduce las obligaciones de la **Cláusula 8.1 (Preconstrucción)
 
 | ID | Riesgo/Supuesto | Impacto | Estrategia de Mitigación |
 |:---|:---|:---|:---|
-| **R-GES-004** | Desfase entre la aprobación de diseños (Cl. 8.1) y el cronograma del Plan de Obras (AT9). | **Alto.** Retrasos en el inicio de la construcción. | Integrar el cronograma de entregables de ingeniería con el Plan de Obras desde la Fase Conceptual. |
-| **R-TEC-001** | Indefinición de la tecnología PTC (AT1 y AT3) bloquea el diseño del material rodante. | **Crítico.** Imposibilidad de cumplir con la Puesta a Punto. | Formalizar consulta a la Interventoría y proponer arquitectura modular "PTC-Ready". |
+| **R-GES-004** | Desfase entre la aprobación de disenos (Cl. 8.1) y el cronograma del Plan de Obras (AT9). | **Alto.** Retrasos en el inicio de la construcción. | Integrar el cronograma de entregables de ingeniería con el Plan de Obras desde la Fase Conceptual. |
+| **R-TEC-001** | Indefinición de la tecnología PTC (AT1 y AT3) bloquea el diseno del material rodante. | **Crítico.** Imposibilidad de cumplir con la Puesta a Punto. | Formalizar consulta a la Interventoría y proponer arquitectura modular "PTC-Ready". |
 
 ---
 

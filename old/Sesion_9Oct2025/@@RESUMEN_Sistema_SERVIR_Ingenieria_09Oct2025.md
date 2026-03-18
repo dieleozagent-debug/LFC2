@@ -123,7 +123,7 @@ X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/HTML/
   - 📥 **Word** → Descarga .docx (atributo `download`)
   - 🌐 **HTML** → Abre en nueva pestaña (`target="_blank"`)
   - 🖨️ **Imprimir** → Función `window.open().print()`
-- ✅ **Diseño profesional:** Gradientes, animaciones hover, tarjetas elevadas
+- ✅ **Diseno profesional:** Gradientes, animaciones hover, tarjetas elevadas
 - ✅ **Instrucciones de uso** al final
 
 ---
@@ -301,7 +301,7 @@ X_ENTREGABLES_CONSOLIDADOS\8_DOCUMENTOS_SERVIDOS\HTML\
 ### **📊 Dashboard Superior:**
 - Estadísticas en tarjetas: 16 Word, 14 DTs, 3 actualizados hoy, 17 HTML
 - Badge verde: "✅ Última actualización: 9 de Octubre 2025"
-- Diseño profesional con gradientes azul/morado
+- Diseno profesional con gradientes azul/morado
 
 ### **⭐ Sección "Documentos Actualizados":**
 **3 tarjetas con borde verde:**
@@ -368,7 +368,7 @@ X_ENTREGABLES_CONSOLIDADOS\8_DOCUMENTOS_SERVIDOS\HTML\
 4. ✅ `X/8_DOCUMENTOS_SERVIDOS/HTML/GESTION_EJECUTIVO_Cambios_y_Decisiones_Tecnicas.html` (índice cliente)
 
 ### **Archivos actualizados:**
-1. ✅ `IV. Ingenieria básica/41. Interfaces_Sistemas_MEJORADO.md` (IF-07 + §3.3)
+1. ✅ `IV. Ingenieria basica/41. Interfaces_Sistemas_MEJORADO.md` (IF-07 + §3.3)
 2. ✅ `V. Ingenieria de detalle/V.2_CTC_v5.0.md` (§12.4)
 3. ✅ `VII. Soporte Especializado/VII.2.4_Interfaces_CTC_PTC.md` (§2.2)
 4. ✅ `IX. WBS y Planificacion/WBS_Menu_Principal.html` (botón SERVIR)

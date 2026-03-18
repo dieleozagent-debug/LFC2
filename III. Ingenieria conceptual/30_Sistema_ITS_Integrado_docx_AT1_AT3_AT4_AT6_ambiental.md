@@ -22,7 +22,7 @@ Este documento define la "inteligencia" del corredor, integrando datos de múlti
     - `26. Sistem_CTC_Int...md`: Proporciona los datos de operación del tráfico.
     - `28_Sistema_FibraOptica_Integrado...md`: Define el backbone de comunicaciones para los sensores ITS.
 - **Gobierna a:**
-    - `V. Ingenieria de detalle`: El diseño de detalle de los sensores y la plataforma ITS se basa en este concepto.
+    - `V. Ingenieria de detalle`: El diseno de detalle de los sensores y la plataforma ITS se basa en este concepto.
     - `38. DiagramasArquitectura...md`: La arquitectura ITS es un componente central de este diagrama.
 
 ---
@@ -40,7 +40,7 @@ Este análisis se fundamenta en la estructura de trabajo ya aprobada.
 ---
 
 ### 2.2 Documentos Dependientes (Bloqueados 🔴)
-El diseño detallado de los componentes ITS no puede avanzar hasta que este concepto de integración sea validado.
+El diseno detallado de los componentes ITS no puede avanzar hasta que este concepto de integración sea validado.
 
 | Documento | Dependencia |
 |---|---|
@@ -68,7 +68,7 @@ Se propone una arquitectura ITS modular que permite una implementación por fase
 
 ### 3.2 Estrategia de Avance con Bloqueos AT3/AT4
 Dado que las especificaciones detalladas de algunos sensores (AT3) y los KPIs finales (AT4) están bloqueados, se adopta una estrategia de mitigación:
-- **Diseño Basado en Estándares:** La plataforma ITS se diseñará siguiendo el estándar ISO TC-204, lo que garantiza la compatibilidad con una amplia gama de sensores y facilita la integración futura.
+- **Diseno Basado en Estándares:** La plataforma ITS se diseñará siguiendo el estándar ISO TC-204, lo que garantiza la compatibilidad con una amplia gama de sensores y facilita la integración futura.
 - **Enfoque en Integración:** Se priorizará la integración con los sistemas ya definidos (CTC, Señalización, Fibra Óptica), dejando "placeholders" para los datos de los sensores que dependen de AT3.
 
 ---
@@ -88,8 +88,8 @@ La siguiente matriz integra los requisitos de los diferentes apéndices en funci
 | **Información al Usuario** | AT3, Cap. 6.2 | Desarrollo de paneles de mensaje variable (PMV), aplicación móvil y portal web con información en tiempo real.<br>- **Integración PTC PTC Virtual (FRA 236) hasta AT3**<br>- **Interoperabilidad FENOCO FRA/AREMA** | ✅ Definido |
 
 ### 4.2 Indicadores de Riesgo por Bloqueo AT3/AT4
-- **🟢 Verde (Proceder):** Diseño de la plataforma central, arquitectura de red, integración con CTC y sistemas de monitoreo ambiental.
-- **🟡 Amarillo (Diseño Modular):** Diseño de los sistemas de seguridad vial en pasos a nivel. Se puede avanzar en la lógica, pero la selección final de sensores depende de AT3.
+- **🟢 Verde (Proceder):** Diseno de la plataforma central, arquitectura de red, integración con CTC y sistemas de monitoreo ambiental.
+- **🟡 Amarillo (Diseno Modular):** Diseno de los sistemas de seguridad vial en pasos a nivel. Se puede avanzar en la lógica, pero la selección final de sensores depende de AT3.
 - **🔴 Rojo (Bloqueado):** Desarrollo de los dashboards de KPIs específicos (depende de AT4). Adquisición de sensores con especificaciones técnicas detalladas en AT3.
 
 ---
@@ -101,12 +101,12 @@ Este documento ha sido actualizado a la versión 4.0, estableciendo un **plan co
 
 ### 5.2 Acciones Requeridas para Mantener v4.0
 - **Validación de Arquitectura:** El equipo de ingeniería debe validar la arquitectura modular y las interfaces propuestas con los proveedores de tecnología ITS.
-- **Coordinación con Gestión Ambiental:** El diseño del módulo ambiental debe realizarse en talleres conjuntos con el equipo de Gestión Ambiental (AT6).
+- **Coordinación con Gestión Ambiental:** El diseno del módulo ambiental debe realizarse en talleres conjuntos con el equipo de Gestión Ambiental (AT6).
 
 ### 5.3 Criterios para Avance
 La aprobación de este documento conceptual permite:
 - **Desbloquear el Paquete de Trabajo 3.2 (Sistema CCTV):** Al definir la plataforma de integración y los requisitos de análisis de video.
-- **Iniciar el Diseño Básico del ITS:** Incluyendo la elaboración de los diagramas de arquitectura y la especificación de la plataforma de software.
+- **Iniciar el Diseno Básico del ITS:** Incluyendo la elaboración de los diagramas de arquitectura y la especificación de la plataforma de software.
 - **Avanzar en el Plan de Obras (AT9):** Detallar el cronograma de despliegue de sensores y PMV.
 
 ---

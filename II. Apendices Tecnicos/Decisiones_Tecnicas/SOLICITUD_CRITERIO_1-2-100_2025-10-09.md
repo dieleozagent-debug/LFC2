@@ -62,7 +62,7 @@
 
 2. **Cálculo detallado:**
    - 2 locomotoras GR12 + 2 U10 + 1 U18C = 5 operativas
-   - 2 unidades diseño/pruebas FAT/SAT
+   - 2 unidades diseno/pruebas FAT/SAT
    - 1 unidad contingencia/repuesto
    - TOTAL: 8 computadoras PTC
 

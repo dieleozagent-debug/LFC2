@@ -61,7 +61,7 @@ APENDICE TÉCNICO 3 ESPECIFICACIONES GENERALES
 TABLA DE CONTENIDO
 ### CAPÍTULO I - INTRODUCCIÓN 4
 CAPÍTULO 11 VÍAS FÉRREAS 5
-#### 2.1 Estudios y Diseños 5
+#### 2.1 Estudios y Disenos 5
 #### 2.2 Intervenciones 7
 #### 2.3 Requerimientos a la terminación de la Unidad Funcional y/o Unidad Funcional de Vía Férrea 9
 CAPÍTULO 111 MATERIAL RODANTE 10
@@ -131,7 +131,7 @@ FRA/AREMA.
 Página 4 de 45
 
 CAPÍTULOII VÍAS FÉRREAS
-#### 2.1 Estudios y Diseños
+#### 2.1 Estudios y Disenos
 
 (a) En el desarrollo y presentación de los Estudios de Detalle relacionados con las Intervenciones que impliquen las obras de Construcción, obras de Mantenimiento, Mejoramiento yo Rehabilitación de la Infraestructura, el Concesionario deberá cumplir con las disposiciones establecidas en el Apéndice Técnico 1, así como los manuales yo normas técnicas que se encuentren vigente al momento de la ejecución de las Intervenciones, sean obligatorias para la ejecución de estas actividades, en particular, pero sin limitarse, con las identificadas en el siguiente listado:
 
@@ -159,7 +159,7 @@ AASHTO LRFD Bridge Design Specifications 2020.
 Reglas para operación férrea segura de FRA (Federal Railroad Administration TRACK AND RAIL AND INFRASTRUCTURE INTEGRITY COMPLIANCE MANDA 2018).
 Manual de Señalización Vial - Dispositivos Uniformes para la Regulación del Tránsito en Calles, Carreteras y Ciclorutas de Colombia. Adoptado mediante Resolución 1885 del 17 de junio de 2015 del Ministerio de Transporte.
 Metodología General para la Presentación de Estudios Ambientales, expedida por el Ministerio de Ambiente y Desarrollo Sostenible conforme Resolución 1503 del 4 de agosto de 2010.
-Ley 105 de diciembre 30 de 1993, "Por la cual se dictan disposiciones básicas sobre el transporte, se redistribuyen competencias y recursos entre la Nación y las Entidades Territoriales, se reglamenta la planeación en el sector transporte y se dictan otras disposiciones".
+Ley 105 de diciembre 30 de 1993, "Por la cual se dictan disposiciones basicas sobre el transporte, se redistribuyen competencias y recursos entre la Nación y las Entidades Territoriales, se reglamenta la planeación en el sector transporte y se dictan otras disposiciones".
 Ley 1523 del 24 de abril del 2012 "Por la cual se adopta la política nacional de gestión del riesgo de desastres y se establece el Sistema Nacional de Gestión del Riesgo de Desastres", Decreto 2157 de diciembre 20 de 2017 "Por medio del cual se adoptan directrices generales para la elaboración del plan de
 Página 5 de 45
 
@@ -180,16 +180,16 @@ XX.
 XXI.
 gestión del riesgo de desastres de las entidades públicas y privadas en el marco del artículo 42 de la Ley 1523 de 2012" y el Decreto 602 del 6 de abril de 2017 "Por el cual se adiciona la Parte 4 del Libro 2 del Decreto 1079 de 2015 y se reglamentan los artículos 84 de la Ley 1523 de 2012 y 12 y 63 de la Ley 1682 de 2013, en relación con la gestión del riesgo de desastres en el Sector Transporte y se dictan otras disposiciones".
 Resolución 256 de 2018 con la cual se adoptó la actualización del Manual de Compensaciones Ambientales del Componente Bíótico teniendo en cuenta las lecciones aprendidas de años de implementación del Manual de Asignación de Compensaciones por Pérdida de Biodiversidad (Resolución 1517 de 2012).
-Guía técnica para el diseño de las zonas laterales, para vías más seguras, divulgado por la Corporación Fondo de Seguridad Vial en septiembre de 2012.
+Guía técnica para el diseno de las zonas laterales, para vías más seguras, divulgado por la Corporación Fondo de Seguridad Vial en septiembre de 2012.
 Ley 1618 de 2013 y circular externa 11 de marzo 4 de 2015 de la Superintendencia de Puertos y Transporte (acceso a personas con discapacidad).
 Resolución 4577 del 23 de septiembre de 2009, adición al Manual de Señalización de señales turísticas.
 Resolución 24 del 7 de enero de 2011, Manual de Drenaje para Carreteras.
 Resolución 3290 del 15 de agosto de 2007, Normas de Ensayo de Materiales.
 Resolución 3288 del 15 de agosto de 2007, Especificaciones Generales de Construcción de Carreteras.
 Resolución 7106 del 2 de diciembre de 2009, Guía de Manejo Ambiental.
-Norma Colombiana de Diseño de Puentes (CCP-2014), adoptada mediante
+Norma Colombiana de Diseno de Puentes (CCP-2014), adoptada mediante
 xxii. Resolución 108 de 26 de enero de 2015.
-Normas Colombianas de Diseño y Construcción Sismo Resistente, NSRlO.
+Normas Colombianas de Diseno y Construcción Sismo Resistente, NSRlO.
 
 (b)
 
@@ -197,8 +197,8 @@ i.
 ii. iii. iv.
 En caso de que algunos parámetros no estén establecidos en las normas anteriores el Concesionario deberá utilizar las especificaciones yo normas técnicas de carácter internacional listadas a continuación:
 
-EUROCÓDIGO 1: Acciones en Estructuras (Partes 1 y 2). EUROCÓDIGO 2: Diseño de Estructuras de Concreto.
-EUROCÓDIGO 3: Diseño de Estructuras de Acero. EUROCÓDIGO 4: Diseño de Estructuras de Acero y Concreto.
+EUROCÓDIGO 1: Acciones en Estructuras (Partes 1 y 2). EUROCÓDIGO 2: Diseno de Estructuras de Concreto.
+EUROCÓDIGO 3: Diseno de Estructuras de Acero. EUROCÓDIGO 4: Diseno de Estructuras de Acero y Concreto.
 
 (c) Adicionalmente, el Concesionario deberá cumplir con las siguientes especificaciones:
 
@@ -265,15 +265,15 @@ xii.
 xiii,
 
 xiv,
-Diseños de Detalle no objetados por la lnterventoría y cumplir con las disposiciones establecidas en el Apéndice Técnico 1 y los manuales yo normas técnicas que se encuentren vigente al momento de la ejecución de las Intervenciones, sean obligatorias para la ejecución de este tipo de Intervenciones, y, en particular, pero sin limitarse, con las identificadas en el siguiente listado.
+Disenos de Detalle no objetados por la lnterventoría y cumplir con las disposiciones establecidas en el Apéndice Técnico 1 y los manuales yo normas técnicas que se encuentren vigente al momento de la ejecución de las Intervenciones, sean obligatorias para la ejecución de este tipo de Intervenciones, y, en particular, pero sin limitarse, con las identificadas en el siguiente listado.
 Manual for Railway Engineering AREMA 2021. Standardization lnternational Union of Railways - FRA/AREMA 2019
 Normativa de la Railroad Administration de los Estados Unidos de Norteamérica.
 Resolución 4577 del 23 de septiembre de 2009, adición al Manual de Señalización de señales turísticas.
 Resolución 24 del 7 de enero de 2011, Manual de Drenaje para Carreteras (2009).
 Especificaciones Generales de Construcción de Carreteras última actualización 22 de agosto de 2018.
 Resolución 7106 del 2 de diciembre de 2009, Guía de Manejo Ambiental.
-Norma Colombiana de Diseño de Puentes (CCP-2014). Adoptada mediante Resolución No 108 de 26 de enero de 2015.
-Normas Colombianas de Diseño y Construcción Sismo Resistente, NSRl O.
+Norma Colombiana de Diseno de Puentes (CCP-2014). Adoptada mediante Resolución No 108 de 26 de enero de 2015.
+Normas Colombianas de Diseno y Construcción Sismo Resistente, NSRl O.
 Communications and Signals Manual-AREMA 2021.
 Manual of Standards and recommended practices de la Association of American Railroads - AAR 2022.
 AASHTO LRFD Bridge Design Specifications 2020.
@@ -396,16 +396,16 @@ IX.
 x.
 En el desarrollo y presentación de los Estudios de Detalle relacionados con las Intervenciones que impliquen las obras de Construcción, obras de Mantenimiento, Mejoramiento yo Rehabilitación de vías para tránsito de vehículos, el Concesionario deberá cumplir con las disposiciones establecidas en el Apéndice Técnico 1 y los manuales yo normas técnicas que se encuentren vigente al momento de la ejecución de las Intervenciones, sean obligatorias para la ejecución de estas actividades, en particular, pero sin limitarse, con las identificadas en el siguiente listado:
 
-Manual de Diseño Geométrico para Carreteras. Adoptado mediante Resolución No. 000744 del 4 de marzo de 2009 del INVIAS.
-Manual de Diseño de Pavimentos Asfálticos en Vías con Medios y Altos Volúmenes de Tránsito. Adoptado Mediante Resolución No.002857 del 6 de Julio de 1999 del INVIAS.
-Manual de Diseño de Pavimentos Asfálticos en Vías con Bajos Volúmenes de Tránsito. Adoptado Mediante Resolución No. 003482 de 2007 del INVIAS.
+Manual de Diseno Geométrico para Carreteras. Adoptado mediante Resolución No. 000744 del 4 de marzo de 2009 del INVIAS.
+Manual de Diseno de Pavimentos Asfálticos en Vías con Medios y Altos Volúmenes de Tránsito. Adoptado Mediante Resolución No.002857 del 6 de Julio de 1999 del INVIAS.
+Manual de Diseno de Pavimentos Asfálticos en Vías con Bajos Volúmenes de Tránsito. Adoptado Mediante Resolución No. 003482 de 2007 del INVIAS.
 Manual de Capacidad y Niveles de Servicio para Carreteras de Dos Carriles Tercera Versión - 2020.
-Guía Metodológica para el Diseño de Obras de Rehabilitación de Pavimentos Asfálticos de Carreteras. Adoptada por la Resolución 743 de 2009 del Ministerio de Transporte.
+Guía Metodológica para el Diseno de Obras de Rehabilitación de Pavimentos Asfálticos de Carreteras. Adoptada por la Resolución 743 de 2009 del Ministerio de Transporte.
 Manual de Señalización Vial- Dispositivos Uniformes para la Regulación del Tránsito en Calles, Carreteras y Ciclorutas de Colombia. Adoptado mediante Resolución 1885 del 17 de junio de 2015 del Ministerio de Transporte.
 Metodologías de Trabajo para la Señalización de Velocidad y Zonas de Adelantamiento en la Red Nacional de Carreteras. Adoptado Mediante Resolución 001384 de abril 20 de 2010.
 Manual de Drenaje de Carreteras. Adoptado mediante Resolución 000024 de 2011 del Ministerio de Transporte.
 Normas de Ensayos de Materiales para Carreteras Inv-13. Adoptado Mediante Resolución 1375 del 26 de mayo de 2014 del Ministerio de Transporte.
-Manual de Diseño de Pavimentos de Concreto para Vías con Bajos, Medios y Altos Volúmenes de Tránsito. Adoptado mediante Resolución 000803 de 2009 del Ministerio de Transporte
+Manual de Diseno de Pavimentos de Concreto para Vías con Bajos, Medios y Altos Volúmenes de Tránsito. Adoptado mediante Resolución 000803 de 2009 del Ministerio de Transporte
 Página 13 de 45
 
 ;
@@ -422,8 +422,8 @@ XV.
 
 xvi. xvii, xviii.
 Metodología General para la Presentación de Estudios Ambientales, Expedida por el Ministerio de Ambiente y Desarrollo Sostenible conforme Resolución 1503 del 4 de agosto de 2010.
-Criterios para el diseño geométrico y paisajístico de la franja de aislamiento y la calzada de desaceleración establecidos en los Decretos 3600 de 2007 y 4066 de 2008.
-Guía técnica para el diseño de las zonas laterales, para vías más seguras, divulgado por la Corporación Fondo de Seguridad Vial en septiembre de 2012.
+Criterios para el diseno geométrico y paisajístico de la franja de aislamiento y la calzada de desaceleración establecidos en los Decretos 3600 de 2007 y 4066 de 2008.
+Guía técnica para el diseno de las zonas laterales, para vías más seguras, divulgado por la Corporación Fondo de Seguridad Vial en septiembre de 2012.
 Resolución 77506 del 10 de noviembre de 2016 del Ministerio de Comercio, Industria y Turismo (control metrológico sistemas de pesaje).
 Decreto 1079 del 26 de mayo de 2015 expedido por el Ministerio de Transporte "Por medio del cual se expide el Decreto Único Reglamentario del Sector Transporte".
 Ley 1228 de julio 16 de 2008.
@@ -461,13 +461,13 @@ Para las vías de servicio, aplica la especificación técnica particular inclui
 
 Intervenciones
 
-(a) Para el desarrollo de las Intervenciones del Proyecto relacionadas con las obras de Construcción, obras de Mantenimiento, Mejoramiento y/o Rehabilitación de la Infraestructura Férrea tales como puentes, viaductos y otras estructuras, el Concesionario las deberá realizar de acuerdo con los Estudios y Diseños de Detalle no objetados por la Interventoría y deberá cumplir con las disposiciones establecidas en el Apéndice Técnico 1 y los manuales y/o normas técnicas que, a se encuentren vigente al momento de la ejecución de las Intervenciones, sean obligatorias para la ejecución de este tipo de Intervenciones, y, en particular, pero sin limitarse, con las identificadas en el siguiente listado.
+(a) Para el desarrollo de las Intervenciones del Proyecto relacionadas con las obras de Construcción, obras de Mantenimiento, Mejoramiento y/o Rehabilitación de la Infraestructura Férrea tales como puentes, viaductos y otras estructuras, el Concesionario las deberá realizar de acuerdo con los Estudios y Disenos de Detalle no objetados por la Interventoría y deberá cumplir con las disposiciones establecidas en el Apéndice Técnico 1 y los manuales y/o normas técnicas que, a se encuentren vigente al momento de la ejecución de las Intervenciones, sean obligatorias para la ejecución de este tipo de Intervenciones, y, en particular, pero sin limitarse, con las identificadas en el siguiente listado.
 
 Especificaciones Generales de Construcción para Carreteras. Adoptadas mediante Resolución No. 1376 de mayo de 2014 por el Ministerio de Transporte, además de los documentos posteriores que las actualicen, modifiquen, desarrollen o sustituyan.
 Normas de Ensayo de Materiales para Carreteras. Adoptadas mediante Resolución No. 1375 del 26 de mayo de 2014 por el Ministerio de Transporte, además de los documentos posteriores que las actualicen, modifiquen, desarrollen o sustituyan.
 Manual de Mantenimiento de Carreteras del INVIAS 2016. Versión 2.
 Reglamento para la Certificación Sobre la Calidad Técnica de Mezclas Asfálticas para Proyectos de Pavimentación. Adoptado mediante la Resolución No. 000070 del 21 de enero de 2004 por el Ministerio de Transporte, además de los documentos posteriores que las actualicen, modifiquen, desarrollen o sustituyan.
-Guía Metodológica para el Diseño de obras de Rehabilitación de Pavimentos Asfálticos de Carreteras. Adoptada por la Resolución 743 de 2009 del Ministerio de Transporte.
+Guía Metodológica para el Diseno de obras de Rehabilitación de Pavimentos Asfálticos de Carreteras. Adoptada por la Resolución 743 de 2009 del Ministerio de Transporte.
 
 En caso de que algunos parámetros no estén establecidos en las normas anteriores el Concesionario deberá utilizar las especificaciones yo normas técnicas de carácter internacional listadas a continuación:
 
@@ -530,7 +530,7 @@ Página 17 de 45
 
 5 .1 Estudios de Detalle
 
-(a) En el desarrollo y presentación de los Estudios de Detalle relacionados con las Intervenciones que impliquen las obras de Construcción, obras de Mantenimiento, Mejoramiento y/o Rehabilitación de la Infraestructura Férrea tales como puentes, viaductos y otras estructuras, el Concesionario deberá cumplir con las disposiciones establecidas en el Apéndice Técnico 1 y los manuales y/o normas técnicas que, a se encuentren vigente al momento de la ejecución de las Intervenciones, sean obligatorias para la ejecución de los estudios y diseños de este tipo de Intervenciones, y, en particular, pero sin limitarse, con las identificadas en el siguiente listado.
+(a) En el desarrollo y presentación de los Estudios de Detalle relacionados con las Intervenciones que impliquen las obras de Construcción, obras de Mantenimiento, Mejoramiento y/o Rehabilitación de la Infraestructura Férrea tales como puentes, viaductos y otras estructuras, el Concesionario deberá cumplir con las disposiciones establecidas en el Apéndice Técnico 1 y los manuales y/o normas técnicas que, a se encuentren vigente al momento de la ejecución de las Intervenciones, sean obligatorias para la ejecución de los estudios y disenos de este tipo de Intervenciones, y, en particular, pero sin limitarse, con las identificadas en el siguiente listado.
 
 i.
 íi.
@@ -541,9 +541,9 @@ v.
 
 vi.
 Manual for Railway Engineering AREMA 2021. Standardization International Union of Railways - FRA/AREMA 2019.
-Norma Colombiana de Diseño de Puentes (CCP-2014). Adoptada mediante
+Norma Colombiana de Diseno de Puentes (CCP-2014). Adoptada mediante
 Resolución 108 de 26 de enero de 2015.
-Normas Colombianas de Diseño y Construcción Sismo Resistente. NSRl O.
+Normas Colombianas de Diseno y Construcción Sismo Resistente. NSRl O.
 Manual de Cimentaciones Superficiales y Profundas para Carreteras. Adoptado mediante Resolución No 1049 de 11 de abril de 2013 del Ministerio de Transporte.
 Manual de Señalización Vial - Dispositivos Uniformes para la Regulación del Tránsito en Calles, Carreteras y Ciclorutas de Colombia. Adoptado mediante
 vii. Resolución 1885 del 17 de junio de 2015 del Ministerio de Transporte.
@@ -553,16 +553,16 @@ Las disposiciones que contemplen los POT, PBOT y EOT en relación al espacio pú
 
 ii, iii. iv.
 AASHTO LRFD Bridge Design Specifications, Customary U.S. Units, 4th Edition with 2008 U.S. Edition Interim, and AASHTO LRFD Bridge Design Specifications, SI Units, 4th Edition. AASHTO LRFD Bridge Construction Specifications, 2009 Interim Revisions.
-EUROCÓDIGO 8: Diseño de Estructuras Sismo resistentes. EUROCÓDIGO 1: Acciones En Estructuras (Partes 1 y 2). EUROCÓDIGO 2: Diseño de Estructuras de Concreto.
+EUROCÓDIGO 8: Diseno de Estructuras Sismo resistentes. EUROCÓDIGO 1: Acciones En Estructuras (Partes 1 y 2). EUROCÓDIGO 2: Diseno de Estructuras de Concreto.
 Página 18 de 45
 
-EUROCÓDIGO 3: Diseño de Estructuras de Acero. EUROCÓDIGO 4: Diseño de Estructuras de Acero y Concreto.
+EUROCÓDIGO 3: Diseno de Estructuras de Acero. EUROCÓDIGO 4: Diseno de Estructuras de Acero y Concreto.
 
 (c)
 
 v.
 vi.
-El contenido y alcance de los Estudios de Detalle, junto su respectiva metodología, deberán desarrollarse cumpliendo, como mínimo, con lo establecido por el INVÍAS para Diseños Fase III, como resultado de la Consultoría con la Sociedad Colombiana de Ingenieros (http:sci.org.coscimediafilemanu consultoria.pdf).
+El contenido y alcance de los Estudios de Detalle, junto su respectiva metodología, deberán desarrollarse cumpliendo, como mínimo, con lo establecido por el INVÍAS para Disenos Fase III, como resultado de la Consultoría con la Sociedad Colombiana de Ingenieros (http:sci.org.coscimediafilemanu consultoria.pdf).
 
 Adicionalmente, el Concesionario deberá cumplir con las siguientes especificaciones:
 
@@ -589,7 +589,7 @@ GUÍA DE MANEJO AMBIENTAL DE PROYECTOS DE
 INFRAESTRUCTURA. SUBSECTOR VIAL adoptada mediante la Resolución 7106 de 2009 del Instituto Nacional de Vías.
 Ley 1228 de 2008 por la cual se determinan las fajas mínimas de retiro obligatorio o áreas de exclusión, para las carreteras del sistema vial nacional.
 Decreto 1079 del 26 de mayo de 2015 expedido por el Ministerio de Transporte "Por medio del cual se expide el Decreto Único Reglamentario del Sector Transporte".
-Manual de Consultoría e Interventoría para estudios y diseños y gerencia de proyectos en INVIAS, en lo referente al contenido y alcance de los Estudios de Trazado y Diseño Geométrico y los Estudios de Detalle - Fase III para proyectos de vías, exceptuando lo relacionado con cantidades de obra, precios unitarios, costos de construcción y presupuestos.
+Manual de Consultoría e Interventoría para estudios y disenos y gerencia de proyectos en INVIAS, en lo referente al contenido y alcance de los Estudios de Trazado y Diseno Geométrico y los Estudios de Detalle - Fase III para proyectos de vías, exceptuando lo relacionado con cantidades de obra, precios unitarios, costos de construcción y presupuestos.
 Decreto 1076 de 2015 "Decreto Único Reglamentario del Sector Ambiente y
 Desarrollo Sostenible", del Ministerio de Ambiente y Desarrollo Sostenible.
 xi. Resolución 256 de 2018 "Por la cual se adopta la actualización del Manual de Compensaciones Ambientales del Medio Biótico y se toman otras determinaciones", emitido por el Ministerio de Ambiente y Desarrollo Sostenible.
@@ -615,11 +615,11 @@ l.
 ii. iii. iv.
 Intervenciones
 
-Para el desarrollo de las Intervenciones del Proyecto relacionadas con las obras de Construcción, obras de Mantenimiento, Mejoramiento yo Rehabilitación de la Infraestructura Férrea tales como puentes, viaductos y otras estructuras, el Concesionario las deberá realizar de acuerdo con los Estudios y Diseños de Detalle no objetados por la Interventoría y deberá cumplir con las disposiciones establecidas en el Apéndice Técnico 1 y los manuales yo normas técnicas que, a se encuentren vigente al momento de la ejecución de las Intervenciones, sean obligatorias para la ejecución de este tipo de Intervenciones, y, en particular, pero sin limitarse, con las identificadas en el siguiente listado.
+Para el desarrollo de las Intervenciones del Proyecto relacionadas con las obras de Construcción, obras de Mantenimiento, Mejoramiento yo Rehabilitación de la Infraestructura Férrea tales como puentes, viaductos y otras estructuras, el Concesionario las deberá realizar de acuerdo con los Estudios y Disenos de Detalle no objetados por la Interventoría y deberá cumplir con las disposiciones establecidas en el Apéndice Técnico 1 y los manuales yo normas técnicas que, a se encuentren vigente al momento de la ejecución de las Intervenciones, sean obligatorias para la ejecución de este tipo de Intervenciones, y, en particular, pero sin limitarse, con las identificadas en el siguiente listado.
 
 Manual for Railway Engineering AREMA 2021. Standardization Intemational Union ofRailways - FRA/AREMA 2019.
-Norma Colombiana de Diseño de Puentes (CCP-2014). Adoptada mediante Resolución 108 de 26 de enero de 2015.
-Normas Colombianas de Diseño y Construcción Sismo Resistente. NSRl0.
+Norma Colombiana de Diseno de Puentes (CCP-2014). Adoptada mediante Resolución 108 de 26 de enero de 2015.
+Normas Colombianas de Diseno y Construcción Sismo Resistente. NSRl0.
 Manual de Cimentaciones Superficiales y Profundas para Carreteras. Adoptado mediante Resolución 1049 del 11 de abril de 2013 del Ministerio de Transporte.
 NTC 4005. Acero Estructural Para Puentes. 2018.
 NTC 5832 Prácticas Normalizadas para Fabricación y Montaje de Estructuras en Acero. Edificios y Puentes. 2012.
@@ -734,7 +734,7 @@ Plan Nacional de Seguridad Vial (PNSV) 2011 - 2021, Resolución 2273 del 6 de ag
 Manual de Señalización - Dispositivos uniformes para la regulación del tránsito en calles, carreteras y ciclo rutas de Colombia. Adoptado mediante Resolución 1885 del 17 de junio de 2015 del Ministerio de Transporte
 Metodologías de Trabajo para la Señalización de Velocidad y Zonas de Adelantamiento en la Red Nacional de Carretera. Adoptado mediante Resolución
 vi. No 001384 de abril 20 de 2010.
-Guía Técnica para el Diseño de las Zonas Laterales, para Vías más Seguras, Corporación Fondo de Prevención Vial, septiembre de 2012.
+Guía Técnica para el Diseno de las Zonas Laterales, para Vías más Seguras, Corporación Fondo de Prevención Vial, septiembre de 2012.
 
 ¡El Concesionario estará obligado a cumplir, también, con las especificaciones y/o normas
 ..técnicas de carácter internacional listadas a continuación: 
@@ -859,7 +859,7 @@ lxxi.
 lxxii, lxxiii, lxxiv, lxxv,
 BS Especificación para dimensiones de elementos de detección de temperatura y
 bolsillos correspondientes.
-BS 2871 Especificación de para cobre y aleaciones de cobre - tubos. BS 3680 Métodos de medición de flujo de líquidos en canales abiertos. BS 3693 Recomendaciones para el diseño de índices y escalas.
+BS 2871 Especificación de para cobre y aleaciones de cobre - tubos. BS 3680 Métodos de medición de flujo de líquidos en canales abiertos. BS 3693 Recomendaciones para el diseno de índices y escalas.
 BS 4509 Método de evaluación del funcionamiento de los transmisores para uso en sistemas de control de procesos industriales.
 BS 4671 Método de evaluación del rendimiento de grabadores eléctricos y neumáticos gráfico analógico e indicadores para el uso en sistemas de control de procesos industriales.
 BS 4675: Pt 2 requisitos para los instrumentos para medir la severidad de vibración. BS 4937 Tablas de referencia de termopar internacional.
@@ -871,7 +871,7 @@ BS 5967 Condiciones de funcionamiento para equipos de medición y control de pro
 BS 6004 PVC aislado (no blindado) para energía eléctrica y alumbrado. BS 6121 Glándulas de cable mecánico.
 BS 6447 Transmisores de presión de equipos.
 BS 6667 Compatibilidad para equipos de medición y control de procesos industriales.
-BS 6739 Instrumentación en sistemas de control de procesos: diseño de la instalación y práctica.
+BS 6739 Instrumentación en sistemas de control de procesos: diseno de la instalación y práctica.
 BS 9230 Especificación para conectores de calidad evaluado para fibras ópticas y
 cables.
 BS EN 50081 Compatibilidad electromagnética emisión genérica estándar.
@@ -1312,7 +1312,7 @@ Página 39 de 45
 ### CAPÍTULO VII - ESPECIFICACIONES Y NORMATIVAS APLICABLES A
 INSTITUCIONES EDUCATIVAS
 
-Los Estudios y Diseños de Detalle, así como las obras mismas de las instituciones educativas a cargo del Concesionario, deberán cumplir como mínimo con las siguientes Normas Técnicas.
+Los Estudios y Disenos de Detalle, así como las obras mismas de las instituciones educativas a cargo del Concesionario, deberán cumplir como mínimo con las siguientes Normas Técnicas.
 
 (a)
 (b)
@@ -1332,7 +1332,7 @@ G) NTC 5356 Instalación de Calentadores a Gas
 (k) NTC 3838 Gasoductos presiones de operación permisibles para el transporte y distribución de gas
 (1) Ley 361 de 1997 Integración social de las personas con limitación
 (m) Manual de referencia accesibilidad al medio físico y al transporte del Ministerio de transporte y el Invias
-(n) NTC 4595 Planeamiento y diseño de Instalaciones y ambientes escolares NTC 4596 Señalizaciones para instalaciones y ambientes escolares
+(n) NTC 4595 Planeamiento y diseno de Instalaciones y ambientes escolares NTC 4596 Señalizaciones para instalaciones y ambientes escolares
 
 Página 40 de 45
 
@@ -1344,7 +1344,7 @@ Las intervenciones, actuaciones, obras, equipos e infraestructura en general req
 #### 8.1 Sistemas de mando, señales y detección de trenes
 
 1. ET1 03.432.800 Norma sobre explotación y seguridad de enclavamientos eléctricos
-11. NAS² 811 Diseño de instalaciones de control, mando y señalización
+11. NAS² 811 Diseno de instalaciones de control, mando y señalización
 iii. NAS 819 Enclavamientos electrónicos. Arquitectura física
 iv. NAS 818 Enclavamientos electrónicos, Bloqueos automáticos, de liberación automática y de control automático
 v. ET 03.365.310.6 Sistemas electrónicos de detección de trenes basados en contadores de ejes (ED3M1)
@@ -1493,7 +1493,7 @@ xix. UNE-EN-50268. Métodos de ensayo comunes para cables sometidos al fuego. Me
 xx. UNE-EN 50267. Métodos de ensayo comunes para cables sometidos al fuego. Ensayo de gases desprendidos durante la combustión de materiales procedentes de los cables.
 XXI. UNE-EN 50200. Método de ensayo de la resistencia al fuego por los cables de pequeñas dimensiones sin protección, para usos en circuitos de emergencia.
 xxu. UNE 20427. Métodos de ensayo adicionales para cables eléctricos. Ensayo de propagación de la llama.
-xxiii. UNE 894-2. Seguridad de las máquinas. Requisitos ergonómicos para el diseño de dispositivos de información y órganos de accionamiento. Parte 2: Dispositivos de información.
+xxiii. UNE 894-2. Seguridad de las máquinas. Requisitos ergonómicos para el diseno de dispositivos de información y órganos de accionamiento. Parte 2: Dispositivos de información.
 xxiv. EIA TIA-568.
 xxv. ISO IEC 11801 -ISO 11801 2nd. Ed.
 xxvi. UNE EN 50173 (CEN CENELEC EN 50173.
@@ -1537,11 +1537,11 @@ Los trabajos a realizar comprenden la construcción y el mantenimiento de la sup
 La zona de trabajo se delimitará de acuerdo con la indicaciones del Concesionario.
 2. Alcance de los Trabajos
 #### 2.1 Actividades:
-Las vías de servicio se deberán rehabilitar o construir nuevas según el resultado de los Estudios y Diseños de Detalle a cargo del Concesionario, con un ancho mínimo de 6.0 m, y con una superficie de rodadura en capa granular tipo afirmado según las Especificaciones Técnicas de construcción del Invias y de un espesor mínimo de 30 cm. En caso de que los materiales de subrasante sean suelos orgánicos, éstos deberán ser reemplazados en una profundidad mínima de 1,20 m, o profundidad mayor si así lo definen los Estudios y Diseños de Detalle.
+Las vías de servicio se deberán rehabilitar o construir nuevas según el resultado de los Estudios y Disenos de Detalle a cargo del Concesionario, con un ancho mínimo de 6.0 m, y con una superficie de rodadura en capa granular tipo afirmado según las Especificaciones Técnicas de construcción del Invias y de un espesor mínimo de 30 cm. En caso de que los materiales de subrasante sean suelos orgánicos, éstos deberán ser reemplazados en una profundidad mínima de 1,20 m, o profundidad mayor si así lo definen los Estudios y Disenos de Detalle.
 Para vías de servicio existentes que tengan un ancho mayor al mínimo especificado y una superficie de rodadura diferente a la capa de afirmado como lo pueden ser pavimentos rígidos o flexibles, el Concesionario debe rehabilitar dicha Vía de Servicio manteniendo las condiciones existentes de ancho y tipo de superficie de rodadura.
 
- Estudios y Diseños: Aplicable en cada caso a la rehabilitación o construcción de vías de servicio nuevas. Para la construcción de vías de servicio nuevas, incluye entre otros lo siguiente: los estudios de suelos, determinación del alineamiento, diseño de cunetas y obras hidráulicas, diseño de la subrasante y de la carpeta de rodadura.
- Remoción de suelos orgánicos y conformación de la subrasante: aplica para la construcción de vías de servicio nuevas. Consiste en el reemplazo del material inadecuado en una profundidad mínima de 1,20 m, o profundidad mayor si así lo definen los Estudios y Diseños de Detalle.
+ Estudios y Disenos: Aplicable en cada caso a la rehabilitación o construcción de vías de servicio nuevas. Para la construcción de vías de servicio nuevas, incluye entre otros lo siguiente: los estudios de suelos, determinación del alineamiento, diseno de cunetas y obras hidráulicas, diseno de la subrasante y de la carpeta de rodadura.
+ Remoción de suelos orgánicos y conformación de la subrasante: aplica para la construcción de vías de servicio nuevas. Consiste en el reemplazo del material inadecuado en una profundidad mínima de 1,20 m, o profundidad mayor si así lo definen los Estudios y Disenos de Detalle.
 
 Página2 de 4
 
@@ -1570,7 +1570,7 @@ Página 3 de 4
 
 El material de afirmado debe ser distribuido en una sola capa de trescientos milímetros (300 mm) y en todo el ancho de la corona (calzada más bermas) de tal manera que, al extenderse, la capa resulte de espesor uniforme, con una pendiente transversal entre tres y cuatro por ciento (3 - 4 ), para facilitar el escurrimiento de las aguas superficiales.
 En todo caso, la cantidad de material extendido debe ser tal, que el espesor de la capa compactada no resulte ni superior a trescientos milímetros (300 mm). El material extendido debe mostrar una distribución granulométrica uniforme, sin segregaciones evidentes.
-Una vez que el material tenga el contenido de agua apropiado, necesario para asegurar la densidad de diseño requerida y esté conformado debidamente, se debe compactar con el equipo aprobado, hasta lograr la densidad seca especificada. Aquellas zonas que, por su reducida extensión, su pendiente o su proximidad a obras de arte no permitan el uso del equipo que normalmente se utiliza, se deben compactar con los medios adecuados para el caso, en forma tal que las densidades secas que se alcancen no sean inferiores a las obtenidas en el resto de la capa.
+Una vez que el material tenga el contenido de agua apropiado, necesario para asegurar la densidad de diseno requerida y esté conformado debidamente, se debe compactar con el equipo aprobado, hasta lograr la densidad seca especificada. Aquellas zonas que, por su reducida extensión, su pendiente o su proximidad a obras de arte no permitan el uso del equipo que normalmente se utiliza, se deben compactar con los medios adecuados para el caso, en forma tal que las densidades secas que se alcancen no sean inferiores a las obtenidas en el resto de la capa.
 La compactación se debe efectuar longitudinalmente, comenzando por los bordes exteriores y avanzando hacia el centro, traslapando en cada recorrido una longitud no menor de la mitad del ancho del rodillo compactador. En las zonas peraltadas, la compactación se debe hacer del borde inferior al superior.
 Sobre las capas en ejecución se debe prohibir la acción de todo tipo de tránsito, mientras no se haya completado la compactación. Si ello no fuere posible, el tránsito que necesariamente tenga que pasar sobre ellas se debe distribuir en forma tal que no se concentren ahuellamientos en la superficie.
 6. Control de Calidad
@@ -1627,7 +1627,7 @@ Página2 de 5
 
 CAPÍTULO 111 - OBLIGACIONES GENERALES
 
-(a) El Concesionario como actor de la gestión del riesgo de desastres en el sector transporte, deberá dar cumplimiento en lo de su competencia a lo establecido en la Ley 1523 del 24 de abril del 2012, el Decreto 2157 de diciembre 20 de 2017 y el Decreto 602 del 6 de abril de 2017, y además deberá incorporar la reducción de riesgos de desastres en los proyectos, obras y actividades a su cargo, contando, entre otros, con metodologías de planificación y con normas técnicas de diseño en cada una de las fases y etapas del Contrato de Concesión, y se acogerá a los lineamientos que el Gobierno Nacional y el Ministerio de Transporte emitan al respecto.
+(a) El Concesionario como actor de la gestión del riesgo de desastres en el sector transporte, deberá dar cumplimiento en lo de su competencia a lo establecido en la Ley 1523 del 24 de abril del 2012, el Decreto 2157 de diciembre 20 de 2017 y el Decreto 602 del 6 de abril de 2017, y además deberá incorporar la reducción de riesgos de desastres en los proyectos, obras y actividades a su cargo, contando, entre otros, con metodologías de planificación y con normas técnicas de diseno en cada una de las fases y etapas del Contrato de Concesión, y se acogerá a los lineamientos que el Gobierno Nacional y el Ministerio de Transporte emitan al respecto.
 
 ### CAPÍTULO IV - - OBLIGACIONES DURANTE LA FASE DE PRECONSTRUCCIÓN
 
@@ -1642,7 +1642,7 @@ CAPÍTULO 111 - OBLIGACIONES GENERALES
 
 (v) El PGRD deberá incorporar el Plan de Contingencias para el Manejo de Derrames, Hidrocarburos o Sustancias Nocivas en los términos del artículo 2.2.3.3.4.14 del Decreto 1076 del 2015, modificado por el Artículo séptimo del Decreto 050 del 16 de enero de 2018, o de la norma que lo modifique o sustituya.
 
-(b) El Concesionario tiene la obligación de aplicar análisis de vulnerabilidad y amenaza para los fines de elaboración de diseños definitivos del proyecto.
+(b) El Concesionario tiene la obligación de aplicar análisis de vulnerabilidad y amenaza para los fines de elaboración de disenos definitivos del proyecto.
 
 Página3 de 5
 
@@ -1650,14 +1650,14 @@ Página3 de 5
 
 #### 5.1 Obligaciones generales durante la Fase de Construcción
 
-(a) El Concesionario como actor de la gestión del riesgo de desastres en el sector transporte, deberá dar cumplimiento en lo de su competencia a lo establecido en la Ley 1523 del 24 de abril del 2012, el Decreto 2157 de diciembre 20 de 2017 y el Decreto 602 del 6 de abril de 2017, y además deberá incorporar la reducción de riesgos de desastres en los proyectos, obras y actividades a su cargo, contando, entre otros, con metodologías de planificación y con normas técnicas de diseño en cada una de las fases y etapas del Contrato de Concesión, y se acogerá a los lineamientos que el Gobierno Nacional y el Ministerio de Transporte emitan al respecto.
+(a) El Concesionario como actor de la gestión del riesgo de desastres en el sector transporte, deberá dar cumplimiento en lo de su competencia a lo establecido en la Ley 1523 del 24 de abril del 2012, el Decreto 2157 de diciembre 20 de 2017 y el Decreto 602 del 6 de abril de 2017, y además deberá incorporar la reducción de riesgos de desastres en los proyectos, obras y actividades a su cargo, contando, entre otros, con metodologías de planificación y con normas técnicas de diseno en cada una de las fases y etapas del Contrato de Concesión, y se acogerá a los lineamientos que el Gobierno Nacional y el Ministerio de Transporte emitan al respecto.
 (b) El Concesionario deberá implementar el PGRD de manera tal que dé respuesta a cualquier emergencia yo contingencia de origen natural, socio natural y antrópico que se pueda presentar en el área de influencia determinada dentro del citado PGRD. Para tal efecto el Concesionario deberá contar con el personal capacitado y con los recursos adecuados para responder de manera efectiva ante la materialización de una contingencia yo una emergencia, cumpliendo con lo establecido en la Ley Aplicable.
 (c) El Concesionario actualizará el PGRD de acuerdo con las disposiciones de la normativa vigente y surtir los trámitesprocesos ante las Autoridades Ambientales para las unidades funcionales que requieran de Licencia Ambiental o ante la Interventoría para las que requieran PAGA.
 (d) El Concesionario deberá dar cumplimiento a las disposiciones de la Autoridad Competente en cuanto a reporte en tiempo de las contingencias que se puedan presentar y en general reporte de la información que esta requiera, de lo cual deben enviar copia a la Interventoría y a la ANI.
 
 ### CAPÍTULO VI - OBLIGACIONES DURANTE LA ETAPA DE OPERACIÓN Y MANTENIMIENTO
 
-(a) El Concesionario como actor de la gestión del riesgo de desastres en el sector transporte, deberá dar cumplimiento en lo de su competencia a lo establecido en la Ley 1523 del 24 de abril del 2012, el Decreto 2157 de diciembre 20 de 2017 y el Decreto 602 del 6 de abril de 2017, y además deberá incorporar la reducción de riesgos de desastres en los proyectos, obras y actividades a su cargo, contando, entre otros, con metodologías de planificación y con normas técnicas de diseño en cada una de las fases y etapas del Contrato de Concesión, y se acogerá a los lineamientos que el Gobierno Nacional y el Ministerio de Transporte emitan al respecto.
+(a) El Concesionario como actor de la gestión del riesgo de desastres en el sector transporte, deberá dar cumplimiento en lo de su competencia a lo establecido en la Ley 1523 del 24 de abril del 2012, el Decreto 2157 de diciembre 20 de 2017 y el Decreto 602 del 6 de abril de 2017, y además deberá incorporar la reducción de riesgos de desastres en los proyectos, obras y actividades a su cargo, contando, entre otros, con metodologías de planificación y con normas técnicas de diseno en cada una de las fases y etapas del Contrato de Concesión, y se acogerá a los lineamientos que el Gobierno Nacional y el Ministerio de Transporte emitan al respecto.
 
 (b) El Concesionario deberá formular Plan de Gestión del Riesgo de Desastres -en adelante PGRD- en los términos del Decreto 2157 de diciembre de 2017 del Departamento Administrativo de la Presidencia de la República y del que lo modifique, o sustituya, de manera tal que dé a cualquier emergencia yo contingencia de origen natural, socio natural y antrópico que se pueda presentar en el área de influencia determinada dentro del citado PGRD. Para tal efecto el Concesionario deberá contar con el personal capacitado y recursos adecuados para responder de manera efectiva ante la materialización de una contingencia yo una emergencia, cumpliendo con lo establecido en la Ley Aplicable.
 

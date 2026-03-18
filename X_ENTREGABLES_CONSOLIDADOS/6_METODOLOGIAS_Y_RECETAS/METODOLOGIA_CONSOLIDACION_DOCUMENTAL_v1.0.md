@@ -70,7 +70,7 @@ grep -r "PALABRA_CLAVE" "CARPETA/" --output-mode=files_with_matches
 
 **Prioridad Media (🟡):** Documentos de referencia importante
 - Documentos conceptuales
-- Especificaciones básicas
+- Especificaciones basicas
 - Documentos de interfaces
 
 **Prioridad Baja (🟢):** Documentos de contexto
@@ -80,14 +80,14 @@ grep -r "PALABRA_CLAVE" "CARPETA/" --output-mode=files_with_matches
 
 #### **PASO 1.4: IDENTIFICACIÓN DE BRECHAS E INCONSISTENCIAS**
 **Brechas a detectar:**
-- Información mencionada en conceptual pero no desarrollada en básica/detalle
+- Información mencionada en conceptual pero no desarrollada en basica/detalle
 - Especificaciones contractuales sin desarrollo técnico
 - Interfaces mencionadas sin documentación detallada
 
 **Inconsistencias a detectar:**
 - Cantidades diferentes entre documentos
 - Especificaciones técnicas contradictorias
-- Criterios de diseño inconsistentes
+- Criterios de diseno inconsistentes
 
 #### **PASO 1.5: CREACIÓN DE REPORTE DE MAPEO**
 **Estructura del reporte:**
@@ -126,7 +126,7 @@ grep -r "PALABRA_CLAVE" "CARPETA/" --output-mode=files_with_matches
 **Tipos de contradicciones:**
 - **Cantidades:** Diferentes números entre documentos
 - **Especificaciones:** Criterios técnicos contradictorios
-- **Arquitecturas:** Diseños inconsistentes
+- **Arquitecturas:** Disenos inconsistentes
 - **Procedimientos:** Procesos diferentes
 
 #### **PASO 2.3: DOCUMENTACIÓN DE BRECHAS**
@@ -189,8 +189,8 @@ grep -r "PALABRA_CLAVE" "CARPETA/" --output-mode=files_with_matches
 **Orden de consolidación:**
 1. **Marco Contractual:** Extraer obligaciones, criterios, indicadores
 2. **Ingeniería Conceptual:** Arquitectura, criterios, alternativas
-3. **Ingeniería Básica:** Diseño básico, especificaciones, cálculos
-4. **Ingeniería de Detalle:** Diseño detallado, planos, compras
+3. **Ingeniería Básica:** Diseno básico, especificaciones, cálculos
+4. **Ingeniería de Detalle:** Diseno detallado, planos, compras
 5. **Especificaciones Finales:** Funcionales, desempeño, calidad
 6. **Procedimientos:** Operación, emergencia, mantenimiento
 7. **Interfaces:** Matriz de interfaces, descripción detallada

@@ -659,7 +659,7 @@ SWA Distribución: Switches en estaciones principales (Capa 2/3)
 SWA Acceso: Switches para equipos ITS y CCTV (Capa 2, PoE+)
 
 
-Acción Requerida: Diseño detallado de arquitectura de red según ingeniería de telecomunicaciones
+Acción Requerida: Diseno detallado de arquitectura de red según ingeniería de telecomunicaciones
 
 3. Balanceo de Cargas y Redundancia
 
@@ -731,14 +731,14 @@ Detalles de instalación 1:500
 Secciones tipo
 
 
-Diseño eléctrico detallado
+Diseno eléctrico detallado
 
 Cálculo de cargas por subestación
 Dimensionamiento de UPS
 Autonomía de baterías
 
 
-Diseño de telecomunicaciones
+Diseno de telecomunicaciones
 
 Diagrama unifilar de fibra óptica
 Balance de potencia óptica

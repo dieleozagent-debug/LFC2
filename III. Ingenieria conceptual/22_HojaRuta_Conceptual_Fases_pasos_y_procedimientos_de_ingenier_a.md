@@ -21,8 +21,8 @@
 - **Objetivo:** Definir cómo se conectan los sistemas mediante el protocolo **Vital IP**.
 - **Componentes:** CCO ↔ Servidor ↔ OBC ↔ Fenoco (Stop & Switch).
 
-### Fase 4 – Criterios de Diseño (FRA/AREMA)
-- **Objetivo:** Establecer las reglas de oro del diseño.
+### Fase 4 – Criterios de Diseno (FRA/AREMA)
+- **Objetivo:** Establecer las reglas de oro del diseno.
 - **Normas:** FRA 236, AREMA, IEEE 1474.1.
 
 ---

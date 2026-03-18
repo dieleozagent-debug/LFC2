@@ -57,7 +57,7 @@ window.wbsMetadataEnriquecida = {
     },
     "1.2.100": {
       "descripcion": "Computadora PTC embarcada",
-      "justificacion_tecnica": "Reducción de 15 a 8 unidades alineada con AT1: 5 locomotoras contractuales + 2 diseño/pruebas + 1 contingencia",
+      "justificacion_tecnica": "Reducción de 15 a 8 unidades alineada con AT1: 5 locomotoras contractuales + 2 diseno/pruebas + 1 contingencia",
       "criterios_diseno": [
         "Cumplimiento CENELEC EN 50126/128/129",
         "SIL 4 para funciones vitales de seguridad",
@@ -65,7 +65,7 @@ window.wbsMetadataEnriquecida = {
       ],
       "supuestos": [
         "5 locomotoras operativas según AT1 Â§3.1",
-        "2 unidades para diseño y pruebas de aceptación",
+        "2 unidades para diseno y pruebas de aceptación",
         "1 unidad de contingencia/repuesto estratégico"
       ],
       "decisiones_tecnicas": [

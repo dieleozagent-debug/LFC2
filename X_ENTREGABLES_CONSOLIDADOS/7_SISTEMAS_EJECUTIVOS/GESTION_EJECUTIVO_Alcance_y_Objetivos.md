@@ -20,7 +20,7 @@ Este documento define el **"alcance y objetivos"** del proyecto APP La Dorada-Ch
 ### Hitos críticos
 | Fase | Fecha | Estado |
 |:-----|:------|:-------|
-| Diseño Conceptual | Enero 2025 | ✅ Completado |
+| Diseno Conceptual | Enero 2025 | ✅ Completado |
 | Ingeniería Básica | Febrero 2025 | ⏳ En progreso |
 | Ingeniería de Detalle | Marzo 2025 | ❌ Pendiente |
 | Construcción | Abril 2025 | ❌ Pendiente |
@@ -214,7 +214,7 @@ El proyecto opera 24/7 proporcionando transporte ferroviario de carga, con mante
 
 ## 📋 SUPUESTOS TÉCNICOS Y LIMITACIONES
 
-### Supuestos Críticos del Diseño
+### Supuestos Críticos del Diseno
 | Supuesto | Valor Asumido | Impacto si Cambia | Mitigación |
 |:---------|:--------------|:------------------|:-----------|
 | **Demanda de transporte** | 2,400 ton/día | Menor rentabilidad si reduce | Análisis de sensibilidad |
@@ -222,7 +222,7 @@ El proyecto opera 24/7 proporcionando transporte ferroviario de carga, con mante
 | **Vida útil** | 30 años | Mayor mantenimiento si reduce | Plan de renovación |
 | **Condiciones ambientales** | Estables | Mayor impacto si cambian | Monitoreo continuo |
 
-### Limitaciones del Diseño
+### Limitaciones del Diseno
 - **Capacidad:** Limitada por especificaciones técnicas
 - **Velocidad:** Limitada por geometría del corredor
 - **Mantenimiento:** Requiere personal especializado

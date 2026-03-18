@@ -52,7 +52,7 @@
 14. **36_Criterios_Ciberseguridad_docx_Protecci_n_de_sistemas_de_control.md** - Criterios ciberseguridad
 
 #### **Ingeniería Básica:**
-15. **37_Memorias_Diseño_Basico_v5.0.md** - Memorias de diseño básico
+15. **37_Memorias_Diseno_Basico_v5.0.md** - Memorias de diseno básico
 16. **38. DiagramasArquitectura_sist_ctc-telco.md** - Diagramas de arquitectura
 17. **39. PlanosPreliminares_localizacion torres tetra_fibra_nod.md** - Planos preliminares
 18. **40. Plan_GestionPermisos_MEJORADO.md** - Plan gestión permisos
@@ -84,7 +84,7 @@
 
 #### **Ingeniería Básica:**
 6. **42. Plan_Pruebas_MEJORADO.md** - Plan de pruebas
-7. **IV_Ingenieria_Basica_RESUMEN_MEJORADO.md** - Resumen ingeniería básica
+7. **IV_Ingenieria_Basica_RESUMEN_MEJORADO.md** - Resumen ingeniería basica
 
 #### **Ingeniería de Detalle:**
 8. **10_Red_de_datos_Contrato_8_8_3.md** - Red de datos contrato 8.8.3
@@ -102,7 +102,7 @@
 2. **26.1_Anexo_Electrico_CTC_v5.0.md** - Anexo eléctrico CTC
 
 #### **Ingeniería Básica:**
-3. **37. MemoriasDiseño_Basico_just tec.md** - Memorias diseño básico (legacy)
+3. **37. MemoriasDiseno_Basico_just tec.md** - Memorias diseno básico (legacy)
 
 #### **Ingeniería de Detalle:**
 4. **5_Radio_TETRA_Contrato_8_5.md** - Radio TETRA contrato 8.5

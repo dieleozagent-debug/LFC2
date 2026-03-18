@@ -29,7 +29,7 @@ Se han corregido los errores de purga detectados en la v6.0:
 ---
 
 ## ✅ CONCLUSIÓN DE ESPECIALIDAD:
-El diseño civil ahora soporta una red de comunicaciones robusta y un control virtual de trenes, eliminando la huella de carbono y el costo de mantenimiento de la electrificación legacy.
+El diseno civil ahora soporta una red de comunicaciones robusta y un control virtual de trenes, eliminando la huella de carbono y el costo de mantenimiento de la electrificación legacy.
 
 **Saneamiento Ciclo 6 - Especialidad Civil SICC Finalizada.**
 **Cerebro Maestro:** lfc-terminology.js

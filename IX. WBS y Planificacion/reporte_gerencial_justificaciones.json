@@ -138,7 +138,7 @@
                       "es_pareto_80":  true,
                       "tipo":  "SUMINISTRO",
                       "valor_total_cop":  3050000000,
-                      "descripcion":  "Señalización básica",
+                      "descripcion":  "Señalización basica",
                       "porcentaje_total":  1.15
                   },
                   {
@@ -448,7 +448,7 @@
                       "es_pareto_80":  false,
                       "tipo":  "SUMINISTRO",
                       "valor_total_cop":  750000000,
-                      "descripcion":  "Señalización básica",
+                      "descripcion":  "Señalización basica",
                       "porcentaje_total":  0.28
                   },
                   {

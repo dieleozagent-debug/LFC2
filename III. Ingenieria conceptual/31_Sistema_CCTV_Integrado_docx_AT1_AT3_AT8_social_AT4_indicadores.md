@@ -6,7 +6,7 @@
 ## 1. MARCO CONTRACTUAL
 
 ### 1.1 Base Legal
-El Sistema de Circuito Cerrado de Televisión (CCTV) es un componente clave para la seguridad operativa y comunitaria. Su diseño conceptual integra requisitos de:
+El Sistema de Circuito Cerrado de Televisión (CCTV) es un componente clave para la seguridad operativa y comunitaria. Su diseno conceptual integra requisitos de:
 - **AT1 (Alcance):** Define la necesidad de CCTV en el CCO (UF2, Tabla 16) y en los talleres (UF1, Tablas 12-15).
 - **AT3 (Especificaciones):** Detalla los requisitos técnicos para el sistema CCTV, incluyendo el cumplimiento de normas UNE-EN 50132 y ONVIF (Cap. 6.12, 8.8).
 - **AT4 (Indicadores):** Exige el monitoreo del indicador "Cerramiento y CCTV", con una disponibilidad del 100% (Cap. 4).
@@ -22,7 +22,7 @@ Este documento define la arquitectura de videovigilancia del proyecto, siendo un
     - `28_Sistema_FibraOptica_Integrado...md`: Define el backbone de comunicaciones para la transmisión de video.
     - `30_Sistema_ITS_Integrado...md`: Define la plataforma donde se integrará el análisis de video.
 - **Gobierna a:**
-    - `V. Ingenieria de detalle/8_CCTV_Contrato_8_8_1.md`: El diseño de detalle de la red de cámaras y el VMS se basa en este concepto.
+    - `V. Ingenieria de detalle/8_CCTV_Contrato_8_8_1.md`: El diseno de detalle de la red de cámaras y el VMS se basa en este concepto.
     - `36_Criterios_Ciberseguridad...md`: Define los activos de video que deben ser protegidos.
 
 ---
@@ -41,7 +41,7 @@ Este análisis se fundamenta en la estructura de trabajo ya aprobada.
 ---
 
 ### 2.2 Documentos Dependientes (Bloqueados 🔴)
-El diseño detallado de la red CCTV no puede avanzar hasta que este concepto de integración sea validado.
+El diseno detallado de la red CCTV no puede avanzar hasta que este concepto de integración sea validado.
 
 | Documento | Dependencia |
 |---|---|
@@ -49,7 +49,7 @@ El diseño detallado de la red CCTV no puede avanzar hasta que este concepto de 
 
 ### 2.3 Interfaces Críticas
 - **CCTV ↔ Fibra Óptica:** La red de fibra es el medio de transporte para el video de alta definición desde las cámaras hasta el CCO.
-- **CCTV ↔ Gestión Social (AT8):** El diseño del plan de cobertura debe ser consultado con las comunidades para respetar la privacidad y potenciar la seguridad comunitaria.
+- **CCTV ↔ Gestión Social (AT8):** El diseno del plan de cobertura debe ser consultado con las comunidades para respetar la privacidad y potenciar la seguridad comunitaria.
 - **CCTV ↔ SICC (AT4):** El sistema debe reportar su estado de funcionamiento para el cálculo del indicador "Cerramiento y CCTV".
 - **CCTV ↔ Control de Accesos:** Integración para la verificación visual de eventos de acceso en áreas críticas.
 - **CCTV ↔ PTC:** Monitoreo visual de sistemas de control embarcados usando PTC Virtual (FRA 236) hasta AT3.
@@ -63,12 +63,12 @@ El diseño detallado de la red CCTV no puede avanzar hasta que este concepto de 
 Se propone una arquitectura de CCTV por zonas, que optimiza la gestión y la escalabilidad:
 - **Zona 1 - Infraestructura Crítica:** Cobertura de alta seguridad en CCO, talleres, estaciones de enclavamiento y subestaciones eléctricas. Uso de cámaras PTZ, térmicas y con analítica de video para detección de intrusiones.
 - **Zona 2 - Corredor y Pasos a Nivel:** Cámaras fijas en los 146 pasos a nivel para monitoreo del tráfico y apoyo en la investigación de incidentes.
-- **Zona 3 - Áreas Públicas y Comunitarias:** Cámaras en estaciones y oficinas de atención al usuario, con un diseño que prioriza la seguridad de los usuarios y el respeto a la privacidad.
+- **Zona 3 - Áreas Públicas y Comunitarias:** Cámaras en estaciones y oficinas de atención al usuario, con un diseno que prioriza la seguridad de los usuarios y el respeto a la privacidad.
 - **Plataforma Centralizada:** Un único Video Management System (VMS) en el CCO para la gestión de todas las cámaras, con almacenamiento redundante (mínimo 30 días) y un videowall para monitoreo 24/7, garantizando disponibilidad 100% según AT4.
 
 ### 3.2 Estrategia de Integración Social (AT8)
 El sistema CCTV no es solo técnico, es una herramienta social. Su implementación seguirá estos principios:
-- **Diseño Participativo:** Se realizarán talleres con las comunidades para definir la ubicación de las cámaras en espacios públicos, buscando un consenso entre seguridad y privacidad.
+- **Diseno Participativo:** Se realizarán talleres con las comunidades para definir la ubicación de las cámaras en espacios públicos, buscando un consenso entre seguridad y privacidad.
 - **Protocolo de Uso Ético:** Se creará y socializará un protocolo claro sobre el uso de las grabaciones, en cumplimiento de la Ley 1581 de 2012, definiendo quién puede acceder a ellas y con qué propósito.
 - **Señalización Visible:** Todas las áreas bajo videovigilancia contarán con señalización clara e informativa, como lo exige la normativa de protección de datos.
 
@@ -84,12 +84,12 @@ La siguiente matriz integra los requisitos de los diferentes apéndices en funci
 | **Seguridad en CCO y Talleres** | AT1, Tablas 12-16 | Implementación de cámaras perimetrales, de control de acceso y de supervisión de procesos en UF1 y UF2.<br>- **Disponibilidad 100% según AT4** | ✅ Definido |
 | **Normas Técnicas (UNE-EN, ONVIF)** | AT3, Cap. 6.12 | Selección de cámaras, VMS y NVR que cumplan con los estándares de interoperabilidad y calidad de video. | ⚠️ Condicionado |
 | **Indicador "Cerramiento y CCTV"** | AT4, Cap. 4 | El sistema debe tener una disponibilidad del 100%, con interrupciones mínimas. Se requiere un sistema de monitoreo de salud de los equipos. | 🔴 Bloqueado |
-| **Privacidad y Derechos Fundamentales** | AT8, Cap. 7 | Diseño de la cobertura en consulta con la comunidad y creación de un protocolo de uso de datos. | ✅ Definido |
+| **Privacidad y Derechos Fundamentales** | AT8, Cap. 7 | Diseno de la cobertura en consulta con la comunidad y creación de un protocolo de uso de datos. | ✅ Definido |
 | **Integración con Control de Accesos** | AT3, Cap. 6.13 | Correlación de eventos de video con los registros del sistema de control de accesos.<br>- **Monitoreo PTC PTC Virtual (FRA 236) hasta AT3**<br>- **Interoperabilidad FENOCO FRA/AREMA** | ✅ Definido |
 
 ### 4.2 Indicadores de Riesgo por Bloqueo AT3/AT4
-- **🟢 Verde (Proceder):** Diseño conceptual de la arquitectura de red, plan de cobertura preliminar, desarrollo del protocolo de uso ético (AT8).
-- **🟡 Amarillo (Diseño Modular):** Selección de la plataforma VMS. Se puede avanzar con VMS que soporten ONVIF, pero la selección final puede depender de especificaciones en AT3.
+- **🟢 Verde (Proceder):** Diseno conceptual de la arquitectura de red, plan de cobertura preliminar, desarrollo del protocolo de uso ético (AT8).
+- **🟡 Amarillo (Diseno Modular):** Selección de la plataforma VMS. Se puede avanzar con VMS que soporten ONVIF, pero la selección final puede depender de especificaciones en AT3.
 - **🔴 Rojo (Bloqueado):** Adquisición de modelos de cámaras específicos (depende de AT3). Desarrollo del dashboard de KPIs para el indicador de disponibilidad (depende de AT4).
 
 ---
@@ -100,13 +100,13 @@ La siguiente matriz integra los requisitos de los diferentes apéndices en funci
 Este documento ha sido actualizado a la versión 4.0, estableciendo un **plan conceptual integrado para el Sistema CCTV**. Define una arquitectura por zonas, integra los requisitos técnicos (AT1, AT3) con los sociales (AT8) y de desempeño (AT4), y establece una estrategia clara para mitigar los riesgos derivados de los bloqueos documentales.
 
 ### 5.2 Acciones Requeridas para Mantener v4.0
-- **Ejecución de Talleres Sociales:** Iniciar la coordinación con el equipo de Gestión Social para planificar los talleres de diseño participativo.
+- **Ejecución de Talleres Sociales:** Iniciar la coordinación con el equipo de Gestión Social para planificar los talleres de diseno participativo.
 - **Validación de Arquitectura:** El equipo de ingeniería debe validar la arquitectura de red y los requisitos de ancho de banda con el equipo de telecomunicaciones.
 
 ### 5.3 Criterios para Avance
 La aprobación de este documento conceptual permite:
 - **Desbloquear el Paquete de Trabajo 4.0 (Material Rodante):** Al definir los sistemas de seguridad que podrían integrarse en el material rodante.
-- **Iniciar el Diseño Básico del CCTV:** Incluyendo la elaboración de los planos de ubicación de cámaras y el diseño del centro de monitoreo en el CCO.
+- **Iniciar el Diseno Básico del CCTV:** Incluyendo la elaboración de los planos de ubicación de cámaras y el diseno del centro de monitoreo en el CCO.
 - **Avanzar en el Plan de Obras (AT9):** Detallar el cronograma de instalación de cámaras y canalizaciones.
 
 ---

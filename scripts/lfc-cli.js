@@ -235,12 +235,12 @@ function cook(sistema = null) {
         "02": { nombre: "Telecomunicaciones", fuentes: ["III. Ingenieria conceptual/28_Sistema_FibraOptica*.md", "III. Ingenieria conceptual/27_Sistema_TETRA*.md"] },
         "03": { nombre: "ITS_y_Seguridad", fuentes: ["III. Ingenieria conceptual/31_Sistema_CCTV*.md", "III. Ingenieria conceptual/30_Sistema_ITS*.md"] },
         "04": { nombre: "Material_Rodante", fuentes: ["I. Contrato General/6_Cl_13_1_MaterialRodante*.md"] },
-        "05": { nombre: "Infraestructura_Operativa", fuentes: ["IV. Ingenieria básica/IV.4_Especificaciones_Basicas_Sistemas*.md"] },
+        "05": { nombre: "Infraestructura_Operativa", fuentes: ["IV. Ingenieria basica/IV.4_Especificaciones_Basicas_Sistemas*.md"] },
         "06": { nombre: "Integracion_y_Coordinacion", fuentes: ["II. Apendices Tecnicos/11. AT1*.md"] },
         // Especialidades
-        "E01": { nombre: "ESPECIALIDAD_01_Ingenieria_Civil", fuentes: ["IV. Ingenieria básica/IV.1_Obras_Civiles*.md"] },
-        "E02": { nombre: "ESPECIALIDAD_02_Ingenieria_Electrica", fuentes: ["IV. Ingenieria básica/IV.2_Instalaciones_Electricas*.md"] },
-        "E03": { nombre: "ESPECIALIDAD_03_Ingenieria_Mecanica", fuentes: ["IV. Ingenieria básica/IV.3_Estructuras_Mecanicas*.md"] },
+        "E01": { nombre: "ESPECIALIDAD_01_Ingenieria_Civil", fuentes: ["IV. Ingenieria basica/IV.1_Obras_Civiles*.md"] },
+        "E02": { nombre: "ESPECIALIDAD_02_Ingenieria_Electrica", fuentes: ["IV. Ingenieria basica/IV.2_Instalaciones_Electricas*.md"] },
+        "E03": { nombre: "ESPECIALIDAD_03_Ingenieria_Mecanica", fuentes: ["IV. Ingenieria basica/IV.3_Estructuras_Mecanicas*.md"] },
         "E04": { nombre: "ESPECIALIDAD_04_Ingenieria_Sistemas", fuentes: ["III. Ingenieria conceptual/32_Arquitectura_Sistemas*.md"] },
         "E05": { nombre: "ESPECIALIDAD_05_Ingenieria_Ambiental", fuentes: ["II. Apendices Tecnicos/15. AT4_Socio_Ambiental*.md"] },
         // Gestión
@@ -355,7 +355,7 @@ function applyPurity(contenido) {
  * COMANDO: purify (Saneamiento Sistémico Masivo)
  */
 function purify() {
-    log("\n🧼 PURIFY - Saneamiento Sistémico v5.0 (ADN Pureza por Diseño)\n", colors.cyan);
+    log("\n🧼 PURIFY - Saneamiento Sistémico v5.0 (ADN Pureza por Diseno)\n", colors.cyan);
     
     const extensiones = ['.md', '.html', '.js', '.json'];
     const carpetasIgnorar = ['node_modules', '.git', 'bin', 'scripts'];

@@ -31,8 +31,8 @@ Versionado: v1.0 → v1.1 → v2.0
 |:--------|:---------|
 | **I. Contrato** | Base legal del proyecto |
 | **II. Apéndices** | Especificaciones + **Decisiones_Tecnicas/** ⭐ |
-| **III. Conceptual** | Diseño conceptual + **Validaciones/** ⭐ |
-| **IV. Básica** | Ingeniería básica |
+| **III. Conceptual** | Diseno conceptual + **Validaciones/** ⭐ |
+| **IV. Básica** | Ingeniería basica |
 | **V. Detalle** | Ingeniería de detalle |
 | **VI. O&M** | Operación y mantenimiento |
 

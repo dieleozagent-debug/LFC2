@@ -41,7 +41,7 @@ Este documento contiene las especificaciones técnicas detalladas, planos constr
 - **Tipos de Pasos a Nivel:**
   - **9 PN Tipo C:** Barreras automáticas (máxima protección)
   - **15 PN Tipo B:** Señales luminosas/acústicas (protección media)
-  - **122 PN Tipo A:** Señalización fija (protección básica)
+  - **122 PN Tipo A:** Señalización fija (protección basica)
 
 ### 1.2 Distribución por Kilómetros
 - **Tramo 1:** PK 0+000 - PK 180+000 (60 PN)

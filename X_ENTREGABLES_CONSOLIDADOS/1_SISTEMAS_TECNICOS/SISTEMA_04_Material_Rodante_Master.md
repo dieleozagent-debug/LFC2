@@ -17,7 +17,7 @@
 |:-----|:-----------|:---------------------|:----------|
 | **Contractual** | AT1, AT2, AT3, AT4, AT10, Cl13.1 | ✅ Sincronizado | Crítica |
 | **Conceptual** | 32_Material_Rodante_Integrado_v5.0, 23_ListadoMaestro_v5.0 | ✅ Sincronizado | Alta |
-| **Básica** | 37_Memorias_Diseño_Basico_v5.0, 38_DiagramasArquitectura | ✅ Sincronizado | Alta |
+| **Básica** | 37_Memorias_Diseno_Basico_v5.0, 38_DiagramasArquitectura | ✅ Sincronizado | Alta |
 | **Detalle** | V.3.1_Material_Rodante_Detallado, V.X_Sistema_EOT_v5.0 | ✅ Sincronizado | Alta |
 | **Operación** | 6.1_Manual_OM_CTC_v5.0, 6.5_Manual_OM_Integrado_v5.0 | ✅ Sincronizado | Media |
 
@@ -81,7 +81,7 @@
 - **Talleres de Línea:** Puerto Berrío, Barrancabermeja, Bucaramanga
 - **Equipos Especializados:** Elevadores, grúas puente, bancos de prueba
 
-### **2.2 Criterios de Diseño**
+### **2.2 Criterios de Diseno**
 
 #### **Disponibilidad y Redundancia:**
 - **Material Rodante:** 99.95% disponibilidad con mantenimiento preventivo
@@ -391,7 +391,7 @@
 - `36_Criterios_Ciberseguridad_docx_Protecci_n_de_sistemas_de_control.md` - Criterios ciberseguridad
 
 ### **9.3 Documentos de Ingeniería Básica**
-- `37_Memorias_Diseño_Basico_v5.0.md` - Memorias de diseño básico
+- `37_Memorias_Diseno_Basico_v5.0.md` - Memorias de diseno básico
 - `38. DiagramasArquitectura_sist_ctc-telco.md` - Diagramas de arquitectura
 - `41. Interfaces_Sistemas_MEJORADO.md` - Interfaces de sistemas
 

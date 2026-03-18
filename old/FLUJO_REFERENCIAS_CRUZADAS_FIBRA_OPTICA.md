@@ -34,7 +34,7 @@
 | Documento | Sección Afectada | Cambio Requerido |
 |-----------|------------------|------------------|
 | `39_PlanosPreliminares_localizacion.md` | **Ubicación cajas** | 1,980 cajas cada 300m |
-| `37_MemoriasDiseño_Basico_v5.0.md` | **Memoria de cálculo** | Actualizar justificación |
+| `37_MemoriasDiseno_Basico_v5.0.md` | **Memoria de cálculo** | Actualizar justificación |
 
 ### **C. INGENIERÍA DE DETALLE**
 | Documento | Sección Afectada | Cambio Requerido |

@@ -32,7 +32,7 @@ Se han corregido los errores de purga detectados en la v6.0:
 ---
 
 ## ✅ CONCLUSIÓN DE ESPECIALIDAD:
-El diseño eléctrico garantiza la continuidad operativa de la **Red Vital SICC** con una infraestructura distribuida y resiliente, eliminando la dependencia de redes de alta tensión externas para la tracción.
+El diseno eléctrico garantiza la continuidad operativa de la **Red Vital SICC** con una infraestructura distribuida y resiliente, eliminando la dependencia de redes de alta tensión externas para la tracción.
 
 **Saneamiento Ciclo 6 - Especialidad Eléctrica SICC Finalizada.**
 **Cerebro Maestro:** lfc-terminology.js

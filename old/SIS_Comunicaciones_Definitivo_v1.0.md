@@ -72,11 +72,11 @@
 
 | KPI | Objetivo | Actual | Evidencia | Responsable | Estado |
 |:---|:---:|:---:|:---|:---|:---:|
-| **Disponibilidad backbone fibra** | 99.95% | En diseño | Monitoreo NOC | Ing. Telecomunicaciones | ⏳ |
-| **Cobertura TETRA** | 95% territorio | En diseño | Drive test | Ing. Telecomunicaciones | ⏳ |
-| **Latencia red datos** | <50ms | En diseño | Pruebas throughput | Ing. Telecomunicaciones | ⏳ |
-| **MTBF equipos TETRA** | >8760h | En diseño | Análisis RAMS | Ing. Telecomunicaciones | ⏳ |
-| **Throughput Red Vital IP / TETRA** | >2Mbps | En diseño | Pruebas de campo | Ing. Telecomunicaciones | ⏳ |
+| **Disponibilidad backbone fibra** | 99.95% | En diseno | Monitoreo NOC | Ing. Telecomunicaciones | ⏳ |
+| **Cobertura TETRA** | 95% territorio | En diseno | Drive test | Ing. Telecomunicaciones | ⏳ |
+| **Latencia red datos** | <50ms | En diseno | Pruebas throughput | Ing. Telecomunicaciones | ⏳ |
+| **MTBF equipos TETRA** | >8760h | En diseno | Análisis RAMS | Ing. Telecomunicaciones | ⏳ |
+| **Throughput Red Vital IP / TETRA** | >2Mbps | En diseno | Pruebas de campo | Ing. Telecomunicaciones | ⏳ |
 
 10. Criterios de Aceptación (FAT/SAT)
    - FAT: pruebas de laboratorio de enlaces ópticos y performance de red.

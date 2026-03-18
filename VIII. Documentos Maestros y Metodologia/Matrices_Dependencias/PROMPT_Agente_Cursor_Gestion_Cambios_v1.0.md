@@ -25,9 +25,9 @@
 I. Contrato General/              → Base legal
 II. Apendices Tecnicos/           → Especificaciones
     └── Decisiones_Tecnicas/      → Cambios técnicos versionados
-III. Ingenieria conceptual/       → Diseño conceptual
+III. Ingenieria conceptual/       → Diseno conceptual
     └── Validaciones/             → Validaciones de DT aprobadas
-IV. Ingenieria basica/            → Ingeniería básica
+IV. Ingenieria basica/            → Ingeniería basica
 V. Ingenieria de detalle/         → Ingeniería de detalle
 VI. operacion y mantenimiento/    → O&M
 ```
@@ -311,7 +311,7 @@ Buscar en tabla: "Fibra - Cajas empalme"
 Archivos identificados:
 1. V. Ingenieria de detalle/V.3_Sistemas_Comunicacion_Detalle.md (Tabla 5.3, Línea 234)
 2. IX. WBS y Planificacion/WBS_Presupuestal_v2.0.md (Item 3.1.5)
-3. IV. Ingenieria basica/37. MemoriasDiseño_Basico_v5.0_Validado_Riesgos.md (Sección 4.2.3)
+3. IV. Ingenieria basica/37. MemoriasDiseno_Basico_v5.0_Validado_Riesgos.md (Sección 4.2.3)
 4. III. Ingenieria conceptual/28_Sistema_FibraOptica_Integrado.md (Sección 2.2)
 5. X_ENTREGABLES_CONSOLIDADOS/1_SISTEMAS_TECNICOS/SISTEMA_02_Telecomunicaciones_Master.md (Sección 5.2.3)
 
@@ -344,7 +344,7 @@ R-FIBRA-007:
 - Descripción: "Posible degradación de señal en tramos más largos"
 - Probabilidad: 15% (Baja)
 - Impacto: Medio
-- Estrategia: Mitigar (validar con OTDR en diseño)
+- Estrategia: Mitigar (validar con OTDR en diseno)
 
 ## PASO 5: GENERAR ANÁLISIS
 Usar plantilla: II/Decisiones_Tecnicas/PLANTILLA_Análisis_Cambio.md
@@ -386,7 +386,7 @@ CAMBIO:
 - Costo total: Recalcular = 594 × [precio unitario del WBS]
 - Actualizar total del capítulo 3
 
-### 3. IV. Ingenieria basica/37. MemoriasDiseño_Basico_v5.0_Validado_Riesgos.md
+### 3. IV. Ingenieria basica/37. MemoriasDiseno_Basico_v5.0_Validado_Riesgos.md
 Localizar: Sección 4.2.3 "Infraestructura OSP - Cajas empalme"
 CAMBIO:
 - Especificación: "Cajas cada 500m según norma UIT-T" → "Cajas cada 1000m optimizado por accesibilidad"
@@ -394,7 +394,7 @@ CAMBIO:
 - Control cambios: Agregar entrada
 
 ### 4. III. Ingenieria conceptual/28_Sistema_FibraOptica_Integrado.md
-Localizar: Sección 2.2 "Criterios de diseño OSP"
+Localizar: Sección 2.2 "Criterios de diseno OSP"
 CAMBIO:
 - Criterio espaciamiento: "300-500m estándar" → "1000m optimizado"
 - Versión: [actual] → [siguiente]

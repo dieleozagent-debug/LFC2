@@ -6,7 +6,7 @@
 ## 1. MARCO CONTRACTUAL
 
 ### 1.1 Base Legal
-El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión crítica del proyecto. Su diseño conceptual integra requisitos de:
+El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión crítica del proyecto. Su diseno conceptual integra requisitos de:
 - **AT1 (Alcance):** Define la necesidad de un "Sistema Base Troncal" y "Torres de telecomunicaciones" para garantizar la comunicación (Cap. I, Num. 1.3).
 - **AT2 (Operación):** Establece la obligación de mantener comunicaciones ferroviarias 24/7 y la interoperabilidad con FENOCO (Cap. 3.2.2).
 - **AT3 (Especificaciones):** Detalla los requisitos técnicos para el sistema de radio TETRA, incluyendo el cumplimiento de normas ETSI (Cap. 8.5).
@@ -20,7 +20,7 @@ Este documento es la base para todas las comunicaciones de voz operativas. Sin u
     - `AT1`, `AT2`, `AT3`, `AT7`: Fuentes primarias de requisitos.
     - `28_Sistema_FibraOptica_Integrado...md`: Define el backbone de fibra que servirá de backhaul para las estaciones base TETRA. **(Recién completado, desbloquea este documento)**.
 - **Gobierna a:**
-    - `V. Ingenieria de detalle/5_Radio_TETRA_Contrato_8_5.md`: El diseño de detalle se basa en los conceptos aquí definidos.
+    - `V. Ingenieria de detalle/5_Radio_TETRA_Contrato_8_5.md`: El diseno de detalle se basa en los conceptos aquí definidos.
     - `39. PlanosPreliminares...md`: La ubicación de las torres se define a partir del estudio de cobertura conceptualizado aquí.
     - `32_Material_Rodante_Integrado...md`: Define las especificaciones de los equipos de radio que deben instalarse en las locomotoras.
 
@@ -37,7 +37,7 @@ Este análisis se fundamenta en la estructura de trabajo ya aprobada y en el doc
 | `28_Sistema_FibraOptica_Integrado...md` | Define la arquitectura del backbone de comunicaciones que conectará las estaciones base TETRA. |
 
 ### 2.2 Documentos Dependientes (Bloqueados 🔴)
-El diseño detallado de la red TETRA no puede avanzar hasta que este concepto de integración sea validado.
+El diseno detallado de la red TETRA no puede avanzar hasta que este concepto de integración sea validado.
 
 | Documento | Dependencia |
 |---|---|
@@ -77,17 +77,17 @@ La siguiente matriz integra los requisitos de los diferentes apéndices en funci
 
 | Requisito Contractual | Fuente | Funcionalidad TETRA Asociada | Estado AT3/AT4 |
 |---|---|---|:---:|
-| **Sistema Base Troncal y Torres** | AT1, Cap. I | Diseño de una red de ~33 sitios para garantizar 100% de cobertura en el corredor. | ✅ Definido |
+| **Sistema Base Troncal y Torres** | AT1, Cap. I | Diseno de una red de ~33 sitios para garantizar 100% de cobertura en el corredor. | ✅ Definido |
 | **Comunicaciones Ferroviarias 24/7** | AT2, Cap. 3.2.2 | Implementación de grupos de llamada para operación, mantenimiento y emergencias. | ✅ Definido |
 | **Especificaciones de Radio (ETSI)** | AT3, Cap. 8.5 | Selección de equipos (estaciones base, terminales) que cumplan con los estándares ETSI EN 300 392. | ⚠️ Condicionado |
 | **Adquisición de Predios para Torres** | AT7, Cap. 3.1 | Plan de adquisición de los ~33 predios necesarios, coordinado con el estudio de cobertura. | ✅ Definido |
-| **Interoperabilidad con FENOCO** | AT1, AT2 | Diseño de un plan de roaming o interconexión de redes para garantizar la comunicación en la frontera de Chiriguaná.<br>- **Protocolos FRA/AREMA para interoperabilidad** | ✅ Definido |
+| **Interoperabilidad con FENOCO** | AT1, AT2 | Diseno de un plan de roaming o interconexión de redes para garantizar la comunicación en la frontera de Chiriguaná.<br>- **Protocolos FRA/AREMA para interoperabilidad** | ✅ Definido |
 | **Equipos Embarcados en Locomotoras** | Cl. 13.1 | Especificación de radios móviles TETRA con GPS integrado para cada locomotora.<br>- **Interfaz PTC PTC Virtual (FRA 236) hasta AT3** | ✅ Definido |
-| **Disponibilidad del Servicio (COM1)** | AT4 | Diseño de una red con redundancia N+1 para cumplir con los indicadores de disponibilidad.<br>- **Disponibilidad 99.5% según AT4** | 🔴 Bloqueado |
+| **Disponibilidad del Servicio (COM1)** | AT4 | Diseno de una red con redundancia N+1 para cumplir con los indicadores de disponibilidad.<br>- **Disponibilidad 99.5% según AT4** | 🔴 Bloqueado |
 
 ### 4.2 Indicadores de Riesgo por Bloqueo AT3/AT4
 - **🟢 Verde (Proceder):** Estudio de propagación, planificación de sitios, inicio de gestión predial (AT7) y de permisos (ANE).
-- **🟡 Amarillo (Diseño Modular):** Diseño de la arquitectura de red y plan de grupos. Se puede avanzar, pero la selección final de equipos depende de AT3.
+- **🟡 Amarillo (Diseno Modular):** Diseno de la arquitectura de red y plan de grupos. Se puede avanzar, pero la selección final de equipos depende de AT3.
 - **🔴 Rojo (Bloqueado):** Adquisición de equipos de radio específicos (depende de AT3). Cálculo y reporte de indicadores de disponibilidad (depende de AT4).
 
 ---
@@ -104,8 +104,8 @@ Este documento ha sido actualizado a la versión 4.0, estableciendo un **plan co
 ### 5.3 Criterios para Avance
 La aprobación de este documento conceptual permite:
 - **Desbloquear el Paquete de Trabajo 3.0 (Sistemas ITS y Seguridad):** Al definir la red de comunicaciones que soportará sistemas como CCTV y alarmas remotas.
-- **Iniciar el Diseño Básico de la Red TETRA:** Incluyendo la elaboración de los planos de ubicación de torres (`39. PlanosPreliminares...md`).
-- **Avanzar en el Diseño del Material Rodante:** Al tener claras las especificaciones de los equipos de radio embarcados.
+- **Iniciar el Diseno Básico de la Red TETRA:** Incluyendo la elaboración de los planos de ubicación de torres (`39. PlanosPreliminares...md`).
+- **Avanzar en el Diseno del Material Rodante:** Al tener claras las especificaciones de los equipos de radio embarcados.
 
 ---
 

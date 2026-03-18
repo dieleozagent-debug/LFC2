@@ -61,7 +61,7 @@ Este roadmap establece la ruta de trabajo para el desarrollo de la ingeniería d
 | 3.2 | `../III. Ingenieria conceptual/31_Sistema_CCTV_Integrado...md` | ✅ Completado | 19/09/2025 | Validado análisis de CCTV, **identificando riesgos y supuestos.** |
 | 4.1 | `../III. Ingenieria conceptual/32_Material_Rodante_Integrado...md` | ✅ Completado | 19/09/2025 | Validado análisis de Material Rodante, **identificando riesgos y supuestos.** |
 
-### Bloque 2.0: Criterios de Diseño Transversales
+### Bloque 2.0: Criterios de Diseno Transversales
 | WBS ID | Documento | Estado | Fecha | Observaciones |
 |:---|:---|:---:|:---:|:---|
 | B.8 | `../III. Ingenieria conceptual/33_Criterios_Normatividad...md` | ✅ Completado | 19/09/2025 | Validado criterios de normatividad, **identificando riesgos y supuestos.** |
@@ -74,7 +74,7 @@ Este roadmap establece la ruta de trabajo para el desarrollo de la ingeniería d
 ## C. 🏗️ FASE C: INGENIERÍA BÁSICA (WBS IV)
 | WBS ID | Documento | Estado | Fecha | Observaciones |
 |:---|:---|:---:|:---:|---|
-| 4.1 | `../IV. Ingenieria basica/37. MemoriasDiseño_Basico_v5.0_Validado_Riesgos.md` | ✅ **Completado** | 19/09/2025 | Justifica las decisiones de diseño y mitiga riesgos. |
+| 4.1 | `../IV. Ingenieria basica/37. MemoriasDiseno_Basico_v5.0_Validado_Riesgos.md` | ✅ **Completado** | 19/09/2025 | Justifica las decisiones de diseno y mitiga riesgos. |
 | 4.2 | `../IV. Ingenieria basica/38. DiagramasArquitectura_sist_ctc-telco.md` | ✅ **Completado** | 19/09/2025 | Representación gráfica de la solución técnica. |
 | 4.3 | `../IV. Ingenieria basica/39. PlanosPreliminares_localizacion torres tetra_fibra_nod.md` | ✅ **Completado** | 19/09/2025 | Localización de equipos principales. |
 | 4.4 | `../IV. Ingenieria basica/40. Plan_GestionPermisos_MEJORADO.md` | ✅ **Completado** | 19/09/2025 | Plan para trámites ante ANE, ANLA y municipios. |
@@ -87,17 +87,17 @@ Este roadmap establece la ruta de trabajo para el desarrollo de la ingeniería d
 | WBS ID | Documento | Estado | Fecha | Observaciones |
 |:---|:---|:---:|:---:|---|
 | 5.1 | `V. Ingenieria de detalle/1_Se_alizaci_n_ferroviaria...md` | ✅ **Completado** | 19/09/2025 | Planos constructivos y especificaciones de montaje. |
-| 5.2 | `V. Ingenieria de detalle/2_Centro_de_Control_de_Tr_fico_CTC...md` | ✅ **Completado** | 19/09/2025 | Diseño detallado de la sala de control, consolas y videowall. |
-| 5.3 | `V. Ingenieria de detalle/3_Pasos_a_nivel...md` | ✅ **Completado** | 19/09/2025 | Diseño detallado de los 146 pasos a nivel. |
-| 5.4 | `V. Ingenieria de detalle/4_Comunicaciones_generales...md` | ✅ **Completado** | 19/09/2025 | Diseño detallado de la red de datos, telefonía e interfonía. |
-| 5.5 | `V. Ingenieria de detalle/5_Radio_TETRA...md` | ✅ **Completado** | 19/09/2025 | Diseño detallado de la red de radio TETRA. |
-| 5.6 | `V. Ingenieria de detalle/6_Fibra_ptica...md` | ✅ **Completado** | 19/09/2025 | Diseño detallado del backbone de fibra óptica. |
-| 5.7 | `V. Ingenieria de detalle/7_Instalaciones_el_ctricas...md` | ✅ **Completado** | 19/09/2025 | Diseño detallado de los sistemas de energía. |
-| 5.8 | `V. Ingenieria de detalle/8_CCTV...md` | ✅ **Completado** | 19/09/2025 | Diseño detallado del sistema de videovigilancia. |
-| 5.9 | `V. Ingenieria de detalle/9_Interfon_a...md` | ✅ **Completado** | 19/09/2025 | Diseño detallado del sistema de interfonía. |
-| 5.10 | `V. Ingenieria de detalle/10_Red_de_datos...md` | ✅ **Completado** | 19/09/2025 | Diseño detallado de la red de datos. |
-| 5.11 | `V. Ingenieria de detalle/11_Sistema_contra_incendio...md` | ✅ **Completado** | 19/09/2025 | Diseño detallado del sistema contra incendios. |
-| 5.12 | `V. Ingenieria de detalle/12_Comunicaciones_embarcadas...md` | ✅ **Completado** | 19/09/2025 | Diseño detallado de los sistemas a bordo. |
+| 5.2 | `V. Ingenieria de detalle/2_Centro_de_Control_de_Tr_fico_CTC...md` | ✅ **Completado** | 19/09/2025 | Diseno detallado de la sala de control, consolas y videowall. |
+| 5.3 | `V. Ingenieria de detalle/3_Pasos_a_nivel...md` | ✅ **Completado** | 19/09/2025 | Diseno detallado de los 146 pasos a nivel. |
+| 5.4 | `V. Ingenieria de detalle/4_Comunicaciones_generales...md` | ✅ **Completado** | 19/09/2025 | Diseno detallado de la red de datos, telefonía e interfonía. |
+| 5.5 | `V. Ingenieria de detalle/5_Radio_TETRA...md` | ✅ **Completado** | 19/09/2025 | Diseno detallado de la red de radio TETRA. |
+| 5.6 | `V. Ingenieria de detalle/6_Fibra_ptica...md` | ✅ **Completado** | 19/09/2025 | Diseno detallado del backbone de fibra óptica. |
+| 5.7 | `V. Ingenieria de detalle/7_Instalaciones_el_ctricas...md` | ✅ **Completado** | 19/09/2025 | Diseno detallado de los sistemas de energía. |
+| 5.8 | `V. Ingenieria de detalle/8_CCTV...md` | ✅ **Completado** | 19/09/2025 | Diseno detallado del sistema de videovigilancia. |
+| 5.9 | `V. Ingenieria de detalle/9_Interfon_a...md` | ✅ **Completado** | 19/09/2025 | Diseno detallado del sistema de interfonía. |
+| 5.10 | `V. Ingenieria de detalle/10_Red_de_datos...md` | ✅ **Completado** | 19/09/2025 | Diseno detallado de la red de datos. |
+| 5.11 | `V. Ingenieria de detalle/11_Sistema_contra_incendio...md` | ✅ **Completado** | 19/09/2025 | Diseno detallado del sistema contra incendios. |
+| 5.12 | `V. Ingenieria de detalle/12_Comunicaciones_embarcadas...md` | ✅ **Completado** | 19/09/2025 | Diseno detallado de los sistemas a bordo. |
 
 ---
 

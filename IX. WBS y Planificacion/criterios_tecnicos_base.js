@@ -101,7 +101,7 @@
         ],
         "restriccion": "MÃÂ­nimo 1 cÃ¡mara por punto crÃÂ­tico",
         "alternativas": [
-          "73 cÃ¡maras Ã¢â â Cobertura básica (1 por punto)",
+          "73 cÃ¡maras Ã¢â â Cobertura basica (1 por punto)",
           "120 cÃ¡maras Ã¢â â Cobertura media (redundancia en crÃÂ­ticos)",
           "180 cÃ¡maras Ã¢â â Cobertura completa (mÃºltiples Ã¡ngulos)"
         ]

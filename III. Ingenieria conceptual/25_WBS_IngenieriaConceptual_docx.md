@@ -6,7 +6,7 @@
 ## 1. MARCO CONTRACTUAL
 
 ### 1.1 Base Legal
-Esta Estructura de Desglose de Trabajo (WBS, por sus siglas en inglés) se desarrolla en cumplimiento de la **Cláusula 8.1 (Estudios y Diseños)**. Su objetivo es organizar en paquetes de trabajo manejables todas las actividades de la Ingeniería Conceptual, asegurando que cada sistema definido en el `23_ListadoMaestro_Sistemas...md` y trazado en la `24_Matriz_TrazabilidadContractual...md` sea analizado y diseñado de forma estructurada.
+Esta Estructura de Desglose de Trabajo (WBS, por sus siglas en inglés) se desarrolla en cumplimiento de la **Cláusula 8.1 (Estudios y Disenos)**. Su objetivo es organizar en paquetes de trabajo manejables todas las actividades de la Ingeniería Conceptual, asegurando que cada sistema definido en el `23_ListadoMaestro_Sistemas...md` y trazado en la `24_Matriz_TrazabilidadContractual...md` sea analizado y diseñado de forma estructurada.
 
 ### 1.2 ⚠️ EVALUACIÓN DE DEPENDENCIAS DOCUMENTALES
 Este documento es el **plan de ejecución** de la Ingeniería Conceptual. Consolida los documentos base y define la secuencia de trabajo para los análisis por sistema.
@@ -16,7 +16,7 @@ Este documento es el **plan de ejecución** de la Ingeniería Conceptual. Consol
     - `23_ListadoMaestro_Sistemas...md`: Proporciona la lista de sistemas a desglosar.
     - `24_Matriz_TrazabilidadContractual...md`: Asegura que cada paquete de trabajo tiene una base contractual.
 - **Gobierna a:**
-    - `26` a `36_...md`: Todos los documentos de análisis por sistema y criterios de diseño se organizan y ejecutan según esta WBS.
+    - `26` a `36_...md`: Todos los documentos de análisis por sistema y criterios de diseno se organizan y ejecutan según esta WBS.
 
 ---
 
@@ -51,7 +51,7 @@ El desarrollo de los análisis por sistema está bloqueado hasta que esta WBS se
 Esta WBS está diseñada como una herramienta de gestión para un contratista EPC, permitiendo:
 - **Planificación de Recursos:** Asignar equipos de ingeniería especializados (Control, Telecom, etc.) a paquetes de trabajo específicos.
 - **Control de Avance:** Medir el progreso de la ingeniería conceptual de forma granular, paquete por paquete, en lugar de como un todo monolítico.
-- **Gestión de Dependencias:** Visualizar claramente las dependencias entre paquetes de trabajo (ej. el diseño de TETRA depende del plan de sitios de torres).
+- **Gestión de Dependencias:** Visualizar claramente las dependencias entre paquetes de trabajo (ej. el diseno de TETRA depende del plan de sitios de torres).
 
 ---
 
@@ -66,23 +66,23 @@ A continuación, se presenta la Estructura de Desglose de Trabajo para la Ingeni
 | 1.2 | Señalización Ferroviaria y Enclavamientos | - Filosofía de señalización (bloques, cantones)<br>- Criterios para enclavamientos electrónicos (CBI)<br>- Especificaciones para detectores de vía | `29_Sistema_Senalizacion_Integrado...md` |
 | 1.3 | Capacidad y Gestión de Surcos | - Modelo de simulación de capacidad (FRA/AREMA-405)<br>- Reglas de negocio para asignación de surcos<br>- Protocolo de interoperabilidad con FENOCO<br>- **PTC PTC Virtual (FRA 236) hasta AT3** | `20. AT10_CapacidadSurcos...md` |
 | **2.0** | **Sistemas de Telecomunicaciones** | | |
-| 2.1 | Red de Fibra Óptica (Backbone) | - Diseño de topología de anillo redundante<br>- Especificaciones de cable y equipos de transmisión (DWDM)<br>- Plan de gestión de interferencias (AT5) | `28_Sistema_FibraOptica_Integrado...md` |
+| 2.1 | Red de Fibra Óptica (Backbone) | - Diseno de topología de anillo redundante<br>- Especificaciones de cable y equipos de transmisión (DWDM)<br>- Plan de gestión de interferencias (AT5) | `28_Sistema_FibraOptica_Integrado...md` |
 | 2.2 | Sistema de Radio TETRA | - Estudio de cobertura de radio<br>- Plan de sitios para estaciones base (coord. con AT7)<br>- Especificaciones de equipos embarcados y portátiles<br>- **Disponibilidad 99.5% según AT4**<br>- **Interoperabilidad FENOCO FRA/AREMA** | `27_Sistema_TETRA_Integrado...md` |
 | **3.0** | **Sistemas ITS y Seguridad** | | |
 | 3.1 | Sistemas Inteligentes de Transporte (ITS) | - Arquitectura de sistemas ITS (paneles, sensores)<br>- Plan de integración con indicadores de desempeño (AT4)<br>- Criterios de gestión ambiental (AT6) | `30_Sistema_ITS_Integrado...md` |
 | 3.2 | Sistema de Videovigilancia (CCTV) | - Plan de cobertura de cámaras (estaciones, P.N., CCO)<br>- Especificaciones de VMS y almacenamiento<br>- Criterios de integración con gestión social (AT8) | `31_Sistema_CCTV_Integrado...md` |
 | **4.0** | **Material Rodante y Equipos** | | |
 | 4.1 | Material Rodante y Equipos Embarcados | - Especificaciones funcionales de locomotoras y vagones<br>- Requisitos de equipos embarcados (PTC, TETRA, GPS)<br>- Plan de Puesta a Punto y Mantenimiento (AT2)<br>- **PTC PTC Virtual (FRA 236) hasta AT3**<br>- **Disponibilidad 99.95% según AT4** | `32_Material_Rodante_Integrado...md` |
-| **5.0** | **Criterios de Diseño Transversales** | | |
+| **5.0** | **Criterios de Diseno Transversales** | | |
 | 5.1 | Normatividad y Estándares | - Matriz de normatividad aplicable (AREMA, FRA/AREMA, RETIE, etc.)<br>- Análisis de brechas normativas | `33_Criterios_Normatividad...md` |
 | 5.2 | Interoperabilidad | - Estrategia de interoperabilidad con FENOCO<br>- Definición de interfaces técnicas y operativas<br>- **Protocolos FRA/AREMA para FENOCO** | `34_Criterios_Interoperabilidad...md` |
 | 5.3 | Redundancia y Disponibilidad | - Criterios de redundancia para sistemas críticos (N+1)<br>- Cálculo de disponibilidad por sistema<br>- **Criterios AT4: CTC 99.95%, TETRA 99.5%, PTC 99.95%** | `35_Criterios_Redundancia...md` |
 | 5.4 | Ciberseguridad | - Política de ciberseguridad para sistemas de control (OT)<br>- Arquitectura de red segura (segmentación, firewalls) | `36_Criterios_Ciberseguridad...md` |
 | **6.0** | **Sistemas Eléctricos y de Potencia** | | |
-| 6.1 | Sistema de Alimentación Principal y Respaldo | - Diseño de doble acometida eléctrica<br>- Diagramas unifilares generales<br>- Especificaciones de tableros y transformadores<br>- Cumplimiento RETIE | `V. Ingenieria de detalle/7_Instalaciones_el_ctricas_Contrato_8_7.md` |
+| 6.1 | Sistema de Alimentación Principal y Respaldo | - Diseno de doble acometida eléctrica<br>- Diagramas unifilares generales<br>- Especificaciones de tableros y transformadores<br>- Cumplimiento RETIE | `V. Ingenieria de detalle/7_Instalaciones_el_ctricas_Contrato_8_7.md` |
 | 6.2 | Sistemas de Potencia Ininterrumpida (UPS) | - Cálculo de cargas críticas (CTC, CCO, Telecom)<br>- Especificaciones de UPS (N+1)<br>- Plan de autonomía de baterías (mín. 4 horas) | `35_Criterios_Redundancia...md` |
-| 6.3 | Sistemas de Generación de Emergencia | - Dimensionamiento de plantas de emergencia<br>- Diseño de transferencia automática (ATS)<br>- Plan de almacenamiento de combustible | `35_Criterios_Redundancia...md` |
-| 6.4 | Puesta a Tierra y Protección contra Rayos | - Diseño de malla de puesta a tierra (talleres, CCO, torres)<br>- Especificaciones de sistema de apantallamiento<br>- Cumplimiento NTC 2050 y RETIE | `V. Ingenieria de detalle/7_Instalaciones_el_ctricas_Contrato_8_7.md` |
+| 6.3 | Sistemas de Generación de Emergencia | - Dimensionamiento de plantas de emergencia<br>- Diseno de transferencia automática (ATS)<br>- Plan de almacenamiento de combustible | `35_Criterios_Redundancia...md` |
+| 6.4 | Puesta a Tierra y Protección contra Rayos | - Diseno de malla de puesta a tierra (talleres, CCO, torres)<br>- Especificaciones de sistema de apantallamiento<br>- Cumplimiento NTC 2050 y RETIE | `V. Ingenieria de detalle/7_Instalaciones_el_ctricas_Contrato_8_7.md` |
 
 ---
 

@@ -48,7 +48,7 @@
 
 ### **LO QUE SÍ incluye EPC:**
 
-1. ✅ **Diseño estándar sistemas embarcados**
+1. ✅ **Diseno estándar sistemas embarcados**
    - Especificaciones PTC embarcado
    - Especificaciones TETRA embarcado
    - Especificaciones Red Vital IP / TETRA embarcado
@@ -149,7 +149,7 @@
 **Participantes:**
 1. Gerencia de Material Rodante (Concesionario)
 2. FENOCO (proveedor MR)
-3. Oferente EPC (diseño PTC embarcado)
+3. Oferente EPC (diseno PTC embarcado)
 4. FENOCO (coordinación operativa)
 5. PMO Proyecto
 6. Interventoría
@@ -212,7 +212,7 @@ INFORMACIÓN REQUERIDA:
 5. Plan de pruebas conjuntas (shutdowns operativos)
 
 IMPACTO SI NO SE ENTREGA:
-Diseño de secuencia de comisionamiento será GENÉRICO.
+Diseno de secuencia de comisionamiento será GENÉRICO.
 EPC asumirá cronograma estándar: Piloto M20, Lote 1 M23, Resto M27.
 
 Si Material Rodante NO está disponible según cronograma asumido,
@@ -227,6 +227,6 @@ ser post-entrega formal del proyecto).
 ---
 
 **Elaborado por:** PMO / Gestión Material Rodante  
-**Estado:** ⚠️ PENDIENTE INPUT - Diseño adaptable preparado  
+**Estado:** ⚠️ PENDIENTE INPUT - Diseno adaptable preparado  
 **Requiere:** Cronograma MR de FENOCO (Mes 5)
 

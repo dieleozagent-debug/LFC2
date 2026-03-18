@@ -217,7 +217,7 @@ Actualizar TODOS los archivos afectados:
 
 4. III/28_Sistema_FibraOptica_Integrado.md
    - Sección: Sección 2.2
-   - Cambio: Criterios de diseño
+   - Cambio: Criterios de diseno
 
 # EN CADA ARCHIVO:
 Agregar en "Control de Versiones":

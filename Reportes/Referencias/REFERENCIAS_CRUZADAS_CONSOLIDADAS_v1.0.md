@@ -98,7 +98,7 @@
 #### **IV. INGENIERÍA BÁSICA (8 documentos)**
 | Documento | Referencias a | Referencias desde |
 |:----------|:-------------|:-----------------|
-| `37. MemoriasDiseño_Basico_v1.0.md` | AT1, AT2, AT3, AT4, AT5 | Especialidades, Construcción |
+| `37. MemoriasDiseno_Basico_v1.0.md` | AT1, AT2, AT3, AT4, AT5 | Especialidades, Construcción |
 | `38. DiagramasArquitectura_sist_ctc-telco.md` | AT3, AT5, PTC | Sistemas, Arquitectura |
 | `39. PlanosPreliminares_localizacion torres tetra_fibra_nod.md` | AT7, AT9 | Predios, Plan de Obras |
 | `40. Plan_GestionPermisos_MEJORADO.md` | AT6, AT7, AT8 | Ambiental, Predial, Social |

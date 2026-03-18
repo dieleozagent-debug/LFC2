@@ -37,7 +37,7 @@ Este documento consolida el índice maestro de toda la documentación de ingenie
 
 | WBS ID | Documento | Descripción |
 |:---|:---|:---|
-| 4.1 | `IV. Ingenieria basica/37. MemoriasDiseño_Basico...md` | Justificación técnica de las decisiones de diseño. |
+| 4.1 | `IV. Ingenieria basica/37. MemoriasDiseno_Basico...md` | Justificación técnica de las decisiones de diseno. |
 | 4.2 | `IV. Ingenieria basica/38. DiagramasArquitectura...md` | Representación gráfica de la solución técnica. |
 | 4.3 | `IV. Ingenieria basica/39. PlanosPreliminares...md` | Localización de torres TETRA, fibra y nodos. |
 | 4.4 | `IV. Ingenieria basica/40. Plan_GestionPermisos...md` | Plan para trámites ante ANE, ANLA y municipios. |
@@ -51,17 +51,17 @@ Este documento consolida el índice maestro de toda la documentación de ingenie
 | WBS ID | Documento | Descripción |
 |:---|:---|:---|
 | 5.1 | `V. Ingenieria de detalle/1_Se_alizaci_n_ferroviaria...md` | Planos constructivos y especificaciones de montaje para Señalización. |
-| 5.2 | `V. Ingenieria de detalle/2_Centro_de_Control_de_Tr_fico_CTC...md` | Diseño detallado de la sala de control, consolas y videowall. |
-| 5.3 | `V. Ingenieria de detalle/3_Pasos_a_nivel...md` | Diseño detallado de los 146 pasos a nivel. |
-| 5.4 | `V. Ingenieria de detalle/4_Comunicaciones_generales...md` | Diseño detallado de la red de datos, telefonía e interfonía. |
-| 5.5 | `V. Ingenieria de detalle/5_Radio_TETRA...md` | Diseño detallado de la red de radio TETRA. |
-| 5.6 | `V. Ingenieria de detalle/6_Fibra_ptica...md` | Diseño detallado del backbone de fibra óptica. |
-| 5.7 | `V. Ingenieria de detalle/7_Instalaciones_el_ctricas...md` | Diseño detallado de los sistemas de energía. |
-| 5.8 | `V. Ingenieria de detalle/8_CCTV_Contrato_8_8_1.md` | Diseño detallado del sistema de videovigilancia. |
-| 5.9 | `V. Ingenieria de detalle/9_Interfon_a...md` | Diseño detallado del sistema de interfonía. |
-| 5.10 | `V. Ingenieria de detalle/10_Red_de_datos...md` | Diseño detallado de la red de datos. |
-| 5.11 | `V. Ingenieria de detalle/11_Sistema_contra_incendio...md` | Diseño detallado del sistema contra incendios. |
-| 5.12 | `V. Ingenieria de detalle/12_Comunicaciones_embarcadas...md` | Diseño detallado de los sistemas a bordo. |
+| 5.2 | `V. Ingenieria de detalle/2_Centro_de_Control_de_Tr_fico_CTC...md` | Diseno detallado de la sala de control, consolas y videowall. |
+| 5.3 | `V. Ingenieria de detalle/3_Pasos_a_nivel...md` | Diseno detallado de los 146 pasos a nivel. |
+| 5.4 | `V. Ingenieria de detalle/4_Comunicaciones_generales...md` | Diseno detallado de la red de datos, telefonía e interfonía. |
+| 5.5 | `V. Ingenieria de detalle/5_Radio_TETRA...md` | Diseno detallado de la red de radio TETRA. |
+| 5.6 | `V. Ingenieria de detalle/6_Fibra_ptica...md` | Diseno detallado del backbone de fibra óptica. |
+| 5.7 | `V. Ingenieria de detalle/7_Instalaciones_el_ctricas...md` | Diseno detallado de los sistemas de energía. |
+| 5.8 | `V. Ingenieria de detalle/8_CCTV_Contrato_8_8_1.md` | Diseno detallado del sistema de videovigilancia. |
+| 5.9 | `V. Ingenieria de detalle/9_Interfon_a...md` | Diseno detallado del sistema de interfonía. |
+| 5.10 | `V. Ingenieria de detalle/10_Red_de_datos...md` | Diseno detallado de la red de datos. |
+| 5.11 | `V. Ingenieria de detalle/11_Sistema_contra_incendio...md` | Diseno detallado del sistema contra incendios. |
+| 5.12 | `V. Ingenieria de detalle/12_Comunicaciones_embarcadas...md` | Diseno detallado de los sistemas a bordo. |
 
 ---
 

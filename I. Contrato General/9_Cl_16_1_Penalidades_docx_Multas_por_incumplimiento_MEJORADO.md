@@ -71,7 +71,7 @@ Este documento contractual establece el régimen de penalidades y multas aplicab
 - **Proceso:** Acto administrativo formal
 
 ### 2.4 Causales Comunes de Aplicación
-- **Retraso en entrega de estudios y diseños** (Cl. 8.1 y 8.2)
+- **Retraso en entrega de estudios y disenos** (Cl. 8.1 y 8.2)
 - **No obtención oportuna de licencias** (Cl. 2.14, AT6 Ambiental, AT7 Predial)
 - **Incumplimiento de cronogramas de obra** (AT9, Num. 2.1)
 - **Fallas en O&M que afecten continuidad o seguridad** (Cl. 9.1, AT2)
@@ -127,7 +127,7 @@ Este documento contractual establece el régimen de penalidades y multas aplicab
 
 ### 6.1 Documentos Base (Completados ✅)
 - **Cl_2.14_LicenciasPermisos v3.0** ✅ - Gestión de licencias y permisos
-- **Cl_8.1_Preconstruccion v3.0** ✅ - Obligaciones de estudios y diseños
+- **Cl_8.1_Preconstruccion v3.0** ✅ - Obligaciones de estudios y disenos
 - **Cl_8.2_Construccion v3.0** ✅ - Obligaciones en fase de construcción
 - **AT9_PlanObras v3.0** ✅ - Cronogramas de obra y entregables
 

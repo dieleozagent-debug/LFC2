@@ -94,16 +94,16 @@
 - **Cargas Críticas:** CTC, PTC, ENCE, TETRA, Red Vital IP / TETRA, Fibra óptica
 - **Puesta a Tierra:** Sistema de tierra con resistencia < 5 Ω
 
-### **2.2 Criterios de Diseño Eléctrico**
+### **2.2 Criterios de Diseno Eléctrico**
 
-#### **Principios de Diseño:**
+#### **Principios de Diseno:**
 - **Disponibilidad:** 99.95% para sistemas críticos con redundancia N+1
 - **Calidad de Energía:** THD < 5%, regulación de voltaje ±2%
 - **Eficiencia:** Factor de potencia > 0.95, pérdidas < 3%
 - **Seguridad:** Cumplimiento RETIE, IEC, IEEE
 - **Mantenibilidad:** Acceso para mantenimiento y monitoreo
 
-#### **Estándares de Diseño:**
+#### **Estándares de Diseno:**
 - **RETIE:** Reglamento Técnico de Instalaciones Eléctricas
 - **IEC 61850:** Comunicación en subestaciones
 - **IEEE 1547:** Interconexión de sistemas distribuidos
@@ -182,7 +182,7 @@
 
 ## 4. INGENIERÍA DE DETALLE
 
-### **4.1 Diseño Detallado de Sistemas Eléctricos**
+### **4.1 Diseno Detallado de Sistemas Eléctricos**
 
 #### **Tableros de Distribución:**
 | Tablero | Capacidad | Cargas | Ubicación |
@@ -472,7 +472,7 @@
 - `III. Ingenieria conceptual/25.1_Matriz_Alcance_Electrico.md` - Matriz alcance eléctrico
 
 ### **9.3 Documentos de Ingeniería Básica**
-- `IV.2_Especificaciones_Basicas_Electrica_v5.0.md` - Especificaciones básicas eléctrica
+- `IV.2_Especificaciones_Basicas_Electrica_v5.0.md` - Especificaciones basicas eléctrica
 - `VII.1.2_Matriz_Normatividad_Electrica.md` - Matriz normatividad eléctrica
 
 ### **9.4 Documentos de Ingeniería de Detalle**

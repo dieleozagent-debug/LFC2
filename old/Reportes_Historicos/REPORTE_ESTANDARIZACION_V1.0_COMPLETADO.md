@@ -30,7 +30,7 @@ Se ha completado exitosamente la estandarización de toda la documentación del 
 | **01. contrato en .md** | 11 | ✅ Completado |
 | **I. Contrato General** | 2 | ✅ Completado |
 | **III. Ingenieria conceptual** | 5 | ✅ Completado |
-| **IV. Ingenieria básica** | 1 | ✅ Completado |
+| **IV. Ingenieria basica** | 1 | ✅ Completado |
 | **V. Ingenieria de detalle** | 5 | ✅ Completado |
 | **VI. operacion y mantenimiento** | 4 | ✅ Completado |
 | **VII. Soporte Especializado** | 1 | ✅ Completado |
@@ -46,7 +46,7 @@ Se ha completado exitosamente la estandarización de toda la documentación del 
 - **Documentos PTC conceptuales:** 5 documentos de v0.1 → v1.0
 - **Manuales O&M:** Eliminado "_Validado" de nombres de archivo
 - **Apéndices técnicos:** 11 documentos actualizados a v1.0
-- **Memorias de diseño básico:** v5.0 → v1.0
+- **Memorias de diseno básico:** v5.0 → v1.0
 
 ### 2. Estandarización de Fechas
 - **Fecha unificada:** 02/10/2025 en todos los documentos principales
@@ -94,7 +94,7 @@ Se ha completado exitosamente la estandarización de toda la documentación del 
 17. `VI. operacion y mantenimiento y reversion/6.4_Manual_OM_Seguridad_v1.0.md`
 
 ### Ingeniería Básica
-18. `IV. Ingenieria básica/37. MemoriasDiseño_Basico_v1.0.md`
+18. `IV. Ingenieria basica/37. MemoriasDiseno_Basico_v1.0.md`
 
 ---
 
@@ -114,7 +114,7 @@ Se ha completado exitosamente la estandarización de toda la documentación del 
 ### Consistencia Técnica Confirmada
 - **Especificaciones técnicas:** Alineadas entre documentos
 - **Referencias normativas:** Consistentes
-- **Criterios de diseño:** Unificados
+- **Criterios de diseno:** Unificados
 - **Parámetros técnicos:** Coherentes
 
 ---
@@ -139,7 +139,7 @@ Se ha completado exitosamente la estandarización de toda la documentación del 
 ├── 📁 01. contrato en .md/ (11 documentos v1.0)
 ├── 📁 I. Contrato General/
 ├── 📁 III. Ingenieria conceptual/ (5 documentos PTC v1.0)
-├── 📁 IV. Ingenieria básica/ (1 documento v1.0)
+├── 📁 IV. Ingenieria basica/ (1 documento v1.0)
 ├── 📁 V. Ingenieria de detalle/ (5 documentos v1.0)
 ├── 📁 VI. operacion y mantenimiento y reversion/ (4 manuales v1.0)
 ├── 📁 VII. Soporte Especializado/

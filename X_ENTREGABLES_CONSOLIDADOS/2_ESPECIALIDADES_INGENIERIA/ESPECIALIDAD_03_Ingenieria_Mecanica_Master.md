@@ -88,16 +88,16 @@
 - **Sistemas Embarcados:** PTC PTC Virtual (FRA 236), TETRA + Red Vital IP / TETRA, GPS/GNSS
 - **Talleres:** Principal La Dorada + secundario Chiriguaná + talleres de línea
 
-### **2.2 Criterios de Diseño Mecánico**
+### **2.2 Criterios de Diseno Mecánico**
 
-#### **Principios de Diseño:**
+#### **Principios de Diseno:**
 - **Disponibilidad:** 99.95% para locomotoras con mantenimiento preventivo
 - **Interoperabilidad:** Compatibilidad con estándares FRA/AREMA y FENOCO
 - **Seguridad:** Sistemas de seguridad SIL 3-4 según EN 50126/50128/50129
 - **Mantenibilidad:** Acceso para mantenimiento y reparación
 - **Eficiencia:** Optimización de consumo y rendimiento
 
-#### **Estándares de Diseño:**
+#### **Estándares de Diseno:**
 - **FRA/AREMA:** Estándares internacionales para material rodante
 - **EN 50126/50128/50129:** Sistemas ferroviarios de seguridad
 - **AAR:** Asociación Americana de Ferrocarriles
@@ -115,7 +115,7 @@
 |:----------|:---------------|:--------------|
 | **Tipo** | U18 o equivalentes | Factor de calidad |
 | **Potencia** | 3,000 kW | Tracción distribuida |
-| **Velocidad máxima** | 120 km/h | Velocidad de diseño |
+| **Velocidad máxima** | 120 km/h | Velocidad de diseno |
 | **Velocidad comercial** | 80 km/h | Velocidad de operación |
 | **Peso** | 120 toneladas | Peso por locomotora |
 | **Longitud** | 22 metros | Longitud total |
@@ -177,15 +177,15 @@
 #### **Talleres de Línea:**
 | Ubicación | Equipos | Función |
 |:----------|:--------|:---------|
-| **Puerto Berrío** | Herramientas básicas | Mantenimiento en línea |
-| **Barrancabermeja** | Herramientas básicas | Mantenimiento en línea |
-| **Bucaramanga** | Herramientas básicas | Mantenimiento en línea |
+| **Puerto Berrío** | Herramientas basicas | Mantenimiento en línea |
+| **Barrancabermeja** | Herramientas basicas | Mantenimiento en línea |
+| **Bucaramanga** | Herramientas basicas | Mantenimiento en línea |
 
 ---
 
 ## 4. INGENIERÍA DE DETALLE
 
-### **4.1 Diseño Detallado de Locomotoras**
+### **4.1 Diseno Detallado de Locomotoras**
 
 #### **Sistemas de Tracción:**
 | Componente | Especificación | Material |
@@ -214,7 +214,7 @@
 | **GPS/GNSS** | Posicionamiento preciso | Seguimiento |
 | **Event Recorder** | Registro de eventos | Caja negra |
 
-### **4.2 Diseño Detallado de Vagones**
+### **4.2 Diseno Detallado de Vagones**
 
 #### **Plataformas Operativas (40 unidades):**
 | Parámetro | Especificación | Material |
@@ -234,7 +234,7 @@
 | **Costo estimado** | $50M COP por unidad | Inversión |
 | **Prioridad** | Media | Planificación |
 
-### **4.3 Diseño Detallado de Talleres**
+### **4.3 Diseno Detallado de Talleres**
 
 #### **Equipos de Taller Principal:**
 | Equipo | Especificación | Cantidad | Aplicación |

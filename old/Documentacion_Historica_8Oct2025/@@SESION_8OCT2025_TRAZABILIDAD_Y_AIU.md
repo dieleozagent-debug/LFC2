@@ -64,7 +64,7 @@
   - `wbs_metadata_enriquecida.js` (versión para interfaces HTML)
 - **Captura por ítem:**
   - Justificación técnica
-  - Criterios de diseño
+  - Criterios de diseno
   - Supuestos del especialista
   - Feedback del especialista
   - DTs relacionadas

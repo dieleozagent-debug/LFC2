@@ -92,7 +92,7 @@
 - `31_Sistema_CCTV_Integrado_docx_AT1_AT3_AT8_social_AT4_indicadores.md` → **Sistema CCTV**
 - `32_Material_Rodante_Integrado_docx_AT1_Cl_13_1_AT2_operaci_n_AT4.md` → **Material rodante integrado**
 
-#### **Criterios de Diseño**
+#### **Criterios de Diseno**
 - `33_Criterios_Normatividad_docx_AREMA_FRA/AREMA_RETIE_ISO_TC_204_NSR_10_NFPA.md` → **Criterios normatividad**
 - `34_Criterios_Interoperabilidad_docx_Compatibilidad_con_FENOCO_y_ANI.md` → **Criterios interoperabilidad**
 - `35_Criterios_Redundancia_docx_Disponibilidad_y_respaldo_de_sistemas_cr_ticos.md` → **Criterios redundancia**
@@ -106,8 +106,8 @@
 
 ### 🏗️ **IV. INGENIERÍA BÁSICA (7 documentos)**
 
-#### **Diseño y Arquitectura**
-- `37. MemoriasDiseño_Basico_just tec.md` → **Memorias de diseño básico**
+#### **Diseno y Arquitectura**
+- `37. MemoriasDiseno_Basico_just tec.md` → **Memorias de diseno básico**
 - `38. DiagramasArquitectura_sist_ctc-telco.md` → **Diagramas de arquitectura**
 
 #### **Planificación y Ubicación**
@@ -117,7 +117,7 @@
 #### **Interfaces y Pruebas**
 - `41. Interfaces_Sistemas_MEJORADO.md` → **Interfaces de sistemas**
 - `42. Plan_Pruebas_MEJORADO.md` → **Plan de pruebas**
-- `IV_Ingenieria_Basica_RESUMEN_MEJORADO.md` → **Resumen ingeniería básica**
+- `IV_Ingenieria_Basica_RESUMEN_MEJORADO.md` → **Resumen ingeniería basica**
 
 ---
 

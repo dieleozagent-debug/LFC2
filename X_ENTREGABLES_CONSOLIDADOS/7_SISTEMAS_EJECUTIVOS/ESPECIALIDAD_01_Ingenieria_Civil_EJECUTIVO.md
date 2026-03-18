@@ -21,7 +21,7 @@ La Ingeniería Civil es la **"base física"** del ferrocarril que proporciona to
 ### Hitos críticos
 | Fase | Fecha | Estado |
 |:-----|:------|:-------|
-| Diseño Conceptual | Enero 2025 | ✅ Completado |
+| Diseno Conceptual | Enero 2025 | ✅ Completado |
 | Licencias Ambientales | Febrero 2025 | ⏳ En progreso |
 | Movimiento de Tierras | Marzo 2025 | ❌ Pendiente |
 | Obras de Arte | Abril 2025 | ❌ Pendiente |
@@ -77,7 +77,7 @@ La Ingeniería Civil es la **"base física"** del ferrocarril que proporciona to
 - **Vida útil:** 50 años mínimo según especificaciones
 - **Seguridad:** Factor de seguridad 1.5 para cargas ferroviarias
 - **Durabilidad:** Concreto con aditivos para ambiente agresivo
-- **Mantenimiento:** Diseño para acceso y reparación
+- **Mantenimiento:** Diseno para acceso y reparación
 
 ---
 
@@ -128,10 +128,10 @@ La Ingeniería Civil proporciona **infraestructura física** para la operación 
 **Componentes instalados:**
 | Componente | Cantidad | Ubicación | Estado |
 |:-----------|:---------|:----------|:-------|
-| **Puentes** | 25 unidades | Cruce de ríos principales | ⏳ En diseño |
-| **Viaductos** | 5 unidades | Valles profundos | ⏳ En diseño |
-| **Alcantarillas** | 150 unidades | Cada 3.5 km promedio | ⏳ En diseño |
-| **Muros de contención** | 30 unidades | Taludes críticos | ⏳ En diseño |
+| **Puentes** | 25 unidades | Cruce de ríos principales | ⏳ En diseno |
+| **Viaductos** | 5 unidades | Valles profundos | ⏳ En diseno |
+| **Alcantarillas** | 150 unidades | Cada 3.5 km promedio | ⏳ En diseno |
+| **Muros de contención** | 30 unidades | Taludes críticos | ⏳ En diseno |
 
 ### 3. Edificaciones
 **Propósito:** Instalaciones para operación y mantenimiento
@@ -227,16 +227,16 @@ La infraestructura civil opera 24/7 proporcionando base física para circulació
 
 ## 📋 SUPUESTOS TÉCNICOS Y LIMITACIONES
 
-### Supuestos Críticos del Diseño
+### Supuestos Críticos del Diseno
 | Supuesto | Valor Asumido | Impacto si Cambia | Mitigación |
 |:---------|:--------------|:------------------|:-----------|
-| **Carga por eje** | 25 ton | Mayor refuerzo si aumenta | Diseño conservador |
+| **Carga por eje** | 25 ton | Mayor refuerzo si aumenta | Diseno conservador |
 | **Vida útil** | 50 años | Mayor mantenimiento si reduce | Materiales de calidad |
-| **Factor sísmico** | 0.25 g | Mayor refuerzo si aumenta | Diseño sismo resistente |
+| **Factor sísmico** | 0.25 g | Mayor refuerzo si aumenta | Diseno sismo resistente |
 | **Condiciones geotécnicas** | Suelos estables | Mayor movimiento de tierras | Estudios geotécnicos |
 | **Condiciones hidráulicas** | Caudales históricos | Mayor capacidad de drenaje | Análisis hidrológico |
 
-### Limitaciones del Diseño
+### Limitaciones del Diseno
 - **Topografía:** Limitaciones por pendientes y curvas
 - **Geología:** Condiciones del suelo y roca
 - **Hidrología:** Caudales de ríos y quebradas
@@ -246,7 +246,7 @@ La infraestructura civil opera 24/7 proporcionando base física para circulació
 ### Dependencias Críticas
 - **Licencias ambientales:** Autorización para construcción
 - **Estudios geotécnicos:** Condiciones del suelo
-- **Estudios hidrológicos:** Caudales de diseño
+- **Estudios hidrológicos:** Caudales de diseno
 - **Materiales:** Suministro de materiales de construcción
 - **Mano de obra:** Personal especializado en construcción
 

@@ -33,7 +33,7 @@ Esta matriz permite a Cursor IDE Agent y otros agentes **identificar automática
 #### **CTC - Centro de Control de Tráfico**
 | Componente | Si cambias en... | Afecta estos archivos | Tipo Impacto | Sección Específica |
 |:-----------|:----------------|:---------------------|:-------------|:-------------------|
-| Arquitectura CTC | DT-CTC-001 | III/26_Sistema_CTC_Integrado.md | Diseño conceptual | Sección 3.1 |
+| Arquitectura CTC | DT-CTC-001 | III/26_Sistema_CTC_Integrado.md | Diseno conceptual | Sección 3.1 |
 | Arquitectura CTC | DT-CTC-001 | V.2_Centro_Control_Trafico_CTC_Detalle.md | Especificaciones | Sección 4.2 |
 | Arquitectura CTC | DT-CTC-001 | WBS_Presupuestal_v2.0.md | Costos | Item 1.1 |
 | Arquitectura CTC | DT-CTC-001 | X/SISTEMA_01_Control_Master.md | Consolidado | Sección 4-5 |
@@ -63,7 +63,7 @@ Esta matriz permite a Cursor IDE Agent y otros agentes **identificar automática
 | **Cajas de empalme** | **DT-FIBRA-001** | **V. Ingenieria de detalle/V.3_Sistemas_Comunicacion_Detalle.md** | **Cantidades** | **Tabla 5.3, Línea 234** |
 | **Cajas de empalme** | **DT-FIBRA-001** | **WBS_Presupuestal_v2.0.md** | **Costos** | **Item 3.1.5** |
 | **Cajas de empalme** | **DT-FIBRA-001** | **IV/37_Memorias_Diseno_Basico.md** | **Especificaciones** | **Sección 4.2.3** |
-| **Cajas de empalme** | **DT-FIBRA-001** | **III/28_Sistema_FibraOptica_Integrado.md** | **Criterios diseño** | **Sección 2.2** |
+| **Cajas de empalme** | **DT-FIBRA-001** | **III/28_Sistema_FibraOptica_Integrado.md** | **Criterios diseno** | **Sección 2.2** |
 | **Cajas de empalme** | **DT-FIBRA-001** | **X/SISTEMA_02_Telecomunicaciones_Master.md** | **Consolidado** | **Sección 5.2.3** |
 | Longitud fibra | DT-FIBRA-002 | III/28_Sistema_FibraOptica_Integrado.md | Cantidades | Tabla 2.1 |
 | Longitud fibra | DT-FIBRA-002 | WBS_Presupuestal_v2.0.md | Costos | Item 3.1.1 |

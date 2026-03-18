@@ -64,11 +64,11 @@
 
 | KPI | Objetivo | Actual | Evidencia | Responsable | Estado |
 |:---|:---:|:---:|:---|:---|:---:|
-| **Disponibilidad CTC** | 99.95% | En diseño | Monitoreo CCO | Ing. Control | ⏳ |
-| **Tiempo respuesta comandos** | <200ms | En diseño | Pruebas de latencia | Ing. Control | ⏳ |
-| **MTBF servidores** | >8760h | En diseño | Análisis RAMS | Ing. Control | ⏳ |
-| **Integración FFFIS** | 100% mensajes | En diseño | Logs de integración | Ing. Control | ⏳ |
-| **Redundancia sistema** | 2oo3 | En diseño | Pruebas de redundancia | Ing. Control | ⏳ |
+| **Disponibilidad CTC** | 99.95% | En diseno | Monitoreo CCO | Ing. Control | ⏳ |
+| **Tiempo respuesta comandos** | <200ms | En diseno | Pruebas de latencia | Ing. Control | ⏳ |
+| **MTBF servidores** | >8760h | En diseno | Análisis RAMS | Ing. Control | ⏳ |
+| **Integración FFFIS** | 100% mensajes | En diseno | Logs de integración | Ing. Control | ⏳ |
+| **Redundancia sistema** | 2oo3 | En diseno | Pruebas de redundancia | Ing. Control | ⏳ |
 
 9. Criterios de Aceptación (FAT/SAT)
    - FAT: pruebas funcionales SW/HW, redundancia y alarmas críticas.

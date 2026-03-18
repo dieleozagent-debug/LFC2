@@ -49,7 +49,7 @@
 11. **34_Criterios_Interoperabilidad_docx_Compatibilidad_con_FENOCO_y_ANI.md** - Criterios interoperabilidad
 
 #### **Ingeniería Básica:**
-12. **37_Memorias_Diseño_Basico_v5.0.md** - Memorias de diseño básico
+12. **37_Memorias_Diseno_Basico_v5.0.md** - Memorias de diseno básico
 13. **38. DiagramasArquitectura_sist_ctc-telco.md** - Diagramas de arquitectura
 14. **41. Interfaces_Sistemas_MEJORADO.md** - Interfaces de sistemas
 15. **42. Plan_Pruebas_MEJORADO.md** - Plan de pruebas
@@ -79,7 +79,7 @@
 5. **36_Criterios_Ciberseguridad_docx_Protecci_n_de_sistemas_de_control.md** - Criterios ciberseguridad
 
 #### **Ingeniería Básica:**
-6. **IV_Ingenieria_Basica_RESUMEN_MEJORADO.md** - Resumen ingeniería básica
+6. **IV_Ingenieria_Basica_RESUMEN_MEJORADO.md** - Resumen ingeniería basica
 7. **40. Plan_GestionPermisos_MEJORADO.md** - Plan gestión permisos
 
 #### **Ingeniería de Detalle:**

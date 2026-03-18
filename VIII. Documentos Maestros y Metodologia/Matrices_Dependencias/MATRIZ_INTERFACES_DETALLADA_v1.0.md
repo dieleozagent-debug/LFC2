@@ -210,7 +210,7 @@ Documentar TODAS las interfaces entre sistemas del proyecto, especificando:
 ### **Durante Ingeniería (Mes 6-12):**
 1. ICDs preliminares (Mes 6-8)
 2. Matriz de interfaces actualizada semanal
-3. Reportes avance diseño interfaces
+3. Reportes avance diseno interfaces
 4. Solicitudes de clarificación (indefiniciones)
 5. Planes de prueba por interfaz
 
@@ -227,7 +227,7 @@ Documentar TODAS las interfaces entre sistemas del proyecto, especificando:
 
 ### **EPC Desarrolla:**
 - ✅ ICDs (Interface Control Documents)
-- ✅ Diseño de todas las interfaces
+- ✅ Diseno de todas las interfaces
 - ✅ Procedimientos de pruebas
 - ✅ Ejecución de FAT/SAT
 - ✅ Corrección de no conformidades

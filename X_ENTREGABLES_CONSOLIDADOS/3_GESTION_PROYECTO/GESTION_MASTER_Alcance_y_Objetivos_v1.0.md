@@ -17,7 +17,7 @@
 |:-----|:-----------|:---------------------|:----------|
 | **Contractual** | AT1, AT2, AT3, AT4, AT5, AT6, AT7, AT8, AT9 | ✅ Sincronizado | Crítica |
 | **Conceptual** | 23_ListadoMaestro_Sistemas_v5.0, 25.1_WBS_v5.0 | ✅ Sincronizado | Alta |
-| **Básica** | 37_Memorias_Diseño_Basico_v5.0, CRITERIOS_TECNICOS_MAESTRO | ✅ Sincronizado | Alta |
+| **Básica** | 37_Memorias_Diseno_Basico_v5.0, CRITERIOS_TECNICOS_MAESTRO | ✅ Sincronizado | Alta |
 | **Detalle** | Todos los SISTEMA_XX_Master.md | ✅ Sincronizado | Alta |
 | **Operación** | Manuales OM v5.0, Procedimientos | ✅ Sincronizado | Media |
 
@@ -261,20 +261,20 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 | Actividad | Duración | Fecha Inicio | Fecha Fin | Estado |
 |:----------|:---------|:-------------|:----------|:-------|
 | Estudios previos | 6 meses | Ene 2024 | Jun 2024 | ✅ Completado |
-| Diseño conceptual | 4 meses | Jul 2024 | Oct 2024 | ✅ Completado |
+| Diseno conceptual | 4 meses | Jul 2024 | Oct 2024 | ✅ Completado |
 | Aprobaciones | 2 meses | Nov 2024 | Dic 2024 | ✅ Completado |
 
 #### **Fase B: Ingeniería Básica (Completada)**
 | Actividad | Duración | Fecha Inicio | Fecha Fin | Estado |
 |:----------|:---------|:-------------|:----------|:-------|
-| Especificaciones básicas | 3 meses | Ene 2025 | Mar 2025 | ✅ Completado |
-| Memorias de diseño | 2 meses | Abr 2025 | May 2025 | ✅ Completado |
+| Especificaciones basicas | 3 meses | Ene 2025 | Mar 2025 | ✅ Completado |
+| Memorias de diseno | 2 meses | Abr 2025 | May 2025 | ✅ Completado |
 | Aprobaciones técnicas | 1 mes | Jun 2025 | Jun 2025 | ✅ Completado |
 
 #### **Fase C: Ingeniería de Detalle (Completada)**
 | Actividad | Duración | Fecha Inicio | Fecha Fin | Estado |
 |:----------|:---------|:-------------|:----------|:-------|
-| Diseño detallado | 4 meses | Jul 2025 | Oct 2025 | ✅ Completado |
+| Diseno detallado | 4 meses | Jul 2025 | Oct 2025 | ✅ Completado |
 | Especificaciones técnicas | 3 meses | Nov 2025 | Ene 2026 | ✅ Completado |
 | Planos de construcción | 2 meses | Feb 2026 | Mar 2026 | ✅ Completado |
 
@@ -297,7 +297,7 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 | Hito | Fecha | Descripción | Estado |
 |:-----|:------|:-------------|:-------|
 | **H1** | Dic 2024 | Aprobación estudios previos | ✅ Completado |
-| **H2** | Jun 2025 | Aprobación ingeniería básica | ✅ Completado |
+| **H2** | Jun 2025 | Aprobación ingeniería basica | ✅ Completado |
 | **H3** | Mar 2026 | Aprobación ingeniería de detalle | ✅ Completado |
 | **H4** | May 2027 | Comisionamiento sistemas | ❌ Pendiente |
 | **H5** | Sep 2027 | Inicio operación comercial | ❌ Pendiente |

@@ -73,7 +73,7 @@ const SistemaRiesgos = {
                     estado: "Nuevo - Pendiente Aprobación",
                     accion_requerida: "REVISAR Y JUSTIFICAR",
                     vinculacion_contractual: "AT1 - Apéndice Técnico 1, Sección 2.1 (Fibra Óptica)",
-                    hito_verificacion: "Ingeniería Detalle - Validación Diseño OSP"
+                    hito_verificacion: "Ingeniería Detalle - Validación Diseno OSP"
                 });
             }
             

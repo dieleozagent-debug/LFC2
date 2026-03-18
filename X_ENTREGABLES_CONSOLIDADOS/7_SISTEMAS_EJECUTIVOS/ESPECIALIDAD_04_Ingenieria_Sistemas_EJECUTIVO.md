@@ -171,7 +171,7 @@ Los sistemas de integración operan 24/7 coordinando todos los sistemas técnico
 
 ## 📋 SUPUESTOS TÉCNICOS Y LIMITACIONES
 
-### Supuestos Críticos del Diseño
+### Supuestos Críticos del Diseno
 | Supuesto | Valor Asumido | Impacto si Cambia | Mitigación |
 |:---------|:--------------|:------------------|:-----------|
 | **Disponibilidad sistemas** | 99.95% | Fallo en integración | Sistemas redundantes |
@@ -179,7 +179,7 @@ Los sistemas de integración operan 24/7 coordinando todos los sistemas técnico
 | **Interoperabilidad FENOCO** | Protocolos FRA/AREMA | Limitaciones operativas | Compatibilidad dual |
 | **Tiempo de respuesta** | < 2 seg | Degradación servicio | Optimización de red |
 
-### Limitaciones del Diseño
+### Limitaciones del Diseno
 - **Dependencia de sistemas:** Fallo en un sistema afecta integración
 - **Complejidad:** Múltiples interfaces y protocolos
 - **Mantenimiento:** Requiere personal especializado

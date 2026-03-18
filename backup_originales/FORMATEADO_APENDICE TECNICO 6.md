@@ -308,7 +308,7 @@ Página 13 de 55
 
 (xix) El Concesionario deberá atender las disposiciones de la normatividad ambiental vigente para residuos de aparatos eléctricos y electrónicos (RAEE), generación de vertimientos, residuos peligrosos (RESPEL), residuos domésticos, residuos especiales, sin limitarse a ellos, que se generen en todas las instalaciones asociadas al Proyecto.
 
-(xx) El Concesionario como actor de la mitigación al cambio climático en el sector transporte, deberá dar cumplimiento en lo de su competencia a lo establecido en la Ley 1931 del 27 de julio del 2018 o del que lo sustituya, modifique o adicione, y además deberá incorporar la gestión de la mitigación en los proyectos, obras y actividades a su cargo, contando, entre otros, con metodologías de planificación y con normas técnicas de diseño en cada una de las fases y etapas del Contrato, y se acogerá a los lineamientos que el Gobierno Nacional a través de la Autoridad Ambiental y el Ministerio de Transporte, emitan al respecto.
+(xx) El Concesionario como actor de la mitigación al cambio climático en el sector transporte, deberá dar cumplimiento en lo de su competencia a lo establecido en la Ley 1931 del 27 de julio del 2018 o del que lo sustituya, modifique o adicione, y además deberá incorporar la gestión de la mitigación en los proyectos, obras y actividades a su cargo, contando, entre otros, con metodologías de planificación y con normas técnicas de diseno en cada una de las fases y etapas del Contrato, y se acogerá a los lineamientos que el Gobierno Nacional a través de la Autoridad Ambiental y el Ministerio de Transporte, emitan al respecto.
 
 (xxi) El Concesionario deberá implementar el programa de aporte sostenible de manera tal que dé cobertura a todos los aspectos de mitigación yo Contingencia Ambiental que se puede generar en el desarrollo del Proyecto. Para tal efecto el Concesionario deberá contar con el personal capacitado y con los recursos adecuados para efectuar las medidas necesarias de manera efectiva, cumpliendo con lo establecido en la Ley Aplicable.
 
@@ -504,7 +504,7 @@ Página 22 de 55
 
 #### 3.6 Gestión del Riesgo de Desastres
 
-(a) El Concesionario, como actor de la Gestión del Riesgo de Desastres en el sector transporte, deberá dar cumplimiento en lo de su competencia a lo establecido en la Ley 1523 del 24 de abril del 2012, el Decreto 2157 de diciembre 20 de 2017 y el Decreto 602 del 6 de abril de 2017, y además deberá incorporar lareducción de riesgos de desastres en los Proyectos, obras y actividades a su cargo, contando, entre otros, con metodologías de planificación y con normas técnicas de diseño en cada una de las fases y etapas del Contrato de concesión, y se acogerá a los lineamientos que el Gobierno Nacional y el Ministerio de Transporte emitan al respecto, de acuerdo con los lineamientos y obligaciones establecidas en el Anexo "Plan de Gestión de Riesgo de Desastres" del Apéndice Técnico 3 que regula lo relacionado con este aspecto.
+(a) El Concesionario, como actor de la Gestión del Riesgo de Desastres en el sector transporte, deberá dar cumplimiento en lo de su competencia a lo establecido en la Ley 1523 del 24 de abril del 2012, el Decreto 2157 de diciembre 20 de 2017 y el Decreto 602 del 6 de abril de 2017, y además deberá incorporar lareducción de riesgos de desastres en los Proyectos, obras y actividades a su cargo, contando, entre otros, con metodologías de planificación y con normas técnicas de diseno en cada una de las fases y etapas del Contrato de concesión, y se acogerá a los lineamientos que el Gobierno Nacional y el Ministerio de Transporte emitan al respecto, de acuerdo con los lineamientos y obligaciones establecidas en el Anexo "Plan de Gestión de Riesgo de Desastres" del Apéndice Técnico 3 que regula lo relacionado con este aspecto.
 
 #### 3.7 Incumplimiento
 
@@ -990,7 +990,7 @@ administrativos que lo complementen, reglamenten o sustituyan, a través de la i
 (iv) Para el cumplimiento del programa de aporte sostenible, el Concesionario deberá realizar de forma obligatoria lo siguiente:
 
 (1) Desarrollar estudios de Vulnerabilidad climática y riesgo por Unidad Funcional.
-(2) Incorporar las consideraciones y medidas de adaptación y mitigación al cambio climático más pertinentes en la planificación, diseño, Construcción y Operación de las vías, dando prioridad a los tramos más vulnerables (puntos críticos) por Unidad Funcional.
+(2) Incorporar las consideraciones y medidas de adaptación y mitigación al cambio climático más pertinentes en la planificación, diseno, Construcción y Operación de las vías, dando prioridad a los tramos más vulnerables (puntos críticos) por Unidad Funcional.
 
 (3) Incorporar indicadores de cambio climático (adaptación y mitigación) en el monitoreo de las vías por Unidad Funcional.
 
@@ -1011,7 +1011,7 @@ Página 44 de 55
 ---
 o Mapas de Vulnerabilidad y Amenaza de la concesión que alimenten las bases de datos de los mapas de Vulnerabilidad y Amenaza del país, según los lineamientos de la Unidad Nacional de Gestión del Riesgo y Desastres UNGRD.
 
-o La incorporación de las variables climáticas en la fase de planificación y diseño con el fin de reducir costos de atención a Emergencias y aumentar prevención en acciones de mantenimiento a infraestructura existente, anticipándose a los retos del clima del fututo de manera más costo efectivo e innovadora.
+o La incorporación de las variables climáticas en la fase de planificación y diseno con el fin de reducir costos de atención a Emergencias y aumentar prevención en acciones de mantenimiento a infraestructura existente, anticipándose a los retos del clima del fututo de manera más costo efectivo e innovadora.
 
 o El cálculo de emisiones de carbono equivalente por Unidad Funcional, con relación a la movilización de carga de la concesión.
 

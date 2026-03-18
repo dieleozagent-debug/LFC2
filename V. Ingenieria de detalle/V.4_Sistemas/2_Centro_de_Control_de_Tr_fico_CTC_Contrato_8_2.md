@@ -26,11 +26,11 @@
 ## 1. OBJETIVO Y ALCANCE
 
 ### 1.1 Objetivo
-Este documento define las especificaciones técnicas de detalle para el diseño, construcción, equipamiento y puesta en marcha del **Centro de Control de Operaciones (CCO)** y el **Sistema de Control de Tráfico Centralizado (CTC)** del proyecto.
+Este documento define las especificaciones técnicas de detalle para el diseno, construcción, equipamiento y puesta en marcha del **Centro de Control de Operaciones (CCO)** y el **Sistema de Control de Tráfico Centralizado (CTC)** del proyecto.
 
 ### 1.2 Alcance
 El alcance de este documento cubre los siguientes componentes:
-- **Infraestructura Civil y Eléctrica:** Diseño del edificio del CCO, salas técnicas, sistemas de energía y climatización.
+- **Infraestructura Civil y Eléctrica:** Diseno del edificio del CCO, salas técnicas, sistemas de energía y climatización.
 - **Hardware:** Especificaciones de servidores, estaciones de trabajo, videowall y equipamiento de red.
 - **Software:** Módulos funcionales del sistema CTC, SCADA y sistemas de gestión.
 - **Interfaces:** Especificación detallada de las interfaces con otros sistemas ferroviarios.
@@ -39,11 +39,11 @@ El alcance de este documento cubre los siguientes componentes:
 
 ## 2. ESPECIFICACIONES TÉCNICAS DE DISEÑO
 
-**Basado en:** `26. Sistem_CTC_Int...md` y `37. MemoriasDiseño_Basico_v5.0_Validado_Riesgos.md`.
+**Basado en:** `26. Sistem_CTC_Int...md` y `37. MemoriasDiseno_Basico_v5.0_Validado_Riesgos.md`.
 
 ### 2.1 Infraestructura Civil y Eléctrica del CCO
 - **Ubicación:** UF2 - La Dorada (Tabla 16, AT1).
-- **Diseño Sismorresistente:** Cumplimiento de la norma NSR-10 para edificaciones críticas.
+- **Diseno Sismorresistente:** Cumplimiento de la norma NSR-10 para edificaciones críticas.
 - **Sistema de Energía:**
     - Doble acometida eléctrica de media tensión.
     - Sistema UPS en configuración N+1 con autonomía mínima de 4 horas para cargas críticas (servidores, consolas).
@@ -79,13 +79,13 @@ El alcance de este documento cubre los siguientes componentes:
 ### 3.1 Distribución de Áreas
 | Área | Descripción | Requisitos Clave |
 |:---|:---|:---|
-| **Sala de Control** | Espacio principal con puestos de operador y videowall. | Diseño ergonómico, control de iluminación y acústica, visibilidad total del videowall. |
+| **Sala de Control** | Espacio principal con puestos de operador y videowall. | Diseno ergonómico, control de iluminación y acústica, visibilidad total del videowall. |
 | **Data Center** | Alojamiento de servidores y equipos de red. | Piso técnico, racks de alta densidad, control de acceso biométrico, HVAC de precisión. |
 | **Sala de Crisis** | Espacio para coordinación de emergencias. | Conectividad con sala de control, sistemas de videoconferencia, pizarras interactivas. |
 | **Oficinas y Áreas de Soporte** | Oficinas para personal de operación y mantenimiento. | Espacios de trabajo, salas de reuniones, áreas de descanso. |
 | **Salas Técnicas** | Cuartos de energía (UPS, tableros) y telecomunicaciones. | Acceso restringido, ventilación adecuada, sistemas de extinción de incendios. |
 
-### 3.2 Planos de Diseño
+### 3.2 Planos de Diseno
 Esta sección contendrá las referencias a los planos de detalle generados en formato DWG y PDF.
 
 | ID Plano | Nombre del Plano | Versión | Enlace al Archivo |

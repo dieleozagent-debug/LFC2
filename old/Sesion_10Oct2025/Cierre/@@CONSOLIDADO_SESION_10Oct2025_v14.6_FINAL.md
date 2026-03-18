@@ -258,9 +258,9 @@ Validación final: 🔴 EN PROGRESO - NO APTO PARA CONSTRUCCIÓN
 
 | ID | Blocker | Impacto | Acción Requerida |
 |----|---------|---------|------------------|
-| BLOCKER-001 | Indefinición PTC | Riesgo diseño | Oficiar ANI Mes 6 |
+| BLOCKER-001 | Indefinición PTC | Riesgo diseno | Oficiar ANI Mes 6 |
 | BLOCKER-002 | Protocolos FENOCO | Riesgo integración | Reunión FENOCO Mes 5 |
-| BLOCKER-003 | Cantidades PANs | Riesgo presupuestal | Confirmar diseño modular |
+| BLOCKER-003 | Cantidades PANs | Riesgo presupuestal | Confirmar diseno modular |
 | BLOCKER-004 | Cronograma MR | Riesgo planificación | Oficiar ANI cronograma |
 ```
 
@@ -523,7 +523,7 @@ Explorar: X_ENTREGABLES_CONSOLIDADOS\8_DOCUMENTOS_SERVIDOS\
 |----|---------|------------|------------------|-------|
 | **BLOCKER-001** | Indefinición PTC/PTC VIRTUAL L2 | ✅ CONFIRMADO (AT3) | Enviar oficio formal a ANI solicitando definición | 5 días |
 | **BLOCKER-002** | Protocolos FENOCO | 🟡 PARCIAL (AT10) | Enviar comunicación formal a FENOCO + Agendar reunión | 10 días |
-| **BLOCKER-003** | Cantidades PANs (146 vs 36) | ⏳ Pendiente (AT1) | Confirmar diseño modular + Validar contingencia | 15 días |
+| **BLOCKER-003** | Cantidades PANs (146 vs 36) | ⏳ Pendiente (AT1) | Confirmar diseno modular + Validar contingencia | 15 días |
 | **BLOCKER-004** | Cronograma MR indefinido | ✅ CONFIRMADO (AT9) | Enviar oficio a ANI + Desarrollar 3 escenarios | 10 días |
 
 **Impacto:** Estos 4 blockers impiden el inicio de construcción. Resolverlos es **CRÍTICO**.

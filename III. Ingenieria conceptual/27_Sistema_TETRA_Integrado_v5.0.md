@@ -47,7 +47,7 @@ Este documento presenta el **Sistema TETRA Integrado v5.0** que establece la arq
 ## 1. MARCO CONTRACTUAL
 
 ### 1.1 Base Legal
-El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión crítica del proyecto. Su diseño conceptual integra requisitos de, **100% ALINEADO CON LOS CRITERIOS TÉCNICOS MAESTROS v1.0**:
+El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión crítica del proyecto. Su diseno conceptual integra requisitos de, **100% ALINEADO CON LOS CRITERIOS TÉCNICOS MAESTROS v1.0**:
 
 - **AT1 (Alcance):** Define la necesidad de un "Sistema Base Troncal" y "Torres de telecomunicaciones" para garantizar la comunicación (Cap. I, Num. 1.3).
 - **AT2 (Operación):** Establece la obligación de mantener comunicaciones ferroviarias 24/7 y la interoperabilidad con FENOCO (Cap. 3.2.2).
@@ -285,7 +285,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 2. **32_Material_Rodante_Integrado.md** (Sistema EOT)
 
 **SEGUIMIENTO - Capas 3-4:**
-3. Documentos de ingeniería básica y detalle
+3. Documentos de ingeniería basica y detalle
 4. Documentos de material rodante
 
 ### 6.3 Criterios para Avance a Fase Siguiente
@@ -434,13 +434,13 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 
 | Requisito Contractual | Fuente | Funcionalidad TETRA Asociada | Estado |
 |:---|:---|:---|:---:|
-| **Sistema Base Troncal y Torres** | AT1, Cap. I | Diseño de una red de **37 sitios** para garantizar 100% de cobertura en el corredor + solapamiento 15-20%. | ✅ Definido |
+| **Sistema Base Troncal y Torres** | AT1, Cap. I | Diseno de una red de **37 sitios** para garantizar 100% de cobertura en el corredor + solapamiento 15-20%. | ✅ Definido |
 | **Comunicaciones Ferroviarias 24/7** | AT2, Cap. 3.2.2 | Implementación de grupos de llamada para operación, mantenimiento y emergencias. | ✅ Definido |
 | **Especificaciones de Radio (ETSI)** | AT3, Cap. 8.5 | Selección de equipos (estaciones base, terminales) que cumplan con los estándares ETSI EN 300 392. | ✅ Definido |
 | **Adquisición de Predios para Torres** | AT7, Cap. 3.1 | Plan de adquisición de los **37 predios** necesarios, coordinado con el estudio de cobertura. | ✅ Definido |
-| **Interoperabilidad con FENOCO** | AT1, AT2 | Diseño de un plan de roaming o interconexión de redes para garantizar la comunicación en la frontera de Chiriguaná.<br>- **Protocolos FRA/AREMA para interoperabilidad** | ✅ Definido |
+| **Interoperabilidad con FENOCO** | AT1, AT2 | Diseno de un plan de roaming o interconexión de redes para garantizar la comunicación en la frontera de Chiriguaná.<br>- **Protocolos FRA/AREMA para interoperabilidad** | ✅ Definido |
 | **Equipos Embarcados en Locomotoras** | Cl. 13.1 | Especificación de radios móviles TETRA + Red Vital IP / TETRA con GPS integrado para cada locomotora.<br>- **Interfaz PTC PTC Virtual (FRA 236) hasta AT3** | ✅ Definido |
-| **Disponibilidad del Servicio (COM1)** | AT4 | Diseño de una red con redundancia N+1 para cumplir con los indicadores de disponibilidad.<br>- **Disponibilidad 99.5% según AT4** | ✅ Definido |
+| **Disponibilidad del Servicio (COM1)** | AT4 | Diseno de una red con redundancia N+1 para cumplir con los indicadores de disponibilidad.<br>- **Disponibilidad 99.5% según AT4** | ✅ Definido |
 
 ### **8.2 Indicadores de Riesgo**
 

@@ -112,7 +112,7 @@
 ### **Mes 6 (FECHA LÍMITE CRÍTICA)** 🎯
 
 #### **9. DECISIÓN GO/NO-GO:**
-- ✅ **Plan A:** Inputs recibidos → Continuar diseño específico
+- ✅ **Plan A:** Inputs recibidos → Continuar diseno específico
 - ⚠️ **Plan B:** Inputs NO recibidos → Activar contingencias
 
 **Si Plan B:**

@@ -16,7 +16,7 @@
 | Fase | Documentos | Estado Sincronización | Prioridad |
 |:-----|:-----------|:---------------------|:----------|
 | **Contractual** | AT1, AT2, AT3, AT6, AT7 | ✅ Sincronizado | Crítica |
-| **Conceptual** | 23_ListadoMaestro_v5.0, 25.1_WBS_v5.0, 37_Memorias_Diseño_Basico | ✅ Sincronizado | Alta |
+| **Conceptual** | 23_ListadoMaestro_v5.0, 25.1_WBS_v5.0, 37_Memorias_Diseno_Basico | ✅ Sincronizado | Alta |
 | **Básica** | IV.1_Especificaciones_Basicas_Civil_v5.0, VII.1.1_Matriz_Normatividad_Civil | ✅ Sincronizado | Alta |
 | **Detalle** | V.1.1_Obras_Civiles_Infraestructura_DETALLADA, V.1_Señalizacion_Ferroviaria_v5.0 | ✅ Sincronizado | Alta |
 | **Operación** | SISTEMA_05_Infraestructura_Operativa_Master | ✅ Sincronizado | Media |
@@ -87,16 +87,16 @@
 - **Edificaciones:** Centro de control, estaciones, talleres
 - **Sistemas Civiles:** Drenaje, iluminación, señalización
 
-### **2.2 Criterios de Diseño Civil**
+### **2.2 Criterios de Diseno Civil**
 
-#### **Principios de Diseño:**
+#### **Principios de Diseno:**
 - **Seguridad:** Estructuras sismo resistentes según NSR-10
 - **Durabilidad:** Vida útil mínima 50 años
 - **Mantenibilidad:** Acceso para mantenimiento y reparación
 - **Sostenibilidad:** Criterios ambientales y eficiencia energética
 - **Interoperabilidad:** Compatibilidad con estándares ferroviarios FRA/AREMA
 
-#### **Estándares de Diseño:**
+#### **Estándares de Diseno:**
 - **NSR-10:** Normas Colombianas de Construcción Sismo Resistente
 - **FRA/AREMA 700:** Normas de infraestructura ferroviaria
 - **EN 13232:** Vías ferroviarias - Vía
@@ -180,7 +180,7 @@
 
 ## 4. INGENIERÍA DE DETALLE
 
-### **4.1 Diseño Detallado de Infraestructura**
+### **4.1 Diseno Detallado de Infraestructura**
 
 #### **Estructura de Vía:**
 | Componente | Especificación | Material |
@@ -207,7 +207,7 @@
 | **Iluminación** | LED 150W | Pasos a nivel |
 | **Barreras** | Automáticas | Cruces vehiculares |
 
-### **4.2 Diseño Detallado de Edificaciones**
+### **4.2 Diseno Detallado de Edificaciones**
 
 #### **Centro de Control Operacional (CCO):**
 | Área | Especificación | Función |
@@ -446,10 +446,10 @@
 ### **9.2 Documentos de Ingeniería Conceptual**
 - `23_ListadoMaestro_Sistemas_v5.0.md` - Listado maestro con componentes civiles
 - `25.1_WBS_COMPLETA_ESPECIALIDADES_v5.0.md` - WBS especialidades civiles
-- `37_Memorias_Diseño_Basico_v5.0.md` - Memorias de diseño básico civil
+- `37_Memorias_Diseno_Basico_v5.0.md` - Memorias de diseno básico civil
 
 ### **9.3 Documentos de Ingeniería Básica**
-- `IV.1_Especificaciones_Basicas_Civil_v5.0.md` - Especificaciones básicas civil
+- `IV.1_Especificaciones_Basicas_Civil_v5.0.md` - Especificaciones basicas civil
 - `VII.1.1_Matriz_Normatividad_Civil.md` - Matriz normatividad civil
 
 ### **9.4 Documentos de Ingeniería de Detalle**

@@ -12,7 +12,7 @@
 
 **Casos de uso:**
 - Explicar cálculos de cantidades existentes
-- Documentar criterios de diseño aplicados
+- Documentar criterios de diseno aplicados
 - Agregar trazabilidad contractual
 - Responder solicitudes de criterios técnicos
 
@@ -40,7 +40,7 @@
   - AT1 Cap. V y Anexo AT1-3
 
 - **+3 unidades de reserva:**
-  - 2 para diseño/pruebas FAT/SAT
+  - 2 para diseno/pruebas FAT/SAT
   - 1 para contingencia/repuesto
 
 ### Archivos actualizados:
@@ -147,7 +147,7 @@
 3. 📋 Click en "1.2.100 - Computadora PTC embarcada **📋 2 DT**"
 4. Panel derecho muestra:
    - ✅ Justificación técnica completa
-   - ✅ Criterios de diseño (4 criterios)
+   - ✅ Criterios de diseno (4 criterios)
    - ✅ Supuestos (4 supuestos)
    - ✅ Feedback especialista con Apéndice Financiero
    - ✅ **2 DTs relacionadas** (DT-TETRA-001, DT-PTC-001) ⭐

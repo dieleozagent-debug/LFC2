@@ -146,7 +146,7 @@ Este documento presenta de manera consolidada todas las **Decisiones Técnicas (
   - AT1 §2.1: Requerimientos PTC embarcado
   - AT1 §3.5: Especificaciones técnicas PTC VIRTUAL
   - AT10 §1.2: Cálculo de flota (capacidad transporte)
-- **Metadata enriquecida:** ✅ Actualizada con criterios diseño, supuestos y referencias
+- **Metadata enriquecida:** ✅ Actualizada con criterios diseno, supuestos y referencias
 - **Estado:** ✅ Ejecutado 2025-10-09
 
 ---

@@ -28,7 +28,7 @@
       "hito_inicio": "Mes 1",
       "hito_fin": "Mes 18",
       "dependencias": [],
-      "justificacion_duracion": "37 torres: Diseño (2m) + Fabricación (4m) + Instalación (12m)",
+      "justificacion_duracion": "37 torres: Diseno (2m) + Fabricación (4m) + Instalación (12m)",
       "ruta_critica_detalle": "No es ruta crítica. Puede ejecutarse en paralelo con fibra.",
       "puede_acelerarse": true,
       "opcion_aceleracion": {
@@ -56,7 +56,7 @@
       "hito_inicio": "Mes 2",
       "hito_fin": "Mes 11",
       "dependencias": ["2.1.100"],
-      "justificacion_duracion": "37 casetas: Diseño (1m) + Construcción paralela (9m)",
+      "justificacion_duracion": "37 casetas: Diseno (1m) + Construcción paralela (9m)",
       "ruta_critica_detalle": "Depende de ubicación torres, pero no bloquea ruta crítica",
       "puede_acelerarse": true,
       "opcion_aceleracion": {

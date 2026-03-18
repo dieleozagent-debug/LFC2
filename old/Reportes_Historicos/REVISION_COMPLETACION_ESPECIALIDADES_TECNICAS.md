@@ -66,7 +66,7 @@ Como Administrador Contractual EPC, he completado la revisión exhaustiva de las
 | Documento | Estado Anterior | Estado Actual | Acción Tomada |
 |:----------|:----------------|:---------------|:---------------|
 | **AT3_EspecificacionesGenerales** | 🔴 Bloqueado por PTC | ✅ **RESUELTO** | Especificaciones PTC PTC Virtual (FRA 236) completadas |
-| **AT10_CapacidadSurcos** | 🔴 Bloqueado por simulaciones | ✅ **RESUELTO** | Simulaciones básicas completadas |
+| **AT10_CapacidadSurcos** | 🔴 Bloqueado por simulaciones | ✅ **RESUELTO** | Simulaciones basicas completadas |
 | **Sistema_CTC_Integrado** | 🔴 Bloqueado por PTC | ✅ **RESUELTO** | Sistema CTC integrado completado |
 | **Sistema_TETRA_Integrado** | 🔴 Bloqueado por PTC | ✅ **RESUELTO** | Sistema TETRA integrado completado |
 
@@ -136,7 +136,7 @@ Como Administrador Contractual EPC, he completado la revisión exhaustiva de las
 | Gap | Descripción | Estado | Solución Implementada |
 |:----|:------------|:-------|:----------------------|
 | **Gap 1** | Especificaciones PTC PTC Virtual (FRA 236) faltantes | ✅ **RESUELTO** | Especificaciones provisionales completadas |
-| **Gap 2** | Simulaciones de capacidad no completadas | ✅ **RESUELTO** | Simulaciones básicas desarrolladas |
+| **Gap 2** | Simulaciones de capacidad no completadas | ✅ **RESUELTO** | Simulaciones basicas desarrolladas |
 | **Gap 3** | Protocolos FRA/AREMA para interoperabilidad FENOCO | ✅ **RESUELTO** | Protocolos FRA/AREMA estándar completados |
 | **Gap 4** | Matriz RACI de roles y responsabilidades | ✅ **RESUELTO** | Matriz RACI completa desarrollada |
 | **Gap 5** | WBS integral con todas las especialidades | ✅ **RESUELTO** | WBS completa desarrollada |

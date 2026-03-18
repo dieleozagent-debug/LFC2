@@ -17,7 +17,7 @@
 |:-----|:-----------|:---------------------|:----------|
 | **Contractual** | AT1, AT2, AT3, AT4, AT6 | ✅ Sincronizado | Crítica |
 | **Conceptual** | 23_ListadoMaestro_Sistemas_v5.0, 25.1_WBS_v5.0 | ✅ Sincronizado | Alta |
-| **Básica** | 37_Memorias_Diseño_Basico_v5.0, CRITERIOS_TECNICOS_MAESTRO | ✅ Sincronizado | Alta |
+| **Básica** | 37_Memorias_Diseno_Basico_v5.0, CRITERIOS_TECNICOS_MAESTRO | ✅ Sincronizado | Alta |
 | **Detalle** | V.4.1_Sistemas_Ferroviarios_Integrados_DETALLADO, SISTEMA_01-03_Master | ✅ Sincronizado | Alta |
 | **Operación** | old/V.3_Sistemas_Comunicacion_Detalle_v1.0, old/V.3_Sistemas_Comunicacion_Detalle_v2.0 | ✅ Sincronizado | Media |
 
@@ -95,16 +95,16 @@
 - **Sistemas de Integración:** Interfaces, protocolos, interoperabilidad
 - **Sistemas de Monitoreo:** SCADA, HMI, alarmas, históricos
 
-### **2.2 Criterios de Diseño de Sistemas**
+### **2.2 Criterios de Diseno de Sistemas**
 
-#### **Principios de Diseño:**
+#### **Principios de Diseno:**
 - **Integración:** Sistemas integrados con interfaces bien definidas
 - **Redundancia:** Arquitectura N+1 para sistemas críticos
 - **Interoperabilidad:** Compatibilidad con estándares FRA/AREMA y FENOCO
 - **Escalabilidad:** Capacidad de crecimiento y extensión
 - **Mantenibilidad:** Facilidad de mantenimiento y actualización
 
-#### **Estándares de Diseño:**
+#### **Estándares de Diseno:**
 - **FRA/AREMA:** Estándares internacionales para sistemas ferroviarios
 - **EN 50126/50128/50129:** Sistemas ferroviarios de seguridad
 - **IEC 61850:** Comunicación en subestaciones
@@ -205,7 +205,7 @@
 
 ## 4. INGENIERÍA DE DETALLE
 
-### **4.1 Diseño Detallado de Sistemas de Control**
+### **4.1 Diseno Detallado de Sistemas de Control**
 
 #### **Centro de Control CTC Virtual:**
 | Componente | Especificación | Cantidad | Observaciones |
@@ -226,7 +226,7 @@
 | **Videowall** | 12 pantallas 55" | 1 unidad | Monitoreo visual |
 | **Teclado y mouse** | Ergonómicos | 5 unidades | Interfaz operador |
 
-### **4.2 Diseño Detallado de Sistemas de Comunicación**
+### **4.2 Diseno Detallado de Sistemas de Comunicación**
 
 #### **Estaciones TETRA (37 estaciones):**
 | Componente | Especificación | Cantidad | Observaciones |
@@ -253,7 +253,7 @@
 | **Tritubo** | 40mm diámetro | 1,485 rollos | Protección |
 | **Uniones rápidas** | Para instalación | 6,204 unidades | Empalmes |
 
-### **4.3 Diseño Detallado de Sistemas de Seguridad**
+### **4.3 Diseno Detallado de Sistemas de Seguridad**
 
 #### **Sistema CCTV (73 cámaras):**
 | Componente | Especificación | Cantidad | Observaciones |
@@ -488,7 +488,7 @@
 - `25.1_WBS_COMPLETA_ESPECIALIDADES_v5.0.md` - WBS especialidades sistemas
 
 ### **9.3 Documentos de Ingeniería Básica**
-- `37_Memorias_Diseño_Basico_v5.0.md` - Memorias de diseño básico sistemas
+- `37_Memorias_Diseno_Basico_v5.0.md` - Memorias de diseno básico sistemas
 - `CRITERIOS_TECNICOS_MAESTRO_APP_La_Dorada_Chiriguaná_v1.0.md` - Criterios técnicos maestro
 
 ### **9.4 Documentos de Ingeniería de Detalle**

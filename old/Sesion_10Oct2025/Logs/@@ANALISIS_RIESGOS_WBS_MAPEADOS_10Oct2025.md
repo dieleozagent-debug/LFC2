@@ -29,7 +29,7 @@
 
 | ID | Descripción | Nivel Exposición | ¿En Resumen? | ¿En WBS? |
 |:--:|:------------|:---------------:|:------------:|:--------:|
-| **R-GES-004** | Desfase aprobación diseños vs Plan Obras | MEDIA | ❌ NO | ✅ SÍ |
+| **R-GES-004** | Desfase aprobación disenos vs Plan Obras | MEDIA | ❌ NO | ✅ SÍ |
 | **R-CON-001** | Ambigüedad medición disponibilidad PAN 100% | MEDIA | ❌ NO | ✅ SÍ |
 | **R-OPE-001** | Falla conmutación failover redundantes | MEDIA | ❌ NO | ✅ SÍ |
 | **R-CAL-001** | Calidad materiales no cumple estándares | MEDIA | ❌ NO | ✅ SÍ |
@@ -65,7 +65,7 @@
 | **R-CYB-01** | Ciberseguridad IEC 62443 | - | VII.2.11 |
 | **R-PERM-01** | Retrasos permisos ANE/ANLA | - | 40. Permisos |
 | **R-FM-001** | Fuerza Mayor (huelgas, FENOCO) | - | Contrato |
-| **R-GES-004** | Desfase aprobación diseños | - | A.1 Análisis |
+| **R-GES-004** | Desfase aprobación disenos | - | A.1 Análisis |
 | **R-CON-001** | Ambigüedad medición PAN 100% | - | A.2 Análisis |
 | **R-OPE-001** | Falla conmutación failover | - | A.2 Análisis |
 | **R-CAL-001** | Calidad materiales/mano obra | - | A.3 Análisis |

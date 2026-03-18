@@ -23,7 +23,7 @@ El Sistema de ITS y Seguridad es el **"sistema de vigilancia y protección"** de
 ### Hitos críticos
 | Fase | Fecha | Estado |
 |:-----|:------|:-------|
-| Diseño Conceptual | Enero 2025 | ✅ Completado |
+| Diseno Conceptual | Enero 2025 | ✅ Completado |
 | Instalación CCTV | Marzo 2025 | ⏳ En progreso |
 | Instalación ITS | Abril 2025 | ⏳ En progreso |
 | Comisionamiento | Mayo 2025 | ❌ Pendiente |

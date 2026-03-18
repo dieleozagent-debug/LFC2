@@ -10,13 +10,13 @@
         "justificacion": "Espaciamiento 300m según UIT-T + 88 nodos críticos",
         "calculo_detallado": "594,000m ÷ 300m = 1,980 cajas backbone + 88 nodos especiales = 2,068 total",
         "desglose": [
-          "Cajas backbone: 1,980 unidades (cada 300m según diseño OSP)",
+          "Cajas backbone: 1,980 unidades (cada 300m según diseno OSP)",
           "Cajas en torres TETRA/TETRA/LTE: 37 unidades",
           "Cajas en subestaciones eléctricas: 15 unidades",
           "Cajas en cruces viales críticos: 36 unidades"
         ],
         "fuente_normativa": "UIT-T G.652.D (establece máximo 500m entre puntos de empalme)",
-        "fuente_diseno": "Diseño OSP - Planos AS-BUILT sección 2.2",
+        "fuente_diseno": "Diseno OSP - Planos AS-BUILT sección 2.2",
         "documentos_referencia": [
           "III/28_Sistema_FibraOptica_Integrado.md (Sección 2.2)",
           "V.3_Sistemas_Comunicacion_Detalle.md (Tabla 5.3)",
@@ -101,7 +101,7 @@
         ],
         "restriccion": "Mínimo 1 cámara por punto crítico",
         "alternativas": [
-          "73 cámaras → Cobertura básica (1 por punto)",
+          "73 cámaras → Cobertura basica (1 por punto)",
           "120 cámaras → Cobertura media (redundancia en críticos)",
           "180 cámaras → Cobertura completa (múltiples ángulos)"
         ]

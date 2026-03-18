@@ -54,7 +54,7 @@
 16. **29_Sistema_Senalizacion_Integrado_v5.0.md** - Sistema señalización integrado
 
 #### **Ingeniería Básica:**
-17. **37_Memorias_Diseño_Basico_v5.0.md** - Memorias de diseño básico
+17. **37_Memorias_Diseno_Basico_v5.0.md** - Memorias de diseno básico
 18. **38. DiagramasArquitectura_sist_ctc-telco.md** - Diagramas de arquitectura
 19. **39. PlanosPreliminares_localizacion torres tetra_fibra_nod.md** - Planos preliminares
 20. **40. Plan_GestionPermisos_MEJORADO.md** - Plan gestión permisos
@@ -87,8 +87,8 @@
 6. **PTC_STM_Embarcado_v1.0.md** - PTC STM embarcado
 
 #### **Ingeniería Básica:**
-7. **IV_Ingenieria_Basica_RESUMEN_MEJORADO.md** - Resumen ingeniería básica
-8. **IV.1_Especificaciones_Basicas_Civil_v5.0.md** - Especificaciones básicas civil
+7. **IV_Ingenieria_Basica_RESUMEN_MEJORADO.md** - Resumen ingeniería basica
+8. **IV.1_Especificaciones_Basicas_Civil_v5.0.md** - Especificaciones basicas civil
 
 #### **Ingeniería de Detalle:**
 9. **V.1.1_Obras_Civiles_Infraestructura_DETALLADA.md** - Obras civiles infraestructura
@@ -105,7 +105,7 @@
 2. **26.1_Anexo_Electrico_CTC_v5.0.md** - Anexo eléctrico CTC
 
 #### **Ingeniería Básica:**
-3. **37. MemoriasDiseño_Basico_just tec.md** - Memorias diseño básico (legacy)
+3. **37. MemoriasDiseno_Basico_just tec.md** - Memorias diseno básico (legacy)
 
 #### **Ingeniería de Detalle:**
 4. **4_Comunicaciones_generales_Contrato_8_4.md** - Comunicaciones generales contrato 8.4

@@ -44,7 +44,7 @@ Este documento traduce las obligaciones del **Apéndice Técnico 3 (Especificaci
 
 | Fase | Duración | Entregables | Requisito para Ingeniería |
 |:---|:---:|:---|:---|
-| **Estudios y Diseños** | 12 meses | Documentos de ingeniería completos | Generar toda la ingeniería (Conceptual, Básica, Detalle) |
+| **Estudios y Disenos** | 12 meses | Documentos de ingeniería completos | Generar toda la ingeniería (Conceptual, Básica, Detalle) |
 | **Obras Civiles** | 24 meses | Infraestructura física | Diseñar rehabilitación de 53 UFVF y 146 pasos a nivel |
 | **Instalación Sistemas** | 18 meses | Sistemas técnicos operativos | Diseñar integración de todos los sistemas |
 | **Pruebas y Puesta en Servicio** | 6 meses | Sistema operativo | Diseñar plan de pruebas y puesta en servicio |
@@ -55,7 +55,7 @@ Este documento traduce las obligaciones del **Apéndice Técnico 3 (Especificaci
 
 | ID | Riesgo/Supuesto | Impacto | Estrategia de Mitigación |
 |:---|:---|:---|:---|
-| **R-TEC-002** | Indefinición de especificaciones PTC en AT3 bloquea diseño de material rodante. | **Crítico.** Imposibilidad de cumplir con Puesta a Punto. | Formalizar consulta a Interventoría y proponer arquitectura modular PTC-Ready. |
+| **R-TEC-002** | Indefinición de especificaciones PTC en AT3 bloquea diseno de material rodante. | **Crítico.** Imposibilidad de cumplir con Puesta a Punto. | Formalizar consulta a Interventoría y proponer arquitectura modular PTC-Ready. |
 | **R-CRO-001** | Cronograma de 60 meses es muy ajustado para la complejidad del proyecto. | **Alto.** Riesgo de retrasos y penalidades. | Implementar gestión de proyecto robusta con buffers de tiempo. |
 | **R-CAL-001** | Calidad de materiales y mano de obra puede no cumplir estándares contractuales. | **Alto.** Riesgo de rechazo de obras y retrabajos. | Establecer control de calidad estricto y certificaciones obligatorias. |
 

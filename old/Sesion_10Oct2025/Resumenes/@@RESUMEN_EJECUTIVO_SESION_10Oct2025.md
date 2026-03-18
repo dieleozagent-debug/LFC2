@@ -87,7 +87,7 @@
 |----|---------|------------------|
 | **BLOCKER-001** | Indefinición PTC (PTC/PTC VIRTUAL L2/CBTC) | Oficiar ANI - Definición formal Mes 6 |
 | **BLOCKER-002** | Protocolos FENOCO no revelados | Reunión técnica FENOCO Mes 5 |
-| **BLOCKER-003** | Cantidades PANs (146 vs 36) | Confirmar diseño modular PANs |
+| **BLOCKER-003** | Cantidades PANs (146 vs 36) | Confirmar diseno modular PANs |
 | **BLOCKER-004** | Cronograma Material Rodante | Oficiar ANI - Cronograma entrega |
 
 **Ver plan detallado:** `@@PLAN_ACCION_BLOCKERS_CRITICOS_10Oct2025.md`

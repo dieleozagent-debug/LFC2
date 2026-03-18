@@ -171,7 +171,7 @@ FENOCO/Concesionario en fase posterior (post-entrega).
 - ✅ Mensajes de posición tren (cada 10 seg)
 - ✅ Mensajes de estado sistemas (TETRA, PTC, frenos)
 - ✅ Comandos de emergencia (stop, slow)
-- ✅ Telemetría básica (velocidad, ubicación GPS)
+- ✅ Telemetría basica (velocidad, ubicación GPS)
 
 **Arquitectura:**
 - Gateway embarcado (locomotora)

@@ -64,7 +64,7 @@ Actuar como PMO, analizar contrato completo (ATs 1-10), identificar blockers cr�
    - Agregados 4 riesgos de blockers a matriz ✅
    - R-PTC-001 (CRÍTICA): Indefinición PTC → Oficiar ANI Mes 6 ✅
    - R-FENOCO-001 (CRÍTICA): Protocolos FENOCO → Reunión técnica Mes 5 ✅
-   - R-PAN-001 (MEDIA): Cantidades PAN → Diseño modular ±10% ✅
+   - R-PAN-001 (MEDIA): Cantidades PAN → Diseno modular ±10% ✅
    - R-MR-001 (MEDIA): Cronograma MR → Plan adaptable ✅
    - Documento: `VIII. Documentos Maestros/MATRIZ_RIESGOS_PMO_AMPLIADA_v1.0.md` actualizada ✅
    - Script: `sincronizar_riesgos_wbs_v3.ps1` regenerado con 17 riesgos ✅
@@ -333,14 +333,14 @@ CLIENTE ve documentos:
 #### **1. SISTEMA DE METADATA ENRIQUECIDA** ✅
 - **wbs_metadata_enriquecida.json** - Metadata técnica completa de ítems WBS
 - **wbs_metadata_enriquecida.js** - Versión JS para interfaces HTML
-- **Captura:** Justificación técnica + Criterios diseño + Supuestos + Feedback especialista
+- **Captura:** Justificación técnica + Criterios diseno + Supuestos + Feedback especialista
 - **Enlaza:** DTs → Documentos ingeniería → Referencias cruzadas
 
 #### **2. EDT DETALLE DINÁMICO** ✅
 - **WBS_EDT_Detalle.html** - Ahora carga datos desde JSON (NO hardcoded)
 - **Muestra por ítem:**
   - 🔬 Justificación técnica
-  - ⚙️ Criterios de diseño
+  - ⚙️ Criterios de diseno
   - 📐 Supuestos del especialista
   - 💡 Feedback del especialista
   - 📄 DTs relacionadas (clickeables)
@@ -450,7 +450,7 @@ Documentación/
 | **FASE 0** | ✅ Completada | 100% | 24/24 | Base contractual sólida |
 | **FASE A** | ✅ Completada | 100% | 3/3 | Análisis contractual completo |
 | **FASE B** | ✅ Completada | 100% | 31/31 | Ingeniería conceptual completa |
-| **FASE C** | ✅ Completada | 100% | 8/8 | Ingeniería básica completa |
+| **FASE C** | ✅ Completada | 100% | 8/8 | Ingeniería basica completa |
 | **FASE D** | ✅ **COMPLETADA** | **100%** | **6/6** | **INGENIERÍA DE DETALLE FINALIZADA** |
 | **FASE E** | ✅ **COMPLETADA** | **100%** | **5/5** | **OPERACIÓN Y MANTENIMIENTO FINALIZADA** |
 | **VII. Soporte** | ✅ **COMPLETADO** | **100%** | **8/8** | **ESPECIALIZADO FINALIZADO** |
@@ -580,7 +580,7 @@ Documentación/
 | 3.2 | `../III. Ingenieria conceptual/31_Sistema_CCTV_Integrado...md` | ✅ Completado | 19/09/2025 | Validado análisis de CCTV, **identificando riesgos y supuestos.** |
 | 4.1 | `../III. Ingenieria conceptual/32_Material_Rodante_Integrado...md` | ✅ Completado | 19/09/2025 | Validado análisis de Material Rodante, **identificando riesgos y supuestos.** |
 
-### Bloque 2.0: Criterios de Diseño Transversales
+### Bloque 2.0: Criterios de Diseno Transversales
 | WBS ID | Documento | Estado | Fecha | Observaciones |
 |:---|:---|:---:|:---:|:---|
 | B.8 | `../III. Ingenieria conceptual/33_Criterios_Normatividad...md` | ✅ Completado | 19/09/2025 | Validado criterios de normatividad, **identificando riesgos y supuestos.** |
@@ -593,7 +593,7 @@ Documentación/
 ## C. 🏗️ FASE C: INGENIERÍA BÁSICA (WBS IV)
 | WBS ID | Documento | Estado | Fecha | Observaciones |
 |:---|:---|:---:|:---:|---|
-| 4.1 | `../IV. Ingenieria basica/37. MemoriasDiseño_Basico_v5.0_Validado_Riesgos.md` | ✅ **Completado** | 19/09/2025 | Justifica las decisiones de diseño y mitiga riesgos. |
+| 4.1 | `../IV. Ingenieria basica/37. MemoriasDiseno_Basico_v5.0_Validado_Riesgos.md` | ✅ **Completado** | 19/09/2025 | Justifica las decisiones de diseno y mitiga riesgos. |
 | 4.2 | `../IV. Ingenieria basica/38. DiagramasArquitectura_sist_ctc-telco.md` | ✅ **Completado** | 19/09/2025 | Representación gráfica de la solución técnica. |
 | 4.3 | `../IV. Ingenieria basica/39. PlanosPreliminares_localizacion torres tetra_fibra_nod.md` | ✅ **Completado** | 19/09/2025 | Localización de equipos principales. |
 | 4.4 | `../IV. Ingenieria basica/40. Plan_GestionPermisos_MEJORADO.md` | ✅ **Completado** | 19/09/2025 | Plan para trámites ante ANE, ANLA y municipios. |
@@ -710,7 +710,7 @@ La Fase E ha sido completada exitosamente con el desarrollo de todos los manuale
 ### **🎉 RESUMEN DE LOGROS COMPLETOS DEL PROYECTO**
 - **Fase A:** 3/3 documentos de análisis contractual completados ✅
 - **Fase B:** 31/31 documentos de ingeniería conceptual completados ✅
-- **Fase C:** 8/8 documentos de ingeniería básica completados ✅
+- **Fase C:** 8/8 documentos de ingeniería basica completados ✅
 - **Fase D:** 9/9 documentos de ingeniería de detalle completados ✅
 - **Fase E:** 5/5 manuales de operación y mantenimiento completados ✅
 - **VII. Soporte:** 8/8 documentos especializados completados ✅
@@ -1034,7 +1034,7 @@ Al completar la estandarización v1.0 y consolidación documental se ha logrado:
 | Componente | Descripción | Costo (COP) | Costo (USD) |
 |------------|-------------|-------------|-------------|
 | **A. EQUIPAMIENTO 15 LOCOMOTORAS** | Sistema propio + PTC FENOCO | $6,210,000,000 | $1,411,364 |
-| **B. INSTALACIÓN/CERTIFICACIÓN** | Survey, diseño, pruebas | $3,175,000,000 | $721,591 |
+| **B. INSTALACIÓN/CERTIFICACIÓN** | Survey, diseno, pruebas | $3,175,000,000 | $721,591 |
 | **C. SISTEMA CTC PROPIO** | CCO + lógica control | $4,020,000,000 | $913,636 |
 | **D. GATEWAY INTEROPERABILIDAD** | API abierta comunicación | $1,430,000,000 | $325,000 |
 | **E. ENCLAVAMIENTOS (5 EST)** | ENCE estaciones principales | $6,020,000,000 | $1,368,182 |
@@ -1108,10 +1108,10 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
 - Opción A (Auditoría completa) — ✅ **CONSOLIDACIÓN AVANZADA (95%)**
   - Auditoría v1.1 emitida (reporte + CSV) ✅
   - Consolidación de sistemas críticos:
-    - Señalización — ✅ **95% COMPLETADO** → `IV. Ingenieria básica/SIS_Senalizacion_Definitivo_v1.0.md`
-    - Comunicaciones — ✅ **95% COMPLETADO** → `IV. Ingenieria básica/SIS_Comunicaciones_Definitivo_v1.0.md`
-    - CTC — ✅ **95% COMPLETADO** → `IV. Ingenieria básica/SIS_CTC_Definitivo_v1.0.md`
-    - Material Rodante — ✅ **95% COMPLETADO** → `IV. Ingenieria básica/SIS_Material_Rodante_Definitivo_v1.0.md`
+    - Señalización — ✅ **95% COMPLETADO** → `IV. Ingenieria basica/SIS_Senalizacion_Definitivo_v1.0.md`
+    - Comunicaciones — ✅ **95% COMPLETADO** → `IV. Ingenieria basica/SIS_Comunicaciones_Definitivo_v1.0.md`
+    - CTC — ✅ **95% COMPLETADO** → `IV. Ingenieria basica/SIS_CTC_Definitivo_v1.0.md`
+    - Material Rodante — ✅ **95% COMPLETADO** → `IV. Ingenieria basica/SIS_Material_Rodante_Definitivo_v1.0.md`
   - Estado de avance consolidación avanzada: **95% COMPLETADO** (4 sistemas críticos)
 - Referencias cruzadas: ✅ Completadas (maestros ↔ fuentes)
 - RTM/KPIs: ✅ Completados con evidencia mínima (4 sistemas)
@@ -1399,7 +1399,7 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
 |:---------|:------------|:----------------|
 | **T01** | Ficha de Sistema | Análisis inicial de cada sistema |
 | **T02** | Análisis de Requisitos | Desglose detallado de requisitos |
-| **T03** | Arquitectura Conceptual | Diseño de alto nivel del sistema |
+| **T03** | Arquitectura Conceptual | Diseno de alto nivel del sistema |
 | **T04** | Especificación Técnica | Detalles técnicos de equipos |
 | **T05** | Estimación de Costos | Análisis económico del sistema |
 

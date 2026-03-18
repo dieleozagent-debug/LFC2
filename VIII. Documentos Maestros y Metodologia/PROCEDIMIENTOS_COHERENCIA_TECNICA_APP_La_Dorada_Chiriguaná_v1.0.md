@@ -95,7 +95,7 @@ Procedimiento:
 ```markdown
 Documentos a actualizar:
 - 39_PlanosPreliminares_localizacion.md
-- 37_MemoriasDiseño_Basico_v5.0.md
+- 37_MemoriasDiseno_Basico_v5.0.md
 
 Procedimiento:
 1. Actualizar cálculos de ubicación
@@ -155,7 +155,7 @@ CHECKLIST DE VERIFICACIÓN:
 - [ ] CRITERIOS_TECNICOS_MAESTRO actualizado
 - [ ] WBS presupuestal actualizado
 - [ ] Ingeniería conceptual actualizada
-- [ ] Ingeniería básica actualizada
+- [ ] Ingeniería basica actualizada
 - [ ] Ingeniería de detalle actualizada
 - [ ] Cálculos presupuestales verificados
 - [ ] Referencias cruzadas validadas

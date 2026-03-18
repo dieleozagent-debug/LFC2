@@ -139,7 +139,7 @@ Agencia Nacional de Infraestructura
 #### 2.58 "Construcción" 27
 #### 2.59 "Contraprestación" 27
 #### 2.60 "Contratistas" 27
-#### 2.61 "Contratista(s) de Diseño" 27
+#### 2.61 "Contratista(s) de Diseno" 27
 #### 2.62 "Contratista(s) de Construcción" 27
 #### 2.63 "Contratista(s) de Operación y Mantenimiento del Material Rodante del Proyecto" 27
 #### 2.64 "Contrato de Concesión" o "Contrato" 27
@@ -148,7 +148,7 @@ Página 3 de 332
 
 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná
 Agencia Nacional de Infraestructura
-#### 2.66 "Contrato de Diseño" 27
+#### 2.66 "Contrato de Diseno" 27
 #### 2.67 "Contrato de Operación y Mantenimiento del Material Rodante" 28
 #### 2.68 "Contrato de Fiducia Mercantil" 28
 #### 2.69 "Contrato de lnterventoría" 28
@@ -178,7 +178,7 @@ Agencia Nacional de Infraestructura
 #### 2.93 "Estructuradores" 30
 2.94. "Estructuradores Financiero y Legal" 31
 #### 2.95 "Estructurador Técnico" 31
-#### 2.96 "Estudios y Diseños de Detalle" o "Estudios de Detalle" 31
+#### 2.96 "Estudios y Disenos de Detalle" o "Estudios de Detalle" 31
 #### 2.97 "Etapa de Operación y Mantenimiento" 31
 #### 2.98 "Etapa de Reversión" 31
 #### 2.99 "Etapa Preoperativa" 31
@@ -416,7 +416,7 @@ Agencia Nacional de Infraestructura
 #### 6.3 Términos y condiciones de obligatoria inclusión en el Contrato de Fiducia Mercantil 144
 ### CAPÍTULO VII - CONTRATISTAS 148
 #### 7.1 Generalidades 148
-#### 7.2 Contratista de Diseño 148
+#### 7.2 Contratista de Diseno 148
 #### 7.3 Contratista de Construcción 149
 #### 7.4 Contratista de Operación y Mantenimiento del Material Rodante del Proyecto 150
 #### 7.5 Certificación y Verificación , 151
@@ -431,8 +431,8 @@ Agencia Nacional de Infraestructura
 #### 8.2 Procedimiento de Revisión Abreviado 155
 ### CAPÍTULO IX - ETAPA PREOPERATIVA 158
 #### 9.1 Fase de Preconstrucción 158
-#### 9.2 Presentación de los Estudios y Diseños de Detalle 164
-#### 9.3 Modificaciones y Adecuaciones a los Estudios y Diseños de Detalle 165
+#### 9.2 Presentación de los Estudios y Disenos de Detalle 164
+#### 9.3 Modificaciones y Adecuaciones a los Estudios y Disenos de Detalle 165
 #### 9.4 Plan de Obras 166
 #### 9.5 Fase de Construcción 167
 #### 9.6 Avance del Plan de Obras 171
@@ -915,13 +915,13 @@ Es el componente de la Retribución del Concesionario que corresponde al pago as
 #### 2.57 "Concesionario"
 Es la sociedad de objeto único Concesión Línea Férrea Central S.A.S, identificada con NIT 900.936.505-3 conformada por quien(es) resultó(aron) adjudicatario(s) con motivo del Proceso de Selección y quien suscribió el Contrato de Concesión.
 #### 2.58 "Construcción"
-Son todas las acciones necesarias para edificar o materializar cualquier tipo de Infraestructura e Intervenciones requeridas para el Proyecto según el Apéndice Técnico 1, en cumplimiento de los Estudios y Diseños de Detalle no objetados, con la calidad y los estándares aplicables según se establece en el Apéndice Técnico 3 y a satisfacción de la Interventoría.
+Son todas las acciones necesarias para edificar o materializar cualquier tipo de Infraestructura e Intervenciones requeridas para el Proyecto según el Apéndice Técnico 1, en cumplimiento de los Estudios y Disenos de Detalle no objetados, con la calidad y los estándares aplicables según se establece en el Apéndice Técnico 3 y a satisfacción de la Interventoría.
 #### 2.59 "Contraprestación"
 Es el monto que el Concesionario se obliga a pagar a la ANI en los plazos y cantidades que se determinan en las Secciones 6.2(h)(v)(3) y 6.2(h)(vi)(3), en virtud de los derechos que adquiere como consecuencia del Contrato.
 #### 2.60 "Contratistas"
-Son las personas jurídicas, naturales, estructuras plurales o cualquier figura asociativa permitida por la Ley Aplicable, con quienes el Concesionario suscribe el Contrato de Diseño, Contrato de Construcción yo el Contrato de Operación y Mantenimiento del Material Rodante del Proyecto en los términos del Contrato de Concesión.
-#### 2.61 "Contratísta(s) de Diseño"
-Es(son) el(los) Contratista(s) con quien(es) el Concesionario suscribe el(los) Contrato(s) de Diseño.
+Son las personas jurídicas, naturales, estructuras plurales o cualquier figura asociativa permitida por la Ley Aplicable, con quienes el Concesionario suscribe el Contrato de Diseno, Contrato de Construcción yo el Contrato de Operación y Mantenimiento del Material Rodante del Proyecto en los términos del Contrato de Concesión.
+#### 2.61 "Contratísta(s) de Diseno"
+Es(son) el(los) Contratista(s) con quien(es) el Concesionario suscribe el(los) Contrato(s) de Diseno.
 #### 2.62 "Contratista(s) de Construcción"
 Es(son) el(los) Contratista(s) con quien(es) el Concesionario suscribe el(los) Contrato(s) de Construcción.
 #### 2.63 "Contratista(s) de Operación y Mantenimiento del Material Rodante del Proyecto"
@@ -930,8 +930,8 @@ Es(son) el(los) Contratista(s) con quien(es) el Concesionario suscribe el(los) C
 Será el presente documento, así corno sus Apéndices y Anexos, el Pliego de Condiciones con sus adendas y anexos y la Oferta presentada por el Concesionario. Todos los anteriores documentos se entienden incorporados al Contrato, por lo que su contenido será de obligatorio cumplimiento para las Partes.
 #### 2.65 "Contrato de Construcción"
 Es el(los) contrato(s) que celebrará el Concesionario con el(los) Contratista(s) de Construcción para la ejecución de las Intervenciones. No podrá existir de manera simultánea más de un (1) Contrato de Construcción por Unidad Funcional.
-#### 2.66 "Contrato de Diseño"
-Es el(los) contrato(s) que celebrará el Concesionario con el(los) Contratista(s) de Diseño para la ejecución de los Estudios y Diseños de Detalle del Proyecto.
+#### 2.66 "Contrato de Diseno"
+Es el(los) contrato(s) que celebrará el Concesionario con el(los) Contratista(s) de Diseno para la ejecución de los Estudios y Disenos de Detalle del Proyecto.
 Página 27 de 332
 
 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná
@@ -1015,8 +1015,8 @@ Agencia Nacional de Infraestructura
 Corresponde la Unión Temporal Deloitte - Durán Osorio contratada por la Financiera de Desarrollo Nacional S.A. identificada con NIT 860.509.022-9, quien tuvo a cargo las actividades de estructuración legal y financiera del Proyecto de acuerdo con lo establecido en el convenio interadministrativo No. 24 de 2017 suscrito entre la FDN y la ANI.
 #### 2.95 "Estructurador Técnico"
 Corresponde al Consorcio Gómez Cajiao - SETEC contratado por la Financiera de Desarrollo Nacional S.A. identificada con NIT 860.509.022-9, quien tuvo a cargo las actividades de estructuración del Proyecto de acuerdo con lo establecido en el convenio interadministrativo No. 24 de 2017 suscrito entre la Financiera de Desarrollo Nacional - FDN y la ANI.
-#### 2.96 "Estudios y Diseños de Detalle" o "Estudios de Detalle"
-Corresponden a los estudios y diseños necesarios para la ejecución de las Intervenciones y que tendrán el alcance y deberán cumplir, especialmente, con lo señalado en el Apéndice Técnico 1 y Apéndice Técnico 3. Comprenden todas las actividades de diseño detallado en todas y cada una de las áreas técnicas de ingeniería; consideraciones ambientales, sociales, prediales y de tráfico, y demás necesarias para la ejecución de las Intervenciones.
+#### 2.96 "Estudios y Disenos de Detalle" o "Estudios de Detalle"
+Corresponden a los estudios y disenos necesarios para la ejecución de las Intervenciones y que tendrán el alcance y deberán cumplir, especialmente, con lo señalado en el Apéndice Técnico 1 y Apéndice Técnico 3. Comprenden todas las actividades de diseno detallado en todas y cada una de las áreas técnicas de ingeniería; consideraciones ambientales, sociales, prediales y de tráfico, y demás necesarias para la ejecución de las Intervenciones.
 #### 2.97 "Etapa de Operación y Mantenimiento"
 Es la segunda etapa de ejecución del Contrato durante la cual se adelantarán las actividades necesarias para la Operación y Mantenimiento sobre el Proyecto. Esta etapa correrá desde la suscripción de la última Acta de Terminación de Unidad Funcional hasta la Fecha de Terminación de la Etapa de Operación y Mantenimiento. Una vez terminada la Etapa de Operación y Mantenimiento se iniciará la Etapa de Reversión del Contrato.
 #### 2.98 "Etapa de Reversión"
@@ -1977,7 +1977,7 @@ Agencia Nacional de Infraestructura
 
 inmediatamente a la ANI sobre cualquier decisión de Autoridad Estatal de la que tenga conocimiento y que tenga relación con el Proyecto.
 
-(y) Colaborar con las autoridades de tránsito y demás Autoridades Estatales en el diseño y puesta en marcha de programas y proyectos de planes de educación vial y de seguridad vial, de conformidad con las regulaciones, políticas, estrategias y directrices de la autoridad competente para el efecto, así como implementar campañas y programas de seguridad vial con relación a la población escolar, peatones, usuarios y, en general, población afectada positiva o negativamente con el Proyecto.
+(y) Colaborar con las autoridades de tránsito y demás Autoridades Estatales en el diseno y puesta en marcha de programas y proyectos de planes de educación vial y de seguridad vial, de conformidad con las regulaciones, políticas, estrategias y directrices de la autoridad competente para el efecto, así como implementar campañas y programas de seguridad vial con relación a la población escolar, peatones, usuarios y, en general, población afectada positiva o negativamente con el Proyecto.
 
 (z) Organizar y realizar los trabajos y actividades de cada Etapa de tal forma que los procedimientos utilizados cumplan con las disposiciones ambientales, sociales y de seguridad y salud en el trabajo aplicables, incluyendo el estricto cumplimiento de las obligaciones de Gestión Social y Ambiental. Cualquier contravención a dichas disposiciones será responsabilidad del Concesionario. El Interventor o la ANI podrán ordenar la modificación de procedimientos o la suspensión de los trabajos por esta causa, sin que ello implique ampliación de los plazos contractuales ni genere compensación alguna a favor del Concesionario. No obstante, si el Concesionario considera que sus procedimientos cumplen con lo señalado en esta Sección, aún cuando deberá seguir la orden de la ANI, podrá acudir al Amigable Componedor con el propósito de que se ordenen las ampliaciones de plazo yo compensaciones a las que haya lugar, si dicho mecanismo de solución de controversias verifica que la solicitud de la ANI fue infundada, debido a que los procedimientos del Concesionario cumplían con las disposiciones ambientales aplicables, incluyendo las obligaciones de Gestión Social y Ambiental.
 
@@ -2107,7 +2107,7 @@ IEC Corresponde al Ingreso por Explotación Comercial de la Retribución mensual
 (f) La totalidad de los componentes de la Retribución remunerarán de manera integral todas las prestaciones a cargo del Concesionario, incluso aquellas actividades cuya terminación no desencadene un pago de un componente específico de la Retribución. En consecuencia, el valor de cada componente de la Retribución y de los pagos en los cuales éstos se encuentren divididos, no constituye un valor de referencia de las actividades yo Unidades Funcionales yo Unidades Funcionales de Vía Férrea a las cuales están asociados, ni constituye límite alguno a la responsabilidad del Concesionario de cumplir con las obligaciones de resultado previstas en el Contrato.
 
 (g) El valor total de la Retribución pagado al Concesionario, que resulte de la aplicación de la forma de pago prevista en la Secciones 4.2 y 4.3 y de la Compensación Especial de UFVF yo Compensación Especial (de ser aplicable), remunera todos los costos y gastos
--directos e indirectos- de los suministros y de los trabajos necesarios para cumplir con el objeto del Contrato incluyendo todos los estudios, diseños y ensayos que se consideren necesarios realizar para cumplir adecuadamente con el objeto del Contrato y todas las obligaciones que emanan del mismo, así como los costos de financiación, el retomo del capital, las utilidades del Concesionario, los impuestos, tasas y contribuciones que resulten aplicables.
+-directos e indirectos- de los suministros y de los trabajos necesarios para cumplir con el objeto del Contrato incluyendo todos los estudios, disenos y ensayos que se consideren necesarios realizar para cumplir adecuadamente con el objeto del Contrato y todas las obligaciones que emanan del mismo, así como los costos de financiación, el retomo del capital, las utilidades del Concesionario, los impuestos, tasas y contribuciones que resulten aplicables.
 
 (h) Así mismo, se entiende que la Retribución, incluida la Compensación Especial de UFVF yo la Compensación Especial (de ser aplicable), remunera todas las labores complementarias necesarias para el cumplimiento del objeto contractual, sea que
 Página 77 de 332
@@ -2115,7 +2115,7 @@ Página 77 de 332
 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná
 Agencia Nacional de Infraestructura
 
-aparezcan o no de manera expresa en este Contrato, o en los documentos que lo integran, como obligaciones a cargo del Concesionario, aun cuando estas labores no estén relacionadas de manera directa con las Intervenciones, la gestión de las actividades relacionadas con las Redes, la Gestión Predial, la Gestión Social y Ambiental, o con la Operación y el Mantenimiento del Proyecto. Dentro de estas labores se incluyen, entre otras, la obligación a cargo del Concesionario de elaborar sus propios estudios y diseños (tanto los exigidos como parte de los Estudios y Diseños de Detalle, como de cualquier otro que resulte necesario para el desarrollo del Proyecto), todas las obligaciones y actividades a cargo del Concesionario durante la Fase de Preconstrucción, la Fase de Construcción, la Etapa de Operación y Mantenimiento y la Etapa de Reversión, incluyendo todos los gastos financieros y administrativos -directos e indirectos- y todos los demás que sean requeridos para la cabal ejecución del objeto contratado.
+aparezcan o no de manera expresa en este Contrato, o en los documentos que lo integran, como obligaciones a cargo del Concesionario, aun cuando estas labores no estén relacionadas de manera directa con las Intervenciones, la gestión de las actividades relacionadas con las Redes, la Gestión Predial, la Gestión Social y Ambiental, o con la Operación y el Mantenimiento del Proyecto. Dentro de estas labores se incluyen, entre otras, la obligación a cargo del Concesionario de elaborar sus propios estudios y disenos (tanto los exigidos como parte de los Estudios y Disenos de Detalle, como de cualquier otro que resulte necesario para el desarrollo del Proyecto), todas las obligaciones y actividades a cargo del Concesionario durante la Fase de Preconstrucción, la Fase de Construcción, la Etapa de Operación y Mantenimiento y la Etapa de Reversión, incluyendo todos los gastos financieros y administrativos -directos e indirectos- y todos los demás que sean requeridos para la cabal ejecución del objeto contratado.
 (i) El valor total de la Retribución que llegue a causarse en aplicación de las secciones siguientes, incluida la Compensación Especial de UFVF yo la Compensación Especial (de ser aplicable) remunera también la asunción de los riesgos que, de acuerdo con el CAPÍTULO XIX y demás apartes de este Contrato y sus Apéndices, le hayan sido asignados al Concesionario, o se desprendan de las obligaciones del Concesionario, o que surjan de las estipulaciones o de la naturaleza de este Contrato.
 G) La Retribución yo la Compensación Especial yo Compensación Especial de UFVF, de ser aplicable, no remuneran ni las Obras Menores, Obras Sociales, ni las Obras y Equipos Complementarios, en el caso en que sea necesaria su ejecución. El régimen aplicable a dichas Obras Menores, Obras Sociales y a las Obras y Equipos Complementarios, incluida la forma de determinar su remuneración, es el previsto, respectivamente, en las Secciones 25.2, 25.3 y 25.4 de este Contrato.
 
@@ -4057,10 +4057,10 @@ Agencia Nacional de Infraestructura
 (f) Cada Contratista deberá, además, constituir las garantías a favor del Concesionario, que sean suficientes para cubrir el cumplimiento de sus obligaciones bajo el contrato respectivo. Los valores asegurados no podrán ser inferiores a los porcentajes que se establecen en el Decreto 1082 de 2015 para la Garantía Única de Cumplimiento.
 (g) En todos los casos, el Concesionario seguirá siendo el responsable frente a la ANI por la ejecución de la totalidad de las obligaciones contenidas en el presente Contrato, incluyendo, pero sin limitarse a aquellas que ejecuten los Contratistas y sus respectivos subcontratistas, y deberá mantener indemne a la ANI por incumplimientos, y demandas de los Contratistas y subcontratistas. Adicionalmente, el Concesionario deberá obtener y entregar toda la información disponible y detallada, respecto a las actividades que haya(n) realizado el(los) Contratista(s) y subcontratistas, en el momento en que la ANI se lo solicite, sin ningún tipo de salvedad para su entrega.
 
-7 .2 Contratista de Diseño
+7 .2 Contratista de Diseno
 
-(a) En cualquier momento desde la suscripción del Contrato y a más tardar dentro de los treinta (30) Días siguientes a la Fecha de Inicio, el Concesionario deberá haber celebrado el Contrato de Diseño para la ejecución de los Estudios y Diseños de Detalle de las Intervenciones.
-(b) El Contratista de Diseño deberá acreditar que él fue el responsable de:
+(a) En cualquier momento desde la suscripción del Contrato y a más tardar dentro de los treinta (30) Días siguientes a la Fecha de Inicio, el Concesionario deberá haber celebrado el Contrato de Diseno para la ejecución de los Estudios y Disenos de Detalle de las Intervenciones.
+(b) El Contratista de Diseno deberá acreditar que él fue el responsable de:
 
 (i) Experiencia Tipo A:
 
@@ -4069,21 +4069,21 @@ Página 148 de 332
 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná
 Agencia Nacional de Infraestructura
 
-Deberá acreditar experiencia en la elaboración de rmrurno dos (2) proyectos (finalizados) de estudios y diseños detallados para construcción de infraestructura férrea de carga o de tráfico mixto, en los últimos veinte (20) años, que cumplan las siguientes condiciones:
+Deberá acreditar experiencia en la elaboración de rmrurno dos (2) proyectos (finalizados) de estudios y disenos detallados para construcción de infraestructura férrea de carga o de tráfico mixto, en los últimos veinte (20) años, que cumplan las siguientes condiciones:
 
 (1) La longitud acumulada de vía principal de los proyectos debe ser de por lo menos doscientos cincuenta (250) km.
 
-(2) Entre los proyectos que se presenten en este caso, se deberán acreditar actividades que comprendan los estudios y diseños de los siguientes componentes: trazado de diseño geométrico; estructuras hidráulicas; puentes ferroviarios nuevos o reforzamiento de puentes (cimentación y superestructura) para cargas mínimas de 15 Ton por eje; plataforma, infraestructura y superestructura y armamento de vía; sistemas de Señalización, comunicaciones y control; estabilización y control de erosión de taludes.
+(2) Entre los proyectos que se presenten en este caso, se deberán acreditar actividades que comprendan los estudios y disenos de los siguientes componentes: trazado de diseno geométrico; estructuras hidráulicas; puentes ferroviarios nuevos o reforzamiento de puentes (cimentación y superestructura) para cargas mínimas de 15 Ton por eje; plataforma, infraestructura y superestructura y armamento de vía; sistemas de Señalización, comunicaciones y control; estabilización y control de erosión de taludes.
 
 (ii) Experiencia Tipo B:
 
-Deberá acreditar experiencia en la elaboración de mtrumo tres (3) proyectos (finalizados) de estudios y diseños detallados, en los últimos veinte (20) años, que cumplan las siguientes condiciones:
+Deberá acreditar experiencia en la elaboración de mtrumo tres (3) proyectos (finalizados) de estudios y disenos detallados, en los últimos veinte (20) años, que cumplan las siguientes condiciones:
 
 (1) Al menos dos de los proyectos deben ser de talleres nuevos o ampliación de existentes para mantenimiento de trenes.
 
-(2) Al menos uno de los proyectos debe corresponder a diseños integrales de infraestructura para plataformas logísticas de carga, o zonas francas, o instalaciones portuarias, infraestructura logística especializada (ILE), o centros de transferencia intermodal de carga, cada uno con área total superior a 2 ha.
+(2) Al menos uno de los proyectos debe corresponder a disenos integrales de infraestructura para plataformas logísticas de carga, o zonas francas, o instalaciones portuarias, infraestructura logística especializada (ILE), o centros de transferencia intermodal de carga, cada uno con área total superior a 2 ha.
 
-(3) Entre los proyectos que se presenten en este caso, se deberán acreditar actividades que comprendan los estudios y diseños de los siguientes componentes: redes húmedas y secas; vías vehiculares; patios pavimentados; paisajismo y urbanismo; edificios industriales como bodegas, oficinas, talleres, portería.
+(3) Entre los proyectos que se presenten en este caso, se deberán acreditar actividades que comprendan los estudios y disenos de los siguientes componentes: redes húmedas y secas; vías vehiculares; patios pavimentados; paisajismo y urbanismo; edificios industriales como bodegas, oficinas, talleres, portería.
 #### 7.3 Contratista de Construcción
 
 (a) En cualquier momento desde la suscripción del Contrato y a más tardar dentro de los doscientos cuarenta (240) Días contados desde la Fecha de Inicio, el Concesionario deberá haber celebrado con el(los) Contratista(s) de Construcción el(los) Contrato(s) de Construcción para la ejecución de las Intervenciones. La Gestión Social y Ambiental, así como la Gestión Predial podrán ser contratadas con personas diferentes al Contratista de Construcción.
@@ -4161,7 +4161,7 @@ CAPÍTULO VTII PROCESOS DE VERIFICACIÓN DOCUMENTAL
 
 (a) El Procedimiento de Revisión General se aplicará a los siguientes documentos:
 (i) Plan de Obras
-(ii) Estudios y Diseños de Detalle
+(ii) Estudios y Disenos de Detalle
 (iii) Manuales de Operación y Mantenimiento de la Infraestructura Férrea, Infraestructura Logística y del Material Rodante del Proyecto.
 (iv) Reglamento de Operación de Trenes
 
@@ -4325,9 +4325,9 @@ Son condiciones precedentes de la Fase de Preconstrucción, es decir, requisitos
 
 Sin perjuicio de las demás obligaciones previstas en otros apartes de este Contrato, o en sus Apéndices, el Concesionario tendrá las siguientes obligaciones durante la Fase de Preconstrucción:
 (i) Cumplir con todas las obligaciones correspondientes a la Fase de Preconstrucción que se encuentren incluidas en los diferentes Apéndices y Anexos, y en las demás Secciones y Capítulos del Contrato.
-(ii) Celebrar el(los) Contrato(s) de Diseño y el(los) Contrato(s) de Construcción en la oportunidad y en los términos señalados en el Contrato.
+(ii) Celebrar el(los) Contrato(s) de Diseno y el(los) Contrato(s) de Construcción en la oportunidad y en los términos señalados en el Contrato.
 
-(iii) Elaborar los Estudios y Diseños de Detalle y presentar a la ANI y al Interventor aquellos apartes que, de conformidad con lo señalado en el Apéndice Técnico 1, deban ser entregados en esta fase.
+(iii) Elaborar los Estudios y Disenos de Detalle y presentar a la ANI y al Interventor aquellos apartes que, de conformidad con lo señalado en el Apéndice Técnico 1, deban ser entregados en esta fase.
 
 (iv) Entregar a la ANI y al Interventor, dentro de los plazos señalados en este Contrato, el Plan de Obras y los demás planes y programas exigidos en los Apéndices Técnicos del Contrato, incluyendo, pero sin limitarse a, el Manual de Operación y Mantenimiento de la Infraestructura Férrea (durante la Fase de Preconstrucción), el Manual de Operación y Mantenimiento de la Infraestructura Logística (durante la Fase de Preconstrucción) y el Manual de Operación y Mantenimiento del Material Rodante del Proyecto (durante la Fase de Preconstrucción), el Plan de Compensaciones Socioambientales (durante la Fase de Preconstrucción), Plan de Redes (en un plazo de quince (15) Meses contados desde la Fecha de Inicio), entre otros. En todo caso, el contenido del Plan de Obras no podrá modificar ninguna de las obligaciones previstas en el Contrato ni en ninguno de sus Apéndices.
 (v) Entregar el Plan de Adquisición de Predios. Este plan deberá tener ilustración suficiente de las actividades y los tiempos, de manera que el Interventor pueda hacerse un juicio acerca de los plazos en los cuales se ejecutará dicho Plan. La entrega de este Plan se hará dentro del plazo señalado en el Apéndice Técnico 7. En todo caso, el Concesionario deberá entregar a la Interventoría, con copia a la ANI, a los dos (2) Meses de ocurrida la Fecha de Inicio, un Cronograma de Trabajo Predial, diferente al Cronograma de Adquisición de Predios, que indique las actividades que desarrollará y los plazos previstos, para la elaboración del Plan de Adquisición de Predios y para la obtención, sea por disponibilidad o adquisición, de los Predios Requeridos para el inicio de las obras en la(s) primera(s) Unidad(es) Funcional(es) que intervendrá al inicio de la Fase de Construcción. Adicionalmente, el Cronograma de Adquisición de Predios y el
@@ -4436,7 +4436,7 @@ Agencia Nacional de Infraestructura
 
 (xx) El Concesionario bajo su responsabilidad y cargo, de acuerdo con las disposiciones del Apéndice Ambiental, iniciará uno o varios proyectos tendientes a la reducción de emisiones de gases de efecto invernadero GEI, en el marco de la Ley 1931 de junio 27 de 2018 o la que la sustituya o complemente a través de la implementación de un "Programa de Aporte Sostenible". Tomada la decisión de ejecutar proyectos, el Concesionario deberá asumir toda la responsabilidad de su ejecución en términos de tiempo y recursos (humanos, técnicos y económicos), así como las consecuencias de su incumplimiento.
 
-(xxi) El Concesionario deberá, como actor de la gestión del riesgo de desastres en el sector transporte, dar cumplimiento en lo de su competencia, a lo establecido en la Ley 1523 del 24 de abril de 2012, el Decreto 2157 de diciembre 20 de 2017 y el Decreto 602 del 6 de abril de 2017, y deberá incorporar la reducción de riesgos de desastres en el Proyecto, contando, entre otros, con metodologías de planificación y con normas técnicas de diseño a lo largo del ciclo de formulación y ejecución de proyectos, por lo cual se acogerá a los lineamientos del sector transporte y a las directrices que el Gobierno Nacional y el Ministerio de Transporte, emitan al respecto. Como resultado deberá elaborar, implementar y actualizar el plan de gestión de riesgos de desastres de acuerdo con las disposiciones contenidas en los Apéndices Técnicos 3 y 6. El Concesionario deberá presentar este plan al Interventor en un plazo no mayor a doce (12) Meses contados desde la Fecha de Inicio, de manera que el Interventor de su No Objeción al mismo antes de la finalización de la Fase de Preconstrucción.
+(xxi) El Concesionario deberá, como actor de la gestión del riesgo de desastres en el sector transporte, dar cumplimiento en lo de su competencia, a lo establecido en la Ley 1523 del 24 de abril de 2012, el Decreto 2157 de diciembre 20 de 2017 y el Decreto 602 del 6 de abril de 2017, y deberá incorporar la reducción de riesgos de desastres en el Proyecto, contando, entre otros, con metodologías de planificación y con normas técnicas de diseno a lo largo del ciclo de formulación y ejecución de proyectos, por lo cual se acogerá a los lineamientos del sector transporte y a las directrices que el Gobierno Nacional y el Ministerio de Transporte, emitan al respecto. Como resultado deberá elaborar, implementar y actualizar el plan de gestión de riesgos de desastres de acuerdo con las disposiciones contenidas en los Apéndices Técnicos 3 y 6. El Concesionario deberá presentar este plan al Interventor en un plazo no mayor a doce (12) Meses contados desde la Fecha de Inicio, de manera que el Interventor de su No Objeción al mismo antes de la finalización de la Fase de Preconstrucción.
 
 (c) Principales Obligaciones de la ANI durante la Fase de Preconstrucción:
 
@@ -4464,25 +4464,25 @@ Agencia Nacional de Infraestructura
 (ix) Informar a las autoridades departamentales yo municipales acerca del inicio del Proyecto dentro de los cinco (5) Días Hábiles siguientes a la Fecha de Inicio.
 
 (x) Las demás previstas en este Contrato, sus Anexos y Apéndices.
-#### 9.2 Presentación de los Estudios y Diseños de Detalle
+#### 9.2 Presentación de los Estudios y Disenos de Detalle
 
-(a) El Concesionario deberá elaborar y entregar al Interventor los Estudios y Diseños de Detalle cumpliendo con las Especificaciones Técnicas.
+(a) El Concesionario deberá elaborar y entregar al Interventor los Estudios y Disenos de Detalle cumpliendo con las Especificaciones Técnicas.
 
-(b) El plazo para la entrega de los Estudios y Diseños de Detalle expirará el Día trescientos sesenta y cinco (365) contado desde la Fecha de Inicio. Este plazo no se modificará o extenderá como consecuencia de la fecha en la que se inicie la Fase de Preconstrucción.
+(b) El plazo para la entrega de los Estudios y Disenos de Detalle expirará el Día trescientos sesenta y cinco (365) contado desde la Fecha de Inicio. Este plazo no se modificará o extenderá como consecuencia de la fecha en la que se inicie la Fase de Preconstrucción.
 
 Página 164 de 332
 
 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná
 Agencia Nacional de Infraestructura
 
-(c) Los Estudios y Diseños de Detalle se someterán al Procedimiento de Revisión General previsto en la Sección 8.1 del presente Contrato.
+(c) Los Estudios y Disenos de Detalle se someterán al Procedimiento de Revisión General previsto en la Sección 8.1 del presente Contrato.
 
-(d) Con el fin de evitar modificaciones y adecuaciones significativas que conlleven a un mayor plazo para la aprobación a los Estudios y Diseños presentados por el Concesionario, de acuerdo con el Procedimiento de Revisión General establecido en la Sección 8.1, el Concesionario y la Interventoría deberán establecer un mecanismo de seguimiento de los avances de los Estudios y Diseños, para lo cual el Concesionario e Interventoría presentarán a la ANI un documento que permita llevar el control de avances parciales durante el término establecido en el literal b) de la presente sección.
-#### 9.3 Modificaciones y Adecuaciones a los Estudios y Diseños de Detalle
+(d) Con el fin de evitar modificaciones y adecuaciones significativas que conlleven a un mayor plazo para la aprobación a los Estudios y Disenos presentados por el Concesionario, de acuerdo con el Procedimiento de Revisión General establecido en la Sección 8.1, el Concesionario y la Interventoría deberán establecer un mecanismo de seguimiento de los avances de los Estudios y Disenos, para lo cual el Concesionario e Interventoría presentarán a la ANI un documento que permita llevar el control de avances parciales durante el término establecido en el literal b) de la presente sección.
+#### 9.3 Modificaciones y Adecuaciones a los Estudios y Disenos de Detalle
 
-(a) Las adecuaciones yo modificaciones que deba hacer el Concesionario durante la ejecución del Proyecto a los Estudios y Diseños de Detalle con el objeto de garantizar la obtención de los resultados exigidos en el Contrato, particularmente en las Especificaciones Técnicas, serán a su costo y riesgo y bajo su entera responsabilidad, considerando que el Concesionario mantiene siempre la obligación de ejecutar todas las Unidades Funcionales y demás obras y actividades requeridas para cumplir con las obligaciones de resultado señaladas en este Contrato, en los términos y condiciones establecidos en el mismo. La no objeción de los Estudios y Diseños de Detalle en nada afecta esta obligación del Concesionario, por lo que el Concesionario no podrá basarse en dicha no objeción para exculpar ni limitar en forma alguna el cumplimiento de las obligaciones de resultado que este Contrato le asigna.
+(a) Las adecuaciones yo modificaciones que deba hacer el Concesionario durante la ejecución del Proyecto a los Estudios y Disenos de Detalle con el objeto de garantizar la obtención de los resultados exigidos en el Contrato, particularmente en las Especificaciones Técnicas, serán a su costo y riesgo y bajo su entera responsabilidad, considerando que el Concesionario mantiene siempre la obligación de ejecutar todas las Unidades Funcionales y demás obras y actividades requeridas para cumplir con las obligaciones de resultado señaladas en este Contrato, en los términos y condiciones establecidos en el mismo. La no objeción de los Estudios y Disenos de Detalle en nada afecta esta obligación del Concesionario, por lo que el Concesionario no podrá basarse en dicha no objeción para exculpar ni limitar en forma alguna el cumplimiento de las obligaciones de resultado que este Contrato le asigna.
 
-(b) Cuando los Estudios y Diseños de Detalle que presente el Concesionario conforme a lo establecido en la Sección 9.2, sobrepasen, excedan yo se extiendan más allá del Corredor del Proyecto, y esto implique la necesidad de realizar una(s) nueva(s) consulta(s) previa(s), será obligación del Concesionario asumir los efectos favorables yo desfavorables de dichas modificaciones, en cuanto al valor base de la modificación y a la porción del riesgos a cargo del Concesionario más los riesgos yo porción de riesgos a cargo de la ANI descritos en las Sección 19.3.
+(b) Cuando los Estudios y Disenos de Detalle que presente el Concesionario conforme a lo establecido en la Sección 9.2, sobrepasen, excedan yo se extiendan más allá del Corredor del Proyecto, y esto implique la necesidad de realizar una(s) nueva(s) consulta(s) previa(s), será obligación del Concesionario asumir los efectos favorables yo desfavorables de dichas modificaciones, en cuanto al valor base de la modificación y a la porción del riesgos a cargo del Concesionario más los riesgos yo porción de riesgos a cargo de la ANI descritos en las Sección 19.3.
 
 Es decir, ante este evento el Concesionario asumirá tanto los costos que se generen como consecuencia de la Gestión Social y Ambiental para adelantar esta(s) nueva(s) consulta(s) previa(s), como los costos asociados a los compromisos derivados de dichos acuerdos que sean protocolizados y en ningún caso se entenderá como un Evento de Fuerza Mayor o un Evento Eximente de Responsabilidad y no implicará ninguna modificación de los riesgos asumidos por el Concesionario bajo este Contrato.
 
@@ -4495,7 +4495,7 @@ Página 165 de 332
 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná
 Agencia Nacional de Infraestructura
 
-(e) Cuando las modificaciones y adecuaciones a que se refiere la Sección 9.3(a) anterior, no supongan una modificación sustancial a los Estudios y Diseños de Detalle, el Interventor y el Concesionario podrán acordar mecanismos de revisión más expeditos respecto de los señalados en las Secciones anteriores.
+(e) Cuando las modificaciones y adecuaciones a que se refiere la Sección 9.3(a) anterior, no supongan una modificación sustancial a los Estudios y Disenos de Detalle, el Interventor y el Concesionario podrán acordar mecanismos de revisión más expeditos respecto de los señalados en las Secciones anteriores.
 9 .4 Plan de Obras
 
 (a) Antes del vencimiento del Día trescientos treinta (330) contado desde la Fecha de Inicio, el Concesionario deberá entregar el Plan de Obras con el alcance que se prevé en el Apéndice Técnico 1 y el Apéndice Técnico 9. Este plazo no se modificará o extenderá como consecuencia de la fecha en la que se inicie la Fase de Preconstrucción. El Plan de Obras contendrá el cronograma de ejecución de las Unidades Funcionales de manera que su ejecución se culmine a más tardar en las fechas señaladas a continuación:
@@ -4529,7 +4529,7 @@ Para dar inicio a la Fase de Construcción, se deberá haber verificado el cumpl
 
 (i) Haberse no objetado el Plan de Obras, el cual debe ser entregado antes del vencimiento del Día trescientos treinta (330) contado desde la Fecha de Inicio, de conformidad con lo establecido en la Sección 9.4(a) del presente Contrato y en el Apéndice Técnico 9.
 
-(ii) Haber obtenido el Concesionario la no objeción de los Estudios y Diseños de Detalle de las Intervenciones de las Unidades Funcionales cuya ejecución deba comenzar al inicio de la Fase de Construcción de acuerdo con el Plan de Obras, así como de sus modificaciones, de conformidad con lo previsto en la Sección 9.2 del presente Contrato atendiendo, entre otros, lo establecido en el Apéndice Técnico 9. El plazo para la entrega de los Estudios y Diseños de Detalle expirará el Día trescientos sesenta y cinco (365) contado desde la Fecha de Inicio, de conformidad con lo establecido en la Sección 9.2(b) del presente Contrato.
+(ii) Haber obtenido el Concesionario la no objeción de los Estudios y Disenos de Detalle de las Intervenciones de las Unidades Funcionales cuya ejecución deba comenzar al inicio de la Fase de Construcción de acuerdo con el Plan de Obras, así como de sus modificaciones, de conformidad con lo previsto en la Sección 9.2 del presente Contrato atendiendo, entre otros, lo establecido en el Apéndice Técnico 9. El plazo para la entrega de los Estudios y Disenos de Detalle expirará el Día trescientos sesenta y cinco (365) contado desde la Fecha de Inicio, de conformidad con lo establecido en la Sección 9.2(b) del presente Contrato.
 
 (iii) Haber suscrito el Concesionario el Contrato de Construcción, a más tardar dentro de los doscientos cuarenta (240) Días contados desde la Fecha de Inicio, con sujeción a lo previsto en la Sección 7.2(a) del presente Contrato.
 
@@ -4572,9 +4572,9 @@ Agencia Nacional de Infraestructura
 
 (vii) Ejecutar las obligaciones de Redes de acuerdo con lo dispuesto en las Especificaciones Técnicas y en el Inventario de Redes y actualizar dicho Inventario de Redes.
 
-(viii) Coordinar con la ANI los trámites ante las entidades propietarias de las Redes afectadas de acuerdo con los Estudios y Diseños de Detalle, para que se efectúen los traslados -o cualquier otro manejo a que haya lugar- o efectuar los correspondientes traslados según se haya acordado con la respectiva entidad titular. La coordinación de la ANI no implica asunción de responsabilidad por parte de la entidad ni relevo de las obligaciones del Concesionario.
+(viii) Coordinar con la ANI los trámites ante las entidades propietarias de las Redes afectadas de acuerdo con los Estudios y Disenos de Detalle, para que se efectúen los traslados -o cualquier otro manejo a que haya lugar- o efectuar los correspondientes traslados según se haya acordado con la respectiva entidad titular. La coordinación de la ANI no implica asunción de responsabilidad por parte de la entidad ni relevo de las obligaciones del Concesionario.
 
-(ix) Ejecutar con el apoyo de la ANI los trámites ante las entidades propietarias de las Redes que puedan resultar afectadas por el Proyecto, de acuerdo con los Estudios y Diseños y el Inventario de Redes para que se efectúen los traslados o cualquier otro manejo a que haya lugar según se haya acordado con la respectiva entidad titular. El apoyo de la ANI no implica asunción de responsabilidad por parte de la entidad ni relevo de las obligaciones del Concesionario.
+(ix) Ejecutar con el apoyo de la ANI los trámites ante las entidades propietarias de las Redes que puedan resultar afectadas por el Proyecto, de acuerdo con los Estudios y Disenos y el Inventario de Redes para que se efectúen los traslados o cualquier otro manejo a que haya lugar según se haya acordado con la respectiva entidad titular. El apoyo de la ANI no implica asunción de responsabilidad por parte de la entidad ni relevo de las obligaciones del Concesionario.
 
 (x) Dar cumplimiento puntual al Plan de Obras. Aunque el cumplimiento del Plan de Obras es obligatorio para el Concesionario, ello no lo exime del cumplimiento de ninguna de las obligaciones de resultado previstas en este Contrato y sus Apéndices, por lo cual dicho plan debe ser complementado yo corregido por propia iniciativa del Concesionario o por solicitud de la ANI o el Interventor cuando se advierta que el mismo no contempla todos los mecanismos necesarios para el cumplimiento de dichas obligaciones de resultado.
 
@@ -4971,7 +4971,7 @@ Cura, sin que se haya subsanado el incumplimiento, la ANI podrá dar aplicación
 
 (2) El cincuenta por ciento (50) restante de la retribución por la respectiva Unidad Funcional de Vía Férrea se pagará una vez se valide que el Concesionario ha cumplido a cabalidad con las obligaciones pendientes, salvo por lo previsto en los Apéndices Técnicos 5, 6, 7 y 8. Adicionalmente, de ser el caso, se causarán las Multas que correspondan por el incumplimiento en las Especificaciones Técnicas, salvo por las obligaciones contenidas en los Apéndices Técnicos 5, 6, 7 y 8. Las controversias que surjan de la aplicación de lo previsto en esta Sección serán dirimidas por el Amigable Componedor.
 
-(x) Para efectos de la verificación de las Intervenciones en las Unidades Funcionales de Vía Férrea el Concesionario deberá cumplir con los Estudios y Diseños de Detalle no objetados que dan cumplimiento a lo establecido en el Apéndice Técnico 1 y a las Especificaciones Técnicas, para lo cual la Interventoría deberá hacer la verificación y validar el cumplimiento de los mismos. En todo caso la No Objeción de los Estudios y Diseños de Detalle no serán título suficiente para el recibo de las Intervenciones en caso de que las mismas no cumplan con las
+(x) Para efectos de la verificación de las Intervenciones en las Unidades Funcionales de Vía Férrea el Concesionario deberá cumplir con los Estudios y Disenos de Detalle no objetados que dan cumplimiento a lo establecido en el Apéndice Técnico 1 y a las Especificaciones Técnicas, para lo cual la Interventoría deberá hacer la verificación y validar el cumplimiento de los mismos. En todo caso la No Objeción de los Estudios y Disenos de Detalle no serán título suficiente para el recibo de las Intervenciones en caso de que las mismas no cumplan con las
 Especificaciones Técnicas.
 
 (xi) Una vez se suscriban la totalidad de Actas de Terminación de Unidad Funcional de Vía Férrea, se procederá a suscribir el Acta de Terminación de Unidad Funcional de la Unidad Funcional 1.
@@ -5012,17 +5012,17 @@ Agencia Nacional de Infraestructura
 de carácter ambiental, debiendo cumplir, entre otras obligaciones, los actos de seguimiento y control correspondientes como los derivados del respectivo expediente ambiental, de ser aplicable.
 
 (iii) Ceder totalmente a la Gobernación de Santander, de conformidad con el Convenio Interadministrativo No. CI-007-2023, las Licencias y Permisos que haya(n) sido otorgado(s) para la construcción de las nuevas IE, en el estado en el que dicho(s) instrumento(s) se encuentren.
-(iv) Elaborar los estudios y diseños de las nuevas IE, así como todas las acciones necesarias para la obtención de las Licencias y Permisos requeridos para la Construcción de estas.
+(iv) Elaborar los estudios y disenos de las nuevas IE, así como todas las acciones necesarias para la obtención de las Licencias y Permisos requeridos para la Construcción de estas.
 
-(v) Presentar en la Fase de Preconstrucción del Proyecto un cronograma para la elaboración de los Estudios y Diseños y la Construcción de las nuevas IE.
+(v) Presentar en la Fase de Preconstrucción del Proyecto un cronograma para la elaboración de los Estudios y Disenos y la Construcción de las nuevas IE.
 
 (vi) Realizar la identificación y priorización de los predios para la construcción de las IE y presentarla a la ANI dentro de los treinta (30) días siguientes a la Fecha de Inicio del Contrato. Los predios priorizados deben localizarse a una distancia máxima de un ( 1) kilómetro de la ubicación actual de cadauna de las IE a reubicar, salvo decisión diferente por parte del Comité Técnico de Coordinación del Convenio Interadministrativo CI-007-2023.
 
 (vii) Construir las nuevas IE dando aplicación a la NTC 4595 en la versión vigente al momento de radicar la solicitud de la respectiva licencia urbanística, de conformidad con el Decreto 1077 de 2015, teniendo en cuenta el número de estudiantes aproximados de las IE que se indica en el Convenio Interadministrativo CI-007-2023, para lo cual deberá realizar todas las actividades que se requieran para el efecto, así como realizar, con posterioridad al recibo a satisfacción de las obras por parte de la ANI, las acciones necesarias para la entrega de las JE al Departamento de Santander.
 
-(viii) Entregar una dotación básica de las nuevas IE en los términos establecidos en el Convenio Interadministrativo CI-007-2023.
-A efectos de verificar la adquisición de los elementos, el Departamento de Santander deberá indicar cantidades y especificaciones técnicas por escrito dentro de treinta (30) días hábiles siguientes a la Fecha de Inicio del Contrato de Concesión que se suscriba para la ejecución del Proyecto. Vencido el término indicado, la ANI determinará libremente los elementos a adquirir. En todo caso, la dotación básica se efectuará hasta por el valor máximo actualizado de conformidad con la presente Sección.
-La dotación básica debe tener la finalidad exclusiva de garantizar y estar relacionada de manera estricta con la educación y el proceso formativo de los estudiantes de las nuevas IE.
+(viii) Entregar una dotación basica de las nuevas IE en los términos establecidos en el Convenio Interadministrativo CI-007-2023.
+A efectos de verificar la adquisición de los elementos, el Departamento de Santander deberá indicar cantidades y especificaciones técnicas por escrito dentro de treinta (30) días hábiles siguientes a la Fecha de Inicio del Contrato de Concesión que se suscriba para la ejecución del Proyecto. Vencido el término indicado, la ANI determinará libremente los elementos a adquirir. En todo caso, la dotación basica se efectuará hasta por el valor máximo actualizado de conformidad con la presente Sección.
+La dotación basica debe tener la finalidad exclusiva de garantizar y estar relacionada de manera estricta con la educación y el proceso formativo de los estudiantes de las nuevas IE.
 El Anexo 1 del Convenio Interadministrativo CI-007-2023 incluye un listado indicativo de elementos a adquirir, conforme a las necesidades de mobiliario presentadas por los rectores de las IE, el cual puede ser ajustado de conformidad con lo establecido en el Convenio Interadministrativo CI-007-2023.
 
 Página 188 de 332
@@ -5042,7 +5042,7 @@ Agencia Nacional de Infraestructura
 
 (iv) Realizar la Gestión Social y Ambiental y Gestión Predial y todas las demás actividades que se requieran para que la ANI de cumplimiento al objeto del Convenio Interadministrativo CI-007-2023 y a la Ley Aplicable sobre el trazado identificado en el NDA. Los predios que se adquieran para la construcción del puente vehicular y peatonal sobre el río Sogamoso y sus respectivos ramales de conexión correspondiente se deben adquirir a nombre de la ANI y se realizará su posterior entrega al Departamento de Santander.
 
-(v) Realizar los estudios y diseños para la construcción del puente vehicular y peatonal sobre el río Sogamoso y sus respectivos ramales de conexión, sus accesos, obras conexas y espacio público correspondiente de acuerdo con la normativa y especificaciones técnicas aplicables.
+(v) Realizar los estudios y disenos para la construcción del puente vehicular y peatonal sobre el río Sogamoso y sus respectivos ramales de conexión, sus accesos, obras conexas y espacio público correspondiente de acuerdo con la normativa y especificaciones técnicas aplicables.
 
 (vi) Efectuar la construcción del puente vehicular y peatonal sobre el río Sogamoso y sus respectivos ramales de conexión cumpliendo con las Especificaciones Técnicas y todas las demás actividades que sean necesarias para ello.
 
@@ -5472,7 +5472,7 @@ continuar o se deban suspender de manera temporal la construcción de las Interv
 (iv) Cuando ocurra una Fuerza Mayor Social se aplicará lo previsto en la Sección 20.3 del presente Contrato.
 (v) Tan pronto sea emitida la Licencia Ambiental, el Concesionario deberá iniciar las Intervenciones de la Unidad Funcional respectiva y culminarlas dentro del plazo acordado, según la revisión del Plan de Obras a que se refiere la Sección 9.4(a),
 #### 9.6 y 9.7 y una vez concluidas se empezará a causar la Retribución asociada a la Unidad Funcional correspondiente en los términos y condiciones previstos en el presente Contrato.
-G) Si la Autoridad Ambiental sujeta al trámite yo el otorgamiento de la Licencia Ambiental a modificaciones en los Estudios y Diseños de Detalle o a la ejecución de obras no previstas en el Apéndice Técnico 1, se procederá como sigue, siempre que la condición impuesta por la Autoridad Ambiental no se deba a causas imputables al Concesionario:
+G) Si la Autoridad Ambiental sujeta al trámite yo el otorgamiento de la Licencia Ambiental a modificaciones en los Estudios y Disenos de Detalle o a la ejecución de obras no previstas en el Apéndice Técnico 1, se procederá como sigue, siempre que la condición impuesta por la Autoridad Ambiental no se deba a causas imputables al Concesionario:
 
 (i) La ANI asumirá el sobrecosto (entendido como la diferencia entre el costo de las obras no previstas ordenadas por la Autoridad Ambiental y el de las obras previstas en este Contrato) que se derive de la decisión en firme de la Autoridad Ambiental, previo acuerdo entre el Interventor, la ANI y el Concesionario sobre el valor del sobrecosto (yo sobre el impacto en el Plan de Obras cuando aplique). Lo anterior de acuerdo con lo establecido en la Sección 9.4(a), 9.6 y 9.7 del presente Contrato. Para estos efectos, previa aprobación del Interventor y de la ANI, el Concesionario pagará los sobrecostos respectivos y la ANI reembolsará al Concesionario lo que corresponda, para lo cual se aplicará mutatis muiandi el mismo procedimiento previsto en la Sección 10.4 del presente Contrato.
 
@@ -5511,7 +5511,7 @@ Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná
 Agencia Nacional de Infraestructura
 
 ser afectadas por las Intervenciones o que puedan tener incidencia en la ejecución del Proyecto.
-(b) Al momento de efectuar los Estudios y Diseños de Detalle, el Concesionario deberá analizar la pertinencia de afectar Redes existentes aplicando los criterios previstos en el artículo 47, numeral 1, de la Ley 1682 de 2013.
+(b) Al momento de efectuar los Estudios y Disenos de Detalle, el Concesionario deberá analizar la pertinencia de afectar Redes existentes aplicando los criterios previstos en el artículo 47, numeral 1, de la Ley 1682 de 2013.
 
 (c) El Concesionario deberá asumir los costos del traslado, protección yo intervención de las Redes (salvo cuando dichos costos deban ser asumidos por los titulares de las Redes o por otro tercero, de conformidad con cualquier convenio suscrito entre ANI y dicho tercero o de conformidad con la Ley Aplicable), mediante el traslado de los recursos necesarios al Patrimonio Autónomo (Cuenta Proyecto - Subcuenta Redes).
 
@@ -6535,7 +6535,7 @@ Agencia Nacional de Infraestructura
 
 (10) Responsabilidad civil patronal. Esta cobertura opera en exceso de las prestaciones sociales otorgadas por la seguridad social a menos que por fallo judicial se le obligue al asegurado realizar la indemnización sin realizar el respectivo descuento.
 
-(11) Para efectos de la cobertura anterior, los empleados de cualquier Contratista se consideran terceros y por eso, si estos presentan reclamaciones contra el asegurado, se tramitarán a través de la cobertura básica.
+(11) Para efectos de la cobertura anterior, los empleados de cualquier Contratista se consideran terceros y por eso, si estos presentan reclamaciones contra el asegurado, se tramitarán a través de la cobertura basica.
 
 (12) Se ampara la culpa grave del asegurado de acuerdo con lo establecido en el artículo 1127 del Código de Comercio y conforme a los límites indicados en el artículo 1055 del mismo Código.-
 
@@ -6658,7 +6658,7 @@ Agencia Nacional de Infraestructura
 
 (iii) Los efectos favorables yo desfavorables de la variación de los Ingresos por Prestación de Servicios Logísticos e Ingresos por Explotación Comercial, que puede recaudar el Concesionario durante la ejecución del Contrato.
 
-(iv) Los efectos favorables y desfavorables de la variación de los costos en la elaboración y modificación de los Estudios y Diseños de Detalle requeridos para cumplir de manera rigurosa con las Especificaciones Técnicas definidas en el Contrato yo cualquier variación entre los presupuestos que se deriven de esos Estudios y Diseños de Detalle y el costo real de las obras que cumplan con las Especificaciones Técnicas contractualmente definidas.
+(iv) Los efectos favorables y desfavorables de la variación de los costos en la elaboración y modificación de los Estudios y Disenos de Detalle requeridos para cumplir de manera rigurosa con las Especificaciones Técnicas definidas en el Contrato yo cualquier variación entre los presupuestos que se deriven de esos Estudios y Disenos de Detalle y el costo real de las obras que cumplan con las Especificaciones Técnicas contractualmente definidas.
 
 (v) Efectos favorables yo desfavorables sobre los costos y plazos de los insumos, equipos, materiales, mano de obra, garantías, entre otros necesarios para la Construcción y puesta en funcionamiento de las Obras, bien sea en moneda local o extranjera.
 
@@ -6801,9 +6801,9 @@ Tarifa por Uso de Infraestructura Férrea en lo que se refiere a su porcentaje d
 
 (a) Los siguientes son los riesgos asignados a la ANI, además de los que le sean asignados en otras partes del Contrato (incluyendo sus Apéndices y Anexos). El documento denominado matriz de riesgos del Proyecto, publicado en el SECOP, no hace parte del Contrato de Concesión ni del Pliego de Condiciones, no tiene carácter vinculante alguno, ni servirá de criterio de interpretación del presente Contrato:
 
-(i) Los efectos favorables yo desfavorables de los cambios en diseño que resulten de una decisión unilateral de la ANI y por razones no imputables al Concesionario.
+(i) Los efectos favorables yo desfavorables de los cambios en diseno que resulten de una decisión unilateral de la ANI y por razones no imputables al Concesionario.
 
-(ii) Los efectos favorables yo desfavorables de los cambios en diseño que surjan como consecuencia de nuevas obras solicitadas por la Autoridad Ambiental o por la ANI o por decisiones judiciales, posteriores a la expedición de la Licencia Ambiental, el Plan de Manejo Ambiental yo cualquier instrumento de manejo y control ambiental del Proyecto.
+(ii) Los efectos favorables yo desfavorables de los cambios en diseno que surjan como consecuencia de nuevas obras solicitadas por la Autoridad Ambiental o por la ANI o por decisiones judiciales, posteriores a la expedición de la Licencia Ambiental, el Plan de Manejo Ambiental yo cualquier instrumento de manejo y control ambiental del Proyecto.
 
 (iii) Los efectos favorables yo desfavorables asociados a la gestión y costos de la expedición, cesión o modificación de las Licencias Ambientales, Planes de Manejo Ambiental, demás permisos, autorizaciones, planes o instrumentos de manejo ambiental que se deriven de una modificación regulatoria posterior a la fecha de apertura del Proceso de Selección.
 
@@ -7445,7 +7445,7 @@ que dichos contratistas independientes han efectuado los pagos de que trata el p
 
 #### 22.2 Seguridad e Higiene Industrial
 
-(a) Será responsabilidad del Concesionario el diseño del programa de higiene y seguridad industrial e implementación del sistema de gestión de salud y seguridad en el trabajo - SGSST que aplicará durante la ejecución del Contrato, para lo cual, además de las normas y reglamentos aplicables, el Concesionario tendrá en cuenta lo previsto en los Anexos del Contrato, cuyo cumplimiento será verificado por el Interventor.
+(a) Será responsabilidad del Concesionario el diseno del programa de higiene y seguridad industrial e implementación del sistema de gestión de salud y seguridad en el trabajo - SGSST que aplicará durante la ejecución del Contrato, para lo cual, además de las normas y reglamentos aplicables, el Concesionario tendrá en cuenta lo previsto en los Anexos del Contrato, cuyo cumplimiento será verificado por el Interventor.
 
 (b) En todo caso, el Concesionario será responsable de dotar y asegurar que todo el personal (trabajador directo o indirecto, visitantes y relacionados al Proyecto), utilicen los Equipos de Protección Personal (EPP) correspondiente al riesgo de la actividad y mientras estén vinculados a las instalaciones y actividades del Proyecto, y reponer de acuerdo con la polftica de cambio del Sistema de SST del Concesionario.
 #### 22.3 Relación entre las Partes
@@ -7635,9 +7635,9 @@ IPCr Corresponde al IPC del Mes de Referencia.
 IC(poper)m Índice de Cumplimiento de los Indicadores para la Etapa Preoperativa calculado a la fecha m, según lo establecido en el Apéndice Técnico 4.
 r Mes de Referencia
 
-PEDDm Esta variable aplicará sólo cuando, con anterioridad a la Terminación Anticipada del Contrato, se hubiese dado la no objeción sobre la totalidad de los Estudios y Diseños de Detalle, de conformidad con la Sección 8.1 del Contrato, y se calculará de acuerdo con lo señalado en la siguiente fórmula.
+PEDDm Esta variable aplicará sólo cuando, con anterioridad a la Terminación Anticipada del Contrato, se hubiese dado la no objeción sobre la totalidad de los Estudios y Disenos de Detalle, de conformidad con la Sección 8.1 del Contrato, y se calculará de acuerdo con lo señalado en la siguiente fórmula.
 
-De no haberse obtenido la no objeción a la totalidad de los Estudios y Diseños de Detalle con anterioridad a la Terminación Anticipada del Contrato, su valor será cero (O).
+De no haberse obtenido la no objeción a la totalidad de los Estudios y Disenos de Detalle con anterioridad a la Terminación Anticipada del Contrato, su valor será cero (O).
 
 PEDDm 1,30 VCBr IPCml)
 ( IPCr
@@ -7937,8 +7937,8 @@ T Cada una de las locomotoras del Material Rodante del Proyecto.
 
 P número total de locomotoras del Material Rodante del Proyecto.
 
-PEDDm Esta variable aplicará sólo cuando, con anterioridad a la Terminación Anticipada del Contrato, se hubiese dado la no objeción sobre la totalidad de los Estudios y Diseños de Detalle, de conformidad con la Sección 8.1 del Contrato, y se calculará de acuerdo con lo señalado en la siguiente fórmula.
-De no haberse obtenido la no objeción a la totalidad de los Estudios y Diseños de Detalle con anterioridad a la Terminación Anticipada del Contrato, su valor será cero (O).
+PEDDm Esta variable aplicará sólo cuando, con anterioridad a la Terminación Anticipada del Contrato, se hubiese dado la no objeción sobre la totalidad de los Estudios y Disenos de Detalle, de conformidad con la Sección 8.1 del Contrato, y se calculará de acuerdo con lo señalado en la siguiente fórmula.
+De no haberse obtenido la no objeción a la totalidad de los Estudios y Disenos de Detalle con anterioridad a la Terminación Anticipada del Contrato, su valor será cero (O).
 
 PEDDm [(VCBr UFVFy 1,30 Nly) 
 y1
@@ -8377,7 +8377,7 @@ Página 322 de 332
 Contrato de APP del Proyecto Corredor Férreo La Dorada - Chiriguaná
 Agencia Nacional de Infraestructura
 
-Subcuenta Excedentes ANI. En el evento de requerirse, el precio de las Obras Menores incluirá el valor de los diseños, adquisición de los Predios, el traslado yo intervención de Redes, y las Compensaciones Socioambientales, necesarios para su ejecución, así como los costos adicionales de la Gestión Predial, Gestión Social y Ambiental que demuestre el Concesionario o el terceroque se generen con ocasión de la realización de esas Obras Menores.
+Subcuenta Excedentes ANI. En el evento de requerirse, el precio de las Obras Menores incluirá el valor de los disenos, adquisición de los Predios, el traslado yo intervención de Redes, y las Compensaciones Socioambientales, necesarios para su ejecución, así como los costos adicionales de la Gestión Predial, Gestión Social y Ambiental que demuestre el Concesionario o el terceroque se generen con ocasión de la realización de esas Obras Menores.
 
 (e) En caso de resultar nuevas consultas previas con posterioridad a la apertura del Proceso de Selección, se dará aplicación a lo previsto en la Sección 11.l(d) respecto del pago de los nuevos acuerdos protocolizados y se aplicará, mutatis mutandis, el procedimiento establecido en la Sección 25.2(b).
 #### 25.3 Obras Sociales
@@ -8503,7 +8503,7 @@ Agencia Nacional de Infraestructura
 (30) Días siguientes a que la misma dejara de ser certificada, el Amigable Componedor determinará la variable respectiva.
 #### 25.11 Producciones del Concesionario y Propiedad Intelectual
 
-(a) Sin perjuicio de lo establecido en el CAPÍTULO XV de este Contrato, el Concesionario acepta que todos los derechos que sean susceptibles de ser transferidos de acuerdo con la Ley Aplicable, sobre las producciones intelectuales que éste o sus Contratistas desarrollen para la elaboración de los Estudios y Diseños y demás manuales, documentos, software, diagramas, planos y, en general, documentos, producidas en cumplimiento de una obligación establecida en el Contrato yo sus Especificaciones Técnicas, que estén protegidos bajo el régimen de derechos de autor o propiedad industrial, deberán ser cedidos a título gratuito a favor de la ANI de acuerdo con la Ley Aplicable. En consecuencia, la ANI estará en plena libertad de utilizar yo alterar dichas producciones intelectuales o bienes protegidos por las normas de propiedad intelectual en la forma que considere.
+(a) Sin perjuicio de lo establecido en el CAPÍTULO XV de este Contrato, el Concesionario acepta que todos los derechos que sean susceptibles de ser transferidos de acuerdo con la Ley Aplicable, sobre las producciones intelectuales que éste o sus Contratistas desarrollen para la elaboración de los Estudios y Disenos y demás manuales, documentos, software, diagramas, planos y, en general, documentos, producidas en cumplimiento de una obligación establecida en el Contrato yo sus Especificaciones Técnicas, que estén protegidos bajo el régimen de derechos de autor o propiedad industrial, deberán ser cedidos a título gratuito a favor de la ANI de acuerdo con la Ley Aplicable. En consecuencia, la ANI estará en plena libertad de utilizar yo alterar dichas producciones intelectuales o bienes protegidos por las normas de propiedad intelectual en la forma que considere.
 
 (b) En el caso en que las producciones intelectuales o bienes protegidos por normas de propiedad industrial o derecho de autor contengan elementos cuyos derechos, de acuerdo con lo previsto en la Ley Aplicable, no puedan ser transferidos completamente a la ANI, el Concesionario se cerciorará de que se otorguen a favor de la ANI las licencias, autorizaciones, derechos de uso yo mecanismos equivalentes que, sin ser la titular de los derechos de autor o de propiedad industrial, le permitan a la ANI explotar y usar las producciones intelectuales o bienes protegidos por normas de propiedad industrial o derecho de autor, y, asimismo, asignar dicha explotación o uso a terceros, a su conveniencia, de acuerdo con la Ley Aplicable.
 #### 25.12 Idioma del Contrato

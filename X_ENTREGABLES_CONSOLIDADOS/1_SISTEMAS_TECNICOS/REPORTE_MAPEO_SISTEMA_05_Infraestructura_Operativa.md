@@ -51,7 +51,7 @@
 13. **III.1 Conceptos básicos/0_0_que_es_CTC.md** - Conceptos básicos CTC
 
 #### **Ingeniería Básica:**
-14. **37_Memorias_Diseño_Basico_v5.0.md** - Memorias de diseño básico
+14. **37_Memorias_Diseno_Basico_v5.0.md** - Memorias de diseno básico
 15. **38. DiagramasArquitectura_sist_ctc-telco.md** - Diagramas de arquitectura
 16. **39. PlanosPreliminares_localizacion torres tetra_fibra_nod.md** - Planos preliminares
 17. **40. Plan_GestionPermisos_MEJORADO.md** - Plan gestión permisos
@@ -71,7 +71,7 @@
 
 #### **Documentos Maestros:**
 27. **CRITERIOS_TECNICOS_MAESTRO_APP_La_Dorada_Chiriguaná_v1.0.md** - Criterios técnicos maestro
-28. **IV.1_Especificaciones_Basicas_Civil_v5.0.md** - Especificaciones básicas civil
+28. **IV.1_Especificaciones_Basicas_Civil_v5.0.md** - Especificaciones basicas civil
 
 ### **🟡 PRIORIDAD MEDIA (13 documentos)**
 
@@ -83,8 +83,8 @@
 5. **30_Sistema_ITS_Integrado_docx_AT1_AT3_AT4_AT6_ambiental.md** - Sistema ITS integrado
 
 #### **Ingeniería Básica:**
-6. **IV.2_Especificaciones_Basicas_Electrica_v5.0.md** - Especificaciones básicas eléctrica
-7. **IV.4_Especificaciones_Basicas_Sistemas_v5.0.md** - Especificaciones básicas sistemas
+6. **IV.2_Especificaciones_Basicas_Electrica_v5.0.md** - Especificaciones basicas eléctrica
+7. **IV.4_Especificaciones_Basicas_Sistemas_v5.0.md** - Especificaciones basicas sistemas
 
 #### **Ingeniería de Detalle:**
 8. **V_Ingeneiria_de_detalle.md** - Ingeniería de detalle general
@@ -103,7 +103,7 @@
 2. **26.1_Anexo_Electrico_CTC_v5.0.md** - Anexo eléctrico CTC
 
 #### **Ingeniería Básica:**
-3. **37. MemoriasDiseño_Basico_just tec.md** - Memorias diseño básico (legacy)
+3. **37. MemoriasDiseno_Basico_just tec.md** - Memorias diseno básico (legacy)
 
 #### **Ingeniería de Detalle:**
 4. **9_Interfon_a_Contrato_8_8_2.md** - Interfonía contrato 8.8.2
@@ -119,7 +119,7 @@
 ### **📋 BRECHAS IDENTIFICADAS:**
 
 #### **1. Inconsistencia en Especificaciones del CCO:**
-- **AT1 UF2 Tabla 16:** CCO La Dorada con especificaciones básicas
+- **AT1 UF2 Tabla 16:** CCO La Dorada con especificaciones basicas
 - **V.2_Centro_Control_Trafico_CTC_v5.0:** Especificaciones detalladas CTC virtual
 - **Brecha:** Falta consolidación entre especificaciones contractuales y técnicas detalladas
 
@@ -146,7 +146,7 @@
 - **Inconsistencia:** Diferentes niveles de disponibilidad sin justificación clara
 
 #### **2. Especificaciones de Edificaciones:**
-- **AT1 UF2:** Especificaciones básicas CCO (250 m² sala control, 200 m² sala servidores)
+- **AT1 UF2:** Especificaciones basicas CCO (250 m² sala control, 200 m² sala servidores)
 - **V.1.1:** Especificaciones detalladas edificaciones (800 m² edificio principal La Dorada)
 - **Inconsistencia:** Diferentes especificaciones de áreas sin consolidación
 

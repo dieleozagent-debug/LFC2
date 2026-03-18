@@ -33,6 +33,6 @@ Se han corregido los siguientes desvíos críticos:
 
 ## ✅ CONCLUSIONES:
 
-Las especificaciones técnicas de soporte especializado ahora reflejan fielmente el diseño ejecutivo del proyecto, eliminando el riesgo de "lock-in" tecnológico y asegurando la interoperabilidad soberana.
+Las especificaciones técnicas de soporte especializado ahora reflejan fielmente el diseno ejecutivo del proyecto, eliminando el riesgo de "lock-in" tecnológico y asegurando la interoperabilidad soberana.
 
 **Saneamiento Ciclo 7 - Especialización Finalizado.**

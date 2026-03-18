@@ -107,7 +107,7 @@ Como **Especialista Senior en Control de Trenes** con experiencia en proyectos f
 **Especificaciones Faltantes:**
 - **Interlocking Tables:** 🔄 **EN DESARROLLO** - Tablas de enclavamiento para 5 estaciones
 - **Route Setting Logic:** 🔄 **EN DESARROLLO** - Lógica de establecimiento de rutas automáticas
-- **Axle Counter Layout:** ✅ **COMPLETADO** - Diseño de secciones de conteo por estación
+- **Axle Counter Layout:** ✅ **COMPLETADO** - Diseno de secciones de conteo por estación
 - **Signal Aspects:** ✅ **COMPLETADO** - Definición de aspectos de señales y su significado
 
 ##### **2.2 PASOS A NIVEL (146 unidades)**

@@ -14,7 +14,7 @@
 |:---------|:--------|:------------|:----------------|
 | **T01** | `TEMPLATES_METODOLOGICOS_v1.0.md` | Ficha de Sistema | Análisis inicial de cada sistema |
 | **T02** | `TEMPLATES_METODOLOGICOS_v1.0.md` | Análisis de Requisitos | Desglose detallado de requisitos |
-| **T03** | `TEMPLATE_T03_Arquitectura_Conceptual.md` | Arquitectura Conceptual | Diseño de alto nivel del sistema |
+| **T03** | `TEMPLATE_T03_Arquitectura_Conceptual.md` | Arquitectura Conceptual | Diseno de alto nivel del sistema |
 | **T04** | `TEMPLATE_T04_Especificacion_Tecnica.md` | Especificación Técnica | Detalles técnicos de equipos |
 | **T05** | `TEMPLATE_T05_Estimacion_Costos.md` | Estimación de Costos | Análisis económico del sistema |
 

@@ -34,18 +34,18 @@ Este documento traduce las obligaciones del **Apéndice Técnico 2 (Operación y
 | Obligación | Requisito para Ingeniería | Documento Relacionado |
 |:---|:---|:---|
 | **Continuidad del Servicio 24/7** | Diseñar sistemas con alta disponibilidad y redundancia (N+1). | `35_Criterios_Redundancia...md` |
-| **Reglamento de Operación (ROT)** | El diseño del CTC y la Señalización debe soportar el ROT. | `26. Sistem_CTC_Int...md` |
-| **Seguridad en Vía** | El diseño de CCTV y Control de Accesos debe cubrir puntos críticos. | `31_Sistema_CCTV_Integrado...md` |
+| **Reglamento de Operación (ROT)** | El diseno del CTC y la Señalización debe soportar el ROT. | `26. Sistem_CTC_Int...md` |
+| **Seguridad en Vía** | El diseno de CCTV y Control de Accesos debe cubrir puntos críticos. | `31_Sistema_CCTV_Integrado...md` |
 | **Mantenimiento Integral** | Diseñar sistemas con capacidad de diagnóstico remoto y fácil mantenimiento. | `VI. Operacion y Mantenimiento/` |
 
 ### 2.2 Del Apéndice Técnico 4 - Indicadores de Desempeño
 
 | Indicador | KPI Contractual | Requisito para Ingeniería | Documento Relacionado |
 |:---|:---|:---|:---|
-| **Disponibilidad de Sistemas Críticos** | ≥ 99.95% (CTC, Señalización) | Diseño de redundancia N+1, UPS con 4h de autonomía. | `25.1_Matriz_Alcance_Electrico.md` |
-| **Disponibilidad Sistemas No Críticos** | ≥ 99.5% (TETRA, CCTV, ITS) | Diseño de redundancia N+0/N+1, UPS con 2h de autonomía. | `25.1_Matriz_Alcance_Electrico.md` |
+| **Disponibilidad de Sistemas Críticos** | ≥ 99.95% (CTC, Señalización) | Diseno de redundancia N+1, UPS con 4h de autonomía. | `25.1_Matriz_Alcance_Electrico.md` |
+| **Disponibilidad Sistemas No Críticos** | ≥ 99.5% (TETRA, CCTV, ITS) | Diseno de redundancia N+0/N+1, UPS con 2h de autonomía. | `25.1_Matriz_Alcance_Electrico.md` |
 | **Disponibilidad SICC** | ≥ 99.5% | El Sistema Informático de Contabilización y Control debe ser redundante. | `35_Criterios_Redundancia...md` |
-| **Calidad de Servicio** | Tiempos de respuesta, cobertura. | El diseño de la red TETRA y Fibra Óptica debe garantizar la cobertura y latencia requeridas. | `27_Sistema_TETRA_Integrado...md` |
+| **Calidad de Servicio** | Tiempos de respuesta, cobertura. | El diseno de la red TETRA y Fibra Óptica debe garantizar la cobertura y latencia requeridas. | `27_Sistema_TETRA_Integrado...md` |
 
 ---
 
@@ -60,9 +60,9 @@ Este documento traduce las obligaciones del **Apéndice Técnico 2 (Operación y
 
 ## 4. CONCLUSIONES
 
-El diseño de la ingeniería debe estar intrínsecamente ligado a los KPIs de operación y mantenimiento.
-1.  **Diseño Orientado a la Disponibilidad:** La redundancia no es una opción, es una obligación contractual derivada del AT4.
-2.  **Medición desde el Diseño:** Todos los sistemas deben incluir los hooks y telemetría necesarios para reportar su estado al SICC.
+El diseno de la ingeniería debe estar intrínsecamente ligado a los KPIs de operación y mantenimiento.
+1.  **Diseno Orientado a la Disponibilidad:** La redundancia no es una opción, es una obligación contractual derivada del AT4.
+2.  **Medición desde el Diseno:** Todos los sistemas deben incluir los hooks y telemetría necesarios para reportar su estado al SICC.
 3.  **Clarificar KPIs Ambiguos:** Es prioritario resolver las zonas grises en la medición de indicadores (ej. Pasos a Nivel) para evitar riesgos contractuales.
 
 ---

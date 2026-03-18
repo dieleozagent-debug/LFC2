@@ -22,7 +22,7 @@ El Sistema de Material Rodante es la **"flota de vehículos"** del ferrocarril q
 ### Hitos críticos
 | Fase | Fecha | Estado |
 |:-----|:------|:-------|
-| Diseño Conceptual | Enero 2025 | ✅ Completado |
+| Diseno Conceptual | Enero 2025 | ✅ Completado |
 | Adquisición Locomotoras | Marzo 2025 | ⏳ En progreso |
 | Adquisición Vagones | Abril 2025 | ⏳ En progreso |
 | Comisionamiento | Mayo 2025 | ❌ Pendiente |
@@ -202,9 +202,9 @@ El material rodante opera a lo largo del corredor de 526 km, con talleres ubicad
 |:------|:------------|:-----------|:-------|
 | Taller La Dorada | Mantenimiento principal | 150m x 30m | ✅ Operativo |
 | Taller Chiriguaná | Mantenimiento secundario | 100m x 25m | ✅ Operativo |
-| Puerto Berrío | Taller de línea | Herramientas básicas | ✅ Operativo |
-| Barrancabermeja | Taller de línea | Herramientas básicas | ✅ Operativo |
-| Bucaramanga | Taller de línea | Herramientas básicas | ✅ Operativo |
+| Puerto Berrío | Taller de línea | Herramientas basicas | ✅ Operativo |
+| Barrancabermeja | Taller de línea | Herramientas basicas | ✅ Operativo |
+| Bucaramanga | Taller de línea | Herramientas basicas | ✅ Operativo |
 
 ---
 

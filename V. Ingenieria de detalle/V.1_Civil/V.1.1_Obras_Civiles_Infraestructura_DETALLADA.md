@@ -15,7 +15,7 @@ Este documento presenta la **ingeniería civil de detalle** para las obras civil
 ### **Base Técnica:**
 - **Longitud total:** 178 km La Dorada-Chiriguaná
 - **Configuración:** 2 vías principales + vías de servicio
-- **Velocidad de diseño:** 120 km/h
+- **Velocidad de diseno:** 120 km/h
 - **Estándares:** Normas colombianas + FRA/AREMA + FERROVIAS
 
 ---
@@ -70,7 +70,7 @@ Este documento presenta la **ingeniería civil de detalle** para las obras civil
 | **Puente Quebrada 3** | PK 35+400 | 52 m | Viga simplemente apoyada | 3 vanos |
 | **Puente Quebrada 4** | PK 67+800 | 41 m | Viga simplemente apoyada | 2 vanos |
 
-#### **2.3 Especificaciones de Diseño**
+#### **2.3 Especificaciones de Diseno**
 - **Carga viva:** FRA/AREMA 71 + 20% impacto
 - **Carga muerta:** Peso propio + sobrecarga
 - **Sismo:** Norma NSR-10, zona sísmica intermedia

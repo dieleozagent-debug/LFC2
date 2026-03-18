@@ -594,7 +594,7 @@ NA Trimestral
 Especial de este puente y sus ramales, cesará la medición sobre dicha infraestructura. Para el caso del Puente y sus ramales de conexión, el valor de TOO a utilizarse en la medición del indicador será de 24 horas al día.
 Se considerará que la UFVF se encuentra disponible cuando resulta posible transitar con los trenes en condiciones de Seguridad y que cumpla con las condiciones técnicas especificadas en el Apéndice Técnico
 1 (tabla 7), Apéndice Técnico 2 y Apéndice
-Técnico 3 que se recogerán en los diseños definitivos conforme a las recomendaciones del manual AREMA y las especificaciones de la FRA, entre otros,
+Técnico 3 que se recogerán en los disenos definitivos conforme a las recomendaciones del manual AREMA y las especificaciones de la FRA, entre otros,
 Para lo cual se realizarán las siguientes mediciones:
 
 1) La primera medición se realizará un mes
@@ -1405,7 +1405,7 @@ mayores los acá definidos.
 
 En el kilómetro unitario en donde haya baches mayores o iguales a los acá estipulados, se considera kilómetro unitario de no cumplimiento.
 
-Guía metodológica para el diseño
+Guía metodológica para el diseno
 Medición de la de obras de capacidad rehabilitación
 hidráulica de las de obras de drenaje pavimentos para la vía férrea asfálticos de y para las vías de carreteras,
 servicio. INVIAS 2
@@ -1719,7 +1719,7 @@ Para el CCTV las mediciones se realizarán teniendo en cuenta los siguientes val
 
 Diario ::S 3 minutos Semanal .::S 15 minutos Mensual .::S 60 minutos
 
-Para el cerramiento el porcentaje de aceptación será el 100 del cerramiento instalado Y mantenido del perímetro de las obras de acuerdo a los Estudios y Diseños No Objetados.
+Para el cerramiento el porcentaje de aceptación será el 100 del cerramiento instalado Y mantenido del perímetro de las obras de acuerdo a los Estudios y Disenos No Objetados.
 
 En casos de incumplimiento de al menos uno ( 1) de las cuatro mediciones anteriores, se entiende que existe incumplimiento y el
 
@@ -1768,7 +1768,7 @@ para prestar los servicios para lo cual está destinado.
 Para ello cada edificación debe contar con disponibilida d de acceso, disponibilida d del sistema de fluido eléctrico, disponibilida d de redes hidro sanitaria s, disponibilida den sistema de control de acceso y seguridad, disponibilida d operativa de las áreas de operaciones, y en las áreas de servicios
 enerales.
 Capacidad Guía Hidráulica y metodológica
-estado de para el diseño
+estado de para el diseno
 cunetas, de obras de Mensual zanjas, rehabilitación
 alcantarillas, de pavimentos canales asfálticos de
 encoles, carreteras,
@@ -2265,7 +2265,7 @@ A partir del inicio del Contrato de Concesión, y con el objetivo de promover un
 Las Partes realizarán reuniones periódicas de trabajo, al menos una vez al Mes, en las que podrán formular observaciones y hacer sugerencias metodológicas que permitan mejorar la gestión del Contrato. La mesa operará con base en un plan de trabajo, que contendrá las fechas de las reuniones y la forma en que se registrará el contenido de las mismas, el que será definido de común acuerdo en la primera reunión citada por la Interventoría.
 
 #### 5.3 Características del Sistema Informático de Contabilización y Control (SICC)
-El Concesionario deberá diseñar y construir un Sistema Informático de Contabilización y Control (SICC) que será parte del sistema formal de registro e información de los Indicadores durante la ejecución del Contrato, y cuyas características de diseño, operación y explotación son materia de las secciones 5.3.l y 5.4 de este Apéndice.
+El Concesionario deberá diseñar y construir un Sistema Informático de Contabilización y Control (SICC) que será parte del sistema formal de registro e información de los Indicadores durante la ejecución del Contrato, y cuyas características de diseno, operación y explotación son materia de las secciones 5.3.l y 5.4 de este Apéndice.
 
 Página 74 de 90
 
@@ -2289,13 +2289,13 @@ El SICC deberá garantizar la invariabilidad de la información que en él sea r
 
 5.3.2 Código y Documentación de Desarrollo del SICC
 
-El Concesionario deberá diseñar el SICC, esto es, especificar el modelo de procesos, el modelo de datos, los procedimientos y todas las interfaces de usuario (pantallas, reportes, formatos de entrada) y reportes requeridos por la ANI. Las modificaciones que se introduzcan durante el proceso de diseño deberán ser realizadas mediante los procedimientos de gestión de cambios, debidamente documentados y aprobados por la ANI y reflejados en actualizaciones de la especificación de requerimientos, a fin de mantener la trazabilidad hasta un nivel comprensible para la contraparte no especializada.
+El Concesionario deberá diseñar el SICC, esto es, especificar el modelo de procesos, el modelo de datos, los procedimientos y todas las interfaces de usuario (pantallas, reportes, formatos de entrada) y reportes requeridos por la ANI. Las modificaciones que se introduzcan durante el proceso de diseno deberán ser realizadas mediante los procedimientos de gestión de cambios, debidamente documentados y aprobados por la ANI y reflejados en actualizaciones de la especificación de requerimientos, a fin de mantener la trazabilidad hasta un nivel comprensible para la contraparte no especializada.
 
 Página 75 de 90
 
 Apéndice Técnico 4 - Indicadores
 
-Las actividades de análisis, diseño, desarrollo, pruebas y puesta en producción deberán realizarse haciendo uso de marcos de referencia de buenas prácticas tales como: IREB SCRUM, PMI, y atendiendo los requerimientos transversales como: seguridad y privacidad de la información, interoperabilidad, entre otros que defina la ANI y den cumplimiento a la normatividad vigente asociada a las tecnologías de la información.
+Las actividades de análisis, diseno, desarrollo, pruebas y puesta en producción deberán realizarse haciendo uso de marcos de referencia de buenas prácticas tales como: IREB SCRUM, PMI, y atendiendo los requerimientos transversales como: seguridad y privacidad de la información, interoperabilidad, entre otros que defina la ANI y den cumplimiento a la normatividad vigente asociada a las tecnologías de la información.
 
 En el plazo que se establece en el numeral 5.4.7 de este mismo Apéndice Técnico, el Concesionario debe entregar un documento que defina claramente el modelo de procesos, su estructura, funciones, procesos involucrados, interrelaciones de los mismos, salidas de información, que satisfaga las necesidades de operación tanto de la Interventoría, de la ANI como del Concesionario. Así mismo, deberán estar claramente especificadas las actividades que intervienen en los procesos, los roles, estándares técnicos y la documentación ligada a los flujos de información.
 
@@ -2402,7 +2402,7 @@ iv. Realizar el respaldo diario de la base de datos y de la información registr
 v. Mantener disponible la información de Disponibilidad de la Vía Férrea registrada para un periodo no inferior a (2) años.
 v1. Almacenar los registros durante toda la vigencia de la Concesión y tenerlos disponibles para su consulta.
 v11. Entregar a la Interventoría informes de operación del sistema, reportes de estado de la base de datos, copias de los documentos de ingreso de información provistos de firma electrónica avanzada y los respaldos de la base de datos con la periodicidad establecida en el numeral 5.4.5 de este Apéndice Técnico.
-El Concesionario deberá hacer uso de lineamientos del Gobierno Nacional, marcos de referencia, estándares y buenas prácticas para el diseño, construcción y puesta en operación del sistema, que aseguren su correcto funcionamiento, privacidad y seguridad de la información allí registrada.
+El Concesionario deberá hacer uso de lineamientos del Gobierno Nacional, marcos de referencia, estándares y buenas prácticas para el diseno, construcción y puesta en operación del sistema, que aseguren su correcto funcionamiento, privacidad y seguridad de la información allí registrada.
 
 Página 79 de 90
 

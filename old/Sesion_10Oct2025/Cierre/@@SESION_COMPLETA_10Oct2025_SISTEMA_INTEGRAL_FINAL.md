@@ -258,9 +258,9 @@ Validación final: 🔴 EN PROGRESO - NO APTO PARA CONSTRUCCIÓN
 
 | ID | Blocker | Impacto | Acción Requerida |
 |----|---------|---------|------------------|
-| BLOCKER-001 | Indefinición PTC | Riesgo diseño | Oficiar ANI Mes 6 |
+| BLOCKER-001 | Indefinición PTC | Riesgo diseno | Oficiar ANI Mes 6 |
 | BLOCKER-002 | Protocolos FENOCO | Riesgo integración | Reunión FENOCO Mes 5 |
-| BLOCKER-003 | Cantidades PANs | Riesgo presupuestal | Confirmar diseño modular |
+| BLOCKER-003 | Cantidades PANs | Riesgo presupuestal | Confirmar diseno modular |
 | BLOCKER-004 | Cronograma MR | Riesgo planificación | Oficiar ANI cronograma |
 ```
 

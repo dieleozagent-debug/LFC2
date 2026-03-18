@@ -36,7 +36,7 @@ Este repositorio constituye el **Ecosistema de Ingeniería SICC** para el proyec
 *   [III. Ingeniería Conceptual](file:///home/administrador/docker/LFC2/III.%20Ingenieria%20conceptual/): Análisis de Riesgos y Supuestos.
 
 ### FASE 3-5: INGENIERÍA Y DETALLE (SOBERANÍA)
-*   [IV. Ingeniería Básica](file:///home/administrador/docker/LFC2/IV.%20Ingenieria%20básica/): Especificaciones de fibra, potencia y obra civil.
+*   [IV. Ingeniería Básica](file:///home/administrador/docker/LFC2/IV.%20Ingenieria%20basica/): Especificaciones de fibra, potencia y obra civil.
 *   [V. Ingeniería de Detalle](file:///home/administrador/docker/LFC2/V.%20Ingenieria%20de%20detalle/): Planos y secciones detalladas por especialidad.
 
 ### FASE 6-X: O&M Y CONSOLIDACIÓN

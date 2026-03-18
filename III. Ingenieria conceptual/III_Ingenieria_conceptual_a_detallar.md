@@ -38,7 +38,7 @@ Sistema_Senalizacion_Integrado.docx – AT1 + AT2 + AT3 + AT4 + AT8 (social)
 Sistema_ITS_Integrado.docx – AT1 + AT3 + AT4 + AT6 (ambiental)
 Sistema_CCTV_Integrado.docx – AT1 + AT3 + AT8 (social) + AT4 (indicadores)
 Material_Rodante_Integrado.docx – AT1 + Cl_13.1 + AT2 (operación) + AT4
-III.C. Criterios de Diseño Conceptual
+III.C. Criterios de Diseno Conceptual
 Criterios_Normatividad.docx – AREMA, FRA/AREMA, RETIE, ISO TC-204, NSR-10, NFPA
 Criterios_Interoperabilidad.docx – Compatibilidad con FENOCO y ANI
 Criterios_Redundancia.docx – Disponibilidad y respaldo de sistemas críticos

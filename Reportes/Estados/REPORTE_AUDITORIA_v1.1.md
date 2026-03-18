@@ -582,25 +582,25 @@ Esta información es únicamente de carácter informativo y representa el estado
 
 ## ANEXO D: CHECKLIST DE PENDIENTES POR MAESTRO (Consolidación Avanzada)
 
-### Señalización — `IV. Ingenieria básica/SIS_Senalizacion_Definitivo_v1.0.md`
+### Señalización — `IV. Ingenieria basica/SIS_Senalizacion_Definitivo_v1.0.md`
 - [ ] Completar RTM con trazabilidad a AT1/2/3/4/8 y docs fuente
 - [ ] Detallar tablas de interlocking (resumen → referencias completas)
 - [ ] Cerrar criterios de pruebas SAT para P.N. y Virtual Balise (GNSS)
 - [ ] Validar KPIs AT4 (disponibilidad, MTBF/MTTR) y evidencias
 
-### Comunicaciones — `IV. Ingenieria básica/SIS_Comunicaciones_Definitivo_v1.0.md`
+### Comunicaciones — `IV. Ingenieria basica/SIS_Comunicaciones_Definitivo_v1.0.md`
 - [ ] Completar RTM (AT1/3/4/5/7; V.3; V.4_Sistemas; 27_TETRA; 28_Fibra)
 - [ ] Incorporar topologías finales DWDM y políticas QoS por servicio
 - [ ] Evidenciar pruebas OTDR/OLTS, throughput y drive test TETRA
 - [ ] Validar KPIs AT4 (99.95%, latencia, caídas) con plan de monitoreo NOC
 
-### CTC — `IV. Ingenieria básica/SIS_CTC_Definitivo_v1.0.md`
+### CTC — `IV. Ingenieria basica/SIS_CTC_Definitivo_v1.0.md`
 - [ ] Completar RTM (AT1/2/3/4/9; 26_Sistem_CTC; VII.2.x)
 - [ ] Documentar escenarios de failover y tiempos de recuperación (AT4)
 - [ ] Consolidar interfaz FFFIS con PTC (mensajería/alarmas)
 - [ ] Evidenciar FAT/SAT y bitácoras CCO como pruebas de aceptación
 
-### Material Rodante — `IV. Ingenieria básica/SIS_Material_Rodante_Definitivo_v1.0.md`
+### Material Rodante — `IV. Ingenieria basica/SIS_Material_Rodante_Definitivo_v1.0.md`
 - [ ] Completar RTM (Cl_13_1; AT1/2/4; V.3.1; 32_Material_Rodante)
 - [ ] Cerrar integración de equipos embarcados (PTC/TETRA/CCTV/energía)
 - [ ] Definir plan O&M (repuestos críticos, periodicidades, herramientas)

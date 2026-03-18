@@ -304,7 +304,7 @@ Este documento detalla la ingeniería de los sistemas de seguridad para el proye
 ### 7.2 Mantenimiento
 
 #### 7.2.1 Mantenimiento Preventivo
-- **Diario:** Verificaciones básicas
+- **Diario:** Verificaciones basicas
 - **Semanal:** Limpieza y calibración
 - **Mensual:** Pruebas funcionales
 - **Anual:** Revisión completa
@@ -368,7 +368,7 @@ Este documento detalla la ingeniería de los sistemas de seguridad para el proye
 ### 9.2 Cronograma de Implementación
 
 #### 9.2.1 Fase de Desarrollo
-- **Mes 1-2:** Especificación y diseño
+- **Mes 1-2:** Especificación y diseno
 - **Mes 3-4:** Adquisición de equipos
 - **Mes 5-6:** Pruebas de fábrica
 - **Mes 7-8:** Instalación y configuración

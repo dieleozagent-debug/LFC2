@@ -45,7 +45,7 @@
    - Topología interlocking; lógica de rutas; enclavamientos. (V.1)
 3. Interlocking y tablas (resumen)  
    - Resumen de tablas para 5 estaciones críticas. (VII.2.x si aplica)
-4. Pasos a nivel: criterios y diseño  
+4. Pasos a nivel: criterios y diseno  
    - Tipologías, activación, barreras, señalización vial. (3_Pasos_a_nivel_Contrato_8_3.md)
 5. Punto de referencia virtualdo Virtual Balise (GNSS): ubicación y parámetros  
    - Ubicación propuesta a 150 m; parámetros de telegrama. (VII.2.3_Plan_Virtual Balise (GNSS)_Ubicacion_150m.md)
@@ -75,11 +75,11 @@
 
 | KPI | Objetivo | Actual | Evidencia | Responsable | Estado |
 |:---|:---:|:---:|:---|:---|:---:|
-| **Disponibilidad enclavamientos** | 99.95% | En diseño | Análisis RAMS | Ing. Señalización | ⏳ |
-| **MTBF sistema** | >8760h | En diseño | Análisis RAMS | Ing. Señalización | ⏳ |
-| **MTTR sistema** | <4h | En diseño | Plan mantenimiento | Ing. Señalización | ⏳ |
-| **Tasa falsas activaciones PAL** | <0.1% | En diseño | Simulaciones | Ing. Señalización | ⏳ |
-| **Tiempo respuesta Virtual Balise (GNSS)** | <500ms | En diseño | Especificaciones | Ing. Señalización | ⏳ |
+| **Disponibilidad enclavamientos** | 99.95% | En diseno | Análisis RAMS | Ing. Señalización | ⏳ |
+| **MTBF sistema** | >8760h | En diseno | Análisis RAMS | Ing. Señalización | ⏳ |
+| **MTTR sistema** | <4h | En diseno | Plan mantenimiento | Ing. Señalización | ⏳ |
+| **Tasa falsas activaciones PAL** | <0.1% | En diseno | Simulaciones | Ing. Señalización | ⏳ |
+| **Tiempo respuesta Virtual Balise (GNSS)** | <500ms | En diseno | Especificaciones | Ing. Señalización | ⏳ |
 
 10. Criterios de Aceptación (FAT/SAT)
    - FAT: validación de lógicas de enclavamiento y alarmas críticas sin fallas.

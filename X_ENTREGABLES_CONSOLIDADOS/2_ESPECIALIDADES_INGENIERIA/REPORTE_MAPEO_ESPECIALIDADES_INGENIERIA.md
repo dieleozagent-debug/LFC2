@@ -33,7 +33,7 @@
 
 #### **🔴 PRIORIDAD ALTA (8 documentos):**
 1. **V.1_Civil/V.1.1_Obras_Civiles_Infraestructura_DETALLADA.md** - Obras civiles detalladas
-2. **IV.1_Especificaciones_Basicas_Civil_v5.0.md** - Especificaciones básicas civil
+2. **IV.1_Especificaciones_Basicas_Civil_v5.0.md** - Especificaciones basicas civil
 3. **VII.1.1_Matriz_Normatividad_Civil.md** - Matriz normatividad civil
 4. **V.1_Señalizacion_Ferroviaria_Detalle_v5.0.md** - Señalización ferroviaria (infraestructura)
 5. **V.1_Civil/V.1.1_Obras_Civiles_Infraestructura_DETALLADA.md** - Infraestructura civil detallada
@@ -44,7 +44,7 @@
 #### **🟡 PRIORIDAD MEDIA (3 documentos):**
 1. **25.1_WBS_COMPLETA_ESPECIALIDADES_v5.0.md** - WBS especialidades civiles
 2. **23_ListadoMaestro_Sistemas_v5.0.md** - Listado maestro con componentes civiles
-3. **37_Memorias_Diseño_Basico_v5.0.md** - Memorias de diseño básico civil
+3. **37_Memorias_Diseno_Basico_v5.0.md** - Memorias de diseno básico civil
 
 #### **🟢 PRIORIDAD BAJA (1 documento):**
 1. **old/25.1_WBS_COMPLETA_ESPECIALIDADES.md** - WBS especialidades (legacy)
@@ -53,7 +53,7 @@
 
 #### **🔴 PRIORIDAD ALTA (8 documentos):**
 1. **V.2_Electrica/V.2.1_Sistema_Alimentacion_Principal_DETALLADO.md** - Sistema alimentación principal
-2. **IV.2_Especificaciones_Basicas_Electrica_v5.0.md** - Especificaciones básicas eléctrica
+2. **IV.2_Especificaciones_Basicas_Electrica_v5.0.md** - Especificaciones basicas eléctrica
 3. **26.1_Anexo_Electrico_CTC_v5.0.md** - Anexo eléctrico CTC
 4. **V.4_Sistemas_Potencia_Detalle_v5.0.md** - Sistemas de potencia detalle
 5. **VII.1.2_Matriz_Normatividad_Electrica.md** - Matriz normatividad eléctrica
@@ -94,7 +94,7 @@
 
 #### **🟡 PRIORIDAD MEDIA (3 documentos):**
 1. **25.1_WBS_COMPLETA_ESPECIALIDADES_v5.0.md** - WBS especialidades sistemas
-2. **37_Memorias_Diseño_Basico_v5.0.md** - Memorias diseño básico sistemas
+2. **37_Memorias_Diseno_Basico_v5.0.md** - Memorias diseno básico sistemas
 3. **old/V.3_Sistemas_Comunicacion_Detalle_v1.0.md** - Sistemas comunicación (legacy)
 
 #### **🟢 PRIORIDAD BAJA (1 documento):**
@@ -122,13 +122,13 @@
 
 #### **1. Especialidad Civil:**
 - **V.1.1_Obras_Civiles_Infraestructura_DETALLADA:** Especificaciones detalladas de obras civiles
-- **IV.1_Especificaciones_Basicas_Civil_v5.0:** Especificaciones básicas civil
-- **Brecha:** Falta consolidación entre especificaciones básicas y detalladas
+- **IV.1_Especificaciones_Basicas_Civil_v5.0:** Especificaciones basicas civil
+- **Brecha:** Falta consolidación entre especificaciones basicas y detalladas
 
 #### **2. Especialidad Eléctrica:**
 - **V.2.1_Sistema_Alimentacion_Principal_DETALLADO:** Sistema de alimentación detallado
-- **IV.2_Especificaciones_Basicas_Electrica_v5.0:** Especificaciones básicas eléctrica
-- **Brecha:** Falta consolidación entre alimentación principal y especificaciones básicas
+- **IV.2_Especificaciones_Basicas_Electrica_v5.0:** Especificaciones basicas eléctrica
+- **Brecha:** Falta consolidación entre alimentación principal y especificaciones basicas
 
 #### **3. Especialidad Mecánica:**
 - **V.3.1_Material_Rodante_Detallado:** Material rodante detallado
@@ -154,7 +154,7 @@
 - **Inconsistencia:** Falta normatividad para sistemas y ambiental
 
 #### **2. Especificaciones Básicas vs Detalladas:**
-- **IV.1-4_Especificaciones_Basicas:** Especificaciones básicas por especialidad
+- **IV.1-4_Especificaciones_Basicas:** Especificaciones basicas por especialidad
 - **V.1-4_Ingenieria_Detalle:** Ingeniería de detalle por especialidad
 - **Inconsistencia:** Diferentes niveles de especificación sin consolidación
 
@@ -166,7 +166,7 @@
 ### **📊 INFORMACIÓN PENDIENTE:**
 
 #### **1. Especificaciones Técnicas Detalladas:**
-- Consolidación entre especificaciones básicas y detalladas
+- Consolidación entre especificaciones basicas y detalladas
 - Integración entre especialidades
 - Criterios de coordinación interdisciplinaria
 
@@ -185,12 +185,12 @@
 ## 📈 RECOMENDACIONES PARA CONSOLIDACIÓN
 
 ### **1. Consolidar Especialidad Civil:**
-- Integrar especificaciones básicas (IV.1) con detalladas (V.1.1)
+- Integrar especificaciones basicas (IV.1) con detalladas (V.1.1)
 - Definir procedimientos de coordinación con otras especialidades
 - Establecer criterios de aceptación para obras civiles
 
 ### **2. Consolidar Especialidad Eléctrica:**
-- Integrar alimentación principal (V.2.1) con especificaciones básicas (IV.2)
+- Integrar alimentación principal (V.2.1) con especificaciones basicas (IV.2)
 - Definir procedimientos de coordinación con sistemas y mecánica
 - Establecer criterios de aceptación para sistemas eléctricos
 

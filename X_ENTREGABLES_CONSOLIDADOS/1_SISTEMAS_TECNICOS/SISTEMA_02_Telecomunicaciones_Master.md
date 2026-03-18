@@ -103,7 +103,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
 
-### 2.3 Criterios de Diseño Iniciales
+### 2.3 Criterios de Diseno Iniciales
 **Criterios establecidos en fase conceptual**
 
 - **Redundancia Dual:** TETRA + Red Vital IP / TETRA para máxima confiabilidad
@@ -126,7 +126,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 
 ## 3. INGENIERÍA BÁSICA
 
-### 3.1 Diseño Básico
+### 3.1 Diseno Básico
 **Consolidado de documentos IV/**
 
 **Sistema TETRA:**
@@ -189,7 +189,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 
 ## 4. INGENIERÍA DE DETALLE
 
-### 4.1 Diseño Detallado
+### 4.1 Diseno Detallado
 **Consolidado de documentos V/**
 
 **V.3 - Sistemas de Comunicación Detalle v5.0:**
@@ -467,9 +467,9 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 
 | Hito | Fecha | Estado | Responsable |
 |:-----|:------|:-------|:------------|
-| **Diseño Conceptual** | Oct 2025 | ✅ | Ingeniería |
-| **Diseño Básico** | Nov 2025 | ✅ | Ingeniería |
-| **Diseño Detalle** | Ene 2025 | ✅ | Ingeniería |
+| **Diseno Conceptual** | Oct 2025 | ✅ | Ingeniería |
+| **Diseno Básico** | Nov 2025 | ✅ | Ingeniería |
+| **Diseno Detalle** | Ene 2025 | ✅ | Ingeniería |
 | **FAT** | Mar 2025 | ⏳ | Proveedor |
 | **SAT** | May 2025 | ⏳ | Proveedor |
 | **Puesta en Servicio** | Jul 2025 | ⏳ | Operación |
@@ -496,7 +496,7 @@ El Sistema de Telecomunicaciones implementa una **arquitectura redundante** basa
 
 **IV. Ingeniería Básica:**
 - IV.4. Especificaciones Básicas Sistemas v5.0
-- 37. Memorias de Diseño Básico v5.0
+- 37. Memorias de Diseno Básico v5.0
 - 38. Diagramas de Arquitectura CTC-Telecom
 - 39. Planos Preliminares Torres y Fibra
 - 41. Interfaces de Sistemas

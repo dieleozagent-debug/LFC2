@@ -201,7 +201,7 @@ La gestión ambiental opera 24/7 monitoreando indicadores ambientales, con repor
 
 ## 📋 SUPUESTOS TÉCNICOS Y LIMITACIONES
 
-### Supuestos Críticos del Diseño
+### Supuestos Críticos del Diseno
 | Supuesto | Valor Asumido | Impacto si Cambia | Mitigación |
 |:---------|:--------------|:------------------|:-----------|
 | **Condiciones ambientales** | Estables | Mayor impacto si cambian | Monitoreo continuo |
@@ -209,7 +209,7 @@ La gestión ambiental opera 24/7 monitoreando indicadores ambientales, con repor
 | **Tecnología de monitoreo** | Disponible | Limitaciones si no disponible | Proveedores alternativos |
 | **Personal especializado** | Disponible | Limitaciones si no disponible | Capacitación continua |
 
-### Limitaciones del Diseño
+### Limitaciones del Diseno
 - **Condiciones ambientales:** Dependiente de condiciones naturales
 - **Regulaciones:** Cambios en normativa ambiental
 - **Tecnología:** Limitaciones de equipos de monitoreo

@@ -71,7 +71,7 @@ Este índice presenta la **nueva estructura documental** implementada según est
 | `31_Sistema_CCTV_Integrado...md` | ✅ Completado | Análisis de CCTV integrado |
 | `32_Material_Rodante_Integrado...md` | ✅ Completado | Análisis de Material Rodante integrado |
 
-#### **Bloque 2.0: Criterios de Diseño Transversales**
+#### **Bloque 2.0: Criterios de Diseno Transversales**
 | Documento | Estado | Descripción |
 |:----------|:-------:|:------------|
 | `33_Criterios_Normatividad...md` | ✅ Completado | Criterios de normatividad nacional e internacional |
@@ -80,11 +80,11 @@ Este índice presenta la **nueva estructura documental** implementada según est
 | `36_Criterios_Ciberseguridad...md` | ✅ Completado | Criterios de ciberseguridad para sistemas de control |
 
 ### **📁 IV. Ingenieria basica/**
-**Propósito:** Fase C - Ingeniería básica (6 documentos completados)
+**Propósito:** Fase C - Ingeniería basica (6 documentos completados)
 
 | Documento | Estado | Descripción |
 |:----------|:-------:|:------------|
-| `37. MemoriasDiseño_Basico_v5.0_Validado_Riesgos.md` | ✅ Completado | Justificación de decisiones de diseño |
+| `37. MemoriasDiseno_Basico_v5.0_Validado_Riesgos.md` | ✅ Completado | Justificación de decisiones de diseno |
 | `38. DiagramasArquitectura_sist_ctc-telco.md` | ✅ Completado | Representación gráfica de la solución técnica |
 | `39. PlanosPreliminares_localizacion torres tetra_fibra_nod.md` | ✅ Completado | Localización de equipos principales |
 | `40. Plan_GestionPermisos_MEJORADO.md` | ✅ Completado | Plan para trámites ante ANE, ANLA y municipios |
@@ -132,15 +132,15 @@ Este índice presenta la **nueva estructura documental** implementada según est
 |:----------|:-------:|:------------|
 | `1_Señalización_ferroviaria_Contrato_8_1.md` | ⏸️ **BLOQUEADO** | **REQUIERE MEJORAS** - Falta dimensionamiento eléctrico |
 | `2_Centro_de_Control_CTC_Contrato_8_2.md` | ⏸️ **BLOQUEADO** | **REQUIERE MEJORAS** - Muy genérico para construcción |
-| `3_Pasos_a_nivel_Contrato_8_3.md` | ✅ Completado | Diseño detallado de los 146 pasos a nivel |
-| `4_Comunicaciones_generales_Contrato_8_4.md` | ⏸️ **BLOQUEADO** | Diseño detallado de comunicaciones |
-| `5_Radio_TETRA_Contrato_8_5.md` | ⏸️ **BLOQUEADO** | Diseño detallado de la red TETRA |
-| `6_Fibra_óptica_Contrato_8_6.md` | ⏸️ **BLOQUEADO** | Diseño detallado del backbone de fibra óptica |
-| `8_CCTV_Contrato_8_8_1.md` | ⏸️ **BLOQUEADO** | Diseño detallado del sistema de videovigilancia |
-| `9_Interfonía_Contrato_8_8_2.md` | ⏸️ **BLOQUEADO** | Diseño detallado del sistema de interfonía |
-| `10_Red_de_datos_Contrato_8_8_3.md` | ⏸️ **BLOQUEADO** | Diseño detallado de la red de datos |
-| `11_Sistema_contra_incendio_Contrato_8_9.md` | ⏸️ **BLOQUEADO** | Diseño detallado del sistema contra incendios |
-| `12_Comunicaciones_embarcadas_Contrato_8_10.md` | ⏸️ **BLOQUEADO** | Diseño detallado de los sistemas a bordo |
+| `3_Pasos_a_nivel_Contrato_8_3.md` | ✅ Completado | Diseno detallado de los 146 pasos a nivel |
+| `4_Comunicaciones_generales_Contrato_8_4.md` | ⏸️ **BLOQUEADO** | Diseno detallado de comunicaciones |
+| `5_Radio_TETRA_Contrato_8_5.md` | ⏸️ **BLOQUEADO** | Diseno detallado de la red TETRA |
+| `6_Fibra_óptica_Contrato_8_6.md` | ⏸️ **BLOQUEADO** | Diseno detallado del backbone de fibra óptica |
+| `8_CCTV_Contrato_8_8_1.md` | ⏸️ **BLOQUEADO** | Diseno detallado del sistema de videovigilancia |
+| `9_Interfonía_Contrato_8_8_2.md` | ⏸️ **BLOQUEADO** | Diseno detallado del sistema de interfonía |
+| `10_Red_de_datos_Contrato_8_8_3.md` | ⏸️ **BLOQUEADO** | Diseno detallado de la red de datos |
+| `11_Sistema_contra_incendio_Contrato_8_9.md` | ⏸️ **BLOQUEADO** | Diseno detallado del sistema contra incendios |
+| `12_Comunicaciones_embarcadas_Contrato_8_10.md` | ⏸️ **BLOQUEADO** | Diseno detallado de los sistemas a bordo |
 
 #### **📁 V.5_Integracion/**
 **Responsable:** PMO

@@ -16,8 +16,8 @@
 | **1** | **Definición final sistema PTC (PTC Virtual (FRA 236))** | **ANI + Concesionario** | **Mes 6** | 🔴 Bloquea 60% UF2 | Gateway interoperable documentado (Contratista CTC entrega) |
 | **2** | **Cronograma entrega material rodante** | **Fenoco** | **Mes 8** | 🟠 No se puede diseñar embarcados | Asumir especificaciones estándar IEC |
 | **3** | **Especificaciones técnicas FENOCO (interoperabilidad)** | **Fenoco** | **Mes 6** | 🔴 No se puede diseñar gateway FRA/AREMA | Gateway FRA/AREMA 918-4 genérico + documentación completa |
-| **4** | **Regularización pasos a nivel (cantidad exacta)** | **Concesionario** | **Mes 10** | 🟡 Sobre-diseño o sub-diseño | Asumir cantidad contractual AT1 |
-| **5** | **Topografía actualizada del corredor** | **Concesionario** | **Mes 3** | 🟠 Diseños preliminares | Usar topografía Fenoco existente |
+| **4** | **Regularización pasos a nivel (cantidad exacta)** | **Concesionario** | **Mes 10** | 🟡 Sobre-diseno o sub-diseno | Asumir cantidad contractual AT1 |
+| **5** | **Topografía actualizada del corredor** | **Concesionario** | **Mes 3** | 🟠 Disenos preliminares | Usar topografía Fenoco existente |
 
 ---
 
@@ -26,7 +26,7 @@
 **Descripción:** Sin definición final de PTC (PTC Virtual (FRA 236)), no se puede diseñar 60% del alcance de UF2 (Control y Señalización).
 
 **Probabilidad:** ALTA (70%) - Historial de indefiniciones  
-**Impacto:** CRÍTICO (5) - Bloquea diseño completo  
+**Impacto:** CRÍTICO (5) - Bloquea diseno completo  
 **Exposición:** 4.5/5 (CRÍTICA) 🔴
 
 **Estrategia:**
@@ -93,13 +93,13 @@
 
 | # | Exclusión Contractual | Responsable Real | Riesgo si EPC NO hace | Acción Correctiva |
 |:-:|:----------------------|:-----------------|:----------------------|:------------------|
-| **1** | **Estudios geotécnicos** | **EPC** 🔴 | Sin geotecnia NO HAY diseño civil | EPC DEBE incluir en ingeniería (M6-10) |
-| **2** | **Estudios topográficos** | **EPC** 🔴 | Sin topo NO HAY diseño rutas/torres | EPC DEBE incluir en ingeniería (M3-8) |
+| **1** | **Estudios geotécnicos** | **EPC** 🔴 | Sin geotecnia NO HAY diseno civil | EPC DEBE incluir en ingeniería (M6-10) |
+| **2** | **Estudios topográficos** | **EPC** 🔴 | Sin topo NO HAY diseno rutas/torres | EPC DEBE incluir en ingeniería (M3-8) |
 | **3** | **Tramitología permisos** | **EPC** 🔴 | Sin permisos NO HAY obra | EPC DEBE tramitar + Concesionario apoya |
 | **4** | **Coordinación FENOCO** | **EPC** 🔴 | Sin coordinación NO HAY acceso vía | EPC DEBE liderar + Concesionario facilita |
-| **5** | **Definición PTC** | **ANI + Concesionario** ✅ | Indefinición bloquea diseño | Solicitar HOY, Plan B documentado |
+| **5** | **Definición PTC** | **ANI + Concesionario** ✅ | Indefinición bloquea diseno | Solicitar HOY, Plan B documentado |
 | **6** | **Especificaciones MR** | **Cliente (Fenoco)** ✅ | Sin MR NO HAY embarcados | Asumir estándar IEC |
-| **7** | **Diseño detallado PAN** | **EPC Civil** ✅ | Sin diseño NO HAY construcción | EPC incluye en ingeniería |
+| **7** | **Diseno detallado PAN** | **EPC Civil** ✅ | Sin diseno NO HAY construcción | EPC incluye en ingeniería |
 | **8** | **Integración sistemas ANI** | **Concesionario + Interventoría** ✅ | Indefinición de alcance | Solicitar alcance formal Mes 6 |
 | **9** | **Capacitación personal** | **Concesionario** ✅ | Sin capacitación NO HAY operación | Concesionario incluye en contrato |
 | **10** | **Soporte post-entrega** | **EPC o contratar** ⚠️ | Sin soporte hay riesgo operativo | Definir en Mes 6 si EPC o tercero |
@@ -153,7 +153,7 @@ Solicitamos definición formal de:
 3. Cronograma Material Rodante
    - Fecha límite: 15 Febrero 2026 (Mes 8)
    - Responsable: FENOCO + Concesionario
-   - Plan B: Diseño para estándar IEC 62280
+   - Plan B: Diseno para estándar IEC 62280
 
 4. Alcance SICC (Sistema Integrado Comando y Control)
    - Fecha límite: 15 Diciembre 2025 (Mes 6)
@@ -163,7 +163,7 @@ Solicitamos definición formal de:
 5. Permisos ambientales finales
    - Fecha límite: 15 Junio 2026 (Mes 12)
    - Responsable: ANLA + Concesionario
-   - Plan B: Diseño sujeto a aprobación posterior
+   - Plan B: Diseno sujeto a aprobación posterior
 
 Sin estas definiciones formales, el EPC asume Plan B en cada caso,
 con documentación completa de supuestos y exclusiones.
@@ -215,13 +215,13 @@ con documentación completa de supuestos y exclusiones.
 
 | Alcance | Responsable REAL | Contrato Dice | Corrección Necesaria | Riesgo |
 |:--------|:-----------------|:--------------|:---------------------|:-------|
-| **Estudios geotécnicos** | **EPC** | Excluido ❌ | **INCLUIR** | 🔴 Sin esto NO hay diseño |
+| **Estudios geotécnicos** | **EPC** | Excluido ❌ | **INCLUIR** | 🔴 Sin esto NO hay diseno |
 | **Estudios topográficos** | **EPC** | Excluido ❌ | **INCLUIR** | 🔴 Sin esto NO hay rutas |
 | **Tramitología permisos** | **EPC + Concesionario** | Excluido ❌ | **INCLUIR** | 🔴 Sin esto NO hay obra |
 | **Coordinación FENOCO** | **EPC lidera** | Excluido ❌ | **INCLUIR** | 🟠 Sin esto NO hay acceso |
 | Definición PTC | ANI + Concesionario | Responsabilidad Cliente ✅ | OK | 🟠 Plan B: Gateway |
 | Especificaciones MR | Fenoco + Cliente | Responsabilidad Cliente ✅ | OK | 🟡 Plan B: Estándar IEC |
-| Diseño detallado PAN | EPC Civil | Responsabilidad EPC ✅ | OK | - |
+| Diseno detallado PAN | EPC Civil | Responsabilidad EPC ✅ | OK | - |
 | Integración sistemas ANI | Concesionario define | Indefinido ⚠️ | Solicitar alcance | 🟡 Plan B: Sin integración |
 | Capacitación personal | Concesionario | Excluido ✅ | OK | - |
 | Soporte post-entrega | Definir Mes 6 | Indefinido ⚠️ | EPC o tercero | 🟡 Negociar |
@@ -239,7 +239,7 @@ con documentación completa de supuestos y exclusiones.
 - **Fecha límite resolución:** Mes 6 (15-Dic-2025)
 - **Responsable:** ANI + Concesionario
 - **Plan B:** Gateway interoperable genérico (FRA/AREMA 918-4 + PTC VIRTUAL L2 estándar)
-- **Costo Plan B:** Sin costo adicional (incluido en diseño CTC)
+- **Costo Plan B:** Sin costo adicional (incluido en diseno CTC)
 - **Acción:** Oficiar HOY a ANI solicitando definición
 
 ---
@@ -261,7 +261,7 @@ con documentación completa de supuestos y exclusiones.
 - **Exposición:** 2.8/5 🟡
 - **Fecha límite:** Mes 8 (15-Feb-2026)
 - **Responsable:** FENOCO + Concesionario
-- **Plan B:** Diseño modular para locomotora estándar IEC 62280
+- **Plan B:** Diseno modular para locomotora estándar IEC 62280
 - **Acción:** Solicitar cronograma MR en Mes 5
 
 ---
@@ -318,7 +318,7 @@ con documentación completa de supuestos y exclusiones.
 2. Cronograma entrega Material Rodante → Fecha límite: **15-Feb-2026** (M8)
 3. Protocolo coordinación shutdowns para pruebas → Mes 12
 
-**Plan B:** Diseño según estándar europeo FRA/AREMA sin especificaciones FENOCO.
+**Plan B:** Diseno según estándar europeo FRA/AREMA sin especificaciones FENOCO.
 
 ---
 
@@ -405,7 +405,7 @@ con documentación completa de supuestos y exclusiones.
 3. 🟠 **ALTO:** Documentar Plans B para cada indefinición
    - Gateway genérico FRA/AREMA 918-4
    - SICC Básico sin APIs ANI
-   - Diseño MR estándar IEC
+   - Diseno MR estándar IEC
 
 4. 🟡 **MEDIO:** Clarificar cláusulas de protección EPC
    - Variaciones requieren negociación
@@ -418,9 +418,9 @@ con documentación completa de supuestos y exclusiones.
 
 | Indefinición | Fecha Decisión | Si Cliente Responde | Si NO Responde (Plan B) |
 |:-------------|:--------------:|:-------------------|:------------------------|
-| PTC/PTC VIRTUAL L2 | Mes 6 | Diseño específico | Gateway genérico interoperable |
+| PTC/PTC VIRTUAL L2 | Mes 6 | Diseno específico | Gateway genérico interoperable |
 | Specs FENOCO | Mes 6 | Integración directa | Protocolo FRA/AREMA estándar |
-| Cronograma MR | Mes 8 | Diseño específico | Estándar IEC 62280 modular |
+| Cronograma MR | Mes 8 | Diseno específico | Estándar IEC 62280 modular |
 | Alcance SICC | Mes 6 | Escenario 1 o 2 | Escenario 1 Básico |
 | Estudios Geo/Topo | **Mes 5** | **EPC ejecuta** | **BLOCKER - Proyecto para** |
 

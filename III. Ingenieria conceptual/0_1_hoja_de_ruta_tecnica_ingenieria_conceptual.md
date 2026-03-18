@@ -32,7 +32,7 @@ La Ingeniería Conceptual define los pilares tecnológicos del corredor férreo 
 ### 3. ESTRUCTURA DE PAQUETES DE TRABAJO (WBS SANEADA)
 
 1. **SISTEMAS DE CONTROL VIRTUAL**
-   - 1.1 Diseño de Núcleo Vital 2oo3.
+   - 1.1 Diseno de Núcleo Vital 2oo3.
    - 1.2 Algoritmos de Autoridad de Movimiento PTC.
    - 1.3 Interfaz Vital IP Tren-Tierra.
 
@@ -58,6 +58,6 @@ La Ingeniería Conceptual define los pilares tecnológicos del corredor férreo 
 
 ### ✅ CONCLUSIONES:
 
-Este documento establece la base técnica para los ciclos subsiguientes de ingeniería básica y detalle. Se ha purgado la alucinación tecnológica de PTC VIRTUAL/Red Vital IP / TETRA e PTC, adoptando un estándar moderno, interoperable y de bajo costo operativo.
+Este documento establece la base técnica para los ciclos subsiguientes de ingeniería basica y detalle. Se ha purgado la alucinación tecnológica de PTC VIRTUAL/Red Vital IP / TETRA e PTC, adoptando un estándar moderno, interoperable y de bajo costo operativo.
 
 **Saneamiento Ciclo 3 - Hoja de Ruta Finalizado.**

@@ -1057,7 +1057,7 @@ Página 45 de 79
 
 Proyecto; para ello, definirá una agenda con las autoridades municipales para concertar las temáticas del programa.
 
-(5) El Concesionario coordinará con las entidades sanitarias, instituciones educativas y los enlaces de género (sean secretarías de la mujer o enlaces de mujer y género) del municipio (o departamento) el diseño e implementación de las campañas de sensibilización propuestas en el Programa de Fortalecimiento comunitario descrito en el presente Apéndice.
+(5) El Concesionario coordinará con las entidades sanitarias, instituciones educativas y los enlaces de género (sean secretarías de la mujer o enlaces de mujer y género) del municipio (o departamento) el diseno e implementación de las campañas de sensibilización propuestas en el Programa de Fortalecimiento comunitario descrito en el presente Apéndice.
 
 (iv) Protección de la de la Franja Operacional
 
@@ -1103,7 +1103,7 @@ Página 47 de 79
 
  Las obras que se encuentren debidamente justificadas se expondrán por parte del Concesionario e Interventor en "Comité de obras sociales de la ANI", en el cual participan como mínimo, los Vicepresidentes de Gestión Contractual o Ejecutiva, Vicepresidente de Planeación, Riegos y Entorno, Vicepresidente Jurídico, el Presidente de la ANI o su delegado y el Líder de Proyecto. En este comité se presentarán los conceptos del Concesionario y el Interventor con los argumentos técnicos, sociales, ambientales, financieros y jurídicos, así como mecanismos de ejecución y riesgos, con el fin de priorizar y aprobar aquellas obras que se estimen convenientes para la viabilidad del Proyecto a cargo de la ANI.
 
- La fuente de pago de los costos generados con ocasión de su ejecución de las Obras Sociales será tomada de la Subcuenta Obras Sociales en las condiciones establecidas en los términos señalados en el Contrato e incluirán todos los costos de diseño, construcción, sociales, ambientales, prediales y traslado yo intervención de redes. En el proceso de revisión y aprobación, previo concepto de la Interventoría, se verificará que para las Obras Sociales que por ubicarse en el Corredor del Proyecto utilicen Predios, Licencias y Permisos, o el traslado yo intervención de Redes en los que se utilice como fuente de pago la Subcuenta Predios, la Subcuenta Compensaciones Socioambientales o la Subcuenta Redes respectivamente, estos últimos costos no podrán contabilizarse con cargo a la Subcuenta Obras Sociales.
+ La fuente de pago de los costos generados con ocasión de su ejecución de las Obras Sociales será tomada de la Subcuenta Obras Sociales en las condiciones establecidas en los términos señalados en el Contrato e incluirán todos los costos de diseno, construcción, sociales, ambientales, prediales y traslado yo intervención de redes. En el proceso de revisión y aprobación, previo concepto de la Interventoría, se verificará que para las Obras Sociales que por ubicarse en el Corredor del Proyecto utilicen Predios, Licencias y Permisos, o el traslado yo intervención de Redes en los que se utilice como fuente de pago la Subcuenta Predios, la Subcuenta Compensaciones Socioambientales o la Subcuenta Redes respectivamente, estos últimos costos no podrán contabilizarse con cargo a la Subcuenta Obras Sociales.
 
  La obra social priorizada y aprobada deberá ser entregada a la autoridad territorial yo entidad competente, quien deberá garantizar el mantenimiento, operación y sostenibilidad de dicha obra. Lo anterior, se considerará como un criterio a tenerse en cuenta en la evaluación y aprobación de la obra social.
  Adicionalmente la ANI regulará el desarrollo del "Comité de obras sociales de la ANI", el cual tendrá en cuenta como mínimo los lineamientos anteriormente mencionados sin limitarse a ellos.
@@ -1128,7 +1128,7 @@ Adicionalmente y como parte del proceso de autoevaluación del sistema, el Conce
 
 (ii) Generar procesos de capacitación dentro de la comunidad del Área de Influencia, brindado los conocimientos necesarios previos para entender y adaptarse a las nuevas condiciones que el Proyecto otorgará a las dinámicas territoriales y que tienen una implicación sobre la cotidianidad de las comunidades y los Grupos de Interés.
 
-(iii) Generar espacios de acompañamiento para los procesos en formación básica para los ciudadanos que en la actualidad trabajan en la Vía Férrea con las motobalineras, y los Grupos de Interés, a través de convenios interinstituciona]es como el SENA, entre otras instituciones.
+(iii) Generar espacios de acompañamiento para los procesos en formación basica para los ciudadanos que en la actualidad trabajan en la Vía Férrea con las motobalineras, y los Grupos de Interés, a través de convenios interinstituciona]es como el SENA, entre otras instituciones.
 
 (b) Área de influencia
 
@@ -1474,7 +1474,7 @@ f;;'111
 
 Página 57 de 79
 
-yjóvenes que cursan educación básica y medias en las sedes educativas del Área de Influencia del Proyecto.
+yjóvenes que cursan educación basica y medias en las sedes educativas del Área de Influencia del Proyecto.
 (iv) Generar alianzas con entidades para fortalecer, por medio de actividades de identificación del territorio, la importancia de la valoración, conservación y transmisión del legado del patrimonio cultural, en el Área de Influencia del Proyecto por cada uno de los 25 municipios que conforman el Corredor del Proyecto.
 
 (v) Realizar alianzas con entidades y organizaciones relacionadas con la Seguridad vial ferroviaria en el Área de Influencia del Proyecto para fomentar una cultura vial orientada a la protección de la vida, la disminución de riesgos y el disfrute de una movilidad vial segura por el corredor férreo y la infraestructura asociada a este.
@@ -1509,7 +1509,7 @@ realizar un análisis cualitativo y social, se deberá realizar entrevistas a pr
 
 (2) El instrumento cualitativo podrá aplicarse en las reuniones de avance propuestas en el programa de información y participación comunitaria, así como en las
 actividades realizadas en el programa de fortalecimiento comunitario. Las Ji
-herramientas definidas para realizar el diagnóstico deberán tener un enfoque de género e inclusión, para lo cual el Concesionario deberá disponer el personal requerido tanto para su diseño como para su análisis y sistematización. El instrumento deberá tener una pregunta relacionada con propuestas para contribuir en la transformación de los comportamientos de riesgoen la vía y en el futuro corredor férreo.
+herramientas definidas para realizar el diagnóstico deberán tener un enfoque de género e inclusión, para lo cual el Concesionario deberá disponer el personal requerido tanto para su diseno como para su análisis y sistematización. El instrumento deberá tener una pregunta relacionada con propuestas para contribuir en la transformación de los comportamientos de riesgoen la vía y en el futuro corredor férreo.
 
 (3) Actividades con las oficinas de atencióna las personas usuarias, representantes de la comunidad, Grupos de Interés y comités de participación ciudadana deberá estructurar y socializar talleres pedagógicos que propendan por la apropiación comunitaria de una nueva cultura vial producto de la reactivación del corredor férreo, cumpliendo con los siguientes talleres:
  Se deberá realizar por los menos un (1) taller pedagógico cada dos (2) meses por municipio para el programa de cultura ferroviaria.
@@ -1524,7 +1524,7 @@ o Ayudas de memoria.
 o Registros de asistencia.
 o Registros fotográficos.
 
-(4) Para esta obligación, el Concesionario deberá involucrar activamente a la comunidad en la realización de los talleres, tanto en el diseño como en el desarrollo. Para esto, involucrará a jóvenes líderes de la comunidad en las jornadas de diseño de los talleres con el objetivo de hacer un proceso de formación que les permita replicar el contenido en los diferentes entornos de socialización, como en las aulas de clase y en el hogar, entre otros.
+(4) Para esta obligación, el Concesionario deberá involucrar activamente a la comunidad en la realización de los talleres, tanto en el diseno como en el desarrollo. Para esto, involucrará a jóvenes líderes de la comunidad en las jornadas de diseno de los talleres con el objetivo de hacer un proceso de formación que les permita replicar el contenido en los diferentes entornos de socialización, como en las aulas de clase y en el hogar, entre otros.
 
 (5) Lo anterior se desarrollará partir del diagnóstico de referentes culturales, sociales y las propuestas de la comunidad, el Concesionario mediante las oficinas de atención y teniendo en cuenta las propuestas y necesidades de la comunidad y los Grupos de Interés, deberá estructurar y socializar talleres pedagógicos que propendan por la apropiación comunitaria de una nueva cultura vial ferroviaria producto de la reactivación del corredor férreo. Se deberá realizar por los menos un (1) taller pedagógico cada dos meses por un municipio.
 
@@ -1596,7 +1596,7 @@ costos.
 
  Hacer visitas y acciones de acompañamiento de conformidad con las necesidades de cada unidad social.
 
- Diseño e implementación de estrategias que faciliten el cambio y adaptación en el nuevo sitio. Contemplar acciones individuales o colectivas como charlas, talleres o conversatorios para facilitar el proceso de duelo por la pérdida del lugar de residencia o ruptura de las redes sociales de apoyo y que promuevan una actitud proactiva ante el cambio.
+ Diseno e implementación de estrategias que faciliten el cambio y adaptación en el nuevo sitio. Contemplar acciones individuales o colectivas como charlas, talleres o conversatorios para facilitar el proceso de duelo por la pérdida del lugar de residencia o ruptura de las redes sociales de apoyo y que promuevan una actitud proactiva ante el cambio.
 
  Seguimiento al proceso de adaptación en el nuevo hábitat o evaluación ex post que permita registrar si hubo mantenimiento o mejoramiento de las condiciones de vida; esta se realizará por un periodo de un año (como mínimo tres visitas cada cuatro meses de seguimiento al nuevo predio, una vez se encuentre instalado la unidad social en el mismo) y diligenciar los formatos definidos por la ANI para dichas visitas.
 
@@ -1907,7 +1907,7 @@ Página 77 de 79
 
 13 .5 Lineamientos gráficos
 
-(a) El diseño y elaboración de productos gráficos relacionados con el Proyecto debe estar alineado al manual de imagen de la ANI. No se permite un uso diferente de la imagen institucional en piezas comunicativas.
+(a) El diseno y elaboración de productos gráficos relacionados con el Proyecto debe estar alineado al manual de imagen de la ANI. No se permite un uso diferente de la imagen institucional en piezas comunicativas.
 
 (b) Las piezas gráficas generadas por el Concesionario en las que se haga uso del logo de la ANI deben tener la aprobación del equipo de la Oficina de Comunicaciones de esta entidad de conformidad con el procedimiento del sistema de gestión de calidad de la ANI.
 

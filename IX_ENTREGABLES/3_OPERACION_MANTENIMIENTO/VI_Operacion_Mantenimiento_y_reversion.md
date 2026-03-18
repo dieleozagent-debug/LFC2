@@ -23,7 +23,7 @@ La fase de Operación, Mantenimiento y Reversión ha sido purgada de cualquier v
 ## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE TECNOLÓGICA)
 
 En cumplimiento de la **Soberanía Tecnológica**, se han ejecutado los siguientes cambios:
-- ✅ **ELIMINADO:** Proceso de reversión de activos europeos (Red Vital IP / TETRA/Punto de referencia virtuals) que ya no existen en el diseño.
+- ✅ **ELIMINADO:** Proceso de reversión de activos europeos (Red Vital IP / TETRA/Punto de referencia virtuals) que ya no existen en el diseno.
 - ✅ **ELIMINADO:** Riesgos de interoperabilidad técnica con PTC. La interoperabilidad es operativa vía **Stop & Switch**.
 - ✅ **ELIMINADO:** Manuales de usuario para equipos de cabina con soporte Red Vital IP / TETRA.
 - ✅ **ADOPTADO:** Un sistema de indicadores (AT4) basado exclusivamente en la salud de la red IP y la disponibilidad de los servidores virtuales.

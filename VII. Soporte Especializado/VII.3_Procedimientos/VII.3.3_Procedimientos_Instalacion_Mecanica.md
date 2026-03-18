@@ -10,7 +10,7 @@
 ## 1. PROCEDIMIENTOS DE INSTALACIÓN
 
 ### 1.1 Preparación
-- **Revisión de planos:** Verificación de diseño
+- **Revisión de planos:** Verificación de diseno
 - **Materiales:** Verificación de especificaciones
 - **Herramientas:** Equipos de instalación
 - **Personal:** Capacitación y certificación

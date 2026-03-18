@@ -41,7 +41,7 @@ Transforma el documento técnico en esta nueva estructura:
 ### Hitos críticos
 | Fase | Fecha | Estado |
 |:-----|:------|:-------|
-| Diseño | [Fecha] | ✅/⏳/❌ |
+| Diseno | [Fecha] | ✅/⏳/❌ |
 | Instalación | [Fecha] | ✅/⏳/❌ |
 | Comisionamiento | [Fecha] | ✅/⏳/❌ |
 
@@ -233,7 +233,7 @@ Un documento ejecutivo exitoso debe cumplir:
 
 ### ❌ ANTES (Estilo actual - técnico):
 ```
-### 3.1 Diseño Básico
+### 3.1 Diseno Básico
 **Consolidado de documentos IV/**
 
 **Sistema TETRA:**

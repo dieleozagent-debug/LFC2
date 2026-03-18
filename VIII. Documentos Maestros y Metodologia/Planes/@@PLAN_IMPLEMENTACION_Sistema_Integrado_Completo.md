@@ -117,8 +117,8 @@ IX. WBS y Planificacion/
       "item": "Computadora PTC embarcada",
       "cantidad_actual": 8,
       "cantidad_anterior": 15,
-      "justificacion_cantidad": "Alineación con AT1: 5 locomotoras contractuales + 2 diseño/pruebas + 1 contingencia = 8 UND total",
-      "criterio_tecnico": "Operación simultánea máxima: 5 locomotoras según AT1. Adicionales: 2 para diseño/pruebas + 1 contingencia.",
+      "justificacion_cantidad": "Alineación con AT1: 5 locomotoras contractuales + 2 diseno/pruebas + 1 contingencia = 8 UND total",
+      "criterio_tecnico": "Operación simultánea máxima: 5 locomotoras según AT1. Adicionales: 2 para diseno/pruebas + 1 contingencia.",
       "supuesto_principal": "Operación ferroviaria NO requiere más de 5 locomotoras simultáneas",
       "riesgo_principal": "R-PTC-001 - Disponibilidad PTC (Mitigado con contratos marco)",
       "impacto_presupuestal": "-$840,000,000 COP (-47%)",
@@ -304,10 +304,10 @@ archivos_actualizar:
     cambios:
       - campo: "cantidad_atp"
         buscar: "15 unidades PTC embarcadas"
-        reemplazar: "8 unidades PTC embarcadas (5 producción + 2 diseño/pruebas + 1 contingencia)"
+        reemplazar: "8 unidades PTC embarcadas (5 producción + 2 diseno/pruebas + 1 contingencia)"
       - campo: "justificacion"
         buscar: "una unidad por cada locomotora"
-        reemplazar: "Alineación con AT1: 5 locomotoras contractuales + 2 para diseño/pruebas + 1 contingencia"
+        reemplazar: "Alineación con AT1: 5 locomotoras contractuales + 2 para diseno/pruebas + 1 contingencia"
     versionamiento:
       version_actual: "v4.0"
       version_nueva: "v4.1"
@@ -315,7 +315,7 @@ archivos_actualizar:
       agregar_nota: |
         **Cambio aplicado:** DT-TETRA-001 (7 Oct 2025)
         **Justificación:** Alineación con AT1 (5 locomotoras)
-        **Criterio técnico:** 5 producción + 2 diseño/pruebas + 1 contingencia
+        **Criterio técnico:** 5 producción + 2 diseno/pruebas + 1 contingencia
         **Validado por:** Especialista Sistemas + PMO
 ```
 
@@ -353,7 +353,7 @@ documentos_maestros_actualizar:
       sistema: "PTC Embarcado"
       criterio: "5+2+1 = 8 UND"
       cantidad: "8"
-      especificacion: "5 producción + 2 diseño/pruebas + 1 contingencia"
+      especificacion: "5 producción + 2 diseno/pruebas + 1 contingencia"
       referencia: "AT1 §2.1"
   
   - file: "VIII. Documentos Maestros y Metodologia/MATRIZ_TRAZABILIDAD_TECNICA_v1.0.md"
@@ -434,12 +434,12 @@ El EDT Detallado (`WBS_EDT_Detalle.html`) ya está implementado para mostrar jus
    ├────────────────────────────────────────┤
    │ Justificación Técnica:                 │
    │ Alineación con AT1: 5 locomotoras      │
-   │ contractuales + 2 diseño/pruebas + 1   │
+   │ contractuales + 2 diseno/pruebas + 1   │
    │ contingencia = 8 UND total             │
    │                                        │
-   │ Criterios de Diseño:                   │
+   │ Criterios de Diseno:                   │
    │ • 5 producción                         │
-   │ • 2 diseño/pruebas                     │
+   │ • 2 diseno/pruebas                     │
    │ • 1 contingencia                       │
    │                                        │
    │ Supuestos:                             │
@@ -482,11 +482,11 @@ El Reporte Gerencial debe mostrar:
 │                                                                │
 │ 💡 JUSTIFICACIÓN:                                             │
 │ Alineación con AT1: 5 locomotoras contractuales + 2 para      │
-│ diseño/pruebas + 1 contingencia = 8 UND total                 │
+│ diseno/pruebas + 1 contingencia = 8 UND total                 │
 │                                                                │
 │ 🔧 CRITERIO TÉCNICO:                                          │
 │ Operación simultánea máxima: 5 locomotoras según AT1          │
-│ Adicionales: 2 para diseño/pruebas + 1 contingencia          │
+│ Adicionales: 2 para diseno/pruebas + 1 contingencia          │
 │                                                                │
 │ 📋 SUPUESTO:                                                  │
 │ Operación ferroviaria NO requiere más de 5 locomotoras        │

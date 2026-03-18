@@ -86,7 +86,7 @@ Corregir inconsistencias críticas en el `README.md` identificadas en revisión 
 | **II/** | `II. APÉNDICES TÉCNICOS` | `II. Apendices Tecnicos` |
 | **II.A/** | `II.A. ANÁLISIS CONTRACTUAL` | `II.A. Analisis Contractual` |
 | **III/** | `III. INGENIERÍA CONCEPTUAL` | `III. Ingenieria conceptual` |
-| **IV/** | `IV. INGENIERÍA BÁSICA` | `IV. Ingenieria básica` |
+| **IV/** | `IV. INGENIERÍA BÁSICA` | `IV. Ingenieria basica` |
 | **V/** | `V. INGENIERÍA DE DETALLE` | `V. Ingenieria de detalle` |
 | **VI/** | `VI. OPERACIÓN Y MANTENIMIENTO` | `VI. operacion y mantenimiento y reversion` |
 

@@ -7,7 +7,7 @@
 ---
 
 ## 📄 ESPECIFICACIONES DE DISEÑO BÁSICO
-El diseño se basa en la arquitectura **SICC (Sistema de Interoperabilidad, Comunicaciones y Control)**, priorizando la soberanía tecnológica y el uso de estándares abiertos.
+El diseno se basa en la arquitectura **SICC (Sistema de Interoperabilidad, Comunicaciones y Control)**, priorizando la soberanía tecnológica y el uso de estándares abiertos.
 
 ### 1. SEGMENTO TIERRA (Wayside & Infrastructure)
 *   **ENCE (Enclavamiento Centralizado)**: Lógica de estado sólido para control de 5 estaciones críticas.
@@ -27,7 +27,7 @@ El diseño se basa en la arquitectura **SICC (Sistema de Interoperabilidad, Comu
 
 ## 🔍 CRITERIOS DE SANEAMIENTO (KARPATHY LOOP)
 Se han purgado todas las asunciones legacy:
-1.  **ELIMINADA [INFRAESTRUCTURA PROHIBIDA] / 25kV**: El diseño básico es 100% para Tracción Diésel-Eléctrica.
+1.  **ELIMINADA [INFRAESTRUCTURA PROHIBIDA] / 25kV**: El diseno básico es 100% para Tracción Diésel-Eléctrica.
 2.  **ELIMINADA Nodos GNSS (SICC)**: Reemplazada por tecnología **SICC de Posicionamiento Satelital**.
 3.  **ELIMINADA Dependencia gsm-r**: La comunicación se unifica en **Red Vital IP / TETRA**.
 

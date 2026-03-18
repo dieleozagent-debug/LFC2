@@ -256,7 +256,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 
 ### 3.4 Estrategia de Avance con Bloqueos PTC
 - **Comunicaciones base:** Desarrollo con AT1, AT2, AT4 y sistemas completados mientras se espera AT3
-- **Arquitectura modular:** Diseño que permita integración futura de especificaciones técnicas
+- **Arquitectura modular:** Diseno que permita integración futura de especificaciones técnicas
 - **Comunicación proactiva:** Mantener stakeholders informados sobre limitaciones
 - **Plan de contingencia:** Alternativas de comunicaciones para especificaciones pendientes
 

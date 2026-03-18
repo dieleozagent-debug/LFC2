@@ -40,7 +40,7 @@ Esta carpeta contiene los **documentos maestros y metodológicos** del proyecto 
 | Documento | Propósito | Estado | Uso |
 |:---|:---:|:---:|:---|
 | **PLAN_GESTION_RIESGOS_MAESTRO_v1.0.md** | **METODOLOGÍA RIESGOS** - Plan maestro gestión riesgos | ✅ | Gestión de riesgos del proyecto |
-| **ARQUITECTURA_SISTEMA_COMPLETO_Integracion.md** | **ARQUITECTURA DT→TODO** - Diseño sistema completo (6 capas) | ✅ | Referencia arquitectónica |
+| **ARQUITECTURA_SISTEMA_COMPLETO_Integracion.md** | **ARQUITECTURA DT→TODO** - Diseno sistema completo (6 capas) | ✅ | Referencia arquitectónica |
 
 ### **📁 ANÁLISIS CONTRACTUAL (Subcarpeta)** ⭐ NUEVO
 

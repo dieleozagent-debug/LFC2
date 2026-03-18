@@ -63,7 +63,7 @@ Automatizar la propagación de cada Decisión Técnica (DT) hacia **7 niveles de
 
 **Funcionalidad:**
 - Procesa 18 DTs automáticamente
-- Extrae: justificación, criterio diseño, impacto económico
+- Extrae: justificación, criterio diseno, impacto económico
 - Calcula análisis Pareto 80/20
 - Enriquece items WBS con contexto técnico completo
 - Normaliza datos para visualización

@@ -21,7 +21,7 @@ Este documento es el **escudo digital del proyecto**. Define cómo se protegerá
     - `33_Criterios_Normatividad...md`: Define las normas base (IEC 62443, NIST).
     - `35_Criterios_Redundancia...md`: Los sistemas de ciberseguridad (firewalls, SIEM) deben ser redundantes.
 - **Gobierna a:**
-    - **Todos los documentos de diseño de sistemas (`26` a `32`):** Cada sistema debe ser diseñado e implementado siguiendo los controles de seguridad aquí definidos.
+    - **Todos los documentos de diseno de sistemas (`26` a `32`):** Cada sistema debe ser diseñado e implementado siguiendo los controles de seguridad aquí definidos.
     - `42_Plan_Pruebas...md`: Debe incluir pruebas de penetración (pentesting) y validación de controles de seguridad.
 
 ---
@@ -34,15 +34,15 @@ Este análisis se fundamenta en la estructura de trabajo y los análisis por sis
 | Documento | Aporte Clave |
 |---|---|
 | `22` a `25_...md` | Establecen la metodología y la necesidad de definir criterios transversales. |
-| `33_Criterios_Normatividad...md` | Define las normas base (IEC 62443, NIST) para el diseño de la seguridad. |
+| `33_Criterios_Normatividad...md` | Define las normas base (IEC 62443, NIST) para el diseno de la seguridad. |
 | `35_Criterios_Redundancia...md` | Define los sistemas críticos que requieren protección y la necesidad de que los sistemas de seguridad sean redundantes. |
 
 ### 2.2 Documentos Dependientes (Bloqueados 🔴)
-El diseño detallado de la seguridad de cada sistema está bloqueado hasta que estos criterios sean validados.
+El diseno detallado de la seguridad de cada sistema está bloqueado hasta que estos criterios sean validados.
 
 | Documento | Dependencia |
 |---|---|
-| `V. Ingenieria de detalle` | Todos los diseños detallados deben incorporar los controles de ciberseguridad aquí definidos. |
+| `V. Ingenieria de detalle` | Todos los disenos detallados deben incorporar los controles de ciberseguridad aquí definidos. |
 | `42_Plan_Pruebas...md` | Debe incluir pruebas de seguridad, como análisis de vulnerabilidades y pentesting. |
 
 ### 2.3 Interfaces Críticas
@@ -156,9 +156,9 @@ Este documento ha sido actualizado a la versión 4.0, estableciendo los **criter
 - **Análisis de Riesgos Continuo:** El análisis de riesgos de ciberseguridad debe ser un proceso continuo durante todo el ciclo de vida del proyecto.
 
 ### 5.3 Criterios para Avance
-La aprobación de estos criterios de ciberseguridad **completa el Bloque de Trabajo 5.0 (Criterios de Diseño Transversales)**. Esto permite:
+La aprobación de estos criterios de ciberseguridad **completa el Bloque de Trabajo 5.0 (Criterios de Diseno Transversales)**. Esto permite:
 - **Finalizar la Ingeniería Conceptual:** Todos los análisis por sistema y los criterios transversales están definidos.
-- **Iniciar la Ingeniería Básica:** El equipo de ingeniería tiene ahora un marco técnico completo (normatividad, interoperabilidad, redundancia y ciberseguridad) para comenzar a desarrollar los diseños básicos, como los diagramas de arquitectura (`38...`) y los planos preliminares (`39...`).
+- **Iniciar la Ingeniería Básica:** El equipo de ingeniería tiene ahora un marco técnico completo (normatividad, interoperabilidad, redundancia y ciberseguridad) para comenzar a desarrollar los disenos básicos, como los diagramas de arquitectura (`38...`) y los planos preliminares (`39...`).
 
 ---
 

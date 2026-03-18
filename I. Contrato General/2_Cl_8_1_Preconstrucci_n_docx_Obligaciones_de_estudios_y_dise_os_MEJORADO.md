@@ -4,7 +4,7 @@
 **Fecha de actualización:** 27 de enero de 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
 **Contrato:** Concesión No. 001 de 2025  
-**Cláusula:** 8.1 - Obligaciones de Estudios y Diseños  
+**Cláusula:** 8.1 - Obligaciones de Estudios y Disenos  
 
 ---
 
@@ -24,9 +24,9 @@
 
 ## DESCRIPCIÓN DEL DOCUMENTO
 
-**Obligaciones de Estudios y Diseños - Fase de Preconstrucción**
+**Obligaciones de Estudios y Disenos - Fase de Preconstrucción**
 
-Este documento contractual establece las obligaciones específicas para la fase de preconstrucción, incluyendo estudios técnicos, diseños preliminares y documentación requerida antes del inicio de la construcción.
+Este documento contractual establece las obligaciones específicas para la fase de preconstrucción, incluyendo estudios técnicos, disenos preliminares y documentación requerida antes del inicio de la construcción.
 
 ---
 
@@ -68,7 +68,7 @@ Este documento contractual establece las obligaciones específicas para la fase 
 
 **Contrato de Concesión No. 001 de 2025 - Capítulo IX "Etapa Preoperativa", Sección 9.1 "Fase de Preconstrucción"**
 
-El Concesionario deberá ejecutar, a su costo y riesgo, los estudios, diseños y gestiones necesarias para iniciar la etapa de construcción, incluyendo:
+El Concesionario deberá ejecutar, a su costo y riesgo, los estudios, disenos y gestiones necesarias para iniciar la etapa de construcción, incluyendo:
 
 - Obtención de licencias y permisos
 - Elaboración de estudios de detalle
@@ -112,7 +112,7 @@ El Concesionario deberá ejecutar, a su costo y riesgo, los estudios, diseños y
 ### Condiciones Específicas de la Fase
 
 - **Estudios de detalle completados**
-- **Diseños preliminares aprobados**
+- **Disenos preliminares aprobados**
 - **Coordinación con autoridades competentes**
 - **Plan de obras detallado**
 
@@ -129,7 +129,7 @@ El Concesionario deberá ejecutar, a su costo y riesgo, los estudios, diseños y
 | **Estudio de interferencias** | Cruces con servicios públicos | Ingeniero civil | 30 días |
 | **Estudio ambiental detallado** | EIA complementario | Consultor ambiental | 90 días |
 
-### 2. Diseños Preliminares
+### 2. Disenos Preliminares
 
 | Sistema | Componente | Nivel de Detalle | Aprobación |
 |:---|:---|:---:|:---|
@@ -159,12 +159,12 @@ El Concesionario deberá ejecutar, a su costo y riesgo, los estudios, diseños y
 
 #### Nivel de Desarrollo (LOD) Requerido
 - **LOD 100** - Estudio de factibilidad
-- **LOD 200** - Diseño esquemático
-- **LOD 300** - Diseño de construcción
+- **LOD 200** - Diseno esquemático
+- **LOD 300** - Diseno de construcción
 
 #### Software Aprobado
-- **Autodesk Civil 3D** - Diseño de infraestructura
-- **Bentley OpenRail** - Diseño ferroviario
+- **Autodesk Civil 3D** - Diseno de infraestructura
+- **Bentley OpenRail** - Diseno ferroviario
 - **Revit** - Modelado de edificios
 
 #### Entregables BIM
@@ -214,7 +214,7 @@ El Concesionario deberá ejecutar, a su costo y riesgo, los estudios, diseños y
 | Fase | Duración | Actividades Principales | Entregables |
 |:---|:---:|:---|:---|
 | **Fase 1** | 60 días | Estudios básicos | Informes técnicos |
-| **Fase 2** | 90 días | Diseños preliminares | Planos y especificaciones |
+| **Fase 2** | 90 días | Disenos preliminares | Planos y especificaciones |
 | **Fase 3** | 30 días | Gestión de permisos | Licencias y autorizaciones |
 | **Fase 4** | 30 días | Revisión y aprobación | Documentos finales |
 
@@ -231,7 +231,7 @@ El Concesionario deberá ejecutar, a su costo y riesgo, los estudios, diseños y
 | **Retraso en licencias** | Media | Alto | Gestión proactiva con autoridades |
 | **Cambios normativos** | Baja | Medio | Monitoreo continuo |
 | **Interferencias no identificadas** | Media | Medio | Estudios complementarios |
-| **Desviaciones de diseño** | Baja | Alto | Revisiones técnicas periódicas |
+| **Desviaciones de diseno** | Baja | Alto | Revisiones técnicas periódicas |
 
 ---
 
@@ -251,14 +251,14 @@ El Concesionario deberá ejecutar, a su costo y riesgo, los estudios, diseños y
 | Tipo de Incumplimiento | Penalidad | Aplicación |
 |:---|:---:|:---|
 | **Retraso en estudios** | 0.1% del valor por día | Automática |
-| **Deficiencias en diseño** | 1% del valor del ítem | Según evaluación |
+| **Deficiencias en diseno** | 1% del valor del ítem | Según evaluación |
 | **No conformidad grave** | 5% del valor del contrato | Según evaluación |
 
 ---
 
 ## REFERENCIAS CONTRACTUALES
 
-- **Cláusula 8.1** - Obligaciones de Estudios y Diseños
+- **Cláusula 8.1** - Obligaciones de Estudios y Disenos
 - **Cláusula 8.2** - Obligaciones de Construcción
 - **Cláusula 9.1** - Operación y Mantenimiento
 - **Apéndice Técnico 1** - Alcance del Proyecto
@@ -287,7 +287,7 @@ Esta información es únicamente de carácter informativo. Se recomienda su revi
 
 1. **🚂 INTEGRACIÓN PTC (FRA 236):**
    - **Estrategia de avance:** Especificaciones PTC basadas en FRA 236 hasta disponibilidad de AT3.
-   - **Diseños preliminares:** Incluir interfaces PTC (FRA 49 CFR 236) en CTC y sistemas embarcados.
+   - **Disenos preliminares:** Incluir interfaces PTC (FRA 49 CFR 236) en CTC y sistemas embarcados.
    - **Estudios técnicos:** Análisis de compatibilidad PTC con arquitectura Virtual y SSOT.
 
 2. **🔗 INTEROPERABILIDAD FENOCO (STOP & SWITCH):**
@@ -296,13 +296,13 @@ Esta información es únicamente de carácter informativo. Se recomienda su revi
    - **Estudios de integración:** Análisis de interfaz física en Chiriguaná (Ch 522).
 
 3. **📊 CRITERIOS DE DISPONIBILIDAD AT4:**
-   - **Indicadores contractuales:** Integrar disponibilidad 99.95% en diseños preliminares
+   - **Indicadores contractuales:** Integrar disponibilidad 99.95% en disenos preliminares
    - **Sistemas críticos:** Aplicar criterios de redundancia N+1 según AT4
    - **Monitoreo continuo:** Establecer SICC con funcionamiento en 30 días
 
 4. **🔒 CIBERSEGURIDAD Y REDUNDANCIA:**
-   - **Estándares de seguridad:** Implementar IEC 62443 en diseños de red Vital.
-   - **Arquitectura redundante:** Diseño **2oo3** para el Vital PTC Server y N+1 para infraestructura complementaria.
+   - **Estándares de seguridad:** Implementar IEC 62443 en disenos de red Vital.
+   - **Arquitectura redundante:** Diseno **2oo3** para el Vital PTC Server y N+1 para infraestructura complementaria.
    - **Protocolos Seguros:** Uso de cifrado TLS 1.3 para comunicaciones Vital IP.
 
 #### **⚠️ VACÍOS IDENTIFICADOS Y CORREGIDOS (KARPATHY PURGE):**
@@ -334,7 +334,7 @@ Esta información es únicamente de carácter informativo. Se recomienda su revi
 #### **🎯 OPTIMIZACIONES EPC ESPECÍFICAS:**
 
 1. **Estrategia de Avance PTC:**
-   - **Fase 1:** Diseño de Bloque Virtual dinámico (0-6 meses).
+   - **Fase 1:** Diseno de Bloque Virtual dinámico (0-6 meses).
    - **Fase 2:** Pruebas de campo GNSS/IMU y cobertura TETRA (6-18 meses).
    - **Fase 3:** Validación de Autoridad de Movimiento Vital (18-36 meses).
 
@@ -342,13 +342,13 @@ Esta información es únicamente de carácter informativo. Se recomienda su revi
 
 | Métrica | Objetivo | Frecuencia | Responsable | Estado |
 |:---|:---:|:---:|:---|:---:|
-| **PTC Virtual (FRA 236)** | 100% diseño vital | Semanal | Ing. Sistemas | 🟢 En progreso |
+| **PTC Virtual (FRA 236)** | 100% diseno vital | Semanal | Ing. Sistemas | 🟢 En progreso |
 | **Disponibilidad SICC** | 99.95% | Semanal | Ing. Sistemas | 🟢 En progreso |
 | **Ciberseguridad PTC** | IEC 62443 | Mensual | Ciberseguridad | 🟡 Pendiente |
 
 #### **🚀 PRÓXIMOS PASOS (FASE D):**
 
-1. Finalizar diseño de interfaces **Vital IP** para CTC.
+1. Finalizar diseno de interfaces **Vital IP** para CTC.
 2. Validar cobertura **TETRA** para tráfico de datos vitales.
 3. Consolidar el ROT (Reglamento Operativo de Trenes) bajo PTC Virtual.
 

@@ -17,7 +17,7 @@
                         "responsable":  "Ing. Sistemas",
                         "probabilidad":  "Alta",
                         "exposicion":  0.56,
-                        "plan_accion":  "Documentar supuestos de diseño y solicitar clarificación a Interventoría",
+                        "plan_accion":  "Documentar supuestos de diseno y solicitar clarificación a Interventoría",
                         "categoria":  "Técnico",
                         "origen_decision":  "N/A",
                         "descripcion":  "Dependencia AT3 para PTC Nativo (FRA 49 CFR 236) PTC L2",
@@ -60,7 +60,7 @@
                         "responsable":  "Ing. Sistemas",
                         "probabilidad":  "Media",
                         "exposicion":  0.4,
-                        "plan_accion":  "Realizar análisis RAMS detallado y asegurar redundancia N+1 en diseños críticos",
+                        "plan_accion":  "Realizar análisis RAMS detallado y asegurar redundancia N+1 en disenos críticos",
                         "categoria":  "Contractual",
                         "origen_decision":  "N/A",
                         "descripcion":  "Cumplimiento disponibilidad AT4",
@@ -189,7 +189,7 @@
                         "plan_accion":  "Crear y socializar matriz de aprobaciones con plazos claros para cada entregable",
                         "categoria":  "Gestión",
                         "origen_decision":  "N/A",
-                        "descripcion":  "Desfase aprobación diseños vs cronograma Plan Obras",
+                        "descripcion":  "Desfase aprobación disenos vs cronograma Plan Obras",
                         "estrategia":  "MITIGAR - Integrar cronograma entregables ingeniería con Plan Obras"
                     },
                     {
@@ -312,11 +312,11 @@
                         "responsable":  "PMO + Seguridad Vial",
                         "probabilidad":  "Media",
                         "exposicion":  0.25,
-                        "plan_accion":  "**ACCIÓN HOY:** Confirmar diseño modular de PANs. Validar asignación de contingencia $489M en presupuesto",
+                        "plan_accion":  "**ACCIÓN HOY:** Confirmar diseno modular de PANs. Validar asignación de contingencia $489M en presupuesto",
                         "categoria":  "Contractual",
                         "origen_decision":  "N/A",
                         "descripcion":  "Cantidades PAN NO confirmadas (regularización en curso) - Variación ±10%",
-                        "estrategia":  "ACEPTAR - Diseño modular ±10%, contingencia $489M"
+                        "estrategia":  "ACEPTAR - Diseno modular ±10%, contingencia $489M"
                     },
                     {
                         "items_wbs":  "6.1.100",

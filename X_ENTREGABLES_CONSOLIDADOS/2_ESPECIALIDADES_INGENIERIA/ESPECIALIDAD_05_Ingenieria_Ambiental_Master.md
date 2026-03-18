@@ -17,7 +17,7 @@
 |:-----|:-----------|:---------------------|:----------|
 | **Contractual** | AT6, AT7, AT8, AT9 | ✅ Sincronizado | Crítica |
 | **Conceptual** | 23_ListadoMaestro_Sistemas_v5.0, 25.1_WBS_v5.0 | ✅ Sincronizado | Alta |
-| **Básica** | 37_Memorias_Diseño_Basico_v5.0, CRITERIOS_TECNICOS_MAESTRO | ✅ Sincronizado | Alta |
+| **Básica** | 37_Memorias_Diseno_Basico_v5.0, CRITERIOS_TECNICOS_MAESTRO | ✅ Sincronizado | Alta |
 | **Detalle** | V.4.1_Sistemas_Ferroviarios_Integrados_DETALLADO, AT6_Gestion_Ambiental | ✅ Sincronizado | Alta |
 | **Operación** | 0_0_relacion_de_apendices_tecnicos_del_contrato_con_la_ing | ✅ Sincronizado | Media |
 
@@ -96,16 +96,16 @@
 - **Conservación de Recursos:** Uso eficiente de agua y energía
 - **Cumplimiento Normativo:** Resolución 1405, RETIE, NTC-ISO 14001
 
-### **2.2 Criterios de Diseño Ambiental**
+### **2.2 Criterios de Diseno Ambiental**
 
-#### **Principios de Diseño:**
-- **Sostenibilidad:** Diseño sostenible con mínimo impacto ambiental
+#### **Principios de Diseno:**
+- **Sostenibilidad:** Diseno sostenible con mínimo impacto ambiental
 - **Eficiencia:** Uso eficiente de recursos naturales
 - **Prevención:** Prevención de la contaminación
 - **Cumplimiento:** Cumplimiento de normatividad ambiental
 - **Mejora Continua:** Mejora continua del desempeño ambiental
 
-#### **Estándares de Diseño:**
+#### **Estándares de Diseno:**
 - **Resolución 1405 de 2023:** Gestión de residuos eléctricos y electrónicos
 - **RETIE:** Reglamento Técnico de Instalaciones Eléctricas
 - **NTC-ISO 14001:** Sistemas de gestión ambiental
@@ -193,7 +193,7 @@
 
 ## 4. INGENIERÍA DE DETALLE
 
-### **4.1 Diseño Detallado de Monitoreo Ambiental**
+### **4.1 Diseno Detallado de Monitoreo Ambiental**
 
 #### **Estaciones de Monitoreo de Calidad del Aire:**
 | Componente | Especificación | Cantidad | Observaciones |
@@ -220,7 +220,7 @@
 | **Datalogger** | 24/7 registro | 5 unidades | Una por estación |
 | **Cable** | Blindado, 100m | 5 unidades | Una por estación |
 
-### **4.2 Diseño Detallado de Gestión de Residuos**
+### **4.2 Diseno Detallado de Gestión de Residuos**
 
 #### **Sistema de Separación en Origen:**
 | Componente | Especificación | Cantidad | Observaciones |
@@ -240,7 +240,7 @@
 | **Bodega residuos electrónicos** | 40m², climatizada | 2 unidades | La Dorada, Chiriguaná |
 | **Sistema de ventilación** | Extracción forzada | 6 unidades | Una por bodega |
 
-### **4.3 Diseño Detallado de Eficiencia Energética**
+### **4.3 Diseno Detallado de Eficiencia Energética**
 
 #### **Sistema de Iluminación LED:**
 | Componente | Especificación | Cantidad | Observaciones |
@@ -259,7 +259,7 @@
 | **Baterías** | LiFePO4, 100kWh | 2 unidades | Almacenamiento |
 | **Estructura** | Aluminio, anodizado | 375 unidades | Soporte de paneles |
 
-### **4.4 Diseño Detallado de Control de Emisiones**
+### **4.4 Diseno Detallado de Control de Emisiones**
 
 #### **Sistema de Filtros DPF:**
 | Componente | Especificación | Cantidad | Observaciones |
@@ -490,7 +490,7 @@
 - `25.1_WBS_COMPLETA_ESPECIALIDADES_v5.0.md` - WBS especialidades ambientales
 
 ### **9.3 Documentos de Ingeniería Básica**
-- `37_Memorias_Diseño_Basico_v5.0.md` - Memorias de diseño básico ambientales
+- `37_Memorias_Diseno_Basico_v5.0.md` - Memorias de diseno básico ambientales
 - `CRITERIOS_TECNICOS_MAESTRO_APP_La_Dorada_Chiriguaná_v1.0.md` - Criterios técnicos maestro
 
 ### **9.4 Documentos de Ingeniería de Detalle**

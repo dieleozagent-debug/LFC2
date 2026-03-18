@@ -46,7 +46,7 @@ I. Contrato General/4_Cl_9_1_OM_docx_Obligaciones_de_Operaci_n_y_Mantenimiento_M
 I. Contrato General/3_Cl_8_2_Construcci_n_docx_Obligaciones_en_fase_de_construcci_n_MEJORADO.md,3_Cl_8_2_Construcci_n_docx_Obligaciones_en_fase_de_construcci_n_MEJORADO.md,,BASE,BASE_Cl_8_2_Construccion_Definitivo_v1.0.md,Construcción,COMPLETO
 I. Contrato General/2_Cl_8_1_Preconstrucci_n_docx_Obligaciones_de_estudios_y_dise_os_MEJORADO.md,2_Cl_8_1_Preconstrucci_n_docx_Obligaciones_de_estudios_y_dise_os_MEJORADO.md,,BASE,BASE_Cl_8_1_Preconstruccion_Definitivo_v1.0.md,Preconstrucción,COMPLETO
 I. Contrato General/10_Cl_I_2d_JerarquiaDocumental_docx_Prioridad_contractual_MEJORADO.md,10_Cl_I_2d_JerarquiaDocumental_docx_Prioridad_contractual_MEJORADO.md,,BASE,BASE_Cl_I_2d_Jerarquia-Documental_Definitivo_v1.0.md,Jerarquía Documental,COMPLETO
-I. Contrato General/2. Cl_8.1_Preconstrucción.docx – Obligaciones de estudios y diseños.md,2. Cl_8.1_Preconstrucción.docx – Obligaciones de estudios y diseños.md,,BASE,BASE_Cl_8_1_Preconstruccion_Vista-Docx_v1.0.md,Preconstrucción,COMPLETO
+I. Contrato General/2. Cl_8.1_Preconstrucción.docx – Obligaciones de estudios y disenos.md,2. Cl_8.1_Preconstrucción.docx – Obligaciones de estudios y disenos.md,,BASE,BASE_Cl_8_1_Preconstruccion_Vista-Docx_v1.0.md,Preconstrucción,COMPLETO
 
 # II. Apendices Tecnicos (complemento)
 II. Apendices Tecnicos/II. Apendices tecnicos a detallar.md,II. Apendices tecnicos a detallar.md,,BASE,BASE_ATs_A-detallar_En-Progreso_v1.0.md,Resumen ATs,EN PROGRESO
@@ -79,14 +79,14 @@ III. Ingenieria conceptual/ITCS_Arquitectura_RBC_2oo3_v1.0.md,ITCS_Arquitectura_
 III. Ingenieria conceptual/ITCS_SRS_Indice_v1.0.md,ITCS_SRS_Indice_v1.0.md,1.0,SIS,SIS_ITCS_SRS_Indice_v1.0.md,ITCS/SRS,EN PROGRESO
 
 # IV. Ingeniería Básica
-IV. Ingenieria básica/37. MemoriasDiseño_Basico_v1.0.md,37. MemoriasDiseño_Basico_v1.0.md,1.0,DOC,DOC_Memorias-Diseno-Basico_Maestro_v1.0.md,Memorias Básicas,COMPLETO
-IV. Ingenieria básica/42. Plan_Pruebas_MEJORADO.md,42. Plan_Pruebas_MEJORADO.md,,DOC,DOC_Plan-de-Pruebas_Maestro_v1.0.md,Plan de Pruebas,COMPLETO
-IV. Ingenieria básica/41. Interfaces_Sistemas_MEJORADO.md,41. Interfaces_Sistemas_MEJORADO.md,,DOC,DOC_Interfaces-de-Sistemas_Maestro_v1.0.md,Interfaces,COMPLETO
-IV. Ingenieria básica/40. Plan_GestionPermisos_MEJORADO.md,40. Plan_GestionPermisos_MEJORADO.md,,DOC,DOC_Plan-Gestion-Permisos_Maestro_v1.0.md,Permisos,COMPLETO
-IV. Ingenieria básica/38. DiagramasArquitectura_sist_ctc-telco.md,38. DiagramasArquitectura_sist_ctc-telco.md,,DOC,DOC_Diagramas-Arquitectura_Sistemas_Maestro_v1.0.md,Arquitectura,COMPLETO
-IV. Ingenieria básica/IV_Ingenieria_Basica_RESUMEN_MEJORADO.md,IV_Ingenieria_Basica_RESUMEN_MEJORADO.md,,DOC,DOC_Ingenieria-Basica_Resumen_Maestro_v1.0.md,Resumen Básica,COMPLETO
-IV. Ingenieria básica/39. PlanosPreliminares_localizacion torres tetra_fibra_nod.md,39. PlanosPreliminares_localizacion torres tetra_fibra_nod.md,,DOC,DOC_Planos-Preliminares_Torres-Fibra-Nodos_v1.0.md,Planos Preliminares,COMPLETO
-IV. Ingenieria básica/37. MemoriasDiseño_Basico_just tec.md,37. MemoriasDiseño_Basico_just tec.md,,DOC,DOC_Memorias-Diseno-Basico_Justificacion_v1.0.md,Memorias Básicas,COMPLETO
+IV. Ingenieria basica/37. MemoriasDiseno_Basico_v1.0.md,37. MemoriasDiseno_Basico_v1.0.md,1.0,DOC,DOC_Memorias-Diseno-Basico_Maestro_v1.0.md,Memorias Básicas,COMPLETO
+IV. Ingenieria basica/42. Plan_Pruebas_MEJORADO.md,42. Plan_Pruebas_MEJORADO.md,,DOC,DOC_Plan-de-Pruebas_Maestro_v1.0.md,Plan de Pruebas,COMPLETO
+IV. Ingenieria basica/41. Interfaces_Sistemas_MEJORADO.md,41. Interfaces_Sistemas_MEJORADO.md,,DOC,DOC_Interfaces-de-Sistemas_Maestro_v1.0.md,Interfaces,COMPLETO
+IV. Ingenieria basica/40. Plan_GestionPermisos_MEJORADO.md,40. Plan_GestionPermisos_MEJORADO.md,,DOC,DOC_Plan-Gestion-Permisos_Maestro_v1.0.md,Permisos,COMPLETO
+IV. Ingenieria basica/38. DiagramasArquitectura_sist_ctc-telco.md,38. DiagramasArquitectura_sist_ctc-telco.md,,DOC,DOC_Diagramas-Arquitectura_Sistemas_Maestro_v1.0.md,Arquitectura,COMPLETO
+IV. Ingenieria basica/IV_Ingenieria_Basica_RESUMEN_MEJORADO.md,IV_Ingenieria_Basica_RESUMEN_MEJORADO.md,,DOC,DOC_Ingenieria-Basica_Resumen_Maestro_v1.0.md,Resumen Básica,COMPLETO
+IV. Ingenieria basica/39. PlanosPreliminares_localizacion torres tetra_fibra_nod.md,39. PlanosPreliminares_localizacion torres tetra_fibra_nod.md,,DOC,DOC_Planos-Preliminares_Torres-Fibra-Nodos_v1.0.md,Planos Preliminares,COMPLETO
+IV. Ingenieria basica/37. MemoriasDiseno_Basico_just tec.md,37. MemoriasDiseno_Basico_just tec.md,,DOC,DOC_Memorias-Diseno-Basico_Justificacion_v1.0.md,Memorias Básicas,COMPLETO
 
 # V. Ingeniería de Detalle
 V. Ingenieria de detalle/V.1_Señalizacion_Ferroviaria_Detalle_v1.0.md,V.1_Señalizacion_Ferroviaria_Detalle_v1.0.md,1.0,SIS,SIS_Senalizacion_Detalle_v1.0.md,Señalización,EN PROGRESO

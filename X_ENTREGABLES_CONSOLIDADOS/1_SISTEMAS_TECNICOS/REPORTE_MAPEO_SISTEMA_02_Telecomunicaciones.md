@@ -199,7 +199,7 @@ Cuantificación detallada de equipos TETRA, torres, radios embarcados, portátil
 **Fecha última modificación:** Octubre 2025
 
 **Contenido relevante para Telecomunicaciones:**
-Diseño de red de fibra óptica de 526 km con topología de anillo, cajas de empalme y gestión de interferencias.
+Diseno de red de fibra óptica de 526 km con topología de anillo, cajas de empalme y gestión de interferencias.
 
 **Secciones clave a extraer:**
 - Topología de red: Anillo redundante 526 km
@@ -337,7 +337,7 @@ Criterios de ciberseguridad para sistemas de comunicaciones ferroviarias según 
 ### 📂 CARPETA IV: INGENIERÍA BÁSICA
 
 #### 📄 DOCUMENTO IDENTIFICADO #16
-**Ruta:** `IV. Ingenieria básica/IV.4_Especificaciones_Basicas_Sistemas_v5.0.md`  
+**Ruta:** `IV. Ingenieria basica/IV.4_Especificaciones_Basicas_Sistemas_v5.0.md`  
 **Nombre:** Especificaciones Básicas Sistemas  
 **Fase:** Básica  
 **Estado:** ✅ Completo  
@@ -345,28 +345,28 @@ Criterios de ciberseguridad para sistemas de comunicaciones ferroviarias según 
 **Fecha última modificación:** Enero 2025
 
 **Contenido relevante para Telecomunicaciones:**
-Especificaciones técnicas básicas para sistemas de comunicaciones incluyendo TETRA, Red Vital IP / TETRA y fibra óptica.
+Especificaciones técnicas basicas para sistemas de comunicaciones incluyendo TETRA, Red Vital IP / TETRA y fibra óptica.
 
 **Secciones clave a extraer:**
-- Especificaciones TETRA: Técnicas básicas
-- Especificaciones Red Vital IP / TETRA: Técnicas básicas
-- Especificaciones fibra óptica: Técnicas básicas
-- Interfaces sistemas: Definiciones básicas
+- Especificaciones TETRA: Técnicas basicas
+- Especificaciones Red Vital IP / TETRA: Técnicas basicas
+- Especificaciones fibra óptica: Técnicas basicas
+- Interfaces sistemas: Definiciones basicas
 
 **Prioridad para consolidación:** 🔴 Alta
 
 ---
 
 #### 📄 DOCUMENTO IDENTIFICADO #17
-**Ruta:** `IV. Ingenieria básica/37_Memorias_Diseño_Basico_v5.0.md`  
-**Nombre:** Memorias de Diseño Básico  
+**Ruta:** `IV. Ingenieria basica/37_Memorias_Diseno_Basico_v5.0.md`  
+**Nombre:** Memorias de Diseno Básico  
 **Fase:** Básica  
 **Estado:** ✅ Completo  
 **Versión:** v5.0  
 **Fecha última modificación:** Enero 2025
 
 **Contenido relevante para Telecomunicaciones:**
-Memorias de cálculo y diseño básico para sistemas de comunicaciones con análisis de cobertura y dimensionamiento.
+Memorias de cálculo y diseno básico para sistemas de comunicaciones con análisis de cobertura y dimensionamiento.
 
 **Secciones clave a extraer:**
 - Cálculos TETRA: Dimensionamiento red
@@ -379,7 +379,7 @@ Memorias de cálculo y diseño básico para sistemas de comunicaciones con anál
 ---
 
 #### 📄 DOCUMENTO IDENTIFICADO #18
-**Ruta:** `IV. Ingenieria básica/38. DiagramasArquitectura_sist_ctc-telco.md`  
+**Ruta:** `IV. Ingenieria basica/38. DiagramasArquitectura_sist_ctc-telco.md`  
 **Nombre:** Diagramas de Arquitectura CTC-Telecom  
 **Fase:** Básica  
 **Estado:** ✅ Completo  
@@ -400,7 +400,7 @@ Diagramas de arquitectura mostrando integración entre CTC y sistemas de telecom
 ---
 
 #### 📄 DOCUMENTO IDENTIFICADO #19
-**Ruta:** `IV. Ingenieria básica/39. PlanosPreliminares_localizacion torres tetra_fibra_nod.md`  
+**Ruta:** `IV. Ingenieria basica/39. PlanosPreliminares_localizacion torres tetra_fibra_nod.md`  
 **Nombre:** Planos Preliminares - Torres y Fibra  
 **Fase:** Básica  
 **Estado:** ✅ Completo  
@@ -421,7 +421,7 @@ Planos detallados de ubicación de torres y recorrido de fibra óptica con coord
 ---
 
 #### 📄 DOCUMENTO IDENTIFICADO #20
-**Ruta:** `IV. Ingenieria básica/41. Interfaces_Sistemas_MEJORADO.md`  
+**Ruta:** `IV. Ingenieria basica/41. Interfaces_Sistemas_MEJORADO.md`  
 **Nombre:** Interfaces de Sistemas  
 **Fase:** Básica  
 **Estado:** ✅ Completo  
@@ -442,7 +442,7 @@ Definición de interfaces entre sistemas de telecomunicaciones y otros sistemas 
 ---
 
 #### 📄 DOCUMENTO IDENTIFICADO #21
-**Ruta:** `IV. Ingenieria básica/40. Plan_GestionPermisos_MEJORADO.md`  
+**Ruta:** `IV. Ingenieria basica/40. Plan_GestionPermisos_MEJORADO.md`  
 **Nombre:** Plan de Gestión de Permisos  
 **Fase:** Básica  
 **Estado:** ✅ Completo  

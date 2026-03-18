@@ -13,7 +13,7 @@
 - **Ítem:** 1.2.100 - Computadora PTC embarcada
 - **Cantidad:** 15 UND → **8 UND** (-47%)
 - **Total:** $1.800M → **$960M** COP
-- **Justificación:** Alineación con AT1 (5 locomotoras contractuales) + 2 diseño/pruebas + 1 contingencia
+- **Justificación:** Alineación con AT1 (5 locomotoras contractuales) + 2 diseno/pruebas + 1 contingencia
 
 ### **Ítems Recalculados (9 total):**
 

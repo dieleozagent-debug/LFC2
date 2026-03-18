@@ -94,7 +94,7 @@ Este documento proporciona el índice maestro consolidado de todos los documento
 | 9 | Cl_15_1_Reversion_Bienes_MEJORADO | I. Contrato General/ | 3.49 KB | 523 | Tecnico, Contrato | 17/09/2025 |
 | 10 | 7_Cl_14_1_OM_Sistemas_docx_Reposici_n_y_mantenimiento_de_hardwaresoftware_MEJORADO | I. Contrato General/ | 22.25 KB | 2946 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
 | 11 | 9_Cl_16_1_Penalidades_docx_Multas_por_incumplimiento_MEJORADO | I. Contrato General/ | 9.2 KB | 225 | Tecnico, Contrato, Sistemas | 27/01/2025 |
-| 12 | 2. Cl_8.1_Preconstrucción.docx – Obligaciones de estudios y diseños.md | I. Contrato General/ | 4.21 KB | 621 | Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 12 | 2. Cl_8.1_Preconstrucción.docx – Obligaciones de estudios y disenos.md | I. Contrato General/ | 4.21 KB | 621 | Tecnico, Contrato, Sistemas | 17/09/2025 |
 
 #### CONTRATO XI. Documentos de Contrato Originales
 > Documentos de contrato convertidos de PDF con formateo automático
@@ -134,13 +134,13 @@ Este documento proporciona el índice maestro consolidado de todos los documento
 
 | # | Documento | Ubicación | Tamaño | Palabras | Patrones Clave | Modificado |
 |:---:|:---|:---|:---:|:---:|:---:|:---:|
-| 1 | MemoriasDiseño_Basico_just tec | IV. Ingenieria básica/ | 17.43 KB | 2416 | Ingenieria, Tecnico, Sistemas | 17/09/2025 |
-| 2 | DiagramasArquitectura_sist_ctc-telco | IV. Ingenieria básica/ | 37.21 KB | 4823 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 3 | PlanosPreliminares_localizacion torres tetra_fibra_nod | IV. Ingenieria básica/ | 28.15 KB | 3322 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 4 | Plan_GestionPermisos_MEJORADO | IV. Ingenieria básica/ | 15.33 KB | 2085 | Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 5 | Interfaces_Sistemas_MEJORADO | IV. Ingenieria básica/ | 19.27 KB | 2690 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 6 | Plan_Pruebas_MEJORADO | IV. Ingenieria básica/ | 17.89 KB | 2416 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 7 | IV_Ingenieria_Basica_RESUMEN_MEJORADO | IV. Ingenieria básica/ | 13.45 KB | 1823 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 1 | MemoriasDiseno_Basico_just tec | IV. Ingenieria basica/ | 17.43 KB | 2416 | Ingenieria, Tecnico, Sistemas | 17/09/2025 |
+| 2 | DiagramasArquitectura_sist_ctc-telco | IV. Ingenieria basica/ | 37.21 KB | 4823 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 3 | PlanosPreliminares_localizacion torres tetra_fibra_nod | IV. Ingenieria basica/ | 28.15 KB | 3322 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 4 | Plan_GestionPermisos_MEJORADO | IV. Ingenieria basica/ | 15.33 KB | 2085 | Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 5 | Interfaces_Sistemas_MEJORADO | IV. Ingenieria basica/ | 19.27 KB | 2690 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 6 | Plan_Pruebas_MEJORADO | IV. Ingenieria basica/ | 17.89 KB | 2416 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 7 | IV_Ingenieria_Basica_RESUMEN_MEJORADO | IV. Ingenieria basica/ | 13.45 KB | 1823 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
 #### SOPORTE III. Documentos de Soporte
 > Documentos de soporte e ingenieria
 
