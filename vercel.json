@@ -3,11 +3,234 @@
   "name": "lfc-2",
   "public": true,
   "rewrites": [
-    { "source": "/", "destination": "/IX_WBS_Planificacion/WBS_COMPLETA_TODO_Interactiva_v4_0.html" },
-    { "source": "/wbs", "destination": "/IX_WBS_Planificacion/WBS_COMPLETA_TODO_Interactiva_v4_0.html" },
-    { "source": "/entregables", "destination": "/X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/HTML/INDICE_Documentos_Servidos.html" },
-    { "source": "/master", "destination": "/X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/HTML/SISTEMA_01_Control_y_Senalizacion_EJECUTIVO.html" },
-    { "source": "/37_Memorias_Diseno_Basico_v5_0.md", "destination": "/IV_Ingenieria_basica/37_Memorias_Diseno_Basico_v5_0.md" }
+    {
+      "source": "/",
+      "destination": "/IX_WBS_Planificacion/WBS_COMPLETA_TODO_Interactiva_v4_0.html"
+    },
+    {
+      "source": "/wbs",
+      "destination": "/IX_WBS_Planificacion/WBS_COMPLETA_TODO_Interactiva_v4_0.html"
+    },
+    {
+      "source": "/entregables",
+      "destination": "/X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/HTML/INDICE_Documentos_Servidos.html"
+    },
+    {
+      "source": "/master",
+      "destination": "/X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/HTML/SISTEMA_01_Control_y_Senalizacion_EJECUTIVO.html"
+    },
+    {
+      "source": "/37_Memorias_Diseno_Basico_v5_0.md",
+      "destination": "/IV_Ingenieria_basica/37_Memorias_Diseno_Basico_v5_0.md"
+    },
+    {
+      "source": "/38_DiagramasArquitectura_sist_ctc-telco.md",
+      "destination": "/IV_Ingenieria_basica/38_DiagramasArquitectura_sist_ctc-telco.md"
+    },
+    {
+      "source": "/39_PlanosPreliminares_localizacion_torres_tetra_fibra_nod.md",
+      "destination": "/IV_Ingenieria_basica/39_PlanosPreliminares_localizacion_torres_tetra_fibra_nod.md"
+    },
+    {
+      "source": "/40_Plan_GestionPermisos_MEJORADO.md",
+      "destination": "/IV_Ingenieria_basica/40_Plan_GestionPermisos_MEJORADO.md"
+    },
+    {
+      "source": "/41_Interfaces_Sistemas_MEJORADO.md",
+      "destination": "/IV_Ingenieria_basica/41_Interfaces_Sistemas_MEJORADO.md"
+    },
+    {
+      "source": "/42_Plan_Pruebas_MEJORADO.md",
+      "destination": "/IV_Ingenieria_basica/42_Plan_Pruebas_MEJORADO.md"
+    },
+    {
+      "source": "/IV_1_Especificaciones_Basicas_Civil_v5_0.md",
+      "destination": "/IV_Ingenieria_basica/IV_1_Especificaciones_Basicas_Civil_v5_0.md"
+    },
+    {
+      "source": "/IV_2_Especificaciones_Basicas_Electrica_v5_0.md",
+      "destination": "/IV_Ingenieria_basica/IV_2_Especificaciones_Basicas_Electrica_v5_0.md"
+    },
+    {
+      "source": "/IV_4_Especificaciones_Basicas_Sistemas_v5_0.md",
+      "destination": "/IV_Ingenieria_basica/IV_4_Especificaciones_Basicas_Sistemas_v5_0.md"
+    },
+    {
+      "source": "/IV_Ingenieria_Basica_RESUMEN_MEJORADO.md",
+      "destination": "/IV_Ingenieria_basica/IV_Ingenieria_Basica_RESUMEN_MEJORADO.md"
+    },
+    {
+      "source": "/index.html",
+      "destination": "/IV_Ingenieria_basica/index.html"
+    },
+    {
+      "source": "/V_1_Senalizacion_Ferroviaria_Detalle_v5_0.md",
+      "destination": "/V_Ingenieria_detalle/V_1_Senalizacion_Ferroviaria_Detalle_v5_0.md"
+    },
+    {
+      "source": "/V_2_Centro_Control_Trafico_CTC_v5_0.md",
+      "destination": "/V_Ingenieria_detalle/V_2_Centro_Control_Trafico_CTC_v5_0.md"
+    },
+    {
+      "source": "/V_3_Sistemas_Comunicacion_Detalle_v5_0.md",
+      "destination": "/V_Ingenieria_detalle/V_3_Sistemas_Comunicacion_Detalle_v5_0.md"
+    },
+    {
+      "source": "/V_4_Sistemas_Potencia_Detalle_v5_0.md",
+      "destination": "/V_Ingenieria_detalle/V_4_Sistemas_Potencia_Detalle_v5_0.md"
+    },
+    {
+      "source": "/V_5_Sistemas_Seguridad_Detalle_v5_0.md",
+      "destination": "/V_Ingenieria_detalle/V_5_Sistemas_Seguridad_Detalle_v5_0.md"
+    },
+    {
+      "source": "/V_Ingenieria_de_detalle.md",
+      "destination": "/V_Ingenieria_detalle/V_Ingenieria_de_detalle.md"
+    },
+    {
+      "source": "/V_X_Enclavamientos_ENCE_Detalle_v5_0.md",
+      "destination": "/V_Ingenieria_detalle/V_X_Enclavamientos_ENCE_Detalle_v5_0.md"
+    },
+    {
+      "source": "/V_X_Sistema_Desvios_Detalle_v5_0.md",
+      "destination": "/V_Ingenieria_detalle/V_X_Sistema_Desvios_Detalle_v5_0.md"
+    },
+    {
+      "source": "/V_X_Sistema_EOT_Detalle_v5_0.md",
+      "destination": "/V_Ingenieria_detalle/V_X_Sistema_EOT_Detalle_v5_0.md"
+    },
+    {
+      "source": "/index.html",
+      "destination": "/V_Ingenieria_detalle/index.html"
+    },
+    {
+      "source": "/index.html",
+      "destination": "/VII_Soporte_Especializado/index.html"
+    },
+    {
+      "source": "/0_0_relacion_de_apendices_tecnicos_del_contrato_con_la_ing.md",
+      "destination": "/III_Ingenieria_conceptual/0_0_relacion_de_apendices_tecnicos_del_contrato_con_la_ing.md"
+    },
+    {
+      "source": "/0_1_hoja_de_ruta_tecnica_ingenieria_conceptual.md",
+      "destination": "/III_Ingenieria_conceptual/0_1_hoja_de_ruta_tecnica_ingenieria_conceptual.md"
+    },
+    {
+      "source": "/22_HojaRuta_Conceptual_Fases_pasos_y_procedimientos_de_ingenier_a.md",
+      "destination": "/III_Ingenieria_conceptual/22_HojaRuta_Conceptual_Fases_pasos_y_procedimientos_de_ingenier_a.md"
+    },
+    {
+      "source": "/23_ListadoMaestro_Sistemas_v5_0.md",
+      "destination": "/III_Ingenieria_conceptual/23_ListadoMaestro_Sistemas_v5_0.md"
+    },
+    {
+      "source": "/24_Matriz_TrazabilidadContractual_xlsx_Jerarqu_a_documental_aplicada_a_ingenier_a.md",
+      "destination": "/III_Ingenieria_conceptual/24_Matriz_TrazabilidadContractual_xlsx_Jerarqu_a_documental_aplicada_a_ingenier_a.md"
+    },
+    {
+      "source": "/25_1_Matriz_Alcance_Electrico.md",
+      "destination": "/III_Ingenieria_conceptual/25_1_Matriz_Alcance_Electrico.md"
+    },
+    {
+      "source": "/25_1_WBS_COMPLETA_ESPECIALIDADES_v5_0.md",
+      "destination": "/III_Ingenieria_conceptual/25_1_WBS_COMPLETA_ESPECIALIDADES_v5_0.md"
+    },
+    {
+      "source": "/25_2_Plantilla_Interfaz_Electrica.md",
+      "destination": "/III_Ingenieria_conceptual/25_2_Plantilla_Interfaz_Electrica.md"
+    },
+    {
+      "source": "/25_WBS_IngenieriaConceptual_docx.md",
+      "destination": "/III_Ingenieria_conceptual/25_WBS_IngenieriaConceptual_docx.md"
+    },
+    {
+      "source": "/26_1_Anexo_Electrico_CTC_v5_0.md",
+      "destination": "/III_Ingenieria_conceptual/26_1_Anexo_Electrico_CTC_v5_0.md"
+    },
+    {
+      "source": "/26_Sistem_CTC_Int_AT1_CCO_AT2_op_AT3_esp_AT4_ind_AT9_cro_.md",
+      "destination": "/III_Ingenieria_conceptual/26_Sistem_CTC_Int_AT1_CCO_AT2_op_AT3_esp_AT4_ind_AT9_cro_.md"
+    },
+    {
+      "source": "/27_1_Estimacion_Cantidades_TETRA_v5_0.md",
+      "destination": "/III_Ingenieria_conceptual/27_1_Estimacion_Cantidades_TETRA_v5_0.md"
+    },
+    {
+      "source": "/27_Sistema_TETRA_Integrado_v5_0.md",
+      "destination": "/III_Ingenieria_conceptual/27_Sistema_TETRA_Integrado_v5_0.md"
+    },
+    {
+      "source": "/28_Sistema_FibraOptica_Integrado_docx_AT1_AT3_AT5_interferencias_AT7_predios.md",
+      "destination": "/III_Ingenieria_conceptual/28_Sistema_FibraOptica_Integrado_docx_AT1_AT3_AT5_interferencias_AT7_predios.md"
+    },
+    {
+      "source": "/29_Sistema_Senalizacion_Integrado_v5_0.md",
+      "destination": "/III_Ingenieria_conceptual/29_Sistema_Senalizacion_Integrado_v5_0.md"
+    },
+    {
+      "source": "/30_Sistema_ITS_Integrado_docx_AT1_AT3_AT4_AT6_ambiental.md",
+      "destination": "/III_Ingenieria_conceptual/30_Sistema_ITS_Integrado_docx_AT1_AT3_AT4_AT6_ambiental.md"
+    },
+    {
+      "source": "/31_Sistema_CCTV_Integrado_docx_AT1_AT3_AT8_social_AT4_indicadores.md",
+      "destination": "/III_Ingenieria_conceptual/31_Sistema_CCTV_Integrado_docx_AT1_AT3_AT8_social_AT4_indicadores.md"
+    },
+    {
+      "source": "/32_Material_Rodante_Integrado_v5_0.md",
+      "destination": "/III_Ingenieria_conceptual/32_Material_Rodante_Integrado_v5_0.md"
+    },
+    {
+      "source": "/33_Criterios_Normatividad_docx_AREMA_UIC_RETIE_ISO_TC_204_NSR_10_NFPA.md",
+      "destination": "/III_Ingenieria_conceptual/33_Criterios_Normatividad_docx_AREMA_UIC_RETIE_ISO_TC_204_NSR_10_NFPA.md"
+    },
+    {
+      "source": "/34_Criterios_Interoperabilidad_docx_Compatibilidad_con_FENOCO_y_ANI.md",
+      "destination": "/III_Ingenieria_conceptual/34_Criterios_Interoperabilidad_docx_Compatibilidad_con_FENOCO_y_ANI.md"
+    },
+    {
+      "source": "/35_Criterios_Redundancia_docx_Disponibilidad_y_respaldo_de_sistemas_cr_ticos.md",
+      "destination": "/III_Ingenieria_conceptual/35_Criterios_Redundancia_docx_Disponibilidad_y_respaldo_de_sistemas_cr_ticos.md"
+    },
+    {
+      "source": "/36_1_Analisis_Riesgos_y_Supuestos_PMI.md",
+      "destination": "/III_Ingenieria_conceptual/36_1_Analisis_Riesgos_y_Supuestos_PMI.md"
+    },
+    {
+      "source": "/36_Criterios_Ciberseguridad_docx_Protecci_n_de_sistemas_de_control.md",
+      "destination": "/III_Ingenieria_conceptual/36_Criterios_Ciberseguridad_docx_Protecci_n_de_sistemas_de_control.md"
+    },
+    {
+      "source": "/39_PlanosPreliminares_localizacion_torres_tetra_fibra_nod.md",
+      "destination": "/III_Ingenieria_conceptual/39_PlanosPreliminares_localizacion_torres_tetra_fibra_nod.md"
+    },
+    {
+      "source": "/III_Ingenieria_conceptual_a_detallar.md",
+      "destination": "/III_Ingenieria_conceptual/III_Ingenieria_conceptual_a_detallar.md"
+    },
+    {
+      "source": "/PTC_Arquitectura_VitalServer_2oo3_v1_0.md",
+      "destination": "/III_Ingenieria_conceptual/PTC_Arquitectura_VitalServer_2oo3_v1_0.md"
+    },
+    {
+      "source": "/PTC_Interfaces_VitalIP_v1_0.md",
+      "destination": "/III_Ingenieria_conceptual/PTC_Interfaces_VitalIP_v1_0.md"
+    },
+    {
+      "source": "/PTC_Interlocking_Logics_v1_0.md",
+      "destination": "/III_Ingenieria_conceptual/PTC_Interlocking_Logics_v1_0.md"
+    },
+    {
+      "source": "/PTC_OBC_Retrofit_v1_0.md",
+      "destination": "/III_Ingenieria_conceptual/PTC_OBC_Retrofit_v1_0.md"
+    },
+    {
+      "source": "/PTC_SRS_Indice_v1_0.md",
+      "destination": "/III_Ingenieria_conceptual/PTC_SRS_Indice_v1_0.md"
+    },
+    {
+      "source": "/index.html",
+      "destination": "/III_Ingenieria_conceptual/index.html"
+    }
   ],
   "cleanUrls": true,
   "trailingSlash": false
