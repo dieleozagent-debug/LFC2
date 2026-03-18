@@ -61,7 +61,7 @@
         </style>
     `;
 
-    document.addEventListener('DOMContentLoaded', () => {
+    function initSidebar() {
         const container = document.getElementById('lfc-sidebar-container');
         if (container) {
             container.innerHTML = sidebarHTML;
@@ -123,5 +123,11 @@
                 }
             }
         }
-    });
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initSidebar);
+    } else {
+        initSidebar();
+    }
 })();
