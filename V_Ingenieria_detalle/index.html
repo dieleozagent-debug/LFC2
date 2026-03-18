@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SICC - Ingeniería de Detalle (Phase D)</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary: #0a192f;
+            --accent: #ffd700;
+            --text-main: #e6f1ff;
+            --text-muted: #8892b0;
+            --glass: rgba(255, 255, 255, 0.03);
+            --glass-border: rgba(255, 255, 255, 0.1);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+        body {
+            background: radial-gradient(circle at 100% 100%, #112240 0%, #0a192f 100%);
+            color: var(--text-main);
+            min-height: 100vh;
+            padding: 4rem;
+        }
+
+        .container { max-width: 1000px; margin: 0 auto; }
+        .back-link {
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 3rem;
+            transition: 0.3s;
+        }
+        .back-link:hover { transform: translateX(-5px); opacity: 0.8; }
+
+        header { margin-bottom: 4rem; }
+        h1 { font-size: 3rem; font-weight: 800; letter-spacing: -1.5px; margin-bottom: 1rem; }
+        p { color: var(--text-muted); font-size: 1.1rem; max-width: 700px; line-height: 1.6; }
+
+        .doc-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .doc-card {
+            background: var(--glass);
+            border: 1px solid var(--glass-border);
+            padding: 2rem;
+            border-radius: 20px;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.3s;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .doc-card:hover {
+            border-color: var(--accent);
+            background: rgba(255, 255, 255, 0.06);
+            transform: translateY(-5px);
+        }
+
+        .doc-icon { font-size: 1.5rem; opacity: 0.5; }
+        .doc-title { font-size: 1rem; font-weight: 600; line-height: 1.4; color: #fff; }
+        .doc-meta { font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; }
+
+        .tag {
+            padding: 4px 10px;
+            background: var(--accent-soft);
+            color: var(--accent);
+            border: 1px solid var(--accent);
+            font-size: 0.65rem;
+            border-radius: 4px;
+            width: fit-content;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/" class="back-link">← Volver a la Torre de Control</a>
+        
+        <header>
+            <p style="color: var(--accent); font-weight: 700; font-size: 0.8rem; letter-spacing: 3px; margin-bottom: 1rem;">FASE D: INGENIERÍA DE DETALLE</p>
+            <h1>Soberanía Técnica 100%</h1>
+            <p>Especificaciones ejecutivas, arquitectura de enclavamientos y planes de integración final. Fuente de verdad para el Servidor Maestro de Red Vital.</p>
+        </header>
+
+        <div class="doc-grid">
+            <a href="V_Ingenieria_de_detalle.md" class="doc-card">
+                <span class="doc-icon">📜</span>
+                <span class="tag">MAIN SOURCE</span>
+                <div class="doc-title">Ingeniería de Detalle - Resumen Ejecutivo</div>
+                <div class="doc-meta">Documento Maestro</div>
+            </a>
+            
+            <a href="V_1_Senalizacion_Ferroviaria_Detalle_v5_0.md" class="doc-card">
+                <span class="doc-icon">🚦</span>
+                <div class="doc-title">Señalización Ferroviaria de Detalle</div>
+                <div class="doc-meta">S-PTC / FRA 236</div>
+            </a>
+
+            <a href="V_2_Centro_Control_Trafico_CTC_v5_0.md" class="doc-card">
+                <span class="doc-icon">📡</span>
+                <div class="doc-title">Arquitectura Centro de Control (CTC)</div>
+                <div class="doc-meta">Infraestructura Crítica</div>
+            </a>
+
+            <a href="V_3_Sistemas_Comunicacion_Detalle_v5_0.md" class="doc-card">
+                <span class="doc-icon">🗼</span>
+                <div class="doc-title">Sistemas de Comunicación: Red Vital IP</div>
+                <div class="doc-meta">Telecomunicaciones</div>
+            </a>
+
+            <a href="V_4_Sistemas_Potencia_Detalle_v5_0.md" class="doc-card">
+                <span class="doc-icon">⚡</span>
+                <div class="doc-title">Sistemas de Potencia Híbrida (Red Vital)</div>
+                <div class="doc-meta">Energía Crítica</div>
+            </a>
+
+            <a href="V_5_Integracion/" class="doc-card">
+                <span class="doc-icon">🧩</span>
+                <div class="doc-title">Plan de Integración de Sistemas</div>
+                <div class="doc-meta">Interconexión SICC</div>
+            </a>
+
+            <a href="V_X_Enclavamientos_ENCE_Detalle_v5_0.md" class="doc-card">
+                <span class="doc-icon">🛡️</span>
+                <div class="doc-title">Enclavamientos Electrónicos (ENCE)</div>
+                <div class="doc-meta">Lógica Vital</div>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
