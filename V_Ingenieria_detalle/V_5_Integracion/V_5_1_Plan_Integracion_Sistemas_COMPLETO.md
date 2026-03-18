@@ -64,17 +64,17 @@ Este documento presenta el **plan de integración de sistemas completo** para el
 #### **2.1 Canalizaciones Eléctricas**
 | Ubicación | Tipo | Cantidad | Observaciones |
 |:----------|:-----|:--------:|:--------------|
-| **Vía principal** | Canalización subterránea | 178 km | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] + servicios |
-| **Estaciones** | Canalización subterránea | 8 estaciones | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] + servicios |
-| **Puentes** | Canalización aérea | 8 puentes | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] + servicios |
-| **Túneles** | Canalización aérea | 4 túneles | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] + servicios |
+| **Vía principal** | Canalización SICC | 178 km | Red Vital IP / Fibra |
+| **Estaciones** | Canalización SICC | 8 estaciones | Red Vital IP / Fibra |
+| **Puentes** | Canalización SICC | 8 puentes | Red Vital IP / Fibra |
+| **Túneles** | Canalización SICC | 4 túneles | Red Vital IP / Fibra |
 
 #### **2.2 Bases de Equipos Eléctricos**
 | Equipo | Base | Cantidad | Observaciones |
 |:-------|:-----|:--------:|:--------------|
-| **Postes [INFRAESTRUCTURA PROHIBIDA]** | Base de concreto | 2,967 unidades | Anclaje estructural |
-| **Postes distribución** | Base de concreto | 1,483 unidades | Anclaje estructural |
-| **Subestaciones** | Base de concreto | 4 subestaciones | Anclaje estructural |
+| **Red Vital IP Nodes** | Base de concreto | 37 nodos fijos | Red Vital SICC |
+| **Postes SICC** | Base de concreto | 1,483 unidades | Soporte comunicaciones |
+| **ENCE Centers** | Estructura SICC | 5 centros | Control Centralizado SICC |
 | **Equipos de línea** | Base de concreto | 500 unidades | Anclaje estructural |
 
 #### **2.3 Sistemas de Puesta a Tierra**
@@ -94,10 +94,10 @@ Este documento presenta el **plan de integración de sistemas completo** para el
 #### **3.1 Alimentación de Trenes**
 | Sistema | Tensión | Potencia | Observaciones |
 |:--------|:---------|:----------|:--------------|
-| **Tracción** | Diesel-Eléctrica | 3,000 kW | Trenes de pasajeros |
+| **Tracción** | Híbrida (Diésel-SICC) | 3,000 kW | Locomotores de carga/pasajeros |
 | **Servicios auxiliares** | 480V AC | 200 kW | Servicios del tren |
-| **Sistemas críticos** | 110V DC | 50 kW | Sistemas de seguridad |
-| **Sistemas de respaldo** | 24V DC | 10 kW | Sistemas de emergencia |
+| **Sistemas críticos** | Red Vital IP / TETRA | 50 kW | Sistemas de seguridad |
+| **Sistemas de respaldo** | 24V DC / UPS | 10 kW | Sistemas de emergencia |
 
 #### **3.2 Sistemas de Frenado**
 | Sistema | Tipo | Potencia | Observaciones |
@@ -124,8 +124,8 @@ Este documento presenta el **plan de integración de sistemas completo** para el
 #### **4.1 Sistemas Embarcados**
 | Sistema | Ubicación | Función | Observaciones |
 |:--------|:----------|:---------|:--------------|
-| **PTC PTC Virtual (FRA 236)** | Cada tren | Control de tren | 40 unidades |
-| **TETRA** | Cada tren | Comunicaciones | 40 unidades |
+| **SICC PTC Virtual** | Cada tren | Control de tren | 40 unidades |
+| **Red Vital IP / TETRA** | Cada tren | Comunicaciones | 40 unidades |
 | **CCTV** | Cada tren | Video seguridad | 40 unidades |
 | **Sistemas de datos** | Cada tren | Transmisión datos | 40 unidades |
 
