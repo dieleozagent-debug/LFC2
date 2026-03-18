@@ -56,10 +56,10 @@ Este documento presenta la **ingeniería de sistemas de detalle** para los siste
 
 ### **2. INFRAESTRUCTURA PTC**
 
-#### **2.1 Radio Block Center (RBC)**
+#### **2.1 Radio Block Center (Servidor PTC Central)**
 | Componente | Especificación | Cantidad | Observaciones |
 |:-----------|:---------------|:--------:|:--------------|
-| **Servidor RBC** | Siemens SIMIS W | 2 unidades | Redundancia N+1 |
+| **Servidor Servidor PTC Central** | Siemens SIMIS W | 2 unidades | Redundancia N+1 |
 | **Interfaz RED TETRA (Misión Crítica)** | Siemens RED TETRA (Misión Crítica) | 2 unidades | Comunicación trenes |
 | **Interfaz Virtual Balise (GNSS)** | Siemens Virtual Balise (GNSS) | 2 unidades | Comunicación punto de referencia virtuals |
 | **Interfaz CTC** | Siemens CTC | 2 unidades | Integración CTC |

@@ -201,7 +201,7 @@ id="toc-interfaz-if-01-ctc-enclavamiento">3.1 Interfaz IF-01: CTC ↔︎
 Enclavamiento</a></li>
 <li><a href="#interfaz-if-02-ctc-itcs-material-rodante"
 id="toc-interfaz-if-02-ctc-itcs-material-rodante">3.2 Interfaz IF-02:
-CTC ↔︎ ITCS (Material Rodante)</a></li>
+CTC ↔︎ PTC Nativo (FRA 49 CFR 236) (Material Rodante)</a></li>
 <li><a
 href="#interfaz-if-07-ctc-bloque-lógico-de-integración-multi-sistema-nuevo-dt-interfaces-001"
 id="toc-interfaz-if-07-ctc-bloque-lógico-de-integración-multi-sistema-nuevo-dt-interfaces-001">3.3
@@ -246,7 +246,7 @@ definidos en la WBS, incluyendo pero no limitándose a: -
 - <strong>Sistemas de Telecomunicaciones:</strong> Fibra Óptica, Radio
 TETRA, Red de Datos. - <strong>Sistemas de Seguridad:</strong> CCTV,
 Control de Accesos. - <strong>Material Rodante:</strong> Equipos
-embarcados (ITCS, Radio). - <strong>Sistemas de Energía:</strong>
+embarcados (PTC Nativo (FRA 49 CFR 236), Radio). - <strong>Sistemas de Energía:</strong>
 Alimentación principal y de respaldo (UPS).</p>
 <h3 id="evaluación-de-dependencias-documentales">1.3 ⚠️ EVALUACIÓN DE
 DEPENDENCIAS DOCUMENTALES</h3>
@@ -305,7 +305,7 @@ ALTO NIVEL</h2>
 <tr>
 <td style="text-align: left;"><strong>IF-02</strong></td>
 <td style="text-align: left;">CTC</td>
-<td style="text-align: left;">ITCS (Material Rodante)</td>
+<td style="text-align: left;">PTC Nativo (FRA 49 CFR 236) (Material Rodante)</td>
 <td style="text-align: left;">Datos / Control</td>
 <td style="text-align: left;">PTC Nivel 2 (Supuesto)</td>
 <td style="text-align: left;">Líder de Material Rodante</td>
@@ -380,7 +380,7 @@ end-to-end &lt; 100 ms.</li>
 redundancia de enlace y de procesadores en el enclavamiento).</li>
 </ul>
 <h3 id="interfaz-if-02-ctc-itcs-material-rodante">3.2 Interfaz IF-02:
-CTC ↔︎ ITCS (Material Rodante)</h3>
+CTC ↔︎ PTC Nativo (FRA 49 CFR 236) (Material Rodante)</h3>
 <ul>
 <li><strong>Descripción:</strong> Interfaz para el envío de
 Autorizaciones de Movimiento (MA) y la recepción de la posición exacta
@@ -391,7 +391,7 @@ y/o TETRA/LTE.</li>
 Técnico)</strong> Se asume PTC Nivel 2. La definición final está
 bloqueada por el Apéndice Técnico 3.</li>
 <li><strong>Riesgo Asociado:</strong> <strong>R-TEC-001</strong>. La
-indefinición del estándar ITCS es un riesgo crítico. Se diseña una
+indefinición del estándar PTC Nativo (FRA 49 CFR 236) es un riesgo crítico. Se diseña una
 interfaz modular para mitigar el impacto.</li>
 </ul>
 <h3
@@ -407,7 +407,7 @@ múltiples subsistemas.</li>
 <li><strong>Composición del Bloque:</strong>
 <ul>
 <li><strong>Gateways industriales:</strong> Conversión de protocolos CTC
-↔︎ ITCS/PTC L2 ↔︎ FENOCO</li>
+↔︎ PTC Nativo (FRA 49 CFR 236)/PTC L2 ↔︎ FENOCO</li>
 <li><strong>Switches de borde ferroviario:</strong> Segmentación de red
 para subsistemas</li>
 <li><strong>Firewalls IEC 62443:</strong> Ciberseguridad industrial
@@ -419,8 +419,8 @@ interfaces</li>
 </ul></li>
 <li><strong>Interfaces que soporta:</strong>
 <ul>
-<li>CTC ↔︎ ITCS/PTC Nivel 2 (intercambio telegramas, datos ocupación vía
-RBC)</li>
+<li>CTC ↔︎ PTC Nativo (FRA 49 CFR 236)/PTC Nivel 2 (intercambio telegramas, datos ocupación vía
+Servidor PTC Central)</li>
 <li>CTC ↔︎ FENOCO (Gateway FRA/AREMA, protocolo 918-4)</li>
 <li>CTC ↔︎ TETRA (canal voz/datos comunicaciones tren-tierra)</li>
 <li>CTC ↔︎ Fibra Óptica (backbone redundante N+1 del corredor)</li>

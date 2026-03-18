@@ -138,8 +138,8 @@
 |:-----------|:---------|:----------|:-------|
 | **CTC Application Layer** | Control de tráfico, señalización, seguridad, monitoreo | Aplicación | ✅ Implementado |
 | **CTC Communication Layer** | Protocolo, seguridad, cola mensajes, red | FFFIS | ✅ Implementado |
-| **RBC Communication Layer** | Red, cola mensajes, seguridad, protocolo | FFFIS | ✅ Implementado |
-| **RBC Application Layer** | Autorización movimiento, supervisión tren, seguridad | Aplicación | ✅ Implementado |
+| **Servidor PTC Central Communication Layer** | Red, cola mensajes, seguridad, protocolo | FFFIS | ✅ Implementado |
+| **Servidor PTC Central Application Layer** | Autorización movimiento, supervisión tren, seguridad | Aplicación | ✅ Implementado |
 
 ### **3.2 Puntos de Conexión con FENOCO**
 

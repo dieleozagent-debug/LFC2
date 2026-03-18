@@ -31,15 +31,15 @@
 #### ❌ CRITERIO MAESTRO:
 - **Señalización:** VIRTUAL (CTC + PTC embarcado)
 - **Virtual Balise (GNSS)s:** 0 unidades
-- **Señales LED vía:** 0 unidades
-- **RBC:** 0 unidades
+- **Señalización en Cabina (Cab-Signaling) vía:** 0 unidades
+- **Servidor PTC Central:** 0 unidades
 
 #### 🔴 DOCUMENTOS DESALINEADOS (18):
 
 | # | Documento | Desalineación | Impacto | Prioridad |
 |:--|:----------|:--------------|:--------|:----------|
 | 1 | V.1_Señalización_Ferroviaria_Detalle | 1,080 eurobalises + 270 señales LED | 🔴 CRÍTICO | 1 |
-| 2 | VII.2.1_PTC_PTC VIRTUAL_Especificaciones | Arquitectura PTC Virtual (FRA 236) con RBC | 🔴 CRÍTICO | 1 |
+| 2 | VII.2.1_PTC_PTC VIRTUAL_Especificaciones | Arquitectura PTC Virtual (FRA 236) con Servidor PTC Central | 🔴 CRÍTICO | 1 |
 | 3 | 29_Sistema_Señalización_Integrado | Virtual Balise (GNSS)s + Señales físicas | 🔴 CRÍTICO | 1 |
 | 4 | V.2_Centro_Control_Trafico_CTC | CTC como secundario (no principal) | 🔴 CRÍTICO | 1 |
 | 5 | 25.1_WBS_COMPLETA_ESPECIALIDADES | Capítulos eurobalises y señales LED | 🔴 CRÍTICO | 1 |
@@ -154,7 +154,7 @@
 | 14 | V.1_Señalización_Ferroviaria_Detalle.md | 🔴 REESCRITURA COMPLETA (90% nuevo) | 12h | 🔴 |
 | 15 | V.2_Centro_Control_Trafico_CTC.md | Ampliar significativamente (CTC principal) | 8h | 🔴 |
 | 16 | V.3_Sistemas_Comunicacion_Detalle.md | Actualizar TETRA + Agregar RED TETRA (Misión Crítica) completo | 8h | 🔴 |
-| 17 | VII.2.1_PTC_PTC VIRTUAL_Especificaciones.md | Cambiar arquitectura (PTC embarcado sin RBC) | 10h | 🔴 |
+| 17 | VII.2.1_PTC_PTC VIRTUAL_Especificaciones.md | Cambiar arquitectura (PTC embarcado sin Servidor PTC Central) | 10h | 🔴 |
 
 **Subtotal Capa 4:** 38 horas (5 días)
 
@@ -214,8 +214,8 @@
 ### CRITERIOS MAESTROS A APLICAR:
 - [ ] Señalización: Virtual (CTC + PTC embarcado)
 - [ ] Virtual Balise (GNSS)s: 0 unidades
-- [ ] Señales LED vía: 0 unidades
-- [ ] RBC: 0 unidades
+- [ ] Señalización en Cabina (Cab-Signaling) vía: 0 unidades
+- [ ] Servidor PTC Central: 0 unidades
 - [ ] TETRA: 37 estaciones
 - [ ] RED TETRA (Misión Crítica): 37 estaciones (agregar)
 - [ ] EOT: 15 dispositivos (agregar)

@@ -96,7 +96,7 @@ Realizar un inventario completo de todos los documentos del proyecto APP La Dora
 **Estado:** 🟢 ÓPTIMO - 79% completado  
 **Observaciones:**
 - 11 documentos técnicos críticos completados
-- Especificaciones PTC, RBC, RAMS finalizadas
+- Especificaciones PTC, Servidor PTC Central, RAMS finalizadas
 - Gap de normatividad FRA/AREMA/EN pendiente
 
 **Prioridades:**

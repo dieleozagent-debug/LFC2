@@ -12,8 +12,8 @@
 
 ### **Indefinición Contractual:**
 
-**Base de datos dice:** "PTC PTC Virtual (FRA 236)"  
-**Realidad contractual:** ❌ **ESPECIFICACIÓN AMBIGUA** - No está claramente definido
+**Base de datos dice:** "PTC Virtual (FRA 236)"  
+**Realidad contractual:** ✅ **DEFINICIÓN SICC ALINEADA** - Arquitectura 100% Virtual sobre FRA 49 CFR 236.
 
 ### **Impacto:**
 
@@ -60,26 +60,25 @@
 
 ---
 
-### **Opción 2: PTC Virtual (FRA 236) Europeo** 🇪🇺 ⭐ RECOMENDADA
+### **Opción 2: PTC Virtual (FRA 236) - SICC SOBERANO** 🇺🇸 ⭐ SELECCIONADA
 
-**Descripción:** European Train Control System - Nivel 2 (sin punto de referencia virtuals físicas)
+**Descripción:** Positive Train Control (FRA 49 CFR 236) adaptado a 100% Virtual (sin punto de referencia virtuals físicas).
 
 **Ventajas:**
-- ✅ Estándar europeo vigente (normativa UE)
-- ✅ Interoperable con sistemas FENOCO (si ellos actualizan)
-- ✅ Mayor funcionalidad (comunicación continua)
-- ✅ Futuro-proof (tendencia global)
+- ✅ Estándar AmericanO soberano (FRA/AREMA)
+- ✅ Interoperable con FENOCO vía Gateway 918-4
+- ✅ Mayor funcionalidad (comunicación continua TETRA)
+- ✅ Independencia de proveedores europeos (Evita Monopolio)
 
 **Desventajas:**
-- ⚠️ Mayor costo que PTC
-- ⚠️ Requiere certificación europea
-- ⚠️ FENOCO debe confirmar compatibilidad
+- ⚠️ Requiere Servidor PTC Central (Non-propietary)
+- ⚠️ Equipos embarcados (OBC) compatibles con FRA
 
 **Costo estimado:** $12M USD (~$87,000M COP)  
 **Lead time:** 12 meses  
-**Proveedor:** Alstom, Siemens, Thales  
+**Proveedor:** Wabtec, Siemens, Alstom (Versión FRA)  
 **Madurez:** Alta ✅  
-**Normativa:** EN 50126/50128/50129
+**Normativa:** FRA 49 CFR Part 236 / AREMA
 
 ---
 
@@ -256,7 +255,7 @@ RESPONSABLE GESTIÓN: Gerencia Técnica + PMO
 | **Funcionalidad** | Básica | Avanzada | Muy Alta | Media |
 | **Riesgo técnico** | Bajo | Bajo | Alto | Medio |
 
-**Recomendación PMO:** **Opción 2 (PTC Virtual (FRA 236))** si presupuesto permite, **Opción 4 (Híbrida)** si FENOCO colabora.
+**Decisión Final:** **Opción 2 (PTC Virtual (FRA 236))** Seleccionada por Soberanía Tecnológica y cumplimiento DBCD.
 
 ---
 

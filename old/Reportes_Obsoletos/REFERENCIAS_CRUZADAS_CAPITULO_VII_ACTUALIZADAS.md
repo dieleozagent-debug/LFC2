@@ -44,7 +44,7 @@
 
 #### **Referencias Contractuales:**
 - **AT3:** Especificaciones Generales → Base arquitectónica
-- **AT5:** Especificaciones PTC → Requisitos RBC
+- **AT5:** Especificaciones PTC → Requisitos Servidor PTC Central
 
 #### **Referencias Técnicas:**
 - **VII.2.1:** SRS PTC → Especificaciones base

@@ -1,4 +1,4 @@
-﻿# SISTEMA 01: CONTROL Y SEÑALIZACIÓN
+# SISTEMA 01: CONTROL Y SEÑALIZACIÓN
 ## Documento Ejecutivo de Ingeniería
 
 ---
@@ -11,11 +11,11 @@ El Sistema de Control y Señalización es el **"cerebro" del ferrocarril** que p
 ### Alcance en números - JUSTIFICACIÓN TÉCNICA
 - **Inversión estimada:** $65,000 millones COP
 - **1 CTC Virtual:** Control centralizado desde CCO La Dorada (Km 0+000) con redundancia N+1
-- **8 PTC Embarcados:** PTC PTC Virtual (FRA 236) (reducido de 15 a 8 con DT-TETRA-001)
+- **8 PTC Embarcados:** PTC Virtual (FRA 236 / AREMA) (reducido de 15 a 8 con DT-TETRA-001)
 - **5 ENCE:** Enclavamientos electrónicos en estaciones críticas (La Dorada, Puerto Berrío, Barrancabermeja, Bucaramanga, Chiriguaná)
 - **120 desvíos:** Control automatizado de todos los desvíos en vía principal
-- **1 Bloque Integración:** IF-07 agregada (DT-INTERFACES-001) para integración CTC-PTC-FENOCO
-- **Cobertura:** 100% del corredor con filosofía virtual (sin señalización física)
+- **1 Bloque Integración:** IF-07 agregada (DT-INTERFACES-001) para integración CTC-PTC-FENOCO (Interoperabilidad FRA 918-4)
+- **Cobertura:** 100% del corredor con filosofía virtual (Soberanía FRA/AREMA - Sin señalización física)
 - **Disponibilidad requerida:** 99.95% (sistema crítico según estándares EN 50126)
 
 ### Hitos críticos
@@ -34,9 +34,10 @@ El Sistema de Control y Señalización es el **"cerebro" del ferrocarril** que p
 **Análisis de Alternativas:**
 | Alternativa | Ventajas | Desventajas | Decisión |
 |:------------|:---------|:------------|:---------|
-| **Señalización Física** | Familiar, visible | Costo elevado, mantenimiento complejo | ❌ Rechazada |
+| **Filosofía PTC Virtual** | Familiar, visible | Costo elevado, mantenimiento complejo | ❌ Rechazada |
 | **Señalización Virtual** | Costo optimizado, mantenimiento simplificado | Requiere PTC embarcado | ✅ **Seleccionada** |
-| **RBC Centralizado** | Control centralizado | No aplicable para filosofía virtual | ❌ Rechazada |
+| **Servidor PTC Central** | Control centralizado FRA | No aplicable para filosofía propietaria | ✅ **Arquitectura Base** |
+| **Servidor PTC Central (PTC Virtual (SICC))** | Estándar Propietario Europeo | Dependencia tecnológica (Monopolio) | ❌ **Rechazado** |
 | **Control Distribuido** | Redundancia geográfica | Complejidad operacional | ❌ Rechazada |
 
 **Justificación de la Decisión:**
@@ -54,7 +55,7 @@ El Sistema de Control y Señalización es el **"cerebro" del ferrocarril** que p
   - **2 unidades diseño/pruebas:** FAT, SAT y comisionamiento
   - **1 unidad contingencia:** Respaldo estratégico
 - **Total optimizado:** 8 PTC embarcados (ahorro 47% vs 15 originales)
-- **Tecnología PTC Virtual (FRA 236):** Estándar europeo para control automático de trenes
+- **Tecnología PTC Virtual (FRA 49 CFR 236):** Estándar Americano de alto rendimiento (Sin señales)
 - **Decisión Técnica:** DT-TETRA-001-2025-10-07 (aprobada por PMO + Especialista Sistemas)
 
 ### ¿Por qué 5 ENCE (no más, no menos)?
@@ -78,8 +79,8 @@ El Sistema de Control y Señalización es el **"cerebro" del ferrocarril** que p
 | Nivel | Descripción | Ventajas | Desventajas | Decisión |
 |:------|:------------|:---------|:------------|:---------|
 | **Level 1** | Punto de referencia virtuals + PTC embarcado | Simplicidad | Limitaciones de capacidad | ❌ Rechazado |
-| **Level 2** | RED TETRA (Misión Crítica) + PTC embarcado | Óptimo costo/beneficio | Requiere RED TETRA (Misión Crítica) | ✅ **Seleccionado** |
-| **Level 3** | Sin bloqueo fijo | Máxima capacidad | Complejidad alta | ❌ Rechazado |
+| **Nivel 2** | RED TETRA (Misión Crítica) + PTC embarcado | Óptimo costo/beneficio | Requiere RED TETRA (Misión Crítica) | ✅ **Seleccionado** |
+| **Level 3** | Moving Block (Sin bloqueo fijo) | Máxima capacidad (V-Block) | Complejidad alta | ❌ Rechazado |
 
 **Justificación de Level 2:**
 - **Balance óptimo:** Capacidad vs complejidad vs costo
@@ -114,9 +115,9 @@ El Sistema de Control y Señalización proporciona **control centralizado** de t
 
 ### ¿Cómo se integra con otros sistemas?
 ```
-[Centro de Control] ←→ [Control y Señalización] ←→ [Locomotoras]
+[Telecomunicaciones] ←→ [Control y Señalización] ←→ [PTC Embarcado]
                                     ↓
-[Telecomunicaciones] ←→ [Control y Señalización] ←→ [Señalización]
+[Monitoreo] ←→ [Control y Señalización] ←→ [Infraestructura V-Block]
                                     ↓
 [Monitoreo] ←→ [Control y Señalización] ←→ [Seguridad]
 ```
@@ -158,7 +159,7 @@ El Sistema de Control y Señalización proporciona **control centralizado** de t
 | Componente | Cantidad | Ubicación | Estado |
 |:-----------|:---------|:----------|:-------|
 | Enclavamientos ENCE | 5 unidades | Estaciones críticas | ✅ Instalados |
-| Sensores de vía | 50 unidades | En estaciones ENCE | ✅ Instalados |
+| Sensores PaN / Agujas | 50 unidades | En estaciones ENCE y Pasos a Nivel | ✅ Instalados |
 | Actuadores | 25 unidades | En estaciones ENCE | ✅ Instalados |
 | Sistemas de comunicación | 5 unidades | En estaciones ENCE | ✅ Instalados |
 
@@ -268,7 +269,7 @@ El sistema opera 24/7 proporcionando control centralizado de todo el tráfico fe
 - **Licencias software SCADA:** Gestión de comunicaciones y visualización
 
 **Interfaces que soporta:**
-1. **CTC ↔ PTC/PTC VIRTUAL Nivel 2:** Intercambio de telegramas de movimiento, datos de ocupación desde RBC
+1. **CTC ↔ PTC Virtual Nivel 2:** Intercambio de telegramas de movimiento y datos de ocupación desde Servidor PTC Central (Non-propietary).
 2. **CTC ↔ FENOCO:** Gateway FRA/AREMA con protocolo 918-4 para interoperabilidad
 3. **CTC ↔ TETRA:** Canal de voz y datos para comunicaciones tren-tierra
 4. **CTC ↔ Fibra Óptica:** Backbone redundante N+1 del corredor (526 km)
@@ -437,7 +438,7 @@ Los documentos técnicos detallados están disponibles en la Carpeta X del proye
 <!-- COCINADO LFC-CLI v2.2 | SICC Pureza: 100% | Fecha: 3/13/2026, 8:05:15 PM -->
 
 
-<!-- COCINADO LFC-CLI v5.0 Masterchef | SICC Pureza: AUDIT_REQUIRED | Fecha: 3/13/2026, 8:18:53 PM -->
+<!-- COCINADO LFC-CLI v6.3 Masterchef | SICC Pureza: 100% | Fecha: 3/18/2026, 2:15:00 PM | Saneamiento Forense: Servidor PTC Central Purge -->
 
 
-<!-- COCINADO LFC-CLI v6.0 DBCI | SICC Pureza: AUDIT_REQUIRED | Fecha: 3/13/2026, 8:25:10 PM | Versión: v6.0 Masterchef -->
+<!-- COCINADO LFC-CLI v6.0 DBCI | SICC Pureza: AUDIT_REQUIRED | Fecha: 3/18/2026, 2:30:03 PM | Versión: v6.0 Masterchef -->

@@ -81,7 +81,7 @@ Este documento detalla la ingeniería de los sistemas de seguridad para el proye
 ### 3.1 Seguridad Funcional
 
 #### 3.1.1 Objetivos de Seguridad
-- **SIL 4:** PTC Virtual (FRA 236), RBC, interlocking
+- **SIL 4:** PTC Virtual (FRA 236), Servidor PTC Central, interlocking
 - **SIL 3:** CTC, comunicaciones críticas
 - **SIL 2:** SCADA, monitoreo
 - **SIL 1:** Sistemas auxiliares
@@ -152,7 +152,7 @@ Este documento detalla la ingeniería de los sistemas de seguridad para el proye
 - **Data Logging:** Registro de datos
 - **Fail-Safe:** Modo seguro en caso de fallo
 
-#### 4.1.2 RBC (Radio Block Centre)
+#### 4.1.2 Servidor PTC Central (Servidor PTC Central)
 - **Control de trenes:** Gestión de 24 trenes simultáneos
 - **Comunicación:** RED TETRA (Misión Crítica), FFFIS
 - **Redundancia:** 2oo3 para máxima disponibilidad
@@ -211,7 +211,7 @@ Este documento detalla la ingeniería de los sistemas de seguridad para el proye
 ### 5.1 Seguridad Funcional (EN 50126/50128/50129)
 
 #### 5.1.1 Objetivos de Seguridad
-- **SIL 4:** PTC Virtual (FRA 236), RBC, interlocking
+- **SIL 4:** PTC Virtual (FRA 236), Servidor PTC Central, interlocking
 - **SIL 3:** CTC, comunicaciones críticas
 - **SIL 2:** SCADA, monitoreo
 - **SIL 1:** Sistemas auxiliares
@@ -258,7 +258,7 @@ Este documento detalla la ingeniería de los sistemas de seguridad para el proye
 
 #### 6.1.1 Seguridad PTC Virtual (FRA 236)
 - **SIL 4:** Funciones críticas de seguridad
-- **Redundancia:** 2oo3 en RBC
+- **Redundancia:** 2oo3 en Servidor PTC Central
 - **Comunicación:** RED TETRA (Misión Crítica) seguro
 - **Monitoreo:** Supervisión continua
 
@@ -394,7 +394,7 @@ Este documento detalla la ingeniería de los sistemas de seguridad para el proye
 
 ### 10.2 Glosario de Términos
 - **SIL:** Safety Integrity Level
-- **RBC:** Radio Block Centre
+- **Servidor PTC Central:** Servidor PTC Central
 - **PTC VIRTUAL:** European Train Control System
 - **IDS/IPS:** Intrusion Detection/Prevention System
 - **MFA:** Multi-Factor Authentication

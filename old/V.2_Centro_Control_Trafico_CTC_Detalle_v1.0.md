@@ -149,14 +149,14 @@ Este documento detalla la ingeniería del Centro de Control de Tráfico (CTC) pa
 - **Eventos:** Intercambio de eventos críticos
 
 #### 4.2.2 Interfaces FFFIS
-- **IF-001:** Estado de trenes (RBC → CTC)
-- **IF-002:** Autorización de rutas (CTC → RBC)
-- **IF-003:** Señales y enclavamientos (CTC → RBC)
-- **IF-004:** Alarmas y eventos (RBC → CTC)
-- **IF-005:** Comandos de emergencia (CTC → RBC)
-- **IF-006:** Estado del sistema (RBC → CTC)
-- **IF-007:** Configuración (CTC → RBC)
-- **IF-008:** Logs y trazabilidad (RBC → CTC)
+- **IF-001:** Estado de trenes (Servidor PTC Central → CTC)
+- **IF-002:** Autorización de rutas (CTC → Servidor PTC Central)
+- **IF-003:** Señales y enclavamientos (CTC → Servidor PTC Central)
+- **IF-004:** Alarmas y eventos (Servidor PTC Central → CTC)
+- **IF-005:** Comandos de emergencia (CTC → Servidor PTC Central)
+- **IF-006:** Estado del sistema (Servidor PTC Central → CTC)
+- **IF-007:** Configuración (CTC → Servidor PTC Central)
+- **IF-008:** Logs y trazabilidad (Servidor PTC Central → CTC)
 
 ### 4.3 Gestión de Emergencias
 
@@ -366,7 +366,7 @@ Este documento detalla la ingeniería del Centro de Control de Tráfico (CTC) pa
 - **CTC:** Centro de Control de Tráfico
 - **PTC:** Integrated Train Control System
 - **FFFIS:** Form Fit Function Interface Specification
-- **RBC:** Radio Block Centre
+- **Servidor PTC Central:** Servidor PTC Central
 - **SIL:** Safety Integrity Level
 - **MTBF:** Mean Time Between Failures
 - **MTTR:** Mean Time To Repair

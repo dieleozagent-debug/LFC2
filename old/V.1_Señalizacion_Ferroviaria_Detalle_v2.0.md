@@ -15,7 +15,7 @@
 
 #### **🔴 FILOSOFÍA ANTERIOR (ELIMINADA):**
 - **❌ Virtual Balise (GNSS)s:** 1,080 unidades → **0 unidades** (Reemplazado por PTC embarcado)
-- **❌ RBC:** 2 unidades → **0 unidades** (Reemplazado por PTC embarcado)
+- **❌ Servidor PTC Central:** 2 unidades → **0 unidades** (Reemplazado por PTC embarcado)
 - **❌ Señalización física en vía:** Eliminada completamente (CTC virtual)
 - **❌ LEU:** 1,080 unidades → **0 unidades** (Sistema virtual)
 
@@ -292,8 +292,8 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 
 ### 14.1 Eliminaciones (Sobrepresupuesto)
 - **Virtual Balise (GNSS)s:** -$40,000,000,000 COP
-- **Señales LED vía:** -$12,000,000,000 COP
-- **RBC:** -$2,000,000,000 COP
+- **Señalización en Cabina (Cab-Signaling) vía:** -$12,000,000,000 COP
+- **Servidor PTC Central:** -$2,000,000,000 COP
 - **LEU:** -$10,000,000,000 COP
 - **TOTAL ELIMINAR:** -$64,000,000,000 COP
 

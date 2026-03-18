@@ -32,8 +32,8 @@ El sistema utiliza tres procesadores independientes que ejecutan la misma lógic
 
 ---
 
-## 3. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE RBC/PTC VIRTUAL)
-- ✅ **ELIMINADO:** Término "RBC" (Radio Block Centre) por ser terminología PTC VIRTUAL.
+## 3. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE Servidor PTC Central/PTC VIRTUAL)
+- ✅ **ELIMINADO:** Término "Servidor PTC Central" (Servidor PTC Central) por ser terminología PTC VIRTUAL.
 - ✅ **ELIMINADO:** Interfaces de Virtual Balise (GNSS)s (sustituidas por GNSS Vital).
 - ✅ **ELIMINADO:** Soporte para protocolos FFFIS (sustituidos por Vital IP).
 - ✅ **ADOPTADO:** Estándar **PTC Virtual** compatible con operación en EE.UU.

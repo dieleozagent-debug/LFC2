@@ -31,25 +31,27 @@ const LFC_DBCI = {
         GNSS: "Nodos GNSS (SICC)"
     },
     
-    // BLACKLIST LEGACY (Lo que NO puede existir)
+    // BLACKLIST LEGACY (Lo que NO puede existir - SACC)
     LEGACY_BLACKLIST: [
-        "PTC Nativo (FRA 236)", "PTC Nativo", "PTC Nativo", "Red de Comunicaciones Vital IP", "EUROBALIZA", "EUROBALISE", "FRA/AREMA", "EN 50126",
+        "EUROBALIZA", "EUROBALISE", "RBC", "RADIO BLOCK CENTRE", "ETCS", "ERTMS", "ASFA",
+        "RED TETRA MISION CRITICA", "TETRA Misión Crítica",
         "CATENARIA", "TRACCIÓN ELÉCTRICA", "TRACCION ELECTRICA", "25 KV", "3 KV", "60 HZ",
-        "PANTÓGRAFO", "PANTOGRAFO", "SUBESTACIÓN DE TRACCIÓN", "RBC", "RADIO BLOCK CENTRE"
+        "PANTÓGRAFO", "PANTOGRAFO", "SUBESTACIÓN DE TRACCIÓN", "SUBESTACION DE TRACCION",
+        "ITCS", "Interlocking Propietario", "Señales LED", "Señalización Lateral"
     ],
 
-    // MAPEO DE CORRECCIÓN DETERMINISTA (Manual del Chef)
+    // MAPEO DE CORRECCIÓN DETERMINISTA (Manual del Chef - Purity by Design)
     CORRECTION_MAP: {
-        "PTC Nativo (FRA 236)": "PTC Nativo (FRA 236)",
-        "Red de Comunicaciones Vital IP": "Red de Comunicaciones Vital IP",
-        "Tracción Diesel-Eléctrica": "Tracción Diesel-Eléctrica",
-        "Infraestructura Diesel": "Infraestructura Diesel",
-        "PTC Nativo": "PTC Nativo",
-        "PTC Nativo": "PTC Nativo",
-        "FRA/AREMA": "FRA/AREMA",
-        "Nodos GNSS (SICC)": "Nodos GNSS (SICC)",
-        "579 km (526 km + 10% Gasa)": "579 km (526 km + 10% Gasa)",
-        "579km": "579km"
+        "RBC": "Servidor PTC Central",
+        "Radio Block Centre": "Servidor PTC Central",
+        "Eurobaliza": "Nodos GNSS (SICC)",
+        "Eurobalise": "Nodos GNSS (SICC)",
+        "Señalización Física": "Filosofía PTC Virtual",
+        "Señales LED": "Señalización en Cabina (Cab-Signaling)",
+        "ITCS": "PTC Nativo (FRA 49 CFR 236)",
+        "RED TETRA Misión Crítica": "Red Vital IP / TETRA",
+        "ETCS": "PTC Virtual (SICC)",
+        "ERTMS": "PTC Virtual (SICC)"
     },
 
     FINANCIAL: {

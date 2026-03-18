@@ -48,8 +48,8 @@
 | **RED TETRA (Misión Crítica)** | 37 estaciones | 37 estaciones | ✅ 100% |
 | **Señalización** | Virtual (CTC + PTC) | Virtual (CTC + PTC) | ✅ 100% |
 | **Virtual Balise (GNSS)s** | 0 unidades | 0 unidades | ✅ 100% |
-| **Señales LED** | 0 unidades | 0 unidades | ✅ 100% |
-| **RBC** | 0 unidades | 0 unidades | ✅ 100% |
+| **Señalización en Cabina (Cab-Signaling)** | 0 unidades | 0 unidades | ✅ 100% |
+| **Servidor PTC Central** | 0 unidades | 0 unidades | ✅ 100% |
 | **EOT** | 15 dispositivos | 15 dispositivos | ✅ 100% |
 | **ENCE** | 5 estaciones | 5 estaciones | ✅ 100% |
 | **Desvíos** | 120 total | 120 total | ✅ 100% |

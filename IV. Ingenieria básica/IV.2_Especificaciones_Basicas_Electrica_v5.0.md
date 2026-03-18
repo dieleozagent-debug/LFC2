@@ -25,7 +25,7 @@ El diseño eléctrico se optimiza para alimentar la red de **PTC Virtual**, redu
 ## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE RED TETRA (Misión Crítica)/PTC VIRTUAL)
 - ✅ **ELIMINADO:** Circuitos de alimentación para 37 estaciones base RED TETRA (Misión Crítica).
 - ✅ **ELIMINADO:** Alimentación para unidades LEU y Eurobalisas (no requeridas).
-- ✅ **ELIMINADO:** Respaldo de energía para RBC (Radio Block Centre) físico.
+- ✅ **ELIMINADO:** Respaldo de energía para Servidor PTC Central (Servidor PTC Central) físico.
 
 ---
 

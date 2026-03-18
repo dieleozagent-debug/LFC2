@@ -17,7 +17,7 @@ Este documento reemplaza las antiguas especificaciones de PTC/PTC VIRTUAL para c
 
 ### 1.2 Protocolo de Mensajería Vital:
 - **Protocolo:** **Vital IP** sobre red TETRA de misión crítica.
-- **Seguridad:** Encriptación de extremo a extremo (Tren a Servidor Maestro) sin intermediarios propietarios (RBC).
+- **Seguridad:** Encriptación de extremo a extremo (Tren a Servidor Maestro) sin intermediarios propietarios (Servidor PTC Central).
 
 ---
 
@@ -26,7 +26,7 @@ Este documento reemplaza las antiguas especificaciones de PTC/PTC VIRTUAL para c
 Se han corregido los siguientes desvíos críticos:
 - ✅ **ELIMINADO:** Requerimiento de "Virtual Balise (GNSS)s" para calibración de odometría. Se utiliza GNSS Multibanda + IMU.
 - ✅ **ELIMINADO:** Referencias a "STM" (Specific Transmission Modules). El sistema es nativo IP.
-- ✅ **ELIMINADO:** Arquitectura "RBC" europea. Se adopta el **Servidor Maestro PTC 2oo3**.
+- ✅ **ELIMINADO:** Arquitectura "Servidor PTC Central" europea. Se adopta el **Servidor Maestro PTC 2oo3**.
 - ✅ **ELIMINADO:** Protocolo FFFIS (UNISIG). Se institucionaliza la interfaz abierta Vital IP.
 
 ---

@@ -149,7 +149,7 @@
 | Componente | Especificación | Cantidad | Observaciones |
 |:-----------|:---------------|:--------:|:--------------|
 | **Computadora Principal** | Siemens S7-400, SIL 4 | 2 por locomotora | Redundancia 2oo3 |
-| **Módulo RED TETRA (Misión Crítica)** | Siemens RED TETRA (Misión Crítica) | 2 por locomotora | Comunicación RBC |
+| **Módulo RED TETRA (Misión Crítica)** | Siemens RED TETRA (Misión Crítica) | 2 por locomotora | Comunicación Servidor PTC Central |
 | **Antena Virtual Balise (GNSS)** | FRA/AREMA estándar | 4 por locomotora | Lectura punto de referencia virtuals |
 | **Pantalla Conductor** | TFT 12" | 2 por locomotora | DMI SIL 3 |
 | **UPS Embarcado** | 24V DC | 2 por locomotora | Respaldo energía |
@@ -230,7 +230,7 @@
 |:-------|:---------|:---:|:---------|
 | **STM** | Supervisión de tren | SIL 4 | FRA/AREMA 438 |
 | **DMI** | Interfaz conductor | SIL 3 | EN 50128 |
-| **RBC Interface** | Comunicación RBC | SIL 4 | FRA/AREMA 920-2 |
+| **Servidor PTC Central Interface** | Comunicación Servidor PTC Central | SIL 4 | FRA/AREMA 920-2 |
 | **Virtual Balise (GNSS)** | Lectura punto de referencia virtuals | SIL 4 | FRA/AREMA 438 |
 
 ---

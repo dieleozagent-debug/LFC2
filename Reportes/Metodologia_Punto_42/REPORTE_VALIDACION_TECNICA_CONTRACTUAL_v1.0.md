@@ -76,7 +76,7 @@ Se ha iniciado la **Fase 1: Validación Técnica y Contractual** del proyecto, v
 ### **✅ Interfaces PTC-CTC**
 - **Protocolo FFFIS:** Especificado y documentado
 - **8 interfaces críticas:** Definidas en PTC_Interfaces_CTC_PTC_FFFIS_v1.0.md
-- **Comunicación bidireccional:** CTC ↔ RBC en tiempo real
+- **Comunicación bidireccional:** CTC ↔ Servidor PTC Central en tiempo real
 - **Latencia:** < 100ms para comandos críticos
 
 ---

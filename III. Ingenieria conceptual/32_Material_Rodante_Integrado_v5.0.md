@@ -19,7 +19,7 @@ Este documento define las especificaciones del material rodante (15 locomotoras)
 ---
 
 ## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE PTC/RED TETRA (Misión Crítica))
-- ✅ **ELIMINADO:** Referencias a PTC Virtual (FRA 236) y RBC.
+- ✅ **ELIMINADO:** Referencias a PTC Virtual (FRA 236) y Servidor PTC Central.
 - ✅ **ELIMINADO:** Módulo STM (sustituido por OBC PTC).
 - ✅ **ELIMINADO:** Radio RED TETRA (Misión Crítica) (estándar obsoleto para esta arquitectura).
 - ✅ **ELIMINADO:** Antenas de Virtual Balise (GNSS)s.
@@ -44,7 +44,7 @@ Este documento define las especificaciones del material rodante (15 locomotoras)
 |:---|:---:|:---:|
 | **Locomotoras** | 15 | SANEADO |
 | **Virtual Balise (GNSS)s** | 0 | SANEADO |
-| **RBC (PTC VIRTUAL)** | 0 | SANEADO |
+| **Servidor PTC Central (PTC VIRTUAL)** | 0 | SANEADO |
 | **RED TETRA (Misión Crítica)** | 0 | SANEADO |
 | **Vital PTC Server**| 1 (2oo3) | SANEADO |
 

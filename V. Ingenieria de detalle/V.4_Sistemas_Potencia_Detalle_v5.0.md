@@ -12,7 +12,7 @@
 La ingeniería de potencia se redimensiona para soportar exclusivamente la infraestructura de **PTC Virtual** y la red unificada **TETRA**, eliminando el sobrecosto de alimentar sistemas redundantes obsoletos.
 
 ### 1.1 Centros de Potencia (CCO y Estaciones):
-- **CCO La Dorada:** Alimentación redundante para el Servidor Maestro PTC y el video-muro. Se elimina la carga dedicada a servidores RBC.
+- **CCO La Dorada:** Alimentación redundante para el Servidor Maestro PTC y el video-muro. Se elimina la carga dedicada a servidores Servidor PTC Central.
 - **Estaciones ENCE (5):** Alimentación vital para controladores de enclavamiento IP.
 - **Torres TETRA (37):** Unificación de la carga eléctrica. Se elimina el requerimiento de potencia para el hardware RED TETRA (Misión Crítica) colocalizado.
 
@@ -26,7 +26,7 @@ La ingeniería de potencia se redimensiona para soportar exclusivamente la infra
 
 Se han corregido los siguientes desvíos técnicos de la v5.0:
 - ✅ **ELIMINADO:** Dimensionamiento de transformadores para 37 estaciones RED TETRA (Misión Crítica).
-- ✅ **ELIMINADO:** Alimentación para "Virtual Balise (GNSS)s y Señales LED" (Hardware inexistente en PTC Virtual).
+- ✅ **ELIMINADO:** Alimentación para "Virtual Balise (GNSS)s y Señalización en Cabina (Cab-Signaling)" (Hardware inexistente en PTC Virtual).
 - ✅ **ELIMINADO:** Matriz de impacto presupuestal que mantenía vivo el concepto "RED TETRA (Misión Crítica)".
 - ✅ **OPTIMIZADO:** El CAPEX se reduce al simplificar tableros eléctricos y protecciones de las torres de comunicación.
 

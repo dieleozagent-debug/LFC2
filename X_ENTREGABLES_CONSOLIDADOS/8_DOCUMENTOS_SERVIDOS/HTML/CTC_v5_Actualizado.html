@@ -535,7 +535,7 @@ v1.0</strong>.</p>
 <td style="text-align: center;"><strong>v1.0</strong></td>
 <td style="text-align: center;">Oct-2025</td>
 <td style="text-align: left;">Ing. Contractual</td>
-<td style="text-align: left;">Versión inicial con ITCS/RBC</td>
+<td style="text-align: left;">Versión inicial con PTC Nativo (FRA 49 CFR 236)/Servidor PTC Central</td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>v2.0</strong></td>
@@ -606,7 +606,7 @@ detalle) - <strong>V.X_Enclavamientos_ENCE_Detalle.md</strong> ⏳ (ENCE
 detalle)</p>
 <p><strong>Interfaces Críticas:</strong> - <strong>AT2, Capítulos III y
 VI</strong> - Operación y mantenimiento - <strong>AT3, Capítulo
-VIII</strong> - Especificaciones tecnológicas y PTC/ITCS - <strong>AT4,
+VIII</strong> - Especificaciones tecnológicas y PTC/PTC Nativo (FRA 49 CFR 236) - <strong>AT4,
 Capítulos 3-6</strong> - Indicadores de disponibilidad</p>
 <hr />
 <h2 id="verificación-de-coherencia-técnica-nuevo">2. ✅ VERIFICACIÓN DE
@@ -660,13 +660,13 @@ Criterios Maestros</h3>
 <td style="text-align: left;">✅ 100%</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Señales LED</strong></td>
+<td style="text-align: left;"><strong>Señalización en Cabina (Cab-Signaling)</strong></td>
 <td style="text-align: left;">0 unidades</td>
 <td style="text-align: left;">0 unidades</td>
 <td style="text-align: left;">✅ 100%</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>RBC</strong></td>
+<td style="text-align: left;"><strong>Servidor PTC Central</strong></td>
 <td style="text-align: left;">0 unidades</td>
 <td style="text-align: left;">0 unidades</td>
 <td style="text-align: left;">✅ 100%</td>
@@ -707,8 +707,8 @@ Criterios Maestros</h3>
 <p><strong>✅ NINGUNA DESALINEACIÓN DETECTADA</strong> - Documento 100%
 coherente con criterios maestros.</p>
 <h3 id="componentes-a-eliminar">2.3 Componentes a Eliminar</h3>
-<p><strong>✅ YA ELIMINADOS EN v4.0:</strong> - ❌ RBC (2 unidades) - ❌
-Interfaces eurobalises - ❌ Interfaces señales físicas - ❌ ITCS PTC
+<p><strong>✅ YA ELIMINADOS EN v4.0:</strong> - ❌ Servidor PTC Central (2 unidades) - ❌
+Interfaces eurobalises - ❌ Interfaces señales físicas - ❌ PTC Nativo (FRA 49 CFR 236) PTC
 Level 2 tradicional</p>
 <h3 id="componentes-a-agregar">2.4 Componentes a Agregar</h3>
 <p><strong>✅ YA AGREGADOS EN v4.0:</strong> - ✅ CTC como sistema
@@ -766,7 +766,7 @@ detalle)</li>
 <h3 id="interfaces-críticas">3.3 Interfaces Críticas</h3>
 <ul>
 <li><strong>CTC Virtual ↔︎ PTC Embarcado:</strong> Comunicación directa
-sin RBC</li>
+sin Servidor PTC Central</li>
 <li><strong>CTC Virtual ↔︎ ENCE:</strong> Control de 5 enclavamientos
 electrónicos</li>
 <li><strong>CTC Virtual ↔︎ TETRA + TETRA/LTE:</strong> Comunicaciones
@@ -913,7 +913,7 @@ Dorada-México</td>
 Principal</strong></h4>
 <p><strong>Funcionalidades:</strong> - Control centralizado del tráfico
 ferroviario - Gestión unificada desde CCO La Dorada - Comunicación
-directa con PTC embarcado - Eliminación de intermediarios (RBC)</p>
+directa con PTC embarcado - Eliminación de intermediarios (Servidor PTC Central)</p>
 <p><strong>Componentes:</strong> - Servidores CTC virtuales - Estaciones
 de trabajo - Interfaces de comunicación - Sistemas de respaldo</p>
 <h4 id="interfaces-atp-embarcado"><strong>4.2.2 Interfaces PTC
@@ -938,7 +938,7 @@ Centralizado</strong></h4>
 <p><strong>Filosofía Virtual:</strong> - <strong>CTC
 centralizado</strong> como sistema principal - <strong>PTC
 embarcado</strong> sin infraestructura física - <strong>Comunicación
-directa</strong> sin RBC - <strong>Eliminación de
+directa</strong> sin Servidor PTC Central - <strong>Eliminación de
 intermediarios</strong></p>
 <h4 id="ence-5-estaciones"><strong>4.3.2 ENCE (5
 Estaciones)</strong></h4>
@@ -1011,8 +1011,8 @@ de Coherencia Técnica</strong></h4>
 <li>✅ <strong>TETRA/LTE:</strong> 37 estaciones ✓</li>
 <li>✅ <strong>Señalización:</strong> Virtual (CTC + PTC) ✓</li>
 <li>✅ <strong>Eurobalises:</strong> 0 unidades ✓</li>
-<li>✅ <strong>Señales LED:</strong> 0 unidades ✓</li>
-<li>✅ <strong>RBC:</strong> 0 unidades ✓</li>
+<li>✅ <strong>Señalización en Cabina (Cab-Signaling):</strong> 0 unidades ✓</li>
+<li>✅ <strong>Servidor PTC Central:</strong> 0 unidades ✓</li>
 <li>✅ <strong>EOT:</strong> 15 dispositivos ✓</li>
 <li>✅ <strong>ENCE:</strong> 5 estaciones ✓</li>
 <li>✅ <strong>Desvíos:</strong> 120 total ✓</li>
@@ -1087,7 +1087,7 @@ trabajo, interfaces PTC, comunicaciones TETRA+TETRA/LTE</li>
 <li><strong>Cobertura:</strong> 526.133 km de vía, 5 estaciones ENCE,
 146 pasos a nivel</li>
 <li><strong>Capacidad:</strong> Hasta 15 trenes simultáneos (sin
-limitación RBC)</li>
+limitación Servidor PTC Central)</li>
 </ul>
 <h3 id="objetivos-del-sistema-virtual">7.2 Objetivos del Sistema
 Virtual</h3>
@@ -1130,7 +1130,7 @@ Virtual</h3>
 └─────────────────────────────────────────────────────────────┘
                               │
                               │ Comunicación Directa
-                              │ (Sin RBC/Eurobalises)
+                              │ (Sin Servidor PTC Central/Eurobalises)
                               ▼
 ┌─────────────────────────────────────────────────────────────┐
 │                    PTC EMBARCADO (15 LOCOMOTORAS)           │
@@ -1151,7 +1151,7 @@ del CTC virtual</li>
 <li><strong>Servidor Secundario:</strong> Redundancia y respaldo del
 sistema virtual</li>
 <li><strong>Servidor Backup:</strong> Continuidad operacional sin
-RBC</li>
+Servidor PTC Central</li>
 <li><strong>Arquitectura:</strong> 2oo3 (2 de 3) para máxima
 disponibilidad virtual</li>
 </ul>
@@ -1171,7 +1171,7 @@ virtual</li>
 Comunicación Virtual</h4>
 <ul>
 <li><strong>Interface PTC:</strong> Comunicación directa con PTC
-embarcado (sin RBC)</li>
+embarcado (sin Servidor PTC Central)</li>
 <li><strong>Interface ENCE:</strong> Control de 5 enclavamientos
 electrónicos</li>
 <li><strong>Interface Comunicación:</strong> Enlaces TETRA + TETRA/LTE con
@@ -1224,7 +1224,7 @@ puertos)</li>
 Virtual</h4>
 <ul>
 <li><strong>CTC Virtual Core:</strong> Sistema propietario Grupo Ortiz
-(sin RBC)</li>
+(sin Servidor PTC Central)</li>
 <li><strong>Base de Datos:</strong> PostgreSQL 13</li>
 <li><strong>Middleware:</strong> RabbitMQ 3.9</li>
 <li><strong>Monitoreo:</strong> Zabbix 5.4</li>
@@ -1232,7 +1232,7 @@ Virtual</h4>
 <h4 id="interfaces-virtuales">9.2.3 Interfaces Virtuales</h4>
 <ul>
 <li><strong>PTC Interface:</strong> Protocolo directo CTC-PTC (sin FFFIS
-RBC)</li>
+Servidor PTC Central)</li>
 <li><strong>ENCE Interface:</strong> Control directo de
 enclavamientos</li>
 <li><strong>Comunicación:</strong> TETRA + TETRA/LTE v8.0 (37
@@ -1248,7 +1248,7 @@ Virtuales</h4>
 <li><strong>Planificación Virtual:</strong> Rutas automáticas sin
 eurobalises</li>
 <li><strong>Optimización Virtual:</strong> Algoritmos de optimización
-sin RBC</li>
+sin Servidor PTC Central</li>
 <li><strong>Conflictos Virtuales:</strong> Detección y resolución
 automática</li>
 <li><strong>Prioridades Virtuales:</strong> Gestión de prioridades de
@@ -1355,7 +1355,7 @@ COMUNICACIONES VIRTUALES</h2>
 <h4 id="protocolo-directo-ctc-atp">12.1.1 Protocolo Directo CTC-PTC</h4>
 <ul>
 <li><strong>Comunicación Bidireccional:</strong> CTC ↔︎ PTC (sin
-RBC)</li>
+Servidor PTC Central)</li>
 <li><strong>Tiempo Real:</strong> Latencia &lt; 100ms</li>
 <li><strong>Redundancia:</strong> TETRA + TETRA/LTE (37 estaciones)</li>
 <li><strong>Seguridad:</strong> Cifrado end-to-end</li>
@@ -1386,7 +1386,7 @@ vital</li>
 </ul>
 <h4 id="control-ctc-ence">12.2.2 Control CTC-ENCE</h4>
 <ul>
-<li><strong>Control Directo:</strong> CTC → ENCE (sin RBC)</li>
+<li><strong>Control Directo:</strong> CTC → ENCE (sin Servidor PTC Central)</li>
 <li><strong>Estado en Tiempo Real:</strong> ENCE → CTC</li>
 <li><strong>Redundancia:</strong> Comunicación redundante</li>
 <li><strong>Seguridad:</strong> SIL 4 en funciones críticas</li>
@@ -1423,10 +1423,10 @@ integración con FENOCO - <strong>Licencias software SCADA:</strong>
 Gestión de comunicaciones y visualización de interfaces</p>
 <h4 id="interfaces-que-soporta">12.4.2 Interfaces que Soporta</h4>
 <ol type="1">
-<li><strong>CTC ↔︎ ITCS/PTC Nivel 2</strong>
+<li><strong>CTC ↔︎ PTC Nativo (FRA 49 CFR 236)/PTC Nivel 2</strong>
 <ul>
 <li>Intercambio de telegramas de movimiento</li>
-<li>Datos de ocupación de vía desde RBC</li>
+<li>Datos de ocupación de vía desde Servidor PTC Central</li>
 <li>Autorizaciones de Movimiento (MA)</li>
 </ul></li>
 <li><strong>CTC ↔︎ FENOCO (Interoperabilidad)</strong>
@@ -1555,7 +1555,7 @@ virtual</li>
 <h4 id="pruebas-de-integración-virtual">14.2.1 Pruebas de Integración
 Virtual</h4>
 <ul>
-<li><strong>CTC-PTC:</strong> Integración directa sin RBC</li>
+<li><strong>CTC-PTC:</strong> Integración directa sin Servidor PTC Central</li>
 <li><strong>CTC-ENCE:</strong> Integración con enclavamientos</li>
 <li><strong>CTC-EOT:</strong> Integración con End of Train</li>
 <li><strong>Comunicaciones:</strong> TETRA + TETRA/LTE</li>
@@ -1682,9 +1682,9 @@ CTC VIRTUAL</h2>
 <h3 id="eliminaciones-sobrepresupuesto">19.1 Eliminaciones
 (Sobrepresupuesto)</h3>
 <ul>
-<li><strong>RBC:</strong> -$2,000,000,000 COP</li>
+<li><strong>Servidor PTC Central:</strong> -$2,000,000,000 COP</li>
 <li><strong>Eurobalises:</strong> -$40,000,000,000 COP</li>
-<li><strong>Señales LED vía:</strong> -$12,000,000,000 COP</li>
+<li><strong>Señalización en Cabina (Cab-Signaling) vía:</strong> -$12,000,000,000 COP</li>
 <li><strong>LEU:</strong> -$10,000,000,000 COP</li>
 <li><strong>TOTAL ELIMINAR:</strong> -$64,000,000,000 COP</li>
 </ul>
@@ -1704,7 +1704,7 @@ CTC VIRTUAL</h2>
 <h3 id="control-de-cambios-implementados">20.1 Control de Cambios
 Implementados</h3>
 <p><strong>Cambios implementados:</strong> - ✅ Eliminación completa de
-RBC (2 unidades) - ✅ Eliminación completa de interfaces eurobalises -
+Servidor PTC Central (2 unidades) - ✅ Eliminación completa de interfaces eurobalises -
 ✅ Eliminación completa de interfaces señales físicas - ✅
 Implementación de CTC como sistema principal - ✅ Implementación de
 interfaces PTC embarcado - ✅ Implementación de interfaces ENCE (5

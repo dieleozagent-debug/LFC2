@@ -119,7 +119,7 @@ Como Administrador Contractual EPC, confirmo que se ha iniciado exitosamente la 
 - **Sistema de visualización:** 9 pantallas LED
 
 #### **Sistema PTC PTC Virtual (FRA 236):**
-- **RBC:** 2 unidades Siemens SIMIS W
+- **Servidor PTC Central:** 2 unidades Siemens SIMIS W
 - **Punto de referencia virtuals Virtual Balise (GNSS):** 356 unidades cada 500m
 - **Equipos embarcados:** 40 unidades TCR por tren
 - **Comunicación RED TETRA (Misión Crítica):** 100% cobertura

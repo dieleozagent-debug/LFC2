@@ -27,7 +27,7 @@ Tras el proceso de saneamiento recursivo, se han resuelto las siguientes indefin
 ---
 
 ## 2. AUDITORÍA FINAL DE SOBERANÍA
-- **Hardware Eliminado:** Virtual Balise (GNSS)s, Señales LED, Circuitos de vía, Antenas RED TETRA (Misión Crítica).
+- **Hardware Eliminado:** Virtual Balise (GNSS)s, Señalización en Cabina (Cab-Signaling), Circuitos de vía, Antenas RED TETRA (Misión Crítica).
 - **Protocolos Adoptados:** Vital IP, V-Blocks (Bloqueo Virtual).
 - **Cumplimiento Contractual:** Alineado con los Apéndices Técnicos bajo la interpretación de **Soberanía Tecnológica**.
 

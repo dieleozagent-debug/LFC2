@@ -59,13 +59,13 @@ Como **Especialista Senior en Control de Trenes** con experiencia en proyectos f
 ##### **1.2 ARQUITECTURA DEL SISTEMA**
 ```
 ⚠️ PROBLEMA TÉCNICO: Arquitectura de control incompleta
-- RBC (Radio Block Center): 🔄 **EN ESPECIFICACIÓN**
+- Servidor PTC Central (Radio Block Center): 🔄 **EN ESPECIFICACIÓN**
 - Interfaces Virtual Balise (GNSS): 🔄 **EN DESARROLLO**
 - STM (Specific Transmission Module): ⏳ **PENDIENTE**
 ```
 
 **Vacíos Arquitectónicos:**
-- **RBC Redundancy:** 🔄 **EN ESPECIFICACIÓN** - N+1 vs. 2oo3 en desarrollo
+- **Servidor PTC Central Redundancy:** 🔄 **EN ESPECIFICACIÓN** - N+1 vs. 2oo3 en desarrollo
 - **Virtual Balise (GNSS) Deployment:** 🔄 **EN DESARROLLO** - Plan de ubicación e instalación
 - **On-board Integration:** ⏳ **PENDIENTE** - Integración con locomotoras existentes
 - **Fallback Modes:** ⏳ **PENDIENTE** - Modos de degradación no documentados
@@ -82,7 +82,7 @@ Como **Especialista Senior en Control de Trenes** con experiencia en proyectos f
 
 ##### **Acción Inmediata (1-2 semanas):** 🔄 **EN PROGRESO**
 1. **Desarrollar SRS Provisional** basado en EN 50126/50128/50129 ✅ **INICIADO**
-2. **Especificar arquitectura RBC** con redundancia 2oo3 ✅ **INICIADO**
+2. **Especificar arquitectura Servidor PTC Central** con redundancia 2oo3 ✅ **INICIADO**
 3. **Definir plan de Virtual Balise (GNSS)** (ubicación cada 150m en aproximaciones) ✅ **INICIADO**
 4. **Establecer interfaces CTC-PTC** usando protocolo FFFIS ✅ **INICIADO**
 

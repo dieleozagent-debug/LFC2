@@ -49,8 +49,8 @@ Este documento de soporte consolida el inventario maestro de todos los sistemas 
 
 #### **🔴 ELIMINACIONES MASIVAS (Según Criterios Maestros):**
 - **❌ Virtual Balise (GNSS)s:** 1,080 unidades → **0 unidades** (Señalización virtual implementada)
-- **❌ Señales LED en vía:** 270 unidades → **0 unidades** (CTC virtual centralizado)
-- **❌ RBC - Radio Block Centre:** 2 unidades → **0 unidades** (PTC embarcado)
+- **❌ Señalización en Cabina (Cab-Signaling) en vía:** 270 unidades → **0 unidades** (CTC virtual centralizado)
+- **❌ Servidor PTC Central - Servidor PTC Central:** 2 unidades → **0 unidades** (PTC embarcado)
 - **❌ LEU - Lineside Electronic Units:** 1,080 unidades → **0 unidades** (Sistema PTC embarcado)
 
 #### **🆕 IMPLEMENTACIONES NUEVAS (Según Criterios Maestros):**
@@ -104,10 +104,10 @@ Este documento consolida el Listado Maestro de Sistemas que el EPC debe implemen
 - **Desvíos manuales:** 95 unidades (operación manual)
 - **Disponibilidad:** 99.95% según AT4
 
-#### **❌ ELIMINADO: Señalización Física en Vía**
+#### **❌ ELIMINADO: Filosofía PTC Virtual en Vía**
 - **Virtual Balise (GNSS)s:** 1,080 unidades → **0 unidades** (Reemplazado por PTC embarcado)
-- **Señales LED en vía:** 270 unidades → **0 unidades** (Reemplazado por CTC virtual)
-- **RBC:** 2 unidades → **0 unidades** (Reemplazado por PTC embarcado)
+- **Señalización en Cabina (Cab-Signaling) en vía:** 270 unidades → **0 unidades** (Reemplazado por CTC virtual)
+- **Servidor PTC Central:** 2 unidades → **0 unidades** (Reemplazado por PTC embarcado)
 - **LEU:** 1,080 unidades → **0 unidades** (Reemplazado por PTC embarcado)
 
 ---
@@ -237,8 +237,8 @@ Cada sistema listado cumple con los siguientes criterios:
 
 ### **3.1 Eliminaciones (Sobrepresupuesto)**
 - **Virtual Balise (GNSS)s:** -$40,000,000,000 COP
-- **Señales LED vía:** -$12,000,000,000 COP
-- **RBC:** -$2,000,000,000 COP
+- **Señalización en Cabina (Cab-Signaling) vía:** -$12,000,000,000 COP
+- **Servidor PTC Central:** -$2,000,000,000 COP
 - **LEU:** -$10,000,000,000 COP
 - **TOTAL ELIMINAR:** -$64,000,000,000 COP
 

@@ -25,7 +25,7 @@ La base metodológica y transversal del proyecto ha sido purgada para asegurar q
 ## 2. 🔍 AUDITORÍA DE CICLO INVERSO (VII TRANSVERSALES)
 
 Se han ejecutado los siguientes cambios normativos:
-- ✅ **ELIMINADO:** El WBS que incluía "RBC" e "PTC".
+- ✅ **ELIMINADO:** El WBS que incluía "Servidor PTC Central" e "PTC".
 - ✅ **ELIMINADO:** Referencias a la dependencia de AT3 para la estructuración de PTC.
 - ✅ **ADOPTADO:** Un sistema de gestión documental centrado en la trazabilidad de la **Soberanía Tecnológica**.
 

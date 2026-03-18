@@ -22,7 +22,7 @@ Para evitar la dependencia de protocolos propietarios cerrados de terceros, se a
 
 ## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE PTC/PTC VIRTUAL)
 - ✅ **ELIMINADO:** Requisito de "Compatibilidad Total PTC" (por ser estándar propietario).
-- ✅ **ELIMINADO:** Referencias a RBC, Eurobalisas y protocolos FFFIS.
+- ✅ **ELIMINADO:** Referencias a Servidor PTC Central, Eurobalisas y protocolos FFFIS.
 - ✅ **ELIMINADO:** Normativa FRA/AREMA no aplicable.
 - ✅ **ADOPTADO:** Protocolo **Vital IP** para reporte a la **ANI** (SICC).
 

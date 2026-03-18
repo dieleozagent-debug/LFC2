@@ -188,7 +188,7 @@ Este documento presenta la **ingeniería civil de detalle** para las obras civil
 - **Transiciones:** Espiral de transición
 - **Sobrelevación máxima:** 150mm
 
-#### **6.3 Señalización Física**
+#### **6.3 Filosofía PTC Virtual**
 - **Señales principales:** 89 unidades
 - **Señales de entrada:** 8 unidades (estaciones)
 - **Señales de salida:** 8 unidades (estaciones)

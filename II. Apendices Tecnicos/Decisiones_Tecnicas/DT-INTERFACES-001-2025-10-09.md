@@ -28,7 +28,7 @@ En la ingeniería precargada del sistema CTC–PTC, el ítem 1.1.106 “Interfac
 
 Conecta el CTC (Control Centralizado de Tráfico) con:
 
-PTC / PTC VIRTUAL Nivel 2: intercambio de telegramas y datos de ocupación vía RBC.
+PTC / PTC VIRTUAL Nivel 2: intercambio de telegramas y datos de ocupación vía Servidor PTC Central.
 
 FENOCO: interoperabilidad mediante Gateway FRA/AREMA y protocolo 918–4.
 
@@ -78,7 +78,7 @@ En la ingeniería precargada del sistema CTC–PTC, el ítem 1.1.106 “Interfac
 
 Conecta el CTC (Control Centralizado de Tráfico) con:
 
-PTC / PTC VIRTUAL Nivel 2: intercambio de telegramas y datos de ocupación vía RBC.
+PTC / PTC VIRTUAL Nivel 2: intercambio de telegramas y datos de ocupación vía Servidor PTC Central.
 
 FENOCO: interoperabilidad mediante Gateway FRA/AREMA y protocolo 918–4.
 
@@ -141,7 +141,7 @@ En la ingeniería precargada del sistema CTC–PTC, el ítem 1.1.106 “Interfac
 
 Conecta el CTC (Control Centralizado de Tráfico) con:
 
-PTC / PTC VIRTUAL Nivel 2: intercambio de telegramas y datos de ocupación vía RBC.
+PTC / PTC VIRTUAL Nivel 2: intercambio de telegramas y datos de ocupación vía Servidor PTC Central.
 
 FENOCO: interoperabilidad mediante Gateway FRA/AREMA y protocolo 918–4.
 

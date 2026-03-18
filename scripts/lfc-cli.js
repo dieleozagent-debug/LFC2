@@ -355,13 +355,15 @@ function purify() {
     log("\n🧼 PURIFY - Saneamiento Sistémico v5.0 (ADN Pureza por Diseño)\n", colors.cyan);
     
     const extensiones = ['.md', '.html', '.js', '.json'];
-    const carpetasIgnorar = ['node_modules', '.git', 'bin'];
+    const carpetasIgnorar = ['node_modules', '.git', 'bin', 'scripts'];
+    const archivosIgnorar = ['lfc-terminology.js'];
 
     function walkthrough(dir) {
         const files = fs.readdirSync(dir);
         files.forEach(file => {
             const fullPath = path.join(dir, file);
             if (carpetasIgnorar.some(ignore => fullPath.includes(ignore))) return;
+            if (archivosIgnorar.includes(file)) return;
 
             const stat = fs.statSync(fullPath);
             if (stat.isDirectory()) {
@@ -426,7 +428,27 @@ function serve() {
             postProcessHtml(path.join(carpetaHTML, baseName + '.html'), baseName);
             log(`  💎 HTML Premium y Word generados exitosamente`, colors.green);
         } catch (e) {
-            log(`  ❌ Error en Pandoc para ${file}: ${e.message}`, colors.red);
+            log(`  ⚠️ PANDOC INFRASTRUCTURE ERROR: ${e.message}`, colors.red);
+            log(`  🔄 ACTIVANDO SAFE-COOK (Fallback HTML Generator v1.0)...`, colors.yellow);
+            
+            // Generador de Respaldo: Markdown a HTML Básico (Sin Pandoc)
+            const md = fs.readFileSync(fullPath, 'utf8');
+            let htmlSafe = md
+                .replace(/^# (.*$)/gim, '<h1>$1</h1>')
+                .replace(/^## (.*$)/gim, '<h2>$1</h2>')
+                .replace(/^### (.*$)/gim, '<h3>$1</h3>')
+                .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                .replace(/\|/g, '&nbsp;|&nbsp;') // Tablas mínimas
+                .replace(/\n/g, '<br>');
+
+            const templatePath = path.join(REPO_ROOT, 'scripts/templates/premium-shell.html');
+            let finalHtml = fs.existsSync(templatePath) ? fs.readFileSync(templatePath, 'utf8') : '<html><body>{{content}}</body></html>';
+            finalHtml = finalHtml.replace('$body$', htmlSafe).replace('{{content}}', htmlSafe);
+
+            const outPath = path.join(carpetaHTML, baseName + '.html');
+            fs.writeFileSync(outPath, finalHtml, 'utf8');
+            postProcessHtml(outPath, baseName);
+            log(`  ✅ Safe-Cooker: HTML generado (DOCX no disponible por fallo de infraestructura)`, colors.green);
         }
     });
 

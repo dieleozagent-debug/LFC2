@@ -24,7 +24,7 @@
                       ],
     "ruta_critica":  [
                          "M12: Aprobación ANI",
-                         "M13: Orden PTC/ITCS (12m) + Fibra (9m)",
+                         "M13: Orden PTC/PTC Nativo (FRA 49 CFR 236) (12m) + Fibra (9m)",
                          "M18: Edificio CCO (EXT-01)",
                          "M20: Material Rodante (EXT-02)",
                          "M22: Fibra llega",
@@ -114,7 +114,7 @@
                                                 {
                                                     "meses_buffer":  3,
                                                     "probabilidad":  60,
-                                                    "riesgo":  "Retraso PTC/ITCS (12m lead)"
+                                                    "riesgo":  "Retraso PTC/PTC Nativo (FRA 49 CFR 236) (12m lead)"
                                                 },
                                                 {
                                                     "meses_buffer":  2,
@@ -174,7 +174,7 @@
                   },
                   {
                       "id":  "H7",
-                      "nombre":  "PTC/ITCS en Sitio",
+                      "nombre":  "PTC/PTC Nativo (FRA 49 CFR 236) en Sitio",
                       "responsable":  "Proveedor",
                       "mes":  25,
                       "tipo":  "Proveedor",
@@ -257,7 +257,7 @@
                   },
                   {
                       "id":  "F5",
-                      "descripcion":  "PTC/ITCS, ITS, Embarcados. Requiere MR M20.",
+                      "descripcion":  "PTC/PTC Nativo (FRA 49 CFR 236), ITS, Embarcados. Requiere MR M20.",
                       "nombre":  "INSTALACION SECUNDARIA",
                       "mes_inicio":  25,
                       "duracion_meses":  10,

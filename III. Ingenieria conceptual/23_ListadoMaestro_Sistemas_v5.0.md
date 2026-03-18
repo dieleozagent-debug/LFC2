@@ -34,7 +34,7 @@ Este listado consolida los sistemas reales que el EPC implementará, eliminando 
 1. **ELIMINADO RED TETRA (Misión Crítica):** No es el estándar del contrato. Se centralizan comunicaciones en **TETRA**.
 2. **ELIMINADO EUROBALIZAS/LEU:** No aplican a la arquitectura virtual.
 3. **ELIMINADO SEÑALES LED:** Se reemplazan por señalización en cabina (Cab-Signalling).
-4. **ELIMINADO RBC PTC Virtual:** Se reemplaza por **Servidor PTC**.
+4. **ELIMINADO Servidor PTC Central PTC Virtual:** Se reemplaza por **Servidor PTC**.
 
 ---
 

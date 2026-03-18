@@ -29,9 +29,9 @@ Se ha detectado una **desalineación crítica** entre los **Criterios Técnicos 
 
 | Documento | Criterio Afectado | Desviación | Impacto Presupuestal | Esfuerzo | Estado |
 |:----------|:------------------|:-----------|:---------------------|:---------|:------:|
-| **WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná.html** | Virtual Balise (GNSS)s + Señales LED + RBC | 1,080 + 270 + 2 unidades | -$54,000,000,000 | Alto | ⏳ Pendiente |
+| **WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná.html** | Virtual Balise (GNSS)s + Señalización en Cabina (Cab-Signaling) + Servidor PTC Central | 1,080 + 270 + 2 unidades | -$54,000,000,000 | Alto | ⏳ Pendiente |
 | **V.1_Señalizacion_Ferroviaria_Detalle_v1.0.md** | Filosofía señalización | Física → Virtual | -$64,000,000,000 | Alto | ⏳ Pendiente |
-| **V.2_Centro_Control_Trafico_CTC_Detalle_v1.0.md** | Arquitectura CTC | RBC eliminado | -$2,000,000,000 | Alto | ⏳ Pendiente |
+| **V.2_Centro_Control_Trafico_CTC_Detalle_v1.0.md** | Arquitectura CTC | Servidor PTC Central eliminado | -$2,000,000,000 | Alto | ⏳ Pendiente |
 | **V.3_Sistemas_Comunicacion_Detalle_v1.0.md** | TETRA + RED TETRA (Misión Crítica) | 33→37 + Agregar 37 | +$1,484,000,000 | Alto | ⏳ Pendiente |
 | **VII.2.1_SRS_PTC_PTC VIRTUAL_Level2_v1.0.md** | Arquitectura PTC | PTC Virtual (FRA 236) → PTC embarcado | -$40,000,000,000 | Alto | ⏳ Pendiente |
 | **VII.2.3_Plan_Virtual Balise (GNSS)_Ubicacion_150m.md** | Virtual Balise (GNSS)s | 1,080 → 0 unidades | -$40,000,000,000 | Alto | ⏳ Pendiente |
@@ -42,7 +42,7 @@ Se ha detectado una **desalineación crítica** entre los **Criterios Técnicos 
 | **23_ListadoMaestro_Sistemas.md** | Inventario sistemas | Múltiples cambios | -$50,193,000,000 | Alto | ⏳ Pendiente |
 | **25.1_WBS_COMPLETA_ESPECIALIDADES.md** | Estructura WBS | Reestructuración | -$50,193,000,000 | Alto | ⏳ Pendiente |
 | **VII.2.6_Interlocking_Tables_5_Estaciones.md** | ENCE | NO → 5 estaciones | +$6,020,000,000 | Alto | ⏳ Pendiente |
-| **VII.2.4_Interfaces_CTC_PTC_Protocolo_FFFIS.md** | Interfaces | RBC eliminado | -$2,000,000,000 | Alto | ⏳ Pendiente |
+| **VII.2.4_Interfaces_CTC_PTC_Protocolo_FFFIS.md** | Interfaces | Servidor PTC Central eliminado | -$2,000,000,000 | Alto | ⏳ Pendiente |
 | **VII.2.7_Especificaciones_STM_Embarcadas.md** | STM embarcado | PTC VIRTUAL → PTC | -$40,000,000,000 | Alto | ⏳ Pendiente |
 
 ### **🟡 DOCUMENTOS MEDIOS (Prioridad 2 - Impacto Medio)**
@@ -52,8 +52,8 @@ Se ha detectado una **desalineación crítica** entre los **Criterios Técnicos 
 | **28_Sistema_FibraOptica_Integrado.md** | Cantidades fibra | 526 → 526 km | +$6,800,000,000 | Medio | ⏳ Pendiente |
 | **31_Sistema_CCTV_Integrado.md** | Cantidades CCTV | 110-180 → 73 cámaras | -$2,000,000,000 | Medio | ⏳ Pendiente |
 | **30_Sistema_ITS_Integrado.md** | Sistemas ITS | Actualización | Sin impacto | Medio | ⏳ Pendiente |
-| **26_Sistema_CTC_Integrado.md** | Arquitectura CTC | RBC eliminado | -$2,000,000,000 | Medio | ⏳ Pendiente |
-| **VII.2.8_Arquitectura_Software_CTC.md** | Software CTC | RBC eliminado | -$2,000,000,000 | Medio | ⏳ Pendiente |
+| **26_Sistema_CTC_Integrado.md** | Arquitectura CTC | Servidor PTC Central eliminado | -$2,000,000,000 | Medio | ⏳ Pendiente |
+| **VII.2.8_Arquitectura_Software_CTC.md** | Software CTC | Servidor PTC Central eliminado | -$2,000,000,000 | Medio | ⏳ Pendiente |
 | **VII.2.9_Analisis_RAMS_EN50126.md** | Análisis RAMS | PTC VIRTUAL → PTC | Sin impacto | Medio | ⏳ Pendiente |
 | **VII.2.10_Plan_Verificacion_Validacion_Completo.md** | Plan V&V | PTC VIRTUAL → PTC | Sin impacto | Medio | ⏳ Pendiente |
 | **VII.2.11_Cybersecurity_IEC62443.md** | Ciberseguridad | PTC VIRTUAL → PTC | Sin impacto | Medio | ⏳ Pendiente |
@@ -85,7 +85,7 @@ Se ha detectado una **desalineación crítica** entre los **Criterios Técnicos 
 - **Acción requerida:** Eliminación completa de todas las referencias
 - **Justificación:** CTC virtual centralizado
 
-#### **3. RBC - RADIO BLOCK CENTRE (2 unidades → 0 unidades)**
+#### **3. Servidor PTC Central - RADIO BLOCK CENTRE (2 unidades → 0 unidades)**
 - **Impacto:** -$2,000,000,000 COP
 - **Documentos afectados:** 5 documentos
 - **Acción requerida:** Eliminación completa de todas las referencias

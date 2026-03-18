@@ -108,9 +108,9 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 
 | Alternativa | Descripción | Decisión | Justificación |
 |:------------|:------------|:---------|:--------------|
-| **Señalización Física** | Señales LED en vía | ❌ Rechazada | Costo elevado, mantenimiento complejo |
+| **Filosofía PTC Virtual** | Señalización en Cabina (Cab-Signaling) en vía | ❌ Rechazada | Costo elevado, mantenimiento complejo |
 | **Señalización Virtual** | CTC + PTC embarcado | ✅ Seleccionada | Costo optimizado, mantenimiento simplificado |
-| **RBC Centralizado** | Radio Block Center | ❌ Rechazada | No aplicable para filosofía virtual |
+| **Servidor PTC Central Centralizado** | Radio Block Center | ❌ Rechazada | No aplicable para filosofía virtual |
 | **Control Distribuido** | Múltiples CTCs | ❌ Rechazada | Complejidad operacional |
 
 ---

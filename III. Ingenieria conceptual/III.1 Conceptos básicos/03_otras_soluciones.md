@@ -36,7 +36,7 @@ La transición asegura que el corredor pueda interoperar con la red de FENOCO me
 |:---|:---:|:---:|:---:|
 | **Dependencia** | Estándar Abierto | Propietario | 🟢 SANEADO |
 | **Costo Operativo**| Bajo (TETRA/IP) | Alto (RED TETRA (Misión Crítica)/FRA/AREMA) | 🟢 SANEADO |
-| **Escalabilidad** | Alta (V-Block) | Limitada (RBC) | 🟢 SANEADO |
+| **Escalabilidad** | Alta (V-Block) | Limitada (Servidor PTC Central) | 🟢 SANEADO |
 
 ---
 

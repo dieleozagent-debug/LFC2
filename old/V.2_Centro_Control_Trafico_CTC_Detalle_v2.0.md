@@ -14,14 +14,14 @@
 ### **📋 CAMBIO DE PARADIGMA COMPLETO:**
 
 #### **🔴 FILOSOFÍA ANTERIOR (ELIMINADA):**
-- **❌ PTC PTC Virtual (FRA 236):** Sistema tradicional con RBC → **0 unidades** (Reemplazado por PTC embarcado)
-- **❌ RBC (Radio Block Centre):** 2 unidades → **0 unidades** (Reemplazado por CTC virtual)
-- **❌ Comunicación RBC-CTC:** Interfaces FFFIS tradicionales → **Sistema virtual directo**
+- **❌ PTC PTC Virtual (FRA 236):** Sistema tradicional con Servidor PTC Central → **0 unidades** (Reemplazado por PTC embarcado)
+- **❌ Servidor PTC Central (Servidor PTC Central):** 2 unidades → **0 unidades** (Reemplazado por CTC virtual)
+- **❌ Comunicación Servidor PTC Central-CTC:** Interfaces FFFIS tradicionales → **Sistema virtual directo**
 - **❌ Virtual Balise (GNSS)s:** 1,080 unidades → **0 unidades** (Reemplazado por PTC embarcado)
 
 #### **✅ FILOSOFÍA NUEVA (IMPLEMENTADA):**
 - **✅ CTC Virtual Centralizado:** Centro de control único en La Dorada
-- **✅ PTC Embarcado:** Sistema en 15 locomotoras (sin RBC)
+- **✅ PTC Embarcado:** Sistema en 15 locomotoras (sin Servidor PTC Central)
 - **✅ Comunicación Directa:** CTC ↔ PTC (sin intermediarios)
 - **✅ Display Virtual:** Señalización en cabina del maquinista
 
@@ -35,7 +35,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 - **Sistema principal:** Centro de Control de Tráfico Virtual
 - **Componentes:** Servidores virtuales, estaciones de trabajo, interfaces PTC, comunicaciones TETRA+RED TETRA (Misión Crítica)
 - **Cobertura:** 526.133 km de vía, 5 estaciones ENCE, 146 pasos a nivel
-- **Capacidad:** Hasta 15 trenes simultáneos (sin limitación RBC)
+- **Capacidad:** Hasta 15 trenes simultáneos (sin limitación Servidor PTC Central)
 
 ### 1.2 Objetivos del Sistema Virtual
 - **Control centralizado:** Gestión unificada del tráfico ferroviario desde CCO La Dorada
@@ -73,7 +73,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 └─────────────────────────────────────────────────────────────┘
                               │
                               │ Comunicación Directa
-                              │ (Sin RBC/Virtual Balise (GNSS)s)
+                              │ (Sin Servidor PTC Central/Virtual Balise (GNSS)s)
                               ▼
 ┌─────────────────────────────────────────────────────────────┐
 │                    PTC EMBARCADO (15 LOCOMOTORAS)           │
@@ -91,7 +91,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 #### 2.2.1 Servidores de Control Virtual
 - **Servidor Principal:** Procesamiento en tiempo real del CTC virtual
 - **Servidor Secundario:** Redundancia y respaldo del sistema virtual
-- **Servidor Backup:** Continuidad operacional sin RBC
+- **Servidor Backup:** Continuidad operacional sin Servidor PTC Central
 - **Arquitectura:** 2oo3 (2 de 3) para máxima disponibilidad virtual
 
 #### 2.2.2 Estaciones de Trabajo Virtual
@@ -101,7 +101,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 - **Estación Emergencia:** Control de contingencias virtual
 
 #### 2.2.3 Interfaces de Comunicación Virtual
-- **Interface PTC:** Comunicación directa con PTC embarcado (sin RBC)
+- **Interface PTC:** Comunicación directa con PTC embarcado (sin Servidor PTC Central)
 - **Interface ENCE:** Control de 5 enclavamientos electrónicos
 - **Interface Comunicación:** Enlaces TETRA + RED TETRA (Misión Crítica) con trenes
 
@@ -142,13 +142,13 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 - **Actualizaciones:** Automáticas con validación
 
 #### 3.2.2 Software de Control Virtual
-- **CTC Virtual Core:** Sistema propietario Grupo Ortiz (sin RBC)
+- **CTC Virtual Core:** Sistema propietario Grupo Ortiz (sin Servidor PTC Central)
 - **Base de Datos:** PostgreSQL 13
 - **Middleware:** RabbitMQ 3.9
 - **Monitoreo:** Zabbix 5.4
 
 #### 3.2.3 Interfaces Virtuales
-- **PTC Interface:** Protocolo directo CTC-PTC (sin FFFIS RBC)
+- **PTC Interface:** Protocolo directo CTC-PTC (sin FFFIS Servidor PTC Central)
 - **ENCE Interface:** Control directo de enclavamientos
 - **Comunicación:** TETRA + RED TETRA (Misión Crítica) v8.0 (37 estaciones)
 
@@ -160,7 +160,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 
 #### 4.1.1 Gestión de Rutas Virtuales
 - **Planificación Virtual:** Rutas automáticas sin eurobalises
-- **Optimización Virtual:** Algoritmos de optimización sin RBC
+- **Optimización Virtual:** Algoritmos de optimización sin Servidor PTC Central
 - **Conflictos Virtuales:** Detección y resolución automática
 - **Prioridades Virtuales:** Gestión de prioridades de trenes
 
@@ -235,7 +235,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 ### 6.1 Integración PTC Embarcado
 
 #### 6.1.1 Protocolo Directo CTC-PTC
-- **Comunicación Bidireccional:** CTC ↔ PTC (sin RBC)
+- **Comunicación Bidireccional:** CTC ↔ PTC (sin Servidor PTC Central)
 - **Tiempo Real:** Latencia < 100ms
 - **Redundancia:** TETRA + RED TETRA (Misión Crítica) (37 estaciones)
 - **Seguridad:** Cifrado end-to-end
@@ -255,7 +255,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 - **ENCE La Dorada-México:** Interlocking Controller vital
 
 #### 6.2.2 Control CTC-ENCE
-- **Control Directo:** CTC → ENCE (sin RBC)
+- **Control Directo:** CTC → ENCE (sin Servidor PTC Central)
 - **Estado en Tiempo Real:** ENCE → CTC
 - **Redundancia:** Comunicación redundante
 - **Seguridad:** SIL 4 en funciones críticas
@@ -321,7 +321,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 ### 8.2 Pruebas de Sistema Virtual
 
 #### 8.2.1 Pruebas de Integración Virtual
-- **CTC-PTC:** Integración directa sin RBC
+- **CTC-PTC:** Integración directa sin Servidor PTC Central
 - **CTC-ENCE:** Integración con enclavamientos
 - **CTC-EOT:** Integración con End of Train
 - **Comunicaciones:** TETRA + RED TETRA (Misión Crítica)
@@ -416,9 +416,9 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 ## 13. Impacto Presupuestal de CTC Virtual
 
 ### 13.1 Eliminaciones (Sobrepresupuesto)
-- **RBC:** -$2,000,000,000 COP
+- **Servidor PTC Central:** -$2,000,000,000 COP
 - **Virtual Balise (GNSS)s:** -$40,000,000,000 COP
-- **Señales LED vía:** -$12,000,000,000 COP
+- **Señalización en Cabina (Cab-Signaling) vía:** -$12,000,000,000 COP
 - **LEU:** -$10,000,000,000 COP
 - **TOTAL ELIMINAR:** -$64,000,000,000 COP
 
@@ -452,7 +452,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 **Control de versiones:**
 | Versión | Fecha | Responsable | Descripción |
 |:---:|:---:|:---|:---|
-| v1.0 | 02/10/2025 | Ing. Control | Especificación inicial con PTC/RBC |
+| v1.0 | 02/10/2025 | Ing. Control | Especificación inicial con PTC/Servidor PTC Central |
 | **v2.0** | **Ene-2025** | **Admin. Contractual EPC** | **CRÍTICO: CTC virtual implementado** |
 
 ---

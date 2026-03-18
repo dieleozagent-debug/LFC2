@@ -85,8 +85,8 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 | **RED TETRA (Misión Crítica)** | 37 estaciones | 37 estaciones | ✅ 100% |
 | **Señalización** | Virtual (CTC + PTC) | Virtual (CTC + PTC) | ✅ 100% |
 | **Virtual Balise (GNSS)s** | 0 unidades | 0 unidades | ✅ 100% |
-| **Señales LED** | 0 unidades | 0 unidades | ✅ 100% |
-| **RBC** | 0 unidades | 0 unidades | ✅ 100% |
+| **Señalización en Cabina (Cab-Signaling)** | 0 unidades | 0 unidades | ✅ 100% |
+| **Servidor PTC Central** | 0 unidades | 0 unidades | ✅ 100% |
 | **EOT** | 15 dispositivos | 15 dispositivos | ✅ 100% |
 | **ENCE** | 5 estaciones | 5 estaciones | ✅ 100% |
 | **Desvíos** | 120 total | 120 total | ✅ 100% |
@@ -99,8 +99,8 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 ### 2.3 Componentes a Eliminar
 **✅ YA ELIMINADOS EN v4.0:**
 - ❌ Virtual Balise (GNSS)s: 1,080 → 0 unidades
-- ❌ Señales LED vía: 270 → 0 unidades  
-- ❌ RBC: 2 → 0 unidades
+- ❌ Señalización en Cabina (Cab-Signaling) vía: 270 → 0 unidades  
+- ❌ Servidor PTC Central: 2 → 0 unidades
 - ❌ LEU: 1,080 → 0 unidades
 
 ### 2.4 Componentes a Agregar
@@ -247,8 +247,8 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 - ✅ **RED TETRA (Misión Crítica):** 37 estaciones ✓
 - ✅ **Señalización:** Virtual (CTC + PTC) ✓
 - ✅ **Virtual Balise (GNSS)s:** 0 unidades ✓
-- ✅ **Señales LED:** 0 unidades ✓
-- ✅ **RBC:** 0 unidades ✓
+- ✅ **Señalización en Cabina (Cab-Signaling):** 0 unidades ✓
+- ✅ **Servidor PTC Central:** 0 unidades ✓
 - ✅ **EOT:** 15 dispositivos ✓
 - ✅ **ENCE:** 5 estaciones ✓
 - ✅ **Desvíos:** 120 total ✓
@@ -314,8 +314,8 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 
 #### **🚫 COMPONENTES ELIMINADOS (SEGÚN CRITERIOS MAESTROS)**
 - **❌ Virtual Balise (GNSS)s:** 1,080 → 0 unidades
-- **❌ Señales LED vía:** 270 → 0 unidades  
-- **❌ RBC:** 2 → 0 unidades
+- **❌ Señalización en Cabina (Cab-Signaling) vía:** 270 → 0 unidades  
+- **❌ Servidor PTC Central:** 2 → 0 unidades
 - **❌ LEU:** 1,080 → 0 unidades
 
 ---
@@ -458,8 +458,8 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 
 ### **9.1 Eliminaciones (Sobrepresupuesto)**
 - **Virtual Balise (GNSS)s:** -$40,000,000,000 COP
-- **Señales LED vía:** -$12,000,000,000 COP
-- **RBC:** -$2,000,000,000 COP
+- **Señalización en Cabina (Cab-Signaling) vía:** -$12,000,000,000 COP
+- **Servidor PTC Central:** -$2,000,000,000 COP
 - **LEU:** -$10,000,000,000 COP
 - **TOTAL ELIMINAR:** -$64,000,000,000 COP
 

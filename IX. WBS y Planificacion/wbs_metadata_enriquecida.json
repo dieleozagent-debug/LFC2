@@ -30,7 +30,7 @@
       "justificacion_tecnica": "Software CTC ampliado con PTC Level 2, Interoperabilidad FENOCO y Alta Disponibilidad segun ofertas tecnicas Knorr Bremse/CRRC validadas - Desglose: Core $30B + PTC L2 $25B + FENOCO $15B + HA $9.15B",
       "criterios_diseno": [
         "Licencias Core CTC: $30B - 8 estaciones + CCO + redundancia + 100 trenes simultaneos",
-        "Modulo PTC Level 2: $25B - EVC + RBC + Sistema claves + Interfaces TETRA/LTE/TETRA",
+        "Modulo PTC Level 2: $25B - EVC + Servidor PTC Central + Sistema claves + Interfaces TETRA/LTE/TETRA",
         "Interoperabilidad FENOCO: $15B - Protocolos FRA/AREMA 950-7/554 + Gestion coordinada + Transferencia control",
         "Alta Disponibilidad: $9.15B - Cluster N+1 + Failover <5seg + DR (RTO<1h, RPO<15min) + 99.95%"
       ],
@@ -46,7 +46,7 @@
         "DT-CTC-002-2025-10-08",
         "DT-CTC-003-2025-10-08"
       ],
-      "feedback_especialista": "Incremento +901% justificado por alcance completo PTC L2 + Interoperabilidad FENOCO. Valor alineado con ofertas Knorr Bremse ($82B) y CRRC ($79B) para soluciones similares. Incluye: EVC, RBC, interfaces FRA/AREMA, sistema HA 99.95%.",
+      "feedback_especialista": "Incremento +901% justificado por alcance completo PTC L2 + Interoperabilidad FENOCO. Valor alineado con ofertas Knorr Bremse ($82B) y CRRC ($79B) para soluciones similares. Incluye: EVC, Servidor PTC Central, interfaces FRA/AREMA, sistema HA 99.95%.",
       "documentos_ingenieria": [
         "V.2_Centro_Control_Trafico_CTC_Detalle_v1.0.md",
         "IV.2_CTC_Basica_v2.0.md",
@@ -158,9 +158,9 @@
     },
     "1.1.106": {
       "descripcion": "Interfaces comunicación",
-      "justificacion_tecnica": "Bloque lógico de integración (no hardware físico único). Conecta CTC con ITCS/PTC L2, FENOCO (Gateway FRA/AREMA 918-4), TETRA (voz/datos), Fibra óptica (backbone N+1) y sistemas ITS. Incluye: gateways industriales, switches de borde, firewalls IEC 62443, middleware interoperabilidad, licencias software.",
+      "justificacion_tecnica": "Bloque lógico de integración (no hardware físico único). Conecta CTC con PTC Nativo (FRA 49 CFR 236)/PTC L2, FENOCO (Gateway FRA/AREMA 918-4), TETRA (voz/datos), Fibra óptica (backbone N+1) y sistemas ITS. Incluye: gateways industriales, switches de borde, firewalls IEC 62443, middleware interoperabilidad, licencias software.",
       "criterios_diseno": [
-        "Integración funcional CTC-ITCS-FENOCO-TETRA-ITS",
+        "Integración funcional CTC-PTC Nativo (FRA 49 CFR 236)-FENOCO-TETRA-ITS",
         "Redundancia N+1 en comunicaciones críticas",
         "Middleware interoperabilidad con protocolos FRA/AREMA 918-4",
         "Firewalls IEC 62443 para ciberseguridad industrial"
@@ -169,7 +169,7 @@
         "1 UND representa conjunto lógico completo de integración",
         "Equipos físicos mayores cubiertos en ítems 1.1.100-1.1.105",
         "Incluye licencias software, configuración y ensayos FAT/SAT",
-        "Interfaces con: ITCS/PTC L2, FENOCO, TETRA, Fibra, ITS (CCTV/acceso/intrusión)"
+        "Interfaces con: PTC Nativo (FRA 49 CFR 236)/PTC L2, FENOCO, TETRA, Fibra, ITS (CCTV/acceso/intrusión)"
       ],
       "decisiones_tecnicas": [
         "DT-INTERFACES-001-2025-10-09"

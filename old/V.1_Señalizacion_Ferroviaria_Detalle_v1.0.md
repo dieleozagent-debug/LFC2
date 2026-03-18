@@ -249,7 +249,7 @@ Definir las especificaciones técnicas detalladas para la implementación del si
 
 ### 13.1 Documentos del Proyecto
 - **PTC_SRS_Indice_v1.0.md:** Especificación de requisitos
-- **PTC_Arquitectura_RBC_2oo3_v1.0.md:** Arquitectura RBC
+- **PTC_Arquitectura_RBC_2oo3_v1.0.md:** Arquitectura Servidor PTC Central
 - **PTC_Interfaces_CTC_PTC_FFFIS_v1.0.md:** Interfaces CTC-PTC
 - **PTC_STM_Embarcado_v1.0.md:** STM embarcado
 - **PTC_Interlocking_Tables_5_Estaciones_v1.0.md:** Tablas de enclavamiento
@@ -257,7 +257,7 @@ Definir las especificaciones técnicas detalladas para la implementación del si
 
 ### 13.2 Referencias del proyecto
 - **PTC_SRS_Indice_v1.0.md:** Especificación de requisitos
-- **PTC_Arquitectura_RBC_2oo3_v1.0.md:** Arquitectura RBC
+- **PTC_Arquitectura_RBC_2oo3_v1.0.md:** Arquitectura Servidor PTC Central
 - **PTC_Interfaces_CTC_PTC_FFFIS_v1.0.md:** Interfaces CTC-PTC
 - **PTC_STM_Embarcado_v1.0.md:** STM embarcado
 - **PTC_Interlocking_Tables_5_Estaciones_v1.0.md:** Tablas de enclavamiento

@@ -412,7 +412,7 @@ El Apéndice Técnico 3 – Especificaciones Técnicas y el Apéndice Técnico 1
 Los sistemas de señalización y CTC se implementen con protocolos compatibles con normas internacionales FRA/AREMA y AREMA.
 El concesionario debe garantizar interoperabilidad con otros concesionarios férreos en Colombia (ej. FENOCO).
 Esto abre la puerta a usar interfaces estandarizadas:
-EULYNX (Europa) → define interfaces abiertas entre enclavamiento, RBC (PTC VIRTUAL), CTC y campo.
+EULYNX (Europa) → define interfaces abiertas entre enclavamiento, Servidor PTC Central (PTC VIRTUAL), CTC y campo.
 PTC VIRTUAL/PTC Virtual (nivel 1 o 2) → permite interoperabilidad tren–tierra con equipos embarcados estandarizados.
 AREMA (EE. UU.) → lineamientos para circuitos de vía, interlocking y CTC con principios abiertos.
 ¿Cómo se maneja la interoperabilidad?

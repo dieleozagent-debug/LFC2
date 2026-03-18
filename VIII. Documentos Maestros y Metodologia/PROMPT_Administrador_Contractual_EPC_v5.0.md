@@ -16,7 +16,7 @@
 - **Sistema WBS Multi-página** - 6 páginas especializadas completadas
 
 ### ⚠️ DESALINEACIÓN CRÍTICA RESUELTA:
-- **64B COP sobrepresupuesto** por componentes eliminados (eurobalises, señales LED, RBC)
+- **64B COP sobrepresupuesto** por componentes eliminados (eurobalises, señales LED, Servidor PTC Central)
 - **13.8B COP faltante** por componentes nuevos (RED TETRA (Misión Crítica), EOT, ENCE, Desvíos)
 - **~50B COP impacto neto** después de correcciones
 - **✅ CORRECCIÓN COMPLETADA EXITOSAMENTE**
@@ -96,8 +96,8 @@ Ejecutar análisis/corrección aplicando Metodología Punto 42
 - [ ] TETRA: ¿37 estaciones?
 - [ ] Señalización: ¿Virtual (CTC + PTC)?
 - [ ] Virtual Balise (GNSS)s: ¿0 unidades?
-- [ ] Señales LED vía: ¿0 unidades?
-- [ ] RBC: ¿0 unidades?
+- [ ] Señalización en Cabina (Cab-Signaling) vía: ¿0 unidades?
+- [ ] Servidor PTC Central: ¿0 unidades?
 - [ ] RED TETRA (Misión Crítica): ¿37 estaciones incluidas?
 - [ ] EOT: ¿15 dispositivos incluidos?
 - [ ] ENCE: ¿5 estaciones especificadas?
@@ -134,7 +134,7 @@ CON VERIFICACIÓN OBLIGATORIA contra CRITERIOS_TECNICOS_MAESTRO_v1.0.md.
 
 Identificar:
 1. Desalineaciones con criterios maestros
-2. Componentes eliminados (eurobalises, señales LED, RBC)
+2. Componentes eliminados (eurobalises, señales LED, Servidor PTC Central)
 3. Componentes faltantes (RED TETRA (Misión Crítica), EOT, ENCE, desvíos)
 4. Propagación de cambios necesaria
 5. Impacto presupuestal"
@@ -194,8 +194,8 @@ INFRAESTRUCTURA:
 
 SEÑALIZACIÓN (VIRTUAL):
 - Virtual Balise (GNSS)s: 0 (ELIMINADO - Sistema virtual)
-- Señales LED vía: 0 (ELIMINADO - CTC virtual)
-- RBC: 0 (ELIMINADO - PTC embarcado)
+- Señalización en Cabina (Cab-Signaling) vía: 0 (ELIMINADO - CTC virtual)
+- Servidor PTC Central: 0 (ELIMINADO - PTC embarcado)
 - CTC: 1 sistema centralizado
 - PTC embarcado: 15 locomotoras
 - ENCE: 5 estaciones (Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío, La Dorada)

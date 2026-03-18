@@ -175,7 +175,7 @@
 <nav id="TOC" role="doc-toc">
 <ul>
 <li><a href="#interfaces-ctc-itcs---protocolo-fffis"
-id="toc-interfaces-ctc-itcs---protocolo-fffis">INTERFACES CTC-ITCS -
+id="toc-interfaces-ctc-itcs---protocolo-fffis">INTERFACES CTC-PTC Nativo (FRA 49 CFR 236) -
 PROTOCOLO FFFIS</a>
 <ul>
 <li><a href="#app-la-dorada-chiriguaná---comunicación-entre-sistemas"
@@ -277,7 +277,7 @@ CONTACTOS</strong></a></li>
 </ul></li>
 </ul>
 </nav>
-<h1 id="interfaces-ctc-itcs---protocolo-fffis">INTERFACES CTC-ITCS -
+<h1 id="interfaces-ctc-itcs---protocolo-fffis">INTERFACES CTC-PTC Nativo (FRA 49 CFR 236) -
 PROTOCOLO FFFIS</h1>
 <h2 id="app-la-dorada-chiriguaná---comunicación-entre-sistemas">APP La
 Dorada-Chiriguaná - Comunicación entre Sistemas</h2>
@@ -294,11 +294,11 @@ FFFIS</p>
 ALCANCE</strong></h2>
 <h3 id="propósito"><strong>1.1 PROPÓSITO</strong></h3>
 <p>Este documento define las <strong>interfaces de comunicación entre
-CTC e ITCS</strong> usando el <strong>protocolo FFFIS (Form Fit Function
+CTC e PTC Nativo (FRA 49 CFR 236)</strong> usando el <strong>protocolo FFFIS (Form Fit Function
 Interface Specification)</strong> para garantizar interoperabilidad
 segura y confiable entre sistemas de control ferroviario.</p>
 <h3 id="alcance"><strong>1.2 ALCANCE</strong></h3>
-<p>Las interfaces CTC-ITCS cubrirán: - <strong>Comunicación
+<p>Las interfaces CTC-PTC Nativo (FRA 49 CFR 236) cubrirán: - <strong>Comunicación
 bidireccional</strong> entre Centro de Control y Radio Block Center -
 <strong>Intercambio de información</strong> de autorizaciones de
 movimiento - <strong>Coordinación operacional</strong> en tiempo real -
@@ -323,7 +323,7 @@ COMUNICACIÓN</strong></h2>
 GENERAL</strong></h3>
 <h4 id="diagrama-de-interfaces"><strong>2.1.1 DIAGRAMA DE
 INTERFACES</strong></h4>
-<pre><code>ARQUITECTURA CTC-ITCS INTERFACES
+<pre><code>ARQUITECTURA CTC-PTC Nativo (FRA 49 CFR 236) INTERFACES
 ┌─────────────────────────────────────────────────────────────────┐
 │                    CENTRO DE CONTROL CTC                        │
 │                                                                 │
@@ -349,10 +349,10 @@ INTERFACES</strong></h4>
                               │ FFFIS Protocol
                               │
 ┌─────────────────────────────────────────────────────────────────┐
-│                    RADIO BLOCK CENTER RBC                       │
+│                    RADIO BLOCK CENTER Servidor PTC Central                       │
 │                                                                 │
 │  ┌─────────────────────────────────────────────────────────┐   │
-│  │              RBC COMMUNICATION LAYER                    │   │
+│  │              Servidor PTC Central COMMUNICATION LAYER                    │   │
 │  │                                                         │   │
 │  │  ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐   │   │
 │  │  │Network  │  │Message  │  │Security │  │Protocol │   │   │
@@ -361,7 +361,7 @@ INTERFACES</strong></h4>
 │  └─────────────────────────────────────────────────────────┘   │
 │                              │                                 │
 │  ┌─────────────────────────────────────────────────────────┐   │
-│  │              RBC APPLICATION LAYER                      │   │
+│  │              Servidor PTC Central APPLICATION LAYER                      │   │
 │  │                                                         │   │
 │  │  ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐   │   │
 │  │  │Movement │  │Train    │  │Safety   │  │System   │   │   │
@@ -379,7 +379,7 @@ PRINCIPALES</strong></h4>
    - Message Queue: Cola de mensajes
    - Network Manager: Gestión de red
 
-2. RBC SIDE:
+2. Servidor PTC Central SIDE:
    - Network Manager: Gestión de red
    - Message Queue: Cola de mensajes
    - Security Manager: Autenticación y cifrado
@@ -572,14 +572,14 @@ MENSAJES</strong></h4>
 
 1. MOVEMENT AUTHORITY (MA):
    - Tipo: 0x0001
-   - Dirección: CTC → RBC
+   - Dirección: CTC → Servidor PTC Central
    - Contenido: Autorización de movimiento
    - Frecuencia: Por cada autorización
    - Prioridad: Alta
 
 2. TRAIN STATUS (TS):
    - Tipo: 0x0002
-   - Dirección: RBC → CTC
+   - Dirección: Servidor PTC Central → CTC
    - Contenido: Estado del tren
    - Frecuencia: Cada 10 segundos
    - Prioridad: Media
@@ -600,14 +600,14 @@ MENSAJES</strong></h4>
 
 5. EMERGENCY STOP (ES):
    - Tipo: 0x0005
-   - Dirección: CTC → RBC
+   - Dirección: CTC → Servidor PTC Central
    - Contenido: Comando de parada
    - Frecuencia: Por evento
    - Prioridad: Crítica
 
 6. CONFIGURATION (CF):
    - Tipo: 0x0006
-   - Dirección: CTC → RBC
+   - Dirección: CTC → Servidor PTC Central
    - Contenido: Configuración
    - Frecuencia: Por cambio
    - Prioridad: Media</code></pre>
@@ -615,24 +615,24 @@ MENSAJES</strong></h4>
 MENSAJES</strong></h3>
 <h4 id="flujo-de-comunicación"><strong>3.2.1 FLUJO DE
 COMUNICACIÓN</strong></h4>
-<pre><code>FLUJO DE COMUNICACIÓN CTC-ITCS:
+<pre><code>FLUJO DE COMUNICACIÓN CTC-PTC Nativo (FRA 49 CFR 236):
 
-1. ENVÍO DE MENSAJE (CTC → RBC):
+1. ENVÍO DE MENSAJE (CTC → Servidor PTC Central):
    - Aplicación CTC genera mensaje
    - Protocol Handler encapsula en FFFIS
    - Security Manager cifra y autentica
    - Network Manager envía por TCP/IP
-   - RBC recibe y valida mensaje
+   - Servidor PTC Central recibe y valida mensaje
 
-2. PROCESAMIENTO EN RBC:
+2. PROCESAMIENTO EN Servidor PTC Central:
    - Network Manager recibe mensaje
    - Security Manager valida y descifra
    - Protocol Handler extrae datos
-   - Aplicación RBC procesa información
-   - RBC genera respuesta si es necesaria
+   - Aplicación Servidor PTC Central procesa información
+   - Servidor PTC Central genera respuesta si es necesaria
 
-3. RESPUESTA (RBC → CTC):
-   - Aplicación RBC genera respuesta
+3. RESPUESTA (Servidor PTC Central → CTC):
+   - Aplicación Servidor PTC Central genera respuesta
    - Protocol Handler encapsula en FFFIS
    - Security Manager cifra y autentica
    - Network Manager envía por TCP/IP
@@ -669,9 +669,9 @@ MUTUA</strong></h4>
 
 1. INTERCAMBIO DE CERTIFICADOS:
    - CTC envía certificado digital
-   - RBC valida certificado CTC
-   - RBC envía certificado digital
-   - CTC valida certificado RBC
+   - Servidor PTC Central valida certificado CTC
+   - Servidor PTC Central envía certificado digital
+   - CTC valida certificado Servidor PTC Central
    - Establecimiento de sesión segura
 
 2. ALGORITMO DE AUTENTICACIÓN:
@@ -692,7 +692,7 @@ ACCESO</strong></h4>
 
 1. ROLES Y PERMISOS:
    - CTC Operator: Lectura/escritura completa
-   - RBC Operator: Lectura/escritura limitada
+   - Servidor PTC Central Operator: Lectura/escritura limitada
    - Maintenance: Solo lectura
    - Administrator: Acceso completo
 
@@ -770,7 +770,7 @@ RED</strong></h4>
 
 2. DIRECCIONAMIENTO:
    - CTC: 192.168.100.10/24
-   - RBC: 192.168.100.20/24
+   - Servidor PTC Central: 192.168.100.20/24
    - Gateway: 192.168.100.1/24
    - DNS: 192.168.100.2/24
 
@@ -1025,14 +1025,14 @@ VERSIONES</strong></h2>
 <td style="text-align: center;"><strong>v1.1</strong></td>
 <td style="text-align: center;">27/01/2025</td>
 <td style="text-align: left;">Ing. Integración EPC</td>
-<td style="text-align: left;"><strong>Interfaces CTC-ITCS FFFIS</strong>
+<td style="text-align: left;"><strong>Interfaces CTC-PTC Nativo (FRA 49 CFR 236) FFFIS</strong>
 - Fase 1 crítica en desarrollo</td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>v1.0</strong></td>
 <td style="text-align: center;">27/01/2025</td>
 <td style="text-align: left;">Ing. Integración EPC</td>
-<td style="text-align: left;"><strong>Interfaces CTC-ITCS
+<td style="text-align: left;"><strong>Interfaces CTC-PTC Nativo (FRA 49 CFR 236)
 inicial</strong> - Protocolo FFFIS especificado</td>
 </tr>
 <tr>
@@ -1049,7 +1049,7 @@ provisionales</strong> - Desarrollo inicial</td>
 PRÓXIMOS PASOS</strong></h2>
 <h3 id="estado-actual"><strong>🎯 ESTADO ACTUAL</strong></h3>
 <ul>
-<li>✅ <strong>Interfaces CTC-ITCS especificadas</strong> con protocolo
+<li>✅ <strong>Interfaces CTC-PTC Nativo (FRA 49 CFR 236) especificadas</strong> con protocolo
 FFFIS</li>
 <li>✅ <strong>Protocolo de comunicación detallado</strong> con
 seguridad completa</li>

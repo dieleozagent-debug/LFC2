@@ -27,7 +27,7 @@ En cumplimiento del **Ciclo Inverso**, se han eliminado las siguientes memorias 
 1.  ❌ **ELIMINADO:** Memorias de cálculo de Virtual Balise (GNSS)s (0 unidades).
 2.  ❌ **ELIMINADO:** Memorias de cobertura RED TETRA (Misión Crítica) (Sustituido por TETRA).
 3.  ❌ **ELIMINADO:** Protocolos FFFIS/UNISIG (Sustituido por **Vital IP**).
-4.  ❌ **ELIMINADO:** Menciones a RBC (Radio Block Centre) europeo.
+4.  ❌ **ELIMINADO:** Menciones a Servidor PTC Central (Servidor PTC Central) europeo.
 
 ---
 

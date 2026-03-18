@@ -82,9 +82,9 @@ UbicaciónPKUFVTipoFunciónMéxico201+470UFV 23LocalControl Lote 2.1 SurPuerto T
 
 5.2 PTC - PTC Virtual (FRA 236) (Sistema de Control de Trenes)
 Componentes de Vía (Trackside):
-Radio Block Centers (RBC)
-IDUbicaciónPKUFVÁrea de ControlRedundanciaRBC-1México201+470UFV 23PK201 - PK340RBC-2RBC-2Puerto Olaya338+250UFV 03PK280 - PK441RBC-1 / RBC-3RBC-3B/Bermejo (CCO)441+932UFV 40/41PK360 - PK580RBC-2 / RBC-4RBC-4Santa Lucía569+800UFV 49PK500 - PK680RBC-3 / RBC-5RBC-5Chiriguaná722+250UFV 22PK640 - PK722RBC-4
-🔷 Cada RBC controla ~80-140 km con solapamiento de cobertura
+Radio Block Centers (Servidor PTC Central)
+IDUbicaciónPKUFVÁrea de ControlRedundanciaRBC-1México201+470UFV 23PK201 - PK340RBC-2RBC-2Puerto Olaya338+250UFV 03PK280 - PK441RBC-1 / Servidor PTC Central-3RBC-3B/Bermejo (CCO)441+932UFV 40/41PK360 - PK580RBC-2 / Servidor PTC Central-4RBC-4Santa Lucía569+800UFV 49PK500 - PK680RBC-3 / Servidor PTC Central-5RBC-5Chiriguaná722+250UFV 22PK640 - PK722RBC-4
+🔷 Cada Servidor PTC Central controla ~80-140 km con solapamiento de cobertura
 
 Punto de referencia virtuals PTC VIRTUAL (Virtual Balise (GNSS)s)
 Distribución General:
@@ -153,7 +153,7 @@ Total: 11 Subestaciones Principales
 Ubicaciones Críticas:
 
 CCO Principal (B/Bermejo): N+1 redundancia
-RBC PTC VIRTUAL (5 ubicaciones): Redundancia N+1
+Servidor PTC Central PTC VIRTUAL (5 ubicaciones): Redundancia N+1
 Estaciones TETRA (26 ubicaciones): Respaldo mínimo 4h
 Estaciones principales (11 ubicaciones): Respaldo mínimo 2h
 
@@ -259,7 +259,7 @@ UFVImplementacionNombre_TableroUbicacion_PKDescripcionUbicacion_LadoDireccionTip
 | UFV03 | 2.1 | ESTACION_PUERTO_OLAYA | 338+250 | Estación Principal | Centro | PK338+250 Centro | EDIFICACION | Estación Clase A | N/A | N/A | TBD | TBD |
 | UFV03 | 2.1 | SE_PUERTO_OLAYA | 338+250 | Subestación Eléctrica | Derecha | PK338+250 Derecha | ENERGIA | Subestación MT/BT | N/A | N/A | TBD | TBD |
 | UFV03 | 2.1 | CTC_PUERTO_OLAYA | 338+250 | Puesto Control CTC | Centro | PK338+250 Centro | CONTROL | CTC Local | SWA_OLA_01 | TIPO 7 | TBD | TBD |
-| UFV03 | 2.1 | RBC_02_PUERTO_OLAYA | 338+250 | Radio Block Center 02 | Centro | PK338+250 Centro | CONTROL | RBC PTC VIRTUAL L2 | SWA_OLA_01 | TIPO 7 | TBD | TBD |
+| UFV03 | 2.1 | RBC_02_PUERTO_OLAYA | 338+250 | Radio Block Center 02 | Centro | PK338+250 Centro | CONTROL | Servidor PTC Central PTC VIRTUAL L2 | SWA_OLA_01 | TIPO 7 | TBD | TBD |
 | UFV03 | 2.1 | EBT_07_PUERTO_OLAYA | 338+250 | Estación Base TETRA 07 | Derecha | PK338+250 Derecha | TELECOMUNICACIONES | TETRA BS | SWA_OLA_01 | TIPO 5 | TBD | TBD |
 | UFV03 | 2.1 | CCTV_OLA_01 | 338+300 | Cámara Entrada | Derecha | PK338+300 Derecha | EQUIPO ITS | CCTV PTZ | SWA_OLA_02 | TIPO 2 | TBD | TBD |
 | UFV03 | 2.1 | CCTV_OLA_02 | 338+350 | Cámara Andén | Izquierda | PK338+350 Izquierda | EQUIPO ITS | CCTV Fija | SWA_OLA_02 | TIPO 2 | TBD | TBD |
@@ -361,8 +361,8 @@ UFVImplementacionNombre_TableroUbicacion_PKDescripcionUbicacion_LadoDireccionTip
 | UFV40/41 | 2.1/2.2 | SE_BERMEJO_RESPALDO | 442+000 | Subestación Eléctrica Respaldo | Izquierda | PK442+000 Izquierda | ENERGIA | Subestación MT/BT | N/A | N/A | TBD | TBD |
 | UFV40/41 | 2.1/2.2 | CTC_BERMEJO_MAESTRO | 441+932 | Centro Control CTC Maestro | Centro | PK441+932 Centro | CONTROL | CTC Regional | SWA_BER_CORE_01 | TIPO 7 | TBD | TBD |
 | UFV40/41 | 2.1/2.2 | CTC_BERMEJO_RESPALDO | 441+932 | Centro Control CTC Respaldo | Centro | PK441+932 Centro | CONTROL | CTC Hot-Standby | SWA_BER_CORE_02 | TIPO 7 | TBD | TBD |
-| UFV40/41 | 2.1/2.2 | RBC_03_BERMEJO_MAESTRO | 441+932 | Radio Block Center 03 Maestro | Centro | PK441+932 Centro | CONTROL | RBC PTC VIRTUAL L2 | SWA_BER_CORE_01 | TIPO 7 | TBD | TBD |
-| UFV40/41 | 2.1/2.2 | RBC_03_BERMEJO_RESPALDO | 441+932 | Radio Block Center 03 Respaldo | Centro | PK441+932 Centro | CONTROL | RBC PTC VIRTUAL L2 Hot-Standby | SWA_BER_CORE_02 | TIPO 7 | TBD | TBD |
+| UFV40/41 | 2.1/2.2 | RBC_03_BERMEJO_MAESTRO | 441+932 | Radio Block Center 03 Maestro | Centro | PK441+932 Centro | CONTROL | Servidor PTC Central PTC VIRTUAL L2 | SWA_BER_CORE_01 | TIPO 7 | TBD | TBD |
+| UFV40/41 | 2.1/2.2 | RBC_03_BERMEJO_RESPALDO | 441+932 | Radio Block Center 03 Respaldo | Centro | PK441+932 Centro | CONTROL | Servidor PTC Central PTC VIRTUAL L2 Hot-Standby | SWA_BER_CORE_02 | TIPO 7 | TBD | TBD |
 | UFV40/41 | 2.1/2.2 | EBT_13_BERMEJO | 441+932 | Estación Base TETRA 13 | Derecha | PK441+932 Derecha | TELECOMUNICACIONES | TETRA BS | SWA_BER_CORE_01 | TIPO 5 | TBD | TBD |
 | UFV40/41 | 2.1/2.2 | NODO_FO_BERMEJO_CORE | 441+932 | Nodo Core Fibra Óptica | Centro | PK441+932 Centro | TELECOMUNICACIONES | ODF 96 hilos + DWDM | SWA_BER_CORE_01 | TIPO 5 | TBD | TBD |
 | UFV40/41 | 2.1/2.2 | DATACENTER_CCO | 441+932 | Centro de Datos CCO | Centro | PK441+932 Centro | TELECOMUNICACIONES | Datacenter Tier III | SWA_BER_CORE_01 | TIPO 5 | TBD | TBD |
@@ -497,7 +497,7 @@ UFVImplementacionNombre_TableroUbicacion_PKDescripcionUbicacion_LadoDireccionTip
 | UFV49 | 2.2 | ESTACION_SANTA_LUCIA | 569+800 | Estación Principal | Centro | PK569+800 Centro | EDIFICACION | Estación Clase A | N/A | N/A | TBD | TBD |
 | UFV49 | 2.2 | SE_SANTA_LUCIA | 569+800 | Subestación Eléctrica | Derecha | PK569+800 Derecha | ENERGIA | Subestación MT/BT | N/A | N/A | TBD | TBD |
 | UFV49 | 2.2 | CTC_SANTA_LUCIA | 569+800 | Puesto Control CTC | Centro | PK569+800 Centro | CONTROL | CTC Local | SWA_SLU_01 | TIPO 7 | TBD | TBD |
-| UFV49 | 2.2 | RBC_04_SANTA_LUCIA | 569+800 | Radio Block Center 04 | Centro | PK569+800 Centro | CONTROL | RBC PTC VIRTUAL L2 | SWA_SLU_01 | TIPO 7 | TBD | TBD |
+| UFV49 | 2.2 | RBC_04_SANTA_LUCIA | 569+800 | Radio Block Center 04 | Centro | PK569+800 Centro | CONTROL | Servidor PTC Central PTC VIRTUAL L2 | SWA_SLU_01 | TIPO 7 | TBD | TBD |
 | UFV49 | 2.2 | EBT_19_SANTA_LUCIA | 569+800 | Estación Base TETRA 19 | Derecha | PK569+800 Derecha | TELECOMUNICACIONES | TETRA BS | SWA_SLU_01 | TIPO 5 | TBD | TBD |
 | UFV49 | 2.2 | CCTV_SLU_01 | 569+850 | Cámara Entrada | Derecha | PK569+850 Derecha | EQUIPO ITS | CCTV PTZ | SWA_SLU_02 | TIPO 2 | TBD | TBD |
 | UFV49 | 2.2 | CCTV_SLU_02 | 569+900 | Cámara Andén | Izquierda | PK569+900 Izquierda | EQUIPO ITS | CCTV Fija | SWA_SLU_02 | TIPO 2 | TBD | TBD |
@@ -609,7 +609,7 @@ UFVImplementacionNombre_TableroUbicacion_PKDescripcionUbicacion_LadoDireccionTip
 | UFV22 | 2.2 | TALLER_LIVIANO | 722+200 | Taller Mantenimiento Liviano | Izquierda | PK722+200 Izquierda | EDIFICACION | Taller Preventivo | N/A | N/A | TBD | TBD |
 | UFV22 | 2.2 | SE_CHIRIGUANA | 722+250 | Subestación Eléctrica Principal | Derecha | PK722+250 Derecha | ENERGIA | Subestación MT/BT | N/A | N/A | TBD | TBD |
 | UFV22 | 2.2 | CTC_CHIRIGUANA | 722+250 | Puesto Control CTC | Centro | PK722+250 Centro | CONTROL | CTC Local | SWA_CHR_01 | TIPO 7 | TBD | TBD |
-| UFV22 | 2.2 | RBC_05_CHIRIGUANA | 722+250 | Radio Block Center 05 | Centro | PK722+250 Centro | CONTROL | RBC PTC VIRTUAL L2 | SWA_CHR_01 | TIPO 7 | TBD | TBD |
+| UFV22 | 2.2 | RBC_05_CHIRIGUANA | 722+250 | Radio Block Center 05 | Centro | PK722+250 Centro | CONTROL | Servidor PTC Central PTC VIRTUAL L2 | SWA_CHR_01 | TIPO 7 | TBD | TBD |
 | UFV22 | 2.2 | EBT_26_CHIRIGUANA | 722+250 | Estación Base TETRA 26 | Derecha | PK722+250 Derecha | TELECOMUNICACIONES | TETRA BS | SWA_CHR_01 | TIPO 5 | TBD | TBD |
 | UFV22 | 2.2 | CCTV_CHR_01 | 722+200 | Cámara Entrada Terminal | Derecha | PK722+200 Derecha | EQUIPO ITS | CCTV PTZ | SWA_CHR_02 | TIPO 2 | TBD | TBD |
 | UFV22 | 2.2 | CCTV_CHR_02 | 722+230 | Cámara Andén Principal | Centro | PK722+230 Centro | EQUIPO ITS | CCTV Fija | SWA_CHR_02 | TIPO 2 | TBD | TBD |
@@ -635,7 +635,7 @@ UFVImplementacionNombre_TableroUbicacion_PKDescripcionUbicacion_LadoDireccionTip
 
 RESUMEN CUANTITATIVO DEL LAYOUT
 Totales por Categoría de Equipo
-CategoríaCantidad TotalObservacionesEstaciones y Edificaciones2611 principales + 15 menores/apeaderosSubestaciones Eléctricas11Alimentación principal del corredorPuestos Control CTC11Control distribuido + CCO maestroRadio Block Centers (RBC)5 + 1 respaldoPTC VIRTUAL Level 2 con redundanciaEstaciones Base TETRA26Cobertura 99% del corredorCámaras CCTV~180-200PTZ + Fijas + TérmicaPunto de referencia virtuals PTC VIRTUAL~700-900Kilometraje + señales + desvíosSeñales Luminosas~150-200Principales + intermedias + protecciónDesvíos Motorizados~80-100Estaciones + apartaderosDetectores HBD6Detección caja calienteDetectores WILD4Detección impactos ruedaNodos Fibra Óptica11 + 1 CoreDistribución + CCOEmpalmes Fibra Óptica~40Cada 10-15 km promedioSistemas UPS15+Estaciones + sistemas críticosPuentes Prioritarios4Magdalena, Carare, Cuatro Bocas, SogamosoTalleres2Pesado (B/Bermejo) + Liviano (Chiriguaná)CCO1 principalB/Bermejo PK441+932
+CategoríaCantidad TotalObservacionesEstaciones y Edificaciones2611 principales + 15 menores/apeaderosSubestaciones Eléctricas11Alimentación principal del corredorPuestos Control CTC11Control distribuido + CCO maestroRadio Block Centers (Servidor PTC Central)5 + 1 respaldoPTC VIRTUAL Level 2 con redundanciaEstaciones Base TETRA26Cobertura 99% del corredorCámaras CCTV~180-200PTZ + Fijas + TérmicaPunto de referencia virtuals PTC VIRTUAL~700-900Kilometraje + señales + desvíosSeñales Luminosas~150-200Principales + intermedias + protecciónDesvíos Motorizados~80-100Estaciones + apartaderosDetectores HBD6Detección caja calienteDetectores WILD4Detección impactos ruedaNodos Fibra Óptica11 + 1 CoreDistribución + CCOEmpalmes Fibra Óptica~40Cada 10-15 km promedioSistemas UPS15+Estaciones + sistemas críticosPuentes Prioritarios4Magdalena, Carare, Cuatro Bocas, SogamosoTalleres2Pesado (B/Bermejo) + Liviano (Chiriguaná)CCO1 principalB/Bermejo PK441+932
 
 NOTAS IMPORTANTES PARA INGENIERÍA DE DETALLE
 1. Coordenadas Geográficas (Latitud_X / Longitud_Y)
@@ -654,7 +654,7 @@ Sistema de coordenadas: MAGNA-SIRGAS (EPSG:4686 o EPSG:3116)
 Nomenclatura: SWA_[UBICACION]_[NÚMERO]
 Tipos Estimados:
 
-SWA Core: Switches principales en CCO y RBC (Capa 3, gestionables)
+SWA Core: Switches principales en CCO y Servidor PTC Central (Capa 3, gestionables)
 SWA Distribución: Switches en estaciones principales (Capa 2/3)
 SWA Acceso: Switches para equipos ITS y CCTV (Capa 2, PoE+)
 
@@ -665,7 +665,7 @@ Acción Requerida: Diseño detallado de arquitectura de red según ingeniería d
 
 Sistemas Críticos con Redundancia N+1:
 
-CCO Principal (B/Bermejo): CTC + RBC duplicados
+CCO Principal (B/Bermejo): CTC + Servidor PTC Central duplicados
 Alimentación eléctrica: Subestaciones + UPS + Generadores
 Fibra Óptica: Anillo redundante DWDM
 TETRA: Modo DMO de respaldo
@@ -819,7 +819,7 @@ VALIDACIONES Y CONTROLES DE CALIDAD
 Checklist de Validación del Layout
 
  Cobertura TETRA: Verificar radio 15-20 km entre EBT consecutivas
- Cobertura RBC: Verificar solapamiento de áreas de control
+ Cobertura Servidor PTC Central: Verificar solapamiento de áreas de control
  Fibra Óptica: Verificar continuidad del anillo redundante
  Subestaciones: Verificar distancia máxima 60 km entre SE
  Punto de referencia virtuals: Verificar presencia en todas las señales principales

@@ -27,8 +27,8 @@ El Centro de Control de Operaciones (CCO) en La Dorada centraliza la inteligenci
 Tras la auditoría Karpathy, se han corregido las siguientes incoherencias narrativas y técnicas:
 
 ### 2.1 Eliminación de Híbridos Incoherentes
-- **ERROR:** Se mencionaban "Gateways de integración con RBC".
-- **REALIDAD SICC:** En una arquitectura PTC Virtual FRA, **NO EXISTE EL RBC**. El control reside íntegramente en el Servidor Maestro.
+- **ERROR:** Se mencionaban "Gateways de integración con Servidor PTC Central".
+- **REALIDAD SICC:** En una arquitectura PTC Virtual FRA, **NO EXISTE EL Servidor PTC Central**. El control reside íntegramente en el Servidor Maestro.
 - **AJUSTE:** Se elimina toda referencia a Gateways de conversión de protocolos legacy. La comunicación es **Nativa IP/AREMA**.
 
 ### 2.2 Simplificación de la Red de Seguridad

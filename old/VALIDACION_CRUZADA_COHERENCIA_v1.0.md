@@ -64,8 +64,8 @@ Verificar que **TODOS** los documentos del ecosistema documental estén **100% a
 | **Sistema** | **Cantidad Anterior** | **Cantidad Actual** | **Documentos Actualizados** | **Estado** |
 |:---|:---:|:---:|:---:|:---:|
 | **Virtual Balise (GNSS)s** | 1,080 unidades | 0 unidades | AT1, 23, 29, V.1, V.2 | ✅ **ELIMINADO** |
-| **Señales LED vía** | 270 unidades | 0 unidades | AT1, 23, 29, V.1 | ✅ **ELIMINADO** |
-| **RBC** | 2 unidades | 0 unidades | AT1, 23, 29, V.2 | ✅ **ELIMINADO** |
+| **Señalización en Cabina (Cab-Signaling) vía** | 270 unidades | 0 unidades | AT1, 23, 29, V.1 | ✅ **ELIMINADO** |
+| **Servidor PTC Central** | 2 unidades | 0 unidades | AT1, 23, 29, V.2 | ✅ **ELIMINADO** |
 | **LEU** | 1,080 unidades | 0 unidades | AT1, 23, 29, V.1 | ✅ **ELIMINADO** |
 
 ### **2. VALIDACIÓN DE FILOSOFÍA TÉCNICA**
@@ -76,7 +76,7 @@ Verificar que **TODOS** los documentos del ecosistema documental estén **100% a
 | **AT1** | PTC PTC Virtual (FRA 236) | PTC Embarcado + CTC Virtual | ✅ **ACTUALIZADO** |
 | **29_Senalizacion** | Señalización física | Señalización virtual | ✅ **ACTUALIZADO** |
 | **V.1_Detalle** | Virtual Balise (GNSS)s + LED | CTC + PTC embarcado | ✅ **ACTUALIZADO** |
-| **V.2_CTC** | RBC + PTC Virtual (FRA 236) | CTC Virtual centralizado | ✅ **ACTUALIZADO** |
+| **V.2_CTC** | Servidor PTC Central + PTC Virtual (FRA 236) | CTC Virtual centralizado | ✅ **ACTUALIZADO** |
 
 ### **3. VALIDACIÓN DE REFERENCIAS CRUZADAS**
 

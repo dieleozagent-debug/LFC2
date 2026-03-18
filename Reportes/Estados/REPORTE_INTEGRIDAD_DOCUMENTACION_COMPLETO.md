@@ -82,7 +82,7 @@ Verificar la integridad completa de la documentación del proyecto desde el inic
 | **Documentos Base** | 7 | ✅ **COMPLETO** | Hoja de ruta, WBS, matrices |
 | **Análisis por Sistema** | 7 | ✅ **COMPLETO** | CTC, TETRA, Fibra, Señalización, ITS, CCTV, Material Rodante |
 | **Criterios Transversales** | 4 | ✅ **COMPLETO** | Normatividad, Interoperabilidad, Redundancia, Ciberseguridad |
-| **PTC Específicos** | 5 | ✅ **COMPLETO** | SRS, Arquitectura RBC, Interfaces, Interlocking, STM |
+| **PTC Específicos** | 5 | ✅ **COMPLETO** | SRS, Arquitectura Servidor PTC Central, Interfaces, Interlocking, STM |
 | **Conceptos Básicos** | 4 | ✅ **COMPLETO** | CTC, TETRA, PTC, otras soluciones |
 
 **Estado Fase B:** ✅ **COMPLETADA AL 100%**

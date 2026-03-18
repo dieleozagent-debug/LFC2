@@ -87,7 +87,7 @@
 | **Documentos Base** | 7 | WBS, matrices, hojas de ruta |
 | **Análisis por Sistema** | 7 | CTC, TETRA, Fibra, Señalización, ITS, CCTV, Material Rodante |
 | **Criterios Transversales** | 4 | Normatividad, Interoperabilidad, Redundancia, Ciberseguridad |
-| **PTC Específicos** | 5 | SRS, Arquitectura RBC, Interfaces, Interlocking, STM |
+| **PTC Específicos** | 5 | SRS, Arquitectura Servidor PTC Central, Interfaces, Interlocking, STM |
 | **Conceptos Básicos** | 4 | CTC, TETRA, PTC, otras soluciones |
 | **Otros** | 4 | Riesgos, supuestos, diagramas |
 

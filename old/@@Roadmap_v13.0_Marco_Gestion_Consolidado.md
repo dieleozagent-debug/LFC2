@@ -289,11 +289,11 @@ Documentación/
 - **V.1-V.5 + V.X:** ✅ **9 documentos v5.0 COMPLETADOS** - Todas las especificaciones técnicas detalladas
 
 ### **✅ GAPS CRÍTICOS RESUELTOS**
-- **SRS PTC, Arquitectura RBC, Interfaces CTC-PTC, STM Embarcado, Plan V&V:** ✅ **COMPLETADOS**
+- **SRS PTC, Arquitectura Servidor PTC Central, Interfaces CTC-PTC, STM Embarcado, Plan V&V:** ✅ **COMPLETADOS**
 
 ### **✅ VII. SOPORTE ESPECIALIZADO 100% COMPLETADO**
 - **VII.1 Normatividad:** ✅ **4 matrices completadas** - Civil, Eléctrica, Mecánica, Sistemas
-- **VII.2 Especificaciones:** ✅ **11 documentos completados** - PTC, RBC, interfaces, etc.
+- **VII.2 Especificaciones:** ✅ **11 documentos completados** - PTC, Servidor PTC Central, interfaces, etc.
 - **VII.3 Procedimientos:** ✅ **4 procedimientos completados** - Constructivos, montaje, instalación, comisionamiento
 
 ### **✅ VIII. DOCUMENTOS MAESTROS Y METODOLOGÍA 100% ORGANIZADOS**
@@ -430,7 +430,7 @@ Documentación/
 | Ítem | Criterio | Estado |
 |:---|:---|:---:|
 | 1 | SRS PTC provisional completado | 🟢 |
-| 2 | Arquitectura RBC 2oo3 especificada | 🟢 |
+| 2 | Arquitectura Servidor PTC Central 2oo3 especificada | 🟢 |
 | 3 | 8/8 interfaces CTC–PTC definidas (FFFIS) | 🟢 |
 | 4 | STM embarcado especificado | 🟢 |
 | 5 | Interlocking tables (5 estaciones) entregadas | 🟢 |
@@ -502,7 +502,7 @@ La Fase E ha sido completada exitosamente con el desarrollo de todos los manuale
 | Fases A–E | Completitud | 100% | ✅ Completado |
 | Fase E | Manuales OM | 4/4 | ✅ Completado |
 | PTC | SRS Provisional | 100% | ✅ Completado |
-| RBC | Arquitectura 2oo3 | 100% | ✅ Completado |
+| Servidor PTC Central | Arquitectura 2oo3 | 100% | ✅ Completado |
 | Interfaces CTC–PTC | Interfaces definidas | 8/8 | ✅ Completado |
 | Señalización | Interlocking tables | 5/5 | ✅ Completado |
 | Embarcados | STM especificado | 100% | ✅ Completado |
@@ -695,8 +695,8 @@ La Fase E ha sido completada exitosamente con el desarrollo de todos los manuale
 | Documento Actual | Criterio Real Maestro | Desviación | Impacto |
 |:----------------|:---------------------|:-----------|:--------|
 | Virtual Balise (GNSS)s: 1,080 unidades | 0 unidades | 🔴 CRÍTICO | $40B sobrepresupuesto |
-| Señales LED vía: 270 unidades | 0 unidades | 🔴 CRÍTICO | $12B sobrepresupuesto |
-| RBC: 2 unidades | 0 unidades | 🔴 CRÍTICO | $2B sobrepresupuesto |
+| Señalización en Cabina (Cab-Signaling) vía: 270 unidades | 0 unidades | 🔴 CRÍTICO | $12B sobrepresupuesto |
+| Servidor PTC Central: 2 unidades | 0 unidades | 🔴 CRÍTICO | $2B sobrepresupuesto |
 | TETRA: 33 estaciones | 37 estaciones | 🟡 MEDIO | Ajuste cantidades |
 | RED TETRA (Misión Crítica): NO incluido | 37 estaciones | 🔴 CRÍTICO | $3.5B faltante |
 | EOT: NO incluido | 15 dispositivos | 🟡 MEDIO | $520M faltante |
@@ -815,7 +815,7 @@ Todos los documentos de ingeniería estarán completos y listos para la ejecuci�
 | Sistema Crítico | Responsable | Estado | Observaciones |
 |:---------|:------------|:---------|:---|
 | **SRS PTC** | Ing. Sistemas | ✅ Completado | SRS provisional desarrollado |
-| **Arquitectura RBC** | Ing. Sistemas | ✅ Completado | Redundancia 2oo3 especificada |
+| **Arquitectura Servidor PTC Central** | Ing. Sistemas | ✅ Completado | Redundancia 2oo3 especificada |
 | **Interfaces CTC-PTC** | Ing. Integración | ✅ Completado | Protocolo FFFIS implementado |
 | **STM Embarcado** | Ing. Embarcados | ✅ Completado | Especificaciones PTC Virtual (FRA 236) |
 | **Interlocking Tables** | Ing. Señalización | ✅ Completado | 5 estaciones completadas |
@@ -1074,7 +1074,7 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
 ### **📋 CTC DETALLE ACTUALIZADO:**
 - **Archivo:** `V. Ingenieria de detalle/V.2_Centro_Control_Trafico_CTC_Detalle_v2.0.md`
 - **Estado:** ✅ **COMPLETADO** - CTC virtual centralizado implementado
-- **Cambios:** Eliminación RBC + Implementación CTC virtual + PTC embarcado directo
+- **Cambios:** Eliminación Servidor PTC Central + Implementación CTC virtual + PTC embarcado directo
 - **Impacto:** -$50,193,000,000 COP (alineación completa)
 
 ### **🎯 PRÓXIMO PASO - CAPA 3 (CONTINUAR):**
@@ -1140,7 +1140,7 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
   - ✅ ENCE: 5 estaciones
   - ✅ Desvíos: 120 unidades (25 motorizados + 95 manuales)
   - ✅ CCTV: 73 cámaras
-  - ✅ Eliminación completa: Virtual Balise (GNSS)s, RBC, señales LED, LEU
+  - ✅ Eliminación completa: Virtual Balise (GNSS)s, Servidor PTC Central, señales LED, LEU
 
 ## 🎉 **PLAN DE CORRECCIÓN DOCUMENTAL INTEGRAL - COMPLETADO EXITOSAMENTE**
 

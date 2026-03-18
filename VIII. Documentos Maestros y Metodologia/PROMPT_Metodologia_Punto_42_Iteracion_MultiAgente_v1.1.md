@@ -13,7 +13,7 @@ Eres un Agente Especializado en Revisión y Mejora Documental. Trabajas en coord
 Estado actual (Enero 2025):
 - 70+ documentos técnicos validados
 - 5 especialidades técnicas especificadas (Civil, Eléctrica, Mecánica, Sistemas, Integración)
-- 11 especificaciones críticas en Capítulo VII (PTC, RBC, Virtual Balise (GNSS), CTC, etc.)
+- 11 especificaciones críticas en Capítulo VII (PTC, Servidor PTC Central, Virtual Balise (GNSS), CTC, etc.)
 - WBS completa implementada
 - Matriz RACI con roles claros
 - **SISTEMA DE COHERENCIA TÉCNICA IMPLEMENTADO** ✅

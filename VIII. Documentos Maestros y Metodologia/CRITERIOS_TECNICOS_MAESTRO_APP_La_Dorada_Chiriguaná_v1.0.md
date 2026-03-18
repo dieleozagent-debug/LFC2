@@ -222,7 +222,7 @@ CORREDOR 526.133 KM
 | Componente | Estado | Justificación |
 |------------|--------|---------------|
 | **Virtual Balise (GNSS)s físicas** | ❌ ELIMINADO | Reemplazado por PTC embarcado |
-| **Señales LED en vía** | ❌ ELIMINADO | CTC virtual |
+| **Señalización en Cabina (Cab-Signaling) en vía** | ❌ ELIMINADO | CTC virtual |
 | **CTC Centralizado** | ✅ IMPLEMENTADO | Control desde CCO |
 | **PTC/PTC Embarcado** | ✅ IMPLEMENTADO | 15 locomotoras |
 

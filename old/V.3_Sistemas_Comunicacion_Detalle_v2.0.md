@@ -39,7 +39,7 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 - **Capacidad:** 15 trenes simultáneos + servicios auxiliares
 
 ### 1.2 Objetivos del Sistema Colocalizado
-- **Comunicación tren-tierra:** Enlace crítico para PTC embarcado (sin RBC)
+- **Comunicación tren-tierra:** Enlace crítico para PTC embarcado (sin Servidor PTC Central)
 - **Comunicación operacional:** Voz y datos para operadores
 - **Redundancia operacional:** TETRA + RED TETRA (Misión Crítica) como respaldo mutuo
 - **Disponibilidad:** 99.9% de disponibilidad operacional
@@ -184,7 +184,7 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 
 ### 4.1 Comunicación Tren-Tierra Colocalizada
 
-#### 4.1.1 PTC Embarcado (Sin RBC)
+#### 4.1.1 PTC Embarcado (Sin Servidor PTC Central)
 - **Movement Authority:** Autorización de movimiento via CTC virtual
 - **Position Report:** Reporte de posición via TETRA/RED TETRA (Misión Crítica)
 - **Emergency Stop:** Parada de emergencia via doble sistema
@@ -201,7 +201,7 @@ Este documento detalla la ingeniería de los **sistemas de comunicación colocal
 ### 4.2 Comunicación Operacional Colocalizada
 
 #### 4.2.1 CTC-PTC Virtual
-- **Interface Directa:** CTC ↔ PTC (sin RBC)
+- **Interface Directa:** CTC ↔ PTC (sin Servidor PTC Central)
 - **Protocolo:** XML/JSON over IP
 - **Frecuencia:** 1 Hz (tiempo real)
 - **Latencia:** < 100 ms

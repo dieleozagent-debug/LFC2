@@ -14,13 +14,13 @@
 ### **📋 CAMBIO DE PARADIGMA COMPLETO:**
 
 #### **🔴 FILOSOFÍA ANTERIOR (ELIMINADA):**
-- **❌ PTC PTC Virtual (FRA 236):** Sistema tradicional con RBC → **PTC embarcado** (Sin RBC)
+- **❌ PTC PTC Virtual (FRA 236):** Sistema tradicional con Servidor PTC Central → **PTC embarcado** (Sin Servidor PTC Central)
 - **❌ Cobertura:** 146 km → **526.133 km** (Corredor completo)
 - **❌ Torres:** 33 torres → **37 torres colocalizadas** (TETRA + RED TETRA (Misión Crítica))
 - **❌ Alimentación:** Sistema independiente → **Alimentación colocalizada**
 
 #### **✅ FILOSOFÍA NUEVA (IMPLEMENTADA):**
-- **✅ PTC Embarcado:** Sistema en 15 locomotoras (sin RBC)
+- **✅ PTC Embarcado:** Sistema en 15 locomotoras (sin Servidor PTC Central)
 - **✅ Torres Colocalizadas:** 37 torres para TETRA + RED TETRA (Misión Crítica)
 - **✅ Alimentación Colocalizada:** Sistema dual para torres compartidas
 - **✅ CTC Virtual:** Centro de control centralizado

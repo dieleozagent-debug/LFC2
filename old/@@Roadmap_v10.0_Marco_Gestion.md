@@ -9,7 +9,7 @@
 ## 1. 🚀 RESUMEN EJECUTIVO Y OBJETIVO
 Este roadmap establece la ruta de trabajo para el desarrollo de la ingeniería del proyecto, **enmarcada dentro del Marco de Gestión de Proyectos (MGP)**. Sigue la Estructura de Desglose de Trabajo (WBS) y aplica la Metodología Punto 42 para garantizar la calidad y trazabilidad.
 
-**Estado Actual:** ✅ **FASES A–C COMPLETADAS**. 🔄 **PLAN DE RECUPERACIÓN TÉCNICA EN EJECUCIÓN** para habilitar **FASE D**: cierre de SRS PTC, arquitectura RBC 2oo3, 8/8 interfaces CTC–PTC, STM embarcado e interlocking tables.
+**Estado Actual:** ✅ **FASES A–C COMPLETADAS**. 🔄 **PLAN DE RECUPERACIÓN TÉCNICA EN EJECUCIÓN** para habilitar **FASE D**: cierre de SRS PTC, arquitectura Servidor PTC Central 2oo3, 8/8 interfaces CTC–PTC, STM embarcado e interlocking tables.
 
 ---
 
@@ -28,7 +28,7 @@ Este roadmap establece la ruta de trabajo para el desarrollo de la ingeniería d
 
 ### **✅ GAPS CRÍTICOS RESUELTOS**
 - **SRS PTC:** ✅ **COMPLETADO** - Especificación provisional PTC Virtual (FRA 236)
-- **Arquitectura RBC:** ✅ **COMPLETADO** - Redundancia 2OO3 especificada
+- **Arquitectura Servidor PTC Central:** ✅ **COMPLETADO** - Redundancia 2OO3 especificada
 - **Interfaces CTC-PTC:** ✅ **COMPLETADO** - Protocolo FFFIS implementado
 - **STM Embarcado:** ✅ **COMPLETADO** - Especificaciones técnicas detalladas
 - **Plan V&V:** ✅ **COMPLETADO** - Plan integral de verificación y validación
@@ -125,7 +125,7 @@ Este roadmap establece la ruta de trabajo para el desarrollo de la ingeniería d
 | Ítem | Criterio | Estado |
 |:---|:---|:---:|
 | 1 | SRS PTC provisional completado | 🟠 |
-| 2 | Arquitectura RBC 2oo3 especificada | 🟠 |
+| 2 | Arquitectura Servidor PTC Central 2oo3 especificada | 🟠 |
 | 3 | 8/8 interfaces CTC–PTC definidas (FFFIS) | 🟠 |
 | 4 | STM embarcado especificado | 🟡 |
 | 5 | Interlocking tables (5 estaciones) entregadas | 🟡 |
@@ -191,7 +191,7 @@ Leyenda: 🟢 Listo • 🟠 En desarrollo/especificación • 🟡 Pendiente
 
 #### **1. SISTEMA CONTROL DE TRENES (PTC/PTC Virtual (FRA 236))**
 - **SRS Provisional:** 🔄 **EN DESARROLLO** - Basado en EN 50126/50128/50129
-- **Arquitectura RBC:** 🔄 **EN ESPECIFICACIÓN** - Redundancia 2oo3
+- **Arquitectura Servidor PTC Central:** 🔄 **EN ESPECIFICACIÓN** - Redundancia 2oo3
 - **Plan Virtual Balise (GNSS):** 🔄 **EN DESARROLLO** - Ubicación cada 150m
 - **Interfaces CTC-PTC:** 🔄 **EN DESARROLLO** - Protocolo FFFIS
 
@@ -229,7 +229,7 @@ Leyenda: 🟢 Listo • 🟠 En desarrollo/especificación • 🟡 Pendiente
 | Fases A–C | Completitud | 100% | ✅ Completado |
 | Fase D | Criterios de desbloqueo (5) | 5/5 | 🔄 En progreso |
 | PTC | SRS Provisional | 100% | 🔄 En desarrollo |
-| RBC | Arquitectura 2oo3 | 100% | 🔄 En especificación |
+| Servidor PTC Central | Arquitectura 2oo3 | 100% | 🔄 En especificación |
 | Interfaces CTC–PTC | Interfaces definidas | 8/8 | 🔄 En progreso |
 | Señalización | Interlocking tables | 5/5 | ⏳ Pendiente |
 | Embarcados | STM especificado | 100% | ⏳ Pendiente |
@@ -252,7 +252,7 @@ Leyenda: 🟢 Listo • 🟠 En desarrollo/especificación • 🟡 Pendiente
 
 #### **🔴 FASE 1 - ACCIONES CRÍTICAS (Esta Semana)** 🔄 **EN PROGRESO**
 1. **🔄 EN DESARROLLO:** SRS PTC Provisional basado en PTC Virtual (FRA 236)
-2. **🔄 EN ESPECIFICACIÓN:** Arquitectura RBC con redundancia 2oo3
+2. **🔄 EN ESPECIFICACIÓN:** Arquitectura Servidor PTC Central con redundancia 2oo3
 3. **🔄 EN DESARROLLO:** Plan Virtual Balise (GNSS) (ubicación cada 150m)
 4. **🔄 EN DESARROLLO:** Interfaces CTC-PTC usando protocolo FFFIS
 5. **🔄 EN REVISIÓN:** Requisito disponibilidad 100% (proponiendo 99.95%)
@@ -274,7 +274,7 @@ Leyenda: 🟢 Listo • 🟠 En desarrollo/especificación • 🟡 Pendiente
 ### **🎯 CRITERIOS DE COMPLETITUD TÉCNICA**
 El proyecto alcanzará madurez técnica completa cuando se cumplan **TODOS** estos criterios:
 - 🔄 **SRS PTC desarrollado completamente** ← **EN DESARROLLO**
-- 🔄 **Arquitectura RBC especificada** ← **EN ESPECIFICACIÓN**
+- 🔄 **Arquitectura Servidor PTC Central especificada** ← **EN ESPECIFICACIÓN**
 - 🔄 **Interfaces críticas definidas** ← **EN DESARROLLO**
 - 🔄 **STM embarcado especificado** ← **PENDIENTE**
 - ⏳ **Interlocking tables completadas** ← **PENDIENTE**
@@ -288,7 +288,7 @@ El proyecto alcanzará madurez técnica completa cuando se cumplan **TODOS** est
 | Sistema Crítico | Responsable | Acción Requerida | Tiempo Límite | Estado |
 |:---------|:------------|:---------|:--------------|:---:|
 | **SRS PTC** | Ing. Sistemas | Desarrollo SRS provisional | 2 semanas | 🔄 **EN PROGRESO** |
-| **Arquitectura RBC** | Ing. Sistemas | Especificar redundancia 2oo3 | 2 semanas | 🔄 **EN PROGRESO** |
+| **Arquitectura Servidor PTC Central** | Ing. Sistemas | Especificar redundancia 2oo3 | 2 semanas | 🔄 **EN PROGRESO** |
 | **Interfaces CTC-PTC** | Ing. Integración | Protocolo FFFIS | 2 semanas | 🔄 **EN PROGRESO** |
 | **STM Embarcado** | Ing. Embarcados | Especificaciones PTC Virtual (FRA 236) | 6 semanas | ⏳ **PENDIENTE** |
 | **Interlocking Tables** | Ing. Señalización | 5 estaciones | 4 semanas | ⏳ **PENDIENTE** |
