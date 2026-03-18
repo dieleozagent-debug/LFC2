@@ -120,7 +120,7 @@
 | Parámetro | Especificación |
 |:----------|:---------------|
 | **Tensión nominal** | 480 V AC, 3 fases, 4 hilos |
-| **Frecuencia** | 60 Hz ± 0.5% |
+| **Frecuencia** | [ESTÁNDAR PROHIBIDO: FRECUENCIA FERROVIARIA NO APLICABLE] ± 0.5% |
 | **Factor de potencia** | > 0.95 (corregido) |
 | **THD (Total Harmonic Distortion)** | < 5% |
 | **Capacidad total** | 800 kVA |
@@ -150,9 +150,9 @@
 #### **Subestación La Dorada (Principal):**
 | Componente | Especificación | Cantidad | Observaciones |
 |:-----------|:---------------|:--------:|:--------------|
-| **Transformador principal** | 63 MVA, 230/25 kV | 2 unidades | Redundancia N+1 |
+| **Transformador principal** | 63 MVA, 230/[ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | 2 unidades | Redundancia N+1 |
 | **Interruptor 230 kV** | SF6, 40 kA | 2 unidades | Entrada principal |
-| **Interruptor 25 kV** | SF6, 25 kA | 8 unidades | Salidas de tracción |
+| **Interruptor [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL]** | SF6, 25 kA | 8 unidades | Salidas de tracción |
 | **Interruptor 13.8 kV** | SF6, 12.5 kA | 6 unidades | Servicios auxiliares |
 | **UPS** | 100 kVA, 30 min | 2 unidades | Redundancia |
 | **Generador emergencia** | 500 kVA, diesel | 2 unidades | Redundancia |
@@ -160,9 +160,9 @@
 #### **Subestación Puerto Berrío (Intermedia):**
 | Componente | Especificación | Cantidad | Observaciones |
 |:-----------|:---------------|:--------:|:--------------|
-| **Transformador principal** | 40 MVA, 230/25 kV | 2 unidades | Redundancia N+1 |
+| **Transformador principal** | 40 MVA, 230/[ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | 2 unidades | Redundancia N+1 |
 | **Interruptor 230 kV** | SF6, 40 kA | 2 unidades | Entrada principal |
-| **Interruptor 25 kV** | SF6, 25 kA | 6 unidades | Salidas de tracción |
+| **Interruptor [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL]** | SF6, 25 kA | 6 unidades | Salidas de tracción |
 | **Interruptor 13.8 kV** | SF6, 12.5 kA | 4 unidades | Servicios auxiliares |
 | **UPS** | 80 kVA, 30 min | 2 unidades | Redundancia |
 | **Generador emergencia** | 400 kVA, diesel | 2 unidades | Redundancia |
@@ -234,7 +234,7 @@
 | **Autonomía** | 8 horas |
 | **Tiempo de arranque** | < 10 segundos |
 | **Tensión de salida** | 480 V AC, 3 fases |
-| **Frecuencia** | 60 Hz ± 0.5% |
+| **Frecuencia** | [ESTÁNDAR PROHIBIDO: FRECUENCIA FERROVIARIA NO APLICABLE] ± 0.5% |
 | **Factor de potencia** | 0.8 |
 
 #### **Sistema de Baterías:**
@@ -277,8 +277,8 @@
 #### **Transformadores:**
 | Tipo | Potencia | Tensión | Eficiencia | Aplicación |
 |:-----|:---------|:--------|:-----------|:-----------|
-| **Principal** | 63 MVA | 230/25 kV | > 98% | Subestación La Dorada |
-| **Intermedio** | 40 MVA | 230/25 kV | > 98% | Subestación Puerto Berrío |
+| **Principal** | 63 MVA | 230/[ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | > 98% | Subestación La Dorada |
+| **Intermedio** | 40 MVA | 230/[ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | > 98% | Subestación Puerto Berrío |
 | **Distribución** | 800 kVA | 480/220 V | > 97% | CCO La Dorada |
 | **Auxiliar** | 200 kVA | 480/220 V | > 96% | Servicios auxiliares |
 
@@ -286,7 +286,7 @@
 | Tipo | Tensión | Corriente | Aplicación |
 |:-----|:---------|:----------|:-----------|
 | **SF6 230 kV** | 230 kV | 40 kA | Entrada principal |
-| **SF6 25 kV** | 25 kV | 25 kA | Salidas de tracción |
+| **SF6 [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL]** | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | 25 kA | Salidas de tracción |
 | **SF6 13.8 kV** | 13.8 kV | 12.5 kA | Servicios auxiliares |
 | **Termomagnético** | 480 V | 1000 A | Protección general |
 

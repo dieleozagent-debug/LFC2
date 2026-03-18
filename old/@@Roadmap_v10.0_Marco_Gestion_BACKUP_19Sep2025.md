@@ -166,7 +166,7 @@ Este roadmap establece la ruta de trabajo para el desarrollo de la ingeniería d
 #### **EJEMPLO CONCRETO - DOCUMENTO 1 (SEÑALIZACIÓN):**
 - **✅ TIENE:** 5 Enclavamientos, 146 Pasos a Nivel, UPS 5kVA
 - **❌ FALTA:** 
-  - ¿Cuántas señales LED por enclavamiento?
+  - ¿Cuántas Señalización en Cabina (Cab-Signaling) por enclavamiento?
   - ¿Cuántos contadores de ejes por kilómetro?
   - ¿Cuántos tableros eléctricos por enclavamiento?
   - ¿Consumo específico por equipo?

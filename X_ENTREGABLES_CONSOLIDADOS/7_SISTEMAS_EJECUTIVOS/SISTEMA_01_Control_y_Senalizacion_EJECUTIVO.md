@@ -15,7 +15,7 @@ El Sistema de Control y Señalización es el **"cerebro" del ferrocarril** que p
 - **5 ENCE:** Enclavamientos electrónicos en estaciones críticas (La Dorada, Puerto Berrío, Barrancabermeja, Bucaramanga, Chiriguaná)
 - **120 desvíos:** Control automatizado de todos los desvíos en vía principal
 - **1 Bloque Integración:** IF-07 agregada (DT-INTERFACES-001) para integración CTC-PTC-FENOCO (Interoperabilidad FRA 918-4)
-- **Cobertura:** 100% del corredor con filosofía virtual (Soberanía FRA/AREMA - Sin señalización física)
+- **Cobertura:** 100% del corredor con filosofía virtual (Soberanía FRA/AREMA - Sin Filosofía PTC Virtual)
 - **Disponibilidad requerida:** 99.95% (sistema crítico según estándares EN 50126)
 
 ### Hitos críticos
@@ -30,7 +30,7 @@ El Sistema de Control y Señalización es el **"cerebro" del ferrocarril** que p
 
 ## 🔍 CRITERIOS DE DISEÑO Y JUSTIFICACIONES TÉCNICAS
 
-### ¿Por qué Filosofía Virtual (sin señalización física)?
+### ¿Por qué Filosofía Virtual (sin Filosofía PTC Virtual)?
 **Análisis de Alternativas:**
 | Alternativa | Ventajas | Desventajas | Decisión |
 |:------------|:---------|:------------|:---------|

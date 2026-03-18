@@ -124,7 +124,7 @@
 - **Foso de Inspección:** 150m x 2m para inspección inferior
 - **Elevadores:** 2 unidades de 120 ton, 6m altura
 - **Grúas Puente:** 2 unidades de 50 ton, 25m luz
-- **Equipos:** Máquina de lavado automática, banco de pruebas 25 kV/3 MVA
+- **Equipos:** Máquina de lavado automática, banco de pruebas [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL]/3 MVA
 
 #### **Taller Secundario Chiriguaná:**
 - **Nave Principal:** 100m x 25m para mantenimiento general
@@ -171,7 +171,7 @@
 | **Elevadores** | 120 ton, 6m altura | 3 unidades | 2 La Dorada, 1 Chiriguaná |
 | **Grúas Puente** | 50 ton, 25m luz | 3 unidades | 2 La Dorada, 1 Chiriguaná |
 | **Máquinas Lavado** | Automática | 2 unidades | 1 por taller principal |
-| **Bancos de Prueba** | 25 kV, 3 MVA | 1 unidad | Solo La Dorada |
+| **Bancos de Prueba** | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL], 3 MVA | 1 unidad | Solo La Dorada |
 | **Equipos Mecánicos** | Torno, fresadora, taladro | 6 unidades | 2 por taller principal |
 
 ### **4.2 Procedimientos de Puesta a Punto**
@@ -199,8 +199,8 @@
 #### **Locomotoras - Componentes Principales:**
 - **Motor de Tracción:** 500 kW, Diesel-Eléctrica, 6 por locomotora
 - **Convertidor:** IGBT, Diesel-Eléctrica, 3 por locomotora
-- **Transformador:** 25 kV/1.5 kV, 3 MVA, 1 por locomotora
-- **Pantógrafo:** 25 kV, 1,000 A, 2 por locomotora
+- **Transformador:** [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL]/1.5 kV, 3 MVA, 1 por locomotora
+- **Pantógrafo:** [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL], 1,000 A, 2 por locomotora
 - **Sistema de Frenado:** Neumático + eléctrico + emergencia
 
 #### **Sistemas de Suspensión:**

@@ -38,12 +38,12 @@
 
 | # | Documento | Desalineación | Impacto | Prioridad |
 |:--|:----------|:--------------|:--------|:----------|
-| 1 | V.1_Señalización_Ferroviaria_Detalle | 1,080 eurobalises + 270 señales LED | 🔴 CRÍTICO | 1 |
+| 1 | V.1_Señalización_Ferroviaria_Detalle | 1,080 eurobalises + 270 Señalización en Cabina (Cab-Signaling) | 🔴 CRÍTICO | 1 |
 | 2 | VII.2.1_PTC_PTC VIRTUAL_Especificaciones | Arquitectura PTC Virtual (FRA 236) con Servidor PTC Central | 🔴 CRÍTICO | 1 |
 | 3 | 29_Sistema_Señalización_Integrado | Virtual Balise (GNSS)s + Señales físicas | 🔴 CRÍTICO | 1 |
 | 4 | V.2_Centro_Control_Trafico_CTC | CTC como secundario (no principal) | 🔴 CRÍTICO | 1 |
-| 5 | 25.1_WBS_COMPLETA_ESPECIALIDADES | Capítulos eurobalises y señales LED | 🔴 CRÍTICO | 1 |
-| 6 | AT1_Alcance_del_Proyecto | Referencias a señalización física | 🔴 CRÍTICO | 2 |
+| 5 | 25.1_WBS_COMPLETA_ESPECIALIDADES | Capítulos eurobalises y Señalización en Cabina (Cab-Signaling) | 🔴 CRÍTICO | 1 |
+| 6 | AT1_Alcance_del_Proyecto | Referencias a Filosofía PTC Virtual | 🔴 CRÍTICO | 2 |
 | 7 | 23_ListadoMaestro_Sistemas | Virtual Balise (GNSS)s en lista de sistemas | 🔴 CRÍTICO | 2 |
 | 8 | 26.1_Anexo_Electrico_CTC | Alimentación señales físicas | 🟡 MEDIO | 3 |
 | 9 | 37_Memorias_Diseño_Basico | Especificaciones eurobalises | 🟡 MEDIO | 3 |

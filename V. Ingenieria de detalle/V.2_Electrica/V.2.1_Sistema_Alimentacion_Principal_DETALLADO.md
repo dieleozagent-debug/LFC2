@@ -27,9 +27,9 @@ Este documento presenta la **ingeniería eléctrica de detalle** para el sistema
 #### **1.1 Subestación La Dorada (Principal)**
 | Componente | Especificación | Cantidad | Observaciones |
 |:-----------|:---------------|:--------:|:--------------|
-| **Transformador principal** | 63 MVA, 230/25 kV | 2 unidades | Redundancia N+1 |
+| **Transformador principal** | 63 MVA, 230/[ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | 2 unidades | Redundancia N+1 |
 | **Interruptor 230 kV** | SF6, 40 kA | 2 unidades | Entrada principal |
-| **Interruptor 25 kV** | SF6, 25 kA | 8 unidades | Salidas de tracción |
+| **Interruptor [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL]** | SF6, 25 kA | 8 unidades | Salidas de tracción |
 | **Interruptor 13.8 kV** | SF6, 12.5 kA | 6 unidades | Servicios auxiliares |
 | **UPS** | 100 kVA, 30 min | 2 unidades | Redundancia |
 | **Generador emergencia** | 500 kVA, diesel | 2 unidades | Redundancia |
@@ -37,9 +37,9 @@ Este documento presenta la **ingeniería eléctrica de detalle** para el sistema
 #### **1.2 Subestación Puerto Berrío (Intermedia)**
 | Componente | Especificación | Cantidad | Observaciones |
 |:-----------|:---------------|:--------:|:--------------|
-| **Transformador principal** | 40 MVA, 230/25 kV | 2 unidades | Redundancia N+1 |
+| **Transformador principal** | 40 MVA, 230/[ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | 2 unidades | Redundancia N+1 |
 | **Interruptor 230 kV** | SF6, 40 kA | 2 unidades | Entrada principal |
-| **Interruptor 25 kV** | SF6, 25 kA | 6 unidades | Salidas de tracción |
+| **Interruptor [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL]** | SF6, 25 kA | 6 unidades | Salidas de tracción |
 | **Interruptor 13.8 kV** | SF6, 12.5 kA | 4 unidades | Servicios auxiliares |
 | **UPS** | 75 kVA, 30 min | 2 unidades | Redundancia |
 | **Generador emergencia** | 350 kVA, diesel | 2 unidades | Redundancia |
@@ -47,9 +47,9 @@ Este documento presenta la **ingeniería eléctrica de detalle** para el sistema
 #### **1.3 Subestación Barrancabermeja (Intermedia)**
 | Componente | Especificación | Cantidad | Observaciones |
 |:-----------|:---------------|:--------:|:--------------|
-| **Transformador principal** | 40 MVA, 230/25 kV | 2 unidades | Redundancia N+1 |
+| **Transformador principal** | 40 MVA, 230/[ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | 2 unidades | Redundancia N+1 |
 | **Interruptor 230 kV** | SF6, 40 kA | 2 unidades | Entrada principal |
-| **Interruptor 25 kV** | SF6, 25 kA | 6 unidades | Salidas de tracción |
+| **Interruptor [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL]** | SF6, 25 kA | 6 unidades | Salidas de tracción |
 | **Interruptor 13.8 kV** | SF6, 12.5 kA | 4 unidades | Servicios auxiliares |
 | **UPS** | 75 kVA, 30 min | 2 unidades | Redundancia |
 | **Generador emergencia** | 350 kVA, diesel | 2 unidades | Redundancia |
@@ -57,18 +57,18 @@ Este documento presenta la **ingeniería eléctrica de detalle** para el sistema
 #### **1.4 Subestación Chiriguaná (Terminal)**
 | Componente | Especificación | Cantidad | Observaciones |
 |:-----------|:---------------|:--------:|:--------------|
-| **Transformador principal** | 50 MVA, 230/25 kV | 2 unidades | Redundancia N+1 |
+| **Transformador principal** | 50 MVA, 230/[ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | 2 unidades | Redundancia N+1 |
 | **Interruptor 230 kV** | SF6, 40 kA | 2 unidades | Entrada principal |
-| **Interruptor 25 kV** | SF6, 25 kA | 8 unidades | Salidas de tracción |
+| **Interruptor [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL]** | SF6, 25 kA | 8 unidades | Salidas de tracción |
 | **Interruptor 13.8 kV** | SF6, 12.5 kA | 6 unidades | Servicios auxiliares |
 | **UPS** | 100 kVA, 30 min | 2 unidades | Redundancia |
 | **Generador emergencia** | 450 kVA, diesel | 2 unidades | Redundancia |
 
 ---
 
-## 🔌 SISTEMA DE DISTRIBUCIÓN 25 KV
+## 🔌 SISTEMA DE DISTRIBUCIÓN [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL]
 
-### **2. CATENARIA Y ALIMENTACIÓN**
+### **2. [INFRAESTRUCTURA PROHIBIDA] Y ALIMENTACIÓN**
 
 #### **2.1 Sistema de Infraestructura Diesel**
 | Parámetro | Especificación | Observaciones |
@@ -77,14 +77,14 @@ Este documento presenta la **ingeniería eléctrica de detalle** para el sistema
 | **Cable de contacto** | Cobre 120 mm² | Conductor principal |
 | **Cable portador** | Acero-aluminio 240 mm² | Soporte mecánico |
 | **Postes** | Concreto pretensado 15m | Cada 60m promedio |
-| **Aisladores** | Porcelana, 25 kV | Aislación principal |
+| **Aisladores** | Porcelana, [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | Aislación principal |
 
 #### **2.2 Seccionadores y Protecciones**
 | Ubicación | Tipo | Cantidad | Función |
 |:----------|:-----|:--------:|:--------|
-| **Cada 10 km** | Seccionador 25 kV | 18 unidades | Seccionamiento |
-| **Cada 5 km** | Interruptor 25 kV | 36 unidades | Protección |
-| **Cada 2 km** | Fusible 25 kV | 89 unidades | Protección secundaria |
+| **Cada 10 km** | Seccionador [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | 18 unidades | Seccionamiento |
+| **Cada 5 km** | Interruptor [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | 36 unidades | Protección |
+| **Cada 2 km** | Fusible [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | 89 unidades | Protección secundaria |
 | **Cada estación** | Interruptor principal | 8 unidades | Protección estación |
 
 #### **2.3 Sistema de Puesta a Tierra**
@@ -161,7 +161,7 @@ Este documento presenta la **ingeniería eléctrica de detalle** para el sistema
 
 ### **5. PROTECCIONES ELÉCTRICAS**
 
-#### **5.1 Protecciones de Tracción 25 kV**
+#### **5.1 Protecciones de Tracción [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL]**
 | Tipo | Ubicación | Ajuste | Función | Observaciones |
 |:-----|:----------|:-------|:---------|:--------------|
 | **Sobrecorriente** | Cada interruptor | 125% In | Protección térmica | Relé digital |
@@ -191,7 +191,7 @@ Este documento presenta la **ingeniería eléctrica de detalle** para el sistema
 
 ### **6. TABLEROS PRINCIPALES**
 
-#### **6.1 Tableros de Tracción 25 kV**
+#### **6.1 Tableros de Tracción [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL]**
 | Ubicación | Tipo | Cantidad | Observaciones |
 |:----------|:-----|:--------:|:--------------|
 | **La Dorada** | Tablero principal | 1 | 8 salidas |
@@ -274,7 +274,7 @@ Este documento presenta la **ingeniería eléctrica de detalle** para el sistema
 
 #### **9.1 Secuencia de Instalación**
 1. **Fase 1:** Instalación de subestaciones (4 meses)
-2. **Fase 2:** Instalación de catenaria (6 meses)
+2. **Fase 2:** Instalación de [INFRAESTRUCTURA PROHIBIDA] (6 meses)
 3. **Fase 3:** Instalación de distribución 13.8 kV (3 meses)
 4. **Fase 4:** Instalación de baja tensión (2 meses)
 5. **Fase 5:** Pruebas y comisionamiento (1 mes)
@@ -299,15 +299,15 @@ Este documento presenta la **ingeniería eléctrica de detalle** para el sistema
 ### **10. CANTIDADES PRINCIPALES**
 
 #### **10.1 Equipos Principales**
-- **Transformadores 230/25 kV:** 8 unidades
+- **Transformadores 230/[ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL]:** 8 unidades
 - **Interruptores 230 kV:** 8 unidades
-- **Interruptores 25 kV:** 28 unidades
+- **Interruptores [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL]:** 28 unidades
 - **Interruptores 13.8 kV:** 20 unidades
 - **UPS:** 16 unidades
 - **Generadores:** 8 unidades
 
 #### **10.2 Cables y Conductores**
-- **Cable 25 kV:** 356 km
+- **Cable [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL]:** 356 km
 - **Cable 13.8 kV:** 178 km
 - **Cable 480V:** 89 km
 - **Cable 220V:** 267 km
@@ -315,7 +315,7 @@ Este documento presenta la **ingeniería eléctrica de detalle** para el sistema
 - **Cable de tierra:** 356 km
 
 #### **10.3 Estructuras y Soportería**
-- **Postes catenaria:** 2,967 unidades
+- **Postes [INFRAESTRUCTURA PROHIBIDA]:** 2,967 unidades
 - **Postes distribución:** 1,483 unidades
 - **Tableros principales:** 20 unidades
 - **Tableros secundarios:** 80 unidades
@@ -370,7 +370,7 @@ Este documento presenta la **ingeniería eléctrica de detalle** para el sistema
 
 #### **13.2 Hitos Principales**
 - **Mes 4:** Terminación subestaciones
-- **Mes 10:** Terminación catenaria
+- **Mes 10:** Terminación [INFRAESTRUCTURA PROHIBIDA]
 - **Mes 13:** Terminación distribución 13.8 kV
 - **Mes 15:** Terminación baja tensión
 - **Mes 16:** Terminación total proyecto
@@ -388,10 +388,10 @@ Este documento presenta la **ingeniería eléctrica de detalle** para el sistema
 - **Comunicaciones:** Funcionales 100%
 
 #### **14.2 Infraestructura Diesel**
-- **Tensión:** 25 kV ±5%
+- **Tensión:** [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] ±5%
 - **Frecuencia:** 50 Hz ±1%
 - **Continuidad:** 100%
-- **Aislación:** > 25 kV
+- **Aislación:** > [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL]
 
 #### **14.3 Distribución**
 - **Tensión:** 13.8 kV ±5%

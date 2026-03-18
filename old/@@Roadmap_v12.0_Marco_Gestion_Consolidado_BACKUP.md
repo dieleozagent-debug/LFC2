@@ -802,7 +802,7 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
   - ✅ ENCE: 5 estaciones
   - ✅ Desvíos: 120 unidades (25 motorizados + 95 manuales)
   - ✅ CCTV: 73 cámaras
-  - ✅ Eliminación completa: Virtual Balise (GNSS)s, Servidor PTC Central, señales LED, LEU
+  - ✅ Eliminación completa: Virtual Balise (GNSS)s, Servidor PTC Central, Señalización en Cabina (Cab-Signaling), LEU
 
 ## 🎉 **PLAN DE CORRECCIÓN DOCUMENTAL INTEGRAL - COMPLETADO EXITOSAMENTE**
 

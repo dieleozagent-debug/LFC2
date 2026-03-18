@@ -74,7 +74,7 @@ Verificar que **TODOS** los documentos del ecosistema documental estén **100% a
 | **Documento** | **Filosofía Anterior** | **Filosofía Actual** | **Estado** |
 |:---|:---:|:---:|:---:|
 | **AT1** | PTC PTC Virtual (FRA 236) | PTC Embarcado + CTC Virtual | ✅ **ACTUALIZADO** |
-| **29_Senalizacion** | Señalización física | Señalización virtual | ✅ **ACTUALIZADO** |
+| **29_Senalizacion** | Filosofía PTC Virtual | Señalización virtual | ✅ **ACTUALIZADO** |
 | **V.1_Detalle** | Virtual Balise (GNSS)s + LED | CTC + PTC embarcado | ✅ **ACTUALIZADO** |
 | **V.2_CTC** | Servidor PTC Central + PTC Virtual (FRA 236) | CTC Virtual centralizado | ✅ **ACTUALIZADO** |
 

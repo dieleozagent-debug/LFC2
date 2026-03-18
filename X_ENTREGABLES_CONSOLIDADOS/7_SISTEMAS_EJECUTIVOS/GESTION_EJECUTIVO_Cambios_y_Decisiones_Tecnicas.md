@@ -43,13 +43,13 @@ Este documento presenta de manera consolidada todas las **Decisiones Técnicas (
 - **Ítem WBS:** 1.1.103 - Software CTC virtual
 - **Tipo:** Actualización de precio
 - **Cambio:** VU actualizado para reflejar capacidades avanzadas
-- **Justificación:** Gestión integral 526 km, arquitectura virtualizada, sin señalización física tradicional, PTC embarcado + 5 ENCE
+- **Justificación:** Gestión integral 526 km, arquitectura virtualizada, sin Filosofía PTC Virtual tradicional, PTC embarcado + 5 ENCE
 - **Capacidades justificadas:**
   - Gestión 526 km de corredor
   - Arquitectura completamente virtualizada
   - Integración PTC embarcado
   - 5 enclavamientos ENCE
-  - Sin señalización física tradicional
+  - Sin Filosofía PTC Virtual tradicional
 - **Impacto:** Actualización de precio por complejidad
 - **Estado:** ✅ Ejecutado
 - **Trazabilidad:** Apéndice Técnico 1 (AT1)

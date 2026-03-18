@@ -213,7 +213,7 @@ Capítulo / Numeral
 Cap. VI, 6.15
 
 8.1 Sistemas de mando, señales y detección de trenes
-Señalización lateral, detección de trenes, circuitos de vía, punto de referencia virtuals.
+Señalización en Cabina (Cab-Signaling), detección de trenes, circuitos de vía, punto de referencia virtuals.
 Cap. VIII, 8.1
 
 8.2 Sistema de control, representaciones de tráfico y detectores auxiliares

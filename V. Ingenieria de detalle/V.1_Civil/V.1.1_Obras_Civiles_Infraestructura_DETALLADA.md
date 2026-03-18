@@ -342,7 +342,7 @@ Este documento presenta la **ingeniería civil de detalle** para las obras civil
 - **Geometría:** Tolerancias FRA/AREMA
 - **Soldadura:** Normas AWS
 - **Señalización:** Funcional 100%
-- **Electrificación:** 25 kV ±5%
+- **Electrificación:** [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] ±5%
 
 ---
 

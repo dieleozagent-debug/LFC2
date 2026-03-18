@@ -174,7 +174,7 @@
 #### **Componentes:**
 - **CCO:** Centro de Control Operativo La Dorada
 - **Estaciones:** 37 estaciones (5 principales + 32 secundarias)
-- **Subestaciones:** 8 subestaciones de 25 kV
+- **Subestaciones:** 8 subestaciones de [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL]
 - **Infraestructura de Soporte:** Edificaciones, accesos, servicios
 
 #### **Enlaces Rápidos:**
@@ -233,7 +233,7 @@
 | **ESPECIALIDAD_02_Ingenieria_Electrica_EJECUTIVO** | Ejecutivo | `2_ESPECIALIDADES_INGENIERIA/` | ⏳ Pendiente |
 
 #### **Componentes:**
-- **Subestaciones:** 8 subestaciones de 25 kV
+- **Subestaciones:** 8 subestaciones de [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL]
 - **Alimentación:** Sistemas de respaldo UPS
 - **Iluminación:** Sistemas LED de alta eficiencia
 - **Puesta a Tierra:** Sistemas de protección

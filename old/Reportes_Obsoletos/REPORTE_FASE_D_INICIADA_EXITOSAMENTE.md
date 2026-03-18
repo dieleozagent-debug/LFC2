@@ -27,7 +27,7 @@ Como Administrador Contractual EPC, confirmo que se ha iniciado exitosamente la 
 ### **🟠 INGENIERÍA ELÉCTRICA DE DETALLE**
 - **Documento:** `V.2.1_Sistema_Alimentacion_Principal_DETALLADO.md`
 - **Contenido:** 250+ líneas de ingeniería eléctrica completa
-- **Especificaciones:** Subestaciones, catenaria, distribución, UPS, generadores
+- **Especificaciones:** Subestaciones, [INFRAESTRUCTURA PROHIBIDA], distribución, UPS, generadores
 - **Estado:** ✅ **COMPLETADO**
 
 ### **🟡 INGENIERÍA MECÁNICA DE DETALLE**
@@ -70,14 +70,14 @@ Como Administrador Contractual EPC, confirmo que se ha iniciado exitosamente la 
 - **Vía férrea:** 178 km con riel FRA/AREMA 60
 - **Durmientes:** 593,000 unidades de concreto pretensado
 - **Balasto:** 356,000 m³ de granito triturado
-- **Señalización física:** 89 señales principales
+- **Filosofía PTC Virtual:** 89 señales principales
 
 ### **2. INGENIERÍA ELÉCTRICA DE DETALLE**
 
 #### **Sistema de Alimentación Principal:**
 - **Subestaciones:** 4 subestaciones (63 MVA, 40 MVA, 40 MVA, 50 MVA)
-- **Transformadores:** 8 unidades 230/25 kV
-- **Interruptores:** 28 unidades 25 kV + 20 unidades 13.8 kV
+- **Transformadores:** 8 unidades 230/[ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL]
+- **Interruptores:** 28 unidades [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] + 20 unidades 13.8 kV
 - **UPS:** 16 unidades con respaldo de 30 minutos
 
 #### **Sistema de Infraestructura Diesel:**

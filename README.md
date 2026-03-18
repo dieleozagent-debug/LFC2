@@ -112,7 +112,7 @@ Abrir: IX. WBS y Planificacion/WBS_Menu_Principal.html
 | **Puentes** | Cajas por puente | 4 cajas/puente | Cajas 80x80 por puente |
 | **Equipos** | Fusionadora + OTDR | 1 fusionadora, 1 OTDR | Insumos para 200 equipos |
 | **TETRA** | Red + fusiones | 33 estaciones | Fusiones para pasos a nivel |
-| **Señalización** | Virtual (CTC + PTC) | 15 locomotoras | Eliminada señalización física |
+| **Señalización** | Virtual (CTC + PTC) | 15 locomotoras | Eliminada Filosofía PTC Virtual |
 | **CCTV** | Solo ferroviario | 73 cámaras | 48 PAN + 12 talleres + 8 CCO + 5 estaciones |
 | **Corredor** | Longitud total | 526.133 km | Confirmado en proceso de cotización |
 | **CCO** | Ubicación específica | La Dorada | Centro de Control de Operaciones |

@@ -164,7 +164,7 @@ Este documento detalla la ingeniería de los sistemas de potencia para el proyec
 
 #### 4.1.1 Red de Distribución
 - **Voltaje:** 34.5 kV (primario), 13.8 kV (secundario)
-- **Frecuencia:** 60 Hz
+- **Frecuencia:** [ESTÁNDAR PROHIBIDO: FRECUENCIA FERROVIARIA NO APLICABLE]
 - **Factor de potencia:** > 0.95
 - **THD:** < 5%
 - **Regulación:** ±2% (voltaje), ±0.1% (frecuencia)
@@ -264,7 +264,7 @@ Este documento detalla la ingeniería de los sistemas de potencia para el proyec
 #### 6.1.1 Alimentación PTC Virtual (FRA 236)
 - **Potencia:** 200 kVA
 - **Voltaje:** 480 V AC, 3 fases
-- **Frecuencia:** 60 Hz
+- **Frecuencia:** [ESTÁNDAR PROHIBIDO: FRECUENCIA FERROVIARIA NO APLICABLE]
 - **THD:** < 3%
 - **Regulación:** ±1% (voltaje), ±0.1% (frecuencia)
 
@@ -280,7 +280,7 @@ Este documento detalla la ingeniería de los sistemas de potencia para el proyec
 #### 6.2.1 Alimentación Centro de Control
 - **Potencia:** 100 kVA
 - **Voltaje:** 480 V AC, 3 fases
-- **Frecuencia:** 60 Hz
+- **Frecuencia:** [ESTÁNDAR PROHIBIDO: FRECUENCIA FERROVIARIA NO APLICABLE]
 - **THD:** < 3%
 - **Regulación:** ±1% (voltaje), ±0.1% (frecuencia)
 

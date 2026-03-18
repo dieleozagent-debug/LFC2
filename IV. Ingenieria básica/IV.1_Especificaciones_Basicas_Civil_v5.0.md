@@ -23,7 +23,7 @@ La obra civil se dimensiona exclusivamente para soportar la arquitectura **PTC V
 
 ---
 
-## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE Red Vital IP / TETRA/EUROBALISE)
+## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE Red Vital IP / TETRA/Nodos GNSS (SICC))
 - ✅ **ELIMINADO:** Obra civil para 37 estaciones Red Vital IP / TETRA (Ahorro masivo en cimentaciones y casetas).
 - ✅ **ELIMINADO:** Instalación de 1,080 Virtual Balise (GNSS)s y sus protecciones mecánicas.
 - ✅ **ELIMINADO:** Fundaciones para LEU (Lineside Electronic Units).

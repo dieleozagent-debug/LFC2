@@ -16,7 +16,7 @@
 #### **🔴 FILOSOFÍA ANTERIOR (ELIMINADA):**
 - **❌ Virtual Balise (GNSS)s:** 1,080 unidades → **0 unidades** (Reemplazado por PTC embarcado)
 - **❌ Servidor PTC Central:** 2 unidades → **0 unidades** (Reemplazado por PTC embarcado)
-- **❌ Señalización física en vía:** Eliminada completamente (CTC virtual)
+- **❌ Filosofía PTC Virtual en vía:** Eliminada completamente (CTC virtual)
 - **❌ LEU:** 1,080 unidades → **0 unidades** (Sistema virtual)
 
 #### **✅ FILOSOFÍA NUEVA (IMPLEMENTADA):**

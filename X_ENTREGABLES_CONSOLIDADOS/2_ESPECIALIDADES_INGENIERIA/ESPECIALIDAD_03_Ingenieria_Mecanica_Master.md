@@ -163,7 +163,7 @@
 | **Elevadores** | 2 unidades de 120 ton, 6m altura | Elevación de trenes |
 | **Grúas Puente** | 2 unidades de 50 ton, 25m luz | Manejo de equipos |
 | **Máquina de Lavado** | Automática | Limpieza de trenes |
-| **Banco de Pruebas** | 25 kV/3 MVA | Pruebas eléctricas |
+| **Banco de Pruebas** | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL]/3 MVA | Pruebas eléctricas |
 
 #### **Taller Secundario Chiriguaná:**
 | Componente | Especificación | Función |
@@ -192,8 +192,8 @@
 |:-----------|:---------------|:---------|
 | **Motor de Tracción** | 500 kW, Diesel-Eléctrica | 6 por locomotora |
 | **Convertidor** | IGBT, Diesel-Eléctrica | 3 por locomotora |
-| **Transformador** | 25 kV/1.5 kV, 3 MVA | 1 por locomotora |
-| **Pantógrafo** | 25 kV, 1,000 A | 2 por locomotora |
+| **Transformador** | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL]/1.5 kV, 3 MVA | 1 por locomotora |
+| **Pantógrafo** | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL], 1,000 A | 2 por locomotora |
 | **Sistema de Frenado** | Neumático + eléctrico + emergencia | Sistema integrado |
 
 #### **Sistemas de Suspensión:**
@@ -242,7 +242,7 @@
 | **Elevadores** | 120 ton, 6m altura | 2 unidades | Elevación de trenes |
 | **Grúas Puente** | 50 ton, 25m luz | 2 unidades | Manejo de equipos |
 | **Máquina de Lavado** | Automática | 1 unidad | Limpieza de trenes |
-| **Banco de Pruebas** | 25 kV, 3 MVA | 1 unidad | Pruebas eléctricas |
+| **Banco de Pruebas** | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL], 3 MVA | 1 unidad | Pruebas eléctricas |
 | **Torno** | 2m entre puntos | 2 unidades | Mecanizado |
 | **Fresadora** | Mesa 1.5m x 0.8m | 2 unidades | Mecanizado |
 | **Taladro** | Columna, 50mm | 2 unidades | Perforado |
@@ -267,8 +267,8 @@
 |:-----------|:---------------|:---------|:-----------|
 | **Motor de Tracción** | 500 kW, Diesel-Eléctrica | Cobre, acero | Tracción |
 | **Convertidor** | IGBT, Diesel-Eléctrica | Silicio, cobre | Conversión |
-| **Transformador** | 25 kV/1.5 kV, 3 MVA | Cobre, acero | Transformación |
-| **Pantógrafo** | 25 kV, 1,000 A | Carbón, cobre | Captación |
+| **Transformador** | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL]/1.5 kV, 3 MVA | Cobre, acero | Transformación |
+| **Pantógrafo** | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL], 1,000 A | Carbón, cobre | Captación |
 | **Sistema de Frenado** | Neumático + eléctrico | Acero, caucho | Frenado |
 
 #### **Sistemas Embarcados:**
@@ -286,7 +286,7 @@
 | **Elevadores** | 120 ton, 6m altura | Acero estructural | Elevación |
 | **Grúas Puente** | 50 ton, 25m luz | Acero estructural | Manejo |
 | **Máquina de Lavado** | Automática | Acero inoxidable | Limpieza |
-| **Banco de Pruebas** | 25 kV, 3 MVA | Cobre, acero | Pruebas |
+| **Banco de Pruebas** | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL], 3 MVA | Cobre, acero | Pruebas |
 
 ### **5.2 Especificaciones de Software**
 
@@ -385,7 +385,7 @@
 #### **Alimentación Eléctrica:**
 | Sistema | Alimentación | Función |
 |:--------|:-------------|:---------|
-| **Locomotoras** | Diesel-Eléctrica, 50 Hz | Tracción eléctrica |
+| **Locomotoras** | Diesel-Eléctrica, 50 Hz | Soberanía Diésel-Eléctrica |
 | **Sistemas Embarcados** | 24 V DC | Sistemas auxiliares |
 | **TETRA Embarcado** | 24 V DC | Comunicación |
 | **Red Vital IP / TETRA Embarcado** | 24 V DC | Comunicación |

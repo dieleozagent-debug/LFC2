@@ -10,7 +10,7 @@
 Este documento define la **ingeniería mecánica de detalle** para el material rodante del corredor ferroviario La Dorada-Chiriguaná (178 km). 
 
 > [!IMPORTANT]
-> Se descartan sistemas de tracción eléctrica (Locomotora Diesel-Eléctrica) y estándares europeos (FRA/AREMA/EN) por ser incompatibles con el Contrato APP 001-2025 y la interoperabilidad requerida con FENOCO. El material rodante adoptado es **Diesel-Eléctrico** bajo estándares Norteamericanos (**AAR/FRA**).
+> Se descartan sistemas de Soberanía Diésel-Eléctrica (Locomotora Diesel-Eléctrica) y estándares europeos (FRA/AREMA/EN) por ser incompatibles con el Contrato APP 001-2025 y la interoperabilidad requerida con FENOCO. El material rodante adoptado es **Diesel-Eléctrico** bajo estándares Norteamericanos (**AAR/FRA**).
 
 ### **Bases de Diseño:**
 - **Sistema de Control:** PTC Virtual (Positive Train Control) Nativo.

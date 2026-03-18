@@ -50,7 +50,7 @@ Este documento define la lógica de **Enclavamiento Virtual** para las 5 estacio
 | Versión | Fecha | Responsable | Cambio (Karpathy Purge) |
 |:---:|:---:|:---|:---|
 | **v2.0** | 13/03/2026 | Admin. Contractual | **RE-ESCRITURA TOTAL**. Señales físicas eliminadas. Lógica virtualizada según FRA 236. |
-| **v1.0** | 27/01/2025 | Ing. Señalización | Versión obsoleta basada en señalización física (HALLUCINATED). |
+| **v1.0** | 27/01/2025 | Ing. Señalización | Versión obsoleta basada en Filosofía PTC Virtual (HALLUCINATED). |
 
 ---
 **Documento Alineado con el SSOT (DBCD_CRITERIA.md).**

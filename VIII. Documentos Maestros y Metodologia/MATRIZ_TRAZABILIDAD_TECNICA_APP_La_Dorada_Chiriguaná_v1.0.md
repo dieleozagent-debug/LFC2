@@ -48,7 +48,7 @@ Esta matriz establece las **referencias cruzadas obligatorias** entre el documen
 | **PTC embarcado 15 locomotoras** | `WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná.html` | Cap. 5.1.3 | ✅ | Presupuesto |
 | **Señalización virtual** | `29_Sistema_Senalizacion_Integrado.md` | Filosofía | ✅ | Ing. Conceptual |
 | **CTC centralizado** | `V.2_Centro_Control_Trafico_CTC_Detalle.md` | Arquitectura | ✅ | Ing. Detalle |
-| **Eliminación señalización física** | `V.1_Senalizacion_Ferroviaria_Detalle.md` | Especificaciones | ✅ | Ing. Detalle |
+| **Eliminación Filosofía PTC Virtual** | `V.1_Senalizacion_Ferroviaria_Detalle.md` | Especificaciones | ✅ | Ing. Detalle |
 | **5 estaciones con ENCE** | `WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguaná.html` | Cap. 5.1.1 | ✅ | Presupuesto |
 | **Sistema PTC obligatorio** | `29_Sistema_Senalizacion_Integrado.md` | Especificaciones | ✅ | Ing. Conceptual |
 | **Interoperabilidad FENOCO** | `29_Sistema_Senalizacion_Integrado.md` | Interfaces | ✅ | Ing. Conceptual |

@@ -79,13 +79,13 @@ Se ha detectado una **desalineación crítica** entre los **Criterios Técnicos 
 - **Acción requerida:** Eliminación completa de todas las referencias
 - **Justificación:** Señalización virtual implementada
 
-#### **2. SEÑALES LED EN VÍA (270 unidades → 0 unidades)**
+#### **2. Señalización en Cabina (Cab-Signaling) EN VÍA (270 unidades → 0 unidades)**
 - **Impacto:** -$12,000,000,000 COP
 - **Documentos afectados:** 6 documentos
 - **Acción requerida:** Eliminación completa de todas las referencias
 - **Justificación:** CTC virtual centralizado
 
-#### **3. Servidor PTC Central - RADIO BLOCK CENTRE (2 unidades → 0 unidades)**
+#### **3. Servidor PTC Central - Servidor PTC Central (2 unidades → 0 unidades)**
 - **Impacto:** -$2,000,000,000 COP
 - **Documentos afectados:** 5 documentos
 - **Acción requerida:** Eliminación completa de todas las referencias

@@ -235,9 +235,9 @@
 
 | Componente | Especificación | Cantidad | Observaciones |
 |:-----------|:---------------|:--------:|:--------------|
-| **Transformador Principal** | 63 MVA, 230/25 kV | 2 unidades | Redundancia N+1 |
+| **Transformador Principal** | 63 MVA, 230/[ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | 2 unidades | Redundancia N+1 |
 | **Interruptor 230 kV** | SF6, 40 kA | 2 unidades | Entrada principal |
-| **Interruptor 25 kV** | SF6, 25 kA | 8 unidades | Salidas tracción |
+| **Interruptor [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL]** | SF6, 25 kA | 8 unidades | Salidas tracción |
 | **Interruptor 13.8 kV** | SF6, 12.5 kA | 6 unidades | Servicios auxiliares |
 | **UPS** | 100 kVA, 30 min | 2 unidades | Redundancia |
 | **Generador Emergencia** | 500 kVA, diesel | 2 unidades | Redundancia |
@@ -250,15 +250,15 @@
 | **Cable de Contacto** | Cobre 120 mm² | Conductor principal |
 | **Cable Portador** | Acero-aluminio 240 mm² | Soporte mecánico |
 | **Postes** | Concreto pretensado 15m | Cada 60m promedio |
-| **Aisladores** | Porcelana, 25 kV | Aislación principal |
+| **Aisladores** | Porcelana, [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | Aislación principal |
 
 #### **Seccionadores y Protecciones:**
 
 | Ubicación | Tipo | Cantidad | Función |
 |:----------|:-----|:--------:|:--------|
-| **Cada 10 km** | Seccionador 25 kV | 18 unidades | Seccionamiento |
-| **Cada 5 km** | Interruptor 25 kV | 36 unidades | Protección |
-| **Cada 2 km** | Fusible 25 kV | 89 unidades | Protección secundaria |
+| **Cada 10 km** | Seccionador [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | 18 unidades | Seccionamiento |
+| **Cada 5 km** | Interruptor [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | 36 unidades | Protección |
+| **Cada 2 km** | Fusible [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | 89 unidades | Protección secundaria |
 | **Cada estación** | Interruptor principal | 8 unidades | Protección estación |
 
 ---

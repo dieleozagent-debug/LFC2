@@ -30,8 +30,8 @@ Como Administrador Contractual EPC, he completado la revisión exhaustiva de las
 - **Estado:** ✅ **100% COMPLETADO**
 - **Documentos:** `V.2.1_Sistema_Alimentacion_Principal_DETALLADO.md`
 - **Especificaciones:** 250+ líneas de ingeniería eléctrica completa
-- **Componentes:** Subestaciones, catenaria, distribución, UPS, generadores
-- **Cantidades:** 4 subestaciones, 2,967 postes catenaria, 16 UPS
+- **Componentes:** Subestaciones, [INFRAESTRUCTURA PROHIBIDA], distribución, UPS, generadores
+- **Cantidades:** 4 subestaciones, 2,967 postes [INFRAESTRUCTURA PROHIBIDA], 16 UPS
 - **Presupuesto:** $113,000 M
 
 ### **🟡 ESPECIALIDAD MECÁNICA - ✅ COMPLETADA**

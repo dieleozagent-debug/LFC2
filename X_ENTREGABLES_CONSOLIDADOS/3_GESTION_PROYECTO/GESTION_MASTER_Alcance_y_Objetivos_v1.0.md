@@ -228,7 +228,7 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 - **Movimiento de tierras:** Excavaciones, rellenos
 
 #### **Ingeniería Eléctrica:**
-- **Subestaciones:** 8 subestaciones de 25 kV
+- **Subestaciones:** 8 subestaciones de [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL]
 - **Alimentación:** Sistemas de respaldo UPS
 - **Iluminación:** Sistemas LED de alta eficiencia
 - **Puesta a tierra:** Sistemas de protección

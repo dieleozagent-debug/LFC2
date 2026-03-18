@@ -187,7 +187,7 @@ Este documento contiene las especificaciones técnicas detalladas, planos constr
 
 #### **3.2.1 Alimentación Principal**
 - **Fuente:** Red eléctrica local (cuando disponible)
-- **Voltaje:** 220V AC, 60 Hz
+- **Voltaje:** 220V AC, [ESTÁNDAR PROHIBIDO: FRECUENCIA FERROVIARIA NO APLICABLE]
 - **Protección:** Interruptor diferencial 30mA
 - **Cantidad:** 24 conexiones (PN Tipo B + C)
 

@@ -61,7 +61,7 @@ window.wbsMetadataEnriquecida = {
       "criterios_diseno": [
         "Cumplimiento CENELEC EN 50126/128/129",
         "SIL 4 para funciones vitales de seguridad",
-        "Interfaz con eurobaliza y odómetro"
+        "Interfaz con Nodos GNSS (SICC) y odómetro"
       ],
       "supuestos": [
         "5 locomotoras operativas según AT1 Â§3.1",

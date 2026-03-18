@@ -29,7 +29,7 @@ Este documento establece el **flujo universal** de referencias cruzadas que se a
 - **Estado:** En actualización con proceso de cotización
 
 ### **3. SEÑALIZACIÓN VIRTUAL** 🔄 **EN PROCESO**
-- **Criterio maestro:** CTC + PTC embarcado (eliminada señalización física)
+- **Criterio maestro:** CTC + PTC embarcado (eliminada Filosofía PTC Virtual)
 - **Documentos afectados:** 8 documentos
 - **Estado:** Actualizando con respuestas LFC
 

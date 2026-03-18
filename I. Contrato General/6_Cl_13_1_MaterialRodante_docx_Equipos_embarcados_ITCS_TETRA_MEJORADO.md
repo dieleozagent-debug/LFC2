@@ -15,14 +15,14 @@
 ---
 
 ## 🔍 INTERPRETACIÓN TÉCNICA-CONTRACTUAL
-La arquitectura adoptada es **PTC VIRTUAL**. Esto implica la eliminación total de señalización física wayside y circuitos de vía continuos. El material rodante es el componente crítico de detección, utilizando su propia posición (GPS + Edometría) para reportar integridad y recibir Autorizaciones de Movimiento (Movement Authority) desde el CCO.
+La arquitectura adoptada es **PTC VIRTUAL**. Esto implica la eliminación total de Filosofía PTC Virtual wayside y circuitos de vía continuos. El material rodante es el componente crítico de detección, utilizando su propia posición (GPS + Edometría) para reportar integridad y recibir Autorizaciones de Movimiento (Movement Authority) desde el CCO.
 - **Estándar:** FRA 49 CFR Part 236 Subpart I.
 - **Detección:** Moving Block virtual. No requiere enclavamientos locales adicionales a los 5 ENCE contractuales.
 
 ---
 
 ## ⚠️ IMPLICACIONES PARA EL EPC (CONSTRUCTOR)
-**Riesgo:** Sobrecosto y retraso por intentar implementar estándares europeos (PTC VIRTUAL/FRA/AREMA) o señalización física (WAYSIDE) que NO son requeridos y dificultan la interoperabilidad con FENOCO.
+**Riesgo:** Sobrecosto y retraso por intentar implementar estándares europeos (PTC VIRTUAL/FRA/AREMA) o Filosofía PTC Virtual (WAYSIDE) que NO son requeridos y dificultan la interoperabilidad con FENOCO.
 **Acción:**
 1. Descartar cualquier diseño de locomotoras basado en PTC Virtual (FRA 236) por no ser el estándar del proyecto.
 2. Especificar equipamiento embarcado PTC compatible con FRA 236.
@@ -39,7 +39,7 @@ La arquitectura adoptada es **PTC VIRTUAL**. Esto implica la eliminación total 
 
 ### 2. INTEGRACIÓN CON DOCUMENTOS RELACIONADOS
 - [x] **DBCD_CRITERIA.md** — Fuente única de verdad.
-- [wip] **III.25.1_WBS** — Debe actualizarse para eliminar la partida presupuestal de señalización física wayside.
+- [wip] **III.25.1_WBS** — Debe actualizarse para eliminar la partida presupuestal de Filosofía PTC Virtual wayside.
 
 | Versión | Fecha       | Responsable                | Descripción                              |
 |:------:|:-----------:|:---------------------------|:-----------------------------------------|

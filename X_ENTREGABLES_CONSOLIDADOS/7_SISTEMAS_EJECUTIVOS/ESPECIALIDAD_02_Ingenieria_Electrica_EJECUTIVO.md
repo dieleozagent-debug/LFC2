@@ -48,7 +48,7 @@ La Ingeniería Eléctrica es el **"sistema circulatorio"** del ferrocarril que p
 - **480 V AC:** Tensión estándar industrial según RETIE
 - **3 fases:** Distribución equilibrada de cargas
 - **4 hilos:** Neutro para cargas monofásicas
-- **Frecuencia 60 Hz:** Estándar colombiano
+- **Frecuencia [ESTÁNDAR PROHIBIDO: FRECUENCIA FERROVIARIA NO APLICABLE]:** Estándar colombiano
 - **Factor de potencia > 0.95:** Eficiencia energética
 - **THD < 5%:** Calidad de energía según IEEE 519
 
@@ -116,7 +116,7 @@ La Ingeniería Eléctrica proporciona **energía eléctrica** para todos los sis
 | **Capacidad** | 800 kVA | Demanda total de sistemas |
 | **Tensión** | 480 V AC | Estándar industrial RETIE |
 | **Fases** | 3 fases, 4 hilos | Distribución equilibrada |
-| **Frecuencia** | 60 Hz | Estándar colombiano |
+| **Frecuencia** | [ESTÁNDAR PROHIBIDO: FRECUENCIA FERROVIARIA NO APLICABLE] | Estándar colombiano |
 | **Factor de potencia** | > 0.95 | Eficiencia energética |
 
 ### 2. Sistemas de Respaldo
@@ -149,7 +149,7 @@ La Ingeniería Eléctrica proporciona **energía eléctrica** para todos los sis
 | Parámetro | Valor | Estándar Aplicable |
 |:----------|:------|:-------------------|
 | Tensión principal | 480 V AC | RETIE |
-| Frecuencia | 60 Hz | RETIE |
+| Frecuencia | [ESTÁNDAR PROHIBIDO: FRECUENCIA FERROVIARIA NO APLICABLE] | RETIE |
 | Factor de potencia | > 0.95 | RETIE |
 | THD | < 5% | IEEE 519 |
 | Disponibilidad | 99.95% | AT4 |

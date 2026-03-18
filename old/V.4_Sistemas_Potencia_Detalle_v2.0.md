@@ -206,7 +206,7 @@ Este documento detalla la ingeniería de los **sistemas de potencia para torres 
 #### 3.4.1 Torre Individual (37 Torres)
 - **Potencia:** 0.5 MVA (TETRA + Red Vital IP / TETRA)
 - **Voltaje:** 480 V AC, 3 fases
-- **Frecuencia:** 60 Hz
+- **Frecuencia:** [ESTÁNDAR PROHIBIDO: FRECUENCIA FERROVIARIA NO APLICABLE]
 - **THD:** < 5%
 - **Regulación:** ±2% (voltaje), ±0.1% (frecuencia)
 
@@ -231,7 +231,7 @@ Este documento detalla la ingeniería de los **sistemas de potencia para torres 
 
 #### 4.1.1 Red de Distribución Colocalizada
 - **Voltaje:** 34.5 kV (primario), 13.8 kV (secundario), 480 V (torres)
-- **Frecuencia:** 60 Hz
+- **Frecuencia:** [ESTÁNDAR PROHIBIDO: FRECUENCIA FERROVIARIA NO APLICABLE]
 - **Factor de potencia:** > 0.95
 - **THD:** < 5%
 - **Regulación:** ±2% (voltaje), ±0.1% (frecuencia)
@@ -333,7 +333,7 @@ Este documento detalla la ingeniería de los **sistemas de potencia para torres 
 #### 6.1.1 Alimentación PTC Embarcado
 - **Potencia:** 300 kVA (15 locomotoras)
 - **Voltaje:** 480 V AC, 3 fases
-- **Frecuencia:** 60 Hz
+- **Frecuencia:** [ESTÁNDAR PROHIBIDO: FRECUENCIA FERROVIARIA NO APLICABLE]
 - **THD:** < 3%
 - **Regulación:** ±1% (voltaje), ±0.1% (frecuencia)
 
@@ -349,7 +349,7 @@ Este documento detalla la ingeniería de los **sistemas de potencia para torres 
 #### 6.2.1 Alimentación Centro de Control Virtual
 - **Potencia:** 150 kVA
 - **Voltaje:** 480 V AC, 3 fases
-- **Frecuencia:** 60 Hz
+- **Frecuencia:** [ESTÁNDAR PROHIBIDO: FRECUENCIA FERROVIARIA NO APLICABLE]
 - **THD:** < 3%
 - **Regulación:** ±1% (voltaje), ±0.1% (frecuencia)
 
@@ -365,7 +365,7 @@ Este documento detalla la ingeniería de los **sistemas de potencia para torres 
 #### 6.3.1 Alimentación Torres Colocalizadas
 - **Potencia:** 185 kVA (37 torres)
 - **Voltaje:** 480 V AC, 3 fases
-- **Frecuencia:** 60 Hz
+- **Frecuencia:** [ESTÁNDAR PROHIBIDO: FRECUENCIA FERROVIARIA NO APLICABLE]
 - **THD:** < 3%
 - **Regulación:** ±1% (voltaje), ±0.1% (frecuencia)
 

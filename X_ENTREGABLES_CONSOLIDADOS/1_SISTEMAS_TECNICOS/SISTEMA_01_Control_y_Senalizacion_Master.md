@@ -97,7 +97,7 @@ El Sistema de Control y Señalización implementa una **filosofía virtual** bas
 ### 2.3 Criterios de Diseño Iniciales
 **Criterios establecidos en fase conceptual**
 
-- **Filosofía Virtual:** Eliminación total de señalización física
+- **Filosofía Virtual:** Eliminación total de Filosofía PTC Virtual
 - **Control Centralizado:** CTC desde CCO con redundancia N+1
 - **PTC Embarcado:** Sistema de protección a bordo
 - **Comunicaciones Redundantes:** Red Vital IP / TETRA + TETRA + Fibra óptica

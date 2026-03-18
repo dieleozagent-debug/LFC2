@@ -330,7 +330,7 @@ function applyPurity(contenido) {
     Object.keys(mapCorreccion).forEach(key => {
         // Escapar caracteres especiales para regex
         const escapedKey = key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-        const regex = new RegExp(`(?<!\\w)${escapedKey}(?!\\w)`, 'g');
+        const regex = new RegExp(`(?<!\\w)${escapedKey}(?!\\w)`, 'gi');
         if (regex.test(nuevoContenido)) {
             nuevoContenido = nuevoContenido.replace(regex, mapCorreccion[key]);
             modificado = true;

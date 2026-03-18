@@ -25,7 +25,7 @@ Los 5 enclavamientos electrónicos (ENCE) operan como nodos inteligentes bajo el
 
 Se han corregido los siguientes errores técnicos de la v5.0:
 - ✅ **ELIMINADO:** El requisito de comunicación ENCE-Servidor PTC Central. El ENCE ahora habla directamente con el **Servidor PTC Maestro**.
-- ✅ **ELIMINADO:** Cualquier interfaz física o lógica para punto de referencia virtuals o señales LED de vía.
+- ✅ **ELIMINADO:** Cualquier interfaz física o lógica para punto de referencia virtuals o Señalización en Cabina (Cab-Signaling) de vía.
 - ✅ **ELIMINADO:** Protocolos de comunicación duales TETRA/Red Vital IP / TETRA en el hardware ENCE.
 - ✅ **CORREGIDO:** El dimensionamiento de los gabinetes ENCE se reduce al eliminar módulos de interfaz propietarios de terceros.
 

@@ -64,15 +64,15 @@ Este documento presenta el **plan de integración de sistemas completo** para el
 #### **2.1 Canalizaciones Eléctricas**
 | Ubicación | Tipo | Cantidad | Observaciones |
 |:----------|:-----|:--------:|:--------------|
-| **Vía principal** | Canalización subterránea | 178 km | 25 kV + servicios |
-| **Estaciones** | Canalización subterránea | 8 estaciones | 25 kV + servicios |
-| **Puentes** | Canalización aérea | 8 puentes | 25 kV + servicios |
-| **Túneles** | Canalización aérea | 4 túneles | 25 kV + servicios |
+| **Vía principal** | Canalización subterránea | 178 km | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] + servicios |
+| **Estaciones** | Canalización subterránea | 8 estaciones | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] + servicios |
+| **Puentes** | Canalización aérea | 8 puentes | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] + servicios |
+| **Túneles** | Canalización aérea | 4 túneles | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] + servicios |
 
 #### **2.2 Bases de Equipos Eléctricos**
 | Equipo | Base | Cantidad | Observaciones |
 |:-------|:-----|:--------:|:--------------|
-| **Postes catenaria** | Base de concreto | 2,967 unidades | Anclaje estructural |
+| **Postes [INFRAESTRUCTURA PROHIBIDA]** | Base de concreto | 2,967 unidades | Anclaje estructural |
 | **Postes distribución** | Base de concreto | 1,483 unidades | Anclaje estructural |
 | **Subestaciones** | Base de concreto | 4 subestaciones | Anclaje estructural |
 | **Equipos de línea** | Base de concreto | 500 unidades | Anclaje estructural |
@@ -231,7 +231,7 @@ Este documento presenta el **plan de integración de sistemas completo** para el
 | Sistema | Función | Ubicación | Observaciones |
 |:--------|:---------|:----------|:--------------|
 | **Control de subestaciones** | Control de subestaciones | Cada subestación | Control local |
-| **Control de catenaria** | Control de catenaria | Cada 10 km | Control distribuido |
+| **Control de [INFRAESTRUCTURA PROHIBIDA]** | Control de [INFRAESTRUCTURA PROHIBIDA] | Cada 10 km | Control distribuido |
 | **Control de distribución** | Control de distribución | Cada estación | Control local |
 | **Control de puesta a tierra** | Monitoreo de puesta a tierra | Cada 1 km | Control distribuido |
 

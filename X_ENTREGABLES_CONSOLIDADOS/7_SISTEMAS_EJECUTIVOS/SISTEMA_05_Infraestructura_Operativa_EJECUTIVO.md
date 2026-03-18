@@ -155,8 +155,8 @@ El Sistema de Infraestructura Operativa proporciona **soporte físico** para la 
 **Componentes instalados:**
 | Componente | Cantidad | Especificación | Estado |
 |:-----------|:---------|:---------------|:-------|
-| Subestaciones principales | 8 unidades | 25 kV, 50 MVA | ⏳ En construcción |
-| Transformadores | 16 unidades | 25 kV/0.4 kV | ⏳ En construcción |
+| Subestaciones principales | 8 unidades | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL], 50 MVA | ⏳ En construcción |
+| Transformadores | 16 unidades | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL]/0.4 kV | ⏳ En construcción |
 | Sistemas de respaldo | 8 unidades | UPS + Generadores | ⏳ En construcción |
 | Sistemas de puesta a tierra | 8 unidades | Protección contra rayos | ⏳ En construcción |
 | Sistemas de monitoreo | 8 unidades | SCADA eléctrico | ⏳ En construcción |
@@ -186,7 +186,7 @@ El Sistema de Infraestructura Operativa proporciona **soporte físico** para la 
 |:----------|:------|:-------------------|
 | Capacidad CCO | 500 operadores | NSR-10 |
 | Capacidad subestaciones | 50 MVA | RETIE |
-| Tensión de operación | 25 kV | RETIE |
+| Tensión de operación | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | RETIE |
 | Disponibilidad CCO | 99.95% | EN 50126 |
 | Disponibilidad subestaciones | 99.95% | RETIE |
 | Eficiencia energética | 90% | RETIE |
@@ -194,7 +194,7 @@ El Sistema de Infraestructura Operativa proporciona **soporte físico** para la 
 ### Criterios de aceptación
 - ✅ CCO con capacidad para 500 operadores
 - ✅ 37 estaciones con servicios completos
-- ✅ 8 subestaciones de 25 kV
+- ✅ 8 subestaciones de [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL]
 - ✅ Disponibilidad 99.95% de infraestructura crítica
 - ✅ Cumplimiento normativo NSR-10 y RETIE
 
