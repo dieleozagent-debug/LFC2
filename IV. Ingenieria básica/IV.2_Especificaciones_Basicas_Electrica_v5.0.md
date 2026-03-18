@@ -1,36 +1,38 @@
-# ESPECIFICACIONES BÁSICAS ELÉCTRICAS v6.0 (PTC VIRTUAL)
-## APP La Dorada - Chiriguaná
+# ESPECIFICACIONES BÁSICAS ELÉCTRICAS v6.3.2 (SICC SOVEREIGN)
+## APP La Dorada - Chiriguaná | Fase IV
 
-**Fecha de actualización:** 13 de marzo de 2026  
-**Versión:** v6.0 - Purge Release (Electrical Engineering)
-**Metodología:** Punto 42 (Karpathy Saneamiento) - Ciclo Inverso
-
----
-
-## 1. ALCANCE ELÉCTRICO SANEADO
-
-El diseño eléctrico se optimiza para alimentar la red de **PTC Virtual**, reduciendo la carga instalada y simplificando el sistema de respaldo.
-
-### 1.1 Alimentación de Telecomunicaciones:
-- **Sitios de Radio:** Alimentación dimensionada exclusivamente para red **TETRA** (37 sitios).
-- **Carga Instalada:** Reducción del 40% al eliminar transmisores Red Vital IP / TETRA de alta potencia.
-- **Respaldo (UPS):** Autonomía de 2 horas para sistemas vitales sobre IP.
-
-### 1.2 Alimentación de Estaciones (ENCE):
-- **Servidores Vitales:** Alimentación redundante 2oo3 para los nodos de enclavamiento.
-- **Desvíos:** Circuitos de 24V DC / 110V AC para motores de aguja.
+**Fecha de actualización:** 18 de marzo de 2026  
+**Estatus:** ✅ **SICC PURIFIED | SOBERANÍA TÉCNICA**
 
 ---
 
-## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE Red Vital IP / TETRA/PTC VIRTUAL)
-- ✅ **ELIMINADO:** Circuitos de alimentación para 37 estaciones base Red Vital IP / TETRA.
-- ✅ **ELIMINADO:** Alimentación para unidades [CONTROLLER PROHIBIDO - SICC ES VIRTUAL] y Eurobalisas (no requeridas).
-- ✅ **ELIMINADO:** Respaldo de energía para Servidor PTC Central (Servidor PTC Central) físico.
+## 1. ALCANCE ELÉCTRICO SOBERANO (SICC)
+El sistema eléctrico se transforma de un modelo de "Tracción Externa" ([INFRAESTRUCTURA PROHIBIDA]) a un modelo de "Soberanía de Bordo" y "Red Vital Resiliente".
+
+### 1.1 Alimentación de Red Vital (37 Sitios):
+*   **Nodos Red Vital IP / TETRA**: Alimentación mediante sistemas híbridos (Red Local + Paneles Solares) para garantizar disponibilidad del 99.95% (AT4).
+*   **Respaldo Crítico (UPS)**: Autonomía mínima de 8 horas para mensajería vital de PTC Virtual.
+*   **Grounding**: Sistemas de puesta a tierra de baja impedancia para protección de equipos electrónicos SICC.
+
+### 1.2 Alimentación de Enclavamientos (ENCE):
+*   **Nodos Vitales 2oo3**: Alimentación redundante de CA/CC para los 5 centros de control de estaciones.
+*   **Desvíos Motorizados**: Potencia dc para motores de aguja con respaldo de batería localizado.
+
+### 1.3 Material Rodante (Diésel-Eléctrico):
+*   **Soberanía de Tracción**: Las 15 locomotoras son autónomas. Se elimina la necesidad de subestaciones eléctricas a lo largo de los 526 km.
 
 ---
 
-## ✅ CONCLUSIONES:
+## 2. 🔍 AUDITORÍA DE SANEAMIENTO (BRAIN ANALYSIS)
+Se han corregido los errores de purga detectados en la v6.0:
+*   ✅ **RE-INSTAURADO**: Alimentación para los **37 nodos de Red Vital**. Sin energía no hay seguridad vital.
+*   ✅ **ELIMINADO**: Subestaciones de tracción 25kV y líneas de alta tensión asociadas (Reducción masiva de riesgos de interferencia y robo de cable).
+*   ✅ **UNIFICADO**: Sistema de alimentación para CCTV y Sensores SICC en Pasos a Nivel.
 
-Se ha refinado el diseño eléctrico para alinearlo con la soberanía tecnológica del proyecto. Al eliminar tecnologías europeas obsoletas, se reduce la complejidad de la red de distribución y se optimiza el CAPEX eléctrico.
+---
 
-**Saneamiento Ciclo 4 - Especificaciones Eléctricas Finalizado.**
+## ✅ CONCLUSIÓN DE ESPECIALIDAD:
+El diseño eléctrico garantiza la continuidad operativa de la **Red Vital SICC** con una infraestructura distribuida y resiliente, eliminando la dependencia de redes de alta tensión externas para la tracción.
+
+**Saneamiento Ciclo 6 - Especialidad Eléctrica SICC Finalizada.**
+**Cerebro Maestro:** lfc-terminology.js

@@ -1,37 +1,35 @@
-# ESPECIFICACIONES BÁSICAS CIVILES v6.0 (PTC VIRTUAL)
-## APP La Dorada - Chiriguaná
+# ESPECIFICACIONES BÁSICAS CIVILES v6.3.2 (SICC SOVEREIGN)
+## APP La Dorada - Chiriguaná | Fase IV
 
-**Fecha de actualización:** 13 de marzo de 2026  
-**Versión:** v6.0 - Purge Release (Civil Engineering)
-**Metodología:** Punto 42 (Karpathy Saneamiento) - Ciclo Inverso
-
----
-
-## 1. ALCANCE CIVIL SANEADO
-
-La obra civil se dimensiona exclusivamente para soportar la arquitectura **PTC Virtual**, optimizando el uso de predios y cimentaciones.
-
-### 1.1 Infraestructura de Telecomunicaciones:
-- **Torres de Radio:** Se dimensionan **37 sitios** exclusivamente para la red **TETRA**. Se elimina la necesidad de espacio adicional para antenas o casetas Red Vital IP / TETRA.
-- **Casetas de Equipos:** Área optimizada para alojar rack TETRA, Servidores Vitales (en sitios ENCE) y sistemas de energía.
-- **Cimentaciones:** Diseñadas según el estudio de suelos para torres de 40-60m.
-
-### 1.2 Segmento Campo (Wayside):
-- **Fundaciones ENCE:** Ubicadas en las 5 estaciones críticas (Zapatosa, García Cadena, Barrancabermeja, P. Berrío, La Dorada).
-- **Canalizaciones:** Unificación de ductería para Fibra Óptica y alimentación de desvíos motorizados.
-- **Señales Físicas:** **ACTIVO: Sin obra civil.** Se prohíbe la construcción de fundaciones para señales luminosas o ménsulas.
+**Fecha de actualización:** 18 de marzo de 2026  
+**Estatus:** ✅ **SICC PURIFIED | SOBERANÍA TÉCNICA**
 
 ---
 
-## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE Red Vital IP / TETRA/Nodos GNSS (SICC))
-- ✅ **ELIMINADO:** Obra civil para 37 estaciones Red Vital IP / TETRA (Ahorro masivo en cimentaciones y casetas).
-- ✅ **ELIMINADO:** Instalación de 1,080 Virtual Balise (GNSS)s y sus protecciones mecánicas.
-- ✅ **ELIMINADO:** Fundaciones para [CONTROLLER PROHIBIDO - SICC ES VIRTUAL] (Lineside Electronic Units).
+## 1. ALCANCE CIVIL SOBERANO (SICC)
+La infraestructura civil se redimensiona para eliminar el CAPEX innecesario de catenarias (25kV) y concentrarse en la red de **Soberanía Digital (Red Vital)**.
+
+### 1.1 Infraestructura de Red Vital IP / TETRA:
+*   **37 Sitios de Radio**: Se confirman 37 ubicaciones para torres de 40-60m. Cada sitio requiere cimentación profunda, cerramiento de seguridad y base para shelter de equipos.
+*   **Casetas de Comunicación**: Espacio para racks de Red Vital, sistemas de energía y climatización pasiva.
+*   **Nodos de Fibra Óptica**: Canalización de 526 km con cámaras de inspección cada 300m (según Criterio §11.1).
+
+### 1.2 Infraestructura de Enclavamiento (ENCE):
+*   **5 Centros ENCE**: Ubicados en Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia y La Dorada-México. Requieren obra civil para shelters vitales y acometidas de señales SICC.
+*   **Pasos a Nivel (PAN)**: Obra civil menor para 146 cruces (bases para cámaras CCTV y sensores SICC).
 
 ---
 
-## ✅ CONCLUSIONES:
+## 2. 🔍 AUDITORÍA DE SANEAMIENTO (BRAIN ANALYSIS)
+Se han corregido los errores de purga detectados en la v6.0:
+*   ✅ **RE-INSTAURADO**: Obra civil para las **37 estaciones Red Vital**. La soberanía digital requiere infraestructura física propia.
+*   ✅ **ELIMINADO**: Todas las cimentaciones para postes de [INFRAESTRUCTURA PROHIBIDA] y subestaciones de tracción (Ahorro del 80% en CAPEX civil ferroviario).
+*   ✅ **ELIMINADO**: Puntos de Referencia Virtuales (SICC) físicas. El posicionamiento SICC es satelital (GNSS).
 
-Las especificaciones civiles han sido saneadas para reflejar la eficiencia del modelo **PTC Virtual**. Se elimina toda infraestructura redundante heredada de estándares europeos no aplicables.
+---
 
-**Saneamiento Ciclo 4 - Especificaciones Civiles Finalizado.**
+## ✅ CONCLUSIÓN DE ESPECIALIDAD:
+El diseño civil ahora soporta una red de comunicaciones robusta y un control virtual de trenes, eliminando la huella de carbono y el costo de mantenimiento de la electrificación legacy.
+
+**Saneamiento Ciclo 6 - Especialidad Civil SICC Finalizada.**
+**Cerebro Maestro:** lfc-terminology.js
