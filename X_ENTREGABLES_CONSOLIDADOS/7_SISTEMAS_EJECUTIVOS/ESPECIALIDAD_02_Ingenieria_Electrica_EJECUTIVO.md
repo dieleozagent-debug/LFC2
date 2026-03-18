@@ -36,7 +36,7 @@ La Ingeniería Eléctrica es el **"sistema circulatorio"** del ferrocarril que p
 |:--------|:--------|:--------------|
 | **CTC** | 50 kVA | Centro de control operacional |
 | **PTC Embarcado** | 30 kVA | 15 locomotoras × 2 kVA c/u |
-| **ENCE** | 25 kVA | 5 estaciones × 5 kVA c/u |
+| **ENCE** | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | 5 estaciones × 5 kVA c/u |
 | **Telecomunicaciones** | 296 kVA | 37 estaciones × 8 kVA c/u |
 | **ITS y Seguridad** | 150 kVA | CCTV, sistemas de seguridad |
 | **Iluminación y servicios** | 249 kVA | Edificaciones y servicios |

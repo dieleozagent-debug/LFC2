@@ -50,7 +50,7 @@
 
 #### **Criterios Técnicos Maestros Consolidados:**
 - **Alimentación Principal:** 480 V AC, 3 fases, 4 hilos, 800 kVA total
-- **Sistemas Críticos:** CTC (50 kVA), PTC Embarcado (30 kVA), ENCE (25 kVA)
+- **Sistemas Críticos:** CTC (50 kVA), PTC Embarcado (30 kVA), ENCE ([ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL])
 - **Sistemas de Respaldo:** UPS 400 kVA, Generador 600 kVA, Baterías 200 kVA
 - **Disponibilidad:** 99.95% para sistemas críticos según AT4
 - **Eficiencia Energética:** Factor de potencia > 0.95, THD < 5%

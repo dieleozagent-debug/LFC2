@@ -26,7 +26,7 @@ El diseño se basa en la arquitectura **PTC Virtual** (Positive Train Control), 
 Se han purgado de la v5.0 las siguientes alucinaciones técnicas:
 1. **ELIMINADO PTC Virtual (FRA 236):** Se reemplaza por **FRA 236 I (PTC)**.
 2. **ELIMINADO Señalización en Cabina (Cab-Signaling):** No hay señales físicas en el campo.
-3. **ELIMINADO EUROBALIZAS:** El posicionamiento es via GNSS/EOT.
+3. **ELIMINADO Puntos de Referencia Virtuales (SICC):** El posicionamiento es via GNSS/EOT.
 
 ---
 

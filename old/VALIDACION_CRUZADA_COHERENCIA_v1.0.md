@@ -66,7 +66,7 @@ Verificar que **TODOS** los documentos del ecosistema documental estén **100% a
 | **Virtual Balise (GNSS)s** | 1,080 unidades | 0 unidades | AT1, 23, 29, V.1, V.2 | ✅ **ELIMINADO** |
 | **Señalización en Cabina (Cab-Signaling) vía** | 270 unidades | 0 unidades | AT1, 23, 29, V.1 | ✅ **ELIMINADO** |
 | **Servidor PTC Central** | 2 unidades | 0 unidades | AT1, 23, 29, V.2 | ✅ **ELIMINADO** |
-| **LEU** | 1,080 unidades | 0 unidades | AT1, 23, 29, V.1 | ✅ **ELIMINADO** |
+| **[CONTROLLER PROHIBIDO - SICC ES VIRTUAL]** | 1,080 unidades | 0 unidades | AT1, 23, 29, V.1 | ✅ **ELIMINADO** |
 
 ### **2. VALIDACIÓN DE FILOSOFÍA TÉCNICA**
 

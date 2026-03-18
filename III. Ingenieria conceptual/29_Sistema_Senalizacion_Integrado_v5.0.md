@@ -19,7 +19,7 @@ El sistema de señalización se define como **VIRTUAL**, eliminando señales fí
 Este documento purga la v5.0 de las siguientes inconsistencias:
 1. **ELIMINADO PTC Virtual (FRA 236):** Se sustituye por arquitectura **PTC Virtual** (FRA 236).
 2. **ELIMINADO INTERFAZ Servidor PTC Central:** No hay centros de bloque de radio europeos.
-3. **ELIMINADO EUROBALIZAS:** Detección lógica mediante GPS/EOT.
+3. **ELIMINADO Puntos de Referencia Virtuales (SICC):** Detección lógica mediante GPS/EOT.
 
 ---
 

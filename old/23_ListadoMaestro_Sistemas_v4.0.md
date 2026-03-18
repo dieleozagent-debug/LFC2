@@ -51,7 +51,7 @@ Este documento de soporte consolida el inventario maestro de todos los sistemas 
 - **❌ Virtual Balise (GNSS)s:** 1,080 unidades → **0 unidades** (Señalización virtual implementada)
 - **❌ Señalización en Cabina (Cab-Signaling) en vía:** 270 unidades → **0 unidades** (CTC virtual centralizado)
 - **❌ Servidor PTC Central - Servidor PTC Central:** 2 unidades → **0 unidades** (PTC embarcado)
-- **❌ LEU - Lineside Electronic Units:** 1,080 unidades → **0 unidades** (Sistema PTC embarcado)
+- **❌ [CONTROLLER PROHIBIDO - SICC ES VIRTUAL] - Lineside Electronic Units:** 1,080 unidades → **0 unidades** (Sistema PTC embarcado)
 
 #### **🆕 IMPLEMENTACIONES NUEVAS (Según Criterios Maestros):**
 - **✅ Red Vital IP / TETRA:** NO incluido → **37 estaciones** (Redundancia con TETRA)
@@ -108,7 +108,7 @@ Este documento consolida el Listado Maestro de Sistemas que el EPC debe implemen
 - **Virtual Balise (GNSS)s:** 1,080 unidades → **0 unidades** (Reemplazado por PTC embarcado)
 - **Señalización en Cabina (Cab-Signaling) en vía:** 270 unidades → **0 unidades** (Reemplazado por CTC virtual)
 - **Servidor PTC Central:** 2 unidades → **0 unidades** (Reemplazado por PTC embarcado)
-- **LEU:** 1,080 unidades → **0 unidades** (Reemplazado por PTC embarcado)
+- **[CONTROLLER PROHIBIDO - SICC ES VIRTUAL]:** 1,080 unidades → **0 unidades** (Reemplazado por PTC embarcado)
 
 ---
 
@@ -239,7 +239,7 @@ Cada sistema listado cumple con los siguientes criterios:
 - **Virtual Balise (GNSS)s:** -$40,000,000,000 COP
 - **Señalización en Cabina (Cab-Signaling) vía:** -$12,000,000,000 COP
 - **Servidor PTC Central:** -$2,000,000,000 COP
-- **LEU:** -$10,000,000,000 COP
+- **[CONTROLLER PROHIBIDO - SICC ES VIRTUAL]:** -$10,000,000,000 COP
 - **TOTAL ELIMINAR:** -$64,000,000,000 COP
 
 ### **3.2 Implementaciones Nuevas (Faltante)**
@@ -268,7 +268,7 @@ Cada sistema listado cumple con los siguientes criterios:
 - **32_Material_Rodante_Integrado.md** ⏳ (Sistema EOT)
 
 ### **4.3 Documentos de Ingeniería (Por Actualizar)**
-- **V.1_Señalizacion_Ferroviaria_Detalle_v1.0.md** ⏳ (Eliminar eurobalises)
+- **V.1_Señalizacion_Ferroviaria_Detalle_v1.0.md** ⏳ (Eliminar Puntos de Referencia Virtuales (SICC))
 - **V.2_Centro_Control_Trafico_CTC_Detalle_v1.0.md** ⏳ (CTC virtual)
 - **V.3_Sistemas_Comunicacion_Detalle_v1.0.md** ⏳ (Red Vital IP / TETRA agregado)
 

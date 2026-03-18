@@ -32,7 +32,7 @@ Este listado consolida los sistemas reales que el EPC implementará, eliminando 
 
 ## 🔍 AUDITORÍA DE PURGA (P.42)
 1. **ELIMINADO Red Vital IP / TETRA:** No es el estándar del contrato. Se centralizan comunicaciones en **TETRA**.
-2. **ELIMINADO EUROBALIZAS/LEU:** No aplican a la arquitectura virtual.
+2. **ELIMINADO Puntos de Referencia Virtuales (SICC)/[CONTROLLER PROHIBIDO - SICC ES VIRTUAL]:** No aplican a la arquitectura virtual.
 3. **ELIMINADO Señalización en Cabina (Cab-Signaling):** Se reemplazan por señalización en cabina (Cab-Signalling).
 4. **ELIMINADO Servidor PTC Central PTC Virtual:** Se reemplaza por **Servidor PTC**.
 

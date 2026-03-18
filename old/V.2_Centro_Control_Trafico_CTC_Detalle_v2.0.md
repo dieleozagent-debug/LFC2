@@ -39,7 +39,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 
 ### 1.2 Objetivos del Sistema Virtual
 - **Control centralizado:** Gestión unificada del tráfico ferroviario desde CCO La Dorada
-- **Supervisión en tiempo real:** Monitoreo continuo de operaciones sin eurobalises
+- **Supervisión en tiempo real:** Monitoreo continuo de operaciones sin Puntos de Referencia Virtuales (SICC)
 - **Integración PTC:** Comunicación directa CTC ↔ PTC embarcado
 - **Disponibilidad:** 99.95% de disponibilidad operacional
 - **Seguridad:** Cumplimiento EN 50126/50128/50129
@@ -159,14 +159,14 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 ### 4.1 Control de Tráfico Virtual
 
 #### 4.1.1 Gestión de Rutas Virtuales
-- **Planificación Virtual:** Rutas automáticas sin eurobalises
+- **Planificación Virtual:** Rutas automáticas sin Puntos de Referencia Virtuales (SICC)
 - **Optimización Virtual:** Algoritmos de optimización sin Servidor PTC Central
 - **Conflictos Virtuales:** Detección y resolución automática
 - **Prioridades Virtuales:** Gestión de prioridades de trenes
 
 #### 4.1.2 Supervisión en Tiempo Real Virtual
 - **Posición de Trenes:** Tracking en tiempo real via PTC embarcado
-- **Estado de Vías:** Monitoreo continuo sin eurobalises
+- **Estado de Vías:** Monitoreo continuo sin Puntos de Referencia Virtuales (SICC)
 - **Señales Virtuales:** Control y supervisión virtual
 - **Alarmas Virtuales:** Gestión de alarmas y eventos
 
@@ -419,7 +419,7 @@ Este documento detalla la ingeniería del **Centro de Control de Tráfico (CTC) 
 - **Servidor PTC Central:** -$2,000,000,000 COP
 - **Virtual Balise (GNSS)s:** -$40,000,000,000 COP
 - **Señalización en Cabina (Cab-Signaling) vía:** -$12,000,000,000 COP
-- **LEU:** -$10,000,000,000 COP
+- **[CONTROLLER PROHIBIDO - SICC ES VIRTUAL]:** -$10,000,000,000 COP
 - **TOTAL ELIMINAR:** -$64,000,000,000 COP
 
 ### 13.2 Implementaciones Nuevas (Faltante)

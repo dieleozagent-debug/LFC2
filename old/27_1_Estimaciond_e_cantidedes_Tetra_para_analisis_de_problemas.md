@@ -221,7 +221,7 @@ UPS por Tipo de Instalación
 - CCO principal: 80 kVA UPS (N+1)
 Generadores
 - CCO: 1 generador 100 kVA (N+1)
-- Sitios críticos: 10 generadores 25 kVA
+- Sitios críticos: 10 generadores [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL]
 - Generadores móviles: 5 × 15 kVA (emergencia)
 
 4. Gestión Predial y Permisos

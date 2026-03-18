@@ -16,7 +16,7 @@
 - **Sistema WBS Multi-página** - 6 páginas especializadas completadas
 
 ### ⚠️ DESALINEACIÓN CRÍTICA RESUELTA:
-- **64B COP sobrepresupuesto** por componentes eliminados (eurobalises, Señalización en Cabina (Cab-Signaling), Servidor PTC Central)
+- **64B COP sobrepresupuesto** por componentes eliminados (Puntos de Referencia Virtuales (SICC), Señalización en Cabina (Cab-Signaling), Servidor PTC Central)
 - **13.8B COP faltante** por componentes nuevos (Red Vital IP / TETRA, EOT, ENCE, Desvíos)
 - **~50B COP impacto neto** después de correcciones
 - **✅ CORRECCIÓN COMPLETADA EXITOSAMENTE**
@@ -109,7 +109,7 @@ Ejecutar análisis/corrección aplicando Metodología Punto 42
 ### 2. FILOSOFÍA DEL SISTEMA:
 - [ ] ¿Señalización virtual confirmada?
 - [ ] ¿CTC como sistema principal?
-- [ ] ¿PTC embarcado sin eurobalises?
+- [ ] ¿PTC embarcado sin Puntos de Referencia Virtuales (SICC)?
 - [ ] ¿Redundancia TETRA + Red Vital IP / TETRA?
 
 ### 3. PROPAGACIÓN IDENTIFICADA:
@@ -134,7 +134,7 @@ CON VERIFICACIÓN OBLIGATORIA contra CRITERIOS_TECNICOS_MAESTRO_v1.0.md.
 
 Identificar:
 1. Desalineaciones con criterios maestros
-2. Componentes eliminados (eurobalises, Señalización en Cabina (Cab-Signaling), Servidor PTC Central)
+2. Componentes eliminados (Puntos de Referencia Virtuales (SICC), Señalización en Cabina (Cab-Signaling), Servidor PTC Central)
 3. Componentes faltantes (Red Vital IP / TETRA, EOT, ENCE, desvíos)
 4. Propagación de cambios necesaria
 5. Impacto presupuestal"

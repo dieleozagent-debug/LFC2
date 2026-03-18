@@ -134,10 +134,10 @@ Este documento presenta la **ingeniería eléctrica de detalle** para el sistema
 | **Puerto Berrío** | 75 kVA | 30 min | Online | Cargas críticas |
 | **Barrancabermeja** | 75 kVA | 30 min | Online | Cargas críticas |
 | **Chiriguaná** | 100 kVA | 30 min | Online | Cargas críticas |
-| **PK 15+200** | 25 kVA | 15 min | Online | Señales críticas |
-| **PK 35+400** | 25 kVA | 15 min | Online | Señales críticas |
-| **PK 55+600** | 25 kVA | 15 min | Online | Señales críticas |
-| **PK 75+800** | 25 kVA | 15 min | Online | Señales críticas |
+| **PK 15+200** | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | 15 min | Online | Señales críticas |
+| **PK 35+400** | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | 15 min | Online | Señales críticas |
+| **PK 55+600** | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | 15 min | Online | Señales críticas |
+| **PK 75+800** | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | 15 min | Online | Señales críticas |
 
 #### **4.2 Bancos de Baterías**
 | Ubicación | Capacidad | Voltaje | Autonomía | Tipo |

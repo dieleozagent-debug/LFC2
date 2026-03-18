@@ -38,15 +38,15 @@
 
 | # | Documento | Desalineación | Impacto | Prioridad |
 |:--|:----------|:--------------|:--------|:----------|
-| 1 | V.1_Señalización_Ferroviaria_Detalle | 1,080 eurobalises + 270 Señalización en Cabina (Cab-Signaling) | 🔴 CRÍTICO | 1 |
+| 1 | V.1_Señalización_Ferroviaria_Detalle | 1,080 Puntos de Referencia Virtuales (SICC) + 270 Señalización en Cabina (Cab-Signaling) | 🔴 CRÍTICO | 1 |
 | 2 | VII.2.1_PTC_PTC VIRTUAL_Especificaciones | Arquitectura PTC Virtual (FRA 236) con Servidor PTC Central | 🔴 CRÍTICO | 1 |
 | 3 | 29_Sistema_Señalización_Integrado | Virtual Balise (GNSS)s + Señales físicas | 🔴 CRÍTICO | 1 |
 | 4 | V.2_Centro_Control_Trafico_CTC | CTC como secundario (no principal) | 🔴 CRÍTICO | 1 |
-| 5 | 25.1_WBS_COMPLETA_ESPECIALIDADES | Capítulos eurobalises y Señalización en Cabina (Cab-Signaling) | 🔴 CRÍTICO | 1 |
+| 5 | 25.1_WBS_COMPLETA_ESPECIALIDADES | Capítulos Puntos de Referencia Virtuales (SICC) y Señalización en Cabina (Cab-Signaling) | 🔴 CRÍTICO | 1 |
 | 6 | AT1_Alcance_del_Proyecto | Referencias a Filosofía PTC Virtual | 🔴 CRÍTICO | 2 |
 | 7 | 23_ListadoMaestro_Sistemas | Virtual Balise (GNSS)s en lista de sistemas | 🔴 CRÍTICO | 2 |
 | 8 | 26.1_Anexo_Electrico_CTC | Alimentación señales físicas | 🟡 MEDIO | 3 |
-| 9 | 37_Memorias_Diseño_Basico | Especificaciones eurobalises | 🟡 MEDIO | 3 |
+| 9 | 37_Memorias_Diseño_Basico | Especificaciones Puntos de Referencia Virtuales (SICC) | 🟡 MEDIO | 3 |
 | 10 | IV.4_Especificaciones_Basicas_Sistemas | Virtual Balise (GNSS)s como sistema | 🟡 MEDIO | 3 |
 | 11-18 | Planos y Diagramas preliminares | Ubicación física señales | 🟡 MEDIO | 4 |
 
@@ -116,7 +116,7 @@
 |:------|:----------|:----------------|:-------|:--------|
 | 1 | CRITERIOS_TECNICOS_MAESTRO_v1.0.md | ✅ YA CORRECTO - Es la fuente | -- | -- |
 | 2 | AT1_Alcance_del_Proyecto_MEJORADO.md | Actualizar señalización virtual + 37 TETRA + Red Vital IP / TETRA + ENCE + Desvíos | 6h | 🔴 |
-| 3 | 23_ListadoMaestro_Sistemas.md | Eliminar eurobalises/señales + Agregar Red Vital IP / TETRA/EOT/ENCE/Desvíos | 4h | 🔴 |
+| 3 | 23_ListadoMaestro_Sistemas.md | Eliminar Puntos de Referencia Virtuales (SICC)/señales + Agregar Red Vital IP / TETRA/EOT/ENCE/Desvíos | 4h | 🔴 |
 | 4 | 25.1_WBS_COMPLETA_ESPECIALIDADES.md | Reestructurar capítulos completos | 8h | 🔴 |
 
 **Subtotal Capa 1:** 18 horas (2.5 días)
@@ -141,7 +141,7 @@
 |:------|:----------|:----------------|:-------|:--------|
 | 10 | IV.1_Especificaciones_Basicas_Civil.md | Agregar obra civil desvíos | 2h | 🟡 |
 | 11 | IV.2_Especificaciones_Basicas_Electrica.md | Actualizar a 37 sitios TETRA | 2h | 🟡 |
-| 12 | IV.4_Especificaciones_Basicas_Sistemas.md | Eliminar eurobalises, agregar CTC virtual | 3h | 🟡 |
+| 12 | IV.4_Especificaciones_Basicas_Sistemas.md | Eliminar Puntos de Referencia Virtuales (SICC), agregar CTC virtual | 3h | 🟡 |
 | 13 | 37_Memorias_Diseño_Basico.md | Actualizar especificaciones generales | 3h | 🟡 |
 
 **Subtotal Capa 3:** 10 horas (1.5 días)

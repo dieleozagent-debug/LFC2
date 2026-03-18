@@ -160,14 +160,14 @@
 #### **Subestaciones de Distribución (8 Ubicaciones):**
 | Ubicación | Capacidad | Transformadores | UPS | Observaciones |
 |:----------|:----------|:---------------:|:---:|:--------------|
-| **PK 15+200** | 500 kVA | 13.8/0.48 kV | 25 kVA | Servicios locales |
-| **PK 35+400** | 500 kVA | 13.8/0.48 kV | 25 kVA | Servicios locales |
-| **PK 55+600** | 630 kVA | 13.8/0.48 kV | 25 kVA | Servicios locales |
-| **PK 75+800** | 500 kVA | 13.8/0.48 kV | 25 kVA | Servicios locales |
-| **PK 95+200** | 630 kVA | 13.8/0.48 kV | 25 kVA | Servicios locales |
-| **PK 115+400** | 500 kVA | 13.8/0.48 kV | 25 kVA | Servicios locales |
-| **PK 135+600** | 630 kVA | 13.8/0.48 kV | 25 kVA | Servicios locales |
-| **PK 155+800** | 500 kVA | 13.8/0.48 kV | 25 kVA | Servicios locales |
+| **PK 15+200** | 500 kVA | 13.8/0.48 kV | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | Servicios locales |
+| **PK 35+400** | 500 kVA | 13.8/0.48 kV | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | Servicios locales |
+| **PK 55+600** | 630 kVA | 13.8/0.48 kV | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | Servicios locales |
+| **PK 75+800** | 500 kVA | 13.8/0.48 kV | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | Servicios locales |
+| **PK 95+200** | 630 kVA | 13.8/0.48 kV | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | Servicios locales |
+| **PK 115+400** | 500 kVA | 13.8/0.48 kV | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | Servicios locales |
+| **PK 135+600** | 630 kVA | 13.8/0.48 kV | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | Servicios locales |
+| **PK 155+800** | 500 kVA | 13.8/0.48 kV | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | Servicios locales |
 
 ---
 

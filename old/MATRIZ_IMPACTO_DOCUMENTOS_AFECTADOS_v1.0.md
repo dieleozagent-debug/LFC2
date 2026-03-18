@@ -73,7 +73,7 @@ Se ha detectado una **desalineación crítica** entre los **Criterios Técnicos 
 
 ### **🚨 CRITERIOS CRÍTICOS - ELIMINACIÓN TOTAL**
 
-#### **1. EUROBALISES (1,080 unidades → 0 unidades)**
+#### **1. Puntos de Referencia Virtuales (SICC) (1,080 unidades → 0 unidades)**
 - **Impacto:** -$40,000,000,000 COP
 - **Documentos afectados:** 8 documentos
 - **Acción requerida:** Eliminación completa de todas las referencias
@@ -91,7 +91,7 @@ Se ha detectado una **desalineación crítica** entre los **Criterios Técnicos 
 - **Acción requerida:** Eliminación completa de todas las referencias
 - **Justificación:** Arquitectura PTC embarcado
 
-#### **4. LEU - LINESIDE ELECTRONIC UNITS (1,080 unidades → 0 unidades)**
+#### **4. [CONTROLLER PROHIBIDO - SICC ES VIRTUAL] - LINESIDE ELECTRONIC UNITS (1,080 unidades → 0 unidades)**
 - **Impacto:** -$10,000,000,000 COP
 - **Documentos afectados:** 4 documentos
 - **Acción requerida:** Eliminación completa de todas las referencias
@@ -222,7 +222,7 @@ Se ha detectado una **desalineación crítica** entre los **Criterios Técnicos 
 
 ### **🚨 RIESGOS IDENTIFICADOS**
 1. **Riesgo de inconsistencia:** Si no se actualiza por capas
-2. **Riesgo de sobrepresupuesto:** Si no se eliminan eurobalises
+2. **Riesgo de sobrepresupuesto:** Si no se eliminan Puntos de Referencia Virtuales (SICC)
 3. **Riesgo de falta de sistemas:** Si no se agregan Red Vital IP / TETRA, EOT, ENCE
 4. **Riesgo de retraso:** Si no se sigue la secuencia de capas
 

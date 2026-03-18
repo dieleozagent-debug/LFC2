@@ -659,7 +659,7 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
 ### **📋 AT1 ACTUALIZADO:**
 - **Archivo:** `II. Apendices Tecnicos/11. AT1_Alcance_del_Proyecto_MEJORADO_v4.0.md`
 - **Estado:** ✅ **COMPLETADO** - Alineado con Criterios Técnicos Maestros
-- **Cambios:** Eliminación masiva eurobalises + Implementación sistemas faltantes
+- **Cambios:** Eliminación masiva Puntos de Referencia Virtuales (SICC) + Implementación sistemas faltantes
 - **Impacto:** -$50,193,000,000 COP (alineación completa)
 
 ### **📋 LISTADO MAESTRO ACTUALIZADO:**
@@ -671,7 +671,7 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
 ## ✅ **CAPA 1 COMPLETADA - DOCUMENTOS BASE ACTUALIZADOS**
 
 ### **📋 RESUMEN CAPA 1:**
-- **AT1 v4.0:** ✅ Actualizado - Eliminación masiva eurobalises + Sistemas faltantes
+- **AT1 v4.0:** ✅ Actualizado - Eliminación masiva Puntos de Referencia Virtuales (SICC) + Sistemas faltantes
 - **Listado Maestro v4.0:** ✅ Actualizado - Inventario alineado con criterios maestros
 - **CRITERIOS_TECNICOS_MAESTRO v1.0:** ✅ Ya actualizado (documento fuente de verdad)
 
@@ -683,7 +683,7 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
 ### **📋 WBS ACTUALIZADO:**
 - **Archivo:** `III. Ingenieria conceptual/25.1_WBS_COMPLETA_ESPECIALIDADES_v4.0.md`
 - **Estado:** ✅ **COMPLETADO** - Reestructurado según filosofía virtual
-- **Cambios:** Eliminación masiva eurobalises + Sistemas nuevos + Reestructuración completa
+- **Cambios:** Eliminación masiva Puntos de Referencia Virtuales (SICC) + Sistemas nuevos + Reestructuración completa
 - **Impacto:** -$40,563,000,000 COP (alineación completa)
 
 ### **🎯 PRÓXIMO PASO - CAPA 2 (CONTINUAR):**
@@ -727,7 +727,7 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
 ### **📋 SEÑALIZACIÓN DETALLE ACTUALIZADA:**
 - **Archivo:** `V. Ingenieria de detalle/V.1_Señalizacion_Ferroviaria_Detalle_v2.0.md`
 - **Estado:** ✅ **COMPLETADO** - Filosofía virtual implementada
-- **Cambios:** Eliminación masiva eurobalises + Reescritura completa a filosofía virtual
+- **Cambios:** Eliminación masiva Puntos de Referencia Virtuales (SICC) + Reescritura completa a filosofía virtual
 - **Impacto:** -$50,193,000,000 COP (alineación completa)
 
 ### **🎯 PRÓXIMO PASO - CAPA 3 (CONTINUAR):**
@@ -802,7 +802,7 @@ ACUERDO OPERACIONAL IMPLEMENTADO:
   - ✅ ENCE: 5 estaciones
   - ✅ Desvíos: 120 unidades (25 motorizados + 95 manuales)
   - ✅ CCTV: 73 cámaras
-  - ✅ Eliminación completa: Virtual Balise (GNSS)s, Servidor PTC Central, Señalización en Cabina (Cab-Signaling), LEU
+  - ✅ Eliminación completa: Virtual Balise (GNSS)s, Servidor PTC Central, Señalización en Cabina (Cab-Signaling), [CONTROLLER PROHIBIDO - SICC ES VIRTUAL]
 
 ## 🎉 **PLAN DE CORRECCIÓN DOCUMENTAL INTEGRAL - COMPLETADO EXITOSAMENTE**
 

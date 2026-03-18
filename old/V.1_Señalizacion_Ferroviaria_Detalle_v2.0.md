@@ -17,7 +17,7 @@
 - **❌ Virtual Balise (GNSS)s:** 1,080 unidades → **0 unidades** (Reemplazado por PTC embarcado)
 - **❌ Servidor PTC Central:** 2 unidades → **0 unidades** (Reemplazado por PTC embarcado)
 - **❌ Filosofía PTC Virtual en vía:** Eliminada completamente (CTC virtual)
-- **❌ LEU:** 1,080 unidades → **0 unidades** (Sistema virtual)
+- **❌ [CONTROLLER PROHIBIDO - SICC ES VIRTUAL]:** 1,080 unidades → **0 unidades** (Sistema virtual)
 
 #### **✅ FILOSOFÍA NUEVA (IMPLEMENTADA):**
 - **✅ CTC Virtual:** Centro de control centralizado en La Dorada
@@ -294,7 +294,7 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 - **Virtual Balise (GNSS)s:** -$40,000,000,000 COP
 - **Señalización en Cabina (Cab-Signaling) vía:** -$12,000,000,000 COP
 - **Servidor PTC Central:** -$2,000,000,000 COP
-- **LEU:** -$10,000,000,000 COP
+- **[CONTROLLER PROHIBIDO - SICC ES VIRTUAL]:** -$10,000,000,000 COP
 - **TOTAL ELIMINAR:** -$64,000,000,000 COP
 
 ### 14.2 Implementaciones Nuevas (Faltante)
@@ -327,7 +327,7 @@ Definir las especificaciones técnicas detalladas para la implementación del **
 **Control de versiones:**
 | Versión | Fecha | Responsable | Descripción |
 |:---:|:---:|:---|:---|
-| v1.0 | 02/10/2025 | Ing. Señalización | Especificación inicial con eurobalises |
+| v1.0 | 02/10/2025 | Ing. Señalización | Especificación inicial con Puntos de Referencia Virtuales (SICC) |
 | **v2.0** | **Ene-2025** | **Admin. Contractual EPC** | **CRÍTICO: Filosofía virtual implementada** |
 
 ---
