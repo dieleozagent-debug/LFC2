@@ -28,6 +28,10 @@
       "destination": "/00_Gobernanza_PMO/Matriz_Riesgos_PMO_Consolidada_v1_0.md"
     },
     {
+      "source": "/index.html",
+      "destination": "/00_Gobernanza_PMO/index.html"
+    },
+    {
       "source": "/0_0_relacion_de_apendices_tecnicos_del_contrato_con_la_ing.md",
       "destination": "/III_Ingenieria_conceptual/0_0_relacion_de_apendices_tecnicos_del_contrato_con_la_ing.md"
     },
@@ -140,6 +144,10 @@
       "destination": "/III_Ingenieria_conceptual/III.1_Conceptos_basicos/0_2_salida_a_ITSC_de_alston_op_politica.md"
     },
     {
+      "source": "/index.html",
+      "destination": "/III_Ingenieria_conceptual/III.1_Conceptos_basicos/index.html"
+    },
+    {
       "source": "/III_Ingenieria_conceptual_a_detallar.md",
       "destination": "/III_Ingenieria_conceptual/III_Ingenieria_conceptual_a_detallar.md"
     },
@@ -216,6 +224,10 @@
       "destination": "/V_Ingenieria_detalle/V.1_Civil/V_1_1_Obras_Civiles_Infraestructura_DETALLADA.md"
     },
     {
+      "source": "/index.html",
+      "destination": "/V_Ingenieria_detalle/V.1_Civil/index.html"
+    },
+    {
       "source": "/7_Instalaciones_el_ctricas_Contrato_8_7.md",
       "destination": "/V_Ingenieria_detalle/V.2_Electrica/7_Instalaciones_el_ctricas_Contrato_8_7.md"
     },
@@ -224,8 +236,16 @@
       "destination": "/V_Ingenieria_detalle/V.2_Electrica/V_2_1_Sistema_Alimentacion_Principal_DETALLADO.md"
     },
     {
+      "source": "/index.html",
+      "destination": "/V_Ingenieria_detalle/V.2_Electrica/index.html"
+    },
+    {
       "source": "/V_3_1_Material_Rodante_Detallado.md",
       "destination": "/V_Ingenieria_detalle/V.3_Mecanica/V_3_1_Material_Rodante_Detallado.md"
+    },
+    {
+      "source": "/index.html",
+      "destination": "/V_Ingenieria_detalle/V.3_Mecanica/index.html"
     },
     {
       "source": "/10_Red_de_datos_Contrato_8_8_3.md",
@@ -280,6 +300,10 @@
       "destination": "/V_Ingenieria_detalle/V.4_Sistemas/V_4_1_Sistemas_Ferroviarios_Integrados_DETALLADO.md"
     },
     {
+      "source": "/index.html",
+      "destination": "/V_Ingenieria_detalle/V.4_Sistemas/index.html"
+    },
+    {
       "source": "/V_1_Senalizacion_Ferroviaria_Detalle_v5_0.md",
       "destination": "/V_Ingenieria_detalle/V_1_Senalizacion_Ferroviaria_Detalle_v5_0.md"
     },
@@ -298,6 +322,10 @@
     {
       "source": "/V_5_1_Plan_Integracion_Sistemas_COMPLETO.md",
       "destination": "/V_Ingenieria_detalle/V_5_Integracion/V_5_1_Plan_Integracion_Sistemas_COMPLETO.md"
+    },
+    {
+      "source": "/index.html",
+      "destination": "/V_Ingenieria_detalle/V_5_Integracion/index.html"
     },
     {
       "source": "/V_5_Sistemas_Seguridad_Detalle_v5_0.md",
@@ -340,6 +368,10 @@
       "destination": "/VII_Soporte_Especializado/VII.1_Normatividad/VII_1_4_Matriz_Normatividad_Sistemas.md"
     },
     {
+      "source": "/index.html",
+      "destination": "/VII_Soporte_Especializado/VII.1_Normatividad/index.html"
+    },
+    {
       "source": "/VII_2_10_Plan_Verificacion_Validacion_Completo.md",
       "destination": "/VII_Soporte_Especializado/VII.2_Especificaciones/VII_2_10_Plan_Verificacion_Validacion_Completo.md"
     },
@@ -376,6 +408,10 @@
       "destination": "/VII_Soporte_Especializado/VII.2_Especificaciones/VII_2_9_Analisis_RAMS_EN50126.md"
     },
     {
+      "source": "/index.html",
+      "destination": "/VII_Soporte_Especializado/VII.2_Especificaciones/index.html"
+    },
+    {
       "source": "/VII_3_1_Procedimientos_Constructivos_Civil.md",
       "destination": "/VII_Soporte_Especializado/VII.3_Procedimientos/VII_3_1_Procedimientos_Constructivos_Civil.md"
     },
@@ -390,6 +426,10 @@
     {
       "source": "/VII_3_4_Procedimientos_Comisionamiento_Sistemas.md",
       "destination": "/VII_Soporte_Especializado/VII.3_Procedimientos/VII_3_4_Procedimientos_Comisionamiento_Sistemas.md"
+    },
+    {
+      "source": "/index.html",
+      "destination": "/VII_Soporte_Especializado/VII.3_Procedimientos/index.html"
     },
     {
       "source": "/index.html",
@@ -418,6 +458,10 @@
     {
       "source": "/VI_Operacion_Mantenimiento_y_reversion.md",
       "destination": "/VI_Operacion_Mantenimiento_Reversion/VI_Operacion_Mantenimiento_y_reversion.md"
+    },
+    {
+      "source": "/index.html",
+      "destination": "/VI_Operacion_Mantenimiento_Reversion/index.html"
     }
   ],
   "cleanUrls": true,
