@@ -11,7 +11,7 @@ La gestión regulatoria se unifica para soportar la arquitectura de **Soberanía
 
 ### 1.1 Trámites ante la ANE (Espectro):
 *   **Prioridad Red Vital**: Gestión de concesión de frecuencias para el canal de datos de misión crítica (TETRA / SICC).
-*   **Foco Soberano**: Eliminación de trámites para gsm-r o tecnologías legacy europeas.
+*   **Foco Soberano**: Eliminación de trámites para Red Vital IP / TETRA o tecnologías legacy europeas.
 
 ### 1.2 Trámites Ambientales y Urbanos:
 *   **Localización Unificada**: Coordinación para los 37 nodos de la **Red Vital IP / TETRA** y los 5 centros ENCE.

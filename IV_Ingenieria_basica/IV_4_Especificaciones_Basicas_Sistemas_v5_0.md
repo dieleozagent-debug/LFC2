@@ -17,7 +17,7 @@ El diseno se basa en la arquitectura **SICC (Sistema de Interoperabilidad, Comun
 ### 2. SEGMENTO COMUNICACIONES (SICC CORE)
 *   **Red Vital IP / TETRA**: Infraestructura troncalizada digital para voz y datos de misión crítica.
 *   **Redundancia**: Backup mediante enlaces IP dedicados en nodos críticos.
-*   **Soberanía**: Eliminación total de protocolos gsm-r o euro-centristas.
+*   **Soberanía**: Eliminación total de protocolos Red Vital IP / TETRA o euro-centristas.
 
 ### 3. SEGMENTO CONTROL (TOWERS & CCO)
 *   **CTC (Centralized Traffic Control)**: Ubicado en La Dorada, con consola de despacho SICC.
@@ -29,7 +29,7 @@ El diseno se basa en la arquitectura **SICC (Sistema de Interoperabilidad, Comun
 Se han purgado todas las asunciones legacy:
 1.  **ELIMINADA [INFRAESTRUCTURA PROHIBIDA] / 25kV**: El diseno básico es 100% para Tracción Diésel-Eléctrica.
 2.  **ELIMINADA Nodos GNSS (SICC)**: Reemplazada por tecnología **SICC de Posicionamiento Satelital**.
-3.  **ELIMINADA Dependencia gsm-r**: La comunicación se unifica en **Red Vital IP / TETRA**.
+3.  **ELIMINADA Dependencia Red Vital IP / TETRA**: La comunicación se unifica en **Red Vital IP / TETRA**.
 
 ---
 

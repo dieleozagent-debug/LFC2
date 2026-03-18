@@ -10,7 +10,7 @@
 
 ## RESUMEN EJECUTIVO (MARZO 2026)
 
-Este repositorio constituye el **Ecosistema de Ingeniería SICC** para el proyecto **APP La Dorada-Chiriguaná**. Bajo el estándar **v6.3.2**, la ingeniería garantiza la independencia tecnológica (Soberanía) mediante el uso de protocolos abiertos y la eliminación de dependencias propietarias (Legacy PTC Virtual (SICC)/GSM-R).
+Este repositorio constituye el **Ecosistema de Ingeniería SICC** para el proyecto **APP La Dorada-Chiriguaná**. Bajo el estándar **v6.3.2**, la ingeniería garantiza la independencia tecnológica (Soberanía) mediante el uso de protocolos abiertos y la eliminación de dependencias propietarias (Legacy PTC Virtual (SICC)/Red Vital IP / TETRA).
 
 ### OBJETIVOS TÉCNICOS SICC
 1.  **Interoperabilidad**: Alineación nativa con **FENOCO** mediante estándares FRA/AREMA.
@@ -59,7 +59,7 @@ Este repositorio constituye el **Ecosistema de Ingeniería SICC** para el proyec
 
 ## EL MOTOR LFC-CLI (MASTERCHEF v6.5)
 El núcleo de automatización reside en `scripts/lfc-cli.js`, el cual ejecuta el **Ciclo Karpathy** de purificación técnica:
-1.  **Detección Inversa**: Localización de zombis legacy (25kV, GSM-R, Balizas).
+1.  **Detección Inversa**: Localización de zombis legacy (25kV, Red Vital IP / TETRA, Balizas).
 2.  **Transmutación SICC**: Reemplazo por terminología soberana mediante el SSOT (`lfc-terminology.js`).
 3.  **Servido Safe-Cooker**: Generación de HTML premium con estilos L4.
 

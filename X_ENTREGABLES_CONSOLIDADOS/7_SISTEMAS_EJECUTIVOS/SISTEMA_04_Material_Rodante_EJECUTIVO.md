@@ -75,7 +75,7 @@ El Sistema de Material Rodante es la **"flota de vehículos"** del ferrocarril q
 | **TETRA + Red Vital IP / TETRA** | Comunicaciones redundantes | 15 | Locomotoras |
 | **GPS/GNSS** | Posicionamiento en tiempo real | 15 | Locomotoras |
 | **CCTV Embarcado** | Seguridad operacional | 15 | Locomotoras |
-| **Event Recorder** | Caja negra para eventos | 15 | Locomotoras |
+| **Event Recorder** | Arquitectura Abierta SICC para eventos | 15 | Locomotoras |
 
 ### ¿Por qué disponibilidad 99.95%?
 **Justificación Contractual:**

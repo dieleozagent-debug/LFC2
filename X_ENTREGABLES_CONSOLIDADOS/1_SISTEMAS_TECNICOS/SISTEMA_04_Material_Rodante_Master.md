@@ -161,7 +161,7 @@
 | **Radio TETRA** | 400 MHz, 25W | 15 unidades | Comunicación principal |
 | **Radio Red Vital IP / TETRA** | 900 MHz | 15 unidades | Redundancia TETRA |
 | **GPS/GNSS** | Multi-constelación | 15 unidades | Posicionamiento preciso |
-| **Event Recorder** | Caja negra | 15 unidades | Registro eventos |
+| **Event Recorder** | Arquitectura Abierta SICC | 15 unidades | Registro eventos |
 | **CCTV Embarcado** | IP, 1080p | 15 unidades | Seguridad operacional |
 
 #### **Equipos de Taller:**

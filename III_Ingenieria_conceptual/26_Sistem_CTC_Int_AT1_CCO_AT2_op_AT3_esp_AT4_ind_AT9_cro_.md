@@ -67,7 +67,7 @@ Se propone una arquitectura de CTC que maximiza la eficiencia y minimiza los rie
 
 ### 3.2 Estrategia de Avance con Bloqueos PTC
 Dado que las especificaciones detalladas del sistema PTC dependen de AT3 (bloqueado), se adopta una estrategia de mitigación de riesgo:
-- **Diseno Modular:** El CTC se disenará con una interfaz de "caja negra" (API bien definida) para el sistema PTC. Esto permite desarrollar el 90% del CTC (supervisión, enclavamientos, gestión de surcos) de forma independiente.
+- **Diseno Modular:** El CTC se disenará con una interfaz de "Arquitectura Abierta SICC" (API bien definida) para el sistema PTC. Esto permite desarrollar el 90% del CTC (supervisión, enclavamientos, gestión de surcos) de forma independiente.
 - **Enfoque en Supervisión:** Inicialmente, el CTC se centrará en la supervisión de la posición de los trenes (vía GPS/TETRA) y el control de la senalización enclavada, sin depender de las funciones de "enforcement" del PTC.
 - **Plan de Integración Futura:** Se definirá un plan de integración y pruebas específico para cuando las especificaciones del PTC estén disponibles, minimizando el impacto en el cronograma.
 - **🚂 Estrategia PTC PTC Virtual (FRA 236):** Se utilizará PTC Virtual (FRA 236) como estándar internacional de referencia hasta que AT3 esté disponible, asegurando compatibilidad y interoperabilidad.

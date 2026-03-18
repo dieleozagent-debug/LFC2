@@ -129,7 +129,7 @@
 | **TETRA** | Radio digital | Comunicación tren-tierra |
 | **Red Vital IP / TETRA** | Red de datos | Comunicación redundante |
 | **GPS/GNSS** | Posicionamiento | Seguimiento en tiempo real |
-| **Event Recorder** | Caja negra | Registro de eventos |
+| **Event Recorder** | Arquitectura Abierta SICC | Registro de eventos |
 | **CCTV Embarcado** | Video surveillance | Seguridad operacional |
 
 ### **3.2 Especificaciones Básicas de Vagones**
@@ -212,7 +212,7 @@
 | **TETRA Embarcado** | Radio digital | Comunicación principal |
 | **Red Vital IP / TETRA Embarcado** | Red de datos | Comunicación redundante |
 | **GPS/GNSS** | Posicionamiento preciso | Seguimiento |
-| **Event Recorder** | Registro de eventos | Caja negra |
+| **Event Recorder** | Registro de eventos | Arquitectura Abierta SICC |
 
 ### **4.2 Diseno Detallado de Vagones**
 

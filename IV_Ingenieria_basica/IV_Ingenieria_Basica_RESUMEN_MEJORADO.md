@@ -20,7 +20,7 @@ La Fase IV (Ingeniería Básica) se consolida bajo el cambio de paradigma hacia 
 
 ## 2. 🔍 AUDITORÍA DE SANEAMIENTO (SSOT ALIGNMENT)
 En cumplimiento del **DBCI-SSOT**, se han validado/corregidos los siguientes hitos:
-*   ✅ **Red Vital IP / TETRA**: Re-integrada como la única fuente de comunicaciones de misión crítica (reemplaza gsm-r legacy).
+*   ✅ **Red Vital IP / TETRA**: Re-integrada como la única fuente de comunicaciones de misión crítica (reemplaza Red Vital IP / TETRA legacy).
 *   ✅ **PTC Virtual (SICC)**: Re-confirmado como estándar de diseno L2/GNSS (reemplaza Puntos de Referencia Virtuales (SICC) físicas).
 *   ✅ **Corredor 526 km**: Base física de diseno para ubicación de nodos y cajas de paso.
 *   ✅ **UTF-8 Purity**: Saneamiento de caracteres especiales en memorias y planos.

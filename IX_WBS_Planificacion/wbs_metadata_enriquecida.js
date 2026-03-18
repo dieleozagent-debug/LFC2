@@ -27,16 +27,16 @@ window.wbsMetadataEnriquecida = {
     },
     "1.1.103": {
       "descripcion": "Software CTC virtual + PTC L2 + Interoperabilidad FENOCO",
-      "justificacion_tecnica": "Software CTC ampliado con PTC Level 2, Interoperabilidad FENOCO y Alta Disponibilidad segun ofertas tecnicas Knorr Bremse/CRRC validadas - Desglose: Core $30B + PTC L2 $25B + FENOCO $15B + HA $9.15B",
+      "justificacion_tecnica": "Software CTC ampliado con PTC High-Level, Interoperabilidad FENOCO y Alta Disponibilidad segun ofertas tecnicas Knorr Bremse/CRRC validadas - Desglose: Core $30B + PTC L2 $25B + FENOCO $15B + HA $9.15B",
       "criterios_diseno": [
         "Licencias Core CTC: $30B - 8 estaciones + CCO + redundancia + 100 trenes simultaneos",
-        "Modulo PTC Level 2: $25B - EVC + Servidor PTC Central + Sistema claves + Interfaces TETRA/LTE/TETRA",
+        "Modulo PTC High-Level: $25B - EVC + Servidor PTC Central + Sistema claves + Interfaces TETRA/LTE/TETRA",
         "Interoperabilidad FENOCO: $15B - Protocolos FRA/AREMA 950-7/554 + Gestion coordinada + Transferencia control",
         "Alta Disponibilidad: $9.15B - Cluster N+1 + Failover <5seg + DR (RTO<1h, RPO<15min) + 99.95%"
       ],
       "supuestos": [
         "Licenciamiento perpetuo con 5 anos soporte tecnico incluido",
-        "Certificacion CENELEC PTC Level 2 completa incluida",
+        "Certificacion CENELEC PTC High-Level completa incluida",
         "Interfaces FENOCO customizadas especificas del proyecto",
         "Capacitacion 300 horas (200 operadores + 100 ingenieros)",
         "Customizacion 30% del software para requisitos especificos",

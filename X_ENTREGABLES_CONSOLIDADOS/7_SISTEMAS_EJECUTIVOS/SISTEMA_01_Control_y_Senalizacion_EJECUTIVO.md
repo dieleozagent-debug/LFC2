@@ -82,7 +82,7 @@ El Sistema de Control y Senalización es el **"cerebro" del ferrocarril** que pe
 | **Nivel 2** | Red Vital IP / TETRA + PTC embarcado | Óptimo costo/beneficio | Requiere Red Vital IP / TETRA | ✅ **Seleccionado** |
 | **Level 3** | Moving Block (Sin bloqueo fijo) | Máxima capacidad (V-Block) | Complejidad alta | ❌ Rechazado |
 
-**Justificación de Level 2:**
+**Justificación de High-Level:**
 - **Balance óptimo:** Capacidad vs complejidad vs costo
 - **Compatibilidad:** Estándar internacional ferroviario
 - **Interoperabilidad:** Compatible con FENOCO
