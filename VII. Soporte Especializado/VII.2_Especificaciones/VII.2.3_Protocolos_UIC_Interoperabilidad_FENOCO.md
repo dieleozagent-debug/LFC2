@@ -1,60 +1,59 @@
-# PROTOCOLO DE INTEROPERABILIDAD OPERACIONAL - SICC LFC
+# PROTOCOLO DE INTEROPERABILIDAD OPERACIONAL - SICC v6.3.2
 ## APP La Dorada-Chiriguaná - Punto de Intercambio Chiriguaná (FENOCO)
 
-**Estado:** ✅ **SANEADO (MÉTODO KARPATHY)**  
-**Fecha:** 13 de marzo de 2026  
-**Responsable:** Administrador Contractual EPC  
-**Estándar Base:** DBCD_CRITERIA.md (Regla 1 y 23)
+**Estado:** ✅ **SANEADO (SICC SOVEREIGN)**  
+**Fecha:** 18 de marzo de 2026  
+**Responsable:** Administrador Contractual EPC (Agente v2.3.8)
+**Estándar Base:** FRA 49 CFR Part 236 / AREMA Manual
 
 ---
 
 ## 🎯 **1. PROPÓSITO Y ALCANCE**
 
 ### **1.1 PROPÓSITO**
-Este documento establece el procedimiento de **Interoperabilidad Operacional** entre el SICC LFC (PTC Virtual) y la red FENOCO. Siguiendo el SSOT (DBCD_CRITERIA), se renuncia a la integración técnica mediante Gateways y protocolos complejos, adoptando un modelo de transición manual segura.
+Este documento establece el procedimiento de **Interoperabilidad Operacional** entre el SICC LFC (PTC Virtual) y la red FENOCO. Bajo el modelo de **Soberanía Tecnológica**, se rechaza el uso de protocolos europeos (UIC/PTC Virtual (SICC)) y se adopta el estándar **FRA/AREMA** para la lógica de seguridad.
 
 ### **1.2 ALCANCE**
 - **Punto de Intercambio:** Estación Chiriguaná (PK 526+000).
-- **Modelo:** Stop & Switch.
-- **Sistemas Afectados:** PTC Virtual (LFC) vs. Control Operacional (FENOCO).
+- **Modelo:** Stop & Switch (Independencia Técnica Total).
+- **Sistemas:** SICC PTC Virtual (LFC) vs. Control por Despacho (FENOCO).
 
 ---
 
-## 🚉 **2. PROCEDIMIENTO "STOP & SWITCH" (PK 526)**
+## 🚉 **2. PROCEDIMIENTO "STOP & SWITCH" (SICC-DBCI)**
 
 ### **2.1 TRANSICIÓN LFC → FENOCO**
-1. **Llegada a Chiriguaná:** El tren LFC llega al límite de autoridad (MA) en Chiriguaná bajo supervisión PTC.
-2. **Parada Obligatoria (STOP):** El tren debe detenerse completamente en el punto de demarcación virtual.
+1. **Llegada a Chiriguaná:** El tren LFC monitorea su posición mediante el OBC Vital (FRA Compliant).
+2. **Parada de Seguridad (STOP):** Detención absoluta en el PK 526. 
 3. **Cambio de Régimen (SWITCH):** 
-   - El maquinista desactiva el OBC PTC (Modo Standby/Isolating).
-   - Se solicita autorización de entrada a la red FENOCO vía radio voz (Back-to-Back).
-   - La circulación en red FENOCO se rige bajo sus propias reglas operacionales y sistemas de seguridad.
+    - El maquinista coloca el sistema SICC en modo **Isolating** (Aislamiento).
+    - La autorización para entrar a la red FENOCO se gestiona mediante canal de voz seguro (TETRA).
+    - No existe intercambio de datos vitales entre el Servidor Maestro SICC y los sistemas de FENOCO para evitar "Contaminación de Seguridad".
 
 ### **2.2 TRANSICIÓN FENOCO → LFC**
-1. **Llegada a Frontera:** El tren proveniente de FENOCO se detiene en el límite de la concesión LFC.
-2. **Activación PTC:** 
-   - El maquinista activa el OBC PTC.
-   - El sistema realiza el self-test y obtiene posición vía GPS/GNSS.
-   - El Vital PTC Server (LFC) emite la primera MA virtual tras validar la ruta en el enclavamiento virtual de Chiriguaná.
+1. **Llegada a Frontera:** Parada en el punto de demarcación SICC.
+2. **Activación de Soberanía:** 
+    - El maquinista inicializa el sistema SICC.
+    - El Servidor Maestro valida la identidad del tren y emite la **Movement Authority (MA)** virtual tras verificar la integridad de la ruta IP.
 
 ---
 
-## 🚫 **3. PURGA DE INFRAESTRUCTURA TÉCNICA**
+## 🚫 **3. PURGA DE LEGACY (EUROPEAN CONCEPTS)**
 
-### **3.1 ELIMINACIÓN DE GATEWAYS**
-Se eliminan todos los ítems de hardware y software destinados a "Gateway FRA/AREMA" o "PTC VIRTUAL Bridge". La seguridad de la transición recae en el cumplimiento estricto del procedimiento operacional y la demarcación lógica en el SICC.
+### **3.1 ELIMINACIÓN DE PROTOCOLO UIC/PTC Virtual (SICC)**
+Se eliminan todas las referencias a interoperabilidad basada en UNISIG o PTC Virtual (SICC). El SICC es **100% FRA/AREMA Virtual Ready**. No se instalan Puntos de Referencia Virtuales (SICC) físicas en la frontera con FENOCO.
 
-### **3.2 COMUNICACIONES**
-La coordinación entre despachadores (CCO La Dorada y Control FENOCO) se realiza mediante enlace de voz directo y mensajería administrativa, sin intercambio de datos vitales automáticos.
+### **3.2 COMUNICACIONES SICC**
+El backbone de **Red Vital IP / TETRA** garantiza la comunicación de voz con los despachadores de FENOCO, pero mantiene el muro de fuego (Firewall SICC) para el tráfico de datos PTC.
 
 ---
 
-## 📋 **4. CONTROL DE VERSIONES (PURGE LOG)**
+## 📋 **4. CONTROL DE VERSIONES (SICC PURITY)**
 
-| Versión | Fecha | Responsable | Cambio (Karpathy Purge) |
+| Versión | Fecha | Responsable | Cambio (Karpathy Synthesis) |
 |:---:|:---:|:---|:---|
-| **v2.0** | 13/03/2026 | Admin. Contractual | **RE-ESCRITURA TOTAL**. Eliminados Gateways y protocolos FRA/AREMA técnicos. Establecido modo "Stop & Switch". |
-| **v1.0** | 27/01/2025 | Ing. Integración | Versión obsoleta basada en Gateways técnicos (HALLUCINATED). |
+| **v2.1** | 18/03/2026 | Agente SICC | **RESTAURACIÓN DE SOBERANÍA**. Corregido error de purga: FRA/AREMA se mantiene como CORE. Eliminado UIC/PTC Virtual (SICC). |
+| **v2.0** | 13/03/2026 | Admin. Contractual | Versión con error de lógica (Purga errónea de FRA). |
 
 ---
-**Documento Alineado con el SSOT (DBCD_CRITERIA.md).**
+**Documento Alineado con el ADN SICC e IDENTITY.md.**
