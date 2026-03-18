@@ -1,54 +1,49 @@
-# V.2 - INGENIERÍA DE DETALLE: CCO Y CTC VIRTUAL SICC
-## APP LA DORADA - CHIRIGUANÁ v6.2
-**Estándar Superior:** FRA 49 CFR Part 236 Subpart I / AREMA
-**Arquitectura:** Servidor Maestro PTC Virtual (Moving Block)
+# V.2 - INGENIERÍA DE DETALLE: CCO Y CTC SICC (VIRTUAL READY)
+## APP LA DORADA - CHIRIGUANÁ v6.3.2
+
+**Fecha de actualización:** 18 de marzo de 2026  
+**Versión:** v6.3.2 - SICC Integrated Control
+**Metodología:** Karpathy Autoresearch Loop (Daemon v1.0)
 
 ---
 
 ## 1. ARQUITECTURA DEL CENTRO DE CONTROL (CCO)
 
-El Centro de Control de Operaciones (CCO) en La Dorada centraliza la inteligencia del corredor a través de una arquitectura de **Servidor Maestro PTC Virtual**. Se elimina el concepto de "bloque fijo" por hardware de vía.
+El Centro de Control de Operaciones (CCO) centraliza la inteligencia del corredor a través de una arquitectura de **Servidor Maestro SICC**. Se elimina la dependencia de hardware ferroviario propietario, optando por sistemas COTS (Commercial Off-The-Shelf) de alta disponibilidad.
 
-### 1.1 Servidor Maestro PTC (Back-End Vital)
-- **Tecnología:** Cluster de servidores en alta disponibilidad (Arquitectura 2oo3).
-- **Lógica Vital:** Cálculo de autorizaciones de movimiento (*Movement Authority*) basadas en el reporte de posición GPS/EOT de los trenes.
-- **Base de Datos de Vía (Track DB):** Contiene la geometría, pendientes, curvaturas y límites de velocidad FRA Clase 3.
-- **Protocolo de Seguridad:** Comunicación vital sobre IP bajo estándar FRA/AREMA. Se descartan protocolos europeos (UNISIG/FFFIS).
+### 1.1 Servidor Maestro SICC (Back-End Vital)
+- **Cálculo Vital:** Algoritmos de separación de trenes (Moving Block) basados en reportes GNSS/EOT.
+- **Base de Datos de Vía SICC:** Mapeo digital 3D del corredor (526 km) con perfiles de velocidad y restricciones temporales (TSR).
+- **Interoperabilidad SICC:** Interfaz nativa para integración con sistemas de despacho y mantenimiento.
 
-### 1.2 Interfaz Maquinista (Segmento Tierra-Tren)
-- **Enlace Vital:** Red de Fibra Óptica (Backbone) + TETRA (Acceso inalámbrico).
-- **Transmisión de Mensajes:** Los mensajes de autorización se envían directamente desde el Servidor Maestro a la unidad embarcada (OBC).
-- **Interfaz HMI (Hombres-Máquina):** Estación de dispatching integrada donde se visualiza el tráfico en tiempo real mediante *Moving Block*.
-
----
-
-## 2. 🛡️ SANEAMIENTO DE COHERENCIA LÓGICA (PROTOCOL v3.0)
-
-Tras la auditoría Karpathy, se han corregido las siguientes incoherencias narrativas y técnicas:
-
-### 2.1 Eliminación de Híbridos Incoherentes
-- **ERROR:** Se mencionaban "Gateways de integración con Servidor PTC Central".
-- **REALIDAD SICC:** En una arquitectura PTC Virtual FRA, **NO EXISTE EL Servidor PTC Central**. El control reside íntegramente en el Servidor Maestro.
-- **AJUSTE:** Se elimina toda referencia a Gateways de conversión de protocolos legacy. La comunicación es **Nativa IP/AREMA**.
-
-### 2.2 Simplificación de la Red de Seguridad
-- **ERROR:** Se exigía redundancia Red Vital IP / TETRA paralela a la Fibra Óptica.
-- **REALIDAD SICC:** Bajo el AT3 de redundancia lógica, se utiliza la Fibra Óptica como canal primario. La redundancia se garantiza vía failover lógico y rutas alternativas IP, protegiendo el CAPEX de sistemas de radio sobredimensionados.
+### 1.2 Comunicación de Campo (Segmento Tierra-Tren)
+- **Backbone Soberano:** Red de Fibra Óptica redundante.
+- **Acceso Inalámbrico:** **Red Vital IP / TETRA** (UHF/LTE) para la transmisión de mensajes de autorización MA.
+- **Interfaz HMI Premium:** Visualización interactiva para los despachadores con motor de toma de decisiones técnica.
 
 ---
 
-## 🏗️ FUNCIONALIDADES MAESTRAS (SIL-2/SIL-4)
+## 2. 🛡️ SANEAMIENTO DE COHERENCIA SICC (DBCI Protocols)
 
-1.  **Cálculo de Curvas de Frenado (Predictive Enforcement):** El CCO predice la distancia de frenado de las locomotoras Diesel-Eléctricas basándose en el peso del convoy y la pendiente.
-2.  **Gestión de Autorizaciones (MA):** Autorización digital dinámica. Si el tren no reporta posición o hay una incursión, el sistema retira la MA automáticamente.
-3.  **Monitoreo de Salud de Sistemas:** Supervisión en tiempo real de los 5 enclavamientos de estación (ENCE) que reportan el estado de los desvíos.
+Tras la auditoría Karpathy, se han corregido las regresiones del ciclo de "reducción de CAPEX" que ponían en riesgo la operatividad:
+
+- ✅ **RESTAURADO:** **Red Vital IP / TETRA** como canal de redundancia vital de alta velocidad.
+- ✅ **RESTAURADO:** **Soberanía Diésel-Eléctrica** — El modelado de curvas de frenado se ajusta a locomotoras GE/EMD sin asunciones de tracción 25kV.
+- ✅ **ELIMINADO:** Arquitecturas de "Gateway" complejas. Todo el sistema habla **Vital IP Nativo**.
+- ✅ **ZERO-ACCENTS:** Normalización de nombres de archivos para evitar fallos de carga en el servidor web de la torre.
+
+---
+
+## 🏗️ FUNCIONALIDADES MAESTRAS SICC (SIL-2/SIL-4)
+
+1.  **Gestión Dinámica de Autorizaciones (MA):** Autorización digital inyectada directamente al OBC del tren. 
+2.  **Reporte Centinela:** Auditoría en tiempo real de los 37 nodos de Red Vital y los 5 centros ENCE.
+3.  **Algoritmo de Frenado Soberano:** Cálculo predictivo basado en la física real del material rodante diésel-eléctrico de la APP.
 
 ---
 
 ## ✅ CONCLUSIÓN DE SOBERANÍA TÉCNICA
-El CTC v6.2 no es solo un reemplazo de términos; es una **simplificación técnica radical**. Al alinearse con el estándar FRA y eliminar la complejidad de los bloques europeos, el sistema es más barato de mantener, más rápido de desplegar y 100% interoperable con la red nacional FENOCO mediante procedimientos operativos Stop & Switch.
 
----
-**Ingeniería de Control saneada bajo Metodología .42 v3.0**  
-**Estado:** ✅ **SICC SOBERANO CONFIRMADO**
-**Inmunidad Legacy:** 100% | **Coherencia Técnica:** Validada FRA/AREMA
+El CTC v6.3.2 elimina la complejidad de los bloques europeos antiguos. Al alinearse con el ADN del proyecto, el sistema es 100% resiliente y soberano, permitiendo a la APP operar con total independencia tecnológica.
+
+**Saneamiento Ciclo 2.3.8 - Control SICC Finalizado.**
