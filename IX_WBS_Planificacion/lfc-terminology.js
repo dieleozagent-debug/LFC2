@@ -33,7 +33,7 @@ const LFC_DBCI = {
     
     // BLACKLIST LEGACY (Lo que NO puede existir - SACC)
     LEGACY_BLACKLIST: [
-        "Baliza Virtual (GNSS)", "EUROBALISE", "SICC PTC Virtual", "RADIO BLOCK CENTRE", "ETCS", "SICC", "ASFA",
+        "Baliza Virtual (GNSS)", "EUROBALISE", "SICC PTC Virtual", "RADIO BLOCK CENTRE", "ETCS", "ASFA",
         "RED TETRA MISION CRITICA", "TETRA Misión Crítica", "RED TETRA (Misión Crítica)", "RED TETRA (Mision Critica)",
         "CATENARIA", "TRACCIÓN ELÉCTRICA", "TRACCION ELECTRICA", "25 KV", "3 KV", "60 HZ",
         "PANTÓGRAFO", "PANTOGRAFO", "SUBESTACIÓN DE TRACCIÓN", "SUBESTACION DE TRACCION",
@@ -67,12 +67,11 @@ const LFC_DBCI = {
         "Baliza Virtual (GNSS)S": "Puntos de Referencia Virtuales (SICC)",
         "EUROBALISES": "Puntos de Referencia Virtuales (SICC)",
         "LEU": "[CONTROLLER PROHIBIDO - SICC ES VIRTUAL]",
-        "ETCS": "PTC Virtual (SICC)",
-        "SICC": "PTC Virtual (SICC)"
+        "ETCS": "PTC Virtual (SICC)"
     },
 
     FINANCIAL: {
-        TRM: 4000
+        TRM: 4400
     }
 };
 
