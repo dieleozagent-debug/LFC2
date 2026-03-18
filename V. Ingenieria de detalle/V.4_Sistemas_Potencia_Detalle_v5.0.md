@@ -1,45 +1,47 @@
-# V.4 - INGENIERÍA DE DETALLE: POTENCIA v6.0 (OPTIMIZACIÓN PTC VIRTUAL)
+# V.4 - INGENIERÍA DE DETALLE: ENERGÍA SOBERANA v6.3.2 (SICC)
 ## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** 13 de marzo de 2026  
-**Versión:** v6.0 - Purge Release (Power Systems Detail Design)
-**Metodología:** Punto 42 (Karpathy Saneamiento) - Ciclo Inverso
+**Fecha de actualización:** 18 de marzo de 2026  
+**Versión:** v6.3.2 - Sovereign Power Resilience
+**MetodOLOGY:** Karpathy Autoresearch Loop (Daemon v1.0)
 
 ---
 
-## 1. ARQUITECTURA DE POTENCIA SANEADA
+## 1. ARQUITECTURA DE POTENCIA SOBERANA
 
-La ingeniería de potencia se redimensiona para soportar exclusivamente la infraestructura de **PTC Virtual** y la red unificada **TETRA**, eliminando el sobrecosto de alimentar sistemas redundantes obsoletos.
+La potencia de detalle se dimensiona para garantizar la autonomía total del **SICC**, asegurando que los 37 nodos de la **Red Vital IP / TETRA** operen al 100% de disponibilidad incluso en condiciones extremas.
 
-### 1.1 Centros de Potencia (CCO y Estaciones):
-- **CCO La Dorada:** Alimentación redundante para el Servidor Maestro PTC y el video-muro. Se elimina la carga dedicada a servidores Servidor PTC Central.
-- **Estaciones ENCE (5):** Alimentación vital para controladores de enclavamiento IP.
-- **Torres TETRA (37):** Unificación de la carga eléctrica. Se elimina el requerimiento de potencia para el hardware Red Vital IP / TETRA colocalizado.
+### 1.1 Centros de Potencia (Nodos de Red Vital):
+- **Nodos SICC (37):** Cada torre de comunicación cuenta con un sistema híbrido (Solar + Red Comercial) dimensionado para la carga dual de **TETRA y Red Vital IP**.
+- **Centros ENCE (5):** Respaldo crítico para los enclavamientos IP bajo arquitectura N+2.
+- **CCO La Dorada:** Infraestructura de potencia para el Servidor Maestro SICC y el sistema de despacho, eliminando dependencias de servidores externos.
 
-### 1.2 Respaldo de Energía:
-- **UPS:** Sistemas dimensionados para autonomía de 4 horas en equipos vitales (ENCE/TETRA).
-- **Generadores:** Respaldan el 100% de la carga de comunicaciones y senalización virtual en caso de falla de la red comercial.
-
----
-
-## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE Red Vital IP / TETRA/PTC Virtual)
-
-Se han corregido los siguientes desvíos técnicos de la v5.0:
-- ✅ **ELIMINADO:** Dimensionamiento de transformadores para 37 estaciones Red Vital IP / TETRA.
-- ✅ **ELIMINADO:** Alimentación para "Virtual Balise (GNSS)s y Senalización en Cabina (Cab-Signaling)" (Hardware inexistente en PTC Virtual).
-- ✅ **ELIMINADO:** Matriz de impacto presupuestal que mantenía vivo el concepto "Red Vital IP / TETRA".
-- ✅ **OPTIMIZADO:** El CAPEX se reduce al simplificar tableros eléctricos y protecciones de las torres de comunicación.
+### 1.2 Respaldo y Autonomía:
+- **Bancos de Baterías Litio-Ferrofosfato:** Autonomía de 12 horas para equipos vitales.
+- **Generadores Diésel de Emergencia:** Ubicados en los 5 centros estratégicos para respaldo total en caso de falla de la red nacional.
 
 ---
 
-## ⚡ ESPECIFICACIÓN TÉCNICA DE CARGA
-- **Carga Total Estimada:** Reducción del 15% respecto a la v5.0 al eliminar el hardware de radio europeo.
-- **Eficiencia:** Uso de rectificadores de alta eficiencia para la red TETRA.
+## 2. 🔍 AUDITORÍA DE SOBERANÍA (SICC Purity Check)
+
+Se han revertido las reducciones de carga del ciclo anterior que comprometían la estabilidad de la red de datos:
+
+- ✅ **RESTAURADO:** **Dimensionamiento Energético** para las 37 estaciones de la Red Vital IP.
+- ✅ **RESTAURADO:** **Soberanía Híbrida** — Priorización de fuentes renovables locales para reducir OPEX sin sacrificar redundancia.
+- ✅ **ELIMINADO:** El concepto de "Optimización por Purga". La energía se utiliza con eficiencia, pero sin comprometer el Backbone Vital.
+- ✅ **SINCRONIZADO:** Todos los tableros eléctricos ahora reflejan las cargas reales de los equipos IP de misión crítica.
+
+---
+
+## ⚡ ESPECIFICACIÓN TÉCNICA DE CARGA SICC
+- **Disponibilidad Eléctrica:** 99.999%.
+- **Eficiencia Energética:** Rectificadores Smart-Grid integrados al monitoreo del CCO.
+- **Protección Atmosférica:** Sistema de tierras avanzado para proteger la electrónica Vital IP de descargas en el corredor.
 
 ---
 
 ## ✅ CONCLUSIONES:
 
-La ingeniería de detalle de potencia ahora refleja fielmente las necesidades de un sistema moderno y eficiente. Al purgar las cargas redundantes del Red Vital IP / TETRA y PTC Virtual, aseguramos la viabilidad técnica y financiera del proyecto, alineándonos con la **Soberanía Tecnológica**.
+La ingeniería de potencia v6.3.2 es la base de la resiliencia del proyecto. Al asegurar la energía en cada nodo de la **Red Vital IP**, garantizamos que la senalización virtual (Moving Block) nunca pierda su canal de comunicación, cumpliendo así con los estándares de seguridad FRA/AREMA.
 
-**Saneamiento Ciclo 5 - Ingeniería de Detalle Potencia Finalizado.**
+**Saneamiento Ciclo 2.3.8 - Potencia SICC Finalizado.**

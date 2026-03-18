@@ -1,45 +1,47 @@
-# V.5 - INGENIERÍA DE DETALLE: SEGURIDAD v6.0 (CORE VIRTUAL)
+# V.5 - INGENIERÍA DE DETALLE: SEGURIDAD INTEGRAL v6.3.2 (SICC)
 ## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** 13 de marzo de 2026  
-**Versión:** v6.0 - Purge Release (Integrated Safety Detail Design)
-**Metodología:** Punto 42 (Karpathy Saneamiento) - Ciclo Inverso
+**Fecha de actualización:** 18 de marzo de 2026  
+**Versión:** v6.3.2 - Sovereign Cybersecurity (Multi-Layer)
+**Metodología:** Karpathy Autoresearch Loop (Daemon v1.0)
 
 ---
 
-## 1. SEGURIDAD FERROVIARIA INTEGRADA (SANEADA)
+## 1. SEGURIDAD FERROVIARIA SICC (MULTI-CAPA)
 
-La seguridad se garantiza mediante la integridad de los datos en la red **PTC Virtual**, eliminando la necesidad de módulos de transmisión propietarios.
+La seguridad se define como un ecosistema de defensa en profundidad, combinando la integridad física de la red de transporte con el cifrado vital del **SICC**.
 
-### 1.1 Niveles de Seguridad (Auditados):
-- **Core Vital:** Servidor Maestro 2oo3 con certificación de seguridad lógica para PTC (FRA 236).
-- **Comunicación Vital:** Basada exclusivamente en **TETRA** con encriptación de grado militar. Se elimina el Red Vital IP / TETRA.
-- **Seguridad en Cabina:** Interfaz DMI simplificada, centrada en autorizaciones de movimiento virtuales.
+### 1.1 Capas de Defensa Vital:
+- **Capa Vital IP:** Canal de alta velocidad cifrado sobre Fibra Óptica y LTE/Red Vital para el control del tren.
+- **Capa TETRA:** Redundancia de misión crítica para mensajería corta vital y comunicaciones de voz seguras.
+- **Servidor Maestro SICC:** Corazón lógico del sistema con arquitectura de redundancia 2oo3 (Safety-Critical).
 
-### 1.2 Sistemas ITS (Seguridad Física):
-- **CCTV:** 73 cámaras IP integradas al video-muro del CCO.
-- **Detección perimetral:** Integrada por software a las alarmas del CTC.
-
----
-
-## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE Red Vital IP / TETRA/PTC Virtual)
-
-Se han corregido los siguientes desvíos técnicos de la v5.0:
-- ✅ **ELIMINADO:** Requerimiento "TETRA + Red Vital IP / TETRA dual" para el PTC embarcado.
-- ✅ **ELIMINADO:** Referencias a "Virtual Balise (GNSS)s" en la matriz de seguridad física de vía.
-- ✅ **ELIMINADO:** Mención a interfaces de seguridad para Servidor PTC Central. La seguridad es **Peer-to-Peer** (Tren-Servidor PTC).
-- ✅ **ADOPTADO:** El protocolo **Vital IP** como el único canal de seguridad para el intercambio de mensajes entre el EPC y el Tren.
+### 1.2 Seguridad Física e ITS:
+- **CCTV Inteligente:** 73 cámaras IP con analítica de vídeo para detección de intrusiones en pasos a nivel y estaciones.
+- **ITS Unificado:** Integración de sistemas de auxilio y SOS en estaciones, centralizados en el CCO La Dorada.
 
 ---
 
-## 🛡 PROTOCOLO DE CIBERSEGURIDAD
-- Unificación de la seguridad en la capa de transporte (TLS Ferroviario).
-- No se depende de la seguridad física del espectro Red Vital IP / TETRA, sino de la robustez lógica de la red TETRA y la Fibra Óptica.
+## 2. 🔍 AUDITORÍA DE SOBERANÍA (SICC Purity Check)
+
+Se han revertido las debilidades de seguridad introducidas por el modelo de "unificación" de bajo costo:
+
+- ✅ **RESTAURADO:** **Canal de Seguridad Dual** — La redundancia entre TETRA y Red Vital IP es mandatoria para evitar puntos únicos de fallo.
+- ✅ **RESTAURADO:** **Criptografía Soberana** — Control total de las llaves de cifrado por parte de la APP, sin "Cajas Negras" de fabricantes.
+- ✅ **ELIMINADO:** Dependencia de la seguridad física de la vía. La seguridad es **Lógica y Centrada en el Tren (Train-Centric)**.
+- ✅ **SINCRONIZADO:** Protocolo **Vital IP** como el único lenguaje de confianza entre tierra y bordo.
+
+---
+
+## 🛡 PROTOCOLO DE CIBERSEGURIDAD SICC
+- **Zero-Trust Architecture:** Ningún dispositivo se considera seguro por defecto en la red ferroviaria.
+- **Aislamiento de Red:** Segmentación estricta entre el tráfico vital de senalización y el tráfico operativo/pasajeros.
+- **Auditoría Centinela:** Registro inalterable de cada evento de seguridad en el CCO.
 
 ---
 
 ## ✅ CONCLUSIONES:
 
-El sistema de seguridad de detalle ha sido saneado para proteger la **Soberanía Tecnológica**. Al simplificar la pila de protocolos y eliminar el hardware redundante, se logra un sistema más resiliente y fácil de auditar.
+El sistema de seguridad v6.3.2 garantiza que la **Soberanía Tecnológica** no sea solo una declaración, sino una realidad técnica. Al mantener la **Red Vital IP** como capa de alta disponibilidad, protegemos el corredor contra fallos masivos y ataques externos, asegurando la continuidad del servicio ferroviario nacional.
 
-**Saneamiento Ciclo 5 - Ingeniería de Detalle Seguridad Finalizado.**
+**Saneamiento Ciclo 2.3.8 - Seguridad SICC Finalizado.**

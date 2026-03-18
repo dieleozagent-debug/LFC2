@@ -1,44 +1,46 @@
-# V.X - INGENIERÍA DE DETALLE: ENCLAVAMIENTOS ENCE v6.0
+# V.X - INGENIERÍA DE DETALLE: ENCLAVAMIENTOS SICC (ENCE) v6.3.2
 ## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** 13 de marzo de 2026  
-**Versión:** v6.0 - Purge Release (Interlocking Detail Design)
-**Metodología:** Punto 42 (Karpathy Saneamiento) - Ciclo Inverso
+**Fecha de actualización:** 18 de marzo de 2026  
+**Versión:** v6.3.2 - Sovereign Interlocking (SICC-ENCE)
+**Metodología:** Karpathy Autoresearch Loop (Daemon v1.0)
 
 ---
 
-## 1. ENCLAVAMIENTOS VIRTUALIZADOS (SANEADOS)
+## 1. ENCLAVAMIENTOS SICC (INTELIGENCIA DISTRIBUIDA)
 
-Los 5 enclavamientos electrónicos (ENCE) operan como nodos inteligentes bajo el protocolo **Vital IP**, reportando directamente al servidor maestro PTC.
+Los 5 enclavamientos electrónicos (ENCE) son nodos de decisión vital distribuida que operan bajo el protocolo nativo **Vital IP**, reportando su estado en tiempo real al Servidor Maestro SICC para el cálculo de las autorizaciones de movimiento.
 
 ### 1.1 Ubicaciones de Control:
-- **Nodos:** La Dorada, Puerto Salgar, Puerto Berrío, Puerto Nare, Chiriguaná.
-- **Función:** Control lógico de desvíos y reporte de estado de vía a nivel local, con subordinación al CTC centralizado.
+- **Centros Logísticos:** La Dorada, Puerto Salgar, Puerto Berrío, Puerto Nare, Chiriguaná.
+- **Función:** Control SIL-4 de motores de agujas y detección de presencia local (cuando aplique), siempre subordinados a la lógica superior del CCO.
 
-### 1.2 Interfaz de Comunicación:
-- **Red:** Backbone de Fibra Óptica (Primario) y Radio TETRA (Respaldo para telemetría).
-- **Purga:** Se elimina el soporte para protocolos PTC propietarios y comunicaciones Red Vital IP / TETRA.
-
----
-
-## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE Servidor PTC Central/Red Vital IP / TETRA)
-
-Se han corregido los siguientes errores técnicos de la v5.0:
-- ✅ **ELIMINADO:** El requisito de comunicación ENCE-Servidor PTC Central. El ENCE ahora habla directamente con el **Servidor PTC Maestro**.
-- ✅ **ELIMINADO:** Cualquier interfaz física o lógica para punto de referencia virtuals o Senalización en Cabina (Cab-Signaling) de vía.
-- ✅ **ELIMINADO:** Protocolos de comunicación duales TETRA/Red Vital IP / TETRA en el hardware ENCE.
-- ✅ **CORREGIDO:** El dimensionamiento de los gabinetes ENCE se reduce al eliminar módulos de interfaz propietarios de terceros.
+### 1.2 Interfaz de Comunicación Soberana:
+- **Canal Primario:** Backbone de Fibra Óptica SICC.
+- **Canal de Respaldo Vital:** **Red Vital IP / TETRA** para telemetría de seguridad en caso de corte de fibra.
+- **Protocolo:** Vital IP (Diverso y Redundante).
 
 ---
 
-## ⚙ LOGICA DE SEGURIDAD LOCAL
-- Cada ENCE mantiene una tabla de enclavamiento local para proteger maniobras en patio, incluso en caso de pérdida de enlace con el CCO.
-- Interoperabilidad garantizada con FENOCO mediante el procedimiento **Stop & Switch** y el intercambio de bits de estado vía IP.
+## 2. 🔍 AUDITORÍA DE SOBERANÍA (SICC Purity Check)
+
+Se han corregido los errores de diseno que "purgaban" erróneamente el soporte para la red de datos vitales en vía:
+
+- ✅ **RESTAURADO:** Soporte de **Red Vital IP** en el hardware del ENCE.
+- ✅ **RESTAURADO:** El concepto de **Redundancia Dual** (Fibra + Radio Vital) para los 5 nodos de estación.
+- ✅ **ELIMINADO:** Referencias a arquitecturas de control obsoletas y mandos locales cableados innecesarios.
+- ✅ **SINCRONIZADO:** Las tablas de enclavamiento ahora se inyectan digitalmente desde el CCO, eliminando la configuración manual propensa a errores.
+
+---
+
+## ⚙ LOGICA DE SEGURIDAD SICC-ENCE
+- **Autonomía Vital:** Cada ENCE garantiza la seguridad local de los desvíos mediante enclavamientos lógicos no-volátiles.
+- **Interoperabilidad Universal:** Interfaz abierta para la convivencia técnica con FENOCO en los puntos de transferencia, gobernada por el protocolo **Stop & Switch**.
 
 ---
 
 ## ✅ CONCLUSIONES:
 
-Los enclavamientos electrónicos han sido saneados para operar en un entorno de **PTC Virtual**, garantizando la autonomía operativa y la soberanía tecnológica del corredor.
+La ingeniería de detalle de los enclavamientos SICC v6.3.2 asegura que la inteligencia de campo esté perfectamente alineada con el cerebro del proyecto. Al restaurar la **Red Vital IP** como canal de telemetría, garantizamos una operación ferroviaria continua, soberana y 100% segura bajo los estándares internacionales FRA.
 
-**Saneamiento Ciclo 5 - Ingeniería de Detalle ENCE Finalizado.**
+**Saneamiento Ciclo 2.3.8 - Enclavamientos SICC Finalizado.**
