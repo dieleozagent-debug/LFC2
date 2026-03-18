@@ -7,7 +7,7 @@ const LFC_DBCI = {
     PROJECT: {
         NAME: "LFC STUDIO",
         FULL_LOCATION: "APP La Dorada-Chiriguaná",
-        VERSION: "v6.0 Masterchef",
+        VERSION: "v6.3.2 Masterchef",
     },
 
     // CONSTANTES FÍSICAS INAMOVIBLES (La Biblia de Ingeniería)
