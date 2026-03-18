@@ -18,57 +18,57 @@ La estructura implementada cumple completamente con los estándares BIM ATB-F3 y
 
 ## ✅ VALIDACIÓN POR COMPONENTE
 
-### **🏛️ 00. Gobernanza PMO/**
+### **🏛️ 00_Gobernanza_PMO/**
 **Estado:** ✅ **CORRECTO**
-- **Ubicación:** `00. Gobernanza PMO/`
+- **Ubicación:** `00_Gobernanza_PMO/`
 - **Contenido:** ✅ 1 documento creado
   - `0.1_MATRIZ_ROLES_PMO_EPC_RACI.md` - Matriz completa de roles
 - **Función:** ✅ Gestión estratégica y gobernanza
 - **Estándar:** ✅ Cumple BIM ATB-F3
 
-### **📋 I. Contrato General/**
+### **📋 I_Contrato_General/**
 **Estado:** ✅ **CORRECTO**
-- **Ubicación:** `I. Contrato General/`
+- **Ubicación:** `I_Contrato_General/`
 - **Contenido:** ✅ 12 documentos existentes
 - **Función:** ✅ Base contractual del proyecto
 - **Observación:** ⚠️ Requiere corrección de codificación UTF-8
 
-### **📋 II. Apendices Tecnicos/**
+### **📋 II_Apendices_Tecnicos/**
 **Estado:** ✅ **CORRECTO**
-- **Ubicación:** `II. Apendices Tecnicos/`
+- **Ubicación:** `II_Apendices_Tecnicos/`
 - **Contenido:** ✅ 12 documentos AT1-AT10
 - **Función:** ✅ Especificaciones técnicas base
 - **Estándar:** ✅ Cumple estructura contractual
 
-### **📋 II.A. Analisis Contractual/**
+### **📋 II_A_Analisis_Contractual/**
 **Estado:** ✅ **CORRECTO**
-- **Ubicación:** `II.A. Analisis Contractual/`
+- **Ubicación:** `II_A_Analisis_Contractual/`
 - **Contenido:** ✅ 3 documentos completados
 - **Función:** ✅ Fase A - Análisis contractual
 - **Estado:** ✅ Completada al 100%
 
-### **📋 III. Ingenieria conceptual/**
+### **📋 III_Ingenieria_conceptual/**
 **Estado:** ✅ **CORRECTO Y MEJORADO**
-- **Ubicación:** `III. Ingenieria conceptual/`
+- **Ubicación:** `III_Ingenieria_conceptual/`
 - **Contenido:** ✅ 26 documentos + WBS nueva
   - **Documentos existentes:** 25 documentos completados
   - **NUEVO:** `25.1_WBS_COMPLETA_ESPECIALIDADES.md` ✅
 - **Función:** ✅ Fase B - Ingeniería conceptual + WBS integral
 - **Mejora:** ✅ WBS expandida con todas las especialidades
 
-### **📋 IV. Ingenieria basica/**
+### **📋 IV_Ingenieria_basica/**
 **Estado:** ✅ **CORRECTO**
-- **Ubicación:** `IV. Ingenieria basica/`
+- **Ubicación:** `IV_Ingenieria_basica/`
 - **Contenido:** ✅ 8 documentos completados
 - **Función:** ✅ Fase C - Ingeniería basica
 - **Estado:** ✅ Completada al 100%
 
-### **📋 V. Ingenieria de detalle/**
+### **📋 V_Ingenieria_detalle/**
 **Estado:** ✅ **CORRECTO Y REESTRUCTURADO**
 
 #### **Estructura implementada:**
 ```
-V. Ingenieria de detalle/
+V_Ingenieria_detalle/
 ├── V.1_Civil/                    ✅ CREADA
 ├── V.2_Electrica/                ✅ CREADA + documento migrado
 │   └── 7_Instalaciones_el_ctricas_Contrato_8_7.md
@@ -95,17 +95,17 @@ V. Ingenieria de detalle/
 
 ### **📋 VI. Operacion y Mantenimiento/**
 **Estado:** ✅ **CORRECTO**
-- **Ubicación:** `VI. operacion y mantenimiento y reversion/`
+- **Ubicación:** `VI_Operacion_Mantenimiento_Reversion/`
 - **Contenido:** ✅ 5 documentos existentes
 - **Función:** ✅ Fase E - Operación y mantenimiento
 - **Estado:** ⏸️ Bloqueada por problemas críticos
 
-### **📋 VII. Soporte Especializado/**
+### **📋 VII_Soporte_Especializado/**
 **Estado:** ✅ **CORRECTO Y NUEVO**
 
 #### **Estructura implementada:**
 ```
-VII. Soporte Especializado/
+VII_Soporte_Especializado/
 ├── VII.1_Normatividad/           ✅ CREADA
 ├── VII.2_Especificaciones/       ✅ CREADA
 └── VII.3_Procedimientos/         ✅ CREADA
@@ -121,15 +121,15 @@ VII. Soporte Especializado/
 
 | Componente | Estructura | Contenido | Migración | Estándar BIM | Estado Final |
 |:-----------|:----------:|:---------:|:---------:|:------------:|:------------:|
-| **00. Gobernanza PMO** | ✅ | ✅ | N/A | ✅ | ✅ **CORRECTO** |
-| **I. Contrato General** | ✅ | ✅ | N/A | ✅ | ⚠️ **Requiere UTF-8** |
-| **II. Apendices Tecnicos** | ✅ | ✅ | N/A | ✅ | ✅ **CORRECTO** |
-| **II.A. Analisis Contractual** | ✅ | ✅ | N/A | ✅ | ✅ **CORRECTO** |
-| **III. Ingenieria conceptual** | ✅ | ✅ | N/A | ✅ | ✅ **MEJORADO** |
-| **IV. Ingenieria basica** | ✅ | ✅ | N/A | ✅ | ✅ **CORRECTO** |
-| **V. Ingenieria de detalle** | ✅ | ✅ | ✅ | ✅ | ✅ **REESTRUCTURADO** |
+| **00_Gobernanza_PMO** | ✅ | ✅ | N/A | ✅ | ✅ **CORRECTO** |
+| **I_Contrato_General** | ✅ | ✅ | N/A | ✅ | ⚠️ **Requiere UTF-8** |
+| **II_Apendices_Tecnicos** | ✅ | ✅ | N/A | ✅ | ✅ **CORRECTO** |
+| **II_A_Analisis_Contractual** | ✅ | ✅ | N/A | ✅ | ✅ **CORRECTO** |
+| **III_Ingenieria_conceptual** | ✅ | ✅ | N/A | ✅ | ✅ **MEJORADO** |
+| **IV_Ingenieria_basica** | ✅ | ✅ | N/A | ✅ | ✅ **CORRECTO** |
+| **V_Ingenieria_detalle** | ✅ | ✅ | ✅ | ✅ | ✅ **REESTRUCTURADO** |
 | **VI. Operacion y Mantenimiento** | ✅ | ✅ | N/A | ✅ | ⏸️ **BLOQUEADO** |
-| **VII. Soporte Especializado** | ✅ | ⏳ | N/A | ✅ | ✅ **NUEVO** |
+| **VII_Soporte_Especializado** | ✅ | ⏳ | N/A | ✅ | ✅ **NUEVO** |
 
 ---
 
@@ -138,12 +138,12 @@ VII. Soporte Especializado/
 ### **✅ OBJETIVO 1: Roles PMO Consolidados**
 - **Estado:** ✅ **COMPLETADO**
 - **Logro:** Matriz RACI completa con roles por especialidad
-- **Ubicación:** `00. Gobernanza PMO/0.1_MATRIZ_ROLES_PMO_EPC_RACI.md`
+- **Ubicación:** `00_Gobernanza_PMO/0.1_MATRIZ_ROLES_PMO_EPC_RACI.md`
 
 ### **✅ OBJETIVO 2: WBS Completa con Especialidades**
 - **Estado:** ✅ **COMPLETADO**
 - **Logro:** WBS integral con Civil, Eléctrica, Mecánica, Sistemas, PMO
-- **Ubicación:** `III. Ingenieria conceptual/25.1_WBS_COMPLETA_ESPECIALIDADES.md`
+- **Ubicación:** `III_Ingenieria_conceptual/25.1_WBS_COMPLETA_ESPECIALIDADES.md`
 
 ### **✅ OBJETIVO 3: Documentos por Especialidad**
 - **Estado:** ✅ **COMPLETADO**
@@ -157,7 +157,7 @@ VII. Soporte Especializado/
 
 ### **✅ OBJETIVO 5: Soporte Especializado**
 - **Estado:** ✅ **COMPLETADO**
-- **Logro:** Nueva estructura VII. Soporte Especializado
+- **Logro:** Nueva estructura VII_Soporte_Especializado
 - **Componentes:** Normatividad, Especificaciones, Procedimientos
 
 ---

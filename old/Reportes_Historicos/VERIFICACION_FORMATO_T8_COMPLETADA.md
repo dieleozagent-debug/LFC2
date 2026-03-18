@@ -39,37 +39,37 @@ Como Administrador Contractual EPC, confirmo que se ha verificado y aplicado cor
 
 | Documento | Elementos T8 | Estado | Observaciones |
 |:----------|:------------:|:-------|:---------------|
-| `I. Contrato General/1. Cl_1_Objeto_Contrato_MEJORADO.md` | 8/8 | ✅ **COMPLETO** | Formato T8 estándar aplicado |
-| `I. Contrato General/2. Cl_2_Definiciones_MEJORADO.md` | 8/8 | ✅ **COMPLETO** | Formato T8 estándar aplicado |
-| `I. Contrato General/3. Cl_3_Obligaciones_Generales_MEJORADO.md` | 8/8 | ✅ **COMPLETO** | Formato T8 estándar aplicado |
-| `I. Contrato General/8. Cl_15_1_Reversion_Bienes_MEJORADO.md` | 8/8 | ✅ **COMPLETO** | Formato T8 estándar aplicado |
+| `I_Contrato_General/1. Cl_1_Objeto_Contrato_MEJORADO.md` | 8/8 | ✅ **COMPLETO** | Formato T8 estándar aplicado |
+| `I_Contrato_General/2. Cl_2_Definiciones_MEJORADO.md` | 8/8 | ✅ **COMPLETO** | Formato T8 estándar aplicado |
+| `I_Contrato_General/3. Cl_3_Obligaciones_Generales_MEJORADO.md` | 8/8 | ✅ **COMPLETO** | Formato T8 estándar aplicado |
+| `I_Contrato_General/8. Cl_15_1_Reversion_Bienes_MEJORADO.md` | 8/8 | ✅ **COMPLETO** | Formato T8 estándar aplicado |
 
 ### **📁 APÉNDICES TÉCNICOS (T8 ✅ APLICADO)**
 
 | Documento | Elementos T8 | Estado | Observaciones |
 |:----------|:------------:|:-------|:---------------|
-| `II. Apendices Tecnicos/AT1_Alcance_del_Proyecto_MEJORADO.md` | 8/8 | ✅ **COMPLETO** | Formato T8 estándar aplicado |
-| `II. Apendices Tecnicos/AT2_Operacion_y_Mantenimiento_MEJORADO.md` | 8/8 | ✅ **COMPLETO** | Formato T8 estándar aplicado |
-| `II. Apendices Tecnicos/AT3_Especificaciones_Generales_MEJORADO.md` | 8/8 | ✅ **COMPLETO** | Formato T8 estándar aplicado |
-| `II. Apendices Tecnicos/AT8_Gestion_Social_MEJORADO.md` | 8/8 | ✅ **COMPLETO** | Formato T8 estándar aplicado |
+| `II_Apendices_Tecnicos/AT1_Alcance_del_Proyecto_MEJORADO.md` | 8/8 | ✅ **COMPLETO** | Formato T8 estándar aplicado |
+| `II_Apendices_Tecnicos/AT2_Operacion_y_Mantenimiento_MEJORADO.md` | 8/8 | ✅ **COMPLETO** | Formato T8 estándar aplicado |
+| `II_Apendices_Tecnicos/AT3_Especificaciones_Generales_MEJORADO.md` | 8/8 | ✅ **COMPLETO** | Formato T8 estándar aplicado |
+| `II_Apendices_Tecnicos/AT8_Gestion_Social_MEJORADO.md` | 8/8 | ✅ **COMPLETO** | Formato T8 estándar aplicado |
 
 ### **📁 INGENIERÍA CONCEPTUAL (T8 ✅ APLICADO)**
 
 | Documento | Elementos T8 | Estado | Observaciones |
 |:----------|:------------:|:-------|:---------------|
-| `III. Ingenieria conceptual/25.1_WBS_COMPLETA_ESPECIALIDADES.md` | 8/8 | ✅ **COMPLETO** | Formato T8 estándar aplicado |
-| `III. Ingenieria conceptual/25.2_Matriz_Alcance_Electrico.md` | 8/8 | ✅ **COMPLETO** | Formato T8 estándar aplicado |
-| `III. Ingenieria conceptual/36.2_Metodologia_Gestion_Supuestos.md` | 8/8 | ✅ **COMPLETO** | Formato T8 estándar aplicado |
+| `III_Ingenieria_conceptual/25.1_WBS_COMPLETA_ESPECIALIDADES.md` | 8/8 | ✅ **COMPLETO** | Formato T8 estándar aplicado |
+| `III_Ingenieria_conceptual/25.2_Matriz_Alcance_Electrico.md` | 8/8 | ✅ **COMPLETO** | Formato T8 estándar aplicado |
+| `III_Ingenieria_conceptual/36.2_Metodologia_Gestion_Supuestos.md` | 8/8 | ✅ **COMPLETO** | Formato T8 estándar aplicado |
 
 ### **📁 INGENIERÍA DE DETALLE (T8 ✅ APLICADO)**
 
 | Documento | Elementos T8 | Estado | Observaciones |
 |:----------|:------------:|:-------|:---------------|
-| `V. Ingenieria de detalle/V.1_Civil/V.1.1_Obras_Civiles_Infraestructura_DETALLADA.md` | 8/8 | ✅ **COMPLETO** | Formato T8 estándar aplicado |
-| `V. Ingenieria de detalle/V.2_Electrica/V.2.1_Sistema_Alimentacion_Principal_DETALLADO.md` | 8/8 | ✅ **COMPLETO** | Formato T8 estándar aplicado |
-| `V. Ingenieria de detalle/V.3_Mecanica/V.3.1_Material_Rodante_Detallado.md` | 8/8 | ✅ **COMPLETO** | Formato T8 estándar aplicado |
-| `V. Ingenieria de detalle/V.4_Sistemas/V.4.1_Sistemas_Ferroviarios_Integrados_DETALLADO.md` | 8/8 | ✅ **COMPLETO** | Formato T8 estándar aplicado |
-| `V. Ingenieria de detalle/V.5_Integracion/V.5.1_Plan_Integracion_Sistemas_COMPLETO.md` | 8/8 | ✅ **COMPLETO** | Formato T8 estándar aplicado |
+| `V_Ingenieria_detalle/V.1_Civil/V.1.1_Obras_Civiles_Infraestructura_DETALLADA.md` | 8/8 | ✅ **COMPLETO** | Formato T8 estándar aplicado |
+| `V_Ingenieria_detalle/V.2_Electrica/V.2.1_Sistema_Alimentacion_Principal_DETALLADO.md` | 8/8 | ✅ **COMPLETO** | Formato T8 estándar aplicado |
+| `V_Ingenieria_detalle/V.3_Mecanica/V.3.1_Material_Rodante_Detallado.md` | 8/8 | ✅ **COMPLETO** | Formato T8 estándar aplicado |
+| `V_Ingenieria_detalle/V.4_Sistemas/V.4.1_Sistemas_Ferroviarios_Integrados_DETALLADO.md` | 8/8 | ✅ **COMPLETO** | Formato T8 estándar aplicado |
+| `V_Ingenieria_detalle/V.5_Integracion/V.5.1_Plan_Integracion_Sistemas_COMPLETO.md` | 8/8 | ✅ **COMPLETO** | Formato T8 estándar aplicado |
 
 ---
 

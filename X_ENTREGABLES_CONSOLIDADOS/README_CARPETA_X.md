@@ -280,9 +280,9 @@ La Carpeta X será exitosa si cumple:
 ## 📚 **REFERENCIAS**
 
 ### **Documentos Metodológicos:**
-- **Templates v1.0:** `VII. documentos transversales/TEMPLATES_METODOLOGICOS_v1.0.md`
-- **Guía metodológica:** `VII. documentos transversales/GUIA_METODOLOGICA_EPC_FERROVIARIOS_v1.0.md`
-- **Metodología Punto 42:** `VIII. Documentos Maestros y Metodologia/PROMPT_Metodologia_Punto_42_Iteracion_MultiAgente_v1.1.md`
+- **Templates v1.0:** `VII_Documentos_Transversales/TEMPLATES_METODOLOGICOS_v1.0.md`
+- **Guía metodológica:** `VII_Documentos_Transversales/GUIA_METODOLOGICA_EPC_FERROVIARIOS_v1.0.md`
+- **Metodología Punto 42:** `VIII_Documentos_Maestros_Metodologia/PROMPT_Metodologia_Punto_42_Iteracion_MultiAgente_v1.1.md`
 
 ### **Carpetas de Trabajo:**
 - **I. Contractual:** Base legal y contractual

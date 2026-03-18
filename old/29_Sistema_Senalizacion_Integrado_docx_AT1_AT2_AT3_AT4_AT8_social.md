@@ -21,8 +21,8 @@ Este documento es la base para el diseno de la seguridad en la vía. Su correcta
     - `AT1`, `AT2`, `AT3`, `AT4`, `AT8`: Fuentes primarias de requisitos.
     - `26. Sistem_CTC_Int...md`: Define las interfaces de control que la senalización debe obedecer. **(Recién completado, desbloquea este documento)**.
 - **Gobierna a:**
-    - `V. Ingenieria de detalle/1_Se_alizaci_n_ferroviaria_Contrato_8_1.md`: El diseno de detalle de enclavamientos y senales se basa en los conceptos aquí definidos.
-    - `V. Ingenieria de detalle/3_Pasos_a_nivel_Contrato_8_3.md`: El diseno de los 146 pasos a nivel se rige por las especificaciones de esta sección.
+    - `V_Ingenieria_detalle/1_Se_alizaci_n_ferroviaria_Contrato_8_1.md`: El diseno de detalle de enclavamientos y senales se basa en los conceptos aquí definidos.
+    - `V_Ingenieria_detalle/3_Pasos_a_nivel_Contrato_8_3.md`: El diseno de los 146 pasos a nivel se rige por las especificaciones de esta sección.
     - `34_Criterios_Interoperabilidad...md`: La senalización debe ser compatible con los estándares de FENOCO.
 
 ---
@@ -42,8 +42,8 @@ El diseno detallado de la senalización no puede avanzar hasta que este concepto
 
 | Documento | Dependencia |
 |---|---|
-| `V. Ingenieria de detalle/1_...md` | Requiere la filosofía de senalización y las especificaciones de los enclavamientos. |
-| `V. Ingenieria de detalle/3_...md` | Necesita la clasificación y especificaciones técnicas de los 146 pasos a nivel. |
+| `V_Ingenieria_detalle/1_...md` | Requiere la filosofía de senalización y las especificaciones de los enclavamientos. |
+| `V_Ingenieria_detalle/3_...md` | Necesita la clasificación y especificaciones técnicas de los 146 pasos a nivel. |
 
 ### 2.3 Interfaces Críticas
 - **Senalización ↔ CTC:** La senalización es el "brazo ejecutor" del CTC. Recibe comandos y devuelve el estado de la vía.

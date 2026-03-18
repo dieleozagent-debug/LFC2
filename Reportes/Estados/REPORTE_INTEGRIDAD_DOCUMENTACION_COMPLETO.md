@@ -151,7 +151,7 @@ Verificar la integridad completa de la documentación del proyecto desde el inic
 
 #### **1. REFERENCIAS DESACTUALIZADAS**
 - **Problema:** Los manuales de O&M referencian documentos con nombres antiguos
-- **Ejemplo:** Referencia a `V. Ingenieria de detalle/2_Centro_de_Control_de_Tr_fico_CTC_Contrato_8_2.md` en lugar de `V.2_Centro_Control_Trafico_CTC_Detalle_v0.1.md`
+- **Ejemplo:** Referencia a `V_Ingenieria_detalle/2_Centro_de_Control_de_Tr_fico_CTC_Contrato_8_2.md` en lugar de `V.2_Centro_Control_Trafico_CTC_Detalle_v0.1.md`
 - **Impacto:** Trazabilidad documental comprometida
 - **Acción Requerida:** Actualizar referencias en manuales de O&M
 

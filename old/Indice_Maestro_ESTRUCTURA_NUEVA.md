@@ -16,28 +16,28 @@ Este índice presenta la **nueva estructura documental** implementada según est
 
 ## 🏗️ ESTRUCTURA DOCUMENTAL COMPLETA
 
-### **📁 00. Gobernanza PMO/**
+### **📁 00_Gobernanza_PMO/**
 **Propósito:** Gestión estratégica y gobernanza del proyecto
 
 | Documento | Estado | Descripción |
 |:----------|:-------:|:------------|
 | `0.1_MATRIZ_ROLES_PMO_EPC_RACI.md` | ✅ **Nuevo** | Matriz completa de roles y responsabilidades por especialidad |
 
-### **📁 I. Contrato General/**
+### **📁 I_Contrato_General/**
 **Propósito:** Base contractual del proyecto (12 documentos)
 
 | Estado | Observaciones |
 |:-------:|:-------------|
 | ⚠️ **Requiere corrección** | Caracteres especiales corruptos en documentos principales |
 
-### **📁 II. Apendices Tecnicos/**
+### **📁 II_Apendices_Tecnicos/**
 **Propósito:** Especificaciones técnicas base (12 documentos AT1-AT10)
 
 | Estado | Observaciones |
 |:-------:|:-------------|
 | ✅ **Base** | Especificaciones técnicas que son la base de la ingeniería |
 
-### **📁 II.A. Analisis Contractual/**
+### **📁 II_A_Analisis_Contractual/**
 **Propósito:** Fase A - Análisis contractual (3 documentos)
 
 | Documento | Estado | Descripción |
@@ -46,7 +46,7 @@ Este índice presenta la **nueva estructura documental** implementada según est
 | `A.2_Analisis_AT2_y_AT4.md` | ✅ Completado | Análisis de Operación, Mantenimiento e Indicadores |
 | `A.3_Analisis_AT3_y_AT9.md` | ✅ Completado | Análisis de Especificaciones Técnicas y Plan de Obras |
 
-### **📁 III. Ingenieria conceptual/**
+### **📁 III_Ingenieria_conceptual/**
 **Propósito:** Fase B - Validación de ingeniería conceptual
 
 #### **Bloque 0.0: Documentos Base de Ingeniería**
@@ -79,7 +79,7 @@ Este índice presenta la **nueva estructura documental** implementada según est
 | `35_Criterios_Redundancia...md` | ✅ Completado | Criterios de redundancia y disponibilidad |
 | `36_Criterios_Ciberseguridad...md` | ✅ Completado | Criterios de ciberseguridad para sistemas de control |
 
-### **📁 IV. Ingenieria basica/**
+### **📁 IV_Ingenieria_basica/**
 **Propósito:** Fase C - Ingeniería basica (6 documentos completados)
 
 | Documento | Estado | Descripción |
@@ -91,7 +91,7 @@ Este índice presenta la **nueva estructura documental** implementada según est
 | `41. Interfaces_Sistemas_MEJORADO.md` | ✅ Completado | Detalle de las conexiones entre sistemas |
 | `42. Plan_Pruebas_MEJORADO.md` | ✅ Completado | Estrategia de calidad y aceptación |
 
-### **📁 V. Ingenieria de detalle/**
+### **📁 V_Ingenieria_detalle/**
 **Propósito:** Fase D - Ingeniería de detalle (REESTRUCTURADA POR ESPECIALIDADES)
 
 #### **📁 V.1_Civil/**
@@ -162,7 +162,7 @@ Este índice presenta la **nueva estructura documental** implementada según est
 | `Manual_OM_Telecom.md` | ⏸️ **BLOQUEADO** | Manual de Mantenimiento para Fibra Óptica y TETRA |
 | `Manual_OM_Seguridad.md` | ⏸️ **BLOQUEADO** | Manual de Mantenimiento para CCTV e Incendios |
 
-### **📁 VII. Soporte Especializado/**
+### **📁 VII_Soporte_Especializado/**
 **Propósito:** Documentos de soporte técnico especializado (NUEVA ESTRUCTURA)
 
 #### **📁 VII.1_Normatividad/**
@@ -206,7 +206,7 @@ Este índice presenta la **nueva estructura documental** implementada según est
 
 ### **FASE 3: Integración (1-2 semanas)**
 1. **PMO:** Crear documentos V.5_Integracion
-2. **Soporte:** Crear documentos VII. Soporte Especializado
+2. **Soporte:** Crear documentos VII_Soporte_Especializado
 3. **Validación:** Integrar todas las especialidades
 
 ---

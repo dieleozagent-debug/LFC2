@@ -6,7 +6,7 @@
 
 ### **📊 WBS_Menu_Principal.html**
 ```
-Ubicación: IX. WBS y Planificacion/WBS_Menu_Principal.html
+Ubicación: IX_WBS_Planificacion/WBS_Menu_Principal.html
 ```
 
 **✅ Es el menú principal** con enlaces a todas las vistas
@@ -17,7 +17,7 @@ Ubicación: IX. WBS y Planificacion/WBS_Menu_Principal.html
 
 ### **WBS_Presupuestal_INTERACTIVA_v3.0.html** (NUEVO)
 ```
-Ubicación: IX. WBS y Planificacion/WBS_Presupuestal_INTERACTIVA_v3.0.html
+Ubicación: IX_WBS_Planificacion/WBS_Presupuestal_INTERACTIVA_v3.0.html
 ```
 
 **Qué hace:**

@@ -1,0 +1,124 @@
+﻿# PLANOS PRELIMINARES DE LOCALIZACIÓN v4.0
+## APP La Dorada - Chiriguaná
+
+---
+
+## 1. MARCO CONTRACTUAL
+
+### 1.1 Base Legal
+Este documento establece la localización preliminar de la infraestructura de telecomunicaciones y control, en cumplimiento de:
+- **AT7 (Gestión Predial, Cap. 4.5):** Exige la entrega de un "Plano de requerimiento predial" que defina la localización exacta de torres y nodos. Este documento es el insumo principal para dicho plano.
+- **AT3 (Especificaciones, Cap. 8.5 y 8.6):** Define la necesidad de distribuir torres TETRA y nodos de fibra a lo largo del corredor.
+- **AT1 (Alcance):** Define la ubicación de las infraestructuras principales como el CCO y los talleres.
+
+### 1.2 ⚠️ EVALUACIÓN DE DEPENDENCIAS DOCUMENTALES
+Este documento es el **mapa de despliegue de la infraestructura tecnológica**. Traduce la arquitectura de sistemas en coordenadas geográficas.
+
+- **Depende de:**
+    - `37. MemoriasDiseno_Basico_v5.0_Validado_Riesgos.md`: Justifica las tecnologías y arquitecturas cuya ubicación se define aquí.
+    - `38. DiagramasArquitectura...md`: Proporciona el esquema de interconexión que guía la localización de los nodos.
+    - `27_Sistema_TETRA_Integrado...md`: Define la necesidad de ~33 sitios de repetición.
+    - `28_Sistema_FibraOptica_Integrado...md`: Define la necesidad de nodos de regeneración cada 80-100 km.
+- **Gobierna a:**
+    - `40. Plan_GestionPermisos...md`: La gestión de permisos ante la ANE y ANLA se basa en las ubicaciones aquí definidas.
+    - `V_Ingenieria_detalle`: Los disenos detallados de cimentaciones, estructuras y canalizaciones se basan en estos planos preliminares.
+
+---
+
+## 2. INTEGRACIÓN CON DOCUMENTOS RELACIONADOS
+
+### 2.1 Documentos Base (Completados ✅)
+Este plan de localización se basa en las arquitecturas y justificaciones ya aprobadas.
+
+| Documento | Aporte Clave |
+|---|---|
+| `37. MemoriasDiseno_Basico_v5.0_Validado_Riesgos.md` | Justifica la necesidad de los sitios a localizar. |
+| `38. DiagramasArquitectura...md` | Muestra cómo se interconectan los sitios que se están localizando. |
+
+### 2.2 Documentos Dependientes (Bloqueados 🔴)
+El desarrollo de los siguientes documentos dependía de la validación de este plan de localización.
+
+| Documento | Dependencia |
+|---|---|
+| `40. Plan_GestionPermisos...md` | ✅ **Completado.** Utilizó las coordenadas de las torres para los trámites ante la ANE. |
+| `V_Ingenieria_detalle` | ✅ **Insumo Listo.** Las ubicaciones están listas para los estudios de suelos y disenos de cimentación. |
+
+### 2.3 Interfaces Críticas
+- **Interfaz con Gestión Predial (AT7):** Este documento es el principal insumo para que el equipo de gestión predial inicie la adquisición de los terrenos necesarios.
+- **Interfaz con Gestión Ambiental (AT6):** Las coordenadas de las torres son necesarias para evaluar el impacto ambiental y tramitar los permisos correspondientes.
+
+---
+
+## 3. OPTIMIZACIONES EPC ESPECÍFICAS
+
+### 3.1 Plan de Localización como Herramienta de Planificación Paralela
+La creación de este plan preliminar en la fase de ingeniería basica es una optimización crucial para el EPC:
+- **Adelanta Actividades Críticas:** Permite iniciar de forma temprana las actividades de la ruta crítica del proyecto: la gestión predial y la tramitación de permisos, que pueden durar más de 12 meses.
+- **Reduce Incertidumbre:** Proporciona una base tangible para la planificación logística y de construcción, permitiendo una estimación más precisa de costos y tiempos.
+- **Facilita la Coordinación:** Sirve como un mapa común para los equipos de ingeniería civil, telecomunicaciones, eléctrico y predial.
+
+---
+
+## 4. MATRIZ DE LOCALIZACIÓN PRELIMINAR DE INFRAESTRUCTURA
+
+### 4.1 Metodología de Selección de Sitios
+La selección de las ubicaciones preliminares se basó en los siguientes criterios, derivados de la fase conceptual:
+1.  **Cobertura de Radio (TETRA):** Se realizó una simulación de propagación preliminar para estimar una separación promedio de 15-20 km entre torres, garantizando el 100% de cobertura del corredor.
+2.  **Atenuación de Senal (Fibra Óptica):** Se ubicaron nodos de regeneración cada 80-100 km para asegurar la calidad de la senal óptica.
+3.  **Aprovechamiento de Infraestructura Existente:** Se priorizó la ubicación de sitios en estaciones, apartaderos y talleres existentes para minimizar la necesidad de nuevos predios y facilitar el acceso a energía.
+4.  **Accesibilidad y Seguridad:** Se consideró la facilidad de acceso para mantenimiento y la seguridad de los sitios.
+
+### 4.2 Tabla de Localización Preliminar
+
+| ID Sitio | PK Aprox. | Municipio | Tipo de Sitio | Coordenadas Preliminares (Lat, Lon) | Justificación |
+|:---|:---|:---|:---|:---|:---|
+| **CCO-01** | 202+000 | La Dorada | CCO y Nodo Principal | 5.45, -74.66 | Centro de Control de Operaciones (AT1) |
+| **TET-01** | 202+000 | La Dorada | Estación Base TETRA | 5.45, -74.66 | Cobertura inicial del corredor |
+| **FIB-01** | 285+000 | Puerto Berrío | Nodo de Regeneración FO | 6.49, -74.40 | Regeneración de senal óptica (~80 km) |
+| **TET-05** | 287+000 | Puerto Berrío | Estación Base TETRA | 6.50, -74.41 | Cobertura en zona de apartaderos |
+| **TALLER-01**| 441+932 | Barrancabermeja | Taller Pesado y Nodo | 7.06, -73.85 | Ubicación Taller Pesado (AT1) |
+| **TET-12** | 442+000 | Barrancabermeja | Estación Base TETRA | 7.06, -73.85 | Cobertura en zona industrial |
+| **FIB-02** | 525+000 | San Alberto | Nodo de Regeneración FO | 7.76, -73.38 | Regeneración de senal óptica (~80 km) |
+| **TET-18** | 533+000 | San Alberto | Estación Base TETRA | 7.82, -73.39 | Cobertura en zona de apartaderos |
+| **FIB-03** | 604+000 | Gamarra | Nodo de Regeneración FO | 8.33, -73.75 | Regeneración de senal óptica (~80 km) |
+| **TET-24** | 604+200 | Gamarra | Estación Base TETRA | 8.33, -73.75 | Cobertura en zona de apartaderos |
+| **TALLER-02**| 721+600 | Chiriguaná | Taller Liviano y Nodo | 9.36, -73.61 | Ubicación Taller Liviano (AT1) |
+| **TET-33** | 722+000 | Chiriguaná | Estación Base TETRA | 9.36, -73.61 | Cobertura en frontera con FENOCO |
+
+*Nota: Esta es una tabla resumida. El Anexo A contiene la lista completa de los ~33 sitios TETRA y ~7 nodos de regeneración de fibra.*
+
+---
+
+## 5. CONCLUSIONES Y PRÓXIMOS PASOS
+
+### 5.1 Estado del Documento v4.0
+Esta versión 4.0 establece el **plan de localización preliminar para la infraestructura de control y telecomunicaciones**. Proporciona las coordenadas y justificaciones necesarias para iniciar las actividades de campo.
+
+### 5.2 Acciones Siguientes a la Aprobación de v4.0
+- **Estudios de Campo (Site Survey):** El equipo de ingeniería debe visitar cada una de las ubicaciones propuestas para realizar levantamientos topográficos detallados, estudios de suelos y validación de la propagación de radio.
+- **Actualización Continua:** Los resultados de los estudios de campo se utilizarán para refinar estas ubicaciones y generar los planos constructivos finales.
+
+### 5.3 Criterios para Avance
+La aprobación de este plan de localización preliminar permite:
+1.  **`40. Plan_GestionPermisos...md`**: Iniciar formalmente los trámites ante la ANE (para las torres TETRA) y las autoridades ambientales.
+2.  **Gestión Predial (AT7)**: El equipo de gestión predial puede comenzar la identificación de propietarios y el proceso de negociación o adquisición.
+3.  **Ingeniería de Detalle**: Los equipos de diseno civil pueden comenzar los disenos de cimentaciones y estructuras para las torres y casetas.
+
+---
+
+## 6. ⚠️ **RIESGOS IDENTIFICADOS PARA ANÁLISIS PMI**
+
+| **ID** | **Riesgo** | **Categoría** | **Probabilidad** | **Impacto** | **Descripción** |
+|:---:|:---|:---:|:---:|:---|:---|
+| **R-080** | **Disponibilidad de predios** | **Gestión** | **Alta** | **Alto** | Propietarios pueden no estar dispuestos a vender o arrendar predios |
+| **R-081** | **Restricciones ambientales** | **Gestión** | **Media** | **Alto** | ANLA puede imponer restricciones en ubicaciones propuestas |
+| **R-082** | **Permisos ANE** | **Gestión** | **Media** | **Alto** | Retraso en permisos de torres TETRA puede afectar cronograma |
+| **R-083** | **Estudios de campo** | **Técnico** | **Media** | **Medio** | Condiciones de terreno pueden requerir cambios en ubicaciones |
+| **R-084** | **Cobertura de radio** | **Técnico** | **Media** | **Alto** | Simulación preliminar puede no garantizar cobertura real |
+
+---
+
+**Estado del documento:** ✅ Completado - 19 de septiembre de 2025
+**Versión:** 4.0
+**Responsable:** Administrador Contractual EPC
+**Próxima actualización:** 19 de octubre de 2025

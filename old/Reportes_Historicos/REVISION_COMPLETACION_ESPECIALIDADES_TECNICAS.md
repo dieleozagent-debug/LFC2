@@ -117,8 +117,8 @@ Como Administrador Contractual EPC, he completado la revisión exhaustiva de las
 2. **`VII.2.1_Especificaciones_Tecnicas_PTC_PTC VIRTUAL_Level2_PROVISIONALES.md`** - Especificaciones PTC
 3. **`VII.2.2_Simulaciones_Capacidad_Surcos_BASICAS.md`** - Simulaciones de capacidad
 4. **`VII.2.3_Protocolos_FRA/AREMA_Interoperabilidad_FENOCO.md`** - Protocolos FRA/AREMA
-5. **`00. Gobernanza PMO/0.1_MATRIZ_ROLES_PMO_EPC_RACI.md`** - Matriz RACI
-6. **`III. Ingenieria conceptual/25.1_WBS_COMPLETA_ESPECIALIDADES.md`** - WBS integral
+5. **`00_Gobernanza_PMO/0.1_MATRIZ_ROLES_PMO_EPC_RACI.md`** - Matriz RACI
+6. **`III_Ingenieria_conceptual/25.1_WBS_COMPLETA_ESPECIALIDADES.md`** - WBS integral
 
 ### **DOCUMENTOS DE REPORTE CREADOS:**
 1. **`REPORTE_CORRECCION_UTF8_COMPLETADA.md`** - Corrección UTF-8

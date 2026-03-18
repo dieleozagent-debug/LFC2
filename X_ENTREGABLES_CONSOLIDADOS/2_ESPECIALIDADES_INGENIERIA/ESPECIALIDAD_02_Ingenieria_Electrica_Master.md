@@ -469,7 +469,7 @@
 
 ### **9.2 Documentos de Ingeniería Conceptual**
 - `26.1_Anexo_Electrico_CTC_v5.0.md` - Anexo eléctrico CTC
-- `III. Ingenieria conceptual/25.1_Matriz_Alcance_Electrico.md` - Matriz alcance eléctrico
+- `III_Ingenieria_conceptual/25.1_Matriz_Alcance_Electrico.md` - Matriz alcance eléctrico
 
 ### **9.3 Documentos de Ingeniería Básica**
 - `IV.2_Especificaciones_Basicas_Electrica_v5.0.md` - Especificaciones basicas eléctrica

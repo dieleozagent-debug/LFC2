@@ -495,11 +495,11 @@
 
 ### **9.4 Documentos de Ingeniería de Detalle**
 - `V.4.1_Sistemas_Ferroviarios_Integrados_DETALLADO.md` - Sistemas integrados ambientales
-- `II. Apendices Tecnicos/16. AT6_Gestion_Ambiental_MEJORADO.md` - Gestión ambiental
-- `II. Apendices Tecnicos/17. AT7_Gestion_Predial_MEJORADO.md` - Gestión predial
+- `II_Apendices_Tecnicos/16. AT6_Gestion_Ambiental_MEJORADO.md` - Gestión ambiental
+- `II_Apendices_Tecnicos/17. AT7_Gestion_Predial_MEJORADO.md` - Gestión predial
 
 ### **9.5 Documentos de Referencia**
-- `III. Ingenieria conceptual/0_0_relacion_de_apendices_tecnicos_del_contrato_con_la_ing.md` - Relación apéndices
+- `III_Ingenieria_conceptual/0_0_relacion_de_apendices_tecnicos_del_contrato_con_la_ing.md` - Relación apéndices
 
 ### **9.6 Documentos Maestros de Referencia**
 - `CRITERIOS_TECNICOS_MAESTRO_APP_La_Dorada_Chiriguaná_v1.0.md` - Criterios técnicos maestro

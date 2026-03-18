@@ -20,7 +20,7 @@ cd scripts
 ```
 
 **Output:**
-- Crea JSONs en: `IX. WBS y Planificacion/riesgos_cache/`
+- Crea JSONs en: `IX_WBS_Planificacion/riesgos_cache/`
 - Un JSON por ítem WBS con riesgos
 - Timestamp de última actualización
 

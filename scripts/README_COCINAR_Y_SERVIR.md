@@ -53,7 +53,7 @@ Regenerar documentos ejecutivos leyendo la cocina (I-VI) y aplicando DTs ejecuta
 
 ### **Qué hace:**
 1. Identifica qué sistemas tienen DTs recientes
-2. Lee fuentes de la cocina (III. Ingenieria conceptual)
+2. Lee fuentes de la cocina (III_Ingenieria_conceptual)
 3. Lee DTs ejecutadas
 4. Actualiza X/7_SISTEMAS_EJECUTIVOS/ con:
    - Justificaciones desde cocina
@@ -105,7 +105,7 @@ Convertir documentos ejecutivos (.md) a formatos empresariales (Word/HTML).
 
 ```powershell
 # 1. Ver qué DTs hay
-Get-ChildItem "II. Apendices Tecnicos\Decisiones_Tecnicas\DT-*.md" | 
+Get-ChildItem "II_Apendices_Tecnicos\Decisiones_Tecnicas\DT-*.md" | 
     Where-Object { $_.LastWriteTime -gt (Get-Date).AddDays(-1) } | 
     Select-Object Name, LastWriteTime
 
@@ -151,10 +151,10 @@ start "X_ENTREGABLES_CONSOLIDADOS\8_DOCUMENTOS_SERVIDOS\HTML\INDICE_Documentos_S
 ### **Archivos involucrados:**
 
 **Cocina (fuentes):**
-- `III. Ingenieria conceptual/*.md`
-- `V. Ingenieria de detalle/*.md`
-- `II. Apendices Tecnicos/Decisiones_Tecnicas/DT-*.md`
-- `IX. WBS y Planificacion/WBS_Presupuestal_v2.0.md`
+- `III_Ingenieria_conceptual/*.md`
+- `V_Ingenieria_detalle/*.md`
+- `II_Apendices_Tecnicos/Decisiones_Tecnicas/DT-*.md`
+- `IX_WBS_Planificacion/WBS_Presupuestal_v2.0.md`
 
 **Ejecutivos (intermedios):**
 - `X_ENTREGABLES_CONSOLIDADOS/7_SISTEMAS_EJECUTIVOS/*.md`

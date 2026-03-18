@@ -25,7 +25,7 @@ Como Administrador Contractual EPC, confirmo que se han revisado y completado to
 | `@@Roadmap_v10.0_Marco_Gestion.md` | Todas las fases (0-A-B-C-D-E) | Todos los documentos de cada fase | ✅ **COMPLETO** |
 | `README.md` | Estructura completa + navegación | Todos los documentos principales | ✅ **COMPLETO** |
 | `Indice_Maestro_Final.md` | 59+ documentos del proyecto | Referencias cruzadas por especialidad | ✅ **COMPLETO** |
-| `00. Gobernanza PMO/0.1_MATRIZ_ROLES_PMO_EPC_RACI.md` | Todas las especialidades | Documentos de cada especialidad | ✅ **COMPLETO** |
+| `00_Gobernanza_PMO/0.1_MATRIZ_ROLES_PMO_EPC_RACI.md` | Todas las especialidades | Documentos de cada especialidad | ✅ **COMPLETO** |
 
 ---
 
@@ -35,60 +35,60 @@ Como Administrador Contractual EPC, confirmo que se han revisado y completado to
 
 | Documento | Referencias a | Referencias desde |
 |:----------|:-------------|:-----------------|
-| `I. Contrato General/1. Cl_1_Objeto_Contrato_MEJORADO.md` | AT1, AT2, AT3, AT4, AT5 | Roadmap, WBS, Especialidades |
-| `I. Contrato General/2. Cl_2_Definiciones_MEJORADO.md` | AT1, AT2, AT3, AT4, AT5 | Análisis Contractual, Especialidades |
-| `I. Contrato General/3. Cl_3_Obligaciones_Generales_MEJORADO.md` | AT1, AT2, AT3, AT4, AT5 | Especialidades Civil, Eléctrica, Mecánica |
-| `I. Contrato General/4. Cl_4_Plazos_y_Entregables_MEJORADO.md` | AT1, AT2, AT3, AT4, AT5 | Cronogramas, WBS, Roadmap |
-| `I. Contrato General/5. Cl_5_Forma_de_Pago_MEJORADO.md` | AT1, AT2, AT3, AT4, AT5 | Presupuestos, Costos |
-| `I. Contrato General/6. Cl_6_Garantias_MEJORADO.md` | AT1, AT2, AT3, AT4, AT5 | Garantías, Seguros |
-| `I. Contrato General/7. Cl_7_Administracion_Contrato_MEJORADO.md` | AT1, AT2, AT3, AT4, AT5 | PMO, Gestión |
-| `I. Contrato General/8. Cl_15_1_Reversion_Bienes_MEJORADO.md` | AT1, AT2, AT3, AT4, AT5 | O&M, Reversión |
+| `I_Contrato_General/1. Cl_1_Objeto_Contrato_MEJORADO.md` | AT1, AT2, AT3, AT4, AT5 | Roadmap, WBS, Especialidades |
+| `I_Contrato_General/2. Cl_2_Definiciones_MEJORADO.md` | AT1, AT2, AT3, AT4, AT5 | Análisis Contractual, Especialidades |
+| `I_Contrato_General/3. Cl_3_Obligaciones_Generales_MEJORADO.md` | AT1, AT2, AT3, AT4, AT5 | Especialidades Civil, Eléctrica, Mecánica |
+| `I_Contrato_General/4. Cl_4_Plazos_y_Entregables_MEJORADO.md` | AT1, AT2, AT3, AT4, AT5 | Cronogramas, WBS, Roadmap |
+| `I_Contrato_General/5. Cl_5_Forma_de_Pago_MEJORADO.md` | AT1, AT2, AT3, AT4, AT5 | Presupuestos, Costos |
+| `I_Contrato_General/6. Cl_6_Garantias_MEJORADO.md` | AT1, AT2, AT3, AT4, AT5 | Garantías, Seguros |
+| `I_Contrato_General/7. Cl_7_Administracion_Contrato_MEJORADO.md` | AT1, AT2, AT3, AT4, AT5 | PMO, Gestión |
+| `I_Contrato_General/8. Cl_15_1_Reversion_Bienes_MEJORADO.md` | AT1, AT2, AT3, AT4, AT5 | O&M, Reversión |
 
 ### **📁 FASE A: ANÁLISIS CONTRACTUAL**
 
 | Documento | Referencias a | Referencias desde |
 |:----------|:-------------|:-----------------|
-| `II.A. Analisis Contractual/A.1_Analisis_Cl8-1_y_AT1.md` | Cl_8-1, AT1, AT2, AT3 | Especialidades, WBS |
-| `II.A. Analisis Contractual/A.2_Analisis_AT2_y_AT4.md` | AT2, AT4, AT5, AT6 | O&M, Disponibilidad |
-| `II.A. Analisis Contractual/A.3_Analisis_AT3_y_AT9.md` | AT3, AT9, AT10 | Especificaciones, Plan Obras |
+| `II_A_Analisis_Contractual/A.1_Analisis_Cl8-1_y_AT1.md` | Cl_8-1, AT1, AT2, AT3 | Especialidades, WBS |
+| `II_A_Analisis_Contractual/A.2_Analisis_AT2_y_AT4.md` | AT2, AT4, AT5, AT6 | O&M, Disponibilidad |
+| `II_A_Analisis_Contractual/A.3_Analisis_AT3_y_AT9.md` | AT3, AT9, AT10 | Especificaciones, Plan Obras |
 
 ### **📁 FASE B: INGENIERÍA CONCEPTUAL**
 
 | Documento | Referencias a | Referencias desde |
 |:----------|:-------------|:-----------------|
-| `III. Ingenieria conceptual/25.1_WBS_COMPLETA_ESPECIALIDADES.md` | Todas las especialidades | Todas las fases |
-| `III. Ingenieria conceptual/25.2_Matriz_Alcance_Electrico.md` | AT1, AT2, AT3, AT4, AT5 | Especialidad Eléctrica |
-| `III. Ingenieria conceptual/26.1_Anexo_Electrico_CTC.md` | AT5, PTC, CTC | Sistemas Ferroviarios |
-| `III. Ingenieria conceptual/36.1_Analisis_Riesgos_y_Supuestos_PMI.md` | Todos los documentos | PMO, Gestión |
-| `III. Ingenieria conceptual/36.2_Metodologia_Gestion_Supuestos.md` | 36.1, PMO | Gestión de Riesgos |
-| `III. Ingenieria conceptual/38. DiagramasArquitectura_v1.0.md` | AT1, AT2, AT3, AT4, AT5 | Arquitectura de Sistemas |
+| `III_Ingenieria_conceptual/25.1_WBS_COMPLETA_ESPECIALIDADES.md` | Todas las especialidades | Todas las fases |
+| `III_Ingenieria_conceptual/25.2_Matriz_Alcance_Electrico.md` | AT1, AT2, AT3, AT4, AT5 | Especialidad Eléctrica |
+| `III_Ingenieria_conceptual/26.1_Anexo_Electrico_CTC.md` | AT5, PTC, CTC | Sistemas Ferroviarios |
+| `III_Ingenieria_conceptual/36.1_Analisis_Riesgos_y_Supuestos_PMI.md` | Todos los documentos | PMO, Gestión |
+| `III_Ingenieria_conceptual/36.2_Metodologia_Gestion_Supuestos.md` | 36.1, PMO | Gestión de Riesgos |
+| `III_Ingenieria_conceptual/38. DiagramasArquitectura_v1.0.md` | AT1, AT2, AT3, AT4, AT5 | Arquitectura de Sistemas |
 
 ### **📁 FASE C: INGENIERÍA BÁSICA**
 
 | Documento | Referencias a | Referencias desde |
 |:----------|:-------------|:-----------------|
-| `IV. Ingenieria basica/IV.1_Especificaciones_Basicas_Civil.md` | AT1, AT2, AT3 | Especialidad Civil |
-| `IV. Ingenieria basica/IV.2_Especificaciones_Basicas_Electrica.md` | AT1, AT2, AT3, AT4, AT5 | Especialidad Eléctrica |
-| `IV. Ingenieria basica/IV.3_Especificaciones_Basicas_Mecanica.md` | AT1, AT2, AT3 | Especialidad Mecánica |
-| `IV. Ingenieria basica/IV.4_Especificaciones_Basicas_Sistemas.md` | AT1, AT2, AT3, AT4, AT5 | Especialidad Sistemas |
+| `IV_Ingenieria_basica/IV.1_Especificaciones_Basicas_Civil.md` | AT1, AT2, AT3 | Especialidad Civil |
+| `IV_Ingenieria_basica/IV.2_Especificaciones_Basicas_Electrica.md` | AT1, AT2, AT3, AT4, AT5 | Especialidad Eléctrica |
+| `IV_Ingenieria_basica/IV.3_Especificaciones_Basicas_Mecanica.md` | AT1, AT2, AT3 | Especialidad Mecánica |
+| `IV_Ingenieria_basica/IV.4_Especificaciones_Basicas_Sistemas.md` | AT1, AT2, AT3, AT4, AT5 | Especialidad Sistemas |
 
 ### **📁 FASE D: INGENIERÍA DE DETALLE**
 
 | Documento | Referencias a | Referencias desde |
 |:----------|:-------------|:-----------------|
-| `V. Ingenieria de detalle/V.1_Civil/V.1.1_Obras_Civiles_Infraestructura_DETALLADA.md` | IV.1, AT1, AT2, AT3 | Construcción, Presupuestos |
-| `V. Ingenieria de detalle/V.2_Electrica/V.2.1_Sistema_Alimentacion_Principal_DETALLADO.md` | IV.2, AT1, AT2, AT3, AT4, AT5 | Construcción, Presupuestos |
-| `V. Ingenieria de detalle/V.3_Mecanica/V.3.1_Material_Rodante_Detallado.md` | IV.3, AT1, AT2, AT3 | Construcción, Presupuestos |
-| `V. Ingenieria de detalle/V.4_Sistemas/V.4.1_Sistemas_Ferroviarios_Integrados_DETALLADO.md` | IV.4, AT1, AT2, AT3, AT4, AT5 | Construcción, Presupuestos |
-| `V. Ingenieria de detalle/V.5_Integracion/V.5.1_Plan_Integracion_Sistemas_COMPLETO.md` | V.1, V.2, V.3, V.4 | Integración, Comisionamiento |
+| `V_Ingenieria_detalle/V.1_Civil/V.1.1_Obras_Civiles_Infraestructura_DETALLADA.md` | IV.1, AT1, AT2, AT3 | Construcción, Presupuestos |
+| `V_Ingenieria_detalle/V.2_Electrica/V.2.1_Sistema_Alimentacion_Principal_DETALLADO.md` | IV.2, AT1, AT2, AT3, AT4, AT5 | Construcción, Presupuestos |
+| `V_Ingenieria_detalle/V.3_Mecanica/V.3.1_Material_Rodante_Detallado.md` | IV.3, AT1, AT2, AT3 | Construcción, Presupuestos |
+| `V_Ingenieria_detalle/V.4_Sistemas/V.4.1_Sistemas_Ferroviarios_Integrados_DETALLADO.md` | IV.4, AT1, AT2, AT3, AT4, AT5 | Construcción, Presupuestos |
+| `V_Ingenieria_detalle/V.5_Integracion/V.5.1_Plan_Integracion_Sistemas_COMPLETO.md` | V.1, V.2, V.3, V.4 | Integración, Comisionamiento |
 
 ### **📁 FASE E: OPERACIÓN Y MANTENIMIENTO**
 
 | Documento | Referencias a | Referencias desde |
 |:----------|:-------------|:-----------------|
-| `VI. operacion y mantenimiento y reversion/VI.1_Manuales_Operacion_MEJORADO.md` | AT2, AT4, AT5 | Operación, Personal |
-| `VI. operacion y mantenimiento y reversion/VI.2_Manuales_Mantenimiento_MEJORADO.md` | AT2, AT4, AT5 | Mantenimiento, Personal |
-| `VI. operacion y mantenimiento y reversion/VI.3_Plan_Reversion_MEJORADO.md` | Cl_15_1, AT1, AT2 | Reversión, Transferencia |
+| `VI_Operacion_Mantenimiento_Reversion/VI.1_Manuales_Operacion_MEJORADO.md` | AT2, AT4, AT5 | Operación, Personal |
+| `VI_Operacion_Mantenimiento_Reversion/VI.2_Manuales_Mantenimiento_MEJORADO.md` | AT2, AT4, AT5 | Mantenimiento, Personal |
+| `VI_Operacion_Mantenimiento_Reversion/VI.3_Plan_Reversion_MEJORADO.md` | Cl_15_1, AT1, AT2 | Reversión, Transferencia |
 
 ---
 

@@ -38,19 +38,19 @@
 
 ```bash
 # Archivo 1
-Buscar: V. Ingenieria de detalle/V.3_Sistemas_Comunicacion_Detalle*.md
+Buscar: V_Ingenieria_detalle/V.3_Sistemas_Comunicacion_Detalle*.md
 Estado: ✅ EXISTE (verificado en estructura del proyecto)
 
 # Archivo 2
-Buscar: IX. WBS y Planificacion/WBS_Presupuestal*.md
+Buscar: IX_WBS_Planificacion/WBS_Presupuestal*.md
 Estado: ✅ EXISTE (confirmado en roadmap)
 
 # Archivo 3
-Buscar: IV. Ingenieria basica/37*Memorias*.md
+Buscar: IV_Ingenieria_basica/37*Memorias*.md
 Estado: ✅ EXISTE (listado en índice maestro)
 
 # Archivo 4
-Buscar: III. Ingenieria conceptual/28_Sistema_FibraOptica*.md
+Buscar: III_Ingenieria_conceptual/28_Sistema_FibraOptica*.md
 Estado: ✅ EXISTE (confirmado en fase B del roadmap)
 
 # Archivo 5

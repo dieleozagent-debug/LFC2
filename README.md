@@ -31,17 +31,17 @@ Este repositorio constituye el **Ecosistema de Ingeniería SICC** para el proyec
 ## ESTRUCTURA DOCUMENTAL SANEADA (SICC v6.3.2)
 
 ### FASE 0-2: BASE CONTRACTUAL Y CONCEPTUAL
-*   [I. Contrato General](file:///home/administrador/docker/LFC2/I.%20Contrato%20General/): Cláusulas y obligaciones mejoradas.
+*   [I_Contrato_General](file:///home/administrador/docker/LFC2/I.%20Contrato%20General/): Cláusulas y obligaciones mejoradas.
 *   [II. Apéndices Técnicos](file:///home/administrador/docker/LFC2/II.%20Apendices%20Tecnicos/): AT1-AT10 y **Decisiones Técnicas (DT)**.
 *   [III. Ingeniería Conceptual](file:///home/administrador/docker/LFC2/III.%20Ingenieria%20conceptual/): Análisis de Riesgos y Supuestos.
 
 ### FASE 3-5: INGENIERÍA Y DETALLE (SOBERANÍA)
-*   [IV. Ingeniería Básica](file:///home/administrador/docker/LFC2/IV.%20Ingenieria%20basica/): Especificaciones de fibra, potencia y obra civil.
-*   [V. Ingeniería de Detalle](file:///home/administrador/docker/LFC2/V.%20Ingenieria%20de%20detalle/): Planos y secciones detalladas por especialidad.
+*   [IV. Ingeniería Básica](file:///home/administrador/docker/LFC2/IV_Ingenieria_basica/): Especificaciones de fibra, potencia y obra civil.
+*   [V. Ingeniería de Detalle](file:///home/administrador/docker/LFC2/V_Ingenieria_detalle/): Planos y secciones detalladas por especialidad.
 
 ### FASE 6-X: O&M Y CONSOLIDACIÓN
 *   [VI. O&M y Reversión](file:///home/administrador/docker/LFC2/VI.%20operacion%20y%20mantenimiento%20y%20reversion/): Manuales de operación.
-*   [VII. Soporte Especializado](file:///home/administrador/docker/LFC2/VII.%20Soporte%20Especializado/): Normas, protocolos RAMS y ciberseguridad.
+*   [VII_Soporte_Especializado](file:///home/administrador/docker/LFC2/VII.%20Soporte%20Especializado/): Normas, protocolos RAMS y ciberseguridad.
 *   [X. Entregables Consolidados](file:///home/administrador/docker/LFC2/X_ENTREGABLES_CONSOLIDADOS/): El "Restaurante" de platos servidos.
 
 ---

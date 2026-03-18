@@ -20,7 +20,7 @@ Este documento es la base para todas las comunicaciones de voz operativas. Sin u
     - `AT1`, `AT2`, `AT3`, `AT7`: Fuentes primarias de requisitos.
     - `28_Sistema_FibraOptica_Integrado...md`: Define el backbone de fibra que servirá de backhaul para las estaciones base TETRA. **(Recién completado, desbloquea este documento)**.
 - **Gobierna a:**
-    - `V. Ingenieria de detalle/5_Radio_TETRA_Contrato_8_5.md`: El diseno de detalle se basa en los conceptos aquí definidos.
+    - `V_Ingenieria_detalle/5_Radio_TETRA_Contrato_8_5.md`: El diseno de detalle se basa en los conceptos aquí definidos.
     - `39. PlanosPreliminares...md`: La ubicación de las torres se define a partir del estudio de cobertura conceptualizado aquí.
     - `32_Material_Rodante_Integrado...md`: Define las especificaciones de los equipos de radio que deben instalarse en las locomotoras.
 
@@ -41,7 +41,7 @@ El diseno detallado de la red TETRA no puede avanzar hasta que este concepto de 
 
 | Documento | Dependencia |
 |---|---|
-| `V. Ingenieria de detalle/5_...md` | Requiere la arquitectura de red, el plan de frecuencias y las especificaciones de equipos. |
+| `V_Ingenieria_detalle/5_...md` | Requiere la arquitectura de red, el plan de frecuencias y las especificaciones de equipos. |
 | `39. PlanosPreliminares...md` | Necesita los resultados del estudio de cobertura para definir la ubicación final de las torres. |
 
 ### 2.3 Interfaces Críticas

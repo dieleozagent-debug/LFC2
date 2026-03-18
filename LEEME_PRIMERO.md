@@ -9,7 +9,7 @@
 
 ### **1. Portal WBS Principal:**
 ```
-Abrir: IX. WBS y Planificacion/WBS_Menu_Principal.html
+Abrir: IX_WBS_Planificacion/WBS_Menu_Principal.html
 ```
 **Acceso a 6 interfaces dinámicas** (Presupuesto, Riesgos, Reporte, Cronograma, EDT, Documentos)
 

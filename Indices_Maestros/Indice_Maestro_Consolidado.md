@@ -74,116 +74,116 @@ Este documento proporciona el índice maestro consolidado de todos los documento
 
 | # | Documento | Ubicación | Tamano | Palabras | Estado | Modificado |
 |:---:|:---|:---|:---:|:---:|:---:|:---:|
-| A.1 | A.1_Analisis_Cl8-1_y_AT1.md | II.A. Analisis Contractual/ | 5.1 KB | 700 | ✅ Completado | 27/01/2025 |
-| A.2 | A.2_Analisis_AT2_y_AT4.md | II.A. Analisis Contractual/ | 5.0 KB | 700 | ✅ Completado | 27/01/2025 |
-| A.3 | A.3_Analisis_AT3_y_AT9.md | II.A. Analisis Contractual/ | 5.1 KB | 700 | ✅ Completado | 27/01/2025 |
+| A.1 | A.1_Analisis_Cl8-1_y_AT1.md | II_A_Analisis_Contractual/ | 5.1 KB | 700 | ✅ Completado | 27/01/2025 |
+| A.2 | A.2_Analisis_AT2_y_AT4.md | II_A_Analisis_Contractual/ | 5.0 KB | 700 | ✅ Completado | 27/01/2025 |
+| A.3 | A.3_Analisis_AT3_y_AT9.md | II_A_Analisis_Contractual/ | 5.1 KB | 700 | ✅ Completado | 27/01/2025 |
 
 #### FASE 0: BASE CONTRACTUAL
 > Documentos contractuales y obligaciones
 
 | # | Documento | Ubicación | Tamano | Palabras | Patrones Clave | Modificado |
 |:---:|:---|:---|:---:|:---:|:---:|:---:|
-| 1 | 4_Cl_9_1_OM_docx_Obligaciones_de_Operaci_n_y_Mantenimiento_MEJORADO | I. Contrato General/ | 18.43 KB | 2557 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 2 | 5_Cl_12_1_Reversi_n_docx_Entrega_de_activos_y_sistemas_en_buen_estado_MEJORADO | I. Contrato General/ | 12.92 KB | 1701 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 3 | 3_Cl_8_2_Construcci_n_docx_Obligaciones_en_fase_de_construcci_n_MEJORADO | I. Contrato General/ | 19.79 KB | 2719 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 4 | 10_Cl_I_2d_JerarquiaDocumental_docx_Prioridad_contractual_MEJORADO | I. Contrato General/ | 16.54 KB | 2257 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 5 | 2_Cl_8_1_Preconstrucci_n_docx_Obligaciones_de_estudios_y_dise_os_MEJORADO | I. Contrato General/ | 19.59 KB | 2579 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 6 | 6_Cl_13_1_MaterialRodante_docx_Equipos_embarcados_PTC_TETRA_MEJORADO | I. Contrato General/ | 12.8 KB | 262 | Ingenieria, Tecnico, Contrato, Sistemas | 27/01/2025 |
-| 7 | Cl_2_14_LicenciasPermisos_MEJORADO | I. Contrato General/ | 3.58 KB | 539 | Tecnico, Contrato | 17/09/2025 |
-| 8 | Contrato_general_indice_MEJORADO | I. Contrato General/ | 3.87 KB | 546 | Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 9 | Cl_15_1_Reversion_Bienes_MEJORADO | I. Contrato General/ | 3.49 KB | 523 | Tecnico, Contrato | 17/09/2025 |
-| 10 | 7_Cl_14_1_OM_Sistemas_docx_Reposici_n_y_mantenimiento_de_hardwaresoftware_MEJORADO | I. Contrato General/ | 22.25 KB | 2946 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 11 | 9_Cl_16_1_Penalidades_docx_Multas_por_incumplimiento_MEJORADO | I. Contrato General/ | 9.2 KB | 225 | Tecnico, Contrato, Sistemas | 27/01/2025 |
-| 12 | 2. Cl_8.1_Preconstrucción.docx – Obligaciones de estudios y disenos.md | I. Contrato General/ | 4.21 KB | 621 | Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 1 | 4_Cl_9_1_OM_docx_Obligaciones_de_Operaci_n_y_Mantenimiento_MEJORADO | I_Contrato_General/ | 18.43 KB | 2557 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 2 | 5_Cl_12_1_Reversi_n_docx_Entrega_de_activos_y_sistemas_en_buen_estado_MEJORADO | I_Contrato_General/ | 12.92 KB | 1701 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 3 | 3_Cl_8_2_Construcci_n_docx_Obligaciones_en_fase_de_construcci_n_MEJORADO | I_Contrato_General/ | 19.79 KB | 2719 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 4 | 10_Cl_I_2d_JerarquiaDocumental_docx_Prioridad_contractual_MEJORADO | I_Contrato_General/ | 16.54 KB | 2257 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 5 | 2_Cl_8_1_Preconstrucci_n_docx_Obligaciones_de_estudios_y_dise_os_MEJORADO | I_Contrato_General/ | 19.59 KB | 2579 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 6 | 6_Cl_13_1_MaterialRodante_docx_Equipos_embarcados_PTC_TETRA_MEJORADO | I_Contrato_General/ | 12.8 KB | 262 | Ingenieria, Tecnico, Contrato, Sistemas | 27/01/2025 |
+| 7 | Cl_2_14_LicenciasPermisos_MEJORADO | I_Contrato_General/ | 3.58 KB | 539 | Tecnico, Contrato | 17/09/2025 |
+| 8 | Contrato_general_indice_MEJORADO | I_Contrato_General/ | 3.87 KB | 546 | Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 9 | Cl_15_1_Reversion_Bienes_MEJORADO | I_Contrato_General/ | 3.49 KB | 523 | Tecnico, Contrato | 17/09/2025 |
+| 10 | 7_Cl_14_1_OM_Sistemas_docx_Reposici_n_y_mantenimiento_de_hardwaresoftware_MEJORADO | I_Contrato_General/ | 22.25 KB | 2946 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 11 | 9_Cl_16_1_Penalidades_docx_Multas_por_incumplimiento_MEJORADO | I_Contrato_General/ | 9.2 KB | 225 | Tecnico, Contrato, Sistemas | 27/01/2025 |
+| 12 | 2. Cl_8.1_Preconstrucción.docx – Obligaciones de estudios y disenos.md | I_Contrato_General/ | 4.21 KB | 621 | Tecnico, Contrato, Sistemas | 17/09/2025 |
 
 #### CONTRATO XI. Documentos de Contrato Originales
 > Documentos de contrato convertidos de PDF con formateo automático
 
 | # | Documento | Ubicación | Tamano | Palabras | Patrones Clave | Modificado |
 |:---:|:---|:---|:---:|:---:|:---:|:---:|
-| 1 | FORMATEADO_1 - CONTRATO DE CONCESION NO. 001 DE 2025 - Editable.md | 01. contrato en .md/ | 966 KB | 125,000 | Contrato, APP, Concesion, ANI | 27/01/2025 |
-| 2 | FORMATEADO_APENDICE TECNICO 1.md | 01. contrato en .md/ | 371 KB | 48,000 | AT1, Alcance, Proyecto, Infraestructura | 27/01/2025 |
-| 3 | FORMATEADO_APENDICE TECNICO 2.md | 01. contrato en .md/ | 161 KB | 21,000 | AT2, Operacion, Mantenimiento | 27/01/2025 |
-| 4 | FORMATEADO_APENDICE TECNICO 3.md | 01. contrato en .md/ | 105 KB | 14,000 | AT3, Especificaciones, Generales | 27/01/2025 |
-| 5 | FORMATEADO_APENDICE TECNICO 4.md | 01. contrato en .md/ | 148 KB | 19,000 | AT4, Indicadores, Desempeno | 27/01/2025 |
-| 6 | FORMATEADO_APENDICE TECNICO 5.md | 01. contrato en .md/ | 101 KB | 13,000 | AT5, Interferencias, Redes | 27/01/2025 |
-| 7 | FORMATEADO_APENDICE TECNICO 6.md | 01. contrato en .md/ | 224 KB | 29,000 | AT6, Gestion, Ambiental | 27/01/2025 |
-| 8 | FORMATEADO_APENDICE TECNICO 7.md | 01. contrato en .md/ | 162 KB | 21,000 | AT7, Gestion, Predial | 27/01/2025 |
-| 9 | FORMATEADO_APENDICE TECNICO 8.md | 01. contrato en .md/ | 183 KB | 24,000 | AT8, Gestion, Social | 27/01/2025 |
-| 10 | FORMATEADO_APENDICE TECNICO 9.md | 01. contrato en .md/ | 7 KB | 1,000 | AT9, Plan, Obras | 27/01/2025 |
-| 11 | FORMATEADO_APENDICE TECNICO 10.md | 01. contrato en .md/ | 19 KB | 2,500 | AT10, Capacidad, Surcos | 27/01/2025 |
+| 1 | FORMATEADO_1 - CONTRATO DE CONCESION NO. 001 DE 2025 - Editable.md | 01_Contrato_MD/ | 966 KB | 125,000 | Contrato, APP, Concesion, ANI | 27/01/2025 |
+| 2 | FORMATEADO_APENDICE TECNICO 1.md | 01_Contrato_MD/ | 371 KB | 48,000 | AT1, Alcance, Proyecto, Infraestructura | 27/01/2025 |
+| 3 | FORMATEADO_APENDICE TECNICO 2.md | 01_Contrato_MD/ | 161 KB | 21,000 | AT2, Operacion, Mantenimiento | 27/01/2025 |
+| 4 | FORMATEADO_APENDICE TECNICO 3.md | 01_Contrato_MD/ | 105 KB | 14,000 | AT3, Especificaciones, Generales | 27/01/2025 |
+| 5 | FORMATEADO_APENDICE TECNICO 4.md | 01_Contrato_MD/ | 148 KB | 19,000 | AT4, Indicadores, Desempeno | 27/01/2025 |
+| 6 | FORMATEADO_APENDICE TECNICO 5.md | 01_Contrato_MD/ | 101 KB | 13,000 | AT5, Interferencias, Redes | 27/01/2025 |
+| 7 | FORMATEADO_APENDICE TECNICO 6.md | 01_Contrato_MD/ | 224 KB | 29,000 | AT6, Gestion, Ambiental | 27/01/2025 |
+| 8 | FORMATEADO_APENDICE TECNICO 7.md | 01_Contrato_MD/ | 162 KB | 21,000 | AT7, Gestion, Predial | 27/01/2025 |
+| 9 | FORMATEADO_APENDICE TECNICO 8.md | 01_Contrato_MD/ | 183 KB | 24,000 | AT8, Gestion, Social | 27/01/2025 |
+| 10 | FORMATEADO_APENDICE TECNICO 9.md | 01_Contrato_MD/ | 7 KB | 1,000 | AT9, Plan, Obras | 27/01/2025 |
+| 11 | FORMATEADO_APENDICE TECNICO 10.md | 01_Contrato_MD/ | 19 KB | 2,500 | AT10, Capacidad, Surcos | 27/01/2025 |
 
-#### TECNICO II. Apendices Tecnicos
+#### TECNICO II_Apendices_Tecnicos
 > Especificaciones tecnicas y procedimientos
 
 | # | Documento | Ubicación | Tamano | Palabras | Patrones Clave | Modificado |
 |:---:|:---|:---|:---:|:---:|:---:|:---:|
-| 1 | AT3_Especificaciones_Generales_MEJORADO | II. Apendices Tecnicos/ | 4.12 KB | 582 | Tecnico, Sistemas | 17/09/2025 |
-| 2 | AT4_Indicadores_de_Desempeno_MEJORADO | II. Apendices Tecnicos/ | 15.53 KB | 2149 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 3 | AT2_Operacion_y_Mantenimiento_MEJORADO | II. Apendices Tecnicos/ | 22.57 KB | 2986 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 4 | AT10_Capacidad_y_Surcos_MEJORADO | II. Apendices Tecnicos/ | 37.33 KB | 4823 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 5 | AT1_Alcance_del_Proyecto_MEJORADO | II. Apendices Tecnicos/ | 17.72 KB | 2416 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 6 | AT5_Interferencias_de_Redes_MEJORADO | II. Apendices Tecnicos/ | 12.89 KB | 1773 | Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 7 | AT9_Plan_de_Obras_MEJORADO | II. Apendices Tecnicos/ | 44.73 KB | 5942 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 8 | ATFinancieros_Aspectos_Financieros_MEJORADO | II. Apendices Tecnicos/ | 19.45 KB | 2690 | Tecnico, Contrato | 17/09/2025 |
-| 9 | AT8_Gestion_Social_MEJORADO | II. Apendices Tecnicos/ | 15.49 KB | 2085 | Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 10 | AT6_Gestion_Ambiental_MEJORADO | II. Apendices Tecnicos/ | 25.37 KB | 3322 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 11 | AT7_Gestion_Predial_MEJORADO | II. Apendices Tecnicos/ | 15.85 KB | 2099 | Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 1 | AT3_Especificaciones_Generales_MEJORADO | II_Apendices_Tecnicos/ | 4.12 KB | 582 | Tecnico, Sistemas | 17/09/2025 |
+| 2 | AT4_Indicadores_de_Desempeno_MEJORADO | II_Apendices_Tecnicos/ | 15.53 KB | 2149 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 3 | AT2_Operacion_y_Mantenimiento_MEJORADO | II_Apendices_Tecnicos/ | 22.57 KB | 2986 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 4 | AT10_Capacidad_y_Surcos_MEJORADO | II_Apendices_Tecnicos/ | 37.33 KB | 4823 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 5 | AT1_Alcance_del_Proyecto_MEJORADO | II_Apendices_Tecnicos/ | 17.72 KB | 2416 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 6 | AT5_Interferencias_de_Redes_MEJORADO | II_Apendices_Tecnicos/ | 12.89 KB | 1773 | Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 7 | AT9_Plan_de_Obras_MEJORADO | II_Apendices_Tecnicos/ | 44.73 KB | 5942 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 8 | ATFinancieros_Aspectos_Financieros_MEJORADO | II_Apendices_Tecnicos/ | 19.45 KB | 2690 | Tecnico, Contrato | 17/09/2025 |
+| 9 | AT8_Gestion_Social_MEJORADO | II_Apendices_Tecnicos/ | 15.49 KB | 2085 | Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 10 | AT6_Gestion_Ambiental_MEJORADO | II_Apendices_Tecnicos/ | 25.37 KB | 3322 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 11 | AT7_Gestion_Predial_MEJORADO | II_Apendices_Tecnicos/ | 15.85 KB | 2099 | Tecnico, Contrato, Sistemas | 17/09/2025 |
 #### INGENIERIA IV. Ingenieria Basica
 > Memorias de diseno y planos basicos
 
 | # | Documento | Ubicación | Tamano | Palabras | Patrones Clave | Modificado |
 |:---:|:---|:---|:---:|:---:|:---:|:---:|
-| 1 | MemoriasDiseno_Basico_just tec | IV. Ingenieria basica/ | 17.43 KB | 2416 | Ingenieria, Tecnico, Sistemas | 17/09/2025 |
-| 2 | DiagramasArquitectura_sist_ctc-telco | IV. Ingenieria basica/ | 37.21 KB | 4823 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 3 | PlanosPreliminares_localizacion torres tetra_fibra_nod | IV. Ingenieria basica/ | 28.15 KB | 3322 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 4 | Plan_GestionPermisos_MEJORADO | IV. Ingenieria basica/ | 15.33 KB | 2085 | Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 5 | Interfaces_Sistemas_MEJORADO | IV. Ingenieria basica/ | 19.27 KB | 2690 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 6 | Plan_Pruebas_MEJORADO | IV. Ingenieria basica/ | 17.89 KB | 2416 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 7 | IV_Ingenieria_Basica_RESUMEN_MEJORADO | IV. Ingenieria basica/ | 13.45 KB | 1823 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 1 | MemoriasDiseno_Basico_just tec | IV_Ingenieria_basica/ | 17.43 KB | 2416 | Ingenieria, Tecnico, Sistemas | 17/09/2025 |
+| 2 | DiagramasArquitectura_sist_ctc-telco | IV_Ingenieria_basica/ | 37.21 KB | 4823 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 3 | PlanosPreliminares_localizacion torres tetra_fibra_nod | IV_Ingenieria_basica/ | 28.15 KB | 3322 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 4 | Plan_GestionPermisos_MEJORADO | IV_Ingenieria_basica/ | 15.33 KB | 2085 | Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 5 | Interfaces_Sistemas_MEJORADO | IV_Ingenieria_basica/ | 19.27 KB | 2690 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 6 | Plan_Pruebas_MEJORADO | IV_Ingenieria_basica/ | 17.89 KB | 2416 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 7 | IV_Ingenieria_Basica_RESUMEN_MEJORADO | IV_Ingenieria_basica/ | 13.45 KB | 1823 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
 #### SOPORTE III. Documentos de Soporte
 > Documentos de soporte e ingenieria
 
 | # | Documento | Ubicación | Tamano | Palabras | Patrones Clave | Modificado |
 |:---:|:---|:---|:---:|:---:|:---:|:---:|
-| 1 | 24_Matriz_TrazabilidadContractual_xlsx_Jerarqu_a_documental_aplicada_a_ingenier_a | III. Ingenieria conceptual/ | 6.39 KB | 879 | Ingenieria, Tecnico, Sistemas | 17/09/2025 |
-| 2 | 25_WBS_IngenieriaConceptual_docx | III. Ingenieria conceptual/ | 5.64 KB | 801 | Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 3 | 22_HojaRuta_Conceptual_Fases_pasos_y_procedimientos_de_ingenier_a | III. Ingenieria conceptual/ | 6.35 KB | 822 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 4 | 23_ListadoMaestro_Sistemas_docx_Consolidado_de_equipossistemas_AT1_AT10_contrato | III. Ingenieria conceptual/ | 6.39 KB | 879 | Ingenieria, Tecnico, Sistemas | 17/09/2025 |
-| 5 | 27_1_Estimaciond_e_cantidedes_Tetra_para_analisis_de_problemas | III. Ingenieria conceptual/ | 11.78 KB | 1793 | Ingenieria, Tecnico, Sistemas | 17/09/2025 |
-| 6 | 29_Sistema_Senalizacion_Integrado_docx_AT1_AT2_AT3_AT4_AT8_social | III. Ingenieria conceptual/ | 18.03 KB | 2455 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 7 | 2_Centro_de_Control_de_Tr_fico_CTC_Contrato_8_2 | V. Ingenieria de detalle/ | 2.59 KB | 372 | Ingenieria, Tecnico, Sistemas | 17/09/2025 |
-| 8 | 27_Sistema_TETRA_Integrado_docx_AT1_torres_AT2_comunicaci_n_AT3_radio_AT7_predios_torres | III. Ingenieria conceptual/ | 13.64 KB | 1826 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 9 | 28_Sistema_FibraOptica_Integrado_docx_AT1_AT3_AT5_interferencias_AT7_predios | III. Ingenieria conceptual/ | 13.51 KB | 1865 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 10 | 1_Se_alizaci_n_ferroviaria_Contrato_8_1 | V. Ingenieria de detalle/ | 2.57 KB | 372 | Ingenieria, Tecnico, Sistemas | 17/09/2025 |
-| 11 | 0_0_relacion_de_apendices_tecnicos_del_contrato_con_la_ing | III. Ingenieria conceptual/ | 30.31 KB | 4323 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 12 | 0_1_hoja_de_ruta_tecnica_ingenieria_conceptual | III. Ingenieria conceptual/ | 10.91 KB | 1492 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 13 | 03_otras_soluciones | III. Ingenieria conceptual/ | 11.28 KB | 1438 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 14 | 0_0_que_es_CTC | III. Ingenieria conceptual/ | 66.08 KB | 9452 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 15 | 0_1_que_es_TETRA | III. Ingenieria conceptual/ | 2.38 KB | 349 | Tecnico, Sistemas | 17/09/2025 |
-| 16 | 11_Sistema_contra_incendio_Contrato_8_9_copia | V. Ingenieria de detalle/ | 2.57 KB | 372 | Tecnico | 17/09/2025 |
-| 17 | 12_Comunicaciones_embarcadas_Contrato_8_10 | V. Ingenieria de detalle/ | 2.56 KB | 372 | Tecnico, Sistemas | 17/09/2025 |
-| 18 | 0_2_salida_a_ITSC_de_alston_op_politica | III. Ingenieria conceptual/ | 15.73 KB | 2036 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 19 | 10_Red_de_datos_Contrato_8_8_3 | V. Ingenieria de detalle/ | 2.54 KB | 372 | Tecnico | 17/09/2025 |
-| 20 | 8_10_Sistema_de_comunicaciones_embarcados | V. Ingenieria de detalle/ | 2.58 KB | 372 | Tecnico, Sistemas | 17/09/2025 |
-| 21 | 8_CCTV_Contrato_8_8_1 | V. Ingenieria de detalle/ | 2.53 KB | 372 | Tecnico, Sistemas | 17/09/2025 |
-| 22 | 6_Fibra_ptica_Contrato_8_6 | V. Ingenieria de detalle/ | 2.54 KB | 377 | Tecnico, Sistemas | 17/09/2025 |
-| 23 | 7_Instalaciones_el_ctricas_Contrato_8_7 | V. Ingenieria de detalle/ | 2.62 KB | 380 | Tecnico, Sistemas | 17/09/2025 |
-| 24 | 9_Interfon_a_Contrato_8_8_2 | V. Ingenieria de detalle/ | 2.55 KB | 373 | Tecnico | 17/09/2025 |
-| 25 | VI_Operacion_Mantenimiento_y_reversion | VI. operacion y mantenimiento y reversion/ | 3.01 KB | 415 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 26 | V_Ingeneiria_de_detalle | V. Ingenieria de detalle/ | 2.9 KB | 410 | Ingenieria, Tecnico, Sistemas | 17/09/2025 |
-| 27 | III_Ingenieria_conceptual_a_detallar | III. Ingenieria conceptual/ | 3.75 KB | 516 | Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 28 | VII_Documentos_transversales | VII. documentos transversales/ | 2.7 KB | 379 | Tecnico | 17/09/2025 |
-| 29 | 5_Radio_TETRA_Contrato_8_5 | V. Ingenieria de detalle/ | 2.58 KB | 378 | Tecnico, Sistemas | 17/09/2025 |
-| 30 | 32_Material_Rodante_Integrado_docx_AT1_Cl_13_1_AT2_operaci_n_AT4 | III. Ingenieria conceptual/ | 12.66 KB | 1716 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 31 | 33_Criterios_Normatividad_docx_AREMA_FRA/AREMA_RETIE_ISO_TC_204_NSR_10_NFPA | III. Ingenieria conceptual/ | 16.62 KB | 2083 | Ingenieria, Tecnico, Sistemas | 17/09/2025 |
-| 32 | 30_Sistema_ITS_Integrado_docx_AT1_AT3_AT4_AT6_ambiental | III. Ingenieria conceptual/ | 16.16 KB | 2170 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 33 | 31_Sistema_CCTV_Integrado_docx_AT1_AT3_AT8_social_AT4_indicadores | III. Ingenieria conceptual/ | 20.05 KB | 2626 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 34 | 34_Criterios_Interoperabilidad_docx_Compatibilidad_con_FENOCO_y_ANI | III. Ingenieria conceptual/ | 21.58 KB | 2690 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 35 | 3_Pasos_a_nivel_Contrato_8_3 | V. Ingenieria de detalle/ | 2.55 KB | 372 | Ingenieria, Tecnico, Sistemas | 17/09/2025 |
-| 36 | 4_Comunicaciones_generales_Contrato_8_4 | V. Ingenieria de detalle/ | 2.57 KB | 372 | Ingenieria, Tecnico, Sistemas | 17/09/2025 |
-| 37 | 35_Criterios_Redundancia_docx_Disponibilidad_y_respaldo_de_sistemas_cr_ticos | III. Ingenieria conceptual/ | 15.76 KB | 2147 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
-| 38 | 36_Criterios_Ciberseguridad_docx_Protecci_n_de_sistemas_de_control | III. Ingenieria conceptual/ | 17.17 KB | 2245 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 1 | 24_Matriz_TrazabilidadContractual_xlsx_Jerarqu_a_documental_aplicada_a_ingenier_a | III_Ingenieria_conceptual/ | 6.39 KB | 879 | Ingenieria, Tecnico, Sistemas | 17/09/2025 |
+| 2 | 25_WBS_IngenieriaConceptual_docx | III_Ingenieria_conceptual/ | 5.64 KB | 801 | Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 3 | 22_HojaRuta_Conceptual_Fases_pasos_y_procedimientos_de_ingenier_a | III_Ingenieria_conceptual/ | 6.35 KB | 822 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 4 | 23_ListadoMaestro_Sistemas_docx_Consolidado_de_equipossistemas_AT1_AT10_contrato | III_Ingenieria_conceptual/ | 6.39 KB | 879 | Ingenieria, Tecnico, Sistemas | 17/09/2025 |
+| 5 | 27_1_Estimaciond_e_cantidedes_Tetra_para_analisis_de_problemas | III_Ingenieria_conceptual/ | 11.78 KB | 1793 | Ingenieria, Tecnico, Sistemas | 17/09/2025 |
+| 6 | 29_Sistema_Senalizacion_Integrado_docx_AT1_AT2_AT3_AT4_AT8_social | III_Ingenieria_conceptual/ | 18.03 KB | 2455 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 7 | 2_Centro_de_Control_de_Tr_fico_CTC_Contrato_8_2 | V_Ingenieria_detalle/ | 2.59 KB | 372 | Ingenieria, Tecnico, Sistemas | 17/09/2025 |
+| 8 | 27_Sistema_TETRA_Integrado_docx_AT1_torres_AT2_comunicaci_n_AT3_radio_AT7_predios_torres | III_Ingenieria_conceptual/ | 13.64 KB | 1826 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 9 | 28_Sistema_FibraOptica_Integrado_docx_AT1_AT3_AT5_interferencias_AT7_predios | III_Ingenieria_conceptual/ | 13.51 KB | 1865 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 10 | 1_Se_alizaci_n_ferroviaria_Contrato_8_1 | V_Ingenieria_detalle/ | 2.57 KB | 372 | Ingenieria, Tecnico, Sistemas | 17/09/2025 |
+| 11 | 0_0_relacion_de_apendices_tecnicos_del_contrato_con_la_ing | III_Ingenieria_conceptual/ | 30.31 KB | 4323 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 12 | 0_1_hoja_de_ruta_tecnica_ingenieria_conceptual | III_Ingenieria_conceptual/ | 10.91 KB | 1492 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 13 | 03_otras_soluciones | III_Ingenieria_conceptual/ | 11.28 KB | 1438 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 14 | 0_0_que_es_CTC | III_Ingenieria_conceptual/ | 66.08 KB | 9452 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 15 | 0_1_que_es_TETRA | III_Ingenieria_conceptual/ | 2.38 KB | 349 | Tecnico, Sistemas | 17/09/2025 |
+| 16 | 11_Sistema_contra_incendio_Contrato_8_9_copia | V_Ingenieria_detalle/ | 2.57 KB | 372 | Tecnico | 17/09/2025 |
+| 17 | 12_Comunicaciones_embarcadas_Contrato_8_10 | V_Ingenieria_detalle/ | 2.56 KB | 372 | Tecnico, Sistemas | 17/09/2025 |
+| 18 | 0_2_salida_a_ITSC_de_alston_op_politica | III_Ingenieria_conceptual/ | 15.73 KB | 2036 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 19 | 10_Red_de_datos_Contrato_8_8_3 | V_Ingenieria_detalle/ | 2.54 KB | 372 | Tecnico | 17/09/2025 |
+| 20 | 8_10_Sistema_de_comunicaciones_embarcados | V_Ingenieria_detalle/ | 2.58 KB | 372 | Tecnico, Sistemas | 17/09/2025 |
+| 21 | 8_CCTV_Contrato_8_8_1 | V_Ingenieria_detalle/ | 2.53 KB | 372 | Tecnico, Sistemas | 17/09/2025 |
+| 22 | 6_Fibra_ptica_Contrato_8_6 | V_Ingenieria_detalle/ | 2.54 KB | 377 | Tecnico, Sistemas | 17/09/2025 |
+| 23 | 7_Instalaciones_el_ctricas_Contrato_8_7 | V_Ingenieria_detalle/ | 2.62 KB | 380 | Tecnico, Sistemas | 17/09/2025 |
+| 24 | 9_Interfon_a_Contrato_8_8_2 | V_Ingenieria_detalle/ | 2.55 KB | 373 | Tecnico | 17/09/2025 |
+| 25 | VI_Operacion_Mantenimiento_y_reversion | VI_Operacion_Mantenimiento_Reversion/ | 3.01 KB | 415 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 26 | V_Ingeneiria_de_detalle | V_Ingenieria_detalle/ | 2.9 KB | 410 | Ingenieria, Tecnico, Sistemas | 17/09/2025 |
+| 27 | III_Ingenieria_conceptual_a_detallar | III_Ingenieria_conceptual/ | 3.75 KB | 516 | Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 28 | VII_Documentos_transversales | VII_Documentos_Transversales/ | 2.7 KB | 379 | Tecnico | 17/09/2025 |
+| 29 | 5_Radio_TETRA_Contrato_8_5 | V_Ingenieria_detalle/ | 2.58 KB | 378 | Tecnico, Sistemas | 17/09/2025 |
+| 30 | 32_Material_Rodante_Integrado_docx_AT1_Cl_13_1_AT2_operaci_n_AT4 | III_Ingenieria_conceptual/ | 12.66 KB | 1716 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 31 | 33_Criterios_Normatividad_docx_AREMA_FRA/AREMA_RETIE_ISO_TC_204_NSR_10_NFPA | III_Ingenieria_conceptual/ | 16.62 KB | 2083 | Ingenieria, Tecnico, Sistemas | 17/09/2025 |
+| 32 | 30_Sistema_ITS_Integrado_docx_AT1_AT3_AT4_AT6_ambiental | III_Ingenieria_conceptual/ | 16.16 KB | 2170 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 33 | 31_Sistema_CCTV_Integrado_docx_AT1_AT3_AT8_social_AT4_indicadores | III_Ingenieria_conceptual/ | 20.05 KB | 2626 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 34 | 34_Criterios_Interoperabilidad_docx_Compatibilidad_con_FENOCO_y_ANI | III_Ingenieria_conceptual/ | 21.58 KB | 2690 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 35 | 3_Pasos_a_nivel_Contrato_8_3 | V_Ingenieria_detalle/ | 2.55 KB | 372 | Ingenieria, Tecnico, Sistemas | 17/09/2025 |
+| 36 | 4_Comunicaciones_generales_Contrato_8_4 | V_Ingenieria_detalle/ | 2.57 KB | 372 | Ingenieria, Tecnico, Sistemas | 17/09/2025 |
+| 37 | 35_Criterios_Redundancia_docx_Disponibilidad_y_respaldo_de_sistemas_cr_ticos | III_Ingenieria_conceptual/ | 15.76 KB | 2147 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
+| 38 | 36_Criterios_Ciberseguridad_docx_Protecci_n_de_sistemas_de_control | III_Ingenieria_conceptual/ | 17.17 KB | 2245 | Ingenieria, Tecnico, Contrato, Sistemas | 17/09/2025 |
 ---
 
 ### MATRIZ DE SISTEMAS TECNICOS - ACTUALIZADA CON DOCUMENTOS DE CONTRATO
@@ -203,12 +203,12 @@ Este documento proporciona el índice maestro consolidado de todos los documento
 ### NAVEGACION RAPIDA
 
 #### Documentos Contractuales
-- I. Contrato General - Indice
+- I_Contrato_General - Indice
 - Obligaciones y Clausulas
 - Penalidades y Reversion
 
 #### Especificaciones Tecnicas
-- II. Apendices Tecnicos - Indice
+- II_Apendices_Tecnicos - Indice
 - Sistemas de Control
 - Procedimientos Operacionales
 

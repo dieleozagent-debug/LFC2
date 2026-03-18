@@ -21,7 +21,7 @@ Este documento es crítico para la operación del corredor, ya que define las ca
     - `Cl. 13.1`, `AT1`, `AT2`, `AT4`: Fuentes primarias de requisitos.
     - `27_Sistema_TETRA_Integrado...md`: Define la red de radio con la que los equipos embarcados deben ser compatibles.
 - **Gobierna a:**
-    - `V. Ingenieria de detalle/12_Comunicaciones_embarcadas_Contrato_8_10.md`: El diseno de detalle se basa en los conceptos aquí definidos.
+    - `V_Ingenieria_detalle/12_Comunicaciones_embarcadas_Contrato_8_10.md`: El diseno de detalle se basa en los conceptos aquí definidos.
     - `20. AT10_CapacidadSurcos...md`: Las características de rendimiento del material rodante son una entrada clave para la simulación de capacidad.
 
 ---
@@ -43,7 +43,7 @@ El diseno detallado de los sistemas embarcados no puede finalizarse hasta que es
 
 | Documento | Dependencia |
 |---|---|
-| `V. Ingenieria de detalle/12_...md` | Requiere la arquitectura modular y las especificaciones de los equipos embarcados. |
+| `V_Ingenieria_detalle/12_...md` | Requiere la arquitectura modular y las especificaciones de los equipos embarcados. |
 | `20. AT10_CapacidadSurcos...md` | Necesita las curvas de rendimiento del material rodante para la simulación. |
 
 ### 2.3 Interfaces Críticas

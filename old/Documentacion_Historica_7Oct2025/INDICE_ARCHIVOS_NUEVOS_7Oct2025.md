@@ -8,9 +8,9 @@
 
 | Carpeta | Ubicación | Propósito |
 |:--------|:----------|:----------|
-| **Decisiones_Tecnicas** | II. Apendices Tecnicos/ | Registro formal de decisiones técnicas versionadas |
-| **Validaciones** | III. Ingenieria conceptual/ | Validaciones de decisiones aprobadas |
-| **Matrices_Dependencias** | VIII. Documentos Maestros y Metodologia/ | Matrices de trazabilidad de cambios |
+| **Decisiones_Tecnicas** | II_Apendices_Tecnicos/ | Registro formal de decisiones técnicas versionadas |
+| **Validaciones** | III_Ingenieria_conceptual/ | Validaciones de decisiones aprobadas |
+| **Matrices_Dependencias** | VIII_Documentos_Maestros_Metodologia/ | Matrices de trazabilidad de cambios |
 
 ---
 

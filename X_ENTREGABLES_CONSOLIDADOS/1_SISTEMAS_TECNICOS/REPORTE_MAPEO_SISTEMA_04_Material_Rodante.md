@@ -19,13 +19,13 @@
 ### **DISTRIBUCIÓN POR FUENTES:**
 | Carpeta | Documentos | Prioridad Alta | Prioridad Media | Prioridad Baja |
 |:--------|:----------:|:--------------:|:---------------:|:--------------:|
-| **I. Contrato General** | 2 | 2 | 0 | 0 |
+| **I_Contrato_General** | 2 | 2 | 0 | 0 |
 | **II. Apéndices Técnicos** | 5 | 5 | 0 | 0 |
 | **III. Ingeniería Conceptual** | 18 | 10 | 6 | 2 |
 | **IV. Ingeniería Básica** | 9 | 6 | 2 | 1 |
 | **V. Ingeniería de Detalle** | 14 | 6 | 5 | 3 |
 | **VI. Operación y Mantenimiento** | 3 | 2 | 1 | 0 |
-| **VII. Soporte Especializado** | 1 | 0 | 0 | 1 |
+| **VII_Soporte_Especializado** | 1 | 0 | 0 | 1 |
 
 ---
 

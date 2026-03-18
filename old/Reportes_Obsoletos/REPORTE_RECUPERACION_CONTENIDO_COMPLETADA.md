@@ -24,7 +24,7 @@ Se ha verificado y corregido el problema reportado de contenido faltante en docu
 - **Acción solicitada:** Recuperar archivo original o recrear contenido
 
 ### **Análisis Realizado:**
-- ✅ **Archivo localizado:** `I. Contrato General/8. Cl_15_1_Reversion_Bienes_MEJORADO.md`
+- ✅ **Archivo localizado:** `I_Contrato_General/8. Cl_15_1_Reversion_Bienes_MEJORADO.md`
 - ✅ **Contenido verificado:** 227 líneas de contenido completo
 - ✅ **Estado real:** Contenido completo y actualizado según Metodología Punto 42
 
@@ -40,7 +40,7 @@ Se ha verificado y corregido el problema reportado de contenido faltante en docu
 ### **1. Verificación de Archivos:**
 | Archivo | Ubicación | Estado Real | Contenido |
 |:--------|:----------|:-----------:|:----------|
-| `Cl_15_1_Reversion_Bienes_MEJORADO.md` | `I. Contrato General/` | ✅ **Completo** | 227 líneas |
+| `Cl_15_1_Reversion_Bienes_MEJORADO.md` | `I_Contrato_General/` | ✅ **Completo** | 227 líneas |
 
 ### **2. Correcciones Aplicadas:**
 - ✅ **Estado actualizado:** "Requiere contenido original" → "Contenido completo y actualizado"
@@ -121,7 +121,7 @@ Se ha verificado y corregido el problema reportado de contenido faltante en docu
 ## ✅ VALIDACIÓN FINAL
 
 ### **Estado del Documento:**
-- ✅ **Ubicación:** `I. Contrato General/8. Cl_15_1_Reversion_Bienes_MEJORADO.md`
+- ✅ **Ubicación:** `I_Contrato_General/8. Cl_15_1_Reversion_Bienes_MEJORADO.md`
 - ✅ **Contenido:** Completo y actualizado
 - ✅ **Metodología:** Punto 42 aplicada
 - ✅ **Riesgos:** Identificados para PMI

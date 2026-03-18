@@ -8,7 +8,7 @@
 👉 **`@@INICIO_AQUI_Gestion_Cambios_Iterativos.md`**
 
 ### **¿Necesitas gestionar un cambio técnico?**
-👉 **`II. Apendices Tecnicos/Decisiones_Tecnicas/README_DECISIONES_TECNICAS.md`**
+👉 **`II_Apendices_Tecnicos/Decisiones_Tecnicas/README_DECISIONES_TECNICAS.md`**
 
 ### **¿Necesitas presentar a stakeholders?**
 👉 **`X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/WORD/`** (archivos .docx)

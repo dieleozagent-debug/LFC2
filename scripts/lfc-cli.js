@@ -43,7 +43,7 @@ function log(msg, color = colors.reset) {
 function sync() {
     log("\n🔄 SINCRONIZACIÓN WBS MULTINIVEL (v6.3) INICIADA\n", colors.cyan);
 
-    const wbsPath = path.join(REPO_ROOT, 'IX. WBS y Planificacion/WBS_Presupuestal_v2.0.md');
+    const wbsPath = path.join(REPO_ROOT, 'IX_WBS_Planificacion/WBS_Presupuestal_v2.0.md');
     if (!fs.existsSync(wbsPath)) {
         log(`❌ ERROR: No se encuentra ${wbsPath}`, colors.red);
         process.exit(1);
@@ -113,7 +113,7 @@ function sync() {
     log(`✅ Parseados ${items.length} ítems jerárquicos de la WBS\n`, colors.green);
 
     // Generar JSON
-    const dbci = require('../IX. WBS y Planificacion/lfc-terminology.js');
+    const dbci = require('../IX_WBS_Planificacion/lfc-terminology.js');
     const trm = dbci.FINANCIAL.TRM; 
     
     const wbsData = {
@@ -131,11 +131,11 @@ function sync() {
         }))
     };
 
-    const jsonPath = path.join(REPO_ROOT, 'IX. WBS y Planificacion/datos_wbs_TODOS_items.json');
+    const jsonPath = path.join(REPO_ROOT, 'IX_WBS_Planificacion/datos_wbs_TODOS_items.json');
     fs.writeFileSync(jsonPath, unicodeEscape(JSON.stringify(wbsData, null, 4)), 'utf8');
     log(`💾 Creado (Multinivel v6.3): ${jsonPath}`, colors.green);
 
-    const jsPath = path.join(REPO_ROOT, 'IX. WBS y Planificacion/wbs_presupuestal_datos.js');
+    const jsPath = path.join(REPO_ROOT, 'IX_WBS_Planificacion/wbs_presupuestal_datos.js');
     const jsContent = `// WBS Datos SICC v6.3 - DBCI DETERMINISTA\nwindow.wbsDataPresupuestal = ${JSON.stringify(wbsData.items, null, 4)};\n`;
     fs.writeFileSync(jsPath, unicodeEscape(jsContent), 'utf8');
     log(`💾 Creado (Legacy Match v6.3): ${jsPath}\n`, colors.green);
@@ -150,8 +150,8 @@ function sync() {
 function validate() {
     log("\n🧪 VALIDACIÓN DE INTEGRIDAD TRANSVERSAL (v6.3)\n", colors.cyan);
 
-    const cronoPath = path.join(REPO_ROOT, 'IX. WBS y Planificacion/cronograma_datos.js');
-    const wbsPath = path.join(REPO_ROOT, 'IX. WBS y Planificacion/wbs_presupuestal_datos.js');
+    const cronoPath = path.join(REPO_ROOT, 'IX_WBS_Planificacion/cronograma_datos.js');
+    const wbsPath = path.join(REPO_ROOT, 'IX_WBS_Planificacion/wbs_presupuestal_datos.js');
 
     if (!fs.existsSync(cronoPath) || !fs.existsSync(wbsPath)) {
         log("❌ ERROR: Faltan archivos de datos para validar.", colors.red);
@@ -231,22 +231,22 @@ function cook(sistema = null) {
     log("\n🍳 COOK - Regenerando Entregables Consolidados\n", colors.cyan);
     
     const mapeoSistemas = {
-        "01": { nombre: "Control_y_Senalizacion", fuentes: ["III. Ingenieria conceptual/29_Sistema_Senalizacion*.md", "V. Ingenieria de detalle/V.2_Centro_Control_Trafico*.md"] },
-        "02": { nombre: "Telecomunicaciones", fuentes: ["III. Ingenieria conceptual/28_Sistema_FibraOptica*.md", "III. Ingenieria conceptual/27_Sistema_TETRA*.md"] },
-        "03": { nombre: "ITS_y_Seguridad", fuentes: ["III. Ingenieria conceptual/31_Sistema_CCTV*.md", "III. Ingenieria conceptual/30_Sistema_ITS*.md"] },
-        "04": { nombre: "Material_Rodante", fuentes: ["I. Contrato General/6_Cl_13_1_MaterialRodante*.md"] },
-        "05": { nombre: "Infraestructura_Operativa", fuentes: ["IV. Ingenieria basica/IV.4_Especificaciones_Basicas_Sistemas*.md"] },
-        "06": { nombre: "Integracion_y_Coordinacion", fuentes: ["II. Apendices Tecnicos/11. AT1*.md"] },
+        "01": { nombre: "Control_y_Senalizacion", fuentes: ["III_Ingenieria_conceptual/29_Sistema_Senalizacion*.md", "V_Ingenieria_detalle/V.2_Centro_Control_Trafico*.md"] },
+        "02": { nombre: "Telecomunicaciones", fuentes: ["III_Ingenieria_conceptual/28_Sistema_FibraOptica*.md", "III_Ingenieria_conceptual/27_Sistema_TETRA*.md"] },
+        "03": { nombre: "ITS_y_Seguridad", fuentes: ["III_Ingenieria_conceptual/31_Sistema_CCTV*.md", "III_Ingenieria_conceptual/30_Sistema_ITS*.md"] },
+        "04": { nombre: "Material_Rodante", fuentes: ["I_Contrato_General/6_Cl_13_1_MaterialRodante*.md"] },
+        "05": { nombre: "Infraestructura_Operativa", fuentes: ["IV_Ingenieria_basica/IV.4_Especificaciones_Basicas_Sistemas*.md"] },
+        "06": { nombre: "Integracion_y_Coordinacion", fuentes: ["II_Apendices_Tecnicos/11. AT1*.md"] },
         // Especialidades
-        "E01": { nombre: "ESPECIALIDAD_01_Ingenieria_Civil", fuentes: ["IV. Ingenieria basica/IV.1_Obras_Civiles*.md"] },
-        "E02": { nombre: "ESPECIALIDAD_02_Ingenieria_Electrica", fuentes: ["IV. Ingenieria basica/IV.2_Instalaciones_Electricas*.md"] },
-        "E03": { nombre: "ESPECIALIDAD_03_Ingenieria_Mecanica", fuentes: ["IV. Ingenieria basica/IV.3_Estructuras_Mecanicas*.md"] },
-        "E04": { nombre: "ESPECIALIDAD_04_Ingenieria_Sistemas", fuentes: ["III. Ingenieria conceptual/32_Arquitectura_Sistemas*.md"] },
-        "E05": { nombre: "ESPECIALIDAD_05_Ingenieria_Ambiental", fuentes: ["II. Apendices Tecnicos/15. AT4_Socio_Ambiental*.md"] },
+        "E01": { nombre: "ESPECIALIDAD_01_Ingenieria_Civil", fuentes: ["IV_Ingenieria_basica/IV.1_Obras_Civiles*.md"] },
+        "E02": { nombre: "ESPECIALIDAD_02_Ingenieria_Electrica", fuentes: ["IV_Ingenieria_basica/IV.2_Instalaciones_Electricas*.md"] },
+        "E03": { nombre: "ESPECIALIDAD_03_Ingenieria_Mecanica", fuentes: ["IV_Ingenieria_basica/IV.3_Estructuras_Mecanicas*.md"] },
+        "E04": { nombre: "ESPECIALIDAD_04_Ingenieria_Sistemas", fuentes: ["III_Ingenieria_conceptual/32_Arquitectura_Sistemas*.md"] },
+        "E05": { nombre: "ESPECIALIDAD_05_Ingenieria_Ambiental", fuentes: ["II_Apendices_Tecnicos/15. AT4_Socio_Ambiental*.md"] },
         // Gestión
-        "G01": { nombre: "GESTION_EJECUTIVO_Alcance_y_Objetivos", fuentes: ["I. Contrato General/1_Objeto*.md"] },
-        "G02": { nombre: "GESTION_EJECUTIVO_Cambios_y_Decisiones_Tecnicas", fuentes: ["VIII. Documentos Maestros y Metodologia/Matrices_Dependencias/*.md"] },
-        "G03": { nombre: "GESTION_EJECUTIVO_Cronograma_y_Recursos", fuentes: ["IX. WBS y Planificacion/WBS_Cronograma_Propuesta.md"] }
+        "G01": { nombre: "GESTION_EJECUTIVO_Alcance_y_Objetivos", fuentes: ["I_Contrato_General/1_Objeto*.md"] },
+        "G02": { nombre: "GESTION_EJECUTIVO_Cambios_y_Decisiones_Tecnicas", fuentes: ["VIII_Documentos_Maestros_Metodologia/Matrices_Dependencias/*.md"] },
+        "G03": { nombre: "GESTION_EJECUTIVO_Cronograma_y_Recursos", fuentes: ["IX_WBS_Planificacion/WBS_Cronograma_Propuesta.md"] }
     };
 
     const sistemasACocinar = sistema ? [sistema] : Object.keys(mapeoSistemas);
@@ -275,7 +275,7 @@ function cook(sistema = null) {
 
         let contenido = fs.readFileSync(rutaEjecutivo, 'utf8');
         // SANEAMIENTO MANDATORIO (Protocolo v6.0 - Determismo Técnico)
-        const dbci = require('../IX. WBS y Planificacion/lfc-terminology.js');
+        const dbci = require('../IX_WBS_Planificacion/lfc-terminology.js');
         const result = applyPurity(contenido);
         contenido = result.contenido;
         
@@ -300,7 +300,7 @@ function cook(sistema = null) {
 
 function masterAudit() {
     log("\n🔍 MASTER AUDIT - Verificando Coherencia Técnica Final\n", colors.cyan);
-    const dbci = require('../IX. WBS y Planificacion/lfc-terminology.js');
+    const dbci = require('../IX_WBS_Planificacion/lfc-terminology.js');
     const logs = [];
 
     // Verificación de Constantes en el Ecosistema
@@ -320,7 +320,7 @@ function masterAudit() {
  * Función interna de Saneamiento (ADN Pureza) - v6.0 DBCI
  */
 function applyPurity(contenido) {
-    const dbci = require('../IX. WBS y Planificacion/lfc-terminology.js');
+    const dbci = require('../IX_WBS_Planificacion/lfc-terminology.js');
     const mapCorreccion = dbci.CORRECTION_MAP;
 
     let modificado = false;
@@ -526,7 +526,7 @@ function postProcessHtml(htmlPath, baseName) {
     let html = fs.readFileSync(htmlPath, 'utf8');
     
     // Buscar DTs relacionadas
-    const dtDir = path.join(REPO_ROOT, 'II. Apendices Tecnicos/Decisiones_Tecnicas');
+    const dtDir = path.join(REPO_ROOT, 'II_Apendices_Tecnicos/Decisiones_Tecnicas');
     if (!fs.existsSync(dtDir)) return;
     
     const dts = fs.readdirSync(dtDir).filter(f => f.endsWith('.md'));
@@ -555,7 +555,7 @@ function postProcessHtml(htmlPath, baseName) {
             const auditTools = `
             <div class="l4-audit-toolbar" style="margin: 1rem 0; display: flex; gap: 10px;">
                 <button class="btn-l4" onclick="window.print()">🖨️ PDF Audit</button>
-                <button class="btn-l4 btn-excel" onclick="location.href='/IX. WBS y Planificacion/datos_wbs_TODOS_items.json'">📊 WBS Data</button>
+                <button class="btn-l4 btn-excel" onclick="location.href='/IX_WBS_Planificacion/datos_wbs_TODOS_items.json'">📊 WBS Data</button>
             </div>`;
             html = html.replace(/(<header[^>]*>[\s\S]*?)(<\/header>)/i, `$1 ${auditTools} $2`);
         }
@@ -584,7 +584,7 @@ function postProcessHtml(htmlPath, baseName) {
 // Función para procesar Decisiones Técnicas (Section 10)
 function processDts() {
     log("\n🧠 PROCESANDO DECISIONES TÉCNICAS (DT)...", colors.magenta);
-    const dtDir = path.join(REPO_ROOT, 'II. Apendices Tecnicos/Decisiones_Tecnicas');
+    const dtDir = path.join(REPO_ROOT, 'II_Apendices_Tecnicos/Decisiones_Tecnicas');
     if (!fs.existsSync(dtDir)) return log("  ⚠️ Directorio de DTs no encontrado", colors.yellow);
 
     const dts = fs.readdirSync(dtDir).filter(f => f.endsWith('.md'));

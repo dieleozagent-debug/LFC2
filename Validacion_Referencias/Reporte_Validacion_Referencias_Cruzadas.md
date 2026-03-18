@@ -85,10 +85,10 @@ Este documento presenta el reporte de validación de referencias cruzadas entre 
 
 | **Seccion Origen** | **Seccion Destino** | **Referencias** | **Estado** | **Observaciones** |
 |:---|:---|:---:|:---:|:---|
-| **I. Contrato General** | **II. Apendices Tecnicos** | **0** | **OK** | **Coherencia contractual-tecnica** |
-| **II. Apendices Tecnicos** | **III. Documentos de Soporte** | **0** | **OK** | **Especificaciones implementadas** |
+| **I_Contrato_General** | **II_Apendices_Tecnicos** | **0** | **OK** | **Coherencia contractual-tecnica** |
+| **II_Apendices_Tecnicos** | **III. Documentos de Soporte** | **0** | **OK** | **Especificaciones implementadas** |
 | **III. Documentos de Soporte** | **IV. Ingenieria Basica** | **0** | **OK** | **Sistemas en diseno** |
-| **I. Contrato General** | **IV. Ingenieria Basica** | **0** | **OK** | **Obligaciones en diseno** |
+| **I_Contrato_General** | **IV. Ingenieria Basica** | **0** | **OK** | **Obligaciones en diseno** |
 
 ---
 

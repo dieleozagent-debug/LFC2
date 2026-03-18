@@ -463,7 +463,7 @@
 - `FORMATEADO_APENDICE TECNICO 2.md` - Operación y mantenimiento (AT2) - Material rodante
 - `FORMATEADO_APENDICE TECNICO 3.md` - Especificaciones generales (AT3) - Material rodante
 - `FORMATEADO_APENDICE TECNICO 4.md` - Indicadores de desempeno (AT4) - Disponibilidad
-- `I. Contrato General/6_Cl_13_1_MaterialRodante_docx_Equipos_embarcados_PTC_TETRA_MEJORADO.md` - Material rodante
+- `I_Contrato_General/6_Cl_13_1_MaterialRodante_docx_Equipos_embarcados_PTC_TETRA_MEJORADO.md` - Material rodante
 
 ### **9.2 Documentos de Ingeniería Conceptual**
 - `32_Material_Rodante_Integrado_v5.0.md` - Material rodante integrado

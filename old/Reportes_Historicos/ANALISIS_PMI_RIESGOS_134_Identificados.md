@@ -1,6 +1,6 @@
 # [ARCHIVADO 03/10/2025] ANÁLISIS PMI DE RIESGOS (134 Identificados)
 
-> Nota: Este análisis se archiva como histórico. La gestión vigente de riesgos y supuestos está centralizada en `III. Ingenieria conceptual/36.1_Analisis_Riesgos_y_Supuestos_PMI.md` (PMO). Use ese documento como única fuente de verdad.
+> Nota: Este análisis se archiva como histórico. La gestión vigente de riesgos y supuestos está centralizada en `III_Ingenieria_conceptual/36.1_Analisis_Riesgos_y_Supuestos_PMI.md` (PMO). Use ese documento como única fuente de verdad.
 
 ---
 

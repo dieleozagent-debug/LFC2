@@ -33,20 +33,20 @@ Usando Cursor IDE Agent
 
 ### **CARPETAS I-VI (La Cocina - Trabajo Activo)**
 ```
-I. Contrato General/              (Base legal)
-II. Apendices Tecnicos/           (Especificaciones)
+I_Contrato_General/              (Base legal)
+II_Apendices_Tecnicos/           (Especificaciones)
     └── Decisiones_Tecnicas/ ⭐    (Cambios formales versionados)
-III. Ingenieria conceptual/       (Diseno conceptual)
+III_Ingenieria_conceptual/       (Diseno conceptual)
     └── Validaciones/ ⭐           (Validaciones de DT aprobadas)
-IV. Ingenieria basica/            (Ingeniería basica)
-V. Ingenieria de detalle/         (Ingeniería de detalle)
+IV_Ingenieria_basica/            (Ingeniería basica)
+V_Ingenieria_detalle/         (Ingeniería de detalle)
 VI. operacion y mantenimiento/    (O&M)
 ```
 
 ### **CARPETAS VII-VIII (Soporte y Maestros)**
 ```
-VII. Soporte Especializado/       (Normativas, procedimientos)
-VIII. Documentos Maestros y Metodologia/
+VII_Soporte_Especializado/       (Normativas, procedimientos)
+VIII_Documentos_Maestros_Metodologia/
     ├── CRITERIOS_TECNICOS_MAESTRO
     ├── MATRIZ_TRAZABILIDAD_TECNICA
     ├── PROMPT_Administrador_EPC
@@ -57,7 +57,7 @@ VIII. Documentos Maestros y Metodologia/
 
 ### **CARPETA IX (WBS y Planificación)**
 ```
-IX. WBS y Planificacion/
+IX_WBS_Planificacion/
     ├── WBS_Menu_Principal.html
     ├── WBS_Presupuestal_v2.0.md
     └── WBS_Cronograma_Propuesta.html

@@ -22,7 +22,7 @@ Documentar formalmente la función técnica y composición del ítem 1.1.106 "In
 ## ✅ DOCUMENTOS ACTUALIZADOS (LA COCINA - Carpetas I-VI)
 
 ### 1. **IV. INGENIERÍA BÁSICA**
-📁 `IV. Ingenieria basica/41. Interfaces_Sistemas_MEJORADO.md`
+📁 `IV_Ingenieria_basica/41. Interfaces_Sistemas_MEJORADO.md`
 
 **Cambios aplicados:**
 - ✅ Agregada interfaz **IF-07** en Matriz de Interfaces (línea 39)
@@ -44,7 +44,7 @@ Documentar formalmente la función técnica y composición del ítem 1.1.106 "In
 ---
 
 ### 2. **V. INGENIERÍA DE DETALLE**
-📁 `V. Ingenieria de detalle/V.2_Centro_Control_Trafico_CTC_v5.0.md`
+📁 `V_Ingenieria_detalle/V.2_Centro_Control_Trafico_CTC_v5.0.md`
 
 **Cambios aplicados:**
 - ✅ Agregada **Sección 12.4**: Bloque Lógico de Integración Multi-sistema (líneas 555-617)
@@ -59,7 +59,7 @@ Documentar formalmente la función técnica y composición del ítem 1.1.106 "In
 ---
 
 ### 3. **VII. SOPORTE ESPECIALIZADO**
-📁 `VII. Soporte Especializado/VII.2_Especificaciones/VII.2.4_Interfaces_CTC_PTC_Protocolo_FFFIS.md`
+📁 `VII_Soporte_Especializado/VII.2_Especificaciones/VII.2.4_Interfaces_CTC_PTC_Protocolo_FFFIS.md`
 
 **Cambios aplicados:**
 - ✅ Agregada **Sección 2.2**: Gateway Interoperabilidad CTC-FENOCO (líneas 110-199)
@@ -151,7 +151,7 @@ DT-INTERFACES-001-2025-10-09
 ACTUALIZACIÓN COCINA (I-VI):
     ├─ IV. Ingeniería Básica → IF-07 agregada
     ├─ V. Ingeniería Detalle → §12.4 agregada
-    └─ VII. Soporte Especializado → §2.2 agregada
+    └─ VII_Soporte_Especializado → §2.2 agregada
     ↓
 SERVIR (Pandoc):
     ├─ .docx generados (3 archivos)

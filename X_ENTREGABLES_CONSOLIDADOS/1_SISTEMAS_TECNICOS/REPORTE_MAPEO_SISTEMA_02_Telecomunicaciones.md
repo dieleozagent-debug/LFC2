@@ -26,7 +26,7 @@
 ### 📂 CARPETA I: BASE CONTRACTUAL
 
 #### 📄 DOCUMENTO IDENTIFICADO #01
-**Ruta:** `01. contrato en .md/FORMATEADO_APENDICE TECNICO 5.md`  
+**Ruta:** `01_Contrato_MD/FORMATEADO_APENDICE TECNICO 5.md`  
 **Nombre:** AT5 - Interferencias de Redes  
 **Fase:** Contractual  
 **Estado:** ✅ Completo  
@@ -46,7 +46,7 @@ Especificaciones para gestión de interferencias de redes, incluyendo criterios 
 ---
 
 #### 📄 DOCUMENTO IDENTIFICADO #02
-**Ruta:** `01. contrato en .md/FORMATEADO_APENDICE TECNICO 7.md`  
+**Ruta:** `01_Contrato_MD/FORMATEADO_APENDICE TECNICO 7.md`  
 **Nombre:** AT7 - Gestión Predial  
 **Fase:** Contractual  
 **Estado:** ✅ Completo  
@@ -66,7 +66,7 @@ Gestión de predios para ubicación de torres TETRA y Red Vital IP / TETRA, incl
 ---
 
 #### 📄 DOCUMENTO IDENTIFICADO #03
-**Ruta:** `II. Apendices Tecnicos/AT5_Interferencias_de_Redes_MEJORADO.md`  
+**Ruta:** `II_Apendices_Tecnicos/AT5_Interferencias_de_Redes_MEJORADO.md`  
 **Nombre:** AT5 - Interferencias de Redes (Versión Mejorada)  
 **Fase:** Contractual  
 **Estado:** ✅ Completo  
@@ -86,7 +86,7 @@ Versión mejorada con criterios técnicos actualizados para gestión de interfer
 ---
 
 #### 📄 DOCUMENTO IDENTIFICADO #04
-**Ruta:** `II. Apendices Tecnicos/AT7_Gestion_Predial_MEJORADO.md`  
+**Ruta:** `II_Apendices_Tecnicos/AT7_Gestion_Predial_MEJORADO.md`  
 **Nombre:** AT7 - Gestión Predial (Versión Mejorada)  
 **Fase:** Contractual  
 **Estado:** ✅ Completo  
@@ -150,7 +150,7 @@ Gestión predial actualizada para 37 estaciones TETRA/Red Vital IP / TETRA con c
 ### 📂 CARPETA III: INGENIERÍA CONCEPTUAL
 
 #### 📄 DOCUMENTO IDENTIFICADO #07
-**Ruta:** `III. Ingenieria conceptual/27_Sistema_TETRA_Integrado_v5.0.md`  
+**Ruta:** `III_Ingenieria_conceptual/27_Sistema_TETRA_Integrado_v5.0.md`  
 **Nombre:** Sistema TETRA Integrado  
 **Fase:** Conceptual  
 **Estado:** ✅ Completo  
@@ -171,7 +171,7 @@ Arquitectura completa del sistema TETRA con 37 estaciones base, criterios de cob
 ---
 
 #### 📄 DOCUMENTO IDENTIFICADO #08
-**Ruta:** `III. Ingenieria conceptual/27.1_Estimacion_Cantidades_TETRA_v5.0.md`  
+**Ruta:** `III_Ingenieria_conceptual/27.1_Estimacion_Cantidades_TETRA_v5.0.md`  
 **Nombre:** Estimación de Cantidades TETRA  
 **Fase:** Conceptual  
 **Estado:** ✅ Completo  
@@ -191,7 +191,7 @@ Cuantificación detallada de equipos TETRA, torres, radios embarcados, portátil
 ---
 
 #### 📄 DOCUMENTO IDENTIFICADO #09
-**Ruta:** `III. Ingenieria conceptual/28_Sistema_FibraOptica_Integrado_docx_AT1_AT3_AT5_interferencias_AT7_predios.md`  
+**Ruta:** `III_Ingenieria_conceptual/28_Sistema_FibraOptica_Integrado_docx_AT1_AT3_AT5_interferencias_AT7_predios.md`  
 **Nombre:** Sistema Fibra Óptica Integrado  
 **Fase:** Conceptual  
 **Estado:** ✅ Completo  
@@ -212,7 +212,7 @@ Diseno de red de fibra óptica de 526 km con topología de anillo, cajas de empa
 ---
 
 #### 📄 DOCUMENTO IDENTIFICADO #10
-**Ruta:** `III. Ingenieria conceptual/23_ListadoMaestro_Sistemas_v5.0.md`  
+**Ruta:** `III_Ingenieria_conceptual/23_ListadoMaestro_Sistemas_v5.0.md`  
 **Nombre:** Listado Maestro de Sistemas  
 **Fase:** Conceptual  
 **Estado:** ✅ Completo  
@@ -233,7 +233,7 @@ Inventario consolidado de todos los sistemas de telecomunicaciones con códigos,
 ---
 
 #### 📄 DOCUMENTO IDENTIFICADO #11
-**Ruta:** `III. Ingenieria conceptual/25.1_WBS_COMPLETA_ESPECIALIDADES_v5.0.md`  
+**Ruta:** `III_Ingenieria_conceptual/25.1_WBS_COMPLETA_ESPECIALIDADES_v5.0.md`  
 **Nombre:** WBS Completa Especialidades  
 **Fase:** Conceptual  
 **Estado:** ✅ Completo  
@@ -254,7 +254,7 @@ Estructura de desglose de trabajo para sistemas de comunicaciones con 37 estacio
 ---
 
 #### 📄 DOCUMENTO IDENTIFICADO #12
-**Ruta:** `III. Ingenieria conceptual/39. PlanosPreliminares_localizacion torres tetra_fibra_nod.md`  
+**Ruta:** `III_Ingenieria_conceptual/39. PlanosPreliminares_localizacion torres tetra_fibra_nod.md`  
 **Nombre:** Planos Preliminares - Ubicación Torres TETRA  
 **Fase:** Conceptual  
 **Estado:** ✅ Completo  
@@ -275,7 +275,7 @@ Planos de ubicación de las 37 torres TETRA/Red Vital IP / TETRA con coordenadas
 ---
 
 #### 📄 DOCUMENTO IDENTIFICADO #13
-**Ruta:** `III. Ingenieria conceptual/III.1 Conceptos básicos/0_1_que_es_TETRA.md`  
+**Ruta:** `III_Ingenieria_conceptual/III.1 Conceptos básicos/0_1_que_es_TETRA.md`  
 **Nombre:** Conceptos Básicos TETRA  
 **Fase:** Conceptual  
 **Estado:** ✅ Completo  
@@ -295,7 +295,7 @@ Documento educativo sobre tecnología TETRA, aplicaciones ferroviarias y ventaja
 ---
 
 #### 📄 DOCUMENTO IDENTIFICADO #14
-**Ruta:** `III. Ingenieria conceptual/34_Criterios_Interoperabilidad_docx_Compatibilidad_con_FENOCO_y_ANI.md`  
+**Ruta:** `III_Ingenieria_conceptual/34_Criterios_Interoperabilidad_docx_Compatibilidad_con_FENOCO_y_ANI.md`  
 **Nombre:** Criterios de Interoperabilidad FENOCO  
 **Fase:** Conceptual  
 **Estado:** ✅ Completo  
@@ -315,7 +315,7 @@ Criterios de interoperabilidad para comunicaciones con FENOCO y ANE, incluyendo 
 ---
 
 #### 📄 DOCUMENTO IDENTIFICADO #15
-**Ruta:** `III. Ingenieria conceptual/36_Criterios_Ciberseguridad_docx_Protecci_n_de_sistemas_de_control.md`  
+**Ruta:** `III_Ingenieria_conceptual/36_Criterios_Ciberseguridad_docx_Protecci_n_de_sistemas_de_control.md`  
 **Nombre:** Criterios de Ciberseguridad  
 **Fase:** Conceptual  
 **Estado:** ✅ Completo  
@@ -337,7 +337,7 @@ Criterios de ciberseguridad para sistemas de comunicaciones ferroviarias según 
 ### 📂 CARPETA IV: INGENIERÍA BÁSICA
 
 #### 📄 DOCUMENTO IDENTIFICADO #16
-**Ruta:** `IV. Ingenieria basica/IV.4_Especificaciones_Basicas_Sistemas_v5.0.md`  
+**Ruta:** `IV_Ingenieria_basica/IV.4_Especificaciones_Basicas_Sistemas_v5.0.md`  
 **Nombre:** Especificaciones Básicas Sistemas  
 **Fase:** Básica  
 **Estado:** ✅ Completo  
@@ -358,7 +358,7 @@ Especificaciones técnicas basicas para sistemas de comunicaciones incluyendo TE
 ---
 
 #### 📄 DOCUMENTO IDENTIFICADO #17
-**Ruta:** `IV. Ingenieria basica/37_Memorias_Diseno_Basico_v5.0.md`  
+**Ruta:** `IV_Ingenieria_basica/37_Memorias_Diseno_Basico_v5.0.md`  
 **Nombre:** Memorias de Diseno Básico  
 **Fase:** Básica  
 **Estado:** ✅ Completo  
@@ -379,7 +379,7 @@ Memorias de cálculo y diseno básico para sistemas de comunicaciones con análi
 ---
 
 #### 📄 DOCUMENTO IDENTIFICADO #18
-**Ruta:** `IV. Ingenieria basica/38. DiagramasArquitectura_sist_ctc-telco.md`  
+**Ruta:** `IV_Ingenieria_basica/38. DiagramasArquitectura_sist_ctc-telco.md`  
 **Nombre:** Diagramas de Arquitectura CTC-Telecom  
 **Fase:** Básica  
 **Estado:** ✅ Completo  
@@ -400,7 +400,7 @@ Diagramas de arquitectura mostrando integración entre CTC y sistemas de telecom
 ---
 
 #### 📄 DOCUMENTO IDENTIFICADO #19
-**Ruta:** `IV. Ingenieria basica/39. PlanosPreliminares_localizacion torres tetra_fibra_nod.md`  
+**Ruta:** `IV_Ingenieria_basica/39. PlanosPreliminares_localizacion torres tetra_fibra_nod.md`  
 **Nombre:** Planos Preliminares - Torres y Fibra  
 **Fase:** Básica  
 **Estado:** ✅ Completo  
@@ -421,7 +421,7 @@ Planos detallados de ubicación de torres y recorrido de fibra óptica con coord
 ---
 
 #### 📄 DOCUMENTO IDENTIFICADO #20
-**Ruta:** `IV. Ingenieria basica/41. Interfaces_Sistemas_MEJORADO.md`  
+**Ruta:** `IV_Ingenieria_basica/41. Interfaces_Sistemas_MEJORADO.md`  
 **Nombre:** Interfaces de Sistemas  
 **Fase:** Básica  
 **Estado:** ✅ Completo  
@@ -442,7 +442,7 @@ Definición de interfaces entre sistemas de telecomunicaciones y otros sistemas 
 ---
 
 #### 📄 DOCUMENTO IDENTIFICADO #21
-**Ruta:** `IV. Ingenieria basica/40. Plan_GestionPermisos_MEJORADO.md`  
+**Ruta:** `IV_Ingenieria_basica/40. Plan_GestionPermisos_MEJORADO.md`  
 **Nombre:** Plan de Gestión de Permisos  
 **Fase:** Básica  
 **Estado:** ✅ Completo  
@@ -465,7 +465,7 @@ Plan de gestión de permisos para instalación de torres TETRA/Red Vital IP / TE
 ### 📂 CARPETA V: INGENIERÍA DE DETALLE
 
 #### 📄 DOCUMENTO IDENTIFICADO #22
-**Ruta:** `V. Ingenieria de detalle/V.3_Sistemas_Comunicacion_Detalle_v5.0.md`  
+**Ruta:** `V_Ingenieria_detalle/V.3_Sistemas_Comunicacion_Detalle_v5.0.md`  
 **Nombre:** Sistemas de Comunicación Detalle  
 **Fase:** Detalle  
 **Estado:** ✅ Completo  
@@ -487,7 +487,7 @@ Documento principal de detalle consolidando TETRA, Red Vital IP / TETRA y fibra 
 ---
 
 #### 📄 DOCUMENTO IDENTIFICADO #23
-**Ruta:** `V. Ingenieria de detalle/V.X_Sistema_RED TETRA (Misión Crítica)_Detalle_v5.0.md`  
+**Ruta:** `V_Ingenieria_detalle/V.X_Sistema_RED TETRA (Misión Crítica)_Detalle_v5.0.md`  
 **Nombre:** Sistema Red Vital IP / TETRA Detalle  
 **Fase:** Detalle  
 **Estado:** ✅ Completo  
@@ -508,7 +508,7 @@ Especificaciones detalladas del sistema Red Vital IP / TETRA con 37 estaciones c
 ---
 
 #### 📄 DOCUMENTO IDENTIFICADO #24
-**Ruta:** `V. Ingenieria de detalle/V.4_Sistemas/5_Radio_TETRA_Contrato_8_5.md`  
+**Ruta:** `V_Ingenieria_detalle/V.4_Sistemas/5_Radio_TETRA_Contrato_8_5.md`  
 **Nombre:** Radio TETRA Contrato 8.5  
 **Fase:** Detalle  
 **Estado:** ✅ Completo  
@@ -529,7 +529,7 @@ Especificaciones contractuales detalladas para sistema TETRA según contrato 8.5
 ---
 
 #### 📄 DOCUMENTO IDENTIFICADO #25
-**Ruta:** `V. Ingenieria de detalle/V.4_Sistemas/6_Fibra_ptica_Contrato_8_6.md`  
+**Ruta:** `V_Ingenieria_detalle/V.4_Sistemas/6_Fibra_ptica_Contrato_8_6.md`  
 **Nombre:** Fibra Óptica Contrato 8.6  
 **Fase:** Detalle  
 **Estado:** ✅ Completo  
@@ -550,7 +550,7 @@ Especificaciones contractuales detalladas para sistema de fibra óptica según c
 ---
 
 #### 📄 DOCUMENTO IDENTIFICADO #26
-**Ruta:** `V. Ingenieria de detalle/V.4_Sistemas/4_Comunicaciones_generales_Contrato_8_4.md`  
+**Ruta:** `V_Ingenieria_detalle/V.4_Sistemas/4_Comunicaciones_generales_Contrato_8_4.md`  
 **Nombre:** Comunicaciones Generales Contrato 8.4  
 **Fase:** Detalle  
 **Estado:** ✅ Completo  
@@ -571,7 +571,7 @@ Especificaciones generales de comunicaciones incluyendo TETRA, Red Vital IP / TE
 ---
 
 #### 📄 DOCUMENTO IDENTIFICADO #27
-**Ruta:** `V. Ingenieria de detalle/V.4_Sistemas/8_10_Sistema_de_comunicaciones_embarcados.md`  
+**Ruta:** `V_Ingenieria_detalle/V.4_Sistemas/8_10_Sistema_de_comunicaciones_embarcados.md`  
 **Nombre:** Comunicaciones Embarcados  
 **Fase:** Detalle  
 **Estado:** ✅ Completo  
@@ -592,7 +592,7 @@ Sistemas de comunicaciones embarcados en locomotoras incluyendo TETRA y Red Vita
 ---
 
 #### 📄 DOCUMENTO IDENTIFICADO #28
-**Ruta:** `V. Ingenieria de detalle/V.4_Sistemas/12_Comunicaciones_embarcadas_Contrato_8_10.md`  
+**Ruta:** `V_Ingenieria_detalle/V.4_Sistemas/12_Comunicaciones_embarcadas_Contrato_8_10.md`  
 **Nombre:** Comunicaciones Embarcadas Contrato 8.10  
 **Fase:** Detalle  
 **Estado:** ✅ Completo  
@@ -613,7 +613,7 @@ Especificaciones contractuales para comunicaciones embarcadas según contrato 8.
 ---
 
 #### 📄 DOCUMENTO IDENTIFICADO #29
-**Ruta:** `V. Ingenieria de detalle/V.4_Sistemas/10_Red_de_datos_Contrato_8_8_3.md`  
+**Ruta:** `V_Ingenieria_detalle/V.4_Sistemas/10_Red_de_datos_Contrato_8_8_3.md`  
 **Nombre:** Red de Datos Contrato 8.8.3  
 **Fase:** Detalle  
 **Estado:** ✅ Completo  
@@ -634,7 +634,7 @@ Especificaciones para red de datos ferroviaria que utiliza la fibra óptica como
 ---
 
 #### 📄 DOCUMENTO IDENTIFICADO #30
-**Ruta:** `V. Ingenieria de detalle/V.4_Sistemas/9_Interfon_a_Contrato_8_8_2.md`  
+**Ruta:** `V_Ingenieria_detalle/V.4_Sistemas/9_Interfon_a_Contrato_8_8_2.md`  
 **Nombre:** Interfonía Contrato 8.8.2  
 **Fase:** Detalle  
 **Estado:** ✅ Completo  
@@ -657,7 +657,7 @@ Sistema de interfonía que utiliza las redes TETRA y Red Vital IP / TETRA para c
 ### 📂 CARPETA VI: OPERACIÓN Y MANTENIMIENTO
 
 #### 📄 DOCUMENTO IDENTIFICADO #31
-**Ruta:** `VI. operacion y mantenimiento y reversion/6.3_Manual_OM_Telecom_v5.0.md`  
+**Ruta:** `VI_Operacion_Mantenimiento_Reversion/6.3_Manual_OM_Telecom_v5.0.md`  
 **Nombre:** Manual OM Telecomunicaciones  
 **Fase:** Operación  
 **Estado:** ✅ Completo  
@@ -678,7 +678,7 @@ Manual de operación y mantenimiento para sistemas de telecomunicaciones incluye
 ---
 
 #### 📄 DOCUMENTO IDENTIFICADO #32
-**Ruta:** `VI. operacion y mantenimiento y reversion/6.5_Manual_OM_Integrado_v5.0.md`  
+**Ruta:** `VI_Operacion_Mantenimiento_Reversion/6.5_Manual_OM_Integrado_v5.0.md`  
 **Nombre:** Manual OM Integrado  
 **Fase:** Operación  
 **Estado:** ✅ Completo  
@@ -701,7 +701,7 @@ Manual integrado de operación y mantenimiento que incluye procedimientos para s
 ### 📂 CARPETA 00: GOBERNANZA Y GESTIÓN
 
 #### 📄 DOCUMENTO IDENTIFICADO #33
-**Ruta:** `00. Gobernanza PMO/0.1_MATRIZ_ROLES_PMO_EPC_RACI.md`  
+**Ruta:** `00_Gobernanza_PMO/0.1_MATRIZ_ROLES_PMO_EPC_RACI.md`  
 **Nombre:** Matriz Roles PMO EPC RACI  
 **Fase:** Gobernanza  
 **Estado:** ✅ Completo  

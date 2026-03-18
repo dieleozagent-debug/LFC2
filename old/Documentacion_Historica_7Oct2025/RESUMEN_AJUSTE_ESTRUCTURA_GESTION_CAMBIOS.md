@@ -10,9 +10,9 @@
 ## ✅ **QUÉ SE HIZO**
 
 ### **1. CARPETAS FÍSICAS CREADAS** (3 nuevas)
-- ✅ `II. Apendices Tecnicos/Decisiones_Tecnicas/`
-- ✅ `III. Ingenieria conceptual/Validaciones/`
-- ✅ `VIII. Documentos Maestros y Metodologia/Matrices_Dependencias/`
+- ✅ `II_Apendices_Tecnicos/Decisiones_Tecnicas/`
+- ✅ `III_Ingenieria_conceptual/Validaciones/`
+- ✅ `VIII_Documentos_Maestros_Metodologia/Matrices_Dependencias/`
 
 ### **2. PLANTILLAS CREADAS** (2 documentos)
 - ✅ `PLANTILLA_Decisión_Técnica.md` - Para registrar decisiones formales
@@ -259,15 +259,15 @@ En: VIII/Matrices_Dependencias/MATRIZ_RIESGOS_PMO_AMPLIADA_v1.0.md
 
 ### **Estructura nueva:**
 ```
-II. Apendices Tecnicos/Decisiones_Tecnicas/
+II_Apendices_Tecnicos/Decisiones_Tecnicas/
 ├── README_DECISIONES_TECNICAS.md ✅
 ├── PLANTILLA_Decisión_Técnica.md ✅
 └── PLANTILLA_Análisis_Cambio.md ✅
 
-III. Ingenieria conceptual/Validaciones/
+III_Ingenieria_conceptual/Validaciones/
 └── (vacía - se llenará con validaciones)
 
-VIII. Documentos Maestros y Metodologia/Matrices_Dependencias/
+VIII_Documentos_Maestros_Metodologia/Matrices_Dependencias/
 ├── MATRIZ_DEPENDENCIAS_DOCUMENTALES_v1.0.md ✅
 └── MATRIZ_RIESGOS_PMO_AMPLIADA_v1.0.md ✅
 ```

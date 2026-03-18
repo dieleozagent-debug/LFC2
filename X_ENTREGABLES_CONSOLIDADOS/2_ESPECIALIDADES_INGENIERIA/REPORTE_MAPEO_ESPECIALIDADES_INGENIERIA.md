@@ -62,7 +62,7 @@
 8. **old/V.4_Sistemas_Potencia_Detalle_v2.0.md** - Sistemas potencia (referencia)
 
 #### **🟡 PRIORIDAD MEDIA (2 documentos):**
-1. **III. Ingenieria conceptual/25.1_Matriz_Alcance_Electrico.md** - Matriz alcance eléctrico
+1. **III_Ingenieria_conceptual/25.1_Matriz_Alcance_Electrico.md** - Matriz alcance eléctrico
 2. **old/26.1_Anexo_Electrico_CTC.md** - Anexo eléctrico (legacy)
 
 #### **🟢 PRIORIDAD BAJA (1 documento):**
@@ -79,7 +79,7 @@
 6. **X_ENTREGABLES_CONSOLIDADOS/1_SISTEMAS_TECNICOS/REPORTE_MAPEO_SISTEMA_04_Material_Rodante.md** - Reporte mapeo material rodante
 
 #### **🟡 PRIORIDAD MEDIA (2 documentos):**
-1. **III. Ingenieria conceptual/32_Material_Rodante_Integrado_v5.0.md** - Material rodante conceptual
+1. **III_Ingenieria_conceptual/32_Material_Rodante_Integrado_v5.0.md** - Material rodante conceptual
 2. **V.3_Sistemas_Comunicacion_Detalle_v5.0.md** - Sistemas comunicación (equipos embarcados)
 
 ### **💻 ESPECIALIDAD 4: INGENIERÍA DE SISTEMAS (10 documentos)**
@@ -90,7 +90,7 @@
 3. **X_ENTREGABLES_CONSOLIDADOS/1_SISTEMAS_TECNICOS/SISTEMA_02_Telecomunicaciones_Master.md** - Telecomunicaciones
 4. **X_ENTREGABLES_CONSOLIDADOS/1_SISTEMAS_TECNICOS/SISTEMA_03_ITS_y_Seguridad_Master.md** - ITS y seguridad
 5. **23_ListadoMaestro_Sistemas_v5.0.md** - Listado maestro sistemas
-6. **VIII. Documentos Maestros y Metodologia/CRITERIOS_TECNICOS_MAESTRO_APP_La_Dorada_Chiriguaná_v1.0.md** - Criterios técnicos maestro
+6. **VIII_Documentos_Maestros_Metodologia/CRITERIOS_TECNICOS_MAESTRO_APP_La_Dorada_Chiriguaná_v1.0.md** - Criterios técnicos maestro
 
 #### **🟡 PRIORIDAD MEDIA (3 documentos):**
 1. **25.1_WBS_COMPLETA_ESPECIALIDADES_v5.0.md** - WBS especialidades sistemas
@@ -103,10 +103,10 @@
 ### **🌱 ESPECIALIDAD 5: INGENIERÍA AMBIENTAL (6 documentos)**
 
 #### **🔴 PRIORIDAD ALTA (4 documentos):**
-1. **II. Apendices Tecnicos/16. AT6_Gestion_Ambiental_MEJORADO.md** - Gestión ambiental
-2. **III. Ingenieria conceptual/30_Sistema_ITS_Integrado_docx_AT1_AT3_AT4_AT6_ambiental.md** - ITS integrado ambiental
-3. **III. Ingenieria conceptual/0_0_relacion_de_apendices_tecnicos_del_contrato_con_la_ing.md** - Relación apéndices ambientales
-4. **II. Apendices Tecnicos/17. AT7_Gestion_Predial_MEJORADO.md** - Gestión predial (impacto ambiental)
+1. **II_Apendices_Tecnicos/16. AT6_Gestion_Ambiental_MEJORADO.md** - Gestión ambiental
+2. **III_Ingenieria_conceptual/30_Sistema_ITS_Integrado_docx_AT1_AT3_AT4_AT6_ambiental.md** - ITS integrado ambiental
+3. **III_Ingenieria_conceptual/0_0_relacion_de_apendices_tecnicos_del_contrato_con_la_ing.md** - Relación apéndices ambientales
+4. **II_Apendices_Tecnicos/17. AT7_Gestion_Predial_MEJORADO.md** - Gestión predial (impacto ambiental)
 
 #### **🟡 PRIORIDAD MEDIA (1 documento):**
 1. **25.1_WBS_COMPLETA_ESPECIALIDADES_v5.0.md** - WBS especialidades ambientales
