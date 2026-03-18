@@ -28,7 +28,9 @@ function runLoop() {
 
     try {
         // Step 1: Purify (Auto-Saneamiento de Contenido y Rutas)
-        log("Ejecutando Saneamiento Sistémico (Purify)...");
+        console.log("[DAEMON] Escaneando Impurezas (Audit)...");
+        execSync('node /home/administrador/docker/agente/scripts/karpathy_audit.js', { stdio: 'inherit' });
+        console.log("[DAEMON] Ejecutando Saneamiento (Purify)...");
         execSync(`node ${LFC_CLI} purify`, { stdio: 'inherit' });
 
         // Step 2: Cook (Regeneración de Platos con pureza 100%)
