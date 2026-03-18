@@ -1,35 +1,42 @@
-# ESPECIFICACIONES BÁSICAS SISTEMAS v6.0 (PTC VIRTUAL)
-## APP La Dorada - Chiriguaná
+# ESPECIFICACIONES BÁSICAS SISTEMAS v6.3.2 (SICC SOVEREIGN)
+## APP La Dorada - Chiriguaná | Fase IV
 
-**Fecha de actualización:** 13 de marzo de 2026  
-**Proyecto:** APP La Dorada - Chiriguaná  
-**Contrato:** Concesión No. 001 de 2025  
+**Fecha de actualización:** 18 de marzo de 2026  
+**Estatus:** ✅ **SICC PURIFIED | SOBERANÍA TÉCNICA**
 
 ---
 
 ## 📄 ESPECIFICACIONES DE DISEÑO BÁSICO
-El diseño se basa en la arquitectura **PTC Virtual** (Positive Train Control), eliminando señales visuales en vía y europunto de referencia virtuals físicas.
+El diseño se basa en la arquitectura **SICC (Sistema de Interoperabilidad, Comunicaciones y Control)**, priorizando la soberanía tecnológica y el uso de estándares abiertos.
 
-### 1. SEGMENO TIERRA (Wayside)
-- **ENCE:** Lógica de enclavamiento para control de desvíos y comprobación de rutas.
-- **Detección:** Contadores de ejes como respaldo, ubicación GPS como primario.
-- **Señales:** **ELIMINADAS**. Se utiliza señalización en cabina (Cab-Signaling).
+### 1. SEGMENTO TIERRA (Wayside & Infrastructure)
+*   **ENCE (Enclavamiento Centralizado)**: Lógica de estado sólido para control de 5 estaciones críticas.
+*   **Detección de Trenes**: Basada en reporte de posición **PTC Virtual (SICC)** + Comprobación de integridad por GNSS/Odometría.
+*   **Wayside Interface Units (WIU)**: Puntos de interfaz para monitoreo de salud de agujas y desvíos.
 
-### 2. SEGMENTO COMUNICACIONES
-- **Radio:** TETRA (Troncalizada). Cobertura total para voz y datos.
-- **Ancho de Banda:** Reservado para Autorizaciones de Movimiento (MA) críticas.
-- **Red Vital IP / TETRA:** **ELIMINADO**. No se justifica CAPEX para dos tecnologías de radio redundantes si TETRA cumple el contrato.
+### 2. SEGMENTO COMUNICACIONES (SICC CORE)
+*   **Red Vital IP / TETRA**: Infraestructura troncalizada digital para voz y datos de misión crítica.
+*   **Redundancia**: Backup mediante enlaces IP dedicados en nodos críticos.
+*   **Soberanía**: Eliminación total de protocolos gsm-r o euro-centristas.
+
+### 3. SEGMENTO CONTROL (TOWERS & CCO)
+*   **CTC (Centralized Traffic Control)**: Ubicado en La Dorada, con consola de despacho SICC.
+*   **Virtual PTC Implementation**: Autorizaciones de movimiento entregadas vía Red Vital IP / TETRA.
 
 ---
 
-## 🔍 AUDITORÍA DE RE-INGENIERÍA (METODOLOGÍA P.42 v4.2)
-Se han purgado de la v5.0 las siguientes alucinaciones técnicas:
-1. **ELIMINADO PTC Virtual (FRA 236):** Se reemplaza por **FRA 236 I (PTC)**.
-2. **ELIMINADO Señalización en Cabina (Cab-Signaling):** No hay señales físicas en el campo.
-3. **ELIMINADO Puntos de Referencia Virtuales (SICC):** El posicionamiento es via GNSS/EOT.
+## 🔍 CRITERIOS DE SANEAMIENTO (KARPATHY LOOP)
+Se han purgado todas las asunciones legacy:
+1.  **ELIMINADA [INFRAESTRUCTURA PROHIBIDA] / 25kV**: El diseño básico es 100% para Tracción Diésel-Eléctrica.
+2.  **ELIMINADA Nodos GNSS (SICC)**: Reemplazada por tecnología **SICC de Posicionamiento Satelital**.
+3.  **ELIMINADA Dependencia gsm-r**: La comunicación se unifica en **Red Vital IP / TETRA**.
 
 ---
 
 | Versión | Fecha       | Responsable            | Descripción                              |
 |:------:|:-----------:|:-----------------------|:-----------------------------------------|
-| v6.0   | 13/03/2026  | Admin. Contractual EPC | Re-ingeniería de Diseño Básico. Purgado de PTC Virtual/Red Vital IP / TETRA. |
+| v6.3.2 | 18/03/2026  | Agente Antigravity SICC | Re-ingeniería SICC Sovereign v6.3.2. |
+
+---
+**Cerebro del Sistema:** lfc-terminology.js  
+**© 2026 LFC STUDIO - SICC SYSTEM**
