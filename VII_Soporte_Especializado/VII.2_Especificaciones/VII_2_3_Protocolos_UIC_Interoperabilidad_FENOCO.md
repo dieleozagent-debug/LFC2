@@ -11,7 +11,7 @@
 ## 🎯 **1. PROPÓSITO Y ALCANCE**
 
 ### **1.1 PROPÓSITO**
-Este documento establece el procedimiento de **Interoperabilidad Operacional** entre la **Red Vital LFC (PTC Virtual)** y la red FENOCO. Bajo el modelo de **Soberanía Tecnológica**, se rechaza el uso de protocolos europeos (UIC/ERTMS) y se adopta el estándar **FRA/AREMA** para la lógica de seguridad.
+Este documento establece el procedimiento de **Interoperabilidad Operacional** entre la **Red Vital LFC (PTC Virtual)** y la red FENOCO. Bajo el modelo de **Soberanía Tecnológica**, se rechaza el uso de **Protocolos Europeos Legacy** y se adopta el estándar **FRA/AREMA** para la lógica de seguridad.
 
 ### **1.2 ALCANCE**
 - **Punto de Intercambio:** Estación Chiriguaná (PK 526+000).

@@ -5,8 +5,8 @@
   "rewrites": [
     { "source": "/", "destination": "/IX_WBS_Planificacion/WBS_COMPLETA_TODO_Interactiva_v4_0.html" },
     { "source": "/wbs", "destination": "/IX_WBS_Planificacion/WBS_COMPLETA_TODO_Interactiva_v4_0.html" },
-    { "source": "/entregables", "destination": "/X_ENTREGABLES_CONSOLIDADOS/INDICE_CARPETA_X_ACTUALIZADO.html" },
-    { "source": "/master", "destination": "/X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/HTML/SISTEMA_01_Control_y_Senalizacion_Master.html" },
+    { "source": "/entregables", "destination": "/X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/HTML/INDICE_Documentos_Servidos.html" },
+    { "source": "/master", "destination": "/X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/HTML/SISTEMA_01_Control_y_Senalizacion_EJECUTIVO.html" },
     { "source": "/37_Memorias_Diseno_Basico_v5_0.md", "destination": "/IV_Ingenieria_basica/37_Memorias_Diseno_Basico_v5_0.md" }
   ],
   "cleanUrls": true,
