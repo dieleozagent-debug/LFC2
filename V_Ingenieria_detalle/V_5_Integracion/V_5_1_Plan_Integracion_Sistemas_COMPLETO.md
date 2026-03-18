@@ -73,7 +73,7 @@ Este documento presenta el **plan de integración de sistemas completo** para el
 | Equipo | Base | Cantidad | Observaciones |
 |:-------|:-----|:--------:|:--------------|
 | **Red Vital IP Nodes** | Base de concreto | 37 nodos fijos | Red Vital SICC |
-| **Postes SICC** | Base de concreto | 1,483 unidades | Soporte comunicaciones |
+| **Postes de Red Vital** | Base de concreto | 1,483 unidades | Soporte comunicaciones |
 | **ENCE Centers** | Estructura SICC | 5 centros | Control Centralizado SICC |
 | **Equipos de línea** | Base de concreto | 500 unidades | Anclaje estructural |
 
@@ -124,7 +124,7 @@ Este documento presenta el **plan de integración de sistemas completo** para el
 #### **4.1 Sistemas Embarcados**
 | Sistema | Ubicación | Función | Observaciones |
 |:--------|:----------|:---------|:--------------|
-| **SICC PTC Virtual** | Cada tren | Control de tren | 40 unidades |
+| **Soberana PTC (S-PTC)** | Cada tren | Control de tren | 40 unidades |
 | **Red Vital IP / TETRA** | Cada tren | Comunicaciones | 40 unidades |
 | **CCTV** | Cada tren | Video seguridad | 40 unidades |
 | **Sistemas de datos** | Cada tren | Transmisión datos | 40 unidades |

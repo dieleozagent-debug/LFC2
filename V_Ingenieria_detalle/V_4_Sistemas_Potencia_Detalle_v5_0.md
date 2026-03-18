@@ -12,7 +12,7 @@
 La potencia de detalle se dimensiona para garantizar la autonomía total del **SICC**, asegurando que los 37 nodos de la **Red Vital IP / TETRA** operen al 100% de disponibilidad incluso en condiciones extremas.
 
 ### 1.1 Centros de Potencia (Nodos de Red Vital):
-- **Nodos SICC (37):** Cada torre de comunicación cuenta con un sistema híbrido (Solar + Red Comercial) dimensionado para la carga dual de **TETRA y Red Vital IP**.
+- **Nodos de Red Vital (NRV) (37):** Cada torre de comunicación cuenta con un sistema híbrido (Solar + Red Comercial) dimensionado para la carga dual de **TETRA y Red Vital IP**.
 - **Centros ENCE (5):** Respaldo crítico para los enclavamientos IP bajo arquitectura N+2.
 - **CCO La Dorada:** Infraestructura de potencia para el Servidor Maestro SICC y el sistema de despacho, eliminando dependencias de servidores externos.
 
