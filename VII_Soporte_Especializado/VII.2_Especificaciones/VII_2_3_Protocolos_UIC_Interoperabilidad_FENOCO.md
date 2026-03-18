@@ -16,7 +16,7 @@ Este documento establece el procedimiento de **Interoperabilidad Operacional** e
 ### **1.2 ALCANCE**
 - **Punto de Intercambio:** Estación Chiriguaná (PK 526+000).
 - **Modelo:** Stop & Switch (Independencia Técnica Total).
-- **Sistemas:** SICC PTC Virtual (LFC) vs. Control por Despacho (FENOCO).
+- **Sistemas:** Servidor PTC Central (LFC) vs. Control por Despacho (FENOCO).
 
 ---
 

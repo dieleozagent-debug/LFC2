@@ -61,7 +61,7 @@ Para mitigar el riesgo del bloqueo de las especificaciones PTC (dependientes de 
 - **Módulo Base (Instalación Inmediata):**
     - **Radio TETRA:** Para comunicaciones de voz y datos básicos.
     - **GPS/GNSS:** Para localización y seguimiento en el CTC.
-    - **Event Recorder (Caja Negra):** Para registro de datos de operación.
+    - **Event Recorder (Arquitectura Abierta SICC):** Para registro de datos de operación.
     - **Cableado y Antenas:** Se instalará todo el cableado y las antenas necesarias, incluyendo las previstas para el PTC, dejando los conectores listos ("stub-out").
 - **Módulo PTC (Instalación Futura):**
     - **Unidad de Control a Bordo (OBC):** Se conectará al cableado preinstalado una vez que las especificaciones estén disponibles, usando PTC Virtual (FRA 236) como estándar hasta AT3.

@@ -67,7 +67,7 @@ Después de una **verificación exhaustiva** y **corrección de discrepancias** 
 
 ### **VII.2_ESPECIFICACIONES (11 documentos):**
 - ✅ `VII.2.1_SRS_PTC_PTC VIRTUAL_Level2_v1.0.md`
-- ✅ `VII.2.2_Arquitectura_RBC_Redundancia_2OO3.md`
+- ✅ `VII.2.2_Arquitectura_SICC PTC Virtual_Redundancia_2OO3.md`
 - ✅ `VII.2.3_Plan_Virtual Balise (GNSS)_Ubicacion_150m.md`
 - ✅ `VII.2.4_Interfaces_CTC_PTC_Protocolo_FFFIS.md`
 - ✅ `VII.2.5_Revision_Disponibilidad_100_Porciento_99.95.md`

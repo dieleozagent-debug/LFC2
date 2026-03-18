@@ -33,7 +33,7 @@ const LFC_DBCI = {
     
     // BLACKLIST LEGACY (Lo que NO puede existir - SACC)
     LEGACY_BLACKLIST: [
-        "EUROBALIZA", "EUROBALISE", "RBC", "RADIO BLOCK CENTRE", "ETCS", "ERTMS", "ASFA",
+        "EUROBALIZA", "EUROBALISE", "SICC PTC Virtual", "RADIO BLOCK CENTRE", "ETCS", "ERTMS", "ASFA",
         "RED TETRA MISION CRITICA", "TETRA Misión Crítica", "RED TETRA (Misión Crítica)", "RED TETRA (Mision Critica)",
         "CATENARIA", "TRACCIÓN ELÉCTRICA", "TRACCION ELECTRICA", "25 KV", "3 KV", "60 HZ",
         "PANTÓGRAFO", "PANTOGRAFO", "SUBESTACIÓN DE TRACCIÓN", "SUBESTACION DE TRACCION",
@@ -42,9 +42,9 @@ const LFC_DBCI = {
 
     // MAPEO DE CORRECCIÓN DETERMINISTA (Manual del Chef - Purity by Design)
     CORRECTION_MAP: {
-        "RBC": "Servidor PTC Central",
+        "SICC PTC Virtual": "Servidor PTC Central",
         "Radio Block Centre": "Servidor PTC Central",
-        "Eurobaliza": "Nodos GNSS (SICC)",
+        "Baliza Virtual (GNSS)": "Nodos GNSS (SICC)",
         "Eurobalise": "Nodos GNSS (SICC)",
         "Señalización Física": "Filosofía PTC Virtual",
         "Señales LED": "Señalización en Cabina (Cab-Signaling)",

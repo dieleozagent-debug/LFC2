@@ -40,7 +40,7 @@
 
 ---
 
-### **VII.2.2_Arquitectura_RBC_Redundancia_2OO3.md**
+### **VII.2.2_Arquitectura_SICC PTC Virtual_Redundancia_2OO3.md**
 
 #### **Referencias Contractuales:**
 - **AT3:** Especificaciones Generales → Base arquitectónica

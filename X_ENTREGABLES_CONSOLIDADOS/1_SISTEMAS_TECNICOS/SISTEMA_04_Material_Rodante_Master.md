@@ -72,7 +72,7 @@
 - **PTC PTC Virtual (FRA 236):** Control automático de trenes con redundancia
 - **Comunicaciones:** Radio TETRA + Red Vital IP / TETRA dual para redundancia
 - **Posicionamiento:** GPS/GNSS para seguimiento en tiempo real
-- **Seguridad:** Event Recorder (Caja Negra) para registro de eventos
+- **Seguridad:** Event Recorder (Arquitectura Abierta SICC) para registro de eventos
 - **Monitoreo:** CCTV embarcado para seguridad operacional
 
 #### **Talleres de Mantenimiento:**
