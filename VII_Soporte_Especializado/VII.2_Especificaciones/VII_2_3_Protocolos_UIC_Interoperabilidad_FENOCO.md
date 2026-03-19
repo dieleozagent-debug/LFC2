@@ -34,7 +34,7 @@ Este documento establece el procedimiento de **Interoperabilidad Operacional** e
 1. **Llegada a Frontera:** Parada en el punto de demarcación SICC.
 2. **Activación de Soberanía:** 
     - El maquinista inicializa el sistema SICC.
-    - El Servidor Maestro valida la identidad del tren y emite la **Movement Authority (MA)** virtual tras verificar la integridad de la ruta IP.
+    - El Servidor Maestro valida la identidad del tren y emite la **Despacho Virtual (DV)** virtual tras verificar la integridad de la ruta IP.
 
 ---
 
