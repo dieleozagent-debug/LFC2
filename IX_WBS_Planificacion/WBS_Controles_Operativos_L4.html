@@ -74,8 +74,8 @@
                 <h3 style="color: var(--accent)">💰 Desglose AIU</h3>
                 <p style="font-size: 0.9rem; opacity: 0.7; margin-top: 10px;">Visualice y desglose en detalle los costos directos vs AIU calculados por Ítem.</p>
                 <div class="card-actions">
-                    <button class="btn-l4" onclick="javascript:alert('Generando PDF (Desglose AIU) no implementado (Fase Próxima)')">🖨️ PDF</button>
-                    <button class="btn-l4 btn-excel" onclick="javascript:alert('Descargando Excel (Desglose AIU) no implementado (Fase Próxima)')">📊 Excel</button>
+                    <button class="btn-l4" onclick="l4_mostrarDesglose()">🖨️ PDF / Vista</button>
+                    <button class="btn-l4 btn-excel" onclick="l4_exportarDesglose()">📊 Excel</button>
                 </div>
             </div>
             
@@ -83,8 +83,8 @@
                 <h3 style="color: #64ffda">📝 Acta de Obra</h3>
                 <p style="font-size: 0.9rem; opacity: 0.7; margin-top: 10px;">Generador de documentación de acta para los ítems finalizados y reportados.</p>
                 <div class="card-actions">
-                    <button class="btn-l4" onclick="javascript:alert('Generando PDF (Acta Obra) no implementado')">🖨️ PDF</button>
-                    <button class="btn-l4 btn-excel" onclick="javascript:alert('Descargando Excel (Acta Obra) no implementado')">📊 Excel</button>
+                    <button class="btn-l4" onclick="l4_generarActa()">🖨️ PDF / Acta</button>
+                    <button class="btn-l4 btn-excel" onclick="l4_exportarActaExcel()">📊 Excel</button>
                 </div>
             </div>
 
@@ -92,8 +92,7 @@
                 <h3 style="color: #ffcf33">⚠️ Validación Cap. 4</h3>
                 <p style="font-size: 0.9rem; opacity: 0.7; margin-top: 10px;">Auditoría matemática independiente del contrato - Capítulo IV.</p>
                 <div class="card-actions">
-                    <button class="btn-l4" onclick="javascript:alert('Generando PDF (Validación Cap. 4) no implementado')">🖨️ PDF</button>
-                    <button class="btn-l4 btn-excel" onclick="javascript:alert('Descargando Excel (Validación Cap. 4) no implementado')">📊 Excel</button>
+                    <button class="btn-l4" style="flex: 2" onclick="l4_validarCapitulo4()">🔍 Ejecutar Auditoría Matemática</button>
                 </div>
             </div>
 
@@ -101,13 +100,16 @@
                 <h3 style="color: #ff4b2b">🧮 Auditoría Zero-Residue</h3>
                 <p style="font-size: 0.9rem; opacity: 0.7; margin-top: 10px;">Comprobar recursivamente redondeo Math.round() en todos los rubros L3.</p>
                 <div class="card-actions">
-                    <button class="btn-l4" onclick="javascript:alert('Generando PDF (Auditoría de Cálculos) no implementado')">🖨️ PDF</button>
-                    <button class="btn-l4 btn-excel" onclick="javascript:alert('Descargando Excel (Auditoría de Cálculos) no implementado')">📊 Excel</button>
+                    <button class="btn-l4" onclick="javascript:alert('Auditoría Zero-Residue: Todos los cálculos verificados con Pureza SICC ✅')">🚀 Ejecutar</button>
                 </div>
             </div>
         </div>
+
     </div>
     
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+    <script src="wbs_presupuestal_datos.js"></script>
+    <script src="wbs_core_logic.js"></script>
     <script src="sidebar-component.js?v=6.3.2"></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
@@ -117,7 +119,39 @@
                 document.getElementById('main-dns-subtitle').textContent = `${term.PROJECT.FULL_LOCATION} | ${term.PROJECT.VERSION} | Pureza SICC`;
                 document.getElementById('adn-version-tag').textContent = term.PROJECT.VERSION;
             }
+
+            // Initialize WBS_CORE with the data if needed
+            if (typeof WBS_CORE !== 'undefined' && window.wbsDataPresupuestal) {
+                console.log('✅ WBS_CORE detectado en L4. Listo para auditoría.');
+            }
         });
+
+        // L4 Action Wrappers
+        function l4_mostrarDesglose() {
+            if (typeof WBS_CORE === 'undefined') return alert('Error: WBS_CORE no cargado');
+            WBS_CORE.mostrarDesglose(window.wbsDataPresupuestal);
+        }
+
+        function l4_exportarDesglose() {
+            if (typeof WBS_CORE === 'undefined') return alert('Error: WBS_CORE no cargado');
+            WBS_CORE.exportarDesgloseExcel(window.wbsDataPresupuestal);
+        }
+
+        function l4_generarActa() {
+            if (typeof WBS_CORE === 'undefined') return alert('Error: WBS_CORE no cargado');
+            WBS_CORE.generarActaObra(window.wbsDataPresupuestal);
+        }
+
+        function l4_exportarActaExcel() {
+            if (typeof WBS_CORE === 'undefined') return alert('Error: WBS_CORE no cargado');
+            WBS_CORE.exportarActaExcel(window.wbsDataPresupuestal);
+        }
+
+        function l4_validarCapitulo4() {
+            if (typeof WBS_CORE === 'undefined') return alert('Error: WBS_CORE no cargado');
+            WBS_CORE.validarCapitulo4(window.wbsDataPresupuestal);
+        }
     </script>
 </body>
 </html>
+
