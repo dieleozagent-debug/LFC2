@@ -69,11 +69,11 @@
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
 |:---|:---|:---:|:---:|:---:|
 | **1.5.100** | Desvíos manuales autotalonables (con comprobador integrado) | 120 | $134,577,000 | $16,149,240,000 |
-| **1.5.101** | Senalización luminosa estaciones ENCE (entrada/salida) | 10 | $10,000,000 | $100,000,000 |
+| **1.5.101** | ~~Senalización luminosa estaciones ENCE (entrada/salida)~~ | 0 | $0 | $0 |
 | **1.5.102** | Herramientas operación (kit completo certificado) | 120 | $13,458,000 | $1,614,960,000 |
-| **SUBTOTAL DESVÍOS MANUALES Y SEÃALIZACIÓN** | | | | **$17,864,200,000** |
+| **SUBTOTAL DESVÍOS MANUALES Y SEÃALIZACIÓN** | | | | **$17,764,200,000** |
 
-**TOTAL CAPÍTULO 1:** **$131,887,640,432**
+**TOTAL CAPÍTULO 1:** **$131,687,640,432** (Ahorro DT-2026-050)
 
 ---
 
@@ -288,7 +288,7 @@
 ### **ð TOTALES POR CAPÍTULO:**
 | **Capítulo** | **Descripción** | **Total (COP)** |
 |:---|:---|:---:|
-| **1** | Control y Senalización Virtual | $132,139,719,673 |
+| **1** | Control y Senalización Virtual | $132,039,719,673 |
 | **2** | Telecomunicaciones Colocalizadas | $92,672,367,851 |
 | **3** | Sistemas ITS y Seguridad | $3,395,700,000 |
 | **4** | Pasos a Nivel | $21,582,000,000 |
@@ -304,7 +304,7 @@
 | **Suministros** | $204,839,439,777 | $46,554,418,131 |
 | **Obra Civil** | $59,367,258,278 | $13,492,568,700 |
 | **Servicios** | $230,000,000 | $52,272,727 |
-| **COSTO DIRECTO TOTAL** | **$269,785,208,283** | **$61,315,729,155** |
+| **COSTO DIRECTO TOTAL** | **$269,685,208,283** | **$61,215,729,155** |
 
 #### **AIU (SOLO SOBRE OBRA CIVIL):**
 | **Concepto** | **Porcentaje** | **Base (COP)** | **Valor (COP)** | **Valor (USD)** |
