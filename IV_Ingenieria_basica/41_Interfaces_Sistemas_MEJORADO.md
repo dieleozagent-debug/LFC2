@@ -8,6 +8,7 @@
 
 ## 1. MAPA DE INTERFACES VITALES (SICC)
 El sistema **SICC** unifica sus comunicaciones bajo el protocolo **Vital IP**, garantizando interoperabilidad nativa y soberanía tecnológica.
+*   **Interoperabilidad Nacional**: Estándares **FRA/AREMA** para interoperabilidad soberana via Stop & Switch.
 
 ### 1.1 Matriz de Interfaces:
 | ID | Origen | Destino | Protocolo | Tipo |
@@ -16,14 +17,14 @@ El sistema **SICC** unifica sus comunicaciones bajo el protocolo **Vital IP**, g
 | **IF-V-02** | EOT (Cola) | OBC | **SICC Wireless Link** | Vital |
 | **IF-V-03** | Dashboard Sovereign | Servidor SICC | **Secure TCP/IP Layer** | Operativa |
 | **IF-V-04** | Servidor PTC | ENCE (5 Est) | **Vital IP (Red Vital)** | Vital |
-| **IF-V-05** | CCO SICC | CCO FENOCO | **Inter-SICC Protocol** | Interop |
+| **IF-V-05** | CCO SICC | CCO FENOCO | **Procedimiento Stop & Switch (Operativo)** | Interop |
 
 ---
 
 ## 2. 🔍 CRITERIOS DE SANEAMIENTO (SSOT)
 Se han validado nativamente las siguientes interfaces soberanas:
 *   ✅ **Red Vital IP / TETRA**: Confirmada como el canal de datos principal para mensajería vital (MA/Posición).
-*   ✅ **PTC Virtual (SICC)**: Protocolo de control unificado (reemplaza apéndices propietarios).
+*   ✅ **Interoperabilidad FENOCO**: Gestión de protocolos de frontera (Procedimiento Stop & Switch).
 *   ✅ **Vital IP Protocol**: Capa de seguridad SICC para comunicaciones sobre red MPLS y TETRA.
 
 ---

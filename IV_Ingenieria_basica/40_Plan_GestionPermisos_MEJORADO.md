@@ -22,7 +22,7 @@ La gestión regulatoria se unifica para soportar la arquitectura de **Soberanía
 ## 2. 🔍 AUDITORÍA REGULATORIA (SSOT)
 *   ✅ **Red Vital IP / TETRA**: Confirmada la necesidad de gestión de espectro dedicado.
 *   ✅ **GNSS/GPS High Precision**: Validación de uso de frecuencias satelitales para posicionamiento SICC.
-*   ✅ **Interoperabilidad FENOCO**: Gestión de protocolos de frontera (Inter-SICC).
+*   ✅ **Interoperabilidad FENOCO**: Gestión de protocolos de frontera (Procedimiento Stop & Switch).
 
 ---
 **Saneamiento Ciclo 6 - Gestión de Permisos SICC Finalizado.**

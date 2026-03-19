@@ -14,7 +14,7 @@ La Fase IV (Ingeniería Básica) se consolida bajo el cambio de paradigma hacia 
 *   **Tracción Soberana**: Transición a **Diésel-Eléctrica** (eliminación de [INFRAESTRUCTURA PROHIBIDA]/25kV).
 *   **Senalización Virtual**: Implementación de **PTC Virtual (SICC)** basado en GNSS y autorizaciones de movimiento (MA) dinámicas.
 *   **Comunicaciones Misión Crítica**: Unificación en la red **Red Vital IP / TETRA**, garantizando redundancia y cobertura del 99.95% en el corredor.
-*   **Interoperabilidad Nacional**: Estándares **FRA/AREMA** para total integración con FENOCO.
+*   **Interoperabilidad Nacional**: Estándares **FRA/AREMA** para interoperabilidad soberana via Stop & Switch.
 
 ---
 
