@@ -24,8 +24,8 @@ Consolidación del CAPEX mediante el uso del protocolo **Vital IP** sobre Fibra 
 
 ## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE PTC VIRTUAL)
 En cumplimiento del **Ciclo Inverso**, se han eliminado las siguientes memorias obsoletas:
-1.  ❌ **ELIMINADO:** Memorias de cálculo de Eurobalizas y [CONTROLLER PROHIBIDO - SICC ES VIRTUAL].
-2.  ❌ **ELIMINADO:** Protocolos FFFIS/Protocolo Vital IP (SICC) (Sustituido por **Vital IP**).
+1.  ❌ **ELIMINADO:** Memorias de cálculo de Eurobalizas y Punto de Referencia Virtual físicas.
+2.  ❌ **ELIMINADO:** Protocolos FFFIS (Sustituidos por el **Protocolo Vital IP SICC**).
 3.  ❌ **ELIMINADO:** Menciones a Servidores europeos (Servidor PTC Central) de terceros.
 
 ---

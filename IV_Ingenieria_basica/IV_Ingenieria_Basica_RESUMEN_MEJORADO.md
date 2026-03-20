@@ -8,13 +8,13 @@
 ---
 
 ## 1. VISIÓN ESTRATÉGICA DE LA INGENIERÍA BÁSICA (SICC)
-La Fase IV (Ingeniería Básica) se consolida bajo el cambio de paradigma hacia la **Soberanía Técnica**. Se elimina la dependencia de arquitecturas propietarias (Legacy 25kV / Nodos GNSS (SICC)) y se adopta la arquitectura **SICC v6.3.2**.
+La Fase IV (Ingeniería Básica) se consolida bajo el cambio de paradigma hacia la **Soberanía Técnica**. Se elimina la dependencia de arquitecturas propietarias (Legacy / PTC Virtual (SICC)) y se adopta integralmente la arquitectura **SICC v6.3.3 (PTC Virtual)**.
 
 ### 1.1 Pilares del Diseno Soberano:
-*   **Tracción Soberana**: Transición a **Diésel-Eléctrica** (eliminación de [INFRAESTRUCTURA PROHIBIDA]/25kV).
+*   **Tracción Soberana**: Transición a **Diésel-Eléctrica** (eliminación de [INFRAESTRUCTURA PROHIBIDA] / 25kV).
 *   **Senalización Virtual**: Implementación de **PTC Virtual (SICC)** basado en GNSS y autorizaciones de movimiento (MA) dinámicas.
 *   **Comunicaciones Misión Crítica**: Unificación en la red **Red Vital IP / TETRA**, garantizando redundancia y cobertura del 99.95% en el corredor.
-*   **Interoperabilidad Nacional**: Estándares **FRA/AREMA** para interoperabilidad soberana via Stop & Switch.
+*   **Interoperabilidad Nacional**: Estándares **FRA/AREMA** para interoperabilidad soberana vía Stop & Switch.
 
 ---
 
