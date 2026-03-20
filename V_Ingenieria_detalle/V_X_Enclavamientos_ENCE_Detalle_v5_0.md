@@ -12,7 +12,7 @@
 Los 5 enclavamientos electrónicos (ENCE) son nodos de decisión vital distribuida que operan bajo el protocolo nativo **Vital IP**, reportando su estado en tiempo real al Servidor Maestro SICC para el cálculo de las autorizaciones de movimiento.
 
 ### 1.1 Ubicaciones de Control:
-- **Centros Logísticos:** La Dorada, Puerto Salgar, Puerto Berrío, Puerto Nare, Chiriguaná.
+- **Centros Logísticos:** La Dorada, Puerto Triunfo, Puerto Nare, Barrancabermeja, Chiriguaná.
 - **Función:** Control SIL-4 de motores de agujas y detección de presencia local (cuando aplique), siempre subordinados a la lógica superior del CCO.
 
 ### 1.2 Interfaz de Comunicación Soberana:
