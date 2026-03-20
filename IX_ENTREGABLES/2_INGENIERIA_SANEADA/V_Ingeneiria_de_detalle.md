@@ -26,7 +26,7 @@ La Ingeniería de Detalle finaliza su saneamiento eliminando la "contaminación 
 En cumplimiento de la **Soberanía Tecnológica**, se han corregido los siguientes desvíos históricos:
 - ✅ **ELIMINADO:** Todas las referencias a PTC (Alstom) y PTC Virtual (FRA 236).
 - ✅ **ELIMINADO:** Redundancia Red Vital IP / TETRA. Se unifica en TETRA para eficiencia CAPEX.
-- ✅ **ELIMINADO:** Protocolos FFFIS/UNISIG. Se adopta la interfaz abierta **Vital IP**.
+- ✅ **ELIMINADO:** Protocolos FFFIS/Protocolo Vital IP (SICC). Se adopta la interfaz abierta **Vital IP**.
 - ✅ **ELIMINADO:** Riesgos de "Dependencia AT3/PTC". Los nuevos riesgos se centran en la ciberseguridad del Servidor PTC.
 
 ---

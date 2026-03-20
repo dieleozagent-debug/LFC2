@@ -17,7 +17,7 @@ La senalización del corredor abandona los paradigmas físicos para adoptar un m
 
 ### 1.2 Purga de Infraestructura Física:
 - **Cero Balizas:** Se elimina cualquier rutina de mantenimiento de hardware en vía (Eurobalizas, LEUs).
-- **Senalización en Cabina:** El personal operativo debe basar su conducción exclusivamente en el DMI (Driver Machine Interface). No existen señales luminosas wayside.
+- **Senalización en Cabina:** El personal operativo debe basar su conducción exclusivamente en el DMI (Driver Machine Interface). No existen senales luminosas wayside.
 
 ---
 

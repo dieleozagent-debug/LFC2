@@ -28,7 +28,7 @@ Se han corregido los desvíos técnicos del ciclo anterior que erróneamente sug
 
 - ✅ **RESTAURADO:** **PTC Virtual (FRA 236)** como el estándar mandatorio de seguridad.
 - ✅ **RESTAURADO:** **Red Vital IP / TETRA** para garantizar el ancho de banda necesario para el control dinámico.
-- ✅ **ELIMINADO:** Todo rastro de protocolos europeos (PTC Virtual (SICC)/ASFA) que no aportan a la soberanía del corredor.
+- ✅ **ELIMINADO:** Todo rastro de protocolos europeos (PTC Virtual (SICC)/SICC Virtual Protection (SVP)) que no aportan a la soberanía del corredor.
 - ✅ **ZERO-ACCENTS:** Normalización de nombres de archivos para estabilidad del servidor.
 
 ---

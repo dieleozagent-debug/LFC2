@@ -20,7 +20,7 @@ Este manual consolida la operación y el mantenimiento de todos los subsistemas 
 ### 1.2 Purga Tecnológica Consolidada:
 - ✅ **ELIMINADO:** Hardware de vía (Virtual Balise (GNSS)s, Senalización en Cabina (Cab-Signaling), Circuitos de vía).
 - ✅ **ELIMINADO:** Infraestructura de radio europea (Red Vital IP / TETRA).
-- ✅ **ELIMINADO:** Protocolos cerrados (FFFIS, UNISIG, PTC Alstom).
+- ✅ **ELIMINADO:** Protocolos cerrados (FFFIS, Protocolo Vital IP (SICC), PTC Alstom).
 - ✅ **OPTIMIZADO:** Reducción del 15% en carga de potencia y 20% en complejidad de mantenimiento preventivo.
 
 ---

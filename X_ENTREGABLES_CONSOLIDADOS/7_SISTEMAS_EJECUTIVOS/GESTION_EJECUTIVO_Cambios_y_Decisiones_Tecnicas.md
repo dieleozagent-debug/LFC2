@@ -241,7 +241,7 @@ Este documento presenta de manera consolidada todas las **Decisiones Técnicas (
 
 #### **6.1 Punto de referencia virtuals**
 
-##### **DT-BALIZA-001-2025-10-07**
+##### **DT-Punto de Referencia Virtual-001-2025-10-07**
 - **Ítem WBS:** 4.3.101 - Punto de referencia virtuals tipo A
 - **Tipo:** Eliminación de ítem
 - **Cambio:** Cantidad → 0
@@ -251,7 +251,7 @@ Este documento presenta de manera consolidada todas las **Decisiones Técnicas (
 - **Impacto:** Reducción presupuestal
 - **Estado:** ✅ Ejecutado
 
-##### **DT-BALIZA-002-2025-10-07**
+##### **DT-Punto de Referencia Virtual-002-2025-10-07**
 - **Ítem WBS:** 4.3.102 - Punto de referencia virtuals tipo B
 - **Tipo:** Eliminación de ítem
 - **Cambio:** Cantidad → 0

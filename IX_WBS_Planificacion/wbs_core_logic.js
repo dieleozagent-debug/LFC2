@@ -87,7 +87,7 @@ const WBS_CORE = {
     // Chapter Names Constant
     getNombresCapitulos: function() {
         return {
-            '1': 'CONTROL Y SEÑALIZACIÓN VIRTUAL',
+            '1': 'CONTROL Y SENALIZACIÓN VIRTUAL',
             '2': 'TELECOMUNICACIONES COLOCALIZADAS', 
             '3': 'SISTEMAS ITS Y SEGURIDAD',
             '4': 'PASOS A NIVEL',

@@ -26,7 +26,7 @@ La seguridad operativa se garantiza mediante la integridad lógica de la red **P
 En cumplimiento del **Ciclo Inverso**, se han corregido los siguientes desvíos operativos de la v5.0:
 - ✅ **ELIMINADO:** Menciona a "Comunicaciones Red Vital IP / TETRA seguras". La seguridad ahora es agnóstica a la capa física, centrada en el protocolo **Vital IP**.
 - ✅ **ELIMINADO:** Rutinas de seguridad física para Servidor PTC Central y Punto de referencia virtuals. La seguridad es peer-to-peer (Tren-Servidor PTC).
-- ✅ **ELIMINADO:** Referencias a protocolos de seguridad UNISIG/FFFIS propietarios.
+- ✅ **ELIMINADO:** Referencias a protocolos de seguridad Protocolo Vital IP (SICC)/FFFIS propietarios.
 - ✅ **ADOPTADO:** Protocolo de ciberseguridad industrial (IEC 62443) aplicado a la red de datos unificada de la concesión.
 
 ---

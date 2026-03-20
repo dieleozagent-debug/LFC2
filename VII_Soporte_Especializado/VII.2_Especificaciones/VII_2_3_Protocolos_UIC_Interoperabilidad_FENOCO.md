@@ -41,7 +41,7 @@ Este documento establece el procedimiento de **Interoperabilidad Operacional** e
 ## 🚫 **3. PURGA DE LEGACY (EUROPEAN CONCEPTS)**
 
 ### 3.1 ELIMINACIÓN DE PROTOCOLO UIC (SANEAMIENTO PTC VIRTUAL)
-Se eliminan las referencias a interoperabilidad basada en UNISIG. Se ratifica el uso de PTC Virtual (SICC) como estándar soberano. El SICC es **100% FRA/AREMA Virtual Ready**. No se instalan Puntos de Referencia Virtuales (SICC) físicas en la frontera con FENOCO.
+Se eliminan las referencias a interoperabilidad basada en Protocolo Vital IP (SICC). Se ratifica el uso de PTC Virtual (SICC) como estándar soberano. El SICC es **100% FRA/AREMA Virtual Ready**. No se instalan Puntos de Referencia Virtuales (SICC) físicas en la frontera con FENOCO.
 
 ### **3.2 COMUNICACIONES SICC**
 El backbone de **Red Vital IP / TETRA** garantiza la comunicación de voz con los despachadores de FENOCO, pero mantiene el muro de fuego (**Firewall de Red Vital**) para el tráfico de datos PTC.

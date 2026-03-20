@@ -1,10 +1,10 @@
-# DT-2026-050: ELIMINACIÓN DE SEÑALES LUMINOSAS EN ESTACIONES (V-BLOCK)
+# DT-2026-050: ELIMINACIÓN DE SENALES LUMINOSAS EN ESTACIONES (V-BLOCK)
 > **Estado:** Ejecutado · **Prioridad:** Alta · **SSOT:** brain/DBCD_CRITERIA.md
 
 ## 1. Justificación Técnica
-La arquitectura de **PTC Virtual** adoptada para el corredor La Dorada - Chiriguaná elimina la necesidad de señales físicas wayside. La lógica de enclavamiento se basa en **Bloque Virtual (V-Block)**, donde las autorizaciones de movimiento se transmiten directamente al computador de bordo (OBC).
+La arquitectura de **PTC Virtual** adoptada para el corredor La Dorada - Chiriguaná elimina la necesidad de senales físicas wayside. La lógica de enclavamiento se basa en **Bloque Virtual (V-Block)**, donde las autorizaciones de movimiento se transmiten directamente al computador de bordo (OBC).
 
-Mantener señales luminosas en estaciones (Ítem 1.5.101 del WBS) genera una redundancia innecesaria, aumenta los costos de mantenimiento y contradice el principio de **Soberanía Tecnológica** definido en el `DBCD_CRITERIA.md`.
+Mantener senales luminosas en estaciones (Ítem 1.5.101 del WBS) genera una redundancia innecesaria, aumenta los costos de mantenimiento y contradice el principio de **Soberanía Tecnológica** definido en el `DBCD_CRITERIA.md`.
 
 ## 2. Impacto en CAPEX
 - **Ítem Eliminado:** 1.5.101 (Senalización luminosa estaciones ENCE)

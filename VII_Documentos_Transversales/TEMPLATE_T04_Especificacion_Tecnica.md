@@ -21,7 +21,7 @@ Este template debe usarse para especificar hardware y software bajo el paradigma
 ---
 
 ## 🛠 REQUISITOS TÉCNICOS DE SOBERANÍA
-1. **Interfaz de Seguridad:** Protocolo **Vital IP** nativo sobre red TETRA. Se prohíbe el uso de protocolos propietarios cerrados (UNISIG/FFFIS).
+1. **Interfaz de Seguridad:** Protocolo **Vital IP** nativo sobre red TETRA. Se prohíbe el uso de protocolos propietarios cerrados (Protocolo Vital IP (SICC)/FFFIS).
 2. **Arquitectura Hardware:** Servidores de alta disponibilidad (Industrial Grade) certificados para aplicaciones de seguridad ferroviaria (SIL 3/4).
 3. **Ciberseguridad:** Cumplimiento estricto de **IEC 62443** nivel 3 para infraestructura crítica ferroviaria.
 

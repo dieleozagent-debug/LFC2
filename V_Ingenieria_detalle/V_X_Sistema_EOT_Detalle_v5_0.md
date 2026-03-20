@@ -26,7 +26,7 @@ El sistema de fin de tren (EOT) es una pieza crítica de la arquitectura **PTC V
 
 Se han corregido los siguientes desvíos técnicos de la v5.0:
 - ✅ **ELIMINADO:** Redundancia Red Vital IP / TETRA en la radio del EOT. Se unifica en TETRA.
-- ✅ **ELIMINADO:** Requisitos de interoperabilidad con Servidor PTC Central o protocolos UNISIG.
+- ✅ **ELIMINADO:** Requisitos de interoperabilidad con Servidor PTC Central o protocolos Protocolo Vital IP (SICC).
 - ✅ **ELIMINADO:** Cualquier referencia a costos o hardware "Virtual Balise (GNSS)" en la lógica de posicionamiento de cola.
 - ✅ **ADOPTADO:** Arquitectura de sistema abierto basada en el estándar **FRA 236**.
 

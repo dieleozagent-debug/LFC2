@@ -4,7 +4,7 @@
 ## 1. Justificación Técnica
 La arquitectura **SICC Sovereign** prioriza la independencia tecnológica y el ahorro de CAPEX. El criterio **DBCD-C3 (Regla 23)** establece que la interoperabilidad con redes vecinas (FENOCO) se resuelve mediante el **Procedimiento Stop & Switch en Chiriguaná**.
 
-Esto implica que no se requiere un protocolo de comunicación en tiempo real ("Inter-SICC Protocol") ni una "integración total" que dependa de licencias propietarias ITCS. El uso de estos términos en la Ingeniería Básica (Fase IV) crea una vulnerabilidad contractual y técnica que debe ser corregida.
+Esto implica que no se requiere un protocolo de comunicación en tiempo real ("Inter-SICC Protocol") ni una "integración total" que dependa de licencias propietarias PTC Nativo (FRA 49 CFR 236). El uso de estos términos en la Ingeniería Básica (Fase IV) crea una vulnerabilidad contractual y técnica que debe ser corregida.
 
 ## 2. Impacto en CAPEX
 - **Ahorro Directo:** Eliminación de la necesidad de gateways de interoperabilidad y licencias de terceros (estimado: **$250,000 USD**).

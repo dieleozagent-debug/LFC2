@@ -10,12 +10,12 @@
 
 ## RESUMEN EJECUTIVO (MARZO 2026)
 
-Este repositorio constituye el **Ecosistema de Ingeniería SICC** para el proyecto **APP La Dorada-Chiriguaná**. Bajo el estándar **v6.3.2**, la ingeniería garantiza la independencia tecnológica (Soberanía) mediante el uso de protocolos abiertos y la eliminación de dependencias propietarias (Legacy PTC Virtual (SICC)/Red Vital IP / TETRA).
+Este repositorio constituye el **Ecosistema de Ingeniería SICC** para el proyecto **APP La Dorada-Chiriguaná**. Bajo el estándar **v6.3.2**, la ingeniería garantiza la independencia tecnológica (Soberanía) mediante el uso de protocolos abiertos y la eliminación de dependencias propietarias (Legacy / ETCS).
 
 ### OBJETIVOS TÉCNICOS SICC
 1.  **Interoperabilidad**: Alineación nativa con **FENOCO** mediante estándares FRA/AREMA.
 2.  **Soberanía**: Transición de 25kV (Monopolio) a **Tracción Diésel-Eléctrica** (Soberana).
-3.  **Digitalización**: Control virtual vía GNSS y red TETRA de misión crítica.
+3.  **Digitalización**: Control virtual vía GNSS y Red Vital IP / TETRA.
 
 ---
 

@@ -27,7 +27,7 @@ Se han corregido los siguientes desvíos críticos:
 - ✅ **ELIMINADO:** Requerimiento de "Virtual Balise (GNSS)s" para calibración de odometría. Se utiliza GNSS Multibanda + IMU.
 - ✅ **ELIMINADO:** Referencias a "STM" (Specific Transmission Modules). El sistema es nativo IP.
 - ✅ **ELIMINADO:** Arquitectura "Servidor PTC Central" europea. Se adopta el **Servidor Maestro PTC 2oo3**.
-- ✅ **ELIMINADO:** Protocolo FFFIS (UNISIG). Se institucionaliza la interfaz abierta Vital IP.
+- ✅ **ELIMINADO:** Protocolo FFFIS (Protocolo Vital IP (SICC)). Se institucionaliza la interfaz abierta Vital IP.
 
 ---
 
