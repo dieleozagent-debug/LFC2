@@ -1,4 +1,4 @@
-﻿# SENALIZACIÓN FERROVIARIA - CONTRATO 8.1
+# SENALIZACIÓN FERROVIARIA - CONTRATO 8.1
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 19 de septiembre de 2025  
@@ -75,8 +75,8 @@ Este documento contiene las especificaciones técnicas detalladas para el sistem
     - **Conectores y Terminales:** Terminales de compresión y conectores de alta calidad para asegurar conexiones fiables.
 
 #### **INTEGRACIÓN Y ESTÁNDARES**
-- **🚂 PTC PTC Virtual (FRA 236):** Interfaces preparadas para sistemas de control embarcados hasta AT3
-- **🔗 Interoperabilidad FENOCO:** Compatibilidad con sistemas FENOCO según protocolos FRA/AREMA
+- **🚂 PTC Virtual (FRA 236-I):** Interfaces preparadas para sistemas de control embarcados SICC.
+- **🔗 Interoperabilidad FENOCO:** Compatibilidad con sistemas FENOCO según protocolos FRA/AREMA.
 - **📊 Disponibilidad AT4:** Cumplimiento de disponibilidad 99.95% según indicadores contractuales
 
 ---
