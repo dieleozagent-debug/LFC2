@@ -7,28 +7,29 @@
 
 ---
 
-## 1. INFRAESTRUCTURA DE COMUNICACIONES SANEADA
+## 1. INFRAESTRUCTURA DE COMUNICACIONES SOBERANA (SICC)
 
-La red de telecomunicaciones se simplifica para maximizar la soberanía y minimizar el OPEX, eliminando por completo la infraestructura redundante Red Vital IP / TETRA.
+La red de telecomunicaciones se basa en el ecosistema **Red Vital IP**, eliminando protocolos propietarios (Legacy) y unificando el transporte de datos sobre Fibra Óptica.
 
-### 1.1 Red Unificada TETRA:
-- **Funcionalidad:** Misión crítica para voz y datos vitales (PTC Virtual / Vital IP).
-- **Sitios:** 37 torres de comunicación estratégicamente ubicadas.
-- **Respaldo:** Redundancia geográfica mediante triple anillo de Fibra Óptica y enlace satelital VSAT para emergencias.
+### 1.1 Red Vital IP (Backbone):
+- **Funcionalidad:** Misión crítica para datos vitales SICC (Moving Block / Vital IP).
+- **Transporte:** Anillo de Fibra Óptica redundante a lo largo de los 526 km.
+- **Sitios:** 37 estaciones Red Vital para regeneración de señal y acceso local.
 
-### 1.2 Purga de Hardware Obsoleto:
-- **Sin Red Vital IP / TETRA:** Se eliminan los gabinetes, antenas y equipos de radio europeos.
-- **Sin Dependencia Propietaria:** Uso de estándares abiertos que permiten el mantenimiento local sin depender de fabricantes específicos para la capa de transmisión.
+### 1.2 Red de Radio TETRA (Backup/Voz):
+- **Funcionalidad:** Enlace de voz para tripulación y respaldo de datos de baja velocidad para emergencias.
+- **Sitios:** Colocalizada en los 37 sitios Red Vital.
+- **Sin Dependencia:** Uso de estándares abiertos (FRA/AAR) para garantizar el mantenimiento local.
 
 ---
 
-## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE Red Vital IP / TETRA/PTC Virtual)
+## 2. 🔍 AUDITORÍA DE SANEAMIENTO (INFRAESTRUCTURA SICC)
 
-En cumplimiento del **Ciclo Inverso**, se han corregido los siguientes desvíos operativos de la v5.0:
-- ✅ **ELIMINADO:** Rutinas de calibración para frecuencias Red Vital IP / TETRA.
-- ✅ **ELIMINADO:** Verificación de interfaces PTC VIRTUAL/Red Vital IP / TETRA en el backbone.
-- ✅ **ELIMINADO:** Cualquier mención a "Colocalización TETRA + Red Vital IP / TETRA". El sistema es **Native TETRA**.
-- ✅ **ADOPTADO:** Monitoreo centralizado de la salud del protocolo **Vital IP** sobre la red de datos unificada.
+En cumplimiento del **DBCD_CRITERIA.md**, se han rectificado los errores de purga previa:
+- ✅ **INSTAURADO:** Verificación de las **37 estaciones Red Vital IP / TETRA**. Son la columna vertebral del proyecto.
+- ✅ **ELIMINADO:** Cualquier mención a tecnologías de radio europeas (GSM-R) o redes propietarias cerradas.
+- ✅ **ELIMINADO:** Mantenimiento de catenarias o subestaciones de 25kV (Sovereign Diesel-Electric).
+- ✅ **ADOPTADO:** Monitoreo centralizado del protocolo **Vital IP** sobre el anillo de fibra.
 
 ---
 

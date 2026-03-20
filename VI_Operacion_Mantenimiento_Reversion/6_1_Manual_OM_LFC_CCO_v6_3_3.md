@@ -1,4 +1,4 @@
-# 6.1 MANUAL DE OPERACIÓN Y MANTENIMIENTO: CTC VIRTUAL v6.0
+# 6.1 MANUAL DE OPERACIÓN Y MANTENIMIENTO: LFC-CCO (SICC VIRTUAL)
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 13 de marzo de 2026  
@@ -12,8 +12,8 @@
 La operación del Centro de Control de Tráfico (CTC) se basa en la arquitectura **PTC Virtual** (FRA 236). Se elimina toda dependencia de infraestructuras de radio europeas (Red Vital IP / TETRA) o protocolos propietarios (PTC).
 
 ### 1.1 Canal de Comunicación de Misión Crítica:
-- **Red Unificada:** Toda la mensajería vital y operativa se transmite exclusivamente sobre la red **TETRA** y el backbone de Fibra Óptica.
-- **Protocolo Vital:** Se utiliza **Vital IP** para garantizar la integridad y seguridad en el intercambio de Autorizaciones de Movimiento (MA) entre el servidor maestro y la locomotora.
+- **Red Unificada:** Toda la mensajería vital y operativa se transmite sobre la **Red Vital IP / TETRA** (Anillo de Fibra Óptica + Radio de Respaldo).
+- **Protocolo Vital:** Se utiliza **Vital IP SICC** para garantizar la integridad y seguridad.
 
 ### 1.2 Interoperabilidad (Stop & Switch):
 - En las fronteras con concesiones adyacentes (FENOCO/ANI), los operadores seguirán el protocolo **Stop & Switch**, realizando una parada técnica para la validación manual de la autoridad antes de entrar/salir del sistema virtual.
@@ -23,8 +23,8 @@ La operación del Centro de Control de Tráfico (CTC) se basa en la arquitectura
 ## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE Red Vital IP / TETRA/PTC VIRTUAL)
 
 En cumplimiento del **Ciclo Inverso**, se han corregido los siguientes desvíos operativos de la v5.0:
-- ✅ **ELIMINADO:** Verificación de 37 estaciones Red Vital IP / TETRA. El check-list de inicio se unifica en el estado de la red TETRA.
-- ✅ **ELIMINADO:** Procedimientos de "conmutación dual" (TETRA/Red Vital IP / TETRA). El sistema es nativo TETRA.
+- ✅ **RESTAURADO:** El rol de la **Red Vital IP** como el transportador principal. Se confirman las 37 estaciones Red Vital.
+- ✅ **ELIMINADO:** Cualquier mención a infraestructuras de radio europeas (GSM-R) o redes propietarias.
 - ✅ **ELIMINADO:** Referencias a Servidor PTC Central (Servidor PTC Central). La controladora es el **Servidor Maestro PTC**.
 - ✅ **ADOPTADO:** Procedimiento de liberación de V-Blocks (Virtual Blocks) basado en reportes de integridad del EOT recibidos vía IP.
 

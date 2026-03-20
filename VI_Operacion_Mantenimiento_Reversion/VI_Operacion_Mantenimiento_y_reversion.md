@@ -9,12 +9,12 @@
 
 ## 1. RESUMEN EJECUTIVO DE O&M SANEADO
 
-La fase de Operación, Mantenimiento y Reversión ha sido purgada de cualquier vestigio de tecnologías obsoletas (Red Vital IP / TETRA, PTC VIRTUAL, PTC). El modelo de gestión se centra en la eficiencia del **PTC Virtual** y la red unificada **TETRA**.
+La fase de Operación, Mantenimiento y Reversión ha sido purgada de tecnologías europeas legacy (GSM-R, ETCS, Catenaria). El modelo de gestión se centra en la eficiencia del **PTC Virtual SICC** soportado por la **Red Vital IP / TETRA**.
 
 ### 1.1 Documentos de O&M Validados:
-- **6.1 - Manual CTC:** Operación centralizada basada en Servidor Maestro 2oo3.
-- **6.2 - Manual Senalización:** Bloqueo virtual y autorizaciones Vital IP.
-- **6.3 - Manual Telecom:** Red unificada TETRA (Eliminación de Red Vital IP / TETRA).
+- **6.1 - Manual LFC-CCO:** Operación centralizada basada en Servidor Maestro 2oo3.
+- **6.2 - Manual Señalización:** Bloqueo virtual y autorizaciones Vital IP SICC.
+- **6.3 - Manual Telecom:** Red unificada **Red Vital IP / TETRA** (F.O. + Radio UHF).
 - **6.4 - Manual Seguridad:** Integridad del tren vía EOT y Ciberseguridad industrial.
 - **6.5 - Manual Integrado:** Consolidación de rutinas y KPIs de disponibilidad.
 
@@ -23,9 +23,8 @@ La fase de Operación, Mantenimiento y Reversión ha sido purgada de cualquier v
 ## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE TECNOLÓGICA)
 
 En cumplimiento de la **Soberanía Tecnológica**, se han ejecutado los siguientes cambios:
-- ✅ **ELIMINADO:** Proceso de reversión de activos europeos (Red Vital IP / TETRA/Punto de referencia virtuals) que ya no existen en el diseno.
-- ✅ **ELIMINADO:** Riesgos de interoperabilidad técnica con PTC. La interoperabilidad es operativa vía **Stop & Switch**.
-- ✅ **ELIMINADO:** Manuales de usuario para equipos de cabina con soporte Red Vital IP / TETRA.
+- ✅ **ELIMINADO:** Proceso de reversión de activos europeos (GSM-R, Balizas físicas, Catenaria).
+- ✅ **RESTAURADO:** Proceso de reversión de las **37 estaciones Red Vital IP / TETRA** y el backbone de fibra.
 - ✅ **ADOPTADO:** Un sistema de indicadores (AT4) basado exclusivamente en la salud de la red IP y la disponibilidad de los servidores virtuales.
 
 ---
