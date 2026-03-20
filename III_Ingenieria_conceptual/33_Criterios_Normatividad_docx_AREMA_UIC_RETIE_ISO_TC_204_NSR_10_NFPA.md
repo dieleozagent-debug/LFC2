@@ -7,7 +7,7 @@
 ---
 
 ## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
-El proyecto se rige bajo la supremacía normativa del estándar **FRA (USA)** para sistemas de control vital, complementado con las prácticas recomendadas de **AREMA** y **AAR**. Se expulsa cualquier normativa europea (UIC/TSI) que pretenda imponer el modelo ERTMS/ETCS bajo otras denominaciones.
+El proyecto se rige bajo la supremacía normativa del estándar **FRA (USA)** para sistemas de control vital, complementado con las prácticas recomendadas de **AREMA** y **AAR**. Se expulsa cualquier normativa europea (UIC/TSI) que pretenda imponer el modelo PTC Virtual (SICC)/PTC Virtual (SICC) bajo otras denominaciones.
 
 ---
 
@@ -16,7 +16,7 @@ El proyecto se rige bajo la supremacía normativa del estándar **FRA (USA)** pa
 ### 1. SISTEMAS DE CONTROL (PTC VIRTUAL)
 - **FRA 49 CFR Part 236 (Subpart I):** Norma maestra para Positive Train Control (PTC).
 - **IEEE 1474:** Estándar para CBTC (como referencia de arquitectura de comunicaciones).
-- **AREMA C&S Manual:** Prácticas para señalización y comunicaciones ferroviarias.
+- **AREMA C&S Manual:** Prácticas para senalización y comunicaciones ferroviarias.
 
 ### 2. MATERIAL RODANTE
 - **AAR Standards:** Para la integridad estructural y seguridad de las locomotoras.
@@ -33,7 +33,7 @@ El proyecto se rige bajo la supremacía normativa del estándar **FRA (USA)** pa
 | Norma / Estándar | Acción Tomada | Justificación |
 |:---|:---:|:---|
 | **UIC (International Union of Railways)** | ❌ ELIMINADO | No aplica a la arquitectura SICC. |
-| **ERTMS / ETCS / TSI** | ❌ ELIMINADO | Sabotaje heredado de legado europeo. |
+| **PTC Virtual (SICC) / PTC Virtual (SICC) / TSI** | ❌ ELIMINADO | Sabotaje heredado de legado europeo. |
 | **CENELEC (SIL)** | ⚠️ SOLO REFERENCIA | Aplicado solo a procesos de seguridad. |
 | **FRA / AREMA / AAR** | ✅ ADOPTADO | Estándar de Oro de la Soberanía Técnica. |
 

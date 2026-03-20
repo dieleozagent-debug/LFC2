@@ -244,7 +244,7 @@
 | Estaciones TETRA | 37 unidades | Radio digital | Motorola | ✅ Entregado |
 | Estaciones Red Vital IP / TETRA | 37 unidades | Red de datos | Nokia | ✅ Entregado |
 | Cable fibra óptica | 526 km | 48 fibras G.652D | Prysmian | ⏳ En entrega |
-| Equipos DWDM | 8 unidades | Multiplexación | Cisco | ✅ Entregado |
+| Equipos Red Vital IP | 8 unidades | Multiplexación | Cisco | ✅ Entregado |
 | Torres de comunicación | 37 unidades | 40m altura | [Proveedor] | ✅ Entregado |
 
 #### **Sistema de Material Rodante:**

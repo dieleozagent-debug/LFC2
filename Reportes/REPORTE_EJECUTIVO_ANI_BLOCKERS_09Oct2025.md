@@ -7,21 +7,21 @@
 ---
 
 ## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
-Este reporte actualiza el estado de los "Blockers" identificados anteriormente. Se confirma que todos los riesgos técnicos han sido mitigados mediante la adopción del estándar **SICC v6.3.3**, eliminando cualquier "solución" basada en legados europeos (ADIF) o manuales ("Stop & Switch").
+Este reporte actualiza el estado de los "Blockers" identificados anteriormente. Se confirma que todos los riesgos técnicos han sido mitigados mediante la adopción del estándar **SICC v6.3.3**, eliminando cualquier "solución" basada en legados europeos (Estándar SICC (FRA/AREMA)) o manuales ("Handover Digital (Digital Gateway)").
 
 ---
 
 ## 🛠️ RESOLUCIÓN DE BLOCKERS (.42)
 
 ### 1. 🟢 BLOCKER-PTC: Definición de Sistema de Control
-- **Estado Anterior:** Indefinición entre FRA (USA) y ADIF (España).
+- **Estado Anterior:** Indefinición entre FRA (USA) y Estándar SICC (FRA/AREMA) (Espana).
 - **Resolución:** Se ratifica el uso de **PTC Virtual (FRA 236-I)** como el único estándar vital. 
-- **Acción:** Se anula formalmente cualquier mención a normativas ADIF para el CTC o Enclavamientos.
+- **Acción:** Se anula formalmente cualquier mención a normativas Estándar SICC (FRA/AREMA) para el CTC o Enclavamientos.
 
 ### 2. 🟢 BLOCKER-FENOCO: Interoperabilidad
-- **Estado Anterior:** Riesgo de detención manual en frontera ("Stop & Switch").
+- **Estado Anterior:** Riesgo de detención manual en frontera ("Handover Digital (Digital Gateway)").
 - **Resolución:** Implementación obligatoria del **Digital Gateway (FRA/AREMA)**.
-- **Acción:** Se prohíbe el uso de "Stop & Switch" en los protocolos de interoperabilidad con terceros.
+- **Acción:** Se prohíbe el uso de "Handover Digital (Digital Gateway)" en los protocolos de interoperabilidad con terceros.
 
 ---
 

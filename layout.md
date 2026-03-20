@@ -49,7 +49,7 @@ InstalaciónUFVPK/UbicaciónFunciónFase ConstrucciónCCO Principal-B/Bermejo (P
 Características Generales:
 
 Tipo: Fibra óptica monomodo SM-G652D (24-48 hilos)
-Topología: Anillo redundante con arquitectura DWDM
+Topología: Anillo redundante con arquitectura Red Vital IP
 Cobertura: 100% del corredor (PK201+470 a PK722+250)
 Instalación: Canalización subterránea en estaciones / Aérea en vía
 
@@ -364,7 +364,7 @@ UFVImplementacionNombre_TableroUbicacion_PKDescripcionUbicacion_LadoDireccionTip
 | UFV40/41 | 2.1/2.2 | SICC PTC Virtual_03_BERMEJO_MAESTRO | 441+932 | Radio Block Center 03 Maestro | Centro | PK441+932 Centro | CONTROL | Servidor PTC Central PTC VIRTUAL L2 | SWA_BER_CORE_01 | TIPO 7 | TBD | TBD |
 | UFV40/41 | 2.1/2.2 | SICC PTC Virtual_03_BERMEJO_RESPALDO | 441+932 | Radio Block Center 03 Respaldo | Centro | PK441+932 Centro | CONTROL | Servidor PTC Central PTC VIRTUAL L2 Hot-Standby | SWA_BER_CORE_02 | TIPO 7 | TBD | TBD |
 | UFV40/41 | 2.1/2.2 | EBT_13_BERMEJO | 441+932 | Estación Base TETRA 13 | Derecha | PK441+932 Derecha | TELECOMUNICACIONES | TETRA BS | SWA_BER_CORE_01 | TIPO 5 | TBD | TBD |
-| UFV40/41 | 2.1/2.2 | NODO_FO_BERMEJO_CORE | 441+932 | Nodo Core Fibra Óptica | Centro | PK441+932 Centro | TELECOMUNICACIONES | ODF 96 hilos + DWDM | SWA_BER_CORE_01 | TIPO 5 | TBD | TBD |
+| UFV40/41 | 2.1/2.2 | NODO_FO_BERMEJO_CORE | 441+932 | Nodo Core Fibra Óptica | Centro | PK441+932 Centro | TELECOMUNICACIONES | ODF 96 hilos + Red Vital IP | SWA_BER_CORE_01 | TIPO 5 | TBD | TBD |
 | UFV40/41 | 2.1/2.2 | DATACENTER_CCO | 441+932 | Centro de Datos CCO | Centro | PK441+932 Centro | TELECOMUNICACIONES | Datacenter Tier III | SWA_BER_CORE_01 | TIPO 5 | TBD | TBD |
 | UFV40/41 | 2.1/2.2 | SAI_BERMEJO_PRINCIPAL | 441+932 | UPS Principal CCO | Centro | PK441+932 Centro | ENERGIA | UPS 200kVA N+1 | N/A | N/A | TBD | TBD |
 | UFV40/41 | 2.1/2.2 | SAI_BERMEJO_TALLER | 441+932 | UPS Taller Pesado | Derecha | PK441+932 Derecha | ENERGIA | UPS 60kVA | N/A | N/A | TBD | TBD |
@@ -667,7 +667,7 @@ Sistemas Críticos con Redundancia N+1:
 
 CCO Principal (B/Bermejo): CTC + Servidor PTC Central duplicados
 Alimentación eléctrica: Subestaciones + UPS + Generadores
-Fibra Óptica: Anillo redundante DWDM
+Fibra Óptica: Anillo redundante Red Vital IP
 TETRA: Modo DMO de respaldo
 
 

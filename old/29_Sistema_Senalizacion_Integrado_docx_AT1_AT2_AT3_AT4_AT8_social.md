@@ -9,7 +9,7 @@
 El Sistema de Senalización es un componente de seguridad vital, cuyas especificaciones se derivan de múltiples fuentes contractuales:
 - **AT1 (Alcance):** Define el alcance físico, incluyendo **5 enclavamientos electrónicos** y **146 pasos a nivel** con su tipología (Tabla 17, Cap. 4.5).
 - **AT2 (Operación):** Establece los requisitos de seguridad en la operación y el mantenimiento de los sistemas de senalización (Cap. 3.1.2, 6.4).
-- **AT3 (Especificaciones):** Detalla las normas técnicas ADIF (ET, NAS, NRS) para enclavamientos, senales, detectores y pasos a nivel (Cap. 8.1, 8.3).
+- **AT3 (Especificaciones):** Detalla las normas técnicas Estándar SICC (FRA/AREMA) (ET, NAS, NRS) para enclavamientos, senales, detectores y pasos a nivel (Cap. 8.1, 8.3).
 - **AT4 (Indicadores):** Exige una disponibilidad del 100% para los Pasos a Nivel tipo B y C (PNBC) y define indicadores de seguridad operativa.
 - **AT8 (Gestión Social):** Requiere programas de cultura vial y capacitación en seguridad ferroviaria, directamente ligados a la senalización en pasos a nivel.
 - **Cláusula 8.2 (Construcción):** Obliga a la instalación y puesta en marcha de todos los sistemas de senalización.
@@ -59,7 +59,7 @@ El diseno detallado de la senalización no puede avanzar hasta que este concepto
 
 ### 3.1 Filosofía de Senalización para Proyectos EPC
 Se propone una filosofía de senalización que optimiza la seguridad y la eficiencia de la construcción:
-- **Sistema de Bloqueo Automático con Contadores de Ejes:** En lugar de circuitos de vía tradicionales (sensibles a la humedad y condiciones del balasto), se utilizarán contadores de ejes (norma ADIF ED3M1) para la detección de trenes. Esto simplifica la instalación, reduce el mantenimiento y aumenta la fiabilidad, especialmente en el clima del corredor.
+- **Sistema de Bloqueo Automático con Posicionamiento GNSS/EOT Vital:** En lugar de Bloque Virtual Dinámico tradicionales (sensibles a la humedad y condiciones del balasto), se utilizarán Posicionamiento GNSS/EOT Vital (norma Estándar SICC (FRA/AREMA) ED3M1) para la detección de trenes. Esto simplifica la instalación, reduce el mantenimiento y aumenta la fiabilidad, especialmente en el clima del corredor.
 - **Enclavamientos Electrónicos (CBI) Modulares:** Los 5 enclavamientos (Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México) se disenarán con una arquitectura modular. Esto permite desarrollar y probar la lógica de control de forma independiente a las especificaciones finales de PTC (bloqueadas por AT3), preparando interfaces para PTC Virtual (FRA 236).
 - **Senalización LED de Alta Eficiencia:** Todas las senales luminosas utilizarán tecnología LED (ET 03.365.501.0), reduciendo el consumo energético y los costos de mantenimiento a largo plazo.
 
@@ -79,7 +79,7 @@ La siguiente matriz integra los requisitos de los diferentes apéndices en funci
 |---|---|---|:---:|
 | **5 Enclavamientos Electrónicos (ENCE)** | AT1, Tabla 17 | Diseno e implementación de CBI en Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México.<br>- **Disponibilidad 99.95% según AT4** | ⚠️ Condicionado |
 | **146 Pasos a Nivel (PN)** | AT1, Cap. 4.5 | Diseno e instalación de 9 PN Tipo C (barreras), 15 PN Tipo B (luz/sonido) y 122 PN Tipo A (fijas), cumpliendo NTC 4741. | ✅ Definido |
-| **Detección de Trenes** | AT3, Cap. 8.1 | Implementación de contadores de ejes (ET 03.365.310.6) como sistema principal de detección. | ✅ Definido |
+| **Detección de Trenes** | AT3, Cap. 8.1 | Implementación de Posicionamiento GNSS/EOT Vital (ET 03.365.310.6) como sistema principal de detección. | ✅ Definido |
 | **Disponibilidad PNBC 100%** | AT4 | Diseno de sistemas de protección de PN con redundancia en alimentación y comunicación para garantizar disponibilidad total. | 🔴 Bloqueado |
 | **Cultura Vial Ferroviaria** | AT8, Cap. 7.19 | Diseno de senalización en PN (especialmente Tipo A) coordinado con las campanas de capacitación y sensibilización comunitaria. | ✅ Definido |
 | **Integración con CTC** | AT3, Cap. 8.2 | Implementación de interfaz SCI-CC-A (NAS 830) en cada enclavamiento para la comunicación con el CTC. | ✅ Definido |
@@ -98,7 +98,7 @@ La siguiente matriz integra los requisitos de los diferentes apéndices en funci
 Este documento ha sido actualizado a la versión 4.0, estableciendo un **plan conceptual integrado para el Sistema de Senalización**. Define una filosofía de senalización clara y segura, integra los requisitos de 5 apéndices técnicos (AT1, AT2, AT3, AT4, AT8) y establece una estrategia de implementación por fases para los 146 pasos a nivel, mitigando riesgos operativos y de cronograma.
 
 ### 5.2 Acciones Requeridas para Mantener v4.0
-- **Validación de Filosofía:** El equipo de ingeniería debe validar la adopción de contadores de ejes como sistema principal de detección.
+- **Validación de Filosofía:** El equipo de ingeniería debe validar la adopción de Posicionamiento GNSS/EOT Vital como sistema principal de detección.
 - **Coordinación con Gestión Social:** El diseno de la senalización en Pasos a Nivel debe realizarse en talleres conjuntos con el equipo de Gestión Social para asegurar la coherencia con las campanas de AT8.
 
 ### 5.3 Criterios para Avance

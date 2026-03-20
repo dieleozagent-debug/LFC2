@@ -53,7 +53,7 @@
 - **PTC Embarcado:** 15 locomotoras con control automático PTC Virtual (FRA 236)
 - **ENCE:** 5 enclavamientos electrónicos en estaciones críticas
 - **TETRA + Red Vital IP / TETRA:** 37 estaciones colocalizadas con redundancia
-- **Fibra Óptica:** 526 km con doble anillo DWDM
+- **Fibra Óptica:** 526 km con doble anillo Red Vital IP
 - **Disponibilidad:** 99.95% para sistemas críticos según AT4
 
 ---
@@ -169,7 +169,7 @@
 |:----------|:---------------|:--------------|
 | **Tipo** | Backbone de alta capacidad | Red de datos |
 | **Longitud** | 526 km | Corredor + 10% reserva |
-| **Redundancia** | Doble anillo DWDM | Protección automática |
+| **Redundancia** | Doble anillo Red Vital IP | Protección automática |
 | **Disponibilidad** | 99.95% | Sistema crítico |
 | **Interfaces** | Todos los sistemas | Backbone integrado |
 

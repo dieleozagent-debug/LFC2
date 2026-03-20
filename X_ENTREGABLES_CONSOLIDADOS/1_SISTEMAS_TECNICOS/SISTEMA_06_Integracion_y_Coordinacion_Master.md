@@ -238,7 +238,7 @@
 #### **Sistemas de Comunicación Integrados:**
 - **TETRA Principal:** 37 estaciones con cobertura 100%
 - **Red Vital IP / TETRA Redundante:** 37 estaciones colocalizadas
-- **Fibra Óptica:** 526 km con doble anillo DWDM
+- **Fibra Óptica:** 526 km con doble anillo Red Vital IP
 - **Interfaces:** Ethernet industrial con redundancia
 
 ### **5.2 Especificaciones de Software de Integración**
@@ -341,7 +341,7 @@
 - **Protocolo:** EN 300 392 + FRA/AREMA 920-2
 
 #### **Fibra Óptica ↔ Todos los Sistemas:**
-- **Backbone:** 526 km con doble anillo DWDM
+- **Backbone:** 526 km con doble anillo Red Vital IP
 - **Capacidad:** 48 fibras G.652D por cable
 - **Redundancia:** Doble anillo con protección automática
 - **Protocolo:** Ethernet Gigabit con redundancia

@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SISTEMA 06 Integracion y Coordinacion EJECUTIVO - LFC STUDIO</title>
+    <title>SISTEMA 06 Integracion y Coordinacion
+EJECUTIVO - LFC STUDIO</title>
     <link rel="stylesheet" href="/IX_WBS_Planificacion/wbs-shared.css?v=6.3.2">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
@@ -147,25 +148,906 @@
     <div class="main-content-wrapper">
         <header class="premium-card">
             <div class="premium-header-content" style="text-align: center;">
-                <h1 id="adn-page-title" class="premium-title">SISTEMA 06 Integracion y Coordinacion EJECUTIVO</h1>
+                <h1 id="adn-page-title" class="premium-title">SISTEMA 06
+Integracion y Coordinacion EJECUTIVO</h1>
                 <p id="main-dns-subtitle" style="font-weight: 500; color: var(--text-dim); margin: 0;">REPORTE EJECUTIVO SICC | VERSIÓN DINÁMICA</p>
                 <div class="adn-version-tag-wrapper" style="margin-top: 10px;">
-                    <span style="background: var(--primary); color: #fff; padding: 3px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.5px;">v<span id="adn-version-tag">6.3.2</span></span>
+                    <span style="background: var(--primary); color: #fff; padding: 3px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.5px;">v<span id="adn-version-tag">6.3.3</span></span>
                 </div>
             </div>
         </header>
 
         <nav id="TOC">
             <h3>📍 ÍNDICE DE CONTENIDO</h3>
-            <!-- TOC Fallback -->
+            <ul>
+            <li><a href="#sistema-06-integración-y-coordinación"
+            id="toc-sistema-06-integración-y-coordinación">SISTEMA 06:
+            INTEGRACIÓN Y COORDINACIÓN</a>
+            <ul>
+            <li><a href="#documento-ejecutivo-de-ingeniería"
+            id="toc-documento-ejecutivo-de-ingeniería">Documento
+            Ejecutivo de Ingeniería</a></li>
+            <li><a href="#resumen-ejecutivo"
+            id="toc-resumen-ejecutivo">📊 RESUMEN EJECUTIVO</a>
+            <ul>
+            <li><a href="#qué-es-este-sistema-y-por-qué-importa"
+            id="toc-qué-es-este-sistema-y-por-qué-importa">Qué es este
+            sistema y por qué importa</a></li>
+            <li><a href="#alcance-en-números---justificación-técnica"
+            id="toc-alcance-en-números---justificación-técnica">Alcance
+            en números - JUSTIFICACIÓN TÉCNICA</a></li>
+            <li><a href="#hitos-críticos" id="toc-hitos-críticos">Hitos
+            críticos</a></li>
+            </ul></li>
+            <li><a
+            href="#criterios-de-diseno-y-justificaciones-técnicas"
+            id="toc-criterios-de-diseno-y-justificaciones-técnicas">🔍
+            CRITERIOS DE DISENO Y JUSTIFICACIONES TÉCNICAS</a>
+            <ul>
+            <li><a
+            href="#por-qué-25-interfaces-críticas-específicamente"
+            id="toc-por-qué-25-interfaces-críticas-específicamente">¿Por
+            qué 25 interfaces críticas específicamente?</a></li>
+            <li><a href="#por-qué-15-protocolos-de-interoperabilidad"
+            id="toc-por-qué-15-protocolos-de-interoperabilidad">¿Por qué
+            15 protocolos de interoperabilidad?</a></li>
+            <li><a href="#por-qué-12-apis-de-integración"
+            id="toc-por-qué-12-apis-de-integración">¿Por qué 12 APIs de
+            integración?</a></li>
+            <li><a href="#por-qué-gateway-de-integración"
+            id="toc-por-qué-gateway-de-integración">¿Por qué Gateway de
+            integración?</a></li>
+            <li><a href="#por-qué-cronograma-de-9-meses-por-fases"
+            id="toc-por-qué-cronograma-de-9-meses-por-fases">¿Por qué
+            cronograma de 9 meses por fases?</a></li>
+            <li><a href="#por-qué-interoperabilidad-con-fenoco"
+            id="toc-por-qué-interoperabilidad-con-fenoco">¿Por qué
+            interoperabilidad con FENOCO?</a></li>
+            <li><a href="#por-qué-disponibilidad-99.95"
+            id="toc-por-qué-disponibilidad-99.95">¿Por qué
+            disponibilidad 99.95%?</a></li>
+            </ul></li>
+            <li><a href="#función-y-propósito-del-sistema"
+            id="toc-función-y-propósito-del-sistema">🎯 FUNCIÓN Y
+            PROPÓSITO DEL SISTEMA</a>
+            <ul>
+            <li><a href="#qué-hace-este-sistema"
+            id="toc-qué-hace-este-sistema">¿Qué hace este
+            sistema?</a></li>
+            <li><a href="#por-qué-lo-necesitamos"
+            id="toc-por-qué-lo-necesitamos">¿Por qué lo
+            necesitamos?</a></li>
+            <li><a href="#cómo-se-integra-con-otros-sistemas"
+            id="toc-cómo-se-integra-con-otros-sistemas">¿Cómo se integra
+            con otros sistemas?</a></li>
+            </ul></li>
+            <li><a href="#componentes-principales"
+            id="toc-componentes-principales">🏗️ COMPONENTES
+            PRINCIPALES</a>
+            <ul>
+            <li><a href="#interfaces-entre-sistemas---comunicación"
+            id="toc-interfaces-entre-sistemas---comunicación">1.
+            Interfaces entre Sistemas - Comunicación</a></li>
+            <li><a href="#protocolos-de-comunicación---estándares"
+            id="toc-protocolos-de-comunicación---estándares">2.
+            Protocolos de Comunicación - Estándares</a></li>
+            <li><a href="#apis-de-integración---programación"
+            id="toc-apis-de-integración---programación">3. APIs de
+            Integración - Programación</a></li>
+            <li><a href="#sistemas-de-coordinación---gestión"
+            id="toc-sistemas-de-coordinación---gestión">4. Sistemas de
+            Coordinación - Gestión</a></li>
+            </ul></li>
+            <li><a href="#especificaciones-técnicas-clave"
+            id="toc-especificaciones-técnicas-clave">📐 ESPECIFICACIONES
+            TÉCNICAS CLAVE</a>
+            <ul>
+            <li><a href="#tabla-consolidada-de-especificaciones"
+            id="toc-tabla-consolidada-de-especificaciones">Tabla
+            consolidada de especificaciones</a></li>
+            <li><a href="#criterios-de-aceptación"
+            id="toc-criterios-de-aceptación">Criterios de
+            aceptación</a></li>
+            </ul></li>
+            <li><a href="#ubicación-y-despliegue"
+            id="toc-ubicación-y-despliegue">📍 UBICACIÓN Y
+            DESPLIEGUE</a>
+            <ul>
+            <li><a href="#mapa-de-despliegue"
+            id="toc-mapa-de-despliegue">Mapa de despliegue</a></li>
+            <li><a href="#tabla-de-sitios-principales"
+            id="toc-tabla-de-sitios-principales">Tabla de sitios
+            principales</a></li>
+            </ul></li>
+            <li><a href="#operación-y-mantenimiento"
+            id="toc-operación-y-mantenimiento">⚙️ OPERACIÓN Y
+            MANTENIMIENTO</a>
+            <ul>
+            <li><a href="#operación-normal"
+            id="toc-operación-normal">Operación normal</a></li>
+            <li><a href="#mantenimiento-preventivo"
+            id="toc-mantenimiento-preventivo">Mantenimiento
+            preventivo</a></li>
+            <li><a href="#respuesta-a-fallas"
+            id="toc-respuesta-a-fallas">Respuesta a fallas</a></li>
+            </ul></li>
+            <li><a href="#interfaces-con-otros-sistemas"
+            id="toc-interfaces-con-otros-sistemas">🔗 INTERFACES CON
+            OTROS SISTEMAS</a>
+            <ul>
+            <li><a href="#diagrama-de-interfaces"
+            id="toc-diagrama-de-interfaces">Diagrama de
+            interfaces</a></li>
+            <li><a href="#tabla-de-interfaces-críticas"
+            id="toc-tabla-de-interfaces-críticas">Tabla de interfaces
+            críticas</a></li>
+            </ul></li>
+            <li><a href="#riesgos-y-mitigaciones"
+            id="toc-riesgos-y-mitigaciones">⚠️ RIESGOS Y
+            MITIGACIONES</a></li>
+            <li><a href="#cumplimiento-contractual"
+            id="toc-cumplimiento-contractual">📋 CUMPLIMIENTO
+            CONTRACTUAL</a>
+            <ul>
+            <li><a href="#obligaciones-clave-del-contrato"
+            id="toc-obligaciones-clave-del-contrato">Obligaciones clave
+            del contrato</a></li>
+            <li><a href="#referencias-contractuales"
+            id="toc-referencias-contractuales">Referencias
+            contractuales</a></li>
+            </ul></li>
+            <li><a href="#documentación-de-soporte"
+            id="toc-documentación-de-soporte">📚 DOCUMENTACIÓN DE
+            SOPORTE</a>
+            <ul>
+            <li><a href="#documentos-técnicos-disponibles"
+            id="toc-documentos-técnicos-disponibles">Documentos técnicos
+            disponibles</a></li>
+            <li><a href="#para-más-información-técnica"
+            id="toc-para-más-información-técnica">Para más información
+            técnica</a></li>
+            </ul></li>
+            <li><a href="#contactos-y-responsables"
+            id="toc-contactos-y-responsables">📞 CONTACTOS Y
+            RESPONSABLES</a></li>
+            <li><a href="#indicadores-de-desempeno-kpis"
+            id="toc-indicadores-de-desempeno-kpis">📊 INDICADORES DE
+            DESEMPENO (KPIs)</a></li>
+            <li><a href="#decisiones-tecnicas-aplicadas"
+            id="toc-decisiones-tecnicas-aplicadas">📋 DECISIONES
+            TECNICAS APLICADAS</a>
+            <ul>
+            <li><a href="#consolidacion-general"
+            id="toc-consolidacion-general">Consolidacion
+            general</a></li>
+            </ul></li>
+            <li><a href="#control-de-versiones"
+            id="toc-control-de-versiones">🔄 CONTROL DE
+            VERSIONES</a></li>
+            </ul></li>
+            </ul>
         </nav>
 
         <article class="premium-doc-content">
-            ﻿# SISTEMA 06: INTEGRACIÓN Y COORDINACIÓN<br><h2>Documento Ejecutivo de Ingeniería</h2><br><br>---<br><br><h2>📊 RESUMEN EJECUTIVO</h2><br><br><h3>Qué es este sistema y por qué importa</h3><br>El Sistema de Integración y Coordinación es el <strong>"director de orquesta"</strong> del ferrocarril que coordina y sincroniza todos los sistemas técnicos para que trabajen en armonía. Es como el sistema nervioso central que asegura que todos los componentes del ferrocarril funcionen como un conjunto integrado y eficiente.<br><br><h3>Alcance en números - JUSTIFICACIÓN TÉCNICA</h3><br>- <strong>Inversión estimada:</strong> $25,000 millones COP<br>- <strong>25 interfaces críticas:</strong> CTC-PTC (FFFIS), TETRA-Red Vital IP / TETRA, ITS-Seguridad, Material Rodante-PTC<br>- <strong>15 protocolos de interoperabilidad:</strong> FRA/AREMA 920-2, FRA/AREMA 438, FRA/AREMA 930, FRA/AREMA 950, FFFIS, EN 50159<br>- <strong>12 APIs de integración:</strong> Comunicación entre sistemas y FENOCO<br>- <strong>Gateway de integración:</strong> Conversión de protocolos entre sistemas y red nacional<br>- <strong>Cronograma de integración:</strong> 9 meses por fases (civil-eléctrica-mecánica-sistemas)<br>- <strong>Cobertura:</strong> 100% de integración entre sistemas<br>- <strong>Disponibilidad requerida:</strong> 99.95% (sistema crítico para operación)<br><br><h3>Hitos críticos</h3><br>&nbsp;|&nbsp; Fase &nbsp;|&nbsp; Fecha &nbsp;|&nbsp; Estado &nbsp;|&nbsp;<br>&nbsp;|&nbsp;:-----&nbsp;|&nbsp;:------&nbsp;|&nbsp;:-------&nbsp;|&nbsp;<br>&nbsp;|&nbsp; Diseno Conceptual &nbsp;|&nbsp; Enero 2025 &nbsp;|&nbsp; ✅ Completado &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Desarrollo Interfaces &nbsp;|&nbsp; Marzo 2025 &nbsp;|&nbsp; ⏳ En progreso &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Desarrollo Protocolos &nbsp;|&nbsp; Abril 2025 &nbsp;|&nbsp; ⏳ En progreso &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Comisionamiento &nbsp;|&nbsp; Mayo 2025 &nbsp;|&nbsp; ❌ Pendiente &nbsp;|&nbsp;<br><br>---<br><br><h2>🔍 CRITERIOS DE DISENO Y JUSTIFICACIONES TÉCNICAS</h2><br><br><h3>¿Por qué 25 interfaces críticas específicamente?</h3><br><strong>Desglose de Interfaces por Sistema:</strong><br>&nbsp;|&nbsp; Sistema &nbsp;|&nbsp; Interfaces &nbsp;|&nbsp; Justificación &nbsp;|&nbsp;<br>&nbsp;|&nbsp;:--------&nbsp;|&nbsp;:-----------&nbsp;|&nbsp;:--------------&nbsp;|&nbsp;<br>&nbsp;|&nbsp; <strong>CTC-PTC</strong> &nbsp;|&nbsp; 5 interfaces &nbsp;|&nbsp; Control automático de trenes (FFFIS) &nbsp;|&nbsp;<br>&nbsp;|&nbsp; <strong>TETRA-Red Vital IP / TETRA</strong> &nbsp;|&nbsp; 4 interfaces &nbsp;|&nbsp; Comunicaciones redundantes &nbsp;|&nbsp;<br>&nbsp;|&nbsp; <strong>ITS-Seguridad</strong> &nbsp;|&nbsp; 3 interfaces &nbsp;|&nbsp; Monitoreo y control de seguridad &nbsp;|&nbsp;<br>&nbsp;|&nbsp; <strong>Material Rodante-PTC</strong> &nbsp;|&nbsp; 4 interfaces &nbsp;|&nbsp; Control embarcado &nbsp;|&nbsp;<br>&nbsp;|&nbsp; <strong>Infraestructura</strong> &nbsp;|&nbsp; 6 interfaces &nbsp;|&nbsp; Coordinación de infraestructura &nbsp;|&nbsp;<br>&nbsp;|&nbsp; <strong>FENOCO</strong> &nbsp;|&nbsp; 3 interfaces &nbsp;|&nbsp; Interoperabilidad nacional &nbsp;|&nbsp;<br><br><strong>Total:</strong> 25 interfaces críticas para operación integrada<br><br><h3>¿Por qué 15 protocolos de interoperabilidad?</h3><br><strong>Justificación de Protocolos:</strong><br>&nbsp;|&nbsp; Protocolo &nbsp;|&nbsp; Función &nbsp;|&nbsp; Justificación &nbsp;|&nbsp;<br>&nbsp;|&nbsp;:----------&nbsp;|&nbsp;:--------&nbsp;|&nbsp;:--------------&nbsp;|&nbsp;<br>&nbsp;|&nbsp; <strong>FRA/AREMA 920-2</strong> &nbsp;|&nbsp; Comunicaciones Red Vital IP / TETRA &nbsp;|&nbsp; Estándar internacional ferroviario &nbsp;|&nbsp;<br>&nbsp;|&nbsp; <strong>FRA/AREMA 438</strong> &nbsp;|&nbsp; Senalización ferroviaria &nbsp;|&nbsp; Compatibilidad con FENOCO &nbsp;|&nbsp;<br>&nbsp;|&nbsp; <strong>FRA/AREMA 930</strong> &nbsp;|&nbsp; Sistemas de senalización &nbsp;|&nbsp; Interoperabilidad de sistemas &nbsp;|&nbsp;<br>&nbsp;|&nbsp; <strong>FRA/AREMA 950</strong> &nbsp;|&nbsp; Control de tráfico &nbsp;|&nbsp; Coordinación entre centros &nbsp;|&nbsp;<br>&nbsp;|&nbsp; <strong>FFFIS</strong> &nbsp;|&nbsp; Interfaces CTC-PTC &nbsp;|&nbsp; Especificación de interfaces &nbsp;|&nbsp;<br>&nbsp;|&nbsp; <strong>EN 50159</strong> &nbsp;|&nbsp; Seguridad comunicaciones &nbsp;|&nbsp; Seguridad funcional &nbsp;|&nbsp;<br><br><strong>Total:</strong> 15 protocolos para interoperabilidad completa<br><br><h3>¿Por qué 12 APIs de integración?</h3><br><strong>Justificación de APIs:</strong><br>- <strong>3 APIs FENOCO:</strong> Interoperabilidad con red nacional<br>- <strong>3 APIs CTC:</strong> Control de tráfico centralizado<br>- <strong>2 APIs ITS:</strong> Sistemas inteligentes de transporte<br>- <strong>2 APIs Seguridad:</strong> Sistemas de seguridad integrados<br>- <strong>2 APIs Material Rodante:</strong> Control embarcado<br><br><h3>¿Por qué Gateway de integración?</h3><br><strong>Justificación Técnica:</strong><br>- <strong>Conversión de protocolos:</strong> Entre sistemas locales y FENOCO<br>- <strong>Traducción de datos:</strong> Formatos compatibles entre sistemas<br>- <strong>Seguridad:</strong> Autenticación y cifrado de comunicaciones<br>- <strong>Redundancia:</strong> Múltiples rutas de comunicación<br>- <strong>Monitoreo:</strong> Supervisión de interfaces críticas<br><br><h3>¿Por qué cronograma de 9 meses por fases?</h3><br><strong>Justificación de Fases:</strong><br>&nbsp;|&nbsp; Fase &nbsp;|&nbsp; Duración &nbsp;|&nbsp; Justificación &nbsp;|&nbsp;<br>&nbsp;|&nbsp;:-----&nbsp;|&nbsp;:---------&nbsp;|&nbsp;:--------------&nbsp;|&nbsp;<br>&nbsp;|&nbsp; <strong>Civil-Eléctrica</strong> &nbsp;|&nbsp; 2 meses &nbsp;|&nbsp; Base física y alimentación &nbsp;|&nbsp;<br>&nbsp;|&nbsp; <strong>Eléctrica-Mecánica</strong> &nbsp;|&nbsp; 2 meses &nbsp;|&nbsp; Sistemas de potencia &nbsp;|&nbsp;<br>&nbsp;|&nbsp; <strong>Mecánica-Sistemas</strong> &nbsp;|&nbsp; 1 mes &nbsp;|&nbsp; Integración de sistemas &nbsp;|&nbsp;<br>&nbsp;|&nbsp; <strong>Sistemas de Datos</strong> &nbsp;|&nbsp; 1 mes &nbsp;|&nbsp; Comunicaciones y datos &nbsp;|&nbsp;<br>&nbsp;|&nbsp; <strong>Monitoreo</strong> &nbsp;|&nbsp; 1 mes &nbsp;|&nbsp; Sistemas de supervisión &nbsp;|&nbsp;<br>&nbsp;|&nbsp; <strong>Control</strong> &nbsp;|&nbsp; 1 mes &nbsp;|&nbsp; Control centralizado &nbsp;|&nbsp;<br>&nbsp;|&nbsp; <strong>Pruebas</strong> &nbsp;|&nbsp; 1 mes &nbsp;|&nbsp; Validación completa &nbsp;|&nbsp;<br><br><h3>¿Por qué interoperabilidad con FENOCO?</h3><br><strong>Justificación Contractual (Cl13.1):</strong><br>- <strong>Red ferroviaria nacional:</strong> Continuidad de operación<br>- <strong>Compatibilidad operativa:</strong> Material rodante dual<br>- <strong>Protocolos FRA/AREMA:</strong> Estándares internacionales<br>- <strong>Coordinación:</strong> Gestión integrada de tráfico<br>- <strong>Eficiencia:</strong> Optimización de recursos nacionales<br><br><h3>¿Por qué disponibilidad 99.95%?</h3><br><strong>Justificación Técnica:</strong><br>- <strong>Sistema crítico:</strong> Fallo afecta operación completa<br>- <strong>Dependencias:</strong> Múltiples sistemas dependen de integración<br>- <strong>Redundancia:</strong> Múltiples rutas de comunicación<br>- <strong>Respaldo:</strong> Sistemas de respaldo automático<br>- <strong>Monitoreo:</strong> Supervisión continua de interfaces<br><br>---<br><br><h2>🎯 FUNCIÓN Y PROPÓSITO DEL SISTEMA</h2><br><br><h3>¿Qué hace este sistema?</h3><br>El Sistema de Integración y Coordinación proporciona <strong>coordinación integral</strong> entre todos los sistemas:<br>- <strong>Interfaces:</strong> Comunicación entre sistemas técnicos<br>- <strong>Protocolos:</strong> Estándares de comunicación<br>- <strong>APIs:</strong> Interfaces de programación para integración<br>- <strong>Coordinación:</strong> Gestión de dependencias y sincronización<br><br><h3>¿Por qué lo necesitamos?</h3><br>- <strong>Integración:</strong> Coordinación entre todos los sistemas<br>- <strong>Eficiencia:</strong> Optimización del funcionamiento conjunto<br>- <strong>Mantenimiento:</strong> Simplificación de operación y mantenimiento<br>- <strong>Escalabilidad:</strong> Facilidad para futuras expansiones<br><br><h3>¿Cómo se integra con otros sistemas?</h3><br>```<br>[Control y Senalización] ←→ [Integración y Coordinación] ←→ [Telecomunicaciones]<br>                                    ↓<br>[ITS y Seguridad] ←→ [Integración y Coordinación] ←→ [Material Rodante]<br>                                    ↓<br>[Infraestructura] ←→ [Integración y Coordinación] ←→ [Sistemas Externos]<br>```<br><br>---<br><br><h2>🏗️ COMPONENTES PRINCIPALES</h2><br><br><h3>1. Interfaces entre Sistemas - Comunicación</h3><br><strong>Propósito:</strong> Comunicación bidireccional entre todos los sistemas técnicos<br><br><strong>Componentes instalados:</strong><br>&nbsp;|&nbsp; Componente &nbsp;|&nbsp; Cantidad &nbsp;|&nbsp; Especificación &nbsp;|&nbsp; Estado &nbsp;|&nbsp;<br>&nbsp;|&nbsp;:-----------&nbsp;|&nbsp;:---------&nbsp;|&nbsp;:---------------&nbsp;|&nbsp;:-------&nbsp;|&nbsp;<br>&nbsp;|&nbsp; Interfaces CTC-Telecom &nbsp;|&nbsp; 5 unidades &nbsp;|&nbsp; Protocolo FFFIS &nbsp;|&nbsp; ⏳ En desarrollo &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Interfaces CTC-ITS &nbsp;|&nbsp; 3 unidades &nbsp;|&nbsp; Protocolo IEC 61850 &nbsp;|&nbsp; ⏳ En desarrollo &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Interfaces CTC-Material &nbsp;|&nbsp; 2 unidades &nbsp;|&nbsp; Protocolo FRA/AREMA &nbsp;|&nbsp; ⏳ En desarrollo &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Interfaces Telecom-ITS &nbsp;|&nbsp; 4 unidades &nbsp;|&nbsp; Protocolo TETRA &nbsp;|&nbsp; ⏳ En desarrollo &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Interfaces Material-Infraestructura &nbsp;|&nbsp; 6 unidades &nbsp;|&nbsp; Protocolo CAN Bus &nbsp;|&nbsp; ⏳ En desarrollo &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Interfaces Sistemas Externos &nbsp;|&nbsp; 5 unidades &nbsp;|&nbsp; Protocolos estándar &nbsp;|&nbsp; ⏳ En desarrollo &nbsp;|&nbsp;<br><br><strong>Estado general:</strong> 🟡 En progreso<br><br><h3>2. Protocolos de Comunicación - Estándares</h3><br><strong>Propósito:</strong> Estándares de comunicación entre sistemas<br><br><strong>Componentes instalados:</strong><br>&nbsp;|&nbsp; Componente &nbsp;|&nbsp; Cantidad &nbsp;|&nbsp; Especificación &nbsp;|&nbsp; Estado &nbsp;|&nbsp;<br>&nbsp;|&nbsp;:-----------&nbsp;|&nbsp;:---------&nbsp;|&nbsp;:---------------&nbsp;|&nbsp;:-------&nbsp;|&nbsp;<br>&nbsp;|&nbsp; Protocolo FFFIS &nbsp;|&nbsp; 1 unidad &nbsp;|&nbsp; Comunicación CTC-PTC &nbsp;|&nbsp; ✅ Disponible &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Protocolo FRA/AREMA &nbsp;|&nbsp; 1 unidad &nbsp;|&nbsp; Comunicación ferroviaria &nbsp;|&nbsp; ✅ Disponible &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Protocolo IEC 61850 &nbsp;|&nbsp; 1 unidad &nbsp;|&nbsp; Comunicación eléctrica &nbsp;|&nbsp; ✅ Disponible &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Protocolo TETRA &nbsp;|&nbsp; 1 unidad &nbsp;|&nbsp; Comunicación radio &nbsp;|&nbsp; ✅ Disponible &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Protocolo Red Vital IP / TETRA &nbsp;|&nbsp; 1 unidad &nbsp;|&nbsp; Comunicación móvil &nbsp;|&nbsp; ✅ Disponible &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Protocolo CAN Bus &nbsp;|&nbsp; 1 unidad &nbsp;|&nbsp; Comunicación embarcada &nbsp;|&nbsp; ✅ Disponible &nbsp;|&nbsp;<br><br><strong>Estado general:</strong> 🟢 En cronograma<br><br><h3>3. APIs de Integración - Programación</h3><br><strong>Propósito:</strong> Interfaces de programación para integración de sistemas<br><br><strong>Componentes instalados:</strong><br>&nbsp;|&nbsp; Componente &nbsp;|&nbsp; Cantidad &nbsp;|&nbsp; Especificación &nbsp;|&nbsp; Estado &nbsp;|&nbsp;<br>&nbsp;|&nbsp;:-----------&nbsp;|&nbsp;:---------&nbsp;|&nbsp;:---------------&nbsp;|&nbsp;:-------&nbsp;|&nbsp;<br>&nbsp;|&nbsp; API Control y Senalización &nbsp;|&nbsp; 1 unidad &nbsp;|&nbsp; REST API &nbsp;|&nbsp; ⏳ En desarrollo &nbsp;|&nbsp;<br>&nbsp;|&nbsp; API Telecomunicaciones &nbsp;|&nbsp; 1 unidad &nbsp;|&nbsp; REST API &nbsp;|&nbsp; ⏳ En desarrollo &nbsp;|&nbsp;<br>&nbsp;|&nbsp; API ITS y Seguridad &nbsp;|&nbsp; 1 unidad &nbsp;|&nbsp; REST API &nbsp;|&nbsp; ⏳ En desarrollo &nbsp;|&nbsp;<br>&nbsp;|&nbsp; API Material Rodante &nbsp;|&nbsp; 1 unidad &nbsp;|&nbsp; REST API &nbsp;|&nbsp; ⏳ En desarrollo &nbsp;|&nbsp;<br>&nbsp;|&nbsp; API Infraestructura &nbsp;|&nbsp; 1 unidad &nbsp;|&nbsp; REST API &nbsp;|&nbsp; ⏳ En desarrollo &nbsp;|&nbsp;<br>&nbsp;|&nbsp; API Sistemas Externos &nbsp;|&nbsp; 1 unidad &nbsp;|&nbsp; REST API &nbsp;|&nbsp; ⏳ En desarrollo &nbsp;|&nbsp;<br><br><strong>Estado general:</strong> 🟡 En progreso<br><br><h3>4. Sistemas de Coordinación - Gestión</h3><br><strong>Propósito:</strong> Coordinación y gestión de dependencias entre sistemas<br><br><strong>Componentes instalados:</strong><br>&nbsp;|&nbsp; Componente &nbsp;|&nbsp; Cantidad &nbsp;|&nbsp; Especificación &nbsp;|&nbsp; Estado &nbsp;|&nbsp;<br>&nbsp;|&nbsp;:-----------&nbsp;|&nbsp;:---------&nbsp;|&nbsp;:---------------&nbsp;|&nbsp;:-------&nbsp;|&nbsp;<br>&nbsp;|&nbsp; Gestor de dependencias &nbsp;|&nbsp; 1 unidad &nbsp;|&nbsp; Sistema centralizado &nbsp;|&nbsp; ⏳ En desarrollo &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Coordinador de eventos &nbsp;|&nbsp; 1 unidad &nbsp;|&nbsp; Gestión de eventos &nbsp;|&nbsp; ⏳ En desarrollo &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Sincronizador de sistemas &nbsp;|&nbsp; 1 unidad &nbsp;|&nbsp; Sincronización temporal &nbsp;|&nbsp; ⏳ En desarrollo &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Monitor de integridad &nbsp;|&nbsp; 1 unidad &nbsp;|&nbsp; Monitoreo de interfaces &nbsp;|&nbsp; ⏳ En desarrollo &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Gestor de configuración &nbsp;|&nbsp; 1 unidad &nbsp;|&nbsp; Configuración centralizada &nbsp;|&nbsp; ⏳ En desarrollo &nbsp;|&nbsp;<br><br><strong>Estado general:</strong> 🟡 En progreso<br><br>---<br><br><h2>📐 ESPECIFICACIONES TÉCNICAS CLAVE</h2><br><br><h3>Tabla consolidada de especificaciones</h3><br>&nbsp;|&nbsp; Parámetro &nbsp;|&nbsp; Valor &nbsp;|&nbsp; Estándar Aplicable &nbsp;|&nbsp;<br>&nbsp;|&nbsp;:----------&nbsp;|&nbsp;:------&nbsp;|&nbsp;:-------------------&nbsp;|&nbsp;<br>&nbsp;|&nbsp; Disponibilidad interfaces &nbsp;|&nbsp; 99.95% &nbsp;|&nbsp; EN 50126 &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Tiempo de respuesta &nbsp;|&nbsp; < 100ms &nbsp;|&nbsp; EN 50126 &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Ancho de banda &nbsp;|&nbsp; 1 Gbps &nbsp;|&nbsp; EN 50126 &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Latencia máxima &nbsp;|&nbsp; 50ms &nbsp;|&nbsp; EN 50126 &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Disponibilidad coordinación &nbsp;|&nbsp; 99.95% &nbsp;|&nbsp; EN 50126 &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Sincronización temporal &nbsp;|&nbsp; < 1ms &nbsp;|&nbsp; EN 50126 &nbsp;|&nbsp;<br><br><h3>Criterios de aceptación</h3><br>- ✅ 25 interfaces operativas entre sistemas<br>- ✅ 15 protocolos de comunicación implementados<br>- ✅ 12 APIs de integración funcionales<br>- ✅ Disponibilidad 99.95% de coordinación<br>- ✅ Tiempo de respuesta < 100ms<br><br>---<br><br><h2>📍 UBICACIÓN Y DESPLIEGUE</h2><br><br><h3>Mapa de despliegue</h3><br>El sistema de integración y coordinación se despliega centralmente en el CCO La Dorada, con componentes distribuidos en todas las estaciones y sistemas del corredor.<br><br><h3>Tabla de sitios principales</h3><br>&nbsp;|&nbsp; Sitio &nbsp;|&nbsp; Componentes &nbsp;|&nbsp; Capacidad &nbsp;|&nbsp; Estado &nbsp;|&nbsp;<br>&nbsp;|&nbsp;:------&nbsp;|&nbsp;:------------&nbsp;|&nbsp;:-----------&nbsp;|&nbsp;:-------&nbsp;|&nbsp;<br>&nbsp;|&nbsp; CCO La Dorada &nbsp;|&nbsp; Centro de coordinación, APIs, gestión &nbsp;|&nbsp; 100 interfaces &nbsp;|&nbsp; ⏳ En desarrollo &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Estaciones ENCE &nbsp;|&nbsp; Interfaces locales, protocolos &nbsp;|&nbsp; 5 interfaces &nbsp;|&nbsp; ⏳ En desarrollo &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Estaciones principales &nbsp;|&nbsp; Interfaces de integración &nbsp;|&nbsp; 15 interfaces &nbsp;|&nbsp; ⏳ En desarrollo &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Sistemas embarcados &nbsp;|&nbsp; Interfaces móviles &nbsp;|&nbsp; 25 interfaces &nbsp;|&nbsp; ⏳ En desarrollo &nbsp;|&nbsp;<br><br>---<br><br><h2>⚙️ OPERACIÓN Y MANTENIMIENTO</h2><br><br><h3>Operación normal</h3><br>El sistema de integración y coordinación opera 24/7 proporcionando coordinación continua entre todos los sistemas técnicos, con monitoreo automático de la integridad de las interfaces.<br><br><h3>Mantenimiento preventivo</h3><br>- <strong>Diario:</strong> Verificación de estado de interfaces y protocolos<br>- <strong>Semanal:</strong> Pruebas de comunicación entre sistemas<br>- <strong>Mensual:</strong> Actualización de protocolos y APIs<br>- <strong>Trimestral:</strong> Mantenimiento mayor de sistemas de coordinación<br><br><h3>Respuesta a fallas</h3><br>1. <strong>Detección automática</strong> de fallas en interfaces<br>2. <strong>Notificación inmediata</strong> al personal de mantenimiento<br>3. <strong>Conmutación automática</strong> a interfaces de respaldo<br>4. <strong>Reparación</strong> según procedimientos establecidos<br>5. <strong>Verificación</strong> de funcionamiento normal<br><br>---<br><br><h2>🔗 INTERFACES CON OTROS SISTEMAS</h2><br><br><h3>Diagrama de interfaces</h3><br>```<br>[Control y Senalización] ←→ [Integración y Coordinación] ←→ [Telecomunicaciones]<br>                                    ↓<br>[ITS y Seguridad] ←→ [Integración y Coordinación] ←→ [Material Rodante]<br>                                    ↓<br>[Infraestructura] ←→ [Integración y Coordinación] ←→ [Sistemas Externos]<br>```<br><br><h3>Tabla de interfaces críticas</h3><br>&nbsp;|&nbsp; Sistema &nbsp;|&nbsp; Tipo de Interfaz &nbsp;|&nbsp; Criticidad &nbsp;|&nbsp; Responsable &nbsp;|&nbsp;<br>&nbsp;|&nbsp;:--------&nbsp;|&nbsp;:-----------------&nbsp;|&nbsp;:-----------&nbsp;|&nbsp;:------------&nbsp;|&nbsp;<br>&nbsp;|&nbsp; Control y Senalización &nbsp;|&nbsp; CTC Virtual &nbsp;|&nbsp; Alta &nbsp;|&nbsp; EPC Sistemas &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Telecomunicaciones &nbsp;|&nbsp; TETRA + Red Vital IP / TETRA &nbsp;|&nbsp; Alta &nbsp;|&nbsp; EPC Telecomunicaciones &nbsp;|&nbsp;<br>&nbsp;|&nbsp; ITS y Seguridad &nbsp;|&nbsp; CCTV + Monitoreo &nbsp;|&nbsp; Media &nbsp;|&nbsp; EPC Sistemas &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Material Rodante &nbsp;|&nbsp; PTC Embarcado &nbsp;|&nbsp; Alta &nbsp;|&nbsp; EPC Sistemas &nbsp;|&nbsp;<br><br>---<br><br><h2>⚠️ RIESGOS Y MITIGACIONES</h2><br><br>&nbsp;|&nbsp; Riesgo &nbsp;|&nbsp; Probabilidad &nbsp;|&nbsp; Impacto &nbsp;|&nbsp; Mitigación &nbsp;|&nbsp; Estado &nbsp;|&nbsp;<br>&nbsp;|&nbsp;:-------&nbsp;|&nbsp;:-------------&nbsp;|&nbsp;:---------&nbsp;|&nbsp;:-----------&nbsp;|&nbsp;:-------&nbsp;|&nbsp;<br>&nbsp;|&nbsp; Fallo de interfaces críticas &nbsp;|&nbsp; Baja &nbsp;|&nbsp; Alto &nbsp;|&nbsp; Redundancia N+1 &nbsp;|&nbsp; ✅ Mitigado &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Fallo de protocolos &nbsp;|&nbsp; Baja &nbsp;|&nbsp; Alto &nbsp;|&nbsp; Protocolos de respaldo &nbsp;|&nbsp; ✅ Mitigado &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Fallo de coordinación &nbsp;|&nbsp; Baja &nbsp;|&nbsp; Alto &nbsp;|&nbsp; Sistemas de respaldo &nbsp;|&nbsp; ✅ Mitigado &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Fallo de sincronización &nbsp;|&nbsp; Baja &nbsp;|&nbsp; Medio &nbsp;|&nbsp; Sistemas de sincronización redundantes &nbsp;|&nbsp; ✅ Mitigado &nbsp;|&nbsp;<br><br>---<br><br><h2>📋 CUMPLIMIENTO CONTRACTUAL</h2><br><br><h3>Obligaciones clave del contrato</h3><br>- ✅ <strong>AT1 - Integración:</strong> Integración completa entre sistemas - Cumplida<br>- ✅ <strong>AT2 - Operación:</strong> Operación integrada con disponibilidad 99.95% - Cumplida<br>- ✅ <strong>AT3 - Especificaciones:</strong> Especificaciones técnicas de integración - Cumplida<br>- ✅ <strong>AT4 - Indicadores:</strong> Disponibilidad 99.95% - Cumplida<br>- ⏳ <strong>AT8 - Operaciones:</strong> Procedimientos operacionales integrados - En progreso<br>- ❌ <strong>AT9 - Cronograma:</strong> Plan de implementación por fases - Pendiente<br><br><h3>Referencias contractuales</h3><br>- <strong>Apéndice Técnico 1:</strong> Alcance del proyecto - Integración y coordinación<br>- <strong>Apéndice Técnico 2:</strong> Operación y mantenimiento - Disponibilidad 99.95%<br>- <strong>Apéndice Técnico 3:</strong> Especificaciones generales - Integración y coordinación<br>- <strong>Apéndice Técnico 4:</strong> Indicadores de desempeno - Disponibilidad 99.95%<br><br>---<br><br><h2>📚 DOCUMENTACIÓN DE SOPORTE</h2><br><br><h3>Documentos técnicos disponibles</h3><br>&nbsp;|&nbsp; Documento &nbsp;|&nbsp; Fase &nbsp;|&nbsp; Versión &nbsp;|&nbsp; Ubicación &nbsp;|&nbsp;<br>&nbsp;|&nbsp;:----------&nbsp;|&nbsp;:-----&nbsp;|&nbsp;:--------&nbsp;|&nbsp;:----------&nbsp;|&nbsp;<br>&nbsp;|&nbsp; SISTEMA_06_Integracion_y_Coordinacion_Master.md &nbsp;|&nbsp; Consolidado &nbsp;|&nbsp; v1.0 &nbsp;|&nbsp; Carpeta X &nbsp;|&nbsp;<br>&nbsp;|&nbsp; V.5.1_Plan_Integracion_Sistemas_COMPLETO.md &nbsp;|&nbsp; Detalle &nbsp;|&nbsp; v5.0 &nbsp;|&nbsp; V. Ingeniería &nbsp;|&nbsp;<br>&nbsp;|&nbsp; 41_Interfaces_Sistemas_MEJORADO.md &nbsp;|&nbsp; Detalle &nbsp;|&nbsp; v5.0 &nbsp;|&nbsp; IV. Ingeniería &nbsp;|&nbsp;<br>&nbsp;|&nbsp; 6.5_Manual_OM_Integrado_v5.0.md &nbsp;|&nbsp; Operación &nbsp;|&nbsp; v5.0 &nbsp;|&nbsp; VI. Operación &nbsp;|&nbsp;<br><br><h3>Para más información técnica</h3><br>Los documentos técnicos detallados están disponibles en la Carpeta X del proyecto. Para información específica sobre implementación, contactar al equipo de EPC Sistemas.<br><br>---<br><br><h2>📞 CONTACTOS Y RESPONSABLES</h2><br><br>&nbsp;|&nbsp; Rol &nbsp;|&nbsp; Responsable &nbsp;|&nbsp; Contacto &nbsp;|&nbsp;<br>&nbsp;|&nbsp;:----&nbsp;|&nbsp;:------------&nbsp;|&nbsp;:---------&nbsp;|&nbsp;<br>&nbsp;|&nbsp; Líder Técnico Integración y Coordinación &nbsp;|&nbsp; [Nombre] &nbsp;|&nbsp; [Email/Tel] &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Coordinador EPC Sistemas &nbsp;|&nbsp; [Nombre] &nbsp;|&nbsp; [Email/Tel] &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Responsable Interfaces &nbsp;|&nbsp; [Nombre] &nbsp;|&nbsp; [Email/Tel] &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Responsable Protocolos &nbsp;|&nbsp; [Nombre] &nbsp;|&nbsp; [Email/Tel] &nbsp;|&nbsp;<br><br>---<br><br><h2>📊 INDICADORES DE DESEMPENO (KPIs)</h2><br><br>&nbsp;|&nbsp; Indicador &nbsp;|&nbsp; Meta &nbsp;|&nbsp; Actual &nbsp;|&nbsp; Estado &nbsp;|&nbsp;<br>&nbsp;|&nbsp;:----------&nbsp;|&nbsp;:-----&nbsp;|&nbsp;:-------&nbsp;|&nbsp;:-------&nbsp;|&nbsp;<br>&nbsp;|&nbsp; Disponibilidad Interfaces &nbsp;|&nbsp; 99.95% &nbsp;|&nbsp; 99.98% &nbsp;|&nbsp; 🟢 Excelente &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Disponibilidad Protocolos &nbsp;|&nbsp; 99.95% &nbsp;|&nbsp; 99.97% &nbsp;|&nbsp; 🟢 Excelente &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Disponibilidad APIs &nbsp;|&nbsp; 99.95% &nbsp;|&nbsp; 99.96% &nbsp;|&nbsp; 🟢 Excelente &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Tiempo de Respuesta &nbsp;|&nbsp; < 100ms &nbsp;|&nbsp; 75ms &nbsp;|&nbsp; 🟢 Excelente &nbsp;|&nbsp;<br>&nbsp;|&nbsp; Sincronización Temporal &nbsp;|&nbsp; < 1ms &nbsp;|&nbsp; 0.8ms &nbsp;|&nbsp; 🟢 Excelente &nbsp;|&nbsp;<br><br>---<br><br><h2>📋 DECISIONES TECNICAS APLICADAS</h2><br><br><h3>Consolidacion general</h3><br>- Estado: ✅ Ver WBS actualizada Cap. 06<br>- Fuente: Cocina I-VI consolidada<br><br>---<br><br><h2>🔄 CONTROL DE VERSIONES</h2><br><br>&nbsp;|&nbsp; Versión &nbsp;|&nbsp; Fecha &nbsp;|&nbsp; Cambios Principales &nbsp;|&nbsp; Responsable &nbsp;|&nbsp;<br>&nbsp;|&nbsp;:--------&nbsp;|&nbsp;:------&nbsp;|&nbsp;:--------------------&nbsp;|&nbsp;:------------&nbsp;|&nbsp;<br>&nbsp;|&nbsp; 1.0 &nbsp;|&nbsp; Enero 2025 &nbsp;|&nbsp; Versión inicial ejecutiva &nbsp;|&nbsp; Administrador Contractual EPC &nbsp;|&nbsp;<br><br>---<br><br><strong>Documento preparado por:</strong> Administrador Contractual EPC  <br><strong>Última actualización:</strong> Enero 2025  <br><strong>Próxima revisión:</strong> Febrero 2025  <br><strong>Basado en:</strong> SISTEMA_06_Integracion_y_Coordinacion_Master.md v1.0<br><br><br><br><!-- COCINADO DESDE FUENTES: 09/10/2025 17:30 &nbsp;|&nbsp; Fuentes: 1 &nbsp;|&nbsp; DTs: 1 --><br><br><br><br><!-- COCINADO LFC-CLI v1.0 &nbsp;|&nbsp; Fecha: 3/13/2026, 1:56:38 PM &nbsp;|&nbsp; SSOT: DBCD_CRITERIA.md --><br><br><br><!-- COCINADO LFC-CLI v2.0 &nbsp;|&nbsp; SICC Pureza: AUDIT_REQUIRED &nbsp;|&nbsp; Fecha: 3/13/2026, 8:02:06 PM --><br><br><br><!-- COCINADO LFC-CLI v2.2 &nbsp;|&nbsp; SICC Pureza: 100% &nbsp;|&nbsp; Fecha: 3/13/2026, 8:05:15 PM --><br><br><br><!-- COCINADO LFC-CLI v5.0 Masterchef &nbsp;|&nbsp; SICC Pureza: AUDIT_REQUIRED &nbsp;|&nbsp; Fecha: 3/13/2026, 8:18:53 PM --><br><br><br><!-- COCINADO LFC-CLI v6.0 DBCI &nbsp;|&nbsp; SICC Pureza: AUDIT_REQUIRED &nbsp;|&nbsp; Fecha: 3/13/2026, 8:25:10 PM &nbsp;|&nbsp; Versión: v6.0 Masterchef --><br>
+            <h1 id="sistema-06-integración-y-coordinación">SISTEMA 06:
+            INTEGRACIÓN Y COORDINACIÓN</h1>
+            <h2 id="documento-ejecutivo-de-ingeniería">Documento
+            Ejecutivo de Ingeniería</h2>
+            <hr />
+            <h2 id="resumen-ejecutivo">📊 RESUMEN EJECUTIVO</h2>
+            <h3 id="qué-es-este-sistema-y-por-qué-importa">Qué es este
+            sistema y por qué importa</h3>
+            <p>El Sistema de Integración y Coordinación es el
+            <strong>“director de orquesta”</strong> del ferrocarril que
+            coordina y sincroniza todos los sistemas técnicos para que
+            trabajen en armonía. Es como el sistema nervioso central que
+            asegura que todos los componentes del ferrocarril funcionen
+            como un conjunto integrado y eficiente.</p>
+            <h3 id="alcance-en-números---justificación-técnica">Alcance
+            en números - JUSTIFICACIÓN TÉCNICA</h3>
+            <ul>
+            <li><strong>Inversión estimada:</strong> $25,000 millones
+            COP</li>
+            <li><strong>25 interfaces críticas:</strong> CTC-PTC
+            (FFFIS), TETRA-Red Vital IP / TETRA, ITS-Seguridad, Material
+            Rodante-PTC</li>
+            <li><strong>15 protocolos de interoperabilidad:</strong>
+            FRA/AREMA 920-2, FRA/AREMA 438, FRA/AREMA 930, FRA/AREMA
+            950, FFFIS, EN 50159</li>
+            <li><strong>12 APIs de integración:</strong> Comunicación
+            entre sistemas y FENOCO</li>
+            <li><strong>Gateway de integración:</strong> Conversión de
+            protocolos entre sistemas y red nacional</li>
+            <li><strong>Cronograma de integración:</strong> 9 meses por
+            fases (civil-eléctrica-mecánica-sistemas)</li>
+            <li><strong>Cobertura:</strong> 100% de integración entre
+            sistemas</li>
+            <li><strong>Disponibilidad requerida:</strong> 99.95%
+            (sistema crítico para operación)</li>
+            </ul>
+            <h3 id="hitos-críticos">Hitos críticos</h3>
+            <table>
+            <thead>
+            <tr class="header">
+            <th style="text-align: left;">Fase</th>
+            <th style="text-align: left;">Fecha</th>
+            <th style="text-align: left;">Estado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="odd">
+            <td style="text-align: left;">Diseno Conceptual</td>
+            <td style="text-align: left;">Enero 2025</td>
+            <td style="text-align: left;">✅ Completado</td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: left;">Desarrollo Interfaces</td>
+            <td style="text-align: left;">Marzo 2025</td>
+            <td style="text-align: left;">⏳ En progreso</td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: left;">Desarrollo Protocolos</td>
+            <td style="text-align: left;">Abril 2025</td>
+            <td style="text-align: left;">⏳ En progreso</td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: left;">Comisionamiento</td>
+            <td style="text-align: left;">Mayo 2025</td>
+            <td style="text-align: left;">❌ Pendiente</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="criterios-de-diseno-y-justificaciones-técnicas">🔍
+            CRITERIOS DE DISENO Y JUSTIFICACIONES TÉCNICAS</h2>
+            <h3 id="por-qué-25-interfaces-críticas-específicamente">¿Por
+            qué 25 interfaces críticas específicamente?</h3>
+            <p><strong>Desglose de Interfaces por Sistema:</strong> |
+            Sistema | Interfaces | Justificación | |:——–|:———–|:————–| |
+            <strong>CTC-PTC</strong> | 5 interfaces | Control automático
+            de trenes (FFFIS) | | <strong>TETRA-Red Vital IP /
+            TETRA</strong> | 4 interfaces | Comunicaciones redundantes |
+            | <strong>ITS-Seguridad</strong> | 3 interfaces | Monitoreo
+            y control de seguridad | | <strong>Material
+            Rodante-PTC</strong> | 4 interfaces | Control embarcado | |
+            <strong>Infraestructura</strong> | 6 interfaces |
+            Coordinación de infraestructura | | <strong>FENOCO</strong>
+            | 3 interfaces | Interoperabilidad nacional |</p>
+            <p><strong>Total:</strong> 25 interfaces críticas para
+            operación integrada</p>
+            <h3 id="por-qué-15-protocolos-de-interoperabilidad">¿Por qué
+            15 protocolos de interoperabilidad?</h3>
+            <p><strong>Justificación de Protocolos:</strong> | Protocolo
+            | Función | Justificación | |:———-|:——–|:————–| |
+            <strong>FRA/AREMA 920-2</strong> | Comunicaciones Red Vital
+            IP / TETRA | Estándar internacional ferroviario | |
+            <strong>FRA/AREMA 438</strong> | Senalización ferroviaria |
+            Compatibilidad con FENOCO | | <strong>FRA/AREMA 930</strong>
+            | Sistemas de senalización | Interoperabilidad de sistemas |
+            | <strong>FRA/AREMA 950</strong> | Control de tráfico |
+            Coordinación entre centros | | <strong>FFFIS</strong> |
+            Interfaces CTC-PTC | Especificación de interfaces | |
+            <strong>EN 50159</strong> | Seguridad comunicaciones |
+            Seguridad funcional |</p>
+            <p><strong>Total:</strong> 15 protocolos para
+            interoperabilidad completa</p>
+            <h3 id="por-qué-12-apis-de-integración">¿Por qué 12 APIs de
+            integración?</h3>
+            <p><strong>Justificación de APIs:</strong> - <strong>3 APIs
+            FENOCO:</strong> Interoperabilidad con red nacional -
+            <strong>3 APIs CTC:</strong> Control de tráfico centralizado
+            - <strong>2 APIs ITS:</strong> Sistemas inteligentes de
+            transporte - <strong>2 APIs Seguridad:</strong> Sistemas de
+            seguridad integrados - <strong>2 APIs Material
+            Rodante:</strong> Control embarcado</p>
+            <h3 id="por-qué-gateway-de-integración">¿Por qué Gateway de
+            integración?</h3>
+            <p><strong>Justificación Técnica:</strong> -
+            <strong>Conversión de protocolos:</strong> Entre sistemas
+            locales y FENOCO - <strong>Traducción de datos:</strong>
+            Formatos compatibles entre sistemas -
+            <strong>Seguridad:</strong> Autenticación y cifrado de
+            comunicaciones - <strong>Redundancia:</strong> Múltiples
+            rutas de comunicación - <strong>Monitoreo:</strong>
+            Supervisión de interfaces críticas</p>
+            <h3 id="por-qué-cronograma-de-9-meses-por-fases">¿Por qué
+            cronograma de 9 meses por fases?</h3>
+            <p><strong>Justificación de Fases:</strong> | Fase |
+            Duración | Justificación | |:—–|:———|:————–| |
+            <strong>Civil-Eléctrica</strong> | 2 meses | Base física y
+            alimentación | | <strong>Eléctrica-Mecánica</strong> | 2
+            meses | Sistemas de potencia | |
+            <strong>Mecánica-Sistemas</strong> | 1 mes | Integración de
+            sistemas | | <strong>Sistemas de Datos</strong> | 1 mes |
+            Comunicaciones y datos | | <strong>Monitoreo</strong> | 1
+            mes | Sistemas de supervisión | | <strong>Control</strong> |
+            1 mes | Control centralizado | | <strong>Pruebas</strong> |
+            1 mes | Validación completa |</p>
+            <h3 id="por-qué-interoperabilidad-con-fenoco">¿Por qué
+            interoperabilidad con FENOCO?</h3>
+            <p><strong>Justificación Contractual (Cl13.1):</strong> -
+            <strong>Red ferroviaria nacional:</strong> Continuidad de
+            operación - <strong>Compatibilidad operativa:</strong>
+            Material rodante dual - <strong>Protocolos
+            FRA/AREMA:</strong> Estándares internacionales -
+            <strong>Coordinación:</strong> Gestión integrada de tráfico
+            - <strong>Eficiencia:</strong> Optimización de recursos
+            nacionales</p>
+            <h3 id="por-qué-disponibilidad-99.95">¿Por qué
+            disponibilidad 99.95%?</h3>
+            <p><strong>Justificación Técnica:</strong> - <strong>Sistema
+            crítico:</strong> Fallo afecta operación completa -
+            <strong>Dependencias:</strong> Múltiples sistemas dependen
+            de integración - <strong>Redundancia:</strong> Múltiples
+            rutas de comunicación - <strong>Respaldo:</strong> Sistemas
+            de respaldo automático - <strong>Monitoreo:</strong>
+            Supervisión continua de interfaces</p>
+            <hr />
+            <h2 id="función-y-propósito-del-sistema">🎯 FUNCIÓN Y
+            PROPÓSITO DEL SISTEMA</h2>
+            <h3 id="qué-hace-este-sistema">¿Qué hace este sistema?</h3>
+            <p>El Sistema de Integración y Coordinación proporciona
+            <strong>coordinación integral</strong> entre todos los
+            sistemas: - <strong>Interfaces:</strong> Comunicación entre
+            sistemas técnicos - <strong>Protocolos:</strong> Estándares
+            de comunicación - <strong>APIs:</strong> Interfaces de
+            programación para integración -
+            <strong>Coordinación:</strong> Gestión de dependencias y
+            sincronización</p>
+            <h3 id="por-qué-lo-necesitamos">¿Por qué lo
+            necesitamos?</h3>
+            <ul>
+            <li><strong>Integración:</strong> Coordinación entre todos
+            los sistemas</li>
+            <li><strong>Eficiencia:</strong> Optimización del
+            funcionamiento conjunto</li>
+            <li><strong>Mantenimiento:</strong> Simplificación de
+            operación y mantenimiento</li>
+            <li><strong>Escalabilidad:</strong> Facilidad para futuras
+            expansiones</li>
+            </ul>
+            <h3 id="cómo-se-integra-con-otros-sistemas">¿Cómo se integra
+            con otros sistemas?</h3>
+            <pre><code>[Control y Senalización] ←→ [Integración y Coordinación] ←→ [Telecomunicaciones]
+                                    ↓
+[ITS y Seguridad] ←→ [Integración y Coordinación] ←→ [Material Rodante]
+                                    ↓
+[Infraestructura] ←→ [Integración y Coordinación] ←→ [Sistemas Externos]</code></pre>
+            <hr />
+            <h2 id="componentes-principales">🏗️ COMPONENTES
+            PRINCIPALES</h2>
+            <h3 id="interfaces-entre-sistemas---comunicación">1.
+            Interfaces entre Sistemas - Comunicación</h3>
+            <p><strong>Propósito:</strong> Comunicación bidireccional
+            entre todos los sistemas técnicos</p>
+            <p><strong>Componentes instalados:</strong> | Componente |
+            Cantidad | Especificación | Estado |
+            |:———–|:———|:—————|:——-| | Interfaces CTC-Telecom | 5
+            unidades | Protocolo FFFIS | ⏳ En desarrollo | | Interfaces
+            CTC-ITS | 3 unidades | Protocolo IEC 61850 | ⏳ En
+            desarrollo | | Interfaces CTC-Material | 2 unidades |
+            Protocolo FRA/AREMA | ⏳ En desarrollo | | Interfaces
+            Telecom-ITS | 4 unidades | Protocolo TETRA | ⏳ En
+            desarrollo | | Interfaces Material-Infraestructura | 6
+            unidades | Protocolo CAN Bus | ⏳ En desarrollo | |
+            Interfaces Sistemas Externos | 5 unidades | Protocolos
+            estándar | ⏳ En desarrollo |</p>
+            <p><strong>Estado general:</strong> 🟡 En progreso</p>
+            <h3 id="protocolos-de-comunicación---estándares">2.
+            Protocolos de Comunicación - Estándares</h3>
+            <p><strong>Propósito:</strong> Estándares de comunicación
+            entre sistemas</p>
+            <p><strong>Componentes instalados:</strong> | Componente |
+            Cantidad | Especificación | Estado |
+            |:———–|:———|:—————|:——-| | Protocolo FFFIS | 1 unidad |
+            Comunicación CTC-PTC | ✅ Disponible | | Protocolo FRA/AREMA
+            | 1 unidad | Comunicación ferroviaria | ✅ Disponible | |
+            Protocolo IEC 61850 | 1 unidad | Comunicación eléctrica | ✅
+            Disponible | | Protocolo TETRA | 1 unidad | Comunicación
+            radio | ✅ Disponible | | Protocolo Red Vital IP / TETRA | 1
+            unidad | Comunicación móvil | ✅ Disponible | | Protocolo
+            CAN Bus | 1 unidad | Comunicación embarcada | ✅ Disponible
+            |</p>
+            <p><strong>Estado general:</strong> 🟢 En cronograma</p>
+            <h3 id="apis-de-integración---programación">3. APIs de
+            Integración - Programación</h3>
+            <p><strong>Propósito:</strong> Interfaces de programación
+            para integración de sistemas</p>
+            <p><strong>Componentes instalados:</strong> | Componente |
+            Cantidad | Especificación | Estado |
+            |:———–|:———|:—————|:——-| | API Control y Senalización | 1
+            unidad | REST API | ⏳ En desarrollo | | API
+            Telecomunicaciones | 1 unidad | REST API | ⏳ En desarrollo
+            | | API ITS y Seguridad | 1 unidad | REST API | ⏳ En
+            desarrollo | | API Material Rodante | 1 unidad | REST API |
+            ⏳ En desarrollo | | API Infraestructura | 1 unidad | REST
+            API | ⏳ En desarrollo | | API Sistemas Externos | 1 unidad
+            | REST API | ⏳ En desarrollo |</p>
+            <p><strong>Estado general:</strong> 🟡 En progreso</p>
+            <h3 id="sistemas-de-coordinación---gestión">4. Sistemas de
+            Coordinación - Gestión</h3>
+            <p><strong>Propósito:</strong> Coordinación y gestión de
+            dependencias entre sistemas</p>
+            <p><strong>Componentes instalados:</strong> | Componente |
+            Cantidad | Especificación | Estado |
+            |:———–|:———|:—————|:——-| | Gestor de dependencias | 1 unidad
+            | Sistema centralizado | ⏳ En desarrollo | | Coordinador de
+            eventos | 1 unidad | Gestión de eventos | ⏳ En desarrollo |
+            | Sincronizador de sistemas | 1 unidad | Sincronización
+            temporal | ⏳ En desarrollo | | Monitor de integridad | 1
+            unidad | Monitoreo de interfaces | ⏳ En desarrollo | |
+            Gestor de configuración | 1 unidad | Configuración
+            centralizada | ⏳ En desarrollo |</p>
+            <p><strong>Estado general:</strong> 🟡 En progreso</p>
+            <hr />
+            <h2 id="especificaciones-técnicas-clave">📐 ESPECIFICACIONES
+            TÉCNICAS CLAVE</h2>
+            <h3 id="tabla-consolidada-de-especificaciones">Tabla
+            consolidada de especificaciones</h3>
+            <table>
+            <thead>
+            <tr class="header">
+            <th style="text-align: left;">Parámetro</th>
+            <th style="text-align: left;">Valor</th>
+            <th style="text-align: left;">Estándar Aplicable</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="odd">
+            <td style="text-align: left;">Disponibilidad interfaces</td>
+            <td style="text-align: left;">99.95%</td>
+            <td style="text-align: left;">EN 50126</td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: left;">Tiempo de respuesta</td>
+            <td style="text-align: left;">&lt; 100ms</td>
+            <td style="text-align: left;">EN 50126</td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: left;">Ancho de banda</td>
+            <td style="text-align: left;">1 Gbps</td>
+            <td style="text-align: left;">EN 50126</td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: left;">Latencia máxima</td>
+            <td style="text-align: left;">50ms</td>
+            <td style="text-align: left;">EN 50126</td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: left;">Disponibilidad
+            coordinación</td>
+            <td style="text-align: left;">99.95%</td>
+            <td style="text-align: left;">EN 50126</td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: left;">Sincronización temporal</td>
+            <td style="text-align: left;">&lt; 1ms</td>
+            <td style="text-align: left;">EN 50126</td>
+            </tr>
+            </tbody>
+            </table>
+            <h3 id="criterios-de-aceptación">Criterios de
+            aceptación</h3>
+            <ul>
+            <li>✅ 25 interfaces operativas entre sistemas</li>
+            <li>✅ 15 protocolos de comunicación implementados</li>
+            <li>✅ 12 APIs de integración funcionales</li>
+            <li>✅ Disponibilidad 99.95% de coordinación</li>
+            <li>✅ Tiempo de respuesta &lt; 100ms</li>
+            </ul>
+            <hr />
+            <h2 id="ubicación-y-despliegue">📍 UBICACIÓN Y
+            DESPLIEGUE</h2>
+            <h3 id="mapa-de-despliegue">Mapa de despliegue</h3>
+            <p>El sistema de integración y coordinación se despliega
+            centralmente en el CCO La Dorada, con componentes
+            distribuidos en todas las estaciones y sistemas del
+            corredor.</p>
+            <h3 id="tabla-de-sitios-principales">Tabla de sitios
+            principales</h3>
+            <table>
+            <colgroup>
+            <col style="width: 17%" />
+            <col style="width: 32%" />
+            <col style="width: 30%" />
+            <col style="width: 20%" />
+            </colgroup>
+            <thead>
+            <tr class="header">
+            <th style="text-align: left;">Sitio</th>
+            <th style="text-align: left;">Componentes</th>
+            <th style="text-align: left;">Capacidad</th>
+            <th style="text-align: left;">Estado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="odd">
+            <td style="text-align: left;">CCO La Dorada</td>
+            <td style="text-align: left;">Centro de coordinación, APIs,
+            gestión</td>
+            <td style="text-align: left;">100 interfaces</td>
+            <td style="text-align: left;">⏳ En desarrollo</td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: left;">Estaciones ENCE</td>
+            <td style="text-align: left;">Interfaces locales,
+            protocolos</td>
+            <td style="text-align: left;">5 interfaces</td>
+            <td style="text-align: left;">⏳ En desarrollo</td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: left;">Estaciones principales</td>
+            <td style="text-align: left;">Interfaces de integración</td>
+            <td style="text-align: left;">15 interfaces</td>
+            <td style="text-align: left;">⏳ En desarrollo</td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: left;">Sistemas embarcados</td>
+            <td style="text-align: left;">Interfaces móviles</td>
+            <td style="text-align: left;">25 interfaces</td>
+            <td style="text-align: left;">⏳ En desarrollo</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="operación-y-mantenimiento">⚙️ OPERACIÓN Y
+            MANTENIMIENTO</h2>
+            <h3 id="operación-normal">Operación normal</h3>
+            <p>El sistema de integración y coordinación opera 24/7
+            proporcionando coordinación continua entre todos los
+            sistemas técnicos, con monitoreo automático de la integridad
+            de las interfaces.</p>
+            <h3 id="mantenimiento-preventivo">Mantenimiento
+            preventivo</h3>
+            <ul>
+            <li><strong>Diario:</strong> Verificación de estado de
+            interfaces y protocolos</li>
+            <li><strong>Semanal:</strong> Pruebas de comunicación entre
+            sistemas</li>
+            <li><strong>Mensual:</strong> Actualización de protocolos y
+            APIs</li>
+            <li><strong>Trimestral:</strong> Mantenimiento mayor de
+            sistemas de coordinación</li>
+            </ul>
+            <h3 id="respuesta-a-fallas">Respuesta a fallas</h3>
+            <ol type="1">
+            <li><strong>Detección automática</strong> de fallas en
+            interfaces</li>
+            <li><strong>Notificación inmediata</strong> al personal de
+            mantenimiento</li>
+            <li><strong>Conmutación automática</strong> a interfaces de
+            respaldo</li>
+            <li><strong>Reparación</strong> según procedimientos
+            establecidos</li>
+            <li><strong>Verificación</strong> de funcionamiento
+            normal</li>
+            </ol>
+            <hr />
+            <h2 id="interfaces-con-otros-sistemas">🔗 INTERFACES CON
+            OTROS SISTEMAS</h2>
+            <h3 id="diagrama-de-interfaces">Diagrama de interfaces</h3>
+            <pre><code>[Control y Senalización] ←→ [Integración y Coordinación] ←→ [Telecomunicaciones]
+                                    ↓
+[ITS y Seguridad] ←→ [Integración y Coordinación] ←→ [Material Rodante]
+                                    ↓
+[Infraestructura] ←→ [Integración y Coordinación] ←→ [Sistemas Externos]</code></pre>
+            <h3 id="tabla-de-interfaces-críticas">Tabla de interfaces
+            críticas</h3>
+            <table>
+            <colgroup>
+            <col style="width: 17%" />
+            <col style="width: 34%" />
+            <col style="width: 23%" />
+            <col style="width: 25%" />
+            </colgroup>
+            <thead>
+            <tr class="header">
+            <th style="text-align: left;">Sistema</th>
+            <th style="text-align: left;">Tipo de Interfaz</th>
+            <th style="text-align: left;">Criticidad</th>
+            <th style="text-align: left;">Responsable</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="odd">
+            <td style="text-align: left;">Control y Senalización</td>
+            <td style="text-align: left;">CTC Virtual</td>
+            <td style="text-align: left;">Alta</td>
+            <td style="text-align: left;">EPC Sistemas</td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: left;">Telecomunicaciones</td>
+            <td style="text-align: left;">TETRA + Red Vital IP /
+            TETRA</td>
+            <td style="text-align: left;">Alta</td>
+            <td style="text-align: left;">EPC Telecomunicaciones</td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: left;">ITS y Seguridad</td>
+            <td style="text-align: left;">CCTV + Monitoreo</td>
+            <td style="text-align: left;">Media</td>
+            <td style="text-align: left;">EPC Sistemas</td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: left;">Material Rodante</td>
+            <td style="text-align: left;">PTC Embarcado</td>
+            <td style="text-align: left;">Alta</td>
+            <td style="text-align: left;">EPC Sistemas</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="riesgos-y-mitigaciones">⚠️ RIESGOS Y
+            MITIGACIONES</h2>
+            <table>
+            <colgroup>
+            <col style="width: 15%" />
+            <col style="width: 26%" />
+            <col style="width: 19%" />
+            <col style="width: 23%" />
+            <col style="width: 15%" />
+            </colgroup>
+            <thead>
+            <tr class="header">
+            <th style="text-align: left;">Riesgo</th>
+            <th style="text-align: left;">Probabilidad</th>
+            <th style="text-align: left;">Impacto</th>
+            <th style="text-align: left;">Mitigación</th>
+            <th style="text-align: left;">Estado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="odd">
+            <td style="text-align: left;">Fallo de interfaces
+            críticas</td>
+            <td style="text-align: left;">Baja</td>
+            <td style="text-align: left;">Alto</td>
+            <td style="text-align: left;">Redundancia N+1</td>
+            <td style="text-align: left;">✅ Mitigado</td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: left;">Fallo de protocolos</td>
+            <td style="text-align: left;">Baja</td>
+            <td style="text-align: left;">Alto</td>
+            <td style="text-align: left;">Protocolos de respaldo</td>
+            <td style="text-align: left;">✅ Mitigado</td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: left;">Fallo de coordinación</td>
+            <td style="text-align: left;">Baja</td>
+            <td style="text-align: left;">Alto</td>
+            <td style="text-align: left;">Sistemas de respaldo</td>
+            <td style="text-align: left;">✅ Mitigado</td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: left;">Fallo de sincronización</td>
+            <td style="text-align: left;">Baja</td>
+            <td style="text-align: left;">Medio</td>
+            <td style="text-align: left;">Sistemas de sincronización
+            redundantes</td>
+            <td style="text-align: left;">✅ Mitigado</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="cumplimiento-contractual">📋 CUMPLIMIENTO
+            CONTRACTUAL</h2>
+            <h3 id="obligaciones-clave-del-contrato">Obligaciones clave
+            del contrato</h3>
+            <ul>
+            <li>✅ <strong>AT1 - Integración:</strong> Integración
+            completa entre sistemas - Cumplida</li>
+            <li>✅ <strong>AT2 - Operación:</strong> Operación integrada
+            con disponibilidad 99.95% - Cumplida</li>
+            <li>✅ <strong>AT3 - Especificaciones:</strong>
+            Especificaciones técnicas de integración - Cumplida</li>
+            <li>✅ <strong>AT4 - Indicadores:</strong> Disponibilidad
+            99.95% - Cumplida</li>
+            <li>⏳ <strong>AT8 - Operaciones:</strong> Procedimientos
+            operacionales integrados - En progreso</li>
+            <li>❌ <strong>AT9 - Cronograma:</strong> Plan de
+            implementación por fases - Pendiente</li>
+            </ul>
+            <h3 id="referencias-contractuales">Referencias
+            contractuales</h3>
+            <ul>
+            <li><strong>Apéndice Técnico 1:</strong> Alcance del
+            proyecto - Integración y coordinación</li>
+            <li><strong>Apéndice Técnico 2:</strong> Operación y
+            mantenimiento - Disponibilidad 99.95%</li>
+            <li><strong>Apéndice Técnico 3:</strong> Especificaciones
+            generales - Integración y coordinación</li>
+            <li><strong>Apéndice Técnico 4:</strong> Indicadores de
+            desempeno - Disponibilidad 99.95%</li>
+            </ul>
+            <hr />
+            <h2 id="documentación-de-soporte">📚 DOCUMENTACIÓN DE
+            SOPORTE</h2>
+            <h3 id="documentos-técnicos-disponibles">Documentos técnicos
+            disponibles</h3>
+            <table>
+            <colgroup>
+            <col style="width: 29%" />
+            <col style="width: 16%" />
+            <col style="width: 24%" />
+            <col style="width: 29%" />
+            </colgroup>
+            <thead>
+            <tr class="header">
+            <th style="text-align: left;">Documento</th>
+            <th style="text-align: left;">Fase</th>
+            <th style="text-align: left;">Versión</th>
+            <th style="text-align: left;">Ubicación</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="odd">
+            <td
+            style="text-align: left;">SISTEMA_06_Integracion_y_Coordinacion_Master.md</td>
+            <td style="text-align: left;">Consolidado</td>
+            <td style="text-align: left;">v1.0</td>
+            <td style="text-align: left;">Carpeta X</td>
+            </tr>
+            <tr class="even">
+            <td
+            style="text-align: left;">V.5.1_Plan_Integracion_Sistemas_COMPLETO.md</td>
+            <td style="text-align: left;">Detalle</td>
+            <td style="text-align: left;">v5.0</td>
+            <td style="text-align: left;">V. Ingeniería</td>
+            </tr>
+            <tr class="odd">
+            <td
+            style="text-align: left;">41_Interfaces_Sistemas_MEJORADO.md</td>
+            <td style="text-align: left;">Detalle</td>
+            <td style="text-align: left;">v5.0</td>
+            <td style="text-align: left;">IV. Ingeniería</td>
+            </tr>
+            <tr class="even">
+            <td
+            style="text-align: left;">6.5_Manual_OM_Integrado_v5.0.md</td>
+            <td style="text-align: left;">Operación</td>
+            <td style="text-align: left;">v5.0</td>
+            <td style="text-align: left;">VI. Operación</td>
+            </tr>
+            </tbody>
+            </table>
+            <h3 id="para-más-información-técnica">Para más información
+            técnica</h3>
+            <p>Los documentos técnicos detallados están disponibles en
+            la Carpeta X del proyecto. Para información específica sobre
+            implementación, contactar al equipo de EPC Sistemas.</p>
+            <hr />
+            <h2 id="contactos-y-responsables">📞 CONTACTOS Y
+            RESPONSABLES</h2>
+            <table>
+            <thead>
+            <tr class="header">
+            <th style="text-align: left;">Rol</th>
+            <th style="text-align: left;">Responsable</th>
+            <th style="text-align: left;">Contacto</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="odd">
+            <td style="text-align: left;">Líder Técnico Integración y
+            Coordinación</td>
+            <td style="text-align: left;">[Nombre]</td>
+            <td style="text-align: left;">[Email/Tel]</td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: left;">Coordinador EPC Sistemas</td>
+            <td style="text-align: left;">[Nombre]</td>
+            <td style="text-align: left;">[Email/Tel]</td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: left;">Responsable Interfaces</td>
+            <td style="text-align: left;">[Nombre]</td>
+            <td style="text-align: left;">[Email/Tel]</td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: left;">Responsable Protocolos</td>
+            <td style="text-align: left;">[Nombre]</td>
+            <td style="text-align: left;">[Email/Tel]</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="indicadores-de-desempeno-kpis">📊 INDICADORES DE
+            DESEMPENO (KPIs)</h2>
+            <table>
+            <thead>
+            <tr class="header">
+            <th style="text-align: left;">Indicador</th>
+            <th style="text-align: left;">Meta</th>
+            <th style="text-align: left;">Actual</th>
+            <th style="text-align: left;">Estado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="odd">
+            <td style="text-align: left;">Disponibilidad Interfaces</td>
+            <td style="text-align: left;">99.95%</td>
+            <td style="text-align: left;">99.98%</td>
+            <td style="text-align: left;">🟢 Excelente</td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: left;">Disponibilidad Protocolos</td>
+            <td style="text-align: left;">99.95%</td>
+            <td style="text-align: left;">99.97%</td>
+            <td style="text-align: left;">🟢 Excelente</td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: left;">Disponibilidad APIs</td>
+            <td style="text-align: left;">99.95%</td>
+            <td style="text-align: left;">99.96%</td>
+            <td style="text-align: left;">🟢 Excelente</td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: left;">Tiempo de Respuesta</td>
+            <td style="text-align: left;">&lt; 100ms</td>
+            <td style="text-align: left;">75ms</td>
+            <td style="text-align: left;">🟢 Excelente</td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: left;">Sincronización Temporal</td>
+            <td style="text-align: left;">&lt; 1ms</td>
+            <td style="text-align: left;">0.8ms</td>
+            <td style="text-align: left;">🟢 Excelente</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="decisiones-tecnicas-aplicadas">📋 DECISIONES
+            TECNICAS APLICADAS</h2>
+            <h3 id="consolidacion-general">Consolidacion general</h3>
+            <ul>
+            <li>Estado: ✅ Ver WBS actualizada Cap. 06</li>
+            <li>Fuente: Cocina I-VI consolidada</li>
+            </ul>
+            <hr />
+            <h2 id="control-de-versiones">🔄 CONTROL DE VERSIONES</h2>
+            <table>
+            <colgroup>
+            <col style="width: 18%" />
+            <col style="width: 14%" />
+            <col style="width: 42%" />
+            <col style="width: 26%" />
+            </colgroup>
+            <thead>
+            <tr class="header">
+            <th style="text-align: left;">Versión</th>
+            <th style="text-align: left;">Fecha</th>
+            <th style="text-align: left;">Cambios Principales</th>
+            <th style="text-align: left;">Responsable</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="odd">
+            <td style="text-align: left;">1.0</td>
+            <td style="text-align: left;">Enero 2025</td>
+            <td style="text-align: left;">Versión inicial ejecutiva</td>
+            <td style="text-align: left;">Administrador Contractual
+            EPC</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <p><strong>Documento preparado por:</strong> Administrador
+            Contractual EPC<br />
+            <strong>Última actualización:</strong> Enero 2025<br />
+            <strong>Próxima revisión:</strong> Febrero 2025<br />
+            <strong>Basado en:</strong>
+            SISTEMA_06_Integracion_y_Coordinacion_Master.md v1.0</p>
+            <!-- COCINADO DESDE FUENTES: 09/10/2025 17:30 | Fuentes: 1 | DTs: 1 -->
+            <!-- COCINADO LFC-CLI v1.0 | Fecha: 3/13/2026, 1:56:38 PM | SSOT: DBCD_CRITERIA.md -->
+            <!-- COCINADO LFC-CLI v2.0 | SICC Pureza: AUDIT_REQUIRED | Fecha: 3/13/2026, 8:02:06 PM -->
+            <!-- COCINADO LFC-CLI v2.2 | SICC Pureza: 100% | Fecha: 3/13/2026, 8:05:15 PM -->
+            <!-- COCINADO LFC-CLI v5.0 Masterchef | SICC Pureza: AUDIT_REQUIRED | Fecha: 3/13/2026, 8:18:53 PM -->
+            <!-- COCINADO LFC-CLI v6.0 DBCI | SICC Pureza: AUDIT_REQUIRED | Fecha: 3/13/2026, 8:25:10 PM | Versión: v6.0 Masterchef -->
         </article>
 
         <footer>
-            © 2025 LFC STUDIO | SISTEMA DE COMUNICACIONES Y CONTROL | PTC VIRTUAL SICC
+            © 2026 LFC STUDIO | SICC v6.3.3 SOBERANO | PTC VIRTUAL SICC (FRA 236-I)
         </footer>
     </div>
 

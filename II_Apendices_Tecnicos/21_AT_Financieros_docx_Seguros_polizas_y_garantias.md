@@ -7,7 +7,7 @@
 ---
 
 ## 🛡️ ANCLAJE DE SOBERANÍA FINANCIERA
-La estructura de seguros y garantías debe cubrir integralmente los activos digitales y de infraestructura del **SICC v6.3.3**. Queda prohibida cualquier póliza que condicione la cobertura a la existencia de señales físicas o procedimientos manuales (Stop & Switch).
+La estructura de seguros y garantías debe cubrir integralmente los activos digitales y de infraestructura del **SICC v6.3.3**. Queda prohibida cualquier póliza que condicione la cobertura a la existencia de senales físicas o procedimientos manuales (Handover Digital (Digital Gateway)).
 
 ---
 
@@ -28,7 +28,7 @@ La estructura de seguros y garantías debe cubrir integralmente los activos digi
 | Amparo | Activo Protegido | Estado SICC |
 |:---|:---|:---:|
 | **Cumplimiento** | Implementación SICC v6.3.3 | ✅ RESTAURADO |
-| **Daños Materiales** | Red Vital IP / OBC / EOT | ✅ RESTAURADO |
+| **Danos Materiales** | Red Vital IP / OBC / EOT | ✅ RESTAURADO |
 | **Responsabilidad** | Operación PTC Virtual | ✅ RESTAURADO |
 | **Interoperabilidad** | Digital Gateway Flow | ✅ RESTAURADO |
 
@@ -36,7 +36,7 @@ La estructura de seguros y garantías debe cubrir integralmente los activos digi
 
 ## 🔍 CONCLUSIONES DE SANEAMIENTO
 - ❌ **ELIMINADO:** Corrupciones de texto que inyectaban terminología errónea en el clausulado.
-- ❌ **ELIMINADO:** Referencias a "Stop & Switch" como procedimiento de mitigación de riesgo.
+- ❌ **ELIMINADO:** Referencias a "Handover Digital (Digital Gateway)" como procedimiento de mitigación de riesgo.
 - ✅ **RESTAURADO:** El blindaje financiero de la infraestructura digital soberana.
 
 ---

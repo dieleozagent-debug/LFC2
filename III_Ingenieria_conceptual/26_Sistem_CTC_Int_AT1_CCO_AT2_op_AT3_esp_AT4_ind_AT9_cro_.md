@@ -130,7 +130,7 @@ La aprobación de este documento conceptual permite:
 
 | Versión | Fecha       | Responsable            | Descripción                              |
 |:------:|:-----------:|:-----------------------|:-----------------------------------------|
-| v6.3.3 | 20/03/2026  | Admin. Contractual EPC | Re-ingeniería total SICC. Eliminación de legacy europeo ADIF/EULYNX. |
+| v6.3.3 | 20/03/2026  | Admin. Contractual EPC | Re-ingeniería total SICC. Eliminación de legacy europeo Estándar SICC (FRA/AREMA)/Arquitectura SICC v6.3.3. |
 ontingencia** para dependencias AT3
 - **Protocolos de interoperabilidad** con FENOCO según FRA/AREMA
 - **Matriz de disponibilidad** para cumplimiento AT4

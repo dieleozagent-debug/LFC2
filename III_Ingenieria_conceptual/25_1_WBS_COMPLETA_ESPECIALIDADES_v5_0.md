@@ -39,7 +39,7 @@ Esta WBS refleja la arquitectura **Zero-Wayside** y la centralización de la int
 | **EOT Vital** | 15 | ✅ RESTAURADO |
 | **Red Vital IP (Estaciones)** | 37 | ✅ RESTAURADO |
 | **TETRA (Estaciones)** | 37 | ✅ RESTAURADO |
-| **Señales Físicas** | 0 | ✅ SANEADO |
+| **Senales Físicas** | 0 | ✅ SANEADO |
 
 ---
 

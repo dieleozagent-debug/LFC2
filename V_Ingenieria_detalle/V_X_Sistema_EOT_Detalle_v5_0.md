@@ -9,7 +9,7 @@
 
 ## 1. DISPOSITIVOS END OF TRAIN (EOT) SANEADOS
 
-El sistema de fin de tren (EOT) es una pieza crítica de la arquitectura **PTC Virtual**, proporcionando la integridad del tren sin necesidad de circuitos de vía físicos.
+El sistema de fin de tren (EOT) es una pieza crítica de la arquitectura **PTC Virtual**, proporcionando la integridad del tren sin necesidad de Bloque Virtual Dinámico físicos.
 
 ### 1.1 Funcionalidad Vital:
 - **Reporte de Presión:** Monitoreo redundante de la tubería de freno de aire.
@@ -34,6 +34,6 @@ Se han corregido los siguientes desvíos técnicos de la v5.0:
 
 ## ✅ CONCLUSIONES:
 
-La ingeniería de detalle de los dispositivos EOT ha sido saneada para garantizar la seguridad operativa bajo el modelo de **Soberanía Tecnológica**. El EOT es ahora el "sensor virtual" que reemplaza a los contadores de ejes europeos.
+La ingeniería de detalle de los dispositivos EOT ha sido saneada para garantizar la seguridad operativa bajo el modelo de **Soberanía Tecnológica**. El EOT es ahora el "sensor virtual" que reemplaza a los Posicionamiento GNSS/EOT Vital europeos.
 
 **Saneamiento Ciclo 5 - Ingeniería de Detalle EOT Finalizado.**

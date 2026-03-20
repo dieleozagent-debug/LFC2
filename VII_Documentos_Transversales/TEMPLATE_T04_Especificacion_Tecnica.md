@@ -29,6 +29,6 @@ Este template debe usarse para especificar hardware y software bajo el paradigma
 
 ## ✅ CONCLUSIONES DEL TEMPLATE:
 
-El uso de este template asegura que las especificaciones técnicas del proyecto no introduzcan de nuevo tecnologías obsoletas (GSM-R, [INFRAESTRUCTURA PROHIBIDA]) y mantengan la coherencia con la **Red Vital IP SICC**.
+El uso de este template asegura que las especificaciones técnicas del proyecto no introduzcan de nuevo tecnologías obsoletas (Red Vital IP (Broadband), [INFRAESTRUCTURA PROHIBIDA]) y mantengan la coherencia con la **Red Vital IP SICC**.
 
 **Saneamiento Ciclo 7 - Template T04 Finalizado.**

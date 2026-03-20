@@ -504,7 +504,7 @@ Esta información es únicamente de carácter informativo y representa el estado
 
 | Item | Descripción | Prioridad | Responsable | Plazo |
 |:---|:---|:---:|:---|:---:|
-| **COM-001** | Integrar especificaciones técnicas DWDM detalladas | 🔴 Alta | Ing. Telecomunicaciones | 2 días |
+| **COM-001** | Integrar especificaciones técnicas Red Vital IP detalladas | 🔴 Alta | Ing. Telecomunicaciones | 2 días |
 | **COM-002** | Completar plan de pruebas drive test TETRA | 🔴 Alta | Ing. Telecomunicaciones | 3 días |
 | **COM-003** | Validar cálculos de cobertura 95% territorio | 🟡 Media | Ing. Telecomunicaciones | 2 días |
 | **COM-004** | Integrar especificaciones QoS red de datos | 🟡 Media | Ing. Telecomunicaciones | 2 días |
@@ -590,7 +590,7 @@ Esta información es únicamente de carácter informativo y representa el estado
 
 ### Comunicaciones — `IV_Ingenieria_basica/SIS_Comunicaciones_Definitivo_v1.0.md`
 - [ ] Completar RTM (AT1/3/4/5/7; V.3; V.4_Sistemas; 27_TETRA; 28_Fibra)
-- [ ] Incorporar topologías finales DWDM y políticas QoS por servicio
+- [ ] Incorporar topologías finales Red Vital IP y políticas QoS por servicio
 - [ ] Evidenciar pruebas OTDR/OLTS, throughput y drive test TETRA
 - [ ] Validar KPIs AT4 (99.95%, latencia, caídas) con plan de monitoreo NOC
 

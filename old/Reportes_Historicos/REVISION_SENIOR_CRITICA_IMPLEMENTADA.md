@@ -99,7 +99,7 @@ Como **Especialista Senior en Control de Trenes** con experiencia en proyectos f
 ##### **2.1 ENCLAVAMIENTOS ELECTRÓNICOS**
 ```
 ⚠️ PROBLEMA TÉCNICO: Especificaciones de enclavamientos incompletas
-- Filosofía de senalización: ✅ **JUSTIFICADA** - Contadores de ejes vs. circuitos de vía
+- Filosofía de senalización: ✅ **JUSTIFICADA** - Posicionamiento GNSS/EOT Vital vs. Bloque Virtual Dinámico
 - Lógica de enclavamiento: 🔄 **EN DESARROLLO** - Tablas de rutas
 - Interfaces PTC: 🔄 **EN ESPECIFICACIÓN** - Preparación para integración futura
 ```

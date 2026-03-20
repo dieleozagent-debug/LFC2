@@ -34,7 +34,7 @@
 
 #### **Referencias Normativas:**
 - **EN 50126:** Aplicación técnicas confiabilidad
-- **EN 50128:** Software sistemas control ferroviario
+- **EN 50716:2023:** Software sistemas control ferroviario
 - **EN 50129:** Aplicación técnicas seguridad
 - **FRA/AREMA 438:** Especificaciones PTC Virtual (FRA 236)
 
@@ -176,7 +176,7 @@
 
 #### **Referencias Normativas:**
 - **EN 50126:** RAMS ferroviarios
-- **EN 50128:** Software
+- **EN 50716:2023:** Software
 - **EN 50129:** Seguridad
 - **IEC 61508:** Seguridad funcional
 

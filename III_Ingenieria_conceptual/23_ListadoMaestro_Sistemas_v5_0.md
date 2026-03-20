@@ -9,7 +9,7 @@
 ---
 
 ## 📄 INVENTARIO TÉCNICO MAESTRO
-Este listado consolida los sistemas reales SICC v6.3.3, garantizando la soberanía tecnológica y eliminando legado europeo ADIF/EULYNX.
+Este listado consolida los sistemas reales SICC v6.3.3, garantizando la soberanía tecnológica y eliminando legado europeo Estándar SICC (FRA/AREMA)/Arquitectura SICC v6.3.3.
 
 ### 1. SENALIZACIÓN Y CONTROL (SICC - PTC VIRTUAL)
 | Componente | Cantidad | Descripción | Estándar |
@@ -32,7 +32,7 @@ Este listado consolida los sistemas reales SICC v6.3.3, garantizando la soberan�
 ## 🔍 AUDITORÍA DE SOBERANÍA (P.42 v6.3.3)
 1. **RESTAURADO Red Vital IP**: Se ratifica como el estándar de comunicaciones soberanas del proyecto.
 2. **RESTAURADO Servidor PTC Central**: Se confirma su necesidad como cerebro vital de la operación.
-3. **ELIMINADO ADIF/EULYNX**: Se purga el legado europeo de enclavamientos y protocolos.
+3. **ELIMINADO Estándar SICC (FRA/AREMA)/Arquitectura SICC v6.3.3**: Se purga el legado europeo de enclavamientos y protocolos.
 4. **RESTAURADO Nodos GNSS**: Para detección digital sin Punto de Referencia Virtual físicas.
 
 ---

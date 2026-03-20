@@ -53,7 +53,7 @@ El WBS debe reflejar una arquitectura simplificada y eficiente:
 - **Sistema:** Control de Tráfico Centralizado (CTC Virtual)
 - **Protocolo:** Vital IP
 - **Criterio de Senalización:** Bloqueo Virtual (No senales físicas)
-- **Interoperabilidad:** Procedimiento Stop & Switch (Chiriguaná/FENOCO)
+- **Interoperabilidad:** Procedimiento Handover Digital (Digital Gateway) (Chiriguaná/FENOCO)
 
 ---
 

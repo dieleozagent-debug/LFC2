@@ -19,7 +19,7 @@
 ## 3. INTEROPERABILIDAD: GATEWAY FRA/AREMA
 - **Nodo Chiriguaná:** Se implementa un **Gateway Digital Nativo** para intercambio de misiones con FENOCO.
 - **Handover:** Transición transparente entre el sistema SICC v6.3.3 y el sistema vecino (Handover Vital).
-- ❌ **PRECAUCIÓN:** El procedimiento manual "Stop & Switch" queda terminantemente prohibido por inseguro.
+- ❌ **PRECAUCIÓN:** El procedimiento manual "Handover Digital (Digital Gateway)" queda terminantemente prohibido por inseguro.
 
 ---
 
@@ -27,7 +27,7 @@
 - ✅ **RESTAURADO:** Soberanía del Servidor PTC Central.
 - ✅ **RESTAURADO:** Jerarquía del Backbone Red Vital IP.
 - ✅ **RESTAURADO:** Interoperabilidad digital FRA/AREMA.
-- ❌ **ELIMINADO:** Todo rastro de legado ADIF/EULYNX y bucles de eliminación errónea.
+- ❌ **ELIMINADO:** Todo rastro de legado Estándar SICC (FRA/AREMA)/Arquitectura SICC v6.3.3 y bucles de eliminación errónea.
 
 ---
 **Saneamiento Ciclo 3 (Deep Audit) - Hoja de Ruta Técnica Finalizada.**

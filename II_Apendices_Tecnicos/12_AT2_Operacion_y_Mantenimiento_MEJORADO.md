@@ -7,7 +7,7 @@
 ---
 
 ## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
-La Operación y el Mantenimiento se rigen por los principios de **Disponibilidad Predictiva SICC**. No se aceptarán manuales de O&M que incluyan el protocolo "Stop & Switch" como procedimiento de contingencia primario.
+La Operación y el Mantenimiento se rigen por los principios de **Disponibilidad Predictiva SICC**. No se aceptarán manuales de O&M que incluyan el protocolo "Handover Digital (Digital Gateway)" como procedimiento de contingencia primario.
 
 ---
 
@@ -34,7 +34,7 @@ La Operación y el Mantenimiento se rigen por los principios de **Disponibilidad
 ---
 
 ## 🔍 CONCLUSIONES DE SANEAMIENTO
-- ❌ **ELIMINADO:** El procedimiento manual "Stop & Switch".
+- ❌ **ELIMINADO:** El procedimiento manual "Handover Digital (Digital Gateway)".
 - ✅ **RESTAURADO:** El **Hand-over Digital** soberano.
 - ✅ **RESTAURADO:** La centralización de la inteligencia en el SICC (CCO).
 

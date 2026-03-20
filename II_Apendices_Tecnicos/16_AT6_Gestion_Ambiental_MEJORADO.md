@@ -14,11 +14,11 @@ La gestión ambiental del proyecto se beneficia de la arquitectura **Zero-Waysid
 ## 🌱 MITIGACIÓN Y EFICIENCIA (.42)
 
 ### 1. REDUCCIÓN DE IMPACTO FÍSICO
-- **Instalación Virtual:** Al no requerir señales físicas ni circuitos de vía, se elimina la necesidad de excavaciones masivas y canalizaciones de concreto que afecten el ecosistema.
+- **Instalación Virtual:** Al no requerir senales físicas ni Bloque Virtual Dinámico, se elimina la necesidad de excavaciones masivas y canalizaciones de concreto que afecten el ecosistema.
 - **Red Vital IP:** El despliegue de fibra óptica se realizará utilizando métodos de microarado para minimizar la remoción de capa vegetal.
 
 ### 2. COORDINACIÓN AMBIENTAL (INTEROPERABILIDAD)
-- **Operación No-Refusal:** El **Digital Gateway** permite que la operación con FENOCO sea fluida, reduciendo las emisiones de CO2 generadas por trenes detenidos esperando el protocolo manual "Stop & Switch".
+- **Operación No-Refusal:** El **Digital Gateway** permite que la operación con FENOCO sea fluida, reduciendo las emisiones de CO2 generadas por trenes detenidos esperando el protocolo manual "Handover Digital (Digital Gateway)".
 - **Cero Detenciones:** Se prioriza el flujo continuo digital para optimizar la eficiencia energética del corredor.
 
 ---
@@ -35,7 +35,7 @@ La gestión ambiental del proyecto se beneficia de la arquitectura **Zero-Waysid
 ---
 
 ## 🔍 CONCLUSIONES DE SANEAMIENTO
-- ❌ **ELIMINADO:** Impactos asociados al protocolo "Stop & Switch".
+- ❌ **ELIMINADO:** Impactos asociados al protocolo "Handover Digital (Digital Gateway)".
 - ❌ **ELIMINADO:** La falsa clasificación de la Red Vital IP como "obsoleta".
 - ✅ **RESTAURADO:** El rol del SICC como habilitador de una operación ferroviaria verde y digital.
 

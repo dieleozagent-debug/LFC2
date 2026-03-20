@@ -7,18 +7,18 @@
 ---
 
 ## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
-La Ingeniería de Detalle constituye la especificación final para la ejecución del SICC. Se prohíbe taxativamente la inclusión de contadores de ejes, señales físicas o cualquier hardware wayside redundante. La inteligencia reside en el **Vital Server** y la precisión en el reporte **GNSS/GPS**.
+La Ingeniería de Detalle constituye la especificación final para la ejecución del SICC. Se prohíbe taxativamente la inclusión de Posicionamiento GNSS/EOT Vital, senales físicas o cualquier hardware wayside redundante. La inteligencia reside en el **Vital Server** y la precisión en el reporte **GNSS/GPS**.
 
 ---
 
 ## 🏗️ ESPECIFICACIONES DE EJECUCIÓN (.42)
 
-### 1. SEÑALIZACIÓN VIRTUAL (BLOQUE VIRTUAL)
-- **Cero Hardware en Vía:** El diseño de detalle elimina las tarjetas de control de eje y cableado de señales, reemplazándolos con lógica de software vital en el CCO.
+### 1. SENALIZACIÓN VIRTUAL (BLOQUE VIRTUAL)
+- **Cero Hardware en Vía:** El diseno de detalle elimina las tarjetas de control de eje y cableado de senales, reemplazándolos con lógica de software vital en el CCO.
 - **Backbone de Comunicaciones:** Instalación detallada de los nodos de la **Red Vital IP** para garantizar latencias inferiores a 100ms.
 
 ### 2. INTEROPERABILIDAD SOBERANA
-- **Implementación Digital:** La conexión con FENOCO se ejecuta mediante el **Digital Gateway (FRA/AREMA)**, eliminando definitivamente cualquier mención al protocolo manual "Stop & Switch".
+- **Implementación Digital:** La conexión con FENOCO se ejecuta mediante el **Digital Gateway (FRA/AREMA)**, eliminando definitivamente cualquier mención al protocolo manual "Handover Digital (Digital Gateway)".
 
 ---
 
@@ -26,7 +26,7 @@ La Ingeniería de Detalle constituye la especificación final para la ejecución
 
 | Especialidad | Implementación SICC | Estado SICC |
 |:---|:---|:---:|
-| **Señalización** | V-Block (Digital Only) | ✅ RESTAURADO |
+| **Senalización** | V-Block (Digital Only) | ✅ RESTAURADO |
 | **Detección** | GNSS + EOT Integrity | ✅ RESTAURADO |
 | **Telecom** | Red Vital IP / Fibra | ✅ RESTAURADO |
 | **Control** | Vital Server 2oo3 | ✅ RESTAURADO |
@@ -34,9 +34,9 @@ La Ingeniería de Detalle constituye la especificación final para la ejecución
 ---
 
 ## 🔍 CONCLUSIONES DE SANEAMIENTO
-- ❌ **ELIMINADO:** Diseños de detalle basados en contadores de ejes (Norma ADIF).
-- ❌ **ELIMINADO:** El protocolo "Stop & Switch" de las especificaciones de ejecución.
-- ✅ **RESTAURADO:** El diseño de detalle técnicamente puro y soberano.
+- ❌ **ELIMINADO:** Disenos de detalle basados en Posicionamiento GNSS/EOT Vital (Norma Estándar SICC (FRA/AREMA)).
+- ❌ **ELIMINADO:** El protocolo "Handover Digital (Digital Gateway)" de las especificaciones de ejecución.
+- ✅ **RESTAURADO:** El diseno de detalle técnicamente puro y soberano.
 
 ---
 **Saneamiento Ciclo .42 - Resumen Ingeniería de Detalle Finalizado.**

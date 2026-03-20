@@ -1,4 +1,4 @@
-# MANUAL DE O&M: SEÑALIZACIÓN (SICC v6.3.3)
+# MANUAL DE O&M: SENALIZACIÓN (SICC v6.3.3)
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 20 de marzo de 2026  
@@ -7,7 +7,7 @@
 ---
 
 ## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
-El mantenimiento de la señalización se enfoca en el software vital y la integridad del lazo de comunicaciones. Queda prohibida la inspección de hardware wayside inexistente (Balizas / Semáforos). La operación es **100% Virtual**.
+El mantenimiento de la senalización se enfoca en el software vital y la integridad del lazo de comunicaciones. Queda prohibida la inspección de hardware wayside inexistente (Balizas / Semáforos). La operación es **100% Virtual**.
 
 ---
 
@@ -27,14 +27,14 @@ Inspección semestral de los 5 hubs vitales, verificando redundancia y tiempos d
 
 ---
 
-## 📊 MATRIZ O&M SEÑALIZACIÓN (.42)
+## 📊 MATRIZ O&M SENALIZACIÓN (.42)
 
 | Sistema | Frecuencia | Acción Requerida | Estado SICC |
 |:---|:---:|:---|:---:|
 | **Vital Server** | Semanal | Dump de logs forenses | ✅ RESTAURADO |
 | **Smart-OBC** | Mensual | Test de curva de frenado | ✅ RESTAURADO |
 | **Digital Gateway**| Diario | Test de handshake (API) | ✅ RESTAURADO |
-| **Balizas / Vía** | **CERO** | **NINGUNA - DISEÑO VIRTUAL** | ✅ SANEADO |
+| **Balizas / Vía** | **CERO** | **NINGUNA - DISENO VIRTUAL** | ✅ SANEADO |
 
 ---
 
@@ -44,4 +44,4 @@ Inspección semestral de los 5 hubs vitales, verificando redundancia y tiempos d
 - ✅ **RESTAURADO:** El enfoque de mantenimiento en la **Soberanía del Software**.
 
 ---
-**Saneamiento Ciclo .42 - Manual Señalización (6.2) Finalizado.**
+**Saneamiento Ciclo .42 - Manual Senalización (6.2) Finalizado.**

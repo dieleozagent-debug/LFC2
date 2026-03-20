@@ -220,7 +220,7 @@
 ### **5.2 Especificaciones de Software**
 
 #### **PTC PTC Virtual (FRA 236):**
-- **Estándar:** EN 50128 (SIL 4)
+- **Estándar:** EN 50716:2023 (SIL 4)
 - **Funcionalidades:** Control de velocidad, autorización de movimiento, vigilancia de tren
 - **Interfaces:** CTC, Punto de Referencia Virtual (SICC), Red Vital IP / TETRA
 - **Actualización:** Over-the-air (OTA)
@@ -229,7 +229,7 @@
 | Módulo | Función | SIL | Estándar |
 |:-------|:---------|:---:|:---------|
 | **STM** | Supervisión de tren | SIL 4 | FRA/AREMA 438 |
-| **DMI** | Interfaz conductor | SIL 3 | EN 50128 |
+| **DMI** | Interfaz conductor | SIL 3 | EN 50716:2023 |
 | **Servidor PTC Central Interface** | Comunicación Servidor PTC Central | SIL 4 | FRA/AREMA 920-2 |
 | **Punto de Referencia Virtual (SICC)** | Lectura punto de referencia virtuals | SIL 4 | FRA/AREMA 438 |
 

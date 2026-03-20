@@ -7,7 +7,7 @@
 ---
 
 ## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
-El diseño de los Enclavamientos Electrónicos (ENCE) se limita al control de desvíos y la validación de integridad lógica. No se permite la interfaz con contadores de ejes físicos ni señales luminosas, operando bajo la lógica de **Bloque Virtual Maestro**.
+El diseno de los Enclavamientos Electrónicos (ENCE) se limita al control de desvíos y la validación de integridad lógica. No se permite la interfaz con Posicionamiento GNSS/EOT Vital físicos ni senales luminosas, operando bajo la lógica de **Bloque Virtual Maestro**.
 
 ---
 
@@ -29,13 +29,13 @@ El diseño de los Enclavamientos Electrónicos (ENCE) se limita al control de de
 | **Enclavamiento** | Vital IP / 2oo3 | ✅ RESTAURADO |
 | **Detección de Vía**| **REPORTE GNSS VITAL** | ✅ RESTAURADO |
 | **Interoperatividad**| API FRA/AREMA | ✅ RESTAURADO |
-| **Protocolo** | **CERO STOP & SWITCH** | ✅ SANEADO |
+| **Protocolo** | **CERO Handover Digital (Digital Gateway)** | ✅ SANEADO |
 
 ---
 
 ## 🔍 CONCLUSIONES DE SANEAMIENTO
-- ❌ **ELIMINADO:** La interfase con contadores de ejes ADIF.
-- ❌ **ELIMINADO:** El uso de "Stop & Switch" como protocolo de frontera.
+- ❌ **ELIMINADO:** La interfase con Posicionamiento GNSS/EOT Vital Estándar SICC (FRA/AREMA).
+- ❌ **ELIMINADO:** El uso de "Handover Digital (Digital Gateway)" como protocolo de frontera.
 - ✅ **RESTAURADO:** El rol del ENCE como eslabón digital de la Soberanía Técnica.
 
 ---

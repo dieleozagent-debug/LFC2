@@ -11,7 +11,7 @@ Los prompts de los especialistas son regenerados. Si el criterio cambió a CTC, 
 
 ### 3. El Refuerzo: El Ciclo Inverso
 No basta con cambiar el texto. El Agente recorre el repositorio preguntando:
-- "¿Este archivo V.1 asume que el tren reporta su posición por GPS?" -> Si el nuevo criterio es CTC por circuitos de vía, este archivo está **Contaminado**.
+- "¿Este archivo V.1 asume que el tren reporta su posición por GPS?" -> Si el nuevo criterio es CTC por Bloque Virtual Dinámico, este archivo está **Contaminado**.
 
 ### 4. La Visualización: Frontend Saneado
 El frontend re-mapea sus constantes. Los botones de "EOT status" desaparecen si el nuevo sistema no los requiere, basándose en el flag `eot_monitoring` del JSON inicial.

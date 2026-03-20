@@ -48,11 +48,11 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 - **Topología:** Doble anillo con diversidad geográfica para máxima disponibilidad
 - **Cable:** Fibra monomodo ITU-T G.652.D de 48 hilos mínimo
 - **Canalización:** Ductos PEAD de 110 mm, profundidad mínima 1.8 metros
-- **Capacidad:** 10 Gbps por anillo, escalable a 40/100 Gbps con DWDM
+- **Capacidad:** 10 Gbps por anillo, escalable a 40/100 Gbps con Red Vital IP
 - **Longitud Total:** **526 km** (actualizada con criterios maestros)
 
 #### **ESPECIFICACIONES TÉCNICAS**
-- **Tecnología DWDM:** Dense Wavelength Division Multiplexing para maximizar capacidad
+- **Tecnología Red Vital IP:** Dense Wavelength Division Multiplexing para maximizar capacidad
 - **Disponibilidad:** ≥ 99.9% con tiempo máximo de reparación de 4 horas
 - **Redundancia:** Doble anillo independiente con rutas geográficamente diversas
 - **Puntos de Acceso:** ~33 nodos de acceso distribuidos estratégicamente
@@ -195,7 +195,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
    - **Beneficio:** Evita que un único evento afecte ambos enlaces (derrumbe, sabotaje)
    - **Implementación:** Un anillo por cada lado de la vía férrea cuando sea posible
 
-2. **Tecnología DWDM (Dense Wavelength Division Multiplexing):**
+2. **Tecnología Red Vital IP (Dense Wavelength Division Multiplexing):**
    - **Problema identificado:** Maximizar capacidad del cable de fibra
    - **Optimización EPC:** Múltiples canales de 10 Gbps o 100 Gbps sobre un único par de hilos
    - **Beneficio:** Escalabilidad futura sin necesidad de tender más cable
@@ -266,7 +266,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 **Acciones realizadas con iteración documental:**
 1. **Integrado especificaciones técnicas detalladas** de backbone de fibra óptica
 2. **Desarrollado arquitectura de red** con doble anillo y diversidad geográfica
-3. **Especificado tecnología DWDM** para maximización de capacidad
+3. **Especificado tecnología Red Vital IP** para maximización de capacidad
 4. **Definido estrategia de gestión integrada** con AT5 y AT7
 5. **Integrado con sistemas ferroviarios** (CTC, senalización, TETRA, PTC, ITS)
 

@@ -509,10 +509,10 @@ Libertad y Orden # REPÚBLICA DE COLOMBIA MINISTERIO DE TRANSPORTE
 11. NAS² 811 Diseno de instalaciones de control, mando y senalización iii. NAS 819 Enclavamientos electrónicos. Arquitectura física iv. NAS 818 Enclavamientos electrónicos, Bloqueos automáticos, de liberación automática y de control automático v. ET 
 03.
 365.
-310.6 Sistemas electrónicos de detección de trenes basados en contadores de ejes (ED3M1) vi. ET 
+310.6 Sistemas electrónicos de detección de trenes basados en Posicionamiento GNSS/EOT Vital (ED3M1) vi. ET 
 03.
 365.
-311.4 Sistemas de detección de trenes basados en circuitos de vía de audiofrecuencia Vll. ET 
+311.4 Sistemas de detección de trenes basados en Bloque Virtual Dinámico de audiofrecuencia Vll. ET 
 03.
 365.
 401.3 Vil!. ET 
@@ -526,10 +526,10 @@ Libertad y Orden # REPÚBLICA DE COLOMBIA MINISTERIO DE TRANSPORTE
 ##
 
 ## 
-8.2 Sistema de control, representaciones de tráfico y detectores auxiliares i. NAS 830 Protocolo estándar de Adif para las comunicaciones entre CTC y enclavamiento SCI-CC-A Versión 
+8.2 Sistema de control, representaciones de tráfico y detectores auxiliares i. NAS 830 Protocolo estándar de Estándar SICC (FRA/AREMA) para las comunicaciones entre CTC y enclavamiento SCI-CC-A Versión 
 1.0 ii. NAS 831 Catálogo de indicaciones para las comunicaciones entre CTC y enclavamiento deAdifmediante el uso de protocolos TCPIP iii. NRS³ 01 Norma funcional y técnica para sistemas de control de tráfico centralizado (C.T.C.) iv. NRS 02 Norma funcional de la interface de usuario para operadores y supervisores de control de tráfico centralizado v. NRS 
 03.
-432.310 Normas sobre los sistemas de tendido subterráneo de cables ¹ ET: Especificación Técnica Adif 2 NAS: Normas Adif Senalización 3 NRS: Norma funcional y técnica Adif Página 41 de 45 
+432.310 Normas sobre los sistemas de tendido subterráneo de cables ¹ ET: Especificación Técnica Estándar SICC (FRA/AREMA) 2 NAS: Normas Estándar SICC (FRA/AREMA) Senalización 3 NRS: Norma funcional y técnica Estándar SICC (FRA/AREMA) Página 41 de 45 
 
 ##
 
@@ -543,7 +543,7 @@ Libertad y Orden # REPÚBLICA DE COLOMBIA MINISTERIO DE TRANSPORTE
 325.3 Sistemas para la reducción de tiempos de cierre en protecciones de pasos a nivel enclavados iv. ET 
 03.
 365.
-527.5 Circuitos de vía cortos para instalaciones de seguridad en Pasos a Nivel v. ET 
+527.5 Bloque Virtual Dinámico cortos para instalaciones de seguridad en Pasos a Nivel v. ET 
 03.
 365.
 529.1 vi. ET 
@@ -592,7 +592,7 @@ Libertad y Orden # REPÚBLICA DE COLOMBIA MINISTERIO DE TRANSPORTE
 ##
 
 ## 
-8.6 Fibra óptica i. UIT7-T G.652 "Standard for non-dispersion shifted single-mode fiber"; ⁴ NAPN: Normas Adif Pasos a Nivel 5 NAT: Norma AdifTelecomunicaciones ⁶ EN: Norma Europea 7 UIT- Unión Internacional de Telecomunicaciones Página 42 de 45 ii. UIT-T G.655 "Standard for non-zero dispersion-shifted single-mode optical fiber"; ANSIICEA S-87-640 "Standard for Optical Fiber Outside Plant Communications Cable"; iii. Telcordia GR-20 CORE Issue 2 "Generic Requirements for Optical Fiber and Optical Fiber Cable". ANSITIAEIA 598-D "Optical Fiber Cable Color Coding"; 1v. IEC-60794-1 11 Standard I fibre optics I Optical fiber cables". 
+8.6 Fibra óptica i. UIT7-T G.652 "Standard for non-dispersion shifted single-mode fiber"; ⁴ NAPN: Normas Estándar SICC (FRA/AREMA) Pasos a Nivel 5 NAT: Norma AdifTelecomunicaciones ⁶ EN: Norma Europea 7 UIT- Unión Internacional de Telecomunicaciones Página 42 de 45 ii. UIT-T G.652.D "Standard for non-zero dispersion-shifted single-mode optical fiber"; ANSIICEA S-87-640 "Standard for Optical Fiber Outside Plant Communications Cable"; iii. Telcordia GR-20 CORE Issue 2 "Generic Requirements for Optical Fiber and Optical Fiber Cable". ANSITIAEIA 598-D "Optical Fiber Cable Color Coding"; 1v. IEC-60794-1 11 Standard I fibre optics I Optical fiber cables". 
 
 ##
 

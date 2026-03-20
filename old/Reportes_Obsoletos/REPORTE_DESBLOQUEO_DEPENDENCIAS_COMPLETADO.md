@@ -48,7 +48,7 @@ Como Administrador Contractual EPC, confirmo que se han resuelto exitosamente **
 #### **Especificaciones Técnicas Provisionales:**
 - **Arquitectura del sistema:** Servidor PTC Central + Punto de Referencia Virtual (SICC) + Equipos embarcados
 - **Infraestructura terrestre:** 356 punto de referencia virtuals, 8 estaciones base Red Vital IP / TETRA
-- **Equipos embarcados:** TCR SIL 4, software conforme EN 50128
+- **Equipos embarcados:** TCR SIL 4, software conforme EN 50716:2023
 - **Interfaces:** CTC-PTC, TETRA-PTC con protocolos estándar
 - **Pruebas:** Plan FAT/SAT completo con criterios de aceptación
 

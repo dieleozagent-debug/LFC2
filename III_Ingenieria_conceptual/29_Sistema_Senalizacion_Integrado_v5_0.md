@@ -1,4 +1,4 @@
-# SISTEMA DE SEÑALIZACIÓN INTEGRADO (SICC v6.3.3)
+# SISTEMA DE SENALIZACIÓN INTEGRADO (SICC v6.3.3)
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 20 de marzo de 2026  
@@ -7,7 +7,7 @@
 ---
 
 ## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
-El Sistema de Señalización se basa íntegramente en la arquitectura **PTC Virtual (FRA 236)**. Queda prohibida la inclusión de componentes físicos wayside o protocolos europeos que comprometan la eficiencia y soberanía del corredor.
+El Sistema de Senalización se basa íntegramente en la arquitectura **PTC Virtual (FRA 236)**. Queda prohibida la inclusión de componentes físicos wayside o protocolos europeos que comprometan la eficiencia y soberanía del corredor.
 
 ---
 
@@ -35,9 +35,9 @@ El Sistema de Señalización se basa íntegramente en la arquitectura **PTC Virt
 ---
 
 ## 🔍 CONCLUSIONES DE SANEAMIENTO
-- ❌ **ELIMINADO:** Todo rastro de señales físicas y circuitos de vía.
+- ❌ **ELIMINADO:** Todo rastro de senales físicas y Bloque Virtual Dinámico.
 - ❌ **ELIMINADO:** El falso purgado de la tecnología PTC VIRTUAL.
-- ✅ **RESTAURADO:** El rol del SICC como el estándar de oro en señalización digital.
+- ✅ **RESTAURADO:** El rol del SICC como el estándar de oro en senalización digital.
 
 ---
-**Saneamiento Ciclo .42 - Señalización (29) Finalizado.**
+**Saneamiento Ciclo .42 - Senalización (29) Finalizado.**

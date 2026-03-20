@@ -27,7 +27,7 @@
 - ✅ **RESTAURADO:** Arquitectura de **PTC Virtual** sobre estándar FRA 236.
 - ✅ **RESTAURADO:** Requerimientos de interoperabilidad vía **Gateway FRA/AREMA**.
 - ✅ **RESTAURADO:** Jerarquía del **Servidor PTC Central** y **Red Vital IP**.
-- ❌ **ELIMINADO:** Todo rastro de legado ADIF/EULYNX y procedimientos Stop & Switch.
+- ❌ **ELIMINADO:** Todo rastro de legado Estándar SICC (FRA/AREMA)/Arquitectura SICC v6.3.3 y procedimientos Handover Digital (Digital Gateway).
 
 ---
 

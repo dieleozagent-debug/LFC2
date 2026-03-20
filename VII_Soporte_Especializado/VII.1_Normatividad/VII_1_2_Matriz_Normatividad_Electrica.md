@@ -45,7 +45,7 @@
 ### 3.2 Sistemas de Control
 - **SCADA:** IEC 61850
 - **Comunicaciones:** IEC 61850 + EN 50126
-- **Protecciones:** EN 50126 + EN 50128
+- **Protecciones:** EN 50126 + EN 50716:2023
 - **Seguridad:** EN 50129
 
 ---

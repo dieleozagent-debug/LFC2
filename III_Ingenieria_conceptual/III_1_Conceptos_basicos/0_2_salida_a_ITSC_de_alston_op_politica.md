@@ -30,7 +30,7 @@ La transición operativa en el nodo de Chiriguaná se realiza exclusivamente med
 ---
 
 ## 🔍 CONCLUSIONES DE SANEAMIENTO
-- ❌ **ELIMINADO:** Referencias a procedimientos manuales "Stop & Switch" (purgado de contaminación).
+- ❌ **ELIMINADO:** Referencias a procedimientos manuales "Handover Digital (Digital Gateway)" (purgado de contaminación).
 - ❌ **ELIMINADO:** Dependencia de protocolos de transición analógicos.
 - ✅ **RESTAURADO:** El flujo digital soberano en las fronteras del proyecto.
 

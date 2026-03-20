@@ -13,7 +13,7 @@
 Garantizar el intercambio digital ininterrumpido de trenes entre el corredor La Dorada - Chiriguaná (SICC v6.3.3) y la red de FENOCO, utilizando el **Gateway FRA/AREMA** como traductor de protocolos.
 
 ### 1.2 El Gateway FRA/AREMA
-Se descarta el procedimiento manual "Stop & Switch" por ineficiente y riesgoso. Se implementa una solución digital vital:
+Se descarta el procedimiento manual "Handover Digital (Digital Gateway)" por ineficiente y riesgoso. Se implementa una solución digital vital:
 - **Handover Automático:** Transferencia de autoridad de movimiento segura (Vital).
 - **Mapeo de Vía:** Consolidación de misiones en el **Servidor PTC Central**.
 - **Comunicación IP:** Reporte inmediato a la **ANI** vía Red Vital IP.
@@ -21,8 +21,8 @@ Se descarta el procedimiento manual "Stop & Switch" por ineficiente y riesgoso. 
 ---
 
 ## 2. 🛡️ AUDITORÍA DE PURGA (LEGADO ELIMINADO)
-- ❌ **ELIMINADO:** Proceso manual "Stop & Switch".
-- ❌ **ELIMINADO:** Referencias a estándares europeos (EULYNX/ADIF) no aplicables.
+- ❌ **ELIMINADO:** Proceso manual "Handover Digital (Digital Gateway)".
+- ❌ **ELIMINADO:** Referencias a estándares europeos (Arquitectura SICC v6.3.3/Estándar SICC (FRA/AREMA)) no aplicables.
 - ✅ **RESTAURADO:** Jerarquía del **Servidor PTC Central** como cerebro de interoperabilidad.
 - ✅ **RESTAURADO:** Protocolo **FRA/AREMA SICC** para intercambio técnico.
 

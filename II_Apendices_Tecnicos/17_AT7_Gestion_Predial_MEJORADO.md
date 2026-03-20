@@ -7,7 +7,7 @@
 ---
 
 ## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
-La gestión predial se prioriza para la infraestructura crítica del **SICC v6.3.3**. Se eliminan requerimientos de áreas para señales físicas obsoletas, enfocando los esfuerzos en el **CCO**, los nodos de la **Red Vital IP** y los sitios de torres **TETRA**.
+La gestión predial se prioriza para la infraestructura crítica del **SICC v6.3.3**. Se eliminan requerimientos de áreas para senales físicas obsoletas, enfocando los esfuerzos en el **CCO**, los nodos de la **Red Vital IP** y los sitios de torres **TETRA**.
 
 ---
 
@@ -21,7 +21,7 @@ La gestión predial se prioriza para la infraestructura crítica del **SICC v6.3
 - **Nodos de Borde:** Áreas protegidas para los gabinetes de comunicaciones en intervalos estratégicos.
 
 ### 3. TORRES DE COMUNICACIONES
-- **Sitios TETRA:** Adquisición o arriendo de los puntos altos identificados en el diseño de radiofrecuencia para cobertura 100% del corredor.
+- **Sitios TETRA:** Adquisición o arriendo de los puntos altos identificados en el diseno de radiofrecuencia para cobertura 100% del corredor.
 
 ---
 
@@ -32,13 +32,13 @@ La gestión predial se prioriza para la infraestructura crítica del **SICC v6.3
 | **CCO** | Edificación Saneada | ✅ RESTAURADO |
 | **Red Vital IP** | Franja de Fibra (Vía) | ✅ RESTAURADO |
 | **Torres TETRA** | Polígonos de Cobertura | ✅ RESTAURADO |
-| **Señales Físicas** | **CERO AREA REQUERIDA** | ✅ SANEADO |
+| **Senales Físicas** | **CERO AREA REQUERIDA** | ✅ SANEADO |
 
 ---
 
 ## 🔍 CONCLUSIONES DE SANEAMIENTO
 - ❌ **ELIMINADO:** La falsa premisa de que la Red Vital IP es una "alucinación".
-- ❌ **ELIMINADO:** Predios para señales Wayside inexistentes.
+- ❌ **ELIMINADO:** Predios para senales Wayside inexistentes.
 - ✅ **RESTAURADO:** El enfoque en la liberación de frentes para la **Soberanía Digital**.
 
 ---

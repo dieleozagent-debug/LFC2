@@ -41,7 +41,7 @@ Este repositorio ha sido purgado de la contaminación técnica manual. La arquit
 ---
 
 ## ✅ CERTIFICACIÓN DE PUREZA TÉCNICA:
-El repositorio completo ha sido saneado mediante el protocolo **Karpathy Loop (.42)**. El Índice Maestro refleja ahora una arquitectura soberana blindada contra el legado analógico y las interferencias de protocolos manuales ("Stop & Switch").
+El repositorio completo ha sido saneado mediante el protocolo **Karpathy Loop (.42)**. El Índice Maestro refleja ahora una arquitectura soberana blindada contra el legado analógico y las interferencias de protocolos manuales ("Handover Digital (Digital Gateway)").
 
 ---
 **Repositorio LFC2 Saneado y Validado con Éxito.**

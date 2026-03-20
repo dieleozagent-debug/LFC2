@@ -7,7 +7,7 @@
 ---
 
 ## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
-El Plan de Pruebas certifica la **Soberanía Digital** del sistema. Se validará el rendimiento de la **Red Vital IP** como enlace primario y la lógica del **Vital Server** en escenarios de alta carga, descartando cualquier validación de señales físicas inexistentes.
+El Plan de Pruebas certifica la **Soberanía Digital** del sistema. Se validará el rendimiento de la **Red Vital IP** como enlace primario y la lógica del **Vital Server** en escenarios de alta carga, descartando cualquier validación de senales físicas inexistentes.
 
 ---
 
@@ -35,7 +35,7 @@ El Plan de Pruebas certifica la **Soberanía Digital** del sistema. Se validará
 
 ## 🔍 CONCLUSIONES DE SANEAMIENTO
 - ❌ **ELIMINADO:** Corrupciones de texto que fusionaban 'Red Vital IP' con 'TETRA'.
-- ❌ **ELIMINADO:** Pruebas basadas en el procedimiento manual "Stop & Switch".
+- ❌ **ELIMINADO:** Pruebas basadas en el procedimiento manual "Handover Digital (Digital Gateway)".
 - ✅ **RESTAURADO:** El rigor técnico de la validación soberana.
 
 ---

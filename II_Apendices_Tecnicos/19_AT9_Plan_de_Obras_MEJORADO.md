@@ -7,7 +7,7 @@
 ---
 
 ## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA (DBCD v6.3)
-El Plan de Obras se ajusta estrictamente a la arquitectura **Zero-Wayside**. Queda terminantemente prohibida la instalación de señales LED, circuitos de vía de audiofrecuencia o cualquier componente del legado europeo ADIF. El cronograma se centra en el despliegue de la inteligencia a bordo y la red soberana.
+El Plan de Obras se ajusta estrictamente a la arquitectura **Zero-Wayside**. Queda terminantemente prohibida la instalación de senales LED, Bloque Virtual Dinámico de audiofrecuencia o cualquier componente del legado europeo Estándar SICC (FRA/AREMA). El cronograma se centra en el despliegue de la inteligencia a bordo y la red soberana.
 
 ---
 
@@ -35,15 +35,15 @@ El Plan de Obras se ajusta estrictamente a la arquitectura **Zero-Wayside**. Que
 | Sistema | Acción de Obra | Estado SICC |
 |:---|:---|:---:|
 | **Comunicaciones** | Red Vital IP (Fibra) | ✅ RESTAURADO |
-| **Señalización** | Enclavamiento Lógico (CCO) | ✅ RESTAURADO |
+| **Senalización** | Enclavamiento Lógico (CCO) | ✅ RESTAURADO |
 | **Material Rodante** | Equipamiento PTC (OBC) | ✅ RESTAURADO |
-| **Wayside** | **ELIMINADO (0 SEÑALES)** | ✅ SANEADO |
+| **Wayside** | **ELIMINADO (0 SENALES)** | ✅ SANEADO |
 
 ---
 
 ## 🔍 CONCLUSIONES DE SANEAMIENTO
-- ❌ **ELIMINADO:** Todo rastro de protocolos ADIF / SCI-CC-A.
-- ❌ **ELIMINADO:** Instalación de circuitos de vía y señales físicas.
+- ❌ **ELIMINADO:** Todo rastro de protocolos Estándar SICC (FRA/AREMA) / SCI-CC-A.
+- ❌ **ELIMINADO:** Instalación de Bloque Virtual Dinámico y senales físicas.
 - ✅ **RESTAURADO:** Un cronograma eficiente centrado en la **Soberanía Digital**.
 
 ---

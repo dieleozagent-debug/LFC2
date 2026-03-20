@@ -1,80 +1,64 @@
 /**
  * LFC TERMINOLOGY & DBCI (Design Basis & Concepts Integrity)
- * Single Source of Truth for Technical Constraints v6.0
+ * Single Source of Truth for Technical Constraints v6.3.3 SOBERANO
  */
 
 const LFC_DBCI = {
     PROJECT: {
         NAME: "LFC STUDIO",
         FULL_LOCATION: "APP La Dorada-Chiriguaná",
-        VERSION: "v6.3.2 Masterchef",
+        VERSION: "v6.3.3 Sovereign Restoration",
     },
 
     // CONSTANTES FÍSICAS INAMOVIBLES (La Biblia de Ingeniería)
     PHYSICS: {
-        CORRIDOR_KM: 526,           // Longitud contractual base
-        GASA_TECNICA_PERCENT: 0.10, // 10% adicional para instalación
-        TOTAL_INSTALACION_KM: 579,  // 526 * 1.10 rounded
-        LOCOMOTORAS_TOTAL: 15,      // Flota operativa completa
-        ESTACIONES_TORRES: 37,      // Nodos de comunicación
-        ENCE_ESTACIONES: 5,         // Enclavamientos
-        CCTV_CAMARAS: 73            // Cámaras corredor
+        CORRIDOR_KM: 526.133,       
+        LOCOMOTORAS_TOTAL: 15,      
+        ESTACIONES_TORRES: 37,      
+        ENCE_ESTACIONES: 5,         
+        CCTV_CAMARAS: 73            
     },
     
-    // TÉRMINOS SOBERANOS (Lo que DEBE aparecer)
+    // TÉRMINOS SOBERANOS (Lo que DEBE aparecer - LA RECETA PURA)
     SOVEREIGN: {
-        SIGNALING: "SICC (Sistema de Intervención y Control Centralizado)",
-        PTC: "PTC Nativo (Positive Train Control - FRA 236)",
-        STANDARDS: "FRA / AREMA / AAR (Soberanía)",
-        TRACTION: "Tracción Diesel-Eléctrica",
-        COMMS: "Red Vital IP / TETRA / LTE",
-        GNSS: "Nodos GNSS (SICC)"
+        SIGNALING: "SICC v6.3.3 (Sistema de Intervención y Control Centralizado)",
+        PTC: "PTC Virtual (Positive Train Control - FRA 236-I)",
+        BACKBONE: "Red Vital IP (Broadband Sovereign)",
+        STANDARDS: "FRA / AREMA / AAR (Soberanía Digital)",
+        COMMS: "Red Vital IP / TETRA / LTE (Broadband)",
+        DETECTION: "Bloque Virtual (GNSS / EOT)"
     },
     
-    // BLACKLIST LEGACY (Lo que NO puede existir - SACC)
+    // BLACKLIST LEGACY (Lo que NO puede existir - EL VENENO)
     LEGACY_BLACKLIST: [
-        "Baliza Virtual (GNSS)", "EUROBALISE", "SICC PTC Virtual", "RADIO BLOCK CENTRE", "ETCS", "ASFA",
-        "RED TETRA MISION CRITICA", "TETRA Misión Crítica", "RED TETRA (Misión Crítica)", "RED TETRA (Mision Critica)",
-        "CATENARIA", "TRACCIÓN ELÉCTRICA", "TRACCION ELECTRICA", "25 KV", "3 KV", "60 HZ",
-        "PANTÓGRAFO", "PANTOGRAFO", "SUBESTACIÓN DE TRACCIÓN", "SUBESTACION DE TRACCION",
-        "ITCS", "Interlocking Propietario", "Señales LED", "Señalización Lateral"
+        "Stop & Switch", "Stop and Switch", "ADIF", "EULYNX", "GSM-R", "EUROBALISE", "EUROBALIZAS",
+        "RBC", "Radio Block Centre", "ERTMS", "ETCS", "ASFA", "UNISIG", "UIC TSI",
+        "Contadores de ejes", "Circuitos de via", "SICC Legacy", "Manual de Frontera"
     ],
 
     // MAPEO DE CORRECCIÓN DETERMINISTA (Manual del Chef - Purity by Design)
     CORRECTION_MAP: {
-        "SICC PTC Virtual": "Servidor PTC Central",
-        "Radio Block Centre": "Servidor PTC Central",
-        "RBC": "Servidor PTC Central",
-        "Baliza Virtual (GNSS)": "Nodos GNSS (SICC)",
-        "Eurobalise": "Nodos GNSS (SICC)",
-        "EUROBALISE": "Nodos GNSS (SICC)",
-        "EUROBALISES": "Punto de Referencia Virtual (SICC)",
-        "Señalización Física": "Filosofía PTC Virtual",
-        "Señales LED": "Señalización en Cabina (Cab-Signaling)",
-        "ITCS": "PTC Nativo (FRA 49 CFR 236)",
-        "RED TETRA Misión Crítica": "Red Vital IP / TETRA",
-        "RED TETRA (Misión Crítica)": "Red Vital IP / TETRA",
-        "RED TETRA (Mision Critica)": "Red Vital IP / TETRA",
-        "TRACCIÓN ELÉCTRICA": "Soberanía Diésel-Eléctrica",
-        "TRACCION ELECTRICA": "Soberanía Diésel-Eléctrica",
-        "25 KV": "[ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL]",
-        "25 KV/0.4 KV": "[ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL]",
-        "25 KVA": "[ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL]",
-        "3 KV": "[ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL]",
-        "60 HZ": "[ESTÁNDAR PROHIBIDO: FRECUENCIA FERROVIARIA NO APLICABLE]",
-        "Señales LED": "Señalización en Cabina (Cab-Signaling)",
-        "Señalización Lateral": "Señalización en Cabina (Cab-Signaling)",
-        "CATENARIA": "[INFRAESTRUCTURA PROHIBIDA]",
-        "Baliza Virtual (GNSS)": "Punto de Referencia Virtual (SICC)",
-        "EUROBALISE": "Punto de Referencia Virtual (SICC)",
-        "Virtual Balise (GNSS)": "Punto de Referencia Virtual (SICC)",
-        "ASFA": "SICC Virtual Protection (SVP)",
-        "UNISIG": "Protocolo Vital IP (SICC)",
+        // Purga de Manualidad
+        "Stop & Switch": "Handover Digital (Digital Gateway)",
+        "Stop and Switch": "Handover Digital (Digital Gateway)",
+        "Manual de Frontera": "Protocolo Digital Vital",
+        
+        // Purga de Legado Europeo
+        "ADIF": "Estándar SICC (FRA/AREMA)",
+        "EULYNX": "Arquitectura SICC v6.3.3",
+        "Eurobalise": "Punto de Referencia Virtual (GNSS)",
+        "EUROBALISE": "Punto de Referencia Virtual (GNSS)",
+        "GSM-R": "Red Vital IP (Broadband)",
+        "ETCS": "PTC Virtual (SICC)",
         "ERTMS": "PTC Virtual (SICC)",
-        "CIRCUITO DE VIA": "Detección Virtual (EOT/GNSS)",
-        "BALIZA": "Punto de Referencia Virtual",
-        "LEU": "[CONTROLLER PROHIBIDO - SICC ES VIRTUAL]",
-        "ETCS": "PTC Virtual (SICC)"
+        "RBC": "Servidor Maestro SICC",
+        "Radio Block Centre": "Servidor Maestro SICC",
+        
+        // Purga de Hardware Wayside
+        "Contadores de ejes": "Posicionamiento GNSS/EOT Vital",
+        "Circuitos de via": "Bloque Virtual Dinámico",
+        "Circuitos de vía": "Bloque Virtual Dinámico",
+        "Sistemas Propietarios": "Ecosistema Digital Abierto"
     },
 
     FINANCIAL: {

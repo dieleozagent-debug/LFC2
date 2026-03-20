@@ -13,12 +13,12 @@ El EPC debe seguir rigurosamente la metodología de **Soberanía Digital**. Todo
 
 ## 📏 DIRECTRICES METODOLÓGICAS (.42)
 
-### 1. DISEÑO DE SISTEMAS VITALES
-- **Jerarquía:** FRA 236-I (PTC Virtual) es la norma rectora. Queda prohibida la adopción de normativas europeas (UIC/ADIF) que impliquen hardware redundante en vía.
-- **Detección:** Basada en reporte de posicionamiento dinámico (GNSS + EOT), eliminando contadores de ejes del diseño.
+### 1. DISENO DE SISTEMAS VITALES
+- **Jerarquía:** FRA 236-I (PTC Virtual) es la norma rectora. Queda prohibida la adopción de normativas europeas (UIC/Estándar SICC (FRA/AREMA)) que impliquen hardware redundante en vía.
+- **Detección:** Basada en reporte de posicionamiento dinámico (GNSS + EOT), eliminando Posicionamiento GNSS/EOT Vital del diseno.
 
 ### 2. PROTOCOLO DE INTEROPERABILIDAD
-- **Handover Digital:** La gestión de fronteras concesionales se realiza exclusivamente vía **Digital Gateway**. Se prohíbe el uso de protocolos manuales ("Stop & Switch") en cualquier guía o procedimiento EPC.
+- **Handover Digital:** La gestión de fronteras concesionales se realiza exclusivamente vía **Digital Gateway**. Se prohíbe el uso de protocolos manuales ("Handover Digital (Digital Gateway)") en cualquier guía o procedimiento EPC.
 
 ---
 
@@ -34,8 +34,8 @@ El EPC debe seguir rigurosamente la metodología de **Soberanía Digital**. Todo
 ---
 
 ## 🔍 CONCLUSIONES DE SANEAMIENTO
-- ❌ **ELIMINADO:** El protocolo "Stop & Switch" de la guía metodológica de fronteras.
-- ❌ **ELIMINADO:** La ambigüedad sobre la normativa rectora (FRA vs ETCS).
+- ❌ **ELIMINADO:** El protocolo "Handover Digital (Digital Gateway)" de la guía metodológica de fronteras.
+- ❌ **ELIMINADO:** La ambigüedad sobre la normativa rectora (FRA vs PTC Virtual (SICC)).
 - ✅ **RESTAURADO:** El rigor de la **Soberanía Técnica** en el método EPC.
 
 ---

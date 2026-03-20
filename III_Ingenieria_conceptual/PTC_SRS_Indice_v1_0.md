@@ -48,7 +48,7 @@ Este SRS define los requerimientos funcionales y de seguridad para el sistema **
 
 ## 🔍 AUDITORÍA DE SOBERANÍA (P.42):
 - ✅ **RESTAURADO:** Requerimientos del Servidor PTC Central y Red Vital IP.
-- ✅ **ELIMINADO:** Legado europeo ADIF y procedimientos manuales Stop & Switch.
+- ✅ **ELIMINADO:** Legado europeo Estándar SICC (FRA/AREMA) y procedimientos manuales Handover Digital (Digital Gateway).
 - ✅ **ADOPTADO:** Estándar **SICC v6.3.3** bajo normativa FRA y AREMA.
 
 ---

@@ -85,7 +85,7 @@ Se ha iniciado la **Fase 1: Validación Técnica y Contractual** del proyecto, v
 
 ### **✅ Normas Internacionales Aplicadas**
 - **EN 50126:** Aplicación de técnicas de fiabilidad (632+ referencias)
-- **EN 50128:** Sistemas de software para control ferroviario
+- **EN 50716:2023:** Sistemas de software para control ferroviario
 - **EN 50129:** Sistemas de senalización ferroviaria
 - **IEC 62290:** Sistemas de gestión del tráfico ferroviario
 - **FRA/AREMA 615:** Senalización ferroviaria

@@ -1,4 +1,4 @@
-# SEÑALIZACIÓN FERROVIARIA - INGENIERÍA DE DETALLE (SICC v6.3.3)
+# SENALIZACIÓN FERROVIARIA - INGENIERÍA DE DETALLE (SICC v6.3.3)
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 20 de marzo de 2026  
@@ -7,7 +7,7 @@
 ---
 
 ## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
-Este documento detalla la ejecución del sistema de señalización bajo arquitectura **Zero-Wayside**. Se eliminan todos los dispositivos físicos de detección (Axle Counters) y señales luminosas externas, delegando la seguridad vital al **Bloque Virtual (V-Block)** gestionado por el **Vital Server**.
+Este documento detalla la ejecución del sistema de senalización bajo arquitectura **Zero-Wayside**. Se eliminan todos los dispositivos físicos de detección (Axle Counters) y senales luminosas externas, delegando la seguridad vital al **Bloque Virtual (V-Block)** gestionado por el **Vital Server**.
 
 ---
 
@@ -18,9 +18,9 @@ Este documento detalla la ejecución del sistema de señalización bajo arquitec
 - **Integridad de Cola:** Verificada por el dispositivo **EOT Vital** mediante enlace ZigBee/Red Vital IP con la locomotora.
 - **Validación Lógica:** El **Vital Server** realiza el seguimiento de la ocupación virtual basándose en las autorizaciones de movimiento (MA) concedidas.
 
-### 2. SEÑALIZACIÓN EN CABINA (DMI)
+### 2. SENALIZACIÓN EN CABINA (DMI)
 - **Interfaz Maquinista:** Toda la información de límites de velocidad y autoridad de movimiento se presenta en el terminal **DMI (Driver Machine Interface)** del OBC.
-- **Cero Señales Externas:** No se instalan semáforos ni indicadores luminosos en el corredor, reduciendo el riesgo de vandalismo y CAPEX de mantenimiento.
+- **Cero Senales Externas:** No se instalan semáforos ni indicadores luminosos en el corredor, reduciendo el riesgo de vandalismo y CAPEX de mantenimiento.
 
 ### 3. ENCLAVAMIENTO (ENCE LÓGICO)
 - **Control de Puntos:** Los ENCE gestionan exclusivamente el estado de los desvíos y reportan el enclavamiento lógico al CCO.
@@ -35,14 +35,14 @@ Este documento detalla la ejecución del sistema de señalización bajo arquitec
 | **Computadora OBC** | AAR Compliant | Cálculo de Frenado Vital | ✅ RESTAURADO |
 | **EOT Vital** | ZigBee / Vital IP | Detección de Integridad | ✅ RESTAURADO |
 | **Controlador Desvío**| Vital IP Switch | Mando de Agujas | ✅ RESTAURADO |
-| **Contador de Ejes** | **NINGUNO** | **ELIMINADO POR DISEÑO** | ✅ SANEADO |
+| **Contador de Ejes** | **NINGUNO** | **ELIMINADO POR DISENO** | ✅ SANEADO |
 
 ---
 
 ## 🔍 CONCLUSIONES DE SANEAMIENTO
-- ❌ **ELIMINADO:** El uso de contadores de ejes ADIF (sabotaje de hardware físico).
-- ❌ **ELIMINADO:** El despliegue de señales LED externas (obsoletas en SICC).
-- ✅ **RESTAURADO:** El diseño de detalle 100% digital y soberano.
+- ❌ **ELIMINADO:** El uso de Posicionamiento GNSS/EOT Vital Estándar SICC (FRA/AREMA) (sabotaje de hardware físico).
+- ❌ **ELIMINADO:** El despliegue de senales LED externas (obsoletas en SICC).
+- ✅ **RESTAURADO:** El diseno de detalle 100% digital y soberano.
 
 ---
-**Saneamiento Ciclo .42 - Señalización de Detalle (8.1) Finalizado.**
+**Saneamiento Ciclo .42 - Senalización de Detalle (8.1) Finalizado.**

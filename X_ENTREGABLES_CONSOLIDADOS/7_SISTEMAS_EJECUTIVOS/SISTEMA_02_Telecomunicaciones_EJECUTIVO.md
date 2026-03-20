@@ -191,7 +191,7 @@ El Sistema de Telecomunicaciones proporciona **comunicación en tiempo real** en
 |:-----------|:---------|:----------|:-------|
 | Cable de fibra óptica | 526 km | A lo largo del corredor | ⏳ En instalación |
 | Cajas de empalme | 2,068 unidades | Cada 300m | ⏳ En instalación |
-| Equipos DWDM | 8 unidades | Nodos principales | ✅ Entregados |
+| Equipos Red Vital IP | 8 unidades | Nodos principales | ✅ Entregados |
 | Respaldo satelital | 2 unidades | Centro de Control | ✅ Operativo |
 
 **Estado general:** 🟡 En progreso

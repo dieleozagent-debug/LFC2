@@ -24,7 +24,7 @@ archivos_actualizar:
 ```
 
 ## 1. Justificación Técnica
-Basado en el **DBCD-C1 (PTC Virtual)**, la arquitectura de control ferroviario ha migrado de sistemas intensivos en hardware wayside (senales, circuitos de vía) a un sistema basado en **Moving Block** y **GNSS**. 
+Basado en el **DBCD-C1 (PTC Virtual)**, la arquitectura de control ferroviario ha migrado de sistemas intensivos en hardware wayside (senales, Bloque Virtual Dinámico) a un sistema basado en **Moving Block** y **GNSS**. 
 
 Esta reducción drástica en la carga instalada en campo permite optimizar el CAPEX de la red eléctrica, reduciendo la capacidad total de 800 kVA a 300 kVA, garantizando una eficiencia del 99.95% para los Servidores Vitales 2oo3.
 

@@ -7,7 +7,7 @@
 ---
 
 ## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
-Este documento es la norma suprema para la toma de decisiones técnicas del proyecto. El sistema **SICC v6.3.3** basado en **PTC Virtual (FRA 236-I)** es el único estándar aceptado. Se rechaza cualquier normativa europea (ADIF/UIC) o procedimiento manual ("Stop & Switch") que contradiga la naturaleza digital y soberana del proyecto.
+Este documento es la norma suprema para la toma de decisiones técnicas del proyecto. El sistema **SICC v6.3.3** basado en **PTC Virtual (FRA 236-I)** es el único estándar aceptado. Se rechaza cualquier normativa europea (Estándar SICC (FRA/AREMA)/UIC) o procedimiento manual ("Handover Digital (Digital Gateway)") que contradiga la naturaleza digital y soberana del proyecto.
 
 ---
 
@@ -22,7 +22,7 @@ Este documento es la norma suprema para la toma de decisiones técnicas del proy
 - **Respaldo:** Red TETRA para voz y telemetría de emergencia.
 
 ### 3. INTEROPERABILIDAD: DIGITAL GATEWAY
-- **Handover Digital:** Las transiciones con FENOCO se gestionan mediante el **Digital Gateway (FRA/AREMA)**. Se prohíbe taxativamente el uso de "Stop & Switch".
+- **Handover Digital:** Las transiciones con FENOCO se gestionan mediante el **Digital Gateway (FRA/AREMA)**. Se prohíbe taxativamente el uso de "Handover Digital (Digital Gateway)".
 
 ---
 
@@ -30,7 +30,7 @@ Este documento es la norma suprema para la toma de decisiones técnicas del proy
 
 | Criterio | Estándar SICC | Estado SICC |
 |:---|:---|:---:|
-| **Señalización** | V-Block (Virtual) | ✅ RESTAURADO |
+| **Senalización** | V-Block (Virtual) | ✅ RESTAURADO |
 | **Material Rodante**| FRA / AAR (Diesel-Elec) | ✅ RESTAURADO |
 | **Interoperabilidad**| Digital Gateway API | ✅ RESTAURADO |
 | **Detección de Vía**| **POSICIÓN DINÁMICA VITAL**| ✅ RESTAURADO |
@@ -39,8 +39,8 @@ Este documento es la norma suprema para la toma de decisiones técnicas del proy
 ---
 
 ## 🔍 CONCLUSIONES DE SANEAMIENTO
-- ❌ **ELIMINADO:** El uso de normas ADIF para enclavamientos o CTC.
-- ❌ **ELIMINADO:** El procedimiento "Stop & Switch" de la matriz de interoperabilidad maestra.
+- ❌ **ELIMINADO:** El uso de normas Estándar SICC (FRA/AREMA) para enclavamientos o CTC.
+- ❌ **ELIMINADO:** El procedimiento "Handover Digital (Digital Gateway)" de la matriz de interoperabilidad maestra.
 - ✅ **RESTAURADO:** El ADN digital y soberano en la cúspide documental del proyecto.
 
 ---

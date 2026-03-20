@@ -311,7 +311,7 @@ Ejemplo práctico: Si AT3 especifica instalar el LFC-CCO (SICC), implícitamente
 
 4. Casos de Aplicación Práctica
 Caso 1: Especificaciones Técnicas Contradictorias
-Situación: Un anexo de proveedor especifica fibra óptica monomodo G.652, pero AT3 Cap. VIII.6 exige G.655Resolución: Prevalece AT3 (nivel 4 vs nivel 16)Acción EPC: Rechazar propuesta del proveedor y cumplir AT3
+Situación: Un anexo de proveedor especifica fibra óptica monomodo G.652, pero AT3 Cap. VIII.6 exige G.652.DResolución: Prevalece AT3 (nivel 4 vs nivel 16)Acción EPC: Rechazar propuesta del proveedor y cumplir AT3
 Caso 2: Cronograma vs Interventoría
 Situación: Interventoría propone modificar cronograma diferente a AT9Resolución: Prevalece AT9 (nivel 10). La interventoría no puede contradecir jerarquía contractualAcción EPC: Solicitar modificación contractual formal si se requiere cambio
 Caso 3: Obligación Implícita

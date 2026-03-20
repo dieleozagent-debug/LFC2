@@ -26,12 +26,12 @@ El Manual Integrado de Operación y Mantenimiento consolida la estrategia de **S
 | **Vital Server** | Redundancia 2oo3 (Caliente) | Smart-Diagnostics | ✅ RESTAURADO |
 | **Red Vital IP** | Monitoreo Backbone 24/7 | SNMP Sovereign | ✅ RESTAURADO |
 | **Gateway Interop**| Validación API Digital | FRA/AREMA Log | ✅ RESTAURADO |
-| **Protocolo O&M** | **DIGITAL NATAL** | **CERO STOP & SWITCH**| ✅ SANEADO |
+| **Protocolo O&M** | **DIGITAL NATAL** | **CERO Handover Digital (Digital Gateway)**| ✅ SANEADO |
 
 ---
 
 ## 🔍 CONCLUSIONES DE SANEAMIENTO
-- ❌ **ELIMINADO:** El uso de "Stop & Switch" como procedimiento de contingencia o normalidad.
+- ❌ **ELIMINADO:** El uso de "Handover Digital (Digital Gateway)" como procedimiento de contingencia o normalidad.
 - ❌ **ELIMINADO:** Protocolos analógicos que comprometen el uptime del sistema.
 - ✅ **RESTAURADO:** Un manual integrado que blinda la operación soberana.
 

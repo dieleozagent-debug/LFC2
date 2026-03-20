@@ -19,7 +19,7 @@ El material rodante adopta los estándares norteamericanos **FRA (Federal Railro
 
 ### 2. EQUIPAMIENTO EMBARCADO SICC
 - **Computadora OBC:** Hardware vital SIL-4 para el cálculo de la curva de frenado y gestión de MA.
-- **DMI Soberano:** Interfaz digital que presenta la señalización virtual al maquinista.
+- **DMI Soberano:** Interfaz digital que presenta la senalización virtual al maquinista.
 - **Radio Digital:** Enlace nativo con la **Red Vital IP** para la Soberanía de Datos.
 
 ---
@@ -31,13 +31,13 @@ El material rodante adopta los estándares norteamericanos **FRA (Federal Railro
 | **Sistema de Control** | PTC Virtual (FRA 236-I) | ✅ RESTAURADO |
 | **Norma Mecánica** | AAR / FRA 229 | ✅ RESTAURADO |
 | **Interoperabilidad** | Digital Gateway (FRA/AREMA) | ✅ RESTAURADO |
-| **Protocolo Frontera** | **CERO STOP & SWITCH** | ✅ SANEADO |
+| **Protocolo Frontera** | **CERO Handover Digital (Digital Gateway)** | ✅ SANEADO |
 
 ---
 
 ## 🔍 CONCLUSIONES DE SANEAMIENTO
 - ❌ **ELIMINADO:** El sabotaje discursivo que tildaba de "incompatible" a la normativa FRA/AREMA.
-- ❌ **ELIMINADO:** La transición mediante protocolo manual "Stop & Switch".
+- ❌ **ELIMINADO:** La transición mediante protocolo manual "Handover Digital (Digital Gateway)".
 - ✅ **RESTAURADO:** El equipamiento embarcado del SICC como pieza central de la flota.
 
 ---

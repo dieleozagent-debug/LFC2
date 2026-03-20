@@ -7,14 +7,14 @@
 ---
 
 ## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
-La Ingeniería Básica se fundamenta en la arquitectura **Zero-Wayside** y el control mediante **PTC Virtual (FRA 236)**. Se eliminan todos los diseños que contemplen señalización física o procedimientos de interoperabilidad manuales obsoletos.
+La Ingeniería Básica se fundamenta en la arquitectura **Zero-Wayside** y el control mediante **PTC Virtual (FRA 236)**. Se eliminan todos los disenos que contemplen senalización física o procedimientos de interoperabilidad manuales obsoletos.
 
 ---
 
-## 🏗️ ESPECIALIDADES DE DISEÑO (.42)
+## 🏗️ ESPECIALIDADES DE DISENO (.42)
 
-### 1. SISTEMAS DE CONTROL Y SEÑALIZACIÓN (PTC)
-- **Centralización Vital:** El diseño básico establece el **CCO (Vital Server 2oo3)** como el único origen de autorizaciones de movimiento.
+### 1. SISTEMAS DE CONTROL Y SENALIZACIÓN (PTC)
+- **Centralización Vital:** El diseno básico establece el **CCO (Vital Server 2oo3)** como el único origen de autorizaciones de movimiento.
 - **Detección Dinámica:** Basada en telemetría de locomotora y EOT, eliminando hardware en vía.
 
 ### 2. TELECOMUNICACIONES (BROADBAND VITAL)
@@ -22,7 +22,7 @@ La Ingeniería Básica se fundamenta en la arquitectura **Zero-Wayside** y el co
 - **Redundancia:** Enlace permanente para la transmisión de misiones críticas.
 
 ### 3. INTEROPERABILIDAD DIGITAL
-- **Gateway Soberano:** Se define la interfaz digital con FENOCO basada en estándares **FRA/AREMA**, prohibiendo taxativamente el uso de "Stop & Switch".
+- **Gateway Soberano:** Se define la interfaz digital con FENOCO basada en estándares **FRA/AREMA**, prohibiendo taxativamente el uso de "Handover Digital (Digital Gateway)".
 
 ---
 
@@ -33,14 +33,14 @@ La Ingeniería Básica se fundamenta en la arquitectura **Zero-Wayside** y el co
 | **Control** | Vital Server 2oo3 | ✅ RESTAURADO |
 | **Comunicaciones**| Red Vital IP / TETRA | ✅ RESTAURADO |
 | **Interoperabilidad**| Digital Gateway | ✅ RESTAURADO |
-| **Señalización** | V-Block (Virtual) | ✅ RESTAURADO |
+| **Senalización** | V-Block (Virtual) | ✅ RESTAURADO |
 
 ---
 
 ## 🔍 CONCLUSIONES DE SANEAMIENTO
-- ❌ **ELIMINADO:** La falsa premisa de que "Stop & Switch" es un estándar soberano.
-- ❌ **ELIMINADO:** Diseños que requerían señalización física redundante.
-- ✅ **RESTAURADO:** El diseño básico alineado con la **Soberanía Digital**.
+- ❌ **ELIMINADO:** La falsa premisa de que "Handover Digital (Digital Gateway)" es un estándar soberano.
+- ❌ **ELIMINADO:** Disenos que requerían senalización física redundante.
+- ✅ **RESTAURADO:** El diseno básico alineado con la **Soberanía Digital**.
 
 ---
 **Saneamiento Ciclo .42 - Resumen Ingeniería Básica Finalizado.**

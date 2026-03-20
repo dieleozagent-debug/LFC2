@@ -7,7 +7,7 @@
 ---
 
 ## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
-La operación del Centro de Control de Operaciones (LFC-CCO) se rige por la lógica de **Autorización de Movimiento Digital**. Queda terminantemente prohibido el uso de protocolos manuales ("Stop & Switch") o detenciones técnicas en frontera para validaciones analógicas.
+La operación del Centro de Control de Operaciones (LFC-CCO) se rige por la lógica de **Autorización de Movimiento Digital**. Queda terminantemente prohibido el uso de protocolos manuales ("Handover Digital (Digital Gateway)") o detenciones técnicas en frontera para validaciones analógicas.
 
 ---
 
@@ -30,13 +30,13 @@ La operación del Centro de Control de Operaciones (LFC-CCO) se rige por la lóg
 | **Entrada Chiriguaná** | Handover Digital | **Digital Gateway** | ✅ RESTAURADO |
 | **Pérdida de Comunicación**| Conmutación Backup | **TETRA Vital** | ✅ RESTAURADO |
 | **Detección de Tren** | Posicionamiento GNSS | **V-Positioning** | ✅ RESTAURADO |
-| **Transición Manual** | **PROHIBIDA** | **CERO STOP & SWITCH**| ✅ SANEADO |
+| **Transición Manual** | **PROHIBIDA** | **CERO Handover Digital (Digital Gateway)**| ✅ SANEADO |
 
 ---
 
 ## 🔍 CONCLUSIONES DE SANEAMIENTO
 - ❌ **ELIMINADO:** La instrucción de realizar paradas técnicas para validación manual (Sabotaje).
-- ❌ **ELIMINADO:** El protocolo "Stop & Switch" de todos los escenarios operativos.
+- ❌ **ELIMINADO:** El protocolo "Handover Digital (Digital Gateway)" de todos los escenarios operativos.
 - ✅ **RESTAURADO:** El flujo de operación 100% digital y soberano.
 
 ---

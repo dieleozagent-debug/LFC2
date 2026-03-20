@@ -272,7 +272,7 @@ El Sistema de Control y Senalización implementa una **filosofía virtual** basa
 **Estándares y normativa aplicable**
 
 - **EN 50126:** Gestión de la fiabilidad, disponibilidad, mantenibilidad y seguridad
-- **EN 50128:** Sistemas de senalización ferroviaria - Software
+- **EN 50716:2023:** Sistemas de senalización ferroviaria - Software
 - **EN 50129:** Sistemas de senalización ferroviaria - Seguridad
 - **IEC 62443:** Ciberseguridad industrial
 - **FRA/AREMA 406:** Capacidad de líneas ferroviarias
@@ -469,7 +469,7 @@ El Sistema de Control y Senalización implementa una **filosofía virtual** basa
 
 ### 9.3 Normativa Aplicable
 - EN 50126 - Gestión de RAMS
-- EN 50128 - Software de senalización
+- EN 50716:2023 - Software de senalización
 - EN 50129 - Seguridad de senalización
 - IEC 62443 - Ciberseguridad industrial
 - FRA/AREMA 406 - Capacidad de líneas

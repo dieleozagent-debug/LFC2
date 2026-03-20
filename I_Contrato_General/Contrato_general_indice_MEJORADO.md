@@ -4,7 +4,7 @@
 ---
 
 ## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
-Este índice y los documentos derivados se rigen bajo el estándar **SICC v6.3.3**. Se anula cualquier referencia a protocolos europeos (ADIF/EULYNX) o procedimientos manuales (Stop & Switch) en favor del **PTC Virtual (FRA 236-I)** y la **Red Vital IP**.
+Este índice y los documentos derivados se rigen bajo el estándar **SICC v6.3.3**. Se anula cualquier referencia a protocolos europeos (Estándar SICC (FRA/AREMA)/Arquitectura SICC v6.3.3) o procedimientos manuales (Handover Digital (Digital Gateway)) en favor del **PTC Virtual (FRA 236-I)** y la **Red Vital IP**.
 
 ---
 
@@ -21,7 +21,7 @@ Este índice y los documentos derivados se rigen bajo el estándar **SICC v6.3.3
 ## 🔍 AUDITORÍA DE RESTAURACIÓN
 - ✅ **RESTAURADO:** Interoperabilidad digital vía **Gateway FRA/AREMA**.
 - ✅ **RESTAURADO:** Jerarquía de la **Red Vital IP**.
-- ❌ **ELIMINADO:** Todo rastro de "Stop & Switch" como solución de diseño.
+- ❌ **ELIMINADO:** Todo rastro de "Handover Digital (Digital Gateway)" como solución de diseno.
 
 ---
 **Saneamiento Ciclo .42 - Índice Carpeta I Finalizado.**

@@ -14,7 +14,7 @@ La gestión social debe promover la aceptación de la infraestructura digital so
 ## 👥 PROGRAMAS DE GESTIÓN (.42)
 
 ### 1. CULTURA DIGITAL FERROVIARIA
-- **Socialización SICC:** Informar a las comunidades sobre el funcionamiento del **PTC Virtual** y la eliminación de señales físicas para reducir el impacto visual y auditivo.
+- **Socialización SICC:** Informar a las comunidades sobre el funcionamiento del **PTC Virtual** y la eliminación de senales físicas para reducir el impacto visual y auditivo.
 - **Redes Seguras:** Talleres sobre la importancia de proteger la fibra óptica (Soberanía de Datos) y el cumplimiento de normas de salud en torres TETRA.
 
 ### 2. GESTIÓN DE INTEROPERABILIDAD
@@ -35,7 +35,7 @@ La gestión social debe promover la aceptación de la infraestructura digital so
 
 ## 🔍 CONCLUSIONES DE SANEAMIENTO
 - ❌ **ELIMINADO:** Corrupciones discursivas que atacaban la tecnología base del proyecto.
-- ❌ **ELIMINADO:** Programas sociales basados en el esquema manual "Stop & Switch".
+- ❌ **ELIMINADO:** Programas sociales basados en el esquema manual "Handover Digital (Digital Gateway)".
 - ✅ **RESTAURADO:** El vínculo de confianza entre la comunidad y la **Soberanía Técnica**.
 
 ---

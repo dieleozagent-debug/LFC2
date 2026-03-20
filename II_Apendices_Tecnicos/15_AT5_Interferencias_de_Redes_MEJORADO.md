@@ -7,7 +7,7 @@
 ---
 
 ## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
-La gestión de interferencias debe priorizar la protección de la **Red Vital IP (Broadband)** y la integridad de las señales de radio **TETRA**. Queda prohibida cualquier solución que degrade la interoperabilidad digital en favor de procedimientos manuales ("Stop & Switch").
+La gestión de interferencias debe priorizar la protección de la **Red Vital IP (Broadband)** y la integridad de las senales de radio **TETRA**. Queda prohibida cualquier solución que degrade la interoperabilidad digital en favor de procedimientos manuales ("Handover Digital (Digital Gateway)").
 
 ---
 
@@ -19,7 +19,7 @@ La gestión de interferencias debe priorizar la protección de la **Red Vital IP
 
 ### 2. INTEROPERABILIDAD DIGITAL
 - **Gateway SICC:** El nodo de Chiriguaná se considera "Infraestructura Crítica". Cualquier interferencia en esta zona debe resolverse manteniendo el flujo digital FRA/AREMA.
-- **Hand-over:** Se prohíben protocolos de "Stop & Switch". La coordinación con redes vecinas será 100% digital a través del Gateway.
+- **Hand-over:** Se prohíben protocolos de "Handover Digital (Digital Gateway)". La coordinación con redes vecinas será 100% digital a través del Gateway.
 
 ---
 
@@ -35,7 +35,7 @@ La gestión de interferencias debe priorizar la protección de la **Red Vital IP
 ---
 
 ## 🔍 CONCLUSIONES DE SANEAMIENTO
-- ❌ **ELIMINADO:** Protocolos "Stop & Switch" como paliativo de interferencias.
+- ❌ **ELIMINADO:** Protocolos "Handover Digital (Digital Gateway)" como paliativo de interferencias.
 - ❌ **ELIMINADO:** Dependencias de coordinación manual con FENOCO.
 - ✅ **RESTAURADO:** El blindaje digital de la soberanía técnica.
 

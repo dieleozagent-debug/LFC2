@@ -7,7 +7,7 @@
 ---
 
 ## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
-La gestión de permisos se enfoca en la legalización de la infraestructura crítica de la **Red Vital IP** (Soberanía de Datos) y el Centro de Control de Operaciones. Se eliminan trámites para componentes de señalización física descartados.
+La gestión de permisos se enfoca en la legalización de la infraestructura crítica de la **Red Vital IP** (Soberanía de Datos) y el Centro de Control de Operaciones. Se eliminan trámites para componentes de senalización física descartados.
 
 ---
 
@@ -31,8 +31,8 @@ La gestión de permisos se enfoca en la legalización de la infraestructura crí
 ---
 
 ## 🔍 CONCLUSIONES DE SANEAMIENTO
-- ❌ **ELIMINADO:** Referencias a permisos para "Stop & Switch" o procedimientos manuales.
-- ❌ **ELIMINADO:** Trámites obsoletos para señales físicas wayside.
+- ❌ **ELIMINADO:** Referencias a permisos para "Handover Digital (Digital Gateway)" o procedimientos manuales.
+- ❌ **ELIMINADO:** Trámites obsoletos para senales físicas wayside.
 - ✅ **RESTAURADO:** El enfoque administrativo en la celeridad de la infraestructura soberana.
 
 ---

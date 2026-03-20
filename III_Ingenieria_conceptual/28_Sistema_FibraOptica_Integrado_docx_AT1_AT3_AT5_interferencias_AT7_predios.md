@@ -29,7 +29,7 @@ El Sistema de Fibra Óptica es el **Backbone Vital** que sustenta la soberanía 
 - ✅ **RESTAURADO:** Soporte total para protocolos **FRA/AREMA** de interoperabilidad digital.
 - ✅ **RESTAURADO:** Integración nativa con el **Servidor PTC Central**.
 - ✅ **RESTAURADO:** Jerarquía Broadband sobre la Red Vital IP.
-- ❌ **ELIMINADO:** Todo rastro de procedimientos manuales "Stop & Switch".
+- ❌ **ELIMINADO:** Todo rastro de procedimientos manuales "Handover Digital (Digital Gateway)".
 
 ---
 

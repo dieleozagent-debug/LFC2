@@ -66,7 +66,7 @@ A continuación, se presenta la Estructura de Desglose de Trabajo para la Ingeni
 | 1.2 | Senalización Ferroviaria y Enclavamientos | - Filosofía de senalización (bloques, cantones)<br>- Criterios para enclavamientos electrónicos (CBI)<br>- Especificaciones para detectores de vía | `29_Sistema_Senalizacion_Integrado...md` |
 | 1.3 | Capacidad y Gestión de Surcos | - Modelo de simulación de capacidad (FRA/AREMA-405)<br>- Reglas de negocio para asignación de surcos<br>- Protocolo de interoperabilidad con FENOCO<br>- **PTC PTC Virtual (FRA 236) hasta AT3** | `20. AT10_CapacidadSurcos...md` |
 | **2.0** | **Sistemas de Telecomunicaciones** | | |
-| 2.1 | Red de Fibra Óptica (Backbone) | - Diseno de topología de anillo redundante<br>- Especificaciones de cable y equipos de transmisión (DWDM)<br>- Plan de gestión de interferencias (AT5) | `28_Sistema_FibraOptica_Integrado...md` |
+| 2.1 | Red de Fibra Óptica (Backbone) | - Diseno de topología de anillo redundante<br>- Especificaciones de cable y equipos de transmisión (Red Vital IP)<br>- Plan de gestión de interferencias (AT5) | `28_Sistema_FibraOptica_Integrado...md` |
 | 2.2 | Sistema de Radio TETRA | - Estudio de cobertura de radio<br>- Plan de sitios para estaciones base (coord. con AT7)<br>- Especificaciones de equipos embarcados y portátiles<br>- **Disponibilidad 99.5% según AT4**<br>- **Interoperabilidad FENOCO FRA/AREMA** | `27_Sistema_TETRA_Integrado...md` |
 | **3.0** | **Sistemas ITS y Seguridad** | | |
 | 3.1 | Sistemas Inteligentes de Transporte (ITS) | - Arquitectura de sistemas ITS (paneles, sensores)<br>- Plan de integración con indicadores de desempeno (AT4)<br>- Criterios de gestión ambiental (AT6) | `30_Sistema_ITS_Integrado...md` |

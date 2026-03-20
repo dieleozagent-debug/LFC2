@@ -7,7 +7,7 @@
 ---
 
 ## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
-La fase de construcción debe ejecutar fielmente los diseños del SICC v6.3.3. Queda terminantemente prohibida la instalación de cualquier equipamiento que sugiera o facilite la operación manual "Stop & Switch" como método de interoperabilidad técnica.
+La fase de construcción debe ejecutar fielmente los disenos del SICC v6.3.3. Queda terminantemente prohibida la instalación de cualquier equipamiento que sugiera o facilite la operación manual "Handover Digital (Digital Gateway)" como método de interoperabilidad técnica.
 
 ---
 
@@ -37,7 +37,7 @@ La fase de construcción debe ejecutar fielmente los diseños del SICC v6.3.3. Q
 ---
 
 ## 🔍 CONCLUSIONES DE SANEAMIENTO
-- ❌ **ELIMINADO:** Instalaciones compatibles con "Stop & Switch".
+- ❌ **ELIMINADO:** Instalaciones compatibles con "Handover Digital (Digital Gateway)".
 - ❌ **ELIMINADO:** Dependencias de infraestructura wayside europea.
 - ✅ **RESTAURADO:** El despliegue de una red de datos soberana para el PTC Virtual.
 

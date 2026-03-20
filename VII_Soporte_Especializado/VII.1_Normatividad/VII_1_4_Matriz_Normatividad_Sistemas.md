@@ -17,7 +17,7 @@
 
 ### 1.2 Normativas Internacionales
 - **EN 50126:** Aplicación de técnicas de confiabilidad
-- **EN 50128:** Software para sistemas de control ferroviario
+- **EN 50716:2023:** Software para sistemas de control ferroviario
 - **EN 50129:** Aplicación de técnicas de seguridad
 - **IEC 62443:** Ciberseguridad en sistemas industriales
 
@@ -28,7 +28,7 @@
 | Normativa | Aplicabilidad | Cumplimiento | Responsable | Observaciones |
 |:----------|:-------------:|:------------:|:------------|:-------------|
 | **EN 50126** | 100% | ✅ Completo | EPC Sistemas | Confiabilidad |
-| **EN 50128** | 100% | ✅ Completo | EPC Sistemas | Software ferroviario |
+| **EN 50716:2023** | 100% | ✅ Completo | EPC Sistemas | Software ferroviario |
 | **EN 50129** | 100% | ✅ Completo | EPC Sistemas | Seguridad funcional |
 | **IEC 62443** | 90% | ✅ Completo | EPC Sistemas | Ciberseguridad |
 
@@ -37,15 +37,15 @@
 ## 3. ESPECIFICACIONES TÉCNICAS
 
 ### 3.1 Sistemas de Control
-- **CTC:** EN 50126 + EN 50128 + EN 50129
-- **PTC:** EN 50126 + EN 50128 + EN 50129
+- **CTC:** EN 50126 + EN 50716:2023 + EN 50129
+- **PTC:** EN 50126 + EN 50716:2023 + EN 50129
 - **ENCE:** EN 50126 + EN 50129
 - **Desvíos:** EN 50126 + EN 50129
 
 ### 3.2 Comunicaciones
-- **TETRA:** EN 50126 + EN 50128
-- **Red Vital IP / TETRA:** EN 50126 + EN 50128
-- **Fibra óptica:** EN 50126 + EN 50128
+- **TETRA:** EN 50126 + EN 50716:2023
+- **Red Vital IP / TETRA:** EN 50126 + EN 50716:2023
+- **Fibra óptica:** EN 50126 + EN 50716:2023
 - **Ciberseguridad:** IEC 62443
 
 ---
@@ -60,7 +60,7 @@
 
 ### 4.2 Certificaciones
 - **Sistemas de control:** Certificado EN 50126
-- **Software:** Certificado EN 50128
+- **Software:** Certificado EN 50716:2023
 - **Seguridad:** Certificado EN 50129
 - **Ciberseguridad:** Certificado IEC 62443
 

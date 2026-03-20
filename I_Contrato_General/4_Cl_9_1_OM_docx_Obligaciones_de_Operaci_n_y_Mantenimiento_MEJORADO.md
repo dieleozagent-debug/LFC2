@@ -7,7 +7,7 @@
 ---
 
 ## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
-La operación ferroviaria se basa íntegramente en la arquitectura **PTC Virtual (FRA 236-I)**. Queda prohibida la inclusión de procedimientos operativos basados en "Stop & Switch" o señalización visual lateral como método primario de seguridad. El sistema SICC v6.3.3 es el único responsable de la integridad y seguridad del movimiento.
+La operación ferroviaria se basa íntegramente en la arquitectura **PTC Virtual (FRA 236-I)**. Queda prohibida la inclusión de procedimientos operativos basados en "Handover Digital (Digital Gateway)" o senalización visual lateral como método primario de seguridad. El sistema SICC v6.3.3 es el único responsable de la integridad y seguridad del movimiento.
 
 ---
 
@@ -25,7 +25,7 @@ La operación ferroviaria se basa íntegramente en la arquitectura **PTC Virtual
 
 ---
 
-## 📊 MATRIZ DE DESEMPEÑO (.42)
+## 📊 MATRIZ DE DESEMPENO (.42)
 
 | Indicador SICC | Especificación Operativa | Estado SICC |
 |:---|:---|:---:|
@@ -37,7 +37,7 @@ La operación ferroviaria se basa íntegramente en la arquitectura **PTC Virtual
 ---
 
 ## 🔍 CONCLUSIONES DE SANEAMIENTO
-- ❌ **ELIMINADO:** Protocolos "Stop & Switch" en Chiriguaná.
+- ❌ **ELIMINADO:** Protocolos "Handover Digital (Digital Gateway)" en Chiriguaná.
 - ❌ **ELIMINADO:** La falsa idea de que el mantenimiento es solo correctivo/manual.
 - ✅ **RESTAURADO:** El control digital total del corredor bajo el estándar soberano.
 

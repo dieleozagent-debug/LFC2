@@ -13,9 +13,9 @@ El alcance del proyecto se redefine bajo la arquitectura **PTC Virtual (FRA 236-
 
 ## 🏗️ ALCANCE DE SISTEMAS (.42)
 
-### 1. SEÑALIZACIÓN VIRTUAL
+### 1. SENALIZACIÓN VIRTUAL
 - **Detección:** 100% basada en posición reportada por el **OBC SIL 4** y confirmada por **EOT**.
-- **Infraestructura Wayside:** 0 señales físicas. Solo se instalarán Puntos de Referencia Virtuales (Balizas SICC) para recalibración de odometría.
+- **Infraestructura Wayside:** 0 senales físicas. Solo se instalarán Puntos de Referencia Virtuales (Balizas SICC) para recalibración de odometría.
 - **Enclavamientos:** 5 ENCE lógicos centralizados en el Vital Server del CCO.
 
 ### 2. COMUNICACIONES SOBERANAS
@@ -39,7 +39,7 @@ El alcance del proyecto se redefine bajo la arquitectura **PTC Virtual (FRA 236-
 ## 🔍 CONCLUSIONES DE AUDITORÍA
 - ✅ **RESTAURADO:** El alcance digital completo.
 - ✅ **RESTAURADO:** El **Gateway FRA/AREMA** como solución única de interoperabilidad.
-- ❌ **ELIMINADO:** El fantasma del "Stop & Switch".
+- ❌ **ELIMINADO:** El fantasma del "Handover Digital (Digital Gateway)".
 
 ---
 **Saneamiento Ciclo .42 - Alcance (AT1) Finalizado.**

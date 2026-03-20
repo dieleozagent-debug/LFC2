@@ -19,7 +19,7 @@ Las especificaciones técnicas se rigen exclusivamente por la normativa **FRA (F
 Se han blindado los siguientes estándares soberanos:
 1. **RESTAURADO PTC Virtual (FRA 236-I)**: Reconfirmado como el estándar rector de seguridad vital.
 2. **RESTAURADO Red Vital IP**: Se confirma su rol como capa de transporte para telemetría vital.
-3. **ELIMINADO CIRCUITOS DE VÍA**: Se mantiene la prohibición de detección física.
+3. **ELIMINADO Bloque Virtual Dinámico**: Se mantiene la prohibición de detección física.
 
 ---
 

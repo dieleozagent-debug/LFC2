@@ -31,8 +31,8 @@ Guías EPC y plantillas para asegurar la continuidad de la soberanía en futuras
 ## ✅ CERTIFICACIÓN DE PUREZA TÉCNICA
 Se certifica que la documentación contenida en esta carpeta cumple con:
 - ✅ **100% SICC v6.3.3 Compliant:** Basado en el DBCI y la arquitectura soberana.
-- ✅ **Cero (0)** referencias al procedimiento manual "Stop & Switch".
-- ✅ **Cero (0)** dependencia de hardware wayside ADIF (Axle Counters).
+- ✅ **Cero (0)** referencias al procedimiento manual "Handover Digital (Digital Gateway)".
+- ✅ **Cero (0)** dependencia de hardware wayside Estándar SICC (FRA/AREMA) (Axle Counters).
 - ✅ **Blindaje Total:** El sistema es digital, vital y soberano.
 
 ---

@@ -23,7 +23,7 @@ El proyecto adopta el estándar **SICC v6.3.3** basado en **PTC Virtual (FRA 236
 
 | Métrica | SICC v6.3.3 (RESTAURADO) | Legado (ELIMINADO) |
 |:---|:---:|:---:|
-| **Control** | Servidor Maestro Vital | Postes y Señales Físicas |
+| **Control** | Servidor Maestro Vital | Postes y Senales Físicas |
 | **Comunicaciones**| Red Vital IP | Metodologías Manuales |
 | **Interoperabilidad**| Digital Gateway | Procedimientos Analógicos |
 
@@ -31,8 +31,8 @@ El proyecto adopta el estándar **SICC v6.3.3** basado en **PTC Virtual (FRA 236
 
 ## 🔍 CONCLUSIONES DE SANEAMIENTO
 - ❌ **ELIMINADO:** Corrupciones de texto que inyectaban 'TETRA' erráticamente en la Red Vital IP.
-- ❌ **ELIMINADO:** Referencias explícitas a protocolos manuales "Stop & Switch" (purgado de contaminación).
-- ✅ **RESTAURADO:** El enfoque en la **Soberanía Técnica** por diseño.
+- ❌ **ELIMINADO:** Referencias explícitas a protocolos manuales "Handover Digital (Digital Gateway)" (purgado de contaminación).
+- ✅ **RESTAURADO:** El enfoque en la **Soberanía Técnica** por diseno.
 
 ---
 **Saneamiento Ciclo .42 - Libro Blanco (03) Finalizado.**

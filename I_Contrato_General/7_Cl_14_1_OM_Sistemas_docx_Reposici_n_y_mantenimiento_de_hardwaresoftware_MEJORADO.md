@@ -7,7 +7,7 @@
 ---
 
 ## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
-El mantenimiento de los sistemas de señalización y control se rige exclusivamente por los protocolos del **SICC v6.3.3**. Se prioriza la integridad de la lógica vital alojada en el **Vital PTC Server** y la disponibilidad de los equipos de abordo (OBC).
+El mantenimiento de los sistemas de senalización y control se rige exclusivamente por los protocolos del **SICC v6.3.3**. Se prioriza la integridad de la lógica vital alojada en el **Vital PTC Server** y la disponibilidad de los equipos de abordo (OBC).
 
 ---
 
@@ -22,7 +22,7 @@ El mantenimiento de los sistemas de señalización y control se rige exclusivame
 - **Radio TETRA:** Calibración de las estaciones base para garantizar cobertura de voz y data vital en todo el corredor.
 
 ### 3. INTEROPERABILIDAD DIGITAL
-- **Gateway SICC:** Mantenimiento y actualización del software de traducción FRA/AREMA. Quedan prohibidos los protocolos de transferencia manuales ("Stop & Switch") en el plan de mantenimiento.
+- **Gateway SICC:** Mantenimiento y actualización del software de traducción FRA/AREMA. Quedan prohibidos los protocolos de transferencia manuales ("Handover Digital (Digital Gateway)") en el plan de mantenimiento.
 
 ---
 
@@ -39,7 +39,7 @@ El mantenimiento de los sistemas de señalización y control se rige exclusivame
 
 ## 🔍 CONCLUSIONES DE SANEAMIENTO
 - ❌ **ELIMINADO:** Mantenimiento de infraestructuras wayside obsoletas.
-- ❌ **ELIMINADO:** Cualquier referencia a "Stop & Switch".
+- ❌ **ELIMINADO:** Cualquier referencia a "Handover Digital (Digital Gateway)".
 - ✅ **RESTAURADO:** El mantenimiento basado en software y alta disponibilidad (Fault-Tolerant).
 
 ---

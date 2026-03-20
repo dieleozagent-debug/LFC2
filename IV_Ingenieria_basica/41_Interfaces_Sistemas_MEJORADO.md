@@ -7,7 +7,7 @@
 ---
 
 ## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
-Las interfaces del proyecto deben operar bajo lógica digital soberana. Queda prohibida cualquier interfaz que requiera intervención manual (Stop & Switch) para la gestión de autoridad de movimiento en fronteras o patios.
+Las interfaces del proyecto deben operar bajo lógica digital soberana. Queda prohibida cualquier interfaz que requiera intervención manual (Handover Digital (Digital Gateway)) para la gestión de autoridad de movimiento en fronteras o patios.
 
 ---
 
@@ -30,7 +30,7 @@ La transición de autoridad se realiza mediante el **Handover Digital**. El **LF
 ---
 
 ## 🔍 CONCLUSIONES DE SANEAMIENTO
-- ❌ **ELIMINADO:** El procedimiento "Stop & Switch" de la matriz de interfaces.
+- ❌ **ELIMINADO:** El procedimiento "Handover Digital (Digital Gateway)" de la matriz de interfaces.
 - ❌ **ELIMINADO:** Dependencias de comunicación analógica en fronteras.
 - ✅ **RESTAURADO:** El control digital total sobre las interfaces del SICC.
 

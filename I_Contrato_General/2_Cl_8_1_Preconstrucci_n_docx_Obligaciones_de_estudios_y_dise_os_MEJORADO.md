@@ -7,21 +7,21 @@
 ---
 
 ## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
-Toda la ingeniería de detalle y estudios de preconstrucción deben alinearse estrictamente al **DBCD_CRITERIA.md**. Es obligación del Concesionario disenar un sistema de señalización basado en **PTC Virtual (FRA 236-I)**, eliminando cualquier dependencia de infraestructura de vía legacy (Eurobalizas/Wayside).
+Toda la ingeniería de detalle y estudios de preconstrucción deben alinearse estrictamente al **DBCD_CRITERIA.md**. Es obligación del Concesionario disenar un sistema de senalización basado en **PTC Virtual (FRA 236-I)**, eliminando cualquier dependencia de infraestructura de vía legacy (Eurobalizas/Wayside).
 
 ---
 
 ## 🛠️ OBLIGACIONES TÉCNICAS REVISADAS (.42)
 
 ### 1. ESTUDIOS DE SENALIZACIÓN Y CONTROL
-- **Diseño Vital:** Basado en Moving Block virtual.
-- **Interoperabilidad:** Diseño obligatorio de un **Gateway Digital FRA/AREMA** para conexión con FENOCO en Chiriguaná. Queda prohibido el uso de procedimientos manuales (Stop & Switch) como solución definitiva.
+- **Diseno Vital:** Basado en Moving Block virtual.
+- **Interoperabilidad:** Diseno obligatorio de un **Gateway Digital FRA/AREMA** para conexión con FENOCO en Chiriguaná. Queda prohibido el uso de procedimientos manuales (Handover Digital (Digital Gateway)) como solución definitiva.
 - **Arquitectura:** Servidor Central con redundancia **2oo3 (SIL 4)** en el CCO.
 
 ### 2. TELECOMUNICACIONES (BROADBAND VITAL)
 - **Canal Primario:** Red de Fibra Óptica propia con protocolo **Red Vital IP**.
 - **Canal de Respaldo:** Radio **TETRA** para datos críticos y voz.
-- **Ciberseguridad:** Aplicación de **IEC 62443** en todos los niveles del diseño.
+- **Ciberseguridad:** Aplicación de **IEC 62443** en todos los niveles del diseno.
 
 ---
 
@@ -37,7 +37,7 @@ Toda la ingeniería de detalle y estudios de preconstrucción deben alinearse es
 ---
 
 ## 🔍 CONCLUSIONES DE SANEAMIENTO
-- ❌ **ELIMINADO:** El protocolo "Stop & Switch".
+- ❌ **ELIMINADO:** El protocolo "Handover Digital (Digital Gateway)".
 - ❌ **ELIMINADO:** La falsa premisa de que FRA 236 es un estándar "europeo".
 - ✅ **CONSOLIDADO:** El SICC v6.3.3 como la inteligencia central del proyecto.
 

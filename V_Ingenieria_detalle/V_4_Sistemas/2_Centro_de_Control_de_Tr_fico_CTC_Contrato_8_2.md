@@ -109,7 +109,7 @@ Esta sección contendrá las referencias a los planos de detalle generados en fo
 - **Seguridad:** La comunicación debe estar en una VLAN aislada y protegida por firewall.
 
 ### 4.2 Interfaz IF-06: CTC ↔ CTC FENOCO
-- **Protocolo:** EULYNX (Propuesto) o API REST/JSON sobre HTTPS.
+- **Protocolo:** Arquitectura SICC v6.3.3 (Propuesto) o API REST/JSON sobre HTTPS.
 - **Medio Físico:** Conexión a través de la DMZ Industrial.
 - **Mensajería Clave:**
     - **Handover de Tren:** `Request_Handover`, `Accept_Handover`, `Confirm_Handover`.
@@ -136,7 +136,7 @@ Las pruebas se regirán por el `42. Plan_Pruebas_MEJORADO.md`.
 | ID | Categoría | Probabilidad | Impacto | Descripción | Estrategia de Mitigación |
 |:---:|:---:|:---:|:---:|:---|:---|
 | **R-090** | Técnico | Alta | Alto | Dependencia AT3 para especificaciones PTC en CTC. | Desarrollar interfaces de CTC basadas en PTC Virtual (FRA 236) hasta disponibilidad de AT3. |
-| **R-091** | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por interfaces de CTC incompatibles. | Establecer protocolos de CTC compatibles con sistemas FENOCO existentes (EULYNX). |
+| **R-091** | Técnico | Media | Alto | Fallo en interoperabilidad FENOCO por interfaces de CTC incompatibles. | Establecer protocolos de CTC compatibles con sistemas FENOCO existentes (Arquitectura SICC v6.3.3). |
 | **R-092** | Contractual | Media | Alto | Incumplimiento de disponibilidad 99.95% en CTC según AT4. | Implementar sistemas de monitoreo y redundancia N+1 para garantizar cumplimiento. |
 | **R-093** | Operacional | Media | Medio | Falla en sistema de energía o HVAC del CCO. | Disenar infraestructura de CCO con redundancia 2N en energía y climatización. |
 | **R-094** | Integración | Media | Alto | Complejidad en la integración del CTC con 12 sistemas distintos. | Utilizar el ICD (`41. Interfaces_Sistemas_MEJORADO.md`) como documento rector. |

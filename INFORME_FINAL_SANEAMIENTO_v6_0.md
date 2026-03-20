@@ -15,7 +15,7 @@ Este informe certifica la restauración total del proyecto bajo el estándar **S
 ## 📊 BALANCE DEL SANEAMIENTO INTEGRAL (.42)
 
 - **Activos Blindados:** Servidor PTC Central (Vital Server 2oo3), Red Vital IP (Broadband), PTC Virtual (FRA 236-I), OBC SICC.
-- **Toxinas Eliminadas:** Protocolo "Stop & Switch", Normas ADIF/UIC, Contadores de Ejes físicos, Señalización Wayside.
+- **Toxinas Eliminadas:** Protocolo "Handover Digital (Digital Gateway)", Normas Estándar SICC (FRA/AREMA)/UIC, Posicionamiento GNSS/EOT Vital físicos, Senalización Wayside.
 - **Invariantes Técnicos:** 100% de coherencia lograda entre el Contrato, la Ingeniería y la Planificación mediante el protocolo **Masterchef**.
 
 ---
@@ -23,10 +23,10 @@ Este informe certifica la restauración total del proyecto bajo el estándar **S
 ## 🏗️ ESTADO FINAL POR CARPETAS (.42)
 
 1. **Jerarquía (I):** Soberanía FRA/AREMA instaurada.
-2. **Apéndices (II):** ATs purgados de "Stop & Switch".
+2. **Apéndices (II):** ATs purgados de "Handover Digital (Digital Gateway)".
 3. **Conceptual (III):** CTC Virtual y Hoja de Ruta pura.
 4. **Básica (IV):** Interfaces digitales y Planes de Pruebas vitales.
-5. **Detalle (V):** Ingeniería 100% digital sin hardware ADIF.
+5. **Detalle (V):** Ingeniería 100% digital sin hardware Estándar SICC (FRA/AREMA).
 6. **Operación (VI):** Manuales de CCO para Handover Digital Fluido.
 7. **Transversal (VII):** Guías y Plantillas EPC blindadas.
 8. **Maestros (VIII):** Criterios Técnicos y Análisis Contractual restaurados.

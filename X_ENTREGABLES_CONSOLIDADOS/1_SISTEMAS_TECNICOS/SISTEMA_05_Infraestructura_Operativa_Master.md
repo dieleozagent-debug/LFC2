@@ -145,7 +145,7 @@
 - **Panel de Control Local:** Operación manual de respaldo
 - **Módulos I/O:** Interfaces con campo
 - **Switch Machines:** Control de desvíos
-- **Circuitos de Vía:** Detección de ocupación
+- **Bloque Virtual Dinámico:** Detección de ocupación
 
 ### **3.3 Especificaciones Básicas de Subestaciones**
 
