@@ -1,45 +1,42 @@
-# 6.2 MANUAL DE OPERACIÓN Y MANTENIMIENTO: SENALIZACIÓN v6.0
+# 6.2 MANUAL DE OPERACIÓN Y MANTENIMIENTO: SENALIZACIÓN v6.3.2
 ## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** 13 de marzo de 2026  
-**Versión:** v6.0 - Purge Release (O&M Phase)
-**Metodología:** Punto 42 (Karpathy Saneamiento) - Ciclo Inverso
+**Fecha de actualización:** 20 de marzo de 2026  
+**Versión:** v6.3.2 - Forensic SICC Release (O&M Phase)
+**Metodología:** Karpathy Loop - Saneamiento de Soberanía
 
 ---
 
-## 1. FILOSOFÍA DE SENALIZACIÓN SANEADA
-
-La senalización del corredor abandona los paradigmas físicos europeos para adoptar un modelo **100% Virtual** basado en el estándar **FRA 236**.
+## 1. FILOSOFÍA DE SENALIZACIÓN SICC
+La senalización del corredor abandona los paradigmas físicos para adoptar un modelo **100% Virtual** basado en el estándar **FRA 236 Subpart I**.
 
 ### 1.1 Bloqueo Virtual y MA (Movement Authority):
-- **Autoridad Vital:** Generada por el Servidor Maestro PTC y transmitida directamente a la OBC de la locomotora vía **TETRA**.
-- **Integridad:** La liberación de los bloques virtuales se confirma mediante el reporte de integridad del **EOT** (End of Train) y la telemetría GNSS de la locomotora. No se requieren circuitos de vía físicos.
+- **Autoridad Vital:** Generada por el Servidor Maestro SICC y transmitida a la OBC vía **Red Vital IP** (Backbone FO).
+- **Integridad:** La liberación de bloques virtuales (V-Block) se confirma mediante reportes de integridad del **EOT** (Vital IP) y telemetría GNSS.
+- **Respaldo:** En zonas de sombra FO, se habilita el canal de radio **TETRA** para el transporte de telemetría de seguridad.
 
 ### 1.2 Purga de Infraestructura Física:
-- **Sin Virtual Balise (GNSS)s:** El posicionamiento es virtual/GNSS. Se elimina cualquier rutina de mantenimiento para punto de referencia virtuals físicas.
-- **Sin Senalización en Cabina (Cab-Signaling):** El "aspecto" de la senalización es virtual y se muestra exclusivamente en el display (DMI) de la cabina.
+- **Cero Balizas:** Se elimina cualquier rutina de mantenimiento de hardware en vía (Eurobalizas, LEUs).
+- **Senalización en Cabina:** El personal operativo debe basar su conducción exclusivamente en el DMI (Driver Machine Interface). No existen señales luminosas wayside.
 
 ---
 
-## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE Red Vital IP / TETRA/PTC VIRTUAL)
-
-En cumplimiento del **Ciclo Inverso**, se han corregido los siguientes desvíos operativos de la v5.0:
-- ✅ **ELIMINADO:** Rutinas de mantenimiento para el subsistema Red Vital IP / TETRA. Toda la telemetría de senalización viaja por TETRA.
-- ✅ **ELIMINADO:** Referencias a "Virtual Balise (GNSS)s y LEUs". Se purga el check-list de inspección de vía de hardware electrónico.
-- ✅ **ELIMINADO:** Protocolos FFFIS/UNISIG. La interfaz de seguridad entre el ENCE y el Tren es **Vital IP**.
-- ✅ **ADOPTADO:** Procedimientos de contingencia basados en la redundancia 2oo3 del Servidor Maestro y la robustez de la red de Fibra Óptica.
+## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE PTC VIRTUAL)
+En cumplimiento del **Ciclo Inverso**, se han corregido los siguientes desvíos operativos:
+- ✅ **RESTAURADO:** Jerarquía del protocolo **Vital IP** sobre Fibra Óptica como portador primario.
+- ✅ **ELIMINADO:** Rutinas de inspección para hardware de balizas y circuitos de vía continuos.
+- ✅ **SINCRONIZADO:** El check-list de mantenimiento ahora se enfoca en la disponibilidad del Backbone FO y la calibración GNSS.
 
 ---
 
-## 🛠 RUTINAS DE MANTENIMIENTO DE VÍA SANEADAS
-1. **Inspección de Gabinetes ENCE:** Limpieza y verificación de enlaces de Red IP (Backbone).
-2. **Auditoría de Desvíos:** Verificación del enclavamiento lógico local subordinado al CTC.
-3. **Calibración de OBC (Locomotoras):** Verificación de la precisión GNSS y la integridad del transceptor TETRA.
+## 🛠 RUTINAS DE MANTENIMIENTO SANEADAS (SSOT)
+1. **Inspección de Nodos ENCE:** Limpieza y test de failover en los 5 hubs soberanos (Triunfo, Barranca, etc.).
+2. **Backbone Vital IP:** Verificación de latencia y redundancia en el anillo de Fibra Óptica.
+3. **Sensores OBC/GNSS:** Calibración semestral de la fusión IMU/GNSS en las 15 locomotoras.
 
 ---
 
-## ✅ CONCLUSIONES:
+## ✅ CONCLUSIÓN DE AUDITORÍA:
+El Manual de O&M ha sido saneado bajo el protocolo SICC v6.3 para garantizar que la operación dependa únicamente de sistemas soberanos y virtuales, eliminando el riesgo de "mantenimiento zombie" sobre tecnologías descartadas.
 
-El Manual de O&M de Senalización ha sido saneado para garantizar que el personal operativo no ejecute rutinas sobre hardware inexistente o protocolos obsoletos. La simplificación de la arquitectura refuerza la **Soberanía Tecnológica** del proyecto.
-
-**Saneamiento Ciclo 6 - Manual O&M Senalización Finalizado.**
+**Aprobado con Saneamiento Forense - 20/03/2026.**
