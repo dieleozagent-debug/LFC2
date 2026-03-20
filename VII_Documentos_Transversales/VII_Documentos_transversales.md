@@ -17,7 +17,7 @@ La base metodológica y transversal del proyecto ha sido purgada para asegurar q
 - **`TEMPLATE_T04_Especificacion_Tecnica.md`:** Alineado con hardware COTS y protocolos abiertos.
 
 ### 1.2 Integración BIM y Calidad:
-- **BIM ↔ PTC Virtual:** El modelo unificado ahora integra los activos lógicos de la red TETRA y los nodos IP de los enclavamientos ENCE, eliminando los activos físicos de vía (Punto de Referencia Virtual (SICC)/Senales).
+- **BIM ↔ PTC Virtual:** El modelo unificado ahora integra los activos lógicos de la **Red Vital IP** y los nodos de enclavamiento ENCE, eliminando los activos físicos de vía (Balizas/Señales).
 - **Control de Calidad:** Las listas de chequeo ahora validan el cumplimiento de la norma **FRA 236** y el protocolo **Vital IP**.
 
 ---

@@ -12,7 +12,7 @@
 Esta guía define el estándar para estructurar proyectos bajo el paradigma de **Soberanía Tecnológica**, eliminando la dependencia de estándares propietarios cerrados.
 
 1. **Institucionalizar el Estándar PTC Virtual:** Uso de bloqueo por software y Vital IP.
-2. **Purga de Obsolescencia:** Eliminación de cualquier referencia a Red Vital IP / TETRA, PTC VIRTUAL, PTC, Servidor PTC Central o Punto de Referencia Virtual (SICC).
+2. **Purga de Obsolescencia:** Eliminación de cualquier referencia a tecnologías europeas legacy (GSM-R, Catenaria, Señalización lateral). Se mantiene la **Red Vital IP / TETRA** como único backbone.
 3. **Optimización de Recursos:** Enfoque en arquitectura COTS y software vital certificado.
 
 ---

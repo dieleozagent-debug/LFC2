@@ -11,7 +11,7 @@
 ## 🎯 **1. PROPÓSITO Y ALCANCE**
 
 ### **1.1 PROPÓSITO**
-Este documento presenta el análisis de **Confiabilidad, Disponibilidad, Mantenibilidad y Seguridad (RAMS)** para el sistema PTC Virtual de LFC. Se eliminan los análisis de infraestructura lateral (senales, punto de referencia virtuals, Servidor PTC Central) y se enfoca en el núcleo vital del SICC.
+Este documento presenta el análisis de **Confiabilidad, Disponibilidad, Mantenibilidad y Seguridad (RAMS)** para el ecosistema SICC. El análisis se centra exclusivamente en el núcleo vital soberano: el **Vital PTC Server 2oo3** y la **Red Vital IP / TETRA**, eliminando cualquier referencia a infraestructuras europeas legacy (Track Circuits, Balizas físicas).
 
 ### **1.2 ALCANCE**
 - **Sistema Vital:** Vital PTC Server con redundancia 2oo3.
@@ -48,7 +48,7 @@ La redundancia **2oo3** (2 de 3) garantiza que el sistema continúe operando ant
 
 | Versión | Fecha | Responsable | Cambio (Karpathy Purge) |
 |:---:|:---:|:---|:---|
-| **v2.0** | 13/03/2026 | Admin. Contractual | **RE-ESCRITURA TOTAL**. Eliminados PTC/PTC VIRTUAL/Servidor PTC Central. Basado en PTC Virtual SIL-4. |
+| **v2.0** | 20/03/2026 | Admin. Contractual | **RE-ESCRITURA SICC**. Eliminados ETCS/GSM-R. Basado en Vital PTC Server 2oo3 y Red Vital IP. |
 | **v1.0** | 27/01/2025 | Ing. Calidad | Versión obsoleta basada en RAMS PTC VIRTUAL (HALLUCINATED). |
 
 ---
