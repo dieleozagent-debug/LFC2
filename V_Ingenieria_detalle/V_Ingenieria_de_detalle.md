@@ -1,50 +1,42 @@
-# V. INGENIERÍA DE DETALLE: RESUMEN EJECUTIVO v6.3.2
+# RESUMEN DE INGENIERÍA DE DETALLE (SICC v6.3.3)
 ## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** 18 de marzo de 2026  
-**Versión:** v6.3.2 - Sovereign Stability (SICC-DBCI)
-**Metodología:** Karpathy Autoresearch Loop (Daemon v1.0)
+**Fecha de actualización:** 20 de marzo de 2026  
+**Versión:** v6.3.3 - Sovereign Restoration (SICC Protocol)
 
 ---
 
-## 1. ESTRATEGIA DE DETALLE SOBERANA (SICC)
-
-La Ingeniería de Detalle consolida el modelo de **Soberanía Tecnológica** eliminando sistemas propietarios cerrados y adoptando los estándares abiertos del **SICC**. El diseno se basa en la interoperabilidad nativa y la independencia de proveedores externos (Vendor-Lock-In).
-
-### 1.1 Documentos de Detalle Saneados:
-- **V.1 - Senalización Virtual (PTC Virtual):** Desarrollo detallado de la lógica de bloqueos en cabina (Cab-Signaling) y GNSS Positioning.
-- **V.2 - Centro de Control CTC (SICC):** Servidor Central PTC basado en arquitectura COTS redundante y virtualización segura.
-- **V.3 - Comunicaciones Vitales (Red Vital IP / TETRA):** Backbone robusto de fibra óptica y red de misión crítica para el control y la voz.
-- **V.4 - Potencia Híbrida (SICC):** Detalle de los sistemas de alimentación autónomos (Solar/Diesel) para los 37 nodos de estación.
-- **V.5 - Seguridad e Interfaces (Vital IP):** Integración de CCTV, ITS y sistemas auxiliares bajo el protocolo unificado SICC.
-- **V.X - Enclavamientos ENCE:** Controladores de patio con lógica abierta para los 5 centros de control.
+## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
+La Ingeniería de Detalle constituye la especificación final para la ejecución del SICC. Se prohíbe taxativamente la inclusión de contadores de ejes, señales físicas o cualquier hardware wayside redundante. La inteligencia reside en el **Vital Server** y la precisión en el reporte **GNSS/GPS**.
 
 ---
 
-## 2. 🔍 AUDITORÍA DE SOBERANÍA (LOGS DE PUREZA)
+## 🏗️ ESPECIFICACIONES DE EJECUCIÓN (.42)
 
-En cumplimiento de la **Soberanía Tecnológica**, se han saneado las especificaciones de detalle eliminando los desvíos del ciclo anterior:
+### 1. SEÑALIZACIÓN VIRTUAL (BLOQUE VIRTUAL)
+- **Cero Hardware en Vía:** El diseño de detalle elimina las tarjetas de control de eje y cableado de señales, reemplazándolos con lógica de software vital en el CCO.
+- **Backbone de Comunicaciones:** Instalación detallada de los nodos de la **Red Vital IP** para garantizar latencias inferiores a 100ms.
 
-- ✅ **RESTAURADO:** **PTC Virtual (FRA 236)** como estándar de seguridad soberano (No es legado, es el núcleo).
-- ✅ **RESTAURADO:** **Red Vital IP / TETRA** como columna vertebral de comunicaciones (SICC Backbone).
-- ✅ **ELIMINADO:** Protocolos Propietarios (Alstom, Siemens) y dependencia de hardware de vía innecesario (Puntos de Referencia Virtuales (SICC) físicas).
-- ✅ **ZERO-ACCENTS:** Todos los enlaces y referencias internas han sido estabilizados para navegación web 100% libre de errores.
-
----
-
-## 📑 MATRIZ DE CONFIGURACIÓN DE DETALLE (SICC-TOTAL)
-| Especialidad | Tecnología Soberana | Estado de Pureza |
-|:---|:---|:---|
-| **Senalización** | PTC Virtual (Cab-Signaling) | DETERMINISTA ✅ |
-| **Control** | Servidor Maestro SICC | DETERMINISTA ✅ |
-| **Comunicaciones** | Red Vital IP / TETRA | DETERMINISTA ✅ |
-| **Potencia** | Híbrida Solar/Diésel | DETERMINISTA ✅ |
-| **Seguridad** | Vital IP / CCTV IP | DETERMINISTA ✅ |
+### 2. INTEROPERABILIDAD SOBERANA
+- **Implementación Digital:** La conexión con FENOCO se ejecuta mediante el **Digital Gateway (FRA/AREMA)**, eliminando definitivamente cualquier mención al protocolo manual "Stop & Switch".
 
 ---
 
-## ✅ CONCLUSIONES DE FASE:
+## 📊 MATRIZ DE PUREZA TÉCNICA (DETALLE .42)
 
-La Ingeniería de Detalle ha sido purificada bajo el protocolo **Autopurity Daemon**. Garantizamos que el diseno final cumple con la interoperabilidad de la **Red Férrea Nacional** mediante el sistema **Stop & Switch**, eliminando costos de licenciamiento recurrente y asegurando el control total del activo por parte de la APP.
+| Especialidad | Implementación SICC | Estado SICC |
+|:---|:---|:---:|
+| **Señalización** | V-Block (Digital Only) | ✅ RESTAURADO |
+| **Detección** | GNSS + EOT Integrity | ✅ RESTAURADO |
+| **Telecom** | Red Vital IP / Fibra | ✅ RESTAURADO |
+| **Control** | Vital Server 2oo3 | ✅ RESTAURADO |
 
-**Saneamiento Ciclo 2.3.8 COMPLETADO.**
+---
+
+## 🔍 CONCLUSIONES DE SANEAMIENTO
+- ❌ **ELIMINADO:** Diseños de detalle basados en contadores de ejes (Norma ADIF).
+- ❌ **ELIMINADO:** El protocolo "Stop & Switch" de las especificaciones de ejecución.
+- ✅ **RESTAURADO:** El diseño de detalle técnicamente puro y soberano.
+
+---
+**Saneamiento Ciclo .42 - Resumen Ingeniería de Detalle Finalizado.**

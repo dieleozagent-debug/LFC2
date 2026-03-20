@@ -93,22 +93,11 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 | **CCTV** | 73 cámaras | 73 cámaras | ✅ 100% |
 | **Locomotoras** | 15 unidades | 15 unidades | ✅ 100% |
 
-### 2.2 Desalineaciones Detectadas
-**✅ NINGUNA DESALINEACIÓN DETECTADA** - Documento 100% coherente con criterios maestros.
-
-### 2.3 Componentes a Eliminar
-**✅ YA ELIMINADOS EN v4.0:**
-- ❌ Punto de Referencia Virtual (SICC): 1,080 → 0 unidades
-- ❌ Senalización en Cabina (Cab-Signaling) vía: 270 → 0 unidades  
-- ❌ Servidor PTC Central: 2 → 0 unidades
-- ❌ [CONTROLLER PROHIBIDO - SICC ES VIRTUAL]: 1,080 → 0 unidades
-
-### 2.4 Componentes a Agregar
-**✅ YA AGREGADOS EN v4.0:**
-- ✅ Red Vital IP / TETRA: 37 estaciones
-- ✅ EOT: 15 dispositivos
-- ✅ ENCE: 5 estaciones
-- ✅ Desvíos: 120 unidades (25 motorizados + 95 manuales)
+### 2.2 Verificación de Soberanía Técnica
+- ✅ **Red Vital IP**: 37 estaciones confirmadas como backbone primario.
+- ✅ **TETRA**: 37 estaciones confirmadas como respaldo de voz/datos.
+- ✅ **Servidor PTC Central (SICC)**: 1 unidad (configuración 2oo3) restaurada como cerebro del sistema.
+- ✅ **ENCE**: 5 estaciones lógicas integradas.
 
 ### 2.5 Propagación Requerida
 **DOCUMENTOS PENDIENTES DE ACTUALIZACIÓN:**
@@ -307,16 +296,11 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 - **Redundancia N+1:** Sistemas críticos con respaldo
 - **Interoperabilidad FENOCO:** Protocolos FRA/AREMA compatibles
 
-#### **📊 CANTIDADES ACTUALIZADAS (SEGÚN CRITERIOS MAESTROS)**
-- **✅ TETRA:** 33 → **37 estaciones** (Cobertura 100% + solapamiento 15-20%)
-- **✅ Red Vital IP / TETRA:** NO incluido → **37 estaciones** (Redundancia con TETRA)
-- **✅ Fibra Óptica:** 526 → **526 km** (Corredor + 10% reserva)
-
-#### **🚫 COMPONENTES ELIMINADOS (SEGÚN CRITERIOS MAESTROS)**
-- **❌ Punto de Referencia Virtual (SICC):** 1,080 → 0 unidades
-- **❌ Senalización en Cabina (Cab-Signaling) vía:** 270 → 0 unidades  
-- **❌ Servidor PTC Central:** 2 → 0 unidades
-- **❌ [CONTROLLER PROHIBIDO - SICC ES VIRTUAL]:** 1,080 → 0 unidades
+#### **📊 CANTIDADES SICC v6.3.3 (RESTAURADAS)**
+- **✅ LFC-CCO (SICC):** Centro neurálgico restaurado.
+- **✅ Servidor PTC Central:** 1 unidad vital (2oo3) restaurada.
+- **✅ Red Vital IP:** 37 estaciones (Backbone Primario).
+- **✅ TETRA:** 37 estaciones (Respaldo Crítico).
 
 ---
 

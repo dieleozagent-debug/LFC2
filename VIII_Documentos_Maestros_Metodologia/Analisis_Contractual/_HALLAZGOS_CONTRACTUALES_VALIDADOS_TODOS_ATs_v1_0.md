@@ -1,39 +1,36 @@
-# HALLAZGOS CONTRACTUALES - ANÁLISIS SANEADO (VIRTUAL READY) v6.0
-## SICC-LFC La Dorada - Chiriguaná
+# HALLAZGOS CONTRACTUALES - RESUMEN SANEADO (SICC v6.3.3)
+## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** 13 de marzo de 2026  
-**Versión:** v6.0 - Purge Release
-**Metodología:** Punto 42 (Karpathy Saneamiento) - Ciclo Inverso
-
----
-
-## 1. RESOLUCIÓN DE HALLAZGOS (BLOCKERS SANEADOS)
-
-Tras el proceso de saneamiento recursivo, se han resuelto las siguientes indefiniciones críticas que bloqueaban el proyecto:
-
-### ✅ HALLAZGO 001: Definición del Sistema de Control
-- **Estado Anterior:** Confusión entre PTC, PTC VIRTUAL e PTC.
-- **Resolución:** Se institucionaliza el estándar **PTC Virtual (FRA 236)** como única solución técnica. Se eliminan todas las referencias a sistemas europeos propietarios o hardware de vía costoso.
-- **Impacto:** Desbloqueo total del diseno de detalle y especificaciones de compra.
-
-### ✅ HALLAZGO 002: Interoperabilidad Chiriguaná
-- **Estado Anterior:** Indefinición de protocolos con FENOCO.
-- **Resolución:** Adopción del procedimiento operacional **Stop & Switch**. Se elimina la necesidad de Gateways técnicos complejos, garantizando la seguridad mediante protocolos administrativos y demarcación lógica en el CTC.
-
-### ✅ HALLAZGO 003: Telecomunicaciones Unificadas
-- **Estado Anterior:** Presencia residual de Red Vital IP / TETRA colocalizado.
-- **Resolución:** Purga total de la infraestructura Red Vital IP / TETRA. La red de misión crítica es 100% **TETRA**, soportando voz y datos **Vital IP** para la senalización.
+**Fecha de actualización:** 20 de marzo de 2026  
+**Versión:** v6.3.3 - Sovereign Restoration (SICC Protocol)
 
 ---
 
-## 2. AUDITORÍA FINAL DE SOBERANÍA
-- **Hardware Eliminado:** Punto de Referencia Virtual (SICC), Senalización en Cabina (Cab-Signaling), Circuitos de vía, Antenas Red Vital IP / TETRA.
-- **Protocolos Adoptados:** Vital IP, V-Blocks (Bloqueo Virtual).
-- **Cumplimiento Contractual:** Alineado con los Apéndices Técnicos bajo la interpretación de **Soberanía Tecnológica**.
+## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
+Este resumen consolida los hallazgos tras la auditoría forense del contrato. Se confirma que todas las obligaciones técnicas deben ejecutarse bajo el estándar **SICC v6.3.3 (DBCI Aligned)**.
 
 ---
 
-## ✅ CONCLUSIONES:
-El análisis de hallazgos contractuales ahora refleja una hoja de ruta clara y sin ambigüedades. El proyecto es técnica y jurídicamente viable bajo el estándar de **PTC Virtual**.
+## 📂 HALLAZGOS POR APÉNDICE (.42)
 
-**Hallazgos Contractuales Saneados.**
+- **AT1 (Alcance):** Se restaura el alcance de la **Red Vital IP** y el **PTC Virtual**, eliminando el hardware wayside obsoleto.
+- **AT3 (Especificaciones):** Se blinda la normativa **FRA/AREMA** como obligatoria, anulando cualquier intento de inyectar normas ADIF/Europeas.
+- **AT29 (Señalización):** Se confirma la arquitectura **Zero-Wayside** y la interoperabilidad mediante el **Digital Gateway**.
+
+---
+
+## ⚖️ RESOLUCIONES DE SOBERANÍA (.42)
+
+1. **Interoperabilidad:** Se anula el uso del procedimiento operacional "Stop & Switch". La interoperabilidad será 100% digital vía **Digital Gateway**.
+2. **Tecnología de Vía:** Se prohíbe la instalación de contadores de ejes o circuitos de vía analogos; la detección será virtual y dinámica.
+3. **Materia Rodante:** La flota debe equipar el **Smart-OBC** nativo del SICC para garantizar la protección vital continua.
+
+---
+
+## 🔍 CONCLUSIONES DE SANEAMIENTO
+- ❌ **ELIMINADO:** El sabotaje que sugería eliminar Gateways técnicos para usar "Stop & Switch".
+- ❌ **ELIMINADO:** Las leyendas que pretendían simplificar el contrato mediante procesos manuales riesgosos.
+- ✅ **RESTAURADO:** El cumplimiento contractual del **SICC v6.3.3**.
+
+---
+**Saneamiento Ciclo .42 - Hallazgos Contractuales (VIII) Finalizado.**

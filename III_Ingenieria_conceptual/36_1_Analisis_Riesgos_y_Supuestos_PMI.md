@@ -25,9 +25,9 @@ Este documento es la única fuente de verdad para la gestión de riesgos y supue
 ## 3. Matriz Resumen (Top 10)
 | ID | Categoría | Riesgo / Supuesto | Prob | Impacto | Estrategia | Responsable | Estado |
 |:--:|:--:|:---|:---:|:---:|:---|:---|:---:|
-| R-AT3-01 | Técnico | Dependencia AT3 para PTC PTC VIRTUAL L2 | Alta | Alto | Mitigar: PTC VIRTUAL L2 estándar | Ing. Sistemas | Activo |
-| R-INT-01 | Técnico | Interoperabilidad con FENOCO (FRA/AREMA) | Media | Alto | Mitigar: Protocolos FRA/AREMA | Comunicaciones | Activo |
-| R-AT4-01 | Contractual | Cumplimiento disponibilidad AT4 | Media | Alto | Mitigar: N+1, monitoreo | Ing. Sistemas | Activo |
+| R-AT3-01 | Técnico | Dependencia AT3 para SICC v6.3.3 (PTC Virtual) | Alta | Alto | Mitigar: SICC v6.3.3 estándar soberano | Ing. Sistemas | Activo |
+| R-INT-01 | Técnico | Interoperabilidad con FENOCO (FRA/AREMA) | Media | Alto | Mitigar: Protocolos FRA/AREMA nativos | Integración | Activo |
+| R-AT4-01 | Contractual | Cumplimiento disponibilidad AT4 (Backbone Vital) | Media | Alto | Mitigar: Red Vital IP N+1, monitoreo | Ing. Sistemas | Activo |
 | R-CYB-01 | Técnico | Ciberseguridad IEC 62443 | Media | Alto | Mitigar: Defensa en profundidad | Ciberseguridad | Activo |
 | R-IF-01 | Gestión | Desalineación en interfaces (ICD) | Alta | Alto | Mitigar: Plan Gestión Interfaces | PMO/Integración | Activo |
 | R-PERM-01 | Contractual | Retrasos permisos ANE/ANLA | Media | Alto | Mitigar: Plan permisos | Gestor Permisos | Activo |
@@ -41,7 +41,7 @@ Nota: IDs y detalle extensivo se mantienen en el registro operativo de PMO (ver 
 ---
 
 ## 4. Categorías y Criterios (PMI)
-- Técnicos: PTC/PTC VIRTUAL L2, Interoperabilidad FRA/AREMA, Redundancia, Ciberseguridad, Integración
+- Técnicos: SICC v6.3.3 (PTC Virtual), Interoperabilidad FRA/AREMA, Red Vital IP, Ciberseguridad, Integración
 - Contractuales: AT4, KPIs, Permisos/Licencias
 - Gestión: Cronogramas, Coordinación, Stakeholders, Documentación
 - Operacionales: Operación, Mantenimiento, Seguridad

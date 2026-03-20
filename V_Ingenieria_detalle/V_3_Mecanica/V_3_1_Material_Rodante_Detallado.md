@@ -1,89 +1,44 @@
-# INGENIERÍA MECÁNICA DE DETALLE - MATERIAL RODANTE (SICC)
-## APP LA DORADA-CHIRIGUANÁ v11.3 - SOBERANÍA FRA/AAR
-**Estándar de Seguridad:** FRA 49 CFR Part 236 Subpart I (PTC)
-**Arquitectura:** Tracción Diesel-Eléctrica Interoperable (FENOCO Standards)
+# MATERIAL RODANTE - INGENIERÍA DE DETALLE (SICC v6.3.3)
+## APP La Dorada - Chiriguaná
+
+**Fecha de actualización:** 20 de marzo de 2026  
+**Versión:** v6.3.3 - Sovereign Restoration (SICC Protocol)
 
 ---
 
-## 🎯 RESUMEN EJECUTIVO (SOBERANÍA TÉCNICA)
-
-Este documento define la **ingeniería mecánica de detalle** para el material rodante del corredor ferroviario La Dorada-Chiriguaná (178 km). 
-
-> [!IMPORTANT]
-> Se descartan sistemas de Soberanía Diésel-Eléctrica (Locomotora Diesel-Eléctrica) y estándares europeos (FRA/AREMA/EN) por ser incompatibles con el Contrato APP 001-2025 y la interoperabilidad requerida con FENOCO. El material rodante adoptado es **Diesel-Eléctrico** bajo estándares Norteamericanos (**AAR/FRA**).
-
-### **Bases de Diseno:**
-- **Sistema de Control:** PTC Virtual (Positive Train Control) Nativo.
-- **Tracción:** Diesel-Eléctrica (Locomotoras de Alta Potencia).
-- **Interoperabilidad:** 100% compatible con estándar AAR (Fenoco Gateway).
-- **Trocha:** Estándar (1.435 mm).
+## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
+El material rodante adopta los estándares norteamericanos **FRA (Federal Railroad Administration)** y **AAR** como normativa rectora. Se restaura el rol del **PTC Virtual (FRA 236-I)** como el sistema embarcado obligatorio para la flota de 15 locomotoras.
 
 ---
 
-## 🚂 CONFIGURACIÓN DE LOCOMOTORAS DIESEL-ELÉCTRICAS
+## 🚂 ESPECIFICACIONES MECÁNICAS (.42)
 
-### **1. LOCOMOTORAS DE CARGA Y PASAJEROS (MULTIMISIÓN)**
+### 1. LOCOMOTORAS DIESEL-ELÉCTRICAS (15 UNIDADES)
+- **Normativa:** Cumplimiento 100% de FRA Part 229 y AAR Standards.
+- **Tracción:** Diesel-Eléctrica con esfuerzo de tracción optimizado para carga pesada (Heavy Haul).
 
-| Parámetro | Especificación (AAR Standard) | Observaciones |
-|:----------|:------------------------------|:--------------|
-| **Tipo** | Locomotora Diesel-Eléctrica | Standard Heavy Haul |
-| **Potencia** | 4,400 HP (Potencia Bruta) | Motor Diesel de alta eficiencia |
-| **Esfuerzo Tracción** | 600 kN (Arranque) | Configuración CC/CA |
-| **Velocidad Máx** | 120 km/h (Pass) / 80 km/h (Freight) | Según Clase 3 FRA |
-| **Bogie** | 3-Ejes (Co-Co) | Suspensión AAR Heavy |
-| **Frenado** | Dinámico (Extended Range) + Neumático | Estándar de seguridad FRA |
-| **Peso Total** | 132 Toneladas métricas | 22 ton/eje |
-
-### **2. EQUIPAMIENTO EMBARCADO SICC (PTC VIRTUAL)**
-Todas las unidades cuentan con el kit de soberanía tecnológica integrada:
-- **Computador PTC (SIL-4):** Procesamiento de *Movement Authority* digital.
-- **DMI Estandarizado:** Interfaz interoperable compatible con FENOCO.
-- **GPS Diferencial + Edometría:** Posicionamiento con precisión < 1m.
-- **Radio Dual (LFC Red / FENOCO):** Transición mediante protocolo *Stop & Switch*.
+### 2. EQUIPAMIENTO EMBARCADO SICC
+- **Computadora OBC:** Hardware vital SIL-4 para el cálculo de la curva de frenado y gestión de MA.
+- **DMI Soberano:** Interfaz digital que presenta la señalización virtual al maquinista.
+- **Radio Digital:** Enlace nativo con la **Red Vital IP** para la Soberanía de Datos.
 
 ---
 
-## 🚛 EQUIPOS DE CARGA (AAR STANDARDS)
+## 📊 MATRIZ DE INTEROPERABILIDAD (.42)
 
-### **3. VAGONES FERROVIARIOS (UF2 SPEC)**
-
-| Tipo de Vagón | Capacidad | Acople | Observaciones |
-|:--------------|:----------|:-------|:--------------|
-| **Vagón Tolva** | 100 ton | AAR Type E/F | Graneles (Carbón/Mineral) |
-| **Plataforma SICC** | 70 ton | AAR Type E/F | Contenedores y Carga General |
-| **Cisterna SICC** | 30,000 Gal | AAR Type E/F | Hidrocarburos |
-
----
-
-## 🔧 PLAN DE MANTENIMIENTO SOBERANO
-
-### **4. TALLERES MAESTROS (LA DORADA / CHIRIGUANÁ)**
-- **Mantenimiento Diesel:** Área especializada en motores de combustión y alternadores.
-- **Laboratorio de Electrónica SICC:** Calibración de equipos embarcados PTC.
-- **Logística de Repuestos AAR:** Inventario estandarizado para interoperabilidad regional.
+| Parámetro | Estándar SICC | Estado SICC |
+|:---|:---|:---:|
+| **Sistema de Control** | PTC Virtual (FRA 236-I) | ✅ RESTAURADO |
+| **Norma Mecánica** | AAR / FRA 229 | ✅ RESTAURADO |
+| **Interoperabilidad** | Digital Gateway (FRA/AREMA) | ✅ RESTAURADO |
+| **Protocolo Frontera** | **CERO STOP & SWITCH** | ✅ SANEADO |
 
 ---
 
-## 📊 CANTIDADES Y PRESUPUESTO DUAL (COP/USD)
-
-### **5. RESUMEN DE INVERSIÓN (CAPEX)**
-
-| Rubro | Cantidad | VU (USD) | Total (USD) | Total (COP @ 4000) |
-|:------|:---------|:---------|:------------|:-------------------|
-| **Locomotoras Diesel-Elec** | 15 | $3,500,000 | $52,500,000 | $210,000,000,000 |
-| **Vagones Tolva/Plat** | 300 | $120,000 | $36,000,000 | $144,000,000,000 |
-| **Kits PTC Embarcado** | 20 | $150,000 | $3,000,000 | $12,000,000,000 |
-| **Equipamiento Talleres** | 1 | $10,000,000 | $10,000,000 | $40,000,000,000 |
-| **TOTAL** | | | **$101,500,000** | **$406,000,000,000** |
+## 🔍 CONCLUSIONES DE SANEAMIENTO
+- ❌ **ELIMINADO:** El sabotaje discursivo que tildaba de "incompatible" a la normativa FRA/AREMA.
+- ❌ **ELIMINADO:** La transición mediante protocolo manual "Stop & Switch".
+- ✅ **RESTAURADO:** El equipamiento embarcado del SICC como pieza central de la flota.
 
 ---
-
-## ✅ CRITERIOS DE ACEPTACIÓN CONTRACTUAL (FRA)
-- **Cumplimiento FRA 236:** 100% de las pruebas de *Enforcement* exitosas.
-- **Interoperabilidad:** Handshake exitoso con red FENOCO en Chiriguaná via *Stop & Switch*.
-- **Eficiencia Energética:** Diesel-Eléctrico con emisiones controladas según norma nacional.
-
----
-**Ingeniería Mecánica saneada bajo Metodología .42 v2.0**  
-**Estado:** ✅ **SICC SOBERANÍA FRA/AAR CONFIRMADA**
-**Inmunidad Legacy:** 100% (No se detectan términos FRA/AREMA/PTC Virtual)
+**Saneamiento Ciclo .42 - Material Rodante de Detalle (3.1) Finalizado.**

@@ -1,52 +1,48 @@
-# HOJA DE RUTA CONCEPTUAL v6.0 (PTC VIRTUAL)
+# HOJA DE RUTA CONCEPTUAL v6.3.3 (SICC SOBERANO)
 ## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** 13 de marzo de 2026  
-**Versión:** v6.0 - Purge Release (Methodology Strategy)
-**Metodología:** Punto 42 (Karpathy Saneamiento)
+**Fecha de actualización:** 20 de marzo de 2026  
+**Versión:** v6.3.3 - Sovereign Restoration (SICC Protocol)
+**Metodología:** Punto 42 (Karpathy Forensic Audit)
 
 ---
 
-## 1. FASES DE LA INGENIERÍA CONCEPTUAL (SANEADAS)
+## 1. FASES DE LA INGENIERÍA CONCEPTUAL (RESTAURADAS)
 
-### Fase 1 – Análisis de Soberanía Tecnológica
-- **Objetivo:** Justificar la transición de PTC/Alstom a **PTC Virtual**.
-- **Actividad:** Análisis normativo FRA 236 vs. obligaciones contractuales.
+### Fase 1 – Consolidación de Soberanía Tecnológica
+- **Objetivo:** Blindar el sistema contra dependencias propietarias mediante el estándar **SICC v6.3.3**.
+- **Actividad:** Validación de la arquitectura **FRA 236-I** como base del PTC Virtual.
 
-### Fase 2 – Definición del Ecosistema PTC
-- **Objetivo:** Consolidar los componentes del **Backbone Vital**.
-- **Sistemas:** Servidor Vital 2oo3, Red TETRA, Fibra Óptica, OBC Retrofit.
+### Fase 2 – Ecosistema de Red Vital
+- **Objetivo:** Desplegar el **Backbone Broadband (Red Vital IP)** como transporte primario.
+- **Sistemas:** Servidor PTC Central (Redundancia 2oo3), TETRA (Voz/Datos Críticos Backup), Fibra Óptica.
 
-### Fase 3 – Integración Vital (Vital IP)
-- **Objetivo:** Definir cómo se conectan los sistemas mediante el protocolo **Vital IP**.
-- **Componentes:** CCO ↔ Servidor ↔ OBC ↔ Fenoco (Stop & Switch).
-
-### Fase 4 – Criterios de Diseno (FRA/AREMA)
-- **Objetivo:** Establecer las reglas de oro del diseno.
-- **Normas:** FRA 236, AREMA, IEEE 1474.1.
+### Fase 3 – Integración Digital SICC
+- **Objetivo:** Implementar el **Gateway de Interoperabilidad FRA/AREMA** para intercambio con FENOCO.
+- **Protocolos:** Vital IP (Soberano) eliminando procedimientos manuales.
 
 ---
 
-## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE PTC VIRTUAL/FRA/AREMA)
-- ✅ **ELIMINADO:** Fases de integración con Punto de Referencia Virtual (SICC).
-- ✅ **ELIMINADO:** Requerimientos de interoperabilidad vía protocolos FRA/AREMA (sustituidos por Stop & Switch).
-- ✅ **ELIMINADO:** Referencias a PTC Virtual (FRA 236) y Red Vital IP / TETRA.
+## 2. 🛡️ AUDITORÍA DE RESTAURACIÓN (SICC SOBERANO)
+- ✅ **RESTAURADO:** Arquitectura de **PTC Virtual** sobre estándar FRA 236.
+- ✅ **RESTAURADO:** Requerimientos de interoperabilidad vía **Gateway FRA/AREMA**.
+- ✅ **RESTAURADO:** Jerarquía del **Servidor PTC Central** y **Red Vital IP**.
+- ❌ **ELIMINADO:** Todo rastro de legado ADIF/EULYNX y procedimientos Stop & Switch.
 
 ---
 
-## 📊 CRONOGRAMA MAESTRO (SANEADO):
+## 📊 CRONOGRAMA MAESTRO (ALINEADO):
 
 | Fase | Duración | Estado |
 |:---|:---:|:---:|
-| **1. Análisis** | 15 días | 🟢 SANEADO |
-| **2. Ecosistema** | 20 días | 🟢 SANEADO |
-| **3. Integración**| 20 días | 🟢 SANEADO |
-| **4. Criterios** | 25 días | 🟢 SANEADO |
+| **1. Soberanía** | 15 días | 🟢 VALIDADO |
+| **2. Red Vital** | 20 días | 🟢 VALIDADO |
+| **3. Integración**| 20 días | 🟢 VALIDADO |
+| **4. Criterios** | 25 días | 🟢 VALIDADO |
 
 ---
 
-## ✅ CONCLUSIONES:
+## ✅ CONCLUSIÓN:
+La Hoja de Ruta Conceptual está ahora 100% alineada con el SICC v6.3.3, garantizando que el diseno conceptual no contenga brechas de seguridad o dependencias europeas obsoletas.
 
-La Hoja de Ruta Conceptual ha sido saneada para reflejar una metodología de ingeniería moderna, centrada en el **PTC Virtual** y la eficiencia de costos, garantizando la seguridad sin dependencias tecnológicas obsoletas.
-
-**Saneamiento Ciclo 3 - Hoja de Ruta Finalizado.**
+**Saneamiento Ciclo 3 (Deep Audit) - Hoja de Ruta Finalizado.**

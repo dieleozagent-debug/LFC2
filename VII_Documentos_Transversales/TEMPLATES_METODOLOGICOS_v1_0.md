@@ -1,43 +1,44 @@
-# TEMPLATES METODOLÓGICOS - PROYECTOS EPC FERROVIARIOS v2.0
-## Versión Saneada (Soberanía Tecnológica) - APP La Dorada-Chiriguaná
+# PLANTILLAS METODOLÓGICAS (SICC v6.3.3)
+## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** 13 de marzo de 2026  
-**Versión:** 2.0 - Purge Release
-**Metodología:** Punto 42 (Karpathy Saneamiento) - Ciclo Inverso
-
----
-
-## 📋 TEMPLATE T01: FICHA DE SISTEMA (SANEADO)
-Este template debe usarse para definir sistemas bajo el estándar **PTC Virtual / Vital IP**.
-
-### Ejemplo de Integración Saneada:
-| Sistema Externo | Tipo Interface | Protocolo | Datos Intercambiados | Criticidad |
-|:----------------|:---------------|:----------|:---------------------|:-----------|
-| **Tren (OBC)** | Ethernet/TETRA | **Vital IP** | MA, Posición, Integridad | CRÍTICA |
-| **FENOCO** | Operacional | **Stop & Switch** | Validación de Frontera | ALTA |
+**Fecha de actualización:** 20 de marzo de 2026  
+**Versión:** v6.3.3 - Sovereign Restoration (SICC Protocol)
 
 ---
 
-## 📋 TEMPLATE T02: ANÁLISIS DE REQUISITOS (SANEADO)
-
-### Requisitos Funcionales de Seguridad:
-1. **Autorización de Movimiento (MA):** Transmisión vital vía **Vital IP** encapsulado en TETRA.
-2. **Integridad del Tren:** Reporte continuo del dispositivo **EOT** para liberación de V-Blocks.
-3. **Interoperabilidad:** Cumplimiento estricto del procedimiento operacional en el punto de intercambio (PK 526).
+## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
+Las plantillas oficiales del proyecto deben asegurar que el 100% de los nuevos entregables nazcan bajo el estándar **SICC v6.3.3**. Se eliminan todos los placeholders o ejemplos basados en protocolos manuales o hardware wayside europeo.
 
 ---
 
-## 📋 TEMPLATE T04: ESPECIFICACIÓN TÉCNICA (SANEADO)
+## 📄 CATÁLOGO DE PLANTILLAS SANEADAS (.42)
 
-### 1. ALCANCE TÉCNICO
-- **Tecnología:** PTC Virtual (Soberanía Tecnológica).
-- **Redundancia:** Servidor Maestro 2oo3 sobre hardware COTS.
-- **Canal de Datos:** Red Unificada TETRA de misión crítica.
+### 1. PLANTILLA T-03 (ARQUITECTURA CONCEPTUAL)
+- **Placeholder Red:** Red Vital IP.
+- **Placeholder Control:** Vital Server 2oo3.
+- **Placeholder Detección:** GNSS/EOT (Cero Hardware en Vía).
+
+### 2. PLANTILLA T-04 (INTEROPERABILIDAD)
+- **Sección Fronteras:** Gestión mediante **Digital Gateway (FRA/AREMA)**.
+- **Nota técnica:** Queda prohibida la inclusión del procedimiento "Stop & Switch" en esta sección.
 
 ---
 
-## ✅ CONCLUSIONES DE TEMPLATES:
+## 📊 MATRIZ DE COMPONENTES DE PLANTILLA (.42)
 
-Los templates metodológicos han sido purgados de cualquier referencia a tecnologías propietarias o protocolos cerrados. El uso de estos templates garantiza que la documentación del proyecto sea consistente con los **Criterios Técnicos Maestros** y el **Brain** del agente.
+| Sistema | Placeholder SICC | Función de Verificación |
+|:---|:---|:---|
+| **Interoperatividad**| Digital Gateway | Handshake Automático API |
+| **Comunicaciones**| Red Vital IP | Latencia Broadband |
+| **Protocolo** | FRA 236-I (PTC) | Autorizaciones Digitales |
+| **Legacy** | **PROHIBIDO** | **ELIMINAR STOP & SWITCH** |
 
-**Saneamiento Ciclo 7 - Templates Finalizado.**
+---
+
+## 🔍 CONCLUSIONES DE SANEAMIENTO
+- ❌ **ELIMINADO:** El protocolo "Stop & Switch" de la tabla de interoperabilidad de plantillas.
+- ❌ **ELIMINADO:** Referencias a validaciones manuales en frontera.
+- ✅ **RESTAURADO:** El ADN digital soberano en las plantillas del proyecto.
+
+---
+**Saneamiento Ciclo .42 - Plantillas Metodológicas (VII) Finalizado.**

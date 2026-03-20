@@ -1,45 +1,46 @@
-# RESUMEN EJECUTIVO: INGENIERÍA BÁSICA v6.3.2 (SICC SOVEREIGN)
-## APP La Dorada - Chiriguaná | Fase IV
+# RESUMEN DE INGENIERÍA BÁSICA (SICC v6.3.3)
+## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** 18 de marzo de 2026  
-**Estatus:** ✅ **SICC PURIFIED - SOBERANÍA TÉCNICA GARANTIZADA**  
-**Metodología:** Karpathy Loop v3 - Ciclo de Saneamiento Forense
-
----
-
-## 1. VISIÓN ESTRATÉGICA DE LA INGENIERÍA BÁSICA (SICC)
-La Fase IV (Ingeniería Básica) se consolida bajo el cambio de paradigma hacia la **Soberanía Técnica**. Se elimina la dependencia de arquitecturas propietarias (Legacy / PTC Virtual (SICC)) y se adopta integralmente la arquitectura **SICC v6.3.3 (PTC Virtual)**.
-
-### 1.1 Pilares del Diseno Soberano:
-*   **Tracción Soberana**: Transición a **Diésel-Eléctrica** (eliminación de [INFRAESTRUCTURA PROHIBIDA] / 25kV).
-*   **Senalización Virtual**: Implementación de **PTC Virtual (SICC)** basado en GNSS y autorizaciones de movimiento (MA) dinámicas.
-*   **Comunicaciones Misión Crítica**: Unificación en la red **Red Vital IP / TETRA**, garantizando redundancia y cobertura del 99.95% en el corredor.
-*   **Interoperabilidad Nacional**: Estándares **FRA/AREMA** para interoperabilidad soberana vía Stop & Switch.
+**Fecha de actualización:** 20 de marzo de 2026  
+**Versión:** v6.3.3 - Sovereign Restoration (SICC Protocol)
 
 ---
 
-## 2. 🔍 AUDITORÍA DE SANEAMIENTO (SSOT ALIGNMENT)
-En cumplimiento del **DBCI-SSOT**, se han validado/corregidos los siguientes hitos:
-*   ✅ **Red Vital IP / TETRA**: Re-integrada como la única fuente de comunicaciones de misión crítica (reemplaza Red Vital IP / TETRA legacy).
-*   ✅ **PTC Virtual (SICC)**: Re-confirmado como estándar de diseno L2/GNSS (reemplaza Puntos de Referencia Virtuales (SICC) físicas).
-*   ✅ **Corredor 526 km**: Base física de diseno para ubicación de nodos y cajas de paso.
-*   ✅ **UTF-8 Purity**: Saneamiento de caracteres especiales en memorias y planos.
+## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
+La Ingeniería Básica se fundamenta en la arquitectura **Zero-Wayside** y el control mediante **PTC Virtual (FRA 236)**. Se eliminan todos los diseños que contemplen señalización física o procedimientos de interoperabilidad manuales obsoletos.
 
 ---
 
-## 🏗️ ARQUITECTURA TÉCNICA REFINADA (FASE IV)
+## 🏗️ ESPECIALIDADES DE DISEÑO (.42)
 
-| Sistema | Solución Básica SICC | Estado |
-|:---:|:---:|:---:|
-| **Control** | CTC Centralizado (La Dorada) | SANEADO |
-| **Senalización** | PTC Virtual (Cab-Signaling) | SANEADO |
-| **Comunicaciones** | Red Vital IP / TETRA | SANEADO |
-| **Potencia** | Grupos Electrógenos / Paneles | SANEADO |
-| **Localización** | GNSS + Odometría SICC | SANEADO |
+### 1. SISTEMAS DE CONTROL Y SEÑALIZACIÓN (PTC)
+- **Centralización Vital:** El diseño básico establece el **CCO (Vital Server 2oo3)** como el único origen de autorizaciones de movimiento.
+- **Detección Dinámica:** Basada en telemetría de locomotora y EOT, eliminando hardware en vía.
+
+### 2. TELECOMUNICACIONES (BROADBAND VITAL)
+- **Infraestructura:** Despliegue de 37 estaciones para la **Red Vital IP** y TETRA.
+- **Redundancia:** Enlace permanente para la transmisión de misiones críticas.
+
+### 3. INTEROPERABILIDAD DIGITAL
+- **Gateway Soberano:** Se define la interfaz digital con FENOCO basada en estándares **FRA/AREMA**, prohibiendo taxativamente el uso de "Stop & Switch".
 
 ---
 
-## ✅ CONCLUSIÓN DE FASE:
-La Ingeniería Básica ha sido saneada para ser 100% coherente con el **Manifesto de Soberanía SICC**. Se garantiza una base técnica sólida, sin puntos únicos de fallo propietarios, lista para la fase de detalle.
+## 📊 MATRIZ DE COMPONENTES BÁSICOS (.42)
 
-**Saneamiento Ciclo 6 - 100% Purity Certification (Phase IV)**
+| Sistema | Tecnología Base | Estado SICC |
+|:---|:---|:---:|
+| **Control** | Vital Server 2oo3 | ✅ RESTAURADO |
+| **Comunicaciones**| Red Vital IP / TETRA | ✅ RESTAURADO |
+| **Interoperabilidad**| Digital Gateway | ✅ RESTAURADO |
+| **Señalización** | V-Block (Virtual) | ✅ RESTAURADO |
+
+---
+
+## 🔍 CONCLUSIONES DE SANEAMIENTO
+- ❌ **ELIMINADO:** La falsa premisa de que "Stop & Switch" es un estándar soberano.
+- ❌ **ELIMINADO:** Diseños que requerían señalización física redundante.
+- ✅ **RESTAURADO:** El diseño básico alineado con la **Soberanía Digital**.
+
+---
+**Saneamiento Ciclo .42 - Resumen Ingeniería Básica Finalizado.**

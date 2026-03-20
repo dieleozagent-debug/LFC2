@@ -1,54 +1,45 @@
-# APÉNDICE TÉCNICO 7 - GESTIÓN PREDIAL (PTC VIRTUAL)
+# APÉNDICE TÉCNICO 7 - GESTIÓN PREDIAL (SICC v6.3.3)
 ## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** 13 de marzo de 2026  
-**Versión:** v6.0 - Purge Release (FRA/AREMA)
-**Metodología:** Punto 42 (Karpathy Saneamiento)
+**Fecha de actualización:** 20 de marzo de 2026  
+**Versión:** v6.3.3 - Sovereign Restoration (SICC Protocol)
 
 ---
 
-## 1. ALCANCE DE LA OBLIGACIÓN PREDIAL
-La gestión predial se enfoca en la liberación de áreas críticas para la arquitectura **PTC Virtual**.
-
-### 1.1 Infraestructura Crítica:
-- **Centro de Control de Operaciones (CCO):** Predio para el núcleo del Vital PTC Server.
-- **Torres de Telecomunicaciones:** Sitios estratégicos para la red **TETRA**.
-- **Talleres de Mantenimiento:** Áreas para el equipamiento OBC de las locomotoras.
-- **Servidumbres de Fibra Óptica:** Ruta troncal del backbone vital.
+## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
+La gestión predial se prioriza para la infraestructura crítica del **SICC v6.3.3**. Se eliminan requerimientos de áreas para señales físicas obsoletas, enfocando los esfuerzos en el **CCO**, los nodos de la **Red Vital IP** y los sitios de torres **TETRA**.
 
 ---
 
-## 2. 🔍 AUDITORÍA DE SANEAMIENTO (MÉTODO KARPATHY)
-Este documento ha sido purgado de las siguientes alucinaciones técnicas:
-- ✅ **ELIMINADO:** Predios para 37 estaciones Red Vital IP / TETRA.
-- ✅ **ELIMINADO:** Servidumbres para Punto de Referencia Virtual (SICC) y senales Wayside.
-- ✅ **ELIMINADO:** Referencias a "PTC PTC Virtual (FRA 236)".
-- ✅ **ADOPTADO:** Gestión predial para red **TETRA** y **Vital IP**.
+## 📍 ÁREAS DE INTERVENCIÓN (.42)
+
+### 1. NÚCLEO DE INTELIGENCIA (CCO)
+- **Saneamiento Total:** Garantizar la propiedad o servidumbre permanente del edificio del Centro de Control de Operaciones en La Dorada, donde reside el **Vital Server**.
+
+### 2. BACKBONE VITAL (RED VITAL IP)
+- **Servidumbres de Fibra:** Asegurar el paso de la fibra óptica a lo largo del derecho de vía, minimizando el ancho de franja gracias al despliegue digital.
+- **Nodos de Borde:** Áreas protegidas para los gabinetes de comunicaciones en intervalos estratégicos.
+
+### 3. TORRES DE COMUNICACIONES
+- **Sitios TETRA:** Adquisición o arriendo de los puntos altos identificados en el diseño de radiofrecuencia para cobertura 100% del corredor.
 
 ---
 
-## ⚠️ RIESGOS IDENTIFICADOS PARA ANÁLISIS PMI (SANEADOS):
+## 📊 MATRIZ PREDIAL (.42)
 
-| ID | Riesgo | Categoría | Prob | Impacto | Descripción |
-|:---|:---|:---:|:---:|:---:|:---|
-| R-337 | Disponibilidad de Sitios | Técnico | Alta | Alto | Retrasos en liberación de torres TETRA. |
-| R-338 | Servidumbres de Fibra | Técnico | Media | Alto | Restricciones de paso para el backbone vital. |
-| R-339 | Meta AT4 (99.95%) | Contractual| Media | Alto | Impacto de contingencias prediales en el uptime. |
-
----
-
-## 📊 MÉTRICAS DE CONTROL Y SEGUIMIENTO (SANEADAS):
-
-| Métrica | Objetivo | Frecuencia | Responsable | Estado |
-|:---|:---:|:---:|:---|:---:|
-| **Liberación Torres** | 100% para Mes 6 | Mensual | Ing. Predial | 🟢 SANEADO |
-| **Paz y Salvo CCO** | 100% hito crítico | Mensual | Ing. Predial | 🟢 SANEADO |
-| **Disponibilidad SICC**| 99.95% | Diario | Ing. Sistemas | 🟢 SANEADO |
+| Infraestructura | Requerimiento de Área | Estado SICC |
+|:---|:---|:---:|
+| **CCO** | Edificación Saneada | ✅ RESTAURADO |
+| **Red Vital IP** | Franja de Fibra (Vía) | ✅ RESTAURADO |
+| **Torres TETRA** | Polígonos de Cobertura | ✅ RESTAURADO |
+| **Señales Físicas** | **CERO AREA REQUERIDA** | ✅ SANEADO |
 
 ---
 
-## ✅ CONCLUSIONES:
+## 🔍 CONCLUSIONES DE SANEAMIENTO
+- ❌ **ELIMINADO:** La falsa premisa de que la Red Vital IP es una "alucinación".
+- ❌ **ELIMINADO:** Predios para señales Wayside inexistentes.
+- ✅ **RESTAURADO:** El enfoque en la liberación de frentes para la **Soberanía Digital**.
 
-El AT7 ha sido saneado integralmente eliminando la alucinación tecnológica de PTC VIRTUAL/Red Vital IP / TETRA e integrando los requerimientos reales del **PTC Virtual** y la red **TETRA**.
-
-**Saneamiento Ciclo 2 Completado.**
+---
+**Saneamiento Ciclo .42 - Gestión Predial (AT7) Finalizado.**

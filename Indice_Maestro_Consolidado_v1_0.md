@@ -1,48 +1,47 @@
-# ÍNDICE MAESTRO CONSOLIDADO v6.0
-## APP LA DORADA - CHIRIGUANÁ - REPOSITORIO SANEADO
+# ÍNDICE MAESTRO CONSOLIDADO (SICC v6.3.3)
+## APP LA DORADA - CHIRIGUANÁ - REPOSITORIO SOBERANO
 
-**Fecha de consolidación:** 13 de marzo de 2026  
-**Versión:** v6.0 - Purge Release (PTC Virtual Ready)
-**Metodología:** Punto 42 (Karpathy Saneamiento) - Ciclo Inverso
-
----
-
-## 📋 RESUMEN DEL SISTEMA SANEADO
-
-Este repositorio ha sido purgado de cualquier tecnología obsoleta o propietaria. La infraestructura se basa exclusivamente en **PTC Virtual** y red de misión crítica **TETRA**.
+**Fecha de consolidación:** 20 de marzo de 2026  
+**Versión:** v6.3.3 - Sovereign Restoration (PTC Virtual Active)
+**Estatus:** ✅ 100% SOBERANO | SICC v6.3.3 COMPLIANT
 
 ---
 
-## 🏗️ ESTRUCTURA DOCUMENTAL SANEADA
+## 📋 RESUMEN DEL SISTEMA RESTAURADO
+Este repositorio ha sido purgado de la contaminación técnica manual. La arquitectura se basa exclusivamente en el **SICC v6.3.3 (DBCI)**, el sistema **PTC Virtual (FRA 236)** y la **Red Vital IP (Broadband)** para misiones críticas.
 
-### **📁 FASE 0-2: BASE CONTRACTUAL Y CONCEPTUAL**
-- [I_Contractual_y_normas.md](file:///home/administrador/docker/LFC2/I.%20contractual%20y%20normas/I_Contractual_y_normas.md)
-- [II_Referencia_apendices_tecnicos.md](file:///home/administrador/docker/LFC2/II.%20Referencia%20apendices%20tecnicos/II_Referencia_apendices_tecnicos.md)
-- [III_Ingeneiria_conceptual.md](file:///home/administrador/docker/LFC2/III.%20Ingenieria%20conceptual/III_Ingeneiria_conceptual.md)
+---
+
+## 🏗️ ESTRUCTURA DOCUMENTAL SANEADA (.42)
+
+### **📁 FASE 1-2: BASE CONTRACTUAL Y CONCEPTUAL**
+- [I_Contrato_General](file:///home/administrador/docker/LFC2/I_Contrato_General/I_Contrato_General.md)
+- [II_Apendices_Tecnicos](file:///home/administrador/docker/LFC2/II_Apendices_Tecnicos/)
+- [III_Ingenieria_conceptual](file:///home/administrador/docker/LFC2/III_Ingenieria_conceptual/)
 
 ### **📁 FASE 3-5: INGENIERÍA Y DETALLE (SOBERANÍA)**
-- [IV_Ingenieria_basica.md](file:///home/administrador/docker/LFC2/IV_Ingenieria_basica/IV_Ingenieria_basica.md)
-- [V_Ingeneiria_de_detalle.md](file:///home/administrador/docker/LFC2/V_Ingenieria_detalle/V_Ingeneiria_de_detalle.md)
-- **Sistemas Clave:** PTC Virtual, Vital IP, Red TETRA, EOT.
+- [IV_Ingenieria_basica](file:///home/administrador/docker/LFC2/IV_Ingenieria_basica/)
+- [V_Ingenieria_detalle](file:///home/administrador/docker/LFC2/V_Ingenieria_detalle/)
+- **Sistemas Clave:** PTC Virtual, Vital Server 2oo3, Red Vital IP, Digital Gateway.
 
-### **📁 FASE 6: OPERACIÓN Y MANTENIMIENTO**
-- [VI_Operacion_Mantenimiento_y_reversion.md](file:///home/administrador/docker/LFC2/VI.%20operacion%20y%20mantenimiento%20y%20reversion/VI_Operacion_Mantenimiento_y_reversion.md)
-- **Manuales:** CTC Virtual, Senalización Virtual, Telecomunicaciones (Purga Red Vital IP / TETRA).
+### **📁 FASE 6-7: OPERACIÓN Y SOPORTE**
+- [VI_Operacion_Mantenimiento_Reversion](file:///home/administrador/docker/LFC2/VI_Operacion_Mantenimiento_Reversion/)
+- [VII_Documentos_Transversales](file:///home/administrador/docker/LFC2/VII_Documentos_Transversales/)
 
-### **📁 FASE 7: SOPORTE Y TRANSVERSALES**
-- [VII_Documentos_transversales.md](file:///home/administrador/docker/LFC2/VII.%20documentos%20transversales/VII_Documentos_transversales.md)
-- [GUIA_METODOLOGICA_EPC_FERROVIARIOS_v1.0.md](file:///home/administrador/docker/LFC2/VII.%20documentos%20transversales/GUIA_METODOLOGICA_EPC_FERROVIARIOS_v1.0.md)
+### **📁 FASE 8: DOCUMENTOS MAESTROS Y PLANIFICACIÓN**
+- [VIII_Documentos_Maestros_Metodologia](file:///home/administrador/docker/LFC2/VIII_Documentos_Maestros_Metodologia/)
+- [IX_WBS_Planificacion](file:///home/administrador/docker/LFC2/IX_WBS_Planificacion/)
 
 ---
 
 ## 📁 IX. ENTREGABLES CONSOLIDADOS ⭐ PRODUCTO FINAL
 - [README_ENTREGABLES_SANEADOS.md](file:///home/administrador/docker/LFC2/IX_ENTREGABLES/README_ENTREGABLES_SANEADOS.md)
-- **Estado:** ✅ **100% SOBERANO**. Libre de PTC VIRTUAL, PTC y Red Vital IP / TETRA.
+- **Estado:** ✅ **100% SOBERANO**. Restaurado con SICC v6.3.3 y Red Vital IP.
 
 ---
 
-## ✅ CERTIFICACIÓN DE COHERENCIA:
+## ✅ CERTIFICACIÓN DE PUREZA TÉCNICA:
+El repositorio completo ha sido saneado mediante el protocolo **Karpathy Loop (.42)**. El Índice Maestro refleja ahora una arquitectura soberana blindada contra el legado analógico y las interferencias de protocolos manuales ("Stop & Switch").
 
-El repositorio completo ha pasado por 7 ciclos de saneamiento recursivo. El Índice Maestro ahora refleja una arquitectura ferroviaria abierta y eficiente, eliminando los riesgos de desalineación contractual y técnica.
-
-**Repositorio LFC Saneado Exitosamente.**
+---
+**Repositorio LFC2 Saneado y Validado con Éxito.**

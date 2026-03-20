@@ -1,44 +1,27 @@
-# ÍNDICE DEL CONTRATO GENERAL (PTC VIRTUAL)
+# ÍNDICE DEL CONTRATO GENERAL v6.3.3 (SICC SOBERANO)
 ## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** 13 de marzo de 2026  
-**Proyecto:** APP La Dorada - Chiriguaná  
-**Contrato:** Concesión No. 001 de 2025  
-**Documento:** Índice del Contrato General  
+---
+
+## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
+Este índice y los documentos derivados se rigen bajo el estándar **SICC v6.3.3**. Se anula cualquier referencia a protocolos europeos (ADIF/EULYNX) o procedimientos manuales (Stop & Switch) en favor del **PTC Virtual (FRA 236-I)** y la **Red Vital IP**.
 
 ---
 
-## 📄 ESTRUCTURA DE NAVEGACIÓN (JERARQUÍA Cl 1.2d)
+## ESTRUCTURA DE LA CARPETA I (SANEADA)
 
-### I_Contrato_General
-- **Cl_2.14_LicenciasPermisos:** Gestión de espectro (ANE), ambientales (ANLA), prediales.
-- **Cl_8.1_Preconstrucción:** Obligaciones de estudios y disenos (Alineado con DBCD PTC Virtual).
-- **Cl_8.2_Construcción:** Obligaciones en fase de construcción.
-- **Cl_9.1_OM:** Obligaciones de Operación y Mantenimiento.
-- **Cl_12.1_Reversión:** Entrega de activos y sistemas en buen estado.
-- **Cl_13.1_MaterialRodante:** Equipos embarcados **PTC (FRA 236)** y TETRA (Alineado con DBCD).
-- **Cl_14.1_OM_Sistemas:** Reposición y mantenimiento de hardware/software SICC.
-- **Cl_15.1_Reversión_Bienes:** Manuales, as-built, software transferible.
-- **Cl_16.1_Penalidades:** Multas por incumplimiento.
-- **Cl_I.2d_JerarquiaDocumental:** Prioridad contractual suprema.
+1.  **[10_Cl_I_2d_JerarquiaDocumental...](file:///home/administrador/docker/LFC2/I_Contrato_General/10_Cl_I_2d_JerarquiaDocumental_docx_Prioridad_contractual_MEJORADO.md)**: Establece la preeminencia del **DBCD_CRITERIA.md**.
+2.  **[2_Cl_8_1_Preconstruccion...](file:///home/administrador/docker/LFC2/I_Contrato_General/2_Cl_8_1_Preconstruccion_docx_Obligaciones_de_estudios_y_dise_os_MEJORADO.md)**: Define la ingeniería soberana.
+3.  **[3_Cl_8_2_Construccion...](file:///home/administrador/docker/LFC2/I_Contrato_General/3_Cl_8_2_Construcci_n_docx_Obligaciones_en_fase_de_construcci_n_MEJORADO.md)**: Obligaciones de despliegue digital.
+4.  **[4_Cl_9_1_OM...](file:///home/administrador/docker/LFC2/I_Contrato_General/4_Cl_9_1_OM_docx_Obligaciones_de_Operaci_n_y_Mantenimiento_MEJORADO.md)**: Operación predictiva SICC.
+5.  **[6_Cl_13_1_MaterialRodante...](file:///home/administrador/docker/LFC2/I_Contrato_General/6_Cl_13_1_MaterialRodante_docx_Equipos_embarcados_ITCS_TETRA_MEJORADO.md)**: Equipamiento OBC SIL 4.
 
 ---
 
-## 🔍 FILOSOFÍA DE RE-INGENIERÍA (METODOLOGÍA P.42 v4.2)
-Este repositorio ha sido auditado para eliminar **Alucinaciones Técnicas**.
-- ✅ **ELIMINADO:** Referencias a PTC Virtual (FRA 236) (Estándar Europeo no aplicable).
-- ✅ **ELIMINADO:** Referencias a senalización luminosa Wayside (Arquitectura Virtual).
-- ✅ **ADOPTADO:** Normativa **FRA 49 CFR 236 Subpart I** (Positive Train Control).
-- ✅ **ADOPTADO:** Interoperabilidad **Operacional** con FENOCO.
+## 🔍 AUDITORÍA DE RESTAURACIÓN
+- ✅ **RESTAURADO:** Interoperabilidad digital vía **Gateway FRA/AREMA**.
+- ✅ **RESTAURADO:** Jerarquía de la **Red Vital IP**.
+- ❌ **ELIMINADO:** Todo rastro de "Stop & Switch" como solución de diseño.
 
 ---
-
-## 🛠 CONTROL DE VERSIONES
-| Versión | Fecha       | Responsable            | Descripción                              |
-|:------:|:-----------:|:-----------------------|:-----------------------------------------|
-| v4.2   | 13/03/2026  | Admin. Contractual EPC | Purgado de errores PTC VIRTUAL/FRA/AREMA. Alineación con PTC Virtual y DBCD. |
-
----
-
-⚖️ **ADVERTENCIA LEGAL**
-Uso informativo. Validar con equipo jurídico.
+**Saneamiento Ciclo .42 - Índice Carpeta I Finalizado.**

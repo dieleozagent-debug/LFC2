@@ -1,38 +1,38 @@
-# ESPECIFICACIÓN DE INTERFACES (ICD) v6.3.2 (SICC SOVEREIGN)
-## APP La Dorada - Chiriguaná | Fase IV
+# INTERFACES DE SISTEMAS - INGENIERÍA BÁSICA (SICC v6.3.3)
+## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** 18 de marzo de 2026  
-**Estatus:** ✅ **SICC PURIFIED | SOBERANÍA TÉCNICA**
-
----
-
-## 1. MAPA DE INTERFACES VITALES (SICC)
-El sistema **SICC** unifica sus comunicaciones bajo el protocolo **Vital IP**, garantizando interoperabilidad nativa y soberanía tecnológica.
-*   **Interoperabilidad Nacional**: Estándares **FRA/AREMA** para interoperabilidad soberana via Stop & Switch.
-
-### 1.1 Matriz de Interfaces:
-| ID | Origen | Destino | Protocolo | Tipo |
-|:---|:---|:---|:---|:---|
-| **IF-V-01** | OBC (Locomotora) | Servidor PTC | **Vital IP / TETRA (Red Vital)** | Vital |
-| **IF-V-02** | EOT (Cola) | OBC | **SICC Wireless Link** | Vital |
-| **IF-V-03** | Dashboard Sovereign | Servidor SICC | **Secure TCP/IP Layer** | Operativa |
-| **IF-V-04** | Servidor PTC | ENCE (5 Est) | **Vital IP (Red Vital)** | Vital |
-| **IF-V-05** | CCO SICC | CCO FENOCO | **Procedimiento Stop & Switch (Operativo)** | Interop |
+**Fecha de actualización:** 20 de marzo de 2026  
+**Versión:** v6.3.3 - Sovereign Restoration (SICC Protocol)
 
 ---
 
-## 2. 🔍 CRITERIOS DE SANEAMIENTO (SSOT)
-Se han validado nativamente las siguientes interfaces soberanas:
-*   ✅ **Red Vital IP / TETRA**: Confirmada como el canal de datos principal para mensajería vital (MA/Posición).
-*   ✅ **Interoperabilidad FENOCO**: Gestión de protocolos de frontera (Procedimiento Stop & Switch).
-*   ✅ **Vital IP Protocol**: Capa de seguridad SICC para comunicaciones sobre red MPLS y TETRA.
+## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
+Las interfaces del proyecto deben operar bajo lógica digital soberana. Queda prohibida cualquier interfaz que requiera intervención manual (Stop & Switch) para la gestión de autoridad de movimiento en fronteras o patios.
 
 ---
 
-## 🏗️ ESPECIFICACIÓN TÉCNICA VITAL IP
-*   **Capa de Transporte**: Pilas TCP/UDP Saneadas.
-*   **Seguridad Vital**: Checksum CRC64, Timestamps de alta precisión y tokens de autenticidad SICC.
-*   **Latencia**: Optimización para < 120ms punta a punta (Crítico para frenado de emergencia).
+## 🛤️ MATRIZ DE INTERFACES VITALES (.42)
+
+| ID Interfaz | Origen (SICC) | Destino (Externo/Sist) | Protocolo / Función | Estado |
+|:---|:---|:---|:---|:---:|
+| **IF-V-01** | Vital Server | OBC (Locomotora) | **Red Vital IP / MA** | ✅ RESTAURADO |
+| **IF-V-02** | OBC | EOT (Cola) | **ZigBee/TETRA Integrity** | ✅ RESTAURADO |
+| **IF-V-03** | Vital Server | ENCE (Desvíos) | **Vital IP / Interlocking**| ✅ RESTAURADO |
+| **IF-V-04** | Digital Gateway| CCO FENOCO | **API FRA-AREMA Interop** | ✅ RESTAURADO |
 
 ---
-**Saneamiento Ciclo 6 - ICD SICC Finalizado.**
+
+## 📉 GESTIÓN DE INTEROPERABILIDAD (.42)
+
+### 1. FRONTERA CHIRIGUANÁ
+La transición de autoridad se realiza mediante el **Handover Digital**. El **LFC-CCO** coordina con FENOCO la liberación del bloque virtual a través del **Digital Gateway**, garantizando que el tren no pierda protección vital en ningún momento.
+
+---
+
+## 🔍 CONCLUSIONES DE SANEAMIENTO
+- ❌ **ELIMINADO:** El procedimiento "Stop & Switch" de la matriz de interfaces.
+- ❌ **ELIMINADO:** Dependencias de comunicación analógica en fronteras.
+- ✅ **RESTAURADO:** El control digital total sobre las interfaces del SICC.
+
+---
+**Saneamiento Ciclo .42 - Interfaces de Sistemas Finalizado.**

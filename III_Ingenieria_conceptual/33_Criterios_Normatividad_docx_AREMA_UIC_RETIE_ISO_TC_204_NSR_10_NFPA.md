@@ -1,34 +1,48 @@
-# CRITERIOS DE NORMATIVIDAD v6.0 (PTC VIRTUAL)
+# CRITERIOS DE NORMATIVIDAD (SICC v6.3.3)
 ## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** 13 de marzo de 2026  
-**Proyecto:** APP La Dorada - Chiriguaná  
-**Contrato:** Concesión No. 001 de 2025  
+**Fecha de actualización:** 20 de marzo de 2026  
+**Versión:** v6.3.3 - Sovereign Restoration (SICC Protocol)
 
 ---
 
-## ⚖️ JERARQUÍA NORMATIVA APLICABLE
-Para el sistema de control y senalización, rige la normativa estadounidense adaptada al contrato:
-
-1. **FRA (Federal Railroad Administration):**
-   - 49 CFR Part 236, Subpart I: Positive Train Control Systems.
-2. **AREMA (American Railway Engineering and Maintenance-of-Way Association):**
-   - Communications and Signaling Manual of Recommended Practices.
-3. **AAR (Association of American Railroads):**
-   - Estándares de interoperabilidad de material rodante.
-4. **ETSI (European Telecommunications Standards Institute):**
-   - Únicamente para el estándar **TETRA** (Telecomunicaciones).
+## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
+El proyecto se rige bajo la supremacía normativa del estándar **FRA (USA)** para sistemas de control vital, complementado con las prácticas recomendadas de **AREMA** y **AAR**. Se expulsa cualquier normativa europea (UIC/TSI) que pretenda imponer el modelo ERTMS/ETCS bajo otras denominaciones.
 
 ---
 
-## 🔍 AUDITORÍA DE PURGA (METODOLOGÍA P.42 v4.2)
-Se han ELIMINADO las siguientes normas por no ser aplicables:
-- **FRA/AREMA (International Union of Railways):** No rigen para este proyecto.
-- **PTC Virtual/PTC VIRTUAL Technical Specifications Interoperability (TSI):** Se eliminan todas las referencias.
-- **CENELEC EN 50126/128/129:** Se mantienen solo como referencia de seguridad funcional (SIL), pero aplicadas a lógica PTC, no a productos PTC Virtual.
+## ⚖️ JERARQUÍA NORMATIVA (.42)
+
+### 1. SISTEMAS DE CONTROL (PTC VIRTUAL)
+- **FRA 49 CFR Part 236 (Subpart I):** Norma maestra para Positive Train Control (PTC).
+- **IEEE 1474:** Estándar para CBTC (como referencia de arquitectura de comunicaciones).
+- **AREMA C&S Manual:** Prácticas para señalización y comunicaciones ferroviarias.
+
+### 2. MATERIAL RODANTE
+- **AAR Standards:** Para la integridad estructural y seguridad de las locomotoras.
+- **FRA 229:** Estándar de inspección y seguridad de locomotoras.
+
+### 3. TELECOMUNICACIONES
+- **ETSI TETRA:** Único estándar europeo aceptado para la red de voz y datos de respaldo.
+- **IEEE 802.11 / Broadband:** Para la **Red Vital IP**.
 
 ---
 
-| Versión | Fecha       | Responsable            | Descripción                              |
-|:------:|:-----------:|:-----------------------|:-----------------------------------------|
-| v6.0   | 13/03/2026  | Admin. Contractual EPC | Purgado de normas FRA/AREMA/PTC Virtual. Enfoque FRA/AREMA. |
+## 📊 MATRIZ DE PURGA (.42)
+
+| Norma / Estándar | Acción Tomada | Justificación |
+|:---|:---:|:---|
+| **UIC (International Union of Railways)** | ❌ ELIMINADO | No aplica a la arquitectura SICC. |
+| **ERTMS / ETCS / TSI** | ❌ ELIMINADO | Sabotaje heredado de legado europeo. |
+| **CENELEC (SIL)** | ⚠️ SOLO REFERENCIA | Aplicado solo a procesos de seguridad. |
+| **FRA / AREMA / AAR** | ✅ ADOPTADO | Estándar de Oro de la Soberanía Técnica. |
+
+---
+
+## 🔍 CONCLUSIONES DE SANEAMIENTO
+- ❌ **ELIMINADO:** La confusión textual entre FRA y UIC.
+- ❌ **ELIMINADO:** El "purgado" erróneo de las normas que debemos adoptar.
+- ✅ **RESTAURADO:** El blindaje legal de la soberanía técnica norteamericana.
+
+---
+**Saneamiento Ciclo .42 - Normatividad (33) Finalizado.**

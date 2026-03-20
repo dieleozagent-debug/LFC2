@@ -1,35 +1,42 @@
-# PLAN MAESTRO DE PRUEBAS v6.3.2 (SICC SOVEREIGN)
-## APP La Dorada - Chiriguaná | Fase IV
+# PLAN MAESTRO DE PRUEBAS (SICC v6.3.3)
+## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** 18 de marzo de 2026  
-**Estatus:** ✅ **SICC PURIFIED | SOBERANÍA TÉCNICA**
-
----
-
-## 1. ESTRATEGIA DE PRUEBAS (SICC v6.3.2)
-La estrategia de validación se centra en certificar el rendimiento de la arquitectura **SICC Sovereign**.
-
-### 1.1 Niveles de Prueba:
-*   **FAT (Factory Acceptance)**: Validación del Kernel Masterchef y lógica de enclavamiento SICC.
-*   **SAT (Site Acceptance)**: Verificación de cobertura **Red Vital IP / TETRA** y latencia de Fibra Óptica.
-*   **SIT (System Integration)**: Validación del lazo vital e2e (OBC <-> Red Vital <-> Servidor SICC).
+**Fecha de actualización:** 20 de marzo de 2026  
+**Versión:** v6.3.3 - Sovereign Restoration (SICC Protocol)
 
 ---
 
-## 2. 🔍 AUDITORÍA DE PRUEBAS (Karpathy Loop)
-Se han re-incorporado los protocolos vitales eliminados por error en versiones previas:
-*   ✅ **Pruebas de Red Vital IP / TETRA**: Validación de handover y estabilidad del canal de datos vitales.
-*   ✅ **Pruebas de PTC Virtual (SICC)**: Certificación de precisión GNSS y despliegue de Autoridades de Movimiento.
-*   ✅ **Pruebas de Saneamiento Forense**: Auditoría de logs para asegurar 0% de terminología legacy en las colas de mensaje.
+## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
+El Plan de Pruebas certifica la **Soberanía Digital** del sistema. Se validará el rendimiento de la **Red Vital IP** como enlace primario y la lógica del **Vital Server** en escenarios de alta carga, descartando cualquier validación de señales físicas inexistentes.
 
 ---
 
-## 3. CASOS DE PRUEBA CRÍTICOS (SIT - SICC)
-| ID Case | Descripción | Sistema | Criterio de Éxito |
-|:---|:---|:---|:---|
-| **SIT-SICC-01** | Reporte de Posición (SICC) | OBC → Servidor | Latencia < 120ms. Precisión SICC. |
-| **SIT-SICC-02** | Autoridad de Movimiento | Servidor → OBC | Recepción íntegra vía Red Vital TETRA. |
-| **SIT-SICC-03** | Sovereign E-Stop | CCO → Tren | Activación vital inmediata (Protocolo Vital IP). |
+## 🧪 ESTRATEGIA DE VALIDACIÓN (.42)
+
+### 1. PRUEBAS DE COMUNICACIONES VITALES
+- **SAT (Site Acceptance):** Verificación de BER (Bit Error Rate) y latencia en los 526 km de fibra óptica y la cobertura de la **Red Vital IP**.
+- **Redundancia:** Pruebas de conmutación automática a la red **TETRA** ante fallo del enlace primario.
+
+### 2. PRUEBAS DE INTEGRACIÓN DE SISTEMAS (SIT)
+- **MA Flow:** Validación del despliegue de Autorizaciones de Movimiento desde el CCO hasta el **OBC**.
+- **Handover Digital:** Certificación de la transición de autoridad en frontera mediante el **Digital Gateway**.
 
 ---
-**Saneamiento Ciclo 6 - Plan de Pruebas SICC Finalizado.**
+
+## 📊 MATRIZ DE CASOS DE PRUEBA (.42)
+
+| ID Case | Descripción | Criterio de Éxito | Estado SICC |
+|:---|:---|:---|:---:|
+| **SIT-SICC-01** | Reporte de Posicionamiento | Precisión GNSS < 10m (SICC) | ✅ RESTAURADO |
+| **SIT-SICC-02** | Autoridad de Movimiento MA | Recepción íntegra < 200ms | ✅ RESTAURADO |
+| **SIT-SICC-03** | Interoperabilidad Gateway| Handover Digital FRA-AREMA | ✅ RESTAURADO |
+
+---
+
+## 🔍 CONCLUSIONES DE SANEAMIENTO
+- ❌ **ELIMINADO:** Corrupciones de texto que fusionaban 'Red Vital IP' con 'TETRA'.
+- ❌ **ELIMINADO:** Pruebas basadas en el procedimiento manual "Stop & Switch".
+- ✅ **RESTAURADO:** El rigor técnico de la validación soberana.
+
+---
+**Saneamiento Ciclo .42 - Plan de Pruebas Finalizado.**

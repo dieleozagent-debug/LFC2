@@ -1,51 +1,39 @@
-# 6.5 MANUAL DE OPERACIÓN Y MANTENIMIENTO: INTEGRADO v6.0
+# MANUAL INTEGRADO DE O&M (SICC v6.3.3)
 ## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** 13 de marzo de 2026  
-**Versión:** v6.0 - Purge Release (Integrated O&M)
-**Metodología:** Punto 42 (Karpathy Saneamiento) - Ciclo Inverso
+**Fecha de actualización:** 20 de marzo de 2026  
+**Versión:** v6.3.3 - Sovereign Restoration (SICC Protocol)
 
 ---
 
-## 1. INTEGRACIÓN OPERATIVA SANEADA
-
-Este manual consolida la operación y el mantenimiento de todos los subsistemas bajo el paradigma de **PTC Virtual** y **Soberanía Tecnológica**.
-
-### 1.1 Ecosistema Vital Unificado:
-- **Control:** Servidor Maestro PTC 2oo3 (Reemplaza al Servidor PTC Central y protocolos propietarios).
-- **Comunicaciones:** Red de Misión Crítica **TETRA** y Fibra Óptica (Purga total de Red Vital IP / TETRA).
-- **Seguridad:** Protocolo **Vital IP** para MA y reportes de integridad del tren (EOT).
-- **Interoperabilidad:** Procedimiento **Stop & Switch** para fronteras de concesión.
-
-### 1.2 Purga Tecnológica Consolidada:
-- ✅ **ELIMINADO:** Hardware de vía (Punto de Referencia Virtual (SICC), Senalización en Cabina (Cab-Signaling), Circuitos de vía).
-- ✅ **ELIMINADO:** Infraestructura de radio europea (Red Vital IP / TETRA).
-- ✅ **ELIMINADO:** Protocolos cerrados (FFFIS, Protocolo Vital IP (SICC), PTC Alstom).
-- ✅ **OPTIMIZADO:** Reducción del 15% en carga de potencia y 20% en complejidad de mantenimiento preventivo.
+## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
+El Manual Integrado de Operación y Mantenimiento consolida la estrategia de **Soberanía Digital**. Todos los procesos de mantenimiento preventivo y correctivo se coordinan digitalmente para minimizar el impacto en la disponibilidad (99.95%) del **Backbone Vital**.
 
 ---
 
-## 2. 🔍 AUDITORÍA DE CICLO INVERSO (O&M INTEGRADO)
+## 🛠️ ESTRATEGIA DE CONTINUIDAD (.42)
 
-Se han corregido los siguientes desvíos críticos detectados en la v5.0:
-- ✅ **CORREGIDO:** El tablero de control (DMI) no busca portadoras Red Vital IP / TETRA; opera nativamente sobre TETRA.
-- ✅ **CORREGIDO:** Las rutinas de mantenimiento preventivo de vía ya no incluyen "Limpieza de Punto de referencia virtuals", sino "Inspección de Nodos de Red IP".
-- ✅ **CORREGIDO:** La matriz de riesgos elimina la "Dependencia de AT3 para PTC". Los riesgos ahora son puramente de ciberseguridad y estabilidad de la red IP/Vital.
-
----
-
-## 📑 RESUMEN DE DISPONIBILIDAD (AT4)
-| Subsistema | Disponibilidad Objetivo | Protocolo |
-|:---|:---|:---|
-| **Senalización Virtual** | 99.95% | Vital IP |
-| **Comunicaciones (TETRA)** | 99.90% | IP / TETRA |
-| **Potencia** | 99.99% | N+1 / UPS |
-| **Integridad Tren (EOT)** | 99.95% | Wireless IP |
+1. **Mantenimiento Digital:** Monitoreo remoto de los nodos de la **Red Vital IP** y el estado de los **OBC** desde el CCO.
+2. **Interoperabilidad Fluida:** Los protocolos de mantenimiento en fronteras se coordinan mediante el **Digital Gateway**, eliminando procedimientos manuales de baja eficiencia.
+3. **Reversión Tecnológica:** Al finalizar la concesión, el Estado recibe un sistema 100% digital, abierto (FRA/AREMA) y libre de dependencias propietarias o manuales.
 
 ---
 
-## ✅ CONCLUSIONES:
+## 📊 MATRIZ DE CRITICIDAD O&M (.42)
 
-El Manual Integrado de O&M garantiza que la concesión opere con estándares de vanguardia, eliminando los "puntos únicos de falla" asociados a tecnologías propietarias. La operación es ahora más ágil, segura y totalmente soberana.
+| Activo | Estrategia de Mantenimiento | Herramienta SICC | Estado SICC |
+|:---|:---|:---|:---:|
+| **Vital Server** | Redundancia 2oo3 (Caliente) | Smart-Diagnostics | ✅ RESTAURADO |
+| **Red Vital IP** | Monitoreo Backbone 24/7 | SNMP Sovereign | ✅ RESTAURADO |
+| **Gateway Interop**| Validación API Digital | FRA/AREMA Log | ✅ RESTAURADO |
+| **Protocolo O&M** | **DIGITAL NATAL** | **CERO STOP & SWITCH**| ✅ SANEADO |
 
-**Saneamiento Ciclo 6 - Manual O&M Integrado Finalizado.**
+---
+
+## 🔍 CONCLUSIONES DE SANEAMIENTO
+- ❌ **ELIMINADO:** El uso de "Stop & Switch" como procedimiento de contingencia o normalidad.
+- ❌ **ELIMINADO:** Protocolos analógicos que comprometen el uptime del sistema.
+- ✅ **RESTAURADO:** Un manual integrado que blinda la operación soberana.
+
+---
+**Saneamiento Ciclo .42 - Manual Integrado (6.5) Finalizado.**

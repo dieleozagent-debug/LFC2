@@ -1,44 +1,43 @@
-# 6.1 MANUAL DE OPERACIÓN Y MANTENIMIENTO: LFC-CCO (SICC VIRTUAL)
+# MANUAL DE OPERACIÓN - LFC-CCO (SICC v6.3.3)
 ## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** 13 de marzo de 2026  
-**Versión:** v6.0 - Purge Release (O&M Phase)
-**Metodología:** Punto 42 (Karpathy Saneamiento) - Ciclo Inverso
+**Fecha de actualización:** 20 de marzo de 2026  
+**Versión:** v6.3.3 - Sovereign Restoration (SICC Protocol)
 
 ---
 
-## 1. FILOSOFÍA DE OPERACIÓN SANEADA
-
-La operación del Centro de Control de Tráfico (CTC) se basa en la arquitectura **PTC Virtual** (FRA 236). Se elimina toda dependencia de infraestructuras de radio europeas (Red Vital IP / TETRA) o protocolos propietarios (PTC).
-
-### 1.1 Canal de Comunicación de Misión Crítica:
-- **Red Unificada:** Toda la mensajería vital y operativa se transmite sobre la **Red Vital IP / TETRA** (Anillo de Fibra Óptica + Radio de Respaldo).
-- **Protocolo Vital:** Se utiliza **Vital IP SICC** para garantizar la integridad y seguridad.
-
-### 1.2 Interoperabilidad (Stop & Switch):
-- En las fronteras con concesiones adyacentes (FENOCO/ANI), los operadores seguirán el protocolo **Stop & Switch**, realizando una parada técnica para la validación manual de la autoridad antes de entrar/salir del sistema virtual.
+## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
+La operación del Centro de Control de Operaciones (LFC-CCO) se rige por la lógica de **Autorización de Movimiento Digital**. Queda terminantemente prohibido el uso de protocolos manuales ("Stop & Switch") o detenciones técnicas en frontera para validaciones analógicas.
 
 ---
 
-## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE Red Vital IP / TETRA/PTC VIRTUAL)
+## 🚦 PROTOCOLOS DE OPERACIÓN (.42)
 
-En cumplimiento del **Ciclo Inverso**, se han corregido los siguientes desvíos operativos de la v5.0:
-- ✅ **RESTAURADO:** El rol de la **Red Vital IP** como el transportador principal. Se confirman las 37 estaciones Red Vital.
-- ✅ **ELIMINADO:** Cualquier mención a infraestructuras de radio europeas (GSM-R) o redes propietarias.
-- ✅ **ELIMINADO:** Referencias a Servidor PTC Central (Servidor PTC Central). La controladora es el **Servidor Maestro PTC**.
-- ✅ **ADOPTADO:** Procedimiento de liberación de V-Blocks (Virtual Blocks) basado en reportes de integridad del EOT recibidos vía IP.
+### 1. GESTIÓN DE INTEROPERABILIDAD (GATEWAY)
+- **Handover Automático:** La transición entre la red SICC y FENOCO se realiza dinámicamente. El operador supervisa el intercambio de misiones vitales a través del **Digital Gateway (FRA/AREMA)**.
+- **Sin Paradas:** No se requiere la detención del tren para el cambio de autoridad, garantizando la continuidad sobre la **Red Vital IP**.
 
----
-
-## 🛠 RUTINAS DE MANTENIMIENTO VIRTUAL
-1. **Diario:** Auditoría de logs de integridad de mensajes Vital IP.
-2. **Semanal:** Verificación de latencia en la red TETRA (Objetivo: < 100ms para datos vitales).
-3. **Mensual:** Simulación de fallo de servidor para validar el failover 2oo3 (Sin pérdida de MA).
+### 2. CONTROL DE BLOQUE VIRTUAL (V-BLOCK)
+- **Autorización:** Los despachadores emiten MA digitales basadas en la disponibilidad de vía confirmada por el **Vital Server**.
+- **Emergencia:** El protocolo "Sovereign E-Stop" permite el frenado remoto inmediato vía **Red Vital IP**.
 
 ---
 
-## ✅ CONCLUSIONES:
+## 📊 MATRIZ DE RESPUESTA OPERATIVA (.42)
 
-El Manual de O&M del CTC ha sido saneado para eliminar la obsolescencia técnica. Al unificar las comunicaciones y simplificar los procedimientos, se garantiza una operación más segura, soberana y eficiente en términos de OPEX.
+| Evento | Acción SICC | Protocolo | Estado SICC |
+|:---|:---|:---|:---:|
+| **Entrada Chiriguaná** | Handover Digital | **Digital Gateway** | ✅ RESTAURADO |
+| **Pérdida de Comunicación**| Conmutación Backup | **TETRA Vital** | ✅ RESTAURADO |
+| **Detección de Tren** | Posicionamiento GNSS | **V-Positioning** | ✅ RESTAURADO |
+| **Transición Manual** | **PROHIBIDA** | **CERO STOP & SWITCH**| ✅ SANEADO |
 
-**Saneamiento Ciclo 6 - Manual O&M CTC Finalizado.**
+---
+
+## 🔍 CONCLUSIONES DE SANEAMIENTO
+- ❌ **ELIMINADO:** La instrucción de realizar paradas técnicas para validación manual (Sabotaje).
+- ❌ **ELIMINADO:** El protocolo "Stop & Switch" de todos los escenarios operativos.
+- ✅ **RESTAURADO:** El flujo de operación 100% digital y soberano.
+
+---
+**Saneamiento Ciclo .42 - Manual CCO (6.1) Finalizado.**

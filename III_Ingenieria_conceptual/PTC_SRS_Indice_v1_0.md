@@ -14,10 +14,11 @@
 Este SRS define los requerimientos funcionales y de seguridad para el sistema **PTC Virtual** del proyecto La Dorada - Chiriguaná, disenado para garantizar la seguridad de la vida, la prevención de colisiones y la optimización del tráfico ferroviario.
 
 ### 1.2 Alcance del Sistema
-- **Núcleo:** Servidor Vital PTC (Redundancia 2oo3).
-- **Comunicación:** Red de misión crítica **TETRA v4** y Backbone de **Fibra Óptica**.
+- **Soberanía:** Arquitectura **SICC v6.3.3** (FRA 236 Subpart I).
+- **Cerebro:** Servidor PTC Central (Redundancia 2oo3).
+- **Backbone:** **Red Vital IP** (Primaria) + TETRA (Respaldo).
 - **Equipamiento:** OBC (On-Board Computer) vital para 15 locomotoras.
-- **Interoperabilidad:** Procedimiento operacional **Stop & Switch**.
+- **Interoperabilidad:** Gateway digital nativo (FRA/AREMA).
 
 ---
 
@@ -32,8 +33,8 @@ Este SRS define los requerimientos funcionales y de seguridad para el sistema **
 - **RF-004:** Aplicación automática de freno de emergencia ante violación de los límites de la MA.
 
 ### 2.3 Telecomunicaciones Vitales
-- **RF-005:** Mantenimiento de la conectividad mediante el protocolo **Vital IP**.
-- **RF-006:** Handover automático entre Fibra Óptica y Radio TETRA en caso de fallo del enlace principal.
+- **RF-005:** Enlace Broadband redundante mediante **Red Vital IP**.
+- **RF-006:** Handover automático entre Fibra Óptica, Red Vital IP y Radio TETRA (Respaldo).
 
 ---
 
@@ -45,10 +46,10 @@ Este SRS define los requerimientos funcionales y de seguridad para el sistema **
 
 ---
 
-## 🔍 AUDITORÍA DE SANEAMIENTO:
-- ✅ **ELIMINADO:** Requerimientos de Punto de Referencia Virtual (SICC) y Servidor PTC Central.
-- ✅ **ELIMINADO:** Referencias a PTC Virtual (FRA 236) y normas CENELEC no aplicables.
-- ✅ **ADOPTADO:** Estándar **PTC Virtual** bajo normativa FRA y AREMA.
+## 🔍 AUDITORÍA DE SOBERANÍA (P.42):
+- ✅ **RESTAURADO:** Requerimientos del Servidor PTC Central y Red Vital IP.
+- ✅ **ELIMINADO:** Legado europeo ADIF y procedimientos manuales Stop & Switch.
+- ✅ **ADOPTADO:** Estándar **SICC v6.3.3** bajo normativa FRA y AREMA.
 
 ---
 

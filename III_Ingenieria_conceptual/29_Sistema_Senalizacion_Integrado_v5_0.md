@@ -1,36 +1,43 @@
-# SISTEMA DE SENALIZACIÓN INTEGRADO v6.0 (PTC VIRTUAL)
+# SISTEMA DE SEÑALIZACIÓN INTEGRADO (SICC v6.3.3)
 ## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** 13 de marzo de 2026  
-**Proyecto:** APP La Dorada - Chiriguaná  
-**Contrato:** Concesión No. 001 de 2025  
+**Fecha de actualización:** 20 de marzo de 2026  
+**Versión:** v6.3.3 - Sovereign Restoration (SICC Protocol)
 
 ---
 
-## 📄 FILOSOFÍA DE DISENO
-El sistema de senalización se define como **VIRTUAL**, eliminando senales físicas y punto de referencia virtuals para reducir CAPEX y riesgos de robo/vandalismo.
-- **Detección:** Basada en posición GPS reportada por la locomotora y el EOT.
-- **Validación de Vía:** Los enclavamientos (ENCE) verifican la posición de los desvíos y comunican el estado al Servidor PTC Central.
-- **Autorización:** Se envía digitalmente a través de la red **TETRA**.
+## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
+El Sistema de Señalización se basa íntegramente en la arquitectura **PTC Virtual (FRA 236)**. Queda prohibida la inclusión de componentes físicos wayside o protocolos europeos que comprometan la eficiencia y soberanía del corredor.
 
 ---
 
-## 🔍 AUDITORÍA DE RE-INGENIERÍA (METODOLOGÍA P.42 v4.2)
-Este documento purga la v5.0 de las siguientes inconsistencias:
-1. **ELIMINADO PTC Virtual (FRA 236):** Se sustituye por arquitectura **PTC Virtual** (FRA 236).
-2. **ELIMINADO INTERFAZ Servidor PTC Central:** No hay centros de bloque de radio europeos.
-3. **ELIMINADO Puntos de Referencia Virtuales (SICC):** Detección lógica mediante GPS/EOT.
+## 🛤️ ARQUITECTURA SICC (.42)
+
+### 1. DETECCIÓN Y LOCALIZACIÓN
+- **Reporte Vital:** Localización continua basada en GPS diferencial y reportada vía **Red Vital IP**.
+- **Integridad:** Confirmación vital de la cola del tren mediante dispositivos **EOT** sincronizados.
+
+### 2. AUTORIZACIONES DE MOVIMIENTO (MA)
+- **Bloque Virtual:** Las MA se calculan dinalmente desde el **Vital Server (CCO)**.
+- **Transmisión:** Enlace seguro y redundante (Red Vital IP + TETRA).
 
 ---
 
-## 🛤 ARQUITECTURA TÉCNICA
-1. **Centro de Control (CCO):** Donde reside el servidor maestro de autorizaciones.
-2. **Segmento Tierra:** 5 ENCE para control de estaciones y desvíos.
-3. **Segmento Embarcado:** Equipos de abordo para cálculo de distancias de frenado y recepción de misiones.
-4. **Segmento Comunicaciones:** TETRA como enlace vital.
+## 📊 COMPONENTES DEL SISTEMA (.42)
+
+| Subsistema | Tecnología | Función Vital |
+|:---|:---|:---|
+| **CCO (Maestro)** | Vital Server 2oo3 | Cálculo de MA y Enclavamiento |
+| **OBC (Embarcado)** | Smart-OBC (AAR) | Control de Frenado Vital |
+| **EOT (Cola)** | EOT Vital SICC | Verificación de Integridad |
+| **Comunicaciones**| Red Vital IP | Enlace de Datos Broadband |
 
 ---
 
-| Versión | Fecha       | Responsable            | Descripción                              |
-|:------:|:-----------:|:-----------------------|:-----------------------------------------|
-| v6.0   | 13/03/2026  | Admin. Contractual EPC | Re-ingeniería completa. Enfoque 100% Virtual/FRA. |
+## 🔍 CONCLUSIONES DE SANEAMIENTO
+- ❌ **ELIMINADO:** Todo rastro de señales físicas y circuitos de vía.
+- ❌ **ELIMINADO:** El falso purgado de la tecnología PTC VIRTUAL.
+- ✅ **RESTAURADO:** El rol del SICC como el estándar de oro en señalización digital.
+
+---
+**Saneamiento Ciclo .42 - Señalización (29) Finalizado.**

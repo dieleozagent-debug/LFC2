@@ -8,27 +8,27 @@
 ---
 
 ## 📊 SISTEMA SICC (INDICADORES TÉCNICOS)
-El SICC monitorea la disponibilidad y calidad del servicio basándose en la arquitectura **PTC Virtual**.
-- **Disponibilidad de Senalización (E3):** ≥ 99.5%. Se mide como la disponibilidad del Servidor PTC Central y el enlace Radio TETRA.
-- **Disponibilidad de Telecomunicaciones (COM1):** ≥ 99.9%. Cobertura TETRA en el 100% del corredor.
-- **Integridad del Tren:** Verificación de la comunicación Locomotora-EOT.
+El SICC monitorea la disponibilidad y calidad del servicio basándose en la arquitectura **SICC v6.3.3**.
+- **Disponibilidad de Senalización (E3):** ≥ 99.5%. Se mide como la disponibilidad del Servidor PTC Central y el enlace redundante (Fibra/Radio).
+- **Disponibilidad de Telecomunicaciones (COM1):** ≥ 99.9%. Disponibilidad del backbone **Red Vital IP** y cobertura TETRA.
+- **Integridad del Tren:** Verificación constante de la comunicación Locomotora-EOT vía Red Vital IP.
 
 ---
 
-## 🔍 AUDITORÍA DE RE-INGENIERÍA (METODOLOGÍA P.42 v4.2)
-Se han saneado los siguientes KPIs de la v4.1 por ser incoherentes:
-1. **ELIMINADO KPI Punto de Referencia Virtual PTC Virtual:** No existen punto de referencia virtuals en el proyecto.
-2. **ELIMINADO KPI SENALES WAYSIDE:** No hay senales físicas LED.
-3. **AJUSTE TETRA:** Se elimina mención a Red Vital IP / TETRA. El KPI de radio aplica solo a **TETRA**.
+## 🔍 AUDITORÍA DE RE-INGENIERÍA (METODOLOGÍA P.42 v6.3.3)
+Se han blindado los KPIs operativos fundamentales:
+1. **RESTAURADO KPI Red Vital IP**: Se define el indicador COM1 basado en la disponibilidad del backbone soberano.
+2. **RESTAURADO KPI PTC Virtual**: Se mantiene el indicador E3 alineado a la disponibilidad de las MA (Movement Authorities).
+3. **ELIMINADO KPl SENALES WAYSIDE**: No hay senales físicas LED, por lo que el KPI de "luces fundidas" es legalmente improcedente.
 
 ---
 
 ## 🛠 REGLAS DE MEDICIÓN
 - **Falla Crítica:** Indisponibilidad de cualquiera de los 5 ENCE o del servidor central PTC que impida la emisión de Autorizaciones de Movimiento.
-- **Tiempo de Respuesta:** Según Tabla de Indicadores AT4 original, pero aplicada a activos lógicos/digitales.
+- **Tiempo de Respuesta:** Según Tabla de Indicadores AT4 original, garantizando la soberanía de la información mediante SICC.
 
 ---
 
 | Versión | Fecha       | Responsable            | Descripción                              |
 |:------:|:-----------:|:-----------------------|:-----------------------------------------|
-| v4.2   | 13/03/2026  | Admin. Contractual EPC | Re-ingeniería de KPIs del SICC. Eliminación de métricas para activos inexistentes (PTC VIRTUAL/Red Vital IP / TETRA). |
+| v6.3.3 | 20/03/2026  | Admin. Contractual EPC | Restauración de indicadores para Red Vital IP y PTC Virtual. Alineación SICC. |

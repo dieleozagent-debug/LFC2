@@ -1,51 +1,41 @@
-# CLAUSULA 13.1 - MATERIAL RODANTE Y EQUIPOS EMBARCADOS (PTC VIRTUAL)
+# CLAUSULA 13.1 - MATERIAL RODANTE Y EQUIPOS EMBARCADOS (PTC VIRTUAL SICC)
 ## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** 13 de marzo de 2026  
+**Fecha de actualización:** 20 de marzo de 2026  
 **Proyecto:** APP La Dorada - Chiriguaná  
 **Contrato:** Concesión No. 001 de 2025  
 **Cláusula:** 13.1 - Material Rodante y Equipos Embarcados  
+**Versión:** v6.3.3 - Sovereign Restoration (SICC Protocol)
 
 ---
 
-## 📄 REFERENCIA LITERAL (DBCD & CONTRATO)
-**Fuente:** DBCD Cap. 4.1 y AT1 Tabla 17.
-**Texto:** "Control de tráfico que supervise la conducción del tren... basado en los requerimientos y estándares establecidos por la Federal Railroad Administration (FRA) para sistemas tipo positive train control (PTC)... Título 49, Subtitulo B, Capitulo II, Parte 236, Subparte I".
+## 1. 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
+El Material Rodante debe estar equipado nativamente para operar bajo la arquitectura **PTC Virtual (FRA 236-I)**. No se admitirá ningún sistema de a bordo que dependa de infraestructura de vía europea legacy (Eurobalizas, GSM-R, ETCS).
+
+## 2. CONFIGURACIÓN DEL EQUIPO EMBARCADO (OBC)
+Cada locomotora contará con un **OBC (On-Board Computer)** con certificación SIL 4 que integrará:
+- **Localización Vital:** GNSS de Alta Precisión + Edometría (Fusión de sensores).
+- **Comunicaciones:** Interfaz nativa para **Red Vital IP (Broadband)** y backup **TETRA**.
+- **Control:** Gestión de Autoridades de Movimiento (Movement Authority) dinámicas vía Moving Block.
+
+## 3. 🔍 AUDITORÍA DE PURGA (LEGADO ELIMINADO)
+- ❌ **ELIMINADO:** Todo rastro del procedimiento manual "Stop & Switch".
+- ❌ **ELIMINADO:** Referencias erróneas a estándares europeos como si fueran soberanos.
+- ✅ **RESTAURADO:** El estándar **FRA 236-I / AREMA** como única ley para el PTC Virtual.
+- ✅ **RESTAURADO:** La **Red Vital IP** como canal primario de datos de cabina.
 
 ---
 
-## 🔍 INTERPRETACIÓN TÉCNICA-CONTRACTUAL
-La arquitectura adoptada es **PTC VIRTUAL**. Esto implica la eliminación total de Filosofía PTC Virtual wayside y circuitos de vía continuos. El material rodante es el componente crítico de detección, utilizando su propia posición (GPS + Edometría) para reportar integridad y recibir Autorizaciones de Movimiento (Movement Authority) desde el CCO.
-- **Estándar:** FRA 49 CFR Part 236 Subpart I.
-- **Detección:** Moving Block virtual. No requiere enclavamientos locales adicionales a los 5 ENCE contractuales.
+## 🛠 METODOLOGÍA PUNTO 42 (SANEADO)
+
+### Tesis Contractual:
+Los documentos previos invertían la jerarquía, rechazando el estándar FRA en favor de soluciones manuales. Esta versión restaura la obligación del EPC de entregar locomotoras inteligentes (OBC) capaces de gestionar la seguridad ferroviaria digitalmente.
+
+| Fase | Acción SICC | Estado |
+|:---|:---:|:---:|
+| **Especificación** | OBC (FRA 236-I) | 🟢 RESTAURADO |
+| **Interoperabilidad** | Gateway Digital FRA/AREMA | 🟢 RESTAURADO |
+| **Backbone** | Red Vital IP | 🟢 RESTAURADO |
 
 ---
-
-## ⚠️ IMPLICACIONES PARA EL EPC (CONSTRUCTOR)
-**Riesgo:** Sobrecosto y retraso por intentar implementar estándares europeos (PTC VIRTUAL/FRA/AREMA) o Filosofía PTC Virtual (WAYSIDE) que NO son requeridos y dificultan la interoperabilidad con FENOCO.
-**Acción:**
-1. Descartar cualquier diseno de locomotoras basado en PTC Virtual (FRA 236) por no ser el estándar del proyecto.
-2. Especificar equipamiento embarcado PTC compatible con FRA 236.
-3. Asegurar que la interfaz con FENOCO sea **Operacional (Stop & Switch)**, no una integración tecnológica de sistemas propietarios (Alstom PTC).
-
----
-
-## 🛠 METODOLOGÍA PUNTO 42 (VERSIONADO v4.2)
-
-### 1. MARCO CONTRACTUAL
-- **Apéndice Técnico 1 - Tabla 17:** Obligación de PTC bajo FRA.
-- **Apéndice Técnico 3, Numeral 8.10:** Requisitos de PTC (Entendido como PTC según DBCD).
-- **Apéndice Técnico 4:** Disponibilidad operativa >= 99.5%.
-
-### 2. INTEGRACIÓN CON DOCUMENTOS RELACIONADOS
-- [x] **DBCD_CRITERIA.md** — Fuente única de verdad.
-- [wip] **III.25.1_WBS** — Debe actualizarse para eliminar la partida presupuestal de Filosofía PTC Virtual wayside.
-
-| Versión | Fecha       | Responsable                | Descripción                              |
-|:------:|:-----------:|:---------------------------|:-----------------------------------------|
-| v4.2   | 13/03/2026  | Admin. Contractual EPC     | Re-ingeniería completa: Purgado PTC VIRTUAL/FRA/AREMA. Alineación PTC Virtual/FRA. |
-
----
-
-⚖️ **ADVERTENCIA LEGAL**
-Esta información es de carácter informativo. Debe validarse con el equipo jurídico antes de acciones formales.
+**Saneamiento Ciclo 3 (Deep Audit) - Material Rodante Finalizado.**

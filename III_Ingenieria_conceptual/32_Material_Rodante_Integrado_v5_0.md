@@ -12,18 +12,17 @@ Este documento define las especificaciones del material rodante (15 locomotoras)
 
 ### 1.1 Configuración de la Flota:
 - **Locomotoras:** 15 unidades GE U18C o equivalentes.
-- **Retrofit Vital:** Instalación de **On-Board Computers (OBC)** con redundancia vital.
-- **Telecomunicaciones:** Radios **TETRA** de misión crítica (se elimina Red Vital IP / TETRA).
+- **Retrofit SICC:** Instalación de **On-Board Computers (OBC)** con redundancia vital.
+- **Telecomunicaciones:** **Red Vital IP** como enlace primario y TETRA como respaldo.
 - **Seguridad:** Sistema **End of Train (EOT)** vital integrado (15 unidades).
 
 ---
 
-## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE PTC/Red Vital IP / TETRA)
-- ✅ **ELIMINADO:** Referencias a PTC Virtual (FRA 236) y Servidor PTC Central.
-- ✅ **ELIMINADO:** Módulo STM (sustituido por OBC PTC).
-- ✅ **ELIMINADO:** Radio Red Vital IP / TETRA (estándar obsoleto para esta arquitectura).
-- ✅ **ELIMINADO:** Antenas de Punto de Referencia Virtual (SICC).
-- ✅ **ADOPTADO:** Fusión de sensores GNSS/IMU de precisión para localización vital.
+## 2. 🔍 AUDITORÍA DE SANEAMIENTO (RESTAURACIÓN SICC v6.3.3)
+- ✅ **RESTAURADO:** Servidor PTC Central (Cerebro Vital).
+- ✅ **RESTAURADO:** Red Vital IP como enlace de datos primario del OBC.
+- ✅ **RESTAURADO:** Sensores GNSS/IMU para localización sin Punto de Referencia Virtual.
+- ✅ **ELIMINADO:** Equipos STM europeos y Punto de Referencia Virtual físicas.
 
 ---
 
@@ -31,10 +30,10 @@ Este documento define las especificaciones del material rodante (15 locomotoras)
 
 | Componente | Función | Norma |
 |:---|:---|:---:|
-| **OBC Vital** | Lógica de supervisión y frenado | FRA 236 / SIL 4 |
-| **DMI Industrial** | Interfaz Maquinista-Máquina | AREMA |
-| **Radio TETRA** | Backbone de datos vitales | IEEE 1474.1 |
-| **GNSS Vital** | Localización sin punto de referencia virtuals | FRA 236 |
+| **OBC Vital** | Lógica SICC de supervisión y frenado | FRA 236 / SIL 4 |
+| **DMI (SICC)** | Interfaz Maquinista Soberana | AREMA |
+| **Enlace Dual** | **Red Vital IP** (Primaria) + TETRA (Respaldo) | SICC v6.3.3 |
+| **GNSS Vital** | Localización soberana por satélite | FRA 236 |
 
 ---
 
@@ -42,11 +41,10 @@ Este documento define las especificaciones del material rodante (15 locomotoras)
 
 | Elemento | Cantidad | Estado |
 |:---|:---:|:---:|
-| **Locomotoras** | 15 | SANEADO |
-| **Punto de Referencia Virtual (SICC)** | 0 | SANEADO |
-| **Servidor PTC Central (PTC VIRTUAL)** | 0 | SANEADO |
-| **Red Vital IP / TETRA** | 0 | SANEADO |
-| **Vital PTC Server**| 1 (2oo3) | SANEADO |
+| **Locomotoras (Retrofit SICC)** | 15 | RESTAURADO |
+| **Servidor PTC Central (LFC-CCO)** | 1 | RESTAURADO |
+| **Red Vital IP (Antenas OBC)** | 15 | RESTAURADO |
+| **EOT Vital (Integrado SICC)** | 15 | RESTAURADO |
 
 ---
 

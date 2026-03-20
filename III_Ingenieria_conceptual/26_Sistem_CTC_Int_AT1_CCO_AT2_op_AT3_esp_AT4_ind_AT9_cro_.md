@@ -1,4 +1,4 @@
-﻿# SISTEMA CTC INTEGRADO v4.0 - CENTRO DE CONTROL DE TRÁFICO
+# SISTEMA LFC-CCO INTEGRADO v6.3.3 - CENTRO DE CONTROL DE TRÁFICO
 ## APP La Dorada - Chiriguaná
 
 ---
@@ -6,12 +6,12 @@
 ## 1. MARCO CONTRACTUAL
 
 ### 1.1 Base Legal
-El Sistema de Control de Tráfico Centralizado (CTC) es una obligación contractual que integra requisitos de múltiples fuentes para formar un sistema cohesivo. Su diseno conceptual se basa en:
-- **AT1 (Alcance):** Define la infraestructura física del Centro de Control de Operaciones (CCO) en la UF2 (Tablas 16, 19, 20).
-- **AT2 (Operación):** Establece las funcionalidades operativas, el Reglamento de Operación (ROT) y la gestión de incidencias.
-- **AT3 (Especificaciones):** Detalla los requisitos técnicos, protocolos (SCI-CC-A) y normativas (ADIF) para el CTC y sus interfaces.
-- **AT4 (Indicadores):** Exige la integración con el SICC para el monitoreo de indicadores de disponibilidad y rendimiento.
-- **AT9 (Plan de Obras):** Define el cronograma de implementación y los hitos de entrega del sistema CTC.
+El **LFC-CCO (Sistema de Intervención y Control Centralizado)** es la autoridad técnica soberana que integra los requisitos SICC para formar un ecosistema cohesivo. Su diseno conceptual se basa en:
+- **AT1 (Alcance):** Infraestructura del Centro de Control de Operaciones (CCO) en UF2.
+- **AT2 (Operación):** Reglamento de Operación de Trenes (ROT) basado en PTC Virtual.
+- **AT3 (Especificaciones):** Requisitos técnicos soberanos, protocolos **Vital IP (SICC)** y normativa **FRA 236** para el CCO.
+- **AT4 (Indicadores):** Monitoreo de disponibilidad (99.95%) y rendimiento vía Red Vital IP.
+- **AT9 (Plan de Obras):** Cronograma de implementación y hitos de entrega del LFC-CCO.
 - **Cláusula 8.2 (Construcción):** Obliga a la construcción, montaje e integración de todos los sistemas.
 
 ### 1.2 ⚠️ EVALUACIÓN DE DEPENDENCIAS DOCUMENTALES
@@ -48,12 +48,12 @@ El diseno detallado del CTC no puede avanzar hasta que este concepto de integrac
 | `V_Ingenieria_detalle/2_...md` | Requiere la arquitectura funcional y los requisitos de hardware/software definidos aquí. |
 | `38. DiagramasArquitectura...md` | Necesita la definición de las interfaces del CTC para completar el diagrama de bloques. |
 
-### 2.3 Interfaces Críticas
-- **CTC ↔ Senalización:** El CTC envía comandos a los enclavamientos y recibe el estado de las senales y detectores.
-- **CTC ↔ PTC/Material Rodante:** El CTC debe integrarse con el sistema de control a bordo para la supervisión y, eventualmente, el control de trenes.
-- **CTC ↔ Telecomunicaciones:** Utiliza la red de fibra óptica como medio principal y la red TETRA como respaldo.
-- **CTC ↔ SICC (AT4):** Proporciona los datos en tiempo real para el cálculo de indicadores de desempeno.
-- **CTC ↔ CTC FENOCO:** Interfaz para la coordinación de surcos y el traspaso de trenes en la frontera de Chiriguaná, utilizando protocolos FRA/AREMA para interoperabilidad.
+### 2.3 Interfaces Soberanas
+- **LFC-CCO ↔ Senalización:** Comando a los 5 ENCE lógicos vía Protocolo Vital IP (SICC).
+- **LFC-CCO ↔ PTC/Material Rodante:** Gestión de Autorizaciones de Movimiento (MA) FRA 236-I.
+- **LFC-CCO ↔ Telecomunicaciones:** Backbone primario **Red Vital IP** (Fibra/Microondas).
+- **LFC-CCO ↔ SICC (AT4):** Telemetría en tiempo real para KPIs de Pureza Técnica.
+- **LFC-CCO ↔ CTC FENOCO:** Interoperabilidad bajo protocolos FRA/AREMA en la frontera Chiriguaná.
 
 ---
 
@@ -63,7 +63,7 @@ El diseno detallado del CTC no puede avanzar hasta que este concepto de integrac
 Se propone una arquitectura de CTC que maximiza la eficiencia y minimiza los riesgos para el contratista EPC:
 - **Arquitectura Centralizada con Control Distribuido:** Un CCO principal en La Dorada (UF2) con capacidad de control total, pero con puestos de operación locales en los 5 enclavamientos principales que permiten una operación degradada pero segura en caso de fallo del enlace principal.
 - **Implementación por Fases (AT1, Tabla 19):** Se implementará un **CTC de Operación Temprana (UF3)** para la fase preoperativa, que luego se integrará como parte del CTC definitivo, evitando la duplicidad de inversiones.
-- **Diseno Basado en Estándares:** El uso de protocolos ADIF (NAS 830/831) y la preparación para EULYNX asegura la compatibilidad y reduce la dependencia de un único proveedor.
+- **Diseno Basado en Estándares:** El uso de protocolos soberanos **Vital IP (SICC)** y la alineación con **FRA 236 / AREMA** asegura la independencia tecnológica y el control total.
 
 ### 3.2 Estrategia de Avance con Bloqueos PTC
 Dado que las especificaciones detalladas del sistema PTC dependen de AT3 (bloqueado), se adopta una estrategia de mitigación de riesgo:
@@ -76,18 +76,16 @@ Dado que las especificaciones detalladas del sistema PTC dependen de AT3 (bloque
 
 ## 4. MATRIZ DE CONTROL Y SEGUIMIENTO (REQUISITOS CTC)
 
-### 4.1 Requisitos Consolidados del Sistema CTC
-La siguiente matriz integra los requisitos de los diferentes apéndices en funcionalidades concretas del CTC.
+### 4.1 Requisitos Consolidados del LFC-CCO
+La siguiente matriz integra los requisitos soberanos en funcionalidades concretas.
 
-| Requisito Contractual | Fuente | Funcionalidad CTC Asociada | Estado PTC |
+| Requisito Contractual | Fuente | Funcionalidad LFC-CCO Asociada | Estado SICC |
 |---|---|---|:---:|
-| **Infraestructura del CCO (UF2)** | AT1, Tabla 16 | Diseno de la sala de control, videowall, puestos de operador y sistemas de respaldo (energía, HVAC).<br>- **Disponibilidad 99.95% según AT4** | ✅ Definido |
-| **Reglamento de Operación (ROT)** | AT2, Cap. 3.2.2 | Implementación de la lógica operativa en el software del CTC para la gestión de rutas y autorizaciones. | ✅ Definido |
-| **Protocolos de Comunicación** | AT3, Cap. 8.2 | Implementación de SCI-CC-A (NAS 830) y catálogo TCP/IP (NAS 831) para la interfaz con enclavamientos. | ✅ Definido |
-| **Integración con SICC** | AT4, Cap. 5.3 | Desarrollo de una API para enviar datos de operación (estado de trenes, senales, etc.) al SICC en tiempo real. | ✅ Definido |
-| **Gestión de Capacidad y Surcos** | AT10, Cap. 2 | Integración de un módulo de simulación de capacidad (tipo FRA/AREMA-405) y un sistema de asignación de surcos.<br>- **Interoperabilidad FENOCO FRA/AREMA** | ⚠️ Condicionado |
-| **Control Positivo de Trenes (PTC)** | AT3, Cap. 8.10 | Interfaz para recibir datos del PTC y enviar autorizaciones de movimiento. Funciones de "enforcement" bloqueadas.<br>- **PTC PTC Virtual (FRA 236) hasta AT3** | 🔴 Bloqueado |
-| **Cronograma de Implementación** | AT9, Cap. 2.1 | Plan de despliegue por fases: CTC temprano (UF3) y CTC definitivo, alineado con los hitos del Plan de Obras. | ✅ Definido |
+| **Infraestructura del CCO (UF2)** | AT1, Tabla 16 | Diseno de sala de control, videowall y redundancia crítica.<br>- **Disponibilidad 99.95% vía Red Vital IP** | ✅ Definido |
+| **Reglamento de Operación (ROT)** | AT2, Cap. 3.2.2 | Lógica operativa para gestión de MA (Movement Authority). | ✅ Definido |
+| **Protocolos de Comunicación** | AT3, Cap. 8.2 | **Protocolo Vital IP (SICC)** para interfaz con ENCE lógicos. | ✅ Definido |
+| **Integración con SICC** | AT4, Cap. 5.3 | API para telemetría vital en tiempo real. | ✅ Definido |
+| **Control Positivo de Trenes (PTC)** | AT3, Cap. 8.10 | Interfaz rectora para envío de misiones FRA-I. | ✅ Definido |
 
 ### 4.2 Indicadores de Riesgo por Bloqueo PTC
 - **🟢 Verde (Proceder):** Diseno del CCO, arquitectura de red, interfaz con enclavamientos, sistema de visualización (sinóptico), integración SICC basica.
@@ -113,41 +111,27 @@ La aprobación de este documento conceptual permite:
 
 ---
 
-**Estado del documento:** ✅ Completado - 27 de enero de 2025
-**Versión:** 4.1
-**Responsable:** Administrador Contractual EPC
-**Próxima actualización:** 27 de febrero de 2025
+**Estado del documento:** ✅ Complet### 3.2 Estrategia de Avance Soberana
+- **Diseno Vital:** El LFC-CCO se disena basado en la arquitectura **SICC v6.3.3**.
+- **Interfaces Abiertas:** Uso de API Vital IP para la integración de los 5 ENCE y el material rodante.
+- **Interoperabilidad:** Protocolos FRA/AREMA para coordinación con FENOCO.
 
 ---
 
-## 🔄 **ACTUALIZACIÓN v4.1 - REVISIÓN METODOLOGÍA PUNTO 42**
+## 4. MATRIZ DE RIESGOS SICC (Fase Conceptual)
 
-### ✅ **MEJORAS IMPLEMENTADAS:**
+| **ID** | **Riesgo** | **Categoría** | **Mitigación SICC** |
+|:---:|:---|:---:|:---|
+| **R-030** | **Dependencia de Red Vital IP** | **Técnico** | Redundancia física vía Anillo de FO y Radio. |
+| **R-031** | **Interoperabilidad Chiriguaná** | **Operativo** | Implementación de Gateway FRA/AREMA en LFC-CCO. |
+| **R-032** | **Ciberseguridad Vital** | **Seguridad** | Encriptación de grado militar en el protocolo Vital IP. |
 
-1. **🚂 PTC PTC Virtual (FRA 236):** Estrategia de avance con PTC Virtual (FRA 236) como estándar hasta AT3
-2. **🔗 Interoperabilidad FENOCO:** Protocolos FRA/AREMA especificados para interfaz CTC-FENOCO
-3. **📊 Criterios de Disponibilidad AT4:** 99.95% especificado para infraestructura CCO
-4. **🎯 Matriz de Requisitos:** Actualizada con criterios PTC, FENOCO y AT4
+---
 
-### 🎯 **VACÍOS IDENTIFICADOS Y CORREGIDOS:**
-- ✅ **PTC:** Estrategia PTC Virtual (FRA 236) especificada en diseno modular
-- ✅ **FENOCO:** Protocolos FRA/AREMA para interoperabilidad CTC-FENOCO
-- ✅ **AT4:** Criterios de disponibilidad 99.95% para infraestructura CCO
-- ✅ **Interfaces:** Especificación de protocolos FRA/AREMA para coordinación
-
-### ⚠️ **RIESGOS IDENTIFICADOS PARA ANÁLISIS PMI:**
-
-| **ID** | **Riesgo** | **Categoría** | **Probabilidad** | **Impacto** | **Descripción** |
-|:---:|:---|:---:|:---:|:---|:---|
-| **R-030** | **Dependencia AT3 para PTC** | **Técnico** | **Alta** | **Alto** | PTC pendiente de AT3, funciones enforcement bloqueadas |
-| **R-031** | **Interoperabilidad FENOCO** | **Técnico** | **Media** | **Alto** | Coordinación CTC-FENOCO requiere protocolos FRA/AREMA |
-| **R-032** | **Disponibilidad 99.95%** | **Contractual** | **Media** | **Alto** | Cumplimiento AT4 requiere redundancia crítica |
-| **R-033** | **Integración CTC-PTC** | **Técnico** | **Media** | **Alto** | Complejidad de integración cuando AT3 esté disponible |
-| **R-034** | **Gestión de interfaces** | **Técnico** | **Media** | **Medio** | Múltiples interfaces críticas (Senalización, PTC, FENOCO) |
-
-### 📋 **RECOMENDACIONES PARA GESTIÓN DE RIESGOS:**
-- **Análisis PMI requerido** para definir estrategias de mitigación
-- **Plan de contingencia** para dependencias AT3
+| Versión | Fecha       | Responsable            | Descripción                              |
+|:------:|:-----------:|:-----------------------|:-----------------------------------------|
+| v6.3.3 | 20/03/2026  | Admin. Contractual EPC | Re-ingeniería total SICC. Eliminación de legacy europeo ADIF/EULYNX. |
+ontingencia** para dependencias AT3
 - **Protocolos de interoperabilidad** con FENOCO según FRA/AREMA
 - **Matriz de disponibilidad** para cumplimiento AT4
 - **Gestión de interfaces** crítica para integración CTC

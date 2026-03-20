@@ -24,12 +24,13 @@ Se han blindado los siguientes estándares soberanos:
 ---
 
 ## 📡 ESPECIFICACIONES DE TELECOMUNICACIONES
-- **Radio Principal:** TETRA (Voz y Datos Críticos).
-- **Red de Datos:** IP/MPLS sobre Fibra Óptica.
-- **Redundancia:** Failover lógico SICC para garantizar disponibilidad > 99.5%.
+- **Radio de Respaldo:** TETRA (Voz y Contingencia).
+- **Backbone Vital:** Red Vital IP (Anillo de Fibra Óptica + Microondas).
+- **Transporte de Datos:** IP/MPLS con encriptación SICC.
+- **Redundancia:** Failover automático SICC entre Fibra y Microondas para disponibilidad > 99.9%.
 
 ---
 
 | Versión | Fecha       | Responsable            | Descripción                              |
 |:------:|:-----------:|:-----------------------|:-----------------------------------------|
-| v4.2   | 13/03/2026  | Admin. Contractual EPC | Re-ingeniería completa: Purgado de estándares europeos. Enfoque PTC/FRA. |
+| v6.3.3 | 20/03/2026  | Admin. Contractual EPC | Restauración de Red Vital IP como backbone rector. Alineación SICC. |

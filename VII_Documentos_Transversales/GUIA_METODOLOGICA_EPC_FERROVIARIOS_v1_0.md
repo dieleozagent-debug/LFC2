@@ -1,64 +1,42 @@
-# GUÍA METODOLÓGICA: ESTRUCTURACIÓN DE PROYECTOS EPC FERROVIARIOS v2.0
-## Versión Saneada (Soberanía Tecnológica) - APP La Dorada-Chiriguaná
+# GUÍA METODOLÓGICA EPC FERROVIARIOS (SICC v6.3.3)
+## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** 13 de marzo de 2026  
-**Versión:** 2.0 - Purge Release
-**Metodología:** Punto 42 (Karpathy Saneamiento) - Ciclo Inverso
-
----
-
-## 🎯 OBJETIVOS DE LA GUÍA SANEADA
-
-Esta guía define el estándar para estructurar proyectos bajo el paradigma de **Soberanía Tecnológica**, eliminando la dependencia de estándares propietarios cerrados.
-
-1. **Institucionalizar el Estándar PTC Virtual:** Uso de bloqueo por software y Vital IP.
-2. **Purga de Obsolescencia:** Eliminación de cualquier referencia a tecnologías europeas legacy (GSM-R, Catenaria, Señalización lateral). Se mantiene la **Red Vital IP / TETRA** como único backbone.
-3. **Optimización de Recursos:** Enfoque en arquitectura COTS y software vital certificado.
+**Fecha de actualización:** 20 de marzo de 2026  
+**Versión:** v6.3.3 - Sovereign Restoration (SICC Protocol)
 
 ---
 
-## 📚 SECCIÓN 1: MARCO DE TRABAJO SOBERANO
-
-### 1.1 Conceptos Fundamentales
-El proyecto se estructura bajo la premisa de **Soberanía Tecnológica**:
-- **Protocolos Abiertos:** Uso de Vital IP para mensajería de seguridad.
-- **Hardware Agnóstico:** Servidores 2oo3 sobre arquitectura comercial (COTS).
-- **Comunicaciones Unificadas:** Red TETRA de misión crítica para voz y datos vitales.
+## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
+El EPC debe seguir rigurosamente la metodología de **Soberanía Digital**. Todos los procesos de ingeniería (Conceptual, Básica y Detalle) deben alinearse con el estándar **SICC v6.3.3**, priorizando la inteligencia centralizada sobre la infraestructura física distribuida.
 
 ---
 
-## 📋 SECCIÓN 2: ESTRUCTURA DE TRABAJO (WBS SANEADO)
+## 📏 DIRECTRICES METODOLÓGICAS (.42)
 
-El WBS debe reflejar una arquitectura simplificada y eficiente:
+### 1. DISEÑO DE SISTEMAS VITALES
+- **Jerarquía:** FRA 236-I (PTC Virtual) es la norma rectora. Queda prohibida la adopción de normativas europeas (UIC/ADIF) que impliquen hardware redundante en vía.
+- **Detección:** Basada en reporte de posicionamiento dinámico (GNSS + EOT), eliminando contadores de ejes del diseño.
 
-```
-1.0 PROYECTO LA DORADA-CHIRIGUANÁ (SSOT)
-  1.1 SISTEMAS DE SENALIZACIÓN VIRTUAL
-    1.1.1 Servidor Maestro PTC (Vital Server 2oo3)
-    1.1.2 Enclavamientos Electrónicos IP (ENCE)
-    1.1.3 Lógica de Bloqueo Virtual (FRA 236)
-  1.2 SISTEMAS DE COMUNICACIÓN UNIFICADA
-    1.2.1 Red Radio TETRA (Misión Crítica)
-    1.2.2 Backbone de Fibra Óptica (Anillo Redundante)
-  1.3 SEGURIDAD INTEGRADA Y VITALIDAD
-    1.3.1 Dispositivos de Integridad de Tren (EOT - End of Train)
-    1.3.2 Protocolo de Ciberseguridad Vital IP
-```
+### 2. PROTOCOLO DE INTEROPERABILIDAD
+- **Handover Digital:** La gestión de fronteras concesionales se realiza exclusivamente vía **Digital Gateway**. Se prohíbe el uso de protocolos manuales ("Stop & Switch") en cualquier guía o procedimiento EPC.
 
 ---
 
-## 📋 SECCIÓN 3: TEMPLATES MAESTROS (PTC READY)
+## 📊 MATRIZ DE COMPORTAMIENTO TÉCNICO (.42)
 
-### 3.1 Template: Ficha de Sistema (Ejemplo Saneado)
-- **Sistema:** Control de Tráfico Centralizado (CTC Virtual)
-- **Protocolo:** Vital IP
-- **Criterio de Senalización:** Bloqueo Virtual (No senales físicas)
-- **Interoperabilidad:** Procedimiento Stop & Switch (Chiriguaná/FENOCO)
+| Categoría | Requerimiento EPC | Estado SICC |
+|:---|:---|:---:|
+| **Control** | Vital Server 2oo3 Centralizado | ✅ RESTAURADO |
+| **Comunicaciones**| Red Vital IP (Data Backbone) | ✅ RESTAURADO |
+| **Validación** | Masterchef Audit (Invariantes) | ✅ RESTAURADO |
+| **Interoperabilidad**| Handshake API FRA/AREMA | ✅ SANEADO |
 
 ---
 
-## ✅ CONCLUSIÓN DE RE-ESTRUCTURACIÓN:
+## 🔍 CONCLUSIONES DE SANEAMIENTO
+- ❌ **ELIMINADO:** El protocolo "Stop & Switch" de la guía metodológica de fronteras.
+- ❌ **ELIMINADO:** La ambigüedad sobre la normativa rectora (FRA vs ETCS).
+- ✅ **RESTAURADO:** El rigor de la **Soberanía Técnica** en el método EPC.
 
-La Guía Metodológica v2.0 garantiza que cualquier futuro proyecto estructurado bajo estas bases herede los principios de **eficiencia y soberanía** del proyecto La Dorada-Chiriguaná, evitando la contaminación técnica de estándares obsoletos.
-
-**Saneamiento Ciclo 7 - Guía Metodológica Finalizado.**
+---
+**Saneamiento Ciclo .42 - Guía EPC (VII) Finalizado.**

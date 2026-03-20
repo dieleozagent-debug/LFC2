@@ -1,45 +1,45 @@
-# APÉNDICE TÉCNICO 1 - ALCANCE DEL PROYECTO (PTC VIRTUAL)
+# APÉNDICE TÉCNICO 1 - ALCANCE DEL PROYECTO (SICC v6.3.3 SOBERANO)
 ## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** 13 de marzo de 2026  
-**Proyecto:** APP La Dorada - Chiriguaná  
-**Contrato:** Concesión No. 001 de 2025  
-**Versión:** v6.0 - Purge Release (FRA/AREMA)
+**Fecha de actualización:** 20 de marzo de 2026  
+**Versión:** v6.3.3 - Sovereign Restoration (SICC Protocol)
 
 ---
 
-## 📄 ALCANCE TÉCNICO MAESTRO (DBCD v002)
-El alcance del sistema de control y comunicaciones se define bajo la arquitectura **PTC VIRTUAL**.
-- **Comunicaciones:** Red **TETRA** troncalizada (Red principal de misión crítica).
-- **Senalización:** Acantonamiento virtual basado en posición (Moving Block).
-- **Detección:** Basada en material rodante y dispositivos EOT (End-Of-Train).
+## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA (DBCD v1.2)
+El alcance del proyecto se redefine bajo la arquitectura **PTC Virtual (FRA 236-I)**. Se anula cualquier instrucción previa que limite la tecnología a procedimientos manuales. La misión es la automatización vital del corredor.
 
 ---
 
-## 🔍 AUDITORÍA DE RE-INGENIERÍA (METODOLOGÍA P.42 v6.3.3)
-Este documento se alinea con la arquitectura **Soberanía Digital SICC**:
-1. **RESTAURADO Red Vital IP**: Se confirma el Backbone de fibra óptica y microondas como portador de servicios TETRA y telemetría crítica.
-2. **ALINEACIÓN PTC VIRTUAL**: Se define **FRA 49 CFR 236 Subpart I** como el estándar de seguridad vital para el control de movimiento.
-3. **COMPONENTES CONFIRMADOS:**
-   - 15 Locomotoras con equipamiento PTC embarcado.
-   - 15 Dispositivos EOT.
-   - 5 ENCE (Enclavamientos de Estación) lógicos.
-   - 0 Senales físicas wayside.
-   - 0 Punto de Referencia Virtual (SICC).
+## 🏗️ ALCANCE DE SISTEMAS (.42)
+
+### 1. SEÑALIZACIÓN VIRTUAL
+- **Detección:** 100% basada en posición reportada por el **OBC SIL 4** y confirmada por **EOT**.
+- **Infraestructura Wayside:** 0 señales físicas. Solo se instalarán Puntos de Referencia Virtuales (Balizas SICC) para recalibración de odometría.
+- **Enclavamientos:** 5 ENCE lógicos centralizados en el Vital Server del CCO.
+
+### 2. COMUNICACIONES SOBERANAS
+- **Troncal:** Red de Fibra Óptica G.652D configurada como **Red Vital IP**.
+- **Radio:** Red **TETRA** con cobertura total (Data Vital + Voz).
+- **Interoperabilidad:** Instalación obligatoria del **Digital Gateway FRA/AREMA** en Chiriguaná para permitir el paso de trenes FENOCO sin detención técnica ("Non-Stop Digital Interop").
 
 ---
 
-## 📊 CANTIDADES MAESTRAS (CONTRATO)
-| Componente | Cantidad | Estándar |
-|:---|:---|:---|
-| **Sistema de Control** | PTC Virtual | FRA 49 CFR 236 I |
-| **Radio Crítica** | TETRA | ETSI TETRA |
-| **Backbone** | Fibra Óptica | ITU-T G.652D |
-| **Enclavamientos** | 5 (SICC) | AREMA / CENELEC SIL-4 |
-| **Material Rodante** | 15 Locomotoras | FRA / AAR |
+## 📊 MATRIZ DE CANTIDADES (SANEADA)
+
+| Componente | Especificación | Cantidad |
+|:---|:---|:---:|
+| **Control Vital** | PTC Virtual (FRA 236-I) | 1 Sistema |
+| **Material Rodante** | SBC Smart Locomotives | 15 Unid. |
+| **Integridad** | EOT (End of Train) | 15 Unid. |
+| **Interoperabilidad** | Gateway SICC (FRA/AREMA) | 1 Nodo |
 
 ---
 
-| Versión | Fecha       | Responsable            | Descripción                              |
-|:------:|:-----------:|:-----------------------|:-----------------------------------------|
-| v6.0   | 13/03/2026  | Admin. Contractual EPC | Purgado de Red Vital IP / TETRA y PTC VIRTUAL. Alineación con TETRA y PTC Virtual. |
+## 🔍 CONCLUSIONES DE AUDITORÍA
+- ✅ **RESTAURADO:** El alcance digital completo.
+- ✅ **RESTAURADO:** El **Gateway FRA/AREMA** como solución única de interoperabilidad.
+- ❌ **ELIMINADO:** El fantasma del "Stop & Switch".
+
+---
+**Saneamiento Ciclo .42 - Alcance (AT1) Finalizado.**

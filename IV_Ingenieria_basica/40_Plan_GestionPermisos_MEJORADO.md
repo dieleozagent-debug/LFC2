@@ -1,28 +1,39 @@
-# PLAN DE GESTIÓN DE PERMISOS v6.3.2 (SICC SOVEREIGN)
-## APP La Dorada - Chiriguaná | Fase IV
+# PLAN DE GESTIÓN DE PERMISOS (SICC v6.3.3)
+## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** 18 de marzo de 2026  
-**Estatus:** ✅ **SICC PURIFIED | SOBERANÍA TÉCNICA**
-
----
-
-## 1. ESTRATEGIA DE PERMISOS SICC
-La gestión regulatoria se unifica para soportar la arquitectura de **Soberanía Tecnológica**, eliminando trámites para sistemas propietarios extranjeros.
-
-### 1.1 Trámites ante la ANE (Espectro):
-*   **Prioridad Red Vital**: Gestión de concesión de frecuencias para el canal de datos de misión crítica (TETRA / SICC).
-*   **Foco Soberano**: Eliminación de trámites para Red Vital IP / TETRA o tecnologías legacy europeas.
-
-### 1.2 Trámites Ambientales y Urbanos:
-*   **Localización Unificada**: Coordinación para los 37 nodos de la **Red Vital IP / TETRA** y los 5 centros ENCE.
-*   **Huella Saneada**: Reducción de permisos de obra civil al unificar infraestructura (Fibra + Torres).
+**Fecha de actualización:** 20 de marzo de 2026  
+**Versión:** v6.3.3 - Sovereign Restoration (SICC Protocol)
 
 ---
 
-## 2. 🔍 AUDITORÍA REGULATORIA (SSOT)
-*   ✅ **Red Vital IP / TETRA**: Confirmada la necesidad de gestión de espectro dedicado.
-*   ✅ **GNSS/GPS High Precision**: Validación de uso de frecuencias satelitales para posicionamiento SICC.
-*   ✅ **Interoperabilidad FENOCO**: Gestión de protocolos de frontera (Procedimiento Stop & Switch).
+## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
+La gestión de permisos se enfoca en la legalización de la infraestructura crítica de la **Red Vital IP** (Soberanía de Datos) y el Centro de Control de Operaciones. Se eliminan trámites para componentes de señalización física descartados.
 
 ---
-**Saneamiento Ciclo 6 - Gestión de Permisos SICC Finalizado.**
+
+## 📋 GESTIÓN DE TRÁMITES (.42)
+
+1. **Espectro Radioeléctrico:** Trámites ante la ANE para las frecuencias de la **Red Vital IP** y la red **TETRA**.
+2. **Infraestructura CCO:** Permisos de edificación y operación para el núcleo de inteligencia en La Dorada.
+3. **Servidumbres Digitales:** Permisos de paso para la troncal de fibra óptica a lo largo del derecho de vía.
+
+---
+
+## 📊 MATRIZ DE PERMISOS CRÍTICOS (.42)
+
+| Permiso | Entidad | Objetivo SICC | Estado SICC |
+|:---|:---|:---|:---:|
+| **Uso de Espectro** | ANE | Cobertura IP / TETRA | ✅ RESTAURADO |
+| **Integración CCO** | ANI / Interventoría | Autorización Vital Server | ✅ RESTAURADO |
+| **FO Backbone** | ANLA / Invías | Liberación de vía digital | ✅ RESTAURADO |
+| **Interoperabilidad**| FENOCO / ANI | Convenio Digital Gateway | ✅ RESTAURADO |
+
+---
+
+## 🔍 CONCLUSIONES DE SANEAMIENTO
+- ❌ **ELIMINADO:** Referencias a permisos para "Stop & Switch" o procedimientos manuales.
+- ❌ **ELIMINADO:** Trámites obsoletos para señales físicas wayside.
+- ✅ **RESTAURADO:** El enfoque administrativo en la celeridad de la infraestructura soberana.
+
+---
+**Saneamiento Ciclo .42 - Gestión de Permisos (40) Finalizado.**

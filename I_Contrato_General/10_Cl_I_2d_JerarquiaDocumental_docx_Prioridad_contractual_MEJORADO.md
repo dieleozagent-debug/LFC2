@@ -307,7 +307,7 @@ Qué incluye:
 Obligaciones que se desprenden de la naturaleza de las prestaciones ferroviarias
 Actividades necesarias para cumplir con los resultados contractuales
 Estándares técnicos implícitos en la industria ferroviaria
-Ejemplo práctico: Si AT3 especifica instalar CTC, implícitamente incluye las pruebas, puesta en marcha, capacitación y documentación as-built, aunque no estén expresamente detalladas.
+Ejemplo práctico: Si AT3 especifica instalar el LFC-CCO (SICC), implícitamente incluye las pruebas, puesta en marcha, capacitación y documentación as-built, aunque no estén expresamente detalladas.
 
 4. Casos de Aplicación Práctica
 Caso 1: Especificaciones Técnicas Contradictorias

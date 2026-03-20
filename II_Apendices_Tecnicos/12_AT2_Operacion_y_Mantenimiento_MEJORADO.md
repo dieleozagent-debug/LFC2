@@ -1,34 +1,42 @@
-# APÉNDICE TÉCNICO 2 - OPERACIÓN Y MANTENIMIENTO (PTC VIRTUAL)
+# APÉNDICE TÉCNICO 2 - OPERACIÓN Y MANTENIMIENTO (SICC v6.3.3)
 ## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** 13 de marzo de 2026  
-**Proyecto:** APP La Dorada - Chiriguaná  
-**Contrato:** Concesión No. 001 de 2025  
+**Fecha de actualización:** 20 de marzo de 2026  
+**Versión:** v6.3.3 - Sovereign Restoration (SICC Protocol)
 
 ---
 
-## 📄 REGLAMENTO DE OPERACIÓN DE TRENES (ROT)
-La operación se basa en el **Control Positivo de Trenes (PTC)** según **FRA 49 CFR 236**.
-- **Autorización de Movimiento (MA):** Es digital y se recibe en la cabina. No requiere reconocimiento de senales visuales externas (Wayside).
-- **Interoperabilidad FENOCO:** Se gestiona mediante un protocolo de "Stop & Switch" en los límites de concesión, cumpliendo las reglas operacionales de cada administrador de infraestructura.
-- **Velocidad Máxima:** Determinada por el servidor PTC central en función de la geometría de vía y el estado de los 5 ENCE.
+## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
+La Operación y el Mantenimiento se rigen por los principios de **Disponibilidad Predictiva SICC**. No se aceptarán manuales de O&M que incluyan el protocolo "Stop & Switch" como procedimiento de contingencia primario.
 
 ---
 
-## 🔍 AUDITORÍA DE RE-INGENIERÍA (METODOLOGÍA P.42 v4.2)
-Se han purgado los siguientes errores técnicos de la v4.1:
-1. **ELIMINADO PTC Virtual (FRA 236):** Se reemplaza por procedimientos operativos **FRA/PTC**.
-2. **ELIMINADO SCADA PTC Virtual:** El monitoreo se realiza mediante un SCADA simplificado integrado al SICC.
-3. **MANTENIMIENTO:** Se elimina el mantenimiento de Senalización en Cabina (Cab-Signaling) y punto de referencia virtuals (Infraestructura inexistente).
+## 🚂 PROTOCOLOS OPERATIVOS (.42)
+
+### 1. CIRCULACIÓN VITAL
+- **Autoridad de Movimiento Dinámica:** Generada por el sistema SICC y supervisada por el despachador en el CCO La Dorada.
+- **Hand-over Digital:** El paso a la red de FENOCO se realiza mediante la sincronización de telegramas FRA/AREMA a través del **Gateway SICC**, manteniendo la continuidad del servicio.
+
+### 2. MANTENIMIENTO SICC
+- **Predictivo:** Análisis de telemetría de frenado, posición y salud de radio en tiempo real.
+- **Software SIL-4:** El mantenimiento se centra en la estabilidad de la lógica de acantonamiento virtual y la ciberseguridad del backbone.
 
 ---
 
-## 🛠 INDICADORES DE OPERACIÓN (SICC)
-- **Cumplimiento de Surcos:** Medición vía GPS/TETRA comparada con la simulación AT10.
-- **Seguridad Operacional:** Monitoreo de infracciones de velocidad (Límite PTC).
+## 📊 INDICADORES DE SERVICIO (SANEADOS)
+
+| Métrica | Meta SICC | Referencia |
+|:---|:---:|:---|
+| **Disponibilidad PTC** | 99.95% | AT1 / AT4 |
+| **Latencia Red Vital** | < 50ms | Red Vital IP |
+| **Hand-over Failure** | 0.01% | Digital Gateway |
 
 ---
 
-| Versión | Fecha       | Responsable            | Descripción                              |
-|:------:|:-----------:|:-----------------------|:-----------------------------------------|
-| v4.2   | 13/03/2026  | Admin. Contractual EPC | Purgado de PTC VIRTUAL/FRA/AREMA. Alineación con ROT basado en PTC Virtual. |
+## 🔍 CONCLUSIONES DE SANEAMIENTO
+- ❌ **ELIMINADO:** El procedimiento manual "Stop & Switch".
+- ✅ **RESTAURADO:** El **Hand-over Digital** soberano.
+- ✅ **RESTAURADO:** La centralización de la inteligencia en el SICC (CCO).
+
+---
+**Saneamiento Ciclo .42 - O&M (AT2) Finalizado.**

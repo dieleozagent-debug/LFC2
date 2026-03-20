@@ -1,4 +1,4 @@
-﻿# INGENIERÍA CONCEPTUAL - DOCUMENTOS A DETALLAR
+# INGENIERÍA CONCEPTUAL - DOCUMENTOS A DETALLAR
 ## APP La Dorada - Chiriguaná
 
 ---
@@ -30,19 +30,18 @@ Hoja de Ruta Conceptual APP La Dorada – Chiriguaná
 ListadoMaestro_Sistemas.docx – Consolidado de equipos/sistemas (AT1-AT10 + contrato)
 Matriz_TrazabilidadContractual.xlsx – Jerarquía documental aplicada a ingeniería
 WBS_IngenieriaConceptual.docx – Work Breakdown Structure de sistemas
-III.B. Análisis por Sistema (Merge Contractual)
-Sistema_CTC_Integrado.docx – AT1 (CCO) + AT2 (operación) + AT3 (especificaciones) + AT4 (indicadores) + AT9 (cronograma)
-Sistema_TETRA_Integrado.docx – AT1 (torres) + AT2 (comunicación) + AT3 (radio) + AT7 (predios torres)
-Sistema_FibraOptica_Integrado.docx – AT1 + AT3 + AT5 (interferencias) + AT7 (predios)
-Sistema_Senalizacion_Integrado.docx – AT1 + AT2 + AT3 + AT4 + AT8 (social)
-Sistema_ITS_Integrado.docx – AT1 + AT3 + AT4 + AT6 (ambiental)
-Sistema_CCTV_Integrado.docx – AT1 + AT3 + AT8 (social) + AT4 (indicadores)
-Material_Rodante_Integrado.docx – AT1 + Cl_13.1 + AT2 (operación) + AT4
-III.C. Criterios de Diseno Conceptual
-Criterios_Normatividad.docx – AREMA, FRA/AREMA, RETIE, ISO TC-204, NSR-10, NFPA
-Criterios_Interoperabilidad.docx – Compatibilidad con FENOCO y ANI
-Criterios_Redundancia.docx – Disponibilidad y respaldo de sistemas críticos
-Criterios_Ciberseguridad.docx – Protección de sistemas de control
+III.B. Análisis por Sistema (Merge Contractual SICC v6.3.3)
+Sistema_LFC-CCO_Integrado.md – AT1 (CCO) + AT2 (operación) + AT3 + AT4 + AT9
+Sistema_TETRA_Integrado_v5_0.md – Respaldo Crítico (37 estaciones)
+Sistema_Red_Vital_IP_Integrado.md – Backbone Soberano Broadband (37 estaciones)
+Sistema_Senalizacion_Integrado_v5_0.md – PTC Virtual (FRA 236-I)
+Sistema_ITS_Integrado.md – Gestión de tráfico inteligente
+Sistema_CCTV_Integrado.md – Seguridad perimetral y estaciones
+Material_Rodante_Integrado_v5_0.md – Retrofit SICC (OBC + EOT)
+III.C. Criterios de Diseno Soberano
+Criterios_SICC_v6_3_3.md – Base técnica innegociable
+Criterios_Interoperabilidad_FRA_AREMA.md – Gateway Chiriguaná
+Criterios_Redundancia_Vital.md – Red Vital IP + TETRA + FO
 
 
 

@@ -1,47 +1,38 @@
-# LIBRO BLANCO: TRANSICIÓN TÉCNICA A PTC VIRTUAL (SANEADO)
+# LIBRO BLANCO: TRANSICIÓN TÉCNICA A SICC v6.3.3
 ## APP La Dorada - Chiriguaná
 
-**Fecha de actualización:** 13 de marzo de 2026  
-**Versión:** v6.0 - Purge Release (PTC Virtual Strategy)
-**Metodología:** Punto 42 (Karpathy Saneamiento)
+**Fecha:** 20 de marzo de 2026  
+**Versión:** v6.3.3 - Sovereign Restoration (SICC Protocol)
 
 ---
 
-## 1. ANÁLISIS DE LA TRANSICIÓN
-Este documento justifica la decisión técnica de abandonar el estándar propietario PTC (Alstom) y el estándar europeo PTC Virtual (FRA 236) en favor del **PTC Virtual (FRA 236)**.
-
-### 1.1 Razones de la Purga Técnica:
-1.  **Independencia Tecnológica:** El PTC Virtual permite el uso de hardware COTS y software basado en estándares abiertos (FRA/AREMA), eliminando el monopolio de proveedores únicos.
-2.  **Arquitectura Vital IP:** Uso de redes de misión crítica (**TETRA/Fibra**) bajo protocolos IP estándar, facilitando el mantenimiento local.
-3.  **Optimización de Activos:** Eliminación de europunto de referencia virtuals físicas y senales laterales, reduciendo el CAPEX en un 40-60%.
+## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
+El proyecto adopta el estándar **SICC v6.3.3** basado en **PTC Virtual (FRA 236-I)** para garantizar la independencia tecnológica. Se rechaza cualquier solución basada en infraestructura física obsoleta o procesamientos manuales de baja seguridad.
 
 ---
 
-## 2. ESTRATEGIA DE IMPLEMENTACIÓN (RETROFIT VITAL)
+## 🏗️ PILARES DE LA ARQUITECTURA (.42)
 
-### 2.1 Fase de Retrofit de Locomotoras:
-Se adopta la estrategia de **Retrofit PTC** para las 15 locomotoras del proyecto. Esto implica la instalación de:
-- **OBC (On-Board Computer)** con certificación SIL 4.
-- **GNSS de Alta Precisión** para localización vital sin punto de referencia virtuals.
-- **Interfaz de Freno Neumático** para control positivo de paradas.
-
-### 2.2 Interoperabilidad Ferroviaria:
-La transición asegura que el corredor pueda interoperar con la red de FENOCO mediante el procedimiento **Stop & Switch**, garantizando la seguridad en el nodo de intercambio de Chiriguaná sin dependencia de protocolos cerrados.
+1. **Red Vital IP (Broadband):** Backbone primario de fibra óptica para misiones críticas.
+2. **Servidor PTC Central:** Lógica vital centralizada en entorno 2oo3 (SIL 4).
+3. **Interoperabilidad Digital:** Uso del **Digital Gateway (FRA/AREMA)** para intercambio seguro.
 
 ---
 
-## 📊 MÉTRICAS DE LA NUEVA SOLUCIÓN (SANEADAS):
+## 📊 COMPARATIVA DE PUREZA TÉCNICA (.42)
 
-| Métrica | PTC Virtual | PTC Alstom | Estado |
-|:---|:---:|:---:|:---:|
-| **Dependencia** | Estándar Abierto | Propietario | 🟢 SANEADO |
-| **Costo Operativo**| Bajo (TETRA/IP) | Alto (Red Vital IP / TETRA/FRA/AREMA) | 🟢 SANEADO |
-| **Escalabilidad** | Alta (V-Block) | Limitada (Servidor PTC Central) | 🟢 SANEADO |
+| Métrica | SICC v6.3.3 (RESTAURADO) | Legado (ELIMINADO) |
+|:---|:---:|:---:|
+| **Control** | Servidor Maestro Vital | Postes y Señales Físicas |
+| **Comunicaciones**| Red Vital IP | Metodologías Manuales |
+| **Interoperabilidad**| Digital Gateway | Procedimientos Analógicos |
 
 ---
 
-## ✅ CONCLUSIONES:
+## 🔍 CONCLUSIONES DE SANEAMIENTO
+- ❌ **ELIMINADO:** Corrupciones de texto que inyectaban 'TETRA' erráticamente en la Red Vital IP.
+- ❌ **ELIMINADO:** Referencias explícitas a protocolos manuales "Stop & Switch" (purgado de contaminación).
+- ✅ **RESTAURADO:** El enfoque en la **Soberanía Técnica** por diseño.
 
-La adopción del **PTC Virtual** representa la salida técnica óptima para el proyecto, cumpliendo con los estándares de seguridad internacional y garantizando la viabilidad económica y técnica a largo plazo.
-
-**Saneamiento Ciclo 3 - Libro Blanco Finalizado.**
+---
+**Saneamiento Ciclo .42 - Libro Blanco (03) Finalizado.**
