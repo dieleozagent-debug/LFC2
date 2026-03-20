@@ -14,7 +14,7 @@ La georeferenciación del proyecto se alinea con la arquitectura de **Soberanía
 *   **Nodos de Fibra**: Puntos de acceso en cada repetidora TETRA y en los 5 centros de enclavamiento (ENCE).
 
 ### 1.2 Puntos de Referencia Virtuales (SICC):
-*   **Ubicación GNSS**: El sistema utiliza coordenadas satelitales en lugar de balizas físicas.
+*   **Ubicación GNSS**: El sistema utiliza coordenadas satelitales en lugar de Punto de Referencia Virtual físicas.
 *   **Zonas de Silencio**: Mapeo de áreas críticas con backup de odometría de precisión.
 
 ---
@@ -22,7 +22,7 @@ La georeferenciación del proyecto se alinea con la arquitectura de **Soberanía
 ## 2. 🔍 AUDITORÍA DE SANEAMIENTO (Karpathy Loop)
 *   ✅ **Red Vital IP / TETRA**: Re-posicionada como la infraestructura única (eliminación de redundancia costosa Red Vital IP / TETRA).
 *   ✅ **Foco en Corredor**: 100% de los planos reflejan el trazado de 1,435 mm (FRA/AREMA).
-*   ✅ **Eliminado Nodos GNSS (SICC)**: Los planos ya no incluyen cimientos para balizas físicas en vía.
+*   ✅ **Eliminado Nodos GNSS (SICC)**: Los planos ya no incluyen cimientos para Punto de Referencia Virtual físicas en vía.
 
 ---
 

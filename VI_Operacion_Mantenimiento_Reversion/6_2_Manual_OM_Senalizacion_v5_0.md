@@ -16,7 +16,7 @@ La senalización del corredor abandona los paradigmas físicos para adoptar un m
 - **Respaldo:** En zonas de sombra FO, se habilita el canal de radio **TETRA** para el transporte de telemetría de seguridad.
 
 ### 1.2 Purga de Infraestructura Física:
-- **Cero Balizas:** Se elimina cualquier rutina de mantenimiento de hardware en vía (Eurobalizas, LEUs).
+- **Cero Punto de Referencia Virtual:** Se elimina cualquier rutina de mantenimiento de hardware en vía (Eurobalizas, [CONTROLLER PROHIBIDO - SICC ES VIRTUAL]).
 - **Senalización en Cabina:** El personal operativo debe basar su conducción exclusivamente en el DMI (Driver Machine Interface). No existen senales luminosas wayside.
 
 ---
@@ -24,7 +24,7 @@ La senalización del corredor abandona los paradigmas físicos para adoptar un m
 ## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE PTC VIRTUAL)
 En cumplimiento del **Ciclo Inverso**, se han corregido los siguientes desvíos operativos:
 - ✅ **RESTAURADO:** Jerarquía del protocolo **Vital IP** sobre Fibra Óptica como portador primario.
-- ✅ **ELIMINADO:** Rutinas de inspección para hardware de balizas y circuitos de vía continuos.
+- ✅ **ELIMINADO:** Rutinas de inspección para hardware de Punto de Referencia Virtual y circuitos de vía continuos.
 - ✅ **SINCRONIZADO:** El check-list de mantenimiento ahora se enfoca en la disponibilidad del Backbone FO y la calibración GNSS.
 
 ---

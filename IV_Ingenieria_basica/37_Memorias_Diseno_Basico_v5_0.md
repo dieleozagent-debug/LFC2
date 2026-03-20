@@ -10,7 +10,7 @@
 ## 1. CRITERIOS DE DISENO DE SISTEMAS
 
 ### 1.1 Filosofía de Control y Senalización
-Se adopta la arquitectura **PTC Virtual** (FRA 236 Subpart I). El diseno básico descarta cualquier infraestructura física en vía para senalización (Cero Balizas/Eurobalizas).
+Se adopta la arquitectura **PTC Virtual** (FRA 236 Subpart I). El diseno básico descarta cualquier infraestructura física en vía para senalización (Cero Punto de Referencia Virtual/Eurobalizas).
 - **Autorización de Movimiento (MA):** Generada en el Servidor Maestro 2oo3 y transmitida vía **Vital IP**.
 - **Bloqueo:** Lógica de **Bloque Virtual (V-Block)** integrada en el Servidor PTC Central.
 - **Localización:** Basada en reporte de OBC (vía GNSS/IMU) y validada por el EOT.
@@ -24,7 +24,7 @@ Consolidación del CAPEX mediante el uso del protocolo **Vital IP** sobre Fibra 
 
 ## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE PTC VIRTUAL)
 En cumplimiento del **Ciclo Inverso**, se han eliminado las siguientes memorias obsoletas:
-1.  ❌ **ELIMINADO:** Memorias de cálculo de Eurobalizas y LEUs.
+1.  ❌ **ELIMINADO:** Memorias de cálculo de Eurobalizas y [CONTROLLER PROHIBIDO - SICC ES VIRTUAL].
 2.  ❌ **ELIMINADO:** Protocolos FFFIS/Protocolo Vital IP (SICC) (Sustituido por **Vital IP**).
 3.  ❌ **ELIMINADO:** Menciones a Servidores europeos (Servidor PTC Central) de terceros.
 

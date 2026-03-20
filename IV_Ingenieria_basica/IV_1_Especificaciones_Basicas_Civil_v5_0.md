@@ -7,7 +7,7 @@
 ---
 
 ## 1. ALCANCE CIVIL SOBERANO (SICC)
-La infraestructura civil se redimensiona para eliminar el CAPEX innecesario de catenarias (25kV) y concentrarse en la red de **Soberanía Digital (Red Vital)**.
+La infraestructura civil se redimensiona para eliminar el CAPEX innecesario de [INFRAESTRUCTURA PROHIBIDA] (25kV) y concentrarse en la red de **Soberanía Digital (Red Vital)**.
 
 ### 1.1 Infraestructura de Red Vital IP / TETRA:
 *   **37 Sitios de Radio**: Se confirman 37 ubicaciones para torres de 40-60m. Cada sitio requiere cimentación profunda, cerramiento de seguridad y base para shelter de equipos.

@@ -237,7 +237,7 @@ Este documento presenta de manera consolidada todas las **Decisiones Técnicas (
 
 ---
 
-### 🔦 **SISTEMA 6: BALIZAS Y PASOS A NIVEL**
+### 🔦 **SISTEMA 6: Punto de Referencia Virtual Y PASOS A NIVEL**
 
 #### **6.1 Punto de referencia virtuals**
 

@@ -330,7 +330,8 @@ function applyPurity(contenido) {
     Object.keys(mapCorreccion).forEach(key => {
         // Escapar caracteres especiales para regex
         const escapedKey = key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-        const regex = new RegExp(`(?<!\\w)${escapedKey}(?!\\w)`, 'gi');
+        // Regex mejorada v6.3.3: Soporta plurales básicos (s/S) y variaciones de palabra
+        const regex = new RegExp(`(?<!\\w)${escapedKey}(s|S)?(?!\\w)`, 'gi');
         if (regex.test(nuevoContenido)) {
             nuevoContenido = nuevoContenido.replace(regex, mapCorreccion[key]);
             modificado = true;
@@ -342,7 +343,7 @@ function applyPurity(contenido) {
     const detectados = [];
     blacklist.forEach(bTerm => {
         const escapedBTerm = bTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-        const regex = new RegExp(`(?<!\\w)${escapedBTerm}(?!\\w)`, 'gi');
+        const regex = new RegExp(`(?<!\\w)${escapedBTerm}(s|S)?(?!\\w)`, 'gi');
         if (regex.test(nuevoContenido)) {
             detectados.push(bTerm);
         }

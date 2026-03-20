@@ -10,7 +10,7 @@
 
 ## RESUMEN EJECUTIVO (MARZO 2026)
 
-Este repositorio constituye el **Ecosistema de Ingeniería SICC** para el proyecto **APP La Dorada-Chiriguaná**. Bajo el estándar **v6.3.2**, la ingeniería garantiza la independencia tecnológica (Soberanía) mediante el uso de protocolos abiertos y la eliminación de dependencias propietarias (Legacy / ETCS).
+Este repositorio constituye el **Ecosistema de Ingeniería SICC** para el proyecto **APP La Dorada-Chiriguaná**. Bajo el estándar **v6.3.2**, la ingeniería garantiza la independencia tecnológica (Soberanía) mediante el uso de protocolos abiertos y la eliminación de dependencias propietarias (Legacy / PTC Virtual (SICC)).
 
 ### OBJETIVOS TÉCNICOS SICC
 1.  **Interoperabilidad**: Alineación nativa con **FENOCO** mediante estándares FRA/AREMA.
@@ -51,7 +51,7 @@ Este repositorio constituye el **Ecosistema de Ingeniería SICC** para el proyec
 |---------|------------------|----------|----------------|
 | **Trocha** | FRA/AREMA | 1,435 mm | Interoperabilidad FENOCO |
 | **Material Rodante** | Diésel-Eléctrico | 15 Locs | Soberanía Energética |
-| **PTC** | Virtual (L2/GNSS) | 526 km | Control Virtual (no balizas) |
+| **PTC** | Virtual (L2/GNSS) | 526 km | Control Virtual (no Punto de Referencia Virtual) |
 | **Comunicaciones** | TETRA IP / Vital | 37 Nodos | Cobertura Digital de Misión Crítica |
 | **CCE/ENCE** | Enclavamiento Electrónico | 5 Estaciones | Seguridad Integrada |
 
@@ -59,7 +59,7 @@ Este repositorio constituye el **Ecosistema de Ingeniería SICC** para el proyec
 
 ## EL MOTOR LFC-CLI (MASTERCHEF v6.5)
 El núcleo de automatización reside en `scripts/lfc-cli.js`, el cual ejecuta el **Ciclo Karpathy** de purificación técnica:
-1.  **Detección Inversa**: Localización de zombis legacy (25kV, Red Vital IP / TETRA, Balizas).
+1.  **Detección Inversa**: Localización de zombis legacy (25kV, Red Vital IP / TETRA, Punto de Referencia Virtual).
 2.  **Transmutación SICC**: Reemplazo por terminología soberana mediante el SSOT (`lfc-terminology.js`).
 3.  **Servido Safe-Cooker**: Generación de HTML premium con estilos L4.
 
