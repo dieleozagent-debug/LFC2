@@ -15,11 +15,11 @@ Las especificaciones técnicas se rigen exclusivamente por la normativa **FRA (F
 
 ---
 
-## 🔍 AUDITORÍA DE RE-INGENIERÍA (METODOLOGÍA P.42 v4.2)
-Se han eliminado las siguientes especificaciones erróneas (v4.1):
-1. **ELIMINADO PTC Virtual (FRA 236):** No rige para este contrato. Se sustituye por **FRA 236 Subpart I**.
-2. **ELIMINADO Senalización en Cabina (Cab-Signaling):** No hay senales físicas en el campo.
-3. **ELIMINADO CIRCUITOS DE VÍA:** No se requiere detección física de ocupación en el corredor.
+## 🔍 AUDITORÍA DE RE-INGENIERÍA (METODOLOGÍA P.42 v6.3.3)
+Se han blindado los siguientes estándares soberanos:
+1. **RESTAURADO PTC Virtual (FRA 236-I)**: Reconfirmado como el estándar rector de seguridad vital.
+2. **RESTAURADO Red Vital IP**: Se confirma su rol como capa de transporte para telemetría vital.
+3. **ELIMINADO CIRCUITOS DE VÍA**: Se mantiene la prohibición de detección física.
 
 ---
 

@@ -46,7 +46,7 @@ Se descarta el uso de Red Vital IP / TETRA. La seguridad en TETRA se basa en:
 
 | Versión | Fecha | Responsable | Cambio (Karpathy Purge) |
 |:---:|:---:|:---|:---|
-| **v2.0** | 13/03/2026 | Admin. Contractual | **RE-ESCRITURA TOTAL**. Eliminada seguridad Red Vital IP / TETRA/Virtual Balise (GNSS)s. Alineado con TETRA y FRA 236. |
+| **v2.0** | 13/03/2026 | Admin. Contractual | **RE-ESCRITURA TOTAL**. Eliminada seguridad Red Vital IP / TETRA/Punto de Referencia Virtual (SICC). Alineado con TETRA y FRA 236. |
 | **v1.0** | 27/01/2025 | Ing. Ciberseguridad | Versión obsoleta basada en seguridad PTC VIRTUAL (HALLUCINATED). |
 
 ---

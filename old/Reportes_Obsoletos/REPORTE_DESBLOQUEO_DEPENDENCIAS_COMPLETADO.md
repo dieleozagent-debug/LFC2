@@ -46,7 +46,7 @@ Como Administrador Contractual EPC, confirmo que se han resuelto exitosamente **
 ### **1. ESTRATEGIA AT3 (PTC PTC Virtual (FRA 236))**
 
 #### **Especificaciones Técnicas Provisionales:**
-- **Arquitectura del sistema:** Servidor PTC Central + Virtual Balise (GNSS) + Equipos embarcados
+- **Arquitectura del sistema:** Servidor PTC Central + Punto de Referencia Virtual (SICC) + Equipos embarcados
 - **Infraestructura terrestre:** 356 punto de referencia virtuals, 8 estaciones base Red Vital IP / TETRA
 - **Equipos embarcados:** TCR SIL 4, software conforme EN 50128
 - **Interfaces:** CTC-PTC, TETRA-PTC con protocolos estándar

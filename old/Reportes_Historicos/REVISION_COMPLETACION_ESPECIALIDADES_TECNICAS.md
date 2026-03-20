@@ -47,7 +47,7 @@ Como Administrador Contractual EPC, he completado la revisión exhaustiva de las
 - **Documentos:** `V.4.1_Sistemas_Ferroviarios_Integrados_DETALLADO.md`
 - **Especificaciones:** 300+ líneas de ingeniería de sistemas completa
 - **Componentes:** CTC, PTC PTC Virtual (FRA 236), TETRA, fibra óptica, CCTV
-- **Cantidades:** 356 punto de referencia virtuals Virtual Balise (GNSS), 226 cámaras CCTV, 178 km fibra óptica
+- **Cantidades:** 356 punto de referencia virtuals Punto de Referencia Virtual (SICC), 226 cámaras CCTV, 178 km fibra óptica
 - **Presupuesto:** $140,000 M
 
 ### **🔵 ESPECIALIDAD INTEGRACIÓN - ✅ COMPLETADA**

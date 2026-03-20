@@ -16,16 +16,16 @@ El alcance del sistema de control y comunicaciones se define bajo la arquitectur
 
 ---
 
-## 🔍 AUDITORÍA DE RE-INGENIERÍA (METODOLOGÍA P.42 v4.2)
-Este documento ha sido purgado de las siguientes alucinaciones técnicas detectadas en la v5.0:
-1. **ELIMINADO Red Vital IP / TETRA:** Se elimina la mención a 37 estaciones Red Vital IP / TETRA. El estándar de radio del contrato es **TETRA**.
-2. **ELIMINADO PTC VIRTUAL/FRA/AREMA:** Se eliminan referencias a niveles PTC VIRTUAL y normativas FRA/AREMA no aplicables.
+## 🔍 AUDITORÍA DE RE-INGENIERÍA (METODOLOGÍA P.42 v6.3.3)
+Este documento se alinea con la arquitectura **Soberanía Digital SICC**:
+1. **RESTAURADO Red Vital IP**: Se confirma el Backbone de fibra óptica y microondas como portador de servicios TETRA y telemetría crítica.
+2. **ALINEACIÓN PTC VIRTUAL**: Se define **FRA 49 CFR 236 Subpart I** como el estándar de seguridad vital para el control de movimiento.
 3. **COMPONENTES CONFIRMADOS:**
    - 15 Locomotoras con equipamiento PTC embarcado.
    - 15 Dispositivos EOT.
    - 5 ENCE (Enclavamientos de Estación) lógicos.
    - 0 Senales físicas wayside.
-   - 0 Virtual Balise (GNSS)s.
+   - 0 Punto de Referencia Virtual (SICC).
 
 ---
 

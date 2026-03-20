@@ -71,7 +71,7 @@
 
 #### **Referencias Normativas:**
 - **FRA/AREMA 438:** Especificaciones PTC VIRTUAL
-- **EN 50149:** Virtual Balise (GNSS)s
+- **EN 50149:** Punto de Referencia Virtual (SICC)
 - **SUBSET-036:** Implementación
 
 ---

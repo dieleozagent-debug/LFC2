@@ -75,7 +75,7 @@ Este documento establece la **Estructura de Desglose de Trabajo (WBS) completa v
 | **TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
 | **Red Vital IP / TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
 | **Senalización** | Virtual (CTC + PTC) | Virtual (CTC + PTC) | ✅ 100% |
-| **Virtual Balise (GNSS)s** | 0 unidades | 0 unidades | ✅ 100% |
+| **Punto de Referencia Virtual (SICC)** | 0 unidades | 0 unidades | ✅ 100% |
 | **Senalización en Cabina (Cab-Signaling)** | 0 unidades | 0 unidades | ✅ 100% |
 | **Servidor PTC Central** | 0 unidades | 0 unidades | ✅ 100% |
 | **EOT** | 15 dispositivos | 15 dispositivos | ✅ 100% |
@@ -89,7 +89,7 @@ Este documento establece la **Estructura de Desglose de Trabajo (WBS) completa v
 
 ### 2.3 Componentes a Eliminar
 **✅ YA ELIMINADOS EN v4.0:**
-- ❌ Virtual Balise (GNSS)s: 1,080 → 0 unidades
+- ❌ Punto de Referencia Virtual (SICC): 1,080 → 0 unidades
 - ❌ Senalización en Cabina (Cab-Signaling) vía: 270 → 0 unidades  
 - ❌ Servidor PTC Central: 2 → 0 unidades
 - ❌ [CONTROLLER PROHIBIDO - SICC ES VIRTUAL]: 1,080 → 0 unidades
@@ -239,7 +239,7 @@ Este documento establece la **Estructura de Desglose de Trabajo (WBS) completa v
 - ✅ **TETRA:** 37 estaciones ✓
 - ✅ **Red Vital IP / TETRA:** 37 estaciones ✓
 - ✅ **Senalización:** Virtual (CTC + PTC) ✓
-- ✅ **Virtual Balise (GNSS)s:** 0 unidades ✓
+- ✅ **Punto de Referencia Virtual (SICC):** 0 unidades ✓
 - ✅ **Senalización en Cabina (Cab-Signaling):** 0 unidades ✓
 - ✅ **Servidor PTC Central:** 0 unidades ✓
 - ✅ **EOT:** 15 dispositivos ✓
@@ -394,7 +394,7 @@ Este documento establece la **Estructura de Desglose de Trabajo (WBS) completa v
 - 3.4.5 Sistemas de control local
 
 #### **❌ ELIMINADO: 3.X Sistemas de Filosofía PTC Virtual**
-- **Virtual Balise (GNSS)s:** 1,080 unidades → **0 unidades** (Reemplazado por PTC embarcado)
+- **Punto de Referencia Virtual (SICC):** 1,080 unidades → **0 unidades** (Reemplazado por PTC embarcado)
 - **Servidor PTC Central:** 2 unidades → **0 unidades** (Reemplazado por PTC embarcado)
 - **Senalización en Cabina (Cab-Signaling) en vía:** 270 unidades → **0 unidades** (Reemplazado por CTC virtual)
 
@@ -525,7 +525,7 @@ Este documento establece la **Estructura de Desglose de Trabajo (WBS) completa v
 ## 8. IMPACTO PRESUPUESTAL DE ACTUALIZACIÓN
 
 ### **8.1 Eliminaciones (Sobrepresupuesto)**
-- **Virtual Balise (GNSS)s:** -$40,000,000,000 COP
+- **Punto de Referencia Virtual (SICC):** -$40,000,000,000 COP
 - **Senalización en Cabina (Cab-Signaling) vía:** -$12,000,000,000 COP
 - **Servidor PTC Central:** -$2,000,000,000 COP
 - **[CONTROLLER PROHIBIDO - SICC ES VIRTUAL]:** -$10,000,000,000 COP

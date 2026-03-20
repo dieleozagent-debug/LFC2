@@ -81,7 +81,7 @@ Este documento especifica los requerimientos eléctricos del Centro de Control d
 | **TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
 | **Red Vital IP / TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
 | **Senalización** | Virtual (CTC + PTC) | Virtual (CTC + PTC) | ✅ 100% |
-| **Virtual Balise (GNSS)s** | 0 unidades | 0 unidades | ✅ 100% |
+| **Punto de Referencia Virtual (SICC)** | 0 unidades | 0 unidades | ✅ 100% |
 | **Senalización en Cabina (Cab-Signaling)** | 0 unidades | 0 unidades | ✅ 100% |
 | **Servidor PTC Central** | 0 unidades | 0 unidades | ✅ 100% |
 | **EOT** | 15 dispositivos | 15 dispositivos | ✅ 100% |
@@ -95,7 +95,7 @@ Este documento especifica los requerimientos eléctricos del Centro de Control d
 
 ### 2.3 Componentes a Eliminar
 **✅ YA ELIMINADOS EN v4.0:**
-- ❌ Virtual Balise (GNSS)s: 1,080 → 0 unidades
+- ❌ Punto de Referencia Virtual (SICC): 1,080 → 0 unidades
 - ❌ Senalización en Cabina (Cab-Signaling) vía: 270 → 0 unidades  
 - ❌ Servidor PTC Central: 2 → 0 unidades
 - ❌ [CONTROLLER PROHIBIDO - SICC ES VIRTUAL]: 1,080 → 0 unidades
@@ -244,7 +244,7 @@ Este documento especifica los requerimientos eléctricos del Centro de Control d
 - ✅ **TETRA:** 37 estaciones ✓
 - ✅ **Red Vital IP / TETRA:** 37 estaciones ✓
 - ✅ **Senalización:** Virtual (CTC + PTC) ✓
-- ✅ **Virtual Balise (GNSS)s:** 0 unidades ✓
+- ✅ **Punto de Referencia Virtual (SICC):** 0 unidades ✓
 - ✅ **Senalización en Cabina (Cab-Signaling):** 0 unidades ✓
 - ✅ **Servidor PTC Central:** 0 unidades ✓
 - ✅ **EOT:** 15 dispositivos ✓
@@ -302,7 +302,7 @@ Este documento especifica los requerimientos eléctricos del Centro de Control d
 | Parámetro | Especificación |
 |:----------|:---------------|
 | **Tensión nominal** | 480 V AC, 3 fases, 4 hilos |
-| **Frecuencia** | [ESTÁNDAR PROHIBIDO: FRECUENCIA FERROVIARIA NO APLICABLE] ± 0.5% |
+| **Frecuencia** | [ESTÁNDAR PROHIBIDO: FRECUENCIA FERROVIARIA NO APLICABLE] ± 0.5% (Red Nacional) |
 | **Factor de potencia** | > 0.95 (corregido) |
 | **THD (Total Harmonic Distortion)** | < 5% |
 | **Capacidad total** | 500 kVA |
@@ -313,15 +313,15 @@ Este documento especifica los requerimientos eléctricos del Centro de Control d
 |:--------|:---------|:--------|:--------------|
 | **CTC Centralizado** | 50 kVA | 480 V AC | Sistema principal virtual |
 | **PTC Embarcado** | 30 kVA | 480 V AC | 15 locomotoras |
-| **ENCE (5 estaciones)** | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | 480 V AC | Enclavamientos electrónicos |
+| **ENCE (5 estaciones)** | 50 kVA | 480 V AC | Enclavamientos electrónicos (SICC) |
 | **TETRA + Red Vital IP / TETRA** | 40 kVA | 480 V AC | 37 estaciones cada uno |
 | **Fibra Óptica** | 15 kVA | 480 V AC | Equipos de red |
 | **CCTV (73 cámaras)** | 10 kVA | 480 V AC | Sistema de seguridad |
 | **Videowall** | 15 kVA | 480 V AC | Monitoreo visual |
 | **Iluminación** | 10 kVA | 480 V AC | Iluminación de emergencia |
-| **Climatización** | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | 480 V AC | Aire acondicionado |
+| **Climatización** | 20 kVA | 480 V AC | Aire acondicionado de precisión |
 | **Otros sistemas** | 10 kVA | 480 V AC | Sistemas auxiliares |
-| **TOTAL** | **230 kVA** | | **Carga crítica actualizada** |
+| **TOTAL** | **230 kVA** | | **Carga crítica SICC v6.3.3** |
 
 ### **7.3 Sistemas de Respaldo**
 

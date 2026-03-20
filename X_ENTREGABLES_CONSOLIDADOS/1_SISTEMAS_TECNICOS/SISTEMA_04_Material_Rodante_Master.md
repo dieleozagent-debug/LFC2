@@ -150,7 +150,7 @@
 |:-----------|:---------------|:--------:|:--------------|
 | **Computadora Principal** | Siemens S7-400, SIL 4 | 2 por locomotora | Redundancia 2oo3 |
 | **Módulo Red Vital IP / TETRA** | Siemens Red Vital IP / TETRA | 2 por locomotora | Comunicación Servidor PTC Central |
-| **Antena Virtual Balise (GNSS)** | FRA/AREMA estándar | 4 por locomotora | Lectura punto de referencia virtuals |
+| **Antena Punto de Referencia Virtual (SICC)** | FRA/AREMA estándar | 4 por locomotora | Lectura punto de referencia virtuals |
 | **Pantalla Conductor** | TFT 12" | 2 por locomotora | DMI SIL 3 |
 | **UPS Embarcado** | 24V DC | 2 por locomotora | Respaldo energía |
 
@@ -222,7 +222,7 @@
 #### **PTC PTC Virtual (FRA 236):**
 - **Estándar:** EN 50128 (SIL 4)
 - **Funcionalidades:** Control de velocidad, autorización de movimiento, vigilancia de tren
-- **Interfaces:** CTC, Virtual Balise (GNSS), Red Vital IP / TETRA
+- **Interfaces:** CTC, Punto de Referencia Virtual (SICC), Red Vital IP / TETRA
 - **Actualización:** Over-the-air (OTA)
 
 #### **Módulos de Software Embarcado:**
@@ -231,7 +231,7 @@
 | **STM** | Supervisión de tren | SIL 4 | FRA/AREMA 438 |
 | **DMI** | Interfaz conductor | SIL 3 | EN 50128 |
 | **Servidor PTC Central Interface** | Comunicación Servidor PTC Central | SIL 4 | FRA/AREMA 920-2 |
-| **Virtual Balise (GNSS)** | Lectura punto de referencia virtuals | SIL 4 | FRA/AREMA 438 |
+| **Punto de Referencia Virtual (SICC)** | Lectura punto de referencia virtuals | SIL 4 | FRA/AREMA 438 |
 
 ---
 

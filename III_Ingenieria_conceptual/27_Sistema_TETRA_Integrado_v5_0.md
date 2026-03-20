@@ -84,7 +84,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 | **TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
 | **Red Vital IP / TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
 | **Senalización** | Virtual (CTC + PTC) | Virtual (CTC + PTC) | ✅ 100% |
-| **Virtual Balise (GNSS)s** | 0 unidades | 0 unidades | ✅ 100% |
+| **Punto de Referencia Virtual (SICC)** | 0 unidades | 0 unidades | ✅ 100% |
 | **Senalización en Cabina (Cab-Signaling)** | 0 unidades | 0 unidades | ✅ 100% |
 | **Servidor PTC Central** | 0 unidades | 0 unidades | ✅ 100% |
 | **EOT** | 15 dispositivos | 15 dispositivos | ✅ 100% |
@@ -98,7 +98,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 
 ### 2.3 Componentes a Eliminar
 **✅ YA ELIMINADOS EN v4.0:**
-- ❌ Virtual Balise (GNSS)s: 1,080 → 0 unidades
+- ❌ Punto de Referencia Virtual (SICC): 1,080 → 0 unidades
 - ❌ Senalización en Cabina (Cab-Signaling) vía: 270 → 0 unidades  
 - ❌ Servidor PTC Central: 2 → 0 unidades
 - ❌ [CONTROLLER PROHIBIDO - SICC ES VIRTUAL]: 1,080 → 0 unidades
@@ -246,7 +246,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 - ✅ **TETRA:** 37 estaciones ✓
 - ✅ **Red Vital IP / TETRA:** 37 estaciones ✓
 - ✅ **Senalización:** Virtual (CTC + PTC) ✓
-- ✅ **Virtual Balise (GNSS)s:** 0 unidades ✓
+- ✅ **Punto de Referencia Virtual (SICC):** 0 unidades ✓
 - ✅ **Senalización en Cabina (Cab-Signaling):** 0 unidades ✓
 - ✅ **Servidor PTC Central:** 0 unidades ✓
 - ✅ **EOT:** 15 dispositivos ✓
@@ -313,7 +313,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 - **✅ Fibra Óptica:** 526 → **526 km** (Corredor + 10% reserva)
 
 #### **🚫 COMPONENTES ELIMINADOS (SEGÚN CRITERIOS MAESTROS)**
-- **❌ Virtual Balise (GNSS)s:** 1,080 → 0 unidades
+- **❌ Punto de Referencia Virtual (SICC):** 1,080 → 0 unidades
 - **❌ Senalización en Cabina (Cab-Signaling) vía:** 270 → 0 unidades  
 - **❌ Servidor PTC Central:** 2 → 0 unidades
 - **❌ [CONTROLLER PROHIBIDO - SICC ES VIRTUAL]:** 1,080 → 0 unidades
@@ -457,7 +457,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 ## 9. IMPACTO PRESUPUESTAL DE ACTUALIZACIÓN
 
 ### **9.1 Eliminaciones (Sobrepresupuesto)**
-- **Virtual Balise (GNSS)s:** -$40,000,000,000 COP
+- **Punto de Referencia Virtual (SICC):** -$40,000,000,000 COP
 - **Senalización en Cabina (Cab-Signaling) vía:** -$12,000,000,000 COP
 - **Servidor PTC Central:** -$2,000,000,000 COP
 - **[CONTROLLER PROHIBIDO - SICC ES VIRTUAL]:** -$10,000,000,000 COP

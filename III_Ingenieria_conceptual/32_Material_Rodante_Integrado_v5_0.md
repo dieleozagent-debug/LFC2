@@ -22,7 +22,7 @@ Este documento define las especificaciones del material rodante (15 locomotoras)
 - ✅ **ELIMINADO:** Referencias a PTC Virtual (FRA 236) y Servidor PTC Central.
 - ✅ **ELIMINADO:** Módulo STM (sustituido por OBC PTC).
 - ✅ **ELIMINADO:** Radio Red Vital IP / TETRA (estándar obsoleto para esta arquitectura).
-- ✅ **ELIMINADO:** Antenas de Virtual Balise (GNSS)s.
+- ✅ **ELIMINADO:** Antenas de Punto de Referencia Virtual (SICC).
 - ✅ **ADOPTADO:** Fusión de sensores GNSS/IMU de precisión para localización vital.
 
 ---
@@ -43,7 +43,7 @@ Este documento define las especificaciones del material rodante (15 locomotoras)
 | Elemento | Cantidad | Estado |
 |:---|:---:|:---:|
 | **Locomotoras** | 15 | SANEADO |
-| **Virtual Balise (GNSS)s** | 0 | SANEADO |
+| **Punto de Referencia Virtual (SICC)** | 0 | SANEADO |
 | **Servidor PTC Central (PTC VIRTUAL)** | 0 | SANEADO |
 | **Red Vital IP / TETRA** | 0 | SANEADO |
 | **Vital PTC Server**| 1 (2oo3) | SANEADO |

@@ -61,11 +61,11 @@ Este documento presenta la **ingeniería de sistemas de detalle** para los siste
 |:-----------|:---------------|:--------:|:--------------|
 | **Servidor Servidor PTC Central** | Siemens SIMIS W | 2 unidades | Redundancia N+1 |
 | **Interfaz Red Vital IP / TETRA** | Siemens Red Vital IP / TETRA | 2 unidades | Comunicación trenes |
-| **Interfaz Virtual Balise (GNSS)** | Siemens Virtual Balise (GNSS) | 2 unidades | Comunicación punto de referencia virtuals |
+| **Interfaz Punto de Referencia Virtual (SICC)** | Siemens Punto de Referencia Virtual (SICC) | 2 unidades | Comunicación punto de referencia virtuals |
 | **Interfaz CTC** | Siemens CTC | 2 unidades | Integración CTC |
 | **UPS** | APC Smart-UPS 3000VA | 2 unidades | Redundancia N+1 |
 
-#### **2.2 Punto de referencia virtuals Virtual Balise (GNSS)**
+#### **2.2 Punto de referencia virtuals Punto de Referencia Virtual (SICC)**
 | Ubicación | Cantidad | Tipo | Observaciones |
 |:----------|:--------:|:-----|:--------------|
 | **La Dorada - Puerto Berrío** | 90 unidades | Punto de referencia virtual pasiva | Cada 500m |
@@ -78,7 +78,7 @@ Este documento presenta la **ingeniería de sistemas de detalle** para los siste
 | Componente | Especificación | Cantidad | Observaciones |
 |:-----------|:---------------|:--------:|:--------------|
 | **TCR (Train Control Radio)** | Siemens SIMIS W | 40 unidades | 1 por tren |
-| **Antena Virtual Balise (GNSS)** | Siemens Virtual Balise (GNSS) | 80 unidades | 2 por tren |
+| **Antena Punto de Referencia Virtual (SICC)** | Siemens Punto de Referencia Virtual (SICC) | 80 unidades | 2 por tren |
 | **Módulo Red Vital IP / TETRA** | Siemens Red Vital IP / TETRA | 40 unidades | 1 por tren |
 | **Pantalla de conductor** | TFT 12" | 40 unidades | 1 por tren |
 | **UPS embarcado** | 24V DC, 1kVA | 40 unidades | 1 por tren |

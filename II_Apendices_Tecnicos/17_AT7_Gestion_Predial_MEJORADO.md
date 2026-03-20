@@ -21,7 +21,7 @@ La gestión predial se enfoca en la liberación de áreas críticas para la arqu
 ## 2. 🔍 AUDITORÍA DE SANEAMIENTO (MÉTODO KARPATHY)
 Este documento ha sido purgado de las siguientes alucinaciones técnicas:
 - ✅ **ELIMINADO:** Predios para 37 estaciones Red Vital IP / TETRA.
-- ✅ **ELIMINADO:** Servidumbres para Virtual Balise (GNSS)s y senales Wayside.
+- ✅ **ELIMINADO:** Servidumbres para Punto de Referencia Virtual (SICC) y senales Wayside.
 - ✅ **ELIMINADO:** Referencias a "PTC PTC Virtual (FRA 236)".
 - ✅ **ADOPTADO:** Gestión predial para red **TETRA** y **Vital IP**.
 

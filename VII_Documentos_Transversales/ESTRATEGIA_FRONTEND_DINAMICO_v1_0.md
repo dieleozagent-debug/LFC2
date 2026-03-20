@@ -18,7 +18,7 @@ Eliminar el 100% del código "zombie" (PTC VIRTUAL, Red Vital IP / TETRA, Punto 
 
 ### Ciclo F3: Dashboard de Ingeniería (WBS & Riesgos)
 - **Acción:** Re-mapeo de columnas en la WBS Interactiva.
-- **Resultado:** Eliminación de campos obsoletos (ej. "Validación Virtual Balise (GNSS)") y sustitución por "Fusión GNSS/IMU" o "Vital IP Status".
+- **Resultado:** Eliminación de campos obsoletos (ej. "Validación Punto de Referencia Virtual (SICC)") y sustitución por "Fusión GNSS/IMU" o "Vital IP Status".
 
 ### Ciclo F4: Reportes y Herramientas (Herencia)
 - **Acción:** Saneamiento de los reportes gerenciales (.html) para que el texto sea extraído directamente de los .md maestros.

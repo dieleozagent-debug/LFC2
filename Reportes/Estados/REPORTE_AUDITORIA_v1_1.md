@@ -146,7 +146,7 @@ Realizar un inventario completo de todos los documentos del proyecto APP La Dora
   - Conceptual (doc #1): Alcance general y matriz de trazabilidad
   - Detalle (doc #2): Especificaciones constructivas
   - Sistemas (docs #3-4): Requisitos técnicos específicos
-  - Especializado (doc #5): Plan de ubicación Virtual Balise (GNSS)
+  - Especializado (doc #5): Plan de ubicación Punto de Referencia Virtual (SICC)
 - **Acción:** Crear documento consolidado en `IV. Ingeniería Básica/`
 - **Plazo:** 3-5 días hábiles
 
@@ -585,7 +585,7 @@ Esta información es únicamente de carácter informativo y representa el estado
 ### Senalización — `IV_Ingenieria_basica/SIS_Senalizacion_Definitivo_v1.0.md`
 - [ ] Completar RTM con trazabilidad a AT1/2/3/4/8 y docs fuente
 - [ ] Detallar tablas de interlocking (resumen → referencias completas)
-- [ ] Cerrar criterios de pruebas SAT para P.N. y Virtual Balise (GNSS)
+- [ ] Cerrar criterios de pruebas SAT para P.N. y Punto de Referencia Virtual (SICC)
 - [ ] Validar KPIs AT4 (disponibilidad, MTBF/MTTR) y evidencias
 
 ### Comunicaciones — `IV_Ingenieria_basica/SIS_Comunicaciones_Definitivo_v1.0.md`

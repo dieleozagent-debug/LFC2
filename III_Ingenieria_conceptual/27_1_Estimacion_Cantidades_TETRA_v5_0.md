@@ -79,7 +79,7 @@ Este documento contiene las estimaciones de cantidades para el sistema TETRA, in
 | **TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
 | **Red Vital IP / TETRA** | 37 estaciones | 37 estaciones | ✅ 100% |
 | **Senalización** | Virtual (CTC + PTC) | Virtual (CTC + PTC) | ✅ 100% |
-| **Virtual Balise (GNSS)s** | 0 unidades | 0 unidades | ✅ 100% |
+| **Punto de Referencia Virtual (SICC)** | 0 unidades | 0 unidades | ✅ 100% |
 | **Senalización en Cabina (Cab-Signaling)** | 0 unidades | 0 unidades | ✅ 100% |
 | **Servidor PTC Central** | 0 unidades | 0 unidades | ✅ 100% |
 | **EOT** | 15 dispositivos | 15 dispositivos | ✅ 100% |
@@ -93,7 +93,7 @@ Este documento contiene las estimaciones de cantidades para el sistema TETRA, in
 
 ### 2.3 Componentes a Eliminar
 **✅ YA ELIMINADOS EN v4.0:**
-- ❌ Virtual Balise (GNSS)s: 1,080 → 0 unidades
+- ❌ Punto de Referencia Virtual (SICC): 1,080 → 0 unidades
 - ❌ Senalización en Cabina (Cab-Signaling) vía: 270 → 0 unidades  
 - ❌ Servidor PTC Central: 2 → 0 unidades
 - ❌ [CONTROLLER PROHIBIDO - SICC ES VIRTUAL]: 1,080 → 0 unidades
@@ -240,7 +240,7 @@ Este documento contiene las estimaciones de cantidades para el sistema TETRA, in
 - ✅ **TETRA:** 37 estaciones ✓
 - ✅ **Red Vital IP / TETRA:** 37 estaciones ✓
 - ✅ **Senalización:** Virtual (CTC + PTC) ✓
-- ✅ **Virtual Balise (GNSS)s:** 0 unidades ✓
+- ✅ **Punto de Referencia Virtual (SICC):** 0 unidades ✓
 - ✅ **Senalización en Cabina (Cab-Signaling):** 0 unidades ✓
 - ✅ **Servidor PTC Central:** 0 unidades ✓
 - ✅ **EOT:** 15 dispositivos ✓

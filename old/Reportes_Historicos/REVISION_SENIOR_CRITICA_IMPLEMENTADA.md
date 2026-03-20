@@ -60,13 +60,13 @@ Como **Especialista Senior en Control de Trenes** con experiencia en proyectos f
 ```
 ⚠️ PROBLEMA TÉCNICO: Arquitectura de control incompleta
 - Servidor PTC Central (Radio Block Center): 🔄 **EN ESPECIFICACIÓN**
-- Interfaces Virtual Balise (GNSS): 🔄 **EN DESARROLLO**
+- Interfaces Punto de Referencia Virtual (SICC): 🔄 **EN DESARROLLO**
 - STM (Specific Transmission Module): ⏳ **PENDIENTE**
 ```
 
 **Vacíos Arquitectónicos:**
 - **Servidor PTC Central Redundancy:** 🔄 **EN ESPECIFICACIÓN** - N+1 vs. 2oo3 en desarrollo
-- **Virtual Balise (GNSS) Deployment:** 🔄 **EN DESARROLLO** - Plan de ubicación e instalación
+- **Punto de Referencia Virtual (SICC) Deployment:** 🔄 **EN DESARROLLO** - Plan de ubicación e instalación
 - **On-board Integration:** ⏳ **PENDIENTE** - Integración con locomotoras existentes
 - **Fallback Modes:** ⏳ **PENDIENTE** - Modos de degradación no documentados
 
@@ -83,7 +83,7 @@ Como **Especialista Senior en Control de Trenes** con experiencia en proyectos f
 ##### **Acción Inmediata (1-2 semanas):** 🔄 **EN PROGRESO**
 1. **Desarrollar SRS Provisional** basado en EN 50126/50128/50129 ✅ **INICIADO**
 2. **Especificar arquitectura Servidor PTC Central** con redundancia 2oo3 ✅ **INICIADO**
-3. **Definir plan de Virtual Balise (GNSS)** (ubicación cada 150m en aproximaciones) ✅ **INICIADO**
+3. **Definir plan de Punto de Referencia Virtual (SICC)** (ubicación cada 150m en aproximaciones) ✅ **INICIADO**
 4. **Establecer interfaces CTC-PTC** usando protocolo FFFIS ✅ **INICIADO**
 
 ---
@@ -195,7 +195,7 @@ Como **Especialista Senior en Control de Trenes** con experiencia en proyectos f
 - STM (Specific Transmission Module): 🔄 **EN ESPECIFICACIÓN**
 - DMI (Driver Machine Interface): 🔄 **EN DISENO**
 - Odometry: 🔄 **EN DESARROLLO** - Sistema de odometría
-- Virtual Balise (GNSS) Reader: 🔄 **EN ESPECIFICACIÓN** - Lector de punto de referencia virtuals
+- Punto de Referencia Virtual (SICC) Reader: 🔄 **EN ESPECIFICACIÓN** - Lector de punto de referencia virtuals
 ```
 
 ##### **5.2 INTEGRACIÓN CON LOCOMOTORAS**

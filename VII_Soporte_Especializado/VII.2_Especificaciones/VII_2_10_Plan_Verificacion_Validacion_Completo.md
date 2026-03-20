@@ -11,7 +11,7 @@
 ## 🎯 **1. PROPÓSITO Y ALCANCE**
 
 ### **1.1 PROPÓSITO**
-Este documento establece el marco de **Verificación y Validación (V&V)** para el sistema PTC Virtual. Se eliminan todas las actividades de prueba relacionadas con infraestructura obsoleta (PTC VIRTUAL, Red Vital IP / TETRA, Virtual Balise (GNSS)s) y se enfoca en la validación de la arquitectura de Bloque Virtual y comunicaciones TETRA.
+Este documento establece el marco de **Verificación y Validación (V&V)** para el sistema PTC Virtual. Se eliminan todas las actividades de prueba relacionadas con infraestructura obsoleta (PTC VIRTUAL, Red Vital IP / TETRA, Punto de Referencia Virtual (SICC)) y se enfoca en la validación de la arquitectura de Bloque Virtual y comunicaciones TETRA.
 
 ### **1.2 ALCANCE**
 - **Pruebas de Software Vital:** Vital PTC Server y OBC.

@@ -67,6 +67,7 @@ const LFC_DBCI = {
         "CATENARIA": "[INFRAESTRUCTURA PROHIBIDA]",
         "Baliza Virtual (GNSS)": "Punto de Referencia Virtual (SICC)",
         "EUROBALISE": "Punto de Referencia Virtual (SICC)",
+        "Virtual Balise (GNSS)": "Punto de Referencia Virtual (SICC)",
         "ASFA": "SICC Virtual Protection (SVP)",
         "UNISIG": "Protocolo Vital IP (SICC)",
         "ERTMS": "PTC Virtual (SICC)",

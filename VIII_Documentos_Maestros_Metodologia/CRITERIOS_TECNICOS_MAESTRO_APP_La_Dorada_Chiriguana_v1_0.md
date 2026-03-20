@@ -221,7 +221,7 @@ CORREDOR 526.133 KM
 #### 4.1 Senalización Virtual
 | Componente | Estado | Justificación |
 |------------|--------|---------------|
-| **Virtual Balise (GNSS)s físicas** | ❌ ELIMINADO | Reemplazado por PTC embarcado |
+| **Punto de Referencia Virtual (SICC) físicas** | ❌ ELIMINADO | Reemplazado por PTC embarcado |
 | **Senalización en Cabina (Cab-Signaling) en vía** | ❌ ELIMINADO | CTC virtual |
 | **CTC Centralizado** | ✅ IMPLEMENTADO | Control desde CCO |
 | **PTC/PTC Embarcado** | ✅ IMPLEMENTADO | 15 locomotoras |

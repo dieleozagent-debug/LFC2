@@ -95,7 +95,7 @@ Ejecutar análisis/corrección aplicando Metodología Punto 42
 - [ ] Fibra óptica: ¿526 km?
 - [ ] TETRA: ¿37 estaciones?
 - [ ] Senalización: ¿Virtual (CTC + PTC)?
-- [ ] Virtual Balise (GNSS)s: ¿0 unidades?
+- [ ] Punto de Referencia Virtual (SICC): ¿0 unidades?
 - [ ] Senalización en Cabina (Cab-Signaling) vía: ¿0 unidades?
 - [ ] Servidor PTC Central: ¿0 unidades?
 - [ ] Red Vital IP / TETRA: ¿37 estaciones incluidas?
@@ -193,7 +193,7 @@ INFRAESTRUCTURA:
 - CCO: La Dorada (850 m² edificio + 250 m² sala control)
 
 SENALIZACIÓN (VIRTUAL):
-- Virtual Balise (GNSS)s: 0 (ELIMINADO - Sistema virtual)
+- Punto de Referencia Virtual (SICC): 0 (ELIMINADO - Sistema virtual)
 - Senalización en Cabina (Cab-Signaling) vía: 0 (ELIMINADO - CTC virtual)
 - Servidor PTC Central: 0 (ELIMINADO - PTC embarcado)
 - CTC: 1 sistema centralizado

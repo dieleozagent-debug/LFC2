@@ -120,7 +120,7 @@ Como Administrador Contractual EPC, confirmo que se ha iniciado exitosamente la 
 
 #### **Sistema PTC PTC Virtual (FRA 236):**
 - **Servidor PTC Central:** 2 unidades Siemens SIMIS W
-- **Punto de referencia virtuals Virtual Balise (GNSS):** 356 unidades cada 500m
+- **Punto de referencia virtuals Punto de Referencia Virtual (SICC):** 356 unidades cada 500m
 - **Equipos embarcados:** 40 unidades TCR por tren
 - **Comunicación Red Vital IP / TETRA:** 100% cobertura
 

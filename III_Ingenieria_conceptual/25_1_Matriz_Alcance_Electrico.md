@@ -62,13 +62,13 @@ Esta matriz está disenada como una herramienta de gestión para un contratista 
 
 | Sistema | Componente Eléctrico | Requerimiento | Base Contractual | Disponibilidad AT4 | Observaciones |
 |:---|:---|:---|:---|:---|:---|
-| **CTC** | Centro de Control de Tráfico | - Alimentación principal 220V/60Hz<br>- UPS N+1 (4 horas autonomía)<br>- Aire acondicionado 24/7<br>- Iluminación de emergencia | AT1, AT2, AT4 | 99.95% | Sistema crítico |
+| **LFC-CCO** | Centro de Control de Tráfico | - Alimentación principal 220V/60Hz<br>- UPS N+1 (4 horas autonomía)<br>- Aire acondicionado 24/7<br>- Iluminación de emergencia | AT1, AT2, AT4 | 99.95% | Sistema crítico |
 | **TETRA** | Estaciones Base | - Alimentación 220V/60Hz<br>- UPS N+1 (2 horas autonomía)<br>- Protección contra rayos<br>- Puesta a tierra | AT1, AT2, AT4 | 99.5% | 33 sitios |
 | **Fibra Óptica** | Nodos de Transmisión | - Alimentación 220V/60Hz<br>- UPS N+1 (2 horas autonomía)<br>- Protección contra rayos | AT1, AT3, AT5 | 99.5% | Backbone crítico |
-| **Senalización** | Enclavamientos | - Alimentación 24V DC<br>- UPS N+1 (4 horas autonomía)<br>- Protección contra rayos<br>- Puesta a tierra | AT1, AT2, AT3, AT4 | 99.95% | 5 enclavamientos |
+| **SICC-ENCE** | Enclavamientos | - Alimentación 24V DC<br>- UPS N+1 (4 horas autonomía)<br>- Protección contra rayos<br>- Puesta a tierra | AT1, AT2, AT3, AT4 | 99.95% | 5 enclavamientos |
 | **ITS** | Paneles y Sensores | - Alimentación 220V/60Hz<br>- UPS N+1 (2 horas autonomía)<br>- Protección contra rayos | AT1, AT3, AT4, AT6 | 99.5% | Sistemas distribuidos |
 | **CCTV** | Cámaras y VMS | - Alimentación 220V/60Hz<br>- UPS N+1 (2 horas autonomía)<br>- Protección contra rayos | AT1, AT3, AT4, AT8 | 99.5% | Videovigilancia |
-| **Material Rodante** | Equipos Embarcados | - Alimentación 24V DC<br>- UPS embarcado (1 hora autonomía)<br>- Protección contra rayos | AT1, AT2, AT4, Cl_13.1 | 99.95% | PTC PTC Virtual (FRA 236) |
+| **OBC-SICC** | Equipos Embarcados | - Alimentación 24V DC / 110V AC<br>- UPS embarcado (1 hora autonomía) | AT1, AT2, AT4, Cl_13.1 | 99.95% | PTC Virtual (FRA 236-I) |
 
 ### 4.2 Criterios de Diseno Eléctrico Unificados
 

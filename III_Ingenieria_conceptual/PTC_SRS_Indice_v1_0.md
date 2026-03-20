@@ -46,7 +46,7 @@ Este SRS define los requerimientos funcionales y de seguridad para el sistema **
 ---
 
 ## 🔍 AUDITORÍA DE SANEAMIENTO:
-- ✅ **ELIMINADO:** Requerimientos de Virtual Balise (GNSS)s y Servidor PTC Central.
+- ✅ **ELIMINADO:** Requerimientos de Punto de Referencia Virtual (SICC) y Servidor PTC Central.
 - ✅ **ELIMINADO:** Referencias a PTC Virtual (FRA 236) y normas CENELEC no aplicables.
 - ✅ **ADOPTADO:** Estándar **PTC Virtual** bajo normativa FRA y AREMA.
 

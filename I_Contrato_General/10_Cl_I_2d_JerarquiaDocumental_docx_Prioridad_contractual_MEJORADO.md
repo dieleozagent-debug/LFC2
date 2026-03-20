@@ -1,4 +1,4 @@
-﻿# CLAUSULA I.2D - JERARQUÍA DOCUMENTAL Y PRIORIDAD CONTRACTUAL
+# CLAUSULA I.2D - JERARQUÍA DOCUMENTAL Y PRIORIDAD CONTRACTUAL
 ## APP La Dorada - Chiriguaná
 
 **Fecha de actualización:** 27 de enero de 2025  
@@ -31,14 +31,12 @@ Este documento contractual establece la jerarquía y prioridad de los documentos
 
 ---
 
-## CONTROL DE VERSIONES
+| **v6.3.3** | Mar-2026 | Agente Antigravity | Saneamiento Karpathy Loop: Anclaje de Soberanía SICC y DBCD_CRITERIA.md |
 
-| Versión | Fecha | Responsable | Descripción |
-|:---:|:---:|:---|:---|
-| **v1.0** | Sep-2025 | Ing. Contractual | Versión inicial |
-| **v2.0** | Sep-2025 | Ing. Contractual | Revisión técnica y ampliación de alcance |
-| **v3.0** | Ene-2025 | Ing. Contractual | Formato mejorado y estructura optimizada |
-| **v4.1** | Ene-2025 | Ing. Contractual | Metodología Punto 42 aplicada - Licencias y Permisos |
+---
+
+## 0. ANCLAJE DE SOBERANÍA TÉCNICA (SICC v6.3)
+Para toda interpretación técnica de los niveles 1 al 16, prevalecerá el **DBCD_CRITERIA.md (Design Basis & Concepts Design)** como documento interpretativo supremo de la filosofía SICC (Soberanía Ferroviaria). Cualquier contradicción técnica entre Apéndices se resolverá a favor de la arquitectura de **PTC Virtual / Red Vital IP** definida en el DBCD.
 
 ---
 
