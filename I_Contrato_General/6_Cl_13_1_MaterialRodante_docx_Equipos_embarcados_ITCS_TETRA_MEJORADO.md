@@ -10,7 +10,7 @@
 ---
 
 ## 1. 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
-El Material Rodante debe estar equipado nativamente para operar bajo la arquitectura **PTC Virtual (FRA 236-I)**. No se admitirá ningún sistema de a bordo que dependa de infraestructura de vía europea legacy (Eurobalizas, Red Vital IP (Broadband), PTC Virtual (SICC)).
+El Material Rodante debe estar equipado nativamente para operar bajo la arquitectura **PTC Virtual (FRA 236-I)**. No se admitirá ningún sistema de a bordo que dependa de infraestructura de vía europea legacy (Baliza Virtual (GNSS)s, Red Vital IP (Broadband), PTC Virtual (SICC)).
 
 ## 2. CONFIGURACIÓN DEL EQUIPO EMBARCADO (OBC)
 Cada locomotora contará con un **OBC (On-Board Computer)** con certificación SIL 4 que integrará:

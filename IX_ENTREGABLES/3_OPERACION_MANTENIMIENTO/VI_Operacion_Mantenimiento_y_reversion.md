@@ -12,7 +12,7 @@ El modelo de operación y mantenimiento ha sido re-disenado para gestionar un ec
 ### 1. ⚙️ COMPONENTES DEL PLATO:
 - **OPERACIÓN CENTRALIZADA:** Basada en el SICC v6.3.3 con protocolo de despacho virtual.
 - **MANTENIMIENTO PREDICTIVO:** Monitoreo en tiempo real de la Red Vital IP y Salud del Servidor.
-- **REVERSIÓN ASEGURADA:** Activos digitales de estándar abierto (Open Standards), sin caja negra propietaria.
+- **REVERSIÓN ASEGURADA:** Activos digitales de estándar abierto (Open Standards), basados en la **Arquitectura Abierta SICC**.
 
 ### 2. 🔍 LO QUE SE ELIMINÓ (LA BASURA LEGACY):
 - ❌ **Manuales de Operación Visual Lateral:** Sustituidos por **Cab-Signaling PTC**.

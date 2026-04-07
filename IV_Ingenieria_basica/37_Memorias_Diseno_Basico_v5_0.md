@@ -10,7 +10,7 @@
 ## 1. CRITERIOS DE DISENO DE SISTEMAS
 
 ### 1.1 Filosofía de Control y Senalización
-Se adopta la arquitectura **PTC Virtual** (FRA 236 Subpart I). El diseno básico descarta cualquier infraestructura física en vía para senalización (Cero Punto de Referencia Virtual/Eurobalizas).
+Se adopta la arquitectura **PTC Virtual** (FRA 236 Subpart I). El diseno básico descarta cualquier infraestructura física en vía para senalización (Cero Punto de Referencia Virtual/Baliza Virtual (GNSS)s).
 - **Autorización de Movimiento (MA):** Generada en el Servidor Maestro 2oo3 y transmitida vía **Vital IP**.
 - **Bloqueo:** Lógica de **Bloque Virtual (V-Block)** integrada en el Servidor PTC Central.
 - **Localización:** Basada en reporte de OBC (vía GNSS/IMU) y validada por el EOT.
@@ -18,13 +18,13 @@ Se adopta la arquitectura **PTC Virtual** (FRA 236 Subpart I). El diseno básico
 ### 1.2 Segmento Telecomunicaciones (Backbone Vital IP)
 Consolidación del CAPEX mediante el uso del protocolo **Vital IP** sobre Fibra Óptica.
 - **Backbone:** Red de misión crítica **Vital IP** (100% IP Native).
-- **Redundancia:** Enlace de radio TETRA únicamente como respaldo transitorio para zonas de baja cobertura FO.
+- **Redundancia:** Configuración Multi-capa (Red Vital + TETRA + Fibra Óptica) para garantizar disponibilidad del 99.9% en todo el corredor.
 
 ---
 
 ## 2. 🔍 AUDITORÍA DE SANEAMIENTO (PURGE PTC VIRTUAL)
 En cumplimiento del **Ciclo Inverso**, se han eliminado las siguientes memorias obsoletas:
-1.  ❌ **ELIMINADO:** Memorias de cálculo de Eurobalizas y Punto de Referencia Virtual físicas.
+1.  ❌ **ELIMINADO:** Memorias de cálculo de Baliza Virtual (GNSS)s y Punto de Referencia Virtual físicas.
 2.  ❌ **ELIMINADO:** Protocolos FFFIS (Sustituidos por el **Protocolo Vital IP SICC**).
 3.  ❌ **ELIMINADO:** Menciones a Servidores europeos (Servidor PTC Central) de terceros.
 

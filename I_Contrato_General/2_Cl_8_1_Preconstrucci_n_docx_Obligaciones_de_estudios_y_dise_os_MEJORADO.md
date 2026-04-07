@@ -7,7 +7,7 @@
 ---
 
 ## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
-Toda la ingeniería de detalle y estudios de preconstrucción deben alinearse estrictamente al **DBCD_CRITERIA.md**. Es obligación del Concesionario disenar un sistema de senalización basado en **PTC Virtual (FRA 236-I)**, eliminando cualquier dependencia de infraestructura de vía legacy (Eurobalizas/Wayside).
+Toda la ingeniería de detalle y estudios de preconstrucción deben alinearse estrictamente al **DBCD_CRITERIA.md**. Es obligación del Concesionario disenar un sistema de senalización basado en **PTC Virtual (FRA 236-I)**, eliminando cualquier dependencia de infraestructura de vía legacy (Baliza Virtual (GNSS)s/Wayside).
 
 ---
 
