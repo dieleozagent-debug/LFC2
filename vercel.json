@@ -37,6 +37,14 @@
       "destination": "/X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/HTML/SISTEMA_01_Control_y_Senalizacion_EJECUTIVO.html"
     },
     {
+      "source": "/DICTAMENES",
+      "destination": "/II_A_Analisis_Contractual/dictamenes/INDICE_DICTAMENES.html"
+    },
+    {
+      "source": "/dictamenes",
+      "destination": "/II_A_Analisis_Contractual/dictamenes/INDICE_DICTAMENES.html"
+    },
+    {
       "source": "/0_1_MATRIZ_ROLES_PMO_EPC_RACI.md",
       "destination": "/00_Gobernanza_PMO/0_1_MATRIZ_ROLES_PMO_EPC_RACI.md"
     },

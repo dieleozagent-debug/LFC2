@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SICC Sovereign Registry - Reglas de Juego</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary: #0a192f;
+            --primary-light: #112240;
+            --accent: #ffd700;
+            --accent-soft: rgba(255, 215, 0, 0.1);
+            --steel: #8892b0;
+            --glass: rgba(255, 255, 255, 0.03);
+            --glass-border: rgba(255, 255, 255, 0.1);
+            --danger: #ff4d4d;
+            --success: #64ffda;
+        }
+
+        * { margin:0; padding:0; box-sizing:border-box; font-family: 'Inter', sans-serif; }
+
+        body {
+            background: radial-gradient(circle at 100% 100%, #112240 0%, #0a192f 100%);
+            color: #e6f1ff;
+            min-height: 100vh;
+            display: flex;
+            overflow-x: hidden;
+        }
+
+        /* Lateral Identity */
+        .identity-bar {
+            width: 80px;
+            background: rgba(10, 25, 47, 0.9);
+            border-right: 1px solid var(--glass-border);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem 0;
+            position: fixed;
+            height: 100vh;
+            z-index: 100;
+        }
+
+        .identity-logo { font-size: 1.5rem; filter: saturate(0); opacity: 0.5; margin-bottom: 3rem; }
+
+        /* Main Dashboard */
+        .content {
+            margin-left: 80px;
+            flex: 1;
+            padding: 5rem;
+            max-width: 1400px;
+        }
+
+        .header { margin-bottom: 6rem; position: relative; }
+        .header::after {
+            content: "";
+            position: absolute;
+            bottom: -2rem; left: 0;
+            width: 100px; height: 4px;
+            background: var(--accent);
+            border-radius: 2px;
+        }
+
+        .header h4 {
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 6px;
+            font-weight: 800;
+            font-size: 0.8rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .header h1 {
+            font-size: 4rem;
+            font-weight: 800;
+            letter-spacing: -3px;
+            margin-bottom: 1.5rem;
+        }
+
+        .header p {
+            font-size: 1.25rem;
+            color: var(--steel);
+            max-width: 800px;
+            line-height: 1.6;
+        }
+
+        /* Matrix of Rules */
+        .rules-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            gap: 3rem;
+        }
+
+        .rule-card {
+            background: var(--glass);
+            border: 1px solid var(--glass-border);
+            border-radius: 40px;
+            padding: 3.5rem;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .rule-card:hover {
+            background: rgba(255, 255, 255, 0.07);
+            border-color: var(--accent);
+            transform: translateY(-15px) scale(1.02);
+            box-shadow: 0 30px 60px rgba(0,0,0,0.5);
+        }
+
+        .rule-card::before {
+            content: "";
+            position: absolute;
+            top: 0; right: 0;
+            width: 150px; height: 150px;
+            background: radial-gradient(circle, var(--accent-soft) 0%, transparent 70%);
+            opacity: 0;
+            transition: 0.5s;
+        }
+
+        .rule-card:hover::before { opacity: 1; }
+
+        .rule-tag {
+            font-size: 0.7rem;
+            font-weight: 800;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--accent);
+            background: var(--accent-soft);
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            align-self: flex-start;
+        }
+
+        .rule-title { font-size: 2rem; font-weight: 700; line-height: 1.1; color: #fff; }
+        .rule-summary { font-size: 1rem; color: var(--steel); line-height: 1.6; }
+
+        .rule-impact {
+            margin-top: auto;
+            border-top: 1px solid var(--glass-border);
+            padding-top: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .impact-value { color: var(--success); font-weight: 800; font-size: 1.2rem; }
+        .impact-label { font-size: 0.7rem; color: var(--steel); text-transform: uppercase; letter-spacing: 1px; }
+
+        .btn-view {
+            width: 50px; height: 50px;
+            border-radius: 50%;
+            border: 1px solid var(--glass-border);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: 0.3s;
+            font-size: 1.2rem;
+        }
+
+        .rule-card:hover .btn-view {
+            background: var(--accent);
+            color: var(--primary);
+            border-color: var(--accent);
+            transform: rotate(-45deg);
+        }
+
+        .stats-footer {
+            margin-top: 8rem;
+            padding-top: 4rem;
+            border-top: 1px solid var(--glass-border);
+            display: flex;
+            gap: 5rem;
+        }
+
+        .stat-item h3 { font-size: 2.5rem; font-weight: 800; color: var(--accent); }
+        .stat-item p { font-size: 0.8rem; color: var(--steel); text-transform: uppercase; letter-spacing: 2px; }
+
+        @media (max-width: 768px) {
+            .content { padding: 2rem; }
+            .header h1 { font-size: 2.5rem; }
+            .rules-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="identity-bar">
+        <div class="identity-logo">⚖️</div>
+    </div>
+
+    <main class="content">
+        <header class="header">
+            <h4>Legal Blindage Architecture</h4>
+            <h1>Reglas de Juego</h1>
+            <p>Repositorio inmutable de dictámenes técnico-contractuales que definen el polígono de ingeniería para el proyecto LFC. Soberanía jurídica aplicada al diseño.</p>
+        </header>
+
+        <section class="rules-grid">
+            <!-- FENOCO CASE -->
+            <a href="/II_A_Analisis_Contractual/dictamenes/DICTAMEN_FENOCO_GATEWAY.html" class="rule-card">
+                <div class="rule-tag">Criterio Técnico: Intersistema</div>
+                <div class="rule-title">Responsabilidad e Interoperabilidad FENOCO</div>
+                <div class="rule-summary">Dictamen final sobre la improcedencia del Gateway lógico. Define la interoperabilidad como atributo del material rodante y clasifica integraciones como Obra Complementaria.</div>
+                
+                <div class="rule-impact">
+                    <div>
+                        <div class="impact-label">CAPEX Protegido</div>
+                        <div class="impact-value">25,000,000 USD</div>
+                    </div>
+                    <div class="btn-view">→</div>
+                </div>
+            </a>
+
+            <!-- METHODOLOGY 42 -->
+            <div class="rule-card" style="opacity: 0.6; cursor: not-allowed;">
+                <div class="rule-tag">SICC-CORE-01</div>
+                <div class="rule-title">Metodología de Blindaje .42</div>
+                <div class="rule-summary">Protocolo sistémico de saneamiento recursivo. Prohíbe parches estéticos y obliga a la re-ingeniería desde la WBS maestra.</div>
+                
+                <div class="rule-impact">
+                    <div>
+                        <div class="impact-label">Estado</div>
+                        <div class="impact-value" style="color:var(--steel)">En Auditoría</div>
+                    </div>
+                    <div class="btn-view">🔒</div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="stats-footer">
+            <div class="stat-item">
+                <h3>01</h3>
+                <p>Dictámenes Activos</p>
+            </div>
+            <div class="stat-item">
+                <h3>25 M</h3>
+                <p>USD Ahorrados</p>
+            </div>
+            <div class="stat-item">
+                <h3>100%</h3>
+                <p>Blindaje Legal</p>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
