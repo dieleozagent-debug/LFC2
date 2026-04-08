@@ -49,6 +49,10 @@
       "destination": "/III_Ingenieria_conceptual/0_0_relacion_de_apendices_tecnicos_del_contrato_con_la_ing.md"
     },
     {
+      "source": "/0_1_ho_ja_de_ruta_tecnica_ingenieria_conceptual.md",
+      "destination": "/III_Ingenieria_conceptual/0_1_ho_ja_de_ruta_tecnica_ingenieria_conceptual.md"
+    },
+    {
       "source": "/0_1_hoja_de_ruta_tecnica_ingenieria_conceptual.md",
       "destination": "/III_Ingenieria_conceptual/0_1_hoja_de_ruta_tecnica_ingenieria_conceptual.md"
     },
@@ -241,8 +245,8 @@
       "destination": "/V_Ingenieria_detalle/V_1_Senalizacion_Ferroviaria_Detalle_v5_0.md"
     },
     {
-      "source": "/V_2_Centro_Control_Trafico_CTC_v5_0.md",
-      "destination": "/V_Ingenieria_detalle/V_2_Centro_Control_Trafico_CTC_v5_0.md"
+      "source": "/V_2_Centro_Control_Operativo_LFC_CCO_v5_0.md",
+      "destination": "/V_Ingenieria_detalle/V_2_Centro_Control_Operativo_LFC_CCO_v5_0.md"
     },
     {
       "source": "/V_2_Electrica",
@@ -469,8 +473,8 @@
       "destination": "/VII_Soporte_Especializado/VII.3_Procedimientos/index.html"
     },
     {
-      "source": "/6_1_Manual_OM_CTC_v5_0.md",
-      "destination": "/VI_Operacion_Mantenimiento_Reversion/6_1_Manual_OM_CTC_v5_0.md"
+      "source": "/6_1_Manual_OM_LFC_CCO_v6_3_3.md",
+      "destination": "/VI_Operacion_Mantenimiento_Reversion/6_1_Manual_OM_LFC_CCO_v6_3_3.md"
     },
     {
       "source": "/6_2_Manual_OM_Senalizacion_v5_0.md",
