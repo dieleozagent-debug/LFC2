@@ -15,12 +15,12 @@ Este documento establece el procedimiento de **Interoperabilidad Operacional** e
 
 ### **1.2 ALCANCE**
 - **Punto de Intercambio:** Estación Chiriguaná (PK 526+000).
-- **Modelo:** Handover Digital (Digital Gateway) (Independencia Técnica Total).
-- **Sistemas:** Servidor PTC Central (LFC) vs. Control por Despacho (FENOCO).
+- **Modelo:** Intercambio Operacional (Stop & Switch) (Independencia Técnica Total).
+- **Sistemas:** Procedimiento en Frontera (LFC) vs. Control por Despacho (FENOCO).
 
 ---
 
-## 🚉 **2. PROCEDIMIENTO "Handover Digital (Digital Gateway)" (SICC-DBCI)**
+## 🚉 **2. PROCEDIMIENTO DE INTERCAMBIO OPERACIONAL (STOP & SWITCH)**
 
 ### **2.1 TRANSICIÓN LFC → FENOCO**
 1. **Llegada a Chiriguaná:** El tren LFC monitorea su posición mediante el OBC Vital (FRA Compliant).
@@ -50,8 +50,7 @@ El backbone de **Red Vital IP / TETRA** garantiza la comunicación de voz con lo
 
 ## 📋 **4. CONTROL DE VERSIONES (SICC PURITY)**
 
-| Versión | Fecha | Responsable | Cambio (Karpathy Synthesis) |
-|:---:|:---:|:---|:---|
+| **v2.2** | 08/04/2026 | Agente SICC | **PURGA DEDUCTIVA N-1**. Eliminado el concepto 'Digital Gateway' por incoherencia con Dictamen 01. Se ratifica el modelo puramente operacional. |
 | **v2.1** | 18/03/2026 | Agente SICC | **RESTAURACIÓN DE SOBERANÍA**. Corregido error de purga: FRA/AREMA se mantiene como CORE. Eliminado UIC/PTC Virtual (SICC). |
 | **v2.0** | 13/03/2026 | Admin. Contractual | Versión con error de lógica (Purga errónea de FRA). |
 

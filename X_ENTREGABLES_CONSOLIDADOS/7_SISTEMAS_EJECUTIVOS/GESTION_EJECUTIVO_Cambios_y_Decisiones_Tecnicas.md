@@ -61,22 +61,17 @@ Este documento presenta de manera consolidada todas las **Decisiones Técnicas (
 - **Justificación:** Clarificar que es arquitectura 100% virtual sin senales físicas
 - **Estado:** ✅ Ejecutado
 
-##### **DT-INTERFACES-001-2025-10-09** ⭐ NUEVA
+##### **DT-INTERFACES-001-2025-10-09 ⭐ RECALIBRADA**
 - **Ítem WBS:** 1.1.106 - Interfaces comunicación
-- **Tipo:** Ajuste criterio técnico
-- **Cambio:** Sin cambio numérico (cantidad=1, VU=$150M confirmados)
+- **Tipo:** Saneamiento Contractual (Dictamen 01)
+- **Cambio:** Reducción drástica de complejidad técnica y costo asociado.
 - **Justificación técnica:** 
-  - Bloque lógico de integración (NO hardware físico único)
-  - Conecta: CTC ↔ PTC/PTC VIRTUAL L2 ↔ FENOCO ↔ TETRA ↔ Fibra ↔ ITS
-  - Composición: Gateways industriales + Switches borde + Firewalls IEC 62443 + Middleware FRA/AREMA 918-4 + Licencias software
-- **Alcance $150M incluye:**
-  - Licencias integración (protocolos, middleware)
-  - Configuración redundancia N+1
-  - Ensayos FAT/SAT interoperabilidad
-  - Integración entorno virtual
-- **Riesgos mitigados:** R-INT-001 (trazabilidad integración), R-INT-002 (ambigüedad alcance)
-- **Metadata enriquecida:** ✅ Actualizada
-- **Estado:** ✅ Ejecutado 2025-10-09
+  - Aplicación de **Metodología .42 (N-1)**: Eliminación total de Gateways lógicos hacia terceros (FENOCO).
+  - La interoperabilidad es **estrictamente operacional** (Stop & Switch a bordo).
+  - Se eliminan: Gateways industriales, Middleware externo y Licencias de integración propietaria.
+- **Ahorro Estimado:** Blindaje de CAPEX preventivo (25 MM USD en riesgos de integración).
+- **Metadata enriquecida:** ✅ Sincronizada con Dictamen SICC-01
+- **Estado:** ✅ Saneado 2026-04-08
 
 #### **1.3 Enclavamientos ENCE**
 

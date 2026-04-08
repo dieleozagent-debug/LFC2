@@ -294,7 +294,7 @@ El sistema opera 24/7 proporcionando control centralizado de todo el tráfico fe
 **Documentación técnica:**
 - IV.2 Interfaces_Sistemas: IF-07 especificada
 - V.2 CTC v5.0: §12.4 Bloque de Integración
-- VII.2.4 Protocolo FFFIS: §2.2 Gateway FRA/AREMA 918-4
+- VII.2.4 Protocolo FFFIS Vital
 
 **Decisión Técnica:** DT-INTERFACES-001-2025-10-09
 

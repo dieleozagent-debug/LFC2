@@ -92,7 +92,6 @@
 - **Sistemas de Control:** CTC Virtual, PTC Embarcado, ENCE, Desvíos
 - **Sistemas de Comunicación:** TETRA, Red Vital IP / TETRA, Fibra óptica
 - **Sistemas de Seguridad:** ITS, CCTV, Control de accesos
-- **Sistemas de Integración:** Interfaces, protocolos, interoperabilidad
 - **Sistemas de Monitoreo:** SCADA, HMI, alarmas, históricos
 
 ### **2.2 Criterios de Diseno de Sistemas**
@@ -100,8 +99,8 @@
 #### **Principios de Diseno:**
 - **Integración:** Sistemas integrados con interfaces bien definidas
 - **Redundancia:** Arquitectura N+1 para sistemas críticos
-- **Interoperabilidad:** Compatibilidad con estándares FRA/AREMA y FENOCO
-- **Escalabilidad:** Capacidad de crecimiento y extensión
+- **Interoperabilidad:** Compatibilidad OPERACIONAL (Stop & Switch) con FENOCO
+- **Soberanía:** Adherencia estricta a estándares FRA/AREMA (PTC Virtual)
 - **Mantenibilidad:** Facilidad de mantenimiento y actualización
 
 #### **Estándares de Diseno:**
@@ -321,7 +320,6 @@
 | **TETRA** | Protocolo TETRA | Comunicación principal | OTA |
 | **Red Vital IP / TETRA** | Protocolo Red Vital IP / TETRA | Comunicación redundante | OTA |
 | **Fibra óptica** | Protocolo Ethernet | Backbone de datos | Manual |
-| **Interfaces** | Protocolo FFFIS | Comunicación entre sistemas | Manual |
 
 #### **Software de Seguridad:**
 | Sistema | Software | Función | Actualización |
@@ -431,10 +429,8 @@
 ### **7.4 Interfaces con Sistemas Externos**
 
 #### **Sistemas Externos:**
-| Sistema | Interface Externa | Función |
-|:--------|:------------------|:---------|
-| **FENOCO** | Gateway FRA/AREMA | Interoperabilidad |
-| **ANI** | SICC | Reporte regulatorio |
+| **SICC** | API REST | Reporte regulatorio ANI |
+| **FENOCO** | Interfaz Operacional (Stop & Switch) | Procedimiento en Frontera |
 | **Comunidades** | ITS | Información al usuario |
 | **Autoridades** | CCTV | Seguridad pública |
 

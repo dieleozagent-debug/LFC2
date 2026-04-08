@@ -56,7 +56,7 @@ Este documento consolida información de las siguientes fuentes:
 - Control centralizado desde CCO
 - PTC embarcado en material rodante
 - Disponibilidad 99.95% del sistema
-- Interoperabilidad con FENOCO
+- Interoperabilidad OPERACIONAL (Stop & Switch) con FENOCO
 
 **Indicadores de desempeno:**
 - Disponibilidad del sistema: 99.95%
@@ -248,7 +248,7 @@ El Sistema de Control y Senalización implementa una **filosofía virtual** basa
 - Supervisión en tiempo real
 - Gestión de conflictos automática
 - Registro de eventos y alarmas
-- Interfaces con sistemas externos
+- Interfaz Operacional con FENOCO (Protocolo en Frontera)
 
 **PTC Embarcado:**
 - Protección automática de trenes
@@ -473,7 +473,7 @@ El Sistema de Control y Senalización implementa una **filosofía virtual** basa
 - EN 50129 - Seguridad de senalización
 - IEC 62443 - Ciberseguridad industrial
 - FRA/AREMA 406 - Capacidad de líneas
-- FRA/AREMA 406 - Interoperabilidad
+- FRA/AREMA 406 - Interoperabilidad (Operacional)
 
 ### 9.4 Documentos Externos
 - Información de FENOCO (interoperabilidad)
