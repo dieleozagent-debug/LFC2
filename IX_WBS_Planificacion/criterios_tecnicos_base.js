@@ -1,4 +1,4 @@
-ï»¿const criteriosTecnicosBase = {
+const criteriosTecnicosBase = {
   "version": "1.0",
   "fecha": "2025-10-07",
   "nota": "Base de conocimiento de criterios tÃÂ©cnicos para ÃÂ­tems WBS",

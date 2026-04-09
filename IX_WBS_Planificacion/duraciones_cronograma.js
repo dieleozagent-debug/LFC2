@@ -1,4 +1,4 @@
-ï»¿const duracionesCronograma = {
+const duracionesCronograma = {
   "version": "1.0",
   "fecha": "2025-10-07",
   "nota": "Duraciones y vinculaciÃÂ³n cronograma para ÃÂ­tems WBS",
