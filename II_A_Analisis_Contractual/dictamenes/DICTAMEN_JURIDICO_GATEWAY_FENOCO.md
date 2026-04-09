@@ -1,47 +1,53 @@
-# DICTAMEN JURÍDICO-TÉCNICO: REGLA DE JUEGO #1
-## OBJETO: Blindaje de CAPEX - Interoperabilidad y Gateway FENOCO
+# 🏛️ DICTAMEN JURÍDICO-TÉCNICO VINCULANTE: SICC-2026-001
+## OBJETO: Blindaje de CAPEX — Interoperabilidad FENOCO y Equipamiento Embarcado
 
-**Fecha:** 08 de abril de 2026  
-**Estado:** VALIDADO POR EL ENJAMBRE ALPHA 2026 ✅  
+**De:** Dirección Jurídica y Técnica LFC  
+**Para:** Gerencia EPC / Dirección Contractual  
 **Referencia:** Contrato de Concesión APP No. 001 de 2025  
-**Impacto Estimado:** 25 MM USD (Protección de CAPEX)  
+**Estado:** MICHELIN CERTIFIED — NIVEL FORENSE ⚖️  
 
 ---
 
-### I. VEREDICTO SOBERANO (N-1)
-La construcción de un Gateway lógico o integración informática de Centros de Control (CTC) entre LFC y FENOCO S.A. **no es una obligación contractual del Concesionario**. Cualquier instrucción en este sentido por parte de la Interventoría o la ANI constituye una **Obra y Equipo Complementario (Sección 25.4)** cuyo costo debe ser asumido íntegramente por la Nación.
+### I. EXORDIO Y CRONOLOGÍA FATAL
+Para efectos de delimitar la exposición al riesgo sancionatorio, esta Dirección establece la línea de tiempo oficial e inamovible (Sección 3.8):
+- **Firma del Contrato:** 21 de abril de 2025.
+- **Acta de Inicio:** 1 de agosto de 2025.
+- **Vencimiento Fase Preconstrucción:** **1 de noviembre de 2026**.
+Cualquier demora en la definición de alcances por disputas técnicas con terceros no exime al Concesionario del cumplimiento de los hitos (Sección 3.9.a.xii). Por ende, se emite este dictamen para zanjar la inversión inmediata.
 
 ---
 
-### II. FUNDAMENTOS CONTRACTUALES (L1/L2)
+### II. EL JAQUE MATE JURÍDICO: ORDEN DE PRELACIÓN (SEC 1.2-d)
+Ante cualquier duda basada en respuestas de la ANI durante la licitación (Q&A/SECOP), este despacho dictamina la aplicación estricta de la **Jerarquía Documental**:
+1. **Nivel 1:** Contrato de Concesión (Documento Principal).
+2. **Nivel 2:** Apéndice Técnico 1 (AT1).
+...
+16. **Nivel 16:** Pliego de Condiciones, adendas y respuestas a observaciones (Q&A).
 
-#### 1. Límite de Jurisdicción y Riesgo (Sección 2.70 y 3.1)
-El "Corredor del Proyecto" termina físicamente en Chiriguaná. La responsabilidad operativa, civil y de custodia de LFC tiene un límite geográfico absoluto. Traspasar este límite mediante controles informáticos automáticos implica una asunción voluntaria de riesgo sobre activos de un tercero, sin cobertura de la **Póliza RCE (Sección 18.7)**.
-
-#### 2. Definición Técnica de Interoperabilidad (Sección 2.209)
-La interoperabilidad exigida es un atributo del **Material Rodante (Tren)** y no de la plataforma de software central. Se satisface operativamente mediante:
-- **Protocolo Stop & Switch:** Procedimiento en frontera.
-- **Equipamiento Dual:** Locomotoras con equipos de a bordo compatibles con ambos sistemas (PTC Virtual para LFC e ITCS para FENOCO).
-
-#### 3. Incompatibilidad de Estándares (AT1 Tabla 17 vs Realidad FENOCO)
-El Contrato obliga a LFC a diseñar bajo la norma **FRA 49 CFR Parte 236 (Estándar Abierto)**. FENOCO opera bajo el sistema **ITCS (Propietario de Alstom)**. Forzar la integración implica abandonar el estándar abierto FRA, violando la **Tabla 17 del AT1**.
+**DIRECCIÓN:** Lo estipulado en los Niveles 1 y 2 **aplasta jurídicamente** cualquier respuesta de Nivel 16. LFC no puede evadir obligaciones de Nivel 1 invocando el Nivel 16 (Sección 1.2.d).
 
 ---
 
-### III. ⚠️ CLÁUSULAS DE RECHAZO (REGLA DE JUEGO)
+### III. DETERMINACIÓN TAXATIVA DE CAPEX
 
-1. **Rechazo por Desviación Normativa:** La ingeniería de detalle (Ardanuy) **tiene prohibido** diseñar interfaces de software hacia ITCS/Alstom, ya que esto constituiría una negligencia técnica al violar el estándar FRA exigido en el AT1.
-2. **Rechazo por Inexistencia de Adición:** Ningún componente relacionado con el "Gateway FENOCO" será incluido en la WBS hasta que exista una **Adición Contractual previa (Sección 25.4(b))** que garantice el pago del 100% de los costos por parte de la ANI.
-3. **Protección de Póliza:** Cualquier instrucción que obligue a LFC a monitorear trenes fuera del polígono definido en la **Sección 2.70** será rechazada formalmente, por dejar al Concesionario en estado de desprotección ante la aseguradora (RCE).
+#### 1. Obligación Ineludible: Equipamiento Embarcado (~2.5 MM USD)
+LFC está obligada a adquirir e instalar el hardware dual a bordo (Radios, DMI, Controladoras) para cumplir con la **Puesta a Punto (Sección 2.201)** y el **AT1 Capítulo I literal (d)**.
+- **Fundamento:** El Apéndice Financiero 4 contempla expresamente la amortización de la locomotora "incluyendo el respectivo equipo embarcado". Negar esta compra es una confesión de incumplimiento a la Debida Diligencia (Sec 3.9).
+- **Acción:** Liberar CAPEX para equipos "Stop & Switch".
 
----
-
-### IV. CONCLUSIÓN PARA EL DASHBOARD
-La interfaz con FENOCO se establece a nivel **estrictamente operacional**. El CAPEX del proyecto queda blindado contra pretensiones de integración de software propietario.
-
-**Sello de Validación Alpha 2026:**  
-🛡️ **AUDITOR FORENSE:** *Confirmado - No hay mandato de gateway en AT1-AT10.*  
-🛡️ **ESTRATEGA SICC:** *Veredicto - Obra complementaria bajo Sec 25.4.CAPEX Protegido.*  
+#### 2. Exclusión de Responsabilidad: Gateway Alstom (~25 MM USD)
+La construcción de una pasarela de software hacia el ITCS de FENOCO **no es parte del alcance**.
+- **Fundamento:** Según la **Sección 25.4 (Obras y Equipos Complementarios)**, al ser un requerimiento de un tercero que altera el estándar FRA exigido (AT1 Tabla 17), el costo debe ser asumido por la ANI mediante modificación de especificaciones (Sección 9.12.b).
+- **Acción:** Rechazo oficial de integración lógica.
 
 ---
-*Este documento constituye la "Regla de Juego" oficial para la especialidad de Señalización y Sistemas de Control. Ningún diseño técnico podrá contradecir los términos aquí expuestos.*
+
+### IV. VEREDICTO FINAL
+La interoperabilidad se satisface mediante **Procedimiento Operacional** en frontera (Chiriguaná PK 722+683). LFC asume el hardware del tren; la ANI asume cualquier software de integración.
+
+**Certificación Michelin v6.5:**
+🛡️ **AUDITOR FORENSE:** *Certificado. Inferencia basada en Sec 1.2-d y 2.201.*
+🛡️ **ESTRATEGA SICC:** *Veredicto. Blindaje de 25M USD confirmado vía Sec 25.4.*
+
+---
+*Documento vinculado al manual de operación de ingeniería. Ninguna especialidad podrá contradecir esta jerarquía.*

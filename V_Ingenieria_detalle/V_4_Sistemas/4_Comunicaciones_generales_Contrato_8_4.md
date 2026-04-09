@@ -41,7 +41,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 #### **ARQUITECTURA INTEGRAL DE COMUNICACIONES FERROVIARIAS**
 - **Backbone Principal:** Red de fibra óptica de doble anillo con diversidad geográfica
 - **Sistema TETRA:** Red de radio digital con ~33 sitios de repetición para cobertura 100%
-- **Tecnología Red Vital IP:** Dense Wavelength Division Multiplexing para maximizar capacidad
+- **Tecnología Red Vital IP:** Arquitectura 48 Hilos G.652.D (Pura) para maximizar capacidad
 - **Redundancia N+1:** Controladores centrales y sitios críticos con redundancia
 
 #### **ESPECIFICACIONES TÉCNICAS DE FIBRA ÓPTICA**
@@ -213,7 +213,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
    - **Beneficio:** Evita que un único evento afecte ambos enlaces (derrumbe, sabotaje)
    - **Implementación:** Un anillo por cada lado de la vía férrea cuando sea posible
 
-2. **Tecnología Red Vital IP (Dense Wavelength Division Multiplexing):**
+2. **Tecnología Red Vital IP (Arquitectura 48 Hilos G.652.D (Pura)):**
    - **Problema identificado:** Maximizar capacidad del cable de fibra
    - **Optimización EPC:** Múltiples canales de 10 Gbps o 100 Gbps sobre un único par de hilos
    - **Beneficio:** Escalabilidad futura sin necesidad de tender más cable

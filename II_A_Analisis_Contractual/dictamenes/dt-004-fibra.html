@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SICC Sovereign Dictamen: Blindaje Fibra G.652.D vs G.652</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary: #0a192f;
+            --primary-light: #112240;
+            --accent: #ffd700;
+            --accent-soft: rgba(255, 215, 0, 0.08);
+            --steel: #8892b0;
+            --glass: rgba(255, 255, 255, 0.03);
+            --glass-border: rgba(255, 255, 255, 0.1);
+            --danger: #ff4d4d;
+            --success: #64ffda;
+        }
+
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body {
+            background: #0a192f;
+            color: #e6f1ff;
+            font-family: 'Inter', sans-serif;
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 5rem 2rem;
+        }
+
+        .back-link {
+            text-decoration: none;
+            color: var(--accent);
+            font-weight: 800;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 4rem;
+            transition: 0.3s;
+        }
+        .back-link:hover { transform: translateX(-10px); }
+
+        .doc-header {
+            border-bottom: 1px solid var(--glass-border);
+            padding-bottom: 4rem;
+            margin-bottom: 6rem;
+        }
+
+        .doc-label {
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 6px;
+            font-weight: 800;
+            font-size: 0.75rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .doc-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            font-weight: 700;
+            line-height: 1.1;
+            margin-bottom: 2rem;
+            letter-spacing: -2px;
+        }
+
+        .doc-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            font-size: 0.85rem;
+            color: var(--steel);
+        }
+
+        .doc-meta span {
+            background: var(--glass);
+            border: 1px solid var(--glass-border);
+            padding: 0.4rem 1.2rem;
+            border-radius: 50px;
+        }
+
+        .section { margin-bottom: 8rem; position: relative; }
+        
+        .section-num {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            color: var(--accent-soft);
+            position: absolute;
+            top: -1.5rem; left: -2rem;
+            font-weight: 700;
+            opacity: 0.5;
+            z-index: -1;
+        }
+
+        h2 { 
+            font-size: 2rem; 
+            font-weight: 800; 
+            margin-bottom: 2.5rem;
+            color: #fff;
+            letter-spacing: -1px;
+            border-left: 4px solid var(--accent);
+            padding-left: 1.5rem;
+        }
+
+        p { margin-bottom: 2rem; color: #cdd6f4; font-size: 1.15rem; }
+
+        blockquote {
+            background: rgba(255, 255, 255, 0.02);
+            border-left: 2px solid var(--glass-border);
+            padding: 2.5rem;
+            margin: 3rem 0;
+            border-radius: 0 30px 30px 0;
+            font-style: italic;
+            position: relative;
+        }
+
+        .conclusion-box {
+            background: var(--accent-soft);
+            border: 1px solid var(--accent);
+            padding: 3rem;
+            border-radius: 40px;
+            margin: 4rem 0;
+        }
+
+        .conclusion-box h3 {
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 0.85rem;
+            margin-bottom: 1.5rem;
+            color: var(--accent);
+        }
+
+        .conclusion-box p {
+            color: #fff;
+            margin-bottom: 0;
+            font-weight: 600;
+        }
+
+        .footer {
+            margin-top: 8rem;
+            text-align: center;
+            color: var(--steel);
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/II_A_Analisis_Contractual/dictamenes/" class="back-link">← Volver al Registro de Dictámenes</a>
+
+        <header class="doc-header">
+            <div class="doc-label">DECISIÓN TÉCNICA SICC-2026-004</div>
+            <h1 class="doc-title">Invalidación de Fibra G.652.D por Exceso de Alcance</h1>
+            
+            <div class="doc-meta">
+                <span>Ref: AT3 Capítulo VIII Sec. 8.6</span>
+                <span>Asunto: Blindaje de CAPEX y Reducción de Riesgos OPEX</span>
+                <span>Estatus: VINCULANTE - SICC v6.4.21</span>
+            </div>
+        </header>
+
+        <section class="section">
+            <div class="section-num">I</div>
+            <h2>Análisis de Auditoría (.42 Sweep)</h2>
+            <p>El barrido forense del Apéndice Técnico 3 confirma la exclusividad normativa de la fibra monomodo estándar. No existe sustento contractual para la inclusión de fibra G.652.D (NZ-DSF).</p>
+            <blockquote>
+                <span style="font-weight: 800; color: var(--accent);">AT3 Sec. 8.6:</span>
+                El Concesionario deberá cumplir taxativamente con: i. UIT-T G.652 y ii. UIT-T G.652.D.
+            </blockquote>
+        </section>
+
+        <section class="section">
+            <div class="section-num">II</div>
+            <h2>Mandato de Ingeniería</h2>
+            <div class="conclusion-box">
+                <h3>DICTAMEN VINCULANTE</h3>
+                <p>1. Queda prohibida la instalación de fibra G.652.D.<br>
+                2. Todo el suministro debe ajustarse al estándar G.652.D.<br>
+                3. Se elimina cualquier sobrecosto de material exótico del WBS.</p>
+            </div>
+        </section>
+
+        <footer class="footer">
+            SICC Sovereign Intelligence Suite v6.4.21 | Jaime Coronado (Gerencia EPC)
+        </footer>
+    </div>
+</body>
+</html>

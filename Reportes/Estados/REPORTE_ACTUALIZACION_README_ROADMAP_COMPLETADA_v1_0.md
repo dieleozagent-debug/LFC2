@@ -1,4 +1,4 @@
-# REPORTE ACTUALIZACIÓN README Y ROADMAP COMPLETADA v1.0
+# REPORTE ACTUALIZACIÓN README Y Conectividad DirectaAP COMPLETADA v1.0
 
 **Fecha:** 02 de octubre de 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  

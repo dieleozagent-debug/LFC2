@@ -34,7 +34,7 @@ El proceso de creación documental sigue el flujo de Inteligencia Asimétrica:
 ---
 
 ### 4. Regla de Oro: Coherencia Transversal
-Un cambio en un Dictamen (Ej: Cambio de Fibra G.655 a G.652.D) debe propagarse automáticamente:
+Un cambio en un Dictamen (Ej: Cambio de Fibra G.652.D a G.652.D) debe propagarse automáticamente:
 - Actualizar **Criterios Maestro**.
 - Actualizar **WBS Presupuestal**.
 - Actualizar **Platos Servidos (HTML)**.

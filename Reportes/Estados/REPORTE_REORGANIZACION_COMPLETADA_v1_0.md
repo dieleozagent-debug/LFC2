@@ -46,7 +46,7 @@ Se ha completado exitosamente la reorganización de todos los archivos de report
 │   ├── 📁 Metodologia_Punto_42/
 │   │   ├── 📄 REPORTE_HALLAZGOS_V1-V5_METODOLOGIA_PUNTO_42.md
 │   │   ├── 📄 VALIDACION_FINAL_V1-V5_METODOLOGIA_PUNTO_42.md
-│   │   ├── 📄 REPORTE_ACTUALIZACION_ROADMAP_METODOLOGIA_PUNTO_42.md
+│   │   ├── 📄 REPORTE_ACTUALIZACION_Conectividad DirectaAP_METODOLOGIA_PUNTO_42.md
 │   │   └── 📄 REPORTE_VALIDACION_TECNICA_CONTRACTUAL_v1.0.md
 │   └── 📁 Referencias/
 │       └── 📄 REFERENCIAS_CRUZADAS_CONSOLIDADAS_v1.0.md

@@ -52,7 +52,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 - **Longitud Total:** **526 km** (actualizada con criterios maestros)
 
 #### **ESPECIFICACIONES TÉCNICAS**
-- **Tecnología Red Vital IP:** Dense Wavelength Division Multiplexing para maximizar capacidad
+- **Tecnología Red Vital IP:** Arquitectura 48 Hilos G.652.D (Pura) para maximizar capacidad
 - **Disponibilidad:** ≥ 99.9% con tiempo máximo de reparación de 4 horas
 - **Redundancia:** Doble anillo independiente con rutas geográficamente diversas
 - **Puntos de Acceso:** ~33 nodos de acceso distribuidos estratégicamente
@@ -195,7 +195,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
    - **Beneficio:** Evita que un único evento afecte ambos enlaces (derrumbe, sabotaje)
    - **Implementación:** Un anillo por cada lado de la vía férrea cuando sea posible
 
-2. **Tecnología Red Vital IP (Dense Wavelength Division Multiplexing):**
+2. **Tecnología Red Vital IP (Arquitectura 48 Hilos G.652.D (Pura)):**
    - **Problema identificado:** Maximizar capacidad del cable de fibra
    - **Optimización EPC:** Múltiples canales de 10 Gbps o 100 Gbps sobre un único par de hilos
    - **Beneficio:** Escalabilidad futura sin necesidad de tender más cable
