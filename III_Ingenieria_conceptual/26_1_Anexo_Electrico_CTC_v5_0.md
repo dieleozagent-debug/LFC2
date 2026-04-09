@@ -41,6 +41,7 @@ Este documento especifica los requerimientos eléctricos del Centro de Control d
 | **v3.0** | Ene-2025 | Ing. Contractual | Formato mejorado y estructura optimizada |
 | **v4.0** | Ene-2025 | Admin. Contractual EPC | **CRÍTICO: Alineación con Criterios Técnicos Maestros** |
 | **v5.0** | Ene-2025 | Admin. Contractual EPC | **FINAL: Coherencia Técnica Verificada** |
+| **v7.1** | Abr-2026 | Agente OpenGravity | **RECALIBRACIÓN: Sanidad CAPEX (kW/8h) - Saneamiento Michelin** |
 
 ---
 
@@ -305,31 +306,30 @@ Este documento especifica los requerimientos eléctricos del Centro de Control d
 | **Frecuencia** | [ESTÁNDAR PROHIBIDO: FRECUENCIA FERROVIARIA NO APLICABLE] ± 0.5% (Red Nacional) |
 | **Factor de potencia** | > 0.95 (corregido) |
 | **THD (Total Harmonic Distortion)** | < 5% |
-| **Capacidad total** | 500 kVA |
+| **Capacidad Total Propuesta** | **100 kW** (Optimización CAPEX v7.1) |
+
+> [!NOTE]
+> **Estatus de Parámetros:** Los valores de potencia y autonomía aquí expresados son **Criterios de Diseño Propuestos (DBCD V002)** sujetos a optimización. La única obligación contractual inamovible (FRA §236.551) es la estabilidad de voltaje (±10%).
 
 ### **7.2 Cargas Críticas (Actualizadas según Criterios Maestros)**
 
-| Sistema | Potencia | Tensión | Observaciones |
+| Sistema | Potencia (Est.) | Tensión Nominal | Observaciones |
 |:--------|:---------|:--------|:--------------|
-| **CTC Centralizado** | 50 kVA | 480 V AC | Sistema principal virtual |
-| **PTC Embarcado** | 30 kVA | 480 V AC | 15 locomotoras |
-| **ENCE (5 estaciones)** | 50 kVA | 480 V AC | Enclavamientos electrónicos (SICC) |
-| **TETRA + Red Vital IP / TETRA** | 40 kVA | 480 V AC | 37 estaciones cada uno |
-| **Fibra Óptica** | 15 kVA | 480 V AC | Equipos de red |
-| **CCTV (73 cámaras)** | 10 kVA | 480 V AC | Sistema de seguridad |
-| **Videowall** | 15 kVA | 480 V AC | Monitoreo visual |
-| **Iluminación** | 10 kVA | 480 V AC | Iluminación de emergencia |
-| **Climatización** | 20 kVA | 480 V AC | Aire acondicionado de precisión |
-| **Otros sistemas** | 10 kVA | 480 V AC | Sistemas auxiliares |
-| **TOTAL** | **230 kVA** | | **Carga crítica SICC v6.3.3** |
+| **CTC Centralizado** | 10 kW | 220 V AC | Cargas auxiliares y servidores |
+| **PTC Embarcado** | 5 kW | 110 V DC | Segmentado por locomotora |
+| **ENCE (Cargas Vitales)** | 10 kW | **110 V DC** | Enclavamientos (SIL-4) - Vital Bus |
+| **TETRA + Red Vital IP** | 5 kW | **48 V DC** | 37 estaciones (Segmento CCO) |
+| **Fibra Óptica** | 2 kW | 48 V DC | Equipos de red óptica |
+| **Otros (CCTV/HVAC)** | 10 kW | 220 V AC | Cargas no vitales |
+| **TOTAL ESTIMADO** | **~42 kW** | | **Línea Base Sanidad v7.1** |
 
 ### **7.3 Sistemas de Respaldo**
 
 #### **7.3.1 UPS (Sistema de Alimentación Ininterrumpida)**
 | Parámetro | Especificación |
 |:----------|:---------------|
-| **Capacidad** | 300 kVA |
-| **Autonomía** | 15 minutos |
+| **Capacidad** | 50 kW |
+| **Autonomía (Red Pública)** | **8 Horas** |
 | **Tiempo de transferencia** | < 4 ms |
 | **THD** | < 3% |
 | **Eficiencia** | > 95% |
@@ -339,9 +339,9 @@ Este documento especifica los requerimientos eléctricos del Centro de Control d
 #### **7.3.2 Generador de Emergencia**
 | Parámetro | Especificación |
 |:----------|:---------------|
-| **Capacidad** | 400 kVA |
+| **Capacidad** | 60 kW |
 | **Combustible** | Diesel |
-| **Autonomía** | 8 horas |
+| **Autonomía** | 12 horas (Tanque base) |
 | **Tiempo de arranque** | < 10 segundos |
 | **Tensión de salida** | 480 V AC, 3 fases |
 | **Frecuencia** | [ESTÁNDAR PROHIBIDO: FRECUENCIA FERROVIARIA NO APLICABLE] ± 0.5% |

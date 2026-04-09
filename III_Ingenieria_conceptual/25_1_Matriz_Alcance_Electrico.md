@@ -60,27 +60,22 @@ Esta matriz está disenada como una herramienta de gestión para un contratista 
 
 ### 4.1 Sistemas con Requerimientos Eléctricos Críticos
 
-| Sistema | Componente Eléctrico | Requerimiento | Base Contractual | Disponibilidad AT4 | Observaciones |
-|:---|:---|:---|:---|:---|:---|
-| **LFC-CCO** | Centro de Control de Tráfico | - Alimentación principal 220V/60Hz<br>- UPS N+1 (4 horas autonomía)<br>- Aire acondicionado 24/7<br>- Iluminación de emergencia | AT1, AT2, AT4 | 99.95% | Sistema crítico |
-| **TETRA** | Estaciones Base | - Alimentación 220V/60Hz<br>- UPS N+1 (2 horas autonomía)<br>- Protección contra rayos<br>- Puesta a tierra | AT1, AT2, AT4 | 99.5% | 33 sitios |
-| **Fibra Óptica** | Nodos de Transmisión | - Alimentación 220V/60Hz<br>- UPS N+1 (2 horas autonomía)<br>- Protección contra rayos | AT1, AT3, AT5 | 99.5% | Backbone crítico |
-| **SICC-ENCE** | Enclavamientos | - Alimentación 24V DC<br>- UPS N+1 (4 horas autonomía)<br>- Protección contra rayos<br>- Puesta a tierra | AT1, AT2, AT3, AT4 | 99.95% | 5 enclavamientos |
-| **ITS** | Paneles y Sensores | - Alimentación 220V/60Hz<br>- UPS N+1 (2 horas autonomía)<br>- Protección contra rayos | AT1, AT3, AT4, AT6 | 99.5% | Sistemas distribuidos |
-| **CCTV** | Cámaras y VMS | - Alimentación 220V/60Hz<br>- UPS N+1 (2 horas autonomía)<br>- Protección contra rayos | AT1, AT3, AT4, AT8 | 99.5% | Videovigilancia |
-| **OBC-SICC** | Equipos Embarcados | - Alimentación 24V DC / 110V AC<br>- UPS embarcado (1 hora autonomía) | AT1, AT2, AT4, Cl_13.1 | 99.95% | PTC Virtual (FRA 236-I) |
+| Sistema | Componente Eléctrico | Requerimiento (v7.1) | Base Contractual | Obs. Sanidad |
+|:---|:---|:---|:---|:---|
+| **LFC-CCO** | Centro de Control | - 220V AC Aux / **110V DC Vital**<br>- UPS N+1 (**8 horas autonomía**) | DBCD V002 | Proporcional a criticidad |
+| **Red Vital** | Nodos 37 sitios | - Híbrido (Solar + Baterías)<br>- **48 horas autonomía** (radiación nula) | DBCD V002 | Escenario B (Remoto) |
+| **ENCE** | Enclavamientos | - **110V DC Centralizado**<br>- UPS N+1 (**8 horas**) | DBCD / FRA | 5 enclavamientos |
+| **Material Rodante**| OBC-SICC | - **74V / 110V DC** (Embarcado) | AREMA / FRA | PTC Virtual |
 
 ### 4.2 Criterios de Diseno Eléctrico Unificados
 
-| Criterio | Especificación | Aplicación | Base Normativa |
+| Criterio | Especificación (v7.1 Michelin) | Aplicación | Base Normativa |
 |:---|:---|:---|:---|
-| **Voltaje Principal** | 220V/60Hz ±5% | Todos los sistemas | RETIE, NTC 2050 |
-| **Voltaje Secundario** | 24V DC ±10% | Senalización, Material Rodante | RETIE, NTC 2050 |
-| **UPS N+1** | Redundancia total | Sistemas críticos (CTC, Senalización) | RETIE, NTC 2050 |
-| **Autonomía UPS** | 4 horas (críticos), 2 horas (otros) | Según criticidad | AT4, RETIE |
-| **Protección Rayos** | Clase I (torres), Clase II (edificios) | Todos los sitios | RETIE, NTC 2050 |
-| **Puesta a Tierra** | <5Ω (torres), <10Ω (edificios) | Todos los sitios | RETIE, NTC 2050 |
-| **Factor de Potencia** | >0.9 inductivo | Todos los sistemas | RETIE, NTC 2050 |
+| **Tensión Vital** | **110V DC** (±10% stability) | Señalización Vital | FRA §236.551 |
+| **Tensión Telecom** | **48V DC** | Sistemas de Radio y FO | ETSI |
+| **Autonomía Grid** | **8 Horas** (Mínima) | Escenario A (Con Red Pública) | DBCD V002 |
+| **Autonomía Solar** | **48 Horas** (Radiación nula) | Escenario B (Sitios Remotos) | DBCD V002 |
+| **Protección Rayos** | Clase I / <5Ω | Todos los sitios | RETIE |
 
 ### 4.3 Matriz de Dependencias Eléctricas
 
