@@ -93,13 +93,13 @@
 #### **Principios de Diseno:**
 - **Disponibilidad:** 99.95% para locomotoras con mantenimiento preventivo
 - **Interoperabilidad:** Compatibilidad con estándares FRA/AREMA y FENOCO
-- **Seguridad:** Sistemas de seguridad SIL 3-4 según EN 50126/50128/50129
+- **Seguridad:** Sistemas de seguridad SIL 3-4 según Seguridad RAMS bajo FRA 236 Subpart I / PTCSP/50128/50129
 - **Mantenibilidad:** Acceso para mantenimiento y reparación
 - **Eficiencia:** Optimización de consumo y rendimiento
 
 #### **Estándares de Diseno:**
 - **FRA/AREMA:** Estándares internacionales para material rodante
-- **EN 50126/50128/50129:** Sistemas ferroviarios de seguridad
+- **Seguridad RAMS bajo FRA 236 Subpart I / PTCSP/50128/50129:** Sistemas ferroviarios de seguridad
 - **AAR:** Asociación Americana de Ferrocarriles
 - **FERROVIAS:** Estándares ferroviarios colombianos
 - **RETIE:** Reglamento Técnico de Instalaciones Eléctricas
@@ -441,7 +441,7 @@
 | Normativa | Aplicabilidad | Cumplimiento | Responsable | Observaciones |
 |:----------|:-------------:|:------------:|:------------|:-------------|
 | **FRA/AREMA** | 100% | ✅ Completo | EPC Mecánico | Estándares internacionales |
-| **EN 50126/50128/50129** | 100% | ✅ Completo | EPC Mecánico | Sistemas ferroviarios |
+| **Seguridad RAMS bajo FRA 236 Subpart I / PTCSP/50128/50129** | 100% | ✅ Completo | EPC Mecánico | Sistemas ferroviarios |
 | **AAR** | 90% | ✅ Completo | EPC Mecánico | Estándares americanos |
 | **FERROVIAS** | 85% | ✅ Completo | EPC Mecánico | Estándares colombianos |
 

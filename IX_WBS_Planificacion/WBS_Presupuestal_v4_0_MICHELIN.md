@@ -18,7 +18,7 @@
 
 ## 🏗️ ESTRUCTURA WBS PRESUPUESTAL v4.0
 
-### CAPÍTULO 1: CONTROL Y SEÑALIZACIÓN VIRTUAL
+### CAPÍTULO 1: CONTROL Y SENALIZACIÓN VIRTUAL
 
 #### 1.1 Sistema CTC Virtual Centralizado
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
@@ -64,13 +64,13 @@
 | **1.4.102** | Interfaces CTC/ENCE | 25 | $67,288,000 | $1,682,200,000 |
 | **SUBTOTAL DESVÍOS MOTORIZADOS** | | | | **$16,261,350,000** |
 
-#### **1.5 Desvíos Manuales y Señalización**
+#### **1.5 Desvíos Manuales y Senalización**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
 |:---|:---|:---:|:---:|:---:|
 | **1.5.100** | Desvíos manuales autotalonables (con comprobador integrado) | 120 | $134,577,000 | $16,149,240,000 |
-| **1.5.101** | Señalización luminosa estaciones ENCE (entrada/salida) | 0 | $0 | $0 |
+| **1.5.101** | Senalización luminosa estaciones ENCE (entrada/salida) | 0 | $0 | $0 |
 | **1.5.102** | Herramientas operación (kit completo certificado) | 120 | $13,458,000 | $1,614,960,000 |
-| **SUBTOTAL DESVÍOS MANUALES Y SEÑALIZACIÓN** | | | | **$17,764,200,000** |
+| **SUBTOTAL DESVÍOS MANUALES Y SENALIZACIÓN** | | | | **$17,764,200,000** |
 
 **TOTAL CAPÍTULO 1:** **$57,755,550,000**
 
@@ -105,7 +105,7 @@
 
 | **Capítulo** | **Descripción** | **Total (COP)** |
 |:---|:---|:---:|
-| **1** | Control y Señalización Virtual | $57,755,550,000 |
+| **1** | Control y Senalización Virtual | $57,755,550,000 |
 | **2** | Telecomunicaciones Colocalizadas | $92,672,367,851 |
 | **3** | Sistemas ITS y Seguridad | $3,395,700,000 |
 | **4** | Pasos a Nivel | $21,582,000,000 |

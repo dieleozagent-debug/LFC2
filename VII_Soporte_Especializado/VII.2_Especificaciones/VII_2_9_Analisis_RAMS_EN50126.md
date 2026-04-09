@@ -1,10 +1,10 @@
-# ANÁLISIS RAMS Red Vital LFC (EN 50126) - CONFIABILIDAD Y SEGURIDAD VITAL
+# ANÁLISIS RAMS Red Vital LFC (Seguridad RAMS bajo FRA 236 Subpart I / PTCSP) - CONFIABILIDAD Y SEGURIDAD VITAL
 ## APP La Dorada-Chiriguaná - Garantía de Operación SIL-4
 
 **Estado:** ✅ **SANEADO (MÉTODO KARPATHY)**  
 **Fecha:** 13 de marzo de 2026  
 **Responsable:** Administrador Contractual EPC  
-**Estándar Base:** EN 50126-1 / EN 50129 / FRA 236 Subpart I
+**Estándar Base:** Seguridad RAMS bajo FRA 236 Subpart I / PTCSP-1 / Seguridad Electrónica Vital bajo FRA/PTC (§236.1015) / FRA 236 Subpart I
 
 ---
 
@@ -23,7 +23,7 @@ Este documento presenta el análisis de **Confiabilidad, Disponibilidad, Manteni
 ## 🛡️ **2. ANÁLISIS DE SEGURIDAD (SAFETY - SIL-4)**
 
 ### **2.1 FUNCIONES VITALES Y THR**
-Siguiendo la norma EN 50129, las funciones críticas del PTC Virtual deben cumplir con una Tasa de Peligro Tolerable (THR) de nivel **SIL-4**.
+Siguiendo la norma Seguridad Electrónica Vital bajo FRA/PTC (§236.1015), las funciones críticas del PTC Virtual deben cumplir con una Tasa de Peligro Tolerable (THR) de nivel **SIL-4**.
 
 | Función Vital | THR Objetivo (h⁻¹) | Mitigación Técnica |
 |:---|:---:|:---|

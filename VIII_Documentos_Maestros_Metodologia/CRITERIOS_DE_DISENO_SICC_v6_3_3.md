@@ -12,7 +12,7 @@
 ### 1.1. Propósito del documento
 Este documento establece los criterios técnicos, funcionales y normativos que rigen el diseno de detalle del Sistema de Senalización, Control de Tráfico y Comunicaciones del Corredor Férreo La Dorada – Chiriguaná, bajo el Contrato de Concesión APP No. 001 de 2025. 
 
-El sistema adopta una arquitectura de **Positive Train Control (PTC) con cantonamiento virtual**, fundamentada en la **FRA 49 CFR Part 236, Subpart I**, el **Manual AREMA 2021** (Communications and Signals) y la norma de software unificado **EN 50716:2023**. Esta arquitectura prioriza la virtualización sobre la infraestructura física para proteger el CAPEX y garantizar la soberanía técnica del proyecto.
+El sistema adopta una arquitectura de **Positive Train Control (PTC) con cantonamiento virtual**, fundamentada en la **FRA 49 CFR Part 236, Subpart I**, el **Manual AREMA 2021** (Communications and Signals) y la norma de software unificado **Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP):2023**. Esta arquitectura prioriza la virtualización sobre la infraestructura física para proteger el CAPEX y garantizar la soberanía técnica del proyecto.
 
 ### 1.2. Alcance del Sistema
 El sistema se establece sobre una arquitectura de PTC con cantonamiento virtual en la vía sencilla y cantonamiento físico restringido exclusivamente a cinco (5) puntos operativos críticos: **La Dorada–México, Puerto Berrío–Grecia, Barrancabermeja, García Cadena y Zapatosa**. 
@@ -34,13 +34,13 @@ El alcance incluye:
 2. Apéndice Técnico 1 (Alcance y Funcionalidad).
 3. Apéndice Técnico 3 (Especificaciones y Manual AREMA 2021).
 4. El presente Documento de Criterios de Diseno (SICC v6.3.3).
-5. Normas Internacionales Adoptadas (FRA, AREMA 2021, EN 50716).
+5. Normas Internacionales Adoptadas (FRA, AREMA 2021, Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP)).
 
 ### 2.2 Relación de Normas Adoptadas
 - **FRA 49 CFR Part 236, Subpart I** (PTC).
 - **FRA 49 CFR Part 213** (Track Safety).
 - **AREMA Communications and Signals Manual 2021** (Capítulos 17.3.1, 17.3.3, 17.3.5 para Hazard Log).
-- **EN 50716:2023**- **Software Ferroviario:** Certificación integral bajo la norma soberana **EN 50716** (Unificación Onboard/Wayside), sustituyendo EN 50716 (Estándar Soberano Michelin v7.0) para proteger la arquitectura PTC Virtual.
+- **Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP):2023**- **Software Ferroviario:** Certificación integral bajo la norma soberana **Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP)** (Unificación Onboard/Wayside), sustituyendo Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP) (Estándar Soberano Michelin v7.0) para proteger la arquitectura PTC Virtual.
 - **ETSI EN 300 392 (Serie)** (TETRA V+D).
 - **ITU-T G.652.D** (Fibra Monomodo estándar).
 - **EN/IEC 62368-1** (Seguridad eléctrica TI).
@@ -81,7 +81,7 @@ Conforme a la Tabla 17 del AT1, el sistema es PTC. Para proteger el CAPEX, se el
 Basadas en FRA 49 CFR 236 Subpart I: Prevención de colisiones, exceso de velocidad y protección de zonas de trabajo.
 
 ### 5.2. Subsistema Embarcado (Onboard)
-El cerebro del sistema reside en el tren. Se exige el cumplimiento de la **EN 50716:2023** para asegurar que el software del tren y del servidor central se evalúen como una sola entidad vital, permitiendo la eliminación de senales físicas.
+El cerebro del sistema reside en el tren. Se exige el cumplimiento de la **Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP):2023** para asegurar que el software del tren y del servidor central se evalúen como una sola entidad vital, permitiendo la eliminación de senales físicas.
 - **Computador PTC**: Cumplimiento de **AREMA 2021 Parte 17** para aseguramiento de seguridad y matricería de peligros (Hazard Log).
 - **DMI**: Interfaz clara con Velocidad Permitida y Autorización de Movimiento (MA).
 

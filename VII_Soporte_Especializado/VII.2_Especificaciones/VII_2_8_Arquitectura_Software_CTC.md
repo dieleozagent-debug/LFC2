@@ -4,7 +4,7 @@
 **Estado:** ✅ **SANEADO (MÉTODO KARPATHY)**  
 **Fecha:** 13 de marzo de 2026  
 **Responsable:** Administrador Contractual EPC  
-**Estándar Base:** EN 50716:2023 / FRA 49 CFR Part 236
+**Estándar Base:** Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP):2023 / FRA 49 CFR Part 236
 
 ---
 

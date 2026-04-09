@@ -19,7 +19,7 @@
 - **IEC 60364:** Instalaciones eléctricas de baja tensión
 - **IEC 61850:** Comunicaciones en subestaciones
 - **IEEE 1547:** Interconexión de recursos distribuidos
-- **EN 50126:** Aplicación de técnicas de confiabilidad
+- **Seguridad RAMS bajo FRA 236 Subpart I / PTCSP:** Aplicación de técnicas de confiabilidad
 
 ---
 
@@ -30,7 +30,7 @@
 | **RETIE** | 100% | ✅ Completo | EPC Eléctrica | Instalaciones eléctricas |
 | **IEC 60364** | 100% | ✅ Completo | EPC Eléctrica | Baja tensión |
 | **IEC 61850** | 90% | ✅ Completo | EPC Eléctrica | Comunicaciones |
-| **EN 50126** | 95% | ✅ Completo | EPC Eléctrica | Confiabilidad ferroviaria |
+| **Seguridad RAMS bajo FRA 236 Subpart I / PTCSP** | 95% | ✅ Completo | EPC Eléctrica | Confiabilidad ferroviaria |
 
 ---
 
@@ -44,9 +44,9 @@
 
 ### 3.2 Sistemas de Control
 - **SCADA:** IEC 61850
-- **Comunicaciones:** IEC 61850 + EN 50126
-- **Protecciones:** EN 50126 + EN 50716:2023
-- **Seguridad:** EN 50129
+- **Comunicaciones:** IEC 61850 + Seguridad RAMS bajo FRA 236 Subpart I / PTCSP
+- **Protecciones:** Seguridad RAMS bajo FRA 236 Subpart I / PTCSP + Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP):2023
+- **Seguridad:** Seguridad Electrónica Vital bajo FRA/PTC (§236.1015)
 
 ---
 

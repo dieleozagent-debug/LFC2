@@ -59,7 +59,7 @@
       "descripcion": "Computadora PTC embarcada",
       "justificacion_tecnica": "Reducción de 15 a 8 unidades alineada con AT1: 5 locomotoras contractuales + 2 diseno/pruebas + 1 contingencia",
       "criterios_diseno": [
-        "Cumplimiento CENELEC EN 50126/128/129",
+        "Cumplimiento CENELEC Seguridad RAMS bajo FRA 236 Subpart I / PTCSP/128/129",
         "SIL 4 para funciones vitales de seguridad",
         "Interfaz con Nodos GNSS (SICC) y odómetro"
       ],

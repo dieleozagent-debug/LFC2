@@ -71,7 +71,7 @@ Esta matriz está disenada como una herramienta de gestión para un contratista 
 
 | Criterio | Especificación (v7.1 Michelin) | Aplicación | Base Normativa |
 |:---|:---|:---|:---|
-| **Tensión Vital** | **110V DC** (±10% stability) | Señalización Vital | FRA §236.551 |
+| **Tensión Vital** | **110V DC** (±10% stability) | Senalización Vital | FRA §236.551 |
 | **Tensión Telecom** | **48V DC** | Sistemas de Radio y FO | ETSI |
 | **Autonomía Grid** | **8 Horas** (Mínima) | Escenario A (Con Red Pública) | DBCD V002 |
 | **Autonomía Solar** | **48 Horas** (Radiación nula) | Escenario B (Sitios Remotos) | DBCD V002 |

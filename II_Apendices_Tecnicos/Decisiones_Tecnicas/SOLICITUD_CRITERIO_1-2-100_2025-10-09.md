@@ -70,7 +70,7 @@
    - Ver sección 9 de DT-PTC-001 (Análisis de alternativas)
 
 4. **Fuentes normativas:**
-   - CENELEC EN 50126/128/129 (SIL 4)
+   - CENELEC Seguridad RAMS bajo FRA 236 Subpart I / PTCSP/128/129 (SIL 4)
    - Apéndice Financiero pág. 3
    - AT1 Cap. V y Anexo AT1-3
 

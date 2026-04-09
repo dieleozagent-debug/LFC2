@@ -171,7 +171,7 @@
 |:-----|:--------:|:----------------------|
 | **Contractuales** | 25+ | AT1-AT10, Cláusulas 8.1-8.2, 9.1, 14.1 |
 | **Técnicas** | 75+ | V.1-V.5, PTC, Sistemas |
-| **Normativas** | 50+ | EN 50126/50128/50129, FRA/AREMA 438/950, IEC 62443 |
+| **Normativas** | 50+ | Seguridad RAMS bajo FRA 236 Subpart I / PTCSP/50128/50129, FRA/AREMA 438/950, IEC 62443 |
 
 ### **Referencias por Especialidad:**
 | Especialidad | Cantidad | Documentos |

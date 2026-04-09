@@ -180,7 +180,7 @@ El Sistema de Control y Senalización implementa una **filosofía virtual** basa
 
 **V.1 - Senalización Ferroviaria v5.0:**
 - Filosofía de senalización virtual
-- Criterios de seguridad según EN 50126/50128/50129
+- Criterios de seguridad según Seguridad RAMS bajo FRA 236 Subpart I / PTCSP/50128/50129
 - Procedimientos de validación y prueba
 - Especificaciones de PTC embarcado
 
@@ -271,9 +271,9 @@ El Sistema de Control y Senalización implementa una **filosofía virtual** basa
 ### 5.3 Especificaciones de Calidad
 **Estándares y normativa aplicable**
 
-- **EN 50126:** Gestión de la fiabilidad, disponibilidad, mantenibilidad y seguridad
-- **EN 50716:2023:** Sistemas de senalización ferroviaria - Software
-- **EN 50129:** Sistemas de senalización ferroviaria - Seguridad
+- **Seguridad RAMS bajo FRA 236 Subpart I / PTCSP:** Gestión de la fiabilidad, disponibilidad, mantenibilidad y seguridad
+- **Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP):2023:** Sistemas de senalización ferroviaria - Software
+- **Seguridad Electrónica Vital bajo FRA/PTC (§236.1015):** Sistemas de senalización ferroviaria - Seguridad
 - **IEC 62443:** Ciberseguridad industrial
 - **FRA/AREMA 406:** Capacidad de líneas ferroviarias
 
@@ -468,9 +468,9 @@ El Sistema de Control y Senalización implementa una **filosofía virtual** basa
 - V.X - Enclavamientos ENCE v5.0
 
 ### 9.3 Normativa Aplicable
-- EN 50126 - Gestión de RAMS
-- EN 50716:2023 - Software de senalización
-- EN 50129 - Seguridad de senalización
+- Seguridad RAMS bajo FRA 236 Subpart I / PTCSP - Gestión de RAMS
+- Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP):2023 - Software de senalización
+- Seguridad Electrónica Vital bajo FRA/PTC (§236.1015) - Seguridad de senalización
 - IEC 62443 - Ciberseguridad industrial
 - FRA/AREMA 406 - Capacidad de líneas
 - FRA/AREMA 406 - Interoperabilidad (Operacional)

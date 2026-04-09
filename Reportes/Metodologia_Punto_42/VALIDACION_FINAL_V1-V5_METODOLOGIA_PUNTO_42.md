@@ -110,7 +110,7 @@ Se ha completado el **PASO 5: Validación Final** aplicando los 8 criterios de �
 #### **✅ CUMPLIMIENTO**
 - **Especificaciones técnicas:** Completas y detalladas
 - **Arquitectura del sistema:** Bien definida
-- **Referencias normativas:** EN 50126/50128/50129 aplicadas
+- **Referencias normativas:** Seguridad RAMS bajo FRA 236 Subpart I / PTCSP/50128/50129 aplicadas
 - **Componentes principales:** Especificados
 
 ---

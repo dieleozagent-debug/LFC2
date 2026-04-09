@@ -17,9 +17,9 @@
 
 ### 1.2 Normativas Internacionales
 - **FRA/AREMA 651:** Material rodante ferroviario
-- **EN 50126:** Aplicación de técnicas de confiabilidad
-- **EN 50716:2023:** Software para sistemas de control ferroviario
-- **EN 50129:** Aplicación de técnicas de seguridad
+- **Seguridad RAMS bajo FRA 236 Subpart I / PTCSP:** Aplicación de técnicas de confiabilidad
+- **Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP):2023:** Software para sistemas de control ferroviario
+- **Seguridad Electrónica Vital bajo FRA/PTC (§236.1015):** Aplicación de técnicas de seguridad
 
 ---
 
@@ -28,25 +28,25 @@
 | Normativa | Aplicabilidad | Cumplimiento | Responsable | Observaciones |
 |:----------|:-------------:|:------------:|:------------|:-------------|
 | **FRA/AREMA 651** | 100% | ✅ Completo | EPC Mecánica | Material rodante |
-| **EN 50126** | 100% | ✅ Completo | EPC Mecánica | Confiabilidad |
-| **EN 50716:2023** | 95% | ✅ Completo | EPC Mecánica | Software embarcado |
-| **EN 50129** | 95% | ✅ Completo | EPC Mecánica | Seguridad funcional |
+| **Seguridad RAMS bajo FRA 236 Subpart I / PTCSP** | 100% | ✅ Completo | EPC Mecánica | Confiabilidad |
+| **Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP):2023** | 95% | ✅ Completo | EPC Mecánica | Software embarcado |
+| **Seguridad Electrónica Vital bajo FRA/PTC (§236.1015)** | 95% | ✅ Completo | EPC Mecánica | Seguridad funcional |
 
 ---
 
 ## 3. ESPECIFICACIONES TÉCNICAS
 
 ### 3.1 Material Rodante
-- **Locomotoras:** FRA/AREMA 651 + EN 50126
-- **Vagones:** FRA/AREMA 651 + EN 50126
-- **Sistemas embarcados:** EN 50716:2023 + EN 50129
-- **Frenos:** FRA/AREMA 651 + EN 50126
+- **Locomotoras:** FRA/AREMA 651 + Seguridad RAMS bajo FRA 236 Subpart I / PTCSP
+- **Vagones:** FRA/AREMA 651 + Seguridad RAMS bajo FRA 236 Subpart I / PTCSP
+- **Sistemas embarcados:** Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP):2023 + Seguridad Electrónica Vital bajo FRA/PTC (§236.1015)
+- **Frenos:** FRA/AREMA 651 + Seguridad RAMS bajo FRA 236 Subpart I / PTCSP
 
 ### 3.2 Sistemas Embarcados
-- **PTC:** EN 50126 + EN 50716:2023 + EN 50129
-- **EOT:** EN 50126 + EN 50129
-- **Comunicaciones:** EN 50126 + EN 50716:2023
-- **Interfaces:** EN 50126 + EN 50129
+- **PTC:** Seguridad RAMS bajo FRA 236 Subpart I / PTCSP + Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP):2023 + Seguridad Electrónica Vital bajo FRA/PTC (§236.1015)
+- **EOT:** Seguridad RAMS bajo FRA 236 Subpart I / PTCSP + Seguridad Electrónica Vital bajo FRA/PTC (§236.1015)
+- **Comunicaciones:** Seguridad RAMS bajo FRA 236 Subpart I / PTCSP + Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP):2023
+- **Interfaces:** Seguridad RAMS bajo FRA 236 Subpart I / PTCSP + Seguridad Electrónica Vital bajo FRA/PTC (§236.1015)
 
 ---
 
@@ -60,7 +60,7 @@
 
 ### 4.2 Certificaciones
 - **Material rodante:** Certificado FRA/AREMA 651
-- **Sistemas embarcados:** Certificado EN 50126
+- **Sistemas embarcados:** Certificado Seguridad RAMS bajo FRA 236 Subpart I / PTCSP
 - **Frenos:** Certificado de rendimiento
 - **Interfaces:** Certificado de conectividad
 

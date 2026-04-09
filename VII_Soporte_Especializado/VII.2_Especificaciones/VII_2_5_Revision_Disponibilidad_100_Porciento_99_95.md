@@ -4,7 +4,7 @@
 **Estado:** ✅ **SANEADO (MÉTODO KARPATHY)**  
 **Fecha:** 13 de marzo de 2026  
 **Responsable:** Administrador Contractual EPC  
-**Estándar Base:** EN 50126 / DBCD_CRITERIA.md (Regla 11)
+**Estándar Base:** Seguridad RAMS bajo FRA 236 Subpart I / PTCSP / DBCD_CRITERIA.md (Regla 11)
 
 ---
 

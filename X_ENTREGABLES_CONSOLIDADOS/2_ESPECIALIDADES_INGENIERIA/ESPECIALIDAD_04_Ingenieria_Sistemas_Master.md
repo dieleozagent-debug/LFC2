@@ -105,7 +105,7 @@
 
 #### **Estándares de Diseno:**
 - **FRA/AREMA:** Estándares internacionales para sistemas ferroviarios
-- **EN 50126/50128/50129:** Sistemas ferroviarios de seguridad
+- **Seguridad RAMS bajo FRA 236 Subpart I / PTCSP/50128/50129:** Sistemas ferroviarios de seguridad
 - **IEC 61850:** Comunicación en subestaciones
 - **IEEE 1547:** Interconexión de sistemas distribuidos
 - **RETIE:** Reglamento Técnico de Instalaciones Eléctricas
@@ -455,7 +455,7 @@
 | Normativa | Aplicabilidad | Cumplimiento | Responsable | Observaciones |
 |:----------|:-------------:|:------------:|:------------|:-------------|
 | **FRA/AREMA** | 100% | ✅ Completo | EPC Sistemas | Estándares internacionales |
-| **EN 50126/50128/50129** | 100% | ✅ Completo | EPC Sistemas | Sistemas ferroviarios |
+| **Seguridad RAMS bajo FRA 236 Subpart I / PTCSP/50128/50129** | 100% | ✅ Completo | EPC Sistemas | Sistemas ferroviarios |
 | **IEC 61850** | 90% | ✅ Completo | EPC Sistemas | Comunicaciones |
 | **IEEE 1547** | 85% | ✅ Completo | EPC Sistemas | Sistemas distribuidos |
 

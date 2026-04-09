@@ -115,7 +115,7 @@ Después de una **verificación exhaustiva** y **corrección de discrepancias** 
 
 ### **CRITERIOS DE ÉXITO:**
 - **Disponibilidad:** 99.95% para sistemas críticos
-- **Seguridad:** SIL 3-4 según normativa EN 50126/50128/50129
+- **Seguridad:** SIL 3-4 según normativa Seguridad RAMS bajo FRA 236 Subpart I / PTCSP/50128/50129
 - **Interoperabilidad:** Compatible con FENOCO
 - **Mantenibilidad:** Procedimientos documentados (VI)
 - **Trazabilidad:** Documentación completa

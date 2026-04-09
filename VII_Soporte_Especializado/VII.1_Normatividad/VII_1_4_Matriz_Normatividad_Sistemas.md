@@ -16,9 +16,9 @@
 - **Ley 1581 de 2012:** Protección de datos personales
 
 ### 1.2 Normativas Internacionales
-- **EN 50126:** Aplicación de técnicas de confiabilidad
-- **EN 50716:2023:** Software para sistemas de control ferroviario
-- **EN 50129:** Aplicación de técnicas de seguridad
+- **Seguridad RAMS bajo FRA 236 Subpart I / PTCSP:** Aplicación de técnicas de confiabilidad
+- **Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP):2023:** Software para sistemas de control ferroviario
+- **Seguridad Electrónica Vital bajo FRA/PTC (§236.1015):** Aplicación de técnicas de seguridad
 - **IEC 62443:** Ciberseguridad en sistemas industriales
 
 ---
@@ -27,9 +27,9 @@
 
 | Normativa | Aplicabilidad | Cumplimiento | Responsable | Observaciones |
 |:----------|:-------------:|:------------:|:------------|:-------------|
-| **EN 50126** | 100% | ✅ Completo | EPC Sistemas | Confiabilidad |
-| **EN 50716:2023** | 100% | ✅ Completo | EPC Sistemas | Software ferroviario |
-| **EN 50129** | 100% | ✅ Completo | EPC Sistemas | Seguridad funcional |
+| **Seguridad RAMS bajo FRA 236 Subpart I / PTCSP** | 100% | ✅ Completo | EPC Sistemas | Confiabilidad |
+| **Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP):2023** | 100% | ✅ Completo | EPC Sistemas | Software ferroviario |
+| **Seguridad Electrónica Vital bajo FRA/PTC (§236.1015)** | 100% | ✅ Completo | EPC Sistemas | Seguridad funcional |
 | **IEC 62443** | 90% | ✅ Completo | EPC Sistemas | Ciberseguridad |
 
 ---
@@ -37,15 +37,15 @@
 ## 3. ESPECIFICACIONES TÉCNICAS
 
 ### 3.1 Sistemas de Control
-- **CTC:** EN 50126 + EN 50716:2023 + EN 50129
-- **PTC:** EN 50126 + EN 50716:2023 + EN 50129
-- **ENCE:** EN 50126 + EN 50129
-- **Desvíos:** EN 50126 + EN 50129
+- **CTC:** Seguridad RAMS bajo FRA 236 Subpart I / PTCSP + Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP):2023 + Seguridad Electrónica Vital bajo FRA/PTC (§236.1015)
+- **PTC:** Seguridad RAMS bajo FRA 236 Subpart I / PTCSP + Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP):2023 + Seguridad Electrónica Vital bajo FRA/PTC (§236.1015)
+- **ENCE:** Seguridad RAMS bajo FRA 236 Subpart I / PTCSP + Seguridad Electrónica Vital bajo FRA/PTC (§236.1015)
+- **Desvíos:** Seguridad RAMS bajo FRA 236 Subpart I / PTCSP + Seguridad Electrónica Vital bajo FRA/PTC (§236.1015)
 
 ### 3.2 Comunicaciones
-- **TETRA:** EN 50126 + EN 50716:2023
-- **Red Vital IP / TETRA:** EN 50126 + EN 50716:2023
-- **Fibra óptica:** EN 50126 + EN 50716:2023
+- **TETRA:** Seguridad RAMS bajo FRA 236 Subpart I / PTCSP + Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP):2023
+- **Red Vital IP / TETRA:** Seguridad RAMS bajo FRA 236 Subpart I / PTCSP + Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP):2023
+- **Fibra óptica:** Seguridad RAMS bajo FRA 236 Subpart I / PTCSP + Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP):2023
 - **Ciberseguridad:** IEC 62443
 
 ---
@@ -59,9 +59,9 @@
 - **Ciberseguridad:** Auditorías de seguridad
 
 ### 4.2 Certificaciones
-- **Sistemas de control:** Certificado EN 50126
-- **Software:** Certificado EN 50716:2023
-- **Seguridad:** Certificado EN 50129
+- **Sistemas de control:** Certificado Seguridad RAMS bajo FRA 236 Subpart I / PTCSP
+- **Software:** Certificado Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP):2023
+- **Seguridad:** Certificado Seguridad Electrónica Vital bajo FRA/PTC (§236.1015)
 - **Ciberseguridad:** Certificado IEC 62443
 
 ---
@@ -69,7 +69,7 @@
 ## 5. ENTREGABLES
 
 ### 5.1 Documentación
-- **Planos de sistemas:** Según EN 50126
+- **Planos de sistemas:** Según Seguridad RAMS bajo FRA 236 Subpart I / PTCSP
 - **Especificaciones técnicas:** EN + IEC
 - **Memorias de cálculo:** De confiabilidad y seguridad
 - **Certificados:** De cumplimiento normativo

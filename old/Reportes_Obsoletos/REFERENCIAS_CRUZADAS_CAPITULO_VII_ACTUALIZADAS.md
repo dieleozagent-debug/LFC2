@@ -33,9 +33,9 @@
 - **29.1:** Sistema Senalización → Interfaces
 
 #### **Referencias Normativas:**
-- **EN 50126:** Aplicación técnicas confiabilidad
-- **EN 50716:2023:** Software sistemas control ferroviario
-- **EN 50129:** Aplicación técnicas seguridad
+- **Seguridad RAMS bajo FRA 236 Subpart I / PTCSP:** Aplicación técnicas confiabilidad
+- **Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP):2023:** Software sistemas control ferroviario
+- **Seguridad Electrónica Vital bajo FRA/PTC (§236.1015):** Aplicación técnicas seguridad
 - **FRA/AREMA 438:** Especificaciones PTC Virtual (FRA 236)
 
 ---
@@ -52,7 +52,7 @@
 - **V.4.1:** Sistemas Ferroviarios → Integración
 
 #### **Referencias Normativas:**
-- **EN 50129:** Técnicas seguridad
+- **Seguridad Electrónica Vital bajo FRA/PTC (§236.1015):** Técnicas seguridad
 - **IEC 61508:** Seguridad funcional
 - **FRA/AREMA 950:** Interfaces
 
@@ -106,7 +106,7 @@
 - **36.2:** Metodología Supuestos → Gestión
 
 #### **Referencias Normativas:**
-- **EN 50126:** RAMS
+- **Seguridad RAMS bajo FRA 236 Subpart I / PTCSP:** RAMS
 - **IEC 61508:** Seguridad funcional
 
 ---
@@ -123,8 +123,8 @@
 - **VII.2.1:** SRS PTC → Interfaces
 
 #### **Referencias Normativas:**
-- **EN 50126:** Confiabilidad
-- **EN 50129:** Seguridad
+- **Seguridad RAMS bajo FRA 236 Subpart I / PTCSP:** Confiabilidad
+- **Seguridad Electrónica Vital bajo FRA/PTC (§236.1015):** Seguridad
 - **FRA/AREMA 438:** PTC VIRTUAL
 
 ---
@@ -141,7 +141,7 @@
 - **25.3:** WBS Mecánica → Planificación
 
 #### **Referencias Normativas:**
-- **EN 50126/50128/50129:** Estándares ferroviarios
+- **Seguridad RAMS bajo FRA 236 Subpart I / PTCSP/50128/50129:** Estándares ferroviarios
 - **FRA/AREMA 438:** PTC Virtual (FRA 236)
 
 ---
@@ -158,7 +158,7 @@
 - **V.4.1:** Sistemas Ferroviarios → Integración
 
 #### **Referencias Normativas:**
-- **EN 50126/50128/50129:** Estándares ferroviarios
+- **Seguridad RAMS bajo FRA 236 Subpart I / PTCSP/50128/50129:** Estándares ferroviarios
 - **CENELEC EN 50159:** Comunicación segura
 
 ---
@@ -175,9 +175,9 @@
 - **36.2:** Metodología Supuestos → Gestión
 
 #### **Referencias Normativas:**
-- **EN 50126:** RAMS ferroviarios
-- **EN 50716:2023:** Software
-- **EN 50129:** Seguridad
+- **Seguridad RAMS bajo FRA 236 Subpart I / PTCSP:** RAMS ferroviarios
+- **Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP):2023:** Software
+- **Seguridad Electrónica Vital bajo FRA/PTC (§236.1015):** Seguridad
 - **IEC 61508:** Seguridad funcional
 
 ---
@@ -194,7 +194,7 @@
 - **42.1:** Plan Pruebas → Base
 
 #### **Referencias Normativas:**
-- **EN 50126/50128/50129:** Estándares ferroviarios
+- **Seguridad RAMS bajo FRA 236 Subpart I / PTCSP/50128/50129:** Estándares ferroviarios
 - **IEEE 1012:** V&V software
 
 ---
@@ -225,7 +225,7 @@
 |:---|:---:|:---|
 | **Contractuales** | 25+ | AT3, AT4, AT5, Cl. 8.2, Cl. 13.1 |
 | **Técnicas** | 75+ | V.4.1, 26.1, 29.1, 25.1, 36.2 |
-| **Normativas** | 50+ | EN 50126/50128/50129, FRA/AREMA 438/950, IEC 62443 |
+| **Normativas** | 50+ | Seguridad RAMS bajo FRA 236 Subpart I / PTCSP/50128/50129, FRA/AREMA 438/950, IEC 62443 |
 
 ### **Referencias por Especialidad:**
 

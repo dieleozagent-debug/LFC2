@@ -309,7 +309,7 @@ Este documento especifica los requerimientos eléctricos del Centro de Control d
 | **Capacidad Total Propuesta** | **100 kW** (Optimización CAPEX v7.1) |
 
 > [!NOTE]
-> **Estatus de Parámetros:** Los valores de potencia y autonomía aquí expresados son **Criterios de Diseño Propuestos (DBCD V002)** sujetos a optimización. La única obligación contractual inamovible (FRA §236.551) es la estabilidad de voltaje (±10%).
+> **Estatus de Parámetros:** Los valores de potencia y autonomía aquí expresados son **Criterios de Diseno Propuestos (DBCD V002)** sujetos a optimización. La única obligación contractual inamovible (FRA §236.551) es la estabilidad de voltaje (±10%).
 
 ### **7.2 Cargas Críticas (Actualizadas según Criterios Maestros)**
 

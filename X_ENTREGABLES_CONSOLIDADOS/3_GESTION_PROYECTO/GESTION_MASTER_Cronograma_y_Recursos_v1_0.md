@@ -216,7 +216,7 @@
 | Competencia | Nivel | Certificación | Vigencia |
 |:------------|:------|:--------------|:---------|
 | **Gestión de Proyectos** | Avanzado | PMP, PMI | 3 anos |
-| **Sistemas Ferroviarios** | Experto | FRA/AREMA, EN 50126 | 2 anos |
+| **Sistemas Ferroviarios** | Experto | FRA/AREMA, Seguridad RAMS bajo FRA 236 Subpart I / PTCSP | 2 anos |
 | **Telecomunicaciones** | Experto | TETRA, Red Vital IP / TETRA | 2 anos |
 | **Control y Senalización** | Experto | PTC Virtual (FRA 236) | 2 anos |
 | **Material Rodante** | Experto | FRA/AREMA, AAR | 2 anos |
@@ -345,7 +345,7 @@
 | Estándar | Aplicabilidad | Cumplimiento | Responsable |
 |:---------|:-------------:|:------------:|:------------|
 | **ISO 9001** | 100% | ✅ Completo | EPC Calidad |
-| **EN 50126** | 100% | ✅ Completo | EPC Sistemas |
+| **Seguridad RAMS bajo FRA 236 Subpart I / PTCSP** | 100% | ✅ Completo | EPC Sistemas |
 | **FRA/AREMA** | 100% | ✅ Completo | EPC Sistemas |
 | **RETIE** | 100% | ✅ Completo | EPC Eléctrico |
 

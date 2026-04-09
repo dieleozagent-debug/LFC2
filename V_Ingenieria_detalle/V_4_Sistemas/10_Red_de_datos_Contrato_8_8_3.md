@@ -35,7 +35,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 - **Seguridad:** Firewalls, VPN y sistemas de ciberseguridad integrados
 
 #### **ESPECIFICACIONES TÉCNICAS**
-- **Tecnología:** Ethernet Gigabit/10 Gigabit con protocolos estándar IEEE 802.3
+- **Tecnología:** Ethernet Gigabit/10 Gigabit con protocolos estándar Catálogo IEEE Industrial (802.3z/u/an/af | 802.1q/p/d/w/x)
 - **Switches:** Equipos de conmutación de alta disponibilidad con redundancia
 - **Servidores:** Servidores de aplicación y base de datos con clustering
 - **Disponibilidad:** ≥ 99.9% para sistemas críticos según AT4
@@ -123,7 +123,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
 - **NSR-10:** Norma Sismorresistente
 - **AREMA:** American Railway Engineering and Maintenance-of-Way Association
 - **FRA/AREMA:** Union Internationale des Chemins de fer
-- **IEEE 802.3:** Estándares de Ethernet
+- **Catálogo IEEE Industrial (802.3z/u/an/af | 802.1q/p/d/w/x):** Estándares de Ethernet
 
 ### 1.3 Indicadores de Cumplimiento
 - **Disponibilidad del sistema:** 99.9% para sistemas críticos

@@ -81,7 +81,7 @@ Como **Especialista Senior en Control de Trenes** con experiencia en proyectos f
 #### **📈 RECOMENDACIONES CORRECTIVAS:**
 
 ##### **Acción Inmediata (1-2 semanas):** 🔄 **EN PROGRESO**
-1. **Desarrollar SRS Provisional** basado en EN 50126/50128/50129 ✅ **INICIADO**
+1. **Desarrollar SRS Provisional** basado en Seguridad RAMS bajo FRA 236 Subpart I / PTCSP/50128/50129 ✅ **INICIADO**
 2. **Especificar arquitectura Servidor PTC Central** con redundancia 2oo3 ✅ **INICIADO**
 3. **Definir plan de Punto de Referencia Virtual (SICC)** (ubicación cada 150m en aproximaciones) ✅ **INICIADO**
 4. **Establecer interfaces CTC-PTC** usando protocolo FFFIS ✅ **INICIADO**

@@ -38,7 +38,7 @@ La Ingeniería Básica se fundamenta en la arquitectura **Zero-Wayside** y el co
 ---
 
 ## 🔍 CONCLUSIONES DE SANEAMIENTO
-- ❌ **ELIMINADO:** El sobrediseño físico de "Digital Gateway" (Obra Complementaria Sec 25.4).
+- ❌ **ELIMINADO:** El sobrediseno físico de "Digital Gateway" (Obra Complementaria Sec 25.4).
 - ❌ **ELIMINADO:** Disenos que requerían senalización física redundante.
 - ✅ **RESTAURADO:** El diseno básico alineado con la **Soberanía Digital**.
 

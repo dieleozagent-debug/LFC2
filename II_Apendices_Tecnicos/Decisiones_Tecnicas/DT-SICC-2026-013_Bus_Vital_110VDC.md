@@ -5,7 +5,7 @@
 dt_metadata:
   id: "DT-SICC-2026-013"
   fecha: "2026-04-09"
-  especialidad: "Electrica / Señalización"
+  especialidad: "Electrica / Senalización"
   estado: "aprobado"
   prioridad: "Crítica (Ahorro CAPEX)"
   impacto_capex: "Reducción por optimización de autonomía (8h vs 12h)"
@@ -13,7 +13,7 @@ dt_metadata:
 normativa_aplicable:
   - FRA_49_CFR_236.551: "Estabilidad de voltaje ±10%"
   - AREMA_C&S_Manual: "Referencia para 110V DC en enclavamientos"
-  - DBCD_V002: "Criterio de Diseño Propuesto"
+  - DBCD_V002: "Criterio de Diseno Propuesto"
 ```
 
 ## 1. Justificación Técnica (Recalibración de Sanidad)
@@ -21,10 +21,10 @@ Se formaliza la segregación de cargas eléctricas para proteger la integridad f
 
 Asimismo, se recalibra el criterio de autonomía para evitar un sobredimensionamiento catastrófico (CAPEX Trap). La autonomía se define como un **Criterio Propuesto**, no un mandato inamovible, permitiendo optimizaciones basadas en la criticidad del nodo.
 
-## 2. Parámetros de Diseño (SICC v7.1)
+## 2. Parámetros de Diseno (SICC v7.1)
 | Parámetro | Valor Propuesto | Base de Referencia |
 |:---|:---|:---|
-| **Carga por Nodo (Señalización)** | **5 - 10 kW** | DBCD V002 |
+| **Carga por Nodo (Senalización)** | **5 - 10 kW** | DBCD V002 |
 | **Carga por Nodo (Telecom)** | **2 - 5 kW** | DBCD V002 |
 | **Tensión Vital** | **110V DC** | FRA / AREMA |
 | **Tensión Telecom** | **48V DC** | ETSI / DBCD |

@@ -108,7 +108,7 @@
 - **IEC 61850:** Comunicación en subestaciones
 - **IEEE 1547:** Interconexión de sistemas distribuidos
 - **NTC 2050:** Código Nacional de Electricidad
-- **EN 50126/50128/50129:** Sistemas ferroviarios
+- **Seguridad RAMS bajo FRA 236 Subpart I / PTCSP/50128/50129:** Sistemas ferroviarios
 
 ---
 
