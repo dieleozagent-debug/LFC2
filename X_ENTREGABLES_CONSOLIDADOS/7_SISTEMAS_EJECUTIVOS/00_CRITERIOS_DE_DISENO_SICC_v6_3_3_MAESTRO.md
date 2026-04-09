@@ -64,7 +64,7 @@ El presente documento se interpreta y aplica en concordancia con el Contrato de 
 - **PTC Virtual (SICC)/PTC Virtual (SICC) y radio ferroviaria** — ERA CCS TSI; UIC/ETSI (Referencias de interoperabilidad).
 - **ETSI EN 300 392 (Serie)** — TETRA V+D / Seguridad / PEI / Ensayos.
 - **ITU-T G.652.D / G.652.D** — Especificaciones de Fibra Óptica (Soberanía de Backbone).
-- **Telcordia GR-20-CORE / ANSI/ICEA S-87-640** — Cables de fibra óptica planta externa.
+- **Estándar ITU-T G.652 (Blindaje AT3) / Estándar ITU-T G.652 (Blindaje AT3)** — Cables de fibra óptica planta externa.
 - **Estándar SICC (FRA/AREMA) NAT5 405-2 / NAT 716 / ET 03.366 (Series)** — Guías de buenas prácticas (Armonizadas con regulación MinTIC/CRC/ANE).
 
 #### **D. Normativa Nacional (Colombia)**

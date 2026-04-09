@@ -33,7 +33,8 @@ const LFC_DBCI = {
     LEGACY_BLACKLIST: [
         "Stop & Switch", "Stop and Switch", "ADIF", "EULYNX", "GSM-R", "EUROBALISE", "EUROBALIZAS",
         "RBC", "Radio Block Centre", "ERTMS", "ETCS", "ASFA", "UNISIG", "UIC TSI",
-        "Contadores de ejes", "Circuitos de via", "SICC Legacy", "Manual de Frontera"
+        "Contadores de ejes", "Circuitos de via", "SICC Legacy", "Manual de Frontera",
+        "ANSI/ICEA S-87-640", "Telcordia GR-20-CORE"
     ],
 
     // MAPEO DE CORRECCIÓN DETERMINISTA (Manual del Chef - Purity by Design)
@@ -60,7 +61,11 @@ const LFC_DBCI = {
         "Contadores de ejes": "Posicionamiento GNSS/EOT Vital (Sovereign)",
         "Circuitos de via": "Bloque Virtual Dinámico",
         "Circuitos de vía": "Bloque Virtual Dinámico",
-        "Sistemas Propietarios": "Ecosistema Digital Abierto"
+        "Sistemas Propietarios": "Ecosistema Digital Abierto",
+        
+        // Purga de Normas No Contractuales (Axioma 23)
+        "ANSI/ICEA S-87-640": "Estándar ITU-T G.652 (Blindaje AT3)",
+        "Telcordia GR-20-CORE": "Estándar ITU-T G.652 (Blindaje AT3)"
     },
 
     FINANCIAL: {
