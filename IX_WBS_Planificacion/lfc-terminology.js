@@ -34,7 +34,7 @@ const LFC_DBCI = {
         "Stop & Switch", "Stop and Switch", "ADIF", "EULYNX", "GSM-R", "EUROBALISE", "EUROBALIZAS",
         "RBC", "Radio Block Centre", "ERTMS", "ETCS", "ASFA", "UNISIG", "UIC TSI",
         "Contadores de ejes", "Circuitos de via", "SICC Legacy", "Manual de Frontera",
-        "ANSI/ICEA S-87-640", "Telcordia GR-20-CORE"
+        "ANSI/ICEA S-87-640", "Telcordia GR-20-CORE", "IEC 60794", "IEC-60794"
     ],
 
     // MAPEO DE CORRECCIÓN DETERMINISTA (Manual del Chef - Purity by Design)
@@ -65,7 +65,9 @@ const LFC_DBCI = {
         
         // Purga de Normas No Contractuales (Axioma 23)
         "ANSI/ICEA S-87-640": "Estándar ITU-T G.652 (Blindaje AT3)",
-        "Telcordia GR-20-CORE": "Estándar ITU-T G.652 (Blindaje AT3)"
+        "Telcordia GR-20-CORE": "Estándar ITU-T G.652 (Blindaje AT3)",
+        "IEC 60794": "ITU-T G.652.D (Soberanía AT3)",
+        "IEC-60794": "ITU-T G.652.D (Soberanía AT3)"
     },
 
     FINANCIAL: {

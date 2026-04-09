@@ -592,7 +592,7 @@ Libertad y Orden # REPÚBLICA DE COLOMBIA MINISTERIO DE TRANSPORTE
 ##
 
 ## 
-8.6 Fibra óptica i. UIT7-T G.652 "Standard for non-dispersion shifted single-mode fiber"; ⁴ NAPN: Normas Estándar SICC (FRA/AREMA) Pasos a Nivel 5 NAT: Norma AdifTelecomunicaciones ⁶ EN: Norma Europea 7 UIT- Unión Internacional de Telecomunicaciones Página 42 de 45 ii. UIT-T G.652.D "Standard for non-zero dispersion-shifted single-mode optical fiber"; ANSIICEA S-87-640 "Standard for Optical Fiber Outside Plant Communications Cable"; iii. Telcordia GR-20 CORE Issue 2 "Generic Requirements for Optical Fiber and Optical Fiber Cable". ANSITIAEIA 598-D "Optical Fiber Cable Color Coding"; 1v. IEC-60794-1 11 Standard I fibre optics I Optical fiber cables". 
+8.6 Fibra óptica i. UIT7-T G.652 "Standard for non-dispersion shifted single-mode fiber"; ⁴ NAPN: Normas Estándar SICC (FRA/AREMA) Pasos a Nivel 5 NAT: Norma AdifTelecomunicaciones ⁶ EN: Norma Europea 7 UIT- Unión Internacional de Telecomunicaciones Página 42 de 45 ii. UIT-T G.652.D "Standard for non-zero dispersion-shifted single-mode optical fiber"; ANSIICEA S-87-640 "Standard for Optical Fiber Outside Plant Communications Cable"; iii. Telcordia GR-20 CORE Issue 2 "Generic Requirements for Optical Fiber and Optical Fiber Cable". ANSITIAEIA 598-D "Optical Fiber Cable Color Coding"; 1v. ITU-T G.652.D (Soberanía AT3)-1 11 Standard I fibre optics I Optical fiber cables". 
 
 ##
 
