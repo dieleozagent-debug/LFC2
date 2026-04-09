@@ -510,6 +510,14 @@ function serveFile(fullPath, outHtmlDir, outWordDir) {
         
         execSync(command);
         postProcessHtml(path.join(outHtmlDir, baseName + '.html'), baseName);
+
+        // SIT PROTOCOL: Mirroring para evitar 404 (SICC v7.0)
+        if (fullPath.includes('X_ENTREGABLES_CONSOLIDADOS')) {
+            const localHtmlPath = fullPath.replace('.md', '.html');
+            fs.copyFileSync(path.join(outHtmlDir, baseName + '.html'), localHtmlPath);
+            log(`    🪞 Espejo generado localmente: ${path.basename(localHtmlPath)}`, colors.magenta);
+        }
+
         log(`  💎 HTML Premium generado exitosamente`, colors.green);
     } catch (e) {
         log(`  ⚠️ FALLO PANDOC: ${e.message}`, colors.red);
