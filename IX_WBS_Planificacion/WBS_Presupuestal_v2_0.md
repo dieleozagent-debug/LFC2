@@ -27,7 +27,7 @@
 | **1.1.100** | Servidores CTC principales | 2 | $180,000,000 | $360,000,000 |
 | **1.1.101** | Servidores CTC respaldo | 2 | $180,000,000 | $360,000,000 |
 | **1.1.102** | Workstations operadores | 8 | $45,000,000 | $360,000,000 |
-| **1.1.103** | Software CTC virtual + Autorizaciones PTC + Interoperabilidad FENOCO | 1 | $88,112,090,432 | $88,112,090,432 |
+| **1.1.103** | Software CTC virtual + Autorizaciones PTC (Interoperabilidad Procedimental) | 1 | $88,112,090,432 | $88,112,090,432 |
 | **1.1.104** | Base de datos centralizada | 1 | $200,000,000 | $200,000,000 |
 | **1.1.105** | Sistema redundancia | 1 | $300,000,000 | $300,000,000 |
 | **1.1.106** | Interfaces comunicación | 1 | $150,000,000 | $150,000,000 |
