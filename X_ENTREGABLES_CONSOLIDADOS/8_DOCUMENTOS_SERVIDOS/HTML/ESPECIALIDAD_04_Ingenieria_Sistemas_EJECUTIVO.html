@@ -142,20 +142,35 @@ EJECUTIVO - LFC STUDIO</title>
             #lfc-sidebar-container { display: none; }
         }
     </style>
-</head>
+
+            <style id="masterchef-style">
+                :root { --accent: #0ea5e9; --primary: #0f172a; --glass-bg: rgba(255,255,255,0.98); }
+                body { font-family: 'Inter', sans-serif !important; background: #f8fafc; color: #1e293b; }
+                .table-l3-premium { width: 100%; border-collapse: collapse; margin: 1.5rem 0; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.03); background: #fff; }
+                .table-l3-premium th { background: #f1f5f9; padding: 14px; text-align: left; font-size: 0.85rem; color: #475569; text-transform: uppercase; font-weight: 700; border-bottom: 2px solid #e2e8f0; }
+                .table-l3-premium td { padding: 14px; border-bottom: 1px solid #f1f5f9; font-size: 0.95rem; color: #334155; }
+                .btn-l4 { background: var(--accent); color: white; border: none; padding: 8px 16px; border-radius: 8px; cursor: pointer; font-weight: 700; transition: all 0.2s; box-shadow: 0 2px 4px rgba(14, 165, 233, 0.2); }
+                .btn-l4:hover { transform: translateY(-1px); box-shadow: 0 4px 8px rgba(14, 165, 233, 0.3); }
+                .btn-excel { background: #10b981; box-shadow: 0 2px 4px rgba(16, 185, 129, 0.2); }
+                header, .premium-card { background: #fff; border: 1px solid #e2e8f0; box-shadow: 0 10px 30px rgba(0,0,0,0.04); }
+            </style></head>
 <body>
     <div id="lfc-sidebar-container"></div>
     <div class="main-content-wrapper">
         <header class="premium-card">
             <div class="premium-header-content" style="text-align: center;">
                 <h1 id="adn-page-title" class="premium-title">ESPECIALIDAD
-04 Ingenieria Sistemas EJECUTIVO</h1>
+04 Ingenieria Sistemas EJECUTIVO <span style="background: linear-gradient(135deg, #f59e0b, #d97706); color: #000; padding: 4px 12px; border-radius: 6px; font-size: 0.85rem; margin-left: 12px; vertical-align: middle; font-weight: 900; border: 1px solid rgba(0,0,0,0.2); box-shadow: 0 4px 10px rgba(245, 158, 11, 0.3);">🛡️ SICC v7.0 MICHELIN: 1 DT ACTIVA</span></h1>
                 <p id="main-dns-subtitle" style="font-weight: 500; color: var(--text-dim); margin: 0;">REPORTE EJECUTIVO SICC | VERSIÓN DINÁMICA</p>
                 <div class="adn-version-tag-wrapper" style="margin-top: 10px;">
                     <span style="background: var(--primary); color: #fff; padding: 3px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.5px;">v<span id="adn-version-tag">6.3.3</span></span>
                 </div>
             </div>
-        </header>
+         
+            <div class="l4-audit-toolbar" style="margin: 1rem 0; display: flex; gap: 10px;">
+                <button class="btn-l4" onclick="window.print()">🖨️ PDF Audit</button>
+                <button class="btn-l4 btn-excel" onclick="location.href='/IX_WBS_Planificacion/datos_wbs_TODOS_items.json'">📊 WBS Data</button>
+            </div> </header>
 
         <nav id="TOC">
             <h3>📍 ÍNDICE DE CONTENIDO</h3>
@@ -209,9 +224,6 @@ EJECUTIVO - LFC STUDIO</title>
             <ul>
             <li><a href="#sistema-de-integración"
             id="toc-sistema-de-integración">1. Sistema de
-            Integración</a></li>
-            <li><a href="#gateway-de-integración"
-            id="toc-gateway-de-integración">2. Gateway de
             Integración</a></li>
             </ul></li>
             <li><a href="#especificaciones-técnicas-clave"
@@ -341,10 +353,10 @@ EJECUTIVO - LFC STUDIO</title>
             <li><strong>6 sistemas técnicos integrados:</strong>
             Control, Telecomunicaciones, ITS, Seguridad, Material
             Rodante, Infraestructura</li>
-            <li><strong>25 interfaces críticas:</strong> Comunicación
+            <li><strong>12 APIs:</strong> Comunicación con sistemas
+            externos</li>
+            <li><strong>22 interfaces críticas:</strong> Comunicación
             entre sistemas</li>
-            <li><strong>15 protocolos:</strong> Estándares de
-            interoperabilidad</li>
             <li><strong>12 APIs:</strong> Comunicación con sistemas
             externos</li>
             <li><strong>99.95% disponibilidad:</strong> Sistemas
@@ -377,8 +389,8 @@ EJECUTIVO - LFC STUDIO</title>
             monitoreo y control - <strong>Material Rodante-PTC:</strong>
             4 interfaces para control embarcado -
             <strong>Infraestructura:</strong> 6 interfaces para
-            coordinación - <strong>FENOCO:</strong> 3 interfaces para
-            interoperabilidad nacional</p>
+            coordinación - <strong>FENOCO:</strong> Procedimiento
+            operacional a bordo</p>
             <h3 id="por-qué-15-protocolos-de-interoperabilidad">¿Por qué
             15 protocolos de interoperabilidad?</h3>
             <p><strong>Justificación de Protocolos:</strong> -
@@ -431,23 +443,12 @@ EJECUTIVO - LFC STUDIO</title>
             12 externas | Comunicación con FENOCO | |
             <strong>Disponibilidad</strong> | 99.95% | Sistemas críticos
             |</p>
-            <h3 id="gateway-de-integración">2. Gateway de
-            Integración</h3>
-            <p><strong>Propósito:</strong> Conversión de protocolos
-            entre sistemas</p>
-            <p><strong>Componentes instalados:</strong> | Componente |
-            Cantidad | Función | Estado | |:———–|:———|:——–|:——-| |
-            <strong>Gateway FRA/AREMA</strong> | 1 unidad | Conversión
-            protocolos | ⏳ En desarrollo | | <strong>Sistema de
-            monitoreo</strong> | 1 unidad | Supervisión integrada | ⏳
-            En desarrollo | | <strong>Sistema de control</strong> | 1
-            unidad | Coordinación centralizada | ⏳ En desarrollo |</p>
             <hr />
             <h2 id="especificaciones-técnicas-clave">📐 ESPECIFICACIONES
             TÉCNICAS CLAVE</h2>
             <h3 id="tabla-consolidada-de-especificaciones">Tabla
             consolidada de especificaciones</h3>
-            <table>
+            <table class="table-l3-premium">
             <thead>
             <tr class="header">
             <th style="text-align: left;">Parámetro</th>
@@ -457,26 +458,21 @@ EJECUTIVO - LFC STUDIO</title>
             </thead>
             <tbody>
             <tr class="odd">
-            <td style="text-align: left;">Interfaces críticas</td>
-            <td style="text-align: left;">25</td>
-            <td style="text-align: left;">Especificaciones proyecto</td>
-            </tr>
-            <tr class="even">
             <td style="text-align: left;">Protocolos</td>
-            <td style="text-align: left;">15</td>
+            <td style="text-align: left;">12</td>
             <td style="text-align: left;">FRA/AREMA + FFFIS</td>
             </tr>
-            <tr class="odd">
+            <tr class="even">
             <td style="text-align: left;">APIs externas</td>
             <td style="text-align: left;">12</td>
             <td style="text-align: left;">Especificaciones proyecto</td>
             </tr>
-            <tr class="even">
+            <tr class="odd">
             <td style="text-align: left;">Disponibilidad</td>
             <td style="text-align: left;">99.95%</td>
             <td style="text-align: left;">AT4</td>
             </tr>
-            <tr class="odd">
+            <tr class="even">
             <td style="text-align: left;">Tiempo de respuesta</td>
             <td style="text-align: left;">&lt; 2 seg</td>
             <td style="text-align: left;">Especificaciones proyecto</td>
@@ -486,10 +482,9 @@ EJECUTIVO - LFC STUDIO</title>
             <h3 id="criterios-de-aceptación">Criterios de
             aceptación</h3>
             <ul>
-            <li>✅ 25 interfaces críticas operativas</li>
-            <li>✅ 15 protocolos implementados</li>
+            <li>✅ 22 interfaces críticas operativas</li>
+            <li>✅ 12 protocolos implementados</li>
             <li>✅ 12 APIs funcionando</li>
-            <li>✅ Gateway de integración operativo</li>
             <li>✅ Disponibilidad 99.95%</li>
             </ul>
             <hr />
@@ -501,39 +496,11 @@ EJECUTIVO - LFC STUDIO</title>
             proyecto.</p>
             <h3 id="tabla-de-ubicaciones-principales">Tabla de
             ubicaciones principales</h3>
-            <table>
-            <colgroup>
-            <col style="width: 26%" />
-            <col style="width: 31%" />
-            <col style="width: 21%" />
-            <col style="width: 19%" />
-            </colgroup>
-            <thead>
-            <tr class="header">
-            <th style="text-align: left;">Ubicación</th>
-            <th style="text-align: left;">Componentes</th>
-            <th style="text-align: left;">Función</th>
-            <th style="text-align: left;">Estado</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr class="odd">
-            <td style="text-align: left;"><strong>CCO La
-            Dorada</strong></td>
-            <td style="text-align: left;">Gateway + Monitoreo +
-            Control</td>
-            <td style="text-align: left;">Integración centralizada</td>
-            <td style="text-align: left;">⏳ En desarrollo</td>
-            </tr>
-            <tr class="even">
-            <td style="text-align: left;"><strong>Sistemas
-            distribuidos</strong></td>
-            <td style="text-align: left;">Interfaces + APIs</td>
-            <td style="text-align: left;">Comunicación distribuida</td>
-            <td style="text-align: left;">⏳ En desarrollo</td>
-            </tr>
-            </tbody>
-            </table>
+            <div class="line-block"><strong>CCO La Dorada</strong> |
+            Monitoreo + Control | Integración centralizada | ⏳ En
+            desarrollo |<br />
+            <strong>Sistemas distribuidos</strong> | Interfaces + APIs |
+            Comunicación distribuida | ⏳ En desarrollo |</div>
             <hr />
             <h2 id="operación-y-mantenimiento">⚙️ OPERACIÓN Y
             MANTENIMIENTO</h2>
@@ -578,7 +545,7 @@ EJECUTIVO - LFC STUDIO</title>
 [Funcionamiento Unificado]</code></pre>
             <h3 id="tabla-de-interfaces-críticas">Tabla de interfaces
             críticas</h3>
-            <table>
+            <table class="table-l3-premium">
             <thead>
             <tr class="header">
             <th style="text-align: left;">Especialidad</th>
@@ -623,7 +590,7 @@ EJECUTIVO - LFC STUDIO</title>
             TÉCNICOS Y LIMITACIONES</h2>
             <h3 id="supuestos-críticos-del-diseno">Supuestos Críticos
             del Diseno</h3>
-            <table>
+            <table class="table-l3-premium">
             <colgroup>
             <col style="width: 17%" />
             <col style="width: 26%" />
@@ -651,14 +618,14 @@ EJECUTIVO - LFC STUDIO</title>
             estándar</strong></td>
             <td style="text-align: left;">FRA/AREMA + FFFIS</td>
             <td style="text-align: left;">Incompatibilidad</td>
-            <td style="text-align: left;">Gateway de conversión</td>
+            <td style="text-align: left;">Mapeo de protocolos</td>
             </tr>
             <tr class="odd">
             <td style="text-align: left;"><strong>Interoperabilidad
             FENOCO</strong></td>
             <td style="text-align: left;">Protocolos FRA/AREMA</td>
             <td style="text-align: left;">Limitaciones operativas</td>
-            <td style="text-align: left;">Compatibilidad dual</td>
+            <td style="text-align: left;">Procedimiento Operacional</td>
             </tr>
             <tr class="even">
             <td style="text-align: left;"><strong>Tiempo de
@@ -699,7 +666,7 @@ EJECUTIVO - LFC STUDIO</title>
             <hr />
             <h2 id="riesgos-y-mitigaciones">⚠️ RIESGOS Y
             MITIGACIONES</h2>
-            <table>
+            <table class="table-l3-premium">
             <colgroup>
             <col style="width: 15%" />
             <col style="width: 26%" />
@@ -729,7 +696,7 @@ EJECUTIVO - LFC STUDIO</title>
             protocolos</td>
             <td style="text-align: left;">Baja</td>
             <td style="text-align: left;">Alto</td>
-            <td style="text-align: left;">Gateway de conversión</td>
+            <td style="text-align: left;">Mapeo estandarizado</td>
             <td style="text-align: left;">✅ Mitigado</td>
             </tr>
             <tr class="odd">
@@ -788,7 +755,7 @@ EJECUTIVO - LFC STUDIO</title>
             SOPORTE</h2>
             <h3 id="documentos-técnicos-disponibles">Documentos técnicos
             disponibles</h3>
-            <table>
+            <table class="table-l3-premium">
             <colgroup>
             <col style="width: 29%" />
             <col style="width: 16%" />
@@ -828,7 +795,7 @@ EJECUTIVO - LFC STUDIO</title>
             <hr />
             <h2 id="contactos-y-responsables">📞 CONTACTOS Y
             RESPONSABLES</h2>
-            <table>
+            <table class="table-l3-premium">
             <thead>
             <tr class="header">
             <th style="text-align: left;">Rol</th>
@@ -858,7 +825,7 @@ EJECUTIVO - LFC STUDIO</title>
             <hr />
             <h2 id="indicadores-de-desempeno-kpis">📊 INDICADORES DE
             DESEMPENO (KPIs)</h2>
-            <table>
+            <table class="table-l3-premium">
             <thead>
             <tr class="header">
             <th style="text-align: left;">Indicador</th>
@@ -912,7 +879,7 @@ EJECUTIVO - LFC STUDIO</title>
             </ul>
             <hr />
             <h2 id="control-de-versiones">🔄 CONTROL DE VERSIONES</h2>
-            <table>
+            <table class="table-l3-premium">
             <colgroup>
             <col style="width: 18%" />
             <col style="width: 14%" />
