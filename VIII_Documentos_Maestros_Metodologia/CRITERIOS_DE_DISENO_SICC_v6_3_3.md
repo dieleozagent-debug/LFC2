@@ -40,7 +40,7 @@ El alcance incluye:
 - **FRA 49 CFR Part 236, Subpart I** (PTC).
 - **FRA 49 CFR Part 213** (Track Safety).
 - **AREMA Communications and Signals Manual 2021** (Capítulos 17.3.1, 17.3.3, 17.3.5 para Hazard Log).
-- **EN 50716:2023** (Software ferroviario unificado, reemplaza EN 50716:2023).
+- **EN 50716:2023**- **Software Ferroviario:** Certificación integral bajo la norma soberana **EN 50716** (Unificación Onboard/Wayside), sustituyendo EN 50716 (Estándar Soberano Michelin v7.0) para proteger la arquitectura PTC Virtual.
 - **ETSI EN 300 392 (Serie)** (TETRA V+D).
 - **ITU-T G.652.D** (Fibra Monomodo estándar).
 - **EN/IEC 62368-1** (Seguridad eléctrica TI).

@@ -34,7 +34,7 @@ const LFC_DBCI = {
         "Stop & Switch", "Stop and Switch", "ADIF", "EULYNX", "GSM-R", "EUROBALISE", "EUROBALIZAS",
         "RBC", "Radio Block Centre", "ERTMS", "ETCS", "ASFA", "UNISIG", "UIC TSI",
         "Contadores de ejes", "Circuitos de via", "SICC Legacy", "Manual de Frontera",
-        "ANSI/ICEA S-87-640", "Telcordia GR-20-CORE", "IEC 60794", "IEC-60794"
+        "ANSI/ICEA S-87-640", "Telcordia GR-20-CORE", "IEC 60794", "IEC-60794", "EN 50128", "EDFA", "ROADM"
     ],
 
     // MAPEO DE CORRECCIÓN DETERMINISTA (Manual del Chef - Purity by Design)
@@ -67,7 +67,10 @@ const LFC_DBCI = {
         "ANSI/ICEA S-87-640": "Estándar ITU-T G.652 (Blindaje AT3)",
         "Telcordia GR-20-CORE": "Estándar ITU-T G.652 (Blindaje AT3)",
         "IEC 60794": "ITU-T G.652.D (Soberanía AT3)",
-        "IEC-60794": "ITU-T G.652.D (Soberanía AT3)"
+        "IEC-60794": "ITU-T G.652.D (Soberanía AT3)",
+        "EN 50128": "EN 50716 (Estándar Soberano Michelin v7.0)",
+        "EDFA": "Ópticas Pasivas ZR (Sustracción N-1)",
+        "ROADM": "Red Vital IP (Direct Fiber Only)"
     },
 
     FINANCIAL: {
