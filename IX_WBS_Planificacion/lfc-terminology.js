@@ -34,7 +34,8 @@ const LFC_DBCI = {
         "Stop & Switch", "Stop and Switch", "ADIF", "EULYNX", "GSM-R", "EUROBALISE", "EUROBALIZAS",
         "RBC", "Radio Block Centre", "ERTMS", "ETCS", "ASFA", "UNISIG", "UIC TSI",
         "Contadores de ejes", "Circuitos de via", "SICC Legacy", "Manual de Frontera",
-        "ANSI/ICEA S-87-640", "Telcordia GR-20-CORE", "IEC 60794", "IEC-60794", "EN 50128", "EDFA", "ROADM"
+        "ANSI/ICEA S-87-640", "Telcordia GR-20-CORE", "IEC 60794", "IEC-60794", "EN 50128", "EDFA", "ROADM",
+        "Resolución 1885 de 2015", "Res. 1885 de 2015", "Manual de Señalización Vial 2015"
     ],
 
     // MAPEO DE CORRECCIÓN DETERMINISTA (Manual del Chef - Purity by Design)
@@ -69,6 +70,9 @@ const LFC_DBCI = {
         "IEC 60794": "ITU-T G.652.D (Soberanía AT3)",
         "IEC-60794": "ITU-T G.652.D (Soberanía AT3)",
         "EN 50128": "EN 50716 (Estándar Soberano Michelin v7.0)",
+        "Manual de Señalización Vial 2015": "Manual de Señalización Vial 2024 (Res. 20243040045005)",
+        "Manual de Senalización Vial 2015": "Manual de Señalización Vial 2024 (Res. 20243040045005)",
+        "Resolución 1885 de 2015": "Resolución 20243040045005 de 2024",
         "EDFA": "Ópticas Pasivas ZR (Sustracción N-1)",
         "ROADM": "Red Vital IP (Direct Fiber Only)"
     },
