@@ -15,12 +15,12 @@ Este documento establece el procedimiento de **Interoperabilidad Operacional** e
 
 ### **1.2 ALCANCE**
 - **Punto de Intercambio:** Estación Chiriguaná (PK 526+000).
-- **Modelo:** Intercambio Operacional (Stop & Switch) (Independencia Técnica Total).
+- **Modelo:** Intercambio Operacional (Handover Digital (Digital Gateway)) (Independencia Técnica Total).
 - **Sistemas:** Procedimiento en Frontera (LFC) vs. Control por Despacho (FENOCO).
 
 ---
 
-## 🚉 **2. PROCEDIMIENTO DE INTERCAMBIO OPERACIONAL (STOP & SWITCH)**
+## 🚉 **2. PROCEDIMIENTO DE INTERCAMBIO OPERACIONAL (Handover Digital (Digital Gateway))**
 
 ### **2.1 TRANSICIÓN LFC → FENOCO**
 1. **Llegada a Chiriguaná:** El tren LFC monitorea su posición mediante el OBC Vital (FRA Compliant).

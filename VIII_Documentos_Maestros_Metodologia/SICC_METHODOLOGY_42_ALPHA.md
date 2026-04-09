@@ -2,11 +2,11 @@
 ## El Motor de Coherencia Semántica y Blindaje Contractual
 
 ### 1. Filosofía SICC: Contract-First
-La ingeniería no es un proceso creativo libre; es una función ejecutiva del contrato. En el ecosistema SICC, ningún diseño técnico (L3-L5) puede existir sin una validación previa del marco jurídico-contractual (L1-L2).
+La ingeniería no es un proceso creativo libre; es una función ejecutiva del contrato. En el ecosistema SICC, ningún diseno técnico (L3-L5) puede existir sin una validación previa del marco jurídico-contractual (L1-L2).
 
 #### La Jerarquía de la Verdad (L1 - L9):
 1.  **L1 - El Núcleo (Contrato/Plegos):** La fuente suprema. Define el Objeto y el Corredor.
-2.  **L2 - El ADN (Apéndices Técnicos AT):** Los requisitos obligatorios de desempeño (SLA, SIL-4).
+2.  **L2 - El ADN (Apéndices Técnicos AT):** Los requisitos obligatorios de desempeno (SLA, SIL-4).
 3.  **L3/L4/L5 - El Cuerpo (Ingeniería):** El despliegue físico del ADN en especificaciones y planos.
 4.  **Nivel IX - El Sistema Nervioso (WBS):** La cuantificación económica de la verdad.
 
@@ -26,10 +26,10 @@ Cada subsistema (PTC, Fibra, Energía, etc.) DEBE tener un **Dictamen Jurídico-
 ### 3. Protocolo de "Cocción" (Swarm Protocol .42)
 El proceso de creación documental sigue el flujo de Inteligencia Asimétrica:
 
-1.  **Fase Auditor Forense (Vigilia - Qwen 3.5):** Identificación de "Legado" (Copper, RBC, GSM-R) e impurezas contractuales.
+1.  **Fase Auditor Forense (Vigilia - Qwen 3.5):** Identificación de "Legado" (Copper, Servidor Maestro SICC, Red Vital IP (Broadband)) e impurezas contractuales.
 2.  **Fase Estratega SICC (Vigilia - Claude 4.6):** Elaboración de la tesis de defensa y optimización de CAPEX.
 3.  **Fase de Síntesis (Vercel-Ready):** Formateo premium para exposición en el Dashboard (LFC Sovereign Tower).
-4.  **Fase de Sueño (Ollama):** Auditoría masiva de trazabilidad cruzada (Cross-Sync) durante ciclos nocturnos (8 PM - 7 AM COL).
+4.  **Fase de Sueno (Ollama):** Auditoría masiva de trazabilidad cruzada (Cross-Sync) durante ciclos nocturnos (8 PM - 7 AM COL).
 
 ---
 

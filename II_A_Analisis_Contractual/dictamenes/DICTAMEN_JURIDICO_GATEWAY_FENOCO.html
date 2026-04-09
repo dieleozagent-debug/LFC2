@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DICTAMEN JURIDICO GATEWAY FENOCO - LFC STUDIO</title>
+    <link rel="stylesheet" href="/IX_WBS_Planificacion/wbs-shared.css?v=6.3.2">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0f172a;
+            --secondary: #1e293b;
+            --accent: #0ea5e9;
+            --accent-glow: rgba(14, 165, 233, 0.2);
+            --glass-bg: rgba(255, 255, 255, 1);
+            --glass-border: #e2e8f0;
+            --text-main: #1e293b;
+            --text-dim: #64748b;
+            --sidebar-width: 280px;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background-color: #f8fafc;
+            color: var(--text-main);
+            margin: 0;
+            display: flex;
+            line-height: 1.6;
+        }
+
+        #lfc-sidebar-container {
+            width: var(--sidebar-width);
+            height: 100vh;
+            position: fixed;
+            z-index: 1000;
+        }
+
+        .main-content-wrapper {
+            margin-left: var(--sidebar-width);
+            flex: 1;
+            padding: 3rem;
+            max-width: 1400px;
+            width: 100%;
+        }
+
+        .premium-card {
+            background: #fff;
+            border-radius: 20px;
+            padding: 2.5rem;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+            margin-bottom: 2rem;
+        }
+
+        .premium-title {
+            font-size: 2.8rem;
+            font-weight: 800;
+            letter-spacing: -1.5px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+            line-height: 1.2;
+        }
+
+        #TOC {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 16px;
+            margin-bottom: 2rem;
+            border-left: 5px solid var(--accent);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+        }
+
+        #TOC h3 { margin-top: 0; color: var(--primary); font-size: 1.1rem; }
+        #TOC ul { list-style: none; padding-left: 0; }
+        #TOC li { margin-bottom: 0.5rem; }
+        #TOC a {
+            color: var(--text-dim);
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.2s;
+            font-size: 0.95rem;
+        }
+
+        #TOC a:hover {
+            color: var(--accent);
+            padding-left: 5px;
+        }
+
+        .premium-doc-content {
+            background: #fff;
+            padding: 3.5rem;
+            border-radius: 24px;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 4px 30px rgba(0,0,0,0.02);
+        }
+
+        .premium-doc-content h1, .premium-doc-content h2 {
+            color: var(--primary);
+            font-weight: 700;
+            margin-top: 2.5rem;
+            border-bottom: 2px solid #f1f5f9;
+            padding-bottom: 0.5rem;
+        }
+
+        .premium-doc-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid #e2e8f0;
+        }
+
+        .premium-doc-content th {
+            background: #f1f5f9;
+            color: var(--primary);
+            text-align: left;
+            padding: 1rem;
+            font-weight: 700;
+        }
+
+        .premium-doc-content td {
+            padding: 1rem;
+            border-bottom: 1px solid #f1f5f9;
+        }
+
+        footer {
+            margin-top: 5rem;
+            text-align: center;
+            opacity: 0.4;
+            font-size: 0.85rem;
+            color: var(--text-dim);
+        }
+
+        @media (max-width: 1024px) {
+            .main-content-wrapper { margin-left: 0; padding: 2rem 1rem; }
+            #lfc-sidebar-container { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <div id="lfc-sidebar-container"></div>
+    <div class="main-content-wrapper">
+        <header class="premium-card">
+            <div class="premium-header-content" style="text-align: center;">
+                <h1 id="adn-page-title" class="premium-title">DICTAMEN
+JURIDICO GATEWAY FENOCO</h1>
+                <p id="main-dns-subtitle" style="font-weight: 500; color: var(--text-dim); margin: 0;">REPORTE EJECUTIVO SICC | VERSIÓN DINÁMICA</p>
+                <div class="adn-version-tag-wrapper" style="margin-top: 10px;">
+                    <span style="background: var(--primary); color: #fff; padding: 3px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.5px;">v<span id="adn-version-tag">6.3.3</span></span>
+                </div>
+            </div>
+        </header>
+
+        <nav id="TOC">
+            <h3>📍 ÍNDICE DE CONTENIDO</h3>
+            <ul>
+            <li><a
+            href="#dictamen-jurídico-técnico-vinculante-sicc-2026-001"
+            id="toc-dictamen-jurídico-técnico-vinculante-sicc-2026-001">🏛️
+            DICTAMEN JURÍDICO-TÉCNICO VINCULANTE: SICC-2026-001</a>
+            <ul>
+            <li><a
+            href="#objeto-blindaje-de-capex-interoperabilidad-fenoco-y-equipamiento-embarcado"
+            id="toc-objeto-blindaje-de-capex-interoperabilidad-fenoco-y-equipamiento-embarcado">OBJETO:
+            Blindaje de CAPEX — Interoperabilidad FENOCO y Equipamiento
+            Embarcado</a>
+            <ul>
+            <li><a href="#i.-exordio-y-cronología-fatal"
+            id="toc-i.-exordio-y-cronología-fatal">I. EXORDIO Y
+            CRONOLOGÍA FATAL</a></li>
+            <li><a
+            href="#ii.-el-jaque-mate-jurídico-orden-de-prelación-sec-1.2-d"
+            id="toc-ii.-el-jaque-mate-jurídico-orden-de-prelación-sec-1.2-d">II.
+            EL JAQUE MATE JURÍDICO: ORDEN DE PRELACIÓN (SEC
+            1.2-d)</a></li>
+            <li><a href="#iii.-determinación-taxativa-de-capex"
+            id="toc-iii.-determinación-taxativa-de-capex">III.
+            DETERMINACIÓN TAXATIVA DE CAPEX</a></li>
+            <li><a href="#iv.-veredicto-final"
+            id="toc-iv.-veredicto-final">IV. VEREDICTO FINAL</a></li>
+            </ul></li>
+            </ul></li>
+            </ul>
+        </nav>
+
+        <article class="premium-doc-content">
+            <h1
+            id="dictamen-jurídico-técnico-vinculante-sicc-2026-001">🏛️
+            DICTAMEN JURÍDICO-TÉCNICO VINCULANTE: SICC-2026-001</h1>
+            <h2
+            id="objeto-blindaje-de-capex-interoperabilidad-fenoco-y-equipamiento-embarcado">OBJETO:
+            Blindaje de CAPEX — Interoperabilidad FENOCO y Equipamiento
+            Embarcado</h2>
+            <p><strong>De:</strong> Dirección Jurídica y Técnica
+            LFC<br />
+            <strong>Para:</strong> Gerencia EPC / Dirección
+            Contractual<br />
+            <strong>Referencia:</strong> Contrato de Concesión APP
+            No. 001 de 2025<br />
+            <strong>Estado:</strong> MICHELIN CERTIFIED — NIVEL FORENSE
+            ⚖️</p>
+            <hr />
+            <h3 id="i.-exordio-y-cronología-fatal">I. EXORDIO Y
+            CRONOLOGÍA FATAL</h3>
+            <p>Para efectos de delimitar la exposición al riesgo
+            sancionatorio, esta Dirección establece la línea de tiempo
+            oficial e inamovible (Sección 3.8): - <strong>Firma del
+            Contrato:</strong> 21 de abril de 2025. - <strong>Acta de
+            Inicio:</strong> 1 de agosto de 2025. - <strong>Vencimiento
+            Fase Preconstrucción:</strong> <strong>1 de noviembre de
+            2026</strong>. Cualquier demora en la definición de alcances
+            por disputas técnicas con terceros no exime al Concesionario
+            del cumplimiento de los hitos (Sección 3.9.a.xii). Por ende,
+            se emite este dictamen para zanjar la inversión
+            inmediata.</p>
+            <hr />
+            <h3
+            id="ii.-el-jaque-mate-jurídico-orden-de-prelación-sec-1.2-d">II.
+            EL JAQUE MATE JURÍDICO: ORDEN DE PRELACIÓN (SEC 1.2-d)</h3>
+            <p>Ante cualquier duda basada en respuestas de la ANI
+            durante la licitación (Q&amp;A/SECOP), este despacho
+            dictamina la aplicación estricta de la <strong>Jerarquía
+            Documental</strong>: 1. <strong>Nivel 1:</strong> Contrato
+            de Concesión (Documento Principal). 2. <strong>Nivel
+            2:</strong> Apéndice Técnico 1 (AT1). … 16. <strong>Nivel
+            16:</strong> Pliego de Condiciones, adendas y respuestas a
+            observaciones (Q&amp;A).</p>
+            <p><strong>DIRECCIÓN:</strong> Lo estipulado en los Niveles
+            1 y 2 <strong>aplasta jurídicamente</strong> cualquier
+            respuesta de Nivel 16. LFC no puede evadir obligaciones de
+            Nivel 1 invocando el Nivel 16 (Sección 1.2.d).</p>
+            <hr />
+            <h3 id="iii.-determinación-taxativa-de-capex">III.
+            DETERMINACIÓN TAXATIVA DE CAPEX</h3>
+            <h4
+            id="obligación-ineludible-equipamiento-embarcado-2.5-mm-usd">1.
+            Obligación Ineludible: Equipamiento Embarcado (~2.5 MM
+            USD)</h4>
+            <p>LFC está obligada a adquirir e instalar el hardware dual
+            a bordo (Radios, DMI, Controladoras) para cumplir con la
+            <strong>Puesta a Punto (Sección 2.201)</strong> y el
+            <strong>AT1 Capítulo I literal (d)</strong>. -
+            <strong>Fundamento:</strong> El Apéndice Financiero 4
+            contempla expresamente la amortización de la locomotora
+            “incluyendo el respectivo equipo embarcado”. Negar esta
+            compra es una confesión de incumplimiento a la Debida
+            Diligencia (Sec 3.9). - <strong>Acción:</strong> Liberar
+            CAPEX para equipos “Handover Digital (Digital Gateway)”.</p>
+            <h4
+            id="exclusión-de-responsabilidad-gateway-alstom-25-mm-usd">2.
+            Exclusión de Responsabilidad: Gateway Alstom (~25 MM
+            USD)</h4>
+            <p>La construcción de una pasarela de software hacia el ITCS
+            de FENOCO <strong>no es parte del alcance</strong>. -
+            <strong>Fundamento:</strong> Según la <strong>Sección 25.4
+            (Obras y Equipos Complementarios)</strong>, al ser un
+            requerimiento de un tercero que altera el estándar FRA
+            exigido (AT1 Tabla 17), el costo debe ser asumido por la ANI
+            mediante modificación de especificaciones (Sección 9.12.b).
+            - <strong>Acción:</strong> Rechazo oficial de integración
+            lógica.</p>
+            <hr />
+            <h3 id="iv.-veredicto-final">IV. VEREDICTO FINAL</h3>
+            <p>La interoperabilidad se satisface mediante
+            <strong>Procedimiento Operacional</strong> en frontera
+            (Chiriguaná PK 722+683). LFC asume el hardware del tren; la
+            ANI asume cualquier software de integración.</p>
+            <p><strong>Certificación Michelin v6.5:</strong> 🛡️
+            <strong>AUDITOR FORENSE:</strong> <em>Certificado.
+            Inferencia basada en Sec 1.2-d y 2.201.</em> 🛡️
+            <strong>ESTRATEGA SICC:</strong> <em>Veredicto. Blindaje de
+            25M USD confirmado vía Sec 25.4.</em></p>
+            <hr />
+            <p><em>Documento vinculado al manual de operación de
+            ingeniería. Ninguna especialidad podrá contradecir esta
+            jerarquía.</em></p>
+        </article>
+
+        <footer>
+            © 2026 LFC STUDIO | SICC v6.3.3 SOBERANO | PTC VIRTUAL SICC (FRA 236-I)
+        </footer>
+    </div>
+
+    <script src="/IX_WBS_Planificacion/lfc-terminology.js?v=6.3.2"></script>
+    <script src="/IX_WBS_Planificacion/sidebar-component.js?v=6.3.2" charset="utf-8"></script>
+</body>
+</html>

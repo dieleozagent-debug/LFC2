@@ -1,4 +1,4 @@
-# DOCUMENTO DE CRITERIOS DE DISEÑO (SICC v6.3.3)
+# DOCUMENTO DE CRITERIOS DE DISENO (SICC v6.3.3)
 ## SICC : SISTEMA DE INTERVENCIÓN Y CONTROL CENTRALIZADO
 ### PROYECTO: APP LA DORADA - CHIRIGUANÁ
 
@@ -10,14 +10,14 @@
 
 ## 1. INTRODUCCIÓN
 ### 1.1. Propósito del documento
-Este documento tiene por propósito establecer los criterios técnicos, funcionales y normativos que regirán el desarrollo del diseño de detalle del Sistema de Señalización, control de tráfico y comunicaciones del Corredor Férreo La Dorada – Chiriguaná, en el marco del Contrato de Concesión APP No. 001 de 2025 y sus Apéndices Técnicos. Su alcance se limita a definir una base preliminar de diseño del sistema, su arquitectura general, sus principios de operación y los criterios mínimos de cumplimiento aplicables al subsistema de control de trenes, al Centro de Control de Operaciones, a las comunicaciones requeridas para la señalización, a la protección de pasos a nivel y a la interfaz operacional con la red de FENOCO. 
+Este documento tiene por propósito establecer los criterios técnicos, funcionales y normativos que regirán el desarrollo del diseno de detalle del Sistema de Senalización, control de tráfico y comunicaciones del Corredor Férreo La Dorada – Chiriguaná, en el marco del Contrato de Concesión APP No. 001 de 2025 y sus Apéndices Técnicos. Su alcance se limita a definir una base preliminar de diseno del sistema, su arquitectura general, sus principios de operación y los criterios mínimos de cumplimiento aplicables al subsistema de control de trenes, al Centro de Control de Operaciones, a las comunicaciones requeridas para la senalización, a la protección de pasos a nivel y a la interfaz operacional con la red de FENOCO. 
 
-El documento orienta el sistema hacia una arquitectura de Positive Train Control (PTC) con cantonamiento virtual, conforme a la exigencia contractual basada en la **FRA 49 CFR Part 236, Subpart I**, complementada por la FRA 49 CFR Part 213, el AREMA Manual for Railway Engineering y el AREMA Communications and Signals Manual, como marco técnico principal para el sistema de señalización y control de trenes. Para aspectos de seguridad funcional y comunicaciones de seguridad, se adoptan como referencia **EN 50126, EN 50716:2023, EN 50129 y EN 50159**. Para los elementos que deban desarrollarse en territorio colombiano se aplicará, además, la normativa nacional pertinente, en particular RETIE, NSR-10, NTC 4741 y el Manual de Señalización Vial adoptado mediante Resolución 1885 de 2015.
+El documento orienta el sistema hacia una arquitectura de Positive Train Control (PTC) con cantonamiento virtual, conforme a la exigencia contractual basada en la **FRA 49 CFR Part 236, Subpart I**, complementada por la FRA 49 CFR Part 213, el AREMA Manual for Railway Engineering y el AREMA Communications and Signals Manual, como marco técnico principal para el sistema de senalización y control de trenes. Para aspectos de seguridad funcional y comunicaciones de seguridad, se adoptan como referencia **EN 50126, EN 50716:2023, EN 50129 y EN 50159**. Para los elementos que deban desarrollarse en territorio colombiano se aplicará, además, la normativa nacional pertinente, en particular RETIE, NSR-10, NTC 4741 y el Manual de Senalización Vial adoptado mediante Resolución 1885 de 2015.
 
-El documento no constituye diseño constructivo ni reemplaza la ingeniería de detalle. En consecuencia, no define cantidades finales, localización exacta de equipos, rutas definitivas, coberturas, memorias de cálculo, planos constructivos, protocolos de prueba ni especificaciones de instalación.
+El documento no constituye diseno constructivo ni reemplaza la ingeniería de detalle. En consecuencia, no define cantidades finales, localización exacta de equipos, rutas definitivas, coberturas, memorias de cálculo, planos constructivos, protocolos de prueba ni especificaciones de instalación.
 
 ### 1.2. Alcance del Sistema
-El sistema de señalización a desarrollar para el Corredor Férreo La Dorada–Chiriguaná se establecerá bajo una arquitectura de **Positive Train Control (PTC) con cantonamiento virtual** en los tramos de vía sencilla del corredor y cantonamiento físico en cinco puntos operativos críticos: **La Dorada–México, Puerto Berrío–Grecia, Barrancabermeja, García Cadena y Zapatosa**. En estas ubicaciones se dispondrá de enclavamientos electrónicos, encargados de asegurar las rutas mediante lógica segura, verificar las condiciones de liberación y ocupación de vía, comandar señales físicas laterales y cambiavías motorizados, y permitir, cuando aplique, la transferencia controlada a operación local en caso de contingencia, mantenimiento o pérdida de comunicación con el Centro de Control de Operaciones (CCO). Esta solución se adopta para un corredor ferroviario de aproximadamente **526,133 km**, en trocha de **914 mm**, destinado principalmente al transporte de carga, operado en su mayor parte como vía única con apartaderos en estaciones y con conexión operacional en su extremo norte con la red de FENOCO en Chiriguaná. 
+El sistema de senalización a desarrollar para el Corredor Férreo La Dorada–Chiriguaná se establecerá bajo una arquitectura de **Positive Train Control (PTC) con cantonamiento virtual** en los tramos de vía sencilla del corredor y cantonamiento físico en cinco puntos operativos críticos: **La Dorada–México, Puerto Berrío–Grecia, Barrancabermeja, García Cadena y Zapatosa**. En estas ubicaciones se dispondrá de enclavamientos electrónicos, encargados de asegurar las rutas mediante lógica segura, verificar las condiciones de liberación y ocupación de vía, comandar senales físicas laterales y cambiavías motorizados, y permitir, cuando aplique, la transferencia controlada a operación local en caso de contingencia, mantenimiento o pérdida de comunicación con el Centro de Control de Operaciones (CCO). Esta solución se adopta para un corredor ferroviario de aproximadamente **526,133 km**, en trocha de **914 mm**, destinado principalmente al transporte de carga, operado en su mayor parte como vía única con apartaderos en estaciones y con conexión operacional en su extremo norte con la red de FENOCO en Chiriguaná. 
 
 Su alcance comprende la definición de los criterios funcionales, técnicos y normativos que deberán regirán el desarrollo de la ingeniería de detalle de los siguientes elementos del sistema:
 - **a)** el sistema de control de trenes PTC (FRA 49 CFR Part 236 Subpart I);
@@ -30,8 +30,8 @@ Su alcance comprende la definición de los criterios funcionales, técnicos y no
 
 Para efectos del presente documento, el sistema se concibe sobre una arquitectura compuesta por: equipos embarcados PTC, servidor o subsistema central de control en el CCO, red lineal de fibra óptica como backbone principal de transporte de datos, sistema de radio TETRA como medio de comunicación operacional y de soporte al sistema, y controladores locales de pasos a nivel cuando resulten aplicables.
 
-### 1.3. Principio fundamental de diseño: Arquitectura PTC Virtual
-El principio fundamental de diseño es la implementación de un PTC con cantonamiento virtual, complementada con cantonamiento físico en los puntos operativos críticos. Bajo esta filosofía, el control del movimiento en los tramos intermedios se fundamenta en autoridades de movimiento emitidas desde un servidor central (CCO), con soporte en equipos embarcados, posicionamiento del tren (GNSS/EOT), comunicaciones seguras y lógica de protección automática. En los puntos operativos críticos, el sistema se complementará con enclavamientos electrónicos, señales físicas laterales y cambiavías motorizados. Fuera de estas zonas, los desvíos podrán resolverse mediante cambiavías autotalonables supervisados al CCO.
+### 1.3. Principio fundamental de diseno: Arquitectura PTC Virtual
+El principio fundamental de diseno es la implementación de un PTC con cantonamiento virtual, complementada con cantonamiento físico en los puntos operativos críticos. Bajo esta filosofía, el control del movimiento en los tramos intermedios se fundamenta en autoridades de movimiento emitidas desde un servidor central (CCO), con soporte en equipos embarcados, posicionamiento del tren (GNSS/EOT), comunicaciones seguras y lógica de protección automática. En los puntos operativos críticos, el sistema se complementará con enclavamientos electrónicos, senales físicas laterales y cambiavías motorizados. Fuera de estas zonas, los desvíos podrán resolverse mediante cambiavías autotalonables supervisados al CCO.
 
 La arquitectura PTC virtual se adopta como criterio rector por cuanto permite concentrar la infraestructura física únicamente donde es técnica y operacionalmente necesaria, manteniendo en el resto del corredor una solución centralizada, escalable y compatible con la operación ferroviaria de carga prevista.
 
@@ -43,11 +43,11 @@ El presente documento se interpreta y aplica en concordancia con el Contrato de 
 - **(i)** el Contrato de Concesión y sus documentos contractuales prevalentes; 
 - **(ii)** el Apéndice Técnico 1 (AT1), en lo relativo al alcance, características del corredor y condiciones funcionales; 
 - **(iii)** el Apéndice Técnico 3 (AT3), en lo relativo a especificaciones técnicas generales y marco normativo para Estudios de Detalle; 
-- **(iv)** el presente Documento de Bases y Criterios de Diseño; y 
+- **(iv)** el presente Documento de Bases y Criterios de Diseno; y 
 - **(v)** las normas y estándares técnicos expresamente adoptados en este documento.
 
 ### 2.2 Relación de Normas Adoptadas
-#### **A. Normativa Principal (Control y Señalización)**
+#### **A. Normativa Principal (Control y Senalización)**
 - **FRA 49 CFR Part 236, Subpart I** – Positive Train Control Systems (Base Rectora).
 - **FRA 49 CFR Part 213** – Track Safety Standards.
 - **AREMA Manual for Railway Engineering.**
@@ -70,8 +70,8 @@ El presente documento se interpreta y aplica en concordancia con el Contrato de 
 #### **D. Normativa Nacional (Colombia)**
 - **RETIE / RETILAP** — Instalaciones eléctricas e iluminación.
 - **NSR-10** — Construcción Sismo Resistente.
-- **NTC 4741** — Señalización de vías férreas.
-- **Resolución 1885 de 2015** — Manual de Señalización Vial.
+- **NTC 4741** — Senalización de vías férreas.
+- **Resolución 1885 de 2015** — Manual de Senalización Vial.
 
 ---
 

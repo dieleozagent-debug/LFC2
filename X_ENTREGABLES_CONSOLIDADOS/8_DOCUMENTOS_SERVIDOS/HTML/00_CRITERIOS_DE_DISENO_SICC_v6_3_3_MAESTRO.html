@@ -160,9 +160,9 @@ CRITERIOS DE DISENO SICC v6 3 3 MAESTRO</h1>
         <nav id="TOC">
             <h3>📍 ÍNDICE DE CONTENIDO</h3>
             <ul>
-            <li><a href="#documento-de-criterios-de-diseño-sicc-v6.3.3"
-            id="toc-documento-de-criterios-de-diseño-sicc-v6.3.3">DOCUMENTO
-            DE CRITERIOS DE DISEÑO (SICC v6.3.3)</a>
+            <li><a href="#documento-de-criterios-de-diseno-sicc-v6.3.3"
+            id="toc-documento-de-criterios-de-diseno-sicc-v6.3.3">DOCUMENTO
+            DE CRITERIOS DE DISENO (SICC v6.3.3)</a>
             <ul>
             <li><a
             href="#sicc-sistema-de-intervención-y-control-centralizado"
@@ -183,9 +183,9 @@ CRITERIOS DE DISENO SICC v6 3 3 MAESTRO</h1>
             id="toc-alcance-del-sistema">1.2. Alcance del
             Sistema</a></li>
             <li><a
-            href="#principio-fundamental-de-diseño-arquitectura-ptc-virtual"
-            id="toc-principio-fundamental-de-diseño-arquitectura-ptc-virtual">1.3.
-            Principio fundamental de diseño: Arquitectura PTC
+            href="#principio-fundamental-de-diseno-arquitectura-ptc-virtual"
+            id="toc-principio-fundamental-de-diseno-arquitectura-ptc-virtual">1.3.
+            Principio fundamental de diseno: Arquitectura PTC
             Virtual</a></li>
             </ul></li>
             <li><a href="#marco-contractual"
@@ -211,8 +211,8 @@ CRITERIOS DE DISENO SICC v6 3 3 MAESTRO</h1>
 
         <article class="premium-doc-content">
             <h1
-            id="documento-de-criterios-de-diseño-sicc-v6.3.3">DOCUMENTO
-            DE CRITERIOS DE DISEÑO (SICC v6.3.3)</h1>
+            id="documento-de-criterios-de-diseno-sicc-v6.3.3">DOCUMENTO
+            DE CRITERIOS DE DISENO (SICC v6.3.3)</h1>
             <h2
             id="sicc-sistema-de-intervención-y-control-centralizado">SICC
             : SISTEMA DE INTERVENCIÓN Y CONTROL CENTRALIZADO</h2>
@@ -228,16 +228,16 @@ CRITERIOS DE DISENO SICC v6 3 3 MAESTRO</h1>
             documento</h3>
             <p>Este documento tiene por propósito establecer los
             criterios técnicos, funcionales y normativos que regirán el
-            desarrollo del diseño de detalle del Sistema de
-            Señalización, control de tráfico y comunicaciones del
+            desarrollo del diseno de detalle del Sistema de
+            Senalización, control de tráfico y comunicaciones del
             Corredor Férreo La Dorada – Chiriguaná, en el marco del
             Contrato de Concesión APP No. 001 de 2025 y sus Apéndices
             Técnicos. Su alcance se limita a definir una base preliminar
-            de diseño del sistema, su arquitectura general, sus
+            de diseno del sistema, su arquitectura general, sus
             principios de operación y los criterios mínimos de
             cumplimiento aplicables al subsistema de control de trenes,
             al Centro de Control de Operaciones, a las comunicaciones
-            requeridas para la señalización, a la protección de pasos a
+            requeridas para la senalización, a la protección de pasos a
             nivel y a la interfaz operacional con la red de FENOCO.</p>
             <p>El documento orienta el sistema hacia una arquitectura de
             Positive Train Control (PTC) con cantonamiento virtual,
@@ -245,23 +245,23 @@ CRITERIOS DE DISENO SICC v6 3 3 MAESTRO</h1>
             49 CFR Part 236, Subpart I</strong>, complementada por la
             FRA 49 CFR Part 213, el AREMA Manual for Railway Engineering
             y el AREMA Communications and Signals Manual, como marco
-            técnico principal para el sistema de señalización y control
+            técnico principal para el sistema de senalización y control
             de trenes. Para aspectos de seguridad funcional y
             comunicaciones de seguridad, se adoptan como referencia
             <strong>EN 50126, EN 50716:2023, EN 50129 y EN
             50159</strong>. Para los elementos que deban desarrollarse
             en territorio colombiano se aplicará, además, la normativa
             nacional pertinente, en particular RETIE, NSR-10, NTC 4741 y
-            el Manual de Señalización Vial adoptado mediante Resolución
+            el Manual de Senalización Vial adoptado mediante Resolución
             1885 de 2015.</p>
-            <p>El documento no constituye diseño constructivo ni
+            <p>El documento no constituye diseno constructivo ni
             reemplaza la ingeniería de detalle. En consecuencia, no
             define cantidades finales, localización exacta de equipos,
             rutas definitivas, coberturas, memorias de cálculo, planos
             constructivos, protocolos de prueba ni especificaciones de
             instalación.</p>
             <h3 id="alcance-del-sistema">1.2. Alcance del Sistema</h3>
-            <p>El sistema de señalización a desarrollar para el Corredor
+            <p>El sistema de senalización a desarrollar para el Corredor
             Férreo La Dorada–Chiriguaná se establecerá bajo una
             arquitectura de <strong>Positive Train Control (PTC) con
             cantonamiento virtual</strong> en los tramos de vía sencilla
@@ -271,7 +271,7 @@ CRITERIOS DE DISENO SICC v6 3 3 MAESTRO</h1>
             Zapatosa</strong>. En estas ubicaciones se dispondrá de
             enclavamientos electrónicos, encargados de asegurar las
             rutas mediante lógica segura, verificar las condiciones de
-            liberación y ocupación de vía, comandar señales físicas
+            liberación y ocupación de vía, comandar senales físicas
             laterales y cambiavías motorizados, y permitir, cuando
             aplique, la transferencia controlada a operación local en
             caso de contingencia, mantenimiento o pérdida de
@@ -306,10 +306,10 @@ CRITERIOS DE DISENO SICC v6 3 3 MAESTRO</h1>
             controladores locales de pasos a nivel cuando resulten
             aplicables.</p>
             <h3
-            id="principio-fundamental-de-diseño-arquitectura-ptc-virtual">1.3.
-            Principio fundamental de diseño: Arquitectura PTC
+            id="principio-fundamental-de-diseno-arquitectura-ptc-virtual">1.3.
+            Principio fundamental de diseno: Arquitectura PTC
             Virtual</h3>
-            <p>El principio fundamental de diseño es la implementación
+            <p>El principio fundamental de diseno es la implementación
             de un PTC con cantonamiento virtual, complementada con
             cantonamiento físico en los puntos operativos críticos. Bajo
             esta filosofía, el control del movimiento en los tramos
@@ -318,7 +318,7 @@ CRITERIOS DE DISENO SICC v6 3 3 MAESTRO</h1>
             equipos embarcados, posicionamiento del tren (GNSS/EOT),
             comunicaciones seguras y lógica de protección automática. En
             los puntos operativos críticos, el sistema se complementará
-            con enclavamientos electrónicos, señales físicas laterales y
+            con enclavamientos electrónicos, senales físicas laterales y
             cambiavías motorizados. Fuera de estas zonas, los desvíos
             podrán resolverse mediante cambiavías autotalonables
             supervisados al CCO.</p>
@@ -345,14 +345,14 @@ CRITERIOS DE DISENO SICC v6 3 3 MAESTRO</h1>
             el Apéndice Técnico 3 (AT3), en lo relativo a
             especificaciones técnicas generales y marco normativo para
             Estudios de Detalle; - <strong>(iv)</strong> el presente
-            Documento de Bases y Criterios de Diseño; y -
+            Documento de Bases y Criterios de Diseno; y -
             <strong>(v)</strong> las normas y estándares técnicos
             expresamente adoptados en este documento.</p>
             <h3 id="relación-de-normas-adoptadas">2.2 Relación de Normas
             Adoptadas</h3>
             <h4
-            id="a.-normativa-principal-control-y-señalización"><strong>A.
-            Normativa Principal (Control y Señalización)</strong></h4>
+            id="a.-normativa-principal-control-y-senalización"><strong>A.
+            Normativa Principal (Control y Senalización)</strong></h4>
             <ul>
             <li><strong>FRA 49 CFR Part 236, Subpart I</strong> –
             Positive Train Control Systems (Base Rectora).</li>
@@ -404,10 +404,10 @@ CRITERIOS DE DISENO SICC v6 3 3 MAESTRO</h1>
             eléctricas e iluminación.</li>
             <li><strong>NSR-10</strong> — Construcción Sismo
             Resistente.</li>
-            <li><strong>NTC 4741</strong> — Señalización de vías
+            <li><strong>NTC 4741</strong> — Senalización de vías
             férreas.</li>
             <li><strong>Resolución 1885 de 2015</strong> — Manual de
-            Señalización Vial.</li>
+            Senalización Vial.</li>
             </ul>
             <hr />
             <h2

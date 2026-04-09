@@ -56,7 +56,7 @@ Este documento consolida información de las siguientes fuentes:
 - Control centralizado desde CCO
 - PTC embarcado en material rodante
 - Disponibilidad 99.95% del sistema
-- Interoperabilidad OPERACIONAL (Stop & Switch) con FENOCO
+- Interoperabilidad OPERACIONAL (Handover Digital (Digital Gateway)) con FENOCO
 
 **Indicadores de desempeno:**
 - Disponibilidad del sistema: 99.95%

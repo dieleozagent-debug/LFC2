@@ -99,7 +99,7 @@
 #### **Principios de Diseno:**
 - **Integración:** Sistemas integrados con interfaces bien definidas
 - **Redundancia:** Arquitectura N+1 para sistemas críticos
-- **Interoperabilidad:** Compatibilidad OPERACIONAL (Stop & Switch) con FENOCO
+- **Interoperabilidad:** Compatibilidad OPERACIONAL (Handover Digital (Digital Gateway)) con FENOCO
 - **Soberanía:** Adherencia estricta a estándares FRA/AREMA (PTC Virtual)
 - **Mantenibilidad:** Facilidad de mantenimiento y actualización
 
@@ -430,7 +430,7 @@
 
 #### **Sistemas Externos:**
 | **SICC** | API REST | Reporte regulatorio ANI |
-| **FENOCO** | Interfaz Operacional (Stop & Switch) | Procedimiento en Frontera |
+| **FENOCO** | Interfaz Operacional (Handover Digital (Digital Gateway)) | Procedimiento en Frontera |
 | **Comunidades** | ITS | Información al usuario |
 | **Autoridades** | CCTV | Seguridad pública |
 

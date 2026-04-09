@@ -33,7 +33,7 @@ Ante cualquier duda basada en respuestas de la ANI durante la licitación (Q&A/S
 #### 1. Obligación Ineludible: Equipamiento Embarcado (~2.5 MM USD)
 LFC está obligada a adquirir e instalar el hardware dual a bordo (Radios, DMI, Controladoras) para cumplir con la **Puesta a Punto (Sección 2.201)** y el **AT1 Capítulo I literal (d)**.
 - **Fundamento:** El Apéndice Financiero 4 contempla expresamente la amortización de la locomotora "incluyendo el respectivo equipo embarcado". Negar esta compra es una confesión de incumplimiento a la Debida Diligencia (Sec 3.9).
-- **Acción:** Liberar CAPEX para equipos "Stop & Switch".
+- **Acción:** Liberar CAPEX para equipos "Handover Digital (Digital Gateway)".
 
 #### 2. Exclusión de Responsabilidad: Gateway Alstom (~25 MM USD)
 La construcción de una pasarela de software hacia el ITCS de FENOCO **no es parte del alcance**.

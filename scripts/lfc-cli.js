@@ -461,64 +461,80 @@ function serve() {
     // USAR PANDOC_PATH DETECTADO
     const sysPandoc = PANDOC_PATH; 
 
+    // BATCH 1: Ejecutivos Consolidados
     archivos.forEach(file => {
-        const fullPath = path.join(carpetaEjecutivos, file);
-        const baseName = path.basename(file, '.md');
-        log(`Sirviendo plato: ${baseName}...`, colors.cyan);
-
-        try {
-            // SANEAMIENTO PRE-SERVE (Último filtro de pureza)
-            let contenido = fs.readFileSync(fullPath, 'utf8');
-            const result = applyPurity(contenido);
-            if (result.modificado) {
-                fs.writeFileSync(fullPath, result.contenido, 'utf8');
-                log(`  🧹 Limpieza de última hora realizada en la receta.`, colors.yellow);
-            }
-            // Generar Word
-            execSync(`${sysPandoc} "${fullPath}" -o "${path.join(carpetaWord, baseName + '.docx')}" --toc --toc-depth=3`);
-            
-            // Generar HTML Premium con Plantilla Centralizada
-            const templatePath = path.join(REPO_ROOT, 'scripts/templates/premium-shell.html');
-            const command = `${sysPandoc} "${fullPath}" -o "${path.join(carpetaHTML, baseName + '.html')}" ` +
-                          `--template="${templatePath}" ` +
-                          `--standalone --toc --toc-depth=3 ` +
-                          `--metadata title="${baseName.replace(/_/g, ' ')}"`;
-            
-            execSync(command);
-            postProcessHtml(path.join(carpetaHTML, baseName + '.html'), baseName);
-            log(`  💎 HTML Premium y Word generados exitosamente`, colors.green);
-        } catch (e) {
-            log(`  ⚠️ PANDOC INFRASTRUCTURE ERROR: ${e.message}`, colors.red);
-            log(`  🔄 ACTIVANDO SAFE-COOK (Fallback HTML Generator v1.0)...`, colors.yellow);
-            
-            // Generador de Respaldo: Markdown a HTML Básico (Sin Pandoc)
-            const md = fs.readFileSync(fullPath, 'utf8');
-            let htmlSafe = md
-                .replace(/^# (.*$)/gim, '<h1>$1</h1>')
-                .replace(/^## (.*$)/gim, '<h2>$1</h2>')
-                .replace(/^### (.*$)/gim, '<h3>$1</h3>')
-                .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-                .replace(/\|/g, '&nbsp;|&nbsp;') // Tablas mínimas
-                .replace(/\n/g, '<br>');
-
-            const templatePath = path.join(REPO_ROOT, 'scripts/templates/premium-shell.html');
-            let finalHtml = fs.existsSync(templatePath) ? fs.readFileSync(templatePath, 'utf8') : '<html><body>{{content}}</body></html>';
-            
-            // Reemplazo de variables Premium (v6.4)
-            finalHtml = finalHtml
-                .replace(/\$title\$/g, baseName.replace(/_/g, ' '))
-                .replace(/\$toc\$/g, '<!-- TOC Fallback -->')
-                .replace(/\$body\$/g, htmlSafe)
-                .replace(/{{content}}/g, htmlSafe);
-
-            const outPath = path.join(carpetaHTML, baseName + '.html');
-            fs.writeFileSync(outPath, finalHtml, 'utf8');
-            postProcessHtml(outPath, baseName);
-            log(`  ✅ Safe-Cooker: HTML generado (DOCX no disponible por fallo de infraestructura)`, colors.green);
-        }
+        serveFile(path.join(carpetaEjecutivos, file), carpetaHTML, carpetaWord);
     });
 
+    // BATCH 2: Dictámenes Contractuales (Nuevo en v7.0)
+    const carpetaDictamenes = path.join(REPO_ROOT, 'II_A_Analisis_Contractual/dictamenes');
+    if (fs.existsSync(carpetaDictamenes)) {
+        log("\n🍽️  SIRVIENDO DICTÁMENES CONTRACTUALES...", colors.magenta);
+        const dicts = fs.readdirSync(carpetaDictamenes).filter(f => f.endsWith('.md'));
+        dicts.forEach(file => {
+            serveFile(path.join(carpetaDictamenes, file), carpetaDictamenes, null);
+        });
+    }
+
     log("\n✅ PLATOS SERVIDOS!", colors.green);
+}
+
+/**
+ * Función interna para servir un archivo individual (MD -> HTML/DOCX)
+ */
+function serveFile(fullPath, outHtmlDir, outWordDir) {
+    const baseName = path.basename(fullPath, '.md');
+    const sysPandoc = PANDOC_PATH;
+    log(`Sirviendo plato: ${baseName}...`, colors.cyan);
+
+    try {
+        // SANEAMIENTO PRE-SERVE
+        let contenido = fs.readFileSync(fullPath, 'utf8');
+        const result = applyPurity(contenido);
+        if (result.modificado) {
+            fs.writeFileSync(fullPath, result.contenido, 'utf8');
+            log(`  🧹 Limpieza de última hora realizada.`, colors.yellow);
+        }
+        
+        // Generar Word (si hay carpeta destino)
+        if (outWordDir) {
+            execSync(`${sysPandoc} "${fullPath}" -o "${path.join(outWordDir, baseName + '.docx')}" --toc --toc-depth=3`);
+        }
+        
+        // Generar HTML
+        const templatePath = path.join(REPO_ROOT, 'scripts/templates/premium-shell.html');
+        const command = `${sysPandoc} "${fullPath}" -o "${path.join(outHtmlDir, baseName + '.html')}" ` +
+                      `--template="${templatePath}" ` +
+                      `--standalone --toc --toc-depth=3 ` +
+                      `--metadata title="${baseName.replace(/_/g, ' ')}"`;
+        
+        execSync(command);
+        postProcessHtml(path.join(outHtmlDir, baseName + '.html'), baseName);
+        log(`  💎 HTML Premium generado exitosamente`, colors.green);
+    } catch (e) {
+        log(`  ⚠️ FALLO PANDOC: ${e.message}`, colors.red);
+        log(`  🔄 ACTIVANDO SAFE-COOK...`, colors.yellow);
+        
+        const md = fs.readFileSync(fullPath, 'utf8');
+        let htmlSafe = md
+            .replace(/^# (.*$)/gim, '<h1>$1</h1>')
+            .replace(/^## (.*$)/gim, '<h2>$1</h2>')
+            .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+            .replace(/\n/g, '<br>');
+
+        const templatePath = path.join(REPO_ROOT, 'scripts/templates/premium-shell.html');
+        let finalHtml = fs.existsSync(templatePath) ? fs.readFileSync(templatePath, 'utf8') : '<html><body>{{content}}</body></html>';
+        
+        finalHtml = finalHtml
+            .replace(/\$title\$/g, baseName.replace(/_/g, ' '))
+            .replace(/\$body\$/g, htmlSafe)
+            .replace(/{{content}}/g, htmlSafe);
+
+        const outPath = path.join(outHtmlDir, baseName + '.html');
+        fs.writeFileSync(outPath, finalHtml, 'utf8');
+        postProcessHtml(outPath, baseName);
+        log(`  ✅ Safe-Cooker: HTML generado.`, colors.green);
+    }
 }
 
 // Inyectar insignias DT automáticamente
@@ -543,7 +559,7 @@ function postProcessHtml(htmlPath, baseName) {
 
     if (dtCount > 0) {
         log(`    🎨 Inyectando Insignia Masterchef: ${dtCount} DT(s) encontradas`, colors.magenta);
-        const badge = `<span style="background: #f59e0b; color: #000; padding: 4px 10px; border-radius: 6px; font-size: 0.85rem; margin-left: 12px; vertical-align: middle; font-weight: 800; border: 1px solid rgba(0,0,0,0.1); shadow: 0 2px 4px rgba(0,0,0,0.1);">${dtCount} DT ACTIVADA${dtCount > 1 ? 'S' : ''}</span>`;
+        const badge = `<span style="background: linear-gradient(135deg, #f59e0b, #d97706); color: #000; padding: 4px 12px; border-radius: 6px; font-size: 0.85rem; margin-left: 12px; vertical-align: middle; font-weight: 900; border: 1px solid rgba(0,0,0,0.2); box-shadow: 0 4px 10px rgba(245, 158, 11, 0.3);">🛡️ SICC v7.0 MICHELIN: ${dtCount} DT ACTIVA${dtCount > 1 ? 'S' : ''}</span>`;
         
         // Inyectar en H1 (usando [\s\S] para multilínea)
         html = html.replace(/(<h1[^>]*>)([\s\S]*?)(<\/h1>)/i, `$1$2 ${badge}$3`);

@@ -41,6 +41,10 @@
       "destination": "/II_A_Analisis_Contractual/dictamenes/:path*"
     },
     {
+      "source": "/II_A_Analisis_Contractual/:path*",
+      "destination": "/II_A_Analisis_Contractual/dictamenes/:path*"
+    },
+    {
       "source": "/DICTAMENES",
       "destination": "/II_A_Analisis_Contractual/dictamenes/index.html"
     },

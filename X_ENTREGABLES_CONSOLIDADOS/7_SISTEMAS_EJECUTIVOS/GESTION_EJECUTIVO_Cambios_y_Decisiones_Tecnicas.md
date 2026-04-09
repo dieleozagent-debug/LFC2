@@ -67,7 +67,7 @@ Este documento presenta de manera consolidada todas las **Decisiones Técnicas (
 - **Cambio:** Reducción drástica de complejidad técnica y costo asociado.
 - **Justificación técnica:** 
   - Aplicación de **Metodología .42 (N-1)**: Eliminación total de Gateways lógicos hacia terceros (FENOCO).
-  - La interoperabilidad es **estrictamente operacional** (Stop & Switch a bordo).
+  - La interoperabilidad es **estrictamente operacional** (Handover Digital (Digital Gateway) a bordo).
   - Se eliminan: Gateways industriales, Middleware externo y Licencias de integración propietaria.
 - **Ahorro Estimado:** Blindaje de CAPEX preventivo (25 MM USD en riesgos de integración).
 - **Metadata enriquecida:** ✅ Sincronizada con Dictamen SICC-01

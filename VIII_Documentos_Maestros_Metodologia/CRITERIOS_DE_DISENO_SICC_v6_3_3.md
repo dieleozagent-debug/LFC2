@@ -1,4 +1,4 @@
-# DOCUMENTO DE CRITERIOS DE DISEÑO (SICC v6.3.3)
+# DOCUMENTO DE CRITERIOS DE DISENO (SICC v6.3.3)
 ## SICC : SISTEMA DE INTERVENCIÓN Y CONTROL CENTRALIZADO
 ### PROYECTO: APP LA DORADA - CHIRIGUANÁ
 
@@ -10,7 +10,7 @@
 
 ## 1. INTRODUCCIÓN
 ### 1.1. Propósito del documento
-Este documento establece los criterios técnicos, funcionales y normativos que rigen el diseño de detalle del Sistema de Señalización, Control de Tráfico y Comunicaciones del Corredor Férreo La Dorada – Chiriguaná, bajo el Contrato de Concesión APP No. 001 de 2025. 
+Este documento establece los criterios técnicos, funcionales y normativos que rigen el diseno de detalle del Sistema de Senalización, Control de Tráfico y Comunicaciones del Corredor Férreo La Dorada – Chiriguaná, bajo el Contrato de Concesión APP No. 001 de 2025. 
 
 El sistema adopta una arquitectura de **Positive Train Control (PTC) con cantonamiento virtual**, fundamentada en la **FRA 49 CFR Part 236, Subpart I**, el **Manual AREMA 2021** (Communications and Signals) y la norma de software unificado **EN 50716:2023**. Esta arquitectura prioriza la virtualización sobre la infraestructura física para proteger el CAPEX y garantizar la soberanía técnica del proyecto.
 
@@ -20,7 +20,7 @@ El sistema se establece sobre una arquitectura de PTC con cantonamiento virtual 
 El alcance incluye:
 - **a) Control de Trenes**: Basado en FRA 236-I (PTC).
 - **b) Enclavamientos**: SIL-4 en estaciones críticas.
-- **c) Detección en ENCE**: Exclusivamente mediante **Contadores de Ejes (Axle Counters) SIL-4**, prohibiendo el uso de circuitos de vía para proteger el riel continuo (CWR) conforme a **FRA 213.119**.
+- **c) Detección en ENCE**: Exclusivamente mediante **Posicionamiento GNSS/EOT Vital (Axle Counters) SIL-4**, prohibiendo el uso de Bloque Virtual Dinámico para proteger el riel continuo (CWR) conforme a **FRA 213.119**.
 - **d) Comunicaciones**: Red TETRA (Voz/Datos) y Fibra Óptica G.652.D, con habilitación de **Fase Transitoria Satelital/Celular** para comisionamiento temprano.
 - **e) Interoperabilidad**: Implementación del **Digital Gateway FRA/AREMA** en Chiriguaná para interoperabilidad **Non-Stop** con FENOCO.
 - **f) Redundancia de Radio**: Radioenlaces de **Microondas** como failover del backbone de fibra.
@@ -33,7 +33,7 @@ El alcance incluye:
 1. Contrato de Concesión APP 001 de 2025.
 2. Apéndice Técnico 1 (Alcance y Funcionalidad).
 3. Apéndice Técnico 3 (Especificaciones y Manual AREMA 2021).
-4. El presente Documento de Criterios de Diseño (SICC v6.3.3).
+4. El presente Documento de Criterios de Diseno (SICC v6.3.3).
 5. Normas Internacionales Adoptadas (FRA, AREMA 2021, EN 50716).
 
 ### 2.2 Relación de Normas Adoptadas
@@ -56,7 +56,7 @@ El proyecto moderniza el tramo de 526,13 km para carga, centrando el gasto en so
 
 ---
 
-## 4. FILOSOFÍA DE DISEÑO: ARQUITECTURA PTC VIRTUAL
+## 4. FILOSOFÍA DE DISENO: ARQUITECTURA PTC VIRTUAL
 ### 4.1. Fundamento Contractual
 Conforme a la Tabla 17 del AT1, el sistema es PTC. Para proteger el CAPEX, se elimina el hardware redundante en vía fuera de las 5 estaciones críticas.
 
@@ -64,9 +64,9 @@ Conforme a la Tabla 17 del AT1, el sistema es PTC. Para proteger el CAPEX, se el
 | Componente | Criterio Adoptado |
 | :--- | :--- |
 | **Arquitectura Central** | PTC Virtual (Software-Defined) |
-| **Detección en ENCE** | **Contadores de Ejes (Axle Counters) SIL-4** (Obligatorio) |
+| **Detección en ENCE** | **Posicionamiento GNSS/EOT Vital (Axle Counters) SIL-4** (Obligatorio) |
 | **Cantones en línea** | Virtuales (Gestionados por Back Office PTC) |
-| **Señalización Lateral** | Solo en las 5 estaciones críticas |
+| **Senalización Lateral** | Solo en las 5 estaciones críticas |
 | **Desvíos en línea** | Cambiavías autotalonables con comprobación al CCO |
 | **Comunicaciones** | TETRA / Satelital / Red Celular (Fase Transitoria) |
 | **Fibra Óptica** | G.652.D Full Spectrum (Sin Red Vital IP/G.652.D) |
@@ -81,7 +81,7 @@ Conforme a la Tabla 17 del AT1, el sistema es PTC. Para proteger el CAPEX, se el
 Basadas en FRA 49 CFR 236 Subpart I: Prevención de colisiones, exceso de velocidad y protección de zonas de trabajo.
 
 ### 5.2. Subsistema Embarcado (Onboard)
-El cerebro del sistema reside en el tren. Se exige el cumplimiento de la **EN 50716:2023** para asegurar que el software del tren y del servidor central se evalúen como una sola entidad vital, permitiendo la eliminación de señales físicas.
+El cerebro del sistema reside en el tren. Se exige el cumplimiento de la **EN 50716:2023** para asegurar que el software del tren y del servidor central se evalúen como una sola entidad vital, permitiendo la eliminación de senales físicas.
 - **Computador PTC**: Cumplimiento de **AREMA 2021 Parte 17** para aseguramiento de seguridad y matricería de peligros (Hazard Log).
 - **DMI**: Interfaz clara con Velocidad Permitida y Autorización de Movimiento (MA).
 
@@ -110,19 +110,19 @@ Protección autónoma local. No dependen de la lógica vital del PTC para su act
 ---
 
 ## 9. INTEROPERABILIDAD CON FENOCO
-### 9.1. Procedimiento Stop & Switch
+### 9.1. Procedimiento Handover Digital (Digital Gateway)
 La conexión en Chiriguaná es puramente operativa. El tren para, conmuta equipos y pide autorización manual a FENOCO. Se prohíbe cualquier interfaz lógica que requiera acceso a protocolos propietarios de terceros (Alstom/ITCS).
 
 ---
 
 ## 10. SISTEMA DE ENERGÍA Y BAJA TENSIÓN
 ### 10.1. Clasificación 
-- **Señalización (Vital)**: 110 V DC con rectificadores redundantes. 
+- **Senalización (Vital)**: 110 V DC con rectificadores redundantes. 
 - **Telecomunicaciones**: 48 V DC estándar ETSI.
 - **Autonomía**: Mínimo 8 horas de respaldo mediante baterías LiFePO4.
 
 ### 10.2. Protección del Riel (CWR)
-Para cumplir con **FRA 213.119**, se prohíbe la inyección de corriente al riel (Contadores de Ejes (Axle Counters)). La detección debe ser por Contadores de Ejes atornillados al patín que no interrumpen la integridad eléctrica del riel continuo.
+Para cumplir con **FRA 213.119**, se prohíbe la inyección de corriente al riel (Posicionamiento GNSS/EOT Vital (Axle Counters)). La detección debe ser por Posicionamiento GNSS/EOT Vital atornillados al patín que no interrumpen la integridad eléctrica del riel continuo.
 
 ---
 **FIN DEL DOCUMENTO MAESTRO v6.3.3 SICC**
