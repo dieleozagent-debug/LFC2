@@ -47,15 +47,17 @@ const LFC_DBCI = {
         "ADIF": "Estándar SICC (FRA/AREMA)",
         "EULYNX": "Arquitectura SICC v6.3.3",
         "Eurobalise": "Punto de Referencia Virtual (GNSS)",
-        "EUROBALISE": "Punto de Referencia Virtual (GNSS)",
-        "GSM-R": "Red Vital IP (Broadband)",
+        "EUROBALISE": "Invariable Virtual GNSS (SICC)",
+        "GSM-R": "Red Vital IP (SICC v7.0)",
+        "Eurobaliza": "Baliza Virtual (GNSS/EOT)",
+        "EUROBALIZA": "Baliza Virtual (GNSS/EOT)",
         "ETCS": "PTC Virtual (SICC)",
         "ERTMS": "PTC Virtual (SICC)",
         "RBC": "Servidor Maestro SICC",
         "Radio Block Centre": "Servidor Maestro SICC",
         
         // Purga de Hardware Wayside
-        "Contadores de ejes": "Posicionamiento GNSS/EOT Vital",
+        "Contadores de ejes": "Posicionamiento GNSS/EOT Vital (Sovereign)",
         "Circuitos de via": "Bloque Virtual Dinámico",
         "Circuitos de vía": "Bloque Virtual Dinámico",
         "Sistemas Propietarios": "Ecosistema Digital Abierto"
