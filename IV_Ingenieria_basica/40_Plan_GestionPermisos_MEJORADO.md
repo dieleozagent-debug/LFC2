@@ -26,12 +26,12 @@ La gestión de permisos se enfoca en la legalización de la infraestructura crí
 | **Uso de Espectro** | ANE | Cobertura IP / TETRA | ✅ RESTAURADO |
 | **Integración CCO** | ANI / Interventoría | Autorización Vital Server | ✅ RESTAURADO |
 | **FO Backbone** | ANLA / Invías | Liberación de vía digital | ✅ RESTAURADO |
-| **Interoperabilidad**| FENOCO / ANI | Convenio Digital Gateway | ✅ RESTAURADO |
+| **Interoperabilidad**| FENOCO / ANI | Protocolo Operativo Digital | ✅ RESTAURADO |
 
 ---
 
 ## 🔍 CONCLUSIONES DE SANEAMIENTO
-- ❌ **ELIMINADO:** Referencias a permisos para "Handover Digital (Digital Gateway)" o procedimientos manuales.
+- ❌ **ELIMINADO:** Referencias a permisos para infraestructura física ajena (Sec 25.4).
 - ❌ **ELIMINADO:** Trámites obsoletos para senales físicas wayside.
 - ✅ **RESTAURADO:** El enfoque administrativo en la celeridad de la infraestructura soberana.
 

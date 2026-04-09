@@ -15,8 +15,8 @@ El Sistema de Control y Senalización es el **"cerebro" del ferrocarril** que pe
 - **5 ENCE:** Enclavamientos electrónicos en estaciones críticas (La Dorada, Puerto Berrío, Barrancabermeja, Bucaramanga, Chiriguaná)
 - **120 desvíos:** Control automatizado de todos los desvíos en vía principal
 - **1 Bloque Integración:** IF-07 agregada (DT-INTERFACES-001) para integración CTC-PTC-FENOCO (Interoperabilidad FRA 918-4)
-- **Cobertura:** 100% del corredor con filosofía virtual (Soberanía FRA/AREMA - Sin Filosofía PTC Virtual)
-- **Disponibilidad requerida:** 99.95% (sistema crítico según estándares EN 50126)
+- **Cobertura:** 100% del corredor con filosofía virtual (Soberanía FRA/AREMA 2021 - Sin Filosofía PTC Virtual)
+- **Disponibilidad requerida:** 99.95% (sistema crítico según estándares Seguridad RAMS bajo FRA 236 Subpart I / PTCSP)
 
 ### Hitos críticos
 | Fase | Fecha | Estado |
@@ -185,12 +185,12 @@ El Sistema de Control y Senalización proporciona **control centralizado** de to
 ### Tabla consolidada de especificaciones
 | Parámetro | Valor | Estándar Aplicable |
 |:----------|:------|:-------------------|
-| Disponibilidad CTC | 99.95% | EN 50126 |
-| Disponibilidad PTC | 99.95% | EN 50126 |
-| Disponibilidad ENCE | 99.95% | EN 50126 |
-| Tiempo de respuesta | < 2 segundos | FRA/AREMA 920-2 |
-| Tiempo de recuperación | < 5 minutos | EN 50126 |
-| Cobertura de comunicación | 100% | FRA/AREMA 920-2 |
+| Disponibilidad CTC | 99.95% | Seguridad RAMS bajo FRA 236 Subpart I / PTCSP |
+| Disponibilidad PTC | 99.95% | Seguridad RAMS bajo FRA 236 Subpart I / PTCSP |
+| Disponibilidad ENCE | 99.95% | Seguridad RAMS bajo FRA 236 Subpart I / PTCSP |
+| Tiempo de respuesta | < 2 segundos | FRA/AREMA 2021 920-2 |
+| Tiempo de recuperación | < 5 minutos | Seguridad RAMS bajo FRA 236 Subpart I / PTCSP |
+| Cobertura de comunicación | 100% | FRA/AREMA 2021 920-2 |
 
 ### Criterios de aceptación
 - ✅ Disponibilidad 99.95% del sistema completo
@@ -265,12 +265,12 @@ El sistema opera 24/7 proporcionando control centralizado de todo el tráfico fe
 - **Gateways industriales:** Conversión de protocolos entre sistemas heterogéneos (CTC↔PTC↔FENOCO)
 - **Switches de borde ferroviario:** Segmentación de red por subsistema
 - **Firewalls IEC 62443:** Ciberseguridad industrial (Security Level SL-3)
-- **Middleware interoperabilidad:** Protocolo FRA/AREMA 918-4 para integración con FENOCO
+- **Middleware interoperabilidad:** Protocolo FRA/AREMA 2021 918-4 para integración con FENOCO
 - **Licencias software SCADA:** Gestión de comunicaciones y visualización
 
 **Interfaces que soporta:**
 1. **CTC ↔ PTC Virtual Nivel 2:** Intercambio de telegramas de movimiento y datos de ocupación desde Servidor PTC Central (Non-propietary).
-2. **CTC ↔ FENOCO:** Gateway FRA/AREMA con protocolo 918-4 para interoperabilidad
+2. **CTC ↔ FENOCO:** Gateway FRA/AREMA 2021 con protocolo 918-4 para interoperabilidad
 3. **CTC ↔ TETRA:** Canal de voz y datos para comunicaciones tren-tierra
 4. **CTC ↔ Fibra Óptica:** Backbone redundante N+1 del corredor (526 km)
 5. **CTC ↔ Sistemas ITS:** CCTV (73 cámaras), control acceso, detección intrusión

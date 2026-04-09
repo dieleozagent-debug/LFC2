@@ -180,7 +180,7 @@ El Sistema de Material Rodante proporciona **capacidad de transporte** para el c
 | Velocidad máxima | 120 km/h | FRA/AREMA |
 | Velocidad comercial | 80 km/h | FRA/AREMA |
 | Capacidad de carga | 50 toneladas | FRA/AREMA |
-| Disponibilidad flota | 99.95% | EN 50126 |
+| Disponibilidad flota | 99.95% | Seguridad RAMS bajo FRA 236 Subpart I / PTCSP |
 | Peso por locomotora | 120 toneladas | FRA/AREMA |
 
 ### Criterios de aceptación

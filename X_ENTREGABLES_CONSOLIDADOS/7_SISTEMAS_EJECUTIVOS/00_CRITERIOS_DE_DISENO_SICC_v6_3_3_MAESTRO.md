@@ -12,7 +12,7 @@
 ### 1.1. Propósito del documento
 Este documento tiene por propósito establecer los criterios técnicos, funcionales y normativos que regirán el desarrollo del diseno de detalle del Sistema de Senalización, control de tráfico y comunicaciones del Corredor Férreo La Dorada – Chiriguaná, en el marco del Contrato de Concesión APP No. 001 de 2025 y sus Apéndices Técnicos. Su alcance se limita a definir una base preliminar de diseno del sistema, su arquitectura general, sus principios de operación y los criterios mínimos de cumplimiento aplicables al subsistema de control de trenes, al Centro de Control de Operaciones, a las comunicaciones requeridas para la senalización, a la protección de pasos a nivel y a la interfaz operacional con la red de FENOCO. 
 
-El documento orienta el sistema hacia una arquitectura de Positive Train Control (PTC) con cantonamiento virtual, conforme a la exigencia contractual basada en la **FRA 49 CFR Part 236, Subpart I**, complementada por la FRA 49 CFR Part 213, el AREMA Manual for Railway Engineering y el AREMA Communications and Signals Manual, como marco técnico principal para el sistema de senalización y control de trenes. Para aspectos de seguridad funcional y comunicaciones de seguridad, se adoptan como referencia **EN 50126, EN 50716:2023, EN 50129 y EN 50159**. Para los elementos que deban desarrollarse en territorio colombiano se aplicará, además, la normativa nacional pertinente, en particular RETIE, NSR-10, NTC 4741 y el Manual de Senalización Vial adoptado mediante Resolución 20243040045005 de 2024.
+El documento orienta el sistema hacia una arquitectura de Positive Train Control (PTC) con cantonamiento virtual, conforme a la exigencia contractual basada en la **FRA 49 CFR Part 236, Subpart I**, complementada por la FRA 49 CFR Part 213, el AREMA Manual for Railway Engineering y el AREMA Communications and Signals Manual, como marco técnico principal para el sistema de senalización y control de trenes. Para aspectos de seguridad funcional y comunicaciones de seguridad, se adoptan como referencia **Seguridad RAMS bajo FRA 236 Subpart I / PTCSP, Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP):2023, Seguridad Electrónica Vital bajo FRA/PTC (§236.1015) y EN 50159**. Para los elementos que deban desarrollarse en territorio colombiano se aplicará, además, la normativa nacional pertinente, en particular RETIE, NSR-10, NTC 4741 y el Manual de Senalización Vial adoptado mediante Resolución 20243040045005 de 2024.
 
 El documento no constituye diseno constructivo ni reemplaza la ingeniería de detalle. En consecuencia, no define cantidades finales, localización exacta de equipos, rutas definitivas, coberturas, memorias de cálculo, planos constructivos, protocolos de prueba ni especificaciones de instalación.
 
@@ -55,9 +55,9 @@ El presente documento se interpreta y aplica en concordancia con el Contrato de 
 - **AAR Manual of Standards and Recommended Practices.**
 
 #### **B. Normativa Complementaria (Seguridad Funcional)**
-- **EN 50126** – RAMS (Garantía de Fiabilidad y Seguridad).
-- **EN 50716:2023** – Software para sistemas de control y protección.
-- **EN 50129** – Sistemas electrónicos relacionados con la seguridad.
+- **Seguridad RAMS bajo FRA 236 Subpart I / PTCSP** – RAMS (Garantía de Fiabilidad y Seguridad).
+- **Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP):2023** – Software para sistemas de control y protección.
+- **Seguridad Electrónica Vital bajo FRA/PTC (§236.1015)** – Sistemas electrónicos relacionados con la seguridad.
 - **EN 50159** – Comunicaciones relacionadas con seguridad.
 
 #### **C. Normativa Técnica de Telecomunicaciones**
@@ -77,7 +77,7 @@ El presente documento se interpreta y aplica en concordancia con el Contrato de 
 
 ## 3. JUSTIFICACIÓN TÉCNICA DE LOS ESTÁNDARES ADOPTADOS
 - **FRA 49 CFR Part 236, Subpart I:** Constituye la base normativa principal para la definición funcional del sistema PTC y la arquitectura PTC virtual adoptada.
-- **EN 50716:2023/50129:** Se adoptan para el desarrollo y validación del software y hardware electrónico, siempre que no contradigan el marco rector FRA/AREMA.
+- **Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP):2023/50129:** Se adoptan para el desarrollo y validación del software y hardware electrónico, siempre que no contradigan el marco rector FRA/AREMA.
 - **TETRA (ETSI EN 300 392):** Establece el marco técnico para las comunicaciones de voz y datos que soportarán la operación ferroviaria soberana.
 
 ---

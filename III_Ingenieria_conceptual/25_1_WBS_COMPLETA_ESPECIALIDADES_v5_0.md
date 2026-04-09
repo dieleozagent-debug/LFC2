@@ -17,7 +17,6 @@ Esta WBS refleja la arquitectura **Zero-Wayside** y la centralización de la int
 - **3.1 LFC-CCO (Cerebro Vital):**
     - 3.1.1 Instalación Servidor Maestro PTC (2oo3).
     - 3.1.2 Configuración de Enclavamiento Virtual (ENCE lógicos).
-    - 3.1.3 Digital Gateway (FRA/AREMA Interop).
 - **3.2 Segmento Embarcado (PTC):**
     - 3.2.1 Equipamiento Smart-OBC (15 Locomotoras).
     - 3.2.2 Dispositivos de Cola Vitales (EOT).

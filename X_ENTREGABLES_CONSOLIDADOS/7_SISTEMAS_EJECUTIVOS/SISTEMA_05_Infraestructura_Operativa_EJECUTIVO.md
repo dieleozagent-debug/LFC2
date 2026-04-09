@@ -187,7 +187,7 @@ El Sistema de Infraestructura Operativa proporciona **soporte físico** para la 
 | Capacidad CCO | 500 operadores | NSR-10 |
 | Capacidad subestaciones | 50 MVA | RETIE |
 | Tensión de operación | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | RETIE |
-| Disponibilidad CCO | 99.95% | EN 50126 |
+| Disponibilidad CCO | 99.95% | Seguridad RAMS bajo FRA 236 Subpart I / PTCSP |
 | Disponibilidad subestaciones | 99.95% | RETIE |
 | Eficiencia energética | 90% | RETIE |
 

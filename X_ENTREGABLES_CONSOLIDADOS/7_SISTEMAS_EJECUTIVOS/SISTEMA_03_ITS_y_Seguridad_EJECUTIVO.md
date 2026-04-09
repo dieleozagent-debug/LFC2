@@ -80,7 +80,7 @@ El Sistema de ITS y Seguridad es el **"sistema de vigilancia y protección"** de
 **Criterios de Disponibilidad:**
 - **99.5% CCTV:** Sistema de monitoreo (no crítico para operación)
 - **99.5% ITS:** Sistema de información (no crítico para operación)
-- **99.95% Seguridad Física:** Sistema crítico (SIL 4 según EN 50126)
+- **99.95% Seguridad Física:** Sistema crítico (SIL 4 según Seguridad RAMS bajo FRA 236 Subpart I / PTCSP)
 
 ---
 
@@ -173,12 +173,12 @@ El Sistema de ITS y Seguridad proporciona **protección integral** de la infraes
 ### Tabla consolidada de especificaciones
 | Parámetro | Valor | Estándar Aplicable |
 |:----------|:------|:-------------------|
-| Resolución CCTV | 1080p mínimo | EN 50126 |
-| Disponibilidad CCTV | 99.5% | EN 50126 |
-| Disponibilidad ITS | 99.5% | EN 50126 |
-| Almacenamiento video | 30 días mínimo | EN 50126 |
-| Tiempo de respuesta | < 1 segundo | EN 50126 |
-| Cobertura de monitoreo | 100% instalaciones críticas | EN 50126 |
+| Resolución CCTV | 1080p mínimo | Seguridad RAMS bajo FRA 236 Subpart I / PTCSP |
+| Disponibilidad CCTV | 99.5% | Seguridad RAMS bajo FRA 236 Subpart I / PTCSP |
+| Disponibilidad ITS | 99.5% | Seguridad RAMS bajo FRA 236 Subpart I / PTCSP |
+| Almacenamiento video | 30 días mínimo | Seguridad RAMS bajo FRA 236 Subpart I / PTCSP |
+| Tiempo de respuesta | < 1 segundo | Seguridad RAMS bajo FRA 236 Subpart I / PTCSP |
+| Cobertura de monitoreo | 100% instalaciones críticas | Seguridad RAMS bajo FRA 236 Subpart I / PTCSP |
 
 ### Criterios de aceptación
 - ✅ Resolución mínima 1080p para todas las cámaras

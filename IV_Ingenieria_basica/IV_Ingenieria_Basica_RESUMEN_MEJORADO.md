@@ -22,7 +22,7 @@ La Ingeniería Básica se fundamenta en la arquitectura **Zero-Wayside** y el co
 - **Redundancia:** Enlace permanente para la transmisión de misiones críticas.
 
 ### 3. INTEROPERABILIDAD DIGITAL
-- **Gateway Soberano:** Se define la interfaz digital con FENOCO basada en estándares **FRA/AREMA**, prohibiendo taxativamente el uso de "Handover Digital (Digital Gateway)".
+- **Interfaz Soberana:** Se define la comunicación digital con FENOCO basada en estándares **FRA/AREMA**, prohibiendo taxativamente cualquier infraestructura física de Gateway ajena a LFC.
 
 ---
 
@@ -32,13 +32,13 @@ La Ingeniería Básica se fundamenta en la arquitectura **Zero-Wayside** y el co
 |:---|:---|:---:|
 | **Control** | Vital Server 2oo3 | ✅ RESTAURADO |
 | **Comunicaciones**| Red Vital IP / TETRA | ✅ RESTAURADO |
-| **Interoperabilidad**| Digital Gateway | ✅ RESTAURADO |
+| **Interoperabilidad**| Handover Operativo | ✅ SOBERANO |
 | **Senalización** | V-Block (Virtual) | ✅ RESTAURADO |
 
 ---
 
 ## 🔍 CONCLUSIONES DE SANEAMIENTO
-- ❌ **ELIMINADO:** La falsa premisa de que "Handover Digital (Digital Gateway)" es un estándar soberano.
+- ❌ **ELIMINADO:** El sobrediseño físico de "Digital Gateway" (Obra Complementaria Sec 25.4).
 - ❌ **ELIMINADO:** Disenos que requerían senalización física redundante.
 - ✅ **RESTAURADO:** El diseno básico alineado con la **Soberanía Digital**.
 

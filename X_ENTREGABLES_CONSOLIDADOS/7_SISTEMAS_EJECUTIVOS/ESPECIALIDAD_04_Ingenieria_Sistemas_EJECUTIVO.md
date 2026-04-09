@@ -1,4 +1,4 @@
-﻿# ESPECIALIDAD 04: INGENIERÍA DE SISTEMAS
+# ESPECIALIDAD 04: INGENIERÍA DE SISTEMAS
 ## Documento Ejecutivo de Ingeniería
 
 ---
@@ -11,8 +11,8 @@ La Ingeniería de Sistemas es el **"sistema nervioso"** del ferrocarril que inte
 ### Alcance en números - JUSTIFICACIÓN TÉCNICA
 - **Inversión estimada:** $35,000 millones COP
 - **6 sistemas técnicos integrados:** Control, Telecomunicaciones, ITS, Seguridad, Material Rodante, Infraestructura
-- **25 interfaces críticas:** Comunicación entre sistemas
-- **15 protocolos:** Estándares de interoperabilidad
+- **12 APIs:** Comunicación con sistemas externos
+- **22 interfaces críticas:** Comunicación entre sistemas
 - **12 APIs:** Comunicación con sistemas externos
 - **99.95% disponibilidad:** Sistemas críticos integrados
 
@@ -38,7 +38,7 @@ La Ingeniería de Sistemas es el **"sistema nervioso"** del ferrocarril que inte
 - **ITS-Seguridad:** 3 interfaces para monitoreo y control
 - **Material Rodante-PTC:** 4 interfaces para control embarcado
 - **Infraestructura:** 6 interfaces para coordinación
-- **FENOCO:** 3 interfaces para interoperabilidad nacional
+- **FENOCO:** Procedimiento operacional a bordo
 
 ### ¿Por qué 15 protocolos de interoperabilidad?
 **Justificación de Protocolos:**
@@ -82,15 +82,6 @@ La Ingeniería de Sistemas proporciona **integración y coordinación** entre to
 | **APIs** | 12 externas | Comunicación con FENOCO |
 | **Disponibilidad** | 99.95% | Sistemas críticos |
 
-### 2. Gateway de Integración
-**Propósito:** Conversión de protocolos entre sistemas
-
-**Componentes instalados:**
-| Componente | Cantidad | Función | Estado |
-|:-----------|:---------|:--------|:-------|
-| **Gateway FRA/AREMA** | 1 unidad | Conversión protocolos | ⏳ En desarrollo |
-| **Sistema de monitoreo** | 1 unidad | Supervisión integrada | ⏳ En desarrollo |
-| **Sistema de control** | 1 unidad | Coordinación centralizada | ⏳ En desarrollo |
 
 ---
 
@@ -99,17 +90,15 @@ La Ingeniería de Sistemas proporciona **integración y coordinación** entre to
 ### Tabla consolidada de especificaciones
 | Parámetro | Valor | Estándar Aplicable |
 |:----------|:------|:-------------------|
-| Interfaces críticas | 25 | Especificaciones proyecto |
-| Protocolos | 15 | FRA/AREMA + FFFIS |
+| Protocolos | 12 | FRA/AREMA + FFFIS |
 | APIs externas | 12 | Especificaciones proyecto |
 | Disponibilidad | 99.95% | AT4 |
 | Tiempo de respuesta | < 2 seg | Especificaciones proyecto |
 
 ### Criterios de aceptación
-- ✅ 25 interfaces críticas operativas
-- ✅ 15 protocolos implementados
+- ✅ 22 interfaces críticas operativas
+- ✅ 12 protocolos implementados
 - ✅ 12 APIs funcionando
-- ✅ Gateway de integración operativo
 - ✅ Disponibilidad 99.95%
 
 ---
@@ -120,9 +109,7 @@ La Ingeniería de Sistemas proporciona **integración y coordinación** entre to
 Los sistemas de integración están centralizados en el CCO La Dorada y se extienden a todos los sistemas del proyecto.
 
 ### Tabla de ubicaciones principales
-| Ubicación | Componentes | Función | Estado |
-|:----------|:------------|:--------|:-------|
-| **CCO La Dorada** | Gateway + Monitoreo + Control | Integración centralizada | ⏳ En desarrollo |
+| **CCO La Dorada** | Monitoreo + Control | Integración centralizada | ⏳ En desarrollo |
 | **Sistemas distribuidos** | Interfaces + APIs | Comunicación distribuida | ⏳ En desarrollo |
 
 ---
@@ -175,8 +162,8 @@ Los sistemas de integración operan 24/7 coordinando todos los sistemas técnico
 | Supuesto | Valor Asumido | Impacto si Cambia | Mitigación |
 |:---------|:--------------|:------------------|:-----------|
 | **Disponibilidad sistemas** | 99.95% | Fallo en integración | Sistemas redundantes |
-| **Protocolos estándar** | FRA/AREMA + FFFIS | Incompatibilidad | Gateway de conversión |
-| **Interoperabilidad FENOCO** | Protocolos FRA/AREMA | Limitaciones operativas | Compatibilidad dual |
+| **Protocolos estándar** | FRA/AREMA + FFFIS | Incompatibilidad | Mapeo de protocolos |
+| **Interoperabilidad FENOCO** | Protocolos FRA/AREMA | Limitaciones operativas | Procedimiento Operacional |
 | **Tiempo de respuesta** | < 2 seg | Degradación servicio | Optimización de red |
 
 ### Limitaciones del Diseno
@@ -200,7 +187,7 @@ Los sistemas de integración operan 24/7 coordinando todos los sistemas técnico
 | Riesgo | Probabilidad | Impacto | Mitigación | Estado |
 |:-------|:-------------|:---------|:-----------|:-------|
 | Fallo de integración | Media | Alto | Sistemas redundantes | ✅ Mitigado |
-| Incompatibilidad protocolos | Baja | Alto | Gateway de conversión | ✅ Mitigado |
+| Incompatibilidad protocolos | Baja | Alto | Mapeo estandarizado | ✅ Mitigado |
 | Fallo de comunicaciones | Media | Alto | Múltiples rutas | ✅ Mitigado |
 | Actualizaciones de software | Media | Medio | Plan de actualizaciones | ✅ Mitigado |
 | Personal especializado | Media | Medio | Capacitación continua | ✅ Mitigado |

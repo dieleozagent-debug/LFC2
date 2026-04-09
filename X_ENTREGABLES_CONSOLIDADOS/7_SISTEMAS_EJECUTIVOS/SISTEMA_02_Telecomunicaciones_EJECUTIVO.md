@@ -14,7 +14,7 @@ El Sistema de Telecomunicaciones es la **red de comunicación vital** del ferroc
 - **526 km fibra óptica:** Longitud total del corredor ferroviario La Dorada-Chiriguaná
 - **2,068 cajas de empalme:** Calculadas cada 300m (594,000m ÷ 300m = 1,980 + 88 adicionales por redundancia)
 - **Cobertura:** 100% del corredor garantizada por diseno
-- **Disponibilidad requerida:** 99.5% TETRA, 99.95% Red Vital IP / TETRA (según estándares EN 50126)
+- **Disponibilidad requerida:** 99.5% TETRA, 99.95% Red Vital IP / TETRA (según estándares Seguridad RAMS bajo FRA 236 Subpart I / PTCSP)
 
 ### Hitos críticos
 | Fase | Fecha | Estado |
@@ -205,9 +205,9 @@ El Sistema de Telecomunicaciones proporciona **comunicación en tiempo real** en
 |:----------|:------|:-------------------|
 | Cobertura TETRA | 100% del corredor | FRA/AREMA 920-2 |
 | Cobertura Red Vital IP / TETRA | 100% del corredor | FRA/AREMA 920-2 |
-| Disponibilidad TETRA | 99.5% | EN 50126 |
-| Disponibilidad Red Vital IP / TETRA | 99.95% | EN 50126 |
-| Velocidad de datos | 1 Gbps por estación | IEEE 802.3 |
+| Disponibilidad TETRA | 99.5% | Seguridad RAMS bajo FRA 236 Subpart I / PTCSP |
+| Disponibilidad Red Vital IP / TETRA | 99.95% | Seguridad RAMS bajo FRA 236 Subpart I / PTCSP |
+| Velocidad de datos | 1 Gbps por estación | Catálogo IEEE Industrial (802.3z/u/an/af | 802.1q/p/d/w/x) |
 | Tiempo de respuesta | < 500ms | FRA/AREMA 920-2 |
 | Altura de torres | 40 metros | RETIE |
 
@@ -251,9 +251,9 @@ Las 37 estaciones de telecomunicaciones están ubicadas estratégicamente a lo l
 ### Alimentación Eléctrica Total
 - **Potencia total:** 37 estaciones × 8.0 kW = **296 kW**
 - **Tipo de alimentación:** 220V AC trifásica
-- **Respaldo:** UPS 2 horas + generador de respaldo
+- **Respaldo:** Sistema Híbrido SICC 12h (UPS Litio + Solar / Zero-Diesel)
 - **Fuente primaria:** Red eléctrica local (cada estación)
-- **Respaldo secundario:** Generadores diésel 10 kW por estación
+- **Respaldo secundario:** Sistemas Fotovoltaicos 2kWp por estación (Soberanía Energética)
 
 ---
 

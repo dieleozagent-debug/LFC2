@@ -19,7 +19,7 @@ El Plan de Pruebas certifica la **Soberanía Digital** del sistema. Se validará
 
 ### 2. PRUEBAS DE INTEGRACIÓN DE SISTEMAS (SIT)
 - **MA Flow:** Validación del despliegue de Autorizaciones de Movimiento desde el CCO hasta el **OBC**.
-- **Handover Digital:** Certificación de la transición de autoridad en frontera mediante el **Digital Gateway**.
+- **Handover Operativo:** Validación del procedimiento de cambio de autoridad mediante Red Vital IP.
 
 ---
 
@@ -29,13 +29,12 @@ El Plan de Pruebas certifica la **Soberanía Digital** del sistema. Se validará
 |:---|:---|:---|:---:|
 | **SIT-SICC-01** | Reporte de Posicionamiento | Precisión GNSS < 10m (SICC) | ✅ RESTAURADO |
 | **SIT-SICC-02** | Autoridad de Movimiento MA | Recepción íntegra < 200ms | ✅ RESTAURADO |
-| **SIT-SICC-03** | Interoperabilidad Gateway| Handover Digital FRA-AREMA | ✅ RESTAURADO |
 
 ---
 
 ## 🔍 CONCLUSIONES DE SANEAMIENTO
 - ❌ **ELIMINADO:** Corrupciones de texto que fusionaban 'Red Vital IP' con 'TETRA'.
-- ❌ **ELIMINADO:** Pruebas basadas en el procedimiento manual "Handover Digital (Digital Gateway)".
+- ❌ **ELIMINADO:** Pruebas basadas en infraestructura física de Gateway (Sec 25.4).
 - ✅ **RESTAURADO:** El rigor técnico de la validación soberana.
 
 ---

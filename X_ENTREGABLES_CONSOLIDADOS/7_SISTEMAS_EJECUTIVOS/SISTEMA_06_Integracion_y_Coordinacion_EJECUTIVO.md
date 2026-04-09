@@ -196,12 +196,12 @@ El Sistema de Integración y Coordinación proporciona **coordinación integral*
 ### Tabla consolidada de especificaciones
 | Parámetro | Valor | Estándar Aplicable |
 |:----------|:------|:-------------------|
-| Disponibilidad interfaces | 99.95% | EN 50126 |
-| Tiempo de respuesta | < 100ms | EN 50126 |
-| Ancho de banda | 1 Gbps | EN 50126 |
-| Latencia máxima | 50ms | EN 50126 |
-| Disponibilidad coordinación | 99.95% | EN 50126 |
-| Sincronización temporal | < 1ms | EN 50126 |
+| Disponibilidad interfaces | 99.95% | Seguridad RAMS bajo FRA 236 Subpart I / PTCSP |
+| Tiempo de respuesta | < 100ms | Seguridad RAMS bajo FRA 236 Subpart I / PTCSP |
+| Ancho de banda | 1 Gbps | Seguridad RAMS bajo FRA 236 Subpart I / PTCSP |
+| Latencia máxima | 50ms | Seguridad RAMS bajo FRA 236 Subpart I / PTCSP |
+| Disponibilidad coordinación | 99.95% | Seguridad RAMS bajo FRA 236 Subpart I / PTCSP |
+| Sincronización temporal | < 1ms | Seguridad RAMS bajo FRA 236 Subpart I / PTCSP |
 
 ### Criterios de aceptación
 - ✅ 25 interfaces operativas entre sistemas

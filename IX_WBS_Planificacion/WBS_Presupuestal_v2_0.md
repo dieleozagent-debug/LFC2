@@ -103,9 +103,9 @@
 #### **2.2 Sistema Red Vital IP / TETRA (37 Estaciones Colocalizadas)**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
 |:---|:---|:---:|:---:|:---:|:---:|
-| **2.2.100** | Estaciones base Red Vital IP / TETRA | 37 | $45,000,000 | $1,665,000,000 |
-| **2.2.101** | Antenas Red Vital IP / TETRA | 37 | $8,000,000 | $296,000,000 |
-| **2.2.102** | Radios embarcados Red Vital IP / TETRA | 30 | $25,000,000 | $750,000,000 |
+| **2.2.100** | Estaciones base Red Vital IP / TETRA (Soberanía SICC v7.0) | 37 | $45,000,000 | $1,665,000,000 |
+| **2.2.101** | Antenas Red Vital IP / TETRA (Broadband) | 37 | $8,000,000 | $296,000,000 |
+| **2.2.102** | Radios embarcados Red Vital IP / TETRA (ZR-Optics Compatible) | 30 | $25,000,000 | $750,000,000 |
 | **2.2.103** | Sistema control Red Vital IP / TETRA | 1 | $80,000,000 | $80,000,000 |
 | **2.2.104** | Interfaces TETRA-Red Vital IP / TETRA | 37 | $5,000,000 | $185,000,000 |
 | **2.2.105** | Sistema redundancia | 1 | $150,000,000 | $150,000,000 |
@@ -114,7 +114,7 @@
 | **2.2.108** | Repuestos (10%) | - | - | $312,000,000 |
 | **SUBTOTAL Red Vital IP / TETRA** | | | | **$3,618,000,000** |
 
-#### **2.3 Fibra Óptica (526 km)**
+#### **2.4 Subsistema de Potencia Soberana (37 Nodos)**\n| **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |\n|:---|:---|:---:|:---:|:---:|\n| **2.4.100** | Bancos Baterías LiFePO4 (12h autonomía) + Inversor Híbrido | 37 | $48,000,000 | $1,776,000,000 |\n| **2.4.101** | Arreglo Fotovoltaico 2kWp (Paneles + Estructura) | 37 | $15,000,000 | $555,000,000 |\n| **2.4.102** | Sistema de Gestión de Energía (EMS) con monitoreo remoto | 37 | $5,000,000 | $185,000,000 |\n| **SUBTOTAL POTENCIA SOBERANA** | | | | **$2,516,000,000** |\n\n#### **2.4 Subsistema de Potencia Soberana (37 Nodos)**\n| **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |\n|:---|:---|:---:|:---:|:---:|\n| **2.4.100** | Bancos Baterías LiFePO4 (12h autonomía) + Inversor Híbrido | 37 | $48,000,000 | $1,776,000,000 |\n| **2.4.101** | Arreglo Fotovoltaico 2kWp (Paneles + Estructura) | 37 | $15,000,000 | $555,000,000 |\n| **2.4.102** | Sistema de Gestión de Energía (EMS) con monitoreo remoto | 37 | $5,000,000 | $185,000,000 |\n| **SUBTOTAL POTENCIA SOBERANA** | | | | **$2,516,000,000** |\n\n#### **2.4 Subsistema de Potencia Soberana (37 Nodos)**\n| **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |\n|:---|:---|:---:|:---:|:---:|\n| **2.4.100** | Bancos Baterías LiFePO4 (12h autonomía) + Inversor Híbrido | 37 | $48,000,000 | $1,776,000,000 |\n| **2.4.101** | Arreglo Fotovoltaico 2kWp (Paneles + Estructura) | 37 | $15,000,000 | $555,000,000 |\n| **2.4.102** | Sistema de Gestión de Energía (EMS) con monitoreo remoto | 37 | $5,000,000 | $185,000,000 |\n| **SUBTOTAL POTENCIA SOBERANA** | | | | **$2,516,000,000** |\n\n#### **2.3 Fibra Óptica (526 km)**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
 |:---|:---|:---:|:---:|:---:|
 | **2.3.100** | Cable fibra óptica 48 fibras (Instalación 526km + 10% Gasa Técnica) | 579 km | $9,811,013 | $5,680,576,527 |
@@ -186,7 +186,7 @@
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
 |:---|:---|:---:|:---:|:---:|
 | **4.1.100** | Sistemas barreras automáticas | 9 | $180,000,000 | $1,620,000,000 |
-| **4.1.101** | Senalización LED | 9 | $80,000,000 | $720,000,000 |
+| **4.1.101** | Senalización LED (Res. 20243040045005) | 9 | $80,000,000 | $720,000,000 |
 | **4.1.102** | Sistemas detección vehículos | 9 | $360,000,000 | $3,240,000,000 |
 | **4.1.103** | Sistemas comunicación | 9 | $60,000,000 | $540,000,000 |
 | **4.1.104** | Sistemas emergencia | 9 | $40,000,000 | $360,000,000 |
@@ -198,7 +198,7 @@
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
 |:---|:---|:---:|:---:|:---:|
 | **4.2.100** | Sistemas barreras manuales | 15 | $120,000,000 | $1,800,000,000 |
-| **4.2.101** | Senalización basica | 15 | $50,000,000 | $750,000,000 |
+| **4.2.101** | Senalización basica (Res. 20243040045005) | 15 | $50,000,000 | $750,000,000 |
 | **4.2.102** | Sistemas detección | 15 | $80,000,000 | $1,200,000,000 |
 | **4.2.103** | Sistemas comunicación | 15 | $40,000,000 | $600,000,000 |
 | **4.2.104** | Instalación | 15 | $60,000,000 | $900,000,000 |
@@ -208,7 +208,7 @@
 #### **4.3 Pasos a Nivel Otros (122 Unidades)**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
 |:---|:---|:---:|:---:|:---:|
-| **4.3.100** | Senalización basica | 122 | $25,000,000 | $3,050,000,000 |
+| **4.3.100** | Senalización basica (Manual 2024 / Res. 20243040045005) | 122 | $25,000,000 | $3,050,000,000 |
 | **4.3.101** | Sistemas comunicación | 0 | $20,000,000 | $0 |
 | **4.3.102** | Instalación | 0 | $30,000,000 | $0 |
 | **4.3.103** | Repuestos (10%) | - | - | $305,000,000 |
