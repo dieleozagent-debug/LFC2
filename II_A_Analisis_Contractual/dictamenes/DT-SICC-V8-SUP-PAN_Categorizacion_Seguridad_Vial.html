@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DT-SICC-V8-SUP-PAN Categorizacion Seguridad
+Vial - LFC STUDIO</title>
+    <link rel="stylesheet" href="/IX_WBS_Planificacion/wbs-shared.css?v=6.3.2">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0f172a;
+            --secondary: #1e293b;
+            --accent: #0ea5e9;
+            --accent-glow: rgba(14, 165, 233, 0.2);
+            --glass-bg: rgba(255, 255, 255, 1);
+            --glass-border: #e2e8f0;
+            --text-main: #1e293b;
+            --text-dim: #64748b;
+            --sidebar-width: 280px;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background-color: #f8fafc;
+            color: var(--text-main);
+            margin: 0;
+            display: flex;
+            line-height: 1.6;
+        }
+
+        #lfc-sidebar-container {
+            width: var(--sidebar-width);
+            height: 100vh;
+            position: fixed;
+            z-index: 1000;
+        }
+
+        .main-content-wrapper {
+            margin-left: var(--sidebar-width);
+            flex: 1;
+            padding: 3rem;
+            max-width: 1400px;
+            width: 100%;
+        }
+
+        .premium-card {
+            background: #fff;
+            border-radius: 20px;
+            padding: 2.5rem;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+            margin-bottom: 2rem;
+        }
+
+        .premium-title {
+            font-size: 2.8rem;
+            font-weight: 800;
+            letter-spacing: -1.5px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+            line-height: 1.2;
+        }
+
+        #TOC {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 16px;
+            margin-bottom: 2rem;
+            border-left: 5px solid var(--accent);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+        }
+
+        #TOC h3 { margin-top: 0; color: var(--primary); font-size: 1.1rem; }
+        #TOC ul { list-style: none; padding-left: 0; }
+        #TOC li { margin-bottom: 0.5rem; }
+        #TOC a {
+            color: var(--text-dim);
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.2s;
+            font-size: 0.95rem;
+        }
+
+        #TOC a:hover {
+            color: var(--accent);
+            padding-left: 5px;
+        }
+
+        .premium-doc-content {
+            background: #fff;
+            padding: 3.5rem;
+            border-radius: 24px;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 4px 30px rgba(0,0,0,0.02);
+        }
+
+        .premium-doc-content h1, .premium-doc-content h2 {
+            color: var(--primary);
+            font-weight: 700;
+            margin-top: 2.5rem;
+            border-bottom: 2px solid #f1f5f9;
+            padding-bottom: 0.5rem;
+        }
+
+        .premium-doc-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid #e2e8f0;
+        }
+
+        .premium-doc-content th {
+            background: #f1f5f9;
+            color: var(--primary);
+            text-align: left;
+            padding: 1rem;
+            font-weight: 700;
+        }
+
+        .premium-doc-content td {
+            padding: 1rem;
+            border-bottom: 1px solid #f1f5f9;
+        }
+
+        footer {
+            margin-top: 5rem;
+            text-align: center;
+            opacity: 0.4;
+            font-size: 0.85rem;
+            color: var(--text-dim);
+        }
+
+        @media (max-width: 1024px) {
+            .main-content-wrapper { margin-left: 0; padding: 2rem 1rem; }
+            #lfc-sidebar-container { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <div id="lfc-sidebar-container"></div>
+    <div class="main-content-wrapper">
+        <header class="premium-card">
+            <div class="premium-header-content" style="text-align: center;">
+                <h1 id="adn-page-title" class="premium-title">DT-SICC-V8-SUP-PAN
+Categorizacion Seguridad Vial</h1>
+                <p id="main-dns-subtitle" style="font-weight: 500; color: var(--text-dim); margin: 0;">REPORTE EJECUTIVO SICC | VERSIÓN DINÁMICA</p>
+                <div class="adn-version-tag-wrapper" style="margin-top: 10px;">
+                    <span style="background: var(--primary); color: #fff; padding: 3px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.5px;">v<span id="adn-version-tag">6.3.3</span></span>
+                </div>
+            </div>
+        </header>
+
+        <nav id="TOC">
+            <h3>📍 ÍNDICE DE CONTENIDO</h3>
+            <ul>
+            <li><a
+            href="#dictamen-técnico-saneamiento-y-categorización-de-seguridad-vial-pan"
+            id="toc-dictamen-técnico-saneamiento-y-categorización-de-seguridad-vial-pan">DICTAMEN
+            TÉCNICO: SANEAMIENTO Y CATEGORIZACIÓN DE SEGURIDAD VIAL
+            (PAN)</a>
+            <ul>
+            <li><a href="#objeto" id="toc-objeto">1. OBJETO</a></li>
+            <li><a href="#marco-contractual-aplicable"
+            id="toc-marco-contractual-aplicable">2. MARCO CONTRACTUAL
+            APLICABLE</a></li>
+            <li><a href="#hallazgo-forense-la-infección-de-los-146"
+            id="toc-hallazgo-forense-la-infección-de-los-146">3.
+            HALLAZGO FORENSE: LA INFECCIÓN DE LOS 146</a></li>
+            <li><a href="#instrucción-técnica-obligación-de-resultado"
+            id="toc-instrucción-técnica-obligación-de-resultado">4.
+            INSTRUCCIÓN TÉCNICA (OBLIGACIÓN DE RESULTADO)</a>
+            <ul>
+            <li><a
+            href="#a.-cruces-activos-mínimos-contractuales---24-unidades"
+            id="toc-a.-cruces-activos-mínimos-contractuales---24-unidades">A.
+            Cruces ACTIVOS (Mínimos Contractuales - 24
+            Unidades)</a></li>
+            <li><a
+            href="#b.-cruces-pasivos-saneamiento-sicc---122-unidades"
+            id="toc-b.-cruces-pasivos-saneamiento-sicc---122-unidades">B.
+            Cruces PASIVOS (Saneamiento SICC - 122 Unidades)</a></li>
+            </ul></li>
+            <li><a href="#impacto-en-capex-y-opex"
+            id="toc-impacto-en-capex-y-opex">5. IMPACTO EN CAPEX Y
+            OPEX</a></li>
+            <li><a href="#conclusión" id="toc-conclusión">6.
+            CONCLUSIÓN</a></li>
+            </ul></li>
+            </ul>
+        </nav>
+
+        <article class="premium-doc-content">
+            <h1
+            id="dictamen-técnico-saneamiento-y-categorización-de-seguridad-vial-pan">DICTAMEN
+            TÉCNICO: SANEAMIENTO Y CATEGORIZACIÓN DE SEGURIDAD VIAL
+            (PAN)</h1>
+            <p><strong>ID:</strong>
+            DT-SICC-V8-SUP-PAN_Categorizacion_Seguridad_Vial<br />
+            <strong>Versión:</strong> 8.4 (Michelin Edition)<br />
+            <strong>Fecha:</strong> 20 de marzo de 2026<br />
+            <strong>Clasificación:</strong> 🔴 SOBERANÍA CRÍTICA | 💰
+            CAPEX RESTRINGIDO</p>
+            <hr />
+            <h2 id="objeto">1. OBJETO</h2>
+            <p>Saneamiento forense del inventario de <strong>Pasos a
+            Nivel (PAN)</strong> para alinear el diseño de ITS y CCTV
+            con la <strong>Matriz Contractual del AT1 (Tabla
+            24)</strong> y el presupuesto de la <strong>WBS
+            v4.0</strong>. Este dictamen prohíbe la instalación de
+            electrónica de campo en los 122 cruces rurales clasificados
+            como <strong>Tipo A</strong>.</p>
+            <h2 id="marco-contractual-aplicable">2. MARCO CONTRACTUAL
+            APLICABLE</h2>
+            <p>Para evitar la alucinación de los “146 Pasos Activos”, se
+            ratifica la jerarquía del Apéndice Técnico 1 (AT1): 1.
+            <strong>AT1 Tabla 24:</strong> Establece el inventario base
+            vinculante de 146 cruces con su categoría de señalización
+            proyectada. 2. <strong>Definición Tipo A:</strong> Según
+            AT1, los cruces Tipo A están “Protegidos exclusivamente con
+            Señales Fijas” (Protección Pasiva). 3. <strong>Sección
+            9.3(a) del Contrato:</strong> El diseño de detalle debe
+            garantizar la eficiencia. Incluir cámaras y barreras en
+            cruces Tipo A es una ineficiencia técnica y financiera.</p>
+            <h2 id="hallazgo-forense-la-infección-de-los-146">3.
+            HALLAZGO FORENSE: LA INFECCIÓN DE LOS 146</h2>
+            <p>Se ha detectado que los entregables de <strong>CCTV
+            (Especialidad 31)</strong> e <strong>ITS (Especialidad
+            30)</strong> exigen equipamiento electrónico para la
+            totalidad de los 146 cruces. * <strong>Realidad:</strong>
+            Solo se autorizan <strong>24 cruces activos</strong> (9 Tipo
+            C + 15 Tipo B) como piso contractual. * <strong>Heredad
+            Obsoleta:</strong> El diseño actual intenta tratar a los 122
+            cruces rurales (Caminos de Vereda) como si requirieran
+            integración vital, lo cual representa un riesgo de
+            sobrecosto de <strong>$20,000,000,000 COP</strong>.</p>
+            <h2 id="instrucción-técnica-obligación-de-resultado">4.
+            INSTRUCCIÓN TÉCNICA (OBLIGACIÓN DE RESULTADO)</h2>
+            <p>Se ordena a <strong>Ardanuy</strong> y al equipo de
+            ingeniería civil aplicar la siguiente <strong>Matriz de
+            Saneamiento</strong>:</p>
+            <h3
+            id="a.-cruces-activos-mínimos-contractuales---24-unidades">A.
+            Cruces ACTIVOS (Mínimos Contractuales - 24 Unidades)</h3>
+            <ul>
+            <li><strong>Categoría:</strong> 9 Tipo C (Barreras
+            Automáticas) + 15 Tipo B (Luz/Sonido).</li>
+            <li><strong>Electrónica:</strong> Se autorizan Sensores,
+            Cámaras PTZ, PMV e Integración al CTC/SCADA.</li>
+            <li><strong>Prioridad:</strong> Centros urbanos y cruces de
+            vías nacionales (Clase A).</li>
+            </ul>
+            <h3
+            id="b.-cruces-pasivos-saneamiento-sicc---122-unidades">B.
+            Cruces PASIVOS (Saneamiento SICC - 122 Unidades)</h3>
+            <ul>
+            <li><strong>Categoría:</strong> Tipo A.</li>
+            <li><strong>Electrónica:</strong> 🚫
+            <strong>PROHIBIDA</strong>. 0 Cámaras, 0 Barreras, 0
+            Sensores.</li>
+            <li><strong>Infraestructura:</strong> Renovación civil de
+            placa (concreto/contrarriel) y dotación de
+            <strong>Señalización Fija</strong> (SR-01 PARE y Cruz de San
+            Andrés) conforme al Manual de Señalización Vial de
+            Colombia.</li>
+            <li><strong>Seguridad:</strong> Basada en la bocina del tren
+            y visibilidad mínima de 150m (Norma NTC 4741).</li>
+            </ul>
+            <h2 id="impacto-en-capex-y-opex">5. IMPACTO EN CAPEX Y
+            OPEX</h2>
+            <table>
+            <colgroup>
+            <col style="width: 25%" />
+            <col style="width: 25%" />
+            <col style="width: 25%" />
+            <col style="width: 25%" />
+            </colgroup>
+            <thead>
+            <tr class="header">
+            <th style="text-align: left;">Item</th>
+            <th style="text-align: left;">Estado Legacy</th>
+            <th style="text-align: left;">Estado SICC v8.4</th>
+            <th style="text-align: left;">Ahorro / Mitigación</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="odd">
+            <td style="text-align: left;"><strong>Cámaras
+            PAN</strong></td>
+            <td style="text-align: left;">146 Unidades</td>
+            <td style="text-align: left;">24 Unidades</td>
+            <td style="text-align: left;"><strong>122 Unidades
+            Suprimidas</strong></td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: left;"><strong>Integración
+            ITS</strong></td>
+            <td style="text-align: left;">Full Cloud (146)</td>
+            <td style="text-align: left;">Vital-Only (24)</td>
+            <td style="text-align: left;">Reducción 83.5%</td>
+            </tr>
+            <tr class="odd">
+            <td
+            style="text-align: left;"><strong>Mantenimiento</strong></td>
+            <td style="text-align: left;">Alto (Electrónica)</td>
+            <td style="text-align: left;">Bajo (Obra Civil)</td>
+            <td style="text-align: left;">Ahorro OPEX 70%</td>
+            </tr>
+            </tbody>
+            </table>
+            <h2 id="conclusión">6. CONCLUSIÓN</h2>
+            <p>Cualquier propuesta de elevar un cruce <strong>Tipo
+            A</strong> a <strong>Tipo B/C</strong> deberá estar
+            estrictamente soportada por un <strong>Aforo Vehicular (ADDT
+            &gt; 1,000)</strong> y una <strong>Matriz de Riesgo
+            RAMS</strong>. Sin esta prueba técnica, rige la
+            <strong>Protección Pasiva</strong> mandatoria.</p>
+            <hr />
+            <p><strong>Firmado bajo el Protocolo SICC
+            v6.3.3</strong><br />
+            <em>Agente Auditor Forense - Metodología Punto 42</em></p>
+        </article>
+
+        <footer>
+            © 2026 LFC STUDIO | SICC v6.3.3 SOBERANO | PTC VIRTUAL SICC (FRA 236-I)
+        </footer>
+    </div>
+
+    <script src="/IX_WBS_Planificacion/lfc-terminology.js?v=6.3.2"></script>
+    <script src="/IX_WBS_Planificacion/sidebar-component.js?v=6.3.2" charset="utf-8"></script>
+</body>
+</html>

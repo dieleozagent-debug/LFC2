@@ -1,0 +1,49 @@
+# DICTAMEN TÉCNICO: SANEAMIENTO Y CATEGORIZACIÓN DE SEGURIDAD VIAL (PAN)
+**ID:** DT-SICC-V8-SUP-PAN_Categorizacion_Seguridad_Vial  
+**Versión:** 8.4 (Michelin Edition)  
+**Fecha:** 20 de marzo de 2026  
+**Clasificación:** 🔴 SOBERANÍA CRÍTICA | 💰 CAPEX RESTRINGIDO
+
+---
+
+## 1. OBJETO
+Saneamiento forense del inventario de **Pasos a Nivel (PAN)** para alinear el diseño de ITS y CCTV con la **Matriz Contractual del AT1 (Tabla 24)** y el presupuesto de la **WBS v4.0**. Este dictamen prohíbe la instalación de electrónica de campo en los 122 cruces rurales clasificados como **Tipo A**.
+
+## 2. MARCO CONTRACTUAL APLICABLE
+Para evitar la alucinación de los "146 Pasos Activos", se ratifica la jerarquía del Apéndice Técnico 1 (AT1):
+1.  **AT1 Tabla 24:** Establece el inventario base vinculante de 146 cruces con su categoría de señalización proyectada.
+2.  **Definición Tipo A:** Según AT1, los cruces Tipo A están "Protegidos exclusivamente con Señales Fijas" (Protección Pasiva).
+3.  **Sección 9.3(a) del Contrato:** El diseño de detalle debe garantizar la eficiencia. Incluir cámaras y barreras en cruces Tipo A es una ineficiencia técnica y financiera.
+
+## 3. HALLAZGO FORENSE: LA INFECCIÓN DE LOS 146
+Se ha detectado que los entregables de **CCTV (Especialidad 31)** e **ITS (Especialidad 30)** exigen equipamiento electrónico para la totalidad de los 146 cruces. 
+*   **Realidad:** Solo se autorizan **24 cruces activos** (9 Tipo C + 15 Tipo B) como piso contractual.
+*   **Heredad Obsoleta:** El diseño actual intenta tratar a los 122 cruces rurales (Caminos de Vereda) como si requirieran integración vital, lo cual representa un riesgo de sobrecosto de **$20,000,000,000 COP**.
+
+## 4. INSTRUCCIÓN TÉCNICA (OBLIGACIÓN DE RESULTADO)
+Se ordena a **Ardanuy** y al equipo de ingeniería civil aplicar la siguiente **Matriz de Saneamiento**:
+
+### A. Cruces ACTIVOS (Mínimos Contractuales - 24 Unidades)
+*   **Categoría:** 9 Tipo C (Barreras Automáticas) + 15 Tipo B (Luz/Sonido).
+*   **Electrónica:** Se autorizan Sensores, Cámaras PTZ, PMV e Integración al CTC/SCADA.
+*   **Prioridad:** Centros urbanos y cruces de vías nacionales (Clase A).
+
+### B. Cruces PASIVOS (Saneamiento SICC - 122 Unidades)
+*   **Categoría:** Tipo A.
+*   **Electrónica:** 🚫 **PROHIBIDA**. 0 Cámaras, 0 Barreras, 0 Sensores.
+*   **Infraestructura:** Renovación civil de placa (concreto/contrarriel) y dotación de **Señalización Fija** (SR-01 PARE y Cruz de San Andrés) conforme al Manual de Señalización Vial de Colombia.
+*   **Seguridad:** Basada en la bocina del tren y visibilidad mínima de 150m (Norma NTC 4741).
+
+## 5. IMPACTO EN CAPEX Y OPEX
+| Item | Estado Legacy | Estado SICC v8.4 | Ahorro / Mitigación |
+|:---|:---|:---|:---|
+| **Cámaras PAN** | 146 Unidades | 24 Unidades | **122 Unidades Suprimidas** |
+| **Integración ITS** | Full Cloud (146) | Vital-Only (24) | Reducción 83.5% |
+| **Mantenimiento** | Alto (Electrónica) | Bajo (Obra Civil) | Ahorro OPEX 70% |
+
+## 6. CONCLUSIÓN
+Cualquier propuesta de elevar un cruce **Tipo A** a **Tipo B/C** deberá estar estrictamente soportada por un **Aforo Vehicular (ADDT > 1,000)** y una **Matriz de Riesgo RAMS**. Sin esta prueba técnica, rige la **Protección Pasiva** mandatoria.
+
+---
+**Firmado bajo el Protocolo SICC v6.3.3**  
+*Agente Auditor Forense - Metodología Punto 42*
