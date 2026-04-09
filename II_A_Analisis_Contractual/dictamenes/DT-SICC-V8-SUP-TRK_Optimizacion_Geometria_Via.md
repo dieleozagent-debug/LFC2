@@ -48,7 +48,8 @@ Este dictamen ordena la recalibración de la partida 1.5.100:
 - ❌ **PRESUPUESTO INICIAL:** 120 Unidades Manuales ($16,149,240,000 COP).
 - ⚠️ **CUOTA DE OPTIMIZACIÓN:** Se establece un objetivo de supresión de **30 unidades (25%)** mediante la consolidación geométrica de los 5 ENCE.
 - ✅ **RESULTADO:** Ahorro proyectado de **$4,037,310,000 COP** sujeto a la entrega del "Esquema Unifilar Saneado" por parte de Ardanuy.
-- 🛠️ **INSTRUCCIÓN:** Ardanuy debe entregar un inventario georreferenciado que demuestre la necesidad técnica individual de cada uno de los 90 desvíos manuales restantes.
+- 🚧 **PRERREQUISITO PMO (INPUT DATA BLOCKER):** La optimización por parte de Ardanuy está estrictamente condicionada a que la **PMO de LFC** entregue el "Inventario Consolidado de Cambiavías". La PMO debe extraer y compilar la planimetría individual de los reportes "Levantamiento de Cambiavías" (ej. LFC-U1-VF26-CE-IFE-IN-A009) descentralizados a lo largo de las 53 UFVF alojadas en el Entorno Común de Datos (ACC).
+- 🛠️ **INSTRUCCIÓN REDISEÑO:** Una vez el Consorcio entregue este Input Data consolidado a Ardanuy, desaparece su excusa contractual y están obligados a justificar la permanencia individual de un máximo de 90 desvíos manuales, redimensionando la zona cubierta por los Motores ENCE.
 
 ---
 

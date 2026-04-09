@@ -41,8 +41,12 @@ Se ordena a **Ardanuy** y al equipo de ingeniería civil aplicar la siguiente **
 | **Integración ITS** | Full Cloud (146) | Vital-Only (24) | Reducción 83.5% |
 | **Mantenimiento** | Alto (Electrónica) | Bajo (Obra Civil) | Ahorro OPEX 70% |
 
-## 6. CONCLUSIÓN
-Cualquier propuesta de elevar un cruce **Tipo A** a **Tipo B/C** deberá estar estrictamente soportada por un **Aforo Vehicular (ADDT > 1,000)** y una **Matriz de Riesgo RAMS**. Sin esta prueba técnica, rige la **Protección Pasiva** mandatoria.
+## 6. CONCLUSIÓN Y REGLAS DE JUEGO (INPUT DATA)
+Cualquier propuesta de elevar un cruce **Tipo A** a **Tipo B/C** deberá estar estrictamente soportada por:
+1.  **Aforo Vehicular e Inventario Georreferenciado:** Ardanuy debe entregar el inventario en formato nativo GIS (Shapefile `.shp` o File Geodatabase `.GDB`) con Latitud y Longitud exacta, cruzado con el volumen vehicular (ADDT > 1,000) y una Matriz de Riesgo RAMS. El AT1 es solo una referencia de costeo; la ingeniería espacial le corresponde al diseñador.
+2.  **Excepción Social Estratégica:** La única excepción validada a la exigencia de aforo será un mandato legal ineludible derivado de una **Consulta Previa con Comunidades Étnicas (Ley 21 de 1991)**. La presión comunitaria ordinaria (AT1 §4.5) se ponderará, pero no reemplaza el criterio técnico del Manual de Señalización.
+
+Sin el cumplimiento de estas condiciones probatorias, rige contractualmente la **Protección Pasiva** mandatoria.
 
 ---
 **Firmado bajo el Protocolo SICC v6.3.3**  
