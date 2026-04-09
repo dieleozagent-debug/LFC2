@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DT-SICC-V8-SUP-TRK Optimizacion Geometria
+Via - LFC STUDIO</title>
+    <link rel="stylesheet" href="/IX_WBS_Planificacion/wbs-shared.css?v=6.3.2">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0f172a;
+            --secondary: #1e293b;
+            --accent: #0ea5e9;
+            --accent-glow: rgba(14, 165, 233, 0.2);
+            --glass-bg: rgba(255, 255, 255, 1);
+            --glass-border: #e2e8f0;
+            --text-main: #1e293b;
+            --text-dim: #64748b;
+            --sidebar-width: 280px;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background-color: #f8fafc;
+            color: var(--text-main);
+            margin: 0;
+            display: flex;
+            line-height: 1.6;
+        }
+
+        #lfc-sidebar-container {
+            width: var(--sidebar-width);
+            height: 100vh;
+            position: fixed;
+            z-index: 1000;
+        }
+
+        .main-content-wrapper {
+            margin-left: var(--sidebar-width);
+            flex: 1;
+            padding: 3rem;
+            max-width: 1400px;
+            width: 100%;
+        }
+
+        .premium-card {
+            background: #fff;
+            border-radius: 20px;
+            padding: 2.5rem;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+            margin-bottom: 2rem;
+        }
+
+        .premium-title {
+            font-size: 2.8rem;
+            font-weight: 800;
+            letter-spacing: -1.5px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+            line-height: 1.2;
+        }
+
+        #TOC {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 16px;
+            margin-bottom: 2rem;
+            border-left: 5px solid var(--accent);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+        }
+
+        #TOC h3 { margin-top: 0; color: var(--primary); font-size: 1.1rem; }
+        #TOC ul { list-style: none; padding-left: 0; }
+        #TOC li { margin-bottom: 0.5rem; }
+        #TOC a {
+            color: var(--text-dim);
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.2s;
+            font-size: 0.95rem;
+        }
+
+        #TOC a:hover {
+            color: var(--accent);
+            padding-left: 5px;
+        }
+
+        .premium-doc-content {
+            background: #fff;
+            padding: 3.5rem;
+            border-radius: 24px;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 4px 30px rgba(0,0,0,0.02);
+        }
+
+        .premium-doc-content h1, .premium-doc-content h2 {
+            color: var(--primary);
+            font-weight: 700;
+            margin-top: 2.5rem;
+            border-bottom: 2px solid #f1f5f9;
+            padding-bottom: 0.5rem;
+        }
+
+        .premium-doc-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid #e2e8f0;
+        }
+
+        .premium-doc-content th {
+            background: #f1f5f9;
+            color: var(--primary);
+            text-align: left;
+            padding: 1rem;
+            font-weight: 700;
+        }
+
+        .premium-doc-content td {
+            padding: 1rem;
+            border-bottom: 1px solid #f1f5f9;
+        }
+
+        footer {
+            margin-top: 5rem;
+            text-align: center;
+            opacity: 0.4;
+            font-size: 0.85rem;
+            color: var(--text-dim);
+        }
+
+        @media (max-width: 1024px) {
+            .main-content-wrapper { margin-left: 0; padding: 2rem 1rem; }
+            #lfc-sidebar-container { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <div id="lfc-sidebar-container"></div>
+    <div class="main-content-wrapper">
+        <header class="premium-card">
+            <div class="premium-header-content" style="text-align: center;">
+                <h1 id="adn-page-title" class="premium-title">DT-SICC-V8-SUP-TRK
+Optimizacion Geometria Via</h1>
+                <p id="main-dns-subtitle" style="font-weight: 500; color: var(--text-dim); margin: 0;">REPORTE EJECUTIVO SICC | VERSIÓN DINÁMICA</p>
+                <div class="adn-version-tag-wrapper" style="margin-top: 10px;">
+                    <span style="background: var(--primary); color: #fff; padding: 3px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.5px;">v<span id="adn-version-tag">6.3.3</span></span>
+                </div>
+            </div>
+        </header>
+
+        <nav id="TOC">
+            <h3>📍 ÍNDICE DE CONTENIDO</h3>
+            <ul>
+            <li><a
+            href="#dictamen-de-validación-contractual-optimización-de-geometría-de-vía"
+            id="toc-dictamen-de-validación-contractual-optimización-de-geometría-de-vía">DICTAMEN
+            DE VALIDACIÓN CONTRACTUAL: OPTIMIZACIÓN DE GEOMETRÍA DE
+            VÍA</a>
+            <ul>
+            <li><a href="#proyecto-lfc2---metodología-punto-42-v8.3"
+            id="toc-proyecto-lfc2---metodología-punto-42-v8.3">Proyecto
+            LFC2 - Metodología Punto 42 (v8.3)</a></li>
+            <li><a href="#resumen-ejecutivo"
+            id="toc-resumen-ejecutivo">1. RESUMEN EJECUTIVO</a></li>
+            <li><a href="#marco-contractual-aplicable"
+            id="toc-marco-contractual-aplicable">2. MARCO CONTRACTUAL
+            APLICABLE</a>
+            <ul>
+            <li><a href="#orden-de-prelación-y-obligación-de-resultado"
+            id="toc-orden-de-prelación-y-obligación-de-resultado">2.1
+            Orden de Prelación y Obligación de Resultado</a></li>
+            </ul></li>
+            <li><a href="#análisis-del-verbo-rector"
+            id="toc-análisis-del-verbo-rector">3. ANÁLISIS DEL VERBO
+            RECTOR</a>
+            <ul>
+            <li><a href="#los-cambios-necesarios-at1"
+            id="toc-los-cambios-necesarios-at1">3.1 Los “Cambios
+            Necesarios” (AT1)</a></li>
+            </ul></li>
+            <li><a href="#norma-rectora-arema-fra-236"
+            id="toc-norma-rectora-arema-fra-236">4. NORMA RECTORA: AREMA
+            &amp; FRA 236</a></li>
+            <li><a href="#cumplimiento-wbs-v4.0-conclusión-n-1"
+            id="toc-cumplimiento-wbs-v4.0-conclusión-n-1">5.
+            CUMPLIMIENTO WBS v4.0 (CONCLUSIÓN N-1)</a></li>
+            </ul></li>
+            </ul>
+        </nav>
+
+        <article class="premium-doc-content">
+            <h1
+            id="dictamen-de-validación-contractual-optimización-de-geometría-de-vía">DICTAMEN
+            DE VALIDACIÓN CONTRACTUAL: OPTIMIZACIÓN DE GEOMETRÍA DE
+            VÍA</h1>
+            <h2 id="proyecto-lfc2---metodología-punto-42-v8.3">Proyecto
+            LFC2 - Metodología Punto 42 (v8.3)</h2>
+            <p><strong>Estatus:</strong> ✅ VIGENTE<br />
+            <strong>Sistema:</strong> Infraestructura de Vía / Aparatos
+            Cambiavías (Desvíos Manuales)<br />
+            <strong>Fecha:</strong> 09 de abril de 2026<br />
+            <strong>Responsable:</strong> OpenGravity Sovereign
+            Auditor<br />
+            <strong>Impacto CAPEX:</strong> Estimado -$917,000 USD
+            (~$4,037,310,000 COP)<br />
+            <strong>Axioma:</strong> La Obligación de Resultado prima
+            sobre el bill de materiales estimado (N-1).</p>
+            <hr />
+            <h2 id="resumen-ejecutivo">1. RESUMEN EJECUTIVO</h2>
+            <p>Este dictamen establece la instrucción técnica para la
+            <strong>Consolidación Geométrica de los 5 Nodos de
+            Enclavamiento (ENCE)</strong> y la consecuente supresión de
+            desvíos manuales redundantes en el corredor. Se invalida la
+            compra automática de 120 unidades de desvíos manuales (Ítem
+            1.5.100) basándose únicamente en el estado “Malo” del
+            inventario previo. Se ordena a Ardanuy rediseñar los layouts
+            de vía en las estaciones críticas para absorber las
+            maniobras de entrada y salida dentro de la zona de control
+            de los 25 desvíos motorizados autorizados.</p>
+            <hr />
+            <h2 id="marco-contractual-aplicable">2. MARCO CONTRACTUAL
+            APLICABLE</h2>
+            <h3 id="orden-de-prelación-y-obligación-de-resultado">2.1
+            Orden de Prelación y Obligación de Resultado</h3>
+            <p>El blindaje de este dictamen se sustenta en:</p>
+            <table>
+            <colgroup>
+            <col style="width: 33%" />
+            <col style="width: 33%" />
+            <col style="width: 33%" />
+            </colgroup>
+            <thead>
+            <tr class="header">
+            <th style="text-align: left;">REFERENCIA</th>
+            <th style="text-align: left;">DOCUMENTO</th>
+            <th style="text-align: left;">MANDATO SICC</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="odd">
+            <td style="text-align: left;"><strong>AT1
+            §4.1(e)</strong></td>
+            <td style="text-align: left;"><strong>Alcance del
+            Proyecto</strong></td>
+            <td style="text-align: left;">Obligación de realizar
+            “Cambios Necesarios” en aparatos de vía.</td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: left;"><strong>Sec.
+            9.3(a)</strong></td>
+            <td style="text-align: left;"><strong>Contrato
+            General</strong></td>
+            <td style="text-align: left;">Las modificaciones deben
+            garantizar el <strong>Resultado Exigido</strong> (PTC).</td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: left;"><strong>Anexo
+            VIII</strong></td>
+            <td style="text-align: left;"><strong>Contrato
+            Ardanuy</strong></td>
+            <td style="text-align: left;">La ingeniería no se limita a
+            un listado de APU; debe justificar la arquitectura.</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="análisis-del-verbo-rector">3. ANÁLISIS DEL VERBO
+            RECTOR</h2>
+            <h3 id="los-cambios-necesarios-at1">3.1 Los “Cambios
+            Necesarios” (AT1)</h3>
+            <p>El Verbo Rector es <strong>“Realizar Cambios
+            Necesarios”</strong>. Esto faculta a la Concesionaria para
+            re-imaginar la topología de vía si el sistema de
+            señalización PTC Virtual lo requiere.</p>
+            <p><strong>Interpretación Forense:</strong> Si el rediseño
+            de un nodo ENCE (ej. Barrancabermeja) demuestra que se puede
+            consolidar un triángulo de inversión o una línea de servicio
+            eliminando dos desvíos manuales periféricos, dicha supresión
+            es legalmente vinculante. Ardanuy está obligado a optimizar
+            el layout para reducir puntos de falla (Switch failures) y
+            minimizar el CAPEX de herrajes innecesarios.</p>
+            <hr />
+            <h2 id="norma-rectora-arema-fra-236">4. NORMA RECTORA: AREMA
+            &amp; FRA 236</h2>
+            <p>La consolidación de desvíos bajo enclavamiento mejora el
+            nivel de seguridad (SIL-4): * <strong>Reducción de
+            Riesgos:</strong> Un desvío manual es un punto de riesgo de
+            descarrilamiento por falla humana (marmita mal cerrada).
+            Mover la operación al ENCE centralizado aumenta la sanidad
+            operativa. * <strong>Diagnóstico México (UFVF 26):</strong>
+            Se utiliza el estado crítico del inventario actual para
+            justificar la <strong>re-ingeniería</strong>, no la simple
+            reposición “espejo” de un diseño obsoleto.</p>
+            <hr />
+            <h2 id="cumplimiento-wbs-v4.0-conclusión-n-1">5.
+            CUMPLIMIENTO WBS v4.0 (CONCLUSIÓN N-1)</h2>
+            <p>Este dictamen ordena la recalibración de la partida
+            1.5.100: - ❌ <strong>PRESUPUESTO INICIAL:</strong> 120
+            Unidades Manuales ($16,149,240,000 COP). - ⚠️ <strong>CUOTA
+            DE OPTIMIZACIÓN:</strong> Se establece un objetivo de
+            supresión de <strong>30 unidades (25%)</strong> mediante la
+            consolidación geométrica de los 5 ENCE. - ✅
+            <strong>RESULTADO:</strong> Ahorro proyectado de
+            <strong>$4,037,310,000 COP</strong> sujeto a la entrega del
+            “Esquema Unifilar Saneado” por parte de Ardanuy. - 🛠️
+            <strong>INSTRUCCIÓN:</strong> Ardanuy debe entregar un
+            inventario georreferenciado que demuestre la necesidad
+            técnica individual de cada uno de los 90 desvíos manuales
+            restantes.</p>
+            <hr />
+            <p><strong>Sincronización Exitosa.</strong><br />
+            <em>Avalado por la Metodología Punto 42 -
+            OpenGravity.</em></p>
+        </article>
+
+        <footer>
+            © 2026 LFC STUDIO | SICC v6.3.3 SOBERANO | PTC VIRTUAL SICC (FRA 236-I)
+        </footer>
+    </div>
+
+    <script src="/IX_WBS_Planificacion/lfc-terminology.js?v=6.3.2"></script>
+    <script src="/IX_WBS_Planificacion/sidebar-component.js?v=6.3.2" charset="utf-8"></script>
+</body>
+</html>
