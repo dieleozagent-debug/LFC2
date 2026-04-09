@@ -1,43 +1,55 @@
-# DT-SICC-2026-013: Estandarización del Bus Vital 110V DC y Autonomía Optimizada
+# DT-SICC-2026-013: Estandarización del Bus Vital 110V DC y Criterios de Autonomía
 
-## .Section 10: Metadatos para Auto-Ejecución (YAML)
+## .Section 10: Metadatos Forenses (YAML)
 ```yaml
 dt_metadata:
   id: "DT-SICC-2026-013"
+  version: "2.0 (Forensic Review)"
   fecha: "2026-04-09"
-  especialidad: "Electrica / Senalización"
-  estado: "aprobado"
-  prioridad: "Crítica (Ahorro CAPEX)"
-  impacto_capex: "Reducción por optimización de autonomía (8h vs 12h)"
+  especialidad: "Eléctrica / Señalización"
+  estado: "Aprobado para Gobernanza Interna"
+  impacto_capex: "Optimización por flexibilización de criterios (N-1)"
 
-normativa_aplicable:
-  - FRA_49_CFR_236.551: "Estabilidad de voltaje ±10%"
-  - AREMA_C&S_Manual: "Referencia para 110V DC en enclavamientos"
-  - DBCD_V002: "Criterio de Diseno Propuesto"
+jerarquia_n_1:
+  prioridad_1: "FRA 49 CFR §236.551 (Voltaje ±10%)"
+  prioridad_2: "RETIE (Seguridad Eléctrica Nacional)"
+  prioridad_3: "Contrato APP 001-2025 (Obligación de Resultado)"
+  prioridad_4: "DBCD V002 (Propuesta Técnica LFC - Ajustable)"
 ```
-
-## 1. Justificación Técnica (Recalibración de Sanidad)
-Se formaliza la segregación de cargas eléctricas para proteger la integridad fail-safe del sistema SICC. El uso de **110V DC** para periféricos vitales (ENCE, barreras, etc.) asegura inmunidad ante fluctuaciones de la red AC y reduce la dependencia de inversores de potencia, alineado con la normativa **FRA §236.551**.
-
-Asimismo, se recalibra el criterio de autonomía para evitar un sobredimensionamiento catastrófico (CAPEX Trap). La autonomía se define como un **Criterio Propuesto**, no un mandato inamovible, permitiendo optimizaciones basadas en la criticidad del nodo.
-
-## 2. Parámetros de Diseno (SICC v7.1)
-| Parámetro | Valor Propuesto | Base de Referencia |
-|:---|:---|:---|
-| **Carga por Nodo (Senalización)** | **5 - 10 kW** | DBCD V002 |
-| **Carga por Nodo (Telecom)** | **2 - 5 kW** | DBCD V002 |
-| **Tensión Vital** | **110V DC** | FRA / AREMA |
-| **Tensión Telecom** | **48V DC** | ETSI / DBCD |
-| **Autonomía (Red Pública)** | **8 Horas** (Mínima) | Propuesta DBCD |
-| **Autonomía (Remoto Solar)** | **48 Horas** (Radiación nula) | Propuesta DBCD |
-
-## 3. Resolución de Topología
-1. **Escenario A (Con Red):** Rectificadores redundantes AC/DC con banco de baterías VRLA/LiFePO4. Respaldo terciario mediante generador Diésel opcional según criticidad.
-2. **Escenario B (Sin Red):** Arquitectura Híbrida (Solar MPPT + LiFePO4).
 
 ---
 
-## 4. Registro de Auditoría
-- **Iniciador:** Agente OpenGravity (Recalibración Forense)
-- **Aprobador:** Diego Zúniga (Verificación de Sanidad CAPEX)
-- **Pureza SICC:** 100% (Alineado con DBCD V002)
+## 1. ANÁLISIS JURISPRUDENCIAL Y FORENSE
+Se identifica una distinción crítica entre las **obligaciones mandatorias (Ley del Contrato/Norma)** y las **propuestas de diseño (Criterios LFC)**. Este dictamen establece la hoja de ruta para evitar el sobredimensionamiento (Over-engineering) mediante la flexibilización de parámetros antes de su aprobación definitiva por la Interventoría.
+
+### 1.1 Matriz de Trazabilidad: Autonomía y Carga
+
+| Parámetro | Origen Normativo / Contractual | Criterio de Diseño (Propuesta LFC) | Carga de Ardanuy (Ingeniería Detalle) |
+| :--- | :--- | :--- | :--- |
+| **Autonomía 8h (Red)** | **Inexistente.** El AT3 §6.10 no cuantifica horas. | **8 Horas mínimas.** Propuesta ajustable basada en RAMS/Criticidad. | Dimensionamiento real + Factor Envejecimiento (1.25). |
+| **Autonomía 48h (Solar)** | **Inexistente.** Sin mandato en Apéndices. | **48 Horas (2 días).** Estimación para radiación nula. | Dimensionamiento paneles + LiFePO4 según GHI local. |
+| **Carga 5-10 kW (Sign.)** | **Inexistente.** Sin mandato de kW/kVA. | **Estimación referencial.** Margen 20% sobre pico (AREMA). | Cálculo de demanda real por nodo (No impositivo). |
+| **Carga 2-5 kW (Com.)** | **Inexistente.** Sin mandato de kW/kVA. | **Estimación referencial.** | Cálculo de demanda real por nodo. |
+
+### 1.2 Matriz de Redundancia y Seguridad
+
+| Parámetro | Origen Normativo / Contractual | Aplicación SICC | Criterio de Optimización |
+| :--- | :--- | :--- | :--- |
+| **Doble Acometida + ATS** | **RETIE Art. 20-30.** Ley nacional aplicable. | Implementado según disponibilidad de red local. | Evitar extensión de red exterior si no es técnicamente viable. |
+| **Redundancia N+1** | **AT3 (Genérico).** Exige redundancia sin cuantificar. | Adoptado para sistemas críticos. | Evitar esquema 2N (Duplicidad completa) para proteger CAPEX. |
+| **Estabilidad Voltaje** | **FRA §236.551.** Voltaje ±10% nominal. | Bus 110V DC Dedicado. | Garantizar integridad Fail-Safe sin sobrecosto IT. |
+
+---
+
+## 2. DIRECTRIZ ESTRATÉGICA DE GOBERNANZA
+
+1. **Flexibilización de Autonomía:** El valor de "8 horas" debe interpretarse como un rango propuesto (4h a 8h) dependiente de la criticidad del nodo. Se instruye a Ardanuy para no congelar este valor como un mínimo estricto en el DBCD sin un análisis de criticidad previo.
+2. **Mitigación Solar:** La autonomía de 48h debe estar condicionada al estudio de radiación (GHI) y el perfil de carga real de cada sitio, evitando la compra masiva de litio en zonas de alta producción solar.
+3. **Responsabilidad de Cálculo:** Las estimaciones de carga (kW) son referenciales para el presupuesto base. Ardanuy tiene la obligación contractual de realizar memorias de cálculo reales por nodo. No se aceptará el dimensionamiento basado únicamente en las estimaciones del DBCD.
+
+---
+
+## 3. REGISTRO DE AUDITORÍA
+- **Auditado por:** OpenGravity Sovereign Agent (Tone: Forensic Neutral)
+- **Aprobado por:** Dirección Técnica LFC
+- **Versión:** 2.0 - SICC Methodology Punto 42

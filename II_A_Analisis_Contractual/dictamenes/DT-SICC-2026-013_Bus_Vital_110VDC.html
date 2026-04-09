@@ -160,141 +160,209 @@ Bus Vital 110VDC</h1>
             <h3>📍 ÍNDICE DE CONTENIDO</h3>
             <ul>
             <li><a
-            href="#dt-sicc-2026-013-estandarización-del-bus-vital-110v-dc-y-autonomía-optimizada"
-            id="toc-dt-sicc-2026-013-estandarización-del-bus-vital-110v-dc-y-autonomía-optimizada">DT-SICC-2026-013:
-            Estandarización del Bus Vital 110V DC y Autonomía
-            Optimizada</a>
+            href="#dt-sicc-2026-013-estandarización-del-bus-vital-110v-dc-y-criterios-de-autonomía"
+            id="toc-dt-sicc-2026-013-estandarización-del-bus-vital-110v-dc-y-criterios-de-autonomía">DT-SICC-2026-013:
+            Estandarización del Bus Vital 110V DC y Criterios de
+            Autonomía</a>
             <ul>
-            <li><a href="#section-10-metadatos-para-auto-ejecución-yaml"
-            id="toc-section-10-metadatos-para-auto-ejecución-yaml">.Section
-            10: Metadatos para Auto-Ejecución (YAML)</a></li>
-            <li><a
-            href="#justificación-técnica-recalibración-de-sanidad"
-            id="toc-justificación-técnica-recalibración-de-sanidad">1.
-            Justificación Técnica (Recalibración de Sanidad)</a></li>
-            <li><a href="#parámetros-de-diseno-sicc-v7.1"
-            id="toc-parámetros-de-diseno-sicc-v7.1">2. Parámetros de
-            Diseno (SICC v7.1)</a></li>
-            <li><a href="#resolución-de-topología"
-            id="toc-resolución-de-topología">3. Resolución de
-            Topología</a></li>
+            <li><a href="#section-10-metadatos-forenses-yaml"
+            id="toc-section-10-metadatos-forenses-yaml">.Section 10:
+            Metadatos Forenses (YAML)</a></li>
+            <li><a href="#análisis-jurisprudencial-y-forense"
+            id="toc-análisis-jurisprudencial-y-forense">1. ANÁLISIS
+            JURISPRUDENCIAL Y FORENSE</a>
+            <ul>
+            <li><a href="#matriz-de-trazabilidad-autonomía-y-carga"
+            id="toc-matriz-de-trazabilidad-autonomía-y-carga">1.1 Matriz
+            de Trazabilidad: Autonomía y Carga</a></li>
+            <li><a href="#matriz-de-redundancia-y-seguridad"
+            id="toc-matriz-de-redundancia-y-seguridad">1.2 Matriz de
+            Redundancia y Seguridad</a></li>
+            </ul></li>
+            <li><a href="#directriz-estratégica-de-gobernanza"
+            id="toc-directriz-estratégica-de-gobernanza">2. DIRECTRIZ
+            ESTRATÉGICA DE GOBERNANZA</a></li>
             <li><a href="#registro-de-auditoría"
-            id="toc-registro-de-auditoría">4. Registro de
-            Auditoría</a></li>
+            id="toc-registro-de-auditoría">3. REGISTRO DE
+            AUDITORÍA</a></li>
             </ul></li>
             </ul>
         </nav>
 
         <article class="premium-doc-content">
             <h1
-            id="dt-sicc-2026-013-estandarización-del-bus-vital-110v-dc-y-autonomía-optimizada">DT-SICC-2026-013:
-            Estandarización del Bus Vital 110V DC y Autonomía
-            Optimizada</h1>
-            <h2
-            id="section-10-metadatos-para-auto-ejecución-yaml">.Section
-            10: Metadatos para Auto-Ejecución (YAML)</h2>
+            id="dt-sicc-2026-013-estandarización-del-bus-vital-110v-dc-y-criterios-de-autonomía">DT-SICC-2026-013:
+            Estandarización del Bus Vital 110V DC y Criterios de
+            Autonomía</h1>
+            <h2 id="section-10-metadatos-forenses-yaml">.Section 10:
+            Metadatos Forenses (YAML)</h2>
             <div class="sourceCode" id="cb1"><pre
             class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">dt_metadata</span><span class="kw">:</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">id</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;DT-SICC-2026-013&quot;</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">fecha</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;2026-04-09&quot;</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">especialidad</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Electrica / Senalización&quot;</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">estado</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;aprobado&quot;</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">prioridad</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Crítica (Ahorro CAPEX)&quot;</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">impacto_capex</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Reducción por optimización de autonomía (8h vs 12h)&quot;</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">version</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;2.0 (Forensic Review)&quot;</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">fecha</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;2026-04-09&quot;</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">especialidad</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Eléctrica / Señalización&quot;</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">estado</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Aprobado para Gobernanza Interna&quot;</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">impacto_capex</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Optimización por flexibilización de criterios (N-1)&quot;</span></span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">normativa_aplicable</span><span class="kw">:</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> </span><span class="fu">FRA_49_CFR_236.551</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Estabilidad de voltaje ±10%&quot;</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> </span><span class="fu">AREMA_C&amp;S_Manual</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Referencia para 110V DC en enclavamientos&quot;</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> </span><span class="fu">DBCD_V002</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Criterio de Diseno Propuesto&quot;</span></span></code></pre></div>
-            <h2 id="justificación-técnica-recalibración-de-sanidad">1.
-            Justificación Técnica (Recalibración de Sanidad)</h2>
-            <p>Se formaliza la segregación de cargas eléctricas para
-            proteger la integridad fail-safe del sistema SICC. El uso de
-            <strong>110V DC</strong> para periféricos vitales (ENCE,
-            barreras, etc.) asegura inmunidad ante fluctuaciones de la
-            red AC y reduce la dependencia de inversores de potencia,
-            alineado con la normativa <strong>FRA §236.551</strong>.</p>
-            <p>Asimismo, se recalibra el criterio de autonomía para
-            evitar un sobredimensionamiento catastrófico (CAPEX Trap).
-            La autonomía se define como un <strong>Criterio
-            Propuesto</strong>, no un mandato inamovible, permitiendo
-            optimizaciones basadas en la criticidad del nodo.</p>
-            <h2 id="parámetros-de-diseno-sicc-v7.1">2. Parámetros de
-            Diseno (SICC v7.1)</h2>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">jerarquia_n_1</span><span class="kw">:</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">prioridad_1</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;FRA 49 CFR §236.551 (Voltaje ±10%)&quot;</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">prioridad_2</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;RETIE (Seguridad Eléctrica Nacional)&quot;</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">prioridad_3</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Contrato APP 001-2025 (Obligación de Resultado)&quot;</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">prioridad_4</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;DBCD V002 (Propuesta Técnica LFC - Ajustable)&quot;</span></span></code></pre></div>
+            <hr />
+            <h2 id="análisis-jurisprudencial-y-forense">1. ANÁLISIS
+            JURISPRUDENCIAL Y FORENSE</h2>
+            <p>Se identifica una distinción crítica entre las
+            <strong>obligaciones mandatorias (Ley del
+            Contrato/Norma)</strong> y las <strong>propuestas de diseño
+            (Criterios LFC)</strong>. Este dictamen establece la hoja de
+            ruta para evitar el sobredimensionamiento (Over-engineering)
+            mediante la flexibilización de parámetros antes de su
+            aprobación definitiva por la Interventoría.</p>
+            <h3 id="matriz-de-trazabilidad-autonomía-y-carga">1.1 Matriz
+            de Trazabilidad: Autonomía y Carga</h3>
             <table>
             <colgroup>
-            <col style="width: 33%" />
-            <col style="width: 33%" />
-            <col style="width: 33%" />
+            <col style="width: 25%" />
+            <col style="width: 25%" />
+            <col style="width: 25%" />
+            <col style="width: 25%" />
             </colgroup>
             <thead>
             <tr class="header">
             <th style="text-align: left;">Parámetro</th>
-            <th style="text-align: left;">Valor Propuesto</th>
-            <th style="text-align: left;">Base de Referencia</th>
+            <th style="text-align: left;">Origen Normativo /
+            Contractual</th>
+            <th style="text-align: left;">Criterio de Diseño (Propuesta
+            LFC)</th>
+            <th style="text-align: left;">Carga de Ardanuy (Ingeniería
+            Detalle)</th>
             </tr>
             </thead>
             <tbody>
             <tr class="odd">
-            <td style="text-align: left;"><strong>Carga por Nodo
-            (Senalización)</strong></td>
-            <td style="text-align: left;"><strong>5 - 10
-            kW</strong></td>
-            <td style="text-align: left;">DBCD V002</td>
+            <td style="text-align: left;"><strong>Autonomía 8h
+            (Red)</strong></td>
+            <td style="text-align: left;"><strong>Inexistente.</strong>
+            El AT3 §6.10 no cuantifica horas.</td>
+            <td style="text-align: left;"><strong>8 Horas
+            mínimas.</strong> Propuesta ajustable basada en
+            RAMS/Criticidad.</td>
+            <td style="text-align: left;">Dimensionamiento real + Factor
+            Envejecimiento (1.25).</td>
             </tr>
             <tr class="even">
-            <td style="text-align: left;"><strong>Carga por Nodo
-            (Telecom)</strong></td>
-            <td style="text-align: left;"><strong>2 - 5 kW</strong></td>
-            <td style="text-align: left;">DBCD V002</td>
+            <td style="text-align: left;"><strong>Autonomía 48h
+            (Solar)</strong></td>
+            <td style="text-align: left;"><strong>Inexistente.</strong>
+            Sin mandato en Apéndices.</td>
+            <td style="text-align: left;"><strong>48 Horas (2
+            días).</strong> Estimación para radiación nula.</td>
+            <td style="text-align: left;">Dimensionamiento paneles +
+            LiFePO4 según GHI local.</td>
             </tr>
             <tr class="odd">
-            <td style="text-align: left;"><strong>Tensión
-            Vital</strong></td>
-            <td style="text-align: left;"><strong>110V DC</strong></td>
-            <td style="text-align: left;">FRA / AREMA</td>
+            <td style="text-align: left;"><strong>Carga 5-10 kW
+            (Sign.)</strong></td>
+            <td style="text-align: left;"><strong>Inexistente.</strong>
+            Sin mandato de kW/kVA.</td>
+            <td style="text-align: left;"><strong>Estimación
+            referencial.</strong> Margen 20% sobre pico (AREMA).</td>
+            <td style="text-align: left;">Cálculo de demanda real por
+            nodo (No impositivo).</td>
             </tr>
             <tr class="even">
-            <td style="text-align: left;"><strong>Tensión
-            Telecom</strong></td>
-            <td style="text-align: left;"><strong>48V DC</strong></td>
-            <td style="text-align: left;">ETSI / DBCD</td>
-            </tr>
-            <tr class="odd">
-            <td style="text-align: left;"><strong>Autonomía (Red
-            Pública)</strong></td>
-            <td style="text-align: left;"><strong>8 Horas</strong>
-            (Mínima)</td>
-            <td style="text-align: left;">Propuesta DBCD</td>
-            </tr>
-            <tr class="even">
-            <td style="text-align: left;"><strong>Autonomía (Remoto
-            Solar)</strong></td>
-            <td style="text-align: left;"><strong>48 Horas</strong>
-            (Radiación nula)</td>
-            <td style="text-align: left;">Propuesta DBCD</td>
+            <td style="text-align: left;"><strong>Carga 2-5 kW
+            (Com.)</strong></td>
+            <td style="text-align: left;"><strong>Inexistente.</strong>
+            Sin mandato de kW/kVA.</td>
+            <td style="text-align: left;"><strong>Estimación
+            referencial.</strong></td>
+            <td style="text-align: left;">Cálculo de demanda real por
+            nodo.</td>
             </tr>
             </tbody>
             </table>
-            <h2 id="resolución-de-topología">3. Resolución de
-            Topología</h2>
+            <h3 id="matriz-de-redundancia-y-seguridad">1.2 Matriz de
+            Redundancia y Seguridad</h3>
+            <table>
+            <colgroup>
+            <col style="width: 25%" />
+            <col style="width: 25%" />
+            <col style="width: 25%" />
+            <col style="width: 25%" />
+            </colgroup>
+            <thead>
+            <tr class="header">
+            <th style="text-align: left;">Parámetro</th>
+            <th style="text-align: left;">Origen Normativo /
+            Contractual</th>
+            <th style="text-align: left;">Aplicación SICC</th>
+            <th style="text-align: left;">Criterio de Optimización</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="odd">
+            <td style="text-align: left;"><strong>Doble Acometida +
+            ATS</strong></td>
+            <td style="text-align: left;"><strong>RETIE Art.
+            20-30.</strong> Ley nacional aplicable.</td>
+            <td style="text-align: left;">Implementado según
+            disponibilidad de red local.</td>
+            <td style="text-align: left;">Evitar extensión de red
+            exterior si no es técnicamente viable.</td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: left;"><strong>Redundancia
+            N+1</strong></td>
+            <td style="text-align: left;"><strong>AT3
+            (Genérico).</strong> Exige redundancia sin cuantificar.</td>
+            <td style="text-align: left;">Adoptado para sistemas
+            críticos.</td>
+            <td style="text-align: left;">Evitar esquema 2N (Duplicidad
+            completa) para proteger CAPEX.</td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: left;"><strong>Estabilidad
+            Voltaje</strong></td>
+            <td style="text-align: left;"><strong>FRA §236.551.</strong>
+            Voltaje ±10% nominal.</td>
+            <td style="text-align: left;">Bus 110V DC Dedicado.</td>
+            <td style="text-align: left;">Garantizar integridad
+            Fail-Safe sin sobrecosto IT.</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr />
+            <h2 id="directriz-estratégica-de-gobernanza">2. DIRECTRIZ
+            ESTRATÉGICA DE GOBERNANZA</h2>
             <ol type="1">
-            <li><strong>Escenario A (Con Red):</strong> Rectificadores
-            redundantes AC/DC con banco de baterías VRLA/LiFePO4.
-            Respaldo terciario mediante generador Diésel opcional según
-            criticidad.</li>
-            <li><strong>Escenario B (Sin Red):</strong> Arquitectura
-            Híbrida (Solar MPPT + LiFePO4).</li>
+            <li><strong>Flexibilización de Autonomía:</strong> El valor
+            de “8 horas” debe interpretarse como un rango propuesto (4h
+            a 8h) dependiente de la criticidad del nodo. Se instruye a
+            Ardanuy para no congelar este valor como un mínimo estricto
+            en el DBCD sin un análisis de criticidad previo.</li>
+            <li><strong>Mitigación Solar:</strong> La autonomía de 48h
+            debe estar condicionada al estudio de radiación (GHI) y el
+            perfil de carga real de cada sitio, evitando la compra
+            masiva de litio en zonas de alta producción solar.</li>
+            <li><strong>Responsabilidad de Cálculo:</strong> Las
+            estimaciones de carga (kW) son referenciales para el
+            presupuesto base. Ardanuy tiene la obligación contractual de
+            realizar memorias de cálculo reales por nodo. No se aceptará
+            el dimensionamiento basado únicamente en las estimaciones
+            del DBCD.</li>
             </ol>
             <hr />
-            <h2 id="registro-de-auditoría">4. Registro de Auditoría</h2>
+            <h2 id="registro-de-auditoría">3. REGISTRO DE AUDITORÍA</h2>
             <ul>
-            <li><strong>Iniciador:</strong> Agente OpenGravity
-            (Recalibración Forense)</li>
-            <li><strong>Aprobador:</strong> Diego Zúniga (Verificación
-            de Sanidad CAPEX)</li>
-            <li><strong>Pureza SICC:</strong> 100% (Alineado con DBCD
-            V002)</li>
+            <li><strong>Auditado por:</strong> OpenGravity Sovereign
+            Agent (Tone: Forensic Neutral)</li>
+            <li><strong>Aprobado por:</strong> Dirección Técnica
+            LFC</li>
+            <li><strong>Versión:</strong> 2.0 - SICC Methodology Punto
+            42</li>
             </ul>
         </article>
 
