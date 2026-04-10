@@ -26,6 +26,9 @@ Se han blindado los siguientes estándares soberanos:
 ## 📡 ESPECIFICACIONES DE TELECOMUNICACIONES
 - **Radio de Respaldo:** TETRA (Voz y Contingencia).
 - **Backbone Vital:** Red Vital IP (Anillo de Fibra Óptica + Microondas).
+    - **Estándar de Fibra:** ITU-T G.652.D (Low Water Peak) Homogeneizado.
+    - **Capacidad:** 48 Hilos (Backbone Determinista).
+    - **Código de Colores:** ANSI/TIA/EIA-598-C.
 - **Transporte de Datos:** IP/MPLS con encriptación SICC.
 - **Redundancia:** Failover automático SICC entre Fibra y Microondas para disponibilidad > 99.9%.
 
