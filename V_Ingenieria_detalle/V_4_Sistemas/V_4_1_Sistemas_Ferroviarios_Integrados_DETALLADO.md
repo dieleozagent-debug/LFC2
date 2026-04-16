@@ -1,5 +1,5 @@
 # INGENIERÍA DE SISTEMAS DE DETALLE - SISTEMAS FERROVIARIOS INTEGRADOS
-## APP LA DORADA-CHIRIGUANÁ v10.1
+## APP La Dorada (México) - Chiriguaná v10.1
 
 **Fecha de desarrollo:** 27 de enero de 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
@@ -10,10 +10,10 @@
 
 ## 🎯 RESUMEN EJECUTIVO
 
-Este documento presenta la **ingeniería de sistemas de detalle** para los sistemas ferroviarios integrados del proyecto APP La Dorada-Chiriguaná, desarrollada para la construcción real de los sistemas CTC, PTC, TETRA, fibra óptica y CCTV del corredor ferroviario de 178 km.
+Este documento presenta la **ingeniería de sistemas de detalle** para los sistemas ferroviarios integrados del proyecto APP La Dorada (México) - Chiriguaná, desarrollada para la construcción real de los sistemas CTC, PTC, TETRA, fibra óptica y CCTV del corredor ferroviario de 178 km.
 
 ### **Base Técnica:**
-- **Longitud total:** 178 km La Dorada-Chiriguaná
+- **Longitud total:** 178 km La Dorada (México) - Chiriguaná
 - **Sistemas integrados:** CTC, PTC PTC Virtual (FRA 236), TETRA, Fibra óptica, CCTV
 - **Estándares:** FRA/AREMA, EN, IEEE, normas colombianas
 - **Interoperabilidad:** Con red FENOCO
@@ -69,8 +69,8 @@ Este documento presenta la **ingeniería de sistemas de detalle** para los siste
 | Ubicación | Cantidad | Tipo | Observaciones |
 |:----------|:--------:|:-----|:--------------|
 | **La Dorada - Puerto Berrío** | 90 unidades | Punto de referencia virtual pasiva | Cada 500m |
-| **Puerto Berrío - Barrancabermeja** | 104 unidades | Punto de referencia virtual pasiva | Cada 500m |
-| **Barrancabermeja - Bucaramanga** | 76 unidades | Punto de referencia virtual pasiva | Cada 500m |
+| **Puerto Berrío - Barrancabermeja (Puerto)** | 104 unidades | Punto de referencia virtual pasiva | Cada 500m |
+| **Barrancabermeja (Puerto) - Bucaramanga** | 76 unidades | Punto de referencia virtual pasiva | Cada 500m |
 | **Bucaramanga - Chiriguaná** | 86 unidades | Punto de referencia virtual pasiva | Cada 500m |
 | **TOTAL** | **356 unidades** | - | - |
 
@@ -94,7 +94,7 @@ Este documento presenta la **ingeniería de sistemas de detalle** para los siste
 |:----------|:-----|:----------|:--------------|
 | **La Dorada** | Estación principal | 50 km | Antena sectorial |
 | **Puerto Berrío** | Estación secundaria | 40 km | Antena sectorial |
-| **Barrancabermeja** | Estación secundaria | 40 km | Antena sectorial |
+| **Barrancabermeja (Puerto)** | Estación secundaria | 40 km | Antena sectorial |
 | **Chiriguaná** | Estación principal | 50 km | Antena sectorial |
 | **PK 25+000** | Repetidor | 30 km | Repetidor intermedio |
 | **PK 75+000** | Repetidor | 30 km | Repetidor intermedio |
@@ -126,8 +126,8 @@ Este documento presenta la **ingeniería de sistemas de detalle** para los siste
 | Tramo | Longitud | Tipo | Observaciones |
 |:------|:---------|:-----|:--------------|
 | **La Dorada - Puerto Berrío** | 45 km | G.652D | 144 fibras |
-| **Puerto Berrío - Barrancabermeja** | 52 km | G.652D | 144 fibras |
-| **Barrancabermeja - Bucaramanga** | 38 km | G.652D | 144 fibras |
+| **Puerto Berrío - Barrancabermeja (Puerto)** | 52 km | G.652D | 144 fibras |
+| **Barrancabermeja (Puerto) - Bucaramanga** | 38 km | G.652D | 144 fibras |
 | **Bucaramanga - Chiriguaná** | 43 km | G.652D | 144 fibras |
 | **TOTAL** | **178 km** | - | - |
 
@@ -136,7 +136,7 @@ Este documento presenta la **ingeniería de sistemas de detalle** para los siste
 |:----------|:-----|:----------|:--------------|
 | **La Dorada** | Terminal principal | 100 Gbps | Transmisión principal |
 | **Puerto Berrío** | Terminal intermedio | 100 Gbps | Transmisión intermedia |
-| **Barrancabermeja** | Terminal intermedio | 100 Gbps | Transmisión intermedia |
+| **Barrancabermeja (Puerto)** | Terminal intermedio | 100 Gbps | Transmisión intermedia |
 | **Chiriguaná** | Terminal principal | 100 Gbps | Transmisión principal |
 
 #### **4.3 Sistemas de Protección**
@@ -220,7 +220,7 @@ Este documento presenta la **ingeniería de sistemas de detalle** para los siste
 |:----------|:-----|:--------:|:--------------|
 | **La Dorada** | Switch principal | 2 unidades | Redundancia N+1 |
 | **Puerto Berrío** | Switch intermedio | 2 unidades | Redundancia N+1 |
-| **Barrancabermeja** | Switch intermedio | 2 unidades | Redundancia N+1 |
+| **Barrancabermeja (Puerto)** | Switch intermedio | 2 unidades | Redundancia N+1 |
 | **Chiriguaná** | Switch principal | 2 unidades | Redundancia N+1 |
 | **Cada estación** | Switch local | 16 unidades | 2 por estación |
 

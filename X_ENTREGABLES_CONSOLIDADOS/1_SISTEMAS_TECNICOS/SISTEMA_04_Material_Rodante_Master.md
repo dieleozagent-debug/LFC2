@@ -1,5 +1,5 @@
 ﻿# SISTEMA 04: MATERIAL RODANTE - Documento Master v1.0
-## APP LA DORADA-CHIRIGUANÁ - ENTREGABLE CONSOLIDADO
+## APP La Dorada (México) - Chiriguaná - ENTREGABLE CONSOLIDADO
 
 **Fecha de consolidación:** Enero 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
@@ -78,7 +78,7 @@
 #### **Talleres de Mantenimiento:**
 - **Taller Principal La Dorada:** 150m x 30m con equipos completos
 - **Taller Secundario Chiriguaná:** 100m x 25m con equipos básicos
-- **Talleres de Línea:** Puerto Berrío, Barrancabermeja, Bucaramanga
+- **Talleres de Línea:** Puerto Berrío, Barrancabermeja (Puerto), Bucaramanga
 - **Equipos Especializados:** Elevadores, grúas puente, bancos de prueba
 
 ### **2.2 Criterios de Diseno**
@@ -90,7 +90,7 @@
 
 #### **Interoperabilidad FENOCO:**
 - **Protocolos FRA/AREMA:** Compatibilidad con estándares internacionales
-- **Sistemas Duales:** Operación en ambos corredores (La Dorada-Chiriguaná y Chiriguaná-Santa Marta)
+- **Sistemas Duales:** Operación en ambos corredores (La Dorada (México) - Chiriguaná y Chiriguaná-Santa Marta)
 - **Equipos Embarcados:** Configuración dual para interoperabilidad
 
 ---
@@ -134,7 +134,7 @@
 - **Equipos:** Máquina de lavado automática
 
 #### **Talleres de Línea:**
-- **Ubicaciones:** Puerto Berrío, Barrancabermeja, Bucaramanga
+- **Ubicaciones:** Puerto Berrío, Barrancabermeja (Puerto), Bucaramanga
 - **Capacidad:** 2 trenes cada uno
 - **Funciones:** Mantenimiento básico y reparaciones menores
 
@@ -367,7 +367,7 @@
 | **Locomotoras** | 99.95% | 4 horas | Tiempo de respuesta, disponibilidad | ✅ Monitoreado |
 | **PTC Embarcado** | 99.95% | 2 horas | Disponibilidad sistemas, tiempo respuesta | ✅ Monitoreado |
 | **Sistemas Comunicación** | 99.5% | 1 hora | Disponibilidad radio, calidad senal | ✅ Monitoreado |
-| **Talleres** | 99.9% | 8 horas | Capacidad operacional, equipos disponibles | ✅ Monitoreado |
+| **Talleres** | 99.9% | 4 horas | Capacidad operacional, equipos disponibles | ✅ Monitoreado |
 | **EOT** | 99.95% | 1 hora | Disponibilidad dispositivos, comunicación | ✅ Monitoreado |
 
 ---
@@ -431,7 +431,7 @@
 
 ## ⚠️ ADVERTENCIAS LEGALES
 
-**Este documento consolidado es un entregable del proyecto APP La Dorada-Chiriguaná y contiene información técnica confidencial. Su uso está restringido a los participantes autorizados del proyecto según los términos del Contrato de Concesión No. 001 de 2025.**
+**Este documento consolidado es un entregable del proyecto APP La Dorada (México) - Chiriguaná y contiene información técnica confidencial. Su uso está restringido a los participantes autorizados del proyecto según los términos del Contrato de Concesión No. 001 de 2025.**
 
 **Para actualizaciones o modificaciones, contactar al Administrador Contractual EPC responsable del proyecto.**
 

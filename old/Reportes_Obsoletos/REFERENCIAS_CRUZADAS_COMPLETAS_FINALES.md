@@ -1,5 +1,5 @@
 # REFERENCIAS CRUZADAS COMPLETAS - FINALES
-## APP LA DORADA-CHIRIGUANÁ v10.1
+## APP La Dorada (México) - Chiriguaná v10.1
 
 **Fecha de actualización:** 27 de enero de 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
@@ -12,7 +12,7 @@
 
 **ESTADO:** ✅ **REFERENCIAS CRUZADAS COMPLETAS Y VALIDADAS**
 
-Como Administrador Contractual EPC, confirmo que se han revisado y completado todas las referencias cruzadas entre documentos del proyecto APP La Dorada-Chiriguaná, asegurando trazabilidad completa y navegación eficiente.
+Como Administrador Contractual EPC, confirmo que se han revisado y completado todas las referencias cruzadas entre documentos del proyecto APP La Dorada (México) - Chiriguaná, asegurando trazabilidad completa y navegación eficiente.
 
 ---
 

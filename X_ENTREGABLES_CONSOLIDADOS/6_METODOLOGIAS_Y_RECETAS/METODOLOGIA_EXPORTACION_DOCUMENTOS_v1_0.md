@@ -1,7 +1,7 @@
 # METODOLOGÍA DE EXPORTACIÓN DE DOCUMENTOS EJECUTIVOS v1.0
 ## "SERVIR AL RESTAURANTE" - De Markdown a Formatos Empresariales
 
-**Proyecto:** APP La Dorada-Chiriguaná  
+**Proyecto:** APP La Dorada (México) - Chiriguaná  
 **Fecha:** Enero 2025  
 **Versión:** 1.0  
 **Responsable:** Administrador Contractual EPC  
@@ -541,7 +541,7 @@ Esta metodología es de carácter técnico y procedimental. Los documentos gener
 ---
 
 **Elaborado por:** Administrador Contractual EPC - Metodología Punto 42  
-**Validado en:** Proyecto APP La Dorada-Chiriguaná (13 documentos, 26 archivos)  
+**Validado en:** Proyecto APP La Dorada (México) - Chiriguaná (13 documentos, 26 archivos)  
 **Próxima revisión:** Febrero 2025  
 **Estado:** ✅ Metodología probada y lista para replicación  
 

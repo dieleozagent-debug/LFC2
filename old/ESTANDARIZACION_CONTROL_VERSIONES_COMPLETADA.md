@@ -1,5 +1,5 @@
 # ESTANDARIZACIÓN DE CONTROL DE VERSIONES - COMPLETADA
-## APP LA DORADA-CHIRIGUANÁ v10.1
+## APP La Dorada (México) - Chiriguaná v10.1
 
 **Fecha de estandarización:** 27 de enero de 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
@@ -12,7 +12,7 @@
 
 **ESTADO:** ✅ **CONTROL DE VERSIONES ESTANDARIZADO EXITOSAMENTE**
 
-Como Administrador Contractual EPC, confirmo que se ha completado la estandarización del control de versiones en todos los documentos del proyecto APP La Dorada-Chiriguaná, aplicando el formato estándar Metodología Punto 42.
+Como Administrador Contractual EPC, confirmo que se ha completado la estandarización del control de versiones en todos los documentos del proyecto APP La Dorada (México) - Chiriguaná, aplicando el formato estándar Metodología Punto 42.
 
 ---
 

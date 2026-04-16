@@ -13,7 +13,7 @@
 
 #### **1. DIAGNÓSTICO FORENSE (Principio de Eficiencia N-1)**
 
-El diseño preliminar de ingeniería básica sugería una configuración de **cuatro (4) Puestos de Control (CCO)**. Tras la auditoría deductiva del Dreamer (Karpathy), se identifica que:
+El diseno preliminar de ingeniería basica sugería una configuración de **cuatro (4) Puestos de Control (CCO)**. Tras la auditoría deductiva del Dreamer (Karpathy), se identifica que:
 1.  No existe un mandato explícito en el **AT1** o **AT3** (Nivel 2 de jerarquía) que exija una cuarta estación física.
 2.  La arquitectura de **PTC Virtual** basada en Fusión Sensorial y Edometría permite una centralización operativa de alta densidad.
 3.  La redundancia de un cuarto puesto se cataloga como "Grasa Contractual", incrementando innecesariamente el CAPEX inicial y el OPEX de mantenimiento/licenciamiento.
@@ -28,7 +28,7 @@ Se ordena la **Deducción Atómica** de la infraestructura de control:
 #### **3. IMPACTO FINANCIERO Y CONTRACTUAL**
 
 *   **Ahorro CAPEX Estimado:** Reducción significativa en hardware de estación y obra civil menor asociada a la superficie del CCO.
-*   **Justificación Jurídica:** Aplicación de la Sección 1.2(d) del Contrato Maesto: el principio de eficiencia y la soberanía técnica del concesionario permiten optimizar el diseño siempre que se garantice la integridad del Sistema de Enclavamientos (ENCE).
+*   **Justificación Jurídica:** Aplicación de la Sección 1.2(d) del Contrato Maesto: el principio de eficiencia y la soberanía técnica del concesionario permiten optimizar el diseno siempre que se garantice la integridad del Sistema de Enclavamientos (ENCE).
 
 ---
 

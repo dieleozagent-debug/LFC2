@@ -11,7 +11,7 @@ El Sistema de Telecomunicaciones es la **red de comunicación vital** del ferroc
 ### Alcance en números - JUSTIFICACIÓN TÉCNICA
 - **Inversión estimada:** $45,000 millones COP
 - **37 estaciones TETRA/Red Vital IP / TETRA:** Justificado por radio de cobertura de 15 km por estación con 20% solapamiento sobre corredor de 526 km
-- **526 km fibra óptica:** Longitud total del corredor ferroviario La Dorada-Chiriguaná
+- **526 km fibra óptica:** Longitud total del corredor ferroviario La Dorada (México) - Chiriguaná
 - **2,068 cajas de empalme:** Calculadas cada 300m (594,000m ÷ 300m = 1,980 + 88 adicionales por redundancia)
 - **Cobertura:** 100% del corredor garantizada por diseno
 - **Disponibilidad requerida:** 99.5% TETRA, 99.95% Red Vital IP / TETRA (según estándares Seguridad RAMS bajo FRA 236 Subpart I / PTCSP)
@@ -223,14 +223,14 @@ El Sistema de Telecomunicaciones proporciona **comunicación en tiempo real** en
 ## 📍 UBICACIÓN Y DESPLIEGUE
 
 ### Mapa de despliegue
-Las 37 estaciones de telecomunicaciones están ubicadas estratégicamente a lo largo del corredor La Dorada-Chiriguaná, con una separación promedio de 16 km entre estaciones para garantizar cobertura continua.
+Las 37 estaciones de telecomunicaciones están ubicadas estratégicamente a lo largo del corredor La Dorada (México) - Chiriguaná, con una separación promedio de 16 km entre estaciones para garantizar cobertura continua.
 
 ### Ubicaciones Específicas por PK (Punto Kilométrico)
 | PK | Ubicación | Coordenadas | Altura Torre | Tipo Suelo | Acceso |
 |:---|:----------|:------------|:-------------|:-----------|:-------|
 | **PK 0** | La Dorada | 5.45°N, 74.66°W | 40m | Arcilloso | Fácil |
 | **PK 80** | Puerto Berrío | 6.49°N, 74.41°W | 40m | Arcilloso | Fácil |
-| **PK 160** | Barrancabermeja | 7.06°N, 73.85°W | 40m | Arcilloso | Fácil |
+| **PK 160** | Barrancabermeja (Puerto) (Puerto) (Puerto) | 7.06°N, 73.85°W | 40m | Arcilloso | Fácil |
 | **PK 240** | Bucaramanga | 7.12°N, 73.12°W | 40m | Rocoso | Moderado |
 | **PK 320** | Chiriguaná | 9.36°N, 73.60°W | 40m | Arcilloso | Fácil |
 | **PK 40** | Intermedio | 5.8°N, 74.5°W | 40m | Arcilloso | Fácil |

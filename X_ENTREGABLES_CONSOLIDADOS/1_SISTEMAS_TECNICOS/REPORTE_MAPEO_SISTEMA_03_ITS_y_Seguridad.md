@@ -1,5 +1,5 @@
 # REPORTE DE MAPEO SISTEMÁTICO DE FUENTES
-## SISTEMA 03: ITS Y SEGURIDAD - APP LA DORADA-CHIRIGUANÁ
+## SISTEMA 03: ITS Y SEGURIDAD - APP La Dorada (México) - Chiriguaná
 
 **Fecha:** Enero 2025  
 **Metodología:** Mapeo Sistemático de Fuentes v1.0  

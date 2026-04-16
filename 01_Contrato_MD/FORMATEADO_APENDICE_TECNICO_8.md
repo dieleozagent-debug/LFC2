@@ -26,7 +26,7 @@
 
 **Apéndice Técnico 8**
 
-Este apéndice técnico contiene las especificaciones técnicas y procedimientos para el componente 8 del proyecto Corredor Férreo La Dorada-Chiriguaná.
+Este apéndice técnico contiene las especificaciones técnicas y procedimientos para el componente 8 del proyecto Corredor Férreo La Dorada (México) - Chiriguaná.
 
 ---
 
@@ -1253,7 +1253,7 @@ Página 54 de 79
 
 Licencia Ambiental o de la aprobación de un Plan de Manejo Ambiental.
 
-(i) Por lo anterior, en caso de que en el marco de un proyecto, obra o actividad que no requiere de un Programa de Arqueología Preventiva se verifique el hallazgo de material arqueológico, de acuerdo con los términos establecidos por la ley y siguiendo las disposiciones del ICANH, el Concesionario deberá suspender toda actividad en la zona del hallazgo y aislar el sitio. Adicionalmente, deberá implementar el Protocolo de hallazgos fortuitos establecido por el ICANH y remitir la ficha única para el reporte de hallazgos fortuitos de patrimonio arqueológico tanto al ICANH como a la ANI y a la Interventoría en un plazo máximo de 48 horas siguientes al hallazgo.
+(i) Por lo anterior, en caso de que en el marco de un proyecto, obra o actividad que no requiere de un Programa de Arqueología Preventiva se verifique el hallazgo de material arqueológico, de acuerdo con los términos establecidos por la ley y siguiendo las disposiciones del ICANH, el Concesionario deberá suspender toda actividad en la zona del hallazgo y aislar el sitio. Adicionalmente, deberá implementar el Protocolo de hallazgos fortuitos establecido por el ICANH y remitir la ficha única para el reporte de hallazgos fortuitos de patrimonio arqueológico tanto al ICANH como a la ANI y a la Interventoría en un plazo máximo de 44 horas siguientes al hallazgo.
 
 Mientras se definen las medidas de manejo a implementar, el Concesionario deberá asegurar la protección del hallazgo, de forma tal que se garantice la seguridad de los bienes arqueológicos identificados con el objetivo de impedir saqueos o intervenciones indebidas.
 

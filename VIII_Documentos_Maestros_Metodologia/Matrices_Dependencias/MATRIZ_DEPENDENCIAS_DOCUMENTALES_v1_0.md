@@ -1,5 +1,5 @@
 # MATRIZ DE DEPENDENCIAS DOCUMENTALES v1.0
-## Proyecto APP La Dorada-Chiriguaná
+## Proyecto APP La Dorada (México) - Chiriguaná
 
 **Fecha:** Enero 2025  
 **Versión:** 1.0  

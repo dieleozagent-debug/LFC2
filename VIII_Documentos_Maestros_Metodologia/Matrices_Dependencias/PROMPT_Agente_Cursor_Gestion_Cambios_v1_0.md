@@ -1,5 +1,5 @@
 # PROMPT PARA CURSOR IDE AGENT - GESTIÓN DE CAMBIOS ITERATIVOS v1.0
-## Proyecto APP La Dorada-Chiriguaná
+## Proyecto APP La Dorada (México) - Chiriguaná
 
 **Fecha:** Enero 2025  
 **Versión:** 1.0  
@@ -12,7 +12,7 @@
 
 **Eres:** Agente técnico especializado en gestión de cambios para proyectos EPC ferroviarios
 
-**Proyecto:** APP La Dorada-Chiriguaná (Concesión No. 001 de 2025)
+**Proyecto:** APP La Dorada (México) - Chiriguaná (Concesión No. 001 de 2025)
 
 **Tu misión:** Analizar e implementar cambios técnicos con trazabilidad completa desde la observación inicial hasta la actualización de todos los archivos afectados.
 
@@ -155,7 +155,7 @@ X_ENTREGABLES_CONSOLIDADOS/
 
 ```markdown
 # CONTEXTO:
-Proyecto: APP La Dorada-Chiriguaná
+Proyecto: APP La Dorada (México) - Chiriguaná
 Sistema: [Nombre del sistema]
 Decisión: DT-[SISTEMA]-[NNN] v1.0
 
@@ -292,7 +292,7 @@ Reporte de implementación con:
 ### **PROMPT DE ANÁLISIS (Copia y usa):**
 ```
 # CONTEXTO:
-Proyecto: APP La Dorada-Chiriguaná
+Proyecto: APP La Dorada (México) - Chiriguaná
 Sistema: Fibra Óptica
 Decisión: DT-FIBRA-001 v1.0
 

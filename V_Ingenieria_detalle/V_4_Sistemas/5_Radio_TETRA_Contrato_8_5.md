@@ -40,7 +40,7 @@ Este documento de soporte contiene informacion tecnica, especificaciones y proce
 
 #### **ARQUITECTURA DE RED TETRA FERROVIARIA**
 - **Sistema Base Troncal:** Red de ~33 sitios de repetición para cobertura 100% del corredor
-- **Cobertura:** 540 km del corredor con nivel mínimo de senal -95 dBm
+- **Cobertura:** 526.133 km (Corredor SICC) del corredor con nivel mínimo de senal -95 dBm
 - **Redundancia N+1:** Controlador central y sitios críticos con redundancia
 - **Backhaul:** Fibra óptica principal, microondas como respaldo en sitios críticos
 
@@ -217,7 +217,7 @@ Esta informacion es unicamente de caracter informativo. Se recomienda su revisio
    - **Problema identificado:** Continuidad del servicio en caso de fallos
    - **Optimización EPC:** Controlador central y sitios críticos con redundancia
    - **Beneficio:** Continuidad del servicio incluso con fallos de equipos
-   - **Ubicaciones críticas:** Barrancabermeja, La Dorada, sitios principales
+   - **Ubicaciones críticas:** Barrancabermeja (Puerto), La Dorada, sitios principales
 
 3. **Backhaul por Fibra Óptica:**
    - **Problema identificado:** Conectividad de alta capacidad y baja latencia

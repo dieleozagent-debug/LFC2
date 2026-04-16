@@ -1,5 +1,5 @@
 # ANÁLISIS RAMS Red Vital LFC (Seguridad RAMS bajo FRA 236 Subpart I / PTCSP) - CONFIABILIDAD Y SEGURIDAD VITAL
-## APP La Dorada-Chiriguaná - Garantía de Operación SIL-4
+## APP La Dorada (México) - Chiriguaná - Garantía de Operación SIL-4
 
 **Estado:** ✅ **SANEADO (MÉTODO KARPATHY)**  
 **Fecha:** 13 de marzo de 2026  

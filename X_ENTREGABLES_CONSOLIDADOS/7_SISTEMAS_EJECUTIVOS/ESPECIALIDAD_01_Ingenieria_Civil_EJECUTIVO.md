@@ -10,7 +10,7 @@ La Ingeniería Civil es la **"base física"** del ferrocarril que proporciona to
 
 ### Alcance en números - JUSTIFICACIÓN TÉCNICA
 - **Inversión estimada:** $180,000 millones COP
-- **526.133 km corredor:** Longitud total del corredor ferroviario La Dorada-Chiriguaná
+- **526.133 km corredor:** Longitud total del corredor ferroviario La Dorada (México) - Chiriguaná
 - **2 vías principales:** Trocha estándar 1,435 mm según estándares FRA/AREMA
 - **25 puentes + 5 viaductos:** Obras de arte para cruzar ríos y quebradas
 - **150 alcantarillas:** Drenaje transversal cada 3.5 km promedio
@@ -116,7 +116,7 @@ La Ingeniería Civil proporciona **infraestructura física** para la operación 
 **Especificaciones técnicas:**
 | Parámetro | Valor | Justificación |
 |:----------|:------|:--------------|
-| **Longitud** | 526.133 km | Distancia La Dorada-Chiriguaná |
+| **Longitud** | 526.133 km | Distancia La Dorada (México) - Chiriguaná |
 | **Trocha** | 1,435 mm | Estándar FRA/AREMA para interoperabilidad |
 | **Vías principales** | 2 vías | Capacidad bidireccional |
 | **Ancho explanación** | 12 m | 2 vías + drenaje + servicios |
@@ -177,7 +177,7 @@ El corredor ferroviario se extiende 526.133 km entre La Dorada (Caldas) y Chirig
 |:-------------|:---------|:--------|:----------|:--------------|
 | **Caldas** | 45 km | 3 | 1 | CCO La Dorada |
 | **Antioquia** | 180 km | 8 | 2 | Estación Puerto Berrío |
-| **Santander** | 150 km | 6 | 1 | Estación Barrancabermeja |
+| **Santander** | 150 km | 6 | 1 | Estación Barrancabermeja (Puerto) (Puerto) (Puerto) |
 | **Norte de Santander** | 100 km | 4 | 1 | Estación Bucaramanga |
 | **Cesar** | 51 km | 4 | 0 | Estación Chiriguaná |
 

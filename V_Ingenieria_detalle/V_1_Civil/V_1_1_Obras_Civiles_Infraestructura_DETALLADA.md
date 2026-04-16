@@ -1,5 +1,5 @@
 # INGENIERÍA CIVIL DE DETALLE - OBRAS CIVILES E INFRAESTRUCTURA
-## APP LA DORADA-CHIRIGUANÁ v10.1
+## APP La Dorada (México) - Chiriguaná v10.1
 
 **Fecha de desarrollo:** 27 de enero de 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
@@ -10,10 +10,10 @@
 
 ## 🎯 RESUMEN EJECUTIVO
 
-Este documento presenta la **ingeniería civil de detalle** para las obras civiles e infraestructura del proyecto APP La Dorada-Chiriguaná, desarrollada para la construcción real del corredor ferroviario de 178 km.
+Este documento presenta la **ingeniería civil de detalle** para las obras civiles e infraestructura del proyecto APP La Dorada (México) - Chiriguaná, desarrollada para la construcción real del corredor ferroviario de 178 km.
 
 ### **Base Técnica:**
-- **Longitud total:** 178 km La Dorada-Chiriguaná
+- **Longitud total:** 178 km La Dorada (México) - Chiriguaná
 - **Configuración:** 2 vías principales + vías de servicio
 - **Velocidad de diseno:** 120 km/h
 - **Estándares:** Normas colombianas + FRA/AREMA + FERROVIAS
@@ -28,8 +28,8 @@ Este documento presenta la **ingeniería civil de detalle** para las obras civil
 | Tramo | Longitud | Excavación (m³) | Tipo de Material | Observaciones |
 |:------|:---------|:---------------:|:-----------------|:--------------|
 | **La Dorada - Puerto Berrío** | 45 km | 850,000 | Arcilla, arena | Estabilización requerida |
-| **Puerto Berrío - Barrancabermeja** | 52 km | 1,200,000 | Arcilla expansiva | Tratamiento especial |
-| **Barrancabermeja - Bucaramanga** | 38 km | 680,000 | Roca sedimentaria | Voladura controlada |
+| **Puerto Berrío - Barrancabermeja (Puerto)** | 52 km | 1,200,000 | Arcilla expansiva | Tratamiento especial |
+| **Barrancabermeja (Puerto) - Bucaramanga** | 38 km | 680,000 | Roca sedimentaria | Voladura controlada |
 | **Bucaramanga - Chiriguaná** | 43 km | 720,000 | Suelo orgánico | Compactación especial |
 | **TOTAL** | **178 km** | **3,450,000 m³** | - | - |
 
@@ -37,8 +37,8 @@ Este documento presenta la **ingeniería civil de detalle** para las obras civil
 | Tramo | Longitud | Relleno (m³) | Material de Relleno | Densidad |
 |:------|:---------|:------------:|:-------------------|:---------|
 | **La Dorada - Puerto Berrío** | 45 km | 420,000 | Material selecto | 95% Proctor |
-| **Puerto Berrío - Barrancabermeja** | 52 km | 580,000 | Material estabilizado | 98% Proctor |
-| **Barrancabermeja - Bucaramanga** | 38 km | 340,000 | Material granular | 97% Proctor |
+| **Puerto Berrío - Barrancabermeja (Puerto)** | 52 km | 580,000 | Material estabilizado | 98% Proctor |
+| **Barrancabermeja (Puerto) - Bucaramanga** | 38 km | 340,000 | Material granular | 97% Proctor |
 | **Bucaramanga - Chiriguaná** | 43 km | 380,000 | Material selecto | 95% Proctor |
 | **TOTAL** | **178 km** | **1,720,000 m³** | - | - |
 
@@ -87,8 +87,8 @@ Este documento presenta la **ingeniería civil de detalle** para las obras civil
 | Tramo | Cantidad | Tipo Principal | Sistema de Seguridad |
 |:------|:---------|:---------------|:---------------------|
 | **La Dorada - Puerto Berrío** | 38 | Automático | Barreras + senales |
-| **Puerto Berrío - Barrancabermeja** | 42 | Automático | Barreras + senales |
-| **Barrancabermeja - Bucaramanga** | 28 | Automático | Barreras + senales |
+| **Puerto Berrío - Barrancabermeja (Puerto)** | 42 | Automático | Barreras + senales |
+| **Barrancabermeja (Puerto) - Bucaramanga** | 28 | Automático | Barreras + senales |
 | **Bucaramanga - Chiriguaná** | 38 | Automático | Barreras + senales |
 | **TOTAL** | **146** | - | - |
 
@@ -136,7 +136,7 @@ Este documento presenta la **ingeniería civil de detalle** para las obras civil
 | Estación | Andenes | Cobertura | Edificio | Observaciones |
 |:---------|:--------|:----------|:---------|:--------------|
 | **Puerto Berrío** | 2 x 150m | 300m² | 300m² | Estación principal |
-| **Barrancabermeja** | 2 x 120m | 240m² | 200m² | Estación secundaria |
+| **Barrancabermeja (Puerto)** | 2 x 120m | 240m² | 200m² | Estación secundaria |
 | **Bucaramanga** | 2 x 100m | 200m² | 150m² | Estación secundaria |
 
 ---
@@ -149,8 +149,8 @@ Este documento presenta la **ingeniería civil de detalle** para las obras civil
 | Tramo | Longitud | Tipo de Drenaje | Capacidad | Observaciones |
 |:------|:---------|:----------------|:----------|:--------------|
 | **La Dorada - Puerto Berrío** | 45 km | Cuneta + alcantarilla | 50 l/s | Material arcilloso |
-| **Puerto Berrío - Barrancabermeja** | 52 km | Cuneta + alcantarilla | 75 l/s | Material expansivo |
-| **Barrancabermeja - Bucaramanga** | 38 km | Cuneta + alcantarilla | 60 l/s | Material rocoso |
+| **Puerto Berrío - Barrancabermeja (Puerto)** | 52 km | Cuneta + alcantarilla | 75 l/s | Material expansivo |
+| **Barrancabermeja (Puerto) - Bucaramanga** | 38 km | Cuneta + alcantarilla | 60 l/s | Material rocoso |
 | **Bucaramanga - Chiriguaná** | 43 km | Cuneta + alcantarilla | 55 l/s | Material orgánico |
 
 #### **5.2 Drenaje Transversal**
@@ -213,7 +213,7 @@ Este documento presenta la **ingeniería civil de detalle** para las obras civil
 |:----------|:----------|:---------|:--------------|
 | **La Dorada** | 2 x 25 MVA | 50 MVA | Subestación principal |
 | **Puerto Berrío** | 2 x 15 MVA | 30 MVA | Subestación intermedia |
-| **Barrancabermeja** | 2 x 15 MVA | 30 MVA | Subestación intermedia |
+| **Barrancabermeja (Puerto)** | 2 x 15 MVA | 30 MVA | Subestación intermedia |
 | **Chiriguaná** | 2 x 20 MVA | 40 MVA | Subestación terminal |
 
 ---

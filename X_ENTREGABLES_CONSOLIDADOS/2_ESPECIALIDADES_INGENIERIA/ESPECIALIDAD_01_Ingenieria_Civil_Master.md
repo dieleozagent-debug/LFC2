@@ -1,5 +1,5 @@
 # ESPECIALIDAD 01: INGENIERÍA CIVIL - Documento Master v1.0
-## APP LA DORADA-CHIRIGUANÁ - ENTREGABLE CONSOLIDADO
+## APP La Dorada (México) - Chiriguaná - ENTREGABLE CONSOLIDADO
 
 **Fecha de consolidación:** Enero 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
@@ -152,7 +152,7 @@
 |:---------|:----------|:-----|:-----------|
 | **Zapatosa** | Zapatosa | 200 m² | Concreto armado |
 | **García Cadena** | García Cadena | 200 m² | Concreto armado |
-| **Barrancabermeja** | Barrancabermeja | 200 m² | Concreto armado |
+| **Barrancabermeja (Puerto)** | Barrancabermeja (Puerto) | 200 m² | Concreto armado |
 | **Puerto Berrío-Grecia** | Puerto Berrío | 200 m² | Concreto armado |
 | **La Dorada-México** | La Dorada | 200 m² | Concreto armado |
 
@@ -162,8 +162,8 @@
 | Tramo | Longitud | Excavación (m³) | Tipo de Material | Observaciones |
 |:------|:---------|:---------------:|:-----------------|:--------------|
 | **La Dorada - Puerto Berrío** | 45 km | 850,000 | Arcilla, arena | Estabilización requerida |
-| **Puerto Berrío - Barrancabermeja** | 52 km | 1,200,000 | Arcilla expansiva | Tratamiento especial |
-| **Barrancabermeja - Bucaramanga** | 38 km | 680,000 | Roca sedimentaria | Voladura controlada |
+| **Puerto Berrío - Barrancabermeja (Puerto)** | 52 km | 1,200,000 | Arcilla expansiva | Tratamiento especial |
+| **Barrancabermeja (Puerto) - Bucaramanga** | 38 km | 680,000 | Roca sedimentaria | Voladura controlada |
 | **Bucaramanga - Chiriguaná** | 43 km | 720,000 | Suelo orgánico | Compactación especial |
 | **TOTAL** | **178 km** | **3,450,000 m³** | - | - |
 
@@ -171,8 +171,8 @@
 | Tramo | Longitud | Relleno (m³) | Material de Relleno | Densidad |
 |:------|:---------|:------------:|:-------------------|:---------|
 | **La Dorada - Puerto Berrío** | 45 km | 420,000 | Material selecto | 95% Proctor |
-| **Puerto Berrío - Barrancabermeja** | 52 km | 580,000 | Material estabilizado | 98% Proctor |
-| **Barrancabermeja - Bucaramanga** | 38 km | 340,000 | Material granular | 97% Proctor |
+| **Puerto Berrío - Barrancabermeja (Puerto)** | 52 km | 580,000 | Material estabilizado | 98% Proctor |
+| **Barrancabermeja (Puerto) - Bucaramanga** | 38 km | 340,000 | Material granular | 97% Proctor |
 | **Bucaramanga - Chiriguaná** | 43 km | 380,000 | Material selecto | 95% Proctor |
 | **TOTAL** | **178 km** | **1,720,000 m³** | - | - |
 
@@ -320,7 +320,7 @@
 | Nivel | Tiempo Respuesta | Recursos |
 |:------|:-----------------|:---------|
 | **Nivel 1** | 2 horas | Equipo básico |
-| **Nivel 2** | 8 horas | Equipo especializado |
+| **Nivel 2** | 4 horas | Equipo especializado |
 | **Nivel 3** | 24 horas | Contratista externo |
 
 ### **6.2 Procedimientos de Emergencia**
@@ -485,7 +485,7 @@
 
 ## ⚠️ ADVERTENCIAS LEGALES
 
-**Este documento consolidado es un entregable del proyecto APP La Dorada-Chiriguaná y contiene información técnica confidencial. Su uso está restringido a los participantes autorizados del proyecto según los términos del Contrato de Concesión No. 001 de 2025.**
+**Este documento consolidado es un entregable del proyecto APP La Dorada (México) - Chiriguaná y contiene información técnica confidencial. Su uso está restringido a los participantes autorizados del proyecto según los términos del Contrato de Concesión No. 001 de 2025.**
 
 **Para actualizaciones o modificaciones, contactar al Administrador Contractual EPC responsable del proyecto.**
 

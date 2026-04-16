@@ -1,7 +1,7 @@
 # WBS PRESUPUESTAL AMPLIADA v3.0
 ## Con Criterios Técnicos y Riesgos Integrados
 
-**Proyecto:** APP La Dorada-Chiriguaná  
+**Proyecto:** APP La Dorada (México) - Chiriguaná  
 **Fecha:** 7 de Octubre de 2025  
 **Versión:** 3.0 (Ampliada con trazabilidad)  
 **Novedad:** Columnas de Criterio Técnico + Riesgos + DT  

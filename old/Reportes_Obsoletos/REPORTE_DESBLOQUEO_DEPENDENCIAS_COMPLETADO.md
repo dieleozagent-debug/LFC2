@@ -1,5 +1,5 @@
 # REPORTE DE DESBLOQUEO DE DEPENDENCIAS COMPLETADO
-## APP LA DORADA-CHIRIGUANÁ v10.1
+## APP La Dorada (México) - Chiriguaná v10.1
 
 **Fecha de desbloqueo:** 27 de enero de 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
@@ -12,7 +12,7 @@
 
 **ESTADO:** ✅ **DEPENDENCIAS BLOQUEADAS RESUELTAS EXITOSAMENTE**
 
-Como Administrador Contractual EPC, confirmo que se han resuelto exitosamente **TODAS las dependencias críticas** que bloqueaban el avance a la Fase D del proyecto APP La Dorada-Chiriguaná. El proyecto está **COMPLETAMENTE DESBLOQUEADO** y listo para iniciar la Fase D.
+Como Administrador Contractual EPC, confirmo que se han resuelto exitosamente **TODAS las dependencias críticas** que bloqueaban el avance a la Fase D del proyecto APP La Dorada (México) - Chiriguaná. El proyecto está **COMPLETAMENTE DESBLOQUEADO** y listo para iniciar la Fase D.
 
 ---
 

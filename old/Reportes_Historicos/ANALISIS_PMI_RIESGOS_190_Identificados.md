@@ -4,11 +4,11 @@
 
 ---
 
-# ANÁLISIS PMI DE RIESGOS - PROYECTO LA DORADA-CHIRIGUANÁ
+# ANÁLISIS PMI DE RIESGOS - PROYECTO La Dorada (México) - Chiriguaná
 
 ## 📊 RESUMEN EJECUTIVO
 
-Este documento presenta el análisis detallado de los **190 riesgos identificados** durante la revisión exhaustiva de todos los documentos de ingeniería del proyecto La Dorada-Chiriguaná, aplicando la metodología del Project Management Institute (PMI). El objetivo es proporcionar una visión clara de los riesgos, sus impactos potenciales y las estrategias de gestión y mitigación propuestas.
+Este documento presenta el análisis detallado de los **190 riesgos identificados** durante la revisión exhaustiva de todos los documentos de ingeniería del proyecto La Dorada (México) - Chiriguaná, aplicando la metodología del Project Management Institute (PMI). El objetivo es proporcionar una visión clara de los riesgos, sus impactos potenciales y las estrategias de gestión y mitigación propuestas.
 
 ---
 

@@ -3,7 +3,7 @@
 **Ubicación:** `X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/`  
 **Fecha de conversión:** 6 de octubre de 2025  
 **Última actualización:** Enero 2025  
-**Proyecto:** APP La Dorada-Chiriguaná  
+**Proyecto:** APP La Dorada (México) - Chiriguaná  
 **Herramienta utilizada:** Pandoc 3.8  
 
 ---

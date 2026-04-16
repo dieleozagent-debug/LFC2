@@ -149,9 +149,9 @@ Esta carpeta contiene las **"recetas de cocina"** - metodologías probadas y val
 
 ## 📈 **CASOS DE USO VALIDADOS**
 
-### **PROYECTO APP LA DORADA-CHIRIGUANÁ:**
+### **PROYECTO APP La Dorada (México) - Chiriguaná:**
 - **Sistema 01:** Control y Senalización (7 horas)
-- **Sistema 02:** Telecomunicaciones (8 horas)
+- **Sistema 02:** Telecomunicaciones (4 horas)
 - **Resultado:** 2 documentos master consolidados con 100% de coherencia
 
 ### **PRÓXIMAS APLICACIONES:**

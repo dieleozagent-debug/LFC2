@@ -33,6 +33,6 @@ Se han ejecutado los siguientes cambios normativos:
 
 ## ✅ CONCLUSIONES DE FASE:
 
-Los Documentos Transversales y el Soporte Especializado quedan 100% libres de obsolescencia técnica. El repositorio completo de la APP La Dorada-Chiriguaná es ahora un ejemplo de vanguardia en senalización virtual y gestión soberana de infraestructura crítica.
+Los Documentos Transversales y el Soporte Especializado quedan 100% libres de obsolescencia técnica. El repositorio completo de la APP La Dorada (México) - Chiriguaná es ahora un ejemplo de vanguardia en senalización virtual y gestión soberana de infraestructura crítica.
 
 **Saneamiento Ciclo 7 COMPLETADO.**

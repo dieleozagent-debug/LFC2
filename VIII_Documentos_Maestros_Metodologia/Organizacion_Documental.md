@@ -1,4 +1,4 @@
-# EVALUACIÓN INICIAL DEL PROYECTO APP LA DORADA-CHIRIGUANÁ
+# EVALUACIÓN INICIAL DEL PROYECTO APP La Dorada (México) - Chiriguaná
 **ESTADO:** Análisis de Repositorio Documental v1.0
 
 ---

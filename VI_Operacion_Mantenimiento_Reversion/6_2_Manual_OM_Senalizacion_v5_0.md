@@ -17,7 +17,7 @@ El mantenimiento de la senalización se enfoca en el software vital y la integri
 Inspección semestral de los 5 hubs vitales, verificando redundancia y tiempos de conmutación:
 - ** Hub Zapatosa**
 - ** Hub García Cadena**
-- ** Hub Barrancabermeja**
+- ** Hub Barrancabermeja (Puerto)**
 - ** Hub Puerto Berrío-Grecia**
 - ** Hub La Dorada-México**
 

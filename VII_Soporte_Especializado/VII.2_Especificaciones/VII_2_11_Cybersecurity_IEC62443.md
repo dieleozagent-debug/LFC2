@@ -1,5 +1,5 @@
 # CYBERSECURITY Red Vital LFC (IEC 62443) - SEGURIDAD DE LA INFORMACIÓN VITAL
-## APP La Dorada-Chiriguaná - Protección de Infraestructura Crítica
+## APP La Dorada (México) - Chiriguaná - Protección de Infraestructura Crítica
 
 **Estado:** ✅ **SANEADO (MÉTODO KARPATHY)**  
 **Fecha:** 13 de marzo de 2026  

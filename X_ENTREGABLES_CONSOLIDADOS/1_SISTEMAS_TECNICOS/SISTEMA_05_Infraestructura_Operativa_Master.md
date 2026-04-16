@@ -1,5 +1,5 @@
 ﻿# SISTEMA 05: INFRAESTRUCTURA OPERATIVA - Documento Master v1.0
-## APP LA DORADA-CHIRIGUANÁ - ENTREGABLE CONSOLIDADO
+## APP La Dorada (México) - Chiriguaná - ENTREGABLE CONSOLIDADO
 
 **Fecha de consolidación:** Enero 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
@@ -49,7 +49,7 @@
 
 #### **Criterios Técnicos Maestros Consolidados:**
 - **CCO:** 1 centro en La Dorada con disponibilidad 99.95%
-- **Estaciones ENCE:** 5 estaciones (Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México)
+- **Estaciones ENCE:** 5 estaciones (Zapatosa, García Cadena, Barrancabermeja (Puerto), Puerto Berrío-Grecia, La Dorada-México)
 - **Subestaciones:** 4 principales + 8 de distribución según especificaciones eléctricas
 - **Infraestructura Civil:** Edificaciones, puentes, pasos a nivel, drenaje
 - **Disponibilidad:** 99.95% para CCO, 99.5% para estaciones según AT4
@@ -75,7 +75,7 @@
 - **Accesibilidad:** Cumplimiento AT8 gestión social
 
 #### **Subestaciones Eléctricas:**
-- **Subestaciones Principales:** 4 ubicaciones (La Dorada, Puerto Berrío, Barrancabermeja, Chiriguaná)
+- **Subestaciones Principales:** 4 ubicaciones (La Dorada, Puerto Berrío, Barrancabermeja (Puerto), Chiriguaná)
 - **Subestaciones Distribución:** 8 ubicaciones intermedias
 - **Funciones:** Transformación, distribución, respaldo de energía
 - **Disponibilidad:** 99.95% para críticas, 99.5% para auxiliares
@@ -136,7 +136,7 @@
 |:---------|:----------|:-----|:-----------|:-----------|
 | **Zapatosa** | Zapatosa | 200 m² | Concreto armado | ENCE + operaciones |
 | **García Cadena** | García Cadena | 200 m² | Concreto armado | ENCE + operaciones |
-| **Barrancabermeja** | Barrancabermeja | 300 m² | Concreto armado | ENCE + operaciones |
+| **Barrancabermeja (Puerto)** | Barrancabermeja (Puerto) | 300 m² | Concreto armado | ENCE + operaciones |
 | **Puerto Berrío-Grecia** | Puerto Berrío | 250 m² | Concreto armado | ENCE + operaciones |
 | **La Dorada-México** | La Dorada | 300 m² | Concreto armado | ENCE + operaciones |
 
@@ -154,7 +154,7 @@
 |:----------|:----------|:---------------:|:---:|:-----------:|
 | **La Dorada** | 63 MVA | 2 x 63 MVA | 100 kVA | 500 kVA |
 | **Puerto Berrío** | 40 MVA | 2 x 40 MVA | 75 kVA | 350 kVA |
-| **Barrancabermeja** | 40 MVA | 2 x 40 MVA | 75 kVA | 350 kVA |
+| **Barrancabermeja (Puerto)** | 40 MVA | 2 x 40 MVA | 75 kVA | 350 kVA |
 | **Chiriguaná** | 50 MVA | 2 x 50 MVA | 100 kVA | 450 kVA |
 
 #### **Subestaciones de Distribución (8 Ubicaciones):**
@@ -192,7 +192,7 @@
 | **UPS Principal** | 100 kVA, 30 min | 2 unidades | Redundancia N+1 |
 | **Bancos de Baterías** | 500 Ah, 480V DC | 2 bancos | Plomo-ácido |
 | **Generador Emergencia** | 500 kVA, diesel | 2 unidades | Automático |
-| **Tanque Combustible** | 5,000 litros | 1 unidad | 8 horas autonomía |
+| **Tanque Combustible** | 5,000 litros | 1 unidad | 4 horas autonomía |
 | **Sistema HVAC** | 50 kW, Diesel-Eléctrica | 2 unidades | Redundancia |
 
 #### **Infraestructura del Edificio:**
@@ -278,7 +278,7 @@
 - **UPS:** 100 kVA, 30 minutos autonomía, redundancia N+1
 - **Baterías:** 500 Ah, 480V DC, plomo-ácido
 - **Generadores:** 500 kVA, diesel, arranque automático
-- **Combustible:** 5,000 litros, 8 horas autonomía
+- **Combustible:** 5,000 litros, 4 horas autonomía
 - **HVAC:** 50 kW, Diesel-Eléctrica, redundancia
 
 #### **Infraestructura Civil:**
@@ -451,7 +451,7 @@
 | **CCO** | 99.95% | 2 horas | Tiempo de respuesta, disponibilidad | ✅ Monitoreado |
 | **Estaciones ENCE** | 99.95% | 4 horas | Disponibilidad sistemas, tiempo respuesta | ✅ Monitoreado |
 | **Subestaciones Principales** | 99.95% | 4 horas | Disponibilidad equipos, tiempo respuesta | ✅ Monitoreado |
-| **Subestaciones Distribución** | 99.5% | 8 horas | Disponibilidad equipos, tiempo respuesta | ✅ Monitoreado |
+| **Subestaciones Distribución** | 99.5% | 4 horas | Disponibilidad equipos, tiempo respuesta | ✅ Monitoreado |
 | **Infraestructura Civil** | 99.5% | 24 horas | Disponibilidad edificios, tiempo respuesta | ✅ Monitoreado |
 
 ---
@@ -515,7 +515,7 @@
 
 ## ⚠️ ADVERTENCIAS LEGALES
 
-**Este documento consolidado es un entregable del proyecto APP La Dorada-Chiriguaná y contiene información técnica confidencial. Su uso está restringido a los participantes autorizados del proyecto según los términos del Contrato de Concesión No. 001 de 2025.**
+**Este documento consolidado es un entregable del proyecto APP La Dorada (México) - Chiriguaná y contiene información técnica confidencial. Su uso está restringido a los participantes autorizados del proyecto según los términos del Contrato de Concesión No. 001 de 2025.**
 
 **Para actualizaciones o modificaciones, contactar al Administrador Contractual EPC responsable del proyecto.**
 

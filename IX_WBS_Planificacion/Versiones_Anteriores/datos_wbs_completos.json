@@ -1,5 +1,5 @@
 {
-  "proyecto": "APP La Dorada-Chiriguaná",
+  "proyecto": "APP La Dorada (México) - Chiriguaná",
   "version": "3.0",
   "fecha_actualizacion": "2025-10-07",
   "total_items": 200,
@@ -14,7 +14,7 @@
       "tipo": "SUMINISTRO",
       "modificable": false,
       "criterio_tecnico": {
-        "justificacion": "Longitud corredor La Dorada-Chiriguaná según AT1",
+        "justificacion": "Longitud corredor La Dorada (México) - Chiriguaná según AT1",
         "fuente": "AT1 - Alcance del Proyecto, Sección 2.1",
         "normas": ["UIT-T G.652.D"],
         "calculo": "526 km corredor + 0% reserva (valor contractual)",

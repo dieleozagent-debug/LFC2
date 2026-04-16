@@ -45,14 +45,14 @@ Este documento de soporte contiene las estimaciones de cantidades para el sistem
 
 ### 📊 Parámetros Base del Proyecto
 
-**Proyecto:** APP La Dorada-Chiriguaná (540 km)
+**Proyecto:** APP La Dorada (México) - Chiriguaná (526.133 km (Corredor SICC))
 
 | Parámetro |
 Valor
 Fuente
 
 Longitud total corredor
-540 km
+526.133 km (Corredor SICC)
 AT1 (53 UFVF)
 
 Topología fibra
@@ -75,7 +75,7 @@ Este documento de soporte contiene las estimaciones de cantidades para el sistem
 1. Sistema TETRA - Estimaciones de Cantidades
 1.1 Infraestructura de Torres y Estaciones Base
 Estaciones Base TETRA
-Cálculo: 540 km ÷ 20 km promedio = 27 estaciones base
+Cálculo: 526.133 km (Corredor SICC) ÷ 20 km promedio = 27 estaciones base
 Buffer seguridad: +15% = 31 estaciones base
 Interoperabilidad FENOCO: +2 estaciones = 33 estaciones base
 ESTIMACIÓN: 33 Estaciones Base TETRA
@@ -121,7 +121,7 @@ ESTIMACIÓN: 165 kW Total + UPS + Generadores
 2. Sistema Fibra Óptica - Estimaciones de Cantidades
 2.1 Topología de Red
 Arquitectura Propuesta
-- Anillo Principal: La Dorada → Chiriguaná (540 km)
+- Anillo Principal: La Dorada → Chiriguaná (526.133 km (Corredor SICC))
 - Anillo Secundario: Ruta alternativa (560 km, +3.7%)
 - Total fibra backbone: 1,100 km
 Ramales y Derivaciones
@@ -133,7 +133,7 @@ TOTAL FIBRA: 1,291 km
 2.2 Equipos de Red Óptica
 Regeneradores/Amplificadores L3
 Ubicación cada 40 km en anillo principal:
-540 km ÷ 40 km = 14 regeneradores por anillo
+526.133 km (Corredor SICC) ÷ 40 km = 14 regeneradores por anillo
 Doble anillo: 14 × 2 = 28 regeneradores
 Redundancia crítica: +4 equipos
 ESTIMACIÓN: 32 Regeneradores Ópticos L3
@@ -240,7 +240,7 @@ TETRA (ANE - Agencia Nacional Espectro)
 - 1 licencia red troncalizada nacional
 - Coordinación interferencias con FENOCO
 Fibra Óptica (Operadores Redes)
-- 540 km cruces vía férrea (autocruce)
+- 526.133 km (Corredor SICC) cruces vía férrea (autocruce)
 - ~200 cruces redes eléctricas
 - ~150 cruces acueducto/alcantarillado
 - ~50 cruces gas/hidrocarburos
@@ -297,7 +297,7 @@ Sistema Fibra Óptica
 [ ] Verificar capacidad real por sistema soportado
 6.2 Estudios Complementarios Requeridos
 Ingeniería de Detalle
-1. Estudio propagación radio (TETRA): Drive test 540 km
+1. Estudio propagación radio (TETRA): Drive test 526.133 km (Corredor SICC)
 2. Estudio geotécnico: fundaciones torres + casetas
 3. Análisis interferencias: EMC entre TETRA y fibra
 4. Cálculo consumo real: mediciones climáticas

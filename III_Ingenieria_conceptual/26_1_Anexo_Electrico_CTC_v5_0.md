@@ -28,7 +28,7 @@
 
 **Anexo Eléctrico - Centro de Control de Tráfico (CTC)**
 
-Este documento especifica los requerimientos eléctricos del Centro de Control de Tráfico (CTC) para el proyecto APP La Dorada-Chiriguaná, incluyendo alimentación, distribución, protecciones y sistemas de respaldo, **100% ALINEADO CON LOS CRITERIOS TÉCNICOS MAESTROS v1.0**.
+Este documento especifica los requerimientos eléctricos del Centro de Control de Tráfico (CTC) para el proyecto APP La Dorada (México) - Chiriguaná, incluyendo alimentación, distribución, protecciones y sistemas de respaldo, **100% ALINEADO CON LOS CRITERIOS TÉCNICOS MAESTROS v1.0**.
 
 ---
 
@@ -48,7 +48,7 @@ Este documento especifica los requerimientos eléctricos del Centro de Control d
 ## 1. MARCO CONTRACTUAL
 
 ### 1.1 Base Legal
-Este documento especifica los requerimientos eléctricos del Centro de Control de Tráfico (CTC) para el proyecto APP La Dorada-Chiriguaná, **100% ALINEADO CON LOS CRITERIOS TÉCNICOS MAESTROS v1.0**.
+Este documento especifica los requerimientos eléctricos del Centro de Control de Tráfico (CTC) para el proyecto APP La Dorada (México) - Chiriguaná, **100% ALINEADO CON LOS CRITERIOS TÉCNICOS MAESTROS v1.0**.
 
 ### 1.2 ⚠️ EVALUACIÓN DE DEPENDENCIAS
 **Documentos Base (Completados ✅):**
@@ -163,7 +163,7 @@ Este documento especifica los requerimientos eléctricos del Centro de Control d
 | **Red Vital IP / TETRA** | **37 estaciones** | Redundancia con TETRA | Criterios maestros |
 | **Locomotoras** | 15 | Flota según contrato | AT1-3 material rodante |
 | **EOT** | **15 dispositivos** | End of Train Device | Criterios maestros |
-| **ENCE** | **5 estaciones** | Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México | Respuesta LFC |
+| **ENCE** | **5 estaciones** | Zapatosa, García Cadena, Barrancabermeja (Puerto), Puerto Berrío-Grecia, La Dorada-México | Respuesta LFC |
 | **Desvíos motorizados** | **25 unidades** | Control automático | Criterios maestros |
 | **Desvíos manuales** | **95 unidades** | Operación manual | Criterios maestros |
 | **Cámaras CCTV** | 73 | 48 PAN + 12 talleres + 8 CCO + 5 estaciones | Respuesta LFC |
@@ -219,7 +219,7 @@ Este documento especifica los requerimientos eléctricos del Centro de Control d
 **Enclavamientos Electrónicos:**
 - Zapatosa
 - García Cadena
-- Barrancabermeja
+- Barrancabermeja (Puerto)
 - Puerto Berrío-Grecia
 - La Dorada-México
 
@@ -329,7 +329,7 @@ Este documento especifica los requerimientos eléctricos del Centro de Control d
 | Parámetro | Especificación |
 |:----------|:---------------|
 | **Capacidad** | 50 kW |
-| **Autonomía (Red Pública)** | **8 Horas** |
+| **Autonomía (Red Pública)** | **4 Horas** |
 | **Tiempo de transferencia** | < 4 ms |
 | **THD** | < 3% |
 | **Eficiencia** | > 95% |

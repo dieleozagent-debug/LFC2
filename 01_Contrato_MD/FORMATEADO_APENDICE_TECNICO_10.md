@@ -26,7 +26,7 @@
 
 **Alcance del Proyecto - Infraestructura Férrea**
 
-Este apéndice técnico define el alcance completo del proyecto Corredor Férreo La Dorada-Chiriguaná, incluyendo la infraestructura férrea, logística y anexidades requeridas.
+Este apéndice técnico define el alcance completo del proyecto Corredor Férreo La Dorada (México) - Chiriguaná, incluyendo la infraestructura férrea, logística y anexidades requeridas.
 
 ---
 

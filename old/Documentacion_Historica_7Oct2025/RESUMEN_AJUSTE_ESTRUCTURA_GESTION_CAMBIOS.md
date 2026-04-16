@@ -1,6 +1,6 @@
 # RESUMEN - AJUSTE DE ESTRUCTURA PARA GESTIÓN DE CAMBIOS ITERATIVOS
 
-**Proyecto:** APP La Dorada-Chiriguaná  
+**Proyecto:** APP La Dorada (México) - Chiriguaná  
 **Fecha:** Enero 2025  
 **Versión:** 1.0  
 **Tipo:** Ajuste metodológico crítico  
@@ -170,7 +170,7 @@ EXPORTACIÓN (Word/HTML para distribución)
 ### **Prompt para Cursor IDE Agent (Análisis inicial):**
 ```
 # CONTEXTO:
-Proyecto: APP La Dorada-Chiriguaná
+Proyecto: APP La Dorada (México) - Chiriguaná
 Sistema: Fibra Óptica Backbone
 Decisión: DT-FIBRA-001 v1.0
 

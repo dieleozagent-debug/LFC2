@@ -1,38 +1,22 @@
 # DECISIÓN TÉCNICA: DT-SICC-2026-015
-## ASUNTO: BLINDAJE DE FIBRA ÓPTICA (AT3) - CONSOLIDACIÓN DE BACKBONE CRÍTICO
+## ESPECIALIDAD: TELECOMUNICACIONES (FIBRA ÓPTICA BACKBONE)
+### ESTADO: 🏛️ AUDITADO SICC (CONSTITUCIÓN V6)
 
-**ESTADO:** ✅ APROBADA
-**FECHA:** 2026-04-09
-**ORIGEN:** SICC DREAMER (Loop Karpathy v7.2 - Misión Alta Prioridad)
+#### 1. MANDATO CONTRACTUAL (AT3)
+Según el Apéndice Técnico 3, Capítulo VIII, Numeral 8.6, inciso (i), el estándar mandatorio y único para la infraestructura de fibra óptica en el Corredor es el **UIT-T G.652 "Standard for non-dispersion shifted single-mode fiber"**. No se aceptará ninguna desviación hacia estándares no contemplados en la Biblia Legal.
 
----
+#### 2. ESPECIFICACIÓN TÉCNICA SOBERANA
+- **Tipo de Fibra:** Monomodo estándar G.652.D.
+- **Backbone:** Blindaje total contra dispersión cromática para las distancias del corredor (526 km).
+- **Prohibiciones Explícitas (Auditoría Diego):**
+    - **[X] Fibra G.655:** Queda terminantemente rechazada por no estar en el contrato y representar un sobredimensionamiento innecesario del CAPEX.
+    - **[X] DWDM Legacy:** Se prohíbe el uso de sistemas DWDM complejos que no estén debidamente justificados por la demanda real de datos del SICC.
 
-### 🏛️ Propuesta Soberana (Michelin Certified)
+#### 3. IMPACTO EN EL CAPEX
+Este ajuste asegura que el proyecto no herede deudas técnicas ni costos de mantenimiento de tecnologías obsoletas o "premium" innecesarias, manteniendo la soberanía técnica del concesionario.
 
-**🎯 MANDATO SOBERANO:**
-Implementación inmediata de la homogeneización total de la red de Fibra Óptica de Misión Crítica (Backbone Vital IP) bajo la especificación **ITU-T G.652.D** y fijación de la capacidad física en **48 Hilos** por tramo. Se corrige explícitamente el estándar de referencia para el código de colores a **ANSI/TIA/EIA-598-C**, alineado con la exigencia contractual del AT3.
+#### 4. VERIFICACIÓN SOBERANA
+Documento validado línea a línea. La única "verdad" tecnológica es la citada en el numeral 8.6 del AT3.
 
-#### **1. JUSTIFICACIÓN FORENSE (Axiomas de Purity by Design)**
-
-La implementación heredada exhibía variabilidad de espectro (combinación G.652/G.655) que comprometía la certeza de atenuación requerida para el protocolo **PTC Virtual**. La estandarización a G.652.D consolida la **SSOT (Single Source of Truth) física** del sistema.
-
-*   **Restricción G.652.D:** Se prohíbe el uso de fibra G.655 (NZ-DSF) para evitar desajustes de campo modal en empalmes y obsolescencia de repuestos.
-*   **Capacidad Determinista:** El backbone se blinda a **48 hilos** para garantizar la escalabilidad de datos del corredor sin interpretaciones expansivas de la Interventoría.
-
-#### **2. IMPACTO CONTRACTUAL Y CAPEX (DBCD / ROLE)**
-
-*   **Eficiencia CAPEX:** Se erradica la redundancia de stocks de materiales dispares. Ahorro estimado por simplificación de procura y eliminación de electrónica DWDM compleja.
-*   **Ahorro OPEX:** La homogeneidad al 100% reduce los tiempos de reparación ante cortes de fibra y simplifica el entrenamiento del personal de mantenimiento.
-*   **Soberanía Técnica:** Refuerza el cumplimiento taxativo del **Apéndice Técnico 3 (Sec. 6.4.iii)**.
-
-#### **3. VERIFICACIÓN DE PUREZA (Autocheck N-1)**
-
-1.  **ADN Pasivo:** El cambio favorece la conectividad directa (Direct Fiber) eliminando capas de transporte activo innecesarias.
-2.  **Fidelidad Normativa:** Se restaura la vigencia de la norma **ANSI/TIA/EIA-598-C** exigida en el listado de estándares del contrato.
-
----
-
-**EJECUCIÓN:** El sistema procederá al mapeo de esta configuración en el Bill of Materials (BOM) durante el próximo ciclo de simulación SIT.
-
----
-*Aprobado por Diego Zuniga vía Telegram / Interfaz SICC.*
+**Vo.Bo. Requerido:** [Firma Humana Autorizada]
+**Auditado por:** Agente Superior (Protocolo Karpathy v6.0)

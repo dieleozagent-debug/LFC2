@@ -1,5 +1,5 @@
 # PROTOCOLO DE INTEROPERABILIDAD OPERACIONAL - RED VITAL v6.3.2
-## APP La Dorada-Chiriguaná - Punto de Intercambio Chiriguaná (FENOCO)
+## APP La Dorada (México) - Chiriguaná - Punto de Intercambio Chiriguaná (FENOCO)
 
 **Estado:** ✅ **SANEADO (SICC SOVEREIGN)**  
 **Fecha:** 18 de marzo de 2026  

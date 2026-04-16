@@ -1,5 +1,5 @@
 # REVISIÓN, COMPLETACIÓN Y ACABADO DE ESPECIALIDADES TÉCNICAS
-## APP LA DORADA-CHIRIGUANÁ v10.1
+## APP La Dorada (México) - Chiriguaná v10.1
 
 **Fecha de revisión:** 27 de enero de 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
@@ -12,7 +12,7 @@
 
 **ESTADO:** 🔍 **REVISIÓN COMPLETADA - ESPECIALIDADES TÉCNICAS VALIDADAS Y COMPLETADAS**
 
-Como Administrador Contractual EPC, he completado la revisión exhaustiva de las especialidades técnicas del proyecto APP La Dorada-Chiriguaná. **TODAS las especialidades técnicas están COMPLETADAS y validadas** según los estándares de ingeniería de detalle.
+Como Administrador Contractual EPC, he completado la revisión exhaustiva de las especialidades técnicas del proyecto APP La Dorada (México) - Chiriguaná. **TODAS las especialidades técnicas están COMPLETADAS y validadas** según los estándares de ingeniería de detalle.
 
 ---
 

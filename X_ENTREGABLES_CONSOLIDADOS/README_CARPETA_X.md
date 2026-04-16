@@ -1,6 +1,6 @@
 # CARPETA X - ENTREGABLES CONSOLIDADOS
 
-**Proyecto:** APP La Dorada-Chiriguaná  
+**Proyecto:** APP La Dorada (México) - Chiriguaná  
 **Versión:** 1.0  
 **Fecha:** Enero 2025  
 **Responsable:** Administrador Contractual EPC  

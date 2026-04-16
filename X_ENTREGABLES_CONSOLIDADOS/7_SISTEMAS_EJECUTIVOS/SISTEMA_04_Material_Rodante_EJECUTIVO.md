@@ -16,7 +16,7 @@ El Sistema de Material Rodante es la **"flota de vehículos"** del ferrocarril q
 - **15 dispositivos EOT:** 1 por locomotora para seguridad crítica (End of Train)
 - **3 talleres:** Principal La Dorada + secundario Chiriguaná + taller de línea
 - **Sistemas embarcados:** PTC PTC Virtual (FRA 236), TETRA + Red Vital IP / TETRA, GPS/GNSS, CCTV
-- **Cobertura:** 100% del corredor La Dorada-Chiriguaná
+- **Cobertura:** 100% del corredor La Dorada (México) - Chiriguaná
 - **Disponibilidad requerida:** 99.95% (sistema crítico según AT4)
 
 ### Hitos críticos
@@ -164,7 +164,7 @@ El Sistema de Material Rodante proporciona **capacidad de transporte** para el c
 |:-----------|:---------|:----------|:-------|
 | Taller principal | 1 unidad | La Dorada | ✅ Operativo |
 | Taller secundario | 1 unidad | Chiriguaná | ✅ Operativo |
-| Talleres de línea | 3 unidades | Puerto Berrío, Barrancabermeja, Bucaramanga | ✅ Operativos |
+| Talleres de línea | 3 unidades | Puerto Berrío, Barrancabermeja (Puerto) (Puerto) (Puerto), Bucaramanga | ✅ Operativos |
 | Equipos de mantenimiento | 50 unidades | Todos los talleres | ✅ Disponibles |
 
 **Estado general:** 🟢 En cronograma
@@ -203,7 +203,7 @@ El material rodante opera a lo largo del corredor de 526 km, con talleres ubicad
 | Taller La Dorada | Mantenimiento principal | 150m x 30m | ✅ Operativo |
 | Taller Chiriguaná | Mantenimiento secundario | 100m x 25m | ✅ Operativo |
 | Puerto Berrío | Taller de línea | Herramientas basicas | ✅ Operativo |
-| Barrancabermeja | Taller de línea | Herramientas basicas | ✅ Operativo |
+| Barrancabermeja (Puerto) (Puerto) (Puerto) | Taller de línea | Herramientas basicas | ✅ Operativo |
 | Bucaramanga | Taller de línea | Herramientas basicas | ✅ Operativo |
 
 ---

@@ -26,7 +26,7 @@
 
 **Apéndice Técnico 9**
 
-Este apéndice técnico contiene las especificaciones técnicas y procedimientos para el componente 9 del proyecto Corredor Férreo La Dorada-Chiriguaná.
+Este apéndice técnico contiene las especificaciones técnicas y procedimientos para el componente 9 del proyecto Corredor Férreo La Dorada (México) - Chiriguaná.
 
 ---
 

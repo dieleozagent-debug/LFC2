@@ -1,4 +1,4 @@
-# 🔗 MATRIZ DE TRAZABILIDAD TÉCNICA - APP LA DORADA-CHIRIGUANÁ
+# 🔗 MATRIZ DE TRAZABILIDAD TÉCNICA - APP La Dorada (México) - Chiriguaná
 ## Sistema de Referencias Cruzadas y Coherencia Documental
 
 **Fecha:** Enero 2025  

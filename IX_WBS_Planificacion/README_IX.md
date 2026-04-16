@@ -1,5 +1,5 @@
 # ð IX. WBS Y PLANIFICACIÓN
-## APP LA DORADA-CHIRIGUANÁ - Documentos de Planificación y Presupuesto
+## APP La Dorada (México) - Chiriguaná - Documentos de Planificación y Presupuesto
 
 **Fecha:** Enero 2025  
 **Estado:** â **DOCUMENTOS ORGANIZADOS Y DISPONIBLES**  
@@ -9,7 +9,7 @@
 
 ## ð **RESUMEN EJECUTIVO**
 
-Esta carpeta contiene los **documentos de planificación y presupuesto** del proyecto APP La Dorada-Chiriguaná, incluyendo la estructura de desglose de trabajo (WBS), cronogramas, análisis de riesgos y presupuesto definitivo.
+Esta carpeta contiene los **documentos de planificación y presupuesto** del proyecto APP La Dorada (México) - Chiriguaná, incluyendo la estructura de desglose de trabajo (WBS), cronogramas, análisis de riesgos y presupuesto definitivo.
 
 ---
 

@@ -5,12 +5,12 @@
 **Sistema:** Sistema de Información a Usuarios (SIU) / Paneles LED / Audio  
 **Fecha:** 09 de abril de 2026  
 **Responsable:** OpenGravity Sovereign Auditor  
-**Impacto CAPEX:** -$300,000 USD (Supresión de señalética analógica y optimización de monitores)
+**Impacto CAPEX:** -$300,000 USD (Supresión de senalética analógica y optimización de monitores)
 
 ---
 
 ## 1. RESUMEN EJECUTIVO
-Este dictamen establece la validez del **Sistema de Información a Usuarios (SIU)** digital para las estaciones y puntos de parada del corredor. Se ratifica que la información a terceros (comunidades y pasajeros eventuales) debe servirse mediante plataformas digitales y señalética LED de bajo consumo, integradas a la Red Vital IP, prohibiendo la proliferación de señalética estática redundante que genere altos costos de mantenimiento físico.
+Este dictamen establece la validez del **Sistema de Información a Usuarios (SIU)** digital para las estaciones y puntos de parada del corredor. Se ratifica que la información a terceros (comunidades y pasajeros eventuales) debe servirse mediante plataformas digitales y senalética LED de bajo consumo, integradas a la Red Vital IP, prohibiendo la proliferación de senalética estática redundante que genere altos costos de mantenimiento físico.
 
 ---
 
@@ -33,7 +33,7 @@ La especificación técnica define la interacción con el usuario:
 *«El Concesionario instalará **Sistemas de Información a Usuarios (SIU)** que permitan la difusión de horarios, estados de la vía y mensajes de seguridad ferroviaria en tiempo real.»*
 
 **Interpretación Forense:** 
-El Verbo Rector es **"Difundir información en tiempo real"**. Dado que la vía es predominantemente de carga, el sistema SIU debe enfocarse en la **Seguridad Ferroviaria** para las comunidades aledañas. Se invalida el uso de cartelería estática que se deteriore en climas tropicales. El sistema debe basarse en Paneles de Mensajería Variable (PMV) controlados remotamente desde el CCO, asegurando que la información sea siempre veraz y actualizada bajo el esquema de Soberanía de Datos SICC.
+El Verbo Rector es **"Difundir información en tiempo real"**. Dado que la vía es predominantemente de carga, el sistema SIU debe enfocarse en la **Seguridad Ferroviaria** para las comunidades aledanas. Se invalida el uso de cartelería estática que se deteriore en climas tropicales. El sistema debe basarse en Paneles de Mensajería Variable (PMV) controlados remotamente desde el CCO, asegurando que la información sea siempre veraz y actualizada bajo el esquema de Soberanía de Datos SICC.
 
 ---
 

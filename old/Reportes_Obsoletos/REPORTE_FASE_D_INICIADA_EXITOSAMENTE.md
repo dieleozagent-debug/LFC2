@@ -1,5 +1,5 @@
 # REPORTE DE FASE D INICIADA EXITOSAMENTE
-## APP LA DORADA-CHIRIGUANÁ v10.1
+## APP La Dorada (México) - Chiriguaná v10.1
 
 **Fecha de inicio:** 27 de enero de 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
@@ -12,7 +12,7 @@
 
 **ESTADO:** 🚀 **FASE D - INGENIERÍA DE DETALLE INICIADA EXITOSAMENTE**
 
-Como Administrador Contractual EPC, confirmo que se ha iniciado exitosamente la **FASE D - INGENIERÍA DE DETALLE** del proyecto APP La Dorada-Chiriguaná, con documentos técnicos completos desarrollados para todas las especialidades.
+Como Administrador Contractual EPC, confirmo que se ha iniciado exitosamente la **FASE D - INGENIERÍA DE DETALLE** del proyecto APP La Dorada (México) - Chiriguaná, con documentos técnicos completos desarrollados para todas las especialidades.
 
 ---
 

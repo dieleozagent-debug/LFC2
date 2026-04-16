@@ -1,7 +1,7 @@
 # METODOLOGÍA DE CONSOLIDACIÓN DOCUMENTAL v1.0
 ## "DE LA COCINA AL RESTAURANTE" - TRANSFORMACIÓN DE DOCUMENTACIÓN DE TRABAJO A ENTREGABLES CONSOLIDADOS
 
-**Proyecto:** APP La Dorada-Chiriguaná  
+**Proyecto:** APP La Dorada (México) - Chiriguaná  
 **Fecha:** Enero 2025  
 **Versión:** 1.0  
 **Responsable:** Administrador Contractual EPC  
@@ -345,7 +345,7 @@ grep -r "PALABRA_CLAVE" "CARPETA/" --output-mode=files_with_matches
 
 ### **SISTEMA 02: TELECOMUNICACIONES**
 - **Documentos mapeados:** 56
-- **Tiempo total:** 8 horas
+- **Tiempo total:** 4 horas
 - **Resultado:** Documento Master consolidado con arquitectura redundante completa
 - **Lecciones:** Necesidad de documentar brechas de integración entre sistemas
 
@@ -414,6 +414,6 @@ Esta metodología es de carácter técnico y metodológico. Se recomienda su rev
 ---
 
 **Elaborado por:** Administrador Contractual EPC - Metodología Punto 42  
-**Validado en:** Sistemas 01 y 02 del proyecto APP La Dorada-Chiriguaná  
+**Validado en:** Sistemas 01 y 02 del proyecto APP La Dorada (México) - Chiriguaná  
 **Próxima revisión:** Febrero 2025  
 **Estado:** ✅ Metodología probada y lista para replicación

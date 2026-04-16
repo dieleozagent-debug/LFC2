@@ -21,7 +21,7 @@ La red de telecomunicaciones es la columna vertebral del proyecto. Se prioriza e
 - **Voz y Datos Críticos:** Pruebas de conmutación (failover) trimestrales para asegurar que el sistema TETRA tome el control de la telemetría ante la caída del enlace broadband.
 
 ### 3. INFRAESTRUCTURA DE ENERGÍA
-- **UPS de Críticos:** Mantenimiento obligatorio de los bancos de baterías que alimentan la **Red Vital IP** y el **TETRA**, garantizando 8 horas de autonomía mínima.
+- **UPS de Críticos:** Mantenimiento obligatorio de los bancos de baterías que alimentan la **Red Vital IP** y el **TETRA**, garantizando 4 horas de autonomía mínima.
 
 ---
 

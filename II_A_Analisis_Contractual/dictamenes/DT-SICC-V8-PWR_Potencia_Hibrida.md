@@ -30,7 +30,7 @@ Para la ingeniería de detalle eléctrica y los sistemas de potencia, rige la je
 ## 3. ANÁLISIS DEL VERBO RECTOR
 ### 3.1 Obligación de Disponibilidad (AT3 §6.3)
 El Apéndice Técnico 3 define la obligación de resultado para la energía:
-*«Los sistemas de señalización y comunicaciones deberán contar con respaldo de energía ininterrumpido que garantice la operación segura del corredor ante fallas en la red comercial.»*
+*«Los sistemas de senalización y comunicaciones deberán contar con respaldo de energía ininterrumpido que garantice la operación segura del corredor ante fallas en la red comercial.»*
 
 **Interpretación Forense:** 
 El Verbo Rector es **"Garantizar la operación segura"**. No prescribe el uso de UPS de corriente alterna (AC). Dado que los equipos vitales (OBC, Radios, Switches) operan internamente en DC, la arquitectura de **Bus 110V DC** es la más eficiente, eliminando las pérdidas por doble conversión (Inversores) y reduciendo los puntos de falla (N-1).
@@ -38,9 +38,9 @@ El Verbo Rector es **"Garantizar la operación segura"**. No prescribe el uso de
 ---
 
 ## 4. NORMA RECTORA: RETIE 2024 (RES. 40117)
-El diseño cumple con los requisitos de seguridad para instalaciones de uso final y generación:
+El diseno cumple con los requisitos de seguridad para instalaciones de uso final y generación:
 *   **Aislamiento y Protección:** El Bus 110V DC permite una gestión simplificada de tierras y protecciones termomagnéticas coordinadas.
-*   **Autonomía SICC:** Se fija la autonomía en **8 horas de operación continua** y **48 horas de respaldo catastrófico/estático** para sistemas de localización (GPS/EOT), superando las exigencias básicas del AT3 mediante optimización de carga.
+*   **Autonomía SICC:** Se fija la autonomía en **4 horas de operación continua** y **44 horas de respaldo catastrófico/estático** para sistemas de localización (GPS/EOT), superando las exigencias basicas del AT3 mediante optimización de carga.
 
 ---
 
@@ -48,7 +48,7 @@ El diseño cumple con los requisitos de seguridad para instalaciones de uso fina
 Este dictamen valida y blinda los siguientes montos de la Línea Base Michelin:
 - ✅ **Capítulo 1.1 y 1.3:** Respaldo para CTC y ENCE.
 - ✅ **Capítulo 2.1 y 2.2:** Respaldo para sitios TETRA y Red Vital IP.
-- ❌ **SUPRESIÓN:** Se prohíbe la instalación de **Puntos de Energía AC redundantes** para equipos de red. Toda la electrónica vital debe alimentarse vía el Bus Maestro DC para evitar alucinaciones de diseño de "doble UPS".
+- ❌ **SUPRESIÓN:** Se prohíbe la instalación de **Puntos de Energía AC redundantes** para equipos de red. Toda la electrónica vital debe alimentarse vía el Bus Maestro DC para evitar alucinaciones de diseno de "doble UPS".
 
 ---
 

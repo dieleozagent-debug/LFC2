@@ -58,7 +58,7 @@ La Ingeniería Eléctrica es el **"sistema circulatorio"** del ferrocarril que p
 - **Generador 600 kVA:** Respaldo de largo plazo para emergencias
 - **Baterías 200 kVA:** Respaldo intermedio entre UPS y generador
 - **Tiempo de transferencia:** < 10 segundos para sistemas críticos
-- **Autonomía:** 8 horas para sistemas críticos
+- **Autonomía:** 4 horas para sistemas críticos
 
 ### ¿Por qué disponibilidad 99.95%?
 **Justificación Contractual (AT4):**
@@ -230,7 +230,7 @@ Los sistemas eléctricos operan 24/7 proporcionando energía eléctrica confiabl
 | **Factor de potencia** | 0.95 | Penalizaciones si reduce | Corrección automática |
 | **Disponibilidad red** | 99.5% | Mayor uso de respaldo | Sistemas redundantes |
 | **Calidad de energía** | THD < 5% | Danos a equipos si aumenta | Filtros armónicos |
-| **Tiempo de respaldo** | 8 horas | Fallo si excede | Generador automático |
+| **Tiempo de respaldo** | 4 horas | Fallo si excede | Generador automático |
 
 ### Limitaciones del Diseno
 - **Capacidad de red:** Limitada por suministro local

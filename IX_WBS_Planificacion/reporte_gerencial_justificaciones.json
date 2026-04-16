@@ -18,7 +18,7 @@
                             "4.3.101"
                         ],
     "total_items":  123,
-    "proyecto":  "APP La Dorada-Chiriguaná",
+    "proyecto":  "APP La Dorada (México) - Chiriguaná",
     "items_con_justificacion":  0,
     "items":  [
                   {
@@ -378,7 +378,7 @@
                       "es_pareto_80":  false,
                       "tipo":  "SUMINISTRO",
                       "valor_total_cop":  800000000,
-                      "descripcion":  "Controlador ENCE Barrancabermeja",
+                      "descripcion":  "Controlador ENCE Barrancabermeja (Puerto)",
                       "porcentaje_total":  0.3
                   },
                   {

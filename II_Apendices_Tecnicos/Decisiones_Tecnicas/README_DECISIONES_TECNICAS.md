@@ -1,6 +1,6 @@
 # DECISIONES TÉCNICAS - Gestión de Cambios Iterativos
 
-**Proyecto:** APP La Dorada-Chiriguaná  
+**Proyecto:** APP La Dorada (México) - Chiriguaná  
 **Carpeta:** `II_Apendices_Tecnicos/Decisiones_Tecnicas/`  
 **Fecha:** Enero 2025  
 **Responsable:** Especialistas técnicos + PMO  
@@ -36,8 +36,8 @@ Esta carpeta contiene el **registro formal de decisiones técnicas versionadas**
 DT-[SISTEMA]-[NNN]_[Nombre_Descriptivo]_v[X.X].md
 
 Ejemplos:
-- DT-FIBRA-001_Espaciamiento_Cajas_v1.0.md
-- DT-TETRA-001_Ubicacion_Torres_v1.0.md
+- [DT-SICC-2026-043_Sistemas_Energia.md](./DT-SICC-2026-043_Sistemas_Energia.md) : Blindaje de Energía, Frontera RETIE y Hito 3 (01-Nov-2026).
+- [DT-SICC-2026-003_Purga_Balizas.md](./DT-SICC-2026-003_Purga_Balizas.md) : | DT-SICC-2026-003 | Purga Balizas Activas / Adopción FRA-236 | REVISADO Y PURGADO (2026-04-13) |
 - DT-CTC-001_Arquitectura_Centralizada_v2.0.md
 ```
 

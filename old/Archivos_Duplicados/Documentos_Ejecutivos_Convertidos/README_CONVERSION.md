@@ -1,7 +1,7 @@
 # DOCUMENTOS EJECUTIVOS CONVERTIDOS
 
 **Fecha de conversión:** 6 de octubre de 2025  
-**Proyecto:** APP La Dorada-Chiriguaná  
+**Proyecto:** APP La Dorada (México) - Chiriguaná  
 **Herramienta utilizada:** Pandoc 3.8  
 
 ---

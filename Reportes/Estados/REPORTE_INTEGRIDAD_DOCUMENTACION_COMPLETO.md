@@ -1,4 +1,4 @@
-# REPORTE DE INTEGRIDAD DE DOCUMENTACIÓN - APP LA DORADA-CHIRIGUANÁ
+# REPORTE DE INTEGRIDAD DE DOCUMENTACIÓN - APP La Dorada (México) - Chiriguaná
 
 **Fecha de revisión:** 27 de enero de 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
@@ -228,7 +228,7 @@ Verificar la integridad completa de la documentación del proyecto desde el inic
 - **Calidad técnica:** Especificaciones detalladas y completas
 
 ### **📊 ESTADO FINAL**
-**La documentación del proyecto APP La Dorada-Chiriguaná presenta una integridad excelente con cobertura completa de todas las fases. Los problemas identificados son menores y no comprometen la funcionalidad del proyecto.**
+**La documentación del proyecto APP La Dorada (México) - Chiriguaná presenta una integridad excelente con cobertura completa de todas las fases. Los problemas identificados son menores y no comprometen la funcionalidad del proyecto.**
 
 ### **🎯 PRÓXIMOS PASOS**
 1. Resolver el archivo vacío del anexo eléctrico

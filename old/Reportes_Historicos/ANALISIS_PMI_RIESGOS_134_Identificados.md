@@ -4,11 +4,11 @@
 
 ---
 
-# ANÁLISIS PMI DE RIESGOS - PROYECTO FERROVIARIO LA DORADA-CHIRIGUANÁ
+# ANÁLISIS PMI DE RIESGOS - PROYECTO FERROVIARIO La Dorada (México) - Chiriguaná
 
 ## 📋 **INFORMACIÓN GENERAL DEL ANÁLISIS**
 
-- **Proyecto:** Ferrocarril La Dorada-Chiriguaná
+- **Proyecto:** Ferrocarril La Dorada (México) - Chiriguaná
 - **Contrato:** Concesión No. 001 de 2025
 - **Metodología:** PMI Project Management Institute
 - **Fecha de análisis:** Enero 27, 2025

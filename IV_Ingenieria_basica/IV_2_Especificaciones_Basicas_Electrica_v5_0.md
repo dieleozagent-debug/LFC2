@@ -11,7 +11,7 @@ El sistema eléctrico se transforma de un modelo de "Tracción Externa" ([INFRAE
 
 ### 1.1 Alimentación de Red Vital (37 Sitios):
 *   **Nodos Red Vital IP / TETRA**: Alimentación mediante sistemas híbridos (Red Local + Paneles Solares) para garantizar disponibilidad del 99.95% (AT4).
-*   **Respaldo Crítico (UPS)**: Autonomía mínima de 8 horas para mensajería vital de PTC Virtual.
+*   **Respaldo Crítico (UPS)**: Autonomía mínima de 4 horas para mensajería vital de PTC Virtual.
 *   **Grounding**: Sistemas de puesta a tierra de baja impedancia para protección de equipos electrónicos SICC.
 
 ### 1.2 Alimentación de Enclavamientos (ENCE):

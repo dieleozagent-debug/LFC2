@@ -1,5 +1,5 @@
 # 📁 VIII. DOCUMENTOS MAESTROS Y METODOLOGÍA
-## APP LA DORADA-CHIRIGUANÁ - Documentos de Referencia
+## APP La Dorada (México) - Chiriguaná - Documentos de Referencia
 
 **Fecha:** 10 de Octubre 2025  
 **Estado:** ✅ **DOCUMENTOS ORGANIZADOS Y AMPLIADOS (v14.6)**  
@@ -9,7 +9,7 @@
 
 ## 📋 **RESUMEN EJECUTIVO**
 
-Esta carpeta contiene los **documentos maestros y metodológicos** del proyecto APP La Dorada-Chiriguaná, organizados para facilitar el acceso y referencia durante la fase de construcción e implementación.
+Esta carpeta contiene los **documentos maestros y metodológicos** del proyecto APP La Dorada (México) - Chiriguaná, organizados para facilitar el acceso y referencia durante la fase de construcción e implementación.
 
 ---
 

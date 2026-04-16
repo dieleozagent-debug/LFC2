@@ -1,5 +1,5 @@
 # ESPECIALIDAD 03: INGENIERÍA MECÁNICA - Documento Master v1.0
-## APP LA DORADA-CHIRIGUANÁ - ENTREGABLE CONSOLIDADO
+## APP La Dorada (México) - Chiriguaná - ENTREGABLE CONSOLIDADO
 
 **Fecha de consolidación:** Enero 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
@@ -178,7 +178,7 @@
 | Ubicación | Equipos | Función |
 |:----------|:--------|:---------|
 | **Puerto Berrío** | Herramientas basicas | Mantenimiento en línea |
-| **Barrancabermeja** | Herramientas basicas | Mantenimiento en línea |
+| **Barrancabermeja (Puerto)** | Herramientas basicas | Mantenimiento en línea |
 | **Bucaramanga** | Herramientas basicas | Mantenimiento en línea |
 
 ---
@@ -355,7 +355,7 @@
 | Nivel | Tiempo Respuesta | Recursos | Duración |
 |:------|:-----------------|:---------|:---------|
 | **Nivel 1** | 2 horas | Equipo básico | 4 horas |
-| **Nivel 2** | 8 horas | Equipo especializado | 24 horas |
+| **Nivel 2** | 4 horas | Equipo especializado | 24 horas |
 | **Nivel 3** | 24 horas | Taller principal | 72 horas |
 
 ### **6.3 Procedimientos de Puesta a Punto**
@@ -507,7 +507,7 @@
 
 ## ⚠️ ADVERTENCIAS LEGALES
 
-**Este documento consolidado es un entregable del proyecto APP La Dorada-Chiriguaná y contiene información técnica confidencial. Su uso está restringido a los participantes autorizados del proyecto según los términos del Contrato de Concesión No. 001 de 2025.**
+**Este documento consolidado es un entregable del proyecto APP La Dorada (México) - Chiriguaná y contiene información técnica confidencial. Su uso está restringido a los participantes autorizados del proyecto según los términos del Contrato de Concesión No. 001 de 2025.**
 
 **Para actualizaciones o modificaciones, contactar al Administrador Contractual EPC responsable del proyecto.**
 

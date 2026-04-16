@@ -1,5 +1,5 @@
 # GUÍA METODOLÓGICA: ESTRUCTURACIÓN DE PROYECTOS EPC FERROVIARIOS v2.0
-## Versión Saneada (Soberanía Tecnológica) - APP La Dorada-Chiriguaná
+## Versión Saneada (Soberanía Tecnológica) - APP La Dorada (México) - Chiriguaná
 
 **Fecha de actualización:** 13 de marzo de 2026  
 **Versión:** 2.0 - Purge Release
@@ -32,7 +32,7 @@ El proyecto se estructura bajo la premisa de **Soberanía Tecnológica**:
 El WBS debe reflejar una arquitectura simplificada y eficiente:
 
 ```
-1.0 PROYECTO LA DORADA-CHIRIGUANÁ (SSOT)
+1.0 PROYECTO La Dorada (México) - Chiriguaná (SSOT)
   1.1 SISTEMAS DE SENALIZACIÓN VIRTUAL
     1.1.1 Servidor Maestro PTC (Vital Server 2oo3)
     1.1.2 Enclavamientos Electrónicos IP (ENCE)
@@ -59,6 +59,6 @@ El WBS debe reflejar una arquitectura simplificada y eficiente:
 
 ## ✅ CONCLUSIÓN DE RE-ESTRUCTURACIÓN:
 
-La Guía Metodológica v2.0 garantiza que cualquier futuro proyecto estructurado bajo estas bases herede los principios de **eficiencia y soberanía** del proyecto La Dorada-Chiriguaná, evitando la contaminación técnica de estándares obsoletos.
+La Guía Metodológica v2.0 garantiza que cualquier futuro proyecto estructurado bajo estas bases herede los principios de **eficiencia y soberanía** del proyecto La Dorada (México) - Chiriguaná, evitando la contaminación técnica de estándares obsoletos.
 
 **Saneamiento Ciclo 7 - Guía Metodológica Finalizado.**

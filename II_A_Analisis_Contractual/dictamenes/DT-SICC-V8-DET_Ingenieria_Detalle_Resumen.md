@@ -23,17 +23,17 @@ Para la resolución de cualquier conflicto técnico en la Fase de Construcción 
 | **(i)** | **Contrato de Concesión** | **MÁXIMA** |
 | **(ii)** | **Apéndice Técnico 1 (AT1)** | **NIVEL 2** |
 | **(iii)-(xi)** | **Apéndices Técnicos 2 a 10** | **Niveles 3-11** |
-| **Ref.** | **Especificaciones Técnicas SICC** | **Gobierno de Diseño** |
+| **Ref.** | **Especificaciones Técnicas SICC** | **Gobierno de Diseno** |
 
 ---
 
 ## 3. ANÁLISIS DEL VERBO RECTOR
 ### 3.1 Integridad de la Línea Base (Contrato Maestro)
-El contrato establece la responsabilidad del concesionario de optimizar el diseño sin comprometer la funcionalidad:
+El contrato establece la responsabilidad del concesionario de optimizar el diseno sin comprometer la funcionalidad:
 *«El Concesionario deberá desarrollar la ingeniería de detalle basándose en los Apéndices Técnicos, buscando la eficiencia técnica y económica dentro del polígono de obligaciones pactado.»*
 
 **Interpretación Forense:** 
-El Verbo Rector es **"Desarrollar la ingeniería basándose en los Apéndices"**. Se invalida cualquier diseño "N+1" (aditivo) que pretenda instalar equipos más allá de lo literal. La ingeniería de detalle debe ser un ejercicio de **Sustracción (N-1)**, eliminando lo que no es mandatorio. Este dictamen blinda el ahorro de **$86 Millones de USD** alcanzado mediante la purga de sistemas redundantes.
+El Verbo Rector es **"Desarrollar la ingeniería basándose en los Apéndices"**. Se invalida cualquier diseno "N+1" (aditivo) que pretenda instalar equipos más allá de lo literal. La ingeniería de detalle debe ser un ejercicio de **Sustracción (N-1)**, eliminando lo que no es mandatorio. Este dictamen blinda el ahorro de **$86 Millones de USD** alcanzado mediante la purga de sistemas redundantes.
 
 ---
 

@@ -1,5 +1,5 @@
 # ÍNDICE CARPETA X - ENTREGABLES CONSOLIDADOS
-## Proyecto APP La Dorada-Chiriguaná
+## Proyecto APP La Dorada (México) - Chiriguaná
 
 **Versión:** 3.0 (PTC Virtual Edition - Saneada Mar 2026)  
 **Estado:** ✅ SINCRONIZADA CON WBS v3.0  
@@ -330,7 +330,7 @@ DESTINO: Stakeholders (Restaurante - Presentación final)
 **Elaborado por:** Administrador Contractual EPC  
 **Fecha:** Enero 2025  
 **Versión:** 2.0 (Actualizada con carpeta 8)  
-**Proyecto:** APP La Dorada-Chiriguaná  
+**Proyecto:** APP La Dorada (México) - Chiriguaná  
 **Metodología:** Punto 42 v5.0  
 
 **🎉 ¡Carpeta X lista para uso y distribución!**

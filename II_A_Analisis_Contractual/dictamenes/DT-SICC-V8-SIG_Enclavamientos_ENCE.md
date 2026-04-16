@@ -10,7 +10,7 @@
 ---
 
 ## 1. RESUMEN EJECUTIVO
-Este dictamen establece la validez de la arquitectura de **Enclavamientos Lógicos Centralizados** para el corredor. Se ratifica que el proyecto operará con solo **5 nodos ENCE virtuales** alojados en el Vital Server del CCO, eliminando la necesidad de infraestructura física lateral (casetas de señales) en cada estación menorde del corredor.
+Este dictamen establece la validez de la arquitectura de **Enclavamientos Lógicos Centralizados** para el corredor. Se ratifica que el proyecto operará con solo **5 nodos ENCE virtuales** alojados en el Vital Server del CCO, eliminando la necesidad de infraestructura física lateral (casetas de senales) en cada estación menorde del corredor.
 
 ---
 
@@ -33,7 +33,7 @@ El Apéndice Técnico 1 es explícito en la ubicación de la inteligencia del si
 *«Se instalarán **5 ENCE lógicos centralizados** en el Vital Server del CCO para el control de los nodos principales del corredor.»*
 
 **Interpretación Forense:** 
-El Verbo Rector es **"Centralizar"**. Se invalida cualquier diseño que proponga enclavamientos distribuidos (Wayside Interface Units - WIU) en cada desvío manual o estación secundaria. La lógica reside en el servidore vital; la periferia (desvíos motorizados) solo recibe comandos de ejecución. Esto simplifica drásticamente el mantenimiento y la vulnerabilidad de la infraestructura.
+El Verbo Rector es **"Centralizar"**. Se invalida cualquier diseno que proponga enclavamientos distribuidos (Wayside Interface Units - WIU) en cada desvío manual o estación secundaria. La lógica reside en el servidore vital; la periferia (desvíos motorizados) solo recibe comandos de ejecución. Esto simplifica drásticamente el mantenimiento y la vulnerabilidad de la infraestructura.
 
 ---
 
@@ -48,7 +48,7 @@ La arquitectura centralizada cumple con los requisitos de seguridad vital:
 Este dictamen valida y blinda los siguientes montos de la Línea Base Michelin:
 - ✅ **Item 1.3.100-104:** Controladores ENCE (Zapatosa, García Cadena, Barranca, P. Berrío, La Dorada).
 - ✅ **Item 1.3.105:** Sistema de Redundancia ENCE ($400 MM COP).
-- ❌ **SUPRESIÓN:** Se prohíbe el pago de **"Casetas de Señalización de Estación"** en los 121 puntos de desvío manual. La lógica es centralizada; no hay equipos que alojar en campo.
+- ❌ **SUPRESIÓN:** Se prohíbe el pago de **"Casetas de Senalización de Estación"** en los 121 puntos de desvío manual. La lógica es centralizada; no hay equipos que alojar en campo.
 
 ---
 

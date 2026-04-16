@@ -1,5 +1,5 @@
 # REPORTE DE MAPEO SISTEMÁTICO DE FUENTES
-## SISTEMA 05: INFRAESTRUCTURA OPERATIVA - APP LA DORADA-CHIRIGUANÁ
+## SISTEMA 05: INFRAESTRUCTURA OPERATIVA - APP La Dorada (México) - Chiriguaná
 
 **Fecha:** Enero 2025  
 **Metodología:** Mapeo Sistemático de Fuentes v1.0  
@@ -124,7 +124,7 @@
 - **Brecha:** Falta consolidación entre especificaciones contractuales y técnicas detalladas
 
 #### **2. Definición de Estaciones ENCE:**
-- **Criterios Maestros:** 5 estaciones ENCE (Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México)
+- **Criterios Maestros:** 5 estaciones ENCE (Zapatosa, García Cadena, Barrancabermeja (Puerto), Puerto Berrío-Grecia, La Dorada-México)
 - **V.1.1_Obras_Civiles_Infraestructura_DETALLADA:** Especificaciones de edificaciones por estación
 - **Brecha:** Falta especificación detallada de infraestructura civil para cada estación ENCE
 

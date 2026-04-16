@@ -1,5 +1,5 @@
 # ARQUITECTURA SOFTWARE CTC - CENTRO DE CONTROL INTEGRADO
-## APP La Dorada-Chiriguaná - Gestión de Tráfico PTC Virtual
+## APP La Dorada (México) - Chiriguaná - Gestión de Tráfico PTC Virtual
 
 **Estado:** ✅ **SANEADO (MÉTODO KARPATHY)**  
 **Fecha:** 13 de marzo de 2026  

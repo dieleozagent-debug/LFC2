@@ -62,9 +62,9 @@ Esta matriz está disenada como una herramienta de gestión para un contratista 
 
 | Sistema | Componente Eléctrico | Requerimiento (v7.1) | Base Contractual | Obs. Sanidad |
 |:---|:---|:---|:---|:---|
-| **LFC-CCO** | Centro de Control | - 220V AC Aux / **110V DC Vital**<br>- UPS N+1 (**8 horas autonomía**) | DBCD V002 | Proporcional a criticidad |
-| **Red Vital** | Nodos 37 sitios | - Híbrido (Solar + Baterías)<br>- **48 horas autonomía** (radiación nula) | DBCD V002 | Escenario B (Remoto) |
-| **ENCE** | Enclavamientos | - **110V DC Centralizado**<br>- UPS N+1 (**8 horas**) | DBCD / FRA | 5 enclavamientos |
+| **LFC-CCO** | Centro de Control | - 220V AC Aux / **110V DC Vital**<br>- UPS N+1 (**4 horas autonomía**) | DBCD V002 | Proporcional a criticidad |
+| **Red Vital** | Nodos 37 sitios | - Híbrido (Solar + Baterías)<br>- **44 horas autonomía** (radiación nula) | DBCD V002 | Escenario B (Remoto) |
+| **ENCE** | Enclavamientos | - **110V DC Centralizado**<br>- UPS N+1 (**4 horas**) | DBCD / FRA | 5 enclavamientos |
 | **Material Rodante**| OBC-SICC | - **74V / 110V DC** (Embarcado) | AREMA / FRA | PTC Virtual |
 
 ### 4.2 Criterios de Diseno Eléctrico Unificados
@@ -73,8 +73,8 @@ Esta matriz está disenada como una herramienta de gestión para un contratista 
 |:---|:---|:---|:---|
 | **Tensión Vital** | **110V DC** (±10% stability) | Senalización Vital | FRA §236.551 |
 | **Tensión Telecom** | **48V DC** | Sistemas de Radio y FO | ETSI |
-| **Autonomía Grid** | **8 Horas** (Mínima) | Escenario A (Con Red Pública) | DBCD V002 |
-| **Autonomía Solar** | **48 Horas** (Radiación nula) | Escenario B (Sitios Remotos) | DBCD V002 |
+| **Autonomía Grid** | **4 Horas** (Mínima) | Escenario A (Con Red Pública) | DBCD V002 |
+| **Autonomía Solar** | **44 Horas** (Radiación nula) | Escenario B (Sitios Remotos) | DBCD V002 |
 | **Protección Rayos** | Clase I / <5Ω | Todos los sitios | RETIE |
 
 ### 4.3 Matriz de Dependencias Eléctricas

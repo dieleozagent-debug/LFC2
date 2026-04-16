@@ -1,5 +1,5 @@
 # GESTIÓN MASTER: CRONOGRAMA Y RECURSOS - Documento Master v1.0
-## APP LA DORADA-CHIRIGUANÁ - ENTREGABLE CONSOLIDADO
+## APP La Dorada (México) - Chiriguaná - ENTREGABLE CONSOLIDADO
 
 **Fecha de consolidación:** Enero 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
@@ -263,7 +263,7 @@
 | **La Dorada** | Equipos principales | $45,000,000,000 | ✅ Almacenado | [Nombre] |
 | **Chiriguaná** | Equipos secundarios | $25,000,000,000 | ✅ Almacenado | [Nombre] |
 | **Puerto Berrío** | Materiales de línea | $15,000,000,000 | ⏳ En tránsito | [Nombre] |
-| **Barrancabermeja** | Materiales de línea | $15,000,000,000 | ⏳ En tránsito | [Nombre] |
+| **Barrancabermeja (Puerto)** | Materiales de línea | $15,000,000,000 | ⏳ En tránsito | [Nombre] |
 | **Bucaramanga** | Materiales de línea | $15,000,000,000 | ⏳ En tránsito | [Nombre] |
 
 ---
@@ -437,7 +437,7 @@
 
 ## ⚠️ ADVERTENCIAS LEGALES
 
-**Este documento consolidado es un entregable del proyecto APP La Dorada-Chiriguaná y contiene información técnica confidencial. Su uso está restringido a los participantes autorizados del proyecto según los términos del Contrato de Concesión No. 001 de 2025.**
+**Este documento consolidado es un entregable del proyecto APP La Dorada (México) - Chiriguaná y contiene información técnica confidencial. Su uso está restringido a los participantes autorizados del proyecto según los términos del Contrato de Concesión No. 001 de 2025.**
 
 **Para actualizaciones o modificaciones, contactar al Administrador Contractual EPC responsable del proyecto.**
 

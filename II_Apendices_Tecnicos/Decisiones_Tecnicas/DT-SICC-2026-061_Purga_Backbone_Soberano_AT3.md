@@ -23,8 +23,8 @@ Esta dispersión normativa socava el principio de **Purity by Design** y el mand
 
 El backbone crítico debe operar bajo un **ADN óptico único y determinista**:
 *   **Sustento:** El Estándar Maestro (SSOT) para la conectividad troncal es **G.652.D** (48 hilos).
-*   **Acción:** Se ordena la **Purga Atómica** de cualquier mención a G.655 o DWDM en la WBS, planos, Memorias de Diseño y especificaciones de sourcing.
-*   **Jerarquía:** Esta directriz se fundamenta en la Sección 1.2(d) del Contrato Maesto (Jerarquía Suprema de Diseño Rector).
+*   **Acción:** Se ordena la **Purga Atómica** de cualquier mención a G.655 o DWDM en la WBS, planos, Memorias de Diseno y especificaciones de sourcing.
+*   **Jerarquía:** Esta directriz se fundamenta en la Sección 1.2(d) del Contrato Maesto (Jerarquía Suprema de Diseno Rector).
 
 #### **3. IMPACTO FINANCIERO Y MITIGACIÓN DE RIESGOS**
 

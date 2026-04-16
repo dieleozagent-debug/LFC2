@@ -6,7 +6,7 @@
 ## 📊 RESUMEN EJECUTIVO
 
 ### Qué es este documento y por qué importa
-Este documento define el **"cronograma y recursos"** del proyecto APP La Dorada-Chiriguaná, estableciendo claramente cuándo se van a hacer las actividades, qué recursos se necesitan y cómo se van a gestionar. Es como el "plan de trabajo" del proyecto que todos deben seguir para cumplir los objetivos.
+Este documento define el **"cronograma y recursos"** del proyecto APP La Dorada (México) - Chiriguaná, estableciendo claramente cuándo se van a hacer las actividades, qué recursos se necesitan y cómo se van a gestionar. Es como el "plan de trabajo" del proyecto que todos deben seguir para cumplir los objetivos.
 
 ### Alcance en números - JUSTIFICACIÓN TÉCNICA
 - **Duración total:** 36 meses (3 anos)

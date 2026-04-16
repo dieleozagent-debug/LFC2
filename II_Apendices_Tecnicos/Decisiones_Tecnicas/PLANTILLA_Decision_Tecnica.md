@@ -1,6 +1,6 @@
 # DECISIÓN TÉCNICA - DT-[SISTEMA]-[NNN]
 
-**Proyecto:** APP La Dorada-Chiriguaná  
+**Proyecto:** APP La Dorada (México) - Chiriguaná  
 **Sistema:** [Nombre del sistema]  
 **Fecha:** [DD/MM/AAAA]  
 **Responsable:** [Nombre del ingeniero/especialista]  

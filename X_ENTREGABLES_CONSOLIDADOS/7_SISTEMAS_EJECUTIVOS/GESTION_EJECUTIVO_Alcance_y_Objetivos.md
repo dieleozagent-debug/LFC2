@@ -6,7 +6,7 @@
 ## 📊 RESUMEN EJECUTIVO
 
 ### Qué es este documento y por qué importa
-Este documento define el **"alcance y objetivos"** del proyecto APP La Dorada-Chiriguaná, estableciendo claramente qué se va a hacer, por qué es importante y cuáles son los resultados esperados. Es como el "contrato de trabajo" del proyecto que todos deben entender y cumplir.
+Este documento define el **"alcance y objetivos"** del proyecto APP La Dorada (México) - Chiriguaná, estableciendo claramente qué se va a hacer, por qué es importante y cuáles son los resultados esperados. Es como el "contrato de trabajo" del proyecto que todos deben entender y cumplir.
 
 ### Alcance en números - JUSTIFICACIÓN TÉCNICA
 - **Inversión total:** $450,000 millones COP
@@ -56,7 +56,7 @@ Este documento define el **"alcance y objetivos"** del proyecto APP La Dorada-Ch
 
 ### ¿Por qué 5 estaciones ENCE?
 **Justificación de Operación:**
-- **Estaciones críticas:** Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México
+- **Estaciones críticas:** Zapatosa, García Cadena, Barrancabermeja (Puerto) (Puerto) (Puerto), Puerto Berrío-Grecia, La Dorada-México
 - **Maniobras complejas:** Requieren enclavamientos electrónicos
 - **Seguridad:** Control centralizado de maniobras
 - **Eficiencia:** Optimización de operaciones
@@ -75,7 +75,7 @@ Este documento define el **"alcance y objetivos"** del proyecto APP La Dorada-Ch
 ## 🎯 FUNCIÓN Y PROPÓSITO DEL PROYECTO
 
 ### ¿Qué hace este proyecto?
-El proyecto APP La Dorada-Chiriguaná proporciona **infraestructura ferroviaria** para:
+El proyecto APP La Dorada (México) - Chiriguaná proporciona **infraestructura ferroviaria** para:
 - **Transporte de carga:** Conexión entre regiones
 - **Desarrollo regional:** Impulso económico y social
 - **Integración nacional:** Conexión con red ferroviaria
@@ -91,7 +91,7 @@ El proyecto APP La Dorada-Chiriguaná proporciona **infraestructura ferroviaria*
 
 ### ¿Cómo se integra con otros proyectos?
 ```
-[APP La Dorada-Chiriguaná] ←→ [Red Ferroviaria Nacional]
+[APP La Dorada (México) - Chiriguaná] ←→ [Red Ferroviaria Nacional]
          ↓
 [Desarrollo Regional] ←→ [Conectividad Nacional]
          ↓
@@ -108,7 +108,7 @@ El proyecto APP La Dorada-Chiriguaná proporciona **infraestructura ferroviaria*
 **Especificaciones técnicas:**
 | Parámetro | Valor | Justificación |
 |:----------|:------|:--------------|
-| **Longitud** | 526.133 km | Distancia La Dorada-Chiriguaná |
+| **Longitud** | 526.133 km | Distancia La Dorada (México) - Chiriguaná |
 | **Trocha** | 1,435 mm | Estándar FRA/AREMA para interoperabilidad |
 | **Vías** | 2 principales | Capacidad bidireccional |
 | **Velocidad** | 80 km/h | Especificaciones del corredor |
@@ -196,7 +196,7 @@ El proyecto opera 24/7 proporcionando transporte ferroviario de carga, con mante
 
 ### Diagrama de interfaces
 ```
-[APP La Dorada-Chiriguaná] ←→ [Red Ferroviaria Nacional]
+[APP La Dorada (México) - Chiriguaná] ←→ [Red Ferroviaria Nacional]
          ↓
 [Desarrollo Regional] ←→ [Conectividad Nacional]
          ↓

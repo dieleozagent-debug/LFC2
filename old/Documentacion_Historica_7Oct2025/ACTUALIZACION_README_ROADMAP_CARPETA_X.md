@@ -1,7 +1,7 @@
 # ACTUALIZACIÓN README Y ROADMAP - CARPETA X COMPLETADA
 
 **Fecha:** Enero 2025  
-**Proyecto:** APP La Dorada-Chiriguaná  
+**Proyecto:** APP La Dorada (México) - Chiriguaná  
 **Versión:** Final actualizada  
 
 ---

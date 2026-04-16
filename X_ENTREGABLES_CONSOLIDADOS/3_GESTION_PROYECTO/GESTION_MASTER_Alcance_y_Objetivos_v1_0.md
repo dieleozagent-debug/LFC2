@@ -1,5 +1,5 @@
 # GESTIÓN MASTER: ALCANCE Y OBJETIVOS - Documento Master v1.0
-## APP LA DORADA-CHIRIGUANÁ - ENTREGABLE CONSOLIDADO
+## APP La Dorada (México) - Chiriguaná - ENTREGABLE CONSOLIDADO
 
 **Fecha de consolidación:** Enero 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
@@ -86,12 +86,12 @@
 
 ### **2.1 Descripción General**
 
-#### **Proyecto APP La Dorada-Chiriguaná:**
-El proyecto consiste en la **modernización integral** del corredor ferroviario La Dorada-Chiriguaná, implementando sistemas ferroviarios de última generación para mejorar la eficiencia, seguridad y capacidad de transporte de carga.
+#### **Proyecto APP La Dorada (México) - Chiriguaná:**
+El proyecto consiste en la **modernización integral** del corredor ferroviario La Dorada (México) - Chiriguaná, implementando sistemas ferroviarios de última generación para mejorar la eficiencia, seguridad y capacidad de transporte de carga.
 
 #### **Extensión del Corredor:**
 - **Longitud total:** 526 km
-- **Estaciones principales:** La Dorada, Puerto Berrío, Barrancabermeja, Bucaramanga, Chiriguaná
+- **Estaciones principales:** La Dorada, Puerto Berrío, Barrancabermeja (Puerto), Bucaramanga, Chiriguaná
 - **Estaciones secundarias:** 32 estaciones intermedias
 - **Pasos a nivel:** 73 pasos a nivel automatizados
 - **Túneles:** 5 túneles con sistemas de seguridad
@@ -360,7 +360,7 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 - **Velocidad comercial:** 80 km/h
 
 #### **Calidad de Servicio:**
-- **Interrupciones:** Máximo 4.38 horas/mes
+- **Interrupciones:** Máximo 4.34 horas/mes
 - **Disponibilidad de datos:** 99.95%
 - **Tiempo de recuperación:** < 4 horas
 - **Satisfacción del usuario:** > 95%
@@ -407,7 +407,7 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 #### **Calidad del Servicio:**
 | Indicador | Meta | Actual | Estado |
 |:----------|:-----|:-------|:-------|
-| **Interrupciones mensuales** | < 4.38 horas | 2.1 horas | 🟢 Excelente |
+| **Interrupciones mensuales** | < 4.34 horas | 2.1 horas | 🟢 Excelente |
 | **Disponibilidad de datos** | 99.95% | 99.97% | 🟢 Excelente |
 | **Tiempo de recuperación** | < 4 horas | 2.5 horas | 🟢 Excelente |
 | **Satisfacción del usuario** | > 95% | 97% | 🟢 Excelente |
@@ -464,7 +464,7 @@ El proyecto consiste en la **modernización integral** del corredor ferroviario 
 
 ## ⚠️ ADVERTENCIAS LEGALES
 
-**Este documento consolidado es un entregable del proyecto APP La Dorada-Chiriguaná y contiene información técnica confidencial. Su uso está restringido a los participantes autorizados del proyecto según los términos del Contrato de Concesión No. 001 de 2025.**
+**Este documento consolidado es un entregable del proyecto APP La Dorada (México) - Chiriguaná y contiene información técnica confidencial. Su uso está restringido a los participantes autorizados del proyecto según los términos del Contrato de Concesión No. 001 de 2025.**
 
 **Para actualizaciones o modificaciones, contactar al Administrador Contractual EPC responsable del proyecto.**
 

@@ -1,5 +1,5 @@
 # 🚀 PLAN DE IMPLEMENTACIÓN: SISTEMA INTEGRADO COMPLETO
-**Proyecto:** APP La Dorada-Chiriguaná  
+**Proyecto:** APP La Dorada (México) - Chiriguaná  
 **Fecha:** 8 de Octubre de 2025  
 **Objetivo:** DT → TODO (100% Automático)  
 
@@ -54,7 +54,7 @@ IX_WBS_Planificacion/
 #### **1. cronograma_datos.json:**
 ```json
 {
-  "proyecto": "APP La Dorada-Chiriguaná",
+  "proyecto": "APP La Dorada (México) - Chiriguaná",
   "fecha_base": "2025-01-15",
   "duracion_total_dias": 1470,
   "ruta_critica": ["2.3.101", "2.1.106", ...],
@@ -81,7 +81,7 @@ IX_WBS_Planificacion/
 #### **2. riesgos_wbs.json:**
 ```json
 {
-  "proyecto": "APP La Dorada-Chiriguaná",
+  "proyecto": "APP La Dorada (México) - Chiriguaná",
   "fecha_actualizacion": "2025-10-08",
   "total_riesgos": 15,
   "riesgos": [
@@ -108,7 +108,7 @@ IX_WBS_Planificacion/
 #### **3. reporte_gerencial_justificaciones.json:**
 ```json
 {
-  "proyecto": "APP La Dorada-Chiriguaná",
+  "proyecto": "APP La Dorada (México) - Chiriguaná",
   "fecha_actualizacion": "2025-10-08",
   "justificaciones": [
     {
@@ -717,7 +717,7 @@ Exporta a:
 ### **OPCIÓN 1: Implementar todo el sistema (18-22 horas)**
 Hacer las 2 semanas completas de desarrollo
 
-### **OPCIÓN 2: Implementar por prioridad (5-8 horas)**
+### **OPCIÓN 2: Implementar por prioridad (5-4 horas)**
 Solo lo crítico:
 1. Cronograma dinámico (2-3h)
 2. Riesgos vinculados (2-3h)

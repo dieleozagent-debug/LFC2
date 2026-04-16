@@ -10,9 +10,12 @@ const LFC_DBCI = {
         VERSION: "v6.3.3 Sovereign Restoration",
     },
 
-    // CONSTANTES FÍSICAS INAMOVIBLES (La Biblia de Ingeniería)
+    // CONSTANTES FÍSICAS INAMOVIBLES (La Biblia de Ingeniería - Ground Truth)
     PHYSICS: {
         CORRIDOR_KM: 526.133,       
+        ORIGIN_PK_MEXICO: "201+470", // La Dorada (México)
+        PUERTO_BERRIO_GRECIA_PK_RANGE: "299+800—332+500",
+        BARRANCABERMEJA_PK_RANGE: "423+400—465+250",
         LOCOMOTORAS_TOTAL: 15,      
         ESTACIONES_TORRES: 37,      
         ENCE_ESTACIONES: 5,         
@@ -42,10 +45,14 @@ const LFC_DBCI = {
     CORRECTION_MAP: {
         "Manual de Senalización Vial 2024 (Res. 20243040045005)": "Manual de Senalización Vial 2024 (Res. 20243040045005)",
         "Resolución 20243040045005 de 2024": "Resolución 20243040045005 de 2024",
+        // Purga de Alucinaciones Geográficas (Soberanía Toponímica)
+        "La Dorada-Chiriguaná": "La Dorada (México) - Chiriguaná",
+        "Puerto Berrio": "Puerto Berrío (Grecia)",
+        "Barrancabermeja": "Barrancabermeja (Puerto)",
+        "PK 0+000": "PK 201+470 (Origen México)",
+        "540 km": "526.133 km (Corredor SICC)",
+        
         // Purga de Manualidad
-        "Stop & Switch": "Handover Digital (Digital Gateway)",
-        "Stop and Switch": "Handover Digital (Digital Gateway)",
-        "Manual de Frontera": "Protocolo Digital Vital",
         
         // Purga de Legado Europeo
         "ADIF": "Estándar SICC (FRA/AREMA)",

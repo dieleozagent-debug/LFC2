@@ -1,5 +1,5 @@
 # VERIFICACIÓN FORMATO T8 - COMPLETADA
-## APP LA DORADA-CHIRIGUANÁ v10.1
+## APP La Dorada (México) - Chiriguaná v10.1
 
 **Fecha de verificación:** 27 de enero de 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
@@ -12,7 +12,7 @@
 
 **ESTADO:** ✅ **FORMATO T8 VERIFICADO Y APLICADO CORRECTAMENTE**
 
-Como Administrador Contractual EPC, confirmo que se ha verificado y aplicado correctamente el formato T8 en todos los documentos clave del proyecto APP La Dorada-Chiriguaná. El formato T8 se refiere a la estructura estándar de documentación técnica que incluye 8 elementos fundamentales.
+Como Administrador Contractual EPC, confirmo que se ha verificado y aplicado correctamente el formato T8 en todos los documentos clave del proyecto APP La Dorada (México) - Chiriguaná. El formato T8 se refiere a la estructura estándar de documentación técnica que incluye 8 elementos fundamentales.
 
 ---
 
@@ -207,7 +207,7 @@ Como Administrador Contractual EPC, confirmo que se ha verificado y aplicado cor
 - **Estándares técnicos** aplicados uniformemente
 - **Calidad documental** al nivel profesional
 
-**El proyecto APP La Dorada-Chiriguaná cumple con el formato T8 al 100% en todos sus documentos.**
+**El proyecto APP La Dorada (México) - Chiriguaná cumple con el formato T8 al 100% en todos sus documentos.**
 
 ---
 

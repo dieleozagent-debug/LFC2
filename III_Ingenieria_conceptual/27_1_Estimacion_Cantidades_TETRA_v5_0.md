@@ -160,7 +160,7 @@ Este documento contiene las estimaciones de cantidades para el sistema TETRA, in
 | **Red Vital IP / TETRA** | **37 estaciones** | Redundancia con TETRA | Criterios maestros |
 | **Locomotoras** | 15 | Flota según contrato | AT1-3 material rodante |
 | **EOT** | **15 dispositivos** | End of Train Device | Criterios maestros |
-| **ENCE** | **5 estaciones** | Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México | Respuesta LFC |
+| **ENCE** | **5 estaciones** | Zapatosa, García Cadena, Barrancabermeja (Puerto), Puerto Berrío-Grecia, La Dorada-México | Respuesta LFC |
 | **Desvíos motorizados** | **25 unidades** | Control automático | Criterios maestros |
 | **Desvíos manuales** | **95 unidades** | Operación manual | Criterios maestros |
 | **Cámaras CCTV** | 73 | 48 PAN + 12 talleres + 8 CCO + 5 estaciones | Respuesta LFC |
@@ -213,7 +213,7 @@ Este documento contiene las estimaciones de cantidades para el sistema TETRA, in
 - **Locomotoras equipadas** para ambos territorios
 
 **Sistema dual por locomotora:**
-- Controlador LA DORADA-CHIRIGUANÁ
+- Controlador La Dorada (México) - Chiriguaná
 - PTC FENOCO (interoperabilidad)
 - Display integrado
 - GPS dual
@@ -294,7 +294,7 @@ Este documento contiene las estimaciones de cantidades para el sistema TETRA, in
 
 ### **📊 Parámetros Base del Proyecto**
 
-**Proyecto:** APP La Dorada-Chiriguaná (526.133 km)
+**Proyecto:** APP La Dorada (México) - Chiriguaná (526.133 km)
 
 | Parámetro | Valor | Fuente |
 |:----------|:------|:-------|
@@ -434,7 +434,7 @@ Este documento contiene las estimaciones de cantidades para el sistema TETRA, in
 - Dimensiones: 4m × 3m × 2.8m altura
 - Características:
   - Climatización redundante N+1
-  - UPS 8 horas autonomía
+  - UPS 4 horas autonomía
   - Generador backup
   - Sistema contra incendio
   - Control acceso biométrico
@@ -466,7 +466,7 @@ Este documento contiene las estimaciones de cantidades para el sistema TETRA, in
 | Sistema | Potencia (kW) | UPS (horas) | Generador |
 |:--------|:--------------|:------------|:----------|
 | **TETRA + Red Vital IP / TETRA** | 199 | 4 horas | Requerido |
-| **Fibra Óptica** | 110.8 | 8 horas | Requerido |
+| **Fibra Óptica** | 110.8 | 4 horas | Requerido |
 | **CCO Integrado** | 50 | 12 horas | N+1 |
 | **TOTAL** | **359.8 kW** | Variable | Redundante |
 

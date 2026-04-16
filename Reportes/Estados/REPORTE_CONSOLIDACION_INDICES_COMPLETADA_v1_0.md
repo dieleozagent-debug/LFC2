@@ -223,7 +223,7 @@ La consolidación de índices ha sido **EXITOSAMENTE COMPLETADA** con los siguie
 ### **Estado Final:**
 **🎉 CONSOLIDACIÓN COMPLETADA - ÍNDICE MAESTRO ÚNICO ESTABLECIDO**
 
-El proyecto ahora cuenta con un **índice maestro consolidado único** que facilita la navegación y consulta de toda la documentación del proyecto APP La Dorada-Chiriguaná.
+El proyecto ahora cuenta con un **índice maestro consolidado único** que facilita la navegación y consulta de toda la documentación del proyecto APP La Dorada (México) - Chiriguaná.
 
 ---
 

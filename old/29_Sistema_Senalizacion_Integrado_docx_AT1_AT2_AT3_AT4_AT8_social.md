@@ -60,7 +60,7 @@ El diseno detallado de la senalización no puede avanzar hasta que este concepto
 ### 3.1 Filosofía de Senalización para Proyectos EPC
 Se propone una filosofía de senalización que optimiza la seguridad y la eficiencia de la construcción:
 - **Sistema de Bloqueo Automático con Posicionamiento GNSS/EOT Vital:** En lugar de Bloque Virtual Dinámico tradicionales (sensibles a la humedad y condiciones del balasto), se utilizarán Posicionamiento GNSS/EOT Vital (norma Estándar SICC (FRA/AREMA) ED3M1) para la detección de trenes. Esto simplifica la instalación, reduce el mantenimiento y aumenta la fiabilidad, especialmente en el clima del corredor.
-- **Enclavamientos Electrónicos (CBI) Modulares:** Los 5 enclavamientos (Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México) se disenarán con una arquitectura modular. Esto permite desarrollar y probar la lógica de control de forma independiente a las especificaciones finales de PTC (bloqueadas por AT3), preparando interfaces para PTC Virtual (FRA 236).
+- **Enclavamientos Electrónicos (CBI) Modulares:** Los 5 enclavamientos (Zapatosa, García Cadena, Barrancabermeja (Puerto), Puerto Berrío-Grecia, La Dorada-México) se disenarán con una arquitectura modular. Esto permite desarrollar y probar la lógica de control de forma independiente a las especificaciones finales de PTC (bloqueadas por AT3), preparando interfaces para PTC Virtual (FRA 236).
 - **Senalización LED de Alta Eficiencia:** Todas las senales luminosas utilizarán tecnología LED (ET 03.365.501.0), reduciendo el consumo energético y los costos de mantenimiento a largo plazo.
 
 ### 3.2 Estrategia de Implementación de Pasos a Nivel (PN)
@@ -77,7 +77,7 @@ La siguiente matriz integra los requisitos de los diferentes apéndices en funci
 
 | Requisito Contractual | Fuente | Funcionalidad de Senalización Asociada | Estado AT3/AT4 |
 |---|---|---|:---:|
-| **5 Enclavamientos Electrónicos (ENCE)** | AT1, Tabla 17 | Diseno e implementación de CBI en Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México.<br>- **Disponibilidad 99.95% según AT4** | ⚠️ Condicionado |
+| **5 Enclavamientos Electrónicos (ENCE)** | AT1, Tabla 17 | Diseno e implementación de CBI en Zapatosa, García Cadena, Barrancabermeja (Puerto), Puerto Berrío-Grecia, La Dorada-México.<br>- **Disponibilidad 99.95% según AT4** | ⚠️ Condicionado |
 | **146 Pasos a Nivel (PN)** | AT1, Cap. 4.5 | Diseno e instalación de 9 PN Tipo C (barreras), 15 PN Tipo B (luz/sonido) y 122 PN Tipo A (fijas), cumpliendo NTC 4741. | ✅ Definido |
 | **Detección de Trenes** | AT3, Cap. 8.1 | Implementación de Posicionamiento GNSS/EOT Vital (ET 03.365.310.6) como sistema principal de detección. | ✅ Definido |
 | **Disponibilidad PNBC 100%** | AT4 | Diseno de sistemas de protección de PN con redundancia en alimentación y comunicación para garantizar disponibilidad total. | 🔴 Bloqueado |

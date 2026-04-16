@@ -1,5 +1,5 @@
 # REVISIÓN DE DISPONIBILIDAD (Red Vital LFC) - JUSTIFICACIÓN DEL 99.95%
-## APP La Dorada-Chiriguaná - Análisis de Uptime Realista
+## APP La Dorada (México) - Chiriguaná - Análisis de Uptime Realista
 
 **Estado:** ✅ **SANEADO (MÉTODO KARPATHY)**  
 **Fecha:** 13 de marzo de 2026  

@@ -1,5 +1,5 @@
 # 🔄 FLUJO DE REFERENCIAS CRUZADAS - FIBRA ÓPTICA
-## APP La Dorada-Chiriguaná - Sistema de Coherencia Técnica
+## APP La Dorada (México) - Chiriguaná - Sistema de Coherencia Técnica
 
 **Fecha:** Enero 2025  
 **Propósito:** Demostrar cómo un cambio en criterios maestros se propaga a todos los documentos
@@ -55,7 +55,7 @@
 ### **FIBRA ÓPTICA: 594 KM**
 ```
 Cálculo Base:
-- Corredor total: 540 km
+- Corredor total: 526.133 km (Corredor SICC)
 - Reserva técnica: 10% = 54 km
 - Total fibra: 540 + 54 = 526 km
 ```

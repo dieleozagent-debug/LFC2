@@ -1,5 +1,5 @@
 # TEMPLATE T04: ESPECIFICACIÓN TÉCNICA v2.0
-## Versión Saneada (Soberanía Tecnológica) - APP La Dorada-Chiriguaná
+## Versión Saneada (Soberanía Tecnológica) - APP La Dorada (México) - Chiriguaná
 
 **Fecha de actualización:** 13 de marzo de 2026  
 **Versión:** 2.0 - Purge Release

@@ -1,4 +1,4 @@
-# 📋 PROCEDIMIENTOS DE COHERENCIA TÉCNICA - APP LA DORADA-CHIRIGUANÁ
+# 📋 PROCEDIMIENTOS DE COHERENCIA TÉCNICA - APP La Dorada (México) - Chiriguaná
 ## Protocolo de Actualización y Mantenimiento de Coherencia Documental
 
 **Fecha:** Enero 2025  
@@ -9,7 +9,7 @@
 
 ## 📊 **RESUMEN EJECUTIVO**
 
-Este documento establece los **procedimientos obligatorios** para mantener la coherencia técnica del proyecto APP La Dorada-Chiriguaná. Define el flujo de trabajo para actualizar criterios maestros y propagar cambios a todos los documentos relacionados.
+Este documento establece los **procedimientos obligatorios** para mantener la coherencia técnica del proyecto APP La Dorada (México) - Chiriguaná. Define el flujo de trabajo para actualizar criterios maestros y propagar cambios a todos los documentos relacionados.
 
 ### **🎯 PRINCIPIO FUNDAMENTAL**
 > **"Cualquier cambio en CRITERIOS_TECNICOS_MAESTRO_v1.0.md debe seguir el protocolo completo de actualización para garantizar coherencia en todo el proyecto."**

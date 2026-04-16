@@ -1,5 +1,5 @@
 # 🏗️ ARQUITECTURA DEL SISTEMA COMPLETO - INTEGRACIÓN DT → TODO
-**Proyecto:** APP La Dorada-Chiriguaná  
+**Proyecto:** APP La Dorada (México) - Chiriguaná  
 **Fecha:** 8 de Octubre de 2025  
 **Versión:** 1.0  
 

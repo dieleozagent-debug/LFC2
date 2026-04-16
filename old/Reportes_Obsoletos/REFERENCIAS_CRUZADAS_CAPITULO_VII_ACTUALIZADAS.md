@@ -1,5 +1,5 @@
 # REFERENCIAS CRUZADAS CAPÍTULO VII - ACTUALIZADAS
-## APP La Dorada-Chiriguaná - 150+ Enlaces Validados
+## APP La Dorada (México) - Chiriguaná - 150+ Enlaces Validados
 
 **Fecha:** 27 de Enero, 2025  
 **Responsable:** Administrador Contractual EPC  

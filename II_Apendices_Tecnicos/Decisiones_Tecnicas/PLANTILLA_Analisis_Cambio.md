@@ -1,6 +1,6 @@
 # ANÁLISIS DE CAMBIO - AC-[SISTEMA]-[NNN]
 
-**Proyecto:** APP La Dorada-Chiriguaná  
+**Proyecto:** APP La Dorada (México) - Chiriguaná  
 **Decisión Origen:** DT-[SISTEMA]-[NNN]  
 **Fecha:** [DD/MM/AAAA]  
 **Responsable:** [Nombre del especialista]  

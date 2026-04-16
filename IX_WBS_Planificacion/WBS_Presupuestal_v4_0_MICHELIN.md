@@ -1,5 +1,5 @@
 # WBS PRESUPUESTAL v4.0 - LÍNEA BASE MICHELIN
-## APP La Dorada-Chiriguaná - Presupuesto Maestro Saneado (SICC Michelin Phase)
+## APP La Dorada (México) - Chiriguaná - Presupuesto Maestro Saneado (SICC Michelin Phase)
 
 **Fecha de actualización:** 09 de abril de 2026  
 **Proyecto:** APP La Dorada - Chiriguaná  
@@ -49,7 +49,7 @@
 |:---|:---|:---:|:---:|:---:|
 | **1.3.100** | Controlador ENCE Zapatosa | 1 | $800,000,000 | $800,000,000 |
 | **1.3.101** | Controlador ENCE García Cadena | 1 | $800,000,000 | $800,000,000 |
-| **1.3.102** | Controlador ENCE Barrancabermeja | 1 | $800,000,000 | $800,000,000 |
+| **1.3.102** | Controlador ENCE Barrancabermeja (Puerto) | 1 | $800,000,000 | $800,000,000 |
 | **1.3.103** | Controlador ENCE Puerto Berrío-Grecia | 1 | $800,000,000 | $800,000,000 |
 | **1.3.104** | Controlador ENCE La Dorada-México | 1 | $800,000,000 | $800,000,000 |
 | **1.3.105** | Sistema redundancia ENCE | 1 | $400,000,000 | $400,000,000 |

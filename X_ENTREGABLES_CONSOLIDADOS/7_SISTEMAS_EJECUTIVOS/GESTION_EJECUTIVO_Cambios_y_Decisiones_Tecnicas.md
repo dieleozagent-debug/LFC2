@@ -1,6 +1,6 @@
 # REPORTE EJECUTIVO DE CAMBIOS Y DECISIONES TÉCNICAS
 
-**Proyecto:** APP La Dorada-Chiriguaná  
+**Proyecto:** APP La Dorada (México) - Chiriguaná  
 **Versión Sistema WBS:** v14.2  
 **Fecha de actualización:** 9 de Octubre 2025  
 **Estado:** ACTIVO - Sistema operativo con integración DT → 7 niveles  

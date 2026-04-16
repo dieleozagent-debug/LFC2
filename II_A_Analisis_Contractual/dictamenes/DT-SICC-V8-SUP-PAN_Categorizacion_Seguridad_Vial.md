@@ -7,18 +7,18 @@
 ---
 
 ## 1. OBJETO
-Saneamiento forense del inventario de **Pasos a Nivel (PAN)** para alinear el diseño de ITS y CCTV con la **Matriz Contractual del AT1 (Tabla 24)** y el presupuesto de la **WBS v4.0**. Este dictamen prohíbe la instalación de electrónica de campo en los 122 cruces rurales clasificados como **Tipo A**.
+Saneamiento forense del inventario de **Pasos a Nivel (PAN)** para alinear el diseno de ITS y CCTV con la **Matriz Contractual del AT1 (Tabla 24)** y el presupuesto de la **WBS v4.0**. Este dictamen prohíbe la instalación de electrónica de campo en los 122 cruces rurales clasificados como **Tipo A**.
 
 ## 2. MARCO CONTRACTUAL APLICABLE
 Para evitar la alucinación de los "146 Pasos Activos", se ratifica la jerarquía del Apéndice Técnico 1 (AT1):
-1.  **AT1 Tabla 24:** Establece el inventario base vinculante de 146 cruces con su categoría de señalización proyectada.
-2.  **Definición Tipo A:** Según AT1, los cruces Tipo A están "Protegidos exclusivamente con Señales Fijas" (Protección Pasiva).
-3.  **Sección 9.3(a) del Contrato:** El diseño de detalle debe garantizar la eficiencia. Incluir cámaras y barreras en cruces Tipo A es una ineficiencia técnica y financiera.
+1.  **AT1 Tabla 24:** Establece el inventario base vinculante de 146 cruces con su categoría de senalización proyectada.
+2.  **Definición Tipo A:** Según AT1, los cruces Tipo A están "Protegidos exclusivamente con Senales Fijas" (Protección Pasiva).
+3.  **Sección 9.3(a) del Contrato:** El diseno de detalle debe garantizar la eficiencia. Incluir cámaras y barreras en cruces Tipo A es una ineficiencia técnica y financiera.
 
 ## 3. HALLAZGO FORENSE: LA INFECCIÓN DE LOS 146
 Se ha detectado que los entregables de **CCTV (Especialidad 31)** e **ITS (Especialidad 30)** exigen equipamiento electrónico para la totalidad de los 146 cruces. 
 *   **Realidad:** Solo se autorizan **24 cruces activos** (9 Tipo C + 15 Tipo B) como piso contractual.
-*   **Heredad Obsoleta:** El diseño actual intenta tratar a los 122 cruces rurales (Caminos de Vereda) como si requirieran integración vital, lo cual representa un riesgo de sobrecosto de **$20,000,000,000 COP**.
+*   **Heredad Obsoleta:** El diseno actual intenta tratar a los 122 cruces rurales (Caminos de Vereda) como si requirieran integración vital, lo cual representa un riesgo de sobrecosto de **$20,000,000,000 COP**.
 
 ## 4. INSTRUCCIÓN TÉCNICA (OBLIGACIÓN DE RESULTADO)
 Se ordena a **Ardanuy** y al equipo de ingeniería civil aplicar la siguiente **Matriz de Saneamiento**:
@@ -31,7 +31,7 @@ Se ordena a **Ardanuy** y al equipo de ingeniería civil aplicar la siguiente **
 ### B. Cruces PASIVOS (Saneamiento SICC - 122 Unidades)
 *   **Categoría:** Tipo A.
 *   **Electrónica:** 🚫 **PROHIBIDA**. 0 Cámaras, 0 Barreras, 0 Sensores.
-*   **Infraestructura:** Renovación civil de placa (concreto/contrarriel) y dotación de **Señalización Fija** (SR-01 PARE y Cruz de San Andrés) conforme al Manual de Señalización Vial de Colombia.
+*   **Infraestructura:** Renovación civil de placa (concreto/contrarriel) y dotación de **Senalización Fija** (SR-01 PARE y Cruz de San Andrés) conforme al Manual de Senalización Vial de Colombia.
 *   **Seguridad:** Basada en la bocina del tren y visibilidad mínima de 150m (Norma NTC 4741).
 
 ## 5. IMPACTO EN CAPEX Y OPEX
@@ -43,8 +43,8 @@ Se ordena a **Ardanuy** y al equipo de ingeniería civil aplicar la siguiente **
 
 ## 6. CONCLUSIÓN Y REGLAS DE JUEGO (INPUT DATA)
 Cualquier propuesta de elevar un cruce **Tipo A** a **Tipo B/C** deberá estar estrictamente soportada por:
-1.  **Aforo Vehicular e Inventario Georreferenciado:** Ardanuy debe entregar el inventario en formato nativo GIS (Shapefile `.shp` o File Geodatabase `.GDB`) con Latitud y Longitud exacta, cruzado con el volumen vehicular (ADDT > 1,000) y una Matriz de Riesgo RAMS. El AT1 es solo una referencia de costeo; la ingeniería espacial le corresponde al diseñador.
-2.  **Excepción Social Estratégica:** La única excepción validada a la exigencia de aforo será un mandato legal ineludible derivado de una **Consulta Previa con Comunidades Étnicas (Ley 21 de 1991)**. La presión comunitaria ordinaria (AT1 §4.5) se ponderará, pero no reemplaza el criterio técnico del Manual de Señalización.
+1.  **Aforo Vehicular e Inventario Georreferenciado:** Ardanuy debe entregar el inventario en formato nativo GIS (Shapefile `.shp` o File Geodatabase `.GDB`) con Latitud y Longitud exacta, cruzado con el volumen vehicular (ADDT > 1,000) y una Matriz de Riesgo RAMS. El AT1 es solo una referencia de costeo; la ingeniería espacial le corresponde al disenador.
+2.  **Excepción Social Estratégica:** La única excepción validada a la exigencia de aforo será un mandato legal ineludible derivado de una **Consulta Previa con Comunidades Étnicas (Ley 21 de 1991)**. La presión comunitaria ordinaria (AT1 §4.5) se ponderará, pero no reemplaza el criterio técnico del Manual de Senalización.
 
 Sin el cumplimiento de estas condiciones probatorias, rige contractualmente la **Protección Pasiva** mandatoria.
 

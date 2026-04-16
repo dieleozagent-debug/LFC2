@@ -1,5 +1,5 @@
 # PLAN DE INTEGRACIÓN DE SISTEMAS - COMPLETO
-## APP LA DORADA-CHIRIGUANÁ v10.1
+## APP La Dorada (México) - Chiriguaná v10.1
 
 **Fecha de desarrollo:** 27 de enero de 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
@@ -10,10 +10,10 @@
 
 ## 🎯 RESUMEN EJECUTIVO
 
-Este documento presenta el **plan de integración de sistemas completo** para el proyecto APP La Dorada-Chiriguaná, desarrollado para coordinar la integración de todos los sistemas ferroviarios, eléctricos, mecánicos y civiles del corredor ferroviario de 178 km.
+Este documento presenta el **plan de integración de sistemas completo** para el proyecto APP La Dorada (México) - Chiriguaná, desarrollado para coordinar la integración de todos los sistemas ferroviarios, eléctricos, mecánicos y civiles del corredor ferroviario de 178 km.
 
 ### **Base Técnica:**
-- **Longitud total:** 178 km La Dorada-Chiriguaná
+- **Longitud total:** 178 km La Dorada (México) - Chiriguaná
 - **Sistemas integrados:** Civil, Eléctrico, Mecánico, Sistemas
 - **Estándares:** FRA/AREMA, EN, IEEE, normas colombianas
 - **Interoperabilidad:** Con red FENOCO
@@ -156,7 +156,7 @@ Este documento presenta el **plan de integración de sistemas completo** para el
 |:----------|:-----|:----------|:--------------|
 | **La Dorada** | Switch principal | 10 Gbps | Redundancia N+1 |
 | **Puerto Berrío** | Switch intermedio | 1 Gbps | Redundancia N+1 |
-| **Barrancabermeja** | Switch intermedio | 1 Gbps | Redundancia N+1 |
+| **Barrancabermeja (Puerto)** | Switch intermedio | 1 Gbps | Redundancia N+1 |
 | **Chiriguaná** | Switch principal | 10 Gbps | Redundancia N+1 |
 
 #### **5.2 Servidores de Datos**

@@ -1,4 +1,4 @@
-# PROMPT ADMINISTRADOR CONTRACTUAL EPC - APP LA DORADA-CHIRIGUANÁ
+# PROMPT ADMINISTRADOR CONTRACTUAL EPC - APP La Dorada (México) - Chiriguaná
 
 **Versión:** 5.0 - SISTEMA DE COHERENCIA TÉCNICA IMPLEMENTADO  
 **Fecha de actualización:** Enero 2025  
@@ -198,7 +198,7 @@ SENALIZACIÓN (VIRTUAL):
 - Servidor PTC Central: 0 (ELIMINADO - PTC embarcado)
 - CTC: 1 sistema centralizado
 - PTC embarcado: 15 locomotoras
-- ENCE: 5 estaciones (Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío, La Dorada)
+- ENCE: 5 estaciones (Zapatosa, García Cadena, Barrancabermeja (Puerto), Puerto Berrío, La Dorada)
 - Desvíos: 120 total (25 motorizados + 95 manuales)
 
 TELECOMUNICACIONES:

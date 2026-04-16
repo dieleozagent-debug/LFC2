@@ -1,5 +1,5 @@
 # ÍNDICE MAESTRO - ESTRUCTURA DOCUMENTAL NUEVA
-## APP LA DORADA-CHIRIGUANÁ v10.1
+## APP La Dorada (México) - Chiriguaná v10.1
 
 **Fecha de actualización:** 27 de enero de 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  

@@ -1,4 +1,4 @@
-# MATRIZ DE ROLES PMO-EPC RACI - APP LA DORADA-CHIRIGUANÁ
+# MATRIZ DE ROLES PMO-EPC RACI - APP La Dorada (México) - Chiriguaná
 
 **Fecha de actualización:** 27 de enero de 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
@@ -9,7 +9,7 @@
 
 ## 📋 RESUMEN EJECUTIVO
 
-Este documento establece la **Matriz de Roles y Responsabilidades (RACI)** para el proyecto APP La Dorada-Chiriguaná, definiendo claramente las responsabilidades de cada especialidad dentro del marco de gestión PMO-EPC.
+Este documento establece la **Matriz de Roles y Responsabilidades (RACI)** para el proyecto APP La Dorada (México) - Chiriguaná, definiendo claramente las responsabilidades de cada especialidad dentro del marco de gestión PMO-EPC.
 
 ### **Simbología RACI:**
 - **R** = Responsable (quien ejecuta la actividad)

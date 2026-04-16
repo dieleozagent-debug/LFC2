@@ -28,7 +28,7 @@
 
 **Sistema TETRA Integrado - Comunicaciones de Misión Crítica**
 
-Este documento presenta el **Sistema TETRA Integrado v5.0** que establece la arquitectura, especificaciones técnicas y estrategia de implementación del sistema de radio TETRA para el proyecto APP La Dorada-Chiriguaná, **100% ALINEADO CON LOS CRITERIOS TÉCNICOS MAESTROS v1.0**.
+Este documento presenta el **Sistema TETRA Integrado v5.0** que establece la arquitectura, especificaciones técnicas y estrategia de implementación del sistema de radio TETRA para el proyecto APP La Dorada (México) - Chiriguaná, **100% ALINEADO CON LOS CRITERIOS TÉCNICOS MAESTROS v1.0**.
 
 ---
 
@@ -155,7 +155,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 | **Red Vital IP / TETRA** | **37 estaciones** | Redundancia con TETRA | Criterios maestros |
 | **Locomotoras** | 15 | Flota según contrato | AT1-3 material rodante |
 | **EOT** | **15 dispositivos** | End of Train Device | Criterios maestros |
-| **ENCE** | **5 estaciones** | Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío-Grecia, La Dorada-México | Respuesta LFC |
+| **ENCE** | **5 estaciones** | Zapatosa, García Cadena, Barrancabermeja (Puerto), Puerto Berrío-Grecia, La Dorada-México | Respuesta LFC |
 | **Desvíos motorizados** | **25 unidades** | Control automático | Criterios maestros |
 | **Desvíos manuales** | **95 unidades** | Operación manual | Criterios maestros |
 | **Cámaras CCTV** | 73 | 48 PAN + 12 talleres + 8 CCO + 5 estaciones | Respuesta LFC |
@@ -208,7 +208,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 - **Locomotoras equipadas** para ambos territorios
 
 **Sistema dual por locomotora:**
-- Controlador LA DORADA-CHIRIGUANÁ
+- Controlador La Dorada (México) - Chiriguaná
 - PTC FENOCO (interoperabilidad)
 - Display integrado
 - GPS dual
@@ -398,7 +398,7 @@ El Sistema de Radio TETRA es la red de comunicaciones de voz y datos de misión 
 - **Locomotoras equipadas** para ambos territorios
 
 #### **7.4.2 Sistema Dual por Locomotora**
-- Controlador LA DORADA-CHIRIGUANÁ
+- Controlador La Dorada (México) - Chiriguaná
 - PTC FENOCO (interoperabilidad)
 - Display integrado
 - GPS dual

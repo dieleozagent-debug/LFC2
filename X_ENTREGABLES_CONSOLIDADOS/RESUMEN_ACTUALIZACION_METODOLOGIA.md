@@ -1,7 +1,7 @@
 # RESUMEN DE ACTUALIZACIÓN - METODOLOGÍA CARPETA X COMPLETADA
 
 **Fecha:** Enero 2025  
-**Proyecto:** APP La Dorada-Chiriguaná  
+**Proyecto:** APP La Dorada (México) - Chiriguaná  
 **Responsable:** Administrador Contractual EPC  
 
 ---
@@ -234,5 +234,5 @@ La Carpeta X ahora tiene un flujo metodológico completo desde la consolidación
 **Elaborado por:** Administrador Contractual EPC  
 **Fecha:** Enero 2025  
 **Estado:** ✅ Metodología completa y documentada  
-**Basado en:** Proyecto APP La Dorada-Chiriguaná - Metodología Punto 42
+**Basado en:** Proyecto APP La Dorada (México) - Chiriguaná - Metodología Punto 42
 

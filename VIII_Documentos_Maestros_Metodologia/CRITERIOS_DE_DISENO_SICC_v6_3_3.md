@@ -15,7 +15,7 @@ Este documento establece los criterios técnicos, funcionales y normativos que r
 El sistema adopta una arquitectura de **Positive Train Control (PTC) con cantonamiento virtual**, fundamentada en la **FRA 49 CFR Part 236, Subpart I**, el **Manual AREMA 2021** (Communications and Signals) y la norma de software unificado **Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP):2023**. Esta arquitectura prioriza la virtualización sobre la infraestructura física para proteger el CAPEX y garantizar la soberanía técnica del proyecto.
 
 ### 1.2. Alcance del Sistema
-El sistema se establece sobre una arquitectura de PTC con cantonamiento virtual en la vía sencilla y cantonamiento físico restringido exclusivamente a cinco (5) puntos operativos críticos: **La Dorada–México, Puerto Berrío–Grecia, Barrancabermeja, García Cadena y Zapatosa**. 
+El sistema se establece sobre una arquitectura de PTC con cantonamiento virtual en la vía sencilla y cantonamiento físico restringido exclusivamente a cinco (5) puntos operativos críticos: **La Dorada–México, Puerto Berrío–Grecia, Barrancabermeja (Puerto), García Cadena y Zapatosa**. 
 
 El alcance incluye:
 - **a) Control de Trenes**: Basado en FRA 236-I (PTC).
@@ -119,7 +119,7 @@ La conexión en Chiriguaná es puramente operativa. El tren para, conmuta equipo
 ### 10.1. Clasificación 
 - **Senalización (Vital)**: 110 V DC con rectificadores redundantes. 
 - **Telecomunicaciones**: 48 V DC estándar ETSI.
-- **Autonomía**: Mínimo 8 horas de respaldo mediante baterías LiFePO4.
+- **Autonomía**: Mínimo 4 horas de respaldo mediante baterías LiFePO4.
 
 ### 10.2. Protección del Riel (CWR)
 Para cumplir con **FRA 213.119**, se prohíbe la inyección de corriente al riel (Posicionamiento GNSS/EOT Vital (Axle Counters)). La detección debe ser por Posicionamiento GNSS/EOT Vital atornillados al patín que no interrumpen la integridad eléctrica del riel continuo.

@@ -76,8 +76,8 @@ La selección de las ubicaciones preliminares se basó en los siguientes criteri
 | **TET-01** | 202+000 | La Dorada | Estación Base TETRA | 5.45, -74.66 | Cobertura inicial del corredor |
 | **FIB-01** | 285+000 | Puerto Berrío | Nodo de Regeneración FO | 6.49, -74.40 | Regeneración de senal óptica (~80 km) |
 | **TET-05** | 287+000 | Puerto Berrío | Estación Base TETRA | 6.50, -74.41 | Cobertura en zona de apartaderos |
-| **TALLER-01**| 441+932 | Barrancabermeja | Taller Pesado y Nodo | 7.06, -73.85 | Ubicación Taller Pesado (AT1) |
-| **TET-12** | 442+000 | Barrancabermeja | Estación Base TETRA | 7.06, -73.85 | Cobertura en zona industrial |
+| **TALLER-01**| 441+932 | Barrancabermeja (Puerto) | Taller Pesado y Nodo | 7.06, -73.85 | Ubicación Taller Pesado (AT1) |
+| **TET-12** | 442+000 | Barrancabermeja (Puerto) | Estación Base TETRA | 7.06, -73.85 | Cobertura en zona industrial |
 | **FIB-02** | 525+000 | San Alberto | Nodo de Regeneración FO | 7.76, -73.38 | Regeneración de senal óptica (~80 km) |
 | **TET-18** | 533+000 | San Alberto | Estación Base TETRA | 7.82, -73.39 | Cobertura en zona de apartaderos |
 | **FIB-03** | 604+000 | Gamarra | Nodo de Regeneración FO | 8.33, -73.75 | Regeneración de senal óptica (~80 km) |

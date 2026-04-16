@@ -39,7 +39,7 @@ El Verbo Rector es **"Integrar"**. Se prohíbe el uso de silos de información d
 
 ## 4. NORMA RECTORA: EN 50159 (REDES ABIERTAS)
 La integración de sistemas cumple con los requisitos de comunicación ferroviaria:
-*   **Aislamiento de Seguridad:** Aunque los sistemas estén integrados en la HMI, la lógica vital de señalización (ENCE) debe mantenerse aislada mediante firewalls de hardware conforme a la Categoría 3 de la EN 50159.
+*   **Aislamiento de Seguridad:** Aunque los sistemas estén integrados en la HMI, la lógica vital de senalización (ENCE) debe mantenerse aislada mediante firewalls de hardware conforme a la Categoría 3 de la EN 50159.
 *   **Soberanía de Datos:** Toda la base de datos de integración debe residir localmente en los servidores del CCO, prohibiendo el uso de "Cloud Integration" para funciones críticas.
 
 ---

@@ -1,5 +1,5 @@
 # SIMULACIONES DE CAPACIDAD Y SURCOS - Red Vital LFC (VIRTUAL BLOCK)
-## APP La Dorada-Chiriguaná - Optimización del Corredor (526 km)
+## APP La Dorada (México) - Chiriguaná - Optimización del Corredor (526 km)
 
 **Estado:** ✅ **SANEADO (MÉTODO KARPATHY)**  
 **Fecha:** 13 de marzo de 2026  
@@ -14,7 +14,7 @@
 Este documento presenta las simulaciones de capacidad para el corredor **La Dorada - Chiriguaná (526 km)**. Se analiza el impacto de la implementación del **PTC Virtual (Virtual Block)** en la densidad de surcos y la eficiencia operativa, eliminando cualquier referencia a sistemas de Filosofía PTC Virtual o PTC VIRTUAL.
 
 ### **1.2 ALCANCE**
-- **Corredor:** Troncal La Dorada-Chiriguaná (Vía única con apartaderos).
+- **Corredor:** Troncal La Dorada (México) - Chiriguaná (Vía única con apartaderos).
 - **Servicios:** Carga (Carbón, Contenedores) y Pasajeros.
 - **Tecnología:** Bloque Dinámico basado en PTC Virtual.
 

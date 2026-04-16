@@ -1,5 +1,5 @@
 # SISTEMA 06: INTEGRACIÓN Y COORDINACIÓN - Documento Master v1.0
-## APP LA DORADA-CHIRIGUANÁ - ENTREGABLE CONSOLIDADO
+## APP La Dorada (México) - Chiriguaná - ENTREGABLE CONSOLIDADO
 
 **Fecha de consolidación:** Enero 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
@@ -148,7 +148,7 @@
 |:----------|:---|:------------------|:---------|
 | **La Dorada** | 0+000 | Terminal principal | Conexión red nacional |
 | **Puerto Berrío** | 0+450 | Punto intermedio | Acceso regional |
-| **Barrancabermeja** | 0+970 | Punto intermedio | Acceso industrial |
+| **Barrancabermeja (Puerto)** | 0+970 | Punto intermedio | Acceso industrial |
 | **Chiriguaná** | 1+780 | Terminal secundario | Conexión regional |
 
 #### **Componentes de Interconexión:**
@@ -406,7 +406,7 @@
 | **Interfaces CTC** | 99.95% | 2 horas | Tiempo de respuesta, disponibilidad | ✅ Monitoreado |
 | **Interoperabilidad FENOCO** | 99.95% | 1 hora | Latencia < 1s, handover < 2s | ✅ Monitoreado |
 | **Protocolos FRA/AREMA** | 99.95% | 4 horas | Disponibilidad protocolos, tiempo respuesta | ✅ Monitoreado |
-| **Sistemas Integrados** | 99.5% | 8 horas | Disponibilidad sistemas, tiempo respuesta | ✅ Monitoreado |
+| **Sistemas Integrados** | 99.5% | 4 horas | Disponibilidad sistemas, tiempo respuesta | ✅ Monitoreado |
 
 ---
 
@@ -474,7 +474,7 @@
 
 ## ⚠️ ADVERTENCIAS LEGALES
 
-**Este documento consolidado es un entregable del proyecto APP La Dorada-Chiriguaná y contiene información técnica confidencial. Su uso está restringido a los participantes autorizados del proyecto según los términos del Contrato de Concesión No. 001 de 2025.**
+**Este documento consolidado es un entregable del proyecto APP La Dorada (México) - Chiriguaná y contiene información técnica confidencial. Su uso está restringido a los participantes autorizados del proyecto según los términos del Contrato de Concesión No. 001 de 2025.**
 
 **Para actualizaciones o modificaciones, contactar al Administrador Contractual EPC responsable del proyecto.**
 

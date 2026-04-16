@@ -1,5 +1,5 @@
 # INGENIERÍA ELÉCTRICA DE DETALLE - SISTEMA DE ALIMENTACIÓN PRINCIPAL
-## APP LA DORADA-CHIRIGUANÁ v10.1
+## APP La Dorada (México) - Chiriguaná v10.1
 
 **Fecha de desarrollo:** 27 de enero de 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
@@ -10,10 +10,10 @@
 
 ## 🎯 RESUMEN EJECUTIVO
 
-Este documento presenta la **ingeniería eléctrica de detalle** para el sistema de alimentación principal del proyecto APP La Dorada-Chiriguaná, desarrollada para la construcción real de los sistemas eléctricos del corredor ferroviario de 178 km.
+Este documento presenta la **ingeniería eléctrica de detalle** para el sistema de alimentación principal del proyecto APP La Dorada (México) - Chiriguaná, desarrollada para la construcción real de los sistemas eléctricos del corredor ferroviario de 178 km.
 
 ### **Base Técnica:**
-- **Longitud total:** 178 km La Dorada-Chiriguaná
+- **Longitud total:** 178 km La Dorada (México) - Chiriguaná
 - **Tensión de tracción:** Diesel-Eléctrica, 50 Hz
 - **Tensión auxiliar:** 13.8 kV, 480V, 220V, 110V
 - **Estándares:** IEC, IEEE, NTC 2050, RETIE
@@ -44,7 +44,7 @@ Este documento presenta la **ingeniería eléctrica de detalle** para el sistema
 | **UPS** | 75 kVA, 30 min | 2 unidades | Redundancia |
 | **Generador emergencia** | 350 kVA, diesel | 2 unidades | Redundancia |
 
-#### **1.3 Subestación Barrancabermeja (Intermedia)**
+#### **1.3 Subestación Barrancabermeja (Puerto) (Intermedia)**
 | Componente | Especificación | Cantidad | Observaciones |
 |:-----------|:---------------|:--------:|:--------------|
 | **Transformador principal** | 40 MVA, 230/[ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | 2 unidades | Redundancia N+1 |
@@ -105,8 +105,8 @@ Este documento presenta la **ingeniería eléctrica de detalle** para el sistema
 | Tramo | Longitud | Carga (kW) | Conductor | Observaciones |
 |:------|:---------|:----------:|:----------|:--------------|
 | **La Dorada - Puerto Berrío** | 45 km | 850 | ACSR 4/0 | Servicios auxiliares |
-| **Puerto Berrío - Barrancabermeja** | 52 km | 920 | ACSR 4/0 | Servicios auxiliares |
-| **Barrancabermeja - Bucaramanga** | 38 km | 680 | ACSR 4/0 | Servicios auxiliares |
+| **Puerto Berrío - Barrancabermeja (Puerto)** | 52 km | 920 | ACSR 4/0 | Servicios auxiliares |
+| **Barrancabermeja (Puerto) - Bucaramanga** | 38 km | 680 | ACSR 4/0 | Servicios auxiliares |
 | **Bucaramanga - Chiriguaná** | 43 km | 750 | ACSR 4/0 | Servicios auxiliares |
 
 #### **3.2 Subestaciones de Distribución**
@@ -132,7 +132,7 @@ Este documento presenta la **ingeniería eléctrica de detalle** para el sistema
 |:----------|:----------|:----------|:-----|:--------------|
 | **La Dorada** | 100 kVA | 30 min | Online | Cargas críticas |
 | **Puerto Berrío** | 75 kVA | 30 min | Online | Cargas críticas |
-| **Barrancabermeja** | 75 kVA | 30 min | Online | Cargas críticas |
+| **Barrancabermeja (Puerto)** | 75 kVA | 30 min | Online | Cargas críticas |
 | **Chiriguaná** | 100 kVA | 30 min | Online | Cargas críticas |
 | **PK 15+200** | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | 15 min | Online | Senales críticas |
 | **PK 35+400** | [ESTÁNDAR PROHIBIDO: SICC v6.3 ES DIÉSEL] | 15 min | Online | Senales críticas |
@@ -144,16 +144,16 @@ Este documento presenta la **ingeniería eléctrica de detalle** para el sistema
 |:----------|:----------|:---------|:----------|:-----|
 | **La Dorada** | 500 Ah | 480V DC | 30 min | Plomo-ácido |
 | **Puerto Berrío** | 400 Ah | 480V DC | 30 min | Plomo-ácido |
-| **Barrancabermeja** | 400 Ah | 480V DC | 30 min | Plomo-ácido |
+| **Barrancabermeja (Puerto)** | 400 Ah | 480V DC | 30 min | Plomo-ácido |
 | **Chiriguaná** | 500 Ah | 480V DC | 30 min | Plomo-ácido |
 
 #### **4.3 Generadores de Emergencia**
 | Ubicación | Potencia | Combustible | Autonomía | Observaciones |
 |:----------|:---------|:------------|:----------|:--------------|
-| **La Dorada** | 500 kVA | Diesel | 8 horas | Automático |
-| **Puerto Berrío** | 350 kVA | Diesel | 8 horas | Automático |
-| **Barrancabermeja** | 350 kVA | Diesel | 8 horas | Automático |
-| **Chiriguaná** | 450 kVA | Diesel | 8 horas | Automático |
+| **La Dorada** | 500 kVA | Diesel | 4 horas | Automático |
+| **Puerto Berrío** | 350 kVA | Diesel | 4 horas | Automático |
+| **Barrancabermeja (Puerto)** | 350 kVA | Diesel | 4 horas | Automático |
+| **Chiriguaná** | 450 kVA | Diesel | 4 horas | Automático |
 
 ---
 
@@ -196,7 +196,7 @@ Este documento presenta la **ingeniería eléctrica de detalle** para el sistema
 |:----------|:-----|:--------:|:--------------|
 | **La Dorada** | Tablero principal | 1 | 8 salidas |
 | **Puerto Berrío** | Tablero principal | 1 | 6 salidas |
-| **Barrancabermeja** | Tablero principal | 1 | 6 salidas |
+| **Barrancabermeja (Puerto)** | Tablero principal | 1 | 6 salidas |
 | **Chiriguaná** | Tablero principal | 1 | 8 salidas |
 
 #### **6.2 Tableros de Distribución 13.8 kV**
@@ -204,7 +204,7 @@ Este documento presenta la **ingeniería eléctrica de detalle** para el sistema
 |:----------|:-----|:--------:|:--------------|
 | **La Dorada** | Tablero distribución | 1 | 6 salidas |
 | **Puerto Berrío** | Tablero distribución | 1 | 4 salidas |
-| **Barrancabermeja** | Tablero distribución | 1 | 4 salidas |
+| **Barrancabermeja (Puerto)** | Tablero distribución | 1 | 4 salidas |
 | **Chiriguaná** | Tablero distribución | 1 | 6 salidas |
 
 #### **6.3 Tableros de Baja Tensión 480V**
@@ -212,7 +212,7 @@ Este documento presenta la **ingeniería eléctrica de detalle** para el sistema
 |:----------|:-----|:--------:|:--------------|
 | **La Dorada** | Tablero principal | 1 | 20 salidas |
 | **Puerto Berrío** | Tablero principal | 1 | 16 salidas |
-| **Barrancabermeja** | Tablero principal | 1 | 16 salidas |
+| **Barrancabermeja (Puerto)** | Tablero principal | 1 | 16 salidas |
 | **Chiriguaná** | Tablero principal | 1 | 20 salidas |
 | **Cada estación** | Tablero local | 8 | 12 salidas c/u |
 
@@ -227,7 +227,7 @@ Este documento presenta la **ingeniería eléctrica de detalle** para el sistema
 |:----------|:----------:|:----------|:--------------|
 | **La Dorada** | 420 | 3x500 MCM | Cargas principales |
 | **Puerto Berrío** | 380 | 3x400 MCM | Cargas principales |
-| **Barrancabermeja** | 380 | 3x400 MCM | Cargas principales |
+| **Barrancabermeja (Puerto)** | 380 | 3x400 MCM | Cargas principales |
 | **Chiriguaná** | 420 | 3x500 MCM | Cargas principales |
 
 #### **7.2 Distribución 220V**

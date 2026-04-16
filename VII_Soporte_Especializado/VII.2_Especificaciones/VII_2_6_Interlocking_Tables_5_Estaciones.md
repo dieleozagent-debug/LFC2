@@ -1,5 +1,5 @@
 # TABLAS DE ENCLAVAMIENTO VIRTUAL - Red Vital LFC
-## APP La Dorada-Chiriguaná - Lógica de Seguridad de Rutas
+## APP La Dorada (México) - Chiriguaná - Lógica de Seguridad de Rutas
 
 **Estado:** ✅ **SANEADO (MÉTODO KARPATHY)**  
 **Fecha:** 13 de marzo de 2026  

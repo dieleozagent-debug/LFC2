@@ -1,5 +1,5 @@
 # 📊 ESTRUCTURA COMPLETA - VISUAL RÁPIDO
-## Proyecto APP La Dorada-Chiriguaná
+## Proyecto APP La Dorada (México) - Chiriguaná
 
 ---
 

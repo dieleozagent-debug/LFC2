@@ -1,5 +1,5 @@
 # REVISIÓN EXHAUSTIVA SENIOR - INGENIERÍA BÁSICA Y DE DETALLE
-## APP La Dorada-Chiriguaná - Análisis Crítico de Especialista
+## APP La Dorada (México) - Chiriguaná - Análisis Crítico de Especialista
 
 **Estado:** ✅ **IMPLEMENTACIÓN INICIADA - ACCIONES CRÍTICAS EN PROGRESO**  
 **Fecha:** 27 de Enero, 2025  

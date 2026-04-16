@@ -2,7 +2,7 @@
 
 **Versión:** 1.0  
 **Fecha:** Enero 2025  
-**Proyecto Base:** APP La Dorada-Chiriguaná  
+**Proyecto Base:** APP La Dorada (México) - Chiriguaná  
 **Propósito:** Índice de templates validados para replicar metodología en nuevos proyectos
 
 ---
@@ -73,7 +73,7 @@
 - `TEMPLATE_T05_Estimacion_Costos.md` - Template T05
 
 ### Ejemplos de Uso:
-- Proyecto APP La Dorada-Chiriguaná (caso base)
+- Proyecto APP La Dorada (México) - Chiriguaná (caso base)
 - [Otros proyectos] (cuando estén disponibles)
 
 ---

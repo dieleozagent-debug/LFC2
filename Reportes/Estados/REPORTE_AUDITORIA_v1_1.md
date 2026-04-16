@@ -1,5 +1,5 @@
 # 📊 REPORTE DE AUDITORÍA DOCUMENTAL v1.1
-## APP LA DORADA-CHIRIGUANÁ - ANÁLISIS INTEGRAL
+## APP La Dorada (México) - Chiriguaná - ANÁLISIS INTEGRAL
 
 **Fecha de emisión:** 03 de octubre de 2025  
 **Responsable:** Administrador Contractual EPC  
@@ -11,7 +11,7 @@
 ## 1. 📋 RESUMEN EJECUTIVO
 
 ### 🎯 OBJETIVO DE LA AUDITORÍA
-Realizar un inventario completo de todos los documentos del proyecto APP La Dorada-Chiriguaná para:
+Realizar un inventario completo de todos los documentos del proyecto APP La Dorada (México) - Chiriguaná para:
 - Identificar el estado actual de la documentación
 - Detectar duplicidades y obsolescencia
 - Proponer estandarización de nomenclatura
@@ -461,7 +461,7 @@ DÍA │ ACTIVIDAD
 
 **Responsable de la auditoría:**  
 Administrador Contractual EPC  
-Proyecto APP La Dorada-Chiriguaná
+Proyecto APP La Dorada (México) - Chiriguaná
 
 **Documentos relacionados:**
 - CSV de auditoría: `Reportes/Estados/AUDITORIA_ARCHIVOS_v1.1.csv`

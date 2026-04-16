@@ -10,7 +10,7 @@
 ---
 
 ## 1. RESUMEN EJECUTIVO
-Este dictamen establece la validez de la **Red TETRA** como el único medio de comunicación inalámbrica habilitado para las funciones vitales de operación y mantenimiento. Se ratifica la obligación de cobertura del 100% en el corredor y se prohíbe el uso de redes de telefonía móvil comercial (4G/5G) como reemplazo de la Red Vital IP/TETRA para la transmisión de datos de señalización (PTC) o voz operativa.
+Este dictamen establece la validez de la **Red TETRA** como el único medio de comunicación inalámbrica habilitado para las funciones vitales de operación y mantenimiento. Se ratifica la obligación de cobertura del 100% en el corredor y se prohíbe el uso de redes de telefonía móvil comercial (4G/5G) como reemplazo de la Red Vital IP/TETRA para la transmisión de datos de senalización (PTC) o voz operativa.
 
 ---
 
@@ -33,7 +33,7 @@ El Apéndice Técnico 1 define el mandato de comunicaciones:
 *«Se implementará una **Red de Radio Digital TETRA** que garantice la cobertura total (Data Vital + Voz) a lo largo de los 526 km del corredor.»*
 
 **Interpretación Forense:** 
-El Verbo Rector es **"Garantizar la cobertura total"**. Puesto que el sistema de señalización PTC requiere un canal de datos determinista y seguro, la Red TETRA es el sistema primario de enlace inalámbrico. Se invalida cualquier diseño que pretenda reducir el número de estaciones base (37 sitios) basándose en una supuesta "cobertura suficiente" de operadores públicos, ya que estos no cumplen con los niveles de disponibilidad y seguridad exigidos por el SICC.
+El Verbo Rector es **"Garantizar la cobertura total"**. Puesto que el sistema de senalización PTC requiere un canal de datos determinista y seguro, la Red TETRA es el sistema primario de enlace inalámbrico. Se invalida cualquier diseno que pretenda reducir el número de estaciones base (37 sitios) basándose en una supuesta "cobertura suficiente" de operadores públicos, ya que estos no cumplen con los niveles de disponibilidad y seguridad exigidos por el SICC.
 
 ---
 

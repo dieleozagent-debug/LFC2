@@ -1,5 +1,5 @@
 # DICTAMEN DE VALIDACIÓN CONTRACTUAL: SUPRESIÓN DE HARDWARE EOT REDUNDANTE
-## Proyecto LFC2 - Metodología Punto 42 (v8.2 - Sueño Sustractivo)
+## Proyecto LFC2 - Metodología Punto 42 (v8.2 - Sueno Sustractivo)
 
 **Estatus:** ✅ VIGENTE  
 **Sistema:** Dispositivo de Fin de Tren (EOT - End of Train)  
@@ -11,7 +11,7 @@
 ---
 
 ## 1. RESUMEN EJECUTIVO
-Este dictamen establece la supresión del hardware físico **EOT (End of Train)** como un componente separado en el sistema de señalización. Se ratifica que las funciones de reporte de integridad y monitoreo de presión de aire deben ser integradas digitalmente en el ecosistema **SICC/OBC** de la locomotora. En una arquitectura de **PTC Virtual (Moving Block)**, la integridad de la cola del tren se gestiona mediante la "Cola Virtual" (GPS/Odometría), invalidando la necesidad de un dispositivo físico de alta latencia en el último vagón.
+Este dictamen establece la supresión del hardware físico **EOT (End of Train)** como un componente separado en el sistema de senalización. Se ratifica que las funciones de reporte de integridad y monitoreo de presión de aire deben ser integradas digitalmente en el ecosistema **SICC/OBC** de la locomotora. En una arquitectura de **PTC Virtual (Moving Block)**, la integridad de la cola del tren se gestiona mediante la "Cola Virtual" (GPS/Odometría), invalidando la necesidad de un dispositivo físico de alta latencia en el último vagón.
 
 ---
 

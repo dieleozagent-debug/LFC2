@@ -1,5 +1,5 @@
 # ESPECIALIDAD 05: INGENIERÍA AMBIENTAL - Documento Master v1.0
-## APP LA DORADA-CHIRIGUANÁ - ENTREGABLE CONSOLIDADO
+## APP La Dorada (México) - Chiriguaná - ENTREGABLE CONSOLIDADO
 
 **Fecha de consolidación:** Enero 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
@@ -133,7 +133,7 @@
 | **La Dorada** | Aire, ruido, vibraciones | Continuo | Estación principal |
 | **Chiriguaná** | Aire, ruido, vibraciones | Continuo | Estación secundaria |
 | **Puerto Berrío** | Aire, ruido | Continuo | Estación de línea |
-| **Barrancabermeja** | Aire, ruido | Continuo | Estación de línea |
+| **Barrancabermeja (Puerto)** | Aire, ruido | Continuo | Estación de línea |
 | **Bucaramanga** | Aire, ruido | Continuo | Estación de línea |
 
 ### **3.2 Especificaciones Básicas de Gestión de Residuos**
@@ -527,7 +527,7 @@
 
 ## ⚠️ ADVERTENCIAS LEGALES
 
-**Este documento consolidado es un entregable del proyecto APP La Dorada-Chiriguaná y contiene información técnica confidencial. Su uso está restringido a los participantes autorizados del proyecto según los términos del Contrato de Concesión No. 001 de 2025.**
+**Este documento consolidado es un entregable del proyecto APP La Dorada (México) - Chiriguaná y contiene información técnica confidencial. Su uso está restringido a los participantes autorizados del proyecto según los términos del Contrato de Concesión No. 001 de 2025.**
 
 **Para actualizaciones o modificaciones, contactar al Administrador Contractual EPC responsable del proyecto.**
 

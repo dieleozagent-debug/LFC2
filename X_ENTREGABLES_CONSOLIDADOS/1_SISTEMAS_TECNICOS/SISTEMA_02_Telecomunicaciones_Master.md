@@ -1,6 +1,6 @@
 ﻿# SISTEMA 02: TELECOMUNICACIONES - Documento Master v1.0
 
-**Proyecto:** APP La Dorada-Chiriguaná  
+**Proyecto:** APP La Dorada (México) - Chiriguaná  
 **Contrato:** No. 001 de 2025  
 **Fecha elaboración:** Enero 2025  
 **Responsable:** Administrador Contractual EPC  

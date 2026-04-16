@@ -1,5 +1,5 @@
 # ESPECIALIDAD 02: INGENIERÍA ELÉCTRICA - Documento Master v1.0
-## APP LA DORADA-CHIRIGUANÁ - ENTREGABLE CONSOLIDADO
+## APP La Dorada (México) - Chiriguaná - ENTREGABLE CONSOLIDADO
 
 **Fecha de consolidación:** Enero 2025  
 **Proyecto:** APP La Dorada - Chiriguaná  
@@ -231,7 +231,7 @@
 |:----------|:---------------|
 | **Capacidad** | 600 kVA |
 | **Combustible** | Diesel |
-| **Autonomía** | 8 horas |
+| **Autonomía** | 4 horas |
 | **Tiempo de arranque** | < 10 segundos |
 | **Tensión de salida** | 480 V AC, 3 fases |
 | **Frecuencia** | [ESTÁNDAR PROHIBIDO: FRECUENCIA FERROVIARIA NO APLICABLE] ± 0.5% |
@@ -511,7 +511,7 @@
 
 ## ⚠️ ADVERTENCIAS LEGALES
 
-**Este documento consolidado es un entregable del proyecto APP La Dorada-Chiriguaná y contiene información técnica confidencial. Su uso está restringido a los participantes autorizados del proyecto según los términos del Contrato de Concesión No. 001 de 2025.**
+**Este documento consolidado es un entregable del proyecto APP La Dorada (México) - Chiriguaná y contiene información técnica confidencial. Su uso está restringido a los participantes autorizados del proyecto según los términos del Contrato de Concesión No. 001 de 2025.**
 
 **Para actualizaciones o modificaciones, contactar al Administrador Contractual EPC responsable del proyecto.**
 

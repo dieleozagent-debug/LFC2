@@ -343,7 +343,7 @@ const WBS_CORE = {
             const desgloseData = [
                 ['DESGLOSE PRESUPUESTAL POR CAPÍTULOS - SICC v3.1'],
                 ['Fecha:', new Date().toLocaleDateString('es-CO')],
-                ['Proyecto: SICC - APP La Dorada-Chiriguaná'],
+                ['Proyecto: SICC - APP La Dorada (México) - Chiriguaná'],
                 [],
                 ['CAPÍTULO', 'CONCEPTO', 'SUMINISTROS', 'OBRA', 'SERVICIOS', 'CD', 'AIU/IVA', 'TOTAL COP', 'TOTAL USD']
             ];

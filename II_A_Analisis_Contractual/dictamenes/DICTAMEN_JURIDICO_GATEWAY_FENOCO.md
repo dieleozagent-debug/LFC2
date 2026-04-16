@@ -1,53 +1,43 @@
-# 🏛️ DICTAMEN JURÍDICO-TÉCNICO VINCULANTE: SICC-2026-001
-## OBJETO: Blindaje de CAPEX — Interoperabilidad FENOCO y Equipamiento Embarcado
+# DICTAMEN JURÍDICO-TÉCNICO: INTEROPERABILIDAD FENOCO Y EQUIPAMIENTO EMBARCADO
+## Proyecto LFC2 - Saneamiento Forense (Ground Truth)
 
-**De:** Dirección Jurídica y Técnica LFC  
-**Para:** Gerencia EPC / Dirección Contractual  
-**Referencia:** Contrato de Concesión APP No. 001 de 2025  
-**Estado:** MICHELIN CERTIFIED — NIVEL FORENSE ⚖️  
+**ESTADO:** PENDIENTE DE VALIDACIÓN HUMANA
+**FECHA:** 13 de abril de 2026
 
 ---
 
-### I. EXORDIO Y CRONOLOGÍA FATAL
-Para efectos de delimitar la exposición al riesgo sancionatorio, esta Dirección establece la línea de tiempo oficial e inamovible (Sección 3.8):
-- **Firma del Contrato:** 21 de abril de 2025.
+### I. EXORDIO Y CRONOLOGÍA DE PRECONSTRUCCIÓN
+Con el fin de delimitar la exposición al riesgo sancionatorio durante la fase de disenos, esta Dirección establece el marco temporal de referencia según la **Sección 3.8** del Contrato:
 - **Acta de Inicio:** 1 de agosto de 2025.
-- **Vencimiento Fase Preconstrucción:** **1 de noviembre de 2026**.
-Cualquier demora en la definición de alcances por disputas técnicas con terceros no exime al Concesionario del cumplimiento de los hitos (Sección 3.9.a.xii). Por ende, se emite este dictamen para zanjar la inversión inmediata.
+- **Duración Estimada Fase Preconstrucción:** Quince (15) meses.
+- Se proyecta la finalización de esta fase para finales de 2026, sujeta a los mecanismos de modificación de plazos previstos en el Contrato.
 
 ---
 
-### II. EL JAQUE MATE JURÍDICO: ORDEN DE PRELACIÓN (SEC 1.2-d)
-Ante cualquier duda basada en respuestas de la ANI durante la licitación (Q&A/SECOP), este despacho dictamina la aplicación estricta de la **Jerarquía Documental**:
-1. **Nivel 1:** Contrato de Concesión (Documento Principal).
-2. **Nivel 2:** Apéndice Técnico 1 (AT1).
+### II. JERARQUÍA DOCUMENTAL Y PRELACIÓN (SEC 1.2-d)
+Ante cualquier ambigüedad en los alcances técnicos definidos durante la etapa de licitación, prevalece el orden de prelación establecido en la **Sección 1.2.d** del Contrato:
+1. Documento Principal del Contrato.
+2. Apéndice Técnico 1 (AT1).
 ...
-16. **Nivel 16:** Pliego de Condiciones, adendas y respuestas a observaciones (Q&A).
-
-**DIRECCIÓN:** Lo estipulado en los Niveles 1 y 2 **aplasta jurídicamente** cualquier respuesta de Nivel 16. LFC no puede evadir obligaciones de Nivel 1 invocando el Nivel 16 (Sección 1.2.d).
+Cualquier interpretación técnica debe anclarse prioritariamente en estos niveles antes de recurrir a documentos secundarios o respuestas a observaciones (Q&A).
 
 ---
 
-### III. DETERMINACIÓN TAXATIVA DE CAPEX
+### III. DEFINICIÓN DE ALCANCES Y CAPEX
 
-#### 1. Obligación Ineludible: Equipamiento Embarcado (~2.5 MM USD)
-LFC está obligada a adquirir e instalar el hardware dual a bordo (Radios, DMI, Controladoras) para cumplir con la **Puesta a Punto (Sección 2.201)** y el **AT1 Capítulo I literal (d)**.
-- **Fundamento:** El Apéndice Financiero 4 contempla expresamente la amortización de la locomotora "incluyendo el respectivo equipo embarcado". Negar esta compra es una confesión de incumplimiento a la Debida Diligencia (Sec 3.9).
-- **Acción:** Liberar CAPEX para equipos "Handover Digital (Digital Gateway)".
+#### 1. Equipamiento Embarcado
+LFC reafirma su obligación de dotar al material rodante con el equipamiento necesario para la operación segura y la interfaz de senalización conforme al **AT1 Capítulo I** y la **Sección 2.201 (Puesta a Punto)**. Los costos asociados al hardware embarcado (Radios, Controladoras, DMI) forman parte del Capex de inversión del Concesionario.
 
-#### 2. Exclusión de Responsabilidad: Gateway Alstom (~25 MM USD)
-La construcción de una pasarela de software hacia el ITCS de FENOCO **no es parte del alcance**.
-- **Fundamento:** Según la **Sección 25.4 (Obras y Equipos Complementarios)**, al ser un requerimiento de un tercero que altera el estándar FRA exigido (AT1 Tabla 17), el costo debe ser asumido por la ANI mediante modificación de especificaciones (Sección 9.12.b).
-- **Acción:** Rechazo oficial de integración lógica.
+#### 2. Interoperabilidad Lógica (Gateways)
+Respecto a la integración sistémica con terceros operadores:
+- La interoperabilidad debe garantizarse conforme a la **Resolución de Surcos (Sección 2.209)** y el proceso de **compatibilidad del Material Rodante (Sección 12.3)**.
+- Si los requerimientos de interoperabilidad exceden los estándares técnicos o el objeto inicial definido en el **AT1 (Tabla 17 - Estándares FRA/AREMA)**, se deberá tramitar bajo el procedimiento de **Obras y Equipos Complementarios (Sección 25.4)** o **Modificaciones (Sección 9.12)**, buscando la neutralidad presupuestal para el Concesionario mediante el acuerdo con la ANI.
 
 ---
 
-### IV. VEREDICTO FINAL
-La interoperabilidad se satisface mediante **Procedimiento Operacional** en frontera (Chiriguaná PK 722+683). LFC asume el hardware del tren; la ANI asume cualquier software de integración.
-
-**Certificación Michelin v6.5:**
-🛡️ **AUDITOR FORENSE:** *Certificado. Inferencia basada en Sec 1.2-d y 2.201.*
-🛡️ **ESTRATEGA SICC:** *Veredicto. Blindaje de 25M USD confirmado vía Sec 25.4.*
+### IV. CONCLUSIÓN
+La interoperabilidad en la frontera técnica de Chiriguaná se gestionará mediante la combinación de hardware embarcado certificado y protocolos operacionales de transferencia, priorizando la seguridad Fail-Safe del sistema SICC.
 
 ---
-*Documento vinculado al manual de operación de ingeniería. Ninguna especialidad podrá contradecir esta jerarquía.*
+**Institucionalizado para la Dirección Técnica y Jurídica LFC.**  
+*Avalado por la Dirección Contractual LFC.*

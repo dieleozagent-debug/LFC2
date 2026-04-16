@@ -24,7 +24,7 @@
 ---
  
 
-## DESCRIPCIÓN DEL DOCUMENTO **Apéndice Técnico 3** Este apéndice técnico contiene las especificaciones técnicas y procedimientos para el componente 3 del proyecto Corredor Férreo La Dorada-Chiriguaná. 
+## DESCRIPCIÓN DEL DOCUMENTO **Apéndice Técnico 3** Este apéndice técnico contiene las especificaciones técnicas y procedimientos para el componente 3 del proyecto Corredor Férreo La Dorada (México) - Chiriguaná. 
 ---
  
 
@@ -429,7 +429,7 @@ Libertad y Orden # REPÚBLICA DE COLOMBIA MINISTERIO DE TRANSPORTE
 802.ld: Spanning-Tree Protocol. IEEE 
 802.lw: Rapid Spanning- Tree Protocol. (f) IEEE 
 802.3af: Power over Ethernet (PoE). (g) IEEE 
-802. lx: autenticación de acceso a la red. International Electro Technical Commission (IEC) (a) IEC-62381 Automation systems in the process industry - Factory acceptance test (FAT), site acceptance test (SAT), and site integration test (SIT). (b) IEC 60529 Degrees of protection provided by enclosures (IP Code). (c) IEC 61000 Electromagnetic compatibility (EMC) (d) Norma ICONTEC NTC-2050: Código Eléctrico Nacional. (e) RETIE: Reglamento Técnico de Instalaciones Eléctricas - Normas ICONTEC, para la construcción y fabricación de materiales y equipos. (f) Inmunidad EMC CISPR22 (Acreditación DoC) Limits and methods of measurement ofradio interference characteristics field requirements. 
+802. lx: autenticación de acceso a la red. International Electro Technical Commission (IEC) (a) IEC-62381 Automation systems in the process industry - Factory acceptance test (FAT), site acceptance test (SAT), and site integration test (SIT). (b) IEC 60529 Degrees of protection provided by enclosures (IP Code). (c) IEC 61000 Electromagnetic compatibility (EMC) (d) Norma ICONTEC NTC-2050: Código Eléctrico Nacional. (e) RETIE: Reglamento Técnico de Instalaciones Eléctricas - Normas ICONTEC, para la construcción y fabricación de materiales y equipos. (f) Inmunidad EMC Inmunidad EMC CISPR22 (Acreditación DoC) (Acreditación DoC) Limits and methods of measurement ofradio interference characteristics field requirements. 
 ---
  
 
@@ -477,7 +477,7 @@ Libertad y Orden # REPÚBLICA DE COLOMBIA MINISTERIO DE TRANSPORTE
 1. IEEE 
 802.lw: Rapid Spanning- Tree Protocol. (f) IEEE 
 802.3af: Power over Ethernet (PoE). (g) IEEE 
-802. lx: autenticación de acceso a la red. (h) Norma ICONTEC NTC - 2050: Código Eléctrico Nacional Colombiano. (i) RETIE: Reglamento Técnico de Instalaciones Eléctricas - Normas ICONTEC, para la construcción y fabricación de materiales y equipos. G) USA (NEC): en caso de existir vacíos en lo referente a aspectos particulares en las normas locales (k) Inmunidad EMC CISPR22 (Acreditación DoC) Limits and methods of measurement of radio interference characteristics field requirements. (1) Inmunidad EMC CISPR24 (Acreditación DoC) lnformation Technology Equipment-Immunity characteristics- Limits and Methods of Measurement. European Standards (EN) (a) UNE- EN Alarm systems - Part 4: Electromagnetic. (b) 50130 compatibility. Product family standard: Immunity requirements for components of fire, intruder, hold up, CCTV, access control and social alarm systems. (e) UNE-EN Alarm systems - Access control systems for use in 50133 in security applications - Part 1: System requirements. 
+802. lx: autenticación de acceso a la red. (h) Norma ICONTEC NTC - 2050: Código Eléctrico Nacional Colombiano. (i) RETIE: Reglamento Técnico de Instalaciones Eléctricas - Normas ICONTEC, para la construcción y fabricación de materiales y equipos. G) USA (NEC): en caso de existir vacíos en lo referente a aspectos particulares en las normas locales (k) Inmunidad EMC Inmunidad EMC CISPR22 (Acreditación DoC) (Acreditación DoC) Limits and methods of measurement of radio interference characteristics field requirements. (1) Inmunidad EMC Inmunidad EMC CISPR24 (Acreditación DoC) (Acreditación DoC) lnformation Technology Equipment-Immunity characteristics- Limits and Methods of Measurement. European Standards (EN) (a) UNE- EN Alarm systems - Part 4: Electromagnetic. (b) 50130 compatibility. Product family standard: Immunity requirements for components of fire, intruder, hold up, CCTV, access control and social alarm systems. (e) UNE-EN Alarm systems - Access control systems for use in 50133 in security applications - Part 1: System requirements. 
 
 ##
 
