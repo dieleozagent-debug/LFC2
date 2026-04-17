@@ -1,0 +1,84 @@
+# DECISIÓN TÉCNICA SICC-2026-003
+
+**PARA:** Gerencia de Ingeniería / Interventoría  
+**DE:** Gerencia EPC / Dirección Técnica LFC  
+**FECHA:** 09 de abril de 2026  
+**ASUNTO:** Adopción de la Norma Unificada Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP) para el Software Ferroviario
+
+---
+
+## 1. ANTECEDENTES TÉCNICOS
+
+El proyecto Corredor Férreo La Dorada-Chiriguaná ha adoptado una arquitectura de **Sistemas de Control Positivo de Trenes (PTC)** tipo virtual, fundamentada en la inteligencia y el control embarcado (*Onboard*). 
+
+Tradicionalmente, la industria ha utilizado la norma **Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP) (Estándar Soberano Michelin v7.0)** para la seguridad funcional del software. No obstante, el alcance de dicha norma se restringe histórica y técnicamente a los sistemas de infraestructura lateral (*Wayside*), dejando fuera del marco de certificación el software crítico que reside en el material rodante.
+
+---
+
+## 2. JUSTIFICACIÓN DEL CAMBIO NORMATIVO
+
+La aplicación de la **Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP) (Estándar Soberano Michelin v7.0)** en este proyecto genera una **incompatibilidad sistémica**:
+1.  **Fragmentación del Dossier de Seguridad:** Obligaría a generar *Safety Cases* separados e inconexos para la vía y el tren, imposibilitando una certificación de integridad total del sistema Moving Block.
+2.  **Riesgo de Sobredimensionamiento (CAPEX):** Los vacíos de certificación en el software embarcado bajo la 50128 podrían ser utilizados por la Interventoría para exigir injustificadamente la instalación de hardware físico en la vía (*balizas pasivas, senales*) para "cubrir" la seguridad.
+3.  **Modernización y Unificación:** La **Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP):2023** es la norma sucesora y unificada que cubre todo el ciclo de vida del software ferroviario, tanto para aplicaciones de vía como de a bordo, bajo un mismo estándar de rigor y auditoría.
+
+---
+
+## 3. DECISIÓN FORMAL
+
+Este Concesionario, basado en la facultad otorgada por los Apéndices Técnicos para adoptar normas de "característica similar siempre que sean técnicamente válidas", establece:
+
+1.  **Adopción Obligatoria:** Se adopta la **Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP)** (o sus versiones vigentes) como el estándar soberano para la validación y certificación de TODO el software relacionado con la seguridad funcional del proyecto.
+2.  **Invalidación de Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP) (Estándar Soberano Michelin v7.0):** La norma Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP) (Estándar Soberano Michelin v7.0) queda excluida del marco de cumplimiento por ser insuficiente para la arquitectura PTC Virtual aprobada en el DBCD V002.
+
+---
+
+**Vo.Bo.**  
+Jaime Coronado (Gerencia EPC)  
+*Dirección Técnica SICC*
+
+---
+
+## 10. INSTRUCCIONES PARA CURSOR / MASTERCHEF (YAML)
+
+```yaml
+dt_metadata:
+  id: "DT-SICC-2026-003"
+  fecha: "2026-04-09"
+  item_wbs: "SISTEMA_01"
+  estado: "pendiente_ejecucion"
+
+archivos_actualizar:
+  - file: "III_Ingenieria_conceptual/DBCD_CRITERIA.md"
+    accion: "actualizar"
+    seccion: "Aumentar Niveles de Seguridad (RAMS)"
+    cambios:
+      - campo: "norma_software"
+        buscar: "Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP) (Estándar Soberano Michelin v7.0)"
+        reemplazar: "Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP) (Unificación Onboard/Wayside)"
+        pertenencia: "SICC Soberano"
+
+  - file: "IX_WBS_Planificacion/lfc-terminology.js"
+    accion: "actualizar"
+    seccion: "CORRECTION_MAP"
+    cambios:
+      - campo: "mapeo_norma"
+        buscar: '"Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP) (Estándar Soberano Michelin v7.0)": "Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP) (Certificación Unificada)"'
+        reemplazar: '"Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP) (Estándar Soberano Michelin v7.0)": "Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP) (Estándar Soberano Michelin v7.0)"'
+
+validaciones:
+  - backup_antes_modificar: true
+  - validar_normas_aplicables: ["Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP):2023"]
+```
+
+---
+
+## 11. ESTADO DE APROBACIÓN
+- [X] Dirección Jurídica (SICC)
+- [X] Dirección Técnica (LFC)
+- [ ] Interventoría (En Trámite)
+
+---
+
+## 12. LOG DE EJECUCIÓN
+- [x] **[2026-04-09]** Ejecución exitosa. Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP) (Estándar Soberano Michelin v7.0) purgada; Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP) inyectada como estándar soberano en todos los niveles.
