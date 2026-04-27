@@ -230,7 +230,7 @@ Las 37 estaciones de telecomunicaciones están ubicadas estratégicamente a lo l
 |:---|:----------|:------------|:-------------|:-----------|:-------|
 | **PK 0** | La Dorada | 5.45°N, 74.66°W | 40m | Arcilloso | Fácil |
 | **PK 80** | Puerto Berrío | 6.49°N, 74.41°W | 40m | Arcilloso | Fácil |
-| **PK 160** | Barrancabermeja (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) | 7.06°N, 73.85°W | 40m | Arcilloso | Fácil |
+| **PK 160** | Barrancabermeja (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) | 7.06°N, 73.85°W | 40m | Arcilloso | Fácil |
 | **PK 240** | Bucaramanga | 7.12°N, 73.12°W | 40m | Rocoso | Moderado |
 | **PK 320** | Chiriguaná | 9.36°N, 73.60°W | 40m | Arcilloso | Fácil |
 | **PK 40** | Intermedio | 5.8°N, 74.5°W | 40m | Arcilloso | Fácil |

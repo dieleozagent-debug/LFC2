@@ -14,7 +14,7 @@ El Sistema de ITS y Seguridad es el **"sistema de vigilancia y protección"** de
 - **48 cámaras PAN:** 2 cámaras por paso a nivel × 24 pasos a nivel intervenidos
 - **12 cámaras talleres:** 4 talleres × 3 cámaras por taller (entrada, área trabajo, salida)
 - **8 cámaras CCO:** 2 por nivel × 4 niveles (recepción, operaciones, técnico, acceso)
-- **5 cámaras estaciones:** 1 por estación principal (La Dorada, Puerto Berrío, Barrancabermeja (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto), Bucaramanga, Chiriguaná)
+- **5 cámaras estaciones:** 1 por estación principal (La Dorada, Puerto Berrío, Barrancabermeja (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto), Bucaramanga, Chiriguaná)
 - **15 sistemas ITS:** Gestión de tráfico, información al usuario, monitoreo ambiental
 - **8 sistemas de control de accesos:** CCO, talleres, estaciones principales
 - **Cobertura:** 100% del corredor + instalaciones críticas

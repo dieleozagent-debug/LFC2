@@ -56,7 +56,7 @@ Este documento define el **"alcance y objetivos"** del proyecto APP La Dorada (M
 
 ### ¿Por qué 5 estaciones ENCE?
 **Justificación de Operación:**
-- **Estaciones críticas:** Zapatosa, García Cadena, Barrancabermeja (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto), Puerto Berrío-Grecia, La Dorada-México
+- **Estaciones críticas:** Zapatosa, García Cadena, Barrancabermeja (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto), Puerto Berrío-Grecia, La Dorada-México
 - **Maniobras complejas:** Requieren enclavamientos electrónicos
 - **Seguridad:** Control centralizado de maniobras
 - **Eficiencia:** Optimización de operaciones

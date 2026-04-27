@@ -12,10 +12,10 @@ El Sistema de Control y Senalización es el **"cerebro" del ferrocarril** que pe
 - **Inversión estimada:** $65,000 millones COP
 - **1 CTC Virtual:** Control centralizado desde CCO La Dorada (Km 0+000) con redundancia N+1
 - **8 PTC Embarcados:** PTC Virtual (FRA 236 / AREMA) (reducido de 15 a 8 con DT-TETRA-001)
-- **5 ENCE:** Enclavamientos electrónicos en estaciones críticas (La Dorada, Puerto Berrío, Barrancabermeja (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto), Bucaramanga, Chiriguaná)
+- **5 ENCE:** Enclavamientos electrónicos en estaciones críticas (La Dorada, Puerto Berrío, Barrancabermeja (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto), Bucaramanga, Chiriguaná)
 - **120 desvíos:** Control automatizado de todos los desvíos en vía principal
 - **1 Bloque Integración:** IF-07 agregada (DT-INTERFACES-001) para integración CTC-PTC-FENOCO (Interoperabilidad FRA 918-4)
-- **Cobertura:** 100% del corredor con filosofía virtual (Soberanía FRA/AREMA 2021 2021 2021 2021 2021 2021 - Sin Filosofía PTC Virtual)
+- **Cobertura:** 100% del corredor con filosofía virtual (Soberanía FRA/AREMA 2021 2021 2021 2021 2021 2021 2021 2021 - Sin Filosofía PTC Virtual)
 - **Disponibilidad requerida:** 99.95% (sistema crítico según estándares Seguridad RAMS bajo FRA 236 Subpart I / PTCSP)
 
 ### Hitos críticos
@@ -60,7 +60,7 @@ El Sistema de Control y Senalización es el **"cerebro" del ferrocarril** que pe
 
 ### ¿Por qué 5 ENCE (no más, no menos)?
 **Justificación de Ubicaciones:**
-- **Estaciones críticas:** La Dorada, Puerto Berrío, Barrancabermeja (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto), Bucaramanga, Chiriguaná
+- **Estaciones críticas:** La Dorada, Puerto Berrío, Barrancabermeja (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto), Bucaramanga, Chiriguaná
 - **Criterio de selección:** Estaciones principales con maniobras complejas
 - **Funcionalidad:** Enclavamientos electrónicos para protección de maniobras
 - **Cálculo:** Solo estaciones con conflictos de rutas requieren ENCE
@@ -188,9 +188,9 @@ El Sistema de Control y Senalización proporciona **control centralizado** de to
 | Disponibilidad CTC | 99.95% | Seguridad RAMS bajo FRA 236 Subpart I / PTCSP |
 | Disponibilidad PTC | 99.95% | Seguridad RAMS bajo FRA 236 Subpart I / PTCSP |
 | Disponibilidad ENCE | 99.95% | Seguridad RAMS bajo FRA 236 Subpart I / PTCSP |
-| Tiempo de respuesta | < 2 segundos | FRA/AREMA 2021 2021 2021 2021 2021 2021 920-2 |
+| Tiempo de respuesta | < 2 segundos | FRA/AREMA 2021 2021 2021 2021 2021 2021 2021 2021 920-2 |
 | Tiempo de recuperación | < 5 minutos | Seguridad RAMS bajo FRA 236 Subpart I / PTCSP |
-| Cobertura de comunicación | 100% | FRA/AREMA 2021 2021 2021 2021 2021 2021 920-2 |
+| Cobertura de comunicación | 100% | FRA/AREMA 2021 2021 2021 2021 2021 2021 2021 2021 920-2 |
 
 ### Criterios de aceptación
 - ✅ Disponibilidad 99.95% del sistema completo
@@ -212,7 +212,7 @@ El sistema se despliega desde el Centro de Control Operativo (CCO) en La Dorada,
 | CCO La Dorada | CTC Virtual, Consolas, Videowall | 5.45°N, 74.66°W | ✅ Operativo |
 | Estación La Dorada | ENCE, Desvíos | 5.45°N, 74.66°W | ✅ Operativo |
 | Estación Puerto Berrío | ENCE, Desvíos | 6.49°N, 74.41°W | ✅ Operativo |
-| Estación Barrancabermeja (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) | ENCE, Desvíos | 7.06°N, 73.85°W | ✅ Operativo |
+| Estación Barrancabermeja (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) | ENCE, Desvíos | 7.06°N, 73.85°W | ✅ Operativo |
 | Estación Bucaramanga | ENCE, Desvíos | 7.12°N, 73.12°W | ✅ Operativo |
 | Estación Chiriguaná | ENCE, Desvíos | 9.36°N, 73.60°W | ✅ Operativo |
 
@@ -265,12 +265,12 @@ El sistema opera 24/7 proporcionando control centralizado de todo el tráfico fe
 - **Gateways industriales:** Conversión de protocolos entre sistemas heterogéneos (CTC↔PTC↔FENOCO)
 - **Switches de borde ferroviario:** Segmentación de red por subsistema
 - **Firewalls IEC 62443:** Ciberseguridad industrial (Security Level SL-3)
-- **Middleware interoperabilidad:** Protocolo FRA/AREMA 2021 2021 2021 2021 2021 2021 918-4 para integración con FENOCO
+- **Middleware interoperabilidad:** Protocolo FRA/AREMA 2021 2021 2021 2021 2021 2021 2021 2021 918-4 para integración con FENOCO
 - **Licencias software SCADA:** Gestión de comunicaciones y visualización
 
 **Interfaces que soporta:**
 1. **CTC ↔ PTC Virtual Nivel 2:** Intercambio de telegramas de movimiento y datos de ocupación desde Servidor PTC Central (Non-propietary).
-2. **CTC ↔ FENOCO:** Gateway FRA/AREMA 2021 2021 2021 2021 2021 2021 con protocolo 918-4 para interoperabilidad
+2. **CTC ↔ FENOCO:** Gateway FRA/AREMA 2021 2021 2021 2021 2021 2021 2021 2021 con protocolo 918-4 para interoperabilidad
 3. **CTC ↔ TETRA:** Canal de voz y datos para comunicaciones tren-tierra
 4. **CTC ↔ Fibra Óptica:** Backbone redundante N+1 del corredor (526 km)
 5. **CTC ↔ Sistemas ITS:** CCTV (73 cámaras), control acceso, detección intrusión

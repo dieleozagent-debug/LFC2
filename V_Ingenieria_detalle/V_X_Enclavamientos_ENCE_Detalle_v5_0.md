@@ -26,7 +26,7 @@ El diseno de los Enclavamientos Electrónicos (ENCE) se limita al control de des
 
 | Función | Lógica SICC | Estado SICC |
 |:---|:---|:---:|
-| **Enclavamiento** | Vital IP / 2oo3 | ✅ RESTAURADO |
+| **Enclavamiento** | Vital IP / 2oo3 (SIL-4) | ✅ RESTAURADO |
 | **Detección de Vía**| **REPORTE GNSS VITAL** | ✅ RESTAURADO |
 | **Interoperatividad**| API FRA/AREMA | ✅ RESTAURADO |
 | **Protocolo** | **CERO Handover Digital (SICC Interoperability Gateway)** | ✅ SANEADO |

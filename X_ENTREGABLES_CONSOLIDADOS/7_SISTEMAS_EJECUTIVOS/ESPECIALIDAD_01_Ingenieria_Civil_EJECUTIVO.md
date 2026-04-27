@@ -177,7 +177,7 @@ El corredor ferroviario se extiende 526.133 km entre La Dorada (Caldas) y Chirig
 |:-------------|:---------|:--------|:----------|:--------------|
 | **Caldas** | 45 km | 3 | 1 | CCO La Dorada |
 | **Antioquia** | 180 km | 8 | 2 | Estación Puerto Berrío |
-| **Santander** | 150 km | 6 | 1 | Estación Barrancabermeja (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) |
+| **Santander** | 150 km | 6 | 1 | Estación Barrancabermeja (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) |
 | **Norte de Santander** | 100 km | 4 | 1 | Estación Bucaramanga |
 | **Cesar** | 51 km | 4 | 0 | Estación Chiriguaná |
 
