@@ -5,9 +5,11 @@
 
 ---
 
-## 📋 RESUMEN EJECUTIVO (SICC v14.0)
+## 📋 RESUMEN EJECUTIVO (SICC v14.0 - Masterchef Edition)
 
-Este documento describe **cómo está estructurada la arquitectura** del sistema WBS Interactivo y el pipeline forense SICC. Se ha integrado el **Cerebro Superior DeepSeek** como motor de razonamiento final y el comando **`/promote`** para el despliegue automatizado de Decisiones Técnicas (DT) certificadas hacia el repositorio público y Vercel.
+Este documento describe la **infraestructura técnica de ingeniería** del proyecto. El sistema ha evolucionado de un modelo basado en scripts aislados a un **Pipeline de Saneamiento Masivo** orquestado por el **Agente SICC (Cerebro)**. La verdad técnica fluye desde el dictamen forense hasta el plato servido en Vercel.
+
+**Referencia Cruzada al Cerebro:** Para la lógica de auditoría, RAG y Juez Forense, consultar [agente/architecture.md](file:///home/administrador/docker/agente/architecture.md).
 
 ---
 
@@ -137,23 +139,19 @@ Solución: YAML debe indicar sección en V.X a modificar
 └─────────────────────────────────────────────────────────────────┘
         ↓
 ┌─────────────────────────────────────────────────────────────────┐
-│  CAPA 2: TRANSFORMACIÓN (Procesamiento)                         │
+│  CAPA 2: TRANSFORMACIÓN (El Cocinero - lfc-cli.js)               │
 ├─────────────────────────────────────────────────────────────────┤
-│  Scripts PowerShell: scripts/                                    │
+│  Motor Node.js (Linux): scripts/lfc-cli.js                       │
 │                                                                  │
-│  1. sync_wbs_simple.ps1 ✅ NUEVO                                │
-│     └─ Lee Excel → Actualiza JSON/JS/MD                         │
+│  1. process-dts ✅ ACTIVO                                        │
+│     └─ Lee YAML de Section 10 → Parchea Recetas (.md)           │
 │                                                                  │
-│  2. sincronizar_TODO_MEJORADO.ps1                               │
-│     └─ Lee WBS_Presupuestal_v2.0.md                             │
-│     └─ Genera datos_wbs_TODOS_items.json                        │
-│     └─ Genera .js para HTML                                     │
-│     └─ Incrementa versión HTML (cache bust)                     │
+│  2. sync ✅ ACTIVO                                               │
+│     └─ Lee WBS_Presupuestal_v2.0.md → Genera datos_wbs.js       │
+│     └─ Actualiza el Menú y Métricas del Dashboard               │
 │                                                                  │
-│  3. gestionar_riesgos.ps1                                        │
-│     └─ Lee riesgos desde terminal                               │
-│     └─ Actualiza MATRIZ_RIESGOS_PMO_AMPLIADA.md                 │
-│     └─ Genera riesgos_proyecto.js                               │
+│  3. cook ✅ ACTIVO                                               │
+│     └─ MD → HTML (Pandoc) → Inyección de Insignias Michelin     │
 └─────────────────────────────────────────────────────────────────┘
         ↓
 ┌─────────────────────────────────────────────────────────────────┐
