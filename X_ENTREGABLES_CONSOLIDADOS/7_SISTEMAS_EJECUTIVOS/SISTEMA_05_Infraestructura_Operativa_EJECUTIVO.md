@@ -11,7 +11,7 @@ El Sistema de Infraestructura Operativa es la **"base física"** del ferrocarril
 ### Alcance en números - JUSTIFICACIÓN TÉCNICA
 - **Inversión estimada:** $65,000 millones COP
 - **1 CCO:** Centro de Control Operativo en La Dorada (250 m² sala control + 200 m² sala servidores)
-- **5 estaciones ENCE:** Zapatosa, García Cadena, Barrancabermeja (Puerto) (Puerto) (Puerto), Puerto Berrío-Grecia, La Dorada-México
+- **5 estaciones ENCE:** Zapatosa, García Cadena, Barrancabermeja (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto), Puerto Berrío-Grecia, La Dorada-México
 - **12 subestaciones:** 4 principales + 8 de distribución para alimentación eléctrica
 - **37 estaciones telecomunicaciones:** Torres TETRA/Red Vital IP / TETRA colocalizadas
 - **Infraestructura civil:** Edificaciones, puentes, 146 pasos a nivel, drenaje
@@ -44,7 +44,7 @@ El Sistema de Infraestructura Operativa es la **"base física"** del ferrocarril
 |:---------|:----------|:-----|:--------------|
 | **Zapatosa** | Zapatosa | 200 m² | Estación principal con maniobras complejas |
 | **García Cadena** | García Cadena | 200 m² | Estación principal con maniobras complejas |
-| **Barrancabermeja (Puerto) (Puerto) (Puerto)** | Barrancabermeja (Puerto) (Puerto) (Puerto) | 300 m² | Estación principal con maniobras complejas |
+| **Barrancabermeja (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto)** | Barrancabermeja (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) | 300 m² | Estación principal con maniobras complejas |
 | **Puerto Berrío-Grecia** | Puerto Berrío | 250 m² | Estación principal con maniobras complejas |
 | **La Dorada-México** | La Dorada | 300 m² | Estación principal con maniobras complejas |
 
@@ -52,7 +52,7 @@ El Sistema de Infraestructura Operativa es la **"base física"** del ferrocarril
 
 ### ¿Por qué 12 subestaciones (4 principales + 8 distribución)?
 **Justificación de Distribución:**
-- **4 subestaciones principales:** La Dorada, Puerto Berrío, Barrancabermeja (Puerto) (Puerto) (Puerto), Chiriguaná
+- **4 subestaciones principales:** La Dorada, Puerto Berrío, Barrancabermeja (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto), Chiriguaná
   - **Justificación:** Puntos principales de transformación y distribución
   - **Capacidad:** Transformación de alta tensión a media tensión
 - **8 subestaciones de distribución:** Ubicaciones intermedias
@@ -141,7 +141,7 @@ El Sistema de Infraestructura Operativa proporciona **soporte físico** para la 
 **Componentes instalados:**
 | Componente | Cantidad | Ubicación | Estado |
 |:-----------|:---------|:----------|:-------|
-| Estaciones principales | 5 unidades | La Dorada, Puerto Berrío, Barrancabermeja (Puerto) (Puerto) (Puerto), Bucaramanga, Chiriguaná | ⏳ En construcción |
+| Estaciones principales | 5 unidades | La Dorada, Puerto Berrío, Barrancabermeja (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto), Bucaramanga, Chiriguaná | ⏳ En construcción |
 | Estaciones secundarias | 32 unidades | Ubicaciones intermedias | ⏳ En construcción |
 | Andenes | 74 unidades | En todas las estaciones | ⏳ En construcción |
 | Edificios de estación | 37 unidades | Servicios y oficinas | ⏳ En construcción |
@@ -211,7 +211,7 @@ La infraestructura operativa se despliega a lo largo del corredor de 526 km, con
 | CCO La Dorada | Centro de control, oficinas, servicios | 500 operadores | ⏳ En construcción |
 | Estación La Dorada | Estación principal, servicios | 100 usuarios | ⏳ En construcción |
 | Estación Puerto Berrío | Estación principal, servicios | 100 usuarios | ⏳ En construcción |
-| Estación Barrancabermeja (Puerto) (Puerto) (Puerto) | Estación principal, servicios | 100 usuarios | ⏳ En construcción |
+| Estación Barrancabermeja (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) | Estación principal, servicios | 100 usuarios | ⏳ En construcción |
 | Estación Bucaramanga | Estación principal, servicios | 100 usuarios | ⏳ En construcción |
 | Estación Chiriguaná | Estación principal, servicios | 100 usuarios | ⏳ En construcción |
 

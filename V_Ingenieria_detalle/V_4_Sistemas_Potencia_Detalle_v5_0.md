@@ -17,7 +17,7 @@ La potencia de detalle se dimensiona para garantizar la autonomía total del **S
 - **CCO La Dorada:** Infraestructura de potencia para el Servidor Maestro SICC y el sistema de despacho, eliminando dependencias de servidores externos.
 
 ### 1.2 Respaldo y Autonomía:
-- **Bancos de Baterías Litio-Ferrofosfato:** Autonomía de 12 horas para equipos vitales.
+- **Bancos de Baterías Litio-Ferrofosfato:** Autonomía de 4h (Red) / 48h (Solar) con LiFePO4 para equipos vitales.
 - **Generadores Diésel de Emergencia:** Ubicados en los 5 centros estratégicos para respaldo total en caso de falla de la red nacional.
 
 ---

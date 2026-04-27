@@ -350,7 +350,7 @@ Este documento especifica los requerimientos eléctricos del Centro de Control d
 #### **7.3.3 Sistema de Baterías**
 | Parámetro | Especificación |
 |:----------|:---------------|
-| **Tipo** | Baterías de plomo-ácido selladas |
+| **Tipo** | Litio-Ferrofosfato (LiFePO4) de alta densidad |
 | **Capacidad** | 1500 Ah |
 | **Tensión** | 480 V DC |
 | **Autonomía** | 15 minutos |

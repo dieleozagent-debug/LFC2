@@ -164,7 +164,7 @@ El Sistema de Material Rodante proporciona **capacidad de transporte** para el c
 |:-----------|:---------|:----------|:-------|
 | Taller principal | 1 unidad | La Dorada | ✅ Operativo |
 | Taller secundario | 1 unidad | Chiriguaná | ✅ Operativo |
-| Talleres de línea | 3 unidades | Puerto Berrío, Barrancabermeja (Puerto) (Puerto) (Puerto), Bucaramanga | ✅ Operativos |
+| Talleres de línea | 3 unidades | Puerto Berrío, Barrancabermeja (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto), Bucaramanga | ✅ Operativos |
 | Equipos de mantenimiento | 50 unidades | Todos los talleres | ✅ Disponibles |
 
 **Estado general:** 🟢 En cronograma
@@ -203,7 +203,7 @@ El material rodante opera a lo largo del corredor de 526 km, con talleres ubicad
 | Taller La Dorada | Mantenimiento principal | 150m x 30m | ✅ Operativo |
 | Taller Chiriguaná | Mantenimiento secundario | 100m x 25m | ✅ Operativo |
 | Puerto Berrío | Taller de línea | Herramientas basicas | ✅ Operativo |
-| Barrancabermeja (Puerto) (Puerto) (Puerto) | Taller de línea | Herramientas basicas | ✅ Operativo |
+| Barrancabermeja (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) (Puerto) | Taller de línea | Herramientas basicas | ✅ Operativo |
 | Bucaramanga | Taller de línea | Herramientas basicas | ✅ Operativo |
 
 ---

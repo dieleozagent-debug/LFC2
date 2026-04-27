@@ -12,7 +12,7 @@
 La arquitectura de telecomunicaciones se basa en el modelo de **Red Vital IP / TETRA** como sistema de misión crítica unificado pero con redundancia física multisectorial. Se garantiza la soberanía mediante protocolos abiertos de transporte IP.
 
 ### 1.1 Red de Acceso Vital (Segmento Inalámbrico):
-- **Capa 1 (Control PTC):** **Red Vital IP / TETRA** (High Performance Digital Radio) para el intercambio de mensajes de seguridad de senalización.
+- **Capa 1 (Control PTC):** **Red Vital IP / TETRA** (SIL-2 Native) para el intercambio de mensajes de seguridad de senalización.
 - **Capa 2 (Voz y Operación):** Infraestructura redundante TETRA para comunicaciones de voz de cuadrillas y maquinistas.
 - **Cobertura N+1:** 37 emplazamientos (Estaciones Base) a lo largo de los 526 km del corredor.
 
@@ -35,7 +35,7 @@ Se han revertido las decisiones de "unificación" del ciclo anterior que debilit
 
 ## 📡 ESPECIFICACIÓN TÉCNICA (NETWORK DETERMINISM)
 - **Protocolo Maestro:** Vital IP (SICC Native).
-- **Disponibilidad:** 99.999% mediante failover automático entre Fibra y Red Inalámbrica.
+- **Disponibilidad:** 99.95% (AT4) mediante failover automático entre Fibra y Red Inalámbrica.
 - **Capacidad de Expansión:** Diseno escalable para soportar video 4K en pasos a nivel y sensores de vía en tiempo real.
 
 ---

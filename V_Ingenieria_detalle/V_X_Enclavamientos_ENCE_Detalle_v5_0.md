@@ -18,7 +18,7 @@ El diseno de los Enclavamientos Electrónicos (ENCE) se limita al control de des
 - **Validación:** Monitoreo redundante de aguja y posición, reportado al CCO en tiempo real.
 
 ### 2. INTERFAZ DE INTEROPERABILIDAD
-- **Chiriguaná Gateway:** El ENCE en la frontera opera como un nodo lógico del **Digital Gateway**, autorizando el paso de trenes tras validar la disponibilidad de surco digital, sin detenciones manuales.
+- **SICC Interoperability Gateway:** El ENCE en la frontera opera como un nodo lógico del **SICC Interoperability Gateway**, autorizando el paso de trenes tras validar la disponibilidad de surco digital, sin detenciones manuales.
 
 ---
 
@@ -29,13 +29,13 @@ El diseno de los Enclavamientos Electrónicos (ENCE) se limita al control de des
 | **Enclavamiento** | Vital IP / 2oo3 | ✅ RESTAURADO |
 | **Detección de Vía**| **REPORTE GNSS VITAL** | ✅ RESTAURADO |
 | **Interoperatividad**| API FRA/AREMA | ✅ RESTAURADO |
-| **Protocolo** | **CERO Handover Digital (Digital Gateway)** | ✅ SANEADO |
+| **Protocolo** | **CERO Handover Digital (SICC Interoperability Gateway)** | ✅ SANEADO |
 
 ---
 
 ## 🔍 CONCLUSIONES DE SANEAMIENTO
 - ❌ **ELIMINADO:** La interfase con Posicionamiento GNSS/EOT Vital Estándar SICC (FRA/AREMA).
-- ❌ **ELIMINADO:** El uso de "Handover Digital (Digital Gateway)" como protocolo de frontera.
+- ❌ **ELIMINADO:** El uso de "Handover Digital (SICC Interoperability Gateway)" como protocolo de frontera.
 - ✅ **RESTAURADO:** El rol del ENCE como eslabón digital de la Soberanía Técnica.
 
 ---
