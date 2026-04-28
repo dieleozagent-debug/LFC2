@@ -139,19 +139,36 @@ Solución: YAML debe indicar sección en V.X a modificar
 └─────────────────────────────────────────────────────────────────┘
         ↓
 ┌─────────────────────────────────────────────────────────────────┐
-│  CAPA 2: TRANSFORMACIÓN (El Cocinero - lfc-cli.js)               │
+│  CAPA 2: TRANSFORMACIÓN (El Motor Node.js)                      │
 ├─────────────────────────────────────────────────────────────────┤
-│  Motor Node.js (Linux): scripts/lfc-cli.js                       │
+│  Ubicación: scripts/                                            │
 │                                                                  │
-│  1. process-dts ✅ ACTIVO                                        │
-│     └─ Lee YAML de Section 10 → Parchea Recetas (.md)           │
+│  1. lfc-cli.js: El Chef Ejecutivo (CLI Central)                  │
+│     ├─ process-dts: El Cirujano. Lee YAML → Parchea .md         │
+│     ├─ sync: El Maître. WBS.md → datos_wbs_TODOS_items.js       │
+│     └─ cook: El Cocinero. MD → HTML + Inyección de Escudos      │
 │                                                                  │
-│  2. sync ✅ ACTIVO                                               │
-│     └─ Lee WBS_Presupuestal_v2.0.md → Genera datos_wbs.js       │
-│     └─ Actualiza el Menú y Métricas del Dashboard               │
+│  2. lfc-verify.js: El Auditor de Calidad                        │
+│     └─ Valida invariantes técnicos (ej: que no haya SIL-2 en ENCE)│
 │                                                                  │
-│  3. cook ✅ ACTIVO                                               │
-│     └─ MD → HTML (Pandoc) → Inyección de Insignias Michelin     │
+│  3. lfc-daemon.js: El Centinela (Watcher)                       │
+│     └─ Monitorea cambios en MD y relanza el cook automáticamente │
+└─────────────────────────────────────────────────────────────────┘
+        ↓
+┌─────────────────────────────────────────────────────────────────┐
+│  CAPA 3: SERVICIO DEL MENÚ (Frontend Dinámico)                  │
+├─────────────────────────────────────────────────────────────────┤
+│  ¿Cómo se sirve el menú en index.html?                          │
+│                                                                  │
+│  1. Datos (datos_wbs_TODOS_items.js): Generado por lfc-cli sync.│
+│     Contiene la jerarquía completa de la ingeniería en JSON.    │
+│                                                                  │
+│  2. Terminología (lfc-terminology.js): Asegura que el título y  │
+│     glosario del menú sean coherentes en todo el sitio.         │
+│                                                                  │
+│  3. Inyección (index.html Script): El frontend lee window.datos_wbs│
+│     y renderiza dinámicamente las métricas de "Platos Servidos" │
+│     y los puntos de entrada operacionales.                      │
 └─────────────────────────────────────────────────────────────────┘
         ↓
 ┌─────────────────────────────────────────────────────────────────┐

@@ -51,7 +51,7 @@ El diseno detallado del CTC no puede avanzar hasta que este concepto de integrac
 ### 2.3 Interfaces Soberanas
 - **LFC-CCO ↔ Senalización:** Comando a los 5 ENCE lógicos vía Protocolo Vital IP (SICC).
 - **LFC-CCO ↔ PTC/Material Rodante:** Gestión de Autorizaciones de Movimiento (MA) FRA 236-I.
-- **LFC-CCO ↔ Telecomunicaciones:** Backbone primario **Red Vital IP** (Fibra/Microondas).
+- **LFC-CCO ↔ Telecomunicaciones:** Backbone primario **Red Vital IP** (Fibra/[CONTAMINACIÓN_PURGADA]).
 - **LFC-CCO ↔ SICC (AT4):** Telemetría en tiempo real para KPIs de Pureza Técnica.
 - **LFC-CCO ↔ CTC FENOCO:** Interoperabilidad bajo protocolos FRA/AREMA en la frontera Chiriguaná.
 

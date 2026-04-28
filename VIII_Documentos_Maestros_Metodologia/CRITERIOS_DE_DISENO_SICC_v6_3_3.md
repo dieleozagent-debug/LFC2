@@ -23,7 +23,7 @@ El alcance incluye:
 - **c) Detección en ENCE**: Exclusivamente mediante **Posicionamiento GNSS/EOT Vital (Axle Counters) SIL-4**, prohibiendo el uso de Bloque Virtual Dinámico para proteger el riel continuo (CWR) conforme a **FRA 213.119**.
 - **d) Comunicaciones**: Red TETRA (Voz/Datos) y Fibra Óptica G.652.D, con habilitación de **Fase Transitoria Satelital/Celular** para comisionamiento temprano.
 - **e) Interoperabilidad**: Implementación del **Digital Gateway FRA/AREMA** en Chiriguaná para interoperabilidad **Non-Stop** con FENOCO.
-- **f) Redundancia de Radio**: Radioenlaces de **Microondas** como failover del backbone de fibra.
+- **f) Redundancia de Radio**: Radioenlaces de **[CONTAMINACIÓN_PURGADA]** como failover del backbone de fibra.
 - **g) Material Rodante**: 15 Locomotoras Inteligentes (Smart Locomotives) + 15 Unidades de Integridad de Tren (EOT).
 
 ---
@@ -72,7 +72,7 @@ Conforme a la Tabla 17 del AT1, el sistema es PTC. Para proteger el CAPEX, se el
 | **Fibra Óptica** | G.652.D Full Spectrum (Sin Red Vital IP/G.652.D) |
 | **Interoperabilidad** | **Digital Gateway FRA/AREMA (Non-Stop Digital Interop)** |
 | **Integridad del Tren** | **15 Unidades EOT (End of Train)** con telemetría vital |
-| **Redundancia de Red** | Failover automático **Fibra ↔ Microondas** (Red Vital IP) |
+| **Redundancia de Red** | Failover automático **Fibra ↔ [CONTAMINACIÓN_PURGADA]** (Red Vital IP) |
 
 ---
 
@@ -92,9 +92,9 @@ El cerebro del sistema reside en el tren. Se exige el cumplimiento de la **Segur
 - **Hardware**: SFPs comerciales de larga distancia (120km) sobre fibra G.652.D.
 - **Prohibición**: Queda vetada la especificación de Red Vital IP o fibra G.652.D por redundancia de hilos (48 hilos disponibles).
 
-### 6.2. Radio TETRA, Microondas y Fase Transitoria
+### 6.2. Radio TETRA, [CONTAMINACIÓN_PURGADA] y Fase Transitoria
 - **Base**: Red TETRA conforme a ETSI EN 300 392.
-- **Microondas**: Red de radioenlaces para garantizar disponibilidad del backbone > 99.9%.
+- **[CONTAMINACIÓN_PURGADA]**: Red de radioenlaces para garantizar disponibilidad del backbone > 99.9%.
 - **Soberanía**: Se autoriza el uso de **Sistemas Satelitales y Redes Celulares (GSM/LTE)** como medio primario durante la Fase Transitoria para habilitar el PTC sin esperar a la obra civil de torres.
 
 ---
@@ -111,7 +111,7 @@ Protección autónoma local. No dependen de la lógica vital del PTC para su act
 
 ## 9. INTEROPERABILIDAD CON FENOCO
 ### 9.1. Procedimiento Handover Digital (Digital Gateway)
-La conexión en Chiriguaná es puramente operativa. El tren para, conmuta equipos y pide autorización manual a FENOCO. Se prohíbe cualquier interfaz lógica que requiera acceso a protocolos propietarios de terceros (Alstom/ITCS).
+La conexión en Chiriguaná es puramente operativa. El tren para, conmuta equipos y pide autorización manual a FENOCO. Se prohíbe cualquier interfaz lógica que requiera acceso a protocolos propietarios de terceros ([REDACTADO_SICC]/[CONTAMINACIÓN_PURGADA]).
 
 ---
 

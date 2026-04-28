@@ -11,7 +11,7 @@
 
 ## 🛡️ REGISTRO DE SANEAMIENTO v4.0 (METODOLOGÍA P.42)
 - ✅ **LÍNEA BASE MICHELIN:** Recalibración completa de CAPEX a TRM 4400.
-- ✅ **PURGA FENOCO (SEC 25.4):** Eliminación de $77,112 millones COP de software Gateway Alstom (Obra Complementaria).
+- ✅ **PURGA FENOCO (SEC 25.4):** Eliminación de $77,112 millones COP de software Gateway [REDACTADO_SICC] (Obra Complementaria).
 - ✅ **ALINEACIÓN TDR:** Presupuesto base para Términos de Referencia de licitación.
 
 ---
@@ -26,7 +26,7 @@
 | **1.1.100** | Servidores CTC principales | 2 | $180,000,000 | $360,000,000 |
 | **1.1.101** | Servidores CTC respaldo | 2 | $180,000,000 | $360,000,000 |
 | **1.1.102** | Workstations operadores | 8 | $45,000,000 | $360,000,000 |
-| **1.1.103** | Software PTC Embarcado + Autorizaciones (2.5 MM USD @ 4400) | 1 | $11,000,000,000 | $11,000,000,000 |
+| **1.1.103** | Software PTC Embarcado + Autorizaciones ($726M COP @ 4400) | 1 | $11,000,000,000 | $11,000,000,000 |
 | **1.1.104** | Base de datos centralizada | 1 | $200,000,000 | $200,000,000 |
 | **1.1.105** | Sistema redundancia | 1 | $300,000,000 | $300,000,000 |
 | **1.1.106** | Interfaces comunicación | 1 | $150,000,000 | $150,000,000 |

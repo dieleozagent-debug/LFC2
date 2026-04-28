@@ -25,7 +25,7 @@ El diseno se basa en la arquitectura **SICC (Sistema de Interoperabilidad, Comun
 
 ---
 
-## 🔍 CRITERIOS DE SANEAMIENTO (KARPATHY LOOP)
+## 🔍 CRITERIOS DE SANEAMIENTO ([REDACTADO_SICC])
 Se han purgado todas las asunciones legacy:
 1.  **ELIMINADA [INFRAESTRUCTURA PROHIBIDA] / 25kV**: El diseno básico es 100% para Tracción Diésel-Eléctrica.
 2.  **ELIMINADA Nodos GNSS (SICC)**: Reemplazada por tecnología **SICC de Posicionamiento Satelital**.

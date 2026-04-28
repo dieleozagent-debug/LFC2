@@ -15,7 +15,7 @@ La gestión de interferencias debe priorizar la protección de la **Red Vital IP
 
 ### 1. PROTECCIÓN ELECTROMAGNÉTICA (EMC)
 - **PTC Virtual:** Mitigación de interferencias que afecten la precisión GNSS o la telemetría vital en cabina.
-- **Microondas:** Protección de los lóbulos de radiación de los enlaces de respaldo SICC frente a nuevas estructuras.
+- **[CONTAMINACIÓN_PURGADA]:** Protección de los lóbulos de radiación de los enlaces de respaldo SICC frente a nuevas estructuras.
 
 ### 2. INTEROPERABILIDAD DIGITAL
 - **Gateway SICC:** El nodo de Chiriguaná se considera "Infraestructura Crítica". Cualquier interferencia en esta zona debe resolverse manteniendo el flujo digital FRA/AREMA.

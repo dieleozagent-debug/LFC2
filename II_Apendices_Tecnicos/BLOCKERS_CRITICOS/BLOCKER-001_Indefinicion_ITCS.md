@@ -44,7 +44,7 @@
 
 **Ventajas:**
 - ✅ Estándar probado en USA (20+ anos)
-- ✅ Múltiples proveedores (Wabtec, Alstom, Siemens)
+- ✅ Múltiples proveedores (Wabtec, [REDACTADO_SICC], Siemens)
 - ✅ Compatible con material rodante diesel
 - ✅ Menor costo relativo
 
@@ -55,7 +55,7 @@
 
 **Costo estimado:** $8M USD (~$58,000M COP)  
 **Lead time:** 10 meses  
-**Proveedor:** Wabtec, Alstom  
+**Proveedor:** Wabtec, [REDACTADO_SICC]  
 **Madurez:** Alta ✅
 
 ---
@@ -76,7 +76,7 @@
 
 **Costo estimado:** $12M USD (~$87,000M COP)  
 **Lead time:** 12 meses  
-**Proveedor:** Wabtec, Siemens, Alstom (Versión FRA)  
+**Proveedor:** Wabtec, Siemens, [REDACTADO_SICC] (Versión FRA)  
 **Madurez:** Alta ✅  
 **Normativa:** FRA 49 CFR Part 236 / AREMA
 
@@ -99,7 +99,7 @@
 
 **Costo estimado:** $15M USD (~$109,000M COP)  
 **Lead time:** 14 meses  
-**Proveedor:** Thales, Alstom  
+**Proveedor:** Thales, [REDACTADO_SICC]  
 **Recomendación:** ❌ NO viable para este proyecto
 
 ---

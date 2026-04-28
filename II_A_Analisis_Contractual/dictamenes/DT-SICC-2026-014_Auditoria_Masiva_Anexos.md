@@ -3,11 +3,11 @@
 
 **ESTADO:** ✅ APROBADA (Institucionalizada vía Antigravity)
 **FECHA:** 2026-04-09
-**ORIGEN:** SICC DREAMER (Loop Karpathy v7.2)
+**ORIGEN:** SICC [REDACTADO_SICC] (Loop Karpathy v7.2)
 
 ---
 
-### 🏛️ Propuesta Soberana (Michelin Certified)
+### 🏛️ Propuesta Soberana ([CONTAMINACIÓN_PURGADA])
 
 **OBJETIVO SUPREMO:** Garantizar la **Purity by Design** del repositorio LFC2, blindando la Línea Base Michelin contra inconsistencias regulatorias o técnicas obsoletas.
 

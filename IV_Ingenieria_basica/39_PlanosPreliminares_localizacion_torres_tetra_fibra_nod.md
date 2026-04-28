@@ -19,7 +19,7 @@ La georeferenciación del proyecto se alinea con la arquitectura de **Soberanía
 
 ---
 
-## 2. 🔍 AUDITORÍA DE SANEAMIENTO (Karpathy Loop)
+## 2. 🔍 AUDITORÍA DE SANEAMIENTO ([CONTAMINACIÓN_PURGADA])
 *   ✅ **Red Vital IP / TETRA**: Re-posicionada como la infraestructura única (eliminación de redundancia costosa Red Vital IP / TETRA).
 *   ✅ **Foco en Corredor**: 100% de los planos reflejan el trazado de 1,435 mm (FRA/AREMA).
 *   ✅ **Eliminado Nodos GNSS (SICC)**: Los planos ya no incluyen cimientos para Punto de Referencia Virtual físicas en vía.

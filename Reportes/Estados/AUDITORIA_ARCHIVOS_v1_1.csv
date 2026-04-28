@@ -25,7 +25,7 @@ VII. Soporte Especializado/VII.2_Especificaciones/VII.2.8_Arquitectura_Software_
 VII. Soporte Especializado/VII.2_Especificaciones/VII.2.7_Especificaciones_STM_Embarcadas.md,VII.2.7_Especificaciones_STM_Embarcadas.md,,TRA,TRA_Especificaciones-STM-Embarcadas_Definitivo_v1.0.md,STM Embarcadas,COMPLETO
 VII. Soporte Especializado/VII.2_Especificaciones/VII.2.6_Interlocking_Tables_5_Estaciones.md,VII.2.6_Interlocking_Tables_5_Estaciones.md,,TRA,TRA_Interlocking-Tables-5-Estaciones_Definitivo_v1.0.md,Señalización/Interlocking,COMPLETO
 VII. Soporte Especializado/VII.2_Especificaciones/VII.2.5_Revision_Disponibilidad_100_Porciento_99.95.md,VII.2.5_Revision_Disponibilidad_100_Porciento_99.95.md,,TRA,TRA_Revision-Disponibilidad-9995_Definitivo_v1.0.md,Disponibilidad,COMPLETO
-VII. Soporte Especializado/VII.2_Especificaciones/VII.2.4_Interfaces_CTC_ITCS_Protocolo_FFFIS.md,VII.2.4_Interfaces_CTC_ITCS_Protocolo_FFFIS.md,,TRA,TRA_Interfaces-CTC-ITCS-FFFIS_Definitivo_v1.0.md,Interfaces CTC/ITCS,COMPLETO
+VII. Soporte Especializado/VII.2_Especificaciones/VII.2.4_Interfaces_CTC_[CONTAMINACIÓN_PURGADA]_Protocolo_FFFIS.md,VII.2.4_Interfaces_CTC_[CONTAMINACIÓN_PURGADA]_Protocolo_FFFIS.md,,TRA,TRA_Interfaces-CTC-[CONTAMINACIÓN_PURGADA]-FFFIS_Definitivo_v1.0.md,Interfaces CTC/[CONTAMINACIÓN_PURGADA],COMPLETO
 Reportes/Estados/REPORTE_ACTUALIZACION_README_ROADMAP_COMPLETADA_v1.0.md,REPORTE_ACTUALIZACION_README_ROADMAP_COMPLETADA_v1.0.md,1.0,DOC,DOC_Reporte-Actualizacion-README-Roadmap_v1.0.md,Estado,COMPLETO
 Reportes/Estados/REPORTE_CONSOLIDACION_INDICES_COMPLETADA_v1.0.md,REPORTE_CONSOLIDACION_INDICES_COMPLETADA_v1.0.md,1.0,DOC,DOC_Reporte-Consolidacion-Indices_v1.0.md,Estado,COMPLETO
 Reportes/Estados/REPORTE_REORGANIZACION_COMPLETADA_v1.0.md,REPORTE_REORGANIZACION_COMPLETADA_v1.0.md,1.0,DOC,DOC_Reporte-Reorganizacion_v1.0.md,Estado,COMPLETO
@@ -38,7 +38,7 @@ Reportes/Metodologia_Punto_42/REPORTE_VALIDACION_TECNICA_CONTRACTUAL_v1.0.md,REP
 I. Contrato General/Contrato_general_indice_MEJORADO.md,Contrato_general_indice_MEJORADO.md,,BASE,BASE_Contrato-General_Indice_Maestro_v1.0.md,Índice Contractual,COMPLETO
 I. Contrato General/8. Cl_15_1_Reversion_Bienes_MEJORADO.md,8. Cl_15_1_Reversion_Bienes_MEJORADO.md,,BASE,BASE_Cl_15_1_Reversion-Bienes_Definitivo_v1.0.md,Reversión,COMPLETO
 I. Contrato General/9_Cl_16_1_Penalidades_docx_Multas_por_incumplimiento_MEJORADO.md,9_Cl_16_1_Penalidades_docx_Multas_por_incumplimiento_MEJORADO.md,,BASE,BASE_Cl_16_1_Penalidades_Definitivo_v1.0.md,Penalidades,COMPLETO
-I. Contrato General/6_Cl_13_1_MaterialRodante_docx_Equipos_embarcados_ITCS_TETRA_MEJORADO.md,6_Cl_13_1_MaterialRodante_docx_Equipos_embarcados_ITCS_TETRA_MEJORADO.md,,BASE,BASE_Cl_13_1_Material-Rodante_Definitivo_v1.0.md,Material Rodante,COMPLETO
+I. Contrato General/6_Cl_13_1_MaterialRodante_docx_Equipos_embarcados_[CONTAMINACIÓN_PURGADA]_TETRA_MEJORADO.md,6_Cl_13_1_MaterialRodante_docx_Equipos_embarcados_[CONTAMINACIÓN_PURGADA]_TETRA_MEJORADO.md,,BASE,BASE_Cl_13_1_Material-Rodante_Definitivo_v1.0.md,Material Rodante,COMPLETO
 I. Contrato General/7_Cl_14_1_OM_Sistemas_docx_Reposici_n_y_mantenimiento_de_hardwaresoftware_MEJORADO.md,7_Cl_14_1_OM_Sistemas_docx_Reposici_n_y_mantenimiento_de_hardwaresoftware_MEJORADO.md,,BASE,BASE_Cl_14_1_OM-Sistemas_Definitivo_v1.0.md,O&M,COMPLETO
 I. Contrato General/5_Cl_12_1_Reversi_n_docx_Entrega_de_activos_y_sistemas_en_buen_estado_MEJORADO.md,5_Cl_12_1_Reversi_n_docx_Entrega_de_activos_y_sistemas_en_buen_estado_MEJORADO.md,,BASE,BASE_Cl_12_1_Reversion_Definitivo_v1.0.md,Reversión,COMPLETO
 I. Contrato General/4_Cl_9_1_OM_docx_Obligaciones_de_Operaci_n_y_Mantenimiento_MEJORADO.md,4_Cl_9_1_OM_docx_Obligaciones_de_Operaci_n_y_Mantenimiento_MEJORADO.md,,BASE,BASE_Cl_9_1_OM_Definitivo_v1.0.md,O&M,COMPLETO
@@ -69,11 +69,11 @@ III. Ingenieria conceptual/22_HojaRuta_Conceptual_Fases_pasos_y_procedimientos_d
 III. Ingenieria conceptual/0_1_hoja_de_ruta_tecnica_ingenieria_conceptual.md,0_1_hoja_de_ruta_tecnica_ingenieria_conceptual.md,,DOC,DOC_Hoja-de-Ruta-Tecnica-Conceptual_v1.0.md,Hoja de Ruta,EN PROGRESO
 III. Ingenieria conceptual/0_0_relacion_de_apendices_tecnicos_del_contrato_con_la_ing.md,0_0_relacion_de_apendices_tecnicos_del_contrato_con_la_ing.md,,DOC,DOC_Relacion-Apendices-Tecnicos_v1.0.md,Resumen ATs,EN PROGRESO
 III. Ingenieria conceptual/III_Ingenieria_conceptual_a_detallar.md,III_Ingenieria_conceptual_a_detallar.md,,DOC,DOC_Ingenieria-Conceptual_A-Detallar_v1.0.md,Metodología,EN PROGRESO
-III. Ingenieria conceptual/ITCS_Interlocking_Tables_5_Estaciones_v1.0.md,ITCS_Interlocking_Tables_5_Estaciones_v1.0.md,1.0,SIS,SIS_ITCS_Interlocking-Tables_5-Estaciones_v1.0.md,ITCS/Interlocking,EN PROGRESO
-III. Ingenieria conceptual/ITCS_STM_Embarcado_v1.0.md,ITCS_STM_Embarcado_v1.0.md,1.0,SIS,SIS_ITCS_STM-Embarcado_v1.0.md,ITCS/STM,EN PROGRESO
-III. Ingenieria conceptual/ITCS_Interfaces_CTC_ITCS_FFFIS_v1.0.md,ITCS_Interfaces_CTC_ITCS_FFFIS_v1.0.md,1.0,SIS,SIS_ITCS_Interfaces-FFFIS_v1.0.md,ITCS/Interfaces,EN PROGRESO
-III. Ingenieria conceptual/ITCS_Arquitectura_RBC_2oo3_v1.0.md,ITCS_Arquitectura_RBC_2oo3_v1.0.md,1.0,SIS,SIS_ITCS_Arquitectura-RBC-2oo3_v1.0.md,ITCS/Arquitectura,EN PROGRESO
-III. Ingenieria conceptual/ITCS_SRS_Indice_v1.0.md,ITCS_SRS_Indice_v1.0.md,1.0,SIS,SIS_ITCS_SRS_Indice_v1.0.md,ITCS/SRS,EN PROGRESO
+III. Ingenieria conceptual/[CONTAMINACIÓN_PURGADA]_Interlocking_Tables_5_Estaciones_v1.0.md,[CONTAMINACIÓN_PURGADA]_Interlocking_Tables_5_Estaciones_v1.0.md,1.0,SIS,SIS_[CONTAMINACIÓN_PURGADA]_Interlocking-Tables_5-Estaciones_v1.0.md,[CONTAMINACIÓN_PURGADA]/Interlocking,EN PROGRESO
+III. Ingenieria conceptual/[CONTAMINACIÓN_PURGADA]_STM_Embarcado_v1.0.md,[CONTAMINACIÓN_PURGADA]_STM_Embarcado_v1.0.md,1.0,SIS,SIS_[CONTAMINACIÓN_PURGADA]_STM-Embarcado_v1.0.md,[CONTAMINACIÓN_PURGADA]/STM,EN PROGRESO
+III. Ingenieria conceptual/[CONTAMINACIÓN_PURGADA]_Interfaces_CTC_[CONTAMINACIÓN_PURGADA]_FFFIS_v1.0.md,[CONTAMINACIÓN_PURGADA]_Interfaces_CTC_[CONTAMINACIÓN_PURGADA]_FFFIS_v1.0.md,1.0,SIS,SIS_[CONTAMINACIÓN_PURGADA]_Interfaces-FFFIS_v1.0.md,[CONTAMINACIÓN_PURGADA]/Interfaces,EN PROGRESO
+III. Ingenieria conceptual/[CONTAMINACIÓN_PURGADA]_Arquitectura_RBC_2oo3_v1.0.md,[CONTAMINACIÓN_PURGADA]_Arquitectura_RBC_2oo3_v1.0.md,1.0,SIS,SIS_[CONTAMINACIÓN_PURGADA]_Arquitectura-RBC-2oo3_v1.0.md,[CONTAMINACIÓN_PURGADA]/Arquitectura,EN PROGRESO
+III. Ingenieria conceptual/[CONTAMINACIÓN_PURGADA]_SRS_Indice_v1.0.md,[CONTAMINACIÓN_PURGADA]_SRS_Indice_v1.0.md,1.0,SIS,SIS_[CONTAMINACIÓN_PURGADA]_SRS_Indice_v1.0.md,[CONTAMINACIÓN_PURGADA]/SRS,EN PROGRESO
 # IV. Ingeniería Básica (consolidaciones maestras)
 IV. Ingenieria basica/SIS_Senalizacion_Definitivo_v1.0.md,SIS_Senalizacion_Definitivo_v1.0.md,1.0,SIS,SIS_Senalizacion_Definitivo_v1.0.md,Señalización,CONSOLIDACIÓN AVANZADA (95%)
 IV. Ingenieria basica/SIS_Comunicaciones_Definitivo_v1.0.md,SIS_Comunicaciones_Definitivo_v1.0.md,1.0,SIS,SIS_Comunicaciones_Definitivo_v1.0.md,Comunicaciones,CONSOLIDACIÓN AVANZADA (95%)
@@ -121,12 +121,12 @@ VI. operacion y mantenimiento y reversion/6.2_Manual_OM_Senalizacion_v1.0.md,6.2
 VI. operacion y mantenimiento y reversion/6.1_Manual_OM_CTC_v1.0.md,6.1_Manual_OM_CTC_v1.0.md,1.0,DOC,DOC_Manual-OM-CTC_v1.0.md,O&M CTC,COMPLETO
 VI. operacion y mantenimiento y reversion/VI_Operacion_Mantenimiento_y_reversion.md,VI_Operacion_Mantenimiento_y_reversion.md,,DOC,DOC_Operacion-Mantenimiento-Reversion_Maestro_v1.0.md,O&M/Reversión,EN PROGRESO
 # VII. Soporte Especializado (complemento)
-VII. Soporte Especializado/VII.2_Especificaciones/VII.2.1_SRS_ITCS_PTC_Level2_v1.0.md,VII.2.1_SRS_ITCS_PTC_Level2_v1.0.md,1.0,TRA,TRA_SRS_ITCS_PTC_Level2_v1.0.md,ITCS/SRS,COMPLETO
+VII. Soporte Especializado/VII.2_Especificaciones/VII.2.1_SRS_[CONTAMINACIÓN_PURGADA]_PTC_Level2_v1.0.md,VII.2.1_SRS_[CONTAMINACIÓN_PURGADA]_PTC_Level2_v1.0.md,1.0,TRA,TRA_SRS_[CONTAMINACIÓN_PURGADA]_PTC_Level2_v1.0.md,[CONTAMINACIÓN_PURGADA]/SRS,COMPLETO
 VII. Soporte Especializado/VII.2_Especificaciones/VII.2.3_Plan_Eurobalise_Ubicacion_150m.md,VII.2.3_Plan_Eurobalise_Ubicacion_150m.md,,TRA,TRA_Plan-Eurobalise_Ubicacion-150m_v1.0.md,Señalización,EN PROGRESO
-VII. Soporte Especializado/VII.2_Especificaciones/VII.2.2_Arquitectura_RBC_Redundancia_2OO3.md,VII.2.2_Arquitectura_RBC_Redundancia_2OO3.md,,TRA,TRA_Arquitectura-RBC_2oo3_v1.0.md,ITCS/Arquitectura,COMPLETO
+VII. Soporte Especializado/VII.2_Especificaciones/VII.2.2_Arquitectura_RBC_Redundancia_2OO3.md,VII.2.2_Arquitectura_RBC_Redundancia_2OO3.md,,TRA,TRA_Arquitectura-RBC_2oo3_v1.0.md,[CONTAMINACIÓN_PURGADA]/Arquitectura,COMPLETO
 VII. Soporte Especializado/VII.2_Especificaciones/VII.2.3_Protocolos_FRA/AREMA_Interoperabilidad_FENOCO.md,VII.2.3_Protocolos_FRA/AREMA_Interoperabilidad_FENOCO.md,,TRA,TRA_Protocolos-FRA/AREMA_Interoperabilidad-FENOCO_v1.0.md,Interoperabilidad,EN PROGRESO
 VII. Soporte Especializado/VII.2_Especificaciones/VII.2.2_Simulaciones_Capacidad_Surcos_BASICAS.md,VII.2.2_Simulaciones_Capacidad_Surcos_BASICAS.md,,TRA,TRA_Simulaciones-Capacidad-Surcos_Basicas_v1.0.md,Capacidad/Surcos,EN PROGRESO
-VII. Soporte Especializado/VII.2_Especificaciones/VII.2.1_Especificaciones_Tecnicas_ITCS_PTC_Level2_PROVISIONALES.md,VII.2.1_Especificaciones_Tecnicas_ITCS_PTC_Level2_PROVISIONALES.md,,TRA,TRA_Especificaciones-Tecnicas_ITCS_Provisionales_v1.0.md,ITCS,EN PROGRESO
+VII. Soporte Especializado/VII.2_Especificaciones/VII.2.1_Especificaciones_Tecnicas_[CONTAMINACIÓN_PURGADA]_PTC_Level2_PROVISIONALES.md,VII.2.1_Especificaciones_Tecnicas_[CONTAMINACIÓN_PURGADA]_PTC_Level2_PROVISIONALES.md,,TRA,TRA_Especificaciones-Tecnicas_[CONTAMINACIÓN_PURGADA]_Provisionales_v1.0.md,[CONTAMINACIÓN_PURGADA],EN PROGRESO
 # Reportes (complemento)
 Reportes/Estados/REPORTE_INTEGRIDAD_DOCUMENTACION_COMPLETO.md,REPORTE_INTEGRIDAD_DOCUMENTACION_COMPLETO.md,,DOC,DOC_Reporte-Integridad-Documentacion_v1.0.md,Estado,COMPLETO
 Reportes/Estados/VALIDACION_FINAL_ACTUALIZACIONES_COMPLETAS.md,VALIDACION_FINAL_ACTUALIZACIONES_COMPLETAS.md,,DOC,DOC_Validacion-Final_Actualizaciones_v1.0.md,Estado,COMPLETO

@@ -3,7 +3,7 @@
 
 **Fecha de actualización:** 20 de marzo de 2026  
 **Versión:** v6.0 - Forensic Alignment (Basic Design Engineering)
-**Metodología:** Karpathy Loop - Saneamiento de Soberanía
+**Metodología:** [CONTAMINACIÓN_PURGADA] - Saneamiento de Soberanía
 
 ---
 

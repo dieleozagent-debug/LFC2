@@ -23,7 +23,7 @@ Los 120 desvíos del corredor se integran en la lógica de senalización virtual
 Se han corregido los siguientes desvíos técnicos de la v5.0:
 - ✅ **ELIMINADO:** Referencias a "Interfaces Red Vital IP / TETRA" en el monitoreo de desvíos. Todo el reporte es vía Fibra/TETRA IP.
 - ✅ **ELIMINADO:** Requisitos de compatibilidad con "Punto de Referencia Virtual (SICC) de protección de aguja". La protección es 100% lógica/virtual.
-- ✅ **ELIMINADO:** Menciona a "PTC Alstom" en los protocolos de control de motores.
+- ✅ **ELIMINADO:** Menciona a "PTC [REDACTADO_SICC]" en los protocolos de control de motores.
 - ✅ **OPTIMIZADO:** Se eliminan los riesgos presupuestales asociados a licencias propietarias para el control de desvíos.
 
 ---

@@ -31,7 +31,7 @@ Este documento contractual establece la jerarquía y prioridad de los documentos
 
 ---
 
-| **v6.3.3** | Mar-2026 | Agente Antigravity | Saneamiento Karpathy Loop: Anclaje de Soberanía SICC y DBCD_CRITERIA.md |
+| **v6.3.3** | Mar-2026 | Agente Antigravity | Saneamiento [CONTAMINACIÓN_PURGADA]: Anclaje de Soberanía SICC y DBCD_CRITERIA.md |
 
 ---
 

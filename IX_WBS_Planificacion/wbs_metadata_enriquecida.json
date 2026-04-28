@@ -50,7 +50,7 @@
       "documentos_ingenieria": [
         "V.2_Centro_Control_Trafico_CTC_Detalle_v1.0.md",
         "IV.2_CTC_Basica_v2.0.md",
-        "VII.2.1_SRS_ITCS_PTC_Level2_PROVISIONAL.md"
+        "VII.2.1_SRS_[CONTAMINACIÓN_PURGADA]_PTC_Level2_PROVISIONAL.md"
       ],
       "ultima_actualizacion": "2025-10-08",
       "actualizado_por": "DT-CTC-003"
@@ -178,7 +178,7 @@
       "documentos_ingenieria": [
         "V.2_Centro_Control_Trafico_CTC_v5.0.md",
         "IV.2_Interfaces_Sistemas_MEJORADO.md",
-        "VII.2.4_Interfaces_CTC_ITCS_Protocolo_FFFIS.md"
+        "VII.2.4_Interfaces_CTC_[CONTAMINACIÓN_PURGADA]_Protocolo_FFFIS.md"
       ],
       "ultima_actualizacion": "2025-10-09",
       "actualizado_por": "DT-INTERFACES-001-2025-10-09"
