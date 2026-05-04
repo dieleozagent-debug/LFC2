@@ -88,30 +88,33 @@ Al recibir una solicitud (p. ej. “Revisa el documento X y mejoralo”):
 
 ---
 
-### 3) Criterios de Evaluación (Checklist v4.2)
-A) Estructura documental mínima
+### 3) Criterios de Evaluación (Estructura de Directriz Técnica)
+Un documento SICC v14.6 NO es un reporte de auditoría; es una **Instrucción de Mando**.
+
+A) Estructura Piramidal (1 Página)
 ```markdown
-## 1. MARCO CONTRACTUAL
-### 1.1 Base Legal
-### 1.2 ⚠️ Evaluación de Dependencias Documentales
+# [LOGO LFC] DIRECTRIZ TÉCNICA DE DISEÑO DT-[ESPEC]-[AÑO]-[SEQ]
 
-## 2. INTEGRACIÓN CON DOCUMENTOS RELACIONADOS
-### 2.1 Documentos Base (Completados ✅)
-### 2.2 Documentos Dependientes (En desarrollo 🔄)
-### 2.3 Interfaces Críticas
+**PARA:** ARDANUY COLOMBIA S.A.S. (Consultoría de Diseño)
+**CC:** Gerencia EPC - LFC
+**ASUNTO:** [Título Directo de la Instrucción]
 
-## 3. CONTENIDO TÉCNICO ESPECÍFICO
-[Secciones específicas según el tipo de documento]
+## 1. INSTRUCCIÓN DE DISEÑO (Decisión Técnica)
+[Orden explícita y técnica. Qué se debe diseñar, qué se debe borrar, qué se debe presupuestar. Sin ambigüedades.]
 
-## 4. MATRIZ DE CONTROL Y SEGUIMIENTO
-### 4.1 Métricas de Seguimiento
-### 4.2 Indicadores de Riesgo
+## 2. FUNDAMENTO CONTRACTUAL Y NORMATIVO
+[Cita canónica del AT1, AT3 o Contrato. Justificación legal de la orden.]
+[⚠️ REGLA ABSOLUTA SEÑALIZACIÓN: Para PTC/ENCE, la norma es FRA 49 CFR Part 236 Subpart I. NO aplicar desempates AREMA > FRA en lógica vital.]
 
-## 5. CONCLUSIONES Y PRÓXIMOS PASOS
-### 5.1 Estado del Documento
-### 5.2 Acciones Requeridas
-### 5.3 Criterios para Avance
+## 3. CIERRE OPERATIVO
+[Instrucción para actualizar el DBCD, Anexo de Cantidades o Planos. Consecuencia de incumplimiento.]
 ```
+
+B) Tono y Estrategia
+- **Tono:** Gerencial, Directivo, Técnico.
+- **Estrategia "Defensiva-Externa":** Blindar el contrato frente a la ANI/Interventoría.
+- **Estrategia "Ofensiva-Interna":** Exigir máxima eficiencia y cero desperdicio a la Consultoría (Ardanuy).
+- **Prohibido:** Emojis (🦅, ⚖️), términos judiciales ("Juez", "Veredicto", "Sentencia"), y lenguaje decorativo.
 
 B) Control de versiones
 ```markdown
