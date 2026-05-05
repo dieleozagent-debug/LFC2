@@ -42,6 +42,6 @@ Se han revertido las reducciones de carga del ciclo anterior que comprometían l
 
 ## ✅ CONCLUSIONES:
 
-La ingeniería de potencia v6.3.2 es la base de la resiliencia del proyecto. Al asegurar la energía en cada nodo de la **Red Vital IP**, garantizamos que la senalización virtual (Virtual Fixed Block §236.1005) nunca pierda su canal de comunicación, cumpliendo así con los estándares de seguridad FRA/AREMA.
+La ingeniería de potencia v6.3.2 es la base de la resiliencia del proyecto. Al asegurar la energía en cada nodo de la **Red Vital IP**, garantizamos que la senalización virtual (Moving Block) nunca pierda su canal de comunicación, cumpliendo así con los estándares de seguridad FRA/AREMA.
 
 **Saneamiento Ciclo 2.3.8 - Potencia SICC Finalizado.**

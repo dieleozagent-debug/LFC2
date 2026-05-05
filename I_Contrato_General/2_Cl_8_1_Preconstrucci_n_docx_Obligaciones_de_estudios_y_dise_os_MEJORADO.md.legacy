@@ -14,7 +14,7 @@ Toda la ingeniería de detalle y estudios de preconstrucción deben alinearse es
 ## 🛠️ OBLIGACIONES TÉCNICAS REVISADAS (.42)
 
 ### 1. ESTUDIOS DE SENALIZACIÓN Y CONTROL
-- **Diseno Vital:** Basado en Virtual Fixed Block §236.1005 virtual.
+- **Diseno Vital:** Basado en Moving Block virtual.
 - **Interoperabilidad:** Diseno obligatorio de un **Gateway Digital FRA/AREMA** para conexión con FENOCO en Chiriguaná. Queda prohibido el uso de procedimientos manuales (Handover Digital (Digital Gateway)) como solución definitiva.
 - **Arquitectura:** Servidor Central con redundancia **2oo3 (SIL 4)** en el CCO.
 

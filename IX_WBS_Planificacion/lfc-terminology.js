@@ -95,7 +95,7 @@ const LFC_DBCI = {
     },
 
     FINANCIAL: {
-        TRM: 4400
+        TRM: 4000
     }
 };
 

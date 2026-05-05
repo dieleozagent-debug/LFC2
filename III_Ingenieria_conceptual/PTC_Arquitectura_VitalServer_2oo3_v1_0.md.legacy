@@ -11,7 +11,7 @@
 ## 1. ALCANCE Y OBJETIVOS
 
 ### 1.1 Propósito
-Este documento especifica la arquitectura del **Vital PTC Server** para el sistema de control de trenes del proyecto. Este componente es el cerebro de la seguridad vital, encargado de gestionar las autoridades de movimiento en modo **Virtual Fixed Block §236.1005**.
+Este documento especifica la arquitectura del **Vital PTC Server** para el sistema de control de trenes del proyecto. Este componente es el cerebro de la seguridad vital, encargado de gestionar las autoridades de movimiento en modo **Moving Block**.
 
 ### 1.2 Objetivos de Seguridad (SIL 4)
 - **Alta disponibilidad:** 99.996%.

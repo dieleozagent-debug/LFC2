@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SICC Sovereign Dictamen: Blindaje Virtual Fixed Block §236.1005 vs AT10</title>
+    <title>SICC Sovereign Dictamen: Normativa Unificada Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP)</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -114,34 +114,7 @@
             padding-left: 1.5rem;
         }
 
-        .sub-header {
-            font-size: 0.8rem;
-            text-transform: uppercase;
-            letter-spacing: 3px;
-            color: var(--accent);
-            margin-bottom: 1.5rem;
-            font-weight: 800;
-        }
-
         p { margin-bottom: 2rem; color: #cdd6f4; font-size: 1.15rem; }
-
-        blockquote {
-            background: rgba(255, 255, 255, 0.02);
-            border-left: 2px solid var(--glass-border);
-            padding: 2.5rem;
-            margin: 3rem 0;
-            border-radius: 0 30px 30px 0;
-            font-style: italic;
-            position: relative;
-        }
-
-        .legal-ref {
-            display: block;
-            margin-bottom: 1rem;
-            font-weight: 800;
-            color: var(--accent);
-            font-style: normal;
-        }
 
         .conclusion-box {
             background: var(--accent-soft);
@@ -179,34 +152,30 @@
         <a href="/II_A_Analisis_Contractual/dictamenes/" class="back-link">← Volver al Registro de Dictámenes</a>
 
         <header class="doc-header">
-            <div class="doc-label">DECISIÓN TÉCNICA SICC-2026-002</div>
-            <h1 class="doc-title">Parametrización de Simulación de Capacidad — Blindaje Virtual Fixed Block §236.1005</h1>
+            <div class="doc-label">DECISIÓN TÉCNICA SICC-2026-003</div>
+            <h1 class="doc-title">Adopción de Norma Unificada CENELEC Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP)</h1>
             
             <div class="doc-meta">
-                <span>Ref: Apéndice Técnico 10 vs AT1</span>
-                <span>Asunto: Protección de CAPEX (>15M USD)</span>
+                <span>Ref: Modernización del Dossier de Seguridad</span>
+                <span>Asunto: Blindaje Software Onboard/Wayside</span>
                 <span>Estatus: VINCULANTE - SICC v6.4.21</span>
             </div>
         </header>
 
         <section class="section">
             <div class="section-num">I</div>
-            <h2>Fundamento Jurídico-Contractual</h2>
-            <p>De conformidad con las reglas de interpretación y orden de prelación establecidas en el <strong>Capítulo I, Numeral 1.2(d)</strong> del Contrato APP No. 001 de 2025, las obligaciones definidas en el Apéndice Técnico 1 (AT1) prevalecen de manera absoluta sobre los procedimientos referenciales del Apéndice Técnico 10 (AT10).</p>
-            <blockquote>
-                <span class="legal-ref">Jerarquía Contractual (Sec. 1.2):</span>
-                (ii) Apéndice Técnico 1 prima sobre (xi) Apéndices Técnicos 2 al 10.
-            </blockquote>
-            <p>La Tabla 17 del AT1 exige un sistema PTC. El Documento de Bases y Criterios de Diseno (DBCD V002) define la arquitectura como **Virtual Fixed Block §236.1005**. Forzar una simulación de bloques fijos (UIC-405) viola la jerarquía del diseno aprobado.</p>
+            <h2>Justificación Técnica</h2>
+            <p>La norma legacy <strong>Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP)</strong> se restringe únicamente al software de vía. En un sistema PTC Virtual (Moving Block), el 90% de la lógica reside en el tren. Mantener la 50128 genera un vacío de certificación que obliga injustificadamente a instalar hardware físico lateral.</p>
+            <p>La <strong>Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP):2023</strong> unifica los requisitos para software de vía y embarcado, garantizando una certificación integral sin parches de infraestructura.</p>
         </section>
 
         <section class="section">
             <div class="section-num">II</div>
-            <h2>Instrucción de Cumplimiento</h2>
+            <h2>Decisión Soberana</h2>
             <div class="conclusion-box">
-                <h3>DICTAMEN TÉCNICO</h3>
-                <p>1. El software de simulación deberá parametrizarse exclusivamente bajo la metodología de Cantones Virtuales (Virtual Fixed Block §236.1005).<br>
-                2. Se prohíbe el uso de metodologías de bloques fijos que asuman infraestructura lateral no contractual.</p>
+                <h3>DICTAMEN NORMATIVO</h3>
+                <p>1. Se adopta la Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP) como estándar único para todo el software de seguridad del proyecto.<br>
+                2. Se invalida la aplicación de la Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP) por ser incompatible con el diseno PTC Onboard aprobado.</p>
             </div>
         </section>
 

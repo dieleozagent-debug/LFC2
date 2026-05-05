@@ -21,7 +21,7 @@ console.log('--- 🛡️ SICC VERIFY: AUDITORÍA DE SOBERANÍA ---');
 console.log(`Timestamp: ${new Date().toISOString()}`);
 
 // 1. Verificación de Dictámenes Críticos
-checkFile(path.join(DTS_DIR, 'DT-AT10-001.md'), 'DT-AT10-001 (Virtual Fixed Block §236.1005)');
+checkFile(path.join(DTS_DIR, 'DT-AT10-001.md'), 'DT-AT10-001 (Moving Block)');
 checkFile(path.join(DTS_DIR, 'DT-SICC-2026-009.md'), 'DT-SICC-2026-009 (Purga Eléctrica)');
 checkFile(path.join(DTS_DIR, 'DT-SICC-2026-008.md'), 'DT-SICC-2026-008 (AREMA 2021)');
 checkFile(path.join(DTS_DIR, 'DT-SICC-2026-010.md'), 'DT-SICC-2026-010 (Seguridad FRA 236)');

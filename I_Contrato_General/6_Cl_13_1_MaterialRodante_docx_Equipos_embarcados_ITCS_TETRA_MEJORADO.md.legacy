@@ -16,7 +16,7 @@ El Material Rodante debe estar equipado nativamente para operar bajo la arquitec
 Cada locomotora contará con un **OBC (On-Board Computer)** con certificación SIL 4 que integrará:
 - **Localización Vital:** GNSS de Alta Precisión + Edometría (Fusión de sensores).
 - **Comunicaciones:** Interfaz nativa para **Red Vital IP (Broadband)** y backup **TETRA**.
-- **Control:** Gestión de Autoridades de Movimiento (Movement Authority) dinámicas vía Virtual Fixed Block §236.1005.
+- **Control:** Gestión de Autoridades de Movimiento (Movement Authority) dinámicas vía Moving Block.
 
 ## 3. 🔍 AUDITORÍA DE PURGA (LEGADO ELIMINADO)
 - ❌ **ELIMINADO:** Todo rastro del procedimiento manual "Handover Digital (Digital Gateway)".

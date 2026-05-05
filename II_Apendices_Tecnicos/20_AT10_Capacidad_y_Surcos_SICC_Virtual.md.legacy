@@ -7,13 +7,13 @@
 ---
 
 ## 🛡️ ANCLAJE DE SOBERANÍA TÉCNICA
-El cálculo de capacidad y la asignación de surcos se fundamentan en la capacidad del **SICC v6.3.3** para gestionar **Virtual Fixed Block §236.1005 (Acantonamiento Virtual)**. Se prohíbe el uso de parámetros de bloqueo fijo (Fixed Block) obsoletos que degraden la eficiencia del corredor.
+El cálculo de capacidad y la asignación de surcos se fundamentan en la capacidad del **SICC v6.3.3** para gestionar **Moving Block (Acantonamiento Virtual)**. Se prohíbe el uso de parámetros de bloqueo fijo (Fixed Block) obsoletos que degraden la eficiencia del corredor.
 
 ---
 
 ## 📉 METODOLOGÍA DE CAPACIDAD (.42)
 
-### 1. ACANTONAMIENTO VIRTUAL (Virtual Fixed Block §236.1005)
+### 1. ACANTONAMIENTO VIRTUAL (MOVING BLOCK)
 - **Cálculo Dinámico:** El intervalo entre trenes (headway) se calcula en tiempo real basándose en la velocidad, masa y curva de frenado compartida vía **Red Vital IP**.
 - **Optimización de Surcos:** El uso del **Digital Gateway** permite una transición de surcos con FENOCO sin detenciones innecesarias, maximizando la capacidad del nudo de Chiriguaná.
 

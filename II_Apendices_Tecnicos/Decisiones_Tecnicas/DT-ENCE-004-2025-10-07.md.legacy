@@ -10,7 +10,7 @@
 Conforme a la **Tabla 17 del Apéndice Técnico 1 (AT1)**, el Concesionario debe implementar la senalización luminosa y de indicación asociada para los cinco (5) enclavamientos electrónicos (ENCE) integrados al sistema CTC.
 
 #### A. Criterios de Seguridad Operacional
-Bajo la nueva arquitectura de **PTC Virtual (Virtual Fixed Block §236.1005)** definida en el DBCD V002, la senalización física lateral se optimiza para proteger exclusivamente los puntos de conflicto en los nodos de seguridad (estaciones). Se establece un requerimiento mínimo vital de **dos (2) senales principales por nodo ENCE**:
+Bajo la nueva arquitectura de **PTC Virtual (Moving Block)** definida en el DBCD V002, la senalización física lateral se optimiza para proteger exclusivamente los puntos de conflicto en los nodos de seguridad (estaciones). Se establece un requerimiento mínimo vital de **dos (2) senales principales por nodo ENCE**:
 - **Senal de Entrada (Home Signal):** Autoriza el acceso al límite de estación desde el cantón de vía general.
 - **Senal de Salida (Exit Signal):** Autoriza el despacho desde la vía de estación hacia el cantón de vía general.
 

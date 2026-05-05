@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SICC Sovereign Dictamen: Blindaje Virtual Fixed Block §236.1005 vs AT10</title>
+    <title>SICC Sovereign Dictamen: Blindaje Moving Block vs AT10</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -180,7 +180,7 @@
 
         <header class="doc-header">
             <div class="doc-label">DECISIÓN TÉCNICA SICC-2026-002</div>
-            <h1 class="doc-title">Parametrización de Simulación de Capacidad — Blindaje Virtual Fixed Block §236.1005</h1>
+            <h1 class="doc-title">Parametrización de Simulación de Capacidad — Blindaje Moving Block</h1>
             
             <div class="doc-meta">
                 <span>Ref: Apéndice Técnico 10 vs AT1</span>
@@ -197,7 +197,7 @@
                 <span class="legal-ref">Jerarquía Contractual (Sec. 1.2):</span>
                 (ii) Apéndice Técnico 1 prima sobre (xi) Apéndices Técnicos 2 al 10.
             </blockquote>
-            <p>La Tabla 17 del AT1 exige un sistema PTC. El Documento de Bases y Criterios de Diseno (DBCD V002) define la arquitectura como **Virtual Fixed Block §236.1005**. Forzar una simulación de bloques fijos (UIC-405) viola la jerarquía del diseno aprobado.</p>
+            <p>La Tabla 17 del AT1 exige un sistema PTC. El Documento de Bases y Criterios de Diseno (DBCD V002) define la arquitectura como **Moving Block**. Forzar una simulación de bloques fijos (UIC-405) viola la jerarquía del diseno aprobado.</p>
         </section>
 
         <section class="section">
@@ -205,7 +205,7 @@
             <h2>Instrucción de Cumplimiento</h2>
             <div class="conclusion-box">
                 <h3>DICTAMEN TÉCNICO</h3>
-                <p>1. El software de simulación deberá parametrizarse exclusivamente bajo la metodología de Cantones Virtuales (Virtual Fixed Block §236.1005).<br>
+                <p>1. El software de simulación deberá parametrizarse exclusivamente bajo la metodología de Cantones Virtuales (Moving Block).<br>
                 2. Se prohíbe el uso de metodologías de bloques fijos que asuman infraestructura lateral no contractual.</p>
             </div>
         </section>

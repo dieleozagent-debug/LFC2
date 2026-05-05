@@ -1,5 +1,5 @@
 # DECISIÓN TÉCNICA: DT-AT10-001
-## TEMA: Mandato de Simulación Virtual Fixed Block §236.1005 (FRA 236-I) vs. AT10 (Fixed Block)
+## TEMA: Mandato de Simulación Moving Block (FRA 236-I) vs. AT10 (Fixed Block)
 
 **Fecha:** 09 de abril de 2026  
 **Emisor:** Auditoría Forense SICC v7.0  
@@ -21,10 +21,10 @@ Se identifica que el **Apéndice Técnico 10 (AT10)** describe una metodología 
 
 ### 3. DECISIÓN VINCULANTE (SICC v7.0)
 Se ordena al contratista de simulación (Ardanuy) y al EPC ajustar los modelos de capacidad bajo los siguientes parámetros inamovibles:
-1. **Modelado Geométrico:** La simulación DEBE basarse en **Bloque Móvil (Virtual Fixed Block §236.1005)** bajo estándar **FRA Part 236 Subpart I**.
+1. **Modelado Geométrico:** La simulación DEBE basarse en **Bloque Móvil (Moving Block)** bajo estándar **FRA Part 236 Subpart I**.
 2. **Punto de Referencia:** El tren se posiciona mediante **GNSS Directo + EOT Vital**, no mediante Bloque Virtual Dinámico o Posicionamiento GNSS/EOT Vital (Sovereign) (Tecnología Purgada).
 3. **Anulación de Restricción AT10:** Se declara la metodología de bloque fijo del AT10 como **"Guía de Referencia"** y no como **"Restricción de Diseno"**, siendo superada por la exigencia de capacidad del AT1.
-4. **Validación:** El reporte de simulación final deberá certificar el cumplimiento de los intervalos de trenes (Headway) optimizados para Virtual Fixed Block §236.1005.
+4. **Validación:** El reporte de simulación final deberá certificar el cumplimiento de los intervalos de trenes (Headway) optimizados para Moving Block.
 
 ### 4. IMPACTO CAPEX
 - **Ahorro Estimado:** $8M - $15M USD (Evita la construcción de infraestructuras compensatorias por ineficiencia de bloques fijos).

@@ -17,7 +17,7 @@ La senalización de detalle se basa al 100% en la arquitectura **PTC Virtual** (
 - **Comunicaciones:** Canal dual redundante sobre **Red Vital IP / TETRA**.
 
 ### 1.2 Segmento Vía (Wayside):
-- **Bloqueo de Movimiento Dinámico (Virtual Fixed Block §236.1005):** Implementado en el Servidor Maestro SICC. Los trenes mantienen separaciones seguras calculadas en tiempo real.
+- **Bloqueo de Movimiento Dinámico (Moving Block):** Implementado en el Servidor Maestro SICC. Los trenes mantienen separaciones seguras calculadas en tiempo real.
 - **Puntos de Referencia Virtuales:** Reemplazo de Puntos de Referencia Virtuales (SICC) físicas por geocercas GNSS inyectadas en la base de datos de vía.
 
 ---

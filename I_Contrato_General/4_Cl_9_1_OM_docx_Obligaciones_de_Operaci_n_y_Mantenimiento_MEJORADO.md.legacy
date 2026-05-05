@@ -15,7 +15,7 @@ La operación ferroviaria se basa íntegramente en la arquitectura **PTC Virtual
 
 ### 1. GESTIÓN DE CIRCULACIÓN (PTC VIRTUAL)
 - **Autoridad de Movimiento:** Generada digitalmente desde el CCO y transmitida vía **Red Vital IP** a las locomotoras.
-- **Virtual Fixed Block §236.1005:** Operación dinámica que optimiza la capacidad de vía sin depender de bloques fijos físicos.
+- **Moving Block:** Operación dinámica que optimiza la capacidad de vía sin depender de bloques fijos físicos.
 - **Interoperabilidad:** Operación ininterrumpida con FENOCO mediante el **Gateway Digital SICC**. El hand-over debe ser transparente para el maquinista.
 
 ### 2. MANTENIMIENTO PREDICTIVO (SICC v6.3.3)

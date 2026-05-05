@@ -12,7 +12,7 @@
 El Centro de Control de Operaciones (CCO) centraliza la inteligencia del corredor a través de una arquitectura de **Servidor Maestro SICC**. Se elimina la dependencia de hardware ferroviario propietario, optando por sistemas COTS (Commercial Off-The-Shelf) de alta disponibilidad.
 
 ### 1.1 Servidor Maestro SICC (Back-End Vital)
-- **Cálculo Vital:** Algoritmos de separación de trenes (Virtual Fixed Block §236.1005) basados en reportes GNSS/EOT.
+- **Cálculo Vital:** Algoritmos de separación de trenes (Moving Block) basados en reportes GNSS/EOT.
 - **Base de Datos de Vía SICC:** Mapeo digital 3D del corredor (526 km) con perfiles de velocidad y restricciones temporales (TSR).
 - **Interoperabilidad SICC:** Interfaz nativa para integración con sistemas de despacho y mantenimiento.
 

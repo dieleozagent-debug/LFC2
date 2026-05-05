@@ -12,7 +12,7 @@ const WBS_CORE = {
 
     // Get TRM from terminology or default
     getTRM: function() {
-        return (window.LFC_TERMINOLOGY && window.LFC_TERMINOLOGY.FINANCIAL && window.LFC_TERMINOLOGY.FINANCIAL.TRM) || 4400;
+        return (window.LFC_TERMINOLOGY && window.LFC_TERMINOLOGY.FINANCIAL && window.LFC_TERMINOLOGY.FINANCIAL.TRM) || 4000;
     },
 
     // Core Financial Engine

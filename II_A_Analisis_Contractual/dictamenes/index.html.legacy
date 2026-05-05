@@ -406,7 +406,7 @@
             <a href="DT-SICC-V8-PTC_Senalización_Detalle.html" class="rule-card" style="border-color: #ffd700; background: rgba(255, 215, 0, 0.05);">
                 <div class="rule-tag" style="background: #ffd700; color: #0a192f;">MASTER RECIPE v8.2</div>
                 <div class="rule-title">S-PTC: Senalización de Detalle (FRA 236)</div>
-                <div class="rule-summary">Versión Purgada. Blindaje del Virtual Fixed Block §236.1005 limitado a 21 senales físicas en enclavamientos ENCE. Saneamiento de nomenclatura PTC Virtual (SICC) L2 y validación de redundancia satelital.</div>
+                <div class="rule-summary">Versión Purgada. Blindaje del Moving Block limitado a 21 senales físicas en enclavamientos ENCE. Saneamiento de nomenclatura PTC Virtual (SICC) L2 y validación de redundancia satelital.</div>
                 
                 <div class="rule-impact">
                     <div>
@@ -432,10 +432,10 @@
                 </div>
             </a>
 
-            <!-- Virtual Fixed Block §236.1005 CASE -->
+            <!-- MOVING BLOCK CASE -->
             <a href="at10-moving-block.html" class="rule-card" style="border-color: var(--accent);">
                 <div class="rule-tag">DT-SICC-2026-002</div>
-                <div class="rule-title">Blindaje Virtual Fixed Block §236.1005 vs AT10</div>
+                <div class="rule-title">Blindaje Moving Block vs AT10</div>
                 <div class="rule-summary">Instrucción vinculante para parametrizar la simulación de capacidad exclusivamente bajo Cantones Virtuales. Evita la imposición de bloques fijos legacy.</div>
                 
                 <div class="rule-impact">

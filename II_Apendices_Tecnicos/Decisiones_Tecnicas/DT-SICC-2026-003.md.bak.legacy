@@ -18,7 +18,7 @@ Tradicionalmente, la industria ha utilizado la norma **Seguridad de Software baj
 ## 2. JUSTIFICACIÓN DEL CAMBIO NORMATIVO
 
 La aplicación de la **Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP) (Estándar Soberano Michelin v7.0)** en este proyecto genera una **incompatibilidad sistémica**:
-1.  **Fragmentación del Dossier de Seguridad:** Obligaría a generar *Safety Cases* separados e inconexos para la vía y el tren, imposibilitando una certificación de integridad total del sistema Virtual Fixed Block §236.1005.
+1.  **Fragmentación del Dossier de Seguridad:** Obligaría a generar *Safety Cases* separados e inconexos para la vía y el tren, imposibilitando una certificación de integridad total del sistema Moving Block.
 2.  **Riesgo de Sobredimensionamiento (CAPEX):** Los vacíos de certificación en el software embarcado bajo la 50128 podrían ser utilizados por la Interventoría para exigir injustificadamente la instalación de hardware físico en la vía (*balizas pasivas, senales*) para "cubrir" la seguridad.
 3.  **Modernización y Unificación:** La **Seguridad de Software bajo FRA 49 CFR §236.1015 (PTCSP):2023** es la norma sucesora y unificada que cubre todo el ciclo de vida del software ferroviario, tanto para aplicaciones de vía como de a bordo, bajo un mismo estándar de rigor y auditoría.
 

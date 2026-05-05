@@ -226,7 +226,7 @@ Supresion Integridad Redundante</h1>
             funciones de reporte de integridad y monitoreo de presión de
             aire deben ser integradas digitalmente en el ecosistema
             <strong>SICC/OBC</strong> de la locomotora. En una
-            arquitectura de <strong>PTC Virtual (Virtual Fixed Block §236.1005)</strong>,
+            arquitectura de <strong>PTC Virtual (Moving Block)</strong>,
             la integridad de la cola del tren se gestiona mediante la
             “Cola Virtual” (GPS/Odometría), invalidando la necesidad de
             un dispositivo físico de alta latencia en el último
@@ -296,7 +296,7 @@ Supresion Integridad Redundante</h1>
             garantía deba realizarse mediante un <strong>“Hardware EOT
             Físico Externo”</strong>. Dado que el sistema <strong>PTC
             Virtual</strong> (autorizado en el AT1 Tabla 17) opera bajo
-            lógica de Virtual Fixed Block §236.1005, la integridad se deriva de la
+            lógica de Moving Block, la integridad se deriva de la
             correlación de posición del OBC vs. el último reporte de
             longitud del tren. El uso de un EOT físico es un residuo de
             la ingeniería ferroviaria analógica que el SICC v8.0 debe
