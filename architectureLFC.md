@@ -1,704 +1,266 @@
-# 🏗️ ARQUITECTURA DEL SISTEMA COMPLETO - INTEGRACIÓN DT → TODO
-**Proyecto:** Corredor Férreo La Dorada–Chiriguaná (SICC SOVEREIGN)
-**Fecha:** 27 de Abril de 2026
-**Versión:** 14.0 (DeepSeek Edition)
+# 🏗️ ARQUITECTURA DEL SISTEMA — LFC2 (UF2 La Dorada–Chiriguaná)
+**Proyecto:** Corredor Férreo La Dorada–Chiriguaná · Contrato APP No. 001 de 2025
+**Última actualización:** 5 de Mayo de 2026 (post-cirugía BCD v001)
+**Versión:** 14.7 (SICC Unified Edition)
 
 ---
 
-## 📋 RESUMEN EJECUTIVO (SICC v14.0 - Masterchef Edition)
+## 🏛️ JERARQUÍA DE VERDAD TÉCNICA (SSoT)
 
-Este documento describe la **infraestructura técnica de ingeniería** del proyecto. El sistema ha evolucionado de un modelo basado en scripts aislados a un **Pipeline de Saneamiento Masivo** orquestado por el **Agente SICC (Cerebro)**. La verdad técnica fluye desde el dictamen forense hasta el plato servido en Vercel.
+Desde 2026-05-05, la arquitectura se rige por el **BCD v001 (Ardanuy, abril 2026)**. Cualquier documento que contradiga esta jerarquía se considera **LEGACY/OBSOLETO** y debe ir a `_legacy/`.
 
-**Referencia Cruzada al Cerebro:** Para la lógica de auditoría, RAG y Juez Forense, consultar [agente/architecture.md](file:///home/administrador/docker/agente/architecture.md).
+| Nivel | Documento | Rol |
+|---|---|---|
+| **L1** | Contrato APP 001/2025 | Base legal suprema |
+| **L2** | Apéndices Técnicos AT1, AT3, AT5… | Requerimientos funcionales ANI |
+| **L3** | `IV_Ingenieria_basica/BCD_SCC_v001_2026-04.md` | **SSoT técnica vinculante** |
+| **L4** | `SICC_METHODOLOGY_42.md` (raíz) | Metodología unificada del enjambre |
+| **L5** | `IX_WBS_Planificacion/lfc-terminology.js` | Diccionario de constantes y restricciones |
+| **L6** | DT aprobadas en `II_Apendices_Tecnicos/Decisiones_Tecnicas/` | Modificaciones formales sobre BCD |
+| **L7** | `IX_WBS_Planificacion/wbs_presupuestal_datos.js` | Dataset presupuestal certificado |
+| **L8** | `WBS_Vista_Final.html` + Vercel | Plato servido al cliente |
 
----
-
-## 🎯 ESTADO ACTUAL: ¿QUÉ FUNCIONA Y QUÉ NO?
-
-### ✅ **LO QUE SÍ FUNCIONA (Implementado):**
-
-#### **1. Flujo DT → Presupuesto:**
-```
-Especialista modifica Excel
-        ↓
-DT-XXX-YYY.md (con YAML)
-        ↓
-Cursor ejecuta DT (.cursorrules)
-        ↓
-WBS_Presupuestal_v2.0.md actualizado
-        ↓
-Script: sincronizar_TODO.ps1
-        ↓
-datos_wbs_TODOS_items.json actualizado
-        ↓
-datos_wbs_TODOS_items.js generado
-        ↓
-WBS_Presupuesto_SCC_...html ✅ SE ACTUALIZA
-```
-
-#### **4. Pipeline Forense (DeepSeek + RAG):**
-```
-Solicitud de Auditoría (/audit [área])
-        ↓
-Oracle Fetcher (Mandatos FRA 236/SIL-4)
-        ↓
-Juez DeepSeek Reasoner (R1)
-        ↓
-DT Certificada en brain/dictamenes/ ✅ SE GENERA
-```
-
-#### **5. CI/CD Automatizado (/promote):**
-```
-Comando /promote [DT-ID]
-        ↓
-Script gitlocal.js (Copiado a LFC2 Root)
-        ↓
-Git Commit + Push (GitHub LFC2)
-        ↓
-Vercel Auto-deploy ✅ EN VIVO
-```
-
-#### **2. Flujo DT → Metadata EDT:**
-```
-DT con justificación técnica
-        ↓
-wbs_metadata_enriquecida.json actualizado
-        ↓
-wbs_metadata_enriquecida.js generado
-        ↓
-WBS_EDT_Detalle.html ✅ SE ACTUALIZA
-```
-
-#### **3. Flujo DT → Documentos Maestros (Parcial):**
-```
-DT ejecutado
-        ↓
-CRITERIOS_TECNICOS_MAESTRO_v1.0.md ✅ Actualizado (manual)
-        ↓
-MATRIZ_TRAZABILIDAD_TECNICA_v1.0.md ✅ Actualizado (manual)
-        ↓
-MATRIZ_DEPENDENCIAS_DOCUMENTALES_v1.0.md ✅ Actualizado (manual)
-```
+**Regla de desempate normativo (AT3 Cap. I literal c):** AREMA > FRA > AAR > UIC.
 
 ---
 
-### ❌ **LO QUE NO FUNCIONA (Pendiente):**
+## 🎯 CRITERIOS MAESTROS VINCULANTES (BCD v001)
 
-#### **1. Cronograma NO se actualiza:**
-```
-DT modifica cantidades
-        ↓
-❌ WBS_Cronograma_Propuesta.html NO se actualiza
-        ↓
-Razón: Datos HARDCODED en HTML
-        ↓
-Solución: Cargar desde JSON dinámicamente
-```
+| Sistema | Valor | Fuente |
+|---|---|---|
+| **Trocha** | **914 mm** (yarda) | BCD §1.2 |
+| **Corredor** | 526.133 km · PK 201+470 → 722+683 · vía única, carga | BCD §3.2 |
+| **PTC** | Cantonamiento virtual + 5 ENCE físicos · FRA 49 CFR Part 236 Subpart I (2026) | BCD §4.1 |
+| **5 ENCE** | La Dorada–México · Pto Berrío–Grecia · Barrancabermeja · García Cadena · Zapatosa | BCD §4.1 (Tabla 17 AT1) |
+| **Pasos a Nivel** | **24 protegidos** (9 Tipo C + 15 Tipo B). 122 restantes fuera de alcance | BCD §8.2 |
+| **Fibra óptica** | **48 hilos G.652.D**, soterrada, homogénea | BCD §6.1.1 |
+| **TETRA** | Cobertura 100% AT1 · nº torres por simulación RF | BCD §6.2 |
+| **Redundancia comms** | Satelital LEO/GEO · EN 50159 Cat 3 + FRA §236.1033 | BCD §6.2.3 |
+| **CCO** | Principal La Dorada · failover Barrancabermeja · UPS 4h · HA | BCD §7 |
+| **Interoperabilidad FENOCO** | **Stop & Switch operacional** · NO integración técnica/lógica | BCD §9.2 |
+| **Energía señalización/PTC/CCO/PaN** | UPS 4 h · 110V DC | BCD §10.1–10.4 |
+| **Energía TETRA** | UPS **24-48 h** · 48V DC | BCD §10.5 |
+| **TRM Risk** | 4,400 COP/USD (techo cobertura cambiaria) | SICC v14.7 |
 
-#### **2. Riesgos NO se actualizan:**
-```
-DT identifica nuevo riesgo
-        ↓
-❌ WBS_Analisis_Riesgos.html NO se actualiza
-        ↓
-Razón: Datos HARDCODED en HTML
-        ↓
-Solución: Vincular riesgos con ítems WBS
-```
-
-#### **3. Ingeniería de Detalle NO se actualiza:**
-```
-DT modifica criterio técnico
-        ↓
-❌ V.X_Sistema_Detalle.md NO se actualiza automáticamente
-        ↓
-Razón: YAML no especifica cómo actualizar V.X
-        ↓
-Solución: YAML debe indicar sección en V.X a modificar
-```
+**Mandatos de Soberanía (Anti-Scope Creep):**
+- SIL-4 solo al OBC PTC. Sistemas COTS (módems, routers LTE, SD-WAN) operan SIL-2 + EN 50159 Cat 3.
+- CCO failover Barrancabermeja obligatorio (no SPOF en La Dorada).
+- PTC embarcado solo a tractivo. Material remolcado: puesta a punto general sin hardware redundante.
 
 ---
 
-## 🏛️ ARQUITECTURA ACTUAL: CAPAS DEL SISTEMA
+## 🗺️ MAPA DE DEPENDENCIAS WBS — FRONTEND VERCEL
+
+> **Leer ANTES de tocar cualquier `.html`/`.js` en `IX_WBS_Planificacion/`.** Coexisten **dos universos de datos paralelos** con schemas distintos.
+
+### Capas
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│  CAPA 1: FUENTES DE VERDAD (Datos Base)                         │
-├─────────────────────────────────────────────────────────────────┤
-│  1. Excel: X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/    │
-│     └─ Costo proyecto.xlsx ⭐ FUENTE DE VERDAD EXTERNA          │
-│                                                                  │
-│  2. Markdown: IX_WBS_Planificacion/                          │
-│     └─ WBS_Presupuestal_v2.0.md ⭐ FUENTE DE VERDAD INTERNA     │
-│                                                                  │
-│  3. JSON Completo: IX_WBS_Planificacion/                     │
-│     └─ datos_wbs_TODOS_items.json ⭐ DATOS COMPLETOS            │
-│                                                                  │
-│  4. Metadata Técnica: IX_WBS_Planificacion/                  │
-│     └─ wbs_metadata_enriquecida.json ⭐ JUSTIFICACIONES         │
-└─────────────────────────────────────────────────────────────────┘
+┌─ Capa 0: Cosmética / UI compartida ──────────────────────────────┐
+│  sidebar-component.js   → ADN visual + nav. Lee window.LFC_TERMINOLOGY. │
+│  lfc-terminology.js     → window.LFC_TERMINOLOGY (TRM=4400, criterios   │
+│                            maestros). Lo carga TODO HTML del folder.    │
+└──────────────────────────────────────────────────────────────────┘
+
+┌─ Capa 1: DATOS — DOS DATASETS PARALELOS, NO COMPATIBLES ─────────┐
+│                                                                   │
+│  A) wbs_presupuestal_datos.js  — SANEADO v14.7 (entrega 05-05)   │
+│     window.wbsDataPresupuestal = [{item, vu, total, tipo, ...}]  │
+│     135 ítems · 1.1.103 = $11,000M (post-purga FENOCO Sec 25.4)  │
+│     ✅ ALINEADO con BCD v001                                      │
+│                                                                   │
+│  B) datos_wbs_TODOS_items.js   — LEGACY v7.0 Michelin (abril)    │
+│     window.datos_wbs = {trm_aplicada:4000, items:[{codigo,        │
+│                          vu_cop, total_cop, ...}]}                │
+│     1.1.103 = $63,112M (PRE-purga FENOCO)  ⚠️ DESACTUALIZADO     │
+│                                                                   │
+│  Datasets auxiliares (un solo consumidor):                        │
+│  · cronograma_datos.js         → WBS_Cronograma_Propuesta         │
+│  · riesgos_wbs.js              → WBS_Analisis_Riesgos             │
+│  · reporte_gerencial_data.js   → WBS_Reporte_Gerencial            │
+│  · wbs_metadata_enriquecida.js → metadata extra para B            │
+└──────────────────────────────────────────────────────────────────┘
+
+┌─ Capa 2: MOTOR (solo universo A) ────────────────────────────────┐
+│  wbs_core_logic.js → WBS_CORE.{getTRM, calcularAIUeIVA,          │
+│                                getNombresCapitulos, parseNumber} │
+│  Lee TRM desde window.LFC_TERMINOLOGY.FINANCIAL.TRM.             │
+│  AIU = 33% sobre Obra Civil (23+5+5). IVA = 19%.                 │
+│  Universo B NO usa este motor; hardcodea `const TRM = 4400`.     │
+└──────────────────────────────────────────────────────────────────┘
+```
+
+### Capa 3: Vistas HTML — qué dataset consume cada una
+
+| HTML | Dataset | Motor | Notas |
+|---|---|---|---|
+| `WBS_Vista_Final.html` | **A** saneado | `wbs_core_logic` | ⭐ Vista de entrega ANI 2026-05-05 |
+| `WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguana.html` | **A** | `wbs_core_logic` | Presupuesto extendido |
+| `WBS_Cronograma_Propuesta.html` | **A** + `cronograma_datos.js` | — | Gantt |
+| `WBS_Controles_Operativos_L4.html` | **A** | `wbs_core_logic` | L4 ops |
+| `WBS_COMPLETA_TODO_Interactiva_v4.0.html` | **B** legacy | TRM hardcoded | ⚠️ Linkeado por sidebar |
+| `WBS_COMPLETA_TODO_Interactiva_v4_0.html` | **B** | hardcoded | Duplicado idéntico |
+| `WBS_EDT_Detalle.html` | **B** + `wbs_metadata_enriquecida.js` | — | EDT por ítem |
+| `WBS_Analisis_Riesgos.html` | `riesgos_wbs.js` | — | Riesgos |
+| `WBS_Reporte_Gerencial.html` | `reporte_gerencial_data.js` | — | Reporte L1 |
+| `WBS_Menu_Principal.html` | (solo UI) | — | Hub |
+
+### 🚨 La trampa heredada de la sesión 2026-05-04
+
+`sidebar-component.js:20` linkea **"🚀 WBS Interactiva"** → `WBS_COMPLETA_TODO_Interactiva_v4.0.html` (universo **B**, legacy). Un evaluador que entre desde el home y haga click ahí verá el ítem **1.1.103 con valor pre-purga ($63,112M)**, contradiciendo `Vista_Final` ($11,000M conciliados). La purga FENOCO Sec 25.4 se aplicó solo en universo A; el universo B quedó congelado en abril.
+
+**Reglas operativas para futuras sesiones:**
+1. Antes de modificar cifras del WBS, identificar a cuál universo pertenece el archivo. Tocar uno sin el otro = desincronización.
+2. La línea base certificada es **A** (`wbs_presupuestal_datos.js`). Motor canónico: `wbs_core_logic.js`. TRM canónica: `lfc-terminology.js:98` (`TRM: 4400`).
+3. Universo B (`datos_wbs_TODOS_items.js`) está obsoleto pero servido. Plan: migrar `WBS_COMPLETA_TODO_Interactiva_*.html` a A (mapping `codigo→item`, `vu_cop→vu`, `total_cop→total`) y eliminar B.
+4. Mientras B exista, la sidebar debe apuntar a `WBS_Vista_Final.html` para no exponer cifras pre-purga.
+
+---
+
+## 🔄 FLUJO DT → SISTEMA (Pipeline ideal)
+
+```
+ESPECIALISTA → DT v4.2 (II_Apendices_Tecnicos/Decisiones_Tecnicas/DT-XXX-YYY-FECHA.md)
+                con bloque YAML ejecutable (Sección 10)
         ↓
-┌─────────────────────────────────────────────────────────────────┐
-│  CAPA 2: TRANSFORMACIÓN (El Motor Node.js)                      │
-├─────────────────────────────────────────────────────────────────┤
-│  Ubicación: scripts/                                            │
-│                                                                  │
-│  1. lfc-cli.js: El Chef Ejecutivo (CLI Central)                  │
-│     ├─ process-dts: El Cirujano. Lee YAML → Parchea .md         │
-│     ├─ sync: El Maître. WBS.md → datos_wbs_TODOS_items.js       │
-│     └─ cook: El Cocinero. MD → HTML + Inyección de Escudos      │
-│                                                                  │
-│  2. lfc-verify.js: El Auditor de Calidad                        │
-│     └─ Valida invariantes técnicos (ej: que no haya SIL-2 en ENCE)│
-│                                                                  │
-│  3. lfc-daemon.js: El Centinela (Watcher)                       │
-│     └─ Monitorea cambios en MD y relanza el cook automáticamente │
-└─────────────────────────────────────────────────────────────────┘
+AGENTE SICC (Swarm) — `/audit [área]` — verifica DT contra BCD v001 + Contrato vía MCP NotebookLM
         ↓
-┌─────────────────────────────────────────────────────────────────┐
-│  CAPA 3: SERVICIO DEL MENÚ (Frontend Dinámico)                  │
-├─────────────────────────────────────────────────────────────────┤
-│  ¿Cómo se sirve el menú en index.html?                          │
-│                                                                  │
-│  1. Datos (datos_wbs_TODOS_items.js): Generado por lfc-cli sync.│
-│     Contiene la jerarquía completa de la ingeniería en JSON.    │
-│                                                                  │
-│  2. Terminología (lfc-terminology.js): Asegura que el título y  │
-│     glosario del menú sean coherentes en todo el sitio.         │
-│                                                                  │
-│  3. Inyección (index.html Script): El frontend lee window.datos_wbs│
-│     y renderiza dinámicamente las métricas de "Platos Servidos" │
-│     y los puntos de entrada operacionales.                      │
-└─────────────────────────────────────────────────────────────────┘
+JUEZ (consenso doble-ciego Tridente NVIDIA NIM)
+   ├─ APROBADO → brain/dictamenes/ + /promote → push a LFC2/II_Apendices_Tecnicos/
+   └─ RECHAZADO → brain/SPECIALTIES/{area}.md (vacuna anti-alucinación)
         ↓
-┌─────────────────────────────────────────────────────────────────┐
-│  CAPA 3: DATOS INTERMEDIOS (JavaScript para HTML)               │
-├─────────────────────────────────────────────────────────────────┤
-│  Archivos .js generados: IX_WBS_Planificacion/               │
-│                                                                  │
-│  1. wbs_presupuestal_datos.js                                    │
-│     └─ Para WBS_Presupuesto_SCC_...html                         │
-│                                                                  │
-│  2. datos_wbs_TODOS_items.js                                     │
-│     └─ Para WBS_COMPLETA_TODO_Interactiva_v4.0.html             │
-│                                                                  │
-│  3. wbs_metadata_enriquecida.js                                  │
-│     └─ Para WBS_EDT_Detalle.html                                │
-│                                                                  │
-│  4. criterios_tecnicos_base.js                                   │
-│     └─ Criterios técnicos (legacy)                              │
-│                                                                  │
-│  5. duraciones_cronograma.js ❌ NO DINAMICO                     │
-│     └─ HARDCODED - Necesita cargar desde JSON                   │
-│                                                                  │
-│  6. riesgos_proyecto.js ❌ PARCIALMENTE DINAMICO                │
-│     └─ No vinculado con ítems WBS                               │
-└─────────────────────────────────────────────────────────────────┘
+CIRUGÍA — `lfc-cli process-dts` lee YAML y aplica replace físico:
+        ├─ NIVEL 1: WBS y presupuesto (wbs_presupuestal_datos.js, .md sincronizado)
+        ├─ NIVEL 2: Cronograma + Riesgos (cronograma_datos.js, riesgos_wbs.js)
+        ├─ NIVEL 3: Ingeniería de detalle (V_X_Sistema_Detalle_vN.md)
+        ├─ NIVEL 4: Documentos Maestros (CRITERIOS_TECNICOS_MAESTRO, MATRIZ_TRAZABILIDAD)
+        ├─ NIVEL 5: Entregables consolidados (X_ENTREGABLES_CONSOLIDADOS)
+        └─ NIVEL 6: Índices y navegación (Indice_Maestro, sidebar)
         ↓
-┌─────────────────────────────────────────────────────────────────┐
-│  CAPA 4: VISUALIZACIÓN (Interfaces HTML)                        │
-├─────────────────────────────────────────────────────────────────┤
-│  Interfaces HTML: IX_WBS_Planificacion/                      │
-│                                                                  │
-│  1. WBS_Presupuesto_SCC_...html ✅ DINAMICO                     │
-│     └─ Carga: wbs_presupuestal_datos.js                         │
-│     └─ Cálculos AIU/IVA en tiempo real                          │
-│                                                                  │
-│  2. WBS_EDT_Detalle.html ✅ DINAMICO                            │
-│     └─ Carga: wbs_metadata_enriquecida.json                     │
-│     └─ Muestra justificaciones, criterios, feedback             │
-│                                                                  │
-│  3. WBS_COMPLETA_TODO_Interactiva_v4.0.html ✅ DINAMICO         │
-│     └─ Carga: datos_wbs_TODOS_items.js                          │
-│     └─ 124 ítems + criterios técnicos                           │
-│                                                                  │
-│  4. WBS_Cronograma_Propuesta.html ❌ HARDCODED                  │
-│     └─ Necesita cargar desde JSON dinámicamente                 │
-│                                                                  │
-│  5. WBS_Analisis_Riesgos.html ❌ HARDCODED                      │
-│     └─ Necesita vincular riesgos con ítems WBS                  │
-│                                                                  │
-│  6. WBS_Reporte_Gerencial.html ⚠️ PARCIAL                      │
-│     └─ Pareto funciona, pero no actualiza en tiempo real        │
-└─────────────────────────────────────────────────────────────────┘
+SINCRO — `lfc-cli sync` regenera wbs_presupuestal_datos.js (cache-bust v=14.7.X)
         ↓
-┌─────────────────────────────────────────────────────────────────┐
-│  CAPA 5: DOCUMENTOS MAESTROS (VIII/)                            │
-├─────────────────────────────────────────────────────────────────┤
-│  Documentos de Coherencia: VIII. Documentos Maestros/           │
-│                                                                  │
-│  1. CRITERIOS_TECNICOS_MAESTRO_v1.0.md ⚠️ MANUAL                │
-│     └─ DT debe agregar/actualizar línea en tabla                │
-│                                                                  │
-│  2. MATRIZ_TRAZABILIDAD_TECNICA_v1.0.md ⚠️ MANUAL               │
-│     └─ DT debe enlazar → Documentos afectados                   │
-│                                                                  │
-│  3. MATRIZ_DEPENDENCIAS_DOCUMENTALES_v1.0.md ⚠️ MANUAL          │
-│     └─ DT debe agregar fila: Componente → DT → Archivos         │
-│                                                                  │
-│  4. MATRIZ_RIESGOS_PMO_AMPLIADA_v1.0.md ⚠️ MANUAL               │
-│     └─ Si DT identifica riesgo, agregarlo                       │
-│                                                                  │
-│  5. PROCEDIMIENTOS_COHERENCIA_TECNICA_v1.0.md ✅ APLICABLE      │
-│     └─ Se APLICA como procedimiento (no se modifica)            │
-└─────────────────────────────────────────────────────────────────┘
+SERVICIO — `lfc-cli cook` convierte MD → HTML, deploy Vercel
         ↓
-┌─────────────────────────────────────────────────────────────────┐
-│  CAPA 6: INGENIERÍA DE DETALLE (V_Ingenieria_detalle/)      │
-├─────────────────────────────────────────────────────────────────┤
-│  Documentos Técnicos por Sistema:                               │
-│                                                                  │
-│  1. V.1_Senalizacion_Ferroviaria_Detalle_vX.md ❌ MANUAL        │
-│     └─ DT debe actualizar sección específica                    │
-│                                                                  │
-│  2. V.2_CTC_Detalle_vX.md ❌ MANUAL                             │
-│     └─ Ejemplo: DT-CTC-002 → §3.2 "Arquitectura"                │
-│                                                                  │
-│  3. V.3_Sistemas_Comunicacion_Detalle_vX.md ❌ MANUAL           │
-│  4. V.4_Sistemas_Potencia_Detalle_vX.md ❌ MANUAL               │
-│  5. V.5_Sistemas_Seguridad_Detalle_vX.md ❌ MANUAL              │
-└─────────────────────────────────────────────────────────────────┘
+TRAZABILIDAD bidireccional:
+   DT → enlaza WBS, V.X, AT, criterios maestros
+   WBS item → muestra "Origen: DT-XXX-YYY"
 ```
 
 ---
 
-## 🔄 FLUJO COMPLETO: DECISIÓN TÉCNICA (DT) → SISTEMA
+## 🤖 ARQUITECTURA DEL AGENTE EXTERNO
 
-### **FLUJO IDEAL (100% Automatizado):**
+> Implementación viva en `/home/administrador/docker/agente/architecture.md`. Aquí solo el contrato funcional que LFC2 espera del agente.
+
+### Stack vigente (2026-05)
+
+| Servicio | Rol |
+|---|---|
+| **Bot Telegram** (`src/index.js`) | Interfaz de mando soberano · long polling |
+| **Oracle MCP** (`notebooklm-mcp-v12:3001`) | Verdad Externa · 108 fuentes Contrato/Ardanuy |
+| **Postgres pgvector** (`sicc-postgres:5432`) | Biblia Legal · 10.358 fragmentos Contrato APP 001/2025 + memoria genética |
+| **Tridente NVIDIA NIM** | DeepSeek-v4-pro (Auditor) · Nemotron-3-super (Legal) · Llama 3.3 70B (Coordinador) |
+| **Embeddings** | Gemini `embedding-001` (Cloud) → fallback Ollama `nomic-embed-text` (Local) |
+| **Tier 2 fallback** | Ollama local (Llama 3.1 8B / Gemma 2 9B) — soberanía offline |
+
+### Pipeline FASE-0 a FASE-5 (`procesarMensaje()`)
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│  PASO 1: ESPECIALISTA PROPONE CAMBIO                            │
-└─────────────────────────────────────────────────────────────────┘
-
-Especialista (Chat/Reunión):
-  "Cambiar PTC de 15 a 8 unidades"
-  "Justificación: Alineación con 5 locomotoras AT1"
-  "Criterio: 5 producción + 2 diseno/pruebas + 1 contingencia"
-        ↓
-┌─────────────────────────────────────────────────────────────────┐
-│  PASO 2: CREAR DECISIÓN TÉCNICA (DT)                            │
-└─────────────────────────────────────────────────────────────────┘
-
-II_Apendices_Tecnicos/Decisiones_Tecnicas/
-  DT-TETRA-001-2025-10-07.md
-        ↓
-Secciones 1-9: Contexto técnico completo
-Sección 10: YAML con instrucciones de ejecución
-        ↓
-┌─────────────────────────────────────────────────────────────────┐
-│  PASO 3: CURSOR EJECUTA DT (Automático)                         │
-└─────────────────────────────────────────────────────────────────┘
-
-Cursor lee .cursorrules:
-  "Al detectar DT-*.md, ofrecer ejecución"
-        ↓
-Cursor parsea YAML (Sección 10):
-  - items_actualizar: ["1.2.100", "1.2.101", ...]
-  - nuevo_valor: 8
-  - justificacion: "Alineación AT1"
-        ↓
-Cursor ejecuta cambios en 6 NIVELES:
-
-  ┌─────────────────────────────────────────────────────────────┐
-  │  NIVEL 1: WBS Y PRESUPUESTO                                 │
-  └─────────────────────────────────────────────────────────────┘
-  
-  1.1. Actualiza WBS_Presupuestal_v2.0.md
-       └─ Item 1.2.100: cantidad 15 → 8
-       └─ Recalcula total: $1.800M → $960M
-  
-  1.2. Regenera datos_wbs_TODOS_items.json
-       └─ Script: sincronizar_TODO_MEJORADO.ps1
-       └─ Actualiza ítems dependientes (1.2.101, 1.2.102, etc.)
-  
-  1.3. Agrega metadata técnica
-       └─ wbs_metadata_enriquecida.json
-       └─ Justificación: "Alineación AT1"
-       └─ Criterio: "5+2+1"
-       └─ Feedback especialista: (del chat)
-  
-  1.4. Actualiza interfaces HTML
-       └─ WBS_Presupuesto_SCC_...html ✅
-       └─ WBS_EDT_Detalle.html ✅
-       └─ WBS_COMPLETA_TODO_...html ✅
-
-  ┌─────────────────────────────────────────────────────────────┐
-  │  NIVEL 2: CRONOGRAMA Y RIESGOS ❌ FALTA IMPLEMENTAR         │
-  └─────────────────────────────────────────────────────────────┘
-  
-  2.1. Actualiza cronograma_datos.json ❌ NO EXISTE
-       └─ Recalcula duraciones según nueva cantidad
-       └─ Item 1.2.100: 15 UND = 5 meses → 8 UND = 3 meses
-       └─ Impacto en ruta crítica: Actualizar
-  
-  2.2. Regenera duraciones_cronograma.js ❌ HARDCODED
-       └─ Script debe leer desde JSON
-  
-  2.3. WBS_Cronograma_Propuesta.html se actualiza ❌
-       └─ Debe cargar desde duraciones_cronograma.js dinámicamente
-  
-  2.4. Actualiza riesgos_wbs.json ❌ NO EXISTE
-       └─ Vincular riesgos con ítems específicos
-       └─ Item 1.2.100: Riesgo R-PTC-001 (Disponibilidad PTC)
-  
-  2.5. WBS_Analisis_Riesgos.html se actualiza ❌
-       └─ Debe cargar desde riesgos_wbs.json
-
-  ┌─────────────────────────────────────────────────────────────┐
-  │  NIVEL 3: INGENIERÍA DE DETALLE ❌ FALTA IMPLEMENTAR        │
-  └─────────────────────────────────────────────────────────────┘
-  
-  3.1. Actualiza V.2_CTC_Detalle_vX.md ❌ MANUAL
-       └─ YAML debe especificar:
-           seccion: "V.2 §3.2 Arquitectura PTC"
-           cambio: "15 unidades PTC → 8 unidades PTC"
-           justificacion: "Alineación AT1"
-  
-  3.2. Versiona documento ❌ MANUAL
-       └─ V.2_CTC_Detalle_v4.0.md → v4.1.md
-       └─ Agrega nota: "Origen: DT-TETRA-001"
-
-  ┌─────────────────────────────────────────────────────────────┐
-  │  NIVEL 4: DOCUMENTOS MAESTROS (VIII/) ⚠️ PARCIAL           │
-  └─────────────────────────────────────────────────────────────┘
-  
-  4.1. CRITERIOS_TECNICOS_MAESTRO_v1.0.md ⚠️ MANUAL
-       └─ Agrega fila en tabla:
-           | PTC Embarcado | 5+2+1 = 8 UND | AT1 (5 locomotoras) |
-  
-  4.2. MATRIZ_TRAZABILIDAD_TECNICA_v1.0.md ⚠️ MANUAL
-       └─ Agrega enlace:
-           DT-TETRA-001 → V.2 CTC, WBS 1.2.100, AT1
-  
-  4.3. MATRIZ_DEPENDENCIAS_DOCUMENTALES_v1.0.md ⚠️ MANUAL
-       └─ Agrega fila:
-           | PTC | DT-TETRA-001 | V.2, WBS, AT1 | Cantidad |
-  
-  4.4. MATRIZ_RIESGOS_PMO_AMPLIADA_v1.0.md ⚠️ SI APLICA
-       └─ Si DT identifica riesgo, agregarlo
-
-  ┌─────────────────────────────────────────────────────────────┐
-  │  NIVEL 5: ENTREGABLES CONSOLIDADOS (X/) ⚠️ SI EXISTE        │
-  └─────────────────────────────────────────────────────────────┘
-  
-  5.1. SISTEMA_01_Control_Master.md ⚠️ SI YA CONSOLIDADO
-       └─ Actualiza sección PTC embarcado
-       └─ Refleja cambio 15 → 8 UND
-
-  ┌─────────────────────────────────────────────────────────────┐
-  │  NIVEL 6: ÍNDICES Y NAVEGACIÓN ⚠️ MANUAL                    │
-  └─────────────────────────────────────────────────────────────┘
-  
-  6.1. Indice_Maestro_Consolidado_v1.0.md
-       └─ Actualiza referencias cruzadas
-       └─ V.2 CTC v4.0 → v4.1
-
-┌─────────────────────────────────────────────────────────────────┐
-│  PASO 4: VERIFICACIÓN AUTOMÁTICA                                │
-└─────────────────────────────────────────────────────────────────┘
-
-Script: sincronizar_TODO_MEJORADO.ps1
-  ├─ Valida coherencia entre documentos
-  ├─ Genera reporte de cambios
-  └─ Actualiza interfaces HTML (cache bust v3.0 → v3.1)
-
-┌─────────────────────────────────────────────────────────────────┐
-│  PASO 5: TRAZABILIDAD BIDIRECCIONAL                             │
-└─────────────────────────────────────────────────────────────────┘
-
-DT → Documentos (hacia adelante):
-  DT-TETRA-001 enlaza a:
-    ├─ WBS 1.2.100
-    ├─ V.2 CTC §3.2
-    ├─ AT1 (Alcance)
-    └─ CRITERIOS_TECNICOS_MAESTRO
-
-Documentos → DT (hacia atrás):
-  WBS 1.2.100 muestra:
-    "Origen cambio: DT-TETRA-001"
-    "Justificación: Alineación AT1"
+FASE-0: evaluarRecursos        → CPU governor
+FASE-1: buscarLecciones        → sicc_genetic_memory (vacunas, coseno >0.7)
+FASE-2: buscarSimilares        → contrato_documentos (top-3 fragmentos)
+FASE-3: validarExternaNotebook → Oracle MCP :3001
+FASE-4: seleccionarSkills      → brain/skills/*.md
+FASE-5: getMultiplexedContext  → Tridente NVIDIA NIM con systemPromptSICC
 ```
+
+### Bucle `/audit [área]` — hasta 3 ciclos
+
+```
+FASE 0:    Supabase RAG extrae contexto crudo (Contrato + AT + BCD)
+FASE 0.5:  Oracle Fetcher → Ficha Técnica obligatoria (distil-mandates.js)
+FASE 1:    Auditor genera borrador DT con citación canónica
+FASE 2:    validarInternaSupabase + validarExternaNotebook
+FASE 3:    Juez SICC v14.5 (Heurística Forense agnóstica a JSON)
+FASE 4:    APROBADO → brain/dictamenes/ + vectorización + /promote
+           RECHAZADO → brain/SPECIALTIES/{area}.md (Vacuna Genética)
+```
+
+**Hard-caps:** MAX_CICLOS=3 · timeout=1800s · Oracle timeout=90s · throttle NIM 1.5s · prompt destilado <5000 chars.
 
 ---
 
-## 🔧 QUÉ FALTA PARA ENGRANAR TODO
+## 📊 ESTADO ACTUAL — qué funciona y qué no
 
-### **PRIORIDAD ALTA:**
+### ✅ Implementado y funcional
 
-#### **1. Cronogramas Dinámicos:**
+| Flujo | Estado | Comentario |
+|---|---|---|
+| DT → Presupuesto Universo A | ✅ | `wbs_presupuestal_datos.js` actualizado vía `sincronizar_TODO`. WBS_Vista_Final consume en vivo. |
+| Vista Final entregable (Vercel) | ✅ | 135 ítems, AIU 33% + IVA 19% calculados en tiempo real. Excel 4 hojas. |
+| Pipeline forense `/audit` | ✅ | Tridente NVIDIA NIM emite DTs certificadas en `brain/dictamenes/`. |
+| CI/CD `/promote` | ✅ | `gitlocal.js` copia DT → LFC2 → push GitHub → Vercel auto-deploy. |
+| Cache-busting | ✅ | Universo A: `?v=14.7.3`. |
 
-**Crear:** `cronograma_datos.json`
-```json
-{
-  "items": [
-    {
-      "codigo": "1.2.100",
-      "actividad": "Adquisición PTC embarcado",
-      "cantidad": 8,
-      "duracion_unitaria": 15,  // días por unidad
-      "duracion_total": 120,    // días
-      "inicio": "2025-01-15",
-      "fin": "2025-05-14",
-      "dependencias": ["1.2.101", "6.1.100"],
-      "ruta_critica": false
-    }
-  ]
-}
-```
+### ⚠️ Parcial / con desincronización
 
-**Modificar:** `WBS_Cronograma_Propuesta.html`
-```javascript
-// Cargar datos dinámicamente
-fetch('cronograma_datos.json')
-  .then(response => response.json())
-  .then(data => renderCronograma(data));
-```
+| Flujo | Estado | Comentario |
+|---|---|---|
+| Universo B (`datos_wbs_TODOS_items.js`) | ⚠️ | Servido pero pre-BCD. Sidebar lo linkea como "WBS Interactiva". Ítem 1.1.103 = $63,112M (incorrecto). |
+| Cronograma dinámico | ⚠️ | `cronograma_datos.js` existe pero `WBS_Cronograma_Propuesta.html` parcialmente hardcoded. |
+| Riesgos vinculados | ⚠️ | `riesgos_wbs.js` existe pero NO vincula con ítems WBS específicos. |
+| Reporte gerencial | ⚠️ | Pareto funciona; no actualiza tiempo real. |
+| Excel hoja 4 (Fuentes) | ⚠️ | Hardcoded "133 ítems" — contradice meta dinámico (135). |
 
-**Script:** `sincronizar_cronograma.ps1`
-```powershell
-# Leer WBS y calcular duraciones
-# Generar cronograma_datos.json
-# Actualizar cronograma_datos.js
-```
+### ❌ Pendiente
+
+| Flujo | Estado | Comentario |
+|---|---|---|
+| Actualización V_X (Ingeniería Detalle) | ❌ | Manual. YAML de DT no especifica sección a actualizar. |
+| Actualización VIII_/ Documentos Maestros | ❌ | Manual. CRITERIOS_TECNICOS_MAESTRO, MATRIZ_TRAZABILIDAD requieren edición. |
+| Sync Excel ↔ Sistema | ❌ | Solo Excel → Sistema. No bidireccional. |
+| File watcher / hot-reload | ❌ | Sin daemon. Cambios requieren ejecución manual de scripts. |
 
 ---
 
-#### **2. Riesgos Vinculados:**
+## 🔧 DEUDA TÉCNICA ACTIVA (2026-05-05)
 
-**Crear:** `riesgos_wbs.json`
-```json
-{
-  "riesgos": [
-    {
-      "id": "R-PTC-001",
-      "items_afectados": ["1.2.100", "1.2.101", "6.1.100"],
-      "descripcion": "Disponibilidad de PTC",
-      "probabilidad": "Media",
-      "impacto": "Alto",
-      "exposicion": 15,
-      "mitigacion": "Contratos marco con proveedores",
-      "estado": "Activo"
-    }
-  ]
-}
-```
-
-**Modificar:** `WBS_Analisis_Riesgos.html`
-```javascript
-// Cargar riesgos vinculados
-fetch('riesgos_wbs.json')
-  .then(response => response.json())
-  .then(data => renderRiesgos(data));
-
-// Mostrar riesgos por ítem WBS
-function mostrarRiesgosPorItem(codigo) {
-  return riesgos.filter(r => 
-    r.items_afectados.includes(codigo)
-  );
-}
-```
+| ID | Item | Severidad | Acción |
+|---|---|---|---|
+| 1 | **DT-SICC-2026-015** (fibra 64h) contradice BCD §6.1.1 (48h) | 🔴 Alta | Matar o reescribir post-BCD |
+| 2 | `agente/architecture.md:22` dice fibra 64h | 🔴 Alta | Corregir a 48h |
+| 3 | `agente/architecture.md:25` "eliminada 24h UPS" | 🔴 Alta | Restaurar BCD §10.5: TETRA 24-48h |
+| 4 | Sidebar linkea universo B como "WBS Interactiva" | 🔴 Alta | Reapuntar a `WBS_Vista_Final.html` |
+| 5 | Universo B (`datos_wbs_TODOS_items.js`) servido con cifras pre-purga | 🟡 Media | Migrar a A o dropear |
+| 6 | Excel hoja 4 hardcoded "133 ítems" | 🟢 Baja | Parametrizar a `data.length` |
+| 7 | Re-ingesta `contrato_documentos` con BCD v001 | 🟡 Media | Necesario para que el agente cite correctamente |
+| 8 | Locomotoras nº exacto (15 actual = post-DT) | 🟡 Media | Verificar AT1 Cap 5.1 + DT formal |
+| 9 | WBS_Presupuestal_v4_0_MICHELIN: 24 PaN no 146, fibra 48h | 🟡 Media | Reconciliar |
 
 ---
 
-#### **3. Actualización Automática de V.X (Ingeniería Detalle):**
+## 📁 ESTRUCTURA DOCUMENTAL
 
-**Modificar YAML en DT:**
-```yaml
-archivos_actualizar:
-  - file: "V_Ingenieria_detalle/V.2_CTC_Detalle_v4.0.md"
-    accion: "actualizar_seccion_y_versionar"
-    seccion: "§3.2 Arquitectura PTC Embarcado"
-    cambios:
-      - buscar: "15 unidades PTC embarcadas"
-        reemplazar: "8 unidades PTC embarcadas"
-      - buscar: "uno por cada locomotora (15 total)"
-        reemplazar: "5 producción + 2 diseno/pruebas + 1 contingencia (8 total)"
-    versionamiento:
-      version_actual: "v4.0"
-      version_nueva: "v4.1"
-      razon: "DT-TETRA-001 - Ajuste cantidad PTC"
-      agregar_nota: "Origen: DT-TETRA-001 | Alineación AT1"
-```
+| Carpeta | Contenido |
+|---|---|
+| `I_Contrato_General/` | Contrato + cláusulas |
+| `II_Apendices_Tecnicos/` | AT1-AT10 + `Decisiones_Tecnicas/` (DT canónicas) |
+| `II_A_Analisis_Contractual/` | Dictámenes contractuales |
+| `III_Ingenieria_conceptual/` | Análisis de Riesgos y Supuestos |
+| `IV_Ingenieria_basica/` | **BCD_SCC_v001_2026-04.md** + BCD v002 (Punto 42) + memorias diseño |
+| `V_Ingenieria_detalle/` | Planos y secciones por especialidad |
+| `VI_Operacion_Mantenimiento_Reversion/` | O&M |
+| `VII_Soporte_Especializado/` | Normas, RAMS, ciberseguridad |
+| `VII_Documentos_Transversales/` | Cruzados |
+| `VIII_Documentos_Maestros_Metodologia/` | Metodología (legacy en `_legacy/`) |
+| `IX_WBS_Planificacion/` | WBS, datasets `.js`, vistas HTML, motor de cálculo |
+| `IX_ENTREGABLES/` | Entregables intermedios |
+| `X_ENTREGABLES_CONSOLIDADOS/` | "Restaurante" platos servidos |
 
 ---
 
-### **PRIORIDAD MEDIA:**
-
-#### **4. Actualización Automática VIII/ (Documentos Maestros):**
-
-**Modificar:** `.cursorrules`
-```yaml
-# Regla: Al ejecutar DT, actualizar VIII/
-
-CRITERIOS_TECNICOS_MAESTRO:
-  - Buscar tabla de criterios
-  - Agregar/actualizar línea correspondiente
-  - Formato: | Sistema | Criterio | Cantidad | Justificación |
-
-MATRIZ_TRAZABILIDAD:
-  - Buscar sección del sistema
-  - Agregar enlace: DT → Documentos
-  - Formato: [DT-ID] → [V.X, WBS, AT]
-
-MATRIZ_DEPENDENCIAS:
-  - Buscar tabla
-  - Agregar fila: | Componente | DT | Archivos | Tipo |
-```
-
----
-
-#### **5. Sincronización Excel ↔ Sistema:**
-
-**Ya implementado parcialmente:** `scripts/sync_wbs_simple.ps1`
-
-**Falta:**
-- Bidireccionalidad: Sistema → Excel
-- Actualización de cronogramas en Excel
-- Actualización de riesgos en Excel
-
----
-
-### **PRIORIDAD BAJA:**
-
-#### **6. Reporte Gerencial en Tiempo Real:**
-
-**Modificar:** `WBS_Reporte_Gerencial.html`
-```javascript
-// Escuchar cambios en datos
-setInterval(() => {
-  fetch('datos_wbs_TODOS_items.json?' + Date.now())
-    .then(response => response.json())
-    .then(data => {
-      if (JSON.stringify(data) !== JSON.stringify(currentData)) {
-        actualizarReporte(data);
-      }
-    });
-}, 5000); // Cada 5 segundos
-```
-
----
-
-## 📊 MATRIZ DE IMPLEMENTACIÓN
-
-| Componente | Estado Actual | Acción Requerida | Tiempo | Prioridad |
-|:-----------|:--------------|:-----------------|:------:|:---------:|
-| **Cronograma Dinámico** | ❌ Hardcoded | Crear JSON + Modificar HTML | 2-3h | 🔴 Alta |
-| **Riesgos Vinculados** | ❌ Hardcoded | Crear JSON + Vincular WBS | 2-3h | 🔴 Alta |
-| **Actualización V.X** | ❌ Manual | Ampliar YAML + Script | 1-2h | 🔴 Alta |
-| **Actualización VIII/** | ⚠️ Parcial | Automatizar en .cursorrules | 2-3h | 🟡 Media |
-| **Sync Excel ↔ Sistema** | ⚠️ Parcial | Bidireccionalidad | 2-3h | 🟡 Media |
-| **Reporte Tiempo Real** | ⚠️ Parcial | Polling/WebSocket | 1-2h | 🟢 Baja |
-| **TOTAL** | - | - | **10-16h** | - |
-
----
-
-## 🎯 PLAN DE ACCIÓN RECOMENDADO
-
-### **FASE 1: Cronogramas y Riesgos (Esta semana - 4-6 horas):**
-
-1. **Cronograma Dinámico (2-3 horas):**
-   - Crear `cronograma_datos.json`
-   - Crear `sincronizar_cronograma.ps1`
-   - Modificar `WBS_Cronograma_Propuesta.html`
-   - Probar con DT-TETRA-001
-
-2. **Riesgos Vinculados (2-3 horas):**
-   - Crear `riesgos_wbs.json`
-   - Vincular riesgos con ítems WBS
-   - Modificar `WBS_Analisis_Riesgos.html`
-   - Probar con R-PTC-001
-
----
-
-### **FASE 2: Documentos Maestros (Próxima semana - 4-6 horas):**
-
-3. **Actualización Automática V.X (1-2 horas):**
-   - Ampliar YAML en DTs
-   - Crear script `actualizar_documentos_detalle.ps1`
-   - Probar con V.2 CTC
-
-4. **Actualización Automática VIII/ (2-3 horas):**
-   - Modificar `.cursorrules`
-   - Agregar reglas para cada documento VIII/
-   - Probar con DT-TETRA-001
-
-5. **Sync Excel ↔ Sistema (2-3 horas):**
-   - Ampliar `sync_wbs_simple.ps1`
-   - Agregar exportación Sistema → Excel
-   - Probar bidireccionalidad
-
----
-
-### **FASE 3: Optimizaciones (Futuro - 2-4 horas):**
-
-6. **Reporte Tiempo Real (1-2 horas):**
-   - Implementar polling o WebSocket
-   - Actualizar `WBS_Reporte_Gerencial.html`
-
-7. **File Watcher Mejorado (1-2 horas):**
-   - Vigilar cambios en Excel
-   - Vigilar cambios en WBS_Presupuestal_v2.0.md
-   - Sincronización automática
-
----
-
-## ✅ RESUMEN EJECUTIVO
-
-### **ARQUITECTURA ACTUAL:**
-
-```
-Excel/WBS_Presupuestal.md ← Fuente de Verdad
-        ↓
-Script Sincronización
-        ↓
-JSON/JS (Datos intermedios)
-        ↓
-HTML Interfaces ✅ Presupuesto funciona
-                 ❌ Cronograma/Riesgos NO
-                 ⚠️ EDT parcial
-        ↓
-Documentos VIII/ ⚠️ Manual
-        ↓
-Documentos V.X ❌ Manual
-```
-
-### **PARA ENGRANAR TODO:**
-
-1. **Cronogramas:** Crear JSON dinámico + Modificar HTML (2-3h)
-2. **Riesgos:** Vincular con WBS + Modificar HTML (2-3h)
-3. **V.X:** Ampliar YAML + Script automatización (1-2h)
-4. **VIII/:** Automatizar en .cursorrules (2-3h)
-5. **Excel ↔ Sistema:** Bidireccionalidad (2-3h)
-
-**Total:** 10-16 horas para sistema 100% integrado
-
----
-
-### **BENEFICIO:**
-
-```
-ANTES:
-  DT → Presupuesto ✅
-  DT → Cronograma ❌
-  DT → Riesgos ❌
-  DT → EDT ⚠️
-  DT → VIII/ ⚠️
-  DT → V.X ❌
-
-DESPUÉS:
-  DT → TODO ✅ (100% automático)
-  1 cambio → 6 niveles actualizados
-  0 intervención manual
-  Trazabilidad completa
-```
-
----
-
-**¿Quieres que procedamos con alguna de las fases?** 🚀
-
-**Elaborado por:** Sistema WBS Interactivo  
-**Fecha:** 8 de Octubre de 2025  
-**Versión:** 1.0  
-**Estado:** ✅ ARQUITECTURA DOCUMENTADA - PLAN DE ACCIÓN DEFINIDO
-
+**Cerebro Maestro:** `IX_WBS_Planificacion/lfc-terminology.js` v14.7.3 (BCD-aligned)
+**Motor de Cálculo:** `IX_WBS_Planificacion/wbs_core_logic.js` v14.7.3
+**Filosofía:** Technical Sovereignty by Design · Contract-First
+**Referencia Cruzada Cerebro:** [`/home/administrador/docker/agente/architecture.md`](file:///home/administrador/docker/agente/architecture.md)
+**© 2026 LFC STUDIO — SICC SYSTEM**

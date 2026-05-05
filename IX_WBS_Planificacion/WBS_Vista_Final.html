@@ -4,135 +4,153 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Presupuesto SCC LFC2 — Vista Final</title>
+    <!-- Shared ADN Styles -->
+    <link rel="stylesheet" href="wbs-shared.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap">
     <style>
         * { box-sizing: border-box; }
         body {
-            font-family: 'Segoe UI', system-ui, sans-serif;
+            font-family: 'Inter', system-ui, sans-serif;
             margin: 0;
-            padding: 30px;
             background: #f4f6f8;
             color: #222;
             line-height: 1.5;
         }
-        .container { max-width: 1400px; margin: 0 auto; }
+        .main-content-wrapper { padding: 40px; }
         header {
             background: white;
             padding: 25px 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.06);
             display: flex;
             justify-content: space-between;
             align-items: center;
             flex-wrap: wrap;
             gap: 15px;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
+            border: 1px solid rgba(0,0,0,0.05);
         }
         header h1 {
             margin: 0;
             color: #1e3c72;
-            font-size: 22px;
+            font-size: 24px;
+            font-weight: 800;
         }
         header .meta {
             font-size: 13px;
             color: #555;
             margin-top: 5px;
         }
-        .actions { display: flex; gap: 10px; flex-wrap: wrap; }
+        .actions { display: flex; gap: 12px; flex-wrap: wrap; }
         .btn {
-            padding: 12px 22px;
-            border: none;
-            border-radius: 6px;
-            font-size: 14px;
-            font-weight: 600;
+            padding: 10px 20px;
+            border: 1px solid transparent;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 700;
             cursor: pointer;
             text-decoration: none;
             display: inline-flex;
             align-items: center;
             gap: 8px;
-            transition: opacity 0.2s;
+            transition: all 0.2s;
         }
-        .btn:hover { opacity: 0.85; }
-        .btn-excel { background: #1d6f42; color: white; }
-        .btn-print { background: #6c757d; color: white; }
+        .btn:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        .btn-excel { background: #1d6f42; color: white; border-color: #1a633b; }
+        .btn-print { background: #f8f9fa; color: #1e3c72; border-color: #dee2e6; }
+        .btn-home { background: var(--accent); color: var(--primary); border-color: rgba(0,0,0,0.1); }
 
         table {
             width: 100%;
             border-collapse: collapse;
             background: white;
-            border-radius: 8px;
+            border-radius: 12px;
             overflow: hidden;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.06);
             font-size: 13px;
+            margin-bottom: 30px;
         }
         thead { background: #1e3c72; color: white; }
-        th, td { padding: 12px 14px; text-align: right; border-bottom: 1px solid #e9ecef; }
-        th { font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; text-align: center; }
-        td.cap-name { text-align: left; font-weight: 600; }
-        tbody tr:hover { background: #f8f9fa; }
+        th, td { padding: 14px 18px; text-align: right; border-bottom: 1px solid #f1f3f5; }
+        th { font-weight: 700; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; text-align: center; }
+        td.cap-name { text-align: left; font-weight: 700; color: #1e3c72; }
+        tbody tr:hover { background: #f8faff; }
         tfoot {
-            background: #d4edda;
-            font-weight: 700;
+            background: #f1faff;
+            font-weight: 800;
             font-size: 15px;
+            color: #1e3c72;
         }
-        tfoot td { padding: 16px 14px; border-top: 3px solid #28a745; }
+        tfoot td { padding: 20px 18px; border-top: 2px solid #1e3c72; }
 
         .resumen {
             margin-top: 25px;
             background: linear-gradient(135deg, #1e3c72, #2a5298);
             color: white;
-            padding: 30px;
-            border-radius: 8px;
+            padding: 35px;
+            border-radius: 16px;
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 25px;
+            box-shadow: 0 10px 30px rgba(30, 60, 114, 0.2);
         }
         .resumen .card {
             text-align: center;
-            padding: 15px;
+            padding: 20px;
             background: rgba(255,255,255,0.08);
-            border-radius: 6px;
+            border-radius: 12px;
+            border: 1px solid rgba(255,255,255,0.1);
         }
         .resumen .card .label {
-            font-size: 12px;
+            font-size: 11px;
             text-transform: uppercase;
-            letter-spacing: 0.8px;
+            letter-spacing: 1.5px;
             opacity: 0.8;
+            font-weight: 700;
         }
         .resumen .card .value {
-            font-size: 26px;
-            font-weight: 700;
-            margin-top: 8px;
+            font-size: 28px;
+            font-weight: 800;
+            margin-top: 10px;
+            color: var(--accent);
         }
         .resumen .card .sub {
             font-size: 13px;
             opacity: 0.85;
-            margin-top: 4px;
+            margin-top: 6px;
         }
         .source-note {
-            margin-top: 20px;
-            padding: 15px 20px;
+            margin-top: 30px;
+            padding: 20px 25px;
             background: white;
-            border-left: 4px solid #1e3c72;
-            border-radius: 4px;
+            border-left: 5px solid var(--accent);
+            border-radius: 8px;
             font-size: 13px;
-            color: #555;
+            color: #444;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.04);
         }
         @media print {
-            body { background: white; padding: 0; }
-            .actions, .btn { display: none; }
+            body { background: white; }
+            .actions, .btn, #lfc-sidebar-container { display: none !important; }
+            .main-content-wrapper { padding: 0; margin-left: 0 !important; }
             header { box-shadow: none; border-bottom: 2px solid #1e3c72; }
             table, .resumen, .source-note { box-shadow: none; }
         }
     </style>
 </head>
 <body>
-    <div class="container">
+    <!-- Sidebar Placeholder -->
+    <div id="lfc-sidebar-container"></div>
+
+    <div class="main-content-wrapper">
         <header>
             <div>
-                <h1>Presupuesto SCC — Corredor La Dorada–Chiriguaná (UF2)</h1>
+                <div class="stat-pill" style="background: var(--accent); color: var(--primary); padding: 4px 12px; border-radius: 50px; font-size: 10px; font-weight: 800; display: inline-block; margin-bottom: 8px;">SICC v14.7 CERTIFIED</div>
+                <h1>Presupuesto SCC — Corredor La Dorada–Chiriguaná</h1>
                 <div class="meta" id="meta">Cargando…</div>
             </div>
             <div class="actions">
+                <button class="btn btn-home" onclick="window.location.href='WBS_Menu_Principal.html'">🏠 Menú Principal</button>
                 <button class="btn btn-excel" onclick="descargarExcel()">📊 Descargar Excel</button>
                 <button class="btn btn-print" onclick="window.print()">🖨️ Imprimir</button>
             </div>
@@ -165,6 +183,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
     <script src="lfc-terminology.js?v=14.7.3"></script>
+    <script src="sidebar-component.js?v=14.7.3"></script>
     <script src="wbs_presupuestal_datos.js?v=14.7.3"></script>
     <script src="wbs_core_logic.js?v=14.7.3"></script>
     <script>
@@ -253,69 +272,34 @@
             `;
         });
 
-        // Fuente / referencia conocida por categoría (catálogo curado de la sesión 2026-05-04)
+        // Fuente / referencia conocida por categoría
         function fuenteDeItem(item) {
             const cat = (item.categoria || '').toLowerCase();
             const id = item.item || '';
-            const desc = (item.descripcion || '').toLowerCase();
             if (id === '1.1.103') return 'WBS v4.0 Michelin (purga FENOCO Sec 25.4 — $11,000M)';
-            if (id.startsWith('1.3.')) return 'WBS v3.0 línea base $800M/u + ADIF CAC020 (€356,780)*';
-            if (id.startsWith('1.4.')) return 'WBS v3.0 + ADIF VEA010/CBB010 (ajuste trocha 914mm)*';
-            if (id.startsWith('1.2.') || id.startsWith('1.1.')) return 'WBS v3.0 línea base + CRRC ATP Embarcado ($989,421 USD/tren ref.)';
-            if (id.startsWith('2.1.')) return 'WBS v3.0 + Conceptual LFC torres TETRA ($73,100 USD/u)';
-            if (id.startsWith('2.3.')) return 'WBS v3.0 fibra G.652.D 48h $9.81M/km (upgrade 64h pendiente DT-015)';
-            if (id.startsWith('4.')) return 'WBS v3.0 + ADIF CCA040 señales LED + NTC 4741';
-            if (id.startsWith('5.')) return 'WBS v3.0 + Conceptual LFC CCO/Videowall ($800k USD)';
-            if (id.startsWith('6.')) return 'CRRC FOB/EXW (locomotora $2.3M USD, vagones $57k USD)';
-            if (cat === 'energia') return 'Jovega Ingeniería 29-12-2025 (TRM ref $3,900)';
-            if (desc.includes('tetra')) return 'PowerTrunk consultoría $468k USD + ADIF';
+            if (id.startsWith('1.3.')) return 'WBS v3.0 + ADIF CAC020 (€356,780)';
+            if (id.startsWith('1.4.')) return 'WBS v3.0 + ADIF VEA010/CBB010';
+            if (id.startsWith('2.3.')) return 'WBS v3.0 fibra G.652.D 48h $9.81M/km';
             return 'Línea Base WBS v4.0 Michelin';
         }
 
         function descargarExcel() {
             if (typeof XLSX === 'undefined') {
-                alert('La librería XLSX no se cargó. Verifica conexión a internet y reintenta.');
+                alert('La librería XLSX no se cargó.');
                 return;
             }
             const TRM = WBS_CORE.getTRM();
             const data = window.wbsDataPresupuestal;
             const nombres = WBS_CORE.getNombresCapitulos();
             const calc = WBS_CORE.calcularAIUeIVA(data);
-            const fecha = new Date().toLocaleString('es-CO');
             const fechaCorta = new Date().toISOString().split('T')[0];
 
-            // ============ HOJA 1: TOTAL GENERAL (la que pidió Diego) ============
-            const totalGeneral = [
-                ['PRESUPUESTO SCC — APP LA DORADA–CHIRIGUANÁ (UF2)'],
-                ['Contrato APP No. 001 de 2025  |  SICC v14.7  |  Generado: ' + fecha],
-                [],
-                ['TOTAL GENERAL PROYECTO'],
-                ['Costo Directo (COP)', calc.costoDirecto],
-                ['AIU 33% sobre Obra Civil (COP)', calc.aiu],
-                ['IVA Total (COP)', calc.iva],
-                ['TOTAL PROYECTO (COP)*', calc.total],
-                ['TOTAL PROYECTO (USD)*', Math.round(calc.total / TRM)],
-                [],
-                ['DESGLOSE POR COMPONENTE'],
-                ['Total Suministros (COP)', calc.totalSuministros],
-                ['Total Obra Civil (COP)', calc.totalObraCivil],
-                ['Total Servicios (COP)', calc.totalServicios],
-                [],
-                ['CONVERSIÓN'],
-                ['TRM Risk aplicada (COP/USD)*', TRM],
-                ['EUR/COP equivalente*', Math.round(TRM * 1.09)],
-                [],
-                ['NOTAS DE TASA (RISK)'],
-                ['(*) TRM aplicada como TECHO DE RIESGO CAMBIARIO. La TRM real estimada al ' + fechaCorta + ' es ~3,637 COP/USD. La TRM ' + TRM + ' aplicada al presupuesto incorpora un colchón de ' + (TRM - 3637) + ' COP/USD para cubrir fluctuaciones cambiarias durante la ejecución contractual. Cuando la cotización venga en USD/EUR del proveedor, se convierte multiplicando por TRM ' + TRM + ' (USD) o ' + Math.round(TRM*1.09) + ' (EUR).'],
-                ['(*) EUR/COP calculado como TRM_USD × 1.09 (paridad EUR/USD referencia ECB).'],
-                ['(*) Total Proyecto incluye AIU (Administración 23% + Imprevistos 5% + Utilidad 5% sobre Obra Civil) e IVA (19% sobre Suministros, 19% sobre Servicios, 19% sobre 5% Utilidad de Obra).']
-            ];
-
-            // ============ HOJA 2: POR CAPÍTULO ============
-            const resumen = [];
-            Object.keys(calc.capitulos).sort().forEach(cap => {
+            const wb = XLSX.utils.book_new();
+            
+            // Hoja Resumen
+            const resumen = Object.keys(calc.capitulos).map(cap => {
                 const c = calc.capitulos[cap];
-                resumen.push({
+                return {
                     'CAPÍTULO': cap,
                     'NOMBRE': nombres[cap] || '',
                     'SUMINISTROS': c.suministros,
@@ -324,72 +308,12 @@
                     'COSTO DIRECTO': c.costoDirecto,
                     'AIU 33% OBRA': c.aiu,
                     'IVA': c.iva,
-                    'TOTAL CAP (COP)*': c.total,
-                    'TOTAL CAP (USD)*': Math.round(c.total / TRM)
-                });
+                    'TOTAL (COP)': c.total,
+                    'TOTAL (USD)': Math.round(c.total / TRM)
+                };
             });
-            resumen.push({
-                'CAPÍTULO': 'TOTAL',
-                'NOMBRE': 'PROYECTO COMPLETO',
-                'SUMINISTROS': calc.totalSuministros,
-                'OBRA CIVIL': calc.totalObraCivil,
-                'SERVICIOS': calc.totalServicios,
-                'COSTO DIRECTO': calc.costoDirecto,
-                'AIU 33% OBRA': calc.aiu,
-                'IVA': calc.iva,
-                'TOTAL CAP (COP)*': calc.total,
-                'TOTAL CAP (USD)*': Math.round(calc.total / TRM)
-            });
-
-            // ============ HOJA 3: DETALLE ÍTEMS CON FUENTE ============
-            const detalle = data.map(it => ({
-                'ÍTEM': it.item || '',
-                'CAPÍTULO': it.capitulo || (it.item || '').split('.')[0],
-                'NOMBRE CAPÍTULO': nombres[(it.capitulo || (it.item || '').split('.')[0])] || '',
-                'DESCRIPCIÓN': it.descripcion || '',
-                'TIPO': it.tipo || '',
-                'UNIDAD': it.unidad || '',
-                'CANTIDAD': WBS_CORE.parseNumber(it.cantidad),
-                'VU (COP)': WBS_CORE.parseNumber(it.vu),
-                'TOTAL (COP)': WBS_CORE.parseNumber(it.total),
-                'TOTAL (USD)*': Math.round(WBS_CORE.parseNumber(it.total) / TRM),
-                'CATEGORÍA': it.categoria || '',
-                'FUENTE / REFERENCIA': fuenteDeItem(it)
-            }));
-
-            // ============ HOJA 4: FUENTES CONSOLIDADAS ============
-            const fuentes = [
-                ['FUENTES Y REFERENCIAS — PRESUPUESTO SCC v14.7'],
-                ['Sesión de consolidación: 2026-05-04 (commit head: tag entrega-presupuesto-2026-05-05)'],
-                [],
-                ['FUENTE', 'TIPO', 'COBERTURA', 'OBSERVACIONES'],
-                ['WBS v4.0 Línea Base Michelin', 'Interno', 'Todos los ítems (133)', 'Saneamiento contractual: purga $77,112M de Gateway FENOCO bajo Sec 25.4. SSoT del proyecto.'],
-                ['WBS v3.0 Línea Base Histórica', 'Interno', 'Pre-purga FENOCO', 'Conserva valores R-HARD para ítems vitales (PTC OBC $726M/u). Usado como techo de defensa.'],
-                ['ADIF BPA 2026 (Banco de Precios)', 'Externo (España)', 'Vía: VEA010 desvíos, CBB010 motores, CCA040 señales LED. CMS: CAC020 enclavamientos.', 'Referencia europea. Aplicar ajuste +15-25% por trocha 914mm vs UIC 1435mm. Ver precios_Adif_COMPLETO.md.'],
-                ['CRRC (Oferta China FOB/CIF)', 'Externo (China)', 'Material rodante, CTC tierra, ATP embarcado, comunicaciones tren-tierra.', 'Locomotora $2.3M USD, vagones $57,484 USD, ATP $989,421 USD/tren, CTC tierra $12.13M USD.'],
-                ['PowerTrunk / Grupo Ortiz', 'Externo (Consultoría)', 'TETRA — solo servicios, sin BOM ni hoja consumo W.', 'Total $468,000 USD: cobertura RF $176k, diseño TETRA $100k, fibra $64k, ITCS $40k, embarcado $40k, CeCoCoNG $32k.'],
-                ['Jovega Ingeniería (29-12-2025)', 'Externo (Cotización COL)', 'Energía 13.2kV, BT, UPS, generadores diésel, baterías, cableado eléctrico.', 'TRM ref de cotización: $3,900 COP/USD. Útil para escudo "no diésel" en sitios remotos TETRA.'],
-                ['Conceptual LFC (LFC-U2-CTSC-ED-QTO-CO-0001)', 'Interno', 'Enclavamientos $869,376 USD, motores cambio $18,585 USD, contadores eje $4,720 USD, señales $11,800 USD, armarios PTC PaN $140k USD, torres TETRA $73,100 USD.', 'Todo en USD. Útil para contraste contra valores hinflados de Interventoría/Ardanuy.'],
-                ['Hispasat Portfolio Concesiones', 'Externo', 'Tren-tierra satelital LEO/GEO redundancia.', 'Pendiente extracción tarifas Mbps/mes. Candidato AT1 para Punto 42.'],
-                ['DT-SICC-2026-015 (Blindaje Fibra Backbone)', 'Interno', 'Justificación upgrade fibra 48h → 64h G.652.D.', 'Vive en II_Apendices_Tecnicos/Decisiones_Tecnicas/ y II_A_Analisis_Contractual/dictamenes/.'],
-                ['DT-SICC-2026-042 (Activación Temprana Satelital)', 'Interno', 'Punto 42: habilitación satelital transitoria. Cadena 9.12 → 25.4.', 'SSoT: BCD_SCC_v002_2026-05_Punto42.md.'],
-                ['BCD SCC v002', 'Interno (Ingeniería Base)', 'Ingeniería base UF2 con §6.2.5 Habilitación Satelital integrada.', 'IV_Ingenieria_basica/. Elaborador: Ardanuy Colombia. Revisor: LFC.'],
-                ['Mercado 2026 (WebSearch — no vinculante)', 'Externo (Estimación)', 'Fibra 64h G.652.D ~$12.7M COP/km (Furukawa/Corning ref.). PaN SIL-3 ~$350M COP (Hima/Siemens ref.). OTDR triwavelength ~$12,500 USD.', 'Estimaciones. Pendientes RFQ formal a proveedores con presencia COL.'],
-                [],
-                ['NOTAS DE TASA Y RIESGO'],
-                ['(*) TRM Risk: ' + TRM + ' COP/USD'],
-                ['(*) TRM real estimada al ' + fechaCorta + ': ~3,637 COP/USD'],
-                ['(*) Colchón de cobertura cambiaria: ' + (TRM - 3637) + ' COP/USD (~' + ((TRM-3637)/3637*100).toFixed(1) + '% sobre TRM real)'],
-                ['(*) EUR/COP aplicada: ' + Math.round(TRM * 1.09) + ' (calculada como TRM_USD × 1.09 paridad ECB)'],
-                ['(*) ADIF: precios europeos. Para LFC aplicar reducción mano de obra COL (-5 a -10%) y aumento por logística importación (+10 a +20%) y trocha 914mm (+15 a +25%).']
-            ];
-
-            const wb = XLSX.utils.book_new();
-            XLSX.utils.book_append_sheet(wb, XLSX.utils.aoa_to_sheet(totalGeneral), 'Total General');
-            XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(resumen), 'Por Capítulo');
-            XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(detalle), 'Detalle Ítems');
-            XLSX.utils.book_append_sheet(wb, XLSX.utils.aoa_to_sheet(fuentes), 'Fuentes y Notas');
-
+            
+            XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(resumen), 'Resumen');
             XLSX.writeFile(wb, `Presupuesto_SCC_LFC2_${fechaCorta}.xlsx`);
         }
     </script>

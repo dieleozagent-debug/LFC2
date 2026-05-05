@@ -1,25 +1,36 @@
 /**
  * LFC TERMINOLOGY & DBCI (Design Basis & Concepts Integrity)
- * Single Source of Truth for Technical Constraints v6.3.3 SOBERANO
+ * Single Source of Truth for Technical Constraints v14.7 — alineado a BCD v001 (2026-04)
+ *
+ * Jerarquía de verdad (BCD v001 §2.1):
+ *   Contrato APP 001/2025 > AT1 > AT3 > BCD_SCC_v001_2026-04 > normas adoptadas
+ * Cualquier número marcado "post-DT" requiere DT formal por encima del BCD.
  */
 
 const LFC_DBCI = {
     PROJECT: {
         NAME: "LFC STUDIO",
         FULL_LOCATION: "APP La Dorada-Chiriguaná",
-        VERSION: "v6.3.3 Sovereign Restoration",
+        VERSION: "v14.7 BCD-aligned",
     },
 
-    // CONSTANTES FÍSICAS INAMOVIBLES (La Biblia de Ingeniería - Ground Truth)
+    // CONSTANTES FÍSICAS — alineadas a BCD v001 SCC (Ardanuy, abril 2026)
     PHYSICS: {
-        CORRIDOR_KM: 526.133,       
-        ORIGIN_PK_MEXICO: "201+470", // La Dorada (México)
+        CORRIDOR_KM: 526.133,                               // BCD §3.2
+        TROCHA_MM: 914,                                     // BCD §1.2 — yarda, NO 1435
+        ORIGIN_PK_MEXICO: "201+470",                        // La Dorada (México) — BCD §3.2
+        TERMINUS_PK_CHIRIGUANA: "722+683",                  // BCD §3.2
         PUERTO_BERRIO_GRECIA_PK_RANGE: "299+800—332+500",
         BARRANCABERMEJA_PK_RANGE: "423+400—465+250",
-        LOCOMOTORAS_TOTAL: 15,      
-        ESTACIONES_TORRES: 37,      
-        ENCE_ESTACIONES: 5,         
-        CCTV_CAMARAS: 73            
+        ENCE_ESTACIONES: 5,                                 // BCD §4.1: Zapatosa, García Cadena, Barrancabermeja, Pto Berrío–Grecia, La Dorada–México
+        PAN_PROTEGIDOS_TIPO_C: 9,                           // BCD §8.2
+        PAN_PROTEGIDOS_TIPO_B: 15,                          // BCD §8.2
+        PAN_PROTEGIDOS_TOTAL: 24,                           // BCD §8.2 (los 122 restantes NO entran al sistema señalización)
+        FIBRA_HILOS: 48,                                    // BCD §6.1.1 — solución homogénea G.652.D
+        // Números bajo DT — no son inamovibles, pendientes de formalización
+        LOCOMOTORAS_TOTAL: 15,                              // post-DT pendiente. AT1 Cap 5.1 = inventario base (verificar nº exacto, ~6)
+        ESTACIONES_TORRES: 37,                              // estimación pre-RF. BCD §6.2.1 manda simulación de cobertura
+        CCTV_CAMARAS: 73                                    // catálogo interno, no fijado por BCD
     },
     
     // TÉRMINOS SOBERANOS (Lo que DEBE aparecer - LA RECETA PURA)
@@ -33,11 +44,15 @@ const LFC_DBCI = {
     },
     
     // BLACKLIST LEGACY (Lo que NO puede existir - EL VENENO)
+    // PURGADOS 2026-05-05 contra BCD v001:
+    //   - "Stop & Switch" / "Stop and Switch": BCD §9.2 los manda como criterio rector de interoperabilidad FENOCO
+    //   - "ADIF": BCD §2.1 cita 4 normas ADIF (NAT 405, NAT 716, ET 03.366.780.9, ET 03.366.752.8) como referencia
+    //   - "Telcordia GR-20-CORE": BCD §2.1 lo cita explícitamente (Issue 2)
     LEGACY_BLACKLIST: [
-        "Stop & Switch", "Stop and Switch", "ADIF", "EULYNX", "GSM-R", "EUROBALISE", "EUROBALIZAS",
+        "EULYNX", "GSM-R", "EUROBALISE", "EUROBALIZAS",
         "RBC", "Radio Block Centre", "ERTMS", "ETCS", "ASFA", "UNISIG", "UIC TSI",
         "Contadores de ejes", "Circuitos de via", "SICC Legacy", "Manual de Frontera",
-        "ANSI/ICEA S-87-640", "Telcordia GR-20-CORE", "IEC 60794", "IEC-60794", "EN 50126", "EN 50128", "EN 50129", "EN 50716", "G.984", "GPON", "EDFA", "ROADM",
+        "ANSI/ICEA S-87-640", "IEC 60794", "IEC-60794", "EN 50126", "EN 50128", "EN 50129", "EN 50716", "G.984", "GPON", "EDFA", "ROADM",
         "Resolución 1885 de 2015", "Res. 1885 de 2015", "Manual de Señalización Vial 2015"
     ],
 
@@ -54,8 +69,7 @@ const LFC_DBCI = {
         
         // Purga de Manualidad
         
-        // Purga de Legado Europeo
-        "ADIF": "Estándar SICC (FRA/AREMA)",
+        // Purga de Legado Europeo (ADIF removido 2026-05-05: BCD §2.1 cita ADIF como referencia válida)
         "EULYNX": "Arquitectura SICC v6.3.3",
         "Eurobalise": "Punto de Referencia Virtual (GNSS)",
         "EUROBALISE": "Invariable Virtual GNSS (SICC)",
@@ -75,7 +89,7 @@ const LFC_DBCI = {
         
         // Purga de Normas No Contractuales (Axioma 23)
         "ANSI/ICEA S-87-640": "Estándar ITU-T G.652 (Blindaje AT3)",
-        "Telcordia GR-20-CORE": "Estándar ITU-T G.652 (Blindaje AT3)",
+        // "Telcordia GR-20-CORE" removido 2026-05-05: BCD §2.1 lo cita como referencia válida
         "IEC 60794": "ITU-T G.652.D (Soberanía AT3)",
         "IEC-60794": "ITU-T G.652.D (Soberanía AT3)",
         "EN 50126": "Seguridad RAMS bajo FRA 236 Subpart I / PTCSP",

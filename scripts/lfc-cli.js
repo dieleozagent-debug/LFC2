@@ -617,54 +617,44 @@ function processDts() {
         const dtPath = path.join(dtDir, dtFile);
         const content = fs.readFileSync(dtPath, 'utf8');
         
-        // Extraer bloque YAML de Section 10
         const yamlMatch = content.match(/```yaml([\s\S]*?)```/);
         if (!yamlMatch) return;
 
         try {
             const yamlText = yamlMatch[1];
-            // Parser simple para evitar dependencias pesadas en este script
-            const metadata = {};
-            yamlText.split('\n').forEach(line => {
-                const parts = line.split(':');
-                if (parts.length >= 2) metadata[parts[0].trim()] = parts[1].trim();
-            });
+            log(`  ⚙️ Analizando ${dtFile}...`, colors.cyan);
 
-            log(`  ⚙️ Ejecutando ${metadata.id || dtFile}...`, colors.cyan);
-
-            // Simular el parseo de archivos_actualizar (Regex para extraer items)
-            const filesToUpdate = [];
-            const fileBlocks = yamlText.split('- file:').slice(1);
+            // Parser Robusto v6.4 (Regex Driven)
+            const fileBlocks = yamlText.split(/- file:\s*/).slice(1);
+            
             fileBlocks.forEach(block => {
-                const lines = block.split('\n');
-                const filePath = lines[0].trim().replace(/"/g, '');
-                const changes = [];
-                const changeBlocks = block.split('- buscar:').slice(1);
-                changeBlocks.forEach(cb => {
-                    const searchLine = cb.split('\n')[0].trim().replace(/"/g, '');
-                    const replaceLineMatch = cb.match(/reemplazar:\s*"?([^"\n]*)"?/);
-                    if (replaceLineMatch) {
-                        changes.push({ buscar: searchLine, reemplazar: replaceLineMatch[1] });
-                    }
-                });
-                filesToUpdate.push({ file: filePath, changes: changes });
-            });
-
-            filesToUpdate.forEach(item => {
-                const fullPath = path.join(REPO_ROOT, item.file);
+                const fileLine = block.split('\n')[0].trim().replace(/['"]/g, '');
+                const fullPath = path.join(REPO_ROOT, fileLine);
+                
                 if (fs.existsSync(fullPath)) {
                     let fileContent = fs.readFileSync(fullPath, 'utf8');
                     let modified = false;
-                    item.changes.forEach(ch => {
-                        if (fileContent.includes(ch.buscar)) {
-                            fileContent = fileContent.split(ch.buscar).join(ch.reemplazar);
+                    
+                    // Extraer pares buscar/reemplazar
+                    const changeRegex = /-\s*buscar:\s*["']?([\s\S]*?)["']?\n\s*reemplazar:\s*["']?([\s\S]*?)["']?(?=\n\s*-|\n\s*validaciones:|\n\s*$)/g;
+                    let match;
+                    
+                    while ((match = changeRegex.exec(block)) !== null) {
+                        const buscar = match[1].trim();
+                        const reemplazar = match[2].trim();
+                        
+                        if (fileContent.includes(buscar)) {
+                            fileContent = fileContent.split(buscar).join(reemplazar);
                             modified = true;
+                            log(`    ✅ Cambio aplicado en ${fileLine}: "${buscar.substring(0,20)}..."`, colors.green);
                         }
-                    });
-                    if (modified) {
-                        fs.writeFileSync(fullPath, fileContent);
-                        log(`    ✅ Saneamiento aplicado en: ${item.file}`, colors.green);
                     }
+                    
+                    if (modified) {
+                        fs.writeFileSync(fullPath, fileContent, 'utf8');
+                    }
+                } else {
+                    log(`    ⚠️ Archivo no encontrado para actualizar: ${fileLine}`, colors.magenta);
                 }
             });
 
@@ -697,7 +687,32 @@ switch (command) {
     case 'validate':
         validate();
         break;
-    default:
-        log("Uso: lfc [sync | cook | process-dts | serve | purify | validate]", colors.yellow);
+    case 'promote':
+        promote();
         break;
+    default:
+        log("Uso: lfc [sync | cook | process-dts | serve | purify | validate | promote]", colors.yellow);
+        break;
+}
+
+/**
+ * COMANDO: promote (Gatillo SICC v14.7)
+ * Unifica el flujo: DTs -> Sync -> Cook -> Serve
+ */
+function promote() {
+    log("\n🚀 PROMOTE - Disparando Actualización Sistémica SICC\n", colors.magenta);
+    
+    log("1. Procesando Decisiones Técnicas (DT)...", colors.yellow);
+    processDts();
+    
+    log("\n2. Sincronizando Base de Datos WBS...", colors.yellow);
+    sync();
+    
+    log("\n3. Regenerando Ejecutivos (Cook)...", colors.yellow);
+    cook();
+    
+    log("\n4. Actualizando Tableros y Vistas (Serve)...", colors.yellow);
+    serve();
+    
+    log("\n✨ SISTEMA PROMOVIDO Y SINCRONIZADO AL 100%", colors.green);
 }

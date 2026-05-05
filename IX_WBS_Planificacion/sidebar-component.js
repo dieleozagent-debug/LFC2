@@ -17,7 +17,7 @@
 
         <div class="nav-group" style="margin-bottom: 2rem;">
             <div class="nav-label" style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 2px; color: var(--text-muted); margin-bottom: 1rem; font-weight: 700;">Herramientas WBS</div>
-            <a href="/IX_WBS_Planificacion/WBS_COMPLETA_TODO_Interactiva_v4.0.html" class="nav-item" id="nav-wbs">🚀 WBS Interactiva</a>
+            <a href="/IX_WBS_Planificacion/WBS_Vista_Final.html" class="nav-item" id="nav-wbs">🚀 WBS Certificada v14.7</a>
             <a href="/IX_WBS_Planificacion/WBS_Reporte_Gerencial.html" class="nav-item" id="nav-report">📋 Reporte Gerencial</a>
             <a href="/IX_WBS_Planificacion/WBS_Analisis_Riesgos.html" class="nav-item" id="nav-risks">⚠️ Gestión Riesgos</a>
             <a href="/IX_WBS_Planificacion/WBS_Cronograma_Propuesta.html" class="nav-item" id="nav-chrono">📅 ${(term.SYSTEMS && term.SYSTEMS.GANTT) ? term.SYSTEMS.GANTT : 'Cronograma L3'}</a>
@@ -108,6 +108,7 @@
             // Mark active item
             const path = window.location.pathname;
             const navMap = {
+                'WBS_Vista_Final': 'nav-wbs',
                 'WBS_COMPLETA': 'nav-wbs',
                 'Reporte': 'nav-report',
                 'Riesgos': 'nav-risks',
