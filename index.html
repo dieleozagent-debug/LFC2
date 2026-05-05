@@ -290,9 +290,15 @@
 
         <h2 style="margin-bottom: 3rem; font-weight: 800; color: #fff;">Operational Entry Points</h2>
         <div class="access-grid">
+            <a href="/IX_WBS_Planificacion/WBS_Vista_Final.html" class="access-card" style="border-color: #1d6f42;">
+                <div class="access-title" style="color: #64ffda;">⭐ Presupuesto SCC — Vista Final</div>
+                <div class="access-desc">Línea base certificada SICC v14.7 (BCD-aligned). Tabla por capítulo + Excel descargable de 7 hojas (Total · Capítulos · Detalle · Obra vs Compras · AIU · Pendientes RFQ · Fuentes) + auditoría L4 integrada (AIU · Acta · Validación Cap. 4 · Zero-Residue). 135 ítems · TRM Risk 4400.</div>
+                <span class="btn-premium" style="background: #1d6f42;">Abrir Vista Final</span>
+            </a>
+
             <a href="/IX_WBS_Planificacion/WBS_Menu_Principal.html" class="access-card">
-                <div class="access-title">WBS Mission Control</div>
-                <div class="access-desc">Acceso a la gestión presupuestal interactiva COP/USD, análisis de riesgos y matriz de decisión técnica (DT). El núcleo de la operación financiera.</div>
+                <div class="access-title">WBS Hub (navegación detallada)</div>
+                <div class="access-desc">Hub de navegación: Cronograma, Análisis de Riesgos, Reporte Gerencial, Auditoría SICC. Para exploración granular cuando ya conocés la Vista Final.</div>
                 <span class="btn-premium">Launch Module</span>
             </a>
 
@@ -316,21 +322,19 @@
         </div>
     </main>
 
-    <script src="/IX_WBS_Planificacion/datos_wbs_TODOS_items.js"></script>
-    <script src="/IX_WBS_Planificacion/lfc-terminology.js?v=6.3.2"></script>
+    <script src="/IX_WBS_Planificacion/lfc-terminology.js?v=14.7.4"></script>
+    <script src="/IX_WBS_Planificacion/wbs_presupuestal_datos.js?v=14.7.4"></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             // Unify Terminology
             if (window.LFC_TERMINOLOGY && window.LFC_TERMINOLOGY.PROJECT) {
-                document.getElementById('tower-title').textContent = `${window.LFC_TERMINOLOGY.PROJECT.NAME} Sovereign Tower`;
+                const t = document.getElementById('tower-title');
+                if (t) t.textContent = `${window.LFC_TERMINOLOGY.PROJECT.NAME} Sovereign Tower`;
             }
 
-            // Sync Data Items
-            if (window.datos_wbs && window.datos_wbs.items) {
-                document.getElementById('count-items').textContent = window.datos_wbs.items.length;
-            } else {
-                document.getElementById('count-items').textContent = '0';
-            }
+            // Sync Data Items — Universo A certificado v14.7
+            const c = document.getElementById('count-items');
+            if (c) c.textContent = (window.wbsDataPresupuestal && window.wbsDataPresupuestal.length) || '0';
         });
     </script>
 </body>

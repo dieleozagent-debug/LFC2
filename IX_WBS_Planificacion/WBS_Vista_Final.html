@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Presupuesto SCC LFC2 — Vista Final</title>
-    <!-- Shared ADN Styles -->
     <link rel="stylesheet" href="wbs-shared.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap">
     <style>
@@ -27,20 +26,11 @@
             align-items: center;
             flex-wrap: wrap;
             gap: 15px;
-            margin-bottom: 30px;
+            margin-bottom: 18px;
             border: 1px solid rgba(0,0,0,0.05);
         }
-        header h1 {
-            margin: 0;
-            color: #1e3c72;
-            font-size: 24px;
-            font-weight: 800;
-        }
-        header .meta {
-            font-size: 13px;
-            color: #555;
-            margin-top: 5px;
-        }
+        header h1 { margin: 0; color: #1e3c72; font-size: 24px; font-weight: 800; }
+        header .meta { font-size: 13px; color: #555; margin-top: 5px; }
         .actions { display: flex; gap: 12px; flex-wrap: wrap; }
         .btn {
             padding: 10px 20px;
@@ -60,6 +50,48 @@
         .btn-print { background: #f8f9fa; color: #1e3c72; border-color: #dee2e6; }
         .btn-home { background: var(--accent); color: var(--primary); border-color: rgba(0,0,0,0.1); }
 
+        /* Secondary action bar (L4 tools + RFQ) */
+        .actions-secondary {
+            background: white;
+            padding: 14px 22px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-bottom: 25px;
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+        .actions-secondary .label {
+            font-size: 11px;
+            font-weight: 800;
+            color: #6c757d;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-right: 6px;
+        }
+        .btn-l4 {
+            padding: 9px 14px;
+            border: 1px solid #dee2e6;
+            background: #f8f9fa;
+            color: #1e3c72;
+            font-weight: 600;
+            font-size: 12.5px;
+            border-radius: 7px;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.15s;
+        }
+        .btn-l4:hover { background: white; border-color: #1e3c72; transform: translateY(-1px); box-shadow: 0 2px 6px rgba(0,0,0,0.08); }
+        .btn-l4.aiu { color: #28a745; }
+        .btn-l4.acta { color: #007bff; }
+        .btn-l4.audit { color: #d4a017; }
+        .btn-l4.zero { color: #dc3545; }
+        .btn-l4.rfq { color: #7c4dff; margin-left: auto; }
+
         table {
             width: 100%;
             border-collapse: collapse;
@@ -75,12 +107,7 @@
         th { font-weight: 700; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; text-align: center; }
         td.cap-name { text-align: left; font-weight: 700; color: #1e3c72; }
         tbody tr:hover { background: #f8faff; }
-        tfoot {
-            background: #f1faff;
-            font-weight: 800;
-            font-size: 15px;
-            color: #1e3c72;
-        }
+        tfoot { background: #f1faff; font-weight: 800; font-size: 15px; color: #1e3c72; }
         tfoot td { padding: 20px 18px; border-top: 2px solid #1e3c72; }
 
         .resumen {
@@ -101,24 +128,10 @@
             border-radius: 12px;
             border: 1px solid rgba(255,255,255,0.1);
         }
-        .resumen .card .label {
-            font-size: 11px;
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-            opacity: 0.8;
-            font-weight: 700;
-        }
-        .resumen .card .value {
-            font-size: 28px;
-            font-weight: 800;
-            margin-top: 10px;
-            color: var(--accent);
-        }
-        .resumen .card .sub {
-            font-size: 13px;
-            opacity: 0.85;
-            margin-top: 6px;
-        }
+        .resumen .card .label { font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; opacity: 0.8; font-weight: 700; }
+        .resumen .card .value { font-size: 28px; font-weight: 800; margin-top: 10px; color: var(--accent); }
+        .resumen .card .sub { font-size: 13px; opacity: 0.85; margin-top: 6px; }
+
         .source-note {
             margin-top: 30px;
             padding: 20px 25px;
@@ -129,9 +142,66 @@
             color: #444;
             box-shadow: 0 4px 15px rgba(0,0,0,0.04);
         }
+
+        /* Modal */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(10, 25, 47, 0.75);
+            z-index: 9999;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 40px 20px;
+            overflow-y: auto;
+            backdrop-filter: blur(4px);
+        }
+        .modal-overlay.active { display: flex; }
+        .modal {
+            background: white;
+            max-width: 1200px;
+            width: 100%;
+            border-radius: 14px;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-height: calc(100vh - 80px);
+            overflow-y: auto;
+            color: #222;
+        }
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #1e3c72;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+        .modal-header h2 { color: #1e3c72; margin: 0; font-size: 22px; font-weight: 800; }
+        .modal-close {
+            background: #dc3545;
+            color: white;
+            border: none;
+            width: 34px; height: 34px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            transition: all 0.15s;
+        }
+        .modal-close:hover { background: #c82333; transform: scale(1.05); }
+        .modal table { font-size: 12px; box-shadow: none; border-radius: 6px; }
+        .modal table th { background: #343a40; color: white; padding: 10px; font-size: 11px; }
+        .modal table td { padding: 8px 10px; border: 1px solid #dee2e6; }
+        .pill { display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 700; }
+        .pill-suministro { background: #cce5ff; color: #004085; }
+        .pill-obra { background: #f8d7da; color: #721c24; }
+        .pill-servicio { background: #d4edda; color: #155724; }
+        .pill-pending { background: #fff3cd; color: #856404; }
+        .pill-ratify { background: #d1ecf1; color: #0c5460; }
+
         @media print {
             body { background: white; }
-            .actions, .btn, #lfc-sidebar-container { display: none !important; }
+            .actions, .actions-secondary, .btn, #lfc-sidebar-container { display: none !important; }
             .main-content-wrapper { padding: 0; margin-left: 0 !important; }
             header { box-shadow: none; border-bottom: 2px solid #1e3c72; }
             table, .resumen, .source-note { box-shadow: none; }
@@ -139,22 +209,30 @@
     </style>
 </head>
 <body>
-    <!-- Sidebar Placeholder -->
     <div id="lfc-sidebar-container"></div>
 
     <div class="main-content-wrapper">
         <header>
             <div>
-                <div class="stat-pill" style="background: var(--accent); color: var(--primary); padding: 4px 12px; border-radius: 50px; font-size: 10px; font-weight: 800; display: inline-block; margin-bottom: 8px;">SICC v14.7 CERTIFIED</div>
+                <div class="stat-pill" style="background: var(--accent); color: var(--primary); padding: 4px 12px; border-radius: 50px; font-size: 10px; font-weight: 800; display: inline-block; margin-bottom: 8px;">SICC v14.7 BCD-aligned</div>
                 <h1>Presupuesto SCC — Corredor La Dorada–Chiriguaná</h1>
                 <div class="meta" id="meta">Cargando…</div>
             </div>
             <div class="actions">
                 <button class="btn btn-home" onclick="window.location.href='WBS_Menu_Principal.html'">🏠 Menú Principal</button>
-                <button class="btn btn-excel" onclick="descargarExcel()">📊 Descargar Excel</button>
+                <button class="btn btn-excel" onclick="descargarExcel()">📊 Descargar Excel (7 hojas)</button>
                 <button class="btn btn-print" onclick="window.print()">🖨️ Imprimir</button>
             </div>
         </header>
+
+        <div class="actions-secondary">
+            <span class="label">Auditoría / Análisis</span>
+            <button class="btn-l4 aiu" onclick="mostrarModalAIU()">💰 Desglose AIU</button>
+            <button class="btn-l4 acta" onclick="mostrarModalActa()">📝 Acta de Obra (Obra vs Compras)</button>
+            <button class="btn-l4 audit" onclick="mostrarModalCap4()">⚠️ Validación Cap. 4</button>
+            <button class="btn-l4 zero" onclick="mostrarModalZeroResidue()">🧮 Zero-Residue</button>
+            <button class="btn-l4 rfq" onclick="mostrarModalRFQ()">📋 Pendientes RFQ → Compras / Integradora</button>
+        </div>
 
         <table id="tabla-desglose">
             <thead>
@@ -177,42 +255,108 @@
         <div class="resumen" id="resumen"></div>
 
         <div class="source-note">
-            <strong>Fuente:</strong> <code>wbs_presupuestal_datos.js</code> (<span id="item-count-note">…</span> ítems, nivel 3) • Motor de cálculo: <code>wbs_core_logic.js → calcularAIUeIVA()</code> • TRM Risk aplicada como techo de cobertura cambiaria. Los totales se calculan en vivo desde los datos del repositorio.
+            <strong>Fuente:</strong> <code>wbs_presupuestal_datos.js</code> (<span id="item-count-note">…</span> ítems, nivel 3) • Motor: <code>wbs_core_logic.js → calcularAIUeIVA()</code> • Criterios: <a href="../IV_Ingenieria_basica/BCD_SCC_v001_2026-04.md" style="color:#1e3c72;">BCD v001</a> • Doctrina: <a href="../SICC_METHODOLOGY_42.md" style="color:#1e3c72;">SICC Methodology .42</a> • TRM Risk = techo de cobertura cambiaria. Cálculos en vivo.
+        </div>
+    </div>
+
+    <!-- ================= MODALES ================= -->
+    <div class="modal-overlay" id="modal-aiu">
+        <div class="modal">
+            <div class="modal-header">
+                <h2>💰 Desglose AIU por Capítulo</h2>
+                <button class="modal-close" onclick="cerrarModal('modal-aiu')">×</button>
+            </div>
+            <p style="color:#666; font-size:13px;">AIU = 33% sobre Obra Civil (Adm 23% + Imprevistos 5% + Utilidad 5%). IVA = 19% Suministros + 19% Servicios + 19% sobre 5% Utilidad de Obra.</p>
+            <div id="aiu-body"></div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="modal-acta">
+        <div class="modal">
+            <div class="modal-header">
+                <h2>📝 Acta de Obra — Obra Civil vs Compras</h2>
+                <button class="modal-close" onclick="cerrarModal('modal-acta')">×</button>
+            </div>
+            <p style="color:#666; font-size:13px;"><span class="pill pill-suministro">SUMINISTRO</span> = compras a proveedor · <span class="pill pill-obra">OBRA</span> = construcción / instalación en sitio (AIU 33% aplica) · <span class="pill pill-servicio">SERVICIO</span> = servicios técnicos.</p>
+            <div id="acta-body"></div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="modal-cap4">
+        <div class="modal">
+            <div class="modal-header">
+                <h2>⚠️ Validación Capítulo 4 — Pasos a Nivel</h2>
+                <button class="modal-close" onclick="cerrarModal('modal-cap4')">×</button>
+            </div>
+            <p style="color:#666; font-size:13px;">Auditoría matemática del Cap 4 conforme BCD §8.2 (24 PaN protegidos: 9 Tipo C + 15 Tipo B). NTC 4741:1999 + FRA 49 CFR Part 234.</p>
+            <div id="cap4-body"></div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="modal-zero">
+        <div class="modal">
+            <div class="modal-header">
+                <h2>🧮 Auditoría Zero-Residue</h2>
+                <button class="modal-close" onclick="cerrarModal('modal-zero')">×</button>
+            </div>
+            <p style="color:#666; font-size:13px;">Comprobación recursiva de redondeo: la suma de ítems debe coincidir con subtotales y total general sin residuo.</p>
+            <div id="zero-body"></div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="modal-rfq">
+        <div class="modal">
+            <div class="modal-header">
+                <h2>📋 Pendientes RFQ — Para Compras / Integradora</h2>
+                <button class="modal-close" onclick="cerrarModal('modal-rfq')">×</button>
+            </div>
+            <p style="color:#666; font-size:13px;">Cotizaciones formales (Request for Quotation) pendientes para ratificar la línea base. Lo que pasa a Compras o a un integrador (ART, Hitachi, etc.). Documentado en <code>DT-COMS-2026-007</code>.</p>
+            <div id="rfq-body"></div>
         </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
-    <script src="lfc-terminology.js?v=14.7.3"></script>
-    <script src="sidebar-component.js?v=14.7.3"></script>
-    <script src="wbs_presupuestal_datos.js?v=14.7.3"></script>
-    <script src="wbs_core_logic.js?v=14.7.3"></script>
+    <script src="lfc-terminology.js?v=14.7.4"></script>
+    <script src="sidebar-component.js?v=14.7.4"></script>
+    <script src="wbs_presupuestal_datos.js?v=14.7.4"></script>
+    <script src="wbs_core_logic.js?v=14.7.4"></script>
     <script>
-        function fmt(n) {
-            return '$' + Math.round(n).toLocaleString('es-CO');
-        }
-        function fmtUSD(n) {
-            return '$' + Math.round(n).toLocaleString('en-US');
-        }
+        function fmt(n) { return '$' + Math.round(n).toLocaleString('es-CO'); }
+        function fmtUSD(n) { return '$' + Math.round(n).toLocaleString('en-US'); }
+
+        // Pendientes RFQ — fuente DT-COMS-2026-007 §4
+        const PENDIENTES_RFQ = [
+            { item: '1.3.100-104', concepto: 'Controlador ENCE (5 estaciones)', vu_actual: '$2,000M COP/u', fuente: 'ADIF CAC020 + ajustes', estado: 'Ratificación', proveedores: 'Hima Colombia, Siemens Mobility Bogotá, Alstom regional, Bombardier' },
+            { item: '1.4.100', concepto: 'Desvío motorizado (25u)', vu_actual: '$640M COP/u', fuente: 'ADIF VEA010 + ajustes', estado: 'Ratificación', proveedores: 'Hima, Vossloh COL, Voestalpine, Schwihag' },
+            { item: '1.4.101', concepto: 'Sistema control remoto + redundancia N+1', vu_actual: '$134.6M COP/u', fuente: 'ADIF CBB010 + buffer N+1', estado: 'Ratificación', proveedores: 'Siemens SICAS, Hima, Alstom' },
+            { item: '4.1.101', concepto: 'Señal luminosa LED', vu_actual: '$80M COP/u', fuente: 'ADIF CCA040 + buffer', estado: 'Ratificación', proveedores: 'Aldridge, Siemens, Hitachi, GE Transportation' },
+            { item: '2.3.100', concepto: 'Cable F.O. monomodo 48 hilos G.652.D OSP', vu_actual: '$9.81M COP/km × 579 km', fuente: 'Mercado COL/LATAM', estado: 'RFQ urgente', proveedores: 'Furukawa Brasil, Corning LATAM, Prysmian Latam, OFS' },
+            { item: 'Comp 1.3', concepto: 'Contador de ejes (Wayside ENCE)', vu_actual: '~$4,720 USD/u (Conceptual LFC)', fuente: 'Sin ADIF', estado: 'RFQ urgente', proveedores: 'Frauscher, Siemens, Thales, Voestalpine' },
+            { item: '4.1.x', concepto: 'Armario PTC en PaN (Tipo C, SIL-3 vital)', vu_actual: '~$140k USD/u (Conceptual LFC)', fuente: 'Sin ADIF', estado: 'RFQ urgente', proveedores: 'Hima HiMax, Siemens SICAS, Bombardier EBI Gate 200' },
+            { item: 'Cap 10', concepto: 'UPS 4h (signal) / 24-48h (TETRA)', vu_actual: 'Pendiente', fuente: 'BCD §10.1-10.5', estado: 'RFQ urgente', proveedores: 'Eaton, APC by Schneider, Riello, Hoppecke COL (LiFePO4)' }
+        ];
 
         document.addEventListener('DOMContentLoaded', () => {
             if (typeof WBS_CORE === 'undefined' || !window.wbsDataPresupuestal) {
                 document.body.innerHTML = '<div style="padding:40px;color:#c00;">Error: motor WBS_CORE o datos no cargados.</div>';
                 return;
             }
+            renderTodo();
+        });
 
+        function renderTodo() {
             const TRM = WBS_CORE.getTRM();
             const calc = WBS_CORE.calcularAIUeIVA(window.wbsDataPresupuestal);
             const nombres = WBS_CORE.getNombresCapitulos();
-
-            // Meta
             const fecha = new Date().toLocaleDateString('es-CO', {year:'numeric',month:'long',day:'numeric'});
             const nItems = window.wbsDataPresupuestal.length;
+
             document.getElementById('meta').textContent =
-                `Contrato APP No. 001 de 2025 • TRM Risk: ${TRM.toLocaleString('es-CO')} COP/USD • Generado: ${fecha} • ${nItems} ítems`;
+                `Contrato APP No. 001 de 2025 • TRM Risk: ${TRM.toLocaleString('es-CO')} COP/USD • EUR/COP: ${(TRM*1.09).toLocaleString('es-CO')} • Generado: ${fecha} • ${nItems} ítems`;
             document.getElementById('item-count-note').textContent = nItems;
 
-            // Filas por capítulo
             const tbody = document.getElementById('tabla-body');
+            tbody.innerHTML = '';
             Object.keys(calc.capitulos).sort().forEach(cap => {
                 const c = calc.capitulos[cap];
                 const usd = c.total / TRM;
@@ -227,11 +371,9 @@
                         <td>${fmt(c.iva)}</td>
                         <td><strong>${fmt(c.total)}</strong></td>
                         <td>${fmtUSD(usd)}</td>
-                    </tr>
-                `;
+                    </tr>`;
             });
 
-            // Totales generales (footer)
             const totalUSD = calc.total / TRM;
             document.getElementById('tabla-foot').innerHTML = `
                 <tr>
@@ -244,10 +386,8 @@
                     <td>${fmt(calc.iva)}</td>
                     <td>${fmt(calc.total)}</td>
                     <td>${fmtUSD(totalUSD)}</td>
-                </tr>
-            `;
+                </tr>`;
 
-            // Tarjetas resumen
             document.getElementById('resumen').innerHTML = `
                 <div class="card">
                     <div class="label">Costo Directo</div>
@@ -268,52 +408,400 @@
                     <div class="label">TOTAL ENTREGA</div>
                     <div class="value">${fmt(calc.total)}</div>
                     <div class="sub" style="font-size:16px;font-weight:600;">${fmtUSD(totalUSD)} USD @ TRM ${TRM}</div>
-                </div>
-            `;
-        });
-
-        // Fuente / referencia conocida por categoría
-        function fuenteDeItem(item) {
-            const cat = (item.categoria || '').toLowerCase();
-            const id = item.item || '';
-            if (id === '1.1.103') return 'WBS v4.0 Michelin (purga FENOCO Sec 25.4 — $11,000M)';
-            if (id.startsWith('1.3.')) return 'WBS v3.0 + ADIF CAC020 (€356,780)';
-            if (id.startsWith('1.4.')) return 'WBS v3.0 + ADIF VEA010/CBB010';
-            if (id.startsWith('2.3.')) return 'WBS v3.0 fibra G.652.D 48h $9.81M/km';
-            return 'Línea Base WBS v4.0 Michelin';
+                </div>`;
         }
 
+        // ============ MODALES ============
+        function cerrarModal(id) { document.getElementById(id).classList.remove('active'); }
+
+        function mostrarModalAIU() {
+            const calc = WBS_CORE.calcularAIUeIVA(window.wbsDataPresupuestal);
+            const nombres = WBS_CORE.getNombresCapitulos();
+            let html = '<table><thead><tr><th>Capítulo</th><th>CD</th><th>Adm 23%</th><th>Imp 5%</th><th>Util 5%</th><th>AIU</th><th>IVA Sum</th><th>IVA Serv</th><th>IVA Util</th><th>IVA Total</th><th>Total Cap</th></tr></thead><tbody>';
+            Object.keys(calc.capitulos).sort().forEach(cap => {
+                const c = calc.capitulos[cap];
+                html += `<tr>
+                    <td style="text-align:left;font-weight:700;">${cap}. ${nombres[cap] || cap}</td>
+                    <td style="text-align:right;">${fmt(c.costoDirecto)}</td>
+                    <td style="text-align:right;">${fmt(c.administracion)}</td>
+                    <td style="text-align:right;">${fmt(c.imprevistos)}</td>
+                    <td style="text-align:right;">${fmt(c.utilidad)}</td>
+                    <td style="text-align:right;background:#fff3cd;font-weight:700;">${fmt(c.aiu)}</td>
+                    <td style="text-align:right;">${fmt(c.ivaSuministros)}</td>
+                    <td style="text-align:right;">${fmt(c.ivaServicios)}</td>
+                    <td style="text-align:right;">${fmt(c.ivaUtilidad)}</td>
+                    <td style="text-align:right;background:#d1ecf1;font-weight:700;">${fmt(c.iva)}</td>
+                    <td style="text-align:right;background:#d4edda;font-weight:800;">${fmt(c.total)}</td>
+                </tr>`;
+            });
+            html += `<tr style="background:#1e3c72;color:white;font-weight:800;">
+                <td>TOTAL</td><td style="text-align:right;">${fmt(calc.costoDirecto)}</td>
+                <td colspan="3"></td><td style="text-align:right;">${fmt(calc.aiu)}</td>
+                <td colspan="3"></td><td style="text-align:right;">${fmt(calc.iva)}</td>
+                <td style="text-align:right;">${fmt(calc.total)}</td></tr></tbody></table>`;
+            document.getElementById('aiu-body').innerHTML = html;
+            document.getElementById('modal-aiu').classList.add('active');
+        }
+
+        function mostrarModalActa() {
+            const data = window.wbsDataPresupuestal;
+            const tipos = { SUMINISTRO: { items: [], total: 0 }, OBRA: { items: [], total: 0 }, SERVICIO: { items: [], total: 0 } };
+            data.forEach(it => {
+                if (it.tipo && tipos[it.tipo]) {
+                    tipos[it.tipo].items.push(it);
+                    tipos[it.tipo].total += WBS_CORE.parseNumber(it.total);
+                }
+            });
+            let html = `<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-bottom:25px;">
+                <div style="background:#cce5ff;padding:18px;border-radius:8px;text-align:center;">
+                    <div style="font-size:11px;color:#004085;text-transform:uppercase;font-weight:700;letter-spacing:1px;">SUMINISTROS (Compras)</div>
+                    <div style="font-size:26px;font-weight:800;color:#004085;margin-top:8px;">${fmt(tipos.SUMINISTRO.total)}</div>
+                    <div style="font-size:12px;color:#004085;">${tipos.SUMINISTRO.items.length} ítems</div>
+                </div>
+                <div style="background:#f8d7da;padding:18px;border-radius:8px;text-align:center;">
+                    <div style="font-size:11px;color:#721c24;text-transform:uppercase;font-weight:700;letter-spacing:1px;">OBRA CIVIL (Construcción)</div>
+                    <div style="font-size:26px;font-weight:800;color:#721c24;margin-top:8px;">${fmt(tipos.OBRA.total)}</div>
+                    <div style="font-size:12px;color:#721c24;">${tipos.OBRA.items.length} ítems · AIU 33% aplica</div>
+                </div>
+                <div style="background:#d4edda;padding:18px;border-radius:8px;text-align:center;">
+                    <div style="font-size:11px;color:#155724;text-transform:uppercase;font-weight:700;letter-spacing:1px;">SERVICIOS</div>
+                    <div style="font-size:26px;font-weight:800;color:#155724;margin-top:8px;">${fmt(tipos.SERVICIO.total)}</div>
+                    <div style="font-size:12px;color:#155724;">${tipos.SERVICIO.items.length} ítems</div>
+                </div></div>`;
+            html += '<table><thead><tr><th>Tipo</th><th>Ítem</th><th>Descripción</th><th>UND</th><th>Cant</th><th>VU (COP)</th><th>Total (COP)</th></tr></thead><tbody>';
+            ['SUMINISTRO','OBRA','SERVICIO'].forEach(t => {
+                const pillClass = t === 'SUMINISTRO' ? 'pill-suministro' : (t === 'OBRA' ? 'pill-obra' : 'pill-servicio');
+                tipos[t].items.sort((a,b)=>(a.item||'').localeCompare(b.item||'')).forEach(it => {
+                    html += `<tr>
+                        <td><span class="pill ${pillClass}">${t}</span></td>
+                        <td>${it.item || ''}</td>
+                        <td style="text-align:left;">${(it.descripcion||'').substring(0,90)}</td>
+                        <td style="text-align:center;">${it.unidad||''}</td>
+                        <td style="text-align:right;">${it.cantidad||''}</td>
+                        <td style="text-align:right;">${fmt(WBS_CORE.parseNumber(it.vu))}</td>
+                        <td style="text-align:right;font-weight:700;">${fmt(WBS_CORE.parseNumber(it.total))}</td>
+                    </tr>`;
+                });
+            });
+            html += '</tbody></table>';
+            document.getElementById('acta-body').innerHTML = html;
+            document.getElementById('modal-acta').classList.add('active');
+        }
+
+        function mostrarModalCap4() {
+            const data = window.wbsDataPresupuestal;
+            const TRM = WBS_CORE.getTRM();
+            const items = data.filter(it => (it.item||'').startsWith('4.'));
+            const tipoB = items.filter(it => (it.item||'').startsWith('4.2'));
+            const tipoC = items.filter(it => (it.item||'').startsWith('4.1'));
+            const otros = items.filter(it => !['4.1','4.2'].some(p => (it.item||'').startsWith(p)));
+            const totalCap4 = items.reduce((s,it) => s + WBS_CORE.parseNumber(it.total), 0);
+            const sumC = tipoC.reduce((s,it) => s + WBS_CORE.parseNumber(it.total), 0);
+            const sumB = tipoB.reduce((s,it) => s + WBS_CORE.parseNumber(it.total), 0);
+            const sumO = otros.reduce((s,it) => s + WBS_CORE.parseNumber(it.total), 0);
+            const cantC = tipoC[0] ? parseInt(tipoC[0].cantidad) : 0;
+            const cantB = tipoB[0] ? parseInt(tipoB[0].cantidad) : 0;
+            const okC = cantC === 9, okB = cantB === 15, okBCD = okC && okB;
+
+            let html = `<div style="background:${okBCD?'#d4edda':'#f8d7da'};padding:18px;border-radius:8px;margin-bottom:18px;">
+                <strong style="font-size:14px;">Verificación BCD §8.2:</strong><br>
+                ${okC ? '✅' : '❌'} 9 PaN Tipo C (barreras automáticas SIL-3 vital) — actual: ${cantC}<br>
+                ${okB ? '✅' : '❌'} 15 PaN Tipo B (Señales Luminosas y Acústicas SLA) — actual: ${cantB}<br>
+                <strong>Total protegidos: ${cantC + cantB} (esperado: 24).</strong> Los 122 PaN restantes NO son alcance del sistema señalización (BCD §8.2).
+            </div>`;
+            html += `<table><thead><tr><th>Subgrupo</th><th>Ítems</th><th>Total (COP)</th><th>Total (USD @ ${TRM})</th></tr></thead><tbody>
+                <tr><td style="text-align:left;font-weight:700;">4.1 Tipo C (barreras automáticas SIL-3)</td><td>${tipoC.length}</td><td style="text-align:right;">${fmt(sumC)}</td><td style="text-align:right;">${fmtUSD(sumC/TRM)}</td></tr>
+                <tr><td style="text-align:left;font-weight:700;">4.2 Tipo B (SLA)</td><td>${tipoB.length}</td><td style="text-align:right;">${fmt(sumB)}</td><td style="text-align:right;">${fmtUSD(sumB/TRM)}</td></tr>
+                <tr><td style="text-align:left;font-weight:700;">4.x Otros (interfaces, infra)</td><td>${otros.length}</td><td style="text-align:right;">${fmt(sumO)}</td><td style="text-align:right;">${fmtUSD(sumO/TRM)}</td></tr>
+                <tr style="background:#1e3c72;color:white;font-weight:800;"><td style="text-align:left;">TOTAL CAP 4</td><td>${items.length}</td><td style="text-align:right;">${fmt(totalCap4)}</td><td style="text-align:right;">${fmtUSD(totalCap4/TRM)}</td></tr>
+            </tbody></table><p style="font-size:12px;color:#666;margin-top:15px;">Normativa: NTC 4741:1999 · FRA 49 CFR Part 234 (2026) · Manual Señalización Vial 2024 · BCD §8.</p>`;
+            document.getElementById('cap4-body').innerHTML = html;
+            document.getElementById('modal-cap4').classList.add('active');
+        }
+
+        function mostrarModalZeroResidue() {
+            const data = window.wbsDataPresupuestal;
+            const calc = WBS_CORE.calcularAIUeIVA(data);
+            const sumDirecto = data.filter(it => it.nivel === 3 && it.total).reduce((s,it) => s + WBS_CORE.parseNumber(it.total), 0);
+            const residuoCD = sumDirecto - calc.costoDirecto;
+            const residuoTotal = calc.total - (calc.costoDirecto + calc.aiu + calc.iva);
+            const okCD = Math.abs(residuoCD) < 1, okTotal = Math.abs(residuoTotal) < 1;
+            const ok = okCD && okTotal;
+            let html = `<div style="background:${ok?'#d4edda':'#f8d7da'};padding:22px;border-radius:8px;margin-bottom:15px;">
+                <h3 style="margin-top:0;">${ok ? '✅ AUDITORÍA APROBADA — Sin residuo de redondeo' : '⚠️ HAY RESIDUO DE REDONDEO'}</h3>
+                <table style="margin-top:12px;font-size:13px;background:white;">
+                    <tr><td><strong>Suma directa de ítems (nivel 3):</strong></td><td style="text-align:right;">${fmt(sumDirecto)}</td></tr>
+                    <tr><td><strong>Costo Directo (motor):</strong></td><td style="text-align:right;">${fmt(calc.costoDirecto)}</td></tr>
+                    <tr><td><strong>Residuo CD:</strong></td><td style="text-align:right;color:${okCD?'green':'red'};font-weight:700;">${fmt(residuoCD)}</td></tr>
+                    <tr><td><strong>Total reportado:</strong></td><td style="text-align:right;">${fmt(calc.total)}</td></tr>
+                    <tr><td><strong>CD + AIU + IVA:</strong></td><td style="text-align:right;">${fmt(calc.costoDirecto + calc.aiu + calc.iva)}</td></tr>
+                    <tr><td><strong>Residuo Total:</strong></td><td style="text-align:right;color:${okTotal?'green':'red'};font-weight:700;">${fmt(residuoTotal)}</td></tr>
+                </table></div>
+                <p style="font-size:12px;color:#666;">Residuo &lt; $1 COP es tolerable. El motor <code>calcularAIUeIVA</code> usa <code>Math.round</code> en cada subtotal.</p>`;
+            document.getElementById('zero-body').innerHTML = html;
+            document.getElementById('modal-zero').classList.add('active');
+        }
+
+        function mostrarModalRFQ() {
+            let html = '<table><thead><tr><th>Ítem WBS</th><th>Concepto</th><th>VU actual</th><th>Fuente</th><th>Estado</th><th>Proveedores priorizados</th></tr></thead><tbody>';
+            PENDIENTES_RFQ.forEach(p => {
+                const pillClass = p.estado === 'Ratificación' ? 'pill-ratify' : 'pill-pending';
+                html += `<tr>
+                    <td style="font-weight:700;">${p.item}</td>
+                    <td style="text-align:left;">${p.concepto}</td>
+                    <td>${p.vu_actual}</td>
+                    <td style="text-align:left;font-size:11px;">${p.fuente}</td>
+                    <td><span class="pill ${pillClass}">${p.estado}</span></td>
+                    <td style="text-align:left;font-size:11px;">${p.proveedores}</td>
+                </tr>`;
+            });
+            html += '</tbody></table><p style="font-size:12px;color:#666;margin-top:15px;">📤 Esta tabla se exporta en la <strong>Hoja 6 del Excel</strong>. Se pasa a Compras o a un integrador (ART, Hitachi, etc.) para iniciar RFQ formal. Detalles: <code>DT-COMS-2026-007</code> + <code>precios_Adif_COMPLETO.md §4</code>.</p>';
+            document.getElementById('rfq-body').innerHTML = html;
+            document.getElementById('modal-rfq').classList.add('active');
+        }
+
+        // ================= EXCEL — 7 HOJAS (estilo Costo_proyecto.xlsx) =================
         function descargarExcel() {
             if (typeof XLSX === 'undefined') {
-                alert('La librería XLSX no se cargó.');
+                alert('La librería XLSX no se cargó. Verifica conexión a internet.');
                 return;
             }
             const TRM = WBS_CORE.getTRM();
             const data = window.wbsDataPresupuestal;
             const nombres = WBS_CORE.getNombresCapitulos();
             const calc = WBS_CORE.calcularAIUeIVA(data);
+            const fecha = new Date().toLocaleString('es-CO');
             const fechaCorta = new Date().toISOString().split('T')[0];
 
             const wb = XLSX.utils.book_new();
-            
-            // Hoja Resumen
-            const resumen = Object.keys(calc.capitulos).map(cap => {
+
+            // ===== HOJA 1: Total General =====
+            const totalGeneral = [
+                ['PRESUPUESTO SCC — APP LA DORADA-CHIRIGUANÁ (UF2)'],
+                ['Contrato APP No. 001 de 2025  |  SICC v14.7 BCD-aligned  |  Generado: ' + fecha],
+                [],
+                ['TOTAL GENERAL PROYECTO', '', 'COP', 'USD'],
+                ['Costo Directo', '', calc.costoDirecto, Math.round(calc.costoDirecto / TRM)],
+                ['AIU 33% sobre Obra Civil', '', calc.aiu, Math.round(calc.aiu / TRM)],
+                ['IVA Total', '', calc.iva, Math.round(calc.iva / TRM)],
+                ['TOTAL PROYECTO', '', calc.total, Math.round(calc.total / TRM)],
+                [],
+                ['DESGLOSE POR COMPONENTE'],
+                ['Total Suministros', '', calc.totalSuministros, Math.round(calc.totalSuministros / TRM)],
+                ['Total Obra Civil', '', calc.totalObraCivil, Math.round(calc.totalObraCivil / TRM)],
+                ['Total Servicios', '', calc.totalServicios, Math.round(calc.totalServicios / TRM)],
+                [],
+                ['CONVERSIÓN MONETARIA'],
+                ['TRM Risk (COP/USD)', '', TRM],
+                ['EUR/USD (paridad ECB)', '', 1.09],
+                ['EUR/COP cruzada', '', Math.round(TRM * 1.09)],
+                [],
+                ['NOTAS'],
+                ['(1) TRM Risk = techo de cobertura cambiaria. TRM real ~3,637 al ' + fechaCorta + '. Margen ~+21%.'],
+                ['(2) AIU = Adm 23% + Imprevistos 5% + Utilidad 5% sobre Obra Civil.'],
+                ['(3) IVA = 19% Suministros + 19% Servicios + 19% sobre 5% Utilidad de Obra.'],
+                ['(4) Línea base alineada a BCD v001 SCC (Ardanuy, abril 2026) y DT-COMS-2026-007 (precios ADIF).']
+            ];
+            XLSX.utils.book_append_sheet(wb, XLSX.utils.aoa_to_sheet(totalGeneral), '1.Total General');
+
+            // ===== HOJA 2: Por Capítulo =====
+            const porCap = [];
+            Object.keys(calc.capitulos).sort().forEach(cap => {
                 const c = calc.capitulos[cap];
-                return {
-                    'CAPÍTULO': cap,
-                    'NOMBRE': nombres[cap] || '',
-                    'SUMINISTROS': c.suministros,
-                    'OBRA CIVIL': c.obraCivil,
-                    'SERVICIOS': c.servicios,
-                    'COSTO DIRECTO': c.costoDirecto,
-                    'AIU 33% OBRA': c.aiu,
-                    'IVA': c.iva,
-                    'TOTAL (COP)': c.total,
-                    'TOTAL (USD)': Math.round(c.total / TRM)
-                };
+                porCap.push({
+                    'CAPÍTULO': cap, 'NOMBRE': nombres[cap] || '',
+                    'SUMINISTROS': c.suministros, 'OBRA CIVIL': c.obraCivil, 'SERVICIOS': c.servicios,
+                    'COSTO DIRECTO': c.costoDirecto, 'AIU 33% OBRA': c.aiu, 'IVA': c.iva,
+                    'TOTAL CAP (COP)': c.total, 'TOTAL CAP (USD)': Math.round(c.total / TRM)
+                });
             });
-            
-            XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(resumen), 'Resumen');
+            porCap.push({
+                'CAPÍTULO': 'TOTAL', 'NOMBRE': 'PROYECTO COMPLETO',
+                'SUMINISTROS': calc.totalSuministros, 'OBRA CIVIL': calc.totalObraCivil,
+                'SERVICIOS': calc.totalServicios, 'COSTO DIRECTO': calc.costoDirecto,
+                'AIU 33% OBRA': calc.aiu, 'IVA': calc.iva,
+                'TOTAL CAP (COP)': calc.total, 'TOTAL CAP (USD)': Math.round(calc.total / TRM)
+            });
+            XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(porCap), '2.Por Capítulo');
+
+            // ===== HOJA 3: Detalle Ítems (estilo Costo_proyecto.xlsx — TRM en M1, fórmulas $M$1) =====
+            // Estructura:
+            //   Fila 1: títulos auxiliares (L1=TMR, M1=4400)
+            //   Fila 2: encabezados A:J
+            //   Fila 3+: datos con fórmulas
+            //   Bloque resumen al final
+            const detalleSheet = {};
+            const moneyFmt = '_-"$"\\ * #,##0.00_-;\\-"$"\\ * #,##0.00_-;_-"$"\\ * "-"??_-;_-@_-';
+            const sortedData = [...data].sort((a,b)=>(a.item||'').localeCompare(b.item||''));
+            const N = sortedData.length;
+
+            // Fila 1: TRM aislada en M1
+            detalleSheet['L1'] = { v: 'TMR', t: 's' };
+            detalleSheet['M1'] = { v: TRM, t: 'n' };
+
+            // Fila 2: encabezados
+            const headers = ['Capítulo', 'SUB CAP', 'ÍTEM', 'DESCRIPCIÓN', 'TIPO', 'UNIDAD', 'CANTIDAD', 'VU (COP)', 'TOTAL (COP)', 'TOTAL (USD)'];
+            headers.forEach((h, i) => {
+                const col = String.fromCharCode(65 + i); // A..J
+                detalleSheet[col + '2'] = { v: h, t: 's', s: { font: { bold: true, sz: 12 }, fill: { fgColor: { rgb: 'C6E0B4' } } } };
+            });
+
+            // Filas 3..N+2: datos con fórmulas
+            sortedData.forEach((it, idx) => {
+                const row = idx + 3;
+                const capNum = (it.capitulo || (it.item||'').split('.')[0] || '');
+                const subCap = (it.sistema || (it.item||'').split('.').slice(0,2).join('.') || '');
+                detalleSheet['A' + row] = { v: capNum + '. ' + (nombres[capNum] || ''), t: 's' };
+                detalleSheet['B' + row] = { v: subCap, t: 's' };
+                detalleSheet['C' + row] = { v: it.item || '', t: 's' };
+                detalleSheet['D' + row] = { v: it.descripcion || '', t: 's' };
+                detalleSheet['E' + row] = { v: it.tipo || '', t: 's' };
+                detalleSheet['F' + row] = { v: it.unidad || '', t: 's' };
+                detalleSheet['G' + row] = { v: WBS_CORE.parseNumber(it.cantidad), t: 'n' };
+                detalleSheet['H' + row] = { v: WBS_CORE.parseNumber(it.vu), t: 'n', z: moneyFmt };
+                // Fórmulas: TOTAL = VU × CANTIDAD ; USD = TOTAL / $M$1
+                detalleSheet['I' + row] = { f: 'H' + row + '*G' + row, t: 'n', z: moneyFmt };
+                detalleSheet['J' + row] = { f: 'I' + row + '/$M$1', t: 'n', z: moneyFmt };
+            });
+
+            // Bloque resumen — desde fila N+5
+            const r0 = N + 5;
+            const dataStart = 3, dataEnd = N + 2;
+            const E_range = `$E$${dataStart}:$E$${dataEnd}`;
+            const I_range = `$I$${dataStart}:$I$${dataEnd}`;
+
+            const resumenRows = [
+                ['', '', '', '', '', '', '', 'CONCEPTO', 'VALOR (COP)', 'VALOR (USD)'],
+                ['', '', '', '', '', '', '', 'SUBTOTAL SUMINISTROS', { f: `SUMIF(${E_range},"SUMINISTRO",${I_range})` }, null],
+                ['', '', '', '', '', '', '', 'SUBTOTAL SERVICIOS',   { f: `SUMIF(${E_range},"SERVICIO",${I_range})` },  null],
+                ['', '', '', '', '', '', '', 'IVA 19% (Sum+Serv)',   { f: `(I${r0+1}+I${r0+2})*0.19` },                  null],
+                ['', '', '', '', '', '', '', 'TOTAL c/IVA (Sum+Serv)', { f: `I${r0+1}+I${r0+2}+I${r0+3}` },              null],
+                [],
+                ['', '', '', '', '', '', '', 'SUBTOTAL OBRA CIVIL',  { f: `SUMIF(${E_range},"OBRA",${I_range})` },       null],
+                ['', '', '', '', '', '', '', 'Administración (23%)', { f: `I${r0+6}*0.23` }, null],
+                ['', '', '', '', '', '', '', 'Imprevistos (5%)',     { f: `I${r0+6}*0.05` }, null],
+                ['', '', '', '', '', '', '', 'Utilidad (5%)',        { f: `I${r0+6}*0.05` }, null],
+                ['', '', '', '', '', '', '', 'IVA 19% (s/Util)',     { f: `I${r0+9}*0.19` }, null],
+                ['', '', '', '', '', '', '', 'AIU TOTAL',            { f: `I${r0+6}+I${r0+7}+I${r0+8}+I${r0+9}+I${r0+10}` }, null],
+                [],
+                ['', '', '', '', '', '', '', 'Suministros + Servicios Total', { f: `I${r0+4}` },  null],
+                ['', '', '', '', '', '', '', 'Obra Civil Total (con AIU)',    { f: `I${r0+11}` }, null],
+                ['', '', '', '', '', '', '', 'TOTAL GENERAL DEL PROYECTO',    { f: `I${r0+13}+I${r0+14}` }, null],
+                [],
+                ['', '', '', '', '', '', '', 'TRM aplicada',  TRM,  ''],
+                ['', '', '', '', '', '', '', 'Fecha generación', fechaCorta, '']
+            ];
+            resumenRows.forEach((rr, ri) => {
+                const r = r0 + ri;
+                rr.forEach((v, ci) => {
+                    if (v === null || v === '' || typeof v === 'undefined') return;
+                    const col = String.fromCharCode(65 + ci);
+                    if (typeof v === 'object' && v.f) {
+                        detalleSheet[col + r] = { f: v.f, t: 'n', z: moneyFmt };
+                        // J = I / $M$1 para filas con valor
+                        if (ci === 8) detalleSheet['J' + r] = { f: `I${r}/$M$1`, t: 'n', z: moneyFmt };
+                    } else if (typeof v === 'number') {
+                        detalleSheet[col + r] = { v: v, t: 'n', z: ci >= 7 ? moneyFmt : undefined };
+                    } else {
+                        detalleSheet[col + r] = { v: String(v), t: 's' };
+                    }
+                });
+            });
+
+            // Rango de la hoja
+            const lastRow = r0 + resumenRows.length;
+            detalleSheet['!ref'] = 'A1:M' + lastRow;
+            // AutoFilter sobre encabezados (fila 2) hasta última fila de datos
+            detalleSheet['!autofilter'] = { ref: `A2:J${dataEnd}` };
+            // Anchos de columna (ref Costo_proyecto.xlsx)
+            detalleSheet['!cols'] = [
+                { wch: 39.3 }, { wch: 11.4 }, { wch: 12 }, { wch: 50 },
+                { wch: 11.4 }, { wch: 8 },   { wch: 13.0 }, { wch: 33.7 },
+                { wch: 26.4 }, { wch: 18 },  { wch: 4 },    { wch: 22.6 }, { wch: 18.6 }
+            ];
+
+            XLSX.utils.book_append_sheet(wb, detalleSheet, '3.Detalle Ítems');
+
+            // ===== HOJA 4: Obra Civil vs Compras (Acta de Obra) =====
+            const actaRows = [
+                ['ACTA DE OBRA — OBRA CIVIL VS COMPRAS VS SERVICIOS'],
+                ['Clasificación por tipo. AIU 33% aplica solo sobre Obra Civil. IVA 19% aplica a Suministros, Servicios y Utilidad de Obra.'],
+                [],
+                ['TIPO', 'ÍTEM', 'DESCRIPCIÓN', 'UND', 'CANT', 'VU (COP)', 'TOTAL (COP)']
+            ];
+            const tiposGroup = { SUMINISTRO: [], OBRA: [], SERVICIO: [] };
+            data.forEach(it => { if (it.tipo && tiposGroup[it.tipo]) tiposGroup[it.tipo].push(it); });
+            ['SUMINISTRO','OBRA','SERVICIO'].forEach(t => {
+                let subtotal = 0;
+                tiposGroup[t].sort((a,b)=>(a.item||'').localeCompare(b.item||'')).forEach(it => {
+                    const tt = WBS_CORE.parseNumber(it.total);
+                    subtotal += tt;
+                    actaRows.push([t, it.item||'', it.descripcion||'', it.unidad||'', it.cantidad||'', WBS_CORE.parseNumber(it.vu), tt]);
+                });
+                actaRows.push(['', '', `>>> SUBTOTAL ${t}`, '', '', '', subtotal]);
+                actaRows.push([]);
+            });
+            actaRows.push(['', '', '>>> Costo Directo (CD)', '', '', '', calc.costoDirecto]);
+            actaRows.push(['', '', 'AIU sobre Obra Civil (33%)', '', '', '', calc.aiu]);
+            actaRows.push(['', '', 'IVA Total', '', '', '', calc.iva]);
+            actaRows.push(['', '', 'TOTAL PROYECTO (COP)', '', '', '', calc.total]);
+            XLSX.utils.book_append_sheet(wb, XLSX.utils.aoa_to_sheet(actaRows), '4.Obra vs Compras');
+
+            // ===== HOJA 5: AIU Desglose =====
+            const aiuRows = [
+                ['DESGLOSE AIU + IVA POR CAPÍTULO'],
+                ['AIU 33% = Adm 23% + Imp 5% + Util 5% (todo sobre Obra Civil) · IVA = 19% Sum + 19% Serv + 19% × 5% Util Obra'],
+                [],
+                ['CAP', 'NOMBRE', 'CD', 'Adm 23%', 'Imp 5%', 'Util 5%', 'AIU Total', 'IVA Sum', 'IVA Serv', 'IVA Util', 'IVA Total', 'TOTAL CAP']
+            ];
+            Object.keys(calc.capitulos).sort().forEach(cap => {
+                const c = calc.capitulos[cap];
+                aiuRows.push([cap, nombres[cap]||'', c.costoDirecto, c.administracion, c.imprevistos, c.utilidad, c.aiu, c.ivaSuministros, c.ivaServicios, c.ivaUtilidad, c.iva, c.total]);
+            });
+            aiuRows.push(['', 'TOTAL', calc.costoDirecto, '', '', '', calc.aiu, '', '', '', calc.iva, calc.total]);
+            XLSX.utils.book_append_sheet(wb, XLSX.utils.aoa_to_sheet(aiuRows), '5.AIU Desglose');
+
+            // ===== HOJA 6: Pendientes RFQ =====
+            const rfqRows = [
+                ['PENDIENTES RFQ — Para Compras / Integradora (ART, Hitachi, etc.)'],
+                ['Cotizaciones formales pendientes. Documentación: DT-COMS-2026-007 + precios_Adif_COMPLETO.md §4.'],
+                [],
+                ['ÍTEM WBS', 'CONCEPTO', 'VU ACTUAL', 'FUENTE', 'ESTADO', 'PROVEEDORES PRIORIZADOS']
+            ];
+            PENDIENTES_RFQ.forEach(p => rfqRows.push([p.item, p.concepto, p.vu_actual, p.fuente, p.estado, p.proveedores]));
+            XLSX.utils.book_append_sheet(wb, XLSX.utils.aoa_to_sheet(rfqRows), '6.Pendientes RFQ');
+
+            // ===== HOJA 7: Fuentes y Notas =====
+            const fuentesRows = [
+                ['FUENTES Y NOTAS — PRESUPUESTO SCC v14.7 (BCD-aligned)'],
+                ['Sesión: ' + fechaCorta + ' · BCD v001 (Ardanuy abril 2026) como SSoT técnica'],
+                [],
+                ['FUENTE', 'TIPO', 'COBERTURA', 'OBSERVACIONES'],
+                ['BCD_SCC_v001_2026-04 (Ardanuy)', 'Contractual', 'Bases, parámetros y criterios de diseño SCC', 'Trocha 914mm, fibra 48h G.652.D, 24 PaN (9C+15B), 5 ENCE, Stop & Switch operacional FENOCO.'],
+                ['Contrato APP No. 001/2025 + AT1 + AT3', 'Contractual', 'Marco legal y especificaciones', 'Jerarquía: Contrato > AT1 > AT3 > BCD. Desempate: AREMA > FRA > AAR > UIC.'],
+                ['DT-COMS-2026-007 Línea Base ADIF v1', 'Interna SICC', 'Precios ENCE, desvíos, señales LED', 'Aplicado: ENCE $2,000M (CAC020), desvíos $640M (VEA010). Pendientes RFQ: Hoja 6.'],
+                ['DT-CTRL-2026-006 Flota tractiva', 'Interna SICC', 'Cap 1.2 PTC embarcado 15 unidades', '1 U18 base (AT1 §5) + 14 Factor Calidad concesionario.'],
+                ['BPA ADIF 2026', 'Externo (España)', 'Referencia europea (no contractual)', 'VEA010 desvíos, CBB010 motores, CCA040 señales, CAC020 enclavamientos. Trocha 1,435mm — ajustar para LFC2 914mm.'],
+                ['Conceptual LFC', 'Interna', 'Referencias USD por equipo', 'Enclavamientos $869k, motores $18.6k, señales $11.8k, armarios PTC PaN $140k, torres TETRA $73.1k.'],
+                ['Mercado COL/LATAM (estimación)', 'Externo', 'F.O. G.652.D 48h, baterías LiFePO4', 'No vinculante. Pendiente RFQ — ver Hoja 6.'],
+                [],
+                ['CONVERSIÓN MONETARIA'],
+                ['TRM Risk', TRM, 'COP/USD', 'Techo cobertura. Margen ~+21% vs TRM real ~3,637.'],
+                ['EUR/USD', 1.09, '—', 'Paridad ECB.'],
+                ['EUR/COP cruzada', Math.round(TRM * 1.09), 'COP/EUR', 'TRM × 1.09.'],
+                [],
+                ['FACTORES AJUSTE SOBERANÍA TÉCNICA (ADIF → LFC2)'],
+                ['+15-25%', 'Trocha 914mm', 'Baja serie, fabricación de adaptación'],
+                ['+12%', 'Logística e importación', 'Fletes, seguros, nacionalización'],
+                ['-10%', 'Mano de obra local COL', 'Crédito por menor costo de instalación'],
+                [],
+                ['IMPORTANTE — ESTILO COSTO_PROYECTO.XLSX'],
+                ['La Hoja 3 sigue el esquema del archivo de referencia: 10 columnas A:J + TRM en M1.'],
+                ['Para activar TableStyleLight15 (bandas verdes) y referencias estructuradas Tabla2[[#This Row],[...]],']
+            ];
+            fuentesRows.push(['abrir el Excel y presionar Ctrl+T sobre A2:J' + (N+2) + '. Las fórmulas A1 ya apuntan a $M$1 y propagan automáticamente.']);
+            XLSX.utils.book_append_sheet(wb, XLSX.utils.aoa_to_sheet(fuentesRows), '7.Fuentes y Notas');
+
             XLSX.writeFile(wb, `Presupuesto_SCC_LFC2_${fechaCorta}.xlsx`);
         }
     </script>

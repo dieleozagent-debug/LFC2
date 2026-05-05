@@ -27,6 +27,7 @@
 | **Saneo "64 hilos" en docs auxiliares** (`WBS_Listado_Verificacion_Precios`, `precios_Adif.md`): contradecía BCD §6.1.1 (48h homogéneo) | turno actual |
 | **DT-CTRL-2026-006 redactada**: flota tractiva 15 unidades = 1 U18 (AT1 §5) + 14 Factor Calidad. Cierra deuda doctrinal locomotoras. | turno actual |
 | **DT-COMS-2026-007 aplicada (ADIF v1)**: 5 ENCE $800M→$2,000M (CAC020) + 25 desvíos motorizados $448M→$640M (VEA010). Bug 2.3.100 fix "64 hilos"→"48 hilos". Cap 1 +$10,786M COP. Notas RFQ pendiente para 8 ítems (4 ratificación ADIF + 4 sin ADIF: F.O. 48h, contador ejes, armario PTC, UPS) con proveedores priorizados en `precios_Adif_COMPLETO.md` §4. | turno actual |
+| **Bloque C UI/UX consolidado** (C1+C2+C3+C4+C5+C6): Vista Final como vista canónica única con barra L4 secundaria (AIU · Acta · Validación Cap.4 · Zero-Residue · RFQ) en modales inline + Excel 7 hojas (incluye estilo Costo_proyecto.xlsx en Hoja 3 con TRM en M1 y fórmulas $M$1). 4 redirects (WBS_COMPLETA_TODO_v4.0 + duplicado + Controles_L4 + Presupuesto_SCC) → Vista_Final. Index.html migrado a Universo A (count-items desde wbs_presupuestal_datos.js). | turno actual |
 
 ---
 
@@ -46,9 +47,9 @@
 - [ ] Implementar verificación cruzada bidireccional: DT → ítem WBS, ítem WBS → "origen DT-XXX-YYY".
 - [ ] Probar end-to-end: ítem 1.4.100 (desvíos motorizados) → `/audit señalizacion` → DT generada → `/promote` → push.
 
-### Bloque C — UI/UX consolidación frontend WBS (la entrega visual al gerente)
+### Bloque C — UI/UX consolidación frontend WBS (la entrega visual al gerente) ✅ CERRADO (commit pendiente)
 
-> **Diagnóstico (2026-05-05):** Hoy hay **4 URLs distintas** consumiendo data superpuesta y un usuario nuevo se pierde. El gerente solo va a mirar el Excel. Lo que importa: **Excel completo y bien ordenado** + **una sola entrada al sistema**.
+> **Diagnóstico (2026-05-05):** Hoy hay **4 URLs distintas** consumiendo data superpuesta y un usuario nuevo se pierde. El gerente solo va a mirar el Excel. Lo que importa: **Excel completo y bien ordenado** + **una sola entrada al sistema**. — **RESUELTO**.
 
 **Estado actual:**
 | URL Vercel | Archivo | Universo | Estado |
@@ -60,17 +61,15 @@
 
 **Pendientes:**
 
-- [ ] **C1 — Index → entrada única.** `index.html` debe linkear directo a `WBS_Vista_Final` como portal principal. Hoy linkea a `WBS_Menu_Principal` que es un hub intermedio. Decidir: ¿hub o vista directa?
-- [ ] **C2 — Excel mejorado (lo que mira el gerente).** El Excel actual de `WBS_Vista_Final` tiene 4 hojas. Agregar:
-  - **Hoja "Obra Civil vs Compras"** — Acta de Obra: clasificar 135 ítems por `tipo` (SUMINISTRO / OBRA_CIVIL / SERVICIO) con subtotales, para separar lo que se compra vs. lo que se construye en sitio.
-  - **Hoja "AIU Desglose"** — costo directo + AIU 33% sobre Obra Civil + IVA 19% por concepto, en formato de auditoría matemática.
-  - **Hoja "Pendientes RFQ"** — los 8 ítems pendientes (DT-COMS-2026-007 §3.5) con: ítem WBS, concepto, proveedores priorizados, estado RFQ. Es lo que se pasa a Compras o a un integrador (ART, Hitachi).
-  - **Hoja "Notas referenciales"** — DTs aplicadas, buffers documentados, fuentes ADIF/Conceptual LFC.
-- [ ] **C3 — Bug `exportarActaExcel` falta en `wbs_core_logic.js`.** Implementarla o quitar el botón.
-- [ ] **C4 — Consolidar L4 dentro de Vista_Final.** Los 4 botones (AIU · Acta · Validación · Zero-Residue) tienen sentido como **botones secundarios** en `WBS_Vista_Final.html` (junto a "Excel" e "Imprimir"). El HTML separado L4 confunde al usuario gerencial.
-- [ ] **C5 — Deprecar Universo B en Vercel.** `WBS_COMPLETA_TODO_Interactiva_v4.0.html` y su duplicado `_v4_0.html` siguen sirviendo cifras pre-purga FENOCO ($63B ítem 1.1.103 vs los $11B saneados). Mover los HTML a `_legacy/` o agregar redirect a Vista_Final.
-- [ ] **C6 — Auditar `WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguana.html`** (854 líneas). Si es redundante con Vista_Final → fusionar y dejar uno solo. Si tiene funcionalidad distinta → renombrar para que no confunda.
-- [ ] **C7 — Mantener estilo visual** definido (header azul `#1e3c72`, cards con glass + acento dorado, monospace para code).
+- [x] **C1 — Index → entrada única.** Primer access-card del index ahora apunta a `WBS_Vista_Final.html` con label "⭐ Presupuesto SCC — Vista Final". El hub `WBS_Menu_Principal` queda como segunda card "WBS Hub (navegación detallada)".
+- [x] **C2 — Excel mejorado.** Vista Final descarga 7 hojas: 1.Total General · 2.Por Capítulo · 3.Detalle Ítems (estilo Costo_proyecto.xlsx — TRM en M1, fórmulas A1 con `$M$1`) · 4.Obra vs Compras · 5.AIU Desglose · 6.Pendientes RFQ · 7.Fuentes y Notas. Cambio TRM en M1 propaga a todo el archivo.
+- [x] **C3 — Bug `exportarActaExcel`.** Eliminado: el export Acta ahora vive como Hoja 4 del Excel consolidado de Vista Final. No depende más de la función fantasma.
+- [x] **C4 — L4 dentro de Vista_Final.** Barra de acciones secundaria con 5 botones modales: 💰 Desglose AIU · 📝 Acta de Obra · ⚠️ Validación Cap. 4 · 🧮 Zero-Residue · 📋 Pendientes RFQ.
+- [x] **C5 — Universo B deprecado.** `WBS_COMPLETA_TODO_Interactiva_v4.0.html` y `_v4_0.html` reemplazados por redirects HTML (meta refresh 2s + mensaje + botón) que apuntan a `WBS_Vista_Final.html`. El `index.html` ya no carga `datos_wbs_TODOS_items.js`; ahora carga `wbs_presupuestal_datos.js` para `count-items`.
+- [x] **C6 — `WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguana.html`** convertido a redirect a Vista Final (era redundante de 854 líneas sin funcionalidad distintiva auditada).
+- [x] **C7 — Estilo visual mantenido**: Inter font, header azul `#1e3c72`, accent gold, sidebar dinámica, cards glass en resumen.
+
+> **Pendiente menor:** TableStyleLight15 nativo + referencias estructuradas `Tabla2[[#This Row],...]` requieren SheetJS Pro. Solución actual: el usuario abre el Excel y presiona `Ctrl+T` sobre `A2:J<N>` — Excel convierte a tabla con bandas y las fórmulas A1 con `$M$1` ya están listas (cambiar TRM en M1 propaga al archivo entero). Documentado en Hoja 7.
 
 ---
 
