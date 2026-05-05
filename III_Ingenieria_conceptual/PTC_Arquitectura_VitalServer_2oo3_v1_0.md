@@ -4,7 +4,7 @@
 **Fecha:** 13 de marzo de 2026  
 **Sistema:** Vital PTC Server con redundancia 2oo3  
 **Normativa:** FRA 236 Subpart I, AREMA, IEEE 1474.1  
-**Metodología:** Punto 42 (Karpathy Saneamiento)
+**Metodología:** Punto 42 (Doctrinal Saneamiento)
 
 ---
 

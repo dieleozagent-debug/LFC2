@@ -3,7 +3,7 @@
 
 **Fecha de actualización:** 13 de marzo de 2026  
 **Versión:** v6.0 - Purge Release (Switch Systems Detail Design)
-**Metodología:** Punto 42 (Karpathy Saneamiento) - Ciclo Inverso
+**Metodología:** Punto 42 (Saneamiento Doctrinal) — Ciclo Inverso
 
 ---
 

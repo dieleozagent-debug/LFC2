@@ -3,7 +3,7 @@
 
 **ESTADO:** ✅ APROBADA (Institucionalizada vía Antigravity)
 **FECHA:** 2026-04-10
-**ORIGEN:** SICC [REDACTADO_SICC] (Loop Karpathy v8.6)
+**ORIGEN:** SICC [REDACTADO_SICC] (Loop Doctrinal v8.6)
 
 ---
 
@@ -13,7 +13,7 @@
 
 #### **1. DIAGNÓSTICO FORENSE (Principio de Eficiencia N-1)**
 
-El diseno preliminar de ingeniería basica sugería una configuración de **cuatro (4) Puestos de Control (CCO)**. Tras la auditoría deductiva del [REDACTADO_SICC] (Karpathy), se identifica que:
+El diseno preliminar de ingeniería basica sugería una configuración de **cuatro (4) Puestos de Control (CCO)**. Tras la auditoría deductiva del [REDACTADO_SICC] (Doctrinal), se identifica que:
 1.  No existe un mandato explícito en el **AT1** o **AT3** (Nivel 2 de jerarquía) que exija una cuarta estación física.
 2.  La arquitectura de **PTC Virtual** basada en Fusión Sensorial y Edometría permite una centralización operativa de alta densidad.
 3.  La redundancia de un cuarto puesto se cataloga como "Grasa Contractual", incrementando innecesariamente el CAPEX inicial y el OPEX de mantenimiento/licenciamiento.

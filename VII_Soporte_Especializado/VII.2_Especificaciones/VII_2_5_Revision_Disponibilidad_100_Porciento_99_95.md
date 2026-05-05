@@ -46,7 +46,7 @@ Matemáticamente, una disponibilidad del 100% implica un **MTTR (Tiempo Medio de
 
 ## 📋 **4. CONTROL DE VERSIONES (PURGE LOG)**
 
-| Versión | Fecha | Responsable | Cambio (Karpathy Purge) |
+| Versión | Fecha | Responsable | Cambio (Purga Doctrinal) |
 |:---:|:---:|:---|:---|
 | **v2.0** | 13/03/2026 | Admin. Contractual | **RE-ESCRITURA TOTAL**. Eliminados Servidor PTC Central y PTC VIRTUAL. Justificación basada en PTC Virtual y TETRA. |
 | **v1.0** | 27/01/2025 | Ing. Sistemas | Versión obsoleta basada en componentes PTC VIRTUAL (HALLUCINATED). |

@@ -5,7 +5,7 @@
 **Sistema:** Interfaces de mensajería vital entre el CCO y el Bordo (OBC)  
 **Protocolo:** Vital IP sobre MPLS/TETRA  
 **Normativa:** FRA 236 Subpart I, IEEE 1474.1  
-**Metodología:** Punto 42 (Karpathy Saneamiento)
+**Metodología:** Punto 42 (Doctrinal Saneamiento)
 
 ---
 

@@ -3,7 +3,7 @@
 
 **Fecha de actualización:** 18 de marzo de 2026  
 **Versión:** v6.3.2 - Sovereign Cybersecurity (Multi-Layer)
-**Metodología:** Karpathy Autoresearch Loop (Daemon v1.0)
+**Metodología:** Análisis Iterativo Doctrinal (Daemon v1.0)
 
 ---
 

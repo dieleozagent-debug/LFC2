@@ -3,7 +3,7 @@
 
 **Fecha de actualización:** 18 de marzo de 2026  
 **Versión:** v6.3.2 - Sovereign Power Resilience
-**MetodOLOGY:** Karpathy Autoresearch Loop (Daemon v1.0)
+**MetodOLOGY:** Análisis Iterativo Doctrinal (Daemon v1.0)
 
 ---
 

@@ -1,0 +1,26 @@
+# DECISIÓN TÉCNICA: DT-SICC-2026-003
+## ESPECIALIDAD: SEÑALIZACIÓN (PTC VIRTUAL)
+### ESTADO: 🏛️ AUDITADO SICC (CONSTITUCIÓN V6)
+
+#### 1. MANDATO CONTRACTUAL (AT1)
+Según el Apéndice Técnico 1, la seguridad operativa se basa en un diseño **Fail-Safe** alineado con la normativa **FRA 49 CFR Parte 236**. El sistema mandatorio es el **PTC Virtual**, el cual elimina la necesidad de hardware redundante en vía (Balizas Activas) en tramos de baja densidad.
+
+#### 2. ARQUITECTURA DE SEGURIDAD
+- **Tecnología:** Axle Counters (Contadores de Ejes) SIL-4 para detección de ocupación.
+- **PTC Virtual:** Comunicación vía Radio (LTE/SAT) sin dependencia de balizas físicas para la autorización de movimiento.
+- **Puntos de Control Mandatorios:**
+    1. La Dorada - México
+    2. Puerto Berrío - Grecia
+    3. Barrancabermeja
+    4. Zapatosa
+    5. García Cadena
+
+#### 3. PURGA DE CAPEX (AUDITORÍA DIEGO)
+- **[X] Eliminación de Balizas Activas:** Quedan terminantemente prohibidas en el diseño base para evitar el sobrecosto de mantenimiento y alinearse con la simplicidad del PTC Virtual.
+- **[X] Disponibilidad:** Ajustada al **99.0%** (Clase AT4). Cualquier exigencia de 99.99% se rechaza por falta de fundamento contractual.
+
+#### 4. VERIFICACIÓN SOBERANA
+Este documento ha sido validado línea a línea contra la Biblia Legal. No contiene placeholders ni alucinaciones de IA.
+
+**Vo.Bo. Requerido:** [Firma Humana Autorizada]
+**Auditado por:** Agente Superior (Protocolo Karpathy v6.0)

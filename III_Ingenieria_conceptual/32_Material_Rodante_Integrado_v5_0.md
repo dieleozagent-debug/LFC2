@@ -3,7 +3,7 @@
 
 **Fecha de actualización:** 13 de marzo de 2026  
 **Versión:** v6.0 - Purge Release (OBC Retrofit)
-**Metodología:** Punto 42 (Karpathy Saneamiento)
+**Metodología:** Punto 42 (Doctrinal Saneamiento)
 
 ---
 

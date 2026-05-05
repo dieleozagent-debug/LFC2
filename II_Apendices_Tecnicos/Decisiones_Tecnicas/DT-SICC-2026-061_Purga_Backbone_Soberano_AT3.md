@@ -3,7 +3,7 @@
 
 **ESTADO:** ✅ APROBADA (Institucionalizada vía Antigravity)
 **FECHA:** 2026-04-10
-**ORIGEN:** SICC [REDACTADO_SICC] (Loop Karpathy v8.6)
+**ORIGEN:** SICC [REDACTADO_SICC] (Loop Doctrinal v8.6)
 
 ---
 

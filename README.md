@@ -58,7 +58,7 @@ Este repositorio constituye el **Ecosistema de Ingeniería SICC** para el proyec
 ---
 
 ## EL MOTOR LFC-CLI (MASTERCHEF v6.5)
-El núcleo de automatización reside en `scripts/lfc-cli.js`, el cual ejecuta el **Ciclo Karpathy** de purificación técnica:
+El núcleo de automatización reside en `scripts/lfc-cli.js`, el cual ejecuta el **Ciclo de Purificación Técnica** de purificación técnica:
 1.  **Detección Inversa**: Localización de zombis legacy (25kV, Red Vital IP / TETRA, Punto de Referencia Virtual).
 2.  **Transmutación SICC**: Reemplazo por terminología soberana mediante el SSOT (`lfc-terminology.js`).
 3.  **Servido Safe-Cooker**: Generación de HTML premium con estilos L4.

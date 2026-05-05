@@ -4,7 +4,7 @@
 **Fecha:** 13 de marzo de 2026  
 **Sistema:** Enclavamiento Vital integrado con Servidor PTC  
 **Normativa:** FRA 236, AREMA, Seguridad Electrónica Vital bajo FRA/PTC (§236.1015) (SIL 4)  
-**Metodología:** Punto 42 (Karpathy Saneamiento)
+**Metodología:** Punto 42 (Doctrinal Saneamiento)
 
 ---
 

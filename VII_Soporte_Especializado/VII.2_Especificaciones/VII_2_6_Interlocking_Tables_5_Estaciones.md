@@ -47,7 +47,7 @@ Este documento define la lógica de **Enclavamiento Virtual** para las 5 estacio
 
 ## 📋 **4. CONTROL DE VERSIONES (PURGE LOG)**
 
-| Versión | Fecha | Responsable | Cambio (Karpathy Purge) |
+| Versión | Fecha | Responsable | Cambio (Purga Doctrinal) |
 |:---:|:---:|:---|:---|
 | **v2.0** | 13/03/2026 | Admin. Contractual | **RE-ESCRITURA TOTAL**. Senales físicas eliminadas. Lógica virtualizada según FRA 236. |
 | **v1.0** | 27/01/2025 | Ing. Senalización | Versión obsoleta basada en Filosofía PTC Virtual (HALLUCINATED). |

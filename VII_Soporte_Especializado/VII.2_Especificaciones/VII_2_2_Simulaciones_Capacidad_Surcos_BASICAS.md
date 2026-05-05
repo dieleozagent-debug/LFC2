@@ -51,7 +51,7 @@ A diferencia de los Bloque Virtual Dinámico fijos, el PTC Virtual permite reduc
 
 ## 📋 **4. CONTROL DE VERSIONES (PURGE LOG)**
 
-| Versión | Fecha | Responsable | Cambio (Karpathy Purge) |
+| Versión | Fecha | Responsable | Cambio (Purga Doctrinal) |
 |:---:|:---:|:---|:---|
 | **v2.0** | 13/03/2026 | Admin. Contractual | **RE-ESCRITURA TOTAL**. Corregida longitud a 526 km. Eliminado PTC/PTC VIRTUAL. Basado en Bloque Virtual FRA. |
 | **v1.0** | 27/01/2025 | Ing. Sistemas | Versión obsoleta con longitud errónea (178 km) y PTC VIRTUAL (HALLUCINATED). |

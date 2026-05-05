@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * LFC AUTONOMOUS PURITY DAEMON (v1.0.0 - Karpathy Autoresearch Pattern)
+ * LFC AUTONOMOUS PURITY DAEMON (v1.0.0 - Doctrinal Autoresearch Pattern)
  * Este script actúa como el "Guardián" de la Torre de Control.
  * Realiza auditorías silenciosas y auto-saneamiento.
  */
@@ -41,7 +41,7 @@ function runLoop() {
         log("Actualizando Servido (Serve)...");
         execSync(`node ${LFC_CLI} serve`, { stdio: 'inherit' });
 
-        // Step 4: Validate (La métrica de 'Pérdida' de Karpathy = Errores de Integridad)
+        // Step 4: Validate (La métrica de 'Pérdida' de Doctrinal = Errores de Integridad)
         log("Validando Integridad Transversal...");
         try {
             execSync(`node ${LFC_CLI} validate`, { stdio: 'inherit' });

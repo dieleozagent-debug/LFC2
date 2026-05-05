@@ -3,7 +3,7 @@
 
 **Fecha de actualización:** 20 de marzo de 2026  
 **Versión:** v6.3.3 - SICC Integrated Control (LFC-CCO)
-**Metodología:** Karpathy Autoresearch Loop (Daemon v1.0)
+**Metodología:** Análisis Iterativo Doctrinal (Daemon v1.0)
 
 ---
 
@@ -25,7 +25,7 @@ El Centro de Control de Operaciones (CCO) centraliza la inteligencia del corredo
 
 ## 2. 🛡️ SANEAMIENTO DE COHERENCIA SICC (DBCI Protocols)
 
-Tras la auditoría Karpathy, se han corregido las regresiones del ciclo de "reducción de CAPEX" que ponían en riesgo la operatividad:
+Tras la auditoría doctrinal, se han corregido las regresiones del ciclo de "reducción de CAPEX" que ponían en riesgo la operatividad:
 
 - ✅ **RESTAURADO:** **Red Vital IP / TETRA** como canal de redundancia vital de alta velocidad.
 - ✅ **RESTAURADO:** **Soberanía Diésel-Eléctrica** — El modelado de curvas de frenado se ajusta a locomotoras GE/EMD sin asunciones de tracción 25kV.

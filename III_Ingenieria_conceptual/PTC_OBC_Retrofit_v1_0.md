@@ -4,7 +4,7 @@
 **Fecha:** 13 de marzo de 2026  
 **Sistema:** On-Board Computer (OBC) para 15 locomotoras  
 **Normativa:** FRA 236 Subpart I, AREMA Section 16  
-**Metodología:** Punto 42 (Karpathy Saneamiento)
+**Metodología:** Punto 42 (Doctrinal Saneamiento)
 
 ---
 

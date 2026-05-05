@@ -3,7 +3,7 @@
 
 **Fecha de actualización:** 20 de marzo de 2026  
 **Versión:** v6.3.3 - Sovereign Restoration (SICC Protocol)
-**Metodología:** Punto 42 (Karpathy Forensic Audit)
+**Metodología:** Punto 42 (Doctrinal Forensic Audit)
 
 ---
 

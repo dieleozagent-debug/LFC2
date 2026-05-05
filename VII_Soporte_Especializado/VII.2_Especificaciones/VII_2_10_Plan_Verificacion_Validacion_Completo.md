@@ -44,7 +44,7 @@ Este documento establece el marco de **Verificación y Validación (V&V)** para 
 
 ## 📋 **4. CONTROL DE VERSIONES (PURGE LOG)**
 
-| Versión | Fecha | Responsable | Cambio (Karpathy Purge) |
+| Versión | Fecha | Responsable | Cambio (Purga Doctrinal) |
 |:---:|:---:|:---|:---|
 | **v2.0** | 13/03/2026 | Admin. Contractual | **RE-ESCRITURA TOTAL**. Eliminadas pruebas PTC VIRTUAL/Red Vital IP / TETRA. Alineado con FRA 236. |
 | **v1.0** | 27/01/2025 | Ing. Calidad | Versión obsoleta basada en V&V PTC VIRTUAL (HALLUCINATED). |
