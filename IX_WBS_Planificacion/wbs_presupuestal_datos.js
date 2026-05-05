@@ -1750,7 +1750,7 @@ window.wbsDataPresupuestal = [
         "nivel": 3,
         "capitulo": "4",
         "sistema": "4.2",
-        "descripcion": "Sistemas barreras manuales",
+        "descripcion": "Señales Luminosas y Acústicas (SLA) — PaN Tipo B (BCD §8.2.1, NTC 4741:1999). VU pendiente RFQ COL.",
         "tipo": "SUMINISTRO",
         "unidad": "UND",
         "cantidad": "15",

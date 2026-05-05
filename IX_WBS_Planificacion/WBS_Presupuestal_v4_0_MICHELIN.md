@@ -32,7 +32,7 @@
 | **1.1.106** | Interfaces comunicación | 1 | $150,000,000 | $150,000,000 |
 | **SUBTOTAL CTC** | | | | **$12,430,000,000** |
 
-#### **1.2 Sistema PTC Embarcado (15 Unidades PTC)**
+#### **1.2 Sistema PTC Embarcado (15 Unidades — 1 U18 base AT1 §5 + 14 Factor Calidad — DT-CTRL-2026-006)**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
 |:---|:---|:---:|:---:|:---:|
 | **1.2.100** | Computadora PTC embarcada | 15 | $120,000,000 | $1,800,000,000 |
@@ -93,7 +93,7 @@
 #### **2.3 Fibra Óptica (526 km)**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
 |:---|:---|:---:|:---:|:---:|
-| **2.3.100** | Cable fibra óptica 48 fibras | 579 km | $9,811,013 | $5,680,576,527 |
+| **2.3.100** | Cable fibra óptica monomodo G.652.D **48 hilos** (BCD §6.1.1) | 579 km | $9,811,013 | $5,680,576,527 |
 | **2.3.101** | Mano de obra instalación (Obra Civil) | 579 km | $90,188,987 | $52,219,423,473 |
 | **SUBTOTAL FIBRA ÓPTICA** | | | | **$61,282,093,560** |
 

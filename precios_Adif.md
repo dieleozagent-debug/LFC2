@@ -29,7 +29,7 @@
 | 2 | **CBB010$** | Accionamiento de aguja / Motor de desvío | Componente WBS 1.4.100 | UND | ⏳ pendiente |
 | 3 | **CCA040$** | Señal luminosa LED | WBS 4.1.101 / Conceptual LFC ($11,800 USD/u) | UND | ⏳ pendiente |
 | 4 | **(buscar)** | Enclavamiento electrónico — categoría CMS | WBS 1.3.100 (5 ENCE) | UND/SISTEMA | ⏳ pendiente |
-| 5 | **(buscar)** | Cable F.O. monomodo 64 hilos G.652.D OSP | WBS 2.3.100 (579 km) | KM | ⏳ pendiente (NO es prioridad ADIF — buscar mejor en mercado COL/LATAM) |
+| 5 | **(buscar)** | Cable F.O. monomodo **48 hilos** G.652.D OSP (BCD §6.1.1) | WBS 2.3.100 (579 km) | KM | ⏳ pendiente — buscar en mercado COL/LATAM (Furukawa, Corning, Prysmian). NO 64h: fue descartado. |
 | 6 | **(buscar)** | Contador de ejes | Componente Wayside ENCE / Conceptual LFC ($4,720 USD/u) | UND | ⏳ pendiente |
 | 7 | **(buscar)** | Armario PTC en PaN | WBS 4.1.x / Conceptual LFC ($140,000 USD/u) | UND | ⏳ pendiente |
 | 8 | **(buscar)** | UPS para enclavamiento (autonomía 4h+) | WBS 10.1 / Jovega referencia | UND | ⏳ pendiente |

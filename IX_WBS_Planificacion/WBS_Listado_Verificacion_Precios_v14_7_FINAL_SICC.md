@@ -62,7 +62,7 @@
 |---|---|---|---|---|---|
 | 1 | 1.3.100-104 | Controlador ENCE SIL-3/4 (5 estaciones) | $800M COP/u | Hima Colombia, Siemens Mobility Bogotá, Alstom regional | Discrepancia 4.8x con Conceptual LFC ($869k USD/u). Riesgo de subdimensionamiento. |
 | 2 | 4.1.100, 4.1.102, 4.1.104 | Controladores PaN Tipo C SIL-3 vital | $180M-$360M COP/u | Hima HiMax/HiMatrix, Siemens SICAS-S7, Bombardier EBI Gate 200 | El WBS asume controladores genéricos. SIL-3 certificado puede ser ~$110-160k USD/u (gap potencial +$3-5B). |
-| 3 | 2.3.100 | Cable F.O. monomodo 64 hilos G.652.D OSP | VU $9.81M COP/km (heredado de 48h) | Furukawa Brasil, Corning LATAM, Prysmian | Descripción ya dice 64h pero VU sigue de 48h. Mercado 2026: ~$12.7M COP/km (+30%). Risk 4400 absorbe parte. |
+| 3 | 2.3.100 | Cable F.O. monomodo **48 hilos** G.652.D OSP (BCD §6.1.1 vinculante) | VU $9.81M COP/km | Furukawa Brasil, Corning LATAM, Prysmian | Reconciliado a 48h conforme BCD v001. La idea previa de upgrade a 64h fue descartada (sin sustento contractual; BCD impone 48h homogéneo). |
 | 4 | 2.4.100 | Habilitación Satelital Punto 42 (5 terminales LEO + 12 meses) | $1,200M COP global | Hispasat (GEO), Starlink Maritime / OneWeb (LEO) | Estimación gruesa. Tarifa real Mbps/mes pendiente del proveedor. |
 | 5 | 2.1.116 | Bancos baterías LiFePO4 24h sitios TETRA | $50M COP/u × 37 sitios | Hoppecke COL, EnerSys, BYD | Consumo W por sitio TETRA pendiente del equipo TETRA — sin eso el dimensionamiento es estimación. |
 | 6 | 2.3.106 | OTDR triwavelength (1310/1550/1625 nm) | $90M COP/u × 2 | EXFO MaxTester 730C, Yokogawa AQ7280, Viavi T-BERD | Mercado: USD 25-45k/u nuevo. Verificar si compra o arriendo aceptación. |

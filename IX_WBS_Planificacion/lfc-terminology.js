@@ -28,7 +28,7 @@ const LFC_DBCI = {
         PAN_PROTEGIDOS_TOTAL: 24,                           // BCD §8.2 (los 122 restantes NO entran al sistema señalización)
         FIBRA_HILOS: 48,                                    // BCD §6.1.1 — solución homogénea G.652.D
         // Números bajo DT — no son inamovibles, pendientes de formalización
-        LOCOMOTORAS_TOTAL: 15,                              // post-DT pendiente. AT1 Cap 5.1 = inventario base (verificar nº exacto, ~6)
+        LOCOMOTORAS_TOTAL: 15,                              // DT-CTRL-2026-006: 1 U18 base (AT1 §5) + 14 Factor de Calidad
         ESTACIONES_TORRES: 37,                              // estimación pre-RF. BCD §6.2.1 manda simulación de cobertura
         CCTV_CAMARAS: 73                                    // catálogo interno, no fijado por BCD
     },
