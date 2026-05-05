@@ -2,7 +2,7 @@
 
 **Proyecto:** APP La Dorada – Chiriguaná (UF2)
 **Estatus:** ✅ CERTIFICADO PARA ENTREGA (AUDIT-READY)
-**TRM Risk:** $4,000.00 COP/USD
+**TRM Risk:** $4,400.00 COP/USD
 **Doctrina:** SICC v14.7 (Virtual Fixed Block §236.1005)
 **Fecha de Auditoría:** 2026-05-04
 

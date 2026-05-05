@@ -19,4 +19,4 @@ Este ajuste asegura que el proyecto no herede deudas técnicas ni costos de mant
 Documento validado línea a línea. La única "verdad" tecnológica es la citada en el numeral 8.6 del AT3.
 
 **Vo.Bo. Requerido:** [Firma Humana Autorizada]
-**Auditado por:** Agente Superior (Protocolo Karpathy v6.0)
+**Auditado por:** Dirección Técnica UF2 — LFC

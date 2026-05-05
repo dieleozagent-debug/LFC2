@@ -1,4 +1,4 @@
-# 📑 REFERENCIAL DE PRECIOS ADIF (BPA 2026) — CONSOLIDADO FINAL (TRM 4000 RISK)
+# 📑 REFERENCIAL DE PRECIOS ADIF (BPA 2026) — CONSOLIDADO FINAL (TRM 4400 RISK)
 **Proyecto:** Corredor Ferroviario La Dorada - Chiriguaná (LFC2)
 **Estatus:** ✅ EXTRACCIÓN COMPLETA (SICC v14.7)
 
@@ -16,7 +16,7 @@
 ## 1. CONVERSIÓN MONETARIA (GROUND TRUTH - RISK 4000)
 | Moneda | Tasa | Fuente |
 |---|---|---|
-| **1 EUR → COP** | **4,360.00** | Cross-rate @ TRM 4000 |
+| **1 EUR → COP** | **4,796.00** | Cross-rate @ TRM 4400 |
 | **1 EUR → USD** | **1.09** | ECB / Market |
 
 ---
@@ -28,7 +28,7 @@
 |---|---|---|
 | **Código BPA** | VEA010 | [BPA Portal](https://bpa.adif.es/) |
 | **Precio Base (€)** | **114.320,50 €** | Tarifario 2026 |
-| **Equivalente COP** | **$ 498,437,380** | TRM Risk 4000 |
+| **Equivalente COP** | **$ 548,281,118** | TRM Risk 4400 |
 
 ### #2 — CBB010$ — Motor de desvío
 | Campo | Valor | Fuente |
