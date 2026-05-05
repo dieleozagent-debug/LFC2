@@ -159,7 +159,7 @@
         <div class="resumen" id="resumen"></div>
 
         <div class="source-note">
-            <strong>Fuente:</strong> <code>wbs_presupuestal_datos.js</code> (133 ítems, nivel 3) • Motor de cálculo: <code>wbs_core_logic.js → calcularAIUeIVA()</code> • TRM Risk aplicada como techo de cobertura cambiaria. Los totales se calculan en vivo desde los datos del repositorio.
+            <strong>Fuente:</strong> <code>wbs_presupuestal_datos.js</code> (<span id="item-count-note">…</span> ítems, nivel 3) • Motor de cálculo: <code>wbs_core_logic.js → calcularAIUeIVA()</code> • TRM Risk aplicada como techo de cobertura cambiaria. Los totales se calculan en vivo desde los datos del repositorio.
         </div>
     </div>
 
@@ -187,8 +187,10 @@
 
             // Meta
             const fecha = new Date().toLocaleDateString('es-CO', {year:'numeric',month:'long',day:'numeric'});
+            const nItems = window.wbsDataPresupuestal.length;
             document.getElementById('meta').textContent =
-                `Contrato APP No. 001 de 2025 • TRM Risk: ${TRM.toLocaleString('es-CO')} COP/USD • Generado: ${fecha} • 133 ítems`;
+                `Contrato APP No. 001 de 2025 • TRM Risk: ${TRM.toLocaleString('es-CO')} COP/USD • Generado: ${fecha} • ${nItems} ítems`;
+            document.getElementById('item-count-note').textContent = nItems;
 
             // Filas por capítulo
             const tbody = document.getElementById('tabla-body');
