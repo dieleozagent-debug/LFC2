@@ -46,6 +46,32 @@
 - [ ] Implementar verificación cruzada bidireccional: DT → ítem WBS, ítem WBS → "origen DT-XXX-YYY".
 - [ ] Probar end-to-end: ítem 1.4.100 (desvíos motorizados) → `/audit señalizacion` → DT generada → `/promote` → push.
 
+### Bloque C — UI/UX consolidación frontend WBS (la entrega visual al gerente)
+
+> **Diagnóstico (2026-05-05):** Hoy hay **4 URLs distintas** consumiendo data superpuesta y un usuario nuevo se pierde. El gerente solo va a mirar el Excel. Lo que importa: **Excel completo y bien ordenado** + **una sola entrada al sistema**.
+
+**Estado actual:**
+| URL Vercel | Archivo | Universo | Estado |
+|---|---|---|---|
+| `/IX_WBS_Planificacion/WBS_Vista_Final` | `WBS_Vista_Final.html` (321 líneas) | A saneado | ⭐ Vista de entrega — sidebar OK, botón Menú OK |
+| `/IX_WBS_Planificacion/WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguana` | (854 líneas) | A | Probable redundante con Vista_Final — auditar y decidir fusión |
+| `/IX_WBS_Planificacion/WBS_COMPLETA_TODO_Interactiva_v4.0` | (universo B legacy) | B | Cifras pre-purga FENOCO — sidebar ya redirige, pero URL pública sigue activa |
+| `/IX_WBS_Planificacion/WBS_Controles_Operativos_L4` | (157 líneas) | A | 4 botones (Desglose AIU · Acta de Obra · Validación Cap.4 · Zero-Residue). 🐛 Bug: botón "Acta → Excel" llama `exportarActaExcel()` que NO existe en `wbs_core_logic.js` (solo `exportarDesgloseExcel`). |
+
+**Pendientes:**
+
+- [ ] **C1 — Index → entrada única.** `index.html` debe linkear directo a `WBS_Vista_Final` como portal principal. Hoy linkea a `WBS_Menu_Principal` que es un hub intermedio. Decidir: ¿hub o vista directa?
+- [ ] **C2 — Excel mejorado (lo que mira el gerente).** El Excel actual de `WBS_Vista_Final` tiene 4 hojas. Agregar:
+  - **Hoja "Obra Civil vs Compras"** — Acta de Obra: clasificar 135 ítems por `tipo` (SUMINISTRO / OBRA_CIVIL / SERVICIO) con subtotales, para separar lo que se compra vs. lo que se construye en sitio.
+  - **Hoja "AIU Desglose"** — costo directo + AIU 33% sobre Obra Civil + IVA 19% por concepto, en formato de auditoría matemática.
+  - **Hoja "Pendientes RFQ"** — los 8 ítems pendientes (DT-COMS-2026-007 §3.5) con: ítem WBS, concepto, proveedores priorizados, estado RFQ. Es lo que se pasa a Compras o a un integrador (ART, Hitachi).
+  - **Hoja "Notas referenciales"** — DTs aplicadas, buffers documentados, fuentes ADIF/Conceptual LFC.
+- [ ] **C3 — Bug `exportarActaExcel` falta en `wbs_core_logic.js`.** Implementarla o quitar el botón.
+- [ ] **C4 — Consolidar L4 dentro de Vista_Final.** Los 4 botones (AIU · Acta · Validación · Zero-Residue) tienen sentido como **botones secundarios** en `WBS_Vista_Final.html` (junto a "Excel" e "Imprimir"). El HTML separado L4 confunde al usuario gerencial.
+- [ ] **C5 — Deprecar Universo B en Vercel.** `WBS_COMPLETA_TODO_Interactiva_v4.0.html` y su duplicado `_v4_0.html` siguen sirviendo cifras pre-purga FENOCO ($63B ítem 1.1.103 vs los $11B saneados). Mover los HTML a `_legacy/` o agregar redirect a Vista_Final.
+- [ ] **C6 — Auditar `WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguana.html`** (854 líneas). Si es redundante con Vista_Final → fusionar y dejar uno solo. Si tiene funcionalidad distinta → renombrar para que no confunda.
+- [ ] **C7 — Mantener estilo visual** definido (header azul `#1e3c72`, cards con glass + acento dorado, monospace para code).
+
 ---
 
 ## 🔴 Deuda activa (orden de severidad)
