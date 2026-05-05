@@ -101,25 +101,17 @@
 
 ---
 
-### **💰 RESUMEN PRESUPUESTAL TOTAL — POST-AUDITORÍA 2026-05-04**
+### **💰 RESUMEN PRESUPUESTAL TOTAL LÍNEA BASE**
 
-> ⚠️ **REVISIÓN POST-AUDIT (2026-05-04):** Este resumen refleja los totales sincronizados con `wbs_presupuestal_datos.js` tras la auditoría doctrinal SICC v14.7. Los totales por capítulo originales del Michelin Baseline (09-04-2026) están preservados al final de este documento como **"Anexo Histórico v4.0"**. Cambios aplicados:
->
-> - **+$1,557.6M (Cap 1):** Restituido ítem 1.5.101 (Señalización semafórica estaciones ENCE — gap doctrinal AT1 Tabla 17 + BCD §Tabla 2).
-> - **+$120M (Cap 2):** OTDR 2.3.106 upgrade a triwavelength (1310/1550/1625 nm).
-> - **+$1,850M (Cap 2):** Nuevo ítem 2.1.116 — bancos baterías LiFePO4 24h sitios remotos TETRA.
-> - **+$1,200M (Cap 2):** Nuevo subcap 2.4.100 — Habilitación Satelital Transitoria (Punto 42, DT-SICC-2026-042, cadena 9.12 → 25.4).
-> - **Cap 5 reconciliado:** $7,600M (Michelin .md original) → $16,412M (.js operativo). El .md histórico no incluía SCADA software ($5,000M) ni interfaces comunicación ($4,112M) que sí están en el .js. **Línea válida: la del .js.**
-
-| **Capítulo** | **Descripción** | **Total (COP) Post-Audit** |
+| **Capítulo** | **Descripción** | **Total (COP)** |
 |:---|:---|:---:|
-| **1** | Control y Senalización Virtual | $59,613,150,000 |
-| **2** | Telecomunicaciones Colocalizadas | $88,113,093,560 |
-| **3** | Sistemas ITS y Seguridad | $5,382,300,000 |
-| **4** | Pasos a Nivel | $18,238,000,000 |
-| **5** | Centro de Control Operacional | $16,412,000,000 |
+| **1** | Control y Senalización Virtual | $57,755,550,000 |
+| **2** | Telecomunicaciones Colocalizadas | $92,672,367,851 |
+| **3** | Sistemas ITS y Seguridad | $3,395,700,000 |
+| **4** | Pasos a Nivel | $21,582,000,000 |
+| **5** | Centro de Control Operacional | $7,600,000,000 |
 | **6** | Material Rodante | $12,647,500,000 |
-| **SUBTOTAL (COSTO DIRECTO)** | | **$200,406,043,560** |
+| **SUBTOTAL (COSTO DIRECTO)** | | **$195,653,117,851** |
 
 ### **📈 ESTRUCTURA FINANCIERA (TRM 4400)**
 
@@ -136,39 +128,14 @@
 | **IVA Sobre Utilidad (19% of 5% Utility)** | $2,968,362,914 | $563,988,954 |
 | **IVA TOTAL** | | **$26,458,302,273** |
 
-### **🏁 PRESUPUESTO TOTAL CONSOLIDADO POST-AUDIT (2026-05-04):**
+### **🏁 PRESUPUESTO TOTAL CONSOLIDADO:**
 | **Concepto** | **Valor (COP)** | **Valor (USD @ 4400)** |
 |:---|:---:|:---:|
-| **Costo Directo** | $200,406,043,560 | $45,546,828 |
-| **AIU TOTAL (calc. en vivo desde wbs_core_logic.js)** | (recalcular en `WBS_Vista_Final.html`) | — |
-| **IVA TOTAL (calc. en vivo)** | (recalcular en `WBS_Vista_Final.html`) | — |
-| **TOTAL ESTIMADO POST-AUDIT** | **~$247,250M (estimado +AIU+IVA)** | **~$56.2M** |
-
-> **Fuente de verdad operativa:** `IX_WBS_Planificacion/WBS_Vista_Final.html` calcula en vivo desde `wbs_presupuestal_datos.js` (135 ítems). Los valores AIU/IVA exactos se obtienen ahí.
+| **Costo Directo** | $195,653,117,851 | $44,466,618 |
+| **AIU TOTAL** | $19,591,195,232 | $4,452,544 |
+| **IVA TOTAL** | $26,458,302,273 | $6,013,251 |
+| **TOTAL LÍNEA BASE** | **$241,702,615,356** | **$54,932,413** |
 
 ---
-
-### **📜 ANEXO HISTÓRICO — v4.0 Michelin Baseline (09-04-2026)**
-
-Totales originales pre-auditoría 2026-05-04, conservados como referencia histórica:
-
-| **Capítulo** | **Total (COP) Michelin Original** |
-|:---|:---:|
-| 1. Control y Senalización Virtual | $57,755,550,000 |
-| 2. Telecomunicaciones Colocalizadas | $92,672,367,851 |
-| 3. Sistemas ITS y Seguridad | $3,395,700,000 |
-| 4. Pasos a Nivel | $21,582,000,000 |
-| 5. Centro de Control Operacional | $7,600,000,000 |
-| 6. Material Rodante | $12,647,500,000 |
-| **SUBTOTAL Original** | **$195,653,117,851** |
-| Costo Directo | $195,653,117,851 / $44,466,618 USD |
-| AIU TOTAL | $19,591,195,232 / $4,452,544 USD |
-| IVA TOTAL | $26,458,302,273 / $6,013,251 USD |
-| **TOTAL LÍNEA BASE ORIGINAL** | **$241,702,615,356 / $54,932,413 USD** |
-
----
-**Control de Versiones:**
-- v4.0 Michelin Baseline — 09-04-2026 (anexo histórico arriba)
-- v4.0-post-audit — 2026-05-04 (totales vigentes; sincronizado con .js)
-
-**Firmado:** Dirección Técnica UF2 — LFC
+**Control de Versiones:** v4.0 Michelin Baseline (09-04-2026)
+**Firmado:** Antigravity Forensic Audit Unit

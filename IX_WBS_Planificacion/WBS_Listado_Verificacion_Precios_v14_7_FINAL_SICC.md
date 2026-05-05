@@ -51,5 +51,44 @@
 - **Veredicto Final:** Toda referencia a "Moving Block" ha sido purgada del repositorio. El sistema es legal y técnicamente defendible bajo la normativa **FRA 49 CFR §236.1005**.
 
 ---
-**Firmado:** Antigravity Forensic Audit Unit
-**Soberanía Técnica Garantizada**
+
+## 📝 NOTAS DE RETOMA POST-ENTREGA (2026-05-04)
+
+> **Contexto:** tras la auditoría doctrinal del 2026-05-04 se cerraron 4 gaps críticos y 3 mejoras (acciones 1-7). Los precios siguientes son **estimaciones basadas en mercado y referencias internas (Conceptual LFC, ADIF, WebSearch)**. Antes de la firma del contrato de obra es indispensable obtener cotizaciones formales (RFQ vinculantes) y ajustar el WBS.
+
+### RFQ formales pendientes (orden de prioridad)
+
+| # | Ítem WBS | Concepto | Valor estimado actual | Cotizar a | Razón |
+|---|---|---|---|---|---|
+| 1 | 1.3.100-104 | Controlador ENCE SIL-3/4 (5 estaciones) | $800M COP/u | Hima Colombia, Siemens Mobility Bogotá, Alstom regional | Discrepancia 4.8x con Conceptual LFC ($869k USD/u). Riesgo de subdimensionamiento. |
+| 2 | 4.1.100, 4.1.102, 4.1.104 | Controladores PaN Tipo C SIL-3 vital | $180M-$360M COP/u | Hima HiMax/HiMatrix, Siemens SICAS-S7, Bombardier EBI Gate 200 | El WBS asume controladores genéricos. SIL-3 certificado puede ser ~$110-160k USD/u (gap potencial +$3-5B). |
+| 3 | 2.3.100 | Cable F.O. monomodo 64 hilos G.652.D OSP | VU $9.81M COP/km (heredado de 48h) | Furukawa Brasil, Corning LATAM, Prysmian | Descripción ya dice 64h pero VU sigue de 48h. Mercado 2026: ~$12.7M COP/km (+30%). Risk 4400 absorbe parte. |
+| 4 | 2.4.100 | Habilitación Satelital Punto 42 (5 terminales LEO + 12 meses) | $1,200M COP global | Hispasat (GEO), Starlink Maritime / OneWeb (LEO) | Estimación gruesa. Tarifa real Mbps/mes pendiente del proveedor. |
+| 5 | 2.1.116 | Bancos baterías LiFePO4 24h sitios TETRA | $50M COP/u × 37 sitios | Hoppecke COL, EnerSys, BYD | Consumo W por sitio TETRA pendiente del equipo TETRA — sin eso el dimensionamiento es estimación. |
+| 6 | 2.3.106 | OTDR triwavelength (1310/1550/1625 nm) | $90M COP/u × 2 | EXFO MaxTester 730C, Yokogawa AQ7280, Viavi T-BERD | Mercado: USD 25-45k/u nuevo. Verificar si compra o arriendo aceptación. |
+| 7 | 1.5.101 | Señales semafóricas estaciones ENCE | $51.92M COP/u × 30 | Conceptual LFC ($11,800 USD/u) — referencia genérica | Cantidad estimada (5 ENCE × 6 señales/estación). Validar contra diseño detalle real de cada estación. |
+| 8 | 1.1.103 | Software CTC virtual + Autorizaciones PTC | $11,000M COP global | Alstom (Atlas/Iconis), Siemens (Trainguard MT), Thales (NetTrac MT/LockTrac) | Sin cotización formal. Modelo licenciamiento (perpetuo vs SaaS) por definir. |
+
+### Validaciones pendientes (no cotización, sino confirmación documental)
+
+| # | Tema | Acción |
+|---|---|---|
+| V1 | Cadena 9.12 → 25.4 para satelital (DT-042) | Buscar antecedente jurídico real de aplicación 9.12 a tecnologías satelitales transitorias. Si no hay, refinar la fundamentación contractual. |
+| V2 | Firma Registro de Revisiones BCD v002 | El v002 incluye §6.2.5 nueva. Confirmar si Ardanuy Colombia revisa formalmente o queda como blindaje interno LFC. |
+| V3 | DT-SICC-2026-015 (Backbone Fibra) | Auditar contaminantes residuales tipo los que tenía el DT-042 (DBCD inventado, ATs sin verificar, métricas erróneas). |
+| V4 | Reconciliación .js vs .md | Verificar que después de cada commit los totales por capítulo en `WBS_Presupuestal_v4_0_MICHELIN.md` coincidan con `wbs_presupuestal_datos.js` (chequeo periódico antes de cada entrega). |
+| V5 | Token GitHub embebido en URL del remote | Rotar token (`ghp_...`) y limpiar de la URL del remote (`git remote set-url`). |
+| V6 | Cantidad real de señales por estación ENCE (1.5.101) | El asumido 6/estación es promedio. Validar contra planos de detalle de Zapatosa, García Cadena, Barrancabermeja, Puerto Berrío–Grecia, La Dorada–México. |
+| V7 | Consumo eléctrico W por sitio TETRA | Pendiente del equipo TETRA. Dimensiona Ah de los bancos LiFePO4 (item 2.1.116). Sin esto, el VU $50M es estimación gruesa. |
+
+### Trazabilidad técnica de la auditoría
+
+- Commit de aplicación: ver tag `entrega-presupuesto-2026-05-05` en repo LFC2.
+- Backups `.legacy` de cada archivo modificado disponibles (rollback granular posible).
+- **Total directo post-auditoría: $200,406,043,560 COP / $45,546,828 USD @ TRM Risk 4,400**.
+- **Total con AIU+IVA estimado: ~$247,250M COP / ~$56.2M USD @ TRM Risk 4,400**.
+- Vista en vivo: [`WBS_Vista_Final.html`](./WBS_Vista_Final.html) — URL Vercel: `https://lfc-2.vercel.app/IX_WBS_Planificacion/WBS_Vista_Final.html`.
+
+---
+**Firmado:** Dirección Técnica UF2 — LFC
+**Última auditoría:** 2026-05-04 — Doctrina SICC v14.7 aplicada
