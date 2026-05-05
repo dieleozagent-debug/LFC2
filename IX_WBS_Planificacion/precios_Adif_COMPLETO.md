@@ -102,7 +102,85 @@ Comparar el precio ADIF + ajustes de DT-COMS-2026-007 contra cotización real de
 
 ---
 
-## 5. RFQ recibidos (vacío — pendiente)
+## 5. VALIDACIÓN CRUZADA — Presupuesto Ardanuy (consultor de diseño)
+
+> **Origen:** Documento `LFC-U2-CTSC-ED-QTO-CO-0001` (Ardanuy Colombia, abril 2026). Es el presupuesto del consultor de diseño contratado para preparar la entrega ANI. Validación cruzada hecha el 2026-05-05.
+
+### 5.1 Comparación global
+
+| Métrica | Ardanuy | LFC v2 (post DT-007) | Δ |
+|---|---|---|---|
+| Total COP | $252,251M | $260,009M | +3% LFC |
+| Total USD (cada uno con su TRM) | $66.4M @ ~3,800 | $59.1M @ 4,400 | −11% LFC |
+| Costo Directo USD (sin AIU/IVA) | $66.4M (CAPEX puro) | $48.0M | **−28% LFC** ⚠️ |
+| TRM implícita | ~3,800 COP/USD | 4,400 (Risk) | — |
+| Estructura | 8 capítulos, sin AIU/IVA explícito | 6 capítulos + AIU + IVA | — |
+
+**Lectura rápida:** total convergente al 3%, pero **composición interna divergente**. Si Ardanuy es CAPEX puro (su nombre lo sugiere), LFC subestima ~$18M USD el Costo Directo.
+
+### 5.2 Valores de referencia Ardanuy (USD por unidad)
+
+| Concepto | Cant | $USD/u | Total USD |
+|---|---|---|---|
+| ENCE | 5 | 869,377 | 4,346,884 |
+| Motor cambiavía | 40 | 18,585 | 743,400 |
+| Contador de ejes | 46 | 4,720 | 217,120 |
+| Señales luminosas LED | 60 | 11,800 | 708,000 |
+| Cambiavías talonables | 30 | 25,000 | 750,000 |
+| Armario PTC PaN | 24 | 140,000 | 3,360,000 |
+| Armario PTC apartadero | 7 | 90,000 | 630,000 |
+| Torre TETRA | 43 | 73,100 | 3,143,300 |
+| Equipo a bordo locomotora (PTC + antenas) | 25 | 95,000 | 2,375,000 |
+| Diseño Plan Maestro Fase III (180 días) | GL | 2,800,000 | 2,800,000 |
+| Obra civil FO | GL | 27,930,600 | 27,930,600 |
+| Suministro+tendido FO+empalmes | GL | 4,130,802 | 4,130,802 |
+| Licencias FO | GL | 1,587,526 | 1,587,526 |
+
+> **Nota:** los valores Ardanuy de **ENCE ($869k/u) y Conceptual LFC** coinciden — confirmando que la "Conceptual LFC" referenciada en este documento proviene del consultor.
+
+### 5.3 Gaps detectados LFC v2 vs Ardanuy (en COP, normalizado a TRM 4400)
+
+#### LFC SUBESTIMA (riesgo de quedarse cortos)
+
+| Concepto | Δ COP | Δ USD | Comentario |
+|---|---|---|---|
+| Obra civil FO (zanja+tendido+restauración) | **−$70,675M** | **−$16.0M** ⚠️⚠️ | LFC tiene $52,219M, Ardanuy $122,894M |
+| Diseño Plan Maestro Fase III | −$12,320M | −$2.8M | LFC no tiene capítulo equivalente |
+| ENCE (5u) | −$9,126M | −$2.07M | LFC v2 $2,000M/u (post DT-007 ADIF) vs Ardanuy $3,825M/u |
+| Torres TETRA | −$7,170M | −$1.63M | LFC 37×$40.9k vs Ardanuy 43×$73.1k |
+| **Subtotal subestimado** | **−$99,291M** | **−$22.5M** | |
+
+#### LFC SOBREESTIMA (margen ajustable a la baja)
+
+| Concepto | Δ COP | Δ USD | Comentario |
+|---|---|---|---|
+| Desvíos Cap 1.4+1.5 | +$29,746M | +$6.76M | LFC ~$36B vs Ardanuy ~$6.6B (40 motores + 30 talonables) |
+| PaN equipos Cap 4 | +$15,694M | +$3.57M | LFC tiene 122 PaN básicos en Cap 4.3 — **BCD §8.2 dice que NO son alcance** |
+| CCO Cap 5 software | +$7,537M | +$1.71M | LFC SCADA $5,000M + Interfaces $4,112M vs Ardanuy CTC+PTC+Videowall $7,555M |
+| Material Rodante OBU Cap 6 | +$5,277M | +$1.20M | LFC 15×$238k vs Ardanuy 25×$95k |
+| **Subtotal sobreestimado** | **+$58,254M** | **+$13.2M** | |
+
+#### NETO
+
+**LFC subestima ~$41B COP (~$9.3M USD) respecto a Ardanuy.**
+
+### 5.4 Acción recomendada — DT-COMS-2026-008 propuesta
+
+Próxima ronda de DTs para reconciliar composición interna sin tocar el total convergente:
+
+1. **Subir** Cap 2.3 (Obra Civil FO) +$70B alineando a Ardanuy.
+2. **Crear capítulo** "Diseño Fase III" (~$12B) ausente hoy.
+3. **Subir** ENCE de $2,000M → $3,825M/u (DT-COMS-2026-007 v2 con factor adicional, alineando a Conceptual LFC + Ardanuy).
+4. **Subir** Torres TETRA: 37 → 43 sitios (Ardanuy) y VU $40.9k → $73.1k.
+5. **Bajar** Cap 4.3 (PaN básicos 122u): revisar si esos 122 PaN entran al alcance del SCC o se excluyen (BCD §8.2 sugiere exclusión).
+6. **Bajar** Cap 5 CCO software (consolidar SCADA + Interfaces).
+7. **Bajar** MR Cap 6 OBU: alineación 25u × $95k vs los actuales 15u × $238k (también requiere DT que armonice con DT-CTRL-2026-006 sobre flota).
+
+Estos gaps se documentan en el roadmap como **Bloque D**.
+
+---
+
+## 6. RFQ recibidos (vacío — pendiente)
 
 _(El agente externo debe rellenar esta sección con cada cotización recibida. Formato: ítem WBS · proveedor · fecha · precio EUR/USD · URL · vigencia · alcance.)_
 

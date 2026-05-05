@@ -28,6 +28,8 @@
 | **DT-CTRL-2026-006 redactada**: flota tractiva 15 unidades = 1 U18 (AT1 §5) + 14 Factor Calidad. Cierra deuda doctrinal locomotoras. | turno actual |
 | **DT-COMS-2026-007 aplicada (ADIF v1)**: 5 ENCE $800M→$2,000M (CAC020) + 25 desvíos motorizados $448M→$640M (VEA010). Bug 2.3.100 fix "64 hilos"→"48 hilos". Cap 1 +$10,786M COP. Notas RFQ pendiente para 8 ítems (4 ratificación ADIF + 4 sin ADIF: F.O. 48h, contador ejes, armario PTC, UPS) con proveedores priorizados en `precios_Adif_COMPLETO.md` §4. | turno actual |
 | **Bloque C UI/UX consolidado** (C1+C2+C3+C4+C5+C6): Vista Final como vista canónica única con barra L4 secundaria (AIU · Acta · Validación Cap.4 · Zero-Residue · RFQ) en modales inline + Excel 7 hojas (incluye estilo Costo_proyecto.xlsx en Hoja 3 con TRM en M1 y fórmulas $M$1). 4 redirects (WBS_COMPLETA_TODO_v4.0 + duplicado + Controles_L4 + Presupuesto_SCC) → Vista_Final. Index.html migrado a Universo A (count-items desde wbs_presupuestal_datos.js). | turno actual |
+| **Sincronización post-Q2/Q3 al .js (D12 cerrado)**: 7 renames aplicados al `wbs_presupuestal_datos.js` — 2.1.116 LiFePO4→"Bancos baterías UPS 24h (química RFQ)"; 2.2.100-104 + 6.1.102 "Red Vital IP / TETRA"→"red móvil broadband ferroviaria (complemento TETRA)"; eliminado "ZR-Optics Compatible" residuo de Antigravity. Eliminados ítems vacíos 4.3.101 y 4.3.102 (cant=0, total=$0). **135 → 133 ítems**. Cache bumped a v=14.7.5. WBS_Presupuestal_v4_0_MICHELIN.md sincronizado. | turno actual |
+| **Validación cruzada Ardanuy** (Bloque D abierto): comparación contra `LFC-U2-CTSC-ED-QTO-CO-0001` documentada en `precios_Adif_COMPLETO.md §5`. Total convergente al 3% pero composición divergente. Gaps identificados → DT-COMS-2026-008 propuesta. | turno actual |
 
 ---
 
@@ -40,6 +42,32 @@
 - [x] DT-COMS-2026-007 redactada y aplicada (.js + .md sincronizados).
 - [x] Notas RFQ pendientes documentadas en `precios_Adif_COMPLETO.md §4` (proveedores, fuentes, instrucciones para agente externo de búsqueda web).
 - [ ] **Próximo:** ejecutar búsqueda web por agente externo (NotebookLM o equivalente) sobre los 8 ítems pendientes RFQ.
+
+### Bloque D — Reconciliación contra presupuesto Ardanuy (DT-COMS-2026-008 propuesta)
+
+> **Origen:** Validación cruzada del 2026-05-05 contra el documento del consultor `LFC-U2-CTSC-ED-QTO-CO-0001` (Ardanuy Colombia, abril 2026). Detalle completo en `IX_WBS_Planificacion/precios_Adif_COMPLETO.md §5`.
+
+**Diagnóstico:** Total convergente al 3% (LFC $260B vs Ardanuy $252B COP), pero **composición interna divergente**. LFC subestima ~$41B COP (~$9.3M USD) en el costo directo si se compara contra Ardanuy CAPEX puro.
+
+**Items para próxima DT (DT-COMS-2026-008):**
+
+#### Subir (LFC subestima)
+- [ ] **Cap 2.3 Obra Civil FO**: +$70B (LFC $52B vs Ardanuy $122B). Es el gap más material.
+- [ ] **Crear capítulo nuevo "Diseño Plan Maestro Fase III"**: +$12B (no existe en LFC, Ardanuy lo separa explícitamente — práctica más defendible ante ANI).
+- [ ] **ENCE Cap 1.3.100-104**: $2,000M → $3,825M/u (DT-COMS-2026-007 v2 — alinear a Conceptual LFC + Ardanuy convergentes en $869k USD/u).
+- [ ] **Torres TETRA Cap 2.1.100**: 37 → 43 sitios + VU $40.9k → $73.1k USD/u.
+
+#### Bajar (LFC sobreestima)
+- [ ] **Cap 4.3 PaN básicos (122 unidades)**: revisar si entran al alcance del SCC. **BCD §8.2 sugiere que NO** (solo los 24 protegidos = 9 Tipo C + 15 Tipo B son alcance del sistema señalización). Si se excluyen: −$15.7B.
+- [ ] **Cap 5 CCO software** (5.3.101 SCADA + 5.3.103 Interfaces): consolidar — Ardanuy reporta CTC+PTC+Videowall integrado en $7.5B, LFC tiene componentes separados $9.1B.
+- [ ] **Cap 6 OBU**: revisar 15u × $238k vs Ardanuy 25u × $95k. Armonizar con DT-CTRL-2026-006 (flota tractiva).
+- [ ] **Desvíos Cap 1.4 + 1.5**: revisar (LFC $36B vs Ardanuy $6.6B — gap muy grande, posible diferencia de criterio: Ardanuy modela 40 motores + 30 talonables, LFC tiene 25 motorizados + 120 manuales autotalonables).
+
+**Riesgo principal:** Si Ardanuy cotiza correctamente la obra civil de FO, LFC en ejecución va a quedar corto en $70B.
+
+**Oportunidad:** los $58B sobreestimados cubren parcialmente el gap. **Reasignar internamente sin tocar el total**: bajar PaN básicos / MR / desvíos, subir FO obra civil + agregar capítulo Diseño.
+
+---
 
 ### Bloque B — Flujo agente / enjambre y validación DT por ítem WBS
 - [ ] Revisar pipeline `agente/architecture.md` FASE-0 a FASE-5 contra escenario real (Tridente NVIDIA NIM saturado, NVIDIA NIM down, Gemini 429).

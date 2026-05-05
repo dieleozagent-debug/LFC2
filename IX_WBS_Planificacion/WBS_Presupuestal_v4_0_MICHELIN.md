@@ -89,10 +89,10 @@
 | **2.1.115** | Repuestos (10%) | - | - | $1,774,000,000 |
 | **SUBTOTAL TETRA** | | | | **$19,038,000,000** |
 
-#### **2.2 Sistema Red Vital IP / TETRA (37 Estaciones Colocalizadas)**
+#### **2.2 Red móvil broadband ferroviaria (complemento TETRA — tecnología por RFQ, 37 sitios)**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
 |:---|:---|:---:|:---:|:---:|
-| **SUBTOTAL Red Vital IP / TETRA** | | | | **$3,618,000,000** |
+| **SUBTOTAL Red móvil broadband ferroviaria** | | | | **$3,618,000,000** |
 
 #### **2.3 Fibra Óptica (526 km)**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
@@ -111,7 +111,7 @@
 >
 > - **+$1,557.6M (Cap 1):** Restituido ítem 1.5.101 (Señalización semafórica estaciones ENCE — gap doctrinal AT1 Tabla 17 + BCD §Tabla 2).
 > - **+$120M (Cap 2):** OTDR 2.3.106 upgrade a triwavelength (1310/1550/1625 nm).
-> - **+$1,850M (Cap 2):** Nuevo ítem 2.1.116 — bancos baterías LiFePO4 24h sitios remotos TETRA.
+> - **+$1,850M (Cap 2):** Nuevo ítem 2.1.116 — Bancos baterías UPS 24h sitios remotos TETRA (BCD §10.5; química a definir vía RFQ).
 > - **+$1,200M (Cap 2):** Nuevo subcap 2.4.100 — Habilitación Satelital Transitoria (Punto 42, DT-SICC-2026-042, cadena 9.12 → 25.4).
 > - **Cap 5 reconciliado:** $7,600M (Michelin .md original) → $16,412M (.js operativo). El .md histórico no incluía SCADA software ($5,000M) ni interfaces comunicación ($4,112M) que sí están en el .js. **Línea válida: la del .js.**
 
