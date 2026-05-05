@@ -19,6 +19,7 @@ Bogotá D.C., mayo de 2026
 |---------|---------------|--------------|--------------|-----------------|
 |         | Ardanuy Colombia | LFC | | Interventoría |
 | 001     | Pedro Acosta, Zhandra Aguiño, Armando Flores, Argenis Ruiz | Stephanie G Cruz, Luis Lozano | | Luis Guillermo Duarte |
+| 002     | Ardanuy Colombia | Diego Z. | | |
 
 ---
 
