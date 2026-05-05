@@ -316,10 +316,10 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
-    <script src="lfc-terminology.js?v=14.7.5"></script>
-    <script src="sidebar-component.js?v=14.7.5"></script>
-    <script src="wbs_presupuestal_datos.js?v=14.7.5"></script>
-    <script src="wbs_core_logic.js?v=14.7.5"></script>
+    <script src="lfc-terminology.js?v=14.7.6"></script>
+    <script src="sidebar-component.js?v=14.7.6"></script>
+    <script src="wbs_presupuestal_datos.js?v=14.7.6"></script>
+    <script src="wbs_core_logic.js?v=14.7.6"></script>
     <script>
         function fmt(n) { return '$' + Math.round(n).toLocaleString('es-CO'); }
         function fmtUSD(n) { return '$' + Math.round(n).toLocaleString('en-US'); }
@@ -333,8 +333,12 @@
             { item: '2.3.100', concepto: 'Cable F.O. monomodo 48 hilos G.652.D OSP', vu_actual: '$9.81M COP/km × 579 km', fuente: 'Mercado COL/LATAM', estado: 'RFQ urgente', proveedores: 'Furukawa Brasil, Corning LATAM, Prysmian Latam, OFS' },
             { item: 'Comp 1.3', concepto: 'Contador de ejes (Wayside ENCE)', vu_actual: '~$4,720 USD/u (Conceptual LFC)', fuente: 'Sin ADIF', estado: 'RFQ urgente', proveedores: 'Frauscher, Siemens, Thales, Voestalpine' },
             { item: '4.1.x', concepto: 'Armario PTC en PaN (Tipo C, SIL-3 vital)', vu_actual: '~$140k USD/u (Conceptual LFC)', fuente: 'Sin ADIF', estado: 'RFQ urgente', proveedores: 'Hima HiMax, Siemens SICAS, Bombardier EBI Gate 200' },
-            { item: 'Cap 10', concepto: 'UPS 4h (signal) / 24-48h (TETRA)', vu_actual: 'Pendiente', fuente: 'BCD §10.1-10.5', estado: 'RFQ urgente', proveedores: 'Eaton, APC by Schneider, Riello, Hoppecke COL (LiFePO4)' }
+            { item: 'Cap 10', concepto: 'UPS 4h (signal) / 24-48h (TETRA)', vu_actual: 'Pendiente', fuente: 'BCD §10.1-10.5', estado: 'RFQ urgente', proveedores: 'Eaton, APC by Schneider, Riello, Hoppecke COL (LiFePO4)' },
+            { item: '2.1.116', concepto: 'Bancos baterías UPS 24h sitios remotos TETRA (química a definir vía RFQ)', vu_actual: '$50M COP/u × 37 sitios = $1.85B', fuente: 'Estimación interna — sin RFQ', estado: 'RFQ urgente', proveedores: 'Hoppecke COL, Saft, EnerSys, BYD' }
         ];
+
+        // TRM real spot (informativo, sin colchón) — para exposición cambiaria
+        const TRM_REAL = 3637;
 
         document.addEventListener('DOMContentLoaded', () => {
             if (typeof WBS_CORE === 'undefined' || !window.wbsDataPresupuestal) {
@@ -580,24 +584,29 @@
                 ['PRESUPUESTO SCC — APP LA DORADA-CHIRIGUANÁ (UF2)'],
                 ['Contrato APP No. 001 de 2025  |  SICC v14.7 BCD-aligned  |  Generado: ' + fecha],
                 [],
-                ['TOTAL GENERAL PROYECTO', '', 'COP', 'USD'],
-                ['Costo Directo', '', calc.costoDirecto, Math.round(calc.costoDirecto / TRM)],
-                ['AIU 33% sobre Obra Civil', '', calc.aiu, Math.round(calc.aiu / TRM)],
-                ['IVA Total', '', calc.iva, Math.round(calc.iva / TRM)],
-                ['TOTAL PROYECTO', '', calc.total, Math.round(calc.total / TRM)],
+                ['TOTAL GENERAL PROYECTO', '', 'COP', 'USD @ TRM Risk ' + TRM, 'USD @ TRM real ' + TRM_REAL],
+                ['Costo Directo', '', calc.costoDirecto, Math.round(calc.costoDirecto / TRM), Math.round(calc.costoDirecto / TRM_REAL)],
+                ['AIU 33% sobre Obra Civil', '', calc.aiu, Math.round(calc.aiu / TRM), Math.round(calc.aiu / TRM_REAL)],
+                ['IVA Total', '', calc.iva, Math.round(calc.iva / TRM), Math.round(calc.iva / TRM_REAL)],
+                ['TOTAL PROYECTO', '', calc.total, Math.round(calc.total / TRM), Math.round(calc.total / TRM_REAL)],
                 [],
-                ['DESGLOSE POR COMPONENTE'],
-                ['Total Suministros', '', calc.totalSuministros, Math.round(calc.totalSuministros / TRM)],
-                ['Total Obra Civil', '', calc.totalObraCivil, Math.round(calc.totalObraCivil / TRM)],
-                ['Total Servicios', '', calc.totalServicios, Math.round(calc.totalServicios / TRM)],
+                ['DESGLOSE POR COMPONENTE', '', 'COP', 'USD @ TRM Risk ' + TRM, 'USD @ TRM real ' + TRM_REAL],
+                ['Total Suministros', '', calc.totalSuministros, Math.round(calc.totalSuministros / TRM), Math.round(calc.totalSuministros / TRM_REAL)],
+                ['Total Obra Civil', '', calc.totalObraCivil, Math.round(calc.totalObraCivil / TRM), Math.round(calc.totalObraCivil / TRM_REAL)],
+                ['Total Servicios', '', calc.totalServicios, Math.round(calc.totalServicios / TRM), Math.round(calc.totalServicios / TRM_REAL)],
                 [],
                 ['CONVERSIÓN MONETARIA'],
                 ['TRM Risk (COP/USD)', '', TRM],
+                ['TRM real spot (COP/USD)', '', TRM_REAL],
                 ['EUR/USD (paridad ECB)', '', 1.09],
                 ['EUR/COP cruzada', '', Math.round(TRM * 1.09)],
                 [],
+                ['EXPOSICIÓN CAMBIARIA'],
+                ['TRM Risk 4400 incorpora margen ~+21% vs TRM real ' + TRM_REAL + '. La columna USD@' + TRM_REAL + ' muestra el equivalente sin colchón.'],
+                ['Comparativo Ardanuy CAPEX: $66.4M USD @ TRM ~3,800 (consultor de diseño).'],
+                [],
                 ['NOTAS'],
-                ['(1) TRM Risk = techo de cobertura cambiaria. TRM real ~3,637 al ' + fechaCorta + '. Margen ~+21%.'],
+                ['(1) TRM Risk = techo de cobertura cambiaria. TRM real ~' + TRM_REAL + ' al ' + fechaCorta + '. Margen ~+21%.'],
                 ['(2) AIU = Adm 23% + Imprevistos 5% + Utilidad 5% sobre Obra Civil.'],
                 ['(3) IVA = 19% Suministros + 19% Servicios + 19% sobre 5% Utilidad de Obra.'],
                 ['(4) Línea base alineada a BCD v001 SCC (Ardanuy, abril 2026) y DT-COMS-2026-007 (precios ADIF).']
