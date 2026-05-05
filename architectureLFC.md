@@ -90,30 +90,38 @@ Desde 2026-05-05, la arquitectura se rige por el **BCD v001 (Ardanuy, abril 2026
 └──────────────────────────────────────────────────────────────────┘
 ```
 
-### Capa 3: Vistas HTML — qué dataset consume cada una
+### Capa 3: Vistas HTML — estado tras consolidación 2026-05-05
 
-| HTML | Dataset | Motor | Notas |
-|---|---|---|---|
-| `WBS_Vista_Final.html` | **A** saneado | `wbs_core_logic` | ⭐ Vista de entrega ANI 2026-05-05 |
-| `WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguana.html` | **A** | `wbs_core_logic` | Presupuesto extendido |
-| `WBS_Cronograma_Propuesta.html` | **A** + `cronograma_datos.js` | — | Gantt |
-| `WBS_Controles_Operativos_L4.html` | **A** | `wbs_core_logic` | L4 ops |
-| `WBS_COMPLETA_TODO_Interactiva_v4.0.html` | **B** legacy | TRM hardcoded | ⚠️ Linkeado por sidebar |
-| `WBS_COMPLETA_TODO_Interactiva_v4_0.html` | **B** | hardcoded | Duplicado idéntico |
-| `WBS_EDT_Detalle.html` | **B** + `wbs_metadata_enriquecida.js` | — | EDT por ítem |
-| `WBS_Analisis_Riesgos.html` | `riesgos_wbs.js` | — | Riesgos |
-| `WBS_Reporte_Gerencial.html` | `reporte_gerencial_data.js` | — | Reporte L1 |
-| `WBS_Menu_Principal.html` | (solo UI) | — | Hub |
+| HTML | Estado | Notas |
+|---|---|---|
+| **`WBS_Vista_Final.html`** | ⭐ **Vista canónica única** | Universo A (135 ítems) + motor `wbs_core_logic`. Excel 7 hojas + 5 modales L4 (AIU, Acta, Validación Cap.4, Zero-Residue, Pendientes RFQ). Estilo `Costo_proyecto.xlsx` en Hoja 3 (TRM en M1, fórmulas `$M$1`). |
+| `WBS_Menu_Principal.html` | Hub navegación | Acceso secundario para exploración granular (Cronograma, Riesgos, Reporte, Auditoría, etc.) |
+| `WBS_Cronograma_Propuesta.html` | Activo | Universo A + `cronograma_datos.js`. Gantt. Hardcoded parcial (deuda backlog) |
+| `WBS_EDT_Detalle.html` | Activo | Universo B + `wbs_metadata_enriquecida.js`. EDT por ítem (deuda D3: migrar a A) |
+| `WBS_Analisis_Riesgos.html` | Activo | `riesgos_wbs.js`. Hardcoded (deuda backlog) |
+| `WBS_Reporte_Gerencial.html` | Activo | `reporte_gerencial_data.js`. Reporte L1 |
+| `WBS_COMPLETA_TODO_Interactiva_v4.0.html` | 🔀 **Redirect** | Era Universo B. Ahora `<meta refresh>` 2s → Vista_Final |
+| `WBS_COMPLETA_TODO_Interactiva_v4_0.html` | 🔀 **Redirect** | Duplicado consolidado |
+| `WBS_Controles_Operativos_L4.html` | 🔀 **Redirect** | Botones L4 movidos a Vista Final como modales |
+| `WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguana.html` | 🔀 **Redirect** | Era redundante con Vista Final |
 
-### 🚨 La trampa heredada de la sesión 2026-05-04
+### ✅ Trampa heredada cerrada (2026-05-05, commits `2598bb8` + `5cbe10f`)
 
-`sidebar-component.js:20` linkea **"🚀 WBS Interactiva"** → `WBS_COMPLETA_TODO_Interactiva_v4.0.html` (universo **B**, legacy). Un evaluador que entre desde el home y haga click ahí verá el ítem **1.1.103 con valor pre-purga ($63,112M)**, contradiciendo `Vista_Final` ($11,000M conciliados). La purga FENOCO Sec 25.4 se aplicó solo en universo A; el universo B quedó congelado en abril.
+La trampa donde el sidebar y el index linkeaban al **Universo B legacy** con cifras pre-purga FENOCO ($63,112M en 1.1.103) está **cerrada**:
 
-**Reglas operativas para futuras sesiones:**
-1. Antes de modificar cifras del WBS, identificar a cuál universo pertenece el archivo. Tocar uno sin el otro = desincronización.
-2. La línea base certificada es **A** (`wbs_presupuestal_datos.js`). Motor canónico: `wbs_core_logic.js`. TRM canónica: `lfc-terminology.js:98` (`TRM: 4400`).
-3. Universo B (`datos_wbs_TODOS_items.js`) está obsoleto pero servido. Plan: migrar `WBS_COMPLETA_TODO_Interactiva_*.html` a A (mapping `codigo→item`, `vu_cop→vu`, `total_cop→total`) y eliminar B.
-4. Mientras B exista, la sidebar debe apuntar a `WBS_Vista_Final.html` para no exponer cifras pre-purga.
+1. **`sidebar-component.js:20`** ahora linkea "🚀 WBS Certificada v14.7" → `WBS_Vista_Final.html` (Universo A).
+2. **`index.html`**: primer access-card es ahora "⭐ Presupuesto SCC — Vista Final" → `WBS_Vista_Final.html`. Migrado de cargar `datos_wbs_TODOS_items.js` (Universo B) a `wbs_presupuestal_datos.js` (Universo A) para `count-items`.
+3. **3 HTMLs Universo B + 1 redundante Universo A** convertidos a redirects HTML (`<meta refresh>` 2s + mensaje + botón) que apuntan a `WBS_Vista_Final.html`:
+   - `WBS_COMPLETA_TODO_Interactiva_v4.0.html` (Universo B)
+   - `WBS_COMPLETA_TODO_Interactiva_v4_0.html` (duplicado)
+   - `WBS_Controles_Operativos_L4.html` (botones movidos a Vista Final)
+   - `WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguana.html` (redundante con Vista Final)
+
+**Reglas operativas vigentes:**
+1. La línea base certificada es **A** (`wbs_presupuestal_datos.js`, 135 ítems). Motor canónico: `wbs_core_logic.js`. TRM canónica: `lfc-terminology.js` `FINANCIAL.TRM = 4400`.
+2. Vista canónica: `WBS_Vista_Final.html`. Cualquier otra URL es redirect o navegación detallada (Hub).
+3. Antes de tocar el `.js`, leer §Criterios Maestros del BCD v001 (más arriba). El `.js` es SSoT de dataset (L7). El `.md` (`WBS_Presupuestal_v4_0_MICHELIN`) se sincroniza desde el `.js`, no al revés (deuda D5 del roadmap).
+4. **Pendiente**: eliminar físicamente los archivos del Universo B en cuanto se confirme que ningún proceso del agente los referencia. Por ahora son redirects vivos.
 
 ---
 
@@ -206,11 +214,12 @@ FASE 4:    APROBADO → brain/dictamenes/ + vectorización + /promote
 
 | Flujo | Estado | Comentario |
 |---|---|---|
-| Universo B (`datos_wbs_TODOS_items.js`) | ⚠️ | Servido pero pre-BCD. Sidebar lo linkea como "WBS Interactiva". Ítem 1.1.103 = $63,112M (incorrecto). |
-| Cronograma dinámico | ⚠️ | `cronograma_datos.js` existe pero `WBS_Cronograma_Propuesta.html` parcialmente hardcoded. |
-| Riesgos vinculados | ⚠️ | `riesgos_wbs.js` existe pero NO vincula con ítems WBS específicos. |
-| Reporte gerencial | ⚠️ | Pareto funciona; no actualiza tiempo real. |
-| Excel hoja 4 (Fuentes) | ⚠️ | Hardcoded "133 ítems" — contradice meta dinámico (135). |
+| Universo B sirviendo Vista Interactiva | ✅ Cerrado en `5cbe10f` | Sidebar reapuntada + 4 redirects HTML hacia Vista Final. Index migrado a Universo A. |
+| Excel hoja 4 hardcoded "133 ítems" | ✅ Cerrado en `5cbe10f` | Excel reescrito a 7 hojas con `data.length` dinámico. |
+| Cronograma dinámico | ⚠️ | `cronograma_datos.js` existe pero `WBS_Cronograma_Propuesta.html` parcialmente hardcoded. Backlog. |
+| Riesgos vinculados | ⚠️ | `riesgos_wbs.js` existe pero NO vincula con ítems WBS específicos. Backlog. |
+| Reporte gerencial | ⚠️ | Pareto funciona; no actualiza tiempo real. Backlog. |
+| Excel: TableStyleLight15 + ref. estructuradas | ⚠️ | SheetJS Pro requerido. Solución actual: usuario aplica `Ctrl+T` post-apertura (documentado en Hoja 7). |
 
 ### ❌ Pendiente
 
@@ -230,9 +239,9 @@ FASE 4:    APROBADO → brain/dictamenes/ + vectorización + /promote
 | 1 | **DT-SICC-2026-015** (fibra 64h) contradice BCD §6.1.1 (48h) | 🔴 Alta | Matar o reescribir post-BCD |
 | 2 | `agente/architecture.md:22` dice fibra 64h | 🔴 Alta | Corregir a 48h |
 | 3 | `agente/architecture.md:25` "eliminada 24h UPS" | 🔴 Alta | Restaurar BCD §10.5: TETRA 24-48h |
-| 4 | Sidebar linkea universo B como "WBS Interactiva" | 🔴 Alta | Reapuntar a `WBS_Vista_Final.html` |
-| 5 | Universo B (`datos_wbs_TODOS_items.js`) servido con cifras pre-purga | 🟡 Media | Migrar a A o dropear |
-| 6 | Excel hoja 4 hardcoded "133 ítems" | 🟢 Baja | Parametrizar a `data.length` |
+| 4 | Sidebar linkea universo B como "WBS Interactiva" | ✅ Cerrado `5cbe10f` | Reapuntada a `WBS_Vista_Final.html` |
+| 5 | Universo B (`datos_wbs_TODOS_items.js`) servido con cifras pre-purga | ✅ Cerrado `5cbe10f` | 4 redirects HTML hacia Vista_Final |
+| 6 | Excel hoja 4 hardcoded "133 ítems" | ✅ Cerrado `5cbe10f` | Excel 7 hojas dinámico |
 | 7 | Re-ingesta `contrato_documentos` con BCD v001 | 🟡 Media | Necesario para que el agente cite correctamente |
 | 8 | Locomotoras nº exacto (15 actual = post-DT) | 🟡 Media | Verificar AT1 Cap 5.1 + DT formal |
 | 9 | WBS_Presupuestal_v4_0_MICHELIN: 24 PaN no 146, fibra 48h | 🟡 Media | Reconciliar |

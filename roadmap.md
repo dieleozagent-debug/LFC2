@@ -47,7 +47,7 @@
 - [ ] Implementar verificación cruzada bidireccional: DT → ítem WBS, ítem WBS → "origen DT-XXX-YYY".
 - [ ] Probar end-to-end: ítem 1.4.100 (desvíos motorizados) → `/audit señalizacion` → DT generada → `/promote` → push.
 
-### Bloque C — UI/UX consolidación frontend WBS (la entrega visual al gerente) ✅ CERRADO (commit pendiente)
+### Bloque C — UI/UX consolidación frontend WBS (la entrega visual al gerente) ✅ CERRADO en commit `5cbe10f`
 
 > **Diagnóstico (2026-05-05):** Hoy hay **4 URLs distintas** consumiendo data superpuesta y un usuario nuevo se pierde. El gerente solo va a mirar el Excel. Lo que importa: **Excel completo y bien ordenado** + **una sola entrada al sistema**. — **RESUELTO**.
 

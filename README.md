@@ -27,13 +27,20 @@ Este repositorio constituye el **Ecosistema de Ingeniería SICC** para el proyec
 
 ## INICIO RÁPIDO - TORRE DE CONTROL
 
-### Vista de entrega (presupuesto ANI 2026-05-05)
-*   ⭐ **[Vista Final del Presupuesto](IX_WBS_Planificacion/WBS_Vista_Final.html)** — 135 ítems, AIU 33%, IVA 19%, Excel descargable. Línea base v14.7 saneada.
+### Vista canónica (lo que usa el gerente y se entrega a ANI)
+⭐ **[Presupuesto SCC — Vista Final](IX_WBS_Planificacion/WBS_Vista_Final.html)** · línea base v14.7 BCD-aligned · 135 ítems
+
+Incluye:
+- 📊 **Excel descargable de 7 hojas**: Total General · Por Capítulo · **Detalle Ítems** (estilo Costo_proyecto.xlsx, TRM en M1, fórmulas A1 con `$M$1`) · **Obra Civil vs Compras** (Acta de Obra) · **AIU Desglose** · **Pendientes RFQ** (lo que pasa a Compras / Integradora) · Fuentes y Notas
+- 5 modales L4 inline: 💰 Desglose AIU · 📝 Acta de Obra · ⚠️ Validación Cap. 4 · 🧮 Zero-Residue · 📋 Pendientes RFQ
+- Tabla por capítulo + 4 cards resumen (Costo Directo · AIU · IVA · Total)
 
 ### Portales y herramientas
-*   [🏠 Sovereign Tower Dashboard](index.html)
-*   [🎯 WBS Mission Control](IX_WBS_Planificacion/WBS_Menu_Principal.html)
+*   [🏠 Sovereign Tower Dashboard](index.html) — primer card linkea directo a Vista Final
+*   [🎯 WBS Hub](IX_WBS_Planificacion/WBS_Menu_Principal.html) — navegación detallada (Cronograma, Riesgos, Reporte, Auditoría)
 *   [🍽️ Platos Servidos (Entregables)](X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/HTML/INDICE_Documentos_Servidos.html)
+
+> **Nota:** Las URLs antiguas `WBS_COMPLETA_TODO_Interactiva_v4.0`, `WBS_COMPLETA_TODO_Interactiva_v4_0`, `WBS_Controles_Operativos_L4`, `WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguana` están consolidadas como **redirects** automáticos hacia la Vista Final (commit `5cbe10f`).
 
 ---
 
