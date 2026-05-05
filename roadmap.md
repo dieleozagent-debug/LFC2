@@ -26,16 +26,19 @@
 | **Cap 4.2.100 fix**: descripción "barreras manuales" → "Señales Luminosas y Acústicas (SLA) Tipo B" alineado BCD §8.2.1 | turno actual |
 | **Saneo "64 hilos" en docs auxiliares** (`WBS_Listado_Verificacion_Precios`, `precios_Adif.md`): contradecía BCD §6.1.1 (48h homogéneo) | turno actual |
 | **DT-CTRL-2026-006 redactada**: flota tractiva 15 unidades = 1 U18 (AT1 §5) + 14 Factor Calidad. Cierra deuda doctrinal locomotoras. | turno actual |
+| **DT-COMS-2026-007 aplicada (ADIF v1)**: 5 ENCE $800M→$2,000M (CAC020) + 25 desvíos motorizados $448M→$640M (VEA010). Bug 2.3.100 fix "64 hilos"→"48 hilos". Cap 1 +$10,786M COP. Notas RFQ pendiente para 8 ítems (4 ratificación ADIF + 4 sin ADIF: F.O. 48h, contador ejes, armario PTC, UPS) con proveedores priorizados en `precios_Adif_COMPLETO.md` §4. | turno actual |
 
 ---
 
 ## 🟡 En curso / próxima sesión
 
-### Bloque A — Presupuesto base con precios ADIF v1
-- [ ] Auditar `precios_Adif.md` y `precios_Adif_COMPLETO.md`: ¿qué referencias ADIF están convertidas a TRM 4400 + EUR/COP 4360? ¿cuáles siguen pendientes?
-- [ ] Cruzar precios ADIF (VEA010 desvíos, CBB010 motores, CCA040 señales LED, CAC020 enclavamientos) contra ítems WBS Cap 1.3, 1.4 y 4.
-- [ ] Validar el ajuste de trocha: BCD dice **914 mm** (yarda), ADIF es **1,435 mm** (UIC). Aplicar factor +15-25% donde aplique (ya documentado en SICC_METHODOLOGY_42 §3).
-- [ ] Documentar fuentes RFQ pendientes: Hima Colombia, Siemens Mobility Bogotá, Furukawa Brasil, Corning LATAM, Prysmian.
+### Bloque A — Presupuesto base con precios ADIF v1 ✅ CERRADO en commit pendiente
+- [x] Auditar `precios_Adif_COMPLETO.md`: 4 extraídos (VEA010, CBB010, CCA040, CAC020) + 4 pendientes RFQ (F.O. 48h, contador ejes, armario PTC, UPS).
+- [x] TRM 4400 + EUR/COP 4796 (factor 1.09 ECB) confirmados.
+- [x] Cruzar ADIF vs WBS: 1.3.100-104 ENCE subdim 2.5x → fixed; 1.4.100 desvíos subdim 45% → fixed; 1.4.101 + 4.1.101 sobre-dim mantenidos como buffer.
+- [x] DT-COMS-2026-007 redactada y aplicada (.js + .md sincronizados).
+- [x] Notas RFQ pendientes documentadas en `precios_Adif_COMPLETO.md §4` (proveedores, fuentes, instrucciones para agente externo de búsqueda web).
+- [ ] **Próximo:** ejecutar búsqueda web por agente externo (NotebookLM o equivalente) sobre los 8 ítems pendientes RFQ.
 
 ### Bloque B — Flujo agente / enjambre y validación DT por ítem WBS
 - [ ] Revisar pipeline `agente/architecture.md` FASE-0 a FASE-5 contra escenario real (Tridente NVIDIA NIM saturado, NVIDIA NIM down, Gemini 429).

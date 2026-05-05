@@ -44,25 +44,29 @@
 | **1.2.106** | Sistema redundancia | 15 | $50,000,000 | $750,000,000 |
 | **SUBTOTAL PTC** | | | | **$6,600,000,000** |
 
-#### **1.3 Enclavamientos ENCE (5 Estaciones)**
+#### **1.3 Enclavamientos ENCE (5 Estaciones — DT-COMS-2026-007 ADIF CAC020)**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
 |:---|:---|:---:|:---:|:---:|
-| **1.3.100** | Controlador ENCE Zapatosa | 1 | $800,000,000 | $800,000,000 |
-| **1.3.101** | Controlador ENCE García Cadena | 1 | $800,000,000 | $800,000,000 |
-| **1.3.102** | Controlador ENCE Barrancabermeja (Puerto) | 1 | $800,000,000 | $800,000,000 |
-| **1.3.103** | Controlador ENCE Puerto Berrío-Grecia | 1 | $800,000,000 | $800,000,000 |
-| **1.3.104** | Controlador ENCE La Dorada-México | 1 | $800,000,000 | $800,000,000 |
+| **1.3.100** | Controlador ENCE Zapatosa | 1 | $2,000,000,000 | $2,000,000,000 |
+| **1.3.101** | Controlador ENCE García Cadena | 1 | $2,000,000,000 | $2,000,000,000 |
+| **1.3.102** | Controlador ENCE Barrancabermeja (Puerto) | 1 | $2,000,000,000 | $2,000,000,000 |
+| **1.3.103** | Controlador ENCE Puerto Berrío-Grecia | 1 | $2,000,000,000 | $2,000,000,000 |
+| **1.3.104** | Controlador ENCE La Dorada-México | 1 | $2,000,000,000 | $2,000,000,000 |
 | **1.3.105** | Sistema redundancia ENCE | 1 | $400,000,000 | $400,000,000 |
 | **1.3.106** | Interfaces CTC-ENCE | 5 | $60,000,000 | $300,000,000 |
-| **SUBTOTAL ENCE** | | | | **$4,700,000,000** |
+| **SUBTOTAL ENCE** | | | | **$10,700,000,000** |
 
-#### **1.4 Desvíos Motorizados (25 Unidades CTC/ENCE)**
+> **Nota DT-COMS-2026-007:** ENCE alineados a BPA ADIF CAC020 (€356,780) + ajustes trocha 914mm (+15%) + logística (+12%) − MO local (-10%) = ~$2,000M COP/u. Era $800M/u (subdimensión 2.5x vs ADIF). Pendiente RFQ formal para ratificación.
+
+#### **1.4 Desvíos Motorizados (25 Unidades CTC/ENCE — DT-COMS-2026-007 ADIF VEA010)**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
 |:---|:---|:---:|:---:|:---:|
-| **1.4.100** | Desvíos motorizados CTC | 25 | $448,589,000 | $11,214,725,000 |
+| **1.4.100** | Desvíos motorizados CTC | 25 | $640,000,000 | $16,000,000,000 |
 | **1.4.101** | Sistemas control remoto + redundancia N+1 | 25 | $134,577,000 | $3,364,425,000 |
 | **1.4.102** | Interfaces CTC/ENCE | 25 | $67,288,000 | $1,682,200,000 |
-| **SUBTOTAL DESVÍOS MOTORIZADOS** | | | | **$16,261,350,000** |
+| **SUBTOTAL DESVÍOS MOTORIZADOS** | | | | **$21,046,625,000** |
+
+> **Nota DT-COMS-2026-007:** 1.4.100 alineado a BPA ADIF VEA010 (€114,320) + ajustes = ~$640M COP/u. Era $448.589M/u (subdimensión ~45%). 1.4.101 mantiene $134.577M (buffer N+1 documentado, sin cambio).
 
 #### **1.5 Desvíos Manuales y Senalización**
 | **Item** | **Descripción** | **Cantidad** | **VU (COP)** | **Total (COP)** |
@@ -72,7 +76,7 @@
 | **1.5.102** | Herramientas operación (kit completo certificado) | 120 | $13,458,000 | $1,614,960,000 |
 | **SUBTOTAL DESVÍOS MANUALES Y SENALIZACIÓN** | | | | **$17,764,200,000** |
 
-**TOTAL CAPÍTULO 1:** **$57,755,550,000**
+**TOTAL CAPÍTULO 1:** **$68,541,200,000** _(post DT-COMS-2026-007: +$10,786M vs Michelin original)_
 
 ---
 
@@ -113,13 +117,13 @@
 
 | **Capítulo** | **Descripción** | **Total (COP) Post-Audit** |
 |:---|:---|:---:|
-| **1** | Control y Senalización Virtual | $59,613,150,000 |
+| **1** | Control y Senalización Virtual | $70,399,150,000 _(post DT-COMS-2026-007: +$10,786M ADIF align ENCE+desvíos)_ |
 | **2** | Telecomunicaciones Colocalizadas | $88,113,093,560 |
 | **3** | Sistemas ITS y Seguridad | $5,382,300,000 |
 | **4** | Pasos a Nivel | $18,238,000,000 |
 | **5** | Centro de Control Operacional | $16,412,000,000 |
 | **6** | Material Rodante | $12,647,500,000 |
-| **SUBTOTAL (COSTO DIRECTO)** | | **$200,406,043,560** |
+| **SUBTOTAL (COSTO DIRECTO)** | | **$211,192,043,560** |
 
 ### **📈 ESTRUCTURA FINANCIERA (TRM 4400)**
 
@@ -139,7 +143,7 @@
 ### **🏁 PRESUPUESTO TOTAL CONSOLIDADO POST-AUDIT (2026-05-04):**
 | **Concepto** | **Valor (COP)** | **Valor (USD @ 4400)** |
 |:---|:---:|:---:|
-| **Costo Directo** | $200,406,043,560 | $45,546,828 |
+| **Costo Directo** | $211,192,043,560 | $45,546,828 |
 | **AIU TOTAL (calc. en vivo desde wbs_core_logic.js)** | (recalcular en `WBS_Vista_Final.html`) | — |
 | **IVA TOTAL (calc. en vivo)** | (recalcular en `WBS_Vista_Final.html`) | — |
 | **TOTAL ESTIMADO POST-AUDIT** | **~$247,250M (estimado +AIU+IVA)** | **~$56.2M** |

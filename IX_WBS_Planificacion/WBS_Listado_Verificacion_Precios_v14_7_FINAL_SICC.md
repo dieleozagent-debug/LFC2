@@ -60,7 +60,7 @@
 
 | # | Ítem WBS | Concepto | Valor estimado actual | Cotizar a | Razón |
 |---|---|---|---|---|---|
-| 1 | 1.3.100-104 | Controlador ENCE SIL-3/4 (5 estaciones) | $800M COP/u | Hima Colombia, Siemens Mobility Bogotá, Alstom regional | Discrepancia 4.8x con Conceptual LFC ($869k USD/u). Riesgo de subdimensionamiento. |
+| 1 | 1.3.100-104 | Controlador ENCE SIL-3/4 (5 estaciones) | **$2,000M COP/u** (post DT-COMS-2026-007) | Hima Colombia, Siemens Mobility Bogotá, Alstom regional | Era $800M (riesgo subdim). Reconciliado a ADIF CAC020 + ajustes (€356,780 → ~$2,000M). Aún 1.9x menor que Conceptual LFC ($3,824M); RFQ formal a proveedores COL pendiente para ratificar. |
 | 2 | 4.1.100, 4.1.102, 4.1.104 | Controladores PaN Tipo C SIL-3 vital | $180M-$360M COP/u | Hima HiMax/HiMatrix, Siemens SICAS-S7, Bombardier EBI Gate 200 | El WBS asume controladores genéricos. SIL-3 certificado puede ser ~$110-160k USD/u (gap potencial +$3-5B). |
 | 3 | 2.3.100 | Cable F.O. monomodo **48 hilos** G.652.D OSP (BCD §6.1.1 vinculante) | VU $9.81M COP/km | Furukawa Brasil, Corning LATAM, Prysmian | Reconciliado a 48h conforme BCD v001. La idea previa de upgrade a 64h fue descartada (sin sustento contractual; BCD impone 48h homogéneo). |
 | 4 | 2.4.100 | Habilitación Satelital Punto 42 (5 terminales LEO + 12 meses) | $1,200M COP global | Hispasat (GEO), Starlink Maritime / OneWeb (LEO) | Estimación gruesa. Tarifa real Mbps/mes pendiente del proveedor. |

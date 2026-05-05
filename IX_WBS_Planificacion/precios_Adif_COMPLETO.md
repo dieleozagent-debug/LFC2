@@ -67,5 +67,46 @@ Los precios extraídos del BPA ADIF corresponden a equipos para trocha estándar
 **Resultado:** El valor unitario (VU) final en la WBS v4.0 incorpora estos deltas sobre la base ADIF aquí presentada.
 
 ---
-**Firmado:** Antigravity Forensic Audit Unit (SICC v14.7)
+
+## 4. PENDIENTES DE COTIZACIÓN FORMAL (RFQ — Request for Quotation)
+
+> **Tarea para agente externo / búsqueda web:** los siguientes ítems necesitan **cotización formal de proveedor con presencia COL/LATAM** para ratificar o ajustar la línea base ADIF aplicada en `DT-COMS-2026-007`. Sin RFQ, los precios son referenciales y carecen de valor probatorio ante Interventoría.
+
+### 4.1 Ratificación de los 4 ADIF ya extraídos
+
+Comparar el precio ADIF + ajustes de DT-COMS-2026-007 contra cotización real de proveedor en mercado COL/LATAM. Si el delta es >±15%, requiere DT v2.
+
+| Ítem WBS | ADIF base | VU aplicado | Proveedores a contactar |
+|---|---|---|---|
+| 1.3.100-104 (5 ENCE) | CAC020 €356,780 | $2,000M COP/u | **Hima Colombia**, **Siemens Mobility Bogotá**, **Alstom regional**, Bombardier |
+| 1.4.100 (25 desvíos motorizados) | VEA010 €114,320 | $640M COP/u | **Hima**, **Vossloh COL**, **Voestalpine**, **Schwihag** |
+| 1.4.101 (sistemas control remoto) | CBB010 €6,845 | $134.577M COP/u (con buffer N+1) | **Siemens SICAS**, **Hima**, **Alstom** |
+| 4.1.101 (señales LED) | CCA040 €10,450 | $80M COP/u (con buffer 33%) | **Aldridge**, **Siemens**, **Hitachi**, **GE Transportation** |
+
+### 4.2 RFQ urgente — ítems sin precio ADIF
+
+| # | Concepto | Item WBS | Proveedores priorizados | Notas técnicas |
+|---|---|---|---|---|
+| 1 | F.O. monomodo **48 hilos** G.652.D OSP (BCD §6.1.1) | 2.3.100 (579 km) | **Furukawa Brasil**, **Corning LATAM**, **Prysmian Latam**, OFS | Mercado 2026 estimado ~$12.7M COP/km. Verificar Telcordia GR-20 + ITU-T G.652.D + ANSI/TIA-598-D código colores. |
+| 2 | Contador de ejes (Wayside ENCE) | Componente Cap 1.3 | **Frauscher**, **Siemens**, **Thales**, Voestalpine | Conceptual LFC ref: $4,720 USD/u. Validar SIL aplicable. |
+| 3 | Armario PTC en PaN (Tipo C) | Cap 4.1.x | **Hima**, **Siemens SICAS**, **Bombardier EBI Gate 200** | Conceptual LFC ref: $140k USD/u. SIL-3 vital obligatorio (FRA Part 234). |
+| 4 | UPS enclavamiento 4h+ / TETRA 24-48h | Cap 10.1, 10.5 | **Eaton**, **APC by Schneider**, **Riello**, **Hoppecke COL** (baterías LiFePO4) | BCD §10.5 manda 24-48h para TETRA (no 4h como otros bloques). |
+
+### 4.3 Instrucciones para el agente que ejecute la búsqueda
+
+1. **Buscar en orden:** (a) sitios oficiales de los proveedores, (b) bancos de precios públicos (BPA ADIF España, BoP UK, AREMA reference, FRA), (c) proyectos ferroviarios COL/LATAM recientes con datos públicos.
+2. **Salida esperada por ítem:** precio EXW/FOB en moneda original, año tarifa, alcance incluido (suministro/instalación/garantía), URL fuente, fecha de consulta.
+3. **Convertir a COP** usando TRM 4,400 (Risk) y EUR/USD 1.09 (ECB) — los mismos factores de DT-COMS-2026-007.
+4. **Aplicar factores** soberanía técnica solo si el origen es no-COL: trocha 914mm (+15-25%), logística (+12%), MO local (-10%).
+5. **Devolver el resultado** rellenando este archivo (§5 abajo) con las plantillas de los ítems #1-#4 ya existentes en `/precios_Adif.md` raíz.
+
+---
+
+## 5. RFQ recibidos (vacío — pendiente)
+
+_(El agente externo debe rellenar esta sección con cada cotización recibida. Formato: ítem WBS · proveedor · fecha · precio EUR/USD · URL · vigencia · alcance.)_
+
+---
+
+**Firmado:** Antigravity Forensic Audit Unit (SICC v14.7) + DT-COMS-2026-007 (Claude Opus 4.7)
 **Sincronización:** ✅ Alineado con `WBS_Vista_Final.html` y Michelin Baseline.
