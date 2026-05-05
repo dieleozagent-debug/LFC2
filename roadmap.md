@@ -30,6 +30,7 @@
 | **Bloque C UI/UX consolidado** (C1+C2+C3+C4+C5+C6): Vista Final como vista canónica única con barra L4 secundaria (AIU · Acta · Validación Cap.4 · Zero-Residue · RFQ) en modales inline + Excel 7 hojas (incluye estilo Costo_proyecto.xlsx en Hoja 3 con TRM en M1 y fórmulas $M$1). 4 redirects (WBS_COMPLETA_TODO_v4.0 + duplicado + Controles_L4 + Presupuesto_SCC) → Vista_Final. Index.html migrado a Universo A (count-items desde wbs_presupuestal_datos.js). | turno actual |
 | **Sincronización post-Q2/Q3 al .js (D12 cerrado)**: 7 renames aplicados al `wbs_presupuestal_datos.js` — 2.1.116 LiFePO4→"Bancos baterías UPS 24h (química RFQ)"; 2.2.100-104 + 6.1.102 "Red Vital IP / TETRA"→"red móvil broadband ferroviaria (complemento TETRA)"; eliminado "ZR-Optics Compatible" residuo de Antigravity. Eliminados ítems vacíos 4.3.101 y 4.3.102 (cant=0, total=$0). **135 → 133 ítems**. Cache bumped a v=14.7.5. WBS_Presupuestal_v4_0_MICHELIN.md sincronizado. | turno actual |
 | **Validación cruzada Ardanuy** (Bloque D abierto): comparación contra `LFC-U2-CTSC-ED-QTO-CO-0001` documentada en `precios_Adif_COMPLETO.md §5`. Total convergente al 3% pero composición divergente. Gaps identificados → DT-COMS-2026-008 propuesta. | turno actual |
+| **Excel entregable v2 FINAL cerrado (Q2+Q4)**: Hoja 1 con columna USD@TRM real 3,637 + bloque EXPOSICIÓN CAMBIARIA citando Ardanuy ($66.4M @ ~3,800); Hoja 6 RFQ con ítem 2.1.116 baterías UPS 24h TETRA (Hoppecke/Saft/EnerSys/BYD); Hoja 1 C18 EUR/COP=4,796 con fórmula `=C16*C17`; formato condicional Ratificación/RFQ urgente en col E. Constante `TRM_REAL=3637` en Vista_Final. Validación 7/7 OK. **Archivo `Presupuesto_SCC_LFC2_2026-05-05 (4).xlsx` versionado en `X_ENTREGABLES_CONSOLIDADOS/`**. | `d55e653` |
 
 ---
 
@@ -118,7 +119,7 @@
 | D4 | **Duplicación ID DT-015**: existen 2 archivos con mismo ID y contenido distinto (`DT-SICC-2026-015.md` energía LiFePO4 + `DT-SICC-2026-015_Blindaje_Fibra_Backbone.md` fibra G.652.D). | Renombrar el de energía a `DT-ENRG-2026-XXX_Saneamiento_LiFePO4.md` (prefijo canónico ENRG). Verificar que ningún YAML de otra DT lo referencie por ID. |
 | D5 | **Direccionalidad sync**: `lfc-cli sync` regenera `.js` desde `.md`. Si el `.md` está incompleto, **destruye el dataset** (caso 2026-05-05: 135→30 ítems). | Invertir flujo: `.js` es SSoT, `.md` se deriva. O agregar guardia: si `count(items)` post-sync < pre-sync, abortar. |
 | D6 | **Excel hoja 4 de `WBS_Vista_Final`** dice hardcoded "133 ítems". | Parametrizar a `data.length`. |
-| D7 | **TRM real "3,637" hardcoded** en 3 lugares de `WBS_Vista_Final.html`. | Definir constante o leer de `lfc-terminology.js`. |
+| ~~D7~~ | ~~**TRM real "3,637" hardcoded** en 3 lugares de `WBS_Vista_Final.html`~~. | ✅ Cerrado en `d55e653`: constante `TRM_REAL=3637` declarada arriba del bloque de export. |
 | D8 | **Energía por bloque en WBS Cap 1/2:** el `.md` no detalla UPS 4h (PTC/CCO/PaN) vs 24-48h (TETRA) por subcap. | Anotar en notas de subcap; no urgente para entrega. |
 | D9 | **WBS Cap 1.4 (25 desvíos motorizados)**: el BCD dice "cambiavías motorizados gobernados por enclavamiento en zonas operativas". 25 / 5 ENCE = 5 motorizados por estación. Verificar contra planos AT1. | RFQ + cruce planos. |
 
