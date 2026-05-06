@@ -39,7 +39,8 @@
                 <div style="font-size: 1.8rem; font-weight: 800; color: var(--accent);" id="total-iva">…</div>
                 <div style="font-size: 0.6rem; letter-spacing: 2px; opacity: 0.5;">IVA 19%</div>
             </div>
-            <div class="premium-card" style="text-align: center; padding: 1.2rem; border: 2px solid var(--success);">
+            <div class="premium-card" style="text-align: center; padding: 1.2rem; border: 2px solid var(--success); position: relative;">
+                <span id="filtro-indicador" style="display:none; position:absolute; top:-10px; right:-10px; background:#ff4757; color:white; padding:4px 10px; border-radius:50px; font-size:0.6rem; font-weight:800; letter-spacing:1px; cursor:pointer;" onclick="limpiarFiltros()" title="Click para limpiar filtros">📊 FILTRADO</span>
                 <div style="font-size: 1.8rem; font-weight: 800; color: var(--success);" id="total-proyecto">…</div>
                 <div style="font-size: 0.6rem; letter-spacing: 2px; opacity: 0.7; color: var(--success);">TOTAL PROYECTO ⭐</div>
             </div>
@@ -210,6 +211,7 @@
 
             <div style="margin-left: auto; display: flex; gap: 1rem; align-items: center;">
                 <input type="text" id="searchBox" oninput="aplicarBusqueda(this.value)" placeholder="🔍 Buscar ítem o descripción…" style="padding: 0.5rem 1rem; border-radius: 50px; border: 1px solid var(--glass-border); background: rgba(255,255,255,0.05); color: white; font-size: 0.85rem; width: 240px;">
+                <button class="filtro-btn" onclick="limpiarFiltros()" style="font-size: 0.7rem; padding: 0.5rem 1rem;" title="Limpiar búsqueda y volver a Todos">🔄 Limpiar</button>
                 <label style="font-size: 0.7rem; color: var(--accent); font-weight: 800;">MONEDA:</label>
                 <select id="currencySwitch" onchange="toggleCurrency()" style="background: var(--accent); color: var(--primary); border: none; border-radius: 20px; padding: 0.4rem 1rem; font-weight: 800; cursor: pointer;">
                     <option value="COP">PESOS (COP)</option>
@@ -268,21 +270,64 @@
         </div>
     </div>
 
-    <!-- ADN, Dataset y Motor -->
+    <!-- ADN, Dataset, Motor y Metadata -->
     <script src="lfc-terminology.js?v=14.7.5"></script>
     <script src="sidebar-component.js?v=14.7.5"></script>
     <script src="wbs_presupuestal_datos.js?v=14.7.5"></script>
     <script src="wbs_core_logic.js?v=14.7.5"></script>
+    <script src="wbs_metadata_enriquecida.js?v=14.7.5"></script>
 
     <script>
         let wbsData = { items: [] };
         let viewCurrency = 'COP';
         let searchTerm = '';
+        let filtroCapActivo = 'todos';
+
+        // Lista hardcoded de ítems con RFQ pendiente (debe coincidir con WBS_Vista_Final modal RFQ).
+        // Actualizar aquí cuando se agreguen/quiten RFQ pendientes.
+        const RFQ_PENDIENTES = new Set([
+            '1.3.100','1.3.101','1.3.102','1.3.103','1.3.104',  // 5 ENCE — ratificación ADIF CAC020
+            '1.4.100',                                            // 25 desvíos motorizados — ratificación ADIF VEA010
+            '1.4.101',                                            // Sistema control remoto N+1 — ratificación ADIF CBB010
+            '4.1.101',                                            // Señales LED — ratificación ADIF CCA040
+            '2.3.100',                                            // Cable F.O. 48h G.652.D OSP — RFQ urgente
+            '2.1.116'                                             // Bancos baterías UPS 24h TETRA — RFQ urgente
+        ]);
+
+        // Mapeo automático capítulo → prefijo SICC para pre-selección DT
+        const CAP_A_PREFIJO = {
+            '1': 'DT-CTRL', '2': 'DT-COMS', '3': 'DT-SICC',
+            '4': 'DT-PAN',  '5': 'DT-CCO',  '6': 'DT-MR'
+        };
 
         function getTRM() {
             return (window.WBS_CORE && typeof window.WBS_CORE.getTRM === 'function')
                 ? window.WBS_CORE.getTRM()
                 : (window.LFC_TERMINOLOGY && window.LFC_TERMINOLOGY.FINANCIAL && window.LFC_TERMINOLOGY.FINANCIAL.TRM) || 4400;
+        }
+
+        function getMetadata(itemId) {
+            return (window.wbsMetadataEnriquecida && window.wbsMetadataEnriquecida.items
+                    && window.wbsMetadataEnriquecida.items[itemId]) || null;
+        }
+
+        function showToast(msg) {
+            const t = document.createElement('div');
+            t.textContent = msg;
+            t.style.cssText = 'position:fixed;bottom:30px;right:30px;background:var(--success);color:#0a192f;padding:1rem 1.5rem;border-radius:50px;font-weight:700;font-size:0.85rem;box-shadow:0 8px 24px rgba(0,0,0,0.4);z-index:9999;animation:slideUp 0.3s';
+            document.body.appendChild(t);
+            setTimeout(() => { t.style.opacity = '0'; t.style.transition = 'opacity 0.4s'; setTimeout(() => t.remove(), 400); }, 2800);
+        }
+
+        function limpiarFiltros() {
+            document.getElementById('searchBox').value = '';
+            searchTerm = '';
+            filtroCapActivo = 'todos';
+            document.querySelectorAll('.filtro-btn').forEach(btn => btn.classList.remove('activo'));
+            const todosBtn = document.querySelector('.filtro-btn');
+            if (todosBtn) todosBtn.classList.add('activo');
+            cargarWBS();
+            showToast('🔄 Filtros limpiados');
         }
 
         document.addEventListener('DOMContentLoaded', () => {
@@ -331,6 +376,9 @@
             const container = document.getElementById('wbs-container');
             container.innerHTML = '';
 
+            // Enriquecer cada item con rfq_pendiente desde la lista hardcoded
+            wbsData.items.forEach(i => { i.rfq_pendiente = RFQ_PENDIENTES.has(i.item); });
+
             const items = wbsData.items.filter(i => {
                 if (!searchTerm) return true;
                 return (i.item || '').toLowerCase().includes(searchTerm)
@@ -345,8 +393,15 @@
                 itemsPorCapitulo[cap].push(item);
             });
 
+            // Indicador "filtrado" si hay búsqueda o filtro de capítulo activo
+            const filtrando = !!searchTerm || filtroCapActivo !== 'todos';
+            const filtroIndicador = document.getElementById('filtro-indicador');
+            if (filtroIndicador) {
+                filtroIndicador.style.display = filtrando ? 'inline-flex' : 'none';
+                filtroIndicador.textContent = searchTerm ? `📊 FILTRADO: "${searchTerm}"` : '📊 FILTRADO POR CAP.';
+            }
+
             // Calcular totales con AIU+IVA usando WBS_CORE (mismo motor que Vista Final)
-            // Sobre los items filtrados por búsqueda — sin búsqueda, da el total proyecto.
             const calc = (window.WBS_CORE && typeof window.WBS_CORE.calcularAIUeIVA === 'function')
                 ? window.WBS_CORE.calcularAIUeIVA(items)
                 : { costoDirecto: items.reduce((s,x)=>s+(Number(x.total)||0),0), aiu: 0, iva: 0, total: 0 };
@@ -384,7 +439,12 @@
                 let itemsHTML = '';
                 Object.keys(subCaps).sort().forEach(sc => {
                     if (sc !== cap) {
-                        itemsHTML += `<div style="padding: 1rem 2rem; color: var(--accent); font-weight: 700; opacity: 0.6; font-size: 0.8rem; letter-spacing: 2px;">SUB-CAPÍTULO ${sc}</div>`;
+                        const subtotalSC = subCaps[sc].reduce((s,x)=>s+(Number(x.total)||0), 0);
+                        const TRMSC = getTRM();
+                        itemsHTML += `<div style="padding: 0.9rem 2rem; color: var(--accent); font-weight: 700; opacity: 0.85; font-size: 0.8rem; letter-spacing: 2px; display:flex; justify-content:space-between; background: rgba(100,255,218,0.04); border-radius:8px; margin: 0.5rem 0;">
+                            <span>SUB-CAPÍTULO ${sc} · ${subCaps[sc].length} ítems</span>
+                            <span style="opacity:0.8; font-size:0.75rem; letter-spacing:0;">subtotal ${formatVal(subtotalSC)}${viewCurrency==='COP' ? ' · $'+Math.round(subtotalSC/TRMSC).toLocaleString('en-US')+' USD' : ''}</span>
+                        </div>`;
                     }
                     itemsHTML += subCaps[sc].map(item => `
                         <div class="item-card" data-capitulo="${cap}">
@@ -439,27 +499,54 @@
         function abrirModalDT(codigo) {
             const item = wbsData.items.find(i => i.item === codigo);
             if (!item) return;
+            const meta = getMetadata(codigo);
+            const cap = (item.item || '').split('.')[0];
+            const prefijoSugerido = CAP_A_PREFIJO[cap] || 'DT-SICC';
+
             const modalBody = document.getElementById('modal-dt-body');
             document.getElementById('modal-dt-titulo').textContent = `Proponer DT — ítem ${codigo}`;
+
+            // Bloque CONTEXTO TÉCNICO (metadata enriquecida)
+            let metaHTML = '';
+            if (meta) {
+                const has = (k) => meta[k] && (Array.isArray(meta[k]) ? meta[k].length : String(meta[k]).trim());
+                metaHTML = `
+                    <div style="margin: 0 0 1.5rem 0; padding: 1.2rem; background: rgba(100,255,218,0.06); border-left: 4px solid var(--success); border-radius: 8px;">
+                        <div style="font-size: 0.7rem; letter-spacing: 2px; color: var(--success); font-weight: 700; margin-bottom: 0.8rem;">📚 CONTEXTO TÉCNICO DEL ÍTEM</div>
+                        ${has('justificacion_tecnica') ? `<div style="margin-bottom: 0.8rem;"><strong style="font-size:0.75rem; opacity:0.7;">JUSTIFICACIÓN:</strong><br><span style="font-size:0.85rem;">${meta.justificacion_tecnica}</span></div>` : ''}
+                        ${has('criterios_diseno') ? `<div style="margin-bottom: 0.8rem;"><strong style="font-size:0.75rem; opacity:0.7;">CRITERIOS DE DISEÑO:</strong><ul style="font-size:0.85rem; margin:0.3rem 0 0 1.2rem; padding:0;">${meta.criterios_diseno.map(c=>`<li>${c}</li>`).join('')}</ul></div>` : ''}
+                        ${has('supuestos') ? `<div style="margin-bottom: 0.8rem;"><strong style="font-size:0.75rem; opacity:0.7;">SUPUESTOS:</strong><ul style="font-size:0.85rem; margin:0.3rem 0 0 1.2rem; padding:0;">${meta.supuestos.map(s=>`<li>${s}</li>`).join('')}</ul></div>` : ''}
+                        ${has('decisiones_tecnicas') ? `<div style="margin-bottom: 0.8rem;"><strong style="font-size:0.75rem; opacity:0.7;">DTs PREVIAS:</strong><ul style="font-size:0.85rem; margin:0.3rem 0 0 1.2rem; padding:0;">${meta.decisiones_tecnicas.map(d=>`<li>${d}</li>`).join('')}</ul></div>` : ''}
+                        ${has('documentos_ingenieria') ? `<div style="margin-bottom: 0.8rem;"><strong style="font-size:0.75rem; opacity:0.7;">DOCUMENTOS:</strong> <span style="font-size:0.8rem; opacity:0.85;">${meta.documentos_ingenieria.join(' · ')}</span></div>` : ''}
+                        ${has('feedback_especialista') ? `<div><strong style="font-size:0.75rem; opacity:0.7;">FEEDBACK:</strong><br><em style="font-size:0.85rem;">${meta.feedback_especialista}</em></div>` : ''}
+                        <div style="margin-top: 0.8rem; font-size: 0.7rem; opacity: 0.5;">Última actualización: ${meta.ultima_actualizacion || 'N/A'} · ${meta.actualizado_por || ''}</div>
+                    </div>`;
+            } else {
+                metaHTML = `<div style="margin: 0 0 1.5rem 0; padding: 1rem; background: rgba(255,165,2,0.08); border-left: 4px solid #ffa502; border-radius: 8px; font-size: 0.85rem;">
+                    ⚠️ <strong>Sin metadata enriquecida</strong> para este ítem. La DT que generes será la primera entrada de contexto técnico para ${codigo}.
+                </div>`;
+            }
+
             modalBody.innerHTML = `
                 <div class="form-group">
                     <label class="form-label">Ítem · descripción actual:</label>
                     <div style="padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 8px; font-size: 0.9rem;">
                         <strong>${item.item}</strong> · ${item.descripcion}<br>
-                        <span style="opacity: 0.6; font-size: 0.8rem;">Cantidad: ${item.cantidad} ${item.unidad} · VU: $${Number(item.vu).toLocaleString('es-CO')} · Total: $${Number(item.total).toLocaleString('es-CO')}</span>
+                        <span style="opacity: 0.6; font-size: 0.8rem;">Cantidad: ${item.cantidad} ${item.unidad} · VU: $${Number(item.vu).toLocaleString('es-CO')} · Total: $${Number(item.total).toLocaleString('es-CO')} · Tipo: ${item.tipo || 'SUMINISTRO'} · Cap. ${cap}</span>
                     </div>
                 </div>
+                ${metaHTML}
                 <div class="form-group">
-                    <label class="form-label">Prefijo de DT (categoría SICC):</label>
+                    <label class="form-label">Prefijo de DT (categoría SICC) — pre-seleccionado por capítulo:</label>
                     <select id="dt-prefijo" class="form-control">
-                        <option value="DT-COMS">DT-COMS · Comunicaciones</option>
-                        <option value="DT-CTRL">DT-CTRL · Control y Señalización</option>
-                        <option value="DT-PAN">DT-PAN · Pasos a Nivel</option>
-                        <option value="DT-CCO">DT-CCO · Centro de Control</option>
-                        <option value="DT-MR">DT-MR · Material Rodante</option>
-                        <option value="DT-ENRG">DT-ENRG · Energía</option>
-                        <option value="DT-PMO">DT-PMO · Gestión / Contractual</option>
-                        <option value="DT-SICC">DT-SICC · Doctrinal transversal</option>
+                        <option value="DT-CTRL"${prefijoSugerido==='DT-CTRL'?' selected':''}>DT-CTRL · Control y Señalización (Cap 1)</option>
+                        <option value="DT-COMS"${prefijoSugerido==='DT-COMS'?' selected':''}>DT-COMS · Comunicaciones (Cap 2)</option>
+                        <option value="DT-SICC"${prefijoSugerido==='DT-SICC'?' selected':''}>DT-SICC · Doctrinal transversal (Cap 3 / cualquier área)</option>
+                        <option value="DT-PAN"${prefijoSugerido==='DT-PAN'?' selected':''}>DT-PAN · Pasos a Nivel (Cap 4)</option>
+                        <option value="DT-CCO"${prefijoSugerido==='DT-CCO'?' selected':''}>DT-CCO · Centro de Control (Cap 5)</option>
+                        <option value="DT-MR"${prefijoSugerido==='DT-MR'?' selected':''}>DT-MR · Material Rodante (Cap 6)</option>
+                        <option value="DT-ENRG">DT-ENRG · Energía (transversal UPS/baterías/red eléctrica)</option>
+                        <option value="DT-PMO">DT-PMO · Gestión / Contractual (no-técnico)</option>
                     </select>
                 </div>
                 <div class="form-group">
@@ -541,7 +628,7 @@
         function copiarDTaPortapapeles() {
             const txt = window._dtPlantillaActual || '';
             if (!txt) return;
-            navigator.clipboard.writeText(txt).then(() => alert('Plantilla DT copiada. Pegala en una nueva DT en /agente/brain/dictamenes/ o en el dashboard SICC.'));
+            navigator.clipboard.writeText(txt).then(() => showToast('📋 Plantilla DT copiada al portapapeles'));
         }
 
         function generarDTNuevoCapitulo() {
