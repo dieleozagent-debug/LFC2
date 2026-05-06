@@ -26,19 +26,19 @@
     },
     {
       "source": "/wbs",
-      "destination": "/IX_WBS_Planificacion/WBS_COMPLETA_TODO_Interactiva_v4.0.html"
+      "destination": "/IX_WBS_Planificacion/WBS_COMPLETA_TODO_Interactiva_v4.0"
     },
     {
       "source": "/vista",
-      "destination": "/IX_WBS_Planificacion/WBS_Vista_Final.html"
+      "destination": "/IX_WBS_Planificacion/WBS_Vista_Final"
     },
     {
       "source": "/reporte",
-      "destination": "/IX_WBS_Planificacion/WBS_Reporte_Gerencial.html"
+      "destination": "/IX_WBS_Planificacion/WBS_Reporte_Gerencial"
     },
     {
       "source": "/riesgos",
-      "destination": "/IX_WBS_Planificacion/WBS_Analisis_Riesgos.html"
+      "destination": "/IX_WBS_Planificacion/WBS_Analisis_Riesgos"
     },
     {
       "source": "/entregables",
