@@ -94,14 +94,14 @@ Desde 2026-05-05, la arquitectura se rige por el **BCD v001 (Ardanuy, abril 2026
 
 | HTML | Estado | Notas |
 |---|---|---|
-| **`WBS_Vista_Final.html`** | ⭐ **Vista canónica única** | Universo A (135 ítems) + motor `wbs_core_logic`. Excel 7 hojas + 5 modales L4 (AIU, Acta, Validación Cap.4, Zero-Residue, Pendientes RFQ). Estilo `Costo_proyecto.xlsx` en Hoja 3 (TRM en M1, fórmulas `$M$1`). |
-| `WBS_Menu_Principal.html` | Hub navegación | Acceso secundario para exploración granular (Cronograma, Riesgos, Reporte, Auditoría, etc.) |
+| **`WBS_Vista_Final.html`** | ⭐ **Vista canónica gerencial** | Universo A (133 ítems) + motor `wbs_core_logic`. Excel 7 hojas + 5 modales L4 (AIU, Acta, Validación Cap.4, Zero-Residue, Pendientes RFQ). Estilo `Costo_proyecto.xlsx` en Hoja 3 (TRM en M1, fórmulas `$M$1`). **Para el gerente / banca / ANI.** |
+| **`WBS_COMPLETA_TODO_Interactiva_v4.0.html`** | 🛠️ **Vista del técnico** (rescatada Bloque E) | Universo A migrado · 133 ítems navegables por capítulo + búsqueda + toggle COP/USD + **Generador de DT por ítem** (8 prefijos SICC: COMS/CTRL/PAN/CCO/MR/ENRG/PMO/SICC) + **Generador de DT para nuevo capítulo**. Plantilla DT exportable en markdown al portapapeles. **Para el técnico que propone cambios.** |
+| `WBS_Reporte_Gerencial.html` | Activo BCD-aligned | KPIs vivos desde `WBS_CORE` + comparativa contractual (Estructuración Grupo Ortiz / LFC / Ardanuy) + 3 escenarios + 5 riesgos contractuales. Reporte L1. |
+| `WBS_Analisis_Riesgos.html` | Activo · 22 riesgos | `riesgos_wbs.js` con 5 críticos del momento (Interventoría AT1, Ardanuy performance, Ardanuy FO, RFQ, TRM). |
+| `WBS_Menu_Principal.html` | Hub navegación (deuda E6) | Acceso secundario. Pendiente: limpieza de pills "v6.0 PREMIUM/B.R.A.I.N." + cifras vivas + reapuntar hero al WBS Interactivo rescatado. |
 | `WBS_Cronograma_Propuesta.html` | Activo | Universo A + `cronograma_datos.js`. Gantt. Hardcoded parcial (deuda backlog) |
 | `WBS_EDT_Detalle.html` | Activo | Universo B + `wbs_metadata_enriquecida.js`. EDT por ítem (deuda D3: migrar a A) |
-| `WBS_Analisis_Riesgos.html` | Activo | `riesgos_wbs.js`. Hardcoded (deuda backlog) |
-| `WBS_Reporte_Gerencial.html` | Activo | `reporte_gerencial_data.js`. Reporte L1 |
-| `WBS_COMPLETA_TODO_Interactiva_v4.0.html` | 🔀 **Redirect** | Era Universo B. Ahora `<meta refresh>` 2s → Vista_Final |
-| `WBS_COMPLETA_TODO_Interactiva_v4_0.html` | 🔀 **Redirect** | Duplicado consolidado |
+| `WBS_COMPLETA_TODO_Interactiva_v4_0.html` | 🔀 **Redirect** | Duplicado consolidado → Vista_Final |
 | `WBS_Controles_Operativos_L4.html` | 🔀 **Redirect** | Botones L4 movidos a Vista Final como modales |
 | `WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguana.html` | 🔀 **Redirect** | Era redundante con Vista Final |
 
@@ -111,17 +111,19 @@ La trampa donde el sidebar y el index linkeaban al **Universo B legacy** con cif
 
 1. **`sidebar-component.js:20`** ahora linkea "🚀 WBS Certificada v14.7" → `WBS_Vista_Final.html` (Universo A).
 2. **`index.html`**: primer access-card es ahora "⭐ Presupuesto SCC — Vista Final" → `WBS_Vista_Final.html`. Migrado de cargar `datos_wbs_TODOS_items.js` (Universo B) a `wbs_presupuestal_datos.js` (Universo A) para `count-items`.
-3. **3 HTMLs Universo B + 1 redundante Universo A** convertidos a redirects HTML (`<meta refresh>` 2s + mensaje + botón) que apuntan a `WBS_Vista_Final.html`:
-   - `WBS_COMPLETA_TODO_Interactiva_v4.0.html` (Universo B)
+3. **2 HTMLs Universo B + 1 redundante Universo A + 1 botones consolidados** convertidos a redirects HTML (`<meta refresh>` 2s + mensaje + botón):
    - `WBS_COMPLETA_TODO_Interactiva_v4_0.html` (duplicado)
    - `WBS_Controles_Operativos_L4.html` (botones movidos a Vista Final)
    - `WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguana.html` (redundante con Vista Final)
+4. **`WBS_COMPLETA_TODO_Interactiva_v4.0.html` rescatado en Bloque E** (turno 2026-05-05 vespertino): el redirect del Bloque C era prematuro — esa vista era la única con generador de DT por ítem y por capítulo. Migrado de Universo B a A (mapeo `codigo→item`, `vu_cop→vu`, `total_cop→total`, `wbsData.items→wbsDataPresupuestal`), TRM dinámica desde `WBS_CORE.getTRM()`, plantilla DT enriquecida con 8 prefijos SICC + delta presupuestal + exportable a markdown. **Lección aprendida:** auditar funcionalidad antes de consolidar, no solo data servida.
 
 **Reglas operativas vigentes:**
-1. La línea base certificada es **A** (`wbs_presupuestal_datos.js`, 135 ítems). Motor canónico: `wbs_core_logic.js`. TRM canónica: `lfc-terminology.js` `FINANCIAL.TRM = 4400`.
-2. Vista canónica: `WBS_Vista_Final.html`. Cualquier otra URL es redirect o navegación detallada (Hub).
+1. La línea base certificada es **A** (`wbs_presupuestal_datos.js`, **133 ítems**). Motor canónico: `wbs_core_logic.js`. TRM canónica: `lfc-terminology.js` `FINANCIAL.TRM = 4400`.
+2. **Doble entrada al sistema (no una sola):**
+   - `WBS_Vista_Final.html` para gerencia / banca / ANI (resumen ejecutivo + Excel 7 hojas).
+   - `WBS_COMPLETA_TODO_Interactiva_v4.0.html` para el técnico que propone cambios (tabla por ítem + generador de DT).
 3. Antes de tocar el `.js`, leer §Criterios Maestros del BCD v001 (más arriba). El `.js` es SSoT de dataset (L7). El `.md` (`WBS_Presupuestal_v4_0_MICHELIN`) se sincroniza desde el `.js`, no al revés (deuda D5 del roadmap).
-4. **Pendiente**: eliminar físicamente los archivos del Universo B en cuanto se confirme que ningún proceso del agente los referencia. Por ahora son redirects vivos.
+4. **Pendiente**: eliminar físicamente el archivo `datos_wbs_TODOS_items.js` (Universo B) en cuanto se confirme que ningún proceso del agente lo referencia. La vista Interactiva ya migró.
 
 ---
 
@@ -204,11 +206,14 @@ FASE 4:    APROBADO → brain/dictamenes/ + vectorización + /promote
 
 | Flujo | Estado | Comentario |
 |---|---|---|
-| DT → Presupuesto Universo A | ✅ | `wbs_presupuestal_datos.js` actualizado vía `sincronizar_TODO`. WBS_Vista_Final consume en vivo. |
-| Vista Final entregable (Vercel) | ✅ | 135 ítems, AIU 33% + IVA 19% calculados en tiempo real. Excel 4 hojas. |
+| DT → Presupuesto Universo A | ✅ | `wbs_presupuestal_datos.js` actualizado vía `sincronizar_TODO`. WBS_Vista_Final + WBS Interactiva consumen en vivo. |
+| Vista Final entregable (Vercel) | ✅ | 133 ítems, AIU 33% + IVA 19% calculados en tiempo real. Excel 7 hojas. |
+| **WBS Interactiva con generador DT (Vercel)** | ✅ Bloque E | 133 ítems navegables · search · COP/USD · plantilla DT por ítem y nuevo capítulo · 8 prefijos SICC. |
+| Reporte Gerencial BCD-aligned (Vercel) | ✅ | KPIs vivos · comparativa Estructuración/LFC/Ardanuy · 3 escenarios · 5 riesgos contractuales. |
+| Análisis de Riesgos (Vercel) | ✅ | 22 riesgos · 5 críticos del momento incluido R-ARDANUY-PERF-001 (incumplimiento Ardanuy día 98/270). |
 | Pipeline forense `/audit` | ✅ | Tridente NVIDIA NIM emite DTs certificadas en `brain/dictamenes/`. |
 | CI/CD `/promote` | ✅ | `gitlocal.js` copia DT → LFC2 → push GitHub → Vercel auto-deploy. |
-| Cache-busting | ✅ | Universo A: `?v=14.7.3`. |
+| Cache-busting | ✅ | Universo A: `?v=14.7.5`. |
 
 ### ⚠️ Parcial / con desincronización
 

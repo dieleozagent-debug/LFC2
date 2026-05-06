@@ -72,27 +72,23 @@
 
 ---
 
-### Bloque E — Rescatar WBS Interactivo con generación de DT (regresión del Bloque C)
+### Bloque E — Rescatar WBS Interactivo con generación de DT (regresión del Bloque C) ✅ E1-E5 CERRADOS en commit pendiente
 
 > **Diagnóstico (2026-05-05):** En el Bloque C (commit `5cbe10f`) se convirtió `WBS_COMPLETA_TODO_Interactiva_v4.0.html` (624 líneas) a redirect `<meta refresh>` → Vista_Final por estar sirviendo Universo B (cifras pre-purga FENOCO). **Pero esa vista era la que daba al técnico la tabla por ítem + botón "Generar DT"** que Vista_Final NO replica. La consolidación fue prematura: se mató funcionalidad en lugar de migrarla. El gerente abre Vista_Final (resumen por capítulo + Excel), el técnico necesita la tabla cruda con generación de DT.
 
 **Archivo a rescatar:** `IX_WBS_Planificacion/WBS_COMPLETA_TODO_Interactiva_v4.0.html` versión `5cbe10f~1` (commit `21d5afa` o anterior).
 
 **Tareas:**
-- [ ] **E1** — Recuperar contenido pre-redirect desde git: `git show 5cbe10f~1:IX_WBS_Planificacion/WBS_COMPLETA_TODO_Interactiva_v4.0.html`.
-- [ ] **E2** — Migrar dataset de **Universo B** (`datos_wbs_TODOS_items.js`, schema `codigo/vu_cop/total_cop`, 124 ítems pre-purga) a **Universo A** (`wbs_presupuestal_datos.js`, schema `item/vu/total`, 133 ítems post Q2/Q3). Mapeo:
-  - `codigo` → `item`
-  - `vu_cop` → `vu`
-  - `total_cop` → `total`
-  - `descripcion` (ya cuadra)
-  - Cap 1.1.103 = $11,000M (post-purga FENOCO Sec 25.4) en lugar de $63,112M legacy.
-- [ ] **E3** — Reapuntar imports a `wbs_presupuestal_datos.js?v=14.7.5` y `wbs_core_logic.js?v=14.7.5`. Cambiar `window.datos_wbs.items` → `window.wbsDataPresupuestal`.
-- [ ] **E4** — Auditar el flujo "Generar DT" (botones onclick, prefijos, plantilla DT generada). Validar que el output sea compatible con la convención SICC v14.7 (ID `DT-XXX-2026-NNN`, items_wbs_afectados, fundamento L1-L5).
-- [ ] **E5** — Reemplazar el redirect actual por el HTML migrado. Mantener acceso vía `WBS_COMPLETA_TODO_Interactiva_v4.0.html` (URL ya conocida y linkeada externamente).
-- [ ] **E6** — Reescribir `WBS_Menu_Principal.html`: hero apunta al WBS Interactivo rescatado (es lo que el técnico abre), Vista_Final pasa a card secundario "Resumen ejecutivo gerencial". Borrar Brain Feed con insights ficticios. Limpiar pills "v4.0 PREMIUM/v6.0/B.R.A.I.N." Bumpear cache a v=14.7.5. Cifras vivas (133 ítems, 22 riesgos).
-- [ ] **E7** — Cerrar redirects de `_v4_0.html` (duplicado), `Controles_L4.html` y `Presupuesto_SCC_APP_La_Dorada_Chiriguana.html` — esos sí pueden seguir como redirect a Vista_Final, no tenían generación de DT.
+- [x] **E1** — Recuperado contenido pre-redirect (624 líneas, 13 menciones DT, 15 elementos tabla). Confirmado: 95% lógica dinámica desde dataset, único hardcode era `const TRM = 4400`.
+- [x] **E2** — Dataset migrado Universo B → A. Mapeo aplicado: `codigo→item`, `vu_cop→vu`, `total_cop→total`, `window.datos_wbs.items→window.wbsDataPresupuestal`. Cap 1.1.103 muestra $11,000M (post-purga) en vivo.
+- [x] **E3** — Imports actualizados: `wbs_presupuestal_datos.js?v=14.7.5` + `wbs_core_logic.js?v=14.7.5` + `lfc-terminology.js?v=14.7.5` + `sidebar-component.js?v=14.7.5`. TRM dinámica desde `WBS_CORE.getTRM()` con fallback a `LFC_TERMINOLOGY.FINANCIAL.TRM`.
+- [x] **E4** — Flujo "Generar DT" enriquecido vs versión legacy: selector de **8 prefijos SICC** (COMS/CTRL/PAN/CCO/MR/ENRG/PMO/SICC) en lugar de ID hardcoded; placeholder pidiendo cita normativa (BCD §X · AT1 Tabla Y · ADIF · Ardanuy); cantidad y VU editables por separado con recálculo automático; **delta presupuestal** en COP+USD coloreado (rojo/verde); **plantilla DT exportable a markdown** copiable al portapapeles con secciones estándar (justificación, cambio en tabla, checklist de aplicación al WBS).
+- [x] **E5** — HTML migrado reemplaza el redirect. Acceso vivo en URL original `/IX_WBS_Planificacion/WBS_COMPLETA_TODO_Interactiva_v4.0`.
+- [x] **Mejoras adicionales aplicadas:** búsqueda por texto (item/descripción/tipo), pills por tipo (SUMINISTRO/OBRA/SERVICIO con colores), pill "RFQ pendiente" condicional, subtotal por capítulo en header, KPI "TOTAL COP" agregado al stats-bar.
+- [ ] **E6** — Reescribir `WBS_Menu_Principal.html`: hero apunta al WBS Interactivo rescatado, Vista_Final pasa a card secundario. Borrar Brain Feed con insights ficticios. Limpiar pills "v4.0 PREMIUM/v6.0/B.R.A.I.N." Bumpear cache a v=14.7.5. Cifras vivas. **Pendiente próxima sesión.**
+- [x] **E7** — Redirects de `_v4_0.html` (duplicado), `Controles_L4.html` y `Presupuesto_SCC_APP_La_Dorada_Chiriguana.html` confirmados como redirect a Vista_Final (no tenían generación de DT).
 
-**Lección aprendida:** antes de "consolidar" una vista frontend en favor de otra, auditar funcionalidad pieza a pieza, no solo data servida. La métrica "líneas de código" no captura "valor para el usuario".
+**Lección aprendida:** antes de "consolidar" una vista frontend en favor de otra, auditar funcionalidad pieza a pieza, no solo data servida. La métrica "líneas de código" no captura "valor para el usuario". Bloque C consolidó por data servida; Bloque E corrige por funcionalidad rescatada.
 
 ### Bloque B — Flujo agente / enjambre y validación DT por ítem WBS
 - [ ] Revisar pipeline `agente/architecture.md` FASE-0 a FASE-5 contra escenario real (Tridente NVIDIA NIM saturado, NVIDIA NIM down, Gemini 429).

@@ -27,20 +27,28 @@ Este repositorio constituye el **Ecosistema de Ingeniería SICC** para el proyec
 
 ## INICIO RÁPIDO - TORRE DE CONTROL
 
-### Vista canónica (lo que usa el gerente y se entrega a ANI)
-⭐ **[Presupuesto SCC — Vista Final](IX_WBS_Planificacion/WBS_Vista_Final.html)** · línea base v14.7 BCD-aligned · 135 ítems
+### Doble entrada — gerencia y técnico
 
-Incluye:
-- 📊 **Excel descargable de 7 hojas**: Total General · Por Capítulo · **Detalle Ítems** (estilo Costo_proyecto.xlsx, TRM en M1, fórmulas A1 con `$M$1`) · **Obra Civil vs Compras** (Acta de Obra) · **AIU Desglose** · **Pendientes RFQ** (lo que pasa a Compras / Integradora) · Fuentes y Notas
+⭐ **[Presupuesto SCC — Vista Final](IX_WBS_Planificacion/WBS_Vista_Final.html)** — *Para gerencia, banca y ANI*
+- Línea base v14.7 BCD-aligned · **133 ítems**
+- 📊 **Excel descargable de 7 hojas**: Total General · Por Capítulo · **Detalle Ítems** (estilo Costo_proyecto.xlsx, TRM en M1, fórmulas A1 con `$M$1`) · **Obra Civil vs Compras** (Acta de Obra) · **AIU Desglose** · **Pendientes RFQ** · Fuentes y Notas
 - 5 modales L4 inline: 💰 Desglose AIU · 📝 Acta de Obra · ⚠️ Validación Cap. 4 · 🧮 Zero-Residue · 📋 Pendientes RFQ
 - Tabla por capítulo + 4 cards resumen (Costo Directo · AIU · IVA · Total)
 
+🛠️ **[WBS Interactiva con generador de DT](IX_WBS_Planificacion/WBS_COMPLETA_TODO_Interactiva_v4.0.html)** — *Para el técnico que propone cambios*
+- 133 ítems navegables por capítulo + búsqueda + toggle COP/USD
+- Botón **"PROPONER DT"** por ítem → modal con 8 prefijos SICC (COMS / CTRL / PAN / CCO / MR / ENRG / PMO / SICC), justificación técnica con cita normativa, delta presupuestal en COP+USD
+- Botón **"➕ Nuevo Capítulo"** → genera DT-NEWCAP para proponer alcance nuevo
+- Plantilla DT exportable a markdown al portapapeles, lista para pegar en `/agente/brain/dictamenes/` o redactar el `.md` formal
+
 ### Portales y herramientas
 *   [🏠 Sovereign Tower Dashboard](index.html) — primer card linkea directo a Vista Final
+*   [📋 Reporte Gerencial](IX_WBS_Planificacion/WBS_Reporte_Gerencial.html) — KPIs vivos, comparativa Estructuración/LFC/Ardanuy, 3 escenarios, 5 riesgos contractuales
+*   [⚠️ Análisis de Riesgos](IX_WBS_Planificacion/WBS_Analisis_Riesgos.html) — 22 riesgos · 5 críticos del momento (Interventoría AT1, Ardanuy performance, Ardanuy FO, RFQ, TRM)
 *   [🎯 WBS Hub](IX_WBS_Planificacion/WBS_Menu_Principal.html) — navegación detallada (Cronograma, Riesgos, Reporte, Auditoría)
 *   [🍽️ Platos Servidos (Entregables)](X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/HTML/INDICE_Documentos_Servidos.html)
 
-> **Nota:** Las URLs antiguas `WBS_COMPLETA_TODO_Interactiva_v4.0`, `WBS_COMPLETA_TODO_Interactiva_v4_0`, `WBS_Controles_Operativos_L4`, `WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguana` están consolidadas como **redirects** automáticos hacia la Vista Final (commit `5cbe10f`).
+> **Nota:** Las URLs `WBS_COMPLETA_TODO_Interactiva_v4_0`, `WBS_Controles_Operativos_L4`, `WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguana` siguen como **redirects** automáticos hacia la Vista Final (commit `5cbe10f`). La URL `WBS_COMPLETA_TODO_Interactiva_v4.0` fue **rescatada** del redirect en el Bloque E (turno vespertino 2026-05-05) por ser la única vista con generador de DT.
 
 ---
 

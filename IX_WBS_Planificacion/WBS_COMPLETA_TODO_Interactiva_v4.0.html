@@ -1,28 +1,574 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="refresh" content="2; url=WBS_Vista_Final.html">
-<title>Redirigiendo a Vista Final…</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap">
-<style>
-body{font-family:'Inter',sans-serif;background:linear-gradient(135deg,#0a192f,#112240);color:#e6f1ff;text-align:center;padding:80px 20px;margin:0;min-height:100vh;}
-.box{max-width:640px;margin:0 auto;background:rgba(255,255,255,0.05);padding:40px;border-radius:14px;border:1px solid rgba(255,255,255,0.1);backdrop-filter:blur(8px);}
-h1{color:#ffd700;font-weight:800;margin-top:0;}
-p{line-height:1.6;}
-.note{opacity:0.7;font-size:13px;background:rgba(220,53,69,0.1);border-left:3px solid #dc3545;padding:12px 16px;border-radius:6px;text-align:left;margin:20px 0;}
-.btn{display:inline-block;margin-top:20px;background:#ffd700;color:#0a192f;padding:14px 32px;border-radius:8px;text-decoration:none;font-weight:800;letter-spacing:0.5px;}
-.btn:hover{background:#ffea7e;}
-.tiny{margin-top:24px;font-size:11px;opacity:0.5;}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WBS Interactiva — LFC2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="wbs-shared.css">
 </head>
 <body>
-<div class="box">
-<h1>🔀 Vista consolidada</h1>
-<p>La <strong>WBS Interactiva v4.0</strong> fue consolidada en <strong>WBS Vista Final</strong> el 2026-05-05.</p>
-<div class="note">⚠️ Este archivo cargaba el <strong>Universo B legacy</strong> (<code>datos_wbs_TODOS_items.js</code>) con cifras pre-purga FENOCO Sec 25.4 (1.1.103 = $63,112M). La línea base certificada SICC v14.7 vive en <code>wbs_presupuestal_datos.js</code> (135 ítems, 1.1.103 = $11,000M post-purga) y se sirve desde <code>WBS_Vista_Final.html</code>.</div>
-<a class="btn" href="WBS_Vista_Final.html">→ Ir a la Vista Final certificada</a>
-<p class="tiny">Redirección automática en 2 segundos · roadmap.md C5</p>
-</div>
+    <div id="lfc-sidebar-container"></div>
+    <div class="main-content-wrapper">
+        <div class="premium-card" style="margin-bottom: 3rem; position: relative; overflow: hidden;">
+            <div id="adn-version-tag" style="position: absolute; top: 10px; right: 20px; font-size: 0.6rem; letter-spacing: 2px; opacity: 0.5;">CARGANDO ADN...</div>
+            <h1 class="premium-title" id="main-dns-title">WBS INTERACTIVA</h1>
+            <p id="main-dns-subtitle" style="opacity: 0.7; font-weight: 300;">Cargando configuración...</p>
+        </div>
+
+        <div class="stats-bar" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
+            <div class="premium-card" style="text-align: center; padding: 1.5rem;">
+                <div style="font-size: 2rem; font-weight: 800; color: var(--accent);" id="total-items">0</div>
+                <div style="font-size: 0.6rem; letter-spacing: 2px; opacity: 0.5;">ÍTEMS TOTALES</div>
+            </div>
+            <div class="premium-card" style="text-align: center; padding: 1.5rem;">
+                <div style="font-size: 2rem; font-weight: 800; color: var(--accent);" id="total-capitulos">6</div>
+                <div style="font-size: 0.6rem; letter-spacing: 2px; opacity: 0.5;">CAPÍTULOS</div>
+            </div>
+            <div class="premium-card" style="text-align: center; padding: 1.5rem;">
+                <div style="font-size: 2rem; font-weight: 800; color: var(--accent);" id="total-modificables">0</div>
+                <div style="font-size: 0.6rem; letter-spacing: 2px; opacity: 0.5;">MODIFICABLES</div>
+            </div>
+            <div class="premium-card" style="text-align: center; padding: 1.5rem;">
+                <div style="font-size: 2rem; font-weight: 800; color: var(--accent);" id="total-cop">…</div>
+                <div style="font-size: 0.6rem; letter-spacing: 2px; opacity: 0.5;">TOTAL COP</div>
+            </div>
+        </div>
+
+        <div class="premium-card" style="margin-bottom: 2rem; display: flex; gap: 1rem; flex-wrap: wrap; align-items: center;">
+            <style>
+                .filtro-btn {
+                    padding: 0.6rem 1.2rem;
+                    border: 1px solid var(--glass-border);
+                    background: rgba(255,255,255,0.05);
+                    color: white;
+                    border-radius: 50px;
+                    cursor: pointer;
+                    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+                    font-size: 0.8rem;
+                    font-weight: 600;
+                    backdrop-filter: blur(4px);
+                }
+                .filtro-btn:hover, .filtro-btn.activo {
+                    background: var(--accent);
+                    color: var(--primary);
+                    border-color: var(--accent);
+                    transform: translateY(-2px);
+                    box-shadow: 0 4px 15px var(--accent-transparent);
+                }
+                .capitulo-seccion { margin-bottom: 2rem; }
+                .capitulo-header {
+                    background: var(--glass-bg);
+                    backdrop-filter: blur(10px);
+                    padding: 1.5rem 2rem;
+                    border-radius: 20px;
+                    border: 1px solid var(--glass-border);
+                    cursor: pointer;
+                    margin-bottom: 1.5rem;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    transition: all 0.4s;
+                }
+                .capitulo-header:hover { border-color: var(--accent); background: var(--card-bg-hover); }
+                .capitulo-titulo { font-size: 1.2rem; font-weight: 800; color: var(--accent); letter-spacing: 1px; }
+                .item-card {
+                    background: rgba(255, 255, 255, 0.03);
+                    border: 1px solid var(--glass-border);
+                    border-radius: 12px;
+                    padding: 1.2rem;
+                    margin-bottom: 0.8rem;
+                    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+                    display: grid;
+                    grid-template-columns: 80px 1fr 250px 120px;
+                    align-items: center;
+                    gap: 1.5rem;
+                }
+                .item-card:hover {
+                    border-color: var(--accent);
+                    transform: translateX(5px);
+                    background: rgba(255,255,255,0.06);
+                }
+                .item-codigo { font-family: monospace; font-weight: 800; color: var(--accent); font-size: 1rem; }
+                .item-descripcion { font-size: 0.95rem; line-height: 1.6; opacity: 0.9; }
+                .oculto { display: none !important; }
+
+                .modal {
+                    display: none;
+                    position: fixed;
+                    z-index: 3000;
+                    left: 0; top: 0;
+                    width: 100%; height: 100%;
+                    overflow: auto;
+                    background-color: rgba(10, 25, 47, 0.85);
+                    backdrop-filter: blur(15px);
+                }
+                .modal-content {
+                    background: var(--glass-bg);
+                    margin: 5% auto;
+                    padding: 0;
+                    border: 1px solid var(--glass-border);
+                    width: 90%;
+                    max-width: 800px;
+                    border-radius: 24px;
+                    box-shadow: 0 25px 50px rgba(0,0,0,0.5);
+                    animation: slideUp 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+                    position: relative;
+                    overflow: hidden;
+                }
+                @keyframes slideUp { from { transform: translateY(30px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+                .modal-header { padding: 2rem; background: rgba(255,255,255,0.03); border-bottom: 1px solid var(--glass-border); display: flex; justify-content: space-between; align-items: center; }
+                .modal-header h2 { margin: 0; color: var(--accent); font-size: 1.5rem; font-weight: 800; }
+                .modal-body { padding: 2rem; }
+                .form-group { margin-bottom: 1.5rem; }
+                .form-label { display: block; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0.6rem; color: var(--accent); opacity: 0.8; }
+                .form-control {
+                    width: 100%;
+                    padding: 1rem 1.2rem;
+                    background: rgba(255,255,255,0.05);
+                    border: 1px solid var(--glass-border);
+                    border-radius: 12px;
+                    color: white;
+                    font-family: inherit;
+                    font-size: 0.95rem;
+                    box-sizing: border-box;
+                }
+                .form-control:focus { outline: none; border-color: var(--accent); background: rgba(255,255,255,0.1); }
+                .btn-dt {
+                    background: var(--accent);
+                    color: var(--primary);
+                    border: none;
+                    padding: 1rem 2rem;
+                    border-radius: 50px;
+                    font-weight: 700;
+                    cursor: pointer;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    font-size: 0.85rem;
+                }
+                .btn-dt:hover { transform: translateY(-3px); box-shadow: 0 5px 20px var(--accent-transparent); }
+                .close { font-size: 2rem; color: white; cursor: pointer; opacity: 0.5; }
+                .close:hover { opacity: 1; color: var(--accent); }
+
+                .dt-report { padding: 1.5rem; background: rgba(255,255,255,0.04); border-radius: 12px; }
+                .dt-header { display: flex; justify-content: space-between; align-items: center; padding-bottom: 1rem; border-bottom: 1px solid var(--glass-border); margin-bottom: 1.5rem; }
+                .dt-label { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 2px; opacity: 0.6; margin-top: 1.2rem; }
+                .dt-value { font-size: 0.95rem; padding: 0.6rem 0; }
+                .dt-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1rem; }
+
+                .blindaje-badge {
+                    background: linear-gradient(135deg, #ffd700, #b8860b);
+                    color: black;
+                    padding: 2px 8px;
+                    border-radius: 4px;
+                    font-size: 0.6rem;
+                    font-weight: 900;
+                    text-transform: uppercase;
+                    margin-left: 10px;
+                    cursor: pointer;
+                }
+                .pill-rfq {
+                    background: rgba(255, 165, 2, 0.2);
+                    color: #ffa502;
+                    padding: 2px 8px;
+                    border-radius: 4px;
+                    font-size: 0.6rem;
+                    font-weight: 700;
+                    margin-left: 10px;
+                }
+                .pill-tipo { padding: 2px 8px; border-radius: 4px; font-size: 0.6rem; font-weight: 700; text-transform: uppercase; margin-left: 8px; }
+                .pill-suministro { background: rgba(46, 213, 115, 0.15); color: #2ed573; }
+                .pill-obra       { background: rgba(255, 71, 87, 0.15);  color: #ff4757; }
+                .pill-servicio   { background: rgba(30, 144, 255, 0.15); color: #1e90ff; }
+
+                @media (max-width: 768px) {
+                    .item-card { grid-template-columns: 1fr; gap: 0.5rem; padding: 1rem; }
+                    .modal-content { width: 95%; margin: 10% auto; }
+                    .dt-grid { grid-template-columns: 1fr; }
+                }
+            </style>
+            <button class="filtro-btn activo" onclick="filtrarItems('todos')">📋 Todos</button>
+            <button class="filtro-btn" onclick="filtrarItems('capitulo-1')">Cap 1</button>
+            <button class="filtro-btn" onclick="filtrarItems('capitulo-2')">Cap 2</button>
+            <button class="filtro-btn" onclick="filtrarItems('capitulo-3')">Cap 3</button>
+            <button class="filtro-btn" onclick="filtrarItems('capitulo-4')">Cap 4</button>
+            <button class="filtro-btn" onclick="filtrarItems('capitulo-5')">Cap 5</button>
+            <button class="filtro-btn" onclick="filtrarItems('capitulo-6')">Cap 6</button>
+
+            <div style="margin-left: auto; display: flex; gap: 1rem; align-items: center;">
+                <input type="text" id="searchBox" oninput="aplicarBusqueda(this.value)" placeholder="🔍 Buscar ítem o descripción…" style="padding: 0.5rem 1rem; border-radius: 50px; border: 1px solid var(--glass-border); background: rgba(255,255,255,0.05); color: white; font-size: 0.85rem; width: 240px;">
+                <label style="font-size: 0.7rem; color: var(--accent); font-weight: 800;">MONEDA:</label>
+                <select id="currencySwitch" onchange="toggleCurrency()" style="background: var(--accent); color: var(--primary); border: none; border-radius: 20px; padding: 0.4rem 1rem; font-weight: 800; cursor: pointer;">
+                    <option value="COP">PESOS (COP)</option>
+                    <option value="USD">DÓLARES (USD)</option>
+                </select>
+                <button class="filtro-btn" onclick="abrirModalNuevoCapitulo()" style="border: 1px dashed var(--accent); color: var(--accent);">➕ Nuevo Capítulo</button>
+            </div>
+        </div>
+
+        <div id="wbs-container"></div>
+    </div>
+
+    <!-- Modal DT -->
+    <div id="modalDT" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-dt-titulo">Crear Decisión Técnica</h2>
+                <span class="close" onclick="cerrarModal('modalDT')">&times;</span>
+            </div>
+            <div class="modal-body" id="modal-dt-body"></div>
+        </div>
+    </div>
+
+    <!-- Modal Nuevo Capítulo -->
+    <div id="modalNuevoCapitulo" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>➕ Proponer Nuevo Capítulo</h2>
+                <span class="close" onclick="cerrarModal('modalNuevoCapitulo')">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label class="form-label">Número de Capítulo:</label>
+                    <input type="number" id="nuevo-cap-numero" class="form-control" value="7" min="7" max="20">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Nombre del Capítulo:</label>
+                    <input type="text" id="nuevo-cap-nombre" class="form-control" placeholder="Ej: SISTEMAS DE ENERGÍA">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Descripción del Capítulo:</label>
+                    <textarea id="nuevo-cap-descripcion" class="form-control" rows="4" placeholder="Describe el alcance y contenido del nuevo capítulo..."></textarea>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Justificación Técnica (BCD / DT / AT):</label>
+                    <textarea id="nuevo-cap-justificacion" class="form-control" rows="4" placeholder="Por qué se necesita este nuevo capítulo. Citar BCD §X, AT1 Tabla Y, DT-XXX-AAAA-NNN..."></textarea>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Presupuesto Estimado (COP):</label>
+                    <input type="number" id="nuevo-cap-presupuesto" class="form-control" placeholder="Estimación inicial">
+                </div>
+                <div style="display: flex; gap: 10px; margin-top: 30px;">
+                    <button class="btn-dt" onclick="generarDTNuevoCapitulo()">📋 Generar DT de Nuevo Capítulo</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ADN, Dataset y Motor -->
+    <script src="lfc-terminology.js?v=14.7.5"></script>
+    <script src="sidebar-component.js?v=14.7.5"></script>
+    <script src="wbs_presupuestal_datos.js?v=14.7.5"></script>
+    <script src="wbs_core_logic.js?v=14.7.5"></script>
+
+    <script>
+        let wbsData = { items: [] };
+        let viewCurrency = 'COP';
+        let searchTerm = '';
+
+        function getTRM() {
+            return (window.WBS_CORE && typeof window.WBS_CORE.getTRM === 'function')
+                ? window.WBS_CORE.getTRM()
+                : (window.LFC_TERMINOLOGY && window.LFC_TERMINOLOGY.FINANCIAL && window.LFC_TERMINOLOGY.FINANCIAL.TRM) || 4400;
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            if (window.LFC_TERMINOLOGY) {
+                const t = window.LFC_TERMINOLOGY;
+                document.title = `WBS Interactiva — ${t.PROJECT?.NAME || 'LFC2'}`;
+                document.getElementById('main-dns-title').innerHTML = `🛠️ WBS INTERACTIVA — ${t.PROJECT?.NAME || 'LFC2'}`;
+                document.getElementById('main-dns-subtitle').textContent = `${t.PROJECT?.FULL_LOCATION || 'La Dorada – Chiriguaná'} · Contrato APP No. 001 de 2025 · Generador de DT por ítem`;
+                document.getElementById('adn-version-tag').textContent = t.PROJECT?.VERSION || 'v14.7';
+            }
+            if (typeof window.wbsDataPresupuestal === 'undefined') {
+                document.getElementById('wbs-container').innerHTML = '<div style="padding:40px;color:#c00;">Error: dataset wbs_presupuestal_datos.js no cargó.</div>';
+                return;
+            }
+            wbsData.items = window.wbsDataPresupuestal;
+            cargarWBS();
+        });
+
+        function toggleCurrency() {
+            viewCurrency = document.getElementById('currencySwitch').value;
+            cargarWBS();
+        }
+
+        function aplicarBusqueda(valor) {
+            searchTerm = (valor || '').toLowerCase();
+            cargarWBS();
+        }
+
+        function formatVal(val) {
+            const TRM = getTRM();
+            if (viewCurrency === 'USD') {
+                return '$' + Math.round(val / TRM).toLocaleString('en-US') + ' USD';
+            }
+            return '$' + Math.round(val).toLocaleString('es-CO') + ' COP';
+        }
+
+        function pillTipo(tipo) {
+            const t = (tipo || '').toUpperCase();
+            const cls = t === 'OBRA_CIVIL' ? 'pill-obra' :
+                        t === 'SERVICIO' ? 'pill-servicio' : 'pill-suministro';
+            const label = t === 'OBRA_CIVIL' ? 'OBRA' : (t || 'SUM');
+            return `<span class="pill-tipo ${cls}">${label}</span>`;
+        }
+
+        function cargarWBS() {
+            const container = document.getElementById('wbs-container');
+            container.innerHTML = '';
+
+            const items = wbsData.items.filter(i => {
+                if (!searchTerm) return true;
+                return (i.item || '').toLowerCase().includes(searchTerm)
+                    || (i.descripcion || '').toLowerCase().includes(searchTerm)
+                    || (i.tipo || '').toLowerCase().includes(searchTerm);
+            });
+
+            const itemsPorCapitulo = {};
+            let totalCOP = 0;
+            items.forEach(item => {
+                const cap = (item.item || '').split('.')[0];
+                if (!itemsPorCapitulo[cap]) itemsPorCapitulo[cap] = [];
+                itemsPorCapitulo[cap].push(item);
+                totalCOP += Number(item.total) || 0;
+            });
+
+            document.getElementById('total-items').textContent = items.length;
+            document.getElementById('total-modificables').textContent = items.filter(i => i.modificable).length;
+            document.getElementById('total-cop').textContent = '$' + (totalCOP / 1e6).toLocaleString('es-CO', { maximumFractionDigits: 0 }) + 'M';
+
+            const names = {
+                '1': 'Control y Señalización',
+                '2': 'Telecomunicaciones',
+                '3': 'ITS y Seguridad',
+                '4': 'Pasos a Nivel',
+                '5': 'Centro de Control',
+                '6': 'Material Rodante'
+            };
+
+            Object.keys(itemsPorCapitulo).sort().forEach(cap => {
+                const seccion = document.createElement('div');
+                seccion.className = 'capitulo-seccion';
+                seccion.dataset.capitulo = cap;
+
+                const subtotalCap = itemsPorCapitulo[cap].reduce((s, x) => s + (Number(x.total) || 0), 0);
+
+                const subCaps = {};
+                itemsPorCapitulo[cap].forEach(item => {
+                    const parts = (item.item || '').split('.');
+                    const sc = parts.length > 1 ? parts[0] + '.' + parts[1] : cap;
+                    if (!subCaps[sc]) subCaps[sc] = [];
+                    subCaps[sc].push(item);
+                });
+
+                let itemsHTML = '';
+                Object.keys(subCaps).sort().forEach(sc => {
+                    if (sc !== cap) {
+                        itemsHTML += `<div style="padding: 1rem 2rem; color: var(--accent); font-weight: 700; opacity: 0.6; font-size: 0.8rem; letter-spacing: 2px;">SUB-CAPÍTULO ${sc}</div>`;
+                    }
+                    itemsHTML += subCaps[sc].map(item => `
+                        <div class="item-card" data-capitulo="${cap}">
+                            <div class="item-codigo">${item.item}</div>
+                            <div class="item-descripcion">
+                                ${item.descripcion}
+                                ${pillTipo(item.tipo)}
+                                ${item.dt_ref ? `<span class="blindaje-badge" onclick="window.open('/II_A_Analisis_Contractual/dictamenes/', '_blank')">🛡️ DT ${item.dt_ref} ACTIVA</span>` : ''}
+                                ${item.rfq_pendiente ? `<span class="pill-rfq">RFQ pendiente</span>` : ''}
+                            </div>
+                            <div class="item-valores" style="display: flex; gap: 0.4rem; flex-direction: column;">
+                                <div style="opacity: 0.6; font-size: 0.8rem;">${item.cantidad} ${item.unidad}</div>
+                                <div style="font-weight: 700; color: var(--accent);">${formatVal(item.total)}</div>
+                                <div style="opacity: 0.5; font-size: 0.7rem;">VU: ${formatVal(item.vu)}</div>
+                            </div>
+                            <div class="botones-accion">
+                                <button class="filtro-btn" style="padding: 0.4rem 0.8rem; font-size: 0.7rem;" onclick="abrirModalDT('${item.item}')">PROPONER DT</button>
+                            </div>
+                        </div>
+                    `).join('');
+                });
+
+                seccion.innerHTML = `
+                    <div class="capitulo-header" onclick="toggleCapitulo('${cap}')">
+                        <div>
+                            <div class="capitulo-titulo">CAPÍTULO ${cap}: ${names[cap] || 'Otros'}</div>
+                            <div style="font-size: 0.75rem; opacity: 0.6; margin-top: 0.3rem;">${itemsPorCapitulo[cap].length} ítems · subtotal ${formatVal(subtotalCap)}</div>
+                        </div>
+                        <div style="font-size: 0.85rem; color: var(--accent);">▼</div>
+                    </div>
+                    <div id="items-capitulo-${cap}">${itemsHTML}</div>
+                `;
+                container.appendChild(seccion);
+            });
+        }
+
+        function toggleCapitulo(cap) {
+            const el = document.getElementById(`items-capitulo-${cap}`);
+            el.classList.toggle('oculto');
+        }
+
+        function filtrarItems(filtro) {
+            const secciones = document.querySelectorAll('.capitulo-seccion');
+            document.querySelectorAll('.filtro-btn').forEach(btn => btn.classList.remove('activo'));
+            event.target.classList.add('activo');
+            secciones.forEach(s => {
+                if (filtro === 'todos') s.style.display = 'block';
+                else s.style.display = filtro.endsWith(s.dataset.capitulo) ? 'block' : 'none';
+            });
+        }
+
+        function abrirModalDT(codigo) {
+            const item = wbsData.items.find(i => i.item === codigo);
+            if (!item) return;
+            const modalBody = document.getElementById('modal-dt-body');
+            document.getElementById('modal-dt-titulo').textContent = `Proponer DT — ítem ${codigo}`;
+            modalBody.innerHTML = `
+                <div class="form-group">
+                    <label class="form-label">Ítem · descripción actual:</label>
+                    <div style="padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 8px; font-size: 0.9rem;">
+                        <strong>${item.item}</strong> · ${item.descripcion}<br>
+                        <span style="opacity: 0.6; font-size: 0.8rem;">Cantidad: ${item.cantidad} ${item.unidad} · VU: $${Number(item.vu).toLocaleString('es-CO')} · Total: $${Number(item.total).toLocaleString('es-CO')}</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Prefijo de DT (categoría SICC):</label>
+                    <select id="dt-prefijo" class="form-control">
+                        <option value="DT-COMS">DT-COMS · Comunicaciones</option>
+                        <option value="DT-CTRL">DT-CTRL · Control y Señalización</option>
+                        <option value="DT-PAN">DT-PAN · Pasos a Nivel</option>
+                        <option value="DT-CCO">DT-CCO · Centro de Control</option>
+                        <option value="DT-MR">DT-MR · Material Rodante</option>
+                        <option value="DT-ENRG">DT-ENRG · Energía</option>
+                        <option value="DT-PMO">DT-PMO · Gestión / Contractual</option>
+                        <option value="DT-SICC">DT-SICC · Doctrinal transversal</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Justificación técnica (citar BCD §X · AT1 Tabla Y · ADIF · Ardanuy):</label>
+                    <textarea id="edit-descripcion" class="form-control" rows="5" placeholder="Ej: BCD §6.1.1 manda 48 hilos G.652.D, ADIF VEA010 ajustado por trocha 914mm + logística..."></textarea>
+                </div>
+                <div class="dt-grid">
+                    <div class="form-group">
+                        <label class="form-label">Cantidad propuesta:</label>
+                        <input type="number" id="edit-cantidad" class="form-control" value="${item.cantidad}">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">VU propuesto (COP):</label>
+                        <input type="number" id="edit-vu" class="form-control" value="${item.vu}">
+                    </div>
+                </div>
+                <div style="margin-top: 2rem; text-align: right;">
+                    <button class="btn-dt" onclick="generarDTExistente('${codigo}')">📋 Generar DT</button>
+                </div>
+            `;
+            document.getElementById('modalDT').style.display = 'block';
+        }
+
+        function generarDTExistente(codigo) {
+            const item = wbsData.items.find(i => i.item === codigo);
+            const prefijo = document.getElementById('dt-prefijo').value;
+            const just = document.getElementById('edit-descripcion').value;
+            const nuevaCant = document.getElementById('edit-cantidad').value;
+            const nuevoVU = document.getElementById('edit-vu').value;
+            if (!just) { alert('Por favor ingresá una justificación técnica con cita normativa (BCD/AT/ADIF).'); return; }
+
+            const TRM = getTRM();
+            const totalActual = Number(item.total);
+            const totalProp = Number(nuevaCant) * Number(nuevoVU);
+            const delta = totalProp - totalActual;
+            const fecha = new Date().toLocaleDateString('es-CO', { year: 'numeric', month: '2-digit', day: '2-digit' });
+            const year = new Date().getFullYear();
+            const dtId = `${prefijo}-${year}-NNN`;
+            const term = window.LFC_TERMINOLOGY || {};
+
+            const modalBody = document.getElementById('modal-dt-body');
+            modalBody.innerHTML = `
+                <div class="dt-report">
+                    <div class="dt-header">
+                        <div style="font-weight: 900; font-size: 1.1rem;">${term.PROJECT?.NAME || 'LFC2'} · DECISIÓN TÉCNICA</div>
+                        <div style="text-align: right; font-size: 0.8rem;"><strong>${dtId}</strong><br>${fecha}</div>
+                    </div>
+                    <div class="dt-label">Ítem WBS afectado</div>
+                    <div class="dt-value">${item.item} · ${item.descripcion}</div>
+                    <div class="dt-label">Justificación técnica</div>
+                    <div class="dt-value" style="white-space: pre-wrap;">${just}</div>
+                    <div class="dt-grid">
+                        <div>
+                            <div class="dt-label">Estado actual</div>
+                            <div class="dt-value">Cant: ${item.cantidad} ${item.unidad}<br>VU: $${Number(item.vu).toLocaleString('es-CO')}<br><strong>Total: $${totalActual.toLocaleString('es-CO')}</strong></div>
+                        </div>
+                        <div>
+                            <div class="dt-label">Estado propuesto</div>
+                            <div class="dt-value">Cant: ${nuevaCant} ${item.unidad}<br>VU: $${Number(nuevoVU).toLocaleString('es-CO')}<br><strong>Total: $${totalProp.toLocaleString('es-CO')}</strong></div>
+                        </div>
+                    </div>
+                    <div class="dt-label">Delta presupuestal</div>
+                    <div class="dt-value" style="color: ${delta >= 0 ? '#ff4757' : '#2ed573'}; font-weight: 700;">
+                        ${delta >= 0 ? '+' : ''}$${delta.toLocaleString('es-CO')} COP · ${delta >= 0 ? '+' : ''}$${Math.round(delta/TRM).toLocaleString('en-US')} USD @ TRM ${TRM}
+                    </div>
+                    <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px dashed var(--glass-border); font-size: 0.75rem; opacity: 0.7;">
+                        Plantilla generada desde WBS Interactiva v14.7.5 · ${term.PROJECT?.NAME || 'LFC2'}.<br>
+                        <strong>Próximo paso:</strong> redactar el .md de la DT con este ID provisional, asignar número definitivo,
+                        y aplicar al <code>wbs_presupuestal_datos.js</code> + <code>WBS_Presupuestal_v4_0_MICHELIN.md</code>.
+                    </div>
+                    <button class="filtro-btn activo" style="margin-top: 2rem; width: 100%;" onclick="copiarDTaPortapapeles()">📋 Copiar plantilla al portapapeles</button>
+                    <button class="filtro-btn" style="margin-top: 0.5rem; width: 100%;" onclick="cerrarModal('modalDT')">Cerrar</button>
+                </div>
+            `;
+
+            window._dtPlantillaActual = `# ${dtId}\n\n**Fecha:** ${fecha}\n**Ítem WBS afectado:** ${item.item} · ${item.descripcion}\n**Categoría SICC:** ${prefijo}\n\n## Justificación técnica\n${just}\n\n## Cambio propuesto\n| | Actual | Propuesto |\n|---|---|---|\n| Cantidad | ${item.cantidad} ${item.unidad} | ${nuevaCant} ${item.unidad} |\n| VU (COP) | $${Number(item.vu).toLocaleString('es-CO')} | $${Number(nuevoVU).toLocaleString('es-CO')} |\n| Total (COP) | $${totalActual.toLocaleString('es-CO')} | $${totalProp.toLocaleString('es-CO')} |\n| Delta | — | ${delta >= 0 ? '+' : ''}$${delta.toLocaleString('es-CO')} COP (${delta >= 0 ? '+' : ''}$${Math.round(delta/TRM).toLocaleString('en-US')} USD @ TRM ${TRM}) |\n\n## Aplicación al WBS\n- [ ] Editar ítem ${item.item} en \`IX_WBS_Planificacion/wbs_presupuestal_datos.js\`\n- [ ] Sincronizar \`WBS_Presupuestal_v4_0_MICHELIN.md\`\n- [ ] Bumpear cache \`?v=14.7.X\`\n- [ ] Validar Vista_Final post-deploy\n`;
+        }
+
+        function copiarDTaPortapapeles() {
+            const txt = window._dtPlantillaActual || '';
+            if (!txt) return;
+            navigator.clipboard.writeText(txt).then(() => alert('Plantilla DT copiada. Pegala en una nueva DT en /agente/brain/dictamenes/ o en el dashboard SICC.'));
+        }
+
+        function generarDTNuevoCapitulo() {
+            const num = document.getElementById('nuevo-cap-numero').value;
+            const nombre = document.getElementById('nuevo-cap-nombre').value;
+            const desc = document.getElementById('nuevo-cap-descripcion').value;
+            const just = document.getElementById('nuevo-cap-justificacion').value;
+            const pres = document.getElementById('nuevo-cap-presupuesto').value;
+            if (!nombre || !desc) { alert('Completá al menos el nombre y la descripción.'); return; }
+
+            const TRM = getTRM();
+            const fecha = new Date().toLocaleDateString('es-CO', { year: 'numeric', month: '2-digit', day: '2-digit' });
+            const year = new Date().getFullYear();
+            const dtId = `DT-NEWCAP-${year}-NNN`;
+            const term = window.LFC_TERMINOLOGY || {};
+
+            const modalBody = document.querySelector('#modalNuevoCapitulo .modal-body');
+            modalBody.innerHTML = `
+                <div class="dt-report">
+                    <div class="dt-header">
+                        <div style="font-weight: 900; font-size: 1.1rem;">${term.PROJECT?.NAME || 'LFC2'} · PROPUESTA NUEVO CAPÍTULO</div>
+                        <div style="text-align: right; font-size: 0.8rem;"><strong>${dtId}</strong><br>${fecha}</div>
+                    </div>
+                    <div class="dt-label">Capítulo propuesto</div>
+                    <div class="dt-value"><strong>CAPÍTULO ${num}: ${nombre}</strong></div>
+                    <div class="dt-label">Alcance y descripción</div>
+                    <div class="dt-value" style="white-space: pre-wrap;">${desc}</div>
+                    <div class="dt-label">Justificación técnica (BCD / AT / DT)</div>
+                    <div class="dt-value" style="white-space: pre-wrap;">${just || '(sin sustento documentado — completar antes de promover)'}</div>
+                    <div class="dt-label">Presupuesto estimado inicial</div>
+                    <div class="dt-value" style="font-size: 1.3rem; font-weight: 800; color: var(--accent);">
+                        $${Number(pres || 0).toLocaleString('es-CO')} COP · $${Math.round(Number(pres || 0)/TRM).toLocaleString('en-US')} USD @ TRM ${TRM}
+                    </div>
+                    <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px dashed var(--glass-border); font-size: 0.75rem; opacity: 0.7;">
+                        Plantilla generada desde WBS Interactiva v14.7.5.<br>
+                        <strong>Próximo paso:</strong> redactar el .md de la DT con este ID provisional + crear estructura de capítulo en <code>wbs_presupuestal_datos.js</code>.
+                    </div>
+                    <button class="filtro-btn activo" style="margin-top: 2rem; width: 100%;" onclick="cerrarModal('modalNuevoCapitulo')">Cerrar</button>
+                </div>
+            `;
+        }
+
+        function abrirModalNuevoCapitulo() { document.getElementById('modalNuevoCapitulo').style.display = 'block'; }
+        function cerrarModal(id) { document.getElementById(id).style.display = 'none'; }
+    </script>
 </body>
 </html>
