@@ -18,23 +18,34 @@
             <p id="main-dns-subtitle" style="opacity: 0.7; font-weight: 300;">Cargando configuración...</p>
         </div>
 
-        <div class="stats-bar" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
-            <div class="premium-card" style="text-align: center; padding: 1.5rem;">
-                <div style="font-size: 2rem; font-weight: 800; color: var(--accent);" id="total-items">0</div>
-                <div style="font-size: 0.6rem; letter-spacing: 2px; opacity: 0.5;">ÍTEMS TOTALES</div>
+        <div class="stats-bar" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; margin-bottom: 2rem;">
+            <div class="premium-card" style="text-align: center; padding: 1.2rem;">
+                <div style="font-size: 1.8rem; font-weight: 800; color: var(--accent);" id="total-items">0</div>
+                <div style="font-size: 0.6rem; letter-spacing: 2px; opacity: 0.5;">ÍTEMS</div>
             </div>
-            <div class="premium-card" style="text-align: center; padding: 1.5rem;">
-                <div style="font-size: 2rem; font-weight: 800; color: var(--accent);" id="total-capitulos">6</div>
+            <div class="premium-card" style="text-align: center; padding: 1.2rem;">
+                <div style="font-size: 1.8rem; font-weight: 800; color: var(--accent);" id="total-capitulos">6</div>
                 <div style="font-size: 0.6rem; letter-spacing: 2px; opacity: 0.5;">CAPÍTULOS</div>
             </div>
-            <div class="premium-card" style="text-align: center; padding: 1.5rem;">
-                <div style="font-size: 2rem; font-weight: 800; color: var(--accent);" id="total-modificables">0</div>
-                <div style="font-size: 0.6rem; letter-spacing: 2px; opacity: 0.5;">MODIFICABLES</div>
+            <div class="premium-card" style="text-align: center; padding: 1.2rem;">
+                <div style="font-size: 1.8rem; font-weight: 800; color: var(--accent);" id="total-cd">…</div>
+                <div style="font-size: 0.6rem; letter-spacing: 2px; opacity: 0.5;">COSTO DIRECTO</div>
             </div>
-            <div class="premium-card" style="text-align: center; padding: 1.5rem;">
-                <div style="font-size: 2rem; font-weight: 800; color: var(--accent);" id="total-cop">…</div>
-                <div style="font-size: 0.6rem; letter-spacing: 2px; opacity: 0.5;">TOTAL COP</div>
+            <div class="premium-card" style="text-align: center; padding: 1.2rem;">
+                <div style="font-size: 1.8rem; font-weight: 800; color: var(--accent);" id="total-aiu">…</div>
+                <div style="font-size: 0.6rem; letter-spacing: 2px; opacity: 0.5;">AIU 33%</div>
             </div>
+            <div class="premium-card" style="text-align: center; padding: 1.2rem;">
+                <div style="font-size: 1.8rem; font-weight: 800; color: var(--accent);" id="total-iva">…</div>
+                <div style="font-size: 0.6rem; letter-spacing: 2px; opacity: 0.5;">IVA 19%</div>
+            </div>
+            <div class="premium-card" style="text-align: center; padding: 1.2rem; border: 2px solid var(--success);">
+                <div style="font-size: 1.8rem; font-weight: 800; color: var(--success);" id="total-proyecto">…</div>
+                <div style="font-size: 0.6rem; letter-spacing: 2px; opacity: 0.7; color: var(--success);">TOTAL PROYECTO ⭐</div>
+            </div>
+        </div>
+        <div style="font-size: 0.75rem; opacity: 0.55; margin: -1rem 0 2rem 0; padding: 0 1rem;">
+            ⓘ <strong>TOTAL PROYECTO</strong> incluye AIU 33% sobre Obra + IVA 19% (suministros + servicios + IVA sobre utilidad obra) — coincide con Vista Final / Reporte Gerencial. <strong>COSTO DIRECTO</strong> = suma cruda VU × cantidad de los 133 ítems (sin sobreescalas).
         </div>
 
         <div class="premium-card" style="margin-bottom: 2rem; display: flex; gap: 1rem; flex-wrap: wrap; align-items: center;">
@@ -328,17 +339,23 @@
             });
 
             const itemsPorCapitulo = {};
-            let totalCOP = 0;
             items.forEach(item => {
                 const cap = (item.item || '').split('.')[0];
                 if (!itemsPorCapitulo[cap]) itemsPorCapitulo[cap] = [];
                 itemsPorCapitulo[cap].push(item);
-                totalCOP += Number(item.total) || 0;
             });
 
+            // Calcular totales con AIU+IVA usando WBS_CORE (mismo motor que Vista Final)
+            // Sobre los items filtrados por búsqueda — sin búsqueda, da el total proyecto.
+            const calc = (window.WBS_CORE && typeof window.WBS_CORE.calcularAIUeIVA === 'function')
+                ? window.WBS_CORE.calcularAIUeIVA(items)
+                : { costoDirecto: items.reduce((s,x)=>s+(Number(x.total)||0),0), aiu: 0, iva: 0, total: 0 };
+
             document.getElementById('total-items').textContent = items.length;
-            document.getElementById('total-modificables').textContent = items.filter(i => i.modificable).length;
-            document.getElementById('total-cop').textContent = '$' + (totalCOP / 1e6).toLocaleString('es-CO', { maximumFractionDigits: 0 }) + 'M';
+            document.getElementById('total-cd').textContent       = '$' + (calc.costoDirecto / 1e6).toLocaleString('es-CO', { maximumFractionDigits: 0 }) + 'M';
+            document.getElementById('total-aiu').textContent      = '$' + (calc.aiu          / 1e6).toLocaleString('es-CO', { maximumFractionDigits: 0 }) + 'M';
+            document.getElementById('total-iva').textContent      = '$' + (calc.iva          / 1e6).toLocaleString('es-CO', { maximumFractionDigits: 0 }) + 'M';
+            document.getElementById('total-proyecto').textContent = '$' + (calc.total        / 1e6).toLocaleString('es-CO', { maximumFractionDigits: 0 }) + 'M';
 
             const names = {
                 '1': 'Control y Señalización',
