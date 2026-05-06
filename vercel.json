@@ -22,11 +22,23 @@
   "rewrites": [
     {
       "source": "/",
-      "destination": "/IX_WBS_Planificacion/WBS_COMPLETA_TODO_Interactiva_v4_0.html"
+      "destination": "/index.html"
     },
     {
       "source": "/wbs",
-      "destination": "/IX_WBS_Planificacion/WBS_COMPLETA_TODO_Interactiva_v4_0.html"
+      "destination": "/IX_WBS_Planificacion/WBS_COMPLETA_TODO_Interactiva_v4.0.html"
+    },
+    {
+      "source": "/vista",
+      "destination": "/IX_WBS_Planificacion/WBS_Vista_Final.html"
+    },
+    {
+      "source": "/reporte",
+      "destination": "/IX_WBS_Planificacion/WBS_Reporte_Gerencial.html"
+    },
+    {
+      "source": "/riesgos",
+      "destination": "/IX_WBS_Planificacion/WBS_Analisis_Riesgos.html"
     },
     {
       "source": "/entregables",
