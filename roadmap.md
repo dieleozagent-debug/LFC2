@@ -31,6 +31,8 @@
 | **Sincronización post-Q2/Q3 al .js (D12 cerrado)**: 7 renames aplicados al `wbs_presupuestal_datos.js` — 2.1.116 LiFePO4→"Bancos baterías UPS 24h (química RFQ)"; 2.2.100-104 + 6.1.102 "Red Vital IP / TETRA"→"red móvil broadband ferroviaria (complemento TETRA)"; eliminado "ZR-Optics Compatible" residuo de Antigravity. Eliminados ítems vacíos 4.3.101 y 4.3.102 (cant=0, total=$0). **135 → 133 ítems**. Cache bumped a v=14.7.5. WBS_Presupuestal_v4_0_MICHELIN.md sincronizado. | turno actual |
 | **Validación cruzada Ardanuy** (Bloque D abierto): comparación contra `LFC-U2-CTSC-ED-QTO-CO-0001` documentada en `precios_Adif_COMPLETO.md §5`. Total convergente al 3% pero composición divergente. Gaps identificados → DT-COMS-2026-008 propuesta. | turno actual |
 | **Excel entregable v2 FINAL cerrado (Q2+Q4)**: Hoja 1 con columna USD@TRM real 3,637 + bloque EXPOSICIÓN CAMBIARIA citando Ardanuy ($66.4M @ ~3,800); Hoja 6 RFQ con ítem 2.1.116 baterías UPS 24h TETRA (Hoppecke/Saft/EnerSys/BYD); Hoja 1 C18 EUR/COP=4,796 con fórmula `=C16*C17`; formato condicional Ratificación/RFQ urgente en col E. Constante `TRM_REAL=3637` en Vista_Final. Validación 7/7 OK. **Archivo `Presupuesto_SCC_LFC2_2026-05-05 (4).xlsx` versionado en `X_ENTREGABLES_CONSOLIDADOS/`**. | `d55e653` |
+| **Reporte Gerencial reescrito BCD-aligned**: 4 KPIs vivos desde `WBS_CORE.calcularAIUeIVA()` (COP, USD@4400, USD@3637, 133 ítems); tabla comparativa contractual (Estructuración Grupo Ortiz $73.66M / LFC $59.10M / Ardanuy $57.33M @ TRM 4400) + nota TRM 3800 implícita Ardanuy; 3 escenarios de ejecución (optimista 59M, esperado 59-71M, pesimista 80-110M); tabla resumen por capítulo viva; 5 riesgos contractuales BCD-aligned; supuestos doctrina vigente; disclaimer Interventoría AT1 Tabla 17. **Purgado**: bloque "ELIMINACIONES CRÍTICAS" (PRV/Cab-Signaling/Vital IP/Soberanía Tecnológica LFC), tabla "+$8B/+$3.5B/+$6B" sin trazabilidad, "Ahorro neto -$50.2B", "Complejidad FENOCO +$24B". | `4749554` |
+| **Matriz de Riesgos actualizada (17→22 riesgos)**: purga contaminantes Antigravity ("Soberania PTC", "Vital IP Gateway", "pasarela Vital IP"); ID renombrado `R-PTC Nativo (FRA 49 CFR 236)-001`→`R-PTC-001`; R-INT-01 FENOCO bajado MEDIA→BAJA (Stop & Switch operativo, no integración técnica). **5 riesgos del momento agregados**: R-INT-V1-001 (CRÍTICA, no-objeción Interventoría AT1 Tabla 17), R-ARDANUY-PERF-001 (CRÍTICA, incumplimiento Ardanuy día 98/270, comunicación 00013-2026, plan: comité bisemanal + pre-radicación 15 días + carpeta evidencias), R-ARDANUY-FO-001 (ALTA, gap obra civil FO $70B), R-RFQ-001 (MEDIA, 8 ítems pendientes), R-TRM-001 (MEDIA, exposición cambiaria). KPI 4 "Impacto Máx" obsoleto → "Total Riesgos" en vivo. Borrada sección "Tendencias y Monitoreo" (flechitas hardcoded). Estadísticas: 5 críticos · 3 altos · 10 medios · 4 bajos. | `364648f` |
 
 ---
 
@@ -69,6 +71,28 @@
 **Oportunidad:** los $58B sobreestimados cubren parcialmente el gap. **Reasignar internamente sin tocar el total**: bajar PaN básicos / MR / desvíos, subir FO obra civil + agregar capítulo Diseño.
 
 ---
+
+### Bloque E — Rescatar WBS Interactivo con generación de DT (regresión del Bloque C)
+
+> **Diagnóstico (2026-05-05):** En el Bloque C (commit `5cbe10f`) se convirtió `WBS_COMPLETA_TODO_Interactiva_v4.0.html` (624 líneas) a redirect `<meta refresh>` → Vista_Final por estar sirviendo Universo B (cifras pre-purga FENOCO). **Pero esa vista era la que daba al técnico la tabla por ítem + botón "Generar DT"** que Vista_Final NO replica. La consolidación fue prematura: se mató funcionalidad en lugar de migrarla. El gerente abre Vista_Final (resumen por capítulo + Excel), el técnico necesita la tabla cruda con generación de DT.
+
+**Archivo a rescatar:** `IX_WBS_Planificacion/WBS_COMPLETA_TODO_Interactiva_v4.0.html` versión `5cbe10f~1` (commit `21d5afa` o anterior).
+
+**Tareas:**
+- [ ] **E1** — Recuperar contenido pre-redirect desde git: `git show 5cbe10f~1:IX_WBS_Planificacion/WBS_COMPLETA_TODO_Interactiva_v4.0.html`.
+- [ ] **E2** — Migrar dataset de **Universo B** (`datos_wbs_TODOS_items.js`, schema `codigo/vu_cop/total_cop`, 124 ítems pre-purga) a **Universo A** (`wbs_presupuestal_datos.js`, schema `item/vu/total`, 133 ítems post Q2/Q3). Mapeo:
+  - `codigo` → `item`
+  - `vu_cop` → `vu`
+  - `total_cop` → `total`
+  - `descripcion` (ya cuadra)
+  - Cap 1.1.103 = $11,000M (post-purga FENOCO Sec 25.4) en lugar de $63,112M legacy.
+- [ ] **E3** — Reapuntar imports a `wbs_presupuestal_datos.js?v=14.7.5` y `wbs_core_logic.js?v=14.7.5`. Cambiar `window.datos_wbs.items` → `window.wbsDataPresupuestal`.
+- [ ] **E4** — Auditar el flujo "Generar DT" (botones onclick, prefijos, plantilla DT generada). Validar que el output sea compatible con la convención SICC v14.7 (ID `DT-XXX-2026-NNN`, items_wbs_afectados, fundamento L1-L5).
+- [ ] **E5** — Reemplazar el redirect actual por el HTML migrado. Mantener acceso vía `WBS_COMPLETA_TODO_Interactiva_v4.0.html` (URL ya conocida y linkeada externamente).
+- [ ] **E6** — Reescribir `WBS_Menu_Principal.html`: hero apunta al WBS Interactivo rescatado (es lo que el técnico abre), Vista_Final pasa a card secundario "Resumen ejecutivo gerencial". Borrar Brain Feed con insights ficticios. Limpiar pills "v4.0 PREMIUM/v6.0/B.R.A.I.N." Bumpear cache a v=14.7.5. Cifras vivas (133 ítems, 22 riesgos).
+- [ ] **E7** — Cerrar redirects de `_v4_0.html` (duplicado), `Controles_L4.html` y `Presupuesto_SCC_APP_La_Dorada_Chiriguana.html` — esos sí pueden seguir como redirect a Vista_Final, no tenían generación de DT.
+
+**Lección aprendida:** antes de "consolidar" una vista frontend en favor de otra, auditar funcionalidad pieza a pieza, no solo data servida. La métrica "líneas de código" no captura "valor para el usuario".
 
 ### Bloque B — Flujo agente / enjambre y validación DT por ítem WBS
 - [ ] Revisar pipeline `agente/architecture.md` FASE-0 a FASE-5 contra escenario real (Tridente NVIDIA NIM saturado, NVIDIA NIM down, Gemini 429).
