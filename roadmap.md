@@ -85,6 +85,18 @@
 - [x] **E4** — Flujo "Generar DT" enriquecido vs versión legacy: selector de **8 prefijos SICC** (COMS/CTRL/PAN/CCO/MR/ENRG/PMO/SICC) en lugar de ID hardcoded; placeholder pidiendo cita normativa (BCD §X · AT1 Tabla Y · ADIF · Ardanuy); cantidad y VU editables por separado con recálculo automático; **delta presupuestal** en COP+USD coloreado (rojo/verde); **plantilla DT exportable a markdown** copiable al portapapeles con secciones estándar (justificación, cambio en tabla, checklist de aplicación al WBS).
 - [x] **E5** — HTML migrado reemplaza el redirect. Acceso vivo en URL original `/IX_WBS_Planificacion/WBS_COMPLETA_TODO_Interactiva_v4.0`.
 - [x] **Mejoras adicionales aplicadas:** búsqueda por texto (item/descripción/tipo), pills por tipo (SUMINISTRO/OBRA/SERVICIO con colores), pill "RFQ pendiente" condicional, subtotal por capítulo en header, KPI "TOTAL COP" agregado al stats-bar.
+- [x] **Routing fix (commits `3248702` + `d87a896`)**: `vercel.json` `/` → `index.html` (Sovereign Tower) en lugar de redirect duplicado. Atajos `/wbs`, `/vista`, `/reporte`, `/riesgos` agregados (sin `.html` por compat con `cleanUrls: true`). Index.html con 5 access cards (Vista Final + WBS Interactiva + Reporte + Riesgos + WBS Hub). Doble entrada visible desde la home.
+- [x] **KPIs cuadran con Vista Final (commit `4a35a51`)**: 6 KPIs (Items · Capítulos · Costo Directo · AIU 33% · IVA 19% · **TOTAL PROYECTO** ⭐) usando `WBS_CORE.calcularAIUeIVA()`. Costo Directo $211,191M (suma cruda) ≠ Total Proyecto $260,009M (con AIU+IVA, coincide con Vista Final). Nota explicativa debajo de los KPIs.
+- [x] **Bugfix WBS_CORE undefined (commit pendiente)**: en `f4ef73a` quedaron 2 referencias a `window.WBS_CORE` que era `undefined` (el motor expone `const WBS_CORE` global, no `window.WBS_CORE`). Síntoma: KPIs AIU/IVA/TOTAL=$0M, Costo Directo OK. Fix: `typeof WBS_CORE !== 'undefined'` en `getTRM()` y en llamada `cargarWBS().calcularAIUeIVA()`. Bonus: meta tags `Cache-Control: no-cache` para que browsers respeten reload del HTML (la URL del .html no tiene `?v=` para cache-bust).
+- [x] **UX v2 + metadata enriquecida (commit `f4ef73a`)**:
+  - Pill "📊 FILTRADO" rojo sobre TOTAL PROYECTO cuando hay search/cap activo (clickeable para limpiar).
+  - Botón "🔄 Limpiar" filtros junto al search box.
+  - Subtotal por sub-capítulo (COP+USD) en cada header.
+  - Pill "RFQ pendiente" en 9 ítems desde lista hardcoded.
+  - Selector prefijo SICC pre-seleccionado por capítulo (Cap 1→CTRL, 2→COMS, 3→SICC, 4→PAN, 5→CCO, 6→MR).
+  - Toast no bloqueante reemplaza alert() al copiar al portapapeles.
+  - Modal "PROPONER DT" muestra bloque "📚 CONTEXTO TÉCNICO" con metadata: justificación, criterios, supuestos, DTs previas, documentos.
+  - **`wbs_metadata_enriquecida.js v1.0 → v2.0`**: expansión de 8 a 133 ítems. 8 originales preservados con su detalle. 125 generados con entrada mínima (descripción del .js + justificación esqueleto cap+tipo+VU + supuesto VU base + documentos por capítulo). 24 ítems con DTs vinculadas (DT-COMS-2026-007, DT-CTRL-2026-006, DT-SICC v14.7, renames Q2/Q3). 10 ítems con flag "🔴 RFQ pendiente" en supuestos.
 - [ ] **E6** — Reescribir `WBS_Menu_Principal.html`: hero apunta al WBS Interactivo rescatado, Vista_Final pasa a card secundario. Borrar Brain Feed con insights ficticios. Limpiar pills "v4.0 PREMIUM/v6.0/B.R.A.I.N." Bumpear cache a v=14.7.5. Cifras vivas. **Pendiente próxima sesión.**
 - [x] **E7** — Redirects de `_v4_0.html` (duplicado), `Controles_L4.html` y `Presupuesto_SCC_APP_La_Dorada_Chiriguana.html` confirmados como redirect a Vista_Final (no tenían generación de DT).
 

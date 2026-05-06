@@ -36,10 +36,16 @@ Este repositorio constituye el **Ecosistema de Ingeniería SICC** para el proyec
 - Tabla por capítulo + 4 cards resumen (Costo Directo · AIU · IVA · Total)
 
 🛠️ **[WBS Interactiva con generador de DT](IX_WBS_Planificacion/WBS_COMPLETA_TODO_Interactiva_v4.0.html)** — *Para el técnico que propone cambios*
-- 133 ítems navegables por capítulo + búsqueda + toggle COP/USD
-- Botón **"PROPONER DT"** por ítem → modal con 8 prefijos SICC (COMS / CTRL / PAN / CCO / MR / ENRG / PMO / SICC), justificación técnica con cita normativa, delta presupuestal en COP+USD
+- 133 ítems navegables por capítulo + **búsqueda con pill "📊 FILTRADO"** (avisa cifras parciales) + botón "🔄 Limpiar"
+- 6 KPIs vivos: Ítems · Capítulos · Costo Directo · AIU 33% · IVA 19% · **TOTAL PROYECTO** (cuadra con Vista Final)
+- **Subtotal por sub-capítulo** en cada header
+- Pill **"RFQ pendiente"** en 9 ítems (5 ENCE + desvíos + control N+1 + LED + F.O. + UPS)
+- Botón **"PROPONER DT"** por ítem → modal con:
+  - **📚 CONTEXTO TÉCNICO** desde `wbs_metadata_enriquecida.js v2.0` (133 ítems): justificación, criterios de diseño, supuestos, **DTs previas** (24 ítems vinculados), documentos de ingeniería
+  - Selector de prefijo SICC **pre-seleccionado por capítulo** (Cap 1→CTRL, 2→COMS, 3→SICC, 4→PAN, 5→CCO, 6→MR; ENRG/PMO disponibles)
+  - Justificación técnica + cantidad/VU editables → **delta presupuestal** en COP+USD coloreado
+  - Plantilla DT exportable a **markdown al portapapeles** (toast no bloqueante)
 - Botón **"➕ Nuevo Capítulo"** → genera DT-NEWCAP para proponer alcance nuevo
-- Plantilla DT exportable a markdown al portapapeles, lista para pegar en `/agente/brain/dictamenes/` o redactar el `.md` formal
 
 ### Portales y herramientas
 *   [🏠 Sovereign Tower Dashboard](index.html) — primer card linkea directo a Vista Final

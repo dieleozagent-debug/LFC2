@@ -78,7 +78,9 @@ Desde 2026-05-05, la arquitectura se rige por el **BCD v001 (Ardanuy, abril 2026
 │  · cronograma_datos.js         → WBS_Cronograma_Propuesta         │
 │  · riesgos_wbs.js              → WBS_Analisis_Riesgos             │
 │  · reporte_gerencial_data.js   → WBS_Reporte_Gerencial            │
-│  · wbs_metadata_enriquecida.js → metadata extra para B            │
+│  · wbs_metadata_enriquecida.js → metadata por ítem v2.0           │
+│    (133 ítems · justificación, criterios, supuestos, DTs, docs)   │
+│    Consumido por WBS_COMPLETA_TODO_Interactiva (modal CONTEXTO)   │
 └──────────────────────────────────────────────────────────────────┘
 
 ┌─ Capa 2: MOTOR (solo universo A) ────────────────────────────────┐
@@ -95,7 +97,7 @@ Desde 2026-05-05, la arquitectura se rige por el **BCD v001 (Ardanuy, abril 2026
 | HTML | Estado | Notas |
 |---|---|---|
 | **`WBS_Vista_Final.html`** | ⭐ **Vista canónica gerencial** | Universo A (133 ítems) + motor `wbs_core_logic`. Excel 7 hojas + 5 modales L4 (AIU, Acta, Validación Cap.4, Zero-Residue, Pendientes RFQ). Estilo `Costo_proyecto.xlsx` en Hoja 3 (TRM en M1, fórmulas `$M$1`). **Para el gerente / banca / ANI.** |
-| **`WBS_COMPLETA_TODO_Interactiva_v4.0.html`** | 🛠️ **Vista del técnico** (rescatada Bloque E) | Universo A migrado · 133 ítems navegables por capítulo + búsqueda + toggle COP/USD + **Generador de DT por ítem** (8 prefijos SICC: COMS/CTRL/PAN/CCO/MR/ENRG/PMO/SICC) + **Generador de DT para nuevo capítulo**. Plantilla DT exportable en markdown al portapapeles. **Para el técnico que propone cambios.** |
+| **`WBS_COMPLETA_TODO_Interactiva_v4.0.html`** | 🛠️ **Vista del técnico** (rescatada Bloque E + UX v2 commit `f4ef73a`) | Universo A migrado · 133 ítems navegables por capítulo + búsqueda con pill "📊 FILTRADO" + toggle COP/USD + **subtotal por sub-capítulo** + pill "RFQ pendiente" en 9 ítems. **Generador de DT por ítem** con prefijo SICC pre-seleccionado por capítulo (Cap 1→CTRL, 2→COMS, 3→SICC, 4→PAN, 5→CCO, 6→MR; ENRG/PMO disponibles). Modal incluye bloque **"📚 CONTEXTO TÉCNICO"** con metadata (justificación, criterios, supuestos, DTs previas, documentos) desde `wbs_metadata_enriquecida.js v2.0` (133 ítems). Plantilla DT exportable a markdown con toast confirmando copia. **Para el técnico que propone cambios.** |
 | `WBS_Reporte_Gerencial.html` | Activo BCD-aligned | KPIs vivos desde `WBS_CORE` + comparativa contractual (Estructuración Grupo Ortiz / LFC / Ardanuy) + 3 escenarios + 5 riesgos contractuales. Reporte L1. |
 | `WBS_Analisis_Riesgos.html` | Activo · 22 riesgos | `riesgos_wbs.js` con 5 críticos del momento (Interventoría AT1, Ardanuy performance, Ardanuy FO, RFQ, TRM). |
 | `WBS_Menu_Principal.html` | Hub navegación (deuda E6) | Acceso secundario. Pendiente: limpieza de pills "v6.0 PREMIUM/B.R.A.I.N." + cifras vivas + reapuntar hero al WBS Interactivo rescatado. |
@@ -208,7 +210,7 @@ FASE 4:    APROBADO → brain/dictamenes/ + vectorización + /promote
 |---|---|---|
 | DT → Presupuesto Universo A | ✅ | `wbs_presupuestal_datos.js` actualizado vía `sincronizar_TODO`. WBS_Vista_Final + WBS Interactiva consumen en vivo. |
 | Vista Final entregable (Vercel) | ✅ | 133 ítems, AIU 33% + IVA 19% calculados en tiempo real. Excel 7 hojas. |
-| **WBS Interactiva con generador DT (Vercel)** | ✅ Bloque E | 133 ítems navegables · search · COP/USD · plantilla DT por ítem y nuevo capítulo · 8 prefijos SICC. |
+| **WBS Interactiva con generador DT (Vercel)** | ✅ Bloque E + UX v2 | 133 ítems navegables · search con pill FILTRADO · subtotal sub-cap · pill RFQ pendiente · prefijo SICC pre-seleccionado · modal CONTEXTO TÉCNICO con metadata v2.0 (133 ítems) · 24 ítems con DTs vinculadas · plantilla DT exportable. |
 | Reporte Gerencial BCD-aligned (Vercel) | ✅ | KPIs vivos · comparativa Estructuración/LFC/Ardanuy · 3 escenarios · 5 riesgos contractuales. |
 | Análisis de Riesgos (Vercel) | ✅ | 22 riesgos · 5 críticos del momento incluido R-ARDANUY-PERF-001 (incumplimiento Ardanuy día 98/270). |
 | Pipeline forense `/audit` | ✅ | Tridente NVIDIA NIM emite DTs certificadas en `brain/dictamenes/`. |
