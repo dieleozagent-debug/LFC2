@@ -134,10 +134,10 @@
         </div>
 
         <div class="risk-summary" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1.5rem; margin-bottom: 3rem;">
-            <div class="premium-card risk-metric"><div class="metric-value">0</div><div class="metric-label">Riesgos Altos</div></div>
+            <div class="premium-card risk-metric"><div class="metric-value">0</div><div class="metric-label">Críticos + Altos</div></div>
             <div class="premium-card risk-metric"><div class="metric-value">0</div><div class="metric-label">Riesgos Medios</div></div>
             <div class="premium-card risk-metric"><div class="metric-value">0</div><div class="metric-label">Riesgos Bajos</div></div>
-            <div class="premium-card risk-metric"><div class="metric-value" id="impacto-max">...</div><div class="metric-label">Impacto Máx</div></div>
+            <div class="premium-card risk-metric"><div class="metric-value" id="m-total">…</div><div class="metric-label">Total Riesgos</div></div>
         </div>
 
         <div class="premium-card" style="margin-bottom: 3rem;">
@@ -156,24 +156,9 @@
                 <p style="text-align: center; opacity: 0.5; padding: 5rem;" id="loading-spinner">🔄 Sincronizando matriz</p>
             </div>
         </div>
-        <div class="premium-card trend-section">
-            <h3 style="color: var(--accent); margin-bottom: 1.5rem;">📈 Tendencias y Monitoreo</h3>
-            <div class="trend-item" style="padding: 1rem 0; border-bottom: 1px solid var(--glass-border); display: flex; justify-content: space-between;">
-                <span>Estado General del Proyecto</span>
-                <span><span style="color: var(--success);">⬆️ Mejorando</span></span>
-            </div>
-            <div class="trend-item" style="padding: 1rem 0; border-bottom: 1px solid var(--glass-border); display: flex; justify-content: space-between;">
-                <span>Riesgos Nuevos Identificados</span>
-                <span style="opacity: 0.6;">→ Estable</span>
-            </div>
-            <div class="trend-item" style="padding: 1rem 0; display: flex; justify-content: space-between;">
-                <span>Efectividad de Mitigación</span>
-                <span><span style="color: var(--success);">↗️ Mejorando</span></span>
-            </div>
-        </div>
     </div>
-    <script src="lfc-terminology.js?v=14.7.3"></script>
-    <script src="sidebar-component.js?v=14.7.3"></script>
+    <script src="lfc-terminology.js?v=14.7.5"></script>
+    <script src="sidebar-component.js?v=14.7.5"></script>
 
     <script>
         // Inyectar ADN
@@ -222,7 +207,7 @@
     </script>
 
     <!-- Carga de datos dinámicos de riesgos -->
-    <script src="riesgos_wbs.js?v=638956959267187565"></script>
+    <script src="riesgos_wbs.js?v=14.7.5"></script>
     <script>
         // Verificar que los datos se cargaron correctamente
         if (typeof window.riesgosWbs !== 'undefined') {
@@ -245,8 +230,10 @@
             document.querySelectorAll('.metric-value')[0].textContent = alta + critica; // Altos + Críticos
             document.querySelectorAll('.metric-value')[1].textContent = media;
             document.querySelectorAll('.metric-value')[2].textContent = baja;
-            
-            console.log(`📊 Estadísticas actualizadas: ${alta + critica} altos, ${media} medios, ${baja} bajos`);
+            const totalEl = document.getElementById('m-total');
+            if (totalEl) totalEl.textContent = riesgos.length;
+
+            console.log(`📊 Estadísticas actualizadas: ${critica} críticos, ${alta} altos, ${media} medios, ${baja} bajos · total ${riesgos.length}`);
             
             // ============================================================
             // RENDERIZADO DINÁMICO DE RIESGOS (v2.0 - Con Plan de Acción)
