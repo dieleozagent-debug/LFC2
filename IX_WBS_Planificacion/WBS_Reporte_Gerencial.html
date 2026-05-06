@@ -6,235 +6,297 @@
     <title id="adn-page-title">Cargando...</title>
     <link rel="stylesheet" href="wbs-shared.css">
     <style>
-        .metric-card {
-            text-align: center;
-            padding: 1.5rem;
-        }
-        .metric-value {
-            font-size: 2.2rem;
-            font-weight: 700;
-            color: var(--accent);
-            margin-bottom: 0.5rem;
-        }
-        .metric-label {
-            font-size: 0.75rem;
-            letter-spacing: 2px;
-            opacity: 0.6;
-            text-transform: uppercase;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 2rem 0;
-            background: rgba(255,255,255,0.02);
-            border-radius: 12px;
-            overflow: hidden;
-        }
-        th {
-            background: rgba(255,255,255,0.05);
-            padding: 1rem;
-            text-align: left;
-            font-size: 0.9rem;
-            color: var(--accent);
-        }
-        td {
-            padding: 1rem;
-            border-bottom: 1px solid var(--glass-border);
-            font-size: 0.9rem;
-        }
-        .section-premium {
-            margin-bottom: 4rem;
-        }
-        .section-premium h2 {
-            font-size: 1.8rem;
-            color: var(--accent);
-            margin-bottom: 2rem;
-            display: flex;
-            align-items: center;
-            gap: 15px;
-        }
+        .metric-card { text-align: center; padding: 1.5rem; }
+        .metric-value { font-size: 2.2rem; font-weight: 700; color: var(--accent); margin-bottom: 0.5rem; }
+        .metric-label { font-size: 0.75rem; letter-spacing: 2px; opacity: 0.6; text-transform: uppercase; }
+        table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; background: rgba(255,255,255,0.02); border-radius: 12px; overflow: hidden; }
+        th { background: rgba(255,255,255,0.05); padding: 1rem; text-align: left; font-size: 0.9rem; color: var(--accent); }
+        td { padding: 0.9rem 1rem; border-bottom: 1px solid var(--glass-border); font-size: 0.9rem; }
+        td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+        .section-premium { margin-bottom: 3rem; }
+        .section-premium h2 { font-size: 1.5rem; color: var(--accent); margin-bottom: 1.5rem; display: flex; align-items: center; gap: 12px; }
+        .scenario-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.2rem; }
+        .scenario-card { padding: 1.2rem; border-radius: 12px; border-left: 4px solid; }
+        .scenario-opt { background: rgba(46, 213, 115, 0.08); border-color: #2ed573; }
+        .scenario-esp { background: rgba(255, 165, 2, 0.08); border-color: #ffa502; }
+        .scenario-pes { background: rgba(255, 71, 87, 0.08); border-color: #ff4757; }
+        .scenario-card h4 { margin: 0 0 0.4rem 0; font-size: 0.95rem; }
+        .scenario-card .figure { font-size: 1.6rem; font-weight: 700; margin: 0.3rem 0; }
+        .scenario-card p { font-size: 0.82rem; opacity: 0.85; margin: 0.4rem 0 0 0; line-height: 1.5; }
+        .risk-card { padding: 1.2rem; border-radius: 12px; border-left: 4px solid; margin-bottom: 1rem; }
+        .risk-high { background: rgba(255, 71, 87, 0.08); border-color: #ff4757; }
+        .risk-med { background: rgba(255, 165, 2, 0.08); border-color: #ffa502; }
+        .risk-low { background: rgba(46, 213, 115, 0.08); border-color: #2ed573; }
+        .risk-card h4 { margin: 0 0 0.5rem 0; font-size: 1rem; }
+        .risk-card p { font-size: 0.85rem; opacity: 0.85; margin: 0.3rem 0; line-height: 1.5; }
+        .footnote { font-size: 0.78rem; opacity: 0.6; line-height: 1.5; margin-top: 0.6rem; font-style: italic; }
+        .disclaimer { background: rgba(255, 215, 0, 0.06); border: 1px solid rgba(255, 215, 0, 0.3); border-radius: 12px; padding: 1.2rem; margin-top: 2rem; }
+        .disclaimer h4 { color: #ffd700; margin: 0 0 0.5rem 0; font-size: 1rem; }
+        .disclaimer p { font-size: 0.85rem; opacity: 0.9; line-height: 1.6; margin: 0.4rem 0; }
+        @media print { .btn-dt { display: none; } body { color: #000; background: #fff; } }
     </style>
 </head>
 <body>
     <div id="lfc-sidebar-container"></div>
     <div class="main-content-wrapper">
-        <div class="premium-card" style="margin-bottom: 3rem; position: relative;">
+        <div class="premium-card" style="margin-bottom: 2rem; position: relative;">
             <div id="adn-version-tag" style="position: absolute; top: 10px; right: 20px; font-size: 0.6rem; letter-spacing: 2px; opacity: 0.5;">CARGANDO...</div>
             <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
                 <div>
-                    <h1 class="premium-title" id="main-dns-title">📋 REPORTE GERENCIAL</h1>
-                    <p id="main-dns-subtitle" style="opacity: 0.7; font-weight: 300;">Cargando base técnica...</p>
+                    <h1 class="premium-title" id="main-dns-title">REPORTE GERENCIAL</h1>
+                    <p id="main-dns-subtitle" style="opacity: 0.7; font-weight: 300;">Cargando…</p>
                 </div>
-                <button onclick="window.print()" class="btn-dt" style="padding: 1rem 2rem;">📄 EXPORTAR PDF</button>
+                <button onclick="window.print()" class="btn-dt" style="padding: 0.8rem 1.5rem;">Exportar PDF</button>
             </div>
         </div>
 
-        <div class="metrics-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1.5rem; margin-bottom: 4rem;">
-            <div class="premium-card metric-card"><div class="metric-value">$287.8B</div><div class="metric-label">Presupuesto (COP)</div></div>
-            <div class="premium-card metric-card"><div class="metric-value">$65.4M</div><div class="metric-label">Presupuesto (USD)</div></div>
-            <div class="premium-card metric-card"><div class="metric-value">-$50.2B</div><div class="metric-label">Impacto Neto</div></div>
-            <div class="premium-card metric-card"><div class="metric-value">100%</div><div class="metric-label">Coherencia</div></div>
+        <!-- KPIs vivos -->
+        <div class="metrics-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1.2rem; margin-bottom: 2rem;">
+            <div class="premium-card metric-card"><div class="metric-value" id="m-cop">…</div><div class="metric-label">Presupuesto COP</div></div>
+            <div class="premium-card metric-card"><div class="metric-value" id="m-usd-risk">…</div><div class="metric-label">USD @ TRM Risk 4.400</div></div>
+            <div class="premium-card metric-card"><div class="metric-value" id="m-usd-real">…</div><div class="metric-label">USD @ TRM real 3.637</div></div>
+            <div class="premium-card metric-card"><div class="metric-value" id="m-items">…</div><div class="metric-label">Ítems WBS · BCD v001</div></div>
         </div>
 
+        <!-- Banner línea base -->
         <div class="section-premium">
             <div class="premium-card" style="border-left: 5px solid var(--success);">
-                <h3 style="color: var(--success); margin-bottom: 1rem;">✅ CORRECCIÓN DOCUMENTAL EXITOSA</h3>
-                <p style="opacity: 0.8; line-height: 1.6;">Se ha completado exitosamente la corrección masiva del ecosistema documental, eliminando desalineaciones críticas y generando un presupuesto definitivo coherente con los criterios técnicos maestros del proyecto.</p>
+                <h3 style="color: var(--success); margin-bottom: 0.6rem;">Línea base BCD v001 — alineación contractual</h3>
+                <p style="opacity: 0.85; line-height: 1.6; margin: 0;">Presupuesto alineado a las Bases y Criterios de Diseño SCC v001 (Ardanuy, abril 2026) y a las DTs internas vigentes (DT-COMS-2026-007 línea base ADIF v1, DT-CTRL-2026-006 flota tractiva). Cifras vivas calculadas en cliente desde <code>wbs_presupuestal_datos.js</code> vía <code>wbs_core_logic.js → calcularAIUeIVA()</code>.</p>
             </div>
         </div>
-            
+
+        <!-- Comparativa contractual -->
         <div class="premium-card section-premium">
-            <h2 style="color: var(--accent); display: flex; align-items: center; gap: 15px;">
-                <span style="font-size: 1.5rem;">🔧</span> JUSTIFICACIÓN DE CANTIDADES POR SISTEMA
-            </h2>
-            <p style="margin-bottom: 2rem;">El proyecto implementa una <strong>filosofía de senalización virtual</strong> que elimina componentes físicos tradicionales y optimiza la arquitectura de comunicaciones:</p>
-            <div class="table-container">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Sistema</th>
-                            <th>Cantidad</th>
-                            <th>Justificación Técnica</th>
-                            <th>Impacto Presupuestal</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr><td><strong>Fibra Óptica</strong></td><td>579 km (526km + 10%)</td><td>Corredor principal + Gasa Técnica (curvaturas/derivaciones) + 3% Stock</td><td>Base de comunicaciones</td></tr>
-                        <tr><td><strong>TETRA / LTE</strong></td><td>37 estaciones</td><td>Cobertura completa con 15-20% solapamiento (Misión Crítica)</td><td>+$8.0B COP</td></tr>
-                        <tr><td><strong>Red de Respaldo Vital IP</strong></td><td>37 estaciones</td><td>Redundancia operacional para Vital IP / GNSS Fusion</td><td>+$3.5B COP</td></tr>
-                        <tr><td><strong>Locomotoras</strong></td><td>15 unidades</td><td>Flota operacional del proyecto</td><td>Base para PTC</td></tr>
-                        <tr><td><strong>ENCE</strong></td><td>5 estaciones</td><td>Zapatosa, García Cadena, Barrancabermeja (Puerto), Puerto Berrío, La Dorada</td><td>+$6.0B COP</td></tr>
-                        <tr><td><strong>Desvíos</strong></td><td>120 unidades</td><td>25 motorizados + 95 manuales</td><td>+$3.8B COP</td></tr>
-                        <tr><td><strong>CCTV</strong></td><td>73 cámaras</td><td>Cobertura estratégica del corredor</td><td>+$1.2B COP</td></tr>
-                    </tbody>
-                </table>
-            </div>
-            <div style="background: rgba(255, 71, 87, 0.1); border: 1px solid #ff4757; border-radius: 12px; padding: 1.5rem; margin-top: 2rem;">
-                <h3 style="color: #ff4757; margin-bottom: 1rem;">⚠️ ELIMINACIONES CRÍTICAS (SANEAMIENTO)</h3>
-                <ul style="opacity: 0.9;">
-                    <li><strong>Puntos de Referencia Virtuales (SICC):</strong> 1,080 → 0 unidades (Sustituido por GNSS/PTC)</li>
-                    <li><strong>Senalización en Cabina (Cab-Signaling):</strong> 270 → 0 unidades (Bloqueo Virtual)</li>
-                    <li><strong>Servidor PTC Central Legacy:</strong> 2 → 0 unidades (Vital IP Servers)</li>
-                    <li><strong>[CONTROLLER PROHIBIDO - SICC ES VIRTUAL] Interfacing:</strong> 1,080 → 0 unidades (Red IP Unificada)</li>
-                </ul>
-                <p style="margin-top: 1rem; font-size: 0.85rem;"><strong>Justificación:</strong> La migración a Soberanía Tecnológica LFC elimina la dependencia de hardware importado y minimiza el mantenimiento en vía.</p>
+            <h2>Comparativa contractual — referencias monetarias</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Línea</th>
+                        <th class="num">USD @ TRM 4.400</th>
+                        <th class="num">COP (M)</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Precio de estructuración</strong> — bancos Grupo Ortiz</td>
+                        <td class="num"><strong>73,66 M</strong></td>
+                        <td class="num">324.104</td>
+                        <td>Techo bancario</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Línea base actual</strong> — Ortiz Colombia (corte <span id="fecha-corte">2026-05-05</span>)</td>
+                        <td class="num"><strong id="cmp-lfc">…</strong></td>
+                        <td class="num" id="cmp-lfc-cop">…</td>
+                        <td>Adjunta a banca</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Referencia Ardanuy v1</strong> — consultor de diseño</td>
+                        <td class="num"><strong>57,33 M</strong></td>
+                        <td class="num">252.251</td>
+                        <td>Validación cruzada</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr style="background: rgba(46, 213, 115, 0.08); font-weight: 600;">
+                        <td>Holgura LFC vs estructuración</td>
+                        <td class="num" id="cmp-gap">…</td>
+                        <td class="num" id="cmp-gap-cop">…</td>
+                        <td>Margen disponible</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <p class="footnote">Cifras Ardanuy convertidas a TRM 4.400 para comparación homogénea. Cifra original del consultor: 252.251 M COP / 66,4 M USD @ TRM implícita 3.800 (documento <code>LFC-U2-CTSC-ED-QTO-CO-0001</code>).</p>
+        </div>
+
+        <!-- Escenarios de ejecución -->
+        <div class="premium-card section-premium">
+            <h2>Escenarios de ejecución</h2>
+            <div class="scenario-grid">
+                <div class="scenario-card scenario-opt">
+                    <h4>Optimista</h4>
+                    <div class="figure">~59 M USD</div>
+                    <p>Línea base actual @ TRM Risk 4.400. Asume cierre exitoso de RFQ pendientes dentro de la banda ADIF + sin reasignación de composición Ardanuy.</p>
+                </div>
+                <div class="scenario-card scenario-esp">
+                    <h4>Esperado</h4>
+                    <div class="figure">59 – 71 M USD</div>
+                    <p>Banda entre TRM Risk (4.400) y TRM real spot (3.637). Refleja exposición cambiaria sin colchón. Sin DT-COMS-2026-008 todavía aplicada.</p>
+                </div>
+                <div class="scenario-card scenario-pes">
+                    <h4>Pesimista</h4>
+                    <div class="figure">80 – 110 M USD</div>
+                    <p>Materialización de gaps Ardanuy: obra civil FO subestimada (~16 M USD), Diseño Fase III ausente (~2,8 M USD), upgrade ENCE post-RFQ (~2,1 M USD), TRM real adversa.</p>
+                </div>
             </div>
         </div>
-            
+
+        <!-- Resumen por capítulo -->
         <div class="premium-card section-premium">
-            <h2 style="color: var(--accent); display: flex; align-items: center; gap: 15px;">
-                <span style="font-size: 1.5rem;">📊</span> SUPUESTOS TÉCNICOS Y COMERCIALES
-            </h2>
+            <h2>Resumen por capítulo</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Cap.</th>
+                        <th>Sistema</th>
+                        <th class="num">Costo Directo (COP)</th>
+                        <th class="num">Total c/AIU+IVA (COP)</th>
+                        <th class="num">USD @ 4.400</th>
+                    </tr>
+                </thead>
+                <tbody id="tabla-capitulos"><tr><td colspan="5" style="text-align:center; opacity:0.6;">Cargando…</td></tr></tbody>
+                <tfoot id="tabla-capitulos-foot"></tfoot>
+            </table>
+        </div>
+
+        <!-- Riesgos contractuales -->
+        <div class="premium-card section-premium">
+            <h2>Riesgos contractuales (BCD-aligned)</h2>
+
+            <div class="risk-card risk-high">
+                <h4>🔴 ALTO — Aprobación criterios de diseño V1 (no-objeción Interventoría)</h4>
+                <p>Las cifras son <strong>estimadas hasta la no-objeción de la Interventoría</strong> sobre los criterios V1 (Apéndice Técnico 1, Tabla 17). El cierre de la línea base depende de esa aprobación, que fija el <strong>Stop & Switch en Chiriguaná</strong> y deja fuera del alcance las soluciones propietarias de Knorr-Bremse y PowerTrunk.</p>
+            </div>
+
+            <div class="risk-card risk-high">
+                <h4>🔴 ALTO — Gap obra civil FO vs Ardanuy</h4>
+                <p>LFC tiene $52.219 M COP en obra civil de fibra; Ardanuy estima $122.894 M COP. Diferencia de ~$70.675 M COP (~16 M USD). Si Ardanuy cotiza correctamente, ejecución queda corta. Mitigación: reasignación interna desde Cap 4.3 (PaN básicos fuera del alcance BCD §8.2) y Cap 6 (OBU). Ver <code>roadmap.md → Bloque D</code>.</p>
+            </div>
+
+            <div class="risk-card risk-med">
+                <h4>🟡 MEDIO — RFQ pendientes (8 ítems)</h4>
+                <p>4 ítems en ratificación contra ADIF (ENCE, desvíos motorizados, control remoto, señales LED) + 4 sin ADIF en RFQ urgente (F.O. 48h G.652.D, contador de ejes, armario PTC SIL-3, UPS). Estado y proveedores priorizados en Vista Final → modal "Pendientes RFQ".</p>
+            </div>
+
+            <div class="risk-card risk-med">
+                <h4>🟡 MEDIO — Exposición cambiaria</h4>
+                <p>TRM Risk 4.400 incorpora margen ~+21% vs TRM real spot 3.637. Si la TRM se mantiene cerca del spot durante ejecución, el equivalente USD del CAPEX sube de 59,1 M a 71,5 M (+21%).</p>
+            </div>
+
+            <div class="risk-card risk-low">
+                <h4>🟢 BAJO — Stop & Switch FENOCO</h4>
+                <p>El alcance contractual es <strong>operativo (Stop & Switch en Chiriguaná)</strong>, no integración técnica con FENOCO. Esto retira los costos de interoperabilidad pesada del CAPEX SCC.</p>
+            </div>
+        </div>
+
+        <!-- Supuestos técnicos y comerciales -->
+        <div class="premium-card section-premium">
+            <h2>Supuestos técnicos y comerciales</h2>
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
                 <div>
-                    <h3 style="color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 0.5rem; margin-bottom: 1rem;">🔧 Técnicos</h3>
-                    <ul style="opacity: 0.8; line-height: 2;">
-                        <li><strong>Senalización Virtual:</strong> CTC + PTC embarcado</li>
-                        <li><strong>Colocalización:</strong> Infraestructura compartida (37 torres)</li>
-                        <li><strong>FENOCO:</strong> Interoperabilidad total garantizada</li>
-                        <li><strong>Fibra Óptica:</strong> Redundancia N+1 (526 km (+10% spare))</li>
-                        <li><strong>Energía:</strong> Doble respaldo (UPS + Generador)</li>
+                    <h3 style="color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 0.5rem; margin-bottom: 1rem;">Técnicos (BCD v001)</h3>
+                    <ul style="opacity: 0.85; line-height: 1.9; font-size: 0.9rem;">
+                        <li><strong>Trocha:</strong> 914 mm</li>
+                        <li><strong>Señalización virtual:</strong> CTC + PTC embarcado, Virtual Fixed Block bajo 49 CFR §236.1005</li>
+                        <li><strong>Fibra óptica:</strong> 48 hilos G.652.D OSP, 526 km + 10% spare</li>
+                        <li><strong>5 ENCE nominados:</strong> La Dorada–México, Pto Berrío–Grecia, Barrancabermeja, García Cadena, Zapatosa</li>
+                        <li><strong>Pasos a Nivel protegidos:</strong> 24 (9 Tipo C SIL-3 + 15 Tipo B SLA)</li>
+                        <li><strong>Flota tractiva:</strong> 15 unidades (1 U18 base AT1 §5 + 14 Factor Calidad concesionario)</li>
+                        <li><strong>UPS:</strong> 4h señalización · 24h TETRA sitios remotos</li>
+                        <li><strong>Stop & Switch FENOCO:</strong> operativo en Chiriguaná, sin integración técnica</li>
                     </ul>
                 </div>
                 <div>
-                    <h3 style="color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 0.5rem; margin-bottom: 1rem;">💰 Comerciales</h3>
-                    <ul style="opacity: 0.8; line-height: 2;">
-                        <li><strong>AIU:</strong> 33% (23% A + 5% I + 5% U)</li>
-                        <li><strong>IVA:</strong> 19% (Servicios) + 2.28% (Utilidad)</li>
-                        <li><strong>TRM:</strong> 4,400 COP/USD</li>
-                        <li><strong>Escalación:</strong> Integrada en CAPEX</li>
-                        <li><strong>Contingencias:</strong> 5% (Reserva de gestión)</li>
+                    <h3 style="color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 0.5rem; margin-bottom: 1rem;">Comerciales</h3>
+                    <ul style="opacity: 0.85; line-height: 1.9; font-size: 0.9rem;">
+                        <li><strong>AIU:</strong> 33% sobre Obra Civil (23% A + 5% I + 5% U)</li>
+                        <li><strong>IVA:</strong> 19% (Suministros + Servicios) + IVA 19% sobre Utilidad (Obra)</li>
+                        <li><strong>TRM Risk:</strong> 4.400 COP/USD (techo de cobertura cambiaria)</li>
+                        <li><strong>TRM real referencia:</strong> 3.637 COP/USD (spot informativo)</li>
+                        <li><strong>EUR/COP:</strong> 4.796 (TRM × 1,09)</li>
+                        <li><strong>Fuera del alcance:</strong> soluciones propietarias Knorr-Bremse y PowerTrunk</li>
+                        <li><strong>Líneas base de precios:</strong> ADIF (BPA España) + Conceptual LFC + RFQ pendientes</li>
                     </ul>
                 </div>
             </div>
         </div>
-            
-        <div class="premium-card section-premium">
-            <h2 style="color: var(--accent); display: flex; align-items: center; gap: 15px;">
-                <span style="font-size: 1.5rem;">🚨</span> ANÁLISIS DE RIESGOS PRINCIPALES
-            </h2>
-            
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
-                <div style="background: rgba(255, 71, 87, 0.1); border-left: 4px solid #ff4757; padding: 1.5rem; border-radius: 12px; border: 1px solid rgba(255, 71, 87, 0.2);">
-                    <h3 style="color: #ff4757; margin-bottom: 0.5rem; font-size: 1rem;">🔴 RIESGO ALTO</h3>
-                    <p style="font-size: 0.85rem; font-weight: 700; margin-bottom: 0.5rem;">Complejidad Interoperabilidad FENOCO</p>
-                    <p style="font-size: 0.8rem; opacity: 0.8; margin-bottom: 0.5rem;">Integración de sistemas CTC propios con Interoperabilidad Operacional FENOCO requiere coordinación técnica compleja.</p>
-                    <div style="font-size: 0.75rem; color: #ffbcbc;">Impacto: +$24B COP en equipamiento adicional.</div>
-                </div>
-                
-                <div style="background: rgba(255, 165, 2, 0.1); border-left: 4px solid #ffa502; padding: 1.5rem; border-radius: 12px; border: 1px solid rgba(255, 165, 2, 0.2);">
-                    <h3 style="color: #ffa502; margin-bottom: 0.5rem; font-size: 1rem;">🟡 RIESGO MEDIO</h3>
-                    <p style="font-size: 0.85rem; font-weight: 700; margin-bottom: 0.5rem;">Disponibilidad de Fibra Óptica</p>
-                    <p style="font-size: 0.8rem; opacity: 0.8; margin-bottom: 0.5rem;">Dependencia de 526 km (+10% spare) de fibra óptica en corredor con restricciones geográficas.</p>
-                    <div style="font-size: 0.75rem; color: #ffe0a3;">Mitigación: 10% repuesto incluido, rutas alternativas.</div>
-                </div>
 
-                <div style="background: rgba(255, 165, 2, 0.1); border-left: 4px solid #ffa502; padding: 1.5rem; border-radius: 12px; border: 1px solid rgba(255, 165, 2, 0.2);">
-                    <h3 style="color: #ffa502; margin-bottom: 0.5rem; font-size: 1rem;">🟡 RIESGO MEDIO</h3>
-                    <p style="font-size: 0.85rem; font-weight: 700; margin-bottom: 0.5rem;">Integración TETRA-PTC</p>
-                    <p style="font-size: 0.8rem; opacity: 0.8; margin-bottom: 0.5rem;">Colocalización de sistemas requiere coordinación de frecuencias y protocolos.</p>
-                    <div style="font-size: 0.75rem; color: #ffe0a3;">Ventaja: Optimización por infraestructura compartida.</div>
-                </div>
-
-                <div style="background: rgba(46, 213, 115, 0.1); border-left: 4px solid #2ed573; padding: 1.5rem; border-radius: 12px; border: 1px solid rgba(46, 213, 115, 0.2);">
-                    <h3 style="color: #2ed573; margin-bottom: 0.5rem; font-size: 1rem;">🟢 RIESGO BAJO</h3>
-                    <p style="font-size: 0.85rem; font-weight: 700; margin-bottom: 0.5rem;">Disponibilidad de Locomotoras</p>
-                    <p style="font-size: 0.8rem; opacity: 0.8; margin-bottom: 0.5rem;">Equipamiento de 15 locomotoras existentes con sistemas PTC.</p>
-                    <div style="font-size: 0.75rem; color: #b8ffd4;">Estado: Cronograma de instalación bien definido.</div>
-                </div>
-            </div>
-        </div>
-            
-        <div class="premium-card section-premium">
-            <h2 style="color: var(--accent); display: flex; align-items: center; gap: 15px;">
-                <span style="font-size: 1.5rem;">🎯</span> RECOMENDACIONES Y VENTAJAS
-            </h2>
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
-                <div style="background: rgba(255,255,255,0.05); padding: 1.5rem; border-radius: 12px; border-left: 4px solid var(--accent);">
-                    <h3 style="color: var(--accent); margin-bottom: 1rem;">🚀 Próximos Pasos</h3>
-                    <ul style="opacity: 0.9; font-size: 0.9rem;">
-                        <li>Acuerdos operativos FENOCO</li>
-                        <li>Gestión de licencias de espectro</li>
-                        <li>Contratos de suministro crítico</li>
-                        <li>Plan de pruebas virtuales</li>
-                    </ul>
-                </div>
-                <div style="background: rgba(46, 213, 115, 0.1); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #2ed573;">
-                    <h3 style="color: #2ed573; margin-bottom: 1rem;">👑 Ventajas</h3>
-                    <ul style="opacity: 0.9; font-size: 0.9rem;">
-                        <li>Ahorro neto: -$50.2B COP</li>
-                        <li>Menor mantenimiento físico</li>
-                        <li>Escalabilidad total (5G Ready)</li>
-                        <li>Interoperabilidad garantizada</li>
-                    </ul>
-                </div>
-            </div>
+        <!-- Disclaimer contractual -->
+        <div class="disclaimer">
+            <h4>Disclaimer contractual</h4>
+            <p>Las cifras son estimadas hasta la no-objeción de la Interventoría sobre los criterios de diseño V1 (Apéndice Técnico 1, Tabla 17, Contrato APP No. 001 de 2025). El cierre de la línea base depende de esa aprobación.</p>
+            <p>Detalle WBS por ítem: <a href="WBS_Vista_Final.html" style="color: var(--accent);">Vista Final</a> · Excel descargable de 7 hojas con desglose por capítulo, AIU, Acta de Obra, Pendientes RFQ y Fuentes.</p>
         </div>
     </div>
-    </div>
-    <script src="lfc-terminology.js?v=14.7.3"></script>
-    <script src="sidebar-component.js?v=14.7.3"></script>
 
-    <!-- Carga de datos dinámicos de reporte gerencial -->
-    <script src="reporte_gerencial_data.js?v=638956959295587343"></script>
+    <script src="lfc-terminology.js?v=14.7.5"></script>
+    <script src="sidebar-component.js?v=14.7.5"></script>
+    <script src="wbs_presupuestal_datos.js?v=14.7.5"></script>
+    <script src="wbs_core_logic.js?v=14.7.5"></script>
     <script>
-        // Inyectar ADN
-        if (window.LFC_TERMINOLOGY) {
-            const term = window.LFC_TERMINOLOGY;
-            document.getElementById('adn-page-title').textContent = `Reporte Gerencial - ${term.APP_SHORT_NAME}`;
-            document.getElementById('main-dns-title').innerHTML = `📋 REPORTE GERENCIAL EJECUTIVO`;
-            document.getElementById('main-dns-subtitle').textContent = `${term.PROJECT.FULL_LOCATION} | ${"DBCI FRA 236 SOVEREIGNTY"}`;
-            document.getElementById('adn-version-tag').textContent = term.PROJECT.VERSION;
-        }
+        const TRM_REAL = 3637;
+        const ESTRUCTURACION_USD = 73_660_000;
 
-        // Verificar carga de datos
-        if (typeof window.reporteGerencialData !== 'undefined') {
-            console.log('✅ Reporte Gerencial cargado');
-        }
+        function fmtCOP_M(n) { return '$' + (n / 1e6).toLocaleString('es-CO', { maximumFractionDigits: 0 }) + 'M'; }
+        function fmtCOP_full(n) { return '$' + Math.round(n).toLocaleString('es-CO'); }
+        function fmtUSD_M(n) { return '$' + (n / 1e6).toLocaleString('en-US', { maximumFractionDigits: 1 }) + 'M'; }
+        function fmtCOPMillones(n) { return Math.round(n / 1e6).toLocaleString('es-CO'); }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            // ADN
+            if (window.LFC_TERMINOLOGY) {
+                const t = window.LFC_TERMINOLOGY;
+                document.getElementById('adn-page-title').textContent = `Reporte Gerencial — ${t.APP_SHORT_NAME || 'LFC2'}`;
+                document.getElementById('main-dns-title').textContent = `REPORTE GERENCIAL EJECUTIVO`;
+                document.getElementById('main-dns-subtitle').textContent = `${t.PROJECT?.FULL_LOCATION || 'La Dorada – Chiriguaná'} · Contrato APP No. 001 de 2025`;
+                document.getElementById('adn-version-tag').textContent = t.PROJECT?.VERSION || 'v14.7';
+            }
+
+            if (typeof WBS_CORE === 'undefined' || !window.wbsDataPresupuestal) {
+                document.getElementById('m-cop').textContent = 'ERROR';
+                console.error('WBS_CORE o wbsDataPresupuestal no cargados');
+                return;
+            }
+
+            const TRM = WBS_CORE.getTRM();
+            const calc = WBS_CORE.calcularAIUeIVA(window.wbsDataPresupuestal);
+            const nItems = window.wbsDataPresupuestal.length;
+
+            // KPIs
+            document.getElementById('m-cop').textContent = fmtCOP_M(calc.total);
+            document.getElementById('m-usd-risk').textContent = fmtUSD_M(calc.total / TRM);
+            document.getElementById('m-usd-real').textContent = fmtUSD_M(calc.total / TRM_REAL);
+            document.getElementById('m-items').textContent = nItems;
+
+            // Comparativa
+            const lfcUSD = calc.total / TRM;
+            document.getElementById('cmp-lfc').textContent = (lfcUSD / 1e6).toLocaleString('es-CO', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' M';
+            document.getElementById('cmp-lfc-cop').textContent = fmtCOPMillones(calc.total);
+            const gap = ESTRUCTURACION_USD - lfcUSD;
+            const gapCOP = gap * TRM;
+            document.getElementById('cmp-gap').textContent = '+' + (gap / 1e6).toLocaleString('es-CO', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' M';
+            document.getElementById('cmp-gap-cop').textContent = '+' + fmtCOPMillones(gapCOP);
+
+            // Tabla por capítulo
+            const nombres = WBS_CORE.getNombresCapitulos ? WBS_CORE.getNombresCapitulos() : {};
+            const tbody = document.getElementById('tabla-capitulos');
+            tbody.innerHTML = '';
+            Object.keys(calc.capitulos).sort().forEach(cap => {
+                const c = calc.capitulos[cap];
+                const usd = c.total / TRM;
+                tbody.innerHTML += `
+                    <tr>
+                        <td><strong>${cap}</strong></td>
+                        <td>${nombres[cap] || ('Capítulo ' + cap)}</td>
+                        <td class="num">${fmtCOP_full(c.costoDirecto)}</td>
+                        <td class="num"><strong>${fmtCOP_full(c.total)}</strong></td>
+                        <td class="num">${fmtUSD_M(usd)}</td>
+                    </tr>`;
+            });
+            document.getElementById('tabla-capitulos-foot').innerHTML = `
+                <tr style="background: rgba(255, 215, 0, 0.08); font-weight: 700;">
+                    <td colspan="2">TOTAL PROYECTO</td>
+                    <td class="num">${fmtCOP_full(calc.costoDirecto)}</td>
+                    <td class="num">${fmtCOP_full(calc.total)}</td>
+                    <td class="num">${fmtUSD_M(calc.total / TRM)}</td>
+                </tr>`;
+
+            // Fecha de corte
+            document.getElementById('fecha-corte').textContent = new Date().toLocaleDateString('es-CO', { year: 'numeric', month: '2-digit', day: '2-digit' });
+
+            console.log('✅ Reporte Gerencial v14.7.5 cargado · ' + nItems + ' ítems · TRM ' + TRM);
+        });
     </script>
 </body>
 </html>
-
-
-
-
