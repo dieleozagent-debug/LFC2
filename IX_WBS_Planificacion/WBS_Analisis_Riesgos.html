@@ -344,9 +344,9 @@
         <div class="risk-summary" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 1.2rem; margin-bottom: 2rem;">
             <div class="premium-card risk-metric" style="border-left: 4px solid #2ed573;">
                 <div class="metric-value" id="m-residual-sicc" style="color: #2ed573;">…</div>
-                <div class="metric-label">Provisión Residual SICC ⭐</div>
+                <div class="metric-label">Provisión Residual SCC ⭐</div>
                 <div id="m-residual-ratio" style="font-size: 0.72rem; opacity: 0.85; margin-top: 0.4rem; font-weight: 600;">…</div>
-                <div style="font-size: 0.72rem; opacity: 0.65; margin-top: 0.5rem; line-height: 1.5;"><strong style="color:#2ed573;">SICC</strong> = Sistema de Señalización, Control de Tráfico y Comunicaciones. Es la cifra que el equipo SICC <strong>sí debe provisionar</strong> contra el margen del proyecto.</div>
+                <div style="font-size: 0.72rem; opacity: 0.65; margin-top: 0.5rem; line-height: 1.5;"><strong style="color:#2ed573;">SCC</strong> = Sistema de Comunicación, Control de Tráfico y Señalización (alcance contractual UF2 según BCD v001). Es la cifra que el alcance SCC <strong>sí debe provisionar</strong> contra el margen del proyecto.</div>
                 <div id="m-residual-sicc-subset" style="display: none; margin-top: 0.7rem; padding-top: 0.7rem; border-top: 1px dashed rgba(255,215,0,0.3);">
                     <div style="font-size: 0.65rem; letter-spacing: 1px; color: #ffd700; text-transform: uppercase;">Filtrado</div>
                     <div style="font-size: 1.2rem; font-weight: 700; color: #ffd700; margin-top: 0.2rem;" id="m-residual-sicc-subset-val">$0M</div>
@@ -376,8 +376,8 @@
             <div class="premium-card risk-metric" style="border-left: 4px solid #c39bd3;">
                 <div class="metric-value" id="m-otros-owners" style="color: #c39bd3;">…</div>
                 <div class="metric-label">Otros owners (CFO, HSEQ)</div>
-                <div style="font-size: 0.7rem; opacity: 0.85; margin-top: 0.4rem; font-weight: 600; color: #c39bd3;">Cancha ajena a SICC</div>
-                <div style="font-size: 0.72rem; opacity: 0.65; margin-top: 0.5rem; line-height: 1.5;">Riesgos que existen para el proyecto pero NO son responsabilidad del equipo SICC: <strong>cobertura cambiaria</strong> (CFO/Tesorería), orden público (HSEQ), estructuración financiera (Concesionario). Se reportan para visibilidad gerencial pero no entran a la provisión SICC.</div>
+                <div style="font-size: 0.7rem; opacity: 0.85; margin-top: 0.4rem; font-weight: 600; color: #c39bd3;">Cancha ajena a SCC</div>
+                <div style="font-size: 0.72rem; opacity: 0.65; margin-top: 0.5rem; line-height: 1.5;">Riesgos que existen para el proyecto pero NO son responsabilidad del equipo SCC: <strong>cobertura cambiaria</strong> (CFO/Tesorería), orden público (HSEQ), estructuración financiera (Concesionario). Se reportan para visibilidad gerencial pero no entran a la provisión SCC.</div>
                 <div id="m-otros-owners-subset" style="display: none; margin-top: 0.7rem; padding-top: 0.7rem; border-top: 1px dashed rgba(255,215,0,0.3);">
                     <div style="font-size: 0.65rem; letter-spacing: 1px; color: #ffd700; text-transform: uppercase;">Filtrado</div>
                     <div style="font-size: 1.0rem; font-weight: 700; color: #ffd700; margin-top: 0.2rem;" id="m-otros-owners-subset-val">$0M</div>
@@ -395,17 +395,17 @@
         <div class="premium-card" style="margin-bottom: 2rem; padding: 1.5rem 2rem;">
             <h3 style="color: var(--accent); margin: 0 0 0.6rem 0; font-size: 1.05rem;">📖 Glosario rápido</h3>
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 0.8rem 2rem; margin-bottom: 1rem;">
-                <div style="font-size: 0.88rem; line-height: 1.5;"><strong style="color: #2ed573;">SICC</strong> — <em>Sistema de Señalización, Control de Tráfico y Comunicaciones.</em> Es el alcance contractual de UF2 (la "cancha" del Director Técnico). Todo lo que sale de SICC es cancha de otro: CFO (cobertura cambiaria), HSEQ (orden público), ANI (modificaciones contractuales), Concesionario (estructuración financiera).</div>
+                <div style="font-size: 0.88rem; line-height: 1.5;"><strong style="color: #2ed573;">SCC</strong> — <em>Sistema de Comunicación, Control de Tráfico y Señalización</em> (sigla contractual del <strong>BCD v001</strong> — Ardanuy abril 2026). Es el alcance contractual de UF2 (la "cancha" del Director Técnico). Todo lo que sale de SCC es cancha de otro: CFO (cobertura cambiaria), HSEQ (orden público), ANI (modificaciones contractuales), Concesionario (estructuración financiera). <span style="color:#ffa502;">⚠️ NO confundir con <strong>SICC del AT4</strong></span> — ese es el Sistema de Indicadores de Calidad/Cumplimiento (KPIs contractuales · RAMS · disponibilidad), un sistema distinto.</div>
                 <div style="font-size: 0.88rem; line-height: 1.5;"><strong style="color: #ffd700;">Transferido ANI</strong> — costos que <strong>NO paga LFC</strong>. El Contrato APP 001/2025 los carga a la Agencia Nacional de Infraestructura vía Cláusulas <strong>§9.11(b)(ii) + §9.12(a) → §25.4</strong> si la Interventoría los exige fuera del alcance contractual (Tabla 17 AT1). LFC los defiende contractualmente; si pierde el match, va a ANI.</div>
-                <div style="font-size: 0.88rem; line-height: 1.5;"><strong style="color: #2ed573;">Provisión Residual</strong> — la cifra que el equipo SICC sí debe provisionar contra el margen. Es la suma de <em>exposición esperada</em> (probabilidad × punto medio del residual post-mitigación) de cada riesgo SICC.</div>
+                <div style="font-size: 0.88rem; line-height: 1.5;"><strong style="color: #2ed573;">Provisión Residual</strong> — la cifra que el equipo SCC sí debe provisionar contra el margen. Es la suma de <em>exposición esperada</em> (probabilidad × punto medio del residual post-mitigación) de cada riesgo SCC.</div>
                 <div style="font-size: 0.88rem; line-height: 1.5;"><strong style="color: #ff8a95;">Riesgo principal vs residual</strong> — el <em>principal</em> es el worst-case bruto si nada se mitiga (asusta pero no es realista); el <em>residual</em> es lo que queda después de aplicar la palanca de campo o contractual. La provisión va sobre residual, no sobre principal.</div>
             </div>
             <h3 style="color: var(--accent); margin: 1.2rem 0 0.6rem 0; font-size: 1.05rem;">📊 Metodología — 4 ejes de clasificación</h3>
-            <p style="opacity: 0.85; line-height: 1.6; margin: 0 0 0.6rem 0; font-size: 0.9rem;">Cada ítem se clasifica con cuatro ejes para que el KPI gerencial separe lo que es cancha SICC de lo transferible o de cancha ajena:</p>
+            <p style="opacity: 0.85; line-height: 1.6; margin: 0 0 0.6rem 0; font-size: 0.9rem;">Cada ítem se clasifica con cuatro ejes para que el KPI gerencial separe lo que es cancha SCC de lo transferible o de cancha ajena:</p>
             <ul style="opacity: 0.85; line-height: 1.7; margin: 0; padding-left: 1.5rem; font-size: 0.88rem;">
                 <li><strong style="color: #2ed573;">Tipo</strong> — RIESGO (eventual, va a provisión) u <strong style="color: #2ed573;">OPORTUNIDAD</strong> (palanca activa de optimización, va al margen).</li>
-                <li><strong>Responsable CapEx</strong> — solo <em>SICC</em> suma al KPI principal. <em>ANI</em> son costos transferidos por contrato (Sec 9.11/9.12→25.4). <em>CFO/HSEQ/Concesionario</em> son cancha ajena.</li>
-                <li><strong style="color: #ffd700;">Transferibilidad</strong> — si el costo es transferible a ANI por contrato, residual SICC = 0 y se reporta el monto transferido por separado (no asusta al gerente con un costo que LFC no paga).</li>
+                <li><strong>Responsable CapEx</strong> — solo <em>SCC</em> suma al KPI principal. <em>ANI</em> son costos transferidos por contrato (Sec 9.11/9.12→25.4). <em>CFO/HSEQ/Concesionario</em> son cancha ajena.</li>
+                <li><strong style="color: #ffd700;">Transferibilidad</strong> — si el costo es transferible a ANI por contrato, residual SCC = 0 y se reporta el monto transferido por separado (no asusta al gerente con un costo que LFC no paga).</li>
                 <li><strong style="color: #ffa502;">Confianza</strong> — visible en cada card: <em>orden_magnitud</em> (estimación), <em>pendiente_wbs</em> (a confirmar contra WBS Acta v3.0), <em>wbs_firme</em> (cifra cerrada).</li>
             </ul>
             <p style="opacity: 0.75; line-height: 1.5; margin: 0.8rem 0 0 0; font-size: 0.82rem; font-style: italic;">Para cada riesgo: el <strong style="color: #ff8a95;">principal</strong> (worst-case bruto) sostiene el argumento; la <strong style="color: var(--accent);">mitigación</strong> muestra la palanca; el <strong style="color: #2ed573;">residual</strong> va a provisión. Los riesgos macro están en residual=0 para evitar doble conteo con sus descomposiciones.</p>
@@ -441,8 +441,8 @@
             </div>
         </div>
     </div>
-    <script src="lfc-terminology.js?v=14.7.9"></script>
-    <script src="sidebar-component.js?v=14.7.9"></script>
+    <script src="lfc-terminology.js?v=14.7.10"></script>
+    <script src="sidebar-component.js?v=14.7.10"></script>
 
     <script>
         // Inyectar ADN
@@ -471,7 +471,7 @@
 
             items.forEach(r => {
                 const tipo = r.tipo || 'RIESGO';
-                const owner = r.responsable_capex || 'SICC';
+                const owner = r.responsable_capex || 'SCC';
                 const transf = r.transferibilidad;
                 const exp = r.exposicion_residual_cop || 0;
                 const lvl = r.nivel_exposicion || '';
@@ -494,7 +494,7 @@
                     siccResidual += exp;
                     return;
                 }
-                if (owner !== 'SICC') {
+                if (owner !== 'SCC') {
                     otrosOwners += exp;
                     return;
                 }
@@ -505,12 +505,12 @@
         }
 
         function renderTotalKPIs(tot) {
-            // KPI principal Provisión SICC
-            const elSICC = document.getElementById('m-residual-sicc');
+            // KPI principal Provisión SCC
+            const elSCC = document.getElementById('m-residual-sicc');
             const elRatio = document.getElementById('m-residual-ratio');
-            if (elSICC) {
+            if (elSCC) {
                 const usd = (tot.siccResidual * 1e6) / TRM_BANNER / 1e6;
-                elSICC.innerHTML = `${fmtUSD(tot.siccResidual)}<div style="font-size: 0.85rem; opacity: 0.75; font-weight: 500; margin-top: 0.3rem;">${fmtCOP(tot.siccResidual)}</div>`;
+                elSCC.innerHTML = `${fmtUSD(tot.siccResidual)}<div style="font-size: 0.85rem; opacity: 0.75; font-weight: 500; margin-top: 0.3rem;">${fmtCOP(tot.siccResidual)}</div>`;
                 if (elRatio) {
                     const pctMargen = (usd / MARGEN_USD * 100).toFixed(1);
                     const pctCD = (tot.siccResidual / 211191 * 100).toFixed(2);
@@ -570,7 +570,7 @@
             });
             if (!showSubset) return;
 
-            // Provisión SICC subset
+            // Provisión SCC subset
             const elVal = document.getElementById('m-residual-sicc-subset-val');
             const elPct = document.getElementById('m-residual-sicc-subset-pct');
             if (elVal) {
@@ -580,7 +580,7 @@
             if (elPct) {
                 const pctTotal = tot.siccResidual > 0 ? (sub.siccResidual / tot.siccResidual * 100).toFixed(1) : 0;
                 const pctMargen = (sub.siccResidual * 1e6 / TRM_BANNER / 1e6 / MARGEN_USD * 100).toFixed(1);
-                elPct.innerHTML = `<strong>${pctTotal}%</strong> del total SICC · <strong>${pctMargen}%</strong> del margen`;
+                elPct.innerHTML = `<strong>${pctTotal}%</strong> del total SCC · <strong>${pctMargen}%</strong> del margen`;
             }
             // ANI subset
             const elANISub = document.getElementById('m-transferido-ani-subset-val');
@@ -718,7 +718,7 @@
     </script>
 
     <!-- Carga de datos dinámicos de riesgos -->
-    <script src="riesgos_wbs.js?v=14.7.9"></script>
+    <script src="riesgos_wbs.js?v=14.7.10"></script>
     <script>
         // Verificar que los datos se cargaron correctamente
         if (typeof window.riesgosWbs !== 'undefined') {
@@ -766,7 +766,7 @@
                                          r.nivel_exposicion === 'MEDIA' ? 'medium' : 'low';
 
                     const tipo = r.tipo || 'RIESGO';
-                    const owner = r.responsable_capex || 'SICC';
+                    const owner = r.responsable_capex || 'SCC';
                     const isOpp = tipo === 'OPORTUNIDAD';
                     const isANI = owner === 'ANI' || (r.transferibilidad && r.transferibilidad.a === 'ANI');
 
@@ -793,7 +793,7 @@
                     if (isOpp) extraBadges += '<span class="badge-oportunidad">💡 OPORTUNIDAD</span>';
                     if (isANI) extraBadges += '<span class="badge-ani">🏛️ Transferible ANI</span>';
                     if (owner === 'CFO') extraBadges += '<span class="badge-cfo">💼 Cancha CFO</span>';
-                    else if (owner !== 'SICC' && owner !== 'ANI') extraBadges += `<span class="badge-cfo">${owner}</span>`;
+                    else if (owner !== 'SCC' && owner !== 'ANI') extraBadges += `<span class="badge-cfo">${owner}</span>`;
                     if (r.confianza) extraBadges += `<span class="badge-confianza ${r.confianza}">${r.confianza === 'wbs_firme' ? '✅ WBS firme' : (r.confianza === 'pendiente_wbs' ? '⏳ Pendiente WBS' : '~ Orden magnitud')}</span>`;
 
                     const header = document.createElement('div');
@@ -854,11 +854,11 @@
                         const residualDiv = document.createElement('div');
                         residualDiv.className = 'risk-residual-block';
                         if (isANI && (!residual || (residual.cop_min === 0 && residual.cop_max === 0))) {
-                            // Riesgo transferido a ANI con residual SICC = 0 — bloque informativo
+                            // Riesgo transferido a ANI con residual SCC = 0 — bloque informativo
                             residualDiv.innerHTML = `
-                                <h5>✅ Residual SICC = 0 (transferido a ANI)</h5>
+                                <h5>✅ Residual SCC = 0 (transferido a ANI)</h5>
                                 <div class="risk-residual-figure">$0M COP</div>
-                                <p class="risk-residual-desc">${residual?.descripcion || 'Costo transferible a ANI por construcción contractual — no entra a la provisión SICC.'}</p>
+                                <p class="risk-residual-desc">${residual?.descripcion || 'Costo transferible a ANI por construcción contractual — no entra a la provisión SCC.'}</p>
                             `;
                         } else if (residual && (residual.cop_min !== 0 || residual.cop_max !== 0)) {
                             residualDiv.innerHTML = `

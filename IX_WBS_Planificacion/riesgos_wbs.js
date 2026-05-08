@@ -9,7 +9,7 @@
 window.riesgosWbs = {
   "fecha_actualizacion": "2026-05-08",
   "schema_version": "v3",
-  "metodologia": "Cada ítem se clasifica con 4 ejes para que el KPI gerencial separe bien lo que es cancha SICC de lo transferible o de cancha ajena: (1) tipo: RIESGO u OPORTUNIDAD; (2) responsable_capex: SICC, ANI, CFO, Concesionario, HSEQ — solo SICC suma al KPI gerencial SICC; (3) transferibilidad: si el costo es transferible a ANI vía Sec 9.11/9.12→25.4, residual SICC = 0 y se reporta el monto transferido por separado; (4) confianza: orden_magnitud, pendiente_wbs, wbs_firme — visible en cada card. Los riesgos con principal/mitigación/residual: el principal sostiene el argumento, la mitigación muestra la palanca, el residual va a provisión SICC. Los macro están en residual=0 para evitar doble conteo con sus descomposiciones.",
+  "metodologia": "Cada ítem se clasifica con 4 ejes para que el KPI gerencial separe bien lo que es cancha SCC (alcance UF2 según BCD v001) de lo transferible o de cancha ajena: (1) tipo: RIESGO u OPORTUNIDAD; (2) responsable_capex: SCC, ANI, CFO, Concesionario, HSEQ — solo SCC suma al KPI gerencial; (3) transferibilidad: si el costo es transferible a ANI vía Sec 9.11/9.12→25.4, residual SCC = 0 y se reporta el monto transferido por separado; (4) confianza: orden_magnitud, pendiente_wbs, wbs_firme — visible en cada card. NOTA: NO confundir con SICC del AT4 (Sistema de Indicadores de Calidad/Cumplimiento) — son cosas distintas. SCC = sistema técnico (BCD), SICC AT4 = sistema de KPIs contractuales.",
   "riesgos": [
 
     // =====================================================================
@@ -334,7 +334,7 @@ window.riesgosWbs = {
       "tipo": "OPORTUNIDAD",
       "categoria": "Económico (Oportunidad)",
       "especialidad": "Eléctrica",
-      "responsable_capex": "SICC",
+      "responsable_capex": "SCC",
       "confianza": "orden_magnitud",
       "descripcion": "OPORTUNIDAD DE AHORRO. Sobredimensionamiento por homogeneizar 24-48h en señalización donde BCD §10.1-10.4 solo exige 4h. Si se aplica criterio diferenciado, hay ahorro neto.",
       "probabilidad": "Media",
@@ -554,7 +554,7 @@ window.riesgosWbs = {
       "riesgo_residual": {
         "cop_min": 0,
         "cop_max": 0,
-        "descripcion": "RESIDUAL SICC = 0 — costo transferido a ANI por construcción contractual. La defensa contractual es robusta (BCD + AT1 + FRA convergen). Si LFC pierde el match, va por Sec 9.12→25.4."
+        "descripcion": "RESIDUAL SCC = 0 — costo transferido a ANI por construcción contractual. La defensa contractual es robusta (BCD + AT1 + FRA convergen). Si LFC pierde el match, va por Sec 9.12→25.4."
       },
       "exposicion_residual_cop": 0,
       "plan_accion": "Reforzar paquete técnico V1 con base legal FRA + BCD + AT1 ANTES de reuniones con Interventoría.",
@@ -593,7 +593,7 @@ window.riesgosWbs = {
       "riesgo_residual": {
         "cop_min": 0,
         "cop_max": 0,
-        "descripcion": "RESIDUAL SICC = 0 — costo transferido a ANI. Tabla 17 AT1 es contrato vigente; LFC no paga ENCE adicionales por construcción contractual."
+        "descripcion": "RESIDUAL SCC = 0 — costo transferido a ANI. Tabla 17 AT1 es contrato vigente; LFC no paga ENCE adicionales por construcción contractual."
       },
       "exposicion_residual_cop": 0,
       "plan_accion": "Defensa AT1 Tabla 17 documentada en paquete V1.",
@@ -661,13 +661,13 @@ window.riesgosWbs = {
       "estrategia_mitigacion": "Defensa con BCD §8.2 + AT1 §4.5 (alcance contractualmente limitado a 24 protegidos). Verificación contra WBS Acta de Obra v3.0: los 122 PaN básicos están imputados a UF≠SCC. Cualquier ampliación requiere modificación del Apéndice.",
       "transferibilidad": {
         "a": "ANI",
-        "mecanismo": "Sección 9.12(a) → 25.4. Si Interventoría empuja la inclusión de los 122 PaN básicos, implica modificación del AT1 §4.5 y activa cost-to-ANI. Acompañamiento contractual SICC pero el costo no es de LFC.",
+        "mecanismo": "Sección 9.12(a) → 25.4. Si Interventoría empuja la inclusión de los 122 PaN básicos, implica modificación del AT1 §4.5 y activa cost-to-ANI. Acompañamiento contractual SCC (alcance UF2) pero el costo no es de LFC.",
         "referencia": "Contrato APP No. 001/2025 §9.12(a) + §25.4 + AT1 §4.5 + BCD §8.2 + WBS Acta de Obra v3.0 (verificar imputación a UF≠SCC)"
       },
       "riesgo_residual": {
         "cop_min": 0,
         "cop_max": 300,
-        "descripcion": "RESIDUAL SICC ≈ 0 — costo material transferido a ANI. Solo queda costo marginal de acompañamiento contractual (apoyo legal/técnico en disputa)."
+        "descripcion": "RESIDUAL SCC ≈ 0 — costo material transferido a ANI. Solo queda costo marginal de acompañamiento contractual (apoyo legal/técnico en disputa)."
       },
       "exposicion_residual_cop": 75,
       "plan_accion": "Defensa BCD §8.2 + AT1 §4.5 documentada en paquete V1.",
@@ -772,7 +772,7 @@ window.riesgosWbs = {
       "riesgo_residual": {
         "cop_min": 0,
         "cop_max": 0,
-        "descripcion": "RESIDUAL SICC = 0 — defensa contractual con triple capa robusta. Si la posición se sostiene, no hay costo. Si se pierde el match, va por cost-to-ANI (Sec 9.12→25.4)."
+        "descripcion": "RESIDUAL SCC = 0 — defensa contractual con triple capa robusta. Si la posición se sostiene, no hay costo. Si se pierde el match, va por cost-to-ANI (Sec 9.12→25.4)."
       },
       "exposicion_residual_cop": 0,
       "plan_accion": "Defensa BCD §9.1 + AT1 documentada en paquete V1. Reuniones técnicas con FENOCO con asesoría legal.",
@@ -1449,7 +1449,7 @@ window.riesgosWbs = {
       "especialidad": "Transversal",
       "responsable_capex": "CFO",
       "confianza": "orden_magnitud",
-      "descripcion": "FUERA DE CANCHA SICC — Exposición cambiaria: TRM Risk 4.400 COP/USD incorpora margen ~+21% vs TRM real spot 3.637. Si la TRM se mantiene cerca del spot durante ejecución, el equivalente USD del CAPEX sube de $59,1M a $71,5M (+21%).",
+      "descripcion": "FUERA DE CANCHA SCC (alcance UF2) — Exposición cambiaria: TRM Risk 4.400 COP/USD incorpora margen ~+21% vs TRM real spot 3.637. Si la TRM se mantiene cerca del spot durante ejecución, el equivalente USD del CAPEX sube de $59,1M a $71,5M (+21%).",
       "probabilidad": "Media",
       "probabilidad_num": 0.5,
       "impacto": "Alto",
