@@ -205,6 +205,106 @@
             opacity: 0.5;
             margin-bottom: 0.5rem;
         }
+        .badge-ani {
+            display: inline-block;
+            background: rgba(255, 215, 0, 0.15);
+            color: #ffd700;
+            padding: 0.2rem 0.7rem;
+            border-radius: 50px;
+            font-size: 0.7rem;
+            letter-spacing: 1px;
+            margin-left: 0.5rem;
+            border: 1px solid rgba(255, 215, 0, 0.4);
+            font-weight: 600;
+        }
+        .badge-cfo {
+            display: inline-block;
+            background: rgba(155, 89, 182, 0.15);
+            color: #c39bd3;
+            padding: 0.2rem 0.7rem;
+            border-radius: 50px;
+            font-size: 0.7rem;
+            letter-spacing: 1px;
+            margin-left: 0.5rem;
+            border: 1px solid rgba(155, 89, 182, 0.4);
+            font-weight: 600;
+        }
+        .badge-oportunidad {
+            display: inline-block;
+            background: rgba(46, 213, 115, 0.18);
+            color: #2ed573;
+            padding: 0.2rem 0.7rem;
+            border-radius: 50px;
+            font-size: 0.7rem;
+            letter-spacing: 1px;
+            margin-left: 0.5rem;
+            border: 1px solid rgba(46, 213, 115, 0.5);
+            font-weight: 600;
+        }
+        .badge-confianza {
+            display: inline-block;
+            padding: 0.15rem 0.6rem;
+            border-radius: 50px;
+            font-size: 0.65rem;
+            letter-spacing: 1px;
+            margin-left: 0.4rem;
+            font-weight: 500;
+        }
+        .badge-confianza.orden_magnitud {
+            background: rgba(255, 165, 2, 0.12);
+            color: #ffa502;
+            border: 1px solid rgba(255, 165, 2, 0.3);
+        }
+        .badge-confianza.pendiente_wbs {
+            background: rgba(30, 144, 255, 0.12);
+            color: #1e90ff;
+            border: 1px solid rgba(30, 144, 255, 0.3);
+        }
+        .badge-confianza.wbs_firme {
+            background: rgba(46, 213, 115, 0.12);
+            color: #2ed573;
+            border: 1px solid rgba(46, 213, 115, 0.3);
+        }
+        .risk-transferred-block {
+            background: rgba(255, 215, 0, 0.08);
+            border-left: 4px solid #ffd700;
+            border-radius: 12px;
+            padding: 1.2rem 1.5rem;
+            margin-top: 1rem;
+        }
+        .risk-transferred-block h5 {
+            margin: 0 0 0.4rem 0;
+            color: #ffd700;
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        .risk-transferred-block p {
+            margin: 0.3rem 0 0 0;
+            font-size: 0.85rem;
+            line-height: 1.6;
+            opacity: 0.9;
+        }
+        .risk-opportunity-block {
+            background: rgba(46, 213, 115, 0.10);
+            border-left: 4px solid #2ed573;
+            border-radius: 12px;
+            padding: 1.2rem 1.5rem;
+            margin-top: 1rem;
+        }
+        .risk-opportunity-block h5 {
+            margin: 0 0 0.4rem 0;
+            color: #2ed573;
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        .risk-opportunity-figure {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #2ed573;
+            margin: 0.3rem 0;
+        }
     </style>
 </head>
 <body>
@@ -221,17 +321,46 @@
             </div>
         </div>
 
-        <div class="risk-summary" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
-            <div class="premium-card risk-metric" style="border-left: 4px solid #ff4757;"><div class="metric-value">0</div><div class="metric-label">Críticos + Altos</div></div>
-            <div class="premium-card risk-metric" style="border-left: 4px solid #ffa502;"><div class="metric-value">0</div><div class="metric-label">Medios</div></div>
-            <div class="premium-card risk-metric" style="border-left: 4px solid #2ed573;"><div class="metric-value">0</div><div class="metric-label">Bajos</div></div>
-            <div class="premium-card risk-metric"><div class="metric-value" id="m-total">…</div><div class="metric-label">Total Riesgos</div></div>
-            <div class="premium-card risk-metric" style="border-left: 4px solid #2ed573;"><div class="metric-value" id="m-residual" style="color: #2ed573;">…</div><div class="metric-label">Provisión Residual ⭐</div></div>
+        <div class="risk-summary" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 1.2rem; margin-bottom: 2rem;">
+            <div class="premium-card risk-metric" style="border-left: 4px solid #2ed573;">
+                <div class="metric-value" id="m-residual-sicc" style="color: #2ed573;">…</div>
+                <div class="metric-label">Provisión Residual SICC ⭐</div>
+                <div id="m-residual-ratio" style="font-size: 0.7rem; opacity: 0.7; margin-top: 0.4rem;">…</div>
+            </div>
+            <div class="premium-card risk-metric" style="border-left: 4px solid #ffd700;">
+                <div class="metric-value" id="m-transferido-ani" style="color: #ffd700;">…</div>
+                <div class="metric-label">🏛️ Transferido ANI (por contrato)</div>
+                <div style="font-size: 0.7rem; opacity: 0.7; margin-top: 0.4rem;">Sec 9.11/9.12→25.4 — no es CapEx LFC</div>
+            </div>
+            <div class="premium-card risk-metric" style="border-left: 4px solid #2ed573;">
+                <div class="metric-value" id="m-oportunidades" style="color: #2ed573;">…</div>
+                <div class="metric-label">💡 Oportunidades de ahorro</div>
+                <div style="font-size: 0.7rem; opacity: 0.7; margin-top: 0.4rem;">Liberación al margen si se ejecutan</div>
+            </div>
+            <div class="premium-card risk-metric" style="border-left: 4px solid #c39bd3;">
+                <div class="metric-value" id="m-otros-owners" style="color: #c39bd3;">…</div>
+                <div class="metric-label">Otros owners (CFO, HSEQ)</div>
+                <div style="font-size: 0.7rem; opacity: 0.7; margin-top: 0.4rem;">Fuera cancha SICC</div>
+            </div>
+        </div>
+
+        <div class="risk-summary" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1.2rem; margin-bottom: 2rem;">
+            <div class="premium-card risk-metric" style="border-left: 4px solid #ff4757; padding: 1rem;"><div class="metric-value" style="font-size: 1.8rem;">0</div><div class="metric-label">Críticos + Altos</div></div>
+            <div class="premium-card risk-metric" style="border-left: 4px solid #ffa502; padding: 1rem;"><div class="metric-value" style="font-size: 1.8rem;">0</div><div class="metric-label">Medios</div></div>
+            <div class="premium-card risk-metric" style="border-left: 4px solid #2ed573; padding: 1rem;"><div class="metric-value" style="font-size: 1.8rem;">0</div><div class="metric-label">Bajos</div></div>
+            <div class="premium-card risk-metric" style="padding: 1rem;"><div class="metric-value" id="m-total" style="font-size: 1.8rem;">…</div><div class="metric-label">Total Ítems</div></div>
         </div>
 
         <div class="premium-card" style="margin-bottom: 2rem; padding: 1.5rem 2rem;">
-            <h3 style="color: var(--accent); margin: 0 0 0.6rem 0; font-size: 1.05rem;">📊 Metodología — riesgo principal vs residual</h3>
-            <p style="opacity: 0.85; line-height: 1.6; margin: 0; font-size: 0.9rem;">Cada riesgo se cuantifica en dos planos: <strong style="color: #ff8a95;">principal</strong> (worst-case bruto si no se mitiga, sirve para argumentar la importancia de la palanca) y <strong style="color: #2ed573;">residual</strong> (post-mitigación, lo que efectivamente va a provisión). La cifra <em>Provisión Residual</em> arriba es la suma de exposiciones esperadas (probabilidad × punto medio del residual). Los riesgos macro (R-ARDANUY-FO, R-PTC-001, R-FENOCO-001, R-FIBRA-006) están en cero residual porque su contenido se descompone en riesgos específicos de cada especialidad.</p>
+            <h3 style="color: var(--accent); margin: 0 0 0.6rem 0; font-size: 1.05rem;">📊 Metodología — 4 ejes de clasificación</h3>
+            <p style="opacity: 0.85; line-height: 1.6; margin: 0 0 0.6rem 0; font-size: 0.9rem;">Cada ítem se clasifica con cuatro ejes para que el KPI gerencial separe lo que es cancha SICC de lo transferible o de cancha ajena:</p>
+            <ul style="opacity: 0.85; line-height: 1.7; margin: 0; padding-left: 1.5rem; font-size: 0.88rem;">
+                <li><strong style="color: #2ed573;">Tipo</strong> — RIESGO (eventual, va a provisión) u <strong style="color: #2ed573;">OPORTUNIDAD</strong> (palanca activa de optimización, va al margen).</li>
+                <li><strong>Responsable CapEx</strong> — solo <em>SICC</em> suma al KPI principal. <em>ANI</em> son costos transferidos por contrato (Sec 9.11/9.12→25.4). <em>CFO/HSEQ/Concesionario</em> son cancha ajena.</li>
+                <li><strong style="color: #ffd700;">Transferibilidad</strong> — si el costo es transferible a ANI por contrato, residual SICC = 0 y se reporta el monto transferido por separado (no asusta al gerente con un costo que LFC no paga).</li>
+                <li><strong style="color: #ffa502;">Confianza</strong> — visible en cada card: <em>orden_magnitud</em> (estimación), <em>pendiente_wbs</em> (a confirmar contra WBS Acta v3.0), <em>wbs_firme</em> (cifra cerrada).</li>
+            </ul>
+            <p style="opacity: 0.75; line-height: 1.5; margin: 0.8rem 0 0 0; font-size: 0.82rem; font-style: italic;">Para cada riesgo: el <strong style="color: #ff8a95;">principal</strong> (worst-case bruto) sostiene el argumento; la <strong style="color: var(--accent);">mitigación</strong> muestra la palanca; el <strong style="color: #2ed573;">residual</strong> va a provisión. Los riesgos macro están en residual=0 para evitar doble conteo con sus descomposiciones.</p>
         </div>
 
         <div class="premium-card" style="margin-bottom: 3rem;">
@@ -264,8 +393,8 @@
             </div>
         </div>
     </div>
-    <script src="lfc-terminology.js?v=14.7.6"></script>
-    <script src="sidebar-component.js?v=14.7.6"></script>
+    <script src="lfc-terminology.js?v=14.7.7"></script>
+    <script src="sidebar-component.js?v=14.7.7"></script>
 
     <script>
         // Inyectar ADN
@@ -279,10 +408,117 @@
 
         // Filtros independientes (nivel + especialidad + búsqueda) — se aplican en cascada
         let activeFilters = { level: 'all', especialidad: 'all', search: '' };
+        const TRM_BANNER = 4400;
+        const MARGEN_USD = 14.35; // M USD vs oferta sin AIU
+
+        function fmtUSD(cop_M) { return '$' + (cop_M * 1e6 / TRM_BANNER / 1e6).toFixed(2) + 'M USD'; }
+        function fmtCOP(cop_M) { return '$' + Math.round(cop_M).toLocaleString('es-CO') + 'M COP'; }
+
+        function recalcKPIs(visibleIds) {
+            if (!window.riesgosWbs) return;
+            const idSet = visibleIds ? new Set(visibleIds) : null;
+            const items = window.riesgosWbs.riesgos.filter(r => !idSet || idSet.has(r.id));
+
+            let siccResidual = 0;
+            let aniMin = 0, aniMax = 0;
+            let oportunidadesMin = 0, oportunidadesMax = 0;
+            let otrosOwners = 0;
+            let countCritAlto = 0, countMedio = 0, countBajo = 0;
+
+            items.forEach(r => {
+                const tipo = r.tipo || 'RIESGO';
+                const owner = r.responsable_capex || 'SICC';
+                const transf = r.transferibilidad;
+                const exp = r.exposicion_residual_cop || 0;
+
+                // conteos por nivel
+                const lvl = r.nivel_exposicion || '';
+                if (lvl.includes('CRITICA') || lvl.includes('CRÍTICA') || lvl === 'ALTA') countCritAlto++;
+                else if (lvl === 'MEDIA') countMedio++;
+                else if (lvl === 'BAJA') countBajo++;
+
+                if (tipo === 'OPORTUNIDAD') {
+                    const rmin = r.riesgo_residual?.cop_min || 0;
+                    const rmax = r.riesgo_residual?.cop_max || 0;
+                    if (rmin < 0) oportunidadesMin += Math.abs(rmin);
+                    if (rmax < 0) oportunidadesMax += Math.abs(rmax);
+                    return;
+                }
+                if (owner === 'ANI' || (transf && transf.a === 'ANI')) {
+                    if (r.riesgo_principal) {
+                        aniMin += r.riesgo_principal.cop_min || 0;
+                        aniMax += r.riesgo_principal.cop_max || 0;
+                    }
+                    siccResidual += exp; // acompañamiento contractual residual si lo hay
+                    return;
+                }
+                if (owner !== 'SICC') {
+                    otrosOwners += exp;
+                    return;
+                }
+                siccResidual += exp;
+            });
+
+            // Render KPIs principales
+            const elSICC = document.getElementById('m-residual-sicc');
+            const elRatio = document.getElementById('m-residual-ratio');
+            if (elSICC) {
+                const usd = (siccResidual * 1e6) / TRM_BANNER / 1e6;
+                elSICC.innerHTML = `${fmtUSD(siccResidual)}<div style="font-size: 0.85rem; opacity: 0.75; font-weight: 500; margin-top: 0.3rem;">${fmtCOP(siccResidual)}</div>`;
+                if (elRatio) {
+                    const pctMargen = (usd / MARGEN_USD * 100).toFixed(1);
+                    const pctCD = (siccResidual / 211191 * 100).toFixed(2);
+                    elRatio.innerHTML = `<strong>${pctMargen}%</strong> del margen ($14,35M) · <strong>${pctCD}%</strong> del CD`;
+                }
+            }
+            const elANI = document.getElementById('m-transferido-ani');
+            if (elANI) {
+                if (aniMin === 0 && aniMax === 0) {
+                    elANI.innerHTML = `$0M<div style="font-size: 0.7rem; opacity: 0.6;">sin riesgos transferibles</div>`;
+                } else {
+                    const usdMin = (aniMin * 1e6) / TRM_BANNER / 1e6;
+                    const usdMax = (aniMax * 1e6) / TRM_BANNER / 1e6;
+                    elANI.innerHTML = `$${usdMin.toFixed(1)}–${usdMax.toFixed(1)}M USD<div style="font-size: 0.75rem; opacity: 0.75; font-weight: 500; margin-top: 0.3rem;">$${aniMin.toLocaleString('es-CO')}–${aniMax.toLocaleString('es-CO')}M COP</div>`;
+                }
+            }
+            const elOp = document.getElementById('m-oportunidades');
+            if (elOp) {
+                if (oportunidadesMin === 0 && oportunidadesMax === 0) {
+                    elOp.innerHTML = `$0M<div style="font-size: 0.7rem; opacity: 0.6;">sin oportunidades en filtro</div>`;
+                } else {
+                    const usdMin = (oportunidadesMin * 1e6) / TRM_BANNER / 1e6;
+                    const usdMax = (oportunidadesMax * 1e6) / TRM_BANNER / 1e6;
+                    elOp.innerHTML = `$${usdMin.toFixed(2)}–${usdMax.toFixed(2)}M USD<div style="font-size: 0.75rem; opacity: 0.75; font-weight: 500; margin-top: 0.3rem;">$${oportunidadesMin.toLocaleString('es-CO')}–${oportunidadesMax.toLocaleString('es-CO')}M COP</div>`;
+                }
+            }
+            const elOtros = document.getElementById('m-otros-owners');
+            if (elOtros) {
+                if (otrosOwners === 0) {
+                    elOtros.innerHTML = `$0M<div style="font-size: 0.7rem; opacity: 0.6;">sin riesgos de otros owners</div>`;
+                } else {
+                    elOtros.innerHTML = `${fmtUSD(otrosOwners)}<div style="font-size: 0.75rem; opacity: 0.75; font-weight: 500; margin-top: 0.3rem;">${fmtCOP(otrosOwners)}</div>`;
+                }
+            }
+
+            // Conteos por nivel
+            const counts = document.querySelectorAll('.risk-summary .premium-card .metric-value');
+            // Hay 4 KPI (nuevos top) + 4 conteos (segundo row). Los conteos son los que tienen font-size 1.8rem.
+            const counterRows = document.querySelectorAll('.risk-summary')[1];
+            if (counterRows) {
+                const counterValues = counterRows.querySelectorAll('.metric-value');
+                if (counterValues.length >= 4) {
+                    counterValues[0].textContent = countCritAlto;
+                    counterValues[1].textContent = countMedio;
+                    counterValues[2].textContent = countBajo;
+                    counterValues[3].textContent = items.length;
+                }
+            }
+        }
 
         function applyAllFilters() {
             const cards = document.querySelectorAll('.risk-card');
             let visibleCount = 0;
+            const visibleIds = [];
             cards.forEach(card => {
                 const matchLevel = activeFilters.level === 'all' || card.getAttribute('data-category') === activeFilters.level;
                 const matchEsp = activeFilters.especialidad === 'all' || card.getAttribute('data-especialidad') === activeFilters.especialidad;
@@ -293,10 +529,16 @@
                 const matchSearch = term === '' || keywords.includes(term) || title.includes(term) || description.includes(term);
                 const visible = matchLevel && matchEsp && matchSearch;
                 card.style.display = visible ? 'flex' : 'none';
-                if (visible) visibleCount++;
+                if (visible) {
+                    visibleCount++;
+                    const id = card.getAttribute('data-id');
+                    if (id) visibleIds.push(id);
+                }
             });
             const counter = document.getElementById('results-count');
             if (counter) counter.textContent = visibleCount + ' visibles';
+            // Recalcular KPIs solo con los visibles
+            recalcKPIs(visibleIds);
         }
 
         function filterRisks(level, btn) {
@@ -324,7 +566,7 @@
     </script>
 
     <!-- Carga de datos dinámicos de riesgos -->
-    <script src="riesgos_wbs.js?v=14.7.6"></script>
+    <script src="riesgos_wbs.js?v=14.7.7"></script>
     <script>
         // Verificar que los datos se cargaron correctamente
         if (typeof window.riesgosWbs !== 'undefined') {
@@ -343,22 +585,11 @@
             const baja = riesgos.filter(r => r.nivel_exposicion === 'BAJA').length;
             const critica = riesgos.filter(r => r.nivel_exposicion === 'CRITICA' || r.nivel_exposicion === 'CRÍTICA').length;
             
-            // Actualizar valores en el HTML
-            document.querySelectorAll('.metric-value')[0].textContent = alta + critica; // Altos + Críticos
-            document.querySelectorAll('.metric-value')[1].textContent = media;
-            document.querySelectorAll('.metric-value')[2].textContent = baja;
             const totalEl = document.getElementById('m-total');
             if (totalEl) totalEl.textContent = riesgos.length;
 
-            // KPI Provisión Residual (suma de exposicion_residual_cop, en M COP)
-            const residualTotal = riesgos.reduce((s, r) => s + (r.exposicion_residual_cop || 0), 0);
-            const residualEl = document.getElementById('m-residual');
-            if (residualEl) {
-                const usd = (residualTotal * 1e6) / 4400 / 1e6;
-                residualEl.innerHTML = `$${usd.toFixed(2)}M<div style="font-size: 0.85rem; opacity: 0.7; margin-top: 0.2rem;">USD @ TRM 4.400</div><div style="font-size: 0.7rem; opacity: 0.6;">$${residualTotal.toLocaleString('es-CO')}M COP</div>`;
-            }
-
-            console.log(`📊 Estadísticas actualizadas: ${critica} críticos, ${alta} altos, ${media} medios, ${baja} bajos · total ${riesgos.length} · residual ${residualTotal.toLocaleString('es-CO')}M COP`);
+            // Render de cards primero, luego recalcKPIs con todos visibles
+            console.log(`📊 ${riesgos.length} ítems · ${critica} críticos, ${alta} altos, ${media} medios, ${baja} bajos`);
             
             // ============================================================
             // RENDERIZADO DINÁMICO DE RIESGOS (v2.0 - Con Plan de Acción)
@@ -382,25 +613,41 @@
                     const categoryClass = r.nivel_exposicion === 'CRÍTICA' || r.nivel_exposicion === 'CRITICA' || r.nivel_exposicion === 'ALTA' ? 'high' :
                                          r.nivel_exposicion === 'MEDIA' ? 'medium' : 'low';
 
+                    const tipo = r.tipo || 'RIESGO';
+                    const owner = r.responsable_capex || 'SICC';
+                    const isOpp = tipo === 'OPORTUNIDAD';
+                    const isANI = owner === 'ANI' || (r.transferibilidad && r.transferibilidad.a === 'ANI');
+
                     const card = document.createElement('div');
                     card.className = `risk-card ${categoryClass}`;
+                    card.setAttribute('data-id', r.id);
                     card.setAttribute('data-category', categoryClass);
                     card.setAttribute('data-especialidad', r.especialidad || 'Sin asignar');
-                    card.setAttribute('data-keywords', `${r.id} ${r.categoria} ${r.especialidad || ''} ${r.descripcion} ${r.estrategia_mitigacion || r.estrategia || ''} ${r.responsable || ''}`.toLowerCase());
+                    card.setAttribute('data-tipo', tipo);
+                    card.setAttribute('data-owner', owner);
+                    card.setAttribute('data-keywords', `${r.id} ${r.categoria} ${r.especialidad || ''} ${r.descripcion} ${r.estrategia_mitigacion || r.estrategia || ''} ${r.responsable || ''} ${owner} ${tipo}`.toLowerCase());
                     card.style.opacity = '0';
                     card.style.transform = 'translateY(20px)';
 
-                    // Header
+                    // Header — tag de exposición
                     const tagClass = r.nivel_exposicion.includes('CRITICA') || r.nivel_exposicion.includes('CRÍTICA') ? 'tag-critical' :
                                    r.nivel_exposicion === 'ALTA' ? 'tag-high' :
                                    r.nivel_exposicion === 'MEDIA' ? 'tag-medium' : 'tag-low';
 
                     const especialidadBadge = r.especialidad ? `<span style="display: inline-block; background: rgba(30,144,255,0.15); color: var(--accent); padding: 0.2rem 0.7rem; border-radius: 50px; font-size: 0.7rem; letter-spacing: 1px; margin-left: 0.5rem; vertical-align: middle;">${r.especialidad}</span>` : '';
 
+                    // Badges adicionales
+                    let extraBadges = '';
+                    if (isOpp) extraBadges += '<span class="badge-oportunidad">💡 OPORTUNIDAD</span>';
+                    if (isANI) extraBadges += '<span class="badge-ani">🏛️ Transferible ANI</span>';
+                    if (owner === 'CFO') extraBadges += '<span class="badge-cfo">💼 Cancha CFO</span>';
+                    else if (owner !== 'SICC' && owner !== 'ANI') extraBadges += `<span class="badge-cfo">${owner}</span>`;
+                    if (r.confianza) extraBadges += `<span class="badge-confianza ${r.confianza}">${r.confianza === 'wbs_firme' ? '✅ WBS firme' : (r.confianza === 'pendiente_wbs' ? '⏳ Pendiente WBS' : '~ Orden magnitud')}</span>`;
+
                     const header = document.createElement('div');
                     header.className = 'risk-header';
                     header.innerHTML = `
-                        <div class="risk-title">${r.id}${especialidadBadge}</div>
+                        <div class="risk-title">${r.id}${especialidadBadge}${extraBadges}</div>
                         <div class="premium-tag ${tagClass}">${r.nivel_exposicion}</div>
                     `;
                     card.appendChild(header);
@@ -423,29 +670,63 @@
                         card.appendChild(mitigDiv);
                     }
 
-                    // RIESGO RESIDUAL (verde, cifra protagonista)
-                    const residual = r.riesgo_residual;
-                    const expEsp = r.exposicion_residual_cop || 0;
-                    const residualDiv = document.createElement('div');
-                    residualDiv.className = 'risk-residual-block';
-                    if (residual && (residual.cop_min !== 0 || residual.cop_max !== 0)) {
-                        residualDiv.innerHTML = `
-                            <h5>✅ Riesgo residual (post-mitigación)</h5>
-                            <div class="risk-residual-figure">${fmtRange(residual)}</div>
-                            <p class="risk-residual-desc">${residual.descripcion || ''}</p>
-                            <p class="risk-residual-desc" style="margin-top: 0.6rem; opacity: 1;">
-                                <strong>Exposición esperada (P × residual):</strong>
-                                <span style="color: #2ed573; font-weight: 700;">${fmtM(expEsp)} COP</span>
-                                · USD@4400 ≈ $${((expEsp*1e6)/4400/1e6).toFixed(2)}M
-                            </p>
+                    // BLOQUE TRANSFERIBILIDAD A ANI (si aplica)
+                    if (r.transferibilidad && r.transferibilidad.a === 'ANI') {
+                        const transfDiv = document.createElement('div');
+                        transfDiv.className = 'risk-transferred-block';
+                        transfDiv.innerHTML = `
+                            <h5>🏛️ Costo transferible a ANI por contrato</h5>
+                            <p><strong>Mecanismo:</strong> ${r.transferibilidad.mecanismo}</p>
+                            <p style="margin-top: 0.4rem; font-size: 0.78rem; opacity: 0.75;"><strong>Referencia:</strong> ${r.transferibilidad.referencia}</p>
                         `;
-                    } else {
-                        residualDiv.innerHTML = `
-                            <h5>📦 Riesgo macro descompuesto</h5>
-                            <p class="risk-residual-desc">${residual?.descripcion || 'Cubierto por riesgos específicos en su especialidad — no suma a la provisión total para evitar doble conteo.'}</p>
-                        `;
+                        card.appendChild(transfDiv);
                     }
-                    card.appendChild(residualDiv);
+
+                    // BLOQUE OPORTUNIDAD DE AHORRO (si tipo === OPORTUNIDAD)
+                    if (isOpp) {
+                        const oppDiv = document.createElement('div');
+                        oppDiv.className = 'risk-opportunity-block';
+                        const rmin = Math.abs(r.riesgo_residual?.cop_min || 0);
+                        const rmax = Math.abs(r.riesgo_residual?.cop_max || 0);
+                        oppDiv.innerHTML = `
+                            <h5>💡 Oportunidad de ahorro (palanca activa)</h5>
+                            <div class="risk-opportunity-figure">$${rmin.toLocaleString('es-CO')}M – $${rmax.toLocaleString('es-CO')}M COP de liberación</div>
+                            <p style="margin: 0.4rem 0 0 0; font-size: 0.85rem; line-height: 1.5; opacity: 0.9;">${r.riesgo_residual?.descripcion || ''}</p>
+                            <p style="margin: 0.4rem 0 0 0; font-size: 0.78rem; opacity: 0.75; font-style: italic;">No es riesgo eventual — es palanca a ejecutar. Liberación al margen si se aplica.</p>
+                        `;
+                        card.appendChild(oppDiv);
+                    } else {
+                        // RIESGO RESIDUAL (verde, cifra protagonista) — solo para riesgos no-oportunidad
+                        const residual = r.riesgo_residual;
+                        const expEsp = r.exposicion_residual_cop || 0;
+                        const residualDiv = document.createElement('div');
+                        residualDiv.className = 'risk-residual-block';
+                        if (isANI && (!residual || (residual.cop_min === 0 && residual.cop_max === 0))) {
+                            // Riesgo transferido a ANI con residual SICC = 0 — bloque informativo
+                            residualDiv.innerHTML = `
+                                <h5>✅ Residual SICC = 0 (transferido a ANI)</h5>
+                                <div class="risk-residual-figure">$0M COP</div>
+                                <p class="risk-residual-desc">${residual?.descripcion || 'Costo transferible a ANI por construcción contractual — no entra a la provisión SICC.'}</p>
+                            `;
+                        } else if (residual && (residual.cop_min !== 0 || residual.cop_max !== 0)) {
+                            residualDiv.innerHTML = `
+                                <h5>✅ Riesgo residual (post-mitigación)</h5>
+                                <div class="risk-residual-figure">${fmtRange(residual)}</div>
+                                <p class="risk-residual-desc">${residual.descripcion || ''}</p>
+                                <p class="risk-residual-desc" style="margin-top: 0.6rem; opacity: 1;">
+                                    <strong>Exposición esperada (P × residual):</strong>
+                                    <span style="color: #2ed573; font-weight: 700;">${fmtM(expEsp)} COP</span>
+                                    · USD@4400 ≈ $${((expEsp*1e6)/4400/1e6).toFixed(2)}M
+                                </p>
+                            `;
+                        } else {
+                            residualDiv.innerHTML = `
+                                <h5>📦 Riesgo macro descompuesto</h5>
+                                <p class="risk-residual-desc">${residual?.descripcion || 'Cubierto por riesgos específicos en su especialidad — no suma a la provisión total para evitar doble conteo.'}</p>
+                            `;
+                        }
+                        card.appendChild(residualDiv);
+                    }
 
                     // RIESGO PRINCIPAL (rojo, colapsable)
                     const principal = r.riesgo_principal;
@@ -528,7 +809,10 @@
                     }, Math.min(index * 30, 1500));
                 });
 
-                console.log(`✅ ${riesgos.length} tarjetas generadas con schema v2 (principal/mitigación/residual)`);
+                console.log(`✅ ${riesgos.length} tarjetas generadas con schema v3 (tipo · responsable_capex · transferibilidad · confianza)`);
+
+                // Calcular KPIs con todos los ítems visibles inicialmente
+                if (typeof recalcKPIs === 'function') recalcKPIs(null);
             }
             
             // Los datos están disponibles para renderizado dinámico

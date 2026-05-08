@@ -8,8 +8,8 @@
 
 window.riesgosWbs = {
   "fecha_actualizacion": "2026-05-08",
-  "schema_version": "v2",
-  "metodologia": "Cada riesgo se cuantifica en dos planos: principal (worst-case bruto si no se mitiga) y residual (post-mitigación). La cifra que va a provisión es la exposición residual esperada (probabilidad × punto_medio_residual). El principal se mantiene visible para argumentar la importancia de la mitigación, no para asustar al gerente.",
+  "schema_version": "v3",
+  "metodologia": "Cada ítem se clasifica con 4 ejes para que el KPI gerencial separe bien lo que es cancha SICC de lo transferible o de cancha ajena: (1) tipo: RIESGO u OPORTUNIDAD; (2) responsable_capex: SICC, ANI, CFO, Concesionario, HSEQ — solo SICC suma al KPI gerencial SICC; (3) transferibilidad: si el costo es transferible a ANI vía Sec 9.11/9.12→25.4, residual SICC = 0 y se reporta el monto transferido por separado; (4) confianza: orden_magnitud, pendiente_wbs, wbs_firme — visible en cada card. Los riesgos con principal/mitigación/residual: el principal sostiene el argumento, la mitigación muestra la palanca, el residual va a provisión SICC. Los macro están en residual=0 para evitar doble conteo con sus descomposiciones.",
   "riesgos": [
 
     // =====================================================================
@@ -331,8 +331,11 @@ window.riesgosWbs = {
     },
     {
       "id": "R-UPS-SOBREDIM-001",
+      "tipo": "OPORTUNIDAD",
       "categoria": "Económico (Oportunidad)",
       "especialidad": "Eléctrica",
+      "responsable_capex": "SICC",
+      "confianza": "orden_magnitud",
       "descripcion": "OPORTUNIDAD DE AHORRO. Sobredimensionamiento por homogeneizar 24-48h en señalización donde BCD §10.1-10.4 solo exige 4h. Si se aplica criterio diferenciado, hay ahorro neto.",
       "probabilidad": "Media",
       "probabilidad_num": 0.6,
@@ -525,8 +528,11 @@ window.riesgosWbs = {
     // =====================================================================
     {
       "id": "R-PTC-BALIZAS-001",
+      "tipo": "RIESGO",
       "categoria": "Contractual / Técnico",
       "especialidad": "PTC",
+      "responsable_capex": "ANI",
+      "confianza": "wbs_firme",
       "descripcion": "Si Interventoría exige balizas/transponders en línea (cantonamiento físico extendido) más allá de las 5 zonas ENCE. BCD §1.3, §4.1 y AT1 Tabla 17 son contundentes con cantonamiento virtual fuera de las 5 ENCEs.",
       "probabilidad": "Baja",
       "probabilidad_num": 0.3,
@@ -540,12 +546,17 @@ window.riesgosWbs = {
         "descripcion": "Worst-case catastrófico: 526 puntos × $5-15k USD baliza + obra civil. Solo si Interventoría desconoce BCD + AT1."
       },
       "estrategia_mitigacion": "Defensa contractual con FRA 49 CFR §236.1005 (Virtual Fixed Block expresamente permitido) + BCD §1.3, §4.1 + AT1 Tabla 17. No hay base legal para exigir balizas fuera de zonas ENCE. Documentación reforzada en paquete V1.",
-      "riesgo_residual": {
-        "cop_min": 1000,
-        "cop_max": 3000,
-        "descripcion": "Caso negociación parcial: balizas en zonas críticas operacionales (~10-20 puntos)"
+      "transferibilidad": {
+        "a": "ANI",
+        "mecanismo": "Sección 9.12(a) del Contrato → 25.4 (cost-to-ANI). AT1 Tabla 17 fija PTC virtual. Cualquier exigencia de balizas fuera de Tabla 17 implica modificación del Apéndice Técnico, lo que activa la cláusula de costos a cuenta de ANI.",
+        "referencia": "Contrato APP No. 001/2025 §9.12(a) + §25.4 + AT1 Tabla 17 + BCD §4.1 + FRA 49 CFR §236.1005"
       },
-      "exposicion_residual_cop": 600,
+      "riesgo_residual": {
+        "cop_min": 0,
+        "cop_max": 0,
+        "descripcion": "RESIDUAL SICC = 0 — costo transferido a ANI por construcción contractual. La defensa contractual es robusta (BCD + AT1 + FRA convergen). Si LFC pierde el match, va por Sec 9.12→25.4."
+      },
+      "exposicion_residual_cop": 0,
       "plan_accion": "Reforzar paquete técnico V1 con base legal FRA + BCD + AT1 ANTES de reuniones con Interventoría.",
       "responsable": "Director Técnico UF2 + Asesoría Legal",
       "hito_verificacion": "Paquete V1 con defensa legal entregado a Interventoría",
@@ -556,8 +567,11 @@ window.riesgosWbs = {
     },
     {
       "id": "R-ENCE-NUM-001",
+      "tipo": "RIESGO",
       "categoria": "Contractual / Técnico",
       "especialidad": "PTC",
+      "responsable_capex": "ANI",
+      "confianza": "wbs_firme",
       "descripcion": "Si Interventoría/consultor exige >5 ENCE más allá de los nominados en Tabla 17 AT1 (La Dorada-México, Pto Berrío-Grecia, Barrancabermeja, García Cadena, Zapatosa).",
       "probabilidad": "Baja",
       "probabilidad_num": 0.3,
@@ -570,13 +584,18 @@ window.riesgosWbs = {
         "cop_max": 10000,
         "descripcion": "+2 a +3 ENCE adicionales × $0,8M USD = $3,5B/u + obra civil"
       },
-      "estrategia_mitigacion": "Defensa con AT1 Tabla 17 (5 ENCEs específicamente nominados). Cualquier ENCE adicional debe justificarse vía DT formal + reasignación dentro del WBS.",
-      "riesgo_residual": {
-        "cop_min": 1000,
-        "cop_max": 3000,
-        "descripcion": "Caso negociación: 1 ENCE adicional max si argumento operativo es robusto"
+      "estrategia_mitigacion": "Defensa con AT1 Tabla 17 (5 ENCEs específicamente nominados). Cualquier ENCE adicional debe justificarse vía DT formal + modificación contractual (no es decisión técnica de LFC).",
+      "transferibilidad": {
+        "a": "ANI",
+        "mecanismo": "Sección 9.12(a) → 25.4 (cost-to-ANI). Tabla 17 AT1 fija exactamente 5 ENCE nominados. Cualquier exceso requiere modificación del Apéndice y activa cost-to-ANI.",
+        "referencia": "Contrato APP No. 001/2025 §9.12(a) + §25.4 + AT1 Tabla 17 (5 ENCE específicamente nominados) + BCD §4.1"
       },
-      "exposicion_residual_cop": 600,
+      "riesgo_residual": {
+        "cop_min": 0,
+        "cop_max": 0,
+        "descripcion": "RESIDUAL SICC = 0 — costo transferido a ANI. Tabla 17 AT1 es contrato vigente; LFC no paga ENCE adicionales por construcción contractual."
+      },
+      "exposicion_residual_cop": 0,
       "plan_accion": "Defensa AT1 Tabla 17 documentada en paquete V1.",
       "responsable": "Director Técnico UF2",
       "hito_verificacion": "Paquete V1 con justificación 5 ENCE",
@@ -622,9 +641,12 @@ window.riesgosWbs = {
     // =====================================================================
     {
       "id": "R-PAN-ALCANCE-001",
+      "tipo": "RIESGO",
       "categoria": "Contractual / Económico",
       "especialidad": "Pasos a Nivel",
-      "descripcion": "Si Interventoría exige cobertura SCC de los 122 PaN básicos no protegidos. BCD §8.2 limita el alcance a 24 protegidos (9 Tipo C + 15 Tipo B). Los 122 restantes son responsabilidad MinTransporte/Vías, no SCC.",
+      "responsable_capex": "ANI",
+      "confianza": "wbs_firme",
+      "descripcion": "Si Interventoría exige cobertura SCC de los 122 PaN básicos no protegidos. BCD §8.2 limita el alcance a 24 protegidos (9 Tipo C + 15 Tipo B). Los 122 restantes son responsabilidad UF≠SCC (Min. Transporte/Vías), no de este alcance.",
       "probabilidad": "Baja",
       "probabilidad_num": 0.3,
       "impacto": "Alto",
@@ -636,13 +658,18 @@ window.riesgosWbs = {
         "cop_max": 12200,
         "descripcion": "122 PaN × $50-100M/u (señalización pasiva + integración mínima)"
       },
-      "estrategia_mitigacion": "Defensa con BCD §8.2 + AT1 §4.5 (alcance limitado a 24 protegidos). Cualquier ampliación debe ir vía DT con financiación adicional explícita ANI.",
-      "riesgo_residual": {
-        "cop_min": 1000,
-        "cop_max": 3000,
-        "descripcion": "Caso negociación: cobertura mínima en 10-20 PaN críticos vía DT con presupuesto adicional"
+      "estrategia_mitigacion": "Defensa con BCD §8.2 + AT1 §4.5 (alcance contractualmente limitado a 24 protegidos). Verificación contra WBS Acta de Obra v3.0: los 122 PaN básicos están imputados a UF≠SCC. Cualquier ampliación requiere modificación del Apéndice.",
+      "transferibilidad": {
+        "a": "ANI",
+        "mecanismo": "Sección 9.12(a) → 25.4. Si Interventoría empuja la inclusión de los 122 PaN básicos, implica modificación del AT1 §4.5 y activa cost-to-ANI. Acompañamiento contractual SICC pero el costo no es de LFC.",
+        "referencia": "Contrato APP No. 001/2025 §9.12(a) + §25.4 + AT1 §4.5 + BCD §8.2 + WBS Acta de Obra v3.0 (verificar imputación a UF≠SCC)"
       },
-      "exposicion_residual_cop": 600,
+      "riesgo_residual": {
+        "cop_min": 0,
+        "cop_max": 300,
+        "descripcion": "RESIDUAL SICC ≈ 0 — costo material transferido a ANI. Solo queda costo marginal de acompañamiento contractual (apoyo legal/técnico en disputa)."
+      },
+      "exposicion_residual_cop": 75,
       "plan_accion": "Defensa BCD §8.2 + AT1 §4.5 documentada en paquete V1.",
       "responsable": "Director Técnico UF2",
       "hito_verificacion": "Paquete V1 con justificación 24 PaN",
@@ -719,9 +746,12 @@ window.riesgosWbs = {
     // =====================================================================
     {
       "id": "R-FENOCO-INTEG-001",
+      "tipo": "RIESGO",
       "categoria": "Contractual",
       "especialidad": "Interoperabilidad FENOCO",
-      "descripcion": "Si FENOCO/Interventoría empuja integración técnica más allá de Stop & Switch operacional. BCD §9.1 lo descarta expresamente, pero presión existe.",
+      "responsable_capex": "ANI",
+      "confianza": "wbs_firme",
+      "descripcion": "Si FENOCO/Interventoría empuja integración técnica (gateway lógico ITCS / pasarela vital) más allá de Stop & Switch operacional. BCD §9.1 lo descarta expresamente, pero existe presión externa.",
       "probabilidad": "Baja",
       "probabilidad_num": 0.2,
       "impacto": "Crítico",
@@ -733,13 +763,18 @@ window.riesgosWbs = {
         "cop_max": 66000,
         "descripcion": "Pasarela ITCS o gateway lógico con sistema FENOCO: $5-15M USD"
       },
-      "estrategia_mitigacion": "Defensa con BCD §9.1 + AT1 (no exige integración técnica con sistemas propietarios de terceros). Stop & Switch operacional ya cubre la obligación contractual.",
-      "riesgo_residual": {
-        "cop_min": 500,
-        "cop_max": 2000,
-        "descripcion": "Caso negociación: protocolo operativo ampliado + intercambio de información mínimo"
+      "estrategia_mitigacion": "Triple capa contractual: (1) BCD §9.1 + AT1 no exigen integración técnica con sistemas propietarios de terceros — Stop & Switch operacional cubre la obligación; (2) Sección 9.11(b)(ii) — costo a Concesionario solo si LFC pide voluntariamente la integración; (3) Sección 9.12(a) → 25.4 — si ANI ordena la integración, va por cost-to-ANI. Adicionalmente Resolución Surcos Art 5 actúa como escudo legal.",
+      "transferibilidad": {
+        "a": "ANI",
+        "mecanismo": "Triple capa: §9.11(b)(ii) (concesionario solo si pide voluntariamente) + §9.12(a)→§25.4 (si ANI ordena, cost-to-ANI) + Resolución Surcos Art 5 (escudo legal). LFC no paga gateway si defiende posición.",
+        "referencia": "Contrato APP No. 001/2025 §9.11(b)(ii) + §9.12(a) + §25.4 + AT1 + BCD §9.1, §9.2 + Resolución Surcos Art 5"
       },
-      "exposicion_residual_cop": 250,
+      "riesgo_residual": {
+        "cop_min": 0,
+        "cop_max": 0,
+        "descripcion": "RESIDUAL SICC = 0 — defensa contractual con triple capa robusta. Si la posición se sostiene, no hay costo. Si se pierde el match, va por cost-to-ANI (Sec 9.12→25.4)."
+      },
+      "exposicion_residual_cop": 0,
       "plan_accion": "Defensa BCD §9.1 + AT1 documentada en paquete V1. Reuniones técnicas con FENOCO con asesoría legal.",
       "responsable": "Director Técnico UF2 + Asesoría Legal",
       "hito_verificacion": "Acta de reunión FENOCO con scope operacional acotado",
@@ -1409,9 +1444,12 @@ window.riesgosWbs = {
     },
     {
       "id": "R-TRM-001",
+      "tipo": "RIESGO",
       "categoria": "Financiero",
       "especialidad": "Transversal",
-      "descripcion": "Exposición cambiaria: TRM Risk 4.400 COP/USD incorpora margen ~+21% vs TRM real spot 3.637. Si la TRM se mantiene cerca del spot durante ejecución, el equivalente USD del CAPEX sube de $59,1M a $71,5M (+21%).",
+      "responsable_capex": "CFO",
+      "confianza": "orden_magnitud",
+      "descripcion": "FUERA DE CANCHA SICC — Exposición cambiaria: TRM Risk 4.400 COP/USD incorpora margen ~+21% vs TRM real spot 3.637. Si la TRM se mantiene cerca del spot durante ejecución, el equivalente USD del CAPEX sube de $59,1M a $71,5M (+21%).",
       "probabilidad": "Media",
       "probabilidad_num": 0.5,
       "impacto": "Alto",
