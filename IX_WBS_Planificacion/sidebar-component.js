@@ -6,28 +6,28 @@
     };
 
     const sidebarHTML = `
-        <div class="logo" style="padding: 1rem 0; font-size: 1.5rem; font-weight: 800; color: var(--accent); margin-bottom: 3rem; display: flex; align-items: center; gap: 12px; border-bottom: 1px solid var(--glass-border);">
-            <span>📊</span> ${(term.PROJECT && term.PROJECT.NAME) ? term.PROJECT.NAME : 'LFC STUDIO'}
+        <div class="logo" style="padding: 1rem 0; font-size: 1.3rem; font-weight: 800; color: var(--accent); margin-bottom: 3rem; display: flex; align-items: center; gap: 12px; border-bottom: 1px solid var(--glass-border); letter-spacing: 1px;">
+            <span>📊</span> LFC UF2
         </div>
 
         <div class="nav-group" style="margin-bottom: 2rem;">
-            <div class="nav-label" style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 2px; color: var(--text-muted); margin-bottom: 1rem; font-weight: 700;">Core</div>
-            <a href="/index.html" class="nav-item">🏠 Dashboard Home</a>
+            <div class="nav-label" style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 2px; color: var(--text-muted); margin-bottom: 1rem; font-weight: 700;">Inicio</div>
+            <a href="/" class="nav-item">🏠 Centro de Gestión</a>
         </div>
 
         <div class="nav-group" style="margin-bottom: 2rem;">
-            <div class="nav-label" style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 2px; color: var(--text-muted); margin-bottom: 1rem; font-weight: 700;">Herramientas WBS</div>
-            <a href="/IX_WBS_Planificacion/WBS_Vista_Final.html" class="nav-item" id="nav-wbs">🚀 WBS Certificada v14.7</a>
-            <a href="/IX_WBS_Planificacion/WBS_Reporte_Gerencial.html" class="nav-item" id="nav-report">📋 Reporte Gerencial</a>
-            <a href="/IX_WBS_Planificacion/WBS_Analisis_Riesgos.html" class="nav-item" id="nav-risks">⚠️ Gestión Riesgos</a>
-            <a href="/IX_WBS_Planificacion/WBS_Cronograma_Propuesta.html" class="nav-item" id="nav-chrono">📅 ${(term.SYSTEMS && term.SYSTEMS.GANTT) ? term.SYSTEMS.GANTT : 'Cronograma L3'}</a>
-            <a href="/IX_WBS_Planificacion/WBS_Controles_Operativos_L4.html" class="nav-item" id="nav-l4">🛠️ Controles L4</a>
+            <div class="nav-label" style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 2px; color: var(--text-muted); margin-bottom: 1rem; font-weight: 700;">Presupuesto y WBS</div>
+            <a href="/IX_WBS_Planificacion/WBS_Vista_Final" class="nav-item" id="nav-wbs">⭐ Presupuesto SCC — Vista Final</a>
+            <a href="/IX_WBS_Planificacion/WBS_COMPLETA_TODO_Interactiva_v4.0" class="nav-item" id="nav-wbs-int">🛠️ WBS Interactiva (proponer DT)</a>
+            <a href="/IX_WBS_Planificacion/WBS_Reporte_Gerencial" class="nav-item" id="nav-report">📋 Reporte Gerencial</a>
+            <a href="/IX_WBS_Planificacion/WBS_Analisis_Riesgos" class="nav-item" id="nav-risks">⚠️ Análisis de Riesgos</a>
+            <a href="/IX_WBS_Planificacion/WBS_Cronograma_Propuesta" class="nav-item" id="nav-chrono">📅 ${(term.SYSTEMS && term.SYSTEMS.GANTT) ? term.SYSTEMS.GANTT : 'Cronograma'}</a>
         </div>
 
         <div class="nav-group" style="margin-bottom: 2rem;">
-            <div class="nav-label" style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 2px; color: var(--text-muted); margin-bottom: 1rem; font-weight: 700;">Soporte y Docs</div>
-            <a href="/IX_WBS_Planificacion/SICC_Audit_Dashboard.html" class="nav-item" id="nav-audit">🛡️ Auditoría SICC</a>
-            <a href="/X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/HTML/INDICE_Documentos_Servidos.html" class="nav-item">📊 Platos Servidos</a>
+            <div class="nav-label" style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 2px; color: var(--text-muted); margin-bottom: 1rem; font-weight: 700;">Documentos</div>
+            <a href="/X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/HTML/INDICE_Documentos_Servidos.html" class="nav-item">📑 Documentos Entregables</a>
+            <a href="/IX_WBS_Planificacion/SICC_Audit_Dashboard" class="nav-item" id="nav-audit">🛡️ Auditoría Técnica</a>
             <a href="/IX_ENTREGABLES/docs/INDICE_DOCUMENTACION_SOPORTE.html" class="nav-item">📚 Soporte Técnico</a>
         </div>
         
@@ -109,11 +109,11 @@
             const path = window.location.pathname;
             const navMap = {
                 'WBS_Vista_Final': 'nav-wbs',
-                'WBS_COMPLETA': 'nav-wbs',
+                'WBS_COMPLETA': 'nav-wbs-int',
                 'Reporte': 'nav-report',
                 'Riesgos': 'nav-risks',
                 'Cronograma': 'nav-chrono',
-                'Controles_Operativos': 'nav-l4'
+                'Audit': 'nav-audit'
             };
             
             for (const [key, id] of Object.entries(navMap)) {
