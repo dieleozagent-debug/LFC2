@@ -1,9 +1,22 @@
 # 🗺️ ROADMAP — LFC2 (UF2 La Dorada–Chiriguaná)
 
-**Última actualización:** 5 de Mayo de 2026
-**Hito vigente:** entrega presupuesto ANI 2026-05-05 · tag `entrega-presupuesto-2026-05-05` · commit `2598bb8` (barrido BCD v001)
+**Última actualización:** 8 de Mayo de 2026
+**Hito vigente:** entrega presupuesto ANI 2026-05-05 · tag `entrega-presupuesto-2026-05-05`
+**Última sesión:** 2026-05-08 — Reporte Gerencial + Análisis de Riesgos schema v3 (commits `3917613`, `b07bbe8`, `bd74d00`)
 
 > Bitácora viva. Cada sesión actualiza esta página: cierra ítems hechos, agrega hallazgos nuevos, mueve los que pasan a deuda profunda hacia "Backlog".
+
+---
+
+## ✅ Cerrado en sesión 2026-05-08 (Reporte Gerencial + Análisis de Riesgos)
+
+| Ítem | Commit |
+|---|---|
+| **Reporte Gerencial ampliado** — sección "🎯 Optimizaciones doctrinales 4 reglas Tabla 17 AT1" (Stop & Switch FENOCO, 5 ENCE, PTC virtual −15M USD, redimensionamiento eléctrico/FO −5/−10M USD), comparativa contractual con cifra Grupo Ortiz CD+IVA sin AIU $54,73M USD vs oferta sin AIU $69,08M USD = +21% margen, sección "🛡️ Criterios BCD v001 que cuidan margen" (8 criterios mapeados a sección BCD + mecanismo de protección), sección "📈 Palancas activas" (7 acciones con impacto y estado). Cache v=14.7.5. | `3917613` |
+| **riesgos_wbs.js schema v2** — 22 riesgos preexistentes cuantificados con principal/mitigación/residual + 26 nuevos por especialidad: Fibra OC (R-FO-PROF profundidad 40→120cm con mitigación servidumbre 30m, R-FO-AEREO, R-FO-CRUCE-VEH/FERREO, R-FO-PUENTE, R-FO-CAJAS, R-FO-RESTAUR, R-FO-CUSTODIA, R-FO-PERMISOS), Eléctrica (R-UPS-SUBDIM, R-RETIE-001, R-EMC-001), TETRA (R-TETRA-COB/CIBER/SAT), PTC (R-PTC-BALIZAS, R-ENCE-NUM, R-PTC-GPS), PaN (R-PAN-ALCANCE, R-PAN-CWT, R-PAN-FAILSAFE), FENOCO (R-FENOCO-INTEG, R-FENOCO-EMBARCADO), Custodia (R-CUSTODIA-EQUIPOS, R-CUSTODIA-POLIZA). | `b07bbe8` |
+| **riesgos_wbs.js schema v3** — 4 ejes de clasificación nuevos: `tipo` (RIESGO/OPORTUNIDAD), `responsable_capex` (SICC/ANI/CFO/HSEQ — solo SICC suma al KPI gerencial), `transferibilidad` (a ANI vía Sec 9.11/9.12→25.4 con mecanismo + referencia contractual), `confianza` (orden_magnitud/pendiente_wbs/wbs_firme). Riesgos reclasificados con residual SICC=0: R-PTC-BALIZAS (Sec 9.12(a)→25.4), R-ENCE-NUM (Tabla 17 fija 5), R-FENOCO-INTEG (triple capa §9.11(b)(ii) + §9.12→25.4 + Resolución Surcos Art 5), R-PAN-ALCANCE (122 PaN en UF≠SCC). R-UPS-SOBREDIM movido a OPORTUNIDAD ($300-700M COP liberación). R-TRM-001 marcado responsable_capex=CFO (fuera cancha SICC). | `bd74d00` |
+| **WBS_Analisis_Riesgos rediseñado** — 4 KPIs reactivos al filtro: Provisión SICC ⭐ con ratio sobre margen ($14,35M USD) y CD ($211B COP) + Transferido ANI (rango worst-case) + Oportunidades de ahorro + Otros owners (CFO). Filtros por nivel de exposición + por especialidad (Fibra/Eléctrica/TETRA/PTC/PaN/FENOCO/Custodia/Transversal) + búsqueda libre, todos en cascada. Badges por card: 💡 OPORTUNIDAD, 🏛️ Transferible ANI, 💼 Cancha CFO, ✅ WBS firme / ⏳ Pendiente WBS / ~ Orden magnitud. Bloques amarillos para transferibles ANI (mecanismo + referencia). Cache v=14.7.7. | `bd74d00` |
+| **Cifras finales reporte de riesgos**: Provisión Residual SICC ~$13,25B COP / **$3,01M USD** = 21% del margen actual / 6,27% del CD. Transferido ANI worst-case $57-154B COP (no es CapEx LFC). Oportunidades $300-700M COP. Otros owners (TRM=CFO) $875M COP. | — |
 
 ---
 
@@ -146,6 +159,7 @@
 
 | # | Item | Acción |
 |---|---|---|
+| D0 | **Falta YAML EJECUTABLE en DTs del Enjambre:** Las DTs generadas por el agente (ej. `DT-ENRG-2026-001`) omiten la Sección 10 requerida por la metodología `.42`. Sin el YAML, las DTs quedan aisladas y el comando `/promote` no puede propagar cambios al WBS ni a los HTML. Cruzado con `agente/brain/ROADMAP.md`. | Ajustar prompt del Auditor Forense (en el Agente) para forzar la emisión estricta de la Sección 10 YAML. |
 | D1 | **`agente/architecture.md` desalineado con BCD v001:** línea 22 "fibra 64 hilos" (BCD: 48), línea 25 "eliminada UPS 24h TETRA" (BCD §10.5: 24-48h), línea 39 blacklist "Stop & Switch" (BCD §9.2 lo manda). | Sanear el agente. Si no, falla `/audit` contra el propio contrato. |
 | D2 | **Re-ingesta `contrato_documentos`** en pgvector con BCD v001 como L4 vinculante. | `docker exec sicc-postgres ...` (no disparar sin Vo.Bo. del director técnico) |
 | D3 | **Universo B (`datos_wbs_TODOS_items.js`)** servido en Vercel con cifras pre-purga FENOCO. Sidebar reapuntada (D5 cerrado), pero las 3 vistas que lo consumen (`WBS_COMPLETA_TODO_Interactiva_v4.0`, `WBS_COMPLETA_TODO_Interactiva_v4_0`, `WBS_EDT_Detalle`) siguen sirviendo cifras desactualizadas. | Migrar las 3 al schema A (mapping `codigo→item`, `vu_cop→vu`, `total_cop→total`) o dropear duplicado. |

@@ -1,9 +1,9 @@
 # PROYECTO APP LA DORADA - CHIRIGUANÁ v14.7 | SICC SOVEREIGN
 ## Manifesto de Soberanía Técnica y Control de Interoperabilidad (SICC)
 
-**Fecha de actualización:** 5 de Mayo de 2026
-**Estado del sistema:** ✅ **SICC SOVEREIGN v14.7 — Entrega presupuesto ANI certificada**
-**Hito vigente:** commit `9d82f03` · tag `entrega-presupuesto-2026-05-05`
+**Fecha de actualización:** 8 de Mayo de 2026
+**Estado del sistema:** ✅ **SICC SOVEREIGN v14.7 — Entrega presupuesto ANI certificada · Reporte Gerencial + Análisis de Riesgos schema v3**
+**Hito vigente:** tag `entrega-presupuesto-2026-05-05` · sesión 2026-05-08 commit `bd74d00`
 **Responsable:** Agente Antigravity / Administración Contractual SICC
 **Tecnología Base:** Diésel-Eléctrica | PTC Virtual | Red Vital IP / TETRA | Estándar FRA/AREMA
 
@@ -49,8 +49,8 @@ Este repositorio constituye el **Ecosistema de Ingeniería SICC** para el proyec
 
 ### Portales y herramientas
 *   [🏠 Sovereign Tower Dashboard](index.html) — primer card linkea directo a Vista Final
-*   [📋 Reporte Gerencial](IX_WBS_Planificacion/WBS_Reporte_Gerencial.html) — KPIs vivos, comparativa Estructuración/LFC/Ardanuy, 3 escenarios, 5 riesgos contractuales
-*   [⚠️ Análisis de Riesgos](IX_WBS_Planificacion/WBS_Analisis_Riesgos.html) — 22 riesgos · 5 críticos del momento (Interventoría AT1, Ardanuy performance, Ardanuy FO, RFQ, TRM)
+*   [📋 Reporte Gerencial](IX_WBS_Planificacion/WBS_Reporte_Gerencial.html) — KPIs vivos · comparativa contractual con cifra Grupo Ortiz CD+IVA sin AIU $54,73M USD (+21% margen) · **🎯 Optimizaciones 4 reglas Tabla 17 AT1** · **🛡️ 8 criterios BCD que cuidan margen** · **📈 7 palancas activas** · 5 riesgos contractuales · 3 escenarios
+*   [⚠️ Análisis de Riesgos](IX_WBS_Planificacion/WBS_Analisis_Riesgos.html) — **48 ítems con schema v3** (tipo · responsable_capex · transferibilidad · confianza) · **4 KPIs reactivos al filtro**: Provisión SICC ⭐ $3,01M USD (21% del margen) · 🏛️ Transferido ANI rango worst-case · 💡 Oportunidades de ahorro · 💼 Otros owners (CFO). Filtros por especialidad (Fibra · Eléctrica · TETRA · PTC · PaN · FENOCO · Custodia · Transversal) — gerente filtra "Alto + Fibra" y ve cuánto $ pesa ese subset
 *   [🎯 WBS Hub](IX_WBS_Planificacion/WBS_Menu_Principal.html) — navegación detallada (Cronograma, Riesgos, Reporte, Auditoría)
 *   [🍽️ Platos Servidos (Entregables)](X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/HTML/INDICE_Documentos_Servidos.html)
 

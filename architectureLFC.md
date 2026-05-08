@@ -1,7 +1,7 @@
 # 🏗️ ARQUITECTURA DEL SISTEMA — LFC2 (UF2 La Dorada–Chiriguaná)
 **Proyecto:** Corredor Férreo La Dorada–Chiriguaná · Contrato APP No. 001 de 2025
-**Última actualización:** 5 de Mayo de 2026 (post-cirugía BCD v001)
-**Versión:** 14.7 (SICC Unified Edition)
+**Última actualización:** 8 de Mayo de 2026 (Reporte Gerencial ampliado + Análisis de Riesgos schema v3)
+**Versión:** 14.7 (SICC Unified Edition · cache v=14.7.7)
 
 ---
 
@@ -66,7 +66,7 @@ Desde 2026-05-05, la arquitectura se rige por el **BCD v001 (Ardanuy, abril 2026
 │                                                                   │
 │  A) wbs_presupuestal_datos.js  — SANEADO v14.7 (entrega 05-05)   │
 │     window.wbsDataPresupuestal = [{item, vu, total, tipo, ...}]  │
-│     135 ítems · 1.1.103 = $11,000M (post-purga FENOCO Sec 25.4)  │
+│     133 ítems · 1.1.103 = $11,000M (post-purga FENOCO Sec 25.4)  │
 │     ✅ ALINEADO con BCD v001                                      │
 │                                                                   │
 │  B) datos_wbs_TODOS_items.js   — LEGACY v7.0 Michelin (abril)    │
@@ -76,7 +76,12 @@ Desde 2026-05-05, la arquitectura se rige por el **BCD v001 (Ardanuy, abril 2026
 │                                                                   │
 │  Datasets auxiliares (un solo consumidor):                        │
 │  · cronograma_datos.js         → WBS_Cronograma_Propuesta         │
-│  · riesgos_wbs.js              → WBS_Analisis_Riesgos             │
+│  · riesgos_wbs.js  v3 (08-05)  → WBS_Analisis_Riesgos             │
+│    48 ítems con 4 ejes: tipo (RIESGO/OPORTUNIDAD), responsable_   │
+│    capex (SICC/ANI/CFO/HSEQ), transferibilidad (a ANI vía         │
+│    Sec 9.11/9.12→25.4), confianza. Riesgos transferibles a ANI    │
+│    (R-PTC-BALIZAS, R-ENCE-NUM, R-FENOCO-INTEG, R-PAN-ALCANCE)     │
+│    con residual SICC=0 — el costo no entra a provisión LFC.       │
 │  · reporte_gerencial_data.js   → WBS_Reporte_Gerencial            │
 │  · wbs_metadata_enriquecida.js → metadata por ítem v2.0           │
 │    (133 ítems · justificación, criterios, supuestos, DTs, docs)   │
@@ -98,8 +103,8 @@ Desde 2026-05-05, la arquitectura se rige por el **BCD v001 (Ardanuy, abril 2026
 |---|---|---|
 | **`WBS_Vista_Final.html`** | ⭐ **Vista canónica gerencial** | Universo A (133 ítems) + motor `wbs_core_logic`. Excel 7 hojas + 5 modales L4 (AIU, Acta, Validación Cap.4, Zero-Residue, Pendientes RFQ). Estilo `Costo_proyecto.xlsx` en Hoja 3 (TRM en M1, fórmulas `$M$1`). **Para el gerente / banca / ANI.** |
 | **`WBS_COMPLETA_TODO_Interactiva_v4.0.html`** | 🛠️ **Vista del técnico** (rescatada Bloque E + UX v2 commit `f4ef73a`) | Universo A migrado · 133 ítems navegables por capítulo + búsqueda con pill "📊 FILTRADO" + toggle COP/USD + **subtotal por sub-capítulo** + pill "RFQ pendiente" en 9 ítems. **Generador de DT por ítem** con prefijo SICC pre-seleccionado por capítulo (Cap 1→CTRL, 2→COMS, 3→SICC, 4→PAN, 5→CCO, 6→MR; ENRG/PMO disponibles). Modal incluye bloque **"📚 CONTEXTO TÉCNICO"** con metadata (justificación, criterios, supuestos, DTs previas, documentos) desde `wbs_metadata_enriquecida.js v2.0` (133 ítems). Plantilla DT exportable a markdown con toast confirmando copia. **Para el técnico que propone cambios.** |
-| `WBS_Reporte_Gerencial.html` | Activo BCD-aligned | KPIs vivos desde `WBS_CORE` + comparativa contractual (Estructuración Grupo Ortiz / LFC / Ardanuy) + 3 escenarios + 5 riesgos contractuales. Reporte L1. |
-| `WBS_Analisis_Riesgos.html` | Activo · 22 riesgos | `riesgos_wbs.js` con 5 críticos del momento (Interventoría AT1, Ardanuy performance, Ardanuy FO, RFQ, TRM). |
+| `WBS_Reporte_Gerencial.html` | Activo BCD-aligned · ampliado 08-05 | KPIs vivos desde `WBS_CORE` + comparativa contractual con cifra Grupo Ortiz CD+IVA sin AIU $54,73M USD (margen +21%) + **🎯 4 reglas Tabla 17 AT1** (Stop & Switch, 5 ENCE, PTC virtual −15M USD, redimensionamiento eléctrico/FO −5/−10M USD) + **🛡️ 8 criterios BCD que cuidan margen** (mapeados a sección BCD + mecanismo) + **📈 7 palancas activas** + 3 escenarios + 5 riesgos contractuales. Reporte L1. Cache v=14.7.5. |
+| `WBS_Analisis_Riesgos.html` | Activo · **48 ítems schema v3** (08-05) | `riesgos_wbs.js` con 4 KPIs reactivos al filtro: Provisión SICC ⭐ (con ratio sobre margen $14,35M USD y CD $211B COP) + Transferido ANI worst-case + Oportunidades de ahorro + Otros owners (CFO). Filtros por nivel + por especialidad (Fibra/Eléctrica/TETRA/PTC/PaN/FENOCO/Custodia/Transversal). Cards con badges (💡 OPORTUNIDAD, 🏛️ Transferible ANI, 💼 Cancha CFO, ✅ WBS firme / ⏳ Pendiente WBS / ~ Orden magnitud). Cifra final: Provisión SICC $3,01M USD = 21% margen / 6,27% CD. Cache v=14.7.7. |
 | `WBS_Menu_Principal.html` | Hub navegación (deuda E6) | Acceso secundario. Pendiente: limpieza de pills "v6.0 PREMIUM/B.R.A.I.N." + cifras vivas + reapuntar hero al WBS Interactivo rescatado. |
 | `WBS_Cronograma_Propuesta.html` | Activo | Universo A + `cronograma_datos.js`. Gantt. Hardcoded parcial (deuda backlog) |
 | `WBS_EDT_Detalle.html` | Activo | Universo B + `wbs_metadata_enriquecida.js`. EDT por ítem (deuda D3: migrar a A) |
@@ -211,8 +216,8 @@ FASE 4:    APROBADO → brain/dictamenes/ + vectorización + /promote
 | DT → Presupuesto Universo A | ✅ | `wbs_presupuestal_datos.js` actualizado vía `sincronizar_TODO`. WBS_Vista_Final + WBS Interactiva consumen en vivo. |
 | Vista Final entregable (Vercel) | ✅ | 133 ítems, AIU 33% + IVA 19% calculados en tiempo real. Excel 7 hojas. |
 | **WBS Interactiva con generador DT (Vercel)** | ✅ Bloque E + UX v2 | 133 ítems navegables · search con pill FILTRADO · subtotal sub-cap · pill RFQ pendiente · prefijo SICC pre-seleccionado · modal CONTEXTO TÉCNICO con metadata v2.0 (133 ítems) · 24 ítems con DTs vinculadas · plantilla DT exportable. |
-| Reporte Gerencial BCD-aligned (Vercel) | ✅ | KPIs vivos · comparativa Estructuración/LFC/Ardanuy · 3 escenarios · 5 riesgos contractuales. |
-| Análisis de Riesgos (Vercel) | ✅ | 22 riesgos · 5 críticos del momento incluido R-ARDANUY-PERF-001 (incumplimiento Ardanuy día 98/270). |
+| Reporte Gerencial BCD-aligned (Vercel) | ✅ + ampliado 08-05 | KPIs vivos · comparativa contractual + cifra Grupo Ortiz CD+IVA sin AIU + secciones Optimizaciones Tabla 17 + Criterios BCD + Palancas activas · 3 escenarios · 5 riesgos contractuales. |
+| Análisis de Riesgos schema v3 (Vercel) | ✅ rediseñado 08-05 | 48 ítems con 4 ejes (tipo · responsable_capex · transferibilidad · confianza) · 4 KPIs reactivos al filtro · filtros por especialidad · transferibles ANI con residual SICC=0 vía Sec 9.11/9.12→25.4. Provisión Residual SICC $3,01M USD = 21% del margen. |
 | Pipeline forense `/audit` | ✅ | Tridente NVIDIA NIM emite DTs certificadas en `brain/dictamenes/`. |
 | CI/CD `/promote` | ✅ | `gitlocal.js` copia DT → LFC2 → push GitHub → Vercel auto-deploy. |
 | Cache-busting | ✅ | Universo A: `?v=14.7.5`. |
