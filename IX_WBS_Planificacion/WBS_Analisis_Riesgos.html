@@ -117,6 +117,94 @@
             color: var(--accent);
             font-size: 0.9rem;
         }
+        .risk-residual-block {
+            background: rgba(46, 213, 115, 0.08);
+            border-left: 4px solid #2ed573;
+            border-radius: 12px;
+            padding: 1.2rem 1.5rem;
+            margin-top: 1rem;
+        }
+        .risk-residual-block h5 {
+            margin: 0 0 0.4rem 0;
+            color: #2ed573;
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        .risk-residual-figure {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #2ed573;
+            margin: 0.3rem 0;
+        }
+        .risk-residual-desc {
+            font-size: 0.82rem;
+            opacity: 0.85;
+            line-height: 1.5;
+            margin: 0.4rem 0 0 0;
+        }
+        .risk-mitigation-block {
+            background: rgba(30, 144, 255, 0.08);
+            border-left: 4px solid var(--accent);
+            border-radius: 12px;
+            padding: 1.2rem 1.5rem;
+            margin-top: 1rem;
+        }
+        .risk-mitigation-block h5 {
+            margin: 0 0 0.4rem 0;
+            color: var(--accent);
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        .risk-mitigation-block p {
+            margin: 0;
+            font-size: 0.88rem;
+            line-height: 1.6;
+            opacity: 0.9;
+        }
+        .risk-principal-toggle {
+            background: rgba(255, 71, 87, 0.05);
+            border: 1px solid rgba(255, 71, 87, 0.2);
+            border-radius: 12px;
+            padding: 0.8rem 1.2rem;
+            margin-top: 1rem;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .risk-principal-toggle:hover { background: rgba(255, 71, 87, 0.1); }
+        .risk-principal-toggle summary {
+            color: #ff8a95;
+            font-size: 0.82rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .risk-principal-toggle summary::-webkit-details-marker { display: none; }
+        .risk-principal-toggle summary::after { content: '▼'; opacity: 0.5; transition: transform 0.3s; }
+        .risk-principal-toggle[open] summary::after { transform: rotate(180deg); }
+        .risk-principal-content {
+            margin-top: 0.8rem;
+            font-size: 0.85rem;
+            line-height: 1.6;
+            opacity: 0.85;
+        }
+        .risk-principal-figure {
+            color: #ff8a95;
+            font-weight: 700;
+            font-size: 1.05rem;
+        }
+        .filter-section-label {
+            font-size: 0.7rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            opacity: 0.5;
+            margin-bottom: 0.5rem;
+        }
     </style>
 </head>
 <body>
@@ -133,32 +221,51 @@
             </div>
         </div>
 
-        <div class="risk-summary" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1.5rem; margin-bottom: 3rem;">
-            <div class="premium-card risk-metric"><div class="metric-value">0</div><div class="metric-label">Críticos + Altos</div></div>
-            <div class="premium-card risk-metric"><div class="metric-value">0</div><div class="metric-label">Riesgos Medios</div></div>
-            <div class="premium-card risk-metric"><div class="metric-value">0</div><div class="metric-label">Riesgos Bajos</div></div>
+        <div class="risk-summary" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
+            <div class="premium-card risk-metric" style="border-left: 4px solid #ff4757;"><div class="metric-value">0</div><div class="metric-label">Críticos + Altos</div></div>
+            <div class="premium-card risk-metric" style="border-left: 4px solid #ffa502;"><div class="metric-value">0</div><div class="metric-label">Medios</div></div>
+            <div class="premium-card risk-metric" style="border-left: 4px solid #2ed573;"><div class="metric-value">0</div><div class="metric-label">Bajos</div></div>
             <div class="premium-card risk-metric"><div class="metric-value" id="m-total">…</div><div class="metric-label">Total Riesgos</div></div>
+            <div class="premium-card risk-metric" style="border-left: 4px solid #2ed573;"><div class="metric-value" id="m-residual" style="color: #2ed573;">…</div><div class="metric-label">Provisión Residual ⭐</div></div>
+        </div>
+
+        <div class="premium-card" style="margin-bottom: 2rem; padding: 1.5rem 2rem;">
+            <h3 style="color: var(--accent); margin: 0 0 0.6rem 0; font-size: 1.05rem;">📊 Metodología — riesgo principal vs residual</h3>
+            <p style="opacity: 0.85; line-height: 1.6; margin: 0; font-size: 0.9rem;">Cada riesgo se cuantifica en dos planos: <strong style="color: #ff8a95;">principal</strong> (worst-case bruto si no se mitiga, sirve para argumentar la importancia de la palanca) y <strong style="color: #2ed573;">residual</strong> (post-mitigación, lo que efectivamente va a provisión). La cifra <em>Provisión Residual</em> arriba es la suma de exposiciones esperadas (probabilidad × punto medio del residual). Los riesgos macro (R-ARDANUY-FO, R-PTC-001, R-FENOCO-001, R-FIBRA-006) están en cero residual porque su contenido se descompone en riesgos específicos de cada especialidad.</p>
         </div>
 
         <div class="premium-card" style="margin-bottom: 3rem;">
-            <div style="display: flex; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap;">
-                <button class="filter-btn active" onclick="filterRisks('all')">📋 Todos</button>
-                <button class="filter-btn" onclick="filterRisks('high')">🔴 Alto Impacto</button>
-                <button class="filter-btn" onclick="filterRisks('medium')">🟡 Medio Impacto</button>
-                <button class="filter-btn" onclick="filterRisks('low')">🟢 Bajo Impacto</button>
+            <div class="filter-section-label">Filtrar por nivel de exposición</div>
+            <div style="display: flex; gap: 0.5rem; margin-bottom: 1.2rem; flex-wrap: wrap;">
+                <button class="filter-btn active" onclick="filterRisks('all', this)">📋 Todos</button>
+                <button class="filter-btn" onclick="filterRisks('high', this)">🔴 Alto Impacto</button>
+                <button class="filter-btn" onclick="filterRisks('medium', this)">🟡 Medio Impacto</button>
+                <button class="filter-btn" onclick="filterRisks('low', this)">🟢 Bajo Impacto</button>
+            </div>
+            <div class="filter-section-label">Filtrar por especialidad</div>
+            <div style="display: flex; gap: 0.5rem; margin-bottom: 1.5rem; flex-wrap: wrap;" id="filter-especialidad">
+                <button class="filter-btn active" onclick="filterByEspecialidad('all', this)">📋 Todas</button>
+                <button class="filter-btn" onclick="filterByEspecialidad('Fibra Óptica', this)">🔌 Fibra Óptica</button>
+                <button class="filter-btn" onclick="filterByEspecialidad('Eléctrica', this)">⚡ Eléctrica</button>
+                <button class="filter-btn" onclick="filterByEspecialidad('TETRA', this)">📡 TETRA</button>
+                <button class="filter-btn" onclick="filterByEspecialidad('PTC', this)">🚂 PTC</button>
+                <button class="filter-btn" onclick="filterByEspecialidad('Pasos a Nivel', this)">🚧 Pasos a Nivel</button>
+                <button class="filter-btn" onclick="filterByEspecialidad('Interoperabilidad FENOCO', this)">🔄 FENOCO</button>
+                <button class="filter-btn" onclick="filterByEspecialidad('Custodia', this)">🛡️ Custodia</button>
+                <button class="filter-btn" onclick="filterByEspecialidad('Transversal', this)">🌐 Transversal</button>
             </div>
             <div style="position: relative;">
-                <input type="text" class="search-box" placeholder="🔍 Buscar riesgos, categorías o responsables..." onkeyup="searchRisks(this.value)">
+                <input type="text" class="search-box" placeholder="🔍 Buscar por id, descripción, estrategia o responsable..." onkeyup="searchRisks(this.value)">
                 <div style="position: absolute; right: 2rem; top: 1.2rem; opacity: 0.3; font-size: 0.8rem;" id="results-count">Mostrando todos los riesgos</div>
             </div>
-            
+
             <div id="riskMatrix" style="min-height: 400px; position: relative;">
                 <p style="text-align: center; opacity: 0.5; padding: 5rem;" id="loading-spinner">🔄 Sincronizando matriz</p>
             </div>
         </div>
     </div>
-    <script src="lfc-terminology.js?v=14.7.5"></script>
-    <script src="sidebar-component.js?v=14.7.5"></script>
+    <script src="lfc-terminology.js?v=14.7.6"></script>
+    <script src="sidebar-component.js?v=14.7.6"></script>
 
     <script>
         // Inyectar ADN
@@ -170,44 +277,54 @@
             document.getElementById('adn-version-tag').textContent = term.PROJECT.VERSION;
         }
 
-        function filterRisks(level) {
+        // Filtros independientes (nivel + especialidad + búsqueda) — se aplican en cascada
+        let activeFilters = { level: 'all', especialidad: 'all', search: '' };
+
+        function applyAllFilters() {
             const cards = document.querySelectorAll('.risk-card');
-            const buttons = document.querySelectorAll('.filter-btn');
-            
-            // Actualizar botones activos
-            buttons.forEach(btn => btn.classList.remove('active'));
-            event.target.classList.add('active');
-            
-            // Filtrar tarjetas
+            let visibleCount = 0;
             cards.forEach(card => {
-                if (level === 'all' || card.getAttribute('data-category') === level) {
-                    card.style.display = 'block';
-                } else {
-                    card.style.display = 'none';
-                }
+                const matchLevel = activeFilters.level === 'all' || card.getAttribute('data-category') === activeFilters.level;
+                const matchEsp = activeFilters.especialidad === 'all' || card.getAttribute('data-especialidad') === activeFilters.especialidad;
+                const keywords = (card.getAttribute('data-keywords') || '').toLowerCase();
+                const title = (card.querySelector('.risk-title')?.textContent || '').toLowerCase();
+                const description = (card.querySelector('.risk-description')?.textContent || '').toLowerCase();
+                const term = activeFilters.search.toLowerCase();
+                const matchSearch = term === '' || keywords.includes(term) || title.includes(term) || description.includes(term);
+                const visible = matchLevel && matchEsp && matchSearch;
+                card.style.display = visible ? 'flex' : 'none';
+                if (visible) visibleCount++;
             });
+            const counter = document.getElementById('results-count');
+            if (counter) counter.textContent = visibleCount + ' visibles';
         }
-        
+
+        function filterRisks(level, btn) {
+            activeFilters.level = level;
+            const buttons = btn.parentElement.querySelectorAll('.filter-btn');
+            buttons.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            applyAllFilters();
+        }
+
+        function filterByEspecialidad(esp, btn) {
+            activeFilters.especialidad = esp;
+            const buttons = btn.parentElement.querySelectorAll('.filter-btn');
+            buttons.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            applyAllFilters();
+        }
+
         function searchRisks(searchTerm) {
-            const cards = document.querySelectorAll('.risk-card');
-            const term = searchTerm.toLowerCase();
-            
-            cards.forEach(card => {
-                const keywords = card.getAttribute('data-keywords').toLowerCase();
-                const title = card.querySelector('.risk-title').textContent.toLowerCase();
-                const description = card.querySelector('.risk-description').textContent.toLowerCase();
-                
-                if (keywords.includes(term) || title.includes(term) || description.includes(term) || term === '') {
-                    card.style.display = 'block';
-                } else {
-                    card.style.display = 'none';
-                }
-            });
+            activeFilters.search = searchTerm;
+            applyAllFilters();
         }
+
+        function fmtCOPm(n) { return '$' + Math.round(n).toLocaleString('es-CO') + 'M'; }
     </script>
 
     <!-- Carga de datos dinámicos de riesgos -->
-    <script src="riesgos_wbs.js?v=14.7.5"></script>
+    <script src="riesgos_wbs.js?v=14.7.6"></script>
     <script>
         // Verificar que los datos se cargaron correctamente
         if (typeof window.riesgosWbs !== 'undefined') {
@@ -233,7 +350,15 @@
             const totalEl = document.getElementById('m-total');
             if (totalEl) totalEl.textContent = riesgos.length;
 
-            console.log(`📊 Estadísticas actualizadas: ${critica} críticos, ${alta} altos, ${media} medios, ${baja} bajos · total ${riesgos.length}`);
+            // KPI Provisión Residual (suma de exposicion_residual_cop, en M COP)
+            const residualTotal = riesgos.reduce((s, r) => s + (r.exposicion_residual_cop || 0), 0);
+            const residualEl = document.getElementById('m-residual');
+            if (residualEl) {
+                const usd = (residualTotal * 1e6) / 4400 / 1e6;
+                residualEl.innerHTML = `$${usd.toFixed(2)}M<div style="font-size: 0.85rem; opacity: 0.7; margin-top: 0.2rem;">USD @ TRM 4.400</div><div style="font-size: 0.7rem; opacity: 0.6;">$${residualTotal.toLocaleString('es-CO')}M COP</div>`;
+            }
+
+            console.log(`📊 Estadísticas actualizadas: ${critica} críticos, ${alta} altos, ${media} medios, ${baja} bajos · total ${riesgos.length} · residual ${residualTotal.toLocaleString('es-CO')}M COP`);
             
             // ============================================================
             // RENDERIZADO DINÁMICO DE RIESGOS (v2.0 - Con Plan de Acción)
@@ -245,69 +370,118 @@
                 // Limpiar tarjetas hardcodeadas
                 riskMatrixContainer.innerHTML = '';
                 
+                // Helper formato COP M
+                const fmtM = (n) => '$' + Math.round(n).toLocaleString('es-CO') + 'M';
+                const fmtRange = (rng) => {
+                    if (!rng || (rng.cop_min === 0 && rng.cop_max === 0)) return '<em>cubierto por descomposición</em>';
+                    return fmtM(rng.cop_min) + ' – ' + fmtM(rng.cop_max);
+                };
+
                 // Generar tarjetas dinámicamente
                 riesgos.forEach((r, index) => {
-                    // Determinar clase de categoría
                     const categoryClass = r.nivel_exposicion === 'CRÍTICA' || r.nivel_exposicion === 'CRITICA' || r.nivel_exposicion === 'ALTA' ? 'high' :
                                          r.nivel_exposicion === 'MEDIA' ? 'medium' : 'low';
-                    
-                    // Crear tarjeta
+
                     const card = document.createElement('div');
                     card.className = `risk-card ${categoryClass}`;
                     card.setAttribute('data-category', categoryClass);
-                    card.setAttribute('data-keywords', `${r.id} ${r.categoria} ${r.descripcion}`.toLowerCase());
+                    card.setAttribute('data-especialidad', r.especialidad || 'Sin asignar');
+                    card.setAttribute('data-keywords', `${r.id} ${r.categoria} ${r.especialidad || ''} ${r.descripcion} ${r.estrategia_mitigacion || r.estrategia || ''} ${r.responsable || ''}`.toLowerCase());
                     card.style.opacity = '0';
                     card.style.transform = 'translateY(20px)';
-                    
+
                     // Header
+                    const tagClass = r.nivel_exposicion.includes('CRITICA') || r.nivel_exposicion.includes('CRÍTICA') ? 'tag-critical' :
+                                   r.nivel_exposicion === 'ALTA' ? 'tag-high' :
+                                   r.nivel_exposicion === 'MEDIA' ? 'tag-medium' : 'tag-low';
+
+                    const especialidadBadge = r.especialidad ? `<span style="display: inline-block; background: rgba(30,144,255,0.15); color: var(--accent); padding: 0.2rem 0.7rem; border-radius: 50px; font-size: 0.7rem; letter-spacing: 1px; margin-left: 0.5rem; vertical-align: middle;">${r.especialidad}</span>` : '';
+
                     const header = document.createElement('div');
                     header.className = 'risk-header';
-                    const tagClass = r.nivel_exposicion.includes('CRITICA') || r.nivel_exposicion.includes('CRÍTICA') ? 'tag-critical' : 
-                                   r.nivel_exposicion === 'ALTA' ? 'tag-high' : 
-                                   r.nivel_exposicion === 'MEDIA' ? 'tag-medium' : 'tag-low';
-                    
                     header.innerHTML = `
-                        <div class="risk-title">${r.id}: ${r.descripcion.substring(0, 100)}${r.descripcion.length > 100 ? '...' : ''}</div>
+                        <div class="risk-title">${r.id}${especialidadBadge}</div>
                         <div class="premium-tag ${tagClass}">${r.nivel_exposicion}</div>
                     `;
                     card.appendChild(header);
-                    
-                    // Descripción completa
+
+                    // Descripción
                     const description = document.createElement('div');
                     description.className = 'risk-description';
                     description.textContent = r.descripcion;
                     card.appendChild(description);
-                    
-                    // Plan de Acción ★ NUEVO
+
+                    // ESTRATEGIA DE MITIGACIÓN (azul, destacado)
+                    const mitigText = r.estrategia_mitigacion || r.estrategia || '';
+                    if (mitigText) {
+                        const mitigDiv = document.createElement('div');
+                        mitigDiv.className = 'risk-mitigation-block';
+                        mitigDiv.innerHTML = `
+                            <h5>🛡️ Estrategia de mitigación</h5>
+                            <p>${mitigText}</p>
+                        `;
+                        card.appendChild(mitigDiv);
+                    }
+
+                    // RIESGO RESIDUAL (verde, cifra protagonista)
+                    const residual = r.riesgo_residual;
+                    const expEsp = r.exposicion_residual_cop || 0;
+                    const residualDiv = document.createElement('div');
+                    residualDiv.className = 'risk-residual-block';
+                    if (residual && (residual.cop_min !== 0 || residual.cop_max !== 0)) {
+                        residualDiv.innerHTML = `
+                            <h5>✅ Riesgo residual (post-mitigación)</h5>
+                            <div class="risk-residual-figure">${fmtRange(residual)}</div>
+                            <p class="risk-residual-desc">${residual.descripcion || ''}</p>
+                            <p class="risk-residual-desc" style="margin-top: 0.6rem; opacity: 1;">
+                                <strong>Exposición esperada (P × residual):</strong>
+                                <span style="color: #2ed573; font-weight: 700;">${fmtM(expEsp)} COP</span>
+                                · USD@4400 ≈ $${((expEsp*1e6)/4400/1e6).toFixed(2)}M
+                            </p>
+                        `;
+                    } else {
+                        residualDiv.innerHTML = `
+                            <h5>📦 Riesgo macro descompuesto</h5>
+                            <p class="risk-residual-desc">${residual?.descripcion || 'Cubierto por riesgos específicos en su especialidad — no suma a la provisión total para evitar doble conteo.'}</p>
+                        `;
+                    }
+                    card.appendChild(residualDiv);
+
+                    // RIESGO PRINCIPAL (rojo, colapsable)
+                    const principal = r.riesgo_principal;
+                    if (principal) {
+                        const principalDetails = document.createElement('details');
+                        principalDetails.className = 'risk-principal-toggle';
+                        principalDetails.innerHTML = `
+                            <summary>⚠️ Riesgo principal (worst-case sin mitigar): <span class="risk-principal-figure">${fmtRange(principal)}</span></summary>
+                            <div class="risk-principal-content">${principal.descripcion || ''}</div>
+                        `;
+                        card.appendChild(principalDetails);
+                    }
+
+                    // Plan de Acción
                     if (r.plan_accion && r.plan_accion !== 'No definido') {
                         const planAccionDiv = document.createElement('div');
                         planAccionDiv.className = 'risk-plan-accion';
                         planAccionDiv.innerHTML = `
-                            <h5 style="margin: 0 0 8px 0; color: #1e90ff; font-size: 14px; font-weight: 600;">
-                                📋 Plan de Acción Inmediato
-                            </h5>
-                            <p style="margin: 0; font-size: 13px; line-height: 1.6; color: #333;">
-                                ${r.plan_accion}
-                            </p>
+                            <h5 style="margin: 0 0 0.4rem 0; color: var(--accent); font-size: 0.85rem; letter-spacing: 1px; text-transform: uppercase;">📋 Plan de acción inmediato</h5>
+                            <p style="margin: 0; font-size: 0.88rem; line-height: 1.6; opacity: 0.9;">${r.plan_accion}</p>
                         `;
                         planAccionDiv.style.cssText = `
-                            margin-top: 15px;
-                            padding: 1.5rem;
-                            background: rgba(30, 144, 255, 0.1);
-                            border-left: 4px solid var(--accent);
+                            margin-top: 1rem;
+                            padding: 1.2rem 1.5rem;
+                            background: rgba(255, 215, 0, 0.06);
+                            border-left: 4px solid #ffd700;
                             border-radius: 12px;
-                            border: 1px solid rgba(30, 144, 255, 0.2);
                         `;
-                        planAccionDiv.querySelector('h5').style.color = 'var(--accent)';
-                        planAccionDiv.querySelector('p').style.color = 'rgba(255,255,255,0.8)';
+                        planAccionDiv.querySelector('h5').style.color = '#ffd700';
                         card.appendChild(planAccionDiv);
                     }
-                    
-                    // Impact section
+
+                    // Análisis de impacto (compacto)
                     const impactSection = document.createElement('div');
                     impactSection.className = 'impact-section';
                     impactSection.innerHTML = `
-                        <div class="impact-title">📊 Análisis de Impacto</div>
                         <div class="impact-item">
                             <span class="impact-label">Probabilidad</span>
                             <span class="impact-value">${r.probabilidad}</span>
@@ -317,24 +491,14 @@
                             <span class="impact-value">${r.impacto}</span>
                         </div>
                         <div class="impact-item">
-                            <span class="impact-label">Exposición</span>
-                            <span class="impact-value">${r.exposicion.toFixed(2)}</span>
-                        </div>
-                        <div class="impact-item">
-                            <span class="impact-label">Estrategia</span>
-                            <span class="impact-value">${r.estrategia}</span>
+                            <span class="impact-label">Categoría</span>
+                            <span class="impact-value">${r.categoria}</span>
                         </div>
                         <div class="impact-item">
                             <span class="impact-label">Responsable</span>
-                            <span class="impact-value">${r.responsable}</span>
+                            <span class="impact-value">${r.responsable || '—'}</span>
                         </div>
-                        ${r.origen_decision !== 'N/A' ? `
-                        <div class="impact-item">
-                            <span class="impact-label">Origen DT</span>
-                            <span class="impact-value">${r.origen_decision}</span>
-                        </div>
-                        ` : ''}
-                        ${r.hito_verificacion !== 'N/A' ? `
+                        ${r.hito_verificacion && r.hito_verificacion !== 'N/A' ? `
                         <div class="impact-item">
                             <span class="impact-label">Hito Verificación</span>
                             <span class="impact-value">${r.hito_verificacion}</span>
@@ -342,25 +506,29 @@
                         ` : ''}
                         ${(r.items_wbs && (Array.isArray(r.items_wbs) ? r.items_wbs.length > 0 : String(r.items_wbs).length > 0)) ? `
                         <div class="impact-item">
-                            <span class="impact-label">Ítems WBS Afectados</span>
+                            <span class="impact-label">Ítems WBS</span>
                             <span class="impact-value">${Array.isArray(r.items_wbs) ? r.items_wbs.join(', ') : r.items_wbs}</span>
+                        </div>
+                        ` : ''}
+                        ${r.fuente ? `
+                        <div class="impact-item">
+                            <span class="impact-label">Fuente</span>
+                            <span class="impact-value" style="font-size: 0.78rem;">${r.fuente}</span>
                         </div>
                         ` : ''}
                     `;
                     card.appendChild(impactSection);
-                    
-                    // Agregar al container
+
                     riskMatrixContainer.appendChild(card);
-                    
-                    // Animación de entrada
+
                     setTimeout(() => {
                         card.style.transition = 'all 0.5s ease';
                         card.style.opacity = '1';
                         card.style.transform = 'translateY(0)';
-                    }, index * 100);
+                    }, Math.min(index * 30, 1500));
                 });
-                
-                console.log(`✅ ${riesgos.length} tarjetas de riesgos generadas dinámicamente con planes de acción`);
+
+                console.log(`✅ ${riesgos.length} tarjetas generadas con schema v2 (principal/mitigación/residual)`);
             }
             
             // Los datos están disponibles para renderizado dinámico
