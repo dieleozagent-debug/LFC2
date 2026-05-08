@@ -321,26 +321,63 @@
             </div>
         </div>
 
-        <div class="risk-summary" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 1.2rem; margin-bottom: 2rem;">
+        <!-- Banner de filtros activos (visible solo cuando hay filtro) -->
+        <div id="filter-banner" style="display: none; background: rgba(255, 215, 0, 0.10); border: 1px solid rgba(255, 215, 0, 0.4); border-radius: 12px; padding: 1rem 1.5rem; margin-bottom: 1.5rem; display: none;">
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+                <div>
+                    <span style="color: #ffd700; font-weight: 700; letter-spacing: 1px;">🔍 FILTRO ACTIVO</span>
+                    <span id="filter-banner-detail" style="margin-left: 1rem; opacity: 0.9;">…</span>
+                </div>
+                <div>
+                    <span id="filter-banner-count" style="opacity: 0.8; font-size: 0.9rem;">…</span>
+                    <button onclick="clearAllFilters()" style="margin-left: 1rem; padding: 0.4rem 1rem; background: rgba(255,71,87,0.15); border: 1px solid rgba(255,71,87,0.4); color: #ff4757; border-radius: 50px; cursor: pointer; font-size: 0.8rem; font-weight: 600;">✕ Limpiar filtros</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Encabezado del bloque KPIs: indica si son TOTAL o FILTRADO -->
+        <div style="margin-bottom: 0.8rem; display: flex; justify-content: space-between; align-items: center;">
+            <h2 style="margin: 0; color: var(--accent); font-size: 1.05rem; letter-spacing: 1px; text-transform: uppercase;" id="kpi-section-title">📊 KPIs — Total proyecto (48 ítems)</h2>
+            <span style="font-size: 0.75rem; opacity: 0.6;" id="kpi-section-subtitle">Aplica filtros abajo para ver subtotales</span>
+        </div>
+
+        <div class="risk-summary" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 1.2rem; margin-bottom: 2rem;">
             <div class="premium-card risk-metric" style="border-left: 4px solid #2ed573;">
                 <div class="metric-value" id="m-residual-sicc" style="color: #2ed573;">…</div>
                 <div class="metric-label">Provisión Residual SICC ⭐</div>
                 <div id="m-residual-ratio" style="font-size: 0.7rem; opacity: 0.7; margin-top: 0.4rem;">…</div>
+                <div id="m-residual-sicc-subset" style="display: none; margin-top: 0.7rem; padding-top: 0.7rem; border-top: 1px dashed rgba(255,215,0,0.3);">
+                    <div style="font-size: 0.65rem; letter-spacing: 1px; color: #ffd700; text-transform: uppercase;">Filtrado</div>
+                    <div style="font-size: 1.2rem; font-weight: 700; color: #ffd700; margin-top: 0.2rem;" id="m-residual-sicc-subset-val">$0M</div>
+                    <div style="font-size: 0.7rem; opacity: 0.75; margin-top: 0.2rem;" id="m-residual-sicc-subset-pct">0% del total</div>
+                </div>
             </div>
             <div class="premium-card risk-metric" style="border-left: 4px solid #ffd700;">
                 <div class="metric-value" id="m-transferido-ani" style="color: #ffd700;">…</div>
                 <div class="metric-label">🏛️ Transferido ANI (por contrato)</div>
                 <div style="font-size: 0.7rem; opacity: 0.7; margin-top: 0.4rem;">Sec 9.11/9.12→25.4 — no es CapEx LFC</div>
+                <div id="m-transferido-ani-subset" style="display: none; margin-top: 0.7rem; padding-top: 0.7rem; border-top: 1px dashed rgba(255,215,0,0.3);">
+                    <div style="font-size: 0.65rem; letter-spacing: 1px; color: #ffd700; text-transform: uppercase;">Filtrado</div>
+                    <div style="font-size: 1.0rem; font-weight: 700; color: #ffd700; margin-top: 0.2rem;" id="m-transferido-ani-subset-val">$0M</div>
+                </div>
             </div>
             <div class="premium-card risk-metric" style="border-left: 4px solid #2ed573;">
                 <div class="metric-value" id="m-oportunidades" style="color: #2ed573;">…</div>
                 <div class="metric-label">💡 Oportunidades de ahorro</div>
                 <div style="font-size: 0.7rem; opacity: 0.7; margin-top: 0.4rem;">Liberación al margen si se ejecutan</div>
+                <div id="m-oportunidades-subset" style="display: none; margin-top: 0.7rem; padding-top: 0.7rem; border-top: 1px dashed rgba(255,215,0,0.3);">
+                    <div style="font-size: 0.65rem; letter-spacing: 1px; color: #ffd700; text-transform: uppercase;">Filtrado</div>
+                    <div style="font-size: 1.0rem; font-weight: 700; color: #ffd700; margin-top: 0.2rem;" id="m-oportunidades-subset-val">$0M</div>
+                </div>
             </div>
             <div class="premium-card risk-metric" style="border-left: 4px solid #c39bd3;">
                 <div class="metric-value" id="m-otros-owners" style="color: #c39bd3;">…</div>
                 <div class="metric-label">Otros owners (CFO, HSEQ)</div>
                 <div style="font-size: 0.7rem; opacity: 0.7; margin-top: 0.4rem;">Fuera cancha SICC</div>
+                <div id="m-otros-owners-subset" style="display: none; margin-top: 0.7rem; padding-top: 0.7rem; border-top: 1px dashed rgba(255,215,0,0.3);">
+                    <div style="font-size: 0.65rem; letter-spacing: 1px; color: #ffd700; text-transform: uppercase;">Filtrado</div>
+                    <div style="font-size: 1.0rem; font-weight: 700; color: #ffd700; margin-top: 0.2rem;" id="m-otros-owners-subset-val">$0M</div>
+                </div>
             </div>
         </div>
 
@@ -393,8 +430,8 @@
             </div>
         </div>
     </div>
-    <script src="lfc-terminology.js?v=14.7.7"></script>
-    <script src="sidebar-component.js?v=14.7.7"></script>
+    <script src="lfc-terminology.js?v=14.7.8"></script>
+    <script src="sidebar-component.js?v=14.7.8"></script>
 
     <script>
         // Inyectar ADN
@@ -408,19 +445,15 @@
 
         // Filtros independientes (nivel + especialidad + búsqueda) — se aplican en cascada
         let activeFilters = { level: 'all', especialidad: 'all', search: '' };
+        let kpiTotales = null; // cálculo absoluto, se computa una vez
         const TRM_BANNER = 4400;
         const MARGEN_USD = 14.35; // M USD vs oferta sin AIU
 
         function fmtUSD(cop_M) { return '$' + (cop_M * 1e6 / TRM_BANNER / 1e6).toFixed(2) + 'M USD'; }
         function fmtCOP(cop_M) { return '$' + Math.round(cop_M).toLocaleString('es-CO') + 'M COP'; }
 
-        function recalcKPIs(visibleIds) {
-            if (!window.riesgosWbs) return;
-            const idSet = visibleIds ? new Set(visibleIds) : null;
-            const items = window.riesgosWbs.riesgos.filter(r => !idSet || idSet.has(r.id));
-
-            let siccResidual = 0;
-            let aniMin = 0, aniMax = 0;
+        function calcKPIs(items) {
+            let siccResidual = 0, aniMin = 0, aniMax = 0;
             let oportunidadesMin = 0, oportunidadesMax = 0;
             let otrosOwners = 0;
             let countCritAlto = 0, countMedio = 0, countBajo = 0;
@@ -430,8 +463,6 @@
                 const owner = r.responsable_capex || 'SICC';
                 const transf = r.transferibilidad;
                 const exp = r.exposicion_residual_cop || 0;
-
-                // conteos por nivel
                 const lvl = r.nivel_exposicion || '';
                 if (lvl.includes('CRITICA') || lvl.includes('CRÍTICA') || lvl === 'ALTA') countCritAlto++;
                 else if (lvl === 'MEDIA') countMedio++;
@@ -449,7 +480,7 @@
                         aniMin += r.riesgo_principal.cop_min || 0;
                         aniMax += r.riesgo_principal.cop_max || 0;
                     }
-                    siccResidual += exp; // acompañamiento contractual residual si lo hay
+                    siccResidual += exp;
                     return;
                 }
                 if (owner !== 'SICC') {
@@ -459,60 +490,154 @@
                 siccResidual += exp;
             });
 
-            // Render KPIs principales
+            return { siccResidual, aniMin, aniMax, oportunidadesMin, oportunidadesMax, otrosOwners, countCritAlto, countMedio, countBajo, total: items.length };
+        }
+
+        function renderTotalKPIs(tot) {
+            // KPI principal Provisión SICC
             const elSICC = document.getElementById('m-residual-sicc');
             const elRatio = document.getElementById('m-residual-ratio');
             if (elSICC) {
-                const usd = (siccResidual * 1e6) / TRM_BANNER / 1e6;
-                elSICC.innerHTML = `${fmtUSD(siccResidual)}<div style="font-size: 0.85rem; opacity: 0.75; font-weight: 500; margin-top: 0.3rem;">${fmtCOP(siccResidual)}</div>`;
+                const usd = (tot.siccResidual * 1e6) / TRM_BANNER / 1e6;
+                elSICC.innerHTML = `${fmtUSD(tot.siccResidual)}<div style="font-size: 0.85rem; opacity: 0.75; font-weight: 500; margin-top: 0.3rem;">${fmtCOP(tot.siccResidual)}</div>`;
                 if (elRatio) {
                     const pctMargen = (usd / MARGEN_USD * 100).toFixed(1);
-                    const pctCD = (siccResidual / 211191 * 100).toFixed(2);
-                    elRatio.innerHTML = `<strong>${pctMargen}%</strong> del margen ($14,35M) · <strong>${pctCD}%</strong> del CD`;
+                    const pctCD = (tot.siccResidual / 211191 * 100).toFixed(2);
+                    elRatio.innerHTML = `<strong>${pctMargen}%</strong> del margen · <strong>${pctCD}%</strong> del CD`;
                 }
             }
+            // Transferido ANI
             const elANI = document.getElementById('m-transferido-ani');
             if (elANI) {
-                if (aniMin === 0 && aniMax === 0) {
+                if (tot.aniMin === 0 && tot.aniMax === 0) {
                     elANI.innerHTML = `$0M<div style="font-size: 0.7rem; opacity: 0.6;">sin riesgos transferibles</div>`;
                 } else {
-                    const usdMin = (aniMin * 1e6) / TRM_BANNER / 1e6;
-                    const usdMax = (aniMax * 1e6) / TRM_BANNER / 1e6;
-                    elANI.innerHTML = `$${usdMin.toFixed(1)}–${usdMax.toFixed(1)}M USD<div style="font-size: 0.75rem; opacity: 0.75; font-weight: 500; margin-top: 0.3rem;">$${aniMin.toLocaleString('es-CO')}–${aniMax.toLocaleString('es-CO')}M COP</div>`;
+                    const usdMin = (tot.aniMin * 1e6) / TRM_BANNER / 1e6;
+                    const usdMax = (tot.aniMax * 1e6) / TRM_BANNER / 1e6;
+                    elANI.innerHTML = `$${usdMin.toFixed(1)}–${usdMax.toFixed(1)}M USD<div style="font-size: 0.75rem; opacity: 0.75; font-weight: 500; margin-top: 0.3rem;">$${tot.aniMin.toLocaleString('es-CO')}–${tot.aniMax.toLocaleString('es-CO')}M COP</div>`;
                 }
             }
+            // Oportunidades
             const elOp = document.getElementById('m-oportunidades');
             if (elOp) {
-                if (oportunidadesMin === 0 && oportunidadesMax === 0) {
-                    elOp.innerHTML = `$0M<div style="font-size: 0.7rem; opacity: 0.6;">sin oportunidades en filtro</div>`;
+                if (tot.oportunidadesMin === 0 && tot.oportunidadesMax === 0) {
+                    elOp.innerHTML = `$0M<div style="font-size: 0.7rem; opacity: 0.6;">sin oportunidades</div>`;
                 } else {
-                    const usdMin = (oportunidadesMin * 1e6) / TRM_BANNER / 1e6;
-                    const usdMax = (oportunidadesMax * 1e6) / TRM_BANNER / 1e6;
-                    elOp.innerHTML = `$${usdMin.toFixed(2)}–${usdMax.toFixed(2)}M USD<div style="font-size: 0.75rem; opacity: 0.75; font-weight: 500; margin-top: 0.3rem;">$${oportunidadesMin.toLocaleString('es-CO')}–${oportunidadesMax.toLocaleString('es-CO')}M COP</div>`;
+                    const usdMin = (tot.oportunidadesMin * 1e6) / TRM_BANNER / 1e6;
+                    const usdMax = (tot.oportunidadesMax * 1e6) / TRM_BANNER / 1e6;
+                    elOp.innerHTML = `$${usdMin.toFixed(2)}–${usdMax.toFixed(2)}M USD<div style="font-size: 0.75rem; opacity: 0.75; font-weight: 500; margin-top: 0.3rem;">$${tot.oportunidadesMin.toLocaleString('es-CO')}–${tot.oportunidadesMax.toLocaleString('es-CO')}M COP</div>`;
                 }
             }
+            // Otros owners
             const elOtros = document.getElementById('m-otros-owners');
             if (elOtros) {
-                if (otrosOwners === 0) {
-                    elOtros.innerHTML = `$0M<div style="font-size: 0.7rem; opacity: 0.6;">sin riesgos de otros owners</div>`;
+                if (tot.otrosOwners === 0) {
+                    elOtros.innerHTML = `$0M<div style="font-size: 0.7rem; opacity: 0.6;">sin riesgos otros owners</div>`;
                 } else {
-                    elOtros.innerHTML = `${fmtUSD(otrosOwners)}<div style="font-size: 0.75rem; opacity: 0.75; font-weight: 500; margin-top: 0.3rem;">${fmtCOP(otrosOwners)}</div>`;
+                    elOtros.innerHTML = `${fmtUSD(tot.otrosOwners)}<div style="font-size: 0.75rem; opacity: 0.75; font-weight: 500; margin-top: 0.3rem;">${fmtCOP(tot.otrosOwners)}</div>`;
                 }
             }
-
-            // Conteos por nivel
-            const counts = document.querySelectorAll('.risk-summary .premium-card .metric-value');
-            // Hay 4 KPI (nuevos top) + 4 conteos (segundo row). Los conteos son los que tienen font-size 1.8rem.
+            // Conteos por nivel (siempre absolutos)
             const counterRows = document.querySelectorAll('.risk-summary')[1];
             if (counterRows) {
                 const counterValues = counterRows.querySelectorAll('.metric-value');
                 if (counterValues.length >= 4) {
-                    counterValues[0].textContent = countCritAlto;
-                    counterValues[1].textContent = countMedio;
-                    counterValues[2].textContent = countBajo;
-                    counterValues[3].textContent = items.length;
+                    counterValues[0].textContent = tot.countCritAlto;
+                    counterValues[1].textContent = tot.countMedio;
+                    counterValues[2].textContent = tot.countBajo;
+                    counterValues[3].textContent = tot.total;
                 }
             }
+        }
+
+        function renderSubsetKPIs(sub, tot, isFiltered) {
+            // Si no hay filtro, ocultar todos los subset
+            const showSubset = isFiltered;
+            ['m-residual-sicc-subset', 'm-transferido-ani-subset', 'm-oportunidades-subset', 'm-otros-owners-subset'].forEach(id => {
+                const el = document.getElementById(id);
+                if (el) el.style.display = showSubset ? 'block' : 'none';
+            });
+            if (!showSubset) return;
+
+            // Provisión SICC subset
+            const elVal = document.getElementById('m-residual-sicc-subset-val');
+            const elPct = document.getElementById('m-residual-sicc-subset-pct');
+            if (elVal) {
+                const usd = (sub.siccResidual * 1e6) / TRM_BANNER / 1e6;
+                elVal.textContent = `${fmtUSD(sub.siccResidual)} · ${fmtCOP(sub.siccResidual)}`;
+            }
+            if (elPct) {
+                const pctTotal = tot.siccResidual > 0 ? (sub.siccResidual / tot.siccResidual * 100).toFixed(1) : 0;
+                const pctMargen = (sub.siccResidual * 1e6 / TRM_BANNER / 1e6 / MARGEN_USD * 100).toFixed(1);
+                elPct.innerHTML = `<strong>${pctTotal}%</strong> del total SICC · <strong>${pctMargen}%</strong> del margen`;
+            }
+            // ANI subset
+            const elANISub = document.getElementById('m-transferido-ani-subset-val');
+            if (elANISub) {
+                if (sub.aniMin === 0 && sub.aniMax === 0) elANISub.textContent = '$0M';
+                else {
+                    const usdMin = (sub.aniMin * 1e6) / TRM_BANNER / 1e6;
+                    const usdMax = (sub.aniMax * 1e6) / TRM_BANNER / 1e6;
+                    elANISub.innerHTML = `$${usdMin.toFixed(1)}–${usdMax.toFixed(1)}M USD<div style="font-size: 0.7rem; opacity: 0.7;">$${sub.aniMin.toLocaleString('es-CO')}–${sub.aniMax.toLocaleString('es-CO')}M COP</div>`;
+                }
+            }
+            // Oportunidades subset
+            const elOpSub = document.getElementById('m-oportunidades-subset-val');
+            if (elOpSub) {
+                if (sub.oportunidadesMin === 0 && sub.oportunidadesMax === 0) elOpSub.textContent = '$0M';
+                else {
+                    const usdMin = (sub.oportunidadesMin * 1e6) / TRM_BANNER / 1e6;
+                    const usdMax = (sub.oportunidadesMax * 1e6) / TRM_BANNER / 1e6;
+                    elOpSub.innerHTML = `$${usdMin.toFixed(2)}–${usdMax.toFixed(2)}M USD`;
+                }
+            }
+            // Otros owners subset
+            const elOtrosSub = document.getElementById('m-otros-owners-subset-val');
+            if (elOtrosSub) {
+                elOtrosSub.textContent = sub.otrosOwners === 0 ? '$0M' : fmtUSD(sub.otrosOwners);
+            }
+        }
+
+        function updateFilterBanner(visibleCount) {
+            const banner = document.getElementById('filter-banner');
+            const detail = document.getElementById('filter-banner-detail');
+            const count = document.getElementById('filter-banner-count');
+            const sectionTitle = document.getElementById('kpi-section-title');
+            const sectionSubtitle = document.getElementById('kpi-section-subtitle');
+            const isFiltered = activeFilters.level !== 'all' || activeFilters.especialidad !== 'all' || activeFilters.search !== '';
+            if (banner) banner.style.display = isFiltered ? 'block' : 'none';
+            if (isFiltered) {
+                const parts = [];
+                if (activeFilters.level !== 'all') {
+                    const label = activeFilters.level === 'high' ? '🔴 Alto Impacto' : activeFilters.level === 'medium' ? '🟡 Medio Impacto' : '🟢 Bajo Impacto';
+                    parts.push(label);
+                }
+                if (activeFilters.especialidad !== 'all') parts.push(`<strong>${activeFilters.especialidad}</strong>`);
+                if (activeFilters.search !== '') parts.push(`búsqueda: "<em>${activeFilters.search}</em>"`);
+                if (detail) detail.innerHTML = parts.join(' · ');
+                if (count) count.innerHTML = `<strong>${visibleCount}</strong> de ${kpiTotales?.total || 0} ítems visibles`;
+                if (sectionTitle) sectionTitle.innerHTML = `📊 KPIs — Total proyecto <span style="opacity:0.6; font-weight:400;">(siempre fijo)</span>`;
+                if (sectionSubtitle) sectionSubtitle.innerHTML = `<span style="color:#ffd700;">Subtotal filtrado en panel inferior de cada KPI ↓</span>`;
+            } else {
+                if (sectionTitle) sectionTitle.textContent = `📊 KPIs — Total proyecto (${kpiTotales?.total || 0} ítems)`;
+                if (sectionSubtitle) sectionSubtitle.textContent = `Aplica filtros abajo para ver subtotales`;
+            }
+            return isFiltered;
+        }
+
+        function clearAllFilters() {
+            activeFilters = { level: 'all', especialidad: 'all', search: '' };
+            // Reset visual de botones
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            const allBtns = document.querySelectorAll('.filter-btn');
+            // Activar el primer botón de cada grupo (📋 Todos / 📋 Todas)
+            allBtns.forEach(b => {
+                if (b.textContent.includes('📋')) b.classList.add('active');
+            });
+            // Limpiar input de búsqueda
+            const searchInput = document.querySelector('.search-box');
+            if (searchInput) searchInput.value = '';
+            applyAllFilters();
         }
 
         function applyAllFilters() {
@@ -536,9 +661,25 @@
                 }
             });
             const counter = document.getElementById('results-count');
-            if (counter) counter.textContent = visibleCount + ' visibles';
-            // Recalcular KPIs solo con los visibles
-            recalcKPIs(visibleIds);
+            if (counter) counter.textContent = `${visibleCount} visibles`;
+
+            // Total siempre fijo, subset solo si hay filtro
+            const isFiltered = updateFilterBanner(visibleCount);
+            if (isFiltered && kpiTotales) {
+                const filtered = window.riesgosWbs.riesgos.filter(r => visibleIds.includes(r.id));
+                const subset = calcKPIs(filtered);
+                renderSubsetKPIs(subset, kpiTotales, true);
+            } else {
+                renderSubsetKPIs(null, kpiTotales, false);
+            }
+        }
+
+        function recalcKPIs() {
+            // Llamado una vez al cargar — calcula totales absolutos y los pinta
+            if (!window.riesgosWbs) return;
+            kpiTotales = calcKPIs(window.riesgosWbs.riesgos);
+            renderTotalKPIs(kpiTotales);
+            updateFilterBanner(kpiTotales.total);
         }
 
         function filterRisks(level, btn) {
@@ -566,7 +707,7 @@
     </script>
 
     <!-- Carga de datos dinámicos de riesgos -->
-    <script src="riesgos_wbs.js?v=14.7.7"></script>
+    <script src="riesgos_wbs.js?v=14.7.8"></script>
     <script>
         // Verificar que los datos se cargaron correctamente
         if (typeof window.riesgosWbs !== 'undefined') {
@@ -811,8 +952,8 @@
 
                 console.log(`✅ ${riesgos.length} tarjetas generadas con schema v3 (tipo · responsable_capex · transferibilidad · confianza)`);
 
-                // Calcular KPIs con todos los ítems visibles inicialmente
-                if (typeof recalcKPIs === 'function') recalcKPIs(null);
+                // Calcular KPIs absolutos al inicio (total fijo arriba)
+                if (typeof recalcKPIs === 'function') recalcKPIs();
             }
             
             // Los datos están disponibles para renderizado dinámico
