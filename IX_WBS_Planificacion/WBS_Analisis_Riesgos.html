@@ -345,7 +345,8 @@
             <div class="premium-card risk-metric" style="border-left: 4px solid #2ed573;">
                 <div class="metric-value" id="m-residual-sicc" style="color: #2ed573;">…</div>
                 <div class="metric-label">Provisión Residual SICC ⭐</div>
-                <div id="m-residual-ratio" style="font-size: 0.7rem; opacity: 0.7; margin-top: 0.4rem;">…</div>
+                <div id="m-residual-ratio" style="font-size: 0.72rem; opacity: 0.85; margin-top: 0.4rem; font-weight: 600;">…</div>
+                <div style="font-size: 0.72rem; opacity: 0.65; margin-top: 0.5rem; line-height: 1.5;"><strong style="color:#2ed573;">SICC</strong> = Sistema de Señalización, Control de Tráfico y Comunicaciones. Es la cifra que el equipo SICC <strong>sí debe provisionar</strong> contra el margen del proyecto.</div>
                 <div id="m-residual-sicc-subset" style="display: none; margin-top: 0.7rem; padding-top: 0.7rem; border-top: 1px dashed rgba(255,215,0,0.3);">
                     <div style="font-size: 0.65rem; letter-spacing: 1px; color: #ffd700; text-transform: uppercase;">Filtrado</div>
                     <div style="font-size: 1.2rem; font-weight: 700; color: #ffd700; margin-top: 0.2rem;" id="m-residual-sicc-subset-val">$0M</div>
@@ -355,7 +356,8 @@
             <div class="premium-card risk-metric" style="border-left: 4px solid #ffd700;">
                 <div class="metric-value" id="m-transferido-ani" style="color: #ffd700;">…</div>
                 <div class="metric-label">🏛️ Transferido ANI (por contrato)</div>
-                <div style="font-size: 0.7rem; opacity: 0.7; margin-top: 0.4rem;">Sec 9.11/9.12→25.4 — no es CapEx LFC</div>
+                <div style="font-size: 0.7rem; opacity: 0.85; margin-top: 0.4rem; font-weight: 600; color: #ffd700;">NO los paga LFC</div>
+                <div style="font-size: 0.72rem; opacity: 0.65; margin-top: 0.5rem; line-height: 1.5;">Costos que el <strong>Contrato APP 001/2025</strong> carga a la <strong>Agencia Nacional de Infraestructura</strong> vía Cláusulas <strong>§9.11(b)(ii) + §9.12(a) → §25.4</strong> si la Interventoría exige soluciones fuera de la <strong>Tabla 17 AT1</strong> (balizas en línea, ENCE adicionales, gateway FENOCO, 122 PaN básicos).</div>
                 <div id="m-transferido-ani-subset" style="display: none; margin-top: 0.7rem; padding-top: 0.7rem; border-top: 1px dashed rgba(255,215,0,0.3);">
                     <div style="font-size: 0.65rem; letter-spacing: 1px; color: #ffd700; text-transform: uppercase;">Filtrado</div>
                     <div style="font-size: 1.0rem; font-weight: 700; color: #ffd700; margin-top: 0.2rem;" id="m-transferido-ani-subset-val">$0M</div>
@@ -364,7 +366,8 @@
             <div class="premium-card risk-metric" style="border-left: 4px solid #2ed573;">
                 <div class="metric-value" id="m-oportunidades" style="color: #2ed573;">…</div>
                 <div class="metric-label">💡 Oportunidades de ahorro</div>
-                <div style="font-size: 0.7rem; opacity: 0.7; margin-top: 0.4rem;">Liberación al margen si se ejecutan</div>
+                <div style="font-size: 0.7rem; opacity: 0.85; margin-top: 0.4rem; font-weight: 600; color: #2ed573;">Liberación al margen</div>
+                <div style="font-size: 0.72rem; opacity: 0.65; margin-top: 0.5rem; line-height: 1.5;">Palancas activas de optimización (no riesgos eventuales). Cuando se aplican, liberan dinero del CapEx que va directo al margen del proyecto. Ejemplo: <strong>UPS diferenciada por bloque</strong> según BCD §10.</div>
                 <div id="m-oportunidades-subset" style="display: none; margin-top: 0.7rem; padding-top: 0.7rem; border-top: 1px dashed rgba(255,215,0,0.3);">
                     <div style="font-size: 0.65rem; letter-spacing: 1px; color: #ffd700; text-transform: uppercase;">Filtrado</div>
                     <div style="font-size: 1.0rem; font-weight: 700; color: #ffd700; margin-top: 0.2rem;" id="m-oportunidades-subset-val">$0M</div>
@@ -373,7 +376,8 @@
             <div class="premium-card risk-metric" style="border-left: 4px solid #c39bd3;">
                 <div class="metric-value" id="m-otros-owners" style="color: #c39bd3;">…</div>
                 <div class="metric-label">Otros owners (CFO, HSEQ)</div>
-                <div style="font-size: 0.7rem; opacity: 0.7; margin-top: 0.4rem;">Fuera cancha SICC</div>
+                <div style="font-size: 0.7rem; opacity: 0.85; margin-top: 0.4rem; font-weight: 600; color: #c39bd3;">Cancha ajena a SICC</div>
+                <div style="font-size: 0.72rem; opacity: 0.65; margin-top: 0.5rem; line-height: 1.5;">Riesgos que existen para el proyecto pero NO son responsabilidad del equipo SICC: <strong>cobertura cambiaria</strong> (CFO/Tesorería), orden público (HSEQ), estructuración financiera (Concesionario). Se reportan para visibilidad gerencial pero no entran a la provisión SICC.</div>
                 <div id="m-otros-owners-subset" style="display: none; margin-top: 0.7rem; padding-top: 0.7rem; border-top: 1px dashed rgba(255,215,0,0.3);">
                     <div style="font-size: 0.65rem; letter-spacing: 1px; color: #ffd700; text-transform: uppercase;">Filtrado</div>
                     <div style="font-size: 1.0rem; font-weight: 700; color: #ffd700; margin-top: 0.2rem;" id="m-otros-owners-subset-val">$0M</div>
@@ -389,7 +393,14 @@
         </div>
 
         <div class="premium-card" style="margin-bottom: 2rem; padding: 1.5rem 2rem;">
-            <h3 style="color: var(--accent); margin: 0 0 0.6rem 0; font-size: 1.05rem;">📊 Metodología — 4 ejes de clasificación</h3>
+            <h3 style="color: var(--accent); margin: 0 0 0.6rem 0; font-size: 1.05rem;">📖 Glosario rápido</h3>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 0.8rem 2rem; margin-bottom: 1rem;">
+                <div style="font-size: 0.88rem; line-height: 1.5;"><strong style="color: #2ed573;">SICC</strong> — <em>Sistema de Señalización, Control de Tráfico y Comunicaciones.</em> Es el alcance contractual de UF2 (la "cancha" del Director Técnico). Todo lo que sale de SICC es cancha de otro: CFO (cobertura cambiaria), HSEQ (orden público), ANI (modificaciones contractuales), Concesionario (estructuración financiera).</div>
+                <div style="font-size: 0.88rem; line-height: 1.5;"><strong style="color: #ffd700;">Transferido ANI</strong> — costos que <strong>NO paga LFC</strong>. El Contrato APP 001/2025 los carga a la Agencia Nacional de Infraestructura vía Cláusulas <strong>§9.11(b)(ii) + §9.12(a) → §25.4</strong> si la Interventoría los exige fuera del alcance contractual (Tabla 17 AT1). LFC los defiende contractualmente; si pierde el match, va a ANI.</div>
+                <div style="font-size: 0.88rem; line-height: 1.5;"><strong style="color: #2ed573;">Provisión Residual</strong> — la cifra que el equipo SICC sí debe provisionar contra el margen. Es la suma de <em>exposición esperada</em> (probabilidad × punto medio del residual post-mitigación) de cada riesgo SICC.</div>
+                <div style="font-size: 0.88rem; line-height: 1.5;"><strong style="color: #ff8a95;">Riesgo principal vs residual</strong> — el <em>principal</em> es el worst-case bruto si nada se mitiga (asusta pero no es realista); el <em>residual</em> es lo que queda después de aplicar la palanca de campo o contractual. La provisión va sobre residual, no sobre principal.</div>
+            </div>
+            <h3 style="color: var(--accent); margin: 1.2rem 0 0.6rem 0; font-size: 1.05rem;">📊 Metodología — 4 ejes de clasificación</h3>
             <p style="opacity: 0.85; line-height: 1.6; margin: 0 0 0.6rem 0; font-size: 0.9rem;">Cada ítem se clasifica con cuatro ejes para que el KPI gerencial separe lo que es cancha SICC de lo transferible o de cancha ajena:</p>
             <ul style="opacity: 0.85; line-height: 1.7; margin: 0; padding-left: 1.5rem; font-size: 0.88rem;">
                 <li><strong style="color: #2ed573;">Tipo</strong> — RIESGO (eventual, va a provisión) u <strong style="color: #2ed573;">OPORTUNIDAD</strong> (palanca activa de optimización, va al margen).</li>
@@ -430,8 +441,8 @@
             </div>
         </div>
     </div>
-    <script src="lfc-terminology.js?v=14.7.8"></script>
-    <script src="sidebar-component.js?v=14.7.8"></script>
+    <script src="lfc-terminology.js?v=14.7.9"></script>
+    <script src="sidebar-component.js?v=14.7.9"></script>
 
     <script>
         // Inyectar ADN
@@ -707,7 +718,7 @@
     </script>
 
     <!-- Carga de datos dinámicos de riesgos -->
-    <script src="riesgos_wbs.js?v=14.7.8"></script>
+    <script src="riesgos_wbs.js?v=14.7.9"></script>
     <script>
         // Verificar que los datos se cargaron correctamente
         if (typeof window.riesgosWbs !== 'undefined') {
