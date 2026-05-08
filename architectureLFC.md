@@ -266,7 +266,7 @@ FASE 4:    APROBADO → brain/dictamenes/ + vectorización + /promote
 |---|---|
 | `I_Contrato_General/` | Contrato + cláusulas |
 | `II_Apendices_Tecnicos/` | AT1-AT10 + `Decisiones_Tecnicas/` (DT canónicas) |
-| `II_A_Analisis_Contractual/` | Dictámenes contractuales |
+| `II_A_Analisis_Contractual/` | Dictámenes contractuales · ⚠️ subdir `dictamenes/` **vaciado el 2026-05-08** (57 archivos legacy v8 pre-purga producto de pruebas tempranas `/promote` del agente). Se repuebla con DTs BCD v001 cuando cierre D1+D1.5 del roadmap. Histórico forense conservado en `agente/brain/dictamenes/`. |
 | `III_Ingenieria_conceptual/` | Análisis de Riesgos y Supuestos |
 | `IV_Ingenieria_basica/` | **BCD_SCC_v001_2026-04.md** + BCD v002 (Punto 42) + memorias diseño |
 | `V_Ingenieria_detalle/` | Planos y secciones por especialidad |

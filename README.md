@@ -2,10 +2,10 @@
 ## Manifesto de Soberanía Técnica y Control de Interoperabilidad (SICC)
 
 **Fecha de actualización:** 8 de Mayo de 2026
-**Estado del sistema:** ✅ **SICC SOVEREIGN v14.7 — Entrega presupuesto ANI certificada · Reporte Gerencial + Análisis de Riesgos schema v3**
-**Hito vigente:** tag `entrega-presupuesto-2026-05-05` · sesión 2026-05-08 commit `bd74d00`
-**Responsable:** Agente Antigravity / Administración Contractual SICC
-**Tecnología Base:** Diésel-Eléctrica | PTC Virtual | Red Vital IP / TETRA | Estándar FRA/AREMA
+**Estado del sistema:** ✅ **v14.7 — Entrega presupuesto ANI certificada · Reporte Gerencial + Análisis de Riesgos schema v3 · Index UX corporativo**
+**Hito vigente:** tag `entrega-presupuesto-2026-05-05` · sesión 2026-05-08 (último commit pendiente)
+**Responsable:** Director Técnico UF2 / Administración Contractual
+**Tecnología Base:** Diésel-Eléctrica · PTC con cantonamiento virtual (FRA 49 CFR Part 236) · Fibra G.652.D 48h + TETRA + Satelital LEO/GEO redundante · BCD v001 / AREMA
 
 ---
 
@@ -18,10 +18,10 @@ El proyecto se rige por la jerarquía establecida en el **BCD v001 (Abril 2026)*
 
 Este repositorio constituye el **Ecosistema de Ingeniería SICC** para el proyecto **APP La Dorada (México) - Chiriguaná**. La línea base v14.7 incorpora la **purga doctrinal del 2026-05-04** (ítem 1.1.103 conciliado a $11,000M COP post-FENOCO Sec 25.4), el **Punto 42** (DT-SICC-2026-042: habilitación satelital transitoria, cadena 9.12 → 25.4), y la consolidación del **WBS v4.0 Michelin** sincronizado entre `.md` y `.js`.
 
-### OBJETIVOS TÉCNICOS SICC
-1.  **Interoperabilidad**: Alineación nativa con **FENOCO** mediante estándares FRA/AREMA.
-2.  **Soberanía**: Transición de 25kV (Monopolio) a **Tracción Diésel-Eléctrica** (Soberana).
-3.  **Digitalización**: Control virtual vía GNSS y Red Vital IP / TETRA.
+### OBJETIVOS TÉCNICOS DEL SISTEMA SCC (alcance UF2)
+1.  **Interoperabilidad operacional con FENOCO** vía Stop & Switch en Chiriguaná (BCD §9.1, §9.2 — sin integración técnica con sistemas propietarios de terceros).
+2.  **Tracción Diésel-Eléctrica** (vs 25kV electrificado) según AT1 §5.
+3.  **Control virtual** vía GNSS + odometría embarcada + comunicaciones TETRA + redundancia satelital LEO/GEO (BCD §4.1, §6.2).
 
 ---
 
@@ -48,11 +48,12 @@ Este repositorio constituye el **Ecosistema de Ingeniería SICC** para el proyec
 - Botón **"➕ Nuevo Capítulo"** → genera DT-NEWCAP para proponer alcance nuevo
 
 ### Portales y herramientas
-*   [🏠 Sovereign Tower Dashboard](index.html) — primer card linkea directo a Vista Final
+*   [🏠 Centro de Gestión Técnica UF2](index.html) — index corporativo · accesos principales · KPIs vivos
 *   [📋 Reporte Gerencial](IX_WBS_Planificacion/WBS_Reporte_Gerencial.html) — KPIs vivos · comparativa contractual con cifra Grupo Ortiz CD+IVA sin AIU $54,73M USD (+21% margen) · **🎯 Optimizaciones 4 reglas Tabla 17 AT1** · **🛡️ 8 criterios BCD que cuidan margen** · **📈 7 palancas activas** · 5 riesgos contractuales · 3 escenarios
-*   [⚠️ Análisis de Riesgos](IX_WBS_Planificacion/WBS_Analisis_Riesgos.html) — **48 ítems con schema v3** (tipo · responsable_capex · transferibilidad · confianza) · **4 KPIs reactivos al filtro**: Provisión SICC ⭐ $3,01M USD (21% del margen) · 🏛️ Transferido ANI rango worst-case · 💡 Oportunidades de ahorro · 💼 Otros owners (CFO). Filtros por especialidad (Fibra · Eléctrica · TETRA · PTC · PaN · FENOCO · Custodia · Transversal) — gerente filtra "Alto + Fibra" y ve cuánto $ pesa ese subset
+*   [⚠️ Análisis de Riesgos](IX_WBS_Planificacion/WBS_Analisis_Riesgos.html) — **48 ítems con schema v3** (tipo · responsable_capex · transferibilidad · confianza) · **4 KPIs reactivos al filtro**: Provisión SCC ⭐ $3,01M USD (21% del margen) · 🏛️ Transferido ANI rango worst-case · 💡 Oportunidades de ahorro · 💼 Otros owners (CFO). Filtros por especialidad (Fibra · Eléctrica · TETRA · PTC · PaN · FENOCO · Custodia · Transversal) — gerente filtra "Alto + Fibra" y ve cuánto $ pesa ese subset
 *   [🎯 WBS Hub](IX_WBS_Planificacion/WBS_Menu_Principal.html) — navegación detallada (Cronograma, Riesgos, Reporte, Auditoría)
-*   [🍽️ Platos Servidos (Entregables)](X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/HTML/INDICE_Documentos_Servidos.html)
+*   [📑 Documentos Entregables](X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/HTML/INDICE_Documentos_Servidos.html)
+*   ⚖️ **Dictámenes Contractuales** — directorio `II_A_Analisis_Contractual/dictamenes/` **vaciado el 2026-05-08** (los 57 archivos eran legacy v8 pre-purga). Se repuebla vía `/promote` del agente con DTs BCD v001 cuando se cierre la deuda D1+D1.5+D2 del agente. Quitado del sidebar gerencial hasta que se regenere.
 
 > **Nota:** Las URLs `WBS_COMPLETA_TODO_Interactiva_v4_0`, `WBS_Controles_Operativos_L4`, `WBS_Presupuesto_SCC_APP_La_Dorada_Chiriguana` siguen como **redirects** automáticos hacia la Vista Final (commit `5cbe10f`). La URL `WBS_COMPLETA_TODO_Interactiva_v4.0` fue **rescatada** del redirect en el Bloque E (turno vespertino 2026-05-05) por ser la única vista con generador de DT.
 
