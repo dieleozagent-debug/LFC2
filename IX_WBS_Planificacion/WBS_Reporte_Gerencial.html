@@ -71,30 +71,25 @@
         <!-- 🏗️ Ampliación de alcance — 10 apartaderos -->
         <div class="premium-card section-premium" id="consulta-tfp-apartaderos" style="border-left: 5px solid var(--accent);">
             <p style="opacity: 0.9; line-height: 1.6; margin-bottom: 1.5rem;">
-                Coste de incorporar <strong>10 apartaderos automatizados</strong> al alcance SCC, sin modificación de longitud. Se presentan dos configuraciones: <strong>Optimizada</strong> (recomendada — cuelga del enclavamiento existente, dentro de doctrina BCD v001) y <strong>Completa</strong> (réplica del estándar del pliego).
+                Coste de incorporar <strong>10 apartaderos</strong> al alcance SCC, sin modificación de longitud. La cifra depende de una decisión operativa de TFP: <strong>¿el CCO acciona el desvío remotamente, o solo lee la posición y el maquinista opera local?</strong>
             </p>
 
-            <h3 style="color: var(--accent); margin: 0 0 0.6rem 0; font-size: 1rem;">Cifra recomendada — los 10 apartaderos</h3>
+            <h3 style="color: var(--accent); margin: 0 0 0.6rem 0; font-size: 1rem;">Decisión operativa — define la cifra</h3>
             <div class="scenario-grid" style="grid-template-columns: 1fr 1fr;">
-                <div class="scenario-card scenario-opt" style="border-color: #2ed573;">
-                    <h4>🎯 Recomendada — Optimizada</h4>
-                    <div class="figure">≈ 8 M USD</div>
-                    <p style="font-size: 1rem; opacity: 0.9; margin-top: 0.4rem;"><strong>$34.800 millones COP</strong></p>
-                    <p style="font-size: 0.85rem; opacity: 0.8; margin-top: 0.5rem;">Equipo en sitio mínimo (cuelga del ENCE existente) + energía. Dentro de doctrina BCD v001.</p>
+                <div class="scenario-card scenario-opt" style="border-color: #ffa502; background: rgba(255,165,2,0.08);">
+                    <h4>🅐 Mando remoto desde CCO</h4>
+                    <div class="figure">≈ 7,7 M USD</div>
+                    <p style="font-size: 1rem; opacity: 0.9; margin-top: 0.4rem;"><strong>$33.200 millones COP</strong></p>
+                    <p style="font-size: 0.85rem; opacity: 0.8; margin-top: 0.5rem;">El CCO acciona el desvío. Motor SIL-3 + comprobador + telemando vital. Operación 100% remota.</p>
                 </div>
-                <div class="scenario-card scenario-esp" style="border-color: #ffa502; background: rgba(255,165,2,0.08);">
-                    <h4>Alternativa — Completa (paridad pliego)</h4>
-                    <div class="figure">≈ 10 M USD</div>
-                    <p style="font-size: 1rem; opacity: 0.9; margin-top: 0.4rem;"><strong>$44.000 millones COP</strong></p>
-                    <p style="font-size: 0.85rem; opacity: 0.8; margin-top: 0.5rem;">Configuración paridad pliego: armario PTC propio + comms completas + energía.</p>
+                <div class="scenario-card scenario-opt" style="border-color: #2ed573;">
+                    <h4>🅑 Solo confirmación de posición</h4>
+                    <div class="figure">≈ 5,4 M USD</div>
+                    <p style="font-size: 1rem; opacity: 0.9; margin-top: 0.4rem;"><strong>$23.800 millones COP</strong></p>
+                    <p style="font-size: 0.85rem; opacity: 0.8; margin-top: 0.5rem;">Cambiavía autotalonable + comprobador de aguja. Maquinista opera local; CCO recibe estado en pantalla pero no acciona.</p>
                 </div>
             </div>
             <p style="opacity: 0.85; font-size: 0.85rem; margin-top: 0.8rem; line-height: 1.5;">Ambas incluyen <strong>energía en sitio</strong> (~$1.000 M COP / punto) — solar, genset o red, lo que aplique. Si TFP confirma red trifásica × 2 disponible: −$1.000 M / punto.</p>
-
-            <div style="background: rgba(167, 139, 250, 0.08); border-left: 4px solid #a78bfa; border-radius: 8px; padding: 1rem 1.2rem; margin-top: 1rem;">
-                <h4 style="color: #a78bfa; margin: 0 0 0.4rem 0; font-size: 0.95rem;">⏳ Pregunta normativa abierta — puede bajar la cifra</h4>
-                <p style="font-size: 0.88rem; opacity: 0.9; line-height: 1.5; margin: 0;">Con PTC embarcado SIL-4 (FRA 49 CFR §236 Subpart I) ya en flota, está abierto si en cada apartadero basta con <strong>máquina cambiavía + comprobador de aguja + radio</strong> (sin armario vital local) o si la norma exige armario PTC SIL-3 en sitio. Si la norma permite el mínimo embarcado, la cifra Optimizada baja adicional ~$5.000 M COP. <em>Pendiente validar en FRA 49 CFR §236 + AT3 Cap I lit. c.</em></p>
-            </div>
 
             <h3 style="color: var(--accent); margin: 1.2rem 0 0.5rem 0; font-size: 1rem;">Supuestos para mantener el coste como extra mínimo al contrato</h3>
             <table>
@@ -131,46 +126,42 @@
             </table>
 
             <h3 style="color: var(--accent); margin: 1.5rem 0 0.5rem 0; font-size: 1rem;">Cómo se descompone — coste de UN apartadero</h3>
-            <p style="opacity: 0.85; line-height: 1.5; margin-bottom: 0.8rem; font-size: 0.9rem;">Cifras en millones COP. Las dos configuraciones se diferencian solo en armario PTC y comms locales.</p>
+            <p style="opacity: 0.85; line-height: 1.5; margin-bottom: 0.8rem; font-size: 0.9rem;">Cifras en millones COP. La decisión madre (mando remoto vs autotalonable) cambia el equipo de vía y la lógica de control.</p>
             <table>
                 <thead>
                     <tr>
                         <th>Concepto</th>
-                        <th class="num">Cant.</th>
-                        <th class="num">🎯 Optimizada</th>
-                        <th class="num">Completa</th>
+                        <th class="num">🅐 Mando remoto</th>
+                        <th class="num">🅑 Autotalonable</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr><td>Desvío motorizado completo (motor + cerrojo + comprobador)</td><td class="num">2</td><td class="num">1.280</td><td class="num">1.280</td></tr>
-                    <tr><td>Sistema control remoto + redundancia N+1</td><td class="num">2</td><td class="num">269</td><td class="num">269</td></tr>
-                    <tr><td>Interfaz CTC / ENCE</td><td class="num">2</td><td class="num">135</td><td class="num">135</td></tr>
-                    <tr><td>Armario PTC apartadero <em style="opacity:0.7;">— en Optimizada cuelga del ENCE existente</em></td><td class="num">1</td><td class="num" style="color: #2ed573;">0</td><td class="num">396</td></tr>
-                    <tr><td>Señal LED 3 aspectos</td><td class="num">2</td><td class="num">104</td><td class="num">104</td></tr>
-                    <tr><td>Contador de ejes</td><td class="num">4</td><td class="num">83</td><td class="num">83</td></tr>
-                    <tr><td>Comms locales <em style="opacity:0.7;">— en Optimizada solo switch + UPS</em></td><td class="num">1 GL</td><td class="num" style="color: #2ed573;">80</td><td class="num">200</td></tr>
-                    <tr style="background: rgba(255, 165, 2, 0.06);"><td><strong>Energía</strong> en sitio (solar / genset / red — según punto)</td><td class="num">1</td><td class="num">1.000</td><td class="num">1.000</td></tr>
+                    <tr><td>Cambiavía + accionamiento (motor SIL-3 vs autotalonable + comprobador)</td><td class="num">1.280</td><td class="num">270</td></tr>
+                    <tr><td>Telemando vital + interfaz CCO/ENCE (A) · concentrador local + telemetría (B)</td><td class="num">250</td><td class="num">550</td></tr>
+                    <tr><td>Señales LED entrada / salida</td><td class="num">104</td><td class="num">104</td></tr>
+                    <tr><td>Comms locales (radio vital A · radio simple B)</td><td class="num">180</td><td class="num">100</td></tr>
+                    <tr style="background: rgba(255, 165, 2, 0.06);"><td><strong>Energía</strong> en sitio (solar / genset / red — según punto)</td><td class="num">1.000</td><td class="num">1.000</td></tr>
                 </tbody>
                 <tfoot>
                     <tr style="background: rgba(255, 215, 0, 0.06); font-weight: 600;">
-                        <td colspan="2">Costo Directo por apartadero (millones COP)</td>
-                        <td class="num">2.951</td>
-                        <td class="num">3.467</td>
+                        <td>Costo Directo por apartadero (millones COP)</td>
+                        <td class="num">2.814</td>
+                        <td class="num">2.024</td>
                     </tr>
                     <tr style="background: rgba(255, 215, 0, 0.10); font-weight: 600;">
-                        <td colspan="2">Con AIU 33% + IVA 19% por apartadero</td>
-                        <td class="num">3.480</td>
-                        <td class="num">4.400</td>
+                        <td>Con AIU 33% + IVA 19% por apartadero</td>
+                        <td class="num">3.320</td>
+                        <td class="num">2.380</td>
                     </tr>
                     <tr style="background: rgba(255, 215, 0, 0.14); font-weight: 700;">
-                        <td colspan="2">× 10 apartaderos (millones COP)</td>
-                        <td class="num">$34.800</td>
-                        <td class="num">$44.000</td>
+                        <td>× 10 apartaderos (millones COP)</td>
+                        <td class="num">$33.200</td>
+                        <td class="num">$23.800</td>
                     </tr>
                     <tr style="background: rgba(100, 255, 218, 0.10); font-weight: 700;">
-                        <td colspan="2">× 10 apartaderos (USD @ TRM 4.400)</td>
-                        <td class="num">≈ 8,0 M</td>
-                        <td class="num">≈ 10,0 M</td>
+                        <td>× 10 apartaderos (USD @ TRM 4.400)</td>
+                        <td class="num">≈ 7,7 M</td>
+                        <td class="num">≈ 5,4 M</td>
                     </tr>
                 </tfoot>
             </table>
