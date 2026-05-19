@@ -126,19 +126,18 @@
             </table>
 
             <h3 style="color: var(--accent); margin: 1.5rem 0 0.5rem 0; font-size: 1rem;">Cómo se descompone — coste de UN apartadero</h3>
-            <p style="opacity: 0.85; line-height: 1.5; margin-bottom: 0.8rem; font-size: 0.9rem;">Cifras en millones COP. Dos paquetes claves: <strong>motorización del desvío</strong> y <strong>comunicaciones + control</strong>. El resto (señales y energía) es igual en ambas opciones.</p>
+            <p style="opacity: 0.85; line-height: 1.5; margin-bottom: 0.8rem; font-size: 0.9rem;">Cifras en millones COP. Tres paquetes: <strong>motorización del desvío</strong>, <strong>comunicaciones y control</strong>, y <strong>energía en sitio</strong>.</p>
             <table>
                 <thead>
                     <tr>
                         <th>Concepto</th>
-                        <th class="num">🅐 Mando remoto</th>
-                        <th class="num">🅑 Autotalonable</th>
+                        <th class="num">🅐 Con motorización</th>
+                        <th class="num">🅑 Sin motorización</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr style="background: rgba(255, 215, 0, 0.04);"><td><strong>Motorización del desvío</strong> — motor SIL-3 (🅐) / cambiavía autotalonable + comprobador (🅑)</td><td class="num">1.280</td><td class="num">270</td></tr>
-                    <tr style="background: rgba(255, 215, 0, 0.04);"><td><strong>Comunicaciones + control en sitio</strong> — telemando vital + radio (🅐) / concentrador autónomo + radio (🅑)</td><td class="num">430</td><td class="num">650</td></tr>
-                    <tr><td>Señales LED entrada / salida (igual en ambas)</td><td class="num">104</td><td class="num">104</td></tr>
+                    <tr style="background: rgba(255, 215, 0, 0.04);"><td><strong>Motorización del desvío</strong> (× 2 por apartadero)</td><td class="num">1.280</td><td class="num">270</td></tr>
+                    <tr style="background: rgba(255, 215, 0, 0.04);"><td><strong>Comunicaciones y control</strong> en sitio</td><td class="num">534</td><td class="num">754</td></tr>
                     <tr><td><strong>Energía</strong> en sitio (solar / genset / red — según punto)</td><td class="num">1.000</td><td class="num">1.000</td></tr>
                 </tbody>
                 <tfoot>
@@ -164,7 +163,32 @@
                     </tr>
                 </tfoot>
             </table>
-            <p style="opacity: 0.78; font-size: 0.82rem; margin-top: 0.6rem; line-height: 1.5;">Comms + control sale más alta en 🅑 ($650M vs $430M) porque el concentrador opera autónomo y carga más sensores/telemetría. Aún así B termina más barata porque el desvío vale 5 veces menos.</p>
+
+            <details style="margin-top: 1rem; background: rgba(255,255,255,0.02); border: 1px solid var(--glass-border); border-radius: 8px; padding: 0.6rem 1rem;">
+                <summary style="cursor: pointer; font-size: 0.88rem; opacity: 0.8; padding: 0.3rem 0;">▸ Detalle técnico de "Comunicaciones y control"</summary>
+                <table style="margin: 0.8rem 0 0.4rem 0;">
+                    <thead>
+                        <tr>
+                            <th>Componente</th>
+                            <th class="num">🅐</th>
+                            <th class="num">🅑</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Telemando vital (🅐) / concentrador autónomo (🅑)</td><td class="num">250</td><td class="num">550</td></tr>
+                        <tr><td>Radio en sitio</td><td class="num">180</td><td class="num">100</td></tr>
+                        <tr><td>Señales LED entrada / salida</td><td class="num">104</td><td class="num">104</td></tr>
+                    </tbody>
+                    <tfoot>
+                        <tr style="background: rgba(255, 215, 0, 0.06); font-weight: 600;">
+                            <td>Subtotal Comunicaciones y control</td>
+                            <td class="num">534</td>
+                            <td class="num">754</td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <p style="opacity: 0.78; font-size: 0.82rem; margin: 0.6rem 0 0 0; line-height: 1.5;">Sale más alto en 🅑 ($754 vs $534) porque el concentrador opera autónomo — sin recibir órdenes del CCO — y carga más sensores y telemetría. En 🅐 el cerebro vital está en el CCO/ENCE, el telemando en sitio solo retransmite.</p>
+            </details>
 
             <h3 style="color: #ffa502; margin: 1.5rem 0 0.5rem 0; font-size: 1rem;">Ajustes si el sitio cambia — por punto</h3>
             <table>
