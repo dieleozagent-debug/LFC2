@@ -85,164 +85,65 @@
             </div>
         </div>
 
-        <!-- 💬 Consulta cliente TFP — Automatización 10 apartaderos (Minto pyramid) -->
+        <!-- 💬 Consulta TFP — 10 apartaderos (formato gerencial breve) -->
         <div class="premium-card section-premium" id="consulta-tfp-apartaderos" style="border-left: 5px solid var(--accent);">
-            <h2>💬 Consulta TFP — Automatización de 10 apartaderos adicionales</h2>
+            <h2>💬 Consulta TFP — Automatización de 10 apartaderos (19-may-2026)</h2>
+            <p style="opacity: 0.9; line-height: 1.6; margin-bottom: 1rem;">
+                Javier de la Mata (TFP), vía Jaime, pide orden de magnitud para automatizar <strong>10 apartaderos adicionales</strong>. Sin tocar longitud. Hoy <strong>1 apartadero por contrato paga $3,13 B COP / $711k USD</strong> (con AIU+IVA, VU v14.7 BCD-aligned: 2 desvíos motorizados + armario PTC + señales + contadores + comms locales).
+            </p>
 
-            <!-- APEX: la respuesta primero -->
-            <div class="consulta-hero">
-                <div class="consulta-meta">
-                    <span>Solicitante: <strong>TFP · Javier de la Mata</strong></span>
-                    <span>Canal: <strong>vía Jaime</strong></span>
-                    <span>Fecha: <strong>19-may-2026</strong></span>
-                    <span>Tipo: <strong>orden de magnitud</strong></span>
-                </div>
-                <div class="consulta-pregunta">
-                    <em>"TFP quiere automatizar 10 apartaderos más. ¿Cuánto costaría?"</em>
-                    — Dos paquetes: <strong>(A) motorización del desvío</strong> y <strong>(B) comunicaciones e integración</strong>. <strong>Sin tocar longitud</strong> del apartadero.
-                </div>
-                <div class="consulta-respuesta-grid">
-                    <div>
-                        <div class="consulta-respuesta-label">Respuesta — 10 apartaderos · con AIU+IVA · TRM 4.400</div>
-                        <div class="consulta-big-cop">$31 – 45 B COP</div>
-                        <div class="consulta-big-usd">$7,1 – 10,2 M USD</div>
-                    </div>
-                    <div>
-                        <div class="consulta-respuesta-label">Por apartadero (2 desvíos)</div>
-                        <div class="consulta-big-cop" style="font-size: 2rem;">$3,1 – 4,5 B COP</div>
-                        <div class="consulta-big-usd" style="font-size: 1.3rem;">$710k – 1,02M USD</div>
-                    </div>
-                </div>
-                <p style="font-size: 0.82rem; opacity: 0.7; margin-top: 1rem; line-height: 1.6;">
-                    <strong>Banda ±20%</strong> sobre línea base ADIF BPA 2026 + Ardanuy abr-2026 + factor soberanía técnica 914 mm. <strong>No es cotización</strong> — requiere RFQ a Hima / Siemens Mobility / Vossloh para defenderlo ante TFP (deuda <code>precios_Adif_COMPLETO.md §4.1</code>).
-                </p>
-            </div>
-
-            <!-- MID: los 3 pilares argumentales -->
-            <div class="pilares-grid">
-                <div class="pilar-card motor">
-                    <h4>A. Motorización del desvío <span class="pilar-pct">~68% del CD</span></h4>
-                    <div class="pilar-fig">~$1,68 B COP / apartadero</div>
-                    <ul>
-                        <li><strong>2× desvío motorizado</strong> (aparato vía + motor CBB010 + cerrojo + comprobador) — base ADIF VEA010 €114.320 + ajuste trocha 914 + log − MO ≈ $640M COP/u</li>
-                        <li><strong>2× sistema control remoto</strong> + redundancia N+1 ($134,6M/u)</li>
-                        <li><strong>2× interfaz CTC/ENCE</strong> ($67,3M/u)</li>
-                    </ul>
-                </div>
-                <div class="pilar-card comms">
-                    <h4>B. Comunicaciones e integración <span class="pilar-pct">~32% del CD</span></h4>
-                    <div class="pilar-fig">~$0,79 B COP / apartadero</div>
-                    <ul>
-                        <li><strong>1× armario PTC apartadero</strong> (electrónica + alimentación) — ref. Ardanuy $90k USD/u ≈ $396M COP</li>
-                        <li><strong>2× señal LED 3 aspectos</strong> entrada/salida (ADIF CCA040 + buffer) — $52M COP/u</li>
-                        <li><strong>4× contador de ejes</strong> (detección de tren en apartadero) — $21M COP/u</li>
-                        <li><strong>Comms locales</strong>: radio TETRA + switch + UPS + derivación FO ≈ $200M COP</li>
-                    </ul>
-                </div>
-                <div class="pilar-card asunciones">
-                    <h4>C. Supuestos clave <span class="pilar-pct">→ banda ±20%</span></h4>
-                    <ul>
-                        <li><strong>No se modifica longitud</strong> — 2 desvíos/apartadero (entrada + salida) estándar</li>
-                        <li><strong>No se construye ENCE nuevo</strong> — se cuelgan de los 5 ENCE existentes (BCD §4.1)</li>
-                        <li><strong>Backbone FO cerca</strong> — sólo derivación corta. Si extender: +$12,7M COP/km</li>
-                        <li><strong>Cobertura TETRA existente</strong> — sin torre nueva. Si sombra RF: +$73,1k USD/torre (compartible)</li>
-                        <li><strong>OBU PTC ya equipada</strong> — flota tractiva no cambia</li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- BOTTOM: detalle por apartadero -->
-            <h3 style="color: var(--accent); margin: 1.5rem 0 0.8rem 0; font-size: 1.05rem;">Detalle financiero por apartadero (referencial)</h3>
+            <h3 style="color: var(--accent); margin: 1rem 0 0.5rem 0; font-size: 1rem;">Escenarios — del más caro al optimizado</h3>
             <table>
                 <thead>
                     <tr>
-                        <th>Concepto</th>
-                        <th>Fuente precio</th>
-                        <th class="num">Cant/apart.</th>
-                        <th class="num">VU (COP)</th>
-                        <th class="num">$ por apartadero</th>
+                        <th>Escenario</th>
+                        <th>Criterio</th>
+                        <th class="num">Total 10 apart.</th>
+                        <th class="num">USD @ 4.400</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr><td colspan="5" style="background: rgba(255, 165, 2, 0.08); font-weight: 700; color: #ffa502;">A. Motorización del desvío</td></tr>
                     <tr>
-                        <td>Desvío motorizado completo</td>
-                        <td>ADIF VEA010 + trocha 914</td>
-                        <td class="num">2</td>
-                        <td class="num">640.000.000</td>
-                        <td class="num">1.280.000.000</td>
+                        <td><strong>🅐 Premium — × 10 lineal</strong></td>
+                        <td>Misma configuración contractual replicada</td>
+                        <td class="num">$31,3 B COP</td>
+                        <td class="num">$7,1 M</td>
                     </tr>
-                    <tr>
-                        <td>Sistema control remoto + N+1</td>
-                        <td>WBS 1.4.101 v14.7</td>
-                        <td class="num">2</td>
-                        <td class="num">134.577.000</td>
-                        <td class="num">269.154.000</td>
-                    </tr>
-                    <tr>
-                        <td>Interfaz CTC/ENCE</td>
-                        <td>WBS 1.4.102 v14.7</td>
-                        <td class="num">2</td>
-                        <td class="num">67.288.000</td>
-                        <td class="num">134.576.000</td>
-                    </tr>
-                    <tr><td colspan="5" style="background: rgba(100, 255, 218, 0.06); font-weight: 700; color: #64ffda;">B. Comunicaciones e integración</td></tr>
-                    <tr>
-                        <td>Armario PTC apartadero</td>
-                        <td>Ardanuy $90k USD/u</td>
-                        <td class="num">1</td>
-                        <td class="num">396.000.000</td>
-                        <td class="num">396.000.000</td>
-                    </tr>
-                    <tr>
-                        <td>Señal LED 3 aspectos</td>
-                        <td>ADIF CCA040 + buffer</td>
-                        <td class="num">2</td>
-                        <td class="num">52.000.000</td>
-                        <td class="num">104.000.000</td>
-                    </tr>
-                    <tr>
-                        <td>Contador de ejes</td>
-                        <td>Conceptual LFC $4,72k USD</td>
-                        <td class="num">4</td>
-                        <td class="num">20.800.000</td>
-                        <td class="num">83.200.000</td>
-                    </tr>
-                    <tr>
-                        <td>Comms locales (TETRA + switch + UPS + derivación FO)</td>
-                        <td>Estimación GL</td>
-                        <td class="num">1 GL</td>
-                        <td class="num">200.000.000</td>
-                        <td class="num">200.000.000</td>
+                    <tr style="background: rgba(46, 213, 115, 0.08);">
+                        <td><strong>🅑 Optimizado — "no más ENCE"</strong></td>
+                        <td>10 apartaderos cuelgan de los 5 ENCE existentes vía FO (sin armario PTC propio, comms mínimas, reuso TETRA)</td>
+                        <td class="num"><strong>$24,8 B COP</strong></td>
+                        <td class="num"><strong>$5,6 M</strong></td>
                     </tr>
                 </tbody>
                 <tfoot>
-                    <tr style="background: rgba(255, 215, 0, 0.08); font-weight: 600;">
-                        <td colspan="4">Subtotal Costo Directo / apartadero</td>
-                        <td class="num"><strong>~$2.467 M COP</strong> (~$561k USD)</td>
-                    </tr>
-                    <tr style="background: rgba(255, 215, 0, 0.12); font-weight: 700;">
-                        <td colspan="4">Con AIU 33% (s/obra) + IVA 19% / apartadero</td>
-                        <td class="num"><strong>~$3.130 M COP</strong> (~$711k USD)</td>
-                    </tr>
-                    <tr style="background: rgba(46, 213, 115, 0.10); font-weight: 700; font-size: 1.05em;">
-                        <td colspan="4">TOTAL — 10 apartaderos · escenario base</td>
-                        <td class="num"><strong>~$31,3 B COP / $7,1 M USD</strong></td>
-                    </tr>
-                    <tr style="background: rgba(255, 71, 87, 0.08); font-weight: 600;">
-                        <td colspan="4">TOTAL — 10 apartaderos · escenario alto (+44%: trocha alta + RFQ adversa + 1 torre TETRA nueva)</td>
-                        <td class="num"><strong>~$45,0 B COP / $10,2 M USD</strong></td>
+                    <tr style="background: rgba(46, 213, 115, 0.12); font-weight: 700;">
+                        <td colspan="2">Ahorro Optimizado vs Premium</td>
+                        <td class="num">−$6,5 B COP</td>
+                        <td class="num">−$1,5 M</td>
                     </tr>
                 </tfoot>
             </table>
 
-            <div class="disclaimer" style="margin-top: 1.5rem;">
-                <h4>📌 Caveats para la respuesta a Javier</h4>
-                <p>1. Es <strong>orden de magnitud SICC v14.7 BCD-aligned</strong>, NO cotización formal. La cifra puede moverse ±20% al cerrar los 4 RFQ de ratificación ADIF (Hima Colombia, Siemens Mobility Bogotá, Vossloh, Alstom regional).</p>
-                <p>2. Si TFP además requiere <strong>PTC vital de cabecera</strong> en cada apartadero (no sólo CTC), subir armario a Tipo C ~$140k USD/u y duplicar contadores de ejes → delta <strong>+~$8 B COP</strong> sobre los 10.</p>
-                <p>3. <strong>NO incluye</strong>: obra civil de gran porte (reconfiguración plataforma), licencias de software incrementales para el CCO, repuestos de mantenimiento, ni RAMS/certificación específica del lote nuevo.</p>
-                <p>4. Si TFP exige <strong>tiempo de respuesta &lt; 1 semana</strong> para una cifra firme: convocar RFQ urgente a los 4 proveedores priorizados y consolidar en DT-COMS-2026-009 (delta sobre línea base v14.7).</p>
-            </div>
+            <h3 style="color: #ff4757; margin: 1.2rem 0 0.5rem 0; font-size: 1rem;">Antes de cifra firme — TFP debe responder</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Variable</th>
+                        <th>Si la respuesta es desfavorable</th>
+                        <th class="num">Δ × 10</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>¿Cuáles 10 apartaderos?</strong> (PK)</td><td>Sin ubicación, todo lo de abajo es supuesto</td><td class="num">—</td></tr>
+                    <tr><td>Estación física existe / abandonada</td><td>Abandonada → recuperar caseta + civil + accesos</td><td class="num">+$3 – 8 B</td></tr>
+                    <tr><td>Energía cercana (red trifásica)</td><td>Sin red → genset + solar + baterías</td><td class="num">+$2 B</td></tr>
+                    <tr><td>Aparatos de vía físicos en buen estado</td><td>Reponer aparato completo (no sólo motorizar)</td><td class="num">+$6,4 B</td></tr>
+                    <tr><td>Backbone FO &lt; 5 km</td><td>Extender FO &gt;5 km</td><td class="num">+$0,6 – 1,5 B</td></tr>
+                    <tr><td>Cobertura TETRA confirmada</td><td>Sombra RF → torre nueva compartida</td><td class="num">+$3,2 B</td></tr>
+                </tbody>
+            </table>
+            <p class="footnote">Orden de magnitud SICC v14.7 — no cotización formal. Cifra firme: RFQ 3 días (Hima/Siemens/Vossloh) + site survey 1 semana. Detalle composición por apartadero en <a href="WBS_Vista_Final.html" style="color: var(--accent);">Vista Final</a>.</p>
         </div>
 
         <!-- Optimizaciones doctrinales -->
