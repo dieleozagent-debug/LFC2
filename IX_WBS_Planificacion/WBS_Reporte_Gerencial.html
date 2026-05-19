@@ -77,19 +77,24 @@
             <h3 style="color: var(--accent); margin: 0 0 0.6rem 0; font-size: 1rem;">Cifra recomendada — los 10 apartaderos</h3>
             <div class="scenario-grid" style="grid-template-columns: 1fr 1fr;">
                 <div class="scenario-card scenario-opt" style="border-color: #2ed573;">
-                    <h4>🎯 Recomendada — configuración Optimizada</h4>
+                    <h4>🎯 Recomendada — Optimizada</h4>
                     <div class="figure">≈ 8 M USD</div>
                     <p style="font-size: 1rem; opacity: 0.9; margin-top: 0.4rem;"><strong>$34.800 millones COP</strong></p>
-                    <p style="font-size: 0.85rem; opacity: 0.8; margin-top: 0.5rem;">Equipos sin armario PTC propio (cuelga del ENCE existente vía la fibra del corredor) + energía solar redundante por punto (norma). Está dentro de doctrina BCD v001 — no requiere ENCE adicional.</p>
+                    <p style="font-size: 0.85rem; opacity: 0.8; margin-top: 0.5rem;">Equipo en sitio mínimo (cuelga del ENCE existente) + energía. Dentro de doctrina BCD v001.</p>
                 </div>
                 <div class="scenario-card scenario-esp" style="border-color: #ffa502; background: rgba(255,165,2,0.08);">
                     <h4>Alternativa — Completa (paridad pliego)</h4>
                     <div class="figure">≈ 10 M USD</div>
                     <p style="font-size: 1rem; opacity: 0.9; margin-top: 0.4rem;"><strong>$44.000 millones COP</strong></p>
-                    <p style="font-size: 0.85rem; opacity: 0.8; margin-top: 0.5rem;">Réplica estricta del estándar del pliego: armario PTC propio + comms locales completas + energía solar redundante. Sólo si el cliente exige paridad de equipamiento con apartaderos existentes.</p>
+                    <p style="font-size: 0.85rem; opacity: 0.8; margin-top: 0.5rem;">Configuración paridad pliego: armario PTC propio + comms completas + energía.</p>
                 </div>
             </div>
-            <p style="opacity: 0.85; font-size: 0.85rem; margin-top: 0.8rem; line-height: 1.5;">Ambas cifras incluyen <strong>energía solar redundante</strong> (~$1.000 M COP / punto) porque casi todos los sitios estarán sin red eléctrica estable. Si TFP confirma red eléctrica trifásica × 2 disponible en un sitio, se descuentan ~$1.000 M / punto.</p>
+            <p style="opacity: 0.85; font-size: 0.85rem; margin-top: 0.8rem; line-height: 1.5;">Ambas incluyen <strong>energía en sitio</strong> (~$1.000 M COP / punto) — solar, genset o red, lo que aplique. Si TFP confirma red trifásica × 2 disponible: −$1.000 M / punto.</p>
+
+            <div style="background: rgba(167, 139, 250, 0.08); border-left: 4px solid #a78bfa; border-radius: 8px; padding: 1rem 1.2rem; margin-top: 1rem;">
+                <h4 style="color: #a78bfa; margin: 0 0 0.4rem 0; font-size: 0.95rem;">⏳ Pregunta normativa abierta — puede bajar la cifra</h4>
+                <p style="font-size: 0.88rem; opacity: 0.9; line-height: 1.5; margin: 0;">Con PTC embarcado SIL-4 (FRA 49 CFR §236 Subpart I) ya en flota, está abierto si en cada apartadero basta con <strong>máquina cambiavía + comprobador de aguja + radio</strong> (sin armario vital local) o si la norma exige armario PTC SIL-3 en sitio. Si la norma permite el mínimo embarcado, la cifra Optimizada baja adicional ~$5.000 M COP. <em>Pendiente validar en FRA 49 CFR §236 + AT3 Cap I lit. c.</em></p>
+            </div>
 
             <h3 style="color: var(--accent); margin: 1.2rem 0 0.5rem 0; font-size: 1rem;">Supuestos para mantener el coste como extra mínimo al contrato</h3>
             <table>
@@ -144,7 +149,7 @@
                     <tr><td>Señal LED 3 aspectos</td><td class="num">2</td><td class="num">104</td><td class="num">104</td></tr>
                     <tr><td>Contador de ejes</td><td class="num">4</td><td class="num">83</td><td class="num">83</td></tr>
                     <tr><td>Comms locales <em style="opacity:0.7;">— en Optimizada solo switch + UPS</em></td><td class="num">1 GL</td><td class="num" style="color: #2ed573;">80</td><td class="num">200</td></tr>
-                    <tr style="background: rgba(255, 165, 2, 0.06);"><td><strong>Energía solar redundante</strong> (norma 2×25kVA + solar + genset + baterías)</td><td class="num">1</td><td class="num">1.000</td><td class="num">1.000</td></tr>
+                    <tr style="background: rgba(255, 165, 2, 0.06);"><td><strong>Energía</strong> en sitio (solar / genset / red — según punto)</td><td class="num">1</td><td class="num">1.000</td><td class="num">1.000</td></tr>
                 </tbody>
                 <tfoot>
                     <tr style="background: rgba(255, 215, 0, 0.06); font-weight: 600;">
