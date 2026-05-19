@@ -52,6 +52,25 @@
         .pilar-card .pilar-fig { font-size: 1.4rem; font-weight: 700; color: #fff; margin: 0.4rem 0 0.8rem 0; }
         .pilar-card ul { margin: 0; padding-left: 1.2rem; font-size: 0.85rem; opacity: 0.85; line-height: 1.7; }
         @media (max-width: 768px) { .consulta-respuesta-grid { grid-template-columns: 1fr; } }
+        @media (max-width: 640px) {
+            .main-content-wrapper { padding: 0.5rem !important; }
+            #consulta-tfp-apartaderos { border-left-width: 3px !important; padding: 1.1rem !important; }
+            .premium-card { padding: 1.1rem !important; }
+            .premium-title { font-size: 1.25rem !important; line-height: 1.25; }
+            .section-premium h2 { font-size: 1.1rem !important; }
+            .section-premium h3 { font-size: 0.92rem !important; }
+            .consulta-hero { padding: 1.2rem !important; }
+            .consulta-meta { gap: 0.5rem !important; font-size: 0.62rem !important; }
+            .consulta-big-cop { font-size: 1.7rem !important; }
+            .consulta-big-usd { font-size: 1.15rem !important; }
+            .scenario-grid { grid-template-columns: 1fr !important; }
+            .pilares-grid { grid-template-columns: 1fr !important; }
+            table { font-size: 0.78rem; display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+            th { padding: 0.55rem 0.45rem !important; font-size: 0.72rem !important; }
+            td { padding: 0.5rem 0.45rem !important; font-size: 0.78rem !important; }
+            details table { font-size: 0.72rem; }
+            details th, details td { padding: 0.4rem 0.35rem !important; font-size: 0.7rem !important; }
+        }
         @media print { .btn-dt { display: none; } body { color: #000; background: #fff; } }
     </style>
 </head>
@@ -151,8 +170,13 @@
                         <td class="num">3.320</td>
                         <td class="num">2.380</td>
                     </tr>
+                    <tr style="background: rgba(255, 255, 255, 0.05); font-size: 0.85rem;">
+                        <td>× 10 apartaderos — Costo Directo (sin AIU ni IVA)</td>
+                        <td class="num">$28.140</td>
+                        <td class="num">$20.240</td>
+                    </tr>
                     <tr style="background: rgba(255, 215, 0, 0.14); font-weight: 700;">
-                        <td>× 10 apartaderos (millones COP)</td>
+                        <td>× 10 apartaderos con AIU+IVA (millones COP)</td>
                         <td class="num">$33.200</td>
                         <td class="num">$23.800</td>
                     </tr>
