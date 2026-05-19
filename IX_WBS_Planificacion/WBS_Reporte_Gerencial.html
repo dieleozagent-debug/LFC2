@@ -106,8 +106,8 @@
                 </div>
                 <div class="scenario-card scenario-pes">
                     <h4>Pesimista</h4>
-                    <div class="figure">$39.600 millones COP</div>
-                    <p style="font-size: 0.9rem; opacity: 0.85; margin-top: 0.3rem;">≈ 9 M USD · Configuración contractual + materialización de 1-2 variables abiertas adversas (energía no resuelta en sitio + extensión FO o torre TETRA adicional).</p>
+                    <div class="figure">$36.300 – 41.300 millones COP</div>
+                    <p style="font-size: 0.9rem; opacity: 0.85; margin-top: 0.3rem;">≈ 8,3 – 9,4 M USD · Premium replicado × 10 + energía no resuelta (+$2.000 M) + 1-2 estaciones abandonadas a recuperar (+$3.000 – 8.000 M).</p>
                 </div>
             </div>
 
@@ -127,19 +127,21 @@
                 </tbody>
             </table>
 
-            <h3 style="color: #ff4757; margin: 1.2rem 0 0.5rem 0; font-size: 1rem;">Variables a validar para cerrar cifra firme</h3>
+            <h3 style="color: #ff4757; margin: 1.2rem 0 0.5rem 0; font-size: 1rem;">Información requerida de TFP para cerrar cifra firme</h3>
+            <p style="opacity: 0.85; line-height: 1.5; margin-bottom: 0.8rem; font-size: 0.9rem;">Las cifras de Esperado y Pesimista dependen de estas confirmaciones. El Optimista asume todas favorables; el Pesimista asume las dos desfavorables.</p>
             <table>
                 <thead>
                     <tr>
-                        <th>Variable</th>
-                        <th>Si la respuesta es desfavorable</th>
-                        <th class="num">Δ × 10</th>
+                        <th>Información requerida</th>
+                        <th>Caso favorable (asumido)</th>
+                        <th>Caso desfavorable</th>
+                        <th class="num">Δ × 10 si desfavorable</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr><td><strong>¿Cuáles 10 apartaderos?</strong> (PK)</td><td>Sin ubicación, los supuestos no se pueden verificar</td><td class="num">—</td></tr>
-                    <tr><td>Estación física existe / abandonada</td><td>Abandonada → recuperar caseta + accesos en sitio</td><td class="num">+$3.000 – 8.000 millones COP</td></tr>
-                    <tr><td>Energía cercana (red trifásica)</td><td>Sin red → genset + solar + baterías</td><td class="num">+$2.000 millones COP</td></tr>
+                    <tr><td><strong>① Ubicación PK de los 10 apartaderos</strong></td><td>—</td><td>Sin PK no se puede proceder a diseño</td><td class="num">—</td></tr>
+                    <tr><td><strong>② Estado de la estación en sitio</strong></td><td>Caseta y accesos utilizables</td><td>Abandonada → recuperar caseta + accesos</td><td class="num">+$3.000 – 8.000 millones COP</td></tr>
+                    <tr><td><strong>③ Energía eléctrica disponible</strong></td><td>Red trifásica cercana</td><td>Sin red → genset + solar + baterías</td><td class="num">+$2.000 millones COP</td></tr>
                 </tbody>
             </table>
 
@@ -181,68 +183,61 @@
                 </tbody>
             </table>
 
-            <h3 style="color: var(--accent); margin: 1.5rem 0 0.5rem 0; font-size: 1rem;">Detalle financiero — composición y cálculo</h3>
-            <p style="opacity: 0.85; line-height: 1.5; margin-bottom: 0.8rem; font-size: 0.9rem;">Composición física de 1 apartadero automatizado en configuración contractual (Premium):</p>
+            <h3 style="color: var(--accent); margin: 1.5rem 0 0.5rem 0; font-size: 1rem;">Detalle financiero — composición por apartadero (3 escenarios)</h3>
+            <p style="opacity: 0.85; line-height: 1.5; margin-bottom: 0.8rem; font-size: 0.9rem;">Misma composición física en los 3 escenarios, salvo lo marcado. Cifras en millones COP.</p>
             <table>
                 <thead>
                     <tr>
                         <th>Concepto</th>
                         <th class="num">Cant.</th>
-                        <th class="num">VU (millones COP)</th>
-                        <th class="num">$ por apartadero (millones COP)</th>
+                        <th class="num">🟢 Optimista / apart.</th>
+                        <th class="num">🟡 Esperado / apart.</th>
+                        <th class="num">🔴 Pesimista / apart.</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr><td>Desvío motorizado completo (aparato + motor + cerrojo + comprobador)</td><td class="num">2</td><td class="num">640</td><td class="num">1.280</td></tr>
-                    <tr><td>Sistema control remoto + redundancia N+1</td><td class="num">2</td><td class="num">135</td><td class="num">269</td></tr>
-                    <tr><td>Interfaz CTC / ENCE</td><td class="num">2</td><td class="num">67</td><td class="num">135</td></tr>
-                    <tr><td>Armario PTC apartadero (electrónica + alimentación)</td><td class="num">1</td><td class="num">396</td><td class="num">396</td></tr>
-                    <tr><td>Señal LED 3 aspectos (entrada / salida)</td><td class="num">2</td><td class="num">52</td><td class="num">104</td></tr>
-                    <tr><td>Contador de ejes</td><td class="num">4</td><td class="num">21</td><td class="num">83</td></tr>
-                    <tr><td>Comunicaciones locales (TETRA + switch + UPS + cableado)</td><td class="num">1 GL</td><td class="num">200</td><td class="num">200</td></tr>
+                    <tr><td>Desvío motorizado completo</td><td class="num">2</td><td class="num">1.280</td><td class="num">1.280</td><td class="num">1.280</td></tr>
+                    <tr><td>Sistema control remoto + N+1</td><td class="num">2</td><td class="num">269</td><td class="num">269</td><td class="num">269</td></tr>
+                    <tr><td>Interfaz CTC / ENCE</td><td class="num">2</td><td class="num">135</td><td class="num">135</td><td class="num">135</td></tr>
+                    <tr><td>Armario PTC apartadero <em style="opacity:0.7;">— en Optimista cuelga del ENCE existente</em></td><td class="num">1</td><td class="num" style="color: #2ed573;">0</td><td class="num">396</td><td class="num">396</td></tr>
+                    <tr><td>Señal LED 3 aspectos</td><td class="num">2</td><td class="num">104</td><td class="num">104</td><td class="num">104</td></tr>
+                    <tr><td>Contador de ejes</td><td class="num">4</td><td class="num">83</td><td class="num">83</td><td class="num">83</td></tr>
+                    <tr><td>Comms locales <em style="opacity:0.7;">— en Optimista solo switch + UPS</em></td><td class="num">1 GL</td><td class="num" style="color: #2ed573;">80</td><td class="num">200</td><td class="num">200</td></tr>
                 </tbody>
                 <tfoot>
-                    <tr style="background: rgba(255, 215, 0, 0.08); font-weight: 600;">
-                        <td colspan="3">Costo Directo por apartadero</td>
+                    <tr style="background: rgba(255, 215, 0, 0.06); font-weight: 600;">
+                        <td colspan="2">CD por apartadero (millones COP)</td>
+                        <td class="num">1.951</td>
+                        <td class="num">2.467</td>
                         <td class="num">2.467</td>
                     </tr>
-                    <tr style="background: rgba(255, 215, 0, 0.12); font-weight: 700;">
-                        <td colspan="3">Con AIU 33% + IVA 19% — Total por apartadero</td>
+                    <tr style="background: rgba(255, 215, 0, 0.10); font-weight: 600;">
+                        <td colspan="2">Con AIU 33% + IVA 19% por apartadero</td>
+                        <td class="num">2.480</td>
+                        <td class="num">3.130</td>
                         <td class="num">3.130</td>
                     </tr>
+                    <tr style="background: rgba(255, 215, 0, 0.14); font-weight: 700;">
+                        <td colspan="2">× 10 apartaderos (millones COP)</td>
+                        <td class="num">24.800</td>
+                        <td class="num">31.300</td>
+                        <td class="num">31.300</td>
+                    </tr>
+                    <tr><td colspan="2" style="padding-left: 1.5rem; opacity: 0.85;">+ Energía si no hay red en sitio</td><td class="num">—</td><td class="num">—</td><td class="num" style="color: #ff4757;">+2.000</td></tr>
+                    <tr><td colspan="2" style="padding-left: 1.5rem; opacity: 0.85;">+ Recuperar estación abandonada (1-2 sitios)</td><td class="num">—</td><td class="num">—</td><td class="num" style="color: #ff4757;">+3.000 a 8.000</td></tr>
+                    <tr style="background: rgba(46, 213, 115, 0.12); font-weight: 700; font-size: 1.05em;">
+                        <td colspan="2">TOTAL × 10 (millones COP)</td>
+                        <td class="num">$24.800</td>
+                        <td class="num">$31.300</td>
+                        <td class="num">$36.300 – 41.300</td>
+                    </tr>
+                    <tr style="background: rgba(100, 255, 218, 0.10); font-weight: 700;">
+                        <td colspan="2">TOTAL × 10 (USD @ TRM 4.400)</td>
+                        <td class="num">5,6 M</td>
+                        <td class="num">7,1 M</td>
+                        <td class="num">8,3 – 9,4 M</td>
+                    </tr>
                 </tfoot>
-            </table>
-
-            <p style="opacity: 0.85; line-height: 1.5; margin: 1rem 0 0.8rem 0; font-size: 0.9rem;">Proyección × 10 apartaderos, por escenario:</p>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Escenario</th>
-                        <th>Diferencia vs Premium</th>
-                        <th class="num">Total × 10 (millones COP)</th>
-                        <th class="num">USD @ 4.400</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr style="background: rgba(46, 213, 115, 0.08);">
-                        <td><strong>🟢 Optimista</strong></td>
-                        <td>Sin armario PTC propio (cuelgan del ENCE existente vía FO) + comms locales mínimas</td>
-                        <td class="num"><strong>$24.800</strong></td>
-                        <td class="num"><strong>5,6 M</strong></td>
-                    </tr>
-                    <tr style="background: rgba(255, 165, 2, 0.08);">
-                        <td><strong>🟡 Esperado</strong></td>
-                        <td>Configuración contractual Premium replicada × 10</td>
-                        <td class="num"><strong>$31.300</strong></td>
-                        <td class="num"><strong>7,1 M</strong></td>
-                    </tr>
-                    <tr style="background: rgba(255, 71, 87, 0.08);">
-                        <td><strong>🔴 Pesimista</strong></td>
-                        <td>Premium + energía no resuelta en sitio (+$2.000 M) + 1-2 estaciones abandonadas a recuperar (+$3.000–6.000 M)</td>
-                        <td class="num"><strong>$36.000 – 39.600</strong></td>
-                        <td class="num"><strong>8,2 – 9,0 M</strong></td>
-                    </tr>
-                </tbody>
             </table>
 
             <p class="footnote" style="margin-top: 1rem;">Orden de magnitud SICC v14.7 — no cotización formal. Cifra firme requiere: RFQ a proveedores (3 días) + site survey de los 10 apartaderos (1 semana) + DT de ampliación de alcance. Detalle composición por apartadero en <a href="/IX_WBS_Planificacion/WBS_Vista_Final" style="color: var(--accent);">Vista Final</a>.</p>
