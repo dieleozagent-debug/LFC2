@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="adn-page-title">Cargando...</title>
+    <link rel="stylesheet" href="/IX_WBS_Planificacion/wbs-shared.css">
+    <style>
+        table { width: 100%; border-collapse: collapse; margin: 1.2rem 0; background: rgba(255,255,255,0.02); border-radius: 12px; overflow: hidden; }
+        th { background: rgba(255,255,255,0.05); padding: 0.9rem 1rem; text-align: left; font-size: 0.85rem; color: var(--accent); }
+        td { padding: 0.75rem 1rem; border-bottom: 1px solid var(--glass-border); font-size: 0.87rem; }
+        td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+        td.ctr, th.ctr { text-align: center; }
+        tfoot td { font-weight: 700; }
+        .section-premium { margin-bottom: 2.2rem; }
+        .section-premium h2 { font-size: 1.4rem; color: var(--accent); margin-bottom: 1rem; display: flex; align-items: center; gap: 10px; }
+        .rfq-badge { display: inline-block; background: rgba(255,165,2,0.14); color: #ffc266; border: 1px solid rgba(255,165,2,0.45); border-radius: 20px; padding: 0.35rem 0.95rem; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.5px; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; }
+        .kpi-card { padding: 1.3rem; border-radius: 14px; background: rgba(255,255,255,0.03); border: 1px solid var(--glass-border); border-top: 4px solid var(--glass-border); text-align: center; }
+        .kpi-card.primary { border-top-color: var(--success); background: linear-gradient(135deg, rgba(100,255,218,0.10), rgba(255,215,0,0.04)); }
+        .kpi-card.warn { border-top-color: #ff4757; }
+        .kpi-card .kpi-label { font-size: 0.68rem; letter-spacing: 1.5px; opacity: 0.6; text-transform: uppercase; }
+        .kpi-card .kpi-cop { font-size: 1.6rem; font-weight: 800; color: var(--success); margin: 0.4rem 0 0.1rem 0; letter-spacing: -0.5px; }
+        .kpi-card.warn .kpi-cop { color: #ff6b7a; }
+        .kpi-card .kpi-usd { font-size: 1rem; font-weight: 600; color: var(--accent); }
+        .tag { display: inline-block; font-size: 0.7rem; padding: 0.15rem 0.55rem; border-radius: 6px; font-weight: 700; }
+        .t-nuc { background: rgba(100,149,237,0.18); color: #9ec1ff; }
+        .t-via { background: rgba(167,139,250,0.18); color: #c4b5fd; }
+        .t-sig { background: rgba(255,215,0,0.15); color: var(--accent); }
+        .t-det { background: rgba(46,213,115,0.15); color: #2ed573; }
+        .t-arm { background: rgba(255,165,2,0.16); color: #ffc266; }
+        .t-ene { background: rgba(100,255,218,0.15); color: #64ffda; }
+        .compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; margin-top: 0.5rem; }
+        .cmp-card { padding: 1.1rem 1.2rem; border-radius: 12px; border-top: 4px solid; background: rgba(255,255,255,0.02); }
+        .cmp-apt { border-color: #64ffda; }
+        .cmp-ence { border-color: #9ec1ff; }
+        .cmp-card h4 { margin: 0 0 0.5rem 0; font-size: 0.95rem; }
+        .cmp-card ul { margin: 0; padding-left: 1.1rem; font-size: 0.83rem; opacity: 0.88; line-height: 1.7; }
+        .pend { background: rgba(255,165,2,0.07); border: 1px solid rgba(255,165,2,0.3); border-radius: 12px; padding: 0.9rem 1.1rem; margin-top: 1rem; }
+        .pend p { font-size: 0.85rem; margin: 0.3rem 0; line-height: 1.55; }
+        a.code { color: var(--success); text-decoration: none; }
+        .disclaimer { background: rgba(255, 215, 0, 0.06); border: 1px solid rgba(255, 215, 0, 0.3); border-radius: 12px; padding: 1.2rem; margin-top: 2rem; }
+        .disclaimer h4 { color: #ffd700; margin: 0 0 0.5rem 0; font-size: 1rem; }
+        .disclaimer p { font-size: 0.84rem; opacity: 0.9; line-height: 1.6; margin: 0.4rem 0; }
+        .footnote { font-size: 0.78rem; opacity: 0.62; line-height: 1.5; margin-top: 0.6rem; font-style: italic; }
+        @media print { .btn-dt { display: none; } body { color: #000; background: #fff; } }
+        @media (max-width: 768px) {
+            .kpi-grid, .compare-grid { grid-template-columns: 1fr; }
+            .premium-title { font-size: 1.3rem !important; }
+            .section-premium h2 { font-size: 1.1rem; }
+            table { font-size: 0.78rem; display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+            th, td { padding: 0.5rem 0.45rem !important; font-size: 0.76rem !important; }
+        }
+    </style>
+</head>
+<body>
+    <div id="lfc-sidebar-container"></div>
+    <div class="main-content-wrapper">
+
+        <!-- Header -->
+        <div class="premium-card" style="margin-bottom: 2rem;">
+            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:20px;">
+                <div>
+                    <h1 class="premium-title">Enclavamiento Electrónico (ENCE) — Baseline ADIF</h1>
+                    <p style="opacity:0.7; font-weight:300;">Corredor La Dorada–Chiriguaná · Contrato APP No. 001 de 2025 · 5 nodos ENCE · bottom-up BPA ADIF v1.4.0 (© ADIF 2025) · TRM 4.400</p>
+                    <p style="margin-top:0.6rem;"><span class="rfq-badge">⚠ ORDEN DE MAGNITUD — NÚCLEO CAC PARCIALMENTE ESTIMADO · SUJETO A RFQ</span></p>
+                </div>
+                <div style="display:flex; gap:10px; flex-wrap:wrap;">
+                    <a href="/IX_WBS_Planificacion/Baseline_ENCE_ADIF.xlsx" download class="btn-dt" style="padding:0.8rem 1.4rem; background:var(--success); color:#0a192f; border-radius:8px; font-weight:700; text-decoration:none; display:inline-block;">⬇ Descargar Excel</a>
+                    <button onclick="window.print()" class="btn-dt" style="padding:0.8rem 1.5rem;">Exportar PDF</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- KPIs -->
+        <div class="premium-card section-premium" style="border-left:5px solid #9ec1ff;">
+            <p style="opacity:0.9; line-height:1.6; margin-bottom:1.2rem;">
+                Coste de un <strong>enclavamiento electrónico (ENCE)</strong> — las 5 estaciones con <strong>cantonamiento físico</strong> del corredor (La Dorada–México, Pto Berrío–Grecia, Barrancabermeja, García Cadena, Zapatosa). A diferencia del apartadero austero, el ENCE <strong>sí</strong> lleva lógica vital local, desvíos motorizados, señales laterales y detección física. Baseline <strong>bottom-up sumando partidas reales del BPA ADIF</strong>.
+            </p>
+            <div class="kpi-grid">
+                <div class="kpi-card">
+                    <div class="kpi-label">1 ENCE (tipo)</div>
+                    <div class="kpi-cop">$4.095 M COP</div>
+                    <div class="kpi-usd">≈ $0,93M USD</div>
+                </div>
+                <div class="kpi-card primary">
+                    <div class="kpi-label">5 ENCE (corredor)</div>
+                    <div class="kpi-cop">$20.475 M COP</div>
+                    <div class="kpi-usd">≈ $4,65M USD</div>
+                </div>
+                <div class="kpi-card warn">
+                    <div class="kpi-label">WBS v3.0 (antiguo)</div>
+                    <div class="kpi-cop">$800 M / ENCE</div>
+                    <div class="kpi-usd">subestima ~5×</div>
+                </div>
+            </div>
+            <p class="footnote" style="margin-top:1rem;">Cantidades por ENCE = promedio (referencia Ardanuy ÷ 5 estaciones): 8 desvíos motorizados, 12 señales, 9 contadores de ejes. El desglose real por estación lo fija la ingeniería de detalle.</p>
+        </div>
+
+        <!-- Apartadero vs ENCE -->
+        <div class="premium-card section-premium">
+            <h2>🔁 Apartadero vs ENCE — dos mundos</h2>
+            <div class="compare-grid">
+                <div class="cmp-card cmp-apt">
+                    <h4 style="color:#64ffda;">Apartadero (austero · PTC virtual)</h4>
+                    <ul>
+                        <li>Comprobador de aguja ×2</li>
+                        <li>Terminal TETRA ×2 → Back Office</li>
+                        <li>Energía solar</li>
+                        <li><strong>Sin</strong> motor, señales, gabinetes</li>
+                        <li>≈ $0,33M USD por unidad</li>
+                    </ul>
+                </div>
+                <div class="cmp-card cmp-ence">
+                    <h4 style="color:#9ec1ff;">ENCE (estación · cantonamiento físico)</h4>
+                    <ul>
+                        <li>UCP — lógica vital local de rutas</li>
+                        <li>Desvíos <strong>motorizados</strong> + comprobadores</li>
+                        <li>Señales LED laterales</li>
+                        <li>Detección física (contadores de ejes)</li>
+                        <li>Armarios/bastidores + SAI 4h + caseta</li>
+                        <li>≈ $0,93M USD por unidad</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- BoQ ENCE tipo -->
+        <div class="premium-card section-premium">
+            <h2>🧱 BoQ de un ENCE tipo (bottom-up ADIF)</h2>
+            <p style="opacity:0.85; font-size:0.9rem; margin-bottom:0.5rem;">Precios ADIF BPA (suministro+montaje, costes indirectos 6%). Cantidades = ENCE promedio.</p>
+            <table>
+                <thead>
+                    <tr><th>Categoría</th><th>Concepto</th><th>Código BPA</th><th class="num">€/ud</th><th class="ctr">Cant.</th><th class="num">€ total</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td><span class="tag t-nuc">NÚCLEO</span></td><td>UCP — módulo central de proceso (grande)</td><td><a class="code" href="https://bpa.adif.es/bp1/#/concept/152945939" target="_blank">CAC020$</a></td><td class="num">118.006</td><td class="ctr">1</td><td class="num">118.006</td></tr>
+                    <tr style="background:rgba(255,165,2,0.06);"><td><span class="tag t-nuc">NÚCLEO</span></td><td>Armario energía + bastidores + controlador objetos + cableado red local <span style="opacity:0.6">(estimado — pend. BPA)</span></td><td>CAC010/030/040/050$</td><td class="num">—</td><td class="ctr">1</td><td class="num">150.000 ⚠</td></tr>
+                    <tr><td><span class="tag t-via">VÍA</span></td><td>Motor eléctrico de aguja (con cerrojo)</td><td><a class="code" href="https://bpa.adif.es/bp1/#/concept/153769673" target="_blank">CFA010$</a></td><td class="num">10.625</td><td class="ctr">8</td><td class="num">85.000</td></tr>
+                    <tr><td><span class="tag t-via">VÍA</span></td><td>Comprobador de aguja</td><td><a class="code" href="https://bpa.adif.es/bp1/#/concept/151681024" target="_blank">CFA040$</a></td><td class="num">4.964</td><td class="ctr">8</td><td class="num">39.711</td></tr>
+                    <tr><td><span class="tag t-sig">SEÑAL</span></td><td>Señal alta LED 3 focos</td><td><a class="code" href="https://bpa.adif.es/bp1/#/concept/153988522" target="_blank">CCA040$</a></td><td class="num">7.934</td><td class="ctr">12</td><td class="num">95.211</td></tr>
+                    <tr><td><span class="tag t-det">DETECCIÓN</span></td><td>Sensor de rueda — contador de ejes</td><td><a class="code" href="https://bpa.adif.es/bp1/#/concept/157260724" target="_blank">CBB030$</a></td><td class="num">8.286</td><td class="ctr">9</td><td class="num">74.575</td></tr>
+                    <tr><td><span class="tag t-det">DETECCIÓN</span></td><td>Evaluador 8 contadores de ejes</td><td><a class="code" href="https://bpa.adif.es/bp1/#/concept/154836682" target="_blank">CBB040$</a></td><td class="num">13.399</td><td class="ctr">2</td><td class="num">26.797</td></tr>
+                    <tr><td><span class="tag t-arm">ARMARIOS</span></td><td>Armario de señalización (grande)</td><td><a class="code" href="https://bpa.adif.es/bp1/#/concept/155621679" target="_blank">CDB010$</a></td><td class="num">4.151</td><td class="ctr">4</td><td class="num">16.605</td></tr>
+                    <tr><td><span class="tag t-arm">ARMARIOS</span></td><td>Caja de terminales 50 bornas</td><td><a class="code" href="https://bpa.adif.es/bp1/#/concept/156383357" target="_blank">CDA010$</a></td><td class="num">1.066</td><td class="ctr">10</td><td class="num">10.660</td></tr>
+                    <tr><td><span class="tag t-arm">ARMARIOS</span></td><td>Caseta técnica prefabricada</td><td><a class="code" href="https://bpa.adif.es/bp1/#/category/149855475" target="_blank">TMI010</a></td><td class="num">7.181</td><td class="ctr">1</td><td class="num">7.181</td></tr>
+                    <tr><td><span class="tag t-arm">CABLE</span></td><td>Cable de señalización 7x4x0.9 (m)</td><td><a class="code" href="https://bpa.adif.es/bp1/#/concept/151181595" target="_blank">CEA030$</a></td><td class="num">11,67</td><td class="ctr">2.000</td><td class="num">23.340</td></tr>
+                    <tr><td><span class="tag t-arm">CABLE</span></td><td>Cable F.O. 48 fibras canalización (m)</td><td><a class="code" href="https://bpa.adif.es/bp1/#/concept/158651112" target="_blank">TCJ010$</a></td><td class="num">5,48</td><td class="ctr">1.000</td><td class="num">5.480</td></tr>
+                    <tr><td><span class="tag t-ene">ENERGÍA</span></td><td>SAI 1 kVA <span style="opacity:0.6">(ENCE requiere 4h+ → COA200)</span></td><td><a class="code" href="https://bpa.adif.es/bp1/#/concept/151067858" target="_blank">COA090$</a></td><td class="num">2.115</td><td class="ctr">2</td><td class="num">4.230</td></tr>
+                </tbody>
+                <tfoot>
+                    <tr style="background:rgba(100,255,218,0.06);"><td colspan="5">Subtotal EQUIPO (suministro + montaje)</td><td class="num">~656.794</td></tr>
+                    <tr style="background:rgba(100,255,218,0.06);"><td colspan="5">Ingeniería + integración + pruebas + safety case (30%)</td><td class="num">~197.038</td></tr>
+                    <tr style="background:rgba(100,255,218,0.12);"><td colspan="5">TOTAL ENCE tipo</td><td class="num">~853.832 € &nbsp;<span style="opacity:0.7; font-weight:500;">≈ $0,93M USD · $4.095M COP</span></td></tr>
+                </tfoot>
+            </table>
+        </div>
+
+        <!-- Comparación -->
+        <div class="premium-card section-premium">
+            <h2>📊 Contraste con las referencias</h2>
+            <table>
+                <thead>
+                    <tr><th>Fuente / método</th><th class="num">$/ENCE (USD)</th><th class="num">$/ENCE (M COP)</th><th class="num">5 ENCE (M COP)</th></tr>
+                </thead>
+                <tbody>
+                    <tr style="background:rgba(100,255,218,0.10);"><td><strong>Bottom-up ADIF (este modelo)</strong></td><td class="num">930.677</td><td class="num">4.095</td><td class="num">20.475</td></tr>
+                    <tr><td>Ardanuy (consultor de diseño)</td><td class="num">869.377</td><td class="num">3.825</td><td class="num">19.126</td></tr>
+                    <tr style="color:#ff6b7a;"><td>WBS v3.0 (línea base antigua)</td><td class="num">181.818</td><td class="num">800</td><td class="num">4.000</td></tr>
+                    <tr><td>DT-COMS-2026-007 (LFC v2)</td><td class="num">454.545</td><td class="num">2.000</td><td class="num">10.000</td></tr>
+                </tbody>
+            </table>
+            <p style="line-height:1.6; font-size:0.9rem; margin-top:0.5rem;"><strong>Lectura:</strong> el bottom-up ADIF (~$931K USD/ENCE) <strong>confirma a Ardanuy</strong> ($869K, ~7% de diferencia) y deja en evidencia que el <strong>WBS v3.0 ($800M COP) subestima el ENCE ~4–5×</strong>. Los 5 ENCE reales valen ~$20,5B COP (~$4,65M USD), no los $4.000M del WBS antiguo — es el mayor hueco de CAPEX del sistema.</p>
+        </div>
+
+        <!-- Pendientes -->
+        <div class="premium-card section-premium">
+            <h2>⏳ Para cerrar el baseline al 100%</h2>
+            <div class="pend">
+                <p><strong style="color:#ffc266;">Núcleo CAC pendiente de BPA:</strong> falta cotizar en bpa.adif.es el armario de energía (CAC010$), bastidores (CAC030$), controlador de objetos (CAC050$) y cableado de red local (CAC040$) — hoy estimados en €150.000. La UCP (CAC020$ €118.006) sí está confirmada.</p>
+                <p><strong style="color:#64ffda;">Cantidades por estación:</strong> confirmar con ingeniería de detalle el nº real de desvíos, señales y contadores por cada ENCE (La Dorada–México y Barrancabermeja serán mayores que Zapatosa).</p>
+                <p><strong style="color:#c4b5fd;">Energía:</strong> el ENCE exige autonomía 4h+ (BCD §10.5) → sustituir el SAI de referencia (COA090, 15 min) por COA200$ (1h) o banco mayor.</p>
+            </div>
+        </div>
+
+        <!-- Disclaimer -->
+        <div class="disclaimer">
+            <h4>Disclaimer · Orden de magnitud — sujeto a RFQ</h4>
+            <p>Baseline bottom-up con precios del Banco de Precios de ADIF (<a href="https://bpa.adif.es/bp1/" target="_blank" style="color: var(--accent);">bpa.adif.es/bp1</a>, app v1.4.0, válida desde 19/02/2026, © ADIF 2025; costes indirectos 6%). Precios = referencia europea (trocha estándar); para LFC aplican factores de soberanía técnica (trocha 914 mm, logística, MO local). Conversión 4.796 COP/EUR (TRM 4.400 × 1,09). <strong>No constituye cotización formal</strong>; el núcleo CAC y las cantidades por estación se confirman vía RFQ / ingeniería de detalle.</p>
+            <p>Detalle por ítem y comparación: <a href="/IX_WBS_Planificacion/Baseline_ENCE_ADIF.xlsx" style="color: var(--accent);">Baseline_ENCE_ADIF.xlsx</a> · Apartaderos: <a href="/IX_WBS_Planificacion/WBS_Detalle_Apartadero" style="color: var(--accent);">Detalle Apartadero</a>.</p>
+        </div>
+    </div>
+
+    <script src="/IX_WBS_Planificacion/lfc-terminology.js?v=14.7.13"></script>
+    <script src="/IX_WBS_Planificacion/sidebar-component.js?v=14.7.13"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const titleEl = document.getElementById('adn-page-title');
+            if (titleEl) {
+                titleEl.textContent = `Baseline ENCE — ${ (window.LFC_TERMINOLOGY && window.LFC_TERMINOLOGY.APP_SHORT_NAME) || 'LFC2'}`;
+            }
+        });
+    </script>
+</body>
+</html>

@@ -21,6 +21,7 @@
             <a href="/IX_WBS_Planificacion/WBS_COMPLETA_TODO_Interactiva_v4.0" class="nav-item" id="nav-wbs-int">🛠️ WBS Interactiva (proponer DT)</a>
             <a href="/IX_WBS_Planificacion/WBS_Reporte_Gerencial" class="nav-item" id="nav-report">📋 Reporte Gerencial</a>
             <a href="/IX_WBS_Planificacion/WBS_Detalle_Apartadero" class="nav-item" id="nav-apartadero">🛤️ Detalle Apartadero (SCC)</a>
+            <a href="/IX_WBS_Planificacion/WBS_Baseline_ENCE" class="nav-item" id="nav-ence">🧱 Baseline ENCE (ADIF)</a>
             <a href="/IX_WBS_Planificacion/WBS_Analisis_Riesgos" class="nav-item" id="nav-risks">⚠️ Análisis de Riesgos</a>
             <a href="/IX_WBS_Planificacion/WBS_Cronograma_Propuesta" class="nav-item" id="nav-chrono">📅 ${(term.SYSTEMS && term.SYSTEMS.GANTT) ? term.SYSTEMS.GANTT : 'Cronograma'}</a>
         </div>

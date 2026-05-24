@@ -41,6 +41,10 @@
       "destination": "/IX_WBS_Planificacion/WBS_Detalle_Apartadero"
     },
     {
+      "source": "/ence",
+      "destination": "/IX_WBS_Planificacion/WBS_Baseline_ENCE"
+    },
+    {
       "source": "/riesgos",
       "destination": "/IX_WBS_Planificacion/WBS_Analisis_Riesgos"
     },
