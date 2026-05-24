@@ -58,8 +58,8 @@
     <div id="lfc-sidebar-container" role="navigation" aria-label="Navegación principal"></div>
     <div class="main-content-wrapper" id="main" role="main" tabindex="-1">
         <div class="premium-card" style="margin-bottom: 3rem;">
-            <h1 class="premium-title">🍽️ ENTREGABLES SERVIDOS</h1>
-            <p style="opacity: 0.7;">Documentación técnica consolidada, saneada bajo estándar PTC Virtual y lista para stakeholders.</p>
+            <h1 class="premium-title">Entregables Servidos</h1>
+            <p style="opacity: 0.7;">Documentación técnica ejecutiva del sistema SCC, consolidada y alineada a BCD v001, lista para stakeholders.</p>
         </div>
 
         <div class="doc-grid" id="docs-container">
@@ -77,22 +77,22 @@
             }
 
             const docs = [
-                { id: "S01", grp: "Sistemas", name: "SISTEMA_01: Control y Senalización", file: "SISTEMA_01_Control_y_Senalizacion_EJECUTIVO" },
-                { id: "S02", grp: "Sistemas", name: "SISTEMA_02: Telecomunicaciones (TETRA)", file: "SISTEMA_02_Telecomunicaciones_EJECUTIVO" },
-                { id: "S03", grp: "Sistemas", name: "SISTEMA_03: ITS y Seguridad+", file: "SISTEMA_03_ITS_y_Seguridad_EJECUTIVO" },
-                { id: "S04", grp: "Sistemas", name: "SISTEMA_04: Material Rodante (V-Block)", file: "SISTEMA_04_Material_Rodante_EJECUTIVO" },
-                { id: "S05", grp: "Sistemas", name: "SISTEMA_05: Infraestructura Operativa", file: "SISTEMA_05_Infraestructura_Operativa_EJECUTIVO" },
-                { id: "S06", grp: "Sistemas", name: "SISTEMA_06: Integración y Coordinación", file: "SISTEMA_06_Integracion_y_Coordinacion_EJECUTIVO" },
+                { id: "S01", grp: "Sistemas", name: "SISTEMA_01: Control y Senalización", file: "SISTEMA_01_Control_y_Senalizacion_EJECUTIVO", desc: "Arquitectura de señalización y control: enclavamientos ENCE, PTC virtual (FRA 236-I) y CTC del corredor." },
+                { id: "S02", grp: "Sistemas", name: "SISTEMA_02: Telecomunicaciones (TETRA)", file: "SISTEMA_02_Telecomunicaciones_EJECUTIVO", desc: "Red de comunicaciones ferroviarias: troncal TETRA (ETSI EN 300 392) sobre backbone de fibra G.652.D 48h." },
+                { id: "S03", grp: "Sistemas", name: "SISTEMA_03: ITS y Seguridad+", file: "SISTEMA_03_ITS_y_Seguridad_EJECUTIVO", desc: "Sistemas inteligentes de transporte y seguridad: detección, CCTV y protección de pasos a nivel." },
+                { id: "S04", grp: "Sistemas", name: "SISTEMA_04: Material Rodante (V-Block)", file: "SISTEMA_04_Material_Rodante_EJECUTIVO", desc: "Equipamiento embarcado: OBU, posicionamiento GNSS/EOT y lógica de bloque virtual a bordo." },
+                { id: "S05", grp: "Sistemas", name: "SISTEMA_05: Infraestructura Operativa", file: "SISTEMA_05_Infraestructura_Operativa_EJECUTIVO", desc: "Infraestructura de campo: energía (UPS/SAI), gabinetes, ductería y obra civil asociada al sistema." },
+                { id: "S06", grp: "Sistemas", name: "SISTEMA_06: Integración y Coordinación", file: "SISTEMA_06_Integracion_y_Coordinacion_EJECUTIVO", desc: "Integración entre sistemas: interfaces, FFFIS y compatibilidad operativa con FENOCO." },
                 
-                { id: "E01", grp: "Especialidades", name: "ESPECIALIDAD_01: Ingeniería Civil", file: "ESPECIALIDAD_01_Ingenieria_Civil_EJECUTIVO" },
-                { id: "E02", grp: "Especialidades", name: "ESPECIALIDAD_02: Ingeniería Eléctrica", file: "ESPECIALIDAD_02_Ingenieria_Electrica_EJECUTIVO" },
-                { id: "E03", grp: "Especialidades", name: "ESPECIALIDAD_03: Ingeniería Mecánica", file: "ESPECIALIDAD_03_Ingenieria_Mecanica_EJECUTIVO" },
-                { id: "E04", grp: "Especialidades", name: "ESPECIALIDAD_04: Ingeniería de Sistemas", file: "ESPECIALIDAD_04_Ingenieria_Sistemas_EJECUTIVO" },
-                { id: "E05", grp: "Especialidades", name: "ESPECIALIDAD_05: Ingeniería Ambiental", file: "ESPECIALIDAD_05_Ingenieria_Ambiental_EJECUTIVO" },
+                { id: "E01", grp: "Especialidades", name: "ESPECIALIDAD_01: Ingeniería Civil", file: "ESPECIALIDAD_01_Ingenieria_Civil_EJECUTIVO", desc: "Obra civil: canalización de fibra, cimentaciones de torres y adecuaciones de estación." },
+                { id: "E02", grp: "Especialidades", name: "ESPECIALIDAD_02: Ingeniería Eléctrica", file: "ESPECIALIDAD_02_Ingenieria_Electrica_EJECUTIVO", desc: "Alimentación y respaldo: UPS 24–48 h, RETIE 2024 y dimensionamiento de cargas eléctricas." },
+                { id: "E03", grp: "Especialidades", name: "ESPECIALIDAD_03: Ingeniería Mecánica", file: "ESPECIALIDAD_03_Ingenieria_Mecanica_EJECUTIVO", desc: "Elementos de vía: cambiavías motorizados, herrajes y mecanismos del sistema de señalización." },
+                { id: "E04", grp: "Especialidades", name: "ESPECIALIDAD_04: Ingeniería de Sistemas", file: "ESPECIALIDAD_04_Ingenieria_Sistemas_EJECUTIVO", desc: "Software del CTC/CCO, arquitectura de seguridad RAMS y ciberseguridad (IEC 62443)." },
+                { id: "E05", grp: "Especialidades", name: "ESPECIALIDAD_05: Ingeniería Ambiental", file: "ESPECIALIDAD_05_Ingenieria_Ambiental_EJECUTIVO", desc: "Gestión ambiental de obra y cumplimiento normativo a lo largo del corredor." },
                 
-                { id: "G01", grp: "Gestión", name: "GESTIÓN: Alcance y Objetivos", file: "GESTION_EJECUTIVO_Alcance_y_Objetivos" },
-                { id: "G02", grp: "Gestión", name: "GESTIÓN: Cambios y Decisiones", file: "GESTION_EJECUTIVO_Cambios_y_Decisiones_Tecnicas" },
-                { id: "G03", grp: "Gestión", name: "GESTIÓN: Cronograma y Recursos", file: "GESTION_EJECUTIVO_Cronograma_y_Recursos" }
+                { id: "G01", grp: "Gestión", name: "GESTIÓN: Alcance y Objetivos", file: "GESTION_EJECUTIVO_Alcance_y_Objetivos", desc: "Definición del sistema SCC para la UF2, sus límites contractuales y objetivos." },
+                { id: "G02", grp: "Gestión", name: "GESTIÓN: Cambios y Decisiones", file: "GESTION_EJECUTIVO_Cambios_y_Decisiones_Tecnicas", desc: "Trazabilidad de las Decisiones Técnicas (DT) que ajustan el WBS y la doctrina BCD." },
+                { id: "G03", grp: "Gestión", name: "GESTIÓN: Cronograma y Recursos", file: "GESTION_EJECUTIVO_Cronograma_y_Recursos", desc: "Planificación temporal y asignación de recursos de la ejecución." }
             ];
 
             const container = document.getElementById('docs-container');
@@ -100,7 +100,7 @@
                 <div class="doc-card">
                     <div style="font-size: 0.6rem; letter-spacing: 2px; opacity: 0.5; margin-bottom: 0.5rem;">[${doc.grp.toUpperCase()}] SICC-LFC2-ID-${doc.id}</div>
                     <h3>${doc.name}</h3>
-                    <p style="font-size: 0.85rem; opacity: 0.7; line-height: 1.5;">Ingeniería ejecutiva consolidada. Libre de tecnologías legacy. SSOT: DBCD_CRITERIA.md</p>
+                    <p style="font-size: 0.85rem; opacity: 0.7; line-height: 1.5;">${doc.desc || 'Ingeniería ejecutiva consolidada (BCD-aligned).'}</p>
                     <div class="doc-links">
                         <a href="${doc.file}.html" class="doc-link link-html">🌐 VER HTML</a>
                         <a href="../WORD/${doc.file}.docx" class="doc-link link-word">📄 WORD (.DOCX)</a>
