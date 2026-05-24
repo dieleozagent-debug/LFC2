@@ -1,0 +1,11 @@
+# No desplegar a producción (lfc-2.vercel.app)
+# Nota: .vercelignore lo respeta el deploy por CLI. Para deploy por
+# Git-integration, estos paths además se sacaron del árbol git
+# (git rm --cached) para que tampoco se publiquen.
+
+old/
+scratch/
+backup_originales/
+bin/
+*.bak
+*.log

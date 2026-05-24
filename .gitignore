@@ -11,6 +11,12 @@ backup_originales/
 # Carpeta de archivos históricos
 old/
 
+# Scripts de desarrollo / generación (no se despliegan a producción)
+scratch/
+
+# Backups
+*.bak
+
 # Node modules (si se usan)
 node_modules/
 
