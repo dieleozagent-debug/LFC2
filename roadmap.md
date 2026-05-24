@@ -31,6 +31,41 @@
 
 ---
 
+## 🎨 Auditoría UX / Accesibilidad / Marca — PENDIENTE (crítica 2026-05-23)
+
+> Crítica externa de diseño, funcionalidad, copy y accesibilidad del sitio `lfc-2.vercel.app` (10 páginas, viewport 1568px). Prioridad: cerrar P0 **antes de mostrar a ANI/banca**. Cada fix = commit `fix(<area>): <hallazgo>`.
+
+### 🚨 P0 — Bloqueantes
+- [ ] **P0-1 · Bug `undefined` en `<title>`** — `WBS_Analisis_Riesgos.html` ("Matriz de Riesgos - undefined") e `INDICE_Documentos_Servidos.html` ("Documentos Servidos - undefined"). Template `${page} - ${version}` con version sin cargar. *(5 min)*
+- [ ] **P0-2 · Identidad de marca incoherente** — 4 nombres en títulos (LFC / LFC2 / LFC STUDIO / SICC). Adoptar patrón único `<Página> · LFC UF2` en todos los `<title>` y H1. SICC queda solo como sistema técnico, no como marca. *(30 min)*
+- [ ] **P0-3 · Subpáginas sin landmarks** — Reporte Gerencial / Análisis Riesgos / etc. sin `<header>`, `<nav>`, `<main>`. Falla WCAG 1.3.1 (A). Envolver contenido en `<main id="main" role="main">`, sidebar en `<nav aria-label>`. *(1 h)*
+- [ ] **P0-4 · Cero estilos `:focus`** — teclado invisible, falla WCAG 2.4.7 (AA). Añadir `*:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }`. *(30 min)*
+- [ ] **P0-5 · Sin breakpoint móvil real** — único `@media max-width:1024px`. Añadir `max-width:640px`: sidebar→hamburguesa, KPIs 4→2 col, accesos 3→1 col, H1 `clamp(28px,6vw,60px)`. *(3-4 h)*
+- [ ] **P0-6 · `old/` y `scratch/` en producción** — crear `.vercelignore` (`old/`, `scratch/`, `*.bak`). *(10 min)*
+
+### ⚠️ P1 — Importantes (credibilidad)
+- [ ] **P1-1 · Sidebar con dos taxonomías** distintas (home vs subpáginas) — unificar en un componente único.
+- [ ] **P1-2 · H1 inconsistente** (UPPERCASE / Title Case / con emoji) — definir Title Case español, sin all-caps ni emoji al inicio.
+- [ ] **P1-3 · Vista Final en light theme** vs resto dark — documentar como "Vista ANI/impresión" o mantener barra+sidebar en dark.
+- [ ] **P1-4 · Typo "Diseno"→"Diseño"** en H1 de Ingeniería Básica. *(1 min)*
+- [ ] **P1-5 · 14 cards de Documentos Entregables con descripción placeholder idéntica** — inyectar `description:` del frontmatter de cada `.md`.
+- [ ] **P1-6 · Versión en URL** (`_v4.0`) — URL canónica `/wbs/interactiva` + redirect 301 de las viejas.
+
+### 🔧 P2 — Pulido
+- [ ] **P2-1 · Cards "Accesos principales"** sin altura uniforme (484/449/375px) — `height:100%` + `align-items:stretch`.
+- [ ] **P2-2 · KPI cards con colores arbitrarios** — un solo color de acento; verde/rojo solo cuando codifiquen estado real.
+- [ ] **P2-3 · Nombre del home inconsistente** ("Torre de Control" vs "Centro de Gestión") — usar "Centro de Gestión".
+- [ ] **P2-4 · Sin "skip to content"** — `<a href="#main" class="skip-link">`.
+
+### Observaciones de fondo (no bloqueantes)
+- **Glosario:** SCC/BCD/AIU/DT/ANI/ENCE/RFQ/TETRA/PTC/FENOCO/FRA aparecen sin glosario salvo en Análisis de Riesgos → considerar `/glosario` o tooltips.
+- **SSoT visible:** añadir footer "Datos: `wbs_presupuestal_datos.js` · hash · fecha" para confirmar que todas las vistas leen el mismo archivo.
+- **Estructura repo:** colisión de prefijos (`VII_*` ×2, `IX_*` ×2, `X_ENTREGABLES` paralelo a `IX_ENTREGABLES`); numeración mixta árabe/romana.
+- **Pendiente de revisar:** Lighthouse/Core Web Vitals, Export PDF end-to-end, modal "Proponer DT", Excel 7 hojas descarga, consistencia cifras Grupo Ortiz/LFC/Ardanuy entre vistas.
+- ✅ **Pasó:** 0/39 links rotos · `lang="es"` · `<meta viewport>` · botones con texto accesible · TLS/deploy sin warnings.
+
+---
+
 ## ✅ Cerrado en sesión 2026-05-08 (Reporte Gerencial + Análisis de Riesgos)
 
 | Ítem | Commit |
