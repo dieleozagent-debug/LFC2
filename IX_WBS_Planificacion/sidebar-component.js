@@ -27,7 +27,14 @@
         </div>
 
         <div class="nav-group" style="margin-bottom: 2rem;">
-            <div class="nav-label" style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 2px; color: var(--text-muted); margin-bottom: 1rem; font-weight: 700;">Documentos</div>
+            <div class="nav-label" style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 2px; color: var(--text-muted); margin-bottom: 1rem; font-weight: 700;">Etapas de Ingeniería</div>
+            <a href="/IV_Ingenieria_basica/" class="nav-item" id="nav-ing-basica">🏗️ Ingeniería Básica</a>
+            <a href="/V_Ingenieria_detalle/" class="nav-item" id="nav-ing-detalle">🔍 Ingeniería de Detalle</a>
+        </div>
+
+        <div class="nav-group" style="margin-bottom: 2rem;">
+            <div class="nav-label" style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 2px; color: var(--text-muted); margin-bottom: 1rem; font-weight: 700;">Gestión y Documentos</div>
+            <a href="/IX_WBS_Planificacion/WBS_Menu_Principal" class="nav-item" id="nav-hub">🎯 Hub WBS</a>
             <a href="/X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/HTML/INDICE_Documentos_Servidos.html" class="nav-item">📑 Documentos Entregables</a>
             <a href="/IX_WBS_Planificacion/SICC_Audit_Dashboard" class="nav-item" id="nav-audit">🛡️ Auditoría Técnica</a>
             <a href="/IX_ENTREGABLES/docs/INDICE_DOCUMENTACION_SOPORTE.html" class="nav-item">📚 Soporte Técnico</a>
@@ -117,6 +124,9 @@
                 'Baseline_ENCE': 'nav-ence',
                 'Riesgos': 'nav-risks',
                 'Cronograma': 'nav-chrono',
+                'Menu_Principal': 'nav-hub',
+                'IV_Ingenieria_basica': 'nav-ing-basica',
+                'V_Ingenieria_detalle': 'nav-ing-detalle',
                 'Audit': 'nav-audit'
             };
             
