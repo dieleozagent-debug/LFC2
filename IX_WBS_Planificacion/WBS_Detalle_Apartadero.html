@@ -58,7 +58,7 @@
             <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:20px;">
                 <div>
                     <h1 class="premium-title">Automatización de 10 apartaderos — PTC Virtual</h1>
-                    <p style="opacity:0.7; font-weight:300;">Respuesta a TFP / Javier de la Mata · SICC v14.7 · TRM 4.400 COP/USD</p>
+                    <p style="opacity:0.7; font-weight:300;">SICC v14.7 · TRM 4.400 COP/USD · precios base ADIF (BPA 2026)</p>
                     <p style="margin-top:0.6rem;"><span class="rfq-badge">⚠ ORDEN DE MAGNITUD — SUJETO A RFQ FORMAL</span></p>
                 </div>
                 <button onclick="window.print()" class="btn-dt" style="padding:0.8rem 1.5rem;">Exportar PDF</button>
@@ -138,7 +138,7 @@
                     </ul>
                 </div>
                 <div class="yesno-card yn-civil">
-                    <h4 style="color:#ffc266;">🚧 Obra civil (aparte — lo mira Jaime)</h4>
+                    <h4 style="color:#ffc266;">🚧 Obra civil (presupuesto aparte)</h4>
                     <ul>
                         <li>Alargamiento del apartadero</li>
                         <li>Vía de cruzamiento (riel, traviesa, balasto)</li>
@@ -174,7 +174,7 @@
 
         <!-- Costo de los 10 -->
         <div class="premium-card section-premium">
-            <h2>📊 Costo de los 10 apartaderos (lo que pidió TFP)</h2>
+            <h2>📊 Costo de 10 apartaderos</h2>
             <table>
                 <thead>
                     <tr><th>Cubo</th><th class="num">$M COP (10)</th></tr>
@@ -191,24 +191,6 @@
                 </tfoot>
             </table>
             <p class="footnote"><strong>Infraestructura TETRA ya presupuestada</strong> (torres, antenas, controladores y licencias cubren todo el corredor, en el presupuesto principal): aquí solo se cobra el terminal de datos del switch + alta. <strong>Verificado en WBS v3.0</strong> — no existe partida de terminales de datos para apartaderos, así que es incremental legítimo (sin doble conteo). Banda por incertidumbre: <strong>~$0,55–0,9 M USD</strong>. El mismo modelo escala a los ~60 del corredor en ~$2,5–4,7 M USD.</p>
-        </div>
-
-        <!-- Mensaje listo para Jaime/Javier -->
-        <div class="premium-card section-premium" style="border-left:5px solid var(--accent);">
-            <h2>✉️ Resumen para TFP / Javier de la Mata</h2>
-            <p style="line-height:1.7; font-size:0.92rem;">
-                <strong>10 apartaderos — automatización PTC Virtual (sin motor):</strong><br>
-                • Comunicaciones — terminal datos TETRA ×20 + alta <span style="opacity:0.75">(infra TETRA del corredor ya presupuestada)</span>: ~$350M COP<br>
-                • Equipo CTC/PTC — comprobador SIL‑4 + integración CCO (×20): ~$920M COP<br>
-                • Energía solar autónoma (×10): ~$330M COP<br>
-                • Servicios de campo + ingeniería global: ~$1.210M COP<br>
-                • <strong>Costo directo total: ~$2.810M COP</strong><br>
-                • <strong>Con AIU+IVA: ~$3.316M COP ≈ $0,75M USD</strong> (TRM 4.400)<br>
-                <span style="opacity:0.8;">No incluye alargamiento de apartaderos (obra civil aparte). La infraestructura TETRA del corredor ya está presupuestada — aquí solo el terminal del switch. Cifras de orden de magnitud — sujeto a RFQ formal (Frauscher/Siemens/Hytera).</span>
-            </p>
-            <p style="line-height:1.7; font-size:0.9rem; opacity:0.9; margin-top:0.8rem;">
-                <strong>Nota:</strong> en el modelo PTC Virtual del proyecto, "automatizar" un apartadero no lleva motor ni señales ni gabinetes — eso es exclusivo de los 5 ENCE. Solo lleva comprobador de aguja + terminal TETRA integrado al Back Office del CCO (la red TETRA ya existe). El costo por desvío es <strong>~$22K USD</strong>.
-            </p>
         </div>
 
         <!-- Disclaimer -->
