@@ -1,8 +1,8 @@
 # 🗺️ ROADMAP — LFC2 (UF2 La Dorada–Chiriguaná)
 
-**Última actualización:** 23 de Mayo de 2026
+**Última actualización:** 24 de Mayo de 2026
 **Hito vigente:** entrega presupuesto ANI 2026-05-05 · tag `entrega-presupuesto-2026-05-05`
-**Última sesión:** 2026-05-23 — Apartaderos PTC + Baseline ENCE + Precios base ADIF validados (BPA v1.4.0)
+**Última sesión:** 2026-05-24 — Auditoría UX/A11y/Marca cerrada (16 commits, verificada antes de aplicar) + purga N1 'Red Vital IP' en terminology.js
 
 > Bitácora viva. Cada sesión actualiza esta página: cierra ítems hechos, agrega hallazgos nuevos, mueve los que pasan a deuda profunda hacia "Backlog".
 
@@ -31,37 +31,43 @@
 
 ---
 
-## 🎨 Auditoría UX / Accesibilidad / Marca — PENDIENTE (crítica 2026-05-23)
+## 🎨 Auditoría UX / Accesibilidad / Marca — ✅ CERRADA (2026-05-24, verificada antes de aplicar)
 
-> Crítica externa de diseño, funcionalidad, copy y accesibilidad del sitio `lfc-2.vercel.app` (10 páginas, viewport 1568px). Prioridad: cerrar P0 **antes de mostrar a ANI/banca**. Cada fix = commit `fix(<area>): <hallazgo>`.
+> Crítica externa del sitio `lfc-2.vercel.app`. Se **verificó cada hallazgo contra el código real** (doctrina §"Cómo seguir esta bitácora" pto. 3) antes de tocar nada: la auditoría tenía 1 falso positivo total, 2 exagerados y 1 ítem propio mío descartado. 16 commits directos a `main` (`90c7fb6`→`b7113b4`).
 
-### 🚨 P0 — Bloqueantes
-- [ ] **P0-1 · Bug `undefined` en `<title>`** — `WBS_Analisis_Riesgos.html` ("Matriz de Riesgos - undefined") e `INDICE_Documentos_Servidos.html` ("Documentos Servidos - undefined"). Template `${page} - ${version}` con version sin cargar. *(5 min)*
-- [ ] **P0-2 · Identidad de marca incoherente** — 4 nombres en títulos (LFC / LFC2 / LFC STUDIO / SICC). Adoptar patrón único `<Página> · LFC UF2` en todos los `<title>` y H1. SICC queda solo como sistema técnico, no como marca. *(30 min)*
-- [ ] **P0-3 · Subpáginas sin landmarks** — Reporte Gerencial / Análisis Riesgos / etc. sin `<header>`, `<nav>`, `<main>`. Falla WCAG 1.3.1 (A). Envolver contenido en `<main id="main" role="main">`, sidebar en `<nav aria-label>`. *(1 h)*
-- [ ] **P0-4 · Cero estilos `:focus`** — teclado invisible, falla WCAG 2.4.7 (AA). Añadir `*:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }`. *(30 min)*
-- [ ] **P0-5 · Sin breakpoint móvil real** — único `@media max-width:1024px`. Añadir `max-width:640px`: sidebar→hamburguesa, KPIs 4→2 col, accesos 3→1 col, H1 `clamp(28px,6vw,60px)`. *(3-4 h)*
-- [ ] **P0-6 · `old/` y `scratch/` en producción** — crear `.vercelignore` (`old/`, `scratch/`, `*.bak`). *(10 min)*
+### 🚨 P0 — Bloqueantes (todos cerrados)
+- [x] **P0-1 · `undefined` en `<title>`** — root cause real: `APP_SHORT_NAME` **nunca se definía** en `lfc-terminology.js` (2 páginas mostraban `undefined`, otras 3 caían al fallback `LFC2`). Fix en 1 línea. `90c7fb6`
+- [x] **P0-2 · Marca incoherente** — `PROJECT.NAME` "LFC STUDIO"→"LFC UF2" (dinámicos) + 33 `- LFC STUDIO` y 15 `SICC -` en `<title>` estáticos → patrón `· LFC UF2`. `90c7fb6`, `ababe31`
+- [x] **P0-3 · Landmarks** — `role="navigation"`+aria-label y `role="main"`+`id="main"` en 41 páginas (vía atributo, sin reescribir tags). `582470d`
+- [x] **P0-4 · `:focus-visible` global** — ⚠️ *auditoría exagerada*: no era "cero" (había 2 reglas que quitaban outline); faltaba foco global. Añadido en wbs-shared.css + 3 inline. `2f90241`
+- [x] **P0-5 · Breakpoint móvil `<640px`** — ⚠️ *auditoría falsa parcial*: sí existían 768/600px en 6 archivos. Añadido `<640` donde faltaba (home, wbs-shared, Básica/Detalle). `9dcb2c0`
+- [x] **P0-6 · `old/`+`scratch/` fuera de prod** — `git rm --cached` (73+5 archivos, siguen en disco) + `.gitignore` + `.vercelignore`. Nota: `.vercelignore` solo aplica a deploy CLI; el `git rm` cubre git-integration. `457fac0`
 
-### ⚠️ P1 — Importantes (credibilidad)
-- [ ] **P1-1 · Sidebar con dos taxonomías** distintas (home vs subpáginas) — unificar en un componente único.
-- [ ] **P1-2 · H1 inconsistente** (UPPERCASE / Title Case / con emoji) — definir Title Case español, sin all-caps ni emoji al inicio.
-- [ ] **P1-3 · Vista Final en light theme** vs resto dark — documentar como "Vista ANI/impresión" o mantener barra+sidebar en dark.
-- [ ] **P1-4 · Typo "Diseno"→"Diseño"** en H1 de Ingeniería Básica. *(1 min)*
-- [ ] **P1-5 · 14 cards de Documentos Entregables con descripción placeholder idéntica** — inyectar `description:` del frontmatter de cada `.md`.
-- [ ] **P1-6 · Versión en URL** (`_v4.0`) — URL canónica `/wbs/interactiva` + redirect 301 de las viejas.
+### ⚠️ P1 — Importantes (todos cerrados)
+- [x] **P1-1 · Sidebar unificado** — `sidebar-component.js` ahora superset (añade "Etapas de Ingeniería" + Hub); ambos sidebars comparten etiquetas. `e6f8802`
+- [x] **P1-2 · H1 a Title Case** — quitado ALL-CAPS de 5 páginas (emojis conservados como wayfinding). `3399329`
+- [x] **P1-3 · Vista Final** — el light es deliberado (impresión/banca); badge "🖨️ Vista impresión · banca/ANI" + sidebar dark ya presente. `b7113b4`
+- [x] **P1-4 · Typo "Diseño"** — `505688c`
+- [x] **P1-5 · Descripción real por card** — el placeholder estaba hardcodeado en el `.map()`; se añadió campo `desc` por entregable. `19fdd64`
+- [x] **P1-6 · URL canónica `/wbs`** — único path con versión; ya existía el alias `/wbs` (rewrite), se repuntó la navegación. Sin 301 nuevo (riesgo de loop no testeable en prod). `98d3db6`
 
 ### 🔧 P2 — Pulido
-- [ ] **P2-1 · Cards "Accesos principales"** sin altura uniforme (484/449/375px) — `height:100%` + `align-items:stretch`.
-- [ ] **P2-2 · KPI cards con colores arbitrarios** — un solo color de acento; verde/rojo solo cuando codifiquen estado real.
-- [ ] **P2-3 · Nombre del home inconsistente** ("Torre de Control" vs "Centro de Gestión") — usar "Centro de Gestión".
-- [ ] **P2-4 · Sin "skip to content"** — `<a href="#main" class="skip-link">`.
+- [x] **P2-1 · Altura uniforme de cards** — `align-items:stretch` + `margin-top:auto` en CTA. `c533979`
+- [ ] **P2-2 · Colores de KPI** — ❌ **FALSO POSITIVO (verificado, no aplicado)**: los colores SÍ codifican significado (Riesgos: verde=favorable/oportunidad, rojo=crítico, púrpura=otro owner CFO; Apartadero: badges de categoría de paquete). Recolorear a gold borraría información.
+- [x] **P2-3 · "Torre de Control"→"Centro de Gestión"** — `c87f3d6`
+- [x] **P2-4 · Skip-link** — en 42 páginas. `4052a25`
 
-### Observaciones de fondo (no bloqueantes)
-- **Glosario:** SCC/BCD/AIU/DT/ANI/ENCE/RFQ/TETRA/PTC/FENOCO/FRA aparecen sin glosario salvo en Análisis de Riesgos → considerar `/glosario` o tooltips.
-- **SSoT visible:** añadir footer "Datos: `wbs_presupuestal_datos.js` · hash · fecha" para confirmar que todas las vistas leen el mismo archivo.
-- **Estructura repo:** colisión de prefijos (`VII_*` ×2, `IX_*` ×2, `X_ENTREGABLES` paralelo a `IX_ENTREGABLES`); numeración mixta árabe/romana.
-- **Pendiente de revisar:** Lighthouse/Core Web Vitals, Export PDF end-to-end, modal "Proponer DT", Excel 7 hojas descarga, consistencia cifras Grupo Ortiz/LFC/Ardanuy entre vistas.
+### Hallazgos propios (verificación) y deuda residual
+- ✅ **N1 (doctrina) — purgado de `lfc-terminology.js`**: `SOVEREIGN`/`CORRECTION_MAP` aún cargaban "Red Vital IP" (contaminante Antigravity declarado purgado). Reemplazado por TETRA+fibra G.652.D. `0c5f7c1`. ⚠️ **Deuda D1 ampliada**: "Red Vital IP" persiste en ~150 docs (contratos, DTs, V_Ingenieria_detalle cards "Red Vital IP"/"Red Vital") — purga de fondo pendiente.
+- ⚠️ **N2** — `$title$` sin rellenar en `scripts/templates/premium-shell.html` (template Pandoc; no debería servirse). Menor.
+- 🚨 **N3 (seguridad)** — **token de GitHub en texto plano** en el remote de git (`origin`). **Rotar y mover a credential helper.**
+- ❌ **Descartado**: "(México)" en títulos NO es error — la estación México existe (confirmado por Diego).
+
+### Observaciones de fondo (no bloqueantes, abiertas)
+- **Glosario:** SCC/BCD/AIU/DT/ANI/ENCE/RFQ/TETRA/PTC/FENOCO/FRA sin glosario salvo en Riesgos → `/glosario` o tooltips.
+- **SSoT visible:** footer "Datos: `wbs_presupuestal_datos.js` · hash · fecha".
+- **Estructura repo:** colisión de prefijos (`VII_*` ×2, `IX_*` ×2, `X_ENTREGABLES` ∥ `IX_ENTREGABLES`); numeración mixta árabe/romana.
+- **Pendiente de revisar:** Lighthouse/Core Web Vitals, Export PDF e2e, Excel 7 hojas, consistencia cifras Grupo Ortiz/LFC/Ardanuy.
 - ✅ **Pasó:** 0/39 links rotos · `lang="es"` · `<meta viewport>` · botones con texto accesible · TLS/deploy sin warnings.
 
 ---
