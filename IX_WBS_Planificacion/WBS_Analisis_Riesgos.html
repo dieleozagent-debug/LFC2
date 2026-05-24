@@ -315,7 +315,7 @@
             <div id="adn-version-tag" style="position: absolute; top: 10px; right: 20px; font-size: 0.6rem; letter-spacing: 2px; opacity: 0.5;">CARGANDO...</div>
             <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
                 <div>
-                    <h1 class="premium-title" id="main-dns-title">⚠️ ANÁLISIS DE RIESGOS</h1>
+                    <h1 class="premium-title" id="main-dns-title">⚠️ Análisis de Riesgos</h1>
                     <p id="main-dns-subtitle" style="opacity: 0.7; font-weight: 300;">Cargando evaluación integral...</p>
                 </div>
                 <button onclick="window.print()" class="btn-dt" style="padding: 1rem 2rem;">📊 EXPORTAR PDF</button>
@@ -450,7 +450,7 @@
         if (window.LFC_TERMINOLOGY) {
             const term = window.LFC_TERMINOLOGY;
             document.getElementById('adn-page-title').textContent = `Matriz de Riesgos - ${term.APP_SHORT_NAME}`;
-            document.getElementById('main-dns-title').innerHTML = `⚠️ ANÁLISIS DE RIESGOS`;
+            document.getElementById('main-dns-title').innerHTML = `⚠️ Análisis de Riesgos`;
             document.getElementById('main-dns-subtitle').textContent = `${term.PROJECT.FULL_LOCATION} | Master Risk Audit`;
             document.getElementById('adn-version-tag').textContent = term.PROJECT.VERSION;
         }

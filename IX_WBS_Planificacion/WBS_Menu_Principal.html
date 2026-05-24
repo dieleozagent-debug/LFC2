@@ -112,14 +112,14 @@
     <main class="main-content-wrapper">
         <header class="header-section">
             <div class="stat-pill" id="adn-version-pill">LFC v6.0 PREMIUM</div>
-            <h1 class="premium-title" id="main-dns-title">WBS MASTER CONTROL</h1>
+            <h1 class="premium-title" id="main-dns-title">WBS Master Control</h1>
             <p id="main-dns-subtitle" style="color: var(--text-muted); font-size: 1.1rem; max-width: 800px;">Portal de gestión de ingeniería con soberanía tecnológica. Estandarización de activos, control presupuestal y auditoría de saneamiento técnico.</p>
         </header>
 
         <!-- DASHBOARD CENTRAL -->
         <div class="hero-section" onclick="openPage('WBS_Vista_Final.html')">
             <div class="stat-pill" style="background: var(--success);">NUEVO MÓDULO</div>
-            <h2 style="font-size: 2.5rem; font-weight: 900; margin-bottom: 1rem;">WBS INTERACTIVA v4.0</h2>
+            <h2 style="font-size: 2.5rem; font-weight: 900; margin-bottom: 1rem;">WBS Interactiva v4.0</h2>
             <p style="font-size: 1.2rem; opacity: 0.8; margin-bottom: 2rem;">Gestión de 124 ítems transversales + Motor de Decisiones Técnicas (DT) SICC-Ready.</p>
             <div style="background: var(--accent); color: var(--primary); padding: 1rem 3rem; border-radius: 50px; font-weight: 800; display: inline-block; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
                 🚀 ACCEDER AL CONTROL MAESTRO
@@ -211,7 +211,7 @@
             if (window.LFC_TERMINOLOGY) {
                 const term = window.LFC_TERMINOLOGY;
                 document.getElementById('adn-page-title').textContent = `${term.PROJECT.NAME} | Menú Principal`;
-                document.getElementById('main-dns-title').textContent = `${term.PROJECT.NAME} MASTER CONTROL`;
+                document.getElementById('main-dns-title').textContent = `${term.PROJECT.NAME} Master Control`;
                 document.getElementById('adn-version-pill').textContent = term.PROJECT.VERSION;
             }
 
