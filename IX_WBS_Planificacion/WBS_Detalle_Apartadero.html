@@ -20,9 +20,6 @@
         .hero-cop { font-size: 2.5rem; font-weight: 800; color: var(--success); letter-spacing: -1px; line-height: 1; }
         .hero-usd { font-size: 1.5rem; font-weight: 600; color: var(--accent); margin-top: 0.4rem; }
         .hero-label { font-size: 0.7rem; letter-spacing: 2px; opacity: 0.6; text-transform: uppercase; margin-bottom: 0.6rem; }
-        .badge-cut { display: inline-block; background: rgba(46,213,115,0.15); color: #2ed573; border: 1px solid rgba(46,213,115,0.4); border-radius: 20px; padding: 0.3rem 0.9rem; font-size: 0.8rem; font-weight: 700; margin-top: 0.8rem; }
-        .hero-compare { background: rgba(255,71,87,0.06); border: 1px solid rgba(255,71,87,0.3); border-radius: 16px; padding: 1.6rem; }
-        .hero-compare .old { font-size: 1.7rem; font-weight: 700; color: #ff6b7a; text-decoration: line-through; opacity: 0.85; }
         .pkg-tag { display: inline-block; font-size: 0.7rem; padding: 0.15rem 0.55rem; border-radius: 6px; font-weight: 700; letter-spacing: 0.5px; white-space: nowrap; }
         .pkg-comms { background: rgba(100,255,218,0.15); color: #64ffda; }
         .pkg-ctrl { background: rgba(167,139,250,0.18); color: #c4b5fd; }
@@ -71,48 +68,15 @@
         <!-- Hero respuesta -->
         <div class="premium-card section-premium" style="border-left:5px solid var(--success);">
             <p style="opacity:0.9; line-height:1.6; margin-bottom:1.2rem;">
-                Coste de automatizar <strong>10 apartaderos (20 desvíos)</strong> bajo la arquitectura PTC con cantonamiento virtual del proyecto. Dos cubos, como los planteó Jaime: <strong>comunicaciones</strong> y <strong>"motorización"</strong> — con una aclaración clave: <strong>aquí no se motoriza</strong>. Se le pone al apartadero un comprobador de aguja + radio TETRA integrada al PTC del CCO; el motor es exclusivo de los 5 ENCE.
+                Coste de automatizar <strong>10 apartaderos (20 desvíos)</strong> bajo la arquitectura PTC con cantonamiento virtual del proyecto. Cada apartadero lleva <strong>comprobador de aguja + terminal TETRA + energía solar</strong>: la aguja la mueve el tren por resorte, el CCO ve la posición y el PTC protege. No lleva motor, señales ni gabinetes.
             </p>
-            <div class="hero-grid">
-                <div class="hero-fig">
-                    <div class="hero-label">10 apartaderos · con AIU+IVA</div>
-                    <div class="hero-cop">$3.316 millones COP</div>
-                    <div class="hero-usd">≈ 0,75 M USD</div>
-                    <div class="badge-cut">▼ ~90% vs la estimación previa</div>
-                    <p style="font-size:0.82rem; opacity:0.85; margin:0.8rem 0 0 0;">Costo directo: <strong>$2.810 M COP</strong>. Por desvío: <strong>~$22K USD</strong> (antes ~$320K).</p>
-                </div>
-                <div class="hero-compare">
-                    <div class="hero-label">Estimación anterior (modelo motorizado)</div>
-                    <div class="old">$33.200 M COP</div>
-                    <p style="font-size:0.86rem; opacity:0.85; margin:0.6rem 0 0 0;">≈ 7,7 M USD. Costeaba motor SIL‑3, aparato de vía nuevo, señales LED, gabinetes y energía grande — <strong>todo prohibido fuera de los 5 ENCE</strong>. La diferencia no es optimización: el modelo viejo costeaba elementos que la arquitectura del proyecto no permite.</p>
-                </div>
+            <div class="hero-fig" style="max-width:440px;">
+                <div class="hero-label">10 apartaderos · con AIU+IVA</div>
+                <div class="hero-cop">$3.316 millones COP</div>
+                <div class="hero-usd">≈ 0,75 M USD</div>
+                <p style="font-size:0.82rem; opacity:0.85; margin:0.8rem 0 0 0;">Costo directo: <strong>$2.810 M COP</strong> · ~$22K USD por desvío.</p>
             </div>
             <p class="footnote" style="margin-top:1rem;">No incluye el <strong>alargamiento de los apartaderos</strong> ni su vía/aparato de vía — eso es obra civil, presupuesto aparte. La <strong>infraestructura TETRA del corredor</strong> (torres, antenas, licencias) tampoco se recobra aquí: ya está en el presupuesto principal.</p>
-        </div>
-
-        <!-- Qué significa "motorizar" aquí -->
-        <div class="premium-card section-premium">
-            <h2>⚙️ Qué significa "motorizar" un apartadero aquí</h2>
-            <table>
-                <thead>
-                    <tr><th>Interpretación</th><th>Qué lleva</th><th class="num">$M COP / apartadero</th><th>¿Aplica?</th></tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><strong>Literal</strong> — el CCO mueve la aguja con un motor</td>
-                        <td>Motor SIL‑3 + cerrojo + telemando vital</td>
-                        <td class="num">~1.280</td>
-                        <td style="color:#ff6b7a;">❌ Solo en los 5 ENCE. Fuera de doctrina.</td>
-                    </tr>
-                    <tr>
-                        <td><strong>PTC‑virtual</strong> — el CCO ve la aguja y el PTC protege</td>
-                        <td>Comprobador SIL‑4 + integración al PTC del CCO</td>
-                        <td class="num">~92</td>
-                        <td style="color:#2ed573;">✅ Es lo correcto. Sin motor.</td>
-                    </tr>
-                </tbody>
-            </table>
-            <p class="footnote">En PTC virtual, "automatizar" un apartadero = <strong>ponerle ojos (comprobador) y conectarlo al cerebro PTC del CCO (Back Office)</strong>, no ponerle un motor. El PTC no emite ni mantiene autoridad de movimiento si el comprobador reporta posición indebida (FRA 49 CFR §236.1005(e)) — ese es el mecanismo de seguridad que reemplaza la señalización lateral física.</p>
         </div>
 
         <!-- Esquema -->
@@ -243,7 +207,7 @@
                 <span style="opacity:0.8;">No incluye alargamiento de apartaderos (obra civil aparte). La infraestructura TETRA del corredor ya está presupuestada — aquí solo el terminal del switch. Cifras de orden de magnitud — sujeto a RFQ formal (Frauscher/Siemens/Hytera).</span>
             </p>
             <p style="line-height:1.7; font-size:0.9rem; opacity:0.9; margin-top:0.8rem;">
-                <strong>Nota:</strong> en el modelo PTC Virtual del proyecto, "automatizar" un apartadero no lleva motor ni señales ni gabinetes — eso es exclusivo de los 5 ENCE. Solo lleva comprobador de aguja + terminal TETRA integrado al Back Office del CCO (la red TETRA ya existe). El costo por desvío es <strong>~$22K USD</strong>, no $320K del modelo anterior.
+                <strong>Nota:</strong> en el modelo PTC Virtual del proyecto, "automatizar" un apartadero no lleva motor ni señales ni gabinetes — eso es exclusivo de los 5 ENCE. Solo lleva comprobador de aguja + terminal TETRA integrado al Back Office del CCO (la red TETRA ya existe). El costo por desvío es <strong>~$22K USD</strong>.
             </p>
         </div>
 
