@@ -113,6 +113,8 @@
                 'WBS_Vista_Final': 'nav-wbs',
                 'WBS_COMPLETA': 'nav-wbs-int',
                 'Reporte': 'nav-report',
+                'Detalle_Apartadero': 'nav-apartadero',
+                'Baseline_ENCE': 'nav-ence',
                 'Riesgos': 'nav-risks',
                 'Cronograma': 'nav-chrono',
                 'Audit': 'nav-audit'

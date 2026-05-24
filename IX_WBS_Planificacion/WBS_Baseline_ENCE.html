@@ -63,7 +63,7 @@
                 <div>
                     <h1 class="premium-title">Enclavamiento Electrónico (ENCE) — Baseline ADIF</h1>
                     <p style="opacity:0.7; font-weight:300;">Corredor La Dorada–Chiriguaná · Contrato APP No. 001 de 2025 · 5 nodos ENCE · bottom-up BPA ADIF v1.4.0 (© ADIF 2025) · TRM 4.400</p>
-                    <p style="margin-top:0.6rem;"><span class="rfq-badge">⚠ ORDEN DE MAGNITUD — NÚCLEO CAC PARCIALMENTE ESTIMADO · SUJETO A RFQ</span></p>
+                    <p style="margin-top:0.6rem;"><span class="rfq-badge">⚠ ORDEN DE MAGNITUD — NÚCLEO 100% ADIF · SUJETO A RFQ FORMAL</span></p>
                 </div>
                 <div style="display:flex; gap:10px; flex-wrap:wrap;">
                     <a href="/IX_WBS_Planificacion/Baseline_ENCE_ADIF.xlsx" download class="btn-dt" style="padding:0.8rem 1.4rem; background:var(--success); color:#0a192f; border-radius:8px; font-weight:700; text-decoration:none; display:inline-block;">⬇ Descargar Excel</a>
@@ -80,13 +80,13 @@
             <div class="kpi-grid">
                 <div class="kpi-card">
                     <div class="kpi-label">1 ENCE (tipo)</div>
-                    <div class="kpi-cop">$4.095 M COP</div>
-                    <div class="kpi-usd">≈ $0,93M USD</div>
+                    <div class="kpi-cop">$3.955 M COP</div>
+                    <div class="kpi-usd">≈ $0,90M USD</div>
                 </div>
                 <div class="kpi-card primary">
                     <div class="kpi-label">5 ENCE (corredor)</div>
-                    <div class="kpi-cop">$20.475 M COP</div>
-                    <div class="kpi-usd">≈ $4,65M USD</div>
+                    <div class="kpi-cop">$19.775 M COP</div>
+                    <div class="kpi-usd">≈ $4,49M USD</div>
                 </div>
                 <div class="kpi-card warn">
                     <div class="kpi-label">WBS v3.0 (antiguo)</div>
@@ -119,7 +119,7 @@
                         <li>Señales LED laterales</li>
                         <li>Detección física (contadores de ejes)</li>
                         <li>Armarios/bastidores + SAI 4h + caseta</li>
-                        <li>≈ $0,93M USD por unidad</li>
+                        <li>≈ $0,90M USD por unidad</li>
                     </ul>
                 </div>
             </div>
@@ -135,7 +135,11 @@
                 </thead>
                 <tbody>
                     <tr><td><span class="tag t-nuc">NÚCLEO</span></td><td>UCP — módulo central de proceso (grande)</td><td><a class="code" href="https://bpa.adif.es/bp1/#/concept/152945939" target="_blank">CAC020$</a></td><td class="num">118.006</td><td class="ctr">1</td><td class="num">118.006</td></tr>
-                    <tr style="background:rgba(255,165,2,0.06);"><td><span class="tag t-nuc">NÚCLEO</span></td><td>Armario energía + bastidores + controlador objetos + cableado red local <span style="opacity:0.6">(estimado — pend. BPA)</span></td><td>CAC010/030/040/050$</td><td class="num">—</td><td class="ctr">1</td><td class="num">150.000 ⚠</td></tr>
+                    <tr><td><span class="tag t-nuc">NÚCLEO</span></td><td>Armario de distribución de energía</td><td><a class="code" href="https://bpa.adif.es/bp1/#/concept/151067840" target="_blank">CAC010$</a></td><td class="num">36.807</td><td class="ctr">1</td><td class="num">36.807</td></tr>
+                    <tr><td><span class="tag t-nuc">NÚCLEO</span></td><td>Bastidor de equipos de enclavamiento</td><td><a class="code" href="https://bpa.adif.es/bp1/#/concept/155398746" target="_blank">CAC030$</a></td><td class="num">16.399</td><td class="ctr">1</td><td class="num">16.399</td></tr>
+                    <tr><td><span class="tag t-nuc">NÚCLEO</span></td><td>Cableado red local del enclavamiento</td><td><a class="code" href="https://bpa.adif.es/bp1/#/concept/157828585" target="_blank">CAC040$</a></td><td class="num">5.689</td><td class="ctr">1</td><td class="num">5.689</td></tr>
+                    <tr><td><span class="tag t-nuc">NÚCLEO</span></td><td>Controlador de objetos 160E/128S</td><td><a class="code" href="https://bpa.adif.es/bp1/#/concept/156826295" target="_blank">CAC050$</a></td><td class="num">33.919</td><td class="ctr">1</td><td class="num">33.919</td></tr>
+                    <tr><td><span class="tag t-nuc">NÚCLEO</span></td><td>Firewall de enclavamiento</td><td>CAC170</td><td class="num">6.885</td><td class="ctr">1</td><td class="num">6.885</td></tr>
                     <tr><td><span class="tag t-via">VÍA</span></td><td>Motor eléctrico de aguja (con cerrojo)</td><td><a class="code" href="https://bpa.adif.es/bp1/#/concept/153769673" target="_blank">CFA010$</a></td><td class="num">10.625</td><td class="ctr">8</td><td class="num">85.000</td></tr>
                     <tr><td><span class="tag t-via">VÍA</span></td><td>Comprobador de aguja</td><td><a class="code" href="https://bpa.adif.es/bp1/#/concept/151681024" target="_blank">CFA040$</a></td><td class="num">4.964</td><td class="ctr">8</td><td class="num">39.711</td></tr>
                     <tr><td><span class="tag t-sig">SEÑAL</span></td><td>Señal alta LED 3 focos</td><td><a class="code" href="https://bpa.adif.es/bp1/#/concept/153988522" target="_blank">CCA040$</a></td><td class="num">7.934</td><td class="ctr">12</td><td class="num">95.211</td></tr>
@@ -146,12 +150,12 @@
                     <tr><td><span class="tag t-arm">ARMARIOS</span></td><td>Caseta técnica prefabricada</td><td><a class="code" href="https://bpa.adif.es/bp1/#/category/149855475" target="_blank">TMI010</a></td><td class="num">7.181</td><td class="ctr">1</td><td class="num">7.181</td></tr>
                     <tr><td><span class="tag t-arm">CABLE</span></td><td>Cable de señalización 7x4x0.9 (m)</td><td><a class="code" href="https://bpa.adif.es/bp1/#/concept/151181595" target="_blank">CEA030$</a></td><td class="num">11,67</td><td class="ctr">2.000</td><td class="num">23.340</td></tr>
                     <tr><td><span class="tag t-arm">CABLE</span></td><td>Cable F.O. 48 fibras canalización (m)</td><td><a class="code" href="https://bpa.adif.es/bp1/#/concept/158651112" target="_blank">TCJ010$</a></td><td class="num">5,48</td><td class="ctr">1.000</td><td class="num">5.480</td></tr>
-                    <tr><td><span class="tag t-ene">ENERGÍA</span></td><td>SAI 1 kVA <span style="opacity:0.6">(ENCE requiere 4h+ → COA200)</span></td><td><a class="code" href="https://bpa.adif.es/bp1/#/concept/151067858" target="_blank">COA090$</a></td><td class="num">2.115</td><td class="ctr">2</td><td class="num">4.230</td></tr>
+                    <tr><td><span class="tag t-ene">ENERGÍA</span></td><td>SAI 20 kVA · 6h <span style="opacity:0.6">(cumple DBCD ≥4h)</span></td><td><a class="code" href="https://bpa.adif.es/bp1/#/concept/157203685" target="_blank">COA220$</a></td><td class="num">32.077</td><td class="ctr">1</td><td class="num">32.077</td></tr>
                 </tbody>
                 <tfoot>
-                    <tr style="background:rgba(100,255,218,0.06);"><td colspan="5">Subtotal EQUIPO (suministro + montaje)</td><td class="num">~656.794</td></tr>
-                    <tr style="background:rgba(100,255,218,0.06);"><td colspan="5">Ingeniería + integración + pruebas + safety case (30%)</td><td class="num">~197.038</td></tr>
-                    <tr style="background:rgba(100,255,218,0.12);"><td colspan="5">TOTAL ENCE tipo</td><td class="num">~853.832 € &nbsp;<span style="opacity:0.7; font-weight:500;">≈ $0,93M USD · $4.095M COP</span></td></tr>
+                    <tr style="background:rgba(100,255,218,0.06);"><td colspan="5">Subtotal EQUIPO (suministro + montaje) — 100% ADIF</td><td class="num">~634.341</td></tr>
+                    <tr style="background:rgba(100,255,218,0.06);"><td colspan="5">Ingeniería + integración + pruebas + safety case (30%)</td><td class="num">~190.303</td></tr>
+                    <tr style="background:rgba(100,255,218,0.12);"><td colspan="5">TOTAL ENCE tipo</td><td class="num">~824.643 € &nbsp;<span style="opacity:0.7; font-weight:500;">≈ $0,90M USD · $3.955M COP</span></td></tr>
                 </tfoot>
             </table>
         </div>
@@ -164,22 +168,22 @@
                     <tr><th>Fuente / método</th><th class="num">$/ENCE (USD)</th><th class="num">$/ENCE (M COP)</th><th class="num">5 ENCE (M COP)</th></tr>
                 </thead>
                 <tbody>
-                    <tr style="background:rgba(100,255,218,0.10);"><td><strong>Bottom-up ADIF (este modelo)</strong></td><td class="num">930.677</td><td class="num">4.095</td><td class="num">20.475</td></tr>
+                    <tr style="background:rgba(100,255,218,0.10);"><td><strong>Bottom-up ADIF (este modelo)</strong></td><td class="num">898.861</td><td class="num">3.955</td><td class="num">19.775</td></tr>
                     <tr><td>Ardanuy (consultor de diseño)</td><td class="num">869.377</td><td class="num">3.825</td><td class="num">19.126</td></tr>
                     <tr style="color:#ff6b7a;"><td>WBS v3.0 (línea base antigua)</td><td class="num">181.818</td><td class="num">800</td><td class="num">4.000</td></tr>
                     <tr><td>DT-COMS-2026-007 (LFC v2)</td><td class="num">454.545</td><td class="num">2.000</td><td class="num">10.000</td></tr>
                 </tbody>
             </table>
-            <p style="line-height:1.6; font-size:0.9rem; margin-top:0.5rem;"><strong>Lectura:</strong> el bottom-up ADIF (~$931K USD/ENCE) <strong>confirma a Ardanuy</strong> ($869K, ~7% de diferencia) y deja en evidencia que el <strong>WBS v3.0 ($800M COP) subestima el ENCE ~4–5×</strong>. Los 5 ENCE reales valen ~$20,5B COP (~$4,65M USD), no los $4.000M del WBS antiguo — es el mayor hueco de CAPEX del sistema.</p>
+            <p style="line-height:1.6; font-size:0.9rem; margin-top:0.5rem;"><strong>Lectura:</strong> el bottom-up ADIF (~$899K USD/ENCE, núcleo 100% precios reales) <strong>confirma a Ardanuy</strong> ($869K, ~3% de diferencia) y deja en evidencia que el <strong>WBS v3.0 ($800M COP) subestima el ENCE ~4–5×</strong>. Los 5 ENCE reales valen ~$19,8B COP (~$4,49M USD), no los $4.000M del WBS antiguo — es el mayor hueco de CAPEX del sistema.</p>
         </div>
 
         <!-- Pendientes -->
         <div class="premium-card section-premium">
             <h2>⏳ Para cerrar el baseline al 100%</h2>
             <div class="pend">
-                <p><strong style="color:#ffc266;">Núcleo CAC pendiente de BPA:</strong> falta cotizar en bpa.adif.es el armario de energía (CAC010$), bastidores (CAC030$), controlador de objetos (CAC050$) y cableado de red local (CAC040$) — hoy estimados en €150.000. La UCP (CAC020$ €118.006) sí está confirmada.</p>
-                <p><strong style="color:#64ffda;">Cantidades por estación:</strong> confirmar con ingeniería de detalle el nº real de desvíos, señales y contadores por cada ENCE (La Dorada–México y Barrancabermeja serán mayores que Zapatosa).</p>
-                <p><strong style="color:#c4b5fd;">Energía:</strong> el ENCE exige autonomía 4h+ (BCD §10.5) → sustituir el SAI de referencia (COA090, 15 min) por COA200$ (1h) o banco mayor.</p>
+                <p><strong style="color:#2ed573;">✅ Núcleo CAC — RESUELTO:</strong> precios reales del BPA capturados (CAC010 €36.807, CAC030 €16.399, CAC040 €5.689, CAC050 €33.919, CAC170 firewall €6.885, UCP CAC020 €118.006). Ya no hay estimación en el núcleo.</p>
+                <p><strong style="color:#2ed573;">✅ Energía — RESUELTO:</strong> SAI COA220$ 6h/20 kVA (€32.077) cumple el DBCD §10.5 (≥4h). COA200 (1h) y COA210 (2h) no alcanzan.</p>
+                <p><strong style="color:#64ffda;">⏳ Cantidades por estación:</strong> único pendiente — confirmar con ingeniería de detalle el nº real de desvíos, señales y contadores por cada ENCE (La Dorada–México y Barrancabermeja serán mayores que Zapatosa). Hoy se usa el promedio Ardanuy ÷ 5.</p>
             </div>
         </div>
 

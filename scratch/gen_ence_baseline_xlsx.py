@@ -71,8 +71,12 @@ for c, h in enumerate(["Categoría", "Concepto", "Código BPA", "€/ud", "Cant.
 
 # (cat, concepto, codigo, eur_ud, cant, estado)  estado: OK=ADIF real, PEND=estimado
 rows = [
-    ("Núcleo enclavamiento", "UCP — módulo central de proceso (grande)", "CAC020$", 118006.02, 1, "OK"),
-    ("Núcleo enclavamiento", "Armario energía + bastidores + controlador de objetos + cableado red local", "CAC010/030/040/050$", 150000.0, 1, "PEND"),
+    ("Núcleo enclavamiento", "UCP — módulo central de proceso (grande)", "CAC020caa", 118006.02, 1, "OK"),
+    ("Núcleo enclavamiento", "Armario de distribución de energía", "CAC010ca", 36806.72, 1, "OK"),
+    ("Núcleo enclavamiento", "Bastidor de equipos de enclavamiento", "CAC030caa", 16399.36, 1, "OK"),
+    ("Núcleo enclavamiento", "Cableado red local del enclavamiento", "CAC040ca", 5689.43, 1, "OK"),
+    ("Núcleo enclavamiento", "Controlador de objetos 160E/128S", "CAC050ca", 33919.15, 1, "OK"),
+    ("Núcleo enclavamiento", "Firewall de enclavamiento", "CAC170", 6885.21, 1, "OK"),
     ("Aparatos de vía", "Motor eléctrico de aguja (con cerrojo)", "CFA010$", 10624.66, 8, "OK"),
     ("Aparatos de vía", "Comprobador de aguja", "CFA040$", 4963.85, 8, "OK"),
     ("Señalización", "Señal alta LED 3 focos", "CCA040$", 7934.23, 12, "OK"),
@@ -83,7 +87,7 @@ rows = [
     ("Arquitectura", "Caseta técnica prefabricada", "TMI010", 7180.94, 1, "OK"),
     ("Cableado", "Cable de señalización 7x4x0.9 (m)", "CEA030$", 11.67, 2000, "OK"),
     ("Cableado", "Cable F.O. 48 fibras canalización (m)", "TCJ010$", 5.48, 1000, "OK"),
-    ("Energía", "SAI 1 kVA (ENCE requiere mayor autonomía → COA200)", "COA090$", 2115.07, 2, "OK"),
+    ("Energía", "SAI 20 kVA · 6h (autonomía DBCD ≥4h)", "COA220ckea", 32077.37, 1, "OK"),
 ]
 r = hdr_r + 1
 equipo = 0.0
@@ -122,9 +126,9 @@ r += 1
 for note in [
     "Cantidades = ENCE PROMEDIO (referencia Ardanuy ÷ 5 estaciones): 8 desvíos motorizados, 12 señales, 9 contadores de ejes. Ajustar por estación (La Dorada–México > Zapatosa).",
     "Precios ADIF = suministro + montaje, costes indirectos 6% incluidos. Referencia europea; aplicar factores LFC (trocha 914, logística, MO).",
-    "PENDIENTE BPA: armario energía (CAC010$), bastidores (CAC030$), controlador de objetos (CAC050$) y cableado red local (CAC040$) — estimados en €150.000; consultar bpa.adif.es para cerrar.",
+    "Núcleo CAC 100% precios ADIF reales (sin estimaciones): UCP CAC020 + CAC010/030/040/050 + firewall CAC170. Catálogo completo CAC# (17 ítems) en Precios_Base_ADIF_BPA_2026.md.",
     "Detección por contador de ejes (Ardanuy). Alternativa: circuito de vía AF (CBC030$ €7.938/u) — solución mixta según TCO Detección.",
-    "ENERGÍA: el ENCE exige autonomía 4 h+ (BCD §10.5) → usar SAI COA200$ (1 h) o banco mayor; COA090 (15 min) es solo referencia de orden.",
+    "ENERGÍA: SAI COA220$ 6h/20 kVA (€32.077) cumple DBCD §10.5 (≥4h). COA200 (1h) y COA210 (2h) no alcanzan.",
 ]:
     ws.merge_cells(start_row=r, start_column=1, end_row=r, end_column=7)
     ws.cell(row=r, column=1, value=note).font = f_note; ws.cell(row=r, column=1).alignment = left
@@ -156,7 +160,7 @@ ence_usd = usd(ENCE_EUR)
 ence_cop_m = cop(ENCE_EUR) / 1_000_000
 filas = [
     ("Bottom-up ADIF (este modelo)", ence_usd, ence_cop_m, ence_cop_m * 5,
-     "Suma de partidas BPA + 30% ingeniería. Núcleo CAC parcialmente estimado.", True),
+     "Suma de partidas BPA reales + 30% ingeniería. Núcleo CAC 100% ADIF.", True),
     ("Ardanuy (consultor diseño)", 869377, 869377 * TRM / 1_000_000, 869377 * 5 * TRM / 1_000_000,
      "5 × $869.377 USD = $4,35M. Coincide con la Conceptual LFC.", False),
     ("WBS v3.0 (línea base antigua)", 181818, 800, 4000,

@@ -1,6 +1,9 @@
 # 📑 REFERENCIAL DE PRECIOS ADIF (BPA 2026) — CONSOLIDADO FINAL (TRM 4400 RISK)
+
+> ⚠️ **SUPERSEDED (2026-05-23).** Los precios de §2 de este archivo eran **valores asumidos** y han sido **corregidos** con la consulta directa al BPA (v1.4.0). Usar la tabla canónica validada: **[`Precios_Base_ADIF_BPA_2026.md`](./Precios_Base_ADIF_BPA_2026.md)**. Correcciones clave: motor = CFA010 (no CBB010), desvío €104.566 (no €114.320), señal €7.934 (no €10.450), ENCE UCP CAC020 €118.006 (los €356.780 eran el sistema completo). Las secciones §3–§5 (soberanía técnica y validación cruzada Ardanuy) siguen vigentes.
+
 **Proyecto:** Corredor Ferroviario La Dorada - Chiriguaná (LFC2)
-**Estatus:** ✅ EXTRACCIÓN COMPLETA (SICC v14.7 - Michelin Baseline)
+**Estatus:** ⚠️ §2 SUPERSEDED → ver Precios_Base_ADIF_BPA_2026.md (SICC v14.7)
 
 ## 🛡️ MATRIZ DE TRAZABILIDAD (SOURCES)
 | Ítem | Fuente Principal | Ruta / Enlace |

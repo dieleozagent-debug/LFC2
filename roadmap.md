@@ -1,10 +1,31 @@
 # 🗺️ ROADMAP — LFC2 (UF2 La Dorada–Chiriguaná)
 
-**Última actualización:** 8 de Mayo de 2026
+**Última actualización:** 23 de Mayo de 2026
 **Hito vigente:** entrega presupuesto ANI 2026-05-05 · tag `entrega-presupuesto-2026-05-05`
-**Última sesión:** 2026-05-08 — Reporte Gerencial + Análisis de Riesgos schema v3 (commits `3917613`, `b07bbe8`, `bd74d00`)
+**Última sesión:** 2026-05-23 — Apartaderos PTC + Baseline ENCE + Precios base ADIF validados (BPA v1.4.0)
 
 > Bitácora viva. Cada sesión actualiza esta página: cierra ítems hechos, agrega hallazgos nuevos, mueve los que pasan a deuda profunda hacia "Backlog".
+
+---
+
+## ✅ Cerrado en sesión 2026-05-23 (Apartaderos + ENCE + Precios base ADIF)
+
+> **Contexto:** TFP pidió el coste de automatizar 10 apartaderos; el reporte previo daba ~$7,7M USD ("casi un ENCE"). Se replanteó bajo doctrina PTC virtual y se validó toda la base de precios contra el BPA ADIF real (consulta directa, app v1.4.0, válida 19/02/2026, © ADIF 2025).
+
+| Ítem | Detalle | Commit |
+|---|---|---|
+| **Apartadero PTC austero** — nueva vista `WBS_Detalle_Apartadero.html` (`/apartadero`) + `Costo_Apartaderos_PTC.xlsx` | Corrección del sobrecoste: el modelo viejo cobraba desvío nuevo (VEA010), motor, **señales LED y gabinetes prohibidos fuera de ENCE**, y energía sobredimensionada. Modelo correcto = comprobador SIL-4 ×2 + terminal TETRA ×2 + solar. **10 apartaderos: $3.316M COP ≈ $0,75M USD** (vs $33.200M previo, −90%). ~$22K/desvío. No incluye obra civil ni infra TETRA del corredor. | `f71cfc8`→`3438e60` |
+| **Ajuste TETRA (anti doble-conteo)** | Infra TETRA del corredor ya presupuestada (verificado WBS v3.0: sin partida de terminales para apartaderos) → solo el terminal del switch es incremental. Comms $520M→$350M. | `52fa92b` |
+| **Comprobador desglosado + Referencia/Fuente** | CTC/PTC partido en hardware (ADIF CFA040$ €4.963,85) + cert. SIL-4 + integración = $92M, para transparencia ante Interventoría. Columna de fuente por línea (ADIF real / mercado / RFQ pendiente). | `3438e60` |
+| **Baseline ENCE bottom-up ADIF** — nueva vista `WBS_Baseline_ENCE.html` (`/ence`) + `Baseline_ENCE_ADIF.xlsx` | BoQ por estación con precios BPA reales (núcleo CAC# 100% real: UCP CAC020 + CAC010/030/040/050 + firewall CAC170 + SAI COA220 6h) + 8 motores/comprobadores + 12 señales + 9 contadores. **1 ENCE ≈ $899K USD / $3.955M COP; 5 ENCE ≈ $4,49M USD / $19.775M COP.** Confirma Ardanuy ($869K, ~3%) y expone que el WBS v3.0 ($800M/ENCE) subestima ~4-5×. | `2aa57c5`, `09c0439` |
+| **Tabla de precios base ADIF validada** — `Precios_Base_ADIF_BPA_2026.md` (canónica) | Catálogo verificado en BPA con código paramétrico, €, ≈COP y **URL por ítem**: 17 ítems señalización/vía + subcapítulo CAC# completo (17 módulos) + SAI COA#. Correcciones: motor = CFA010 (no CBB010, que era bastidor enclavamiento), desvío €104.566 (no €114.320), señal €7.934 (no €10.450), UCP ENCE €118.006 (los €356.780 eran sistema completo). `precios_Adif_COMPLETO.md §2` marcado SUPERSEDED. | — |
+| **Hallazgo GSM-R vs TETRA** | "TETRA" da cero resultados en el BPA — ADIF usa GSM-R. LFC usa TETRA por doctrina (BCD) → terminales por mercado (Hytera/Motorola), no por ADIF. Confirmado. | — |
+| **Cache-bust + fix menús** | Scripts del sidebar unificados a `?v=14.7.14` en los 42 HTML (antes mezcla v=6.3.2/14.7.x) para que aparezcan los enlaces nuevos (Apartadero, ENCE). Corregido `?v=` duplicado preexistente en `INDICE_Documentos_Servidos.html`. `navMap` del sidebar ampliado con resaltado activo de las páginas nuevas. Aliases `/apartadero` y `/ence` en vercel.json. | `1d9d7d4` + sesión |
+
+### ⏳ Pendiente de esta línea (precios base)
+- **Cantidades por estación ENCE** — único pendiente del baseline: nº real de desvíos/señales/contadores por cada uno de los 5 ENCE (ingeniería de detalle); hoy se usa promedio Ardanuy ÷ 5.
+- **Desvío talonable** — no existe partida en BPA (solo tipos C/P/G/AV/B) → precio contradictorio si se requiere.
+- **RFQ formal** — los precios ADIF son referencia europea; confirmar con proveedor COL/LATAM antes de valor contractual.
 
 ---
 
