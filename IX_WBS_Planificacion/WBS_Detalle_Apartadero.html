@@ -76,10 +76,10 @@
             <div class="hero-grid">
                 <div class="hero-fig">
                     <div class="hero-label">10 apartaderos · con AIU+IVA</div>
-                    <div class="hero-cop">$3.516 millones COP</div>
-                    <div class="hero-usd">≈ 0,8 M USD</div>
-                    <div class="badge-cut">▼ ~89% vs la estimación previa</div>
-                    <p style="font-size:0.82rem; opacity:0.85; margin:0.8rem 0 0 0;">Costo directo: <strong>$2.980 M COP</strong>. Por desvío: <strong>~$24K USD</strong> (antes ~$320K).</p>
+                    <div class="hero-cop">$3.316 millones COP</div>
+                    <div class="hero-usd">≈ 0,75 M USD</div>
+                    <div class="badge-cut">▼ ~90% vs la estimación previa</div>
+                    <p style="font-size:0.82rem; opacity:0.85; margin:0.8rem 0 0 0;">Costo directo: <strong>$2.810 M COP</strong>. Por desvío: <strong>~$22K USD</strong> (antes ~$320K).</p>
                 </div>
                 <div class="hero-compare">
                     <div class="hero-label">Estimación anterior (modelo motorizado)</div>
@@ -87,7 +87,7 @@
                     <p style="font-size:0.86rem; opacity:0.85; margin:0.6rem 0 0 0;">≈ 7,7 M USD. Costeaba motor SIL‑3, aparato de vía nuevo, señales LED, gabinetes y energía grande — <strong>todo prohibido fuera de los 5 ENCE</strong>. La diferencia no es optimización: el modelo viejo costeaba elementos que la arquitectura del proyecto no permite.</p>
                 </div>
             </div>
-            <p class="footnote" style="margin-top:1rem;">No incluye el <strong>alargamiento de los apartaderos</strong> ni su vía/aparato de vía — eso es obra civil, presupuesto aparte.</p>
+            <p class="footnote" style="margin-top:1rem;">No incluye el <strong>alargamiento de los apartaderos</strong> ni su vía/aparato de vía — eso es obra civil, presupuesto aparte. La <strong>infraestructura TETRA del corredor</strong> (torres, antenas, licencias) tampoco se recobra aquí: ya está en el presupuesto principal.</p>
         </div>
 
         <!-- Qué significa "motorizar" aquí -->
@@ -194,17 +194,18 @@
                     <tr><th>Cubo</th><th>Qué es</th><th class="num">$M COP</th></tr>
                 </thead>
                 <tbody>
-                    <tr><td><span class="pkg-tag pkg-comms">COMUNICACIONES</span></td><td>2 × módulo telemétrico TETRA (datos → Back Office)</td><td class="num">52</td></tr>
+                    <tr><td><span class="pkg-tag pkg-comms">COMUNICACIONES</span></td><td>2 × terminal de datos TETRA + alta/programación en red <span style="opacity:0.6">(infraestructura TETRA ya presupuestada — no se recobra)</span></td><td class="num">35</td></tr>
                     <tr><td><span class="pkg-tag pkg-ctrl">"MOTORIZACIÓN" = CTC/PTC</span></td><td>2 × comprobador punta de aguja SIL‑4 + integración al PTC del CCO <span style="opacity:0.6">(sin motor)</span></td><td class="num">92</td></tr>
                     <tr><td><span class="pkg-tag pkg-ener">ENERGÍA</span></td><td>Solar &lt;50 W + batería LiFePO4</td><td class="num">33</td></tr>
                     <tr><td><span class="pkg-tag pkg-serv">SERVICIOS</span></td><td>Instalación + prueba in‑situ (SAT)</td><td class="num">31</td></tr>
                     <tr><td><span class="pkg-tag pkg-serv">INGENIERÍA</span></td><td>Diseño + config Back Office + safety case <span style="opacity:0.6">(prorrateado ÷10)</span></td><td class="num">90</td></tr>
                 </tbody>
                 <tfoot>
-                    <tr style="background:rgba(100,255,218,0.08);"><td colspan="2">Costo directo por apartadero (all‑in)</td><td class="num">~298 &nbsp;<span style="opacity:0.7; font-weight:500;">≈ $68K USD</span></td></tr>
-                    <tr style="background:rgba(255,215,0,0.06);"><td colspan="2">Con AIU + IVA (×1,18)</td><td class="num">~352 &nbsp;<span style="opacity:0.7; font-weight:500;">≈ $80K USD</span></td></tr>
+                    <tr style="background:rgba(100,255,218,0.08);"><td colspan="2">Costo directo por apartadero (all‑in)</td><td class="num">~281 &nbsp;<span style="opacity:0.7; font-weight:500;">≈ $64K USD</span></td></tr>
+                    <tr style="background:rgba(255,215,0,0.06);"><td colspan="2">Con AIU + IVA (×1,18)</td><td class="num">~332 &nbsp;<span style="opacity:0.7; font-weight:500;">≈ $75K USD</span></td></tr>
                 </tfoot>
             </table>
+            <p class="footnote"><strong>El costo unitario baja con el volumen:</strong> a más apartaderos, menor costo por unidad — la ingeniería fija (~$900M) se reparte entre más unidades. A 10 toca ~$90M c/u; a 20, ~$45M; a 60, ~$15M.</p>
         </div>
 
         <!-- Costo de los 10 -->
@@ -215,17 +216,17 @@
                     <tr><th>Cubo</th><th class="num">$M COP (10)</th></tr>
                 </thead>
                 <tbody>
-                    <tr><td><span class="pkg-tag pkg-comms">COMUNICACIONES</span> &nbsp; TETRA (20 módulos)</td><td class="num">520</td></tr>
+                    <tr><td><span class="pkg-tag pkg-comms">COMUNICACIONES</span> &nbsp; terminal datos TETRA (20) + alta <span style="opacity:0.6">(infra ya presupuestada)</span></td><td class="num">350</td></tr>
                     <tr><td><span class="pkg-tag pkg-ctrl">CTC/PTC</span> &nbsp; comprobador SIL‑4 + integración CCO (20 desvíos)</td><td class="num">920</td></tr>
                     <tr><td><span class="pkg-tag pkg-ener">ENERGÍA</span> &nbsp; solar autónoma (×10)</td><td class="num">330</td></tr>
                     <tr><td><span class="pkg-tag pkg-serv">SERVICIOS + INGENIERÍA</span> &nbsp; campo + diseño/config global</td><td class="num">1.210</td></tr>
                 </tbody>
                 <tfoot>
-                    <tr style="background:rgba(255,255,255,0.04);"><td>Costo directo total</td><td class="num">~2.980</td></tr>
-                    <tr style="background:rgba(100,255,218,0.10);"><td>Con AIU + IVA (×1,18)</td><td class="num">~3.516 &nbsp;<span style="opacity:0.7; font-weight:500;">≈ $0,8M USD</span></td></tr>
+                    <tr style="background:rgba(255,255,255,0.04);"><td>Costo directo total</td><td class="num">~2.810</td></tr>
+                    <tr style="background:rgba(100,255,218,0.10);"><td>Con AIU + IVA (×1,18)</td><td class="num">~3.316 &nbsp;<span style="opacity:0.7; font-weight:500;">≈ $0,75M USD</span></td></tr>
                 </tfoot>
             </table>
-            <p class="footnote">Banda por incertidumbre de precios (sin cotización formal): <strong>$2,5–4,3 mil M COP ≈ $0,57–0,98 M USD</strong>. El mismo modelo escala a todo el corredor (~60 apartaderos) en ~$2,5–4,7 M USD — es decir, automatizar los 60 cuesta menos que la estimación previa para solo 10.</p>
+            <p class="footnote"><strong>Infraestructura TETRA ya presupuestada</strong> (torres, antenas, controladores y licencias cubren todo el corredor, en el presupuesto principal): aquí solo se cobra el terminal de datos del switch + alta. <strong>Verificado en WBS v3.0</strong> — no existe partida de terminales de datos para apartaderos, así que es incremental legítimo (sin doble conteo). Banda por incertidumbre: <strong>~$0,55–0,9 M USD</strong>. El mismo modelo escala a los ~60 del corredor en ~$2,5–4,7 M USD.</p>
         </div>
 
         <!-- Mensaje listo para Jaime/Javier -->
@@ -233,16 +234,16 @@
             <h2>✉️ Resumen para TFP / Javier de la Mata</h2>
             <p style="line-height:1.7; font-size:0.92rem;">
                 <strong>10 apartaderos — automatización PTC Virtual (sin motor):</strong><br>
-                • Comunicaciones (TETRA ×20 módulos): ~$520M COP<br>
+                • Comunicaciones — terminal datos TETRA ×20 + alta <span style="opacity:0.75">(infra TETRA del corredor ya presupuestada)</span>: ~$350M COP<br>
                 • Equipo CTC/PTC — comprobador SIL‑4 + integración CCO (×20): ~$920M COP<br>
                 • Energía solar autónoma (×10): ~$330M COP<br>
                 • Servicios de campo + ingeniería global: ~$1.210M COP<br>
-                • <strong>Costo directo total: ~$2.980M COP</strong><br>
-                • <strong>Con AIU+IVA: ~$3.516M COP ≈ $0,8M USD</strong> (TRM 4.400)<br>
-                <span style="opacity:0.8;">No incluye alargamiento de apartaderos (obra civil aparte). Cifras de orden de magnitud — sujeto a RFQ formal (Frauscher/Siemens/Hytera).</span>
+                • <strong>Costo directo total: ~$2.810M COP</strong><br>
+                • <strong>Con AIU+IVA: ~$3.316M COP ≈ $0,75M USD</strong> (TRM 4.400)<br>
+                <span style="opacity:0.8;">No incluye alargamiento de apartaderos (obra civil aparte). La infraestructura TETRA del corredor ya está presupuestada — aquí solo el terminal del switch. Cifras de orden de magnitud — sujeto a RFQ formal (Frauscher/Siemens/Hytera).</span>
             </p>
             <p style="line-height:1.7; font-size:0.9rem; opacity:0.9; margin-top:0.8rem;">
-                <strong>Nota:</strong> en el modelo PTC Virtual del proyecto, "automatizar" un apartadero no lleva motor ni señales ni gabinetes — eso es exclusivo de los 5 ENCE. Solo lleva comprobador de aguja + radio TETRA integrada al Back Office del CCO. El costo por desvío es <strong>~$24K USD</strong>, no $320K del modelo anterior.
+                <strong>Nota:</strong> en el modelo PTC Virtual del proyecto, "automatizar" un apartadero no lleva motor ni señales ni gabinetes — eso es exclusivo de los 5 ENCE. Solo lleva comprobador de aguja + terminal TETRA integrado al Back Office del CCO (la red TETRA ya existe). El costo por desvío es <strong>~$22K USD</strong>, no $320K del modelo anterior.
             </p>
         </div>
 
@@ -250,7 +251,7 @@
         <div class="disclaimer">
             <h4>Disclaimer · Orden de magnitud — sujeto a RFQ</h4>
             <p>Cifras de orden de magnitud bajo línea base SICC v14.7 y doctrina conceptual (autotalonables con comprobación fuera de ENCE; FRA 49 CFR §236.1005). <strong>No constituyen cotización formal.</strong> Los precios de comprobador SIL‑4, módem TETRA y solar son estimación de mercado, sujetos a RFQ a proveedor (Frauscher, Siemens Mobility, Thales, Hytera/Motorola) o adaptación de la partida "comprobador de agujas / telemando" del BPA ADIF con factor Colombia.</p>
-            <p><strong>Alcance:</strong> cubre exclusivamente el CTSC (comprobadores + TETRA + solar + servicios + ingeniería). <strong>No incluye</strong> el alargamiento de los apartaderos ni la obra civil/vía asociada, que se presupuesta por separado.</p>
+            <p><strong>Alcance:</strong> cubre exclusivamente el CTSC incremental del apartadero (comprobadores + terminal TETRA + solar + servicios + ingeniería). <strong>No incluye</strong> (a) el alargamiento de los apartaderos ni la obra civil/vía asociada, ni (b) la infraestructura TETRA del corredor (torres/antenas/licencias) — ambas presupuestadas por separado. El costo unitario baja al aumentar el número de apartaderos (la ingeniería fija se reparte).</p>
             <p>Referencia previa (para comparación): <a href="/IX_WBS_Planificacion/WBS_Reporte_Gerencial" style="color: var(--accent);">Reporte Gerencial</a> · Detalle WBS: <a href="/IX_WBS_Planificacion/WBS_Vista_Final" style="color: var(--accent);">Vista Final</a>.</p>
         </div>
     </div>
