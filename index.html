@@ -31,6 +31,8 @@
 
         /* Accesibilidad — foco visible por teclado (WCAG 2.1 AA · 2.4.7) */
         *:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+        .skip-link { position: absolute; left: 1rem; top: -4rem; z-index: 5000; padding: 0.7rem 1.2rem; background: var(--accent); color: var(--primary); font-weight: 700; border-radius: 0 0 8px 8px; text-decoration: none; transition: top 0.2s ease; }
+        .skip-link:focus { top: 0; }
 
         body {
             background: radial-gradient(circle at 0% 0%, #112240 0%, #0a192f 100%);
@@ -238,6 +240,7 @@
     </style>
 </head>
 <body>
+    <a href="#main" class="skip-link">Saltar al contenido</a>
     <nav class="sidebar">
         <div class="logo">
             <span>📊</span> LFC UF2
@@ -261,7 +264,7 @@
         </div>
     </nav>
 
-    <main class="main-content">
+    <main class="main-content" id="main" tabindex="-1">
         <header class="header">
             <div style="color: var(--accent); font-weight: 700; font-size: 0.75rem; letter-spacing: 4px; margin-bottom: 1rem; text-transform: uppercase;">Centro de Gestión Técnica · Unidad Funcional 2</div>
             <h1 id="tower-title">LFC — Corredor Férreo La Dorada–Chiriguaná</h1>
