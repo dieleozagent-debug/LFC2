@@ -62,7 +62,7 @@
         <div class="section-premium">
             <div class="premium-card" style="border-left: 5px solid var(--success);">
                 <h3 style="color: var(--success); margin-bottom: 0.6rem;">Línea base BCD v001 — alineación contractual</h3>
-                <p style="opacity: 0.85; line-height: 1.6; margin: 0;">Presupuesto alineado a las Bases y Criterios de Diseño SCC v001 (Ardanuy, abril 2026) y a las DTs internas vigentes (DT-COMS-2026-007 línea base ADIF v1, DT-CTRL-2026-006 flota tractiva). Cifras vivas calculadas en cliente desde <code>wbs_presupuestal_datos.js</code> vía <code>wbs_core_logic.js → calcularAIUeIVA()</code>.</p>
+                <p style="opacity: 0.85; line-height: 1.6; margin: 0;">Presupuesto alineado a las Bases y Criterios de Diseño SCC v001 (Ardanuy, abril 2026) y a las DTs internas vigentes (DT-COMS-2026-007 línea base ADIF, DT-CTRL-2026-006 flota tractiva). <strong>Precios del núcleo de señalización/vía validados por consulta directa al Banco de Precios de ADIF (BPA v1.4.0, válida desde 19/02/2026)</strong> — detalle en la hoja «8.Validación ADIF» del Excel y en <code>Precios_Base_ADIF_BPA_2026.md</code>. Cifras vivas calculadas en cliente desde <code>wbs_presupuestal_datos.js</code> vía <code>wbs_core_logic.js → calcularAIUeIVA()</code>.</p>
             </div>
         </div>
 
@@ -194,7 +194,7 @@
                 <div class="scenario-card scenario-pes">
                     <h4>Pesimista</h4>
                     <div class="figure">80 – 110 M USD</div>
-                    <p>Materialización de gaps Ardanuy: obra civil FO subestimada (~16 M USD), Diseño Fase III ausente (~2,8 M USD), upgrade ENCE post-RFQ (~2,1 M USD), TRM real adversa.</p>
+                    <p>Materialización de gaps Ardanuy: obra civil FO subestimada (~16 M USD, <strong>confirmado por validación ADIF: MO de fibra +280% vs BPA por terreno selvático</strong>), Diseño Fase III ausente (~2,8 M USD), TRM real adversa. <em>(El "upgrade ENCE" que se temía queda descartado: el bottom-up ADIF confirma el VU actual del controlador, +1%.)</em></p>
                 </div>
             </div>
         </div>
@@ -227,13 +227,13 @@
             </div>
 
             <div class="risk-card risk-high">
-                <h4>🔴 ALTO — Gap obra civil FO vs Ardanuy</h4>
-                <p>LFC tiene $52.219 M COP en obra civil de fibra; Ardanuy estima $122.894 M COP. Diferencia de ~$70.675 M COP (~16 M USD). Si Ardanuy cotiza correctamente, ejecución queda corta. Mitigación: reasignación interna desde Cap 4.3 (PaN básicos fuera del alcance BCD §8.2) y Cap 6 (OBU). Ver <code>roadmap.md → Bloque D</code>.</p>
+                <h4>🔴 ALTO — Gap obra civil FO vs Ardanuy <span style="font-weight:400; opacity:0.8;">(confirmado por validación ADIF)</span></h4>
+                <p>LFC tiene $52.219 M COP en obra civil de fibra; Ardanuy estima $122.894 M COP. Diferencia de ~$70.675 M COP (~16 M USD). <strong>La validación contra BPA lo confirma:</strong> la mano de obra de tendido de fibra está <strong>+280% sobre el precio ADIF</strong> (TCJ010 €5,48/m incl. tendido) — atribuible al terreno selvático sin vías. Mitigación: reasignación interna desde Cap 4.3 (PaN básicos fuera del alcance BCD §8.2) y Cap 6 (OBU). Ver <code>roadmap.md → Bloque D</code>.</p>
             </div>
 
             <div class="risk-card risk-med">
-                <h4>🟡 MEDIO — RFQ pendientes (8 ítems)</h4>
-                <p>4 ítems en ratificación contra ADIF (ENCE, desvíos motorizados, control remoto, señales LED) + 4 sin ADIF en RFQ urgente (F.O. 48h G.652.D, contador de ejes, armario PTC SIL-3, UPS). Estado y proveedores priorizados en Vista Final → modal "Pendientes RFQ".</p>
+                <h4>🟡 MEDIO — RFQ pendientes <span style="font-weight:400; opacity:0.8;">(núcleo señalización ya ratificado contra ADIF)</span></h4>
+                <p><strong>Ratificados contra BPA ADIF v1.4.0 (consulta directa 2026-05-23), todos dentro de banda:</strong> ENCE controlador (+1%), desvíos motorizados (+9%), señales LED (+36%, montaje). <strong>Siguen en RFQ formal</strong> los ítems sin partida ADIF directa: F.O. 48h G.652.D, contador de ejes, armario PTC SIL-3, UPS 24h TETRA (y servidores/PTC embarcado/material rodante). Detalle ítem a ítem en la hoja «8.Validación ADIF».</p>
             </div>
 
             <div class="risk-card risk-med">
@@ -273,7 +273,7 @@
                         <li><strong>TRM real referencia:</strong> 3.637 COP/USD (spot informativo)</li>
                         <li><strong>EUR/COP:</strong> 4.796 (TRM × 1,09)</li>
                         <li><strong>Fuera del alcance:</strong> soluciones propietarias Knorr-Bremse y PowerTrunk</li>
-                        <li><strong>Líneas base de precios:</strong> ADIF (BPA España) + Conceptual LFC + RFQ pendientes</li>
+                        <li><strong>Líneas base de precios:</strong> BPA ADIF v1.4.0 (validado por consulta directa, 19/02/2026) + Conceptual LFC + RFQ para ítems sin partida ADIF</li>
                     </ul>
                 </div>
             </div>
@@ -364,9 +364,9 @@
                     </tr>
                     <tr>
                         <td>3</td>
-                        <td>Recalcular <strong>desvíos motorizados</strong> con base ADIF VEA010 + factor soberanía 914 mm</td>
-                        <td>~$25B COP / 5,7 M USD</td>
-                        <td>🟢 3 días</td>
+                        <td><strong>Desvíos motorizados</strong> validados vs ADIF (VEA010+motor+comprobador+cerrojo); resta revisar composición vs Ardanuy</td>
+                        <td>VU $640M = +9% ✅ dentro de banda</td>
+                        <td>🟢 Hecho (2026-05-23)</td>
                     </tr>
                     <tr>
                         <td>4</td>
@@ -376,8 +376,8 @@
                     </tr>
                     <tr>
                         <td>5</td>
-                        <td>Cerrar <strong>8 RFQ pendientes</strong> dentro de banda ADIF + factor soberanía</td>
-                        <td>Confirma o erosiona ±2-3 M USD</td>
+                        <td>Ratificar precios vs <strong>ADIF BPA v1.4.0</strong> + cerrar RFQ de ítems sin partida</td>
+                        <td>Núcleo señalización ratificado; resto en RFQ</td>
                         <td>🟡 En curso</td>
                     </tr>
                     <tr>
@@ -400,7 +400,8 @@
         <div class="disclaimer">
             <h4>Disclaimer contractual</h4>
             <p>Las cifras son estimadas hasta la no-objeción de la Interventoría sobre los criterios de diseño V1 (Apéndice Técnico 1, Tabla 17, Contrato APP No. 001 de 2025). El cierre de la línea base depende de esa aprobación.</p>
-            <p>Detalle WBS por ítem: <a href="WBS_Vista_Final.html" style="color: var(--accent);">Vista Final</a> · Excel descargable de 7 hojas con desglose por capítulo, AIU, Acta de Obra, Pendientes RFQ y Fuentes.</p>
+            <p>Detalle WBS por ítem: <a href="WBS_Vista_Final.html" style="color: var(--accent);">Vista Final</a> · Excel descargable con desglose por capítulo, AIU, Acta de Obra, Pendientes RFQ, Fuentes y <strong>«8.Validación ADIF»</strong>.</p>
+            <p>Validación de precios contra BPA ADIF v1.4.0 (19/02/2026, EUR/COP 4.796) y baselines bottom-up en <a href="WBS_Baseline_ENCE.html" style="color: var(--accent);">Baseline ENCE</a> y <a href="WBS_Detalle_Apartadero.html" style="color: var(--accent);">Detalle Apartadero</a>.</p>
         </div>
     </div>
 
