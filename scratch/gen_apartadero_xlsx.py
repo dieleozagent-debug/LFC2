@@ -210,8 +210,8 @@ ws3["A1"] = "VALIDACIÓN CONTRA ADIF — Banco de Precios (BPA)"
 ws3["A1"].font = f_title; ws3["A1"].fill = fill_title; ws3["A1"].alignment = Alignment(horizontal="left", vertical="center")
 ws3.row_dimensions[1].height = 26
 ws3.merge_cells("A2:F2")
-ws3["A2"] = ("Fuente: bpa.adif.es (consulta directa)  ·  Fecha de consulta: 2026-05-23  ·  "
-             "Versión BPA: POR CONFIRMAR  ·  Conversión 4.796 COP/EUR (TRM 4.400 × 1,09)")
+ws3["A2"] = ("Fuente: bpa.adif.es/bp1 (app v1.4.0) · BPA válida desde 19/02/2026 · Consulta: 2026-05-23 · "
+             "Precios con costes indirectos 6% · Conversión 4.796 COP/EUR (TRM 4.400 × 1,09). Detalle y URLs en hoja 'Referencia BPA'.")
 ws3["A2"].font = f_sub; ws3["A2"].fill = fill_title
 
 EUR_FMT, COPM_FMT = '#,##0 "€"', '#,##0.0 "M"'
@@ -260,16 +260,87 @@ for i, (comp, cop, ruta, detalle) in enumerate([
 r += 1
 for note in [
     "CORRECCIÓN: el código CBB010 no es el motor — en BPA es 'bastidor equipos de enclavamiento' (contadores de ejes). Motor = CFA010$.",
+    "CORRECCIÓN ENCE (no apartadero): la UCP del enclavamiento es CAC020$ €118.006 — la referencia previa de €356.780 era el sistema ENCE completo (módulos CAC010–CAC090).",
     "GSM-R vs TETRA: 'TETRA' da cero resultados en BPA — ADIF usa GSM-R. LFC usa TETRA por doctrina (BCD) -> terminales por mercado.",
     "Abatibles: la distinción abatible/no abatible existe en CCA040$ (parámetro BPA), pero solo aplica a señales de ENCE.",
     "El comprobador es la línea más sensible: rango ADIF base ~$23,8M/u <-> versión SIL-4 vital. Confirmar vía RFQ.",
-    "PENDIENTE: capturar la VERSIÓN/año exacta del BPA y la URL directa por ítem en la próxima consulta (no se registraron).",
+    "Desvío talonable/autotalonable: NO existe partida en BPA (solo tipos C/P/G/AV/B). Requiere precio contradictorio.",
 ]:
     ws3.merge_cells(start_row=r, start_column=1, end_row=r, end_column=6)
     ws3.cell(row=r, column=1, value=note).font = f_note; ws3.cell(row=r, column=1).alignment = left
     r += 1
 
-for ws in (ws1, ws2, ws3):
+# ═══════════════════════ HOJA 4: REFERENCIA BPA (catálogo) ═══════════════════════
+ws4 = wb.create_sheet("Referencia BPA")
+ws4.sheet_view.showGridLines = False
+for i, w in enumerate([6, 40, 15, 13, 6, 30], 1):
+    ws4.column_dimensions[get_column_letter(i)].width = w
+
+ws4.merge_cells("A1:F1")
+ws4["A1"] = "REFERENCIA BPA ADIF — catálogo de ítems consultados"
+ws4["A1"].font = f_title; ws4["A1"].fill = fill_title; ws4["A1"].alignment = Alignment(horizontal="left", vertical="center")
+ws4.row_dimensions[1].height = 26
+ws4.merge_cells("A2:F2")
+ws4["A2"] = ("Fuente: bpa.adif.es/bp1 (app v1.4.0) · BPA válida desde 19/02/2026 · Consulta: 2026-05-23 · "
+             "Precios con costes indirectos 6%. Códigos $ = paramétricos; el sufijo codifica las opciones.")
+ws4["A2"].font = f_sub; ws4["A2"].fill = fill_title
+
+r = 4
+for c, h in enumerate(["#", "Descripción", "Código BPA", "Precio €", "Ud", "URL / Estado"], 1):
+    cell = ws4.cell(row=r, column=c, value=h); cell.font = f_hdr; cell.fill = fill_hdr; cell.border = border
+    cell.alignment = center if c in (1, 4, 5) else left
+r += 1
+BP = "https://bpa.adif.es/bp1/#/concept/"
+catalogo = [
+    ("V-1", "Desvío tipo C radio 318 nuevo (suministro)", "VEA010aba", 104565.66, "ud", BP+"156706377"),
+    ("V-2", "Desvío talonable / autotalonable", "—", None, "—", "NO EXISTE en BPA — precio contradictorio"),
+    ("V-3", "Cerrojo de uña, sencillo", "CFA030aaaa", 2243.08, "ud", BP+"157968266"),
+    ("S-1", "Motor eléctrico de aguja, sencilla", "CFA010aaa", 10624.66, "ud", BP+"153769673"),
+    ("S-2", "Comprobador eléctrico de agujas", "CFA040caa", 4963.85, "ud", BP+"151681024"),
+    ("S-3", "Señal alta LED, no abatible, 3 focos", "CCA040ebaad", 7934.23, "ud", BP+"153988522"),
+    ("S-4", "UCP enclavamiento electrónico (grande)", "CAC020caa", 118006.02, "ud", BP+"152945939"),
+    ("S-5", "Sensor de rueda para desvío (cont. ejes)", "CBB030ca", 8286.12, "ud", BP+"157260724"),
+    ("S-5b", "Evaluador 8 contadores de ejes", "CBB040caa", 13398.59, "ud", BP+"154836682"),
+    ("S-6", "Equipo interior circuito de vía AF", "CBC030caaa", 7938.04, "ud", BP+"152228850"),
+    ("A-1", "Armario de señalización grande", "CDB010caa", 4151.33, "ud", BP+"155621679"),
+    ("A-2", "Caja de terminales 50 bornas", "CDA010cba", 1066.04, "ud", BP+"156383357"),
+    ("A-3", "Caseta prefabricada puesto fijo", "TMI010", 7180.94, "ud", "https://bpa.adif.es/bp1/#/category/149855475"),
+    ("E-1", "SAI 1 kVA / 15 min (baterías incl.)", "COA090ca", 2115.07, "ud", BP+"151067858"),
+    ("E-2", "Banco de baterías independiente", "—", None, "—", "NO EXISTE — incluido en SAI (COA0xx)"),
+    ("T-1", "Cable FO 48 fibras PKESP, canalización", "TCJ010bccca", 5.48, "m", BP+"158651112"),
+    ("T-2", "Cable señalización 7x4x0.9 CCPSSP", "CEA030bacad", 11.67, "m", BP+"151181595"),
+]
+f_link = Font(name="Calibri", size=9, color="1155CC", underline="single")
+for i, (num, desc, cod, eur, ud, url) in enumerate(catalogo):
+    ws4.cell(row=r, column=1, value=num)
+    ws4.cell(row=r, column=2, value=desc)
+    ws4.cell(row=r, column=3, value=cod)
+    if eur is not None:
+        ws4.cell(row=r, column=4, value=eur).number_format = '#,##0.00 "€"'
+    else:
+        ws4.cell(row=r, column=4, value="—")
+    ws4.cell(row=r, column=5, value=ud)
+    ucell = ws4.cell(row=r, column=6, value=url)
+    if url.startswith("http"):
+        ucell.hyperlink = url; ucell.font = f_link
+    else:
+        ucell.font = f_note
+    style_row(ws4, r, 6, fill=(fill_zebra if i % 2 else None))
+    ucell.font = f_link if url.startswith("http") else f_note
+    ws4.cell(row=r, column=1).alignment = center; ws4.cell(row=r, column=2).alignment = left
+    ws4.cell(row=r, column=3).alignment = left; ws4.cell(row=r, column=4).alignment = right
+    ws4.cell(row=r, column=5).alignment = center; ws4.cell(row=r, column=6).alignment = left
+    r += 1
+r += 1
+for note in [
+    "URLs verificadas en la consulta del 2026-05-23. Códigos con $ = partida paramétrica (el sufijo de letras fija las opciones).",
+    "Para apartaderos PTC Virtual aplican: comprobador (S-2), terminal datos (mercado, no ADIF) y solar. El resto es referencia / ENCE / vía.",
+]:
+    ws4.merge_cells(start_row=r, start_column=1, end_row=r, end_column=6)
+    ws4.cell(row=r, column=1, value=note).font = f_note; ws4.cell(row=r, column=1).alignment = left
+    r += 1
+
+for ws in (ws1, ws2, ws3, ws4):
     ws.sheet_view.zoomScale = 110
 wb.save(OUT)
 print("OK ->", OUT)

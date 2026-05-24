@@ -220,7 +220,7 @@
         <!-- Validación ADIF -->
         <div class="premium-card section-premium">
             <h2>📑 Validación contra ADIF — Banco de Precios (BPA)</h2>
-            <p style="opacity:0.85; font-size:0.9rem; margin-bottom:0.5rem;">Códigos y precios verificados directamente en el Banco de Precios de ADIF (bpa.adif.es) — <strong>consulta del 2026‑05‑23; versión del BPA por confirmar</strong>. El modelo excluye la superestructura (obra civil/vía) y los componentes exclusivos de ENCE, y conserva solo el equipo CTSC incremental.</p>
+            <p style="opacity:0.85; font-size:0.9rem; margin-bottom:0.5rem;">Códigos, precios y URLs verificados en el Banco de Precios de ADIF (<a href="https://bpa.adif.es/bp1/" target="_blank" style="color:var(--success);">bpa.adif.es/bp1</a>, app v1.4.0) — <strong>BPA válida desde 19/02/2026; consulta del 2026‑05‑23</strong>. Precios ADIF con costes indirectos (6%). El modelo excluye la superestructura (obra civil/vía) y los componentes exclusivos de ENCE, y conserva solo el equipo CTSC incremental.</p>
 
             <h3>Componentes EXCLUIDOS — no son alcance del apartadero</h3>
             <table>
@@ -228,9 +228,9 @@
                     <tr><th>Componente</th><th>Código BPA</th><th class="num">Precio ADIF</th><th class="num">≈ COP</th><th>Por qué se excluye</th></tr>
                 </thead>
                 <tbody>
-                    <tr><td>Aparato de vía — desvío (suministro)</td><td>VEA010$ <span style="opacity:0.6">tipo C · r318 · nuevo</span></td><td class="num">€104.566/ud</td><td class="num">~$501M</td><td>Obra civil/vía. Apartaderos existentes (AT1). Solo suministro; el montaje va en VEC#.</td></tr>
-                    <tr><td>Motor / accionamiento de aguja</td><td>CFA010$</td><td class="num">€10.625/ud</td><td class="num">~$51M</td><td>Fuera de ENCE la aguja es autotalonable — sin motor.</td></tr>
-                    <tr><td>Señal luminosa LED</td><td>CCA040$ <span style="opacity:0.6">alta no abatible · 3 focos</span></td><td class="num">€7.934/ud</td><td class="num">~$38M</td><td>PTC virtual: sin semáforo lateral (FRA §236.1005). Solo en las 5 zonas ENCE (WBS 1.5.101).</td></tr>
+                    <tr><td>Aparato de vía — desvío (suministro)</td><td><a href="https://bpa.adif.es/bp1/#/concept/156706377" target="_blank" style="color:var(--success);">VEA010$</a> <span style="opacity:0.6">tipo C · r318 · nuevo</span></td><td class="num">€104.566/ud</td><td class="num">~$501M</td><td>Obra civil/vía. Apartaderos existentes (AT1). Solo suministro; el montaje va en VEC#.</td></tr>
+                    <tr><td>Motor / accionamiento de aguja</td><td><a href="https://bpa.adif.es/bp1/#/concept/153769673" target="_blank" style="color:var(--success);">CFA010$</a></td><td class="num">€10.625/ud</td><td class="num">~$51M</td><td>Fuera de ENCE la aguja es autotalonable — sin motor.</td></tr>
+                    <tr><td>Señal luminosa LED</td><td><a href="https://bpa.adif.es/bp1/#/concept/153988522" target="_blank" style="color:var(--success);">CCA040$</a> <span style="opacity:0.6">alta no abatible · 3 focos</span></td><td class="num">€7.934/ud</td><td class="num">~$38M</td><td>PTC virtual: sin semáforo lateral (FRA §236.1005). Solo en las 5 zonas ENCE (WBS 1.5.101).</td></tr>
                 </tbody>
             </table>
 
@@ -240,7 +240,7 @@
                     <tr><th>Componente</th><th class="num">$M COP (modelo)</th><th>Ancla ADIF / referencia</th></tr>
                 </thead>
                 <tbody>
-                    <tr><td>Comprobador de aguja (×2) + integración al PTC del CCO</td><td class="num">92</td><td><strong>ADIF CFA040$ €4.963,85/ud ≈ $23,8M/u</strong> (comprobador eléctrico, suministro+montaje). 2 ud ≈ $48M base ADIF; el resto = versión SIL‑4 vital con salida de datos + integración al Back Office.</td></tr>
+                    <tr><td>Comprobador de aguja (×2) + integración al PTC del CCO</td><td class="num">92</td><td><strong>ADIF <a href="https://bpa.adif.es/bp1/#/concept/151681024" target="_blank" style="color:var(--success);">CFA040$</a> €4.963,85/ud ≈ $23,8M/u</strong> (comprobador eléctrico, suministro+montaje). 2 ud ≈ $48M base ADIF; el resto = versión SIL‑4 vital con salida de datos + integración al Back Office.</td></tr>
                     <tr><td>Terminal de datos TETRA (×2)</td><td class="num">35</td><td>ADIF <strong>no usa TETRA sino GSM‑R</strong> (TMG010 €2.727 terminal de mano) → se cotiza por mercado (Hytera/Motorola, ~$17,5M/u en versión de datos industrial).</td></tr>
                     <tr><td>Energía solar autónoma &lt;50 W + LiFePO4</td><td class="num">33</td><td>Mercado solar local (~$7.500 USD instalado).</td></tr>
                 </tbody>
@@ -250,8 +250,10 @@
                 <p style="font-size:0.85rem; margin:0.3rem 0; line-height:1.55;"><strong style="color:#ffc266;">⚠ Corrección de código:</strong> el código <code>CBB010</code> que se manejaba <strong>no</strong> es el motor — en el BPA es el "bastidor de equipos de enclavamiento electrónico" (categoría contadores de ejes). El accionamiento de aguja real es <code>CFA010$</code>.</p>
                 <p style="font-size:0.85rem; margin:0.3rem 0; line-height:1.55;"><strong style="color:#64ffda;">📡 GSM‑R vs TETRA:</strong> "TETRA" da cero resultados en el BPA — ADIF (España) usa GSM‑R. LFC usa TETRA por doctrina del proyecto (BCD), por eso los terminales se cotizan por mercado, no por ADIF. Confirmado.</p>
                 <p style="font-size:0.85rem; margin:0.3rem 0; line-height:1.55;"><strong style="color:#c4b5fd;">ℹ Señales abatibles:</strong> la distinción "abatible / no abatible" sí existe en CCA040$ (parámetro real del BPA), pero solo aplica a las señales de las zonas ENCE, no a los apartaderos.</p>
+                <p style="font-size:0.85rem; margin:0.3rem 0; line-height:1.55;"><strong style="color:#ffc266;">⚠ ENCE (no apartadero):</strong> la UCP del enclavamiento es <code>CAC020$</code> <strong>€118.006</strong> — la referencia previa de €356.780 era el sistema ENCE completo (módulos CAC010–CAC090), no solo la UCP.</p>
+                <p style="font-size:0.85rem; margin:0.3rem 0; line-height:1.55;"><strong style="color:#ff6b7a;">❌ Desvío talonable:</strong> no existe partida en el BPA (solo tipos C/P/G/AV/B). Si el proyecto lo requiere, va por precio contradictorio.</p>
             </div>
-            <p class="footnote">Precios ADIF = referencia europea (trocha estándar); para LFC aplican factores de soberanía técnica (trocha 914 mm, logística, MO local). Conversión 4.796 COP/EUR (TRM 4.400 × 1,09 EUR/USD). Los componentes incluidos se confirman vía RFQ — el comprobador es la línea más sensible (rango ADIF base ~$23,8M/u ↔ versión SIL‑4 vital). <strong>Pendiente:</strong> capturar la versión exacta del BPA y la URL directa por ítem.</p>
+            <p class="footnote">Precios ADIF = referencia europea (trocha estándar); para LFC aplican factores de soberanía técnica (trocha 914 mm, logística, MO local). Conversión 4.796 COP/EUR (TRM 4.400 × 1,09 EUR/USD). Los componentes incluidos se confirman vía RFQ — el comprobador es la línea más sensible (rango ADIF base ~$23,8M/u ↔ versión SIL‑4 vital). Catálogo completo de ítems BPA (códigos + precios + URLs) en el Excel, hoja «Referencia BPA».</p>
         </div>
 
         <!-- Disclaimer -->
