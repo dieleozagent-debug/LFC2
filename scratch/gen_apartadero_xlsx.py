@@ -210,7 +210,7 @@ ws3["A1"] = "VALIDACIÓN CONTRA ADIF — Banco de Precios (BPA)"
 ws3["A1"].font = f_title; ws3["A1"].fill = fill_title; ws3["A1"].alignment = Alignment(horizontal="left", vertical="center")
 ws3.row_dimensions[1].height = 26
 ws3.merge_cells("A2:F2")
-ws3["A2"] = ("Fuente: bpa.adif.es/bp1 (app v1.4.0) · BPA válida desde 19/02/2026 · Consulta: 2026-05-23 · "
+ws3["A2"] = ("Fuente: bpa.adif.es/bp1 (app v1.4.0, © ADIF 2025) · BPA válida desde 19/02/2026 · Consulta: 2026-05-23 · "
              "Precios con costes indirectos 6% · Conversión 4.796 COP/EUR (TRM 4.400 × 1,09). Detalle y URLs en hoja 'Referencia BPA'.")
 ws3["A2"].font = f_sub; ws3["A2"].fill = fill_title
 
@@ -281,7 +281,7 @@ ws4["A1"] = "REFERENCIA BPA ADIF — catálogo de ítems consultados"
 ws4["A1"].font = f_title; ws4["A1"].fill = fill_title; ws4["A1"].alignment = Alignment(horizontal="left", vertical="center")
 ws4.row_dimensions[1].height = 26
 ws4.merge_cells("A2:F2")
-ws4["A2"] = ("Fuente: bpa.adif.es/bp1 (app v1.4.0) · BPA válida desde 19/02/2026 · Consulta: 2026-05-23 · "
+ws4["A2"] = ("Fuente: bpa.adif.es/bp1 (app v1.4.0, © ADIF 2025) · BPA válida desde 19/02/2026 · Consulta: 2026-05-23 · "
              "Precios con costes indirectos 6%. Códigos $ = paramétricos; el sufijo codifica las opciones.")
 ws4["A2"].font = f_sub; ws4["A2"].fill = fill_title
 
@@ -309,6 +309,7 @@ catalogo = [
     ("E-2", "Banco de baterías independiente", "—", None, "—", "NO EXISTE — incluido en SAI (COA0xx)"),
     ("T-1", "Cable FO 48 fibras PKESP, canalización", "TCJ010bccca", 5.48, "m", BP+"158651112"),
     ("T-2", "Cable señalización 7x4x0.9 CCPSSP", "CEA030bacad", 11.67, "m", BP+"151181595"),
+    ("T-3", "Terminal de mano GSM-R OPS (ADIF no usa TETRA)", "TMG010a", 2727.38, "ud", BP+"158097881"),
 ]
 f_link = Font(name="Calibri", size=9, color="1155CC", underline="single")
 for i, (num, desc, cod, eur, ud, url) in enumerate(catalogo):
