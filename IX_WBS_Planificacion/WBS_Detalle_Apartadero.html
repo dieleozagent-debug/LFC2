@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="adn-page-title">Cargando...</title>
+    <link rel="stylesheet" href="/IX_WBS_Planificacion/wbs-shared.css">
+    <style>
+        table { width: 100%; border-collapse: collapse; margin: 1.2rem 0; background: rgba(255,255,255,0.02); border-radius: 12px; overflow: hidden; }
+        th { background: rgba(255,255,255,0.05); padding: 0.9rem 1rem; text-align: left; font-size: 0.85rem; color: var(--accent); }
+        td { padding: 0.8rem 1rem; border-bottom: 1px solid var(--glass-border); font-size: 0.88rem; }
+        td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+        tfoot td { font-weight: 700; }
+        .section-premium { margin-bottom: 2.2rem; }
+        .section-premium h2 { font-size: 1.4rem; color: var(--accent); margin-bottom: 1rem; display: flex; align-items: center; gap: 10px; }
+        .section-premium h3 { font-size: 1rem; color: var(--accent); margin: 1.4rem 0 0.5rem 0; }
+        .rfq-badge { display: inline-block; background: rgba(255,165,2,0.14); color: #ffc266; border: 1px solid rgba(255,165,2,0.45); border-radius: 20px; padding: 0.35rem 0.95rem; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.5px; }
+        .hero-grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 1.5rem; align-items: stretch; }
+        .hero-fig { background: linear-gradient(135deg, rgba(100,255,218,0.10), rgba(255,215,0,0.05)); border: 1px solid rgba(100,255,218,0.35); border-radius: 16px; padding: 1.6rem; }
+        .hero-cop { font-size: 2.5rem; font-weight: 800; color: var(--success); letter-spacing: -1px; line-height: 1; }
+        .hero-usd { font-size: 1.5rem; font-weight: 600; color: var(--accent); margin-top: 0.4rem; }
+        .hero-label { font-size: 0.7rem; letter-spacing: 2px; opacity: 0.6; text-transform: uppercase; margin-bottom: 0.6rem; }
+        .badge-cut { display: inline-block; background: rgba(46,213,115,0.15); color: #2ed573; border: 1px solid rgba(46,213,115,0.4); border-radius: 20px; padding: 0.3rem 0.9rem; font-size: 0.8rem; font-weight: 700; margin-top: 0.8rem; }
+        .hero-compare { background: rgba(255,71,87,0.06); border: 1px solid rgba(255,71,87,0.3); border-radius: 16px; padding: 1.6rem; }
+        .hero-compare .old { font-size: 1.7rem; font-weight: 700; color: #ff6b7a; text-decoration: line-through; opacity: 0.85; }
+        .pkg-tag { display: inline-block; font-size: 0.7rem; padding: 0.15rem 0.55rem; border-radius: 6px; font-weight: 700; letter-spacing: 0.5px; white-space: nowrap; }
+        .pkg-comms { background: rgba(100,255,218,0.15); color: #64ffda; }
+        .pkg-ctrl { background: rgba(167,139,250,0.18); color: #c4b5fd; }
+        .pkg-ener { background: rgba(46,213,115,0.15); color: #2ed573; }
+        .pkg-serv { background: rgba(255,165,2,0.16); color: #ffc266; }
+        .schematic { background: rgba(255,255,255,0.02); border: 1px solid var(--glass-border); border-radius: 14px; padding: 1.2rem; margin: 1rem 0; }
+        .yesno-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem; margin-top: 0.5rem; }
+        .yesno-card { padding: 1rem 1.1rem; border-radius: 12px; border-top: 4px solid; background: rgba(255,255,255,0.02); }
+        .yn-yes { border-color: #2ed573; }
+        .yn-no { border-color: #ff4757; }
+        .yn-civil { border-color: #ffa502; }
+        .yesno-card h4 { margin: 0 0 0.5rem 0; font-size: 0.92rem; }
+        .yesno-card ul { margin: 0; padding-left: 1.1rem; font-size: 0.82rem; opacity: 0.88; line-height: 1.7; }
+        .disclaimer { background: rgba(255, 215, 0, 0.06); border: 1px solid rgba(255, 215, 0, 0.3); border-radius: 12px; padding: 1.2rem; margin-top: 2rem; }
+        .disclaimer h4 { color: #ffd700; margin: 0 0 0.5rem 0; font-size: 1rem; }
+        .disclaimer p { font-size: 0.84rem; opacity: 0.9; line-height: 1.6; margin: 0.4rem 0; }
+        .footnote { font-size: 0.78rem; opacity: 0.62; line-height: 1.5; margin-top: 0.6rem; font-style: italic; }
+        @media print { .btn-dt { display: none; } body { color: #000; background: #fff; } }
+        @media (max-width: 768px) {
+            .hero-grid { grid-template-columns: 1fr; }
+            .yesno-grid { grid-template-columns: 1fr; }
+            .premium-title { font-size: 1.3rem !important; }
+            .section-premium h2 { font-size: 1.1rem; }
+            table { font-size: 0.78rem; display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+            th, td { padding: 0.5rem 0.45rem !important; font-size: 0.76rem !important; }
+            .hero-cop { font-size: 1.9rem; }
+        }
+    </style>
+</head>
+<body>
+    <div id="lfc-sidebar-container"></div>
+    <div class="main-content-wrapper">
+
+        <!-- Header -->
+        <div class="premium-card" style="margin-bottom: 2rem;">
+            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:20px;">
+                <div>
+                    <h1 class="premium-title">Automatización de 10 apartaderos — PTC Virtual</h1>
+                    <p style="opacity:0.7; font-weight:300;">Respuesta a TFP / Javier de la Mata · SICC v14.7 · TRM 4.400 COP/USD</p>
+                    <p style="margin-top:0.6rem;"><span class="rfq-badge">⚠ ORDEN DE MAGNITUD — SUJETO A RFQ FORMAL</span></p>
+                </div>
+                <button onclick="window.print()" class="btn-dt" style="padding:0.8rem 1.5rem;">Exportar PDF</button>
+            </div>
+        </div>
+
+        <!-- Hero respuesta -->
+        <div class="premium-card section-premium" style="border-left:5px solid var(--success);">
+            <p style="opacity:0.9; line-height:1.6; margin-bottom:1.2rem;">
+                Coste de automatizar <strong>10 apartaderos (20 desvíos)</strong> bajo la arquitectura PTC con cantonamiento virtual del proyecto. Dos cubos, como los planteó Jaime: <strong>comunicaciones</strong> y <strong>"motorización"</strong> — con una aclaración clave: <strong>aquí no se motoriza</strong>. Se le pone al apartadero un comprobador de aguja + radio TETRA integrada al PTC del CCO; el motor es exclusivo de los 5 ENCE.
+            </p>
+            <div class="hero-grid">
+                <div class="hero-fig">
+                    <div class="hero-label">10 apartaderos · con AIU+IVA</div>
+                    <div class="hero-cop">$3.516 millones COP</div>
+                    <div class="hero-usd">≈ 0,8 M USD</div>
+                    <div class="badge-cut">▼ ~89% vs la estimación previa</div>
+                    <p style="font-size:0.82rem; opacity:0.85; margin:0.8rem 0 0 0;">Costo directo: <strong>$2.980 M COP</strong>. Por desvío: <strong>~$24K USD</strong> (antes ~$320K).</p>
+                </div>
+                <div class="hero-compare">
+                    <div class="hero-label">Estimación anterior (modelo motorizado)</div>
+                    <div class="old">$33.200 M COP</div>
+                    <p style="font-size:0.86rem; opacity:0.85; margin:0.6rem 0 0 0;">≈ 7,7 M USD. Costeaba motor SIL‑3, aparato de vía nuevo, señales LED, gabinetes y energía grande — <strong>todo prohibido fuera de los 5 ENCE</strong>. La diferencia no es optimización: el modelo viejo costeaba elementos que la arquitectura del proyecto no permite.</p>
+                </div>
+            </div>
+            <p class="footnote" style="margin-top:1rem;">No incluye el <strong>alargamiento de los apartaderos</strong> ni su vía/aparato de vía — eso es obra civil, presupuesto aparte.</p>
+        </div>
+
+        <!-- Qué significa "motorizar" aquí -->
+        <div class="premium-card section-premium">
+            <h2>⚙️ Qué significa "motorizar" un apartadero aquí</h2>
+            <table>
+                <thead>
+                    <tr><th>Interpretación</th><th>Qué lleva</th><th class="num">$M COP / apartadero</th><th>¿Aplica?</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Literal</strong> — el CCO mueve la aguja con un motor</td>
+                        <td>Motor SIL‑3 + cerrojo + telemando vital</td>
+                        <td class="num">~1.280</td>
+                        <td style="color:#ff6b7a;">❌ Solo en los 5 ENCE. Fuera de doctrina.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PTC‑virtual</strong> — el CCO ve la aguja y el PTC protege</td>
+                        <td>Comprobador SIL‑4 + integración al PTC del CCO</td>
+                        <td class="num">~92</td>
+                        <td style="color:#2ed573;">✅ Es lo correcto. Sin motor.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="footnote">En PTC virtual, "automatizar" un apartadero = <strong>ponerle ojos (comprobador) y conectarlo al cerebro PTC del CCO (Back Office)</strong>, no ponerle un motor. El PTC no emite ni mantiene autoridad de movimiento si el comprobador reporta posición indebida (FRA 49 CFR §236.1005(e)) — ese es el mecanismo de seguridad que reemplaza la señalización lateral física.</p>
+        </div>
+
+        <!-- Esquema -->
+        <div class="premium-card section-premium">
+            <h2>🛤️ Qué tiene un apartadero (esquema)</h2>
+            <div class="schematic">
+                <svg viewBox="0 0 920 300" width="100%" style="max-height:320px;">
+                    <!-- CCO -->
+                    <rect x="380" y="14" width="160" height="40" rx="8" fill="rgba(255,215,0,0.12)" stroke="var(--accent)" stroke-width="2"/>
+                    <text x="460" y="33" fill="#ffd700" font-size="13" text-anchor="middle" font-family="Inter,sans-serif" font-weight="700">CCO — Back Office PTC</text>
+                    <text x="460" y="48" fill="#ffd700" font-size="11" text-anchor="middle" font-family="Inter,sans-serif">(lógica vital centralizada)</text>
+
+                    <!-- Vía principal -->
+                    <line x1="40" y1="220" x2="880" y2="220" stroke="#e6f1ff" stroke-width="3"/>
+                    <!-- Lazo -->
+                    <path d="M 180 220 C 250 220, 260 150, 330 150 L 590 150 C 660 150, 670 220, 740 220" fill="none" stroke="#8892b0" stroke-width="3"/>
+                    <text x="455" y="140" fill="#8892b0" font-size="12" text-anchor="middle" font-family="Inter,sans-serif">vía de apartado</text>
+                    <text x="455" y="240" fill="#e6f1ff" font-size="12" text-anchor="middle" font-family="Inter,sans-serif">vía principal</text>
+
+                    <!-- Agujas autotalonables -->
+                    <circle cx="180" cy="220" r="9" fill="none" stroke="#c4b5fd" stroke-width="3"/>
+                    <circle cx="740" cy="220" r="9" fill="none" stroke="#c4b5fd" stroke-width="3"/>
+                    <text x="180" y="262" fill="#c4b5fd" font-size="11" text-anchor="middle" font-family="Inter,sans-serif">Aguja autotalonable</text>
+                    <text x="180" y="277" fill="#c4b5fd" font-size="11" text-anchor="middle" font-family="Inter,sans-serif">+ comprobador SIL‑4</text>
+                    <text x="740" y="262" fill="#c4b5fd" font-size="11" text-anchor="middle" font-family="Inter,sans-serif">Aguja autotalonable</text>
+                    <text x="740" y="277" fill="#c4b5fd" font-size="11" text-anchor="middle" font-family="Inter,sans-serif">+ comprobador SIL‑4</text>
+
+                    <!-- Solar -->
+                    <rect x="60" y="120" width="52" height="30" rx="4" fill="rgba(46,213,115,0.15)" stroke="#2ed573" stroke-width="2"/>
+                    <line x1="73" y1="120" x2="73" y2="150" stroke="#2ed573" stroke-width="1"/><line x1="86" y1="120" x2="86" y2="150" stroke="#2ed573" stroke-width="1"/><line x1="99" y1="120" x2="99" y2="150" stroke="#2ed573" stroke-width="1"/>
+                    <text x="86" y="110" fill="#2ed573" font-size="11" text-anchor="middle" font-family="Inter,sans-serif">Solar &lt;50W + batería</text>
+
+                    <!-- Módulos TETRA + enlace inalámbrico al CCO -->
+                    <circle cx="180" cy="190" r="5" fill="#64ffda"/>
+                    <circle cx="740" cy="190" r="5" fill="#64ffda"/>
+                    <path d="M 180 188 Q 320 90 380 50" fill="none" stroke="#64ffda" stroke-width="1.6" stroke-dasharray="3 4"/>
+                    <path d="M 740 188 Q 600 90 540 50" fill="none" stroke="#64ffda" stroke-width="1.6" stroke-dasharray="3 4"/>
+                    <text x="250" y="120" fill="#64ffda" font-size="11" text-anchor="middle" font-family="Inter,sans-serif">radio TETRA</text>
+                    <text x="670" y="120" fill="#64ffda" font-size="11" text-anchor="middle" font-family="Inter,sans-serif">radio TETRA</text>
+                </svg>
+            </div>
+            <div class="yesno-grid">
+                <div class="yesno-card yn-yes">
+                    <h4 style="color:#2ed573;">✅ SÍ lleva (alcance CTSC)</h4>
+                    <ul>
+                        <li>Comprobador de aguja SIL‑4 (×2)</li>
+                        <li>Módulo telemétrico TETRA (×2)</li>
+                        <li>Energía solar autónoma + batería</li>
+                    </ul>
+                </div>
+                <div class="yesno-card yn-no">
+                    <h4 style="color:#ff6b7a;">❌ NO lleva (exclusivo ENCE)</h4>
+                    <ul>
+                        <li>Motor de aguja</li>
+                        <li>Señales LED / semáforos</li>
+                        <li>Gabinete vital / armario de relés</li>
+                        <li>Contador de ejes · circuito de vía</li>
+                        <li>Balizas · cableado vital enterrado</li>
+                    </ul>
+                </div>
+                <div class="yesno-card yn-civil">
+                    <h4 style="color:#ffc266;">🚧 Obra civil (aparte — lo mira Jaime)</h4>
+                    <ul>
+                        <li>Alargamiento del apartadero</li>
+                        <li>Vía de cruzamiento (riel, traviesa, balasto)</li>
+                        <li>Aparato de vía (estructura mecánica)</li>
+                        <li>Caseta, plataforma, accesos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Costo de UN apartadero -->
+        <div class="premium-card section-premium">
+            <h2>🧩 Costo de UN apartadero (all‑in)</h2>
+            <p style="opacity:0.85; font-size:0.9rem; margin-bottom:0.5rem;">Millones COP. Incluye su parte prorrateada de la ingeniería (que se paga una sola vez para los 10).</p>
+            <table>
+                <thead>
+                    <tr><th>Cubo</th><th>Qué es</th><th class="num">$M COP</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td><span class="pkg-tag pkg-comms">COMUNICACIONES</span></td><td>2 × módulo telemétrico TETRA (datos → Back Office)</td><td class="num">52</td></tr>
+                    <tr><td><span class="pkg-tag pkg-ctrl">"MOTORIZACIÓN" = CTC/PTC</span></td><td>2 × comprobador punta de aguja SIL‑4 + integración al PTC del CCO <span style="opacity:0.6">(sin motor)</span></td><td class="num">92</td></tr>
+                    <tr><td><span class="pkg-tag pkg-ener">ENERGÍA</span></td><td>Solar &lt;50 W + batería LiFePO4</td><td class="num">33</td></tr>
+                    <tr><td><span class="pkg-tag pkg-serv">SERVICIOS</span></td><td>Instalación + prueba in‑situ (SAT)</td><td class="num">31</td></tr>
+                    <tr><td><span class="pkg-tag pkg-serv">INGENIERÍA</span></td><td>Diseño + config Back Office + safety case <span style="opacity:0.6">(prorrateado ÷10)</span></td><td class="num">90</td></tr>
+                </tbody>
+                <tfoot>
+                    <tr style="background:rgba(100,255,218,0.08);"><td colspan="2">Costo directo por apartadero (all‑in)</td><td class="num">~298 &nbsp;<span style="opacity:0.7; font-weight:500;">≈ $68K USD</span></td></tr>
+                    <tr style="background:rgba(255,215,0,0.06);"><td colspan="2">Con AIU + IVA (×1,18)</td><td class="num">~352 &nbsp;<span style="opacity:0.7; font-weight:500;">≈ $80K USD</span></td></tr>
+                </tfoot>
+            </table>
+        </div>
+
+        <!-- Costo de los 10 -->
+        <div class="premium-card section-premium">
+            <h2>📊 Costo de los 10 apartaderos (lo que pidió TFP)</h2>
+            <table>
+                <thead>
+                    <tr><th>Cubo</th><th class="num">$M COP (10)</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td><span class="pkg-tag pkg-comms">COMUNICACIONES</span> &nbsp; TETRA (20 módulos)</td><td class="num">520</td></tr>
+                    <tr><td><span class="pkg-tag pkg-ctrl">CTC/PTC</span> &nbsp; comprobador SIL‑4 + integración CCO (20 desvíos)</td><td class="num">920</td></tr>
+                    <tr><td><span class="pkg-tag pkg-ener">ENERGÍA</span> &nbsp; solar autónoma (×10)</td><td class="num">330</td></tr>
+                    <tr><td><span class="pkg-tag pkg-serv">SERVICIOS + INGENIERÍA</span> &nbsp; campo + diseño/config global</td><td class="num">1.210</td></tr>
+                </tbody>
+                <tfoot>
+                    <tr style="background:rgba(255,255,255,0.04);"><td>Costo directo total</td><td class="num">~2.980</td></tr>
+                    <tr style="background:rgba(100,255,218,0.10);"><td>Con AIU + IVA (×1,18)</td><td class="num">~3.516 &nbsp;<span style="opacity:0.7; font-weight:500;">≈ $0,8M USD</span></td></tr>
+                </tfoot>
+            </table>
+            <p class="footnote">Banda por incertidumbre de precios (sin cotización formal): <strong>$2,5–4,3 mil M COP ≈ $0,57–0,98 M USD</strong>. El mismo modelo escala a todo el corredor (~60 apartaderos) en ~$2,5–4,7 M USD — es decir, automatizar los 60 cuesta menos que la estimación previa para solo 10.</p>
+        </div>
+
+        <!-- Mensaje listo para Jaime/Javier -->
+        <div class="premium-card section-premium" style="border-left:5px solid var(--accent);">
+            <h2>✉️ Resumen para TFP / Javier de la Mata</h2>
+            <p style="line-height:1.7; font-size:0.92rem;">
+                <strong>10 apartaderos — automatización PTC Virtual (sin motor):</strong><br>
+                • Comunicaciones (TETRA ×20 módulos): ~$520M COP<br>
+                • Equipo CTC/PTC — comprobador SIL‑4 + integración CCO (×20): ~$920M COP<br>
+                • Energía solar autónoma (×10): ~$330M COP<br>
+                • Servicios de campo + ingeniería global: ~$1.210M COP<br>
+                • <strong>Costo directo total: ~$2.980M COP</strong><br>
+                • <strong>Con AIU+IVA: ~$3.516M COP ≈ $0,8M USD</strong> (TRM 4.400)<br>
+                <span style="opacity:0.8;">No incluye alargamiento de apartaderos (obra civil aparte). Cifras de orden de magnitud — sujeto a RFQ formal (Frauscher/Siemens/Hytera).</span>
+            </p>
+            <p style="line-height:1.7; font-size:0.9rem; opacity:0.9; margin-top:0.8rem;">
+                <strong>Nota:</strong> en el modelo PTC Virtual del proyecto, "automatizar" un apartadero no lleva motor ni señales ni gabinetes — eso es exclusivo de los 5 ENCE. Solo lleva comprobador de aguja + radio TETRA integrada al Back Office del CCO. El costo por desvío es <strong>~$24K USD</strong>, no $320K del modelo anterior.
+            </p>
+        </div>
+
+        <!-- Disclaimer -->
+        <div class="disclaimer">
+            <h4>Disclaimer · Orden de magnitud — sujeto a RFQ</h4>
+            <p>Cifras de orden de magnitud bajo línea base SICC v14.7 y doctrina conceptual (autotalonables con comprobación fuera de ENCE; FRA 49 CFR §236.1005). <strong>No constituyen cotización formal.</strong> Los precios de comprobador SIL‑4, módem TETRA y solar son estimación de mercado, sujetos a RFQ a proveedor (Frauscher, Siemens Mobility, Thales, Hytera/Motorola) o adaptación de la partida "comprobador de agujas / telemando" del BPA ADIF con factor Colombia.</p>
+            <p><strong>Alcance:</strong> cubre exclusivamente el CTSC (comprobadores + TETRA + solar + servicios + ingeniería). <strong>No incluye</strong> el alargamiento de los apartaderos ni la obra civil/vía asociada, que se presupuesta por separado.</p>
+            <p>Referencia previa (para comparación): <a href="/IX_WBS_Planificacion/WBS_Reporte_Gerencial" style="color: var(--accent);">Reporte Gerencial</a> · Detalle WBS: <a href="/IX_WBS_Planificacion/WBS_Vista_Final" style="color: var(--accent);">Vista Final</a>.</p>
+        </div>
+    </div>
+
+    <script src="/IX_WBS_Planificacion/lfc-terminology.js?v=14.7.13"></script>
+    <script src="/IX_WBS_Planificacion/sidebar-component.js?v=14.7.13"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const titleEl = document.getElementById('adn-page-title');
+            if (titleEl) {
+                titleEl.textContent = `Apartaderos PTC — ${ (window.LFC_TERMINOLOGY && window.LFC_TERMINOLOGY.APP_SHORT_NAME) || 'LFC2'}`;
+            }
+        });
+    </script>
+</body>
+</html>

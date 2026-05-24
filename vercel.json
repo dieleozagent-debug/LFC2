@@ -37,6 +37,10 @@
       "destination": "/IX_WBS_Planificacion/WBS_Reporte_Gerencial"
     },
     {
+      "source": "/apartadero",
+      "destination": "/IX_WBS_Planificacion/WBS_Detalle_Apartadero"
+    },
+    {
       "source": "/riesgos",
       "destination": "/IX_WBS_Planificacion/WBS_Analisis_Riesgos"
     },
