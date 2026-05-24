@@ -76,6 +76,8 @@ rows = [
     ("Núcleo enclavamiento", "Bastidor de equipos de enclavamiento", "CAC030caa", 16399.36, 1, "OK"),
     ("Núcleo enclavamiento", "Cableado red local del enclavamiento", "CAC040ca", 5689.43, 1, "OK"),
     ("Núcleo enclavamiento", "Controlador de objetos 160E/128S", "CAC050ca", 33919.15, 1, "OK"),
+    ("Núcleo enclavamiento", "Registrador jurídico", "CAC070", 23352.44, 1, "OK"),
+    ("Núcleo enclavamiento", "Control de interfaz a CTC (serie)", "CAC080", 25505.19, 1, "OK"),
     ("Núcleo enclavamiento", "Firewall de enclavamiento", "CAC170", 6885.21, 1, "OK"),
     ("Aparatos de vía", "Motor eléctrico de aguja (con cerrojo)", "CFA010$", 10624.66, 8, "OK"),
     ("Aparatos de vía", "Comprobador de aguja", "CFA040$", 4963.85, 8, "OK"),
@@ -126,7 +128,8 @@ r += 1
 for note in [
     "Cantidades = ENCE PROMEDIO (referencia Ardanuy ÷ 5 estaciones): 8 desvíos motorizados, 12 señales, 9 contadores de ejes. Ajustar por estación (La Dorada–México > Zapatosa).",
     "Precios ADIF = suministro + montaje, costes indirectos 6% incluidos. Referencia europea; aplicar factores LFC (trocha 914, logística, MO).",
-    "Núcleo CAC 100% precios ADIF reales (sin estimaciones): UCP CAC020 + CAC010/030/040/050 + firewall CAC170. Catálogo completo CAC# (17 ítems) en Precios_Base_ADIF_BPA_2026.md.",
+    "Núcleo CAC 100% precios ADIF reales: UCP CAC020 + CAC010/030/040/050 + registrador CAC070 + interfaz CTC CAC080 + firewall CAC170. Catálogo completo (17 módulos) en Precios_Base_ADIF_BPA_2026.md.",
+    "Módulos CAC por estación (no en el tipo): CAC060 interfaz a ENCE de otra tecnología (frontera FENOCO: García Cadena/Chiriguaná), CAC140 control de mando local (operación degradada), CAC090 rack adicional. Los módulos de mando CAC130-160 no se suman para no duplicar el controlador de objetos / equipo de campo.",
     "Detección por contador de ejes (Ardanuy). Alternativa: circuito de vía AF (CBC030$ €7.938/u) — solución mixta según TCO Detección.",
     "ENERGÍA: SAI COA220$ 6h/20 kVA (€32.077) cumple DBCD §10.5 (≥4h). COA200 (1h) y COA210 (2h) no alcanzan.",
 ]:

@@ -92,7 +92,9 @@ Combinación fijada: Suministro y montaje · opción más simple · Diurno (salv
 - NO lleva: motor (CFA010), señal (CCA040), aparato de vía (VEA010) — todo eso es ENCE u obra civil.
 
 **ENCE (estación, cantonamiento físico)** → ver `WBS_Baseline_ENCE.html` / `Baseline_ENCE_ADIF.xlsx`
-- UCP **CAC020** + núcleo (CAC010/030/040/050, pendiente) + motores **CFA010** + comprobadores **CFA040** + señales **CCA040** + contadores **CBB030/040** + armarios **CDB010/CDA010** + caseta **TMI010** + cables **CEA030/TCJ010** + SAI **COA090/200**.
+- Núcleo (8 módulos, 100% ADIF): UCP **CAC020** + armario **CAC010** + bastidor **CAC030** + cableado **CAC040** + controlador **CAC050** + registrador jurídico **CAC070** + interfaz CTC **CAC080** + firewall **CAC170**.
+- Campo: motores **CFA010** + comprobadores **CFA040** + señales **CCA040** + contadores **CBB030/040** + armarios **CDB010/CDA010** + caseta **TMI010** + cables **CEA030/TCJ010** + SAI **COA220** (6h).
+- Por estación (no en el tipo): **CAC060** (interfaz a otra tecnología — frontera FENOCO), **CAC140** (mando local degradado), **CAC090** (rack adicional). Módulos de mando CAC130–160 excluidos para no duplicar el controlador de objetos.
 
 ---
 
