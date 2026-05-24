@@ -126,6 +126,7 @@ for note in [
     "Cifras de orden de magnitud — sujeto a RFQ formal (Frauscher / Siemens / Hytera).",
     "NO incluye: alargamiento de apartaderos (obra civil) ni infraestructura TETRA del corredor (ya presupuestada).",
     "Un apartadero lleva: comprobador SIL-4 ×2 + terminal TETRA ×2 + solar. Sin motor, sin señales, sin gabinetes.",
+    "Anclas de precio / códigos BPA: ver hoja 'Validación ADIF' (fuente bpa.adif.es · consulta 2026-05-23 · versión BPA por confirmar).",
 ]:
     ws1.merge_cells(start_row=r, start_column=1, end_row=r, end_column=4)
     ws1.cell(row=r, column=1, value=note).font = f_note
@@ -206,6 +207,7 @@ for note in [
     "NO incluye: alargamiento de apartaderos (obra civil) ni infraestructura TETRA del corredor (ya presupuestada en el proyecto).",
     "Infraestructura TETRA verificada en WBS v3.0: no hay partida de terminales para apartaderos → el terminal del switch es incremental (sin doble conteo).",
     "El costo unitario baja con el volumen: la ingeniería fija (~$900M) se reparte entre más apartaderos.",
+    "Anclas de precio / códigos BPA: ver hoja 'Validación ADIF' (fuente bpa.adif.es · consulta 2026-05-23 · versión BPA por confirmar).",
 ]:
     ws2.merge_cells(start_row=r, start_column=1, end_row=r, end_column=5)
     ws2.cell(row=r, column=1, value=note).font = f_note
@@ -215,15 +217,16 @@ for note in [
 # ───────────────────────── HOJA 3: VALIDACIÓN ADIF ─────────────────────────
 ws3 = wb.create_sheet("Validación ADIF")
 ws3.sheet_view.showGridLines = False
-for i, w in enumerate([42, 22, 13, 12, 44], 1):
+for i, w in enumerate([34, 17, 26, 11, 11, 34], 1):
     ws3.column_dimensions[get_column_letter(i)].width = w
 
-ws3.merge_cells("A1:E1")
-ws3["A1"] = "VALIDACIÓN CONTRA ADIF BPA 2026  —  consulta directa (bpa.adif.es)"
+ws3.merge_cells("A1:F1")
+ws3["A1"] = "VALIDACIÓN CONTRA ADIF — Banco de Precios (BPA)"
 ws3["A1"].font = f_title; ws3["A1"].fill = fill_title; ws3["A1"].alignment = Alignment(horizontal="left", vertical="center")
 ws3.row_dimensions[1].height = 26
-ws3.merge_cells("A2:E2")
-ws3["A2"] = "Conversión 4.796 COP/EUR (TRM 4.400 × 1,09). Precios ADIF = referencia europea, trocha estándar."
+ws3.merge_cells("A2:F2")
+ws3["A2"] = ("Fuente: bpa.adif.es (consulta directa)  ·  Fecha de consulta: 2026-05-23  ·  "
+             "Versión BPA: POR CONFIRMAR  ·  Conversión 4.796 COP/EUR (TRM 4.400 × 1,09)")
 ws3["A2"].font = f_sub; ws3["A2"].fill = fill_title
 
 EUR_FMT = '#,##0 "€"'
@@ -231,43 +234,50 @@ COPM_FMT = '#,##0.0 "M"'
 r = 4
 ws3.cell(row=r, column=1, value="EXCLUIDOS — no son alcance del apartadero").font = f_total
 r += 1
-for c, h in enumerate(["Componente", "Código BPA", "Precio €/ud", "≈ COP (M)", "Por qué se excluye"], 1):
+for c, h in enumerate(["Componente", "Código BPA", "Ruta BPA (capítulo)", "Precio €/ud", "≈ COP (M)", "Por qué se excluye"], 1):
     cell = ws3.cell(row=r, column=c, value=h); cell.font = f_hdr; cell.fill = fill_hdr; cell.border = border
-    cell.alignment = center if 3 <= c <= 4 else left
+    cell.alignment = center if 4 <= c <= 5 else left
 r += 1
-for i, (comp, cod, eur, cop, nota) in enumerate([
-    ("Aparato de vía — desvío (suministro)", "VEA010$ (tipo C·r318·nuevo)", 104566, 501.5, "Obra civil/vía. Apartaderos existentes (AT1). Montaje en VEC#."),
-    ("Motor / accionamiento de aguja", "CFA010$", 10625, 51.0, "Autotalonable fuera de ENCE — sin motor."),
-    ("Señal luminosa LED", "CCA040$ (alta no abatible·3 focos)", 7934, 38.1, "PTC virtual — sin semáforo lateral. Solo ENCE (WBS 1.5.101)."),
+for i, (comp, cod, ruta, eur, cop, nota) in enumerate([
+    ("Aparato de vía — desvío (suministro)", "VEA010aba", "V# › VE# › VEA# (Suministro)", 104566, 501.5, "Obra civil/vía. Apartaderos existentes (AT1). Montaje en VEC#."),
+    ("Motor / accionamiento de aguja", "CFA010aaa", "C# › CF# (Aparatos vía) › CFA#", 10625, 51.0, "Autotalonable fuera de ENCE — sin motor."),
+    ("Señal luminosa LED", "CCA040ebaad", "C# › CC# › CCA# (Señales laterales)", 7934, 38.1, "PTC virtual — sin semáforo lateral. Solo ENCE (WBS 1.5.101)."),
 ]):
     ws3.cell(row=r, column=1, value=comp)
     ws3.cell(row=r, column=2, value=cod)
-    ws3.cell(row=r, column=3, value=eur).number_format = EUR_FMT
-    ws3.cell(row=r, column=4, value=cop).number_format = COPM_FMT
-    ws3.cell(row=r, column=5, value=nota)
-    style_row(ws3, r, 5, fill=(fill_zebra if i % 2 else None))
-    ws3.cell(row=r, column=1).alignment = left; ws3.cell(row=r, column=5).alignment = left
-    ws3.cell(row=r, column=3).alignment = right; ws3.cell(row=r, column=4).alignment = right
+    ws3.cell(row=r, column=3, value=ruta)
+    ws3.cell(row=r, column=4, value=eur).number_format = EUR_FMT
+    ws3.cell(row=r, column=5, value=cop).number_format = COPM_FMT
+    ws3.cell(row=r, column=6, value=nota)
+    style_row(ws3, r, 6, fill=(fill_zebra if i % 2 else None))
+    for col in (1, 3, 6):
+        ws3.cell(row=r, column=col).alignment = left
+    ws3.cell(row=r, column=4).alignment = right; ws3.cell(row=r, column=5).alignment = right
     r += 1
 
 r += 1
 ws3.cell(row=r, column=1, value="INCLUIDOS — equipo CTSC incremental").font = f_total
 r += 1
-for c, h in enumerate(["Componente", "$M COP (modelo)", "Ancla ADIF / referencia", "", ""], 1):
+for c, h in enumerate(["Componente", "$M COP", "Ruta BPA / referencia", "", "", "Detalle"], 1):
     cell = ws3.cell(row=r, column=c, value=h); cell.font = f_hdr; cell.fill = fill_hdr; cell.border = border
     cell.alignment = center if c == 2 else left
 r += 1
-for i, (comp, cop, ref) in enumerate([
-    ("Comprobador de aguja (×2) + integración CCO", 92, "ADIF CFA040$ €4.963,85/ud ≈ $23,8M/u (suministro+montaje). 2 ud ≈ $48M base; resto = SIL-4 vital + integración Back Office."),
-    ("Terminal de datos TETRA (×2)", 35, "ADIF no usa TETRA sino GSM-R (TMG010 €2.727). Mercado Hytera/Motorola ~$17,5M/u dato industrial."),
-    ("Energía solar autónoma <50W + LiFePO4", 33, "Mercado solar local (~$7.500 USD instalado)."),
+for i, (comp, cop, ruta, detalle) in enumerate([
+    ("Comprobador de aguja (×2) + integración CCO", 92, "ADIF CFA040caa · C# › CF# › CFA#",
+     "€4.963,85/ud ≈ $23,8M/u (suministro+montaje). 2 ud ≈ $48M base; resto = SIL-4 vital + integración Back Office."),
+    ("Terminal de datos TETRA (×2)", 35, "Mercado (ADIF no tiene TETRA, usa GSM-R)",
+     "Ref. ADIF GSM-R TMG010a €2.727 (terminal mano). Mercado Hytera/Motorola ~$17,5M/u dato industrial."),
+    ("Energía solar autónoma <50W + LiFePO4", 33, "Mercado solar local",
+     "~$7.500 USD instalado."),
 ]):
     ws3.cell(row=r, column=1, value=comp)
     ws3.cell(row=r, column=2, value=cop).number_format = COP_FMT
     ws3.merge_cells(start_row=r, start_column=3, end_row=r, end_column=5)
-    ws3.cell(row=r, column=3, value=ref)
-    style_row(ws3, r, 5, fill=(fill_zebra if i % 2 else None))
-    ws3.cell(row=r, column=1).alignment = left; ws3.cell(row=r, column=2).alignment = right; ws3.cell(row=r, column=3).alignment = left
+    ws3.cell(row=r, column=3, value=ruta)
+    ws3.cell(row=r, column=6, value=detalle)
+    style_row(ws3, r, 6, fill=(fill_zebra if i % 2 else None))
+    ws3.cell(row=r, column=1).alignment = left; ws3.cell(row=r, column=2).alignment = right
+    ws3.cell(row=r, column=3).alignment = left; ws3.cell(row=r, column=6).alignment = left
     r += 1
 
 r += 1
@@ -276,8 +286,9 @@ for note in [
     "GSM-R vs TETRA: 'TETRA' da cero resultados en BPA — ADIF usa GSM-R. LFC usa TETRA por doctrina (BCD) -> terminales por mercado.",
     "Abatibles: la distinción abatible/no abatible existe en CCA040$ (parámetro BPA), pero solo aplica a señales de ENCE.",
     "El comprobador es la línea más sensible: rango ADIF base ~$23,8M/u <-> versión SIL-4 vital. Confirmar vía RFQ.",
+    "PENDIENTE: capturar la VERSIÓN/año exacta del BPA y la URL directa por ítem en la próxima consulta (no se registraron).",
 ]:
-    ws3.merge_cells(start_row=r, start_column=1, end_row=r, end_column=5)
+    ws3.merge_cells(start_row=r, start_column=1, end_row=r, end_column=6)
     ws3.cell(row=r, column=1, value=note).font = f_note
     ws3.cell(row=r, column=1).alignment = left
     r += 1
