@@ -20,6 +20,12 @@
         .hero-cop { font-size: 2.5rem; font-weight: 800; color: var(--success); letter-spacing: -1px; line-height: 1; }
         .hero-usd { font-size: 1.5rem; font-weight: 600; color: var(--accent); margin-top: 0.4rem; }
         .hero-label { font-size: 0.7rem; letter-spacing: 2px; opacity: 0.6; text-transform: uppercase; margin-bottom: 0.6rem; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; }
+        .kpi-card { padding: 1.3rem; border-radius: 14px; background: rgba(255,255,255,0.03); border: 1px solid var(--glass-border); border-top: 4px solid var(--glass-border); text-align: center; }
+        .kpi-card.primary { border-top-color: var(--success); background: linear-gradient(135deg, rgba(100,255,218,0.10), rgba(255,215,0,0.04)); }
+        .kpi-card .kpi-label { font-size: 0.68rem; letter-spacing: 1.5px; opacity: 0.6; text-transform: uppercase; }
+        .kpi-card .kpi-cop { font-size: 1.7rem; font-weight: 800; color: var(--success); margin: 0.4rem 0 0.1rem 0; letter-spacing: -0.5px; }
+        .kpi-card .kpi-usd { font-size: 1rem; font-weight: 600; color: var(--accent); }
         .pkg-tag { display: inline-block; font-size: 0.7rem; padding: 0.15rem 0.55rem; border-radius: 6px; font-weight: 700; letter-spacing: 0.5px; white-space: nowrap; }
         .pkg-comms { background: rgba(100,255,218,0.15); color: #64ffda; }
         .pkg-ctrl { background: rgba(167,139,250,0.18); color: #c4b5fd; }
@@ -39,7 +45,7 @@
         .footnote { font-size: 0.78rem; opacity: 0.62; line-height: 1.5; margin-top: 0.6rem; font-style: italic; }
         @media print { .btn-dt { display: none; } body { color: #000; background: #fff; } }
         @media (max-width: 768px) {
-            .hero-grid { grid-template-columns: 1fr; }
+            .hero-grid, .kpi-grid { grid-template-columns: 1fr; }
             .yesno-grid { grid-template-columns: 1fr; }
             .premium-title { font-size: 1.3rem !important; }
             .section-premium h2 { font-size: 1.1rem; }
@@ -57,8 +63,8 @@
         <div class="premium-card" style="margin-bottom: 2rem;">
             <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:20px;">
                 <div>
-                    <h1 class="premium-title">Automatización de 10 apartaderos — PTC Virtual</h1>
-                    <p style="opacity:0.7; font-weight:300;">SICC v14.7 · TRM 4.400 COP/USD · precios base ADIF (BPA 2026)</p>
+                    <h1 class="premium-title">Apartaderos — Sistema CTSC · Arquitectura PTC Virtual</h1>
+                    <p style="opacity:0.7; font-weight:300;">Corredor La Dorada–Chiriguaná · Contrato APP No. 001 de 2025 · SICC v14.7 · TRM 4.400 COP/USD</p>
                     <p style="margin-top:0.6rem;"><span class="rfq-badge">⚠ ORDEN DE MAGNITUD — SUJETO A RFQ FORMAL</span></p>
                 </div>
                 <button onclick="window.print()" class="btn-dt" style="padding:0.8rem 1.5rem;">Exportar PDF</button>
@@ -70,11 +76,22 @@
             <p style="opacity:0.9; line-height:1.6; margin-bottom:1.2rem;">
                 Coste de automatizar <strong>10 apartaderos (20 desvíos)</strong> bajo la arquitectura PTC con cantonamiento virtual del proyecto. Cada apartadero lleva <strong>comprobador de aguja + terminal TETRA + energía solar</strong>: la aguja la mueve el tren por resorte, el CCO ve la posición y el PTC protege. No lleva motor, señales ni gabinetes.
             </p>
-            <div class="hero-fig" style="max-width:440px;">
-                <div class="hero-label">10 apartaderos · con AIU+IVA</div>
-                <div class="hero-cop">$3.316 millones COP</div>
-                <div class="hero-usd">≈ 0,75 M USD</div>
-                <p style="font-size:0.82rem; opacity:0.85; margin:0.8rem 0 0 0;">Costo directo: <strong>$2.810 M COP</strong> · ~$22K USD por desvío.</p>
+            <div class="kpi-grid">
+                <div class="kpi-card">
+                    <div class="kpi-label">1 apartadero · con AIU+IVA</div>
+                    <div class="kpi-cop">$332 M COP</div>
+                    <div class="kpi-usd">≈ $75K USD</div>
+                </div>
+                <div class="kpi-card primary">
+                    <div class="kpi-label">10 apartaderos · con AIU+IVA</div>
+                    <div class="kpi-cop">$3.316 M COP</div>
+                    <div class="kpi-usd">≈ $0,75M USD</div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-label">Por desvío</div>
+                    <div class="kpi-cop">~$22K USD</div>
+                    <div class="kpi-usd">20 desvíos en 10 apt.</div>
+                </div>
             </div>
             <p class="footnote" style="margin-top:1rem;">No incluye el <strong>alargamiento de los apartaderos</strong> ni su vía/aparato de vía — eso es obra civil, presupuesto aparte. La <strong>infraestructura TETRA del corredor</strong> (torres, antenas, licencias) tampoco se recobra aquí: ya está en el presupuesto principal.</p>
         </div>
@@ -191,6 +208,37 @@
                 </tfoot>
             </table>
             <p class="footnote"><strong>Infraestructura TETRA ya presupuestada</strong> (torres, antenas, controladores y licencias cubren todo el corredor, en el presupuesto principal): aquí solo se cobra el terminal de datos del switch + alta. <strong>Verificado en WBS v3.0</strong> — no existe partida de terminales de datos para apartaderos, así que es incremental legítimo (sin doble conteo). Banda por incertidumbre: <strong>~$0,55–0,9 M USD</strong>. El mismo modelo escala a los ~60 del corredor en ~$2,5–4,7 M USD.</p>
+        </div>
+
+        <!-- Validación ADIF -->
+        <div class="premium-card section-premium">
+            <h2>📑 Validación contra ADIF BPA 2026</h2>
+            <p style="opacity:0.85; font-size:0.9rem; margin-bottom:0.5rem;">El modelo excluye la superestructura (obra civil / vía) y los componentes exclusivos de ENCE, y conserva solo el equipo CTSC incremental del apartadero. Contraste con la Base de Precios ADIF (BPA 2026):</p>
+
+            <h3>Componentes EXCLUIDOS — no son alcance del apartadero</h3>
+            <table>
+                <thead>
+                    <tr><th>Componente</th><th>Código ADIF</th><th class="num">Precio ADIF</th><th>Por qué se excluye</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Aparato de vía (desvío)</td><td>VEA010</td><td class="num">€114.320 ≈ $548M</td><td>Obra civil/vía. Apartaderos existentes (AT1) — no es alcance SCC.</td></tr>
+                    <tr><td>Motor de accionamiento</td><td>CBB010</td><td class="num">€6.845 ≈ $33M</td><td>Fuera de ENCE la aguja es autotalonable — sin motor.</td></tr>
+                    <tr><td>Señal luminosa LED</td><td>CCA040</td><td class="num">€10.450 ≈ $50M</td><td>PTC virtual: sin semáforo lateral en vía general (FRA §236.1005). Solo aplica en las 5 zonas ENCE (WBS 1.5.101).</td></tr>
+                </tbody>
+            </table>
+
+            <h3>Componentes INCLUIDOS — equipo CTSC incremental</h3>
+            <table>
+                <thead>
+                    <tr><th>Componente</th><th class="num">$M COP</th><th>Referencia de precio</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Comprobador de aguja SIL‑4 (×2) + integración CCO</td><td class="num">92</td><td>Referencia de mercado europeo (detector/cerrojo SIL‑4 ~€9–10k/u) + integración</td></tr>
+                    <tr><td>Terminal de datos TETRA (×2)</td><td class="num">35</td><td>Mercado COL/LATAM (Hytera/Motorola ~$1.500–2.500 USD/u)</td></tr>
+                    <tr><td>Energía solar autónoma &lt;50 W + LiFePO4</td><td class="num">33</td><td>Mercado solar local (~$7.500 USD instalado)</td></tr>
+                </tbody>
+            </table>
+            <p class="footnote">Los precios de los componentes incluidos son <strong>referencia de mercado</strong> (europeo/LATAM), no partidas ADIF exactas — se confirman vía RFQ. La conversión usa 4.796 COP/EUR (TRM 4.400 × 1,09 EUR/USD).</p>
         </div>
 
         <!-- Disclaimer -->
