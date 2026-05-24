@@ -40,9 +40,9 @@ const LFC_DBCI = {
     SOVEREIGN: {
         SIGNALING: "SICC v6.3.3 (Sistema de Intervención y Control Centralizado)",
         PTC: "PTC Virtual (Positive Train Control - FRA 236-I)",
-        BACKBONE: "Red Vital IP (Broadband Sovereign)",
+        BACKBONE: "Backbone de fibra óptica G.652.D 48h (ITU-T G.652)",
         STANDARDS: "FRA / AREMA / AAR (Soberanía Digital)",
-        COMMS: "Red Vital IP / TETRA / LTE (Broadband)",
+        COMMS: "TETRA (ETSI EN 300 392) + fibra G.652.D + satelital",
         DETECTION: "Bloque Virtual (GNSS / EOT)"
     },
     
@@ -76,7 +76,7 @@ const LFC_DBCI = {
         "EULYNX": "Arquitectura SICC v6.3.3",
         "Eurobalise": "Punto de Referencia Virtual (GNSS)",
         "EUROBALISE": "Invariable Virtual GNSS (SICC)",
-        "GSM-R": "Red Vital IP (SICC v7.0)",
+        "GSM-R": "TETRA (ETSI EN 300 392) / fibra G.652.D",
         "Eurobaliza": "Baliza Virtual (GNSS/EOT)",
         "EUROBALIZA": "Baliza Virtual (GNSS/EOT)",
         "ETCS": "PTC Virtual (SICC)",
@@ -103,7 +103,7 @@ const LFC_DBCI = {
         "Manual de Senalización Vial 2015": "Manual de Señalización Vial 2024 (Res. 20243040045005)",
         "Resolución 1885 de 2015": "Resolución 20243040045005 de 2024",
         "EDFA": "Ópticas Pasivas ZR (Sustracción N-1)",
-        "ROADM": "Red Vital IP (Direct Fiber Only)",
+        "ROADM": "Fibra óptica directa G.652.D (sin DWDM)",
         "G.984": "Arquitectura Active Ethernet (SICC Soberano)",
         "GPON": "Arquitectura Active Ethernet (SICC Soberano)",
         "IEEE 802.3": "Catálogo IEEE Industrial (802.3z/u/an/af | 802.1q/p/d/w/x)",
