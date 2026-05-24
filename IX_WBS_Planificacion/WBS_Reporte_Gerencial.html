@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="adn-page-title">Cargando...</title>
-    <link rel="stylesheet" href="/IX_WBS_Planificacion/wbs-shared.css">
+    <link rel="stylesheet" href="wbs-shared.css">
     <style>
         .metric-card { text-align: center; padding: 1.5rem; }
         .metric-value { font-size: 2.2rem; font-weight: 700; color: var(--accent); margin-bottom: 0.5rem; }
@@ -33,44 +33,6 @@
         .disclaimer { background: rgba(255, 215, 0, 0.06); border: 1px solid rgba(255, 215, 0, 0.3); border-radius: 12px; padding: 1.2rem; margin-top: 2rem; }
         .disclaimer h4 { color: #ffd700; margin: 0 0 0.5rem 0; font-size: 1rem; }
         .disclaimer p { font-size: 0.85rem; opacity: 0.9; line-height: 1.6; margin: 0.4rem 0; }
-        /* Consulta TFP — Minto pyramid */
-        .consulta-hero { background: linear-gradient(135deg, rgba(255, 215, 0, 0.10), rgba(100, 255, 218, 0.06)); border: 1px solid rgba(255, 215, 0, 0.35); border-radius: 16px; padding: 2rem; margin-bottom: 1.5rem; }
-        .consulta-meta { display: flex; gap: 1.5rem; flex-wrap: wrap; font-size: 0.78rem; opacity: 0.75; margin-bottom: 1rem; letter-spacing: 1px; text-transform: uppercase; }
-        .consulta-meta span strong { color: var(--accent); font-weight: 700; }
-        .consulta-pregunta { font-size: 1.1rem; opacity: 0.9; margin-bottom: 1.5rem; line-height: 1.5; }
-        .consulta-respuesta-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1rem; }
-        .consulta-big-cop { font-size: 2.6rem; font-weight: 800; color: var(--accent); letter-spacing: -1px; line-height: 1; }
-        .consulta-big-usd { font-size: 1.6rem; font-weight: 600; color: var(--success); margin-top: 0.4rem; }
-        .consulta-respuesta-label { font-size: 0.7rem; letter-spacing: 2px; opacity: 0.6; text-transform: uppercase; margin-bottom: 0.6rem; }
-        .pilares-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.2rem; margin: 1.5rem 0; }
-        .pilar-card { padding: 1.5rem; border-radius: 14px; background: rgba(255,255,255,0.03); border: 1px solid var(--glass-border); border-top: 4px solid; }
-        .pilar-card.motor { border-top-color: #ffa502; }
-        .pilar-card.comms { border-top-color: #64ffda; }
-        .pilar-card.asunciones { border-top-color: #a78bfa; }
-        .pilar-card h4 { font-size: 1rem; margin: 0 0 0.6rem 0; display: flex; justify-content: space-between; align-items: baseline; }
-        .pilar-card .pilar-pct { font-size: 0.75rem; opacity: 0.6; font-weight: 500; }
-        .pilar-card .pilar-fig { font-size: 1.4rem; font-weight: 700; color: #fff; margin: 0.4rem 0 0.8rem 0; }
-        .pilar-card ul { margin: 0; padding-left: 1.2rem; font-size: 0.85rem; opacity: 0.85; line-height: 1.7; }
-        @media (max-width: 768px) { .consulta-respuesta-grid { grid-template-columns: 1fr; } }
-        @media (max-width: 640px) {
-            .main-content-wrapper { padding: 0.5rem !important; }
-            #consulta-tfp-apartaderos { border-left-width: 3px !important; padding: 1.1rem !important; }
-            .premium-card { padding: 1.1rem !important; }
-            .premium-title { font-size: 1.25rem !important; line-height: 1.25; }
-            .section-premium h2 { font-size: 1.1rem !important; }
-            .section-premium h3 { font-size: 0.92rem !important; }
-            .consulta-hero { padding: 1.2rem !important; }
-            .consulta-meta { gap: 0.5rem !important; font-size: 0.62rem !important; }
-            .consulta-big-cop { font-size: 1.7rem !important; }
-            .consulta-big-usd { font-size: 1.15rem !important; }
-            .scenario-grid { grid-template-columns: 1fr !important; }
-            .pilares-grid { grid-template-columns: 1fr !important; }
-            table { font-size: 0.78rem; display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
-            th { padding: 0.55rem 0.45rem !important; font-size: 0.72rem !important; }
-            td { padding: 0.5rem 0.45rem !important; font-size: 0.78rem !important; }
-            details table { font-size: 0.72rem; }
-            details th, details td { padding: 0.4rem 0.35rem !important; font-size: 0.7rem !important; }
-        }
         @media print { .btn-dt { display: none; } body { color: #000; background: #fff; } }
     </style>
 </head>
@@ -78,191 +40,459 @@
     <div id="lfc-sidebar-container"></div>
     <div class="main-content-wrapper">
         <div class="premium-card" style="margin-bottom: 2rem; position: relative;">
+            <div id="adn-version-tag" style="position: absolute; top: 10px; right: 20px; font-size: 0.6rem; letter-spacing: 2px; opacity: 0.5;">CARGANDO...</div>
             <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
                 <div>
-                    <h1 class="premium-title">Coste — Automatización de 10 apartaderos</h1>
-                    <p style="opacity: 0.7; font-weight: 300;">Respuesta orden de magnitud · SICC v14.7 · TRM 4.400 COP/USD</p>
+                    <h1 class="premium-title" id="main-dns-title">REPORTE GERENCIAL</h1>
+                    <p id="main-dns-subtitle" style="opacity: 0.7; font-weight: 300;">Cargando…</p>
                 </div>
                 <button onclick="window.print()" class="btn-dt" style="padding: 0.8rem 1.5rem;">Exportar PDF</button>
             </div>
         </div>
 
-        <!-- 🏗️ Ampliación de alcance — 10 apartaderos -->
-        <div class="premium-card section-premium" id="consulta-tfp-apartaderos" style="border-left: 5px solid var(--accent);">
-            <p style="opacity: 0.9; line-height: 1.6; margin-bottom: 1.5rem;">
-                Coste de incorporar <strong>10 apartaderos</strong> al alcance SCC, sin modificación de longitud. La cifra depende de una decisión operativa de TFP: <strong>¿el CCO acciona el desvío remotamente, o solo lee la posición y el maquinista opera local?</strong>
-            </p>
+        <!-- KPIs vivos -->
+        <div class="metrics-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1.2rem; margin-bottom: 2rem;">
+            <div class="premium-card metric-card"><div class="metric-value" id="m-cop">…</div><div class="metric-label">Presupuesto COP</div></div>
+            <div class="premium-card metric-card"><div class="metric-value" id="m-usd-risk">…</div><div class="metric-label">USD @ TRM Risk 4.400</div></div>
+            <div class="premium-card metric-card"><div class="metric-value" id="m-usd-real">…</div><div class="metric-label">USD @ TRM real 3.637</div></div>
+            <div class="premium-card metric-card"><div class="metric-value" id="m-items">…</div><div class="metric-label">Ítems WBS · BCD v001</div></div>
+        </div>
 
-            <h3 style="color: var(--accent); margin: 0 0 0.6rem 0; font-size: 1rem;">Decisión operativa — define la cifra</h3>
-            <div class="scenario-grid" style="grid-template-columns: 1fr 1fr;">
-                <div class="scenario-card scenario-opt" style="border-color: #ffa502; background: rgba(255,165,2,0.08);">
-                    <h4>🅐 Mando remoto desde CCO</h4>
-                    <div class="figure">≈ 7,7 M USD</div>
-                    <p style="font-size: 1rem; opacity: 0.9; margin-top: 0.4rem;"><strong>$33.200 millones COP</strong></p>
-                    <p style="font-size: 0.85rem; opacity: 0.85; margin-top: 0.5rem;"><strong>Incluye motorización del desvío</strong> — motor SIL-3 acciona la aguja por orden del CCO + comprobador + telemando vital. Operación 100% remota.</p>
-                </div>
-                <div class="scenario-card scenario-opt" style="border-color: #2ed573;">
-                    <h4>🅑 Solo confirmación de posición</h4>
-                    <div class="figure">≈ 5,4 M USD</div>
-                    <p style="font-size: 1rem; opacity: 0.9; margin-top: 0.4rem;"><strong>$23.800 millones COP</strong></p>
-                    <p style="font-size: 0.85rem; opacity: 0.85; margin-top: 0.5rem;"><strong>Sin motorización</strong> — cambiavía autotalonable (manual con retorno por resorte) + comprobador de aguja. Maquinista actúa local; CCO solo lee posición en pantalla.</p>
-                </div>
+        <!-- Banner línea base -->
+        <div class="section-premium">
+            <div class="premium-card" style="border-left: 5px solid var(--success);">
+                <h3 style="color: var(--success); margin-bottom: 0.6rem;">Línea base BCD v001 — alineación contractual</h3>
+                <p style="opacity: 0.85; line-height: 1.6; margin: 0;">Presupuesto alineado a las Bases y Criterios de Diseño SCC v001 (Ardanuy, abril 2026) y a las DTs internas vigentes (DT-COMS-2026-007 línea base ADIF v1, DT-CTRL-2026-006 flota tractiva). Cifras vivas calculadas en cliente desde <code>wbs_presupuestal_datos.js</code> vía <code>wbs_core_logic.js → calcularAIUeIVA()</code>.</p>
             </div>
-            <p style="opacity: 0.85; font-size: 0.85rem; margin-top: 0.8rem; line-height: 1.5;">Ambas incluyen <strong>energía en sitio</strong> (~$1.000 M COP / punto) — solar, genset o red, lo que aplique. Si TFP confirma red trifásica × 2 disponible: −$1.000 M / punto.</p>
+        </div>
 
-            <h3 style="color: var(--accent); margin: 1.2rem 0 0.5rem 0; font-size: 1rem;">Supuestos para mantener el coste como extra mínimo al contrato</h3>
+        <!-- Optimizaciones doctrinales -->
+        <div class="premium-card section-premium">
+            <h2>🎯 Optimizaciones doctrinales — 4 reglas Tabla 17 AT1</h2>
+            <p style="opacity: 0.85; line-height: 1.6; margin-bottom: 1rem;">Palancas técnicas que reducen alcance sin tocar la oferta. Cada regla es una decisión de diseño respaldada por el BCD v001 y por la Tabla 17 del Apéndice Técnico 1. Son las que separan el escenario optimista del pesimista.</p>
             <table>
                 <thead>
                     <tr>
-                        <th>Supuesto</th>
-                        <th>Por qué aplica</th>
+                        <th>#</th>
+                        <th>Regla</th>
+                        <th>Fuente BCD</th>
+                        <th>Impacto financiero</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr><td><strong>Sin obra civil mayor</strong></td><td>Reuso de caseta y cimentaciones existentes. No se abre zanja ni se levantan estructuras nuevas.</td></tr>
-                    <tr><td><strong>Sin energización adicional</strong></td><td>Reuso de red eléctrica local o solar mínimo donde aplique. No se contrata acometida nueva.</td></tr>
-                    <tr><td><strong>Sin ENCE nuevo — controlador local pequeño</strong></td><td>Los 10 apartaderos cuelgan del ENCE existente más cercano vía FO. En sitio solo equipo de campo (motor en opción 🅐 · comprobador en opción 🅑) + radio. Fibra y TETRA del backbone pasan independiente — no se afectan.</td></tr>
-                    <tr><td><strong>Validación funcional vía PTC embarcado</strong></td><td>FRA 49 CFR §236.1005 permite cantonamiento virtual con lógica en el OBC. CCO confirma estado del apartadero sin armario PTC físico en cada uno.</td></tr>
-                </tbody>
-            </table>
-
-            <h3 style="color: #ff4757; margin: 1.2rem 0 0.5rem 0; font-size: 1rem;">Información que TFP debe definir para refinar la cifra</h3>
-            <p style="opacity: 0.85; line-height: 1.5; margin-bottom: 0.8rem; font-size: 0.9rem;">Las cifras de Esperado y Pesimista dependen de estas confirmaciones. El Optimista asume todas favorables; el Pesimista asume las dos desfavorables.</p>
-            <table>
-                <thead>
                     <tr>
-                        <th>Información requerida</th>
-                        <th>Caso favorable (asumido)</th>
-                        <th>Caso desfavorable</th>
-                        <th class="num">Δ × 10 si desfavorable</th>
+                        <td><strong>1</strong></td>
+                        <td><strong>Stop &amp; Switch FENOCO</strong> — interfaz operativa, sin pasarela ITCS ni integración técnica</td>
+                        <td>BCD §9.1, §9.2</td>
+                        <td>Blindaje legal — evita escalada de alcance</td>
                     </tr>
-                </thead>
-                <tbody>
-                    <tr><td><strong>① Ubicación PK de los 10 apartaderos</strong></td><td>—</td><td>Sin PK no se puede proceder a diseño</td><td class="num">—</td></tr>
-                    <tr><td><strong>② Estado de la estación en sitio</strong></td><td>Caseta y accesos utilizables</td><td>Abandonada → recuperar caseta + accesos</td><td class="num">+$3.000 – 8.000 millones COP</td></tr>
-                    <tr><td><strong>③ Energía eléctrica disponible</strong></td><td>Red trifásica cercana</td><td>Sin red → genset + solar + baterías</td><td class="num">+$2.000 millones COP</td></tr>
-                </tbody>
-            </table>
-
-            <h3 style="color: var(--accent); margin: 1.5rem 0 0.5rem 0; font-size: 1rem;">Cómo se descompone — coste de UN apartadero</h3>
-            <p style="opacity: 0.85; line-height: 1.5; margin-bottom: 0.8rem; font-size: 0.9rem;">Cifras en millones COP. Tres paquetes: <strong>motorización del desvío</strong>, <strong>comunicaciones y control</strong>, y <strong>energía en sitio</strong>.</p>
-            <table>
-                <thead>
                     <tr>
-                        <th>Concepto</th>
-                        <th class="num">🅐 Con motorización</th>
-                        <th class="num">🅑 Sin motorización</th>
+                        <td><strong>2</strong></td>
+                        <td><strong>Únicamente 5 ENCE</strong> (La Dorada-México · Pto Berrío-Grecia · Barrancabermeja · García Cadena · Zapatosa)</td>
+                        <td>BCD §4.1, Tabla 17 AT1</td>
+                        <td>Cada ENCE adicional evitado: <strong>+0,8 M USD</strong></td>
                     </tr>
-                </thead>
-                <tbody>
-                    <tr style="background: rgba(255, 215, 0, 0.04);"><td><strong>Motorización del desvío</strong> (× 2 por apartadero)</td><td class="num">1.280</td><td class="num">270</td></tr>
-                    <tr style="background: rgba(255, 215, 0, 0.04);"><td><strong>Comunicaciones y control</strong> en sitio</td><td class="num">534</td><td class="num">754</td></tr>
-                    <tr><td><strong>Energía</strong> en sitio (solar / genset / red — según punto)</td><td class="num">1.000</td><td class="num">1.000</td></tr>
+                    <tr>
+                        <td><strong>3</strong></td>
+                        <td><strong>PTC 100% virtual</strong> — sin hardware lateral en vía (sin balizas/transponders en 526 km)</td>
+                        <td>BCD §1.3, §4.1</td>
+                        <td>Ahorro: <strong>−15 M USD</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>4</strong></td>
+                        <td><strong>Redimensionamiento eléctrico y FO</strong> — UPS 4h señalización vs 24-48h TETRA · 48 hilos G.652.D homogéneos</td>
+                        <td>BCD §6.1.1, §10.1-10.5</td>
+                        <td>Ahorro: <strong>−5 a −10 M USD</strong></td>
+                    </tr>
                 </tbody>
                 <tfoot>
-                    <tr style="background: rgba(255, 215, 0, 0.06); font-weight: 600;">
-                        <td>Costo Directo por apartadero (millones COP)</td>
-                        <td class="num">2.814</td>
-                        <td class="num">2.024</td>
-                    </tr>
-                    <tr style="background: rgba(255, 215, 0, 0.10); font-weight: 600;">
-                        <td>Con AIU 33% + IVA 19% por apartadero</td>
-                        <td class="num">3.320</td>
-                        <td class="num">2.380</td>
-                    </tr>
-                    <tr style="background: rgba(255, 255, 255, 0.05); font-size: 0.85rem;">
-                        <td>× 10 apartaderos — Costo Directo (sin AIU ni IVA)</td>
-                        <td class="num">$28.140<br><span style="font-size: 0.85em; opacity: 0.7;">≈ 6,4 M USD</span></td>
-                        <td class="num">$20.240<br><span style="font-size: 0.85em; opacity: 0.7;">≈ 4,6 M USD</span></td>
-                    </tr>
-                    <tr style="background: rgba(255, 215, 0, 0.14); font-weight: 700;">
-                        <td>× 10 apartaderos con AIU+IVA (millones COP)</td>
-                        <td class="num">$33.200</td>
-                        <td class="num">$23.800</td>
-                    </tr>
-                    <tr style="background: rgba(100, 255, 218, 0.10); font-weight: 700;">
-                        <td>× 10 apartaderos (USD @ TRM 4.400)</td>
-                        <td class="num">≈ 7,7 M</td>
-                        <td class="num">≈ 5,4 M</td>
+                    <tr style="background: rgba(46, 213, 115, 0.10); font-weight: 700;">
+                        <td colspan="3">Ahorro objetivo total si las 4 reglas se aprueban por Interventoría</td>
+                        <td><strong>−20 a −25 M USD</strong></td>
                     </tr>
                 </tfoot>
             </table>
+            <p class="footnote">Las cifras son <strong>condicionadas a la no-objeción de la Interventoría</strong> sobre los criterios de diseño V1 (AT1 Tabla 17). Si una de las 4 reglas se objeta, el caso pesimista (80-110 M USD) se vuelve esperado.</p>
+        </div>
 
-            <details style="margin-top: 1rem; background: rgba(255,255,255,0.02); border: 1px solid var(--glass-border); border-radius: 8px; padding: 0.6rem 1rem;">
-                <summary style="cursor: pointer; font-size: 0.88rem; opacity: 0.8; padding: 0.3rem 0;">▸ Detalle técnico — composición completa por apartadero</summary>
-                <table style="margin: 0.8rem 0 0.4rem 0;">
-                    <thead>
-                        <tr>
-                            <th>Componente</th>
-                            <th class="num">🅐</th>
-                            <th class="num">🅑</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr style="background: rgba(255, 215, 0, 0.03);"><td colspan="3" style="font-weight: 600; opacity: 0.85; font-size: 0.85rem;">Motorización del desvío</td></tr>
-                        <tr><td>Desvío motorizado completo (motor SIL-3 + cerrojo + comprobador)</td><td class="num">1.280</td><td class="num" style="opacity: 0.4;">—</td></tr>
-                        <tr><td>Cambiavía autotalonable + comprobador de aguja</td><td class="num" style="opacity: 0.4;">—</td><td class="num">270</td></tr>
-                        <tr style="background: rgba(255, 215, 0, 0.03);"><td colspan="3" style="font-weight: 600; opacity: 0.85; font-size: 0.85rem;">Comunicaciones y control</td></tr>
-                        <tr><td>Telemando vital + interfaz CCO/ENCE</td><td class="num">250</td><td class="num" style="opacity: 0.4;">—</td></tr>
-                        <tr><td>Concentrador local autónomo + telemetría</td><td class="num" style="opacity: 0.4;">—</td><td class="num">550</td></tr>
-                        <tr><td>Radio en sitio</td><td class="num">180</td><td class="num">100</td></tr>
-                        <tr><td>Señales LED entrada / salida</td><td class="num">104</td><td class="num">104</td></tr>
-                        <tr style="background: rgba(255, 215, 0, 0.03);"><td colspan="3" style="font-weight: 600; opacity: 0.85; font-size: 0.85rem;">Energía</td></tr>
-                        <tr><td>Energía en sitio (solar / genset / red)</td><td class="num">1.000</td><td class="num">1.000</td></tr>
-                    </tbody>
-                    <tfoot>
-                        <tr style="background: rgba(255, 215, 0, 0.08); font-weight: 700;">
-                            <td>Total CD por apartadero (millones COP)</td>
-                            <td class="num">2.814</td>
-                            <td class="num">2.024</td>
-                        </tr>
-                    </tfoot>
-                </table>
-                <p style="opacity: 0.78; font-size: 0.82rem; margin: 0.6rem 0 0 0; line-height: 1.5;">Comunicaciones y control sale más alto en 🅑 ($754 vs $534 sumando las 3 líneas) porque el concentrador opera autónomo — sin recibir órdenes del CCO — y carga más sensores y telemetría. En 🅐 el cerebro vital está en el CCO/ENCE; el telemando en sitio solo retransmite.</p>
-            </details>
-
-            <h3 style="color: #ffa502; margin: 1.5rem 0 0.5rem 0; font-size: 1rem;">Ajustes si el sitio cambia — por punto</h3>
+        <!-- Comparativa contractual -->
+        <div class="premium-card section-premium">
+            <h2>Comparativa contractual — referencias monetarias</h2>
             <table>
                 <thead>
                     <tr>
-                        <th>Condición de sitio</th>
-                        <th class="num">Δ por punto (millones COP)</th>
-                        <th class="num">Δ × 10 si todos</th>
+                        <th>Línea</th>
+                        <th class="num">USD @ TRM 4.400</th>
+                        <th class="num">COP (M)</th>
+                        <th>Estado</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr style="background: rgba(46, 213, 115, 0.06);">
-                        <td>✅ TFP confirma red eléctrica trifásica × 2 disponible (no toca solar)</td>
-                        <td class="num" style="color: #2ed573;">−1.000</td>
-                        <td class="num" style="color: #2ed573;">−$10.000</td>
+                    <tr>
+                        <td><strong>Oferta APP 001/2025</strong> — precio venta sin AIU (criterio Grupo Ortiz)</td>
+                        <td class="num"><strong>69,08 M</strong></td>
+                        <td class="num">303.952</td>
+                        <td>Línea de referencia</td>
                     </tr>
                     <tr>
-                        <td>🔴 Estación abandonada — caseta y accesos no utilizables (recuperar)</td>
-                        <td class="num">+300 – 800</td>
-                        <td class="num">+$3.000 – 8.000</td>
+                        <td><strong>Precio de estructuración</strong> — banca Grupo Ortiz (con AIU)</td>
+                        <td class="num"><strong>73,66 M</strong></td>
+                        <td class="num">324.104</td>
+                        <td>Techo bancario</td>
+                    </tr>
+                    <tr style="background: rgba(255, 215, 0, 0.06);">
+                        <td><strong>Línea base Grupo Ortiz</strong> — CD + IVA, sin AIU ⭐ <em>cifra contable</em></td>
+                        <td class="num"><strong id="cmp-lfc-sin-aiu">…</strong></td>
+                        <td class="num" id="cmp-lfc-sin-aiu-cop">…</td>
+                        <td>Cifra protagonista</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Línea base Total c/AIU+IVA</strong> — corte <span id="fecha-corte">2026-05-05</span></td>
+                        <td class="num"><strong id="cmp-lfc">…</strong></td>
+                        <td class="num" id="cmp-lfc-cop">…</td>
+                        <td>Adjunta a banca</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Referencia Ardanuy v1</strong> — consultor de diseño (CAPEX puro, sin IVA, sin AIU)</td>
+                        <td class="num"><strong>57,33 M</strong></td>
+                        <td class="num">252.251</td>
+                        <td>Validación cruzada</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr style="background: rgba(46, 213, 115, 0.10); font-weight: 700;">
+                        <td>Holgura criterio Grupo Ortiz (CD + IVA vs Oferta sin AIU)</td>
+                        <td class="num" id="cmp-gap-ortiz">…</td>
+                        <td class="num" id="cmp-gap-ortiz-cop">…</td>
+                        <td>Margen contable</td>
+                    </tr>
+                    <tr style="background: rgba(46, 213, 115, 0.08); font-weight: 600;">
+                        <td>Holgura LFC c/AIU+IVA vs estructuración bancaria</td>
+                        <td class="num" id="cmp-gap">…</td>
+                        <td class="num" id="cmp-gap-cop">…</td>
+                        <td>Margen bruto</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <p class="footnote">El AIU 33% sobre Obra Civil ($19.186 M COP / $4,36 M USD) se contabiliza como <strong>rubro separado</strong> en el sistema Grupo Ortiz. Por eso la cifra contable protagonista es <strong>CD + IVA, sin AIU</strong>. Comparada contra la oferta también sin AIU ($303.952 M COP / $69,08 M USD), el margen lee +21%. Ardanuy convertido a TRM 4.400 para comparación homogénea (origen: 66,4 M USD @ TRM 3.800, documento <code>LFC-U2-CTSC-ED-QTO-CO-0001</code>).</p>
+        </div>
+
+        <!-- Escenarios de ejecución -->
+        <div class="premium-card section-premium">
+            <h2>Escenarios de ejecución</h2>
+            <div class="scenario-grid">
+                <div class="scenario-card scenario-opt">
+                    <h4>Optimista</h4>
+                    <div class="figure">~59 M USD</div>
+                    <p>Línea base actual @ TRM Risk 4.400. Asume cierre exitoso de RFQ pendientes dentro de la banda ADIF + sin reasignación de composición Ardanuy.</p>
+                </div>
+                <div class="scenario-card scenario-esp">
+                    <h4>Esperado</h4>
+                    <div class="figure">59 – 71 M USD</div>
+                    <p>Banda entre TRM Risk (4.400) y TRM real spot (3.637). Refleja exposición cambiaria sin colchón. Sin DT-COMS-2026-008 todavía aplicada.</p>
+                </div>
+                <div class="scenario-card scenario-pes">
+                    <h4>Pesimista</h4>
+                    <div class="figure">80 – 110 M USD</div>
+                    <p>Materialización de gaps Ardanuy: obra civil FO subestimada (~16 M USD), Diseño Fase III ausente (~2,8 M USD), upgrade ENCE post-RFQ (~2,1 M USD), TRM real adversa.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Resumen por capítulo -->
+        <div class="premium-card section-premium">
+            <h2>Resumen por capítulo</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Cap.</th>
+                        <th>Sistema</th>
+                        <th class="num">Costo Directo (COP)</th>
+                        <th class="num">Total c/AIU+IVA (COP)</th>
+                        <th class="num">USD @ 4.400</th>
+                    </tr>
+                </thead>
+                <tbody id="tabla-capitulos"><tr><td colspan="5" style="text-align:center; opacity:0.6;">Cargando…</td></tr></tbody>
+                <tfoot id="tabla-capitulos-foot"></tfoot>
+            </table>
+        </div>
+
+        <!-- Riesgos contractuales -->
+        <div class="premium-card section-premium">
+            <h2>Riesgos contractuales (BCD-aligned)</h2>
+
+            <div class="risk-card risk-high">
+                <h4>🔴 ALTO — Aprobación criterios de diseño V1 (no-objeción Interventoría)</h4>
+                <p>Las cifras son <strong>estimadas hasta la no-objeción de la Interventoría</strong> sobre los criterios V1 (Apéndice Técnico 1, Tabla 17). El cierre de la línea base depende de esa aprobación, que fija el <strong>Stop & Switch en Chiriguaná</strong> y deja fuera del alcance las soluciones propietarias de Knorr-Bremse y PowerTrunk.</p>
+            </div>
+
+            <div class="risk-card risk-high">
+                <h4>🔴 ALTO — Gap obra civil FO vs Ardanuy</h4>
+                <p>LFC tiene $52.219 M COP en obra civil de fibra; Ardanuy estima $122.894 M COP. Diferencia de ~$70.675 M COP (~16 M USD). Si Ardanuy cotiza correctamente, ejecución queda corta. Mitigación: reasignación interna desde Cap 4.3 (PaN básicos fuera del alcance BCD §8.2) y Cap 6 (OBU). Ver <code>roadmap.md → Bloque D</code>.</p>
+            </div>
+
+            <div class="risk-card risk-med">
+                <h4>🟡 MEDIO — RFQ pendientes (8 ítems)</h4>
+                <p>4 ítems en ratificación contra ADIF (ENCE, desvíos motorizados, control remoto, señales LED) + 4 sin ADIF en RFQ urgente (F.O. 48h G.652.D, contador de ejes, armario PTC SIL-3, UPS). Estado y proveedores priorizados en Vista Final → modal "Pendientes RFQ".</p>
+            </div>
+
+            <div class="risk-card risk-med">
+                <h4>🟡 MEDIO — Exposición cambiaria</h4>
+                <p>TRM Risk 4.400 incorpora margen ~+21% vs TRM real spot 3.637. Si la TRM se mantiene cerca del spot durante ejecución, el equivalente USD del CAPEX sube de 59,1 M a 71,5 M (+21%).</p>
+            </div>
+
+            <div class="risk-card risk-low">
+                <h4>🟢 BAJO — Stop & Switch FENOCO</h4>
+                <p>El alcance contractual es <strong>operativo (Stop & Switch en Chiriguaná)</strong>, no integración técnica con FENOCO. Esto retira los costos de interoperabilidad pesada del CAPEX SCC.</p>
+            </div>
+        </div>
+
+        <!-- Supuestos técnicos y comerciales -->
+        <div class="premium-card section-premium">
+            <h2>Supuestos técnicos y comerciales</h2>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+                <div>
+                    <h3 style="color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 0.5rem; margin-bottom: 1rem;">Técnicos (BCD v001)</h3>
+                    <ul style="opacity: 0.85; line-height: 1.9; font-size: 0.9rem;">
+                        <li><strong>Trocha:</strong> 914 mm</li>
+                        <li><strong>Señalización virtual:</strong> CTC + PTC embarcado, Virtual Fixed Block bajo 49 CFR §236.1005</li>
+                        <li><strong>Fibra óptica:</strong> 48 hilos G.652.D OSP, 526 km + 10% spare</li>
+                        <li><strong>5 ENCE nominados:</strong> La Dorada–México, Pto Berrío–Grecia, Barrancabermeja, García Cadena, Zapatosa</li>
+                        <li><strong>Pasos a Nivel protegidos:</strong> 24 (9 Tipo C SIL-3 + 15 Tipo B SLA)</li>
+                        <li><strong>Flota tractiva:</strong> 15 unidades (1 U18 base AT1 §5 + 14 Factor Calidad concesionario)</li>
+                        <li><strong>UPS:</strong> 4h señalización · 24h TETRA sitios remotos</li>
+                        <li><strong>Stop & Switch FENOCO:</strong> operativo en Chiriguaná, sin integración técnica</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 style="color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 0.5rem; margin-bottom: 1rem;">Comerciales</h3>
+                    <ul style="opacity: 0.85; line-height: 1.9; font-size: 0.9rem;">
+                        <li><strong>AIU:</strong> 33% sobre Obra Civil (23% A + 5% I + 5% U)</li>
+                        <li><strong>IVA:</strong> 19% (Suministros + Servicios) + IVA 19% sobre Utilidad (Obra)</li>
+                        <li><strong>TRM Risk:</strong> 4.400 COP/USD (techo de cobertura cambiaria)</li>
+                        <li><strong>TRM real referencia:</strong> 3.637 COP/USD (spot informativo)</li>
+                        <li><strong>EUR/COP:</strong> 4.796 (TRM × 1,09)</li>
+                        <li><strong>Fuera del alcance:</strong> soluciones propietarias Knorr-Bremse y PowerTrunk</li>
+                        <li><strong>Líneas base de precios:</strong> ADIF (BPA España) + Conceptual LFC + RFQ pendientes</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Criterios BCD que cuidan el margen -->
+        <div class="premium-card section-premium">
+            <h2>🛡️ Criterios BCD v001 que cuidan el margen</h2>
+            <p style="opacity: 0.85; line-height: 1.6; margin-bottom: 1rem;">Cada criterio del BCD desactiva una vía típica de sobrecosto en señalización ferroviaria. Sin estos criterios, el escenario pesimista sería el esperado.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Criterio</th>
+                        <th>Sección BCD</th>
+                        <th>Qué bloquea / cómo cuida margen</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>PTC con cantonamiento virtual</strong></td>
+                        <td>§1.3, §4.1</td>
+                        <td>Elimina balizas, transponders y circuitos de vía en 526 km. Concentra hardware solo donde es operacionalmente necesario.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Solo 5 ENCE</strong> en Tabla 17 AT1</td>
+                        <td>§4.1, Tabla 2</td>
+                        <td>Topa enclavamientos físicos. Cualquier ENCE adicional propuesto cuesta +0,8 M USD evitable.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Stop &amp; Switch FENOCO</strong> (operativo, no técnico)</td>
+                        <td>§9.1, §9.2</td>
+                        <td>Bloquea pasarela ITCS / integración propietaria con sistemas de terceros. Contractualmente defendible: AT1 no exige integración técnica.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Solo 24 PaN protegidos</strong> (9 Tipo C + 15 Tipo B)</td>
+                        <td>§8.2</td>
+                        <td>Los 122 PaN básicos restantes quedan <strong>fuera del alcance SCC</strong>. Libera ~$15,7B COP del Cap 4.3 si se aplica.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Fibra G.652.D 48 hilos homogénea</strong></td>
+                        <td>§6.1.1</td>
+                        <td>Estandariza RFQ. Evita sobredimensionamiento (proyectos típicos cotizan 64h = exceso 33%).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>UPS diferenciada por bloque</strong> (4h señalización · 24-48h TETRA)</td>
+                        <td>§10.1-10.5</td>
+                        <td>Evita sobre-dimensionar baterías en bloques no críticos. Bloque tractor del ahorro $5-10 M USD.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Redundancia satelital</strong> (no torres TETRA adicionales)</td>
+                        <td>§6.2.3</td>
+                        <td>Cobertura redundante sin CAPEX estático adicional en vía.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Jerarquía AREMA &gt; FRA &gt; AAR &gt; UIC</strong></td>
+                        <td>§2.1 (AT3 Cap I lit. c)</td>
+                        <td>Criterio claro de desempate normativo. Reduce iteraciones de diseño y cambios de alcance en ingeniería de detalle.</td>
                     </tr>
                 </tbody>
             </table>
+            <p class="footnote">Síntesis: cada criterio BCD = un argumento contractual defensible ante Interventoría = blinda margen. Aprobación firme de los 4 criterios + reasignación DT-COMS-008 + cierre 8 RFQ + cobertura cambiaria = caso esperado se mantiene en +21% de holgura contable (criterio Grupo Ortiz).</p>
+        </div>
 
-            <p class="footnote" style="margin-top: 1rem;">Cifra en orden de magnitud SICC v14.7 — no constituye cotización formal. Queda sujeta a validación posterior (proveedores, sitio, modelo operativo TFP).</p>
+        <!-- Palancas para mejorar el margen -->
+        <div class="premium-card section-premium">
+            <h2>📈 Palancas activas para mejorar el margen</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Acción</th>
+                        <th>Impacto estimado</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Aprobación firme de las <strong>4 reglas Tabla 17 AT1</strong> por Interventoría</td>
+                        <td>−20 a −25 M USD</td>
+                        <td>🟡 Pendiente no-objeción</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Sacar <strong>122 PaN básicos del Cap 4.3</strong> (BCD §8.2 lo respalda)</td>
+                        <td>~$15,7B COP / 3,6 M USD</td>
+                        <td>🟢 Decisión inmediata</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Recalcular <strong>desvíos motorizados</strong> con base ADIF VEA010 + factor soberanía 914 mm</td>
+                        <td>~$25B COP / 5,7 M USD</td>
+                        <td>🟢 3 días</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Cotizar <strong>obra civil FO con constructor local</strong> (526 km zanja + monotubo + atravesamientos)</td>
+                        <td>Cubre subestimación $70,6B COP vs Ardanuy</td>
+                        <td>🟡 1 semana</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Cerrar <strong>8 RFQ pendientes</strong> dentro de banda ADIF + factor soberanía</td>
+                        <td>Confirma o erosiona ±2-3 M USD</td>
+                        <td>🟡 En curso</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Aplicar <strong>DT-COMS-2026-008</strong> (reasignación neutral en COP totales)</td>
+                        <td>Trazabilidad capítulo a capítulo defendible</td>
+                        <td>🟡 Propuesta</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Cobertura cambiaria al techo <strong>TRM 4.400</strong></td>
+                        <td>Bloquea +21% de colchón vs TRM real spot</td>
+                        <td>🟢 Operativo</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
 
         <!-- Disclaimer contractual -->
         <div class="disclaimer">
-            <h4>Disclaimer</h4>
-            <p>Cifras de orden de magnitud bajo línea base SICC v14.7 (BCD v001 — Ardanuy abril 2026). No constituye cotización formal. Sujeta a validación posterior y a DT de ampliación de alcance contractual cuando el modelo operativo esté definido (Apéndice Técnico 1 — Tabla 17, Contrato APP No. 001 de 2025).</p>
-            <p>Detalle WBS por ítem del proyecto base: <a href="/IX_WBS_Planificacion/WBS_Vista_Final" style="color: var(--accent);">Vista Final</a>.</p>
+            <h4>Disclaimer contractual</h4>
+            <p>Las cifras son estimadas hasta la no-objeción de la Interventoría sobre los criterios de diseño V1 (Apéndice Técnico 1, Tabla 17, Contrato APP No. 001 de 2025). El cierre de la línea base depende de esa aprobación.</p>
+            <p>Detalle WBS por ítem: <a href="WBS_Vista_Final.html" style="color: var(--accent);">Vista Final</a> · Excel descargable de 7 hojas con desglose por capítulo, AIU, Acta de Obra, Pendientes RFQ y Fuentes.</p>
         </div>
     </div>
 
-    <script src="/IX_WBS_Planificacion/lfc-terminology.js?v=14.7.14"></script>
-    <script src="/IX_WBS_Planificacion/sidebar-component.js?v=14.7.14"></script>
+    <script src="lfc-terminology.js?v=14.7.14"></script>
+    <script src="sidebar-component.js?v=14.7.14"></script>
+    <script src="wbs_presupuestal_datos.js?v=14.7.5"></script>
+    <script src="wbs_core_logic.js?v=14.7.5"></script>
     <script>
+        const TRM_REAL = 3637;
+        const ESTRUCTURACION_USD = 73_660_000;
+        const OFERTA_SIN_AIU_USD = 69_080_000;
+        const OFERTA_SIN_AIU_COP = 303_952_000_000;
+
+        function fmtCOP_M(n) { return '$' + (n / 1e6).toLocaleString('es-CO', { maximumFractionDigits: 0 }) + 'M'; }
+        function fmtCOP_full(n) { return '$' + Math.round(n).toLocaleString('es-CO'); }
+        function fmtUSD_M(n) { return '$' + (n / 1e6).toLocaleString('en-US', { maximumFractionDigits: 1 }) + 'M'; }
+        function fmtCOPMillones(n) { return Math.round(n / 1e6).toLocaleString('es-CO'); }
+
         document.addEventListener('DOMContentLoaded', () => {
-            const titleEl = document.getElementById('adn-page-title');
-            if (titleEl && window.LFC_TERMINOLOGY) {
-                titleEl.textContent = `Reporte — ${window.LFC_TERMINOLOGY.APP_SHORT_NAME || 'LFC2'}`;
+            // ADN
+            if (window.LFC_TERMINOLOGY) {
+                const t = window.LFC_TERMINOLOGY;
+                document.getElementById('adn-page-title').textContent = `Reporte Gerencial — ${t.APP_SHORT_NAME || 'LFC2'}`;
+                document.getElementById('main-dns-title').textContent = `REPORTE GERENCIAL EJECUTIVO`;
+                document.getElementById('main-dns-subtitle').textContent = `${t.PROJECT?.FULL_LOCATION || 'La Dorada – Chiriguaná'} · Contrato APP No. 001 de 2025`;
+                document.getElementById('adn-version-tag').textContent = t.PROJECT?.VERSION || 'v14.7';
             }
+
+            if (typeof WBS_CORE === 'undefined' || !window.wbsDataPresupuestal) {
+                document.getElementById('m-cop').textContent = 'ERROR';
+                console.error('WBS_CORE o wbsDataPresupuestal no cargados');
+                return;
+            }
+
+            const TRM = WBS_CORE.getTRM();
+            const calc = WBS_CORE.calcularAIUeIVA(window.wbsDataPresupuestal);
+            const nItems = window.wbsDataPresupuestal.length;
+
+            // KPIs
+            document.getElementById('m-cop').textContent = fmtCOP_M(calc.total);
+            document.getElementById('m-usd-risk').textContent = fmtUSD_M(calc.total / TRM);
+            document.getElementById('m-usd-real').textContent = fmtUSD_M(calc.total / TRM_REAL);
+            document.getElementById('m-items').textContent = nItems;
+
+            // Comparativa — Total c/AIU+IVA
+            const lfcUSD = calc.total / TRM;
+            document.getElementById('cmp-lfc').textContent = (lfcUSD / 1e6).toLocaleString('es-CO', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' M';
+            document.getElementById('cmp-lfc-cop').textContent = fmtCOPMillones(calc.total);
+            const gap = ESTRUCTURACION_USD - lfcUSD;
+            const gapCOP = gap * TRM;
+            document.getElementById('cmp-gap').textContent = '+' + (gap / 1e6).toLocaleString('es-CO', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' M';
+            document.getElementById('cmp-gap-cop').textContent = '+' + fmtCOPMillones(gapCOP);
+
+            // Comparativa — Criterio contable Grupo Ortiz: CD + IVA, sin AIU
+            const lfcSinAIU_COP = calc.costoDirecto + calc.iva;
+            const lfcSinAIU_USD = lfcSinAIU_COP / TRM;
+            document.getElementById('cmp-lfc-sin-aiu').textContent = (lfcSinAIU_USD / 1e6).toLocaleString('es-CO', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' M';
+            document.getElementById('cmp-lfc-sin-aiu-cop').textContent = fmtCOPMillones(lfcSinAIU_COP);
+            const gapOrtizUSD = OFERTA_SIN_AIU_USD - lfcSinAIU_USD;
+            const gapOrtizCOP = OFERTA_SIN_AIU_COP - lfcSinAIU_COP;
+            const gapOrtizPct = (gapOrtizUSD / OFERTA_SIN_AIU_USD) * 100;
+            document.getElementById('cmp-gap-ortiz').textContent = '+' + (gapOrtizUSD / 1e6).toLocaleString('es-CO', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' M (+' + gapOrtizPct.toFixed(1) + '%)';
+            document.getElementById('cmp-gap-ortiz-cop').textContent = '+' + fmtCOPMillones(gapOrtizCOP);
+
+            // Tabla por capítulo
+            const nombres = WBS_CORE.getNombresCapitulos ? WBS_CORE.getNombresCapitulos() : {};
+            const tbody = document.getElementById('tabla-capitulos');
+            tbody.innerHTML = '';
+            Object.keys(calc.capitulos).sort().forEach(cap => {
+                const c = calc.capitulos[cap];
+                const usd = c.total / TRM;
+                tbody.innerHTML += `
+                    <tr>
+                        <td><strong>${cap}</strong></td>
+                        <td>${nombres[cap] || ('Capítulo ' + cap)}</td>
+                        <td class="num">${fmtCOP_full(c.costoDirecto)}</td>
+                        <td class="num"><strong>${fmtCOP_full(c.total)}</strong></td>
+                        <td class="num">${fmtUSD_M(usd)}</td>
+                    </tr>`;
+            });
+            document.getElementById('tabla-capitulos-foot').innerHTML = `
+                <tr style="background: rgba(255, 215, 0, 0.08); font-weight: 700;">
+                    <td colspan="2">TOTAL PROYECTO</td>
+                    <td class="num">${fmtCOP_full(calc.costoDirecto)}</td>
+                    <td class="num">${fmtCOP_full(calc.total)}</td>
+                    <td class="num">${fmtUSD_M(calc.total / TRM)}</td>
+                </tr>`;
+
+            // Fecha de corte
+            document.getElementById('fecha-corte').textContent = new Date().toLocaleDateString('es-CO', { year: 'numeric', month: '2-digit', day: '2-digit' });
+
+            console.log('✅ Reporte Gerencial v14.7.5 cargado · ' + nItems + ' ítems · TRM ' + TRM);
         });
     </script>
 </body>
