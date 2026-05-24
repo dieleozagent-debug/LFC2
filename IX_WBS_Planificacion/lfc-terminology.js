@@ -8,8 +8,11 @@
  */
 
 const LFC_DBCI = {
+    // Nombre corto de marca — patrón único de títulos/headers: "<Página> · LFC UF2"
+    APP_SHORT_NAME: "LFC UF2",
+
     PROJECT: {
-        NAME: "LFC STUDIO",
+        NAME: "LFC UF2",
         FULL_LOCATION: "APP La Dorada-Chiriguaná",
         VERSION: "v14.7 BCD-aligned",
     },
