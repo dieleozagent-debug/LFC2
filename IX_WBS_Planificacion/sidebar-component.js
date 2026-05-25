@@ -18,7 +18,7 @@
         <div class="nav-group" style="margin-bottom: 2rem;">
             <div class="nav-label" style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 2px; color: var(--text-muted); margin-bottom: 1rem; font-weight: 700;">Presupuesto y WBS</div>
             <a href="/IX_WBS_Planificacion/WBS_Vista_Final" class="nav-item" id="nav-wbs">⭐ Presupuesto SCC — Vista Final</a>
-            <a href="/wbs" class="nav-item" id="nav-wbs-int">🛠️ WBS Interactiva (proponer DT)</a>
+            <a href="/IX_WBS_Planificacion/WBS_COMPLETA_TODO_Interactiva_v4.0" class="nav-item" id="nav-wbs-int">🛠️ WBS Interactiva (proponer DT)</a>
             <a href="/IX_WBS_Planificacion/WBS_Reporte_Gerencial" class="nav-item" id="nav-report">📋 Reporte Gerencial</a>
             <a href="/IX_WBS_Planificacion/WBS_Detalle_Apartadero" class="nav-item" id="nav-apartadero">🛤️ Detalle Apartadero (SCC)</a>
             <a href="/IX_WBS_Planificacion/WBS_Baseline_ENCE" class="nav-item" id="nav-ence">🧱 Baseline ENCE (ADIF)</a>
@@ -119,7 +119,6 @@
             const navMap = {
                 'WBS_Vista_Final': 'nav-wbs',
                 'WBS_COMPLETA': 'nav-wbs-int',
-                '/wbs': 'nav-wbs-int',
                 'Reporte': 'nav-report',
                 'Detalle_Apartadero': 'nav-apartadero',
                 'Baseline_ENCE': 'nav-ence',
