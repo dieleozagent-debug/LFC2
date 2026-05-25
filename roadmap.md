@@ -37,7 +37,7 @@
 
 ### 🚨 P0 — Bloqueantes (todos cerrados)
 - [x] **P0-1 · `undefined` en `<title>`** — root cause real: `APP_SHORT_NAME` **nunca se definía** en `lfc-terminology.js` (2 páginas mostraban `undefined`, otras 3 caían al fallback `LFC2`). Fix en 1 línea. `90c7fb6`
-- [x] **P0-2 · Marca incoherente** — `PROJECT.NAME` "LFC STUDIO"→"LFC UF2" (dinámicos) + 33 `- LFC STUDIO` y 15 `SICC -` en `<title>` estáticos → patrón `· LFC UF2`. `90c7fb6`, `ababe31`
+- [x] **P0-2 · Marca incoherente** — `PROJECT.NAME` "LFC STUDIO"→"LFC UF2" (dinámicos) + 33 `- LFC STUDIO` y 15 `SICC -` en `<title>` estáticos → patrón `· LFC UF2`. `90c7fb6`, `ababe31`. **Completado** (`6845c7d`) tras curaduría: home title + 6 setters runtime + Phase→Fase + Audit/Servir, todos a `·` (la pasada inicial dejó conviviendo `|`/`-`/`—`/`·`).
 - [x] **P0-3 · Landmarks** — `role="navigation"`+aria-label y `role="main"`+`id="main"` en 41 páginas (vía atributo, sin reescribir tags). `582470d`
 - [x] **P0-4 · `:focus-visible` global** — ⚠️ *auditoría exagerada*: no era "cero" (había 2 reglas que quitaban outline); faltaba foco global. Añadido en wbs-shared.css + 3 inline. `2f90241`
 - [x] **P0-5 · Breakpoint móvil `<640px`** — ⚠️ *auditoría falsa parcial*: sí existían 768/600px en 6 archivos. Añadido `<640` donde faltaba (home, wbs-shared, Básica/Detalle). `9dcb2c0`
@@ -49,7 +49,7 @@
 - [x] **P1-3 · Vista Final** — el light es deliberado (impresión/banca); badge "🖨️ Vista impresión · banca/ANI" + sidebar dark ya presente. `b7113b4`
 - [x] **P1-4 · Typo "Diseño"** — `505688c`
 - [x] **P1-5 · Descripción real por card** — el placeholder estaba hardcodeado en el `.map()`; se añadió campo `desc` por entregable. `19fdd64`
-- [x] **P1-6 · URL canónica `/wbs`** — único path con versión; ya existía el alias `/wbs` (rewrite), se repuntó la navegación. Sin 301 nuevo (riesgo de loop no testeable en prod). `98d3db6`
+- [ ] **P1-6 · URL canónica `/wbs`** — ⚠️ **REABIERTO (regresión R1)**: repuntar la nav a `/wbs` (`98d3db6`) rompió la WBS Interactiva — el *rewrite* de Vercel sirve el HTML pero los assets relativos (`src="lfc-terminology.js"`) resuelven contra `/` → 404, "dataset no cargó". **Revertido** a path completo (`c24cb0f`), verificado en vivo (assets 200). Detectado por curaduría visual post-deploy del agente externo. Para rehacerlo bien: **redirect 301** (no rewrite) o assets con rutas absolutas, y **validar en deploy preview de Vercel antes de mergear** (lección: los cambios de routing/rewrite no se ven sin deploy real).
 
 ### 🔧 P2 — Pulido
 - [x] **P2-1 · Altura uniforme de cards** — `align-items:stretch` + `margin-top:auto` en CTA. `c533979`
