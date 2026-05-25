@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EDT Detallado - WBS APP La Dorada (México) - Chiriguaná</title>
+    <title>EDT Detallado · LFC UF2</title>
     <style>
         * {
             margin: 0;
@@ -208,9 +208,9 @@
         </div>
     </div>
 
-    <!-- Cargar datos dinámicos -->
-    <script src="datos_wbs_TODOS_items.js?v=1.0.3"></script>
-    <script src="wbs_metadata_enriquecida.js?v=1.0.4"></script>
+    <!-- Cargar datos dinámicos — Universo A (post-purga FENOCO), D3 migrado -->
+    <script src="wbs_presupuestal_datos.js?v=14.7.14"></script>
+    <script src="wbs_metadata_enriquecida.js?v=14.7.14"></script>
     
     <script>
         let edtDataEnriquecida = {};
@@ -220,7 +220,21 @@
             console.log('🚀 Inicializando EDT...');
             
             const metadata = window.wbsMetadataEnriquecida;
-            const wbsData = window.datos_wbs;
+            // D3: migrado de Universo B (window.datos_wbs, cifras pre-purga FENOCO)
+            // a Universo A (window.wbsDataPresupuestal). Adaptador A → estructura esperada.
+            const wbsData = window.wbsDataPresupuestal
+                ? { items: window.wbsDataPresupuestal.map(it => ({
+                        codigo: it.item,
+                        descripcion: it.descripcion,
+                        tipo: it.tipo,
+                        cantidad: it.cantidad,
+                        unidad: it.unidad,
+                        vu_cop: it.vu,
+                        total_cop: it.total,
+                        capitulo: it.capitulo,
+                        subcapitulo: ''
+                    })) }
+                : null;
             
             if (!wbsData || !wbsData.items) {
                 console.error('â datos_wbs no disponible');
