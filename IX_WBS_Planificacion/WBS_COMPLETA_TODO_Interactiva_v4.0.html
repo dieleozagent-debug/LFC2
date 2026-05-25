@@ -275,11 +275,11 @@
     </div>
 
     <!-- ADN, Dataset, Motor y Metadata -->
-    <script src="lfc-terminology.js?v=14.7.14"></script>
-    <script src="sidebar-component.js?v=14.7.14"></script>
-    <script src="wbs_presupuestal_datos.js?v=14.7.5"></script>
-    <script src="wbs_core_logic.js?v=14.7.5"></script>
-    <script src="wbs_metadata_enriquecida.js?v=14.7.5"></script>
+    <script src="lfc-terminology.js?v=14.7.15"></script>
+    <script src="sidebar-component.js?v=14.7.15"></script>
+    <script src="wbs_presupuestal_datos.js?v=14.7.15"></script>
+    <script src="wbs_core_logic.js?v=14.7.15"></script>
+    <script src="wbs_metadata_enriquecida.js?v=14.7.15"></script>
 
     <script>
         let wbsData = { items: [] };
@@ -457,6 +457,7 @@
                                 ${item.descripcion}
                                 ${pillTipo(item.tipo)}
                                 ${item.dt_ref ? `<span class="blindaje-badge" onclick="window.open('/II_A_Analisis_Contractual/dictamenes/', '_blank')">🛡️ DT ${item.dt_ref} ACTIVA</span>` : ''}
+                                ${(() => { const m = getMetadata(item.item); return (m && Array.isArray(m.decisiones_tecnicas) && m.decisiones_tecnicas.length) ? `<span class="blindaje-badge" title="${m.decisiones_tecnicas.join(', ')}" onclick="abrirModalDT('${item.item}')">🛡️ ${m.decisiones_tecnicas.length} DT</span>` : ''; })()}
                                 ${item.rfq_pendiente ? `<span class="pill-rfq">RFQ pendiente</span>` : ''}
                             </div>
                             <div class="item-valores" style="display: flex; gap: 0.4rem; flex-direction: column;">
