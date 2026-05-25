@@ -45,7 +45,7 @@
 | Autotalonables 1.5.100 | $135M | sin partida BPA | — | ⚠️ alcance distinto (ver pendiente "desvío talonable") |
 
 **Conclusión:** presupuesto internamente consistente y ADIF-alineado en los ítems con partida; los VU defendibles incluyen márgenes documentados sobre el €→COP base (logística, MO local, trocha 914mm). Coincide con la hoja 8 "Validación ADIF" del entregable.
-**Nota:** `precios_Adif.md` está **actualizado pero sin commitear** (cambio de Diego: pasó de "EN PROCESO" a "✅ VALIDADO E INTEGRADO" con los 5 precios BPA reales). Pendiente de decidir si se commitea.
+**Cierre 2026-05-24:** `precios_Adif.md` (referencia ADIF: "EN PROCESO" → "✅ VALIDADO E INTEGRADO" con los 5 precios BPA reales) commiteado en `a915724`, y el entregable `Presupuesto_SCC_LFC2_2026-05-05 (4).xlsx` en `c0d355f`. Working tree limpio.
 
 ---
 
