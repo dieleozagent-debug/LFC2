@@ -337,8 +337,8 @@
         document.addEventListener('DOMContentLoaded', () => {
             if (window.LFC_TERMINOLOGY) {
                 const t = window.LFC_TERMINOLOGY;
-                document.title = `WBS Interactiva — ${t.PROJECT?.NAME || 'LFC2'}`;
-                document.getElementById('main-dns-title').innerHTML = `🛠️ WBS Interactiva — ${t.PROJECT?.NAME || 'LFC2'}`;
+                document.title = `WBS Interactiva · ${t.PROJECT?.NAME || 'LFC2'}`;
+                document.getElementById('main-dns-title').innerHTML = `🛠️ WBS Interactiva · ${t.PROJECT?.NAME || 'LFC2'}`;
                 document.getElementById('main-dns-subtitle').textContent = `${t.PROJECT?.FULL_LOCATION || 'La Dorada – Chiriguaná'} · Contrato APP No. 001 de 2025 · Generador de DT por ítem`;
                 document.getElementById('adn-version-tag').textContent = t.PROJECT?.VERSION || 'v14.7';
             }
