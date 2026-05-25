@@ -238,6 +238,7 @@
 
 | # | Item | Acción |
 |---|---|---|
+| 🔐 N3 | **Token GitHub en texto plano** en el remote `origin` (`.git/config` de `/home/administrador/docker/LFC2`): PAT clásico `ghp_…` embebido en la URL. Riesgo local/operacional (no está commiteado al repo). **Pendiente — diferido a propósito mientras trabajamos en local.** | Al pasar a operación: (1) revocar el PAT en GitHub, (2) `git remote set-url` sin credencial embebida + SSH o credential helper, (3) scrub de `~/.bash_history`. |
 | D4 | **Duplicación ID DT-015**: existen 2 archivos con mismo ID y contenido distinto (`DT-SICC-2026-015.md` energía LiFePO4 + `DT-SICC-2026-015_Blindaje_Fibra_Backbone.md` fibra G.652.D). | Renombrar el de energía a `DT-ENRG-2026-XXX_Saneamiento_LiFePO4.md` (prefijo canónico ENRG). Verificar que ningún YAML de otra DT lo referencie por ID. |
 | D5 | **Direccionalidad sync**: `lfc-cli sync` regenera `.js` desde `.md`. Si el `.md` está incompleto, **destruye el dataset** (caso 2026-05-05: 135→30 ítems). | Invertir flujo: `.js` es SSoT, `.md` se deriva. O agregar guardia: si `count(items)` post-sync < pre-sync, abortar. |
 | D6 | **Excel hoja 4 de `WBS_Vista_Final`** dice hardcoded "133 ítems". | Parametrizar a `data.length`. |
