@@ -112,12 +112,29 @@ function sync() {
 
     log(`✅ Parseados ${items.length} ítems jerárquicos de la WBS\n`, colors.green);
 
+    // D5 — Guardia anti-destrucción del dataset (footgun 2026-05-05: 135→30 ítems).
+    // Si el parseo del .md produjo MENOS ítems que el dataset .js vigente, abortar
+    // SIN sobrescribir nada. Override explícito con `lfc sync --force`.
+    const jsPathPrev = path.join(REPO_ROOT, 'IX_WBS_Planificacion/wbs_presupuestal_datos.js');
+    if (fs.existsSync(jsPathPrev)) {
+        const prevCount = (fs.readFileSync(jsPathPrev, 'utf8').match(/"item":/g) || []).length;
+        if (prevCount > 0 && items.length < prevCount) {
+            log(`🛑 ABORTADO (guardia D5): el sync produjo ${items.length} ítems pero el dataset vigente tiene ${prevCount}.`, colors.red);
+            log(`   Probable .md incompleto. No se sobrescribe wbs_presupuestal_datos.js ni el .json.`, colors.red);
+            if (!process.argv.includes('--force')) {
+                log(`   Si la reducción es intencional: lfc sync --force`, colors.yellow);
+                process.exit(1);
+            }
+            log(`   --force detectado: continuando con la reducción.`, colors.yellow);
+        }
+    }
+
     // Generar JSON
     const dbci = require('../IX_WBS_Planificacion/lfc-terminology.js');
     const trm = dbci.FINANCIAL.TRM; 
     
     const wbsData = {
-        version: "6.3",
+        version: "14.7",
         fecha_actualizacion: new Date().toISOString().split('T')[0],
         trm_aplicada: trm,
         items: items.map(item => ({
@@ -136,7 +153,7 @@ function sync() {
     log(`💾 Creado (Multinivel v6.3): ${jsonPath}`, colors.green);
 
     const jsPath = path.join(REPO_ROOT, 'IX_WBS_Planificacion/wbs_presupuestal_datos.js');
-    const jsContent = `// WBS Datos SICC v6.3 - DBCI DETERMINISTA\nwindow.wbsDataPresupuestal = ${JSON.stringify(wbsData.items, null, 4)};\n`;
+    const jsContent = `// WBS Datos LFC UF2 v14.7 — Universo A (BCD v001) · generado por 'lfc sync' (${new Date().toISOString().split('T')[0]})\nwindow.wbsDataPresupuestal = ${JSON.stringify(wbsData.items, null, 4)};\n`;
     fs.writeFileSync(jsPath, unicodeEscape(jsContent), 'utf8');
     log(`💾 Creado (Legacy Match v6.3): ${jsPath}\n`, colors.green);
 
