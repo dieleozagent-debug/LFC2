@@ -1,6 +1,7 @@
 # ⚖️ DICTAMEN TÉCNICO VINCULANTE (SICC v14.0)
 
-**Documento:** DT-SICC-2026-015 (Desintoxicación Fase III)
+**Documento:** DT-ENRG-2026-004 (Saneamiento Energía LiFePO4 — Desintoxicación Fase III)
+**Nota:** renombrado de `DT-SICC-2026-015` (2026-05-24) por colisión de ID con el DT de Backbone Fibra; prefijo canónico ENRG.
 **Área:** ingenieria_conceptual
 **Fecha:** 2026-04-27T22:12:00.000Z
 **Validado por:** Juez DeepSeek Reasoner (R1) - SICC Sovereign
@@ -23,7 +24,7 @@ Se ordena la actualización inmediata de los siguientes criterios:
 
 ```yaml
 dt_metadata:
-  id: "DT-SICC-2026-015"
+  id: "DT-ENRG-2026-004"
   fecha: "2026-04-27"
   item_wbs: "INGENIERIA_TRANSVERSAL"
   estado: "pendiente_ejecucion"
