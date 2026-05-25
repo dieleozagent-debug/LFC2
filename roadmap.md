@@ -232,7 +232,7 @@
 | D1 | **`agente/architecture.md` desalineado con BCD v001:** línea 22 "fibra 64 hilos" (BCD: 48), línea 25 "eliminada UPS 24h TETRA" (BCD §10.5: 24-48h), línea 39 blacklist "Stop & Switch" (BCD §9.2 lo manda). | Sanear el agente. Si no, falla `/audit` contra el propio contrato. |
 | D1.5 | **`II_A_Analisis_Contractual/dictamenes/` vaciado el 2026-05-08** (commit `d23dd82`): los 57 archivos eran producto v8 pre-purga del agente vía `/promote` durante pruebas tempranas (terminología "Red Vital IP", "Bus Vital 110V DC", "PTC Virtual (SICC) L2", "Soberano/Sovereign", "[REDACTADO_SICC]", "DT-SICC-V8-*", cifras "CAPEX Protegido $X M USD" sin trazabilidad). El directorio queda con un `README.md` placeholder. Histórico forense conservado en `agente/brain/dictamenes/`. | **Plan de regeneración detallado en `agente/brain/ROADMAP.md` sección "🟢 PLAN PENDIENTE — Regeneración de DTs en LFC2 (post-D1 + D0)"** (5 pasos: cerrar D1+D0+D3 → `/audit` por especialidad → `/promote` → reescribir `dictamenes/index.html` corporativo → restaurar al sidebar gerencial). Cuando se ejecute, mover este ítem a "Cerrado". |
 | D2 | **Re-ingesta `contrato_documentos`** en pgvector con BCD v001 como L4 vinculante. | `docker exec sicc-postgres ...` (no disparar sin Vo.Bo. del director técnico) |
-| D3 | **Universo B (`datos_wbs_TODOS_items.js`)** servido en Vercel con cifras pre-purga FENOCO. Sidebar reapuntada (D5 cerrado), pero las 3 vistas que lo consumen (`WBS_COMPLETA_TODO_Interactiva_v4.0`, `WBS_COMPLETA_TODO_Interactiva_v4_0`, `WBS_EDT_Detalle`) siguen sirviendo cifras desactualizadas. | Migrar las 3 al schema A (mapping `codigo→item`, `vu_cop→vu`, `total_cop→total`) o dropear duplicado. |
+| D3 | **Universo B (`datos_wbs_TODOS_items.js`)** servido en Vercel con cifras pre-purga FENOCO. ⚠️ **Alcance real verificado 2026-05-24: lo consumen ~12 archivos**, no 3 — `WBS_EDT_Detalle.html`, `SICC_Audit_Dashboard.html` y **9 entregables** (SISTEMA_01/02, ESPECIALIDAD_02/04, GESTION_Cambios en `7_SISTEMAS_EJECUTIVOS/` y `8_DOCUMENTOS_SERVIDOS/HTML/`). Requiere verificar uso real por archivo (algunos quizá solo cargan el script sin usarlo). | **Pasada dedicada** (riesgo: lección [[feedback_consolidar_frontend]] — migrar dataset, no matar vista). Mapping schema A: `codigo→item`, `vu_cop→vu`, `total_cop→total`. |
 
 ### Media (deuda técnica documental)
 
@@ -241,7 +241,7 @@
 | 🔐 N3 | **Token GitHub en texto plano** en el remote `origin` (`.git/config` de `/home/administrador/docker/LFC2`): PAT clásico `ghp_…` embebido en la URL. Riesgo local/operacional (no está commiteado al repo). **Pendiente — diferido a propósito mientras trabajamos en local.** | Al pasar a operación: (1) revocar el PAT en GitHub, (2) `git remote set-url` sin credencial embebida + SSH o credential helper, (3) scrub de `~/.bash_history`. |
 | D4 | **Duplicación ID DT-015**: existen 2 archivos con mismo ID y contenido distinto (`DT-SICC-2026-015.md` energía LiFePO4 + `DT-SICC-2026-015_Blindaje_Fibra_Backbone.md` fibra G.652.D). | Renombrar el de energía a `DT-ENRG-2026-XXX_Saneamiento_LiFePO4.md` (prefijo canónico ENRG). Verificar que ningún YAML de otra DT lo referencie por ID. |
 | D5 | **Direccionalidad sync**: `lfc-cli sync` regenera `.js` desde `.md`. Si el `.md` está incompleto, **destruye el dataset** (caso 2026-05-05: 135→30 ítems). | Invertir flujo: `.js` es SSoT, `.md` se deriva. O agregar guardia: si `count(items)` post-sync < pre-sync, abortar. |
-| D6 | **Excel hoja 4 de `WBS_Vista_Final`** dice hardcoded "133 ítems". | Parametrizar a `data.length`. |
+| ~~D6~~ | ~~**Excel hoja 4 de `WBS_Vista_Final`** dice hardcoded "133 ítems"~~. | ✅ **Cerrado 2026-05-24** (`5e4cb56`): verificado que `wbs_core_logic.js` ya usaba `items.length` (Excel sin hardcode); el único `133` visible quedaba en 2 cards del home → ahora dinámico vía `.js-item-count` desde `wbsDataPresupuestal.length`. |
 | ~~D7~~ | ~~**TRM real "3,637" hardcoded** en 3 lugares de `WBS_Vista_Final.html`~~. | ✅ Cerrado en `d55e653`: constante `TRM_REAL=3637` declarada arriba del bloque de export. |
 | D8 | **Energía por bloque en WBS Cap 1/2:** el `.md` no detalla UPS 4h (PTC/CCO/PaN) vs 24-48h (TETRA) por subcap. | Anotar en notas de subcap; no urgente para entrega. |
 | D9 | **WBS Cap 1.4 (25 desvíos motorizados)**: el BCD dice "cambiavías motorizados gobernados por enclavamiento en zonas operativas". 25 / 5 ENCE = 5 motorizados por estación. Verificar contra planos AT1. | RFQ + cruce planos. |
@@ -250,8 +250,8 @@
 
 | # | Item | Acción |
 |---|---|---|
-| D10 | **9 archivos** todavía contienen "Karpathy" residual pese al commit `d1d7fd8`: `README.md.legacy` (OK, es backup), `VII_Soporte_Especializado/VII.2_*.md` (7 archivos), `scripts/lfc-daemon.js`. | Re-purga selectiva. |
-| D11 | **`wbs_presupuestal_datos.js` encabezado** dice "v6.3" desde el sync de Antigravity 2026-05-05. Debería decir v14.7. | Ajustar header al regenerar. |
+| ~~D10~~ | ~~**9 archivos** con "Karpathy" residual~~. | ✅ **Cerrado 2026-05-24** (verificado): los archivos **vivos** (`.md`, `.js`) están limpios; "Karpathy" solo persiste en backups **`.legacy`** (no servidos relevantemente). Nota menor: considerar `*.legacy` en `.vercelignore`/`.gitignore` si molesta. |
+| ~~D11~~ | ~~**`wbs_presupuestal_datos.js` encabezado** dice "v6.3"~~. | ✅ **Cerrado 2026-05-24** (obsoleto): el archivo ya **no tiene header** (empieza en `window.wbsDataPresupuestal = [`); el "v6.3" no existe. Si se quiere header de versión, debe emitirlo el generador (`lfc-cli sync`) o se pierde en el próximo sync (ver D5). |
 
 ---
 
