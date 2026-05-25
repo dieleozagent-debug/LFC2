@@ -67,26 +67,6 @@
             margin-bottom: 1rem;
         }
 
-        /* Feeds del Cerebro */
-        .brain-feed {
-            background: rgba(100, 255, 218, 0.05);
-            border-left: 4px solid var(--success);
-            padding: 1.5rem;
-            border-radius: 0 var(--border-radius-md) var(--border-radius-md) 0;
-            margin-top: 2rem;
-            font-size: 0.9rem;
-        }
-
-        .brain-label {
-            color: var(--success);
-            font-weight: 800;
-            font-size: 0.7rem;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            margin-bottom: 0.5rem;
-            display: block;
-        }
-
         .category-label {
             color: var(--accent);
             font-size: 0.8rem;
@@ -111,25 +91,19 @@
     <!-- Main Content -->
     <main class="main-content-wrapper">
         <header class="header-section">
-            <div class="stat-pill" id="adn-version-pill">LFC v6.0 PREMIUM</div>
+            <div class="stat-pill" id="adn-version-pill">LFC UF2</div>
             <h1 class="premium-title" id="main-dns-title">WBS Master Control</h1>
             <p id="main-dns-subtitle" style="color: var(--text-muted); font-size: 1.1rem; max-width: 800px;">Portal de gestión de ingeniería con soberanía tecnológica. Estandarización de activos, control presupuestal y auditoría de saneamiento técnico.</p>
         </header>
 
-        <!-- DASHBOARD CENTRAL -->
-        <div class="hero-section" onclick="openPage('WBS_Vista_Final.html')">
-            <div class="stat-pill" style="background: var(--success);">NUEVO MÓDULO</div>
-            <h2 style="font-size: 2.5rem; font-weight: 900; margin-bottom: 1rem;">WBS Interactiva v4.0</h2>
-            <p style="font-size: 1.2rem; opacity: 0.8; margin-bottom: 2rem;">Gestión de 124 ítems transversales + Motor de Decisiones Técnicas (DT) SICC-Ready.</p>
+        <!-- DASHBOARD CENTRAL: entrada a la WBS Interactiva (generador de DT) -->
+        <div class="hero-section" onclick="openPage('WBS_COMPLETA_TODO_Interactiva_v4.0.html')">
+            <div class="stat-pill" style="background: var(--success);">⭐ Entrada principal</div>
+            <h2 style="font-size: 2.5rem; font-weight: 900; margin-bottom: 1rem;">WBS Interactiva — Generador de DT</h2>
+            <p style="font-size: 1.2rem; opacity: 0.8; margin-bottom: 2rem;"><span class="js-item-count">133</span> ítems navegables por capítulo + búsqueda + toggle COP/USD, con botón "Proponer DT" por ítem y plantilla exportable a markdown.</p>
             <div style="background: var(--accent); color: var(--primary); padding: 1rem 3rem; border-radius: 50px; font-weight: 800; display: inline-block; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-                🚀 ACCEDER AL CONTROL MAESTRO
+                🛠️ Abrir WBS Interactiva
             </div>
-        </div>
-
-        <!-- BRAIN FEED (HALLAZGOS DEL AGENTE) -->
-        <div class="brain-feed premium-card" style="border-left-color: var(--success); margin-bottom: 3rem;">
-            <span class="brain-label">🧠 HALLAZGOS DEL AGENTE (LIVE FEED)</span>
-            <div id="brain-insight-text" style="color: var(--text-main);">Auditoría de Sprint 1 completada. Saneamiento de Mojibake al 100% mediante Unicode Escaping. Verificando coherencia entre Capítulos 1 y 6.</div>
         </div>
 
         <span class="category-label">Herramientas Proactivas</span>
@@ -137,15 +111,15 @@
             <!-- PRESUPUESTO -->
             <div class="premium-card" onclick="openPage('WBS_Vista_Final.html')">
                 <div style="font-size: 2rem; margin-bottom: 1rem;">💰</div>
-                <h3 style="color: var(--accent); margin-bottom: 1rem;">Detalle Presupuestal</h3>
-                <p style="font-size: 0.9rem; color: var(--text-muted);">Lógica multidivisa COP/USD con AIU e IVA automatizado. Criterios de exportación premium.</p>
+                <h3 style="color: var(--accent); margin-bottom: 1rem;">Presupuesto SCC — Vista Final</h3>
+                <p style="font-size: 0.9rem; color: var(--text-muted);">Vista de entrega (gerencia/banca/ANI): tabla por capítulo, AIU e IVA automatizados y Excel de 7 hojas.</p>
             </div>
 
             <!-- ANALISIS RIESGOS -->
             <div class="premium-card" onclick="openPage('WBS_Analisis_Riesgos.html')">
                 <div style="font-size: 2rem; margin-bottom: 1rem;">⚠️</div>
                 <h3 style="color: var(--accent); margin-bottom: 1rem;">Matriz de Riesgos</h3>
-                <p style="font-size: 0.9rem; color: var(--text-muted);">Análisis de probabilidad e impacto técnico. 25 riesgos críticos mapeados con estrategias de mitigación.</p>
+                <p style="font-size: 0.9rem; color: var(--text-muted);">Análisis de probabilidad e impacto técnico. 48 riesgos en seguimiento con estrategias de mitigación y transferibilidad a ANI.</p>
             </div>
 
             <!-- CRONOGRAMA -->
@@ -188,13 +162,14 @@
         </div>
 
         <footer style="margin-top: 5rem; padding: 2rem 0; border-top: 1px solid var(--glass-border); opacity: 0.6; font-size: 0.8rem; display: flex; justify-content: space-between;">
-            <p id="footer-text-1">© 2025 LFC Studio | SICC System</p>
-            <p id="footer-text-2">B.R.A.I.N. Protocol Activated | v6.0</p>
+            <p id="footer-text-1">© 2026 LFC UF2 · Sistema SCC (Señalización, Control y Comunicaciones)</p>
+            <p id="footer-text-2">Línea base v14.7 · BCD v001</p>
         </footer>
     </main>
 
     <!-- ADN Engine -->
     <script src="lfc-terminology.js?v=14.7.14"></script>
+    <script src="wbs_presupuestal_datos.js?v=14.7.14"></script>
     <script src="sidebar-component.js?v=14.7.14"></script>
     
     <script>
@@ -222,22 +197,9 @@
                 setTimeout(() => loader.style.display = 'none', 500);
             }, 800);
 
-            // Simulación de "Cerebro" (Insights dinámicos)
-            const insights = [
-                "Hallazgo: Correlación 100% positiva en el Capítulo 2 (Telecomunicaciones).",
-                "Alerta: Verificando redundancia en el canal TETRA/LTE preventivamente.",
-                "Optimización: Saneamiento de metadatos completado en los 14 platos.",
-                "Cerebro: Protocolo de Auditoría Doctrinal aplicado. Back y Front sincronizados."
-            ];
-            let i = 0;
-            setInterval(() => {
-                document.getElementById('brain-insight-text').style.opacity = '0';
-                setTimeout(() => {
-                    document.getElementById('brain-insight-text').textContent = insights[i];
-                    document.getElementById('brain-insight-text').style.opacity = '1';
-                    i = (i + 1) % insights.length;
-                }, 500);
-            }, 6000);
+            // Conteo de ítems dinámico (SSoT: wbs_presupuestal_datos.js)
+            const n = (window.wbsDataPresupuestal && window.wbsDataPresupuestal.length) || 0;
+            if (n) document.querySelectorAll('.js-item-count').forEach(el => el.textContent = n);
         });
     </script>
 </body>
