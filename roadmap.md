@@ -2,7 +2,7 @@
 
 **Última actualización:** 24 de Mayo de 2026
 **Hito vigente:** entrega presupuesto ANI 2026-05-05 · tag `entrega-presupuesto-2026-05-05`
-**Última sesión:** 2026-05-24 — Auditoría UX/A11y/Marca cerrada (16 commits, verificada antes de aplicar) + purga N1 'Red Vital IP' en terminology.js
+**Última sesión:** 2026-05-24 — Auditoría UX/A11y/Marca cerrada + ciclo regresión→fix `/wbs` (rewrite→redirect) + deuda D3/D4/D5/D6/D10/D11 + E6/E8 + **validación de presupuesto vs ADIF** (Total $260,010M OK)
 
 > Bitácora viva. Cada sesión actualiza esta página: cierra ítems hechos, agrega hallazgos nuevos, mueve los que pasan a deuda profunda hacia "Backlog".
 
@@ -28,6 +28,24 @@
 - **Cantidades por estación ENCE** — único pendiente del baseline: nº real de desvíos/señales/contadores por cada uno de los 5 ENCE (ingeniería de detalle); hoy se usa promedio Ardanuy ÷ 5.
 - **Desvío talonable** — no existe partida en BPA (solo tipos C/P/G/AV/B) → precio contradictorio si se requiere.
 - **RFQ formal** — los precios ADIF son referencia europea; confirmar con proveedor COL/LATAM antes de valor contractual.
+
+### ✅ Validación de presupuesto vs ADIF (2026-05-24)
+
+> Re-validado el presupuesto que sirve la WBS Interactiva (`/IX_WBS_Planificacion/WBS_COMPLETA_TODO_Interactiva_v4.0`) contra el dataset en vivo y la referencia ADIF actualizada (`precios_Adif.md`, precios BPA 2026 reales, EUR/COP 4.796).
+
+**Totales (recalculados con `WBS_CORE.calcularAIUeIVA`, AIU 33% solo OBRA + IVA 19%):**
+- 133 ítems · Costo Directo **$211,191M** · AIU $19,186M · IVA $29,632M · **TOTAL $260,010M** (USD@4400 ≈ $59,09M) → cuadra con Vista Final y la cifra canónica. ✅
+
+**Cruce ADIF de ítems ajustados (dataset vs `precios_Adif.md`):**
+| WBS | Dataset VU | ADIF base | Δ | Estado |
+|---|---|---|---|---|
+| ENCE 1.3.100-104 | $2.000M | CAC020 núcleo ~$1.987M | +1% | ✅ |
+| Desvíos motoriz. 1.4.100 | $640M | VEA010+CFA010+CFA040 ~$576M | +~11% (logística/MO/trocha) | ✅ |
+| Señales ENCE 1.5.101 | $52M | CCA040 $38M | +37% | ✅ (consistente con hoja 8: +36%) |
+| Autotalonables 1.5.100 | $135M | sin partida BPA | — | ⚠️ alcance distinto (ver pendiente "desvío talonable") |
+
+**Conclusión:** presupuesto internamente consistente y ADIF-alineado en los ítems con partida; los VU defendibles incluyen márgenes documentados sobre el €→COP base (logística, MO local, trocha 914mm). Coincide con la hoja 8 "Validación ADIF" del entregable.
+**Nota:** `precios_Adif.md` está **actualizado pero sin commitear** (cambio de Diego: pasó de "EN PROCESO" a "✅ VALIDADO E INTEGRADO" con los 5 precios BPA reales). Pendiente de decidir si se commitea.
 
 ---
 
