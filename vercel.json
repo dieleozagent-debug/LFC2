@@ -17,44 +17,52 @@
       "source": "/V. Ingenieria de detalle/:path*",
       "destination": "/V_Ingenieria_detalle/:path*",
       "permanent": true
+    },
+    {
+      "source": "/wbs",
+      "destination": "/IX_WBS_Planificacion/WBS_COMPLETA_TODO_Interactiva_v4.0",
+      "permanent": true
+    },
+    {
+      "source": "/vista",
+      "destination": "/IX_WBS_Planificacion/WBS_Vista_Final",
+      "permanent": true
+    },
+    {
+      "source": "/reporte",
+      "destination": "/IX_WBS_Planificacion/WBS_Reporte_Gerencial",
+      "permanent": true
+    },
+    {
+      "source": "/apartadero",
+      "destination": "/IX_WBS_Planificacion/WBS_Detalle_Apartadero",
+      "permanent": true
+    },
+    {
+      "source": "/ence",
+      "destination": "/IX_WBS_Planificacion/WBS_Baseline_ENCE",
+      "permanent": true
+    },
+    {
+      "source": "/riesgos",
+      "destination": "/IX_WBS_Planificacion/WBS_Analisis_Riesgos",
+      "permanent": true
+    },
+    {
+      "source": "/entregables",
+      "destination": "/X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/HTML/INDICE_Documentos_Servidos",
+      "permanent": true
+    },
+    {
+      "source": "/master",
+      "destination": "/X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/HTML/SISTEMA_01_Control_y_Senalizacion_EJECUTIVO",
+      "permanent": true
     }
   ],
   "rewrites": [
     {
       "source": "/",
       "destination": "/index.html"
-    },
-    {
-      "source": "/wbs",
-      "destination": "/IX_WBS_Planificacion/WBS_COMPLETA_TODO_Interactiva_v4.0"
-    },
-    {
-      "source": "/vista",
-      "destination": "/IX_WBS_Planificacion/WBS_Vista_Final"
-    },
-    {
-      "source": "/reporte",
-      "destination": "/IX_WBS_Planificacion/WBS_Reporte_Gerencial"
-    },
-    {
-      "source": "/apartadero",
-      "destination": "/IX_WBS_Planificacion/WBS_Detalle_Apartadero"
-    },
-    {
-      "source": "/ence",
-      "destination": "/IX_WBS_Planificacion/WBS_Baseline_ENCE"
-    },
-    {
-      "source": "/riesgos",
-      "destination": "/IX_WBS_Planificacion/WBS_Analisis_Riesgos"
-    },
-    {
-      "source": "/entregables",
-      "destination": "/X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/HTML/INDICE_Documentos_Servidos.html"
-    },
-    {
-      "source": "/master",
-      "destination": "/X_ENTREGABLES_CONSOLIDADOS/8_DOCUMENTOS_SERVIDOS/HTML/SISTEMA_01_Control_y_Senalizacion_EJECUTIVO.html"
     },
     {
       "source": "/0_1_MATRIZ_ROLES_PMO_EPC_RACI.md",
