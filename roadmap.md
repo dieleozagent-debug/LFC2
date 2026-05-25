@@ -239,8 +239,8 @@
 | # | Item | Acción |
 |---|---|---|
 | 🔐 N3 | **Token GitHub en texto plano** en el remote `origin` (`.git/config` de `/home/administrador/docker/LFC2`): PAT clásico `ghp_…` embebido en la URL. Riesgo local/operacional (no está commiteado al repo). **Pendiente — diferido a propósito mientras trabajamos en local.** | Al pasar a operación: (1) revocar el PAT en GitHub, (2) `git remote set-url` sin credencial embebida + SSH o credential helper, (3) scrub de `~/.bash_history`. |
-| D4 | **Duplicación ID DT-015**: existen 2 archivos con mismo ID y contenido distinto (`DT-SICC-2026-015.md` energía LiFePO4 + `DT-SICC-2026-015_Blindaje_Fibra_Backbone.md` fibra G.652.D). | Renombrar el de energía a `DT-ENRG-2026-XXX_Saneamiento_LiFePO4.md` (prefijo canónico ENRG). Verificar que ningún YAML de otra DT lo referencie por ID. |
-| D5 | **Direccionalidad sync**: `lfc-cli sync` regenera `.js` desde `.md`. Si el `.md` está incompleto, **destruye el dataset** (caso 2026-05-05: 135→30 ítems). | Invertir flujo: `.js` es SSoT, `.md` se deriva. O agregar guardia: si `count(items)` post-sync < pre-sync, abortar. |
+| ~~D4~~ | ~~**Duplicación ID DT-015**~~ (energía LiFePO4 + fibra G.652.D compartían `DT-SICC-2026-015`). | ✅ **Cerrado 2026-05-24** (`1d0576e`): el de energía → `DT-ENRG-2026-004_Saneamiento_LiFePO4.md` (ID interno + YAML §10 actualizados); el de fibra conserva el 015 (las 4 refs en docs apuntan a fibra). Verificado: ningún otro DT lo referenciaba por ID. |
+| ~~D5~~ | ~~**Direccionalidad sync**: `lfc-cli sync` regenera `.js` desde `.md`; si el `.md` está incompleto **destruye el dataset** (135→30)~~. | ✅ **Cerrado 2026-05-24** (`3d8367c`): guardia en `sync()` que aborta SIN sobrescribir si `items.length` < count del dataset vigente. Override con `lfc sync --force`. Probado: 30<133 aborta, 133/134 continúa. (Invertir el flujo `.js`→SSoT queda como mejora mayor en backlog.) |
 | ~~D6~~ | ~~**Excel hoja 4 de `WBS_Vista_Final`** dice hardcoded "133 ítems"~~. | ✅ **Cerrado 2026-05-24** (`5e4cb56`): verificado que `wbs_core_logic.js` ya usaba `items.length` (Excel sin hardcode); el único `133` visible quedaba en 2 cards del home → ahora dinámico vía `.js-item-count` desde `wbsDataPresupuestal.length`. |
 | ~~D7~~ | ~~**TRM real "3,637" hardcoded** en 3 lugares de `WBS_Vista_Final.html`~~. | ✅ Cerrado en `d55e653`: constante `TRM_REAL=3637` declarada arriba del bloque de export. |
 | D8 | **Energía por bloque en WBS Cap 1/2:** el `.md` no detalla UPS 4h (PTC/CCO/PaN) vs 24-48h (TETRA) por subcap. | Anotar en notas de subcap; no urgente para entrega. |
@@ -251,7 +251,7 @@
 | # | Item | Acción |
 |---|---|---|
 | ~~D10~~ | ~~**9 archivos** con "Karpathy" residual~~. | ✅ **Cerrado 2026-05-24** (verificado): los archivos **vivos** (`.md`, `.js`) están limpios; "Karpathy" solo persiste en backups **`.legacy`** (no servidos relevantemente). Nota menor: considerar `*.legacy` en `.vercelignore`/`.gitignore` si molesta. |
-| ~~D11~~ | ~~**`wbs_presupuestal_datos.js` encabezado** dice "v6.3"~~. | ✅ **Cerrado 2026-05-24** (obsoleto): el archivo ya **no tiene header** (empieza en `window.wbsDataPresupuestal = [`); el "v6.3" no existe. Si se quiere header de versión, debe emitirlo el generador (`lfc-cli sync`) o se pierde en el próximo sync (ver D5). |
+| ~~D11~~ | ~~**`wbs_presupuestal_datos.js` encabezado** dice "v6.3"~~. | ✅ **Cerrado 2026-05-24** (obsoleto): el archivo ya **no tiene header** (empieza en `window.wbsDataPresupuestal = [`); el "v6.3" no existe. El generador (`lfc-cli sync`) ya fue corregido (`3d8367c`) para emitir header "v14.7 — Universo A" + fecha y `version: "14.7"` en el próximo sync. |
 
 ---
 
